@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Erin Lamberton — Funded Graduate Programs in Environmental Science</title>
+<style>
+  :root {
+    --bg: #f7f5f0;
+    --surface: #ffffff;
+    --surface-2: #faf8f3;
+    --ink: #1a1a1a;
+    --ink-soft: #4a4a4a;
+    --ink-faint: #8a8a8a;
+    --line: #e6e1d6;
+    --accent: #c4632a;
+    --accent-soft: #f3ddc9;
+    --green: #2f6b3d;
+    --green-soft: #d8ead0;
+    --blue: #2b5d87;
+    --blue-soft: #d4e3ef;
+    --purple: #6b4c93;
+    --purple-soft: #e3d8ef;
+    --gold: #8a6d1f;
+    --gold-soft: #efe4be;
+    --teal: #1f6b6b;
+    --teal-soft: #c9e6e6;
+    --shadow: 0 1px 2px rgba(0,0,0,.04), 0 4px 16px rgba(0,0,0,.04);
+    --radius: 14px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1a1816;
+      --surface: #232120;
+      --surface-2: #2a2725;
+      --ink: #f0ece4;
+      --ink-soft: #c8c2b6;
+      --ink-faint: #8c8479;
+      --line: #3a3633;
+      --accent: #e08a55;
+      --accent-soft: #4a2f1d;
+      --green: #6fb380;
+      --green-soft: #1f3a26;
+      --blue: #6fa8d6;
+      --blue-soft: #1c3850;
+      --purple: #b395d8;
+      --purple-soft: #36284a;
+      --gold: #d4b75a;
+      --gold-soft: #3d3318;
+      --teal: #6fb8b8;
+      --teal-soft: #1c3a3a;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 4px 16px rgba(0,0,0,.3);
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: ui-sans-serif, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  .page {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+  header.hero {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 36px;
+    box-shadow: var(--shadow);
+    margin-bottom: 28px;
+  }
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: .14em;
+    color: var(--accent);
+    font-size: .78rem;
+    font-weight: 700;
+  }
+  h1 { font-size: 2.4rem; margin: .35em 0 .15em; line-height: 1.1; }
+  .lede { color: var(--ink-soft); font-size: 1.05rem; margin: 0 0 18px; max-width: 65ch; }
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    gap: 14px;
+    margin-top: 18px;
+  }
+  .stat {
+    background: var(--surface-2);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 12px 14px;
+  }
+  .stat .k { color: var(--ink-faint); font-size: .78rem; text-transform: uppercase; letter-spacing: .08em; }
+  .stat .v { font-weight: 600; font-size: 1rem; margin-top: 2px; }
+  .meta-row {
+    display: flex; flex-wrap: wrap; gap: 16px 22px;
+    color: var(--ink-soft); font-size: .92rem;
+    margin-top: 12px;
+  }
+  .meta-row a { color: var(--accent); text-decoration: none; }
+  .meta-row a:hover { text-decoration: underline; }
+
+  section.card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 28px 32px;
+    margin-bottom: 24px;
+    box-shadow: var(--shadow);
+  }
+  section.card h2 {
+    font-size: 1.35rem; margin: 0 0 16px;
+    display: flex; align-items: center; gap: 10px;
+  }
+  section.card h2 .dot {
+    display: inline-block; width: 10px; height: 10px; border-radius: 50%;
+    background: var(--accent);
+  }
+
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+    gap: 18px;
+  }
+  .skill-group h3 {
+    font-size: .82rem; text-transform: uppercase; letter-spacing: .1em;
+    color: var(--ink-faint); margin: 0 0 10px; font-weight: 700;
+  }
+  .pills { display: flex; flex-wrap: wrap; gap: 6px; }
+  .pill {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: .82rem;
+    font-weight: 500;
+    border: 1px solid transparent;
+  }
+  .pill.field   { background: var(--green-soft);  color: var(--green);  border-color: var(--green); }
+  .pill.tech    { background: var(--blue-soft);   color: var(--blue);   border-color: var(--blue); }
+  .pill.subject { background: var(--purple-soft); color: var(--purple); border-color: var(--purple); }
+  .pill.project { background: var(--gold-soft);   color: var(--gold);   border-color: var(--gold); }
+  .pill.service { background: var(--teal-soft);   color: var(--teal);   border-color: var(--teal); }
+
+  .two-col {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+    gap: 18px;
+  }
+  .narrative {
+    background: var(--surface-2);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 20px 22px;
+  }
+  .narrative h3 {
+    margin: 0 0 8px; font-size: 1.05rem;
+  }
+  .narrative p { margin: 0; color: var(--ink-soft); }
+
+  .tabs {
+    display: flex; flex-wrap: wrap; gap: 6px;
+    border-bottom: 1px solid var(--line);
+    margin: 0 0 22px;
+  }
+  .tab-btn {
+    background: transparent; border: 0;
+    padding: 10px 16px;
+    color: var(--ink-soft);
+    font-size: .92rem; font-weight: 500;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    font-family: inherit;
+  }
+  .tab-btn:hover { color: var(--ink); }
+  .tab-btn.active {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
+  .tab-panel { display: none; }
+  .tab-panel.active { display: block; }
+
+  .program-list { display: grid; gap: 14px; }
+  .program {
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 18px 20px;
+    background: var(--surface-2);
+  }
+  .program-head {
+    display: flex; flex-wrap: wrap; gap: 6px 14px;
+    align-items: baseline;
+    margin-bottom: 6px;
+  }
+  .program-name { font-weight: 700; font-size: 1.05rem; }
+  .program-loc { color: var(--ink-faint); font-size: .9rem; }
+  .program-tags {
+    display: flex; flex-wrap: wrap; gap: 6px;
+    margin: 8px 0 6px;
+  }
+  .tag {
+    font-size: .72rem;
+    background: var(--accent-soft);
+    color: var(--accent);
+    padding: 2px 9px;
+    border-radius: 999px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+  }
+  .program-body { color: var(--ink-soft); margin: 6px 0 0; font-size: .95rem; }
+  .program-links {
+    display: flex; flex-wrap: wrap; gap: 12px;
+    margin-top: 10px; font-size: .9rem;
+  }
+  .program-links a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+  .program-links a:hover { border-bottom-color: var(--accent); }
+
+  .resources {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+    gap: 12px;
+  }
+  .resource {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 14px 16px;
+    background: var(--surface-2);
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: transform .12s ease, border-color .12s ease;
+  }
+  .resource:hover { transform: translateY(-2px); border-color: var(--accent); }
+  .resource .name { font-weight: 600; }
+  .resource .desc { color: var(--ink-soft); font-size: .88rem; margin-top: 4px; }
+
+  footer.foot {
+    color: var(--ink-faint);
+    font-size: .82rem;
+    text-align: center;
+    margin-top: 36px;
+  }
+
+  @media (max-width: 600px) {
+    h1 { font-size: 1.75rem; }
+    .page { padding: 28px 16px 60px; }
+    section.card { padding: 22px 18px; }
+    header.hero { padding: 26px 22px; }
+  }
+</style>
+</head>
+<body>
+  <div class="page">
+
+    <header class="hero">
+      <div class="eyebrow">Funded Graduate Programs &middot; Environmental Science</div>
+      <h1>Erin Lamberton</h1>
+      <p class="lede">BS in Environmental Science with strong field, GIS, and water/wildlife coursework. Below: profile, what makes her competitive, and a curated list of funded MS programs across the South, Colorado, and the Mountain West.</p>
+      <div class="meta-row">
+        <span><strong>Email:</strong> <a href="mailto:erintlamberton@gmail.com">erintlamberton@gmail.com</a></span>
+        <span><strong>Status:</strong> Recent graduate, exploring funded MS</span>
+      </div>
+      <div class="stats">
+        <div class="stat"><div class="k">Degree</div><div class="v">BS, Environmental Science</div></div>
+        <div class="stat"><div class="k">University</div><div class="v">Western Carolina University</div></div>
+        <div class="stat"><div class="k">GPA</div><div class="v">3.731</div></div>
+        <div class="stat"><div class="k">Honors</div><div class="v">Dean&rsquo;s &amp; Chancellor&rsquo;s List</div></div>
+      </div>
+    </header>
+
+    <section class="card">
+      <h2><span class="dot"></span>Skills &amp; Expertise</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Field Skills</h3>
+          <div class="pills">
+            <span class="pill field">Wetland delineation (Army Corps)</span>
+            <span class="pill field">Soil &amp; water sampling</span>
+            <span class="pill field">Small mammal trapping &amp; tagging</span>
+            <span class="pill field">Song sparrow trapping &amp; tagging</span>
+            <span class="pill field">Wildlife Insights camera trap tagger</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Technical</h3>
+          <div class="pills">
+            <span class="pill tech">Basic GIS</span>
+            <span class="pill tech">Advanced GIS</span>
+            <span class="pill tech">Suitability analysis</span>
+            <span class="pill tech">Lab work &amp; data analysis</span>
+            <span class="pill tech">First Aid &amp; CPR</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Subject Expertise</h3>
+          <div class="pills">
+            <span class="pill subject">Water quality &amp; control</span>
+            <span class="pill subject">Environmental toxicology</span>
+            <span class="pill subject">Fish &amp; wildlife ecology</span>
+            <span class="pill subject">Mammalogy</span>
+            <span class="pill subject">Contaminated rivers</span>
+            <span class="pill subject">Epidemiology principles</span>
+            <span class="pill subject">Environmental ethics</span>
+            <span class="pill subject">Environmental justice in Appalachia</span>
+            <span class="pill subject">International environmental politics</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Notable Projects</h3>
+          <div class="pills">
+            <span class="pill project">Hurricane Helene lead-contamination analysis</span>
+            <span class="pill project">Tree City USA &mdash; Waynesville, NC capstone</span>
+            <span class="pill project">Cabarrus County GIS suitability analysis</span>
+            <span class="pill project">Sustainable-water grant proposal (Egypt)</span>
+            <span class="pill project">Hexachlorocyclohexane toxicology report</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Service &amp; Leadership</h3>
+          <div class="pills">
+            <span class="pill service">AmeriCorps NCCC Corps Member</span>
+            <span class="pill service">Hurricane Helene relief</span>
+            <span class="pill service">Jackson County Animal Shelter</span>
+            <span class="pill service">Appalachian Service Trips</span>
+            <span class="pill service">Recruitment &amp; nonprofit coordination</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2><span class="dot"></span>What Makes Erin Competitive</h2>
+      <div class="two-col">
+        <div class="narrative">
+          <h3>The case for funded admission</h3>
+          <p>Strong GPA (3.731) plus the rare combination of real field skills (wetland delineation, mammal &amp; bird trapping, camera-trap tagging) and applied analytical work (GIS suitability analysis, the Hurricane Helene lead-contamination project). That mix is exactly what professors recruiting for funded RAs are looking for &mdash; technical chops they don&rsquo;t have to teach from scratch.</p>
+        </div>
+        <div class="narrative">
+          <h3>Application strategy</h3>
+          <p>Most funded spots are filled through direct contact, not application portals. The recommended path: identify 3&ndash;5 faculty per target school whose research aligns with wetlands, water quality, mammalogy, or environmental justice; email each one before the deadline; and lead the statement of purpose with the Hurricane Helene project &mdash; it&rsquo;s the standout story.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2><span class="dot"></span>Funded MS Programs &mdash; By Focus Area</h2>
+      <div class="tabs" role="tablist">
+        <button class="tab-btn active" data-tab="wetlands" role="tab">Wetlands &amp; Water</button>
+        <button class="tab-btn" data-tab="wildlife" role="tab">Wildlife &amp; Mammalogy</button>
+        <button class="tab-btn" data-tab="ej" role="tab">Environmental Justice</button>
+        <button class="tab-btn" data-tab="south" role="tab">All &mdash; The South</button>
+        <button class="tab-btn" data-tab="mountain" role="tab">All &mdash; Colorado &amp; Mountain West</button>
+      </div>
+
+      <!-- Wetlands & Water -->
+      <div class="tab-panel active" id="tab-wetlands">
+        <div class="program-list">
+          <div class="program">
+            <div class="program-head">
+              <div class="program-name">University of Wyoming &mdash; Haub School</div>
+              <div class="program-loc">Laramie, WY</div>
+            </div>
+            <div class="program-tags"><span class="tag">RA</span><span class="tag">~$27.5K total value</span></div>
+            <div class="program-body">Hidden gem for environmental science. Master&rsquo;s assistantship valued at ~$27,517 total &mdash; $15,642 stipend plus tuition, fees, and student health insurance. Strong fit for water-systems work.</div>
+            <div class="program-links">
+              <a href="https://www.uwyo.edu/haub/" target="_blank" rel="noopener">Haub School</a>
+              <a href="https://www.google.com/search?q=University+of+Wyoming+Haub+School+funded+MS+environmental" target="_blank" rel="noopener">Search funded openings</a>
+            </div>
+          </div>
+          <div class="program">
+            <div class="program-head">
+              <div class="program-name">Colorado State University</div>
+              <div class="program-loc">Fort Collins, CO</div>
+            </div>
+            <div class="program-tags"><span class="tag">RA &times; 40&ndash;50</span><span class="tag">Full tuition + fees</span></div>
+            <div class="program-body">~40&ndash;50 active environmental assistantships any given semester. Strong programs in Ecology, Ecosystem Science &amp; Sustainability, Atmospheric Science. Beginning 2025&ndash;2026, full fee coverage plus retirement, sick &amp; parental leave, health insurance contribution.</div>
+            <div class="program-links">
+              <a href="https://graduateschool.colostate.edu/" target="_blank" rel="noopener">Graduate School</a>
+              <a href="https://www.google.com/search?q=CSU+watershed+ecology+funded+MS+RA" target="_blank" rel="noopener">Search RA openings</a>
+            </div>
+          </div>
+          <div class="program">
+            <div class="program-head">
+              <div class="program-name">Mississippi State University</div>
+              <div class="program-loc">Starkville, MS</div>
+            </div>
+            <div class="program-tags"><span class="tag">RA</span><span class="tag">$22K stipend</span><span class="tag">Full tuition waiver</span></div>
+            <div class="program-body">Three-year funded research assistantship in the Forest Hydrology and Soils Lab. Also a fully funded MS position in forest fire ecology with $22K stipend, tuition waiver, health insurance, and conference travel funds.</div>
+            <div class="program-links">
+              <a href="https://www.cfr.msstate.edu/" target="_blank" rel="noopener">College of Forest Resources</a>
+              <a href="https://www.google.com/search?q=Mississippi+State+forest+hydrology+soils+funded+MS" target="_blank" rel="noopener">Search positions</a>
+            </div>
+          </div>
+          <div class="program">
+            <div class="program-head">
+              <div class="program-name">University of Georgia</div>
+              <div class="program-loc">Athens, GA &middot; Aiken, SC</div>
+            </div>
+            <div class="program-tags"><span class="tag">RA / TA</span></div>
+            <div class="program-body">Savannah River Ecology Laboratory (Aiken, SC) focuses on terrestrial-aquatic linkages. UGA broadly offers competitive RA/TA packages across environmental and ecology programs.</div>
+            <div class="program-links">
+              <a href="https://srel.uga.edu/" target="_blank" rel="noopener">Savannah River Ecology Lab</a>
+              <a href="https://www.google.com/search?q=UGA+ecology+funded+MS+assistantship" target="_blank" rel="noopener">Search funding</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Wildlife & Mammalogy -->
+      <div class="tab-panel" id="tab-wildlife">
+        <div class="program-list">
+          <div class="program">
+            <div class="program-head">
+              <div class="program-name">University of Wyoming</div>
+              <div class="program-loc">Laramie, WY</div>
+            </div>
+            <div class="program-tags"><span class="tag">Wildlife &amp; Natural Resources</span><span class="tag">Well-funded</span></div>
+            <div class="program-body">Strong wildlife &amp; natural resources programs through the Wyoming Cooperative Fish and Wildlife Research Unit &mdash; graduate research assistantships, internships, and summer salary for natural-resources projects.</div>
+            <div class="program-links">
+              <a href="https://www.uwyo.edu/zoology/" target="_blank" rel="noopener">Zoology &amp; Physiology</a>
+              <a href="https://www.google.com/search?q=Wyoming+Cooperative+Fish+Wildlife+Research+Unit+graduate" target="_blank" rel="noopener">Search Coop Unit</a>
+            </div>
+          </div>
+          <div class="program">
+            <div class="program-head">
+              <div class="program-name">Auburn University</div>
+              <div class="program-loc">Auburn, AL</div>
+            </div>
+            <div class="program-tags"><span class="tag">RA</span><span class="tag">Active recruiting</span></div>
+            <div class="program-body">MS assistantships through the Alabama Cooperative Fish and Wildlife Research Unit &mdash; invasive carp and native fish distribution in the lower Mississippi River. PhD positions in wildlife survey design also open.</div>
+            <div class="program-links">
+              <a href="https://sfws.auburn.edu/" target="_blank" rel="noopener">College of Forestry, Wildlife &amp; Environment</a>
+              <a href="https://www.google.com/search?q=Alabama+Cooperative+Fish+Wildlife+Research+Unit+MS" target="_blank" rel="noopener">Search positions</a>
+            </div>
+          </div>
+          <div class="program">
+            <div class="program-head">
+              <div class="program-name">Colorado State University</div>
+              <div class="program-loc">Fort Collins, CO</div>
+            </div>
+            <div class="program-tags"><span class="tag">Wildlife Ecology</span><span class="tag">Many RAs</span></div>
+            <div class="program-body">Strong wildlife ecology department with many RA opportunities and proximity to Rocky Mountain ecosystems and USDA research stations.</div>
+            <div class="program-links">
+              <a href="https://warnercnr.colostate.edu/fwcb/" target="_blank" rel="noopener">Fish, Wildlife &amp; Conservation Biology</a>
+              <a href="https://www.google.com/search?q=CSU+wildlife+ecology+funded+MS" target="_blank" rel="noopener">Search programs</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Environmental Justice -->
+      <div class="tab-panel" id="tab-ej">
+        <div class="program-list">
+          <div class="program">
+            <div class="program-head">
+              <div class="program-name">University of Montana</div>
+              <div class="program-loc">Missoula, MT</div>
+            </div>
+            <div class="program-tags"><span class="tag">TA</span><span class="tag">WICHE-eligible</span><span class="tag">Full tuition waiver</span></div>
+            <div class="program-body">Environmental Studies MS with a social/policy dimension. Limited TAs for first- and second-year MS students &mdash; full-year TAs receive a full tuition waiver. Colorado residents get reduced tuition (150% of MT resident rate) via WICHE.</div>
+            <div class="program-links">
+              <a href="https://www.umt.edu/environmental-studies/" target="_blank" rel="noopener">Environmental Studies Program</a>
+              <a href="https://www.google.com/search?q=University+of+Montana+EVST+MS+teaching+assistantship" target="_blank" rel="noopener">Search TA openings</a>
+            </div>
+          </div>
+          <div class="program">
+            <div class="program-head">
+              <div class="program-name">University of Vermont &mdash; Rubenstein School</div>
+              <div class="program-loc">Burlington, VT</div>
+            </div>
+            <div class="program-tags"><span class="tag">Funded MS</span><span class="tag">Currently open</span></div>
+            <div class="program-body">Community / environmental health MS with a currently funded position. Strong fit for community-engaged work and the environmental justice angle.</div>
+            <div class="program-links">
+              <a href="https://www.uvm.edu/rsenr" target="_blank" rel="noopener">Rubenstein School</a>
+              <a href="https://www.google.com/search?q=UVM+Rubenstein+School+funded+MS+environmental" target="_blank" rel="noopener">Search funded MS</a>
+            </div>
+          </div>
+          <div class="program">
+            <div class="program-head">
+              <div class="program-name">University of Oregon</div>
+              <div class="program-loc">Eugene, OR</div>
+            </div>
+            <div class="program-tags"><span class="tag">TA</span><span class="tag">2-yr guarantee</span></div>
+            <div class="program-body">Environmental Studies MS with guaranteed 2-year TA funding for incoming students. Interdisciplinary focus that pairs well with Erin&rsquo;s ethics &amp; justice coursework.</div>
+            <div class="program-links">
+              <a href="https://envs.uoregon.edu/" target="_blank" rel="noopener">Environmental Studies</a>
+              <a href="https://www.google.com/search?q=University+of+Oregon+ENVS+funded+MS" target="_blank" rel="noopener">Search programs</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- All - South -->
+      <div class="tab-panel" id="tab-south">
+        <div class="program-list">
+          <div class="program">
+            <div class="program-head">
+              <div class="program-name">Clemson University</div>
+              <div class="program-loc">Clemson, SC</div>
+            </div>
+            <div class="program-tags"><span class="tag">RA</span><span class="tag">$26K/yr</span><span class="tag">Tuition waiver</span></div>
+            <div class="program-body">Forestry &amp; Environmental Conservation is recruiting an MS student for a Graduate Research Assistantship on forest recovery following Hurricane Helene. $26,000 annual stipend, resident and non-resident tuition waiver, health insurance. Start Summer or Fall 2026.</div>
+            <div class="program-links">
+              <a href="https://www.clemson.edu/cafls/fec/" target="_blank" rel="noopener">Forestry &amp; Environmental Conservation</a>
+              <a href="https://www.google.com/search?q=Clemson+Hurricane+Helene+forest+recovery+MS+RA" target="_blank" rel="noopener">Search position</a>
+            </div>
+          </div>
+          <div class="program">
+            <div class="program-head">
+              <div class="program-name">Mississippi State University</div>
+              <div class="program-loc">Starkville, MS</div>
+            </div>
+            <div class="program-tags"><span class="tag">RA</span><span class="tag">$22K stipend</span></div>
+            <div class="program-body">Fully funded MS in forest fire ecology and a three-year funded RA in the Forest Hydrology &amp; Soils Lab. Tuition waiver, health insurance, conference travel funds.</div>
+            <div class="program-links">
+              <a href="https://www.cfr.msstate.edu/" target="_blank" rel="noopener">College of Forest Resources</a>
+              <a href="https://www.google.com/search?q=Mississippi+State+forest+fire+ecology+MS+funded" target="_blank" rel="noopener">Search openings</a>
+            </div>
+          </div>
+          <div class="program">
+            <div class="program-head">
+              <div class="program-name">Louisiana State University</div>
+              <div class="program-loc">Baton Rouge, LA</div>
+            </div>
+            <div class="program-tags"><span class="tag">MS</span><span class="tag">Aquatic / terrestrial</span></div>
+            <div class="program-body">MS positions in Environmental Sciences focused on the ecology of terrestrial-aquatic linkages.</div>
+            <div class="program-links">
+              <a href="https://www.lsu.edu/cce/academics/des/" target="_blank" rel="noopener">Environmental Sciences</a>
+              <a href="https://www.google.com/search?q=LSU+environmental+sciences+funded+MS" target="_blank" rel="noopener">Search programs</a>
+            </div>
+          </div>
+          <div class="program">
+            <div class="program-head">
+              <div class="program-name">University of Georgia</div>
+              <div class="program-loc">Athens, GA &middot; Aiken, SC</div>
+            </div>
+            <div class="program-tags"><span class="tag">RA / TA</span></div>
+            <div class="program-body">Savannah River Ecology Laboratory MS positions on terrestrial-aquatic linkages. Competitive RA/TA packages across environmental and ecology programs.</div>
+            <div class="program-links">
+              <a href="https://srel.uga.edu/" target="_blank" rel="noopener">SREL</a>
+            </div>
+          </div>
+          <div class="program">
+            <div class="program-head">
+              <div class="program-name">Auburn University</div>
+              <div class="program-loc">Auburn, AL</div>
+            </div>
+            <div class="program-tags"><span class="tag">RA</span></div>
+            <div class="program-body">Alabama Cooperative Fish and Wildlife Research Unit &mdash; MS assistantships on invasive carp and native fish distribution in the lower Mississippi River; PhD positions in wildlife survey design.</div>
+            <div class="program-links">
+              <a href="https://sfws.auburn.edu/" target="_blank" rel="noopener">College of Forestry, Wildlife &amp; Environment</a>
+            </div>
+          </div>
+          <div class="program">
+            <div class="program-head">
+              <div class="program-name">Georgia Tech</div>
+              <div class="program-loc">Atlanta, GA</div>
+            </div>
+            <div class="program-tags"><span class="tag">RA</span><span class="tag">TA</span><span class="tag">Tuition waiver</span></div>
+            <div class="program-body">Both RAs and TAs are eligible for tuition waivers &mdash; one of the stronger value options in the South given the program&rsquo;s reputation.</div>
+            <div class="program-links">
+              <a href="https://ce.gatech.edu/" target="_blank" rel="noopener">Civil &amp; Environmental Engineering</a>
+            </div>
+          </div>
+          <div class="program">
+            <div class="program-head">
+              <div class="program-name">Texas Tech University</div>
+              <div class="program-loc">Lubbock, TX</div>
+            </div>
+            <div class="program-tags"><span class="tag">3-yr TA</span><span class="tag">Fellowships up to $30K</span></div>
+            <div class="program-body">MS position on the spatial ecology of desert wetlands, co-advised by Biological Sciences and Natural Resources Management. Three years of departmental TA funding plus fellowships from $2,500 to $30,000/year.</div>
+            <div class="program-links">
+              <a href="https://www.depts.ttu.edu/biology/" target="_blank" rel="noopener">Biological Sciences</a>
+            </div>
+          </div>
+          <div class="program">
+            <div class="program-head">
+              <div class="program-name">University of Southern Mississippi</div>
+              <div class="program-loc">Hattiesburg / Gulf Coast, MS</div>
+            </div>
+            <div class="program-tags"><span class="tag">MS</span><span class="tag">Marine Science</span></div>
+            <div class="program-body">Gulf Coast Research Laboratory MS assistantship in Marine Science studying oyster recruitment and health in Mississippi Sound, part of a large coastal restoration program.</div>
+            <div class="program-links">
+              <a href="https://www.usm.edu/gulf-coast-research-laboratory/" target="_blank" rel="noopener">Gulf Coast Research Lab</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- All - Mountain West -->
+      <div class="tab-panel" id="tab-mountain">
+        <div class="program-list">
+          <div class="program">
+            <div class="program-head">
+              <div class="program-name">Colorado State University &mdash; <em>strongest match</em></div>
+              <div class="program-loc">Fort Collins, CO</div>
+            </div>
+            <div class="program-tags"><span class="tag">RA &times; 40&ndash;50</span><span class="tag">Full tuition + fees</span></div>
+            <div class="program-body">Largest number of active environmental assistantships in the region. World-class faculty in ecology, climate, and water resources. Strategy: identify 3&ndash;5 CSU faculty to email directly before applying.</div>
+            <div class="program-links">
+              <a href="https://graduateschool.colostate.edu/" target="_blank" rel="noopener">Graduate School</a>
+              <a href="https://warnercnr.colostate.edu/" target="_blank" rel="noopener">Warner College of Natural Resources</a>
+            </div>
+          </div>
+          <div class="program">
+            <div class="program-head">
+              <div class="program-name">University of Colorado Boulder</div>
+              <div class="program-loc">Boulder, CO</div>
+            </div>
+            <div class="program-tags"><span class="tag">Merit grants</span><span class="tag">RA / TA</span><span class="tag">Fellowships</span></div>
+            <div class="program-body">Variety of merit-based grants, fellowships, and assistantships through the Graduate School and academic departments. Incoming students automatically considered for program-distributed assistance at admission.</div>
+            <div class="program-links">
+              <a href="https://www.colorado.edu/graduateschool/" target="_blank" rel="noopener">Graduate School</a>
+              <a href="https://www.colorado.edu/envs/" target="_blank" rel="noopener">Environmental Studies</a>
+            </div>
+          </div>
+          <div class="program">
+            <div class="program-head">
+              <div class="program-name">University of Colorado Denver</div>
+              <div class="program-loc">Denver, CO</div>
+            </div>
+            <div class="program-tags"><span class="tag">Grant-funded RAs</span><span class="tag">Internships</span></div>
+            <div class="program-body">Grant-funded RA positions plus paid internships and part-time departmental employment. More urban / applied focus than CSU or CU Boulder.</div>
+            <div class="program-links">
+              <a href="https://www.ucdenver.edu/academics/graduate-school" target="_blank" rel="noopener">Graduate School</a>
+            </div>
+          </div>
+          <div class="program">
+            <div class="program-head">
+              <div class="program-name">Colorado School of Mines</div>
+              <div class="program-loc">Golden, CO</div>
+            </div>
+            <div class="program-tags"><span class="tag">RA</span><span class="tag">R1</span></div>
+            <div class="program-body">R1 university focused on earth, energy, and the environment. Environmental Engineering Science offers funded assistantships for students interested in environmental chemistry, water systems, and energy transitions.</div>
+            <div class="program-links">
+              <a href="https://www.mines.edu/" target="_blank" rel="noopener">Colorado School of Mines</a>
+            </div>
+          </div>
+          <div class="program">
+            <div class="program-head">
+              <div class="program-name">University of Wyoming &mdash; Haub School</div>
+              <div class="program-loc">Laramie, WY</div>
+            </div>
+            <div class="program-tags"><span class="tag">RA</span><span class="tag">~$27.5K total value</span></div>
+            <div class="program-body">Hidden gem. Master&rsquo;s assistantship valued at ~$27,517 total (stipend + tuition + fees + health insurance). Wyoming Coop Fish &amp; Wildlife Research Unit offers RAs, internships, and summer salary.</div>
+            <div class="program-links">
+              <a href="https://www.uwyo.edu/haub/" target="_blank" rel="noopener">Haub School</a>
+            </div>
+          </div>
+          <div class="program">
+            <div class="program-head">
+              <div class="program-name">University of Montana</div>
+              <div class="program-loc">Missoula, MT</div>
+            </div>
+            <div class="program-tags"><span class="tag">TA</span><span class="tag">WICHE-eligible</span></div>
+            <div class="program-body">Environmental Studies MS with a social / policy dimension. Limited TAs with full tuition waivers for first- and second-year MS students. Colorado residents qualify for discounted tuition via WICHE.</div>
+            <div class="program-links">
+              <a href="https://www.umt.edu/environmental-studies/" target="_blank" rel="noopener">EVST Program</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2><span class="dot"></span>Where to Look for New Funded Openings</h2>
+      <div class="resources">
+        <a class="resource" href="https://ecophys-jobs.org/" target="_blank" rel="noopener">
+          <div class="name">ecophys-jobs.org</div>
+          <div class="desc">Aggregates funded grad positions in ecology &amp; environmental science. Update frequently.</div>
+        </a>
+        <a class="resource" href="https://cjbnetwork.com/" target="_blank" rel="noopener">
+          <div class="name">cjbnetwork.com</div>
+          <div class="desc">Conservation jobs board with funded MS / PhD listings.</div>
+        </a>
+        <a class="resource" href="https://wfscjobs.tamu.edu/job-board/" target="_blank" rel="noopener">
+          <div class="name">Texas A&amp;M Wildlife &amp; Fisheries Job Board</div>
+          <div class="desc">Long-running aggregator of funded wildlife &amp; fisheries grad positions.</div>
+        </a>
+        <a class="resource" href="https://www.usajobs.gov/" target="_blank" rel="noopener">
+          <div class="name">USAJOBS &mdash; Pathways</div>
+          <div class="desc">Federal Pathways internships often pair with funded grad work.</div>
+        </a>
+        <a class="resource" href="https://www.google.com/search?q=funded+environmental+science+MS+assistantship+2026" target="_blank" rel="noopener">
+          <div class="name">Google: funded MS 2026</div>
+          <div class="desc">Open search for current cycle funded openings.</div>
+        </a>
+        <a class="resource" href="https://www.google.com/search?q=%22looking+for+MS+student%22+environmental+science+wetlands+OR+wildlife+OR+toxicology+2026" target="_blank" rel="noopener">
+          <div class="name">Google: faculty seeking MS students</div>
+          <div class="desc">Targeted phrase search to surface professor recruitment posts.</div>
+        </a>
+      </div>
+    </section>
+
+    <footer class="foot">
+      Built for Erin&rsquo;s grad-school search. Update the file directly to revise programs, tags, or links.
+    </footer>
+
+  </div>
+
+<script>
+  (function() {
+    const tabs = document.querySelectorAll('.tab-btn');
+    const panels = document.querySelectorAll('.tab-panel');
+    tabs.forEach(t => t.addEventListener('click', () => {
+      const id = t.dataset.tab;
+      tabs.forEach(b => b.classList.toggle('active', b === t));
+      panels.forEach(p => p.classList.toggle('active', p.id === 'tab-' + id));
+    }));
+  })();
+</script>
+</body>
+</html>
