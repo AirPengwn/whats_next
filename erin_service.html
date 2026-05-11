@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Erin Lamberton — Service, AmeriCorps &amp; Fellowships</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#fff;--bg2:#f5f5f3;--bg3:#eeede8;--t1:#1a1a18;--t2:#5f5e5a;--t3:#888780;--bd:rgba(0,0,0,0.12);--bds:rgba(0,0,0,0.22);--r1:8px;--r2:12px;--fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+@media(prefers-color-scheme:dark){:root{--bg:#1e1e1c;--bg2:#2a2a28;--bg3:#333330;--t1:#f0ede6;--t2:#b4b2a9;--t3:#888780;--bd:rgba(255,255,255,0.1);--bds:rgba(255,255,255,0.2)}}
+body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:2rem 1rem}
+.page{max-width:720px;margin:0 auto}
+.top-nav{display:flex;align-items:center;gap:12px;margin-bottom:1.75rem}
+.back-btn{font-size:13px;padding:5px 14px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t2);text-decoration:none;display:inline-block}
+.back-btn:hover{background:var(--bg2);color:var(--t1)}
+.pg-title{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3)}
+.slabel{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin-bottom:.75rem}
+.card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1.25rem;margin-bottom:1rem}
+.card-title{font-size:15px;font-weight:500;margin-bottom:.5rem;color:var(--t1)}
+.card-body{font-size:13px;color:var(--t2);line-height:1.7}
+hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
+.tip{border-left:3px solid #5dcaa5;background:var(--bg2);padding:.85rem 1rem;margin-bottom:.85rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
+.tip-warn{border-left-color:#ef9f27}
+.pos-card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:.85rem}
+.pos-card.hot{border:2px solid #5dcaa5}
+.pos-card.closed{opacity:.7;border-style:dashed}
+.pos-header{display:flex;align-items:flex-start;justify-content:space-between;gap:.75rem;margin-bottom:.35rem}
+.pos-title{font-size:14px;font-weight:500;color:var(--t1);line-height:1.4}
+.pos-org{font-size:12px;color:var(--t3);margin-bottom:.5rem}
+.pos-body{font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.65rem}
+.badge{font-size:11px;font-weight:500;padding:3px 9px;border-radius:999px;white-space:nowrap;flex-shrink:0}
+.b-open{background:#e1f5ee;color:#0f6e56}
+.b-check{background:#faeeda;color:#854f0b}
+.b-closed{background:var(--bg2);color:var(--t3)}
+.b-new{background:#faece7;color:#993c1d}
+@media(prefers-color-scheme:dark){.b-open{background:#085041;color:#9fe1cb}.b-check{background:#633806;color:#fac775}.b-new{background:#712b13;color:#f5c4b3}}
+.meta-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 12px;margin-bottom:.65rem}
+.meta-item{font-size:12px;color:var(--t2)}
+.meta-label{font-weight:500;color:var(--t1)}
+.pos-links{display:flex;flex-wrap:wrap;gap:4px}
+.pos-link{display:inline-flex;align-items:center;gap:5px;font-size:12px;color:#185fa5;text-decoration:none;padding:3px 0;margin-right:.75rem}
+.pos-link:hover{text-decoration:underline}
+.fit-pills{margin-bottom:.65rem}
+.fit-pill{display:inline-block;font-size:11px;font-weight:500;padding:3px 9px;border-radius:999px;margin:2px 3px 2px 0;background:#e6f1fb;color:#185fa5}
+@media(prefers-color-scheme:dark){.fit-pill{background:#0c447c;color:#b5d4f4}}
+.rl{display:block;font-size:13px;color:#185fa5;text-decoration:none;padding:7px 0;border-bottom:.5px solid var(--bd)}
+.rl:last-child{border-bottom:none}
+.rl:hover{text-decoration:underline}
+.footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{font-size:11px;font-weight:500;letter-spacing:.04em;text-transform:uppercase;color:var(--t3);text-align:left;padding:0 8px 8px 0;border-bottom:.5px solid var(--bd)}
+td{padding:7px 8px 7px 0;border-bottom:.5px solid var(--bd);color:var(--t2);vertical-align:top}
+td:first-child{color:var(--t1);font-weight:500}
+tr:last-child td{border-bottom:none}
+@media(max-width:520px){.pos-header{flex-direction:column;align-items:flex-start}.meta-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="page">
+
+<div class="top-nav">
+  <a href="index.html" class="back-btn">&#8592; Home</a>
+  <span class="pg-title">Service &amp; fellowships</span>
+</div>
+
+<!-- ABOUT AMERICORPS -->
+<div class="slabel">About AmeriCorps service</div>
+<div class="card">
+  <div class="card-title">Why AmeriCorps is a strong option for Erin</div>
+  <div class="card-body">
+    <p style="margin-bottom:.75rem">Erin has already completed one term of AmeriCorps NCCC, which means she understands how the program works, has demonstrated commitment to national service, and has the living-stipend lifestyle experience that trips up first-timers. A second AmeriCorps term in an environmentally focused Individual Placement (IP) is one of the most direct paths to building field credentials and making connections with federal and state agency professionals before graduate school.</p>
+    <p style="margin-bottom:.75rem"><strong style="font-weight:500">Individual Placement (IP)</strong> positions are different from crew-based corps. An IP member is placed directly with a single federal agency, nonprofit, or land management office &mdash; working one-on-one alongside biologists, scientists, and managers. These are the positions most directly relevant to Erin's skills and most likely to lead to a graduate school connection or federal hiring pathway (Public Lands Corps Hiring Authority).</p>
+    <p><strong style="font-weight:500">Education Award:</strong> Upon completing an AmeriCorps term, members receive a Segal Education Award that can be applied to tuition or qualified student loans. Full-year awards are currently ~$7,395; 1,200-hour terms ~$3,697; shorter terms proportionally less.</p>
+  </div>
+</div>
+
+<!-- STATUS LEGEND -->
+<div style="font-size:12px;color:var(--t3);margin-bottom:1rem;display:flex;flex-wrap:wrap;gap:10px">
+  <span><span class="badge b-open">Open / recruiting</span> confirmed active as of May 2026</span>
+  <span><span class="badge b-check">Verify status</span> posted recently; confirm before applying</span>
+  <span><span class="badge b-closed">Closed / reference</span> no longer accepting; shown for awareness</span>
+</div>
+
+<!-- MATCHED POSITIONS -->
+<div class="slabel">AmeriCorps positions matched to Erin's background</div>
+
+<!-- BLM WETLANDS COLORADO — HOT MATCH -->
+<div class="pos-card hot">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">BLM Wetlands &amp; Wildlife Technician &mdash; Individual Placement</div>
+      <div class="pos-org">Southwest Conservation Corps / Bureau of Land Management &middot; San Luis Valley Field Office &middot; Monte Vista, CO</div>
+    </div>
+    <span class="badge b-closed">Closed &mdash; reference</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Wetland delineation</span>
+    <span class="fit-pill">Water quality monitoring</span>
+    <span class="fit-pill">GIS &amp; data analysis</span>
+    <span class="fit-pill">Wildlife surveys</span>
+    <span class="fit-pill">Colorado-based</span>
+  </div>
+  <div class="pos-body">This position is the closest match to Erin's full skill set of any AmeriCorps position found. It was with the BLM San Luis Valley Field Office, which manages over 500,000 acres including 22,000+ acres of some of the most ecologically significant wetland and wildlife habitats in Colorado. The IP worked directly with BLM biologists on habitat assessments, wildlife surveys, water quality monitoring, GIS data analysis, invasive species management, and wetland well monitoring. This exact type of position recurs annually &mdash; watch for the 2026&ndash;27 version.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">Program:</span> Southwest Conservation Corps (SCC) &mdash; Los Valles</div>
+    <div class="meta-item"><span class="meta-label">Term:</span> May 25 &ndash; Sept 11, 2026 (450 hours)</div>
+    <div class="meta-item"><span class="meta-label">Living allowance:</span> $1,000/week bi-weekly</div>
+    <div class="meta-item"><span class="meta-label">Education award:</span> $1,956.35 (Segal)</div>
+    <div class="meta-item"><span class="meta-label">Location:</span> Monte Vista, CO (San Luis Valley)</div>
+    <div class="meta-item"><span class="meta-label">Age requirement:</span> 18&ndash;30 (35 if veteran)</div>
+    <div class="meta-item"><span class="meta-label">GRE/degree req:</span> None required; recent grad preferred</div>
+    <div class="meta-item"><span class="meta-label">Driver's license:</span> Required (3+ years)</div>
+  </div>
+  <div class="pos-body"><strong style="font-weight:500">Key duties included:</strong> Wetland monitoring and management; irrigation infrastructure setup; well readings at 47 wetland wells; water quality monitoring; species surveys with biologists (GIS and data analysis); invasive bullfrog trapping; post-fire/thinning monitoring; Land Health Assessments; wildlife-friendly fence construction.</div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://jobs.fire-up.net/companies/conservation-legacy/jobs/76033896-blm-wetlands-wildlife-technician-individual-placement-americorps">&#128269; Original position listing (FireUp)</a>
+    <a class="pos-link" href="https://www.southwestconservationcorps.org/individual-placements">&#128269; SCC Individual Placements &mdash; watch for 2027 version</a>
+    <a class="pos-link" href="mailto:nantonio@conservationlegacy.org">&#9993; Contact: Niki Antonio, nantonio@conservationlegacy.org</a>
+  </div>
+</div>
+
+<!-- SC ENVIRONMENTAL CONSERVATION CORPS -->
+<div class="pos-card hot">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">Environmental Conservation Corps &mdash; Restoration Crew &amp; Community Restoration Members</div>
+      <div class="pos-org">The Sustainability Institute &middot; Charleston / Lowcountry, SC &amp; Bucksport/Conway, SC</div>
+    </div>
+    <span class="badge b-open">Open / recruiting</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Wetland restoration</span>
+    <span class="fit-pill">Water quality testing</span>
+    <span class="fit-pill">Oyster reef &amp; salt marsh</span>
+    <span class="fit-pill">Coastal ecology</span>
+    <span class="fit-pill">Southern US</span>
+  </div>
+  <div class="pos-body">Currently recruiting for the 2026 program year. Two positions available. <strong style="font-weight:500">Restoration Crew Members</strong> restore wildlife habitat and ecosystems across the Lowcountry: salt marshes, oyster reefs, rain gardens, native planting, water quality monitoring, erosion control, trails, and boardwalks. <strong style="font-weight:500">Community Restoration Members</strong> (Bucksport/Conway, SC) restore coastal wetland buffers, plant native trees, perform water quality testing and monitoring, construct nature trails, and support community training. Strong match for Erin's water quality, wetlands, and field sampling background.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">Dates:</span> May 18 &ndash; July 24, 2026 (300 hours minimum)</div>
+    <div class="meta-item"><span class="meta-label">Compensation:</span> Bi-weekly stipend + education award</div>
+    <div class="meta-item"><span class="meta-label">Location:</span> Charleston / Bucksport, SC</div>
+    <div class="meta-item"><span class="meta-label">Training included:</span> Field certifications, classroom &amp; field experiences</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://sustainabilityinstitutesc.org/programs/environmental-conservation-corps/join-americorps/">&#128269; Apply: ECC AmeriCorps positions</a>
+    <a class="pos-link" href="https://sustainabilityinstitutesc.org/ecc/join-americorps/">&#128269; Full position descriptions</a>
+    <a class="pos-link" href="mailto:Marni@SustainabilityInstituteSC.org">&#9993; Marni Friedman, Director of Conservation</a>
+  </div>
+</div>
+
+<!-- SE Conservation Corps Cherokee NF -->
+<div class="pos-card">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">Biological Science Technician &mdash; Individual Placement, Cherokee National Forest</div>
+      <div class="pos-org">Southeast Conservation Corps / US Forest Service &middot; Cherokee National Forest, TN</div>
+    </div>
+    <span class="badge b-check">Verify status</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Aquatic resource monitoring</span>
+    <span class="fit-pill">Stream restoration</span>
+    <span class="fit-pill">Watershed health</span>
+    <span class="fit-pill">Appalachian region</span>
+    <span class="fit-pill">Federal agency experience</span>
+  </div>
+  <div class="pos-body">Southeast Conservation Corps has placed AmeriCorps members with the U.S. Forest Service's fisheries team in Cherokee National Forest in eastern Tennessee. Biological Science Technicians gain hands-on experience in aquatic resource monitoring, stream restoration, and watershed health &mdash; including electrofishing, macroinvertebrate surveys, freshwater snorkeling, and public education. This directly matches Erin's water quality background and Appalachian field experience. SECC operates throughout the Southeast and regularly has Appalachian-region placements.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">Region:</span> Appalachian region, eastern TN</div>
+    <div class="meta-item"><span class="meta-label">Agency partner:</span> USDA Forest Service, Fisheries team</div>
+    <div class="meta-item"><span class="meta-label">Skills gained:</span> Electrofishing, macroinvertebrate surveys, stream restoration</div>
+    <div class="meta-item"><span class="meta-label">Compensation:</span> Living allowance + Segal education award</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://southeastconservationcorps.org/individual-placements">&#128269; SECC Individual Placements page</a>
+    <a class="pos-link" href="https://southeastconservationcorps.org/apply">&#128269; Apply to SECC</a>
+  </div>
+</div>
+
+<!-- USFW Wichita Mountains -->
+<div class="pos-card">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">Wildlife Monitoring Individual Placement &mdash; Wichita Mountains Wildlife Refuge</div>
+      <div class="pos-org">American Youthworks / US Fish &amp; Wildlife Service &middot; Fort Sill / Lawton, OK</div>
+    </div>
+    <span class="badge b-check">Verify status</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Wildlife surveys</span>
+    <span class="fit-pill">Endangered species monitoring</span>
+    <span class="fit-pill">Habitat restoration</span>
+    <span class="fit-pill">USFWS experience</span>
+  </div>
+  <div class="pos-body">AmeriCorps members assist in wildlife conservation through the ARTES (At Risk, Threatened, and Endangered Species) Program with the Wichita Mountains Wildlife Refuge and US Army Garrison at Fort Sill. Monitoring species including tricolored bat, monarch butterfly, black-capped vireo, northern bobwhite quail, and others. Tasks include habitat restoration, invasive species management, and roadside wildlife surveys. Strong match for Erin's NRM 479 (Mammalogy) and NRM 330 (Wildlife Ecology) background.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">Dates:</span> March 2 &ndash; Nov 6, 2026 (1,200 hours)</div>
+    <div class="meta-item"><span class="meta-label">Positions:</span> 2 open positions (verify current availability)</div>
+    <div class="meta-item"><span class="meta-label">Living allowance:</span> $600/week + $225/week housing stipend</div>
+    <div class="meta-item"><span class="meta-label">Education award:</span> Segal award upon completion</div>
+    <div class="meta-item"><span class="meta-label">Location:</span> Lawton, OK (near Fort Sill)</div>
+    <div class="meta-item"><span class="meta-label">Prior apply deadline:</span> Jan 25, 2026 (may be filled)</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://americanyouthworks.org/what-we-do/cc/open-positions">&#128269; American Youthworks open positions</a>
+    <a class="pos-link" href="https://www.google.com/search?q=American+Youthworks+Wichita+Mountains+wildlife+AmeriCorps+2026">&#128269; Search for current status</a>
+  </div>
+</div>
+
+<!-- CCNM Biological Science NM -->
+<div class="pos-card">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">Biological Science Individual Placement &mdash; USFWS Military Lands Conservation, Kirtland AFB</div>
+      <div class="pos-org">Conservation Corps New Mexico (CCNM) / US Fish &amp; Wildlife Service &middot; Albuquerque/Santa Fe, NM</div>
+    </div>
+    <span class="badge b-check">Verify status</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Bird survey &amp; monitoring</span>
+    <span class="fit-pill">Wetland restoration</span>
+    <span class="fit-pill">Bat surveys</span>
+    <span class="fit-pill">USFWS &amp; DOD collaboration</span>
+    <span class="fit-pill">Southwest US</span>
+  </div>
+  <div class="pos-body">IP member supports Kirtland AFB's Integrated Natural Resources Management Plan (INRMP) through wildlife surveys, data collection, and habitat restoration. Gains technical skills in bird survey/monitoring/identification, wetland restoration, and acoustic bat survey. Works with FWS biologists and partners including New Mexico Game &amp; Fish. Good match for Erin's mammalogy and field survey skills, with the added dimension of working in a Department of Defense natural resource context.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">Degree req:</span> 2-year associates (natural resource) or 4-year in wildlife/biology preferred</div>
+    <div class="meta-item"><span class="meta-label">Age req:</span> 17&ndash;30 (35 for veterans)</div>
+    <div class="meta-item"><span class="meta-label">Driver's license:</span> Required (21+ or 3 years licensed)</div>
+    <div class="meta-item"><span class="meta-label">Compensation:</span> Living allowance + education award</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://www.indeed.com/viewjob?jk=f56105f0a34583fb">&#128269; Original listing (Indeed)</a>
+    <a class="pos-link" href="https://www.conservationlegacy.org/ccnm">&#128269; Conservation Corps New Mexico (CCNM)</a>
+  </div>
+</div>
+
+<!-- Stewards / GIS mapping -->
+<div class="pos-card">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">Stewards Individual Placements &mdash; GIS Mapping, Species Inventory &amp; Land Management</div>
+      <div class="pos-org">Stewards Individual Placement Program / Conservation Legacy &middot; Various federal agencies</div>
+    </div>
+    <span class="badge b-open">Open / recruiting</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">GIS mapping</span>
+    <span class="fit-pill">Species inventory</span>
+    <span class="fit-pill">Invasive species removal</span>
+    <span class="fit-pill">Federal land management</span>
+    <span class="fit-pill">Multiple locations</span>
+  </div>
+  <div class="pos-body">Stewards is the individual placement arm of Conservation Legacy, placing AmeriCorps members with federal agencies and nonprofits across the US. Members work on GIS mapping, inventory assessments, species inventory, invasive species removal, and historic preservation. Terms range from 10 weeks to one year. Stipend and education award included. This is a strong fit for Erin's dual GIS + field ecology background. Multiple positions posted continuously &mdash; the database updates year-round.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">Term lengths:</span> 10 weeks to 1 year</div>
+    <div class="meta-item"><span class="meta-label">Compensation:</span> Stipend (varies by position) + education award</div>
+    <div class="meta-item"><span class="meta-label">Locations:</span> Nationwide; search by region and focus area</div>
+    <div class="meta-item"><span class="meta-label">Agency partners:</span> BLM, USFS, NPS, USFWS, nonprofits</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://stewardslegacy.org/open-positions">&#128269; Stewards open positions (apply here)</a>
+    <a class="pos-link" href="https://stewardslegacy.org/join">&#128269; Stewards program overview</a>
+  </div>
+</div>
+
+<!-- Corps Network / USACE Environmental Compliance -->
+<div class="pos-card">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">Environmental Compliance Intern &mdash; US Army Corps of Engineers</div>
+      <div class="pos-org">The Corps Network / US Army Corps of Engineers &middot; Multiple locations (MN, MT, SD, UT)</div>
+    </div>
+    <span class="badge b-check">Verify status</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Environmental compliance</span>
+    <span class="fit-pill">Federal agency experience</span>
+    <span class="fit-pill">USACE</span>
+    <span class="fit-pill">Public Lands Corps hiring authority</span>
+  </div>
+  <div class="pos-body">Individual placement positions with the US Army Corps of Engineers through The Corps Network. Environmental compliance focus. Previous deadlines: May 1, 2026 for Cushing, MN/MT; April 30 for Hot Springs, SD; March 31 for Moab, UT. Benefits include housing stipend/assistance, relocation assistance, transportation assistance, and Public Lands Corps Hiring Authority upon completion (a pathway to non-competitive federal employment). Multiple locations; verify current openings.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">Agency:</span> US Army Corps of Engineers</div>
+    <div class="meta-item"><span class="meta-label">Special benefit:</span> Public Lands Corps Hiring Authority</div>
+    <div class="meta-item"><span class="meta-label">Locations:</span> MN, MT, SD, UT (multiple sites)</div>
+    <div class="meta-item"><span class="meta-label">Housing:</span> Housing stipend/assistance included</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://corpsnetwork.org/jobs-at-corps/">&#128269; Corps Network jobs board</a>
+    <a class="pos-link" href="https://corpsnetwork.org/job-openings/internship-usace-environmental-compliance/">&#128269; USACE Environmental Compliance listing</a>
+  </div>
+</div>
+
+<hr>
+
+<!-- CONSERVATION CORPS PROGRAMS -->
+<div class="slabel">Conservation corps programs to watch</div>
+
+<div class="card">
+  <div class="card-title">Southeast Conservation Corps (SECC) &mdash; Chattanooga, TN</div>
+  <div class="card-body" style="margin-bottom:.75rem">SECC operates throughout the Southeast and regularly places members with USFS, NPS, and state agencies across the Appalachian region. Both crew and individual placement positions available. Strong track record of placing members in aquatic, forest, and wildlife ecology roles in the exact geographic region where Erin has training and experience.</div>
+  <div style="display:flex;flex-wrap:wrap;gap:4px;margin-top:.5rem">
+    <a class="pos-link" href="https://southeastconservationcorps.org/apply">&#128269; Apply to SECC</a>
+    <a class="pos-link" href="https://southeastconservationcorps.org/individual-placements">&#128269; SECC Individual Placements</a>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-title">Southwest Conservation Corps (SCC) &mdash; Colorado &amp; Mountain West</div>
+  <div class="card-body" style="margin-bottom:.75rem">SCC partners with BLM, USFS, and NPS across Colorado, New Mexico, Utah, and Arizona. The San Luis Valley/Los Valles program (which hosted the BLM Wetlands/Wildlife position above) focuses on some of Colorado's most ecologically significant landscapes. Watch the SCC individual placement board for the 2026&ndash;27 cycle's wetland/wildlife positions.</div>
+  <div style="display:flex;flex-wrap:wrap;gap:4px;margin-top:.5rem">
+    <a class="pos-link" href="https://www.southwestconservationcorps.org/individual-placements">&#128269; SCC Individual Placements</a>
+    <a class="pos-link" href="https://www.southwestconservationcorps.org/apply">&#128269; Apply to SCC</a>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-title">American Youthworks Texas &amp; Regional Conservation Corps</div>
+  <div class="card-body" style="margin-bottom:.75rem">Operates crews in TX, AR, and OK with federal agency partners including USFS and USFWS. The Wichita Mountains wildlife monitoring position (listed above) is run through this program. Multiple crew and IP openings posted year-round across the South-Central US.</div>
+  <div style="display:flex;flex-wrap:wrap;gap:4px;margin-top:.5rem">
+    <a class="pos-link" href="https://americanyouthworks.org/what-we-do/cc/open-positions">&#128269; American Youthworks open positions</a>
+  </div>
+</div>
+
+<hr>
+
+<!-- FELLOWSHIPS -->
+<div class="slabel">Environmental fellowships &amp; bridge programs</div>
+
+<div class="card">
+  <div class="card-title">EPA Greater Research Opportunities (GRO) Fellowship</div>
+  <div class="card-body">Covers tuition + stipend for students in environmental careers. Competitive but strong profile match. Applications typically open in fall for the following academic year. Check epa.gov/careers for current cycle. Includes a paid summer internship at an EPA facility.</div>
+  <div style="margin-top:.5rem"><a class="pos-link" href="https://www.epa.gov/careers/gro-fellowships">&#128269; EPA GRO Fellowship</a></div>
+</div>
+
+<div class="card">
+  <div class="card-title">USDA Forest Service Pathways Recent Graduate Program</div>
+  <div class="card-body">Federal hiring pathway for students who graduated within the past 2 years. Converts to permanent federal employment after one year. Biological science, hydrology, and GIS positions available. Posted on USAJobs. Search "Pathways Recent Graduate" + "environmental science" or "biological science."</div>
+  <div style="margin-top:.5rem"><a class="pos-link" href="https://www.usajobs.gov/Search/Results?hp=rg&k=environmental+science+biological">&#128269; USAJobs: Pathways Recent Grad positions</a></div>
+</div>
+
+<div class="card">
+  <div class="card-title">Doris Duke Conservation Scholars Program</div>
+  <div class="card-body">Fellowship focused on conservation and environmental justice. Strong alignment with Erin's dual focus on field science and Appalachian environmental justice coursework (ENVH 493). Check doris duke foundation for current program year details and deadlines.</div>
+  <div style="margin-top:.5rem"><a class="pos-link" href="https://www.ddcf.org/programs/environment/">&#128269; Doris Duke Foundation &mdash; Environment Program</a></div>
+</div>
+
+<div class="card">
+  <div class="card-title">Peace Corps &mdash; Environment Sector</div>
+  <div class="card-body">27-month service in community environmental health, natural resource management, or climate change adaptation. Non-competitive eligibility for federal jobs upon return. Many graduate programs offer deferred enrollment for Peace Corps volunteers. Strong match for Erin's environmental justice, community outreach, and field science skills.</div>
+  <div style="margin-top:.5rem"><a class="pos-link" href="https://www.peacecorps.gov/volunteer/is-peace-corps-right-for-me/sectors/environment/">&#128269; Peace Corps Environment sector</a><a class="pos-link" href="https://www.peacecorps.gov/educators/resources/peace-corps-masters-international/">&#128269; Peace Corps Master's International</a></div>
+</div>
+
+<hr>
+
+<!-- SEARCH LINKS -->
+<div class="slabel">Find more AmeriCorps positions</div>
+<div class="card">
+  <a class="rl" href="https://my.americorps.gov/mp/listing/publicSearch.do">&#128269;&nbsp; AmeriCorps official position search (my.americorps.gov)</a>
+  <a class="rl" href="https://stewardslegacy.org/open-positions">&#128269;&nbsp; Stewards Individual Placements &mdash; GIS, species inventory, land management</a>
+  <a class="rl" href="https://corpsnetwork.org/jobs-at-corps/">&#128269;&nbsp; The Corps Network job board &mdash; all conservation corps positions</a>
+  <a class="rl" href="https://southeastconservationcorps.org/apply">&#128269;&nbsp; Southeast Conservation Corps &mdash; Appalachian &amp; southeast placements</a>
+  <a class="rl" href="https://www.southwestconservationcorps.org/individual-placements">&#128269;&nbsp; Southwest Conservation Corps &mdash; Colorado &amp; Mountain West placements</a>
+  <a class="rl" href="https://jobs.fire-up.net/jobs?q=wetlands+wildlife">&#128269;&nbsp; FireUp job board &mdash; fire, forestry &amp; conservation AmeriCorps</a>
+  <a class="rl" href="https://www.google.com/search?q=AmeriCorps+individual+placement+wetlands+water+quality+GIS+wildlife+2026+open">&#128269;&nbsp; Search: AmeriCorps IP wetlands / water quality / GIS / wildlife 2026</a>
+  <a class="rl" href="https://www.google.com/search?q=AmeriCorps+individual+placement+environmental+science+Appalachian+southeast+2026">&#128269;&nbsp; Search: AmeriCorps IP environmental science southeastern US 2026</a>
+</div>
+
+<p class="footer">Position information current as of May 2026. AmeriCorps positions open and close rapidly &mdash; verify all listings directly before applying. Education award amounts are subject to change by AmeriCorps annually.<br><br><a href="index.html" style="color:#185fa5">&#8592; Back to home</a></p>
+</div>
+</body>
+</html>
