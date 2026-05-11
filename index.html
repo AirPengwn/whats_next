@@ -37,6 +37,15 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
 .b-blue{background:#e6f1fb;color:#185fa5}
 .b-amber{background:#faeeda;color:#854f0b}
 @media(prefers-color-scheme:dark){.b-teal{background:#085041;color:#9fe1cb}.b-blue{background:#0c447c;color:#b5d4f4}.b-amber{background:#633806;color:#fac775}}
+.outreach-btn{display:flex;align-items:center;gap:1rem;background:var(--bg);border:2px solid #185fa5;border-radius:var(--r2);padding:1rem 1.25rem;text-decoration:none;color:var(--t1);margin-top:12px;transition:background .12s}
+.outreach-btn:hover{background:#e6f1fb}
+@media(prefers-color-scheme:dark){.outreach-btn:hover{background:#0c447c}}
+.outreach-title{font-size:14px;font-weight:500;color:var(--t1);margin-bottom:2px}
+.outreach-desc{font-size:12px;color:var(--t3);line-height:1.4}
+.outreach-arrow{font-size:18px;color:#185fa5;margin-left:auto;flex-shrink:0}
+.outreach-banner{display:flex;align-items:center;gap:1rem;background:#e6f1fb;border:2px solid #185fa5;border-radius:var(--r2);padding:1rem 1.25rem;text-decoration:none;color:var(--t1);margin-top:12px;transition:background .12s}
+.outreach-banner:hover{background:#cce0f5}
+@media(prefers-color-scheme:dark){.outreach-banner{background:#0c3a6e;border-color:#4d9de0}.outreach-banner:hover{background:#0a4f8c}}
 .footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
 @media(max-width:520px){.stats{grid-template-columns:repeat(2,1fr)}.nav-grid{grid-template-columns:1fr}}
 </style>
@@ -108,9 +117,22 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
   <a href="erin_service.html" class="nav-btn">
     <span class="nav-icon">&#127807;</span>
     <div class="nav-title">Service &amp; fellowships</div>
-    <div class="nav-desc">AmeriCorps, Peace Corps, conservation corps, environmental fellowships, and bridge year programs</div>
+    <div class="nav-desc">AmeriCorps, conservation corps, environmental fellowships, and bridge year programs</div>
+  </a>
+  <a href="erin_outreach.html" class="nav-btn">
+    <span class="nav-icon">&#9997;&#65039;</span>
+    <div class="nav-title">Statement of purpose &amp; outreach emails</div>
+    <div class="nav-desc">SOP draft, faculty email templates including NC State / Dr. Forrester, writing strategy guide</div>
   </a>
 </div>
+
+<a href="erin_outreach.html" class="outreach-banner">
+  <span style="font-size:20px">&#9997;&#65039;</span>
+  <div style="flex:1">
+    <div style="font-size:14px;font-weight:500;color:var(--t1);margin-bottom:3px">Ready to apply? Start with the statement of purpose &amp; outreach emails &#8594;</div>
+    <div style="font-size:12px;color:var(--t3)">Full SOP draft &middot; Faculty email templates &middot; NC State / Dr. Forrester ready-to-send email &middot; Writing strategy tips</div>
+  </div>
+</a>
 
 <p class="footer">Resource guide compiled May 2026. Information should be verified directly with each institution or program.</p>
 </div>
