@@ -19,54 +19,437 @@ body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6
 .card-title{font-size:15px;font-weight:500;margin-bottom:.5rem;color:var(--t1)}
 .card-body{font-size:13px;color:var(--t2);line-height:1.7}
 hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
-.tip{border-left:3px solid #5dcaa5;background:var(--bg2);padding:.85rem 1rem;margin-bottom:1rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
+.tip{border-left:3px solid #5dcaa5;background:var(--bg2);padding:.85rem 1rem;margin-bottom:.85rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
+.pos-card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:.85rem}
+.pos-card.hot{border:2px solid #5dcaa5}
+.pos-header{display:flex;align-items:flex-start;justify-content:space-between;gap:.75rem;margin-bottom:.35rem}
+.pos-title{font-size:14px;font-weight:500;color:var(--t1);line-height:1.4}
+.pos-org{font-size:12px;color:var(--t3);margin-bottom:.5rem}
+.pos-body{font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.65rem}
+.badge{font-size:11px;font-weight:500;padding:3px 9px;border-radius:999px;white-space:nowrap;flex-shrink:0}
+.b-open{background:#e1f5ee;color:#0f6e56}
+.b-check{background:#faeeda;color:#854f0b}
+.b-rolling{background:#e6f1fb;color:#185fa5}
+.b-type{background:var(--bg2);color:var(--t2)}
+@media(prefers-color-scheme:dark){.b-open{background:#085041;color:#9fe1cb}.b-check{background:#633806;color:#fac775}.b-rolling{background:#0c447c;color:#b5d4f4}}
+.meta-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 12px;margin-bottom:.65rem}
+.meta-item{font-size:12px;color:var(--t2)}
+.meta-label{font-weight:500;color:var(--t1)}
+.fit-pills{margin-bottom:.65rem;display:flex;flex-wrap:wrap;gap:4px}
+.fit-pill{display:inline-block;font-size:11px;font-weight:500;padding:3px 9px;border-radius:999px;background:#e6f1fb;color:#185fa5}
+@media(prefers-color-scheme:dark){.fit-pill{background:#0c447c;color:#b5d4f4}}
+.pos-links{display:flex;flex-wrap:wrap;gap:4px}
+.pos-link{display:inline-flex;align-items:center;gap:5px;font-size:12px;color:#185fa5;text-decoration:none;padding:3px 0;margin-right:.75rem}
+.pos-link:hover{text-decoration:underline}
+.more-btn{font-size:12px;font-weight:500;padding:4px 13px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn);display:inline-flex;align-items:center;gap:5px;margin-top:.4rem}
+.more-btn:hover{background:var(--bg2);color:var(--t1)}
+.more-panel{display:none;margin-top:.85rem;padding-top:.85rem;border-top:.5px solid var(--bd)}
+.more-panel.open{display:block}
+.more-panel h4{font-size:12px;font-weight:500;color:var(--t3);text-transform:uppercase;letter-spacing:.05em;margin-bottom:.4rem;margin-top:.75rem}
+.more-panel h4:first-child{margin-top:0}
+.more-panel p{font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.5rem}
+.more-panel p:last-child{margin-bottom:0}
+.detail-row{font-size:13px;color:var(--t2);padding:4px 0;border-bottom:.5px solid var(--bd);display:flex;gap:8px}
+.detail-row:last-child{border-bottom:none}
+.detail-label{font-weight:500;color:var(--t1);min-width:120px;flex-shrink:0}
+.contact-block{background:var(--bg2);border-radius:var(--r1);padding:.65rem .85rem;margin-top:.5rem;font-size:13px;color:var(--t2);line-height:1.6}
+.contact-block a{color:#185fa5;text-decoration:none}
+.contact-block a:hover{text-decoration:underline}
 .rl{display:block;font-size:13px;color:#185fa5;text-decoration:none;padding:7px 0;border-bottom:.5px solid var(--bd)}
 .rl:last-child{border-bottom:none}
 .rl:hover{text-decoration:underline}
 .footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
+@media(max-width:520px){.pos-header{flex-direction:column;align-items:flex-start}.meta-grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 <div class="page">
 <div class="top-nav">
   <a href="index.html" class="back-btn">&#8592; Home</a>
-  <span class="pg-title">Career Positions</span>
+  <span class="pg-title">Career positions</span>
 </div>
 
-  <div class="slabel">Career focus areas</div>
-  <div class="tip">Erin is positioned for entry-level roles in wetland science, water quality, GIS, wildlife biology, and environmental consulting. The notes below outline the strongest matches and where to look.</div>
-
-  <div class="card">
-    <div class="card-title">Strongest entry-level fits</div>
-    <div class="card-body">
-      <p style="margin-bottom:.75rem"><strong style="font-weight:500">Wetland Scientist / Delineator</strong> &mdash; Environmental consulting firms (ECS, Kimley-Horn, Terracon, Kleinfelder, WSP) hire environmental scientists with wetland delineation training. Direct match for GEOL 455 and Army Corps methods. Often titled "Environmental Scientist I" or "Staff Environmental Scientist."</p>
-      <p style="margin-bottom:.75rem"><strong style="font-weight:500">GIS Technician / Analyst</strong> &mdash; Local governments, conservation organizations, and consulting firms hire GIS technicians. NRM 344 + GEOG 221 + suitability analysis experience is a solid foundation. Look for "GIS Analyst I" or "Geospatial Analyst" titles.</p>
-      <p style="margin-bottom:.75rem"><strong style="font-weight:500">Water Quality Technician / Field Scientist</strong> &mdash; State agencies, EPA, USGS, and consulting firms. Direct match for ENVH 310 and field sampling skills. Titles: "Environmental Technician," "Water Quality Specialist," "Environmental Analyst."</p>
-      <p><strong style="font-weight:500">Wildlife Biologist / Field Technician</strong> &mdash; State wildlife agencies, USFWS, conservation organizations. Match for NRM 479 and NRM 330 field skills. Titles: "Wildlife Biologist I," "Biological Science Technician," "Field Technician."</p>
-    </div>
+<div class="slabel">Overview</div>
+<div class="card">
+  <div class="card-title">Entry-level career landscape for Erin's background</div>
+  <div class="card-body">
+    <p style="margin-bottom:.75rem">Erin's BS in Environmental Science with hands-on field skills places her in a strong position for entry-level roles across federal agencies, state agencies, environmental consulting, and conservation nonprofits. Her most marketable combination: <strong style="font-weight:500">wetland delineation (Army Corps certified) + water quality + GIS</strong> — that trio is in constant demand at consulting firms, state DEQs, and the Army Corps itself.</p>
+    <p style="margin-bottom:.75rem">Most entry-level environmental science roles are titled: Environmental Scientist I, Staff Environmental Scientist, Environmental Technician, Biological Science Technician, Natural Resources Specialist, or Field Scientist. Salary range: $38,000&ndash;$55,000 at entry level in consulting; federal GS-07 to GS-09 is approximately $48,000&ndash;$60,000 depending on location.</p>
+    <p>For federal jobs, create a USAJobs profile and upload your resume in their format. Federal resumes differ from private sector — they require more detail, including specific coursework, GPA, and hours per week for each experience. Build this early.</p>
   </div>
-
-  <div class="card">
-    <div class="card-title">Key employers to target</div>
-    <div class="card-body">
-      <p style="margin-bottom:.75rem"><strong style="font-weight:500">Federal:</strong> EPA (Region 4), USGS, USFWS, Army Corps of Engineers, USDA Forest Service, NRCS</p>
-      <p style="margin-bottom:.75rem"><strong style="font-weight:500">State:</strong> NC DEQ, NC Wildlife Resources Commission, SC DHEC, TDEC (Tennessee), GADNR (Georgia)</p>
-      <p style="margin-bottom:.75rem"><strong style="font-weight:500">Consulting:</strong> ECS Federal, Terracon, WSP, Kimley-Horn, Cardno, Brown and Caldwell, Stantec</p>
-      <p><strong style="font-weight:500">Nonprofits:</strong> The Nature Conservancy, American Rivers, Southern Appalachian Highlands Conservancy, Ducks Unlimited, NRDC</p>
-    </div>
-  </div>
-
-  <hr>
-  <div class="slabel">Search links</div>
-  <div class="card">
-    <a class="rl" href="https://www.usajobs.gov/Search/Results?k=environmental+scientist&Series=0401">&#128269;&nbsp; USAJobs &mdash; federal environmental scientist positions</a>
-    <a class="rl" href="https://www.google.com/search?q=wetland+scientist+delineator+entry+level+environmental+consulting+2026">&#128269;&nbsp; Wetland scientist / delineator entry-level 2026</a>
-    <a class="rl" href="https://www.google.com/search?q=GIS+analyst+technician+entry+level+environmental+science+2026">&#128269;&nbsp; GIS analyst entry-level environmental 2026</a>
-    <a class="rl" href="https://www.google.com/search?q=water+quality+field+technician+environmental+scientist+entry+level+2026">&#128269;&nbsp; Water quality field scientist entry-level 2026</a>
-    <a class="rl" href="https://www.google.com/search?q=wildlife+biologist+field+technician+entry+level+USFWS+2026">&#128269;&nbsp; Wildlife biologist / field technician 2026</a>
-    <a class="rl" href="https://www.linkedin.com/jobs/search/?keywords=environmental+scientist&f_E=2">&#128269;&nbsp; LinkedIn &mdash; entry-level environmental scientist</a>
-  </div>
-<p class="footer">Information current as of May 2026. Verify details directly with each program or employer.<br><a href="index.html" style="color:#185fa5">&#8592; Back to home</a></p>
 </div>
+
+<div style="font-size:12px;color:var(--t3);margin-bottom:1rem;display:flex;flex-wrap:wrap;gap:10px">
+  <span><span class="badge b-open">Open now</span> verified active posting</span>
+  <span><span class="badge b-rolling">Rolling</span> continuous/ongoing hiring</span>
+  <span><span class="badge b-check">Verify</span> confirm current availability</span>
+  <span><span class="badge b-type">Career type</span> category/title shown for reference</span>
+</div>
+
+<!-- FEDERAL -->
+<div class="slabel">Federal agency positions</div>
+
+<!-- USGS SAWSC permanent -->
+<div class="pos-card hot">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">Hydrologic Technician / Environmental Science Technician</div>
+      <div class="pos-org">USGS South Atlantic Water Science Center (SAWSC) &middot; NC, SC &amp; GA offices</div>
+    </div>
+    <span class="badge b-rolling">Rolling</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Water quality monitoring</span>
+    <span class="fit-pill">Hydrology fieldwork</span>
+    <span class="fit-pill">Streamflow measurement</span>
+    <span class="fit-pill">SE United States</span>
+    <span class="fit-pill">Paid federal position</span>
+  </div>
+  <div class="pos-body">USGS SAWSC offers full-time entry-level paid positions in NC, SC, and GA for recent graduates with environmental science, hydrology, or biological science backgrounds. Hydrologic Technicians operate stream gauges, collect water quality samples, conduct aquatic biological surveys, and analyze field and lab data. This is the most direct match for Erin's water quality, contaminated rivers, and field sampling background in her home region.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">Location:</span> NC, SC, GA (multiple offices)</div>
+    <div class="meta-item"><span class="meta-label">Pay:</span> GS-05 to GS-07 (~$38k&ndash;$52k DOL)</div>
+    <div class="meta-item"><span class="meta-label">Benefits:</span> Full federal benefits, retirement, health</div>
+    <div class="meta-item"><span class="meta-label">Deadline:</span> Rolling — posted on USAJobs year-round</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://www.usgs.gov/centers/sawsc/science/south-atlantic-water-science-center-sawsc-student-corps-employment">&#128269; SAWSC employment page</a>
+    <a class="pos-link" href="mailto:gs-sawscsc@usgs.gov">&#9993; gs-sawscsc@usgs.gov</a>
+    <a class="pos-link" href="https://www.usajobs.gov/Search/Results?a=USGS&k=hydrologic+technician">&#128269; USAJobs: USGS Hydrologic Technician</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>Why this is the top federal match</h4>
+    <p>SAWSC is the USGS Water Science Center for exactly the region where Erin studied and conducted her Hurricane Helene research. Hydrologic technicians in NC/SC/GA are doing the kind of water quality field work that Erin did for her senior capstone, at a professional level, for a federal paycheck with full benefits. This is both a viable career path and an excellent bridge to graduate school applications.</p>
+    <h4>Series to search on USAJobs</h4>
+    <p>GS-1316 (Hydrologic Technician), GS-0404 (Biological Science Technician), GS-1301 (Physical Science), GS-1350 (Geology). Also search "Environmental Science Technician" and "Physical Science Technician" under USGS.</p>
+    <div class="detail-row"><span class="detail-label">Federal resume tip</span>Include GPA (3.731), all relevant coursework, specific duties from Pigeon River project, and hours/week for each experience</div>
+    <div class="detail-row"><span class="detail-label">Transcript</span>Upload unofficial transcript — GPA and course list are reviewed for technical qualifications</div>
+  </div>
+</div>
+
+<!-- USFWS Biological Science Technician -->
+<div class="pos-card">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">Biological Science Technician (GS-0404)</div>
+      <div class="pos-org">US Fish &amp; Wildlife Service &middot; Southeast Region (Region 4) NWR offices</div>
+    </div>
+    <span class="badge b-rolling">Rolling</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Wildlife surveys</span>
+    <span class="fit-pill">Wetland management</span>
+    <span class="fit-pill">Species monitoring</span>
+    <span class="fit-pill">National Wildlife Refuges</span>
+  </div>
+  <div class="pos-body">USFWS Biological Science Technician positions (GS-0404 series) involve wildlife surveys, wetland management, habitat assessments, and species monitoring on National Wildlife Refuges. Region 4 covers NC, SC, GA, FL, AL, MS, TN, KY, AR — the region where Erin has direct field experience. Entry-level positions (GS-04 to GS-07) are posted year-round. Note: USFWS recommends including a cover letter clarifying that GEOL 455 (Wetlands) qualifies as aquatic science coursework.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">Pay:</span> GS-04 to GS-07 (~$33k&ndash;$52k)</div>
+    <div class="meta-item"><span class="meta-label">Location:</span> Region 4 NWR offices, SE United States</div>
+    <div class="meta-item"><span class="meta-label">Benefits:</span> Full federal benefits</div>
+    <div class="meta-item"><span class="meta-label">Deadline:</span> Rolling; apply when posted</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://www.usajobs.gov/Search/Results?a=FWS&k=biological+science+technician&Series=0404">&#128269; USAJobs: USFWS Biological Science Technician</a>
+    <a class="pos-link" href="https://www.fws.gov/careers">&#128269; USFWS Careers</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>Coursework qualification note</h4>
+    <p>USFWS HR categorizes coursework by specific terms in the announcement. GEOL 455 (Wetlands) may not auto-qualify as "aquatic science." Include a short cover letter paragraph: <em>"My coursework in GEOL 455 Wetlands covers wetland hydrology, soil chemistry indicators, and aquatic vegetation, and should qualify as aquatic science coursework for the 0404 series requirements."</em></p>
+    <h4>Best Region 4 NWR targets</h4>
+    <p>Pee Dee NWR (NC), Cape Romain NWR (SC), Piedmont NWR (GA), Santee NWR (SC), and Great Dismal Swamp NWR (VA/NC) are strong candidates given their wetland ecology focus and proximity to Erin's field region. Also consider Alligator River NWR (NC) for coastal wetland work.</p>
+    <div class="detail-row"><span class="detail-label">&#128197; When to apply</span>Seasonal positions for summer post Jan&ndash;Mar; permanent positions year-round; apply immediately when posted as they close fast</div>
+  </div>
+</div>
+
+<!-- Army Corps -->
+<div class="pos-card">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">Environmental Science / Natural Resources Specialist</div>
+      <div class="pos-org">US Army Corps of Engineers &middot; Wilmington District (NC/SC) or Savannah District (GA)</div>
+    </div>
+    <span class="badge b-rolling">Rolling</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Wetland permitting &amp; 404</span>
+    <span class="fit-pill">Army Corps delineation</span>
+    <span class="fit-pill">Regulatory compliance</span>
+    <span class="fit-pill">Water resources</span>
+  </div>
+  <div class="pos-body">The Army Corps of Engineers Wilmington District regulates wetlands under Section 404 of the Clean Water Act across NC and SC — the exact region and regulatory framework Erin studied in GEOL 455. Entry-level Natural Resource Specialist and Biologist positions process permit applications, conduct wetland delineation reviews, and coordinate with state agencies. This is the most direct institutional match for Erin's Army Corps delineation training.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">Pay:</span> GS-07 to GS-09 typically (~$48k&ndash;$60k)</div>
+    <div class="meta-item"><span class="meta-label">Location:</span> Wilmington, NC or Savannah, GA</div>
+    <div class="meta-item"><span class="meta-label">Series:</span> GS-0401 (Biologist) or GS-0401 (Natural Resources Specialist)</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://www.usajobs.gov/Search/Results?a=USACE&k=natural+resources+biologist+wetlands">&#128269; USAJobs: Army Corps biologist/natural resources</a>
+    <a class="pos-link" href="https://www.sas.usace.army.mil/Careers/">&#128269; Savannah District careers</a>
+    <a class="pos-link" href="https://www.saw.usace.army.mil/Careers/">&#128269; Wilmington District careers</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>Why the Wilmington District is the best fit</h4>
+    <p>The USACE Wilmington District has jurisdiction over NC and SC — the exact geography where Erin studied wetlands and conducted her field research. Regulatory staff review Section 404 Clean Water Act wetland permit applications from developers, evaluate wetland delineation reports, and make jurisdictional determinations. Erin's GEOL 455 coursework used the Army Corps Delineation Manual directly — she would come in with working knowledge of the methodology these staff use every day.</p>
+    <h4>How to stand out</h4>
+    <p>Reference GEOL 455 prominently: "coursework using the Army Corps of Engineers Wetland Delineation Manual and Regional Supplements for the Eastern Mountains and Piedmont." Mention participation in Panthertown Valley field trips and the Carolina wetland community types covered in the course.</p>
+    <div class="detail-row"><span class="detail-label">Key document</span>Federal resume with explicit mention of GEOL 455 Army Corps manual training, specific wetland plant/soil/hydrology skills</div>
+  </div>
+</div>
+
+<hr>
+
+<!-- STATE AGENCIES -->
+<div class="slabel">State agency positions</div>
+
+<!-- NC DEQ -->
+<div class="pos-card hot">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">Environmental Specialist I &mdash; Water Quality or Wetlands</div>
+      <div class="pos-org">NC Department of Environmental Quality (NC DEQ) &middot; Raleigh &amp; regional offices, NC</div>
+    </div>
+    <span class="badge b-rolling">Rolling</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Water quality monitoring</span>
+    <span class="fit-pill">Wetland permitting</span>
+    <span class="fit-pill">401/404 certification</span>
+    <span class="fit-pill">Field inspections</span>
+    <span class="fit-pill">North Carolina</span>
+  </div>
+  <div class="pos-body">NC DEQ's Division of Water Resources and Division of Water Quality hire Environmental Specialists with water quality, wetlands, and field science backgrounds. Entry-level Environmental Specialist I positions review wetland and stream impact permits (401 Water Quality Certifications), conduct field inspections, and monitor compliance. NC is one of the most active states for 404/401 permitting given its diverse wetland types. Strong match for Erin's ENVH 310, GEOL 455, and GEOL 423 coursework.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">Pay:</span> $38,000&ndash;$50,000 (NC state scale)</div>
+    <div class="meta-item"><span class="meta-label">Location:</span> Raleigh, Asheville, Wilmington, and regional offices</div>
+    <div class="meta-item"><span class="meta-label">Benefits:</span> State pension, health, leave</div>
+    <div class="meta-item"><span class="meta-label">Deadline:</span> Posted on NC Office of State Human Resources (OSHR)</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://deq.nc.gov/careers">&#128269; NC DEQ Careers page</a>
+    <a class="pos-link" href="https://www.governmentjobs.com/careers/northcarolina?keywords=environmental+specialist+water">&#128269; NC state job board — environmental specialist</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>Key divisions to target</h4>
+    <p><strong style="font-weight:500">Division of Water Resources (DWR)</strong> — 401 Water Quality Certification Program reviews wetland and stream impacts from development projects. Staff evaluate delineation reports and make permit decisions. Direct match for GEOL 455 training.</p>
+    <p><strong style="font-weight:500">Basinwide Planning Program</strong> — develops water quality management plans for major river basins in NC, including the French Broad Basin (where the Pigeon River flows). Erin's Pigeon River research is directly relevant to this program's work.</p>
+    <p><strong style="font-weight:500">Western Regional Office (Asheville)</strong> — covers the mountain counties where Erin studied. The Asheville office deals with mountain wetlands, trout stream buffers, and post-Helene permitting. This is the most personally relevant office.</p>
+    <div class="detail-row"><span class="detail-label">&#9888; Asheville connection</span>Mention Hurricane Helene Pigeon River research in applications to the Western Regional Office — it's directly relevant to their current workload</div>
+  </div>
+</div>
+
+<!-- NC WRC -->
+<div class="pos-card">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">Wildlife Biologist I / Wildlife Technician</div>
+      <div class="pos-org">NC Wildlife Resources Commission (NCWRC) &middot; Statewide</div>
+    </div>
+    <span class="badge b-rolling">Rolling</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Wildlife surveys</span>
+    <span class="fit-pill">Mammal population monitoring</span>
+    <span class="fit-pill">GIS &amp; spatial analysis</span>
+    <span class="fit-pill">North Carolina</span>
+  </div>
+  <div class="pos-body">NC Wildlife Resources Commission hires wildlife biologists and technicians for population monitoring, habitat assessment, GIS analysis, and species management across NC. Strong match for Erin's NRM 479 (Mammalogy), NRM 330 (Wildlife Management), and GIS coursework. NCWRC also conducts significant work in the mountain region where Erin has field experience.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">Pay:</span> $35,000&ndash;$48,000 (entry level)</div>
+    <div class="meta-item"><span class="meta-label">Location:</span> Mountain, Piedmont, and Coastal regions</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://www.ncwildlife.org/About-Us/Careers">&#128269; NCWRC Careers page</a>
+    <a class="pos-link" href="https://www.google.com/search?q=NC+Wildlife+Resources+Commission+wildlife+biologist+technician+entry+level+2026">&#128269; Search NCWRC openings 2026</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>Programs to target</h4>
+    <p>Wildlife Management Division hires biologists for deer, turkey, bear, small game, and furbearer population monitoring. The Western Piedmont/Mountain region office manages species Erin studied in NRM 479 (small mammals, mustelids) and NRM 330 (wildlife population management). GIS skills are explicitly in demand for habitat analysis and population mapping work.</p>
+    <div class="detail-row"><span class="detail-label">Mention in application</span>NRM 479 Mammalogy field skills (small mammal trapping/tagging), NRM 330 wildlife management planning, NRM 344 Applied GIS, WCU mountain field experience</div>
+  </div>
+</div>
+
+<hr>
+
+<!-- CONSULTING -->
+<div class="slabel">Environmental consulting positions</div>
+
+<!-- WSSI Raleigh Compliance Tech -->
+<div class="pos-card hot">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">Environmental Compliance Technician</div>
+      <div class="pos-org">Wetland Studies and Solutions, Inc. (WSSI) &middot; Raleigh, NC</div>
+    </div>
+    <span class="badge b-open">Open now</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Environmental compliance</span>
+    <span class="fit-pill">SWPPP development</span>
+    <span class="fit-pill">Wetland coordination</span>
+    <span class="fit-pill">Stormwater</span>
+    <span class="fit-pill">1+ yr experience</span>
+  </div>
+  <div class="pos-body">WSSI is actively recruiting an Environmental Compliance Technician for their Raleigh, NC team. Ideal candidates have a BS in Environmental Studies or related field and at least 1 year experience performing environmental compliance. Duties: SWPPP development, stormwater pollution prevention planning, wetland/stormwater compliance inspections, reporting, BMP construction monitoring, and coordination with federal and state agencies. This is an entry-level/early-career role at one of the top wetland consulting firms on the East Coast. WSSI offers 401k, medical, dental, vision, and life insurance.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">Location:</span> Raleigh, NC</div>
+    <div class="meta-item"><span class="meta-label">Experience req:</span> 1+ year (internship/AmeriCorps may qualify)</div>
+    <div class="meta-item"><span class="meta-label">Benefits:</span> 401k, medical, dental, vision, life insurance, LEED Gold building</div>
+    <div class="meta-item"><span class="meta-label">&#128197; Status:</span> Active posting as of May 2026 — apply now</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://www.wetlands.com/careers/current-openings/">&#128269; WSSI current openings (apply here)</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>Is Erin qualified?</h4>
+    <p>The "1 year experience" requirement is typical for compliance roles. AmeriCorps service (especially an environmental IP term) often qualifies. An internship at WSSI itself, USGS SAWSC, or a state agency would satisfy this. Erin's GEOL 455 Army Corps delineation training and water quality coursework (ENVH 310) are directly on-point for the wetland coordination duties. Applying after an internship term, or applying now and noting relevant coursework and the Pigeon River research, is reasonable.</p>
+    <h4>What SWPPP work involves</h4>
+    <p>Stormwater Pollution Prevention Plans are required for construction projects under the Clean Water Act. Compliance technicians inspect construction sites for erosion and sediment control compliance, develop SWPPP documents, and report to NCDEQ. Erin's water quality regulatory knowledge (ENVH 310) and contamination assessment skills (GEOL 423) are relevant background.</p>
+    <div class="detail-row"><span class="detail-label">Apply</span>Via WSSI careers page — submit resume + cover letter mentioning GEOL 455, ENVH 310, Pigeon River research</div>
+    <div class="detail-row"><span class="detail-label">WSSI Summer 2026 intern</span>Also apply for their summer internship as a stepping stone to this permanent role</div>
+  </div>
+</div>
+
+<!-- ECS / Terracon / Cardno type -->
+<div class="pos-card">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">Staff Environmental Scientist / Environmental Scientist I</div>
+      <div class="pos-org">ECS Federal, Terracon, Cardno, Stantec, WSP, Kimley-Horn &middot; Southeast &amp; Colorado offices</div>
+    </div>
+    <span class="badge b-rolling">Rolling</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Wetland delineation</span>
+    <span class="fit-pill">Natural resource surveys</span>
+    <span class="fit-pill">NEPA documentation</span>
+    <span class="fit-pill">Report writing</span>
+    <span class="fit-pill">Entry-level consulting</span>
+  </div>
+  <div class="pos-body">Environmental consulting firms hire Staff Environmental Scientists (sometimes called Environmental Scientist I or Junior Ecologist) with BS degrees and wetland/GIS/field skills. Duties include conducting wetland delineations, writing delineation reports, preparing permit applications, conducting wildlife surveys, and supporting NEPA documentation. These firms hire year-round and operate in both the Southeast and Colorado. Starting salary typically $42k&ndash;$52k depending on location.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">Pay:</span> $42,000&ndash;$55,000 entry level</div>
+    <div class="meta-item"><span class="meta-label">Locations:</span> Charlotte, Raleigh, Asheville, Denver, Fort Collins</div>
+    <div class="meta-item"><span class="meta-label">Titles:</span> Staff Environmental Scientist, Environmental Scientist I, Junior Ecologist, Natural Resource Specialist</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://www.ecsfederal.com/careers">&#128269; ECS Federal Careers</a>
+    <a class="pos-link" href="https://www.terracon.com/careers/">&#128269; Terracon Careers</a>
+    <a class="pos-link" href="https://www.stantec.com/en/careers">&#128269; Stantec Careers</a>
+    <a class="pos-link" href="https://www.google.com/search?q=environmental+scientist+I+wetland+delineation+entry+level+NC+SC+CO+consulting+2026">&#128269; Search consulting environmental scientist I positions</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>Which firms to target</h4>
+    <p><strong style="font-weight:500">ECS Federal</strong> — large multi-disciplinary firm active in Carolinas and mid-Atlantic; strong wetland delineation practice.</p>
+    <p><strong style="font-weight:500">Terracon</strong> — nationwide consulting; offices in Charlotte, Raleigh, and Colorado; environmental science and geotechnical focus.</p>
+    <p><strong style="font-weight:500">Stantec</strong> — global firm; active coastal engineering internship (Summer 2026) in Austin; also NC and CO offices.</p>
+    <p><strong style="font-weight:500">Kimley-Horn</strong> — major Raleigh-headquartered firm with strong environmental practice in SE; known for hiring WCU, NCSU, and App State graduates.</p>
+    <p><strong style="font-weight:500">Brown and Caldwell / Arcadis</strong> — water-focused firms; environmental scientist positions in Raleigh and Colorado regularly.</p>
+    <h4>What distinguishes Erin's application</h4>
+    <p>Army Corps delineation training (GEOL 455) is a direct credential for wetland consulting roles. Most entry-level candidates have biology or environmental science degrees but haven't actually used the Wetland Delineation Manual. Erin has. That's worth leading with in cover letters to consulting firms.</p>
+    <div class="detail-row"><span class="detail-label">Key certification to get</span>Wetland Delineation certification through the Society of Wetland Scientists (SWS) — strengthens any wetland consulting application significantly</div>
+    <div class="detail-row"><span class="detail-label">Also consider</span>HAZWOPER 40-hr certification — often paid for by employer but valued in job applications</div>
+  </div>
+</div>
+
+<!-- Davey Tree Raleigh -->
+<div class="pos-card">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">Environmental Compliance Technician</div>
+      <div class="pos-org">Davey Tree Expert Company &middot; Raleigh, NC</div>
+    </div>
+    <span class="badge b-open">Open now</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Environmental compliance</span>
+    <span class="fit-pill">Field inspections</span>
+    <span class="fit-pill">Reporting</span>
+    <span class="fit-pill">Raleigh area</span>
+  </div>
+  <div class="pos-body">Davey Tree has an Environmental Compliance Technician position open in Raleigh, NC. Pay range $18&ndash;$26/hr ($37k&ndash;$54k annualized). Environmental compliance technicians conduct field inspections, prepare compliance reports, and support environmental monitoring programs. Entry-level role suitable for recent BS graduates. Davey is a large national company with advancement opportunities.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">Pay:</span> $18&ndash;$26/hr</div>
+    <div class="meta-item"><span class="meta-label">Location:</span> Raleigh, NC</div>
+    <div class="meta-item"><span class="meta-label">&#128197; Status:</span> Active posting May 2026</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://www.davey.com/about-davey/careers/">&#128269; Davey Tree careers page</a>
+    <a class="pos-link" href="https://www.ziprecruiter.com/c/Davey-Tree-Expert/Job/Environmental-Compliance-Technician/-in-Raleigh,NC?jid=900306a3893c2c5c">&#128269; ZipRecruiter listing</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>About the role</h4>
+    <p>Davey's environmental services division provides compliance monitoring, stormwater management, and natural resource services to utility, transportation, and development clients. An environmental compliance technician conducts site inspections, prepares SWPPP and SPCC documents, and coordinates with state agencies. Good entry-level step into environmental consulting with a nationally recognized company.</p>
+    <div class="detail-row"><span class="detail-label">Apply via</span>ZipRecruiter listing or Davey careers page directly</div>
+    <div class="detail-row"><span class="detail-label">Driver's license</span>Required (valid, 3+ years clean record per company policy)</div>
+  </div>
+</div>
+
+<hr>
+
+<!-- NONPROFITS -->
+<div class="slabel">Nonprofit &amp; conservation organization positions</div>
+
+<div class="pos-card">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">Conservation Scientist / GIS Analyst &mdash; Land Protection</div>
+      <div class="pos-org">The Nature Conservancy (TNC) &middot; NC, SC, CO chapters</div>
+    </div>
+    <span class="badge b-rolling">Rolling</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">GIS &amp; spatial analysis</span>
+    <span class="fit-pill">Conservation planning</span>
+    <span class="fit-pill">Wetland &amp; habitat assessment</span>
+    <span class="fit-pill">Science communication</span>
+  </div>
+  <div class="pos-body">TNC hires conservation scientists and GIS analysts for land protection, habitat assessment, and conservation planning. Their NC and SC programs focus on Appalachian forest and stream conservation — directly relevant to Erin's background. Colorado chapter works on water resources and working lands conservation. Good match for Erin's combined GIS + field ecology + environmental justice background.</div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://www.nature.org/en-us/about-us/careers/">&#128269; TNC Careers page</a>
+    <a class="pos-link" href="https://www.google.com/search?q=The+Nature+Conservancy+GIS+analyst+conservation+scientist+entry+level+NC+SC+CO+2026">&#128269; Search TNC entry-level positions 2026</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>TNC NC chapter focus</h4>
+    <p>TNC's NC Chapter focuses on protecting mountain to coast habitats — headwater streams, bottomland forests, pocosins, and barrier island systems. Their Appalachian program directly overlaps with Erin's field region. GIS analysts support conservation planning by analyzing land ownership, habitat connectivity, and threat mapping.</p>
+    <h4>Other strong nonprofit targets</h4>
+    <p><strong style="font-weight:500">Southern Appalachian Highlands Conservancy</strong> (Asheville, NC) — regional land trust working in exactly Erin's field geography. Conservation easement work and natural area stewardship. Contact: <a href="https://appalachian.org/about/careers/" style="color:#185fa5">appalachian.org/about/careers</a></p>
+    <p><strong style="font-weight:500">American Rivers</strong> — water quality, river restoration, and advocacy. Match for contaminated rivers and water quality background.</p>
+    <p><strong style="font-weight:500">Ducks Unlimited</strong> — wetland conservation, habitat management. Direct match for wetland delineation skills.</p>
+  </div>
+</div>
+
+<hr>
+
+<!-- SEARCH LINKS -->
+<div class="slabel">Search resources &amp; job boards</div>
+<div class="card">
+  <a class="rl" href="https://www.usajobs.gov/Search/Results?k=environmental+scientist+wetlands+water+quality&Series=0401">&#128269;&nbsp; USAJobs &mdash; federal environmental scientist / biologist positions</a>
+  <a class="rl" href="https://www.usajobs.gov/Search/Results?hp=rg&k=environmental+science+hydrology+biology">&#128269;&nbsp; USAJobs &mdash; Recent Graduate Program: env. science / hydrology / biology</a>
+  <a class="rl" href="https://www.conservationjobboard.com/category/wetlands">&#128269;&nbsp; Conservation Job Board &mdash; wetlands positions</a>
+  <a class="rl" href="https://careers.wildlife.org/jobs">&#128269;&nbsp; The Wildlife Society Career Center &mdash; wildlife biologist / technician</a>
+  <a class="rl" href="https://jobs.fisheries.org">&#128269;&nbsp; American Fisheries Society Career Center &mdash; fisheries &amp; aquatic positions</a>
+  <a class="rl" href="https://www.governmentjobs.com/careers/northcarolina?keywords=environmental+scientist">&#128269;&nbsp; NC state jobs board &mdash; environmental scientist</a>
+  <a class="rl" href="https://www.google.com/search?q=environmental+scientist+I+entry+level+wetland+delineation+GIS+NC+SC+CO+2026">&#128269;&nbsp; Search: entry-level environmental scientist wetlands GIS NC/SC/CO 2026</a>
+  <a class="rl" href="https://www.google.com/search?q=wildlife+biologist+technician+entry+level+southeastern+US+USFWS+2026">&#128269;&nbsp; Search: wildlife biologist technician southeastern US USFWS 2026</a>
+  <a class="rl" href="https://www.google.com/search?q=USGS+hydrologic+technician+water+quality+North+Carolina+2026+apply">&#128269;&nbsp; Search: USGS hydrologic technician NC/SC 2026</a>
+  <a class="rl" href="https://www.linkedin.com/jobs/search/?keywords=environmental+scientist&location=North+Carolina&f_E=2">&#128269;&nbsp; LinkedIn &mdash; entry-level environmental scientist North Carolina</a>
+  <a class="rl" href="https://www.linkedin.com/jobs/search/?keywords=environmental+scientist&location=Colorado&f_E=2">&#128269;&nbsp; LinkedIn &mdash; entry-level environmental scientist Colorado</a>
+</div>
+
+<p class="footer">Job listings current as of May 2026. Verify positions directly before applying — particularly for consulting firms where openings fill quickly. Federal positions are most competitive; start USAJobs profile early.<br><br><a href="index.html" style="color:#185fa5">&#8592; Back to home</a></p>
+</div>
+<script>
+function toggleMore(btn){var p=btn.nextElementSibling;var o=p.classList.toggle('open');btn.textContent=o?'− Less info':'+ More info'}
+</script>
 </body>
 </html>

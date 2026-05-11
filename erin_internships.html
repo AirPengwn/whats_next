@@ -19,11 +19,47 @@ body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6
 .card-title{font-size:15px;font-weight:500;margin-bottom:.5rem;color:var(--t1)}
 .card-body{font-size:13px;color:var(--t2);line-height:1.7}
 hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
-.tip{border-left:3px solid #5dcaa5;background:var(--bg2);padding:.85rem 1rem;margin-bottom:1rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
+.tip{border-left:3px solid #5dcaa5;background:var(--bg2);padding:.85rem 1rem;margin-bottom:.85rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
+.pos-card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:.85rem}
+.pos-card.hot{border:2px solid #5dcaa5}
+.pos-header{display:flex;align-items:flex-start;justify-content:space-between;gap:.75rem;margin-bottom:.35rem}
+.pos-title{font-size:14px;font-weight:500;color:var(--t1);line-height:1.4}
+.pos-org{font-size:12px;color:var(--t3);margin-bottom:.5rem}
+.pos-body{font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.65rem}
+.badge{font-size:11px;font-weight:500;padding:3px 9px;border-radius:999px;white-space:nowrap;flex-shrink:0}
+.b-open{background:#e1f5ee;color:#0f6e56}
+.b-check{background:#faeeda;color:#854f0b}
+.b-rolling{background:#e6f1fb;color:#185fa5}
+.b-closed{background:var(--bg2);color:var(--t3)}
+@media(prefers-color-scheme:dark){.b-open{background:#085041;color:#9fe1cb}.b-check{background:#633806;color:#fac775}.b-rolling{background:#0c447c;color:#b5d4f4}}
+.meta-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 12px;margin-bottom:.65rem}
+.meta-item{font-size:12px;color:var(--t2)}
+.meta-label{font-weight:500;color:var(--t1)}
+.fit-pills{margin-bottom:.65rem;display:flex;flex-wrap:wrap;gap:4px}
+.fit-pill{display:inline-block;font-size:11px;font-weight:500;padding:3px 9px;border-radius:999px;background:#e6f1fb;color:#185fa5}
+@media(prefers-color-scheme:dark){.fit-pill{background:#0c447c;color:#b5d4f4}}
+.pos-links{display:flex;flex-wrap:wrap;gap:4px}
+.pos-link{display:inline-flex;align-items:center;gap:5px;font-size:12px;color:#185fa5;text-decoration:none;padding:3px 0;margin-right:.75rem}
+.pos-link:hover{text-decoration:underline}
+.more-btn{font-size:12px;font-weight:500;padding:4px 13px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn);display:inline-flex;align-items:center;gap:5px;margin-top:.4rem}
+.more-btn:hover{background:var(--bg2);color:var(--t1)}
+.more-panel{display:none;margin-top:.85rem;padding-top:.85rem;border-top:.5px solid var(--bd)}
+.more-panel.open{display:block}
+.more-panel h4{font-size:12px;font-weight:500;color:var(--t3);text-transform:uppercase;letter-spacing:.05em;margin-bottom:.4rem;margin-top:.75rem}
+.more-panel h4:first-child{margin-top:0}
+.more-panel p{font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.5rem}
+.more-panel p:last-child{margin-bottom:0}
+.detail-row{font-size:13px;color:var(--t2);padding:4px 0;border-bottom:.5px solid var(--bd);display:flex;gap:8px}
+.detail-row:last-child{border-bottom:none}
+.detail-label{font-weight:500;color:var(--t1);min-width:120px;flex-shrink:0}
+.contact-block{background:var(--bg2);border-radius:var(--r1);padding:.65rem .85rem;margin-top:.5rem;font-size:13px;color:var(--t2);line-height:1.6}
+.contact-block a{color:#185fa5;text-decoration:none}
+.contact-block a:hover{text-decoration:underline}
 .rl{display:block;font-size:13px;color:#185fa5;text-decoration:none;padding:7px 0;border-bottom:.5px solid var(--bd)}
 .rl:last-child{border-bottom:none}
 .rl:hover{text-decoration:underline}
 .footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
+@media(max-width:520px){.pos-header{flex-direction:column;align-items:flex-start}.meta-grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -33,46 +69,423 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
   <span class="pg-title">Internships</span>
 </div>
 
-  <div class="slabel">Internship focus areas</div>
-  <div class="tip">Erin is a strong internship candidate for roles involving wetlands, water quality, GIS, wildlife field work, or environmental justice. The profiles below are starting points &mdash; use the search links to find current openings.</div>
-
-  <div class="card">
-    <div class="card-title">Federal agencies &mdash; best fits</div>
-    <div class="card-body">
-      <p style="margin-bottom:.75rem"><strong style="font-weight:500">US Army Corps of Engineers</strong> &mdash; Direct match for wetland delineation training. Student internships and Pathways programs available year-round. Look for positions in the Wilmington or Savannah Districts given Appalachian geography.</p>
-      <p style="margin-bottom:.75rem"><strong style="font-weight:500">US Fish &amp; Wildlife Service</strong> &mdash; Wildlife biology and GIS internships. Strong match for mammalogy and NRM 330 background. Check USAJobs for Student Trainee (Biological Science) positions.</p>
-      <p style="margin-bottom:.75rem"><strong style="font-weight:500">US Geological Survey</strong> &mdash; Internships in water resources, contaminant monitoring, and geospatial analysis. USGS Water Resources Mission Area is a strong fit for water quality coursework.</p>
-      <p><strong style="font-weight:500">EPA &mdash; Region 4 (Atlanta)</strong> &mdash; Covers NC, SC, GA, FL, AL, MS, TN, KY. Water quality and environmental justice internships. Direct match for ENVH coursework and Appalachian environmental justice coursework.</p>
-    </div>
+<div class="slabel">Overview</div>
+<div class="card">
+  <div class="card-title">Finding the right internship</div>
+  <div class="card-body">
+    <p style="margin-bottom:.75rem">Erin's strongest internship matches are in wetland science, water quality, wildlife field work, and GIS — ideally with federal agencies (USGS, EPA, USFWS, Army Corps) or environmental consulting firms that do delineation and permitting work. Her Pigeon River contamination research gives her a concrete story to tell in every cover letter.</p>
+    <p>Most summer internships open applications December&ndash;February. Fall internships typically open in May&ndash;June. Apply early — federal positions especially close quickly once quota is met.</p>
   </div>
-
-  <div class="card">
-    <div class="card-title">State agencies</div>
-    <div class="card-body">
-      <p style="margin-bottom:.75rem"><strong style="font-weight:500">NC DEQ (Department of Environmental Quality)</strong> &mdash; Water quality monitoring, wetland permits, stormwater programs. Strong match; field-based roles available.</p>
-      <p><strong style="font-weight:500">NC Wildlife Resources Commission</strong> &mdash; Wildlife survey technician and GIS internships. Good match for NRM 330 and NRM 479 background.</p>
-    </div>
-  </div>
-
-  <div class="card">
-    <div class="card-title">Conservation organizations</div>
-    <div class="card-body">
-      <p style="margin-bottom:.75rem"><strong style="font-weight:500">The Nature Conservancy</strong> &mdash; GIS, conservation planning, and field monitoring internships. Strong match for combined GIS + wetlands + wildlife background.</p>
-      <p style="margin-bottom:.75rem"><strong style="font-weight:500">Southern Appalachian Highlands Conservancy</strong> &mdash; Regional land trust; internships in conservation easements and natural area stewardship. Directly relevant to WCU/Appalachian background.</p>
-      <p><strong style="font-weight:500">American Rivers</strong> &mdash; Water policy and field internships. Match for water quality and contaminated rivers coursework.</p>
-    </div>
-  </div>
-
-  <hr>
-  <div class="slabel">Search links</div>
-  <div class="card">
-    <a class="rl" href="https://www.usajobs.gov/Search/Results?hp=student&k=environmental+science">&#128269;&nbsp; USAJobs &mdash; student environmental science positions</a>
-    <a class="rl" href="https://www.google.com/search?q=environmental+science+wetlands+water+quality+internship+2026">&#128269;&nbsp; Environmental science / wetlands internships 2026</a>
-    <a class="rl" href="https://www.google.com/search?q=wildlife+biology+GIS+internship+2026+entry+level">&#128269;&nbsp; Wildlife biology &amp; GIS internships 2026</a>
-    <a class="rl" href="https://www.google.com/search?q=EPA+USGS+USFWS+student+internship+environmental+science+2026">&#128269;&nbsp; Federal agency environmental internships 2026</a>
-    <a class="rl" href="https://www.google.com/search?q=The+Nature+Conservancy+internship+environmental+science+2026">&#128269;&nbsp; Nature Conservancy internships 2026</a>
-  </div>
-<p class="footer">Information current as of May 2026. Verify details directly with each program or employer.<br><a href="index.html" style="color:#185fa5">&#8592; Back to home</a></p>
 </div>
+
+<!-- STATUS KEY -->
+<div style="font-size:12px;color:var(--t3);margin-bottom:1rem;display:flex;flex-wrap:wrap;gap:10px">
+  <span><span class="badge b-open">Open</span> actively recruiting as of May 2026</span>
+  <span><span class="badge b-rolling">Rolling</span> ongoing/continuous applications</span>
+  <span><span class="badge b-check">Verify</span> posted recently — confirm before applying</span>
+  <span><span class="badge b-closed">Reference</span> shown for awareness; watch for next cycle</span>
+</div>
+
+<!-- FEDERAL -->
+<div class="slabel">Federal agency internships</div>
+
+<!-- USGS SAWSC -->
+<div class="pos-card hot">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">USGS South Atlantic Water Science Center (SAWSC) &mdash; Student Corps</div>
+      <div class="pos-org">US Geological Survey &middot; North Carolina, South Carolina &amp; Georgia</div>
+    </div>
+    <span class="badge b-rolling">Rolling</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Water quality monitoring</span>
+    <span class="fit-pill">Hydrology fieldwork</span>
+    <span class="fit-pill">Environmental science</span>
+    <span class="fit-pill">SE United States</span>
+    <span class="fit-pill">Recent grad eligible</span>
+  </div>
+  <div class="pos-body">USGS SAWSC offers part-time and full-time entry-level paid positions in NC, SC, and GA specifically for current students and recent graduates. Focused on hands-on fieldwork in water resources, hydrology, aquatic biology, and environmental science in the Southeast US — a near-perfect geographic and subject-matter match for Erin's background. Positions are posted year-round on USAJobs.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">Location:</span> NC, SC, GA offices</div>
+    <div class="meta-item"><span class="meta-label">Pay:</span> Paid (federal GS scale)</div>
+    <div class="meta-item"><span class="meta-label">Eligibility:</span> Recent grad (&lt;1 yr) or current student</div>
+    <div class="meta-item"><span class="meta-label">Deadline:</span> Rolling — posted year-round on USAJobs</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://www.usgs.gov/centers/sawsc/science/south-atlantic-water-science-center-sawsc-student-corps-employment">&#128269; SAWSC Student Corps page</a>
+    <a class="pos-link" href="mailto:gs-sawscsc@usgs.gov">&#9993; gs-sawscsc@usgs.gov — contact for upcoming vacancies</a>
+    <a class="pos-link" href="https://www.usajobs.gov/Search/Results?a=USGS&hp=student">&#128269; USAJobs USGS student positions</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>Why this is a top match</h4>
+    <p>SAWSC is the USGS Water Science Center for NC, SC, and GA — exactly where Erin studied and conducted her Hurricane Helene research. SAWSC technicians collect streamflow data, water quality samples, and biological specimens from rivers, streams, and aquifers across the region. Erin's GEOL 423 (Contaminated Rivers), ENVH 310 (Water Quality), and field sampling experience from the Pigeon River project are directly applicable.</p>
+    <h4>What hydrologic technicians do</h4>
+    <p>Operate and maintain stream gauges; collect water quality samples; conduct aquatic biological surveys; analyze field and lab data; support hydrologists on research projects. Physical fieldwork in diverse weather conditions required.</p>
+    <div class="detail-row"><span class="detail-label">&#128197; How to apply</span>Create a USAJobs profile, upload resume and unofficial transcript, and search "USGS SAWSC student." Also email gs-sawscsc@usgs.gov directly expressing interest.</div>
+    <div class="detail-row"><span class="detail-label">Driver's license</span>Required for most field positions</div>
+    <div class="detail-row"><span class="detail-label">Min. age</span>18</div>
+  </div>
+</div>
+
+<!-- EPA Office of Water -->
+<div class="pos-card">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">EPA Office of Water &mdash; Student Volunteer Internship</div>
+      <div class="pos-org">US Environmental Protection Agency &middot; Washington, DC (Office of Wetlands, Oceans &amp; Watersheds)</div>
+    </div>
+    <span class="badge b-check">Verify status</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Wetlands policy</span>
+    <span class="fit-pill">Water quality</span>
+    <span class="fit-pill">GIS &amp; data analysis</span>
+    <span class="fit-pill">Environmental justice</span>
+  </div>
+  <div class="pos-body">EPA's Office of Water offers unpaid student internships in several divisions. The Office of Wetlands, Oceans and Watersheds (OWOW) is a direct match — it uses science to assess water quality, protect wetlands, fund restoration, and apply watershed approaches. The Office of Wastewater Management also accepts GIS, hydrology, and public health backgrounds. Requires full- or part-time student enrollment (or recent grad status).</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">Location:</span> Washington, DC</div>
+    <div class="meta-item"><span class="meta-label">Pay:</span> Unpaid (volunteer)</div>
+    <div class="meta-item"><span class="meta-label">Eligibility:</span> US citizen + enrolled student or recent grad</div>
+    <div class="meta-item"><span class="meta-label">Deadline:</span> Rolling; apply well in advance of desired term</div>
+    <div class="meta-item"><span class="meta-label">Disciplines:</span> Env. science, hydrology, GIS, toxicology, public health</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://www.epa.gov/careers/student-volunteer-internships-20252026-office-water-washington-dc">&#128269; EPA Office of Water internship listing</a>
+    <a class="pos-link" href="https://www.epa.gov/careers">&#128269; EPA Careers page</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>Best division match for Erin</h4>
+    <p><strong style="font-weight:500">Office of Wetlands, Oceans and Watersheds (OWOW)</strong> — protects wetlands, monitors water quality, funds aquatic restoration, and develops watershed management plans. Erin's wetland delineation training, water quality coursework, and GIS skills are directly relevant. Mention GEOL 455 (Wetlands, Army Corps delineation) prominently in application.</p>
+    <p><strong style="font-weight:500">Office of Wastewater Management (OWM)</strong> — also a fit for water quality and environmental compliance background. Less fieldwork, more policy-oriented.</p>
+    <h4>Application tips</h4>
+    <p>Write a targeted cover letter explaining connection between coursework (specifically ENVH 310, GEOL 423, GEOL 455) and OWOW's mission. Mention Pigeon River contamination project as applied water quality research experience. Request the OWOW division specifically.</p>
+    <div class="detail-row"><span class="detail-label">How to apply</span>Submit via EPA Careers page; designate preferred OW division in cover letter</div>
+  </div>
+</div>
+
+<!-- USFWS Pathways -->
+<div class="pos-card">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">USFWS Pathways Internship &mdash; Biological Science Student Trainee</div>
+      <div class="pos-org">US Fish &amp; Wildlife Service &middot; Multiple National Wildlife Refuges &amp; field offices</div>
+    </div>
+    <span class="badge b-rolling">Rolling</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Wildlife surveys</span>
+    <span class="fit-pill">Wetland management</span>
+    <span class="fit-pill">Species monitoring</span>
+    <span class="fit-pill">Federal hiring pathway</span>
+  </div>
+  <div class="pos-body">USFWS Pathways Internships are paid federal positions that can convert to permanent federal employment. "Biological Science Student Trainee" is the primary series (GS-0404). Duties include wildlife surveys, wetland management, habitat assessments, and species monitoring. Pro tip from USFWS: wetlands ecology coursework (GEOL 455) may be classified as aquatic coursework — include a letter clarifying this in your application.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">Pay:</span> GS-03 to GS-05 scale (~$15&ndash;$22/hr depending on location/grade)</div>
+    <div class="meta-item"><span class="meta-label">Locations:</span> Nationwide; search by region</div>
+    <div class="meta-item"><span class="meta-label">Deadline:</span> Rolling; postings vary by position</div>
+    <div class="meta-item"><span class="meta-label">Conversion:</span> Can convert to permanent after completing degree</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://www.usajobs.gov/Search/Results?hp=student&a=FWS&k=biological+science">&#128269; USAJobs: USFWS Biological Science student positions</a>
+    <a class="pos-link" href="https://www.fws.gov/careers">&#128269; USFWS Careers page</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>Key application note from USFWS</h4>
+    <p>USFWS HR specialists categorize coursework by specific terms listed in job announcements. GEOL 455 (Wetlands) may not automatically be recognized as "aquatic" coursework. USFWS recommends including a brief letter with your application stating: "My coursework in GEOL 455 Wetlands covers wetland hydrology, soil indicators, and vegetation, and should qualify as aquatic science coursework for the purposes of this announcement."</p>
+    <h4>Best refuge regions for Erin</h4>
+    <p>Southeast Region (Region 4): Alabama, Arkansas, Florida, Georgia, Kentucky, Louisiana, Mississippi, North Carolina, South Carolina, Tennessee. This region covers the ecosystems where Erin has the most field experience and most relevant coursework. Search USAJobs filtered to Region 4 offices.</p>
+    <div class="detail-row"><span class="detail-label">&#128197; When to apply</span>Summer positions post Dec&ndash;Feb; fall positions post May&ndash;Jun; apply immediately when posted</div>
+    <div class="detail-row"><span class="detail-label">How to apply</span>Create USAJobs profile, upload resume + unofficial transcript; apply to specific vacancy announcements</div>
+  </div>
+</div>
+
+<!-- USGS Pathways -->
+<div class="pos-card">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">USGS Pathways Recent Graduate Program &mdash; Hydrologist / Physical Scientist</div>
+      <div class="pos-org">US Geological Survey &middot; Various Water Science Centers nationwide</div>
+    </div>
+    <span class="badge b-rolling">Rolling</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Hydrology</span>
+    <span class="fit-pill">Water resources</span>
+    <span class="fit-pill">GIS &amp; data analysis</span>
+    <span class="fit-pill">Federal career pathway</span>
+  </div>
+  <div class="pos-body">The USGS Recent Graduate Program provides 1&ndash;2 year developmental positions for graduates within the last 2 years. Can convert to permanent federal employment. USGS Water Science Centers are distributed across every state. Positions in hydrology, water quality, and biological science are the strongest matches for Erin's background. GRE/special exam not required.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">Eligibility:</span> Graduated within last 2 years (6 for veterans)</div>
+    <div class="meta-item"><span class="meta-label">Duration:</span> 1&ndash;2 years, convertible to permanent</div>
+    <div class="meta-item"><span class="meta-label">Pay:</span> GS-07 to GS-09 typically</div>
+    <div class="meta-item"><span class="meta-label">Deadline:</span> Posted year-round on USAJobs; apply when posted</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://www.usgs.gov/human-capital/internship-recent-graduate-and-fellowship-opportunities">&#128269; USGS Pathways opportunities</a>
+    <a class="pos-link" href="https://www.usajobs.gov/Search/Results?hp=rg&a=USGS">&#128269; USAJobs: USGS Recent Graduate positions</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>About the program</h4>
+    <p>The USGS Recent Graduate Program is a formal federal hiring pathway. Participants complete a structured 1–2 year developmental experience, receive mentoring, and can be non-competitively converted to permanent federal positions at the end. This is a meaningful career accelerator for someone targeting a federal water resources or environmental science career.</p>
+    <h4>How to find the right position</h4>
+    <p>Search USAJobs for "USGS Recent Graduate" and filter by series: 1315 (Hydrology), 1350 (Geology), 0401 (Biology), 0408 (Ecology). Also search 1301 (Physical Science). Prioritize Water Science Center positions — SAWSC (NC/SC/GA), Southeast (FL/AL/MS), and Appalachians WSC are the strongest regional fits.</p>
+    <div class="detail-row"><span class="detail-label">Key documents</span>Federal resume (1–3 pages, include all coursework and specific duties); unofficial transcript; completed profile on USAJobs</div>
+    <div class="detail-row"><span class="detail-label">&#9888; Federal resume note</span>Federal resumes are longer than private sector — include GPA, all relevant coursework, and specific technical skills. USAJobs has a resume builder tool.</div>
+  </div>
+</div>
+
+<hr>
+
+<!-- CONSULTING INTERNSHIPS -->
+<div class="slabel">Environmental consulting internships</div>
+
+<!-- WSSI -->
+<div class="pos-card hot">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">Environmental Technician Internship &mdash; Summer 2026</div>
+      <div class="pos-org">Wetland Studies and Solutions, Inc. (WSSI) &middot; Gainesville, VA &middot; Millersville, MD &middot; Richmond, VA</div>
+    </div>
+    <span class="badge b-open">Open</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Wetland delineation</span>
+    <span class="fit-pill">Wildlife monitoring</span>
+    <span class="fit-pill">Erosion control</span>
+    <span class="fit-pill">Field site visits</span>
+    <span class="fit-pill">Consulting experience</span>
+  </div>
+  <div class="pos-body">WSSI is an award-winning wetland and environmental consulting firm. Summer 2026 internship opportunities are live. Interns gain hands-on experience from erosion control to wildlife and insect monitoring through field visits to working jobsites contributing to real projects. WSSI also has a permanent Environmental Compliance Technician opening in Raleigh, NC for candidates with 1+ year experience — an entry-level career target after internship experience. Nearly half of WSSI's executive leadership started as interns.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">Locations:</span> Gainesville VA, Millersville MD, Richmond VA</div>
+    <div class="meta-item"><span class="meta-label">Timeline:</span> Summer 2026 — apply now</div>
+    <div class="meta-item"><span class="meta-label">Pay:</span> Paid (confirm rate on application)</div>
+    <div class="meta-item"><span class="meta-label">Career track:</span> Many interns hired permanently</div>
+    <div class="meta-item"><span class="meta-label">Skills built:</span> Wetland delineation, erosion control, wildlife monitoring, field reporting</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://www.wetlands.com/careers/internships/">&#128269; WSSI Summer 2026 internship listings (apply here)</a>
+    <a class="pos-link" href="https://www.wetlands.com/careers/current-openings/">&#128269; WSSI permanent openings (Raleigh EC Technician)</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>Why this is a strong match</h4>
+    <p>WSSI specializes in wetland delineation, permitting, stream restoration, and environmental compliance — all directly overlapping with Erin's GEOL 455 (Wetlands/Army Corps delineation), GEOL 423 (Contaminated Rivers), and ENVH 310 (Water Quality) coursework. The company has a stated pathway from internship to permanent employment.</p>
+    <h4>Current permanent opening in Raleigh</h4>
+    <p>WSSI also has an active posting for an Environmental Compliance Technician in Raleigh, NC — ideal candidates have a BS in Environmental Studies or related field and at least 1 year experience. After internship experience, this would be an excellent target. Duties: SWPPP development, wetland/stormwater compliance inspections, BMP monitoring, federal and state agency coordination.</p>
+    <div class="detail-row"><span class="detail-label">Apply</span>Via WSSI careers page — submit resume + cover letter</div>
+    <div class="detail-row"><span class="detail-label">Mention in cover letter</span>GEOL 455 Army Corps delineation methods, Pigeon River contamination project, field sampling experience</div>
+  </div>
+</div>
+
+<!-- ERO Resources Colorado -->
+<div class="pos-card">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">Natural Resources Internship &mdash; Ecology Team</div>
+      <div class="pos-org">ERO Resources Corporation &middot; Lakewood, CO</div>
+    </div>
+    <span class="badge b-check">Verify status</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Natural resource assessments</span>
+    <span class="fit-pill">Wetland delineation</span>
+    <span class="fit-pill">Colorado-based</span>
+    <span class="fit-pill">Consulting</span>
+  </div>
+  <div class="pos-body">ERO Resources is a Denver-area environmental consulting firm seeking ecology interns to assist with natural resource assessments, wetland delineations, and related field work. Duties include writing natural resource assessments, wetland delineations, and field surveys. Good match for Erin's GEOL 455 Army Corps delineation training and Colorado geographic interest.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">Location:</span> Lakewood, CO (Denver area)</div>
+    <div class="meta-item"><span class="meta-label">Focus:</span> Ecology, wetland delineation, natural resource assessment</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://www.eroresources.com/careers">&#128269; ERO Resources careers page</a>
+    <a class="pos-link" href="https://www.google.com/search?q=ERO+Resources+Corporation+natural+resources+ecology+internship+2026">&#128269; Search ERO Resources internship 2026</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>About ERO Resources</h4>
+    <p>ERO Resources is a Denver-area environmental consulting firm focused on ecological services, natural resource management, and environmental compliance in Colorado and the Mountain West. An internship here would directly complement any graduate school applications to CSU or CU Boulder by building Colorado-based professional contacts and field experience.</p>
+    <div class="detail-row"><span class="detail-label">How to apply</span>Via ERO Resources careers page; confirm current availability of summer 2026 position</div>
+    <div class="detail-row"><span class="detail-label">Mention</span>GEOL 455 wetland delineation training; two GIS courses; Pigeon River project</div>
+  </div>
+</div>
+
+<!-- KCI Technologies Nashville -->
+<div class="pos-card">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">Natural Resources Intern &mdash; Stream Surveying &amp; Wetland Delineation</div>
+      <div class="pos-org">KCI Technologies, Inc. &middot; Nashville, TN</div>
+    </div>
+    <span class="badge b-check">Verify status</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Stream surveying</span>
+    <span class="fit-pill">Wetland delineation</span>
+    <span class="fit-pill">Vegetative monitoring</span>
+    <span class="fit-pill">Tennessee / Southeast</span>
+  </div>
+  <div class="pos-body">KCI Technologies was seeking a natural resources intern in Nashville, TN to assist with vegetative monitoring, stream surveying, identification and delineation of waters in Tennessee and surrounding states. Strong match for Erin's wetlands and water quality background with Appalachian-adjacent geography.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">Location:</span> Nashville, TN</div>
+    <div class="meta-item"><span class="meta-label">Focus:</span> Stream surveying, delineation, vegetative monitoring, Southeast states</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://www.kci.com/careers/">&#128269; KCI Technologies careers page</a>
+    <a class="pos-link" href="https://www.google.com/search?q=KCI+Technologies+natural+resources+intern+Nashville+Tennessee+2026">&#128269; Search KCI Nashville internship 2026</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>About KCI</h4>
+    <p>KCI Technologies is a mid-size engineering and environmental consulting firm with offices across the eastern US. Their Nashville office does environmental field work across Tennessee and surrounding states — right in the heart of the Appalachian region where Erin studied. A position here would build wetland/stream consulting experience in terrain Erin knows well from WCU fieldwork.</p>
+    <div class="detail-row"><span class="detail-label">How to apply</span>Via KCI careers page — confirm 2026 position availability</div>
+  </div>
+</div>
+
+<!-- Earthjustice Science Intern -->
+<div class="pos-card">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">Science Intern &mdash; Fall 2026</div>
+      <div class="pos-org">Earthjustice &middot; Washington, DC Regional Office (remote/hybrid option)</div>
+    </div>
+    <span class="badge b-open">Open</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Environmental health science</span>
+    <span class="fit-pill">Wetlands &amp; water policy</span>
+    <span class="fit-pill">Toxicology</span>
+    <span class="fit-pill">Environmental justice</span>
+    <span class="fit-pill">Remote eligible</span>
+  </div>
+  <div class="pos-body">Earthjustice's DC office advocates on wetlands, water pollution, clean air, and climate. The fall 2026 science intern researches scientific questions to support advocacy and litigation before federal agencies and courts. Requires coursework in environmental health, epidemiology, or toxicology — Erin's ENVH 375 (Toxicology, A+), HSCC 472 (Epidemiology, A+), and ENVH 493 (Environmental Justice, A+) are a direct match. Hourly pay: $27.39 (graduate rate). Deadline: May 15, 2026 at 5:00pm PT. Offers extended no later than July 8.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">&#128197; Deadline:</span> <strong style="color:#993c1d">May 15, 2026 at 5pm PT</strong></div>
+    <div class="meta-item"><span class="meta-label">Hours:</span> 10&ndash;15 hrs/week for 10&ndash;12 weeks</div>
+    <div class="meta-item"><span class="meta-label">Pay:</span> $27.39/hr (current fiscal year rate)</div>
+    <div class="meta-item"><span class="meta-label">Location:</span> Remote from US or hybrid DC</div>
+    <div class="meta-item"><span class="meta-label">Start:</span> Fall 2026; offers by July 8</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://www.greenjobsboard.us/jobs/fall-2026-science-internship---washington-dc-regional-office">&#128269; Earthjustice Fall 2026 Science Intern listing</a>
+    <a class="pos-link" href="https://earthjustice.org/about/jobs">&#128269; Earthjustice jobs page</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>What the intern does</h4>
+    <p>Researches scientific questions to support Earthjustice's advocacy before EPA, Army Corps, and federal courts. Current DC office docket includes litigation to protect streams and wetlands from pollution, advance water quality regulation under the Clean Water Act, and address public health impacts of environmental contamination — all directly relevant to Erin's contaminated rivers and water quality coursework.</p>
+    <h4>What to submit (per listing)</h4>
+    <p>Via Jobvite: (1) resume, (2) one-page cover letter addressing why you want to work with Earthjustice's DC office, your weekly availability, and relevant deadlines, (3) proof of academic enrollment/graduation, (4) writing sample up to 10 pages demonstrating ability to analyze an environmental issue.</p>
+    <h4>Writing sample suggestion</h4>
+    <p>The Pigeon River lead contamination research from ES 495 would be an ideal writing sample — it analyzes a real contaminated river system using scientific methods, which is exactly what Earthjustice science interns support.</p>
+    <div class="detail-row"><span class="detail-label">&#128197; Deadline</span><strong style="color:#993c1d">May 15, 2026, 5:00pm Pacific Time</strong> — apply immediately</div>
+    <div class="detail-row"><span class="detail-label">Apply via</span>Jobvite link on Earthjustice website</div>
+  </div>
+</div>
+
+<hr>
+
+<!-- NONPROFIT / RESEARCH -->
+<div class="slabel">Nonprofit &amp; research station internships</div>
+
+<!-- WSSI / Wetlands Institute NJ -->
+<div class="pos-card">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">Research Internship &mdash; Wetland Ecology</div>
+      <div class="pos-org">The Wetlands Institute &middot; Stone Harbor, NJ</div>
+    </div>
+    <span class="badge b-open">Open &mdash; Summer 2026</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Wetland ecology field research</span>
+    <span class="fit-pill">Bird &amp; wildlife surveys</span>
+    <span class="fit-pill">GIS mapping</span>
+    <span class="fit-pill">Coastal wetlands</span>
+  </div>
+  <div class="pos-body">The Wetlands Institute in Stone Harbor, NJ has summer 2026 internships available now. Research interns complete field surveys and studies under Science Staff supervision, including bird monitoring, nesting surveys, species counts, and GIS mapping. Strong match for Erin's wildlife survey skills, GIS background, and wetlands coursework. Also includes environmental education and restoration fieldwork opportunities.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">Location:</span> Stone Harbor, NJ (Cape May County)</div>
+    <div class="meta-item"><span class="meta-label">&#128197; Deadline:</span> Applications available now for Summer 2026</div>
+    <div class="meta-item"><span class="meta-label">Focus:</span> Field surveys, GIS mapping, wildlife monitoring</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://wetlandsinstitute.org/education/internship-opportunities/">&#128269; Wetlands Institute internship applications</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>About the program</h4>
+    <p>The Wetlands Institute is a nonprofit research and education center on the NJ coast focused on coastal and wetland ecosystems. Research interns work directly with science staff on active projects. Past intern projects have included bird nesting surveys, diamondback terrapin monitoring, wetland vegetation surveys, and GIS habitat mapping.</p>
+    <div class="detail-row"><span class="detail-label">How to apply</span>Download application form from wetlandsinstitute.org; contact Director of Educational Program Development Brooke Knapick</div>
+    <div class="contact-block">Brooke Knapick, Director of Educational Program Development<br><a href="mailto:education@wetlandsinstitute.org">education@wetlandsinstitute.org</a><br>The Wetlands Institute, 1075 Stone Harbor Blvd, Stone Harbor, NJ 08247</div>
+  </div>
+</div>
+
+<!-- JugBay -->
+<div class="pos-card">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">Research Internship &mdash; Wetland Ecology &amp; Water Quality</div>
+      <div class="pos-org">Jug Bay Wetlands Sanctuary &middot; Lothian, MD (Anne Arundel County)</div>
+    </div>
+    <span class="badge b-closed">Reference &mdash; 2026 deadline passed</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Wetland ecology</span>
+    <span class="fit-pill">Beaver dam water quality</span>
+    <span class="fit-pill">Field research design</span>
+    <span class="fit-pill">Mentor: USGS Wetland Ecologist</span>
+  </div>
+  <div class="pos-body">Jug Bay's 2026 research internship included a project directly matching Erin's skills: studying beaver dam impacts on stream water quality &mdash; field work and data analysis on vegetation, water quality, and sedimentation in old and new beaver dams. Mentored by Dr. Patricia Delgado (JBWS/USGS) and Dr. Timothy McMahon (USGS). The 2026 deadline was March 27. Watch for 2027 cycle &mdash; this program recurs annually.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">Location:</span> Lothian, MD (Chesapeake region)</div>
+    <div class="meta-item"><span class="meta-label">&#128197; 2026 deadline:</span> March 27 (passed — watch for 2027)</div>
+    <div class="meta-item"><span class="meta-label">Duration:</span> 10&ndash;12 weeks, June&ndash;August</div>
+    <div class="meta-item"><span class="meta-label">Mentor:</span> Dr. Patricia Delgado, Wetland Ecologist (USGS)</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://jugbay.org/internships-2/">&#128269; Jug Bay internship program (watch for 2027)</a>
+    <a class="pos-link" href="mailto:rpdelg88@aacounty.org">&#9993; Dr. Patricia Delgado — rpdelg88@aacounty.org</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>2026 project — perfect match (for reference &amp; 2027 watch)</h4>
+    <p>The beaver dam water quality project asks interns to characterize vegetation and water quality in both old and newly formed beaver dams and adjacent streams, documenting the role of beavers in stream water quality dynamics. This is essentially an applied version of Erin's GEOL 423 coursework applied to a field context. Students submit a short research proposal (&le;5 pages) on a project of their choosing from a list.</p>
+    <h4>How to prepare for 2027</h4>
+    <p>Email Dr. Patricia Delgado in January 2027 to express interest and ask about the upcoming cycle. Submit a strong research proposal using methodology from GEOL 423 and ENVH 310 coursework. The Pigeon River lead contamination project demonstrates exactly the kind of field-based water quality research this program values.</p>
+    <div class="detail-row"><span class="detail-label">&#128197; Watch for</span>2027 applications typically open January&ndash;February; deadline approximately March</div>
+  </div>
+</div>
+
+<hr>
+
+<!-- SEARCH LINKS -->
+<div class="slabel">Search resources &amp; job boards</div>
+<div class="card">
+  <a class="rl" href="https://www.usajobs.gov/Search/Results?hp=student&k=environmental+science+wetlands+water">&#128269;&nbsp; USAJobs &mdash; federal student internships: environmental science &amp; water</a>
+  <a class="rl" href="https://www.usajobs.gov/Search/Results?hp=student&a=FWS&k=biological+science">&#128269;&nbsp; USAJobs &mdash; USFWS biological science student positions</a>
+  <a class="rl" href="https://www.usajobs.gov/Search/Results?hp=student&a=USGS&k=water+hydrology">&#128269;&nbsp; USAJobs &mdash; USGS water/hydrology student positions</a>
+  <a class="rl" href="https://www.conservationjobboard.com/category/internship">&#128269;&nbsp; Conservation Job Board &mdash; internship listings</a>
+  <a class="rl" href="https://www.google.com/search?q=environmental+science+wetlands+water+quality+internship+summer+2026+paid">&#128269;&nbsp; Search: wetlands/water quality paid internships Summer 2026</a>
+  <a class="rl" href="https://www.google.com/search?q=wildlife+biology+field+technician+internship+southeastern+US+2026">&#128269;&nbsp; Search: wildlife field technician internships southeast 2026</a>
+  <a class="rl" href="https://www.google.com/search?q=GIS+environmental+science+internship+2026+paid+summer">&#128269;&nbsp; Search: GIS environmental science internships 2026</a>
+  <a class="rl" href="https://www.google.com/search?q=EPA+USGS+USFWS+Army+Corps+internship+environmental+science+2026+apply">&#128269;&nbsp; Search: federal agency environmental science internships 2026</a>
+  <a class="rl" href="https://www.google.com/search?q=environmental+consulting+wetland+delineation+internship+NC+SC+TN+CO+2026">&#128269;&nbsp; Search: wetland delineation consulting internships NC/SC/TN/CO 2026</a>
+  <a class="rl" href="https://www.environmentalscience.org/internships">&#128269;&nbsp; EnvironmentalScience.org &mdash; comprehensive internship guide by agency</a>
+</div>
+
+<p class="footer">Listings verified May 2026. Internship availability changes rapidly &mdash; verify all positions directly. Federal positions especially fill quickly after posting. Apply as soon as positions open.<br><br><a href="index.html" style="color:#185fa5">&#8592; Back to home</a></p>
+</div>
+<script>
+function toggleMore(btn){var p=btn.nextElementSibling;var o=p.classList.toggle('open');btn.textContent=o?'− Less info':'+ More info'}
+</script>
 </body>
 </html>
