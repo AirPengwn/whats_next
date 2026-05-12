@@ -6,8 +6,8 @@
 <title>Erin Lamberton — Next Cycle: Career Positions</title>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{--bg:#fff;--bg2:#f5f5f3;--bg3:#eeede8;--t1:#1a1a18;--t2:#5f5e5a;--t3:#888780;--bd:rgba(0,0,0,0.12);--bds:rgba(0,0,0,0.22);--r1:8px;--r2:12px;--fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;--accent:#5dcaa5;--accent-bg:#e1f5ee;--accent-text:#0f6e56}
-@media(prefers-color-scheme:dark){:root{--bg:#1e1e1c;--bg2:#2a2a28;--bg3:#333330;--t1:#f0ede6;--t2:#b4b2a9;--t3:#888780;--bd:rgba(255,255,255,0.1);--bds:rgba(255,255,255,0.2);--accent-bg:#085041;--accent-text:#9fe1cb}}
+:root{--bg:#fff;--bg2:#f5f5f3;--bg3:#eeede8;--t1:#1a1a18;--t2:#5f5e5a;--t3:#888780;--bd:rgba(0,0,0,0.12);--bds:rgba(0,0,0,0.22);--r1:8px;--r2:12px;--fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+@media(prefers-color-scheme:dark){:root{--bg:#1e1e1c;--bg2:#2a2a28;--bg3:#333330;--t1:#f0ede6;--t2:#b4b2a9;--t3:#888780;--bd:rgba(255,255,255,0.1);--bds:rgba(255,255,255,0.2)}}
 body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:2rem 1rem}
 .page{max-width:720px;margin:0 auto}
 .top-nav{display:flex;align-items:center;gap:12px;margin-bottom:1.75rem}
@@ -17,45 +17,44 @@ body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6
 .slabel{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin-bottom:.75rem}
 .card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1.25rem;margin-bottom:1rem}
 hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
-.tip{border-left:3px solid var(--accent);background:var(--bg2);padding:.85rem 1rem;margin-bottom:1rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
-.context-banner{background:var(--accent-bg);border:1.5px solid var(--accent);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:1.5rem;font-size:13px;color:var(--t2);line-height:1.6}
-.context-banner strong{color:var(--accent-text);font-weight:500}
-.loader{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:4rem 2rem;gap:1.25rem}
-.spinner{width:36px;height:36px;border:3px solid var(--bd);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite}
-@keyframes spin{to{transform:rotate(360deg)}}
-.loader-text{font-size:13px;color:var(--t3);text-align:center;max-width:300px;line-height:1.6}
-.loader-label{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-bottom:.25rem}
-#result-area{display:none}
-.error-card{background:var(--bg);border:1.5px solid #ef9f27;border-radius:var(--r2);padding:1.25rem;margin-bottom:1rem}
-.error-card .etitle{font-size:14px;font-weight:500;color:var(--t1);margin-bottom:.4rem}
-.error-card .ebody{font-size:13px;color:var(--t2);line-height:1.6;margin-bottom:.75rem}
-.retry-btn{font-size:13px;font-weight:500;padding:6px 18px;border-radius:999px;border:1.5px solid var(--accent);background:transparent;color:var(--accent-text);cursor:pointer;font-family:var(--fn)}
-.retry-btn:hover{background:var(--accent-bg)}
+.tip{border-left:3px solid #5dcaa5;background:var(--bg2);padding:.85rem 1rem;margin-bottom:1rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
+.tip-warn{border-left-color:#ef9f27}
+.context-banner{background:#e1f5ee;border:1.5px solid #5dcaa5;border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:1.5rem;font-size:13px;color:var(--t2);line-height:1.6}
+.context-banner strong{color:#0f6e56;font-weight:500}
+@media(prefers-color-scheme:dark){.context-banner{background:#085041;border-color:#5dcaa5}.context-banner strong{color:#9fe1cb}}
 .pos-card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:.85rem}
-.pos-card.hot{border:2px solid var(--accent)}
-.pos-card.featured{border:2px solid #185fa5}
+.pos-card.hot{border:2px solid #5dcaa5}
 .pos-header{display:flex;align-items:flex-start;justify-content:space-between;gap:.75rem;margin-bottom:.35rem}
 .pos-title{font-size:14px;font-weight:500;color:var(--t1);line-height:1.4}
 .pos-org{font-size:12px;color:var(--t3);margin-bottom:.5rem}
 .pos-body{font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.65rem}
 .badge{font-size:11px;font-weight:500;padding:3px 9px;border-radius:999px;white-space:nowrap;flex-shrink:0}
-.b-open{background:#e1f5ee;color:#0f6e56}
-.b-watch{background:#faeeda;color:#854f0b}
-.b-new{background:#eeedfe;color:#534ab7}
-@media(prefers-color-scheme:dark){.b-open{background:#085041;color:#9fe1cb}.b-watch{background:#633806;color:#fac775}.b-new{background:#3c3489;color:#cecdfa}}
+.b-open{background:#e1f5ee;color:#0f6e56}.b-rolling{background:#e6f1fb;color:#185fa5}.b-check{background:#faeeda;color:#854f0b}
+@media(prefers-color-scheme:dark){.b-open{background:#085041;color:#9fe1cb}.b-rolling{background:#0c447c;color:#b5d4f4}.b-check{background:#633806;color:#fac775}}
 .fit-pills{margin-bottom:.65rem;display:flex;flex-wrap:wrap;gap:4px}
 .fit-pill{display:inline-block;font-size:11px;font-weight:500;padding:3px 9px;border-radius:999px;background:#e6f1fb;color:#185fa5}
 @media(prefers-color-scheme:dark){.fit-pill{background:#0c447c;color:#b5d4f4}}
-.meta-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 12px;margin-bottom:.65rem;font-size:12px;color:var(--t2)}
+.meta-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 12px;margin-bottom:.65rem}
+.meta-item{font-size:12px;color:var(--t2)}
 .meta-label{font-weight:500;color:var(--t1)}
-.detail-row{font-size:13px;color:var(--t2);padding:5px 0;border-bottom:.5px solid var(--bd);display:flex;gap:8px}
-.detail-row:last-child{border-bottom:none}
-.detail-label{font-weight:500;color:var(--t1);min-width:130px;flex-shrink:0}
-.pos-link{display:inline-flex;align-items:center;gap:5px;font-size:12px;color:#185fa5;text-decoration:none;margin-right:.75rem}
+.pos-links{display:flex;flex-wrap:wrap;gap:4px}
+.pos-link{display:inline-flex;align-items:center;gap:5px;font-size:12px;color:#185fa5;text-decoration:none;padding:3px 0;margin-right:.75rem}
 .pos-link:hover{text-decoration:underline}
+.more-btn{font-size:12px;font-weight:500;padding:4px 13px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn);display:inline-flex;align-items:center;gap:5px;margin-top:.4rem}
+.more-btn:hover{background:var(--bg2);color:var(--t1)}
+.more-panel{display:none;margin-top:.85rem;padding-top:.85rem;border-top:.5px solid var(--bd)}
+.more-panel.open{display:block}
+.more-panel h4{font-size:12px;font-weight:500;color:var(--t3);text-transform:uppercase;letter-spacing:.05em;margin-bottom:.4rem;margin-top:.75rem}
+.more-panel h4:first-child{margin-top:0}
+.more-panel p{font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.5rem}
+.detail-row{font-size:13px;color:var(--t2);padding:4px 0;border-bottom:.5px solid var(--bd);display:flex;gap:8px}
+.detail-row:last-child{border-bottom:none}
+.detail-label{font-weight:500;color:var(--t1);min-width:120px;flex-shrink:0}
 .contact-block{background:var(--bg2);border-radius:var(--r1);padding:.65rem .85rem;margin-top:.5rem;font-size:13px;color:var(--t2);line-height:1.6}
 .contact-block a{color:#185fa5;text-decoration:none}
-.section-label{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin:1.5rem 0 .75rem;display:block}
+.rl{display:block;font-size:13px;color:#185fa5;text-decoration:none;padding:7px 0;border-bottom:.5px solid var(--bd)}
+.rl:last-child{border-bottom:none}
+.rl:hover{text-decoration:underline}
 .footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
 @media(max-width:520px){.pos-header{flex-direction:column;align-items:flex-start}.meta-grid{grid-template-columns:1fr}}
 </style>
@@ -65,132 +64,251 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
 
 <div class="top-nav">
   <a href="erin_jobs.html" class="back-btn">&#8592; Career positions</a>
-  <span class="pg-title">Next cycle &mdash; career positions</span>
+  <span class="pg-title">Next cycle — career positions</span>
 </div>
 
 <div class="context-banner">
-  <strong>🔄 Forward-looking search</strong> &mdash; Erin is applying during <strong>summer 2026</strong> and available to start from <strong>August or September 2026</strong>. This page focuses on entry-level positions she can target for immediate hire (rolling/continuous) as well as seasonal and annual hiring cycles that open in summer or fall 2026.
+  <strong>&#128260; Available Aug–Sep 2026</strong> &mdash; All positions below are either <strong>rolling/continuous hire</strong> (apply now for fall start) or have <strong>hiring cycles opening in summer 2026</strong>. Environmental consulting firms and federal agencies both hire year-round. Federal seasonal positions for fall typically post June–August 2026.
 </div>
 
-<div id="loader" class="loader">
-  <div class="spinner"></div>
-  <div>
-    <div class="loader-label">Scanning entry-level positions</div>
-    <div class="loader-text">Identifying federal, state, consulting, and nonprofit career positions available for an Aug/Sep 2026 start, matched to Erin's wetland delineation, water quality, wildlife, and GIS skills&hellip;</div>
-  </div>
-</div>
+<div class="tip tip-warn">&#9888;&nbsp; <strong style="font-weight:500;color:var(--t1)">Federal resume reminder:</strong> Federal resumes are 2–4 pages and must include GPA, all relevant coursework, specific duties, and hours per week for every experience. Build it now in the USAJobs resume builder so it's ready when positions post.</div>
 
-<div id="error-area" style="display:none">
-  <div class="error-card">
-    <div class="etitle">Couldn't load next-cycle results</div>
-    <div class="ebody" id="error-msg">Something went wrong generating results. Check your connection and try again.</div>
-    <button class="retry-btn" onclick="loadResults()">Try again</button>
-  </div>
-</div>
+<hr>
+<div class="slabel">Federal — rolling hire, apply now</div>
 
-<div id="result-area"></div>
-
-<div class="footer">
-  Results generated by AI based on Erin's profile. Verify all positions directly — federal postings especially close quickly after opening.<br><br>
-  <a href="erin_jobs.html" style="color:#185fa5">&#8592; Back to career positions</a>&nbsp;&nbsp;
-  <a href="index.html" style="color:#185fa5">&#8592; Home</a>
-</div>
-
-</div>
-
-<script>
-const PROFILE = `
-Candidate: Erin Lamberton
-Degree: BS Environmental Science, Western Carolina University, Magna Cum Laude, May 2025
-GPA: 3.731. Graduated May 2025 — recent grad (within 2 years for federal Pathways purposes).
-
-Core marketable skills: Wetland delineation (Army Corps Wetland Delineation Manual, GEOL 455 — Eastern Mountains & Piedmont Regional Supplement), water quality monitoring & sampling (ENVH 310, GEOL 423), environmental toxicology (ENVH 375), GIS/spatial analysis (two courses: GEOG 221 and NRM 344 Applied GIS — ArcGIS, QGIS, suitability analysis), mammalogy & wildlife surveys (NRM 479 — small mammal trapping/tagging, camera traps, Wildlife Insights), fish & wildlife ecology (NRM 330), epidemiology (HSCC 472), environmental justice (ENVH 493), contaminated site assessment (Pigeon River Basin lead contamination capstone)
-
-Service background: AmeriCorps NCCC (one full term). Hurricane Helene disaster relief volunteer.
-
-Available to start: August or September 2026 (cannot start before then).
-
-Target role types: Environmental Scientist I / Staff Environmental Scientist, Biological Science Technician, Hydrologic Technician, Natural Resources Specialist, Environmental Compliance Technician, GIS Analyst, Wildlife Biologist/Technician. Entry-level and early-career roles.
-
-Geographic preference: Southeast US (NC, SC, TN, GA, AL, MS, LA preferred) or Colorado / Mountain West. Rolling/remote positions also of interest.
-
-She is NOT still in school — she is a recent grad eligible for federal Recent Graduate Pathways positions.
-She has Public Lands Corps hiring authority eligibility pending any AmeriCorps/conservation corps service completed.
-`;
-
-const SYSTEM_PROMPT = `You are a career advisor helping a recent environmental science graduate identify the best-fit entry-level positions for an August/September 2026 start. You write structured, scannable HTML using specific CSS classes. Be specific and realistic — reference only real agencies, real job series, and real hiring pathways. Frame positions that hire on rolling/continuous bases clearly. Include specific USAJobs series codes and application strategy tips where helpful.`;
-
-const USER_PROMPT = `Based on the candidate profile below, identify 7–10 entry-level career positions she should actively target for an August/September 2026 start. Focus on: (1) rolling/continuous hire positions she can apply to now, (2) positions that typically open hiring in summer/fall, (3) state agency cycles that align with her timeline.
-
-Output valid HTML only — no markdown, no preamble. Use these exact CSS classes:
-
-<h3 class="section-label">Section heading (e.g. "Federal Positions — Rolling Hire")</h3>
-<div class="pos-card hot"> (hot for strongest fits)
+<div class="pos-card hot">
   <div class="pos-header">
     <div>
-      <div class="pos-title">Agency / Employer — Position Title</div>
-      <div class="pos-org">Location · Hiring series or program</div>
+      <div class="pos-title">Hydrologic Technician / Environmental Science Technician (GS-1316 / GS-1301)</div>
+      <div class="pos-org">USGS South Atlantic Water Science Center &middot; NC, SC &amp; GA offices</div>
     </div>
-    <span class="badge b-open">Rolling</span> (or b-watch for "Watch for", b-new for lesser-known)
+    <span class="badge b-rolling">Rolling year-round</span>
   </div>
   <div class="fit-pills">
-    <span class="fit-pill">Skill match</span>
+    <span class="fit-pill">Water quality monitoring</span>
+    <span class="fit-pill">Stream gauge operation</span>
+    <span class="fit-pill">Biological field surveys</span>
+    <span class="fit-pill">NC/SC/GA — home region</span>
+    <span class="fit-pill">Permanent federal pathway</span>
   </div>
-  <div class="pos-body">2–3 sentences: role duties, why it fits Erin, and timing/hiring cycle specifics.</div>
+  <div class="pos-body">USGS SAWSC is Erin's single strongest federal target. Hydrologic Technicians in NC/SC/GA operate stream gauges, collect water quality samples, conduct aquatic biological surveys, and analyze field data — a professional extension of her Pigeon River capstone work. GS-05 to GS-07 scale (~$38k–$52k). Full federal benefits. Email SAWSC directly; they maintain a Student Corps contact list and post positions continuously on USAJobs.</div>
   <div class="meta-grid">
-    <div><span class="meta-label">Pay:</span> Salary range or GS grade</div>
-    <div><span class="meta-label">Location:</span> Specific offices or region</div>
-    <div><span class="meta-label">Hiring cycle:</span> Rolling / Summer / Fall</div>
-    <div><span class="meta-label">Series/code:</span> GS series or job code if federal</div>
+    <div class="meta-item"><span class="meta-label">Pay:</span> GS-05 to GS-07 (~$38k–$52k DOL)</div>
+    <div class="meta-item"><span class="meta-label">Location:</span> NC, SC, GA offices</div>
+    <div class="meta-item"><span class="meta-label">Benefits:</span> Full federal — pension, health, leave</div>
+    <div class="meta-item"><span class="meta-label">Series:</span> GS-1316 (Hydrology), GS-1301 (Physical Science), GS-0404 (Bio Science)</div>
   </div>
-  <div class="contact-block">How to find and apply — specific USAJobs search terms, agency career pages, or direct contacts.</div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://www.usgs.gov/centers/sawsc/science/south-atlantic-water-science-center-sawsc-student-corps-employment">&#128269; SAWSC employment page</a>
+    <a class="pos-link" href="https://www.usajobs.gov/Search/Results?a=USGS&k=hydrologic+technician">&#128269; USAJobs: USGS Hydrologic Technician</a>
+    <a class="pos-link" href="mailto:gs-sawscsc@usgs.gov">&#9993; gs-sawscsc@usgs.gov</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>Application strategy</h4>
+    <p>Email gs-sawscsc@usgs.gov with a 2-paragraph cover note and resume — SAWSC explicitly maintains a contact list for upcoming vacancies. Also set a USAJobs saved search for "USGS hydrologic technician" filtered to NC/SC/GA so positions hit immediately. In the federal resume, note GPA (3.731), hours/week for the Pigeon River research, all water quality coursework, and that GEOL 423 is cross-listed at the graduate level.</p>
+    <div class="detail-row"><span class="detail-label">Key differentiator</span>GEOL 423 (Contaminated Rivers) cross-listed at graduate level (GEOL 523) — note explicitly in resume</div>
+    <div class="detail-row"><span class="detail-label">Driver's license</span>Required for field positions</div>
+    <div class="contact-block">SAWSC Student Corps: <a href="https://www.usgs.gov/centers/sawsc">usgs.gov/centers/sawsc</a> &middot; Email: gs-sawscsc@usgs.gov</div>
+  </div>
 </div>
 
-Group by: Federal rolling hire · State agencies · Environmental consulting (rolling hire) · Nonprofits & conservation organizations
+<div class="pos-card">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">Biological Science Technician (GS-0404) — SE Region National Wildlife Refuges</div>
+      <div class="pos-org">US Fish &amp; Wildlife Service &middot; Region 4 — NC, SC, GA, TN, AL, FL, MS</div>
+    </div>
+    <span class="badge b-rolling">Rolling — fall cycle posts June–Aug</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Wildlife surveys</span>
+    <span class="fit-pill">Wetland management</span>
+    <span class="fit-pill">Species monitoring</span>
+    <span class="fit-pill">National Wildlife Refuges</span>
+  </div>
+  <div class="pos-body">USFWS Biological Science Technician positions on National Wildlife Refuges in the SE region are well-matched to Erin's NRM 479 (Mammalogy), NRM 330 (Fish &amp; Wildlife), and GEOL 455 (Wetlands) background. Fall seasonal positions (Aug–Dec start) typically post June–August. Permanent positions post year-round. GS-04 to GS-07 (~$33k–$52k). Include a clarifying letter for the GEOL 455 / aquatic science qualification.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">Pay:</span> GS-04 to GS-07 (~$33k–$52k)</div>
+    <div class="meta-item"><span class="meta-label">Fall posts:</span> June–August 2026</div>
+    <div class="meta-item"><span class="meta-label">Location:</span> SE region NWR offices</div>
+    <div class="meta-item"><span class="meta-label">Benefits:</span> Full federal</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://www.usajobs.gov/Search/Results?a=FWS&k=biological+science+technician&Series=0404">&#128269; USAJobs: USFWS Biological Science Technician</a>
+    <a class="pos-link" href="https://www.fws.gov/careers">&#128269; USFWS Careers</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>Top NWR targets in Region 4</h4>
+    <p>Pee Dee NWR (NC), Alligator River NWR (NC), Cape Romain NWR (SC), Piedmont NWR (GA), Great Dismal Swamp NWR (VA/NC), Santee NWR (SC). All wetland-focused; all within Erin's field region.</p>
+    <div class="detail-row"><span class="detail-label">Aquatic coursework note</span>Include letter: "GEOL 455 Wetlands covers wetland hydrology, soil chemistry indicators, and aquatic vegetation, and qualifies as aquatic science coursework for GS-0404."</div>
+    <div class="detail-row"><span class="detail-label">When to apply</span>Set USAJobs saved search now; apply immediately when positions post in June–August</div>
+  </div>
+</div>
 
-End with a <div class="tip"> with 2–3 sentences of strategic advice for maximizing her chances in the Aug/Sep 2026 window specifically.
+<div class="pos-card">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">Natural Resources Specialist / Environmental Scientist — 401/404 Permitting</div>
+      <div class="pos-org">US Army Corps of Engineers &middot; Wilmington District (NC/SC) or Savannah District (GA)</div>
+    </div>
+    <span class="badge b-rolling">Rolling</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Section 404 permitting</span>
+    <span class="fit-pill">Wetland delineation review</span>
+    <span class="fit-pill">Army Corps Manual — direct match</span>
+    <span class="fit-pill">Regulatory compliance</span>
+  </div>
+  <div class="pos-body">The USACE Wilmington District regulates wetlands under Section 404 of the Clean Water Act across NC and SC — the exact regulatory framework Erin studied directly in GEOL 455 using the Army Corps Wetland Delineation Manual and Eastern Mountains &amp; Piedmont Regional Supplement. Entry-level Natural Resource Specialist and Biologist positions (GS-0401) review permit applications and make jurisdictional determinations. This is the most precise institutional credential match in Erin's background.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">Pay:</span> GS-07 to GS-09 (~$48k–$60k)</div>
+    <div class="meta-item"><span class="meta-label">Location:</span> Wilmington, NC or Savannah, GA</div>
+    <div class="meta-item"><span class="meta-label">Series:</span> GS-0401 (Biologist / Natural Resources Specialist)</div>
+    <div class="meta-item"><span class="meta-label">Hire cycle:</span> Rolling year-round</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://www.usajobs.gov/Search/Results?a=USACE&k=natural+resources+biologist+wetlands">&#128269; USAJobs: Army Corps biologist/natural resources</a>
+    <a class="pos-link" href="https://www.saw.usace.army.mil/Careers/">&#128269; Wilmington District careers</a>
+    <a class="pos-link" href="https://www.sas.usace.army.mil/Careers/">&#128269; Savannah District careers</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>Cover letter strategy</h4>
+    <p>Reference GEOL 455 by name: "coursework using the Army Corps of Engineers Wetland Delineation Manual and the Eastern Mountains and Piedmont Regional Supplement." Mention Panthertown Valley field work and the specific wetland community types (mountain bogs, seeps, headwater streams) identified in that coursework. Regulatory staff will immediately recognize this as directly applicable training.</p>
+    <div class="detail-row"><span class="detail-label">Wilmington District</span>Has jurisdiction over NC and SC — Erin's home territory post-Helene</div>
+    <div class="detail-row"><span class="detail-label">Hurricane Helene angle</span>Post-Helene permitting surge in western NC makes this district especially active — mention Pigeon River research</div>
+  </div>
+</div>
 
-Candidate profile:
-${PROFILE}`;
+<hr>
+<div class="slabel">State agencies — rolling &amp; summer 2026 openings</div>
 
-async function loadResults() {
-  document.getElementById('loader').style.display = 'flex';
-  document.getElementById('error-area').style.display = 'none';
-  document.getElementById('result-area').style.display = 'none';
+<div class="pos-card hot">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">Environmental Specialist I — Water Quality / Wetlands Division</div>
+      <div class="pos-org">NC Department of Environmental Quality (NC DEQ) &middot; Asheville or Raleigh, NC</div>
+    </div>
+    <span class="badge b-rolling">Rolling</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">401/404 permitting review</span>
+    <span class="fit-pill">Wetland compliance</span>
+    <span class="fit-pill">Field inspections</span>
+    <span class="fit-pill">Hurricane Helene context</span>
+    <span class="fit-pill">NC-based</span>
+  </div>
+  <div class="pos-body">NC DEQ's Division of Water Resources hires Environmental Specialists with water quality and wetlands backgrounds for 401 Water Quality Certification review, wetland/stream impact permit evaluation, and field compliance inspections. The Asheville Western Regional Office is particularly relevant — it covers the mountain counties where Erin studied and directly handles post-Hurricane Helene stream and wetland permitting. Mentioning the Pigeon River research in an Asheville application is a direct credential connection.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">Pay:</span> $38,000–$50,000 (NC state scale)</div>
+    <div class="meta-item"><span class="meta-label">Location:</span> Asheville, Raleigh, and regional offices</div>
+    <div class="meta-item"><span class="meta-label">Benefits:</span> State pension, health, leave</div>
+    <div class="meta-item"><span class="meta-label">Hire cycle:</span> Rolling — posted on NC OSHR</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://deq.nc.gov/careers">&#128269; NC DEQ Careers page</a>
+    <a class="pos-link" href="https://www.governmentjobs.com/careers/northcarolina?keywords=environmental+specialist+water">&#128269; NC state job board — environmental specialist</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>Best divisions for Erin</h4>
+    <p><strong style="font-weight:500">Division of Water Resources (DWR) — 401 Certification Program:</strong> Reviews wetland and stream impacts from development. Staff evaluate delineation reports and make permit decisions using the Army Corps Manual — GEOL 455 is a direct credential.</p>
+    <p><strong style="font-weight:500">Western Regional Office (Asheville):</strong> Covers mountain counties including Haywood County (Pigeon River watershed). Post-Helene permitting activity is elevated. Erin can honestly say her senior research directly informs her understanding of the regulatory challenges this office is currently managing.</p>
+    <div class="detail-row"><span class="detail-label">Application tip</span>Mention Hurricane Helene Pigeon River research explicitly in cover letter to the Asheville office — it's directly relevant to their current permitting backlog</div>
+  </div>
+</div>
 
-  try {
-    const response = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        model: 'claude-sonnet-4-20250514',
-        max_tokens: 1000,
-        system: SYSTEM_PROMPT,
-        messages: [{ role: 'user', content: USER_PROMPT }]
-      })
-    });
+<div class="pos-card">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">Wildlife Biologist I / Wildlife Technician</div>
+      <div class="pos-org">NC Wildlife Resources Commission (NCWRC) &middot; Mountain &amp; Piedmont regions</div>
+    </div>
+    <span class="badge b-rolling">Rolling</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Wildlife population monitoring</span>
+    <span class="fit-pill">Mammal surveys</span>
+    <span class="fit-pill">GIS spatial analysis</span>
+    <span class="fit-pill">NC mountain region</span>
+  </div>
+  <div class="pos-body">NCWRC hires Wildlife Biologists and Technicians for population monitoring, habitat assessment, and GIS-based wildlife management. The mountain region office manages species Erin studied in NRM 479 (small mammals, mustelids, bears) and NRM 330 (population management frameworks). GIS skills are explicitly valued for habitat connectivity and population mapping work. $35k–$48k entry level.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">Pay:</span> $35,000–$48,000 entry</div>
+    <div class="meta-item"><span class="meta-label">Location:</span> Mountain, Piedmont, Coastal regions</div>
+    <div class="meta-item"><span class="meta-label">Hire cycle:</span> Rolling, posted on NCWRC careers page</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://www.ncwildlife.org/About-Us/Careers">&#128269; NCWRC Careers page</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>What to highlight</h4>
+    <p>NRM 479 Mammalogy: small mammal trapping and tagging, Wildlife Insights camera trap deployment, species identification. NRM 330: wildlife population survey design and management planning. NRM 344 Applied GIS: habitat suitability analysis, spatial data management. WCU mountain field experience at Panthertown Valley and Pisgah National Forest region.</p>
+    <div class="detail-row"><span class="detail-label">Mountain region targets</span>Asheville and Waynesville offices manage species in the exact landscape Erin studied</div>
+  </div>
+</div>
 
-    if (!response.ok) {
-      const err = await response.json().catch(() => ({}));
-      throw new Error(err.error?.message || `HTTP ${response.status}`);
-    }
+<hr>
+<div class="slabel">Environmental consulting — rolling hire</div>
 
-    const data = await response.json();
-    const html = data.content?.find(b => b.type === 'text')?.text || '';
-    if (!html.trim()) throw new Error('No content returned from AI.');
+<div class="pos-card hot">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">Environmental Compliance Technician / Staff Environmental Scientist</div>
+      <div class="pos-org">WSSI, CDM Smith, Tetra Tech, ECS Federal, Kimley-Horn &middot; Raleigh NC, Charlotte NC, Denver CO</div>
+    </div>
+    <span class="badge b-rolling">Rolling year-round</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Wetland delineation (Army Corps)</span>
+    <span class="fit-pill">SWPPP development</span>
+    <span class="fit-pill">Environmental compliance</span>
+    <span class="fit-pill">Report writing</span>
+    <span class="fit-pill">NC / CO offices</span>
+  </div>
+  <div class="pos-body">Environmental consulting firms hire year-round. CDM Smith is actively seeking entry-level Environmental Scientists performing soil/water sampling, wetland delineation, and wildlife habitat surveys. WSSI (Raleigh) has an active Environmental Compliance Technician opening. For an Aug/Sep 2026 start, apply to these firms in June–July 2026. Army Corps delineation training (GEOL 455) is the #1 differentiator — most entry-level candidates don't have it. Starting salary $42k–$68k depending on firm and location.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">Pay:</span> $42,000–$68,000 entry (firm/location-dependent)</div>
+    <div class="meta-item"><span class="meta-label">Locations:</span> Raleigh, Charlotte, Asheville; Denver, Fort Collins</div>
+    <div class="meta-item"><span class="meta-label">When to apply:</span> June–July 2026 for Aug/Sep start</div>
+    <div class="meta-item"><span class="meta-label">Benefits:</span> 401k, medical, dental, vision (varies by firm)</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://www.wetlands.com/careers/current-openings/">&#128269; WSSI current openings (Raleigh — active)</a>
+    <a class="pos-link" href="https://www.cdmsmith.com/en/Careers">&#128269; CDM Smith Careers</a>
+    <a class="pos-link" href="https://www.ecsfederal.com/careers">&#128269; ECS Federal Careers</a>
+    <a class="pos-link" href="https://www.kimley-horn.com/careers/">&#128269; Kimley-Horn Careers (Raleigh HQ)</a>
+    <a class="pos-link" href="https://www.ziprecruiter.com/Jobs/Entry-Level-Wetland-Delineation">&#128269; ZipRecruiter: entry-level wetland delineation</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>Cover letter strategy — all consulting firms</h4>
+    <p>Lead with the Army Corps delineation credential: "My GEOL 455 coursework used the Army Corps of Engineers Wetland Delineation Manual and Eastern Mountains and Piedmont Regional Supplement — I have hands-on field experience applying the three-factor delineation criteria (hydrology, soils, vegetation) in western NC mountain and piedmont systems." This differentiates Erin from every other environmental science grad who took a general wetlands survey course.</p>
+    <h4>Additional certifications worth pursuing now</h4>
+    <div class="detail-row"><span class="detail-label">SWS PWS-IT</span>Society of Wetland Scientists Professional Wetland Scientist — In Training. Apply now at sws.org. Costs ~$50; strengthens every wetland consulting application.</div>
+    <div class="detail-row"><span class="detail-label">HAZWOPER 40-hr</span>Often paid by employer but valued upfront. Some firms pay for it after hire; mention willingness to complete it.</div>
+  </div>
+</div>
 
-    document.getElementById('result-area').innerHTML = html;
-    document.getElementById('result-area').style.display = 'block';
-    document.getElementById('loader').style.display = 'none';
+<hr>
+<div class="slabel">Search resources</div>
+<div class="card">
+  <a class="rl" href="https://www.usajobs.gov/Search/Results?k=environmental+scientist+wetlands+water+quality&Series=0401">&#128269;&nbsp; USAJobs — federal environmental scientist / biologist (GS-0401)</a>
+  <a class="rl" href="https://www.usajobs.gov/Search/Results?hp=rg&k=environmental+science+hydrology+biology">&#128269;&nbsp; USAJobs — Recent Graduate Program: env. science / hydrology / biology</a>
+  <a class="rl" href="https://www.conservationjobboard.com/category/wetlands">&#128269;&nbsp; Conservation Job Board — wetlands positions</a>
+  <a class="rl" href="https://careers.wildlife.org/jobs">&#128269;&nbsp; The Wildlife Society Career Center</a>
+  <a class="rl" href="https://www.governmentjobs.com/careers/northcarolina?keywords=environmental+scientist">&#128269;&nbsp; NC state jobs board — environmental specialist</a>
+  <a class="rl" href="https://www.indeed.com/q-entry-level-wetland-jobs.html">&#128269;&nbsp; Indeed: entry-level wetland positions (active listings)</a>
+  <a class="rl" href="https://www.google.com/search?q=entry+level+environmental+scientist+wetland+delineation+GIS+NC+SC+CO+2026+hiring">&#128269;&nbsp; Search: entry-level environmental scientist wetlands GIS NC/SC/CO 2026</a>
+</div>
 
-  } catch (err) {
-    document.getElementById('loader').style.display = 'none';
-    document.getElementById('error-msg').textContent = err.message || 'Unknown error. Please try again.';
-    document.getElementById('error-area').style.display = 'block';
-  }
-}
-
-loadResults();
+<p class="footer">Research conducted May 2026. Verify positions directly before applying — federal postings especially fill within days of opening. For consulting firms, apply June–July 2026 for an August–September start.<br><br><a href="erin_jobs.html" style="color:#185fa5">&#8592; Back to career positions</a>&nbsp;&nbsp;<a href="index.html" style="color:#185fa5">&#8592; Home</a></p>
+</div>
+<script>
+function toggleMore(btn){var p=btn.nextElementSibling;var o=p.classList.toggle('open');btn.textContent=o?'− Less info':'+ More info'}
 </script>
 </body>
 </html>

@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Erin Lamberton — Next Cycle: Funded Graduate Programs</title>
+<title>Erin Lamberton — Next Cycle: Graduate Programs</title>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{--bg:#fff;--bg2:#f5f5f3;--bg3:#eeede8;--t1:#1a1a18;--t2:#5f5e5a;--t3:#888780;--bd:rgba(0,0,0,0.12);--bds:rgba(0,0,0,0.22);--r1:8px;--r2:12px;--fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;--accent:#5dcaa5;--accent-bg:#e1f5ee;--accent-text:#0f6e56}
-@media(prefers-color-scheme:dark){:root{--bg:#1e1e1c;--bg2:#2a2a28;--bg3:#333330;--t1:#f0ede6;--t2:#b4b2a9;--t3:#888780;--bd:rgba(255,255,255,0.1);--bds:rgba(255,255,255,0.2);--accent-bg:#085041;--accent-text:#9fe1cb}}
+:root{--bg:#fff;--bg2:#f5f5f3;--bg3:#eeede8;--t1:#1a1a18;--t2:#5f5e5a;--t3:#888780;--bd:rgba(0,0,0,0.12);--bds:rgba(0,0,0,0.22);--r1:8px;--r2:12px;--fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+@media(prefers-color-scheme:dark){:root{--bg:#1e1e1c;--bg2:#2a2a28;--bg3:#333330;--t1:#f0ede6;--t2:#b4b2a9;--t3:#888780;--bd:rgba(255,255,255,0.1);--bds:rgba(255,255,255,0.2)}}
 body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:2rem 1rem}
 .page{max-width:720px;margin:0 auto}
 .top-nav{display:flex;align-items:center;gap:12px;margin-bottom:1.75rem}
@@ -17,56 +17,46 @@ body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6
 .slabel{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin-bottom:.75rem}
 .card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1.25rem;margin-bottom:1rem}
 hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
-.tip{border-left:3px solid var(--accent);background:var(--bg2);padding:.85rem 1rem;margin-bottom:1rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
-.context-banner{background:var(--accent-bg);border:1.5px solid var(--accent);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:1.5rem;font-size:13px;color:var(--t2);line-height:1.6}
-.context-banner strong{color:var(--accent-text);font-weight:500}
-
-/* Loading state */
-.loader{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:4rem 2rem;gap:1.25rem}
-.spinner{width:36px;height:36px;border:3px solid var(--bd);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite}
-@keyframes spin{to{transform:rotate(360deg)}}
-.loader-text{font-size:13px;color:var(--t3);text-align:center;max-width:300px;line-height:1.6}
-.loader-label{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-bottom:.25rem}
-
-/* Result output area */
-#result-area{display:none}
-
-/* Error state */
-.error-card{background:var(--bg);border:1.5px solid #ef9f27;border-radius:var(--r2);padding:1.25rem;margin-bottom:1rem}
-.error-card .etitle{font-size:14px;font-weight:500;color:var(--t1);margin-bottom:.4rem}
-.error-card .ebody{font-size:13px;color:var(--t2);line-height:1.6;margin-bottom:.75rem}
-.retry-btn{font-size:13px;font-weight:500;padding:6px 18px;border-radius:999px;border:1.5px solid var(--accent);background:transparent;color:var(--accent-text);cursor:pointer;font-family:var(--fn)}
-.retry-btn:hover{background:var(--accent-bg)}
-
-/* Rendered result cards — AI outputs these class names */
-.pos-card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:.85rem}
-.pos-card.hot{border:2px solid var(--accent)}
-.pos-card.featured{border:2px solid #185fa5}
-.pos-header{display:flex;align-items:flex-start;justify-content:space-between;gap:.75rem;margin-bottom:.35rem}
-.pos-title{font-size:14px;font-weight:500;color:var(--t1);line-height:1.4}
-.pos-org{font-size:12px;color:var(--t3);margin-bottom:.5rem}
-.pos-body{font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.65rem}
-.badge{font-size:11px;font-weight:500;padding:3px 9px;border-radius:999px;white-space:nowrap;flex-shrink:0}
-.b-open{background:#e1f5ee;color:#0f6e56}
-.b-watch{background:#faeeda;color:#854f0b}
-.b-new{background:#eeedfe;color:#534ab7}
-@media(prefers-color-scheme:dark){.b-open{background:#085041;color:#9fe1cb}.b-watch{background:#633806;color:#fac775}.b-new{background:#3c3489;color:#cecdfa}}
+.tip{border-left:3px solid #5dcaa5;background:var(--bg2);padding:.85rem 1rem;margin-bottom:1rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
+.tip-warn{border-left-color:#ef9f27}
+.context-banner{background:#e1f5ee;border:1.5px solid #5dcaa5;border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:1.5rem;font-size:13px;color:var(--t2);line-height:1.6}
+.context-banner strong{color:#0f6e56;font-weight:500}
+@media(prefers-color-scheme:dark){.context-banner{background:#085041;border-color:#5dcaa5}.context-banner strong{color:#9fe1cb}}
+.pc2{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:.75rem}
+.pc2.hot{border:2px solid #5dcaa5}
+.pc2.featured{border:2px solid #185fa5}
+.ph2{display:flex;align-items:flex-start;justify-content:space-between;gap:.75rem;margin-bottom:.4rem}
+.pn{font-size:14px;font-weight:500;color:var(--t1)}
+.pl{font-size:12px;color:var(--t3);margin-top:2px}
+.pb2{font-size:13px;color:var(--t2);line-height:1.6;margin-bottom:.75rem}
+.badge{font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px;white-space:nowrap;flex-shrink:0}
+.ms{background:#e1f5ee;color:#0f6e56}.mg{background:#e6f1fb;color:#185fa5}.mo{background:#eeedfe;color:#534ab7}.mw{background:#faeeda;color:#854f0b}.mx{background:#faece7;color:#993c1d}
+@media(prefers-color-scheme:dark){.ms{background:#085041;color:#9fe1cb}.mg{background:#0c447c;color:#b5d4f4}.mo{background:#3c3489;color:#cecdfa}.mw{background:#633806;color:#fac775}.mx{background:#712b13;color:#f5c4b3}}
 .fit-pills{margin-bottom:.65rem;display:flex;flex-wrap:wrap;gap:4px}
 .fit-pill{display:inline-block;font-size:11px;font-weight:500;padding:3px 9px;border-radius:999px;background:#e6f1fb;color:#185fa5}
 @media(prefers-color-scheme:dark){.fit-pill{background:#0c447c;color:#b5d4f4}}
-.meta-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 12px;margin-bottom:.65rem;font-size:12px;color:var(--t2)}
-.meta-label{font-weight:500;color:var(--t1)}
-.detail-row{font-size:13px;color:var(--t2);padding:5px 0;border-bottom:.5px solid var(--bd);display:flex;gap:8px}
+.slinks{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:.65rem}
+.sl2{display:inline-flex;align-items:center;gap:5px;font-size:12px;color:#185fa5;text-decoration:none;padding:3px 0;margin-right:.75rem}
+.sl2:hover{text-decoration:underline}
+.more-btn{font-size:12px;font-weight:500;padding:4px 13px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn);display:inline-flex;align-items:center;gap:5px}
+.more-btn:hover{background:var(--bg2);color:var(--t1)}
+.more-panel{display:none;margin-top:.85rem;padding-top:.85rem;border-top:.5px solid var(--bd)}
+.more-panel.open{display:block}
+.more-panel h4{font-size:12px;font-weight:500;color:var(--t3);text-transform:uppercase;letter-spacing:.05em;margin-bottom:.4rem;margin-top:.75rem}
+.more-panel h4:first-child{margin-top:0}
+.more-panel p{font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.5rem}
+.more-panel p:last-child{margin-bottom:0}
+.detail-row{font-size:13px;color:var(--t2);padding:4px 0;border-bottom:.5px solid var(--bd);display:flex;gap:8px}
 .detail-row:last-child{border-bottom:none}
 .detail-label{font-weight:500;color:var(--t1);min-width:130px;flex-shrink:0}
-.pos-link{display:inline-flex;align-items:center;gap:5px;font-size:12px;color:#185fa5;text-decoration:none;margin-right:.75rem}
-.pos-link:hover{text-decoration:underline}
 .contact-block{background:var(--bg2);border-radius:var(--r1);padding:.65rem .85rem;margin-top:.5rem;font-size:13px;color:var(--t2);line-height:1.6}
 .contact-block a{color:#185fa5;text-decoration:none}
-.section-label{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin:1.5rem 0 .75rem}
-h3.section-label{display:block}
+.contact-block a:hover{text-decoration:underline}
+.rl{display:block;font-size:13px;color:#185fa5;text-decoration:none;padding:7px 0;border-bottom:.5px solid var(--bd)}
+.rl:last-child{border-bottom:none}
+.rl:hover{text-decoration:underline}
 .footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
-@media(max-width:520px){.pos-header{flex-direction:column;align-items:flex-start}.meta-grid{grid-template-columns:1fr}}
+@media(max-width:520px){.ph2{flex-direction:column;align-items:flex-start}}
 </style>
 </head>
 <body>
@@ -74,139 +64,300 @@ h3.section-label{display:block}
 
 <div class="top-nav">
   <a href="erin_programs.html" class="back-btn">&#8592; Graduate programs</a>
-  <span class="pg-title">Next cycle &mdash; funded MS programs</span>
+  <span class="pg-title">Next cycle — funded MS programs</span>
 </div>
 
 <div class="context-banner">
-  <strong>🔄 Forward-looking search</strong> &mdash; Erin is applying during <strong>summer 2026</strong> and cannot start before <strong>August or September 2026</strong>. This page uses AI to identify funded MS programs, research assistantships, and faculty contacts with <strong>Fall 2027 entry</strong> (applications opening fall 2026) or any remaining <strong>Fall 2026</strong> rolling/late openings. Results are generated fresh each visit.
+  <strong>&#128260; Forward-looking — Fall 2027 entry</strong> &mdash; Erin is applying during <strong>summer 2026</strong> and cannot start before <strong>August–September 2026</strong>. The programs below target <strong>Fall 2027 admission</strong> (applications open fall 2026/winter 2027) or programs with <strong>rolling/late Fall 2026</strong> openings still feasible. All application windows and deadlines verified May 2026.
 </div>
 
-<div id="loader" class="loader">
-  <div class="spinner"></div>
-  <div>
-    <div class="loader-label">Searching next cycle</div>
-    <div class="loader-text">Identifying funded MS programs with Fall 2027 deadlines and late-cycle Fall 2026 openings matched to Erin's background in wetlands, water quality, wildlife, and GIS&hellip;</div>
-  </div>
-</div>
+<div class="tip tip-warn">&#9888;&nbsp; <strong style="font-weight:500;color:var(--t1)">Key timing note:</strong> For Fall 2027 entry, most programs open applications September–November 2026 with deadlines December 2026–February 2027. Erin should start emailing faculty in <strong>August–October 2026</strong> — well before applications open — to secure advisor interest before spots fill.</div>
 
-<div id="error-area" style="display:none">
-  <div class="error-card">
-    <div class="etitle">Couldn't load next-cycle results</div>
-    <div class="ebody" id="error-msg">Something went wrong generating results. Check your connection and try again.</div>
-    <button class="retry-btn" onclick="loadResults()">Try again</button>
-  </div>
-</div>
+<hr>
+<div class="slabel">Wetlands &amp; water quality — Fall 2027</div>
 
-<div id="result-area"></div>
-
-<div class="footer">
-  Results generated by AI based on Erin's profile. Program details, deadlines, and funding availability change — verify directly with each department before applying.<br><br>
-  <a href="erin_programs.html" style="color:#185fa5">&#8592; Back to graduate programs</a>&nbsp;&nbsp;
-  <a href="index.html" style="color:#185fa5">&#8592; Home</a>
-</div>
-
-</div>
-
-<script>
-const PROFILE = `
-Candidate: Erin Lamberton
-Degree: BS Environmental Science, Western Carolina University, Magna Cum Laude, May 2025
-GPA: 3.731 cumulative (3.737 at 84 hrs, 4.0 final two semesters before last)
-Honors: Dean's List ×5, Chancellor's List ×3
-
-Key coursework: General Chemistry I & II, Environmental Toxicology (A+), Water Quality Control (A), Contaminated Rivers: Assessment Remediation & Restoration (B+), Wetlands (A−, Army Corps delineation methods), Intro to Ecology & Evolution (B+), Intro Fish & Wildlife Ecology & Management (A), Mammalogy (A), Applied GIS (A−), Intro to Geospatial Analysis (A), Principles of Epidemiology (A+), Environmental Justice in Appalachia (A+), International Environmental Politics (A), Methods of Social Research (A), Senior Research Seminar (A — Pigeon River Basin lead contamination capstone), Environmental & Animal Ethics (A+), Conflict Resolution (A+)
-
-Capstone research: Analyzed lead contamination in Pigeon River Basin sediments following Hurricane Helene (2024). Graduate-level methodology (GEOL 423 is cross-listed at 500 level). Applied geomorphological-geochemical methodology to an ongoing post-hurricane contamination event in her field region.
-
-Field skills: Wetland delineation (Army Corps Manual), soil profile analysis, water sampling, macroinvertebrate identification, small mammal trapping/tagging, camera trap deployment (Wildlife Insights), wildlife population survey methods, plant identification, erosion control assessment
-
-GIS skills: ArcGIS and QGIS (two full courses), multi-criteria suitability analysis, spatial data management, map production
-
-Service: AmeriCorps NCCC (one full term completed); Hurricane Helene disaster relief volunteer in the Pigeon River Basin region she simultaneously studied
-
-Geographic experience: Southern Appalachians (WCU/Cullowhee area, Pisgah National Forest region, Pigeon River Basin), western North Carolina broadly
-
-Applying: Summer 2026. Cannot start earlier than August or September 2026. Is therefore targeting Fall 2026 late/rolling openings AND Fall 2027 programs (which will post application deadlines in fall 2026 and winter 2027).
-
-Focus areas in order of strength: (1) wetlands & water quality / contaminant transport, (2) wildlife ecology & mammalogy, (3) GIS / remote sensing / environmental data science, (4) environmental justice & policy (Appalachian context)
-
-Geographic preferences: Southern US (NC, SC, TN, GA, AL, MS, LA) and Colorado / Mountain West — both are equally viable
-`;
-
-const SYSTEM_PROMPT = `You are a graduate school research advisor helping a strong environmental science candidate identify the best-fit funded MS research assistantship programs. You write in a structured, scannable format using specific HTML that matches an existing site's CSS classes. Be specific, accurate, and realistic. Never invent fake professors or programs — if you reference a specific faculty member, use only real, verifiable people. If unsure whether a specific position exists right now, frame it as "watch for" or "typically recruits." Focus on programs that offer tuition waivers + stipends (RAs or TAs).`;
-
-const USER_PROMPT = `Based on the candidate profile below, identify 6–9 funded MS research assistantship opportunities she should target for Fall 2027 entry (applications opening fall 2026) — plus flag any remaining Fall 2026 rolling/late openings that could still accept her given an August/September 2026 availability date.
-
-For each opportunity, output valid HTML using these exact classes from the site's stylesheet. Structure your entire response as HTML — no markdown, no preamble, just HTML content to be inserted into the page.
-
-Use this exact card structure for each program:
-<h3 class="section-label">Section heading (e.g. "Wetlands & Water Quality Programs")</h3>
-<div class="pos-card hot"> (use hot for strongest fits, omit for others)
-  <div class="pos-header">
+<div class="pc2 hot">
+  <div class="ph2">
     <div>
-      <div class="pos-title">University Name — Department or Lab</div>
-      <div class="pos-org">City, State · Degree program name</div>
+      <div class="pn">NC State University — Dept. of Forestry &amp; Environmental Resources</div>
+      <div class="pl">Raleigh, NC &middot; MS Forestry / Natural Resources — thesis track</div>
     </div>
-    <span class="badge b-open">Fall 2027</span> (or b-watch for "Watch for", b-new for "Late opening")
+    <span class="badge mx">Exceptional fit</span>
   </div>
   <div class="fit-pills">
-    <span class="fit-pill">Key skill match 1</span>
-    <span class="fit-pill">Key skill match 2</span>
+    <span class="fit-pill">Hurricane Helene recovery</span>
+    <span class="fit-pill">Wetlands &amp; forest ecology</span>
+    <span class="fit-pill">Wildlife surveys</span>
+    <span class="fit-pill">Appalachian field experience</span>
   </div>
-  <div class="pos-body">2–3 sentence description of the program/lab, why it fits Erin's background specifically, and what type of research she'd be doing.</div>
-  <div class="meta-grid">
-    <div><span class="meta-label">Deadline:</span> Approximate fall 2026 application deadline</div>
-    <div><span class="meta-label">Funding:</span> Stipend range + tuition waiver</div>
-    <div><span class="meta-label">Start:</span> Fall 2027</div>
-    <div><span class="meta-label">Key contact:</span> Professor name or "Browse faculty directly"</div>
+  <div class="pb2">NC State remains Erin's single strongest institutional match. Dr. Jodi Forrester's lab focuses on forest recovery from disturbance events in western NC — directly overlapping with Erin's Pigeon River capstone. Even if the specific May 2026 position is filled, Fall 2027 positions in the same lab or adjacent labs (Moorman Lab, wildlife; Scheller Lab, landscape ecology) are highly likely given ongoing Helene recovery funding cycles.</div>
+  <div class="slinks">
+    <a class="sl2" href="https://cnr.ncsu.edu/fer/">&#128269; NC State Forestry &amp; Environmental Resources</a>
+    <a class="sl2" href="https://cnr.ncsu.edu/geospatial/academics/phd-in-geospatial-analytics/graduate-assistantships/">&#128269; NC State Center for Geospatial Analytics — GIS assistantships (PhD, $30k+)</a>
   </div>
-  <div class="contact-block">Strategy: One sentence on how to approach this program — what to lead with in an email, what connection to make to her background.</div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>Fall 2027 application details</h4>
+    <div class="detail-row"><span class="detail-label">Apps open</span>~September 2026</div>
+    <div class="detail-row"><span class="detail-label">Funding deadline</span>January 31, 2027 for financial aid; June 2027 for admission only</div>
+    <div class="detail-row"><span class="detail-label">Spring deadline</span>September 30, 2026 (aid); November 25, 2026 (admission)</div>
+    <div class="detail-row"><span class="detail-label">Typical MS stipend</span>$18,000–$23,000/yr + full tuition waiver</div>
+    <div class="detail-row"><span class="detail-label">GRE required</span>No</div>
+    <div class="detail-row"><span class="detail-label">Also note</span>NC State Center for Geospatial Analytics has PhD assistantships at $30,000+/yr minimum — strong GIS fit</div>
+    <h4>Strategy</h4>
+    <p>Email Dr. Forrester (jodi_forrester@ncsu.edu) and Dr. Moorman in August–September 2026. Reference the May 2026 position and ask about Fall 2027 openings. Lead with the Pigeon River connection in the first sentence. Also browse the Geospatial Analytics center for water quality + GIS positions — Erin's epidemiology + GIS combination is a direct fit for their "Data Democracy and Environmental Justice" PhD track.</p>
+    <div class="contact-block">Dr. Jodi Forrester — <a href="mailto:jodi_forrester@ncsu.edu">jodi_forrester@ncsu.edu</a> &middot; Dr. Chris Moorman (wildlife co-advisor) &middot; <a href="https://cnr.ncsu.edu/fer/research/">cnr.ncsu.edu/fer/research</a></div>
+  </div>
 </div>
 
-End with a short <div class="tip"> with 2–3 sentences of strategic advice specific to this cycle timing (summer 2026 applicant, fall 2027 entry).
+<div class="pc2">
+  <div class="ph2">
+    <div>
+      <div class="pn">Purdue University — Dept. of Forestry &amp; Natural Resources</div>
+      <div class="pl">West Lafayette, IN &middot; MS Environmental Science / Natural Resources</div>
+    </div>
+    <span class="badge mg">Good fit</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Soil contamination</span>
+    <span class="fit-pill">Vegetation dynamics</span>
+    <span class="fit-pill">Remote sensing</span>
+    <span class="fit-pill">Field ecology</span>
+  </div>
+  <div class="pb2">The Jo Lab at Purdue has an MS opening (Fall 2026 or Spring 2027) on how soil contamination influences vegetation dynamics at the Indiana Dunes — integrating field ecology, soil chemistry, and remote sensing. This is a near-direct match for Erin's Pigeon River lead contamination capstone methodology. A Fall 2027 position in the same or adjacent labs is likely to continue.</div>
+  <div class="slinks">
+    <a class="sl2" href="https://www.purdue.edu/gradschool/prospective/gradrequirements/westlafayette/fnr.html">&#128269; Purdue FNR graduate program</a>
+    <a class="sl2" href="https://www.google.com/search?q=Purdue+Jo+Lab+soil+contamination+vegetation+MS+assistantship+2026+2027">&#128269; Search Purdue Jo Lab MS openings</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>Position details</h4>
+    <p>Dr. Katie Jo's lab studies how persistent pollutants affect above- and belowground vegetation structure, ecosystem resilience, and soil function. The Indiana Dunes project is an interdisciplinary, field-based contamination study — methodologically similar to the Pigeon River Basin lead analysis Erin completed for her senior capstone. Fall 2026 or Spring 2027 start; apply immediately if interested in the current cycle, or contact for Fall 2027 openings.</p>
+    <div class="detail-row"><span class="detail-label">Current deadline</span>May 31, 2026 for current opening; position open until filled</div>
+    <div class="detail-row"><span class="detail-label">Fall 2027 apps</span>Typically open October 2026; deadline ~January 2027</div>
+    <div class="detail-row"><span class="detail-label">Funding</span>Full RA — stipend + tuition (contact for current rate)</div>
+    <div class="detail-row"><span class="detail-label">GRE required</span>Contact department</div>
+    <div class="contact-block">Email Dr. Katie Jo via Purdue FNR website — <a href="https://ag.purdue.edu/fnr/">ag.purdue.edu/fnr</a>. Lead with Pigeon River lead contamination connection and GEOL 423 cross-listed graduate coursework.</div>
+  </div>
+</div>
 
-Candidate profile:
-${PROFILE}`;
+<div class="pc2">
+  <div class="ph2">
+    <div>
+      <div class="pn">Louisiana State University — Wetland &amp; Aquatic Biogeochemistry Lab</div>
+      <div class="pl">Baton Rouge, LA &middot; MS Oceanography &amp; Coastal Sciences</div>
+    </div>
+    <span class="badge mg">Good fit</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Coastal wetland biogeochemistry</span>
+    <span class="fit-pill">Water quality</span>
+    <span class="fit-pill">Nutrient cycling</span>
+    <span class="fit-pill">Field sampling</span>
+  </div>
+  <div class="pb2">Dr. John White's WABL lab at LSU researches nutrient and contaminant biogeochemistry in freshwater and coastal wetlands — a strong match for Erin's water quality and contaminated rivers background. MS minimum stipend $23,000/yr; PhD $31,000. LSU requires faculty commitment before formal application.</div>
+  <div class="slinks">
+    <a class="sl2" href="https://faculty.lsu.edu/whitelab/graduateassistantships.php">&#128269; LSU WABL assistantships</a>
+    <a class="sl2" href="https://faculty.lsu.edu/whitelab/">&#128269; WABL lab website</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>Application process (non-negotiable)</h4>
+    <p>LSU College of the Coast &amp; Environment requires a faculty member to commit to advising you before you submit a formal application. Email Dr. White first, secure his support, then apply. Do not submit a blind application.</p>
+    <div class="detail-row"><span class="detail-label">Fall 2027 deadline (target)</span>February 15, 2027 for funding priority</div>
+    <div class="detail-row"><span class="detail-label">Formal deadline</span>May 15, 2027</div>
+    <div class="detail-row"><span class="detail-label">Spring 2027 deadline</span>October 15, 2026 — potentially feasible for Erin</div>
+    <div class="detail-row"><span class="detail-label">MS stipend</span>$23,000/yr minimum + full tuition + 75% health insurance</div>
+    <div class="detail-row"><span class="detail-label">Pre-application</span>Complete free DOCS pre-application at lsu.edu/cce first</div>
+    <h4>Also at LSU — Fogelman Lab</h4>
+    <p>Dr. Kaelyn Fogelman's new lab works on crayfish and unionid mussels under environmental stress. MS stipend $28,000/yr. Contact: kfogelman@agcenter.lsu.edu. Spring 2027 start may be feasible — contact directly.</p>
+    <div class="contact-block">Dr. John White — <a href="mailto:jrwhite@lsu.edu">jrwhite@lsu.edu</a> &middot; Pre-app: <a href="https://lsu.edu/cce/academics/graduate/docs/docs-admissions.php">lsu.edu/cce/academics/graduate</a></div>
+  </div>
+</div>
 
-async function loadResults() {
-  document.getElementById('loader').style.display = 'flex';
-  document.getElementById('error-area').style.display = 'none';
-  document.getElementById('result-area').style.display = 'none';
+<hr>
+<div class="slabel">Wildlife &amp; ecology — Fall 2027</div>
 
-  try {
-    const response = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        model: 'claude-sonnet-4-20250514',
-        max_tokens: 1000,
-        system: SYSTEM_PROMPT,
-        messages: [{ role: 'user', content: USER_PROMPT }]
-      })
-    });
+<div class="pc2">
+  <div class="ph2">
+    <div>
+      <div class="pn">University of Montana — MS Wildlife Biology</div>
+      <div class="pl">Missoula, MT &middot; Wildlife Biology Program</div>
+    </div>
+    <span class="badge mg">Good fit</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Mammalogy &amp; wildlife ecology</span>
+    <span class="fit-pill">TA funding available</span>
+    <span class="fit-pill">Mountain West</span>
+    <span class="fit-pill">WICHE tuition discount</span>
+  </div>
+  <div class="pb2">UM's Wildlife Biology MS program receives ~100 applications/year and only accepts students with confirmed funding via RA or TA. Strong mammalogy and population ecology faculty. WICHE discount available for some states (check eligibility). TA packages include full tuition waiver. January 15 priority deadline annually for Fall entry.</div>
+  <div class="slinks">
+    <a class="sl2" href="https://www.umt.edu/wildlife-biology/graduate/ms-wbio/">&#128269; UM Wildlife Biology MS program</a>
+    <a class="sl2" href="https://www.umt.edu/wildlife-biology/people/faculty/">&#128269; Browse UM Wildlife Biology faculty</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>How it works</h4>
+    <p>Faculty must commit to funding you before you apply — UM does not admit unfunded students except in rare cases. Browse faculty whose research overlaps with Erin's mammalogy, carnivore ecology, or wildlife population work. Contact 3–4 faculty in August–October 2026 with CV and a targeted paragraph on research fit.</p>
+    <div class="detail-row"><span class="detail-label">Fall 2027 deadline</span>January 15, 2027 (unless faculty specify otherwise for RA positions)</div>
+    <div class="detail-row"><span class="detail-label">TA stipend</span>Varies; tuition waiver included (in-state and out-of-state)</div>
+    <div class="detail-row"><span class="detail-label">RA funding</span>Varies by project; secured through faculty advisors</div>
+    <div class="detail-row"><span class="detail-label">GRE required</span>No (holistic review — GPA, research experience, leadership)</div>
+    <div class="contact-block">Browse faculty: <a href="https://www.umt.edu/wildlife-biology/people/faculty/">umt.edu/wildlife-biology/people/faculty</a> — email 3–4 whose research directly matches NRM 479 mammalogy and NRM 330 wildlife management backgrounds.</div>
+  </div>
+</div>
 
-    if (!response.ok) {
-      const err = await response.json().catch(() => ({}));
-      throw new Error(err.error?.message || `HTTP ${response.status}`);
-    }
+<div class="pc2">
+  <div class="ph2">
+    <div>
+      <div class="pn">Mississippi State University — Wildlife, Fisheries &amp; Aquaculture</div>
+      <div class="pl">Starkville, MS &middot; MS Wildlife or Fisheries</div>
+    </div>
+    <span class="badge mg">Good fit</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Wildlife surveys</span>
+    <span class="fit-pill">Fisheries &amp; aquatic ecology</span>
+    <span class="fit-pill">Southern US</span>
+    <span class="fit-pill">Faculty-driven funding</span>
+  </div>
+  <div class="pb2">MSU's WFA department only accepts graduate students on funded projects. Contact faculty directly before applying — the department explicitly states that blind applications are less effective. Typical MS stipend $18,000–$22,000/yr + tuition waiver. The Forest &amp; Wildlife Research Center (FWRC) and Geosystems Research Institute (GIS focus) are both strong targets for Erin's skill set.</div>
+  <div class="slinks">
+    <a class="sl2" href="https://www.wildlifefisheries.msstate.edu/students/graduate-programs.php">&#128269; MSU WFA graduate programs</a>
+    <a class="sl2" href="https://www.cfr.msstate.edu/job-board/">&#128269; MSU College of Forest Resources job board</a>
+    <a class="sl2" href="https://www.gri.msstate.edu/">&#128269; MSU Geosystems Research Institute (GIS/health)</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>Two pathways at MSU</h4>
+    <p><strong style="font-weight:500">WFA / FWRC:</strong> Wildlife, fisheries, and forest ecology RAs funded through extramural grants. Browse faculty and contact those working on mammalogy, southeastern wildlife, or aquatic ecology. Expect Fall 2027 apps to open September–October 2026.</p>
+    <p><strong style="font-weight:500">Geosystems Research Institute (GRI):</strong> Fully funded MS and PhD positions in GIS and environmental health — Spring or Fall 2026/2027 start. Erin's GIS + epidemiology combination is an unusually strong fit here. Contact GRI directly.</p>
+    <div class="detail-row"><span class="detail-label">WFA MS stipend</span>$18,000–$22,000/yr + tuition waiver</div>
+    <div class="detail-row"><span class="detail-label">GRI funding</span>Full assistantship (stipend + tuition) — confirm current rate</div>
+    <div class="detail-row"><span class="detail-label">Fall 2027 apps</span>Typically open October 2026; contact faculty first</div>
+    <div class="contact-block">WFA faculty: <a href="https://www.wildlifefisheries.msstate.edu/faculty-staff/">wildlifefisheries.msstate.edu/faculty-staff</a> &middot; GRI: <a href="https://www.gri.msstate.edu/">gri.msstate.edu</a></div>
+  </div>
+</div>
 
-    const data = await response.json();
-    const html = data.content?.find(b => b.type === 'text')?.text || '';
+<hr>
+<div class="slabel">GIS &amp; remote sensing — Fall 2027</div>
 
-    if (!html.trim()) throw new Error('No content returned from AI.');
+<div class="pc2">
+  <div class="ph2">
+    <div>
+      <div class="pn">Colorado State University — Ecosystem Science &amp; Sustainability / GDPE</div>
+      <div class="pl">Fort Collins, CO &middot; MS or PhD — multiple departments</div>
+    </div>
+    <span class="badge ms">Top recommendation</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Wetland remote sensing</span>
+    <span class="fit-pill">Water governance</span>
+    <span class="fit-pill">Landscape ecology</span>
+    <span class="fit-pill">40–50 active assistantships/semester</span>
+  </div>
+  <div class="pb2">CSU maintains 40–50 active graduate assistantships per semester across Ecosystem Science, Ecology, and related departments. The Landscape Modeling Lab (wetland remote sensing, Prairie Pothole Region) and Water, Environment &amp; Society Group are both strong Erin fits. For Fall 2027 entry, Erin should contact faculty in August–September 2026 and apply by December 1, 2026 (GDPE) or February 1, 2027 (ESS).</div>
+  <div class="slinks">
+    <a class="sl2" href="https://warnercnr.colostate.edu/ess/graduate-programs/graduate-research-opportunities/">&#128269; CSU active grad opportunities</a>
+    <a class="sl2" href="https://ecology.colostate.edu/assistantships/">&#128269; CSU Ecology (GDPE) assistantships</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>Fall 2027 deadlines</h4>
+    <div class="detail-row"><span class="detail-label">GDPE (Ecology)</span>December 1, 2026 for full funding consideration</div>
+    <div class="detail-row"><span class="detail-label">Ecosystem Science &amp; Sustainability</span>February 1, 2027 preferred for full funding</div>
+    <div class="detail-row"><span class="detail-label">GRE required</span>No (most programs)</div>
+    <div class="detail-row"><span class="detail-label">Stipend</span>Competitive; full tuition + fees + health insurance beginning 2025–26</div>
+    <h4>Key labs to target</h4>
+    <p><strong style="font-weight:500">Landscape Modeling Lab</strong> — wetland dynamics, remote sensing, Prairie Pothole Region fieldwork. Vegetation, water, near-surface sensors. Field team leadership valued.</p>
+    <p><strong style="font-weight:500">Water, Environment &amp; Society Group</strong> — water governance, groundwater sustainability, climate adaptation. Environmental justice background (ENVH 493) is a differentiator.</p>
+    <p><strong style="font-weight:500">Fish, Wildlife &amp; Conservation Biology (Koons Lab)</strong> — population ecology, waterfowl, quantitative methods. Strong GPA + wildlife coursework required.</p>
+    <div class="contact-block">Start at CSU grad opportunities page: <a href="https://warnercnr.colostate.edu/ess/graduate-programs/graduate-research-opportunities/">warnercnr.colostate.edu</a>. Email lab PIs directly with statement of purpose addressing field experience and Pigeon River research.</div>
+  </div>
+</div>
 
-    document.getElementById('result-area').innerHTML = html;
-    document.getElementById('result-area').style.display = 'block';
-    document.getElementById('loader').style.display = 'none';
+<hr>
+<div class="slabel">Additional programs to watch</div>
 
-  } catch (err) {
-    document.getElementById('loader').style.display = 'none';
-    document.getElementById('error-msg').textContent = err.message || 'Unknown error. Please try again.';
-    document.getElementById('error-area').style.display = 'block';
-  }
-}
+<div class="pc2">
+  <div class="ph2">
+    <div>
+      <div class="pn">University of Minnesota — Water Resources Science Program</div>
+      <div class="pl">St. Paul, MN &middot; MS Water Resources Science (interdisciplinary)</div>
+    </div>
+    <span class="badge mw">Watch for</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Hydrology &amp; water quality</span>
+    <span class="fit-pill">Interdisciplinary MS</span>
+    <span class="fit-pill">Faculty-funded RAs</span>
+  </div>
+  <div class="pb2">UMN's Water Resources Science program is fully interdisciplinary — students are placed with a faculty advisor across any department (ecology, civil engineering, soil science, etc.). All admitted students are fully funded by their faculty advisor via RA or TA. Applications for Fall 2026 opened mid-September 2025 with a December 1 priority deadline. Fall 2027 applications will follow the same pattern — watch for September 2026 opening.</div>
+  <div class="slinks">
+    <a class="sl2" href="https://wrs.umn.edu/prospective-students">&#128269; UMN Water Resources Science admissions</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <div class="detail-row"><span class="detail-label">Fall 2027 apps open</span>~mid-September 2026 (based on prior cycle)</div>
+    <div class="detail-row"><span class="detail-label">Priority deadline</span>December 1, 2026 (expected)</div>
+    <div class="detail-row"><span class="detail-label">Funding</span>All thesis students funded — RA or TA + tuition waiver + subsidized health insurance</div>
+    <div class="detail-row"><span class="detail-label">GPA minimum</span>3.0+ (Erin's 3.731 is competitive)</div>
+    <div class="detail-row"><span class="detail-label">GRE required</span>Not required</div>
+    <div class="contact-block">Contact faculty directly before applying: <a href="https://wrs.umn.edu/prospective-students/faculty">wrs.umn.edu/prospective-students/faculty</a>. Mention water quality and contaminant transport background (GEOL 423, ENVH 310) and Pigeon River research.</div>
+  </div>
+</div>
 
-loadResults();
+<div class="pc2">
+  <div class="ph2">
+    <div>
+      <div class="pn">SUNY College of Environmental Science &amp; Forestry (ESF) — Waterfowl &amp; Wetlands MPS</div>
+      <div class="pl">Syracuse, NY &middot; Master of Professional Studies — Ecological Restoration</div>
+    </div>
+    <span class="badge mg">Good fit</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Wetland management</span>
+    <span class="fit-pill">Waterfowl ecology</span>
+    <span class="fit-pill">Wetland delineation training</span>
+    <span class="fit-pill">Ducks Unlimited partnership</span>
+  </div>
+  <div class="pb2">SUNY ESF's MPS in Ecological Restoration with Waterfowl &amp; Wetlands Focus is actively accepting applications for Fall 2026 and Spring 2027 (up to 3 students). A scholarship covering in-state tuition for one semester is offered to the highest-ranked applicant. The program includes Ducks Unlimited wetland delineation training and intensive Wetlands Monitoring and Assessment field courses — a direct continuation of Erin's GEOL 455 Army Corps delineation work.</div>
+  <div class="slinks">
+    <a class="sl2" href="https://careers.wildlife.org/jobs/industry/Ecology/">&#128269; SUNY ESF Waterfowl &amp; Wetlands MPS listing (Wildlife Society)</a>
+    <a class="sl2" href="https://www.esf.edu/graduate/">&#128269; SUNY ESF Graduate Admissions</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>Program details</h4>
+    <p>This MPS is a professional degree (not thesis-based) emphasizing applied skills: wetland delineation (with Ducks Unlimited staff), waterfowl ecology, habitat restoration, and USFWS field experience. Includes a summer internship. Accepts up to 3 students for Fall 2026 and Spring 2027 — still open as of May 2026.</p>
+    <div class="detail-row"><span class="detail-label">Status</span>Currently accepting applications for Fall 2026 and Spring 2027</div>
+    <div class="detail-row"><span class="detail-label">Scholarship</span>In-state tuition scholarship for highest-ranked applicant</div>
+    <div class="detail-row"><span class="detail-label">Application</span>Send letter of interest, resume, unofficial transcripts to program director</div>
+    <div class="detail-row"><span class="detail-label">Contact</span>Dr. Michael L. Schummer — contact via SUNY ESF website</div>
+    <div class="contact-block">Send letter of interest, resume, and unofficial transcripts to Dr. Michael Schummer via SUNY ESF. Emphasize GEOL 455 Army Corps delineation training, NRM 479 field work, and Pigeon River capstone.</div>
+  </div>
+</div>
+
+<hr>
+<div class="slabel">General search resources — Fall 2027 cycle</div>
+<div class="card">
+  <a class="rl" href="https://ecophys-jobs.org/grad.html">&#128269;&nbsp; ecophys-jobs.org — aggregated ecology &amp; environmental grad positions (updated regularly)</a>
+  <a class="rl" href="https://jobs.rwfm.tamu.edu/">&#128269;&nbsp; Texas A&amp;M Natural Resources Job Board — graduate assistantship listings</a>
+  <a class="rl" href="https://jobs.fisheries.org/q-graduate-research-assistant-jobs.html">&#128269;&nbsp; American Fisheries Society Career Center — graduate positions</a>
+  <a class="rl" href="https://careers.wildlife.org/jobs">&#128269;&nbsp; The Wildlife Society Career Center — wildlife MS/PhD positions</a>
+  <a class="rl" href="https://www.google.com/search?q=funded+MS+research+assistantship+wetlands+water+quality+fall+2027+applications+open">&#128269;&nbsp; Search: funded MS wetlands/water quality fall 2027</a>
+  <a class="rl" href="https://www.google.com/search?q=wildlife+ecology+mammalogy+MS+research+assistantship+fall+2027+southeastern+US+Colorado">&#128269;&nbsp; Search: wildlife ecology MS fall 2027 Southeast/Colorado</a>
+  <a class="rl" href="https://www.google.com/search?q=Hurricane+Helene+forest+recovery+ecology+funded+MS+PhD+research+assistantship+2027">&#128269;&nbsp; Search: Hurricane Helene recovery ecology MS/PhD 2027</a>
+</div>
+
+<div class="tip">&#128197;&nbsp; <strong style="font-weight:500;color:var(--t1)">Summer 2026 action items:</strong> Start emailing faculty in August–September 2026 before applications open. Verify Fall 2027 deadlines directly with each department in October 2026 — deadlines shift year to year. Programs on ecophys-jobs.org and the Wildlife Society Career Center begin posting Fall 2027 openings in September–October 2026.</div>
+
+<p class="footer">Research conducted May 2026. Verify all deadlines and funding details directly with each department — they change annually. "Next cycle" means Fall 2027 entry with applications opening fall 2026.<br><br><a href="erin_programs.html" style="color:#185fa5">&#8592; Back to graduate programs</a>&nbsp;&nbsp;<a href="index.html" style="color:#185fa5">&#8592; Home</a></p>
+</div>
+<script>
+function toggleMore(btn){var p=btn.nextElementSibling;var o=p.classList.toggle('open');btn.textContent=o?'− Less info':'+ More info'}
 </script>
 </body>
 </html>

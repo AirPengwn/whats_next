@@ -6,8 +6,8 @@
 <title>Erin Lamberton — Next Cycle: Service &amp; Fellowships</title>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{--bg:#fff;--bg2:#f5f5f3;--bg3:#eeede8;--t1:#1a1a18;--t2:#5f5e5a;--t3:#888780;--bd:rgba(0,0,0,0.12);--bds:rgba(0,0,0,0.22);--r1:8px;--r2:12px;--fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;--accent:#5dcaa5;--accent-bg:#e1f5ee;--accent-text:#0f6e56}
-@media(prefers-color-scheme:dark){:root{--bg:#1e1e1c;--bg2:#2a2a28;--bg3:#333330;--t1:#f0ede6;--t2:#b4b2a9;--t3:#888780;--bd:rgba(255,255,255,0.1);--bds:rgba(255,255,255,0.2);--accent-bg:#085041;--accent-text:#9fe1cb}}
+:root{--bg:#fff;--bg2:#f5f5f3;--bg3:#eeede8;--t1:#1a1a18;--t2:#5f5e5a;--t3:#888780;--bd:rgba(0,0,0,0.12);--bds:rgba(0,0,0,0.22);--r1:8px;--r2:12px;--fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+@media(prefers-color-scheme:dark){:root{--bg:#1e1e1c;--bg2:#2a2a28;--bg3:#333330;--t1:#f0ede6;--t2:#b4b2a9;--t3:#888780;--bd:rgba(255,255,255,0.1);--bds:rgba(255,255,255,0.2)}}
 body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:2rem 1rem}
 .page{max-width:720px;margin:0 auto}
 .top-nav{display:flex;align-items:center;gap:12px;margin-bottom:1.75rem}
@@ -17,45 +17,45 @@ body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6
 .slabel{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin-bottom:.75rem}
 .card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1.25rem;margin-bottom:1rem}
 hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
-.tip{border-left:3px solid var(--accent);background:var(--bg2);padding:.85rem 1rem;margin-bottom:1rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
-.context-banner{background:var(--accent-bg);border:1.5px solid var(--accent);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:1.5rem;font-size:13px;color:var(--t2);line-height:1.6}
-.context-banner strong{color:var(--accent-text);font-weight:500}
-.loader{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:4rem 2rem;gap:1.25rem}
-.spinner{width:36px;height:36px;border:3px solid var(--bd);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite}
-@keyframes spin{to{transform:rotate(360deg)}}
-.loader-text{font-size:13px;color:var(--t3);text-align:center;max-width:300px;line-height:1.6}
-.loader-label{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-bottom:.25rem}
-#result-area{display:none}
-.error-card{background:var(--bg);border:1.5px solid #ef9f27;border-radius:var(--r2);padding:1.25rem;margin-bottom:1rem}
-.error-card .etitle{font-size:14px;font-weight:500;color:var(--t1);margin-bottom:.4rem}
-.error-card .ebody{font-size:13px;color:var(--t2);line-height:1.6;margin-bottom:.75rem}
-.retry-btn{font-size:13px;font-weight:500;padding:6px 18px;border-radius:999px;border:1.5px solid var(--accent);background:transparent;color:var(--accent-text);cursor:pointer;font-family:var(--fn)}
-.retry-btn:hover{background:var(--accent-bg)}
+.tip{border-left:3px solid #5dcaa5;background:var(--bg2);padding:.85rem 1rem;margin-bottom:1rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
+.tip-warn{border-left-color:#ef9f27}
+.context-banner{background:#e1f5ee;border:1.5px solid #5dcaa5;border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:1.5rem;font-size:13px;color:var(--t2);line-height:1.6}
+.context-banner strong{color:#0f6e56;font-weight:500}
+@media(prefers-color-scheme:dark){.context-banner{background:#085041;border-color:#5dcaa5}.context-banner strong{color:#9fe1cb}}
 .pos-card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:.85rem}
-.pos-card.hot{border:2px solid var(--accent)}
-.pos-card.featured{border:2px solid #185fa5}
+.pos-card.hot{border:2px solid #5dcaa5}
+.pos-card.closed{opacity:.75;border-style:dashed}
 .pos-header{display:flex;align-items:flex-start;justify-content:space-between;gap:.75rem;margin-bottom:.35rem}
 .pos-title{font-size:14px;font-weight:500;color:var(--t1);line-height:1.4}
 .pos-org{font-size:12px;color:var(--t3);margin-bottom:.5rem}
 .pos-body{font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.65rem}
 .badge{font-size:11px;font-weight:500;padding:3px 9px;border-radius:999px;white-space:nowrap;flex-shrink:0}
-.b-open{background:#e1f5ee;color:#0f6e56}
-.b-watch{background:#faeeda;color:#854f0b}
-.b-new{background:#eeedfe;color:#534ab7}
-@media(prefers-color-scheme:dark){.b-open{background:#085041;color:#9fe1cb}.b-watch{background:#633806;color:#fac775}.b-new{background:#3c3489;color:#cecdfa}}
+.b-open{background:#e1f5ee;color:#0f6e56}.b-rolling{background:#e6f1fb;color:#185fa5}.b-check{background:#faeeda;color:#854f0b}.b-ref{background:var(--bg2);color:var(--t3)}
+@media(prefers-color-scheme:dark){.b-open{background:#085041;color:#9fe1cb}.b-rolling{background:#0c447c;color:#b5d4f4}.b-check{background:#633806;color:#fac775}}
 .fit-pills{margin-bottom:.65rem;display:flex;flex-wrap:wrap;gap:4px}
 .fit-pill{display:inline-block;font-size:11px;font-weight:500;padding:3px 9px;border-radius:999px;background:#e6f1fb;color:#185fa5}
 @media(prefers-color-scheme:dark){.fit-pill{background:#0c447c;color:#b5d4f4}}
-.meta-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 12px;margin-bottom:.65rem;font-size:12px;color:var(--t2)}
+.meta-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 12px;margin-bottom:.65rem}
+.meta-item{font-size:12px;color:var(--t2)}
 .meta-label{font-weight:500;color:var(--t1)}
-.detail-row{font-size:13px;color:var(--t2);padding:5px 0;border-bottom:.5px solid var(--bd);display:flex;gap:8px}
+.pos-links{display:flex;flex-wrap:wrap;gap:4px}
+.pos-link{display:inline-flex;align-items:center;gap:5px;font-size:12px;color:#185fa5;text-decoration:none;padding:3px 0;margin-right:.75rem}
+.pos-link:hover{text-decoration:underline}
+.more-btn{font-size:12px;font-weight:500;padding:4px 13px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn);display:inline-flex;align-items:center;gap:5px;margin-top:.4rem}
+.more-btn:hover{background:var(--bg2);color:var(--t1)}
+.more-panel{display:none;margin-top:.85rem;padding-top:.85rem;border-top:.5px solid var(--bd)}
+.more-panel.open{display:block}
+.more-panel h4{font-size:12px;font-weight:500;color:var(--t3);text-transform:uppercase;letter-spacing:.05em;margin-bottom:.4rem;margin-top:.75rem}
+.more-panel h4:first-child{margin-top:0}
+.more-panel p{font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.5rem}
+.detail-row{font-size:13px;color:var(--t2);padding:4px 0;border-bottom:.5px solid var(--bd);display:flex;gap:8px}
 .detail-row:last-child{border-bottom:none}
 .detail-label{font-weight:500;color:var(--t1);min-width:130px;flex-shrink:0}
-.pos-link{display:inline-flex;align-items:center;gap:5px;font-size:12px;color:#185fa5;text-decoration:none;margin-right:.75rem}
-.pos-link:hover{text-decoration:underline}
 .contact-block{background:var(--bg2);border-radius:var(--r1);padding:.65rem .85rem;margin-top:.5rem;font-size:13px;color:var(--t2);line-height:1.6}
 .contact-block a{color:#185fa5;text-decoration:none}
-.section-label{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin:1.5rem 0 .75rem;display:block}
+.rl{display:block;font-size:13px;color:#185fa5;text-decoration:none;padding:7px 0;border-bottom:.5px solid var(--bd)}
+.rl:last-child{border-bottom:none}
+.rl:hover{text-decoration:underline}
 .footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
 @media(max-width:520px){.pos-header{flex-direction:column;align-items:flex-start}.meta-grid{grid-template-columns:1fr}}
 </style>
@@ -65,139 +65,287 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
 
 <div class="top-nav">
   <a href="erin_service.html" class="back-btn">&#8592; Service &amp; fellowships</a>
-  <span class="pg-title">Next cycle &mdash; service &amp; fellowships</span>
+  <span class="pg-title">Next cycle — service &amp; fellowships</span>
 </div>
 
 <div class="context-banner">
-  <strong>🔄 Forward-looking search</strong> &mdash; Erin is applying during <strong>summer 2026</strong> and available from <strong>August or September 2026</strong>. She has already completed one AmeriCorps NCCC term. This page identifies <strong>fall 2026 and 2026–27</strong> AmeriCorps Individual Placements, conservation corps positions, and fellowship cycles that open applications in summer or fall 2026 — matched to her environmental science and field skills.
+  <strong>&#128260; Fall 2026 &amp; 2026–27 cycle</strong> &mdash; Erin is available from <strong>August–September 2026</strong> and has already completed one AmeriCorps NCCC term. This page focuses on <strong>fall 2026 and 2026–27 AmeriCorps Individual Placements</strong> that match her technical field skills, plus fellowships she should watch for. Corps positions post continuously — the boards below update in real time.
 </div>
 
-<div id="loader" class="loader">
-  <div class="spinner"></div>
-  <div>
-    <div class="loader-label">Finding next cycle positions</div>
-    <div class="loader-text">Identifying fall 2026 and 2026–27 AmeriCorps Individual Placements, conservation corps positions, and environmental fellowships matched to Erin's wetland, wildlife, water quality, and GIS background&hellip;</div>
-  </div>
-</div>
+<div class="tip">&#128204;&nbsp; <strong style="font-weight:500;color:var(--t1)">Prior AmeriCorps NCCC advantage:</strong> Having one term gives Erin credibility on applications and makes her competitive for Individual Placement (IP) positions, which typically want candidates who understand the corps structure. She can now do up to 4 total AmeriCorps terms and accumulate Segal Education Awards for each. A 1,200-hour IP term earns ~$7,395 in Segal awards — and qualifies her for <strong>Public Lands Corps Hiring Authority</strong>, a direct non-competitive federal employment pathway.</div>
 
-<div id="error-area" style="display:none">
-  <div class="error-card">
-    <div class="etitle">Couldn't load next-cycle results</div>
-    <div class="ebody" id="error-msg">Something went wrong generating results. Check your connection and try again.</div>
-    <button class="retry-btn" onclick="loadResults()">Try again</button>
-  </div>
-</div>
+<hr>
+<div class="slabel">AmeriCorps IPs — aquatic &amp; wetland focus</div>
 
-<div id="result-area"></div>
-
-<div class="footer">
-  Results generated by AI based on Erin's profile. AmeriCorps and corps positions open and close rapidly — verify all listings directly before applying.<br><br>
-  <a href="erin_service.html" style="color:#185fa5">&#8592; Back to service &amp; fellowships</a>&nbsp;&nbsp;
-  <a href="index.html" style="color:#185fa5">&#8592; Home</a>
-</div>
-
-</div>
-
-<script>
-const PROFILE = `
-Candidate: Erin Lamberton
-Degree: BS Environmental Science, Western Carolina University, Magna Cum Laude, May 2025
-GPA: 3.731. Age: 28 (born Dec 1997) — within AmeriCorps age windows (typically 18–30 or 18–35 for veterans).
-
-Service history: One full AmeriCorps NCCC term completed. Understands the stipend/corps lifestyle. Hurricane Helene disaster relief volunteer in the Pigeon River Basin.
-
-Core skills matched to service/corps roles: Wetland delineation (Army Corps Manual, GEOL 455), water quality monitoring & sampling (ENVH 310, GEOL 423), environmental toxicology (ENVH 375), mammalogy field work (NRM 479 — trapping, tagging, camera traps), wildlife surveys (NRM 330), ArcGIS / QGIS / geospatial analysis (two courses), contaminated site assessment (Pigeon River Basin lead contamination capstone), plant identification, erosion control, soil profiles.
-
-Public Lands Corps hiring authority: Eligible upon completion of qualifying service — a key benefit for federal career pathway.
-
-Available to start: August or September 2026. CANNOT start before then.
-
-Target positions: AmeriCorps Individual Placements (IPs) with federal agencies (BLM, USFS, NPS, USFWS, USGS, Army Corps) or environmental nonprofits. Fall 2026–spring 2027 terms. Also interested in longer terms (1,200 hours, full year) that provide larger Segal Education Awards and stronger federal hiring pathways.
-
-Also interested in: Environmental fellowships (EPA GRO, USDA fellowships, conservation foundations), bridge year programs that could strengthen a graduate school application.
-
-Geographic preference: Southeast US or Colorado / Mountain West. Open to other regions for the right opportunity.
-
-She is NOT interested in purely crew-based trail work — she wants IP placements that use her field science and technical skills directly.
-`;
-
-const SYSTEM_PROMPT = `You are a service and fellowship advisor helping a recent environmental science graduate with one prior AmeriCorps term find the best-fit next service opportunity for fall 2026 and beyond. You write structured, scannable HTML using specific CSS classes. Reference real programs and real corps organizations. For positions that recur annually, note the typical recruitment timeline and what to watch for. Emphasize positions that build toward either a federal career pathway (Public Lands Corps authority) or strengthen graduate school applications.`;
-
-const USER_PROMPT = `Based on the candidate profile below, identify 7–10 AmeriCorps Individual Placements, conservation corps positions, and environmental fellowships she should target for fall 2026 or 2026–27 cycle start, given an August/September 2026 availability date.
-
-She cannot start anything before August 2026. Do NOT recommend summer 2026 positions.
-
-She has one prior AmeriCorps NCCC term — she is experienced with the corps model and should be prioritized for IP (Individual Placement) positions over crew work.
-
-Output valid HTML only — no markdown, no preamble. Use these exact CSS classes:
-
-<h3 class="section-label">Section heading (e.g. "AmeriCorps Individual Placements — Fall 2026")</h3>
-<div class="pos-card hot"> (hot for strongest fits)
+<div class="pos-card hot">
   <div class="pos-header">
     <div>
-      <div class="pos-title">Corps Program / Agency — Position Title</div>
-      <div class="pos-org">Location · Term type</div>
+      <div class="pos-title">BLM Wetlands &amp; Wildlife Technician — Individual Placement (2026–27 cycle)</div>
+      <div class="pos-org">Southwest Conservation Corps / Bureau of Land Management &middot; San Luis Valley Field Office &middot; Monte Vista, CO</div>
     </div>
-    <span class="badge b-open">Fall 2026</span> (or b-watch, b-new)
+    <span class="badge b-check">Watch — 2026–27 version expected</span>
   </div>
   <div class="fit-pills">
-    <span class="fit-pill">Skill match</span>
+    <span class="fit-pill">Wetland delineation &amp; monitoring</span>
+    <span class="fit-pill">Water quality</span>
+    <span class="fit-pill">GIS &amp; data analysis</span>
+    <span class="fit-pill">Wildlife surveys</span>
+    <span class="fit-pill">Colorado-based</span>
   </div>
-  <div class="pos-body">2–3 sentences: what the role involves, why it fits Erin's specific skills, and what federal agency or partner she'd work with.</div>
+  <div class="pos-body">This is the closest AmeriCorps IP match for Erin's full skill set — verified active for the 2025–26 cycle (May–September 2026, now closed). The 2026 version served with the BLM San Luis Valley Field Office managing 22,000+ acres of ecologically significant wetland and wildlife habitat in Colorado. Duties included: wetland well monitoring (47 wells), water quality sampling, wildlife species surveys with GIS data analysis, invasive bullfrog trapping, Land Health Assessments, and wildlife-friendly fence construction. This position recurs annually — watch SCC Individual Placements in July–September 2026 for the 2026–27 version.</div>
   <div class="meta-grid">
-    <div><span class="meta-label">Term:</span> Hours / months</div>
-    <div><span class="meta-label">Living allowance:</span> Approximate rate</div>
-    <div><span class="meta-label">Education award:</span> Segal award amount</div>
-    <div><span class="meta-label">Special benefit:</span> PLC hiring authority / housing / other</div>
+    <div class="meta-item"><span class="meta-label">2026–27 apps open:</span> Watch July–September 2026</div>
+    <div class="meta-item"><span class="meta-label">Typical term:</span> ~450–900 hours, May–Sept or year-round version</div>
+    <div class="meta-item"><span class="meta-label">Living allowance:</span> ~$1,000/week bi-weekly (2025–26 rate)</div>
+    <div class="meta-item"><span class="meta-label">Education award:</span> ~$1,956–$7,395 depending on hours</div>
+    <div class="meta-item"><span class="meta-label">Age requirement:</span> 18–30 (35 for veterans)</div>
+    <div class="meta-item"><span class="meta-label">Driver's license:</span> Required (3+ years)</div>
   </div>
-  <div class="contact-block">Where to watch for postings or apply — specific job board URLs or organization names.</div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://www.southwestconservationcorps.org/individual-placements">&#128269; SCC Individual Placements — watch for 2026–27 version</a>
+    <a class="pos-link" href="https://jobs.fire-up.net/jobs?q=wetlands+wildlife+BLM">&#128269; FireUp: BLM wetlands/wildlife AmeriCorps</a>
+    <a class="pos-link" href="mailto:nantonio@conservationlegacy.org">&#9993; Niki Antonio, Conservation Legacy — nantonio@conservationlegacy.org</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>2025–26 position duties (for reference)</h4>
+    <p>Wetland monitoring and management including irrigation infrastructure; well readings at 47 wetland wells in the San Luis Valley; water quality monitoring; species surveys with biologists including GIS data analysis; invasive American bullfrog trapping; post-fire/thinning monitoring; Land Health Assessments; wildlife-friendly fence repair and construction. This is exactly Erin's combined skill set.</p>
+    <div class="detail-row"><span class="detail-label">When to watch</span>SCC IP postings for fall/winter starts typically appear July–September on scc.org and jobs.fire-up.net</div>
+    <div class="detail-row"><span class="detail-label">PLC benefit</span>Any BLM position through Stewards/SCC provides Public Lands Corps Hiring Authority upon completion — a non-competitive federal employment pathway</div>
+    <div class="contact-block">Monitor: <a href="https://www.southwestconservationcorps.org/individual-placements">southwestconservationcorps.org/individual-placements</a> and <a href="https://jobs.fire-up.net">jobs.fire-up.net</a> from July 2026 onward. Contact Niki Antonio at Conservation Legacy to ask about fall 2026 BLM wetland IP availability.</div>
+  </div>
 </div>
 
-Group by: AmeriCorps IPs with federal land management agencies · Aquatic/wetland-focused placements · Wildlife & GIS-focused placements · Fellowships & bridge programs
+<div class="pos-card hot">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">Stewards Individual Placements — GIS Mapping, Species Inventory &amp; Land Management</div>
+      <div class="pos-org">Conservation Legacy / Stewards &middot; BLM, USFS, NPS, USFWS — multiple locations</div>
+    </div>
+    <span class="badge b-rolling">Rolling — new positions year-round</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">GIS mapping</span>
+    <span class="fit-pill">Species inventory</span>
+    <span class="fit-pill">Invasive species management</span>
+    <span class="fit-pill">Federal land management</span>
+    <span class="fit-pill">PLC hiring authority</span>
+  </div>
+  <div class="pos-body">Stewards (Conservation Legacy's IP program) places AmeriCorps members with federal agencies across the country for 10-week to 1-year terms. Members work on GIS mapping, inventory assessments, species surveys, invasive species removal, and water resources work. New positions post continuously. This is the broadest pipeline for Erin — she can filter for wetland, aquatic, wildlife, or GIS positions with federal agency partners. Completion provides Public Lands Corps Hiring Authority for non-competitive federal employment.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">Term lengths:</span> 10 weeks to 1 year</div>
+    <div class="meta-item"><span class="meta-label">Compensation:</span> Stipend (varies by position) + Segal education award</div>
+    <div class="meta-item"><span class="meta-label">Locations:</span> Nationwide; filter by region and focus area</div>
+    <div class="meta-item"><span class="meta-label">PLC benefit:</span> Qualifies on 1,200-hour terms with federal agencies</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://stewardslegacy.org/open-positions">&#128269; Stewards open positions (apply here — updates daily)</a>
+    <a class="pos-link" href="https://stewardslegacy.org/JOIN">&#128269; Stewards program overview</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>How to search effectively</h4>
+    <p>Go to stewardslegacy.org/open-positions and filter by: water resources, wetlands, wildlife biology, GIS, environmental science. Look for positions with BLM, USFS, NPS, and USFWS as agency partners — these provide the strongest PLC hiring authority pathways. For fall 2026 start, new positions will post in July–August 2026.</p>
+    <p>Also search the BIA WaterCorps program through Stewards — placed with USFWS Water Resources Division on tribal lands, aquatic and water resource focus, remote-eligible options in AZ, NM, OK, TX.</p>
+    <div class="detail-row"><span class="detail-label">GIS-specific</span>Stewards currently has GIS Cultural Resources and GIS Cartography positions with NPS — direct fit for NRM 344 Applied GIS background</div>
+    <div class="detail-row"><span class="detail-label">Geoscientists in Forests</span>USFS/Stewards program — 2026 cycle now closed, but watch for 2027 cycle opening January 2027</div>
+    <div class="contact-block">Apply: <a href="https://stewardslegacy.org/open-positions">stewardslegacy.org/open-positions</a> — positions reviewed on rolling basis; apply early.</div>
+  </div>
+</div>
 
-End with a <div class="tip"> with 2–3 sentences on the strategic value of a second service term for her specific situation (building toward grad school, PLC hiring authority, Segal education award).
+<hr>
+<div class="slabel">AmeriCorps IPs — wildlife &amp; Appalachian focus</div>
 
-Candidate profile:
-${PROFILE}`;
+<div class="pos-card">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">Biological Science Technician IP — Cherokee &amp; Pisgah National Forests</div>
+      <div class="pos-org">Southeast Conservation Corps / US Forest Service &middot; Eastern TN / Western NC</div>
+    </div>
+    <span class="badge b-check">Verify — SECC posts year-round</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Aquatic resource monitoring</span>
+    <span class="fit-pill">Stream restoration</span>
+    <span class="fit-pill">Electrofishing &amp; macroinvertebrates</span>
+    <span class="fit-pill">Appalachian region</span>
+    <span class="fit-pill">USFS experience</span>
+  </div>
+  <div class="pos-body">Southeast Conservation Corps regularly places AmeriCorps members with US Forest Service fisheries and wildlife teams in Cherokee National Forest (TN) and Pisgah National Forest (NC) — the exact landscape of Erin's Hurricane Helene research. Duties include aquatic resource monitoring, stream restoration, electrofishing, macroinvertebrate surveys, and freshwater snorkeling. This is a direct follow-on to her GEOL 423 (Contaminated Rivers) and ENVH 310 (Water Quality) coursework in the same geography.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">Region:</span> Cherokee NF (TN), Pisgah NF (NC)</div>
+    <div class="meta-item"><span class="meta-label">Agency partner:</span> USDA Forest Service, Fisheries team</div>
+    <div class="meta-item"><span class="meta-label">Term:</span> Varies; 675–1,200 hours</div>
+    <div class="meta-item"><span class="meta-label">Compensation:</span> Living allowance + Segal education award</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://southeastconservationcorps.org/individual-placements">&#128269; SECC Individual Placements</a>
+    <a class="pos-link" href="https://southeastconservationcorps.org/apply">&#128269; Apply to SECC</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>Why this is strategically strong</h4>
+    <p>A SECC IP in Pisgah NF or Cherokee NF builds directly on Erin's WCU field experience and Pigeon River research. USFS contacts made during service are exactly the kind of professional network that leads to graduate school advisor relationships — Dr. Tara Keyser (USDA Forest Service Southern Research Station, co-advisor on the NC State Hurricane Helene MS position) works in this region. An SECC placement here could facilitate a direct introduction.</p>
+    <div class="detail-row"><span class="detail-label">How to apply</span>Browse SECC's IP board for positions with USFS fisheries/wildlife teams; filter for Appalachian region</div>
+    <div class="contact-block">Browse and apply: <a href="https://southeastconservationcorps.org/individual-placements">southeastconservationcorps.org/individual-placements</a></div>
+  </div>
+</div>
 
-async function loadResults() {
-  document.getElementById('loader').style.display = 'flex';
-  document.getElementById('error-area').style.display = 'none';
-  document.getElementById('result-area').style.display = 'none';
+<div class="pos-card">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">Wildlife Monitoring IP — Wichita Mountains Wildlife Refuge (2026 cycle)</div>
+      <div class="pos-org">American Youthworks / USFWS &middot; Fort Sill / Lawton, OK</div>
+    </div>
+    <span class="badge b-check">Verify — Jan 2026 deadline passed, watch for 2026–27</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Endangered species monitoring</span>
+    <span class="fit-pill">Wildlife surveys</span>
+    <span class="fit-pill">USFWS experience</span>
+    <span class="fit-pill">Bat surveys</span>
+    <span class="fit-pill">Habitat restoration</span>
+  </div>
+  <div class="pos-body">American Youthworks places AmeriCorps members at the Wichita Mountains Wildlife Refuge and Fort Sill through the ARTES (At Risk, Threatened, and Endangered Species) Program — monitoring tricolored bat, monarch butterfly, black-capped vireo, and northern bobwhite quail. The 2026 cycle (March 2 – Nov 6) had a January 25 deadline; the 2026–27 version will follow a similar timeline. 1,200-hour term provides full Segal education award (~$7,395). $600/week living allowance + $225/week housing stipend.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">2026–27 apps open:</span> ~November–December 2026</div>
+    <div class="meta-item"><span class="meta-label">Term:</span> 1,200 hours (~9 months)</div>
+    <div class="meta-item"><span class="meta-label">Living allowance:</span> $600/week</div>
+    <div class="meta-item"><span class="meta-label">Housing stipend:</span> $225/week</div>
+    <div class="meta-item"><span class="meta-label">Education award:</span> ~$7,395 (full 1,200-hr Segal)</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://americanyouthworks.org/what-we-do/cc/open-positions">&#128269; American Youthworks open positions</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>Why the full 1,200-hour term matters</h4>
+    <p>A 1,200-hour AmeriCorps term earns the full Segal Education Award (~$7,395 in 2025–26) and qualifies for Public Lands Corps Hiring Authority. The housing stipend reduces cost-of-living burden significantly. Erin's NRM 479 (Mammalogy) — including bat identification and small mammal trapping — directly matches the tricolored bat and small mammal monitoring duties here.</p>
+    <div class="detail-row"><span class="detail-label">Watch for 2026–27</span>Monitor americanyouthworks.org from November 2026; apply by January 2027 for March 2027 start</div>
+  </div>
+</div>
 
-  try {
-    const response = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        model: 'claude-sonnet-4-20250514',
-        max_tokens: 1000,
-        system: SYSTEM_PROMPT,
-        messages: [{ role: 'user', content: USER_PROMPT }]
-      })
-    });
+<hr>
+<div class="slabel">Fellowships &amp; bridge programs — 2026–27</div>
 
-    if (!response.ok) {
-      const err = await response.json().catch(() => ({}));
-      throw new Error(err.error?.message || `HTTP ${response.status}`);
-    }
+<div class="pos-card">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">EPA Greater Research Opportunities (GRO) Fellowship</div>
+      <div class="pos-org">US Environmental Protection Agency &middot; Nationwide + EPA facility summer internship</div>
+    </div>
+    <span class="badge b-check">Watch — falls open annually in fall</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Tuition + stipend coverage</span>
+    <span class="fit-pill">Paid EPA summer internship</span>
+    <span class="fit-pill">Environmental health focus</span>
+    <span class="fit-pill">Graduate school bridge</span>
+  </div>
+  <div class="pos-body">The EPA GRO Fellowship covers tuition and provides a stipend for students in environmental careers, including a paid summer internship at an EPA facility. Designed for undergraduate seniors and graduate students pursuing degrees in environmentally-related fields. If Erin enrolls in a graduate program for Fall 2027, she could apply for GRO in fall 2026 for the 2027–28 cycle. Strong profile match: her toxicology, epidemiology, and water quality background directly aligns with EPA's environmental health research focus.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">Apps open:</span> Typically fall annually</div>
+    <div class="meta-item"><span class="meta-label">Award:</span> Tuition coverage + stipend + summer internship</div>
+    <div class="meta-item"><span class="meta-label">Eligibility:</span> Enrolled grad student or enrolled senior entering grad</div>
+    <div class="meta-item"><span class="meta-label">Check:</span> epa.gov/careers in August–September 2026</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://www.epa.gov/careers/gro-fellowships">&#128269; EPA GRO Fellowship</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>How to position Erin's application</h4>
+    <p>Lead with ENVH 375 (Environmental Toxicology, A+), HSCC 472 (Epidemiology, A+), GEOL 423 (Contaminated Rivers), and the Pigeon River lead contamination capstone. These four credentials are a direct match for EPA's environmental health research focus. The environmental justice coursework (ENVH 493, Appalachian context) is an additional differentiator.</p>
+    <div class="detail-row"><span class="detail-label">Timing</span>Apply fall 2026 if enrolled in or admitted to a graduate program for Fall 2027</div>
+  </div>
+</div>
 
-    const data = await response.json();
-    const html = data.content?.find(b => b.type === 'text')?.text || '';
-    if (!html.trim()) throw new Error('No content returned from AI.');
+<div class="pos-card">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">USDA Forest Service Pathways Recent Graduate Program</div>
+      <div class="pos-org">USDA Forest Service &middot; Multiple offices, SE and Mountain West</div>
+    </div>
+    <span class="badge b-rolling">Rolling — posted on USAJobs</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Permanent federal pathway</span>
+    <span class="fit-pill">Biological science / GIS</span>
+    <span class="fit-pill">1-year developmental program</span>
+    <span class="fit-pill">Converts to permanent</span>
+  </div>
+  <div class="pos-body">The USDA Forest Service Pathways Recent Graduate Program places graduates within the past 2 years in 1-year developmental positions that convert to permanent federal employment. Biological science, hydrology, GIS, and natural resources positions are available. Erin graduated May 2025 — eligible through May 2027. This is a direct federal career pathway without the competitive hurdle of the standard hiring process. Search USAJobs for "Pathways Recent Graduate USDA Forest Service" filtered by biological science or natural resources series.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">Eligibility:</span> Graduated within last 2 years (Erin: eligible through May 2027)</div>
+    <div class="meta-item"><span class="meta-label">Duration:</span> 1 year, convertible to permanent</div>
+    <div class="meta-item"><span class="meta-label">Pay:</span> GS-07 to GS-09 typically</div>
+    <div class="meta-item"><span class="meta-label">Post:</span> Year-round on USAJobs</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://www.usajobs.gov/Search/Results?hp=rg&k=environmental+science+biological&a=FS">&#128269; USAJobs: USDA Forest Service Recent Graduate</a>
+    <a class="pos-link" href="https://www.fs.usda.gov/working-with-us/jobs/pathways">&#128269; USDA FS Pathways program overview</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>Best USFS positions for Erin</h4>
+    <p>Target: Pisgah National Forest (NC), Nantahala National Forest (NC), Cherokee National Forest (TN), and Pike-San Isabel National Forests (CO). These are the forests where Erin's WCU field experience and Hurricane Helene research are most directly applicable. Series: GS-0401 (Biologist), GS-0408 (Ecology), GS-1301 (Physical Science), GS-1350 (Geology).</p>
+    <div class="detail-row"><span class="detail-label">Key credential</span>GEOL 455 Army Corps Wetland Delineation Manual training — directly applicable to USFS land management decisions</div>
+    <div class="contact-block">Search: <a href="https://www.usajobs.gov/Search/Results?hp=rg&a=FS">usajobs.gov — USDA FS Pathways Recent Graduate</a></div>
+  </div>
+</div>
 
-    document.getElementById('result-area').innerHTML = html;
-    document.getElementById('result-area').style.display = 'block';
-    document.getElementById('loader').style.display = 'none';
+<div class="pos-card">
+  <div class="pos-header">
+    <div>
+      <div class="pos-title">Smithsonian Environmental Research Center — Research Technician</div>
+      <div class="pos-org">Smithsonian Environmental Research Center &middot; Edgewater, MD (Chesapeake Bay)</div>
+    </div>
+    <span class="badge b-check">Verify — watch SERC careers</span>
+  </div>
+  <div class="fit-pills">
+    <span class="fit-pill">Coastal ecosystem research</span>
+    <span class="fit-pill">Wetland biogeochemistry</span>
+    <span class="fit-pill">Long-term experiments</span>
+    <span class="fit-pill">Global Change Ecology</span>
+  </div>
+  <div class="pos-body">SERC's Global Change Ecology and Biogeochemistry Labs recruit research technicians for coastal ecosystem and wetland response research (~$46k/yr, 6-month to 1-year appointments). Current and recent openings have focused on root and rhizome processing from long-term wetland experiments — field and lab work aligned with Erin's soil and water quality background. Strong technical credentialing for graduate school. Watch SERC careers and ecophys-jobs.org for upcoming fall 2026 postings.</div>
+  <div class="meta-grid">
+    <div class="meta-item"><span class="meta-label">Pay:</span> ~$46,000/yr (recent posting rate)</div>
+    <div class="meta-item"><span class="meta-label">Location:</span> Edgewater, MD (Chesapeake Bay)</div>
+    <div class="meta-item"><span class="meta-label">Term:</span> 6 months to 1 year typically</div>
+    <div class="meta-item"><span class="meta-label">Watch:</span> SERC careers + ecophys-jobs.org/temp.html</div>
+  </div>
+  <div class="pos-links">
+    <a class="pos-link" href="https://serc.si.edu/about-serc/careers">&#128269; SERC Careers page</a>
+    <a class="pos-link" href="https://ecophys-jobs.org/temp.html">&#128269; ecophys-jobs.org seasonal/temp (watch for posting)</a>
+  </div>
+  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
+  <div class="more-panel">
+    <h4>Why it matters for grad school</h4>
+    <p>A year as a research technician at a major research institution like SERC with a peer-reviewed publication or conference presentation is one of the strongest possible graduate school application boosters. SERC has active relationships with major graduate programs (Maryland, Virginia, JHU). Technicians often get co-authorship on papers and strong recommendation letters from PI researchers.</p>
+    <div class="detail-row"><span class="detail-label">Field skills match</span>Soil sampling, root/rhizome processing, wetland experiment maintenance, water sampling — all in Erin's GEOL 455 and ENVH 310 toolkit</div>
+  </div>
+</div>
 
-  } catch (err) {
-    document.getElementById('loader').style.display = 'none';
-    document.getElementById('error-msg').textContent = err.message || 'Unknown error. Please try again.';
-    document.getElementById('error-area').style.display = 'block';
-  }
-}
+<hr>
+<div class="slabel">Find more AmeriCorps positions — active boards</div>
+<div class="card">
+  <a class="rl" href="https://stewardslegacy.org/open-positions">&#128269;&nbsp; Stewards Individual Placements — GIS, species inventory, water resources, land management</a>
+  <a class="rl" href="https://www.southwestconservationcorps.org/individual-placements">&#128269;&nbsp; Southwest Conservation Corps — Colorado &amp; Mountain West IPs</a>
+  <a class="rl" href="https://southeastconservationcorps.org/individual-placements">&#128269;&nbsp; Southeast Conservation Corps — Appalachian &amp; southeastern IPs</a>
+  <a class="rl" href="https://americanyouthworks.org/what-we-do/cc/open-positions">&#128269;&nbsp; American Youthworks — wildlife monitoring IPs (Wichita Mtns etc.)</a>
+  <a class="rl" href="https://jobs.fire-up.net/jobs?q=wetlands+water+wildlife">&#128269;&nbsp; FireUp Job Board — conservation corps &amp; AmeriCorps positions</a>
+  <a class="rl" href="https://corpsnetwork.org/jobs-at-corps/">&#128269;&nbsp; The Corps Network — all conservation corps positions</a>
+  <a class="rl" href="https://my.americorps.gov/mp/listing/publicSearch.do">&#128269;&nbsp; AmeriCorps official position search</a>
+  <a class="rl" href="https://www.google.com/search?q=AmeriCorps+individual+placement+wetlands+water+quality+GIS+wildlife+fall+2026+open">&#128269;&nbsp; Search: AmeriCorps IP wetlands/water quality/GIS/wildlife fall 2026</a>
+</div>
 
-loadResults();
+<div class="tip">&#127891;&nbsp; <strong style="font-weight:500;color:var(--t1)">Strategic value of a second service term:</strong> A 1,200-hour AmeriCorps IP with a federal agency earns the full Segal Education Award (~$7,395) and — critically — the <strong>Public Lands Corps Hiring Authority</strong>, allowing non-competitive conversion to a permanent federal position. Combined with Erin's prior NCCC term, this builds a profile that federal hiring managers recognize immediately. The professional network and field credentials from a targeted IP also directly strengthen Fall 2027 graduate school applications.</div>
+
+<p class="footer">Research conducted May 2026. AmeriCorps positions open and close rapidly — verify all listings directly before applying. Education award amounts subject to annual adjustment by AmeriCorps.<br><br><a href="erin_service.html" style="color:#185fa5">&#8592; Back to service &amp; fellowships</a>&nbsp;&nbsp;<a href="index.html" style="color:#185fa5">&#8592; Home</a></p>
+</div>
+<script>
+function toggleMore(btn){var p=btn.nextElementSibling;var o=p.classList.toggle('open');btn.textContent=o?'− Less info':'+ More info'}
 </script>
 </body>
 </html>
