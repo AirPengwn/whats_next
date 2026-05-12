@@ -119,6 +119,11 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
     <div class="nav-title">Service &amp; fellowships</div>
     <div class="nav-desc">AmeriCorps, conservation corps, environmental fellowships, and bridge year programs</div>
   </a>
+  <a href="erin_mylist.html" class="nav-btn" id="mylist-nav" style="border:2px solid #5dcaa5">
+    <span class="nav-icon">&#9733;</span>
+    <div class="nav-title">My opportunity list <span id="home-count" style="font-size:11px;font-weight:500;padding:2px 7px;border-radius:999px;background:#e1f5ee;color:#0f6e56;margin-left:4px"></span></div>
+    <div class="nav-desc">Your saved opportunities from all pages — deadlines, notes, and links in one place</div>
+  </a>
   <a href="erin_outreach.html" class="nav-btn">
     <span class="nav-icon">&#9997;&#65039;</span>
     <div class="nav-title">Statement of purpose &amp; outreach emails</div>
@@ -136,5 +141,16 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
 
 <p class="footer">Resource guide compiled May 2026. Information should be verified directly with each institution or program.</p>
 </div>
+
+<script>
+(function(){
+  try{
+    var map = JSON.parse(localStorage.getItem('erin_mylist_v1')||'{}');
+    var n = Object.keys(map).length;
+    var el = document.getElementById('home-count');
+    if(el && n>0) el.textContent = n;
+  }catch(e){}
+})();
+</script>
 </body>
 </html>
