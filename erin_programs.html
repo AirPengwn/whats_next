@@ -633,6 +633,8 @@ function toggleMore(btn){
 
 
 
+
+
 <style>
 .ml-save-btn{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:500;padding:5px 14px;border-radius:999px;border:1.5px solid #5dcaa5;background:transparent;color:#0f6e56;cursor:pointer;font-family:inherit;margin-top:.6rem;transition:background .12s,color .12s}
 .ml-save-btn:hover{background:#e1f5ee}
@@ -641,16 +643,31 @@ function toggleMore(btn){
 </style>
 <script>
 (function(){
-var BIN_KEY='erin_mylist_v1',JID='erin_jsonbin_id',JKEY='erin_jsonbin_key';
-function cfg(){return{binId:localStorage.getItem(JID)||'',apiKey:localStorage.getItem(JKEY)||''};}
-function getSaved(){try{return JSON.parse(localStorage.getItem(BIN_KEY)||'{}')}catch(e){return{}}}
-function setSaved(m){localStorage.setItem(BIN_KEY,JSON.stringify(m))}
-function isSaved(id){return!!getSaved()[id]}
-function pushCloud(m){var c=cfg();if(!c.binId||!c.apiKey)return;fetch('https://api.jsonbin.io/v3/b/'+c.binId,{method:'PUT',headers:{'Content-Type':'application/json','X-Master-Key':c.apiKey,'X-Bin-Versioning':'false'},body:JSON.stringify({items:m})}).catch(function(){});}
-function updateButtons(){document.querySelectorAll('.ml-save-btn').forEach(function(b){var id=b.getAttribute('data-id');if(isSaved(id)){b.classList.add('saved');b.innerHTML='&#10003; Saved';}else{b.classList.remove('saved');b.innerHTML='&#9734; Save to My List';}});}
-window.ML={isSaved:isSaved,update:updateButtons,save:function(d){var m=getSaved();m[d.id]=d;setSaved(m);pushCloud(m);updateButtons();},remove:function(id){var m=getSaved();delete m[id];setSaved(m);pushCloud(m);updateButtons();}};
+var BIN_ID='6a039aa4250b1311c33f2bac',API_KEY='$2a$10$K3cs5QSanWaMbYnDSL8E8OL54rW7ls2p47niW3DCMMJrqATEmhLFq',STORE='erin_mylist_v1';
+function getSaved(){try{return JSON.parse(localStorage.getItem(STORE)||'{}')}catch(e){return{}}}
+function setSaved(m){localStorage.setItem(STORE,JSON.stringify(m));}
+function isSaved(id){return!!getSaved()[id];}
+function push(m){
+  fetch('https://api.jsonbin.io/v3/b/'+BIN_ID,{
+    method:'PUT',
+    headers:{'Content-Type':'application/json','X-Master-Key':API_KEY,'X-Bin-Versioning':'false'},
+    body:JSON.stringify({items:m})
+  }).catch(function(){});
+}
+window.ML={
+  isSaved:isSaved,
+  update:function(){
+    document.querySelectorAll('.ml-save-btn').forEach(function(b){
+      var id=b.getAttribute('data-id');
+      if(isSaved(id)){b.classList.add('saved');b.innerHTML='&#10003; Saved';}
+      else{b.classList.remove('saved');b.innerHTML='&#9734; Save to My List';}
+    });
+  },
+  save:function(d){var m=getSaved();m[d.id]=d;setSaved(m);push(m);ML.update();},
+  remove:function(id){var m=getSaved();delete m[id];setSaved(m);push(m);ML.update();}
+};
 document.addEventListener('DOMContentLoaded',function(){
-  updateButtons();
+  ML.update();
   document.querySelectorAll('.ml-save-btn').forEach(function(b){
     b.addEventListener('click',function(){
       var id=b.getAttribute('data-id');
