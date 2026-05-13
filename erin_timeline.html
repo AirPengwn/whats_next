@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Erin Lamberton &#8212; Deadline Timeline</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#fff;--bg2:#f5f5f3;--bg3:#eeede8;--t1:#1a1a18;--t2:#5f5e5a;--t3:#888780;--bd:rgba(0,0,0,0.12);--bds:rgba(0,0,0,0.22);--r1:8px;--r2:12px;--fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;--teal:#5dcaa5;--teal-bg:#e1f5ee;--teal-t:#0f6e56;--blue:#185fa5;--blue-bg:#e6f1fb;--amber-bg:#faeeda;--amber-t:#854f0b}
+@media(prefers-color-scheme:dark){:root{--bg:#1e1e1c;--bg2:#2a2a28;--bg3:#333330;--t1:#f0ede6;--t2:#b4b2a9;--t3:#888780;--bd:rgba(255,255,255,0.1);--bds:rgba(255,255,255,0.2);--teal-bg:#085041;--teal-t:#9fe1cb;--blue-bg:#0c447c;--amber-bg:#633806;--amber-t:#fac775}}
+body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:2rem 1rem}
+.page{max-width:720px;margin:0 auto}
+hr{border:none;border-top:.5px solid var(--bd);margin:1.5rem 0}
+a{color:var(--blue);text-decoration:none}
+a:hover{text-decoration:underline}
+.top-nav{display:flex;align-items:center;gap:10px;margin-bottom:1.5rem;flex-wrap:wrap}
+.back-btn{font-size:13px;padding:5px 14px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t2);text-decoration:none}
+.back-btn:hover{background:var(--bg2)}
+.pg-title{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3)}
+.slabel{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin-bottom:.6rem}
+.card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1.1rem 1.25rem;margin-bottom:.75rem}
+.tip{border-left:3px solid var(--teal);background:var(--bg2);padding:.75rem 1rem;margin-bottom:1.1rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
+.empty{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:2.5rem;text-align:center}
+.empty-icon{font-size:32px;margin-bottom:.65rem}
+.empty-title{font-size:15px;font-weight:500;margin-bottom:.35rem}
+.empty-body{font-size:13px;color:var(--t2);line-height:1.65}
+.footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
+
+.tl-banner{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:1.1rem;display:flex;align-items:center;justify-content:space-between;gap:.75rem;flex-wrap:wrap}
+.tl-banner-title{font-size:18px;font-weight:500}
+.tl-banner-sub{font-size:13px;color:var(--t2)}
+.month-group{margin-bottom:1.5rem}
+.month-header{display:flex;align-items:center;gap:.75rem;margin-bottom:.65rem}
+.month-dot{width:12px;height:12px;border-radius:50%;flex-shrink:0}
+.dot-urgent{background:#c0392b}
+.dot-soon{background:#ef9f27}
+.dot-ok{background:var(--teal)}
+.dot-future{background:var(--t3)}
+.dot-none{background:var(--bds)}
+.month-name{font-size:15px;font-weight:500;color:var(--t1)}
+.month-count{font-size:12px;color:var(--t3);margin-left:4px}
+.tl-card{background:var(--bg);border-left:3px solid var(--bd);border-radius:0 var(--r1) var(--r1) 0;padding:.75rem 1rem;margin-bottom:.5rem;display:flex;align-items:flex-start;gap:.85rem}
+.tl-card.urgent{border-left-color:#c0392b}
+.tl-card.soon{border-left-color:#ef9f27}
+.tl-card.ok{border-left-color:var(--teal)}
+.tl-card.future{border-left-color:var(--bds)}
+.tl-icon{font-size:16px;flex-shrink:0;margin-top:1px}
+.tl-main{flex:1;min-width:0}
+.tl-title{font-size:13px;font-weight:500;color:var(--t1);line-height:1.4;margin-bottom:2px}
+.tl-org{font-size:12px;color:var(--t3);margin-bottom:3px}
+.tl-deadline{font-size:12px;color:var(--t2)}
+.tl-deadline strong{font-weight:500;color:var(--t1)}
+.tl-badge{font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px;white-space:nowrap;flex-shrink:0;margin-top:2px}
+.badge-urgent{background:#faece7;color:#993c1d}
+.badge-soon{background:var(--amber-bg);color:var(--amber-t)}
+.badge-ok{background:var(--teal-bg);color:var(--teal-t)}
+.badge-future{background:var(--bg2);color:var(--t3)}
+@media(prefers-color-scheme:dark){.badge-urgent{background:#712b13;color:#f5c4b3}}
+.type-pill{font-size:11px;font-weight:500;padding:2px 7px;border-radius:999px;display:inline-block}
+.tp-grad{background:var(--teal-bg);color:var(--teal-t)}
+.tp-intern{background:var(--blue-bg);color:var(--blue)}
+.tp-job{background:#eeedfe;color:#534ab7}
+.tp-service{background:var(--amber-bg);color:var(--amber-t)}
+@media(prefers-color-scheme:dark){.tp-job{background:#3c3489;color:#cecdfa}}
+.action-section{background:var(--bg2);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:1rem}
+.action-title{font-size:13px;font-weight:500;color:var(--t1);margin-bottom:.5rem}
+.action-item{font-size:13px;color:var(--t2);padding:4px 0;display:flex;gap:6px;align-items:baseline}
+.action-bullet{color:var(--teal);font-weight:700;flex-shrink:0}
+.no-date-card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r1);padding:.65rem 1rem;margin-bottom:.4rem;font-size:13px;color:var(--t2)}
+.no-date-title{font-weight:500;color:var(--t1);font-size:13px}
+
+</style>
+</head>
+<body>
+<div class="page">
+<div class="top-nav">
+  <a href="erin_mylist.html" class="back-btn">&#8592; My List</a>
+  <span class="pg-title">Deadline Timeline</span>
+</div>
+
+<div class="tl-banner">
+  <div>
+    <div class="tl-banner-title">&#128197; Deadline Timeline</div>
+    <div class="tl-banner-sub" id="tl-count">Loading&#8230;</div>
+  </div>
+  <div style="font-size:12px;color:var(--t3);text-align:right">Pulled from your saved list<br>Updates automatically</div>
+</div>
+<div class="tip">&#128204;&nbsp; Deadlines are parsed from your saved items. Items marked <em>rolling</em> or without a clear date are grouped separately. Always verify deadlines directly with the program or employer.</div>
+<div id="tl-body"></div>
+
+<p class="footer">Data drawn from your saved opportunities in My List.<br><br>
+<a href="erin_mylist.html">&#8592; My List</a>&nbsp;&nbsp;<a href="index.html">&#8592; Home</a></p>
+</div>
+<script>
+
+var BIN='6a039aa4250b1311c33f2bac',KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa',STORE='erin_mylist_v1';
+function load(){try{return JSON.parse(localStorage.getItem(STORE)||'{}')}catch(e){return {}}}
+function getSavedItems(){var m=load();return Object.values(m).filter(function(it){return!it._done||true});}
+
+
+function typeCls(t){
+  if(!t) return 'tp-service';
+  if(t.indexOf('Graduate')>-1) return 'tp-grad';
+  if(t.indexOf('Internship')>-1) return 'tp-intern';
+  if(t.indexOf('Career')>-1) return 'tp-job';
+  return 'tp-service';
+}
+function typeIcon(t){
+  if(!t) return '&#127807;';
+  if(t.indexOf('Graduate')>-1) return '&#127979;';
+  if(t.indexOf('Internship')>-1) return '&#128203;';
+  if(t.indexOf('Career')>-1) return '&#128188;';
+  return '&#127807;';
+}
+
+// Parse a deadline string into a rough Date
+// Looks for month names and years, returns null if unparseable
+function parseDeadline(dl){
+  if(!dl) return null;
+  var s = dl.toLowerCase();
+  // skip "rolling", "year-round", "verify" etc.
+  if(/rolling|year.round|verify|watch|tbd|passed|varies|posted/i.test(s)) return null;
+
+  var months = ['january','february','march','april','may','june','july','august','september','october','november','december'];
+  var shortM = ['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec'];
+
+  var year = null, month = null, day = 1;
+
+  // find year
+  var ym = s.match(/20(2[5-9]|3\d)/);
+  if(ym) year = parseInt(ym[0]);
+
+  // find month
+  for(var i=0;i<months.length;i++){
+    if(s.indexOf(months[i])>-1 || s.indexOf(shortM[i])>-1){ month=i; break; }
+  }
+  // numeric month (e.g. "12-05-2026")
+  if(month===null){
+    var nm = s.match(/(\d{1,2})[-\/](\d{1,2})[-\/](\d{4})/);
+    if(nm){ month=parseInt(nm[1])-1; day=parseInt(nm[2]); year=parseInt(nm[3]); }
+  }
+  // find day number
+  var dm = s.match(/(\d{1,2})(st|nd|rd|th)?/);
+  if(dm && month!==null) day=parseInt(dm[1]);
+
+  if(month===null) return null;
+  if(year===null) year = 2026; // default assumption
+  return new Date(year, month, day);
+}
+
+var MONTH_NAMES = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+
+function urgencyClass(d){
+  if(!d) return 'future';
+  var now = new Date();
+  var diff = (d - now) / (1000*60*60*24);
+  if(diff < 0)   return 'passed';
+  if(diff < 30)  return 'urgent';
+  if(diff < 90)  return 'soon';
+  if(diff < 180) return 'ok';
+  return 'future';
+}
+
+function render(){
+  var items = getSavedItems();
+  var body = document.getElementById('tl-body');
+  body.innerHTML = '';
+
+  document.getElementById('tl-count').textContent = items.length + ' saved item' + (items.length===1?'':'s');
+
+  if(!items.length){
+    body.innerHTML = '<div class="empty"><div class="empty-icon">&#128197;</div><div class="empty-title">No saved items yet</div><div class="empty-body">Save opportunities from any page to see them here on a timeline.</div></div>';
+    return;
+  }
+
+  // Parse dates and separate into dated / undated / rolling
+  var dated=[], rolling=[], nodates=[];
+  items.forEach(function(it){
+    var dl = it.deadline||'';
+    if(/rolling|year.round/i.test(dl)){
+      rolling.push(it);
+    } else {
+      var d = parseDeadline(dl);
+      if(d){ dated.push({item:it, date:d}); }
+      else { nodates.push(it); }
+    }
+  });
+
+  // Sort dated by date
+  dated.sort(function(a,b){ return a.date-b.date; });
+
+  // Action items section (derived from timeline)
+  var now = new Date();
+  var urgent = dated.filter(function(x){ return urgencyClass(x.date)==='urgent'; });
+  var soon   = dated.filter(function(x){ return urgencyClass(x.date)==='soon'; });
+  if(urgent.length || soon.length){
+    var sec = document.createElement('div');
+    sec.className = 'action-section';
+    var at = document.createElement('div'); at.className='action-title'; at.textContent='Needs attention soon';
+    sec.appendChild(at);
+    urgent.concat(soon).slice(0,5).forEach(function(x){
+      var row = document.createElement('div'); row.className='action-item';
+      var bull = document.createElement('span'); bull.className='action-bullet'; bull.textContent='›'; row.appendChild(bull);
+      var txt = document.createElement('span');
+      txt.innerHTML = '<strong style="font-weight:500">'+x.item.title.split('—')[0].trim()+'</strong> — deadline '+x.item.deadline;
+      row.appendChild(txt);
+      sec.appendChild(row);
+    });
+    body.appendChild(sec);
+  }
+
+  // Group dated items by month+year
+  var groups = {}; // key: "YYYY-MM"
+  dated.forEach(function(x){
+    var k = x.date.getFullYear()+'-'+String(x.date.getMonth()).padStart(2,'0');
+    if(!groups[k]) groups[k]={year:x.date.getFullYear(),month:x.date.getMonth(),items:[]};
+    groups[k].items.push(x);
+  });
+
+  var keys = Object.keys(groups).sort();
+
+  if(keys.length){
+    var slbl = document.createElement('div'); slbl.className='slabel'; slbl.textContent='Deadline calendar'; body.appendChild(slbl);
+  }
+
+  keys.forEach(function(k){
+    var g = groups[k];
+    var urg = urgencyClass(g.items[0].date);
+    var dotCls = urg==='passed'?'dot-future': urg==='urgent'?'dot-urgent': urg==='soon'?'dot-soon': urg==='ok'?'dot-ok':'dot-future';
+
+    var monthDiv = document.createElement('div'); monthDiv.className='month-group';
+
+    var header = document.createElement('div'); header.className='month-header';
+    var dot = document.createElement('div'); dot.className='month-dot '+dotCls; header.appendChild(dot);
+    var mname = document.createElement('span'); mname.className='month-name';
+    mname.textContent = MONTH_NAMES[g.month]+' '+g.year; header.appendChild(mname);
+    var mc = document.createElement('span'); mc.className='month-count'; mc.textContent=g.items.length+' item'+(g.items.length>1?'s':''); header.appendChild(mc);
+    monthDiv.appendChild(header);
+
+    g.items.forEach(function(x){
+      var it=x.item, d=x.date;
+      var u = urgencyClass(d);
+      if(u==='passed') return; // skip past deadlines
+
+      var card = document.createElement('div');
+      card.className='tl-card '+u;
+
+      var icon = document.createElement('span'); icon.className='tl-icon'; icon.innerHTML=typeIcon(it.type); card.appendChild(icon);
+
+      var main = document.createElement('div'); main.className='tl-main';
+      var title = document.createElement('div'); title.className='tl-title';
+      var lnk = document.createElement('a'); lnk.href=it.src||'erin_mylist.html'; lnk.target='_blank'; lnk.textContent=it.title; title.appendChild(lnk);
+      main.appendChild(title);
+
+      var org = document.createElement('div'); org.className='tl-org'; org.textContent=it.org; main.appendChild(org);
+
+      var meta = document.createElement('div'); meta.className='tl-deadline';
+      meta.innerHTML='<strong>Deadline:</strong> '+it.deadline;
+      main.appendChild(meta);
+
+      var pills = document.createElement('div'); pills.style.cssText='display:flex;gap:4px;margin-top:4px;flex-wrap:wrap';
+      var tp = document.createElement('span'); tp.className='type-pill '+typeCls(it.type); tp.textContent=it.type; pills.appendChild(tp);
+      if(it.badge){ var bp=document.createElement('span'); bp.className='type-pill'; bp.style.cssText='background:var(--bg2);color:var(--t3)'; bp.textContent=it.badge; pills.appendChild(bp); }
+      main.appendChild(pills);
+
+      card.appendChild(main);
+
+      // urgency badge
+      if(u==='urgent'||u==='soon'){
+        var diff = Math.ceil((d-new Date())/(1000*60*60*24));
+        var badge = document.createElement('span');
+        badge.className='tl-badge badge-'+(u==='urgent'?'urgent':'soon');
+        badge.textContent = diff<=0?'Today':diff+'d';
+        card.appendChild(badge);
+      }
+
+      monthDiv.appendChild(card);
+    });
+    body.appendChild(monthDiv);
+  });
+
+  // Rolling / no deadline section
+  if(rolling.length){
+    var hr=document.createElement('hr'); body.appendChild(hr);
+    var slbl=document.createElement('div'); slbl.className='slabel'; slbl.textContent='Rolling / apply anytime'; body.appendChild(slbl);
+    rolling.forEach(function(it){
+      var c=document.createElement('div'); c.className='no-date-card';
+      var row=document.createElement('div'); row.style.cssText='display:flex;justify-content:space-between;align-items:flex-start;gap:.5rem';
+      var left=document.createElement('div');
+      var t=document.createElement('div'); t.className='no-date-title';
+      var lnk=document.createElement('a'); lnk.href=it.src||'erin_mylist.html'; lnk.target='_blank'; lnk.textContent=it.title; t.appendChild(lnk);
+      left.appendChild(t);
+      var o=document.createElement('div'); o.style.cssText='font-size:12px;color:var(--t3);margin-top:2px'; o.textContent=it.org; left.appendChild(o);
+      row.appendChild(left);
+      var tp=document.createElement('span'); tp.className='type-pill '+typeCls(it.type); tp.textContent=it.type; row.appendChild(tp);
+      c.appendChild(row);
+      body.appendChild(c);
+    });
+  }
+
+  if(nodates.length){
+    var hr2=document.createElement('hr'); body.appendChild(hr2);
+    var slbl2=document.createElement('div'); slbl2.className='slabel'; slbl2.textContent='No specific deadline — verify directly'; body.appendChild(slbl2);
+    nodates.forEach(function(it){
+      var c=document.createElement('div'); c.className='no-date-card';
+      var row=document.createElement('div'); row.style.cssText='display:flex;justify-content:space-between;align-items:flex-start;gap:.5rem';
+      var left=document.createElement('div');
+      var t=document.createElement('div'); t.className='no-date-title';
+      var lnk=document.createElement('a'); lnk.href=it.src||'erin_mylist.html'; lnk.target='_blank'; lnk.textContent=it.title; t.appendChild(lnk);
+      left.appendChild(t);
+      var o=document.createElement('div'); o.style.cssText='font-size:12px;color:var(--t3);margin-top:2px'; o.textContent=it.org; left.appendChild(o);
+      row.appendChild(left);
+      var tp=document.createElement('span'); tp.className='type-pill '+typeCls(it.type); tp.textContent=it.type; row.appendChild(tp);
+      c.appendChild(row);
+      body.appendChild(c);
+    });
+  }
+}
+
+render();
+
+</script>
+</body>
+</html>

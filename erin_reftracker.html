@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Erin Lamberton &#8212; Reference Letter Tracker</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#fff;--bg2:#f5f5f3;--bg3:#eeede8;--t1:#1a1a18;--t2:#5f5e5a;--t3:#888780;--bd:rgba(0,0,0,0.12);--bds:rgba(0,0,0,0.22);--r1:8px;--r2:12px;--fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;--teal:#5dcaa5;--teal-bg:#e1f5ee;--teal-t:#0f6e56;--blue:#185fa5;--blue-bg:#e6f1fb;--amber-bg:#faeeda;--amber-t:#854f0b}
+@media(prefers-color-scheme:dark){:root{--bg:#1e1e1c;--bg2:#2a2a28;--bg3:#333330;--t1:#f0ede6;--t2:#b4b2a9;--t3:#888780;--bd:rgba(255,255,255,0.1);--bds:rgba(255,255,255,0.2);--teal-bg:#085041;--teal-t:#9fe1cb;--blue-bg:#0c447c;--amber-bg:#633806;--amber-t:#fac775}}
+body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:2rem 1rem}
+.page{max-width:720px;margin:0 auto}
+hr{border:none;border-top:.5px solid var(--bd);margin:1.5rem 0}
+a{color:var(--blue);text-decoration:none}
+a:hover{text-decoration:underline}
+.top-nav{display:flex;align-items:center;gap:10px;margin-bottom:1.5rem;flex-wrap:wrap}
+.back-btn{font-size:13px;padding:5px 14px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t2);text-decoration:none}
+.back-btn:hover{background:var(--bg2)}
+.pg-title{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3)}
+.slabel{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin-bottom:.6rem}
+.card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1.1rem 1.25rem;margin-bottom:.75rem}
+.tip{border-left:3px solid var(--teal);background:var(--bg2);padding:.75rem 1rem;margin-bottom:1.1rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
+.empty{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:2.5rem;text-align:center}
+.empty-icon{font-size:32px;margin-bottom:.65rem}
+.empty-title{font-size:15px;font-weight:500;margin-bottom:.35rem}
+.empty-body{font-size:13px;color:var(--t2);line-height:1.65}
+.footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
+
+.ref-card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:.65rem}
+.ref-card.asked{border-left:3px solid var(--teal)}
+.ref-card.confirmed{border-left:3px solid #185fa5}
+.ref-card.submitted{border-left:3px solid #534ab7}
+.ref-header{display:flex;align-items:flex-start;justify-content:space-between;gap:.75rem;margin-bottom:.5rem;flex-wrap:wrap}
+.ref-name{font-size:15px;font-weight:500;color:var(--t1)}
+.ref-row{display:grid;grid-template-columns:1fr 1fr;gap:.5rem .75rem;margin-bottom:.6rem}
+@media(max-width:480px){.ref-row{grid-template-columns:1fr}}
+.ref-field{}
+.ref-lbl{font-size:11px;font-weight:500;color:var(--t3);text-transform:uppercase;letter-spacing:.05em;margin-bottom:3px}
+.ref-input{font-size:13px;padding:6px 10px;border-radius:var(--r1);border:1px solid var(--bds);background:var(--bg2);color:var(--t1);width:100%;font-family:var(--fn)}
+.ref-input:focus{outline:none;border-color:var(--teal)}
+.ref-select{font-size:13px;padding:6px 10px;border-radius:var(--r1);border:1px solid var(--bds);background:var(--bg2);color:var(--t1);width:100%;font-family:var(--fn);cursor:pointer}
+.ref-select:focus{outline:none;border-color:var(--teal)}
+.ref-ta{font-size:13px;padding:6px 10px;border-radius:var(--r1);border:1px solid var(--bds);background:var(--bg2);color:var(--t1);width:100%;font-family:var(--fn);resize:vertical;min-height:52px}
+.ref-ta:focus{outline:none;border-color:var(--teal)}
+.ref-actions{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin-top:.3rem}
+.save-btn{font-size:12px;font-weight:500;padding:4px 14px;border-radius:999px;border:none;background:var(--teal);color:#fff;cursor:pointer;font-family:var(--fn)}
+.del-btn{font-size:12px;color:var(--t3);background:none;border:none;cursor:pointer;padding:0;font-family:var(--fn);margin-left:auto}
+.del-btn:hover{color:#c0392b}
+.saved-flash{font-size:12px;color:var(--teal-t);display:none;font-weight:500}
+.status-pill{font-size:11px;font-weight:500;padding:2px 9px;border-radius:999px}
+.sp-pending{background:var(--bg2);color:var(--t3)}
+.sp-asked{background:var(--teal-bg);color:var(--teal-t)}
+.sp-confirmed{background:var(--blue-bg);color:var(--blue)}
+.sp-submitted{background:#eeedfe;color:#534ab7}
+.sp-declined{background:#faece7;color:#993c1d}
+@media(prefers-color-scheme:dark){.sp-submitted{background:#3c3489;color:#cecdfa}}
+.add-btn{display:flex;align-items:center;gap:.5rem;font-size:13px;font-weight:500;padding:8px 18px;border-radius:999px;border:1.5px solid var(--teal);background:transparent;color:var(--teal-t);cursor:pointer;font-family:var(--fn);margin-bottom:1rem}
+.add-btn:hover{background:var(--teal-bg)}
+.summary-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1.1rem}
+.sum-pill{font-size:12px;font-weight:500;padding:4px 12px;border-radius:999px;background:var(--bg);border:.5px solid var(--bd)}
+.deadline-list{margin-top:.5rem;padding:.6rem .85rem;background:var(--bg2);border-radius:var(--r1);font-size:12px;color:var(--t2);line-height:1.8}
+.deadline-list strong{font-weight:500;color:var(--t1)}
+
+</style>
+</head>
+<body>
+<div class="page">
+<div class="top-nav">
+  <a href="erin_mylist.html" class="back-btn">&#8592; My List</a>
+  <span class="pg-title">Reference Letters</span>
+</div>
+
+<div class="card" style="margin-bottom:1rem">
+  <div style="font-size:18px;font-weight:500;margin-bottom:3px">&#128393; Reference Letter Tracker</div>
+  <div style="font-size:13px;color:var(--t2)" id="ref-count">Loading&#8230;</div>
+</div>
+<div class="tip">&#9888;&nbsp; Most grad programs require <strong>2–3 letters</strong>. Federal positions often need 3. Ask well in advance — give recommenders at least 4–6 weeks. Send them your resume, SOP draft, a list of programs, and all deadlines.</div>
+<div class="summary-row" id="summary-row"></div>
+<div id="deadline-section" style="margin-bottom:1rem"></div>
+<button class="add-btn" onclick="addCard()">&#43; Add recommender</button>
+<div id="ref-body"></div>
+
+<p class="footer">Data drawn from your saved opportunities in My List.<br><br>
+<a href="erin_mylist.html">&#8592; My List</a>&nbsp;&nbsp;<a href="index.html">&#8592; Home</a></p>
+</div>
+<script>
+
+var BIN='6a039aa4250b1311c33f2bac',KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa',STORE='erin_mylist_v1';
+function load(){try{return JSON.parse(localStorage.getItem(STORE)||'{}')}catch(e){return {}}}
+function getSavedItems(){var m=load();return Object.values(m).filter(function(it){return!it._done||true});}
+
+
+var RSTORE = 'erin_ref_letters';
+
+function loadRefs(){ try{ return JSON.parse(localStorage.getItem(RSTORE)||'[]'); } catch(e){ return []; } }
+function saveRefs(arr){ localStorage.setItem(RSTORE,JSON.stringify(arr)); }
+
+function pushRefs(arr){
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+  .then(function(r){return r.json();})
+  .then(function(data){
+    var rec=data.record||{};
+    rec.refs=arr;
+    fetch('https://api.jsonbin.io/v3/b/'+BIN,{
+      method:'PUT',
+      headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},
+      body:JSON.stringify(rec)
+    });
+  }).catch(function(){});
+}
+
+function pullRefs(){
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+  .then(function(r){return r.json();})
+  .then(function(data){
+    if(data.record && data.record.refs){ saveRefs(data.record.refs); }
+    render();
+  }).catch(function(){ render(); });
+}
+
+function statusCls(s){
+  return {pending:'sp-pending',asked:'sp-asked',confirmed:'sp-confirmed',submitted:'sp-submitted',declined:'sp-declined'}[s]||'sp-pending';
+}
+function statusLbl(s){
+  return {pending:'Not yet asked',asked:'Asked',confirmed:'Confirmed yes',submitted:'Letter submitted',declined:'Declined'}[s]||'Not yet asked';
+}
+
+function saveCard(id){
+  var arr=loadRefs();
+  var idx=arr.findIndex(function(r){return r.id===id;});
+  if(idx<0) return;
+  arr[idx].name      = document.getElementById('rn-'+id).value;
+  arr[idx].title     = document.getElementById('rt-'+id).value;
+  arr[idx].email     = document.getElementById('re-'+id).value;
+  arr[idx].dateAsked = document.getElementById('rda-'+id).value;
+  arr[idx].status    = document.getElementById('rs-'+id).value;
+  arr[idx].materials = document.getElementById('rm-'+id).value;
+  arr[idx].notes     = document.getElementById('rno-'+id).value;
+  saveRefs(arr); pushRefs(arr);
+  var fl=document.getElementById('rfl-'+id); fl.style.display='inline'; setTimeout(function(){fl.style.display='none';},2000);
+  updateSummary();
+  updateCardClass(id,arr[idx].status);
+}
+
+function updateCardClass(id,status){
+  var card=document.getElementById('rcard-'+id);
+  if(!card) return;
+  card.className='ref-card'+(status&&status!=='pending'?' '+status:'');
+}
+
+function deleteCard(id){
+  if(!confirm('Remove this recommender?')) return;
+  saveRefs(loadRefs().filter(function(r){return r.id!==id;}));
+  render();
+}
+
+function addCard(){
+  var arr=loadRefs();
+  var id='r'+Date.now();
+  arr.push({id:id,name:'',title:'',email:'',dateAsked:'',status:'pending',materials:'',notes:''});
+  saveRefs(arr); render();
+  setTimeout(function(){ var el=document.getElementById('rcard-'+id); if(el)el.scrollIntoView({behavior:'smooth',block:'center'}); },100);
+}
+
+function updateSummary(){
+  var arr=loadRefs();
+  var counts={pending:0,asked:0,confirmed:0,submitted:0,declined:0};
+  arr.forEach(function(r){counts[r.status||'pending']++;});
+  var row=document.getElementById('summary-row'); row.innerHTML='';
+  var labels={confirmed:'Confirmed',submitted:'Submitted',asked:'Asked',pending:'Not asked yet',declined:'Declined'};
+  ['confirmed','submitted','asked','pending','declined'].forEach(function(k){
+    if(counts[k]>0){
+      var pill=document.createElement('span'); pill.className='sum-pill';
+      pill.textContent=counts[k]+' '+labels[k]; row.appendChild(pill);
+    }
+  });
+}
+
+function buildDeadlineList(){
+  // Pull saved grad program deadlines to show as reference
+  var items=getSavedItems().filter(function(it){ return it.type==='Graduate Program' && it.deadline && !/rolling|verify|tbd/i.test(it.deadline); });
+  if(!items.length) return null;
+  var div=document.createElement('div'); div.className='deadline-list';
+  div.innerHTML='<strong>Program deadlines (from your saved list)</strong><br>';
+  items.slice(0,8).forEach(function(it){
+    div.innerHTML+=it.title.split('—')[0].trim().slice(0,40)+'&#8230; &nbsp;<strong>'+it.deadline+'</strong><br>';
+  });
+  return div;
+}
+
+function render(){
+  var arr=loadRefs();
+  document.getElementById('ref-count').textContent=arr.length+' recommender'+(arr.length===1?'':'s')+' tracked';
+  updateSummary();
+
+  var dl=document.getElementById('deadline-section');
+  dl.innerHTML='';
+  var dlDiv=buildDeadlineList();
+  if(dlDiv) dl.appendChild(dlDiv);
+
+  var body=document.getElementById('ref-body'); body.innerHTML='';
+
+  if(!arr.length){
+    body.innerHTML='<div class="empty"><div class="empty-icon">&#128393;</div><div class="empty-title">No recommenders added yet</div><div class="empty-body">Click 'Add recommender' to start tracking. Most grad programs require 2–3 letters. Reach out early — faculty are busy.</div></div>';
+    return;
+  }
+
+  var order={confirmed:0,asked:1,submitted:2,pending:3,declined:4};
+  arr.sort(function(a,b){return (order[a.status||'pending']||3)-(order[b.status||'pending']||3);});
+
+  arr.forEach(function(r){
+    var card=document.createElement('div');
+    card.className='ref-card'+(r.status&&r.status!=='pending'?' '+r.status:'');
+    card.id='rcard-'+r.id;
+
+    var header=document.createElement('div'); header.className='ref-header';
+    var left=document.createElement('div');
+    var nm=document.createElement('div'); nm.className='ref-name'; nm.textContent=r.name||'New recommender'; left.appendChild(nm);
+    if(r.title){ var tl=document.createElement('div'); tl.style.cssText='font-size:12px;color:var(--t3)'; tl.textContent=r.title; left.appendChild(tl); }
+    header.appendChild(left);
+    var sp=document.createElement('span'); sp.className='status-pill '+statusCls(r.status||'pending'); sp.id='rsp-'+r.id; sp.textContent=statusLbl(r.status||'pending');
+    header.appendChild(sp);
+    card.appendChild(header);
+
+    var row=document.createElement('div'); row.className='ref-row';
+
+    function inp(lbl,id,val,type){
+      var f=document.createElement('div'); f.className='ref-field';
+      var l=document.createElement('div'); l.className='ref-lbl'; l.textContent=lbl; f.appendChild(l);
+      var i=document.createElement('input'); i.className='ref-input'; i.id=id; i.value=val||''; i.placeholder=lbl;
+      if(type==='date') i.type='date';
+      f.appendChild(i); return f;
+    }
+
+    row.appendChild(inp('Full name','rn-'+r.id,r.name));
+    row.appendChild(inp('Title / position','rt-'+r.id,r.title));
+    row.appendChild(inp('Email','re-'+r.id,r.email));
+    row.appendChild(inp('Date asked','rda-'+r.id,r.dateAsked,'date'));
+
+    var sf=document.createElement('div'); sf.className='ref-field';
+    var sl=document.createElement('div'); sl.className='ref-lbl'; sl.textContent='Status'; sf.appendChild(sl);
+    var sel=document.createElement('select'); sel.className='ref-select'; sel.id='rs-'+r.id;
+    [{v:'pending',l:'Not yet asked'},{v:'asked',l:'Asked'},{v:'confirmed',l:'Confirmed yes'},{v:'submitted',l:'Letter submitted'},{v:'declined',l:'Declined'}].forEach(function(o){
+      var opt=document.createElement('option'); opt.value=o.v; opt.textContent=o.l; if(r.status===o.v) opt.selected=true; sel.appendChild(opt);
+    });
+    sel.onchange=function(){ var s=sel.value; var spl=document.getElementById('rsp-'+r.id); spl.textContent=statusLbl(s); spl.className='status-pill '+statusCls(s); updateCardClass(r.id,s); };
+    sf.appendChild(sel); row.appendChild(sf);
+    card.appendChild(row);
+
+    function ta(lbl,id,val,ph){
+      var f=document.createElement('div'); f.className='ref-field'; f.style.marginBottom='.5rem';
+      var l=document.createElement('div'); l.className='ref-lbl'; l.textContent=lbl; f.appendChild(l);
+      var t=document.createElement('textarea'); t.className='ref-ta'; t.id=id; t.value=val||''; t.placeholder=ph||lbl; f.appendChild(t);
+      return f;
+    }
+    card.appendChild(ta('Materials sent to them','rm-'+r.id,r.materials,'Resume, SOP draft, program list, deadlines...'));
+    card.appendChild(ta('Notes','rno-'+r.id,r.notes,'Response status, follow-up needed, reminders...'));
+
+    var acts=document.createElement('div'); acts.className='ref-actions';
+    var sb=document.createElement('button'); sb.className='save-btn'; sb.textContent='Save';
+    sb.onclick=(function(rid){return function(){saveCard(rid);};})(r.id); acts.appendChild(sb);
+    var fl=document.createElement('span'); fl.className='saved-flash'; fl.id='rfl-'+r.id; fl.textContent='Saved ✓'; acts.appendChild(fl);
+    var db=document.createElement('button'); db.className='del-btn'; db.textContent='Remove';
+    db.onclick=(function(rid){return function(){deleteCard(rid);};})(r.id); acts.appendChild(db);
+    card.appendChild(acts);
+
+    body.appendChild(card);
+  });
+}
+
+pullRefs();
+
+</script>
+</body>
+</html>

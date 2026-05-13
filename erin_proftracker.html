@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Erin Lamberton &#8212; Professor Contact Tracker</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#fff;--bg2:#f5f5f3;--bg3:#eeede8;--t1:#1a1a18;--t2:#5f5e5a;--t3:#888780;--bd:rgba(0,0,0,0.12);--bds:rgba(0,0,0,0.22);--r1:8px;--r2:12px;--fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;--teal:#5dcaa5;--teal-bg:#e1f5ee;--teal-t:#0f6e56;--blue:#185fa5;--blue-bg:#e6f1fb;--amber-bg:#faeeda;--amber-t:#854f0b}
+@media(prefers-color-scheme:dark){:root{--bg:#1e1e1c;--bg2:#2a2a28;--bg3:#333330;--t1:#f0ede6;--t2:#b4b2a9;--t3:#888780;--bd:rgba(255,255,255,0.1);--bds:rgba(255,255,255,0.2);--teal-bg:#085041;--teal-t:#9fe1cb;--blue-bg:#0c447c;--amber-bg:#633806;--amber-t:#fac775}}
+body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:2rem 1rem}
+.page{max-width:720px;margin:0 auto}
+hr{border:none;border-top:.5px solid var(--bd);margin:1.5rem 0}
+a{color:var(--blue);text-decoration:none}
+a:hover{text-decoration:underline}
+.top-nav{display:flex;align-items:center;gap:10px;margin-bottom:1.5rem;flex-wrap:wrap}
+.back-btn{font-size:13px;padding:5px 14px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t2);text-decoration:none}
+.back-btn:hover{background:var(--bg2)}
+.pg-title{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3)}
+.slabel{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin-bottom:.6rem}
+.card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1.1rem 1.25rem;margin-bottom:.75rem}
+.tip{border-left:3px solid var(--teal);background:var(--bg2);padding:.75rem 1rem;margin-bottom:1.1rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
+.empty{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:2.5rem;text-align:center}
+.empty-icon{font-size:32px;margin-bottom:.65rem}
+.empty-title{font-size:15px;font-weight:500;margin-bottom:.35rem}
+.empty-body{font-size:13px;color:var(--t2);line-height:1.65}
+.footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
+
+.prof-store-key{display:none}
+.prof-card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:.65rem}
+.prof-card.contacted{border-left:3px solid var(--teal)}
+.prof-card.responded{border-left:3px solid #185fa5}
+.prof-card.pursuing{border-left:3px solid #ef9f27}
+.prof-header{display:flex;align-items:flex-start;justify-content:space-between;gap:.75rem;margin-bottom:.5rem;flex-wrap:wrap}
+.prof-title{font-size:14px;font-weight:500;color:var(--t1);line-height:1.4}
+.prof-org{font-size:12px;color:var(--t3);margin-bottom:.5rem}
+.prof-row{display:grid;grid-template-columns:1fr 1fr;gap:.5rem .75rem;margin-bottom:.6rem}
+@media(max-width:480px){.prof-row{grid-template-columns:1fr}}
+.prof-field{}
+.prof-lbl{font-size:11px;font-weight:500;color:var(--t3);text-transform:uppercase;letter-spacing:.05em;margin-bottom:3px}
+.prof-input{font-size:13px;padding:6px 10px;border-radius:var(--r1);border:1px solid var(--bds);background:var(--bg2);color:var(--t1);width:100%;font-family:var(--fn)}
+.prof-input:focus{outline:none;border-color:var(--teal)}
+.prof-select{font-size:13px;padding:6px 10px;border-radius:var(--r1);border:1px solid var(--bds);background:var(--bg2);color:var(--t1);width:100%;font-family:var(--fn);cursor:pointer}
+.prof-select:focus{outline:none;border-color:var(--teal)}
+.prof-ta{font-size:13px;padding:6px 10px;border-radius:var(--r1);border:1px solid var(--bds);background:var(--bg2);color:var(--t1);width:100%;font-family:var(--fn);resize:vertical;min-height:56px}
+.prof-ta:focus{outline:none;border-color:var(--teal)}
+.prof-actions{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin-top:.3rem}
+.save-btn{font-size:12px;font-weight:500;padding:4px 14px;border-radius:999px;border:none;background:var(--teal);color:#fff;cursor:pointer;font-family:var(--fn)}
+.del-btn{font-size:12px;color:var(--t3);background:none;border:none;cursor:pointer;padding:0;font-family:var(--fn);margin-left:auto}
+.del-btn:hover{color:#c0392b}
+.saved-flash{font-size:12px;color:var(--teal-t);display:none;font-weight:500}
+.status-pill{font-size:11px;font-weight:500;padding:2px 9px;border-radius:999px}
+.sp-none{background:var(--bg2);color:var(--t3)}
+.sp-contacted{background:var(--teal-bg);color:var(--teal-t)}
+.sp-responded{background:var(--blue-bg);color:var(--blue)}
+.sp-pursuing{background:var(--amber-bg);color:var(--amber-t)}
+.sp-notfit{background:#faece7;color:#993c1d}
+.add-btn{display:flex;align-items:center;gap:.5rem;font-size:13px;font-weight:500;padding:8px 18px;border-radius:999px;border:1.5px solid var(--teal);background:transparent;color:var(--teal-t);cursor:pointer;font-family:var(--fn);margin-bottom:1rem}
+.add-btn:hover{background:var(--teal-bg)}
+.summary-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1.1rem}
+.sum-pill{font-size:12px;font-weight:500;padding:4px 12px;border-radius:999px;background:var(--bg);border:.5px solid var(--bd)}
+
+</style>
+</head>
+<body>
+<div class="page">
+<div class="top-nav">
+  <a href="erin_mylist.html" class="back-btn">&#8592; My List</a>
+  <span class="pg-title">Professor Contacts</span>
+</div>
+
+<div class="card" style="margin-bottom:1rem">
+  <div style="font-size:18px;font-weight:500;margin-bottom:3px">&#128100; Professor Contact Tracker</div>
+  <div style="font-size:13px;color:var(--t2)" id="prof-count">Loading&#8230;</div>
+</div>
+<div class="tip">&#9997;&#65039;&nbsp; Populated from your saved <strong>graduate programs</strong> in My List. Track who you've emailed, when, and what happened. Direct professor outreach before applications open is the highest-leverage activity in grad school applications.</div>
+<div class="summary-row" id="summary-row"></div>
+<button class="add-btn" onclick="addCard('')">&#43; Add program manually</button>
+<div id="prof-body"></div>
+
+<p class="footer">Data drawn from your saved opportunities in My List.<br><br>
+<a href="erin_mylist.html">&#8592; My List</a>&nbsp;&nbsp;<a href="index.html">&#8592; Home</a></p>
+</div>
+<script>
+
+var BIN='6a039aa4250b1311c33f2bac',KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa',STORE='erin_mylist_v1';
+function load(){try{return JSON.parse(localStorage.getItem(STORE)||'{}')}catch(e){return {}}}
+function getSavedItems(){var m=load();return Object.values(m).filter(function(it){return!it._done||true});}
+
+
+var PSTORE = 'erin_prof_contacts';
+var PCSTORE = 'erin_prof_contacts_v1'; // separate from mylist
+
+function loadProfs(){ try{ return JSON.parse(localStorage.getItem(PSTORE)||'[]'); } catch(e){ return []; } }
+function saveProfs(arr){ localStorage.setItem(PSTORE,JSON.stringify(arr)); }
+
+function pushProfs(arr){
+  // Piggyback onto jsonbin - store profs separately in the same bin under a different key
+  // by fetching current bin, merging, and writing back
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+  .then(function(r){return r.json();})
+  .then(function(data){
+    var rec = data.record||{};
+    rec.profs = arr;
+    fetch('https://api.jsonbin.io/v3/b/'+BIN,{
+      method:'PUT',
+      headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},
+      body:JSON.stringify(rec)
+    });
+  }).catch(function(){});
+}
+
+function pullProfs(){
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+  .then(function(r){return r.json();})
+  .then(function(data){
+    if(data.record && data.record.profs){
+      saveProfs(data.record.profs);
+    }
+    render();
+  }).catch(function(){ render(); });
+}
+
+function statusPillClass(s){
+  return {none:'sp-none',contacted:'sp-contacted',responded:'sp-responded',pursuing:'sp-pursuing',notfit:'sp-notfit'}[s]||'sp-none';
+}
+function statusLabel(s){
+  return {none:'Not contacted',contacted:'Contacted',responded:'Responded',pursuing:'Pursuing',notfit:'Not a fit'}[s]||'Not contacted';
+}
+
+function saveCard(id){
+  var arr=loadProfs();
+  var idx=arr.findIndex(function(p){return p.id===id;});
+  if(idx<0) return;
+  arr[idx].professor = document.getElementById('pf-'+id).value;
+  arr[idx].email     = document.getElementById('pe-'+id).value;
+  arr[idx].dateEmailed = document.getElementById('pd-'+id).value;
+  arr[idx].status    = document.getElementById('ps-'+id).value;
+  arr[idx].notes     = document.getElementById('pn-'+id).value;
+  saveProfs(arr);
+  pushProfs(arr);
+  var fl=document.getElementById('pfl-'+id); fl.style.display='inline'; setTimeout(function(){fl.style.display='none';},2000);
+  updateSummary();
+  updateCardClass(id, arr[idx].status);
+}
+
+function updateCardClass(id, status){
+  var card = document.getElementById('pcard-'+id);
+  if(!card) return;
+  card.className = 'prof-card' + (status&&status!=='none'?' '+status:'');
+}
+
+function deleteCard(id){
+  if(!confirm('Remove this professor contact?')) return;
+  var arr=loadProfs().filter(function(p){return p.id!==id;});
+  saveProfs(arr); pushProfs(arr); render();
+}
+
+function addCard(prefill){
+  var arr=loadProfs();
+  var id='p'+Date.now();
+  arr.push({id:id, programTitle:prefill||'', professor:'', email:'', dateEmailed:'', status:'none', notes:''});
+  saveProfs(arr); render();
+  setTimeout(function(){ var el=document.getElementById('pcard-'+id); if(el)el.scrollIntoView({behavior:'smooth',block:'center'}); },100);
+}
+
+function updateSummary(){
+  var arr=loadProfs();
+  var counts={none:0,contacted:0,responded:0,pursuing:0,notfit:0};
+  arr.forEach(function(p){ counts[p.status||'none']++; });
+  var row=document.getElementById('summary-row'); row.innerHTML='';
+  var labels={contacted:'Contacted',responded:'Responded',pursuing:'Pursuing',notfit:'Not a fit',none:'Not yet contacted'};
+  Object.keys(labels).forEach(function(k){
+    if(counts[k]>0){
+      var pill=document.createElement('span'); pill.className='sum-pill';
+      pill.textContent=counts[k]+' '+labels[k]; row.appendChild(pill);
+    }
+  });
+}
+
+function render(){
+  var saved = getSavedItems().filter(function(it){ return it.type==='Graduate Program'; });
+  var arr = loadProfs();
+
+  // Auto-seed from saved grad programs if not already there
+  saved.forEach(function(it){
+    var exists = arr.find(function(p){ return p.programTitle===it.title; });
+    if(!exists){
+      arr.push({id:'p'+Math.random().toString(36).slice(2), programTitle:it.title, professor:'', email:'', dateEmailed:'', status:'none', notes:''});
+    }
+  });
+  saveProfs(arr);
+
+  document.getElementById('prof-count').textContent = arr.length + ' program' + (arr.length===1?'':'s') + ' tracked';
+  updateSummary();
+
+  var body=document.getElementById('prof-body'); body.innerHTML='';
+
+  if(!arr.length){
+    body.innerHTML='<div class="empty"><div class="empty-icon">&#128100;</div><div class="empty-title">No programs tracked yet</div><div class="empty-body">Save graduate programs to My List and they will appear here automatically.</div></div>';
+    return;
+  }
+
+  // Sort by status priority
+  var order={pursuing:0,contacted:1,responded:2,none:3,notfit:4};
+  arr.sort(function(a,b){ return (order[a.status||'none']||3)-(order[b.status||'none']||3); });
+
+  arr.forEach(function(p){
+    var card=document.createElement('div');
+    card.className='prof-card'+(p.status&&p.status!=='none'?' '+p.status:'');
+    card.id='pcard-'+p.id;
+
+    var header=document.createElement('div'); header.className='prof-header';
+    var left=document.createElement('div');
+    var title=document.createElement('div'); title.className='prof-title'; title.textContent=p.programTitle||'New program'; left.appendChild(title);
+    header.appendChild(left);
+    var sp=document.createElement('span'); sp.className='status-pill '+statusPillClass(p.status||'none'); sp.id='spl-'+p.id; sp.textContent=statusLabel(p.status||'none');
+    header.appendChild(sp);
+    card.appendChild(header);
+
+    var row=document.createElement('div'); row.className='prof-row';
+
+    function field(lbl, id, val, type){
+      var f=document.createElement('div'); f.className='prof-field';
+      var l=document.createElement('div'); l.className='prof-lbl'; l.textContent=lbl; f.appendChild(l);
+      var inp=document.createElement('input'); inp.className='prof-input'; inp.id=id; inp.value=val||''; inp.placeholder=lbl;
+      if(type==='date') inp.type='date';
+      inp.onchange=function(){ document.getElementById('spl-'+p.id).textContent=statusLabel(document.getElementById('ps-'+p.id).value); document.getElementById('spl-'+p.id).className='status-pill '+statusPillClass(document.getElementById('ps-'+p.id).value); };
+      f.appendChild(inp);
+      return f;
+    }
+
+    row.appendChild(field('Professor name','pf-'+p.id,p.professor));
+    row.appendChild(field('Email address','pe-'+p.id,p.email));
+    row.appendChild(field('Date emailed','pd-'+p.id,p.dateEmailed,'date'));
+
+    var sf=document.createElement('div'); sf.className='prof-field';
+    var sl=document.createElement('div'); sl.className='prof-lbl'; sl.textContent='Status'; sf.appendChild(sl);
+    var sel=document.createElement('select'); sel.className='prof-select'; sel.id='ps-'+p.id;
+    [{v:'none',l:'Not contacted'},{v:'contacted',l:'Contacted'},{v:'responded',l:'Responded'},{v:'pursuing',l:'Pursuing'},{v:'notfit',l:'Not a fit'}].forEach(function(o){
+      var opt=document.createElement('option'); opt.value=o.v; opt.textContent=o.l; if(p.status===o.v) opt.selected=true; sel.appendChild(opt);
+    });
+    sel.onchange=function(){
+      var s=sel.value;
+      document.getElementById('spl-'+p.id).textContent=statusLabel(s);
+      document.getElementById('spl-'+p.id).className='status-pill '+statusPillClass(s);
+    };
+    sf.appendChild(sel); row.appendChild(sf);
+    card.appendChild(row);
+
+    var nf=document.createElement('div'); nf.className='prof-field'; nf.style.marginBottom='.6rem';
+    var nl=document.createElement('div'); nl.className='prof-lbl'; nl.textContent='Notes / next steps'; nf.appendChild(nl);
+    var ta=document.createElement('textarea'); ta.className='prof-ta'; ta.id='pn-'+p.id; ta.placeholder='Notes, response summary, next steps...'; ta.value=p.notes||''; nf.appendChild(ta);
+    card.appendChild(nf);
+
+    var acts=document.createElement('div'); acts.className='prof-actions';
+    var sb=document.createElement('button'); sb.className='save-btn'; sb.textContent='Save';
+    sb.onclick=(function(pid){return function(){ saveCard(pid); };})(p.id);
+    acts.appendChild(sb);
+    var fl=document.createElement('span'); fl.className='saved-flash'; fl.id='pfl-'+p.id; fl.textContent='Saved ✓'; acts.appendChild(fl);
+    var db=document.createElement('button'); db.className='del-btn'; db.textContent='Remove';
+    db.onclick=(function(pid){return function(){ deleteCard(pid); };})(p.id);
+    acts.appendChild(db);
+    card.appendChild(acts);
+
+    body.appendChild(card);
+  });
+}
+
+pullProfs();
+
+</script>
+</body>
+</html>
