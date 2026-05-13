@@ -193,24 +193,7 @@ function flashSync(msg){
 function saveItem(d){var m=getSaved();m[d.id]=d;setSaved(m);push(m);}
 function removeItem(id){var m=getSaved();delete m[id];setSaved(m);push(m);}
 
-// pull from cloud on load, merge with local
-function pullFromCloud(){
-  fetch('https://api.jsonbin.io/v3/b/'+BIN_ID+'/latest',{
-    headers:{'X-Master-Key':API_KEY}
-  }).then(function(r){return r.json();})
-  .then(function(data){
-    if(data.record && data.record.items){
-      var cloud=data.record.items;
-      var local=getSaved();
-      // merge: cloud wins for items present in cloud, keep local-only items too
-      var merged=Object.assign({},local,cloud);
-      setSaved(merged);
-    }
-    renderMyList();
-  }).catch(function(){
-    renderMyList();
-  });
-}
+
 
 // ── MODE ─────────────────────────────────────────────────────────────────
 function setMode(m){
@@ -402,6 +385,30 @@ function browseToggle(id){
 }
 
 // ── INIT ──────────────────────────────────────────────────────────────────
+// Render immediately from localStorage so the page is never blank
+renderMyList();
+// Then silently sync from cloud in the background and re-render if anything changed
+function pullFromCloud(){
+  fetch('https://api.jsonbin.io/v3/b/'+BIN_ID+'/latest',{
+    headers:{'X-Master-Key':API_KEY}
+  }).then(function(r){return r.json();})
+  .then(function(data){
+    if(data.record && data.record.items){
+      var cloud=data.record.items;
+      var local=getSaved();
+      var merged=Object.assign({},local,cloud);
+      // only re-render if something actually changed
+      if(JSON.stringify(merged)!==JSON.stringify(local)){
+        setSaved(merged);
+        renderMyList();
+        if(document.getElementById('mode-browse').style.display!=='none') renderBrowse();
+      }
+      flashSync('Synced ✓');
+    }
+  }).catch(function(){
+    // silently fail — local data already rendered
+  });
+}
 pullFromCloud();
 </script>
 </body>
