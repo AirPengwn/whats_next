@@ -5,11 +5,25 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Erin Lamberton &#8212; Deadline Timeline</title>
 <style>
+
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{--bg:#fff;--bg2:#f5f5f3;--bg3:#eeede8;--t1:#1a1a18;--t2:#5f5e5a;--t3:#888780;--bd:rgba(0,0,0,0.12);--bds:rgba(0,0,0,0.22);--r1:8px;--r2:12px;--fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;--teal:#5dcaa5;--teal-bg:#e1f5ee;--teal-t:#0f6e56;--blue:#185fa5;--blue-bg:#e6f1fb;--amber-bg:#faeeda;--amber-t:#854f0b}
-@media(prefers-color-scheme:dark){:root{--bg:#1e1e1c;--bg2:#2a2a28;--bg3:#333330;--t1:#f0ede6;--t2:#b4b2a9;--t3:#888780;--bd:rgba(255,255,255,0.1);--bds:rgba(255,255,255,0.2);--teal-bg:#085041;--teal-t:#9fe1cb;--blue-bg:#0c447c;--amber-bg:#633806;--amber-t:#fac775}}
+:root{
+  --bg:#fff;--bg2:#f5f5f3;--bg3:#eeede8;--t1:#1a1a18;--t2:#5f5e5a;--t3:#888780;
+  --bd:rgba(0,0,0,0.12);--bds:rgba(0,0,0,0.22);--r1:8px;--r2:12px;
+  --fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  --teal:#5dcaa5;--teal-bg:#e1f5ee;--teal-t:#0f6e56;
+  --blue:#185fa5;--blue-bg:#e6f1fb;
+  --amber:#ef9f27;--amber-bg:#faeeda;--amber-t:#854f0b;
+  --red:#c0392b;--red-bg:#faece7;--red-t:#993c1d;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#1e1e1c;--bg2:#2a2a28;--bg3:#333330;--t1:#f0ede6;--t2:#b4b2a9;--t3:#888780;
+  --bd:rgba(255,255,255,0.1);--bds:rgba(255,255,255,0.2);
+  --teal-bg:#085041;--teal-t:#9fe1cb;--blue-bg:#0c447c;--amber-bg:#633806;--amber-t:#fac775;
+  --red-bg:#712b13;--red-t:#f5c4b3;
+}}
 body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:2rem 1rem}
-.page{max-width:720px;margin:0 auto}
+.page{max-width:760px;margin:0 auto}
 hr{border:none;border-top:.5px solid var(--bd);margin:1.5rem 0}
 a{color:var(--blue);text-decoration:none}
 a:hover{text-decoration:underline}
@@ -17,304 +31,451 @@ a:hover{text-decoration:underline}
 .back-btn{font-size:13px;padding:5px 14px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t2);text-decoration:none}
 .back-btn:hover{background:var(--bg2)}
 .pg-title{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3)}
-.slabel{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin-bottom:.6rem}
-.card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1.1rem 1.25rem;margin-bottom:.75rem}
-.tip{border-left:3px solid var(--teal);background:var(--bg2);padding:.75rem 1rem;margin-bottom:1.1rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
+.slabel{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin-bottom:.65rem}
+.tip{border-left:3px solid var(--teal);background:var(--bg2);padding:.75rem 1rem;margin-bottom:1rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
 .empty{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:2.5rem;text-align:center}
 .empty-icon{font-size:32px;margin-bottom:.65rem}
 .empty-title{font-size:15px;font-weight:500;margin-bottom:.35rem}
 .empty-body{font-size:13px;color:var(--t2);line-height:1.65}
 .footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
 
-.tl-banner{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:1.1rem;display:flex;align-items:center;justify-content:space-between;gap:.75rem;flex-wrap:wrap}
-.tl-banner-title{font-size:18px;font-weight:500}
-.tl-banner-sub{font-size:13px;color:var(--t2)}
-.month-group{margin-bottom:1.5rem}
-.month-header{display:flex;align-items:center;gap:.75rem;margin-bottom:.65rem}
-.month-dot{width:12px;height:12px;border-radius:50%;flex-shrink:0}
-.dot-urgent{background:#c0392b}
-.dot-soon{background:#ef9f27}
-.dot-ok{background:var(--teal)}
-.dot-future{background:var(--t3)}
-.dot-none{background:var(--bds)}
-.month-name{font-size:15px;font-weight:500;color:var(--t1)}
-.month-count{font-size:12px;color:var(--t3);margin-left:4px}
-.tl-card{background:var(--bg);border-left:3px solid var(--bd);border-radius:0 var(--r1) var(--r1) 0;padding:.75rem 1rem;margin-bottom:.5rem;display:flex;align-items:flex-start;gap:.85rem}
-.tl-card.urgent{border-left-color:#c0392b}
-.tl-card.soon{border-left-color:#ef9f27}
-.tl-card.ok{border-left-color:var(--teal)}
-.tl-card.future{border-left-color:var(--bds)}
-.tl-icon{font-size:16px;flex-shrink:0;margin-top:1px}
-.tl-main{flex:1;min-width:0}
-.tl-title{font-size:13px;font-weight:500;color:var(--t1);line-height:1.4;margin-bottom:2px}
-.tl-org{font-size:12px;color:var(--t3);margin-bottom:3px}
-.tl-deadline{font-size:12px;color:var(--t2)}
-.tl-deadline strong{font-weight:500;color:var(--t1)}
-.tl-badge{font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px;white-space:nowrap;flex-shrink:0;margin-top:2px}
-.badge-urgent{background:#faece7;color:#993c1d}
-.badge-soon{background:var(--amber-bg);color:var(--amber-t)}
-.badge-ok{background:var(--teal-bg);color:var(--teal-t)}
-.badge-future{background:var(--bg2);color:var(--t3)}
-@media(prefers-color-scheme:dark){.badge-urgent{background:#712b13;color:#f5c4b3}}
-.type-pill{font-size:11px;font-weight:500;padding:2px 7px;border-radius:999px;display:inline-block}
-.tp-grad{background:var(--teal-bg);color:var(--teal-t)}
-.tp-intern{background:var(--blue-bg);color:var(--blue)}
-.tp-job{background:#eeedfe;color:#534ab7}
-.tp-service{background:var(--amber-bg);color:var(--amber-t)}
-@media(prefers-color-scheme:dark){.tp-job{background:#3c3489;color:#cecdfa}}
-.action-section{background:var(--bg2);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:1rem}
-.action-title{font-size:13px;font-weight:500;color:var(--t1);margin-bottom:.5rem}
-.action-item{font-size:13px;color:var(--t2);padding:4px 0;display:flex;gap:6px;align-items:baseline}
-.action-bullet{color:var(--teal);font-weight:700;flex-shrink:0}
-.no-date-card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r1);padding:.65rem 1rem;margin-bottom:.4rem;font-size:13px;color:var(--t2)}
-.no-date-title{font-weight:500;color:var(--t1);font-size:13px}
+/* Hero */
+.hero{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:1.1rem;display:flex;align-items:center;justify-content:space-between;gap:.75rem;flex-wrap:wrap}
+.hero-title{font-size:18px;font-weight:500}
+.hero-meta{font-size:13px;color:var(--t2)}
+.legend{display:flex;flex-wrap:wrap;gap:.5rem .85rem;margin-bottom:1.25rem}
+.leg-item{display:flex;align-items:center;gap:5px;font-size:12px;color:var(--t2)}
+.leg-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+.ld-urgent{background:var(--red)}
+.ld-soon{background:var(--amber)}
+.ld-ok{background:var(--teal)}
+.ld-future{background:var(--t3)}
+
+/* Calendar grid */
+.cal-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px;margin-bottom:1.5rem}
+.cal-month{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);overflow:hidden}
+.cal-header{padding:.55rem .85rem;font-size:13px;font-weight:500;color:var(--t1);background:var(--bg2);border-bottom:.5px solid var(--bd)}
+.cal-body{padding:.6rem .5rem .5rem}
+.cal-dow{display:grid;grid-template-columns:repeat(7,1fr);margin-bottom:3px}
+.cal-dow-cell{font-size:10px;font-weight:500;color:var(--t3);text-align:center;padding:2px 0}
+.cal-days{display:grid;grid-template-columns:repeat(7,1fr);gap:2px}
+.cal-cell{min-height:28px;display:flex;align-items:center;justify-content:center;font-size:12px;color:var(--t2);border-radius:5px;position:relative;cursor:default}
+.cal-cell.empty-cell{color:transparent}
+.cal-cell.today{font-weight:600;color:var(--t1)}
+.cal-cell.today::after{content:'';position:absolute;bottom:2px;left:50%;transform:translateX(-50%);width:4px;height:4px;border-radius:50%;background:var(--t3)}
+.cal-cell.has-deadline{cursor:pointer;font-weight:600}
+.cal-cell.has-deadline:hover{background:var(--bg2)}
+.cal-cell.has-deadline.active{background:var(--bg3)}
+
+/* Deadline dot on calendar cell */
+.cal-dot{position:absolute;top:2px;right:3px;width:7px;height:7px;border-radius:50%}
+.cal-dot.urgent{background:var(--red)}
+.cal-dot.soon{background:var(--amber)}
+.cal-dot.ok{background:var(--teal)}
+.cal-dot.future{background:var(--t3)}
+
+/* multi-dot for multiple items on same date */
+.cal-dots{position:absolute;top:2px;right:2px;display:flex;gap:1px}
+.cal-dots .cal-dot{position:static;width:5px;height:5px}
+
+/* Detail panel */
+.detail-panel{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);margin-bottom:1.25rem;overflow:hidden;display:none}
+.detail-panel.open{display:block}
+.detail-date-header{padding:.6rem 1rem;background:var(--bg2);border-bottom:.5px solid var(--bd);font-size:12px;font-weight:500;color:var(--t3);text-transform:uppercase;letter-spacing:.06em}
+.detail-item{padding:.85rem 1rem;border-bottom:.5px solid var(--bd);display:flex;align-items:flex-start;gap:.75rem}
+.detail-item:last-child{border-bottom:none}
+.detail-urgency-bar{width:3px;border-radius:2px;flex-shrink:0;align-self:stretch;min-height:40px}
+.bar-urgent{background:var(--red)}
+.bar-soon{background:var(--amber)}
+.bar-ok{background:var(--teal)}
+.bar-future{background:var(--t3)}
+.detail-main{flex:1;min-width:0}
+.detail-title{font-size:14px;font-weight:500;color:var(--t1);line-height:1.4;margin-bottom:2px}
+.detail-org{font-size:12px;color:var(--t3);margin-bottom:.35rem}
+.detail-deadline{font-size:12px;color:var(--t2);margin-bottom:.35rem}
+.detail-body{font-size:12px;color:var(--t2);line-height:1.6;margin-top:.4rem;display:none}
+.detail-body.open{display:block}
+.detail-pills{display:flex;flex-wrap:wrap;gap:4px;margin-top:.35rem}
+.dp{font-size:11px;font-weight:500;padding:2px 7px;border-radius:999px}
+.dp-grad{background:var(--teal-bg);color:var(--teal-t)}
+.dp-intern{background:var(--blue-bg);color:var(--blue)}
+.dp-job{background:#eeedfe;color:#534ab7}
+.dp-service{background:var(--amber-bg);color:var(--amber-t)}
+.dp-badge{background:var(--bg2);color:var(--t3);border:.5px solid var(--bd)}
+@media(prefers-color-scheme:dark){.dp-job{background:#3c3489;color:#cecdfa}}
+.detail-toggle{font-size:12px;color:var(--t3);background:none;border:none;cursor:pointer;padding:0;font-family:var(--fn);margin-top:.3rem}
+.detail-toggle:hover{color:var(--t1)}
+.days-badge{font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px;white-space:nowrap;flex-shrink:0;margin-top:2px}
+.days-urgent{background:var(--red-bg);color:var(--red-t)}
+.days-soon{background:var(--amber-bg);color:var(--amber-t)}
+.days-ok{background:var(--teal-bg);color:var(--teal-t)}
+.days-future{background:var(--bg2);color:var(--t3)}
+
+/* Action strip */
+.action-strip{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:.85rem 1.1rem;margin-bottom:1.25rem}
+.action-title{font-size:12px;font-weight:500;color:var(--t3);text-transform:uppercase;letter-spacing:.06em;margin-bottom:.5rem}
+.action-row{display:flex;align-items:baseline;gap:6px;font-size:13px;color:var(--t2);padding:4px 0;border-bottom:.5px solid var(--bd)}
+.action-row:last-child{border-bottom:none}
+.action-arrow{color:var(--teal);font-weight:700;flex-shrink:0}
+.action-row strong{font-weight:500;color:var(--t1)}
+
+/* Rolling / no date sections */
+.no-date-list{margin-bottom:1.25rem}
+.nd-card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r1);padding:.6rem 1rem;margin-bottom:.4rem;display:flex;align-items:flex-start;justify-content:space-between;gap:.75rem}
+.nd-left{}
+.nd-title{font-size:13px;font-weight:500;color:var(--t1)}
+.nd-org{font-size:12px;color:var(--t3);margin-top:1px}
+.nd-type{font-size:11px;font-weight:500;padding:2px 7px;border-radius:999px;flex-shrink:0;white-space:nowrap;margin-top:2px}
+@media(max-width:480px){.cal-grid{grid-template-columns:1fr}}
 
 </style>
-</head>
 <body>
 <div class="page">
+
 <div class="top-nav">
   <a href="erin_mylist.html" class="back-btn">&#8592; My List</a>
   <span class="pg-title">Deadline Timeline</span>
 </div>
 
-<div class="tl-banner">
+<div class="hero">
   <div>
-    <div class="tl-banner-title">&#128197; Deadline Timeline</div>
-    <div class="tl-banner-sub" id="tl-count">Loading&#8230;</div>
+    <div class="hero-title">&#128197; Deadline Calendar</div>
+    <div class="hero-meta" id="tl-count">Loading&#8230;</div>
   </div>
-  <div style="font-size:12px;color:var(--t3);text-align:right">Pulled from your saved list<br>Updates automatically</div>
+  <div style="font-size:12px;color:var(--t3);text-align:right">From your saved list<br>Click any marked date for details</div>
 </div>
-<div class="tip">&#128204;&nbsp; Deadlines are parsed from your saved items. Items marked <em>rolling</em> or without a clear date are grouped separately. Always verify deadlines directly with the program or employer.</div>
+
+<div class="tip">&#128310;&nbsp; Each marked date has one or more deadlines. Click it to see full details. <strong>Red</strong> = within 30 days &middot; <strong>Amber</strong> = within 90 days &middot; <strong>Teal</strong> = within 9 months.</div>
+
 <div id="tl-body"></div>
 
-<p class="footer">Data drawn from your saved opportunities in My List.<br><br>
+<p class="footer">Deadlines parsed from your saved opportunities. Always verify directly before applying.<br><br>
 <a href="erin_mylist.html">&#8592; My List</a>&nbsp;&nbsp;<a href="index.html">&#8592; Home</a></p>
 </div>
 <script>
 
 var BIN='6a039aa4250b1311c33f2bac',KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa',STORE='erin_mylist_v1';
-function load(){try{return JSON.parse(localStorage.getItem(STORE)||'{}')}catch(e){return {}}}
-function getSavedItems(){var m=load();return Object.values(m).filter(function(it){return!it._done||true});}
+function load(){try{return JSON.parse(localStorage.getItem(STORE)||'{}')}catch(e){return{}}}
+function getSavedItems(){return Object.values(load());}
 
+var MONTH_NAMES=['January','February','March','April','May','June','July','August','September','October','November','December'];
+var DOW=['Su','Mo','Tu','We','Th','Fr','Sa'];
 
-function typeCls(t){
-  if(!t) return 'tp-service';
-  if(t.indexOf('Graduate')>-1) return 'tp-grad';
-  if(t.indexOf('Internship')>-1) return 'tp-intern';
-  if(t.indexOf('Career')>-1) return 'tp-job';
-  return 'tp-service';
-}
-function typeIcon(t){
-  if(!t) return '&#127807;';
-  if(t.indexOf('Graduate')>-1) return '&#127979;';
-  if(t.indexOf('Internship')>-1) return '&#128203;';
-  if(t.indexOf('Career')>-1) return '&#128188;';
-  return '&#127807;';
-}
-
-// Parse a deadline string into a rough Date
-// Looks for month names and years, returns null if unparseable
 function parseDeadline(dl){
   if(!dl) return null;
-  var s = dl.toLowerCase();
-  // skip "rolling", "year-round", "verify" etc.
-  if(/rolling|year.round|verify|watch|tbd|passed|varies|posted/i.test(s)) return null;
-
-  var months = ['january','february','march','april','may','june','july','august','september','october','november','december'];
-  var shortM = ['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec'];
-
-  var year = null, month = null, day = 1;
-
-  // find year
-  var ym = s.match(/20(2[5-9]|3\d)/);
-  if(ym) year = parseInt(ym[0]);
-
-  // find month
-  for(var i=0;i<months.length;i++){
-    if(s.indexOf(months[i])>-1 || s.indexOf(shortM[i])>-1){ month=i; break; }
+  var s=dl.toLowerCase();
+  if(/rolling|year.round|verify|watch|tbd|passed|varies|posted|typically|anytime|available now/i.test(s)) return null;
+  var MO=['january','february','march','april','may','june','july','august','september','october','november','december'];
+  var SH=['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec'];
+  // Season + year
+  var sm=s.match(/\b(spring|summer|fall|autumn|winter)\s+(20[2-3][0-9])/);
+  if(sm){var smap={spring:2,summer:6,fall:9,autumn:9,winter:11};return new Date(parseInt(sm[2]),smap[sm[1]]||9,1);}
+  // Numeric
+  var nm=s.match(/(\d{1,2})[\/-](\d{1,2})[\/-](20[2-3][0-9])/);
+  if(nm) return new Date(parseInt(nm[3]),parseInt(nm[1])-1,parseInt(nm[2]));
+  // First month name
+  var best={pos:99999,month:-1};
+  for(var i=0;i<MO.length;i++){
+    var p=s.indexOf(MO[i]); if(p>=0&&p<best.pos)best={pos:p,month:i};
+    var p2=s.indexOf(SH[i]); if(p2>=0&&p2<best.pos)best={pos:p2,month:i};
   }
-  // numeric month (e.g. "12-05-2026")
-  if(month===null){
-    var nm = s.match(/(\d{1,2})[-\/](\d{1,2})[-\/](\d{4})/);
-    if(nm){ month=parseInt(nm[1])-1; day=parseInt(nm[2]); year=parseInt(nm[3]); }
-  }
-  // find day number
-  var dm = s.match(/(\d{1,2})(st|nd|rd|th)?/);
-  if(dm && month!==null) day=parseInt(dm[1]);
-
-  if(month===null) return null;
-  if(year===null) year = 2026; // default assumption
-  return new Date(year, month, day);
+  if(best.month<0) return null;
+  var ctx=s.slice(Math.max(0,best.pos-5),Math.min(s.length,best.pos+65));
+  var yrm=ctx.match(/20[2-3][0-9]/); var year=yrm?parseInt(yrm[0]):2026;
+  var daym=ctx.match(/\b([1-9]|[12][0-9]|3[01])(st|nd|rd|th)?\b/); var day=daym?parseInt(daym[1]):1;
+  if(day>31)day=1;
+  try{return new Date(year,best.month,day);}catch(e){return null;}
 }
 
-var MONTH_NAMES = ['January','February','March','April','May','June','July','August','September','October','November','December'];
-
-function urgencyClass(d){
+function urgency(d){
   if(!d) return 'future';
-  var now = new Date();
-  var diff = (d - now) / (1000*60*60*24);
-  if(diff < 0)   return 'passed';
-  if(diff < 30)  return 'urgent';
-  if(diff < 90)  return 'soon';
-  if(diff < 180) return 'ok';
+  var diff=(d-new Date())/(864e5);
+  if(diff<0)   return 'passed';
+  if(diff<30)  return 'urgent';
+  if(diff<90)  return 'soon';
+  if(diff<270) return 'ok';
   return 'future';
 }
+
+function daysLabel(d){
+  var diff=Math.round((d-new Date())/864e5);
+  if(diff<=0) return 'Today';
+  if(diff===1) return '1 day';
+  if(diff<7) return diff+'d';
+  if(diff<30) return Math.round(diff/7)+'wk';
+  return Math.round(diff/30)+'mo';
+}
+
+function typeCls(t){
+  if(!t) return 'dp-service';
+  if(t.indexOf('Graduate')>-1) return 'dp-grad';
+  if(t.indexOf('Internship')>-1) return 'dp-intern';
+  if(t.indexOf('Career')>-1) return 'dp-job';
+  return 'dp-service';
+}
+
+// Currently selected date key (YYYY-MM-DD) for detail panel
+var selectedKey = null;
 
 function render(){
   var items = getSavedItems();
   var body = document.getElementById('tl-body');
-  body.innerHTML = '';
+  body.innerHTML='';
 
-  document.getElementById('tl-count').textContent = items.length + ' saved item' + (items.length===1?'':'s');
+  var n = items.length;
+  document.getElementById('tl-count').textContent = n+' saved item'+(n===1?'':'s');
 
-  if(!items.length){
-    body.innerHTML = '<div class="empty"><div class="empty-icon">&#128197;</div><div class="empty-title">No saved items yet</div><div class="empty-body">Save opportunities from any page to see them here on a timeline.</div></div>';
+  if(!n){
+    body.innerHTML='<div class="empty"><div class="empty-icon">&#128197;</div><div class="empty-title">No saved items yet</div><div class="empty-body">Save opportunities from any page to see them here on a calendar.</div></div>';
     return;
   }
 
-  // Parse dates and separate into dated / undated / rolling
+  // Separate items into dated, rolling, nodates
   var dated=[], rolling=[], nodates=[];
+  var now=new Date();
+
   items.forEach(function(it){
-    var dl = it.deadline||'';
-    if(/rolling|year.round/i.test(dl)){
-      rolling.push(it);
-    } else {
-      var d = parseDeadline(dl);
-      if(d){ dated.push({item:it, date:d}); }
-      else { nodates.push(it); }
+    var dl=it.deadline||'';
+    if(/rolling|year.round/i.test(dl)){ rolling.push(it); return; }
+    var d=parseDeadline(dl);
+    if(d){ dated.push({item:it,date:d}); }
+    else if(dl && !/^\s*$/.test(dl)){ rolling.push(it); }
+    else { nodates.push(it); }
+  });
+
+  // Sort dated
+  dated.sort(function(a,b){return a.date-b.date;});
+
+  // Action strip — upcoming items needing attention
+  var upcoming = dated.filter(function(x){
+    var u=urgency(x.date);
+    return u==='urgent'||u==='soon';
+  });
+  if(upcoming.length){
+    var strip=document.createElement('div'); strip.className='action-strip';
+    var at=document.createElement('div'); at.className='action-title'; at.textContent='Needs attention soon'; strip.appendChild(at);
+    upcoming.slice(0,6).forEach(function(x){
+      var row=document.createElement('div'); row.className='action-row';
+      var arr=document.createElement('span'); arr.className='action-arrow'; arr.textContent='›'; row.appendChild(arr);
+      var txt=document.createElement('span');
+      var diff=Math.round((x.date-now)/864e5);
+      var when=diff<=0?'Today':diff===1?'Tomorrow':'in '+daysLabel(x.date);
+      txt.innerHTML='<strong>'+x.item.title.split('—')[0].trim().slice(0,45)+'</strong> — '+when+' ('+x.item.deadline.split(';')[0].trim().slice(0,40)+')';
+      row.appendChild(txt);
+      strip.appendChild(row);
+    });
+    body.appendChild(strip);
+  }
+
+  // Build month groups from dated items (skip fully passed months)
+  var monthMap={};
+  dated.forEach(function(x){
+    var u=urgency(x.date);
+    if(u==='passed') return; // skip past
+    var k=x.date.getFullYear()+'-'+x.date.getMonth();
+    if(!monthMap[k]) monthMap[k]={year:x.date.getFullYear(),month:x.date.getMonth(),items:[]};
+    monthMap[k].items.push(x);
+  });
+  var monthKeys=Object.keys(monthMap).sort();
+
+  // Also include months with passed items for context — but only if they're the current month
+  var todayKey=now.getFullYear()+'-'+now.getMonth();
+  dated.forEach(function(x){
+    var u=urgency(x.date);
+    if(u!=='passed') return;
+    var k=x.date.getFullYear()+'-'+x.date.getMonth();
+    if(k===todayKey){
+      if(!monthMap[k]) monthMap[k]={year:x.date.getFullYear(),month:x.date.getMonth(),items:[]};
+      monthMap[k].items.push(x);
+      if(monthKeys.indexOf(k)<0) monthKeys.unshift(k);
+    }
+  });
+  monthKeys.sort();
+
+  if(monthKeys.length){
+    var calLbl=document.createElement('div'); calLbl.className='slabel'; calLbl.textContent='Deadline calendar'; body.appendChild(calLbl);
+
+    // Legend
+    var leg=document.createElement('div'); leg.className='legend';
+    [{cls:'ld-urgent',lbl:'Due within 30 days'},{cls:'ld-soon',lbl:'Due within 90 days'},{cls:'ld-ok',lbl:'Due within 9 months'},{cls:'ld-future',lbl:'Future'}].forEach(function(l){
+      var li=document.createElement('div'); li.className='leg-item';
+      var dot=document.createElement('div'); dot.className='leg-dot '+l.cls; li.appendChild(dot);
+      var t=document.createElement('span'); t.textContent=l.lbl; li.appendChild(t);
+      leg.appendChild(li);
+    });
+    body.appendChild(leg);
+
+    // Detail panel (shared, toggled by clicking dates)
+    var panel=document.createElement('div'); panel.className='detail-panel'; panel.id='detail-panel';
+    body.appendChild(panel);
+
+    // Calendar grid
+    var grid=document.createElement('div'); grid.className='cal-grid';
+
+    monthKeys.forEach(function(mk){
+      var mg=monthMap[mk];
+      var cal=buildCalendar(mg.year, mg.month, mg.items, panel);
+      grid.appendChild(cal);
+    });
+    body.appendChild(grid);
+  }
+
+  // Rolling section
+  if(rolling.length){
+    var hr=document.createElement('hr'); body.appendChild(hr);
+    var lbl=document.createElement('div'); lbl.className='slabel'; lbl.textContent='Rolling / apply anytime'; body.appendChild(lbl);
+    var list=document.createElement('div'); list.className='no-date-list';
+    rolling.forEach(function(it){ list.appendChild(makeNdCard(it)); });
+    body.appendChild(list);
+  }
+
+  // No-date section
+  if(nodates.length){
+    var hr2=document.createElement('hr'); body.appendChild(hr2);
+    var lbl2=document.createElement('div'); lbl2.className='slabel'; lbl2.textContent='No specific deadline — verify directly'; body.appendChild(lbl2);
+    var list2=document.createElement('div'); list2.className='no-date-list';
+    nodates.forEach(function(it){ list2.appendChild(makeNdCard(it)); });
+    body.appendChild(list2);
+  }
+}
+
+function buildCalendar(year, month, datedItems, panel){
+  // Map day -> items
+  var dayMap={};
+  datedItems.forEach(function(x){
+    if(x.date.getFullYear()===year && x.date.getMonth()===month){
+      var d=x.date.getDate();
+      if(!dayMap[d]) dayMap[d]=[];
+      dayMap[d].push(x);
     }
   });
 
-  // Sort dated by date
-  dated.sort(function(a,b){ return a.date-b.date; });
+  var now=new Date();
+  var firstDay=new Date(year,month,1).getDay(); // 0=Sun
+  var daysInMonth=new Date(year,month+1,0).getDate();
 
-  // Action items section (derived from timeline)
-  var now = new Date();
-  var urgent = dated.filter(function(x){ return urgencyClass(x.date)==='urgent'; });
-  var soon   = dated.filter(function(x){ return urgencyClass(x.date)==='soon'; });
-  if(urgent.length || soon.length){
-    var sec = document.createElement('div');
-    sec.className = 'action-section';
-    var at = document.createElement('div'); at.className='action-title'; at.textContent='Needs attention soon';
-    sec.appendChild(at);
-    urgent.concat(soon).slice(0,5).forEach(function(x){
-      var row = document.createElement('div'); row.className='action-item';
-      var bull = document.createElement('span'); bull.className='action-bullet'; bull.textContent='›'; row.appendChild(bull);
-      var txt = document.createElement('span');
-      txt.innerHTML = '<strong style="font-weight:500">'+x.item.title.split('—')[0].trim()+'</strong> — deadline '+x.item.deadline;
-      row.appendChild(txt);
-      sec.appendChild(row);
-    });
-    body.appendChild(sec);
-  }
+  var wrap=document.createElement('div'); wrap.className='cal-month';
 
-  // Group dated items by month+year
-  var groups = {}; // key: "YYYY-MM"
-  dated.forEach(function(x){
-    var k = x.date.getFullYear()+'-'+String(x.date.getMonth()).padStart(2,'0');
-    if(!groups[k]) groups[k]={year:x.date.getFullYear(),month:x.date.getMonth(),items:[]};
-    groups[k].items.push(x);
+  var hdr=document.createElement('div'); hdr.className='cal-header';
+  hdr.textContent=MONTH_NAMES[month]+' '+year; wrap.appendChild(hdr);
+
+  var body=document.createElement('div'); body.className='cal-body';
+
+  // Day-of-week headers
+  var dow=document.createElement('div'); dow.className='cal-dow';
+  DOW.forEach(function(d){
+    var c=document.createElement('div'); c.className='cal-dow-cell'; c.textContent=d; dow.appendChild(c);
   });
+  body.appendChild(dow);
 
-  var keys = Object.keys(groups).sort();
+  // Day cells
+  var days=document.createElement('div'); days.className='cal-days';
 
-  if(keys.length){
-    var slbl = document.createElement('div'); slbl.className='slabel'; slbl.textContent='Deadline calendar'; body.appendChild(slbl);
+  // Empty cells before first day
+  for(var i=0;i<firstDay;i++){
+    var ec=document.createElement('div'); ec.className='cal-cell empty-cell'; days.appendChild(ec);
   }
 
-  keys.forEach(function(k){
-    var g = groups[k];
-    var urg = urgencyClass(g.items[0].date);
-    var dotCls = urg==='passed'?'dot-future': urg==='urgent'?'dot-urgent': urg==='soon'?'dot-soon': urg==='ok'?'dot-ok':'dot-future';
+  for(var d=1;d<=daysInMonth;d++){
+    var cell=document.createElement('div'); cell.className='cal-cell';
+    // Today indicator
+    if(year===now.getFullYear()&&month===now.getMonth()&&d===now.getDate()){
+      cell.classList.add('today');
+    }
+    var num=document.createElement('span'); num.textContent=d; cell.appendChild(num);
 
-    var monthDiv = document.createElement('div'); monthDiv.className='month-group';
+    if(dayMap[d]){
+      cell.classList.add('has-deadline');
+      var items_here=dayMap[d];
+      // Dots
+      var dotsEl=document.createElement('div'); dotsEl.className='cal-dots';
+      items_here.slice(0,3).forEach(function(x){
+        var dot=document.createElement('div'); dot.className='cal-dot '+urgency(x.date); dotsEl.appendChild(dot);
+      });
+      cell.appendChild(dotsEl);
+      // Click handler
+      (function(year,month,d,items_here){
+        cell.onclick=function(){
+          var key=year+'-'+month+'-'+d;
+          showDetail(panel, key, year, month, d, items_here, cell);
+        };
+      })(year,month,d,items_here);
+    }
+    days.appendChild(cell);
+  }
+  body.appendChild(days);
+  wrap.appendChild(body);
+  return wrap;
+}
 
-    var header = document.createElement('div'); header.className='month-header';
-    var dot = document.createElement('div'); dot.className='month-dot '+dotCls; header.appendChild(dot);
-    var mname = document.createElement('span'); mname.className='month-name';
-    mname.textContent = MONTH_NAMES[g.month]+' '+g.year; header.appendChild(mname);
-    var mc = document.createElement('span'); mc.className='month-count'; mc.textContent=g.items.length+' item'+(g.items.length>1?'s':''); header.appendChild(mc);
-    monthDiv.appendChild(header);
+function showDetail(panel, key, year, month, day, items, clickedCell){
+  // Toggle off if same date clicked again
+  if(selectedKey===key){
+    selectedKey=null;
+    panel.className='detail-panel';
+    panel.innerHTML='';
+    document.querySelectorAll('.cal-cell.active').forEach(function(c){c.classList.remove('active');});
+    return;
+  }
+  selectedKey=key;
+  document.querySelectorAll('.cal-cell.active').forEach(function(c){c.classList.remove('active');});
+  clickedCell.classList.add('active');
 
-    g.items.forEach(function(x){
-      var it=x.item, d=x.date;
-      var u = urgencyClass(d);
-      if(u==='passed') return; // skip past deadlines
+  panel.innerHTML='';
+  panel.className='detail-panel open';
 
-      var card = document.createElement('div');
-      card.className='tl-card '+u;
+  // Scroll panel into view smoothly
+  setTimeout(function(){ panel.scrollIntoView({behavior:'smooth',block:'nearest'}); },50);
 
-      var icon = document.createElement('span'); icon.className='tl-icon'; icon.innerHTML=typeIcon(it.type); card.appendChild(icon);
+  var dh=document.createElement('div'); dh.className='detail-date-header';
+  dh.textContent=MONTH_NAMES[month]+' '+day+', '+year; panel.appendChild(dh);
 
-      var main = document.createElement('div'); main.className='tl-main';
-      var title = document.createElement('div'); title.className='tl-title';
-      var lnk = document.createElement('a'); lnk.href=it.src||'erin_mylist.html'; lnk.target='_blank'; lnk.textContent=it.title; title.appendChild(lnk);
-      main.appendChild(title);
+  items.forEach(function(x){
+    var it=x.item, u=urgency(x.date);
+    var row=document.createElement('div'); row.className='detail-item';
 
-      var org = document.createElement('div'); org.className='tl-org'; org.textContent=it.org; main.appendChild(org);
+    var bar=document.createElement('div'); bar.className='detail-urgency-bar bar-'+u; row.appendChild(bar);
 
-      var meta = document.createElement('div'); meta.className='tl-deadline';
-      meta.innerHTML='<strong>Deadline:</strong> '+it.deadline;
-      main.appendChild(meta);
+    var main=document.createElement('div'); main.className='detail-main';
+    var title=document.createElement('div'); title.className='detail-title';
+    var lnk=document.createElement('a'); lnk.href=it.src||'erin_mylist.html'; lnk.target='_blank'; lnk.textContent=it.title; title.appendChild(lnk); main.appendChild(title);
+    var org=document.createElement('div'); org.className='detail-org'; org.textContent=it.org; main.appendChild(org);
+    var dl=document.createElement('div'); dl.className='detail-deadline'; dl.textContent='Deadline: '+it.deadline; main.appendChild(dl);
 
-      var pills = document.createElement('div'); pills.style.cssText='display:flex;gap:4px;margin-top:4px;flex-wrap:wrap';
-      var tp = document.createElement('span'); tp.className='type-pill '+typeCls(it.type); tp.textContent=it.type; pills.appendChild(tp);
-      if(it.badge){ var bp=document.createElement('span'); bp.className='type-pill'; bp.style.cssText='background:var(--bg2);color:var(--t3)'; bp.textContent=it.badge; pills.appendChild(bp); }
-      main.appendChild(pills);
+    var pills=document.createElement('div'); pills.className='detail-pills';
+    var tp=document.createElement('span'); tp.className='dp '+typeCls(it.type); tp.textContent=it.type; pills.appendChild(tp);
+    if(it.badge){var bp=document.createElement('span');bp.className='dp dp-badge';bp.textContent=it.badge;pills.appendChild(bp);}
+    main.appendChild(pills);
 
-      card.appendChild(main);
+    if(it.body){
+      var bodyEl=document.createElement('div'); bodyEl.className='detail-body'; bodyEl.textContent=it.body; main.appendChild(bodyEl);
+      var tog=document.createElement('button'); tog.className='detail-toggle'; tog.textContent='Show details ▾';
+      tog.onclick=function(){ bodyEl.classList.toggle('open'); tog.textContent=bodyEl.classList.contains('open')?'Hide details ▴':'Show details ▾'; }; main.appendChild(tog);
+    }
 
-      // urgency badge
-      if(u==='urgent'||u==='soon'){
-        var diff = Math.ceil((d-new Date())/(1000*60*60*24));
-        var badge = document.createElement('span');
-        badge.className='tl-badge badge-'+(u==='urgent'?'urgent':'soon');
-        badge.textContent = diff<=0?'Today':diff+'d';
-        card.appendChild(badge);
-      }
+    row.appendChild(main);
 
-      monthDiv.appendChild(card);
-    });
-    body.appendChild(monthDiv);
+    // Days badge
+    var diff=Math.round((x.date-new Date())/864e5);
+    if(diff>=0){
+      var badge=document.createElement('div'); badge.className='days-badge days-'+u;
+      badge.textContent=diff===0?'Today':daysLabel(x.date)+' left'; row.appendChild(badge);
+    }
+
+    panel.appendChild(row);
   });
+}
 
-  // Rolling / no deadline section
-  if(rolling.length){
-    var hr=document.createElement('hr'); body.appendChild(hr);
-    var slbl=document.createElement('div'); slbl.className='slabel'; slbl.textContent='Rolling / apply anytime'; body.appendChild(slbl);
-    rolling.forEach(function(it){
-      var c=document.createElement('div'); c.className='no-date-card';
-      var row=document.createElement('div'); row.style.cssText='display:flex;justify-content:space-between;align-items:flex-start;gap:.5rem';
-      var left=document.createElement('div');
-      var t=document.createElement('div'); t.className='no-date-title';
-      var lnk=document.createElement('a'); lnk.href=it.src||'erin_mylist.html'; lnk.target='_blank'; lnk.textContent=it.title; t.appendChild(lnk);
-      left.appendChild(t);
-      var o=document.createElement('div'); o.style.cssText='font-size:12px;color:var(--t3);margin-top:2px'; o.textContent=it.org; left.appendChild(o);
-      row.appendChild(left);
-      var tp=document.createElement('span'); tp.className='type-pill '+typeCls(it.type); tp.textContent=it.type; row.appendChild(tp);
-      c.appendChild(row);
-      body.appendChild(c);
-    });
-  }
-
-  if(nodates.length){
-    var hr2=document.createElement('hr'); body.appendChild(hr2);
-    var slbl2=document.createElement('div'); slbl2.className='slabel'; slbl2.textContent='No specific deadline — verify directly'; body.appendChild(slbl2);
-    nodates.forEach(function(it){
-      var c=document.createElement('div'); c.className='no-date-card';
-      var row=document.createElement('div'); row.style.cssText='display:flex;justify-content:space-between;align-items:flex-start;gap:.5rem';
-      var left=document.createElement('div');
-      var t=document.createElement('div'); t.className='no-date-title';
-      var lnk=document.createElement('a'); lnk.href=it.src||'erin_mylist.html'; lnk.target='_blank'; lnk.textContent=it.title; t.appendChild(lnk);
-      left.appendChild(t);
-      var o=document.createElement('div'); o.style.cssText='font-size:12px;color:var(--t3);margin-top:2px'; o.textContent=it.org; left.appendChild(o);
-      row.appendChild(left);
-      var tp=document.createElement('span'); tp.className='type-pill '+typeCls(it.type); tp.textContent=it.type; row.appendChild(tp);
-      c.appendChild(row);
-      body.appendChild(c);
-    });
-  }
+function makeNdCard(it){
+  var card=document.createElement('div'); card.className='nd-card';
+  var left=document.createElement('div'); left.className='nd-left';
+  var t=document.createElement('div'); t.className='nd-title';
+  var lnk=document.createElement('a'); lnk.href=it.src||'erin_mylist.html'; lnk.target='_blank'; lnk.textContent=it.title; t.appendChild(lnk); left.appendChild(t);
+  var o=document.createElement('div'); o.className='nd-org'; o.textContent=it.org; left.appendChild(o);
+  if(it.deadline){var dl=document.createElement('div');dl.style.cssText='font-size:12px;color:var(--t3);margin-top:2px';dl.textContent=it.deadline;left.appendChild(dl);}
+  card.appendChild(left);
+  var tp=document.createElement('div'); tp.className='nd-type dp '+typeCls(it.type); tp.textContent=it.type; card.appendChild(tp);
+  return card;
 }
 
 render();
