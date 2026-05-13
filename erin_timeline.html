@@ -6,6 +6,7 @@
 <title>Erin Lamberton &#8212; Deadline Timeline</title>
 <style>
 
+
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
   --bg:#fff;--bg2:#f5f5f3;--bg3:#eeede8;--t1:#1a1a18;--t2:#5f5e5a;--t3:#888780;
@@ -128,6 +129,13 @@ a:hover{text-decoration:underline}
 .nd-type{font-size:11px;font-weight:500;padding:2px 7px;border-radius:999px;flex-shrink:0;white-space:nowrap;margin-top:2px}
 @media(max-width:480px){.cal-grid{grid-template-columns:1fr}}
 
+
+.cal-month.passed-month{ opacity:.65; }
+.cal-month.passed-month .cal-header{ background:var(--bg3); color:var(--t3); }
+.cal-cell.has-deadline.past-deadline{ cursor:pointer; }
+.cal-cell.has-deadline.past-deadline .cal-dots .cal-dot{ background:var(--t3) !important; }
+.days-passed{ background:var(--bg2); color:var(--t3); font-size:11px; font-weight:500; padding:2px 8px; border-radius:999px; }
+
 </style>
 <body>
 <div class="page">
@@ -158,38 +166,74 @@ var BIN='6a039aa4250b1311c33f2bac',KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEh
 function load(){try{return JSON.parse(localStorage.getItem(STORE)||'{}')}catch(e){return{}}}
 function getSavedItems(){return Object.values(load());}
 
+// Pull from cloud on load so timeline stays in sync
+function pullCloud(){
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+  .then(function(r){return r.json();})
+  .then(function(data){
+    if(data.record && data.record.items){
+      var merged=Object.assign({},load(),data.record.items);
+      localStorage.setItem(STORE,JSON.stringify(merged));
+      render();
+    }
+  }).catch(function(){render();});
+}
+
 var MONTH_NAMES=['January','February','March','April','May','June','July','August','September','October','November','December'];
 var DOW=['Su','Mo','Tu','We','Th','Fr','Sa'];
 
 function parseDeadline(dl){
   if(!dl) return null;
   var s=dl.toLowerCase();
-  if(/rolling|year.round|verify|watch|tbd|passed|varies|posted|typically|anytime|available now/i.test(s)) return null;
+  // Rolling / no-date patterns
+  if(/^\s*(rolling|year.round|posted|varies|apply when|open now|available now|typically)/.test(s)) return null;
+  if(/rolling|year.round/.test(s) && !/\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec|january|february|march|april|june|july|august|september|october|november|december)\b/.test(s)) return null;
+
   var MO=['january','february','march','april','may','june','july','august','september','october','november','december'];
   var SH=['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec'];
-  // Season + year
+
+  // Season + year: "Fall 2026" -> Oct 1
   var sm=s.match(/\b(spring|summer|fall|autumn|winter)\s+(20[2-3][0-9])/);
-  if(sm){var smap={spring:2,summer:6,fall:9,autumn:9,winter:11};return new Date(parseInt(sm[2]),smap[sm[1]]||9,1);}
-  // Numeric
+  if(sm){
+    var smap={spring:2,summer:6,fall:9,autumn:9,winter:11};
+    return new Date(parseInt(sm[2]),smap[sm[1]]||9,1);
+  }
+
+  // Numeric MM/DD/YYYY
   var nm=s.match(/(\d{1,2})[\/-](\d{1,2})[\/-](20[2-3][0-9])/);
   if(nm) return new Date(parseInt(nm[3]),parseInt(nm[1])-1,parseInt(nm[2]));
-  // First month name
+
+  // Find first month name
   var best={pos:99999,month:-1};
   for(var i=0;i<MO.length;i++){
     var p=s.indexOf(MO[i]); if(p>=0&&p<best.pos)best={pos:p,month:i};
     var p2=s.indexOf(SH[i]); if(p2>=0&&p2<best.pos)best={pos:p2,month:i};
   }
   if(best.month<0) return null;
+
   var ctx=s.slice(Math.max(0,best.pos-5),Math.min(s.length,best.pos+65));
-  var yrm=ctx.match(/20[2-3][0-9]/); var year=yrm?parseInt(yrm[0]):2026;
-  var daym=ctx.match(/\b([1-9]|[12][0-9]|3[01])(st|nd|rd|th)?\b/); var day=daym?parseInt(daym[1]):1;
+  var yrm=ctx.match(/20[2-3][0-9]/);
+  var daym=ctx.match(/\b([1-9]|[12][0-9]|3[01])(st|nd|rd|th)?\b/);
+  var day=daym?parseInt(daym[1]):1;
   if(day>31)day=1;
+
+  var year;
+  if(yrm){
+    year=parseInt(yrm[0]);
+  } else {
+    // No year in string — pick the next future occurrence of this month/day
+    var now=new Date();
+    var testYear=now.getFullYear();
+    var testDate=new Date(testYear,best.month,day);
+    if(testDate < now) testYear++;
+    year=testYear;
+  }
+
   try{return new Date(year,best.month,day);}catch(e){return null;}
 }
 
 function urgency(d){
-  if(!d) return 'future';
-  var diff=(d-new Date())/(864e5);
+  var diff=(d-new Date())/864e5;
   if(diff<0)   return 'passed';
   if(diff<30)  return 'urgent';
   if(diff<90)  return 'soon';
@@ -199,10 +243,10 @@ function urgency(d){
 
 function daysLabel(d){
   var diff=Math.round((d-new Date())/864e5);
-  if(diff<=0) return 'Today';
+  if(diff<=0) return 'Past';
   if(diff===1) return '1 day';
-  if(diff<7) return diff+'d';
-  if(diff<30) return Math.round(diff/7)+'wk';
+  if(diff<14) return diff+'d';
+  if(diff<60) return Math.round(diff/7)+'wk';
   return Math.round(diff/30)+'mo';
 }
 
@@ -214,43 +258,43 @@ function typeCls(t){
   return 'dp-service';
 }
 
-// Currently selected date key (YYYY-MM-DD) for detail panel
-var selectedKey = null;
+var selectedKey=null;
 
 function render(){
-  var items = getSavedItems();
-  var body = document.getElementById('tl-body');
+  var items=getSavedItems();
+  var body=document.getElementById('tl-body');
   body.innerHTML='';
 
-  var n = items.length;
-  document.getElementById('tl-count').textContent = n+' saved item'+(n===1?'':'s');
+  var n=items.length;
+  document.getElementById('tl-count').textContent=n+' saved item'+(n===1?'':'s');
 
   if(!n){
-    body.innerHTML='<div class="empty"><div class="empty-icon">&#128197;</div><div class="empty-title">No saved items yet</div><div class="empty-body">Save opportunities from any page to see them here on a calendar.</div></div>';
+    body.innerHTML='<div class="empty"><div class="empty-icon">&#128197;</div><div class="empty-title">No saved items yet</div><div class="empty-body">Save opportunities from My List to see them here.</div></div>';
     return;
   }
 
-  // Separate items into dated, rolling, nodates
   var dated=[], rolling=[], nodates=[];
   var now=new Date();
 
   items.forEach(function(it){
     var dl=it.deadline||'';
-    if(/rolling|year.round/i.test(dl)){ rolling.push(it); return; }
+    // Pure rolling — no month name present
+    if(/rolling|year.round/i.test(dl) && !/\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec|january|february|march|april|june|july|august|september|october|november|december)\b/i.test(dl)){
+      rolling.push(it); return;
+    }
+    if(/^\s*(posted|varies|apply when|open now|available now|typically)/i.test(dl)){
+      rolling.push(it); return;
+    }
     var d=parseDeadline(dl);
     if(d){ dated.push({item:it,date:d}); }
-    else if(dl && !/^\s*$/.test(dl)){ rolling.push(it); }
-    else { nodates.push(it); }
+    else if(!dl||/^\s*$/.test(dl)){ nodates.push(it); }
+    else { rolling.push(it); }
   });
 
-  // Sort dated
   dated.sort(function(a,b){return a.date-b.date;});
 
-  // Action strip — upcoming items needing attention
-  var upcoming = dated.filter(function(x){
-    var u=urgency(x.date);
-    return u==='urgent'||u==='soon';
-  });
+  // Action strip — future items needing attention
+  var upcoming=dated.filter(function(x){var u=urgency(x.date);return u==='urgent'||u==='soon';});
   if(upcoming.length){
     var strip=document.createElement('div'); strip.className='action-strip';
     var at=document.createElement('div'); at.className='action-title'; at.textContent='Needs attention soon'; strip.appendChild(at);
@@ -259,147 +303,123 @@ function render(){
       var arr=document.createElement('span'); arr.className='action-arrow'; arr.textContent='›'; row.appendChild(arr);
       var txt=document.createElement('span');
       var diff=Math.round((x.date-now)/864e5);
-      var when=diff<=0?'Today':diff===1?'Tomorrow':'in '+daysLabel(x.date);
-      txt.innerHTML='<strong>'+x.item.title.split('—')[0].trim().slice(0,45)+'</strong> — '+when+' ('+x.item.deadline.split(';')[0].trim().slice(0,40)+')';
+      var when=diff<=0?'Past':diff===1?'Tomorrow':'in '+daysLabel(x.date);
+      txt.innerHTML='<strong>'+x.item.title.split('\u2014')[0].split('—')[0].trim().slice(0,45)+'</strong> — '+when;
       row.appendChild(txt);
       strip.appendChild(row);
     });
     body.appendChild(strip);
   }
 
-  // Build month groups from dated items (skip fully passed months)
+  // Group ALL dated items by month (including past)
   var monthMap={};
   dated.forEach(function(x){
-    var u=urgency(x.date);
-    if(u==='passed') return; // skip past
     var k=x.date.getFullYear()+'-'+x.date.getMonth();
-    if(!monthMap[k]) monthMap[k]={year:x.date.getFullYear(),month:x.date.getMonth(),items:[]};
+    if(!monthMap[k])monthMap[k]={year:x.date.getFullYear(),month:x.date.getMonth(),items:[]};
     monthMap[k].items.push(x);
   });
   var monthKeys=Object.keys(monthMap).sort();
-
-  // Also include months with passed items for context — but only if they're the current month
-  var todayKey=now.getFullYear()+'-'+now.getMonth();
-  dated.forEach(function(x){
-    var u=urgency(x.date);
-    if(u!=='passed') return;
-    var k=x.date.getFullYear()+'-'+x.date.getMonth();
-    if(k===todayKey){
-      if(!monthMap[k]) monthMap[k]={year:x.date.getFullYear(),month:x.date.getMonth(),items:[]};
-      monthMap[k].items.push(x);
-      if(monthKeys.indexOf(k)<0) monthKeys.unshift(k);
-    }
-  });
-  monthKeys.sort();
 
   if(monthKeys.length){
     var calLbl=document.createElement('div'); calLbl.className='slabel'; calLbl.textContent='Deadline calendar'; body.appendChild(calLbl);
 
     // Legend
     var leg=document.createElement('div'); leg.className='legend';
-    [{cls:'ld-urgent',lbl:'Due within 30 days'},{cls:'ld-soon',lbl:'Due within 90 days'},{cls:'ld-ok',lbl:'Due within 9 months'},{cls:'ld-future',lbl:'Future'}].forEach(function(l){
+    [{cls:'ld-urgent',lbl:'Within 30 days'},{cls:'ld-soon',lbl:'Within 90 days'},{cls:'ld-ok',lbl:'Within 9 months'},{cls:'ld-future',lbl:'Future'},{cls:'ld-future',lbl:'Past (grayed)'}].forEach(function(l,i){
       var li=document.createElement('div'); li.className='leg-item';
-      var dot=document.createElement('div'); dot.className='leg-dot '+l.cls; li.appendChild(dot);
+      var dot=document.createElement('div'); dot.className='leg-dot '+l.cls;
+      if(i===4) dot.style.opacity='0.4';
+      li.appendChild(dot);
       var t=document.createElement('span'); t.textContent=l.lbl; li.appendChild(t);
       leg.appendChild(li);
     });
     body.appendChild(leg);
 
-    // Detail panel (shared, toggled by clicking dates)
-    var panel=document.createElement('div'); panel.className='detail-panel'; panel.id='detail-panel';
-    body.appendChild(panel);
+    var panel=document.createElement('div'); panel.className='detail-panel'; panel.id='detail-panel'; body.appendChild(panel);
 
-    // Calendar grid
     var grid=document.createElement('div'); grid.className='cal-grid';
-
     monthKeys.forEach(function(mk){
       var mg=monthMap[mk];
-      var cal=buildCalendar(mg.year, mg.month, mg.items, panel);
+      var isPast=(new Date(mg.year,mg.month+1,0) < now); // whole month is past
+      var cal=buildCalendar(mg.year,mg.month,mg.items,panel,isPast);
       grid.appendChild(cal);
     });
     body.appendChild(grid);
   }
 
-  // Rolling section
   if(rolling.length){
     var hr=document.createElement('hr'); body.appendChild(hr);
     var lbl=document.createElement('div'); lbl.className='slabel'; lbl.textContent='Rolling / apply anytime'; body.appendChild(lbl);
     var list=document.createElement('div'); list.className='no-date-list';
-    rolling.forEach(function(it){ list.appendChild(makeNdCard(it)); });
+    rolling.forEach(function(it){list.appendChild(makeNdCard(it));});
     body.appendChild(list);
   }
 
-  // No-date section
   if(nodates.length){
     var hr2=document.createElement('hr'); body.appendChild(hr2);
     var lbl2=document.createElement('div'); lbl2.className='slabel'; lbl2.textContent='No specific deadline — verify directly'; body.appendChild(lbl2);
     var list2=document.createElement('div'); list2.className='no-date-list';
-    nodates.forEach(function(it){ list2.appendChild(makeNdCard(it)); });
+    nodates.forEach(function(it){list2.appendChild(makeNdCard(it));});
     body.appendChild(list2);
   }
 }
 
-function buildCalendar(year, month, datedItems, panel){
-  // Map day -> items
+function buildCalendar(year,month,datedItems,panel,isPast){
   var dayMap={};
   datedItems.forEach(function(x){
-    if(x.date.getFullYear()===year && x.date.getMonth()===month){
+    if(x.date.getFullYear()===year&&x.date.getMonth()===month){
       var d=x.date.getDate();
-      if(!dayMap[d]) dayMap[d]=[];
+      if(!dayMap[d])dayMap[d]=[];
       dayMap[d].push(x);
     }
   });
 
   var now=new Date();
-  var firstDay=new Date(year,month,1).getDay(); // 0=Sun
+  var firstDay=new Date(year,month,1).getDay();
   var daysInMonth=new Date(year,month+1,0).getDate();
 
-  var wrap=document.createElement('div'); wrap.className='cal-month';
+  var wrap=document.createElement('div');
+  wrap.className='cal-month'+(isPast?' passed-month':'');
 
   var hdr=document.createElement('div'); hdr.className='cal-header';
-  hdr.textContent=MONTH_NAMES[month]+' '+year; wrap.appendChild(hdr);
+  hdr.textContent=MONTH_NAMES[month]+' '+year+(isPast?' (past)':''); wrap.appendChild(hdr);
 
   var body=document.createElement('div'); body.className='cal-body';
 
-  // Day-of-week headers
   var dow=document.createElement('div'); dow.className='cal-dow';
-  DOW.forEach(function(d){
+  ['Su','Mo','Tu','We','Th','Fr','Sa'].forEach(function(d){
     var c=document.createElement('div'); c.className='cal-dow-cell'; c.textContent=d; dow.appendChild(c);
   });
   body.appendChild(dow);
 
-  // Day cells
   var days=document.createElement('div'); days.className='cal-days';
-
-  // Empty cells before first day
   for(var i=0;i<firstDay;i++){
     var ec=document.createElement('div'); ec.className='cal-cell empty-cell'; days.appendChild(ec);
   }
-
   for(var d=1;d<=daysInMonth;d++){
     var cell=document.createElement('div'); cell.className='cal-cell';
-    // Today indicator
-    if(year===now.getFullYear()&&month===now.getMonth()&&d===now.getDate()){
-      cell.classList.add('today');
-    }
+    var thisDate=new Date(year,month,d);
+    var isToday=(year===now.getFullYear()&&month===now.getMonth()&&d===now.getDate());
+    if(isToday) cell.classList.add('today');
     var num=document.createElement('span'); num.textContent=d; cell.appendChild(num);
 
     if(dayMap[d]){
       cell.classList.add('has-deadline');
-      var items_here=dayMap[d];
-      // Dots
+      var isPastDate=thisDate<now;
+      if(isPastDate) cell.classList.add('past-deadline');
       var dotsEl=document.createElement('div'); dotsEl.className='cal-dots';
-      items_here.slice(0,3).forEach(function(x){
-        var dot=document.createElement('div'); dot.className='cal-dot '+urgency(x.date); dotsEl.appendChild(dot);
+      dayMap[d].slice(0,3).forEach(function(x){
+        var dot=document.createElement('div');
+        dot.className='cal-dot '+(isPastDate?'future':urgency(x.date));
+        dotsEl.appendChild(dot);
       });
       cell.appendChild(dotsEl);
-      // Click handler
       (function(year,month,d,items_here){
         cell.onclick=function(){
           var key=year+'-'+month+'-'+d;
-          showDetail(panel, key, year, month, d, items_here, cell);
+          showDetail(panel,key,year,month,d,items_here,cell);
         };
-      })(year,month,d,items_here);
+      })(year,month,d,dayMap[d]);
     }
     days.appendChild(cell);
   }
@@ -408,24 +428,18 @@ function buildCalendar(year, month, datedItems, panel){
   return wrap;
 }
 
-function showDetail(panel, key, year, month, day, items, clickedCell){
-  // Toggle off if same date clicked again
+function showDetail(panel,key,year,month,day,items,clickedCell){
   if(selectedKey===key){
     selectedKey=null;
-    panel.className='detail-panel';
-    panel.innerHTML='';
+    panel.className='detail-panel'; panel.innerHTML='';
     document.querySelectorAll('.cal-cell.active').forEach(function(c){c.classList.remove('active');});
     return;
   }
   selectedKey=key;
   document.querySelectorAll('.cal-cell.active').forEach(function(c){c.classList.remove('active');});
   clickedCell.classList.add('active');
-
-  panel.innerHTML='';
-  panel.className='detail-panel open';
-
-  // Scroll panel into view smoothly
-  setTimeout(function(){ panel.scrollIntoView({behavior:'smooth',block:'nearest'}); },50);
+  panel.innerHTML=''; panel.className='detail-panel open';
+  setTimeout(function(){panel.scrollIntoView({behavior:'smooth',block:'nearest'});},50);
 
   var dh=document.createElement('div'); dh.className='detail-date-header';
   dh.textContent=MONTH_NAMES[month]+' '+day+', '+year; panel.appendChild(dh);
@@ -433,35 +447,28 @@ function showDetail(panel, key, year, month, day, items, clickedCell){
   items.forEach(function(x){
     var it=x.item, u=urgency(x.date);
     var row=document.createElement('div'); row.className='detail-item';
-
     var bar=document.createElement('div'); bar.className='detail-urgency-bar bar-'+u; row.appendChild(bar);
-
     var main=document.createElement('div'); main.className='detail-main';
     var title=document.createElement('div'); title.className='detail-title';
     var lnk=document.createElement('a'); lnk.href=it.src||'erin_mylist.html'; lnk.target='_blank'; lnk.textContent=it.title; title.appendChild(lnk); main.appendChild(title);
     var org=document.createElement('div'); org.className='detail-org'; org.textContent=it.org; main.appendChild(org);
     var dl=document.createElement('div'); dl.className='detail-deadline'; dl.textContent='Deadline: '+it.deadline; main.appendChild(dl);
-
     var pills=document.createElement('div'); pills.className='detail-pills';
     var tp=document.createElement('span'); tp.className='dp '+typeCls(it.type); tp.textContent=it.type; pills.appendChild(tp);
     if(it.badge){var bp=document.createElement('span');bp.className='dp dp-badge';bp.textContent=it.badge;pills.appendChild(bp);}
     main.appendChild(pills);
-
     if(it.body){
       var bodyEl=document.createElement('div'); bodyEl.className='detail-body'; bodyEl.textContent=it.body; main.appendChild(bodyEl);
       var tog=document.createElement('button'); tog.className='detail-toggle'; tog.textContent='Show details ▾';
-      tog.onclick=function(){ bodyEl.classList.toggle('open'); tog.textContent=bodyEl.classList.contains('open')?'Hide details ▴':'Show details ▾'; }; main.appendChild(tog);
+      tog.onclick=function(){bodyEl.classList.toggle('open');tog.textContent=bodyEl.classList.contains('open')?'Hide details ▴':'Show details ▾';};
+      main.appendChild(tog);
     }
-
     row.appendChild(main);
-
-    // Days badge
     var diff=Math.round((x.date-new Date())/864e5);
-    if(diff>=0){
-      var badge=document.createElement('div'); badge.className='days-badge days-'+u;
-      badge.textContent=diff===0?'Today':daysLabel(x.date)+' left'; row.appendChild(badge);
-    }
-
+    var badge=document.createElement('div');
+    if(diff<0){badge.className='days-passed';badge.textContent='Past';}
+    else{badge.className='days-badge days-'+u;badge.textContent=diff===0?'Today':daysLabel(x.date)+' left';}
+    row.appendChild(badge);
     panel.appendChild(row);
   });
 }
@@ -478,7 +485,7 @@ function makeNdCard(it){
   return card;
 }
 
-render();
+pullCloud();
 
 </script>
 </body>
