@@ -57,42 +57,128 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
 .footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
 @media(max-width:520px){.pos-header{flex-direction:column;align-items:flex-start}.meta-grid{grid-template-columns:1fr}}
 
-.global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
-.gnav-inner{max-width:720px;margin:0 auto;display:flex;align-items:center;gap:0;overflow-x:auto;scrollbar-width:none}
+/* ── Global nav ── */
+.global-nav{
+  background:var(--bg);
+  border-bottom:.5px solid var(--bd);
+  position:sticky;top:0;z-index:100;
+  padding:0;
+  display:flex;
+  align-items:center;
+}
+.gnav-inner{
+  flex:1;
+  min-width:0;
+  display:flex;
+  align-items:center;
+  gap:0;
+  overflow-x:auto;
+  scrollbar-width:none;
+  padding:0 .5rem;
+}
 .gnav-inner::-webkit-scrollbar{display:none}
-.gnav-home{font-size:13px;font-weight:600;color:var(--t1);text-decoration:none;padding:11px 14px 11px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:4px;flex-shrink:0}
+.gnav-home{
+  font-size:13px;font-weight:600;color:var(--t1);
+  text-decoration:none;
+  padding:11px 12px 11px 8px;
+  white-space:nowrap;
+  border-right:.5px solid var(--bd);
+  margin-right:2px;
+  flex-shrink:0;
+}
 .gnav-home:hover{color:var(--teal-t)}
-.gnav-link{font-size:12px;font-weight:500;color:var(--t3);text-decoration:none;padding:11px 10px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
+.gnav-link{
+  font-size:12px;font-weight:500;color:var(--t3);
+  text-decoration:none;
+  padding:11px 9px;
+  white-space:nowrap;
+  border-bottom:2px solid transparent;
+  transition:color .12s,border-color .12s;
+  flex-shrink:0;
+}
 .gnav-link:hover{color:var(--t1)}
 .gnav-link.active{color:var(--teal-t);border-bottom-color:var(--teal)}
-
-.s-updated{
-  display:inline-flex;align-items:center;gap:5px;
-  background:#4c3bc4;color:#fff;
-  font-size:11px;font-weight:700;
-  padding:3px 10px;border-radius:999px;
-  letter-spacing:.03em;white-space:nowrap;
-  vertical-align:middle;margin-left:0
+/* Toggle: always at far right, never scrolls away */
+.gnav-toggle{
+  flex-shrink:0;
+  width:34px;height:34px;
+  margin:0 6px;
+  display:flex;align-items:center;justify-content:center;
+  border:1.5px solid var(--bd);
+  background:var(--bg2);
+  color:var(--t2);
+  cursor:pointer;
+  border-radius:6px;
+  font-family:var(--fn);
+  font-size:14px;
+  line-height:1;
+  transition:background .12s,border-color .12s;
 }
-html.dark .s-updated{background:#6d5fe0;color:#fff}
-
-/* Dark mode toggle */
-.gnav-toggle{margin-left:auto;flex-shrink:0;font-size:13px;padding:5px 10px;border:none;background:transparent;color:var(--t3);cursor:pointer;border-radius:6px;font-family:var(--fn);line-height:1}
-.gnav-toggle:hover{background:var(--bg2);color:var(--t1)}
+.gnav-toggle:hover{background:var(--bg3);border-color:var(--bds);color:var(--t1)}
+html.dark .gnav-toggle{background:var(--bg2);border-color:var(--bd);color:var(--t1)}
 /* Manual dark override (toggle) */
 
 html.dark body{background:var(--bg3);color:var(--t1)}
 
-.global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
-.gnav-inner{max-width:720px;margin:0 auto;display:flex;align-items:center;gap:0;overflow-x:auto;scrollbar-width:none}
+/* ── Global nav ── */
+.global-nav{
+  background:var(--bg);
+  border-bottom:.5px solid var(--bd);
+  position:sticky;top:0;z-index:100;
+  padding:0;
+  display:flex;
+  align-items:center;
+}
+.gnav-inner{
+  flex:1;
+  min-width:0;
+  display:flex;
+  align-items:center;
+  gap:0;
+  overflow-x:auto;
+  scrollbar-width:none;
+  padding:0 .5rem;
+}
 .gnav-inner::-webkit-scrollbar{display:none}
-.gnav-home{font-size:13px;font-weight:600;color:var(--t1);text-decoration:none;padding:11px 14px 11px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:4px;flex-shrink:0}
+.gnav-home{
+  font-size:13px;font-weight:600;color:var(--t1);
+  text-decoration:none;
+  padding:11px 12px 11px 8px;
+  white-space:nowrap;
+  border-right:.5px solid var(--bd);
+  margin-right:2px;
+  flex-shrink:0;
+}
 .gnav-home:hover{color:var(--teal-t)}
-.gnav-link{font-size:12px;font-weight:500;color:var(--t3);text-decoration:none;padding:11px 10px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
+.gnav-link{
+  font-size:12px;font-weight:500;color:var(--t3);
+  text-decoration:none;
+  padding:11px 9px;
+  white-space:nowrap;
+  border-bottom:2px solid transparent;
+  transition:color .12s,border-color .12s;
+  flex-shrink:0;
+}
 .gnav-link:hover{color:var(--t1)}
 .gnav-link.active{color:var(--teal-t);border-bottom-color:var(--teal)}
-.gnav-toggle{margin-left:auto;flex-shrink:0;font-size:14px;padding:5px 10px;border:none;background:transparent;color:var(--t3);cursor:pointer;border-radius:6px;font-family:var(--fn);line-height:1}
-.gnav-toggle:hover{background:var(--bg2);color:var(--t1)}
+/* Toggle: always at far right, never scrolls away */
+.gnav-toggle{
+  flex-shrink:0;
+  width:34px;height:34px;
+  margin:0 6px;
+  display:flex;align-items:center;justify-content:center;
+  border:1.5px solid var(--bd);
+  background:var(--bg2);
+  color:var(--t2);
+  cursor:pointer;
+  border-radius:6px;
+  font-family:var(--fn);
+  font-size:14px;
+  line-height:1;
+  transition:background .12s,border-color .12s;
+}
+.gnav-toggle:hover{background:var(--bg3);border-color:var(--bds);color:var(--t1)}
+html.dark .gnav-toggle{background:var(--bg2);border-color:var(--bd);color:var(--t1)}
 
 .page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.5rem}
 .page-header-eyebrow{font-size:11px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-t);margin-bottom:.25rem}
@@ -182,7 +268,17 @@ html:not(.dark) {
   --blue-bg:#e5f0f0;--amber-bg:#f5f0db;--amber-t:#6b5500;
   --red-bg:#faece7;--red-t:#993c1d;
   --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
-}</style>
+}
+/* Page search bar */
+.page-search-wrap{display:flex;align-items:center;gap:.5rem;margin-bottom:1.25rem;padding:.5rem .75rem;background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r1)}
+.page-search-icon{font-size:14px;color:var(--t3);flex-shrink:0}
+.page-search-input{flex:1;border:none;background:transparent;outline:none;font-size:13px;color:var(--t1);font-family:var(--fn)}
+.page-search-input::placeholder{color:var(--t3)}
+.page-search-clear{font-size:12px;color:var(--t3);background:none;border:none;cursor:pointer;font-family:var(--fn);flex-shrink:0;display:none}
+.page-search-count{font-size:11px;color:var(--t3);flex-shrink:0;white-space:nowrap}
+.search-hidden{display:none!important}
+
+</style>
 
 <script>
 (function(){
@@ -206,9 +302,10 @@ html:not(.dark) {
     <a href="erin_applications.html" class="gnav-link">&#128196; Applications</a>
     <a href="erin_proftracker.html" class="gnav-link">&#128100; Professors</a>
     <a href="erin_reftracker.html" class="gnav-link">&#128393; References</a>
-    <a href="erin_outreach.html" class="gnav-link">&#9997;&#65039; Outreach</a>
-    <button class="gnav-toggle" id="theme-toggle" onclick="__toggleTheme()" title="Toggle dark/light">&#127769;</button>
+    <a href="erin_writing_samples.html" class="gnav-link">&#9997; Writing</a>
+    <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
   </div>
+  <button class="gnav-toggle" id="theme-toggle" onclick="__toggleTheme()" title="Toggle dark/light mode">&#127769;</button>
 </nav>
 
 <div class="page">
@@ -618,6 +715,56 @@ document.addEventListener('DOMContentLoaded',function(){
   });
 });
 })();
+</script>
+
+
+<script>
+function pageSearch(q){
+  var inp=document.getElementById('psr-input');
+  var clr=document.getElementById('psr-clear');
+  var cnt=document.getElementById('psr-count');
+  if(clr) clr.style.display=q?'block':'none';
+  
+  // Find all searchable cards and card-like blocks
+  var cards=document.querySelectorAll('.pos-card,.card,.context-banner,.card-deadline');
+  var shown=0, hidden=0;
+  var ql=q.toLowerCase().trim();
+  
+  cards.forEach(function(card){
+    if(!ql){ card.classList.remove('search-hidden'); shown++; return; }
+    var text=card.textContent.toLowerCase();
+    if(text.indexOf(ql)>-1){ card.classList.remove('search-hidden'); shown++; }
+    else{ card.classList.add('search-hidden'); hidden++; }
+  });
+  
+  // Also hide/show slabels that have no visible children
+  document.querySelectorAll('.slabel,.section-label,.ph2').forEach(function(lbl){
+    if(!ql){ lbl.classList.remove('search-hidden'); return; }
+    // Find next sibling cards
+    var el=lbl.nextElementSibling;
+    var anyVisible=false;
+    while(el&&!el.classList.contains('slabel')&&!el.classList.contains('rl-wrap')){
+      if(el.classList.contains('pos-card')||el.classList.contains('card')){
+        if(!el.classList.contains('search-hidden')) anyVisible=true;
+      }
+      el=el.nextElementSibling;
+    }
+    lbl.classList.toggle('search-hidden',!anyVisible);
+  });
+  
+  if(cnt){
+    if(ql) cnt.textContent=shown+' result'+(shown===1?'':'s');
+    else cnt.textContent='';
+  }
+}
+// Keyboard shortcut: / to focus search
+document.addEventListener('keydown',function(e){
+  if(e.key==='/'&&document.activeElement.tagName!=='INPUT'&&document.activeElement.tagName!=='TEXTAREA'){
+    e.preventDefault();
+    var inp=document.getElementById('psr-input');
+    if(inp) inp.focus();
+  }
+});
 </script>
 
 </body>
