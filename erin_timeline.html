@@ -27,7 +27,7 @@ a:hover{text-decoration:underline}
 .empty{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:2.5rem;text-align:center}
 .empty-icon{font-size:32px;margin-bottom:.65rem}
 .empty-title{font-size:15px;font-weight:500;margin-bottom:.35rem}
-.empty-body{font-size:13px;color:var(--t2);line-height:1.65}
+.detail-body{font-size:13px;color:var(--t2);line-height:1.65}
 .footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
 
 /* Hero */
@@ -102,7 +102,7 @@ a:hover{text-decoration:underline}
 .detail-title{font-size:14px;font-weight:500;color:var(--t1);line-height:1.4;margin-bottom:2px}
 .detail-org{font-size:12px;color:var(--t3);margin-bottom:.35rem}
 .detail-deadline{font-size:12px;color:var(--t2);margin-bottom:.35rem}
-.detail-body{font-size:12px;color:var(--t2);line-height:1.6;margin-top:.4rem;display:none}
+.detail-body{font-size:12px;color:var(--t2);line-height:1.6;margin-top:.4rem;display:none}.detail-body.open{display:block}
 .detail-body.open{display:block}
 .detail-pills{display:flex;flex-wrap:wrap;gap:4px;margin-top:.35rem}
 .dp{font-size:11px;font-weight:500;padding:2px 7px;border-radius:999px}
@@ -165,13 +165,13 @@ a:hover{text-decoration:underline}
 
 html.dark .s-updated{background:#2d2563;color:#b5abfa}
 
-.page{max-width:720px;margin:0 auto;padding:0 1rem}
+
 /* ensure page-header gets left padding from .page */
 .page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.5rem}
 
 /* Layout */
 body{padding:0 0 2rem;margin:0}
-.page{max-width:720px;margin:0 auto;padding:0 1rem}
+.page{max-width:760px;margin:0 auto;padding:0 1.25rem}
 .page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.5rem}
 
 /* ════════════════════════════════════
@@ -268,17 +268,11 @@ html:not(.dark) {
 <div class="page-header">
   <div class="page-header-eyebrow">What's Next for Erin</div>
   <div class="page-header-title">Deadline Timeline</div>
-  <div class="page-header-sub">All deadlines from your saved list in chronological order</div>
+  <div class="page-header-sub">All deadlines from your saved list in chronological order &mdash; <span id="tl-count" style="color:var(--teal-t);font-weight:500">loading&hellip;</span></div>
 </div>
-
-      <div class="hero-meta" id="tl-count">Loading&#8230;</div>
-    </div>
-    <div style="font-size:12px;color:var(--t3);text-align:right">From your saved list<br>Click any marked date for details</div>
-  </div>
   <div id="tl-body"></div>
 
-  <p class="footer">Deadlines parsed from your saved opportunities. Always verify directly before applying.<br><br>
-    <a href="erin_mylist.html">&#8592; My List</a>&nbsp;&nbsp;<a href="index.html">&#8592; Home</a></p>
+  <p class="footer">Deadlines parsed from your saved opportunities. Always verify directly before applying.</p>
 </div>
 
 <script>
