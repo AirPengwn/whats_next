@@ -157,6 +157,22 @@ html:not(.dark) {
 .opp-link:hover{background:var(--teal-bg)}
 .opp-link-sec{color:var(--blue);border-color:var(--blue)}
 .opp-link-sec:hover{background:var(--blue-bg)}
+
+/* Reference guidance section */
+.ref-guide{display:flex;flex-direction:column;gap:.6rem;margin-bottom:1.5rem}
+.ref-guide-section{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);overflow:hidden}
+.ref-guide-heading{font-size:11px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--teal-t);background:var(--teal-bg);padding:.55rem 1rem;cursor:pointer;display:flex;justify-content:space-between;align-items:center;user-select:none}
+.ref-guide-heading:hover{background:var(--bg3)}
+.ref-guide-arrow{font-size:10px;color:var(--t3);transition:transform .2s;display:inline-block}
+.ref-guide-section.open .ref-guide-arrow{transform:rotate(90deg)}
+.ref-guide-body{display:none;padding:.75rem 1rem;font-size:13px;color:var(--t2);line-height:1.65;border-top:.5px solid var(--bd)}
+.ref-guide-section.open .ref-guide-body{display:block}
+.ref-guide-body p{margin:0 0 .6rem}
+.ref-guide-body p:last-child{margin-bottom:0}
+.ref-guide-body ul{margin:.3rem 0 .6rem 1.1rem;padding:0}
+.ref-guide-body ul:last-child{margin-bottom:0}
+.ref-guide-body li{margin-bottom:.35rem}
+.ref-guide-body strong{color:var(--t1);font-weight:600}
 </style>
 <script>
 (function(){
@@ -205,7 +221,83 @@ html:not(.dark) {
   <div style="font-size:18px;font-weight:500;margin-bottom:3px">&#128393; Reference Letter Tracker</div>
   <div style="font-size:13px;color:var(--t2)" id="ref-count">Loading&#8230;</div>
 </div>
-<div class="tip">&#9888;&nbsp; Most grad programs require <strong>2–3 letters</strong>. Federal positions often need 3. Ask well in advance — give recommenders at least 4–6 weeks. Send them your resume, SOP draft, a list of programs, and all deadlines.</div>
+<div class="tip" style="margin-bottom:.75rem">
+  &#9888;&nbsp; Most grad programs require <strong>2&ndash;3 letters</strong>. Federal positions often need 3. Ask at least <strong>4&ndash;6 weeks in advance</strong> &mdash; earlier is always better. Faculty receive many requests in fall; reach out in August&ndash;September before the rush.
+</div>
+
+<div class="ref-guide">
+
+  <div class="ref-guide-section">
+    <div class="ref-guide-heading"><span>&#128221; Who to ask</span><span class="ref-guide-arrow">&#9654;</span></div>
+    <div class="ref-guide-body">
+      <p>The strongest letters for environmental science grad programs come from people who have seen your scientific work directly. In rough priority order:</p>
+      <ul>
+        <li><strong>Your capstone advisor / GEOL 495 supervisor</strong> &mdash; can speak directly to your Pigeon River research, field methods, and independent thinking. This is your strongest letter for any wetland, water quality, or contaminated-site program.</li>
+        <li><strong>Lab / field course instructors</strong> (GEOL 455 Wetlands, GEOL 423 Contaminated Rivers, ENVH 310 Water Quality, NRM 479 Mammalogy) &mdash; these professors saw your hands-on skills and know your technical depth.</li>
+        <li><strong>Research or internship supervisors</strong> &mdash; anyone who supervised you in a professional or field context can speak to work ethic, reliability, and applied skills.</li>
+        <li><strong>Academic advisor or department chair</strong> &mdash; good for a third letter if you need one, attesting to overall academic record and character.</li>
+      </ul>
+      <p style="color:var(--red-t);font-size:12px">&#9888; Avoid asking professors from large lecture courses who don&rsquo;t know you personally &mdash; a generic letter hurts more than it helps.</p>
+    </div>
+  </div>
+
+  <div class="ref-guide-section">
+    <div class="ref-guide-heading"><span>&#9993; How to ask &mdash; the right way</span><span class="ref-guide-arrow">&#9654;</span></div>
+    <div class="ref-guide-body">
+      <p>Send a personal email. Include:</p>
+      <ul>
+        <li><strong>A specific reminder of your work together</strong> &mdash; the course, the project, a result they&rsquo;d remember. Don&rsquo;t assume they remember you clearly.</li>
+        <li><strong>What programs you&rsquo;re applying to</strong> &mdash; list them with deadlines. A table works well: Program | Deadline | Submission method.</li>
+        <li><strong>What you&rsquo;d like them to highlight</strong> &mdash; give them a hook specific to what they know about you. &ldquo;I&rsquo;d love it if you could speak to my fieldwork in the Pigeon River watershed and my ability to design and execute independent research.&rdquo;</li>
+        <li><strong>Your resume and SOP draft</strong> &mdash; attach both so they have everything without chasing you.</li>
+        <li><strong>Submission instructions</strong> for each program &mdash; some email the recommender directly; others use a portal. Clarify this upfront.</li>
+        <li><strong>An explicit out</strong> &mdash; say &ldquo;Please let me know if you&rsquo;re not able to commit to this timeline &mdash; I completely understand.&rdquo; This makes it easy to decline gracefully, and you&rsquo;ll get a better letter from someone who genuinely said yes.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="ref-guide-section">
+    <div class="ref-guide-heading"><span>&#128197; Timing strategy</span><span class="ref-guide-arrow">&#9654;</span></div>
+    <div class="ref-guide-body">
+      <ul>
+        <li><strong>August&ndash;September 2026:</strong> Reach out to all recommenders before faculty are overwhelmed with fall requests. Give them the full program list and all deadlines at this point.</li>
+        <li><strong>2&ndash;3 weeks before each deadline:</strong> Send a friendly reminder with the specific program name, deadline, and submission link. Don&rsquo;t wait until the week of.</li>
+        <li><strong>After submission:</strong> Send a thank-you email. Tell them the outcome when you hear back &mdash; faculty genuinely appreciate knowing how things turned out.</li>
+        <li><strong>If a deadline passes without confirmation:</strong> Check the portal first. Then follow up politely: &ldquo;Just checking in to make sure the letter for [Program] went through &mdash; the deadline was [date].&rdquo;</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="ref-guide-section">
+    <div class="ref-guide-heading"><span>&#128196; Materials packet to send them</span><span class="ref-guide-arrow">&#9654;</span></div>
+    <div class="ref-guide-body">
+      <p>Put together a single organized email or shared folder with:</p>
+      <ul>
+        <li>Your current <strong>CV / resume</strong></li>
+        <li>A <strong>draft statement of purpose</strong> (even if not final &mdash; it helps them tailor the letter)</li>
+        <li>A <strong>program list with deadlines</strong> &mdash; one table, all programs, sorted by deadline date</li>
+        <li>A brief <strong>&ldquo;what I&rsquo;d like you to highlight&rdquo;</strong> paragraph specific to this recommender&rsquo;s knowledge of you</li>
+        <li><strong>Submission instructions</strong> for each program (portal link, direct email, etc.)</li>
+        <li>Your <strong>unofficial transcript</strong> if they want context on your full coursework record</li>
+      </ul>
+      <p style="font-size:12px;color:var(--t3)">Make it as easy as possible for them. The more organized your packet, the better and faster the letter.</p>
+    </div>
+  </div>
+
+  <div class="ref-guide-section">
+    <div class="ref-guide-heading"><span>&#128161; Erin-specific tips</span><span class="ref-guide-arrow">&#9654;</span></div>
+    <div class="ref-guide-body">
+      <ul>
+        <li>Your <strong>Pigeon River / Hurricane Helene capstone</strong> is your strongest asset &mdash; ensure at least one recommender can speak to this project specifically: the field methods, the contamination findings, and your independent initiative.</li>
+        <li>For <strong>NC State / Dr. Forrester&rsquo;s lab</strong>: if you have already emailed Dr. Forrester and received a response, mention that in your ask to your recommender &mdash; it signals that this program is realistic and helps them frame the letter.</li>
+        <li>For <strong>federal positions</strong> (USGS, FWS, USACE): a supervisor-level reference who can speak to field skills and reliability carries the most weight. Academic letters are secondary for these roles.</li>
+        <li>If asking a professor you haven&rsquo;t been in touch with since graduation: <strong>re-introduce yourself clearly</strong> &mdash; your name, the course, the semester, and a specific memory they&rsquo;d have of you. Professors teach hundreds of students each year; help them place you.</li>
+        <li>WCU faculty who wrote your undergraduate recommendations (if any) are the warmest ask &mdash; they already know you well and want to support your next step.</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
 <div class="summary-row" id="summary-row"></div>
 <div id="deadline-section" style="margin-bottom:1rem"></div>
 <button class="add-btn" onclick="addCard()">&#43; Add recommender</button>
@@ -424,6 +516,14 @@ function render(){
 }
 
 pullRefs();
+
+
+// Reference guide collapsible sections
+document.querySelectorAll('.ref-guide-heading').forEach(function(hdr){
+  hdr.addEventListener('click', function(){
+    hdr.parentElement.classList.toggle('open');
+  });
+});
 
 </script>
 </body>
