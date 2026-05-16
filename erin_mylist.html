@@ -610,6 +610,7 @@ function renderBrowse(){
   Object.keys(groups).sort().forEach(function(g){
     var lbl=el('div','sec-label'); lbl.innerHTML=g+' <span class="sec-count">'+groups[g].length+'</span>'; body.appendChild(lbl);
     groups[g].forEach(function(it){
+      it=mergeWithAll(it);
       var saved=has(it.id);
       var card=el('div','browse-card'+(saved?' is-saved':'')); card.id='bc-'+it.id;
       card.appendChild(el('div','browse-title',it.title));
@@ -658,7 +659,7 @@ function renderBrowse(){
         renderList(); renderBrowse();
       };
       acts.appendChild(sb);
-      if(it.body||it.deadline||it.pills){ var tb=el('button','b-toggle','Details'); tb.onclick=function(){ bd.classList.toggle('open'); tb.textContent=bd.classList.contains('open')?'Hide details':'Details'; }; acts.appendChild(tb); }
+      if(it.body||it.deadline||it.pills||it.url||it.pay||it.extbody){ var tb=el('button','b-toggle','Details'); tb.onclick=function(){ bd.classList.toggle('open'); tb.textContent=bd.classList.contains('open')?'Hide details':'Details'; }; acts.appendChild(tb); }
       card.appendChild(acts);
       body.appendChild(card);
     });
