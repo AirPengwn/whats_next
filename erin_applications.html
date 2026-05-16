@@ -27,53 +27,126 @@ html.dark .gnav-toggle{background:var(--bg2);border-color:var(--bd);color:var(--
 .page-header-eyebrow{font-size:11px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-t);margin-bottom:.25rem}
 .page-header-title{font-size:24px;font-weight:700;color:var(--t1);line-height:1.2;letter-spacing:-.02em;margin-bottom:.2rem}
 .page-header-sub{font-size:13px;color:var(--t2);line-height:1.5}
-/* Remove old top-nav bubble gap */
-.top-nav{display:none!important}
 
-.s-updated{background:#e8e4fe;color:#4c3bc4}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 
-html.dark .s-updated{background:#2d2563;color:#b5abfa}
-
+@media(prefers-color-scheme:dark){}
+body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem}
 .page{max-width:720px;margin:0 auto;padding:0 1rem}
-/* ensure page-header gets left padding from .page */
-.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.5rem}
 
-/* Layout */
-body{padding:0 0 2rem;margin:0}
-.page{max-width:720px;margin:0 auto;padding:0 1rem}
-.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.5rem}
+/* ── GLOBAL NAV ── */
+
+.top-bar{padding:1.25rem 0 0}
+.pg-title{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin-bottom:.15rem}
+hr{border:none;border-top:.5px solid var(--bd);margin:1.5rem 0}
+a{color:var(--blue);text-decoration:none}
+a:hover{text-decoration:underline}
+.slabel{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin-bottom:.6rem}
+.card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1.1rem 1.25rem;margin-bottom:.75rem}
+.tip{border-left:3px solid var(--teal);background:var(--bg2);padding:.75rem 1rem;margin-bottom:1.1rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
+.empty{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:2.5rem;text-align:center}
+.empty-icon{font-size:32px;margin-bottom:.65rem}
+.empty-title{font-size:15px;font-weight:500;margin-bottom:.35rem}
+.empty-body{font-size:13px;color:var(--t2);line-height:1.65}
+.footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
+
+/* summary pills */
+.summary-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1.1rem}
+.sum-pill{font-size:12px;font-weight:500;padding:4px 12px;border-radius:999px;background:var(--bg);border:.5px solid var(--bd)}
+
+/* status pipeline legend */
+.pipeline{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:1.25rem;align-items:center}
+.pipe-step{font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px}
+.ps-notstarted{background:var(--bg2);color:var(--t3);border:.5px solid var(--bd)}
+.ps-gathering{background:var(--amber-bg);color:var(--amber-t)}
+.ps-submitted{background:var(--blue-bg);color:var(--blue)}
+.ps-review{background:var(--purple-bg);color:var(--purple-t)}
+.ps-decision{background:var(--teal-bg);color:var(--teal-t)}
+.ps-accepted{background:#e1f5ee;color:#0f6e56;border:1.5px solid #0f6e56}
+.ps-declined{background:var(--red-bg);color:var(--red-t)}
+.ps-waitlisted{background:var(--amber-bg);color:var(--amber-t);border:1.5px solid #ef9f27}
+.pipe-arrow{font-size:14px;color:var(--t3)}
+
+/* app card */
+.app-card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:.65rem;transition:border-color .12s}
+.app-card.status-gathering{border-left:3px solid #ef9f27}
+.app-card.status-submitted{border-left:3px solid #185fa5}
+.app-card.status-review{border-left:3px solid #534ab7}
+.app-card.status-decision{border-left:3px solid var(--teal)}
+.app-card.status-accepted{border-left:3px solid #0f6e56;background:var(--teal-bg)}
+.app-card.status-declined{border-left:3px solid #993c1d;opacity:.7}
+.app-card.status-waitlisted{border-left:3px solid #ef9f27}
+.app-header{display:flex;align-items:flex-start;justify-content:space-between;gap:.75rem;margin-bottom:.5rem;flex-wrap:wrap}
+.app-title{font-size:14px;font-weight:500;color:var(--t1);line-height:1.4}
+.app-org{font-size:12px;color:var(--t3);margin-bottom:.5rem}
+.app-deadline{font-size:12px;color:var(--t2);margin-bottom:.6rem}
+
+/* fields grid */
+.app-row{display:grid;grid-template-columns:1fr 1fr;gap:.5rem .75rem;margin-bottom:.65rem}
+@media(max-width:480px){.app-row{grid-template-columns:1fr}}
+.app-field{}
+.app-lbl{font-size:11px;font-weight:500;color:var(--t3);text-transform:uppercase;letter-spacing:.05em;margin-bottom:3px}
+.app-input{font-size:13px;padding:6px 10px;border-radius:var(--r1);border:1px solid var(--bds);background:var(--bg2);color:var(--t1);width:100%;font-family:var(--fn)}
+.app-input:focus{outline:none;border-color:var(--teal)}
+.app-select{font-size:13px;padding:6px 10px;border-radius:var(--r1);border:1px solid var(--bds);background:var(--bg2);color:var(--t1);width:100%;font-family:var(--fn);cursor:pointer}
+.app-select:focus{outline:none;border-color:var(--teal)}
+.app-ta{font-size:13px;padding:6px 10px;border-radius:var(--r1);border:1px solid var(--bds);background:var(--bg2);color:var(--t1);width:100%;font-family:var(--fn);resize:vertical;min-height:52px}
+.app-ta:focus{outline:none;border-color:var(--teal)}
+
+/* materials checklist */
+.checklist-section{margin-bottom:.65rem}
+.checklist-title{font-size:11px;font-weight:500;color:var(--t3);text-transform:uppercase;letter-spacing:.05em;margin-bottom:.4rem}
+.checklist-grid{display:grid;grid-template-columns:1fr 1fr;gap:3px 16px}
+@media(max-width:400px){.checklist-grid{grid-template-columns:1fr}}
+.check-item{display:flex;align-items:center;gap:7px;font-size:13px;color:var(--t2);padding:3px 0;cursor:pointer}
+.check-item input[type=checkbox]{width:15px;height:15px;border-radius:3px;accent-color:var(--teal);cursor:pointer;flex-shrink:0}
+.check-item.checked-item{color:var(--t3);text-decoration:line-through}
+.checklist-progress{height:4px;border-radius:2px;background:var(--bg3);margin-top:.5rem;overflow:hidden}
+.checklist-bar{height:100%;border-radius:2px;background:var(--teal);transition:width .3s}
+
+/* actions row */
+.app-actions{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin-top:.3rem}
+.save-btn{font-size:12px;font-weight:500;padding:4px 14px;border-radius:999px;border:none;background:var(--teal);color:#fff;cursor:pointer;font-family:var(--fn)}
+.del-btn{font-size:12px;color:var(--t3);background:none;border:none;cursor:pointer;padding:0;font-family:var(--fn);margin-left:auto}
+.del-btn:hover{color:#c0392b}
+.saved-flash{font-size:12px;color:var(--teal-t);display:none;font-weight:500}
+
+/* status pill display */
+.status-pill{font-size:11px;font-weight:500;padding:2px 9px;border-radius:999px}
+
+/* add button */
+.add-btn{display:flex;align-items:center;gap:.5rem;font-size:13px;font-weight:500;padding:8px 18px;border-radius:999px;border:1.5px solid var(--teal);background:transparent;color:var(--teal-t);cursor:pointer;font-family:var(--fn);margin-bottom:1rem}
+.add-btn:hover{background:var(--teal-bg)}
+
+/* type filter */
+.filter-row{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:1rem}
+.f-btn{font-size:12px;font-weight:500;padding:3px 12px;border-radius:999px;border:1px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn)}
+.f-btn.on{background:var(--teal);border-color:var(--teal);color:#fff}
+.f-btn:not(.on):hover{background:var(--bg2)}
+
+
+
+
 
 /* ════════════════════════════════════
-   THEME VARIABLES — What's Next for Erin
+   THEME VARIABLES
    Light: Medium grey scale palette
    Dark: Forest green palette
    ════════════════════════════════════ */
-
-/* Light mode base */
 :root {
-  /* Grey scale (Medium palette) */
-  --bg:   #FAFAFA;   /* grey-50  — card white */
-  --bg2:  #F5F5F5;   /* grey-100 — subtle areas */
-  --bg3:  #EEEEEE;   /* grey-200 — page background */
-  --t1:   #212121;   /* grey-900 — primary text */
-  --t2:   #424242;   /* grey-800 — secondary text */
-  --t3:   #757575;   /* grey-600 — muted text */
-  --bd:   rgba(0,0,0,0.10);
-  --bds:  rgba(0,0,0,0.22);
-  /* Shared */
+  --bg:#FAFAFA;--bg2:#F5F5F5;--bg3:#EEEEEE;
+  --t1:#212121;--t2:#424242;--t3:#757575;
+  --bd:rgba(0,0,0,0.10);--bds:rgba(0,0,0,0.22);
   --r1:8px;--r2:12px;
   --fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
-  /* Green accents (from original palette) */
   --teal:#4e9836;--teal-bg:#eaf3e5;--teal-t:#3c7b20;
   --blue:#3a7878;--blue-bg:#e5f0f0;
   --amber:#8a6f00;--amber-bg:#f5f0db;--amber-t:#6b5500;
   --red:#993c1d;--red-bg:#faece7;--red-t:#993c1d;
   --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
 }
-
-/* System dark mode (auto) */
-@media(prefers-color-scheme:dark) {
-  :root {
+@media(prefers-color-scheme:dark){
+  :root{
     --bg:#1c2018;--bg2:#242b1e;--bg3:#18201a;
     --t1:#f0ede0;--t2:#c0c4a8;--t3:#9dc8c8;
     --bd:rgba(157,200,200,0.15);--bds:rgba(157,200,200,0.28);
@@ -83,9 +156,7 @@ body{padding:0 0 2rem;margin:0}
     --purple-bg:#2d2563;--purple-t:#b5abfa;
   }
 }
-
-/* Manual toggle — must come LAST so it overrides both :root and @media */
-html.dark {
+html.dark{
   --bg:#1c2018;--bg2:#242b1e;--bg3:#18201a;
   --t1:#f0ede0;--t2:#c0c4a8;--t3:#9dc8c8;
   --bd:rgba(157,200,200,0.15);--bds:rgba(157,200,200,0.28);
@@ -94,8 +165,7 @@ html.dark {
   --red-bg:#3d1510;--red-t:#f5a490;
   --purple-bg:#2d2563;--purple-t:#b5abfa;
 }
-/* Override light mode when .dark is set (belt AND suspenders) */
-html:not(.dark) {
+html:not(.dark){
   --bg:#FAFAFA;--bg2:#F5F5F5;--bg3:#EEEEEE;
   --t1:#212121;--t2:#424242;--t3:#757575;
   --bd:rgba(0,0,0,0.10);--bds:rgba(0,0,0,0.22);
@@ -103,22 +173,7 @@ html:not(.dark) {
   --blue-bg:#e5f0f0;--amber-bg:#f5f0db;--amber-t:#6b5500;
   --red-bg:#faece7;--red-t:#993c1d;
   --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
-}.opp-link{font-size:11px;font-weight:500;color:var(--teal-t);text-decoration:none;padding:2px 7px;border:1px solid var(--teal);border-radius:5px;white-space:nowrap}
-.opp-link:hover{background:var(--teal-bg)}
-.opp-link-sec{color:var(--blue);border-color:var(--blue)}
-.opp-link-sec:hover{background:var(--blue-bg)}
-
-@media print {
-  .global-nav, .gnav-inner, button, .add-btn, .del-btn, .save-btn,
-  .mode-tabs, .list-filters, .browse-actions, .item-actions, .note-area,
-  .saved-flash, .app-row, .app-actions, footer, .footer { display:none!important }
-  body { background:#fff!important; color:#000!important }
-  .page { max-width:100%!important; padding:0!important }
-  .page-header { border-bottom:1px solid #ccc!important }
-  .item-card, .app-card, .prof-card, .browse-card { 
-    border:1px solid #ccc!important; break-inside:avoid; margin-bottom:.5rem!important }
 }
-
 </style>
 <script>
 (function(){
@@ -155,7 +210,7 @@ html:not(.dark) {
 <div class="page-header">
   <div class="page-header-eyebrow">What's Next for Erin</div>
   <div class="page-header-title">Application Tracker</div>
-  <div class="page-header-sub">Track every application — status, portal, materials, and decision</div>
+  <div class="page-header-sub">Track every application — status, portal, materials, and decision &mdash; <span id="app-count" style="color:var(--teal-t);font-weight:500"></span></div>
 </div>
 <div class="tip">&#127919;&nbsp; Auto-populated from your saved <strong>Graduate Programs</strong> in My List. Track every application from first draft through decision. Use the materials checklist on each card to know exactly what&rsquo;s done and what&rsquo;s left.</div>
 
