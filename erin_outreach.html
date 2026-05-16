@@ -220,94 +220,23 @@ function generateEmail(){
   if(typeSel==='inquiry'){
     if(isGrad){
       subject='Prospective MS Student — '+title.split('—')[0].trim().slice(0,50);
-      body='Dear '+profSalut+',
-
-I am writing to inquire about graduate research opportunities in your lab at '+institution+'. I recently completed my BS in Environmental Science at Western Carolina University (May 2025, Magna Cum Laude, GPA 3.731) and am very interested in your research on '+research+'.
-
-For my senior capstone, I investigated lead and heavy metal contamination in the Pigeon River watershed following Hurricane Helene — combining field sampling, water quality analysis, and GIS mapping. This experience gave me hands-on training directly relevant to your work. My relevant coursework includes '+courseStr+'.
-
-I also bring field experience in wetland delineation, mammalian surveying, electrofishing, and aquatic macroinvertebrate sampling. I am particularly drawn to '+institution+' because '+research.slice(0,120)+'.
-
-I have attached my CV. I would welcome the opportunity to discuss potential research directions and funding availability. Are you expecting to take on MS students for the upcoming cycle?
-
-Thank you for your time and consideration.
-
-Best regards,
-Erin Lamberton
-erin.lamberton@gmail.com
-LinkedIn: [your LinkedIn URL]';
+      body='Dear '+profSalut+',\n\nI am writing to inquire about graduate research opportunities in your lab at '+institution+'. I recently completed my BS in Environmental Science at Western Carolina University (May 2025, Magna Cum Laude, GPA 3.731) and am very interested in your research on '+research+'.\n\nFor my senior capstone, I investigated lead and heavy metal contamination in the Pigeon River watershed following Hurricane Helene — combining field sampling, water quality analysis, and GIS mapping. This experience gave me hands-on training directly relevant to your work. My relevant coursework includes '+courseStr+'.\n\nI also bring field experience in wetland delineation, mammalian surveying, electrofishing, and aquatic macroinvertebrate sampling. I am particularly drawn to '+institution+' because '+research.slice(0,120)+'.\n\nI have attached my CV. I would welcome the opportunity to discuss potential research directions and funding availability. Are you expecting to take on MS students for the upcoming cycle?\n\nThank you for your time and consideration.\n\nBest regards,\nErin Lamberton\nerin.lamberton@gmail.com\nLinkedIn: [your LinkedIn URL]';
     } else {
       subject='Application Inquiry — '+title.slice(0,55);
-      body='Dear '+profSalut+',
-
-I am writing to express my strong interest in the '+title+' position at '+institution+'. I recently completed my BS in Environmental Science at Western Carolina University (May 2025, Magna Cum Laude) and am actively building field and research experience before graduate school.
-
-My background includes '+courseStr+', as well as hands-on field experience in wetland delineation, water quality sampling, wildlife surveys, and GIS. For my senior capstone I investigated heavy metal contamination in the Pigeon River watershed following Hurricane Helene — a project that combined field sampling, lab analysis, and spatial data analysis.
-
-I am drawn to this opportunity because it directly aligns with my interests in '+research.slice(0,100)+'.'+(deadline?' The position deadline of '+deadline+' works well with my timeline.':'')+'
-
-I have attached my CV and would be glad to provide additional materials. Please let me know if you have questions.
-
-Thank you for your consideration.
-
-Sincerely,
-Erin Lamberton
-erin.lamberton@gmail.com';
+      body='Dear '+profSalut+',\n\nI am writing to express my strong interest in the '+title+' position at '+institution+'. I recently completed my BS in Environmental Science at Western Carolina University (May 2025, Magna Cum Laude) and am actively building field and research experience before graduate school.\n\nMy background includes '+courseStr+', as well as hands-on field experience in wetland delineation, water quality sampling, wildlife surveys, and GIS. For my senior capstone I investigated heavy metal contamination in the Pigeon River watershed following Hurricane Helene — a project that combined field sampling, lab analysis, and spatial data analysis.\n\nI am drawn to this opportunity because it directly aligns with my interests in '+research.slice(0,100)+'.'+(deadline?' The position deadline of '+deadline+' works well with my timeline.':'')+'\n\nI have attached my CV and would be glad to provide additional materials. Please let me know if you have questions.\n\nThank you for your consideration.\n\nSincerely,\nErin Lamberton\nerin.lamberton@gmail.com';
     }
   } else if(typeSel==='followup'){
     subject='Following up — '+title.slice(0,55);
-    body='Dear '+profSalut+',
-
-I hope this message finds you well. I wanted to follow up on my email from a few weeks ago regarding '+title+' at '+institution+'. I remain very interested and wanted to check whether you have had a chance to review my inquiry.
-
-I am happy to provide any additional information — CV, writing samples, or references — at your convenience. I appreciate your time and look forward to hearing from you.
-
-Best regards,
-Erin Lamberton
-erin.lamberton@gmail.com';
+    body='Dear '+profSalut+',\n\nI hope this message finds you well. I wanted to follow up on my email from a few weeks ago regarding '+title+' at '+institution+'. I remain very interested and wanted to check whether you have had a chance to review my inquiry.\n\nI am happy to provide any additional information — CV, writing samples, or references — at your convenience. I appreciate your time and look forward to hearing from you.\n\nBest regards,\nErin Lamberton\nerin.lamberton@gmail.com';
   } else if(typeSel==='thankyou'){
     subject='Thank you — '+title.slice(0,55);
-    body='Dear '+profSalut+',
-
-Thank you so much for taking the time to speak with me about the '+title+' opportunity at '+institution+'. It was genuinely exciting to hear more about your research on '+research.slice(0,80)+', and I left the conversation even more enthusiastic about the fit.
-
-As we discussed, I will [follow up with / submit / send you] [materials/application/transcript] by [DATE]. Please do not hesitate to reach out if you need anything in the meantime.
-
-Thank you again — I look forward to staying in touch.
-
-Warm regards,
-Erin Lamberton
-erin.lamberton@gmail.com';
+    body='Dear '+profSalut+',\n\nThank you so much for taking the time to speak with me about the '+title+' opportunity at '+institution+'. It was genuinely exciting to hear more about your research on '+research.slice(0,80)+', and I left the conversation even more enthusiastic about the fit.\n\nAs we discussed, I will [follow up with / submit / send you] [materials/application/transcript] by [DATE]. Please do not hesitate to reach out if you need anything in the meantime.\n\nThank you again — I look forward to staying in touch.\n\nWarm regards,\nErin Lamberton\nerin.lamberton@gmail.com';
   } else if(typeSel==='internship'){
     subject='Internship / position inquiry — '+title.slice(0,50);
-    body='Dear '+profSalut+',
-
-I am reaching out to inquire about potential internship or field technician opportunities with your group at '+institution+'. I am a recent Environmental Science graduate (WCU, May 2025) with hands-on experience in wetland delineation, water quality monitoring, wildlife surveys, and GIS analysis.
-
-My coursework includes '+courseStr+', and my senior capstone — investigating post-Helene lead contamination in the Pigeon River watershed — gave me direct applied experience in field sampling and environmental data analysis.
-
-I am flexible in timing and geography, and am particularly interested in '+research.slice(0,100)+'. I have attached my CV and would welcome a brief conversation about any upcoming opportunities.
-
-Thank you for your consideration.
-
-Sincerely,
-Erin Lamberton
-erin.lamberton@gmail.com';
+    body='Dear '+profSalut+',\n\nI am reaching out to inquire about potential internship or field technician opportunities with your group at '+institution+'. I am a recent Environmental Science graduate (WCU, May 2025) with hands-on experience in wetland delineation, water quality monitoring, wildlife surveys, and GIS analysis.\n\nMy coursework includes '+courseStr+', and my senior capstone — investigating post-Helene lead contamination in the Pigeon River watershed — gave me direct applied experience in field sampling and environmental data analysis.\n\nI am flexible in timing and geography, and am particularly interested in '+research.slice(0,100)+'. I have attached my CV and would welcome a brief conversation about any upcoming opportunities.\n\nThank you for your consideration.\n\nSincerely,\nErin Lamberton\nerin.lamberton@gmail.com';
   } else if(typeSel==='reference'){
     subject='Reference letter request — graduate school applications';
-    body='Dear '+profSalut+',
-
-I hope you are doing well. I am writing to ask whether you would be willing to write a letter of recommendation for my graduate school applications. I am applying to MS programs in Environmental Science with a focus on '+research.slice(0,80)+', with applications due '+deadline+'.
-
-As you may recall, [briefly remind them of your connection / coursework / project together]. I believe your perspective on my [research skills / field work / academic performance] would be particularly valuable to these programs.
-
-I would be happy to provide my CV, a draft statement of purpose, a list of programs and deadlines, and any other materials that would be helpful. Please let me know if you have any questions or if you would prefer to discuss by phone.
-
-Thank you so much for considering this request — I genuinely appreciate your support.
-
-Warm regards,
-Erin Lamberton
-erin.lamberton@gmail.com';
+    body='Dear '+profSalut+',\n\nI hope you are doing well. I am writing to ask whether you would be willing to write a letter of recommendation for my graduate school applications. I am applying to MS programs in Environmental Science with a focus on '+research.slice(0,80)+', with applications due '+deadline+'.\n\nAs you may recall, [briefly remind them of your connection / coursework / project together]. I believe your perspective on my [research skills / field work / academic performance] would be particularly valuable to these programs.\n\nI would be happy to provide my CV, a draft statement of purpose, a list of programs and deadlines, and any other materials that would be helpful. Please let me know if you have any questions or if you would prefer to discuss by phone.\n\nThank you so much for considering this request — I genuinely appreciate your support.\n\nWarm regards,\nErin Lamberton\nerin.lamberton@gmail.com';
   }
 
   document.getElementById('gen-subject').textContent=subject;
@@ -332,11 +261,14 @@ function openMailto(){
 }
 
 // Extend showTab to init generator when its tab is opened
-var _origShowTab=showTab;
-showTab=function(id,btn){
-  _origShowTab(id,btn);
-  if(id==='generator') initGenerator();
-};
+// Wrapped in DOMContentLoaded so showTab is defined before we wrap it
+document.addEventListener('DOMContentLoaded',function(){
+  var _origShowTab=showTab;
+  showTab=function(id,btn){
+    _origShowTab(id,btn);
+    if(id==='generator') initGenerator();
+  };
+});
 
 </script>
 </head>
