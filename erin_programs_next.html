@@ -15,26 +15,26 @@ body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6
 .slabel{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin-bottom:.75rem}
 .card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1.25rem;margin-bottom:1rem}
 hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
-.tip{border-left:3px solid #5dcaa5;background:var(--bg2);padding:.85rem 1rem;margin-bottom:1rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
+.tip{border-left:3px solid var(--teal);background:var(--bg2);padding:.85rem 1rem;margin-bottom:1rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
 .tip-warn{border-left-color:#ef9f27}
-.context-banner{background:#e1f5ee;border:1.5px solid #5dcaa5;border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:1.5rem;font-size:13px;color:var(--t2);line-height:1.6}
-.context-banner strong{color:#0f6e56;font-weight:500}
+.context-banner{background:#e1f5ee;border:1.5px solid var(--teal);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:1.5rem;font-size:13px;color:var(--t2);line-height:1.6}
+.context-banner strong{color:var(--teal);font-weight:500}
 
 .pc2{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:.75rem}
-.pc2.hot{border:2px solid #5dcaa5}
-.pc2.featured{border:2px solid #185fa5}
+.pc2.hot{border:2px solid var(--teal)}
+.pc2.featured{border:2px solid var(--blue)}
 .ph2{display:flex;align-items:flex-start;justify-content:space-between;gap:.75rem;margin-bottom:.4rem}
 .pn{font-size:14px;font-weight:500;color:var(--t1)}
 .pl{font-size:12px;color:var(--t3);margin-top:2px}
 .pb2{font-size:13px;color:var(--t2);line-height:1.6;margin-bottom:.75rem}
 .badge{font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px;white-space:nowrap;flex-shrink:0}
-.ms{background:#e1f5ee;color:#0f6e56}.mg{background:#e6f1fb;color:#185fa5}.mo{background:#eeedfe;color:#534ab7}.mw{background:#faeeda;color:#854f0b}.mx{background:#faece7;color:#993c1d}
+.ms{background:#e1f5ee;color:var(--teal)}.mg{background:#e6f1fb;color:var(--blue)}.mo{background:#eeedfe;color:#534ab7}.mw{background:#faeeda;color:#854f0b}.mx{background:#faece7;color:#993c1d}
 
 .fit-pills{margin-bottom:.65rem;display:flex;flex-wrap:wrap;gap:4px}
-.fit-pill{display:inline-block;font-size:11px;font-weight:500;padding:3px 9px;border-radius:999px;background:#e6f1fb;color:#185fa5}
+.fit-pill{display:inline-block;font-size:11px;font-weight:500;padding:3px 9px;border-radius:999px;background:#e6f1fb;color:var(--blue)}
 
 .slinks{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:.65rem}
-.sl2{display:inline-flex;align-items:center;gap:5px;font-size:12px;color:#185fa5;text-decoration:none;padding:3px 0;margin-right:.75rem}
+.sl2{display:inline-flex;align-items:center;gap:5px;font-size:12px;color:var(--blue);text-decoration:none;padding:3px 0;margin-right:.75rem}
 .sl2:hover{text-decoration:underline}
 .more-btn{font-size:12px;font-weight:500;padding:4px 13px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn);display:inline-flex;align-items:center;gap:5px}
 .more-btn:hover{background:var(--bg2);color:var(--t1)}
@@ -48,9 +48,9 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
 .detail-row:last-child{border-bottom:none}
 .detail-label{font-weight:500;color:var(--t1);min-width:130px;flex-shrink:0}
 .contact-block{background:var(--bg2);border-radius:var(--r1);padding:.65rem .85rem;margin-top:.5rem;font-size:13px;color:var(--t2);line-height:1.6}
-.contact-block a{color:#185fa5;text-decoration:none}
+.contact-block a{color:var(--blue);text-decoration:none}
 .contact-block a:hover{text-decoration:underline}
-.rl{display:block;font-size:13px;color:#185fa5;text-decoration:none;padding:7px 0;border-bottom:.5px solid var(--bd)}
+.rl{display:block;font-size:13px;color:var(--blue);text-decoration:none;padding:7px 0;border-bottom:.5px solid var(--bd)}
 .rl:last-child{border-bottom:none}
 .rl:hover{text-decoration:underline}
 .footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
@@ -227,12 +227,6 @@ html:not(.dark) {
   <div class="page-header-title">Graduate Programs — Next Cycle</div>
   <div class="page-header-sub">Fall 2027 applications &amp; programs to track now</div>
 </div>
-
-<div class="top-nav">
-  <a href="erin_programs.html" class="back-btn">&#8592; Graduate programs</a>
-  <span class="pg-title">Next cycle — funded MS programs</span>
-</div>
-
 <div class="context-banner">
   <strong>&#128260; Forward-looking — Fall 2027 entry</strong> &mdash; Erin is applying during <strong>summer 2026</strong> and cannot start before <strong>August–September 2026</strong>. The programs below target <strong>Fall 2027 admission</strong> (applications open fall 2026/winter 2027) or programs with <strong>rolling/late Fall 2026</strong> openings still feasible. All application windows and deadlines verified May 2026.
 </div>
@@ -255,8 +249,8 @@ html:not(.dark) {
     Funded MS research assistantship monitoring longleaf pine growth and reproduction across the southern states (AL, GA, FL). AAMU is an HBCU in Huntsville with a strong natural resources program. Longleaf pine restoration is one of the highest-priority conservation efforts in the southeastern US &mdash; directly relevant to Erin&rsquo;s Appalachian and southeastern field experience. Contact the AAMU forestry department directly to confirm current openings and next cycle timing.
   </div>
   <div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:.65rem">
-    <span style="background:#e1f5ee;color:#0f6e56;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Longleaf pine ecology</span>
-    <span style="background:#e1f5ee;color:#0f6e56;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Forest monitoring</span>
+    <span style="background:#e1f5ee;color:var(--teal);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Longleaf pine ecology</span>
+    <span style="background:#e1f5ee;color:var(--teal);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Forest monitoring</span>
     <span style="background:#faeeda;color:#854f0b;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Southern US / HBCU</span>
   </div>
   <!-- ML_BTN_item-075 --><button class="ml-save-btn" data-id="item-075" data-item="{&quot;title&quot;:&quot;Alabama A&M University — Longleaf Pine Ecology MS&quot;,&quot;org&quot;:&quot;Huntsville, AL · Department of Forestry&quot;,&quot;type&quot;:&quot;Graduate Program&quot;,&quot;cat&quot;:&quot;Graduate Programs — Next Cycle&quot;,&quot;src&quot;:&quot;erin_programs_next.html&quot;,&quot;src_label&quot;:&quot;Graduate Programs — Next Cycle&quot;,&quot;deadline&quot;:&quot;April 24, 2026 (passed) — contact directly for next opening&quot;,&quot;start&quot;:&quot;&quot;,&quot;body&quot;:&quot;Funded MS monitoring longleaf pine growth and reproduction across AL, GA, and FL. AAMU is an HBCU in Huntsville, AL. Contact forestry department directly for next cycle openings.&quot;,&quot;badge&quot;:&quot;Deadline passed — contact directly&quot;,&quot;pills&quot;:[&quot;Longleaf pine ecology&quot;,&quot;Forest monitoring&quot;,&quot;Southern US&quot;],&quot;id&quot;:&quot;item-075&quot;}">&#9734; Save to My List</button>
@@ -276,8 +270,8 @@ html:not(.dark) {
     Funded PhD in water quality and stream biogeochemistry in Ozark/Arkansas river systems. Research focus aligns directly with Erin&rsquo;s contaminated rivers coursework and Pigeon River lead contamination capstone. University of Arkansas has active federally funded stream research. Contact the PI directly about Fall 2027 openings &mdash; the lab is doing highly relevant work and worth a direct outreach email well in advance.
   </div>
   <div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:.65rem">
-    <span style="background:#e1f5ee;color:#0f6e56;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Stream biogeochemistry</span>
-    <span style="background:#e6f1fb;color:#185fa5;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Water quality</span>
+    <span style="background:#e1f5ee;color:var(--teal);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Stream biogeochemistry</span>
+    <span style="background:#e6f1fb;color:var(--blue);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Water quality</span>
     <span style="background:#faeeda;color:#854f0b;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Ozark river systems</span>
   </div>
   <!-- ML_BTN_item-076 --><button class="ml-save-btn" data-id="item-076" data-item="{&quot;title&quot;:&quot;University of Arkansas — Water Quality / Stream Biogeochemistry (PhD)&quot;,&quot;org&quot;:&quot;Fayetteville, AR · Department of Biological Sciences&quot;,&quot;type&quot;:&quot;Graduate Program&quot;,&quot;cat&quot;:&quot;Graduate Programs — Next Cycle&quot;,&quot;src&quot;:&quot;erin_programs_next.html&quot;,&quot;src_label&quot;:&quot;Graduate Programs — Next Cycle&quot;,&quot;deadline&quot;:&quot;February 24, 2026 (passed) — contact lab for next cycle&quot;,&quot;start&quot;:&quot;&quot;,&quot;body&quot;:&quot;Funded PhD in water quality and stream biogeochemistry in Ozark/Arkansas river systems. Direct match for Erin's contaminated rivers and Pigeon River capstone work. Contact PI directly for Fall 2027 openings.&quot;,&quot;badge&quot;:&quot;Deadline passed — contact for Fall 2027&quot;,&quot;pills&quot;:[&quot;Stream biogeochemistry&quot;,&quot;Water quality&quot;,&quot;Arkansas river systems&quot;],&quot;id&quot;:&quot;item-076&quot;}">&#9734; Save to My List</button>
@@ -572,7 +566,7 @@ html:not(.dark) {
 </div>
 
 <div class="tip">&#128197;&nbsp; <strong style="font-weight:500;color:var(--t1)">Summer 2026 action items:</strong> Start emailing faculty in August–September 2026 before applications open. Verify Fall 2027 deadlines directly with each department in October 2026 — deadlines shift year to year. Programs on ecophys-jobs.org and the Wildlife Society Career Center begin posting Fall 2027 openings in September–October 2026.
-<p class="footer">Research conducted May 2026. Verify all deadlines and funding details directly with each department — they change annually. "Next cycle" means Fall 2027 entry with applications opening fall 2026.<br><br><a href="erin_programs.html" style="color:#185fa5">&#8592; Back to graduate programs</a>&nbsp;&nbsp;<a href="index.html" style="color:#185fa5">&#8592; Home</a></p>
+<p class="footer">Research conducted May 2026. Verify all deadlines and funding details directly with each department — they change annually. "Next cycle" means Fall 2027 entry with applications opening fall 2026.<br><br><a href="erin_programs.html" style="color:var(--blue)">&#8592; Back to graduate programs</a>&nbsp;&nbsp;<a href="index.html" style="color:var(--blue)">&#8592; Home</a></p>
 </div>
 <script>
 function toggleMore(btn){var p=btn.nextElementSibling;var o=p.classList.toggle('open');btn.textContent=o?'− Less info':'+ More info'}
@@ -583,9 +577,9 @@ function toggleMore(btn){var p=btn.nextElementSibling;var o=p.classList.toggle('
 
 
 <style>
-.ml-save-btn{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:500;padding:5px 14px;border-radius:999px;border:1.5px solid #5dcaa5;background:transparent;color:#0f6e56;cursor:pointer;font-family:inherit;margin-top:.6rem;transition:background .12s,color .12s}
+.ml-save-btn{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:500;padding:5px 14px;border-radius:999px;border:1.5px solid var(--teal);background:transparent;color:var(--teal);cursor:pointer;font-family:inherit;margin-top:.6rem;transition:background .12s,color .12s}
 .ml-save-btn:hover{background:#e1f5ee}
-.ml-save-btn.saved{background:#e1f5ee;color:#0f6e56}
+.ml-save-btn.saved{background:#e1f5ee;color:var(--teal)}
 @media(prefers-color-scheme:dark){.ml-save-btn{color:#9fe1cb}.ml-save-btn:hover,.ml-save-btn.saved{background:#085041}}
 </style>
 <script>
