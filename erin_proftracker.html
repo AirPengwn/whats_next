@@ -134,6 +134,22 @@ html:not(.dark){
   --red-bg:#faece7;--red-t:#993c1d;
   --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
 }
+
+/* Professor guide collapsible sections (same as ref-guide) */
+.ref-guide{display:flex;flex-direction:column;gap:.6rem;margin-bottom:1.5rem}
+.ref-guide-section{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);overflow:hidden}
+.ref-guide-heading{font-size:11px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--teal-t);background:var(--teal-bg);padding:.55rem 1rem;cursor:pointer;display:flex;justify-content:space-between;align-items:center;user-select:none}
+.ref-guide-heading:hover{background:var(--bg3)}
+.ref-guide-arrow{font-size:10px;color:var(--t3);transition:transform .2s;display:inline-block}
+.ref-guide-section.open .ref-guide-arrow{transform:rotate(90deg)}
+.ref-guide-body{display:none;padding:.75rem 1rem;font-size:13px;color:var(--t2);line-height:1.65;border-top:.5px solid var(--bd)}
+.ref-guide-section.open .ref-guide-body{display:block}
+.ref-guide-body p{margin:0 0 .6rem}
+.ref-guide-body p:last-child{margin-bottom:0}
+.ref-guide-body ul{margin:.3rem 0 .6rem 1.1rem;padding:0}
+.ref-guide-body ul:last-child{margin-bottom:0}
+.ref-guide-body li{margin-bottom:.35rem}
+.ref-guide-body strong{color:var(--t1);font-weight:600}
 </style>
 <script>
 (function(){
@@ -173,6 +189,78 @@ html:not(.dark){
   <div class="page-header-sub">Track faculty outreach — who you emailed, when, and what happened &mdash; <span id="prof-count" style="color:var(--teal-t);font-weight:500"></span></div>
 </div>
 <div class="tip">&#9997;&#65039;&nbsp; Populated from your saved <strong>graduate programs</strong> in My List. Track who you&rsquo;ve emailed, when, and what happened. Direct professor outreach before applications open is the highest-leverage activity in grad school applications.</div>
+
+<div class="ref-guide" style="margin-top:.85rem">
+
+  <div class="ref-guide-section">
+    <div class="ref-guide-heading"><span>&#128200; Why professor outreach works &mdash; and when to do it</span><span class="ref-guide-arrow">&#9654;</span></div>
+    <div class="ref-guide-body">
+      <p>Most funded MS and PhD positions are filled <strong>before applications open</strong>. A professor who knows your name and has seen your CV will advocate for you internally in ways a cold application never can. Direct outreach is how most grad students actually get funded positions &mdash; not through the formal application alone.</p>
+      <ul>
+        <li><strong>August&ndash;October 2026</strong> is the ideal window &mdash; faculty are back from summer fieldwork, haven&rsquo;t yet committed spots, and the fall application rush hasn&rsquo;t started.</li>
+        <li>A professor who replies positively is essentially pre-approving your application. That changes your odds dramatically.</li>
+        <li>Even a &ldquo;not taking students this cycle&rdquo; reply is useful &mdash; it tells you to redirect effort and saves you application fees.</li>
+        <li>Professors who don&rsquo;t reply after two emails are probably not taking students. Move on &mdash; don&rsquo;t send a third.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="ref-guide-section">
+    <div class="ref-guide-heading"><span>&#9993; What to say in a first email</span><span class="ref-guide-arrow">&#9654;</span></div>
+    <div class="ref-guide-body">
+      <p>Keep it to 4&ndash;5 short paragraphs. A faculty inbox is not the place for a cover letter. The goal is a reply, not to tell them everything.</p>
+      <ul>
+        <li><strong>Paragraph 1 &mdash; Who you are and why you&rsquo;re emailing:</strong> &ldquo;I&rsquo;m a recent BS graduate in Environmental Science from Western Carolina University (May 2025, Magna Cum Laude) and am writing to inquire about MS opportunities in your lab for Fall 2027.&rdquo;</li>
+        <li><strong>Paragraph 2 &mdash; Show you know their work:</strong> Be specific. Name a paper, a project, a dataset. &ldquo;Your research on [specific topic] is directly relevant to my interests because&hellip;&rdquo; Generic interest statements are immediately obvious and ignored.</li>
+        <li><strong>Paragraph 3 &mdash; Your strongest credential:</strong> Lead with the Pigeon River capstone &mdash; Hurricane Helene, trace metal contamination, field sampling, GIS. This is a genuinely compelling research story and directly relevant to most environmental science labs.</li>
+        <li><strong>Paragraph 4 &mdash; The ask:</strong> &ldquo;Are you expecting to take on MS students for Fall 2027? I would welcome the opportunity to discuss potential research directions and funding availability.&rdquo;</li>
+        <li><strong>Close:</strong> &ldquo;I have attached my CV and would be happy to share writing samples or unofficial transcripts.&rdquo; Then sign off.</li>
+      </ul>
+      <p style="font-size:12px;color:var(--t3)">Use the &#9889; Email Generator on the Outreach page to auto-fill a template for any saved program.</p>
+    </div>
+  </div>
+
+  <div class="ref-guide-section">
+    <div class="ref-guide-heading"><span>&#128197; Follow-up timing</span><span class="ref-guide-arrow">&#9654;</span></div>
+    <div class="ref-guide-body">
+      <ul>
+        <li><strong>No reply after 2&ndash;3 weeks:</strong> Send one follow-up. Keep it brief &mdash; &ldquo;I wanted to follow up on my email from [date] regarding MS opportunities in your lab. I remain very interested and am happy to provide any additional materials.&rdquo;</li>
+        <li><strong>No reply after follow-up:</strong> Mark as &ldquo;No response&rdquo; and move on. Professors who want to take students reply.</li>
+        <li><strong>After a positive reply:</strong> Respond within 24 hours. Thank them, answer any questions, and ask what they recommend for next steps. If they suggest a call, say yes.</li>
+        <li><strong>After a call or video meeting:</strong> Send a thank-you email within 24 hours. Reference something specific they said. This is the &ldquo;confirmed pursuing&rdquo; stage &mdash; update your tracker accordingly.</li>
+        <li><strong>During application season:</strong> Let them know when you&rsquo;ve submitted your application and reference their name/lab in your SOP. Keep them in the loop without being annoying.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="ref-guide-section">
+    <div class="ref-guide-heading"><span>&#128161; Erin-specific strategy</span><span class="ref-guide-arrow">&#9654;</span></div>
+    <div class="ref-guide-body">
+      <ul>
+        <li><strong>NC State / Dr. Jodi Forrester</strong> is the top priority &mdash; lead with Hurricane Helene forest recovery and the Pigeon River basin geography. This is Erin&rsquo;s single strongest institutional fit. Email in August 2026 regardless of whether a posted position is still open.</li>
+        <li><strong>Contaminated sites programs</strong> (Oklahoma State, U Arkansas): emphasize the trace metal contamination angle of the capstone and GEOL 423 (Contaminated Rivers). These labs are looking for exactly this background.</li>
+        <li><strong>Wetland programs</strong> (LSU WABL, CSU, MSU): lead with GEOL 455, wetland delineation fieldwork, and ENVH 310 water quality.</li>
+        <li><strong>Before emailing</strong> any professor: read at least one of their recent papers. It takes 20 minutes and completely changes the quality of the email &mdash; and whether they reply.</li>
+        <li><strong>Subject line matters:</strong> &ldquo;Prospective MS Student &mdash; [Their Research Topic]&rdquo; outperforms &ldquo;Graduate School Inquiry&rdquo; significantly. Be specific.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="ref-guide-section">
+    <div class="ref-guide-heading"><span>&#9888; Common mistakes to avoid</span><span class="ref-guide-arrow">&#9654;</span></div>
+    <div class="ref-guide-body">
+      <ul>
+        <li><strong>Generic emails:</strong> &ldquo;I am interested in your research&rdquo; with no specifics. Faculty delete these immediately.</li>
+        <li><strong>Emailing professors who aren&rsquo;t taking students:</strong> Check lab websites for &ldquo;not accepting students&rdquo; notices before emailing. Saves time.</li>
+        <li><strong>Asking about funding in the first email:</strong> Establish interest first. Funding comes up naturally once there&rsquo;s a dialogue.</li>
+        <li><strong>Sending the same email to multiple professors at once:</strong> They can tell. Personalize each one, even if only the middle paragraph changes.</li>
+        <li><strong>Attaching a 20-page document:</strong> Attach a 1&ndash;2 page CV only. Offer other materials if they want them.</li>
+        <li><strong>Giving up after one no-reply:</strong> Send one follow-up, then decide. Professors are busy &mdash; sometimes a second email at a better moment gets a reply.</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
 
   <div id="followup-alerts"></div>
 
@@ -431,6 +519,14 @@ function render(){
 }
 
 pullProfs();
+
+// Professor guide collapsible sections
+document.querySelectorAll('.ref-guide-heading').forEach(function(hdr){
+  hdr.addEventListener('click', function(){
+    hdr.parentElement.classList.toggle('open');
+  });
+});
+
 </script>
 </body>
 </html>
