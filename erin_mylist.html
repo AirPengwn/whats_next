@@ -49,8 +49,8 @@ a:hover{text-decoration:underline}
 
 .item-meta{display:flex;flex-wrap:wrap;gap:4px 16px;margin-bottom:.4rem;font-size:12px;color:var(--t2)}
 .im-lbl{font-weight:500;color:var(--t1)}
-.body-text{font-size:12px;color:var(--t2);line-height:1.6;margin-bottom:.45rem;display:none}
-.body-text.open{display:block}
+.body-text{display:none}
+
 .item-actions{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin-top:.25rem}
 .act-link{font-size:12px;color:var(--blue)}
 .act-btn{font-size:12px;color:var(--t3);background:none;border:none;cursor:pointer;padding:0;font-family:var(--fn)}
@@ -194,7 +194,22 @@ html:not(.dark) {
   --blue-bg:#e5f0f0;--amber-bg:#f5f0db;--amber-t:#6b5500;
   --red-bg:#faece7;--red-t:#993c1d;
   --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
-}</style>
+}
+/* Rich detail panel */
+.item-detail{display:none;margin-top:.75rem;padding:.85rem 1rem;background:var(--bg2);border-radius:var(--r1);border:.5px solid var(--bd)}
+.item-detail.open{display:block}
+.id-badge{display:inline-block;font-size:11px;font-weight:600;padding:2px 9px;border-radius:999px;background:var(--teal-bg);color:var(--teal-t);margin-bottom:.55rem}
+.id-section-label{font-size:10px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin:.6rem 0 .2rem}
+.id-body{font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.5rem}
+.id-meta-row{display:flex;gap:1.5rem;flex-wrap:wrap;margin-bottom:.5rem}
+.id-meta-item{font-size:12px;color:var(--t2)}
+.id-meta-item strong{color:var(--t1);font-weight:600}
+.id-pills{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:.5rem}
+.id-pill{font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px;background:var(--teal-bg);color:var(--teal-t)}
+.id-link{display:inline-block;font-size:12px;font-weight:500;color:var(--teal-t);text-decoration:none;margin-top:.4rem;padding:4px 10px;border:1px solid var(--teal);border-radius:6px}
+.id-link:hover{background:var(--teal-bg)}
+
+</style>
 
 <script>
 (function(){
@@ -421,15 +436,51 @@ function makeListCard(it){
 
   if(it._note){ var nd=el('div','note-display','Note: '+it._note); main.appendChild(nd); }
 
-  var body=el('div','body-text',it.body||''); body.id='body-'+it.id; main.appendChild(body);
+  // ── Rich detail panel ──
+  var detail=el('div','item-detail'); detail.id='detail-'+it.id;
+
+  // Badge
+  if(it.badge){ var ib=el('div','id-badge',it.badge); detail.appendChild(ib); }
+
+  // Deadline + Start row
+  if(it.deadline||it.start){
+    var mr=el('div','id-meta-row');
+    if(it.deadline){ var di=el('div','id-meta-item'); di.innerHTML='<strong>Deadline:</strong> '+it.deadline; mr.appendChild(di); }
+    if(it.start){ var si=el('div','id-meta-item'); si.innerHTML='<strong>Start:</strong> '+it.start; mr.appendChild(si); }
+    detail.appendChild(mr);
+  }
+
+  // Body text
+  if(it.body){
+    var bl=el('div','id-section-label','About this opportunity'); detail.appendChild(bl);
+    var bd=el('div','id-body',it.body); detail.appendChild(bd);
+  }
+
+  // Pills
+  if(it.pills&&it.pills.length){
+    var pl=el('div','id-section-label','Focus areas'); detail.appendChild(pl);
+    var pd=el('div','id-pills');
+    it.pills.forEach(function(p){ pd.appendChild(el('span','id-pill',p)); });
+    detail.appendChild(pd);
+  }
+
+  // Source + org info
+  var ol=el('div','id-section-label','Source'); detail.appendChild(ol);
+  var od=el('div','id-meta-row');
+  var oi=el('div','id-meta-item'); oi.innerHTML='<strong>Section:</strong> '+(it.src_label||it.cat||''); od.appendChild(oi);
+  detail.appendChild(od);
+
+  // Link to source page
+  if(it.src){
+    var sl=document.createElement('a'); sl.className='id-link'; sl.href=it.src; sl.target='_blank';
+    sl.textContent='Open full '+( it.src_label||'source page')+' →'; detail.appendChild(sl);
+  }
+
+  main.appendChild(detail);
 
   var acts=el('div','item-actions');
-  if(it.src){
-    var lnk=document.createElement('a'); lnk.className='act-link'; lnk.href=it.src; lnk.target='_blank'; lnk.textContent='View source page'; acts.appendChild(lnk);
-    acts.appendChild(el('span','act-sep',' · '));
-  }
-  if(it.body){
-    var db=el('button','act-btn','Details'); db.onclick=function(){ body.classList.toggle('open'); }; acts.appendChild(db);
+  if(it.body||it.deadline||it.pills){
+    var db=el('button','act-btn','Details'); db.onclick=function(){ detail.classList.toggle('open'); db.textContent=detail.classList.contains('open')?'Hide details':'Details'; }; acts.appendChild(db);
     acts.appendChild(el('span','act-sep',' · '));
   }
   var noteArea=el('div','note-area'); noteArea.id='note-'+it.id;
@@ -510,7 +561,23 @@ function renderBrowse(){
       if(it.deadline){ var dm=el('span'); dm.innerHTML='<strong style="font-weight:500">Deadline:</strong> '+it.deadline; meta.appendChild(dm); }
       if(it.start){ if(it.deadline){meta.appendChild(el('span',null,' · '));} var sm=el('span'); sm.innerHTML='<strong style="font-weight:500">Start:</strong> '+it.start; meta.appendChild(sm); }
       card.appendChild(meta);
-      var bd=el('div','browse-body',it.body||''); bd.id='bb-'+it.id; card.appendChild(bd);
+      // ── Rich browse detail panel ──
+      var bd=el('div','item-detail'); bd.id='bb-'+it.id;
+      if(it.badge){ bd.appendChild(el('div','id-badge',it.badge)); }
+      if(it.deadline||it.start){
+        var bmr=el('div','id-meta-row');
+        if(it.deadline){ var bdi=el('div','id-meta-item'); bdi.innerHTML='<strong>Deadline:</strong> '+it.deadline; bmr.appendChild(bdi); }
+        if(it.start){ var bsi=el('div','id-meta-item'); bsi.innerHTML='<strong>Start:</strong> '+it.start; bmr.appendChild(bsi); }
+        bd.appendChild(bmr);
+      }
+      if(it.body){ bd.appendChild(el('div','id-section-label','About this opportunity')); bd.appendChild(el('div','id-body',it.body)); }
+      if(it.pills&&it.pills.length){
+        bd.appendChild(el('div','id-section-label','Focus areas'));
+        var bpd=el('div','id-pills'); it.pills.forEach(function(p){ bpd.appendChild(el('span','id-pill',p)); }); bd.appendChild(bpd);
+      }
+      if(it.src){ var bsl=document.createElement('a'); bsl.className='id-link'; bsl.href=it.src; bsl.target='_blank'; bsl.textContent='Open full '+(it.src_label||'source page')+' →'; bd.appendChild(bsl); }
+      card.appendChild(bd);
+
       var acts=el('div','browse-actions');
       var sb=el('button','b-save-btn'+(saved?' saved':''),saved?'Saved':'Save to My List');
       sb.onclick=function(){
@@ -519,8 +586,7 @@ function renderBrowse(){
         renderList(); renderBrowse();
       };
       acts.appendChild(sb);
-      if(it.body){ var tb=el('button','b-toggle','Details'); tb.onclick=function(){ bd.classList.toggle('open'); }; acts.appendChild(tb); }
-      if(it.src){ var lnk=document.createElement('a'); lnk.href=it.src; lnk.target='_blank'; lnk.style.cssText='font-size:12px;color:var(--blue)'; lnk.textContent='View page'; acts.appendChild(lnk); }
+      if(it.body||it.deadline||it.pills){ var tb=el('button','b-toggle','Details'); tb.onclick=function(){ bd.classList.toggle('open'); tb.textContent=bd.classList.contains('open')?'Hide details':'Details'; }; acts.appendChild(tb); }
       card.appendChild(acts);
       body.appendChild(card);
     });
