@@ -28,10 +28,10 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
 .pl{font-size:12px;color:var(--t3);margin-top:2px}
 .pb2{font-size:13px;color:var(--t2);line-height:1.6;margin-bottom:.75rem}
 .badge{font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px;white-space:nowrap;flex-shrink:0}
-.ms{background:#e1f5ee;color:var(--teal)}.mg{background:#e6f1fb;color:var(--blue)}.mo{background:#eeedfe;color:#534ab7}.mw{background:#faeeda;color:#854f0b}.mx{background:#faece7;color:#993c1d}
+.ms{background:var(--teal-bg);color:var(--teal)}.mg{background:var(--blue-bg);color:var(--blue)}.mo{background:var(--purple-bg);color:#534ab7}.mw{background:var(--amber-bg);color:var(--amber-t)}.mx{background:var(--red-bg);color:#993c1d}
 
 .fit-pills{margin-bottom:.65rem;display:flex;flex-wrap:wrap;gap:4px}
-.fit-pill{display:inline-block;font-size:11px;font-weight:500;padding:3px 9px;border-radius:999px;background:#e6f1fb;color:var(--blue)}
+.fit-pill{display:inline-block;font-size:11px;font-weight:500;padding:3px 9px;border-radius:999px;background:var(--blue-bg);color:var(--blue)}
 
 .slinks{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:.65rem}
 .sl2{display:inline-flex;align-items:center;gap:5px;font-size:12px;color:var(--blue);text-decoration:none;padding:3px 0;margin-right:.75rem}
@@ -138,8 +138,8 @@ body{padding:0 0 2rem;margin:0}
   /* Green accents (from original palette) */
   --teal:#4e9836;--teal-bg:#eaf3e5;--teal-t:#3c7b20;
   --blue:#3a7878;--blue-bg:#e5f0f0;
-  --amber:#8a6f00;--amber-bg:#f5f0db;--amber-t:#6b5500;
-  --red:#993c1d;--red-bg:#faece7;--red-t:#993c1d;
+  --amber:#8a6f00;--amber-bg:var(--amber-bg);--amber-t:var(--amber-t);
+  --red:#993c1d;--red-bg:var(--red-bg);--red-t:#993c1d;
   --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
 }
 
@@ -172,11 +172,11 @@ html:not(.dark) {
   --t1:#212121;--t2:#424242;--t3:#757575;
   --bd:rgba(0,0,0,0.10);--bds:rgba(0,0,0,0.22);
   --teal-bg:#eaf3e5;--teal-t:#3c7b20;
-  --blue-bg:#e5f0f0;--amber-bg:#f5f0db;--amber-t:#6b5500;
-  --red-bg:#faece7;--red-t:#993c1d;
+  --blue-bg:#e5f0f0;--amber-bg:var(--amber-bg);--amber-t:var(--amber-t);
+  --red-bg:var(--red-bg);--red-t:#993c1d;
   --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
 }.card-urgent{border-left:3px solid var(--teal)!important}
-.card-deadline{border-left:3px solid #c0392b!important}
+.card-deadline{border-left:3px solid var(--red)!important}
 
 /* Page search bar */
 .page-search-wrap{display:flex;align-items:center;gap:.5rem;margin-bottom:1.25rem;padding:.5rem .75rem;background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r1)}
@@ -242,16 +242,16 @@ html:not(.dark) {
       <div style="font-size:15px;font-weight:500;color:var(--t1)"><span class="status-badge s-updated">&#10024; New &mdash; May 16, 2026</span> Alabama A&amp;M University &mdash; Longleaf Pine Ecology MS </div>
       <div style="font-size:12px;color:var(--t3);margin-top:2px">Huntsville, AL &middot; Department of Forestry</div>
     </div>
-    <span style="background:#faeeda;color:#854f0b;font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px">Contact directly</span>
+    <span style="background:var(--amber-bg);color:var(--amber-t);font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px">Contact directly</span>
   </div>
   <div style="font-size:12px;color:var(--t2);margin-bottom:.5rem"><strong>Deadline:</strong> April 24, 2026 passed &mdash; contact for next opening</div>
   <div style="font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.65rem">
     Funded MS research assistantship monitoring longleaf pine growth and reproduction across the southern states (AL, GA, FL). AAMU is an HBCU in Huntsville with a strong natural resources program. Longleaf pine restoration is one of the highest-priority conservation efforts in the southeastern US &mdash; directly relevant to Erin&rsquo;s Appalachian and southeastern field experience. Contact the AAMU forestry department directly to confirm current openings and next cycle timing.
   </div>
   <div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:.65rem">
-    <span style="background:#e1f5ee;color:var(--teal);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Longleaf pine ecology</span>
-    <span style="background:#e1f5ee;color:var(--teal);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Forest monitoring</span>
-    <span style="background:#faeeda;color:#854f0b;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Southern US / HBCU</span>
+    <span style="background:var(--teal-bg);color:var(--teal);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Longleaf pine ecology</span>
+    <span style="background:var(--teal-bg);color:var(--teal);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Forest monitoring</span>
+    <span style="background:var(--amber-bg);color:var(--amber-t);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Southern US / HBCU</span>
   </div>
   <!-- ML_BTN_item-075 --><button class="ml-save-btn" data-id="item-075" data-item="{&quot;title&quot;:&quot;Alabama A&M University — Longleaf Pine Ecology MS&quot;,&quot;org&quot;:&quot;Huntsville, AL · Department of Forestry&quot;,&quot;type&quot;:&quot;Graduate Program&quot;,&quot;cat&quot;:&quot;Graduate Programs — Next Cycle&quot;,&quot;src&quot;:&quot;erin_programs_next.html&quot;,&quot;src_label&quot;:&quot;Graduate Programs — Next Cycle&quot;,&quot;deadline&quot;:&quot;April 24, 2026 (passed) — contact directly for next opening&quot;,&quot;start&quot;:&quot;&quot;,&quot;body&quot;:&quot;Funded MS monitoring longleaf pine growth and reproduction across AL, GA, and FL. AAMU is an HBCU in Huntsville, AL. Contact forestry department directly for next cycle openings.&quot;,&quot;badge&quot;:&quot;Deadline passed — contact directly&quot;,&quot;pills&quot;:[&quot;Longleaf pine ecology&quot;,&quot;Forest monitoring&quot;,&quot;Southern US&quot;],&quot;id&quot;:&quot;item-075&quot;}">&#9734; Save to My List</button>
 </div>
@@ -263,16 +263,16 @@ html:not(.dark) {
       <div style="font-size:15px;font-weight:500;color:var(--t1)"><span class="status-badge s-updated">&#10024; New &mdash; May 16, 2026</span> University of Arkansas &mdash; Water Quality / Stream Biogeochemistry (PhD) </div>
       <div style="font-size:12px;color:var(--t3);margin-top:2px">Fayetteville, AR &middot; Department of Biological Sciences</div>
     </div>
-    <span style="background:#faeeda;color:#854f0b;font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px">Contact for Fall 2027</span>
+    <span style="background:var(--amber-bg);color:var(--amber-t);font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px">Contact for Fall 2027</span>
   </div>
   <div style="font-size:12px;color:var(--t2);margin-bottom:.5rem"><strong>Deadline:</strong> February 24, 2026 (passed) &mdash; contact lab for next cycle</div>
   <div style="font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.65rem">
     Funded PhD in water quality and stream biogeochemistry in Ozark/Arkansas river systems. Research focus aligns directly with Erin&rsquo;s contaminated rivers coursework and Pigeon River lead contamination capstone. University of Arkansas has active federally funded stream research. Contact the PI directly about Fall 2027 openings &mdash; the lab is doing highly relevant work and worth a direct outreach email well in advance.
   </div>
   <div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:.65rem">
-    <span style="background:#e1f5ee;color:var(--teal);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Stream biogeochemistry</span>
-    <span style="background:#e6f1fb;color:var(--blue);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Water quality</span>
-    <span style="background:#faeeda;color:#854f0b;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Ozark river systems</span>
+    <span style="background:var(--teal-bg);color:var(--teal);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Stream biogeochemistry</span>
+    <span style="background:var(--blue-bg);color:var(--blue);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Water quality</span>
+    <span style="background:var(--amber-bg);color:var(--amber-t);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Ozark river systems</span>
   </div>
   <!-- ML_BTN_item-076 --><button class="ml-save-btn" data-id="item-076" data-item="{&quot;title&quot;:&quot;University of Arkansas — Water Quality / Stream Biogeochemistry (PhD)&quot;,&quot;org&quot;:&quot;Fayetteville, AR · Department of Biological Sciences&quot;,&quot;type&quot;:&quot;Graduate Program&quot;,&quot;cat&quot;:&quot;Graduate Programs — Next Cycle&quot;,&quot;src&quot;:&quot;erin_programs_next.html&quot;,&quot;src_label&quot;:&quot;Graduate Programs — Next Cycle&quot;,&quot;deadline&quot;:&quot;February 24, 2026 (passed) — contact lab for next cycle&quot;,&quot;start&quot;:&quot;&quot;,&quot;body&quot;:&quot;Funded PhD in water quality and stream biogeochemistry in Ozark/Arkansas river systems. Direct match for Erin's contaminated rivers and Pigeon River capstone work. Contact PI directly for Fall 2027 openings.&quot;,&quot;badge&quot;:&quot;Deadline passed — contact for Fall 2027&quot;,&quot;pills&quot;:[&quot;Stream biogeochemistry&quot;,&quot;Water quality&quot;,&quot;Arkansas river systems&quot;],&quot;id&quot;:&quot;item-076&quot;}">&#9734; Save to My List</button>
 </div>
@@ -577,9 +577,9 @@ function toggleMore(btn){var p=btn.nextElementSibling;var o=p.classList.toggle('
 
 <style>
 .ml-save-btn{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:500;padding:5px 14px;border-radius:999px;border:1.5px solid var(--teal);background:transparent;color:var(--teal);cursor:pointer;font-family:inherit;margin-top:.6rem;transition:background .12s,color .12s}
-.ml-save-btn:hover{background:#e1f5ee}
-.ml-save-btn.saved{background:#e1f5ee;color:var(--teal)}
-@media(prefers-color-scheme:dark){.ml-save-btn{color:#9fe1cb}.ml-save-btn:hover,.ml-save-btn.saved{background:#085041}}
+.ml-save-btn:hover{background:var(--teal-bg)}
+.ml-save-btn.saved{background:var(--teal-bg);color:var(--teal)}
+@media(prefers-color-scheme:dark){.ml-save-btn{color:var(--teal-t)}.ml-save-btn:hover,.ml-save-btn.saved{background:var(--teal-t)}}
 </style>
 <script>
 (function(){

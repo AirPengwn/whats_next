@@ -15,10 +15,10 @@ body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6
 .slabel{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin-bottom:.75rem}
 .card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1.25rem;margin-bottom:1rem}
 hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
-.tip{border-left:3px solid #5dcaa5;background:var(--bg2);padding:.85rem 1rem;margin-bottom:1rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
+.tip{border-left:3px solid var(--teal);background:var(--bg2);padding:.85rem 1rem;margin-bottom:1rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
 .tip-warn{border-left-color:var(--amber)}
 .context-banner{background:var(--teal-bg);border:1.5px solid var(--teal);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:1.5rem;font-size:13px;color:var(--t2);line-height:1.6}
-.context-banner strong{color:#0f6e56;font-weight:500}
+.context-banner strong{color:var(--teal-t);font-weight:500}
 
 .pos-card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:.85rem}
 .pos-card.hot{}
@@ -28,16 +28,16 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
 .pos-org{font-size:12px;color:var(--t3);margin-bottom:.5rem}
 .pos-body{font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.65rem}
 .badge{font-size:11px;font-weight:500;padding:3px 9px;border-radius:999px;white-space:nowrap;flex-shrink:0}
-.b-open{background:#e1f5ee;color:#0f6e56}.b-rolling{background:#e6f1fb;color:#185fa5}.b-check{background:#faeeda;color:#854f0b}.b-ref{background:var(--bg2);color:var(--t3)}
+.b-open{background:var(--teal-bg);color:var(--teal-t)}.b-rolling{background:var(--blue-bg);color:var(--blue)}.b-check{background:var(--amber-bg);color:var(--amber-t)}.b-ref{background:var(--bg2);color:var(--t3)}
 
 .fit-pills{margin-bottom:.65rem;display:flex;flex-wrap:wrap;gap:4px}
-.fit-pill{display:inline-block;font-size:11px;font-weight:500;padding:3px 9px;border-radius:999px;background:#e6f1fb;color:#185fa5}
+.fit-pill{display:inline-block;font-size:11px;font-weight:500;padding:3px 9px;border-radius:999px;background:var(--blue-bg);color:var(--blue)}
 
 .meta-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 12px;margin-bottom:.65rem}
 .meta-item{font-size:12px;color:var(--t2)}
 .meta-label{font-weight:500;color:var(--t1)}
 .pos-links{display:flex;flex-wrap:wrap;gap:4px}
-.pos-link{display:inline-flex;align-items:center;gap:5px;font-size:12px;color:#185fa5;text-decoration:none;padding:3px 0;margin-right:.75rem}
+.pos-link{display:inline-flex;align-items:center;gap:5px;font-size:12px;color:var(--blue);text-decoration:none;padding:3px 0;margin-right:.75rem}
 .pos-link:hover{text-decoration:underline}
 .more-btn{font-size:12px;font-weight:500;padding:4px 13px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn);display:inline-flex;align-items:center;gap:5px;margin-top:.4rem}
 .more-btn:hover{background:var(--bg2);color:var(--t1)}
@@ -50,8 +50,8 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
 .detail-row:last-child{border-bottom:none}
 .detail-label{font-weight:500;color:var(--t1);min-width:130px;flex-shrink:0}
 .contact-block{background:var(--bg2);border-radius:var(--r1);padding:.65rem .85rem;margin-top:.5rem;font-size:13px;color:var(--t2);line-height:1.6}
-.contact-block a{color:#185fa5;text-decoration:none}
-.rl{display:block;font-size:13px;color:#185fa5;text-decoration:none;padding:7px 0;border-bottom:.5px solid var(--bd)}
+.contact-block a{color:var(--blue);text-decoration:none}
+.rl{display:block;font-size:13px;color:var(--blue);text-decoration:none;padding:7px 0;border-bottom:.5px solid var(--bd)}
 .rl:last-child{border-bottom:none}
 .rl:hover{text-decoration:underline}
 .footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
@@ -139,8 +139,8 @@ body{padding:0 0 2rem;margin:0}
   /* Green accents (from original palette) */
   --teal:#4e9836;--teal-bg:#eaf3e5;--teal-t:#3c7b20;
   --blue:#3a7878;--blue-bg:#e5f0f0;
-  --amber:#8a6f00;--amber-bg:#f5f0db;--amber-t:#6b5500;
-  --red:#993c1d;--red-bg:#faece7;--red-t:#993c1d;
+  --amber:#8a6f00;--amber-bg:var(--amber-bg);--amber-t:var(--amber-t);
+  --red:#993c1d;--red-bg:var(--red-bg);--red-t:#993c1d;
   --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
 }
 
@@ -173,8 +173,8 @@ html:not(.dark) {
   --t1:#212121;--t2:#424242;--t3:#757575;
   --bd:rgba(0,0,0,0.10);--bds:rgba(0,0,0,0.22);
   --teal-bg:#eaf3e5;--teal-t:#3c7b20;
-  --blue-bg:#e5f0f0;--amber-bg:#f5f0db;--amber-t:#6b5500;
-  --red-bg:#faece7;--red-t:#993c1d;
+  --blue-bg:#e5f0f0;--amber-bg:var(--amber-bg);--amber-t:var(--amber-t);
+  --red-bg:var(--red-bg);--red-t:#993c1d;
   --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
 }
 /* Page search bar */
@@ -247,16 +247,16 @@ html:not(.dark) {
       <div style="font-size:15px;font-weight:500;color:var(--t1)"><span class="status-badge s-updated">&#10024; New &mdash; May 16, 2026</span> Conservation Corps Minnesota &amp; Iowa &mdash; Individual Placements (Soil &amp; Water / Natural Resources) </div>
       <div style="font-size:12px;color:var(--t3);margin-top:2px">Minnesota, Iowa, and surrounding states</div>
     </div>
-    <span style="background:#e1f5ee;color:#0f6e56;font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px">Rolling &mdash; new positions year-round</span>
+    <span style="background:var(--teal-bg);color:var(--teal-t);font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px">Rolling &mdash; new positions year-round</span>
   </div>
   <div style="font-size:12px;color:var(--t2);margin-bottom:.5rem"><strong>Term:</strong> Full-year IPs or 3&ndash;6 month summer positions &nbsp;&middot;&nbsp; <strong>Benefits:</strong> Stipend + Segal AmeriCorps Education Award</div>
   <div style="font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.65rem">
     Conservation Corps Minnesota &amp; Iowa places AmeriCorps members with Soil and Water Conservation Districts and natural resource agencies. Summer soil and water positions include wetland and watercourse inventories, field surveys, groundwater monitoring, and educational programs. Full-year IPs include GIS mapping, species inventory, invasive species management, and water quality monitoring at agencies like MN DNR, USFS, and nonprofit partners. Strong match for Erin&rsquo;s GIS, water quality, and wildlife inventory skills. New positions post continuously at conservationcorps.org/join.
   </div>
   <div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:.65rem">
-    <span style="background:#e1f5ee;color:#0f6e56;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Wetland &amp; water inventories</span>
-    <span style="background:#e6f1fb;color:#185fa5;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">GIS mapping</span>
-    <span style="background:#faeeda;color:#854f0b;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">AmeriCorps year-round</span>
+    <span style="background:var(--teal-bg);color:var(--teal-t);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Wetland &amp; water inventories</span>
+    <span style="background:var(--blue-bg);color:var(--blue);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">GIS mapping</span>
+    <span style="background:var(--amber-bg);color:var(--amber-t);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">AmeriCorps year-round</span>
   </div>
   <!-- ML_BTN_item-080 --><button class="ml-save-btn" data-id="item-080" data-item="{&quot;title&quot;:&quot;Conservation Corps Minnesota & Iowa — Individual Placements&quot;,&quot;org&quot;:&quot;Minnesota, Iowa, and surrounding states&quot;,&quot;type&quot;:&quot;Service / Corps&quot;,&quot;cat&quot;:&quot;Service & Fellowships — Next Cycle&quot;,&quot;src&quot;:&quot;erin_service_next.html&quot;,&quot;src_label&quot;:&quot;Service & Fellowships — Next Cycle&quot;,&quot;deadline&quot;:&quot;Rolling — new positions posted continuously at conservationcorps.org/join&quot;,&quot;start&quot;:&quot;&quot;,&quot;body&quot;:&quot;Conservation Corps MN & IA places AmeriCorps members with Soil and Water Conservation Districts and natural resource agencies. Wetland inventories, water quality monitoring, GIS mapping, species surveys. Full-year IPs and summer positions. New positions roll continuously.&quot;,&quot;badge&quot;:&quot;Rolling — browse current openings&quot;,&quot;pills&quot;:[&quot;Wetland & water inventories&quot;,&quot;GIS mapping&quot;,&quot;Soil & Water Conservation Districts&quot;,&quot;AmeriCorps year-round&quot;],&quot;id&quot;:&quot;item-080&quot;}">&#9734; Save to My List</button>
   <a href="https://conservationcorps.org/join/" target="_blank" style="font-size:12px;color:var(--blue);margin-left:.75rem">Browse open positions &#8594;</a>
@@ -278,7 +278,7 @@ html:not(.dark) {
     <span class="fit-pill">Wildlife surveys</span>
     <span class="fit-pill">Colorado-based</span>
   </div>
-  <div style="background:#e1f5ee;border:1px solid #0f6e56;border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:#0f6e56">
+  <div style="background:var(--teal-bg);border:1px solid var(--teal-t);border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:var(--teal-t)">
   &#9654; NOW CONFIRMED OPEN — The 2026 cycle is actively posted. See erin_service.html for the current listing.
 </div>
 <div class="pos-body">This is the closest AmeriCorps IP match for Erin's full skill set — verified active for the 2025–26 cycle (May–September 2026, now closed). The 2026 version served with the BLM San Luis Valley Field Office managing 22,000+ acres of ecologically significant wetland and wildlife habitat in Colorado. Duties included: wetland well monitoring (47 wells), water quality sampling, wildlife species surveys with GIS data analysis, invasive bullfrog trapping, Land Health Assessments, and wildlife-friendly fence construction. This position recurs annually — watch SCC Individual Placements in July–September 2026 for the 2026–27 version.</div>
@@ -301,7 +301,7 @@ html:not(.dark) {
     <p>Wetland monitoring and management including irrigation infrastructure; well readings at 47 wetland wells in the San Luis Valley; water quality monitoring; species surveys with biologists including GIS data analysis; invasive American bullfrog trapping; post-fire/thinning monitoring; Land Health Assessments; wildlife-friendly fence repair and construction. This is exactly Erin's combined skill set.</p>
     <div class="detail-row"><span class="detail-label">When to watch</span>SCC IP postings for fall/winter starts typically appear July–September on scc.org and jobs.fire-up.net</div>
     <div class="detail-row"><span class="detail-label">PLC benefit</span>Any BLM position through Stewards/SCC provides Public Lands Corps Hiring Authority upon completion — a non-competitive federal employment pathway</div>
-    <div style="background:#e1f5ee;border:1px solid #0f6e56;border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:#0f6e56">&#9654; NOW CONFIRMED OPEN — The 2026 cycle is actively posted. See erin_service.html for the current listing.</div>
+    <div style="background:var(--teal-bg);border:1px solid var(--teal-t);border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:var(--teal-t)">&#9654; NOW CONFIRMED OPEN — The 2026 cycle is actively posted. See erin_service.html for the current listing.</div>
 <div class="contact-block">Monitor: <a href="https://www.southwestconservationcorps.org/individual-placements">southwestconservationcorps.org/individual-placements</a> and <a href="https://jobs.fire-up.net">jobs.fire-up.net</a> from July 2026 onward. Contact Niki Antonio at Conservation Legacy to ask about fall 2026 BLM wetland IP availability.</div>
   </div>
 
@@ -541,7 +541,7 @@ html:not(.dark) {
 <div class="tip">&#127891;&nbsp; <strong style="font-weight:500;color:var(--t1)">Strategic value of a second service term:</strong> A 1,200-hour AmeriCorps IP with a federal agency earns the full Segal Education Award (~$7,395) and — critically — the <strong>Public Lands Corps Hiring Authority</strong>, allowing non-competitive conversion to a permanent federal position. Combined with Erin's prior NCCC term, this builds a profile that federal hiring managers recognize immediately. The professional network and field credentials from a targeted IP also directly strengthen Fall 2027 graduate school applications.</div>
 
 
-<p class="footer">Research conducted May 2026. AmeriCorps positions open and close rapidly — verify all listings directly before applying. Education award amounts subject to annual adjustment by AmeriCorps.<br><br><a href="erin_service.html" style="color:#185fa5">&#8592; Back to service &amp; fellowships</a>&nbsp;&nbsp;<a href="index.html" style="color:#185fa5">&#8592; Home</a></p>
+<p class="footer">Research conducted May 2026. AmeriCorps positions open and close rapidly — verify all listings directly before applying. Education award amounts subject to annual adjustment by AmeriCorps.<br><br><a href="erin_service.html" style="color:var(--blue)">&#8592; Back to service &amp; fellowships</a>&nbsp;&nbsp;<a href="index.html" style="color:var(--blue)">&#8592; Home</a></p>
 </div>
 <script>
 function toggleMore(btn){var p=btn.nextElementSibling;var o=p.classList.toggle('open');btn.textContent=o?'− Less info':'+ More info'}
@@ -552,10 +552,10 @@ function toggleMore(btn){var p=btn.nextElementSibling;var o=p.classList.toggle('
 
 
 <style>
-.ml-save-btn{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:500;padding:5px 14px;border-radius:999px;border:1.5px solid #5dcaa5;background:transparent;color:#0f6e56;cursor:pointer;font-family:inherit;margin-top:.6rem;transition:background .12s,color .12s}
-.ml-save-btn:hover{background:#e1f5ee}
-.ml-save-btn.saved{background:#e1f5ee;color:#0f6e56}
-@media(prefers-color-scheme:dark){.ml-save-btn{color:#9fe1cb}.ml-save-btn:hover,.ml-save-btn.saved{background:#085041}}
+.ml-save-btn{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:500;padding:5px 14px;border-radius:999px;border:1.5px solid var(--teal);background:transparent;color:var(--teal-t);cursor:pointer;font-family:inherit;margin-top:.6rem;transition:background .12s,color .12s}
+.ml-save-btn:hover{background:var(--teal-bg)}
+.ml-save-btn.saved{background:var(--teal-bg);color:var(--teal-t)}
+@media(prefers-color-scheme:dark){.ml-save-btn{color:var(--teal-t)}.ml-save-btn:hover,.ml-save-btn.saved{background:var(--teal-t)}}
 </style>
 <script>
 (function(){

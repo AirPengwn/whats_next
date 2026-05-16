@@ -15,10 +15,10 @@ body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6
 .slabel{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin-bottom:.75rem}
 .card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1.25rem;margin-bottom:1rem}
 hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
-.tip{border-left:3px solid #5dcaa5;background:var(--bg2);padding:.85rem 1rem;margin-bottom:1rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
+.tip{border-left:3px solid var(--teal);background:var(--bg2);padding:.85rem 1rem;margin-bottom:1rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
 .tip-warn{border-left-color:var(--amber)}
-.context-banner{background:#e1f5ee;border:1.5px solid #5dcaa5;border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:1.5rem;font-size:13px;color:var(--t2);line-height:1.6}
-.context-banner strong{color:#0f6e56;font-weight:500}
+.context-banner{background:var(--teal-bg);border:1.5px solid var(--teal);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:1.5rem;font-size:13px;color:var(--t2);line-height:1.6}
+.context-banner strong{color:var(--teal-t);font-weight:500}
 
 .pos-card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:.85rem}
 .pos-card.hot{}
@@ -27,16 +27,16 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
 .pos-org{font-size:12px;color:var(--t3);margin-bottom:.5rem}
 .pos-body{font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.65rem}
 .badge{font-size:11px;font-weight:500;padding:3px 9px;border-radius:999px;white-space:nowrap;flex-shrink:0}
-.b-open{background:#e1f5ee;color:#0f6e56}.b-check{background:#faeeda;color:#854f0b}.b-rolling{background:#e6f1fb;color:#185fa5}.b-ref{background:var(--bg2);color:var(--t3)}
+.b-open{background:var(--teal-bg);color:var(--teal-t)}.b-check{background:var(--amber-bg);color:var(--amber-t)}.b-rolling{background:var(--blue-bg);color:var(--blue)}.b-ref{background:var(--bg2);color:var(--t3)}
 
 .fit-pills{margin-bottom:.65rem;display:flex;flex-wrap:wrap;gap:4px}
-.fit-pill{display:inline-block;font-size:11px;font-weight:500;padding:3px 9px;border-radius:999px;background:#e6f1fb;color:#185fa5}
+.fit-pill{display:inline-block;font-size:11px;font-weight:500;padding:3px 9px;border-radius:999px;background:var(--blue-bg);color:var(--blue)}
 
 .meta-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 12px;margin-bottom:.65rem}
 .meta-item{font-size:12px;color:var(--t2)}
 .meta-label{font-weight:500;color:var(--t1)}
 .pos-links{display:flex;flex-wrap:wrap;gap:4px}
-.pos-link{display:inline-flex;align-items:center;gap:5px;font-size:12px;color:#185fa5;text-decoration:none;padding:3px 0;margin-right:.75rem}
+.pos-link{display:inline-flex;align-items:center;gap:5px;font-size:12px;color:var(--blue);text-decoration:none;padding:3px 0;margin-right:.75rem}
 .pos-link:hover{text-decoration:underline}
 .more-btn{font-size:12px;font-weight:500;padding:4px 13px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn);display:inline-flex;align-items:center;gap:5px;margin-top:.4rem}
 .more-btn:hover{background:var(--bg2);color:var(--t1)}
@@ -50,8 +50,8 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
 .detail-row:last-child{border-bottom:none}
 .detail-label{font-weight:500;color:var(--t1);min-width:120px;flex-shrink:0}
 .contact-block{background:var(--bg2);border-radius:var(--r1);padding:.65rem .85rem;margin-top:.5rem;font-size:13px;color:var(--t2);line-height:1.6}
-.contact-block a{color:#185fa5;text-decoration:none}
-.rl{display:block;font-size:13px;color:#185fa5;text-decoration:none;padding:7px 0;border-bottom:.5px solid var(--bd)}
+.contact-block a{color:var(--blue);text-decoration:none}
+.rl{display:block;font-size:13px;color:var(--blue);text-decoration:none;padding:7px 0;border-bottom:.5px solid var(--bd)}
 .rl:last-child{border-bottom:none}
 .rl:hover{text-decoration:underline}
 .footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
@@ -139,8 +139,8 @@ body{padding:0 0 2rem;margin:0}
   /* Green accents (from original palette) */
   --teal:#4e9836;--teal-bg:#eaf3e5;--teal-t:#3c7b20;
   --blue:#3a7878;--blue-bg:#e5f0f0;
-  --amber:#8a6f00;--amber-bg:#f5f0db;--amber-t:#6b5500;
-  --red:#993c1d;--red-bg:#faece7;--red-t:#993c1d;
+  --amber:#8a6f00;--amber-bg:var(--amber-bg);--amber-t:var(--amber-t);
+  --red:#993c1d;--red-bg:var(--red-bg);--red-t:#993c1d;
   --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
 }
 
@@ -173,8 +173,8 @@ html:not(.dark) {
   --t1:#212121;--t2:#424242;--t3:#757575;
   --bd:rgba(0,0,0,0.10);--bds:rgba(0,0,0,0.22);
   --teal-bg:#eaf3e5;--teal-t:#3c7b20;
-  --blue-bg:#e5f0f0;--amber-bg:#f5f0db;--amber-t:#6b5500;
-  --red-bg:#faece7;--red-t:#993c1d;
+  --blue-bg:#e5f0f0;--amber-bg:var(--amber-bg);--amber-t:var(--amber-t);
+  --red-bg:var(--red-bg);--red-t:#993c1d;
   --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
 }
 /* Page search bar */
@@ -242,7 +242,7 @@ html:not(.dark) {
 <div class="slabel">Federal — rolling hire &amp; fall 2026 cycles</div>
 
 
-<div style="background:#faece7;border:1px solid #c0392b;border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:#993c1d">
+<div style="background:var(--red-bg);border:1px solid var(--red);border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:#993c1d">
   &#9888; Deadline just passed — April 15, 2026. Contact program directly; watch for 2027-28 cohort.
 </div>
 <div class="pos-card">
@@ -251,7 +251,7 @@ html:not(.dark) {
       <div style="font-size:15px;font-weight:500;color:var(--t1)"><span class="status-badge s-updated">&#10024; New &mdash; May 16, 2026</span> University of Alabama / Jones Center at Ichauway &mdash; Woods to Water RaMP Postbac </div>
       <div style="font-size:12px;color:var(--t3);margin-top:2px">Tuscaloosa, AL + Newton, GA (Jones Center at Ichauway)</div>
     </div>
-    <span style="background:#faeeda;color:#854f0b;font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px">Verify &mdash; deadline just passed</span>
+    <span style="background:var(--amber-bg);color:var(--amber-t);font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px">Verify &mdash; deadline just passed</span>
   </div>
   <div style="font-size:12px;color:var(--t2);margin-bottom:.5rem"><strong>2026-27 cohort deadline:</strong> April 15, 2026 (just passed) &mdash; contact program directly; watch for 2027-28 cohort &nbsp;&middot;&nbsp; <strong>Stipend:</strong> Full stipend + free housing</div>
   <div style="font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.65rem">
@@ -261,7 +261,7 @@ html:not(.dark) {
     <span style="background:var(--teal-bg);color:var(--teal-t);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Longleaf pine &amp; wetlands</span>
     <span style="background:var(--teal-bg);color:var(--teal-t);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Aquatic biogeochemistry</span>
     <span style="background:var(--blue-bg);color:var(--blue);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">NEON field methods</span>
-    <span style="background:#faeeda;color:#854f0b;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Stipend + free housing</span>
+    <span style="background:var(--amber-bg);color:var(--amber-t);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Stipend + free housing</span>
   </div>
   <!-- ML_BTN_item-079 --><button class="ml-save-btn" data-id="item-079" data-item="{&quot;title&quot;:&quot;University of Alabama / Jones Center at Ichauway — Woods to Water RaMP Postbac&quot;,&quot;org&quot;:&quot;Tuscaloosa, AL + Newton, GA (Jones Center at Ichauway)&quot;,&quot;type&quot;:&quot;Internship&quot;,&quot;cat&quot;:&quot;Internships — Next Cycle&quot;,&quot;src&quot;:&quot;erin_internships_next.html&quot;,&quot;src_label&quot;:&quot;Internships — Next Cycle&quot;,&quot;deadline&quot;:&quot;August 2026 – July 2027 cohort: deadline was April 15, 2026 (just passed) — watch for 2027-28 cohort&quot;,&quot;start&quot;:&quot;August 2026&quot;,&quot;body&quot;:&quot;NSF-funded year-long postbac training in field ecology. U Alabama + Jones Center at Ichauway (longleaf pine, wetlands, 25 miles of streams). Full stipend + free housing. Prepares for graduate school.&quot;,&quot;badge&quot;:&quot;Verify — deadline just passed; contact program directly&quot;,&quot;pills&quot;:[&quot;Longleaf pine & wetlands&quot;,&quot;Aquatic biogeochemistry&quot;,&quot;NEON field methods&quot;,&quot;Stipend + free housing&quot;],&quot;id&quot;:&quot;item-079&quot;}">&#9734; Save to My List</button>
 </div>
@@ -501,7 +501,7 @@ html:not(.dark) {
     <span class="fit-pill">NSF RaMP program</span>
     <span class="fit-pill">Stipend + housing</span>
   </div>
-  <div style="background:#faece7;border:1px solid #c0392b;border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:#993c1d">
+  <div style="background:var(--red-bg);border:1px solid var(--red);border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:#993c1d">
   &#9888; Deadline passed April 15, 2026 — 2027 cohort TBD; watch Georgia Southern directly.
 </div>
 <div class="pos-body">The MROC2S (Mentoring and Research for Careers in Coastal Sciences) program at Georgia Southern is an NSF-funded postbaccalaureate research and mentoring fellowship for early-career scientists. The 2026–27 cohort (August 2026 – July 2027) had a deadline of April 15, 2026 — just passed. However, this program runs annually; watch for the 2027–28 cycle opening in early 2027. Provides stipend, free housing, and structured research mentorship in coastal science — an outstanding bridge-year opportunity before graduate school.</div>
@@ -520,7 +520,7 @@ html:not(.dark) {
     <h4>About NSF RaMP programs broadly</h4>
     <p>NSF's Research and Mentoring for Postbaccalaureates (RaMP) initiative funds multiple programs at universities around the country. Georgia Southern's coastal science program is one — but other RaMP programs at different universities may have different timelines. Search "NSF RaMP postbaccalaureate" to find currently open programs that match Erin's timeline.</p>
     <div class="detail-row"><span class="detail-label">Why it matters</span>A funded postbac year with published research or conference presentations strengthens any Fall 2027 graduate school application significantly</div>
-    <div style="background:#faece7;border:1px solid #c0392b;border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:#993c1d">&#9888; Deadline passed April 15, 2026 — 2027 cohort TBD; contact Georgia Southern directly.</div>
+    <div style="background:var(--red-bg);border:1px solid var(--red);border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:#993c1d">&#9888; Deadline passed April 15, 2026 — 2027 cohort TBD; contact Georgia Southern directly.</div>
 <div class="contact-block">Search for 2027 cohort: monitor Georgia Southern Biology department and ecophys-jobs.org/temp.html in January–February 2027.</div>
   </div>
 
@@ -573,7 +573,7 @@ html:not(.dark) {
 </div>
 
 
-<p class="footer">Research conducted May 2026. Internship availability changes rapidly — verify all positions directly before applying. Federal positions fill immediately after posting; set USAJobs saved searches now.<br><br><a href="erin_internships.html" style="color:#185fa5">&#8592; Back to internships</a>&nbsp;&nbsp;<a href="index.html" style="color:#185fa5">&#8592; Home</a></p>
+<p class="footer">Research conducted May 2026. Internship availability changes rapidly — verify all positions directly before applying. Federal positions fill immediately after posting; set USAJobs saved searches now.<br><br><a href="erin_internships.html" style="color:var(--blue)">&#8592; Back to internships</a>&nbsp;&nbsp;<a href="index.html" style="color:var(--blue)">&#8592; Home</a></p>
 </div>
 <script>
 function toggleMore(btn){var p=btn.nextElementSibling;var o=p.classList.toggle('open');btn.textContent=o?'− Less info':'+ More info'}
@@ -584,10 +584,10 @@ function toggleMore(btn){var p=btn.nextElementSibling;var o=p.classList.toggle('
 
 
 <style>
-.ml-save-btn{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:500;padding:5px 14px;border-radius:999px;border:1.5px solid #5dcaa5;background:transparent;color:#0f6e56;cursor:pointer;font-family:inherit;margin-top:.6rem;transition:background .12s,color .12s}
-.ml-save-btn:hover{background:#e1f5ee}
-.ml-save-btn.saved{background:#e1f5ee;color:#0f6e56}
-@media(prefers-color-scheme:dark){.ml-save-btn{color:#9fe1cb}.ml-save-btn:hover,.ml-save-btn.saved{background:#085041}}
+.ml-save-btn{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:500;padding:5px 14px;border-radius:999px;border:1.5px solid var(--teal);background:transparent;color:var(--teal-t);cursor:pointer;font-family:inherit;margin-top:.6rem;transition:background .12s,color .12s}
+.ml-save-btn:hover{background:var(--teal-bg)}
+.ml-save-btn.saved{background:var(--teal-bg);color:var(--teal-t)}
+@media(prefers-color-scheme:dark){.ml-save-btn{color:var(--teal-t)}.ml-save-btn:hover,.ml-save-btn.saved{background:var(--teal-t)}}
 </style>
 <script>
 (function(){

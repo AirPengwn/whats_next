@@ -17,7 +17,7 @@ body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6
 .card-title{font-size:15px;font-weight:500;margin-bottom:.5rem;color:var(--t1)}
 .card-body{font-size:13px;color:var(--t2);line-height:1.7}
 hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
-.tip{border-left:3px solid #5dcaa5;background:var(--bg2);padding:.85rem 1rem;margin-bottom:.85rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
+.tip{border-left:3px solid var(--teal);background:var(--bg2);padding:.85rem 1rem;margin-bottom:.85rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
 .tip-warn{border-left-color:var(--amber)}
 .pos-card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:.85rem}
 .pos-card.hot{}
@@ -27,21 +27,21 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
 .pos-org{font-size:12px;color:var(--t3);margin-bottom:.5rem}
 .pos-body{font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.65rem}
 .badge{font-size:11px;font-weight:500;padding:3px 9px;border-radius:999px;white-space:nowrap;flex-shrink:0}
-.b-open{background:#e1f5ee;color:#0f6e56}
-.b-check{background:#faeeda;color:#854f0b}
+.b-open{background:var(--teal-bg);color:var(--teal-t)}
+.b-check{background:var(--amber-bg);color:var(--amber-t)}
 .b-closed{background:var(--bg2);color:var(--t3)}
-.b-new{background:#faece7;color:#993c1d}
+.b-new{background:var(--red-bg);color:#993c1d}
 
 .meta-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 12px;margin-bottom:.65rem}
 .meta-item{font-size:12px;color:var(--t2)}
 .meta-label{font-weight:500;color:var(--t1)}
 .pos-links{display:flex;flex-wrap:wrap;gap:4px}
-.pos-link{display:inline-flex;align-items:center;gap:5px;font-size:12px;color:#185fa5;text-decoration:none;padding:3px 0;margin-right:.75rem}
+.pos-link{display:inline-flex;align-items:center;gap:5px;font-size:12px;color:var(--blue);text-decoration:none;padding:3px 0;margin-right:.75rem}
 .pos-link:hover{text-decoration:underline}
 .fit-pills{margin-bottom:.65rem}
-.fit-pill{display:inline-block;font-size:11px;font-weight:500;padding:3px 9px;border-radius:999px;margin:2px 3px 2px 0;background:#e6f1fb;color:#185fa5}
+.fit-pill{display:inline-block;font-size:11px;font-weight:500;padding:3px 9px;border-radius:999px;margin:2px 3px 2px 0;background:var(--blue-bg);color:var(--blue)}
 
-.rl{display:block;font-size:13px;color:#185fa5;text-decoration:none;padding:7px 0;border-bottom:.5px solid var(--bd)}
+.rl{display:block;font-size:13px;color:var(--blue);text-decoration:none;padding:7px 0;border-bottom:.5px solid var(--bd)}
 .rl:last-child{border-bottom:none}
 .rl:hover{text-decoration:underline}
 .footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
@@ -134,8 +134,8 @@ body{padding:0 0 2rem;margin:0}
   /* Green accents (from original palette) */
   --teal:#4e9836;--teal-bg:#eaf3e5;--teal-t:#3c7b20;
   --blue:#3a7878;--blue-bg:#e5f0f0;
-  --amber:#8a6f00;--amber-bg:#f5f0db;--amber-t:#6b5500;
-  --red:#993c1d;--red-bg:#faece7;--red-t:#993c1d;
+  --amber:#8a6f00;--amber-bg:var(--amber-bg);--amber-t:var(--amber-t);
+  --red:#993c1d;--red-bg:var(--red-bg);--red-t:#993c1d;
   --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
 }
 
@@ -168,8 +168,8 @@ html:not(.dark) {
   --t1:#212121;--t2:#424242;--t3:#757575;
   --bd:rgba(0,0,0,0.10);--bds:rgba(0,0,0,0.22);
   --teal-bg:#eaf3e5;--teal-t:#3c7b20;
-  --blue-bg:#e5f0f0;--amber-bg:#f5f0db;--amber-t:#6b5500;
-  --red-bg:#faece7;--red-t:#993c1d;
+  --blue-bg:#e5f0f0;--amber-bg:var(--amber-bg);--amber-t:var(--amber-t);
+  --red-bg:var(--red-bg);--red-t:#993c1d;
   --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
 }
 /* Page search bar */
@@ -227,13 +227,13 @@ html:not(.dark) {
 </div>
 
 <!-- ABOUT AMERICORPS -->
-<a href="erin_service_next.html" style="display:flex;align-items:center;gap:.85rem;background:var(--bg);border:2px solid #5dcaa5;border-radius:var(--r2);padding:.9rem 1.25rem;text-decoration:none;color:var(--t1);margin-bottom:1.5rem;transition:background .12s">
+<a href="erin_service_next.html" style="display:flex;align-items:center;gap:.85rem;background:var(--bg);border:2px solid var(--teal);border-radius:var(--r2);padding:.9rem 1.25rem;text-decoration:none;color:var(--t1);margin-bottom:1.5rem;transition:background .12s">
   <span style="font-size:20px">🔄</span>
   <div style="flex:1">
     <div style="font-size:14px;font-weight:500;color:var(--t1);margin-bottom:2px">Next cycle — Fall 2026 &amp; beyond</div>
     <div style="font-size:12px;color:var(--t3)">AI-generated forward-looking service &amp; fellowship positions for an Aug/Sep 2026 start &middot; Updated each visit</div>
   </div>
-  <span style="font-size:16px;color:#5dcaa5;margin-left:auto">&#8594;</span>
+  <span style="font-size:16px;color:var(--teal);margin-left:auto">&#8594;</span>
 </a>
 
 <div class="slabel">About AmeriCorps service</div>
@@ -272,7 +272,7 @@ html:not(.dark) {
     <span class="fit-pill">Wildlife surveys</span>
     <span class="fit-pill">Colorado-based</span>
   </div>
-  <div style="background:#e1f5ee;border:1px solid #0f6e56;border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:#0f6e56">
+  <div style="background:var(--teal-bg);border:1px solid var(--teal-t);border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:var(--teal-t)">
   &#9654; NOW OPEN — The 2026 cycle of this position is actively posted (May 2026). Apply immediately at Conservation Legacy / Southwest Conservation Corps.
 </div>
 <div class="pos-body">This position is the closest match to Erin's full skill set of any AmeriCorps position found. It was with the BLM San Luis Valley Field Office, which manages over 500,000 acres including 22,000+ acres of some of the most ecologically significant wetland and wildlife habitats in Colorado. The IP worked directly with BLM biologists on habitat assessments, wildlife surveys, water quality monitoring, GIS data analysis, invasive species management, and wetland well monitoring. This exact type of position recurs annually &mdash; watch for the 2026&ndash;27 version.</div>
@@ -379,12 +379,12 @@ html:not(.dark) {
     <div class="meta-item"><span class="meta-label">Living allowance:</span> $600/week + $225/week housing stipend</div>
     <div class="meta-item"><span class="meta-label">Education award:</span> Segal award upon completion</div>
     <div class="meta-item"><span class="meta-label">Location:</span> Lawton, OK (near Fort Sill)</div>
-    <div style="background:#faece7;border:1px solid #c0392b;border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:#993c1d">
+    <div style="background:var(--red-bg);border:1px solid var(--red);border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:#993c1d">
   &#9888; Deadline passed Jan 25, 2026 — see next cycle for 2026-27 version.
 </div>
 <div class="meta-item"><span class="meta-label">Prior apply deadline:</span> Jan 25, 2026 (may be filled)</div>
   </div>
-  <div style="background:#faece7;border:1px solid #c0392b;border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:#993c1d">&#9888; Deadline passed Jan 25, 2026 — see next cycle for 2026-27 version.</div>
+  <div style="background:var(--red-bg);border:1px solid var(--red);border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:#993c1d">&#9888; Deadline passed Jan 25, 2026 — see next cycle for 2026-27 version.</div>
 <div class="pos-links">
     <a class="pos-link" href="https://americanyouthworks.org/what-we-do/cc/open-positions">&#128269; American Youthworks open positions</a>
     <a class="pos-link" href="https://www.google.com/search?q=American+Youthworks+Wichita+Mountains+wildlife+AmeriCorps+2026">&#128269; Search for current status</a>
@@ -467,7 +467,7 @@ html:not(.dark) {
     <span class="fit-pill">USACE</span>
     <span class="fit-pill">Public Lands Corps hiring authority</span>
   </div>
-  <div style="background:#faece7;border:1px solid #c0392b;border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:#993c1d">
+  <div style="background:var(--red-bg);border:1px solid var(--red);border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:#993c1d">
   &#9888; All 2026 deadlines passed (May 1 / April 30 / March 31) — watch The Corps Network for next cycle.
 </div>
 <div class="pos-body">Individual placement positions with the US Army Corps of Engineers through The Corps Network. Environmental compliance focus. Previous deadlines: May 1, 2026 for Cushing, MN/MT; April 30 for Hot Springs, SD; March 31 for Moab, UT. Benefits include housing stipend/assistance, relocation assistance, transportation assistance, and Public Lands Corps Hiring Authority upon completion (a pathway to non-competitive federal employment). Multiple locations; verify current openings.</div>
@@ -477,7 +477,7 @@ html:not(.dark) {
     <div class="meta-item"><span class="meta-label">Locations:</span> MN, MT, SD, UT (multiple sites)</div>
     <div class="meta-item"><span class="meta-label">Housing:</span> Housing stipend/assistance included</div>
   </div>
-  <div style="background:#faece7;border:1px solid #c0392b;border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:#993c1d">&#9888; All 2026 deadlines passed (May 1 / April 30 / March 31) — watch The Corps Network for next cycle.</div>
+  <div style="background:var(--red-bg);border:1px solid var(--red);border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:#993c1d">&#9888; All 2026 deadlines passed (May 1 / April 30 / March 31) — watch The Corps Network for next cycle.</div>
 <div class="pos-links">
     <a class="pos-link" href="https://corpsnetwork.org/jobs-at-corps/">&#128269; Corps Network jobs board</a>
     <a class="pos-link" href="https://corpsnetwork.org/job-openings/internship-usace-environmental-compliance/">&#128269; USACE Environmental Compliance listing</a>
@@ -560,7 +560,7 @@ html:not(.dark) {
   <a class="rl" href="https://www.google.com/search?q=AmeriCorps+individual+placement+environmental+science+Appalachian+southeast+2026">&#128269;&nbsp; Search: AmeriCorps IP environmental science southeastern US 2026</a>
 </div>
 
-<p class="footer">Position information current as of May 2026. AmeriCorps positions open and close rapidly &mdash; verify all listings directly before applying. Education award amounts are subject to change by AmeriCorps annually.<br><br><a href="index.html" style="color:#185fa5">&#8592; Back to home</a></p>
+<p class="footer">Position information current as of May 2026. AmeriCorps positions open and close rapidly &mdash; verify all listings directly before applying. Education award amounts are subject to change by AmeriCorps annually.<br><br><a href="index.html" style="color:var(--blue)">&#8592; Back to home</a></p>
 </div>
 
 
@@ -568,10 +568,10 @@ html:not(.dark) {
 
 
 <style>
-.ml-save-btn{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:500;padding:5px 14px;border-radius:999px;border:1.5px solid #5dcaa5;background:transparent;color:#0f6e56;cursor:pointer;font-family:inherit;margin-top:.6rem;transition:background .12s,color .12s}
-.ml-save-btn:hover{background:#e1f5ee}
-.ml-save-btn.saved{background:#e1f5ee;color:#0f6e56}
-@media(prefers-color-scheme:dark){.ml-save-btn{color:#9fe1cb}.ml-save-btn:hover,.ml-save-btn.saved{background:#085041}}
+.ml-save-btn{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:500;padding:5px 14px;border-radius:999px;border:1.5px solid var(--teal);background:transparent;color:var(--teal-t);cursor:pointer;font-family:inherit;margin-top:.6rem;transition:background .12s,color .12s}
+.ml-save-btn:hover{background:var(--teal-bg)}
+.ml-save-btn.saved{background:var(--teal-bg);color:var(--teal-t)}
+@media(prefers-color-scheme:dark){.ml-save-btn{color:var(--teal-t)}.ml-save-btn:hover,.ml-save-btn.saved{background:var(--teal-t)}}
 </style>
 <script>
 (function(){

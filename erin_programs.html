@@ -31,7 +31,7 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
 .pl{font-size:12px;color:var(--t2);margin-top:2px}
 .pb2{font-size:13px;color:var(--t2);line-height:1.6;margin-bottom:.75rem}
 .badge{font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px;white-space:nowrap;flex-shrink:0}
-.ms{background:#e1f5ee;color:var(--teal-t)}.mg{background:#e6f1fb;color:var(--blue)}.mo{background:#eeedfe;color:#534ab7}.mw{background:#faeeda;color:#854f0b}.mx{background:#faece7;color:#993c1d}
+.ms{background:var(--teal-bg);color:var(--teal-t)}.mg{background:var(--blue-bg);color:var(--blue)}.mo{background:var(--purple-bg);color:#534ab7}.mw{background:var(--amber-bg);color:var(--amber-t)}.mx{background:var(--red-bg);color:#993c1d}
 
 .slinks{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:.75rem}
 .sl2{display:inline-flex;align-items:center;gap:5px;font-size:12px;color:var(--blue);text-decoration:none;padding:3px 0;margin-right:.75rem}
@@ -51,9 +51,9 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
 .more-panel .contact-block a{color:var(--blue);text-decoration:none}
 .more-panel .contact-block a:hover{text-decoration:underline}
 .status-badge{display:inline-block;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px;margin-left:6px}
-.s-open{background:#e1f5ee;color:var(--teal-t)}
-.s-check{background:#faeeda;color:#854f0b}
-.s-new{background:#faece7;color:#993c1d}
+.s-open{background:var(--teal-bg);color:var(--teal-t)}
+.s-check{background:var(--amber-bg);color:var(--amber-t)}
+.s-new{background:var(--red-bg);color:#993c1d}
 .rl{display:block;font-size:13px;color:var(--blue);text-decoration:none;padding:7px 0;border-bottom:.5px solid var(--bd)}
 .rl:last-child{border-bottom:none}
 .rl:hover{text-decoration:underline}
@@ -142,8 +142,8 @@ body{padding:0 0 2rem;margin:0}
   /* Green accents (from original palette) */
   --teal:#4e9836;--teal-bg:#eaf3e5;--teal-t:#3c7b20;
   --blue:#3a7878;--blue-bg:#e5f0f0;
-  --amber:#8a6f00;--amber-bg:#f5f0db;--amber-t:#6b5500;
-  --red:#993c1d;--red-bg:#faece7;--red-t:#993c1d;
+  --amber:#8a6f00;--amber-bg:var(--amber-bg);--amber-t:var(--amber-t);
+  --red:#993c1d;--red-bg:var(--red-bg);--red-t:#993c1d;
   --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
 }
 
@@ -176,11 +176,11 @@ html:not(.dark) {
   --t1:#212121;--t2:#424242;--t3:#757575;
   --bd:rgba(0,0,0,0.10);--bds:rgba(0,0,0,0.22);
   --teal-bg:#eaf3e5;--teal-t:#3c7b20;
-  --blue-bg:#e5f0f0;--amber-bg:#f5f0db;--amber-t:#6b5500;
-  --red-bg:#faece7;--red-t:#993c1d;
+  --blue-bg:#e5f0f0;--amber-bg:var(--amber-bg);--amber-t:var(--amber-t);
+  --red-bg:var(--red-bg);--red-t:#993c1d;
   --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
 }.card-urgent{border-left:3px solid var(--teal)!important}
-.card-deadline{border-left:3px solid #c0392b!important}
+.card-deadline{border-left:3px solid var(--red)!important}
 
 /* Page search bar */
 .page-search-wrap{display:flex;align-items:center;gap:.5rem;margin-bottom:1.25rem;padding:.5rem .75rem;background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r1)}
@@ -304,8 +304,8 @@ html:not(.dark) {
       <div style="font-size:12px;color:var(--t3);margin-top:2px">Stillwater, OK &middot; Environmental Science Graduate Program</div>
     </div>
     <div style="display:flex;flex-wrap:wrap;gap:5px">
-      <span style="background:#faece7;color:#993c1d;font-size:11px;font-weight:700;padding:3px 10px;border-radius:999px">&#9888; Deadline May 15 &mdash; URGENT</span>
-      <span style="background:#e1f5ee;color:var(--teal-t);font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px">Exceptional fit</span>
+      <span style="background:var(--red-bg);color:#993c1d;font-size:11px;font-weight:700;padding:3px 10px;border-radius:999px">&#9888; Deadline May 15 &mdash; URGENT</span>
+      <span style="background:var(--teal-bg);color:var(--teal-t);font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px">Exceptional fit</span>
     </div>
   </div>
   <div style="font-size:12px;color:var(--t2);margin-bottom:.5rem">
@@ -315,10 +315,10 @@ html:not(.dark) {
     Two fully funded MS assistantships for an interdisciplinary watershed conservation project in the Neosho River Watershed of northeastern Oklahoma &mdash; which includes the Tar Creek Superfund Site, one of the most historically significant mining-contaminated landscapes in the US. <strong>Position 1 (Ecology/Rangeland):</strong> wildlife habitat assessment, species of conservation need, restoration planning. <strong>Position 2 (Hydrology/GIS):</strong> watershed hydrology, site suitability modeling, flood mitigation, conservation planning. The contaminated watershed + GIS + field ecology combination is a direct methodological parallel to Erin&rsquo;s Pigeon River lead contamination capstone. Advisors: Dr. Scott Stoodley &amp; Dr. Jaime Schussler.
   </div>
   <div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:.65rem">
-    <span style="background:#e1f5ee;color:var(--teal-t);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Watershed hydrology</span>
-    <span style="background:#e6f1fb;color:var(--blue);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">GIS &amp; site suitability</span>
-    <span style="background:#faeeda;color:#854f0b;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Contaminated sites</span>
-    <span style="background:#e1f5ee;color:var(--teal-t);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Wildlife habitat assessment</span>
+    <span style="background:var(--teal-bg);color:var(--teal-t);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Watershed hydrology</span>
+    <span style="background:var(--blue-bg);color:var(--blue);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">GIS &amp; site suitability</span>
+    <span style="background:var(--amber-bg);color:var(--amber-t);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Contaminated sites</span>
+    <span style="background:var(--teal-bg);color:var(--teal-t);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Wildlife habitat assessment</span>
   </div>
   <div style="display:flex;gap:.75rem;flex-wrap:wrap;align-items:center">
     <!-- ML_BTN_item-074 --><button class="ml-save-btn" data-id="item-074" data-item="{&quot;title&quot;:&quot;Oklahoma State University — Watershed Hydrology & Rangeland Ecology (2 MS positions)&quot;,&quot;org&quot;:&quot;Stillwater, OK · Environmental Science Graduate Program&quot;,&quot;type&quot;:&quot;Graduate Program&quot;,&quot;cat&quot;:&quot;Funded Graduate Programs&quot;,&quot;src&quot;:&quot;erin_programs.html&quot;,&quot;src_label&quot;:&quot;Funded Graduate Programs&quot;,&quot;deadline&quot;:&quot;May 15, 2026 — URGENT&quot;,&quot;start&quot;:&quot;May 27–June 5, 2026&quot;,&quot;body&quot;:&quot;Two fully funded MS assistantships — Neosho River Watershed, Oklahoma. Tar Creek Superfund Site contamination context. Position 1: Ecology/Rangeland — wildlife habitat, species of conservation need. Position 2: Hydrology/GIS — site suitability modeling, flood mitigation. Full stipend + tuition waiver + health insurance. Advisors: Dr. Scott Stoodley & Dr. Jaime Schussler. Email: esgp@okstate.edu&quot;,&quot;badge&quot;:&quot;Exceptional fit — URGENT, deadline May 15&quot;,&quot;pills&quot;:[&quot;Watershed hydrology&quot;,&quot;GIS & site suitability&quot;,&quot;Contaminated sites&quot;,&quot;Wildlife habitat assessment&quot;],&quot;id&quot;:&quot;item-074&quot;}">&#9734; Save to My List</button>
@@ -850,9 +850,9 @@ function toggleMore(btn){
 
 <style>
 .ml-save-btn{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:500;padding:5px 14px;border-radius:999px;border:1.5px solid var(--teal);background:transparent;color:var(--teal-t);cursor:pointer;font-family:inherit;margin-top:.6rem;transition:background .12s,color .12s}
-.ml-save-btn:hover{background:#e1f5ee}
-.ml-save-btn.saved{background:#e1f5ee;color:var(--teal-t)}
-@media(prefers-color-scheme:dark){.ml-save-btn{color:#9fe1cb}.ml-save-btn:hover,.ml-save-btn.saved{background:#085041}}
+.ml-save-btn:hover{background:var(--teal-bg)}
+.ml-save-btn.saved{background:var(--teal-bg);color:var(--teal-t)}
+@media(prefers-color-scheme:dark){.ml-save-btn{color:var(--teal-t)}.ml-save-btn:hover,.ml-save-btn.saved{background:var(--teal-t)}}
 </style>
 <script>
 (function(){

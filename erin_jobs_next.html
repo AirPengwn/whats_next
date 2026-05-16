@@ -15,10 +15,10 @@ body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6
 .slabel{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin-bottom:.75rem}
 .card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1.25rem;margin-bottom:1rem}
 hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
-.tip{border-left:3px solid #5dcaa5;background:var(--bg2);padding:.85rem 1rem;margin-bottom:1rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
+.tip{border-left:3px solid var(--teal);background:var(--bg2);padding:.85rem 1rem;margin-bottom:1rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
 .tip-warn{border-left-color:var(--amber)}
-.context-banner{background:#e1f5ee;border:1.5px solid #5dcaa5;border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:1.5rem;font-size:13px;color:var(--t2);line-height:1.6}
-.context-banner strong{color:#0f6e56;font-weight:500}
+.context-banner{background:var(--teal-bg);border:1.5px solid var(--teal);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:1.5rem;font-size:13px;color:var(--t2);line-height:1.6}
+.context-banner strong{color:var(--teal-t);font-weight:500}
 
 .pos-card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:.85rem}
 .pos-card.hot{}
@@ -27,16 +27,16 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
 .pos-org{font-size:12px;color:var(--t3);margin-bottom:.5rem}
 .pos-body{font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.65rem}
 .badge{font-size:11px;font-weight:500;padding:3px 9px;border-radius:999px;white-space:nowrap;flex-shrink:0}
-.b-open{background:#e1f5ee;color:#0f6e56}.b-rolling{background:#e6f1fb;color:#185fa5}.b-check{background:#faeeda;color:#854f0b}
+.b-open{background:var(--teal-bg);color:var(--teal-t)}.b-rolling{background:var(--blue-bg);color:var(--blue)}.b-check{background:var(--amber-bg);color:var(--amber-t)}
 
 .fit-pills{margin-bottom:.65rem;display:flex;flex-wrap:wrap;gap:4px}
-.fit-pill{display:inline-block;font-size:11px;font-weight:500;padding:3px 9px;border-radius:999px;background:#e6f1fb;color:#185fa5}
+.fit-pill{display:inline-block;font-size:11px;font-weight:500;padding:3px 9px;border-radius:999px;background:var(--blue-bg);color:var(--blue)}
 
 .meta-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 12px;margin-bottom:.65rem}
 .meta-item{font-size:12px;color:var(--t2)}
 .meta-label{font-weight:500;color:var(--t1)}
 .pos-links{display:flex;flex-wrap:wrap;gap:4px}
-.pos-link{display:inline-flex;align-items:center;gap:5px;font-size:12px;color:#185fa5;text-decoration:none;padding:3px 0;margin-right:.75rem}
+.pos-link{display:inline-flex;align-items:center;gap:5px;font-size:12px;color:var(--blue);text-decoration:none;padding:3px 0;margin-right:.75rem}
 .pos-link:hover{text-decoration:underline}
 .more-btn{font-size:12px;font-weight:500;padding:4px 13px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn);display:inline-flex;align-items:center;gap:5px;margin-top:.4rem}
 .more-btn:hover{background:var(--bg2);color:var(--t1)}
@@ -49,8 +49,8 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
 .detail-row:last-child{border-bottom:none}
 .detail-label{font-weight:500;color:var(--t1);min-width:120px;flex-shrink:0}
 .contact-block{background:var(--bg2);border-radius:var(--r1);padding:.65rem .85rem;margin-top:.5rem;font-size:13px;color:var(--t2);line-height:1.6}
-.contact-block a{color:#185fa5;text-decoration:none}
-.rl{display:block;font-size:13px;color:#185fa5;text-decoration:none;padding:7px 0;border-bottom:.5px solid var(--bd)}
+.contact-block a{color:var(--blue);text-decoration:none}
+.rl{display:block;font-size:13px;color:var(--blue);text-decoration:none;padding:7px 0;border-bottom:.5px solid var(--bd)}
 .rl:last-child{border-bottom:none}
 .rl:hover{text-decoration:underline}
 .footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
@@ -121,8 +121,8 @@ body{padding:0 0 2rem;margin:0}
   /* Green accents (from original palette) */
   --teal:#4e9836;--teal-bg:#eaf3e5;--teal-t:#3c7b20;
   --blue:#3a7878;--blue-bg:#e5f0f0;
-  --amber:#8a6f00;--amber-bg:#f5f0db;--amber-t:#6b5500;
-  --red:#993c1d;--red-bg:#faece7;--red-t:#993c1d;
+  --amber:#8a6f00;--amber-bg:var(--amber-bg);--amber-t:var(--amber-t);
+  --red:#993c1d;--red-bg:var(--red-bg);--red-t:#993c1d;
   --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
 }
 
@@ -155,8 +155,8 @@ html:not(.dark) {
   --t1:#212121;--t2:#424242;--t3:#757575;
   --bd:rgba(0,0,0,0.10);--bds:rgba(0,0,0,0.22);
   --teal-bg:#eaf3e5;--teal-t:#3c7b20;
-  --blue-bg:#e5f0f0;--amber-bg:#f5f0db;--amber-t:#6b5500;
-  --red-bg:#faece7;--red-t:#993c1d;
+  --blue-bg:#e5f0f0;--amber-bg:var(--amber-bg);--amber-t:var(--amber-t);
+  --red-bg:var(--red-bg);--red-t:#993c1d;
   --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
 }
 /* Page search bar */
@@ -228,7 +228,7 @@ html:not(.dark) {
       <div class="pos-title"><span class="status-badge s-updated">&#10024; New &mdash; May 16, 2026</span> Entry-Level Environmental Scientist — SE Region </div>
       <div class="pos-org">AECOM · Georgia / Alabama / Florida / South Carolina</div>
     </div>
-    <span style="background:#faeeda;color:#854f0b;font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px">Watch fall 2026 — next cycle</span>
+    <span style="background:var(--amber-bg);color:var(--amber-t);font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px">Watch fall 2026 — next cycle</span>
   </div>
   <div class="pos-meta"><span><strong>Apply:</strong> Watch for fall 2026 posting — Spring/Summer 2026 hiring event passed</span></div>
   <div class="pb2">AECOM is a global infrastructure firm hiring entry-level environmental scientists for Southeast offices (GA, AL, FL, SC). The role supports environmental compliance, remediation, permitting, and planning. Spring 2026 Atlanta hiring event has passed — watch for the next cycle posting in fall 2026. Qualifications: BS in Environmental Science, Geology, Ecology, Biology, or related field. Responsibilities: data collection, stormwater and environmental sampling, field site visits for federal, industrial, and municipal clients. AECOM's scale means strong training programs and career mobility. Erin's geographic openness is an advantage for this multi-state role.</div>
@@ -245,7 +245,7 @@ html:not(.dark) {
       <div class="pos-title"><span class="status-badge s-updated">&#10024; New &mdash; May 16, 2026</span> Early-Career Environmental Scientist — Contaminated Site Assessment </div>
       <div class="pos-org">Geosyntec Consultants · Raleigh, NC (Carolinas office)</div>
     </div>
-    <span style="background:#faeeda;color:#854f0b;font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px">Verify — rolling posting</span>
+    <span style="background:var(--amber-bg);color:var(--amber-t);font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px">Verify — rolling posting</span>
   </div>
   <div class="pos-meta"><span><strong>Apply:</strong> Rolling — active Raleigh posting confirmed May 2026; verify directly</span></div>
   <div class="pb2">Geosyntec has an Early-Career Environmental Engineer or Scientist opening in contaminated site assessment and remediation at their Carolinas offices (Raleigh). Strong match for Erin's contaminated rivers background — her Pigeon River lead contamination capstone is directly relevant to site characterization work. Geosyntec is a specialist consulting firm known for cutting-edge environmental science and strong mentorship. Role involves site characterization, remedial investigation, and data analysis. Erin's GEOL 423 (Contaminated Rivers), GEOL 349 (Hydrogeology), and GEOL 455 (Environmental Geochemistry) are exactly what Geosyntec looks for in candidates.</div>
@@ -494,7 +494,7 @@ html:not(.dark) {
   <a class="rl" href="https://www.governmentjobs.com/careers/northcarolina?keywords=environmental+scientist">&#128269;&nbsp; NC state jobs board — environmental specialist</a>
   <a class="rl" href="https://www.indeed.com/q-entry-level-wetland-jobs.html">&#128269;&nbsp; Indeed: entry-level wetland positions (active listings)</a>
   <a class="rl" href="https://www.google.com/search?q=entry+level+environmental+scientist+wetland+delineation+GIS+NC+SC+CO+2026+hiring">&#128269;&nbsp; Search: entry-level environmental scientist wetlands GIS NC/SC/CO 2026</a>
-</div><p class="footer">Research conducted May 2026. Verify positions directly before applying — federal postings especially fill within days of opening. For consulting firms, apply June–July 2026 for an August–September start.<br><br><a href="erin_jobs.html" style="color:#185fa5">&#8592; Back to career positions</a>&nbsp;&nbsp;<a href="index.html" style="color:#185fa5">&#8592; Home</a></p>
+</div><p class="footer">Research conducted May 2026. Verify positions directly before applying — federal postings especially fill within days of opening. For consulting firms, apply June–July 2026 for an August–September start.<br><br><a href="erin_jobs.html" style="color:var(--blue)">&#8592; Back to career positions</a>&nbsp;&nbsp;<a href="index.html" style="color:var(--blue)">&#8592; Home</a></p>
 </div>
 <script>
 function toggleMore(btn){var p=btn.nextElementSibling;var o=p.classList.toggle('open');btn.textContent=o?'− Less info':'+ More info'}
@@ -505,10 +505,10 @@ function toggleMore(btn){var p=btn.nextElementSibling;var o=p.classList.toggle('
 
 
 <style>
-.ml-save-btn{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:500;padding:5px 14px;border-radius:999px;border:1.5px solid #5dcaa5;background:transparent;color:#0f6e56;cursor:pointer;font-family:inherit;margin-top:.6rem;transition:background .12s,color .12s}
-.ml-save-btn:hover{background:#e1f5ee}
-.ml-save-btn.saved{background:#e1f5ee;color:#0f6e56}
-@media(prefers-color-scheme:dark){.ml-save-btn{color:#9fe1cb}.ml-save-btn:hover,.ml-save-btn.saved{background:#085041}}
+.ml-save-btn{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:500;padding:5px 14px;border-radius:999px;border:1.5px solid var(--teal);background:transparent;color:var(--teal-t);cursor:pointer;font-family:inherit;margin-top:.6rem;transition:background .12s,color .12s}
+.ml-save-btn:hover{background:var(--teal-bg)}
+.ml-save-btn.saved{background:var(--teal-bg);color:var(--teal-t)}
+@media(prefers-color-scheme:dark){.ml-save-btn{color:var(--teal-t)}.ml-save-btn:hover,.ml-save-btn.saved{background:var(--teal-t)}}
 </style>
 <script>
 (function(){
