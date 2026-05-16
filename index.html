@@ -131,7 +131,18 @@ html:not(.dark) {
   --blue-bg:#e5f0f0;--amber-bg:#f5f0db;--amber-t:#6b5500;
   --red-bg:#faece7;--red-t:#993c1d;
   --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
-}</style>
+}
+.update-strip{display:flex;align-items:flex-start;gap:.75rem;margin-top:.85rem;padding:.75rem 1rem;background:var(--teal-bg);border:1px solid var(--teal);border-radius:var(--r1)}
+.update-dot{width:8px;height:8px;border-radius:50%;background:var(--teal);flex-shrink:0;margin-top:5px}
+.update-main{flex:1;min-width:0}
+.update-date{font-size:15px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--teal-t);margin-bottom:.35rem}
+.update-text{font-size:13px;color:var(--t2);line-height:1.5}
+.update-new{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:700;background:var(--teal);color:#fff;padding:2px 8px;border-radius:999px;margin-left:4px;vertical-align:middle}
+.update-pages{display:flex;flex-wrap:wrap;gap:5px;margin-top:.5rem}
+.update-page-link{font-size:11px;font-weight:500;padding:2px 9px;border-radius:999px;background:var(--bg);border:.5px solid var(--teal);color:var(--teal-t);text-decoration:none;white-space:nowrap}
+.update-page-link:hover{background:var(--teal-bg)}
+
+</style>
 <script>
 (function(){
   var saved=localStorage.getItem('erin_theme');
@@ -164,6 +175,25 @@ html:not(.dark) {
   <div class="site-eyebrow">Career &amp; Graduate School Planning</div>
   <div class="site-headline">What&rsquo;s Next for Erin</div>
   <div class="site-subhead">A personalized resource hub &mdash; programs, internships, jobs &amp; trackers built for Erin Lamberton &middot; BS Environmental Science, WCU &rsquo;25 &middot; Magna Cum Laude</div>
+
+  <div class="update-strip">
+    <div class="update-dot"></div>
+    <div class="update-main">
+      <div class="update-date">Last Opportunity Sweep &mdash; May 16, 2026</div>
+      <div class="update-text">
+        New opportunities found and stale deadlines updated across 4 sections.
+        <span class="update-new">&#10024; 7 new</span>
+      </div>
+      <div class="update-pages">
+        <a href="erin_programs.html" class="update-page-link">&#127979; Graduate Programs</a>
+        <a href="erin_programs_next.html" class="update-page-link">&#127979; Grad &mdash; Next Cycle</a>
+        <a href="erin_internships.html" class="update-page-link">&#128203; Internships</a>
+        <a href="erin_internships_next.html" class="update-page-link">&#128203; Internships &mdash; Next Cycle</a>
+        <a href="erin_service.html" class="update-page-link">&#127807; Service</a>
+        <a href="erin_service_next.html" class="update-page-link">&#127807; Service &mdash; Next Cycle</a>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="hero">

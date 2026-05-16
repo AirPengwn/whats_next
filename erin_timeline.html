@@ -67,7 +67,9 @@ a:hover{text-decoration:underline}
 .cal-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px;margin-bottom:1.5rem}
 .cal-month{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);overflow:hidden}
 .cal-header{padding:.55rem .85rem;font-size:13px;font-weight:500;color:var(--t1);background:var(--bg2);border-bottom:.5px solid var(--bd)}
-.cal-body{padding:0 0 2rem;grid-template-columns:repeat(7,1fr);margin-bottom:3px}
+.cal-body{padding:.6rem .5rem .5rem}
+.cal-dow-cell{font-size:10px;font-weight:500;color:var(--t3);text-align:center;padding:2px 0}
+.cal-dow{display:grid;grid-template-columns:repeat(7,1fr);margin-bottom:3px}
 .cal-dow-cell{font-size:10px;font-weight:500;color:var(--t3);text-align:center;padding:2px 0}
 .cal-days{display:grid;grid-template-columns:repeat(7,1fr);gap:2px}
 .cal-cell{min-height:28px;display:flex;align-items:center;justify-content:center;font-size:12px;color:var(--t2);border-radius:5px;position:relative;cursor:default}
@@ -132,7 +134,7 @@ a:hover{text-decoration:underline}
 .nd-org{font-size:12px;color:var(--t3);margin-top:1px}
 .nd-type{font-size:11px;font-weight:500;padding:2px 7px;border-radius:999px;flex-shrink:0;white-space:nowrap;margin-top:2px}
 
-@media(max-width:480px){.cal-grid{grid-template-columns:1fr}}
+@media(max-width:480px){}
 .cal-month.passed-month{opacity:.65}
 .cal-month.passed-month .cal-header{background:var(--bg3);color:var(--t3)}
 .cal-cell.has-deadline.past-deadline{cursor:pointer}
@@ -140,12 +142,7 @@ a:hover{text-decoration:underline}
 .days-passed{background:var(--bg2);color:var(--t3);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px}
 
 /* section tabs for timeline view */
-.view-tabs{display:flex;margin-bottom:1.25rem;background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);overflow:hidden}
-.view-tab{flex:1;font-size:13px;font-weight:500;padding:9px;border:none;background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn);border-right:.5px solid var(--bd)}
 .view-tab:last-child{border-right:none}
-.view-tab.active{background:var(--teal);color:#fff}
-.view-tab:not(.active):hover{background:var(--bg2);color:var(--t1)}
-
 .global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
 .gnav-inner{max-width:720px;margin:0 auto;display:flex;align-items:center;gap:0;overflow-x:auto;scrollbar-width:none}
 .gnav-inner::-webkit-scrollbar{display:none}
@@ -237,7 +234,8 @@ html:not(.dark) {
   --blue-bg:#e5f0f0;--amber-bg:#f5f0db;--amber-t:#6b5500;
   --red-bg:#faece7;--red-t:#993c1d;
   --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
-}</style>
+}@media(max-width:480px){.cal-grid{grid-template-columns:1fr}}
+</style>
 <script>
 (function(){
   var saved=localStorage.getItem('erin_theme');
@@ -273,23 +271,10 @@ html:not(.dark) {
   <div class="page-header-sub">All deadlines from your saved list in chronological order</div>
 </div>
 
-<div class="top-bar"></div>
-
-  <div class="hero">
-    <div>
-      <div class="hero-title">&#128197; Deadline Calendar</div>
       <div class="hero-meta" id="tl-count">Loading&#8230;</div>
     </div>
     <div style="font-size:12px;color:var(--t3);text-align:right">From your saved list<br>Click any marked date for details</div>
   </div>
-
-  <!-- View tabs -->
-  <div class="view-tabs">
-    <button class="view-tab active" id="tab-rolling" onclick="setTab('rolling')">&#9654; Apply Now (Rolling)</button>
-    <button class="view-tab" id="tab-calendar" onclick="setTab('calendar')">&#128197; Dated Deadlines</button>
-    <button class="view-tab" id="tab-tbd" onclick="setTab('tbd')">&#10067; Verify Directly</button>
-  </div>
-
   <div id="tl-body"></div>
 
   <p class="footer">Deadlines parsed from your saved opportunities. Always verify directly before applying.<br><br>
@@ -314,16 +299,6 @@ function pullCloud(){
 }
 
 var MONTH_NAMES=['January','February','March','April','May','June','July','August','September','October','November','December'];
-var currentTab='rolling';
-
-function setTab(t){
-  currentTab=t;
-  ['rolling','calendar','tbd'].forEach(function(id){
-    document.getElementById('tab-'+id).classList.toggle('active',id===t);
-  });
-  render();
-}
-
 function parseDeadline(dl){
   if(!dl) return null;
   var s=dl.toLowerCase();
@@ -423,88 +398,8 @@ function render(){
 
   dated.sort(function(a,b){return a.date-b.date;});
 
-  // ── TAB: ROLLING ──
-  if(currentTab==='rolling'){
-    if(!rolling.length){
-      body.innerHTML='<div class="empty"><div class="empty-icon">&#9654;</div><div class="empty-title">No rolling opportunities saved</div><div class="empty-body">Rolling / apply-anytime opportunities from your saved list will appear here. USGS, USFWS, and federal agency positions are rolling — save them from My List.</div></div>';
-      return;
-    }
-
-    var tip=document.createElement('div'); tip.className='tip';
-    tip.innerHTML='&#9654;&nbsp; These opportunities have <strong>no fixed deadline</strong> — they hire on a rolling basis or year-round. Don\'t let them slip! Federal postings (USGS, USFWS, USACE) close without notice. Apply as soon as you\'re ready.';
-    body.appendChild(tip);
-
-    var banner=document.createElement('div'); banner.className='rolling-banner';
-
-    var bh=document.createElement('div'); bh.className='rolling-header';
-    var bicon=document.createElement('span'); bicon.className='rolling-icon'; bicon.textContent='⚡'; bh.appendChild(bicon);
-    var bt=document.createElement('span'); bt.className='rolling-title'; bt.textContent='Apply Now — Rolling / Open Positions'; bh.appendChild(bt);
-    var bc=document.createElement('span'); bc.className='rolling-count'; bc.textContent=rolling.length+' opportunities'; bh.appendChild(bc);
-    banner.appendChild(bh);
-
-    var rtip=document.createElement('div'); rtip.className='rolling-tip';
-    rtip.textContent='These positions are open now. Set a USAJobs saved search for federal postings and check conservation corps sites weekly for new IPs.';
-    banner.appendChild(rtip);
-
-    var rlist=document.createElement('div'); rlist.className='rolling-list';
-
-    // Group by type
-    var byType={};
-    rolling.forEach(function(it){
-      var t=it.type||'Other';
-      if(!byType[t])byType[t]=[];
-      byType[t].push(it);
-    });
-
-    var typeOrder=['Graduate Program','Career Position','Internship','Service / Corps'];
-    typeOrder.forEach(function(t){
-      if(!byType[t]||!byType[t].length) return;
-      var grpLbl=document.createElement('div');
-      grpLbl.style.cssText='font-size:11px;font-weight:500;color:var(--t3);text-transform:uppercase;letter-spacing:.06em;margin:.6rem 0 .3rem';
-      grpLbl.textContent=t;
-      rlist.appendChild(grpLbl);
-
-      byType[t].forEach(function(it){
-        var card=document.createElement('div'); card.className='rolling-card';
-        var dot=document.createElement('div'); dot.className='rc-dot'; card.appendChild(dot);
-        var main=document.createElement('div'); main.className='rc-main';
-        var tEl=document.createElement('div'); tEl.className='rc-title';
-        var lnk=document.createElement('a'); lnk.href=it.src||'erin_mylist.html'; lnk.target='_blank'; lnk.textContent=it.title; tEl.appendChild(lnk); main.appendChild(tEl);
-        var org=document.createElement('div'); org.className='rc-org'; org.textContent=it.org; main.appendChild(org);
-        if(it.deadline){ var dl=document.createElement('div'); dl.className='rc-dl'; dl.textContent=it.deadline; main.appendChild(dl); }
-        card.appendChild(main);
-        var tp=document.createElement('div'); tp.className='rc-type '+rollingTypeCls(it.type); tp.textContent=(it.type||'').replace(' Program','').replace(' Position','').replace(' / Corps',''); card.appendChild(tp);
-        rlist.appendChild(card);
-      });
-    });
-
-    // Any types not in our ordered list
-    Object.keys(byType).forEach(function(t){
-      if(typeOrder.indexOf(t)>-1) return;
-      byType[t].forEach(function(it){
-        var card=document.createElement('div'); card.className='rolling-card';
-        var dot=document.createElement('div'); dot.className='rc-dot'; card.appendChild(dot);
-        var main=document.createElement('div'); main.className='rc-main';
-        var tEl=document.createElement('div'); tEl.className='rc-title';
-        var lnk=document.createElement('a'); lnk.href=it.src||'erin_mylist.html'; lnk.target='_blank'; lnk.textContent=it.title; tEl.appendChild(lnk); main.appendChild(tEl);
-        var org=document.createElement('div'); org.className='rc-org'; org.textContent=it.org; main.appendChild(org);
-        card.appendChild(main);
-        var tp=document.createElement('div'); tp.className='rc-type '+rollingTypeCls(it.type); tp.textContent=it.type||'Other'; card.appendChild(tp);
-        rlist.appendChild(card);
-      });
-    });
-
-    banner.appendChild(rlist);
-    body.appendChild(banner);
-  }
-
-  // ── TAB: CALENDAR (dated deadlines) ──
-  if(currentTab==='calendar'){
-    if(!dated.length){
-      body.innerHTML='<div class="empty"><div class="empty-icon">&#128197;</div><div class="empty-title">No dated deadlines</div><div class="empty-body">Save opportunities with specific deadlines from My List to see them on the calendar.</div></div>';
-      return;
-    }
-
+  // ── SECTION 1: CALENDAR (dated deadlines) ──
+  if(dated.length){
     var upcoming=dated.filter(function(x){var u=urgency(x.date);return u==='urgent'||u==='soon';});
     if(upcoming.length){
       var strip=document.createElement('div'); strip.className='action-strip';
@@ -528,7 +423,6 @@ function render(){
       monthMap[k].items.push(x);
     });
 
-    var monthKeys=Object.keys(monthMap).sort();
     var calLbl=document.createElement('div'); calLbl.className='slabel'; calLbl.textContent='Deadline calendar'; body.appendChild(calLbl);
 
     var leg=document.createElement('div'); leg.className='legend';
@@ -545,34 +439,70 @@ function render(){
     var panel=document.createElement('div'); panel.className='detail-panel'; panel.id='detail-panel'; body.appendChild(panel);
 
     var grid=document.createElement('div'); grid.className='cal-grid';
-    monthKeys.forEach(function(mk){
+    Object.keys(monthMap).sort().forEach(function(mk){
       var mg=monthMap[mk];
       var isPast=(new Date(mg.year,mg.month+1,0)<now);
       grid.appendChild(buildCalendar(mg.year,mg.month,mg.items,panel,isPast));
     });
     body.appendChild(grid);
 
-    var tip2=document.createElement('div'); tip2.className='tip';
-    tip2.innerHTML='&#128310;&nbsp; <strong>Red</strong> = within 30 days &middot; <strong>Amber</strong> = within 90 days &middot; <strong>Teal</strong> = within 9 months. Click any marked date for full details.';
-    body.appendChild(tip2);
+    var calTip=document.createElement('div'); calTip.className='tip';
+    calTip.innerHTML='&#128310;&nbsp; <strong>Red</strong> = within 30 days &middot; <strong>Amber</strong> = within 90 days &middot; <strong>Teal</strong> = within 9 months. Click any marked date for full details.';
+    body.appendChild(calTip);
   }
 
-  // ── TAB: TBD / VERIFY ──
-  if(currentTab==='tbd'){
-    if(!nodates.length){
-      body.innerHTML='<div class="empty"><div class="empty-icon">&#10067;</div><div class="empty-title">No verify-directly items</div><div class="empty-body">Opportunities with no deadline info will appear here.</div></div>';
-      return;
-    }
+  // ── SECTION 2: ROLLING / APPLY NOW ──
+  if(rolling.length){
+    var hr1=document.createElement('hr'); body.appendChild(hr1);
+    var rollLbl=document.createElement('div'); rollLbl.className='slabel'; rollLbl.textContent='Rolling — apply anytime'; body.appendChild(rollLbl);
 
+    var rtip=document.createElement('div'); rtip.className='tip';
+    rtip.innerHTML='&#9654;&nbsp; These opportunities have <strong>no fixed deadline</strong> — they hire on a rolling basis or year-round. Federal postings (USGS, USFWS, USACE) close without notice. Apply as soon as you\'re ready.';
+    body.appendChild(rtip);
+
+    var banner=document.createElement('div'); banner.className='rolling-banner';
+    var bh=document.createElement('div'); bh.className='rolling-header';
+    var bc=document.createElement('span'); bc.className='rolling-count'; bc.textContent=rolling.length+' opportunities'; bh.appendChild(bc);
+    banner.appendChild(bh);
+
+    var rlist=document.createElement('div'); rlist.className='rolling-list';
+    var byType={};
+    rolling.forEach(function(it){ var t=it.type||'Other'; if(!byType[t])byType[t]=[]; byType[t].push(it); });
+    ['Graduate Program','Career Position','Internship','Service / Corps'].forEach(function(t){
+      if(!byType[t]||!byType[t].length) return;
+      var grpLbl=document.createElement('div');
+      grpLbl.style.cssText='font-size:11px;font-weight:500;color:var(--t3);text-transform:uppercase;letter-spacing:.06em;margin:.6rem 0 .3rem';
+      grpLbl.textContent=t; rlist.appendChild(grpLbl);
+      byType[t].forEach(function(it){
+        var card=document.createElement('div'); card.className='rolling-card';
+        var dot=document.createElement('div'); dot.className='rc-dot'; card.appendChild(dot);
+        var main=document.createElement('div'); main.className='rc-main';
+        var tEl=document.createElement('div'); tEl.className='rc-title';
+        var lnk=document.createElement('a'); lnk.href=it.src||'erin_mylist.html'; lnk.target='_blank'; lnk.textContent=it.title; tEl.appendChild(lnk); main.appendChild(tEl);
+        var org=document.createElement('div'); org.className='rc-org'; org.textContent=it.org; main.appendChild(org);
+        if(it.deadline){ var dl=document.createElement('div'); dl.className='rc-dl'; dl.textContent=it.deadline; main.appendChild(dl); }
+        card.appendChild(main);
+        var tp=document.createElement('div'); tp.className='rc-type '+rollingTypeCls(it.type); tp.textContent=(it.type||'').replace(' Program','').replace(' Position','').replace(' / Corps',''); card.appendChild(tp);
+        rlist.appendChild(card);
+      });
+    });
+    banner.appendChild(rlist);
+    body.appendChild(banner);
+  }
+
+  // ── SECTION 3: VERIFY DIRECTLY ──
+  if(nodates.length){
+    var hr2=document.createElement('hr'); body.appendChild(hr2);
+    var ndLbl=document.createElement('div'); ndLbl.className='slabel'; ndLbl.textContent='No specific deadline — verify directly'; body.appendChild(ndLbl);
     var tip3=document.createElement('div'); tip3.className='tip';
-    tip3.innerHTML='&#10067;&nbsp; These saved items have <strong>no deadline info</strong> yet. Contact the lab, check the program website, or verify on USAJobs/org site before assuming they\'re still open.';
+    tip3.innerHTML='&#10067;&nbsp; These saved items have <strong>no deadline info</strong> yet. Verify on USAJobs, the program website, or contact directly before assuming they\'re still open.';
     body.appendChild(tip3);
-
     var list=document.createElement('div'); list.className='no-date-list';
     nodates.forEach(function(it){ list.appendChild(makeNdCard(it)); });
     body.appendChild(list);
   }
 }
+
 
 function buildCalendar(year,month,datedItems,panel,isPast){
   var dayMap={};
