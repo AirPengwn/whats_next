@@ -5,33 +5,40 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Erin Lamberton &#8212; Deadline Timeline</title>
 <style>
-
-
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
-  --bg:#fff;--bg2:#f5f5f3;--bg3:#eeede8;--t1:#1a1a18;--t2:#5f5e5a;--t3:#888780;
-  --bd:rgba(0,0,0,0.12);--bds:rgba(0,0,0,0.22);--r1:8px;--r2:12px;
-  --fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
-  --teal:#5dcaa5;--teal-bg:#e1f5ee;--teal-t:#0f6e56;
-  --blue:#185fa5;--blue-bg:#e6f1fb;
-  --amber:#ef9f27;--amber-bg:#faeeda;--amber-t:#854f0b;
-  --red:#c0392b;--red-bg:#faece7;--red-t:#993c1d;
+--bg:#fff;--bg2:#f5f5f3;--bg3:#eeede8;--t1:#1a1a18;--t2:#5f5e5a;--t3:#888780;
+--bd:rgba(0,0,0,0.12);--bds:rgba(0,0,0,0.22);--r1:8px;--r2:12px;
+--fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+--teal:#5dcaa5;--teal-bg:#e1f5ee;--teal-t:#0f6e56;
+--blue:#185fa5;--blue-bg:#e6f1fb;
+--amber:#ef9f27;--amber-bg:#faeeda;--amber-t:#854f0b;
+--red:#c0392b;--red-bg:#faece7;--red-t:#993c1d;
+--green-bg:#e1f5ee;--green-t:#0f6e56;
 }
 @media(prefers-color-scheme:dark){:root{
-  --bg:#1e1e1c;--bg2:#2a2a28;--bg3:#333330;--t1:#f0ede6;--t2:#b4b2a9;--t3:#888780;
-  --bd:rgba(255,255,255,0.1);--bds:rgba(255,255,255,0.2);
-  --teal-bg:#085041;--teal-t:#9fe1cb;--blue-bg:#0c447c;--amber-bg:#633806;--amber-t:#fac775;
-  --red-bg:#712b13;--red-t:#f5c4b3;
+--bg:#1e1e1c;--bg2:#2a2a28;--bg3:#333330;--t1:#f0ede6;--t2:#b4b2a9;--t3:#888780;
+--bd:rgba(255,255,255,0.1);--bds:rgba(255,255,255,0.2);
+--teal-bg:#085041;--teal-t:#9fe1cb;--blue-bg:#0c447c;--amber-bg:#633806;--amber-t:#fac775;
+--red-bg:#712b13;--red-t:#f5c4b3;--green-bg:#085041;--green-t:#9fe1cb;
 }}
-body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:2rem 1rem}
-.page{max-width:760px;margin:0 auto}
+body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem}
+.page{max-width:760px;margin:0 auto;padding:0 1rem}
 hr{border:none;border-top:.5px solid var(--bd);margin:1.5rem 0}
 a{color:var(--blue);text-decoration:none}
 a:hover{text-decoration:underline}
-.top-nav{display:flex;align-items:center;gap:10px;margin-bottom:1.5rem;flex-wrap:wrap}
-.back-btn{font-size:13px;padding:5px 14px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t2);text-decoration:none}
-.back-btn:hover{background:var(--bg2)}
-.pg-title{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3)}
+
+/* ── GLOBAL NAV ── */
+.global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
+.gnav-inner{max-width:760px;margin:0 auto;display:flex;align-items:center;gap:0;overflow-x:auto;scrollbar-width:none}
+.gnav-inner::-webkit-scrollbar{display:none}
+.gnav-home{font-size:13px;font-weight:600;color:var(--t1);text-decoration:none;padding:11px 14px 11px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:4px;flex-shrink:0}
+.gnav-home:hover{color:var(--teal-t)}
+.gnav-link{font-size:12px;font-weight:500;color:var(--t3);text-decoration:none;padding:11px 10px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
+.gnav-link:hover{color:var(--t1)}
+.gnav-link.active{color:var(--teal-t);border-bottom-color:var(--teal)}
+
+.top-bar{padding:1.25rem 0 0}
 .slabel{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin-bottom:.65rem}
 .tip{border-left:3px solid var(--teal);background:var(--bg2);padding:.75rem 1rem;margin-bottom:1rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
 .empty{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:2.5rem;text-align:center}
@@ -41,7 +48,7 @@ a:hover{text-decoration:underline}
 .footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
 
 /* Hero */
-.hero{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:1.1rem;display:flex;align-items:center;justify-content:space-between;gap:.75rem;flex-wrap:wrap}
+.hero{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1rem 1.25rem;margin:1rem 0 1.1rem;display:flex;align-items:center;justify-content:space-between;gap:.75rem;flex-wrap:wrap}
 .hero-title{font-size:18px;font-weight:500}
 .hero-meta{font-size:13px;color:var(--t2)}
 .legend{display:flex;flex-wrap:wrap;gap:.5rem .85rem;margin-bottom:1.25rem}
@@ -51,6 +58,28 @@ a:hover{text-decoration:underline}
 .ld-soon{background:var(--amber)}
 .ld-ok{background:var(--teal)}
 .ld-future{background:var(--t3)}
+
+/* ROLLING section — featured at top */
+.rolling-banner{background:var(--bg);border:1.5px solid var(--teal);border-radius:var(--r2);padding:.85rem 1.1rem;margin-bottom:1.25rem}
+.rolling-header{display:flex;align-items:center;gap:.6rem;margin-bottom:.6rem;cursor:pointer;user-select:none}
+.rolling-icon{font-size:18px}
+.rolling-title{font-size:14px;font-weight:500;color:var(--teal-t)}
+.rolling-count{font-size:12px;font-weight:500;background:var(--teal-bg);color:var(--teal-t);padding:2px 9px;border-radius:999px;margin-left:auto}
+.rolling-toggle{font-size:12px;color:var(--t3)}
+.rolling-tip{font-size:12px;color:var(--t2);line-height:1.5;margin-bottom:.75rem;padding:.5rem .65rem;background:var(--teal-bg);border-radius:var(--r1)}
+.rolling-list{display:flex;flex-direction:column;gap:.45rem}
+.rolling-card{background:var(--bg2);border-radius:var(--r1);padding:.6rem .9rem;display:flex;align-items:flex-start;gap:.75rem}
+.rc-dot{width:8px;height:8px;border-radius:50%;background:var(--teal);flex-shrink:0;margin-top:5px}
+.rc-main{flex:1;min-width:0}
+.rc-title{font-size:13px;font-weight:500;color:var(--t1);margin-bottom:1px}
+.rc-org{font-size:12px;color:var(--t3)}
+.rc-dl{font-size:11px;color:var(--t2);margin-top:2px;font-style:italic}
+.rc-type{font-size:11px;font-weight:500;padding:2px 7px;border-radius:999px;flex-shrink:0;white-space:nowrap}
+.rt-grad{background:var(--teal-bg);color:var(--teal-t)}
+.rt-intern{background:var(--blue-bg);color:var(--blue)}
+.rt-job{background:#eeedfe;color:#534ab7}
+.rt-service{background:var(--amber-bg);color:var(--amber-t)}
+@media(prefers-color-scheme:dark){.rt-job{background:#3c3489;color:#cecdfa}}
 
 /* Calendar grid */
 .cal-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px;margin-bottom:1.5rem}
@@ -67,15 +96,11 @@ a:hover{text-decoration:underline}
 .cal-cell.has-deadline{cursor:pointer;font-weight:600}
 .cal-cell.has-deadline:hover{background:var(--bg2)}
 .cal-cell.has-deadline.active{background:var(--bg3)}
-
-/* Deadline dot on calendar cell */
 .cal-dot{position:absolute;top:2px;right:3px;width:7px;height:7px;border-radius:50%}
 .cal-dot.urgent{background:var(--red)}
 .cal-dot.soon{background:var(--amber)}
 .cal-dot.ok{background:var(--teal)}
 .cal-dot.future{background:var(--t3)}
-
-/* multi-dot for multiple items on same date */
 .cal-dots{position:absolute;top:2px;right:2px;display:flex;gap:1px}
 .cal-dots .cal-dot{position:static;width:5px;height:5px}
 
@@ -118,125 +143,129 @@ a:hover{text-decoration:underline}
 .action-row{display:flex;align-items:baseline;gap:6px;font-size:13px;color:var(--t2);padding:4px 0;border-bottom:.5px solid var(--bd)}
 .action-row:last-child{border-bottom:none}
 .action-arrow{color:var(--teal);font-weight:700;flex-shrink:0}
-.action-row strong{font-weight:500;color:var(--t1)}
 
-/* Rolling / no date sections */
+/* no-date cards */
 .no-date-list{margin-bottom:1.25rem}
 .nd-card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r1);padding:.6rem 1rem;margin-bottom:.4rem;display:flex;align-items:flex-start;justify-content:space-between;gap:.75rem}
-.nd-left{}
 .nd-title{font-size:13px;font-weight:500;color:var(--t1)}
 .nd-org{font-size:12px;color:var(--t3);margin-top:1px}
 .nd-type{font-size:11px;font-weight:500;padding:2px 7px;border-radius:999px;flex-shrink:0;white-space:nowrap;margin-top:2px}
+
 @media(max-width:480px){.cal-grid{grid-template-columns:1fr}}
+.cal-month.passed-month{opacity:.65}
+.cal-month.passed-month .cal-header{background:var(--bg3);color:var(--t3)}
+.cal-cell.has-deadline.past-deadline{cursor:pointer}
+.cal-cell.has-deadline.past-deadline .cal-dots .cal-dot{background:var(--t3)!important}
+.days-passed{background:var(--bg2);color:var(--t3);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px}
 
-
-.cal-month.passed-month{ opacity:.65; }
-.cal-month.passed-month .cal-header{ background:var(--bg3); color:var(--t3); }
-.cal-cell.has-deadline.past-deadline{ cursor:pointer; }
-.cal-cell.has-deadline.past-deadline .cal-dots .cal-dot{ background:var(--t3) !important; }
-.days-passed{ background:var(--bg2); color:var(--t3); font-size:11px; font-weight:500; padding:2px 8px; border-radius:999px; }
-
+/* section tabs for timeline view */
+.view-tabs{display:flex;margin-bottom:1.25rem;background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);overflow:hidden}
+.view-tab{flex:1;font-size:13px;font-weight:500;padding:9px;border:none;background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn);border-right:.5px solid var(--bd)}
+.view-tab:last-child{border-right:none}
+.view-tab.active{background:var(--teal);color:#fff}
+.view-tab:not(.active):hover{background:var(--bg2);color:var(--t1)}
 </style>
+</head>
 <body>
-<div class="page">
 
-<div class="top-nav">
-  <a href="erin_mylist.html" class="back-btn">&#8592; My List</a>
-  <span class="pg-title">Deadline Timeline</span>
-</div>
-
-<div class="hero">
-  <div>
-    <div class="hero-title">&#128197; Deadline Calendar</div>
-    <div class="hero-meta" id="tl-count">Loading&#8230;</div>
+<!-- GLOBAL NAV -->
+<nav class="global-nav">
+  <div class="gnav-inner">
+    <a href="index.html" class="gnav-home">EL &#8594;</a>
+    <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
+    <a href="erin_timeline.html" class="gnav-link active">&#128197; Timeline</a>
+    <a href="erin_applications.html" class="gnav-link">&#128196; Applications</a>
+    <a href="erin_proftracker.html" class="gnav-link">&#128100; Professors</a>
+    <a href="erin_reftracker.html" class="gnav-link">&#128393; References</a>
+    <a href="erin_outreach.html" class="gnav-link">&#9997;&#65039; Outreach</a>
   </div>
-  <div style="font-size:12px;color:var(--t3);text-align:right">From your saved list<br>Click any marked date for details</div>
+</nav>
+
+<div class="page">
+  <div class="top-bar"></div>
+
+  <div class="hero">
+    <div>
+      <div class="hero-title">&#128197; Deadline Calendar</div>
+      <div class="hero-meta" id="tl-count">Loading&#8230;</div>
+    </div>
+    <div style="font-size:12px;color:var(--t3);text-align:right">From your saved list<br>Click any marked date for details</div>
+  </div>
+
+  <!-- View tabs -->
+  <div class="view-tabs">
+    <button class="view-tab active" id="tab-rolling" onclick="setTab('rolling')">&#9654; Apply Now (Rolling)</button>
+    <button class="view-tab" id="tab-calendar" onclick="setTab('calendar')">&#128197; Dated Deadlines</button>
+    <button class="view-tab" id="tab-tbd" onclick="setTab('tbd')">&#10067; Verify Directly</button>
+  </div>
+
+  <div id="tl-body"></div>
+
+  <p class="footer">Deadlines parsed from your saved opportunities. Always verify directly before applying.<br><br>
+    <a href="erin_mylist.html">&#8592; My List</a>&nbsp;&nbsp;<a href="index.html">&#8592; Home</a></p>
 </div>
 
-<div class="tip">&#128310;&nbsp; Each marked date has one or more deadlines. Click it to see full details. <strong>Red</strong> = within 30 days &middot; <strong>Amber</strong> = within 90 days &middot; <strong>Teal</strong> = within 9 months.</div>
-
-<div id="tl-body"></div>
-
-<p class="footer">Deadlines parsed from your saved opportunities. Always verify directly before applying.<br><br>
-<a href="erin_mylist.html">&#8592; My List</a>&nbsp;&nbsp;<a href="index.html">&#8592; Home</a></p>
-</div>
 <script>
-
 var BIN='6a039aa4250b1311c33f2bac',KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa',STORE='erin_mylist_v1';
 function load(){try{return JSON.parse(localStorage.getItem(STORE)||'{}')}catch(e){return{}}}
 function getSavedItems(){return Object.values(load());}
 
-// Pull from cloud on load so timeline stays in sync
 function pullCloud(){
   fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
-  .then(function(r){return r.json();})
-  .then(function(data){
-    if(data.record && data.record.items){
-      var merged=Object.assign({},load(),data.record.items);
-      localStorage.setItem(STORE,JSON.stringify(merged));
-      render();
-    }
-  }).catch(function(){render();});
+    .then(function(r){return r.json();})
+    .then(function(data){
+      if(data.record && data.record.items){
+        var merged=Object.assign({},load(),data.record.items);
+        localStorage.setItem(STORE,JSON.stringify(merged));
+        render();
+      }
+    }).catch(function(){render();});
 }
 
 var MONTH_NAMES=['January','February','March','April','May','June','July','August','September','October','November','December'];
-var DOW=['Su','Mo','Tu','We','Th','Fr','Sa'];
+var currentTab='rolling';
+
+function setTab(t){
+  currentTab=t;
+  ['rolling','calendar','tbd'].forEach(function(id){
+    document.getElementById('tab-'+id).classList.toggle('active',id===t);
+  });
+  render();
+}
 
 function parseDeadline(dl){
   if(!dl) return null;
   var s=dl.toLowerCase();
-  // Rolling / no-date patterns
   if(/^\s*(rolling|year.round|posted|varies|apply when|open now|available now|typically)/.test(s)) return null;
   if(/rolling|year.round/.test(s) && !/\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec|january|february|march|april|june|july|august|september|october|november|december)\b/.test(s)) return null;
-
   var MO=['january','february','march','april','may','june','july','august','september','october','november','december'];
   var SH=['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec'];
-
-  // Season + year: "Fall 2026" -> Oct 1
   var sm=s.match(/\b(spring|summer|fall|autumn|winter)\s+(20[2-3][0-9])/);
-  if(sm){
-    var smap={spring:2,summer:6,fall:9,autumn:9,winter:11};
-    return new Date(parseInt(sm[2]),smap[sm[1]]||9,1);
-  }
-
-  // Numeric MM/DD/YYYY
+  if(sm){var smap={spring:2,summer:6,fall:9,autumn:9,winter:11};return new Date(parseInt(sm[2]),smap[sm[1]]||9,1);}
   var nm=s.match(/(\d{1,2})[\/-](\d{1,2})[\/-](20[2-3][0-9])/);
   if(nm) return new Date(parseInt(nm[3]),parseInt(nm[1])-1,parseInt(nm[2]));
-
-  // Find first month name
   var best={pos:99999,month:-1};
   for(var i=0;i<MO.length;i++){
     var p=s.indexOf(MO[i]); if(p>=0&&p<best.pos)best={pos:p,month:i};
     var p2=s.indexOf(SH[i]); if(p2>=0&&p2<best.pos)best={pos:p2,month:i};
   }
   if(best.month<0) return null;
-
   var ctx=s.slice(Math.max(0,best.pos-5),Math.min(s.length,best.pos+65));
   var yrm=ctx.match(/20[2-3][0-9]/);
   var daym=ctx.match(/\b([1-9]|[12][0-9]|3[01])(st|nd|rd|th)?\b/);
   var day=daym?parseInt(daym[1]):1;
   if(day>31)day=1;
-
   var year;
-  if(yrm){
-    year=parseInt(yrm[0]);
-  } else {
-    // No year in string — pick the next future occurrence of this month/day
-    var now=new Date();
-    var testYear=now.getFullYear();
-    var testDate=new Date(testYear,best.month,day);
-    if(testDate < now) testYear++;
-    year=testYear;
-  }
-
+  if(yrm){year=parseInt(yrm[0]);}
+  else{var now=new Date(),testYear=now.getFullYear(),testDate=new Date(testYear,best.month,day);if(testDate<now)testYear++;year=testYear;}
   try{return new Date(year,best.month,day);}catch(e){return null;}
 }
 
 function urgency(d){
   var diff=(d-new Date())/864e5;
-  if(diff<0)   return 'passed';
-  if(diff<30)  return 'urgent';
-  if(diff<90)  return 'soon';
+  if(diff<0) return 'passed';
+  if(diff<30) return 'urgent';
+  if(diff<90) return 'soon';
   if(diff<270) return 'ok';
   return 'future';
 }
@@ -258,13 +287,29 @@ function typeCls(t){
   return 'dp-service';
 }
 
+function rollingTypeCls(t){
+  if(!t) return 'rt-service';
+  if(t.indexOf('Graduate')>-1) return 'rt-grad';
+  if(t.indexOf('Internship')>-1) return 'rt-intern';
+  if(t.indexOf('Career')>-1) return 'rt-job';
+  return 'rt-service';
+}
+
 var selectedKey=null;
+
+function isRolling(dl){
+  if(!dl||/^\s*$/.test(dl)) return false;
+  var s=dl.toLowerCase();
+  if(/rolling|year.round|posted year.round/i.test(s)) return true;
+  if(/^\s*(posted|varies|apply when|open now|available now|typically)/i.test(s)) return true;
+  if(/rolling/i.test(s) && !/\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec|january|february|march|april|june|july|august|september|october|november|december)\b/i.test(s)) return true;
+  return false;
+}
 
 function render(){
   var items=getSavedItems();
   var body=document.getElementById('tl-body');
   body.innerHTML='';
-
   var n=items.length;
   document.getElementById('tl-count').textContent=n+' saved item'+(n===1?'':'s');
 
@@ -278,13 +323,7 @@ function render(){
 
   items.forEach(function(it){
     var dl=it.deadline||'';
-    // Pure rolling — no month name present
-    if(/rolling|year.round/i.test(dl) && !/\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec|january|february|march|april|june|july|august|september|october|november|december)\b/i.test(dl)){
-      rolling.push(it); return;
-    }
-    if(/^\s*(posted|varies|apply when|open now|available now|typically)/i.test(dl)){
-      rolling.push(it); return;
-    }
+    if(isRolling(dl)){ rolling.push(it); return; }
     var d=parseDeadline(dl);
     if(d){ dated.push({item:it,date:d}); }
     else if(!dl||/^\s*$/.test(dl)){ nodates.push(it); }
@@ -293,37 +332,114 @@ function render(){
 
   dated.sort(function(a,b){return a.date-b.date;});
 
-  // Action strip — future items needing attention
-  var upcoming=dated.filter(function(x){var u=urgency(x.date);return u==='urgent'||u==='soon';});
-  if(upcoming.length){
-    var strip=document.createElement('div'); strip.className='action-strip';
-    var at=document.createElement('div'); at.className='action-title'; at.textContent='Needs attention soon'; strip.appendChild(at);
-    upcoming.slice(0,6).forEach(function(x){
-      var row=document.createElement('div'); row.className='action-row';
-      var arr=document.createElement('span'); arr.className='action-arrow'; arr.textContent='›'; row.appendChild(arr);
-      var txt=document.createElement('span');
-      var diff=Math.round((x.date-now)/864e5);
-      var when=diff<=0?'Past':diff===1?'Tomorrow':'in '+daysLabel(x.date);
-      txt.innerHTML='<strong>'+x.item.title.split('\u2014')[0].split('—')[0].trim().slice(0,45)+'</strong> — '+when;
-      row.appendChild(txt);
-      strip.appendChild(row);
+  // ── TAB: ROLLING ──
+  if(currentTab==='rolling'){
+    if(!rolling.length){
+      body.innerHTML='<div class="empty"><div class="empty-icon">&#9654;</div><div class="empty-title">No rolling opportunities saved</div><div class="empty-body">Rolling / apply-anytime opportunities from your saved list will appear here. USGS, USFWS, and federal agency positions are rolling — save them from My List.</div></div>';
+      return;
+    }
+
+    var tip=document.createElement('div'); tip.className='tip';
+    tip.innerHTML='&#9654;&nbsp; These opportunities have <strong>no fixed deadline</strong> — they hire on a rolling basis or year-round. Don\'t let them slip! Federal postings (USGS, USFWS, USACE) close without notice. Apply as soon as you\'re ready.';
+    body.appendChild(tip);
+
+    var banner=document.createElement('div'); banner.className='rolling-banner';
+
+    var bh=document.createElement('div'); bh.className='rolling-header';
+    var bicon=document.createElement('span'); bicon.className='rolling-icon'; bicon.textContent='⚡'; bh.appendChild(bicon);
+    var bt=document.createElement('span'); bt.className='rolling-title'; bt.textContent='Apply Now — Rolling / Open Positions'; bh.appendChild(bt);
+    var bc=document.createElement('span'); bc.className='rolling-count'; bc.textContent=rolling.length+' opportunities'; bh.appendChild(bc);
+    banner.appendChild(bh);
+
+    var rtip=document.createElement('div'); rtip.className='rolling-tip';
+    rtip.textContent='These positions are open now. Set a USAJobs saved search for federal postings and check conservation corps sites weekly for new IPs.';
+    banner.appendChild(rtip);
+
+    var rlist=document.createElement('div'); rlist.className='rolling-list';
+
+    // Group by type
+    var byType={};
+    rolling.forEach(function(it){
+      var t=it.type||'Other';
+      if(!byType[t])byType[t]=[];
+      byType[t].push(it);
     });
-    body.appendChild(strip);
+
+    var typeOrder=['Graduate Program','Career Position','Internship','Service / Corps'];
+    typeOrder.forEach(function(t){
+      if(!byType[t]||!byType[t].length) return;
+      var grpLbl=document.createElement('div');
+      grpLbl.style.cssText='font-size:11px;font-weight:500;color:var(--t3);text-transform:uppercase;letter-spacing:.06em;margin:.6rem 0 .3rem';
+      grpLbl.textContent=t;
+      rlist.appendChild(grpLbl);
+
+      byType[t].forEach(function(it){
+        var card=document.createElement('div'); card.className='rolling-card';
+        var dot=document.createElement('div'); dot.className='rc-dot'; card.appendChild(dot);
+        var main=document.createElement('div'); main.className='rc-main';
+        var tEl=document.createElement('div'); tEl.className='rc-title';
+        var lnk=document.createElement('a'); lnk.href=it.src||'erin_mylist.html'; lnk.target='_blank'; lnk.textContent=it.title; tEl.appendChild(lnk); main.appendChild(tEl);
+        var org=document.createElement('div'); org.className='rc-org'; org.textContent=it.org; main.appendChild(org);
+        if(it.deadline){ var dl=document.createElement('div'); dl.className='rc-dl'; dl.textContent=it.deadline; main.appendChild(dl); }
+        card.appendChild(main);
+        var tp=document.createElement('div'); tp.className='rc-type '+rollingTypeCls(it.type); tp.textContent=(it.type||'').replace(' Program','').replace(' Position','').replace(' / Corps',''); card.appendChild(tp);
+        rlist.appendChild(card);
+      });
+    });
+
+    // Any types not in our ordered list
+    Object.keys(byType).forEach(function(t){
+      if(typeOrder.indexOf(t)>-1) return;
+      byType[t].forEach(function(it){
+        var card=document.createElement('div'); card.className='rolling-card';
+        var dot=document.createElement('div'); dot.className='rc-dot'; card.appendChild(dot);
+        var main=document.createElement('div'); main.className='rc-main';
+        var tEl=document.createElement('div'); tEl.className='rc-title';
+        var lnk=document.createElement('a'); lnk.href=it.src||'erin_mylist.html'; lnk.target='_blank'; lnk.textContent=it.title; tEl.appendChild(lnk); main.appendChild(tEl);
+        var org=document.createElement('div'); org.className='rc-org'; org.textContent=it.org; main.appendChild(org);
+        card.appendChild(main);
+        var tp=document.createElement('div'); tp.className='rc-type '+rollingTypeCls(it.type); tp.textContent=it.type||'Other'; card.appendChild(tp);
+        rlist.appendChild(card);
+      });
+    });
+
+    banner.appendChild(rlist);
+    body.appendChild(banner);
   }
 
-  // Group ALL dated items by month (including past)
-  var monthMap={};
-  dated.forEach(function(x){
-    var k=x.date.getFullYear()+'-'+x.date.getMonth();
-    if(!monthMap[k])monthMap[k]={year:x.date.getFullYear(),month:x.date.getMonth(),items:[]};
-    monthMap[k].items.push(x);
-  });
-  var monthKeys=Object.keys(monthMap).sort();
+  // ── TAB: CALENDAR (dated deadlines) ──
+  if(currentTab==='calendar'){
+    if(!dated.length){
+      body.innerHTML='<div class="empty"><div class="empty-icon">&#128197;</div><div class="empty-title">No dated deadlines</div><div class="empty-body">Save opportunities with specific deadlines from My List to see them on the calendar.</div></div>';
+      return;
+    }
 
-  if(monthKeys.length){
+    var upcoming=dated.filter(function(x){var u=urgency(x.date);return u==='urgent'||u==='soon';});
+    if(upcoming.length){
+      var strip=document.createElement('div'); strip.className='action-strip';
+      var at=document.createElement('div'); at.className='action-title'; at.textContent='Needs attention soon'; strip.appendChild(at);
+      upcoming.slice(0,6).forEach(function(x){
+        var row=document.createElement('div'); row.className='action-row';
+        var arr=document.createElement('span'); arr.className='action-arrow'; arr.textContent='›'; row.appendChild(arr);
+        var txt=document.createElement('span');
+        var diff=Math.round((x.date-now)/864e5);
+        var when=diff<=0?'Past':diff===1?'Tomorrow':'in '+daysLabel(x.date);
+        txt.innerHTML='<strong>'+x.item.title.split('\u2014')[0].split('—')[0].trim().slice(0,45)+'</strong> — '+when;
+        row.appendChild(txt); strip.appendChild(row);
+      });
+      body.appendChild(strip);
+    }
+
+    var monthMap={};
+    dated.forEach(function(x){
+      var k=x.date.getFullYear()+'-'+x.date.getMonth();
+      if(!monthMap[k])monthMap[k]={year:x.date.getFullYear(),month:x.date.getMonth(),items:[]};
+      monthMap[k].items.push(x);
+    });
+
+    var monthKeys=Object.keys(monthMap).sort();
     var calLbl=document.createElement('div'); calLbl.className='slabel'; calLbl.textContent='Deadline calendar'; body.appendChild(calLbl);
 
-    // Legend
     var leg=document.createElement('div'); leg.className='legend';
     [{cls:'ld-urgent',lbl:'Within 30 days'},{cls:'ld-soon',lbl:'Within 90 days'},{cls:'ld-ok',lbl:'Within 9 months'},{cls:'ld-future',lbl:'Future'},{cls:'ld-future',lbl:'Past (grayed)'}].forEach(function(l,i){
       var li=document.createElement('div'); li.className='leg-item';
@@ -340,27 +456,30 @@ function render(){
     var grid=document.createElement('div'); grid.className='cal-grid';
     monthKeys.forEach(function(mk){
       var mg=monthMap[mk];
-      var isPast=(new Date(mg.year,mg.month+1,0) < now); // whole month is past
-      var cal=buildCalendar(mg.year,mg.month,mg.items,panel,isPast);
-      grid.appendChild(cal);
+      var isPast=(new Date(mg.year,mg.month+1,0)<now);
+      grid.appendChild(buildCalendar(mg.year,mg.month,mg.items,panel,isPast));
     });
     body.appendChild(grid);
+
+    var tip2=document.createElement('div'); tip2.className='tip';
+    tip2.innerHTML='&#128310;&nbsp; <strong>Red</strong> = within 30 days &middot; <strong>Amber</strong> = within 90 days &middot; <strong>Teal</strong> = within 9 months. Click any marked date for full details.';
+    body.appendChild(tip2);
   }
 
-  if(rolling.length){
-    var hr=document.createElement('hr'); body.appendChild(hr);
-    var lbl=document.createElement('div'); lbl.className='slabel'; lbl.textContent='Rolling / apply anytime'; body.appendChild(lbl);
+  // ── TAB: TBD / VERIFY ──
+  if(currentTab==='tbd'){
+    if(!nodates.length){
+      body.innerHTML='<div class="empty"><div class="empty-icon">&#10067;</div><div class="empty-title">No verify-directly items</div><div class="empty-body">Opportunities with no deadline info will appear here.</div></div>';
+      return;
+    }
+
+    var tip3=document.createElement('div'); tip3.className='tip';
+    tip3.innerHTML='&#10067;&nbsp; These saved items have <strong>no deadline info</strong> yet. Contact the lab, check the program website, or verify on USAJobs/org site before assuming they\'re still open.';
+    body.appendChild(tip3);
+
     var list=document.createElement('div'); list.className='no-date-list';
-    rolling.forEach(function(it){list.appendChild(makeNdCard(it));});
+    nodates.forEach(function(it){ list.appendChild(makeNdCard(it)); });
     body.appendChild(list);
-  }
-
-  if(nodates.length){
-    var hr2=document.createElement('hr'); body.appendChild(hr2);
-    var lbl2=document.createElement('div'); lbl2.className='slabel'; lbl2.textContent='No specific deadline — verify directly'; body.appendChild(lbl2);
-    var list2=document.createElement('div'); list2.className='no-date-list';
-    nodates.forEach(function(it){list2.appendChild(makeNdCard(it));});
-    body.appendChild(list2);
   }
 }
 
@@ -373,25 +492,18 @@ function buildCalendar(year,month,datedItems,panel,isPast){
       dayMap[d].push(x);
     }
   });
-
   var now=new Date();
   var firstDay=new Date(year,month,1).getDay();
   var daysInMonth=new Date(year,month+1,0).getDate();
-
-  var wrap=document.createElement('div');
-  wrap.className='cal-month'+(isPast?' passed-month':'');
-
+  var wrap=document.createElement('div'); wrap.className='cal-month'+(isPast?' passed-month':'');
   var hdr=document.createElement('div'); hdr.className='cal-header';
   hdr.textContent=MONTH_NAMES[month]+' '+year+(isPast?' (past)':''); wrap.appendChild(hdr);
-
   var body=document.createElement('div'); body.className='cal-body';
-
   var dow=document.createElement('div'); dow.className='cal-dow';
   ['Su','Mo','Tu','We','Th','Fr','Sa'].forEach(function(d){
     var c=document.createElement('div'); c.className='cal-dow-cell'; c.textContent=d; dow.appendChild(c);
   });
   body.appendChild(dow);
-
   var days=document.createElement('div'); days.className='cal-days';
   for(var i=0;i<firstDay;i++){
     var ec=document.createElement('div'); ec.className='cal-cell empty-cell'; days.appendChild(ec);
@@ -402,7 +514,6 @@ function buildCalendar(year,month,datedItems,panel,isPast){
     var isToday=(year===now.getFullYear()&&month===now.getMonth()&&d===now.getDate());
     if(isToday) cell.classList.add('today');
     var num=document.createElement('span'); num.textContent=d; cell.appendChild(num);
-
     if(dayMap[d]){
       cell.classList.add('has-deadline');
       var isPastDate=thisDate<now;
@@ -414,24 +525,22 @@ function buildCalendar(year,month,datedItems,panel,isPast){
         dotsEl.appendChild(dot);
       });
       cell.appendChild(dotsEl);
-      (function(year,month,d,items_here){
+      (function(y,m,d2,items_here){
         cell.onclick=function(){
-          var key=year+'-'+month+'-'+d;
-          showDetail(panel,key,year,month,d,items_here,cell);
+          var key=y+'-'+m+'-'+d2;
+          showDetail(panel,key,y,m,d2,items_here,cell);
         };
       })(year,month,d,dayMap[d]);
     }
     days.appendChild(cell);
   }
-  body.appendChild(days);
-  wrap.appendChild(body);
+  body.appendChild(days); wrap.appendChild(body);
   return wrap;
 }
 
 function showDetail(panel,key,year,month,day,items,clickedCell){
   if(selectedKey===key){
-    selectedKey=null;
-    panel.className='detail-panel'; panel.innerHTML='';
+    selectedKey=null; panel.className='detail-panel'; panel.innerHTML='';
     document.querySelectorAll('.cal-cell.active').forEach(function(c){c.classList.remove('active');});
     return;
   }
@@ -440,10 +549,8 @@ function showDetail(panel,key,year,month,day,items,clickedCell){
   clickedCell.classList.add('active');
   panel.innerHTML=''; panel.className='detail-panel open';
   setTimeout(function(){panel.scrollIntoView({behavior:'smooth',block:'nearest'});},50);
-
   var dh=document.createElement('div'); dh.className='detail-date-header';
   dh.textContent=MONTH_NAMES[month]+' '+day+', '+year; panel.appendChild(dh);
-
   items.forEach(function(x){
     var it=x.item, u=urgency(x.date);
     var row=document.createElement('div'); row.className='detail-item';
@@ -475,18 +582,16 @@ function showDetail(panel,key,year,month,day,items,clickedCell){
 
 function makeNdCard(it){
   var card=document.createElement('div'); card.className='nd-card';
-  var left=document.createElement('div'); left.className='nd-left';
+  var left=document.createElement('div');
   var t=document.createElement('div'); t.className='nd-title';
   var lnk=document.createElement('a'); lnk.href=it.src||'erin_mylist.html'; lnk.target='_blank'; lnk.textContent=it.title; t.appendChild(lnk); left.appendChild(t);
   var o=document.createElement('div'); o.className='nd-org'; o.textContent=it.org; left.appendChild(o);
-  if(it.deadline){var dl=document.createElement('div');dl.style.cssText='font-size:12px;color:var(--t3);margin-top:2px';dl.textContent=it.deadline;left.appendChild(dl);}
   card.appendChild(left);
   var tp=document.createElement('div'); tp.className='nd-type dp '+typeCls(it.type); tp.textContent=it.type; card.appendChild(tp);
   return card;
 }
 
 pullCloud();
-
 </script>
 </body>
 </html>

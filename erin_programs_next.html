@@ -6,10 +6,10 @@
 <title>Erin Lamberton — Next Cycle: Graduate Programs</title>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{--bg:#fff;--bg2:#f5f5f3;--bg3:#eeede8;--t1:#1a1a18;--t2:#5f5e5a;--t3:#888780;--bd:rgba(0,0,0,0.12);--bds:rgba(0,0,0,0.22);--r1:8px;--r2:12px;--fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
-@media(prefers-color-scheme:dark){:root{--bg:#1e1e1c;--bg2:#2a2a28;--bg3:#333330;--t1:#f0ede6;--t2:#b4b2a9;--t3:#888780;--bd:rgba(255,255,255,0.1);--bds:rgba(255,255,255,0.2)}}
-body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:2rem 1rem}
-.page{max-width:720px;margin:0 auto}
+:root{--bg:#fff;--bg2:#f5f5f3;--bg3:#eeede8;--t1:#1a1a18;--t2:#5f5e5a;--t3:#888780;--bd:rgba(0,0,0,0.12);--bds:rgba(0,0,0,0.22);--r1:8px;--r2:12px;--fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;--teal:#5dcaa5;--teal-bg:#e1f5ee;--teal-t:#0f6e56;}
+@media(prefers-color-scheme:dark){:root{--bg:#1e1e1c;--bg2:#2a2a28;--bg3:#333330;--t1:#f0ede6;--t2:#b4b2a9;--t3:#888780;--bd:rgba(255,255,255,0.1);--bds:rgba(255,255,255,0.2);--teal-bg:#085041;--teal-t:#9fe1cb;}}
+body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem}
+.page{max-width:720px;margin:0 autopadding:0 1rem}
 .top-nav{display:flex;align-items:center;gap:12px;margin-bottom:1.75rem}
 .back-btn{font-size:13px;padding:5px 14px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t2);text-decoration:none;display:inline-block}
 .back-btn:hover{background:var(--bg2);color:var(--t1)}
@@ -57,9 +57,36 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
 .rl:hover{text-decoration:underline}
 .footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
 @media(max-width:520px){.ph2{flex-direction:column;align-items:flex-start}}
+
+/* ── GLOBAL NAV ── */
+.global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
+.gnav-inner{max-width:720px;margin:0 auto;display:flex;align-items:center;gap:0;overflow-x:auto;scrollbar-width:none}
+.gnav-inner::-webkit-scrollbar{display:none}
+.gnav-home{font-size:13px;font-weight:600;color:var(--t1);text-decoration:none;padding:11px 14px 11px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:4px;flex-shrink:0}
+.gnav-home:hover{color:var(--teal-t)}
+.gnav-link{font-size:12px;font-weight:500;color:var(--t3);text-decoration:none;padding:11px 10px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
+.gnav-link:hover{color:var(--t1)}
+.gnav-link.active{color:var(--teal-t);border-bottom-color:var(--teal)}
+
+.s-updated{background:#e8e4fe;color:#4c3bc4}
+@media(prefers-color-scheme:dark){.s-updated{background:#2d2563;color:#b5abfa}}
 </style>
 </head>
 <body>
+
+<!-- GLOBAL NAV -->
+<nav class="global-nav">
+  <div class="gnav-inner">
+    <a href="index.html" class="gnav-home">EL &#8594;</a>
+    <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
+    <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
+    <a href="erin_applications.html" class="gnav-link">&#128196; Applications</a>
+    <a href="erin_proftracker.html" class="gnav-link">&#128100; Professors</a>
+    <a href="erin_reftracker.html" class="gnav-link">&#128393; References</a>
+    <a href="erin_outreach.html" class="gnav-link">&#9997;&#65039; Outreach</a>
+  </div>
+</nav>
+
 <div class="page">
 
 <div class="top-nav">
@@ -362,7 +389,47 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
   <a class="rl" href="https://www.google.com/search?q=Hurricane+Helene+forest+recovery+ecology+funded+MS+PhD+research+assistantship+2027">&#128269;&nbsp; Search: Hurricane Helene recovery ecology MS/PhD 2027</a>
 </div>
 
-<div class="tip">&#128197;&nbsp; <strong style="font-weight:500;color:var(--t1)">Summer 2026 action items:</strong> Start emailing faculty in August–September 2026 before applications open. Verify Fall 2027 deadlines directly with each department in October 2026 — deadlines shift year to year. Programs on ecophys-jobs.org and the Wildlife Society Career Center begin posting Fall 2027 openings in September–October 2026.</div>
+<div class="tip">&#128197;&nbsp; <strong style="font-weight:500;color:var(--t1)">Summer 2026 action items:</strong> Start emailing faculty in August–September 2026 before applications open. Verify Fall 2027 deadlines directly with each department in October 2026 — deadlines shift year to year. Programs on ecophys-jobs.org and the Wildlife Society Career Center begin posting Fall 2027 openings in September–October 2026.
+<div style="border:.5px solid var(--bd);border-radius:var(--r2);padding:1.1rem 1.25rem;margin-bottom:1rem;background:var(--bg)">
+  <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:.5rem;margin-bottom:.5rem">
+    <div>
+      <div style="font-size:15px;font-weight:500;color:var(--t1)">Alabama A&amp;M University &mdash; Longleaf Pine Ecology MS <span class="status-badge s-updated">&#10024; New May 2026</span></div>
+      <div style="font-size:12px;color:var(--t3);margin-top:2px">Huntsville, AL &middot; Department of Forestry</div>
+    </div>
+    <span style="background:#faeeda;color:#854f0b;font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px">Contact directly</span>
+  </div>
+  <div style="font-size:12px;color:var(--t2);margin-bottom:.5rem"><strong>Deadline:</strong> April 24, 2026 passed &mdash; contact for next opening</div>
+  <div style="font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.65rem">
+    Funded MS research assistantship monitoring longleaf pine growth and reproduction across the southern states (AL, GA, FL). AAMU is an HBCU in Huntsville with a strong natural resources program. Longleaf pine restoration is one of the highest-priority conservation efforts in the southeastern US &mdash; directly relevant to Erin&rsquo;s Appalachian and southeastern field experience. Contact the AAMU forestry department directly to confirm current openings and next cycle timing.
+  </div>
+  <div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:.65rem">
+    <span style="background:#e1f5ee;color:#0f6e56;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Longleaf pine ecology</span>
+    <span style="background:#e1f5ee;color:#0f6e56;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Forest monitoring</span>
+    <span style="background:#faeeda;color:#854f0b;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Southern US / HBCU</span>
+  </div>
+  <!-- ML_BTN_item-075 --><button class="ml-save-btn" data-id="item-075" data-item="{&quot;title&quot;:&quot;Alabama A&M University — Longleaf Pine Ecology MS&quot;,&quot;org&quot;:&quot;Huntsville, AL · Department of Forestry&quot;,&quot;type&quot;:&quot;Graduate Program&quot;,&quot;cat&quot;:&quot;Graduate Programs — Next Cycle&quot;,&quot;src&quot;:&quot;erin_programs_next.html&quot;,&quot;src_label&quot;:&quot;Graduate Programs — Next Cycle&quot;,&quot;deadline&quot;:&quot;April 24, 2026 (passed) — contact directly for next opening&quot;,&quot;start&quot;:&quot;&quot;,&quot;body&quot;:&quot;Funded MS monitoring longleaf pine growth and reproduction across AL, GA, and FL. AAMU is an HBCU in Huntsville, AL. Contact forestry department directly for next cycle openings.&quot;,&quot;badge&quot;:&quot;Deadline passed — contact directly&quot;,&quot;pills&quot;:[&quot;Longleaf pine ecology&quot;,&quot;Forest monitoring&quot;,&quot;Southern US&quot;],&quot;id&quot;:&quot;item-075&quot;}">&#9734; Save to My List</button>
+</div>
+
+<div style="border:.5px solid var(--bd);border-radius:var(--r2);padding:1.1rem 1.25rem;margin-bottom:1rem;background:var(--bg)">
+  <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:.5rem;margin-bottom:.5rem">
+    <div>
+      <div style="font-size:15px;font-weight:500;color:var(--t1)">University of Arkansas &mdash; Water Quality / Stream Biogeochemistry (PhD) <span class="status-badge s-updated">&#10024; New May 2026</span></div>
+      <div style="font-size:12px;color:var(--t3);margin-top:2px">Fayetteville, AR &middot; Department of Biological Sciences</div>
+    </div>
+    <span style="background:#faeeda;color:#854f0b;font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px">Contact for Fall 2027</span>
+  </div>
+  <div style="font-size:12px;color:var(--t2);margin-bottom:.5rem"><strong>Deadline:</strong> February 24, 2026 (passed) &mdash; contact lab for next cycle</div>
+  <div style="font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.65rem">
+    Funded PhD in water quality and stream biogeochemistry in Ozark/Arkansas river systems. Research focus aligns directly with Erin&rsquo;s contaminated rivers coursework and Pigeon River lead contamination capstone. University of Arkansas has active federally funded stream research. Contact the PI directly about Fall 2027 openings &mdash; the lab is doing highly relevant work and worth a direct outreach email well in advance.
+  </div>
+  <div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:.65rem">
+    <span style="background:#e1f5ee;color:#0f6e56;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Stream biogeochemistry</span>
+    <span style="background:#e6f1fb;color:#185fa5;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Water quality</span>
+    <span style="background:#faeeda;color:#854f0b;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Ozark river systems</span>
+  </div>
+  <!-- ML_BTN_item-076 --><button class="ml-save-btn" data-id="item-076" data-item="{&quot;title&quot;:&quot;University of Arkansas — Water Quality / Stream Biogeochemistry (PhD)&quot;,&quot;org&quot;:&quot;Fayetteville, AR · Department of Biological Sciences&quot;,&quot;type&quot;:&quot;Graduate Program&quot;,&quot;cat&quot;:&quot;Graduate Programs — Next Cycle&quot;,&quot;src&quot;:&quot;erin_programs_next.html&quot;,&quot;src_label&quot;:&quot;Graduate Programs — Next Cycle&quot;,&quot;deadline&quot;:&quot;February 24, 2026 (passed) — contact lab for next cycle&quot;,&quot;start&quot;:&quot;&quot;,&quot;body&quot;:&quot;Funded PhD in water quality and stream biogeochemistry in Ozark/Arkansas river systems. Direct match for Erin's contaminated rivers and Pigeon River capstone work. Contact PI directly for Fall 2027 openings.&quot;,&quot;badge&quot;:&quot;Deadline passed — contact for Fall 2027&quot;,&quot;pills&quot;:[&quot;Stream biogeochemistry&quot;,&quot;Water quality&quot;,&quot;Arkansas river systems&quot;],&quot;id&quot;:&quot;item-076&quot;}">&#9734; Save to My List</button>
+</div>
+</div>
 
 <p class="footer">Research conducted May 2026. Verify all deadlines and funding details directly with each department — they change annually. "Next cycle" means Fall 2027 entry with applications opening fall 2026.<br><br><a href="erin_programs.html" style="color:#185fa5">&#8592; Back to graduate programs</a>&nbsp;&nbsp;<a href="index.html" style="color:#185fa5">&#8592; Home</a></p>
 </div>

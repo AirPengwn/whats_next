@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Erin Lamberton &#8212; Application Tracker</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#fff;--bg2:#f5f5f3;--bg3:#eeede8;--t1:#1a1a18;--t2:#5f5e5a;--t3:#888780;--bd:rgba(0,0,0,0.12);--bds:rgba(0,0,0,0.22);--r1:8px;--r2:12px;--fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;--teal:#5dcaa5;--teal-bg:#e1f5ee;--teal-t:#0f6e56;--blue:#185fa5;--blue-bg:#e6f1fb;--amber-bg:#faeeda;--amber-t:#854f0b;--red-bg:#faece7;--red-t:#993c1d;--purple-bg:#eeedfe;--purple-t:#534ab7}
+@media(prefers-color-scheme:dark){:root{--bg:#1e1e1c;--bg2:#2a2a28;--bg3:#333330;--t1:#f0ede6;--t2:#b4b2a9;--t3:#888780;--bd:rgba(255,255,255,0.1);--bds:rgba(255,255,255,0.2);--teal-bg:#085041;--teal-t:#9fe1cb;--blue-bg:#0c447c;--amber-bg:#633806;--amber-t:#fac775;--red-bg:#712b13;--red-t:#f5c4b3;--purple-bg:#3c3489;--purple-t:#cecdfa}}
+body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem}
+.page{max-width:720px;margin:0 auto;padding:0 1rem}
+
+/* ── GLOBAL NAV ── */
+.global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
+.gnav-inner{max-width:720px;margin:0 auto;display:flex;align-items:center;gap:0;overflow-x:auto;scrollbar-width:none}
+.gnav-inner::-webkit-scrollbar{display:none}
+.gnav-home{font-size:13px;font-weight:600;color:var(--t1);text-decoration:none;padding:11px 14px 11px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:4px;flex-shrink:0}
+.gnav-home:hover{color:var(--teal-t)}
+.gnav-link{font-size:12px;font-weight:500;color:var(--t3);text-decoration:none;padding:11px 10px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
+.gnav-link:hover{color:var(--t1)}
+.gnav-link.active{color:var(--teal-t);border-bottom-color:var(--teal)}
+
+.top-bar{padding:1.25rem 0 0}
+.pg-title{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin-bottom:.15rem}
+hr{border:none;border-top:.5px solid var(--bd);margin:1.5rem 0}
+a{color:var(--blue);text-decoration:none}
+a:hover{text-decoration:underline}
+.slabel{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin-bottom:.6rem}
+.card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1.1rem 1.25rem;margin-bottom:.75rem}
+.tip{border-left:3px solid var(--teal);background:var(--bg2);padding:.75rem 1rem;margin-bottom:1.1rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
+.empty{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:2.5rem;text-align:center}
+.empty-icon{font-size:32px;margin-bottom:.65rem}
+.empty-title{font-size:15px;font-weight:500;margin-bottom:.35rem}
+.empty-body{font-size:13px;color:var(--t2);line-height:1.65}
+.footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
+
+/* summary pills */
+.summary-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1.1rem}
+.sum-pill{font-size:12px;font-weight:500;padding:4px 12px;border-radius:999px;background:var(--bg);border:.5px solid var(--bd)}
+
+/* status pipeline legend */
+.pipeline{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:1.25rem;align-items:center}
+.pipe-step{font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px}
+.ps-notstarted{background:var(--bg2);color:var(--t3);border:.5px solid var(--bd)}
+.ps-gathering{background:var(--amber-bg);color:var(--amber-t)}
+.ps-submitted{background:var(--blue-bg);color:var(--blue)}
+.ps-review{background:var(--purple-bg);color:var(--purple-t)}
+.ps-decision{background:var(--teal-bg);color:var(--teal-t)}
+.ps-accepted{background:#e1f5ee;color:#0f6e56;border:1.5px solid #0f6e56}
+.ps-declined{background:var(--red-bg);color:var(--red-t)}
+.ps-waitlisted{background:var(--amber-bg);color:var(--amber-t);border:1.5px solid #ef9f27}
+.pipe-arrow{font-size:14px;color:var(--t3)}
+
+/* app card */
+.app-card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:.65rem;transition:border-color .12s}
+.app-card.status-gathering{border-left:3px solid #ef9f27}
+.app-card.status-submitted{border-left:3px solid #185fa5}
+.app-card.status-review{border-left:3px solid #534ab7}
+.app-card.status-decision{border-left:3px solid var(--teal)}
+.app-card.status-accepted{border-left:3px solid #0f6e56;background:var(--teal-bg)}
+.app-card.status-declined{border-left:3px solid #993c1d;opacity:.7}
+.app-card.status-waitlisted{border-left:3px solid #ef9f27}
+.app-header{display:flex;align-items:flex-start;justify-content:space-between;gap:.75rem;margin-bottom:.5rem;flex-wrap:wrap}
+.app-title{font-size:14px;font-weight:500;color:var(--t1);line-height:1.4}
+.app-org{font-size:12px;color:var(--t3);margin-bottom:.5rem}
+.app-deadline{font-size:12px;color:var(--t2);margin-bottom:.6rem}
+
+/* fields grid */
+.app-row{display:grid;grid-template-columns:1fr 1fr;gap:.5rem .75rem;margin-bottom:.65rem}
+@media(max-width:480px){.app-row{grid-template-columns:1fr}}
+.app-field{}
+.app-lbl{font-size:11px;font-weight:500;color:var(--t3);text-transform:uppercase;letter-spacing:.05em;margin-bottom:3px}
+.app-input{font-size:13px;padding:6px 10px;border-radius:var(--r1);border:1px solid var(--bds);background:var(--bg2);color:var(--t1);width:100%;font-family:var(--fn)}
+.app-input:focus{outline:none;border-color:var(--teal)}
+.app-select{font-size:13px;padding:6px 10px;border-radius:var(--r1);border:1px solid var(--bds);background:var(--bg2);color:var(--t1);width:100%;font-family:var(--fn);cursor:pointer}
+.app-select:focus{outline:none;border-color:var(--teal)}
+.app-ta{font-size:13px;padding:6px 10px;border-radius:var(--r1);border:1px solid var(--bds);background:var(--bg2);color:var(--t1);width:100%;font-family:var(--fn);resize:vertical;min-height:52px}
+.app-ta:focus{outline:none;border-color:var(--teal)}
+
+/* materials checklist */
+.checklist-section{margin-bottom:.65rem}
+.checklist-title{font-size:11px;font-weight:500;color:var(--t3);text-transform:uppercase;letter-spacing:.05em;margin-bottom:.4rem}
+.checklist-grid{display:grid;grid-template-columns:1fr 1fr;gap:3px 16px}
+@media(max-width:400px){.checklist-grid{grid-template-columns:1fr}}
+.check-item{display:flex;align-items:center;gap:7px;font-size:13px;color:var(--t2);padding:3px 0;cursor:pointer}
+.check-item input[type=checkbox]{width:15px;height:15px;border-radius:3px;accent-color:var(--teal);cursor:pointer;flex-shrink:0}
+.check-item.checked-item{color:var(--t3);text-decoration:line-through}
+.checklist-progress{height:4px;border-radius:2px;background:var(--bg3);margin-top:.5rem;overflow:hidden}
+.checklist-bar{height:100%;border-radius:2px;background:var(--teal);transition:width .3s}
+
+/* actions row */
+.app-actions{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin-top:.3rem}
+.save-btn{font-size:12px;font-weight:500;padding:4px 14px;border-radius:999px;border:none;background:var(--teal);color:#fff;cursor:pointer;font-family:var(--fn)}
+.del-btn{font-size:12px;color:var(--t3);background:none;border:none;cursor:pointer;padding:0;font-family:var(--fn);margin-left:auto}
+.del-btn:hover{color:#c0392b}
+.saved-flash{font-size:12px;color:var(--teal-t);display:none;font-weight:500}
+
+/* status pill display */
+.status-pill{font-size:11px;font-weight:500;padding:2px 9px;border-radius:999px}
+
+/* add button */
+.add-btn{display:flex;align-items:center;gap:.5rem;font-size:13px;font-weight:500;padding:8px 18px;border-radius:999px;border:1.5px solid var(--teal);background:transparent;color:var(--teal-t);cursor:pointer;font-family:var(--fn);margin-bottom:1rem}
+.add-btn:hover{background:var(--teal-bg)}
+
+/* type filter */
+.filter-row{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:1rem}
+.f-btn{font-size:12px;font-weight:500;padding:3px 12px;border-radius:999px;border:1px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn)}
+.f-btn.on{background:var(--teal);border-color:var(--teal);color:#fff}
+.f-btn:not(.on):hover{background:var(--bg2)}
+</style>
+</head>
+<body>
+
+<!-- GLOBAL NAV -->
+<nav class="global-nav">
+  <div class="gnav-inner">
+    <a href="index.html" class="gnav-home">EL &#8594;</a>
+    <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
+    <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
+    <a href="erin_applications.html" class="gnav-link active">&#128196; Applications</a>
+    <a href="erin_proftracker.html" class="gnav-link">&#128100; Professors</a>
+    <a href="erin_reftracker.html" class="gnav-link">&#128393; References</a>
+    <a href="erin_outreach.html" class="gnav-link">&#9997;&#65039; Outreach</a>
+  </div>
+</nav>
+
+<div class="page">
+  <div class="top-bar">
+    <div class="pg-title">Application Tracker</div>
+  </div>
+
+  <div class="card" style="margin:1rem 0">
+    <div style="font-size:18px;font-weight:500;margin-bottom:3px">&#128196; Application Status Tracker</div>
+    <div style="font-size:13px;color:var(--t2)" id="app-count">Loading&#8230;</div>
+  </div>
+
+  <div class="tip">&#127919;&nbsp; Auto-populated from your saved <strong>Graduate Programs</strong> in My List. Track every application from first draft through decision. Use the materials checklist on each card to know exactly what&rsquo;s done and what&rsquo;s left.</div>
+
+  <!-- Pipeline legend -->
+  <div class="pipeline">
+    <span class="pipe-step ps-notstarted">Not started</span>
+    <span class="pipe-arrow">›</span>
+    <span class="pipe-step ps-gathering">Gathering materials</span>
+    <span class="pipe-arrow">›</span>
+    <span class="pipe-step ps-submitted">Submitted</span>
+    <span class="pipe-arrow">›</span>
+    <span class="pipe-step ps-review">Under review</span>
+    <span class="pipe-arrow">›</span>
+    <span class="pipe-step ps-decision">Decision received</span>
+    <span class="pipe-arrow">›</span>
+    <span class="pipe-step ps-accepted">Accepted ✓</span>
+    <span class="pipe-step ps-declined">Declined</span>
+    <span class="pipe-step ps-waitlisted">Waitlisted</span>
+  </div>
+
+  <div class="summary-row" id="summary-row"></div>
+
+  <!-- Filter bar -->
+  <div class="filter-row" id="filter-row"></div>
+
+  <button class="add-btn" onclick="addCard('')">&#43; Add application manually</button>
+
+  <div id="app-body"></div>
+
+  <p class="footer">Tracks applications derived from your saved opportunities.<br><br>
+    <a href="erin_mylist.html">&#8592; My List</a>&nbsp;&nbsp;<a href="index.html">&#8592; Home</a></p>
+</div>
+
+<script>
+var BIN='6a039aa4250b1311c33f2bac',KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
+var MYLIST_STORE='erin_mylist_v1';
+var APP_STORE='erin_applications_v1';
+
+// ── Storage helpers ──
+function loadMyList(){ try{ return JSON.parse(localStorage.getItem(MYLIST_STORE)||'{}'); }catch(e){ return {}; } }
+function loadApps(){ try{ return JSON.parse(localStorage.getItem(APP_STORE)||'[]'); }catch(e){ return []; } }
+function saveApps(arr){ localStorage.setItem(APP_STORE,JSON.stringify(arr)); }
+
+function pushApps(arr){
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+    .then(function(r){return r.json();})
+    .then(function(data){
+      var rec=data.record||{};
+      rec.apps=arr;
+      fetch('https://api.jsonbin.io/v3/b/'+BIN,{
+        method:'PUT',
+        headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},
+        body:JSON.stringify(rec)
+      });
+    }).catch(function(){});
+}
+
+function pullApps(){
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+    .then(function(r){return r.json();})
+    .then(function(data){
+      if(data.record && data.record.apps){
+        saveApps(data.record.apps);
+      }
+      render();
+    }).catch(function(){ render(); });
+}
+
+// ── Status helpers ──
+var STATUS_ORDER={notstarted:0,gathering:1,submitted:2,review:3,decision:4,accepted:5,waitlisted:6,declined:7};
+var STATUS_LABELS={notstarted:'Not started',gathering:'Gathering materials',submitted:'Submitted',review:'Under review',decision:'Decision received',accepted:'Accepted ✓',declined:'Declined',waitlisted:'Waitlisted'};
+var STATUS_CSS={notstarted:'ps-notstarted',gathering:'ps-gathering',submitted:'ps-submitted',review:'ps-review',decision:'ps-decision',accepted:'ps-accepted',declined:'ps-declined',waitlisted:'ps-waitlisted'};
+
+// Default materials checklist items
+var DEFAULT_MATERIALS=[
+  'SOP drafted',
+  'SOP finalized',
+  'CV / resume updated',
+  'Unofficial transcript',
+  'Official transcript ordered',
+  'Rec letter 1 requested',
+  'Rec letter 2 requested',
+  'Rec letter 3 requested',
+  'Writing sample prepared',
+  'GRE scores sent',
+  'Portal account created',
+  'Application submitted',
+  'Confirmation email saved'
+];
+
+var currentFilter='All';
+
+// ── Save a single card ──
+function saveCard(id){
+  var arr=loadApps();
+  var idx=arr.findIndex(function(a){return a.id===id;});
+  if(idx<0) return;
+
+  arr[idx].status      = document.getElementById('as-'+id).value;
+  arr[idx].portalUrl   = document.getElementById('apu-'+id).value;
+  arr[idx].portalLogin = document.getElementById('apl-'+id).value;
+  arr[idx].submitDate  = document.getElementById('asd-'+id).value;
+  arr[idx].decisionDate= document.getElementById('add-'+id).value;
+  arr[idx].notes       = document.getElementById('an-'+id).value;
+  // materials saved live via onchange, already in arr[idx].materials
+
+  saveApps(arr); pushApps(arr);
+  var fl=document.getElementById('afl-'+id); fl.style.display='inline'; setTimeout(function(){fl.style.display='none';},2000);
+  updateSummary();
+  updateCardClass(id,arr[idx].status);
+}
+
+function updateCardClass(id,status){
+  var card=document.getElementById('acard-'+id);
+  if(!card) return;
+  card.className='app-card'+(status&&status!=='notstarted'?' status-'+status:'');
+}
+
+function saveMaterial(id,matIdx,checked){
+  var arr=loadApps();
+  var app=arr.find(function(a){return a.id===id;});
+  if(!app) return;
+  if(!app.materials) app.materials={};
+  app.materials[matIdx]=checked;
+  saveApps(arr); pushApps(arr);
+  updateProgress(id,app.materials);
+}
+
+function updateProgress(id,materials){
+  var bar=document.getElementById('apr-'+id);
+  var list=DEFAULT_MATERIALS;
+  var checked=list.filter(function(_,i){ return materials&&materials[i]; }).length;
+  if(bar) bar.style.width=Math.round(100*checked/list.length)+'%';
+  // update strikethrough
+  list.forEach(function(_,i){
+    var label=document.getElementById('aml-'+id+'-'+i);
+    if(label) label.classList.toggle('checked-item',!!(materials&&materials[i]));
+  });
+}
+
+function deleteCard(id){
+  if(!confirm('Remove this application entry?')) return;
+  var arr=loadApps().filter(function(a){return a.id!==id;});
+  saveApps(arr); pushApps(arr); render();
+}
+
+function addCard(prefill){
+  var arr=loadApps();
+  var id='a'+Date.now();
+  arr.push({
+    id:id, programTitle:prefill||'', org:'', deadline:'',
+    status:'notstarted', portalUrl:'', portalLogin:'',
+    submitDate:'', decisionDate:'', notes:'', materials:{}
+  });
+  saveApps(arr); render();
+  setTimeout(function(){
+    var el=document.getElementById('acard-'+id);
+    if(el) el.scrollIntoView({behavior:'smooth',block:'center'});
+  },100);
+}
+
+function updateSummary(){
+  var arr=loadApps();
+  var counts={};
+  arr.forEach(function(a){ var s=a.status||'notstarted'; counts[s]=(counts[s]||0)+1; });
+  var row=document.getElementById('summary-row'); row.innerHTML='';
+  Object.keys(STATUS_LABELS).forEach(function(k){
+    if(counts[k]>0){
+      var p=document.createElement('span'); p.className='sum-pill';
+      p.textContent=counts[k]+' '+STATUS_LABELS[k]; row.appendChild(p);
+    }
+  });
+}
+
+function buildFilters(){
+  var cats=['All','Graduate Program','Internship','Career Position','Service / Corps'];
+  var row=document.getElementById('filter-row'); row.innerHTML='';
+  cats.forEach(function(c){
+    var b=document.createElement('button');
+    b.className='f-btn'+(c===currentFilter?' on':'');
+    b.textContent=c;
+    b.onclick=function(){ currentFilter=c; buildFilters(); renderCards(); };
+    row.appendChild(b);
+  });
+}
+
+function render(){
+  // Auto-seed from saved my-list items
+  var mylist=Object.values(loadMyList());
+  var arr=loadApps();
+
+  mylist.forEach(function(it){
+    var exists=arr.find(function(a){ return a.programTitle===it.title&&a.org===it.org; });
+    if(!exists){
+      arr.push({
+        id:'a'+Math.random().toString(36).slice(2),
+        programTitle:it.title,
+        org:it.org||'',
+        deadline:it.deadline||'',
+        itemType:it.type||'',
+        status:'notstarted',
+        portalUrl:'',portalLogin:'',
+        submitDate:'',decisionDate:'',
+        notes:'',materials:{}
+      });
+    } else {
+      // Keep deadline in sync if it changed
+      if(it.deadline&&!exists.deadline) exists.deadline=it.deadline;
+      if(it.org&&!exists.org) exists.org=it.org;
+      if(it.type&&!exists.itemType) exists.itemType=it.type;
+    }
+  });
+
+  saveApps(arr);
+  document.getElementById('app-count').textContent=arr.length+' application'+(arr.length===1?'':'s')+' tracked';
+  updateSummary();
+  buildFilters();
+  renderCards();
+}
+
+function renderCards(){
+  var arr=loadApps();
+  var body=document.getElementById('app-body'); body.innerHTML='';
+
+  var visible=arr;
+  if(currentFilter!=='All'){
+    visible=arr.filter(function(a){ return (a.itemType||'').indexOf(currentFilter.split(' ')[0])>-1; });
+  }
+
+  if(!visible.length){
+    body.innerHTML='<div class="empty"><div class="empty-icon">&#128196;</div><div class="empty-title">No applications tracked yet</div><div class="empty-body">Save opportunities to My List and they will appear here automatically, or click "+ Add application manually" above.</div></div>';
+    return;
+  }
+
+  // Sort: active statuses first, then by status pipeline order
+  visible.sort(function(a,b){
+    return (STATUS_ORDER[a.status||'notstarted']||0)-(STATUS_ORDER[b.status||'notstarted']||0);
+  });
+
+  visible.forEach(function(app){ body.appendChild(makeCard(app)); });
+}
+
+function makeCard(app){
+  var card=document.createElement('div');
+  var st=app.status||'notstarted';
+  card.className='app-card'+(st!=='notstarted'?' status-'+st:'');
+  card.id='acard-'+app.id;
+
+  // Header
+  var hdr=document.createElement('div'); hdr.className='app-header';
+  var left=document.createElement('div');
+  var title=document.createElement('div'); title.className='app-title'; title.textContent=app.programTitle||'New application'; left.appendChild(title);
+  if(app.org){ var org=document.createElement('div'); org.className='app-org'; org.textContent=app.org; left.appendChild(org); }
+  if(app.deadline){ var dl=document.createElement('div'); dl.className='app-deadline'; dl.innerHTML='<strong style="font-weight:500;color:var(--t1)">Deadline:</strong> '+app.deadline; left.appendChild(dl); }
+  hdr.appendChild(left);
+
+  // Status pill
+  var sp=document.createElement('span');
+  sp.className='status-pill '+STATUS_CSS[st];
+  sp.id='aspl-'+app.id;
+  sp.textContent=STATUS_LABELS[st]||st;
+  hdr.appendChild(sp);
+  card.appendChild(hdr);
+
+  // Fields grid — row 1
+  var row1=document.createElement('div'); row1.className='app-row';
+
+  function makeField(lbl, elId, val, type){
+    var f=document.createElement('div'); f.className='app-field';
+    var l=document.createElement('div'); l.className='app-lbl'; l.textContent=lbl; f.appendChild(l);
+    var inp=document.createElement('input'); inp.className='app-input'; inp.id=elId; inp.value=val||''; inp.placeholder=lbl;
+    if(type==='date') inp.type='date';
+    f.appendChild(inp); return f;
+  }
+
+  // Status select
+  var sf=document.createElement('div'); sf.className='app-field';
+  var sl=document.createElement('div'); sl.className='app-lbl'; sl.textContent='Status'; sf.appendChild(sl);
+  var sel=document.createElement('select'); sel.className='app-select'; sel.id='as-'+app.id;
+  Object.keys(STATUS_LABELS).forEach(function(k){
+    var opt=document.createElement('option'); opt.value=k; opt.textContent=STATUS_LABELS[k];
+    if(k===st) opt.selected=true; sel.appendChild(opt);
+  });
+  sel.onchange=function(){
+    var s=sel.value;
+    var spl=document.getElementById('aspl-'+app.id);
+    if(spl){ spl.className='status-pill '+STATUS_CSS[s]; spl.textContent=STATUS_LABELS[s]; }
+    updateCardClass(app.id,s);
+  };
+  sf.appendChild(sel); row1.appendChild(sf);
+
+  row1.appendChild(makeField('Submit date','asd-'+app.id,app.submitDate,'date'));
+  row1.appendChild(makeField('Decision date','add-'+app.id,app.decisionDate,'date'));
+
+  // Portal URL
+  var pu=document.createElement('div'); pu.className='app-field';
+  var pul=document.createElement('div'); pul.className='app-lbl'; pul.textContent='Portal URL'; pu.appendChild(pul);
+  var puInp=document.createElement('input'); puInp.className='app-input'; puInp.id='apu-'+app.id; puInp.value=app.portalUrl||''; puInp.placeholder='https://apply.university.edu';
+  pu.appendChild(puInp); row1.appendChild(pu);
+
+  card.appendChild(row1);
+
+  // Row 2
+  var row2=document.createElement('div'); row2.className='app-row';
+  row2.appendChild(makeField('Portal login / username','apl-'+app.id,app.portalLogin,''));
+
+  var nf=document.createElement('div'); nf.className='app-field';
+  var nl=document.createElement('div'); nl.className='app-lbl'; nl.textContent='Notes'; nf.appendChild(nl);
+  var ta=document.createElement('textarea'); ta.className='app-ta'; ta.id='an-'+app.id; ta.placeholder='Notes, next steps, interview dates...'; ta.value=app.notes||''; nf.appendChild(ta);
+  row2.appendChild(nf);
+  card.appendChild(row2);
+
+  // Materials checklist
+  var cls=document.createElement('div'); cls.className='checklist-section';
+  var clt=document.createElement('div'); clt.className='checklist-title'; clt.textContent='Materials checklist'; cls.appendChild(clt);
+
+  var checked=Object.keys(app.materials||{}).filter(function(k){return app.materials[k];}).length;
+  var total=DEFAULT_MATERIALS.length;
+
+  // Progress bar
+  var progress=document.createElement('div'); progress.className='checklist-progress';
+  var bar=document.createElement('div'); bar.className='checklist-bar'; bar.id='apr-'+app.id;
+  bar.style.width=Math.round(100*checked/total)+'%';
+  progress.appendChild(bar); cls.appendChild(progress);
+
+  var clgrid=document.createElement('div'); clgrid.className='checklist-grid';
+  clgrid.style.marginTop='.5rem';
+
+  DEFAULT_MATERIALS.forEach(function(mat,i){
+    var isChecked=!!(app.materials&&app.materials[i]);
+    var label=document.createElement('label');
+    label.className='check-item'+(isChecked?' checked-item':'');
+    label.id='aml-'+app.id+'-'+i;
+    var chk=document.createElement('input'); chk.type='checkbox'; chk.checked=isChecked;
+    (function(appId,matIdx){
+      chk.onchange=function(){
+        saveMaterial(appId,matIdx,chk.checked);
+      };
+    })(app.id,i);
+    label.appendChild(chk);
+    var span=document.createElement('span'); span.textContent=mat; label.appendChild(span);
+    clgrid.appendChild(label);
+  });
+
+  cls.appendChild(clgrid);
+  card.appendChild(cls);
+
+  // Actions
+  var acts=document.createElement('div'); acts.className='app-actions';
+  var sb=document.createElement('button'); sb.className='save-btn'; sb.textContent='Save';
+  sb.onclick=(function(aid){return function(){saveCard(aid);};})(app.id);
+  acts.appendChild(sb);
+
+  var fl=document.createElement('span'); fl.className='saved-flash'; fl.id='afl-'+app.id; fl.textContent='Saved ✓'; acts.appendChild(fl);
+
+  if(app.portalUrl){
+    var pl=document.createElement('a'); pl.href=app.portalUrl; pl.target='_blank';
+    pl.style.cssText='font-size:12px;color:var(--blue);margin-left:4px';
+    pl.textContent='Open portal ↗'; acts.appendChild(pl);
+  }
+
+  var db=document.createElement('button'); db.className='del-btn'; db.textContent='Remove';
+  db.onclick=(function(aid){return function(){deleteCard(aid);};})(app.id);
+  acts.appendChild(db);
+
+  card.appendChild(acts);
+  return card;
+}
+
+pullApps();
+</script>
+</body>
+</html>

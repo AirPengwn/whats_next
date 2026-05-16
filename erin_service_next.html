@@ -6,10 +6,10 @@
 <title>Erin Lamberton — Next Cycle: Service &amp; Fellowships</title>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{--bg:#fff;--bg2:#f5f5f3;--bg3:#eeede8;--t1:#1a1a18;--t2:#5f5e5a;--t3:#888780;--bd:rgba(0,0,0,0.12);--bds:rgba(0,0,0,0.22);--r1:8px;--r2:12px;--fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
-@media(prefers-color-scheme:dark){:root{--bg:#1e1e1c;--bg2:#2a2a28;--bg3:#333330;--t1:#f0ede6;--t2:#b4b2a9;--t3:#888780;--bd:rgba(255,255,255,0.1);--bds:rgba(255,255,255,0.2)}}
-body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:2rem 1rem}
-.page{max-width:720px;margin:0 auto}
+:root{--bg:#fff;--bg2:#f5f5f3;--bg3:#eeede8;--t1:#1a1a18;--t2:#5f5e5a;--t3:#888780;--bd:rgba(0,0,0,0.12);--bds:rgba(0,0,0,0.22);--r1:8px;--r2:12px;--fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;--teal:#5dcaa5;--teal-bg:#e1f5ee;--teal-t:#0f6e56;}
+@media(prefers-color-scheme:dark){:root{--bg:#1e1e1c;--bg2:#2a2a28;--bg3:#333330;--t1:#f0ede6;--t2:#b4b2a9;--t3:#888780;--bd:rgba(255,255,255,0.1);--bds:rgba(255,255,255,0.2);--teal-bg:#085041;--teal-t:#9fe1cb;}}
+body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem}
+.page{max-width:720px;margin:0 autopadding:0 1rem}
 .top-nav{display:flex;align-items:center;gap:12px;margin-bottom:1.75rem}
 .back-btn{font-size:13px;padding:5px 14px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t2);text-decoration:none;display:inline-block}
 .back-btn:hover{background:var(--bg2);color:var(--t1)}
@@ -58,9 +58,36 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
 .rl:hover{text-decoration:underline}
 .footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
 @media(max-width:520px){.pos-header{flex-direction:column;align-items:flex-start}.meta-grid{grid-template-columns:1fr}}
+
+/* ── GLOBAL NAV ── */
+.global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
+.gnav-inner{max-width:720px;margin:0 auto;display:flex;align-items:center;gap:0;overflow-x:auto;scrollbar-width:none}
+.gnav-inner::-webkit-scrollbar{display:none}
+.gnav-home{font-size:13px;font-weight:600;color:var(--t1);text-decoration:none;padding:11px 14px 11px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:4px;flex-shrink:0}
+.gnav-home:hover{color:var(--teal-t)}
+.gnav-link{font-size:12px;font-weight:500;color:var(--t3);text-decoration:none;padding:11px 10px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
+.gnav-link:hover{color:var(--t1)}
+.gnav-link.active{color:var(--teal-t);border-bottom-color:var(--teal)}
+
+.s-updated{background:#e8e4fe;color:#4c3bc4}
+@media(prefers-color-scheme:dark){.s-updated{background:#2d2563;color:#b5abfa}}
 </style>
 </head>
 <body>
+
+<!-- GLOBAL NAV -->
+<nav class="global-nav">
+  <div class="gnav-inner">
+    <a href="index.html" class="gnav-home">EL &#8594;</a>
+    <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
+    <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
+    <a href="erin_applications.html" class="gnav-link">&#128196; Applications</a>
+    <a href="erin_proftracker.html" class="gnav-link">&#128100; Professors</a>
+    <a href="erin_reftracker.html" class="gnav-link">&#128393; References</a>
+    <a href="erin_outreach.html" class="gnav-link">&#9997;&#65039; Outreach</a>
+  </div>
+</nav>
+
 <div class="page">
 
 <div class="top-nav">
@@ -80,7 +107,7 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
 <div class="pos-card hot">
   <div class="pos-header">
     <div>
-      <div class="pos-title">BLM Wetlands &amp; Wildlife Technician — Individual Placement (2026–27 cycle)</div>
+      <div class="pos-title">BLM Wetlands &amp; Wildlife Technician — Individual Placement (2026–27 cycle) <span class="status-badge s-updated">&#10024; Updated May 2026</span></div>
       <div class="pos-org">Southwest Conservation Corps / Bureau of Land Management &middot; San Luis Valley Field Office &middot; Monte Vista, CO</div>
     </div>
     <span class="badge b-check">Watch — 2026–27 version expected</span>
@@ -92,7 +119,10 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
     <span class="fit-pill">Wildlife surveys</span>
     <span class="fit-pill">Colorado-based</span>
   </div>
-  <div class="pos-body">This is the closest AmeriCorps IP match for Erin's full skill set — verified active for the 2025–26 cycle (May–September 2026, now closed). The 2026 version served with the BLM San Luis Valley Field Office managing 22,000+ acres of ecologically significant wetland and wildlife habitat in Colorado. Duties included: wetland well monitoring (47 wells), water quality sampling, wildlife species surveys with GIS data analysis, invasive bullfrog trapping, Land Health Assessments, and wildlife-friendly fence construction. This position recurs annually — watch SCC Individual Placements in July–September 2026 for the 2026–27 version.</div>
+  <div style="background:#e1f5ee;border:1px solid #0f6e56;border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:#0f6e56">
+  &#9654; NOW CONFIRMED OPEN — The 2026 cycle is actively posted. See erin_service.html for the current listing.
+</div>
+<div class="pos-body">This is the closest AmeriCorps IP match for Erin's full skill set — verified active for the 2025–26 cycle (May–September 2026, now closed). The 2026 version served with the BLM San Luis Valley Field Office managing 22,000+ acres of ecologically significant wetland and wildlife habitat in Colorado. Duties included: wetland well monitoring (47 wells), water quality sampling, wildlife species surveys with GIS data analysis, invasive bullfrog trapping, Land Health Assessments, and wildlife-friendly fence construction. This position recurs annually — watch SCC Individual Placements in July–September 2026 for the 2026–27 version.</div>
   <div class="meta-grid">
     <div class="meta-item"><span class="meta-label">2026–27 apps open:</span> Watch July–September 2026</div>
     <div class="meta-item"><span class="meta-label">Typical term:</span> ~450–900 hours, May–Sept or year-round version</div>
@@ -112,10 +142,11 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
     <p>Wetland monitoring and management including irrigation infrastructure; well readings at 47 wetland wells in the San Luis Valley; water quality monitoring; species surveys with biologists including GIS data analysis; invasive American bullfrog trapping; post-fire/thinning monitoring; Land Health Assessments; wildlife-friendly fence repair and construction. This is exactly Erin's combined skill set.</p>
     <div class="detail-row"><span class="detail-label">When to watch</span>SCC IP postings for fall/winter starts typically appear July–September on scc.org and jobs.fire-up.net</div>
     <div class="detail-row"><span class="detail-label">PLC benefit</span>Any BLM position through Stewards/SCC provides Public Lands Corps Hiring Authority upon completion — a non-competitive federal employment pathway</div>
-    <div class="contact-block">Monitor: <a href="https://www.southwestconservationcorps.org/individual-placements">southwestconservationcorps.org/individual-placements</a> and <a href="https://jobs.fire-up.net">jobs.fire-up.net</a> from July 2026 onward. Contact Niki Antonio at Conservation Legacy to ask about fall 2026 BLM wetland IP availability.</div>
+    <div style="background:#e1f5ee;border:1px solid #0f6e56;border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:#0f6e56">&#9654; NOW CONFIRMED OPEN — The 2026 cycle is actively posted. See erin_service.html for the current listing.</div>
+<div class="contact-block">Monitor: <a href="https://www.southwestconservationcorps.org/individual-placements">southwestconservationcorps.org/individual-placements</a> and <a href="https://jobs.fire-up.net">jobs.fire-up.net</a> from July 2026 onward. Contact Niki Antonio at Conservation Legacy to ask about fall 2026 BLM wetland IP availability.</div>
   </div>
 
-<button class="ml-save-btn" data-id="item-067" data-item="{&quot;title&quot;: &quot;BLM Wetlands & Wildlife Technician — Individual Placement (2026–27 cycle)&quot;, &quot;org&quot;: &quot;Southwest Conservation Corps / Bureau of Land Management · San Luis Valley Field Office · Monte Vista, CO&quot;, &quot;type&quot;: &quot;Service / Corps&quot;, &quot;cat&quot;: &quot;Service & Fellowships — Next Cycle&quot;, &quot;src&quot;: &quot;erin_service_next.html&quot;, &quot;src_label&quot;: &quot;Service & Fellowships — Next Cycle&quot;, &quot;deadline&quot;: &quot;&quot;, &quot;start&quot;: &quot;&quot;, &quot;body&quot;: &quot;This is the closest AmeriCorps IP match for Erin's full skill set — verified active for the 2025–26 cycle (May–September 2026, now closed). The 2026 version served with the BLM San Luis Valley Field Office managing 22,000+ acres of ecologically significant wetland and wildlife habitat in Colorado...&quot;, &quot;badge&quot;: &quot;Watch — 2026–27 version expected&quot;, &quot;pills&quot;: [&quot;Wetland delineation & monitoring&quot;, &quot;Water quality&quot;, &quot;GIS & data analysis&quot;, &quot;Wildlife surveys&quot;], &quot;id&quot;: &quot;item-067&quot;}">&#9734; Save to My List</button></div>
+<button class="ml-save-btn" data-id="item-067" data-item="{&amp;quot;title&amp;quot;: &amp;quot;BLM Wetlands &amp; Wildlife Technician \u2014 Individual Placement (2026\u201327 cycle)&amp;quot;, &amp;quot;org&amp;quot;: &amp;quot;Southwest Conservation Corps / Bureau of Land Management \u00b7 San Luis Valley Field Office \u00b7 Monte Vista, CO&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;Service / Corps&amp;quot;, &amp;quot;cat&amp;quot;: &amp;quot;Service &amp; Fellowships&amp;quot;, &amp;quot;src&amp;quot;: &amp;quot;erin_service.html&amp;quot;, &amp;quot;src_label&amp;quot;: &amp;quot;Service &amp; Fellowships \u2014 Next Cycle&amp;quot;, &amp;quot;deadline&amp;quot;: &amp;quot;&amp;quot;, &amp;quot;start&amp;quot;: &amp;quot;&amp;quot;, &amp;quot;body&amp;quot;: &amp;quot;This is the closest AmeriCorps IP match for Erin's full skill set \u2014 verified active for the 2025\u201326 cycle (May\u2013September 2026, now closed). The 2026 version served with the BLM San Luis Valley Field Office managing 22,000+ acres of ecologically significant wetland and wildlife habitat in Colorado...&amp;quot;, &amp;quot;badge&amp;quot;: &amp;quot;Open now \u2014 see current cycle listing&amp;quot;, &amp;quot;pills&amp;quot;: [&amp;quot;Wetland delineation &amp; monitoring&amp;quot;, &amp;quot;Water quality&amp;quot;, &amp;quot;GIS &amp; data analysis&amp;quot;, &amp;quot;Wildlife surveys&amp;quot;], &amp;quot;id&amp;quot;: &amp;quot;item-067&amp;quot;}">&#9734; Save to My List</button></div>
 
 <div class="pos-card hot">
   <div class="pos-header">
@@ -227,7 +258,7 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
     <div class="detail-row"><span class="detail-label">Watch for 2026–27</span>Monitor americanyouthworks.org from November 2026; apply by January 2027 for March 2027 start</div>
   </div>
 
-<button class="ml-save-btn" data-id="item-070" data-item="{&quot;title&quot;: &quot;Wildlife Monitoring IP — Wichita Mountains Wildlife Refuge (2026 cycle)&quot;, &quot;org&quot;: &quot;American Youthworks / USFWS · Fort Sill / Lawton, OK&quot;, &quot;type&quot;: &quot;Service / Corps&quot;, &quot;cat&quot;: &quot;Service & Fellowships — Next Cycle&quot;, &quot;src&quot;: &quot;erin_service_next.html&quot;, &quot;src_label&quot;: &quot;Service & Fellowships — Next Cycle&quot;, &quot;deadline&quot;: &quot;&quot;, &quot;start&quot;: &quot;&quot;, &quot;body&quot;: &quot;American Youthworks places AmeriCorps members at the Wichita Mountains Wildlife Refuge and Fort Sill through the ARTES (At Risk, Threatened, and Endangered Species) Program — monitoring tricolored bat, monarch butterfly, black-capped vireo, and northern bobwhite quail. The 2026 cycle (March 2 – N...&quot;, &quot;badge&quot;: &quot;Verify — Jan 2026 deadline passed, watch for 2026–27&quot;, &quot;pills&quot;: [&quot;Endangered species monitoring&quot;, &quot;Wildlife surveys&quot;, &quot;USFWS experience&quot;, &quot;Bat surveys&quot;], &quot;id&quot;: &quot;item-070&quot;}">&#9734; Save to My List</button></div>
+<button class="ml-save-btn" data-id="item-070" data-item="{&amp;quot;title&amp;quot;: &amp;quot;Wildlife Monitoring IP \u2014 Wichita Mountains Wildlife Refuge (2026 cycle)&amp;quot;, &amp;quot;org&amp;quot;: &amp;quot;American Youthworks / USFWS \u00b7 Fort Sill / Lawton, OK&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;Service / Corps&amp;quot;, &amp;quot;cat&amp;quot;: &amp;quot;Service &amp; Fellowships \u2014 Next Cycle&amp;quot;, &amp;quot;src&amp;quot;: &amp;quot;erin_service_next.html&amp;quot;, &amp;quot;src_label&amp;quot;: &amp;quot;Service &amp; Fellowships \u2014 Next Cycle&amp;quot;, &amp;quot;deadline&amp;quot;: &amp;quot;March 2, 2026 \u2013 November 6, 2026 (confirmed active) \u2014 check American Youthworks for backfill&amp;quot;, &amp;quot;start&amp;quot;: &amp;quot;&amp;quot;, &amp;quot;body&amp;quot;: &amp;quot;American Youthworks places AmeriCorps members at the Wichita Mountains Wildlife Refuge and Fort Sill through the ARTES (At Risk, Threatened, and Endangered Species) Program \u2014 monitoring tricolored bat, monarch butterfly, black-capped vireo, and northern bobwhite quail. The 2026 cycle (March 2 \u2013 N...&amp;quot;, &amp;quot;badge&amp;quot;: &amp;quot;Active March 2026 \u2013 Nov 2026 \u2014 verify backfill&amp;quot;, &amp;quot;pills&amp;quot;: [&amp;quot;Endangered species monitoring&amp;quot;, &amp;quot;Wildlife surveys&amp;quot;, &amp;quot;USFWS experience&amp;quot;, &amp;quot;Bat surveys&amp;quot;], &amp;quot;id&amp;quot;: &amp;quot;item-070&amp;quot;}">&#9734; Save to My List</button></div>
 
 <hr>
 <div class="slabel">Fellowships &amp; bridge programs — 2026–27</div>
@@ -348,6 +379,28 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
 </div>
 
 <div class="tip">&#127891;&nbsp; <strong style="font-weight:500;color:var(--t1)">Strategic value of a second service term:</strong> A 1,200-hour AmeriCorps IP with a federal agency earns the full Segal Education Award (~$7,395) and — critically — the <strong>Public Lands Corps Hiring Authority</strong>, allowing non-competitive conversion to a permanent federal position. Combined with Erin's prior NCCC term, this builds a profile that federal hiring managers recognize immediately. The professional network and field credentials from a targeted IP also directly strengthen Fall 2027 graduate school applications.</div>
+
+
+<div style="border:.5px solid var(--bd);border-radius:var(--r2);padding:1.1rem 1.25rem;margin-bottom:1rem;background:var(--bg)">
+  <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:.5rem;margin-bottom:.5rem">
+    <div>
+      <div style="font-size:15px;font-weight:500;color:var(--t1)">Conservation Corps Minnesota &amp; Iowa &mdash; Individual Placements (Soil &amp; Water / Natural Resources) <span class="status-badge s-updated">&#10024; New May 2026</span></div>
+      <div style="font-size:12px;color:var(--t3);margin-top:2px">Minnesota, Iowa, and surrounding states</div>
+    </div>
+    <span style="background:#e1f5ee;color:#0f6e56;font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px">Rolling &mdash; new positions year-round</span>
+  </div>
+  <div style="font-size:12px;color:var(--t2);margin-bottom:.5rem"><strong>Term:</strong> Full-year IPs or 3&ndash;6 month summer positions &nbsp;&middot;&nbsp; <strong>Benefits:</strong> Stipend + Segal AmeriCorps Education Award</div>
+  <div style="font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.65rem">
+    Conservation Corps Minnesota &amp; Iowa places AmeriCorps members with Soil and Water Conservation Districts and natural resource agencies. Summer soil and water positions include wetland and watercourse inventories, field surveys, groundwater monitoring, and educational programs. Full-year IPs include GIS mapping, species inventory, invasive species management, and water quality monitoring at agencies like MN DNR, USFS, and nonprofit partners. Strong match for Erin&rsquo;s GIS, water quality, and wildlife inventory skills. New positions post continuously at conservationcorps.org/join.
+  </div>
+  <div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:.65rem">
+    <span style="background:#e1f5ee;color:#0f6e56;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Wetland &amp; water inventories</span>
+    <span style="background:#e6f1fb;color:#185fa5;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">GIS mapping</span>
+    <span style="background:#faeeda;color:#854f0b;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">AmeriCorps year-round</span>
+  </div>
+  <!-- ML_BTN_item-080 --><button class="ml-save-btn" data-id="item-080" data-item="{&quot;title&quot;:&quot;Conservation Corps Minnesota & Iowa — Individual Placements&quot;,&quot;org&quot;:&quot;Minnesota, Iowa, and surrounding states&quot;,&quot;type&quot;:&quot;Service / Corps&quot;,&quot;cat&quot;:&quot;Service & Fellowships — Next Cycle&quot;,&quot;src&quot;:&quot;erin_service_next.html&quot;,&quot;src_label&quot;:&quot;Service & Fellowships — Next Cycle&quot;,&quot;deadline&quot;:&quot;Rolling — new positions posted continuously at conservationcorps.org/join&quot;,&quot;start&quot;:&quot;&quot;,&quot;body&quot;:&quot;Conservation Corps MN & IA places AmeriCorps members with Soil and Water Conservation Districts and natural resource agencies. Wetland inventories, water quality monitoring, GIS mapping, species surveys. Full-year IPs and summer positions. New positions roll continuously.&quot;,&quot;badge&quot;:&quot;Rolling — browse current openings&quot;,&quot;pills&quot;:[&quot;Wetland & water inventories&quot;,&quot;GIS mapping&quot;,&quot;Soil & Water Conservation Districts&quot;,&quot;AmeriCorps year-round&quot;],&quot;id&quot;:&quot;item-080&quot;}">&#9734; Save to My List</button>
+  <a href="https://conservationcorps.org/join/" target="_blank" style="font-size:12px;color:var(--blue);margin-left:.75rem">Browse open positions &#8594;</a>
+</div>
 
 <p class="footer">Research conducted May 2026. AmeriCorps positions open and close rapidly — verify all listings directly before applying. Education award amounts subject to annual adjustment by AmeriCorps.<br><br><a href="erin_service.html" style="color:#185fa5">&#8592; Back to service &amp; fellowships</a>&nbsp;&nbsp;<a href="index.html" style="color:#185fa5">&#8592; Home</a></p>
 </div>

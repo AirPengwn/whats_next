@@ -6,10 +6,10 @@
 <title>Erin Lamberton — Service, AmeriCorps &amp; Fellowships</title>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{--bg:#fff;--bg2:#f5f5f3;--bg3:#eeede8;--t1:#1a1a18;--t2:#5f5e5a;--t3:#888780;--bd:rgba(0,0,0,0.12);--bds:rgba(0,0,0,0.22);--r1:8px;--r2:12px;--fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
-@media(prefers-color-scheme:dark){:root{--bg:#1e1e1c;--bg2:#2a2a28;--bg3:#333330;--t1:#f0ede6;--t2:#b4b2a9;--t3:#888780;--bd:rgba(255,255,255,0.1);--bds:rgba(255,255,255,0.2)}}
-body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:2rem 1rem}
-.page{max-width:720px;margin:0 auto}
+:root{--bg:#fff;--bg2:#f5f5f3;--bg3:#eeede8;--t1:#1a1a18;--t2:#5f5e5a;--t3:#888780;--bd:rgba(0,0,0,0.12);--bds:rgba(0,0,0,0.22);--r1:8px;--r2:12px;--fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;--teal:#5dcaa5;--teal-bg:#e1f5ee;--teal-t:#0f6e56;}
+@media(prefers-color-scheme:dark){:root{--bg:#1e1e1c;--bg2:#2a2a28;--bg3:#333330;--t1:#f0ede6;--t2:#b4b2a9;--t3:#888780;--bd:rgba(255,255,255,0.1);--bds:rgba(255,255,255,0.2);--teal-bg:#085041;--teal-t:#9fe1cb;}}
+body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem}
+.page{max-width:720px;margin:0 autopadding:0 1rem}
 .top-nav{display:flex;align-items:center;gap:12px;margin-bottom:1.75rem}
 .back-btn{font-size:13px;padding:5px 14px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t2);text-decoration:none;display:inline-block}
 .back-btn:hover{background:var(--bg2);color:var(--t1)}
@@ -53,9 +53,36 @@ td{padding:7px 8px 7px 0;border-bottom:.5px solid var(--bd);color:var(--t2);vert
 td:first-child{color:var(--t1);font-weight:500}
 tr:last-child td{border-bottom:none}
 @media(max-width:520px){.pos-header{flex-direction:column;align-items:flex-start}.meta-grid{grid-template-columns:1fr}}
+
+/* ── GLOBAL NAV ── */
+.global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
+.gnav-inner{max-width:720px;margin:0 auto;display:flex;align-items:center;gap:0;overflow-x:auto;scrollbar-width:none}
+.gnav-inner::-webkit-scrollbar{display:none}
+.gnav-home{font-size:13px;font-weight:600;color:var(--t1);text-decoration:none;padding:11px 14px 11px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:4px;flex-shrink:0}
+.gnav-home:hover{color:var(--teal-t)}
+.gnav-link{font-size:12px;font-weight:500;color:var(--t3);text-decoration:none;padding:11px 10px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
+.gnav-link:hover{color:var(--t1)}
+.gnav-link.active{color:var(--teal-t);border-bottom-color:var(--teal)}
+
+.s-updated{background:#e8e4fe;color:#4c3bc4}
+@media(prefers-color-scheme:dark){.s-updated{background:#2d2563;color:#b5abfa}}
 </style>
 </head>
 <body>
+
+<!-- GLOBAL NAV -->
+<nav class="global-nav">
+  <div class="gnav-inner">
+    <a href="index.html" class="gnav-home">EL &#8594;</a>
+    <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
+    <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
+    <a href="erin_applications.html" class="gnav-link">&#128196; Applications</a>
+    <a href="erin_proftracker.html" class="gnav-link">&#128100; Professors</a>
+    <a href="erin_reftracker.html" class="gnav-link">&#128393; References</a>
+    <a href="erin_outreach.html" class="gnav-link">&#9997;&#65039; Outreach</a>
+  </div>
+</nav>
+
 <div class="page">
 
 <div class="top-nav">
@@ -97,10 +124,10 @@ tr:last-child td{border-bottom:none}
 <div class="pos-card hot">
   <div class="pos-header">
     <div>
-      <div class="pos-title">BLM Wetlands &amp; Wildlife Technician &mdash; Individual Placement</div>
+      <div class="pos-title">BLM Wetlands &amp; Wildlife Technician &mdash; Individual Placement <span class="status-badge s-updated">&#10024; Updated May 2026</span></div>
       <div class="pos-org">Southwest Conservation Corps / Bureau of Land Management &middot; San Luis Valley Field Office &middot; Monte Vista, CO</div>
     </div>
-    <span class="badge b-closed">Closed &mdash; reference</span>
+    <span class="badge b-closed">Open now &mdash; apply immediately</span>
   </div>
   <div class="fit-pills">
     <span class="fit-pill">Wetland delineation</span>
@@ -109,7 +136,10 @@ tr:last-child td{border-bottom:none}
     <span class="fit-pill">Wildlife surveys</span>
     <span class="fit-pill">Colorado-based</span>
   </div>
-  <div class="pos-body">This position is the closest match to Erin's full skill set of any AmeriCorps position found. It was with the BLM San Luis Valley Field Office, which manages over 500,000 acres including 22,000+ acres of some of the most ecologically significant wetland and wildlife habitats in Colorado. The IP worked directly with BLM biologists on habitat assessments, wildlife surveys, water quality monitoring, GIS data analysis, invasive species management, and wetland well monitoring. This exact type of position recurs annually &mdash; watch for the 2026&ndash;27 version.</div>
+  <div style="background:#e1f5ee;border:1px solid #0f6e56;border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:#0f6e56">
+  &#9654; NOW OPEN — The 2026 cycle of this position is actively posted (May 2026). Apply immediately at Conservation Legacy / Southwest Conservation Corps.
+</div>
+<div class="pos-body">This position is the closest match to Erin's full skill set of any AmeriCorps position found. It was with the BLM San Luis Valley Field Office, which manages over 500,000 acres including 22,000+ acres of some of the most ecologically significant wetland and wildlife habitats in Colorado. The IP worked directly with BLM biologists on habitat assessments, wildlife surveys, water quality monitoring, GIS data analysis, invasive species management, and wetland well monitoring. This exact type of position recurs annually &mdash; watch for the 2026&ndash;27 version.</div>
   <div class="meta-grid">
     <div class="meta-item"><span class="meta-label">Program:</span> Southwest Conservation Corps (SCC) &mdash; Los Valles</div>
     <div class="meta-item"><span class="meta-label">Term:</span> May 25 &ndash; Sept 11, 2026 (450 hours)</div>
@@ -127,7 +157,7 @@ tr:last-child td{border-bottom:none}
     <a class="pos-link" href="mailto:nantonio@conservationlegacy.org">&#9993; Contact: Niki Antonio, nantonio@conservationlegacy.org</a>
   </div>
 
-<button class="ml-save-btn" data-id="item-038" data-item="{&quot;title&quot;: &quot;BLM Wetlands & Wildlife Technician — Individual Placement&quot;, &quot;org&quot;: &quot;Southwest Conservation Corps / Bureau of Land Management · San Luis Valley Field Office · Monte Vista, CO&quot;, &quot;type&quot;: &quot;Service / Corps&quot;, &quot;cat&quot;: &quot;Service & Fellowships&quot;, &quot;src&quot;: &quot;erin_service.html&quot;, &quot;src_label&quot;: &quot;Service & Fellowships&quot;, &quot;deadline&quot;: &quot;&quot;, &quot;start&quot;: &quot;&quot;, &quot;body&quot;: &quot;This position is the closest match to Erin's full skill set of any AmeriCorps position found. It was with the BLM San Luis Valley Field Office, which manages over 500,000 acres including 22,000+ acres of some of the most ecologically significant wetland and wildlife habitats in Colorado. The IP w...&quot;, &quot;badge&quot;: &quot;Closed — reference&quot;, &quot;pills&quot;: [&quot;Wetland delineation&quot;, &quot;Water quality monitoring&quot;, &quot;GIS & data analysis&quot;, &quot;Wildlife surveys&quot;], &quot;id&quot;: &quot;item-038&quot;}">&#9734; Save to My List</button></div>
+<button class="ml-save-btn" data-id="item-038" data-item="{&amp;quot;title&amp;quot;: &amp;quot;BLM Wetlands &amp; Wildlife Technician \u2014 Individual Placement&amp;quot;, &amp;quot;org&amp;quot;: &amp;quot;Southwest Conservation Corps / Bureau of Land Management \u00b7 San Luis Valley Field Office \u00b7 Monte Vista, CO&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;Service / Corps&amp;quot;, &amp;quot;cat&amp;quot;: &amp;quot;Service &amp; Fellowships&amp;quot;, &amp;quot;src&amp;quot;: &amp;quot;erin_service.html&amp;quot;, &amp;quot;src_label&amp;quot;: &amp;quot;Service &amp; Fellowships&amp;quot;, &amp;quot;deadline&amp;quot;: &amp;quot;Active \u2014 posted May 2026; apply as soon as possible&amp;quot;, &amp;quot;start&amp;quot;: &amp;quot;&amp;quot;, &amp;quot;body&amp;quot;: &amp;quot;This position is the closest match to Erin's full skill set of any AmeriCorps position found. It was with the BLM San Luis Valley Field Office, which manages over 500,000 acres including 22,000+ acres of some of the most ecologically significant wetland and wildlife habitats in Colorado. The IP w...&amp;quot;, &amp;quot;badge&amp;quot;: &amp;quot;Open now \u2014 apply immediately&amp;quot;, &amp;quot;pills&amp;quot;: [&amp;quot;Wetland delineation&amp;quot;, &amp;quot;Water quality monitoring&amp;quot;, &amp;quot;GIS &amp; data analysis&amp;quot;, &amp;quot;Wildlife surveys&amp;quot;], &amp;quot;id&amp;quot;: &amp;quot;item-038&amp;quot;}">&#9734; Save to My List</button></div>
 
 <!-- SC ENVIRONMENTAL CONSERVATION CORPS -->
 <div class="pos-card hot">
@@ -213,14 +243,18 @@ tr:last-child td{border-bottom:none}
     <div class="meta-item"><span class="meta-label">Living allowance:</span> $600/week + $225/week housing stipend</div>
     <div class="meta-item"><span class="meta-label">Education award:</span> Segal award upon completion</div>
     <div class="meta-item"><span class="meta-label">Location:</span> Lawton, OK (near Fort Sill)</div>
-    <div class="meta-item"><span class="meta-label">Prior apply deadline:</span> Jan 25, 2026 (may be filled)</div>
+    <div style="background:#faece7;border:1px solid #c0392b;border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:#993c1d">
+  &#9888; Deadline passed Jan 25, 2026 — see next cycle for 2026-27 version.
+</div>
+<div class="meta-item"><span class="meta-label">Prior apply deadline:</span> Jan 25, 2026 (may be filled)</div>
   </div>
-  <div class="pos-links">
+  <div style="background:#faece7;border:1px solid #c0392b;border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:#993c1d">&#9888; Deadline passed Jan 25, 2026 — see next cycle for 2026-27 version.</div>
+<div class="pos-links">
     <a class="pos-link" href="https://americanyouthworks.org/what-we-do/cc/open-positions">&#128269; American Youthworks open positions</a>
     <a class="pos-link" href="https://www.google.com/search?q=American+Youthworks+Wichita+Mountains+wildlife+AmeriCorps+2026">&#128269; Search for current status</a>
   </div>
 
-<button class="ml-save-btn" data-id="item-041" data-item="{&quot;title&quot;: &quot;Wildlife Monitoring Individual Placement — Wichita Mountains Wildlife Refuge&quot;, &quot;org&quot;: &quot;American Youthworks / US Fish & Wildlife Service · Fort Sill / Lawton, OK&quot;, &quot;type&quot;: &quot;Service / Corps&quot;, &quot;cat&quot;: &quot;Service & Fellowships&quot;, &quot;src&quot;: &quot;erin_service.html&quot;, &quot;src_label&quot;: &quot;Service & Fellowships&quot;, &quot;deadline&quot;: &quot;Jan 25, 2026 (may be filled)&quot;, &quot;start&quot;: &quot;&quot;, &quot;body&quot;: &quot;AmeriCorps members assist in wildlife conservation through the ARTES (At Risk, Threatened, and Endangered Species) Program with the Wichita Mountains Wildlife Refuge and US Army Garrison at Fort Sill. Monitoring species including tricolored bat, monarch butterfly, black-capped vireo, northern bob...&quot;, &quot;badge&quot;: &quot;Verify status&quot;, &quot;pills&quot;: [&quot;Wildlife surveys&quot;, &quot;Endangered species monitoring&quot;, &quot;Habitat restoration&quot;, &quot;USFWS experience&quot;], &quot;id&quot;: &quot;item-041&quot;}">&#9734; Save to My List</button></div>
+<button class="ml-save-btn" data-id="item-041" data-item="{&amp;quot;title&amp;quot;: &amp;quot;Wildlife Monitoring Individual Placement \u2014 Wichita Mountains Wildlife Refuge&amp;quot;, &amp;quot;org&amp;quot;: &amp;quot;American Youthworks / US Fish &amp; Wildlife Service \u00b7 Fort Sill / Lawton, OK&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;Service / Corps&amp;quot;, &amp;quot;cat&amp;quot;: &amp;quot;Service &amp; Fellowships&amp;quot;, &amp;quot;src&amp;quot;: &amp;quot;erin_service.html&amp;quot;, &amp;quot;src_label&amp;quot;: &amp;quot;Service &amp; Fellowships&amp;quot;, &amp;quot;deadline&amp;quot;: &amp;quot;Jan 25, 2026 (may be filled)&amp;quot;, &amp;quot;start&amp;quot;: &amp;quot;&amp;quot;, &amp;quot;body&amp;quot;: &amp;quot;AmeriCorps members assist in wildlife conservation through the ARTES (At Risk, Threatened, and Endangered Species) Program with the Wichita Mountains Wildlife Refuge and US Army Garrison at Fort Sill. Monitoring species including tricolored bat, monarch butterfly, black-capped vireo, northern bob...&amp;quot;, &amp;quot;badge&amp;quot;: &amp;quot;Deadline passed \u2014 see next cycle&amp;quot;, &amp;quot;pills&amp;quot;: [&amp;quot;Wildlife surveys&amp;quot;, &amp;quot;Endangered species monitoring&amp;quot;, &amp;quot;Habitat restoration&amp;quot;, &amp;quot;USFWS experience&amp;quot;], &amp;quot;id&amp;quot;: &amp;quot;item-041&amp;quot;}">&#9734; Save to My List</button></div>
 
 <!-- CCNM Biological Science NM -->
 <div class="pos-card">
@@ -297,19 +331,23 @@ tr:last-child td{border-bottom:none}
     <span class="fit-pill">USACE</span>
     <span class="fit-pill">Public Lands Corps hiring authority</span>
   </div>
-  <div class="pos-body">Individual placement positions with the US Army Corps of Engineers through The Corps Network. Environmental compliance focus. Previous deadlines: May 1, 2026 for Cushing, MN/MT; April 30 for Hot Springs, SD; March 31 for Moab, UT. Benefits include housing stipend/assistance, relocation assistance, transportation assistance, and Public Lands Corps Hiring Authority upon completion (a pathway to non-competitive federal employment). Multiple locations; verify current openings.</div>
+  <div style="background:#faece7;border:1px solid #c0392b;border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:#993c1d">
+  &#9888; All 2026 deadlines passed (May 1 / April 30 / March 31) — watch The Corps Network for next cycle.
+</div>
+<div class="pos-body">Individual placement positions with the US Army Corps of Engineers through The Corps Network. Environmental compliance focus. Previous deadlines: May 1, 2026 for Cushing, MN/MT; April 30 for Hot Springs, SD; March 31 for Moab, UT. Benefits include housing stipend/assistance, relocation assistance, transportation assistance, and Public Lands Corps Hiring Authority upon completion (a pathway to non-competitive federal employment). Multiple locations; verify current openings.</div>
   <div class="meta-grid">
     <div class="meta-item"><span class="meta-label">Agency:</span> US Army Corps of Engineers</div>
     <div class="meta-item"><span class="meta-label">Special benefit:</span> Public Lands Corps Hiring Authority</div>
     <div class="meta-item"><span class="meta-label">Locations:</span> MN, MT, SD, UT (multiple sites)</div>
     <div class="meta-item"><span class="meta-label">Housing:</span> Housing stipend/assistance included</div>
   </div>
-  <div class="pos-links">
+  <div style="background:#faece7;border:1px solid #c0392b;border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:#993c1d">&#9888; All 2026 deadlines passed (May 1 / April 30 / March 31) — watch The Corps Network for next cycle.</div>
+<div class="pos-links">
     <a class="pos-link" href="https://corpsnetwork.org/jobs-at-corps/">&#128269; Corps Network jobs board</a>
     <a class="pos-link" href="https://corpsnetwork.org/job-openings/internship-usace-environmental-compliance/">&#128269; USACE Environmental Compliance listing</a>
   </div>
 
-<button class="ml-save-btn" data-id="item-044" data-item="{&quot;title&quot;: &quot;Environmental Compliance Intern — US Army Corps of Engineers&quot;, &quot;org&quot;: &quot;The Corps Network / US Army Corps of Engineers · Multiple locations (MN, MT, SD, UT)&quot;, &quot;type&quot;: &quot;Service / Corps&quot;, &quot;cat&quot;: &quot;Service & Fellowships&quot;, &quot;src&quot;: &quot;erin_service.html&quot;, &quot;src_label&quot;: &quot;Service & Fellowships&quot;, &quot;deadline&quot;: &quot;&quot;, &quot;start&quot;: &quot;&quot;, &quot;body&quot;: &quot;Individual placement positions with the US Army Corps of Engineers through The Corps Network. Environmental compliance focus. Previous deadlines: May 1, 2026 for Cushing, MN/MT; April 30 for Hot Springs, SD; March 31 for Moab, UT. Benefits include housing stipend/assistance, relocation assistance...&quot;, &quot;badge&quot;: &quot;Verify status&quot;, &quot;pills&quot;: [&quot;Environmental compliance&quot;, &quot;Federal agency experience&quot;, &quot;USACE&quot;, &quot;Public Lands Corps hiring authority&quot;], &quot;id&quot;: &quot;item-044&quot;}">&#9734; Save to My List</button></div>
+<button class="ml-save-btn" data-id="item-044" data-item="{&amp;quot;title&amp;quot;: &amp;quot;Environmental Compliance Intern \u2014 US Army Corps of Engineers&amp;quot;, &amp;quot;org&amp;quot;: &amp;quot;The Corps Network / US Army Corps of Engineers \u00b7 Multiple locations (MN, MT, SD, UT)&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;Service / Corps&amp;quot;, &amp;quot;cat&amp;quot;: &amp;quot;Service &amp; Fellowships&amp;quot;, &amp;quot;src&amp;quot;: &amp;quot;erin_service.html&amp;quot;, &amp;quot;src_label&amp;quot;: &amp;quot;Service &amp; Fellowships&amp;quot;, &amp;quot;deadline&amp;quot;: &amp;quot;&amp;quot;, &amp;quot;start&amp;quot;: &amp;quot;&amp;quot;, &amp;quot;body&amp;quot;: &amp;quot;Individual placement positions with the US Army Corps of Engineers through The Corps Network. Environmental compliance focus. Previous deadlines: May 1, 2026 for Cushing, MN/MT; April 30 for Hot Springs, SD; March 31 for Moab, UT. Benefits include housing stipend/assistance, relocation assistance...&amp;quot;, &amp;quot;badge&amp;quot;: &amp;quot;Deadlines passed \u2014 see next cycle&amp;quot;, &amp;quot;pills&amp;quot;: [&amp;quot;Environmental compliance&amp;quot;, &amp;quot;Federal agency experience&amp;quot;, &amp;quot;USACE&amp;quot;, &amp;quot;Public Lands Corps hiring authority&amp;quot;], &amp;quot;id&amp;quot;: &amp;quot;item-044&amp;quot;}">&#9734; Save to My List</button></div>
 
 <hr>
 
