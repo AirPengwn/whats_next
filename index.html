@@ -26,7 +26,7 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
 .nav-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-bottom:0}
 .nav-btn{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1.1rem 1.25rem;text-decoration:none;color:var(--t1);display:block;transition:border-color .12s,background .12s}
 .nav-btn:hover{background:var(--bg2);border-color:var(--bds)}
-.nav-btn.featured{border:2px solid #0f6e56}
+
 .nav-icon{font-size:20px;margin-bottom:.4rem;display:block}
 .nav-title{font-size:14px;font-weight:500;color:var(--t1);margin-bottom:3px}
 .nav-desc{font-size:12px;color:var(--t3);line-height:1.5}
@@ -41,8 +41,8 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
 .outreach-title{font-size:14px;font-weight:500;color:var(--t1);margin-bottom:2px}
 .outreach-desc{font-size:12px;color:var(--t3);line-height:1.4}
 .outreach-arrow{font-size:18px;color:#185fa5;margin-left:auto;flex-shrink:0}
-.outreach-banner{display:flex;align-items:center;gap:1rem;background:#e6f1fb;border:2px solid #185fa5;border-radius:var(--r2);padding:1rem 1.25rem;text-decoration:none;color:var(--t1);margin-top:12px;transition:background .12s}
-.outreach-banner:hover{background:#cce0f5}
+.outreach-banner{display:flex;align-items:center;gap:1rem;background:var(--teal-bg);border:2px solid var(--teal);border-radius:var(--r2);padding:1rem 1.25rem;text-decoration:none;color:var(--t1);margin-top:12px;transition:background .12s}
+.outreach-banner:hover{background:var(--bg2)}
 
 .footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
 @media(max-width:520px){.stats{grid-template-columns:repeat(2,1fr)}.nav-grid{grid-template-columns:1fr}}
@@ -237,10 +237,15 @@ html:not(.dark) {
 <div class="slabel">Navigate to a section</div>
 
 <div class="nav-grid">
-  <a href="erin_bio.html" class="nav-btn featured">
+  <a href="erin_bio.html" class="nav-btn">
     <span class="nav-icon">&#128100;</span>
     <div class="nav-title">Full biography &amp; transcript</div>
     <div class="nav-desc">Resume downloads, skills, projects, experience, complete transcript with course descriptions, and WCU program overview</div>
+  </a>
+  <a href="erin_mylist.html" class="nav-btn" id="mylist-nav">
+    <span class="nav-icon">&#9733;</span>
+    <div class="nav-title">My opportunity list <span id="home-count" style="font-size:11px;font-weight:500;padding:2px 7px;border-radius:999px;background:#e1f5ee;color:#0f6e56;margin-left:4px"></span></div>
+    <div class="nav-desc">Your saved opportunities from all pages — deadlines, notes, and links in one place</div>
   </a>
   <a href="erin_programs.html" class="nav-btn">
     <span class="nav-icon">&#127979;</span>
@@ -261,11 +266,6 @@ html:not(.dark) {
     <span class="nav-icon">&#127807;</span>
     <div class="nav-title">Service &amp; fellowships</div>
     <div class="nav-desc">AmeriCorps, conservation corps, environmental fellowships, and bridge year programs</div>
-  </a>
-  <a href="erin_mylist.html" class="nav-btn" id="mylist-nav" style="border:2px solid #5dcaa5">
-    <span class="nav-icon">&#9733;</span>
-    <div class="nav-title">My opportunity list <span id="home-count" style="font-size:11px;font-weight:500;padding:2px 7px;border-radius:999px;background:#e1f5ee;color:#0f6e56;margin-left:4px"></span></div>
-    <div class="nav-desc">Your saved opportunities from all pages — deadlines, notes, and links in one place</div>
   </a>
   <a href="erin_timeline.html" class="nav-btn">
     <span class="nav-icon">&#128197;</span>
@@ -292,8 +292,8 @@ html:not(.dark) {
 <a href="erin_outreach.html" class="outreach-banner" style="margin-top:12px">
   <span style="font-size:20px">&#9997;&#65039;</span>
   <div style="flex:1">
-    <div style="font-size:14px;font-weight:500;color:var(--t1);margin-bottom:3px">Ready to apply? Start with the statement of purpose &amp; outreach emails &#8594;</div>
-    <div style="font-size:12px;color:var(--t3)">Full SOP draft &middot; Faculty email templates &middot; NC State / Dr. Forrester ready-to-send email &middot; Writing strategy tips</div>
+    <div style="font-size:14px;font-weight:500;color:var(--teal-t);margin-bottom:3px">Ready to apply? Start with the statement of purpose &amp; outreach emails &#8594;</div>
+    <div style="font-size:12px;color:var(--t2)">Full SOP draft &middot; Faculty email templates &middot; NC State / Dr. Forrester ready-to-send email &middot; Writing strategy tips</div>
   </div>
 </a>
 
