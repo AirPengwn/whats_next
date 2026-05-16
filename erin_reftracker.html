@@ -150,7 +150,11 @@ html:not(.dark) {
   --blue-bg:#e5f0f0;--amber-bg:#f5f0db;--amber-t:#6b5500;
   --red-bg:#faece7;--red-t:#993c1d;
   --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
-}</style>
+}.opp-link{font-size:11px;font-weight:500;color:var(--teal-t);text-decoration:none;padding:2px 7px;border:1px solid var(--teal);border-radius:5px;white-space:nowrap}
+.opp-link:hover{background:var(--teal-bg)}
+.opp-link-sec{color:var(--blue);border-color:var(--blue)}
+.opp-link-sec:hover{background:var(--blue-bg)}
+</style>
 <script>
 (function(){
   var saved=localStorage.getItem('erin_theme');
@@ -256,6 +260,7 @@ function saveCard(id){
   arr[idx].dateAsked = document.getElementById('rda-'+id).value;
   arr[idx].status    = document.getElementById('rs-'+id).value;
   arr[idx].materials = document.getElementById('rm-'+id).value;
+  if(document.getElementById('rp-'+id)) arr[idx].programs = document.getElementById('rp-'+id).value;
   arr[idx].notes     = document.getElementById('rno-'+id).value;
   saveRefs(arr); pushRefs(arr);
   var fl=document.getElementById('rfl-'+id); fl.style.display='inline'; setTimeout(function(){fl.style.display='none';},2000);
@@ -322,7 +327,7 @@ function render(){
   var body=document.getElementById('ref-body'); body.innerHTML='';
 
   if(!arr.length){
-    body.innerHTML='<div class="empty"><div class="empty-icon">&#128393;</div><div class="empty-title">No recommenders added yet</div><div class="empty-body">Click 'Add recommender' to start tracking. Most grad programs require 2–3 letters. Reach out early — faculty are busy.</div></div>';
+    body.innerHTML='<div class="empty"><div class="empty-icon">&#128393;</div><div class="empty-title">No recommenders added yet</div><div class="empty-body">Click &ldquo;Add recommender&rdquo; to start tracking. Most grad programs require 2–3 letters. Reach out early — faculty are busy.</div></div>';
     return;
   }
 
@@ -338,6 +343,15 @@ function render(){
     var left=document.createElement('div');
     var nm=document.createElement('div'); nm.className='ref-name'; nm.textContent=r.name||'New recommender'; left.appendChild(nm);
     if(r.title){ var tl=document.createElement('div'); tl.style.cssText='font-size:12px;color:var(--t3)'; tl.textContent=r.title; left.appendChild(tl); }
+    if(r.programs){
+      var pg=document.createElement('div'); pg.style.cssText='font-size:11px;color:var(--teal-t);font-weight:500;margin-top:2px';
+      pg.innerHTML='&#128197; Requesting for: '+r.programs; left.appendChild(pg);
+    }
+    // Crosslinks to My List and Applications
+    var xlRow=document.createElement('div'); xlRow.style.cssText='display:flex;gap:6px;flex-wrap:wrap;margin-top:4px';
+    var xlList=document.createElement('a'); xlList.href='erin_mylist.html'; xlList.className='opp-link'; xlList.innerHTML='&#9733; My List'; xlRow.appendChild(xlList);
+    var xlApp=document.createElement('a'); xlApp.href='erin_applications.html'; xlApp.className='opp-link opp-link-sec'; xlApp.innerHTML='&#128196; Applications'; xlRow.appendChild(xlApp);
+    left.appendChild(xlRow);
     header.appendChild(left);
     var sp=document.createElement('span'); sp.className='status-pill '+statusCls(r.status||'pending'); sp.id='rsp-'+r.id; sp.textContent=statusLbl(r.status||'pending');
     header.appendChild(sp);
@@ -356,6 +370,7 @@ function render(){
     row.appendChild(inp('Full name','rn-'+r.id,r.name));
     row.appendChild(inp('Title / position','rt-'+r.id,r.title));
     row.appendChild(inp('Email','re-'+r.id,r.email));
+    row.appendChild(inp('Requesting for (programs/positions)','rp-'+r.id,r.programs));
     row.appendChild(inp('Date asked','rda-'+r.id,r.dateAsked,'date'));
 
     var sf=document.createElement('div'); sf.className='ref-field';

@@ -157,7 +157,11 @@ html:not(.dark) {
   --blue-bg:#e5f0f0;--amber-bg:#f5f0db;--amber-t:#6b5500;
   --red-bg:#faece7;--red-t:#993c1d;
   --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
-}</style>
+}.opp-link{font-size:11px;font-weight:500;color:var(--teal-t);text-decoration:none;padding:2px 7px;border:1px solid var(--teal);border-radius:5px;white-space:nowrap}
+.opp-link:hover{background:var(--teal-bg)}
+.opp-link-sec{color:var(--blue);border-color:var(--blue)}
+.opp-link-sec:hover{background:var(--blue-bg)}
+</style>
 <script>
 (function(){
   var saved=localStorage.getItem('erin_theme');
@@ -294,7 +298,7 @@ function deleteCard(id){
 function addCard(prefill){
   var arr=loadProfs();
   var id='p'+Date.now();
-  arr.push({id:id, programTitle:prefill||'', professor:'', email:'', dateEmailed:'', status:'none', notes:''});
+  arr.push({id:id, programTitle:prefill||'', org:'', itemUrl:'', itemSrc:'', professor:'', email:'', dateEmailed:'', status:'none', notes:''});
   saveProfs(arr); render();
   setTimeout(function(){ var el=document.getElementById('pcard-'+id); if(el)el.scrollIntoView({behavior:'smooth',block:'center'}); },100);
 }
@@ -333,7 +337,7 @@ function render(){
   saved.forEach(function(it){
     var exists = arr.find(function(p){ return p.programTitle===it.title; });
     if(!exists){
-      arr.push({id:'p'+Math.random().toString(36).slice(2), programTitle:it.title, professor:'', email:'', dateEmailed:'', status:'none', notes:''});
+      arr.push({id:'p'+Math.random().toString(36).slice(2), programTitle:it.title, org:it.org||'', itemUrl:it.url||'', itemSrc:it.src||'', professor:'', email:'', dateEmailed:'', status:'none', notes:''});
     }
   });
 
@@ -370,6 +374,14 @@ function render(){
     }
 
     left.appendChild(titleRow);
+    // Opportunity links
+    if(p.itemUrl||p.itemSrc||p.org){
+      var lnkRow=document.createElement('div'); lnkRow.style.cssText='display:flex;gap:6px;flex-wrap:wrap;margin-top:3px;align-items:center';
+      if(p.org){ var og=document.createElement('span'); og.style.cssText='font-size:11px;color:var(--t3);margin-right:4px'; og.textContent=p.org; lnkRow.appendChild(og); }
+      if(p.itemUrl){ var ul=document.createElement('a'); ul.href=p.itemUrl; ul.target='_blank'; ul.className='opp-link'; ul.innerHTML='&#128279; Posting'; lnkRow.appendChild(ul); }
+      if(p.itemSrc){ var sl=document.createElement('a'); sl.href=p.itemSrc; sl.target='_blank'; sl.className='opp-link opp-link-sec'; sl.innerHTML='&#128203; In site'; lnkRow.appendChild(sl); }
+      left.appendChild(lnkRow);
+    }
     header.appendChild(left);
 
     var sp=document.createElement('span'); sp.className='status-pill '+statusPillClass(p.status||'none'); sp.id='spl-'+p.id; sp.textContent=statusLabel(p.status||'none');

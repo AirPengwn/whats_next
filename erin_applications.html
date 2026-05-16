@@ -197,7 +197,11 @@ html:not(.dark) {
   --blue-bg:#e5f0f0;--amber-bg:#f5f0db;--amber-t:#6b5500;
   --red-bg:#faece7;--red-t:#993c1d;
   --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
-}</style>
+}.opp-link{font-size:11px;font-weight:500;color:var(--teal-t);text-decoration:none;padding:2px 7px;border:1px solid var(--teal);border-radius:5px;white-space:nowrap}
+.opp-link:hover{background:var(--teal-bg)}
+.opp-link-sec{color:var(--blue);border-color:var(--blue)}
+.opp-link-sec:hover{background:var(--blue-bg)}
+</style>
 <script>
 (function(){
   var saved=localStorage.getItem('erin_theme');
@@ -391,7 +395,7 @@ function addCard(prefill){
   var arr=loadApps();
   var id='a'+Date.now();
   arr.push({
-    id:id, programTitle:prefill||'', org:'', deadline:'',
+    id:id, programTitle:prefill||'', org:'', deadline:'', itemId:'', itemUrl:'', itemSrc:'',
     status:'notstarted', portalUrl:'', portalLogin:'',
     submitDate:'', decisionDate:'', notes:'', materials:{}
   });
@@ -441,6 +445,9 @@ function render(){
         org:it.org||'',
         deadline:it.deadline||'',
         itemType:it.type||'',
+        itemId:it.id||'',
+        itemUrl:it.url||'',
+        itemSrc:it.src||'',
         status:'notstarted',
         portalUrl:'',portalLogin:'',
         submitDate:'',decisionDate:'',
@@ -494,6 +501,13 @@ function makeCard(app){
   var left=document.createElement('div');
   var title=document.createElement('div'); title.className='app-title'; title.textContent=app.programTitle||'New application'; left.appendChild(title);
   if(app.org){ var org=document.createElement('div'); org.className='app-org'; org.textContent=app.org; left.appendChild(org); }
+  // Link to opportunity source
+  if(app.itemUrl||app.itemSrc){
+    var lnkRow=document.createElement('div'); lnkRow.style.cssText='display:flex;gap:8px;flex-wrap:wrap;margin-top:3px';
+    if(app.itemUrl){ var ul=document.createElement('a'); ul.href=app.itemUrl; ul.target='_blank'; ul.className='opp-link'; ul.innerHTML='&#128279; Apply / posting'; lnkRow.appendChild(ul); }
+    if(app.itemSrc){ var sl=document.createElement('a'); sl.href=app.itemSrc; sl.target='_blank'; sl.className='opp-link opp-link-sec'; sl.innerHTML='&#128203; View in site'; lnkRow.appendChild(sl); }
+    left.appendChild(lnkRow);
+  }
   if(app.deadline){ var dl=document.createElement('div'); dl.className='app-deadline'; dl.innerHTML='<strong style="font-weight:500;color:var(--t1)">Deadline:</strong> '+app.deadline; left.appendChild(dl); }
   hdr.appendChild(left);
 
