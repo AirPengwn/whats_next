@@ -3,14 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Erin Lamberton — Internships</title>
+<title>Internships — What's Next for Erin</title>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{--bg:#fff;--bg2:#f5f5f3;--bg3:#eeede8;--t1:#1a1a18;--t2:#5f5e5a;--t3:#888780;--bd:rgba(0,0,0,0.12);--bds:rgba(0,0,0,0.22);--r1:8px;--r2:12px;--fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;--teal:#5dcaa5;--teal-bg:#e1f5ee;--teal-t:#0f6e56;}
-@media(prefers-color-scheme:dark){:root{--bg:#1e1e1c;--bg2:#2a2a28;--bg3:#333330;--t1:#f0ede6;--t2:#b4b2a9;--t3:#888780;--bd:rgba(255,255,255,0.1);--bds:rgba(255,255,255,0.2);--teal-bg:#085041;--teal-t:#9fe1cb;}}
-body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem}
-.page{max-width:720px;margin:0 autopadding:0 1rem}
-.top-nav{display:flex;align-items:center;gap:12px;margin-bottom:1.75rem}
+
+body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem;}
+.top-nav{display:flex;align-items:center;gap:12px;margin-bottom:1.25rem}
 .back-btn{font-size:13px;padding:5px 14px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t2);text-decoration:none;display:inline-block}
 .back-btn:hover{background:var(--bg2);color:var(--t1)}
 .pg-title{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3)}
@@ -31,13 +29,13 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
 .b-check{background:#faeeda;color:#854f0b}
 .b-rolling{background:#e6f1fb;color:#185fa5}
 .b-closed{background:var(--bg2);color:var(--t3)}
-@media(prefers-color-scheme:dark){.b-open{background:#085041;color:#9fe1cb}.b-check{background:#633806;color:#fac775}.b-rolling{background:#0c447c;color:#b5d4f4}}
+
 .meta-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 12px;margin-bottom:.65rem}
 .meta-item{font-size:12px;color:var(--t2)}
 .meta-label{font-weight:500;color:var(--t1)}
 .fit-pills{margin-bottom:.65rem;display:flex;flex-wrap:wrap;gap:4px}
 .fit-pill{display:inline-block;font-size:11px;font-weight:500;padding:3px 9px;border-radius:999px;background:#e6f1fb;color:#185fa5}
-@media(prefers-color-scheme:dark){.fit-pill{background:#0c447c;color:#b5d4f4}}
+
 .pos-links{display:flex;flex-wrap:wrap;gap:4px}
 .pos-link{display:inline-flex;align-items:center;gap:5px;font-size:12px;color:#185fa5;text-decoration:none;padding:3px 0;margin-right:.75rem}
 .pos-link:hover{text-decoration:underline}
@@ -61,7 +59,6 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
 .footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
 @media(max-width:520px){.pos-header{flex-direction:column;align-items:flex-start}.meta-grid{grid-template-columns:1fr}}
 
-/* ── GLOBAL NAV ── */
 .global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
 .gnav-inner{max-width:720px;margin:0 auto;display:flex;align-items:center;gap:0;overflow-x:auto;scrollbar-width:none}
 .gnav-inner::-webkit-scrollbar{display:none}
@@ -72,27 +69,143 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
 .gnav-link.active{color:var(--teal-t);border-bottom-color:var(--teal)}
 
 .s-updated{background:#e8e4fe;color:#4c3bc4}
-@media(prefers-color-scheme:dark){.s-updated{background:#2d2563;color:#b5abfa}}
-</style>
+
+/* Dark mode toggle */
+.gnav-toggle{margin-left:auto;flex-shrink:0;font-size:13px;padding:5px 10px;border:none;background:transparent;color:var(--t3);cursor:pointer;border-radius:6px;font-family:var(--fn);line-height:1}
+.gnav-toggle:hover{background:var(--bg2);color:var(--t1)}
+/* Manual dark override (toggle) */
+
+html.dark body{background:var(--bg3);color:var(--t1)}
+
+.global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
+.gnav-inner{max-width:720px;margin:0 auto;display:flex;align-items:center;gap:0;overflow-x:auto;scrollbar-width:none}
+.gnav-inner::-webkit-scrollbar{display:none}
+.gnav-home{font-size:13px;font-weight:600;color:var(--t1);text-decoration:none;padding:11px 14px 11px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:4px;flex-shrink:0}
+.gnav-home:hover{color:var(--teal-t)}
+.gnav-link{font-size:12px;font-weight:500;color:var(--t3);text-decoration:none;padding:11px 10px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
+.gnav-link:hover{color:var(--t1)}
+.gnav-link.active{color:var(--teal-t);border-bottom-color:var(--teal)}
+.gnav-toggle{margin-left:auto;flex-shrink:0;font-size:14px;padding:5px 10px;border:none;background:transparent;color:var(--t3);cursor:pointer;border-radius:6px;font-family:var(--fn);line-height:1}
+.gnav-toggle:hover{background:var(--bg2);color:var(--t1)}
+
+.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.5rem}
+.page-header-eyebrow{font-size:11px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-t);margin-bottom:.25rem}
+.page-header-title{font-size:24px;font-weight:700;color:var(--t1);line-height:1.2;letter-spacing:-.02em;margin-bottom:.2rem}
+.page-header-sub{font-size:13px;color:var(--t2);line-height:1.5}
+/* Remove old top-nav bubble gap */
+.top-nav{display:none!important}
+
+.s-updated{background:#e8e4fe;color:#4c3bc4}
+
+html.dark .s-updated{background:#2d2563;color:#b5abfa}
+
+.page{max-width:720px;margin:0 auto;padding:0 1rem}
+/* ensure page-header gets left padding from .page */
+.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.5rem}
+
+/* Layout */
+body{padding:0 0 2rem;margin:0}
+.page{max-width:720px;margin:0 auto;padding:0 1rem}
+.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.5rem}
+
+/* ════════════════════════════════════
+   THEME VARIABLES — What's Next for Erin
+   Light: Medium grey scale palette
+   Dark: Forest green palette
+   ════════════════════════════════════ */
+
+/* Light mode base */
+:root {
+  /* Grey scale (Medium palette) */
+  --bg:   #FAFAFA;   /* grey-50  — card white */
+  --bg2:  #F5F5F5;   /* grey-100 — subtle areas */
+  --bg3:  #EEEEEE;   /* grey-200 — page background */
+  --t1:   #212121;   /* grey-900 — primary text */
+  --t2:   #424242;   /* grey-800 — secondary text */
+  --t3:   #757575;   /* grey-600 — muted text */
+  --bd:   rgba(0,0,0,0.10);
+  --bds:  rgba(0,0,0,0.22);
+  /* Shared */
+  --r1:8px;--r2:12px;
+  --fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  /* Green accents (from original palette) */
+  --teal:#4e9836;--teal-bg:#eaf3e5;--teal-t:#3c7b20;
+  --blue:#3a7878;--blue-bg:#e5f0f0;
+  --amber:#8a6f00;--amber-bg:#f5f0db;--amber-t:#6b5500;
+  --red:#993c1d;--red-bg:#faece7;--red-t:#993c1d;
+  --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
+}
+
+/* System dark mode (auto) */
+@media(prefers-color-scheme:dark) {
+  :root {
+    --bg:#1c2018;--bg2:#242b1e;--bg3:#18201a;
+    --t1:#f0ede0;--t2:#c0c4a8;--t3:#9dc8c8;
+    --bd:rgba(157,200,200,0.15);--bds:rgba(157,200,200,0.28);
+    --teal-bg:#2a3d22;--teal-t:#8fc87a;
+    --blue-bg:#1e3535;--amber-bg:#3d3510;--amber-t:#d4c47a;
+    --red-bg:#3d1510;--red-t:#f5a490;
+    --purple-bg:#2d2563;--purple-t:#b5abfa;
+  }
+}
+
+/* Manual toggle — must come LAST so it overrides both :root and @media */
+html.dark {
+  --bg:#1c2018;--bg2:#242b1e;--bg3:#18201a;
+  --t1:#f0ede0;--t2:#c0c4a8;--t3:#9dc8c8;
+  --bd:rgba(157,200,200,0.15);--bds:rgba(157,200,200,0.28);
+  --teal-bg:#2a3d22;--teal-t:#8fc87a;
+  --blue-bg:#1e3535;--amber-bg:#3d3510;--amber-t:#d4c47a;
+  --red-bg:#3d1510;--red-t:#f5a490;
+  --purple-bg:#2d2563;--purple-t:#b5abfa;
+}
+/* Override light mode when .dark is set (belt AND suspenders) */
+html:not(.dark) {
+  --bg:#FAFAFA;--bg2:#F5F5F5;--bg3:#EEEEEE;
+  --t1:#212121;--t2:#424242;--t3:#757575;
+  --bd:rgba(0,0,0,0.10);--bds:rgba(0,0,0,0.22);
+  --teal-bg:#eaf3e5;--teal-t:#3c7b20;
+  --blue-bg:#e5f0f0;--amber-bg:#f5f0db;--amber-t:#6b5500;
+  --red-bg:#faece7;--red-t:#993c1d;
+  --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
+}</style>
+
+<script>
+(function(){
+  var saved=localStorage.getItem('erin_theme');
+  var prefersDark=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches;
+  if(saved==='dark'||(!saved&&prefersDark)) document.documentElement.classList.add('dark');
+  function upBtn(){var b=document.getElementById('theme-toggle');if(b)b.innerHTML=document.documentElement.classList.contains('dark')?'&#9728;':'&#127769;';}
+  document.addEventListener('DOMContentLoaded',upBtn);
+  window.__toggleTheme=function(){var d=document.documentElement.classList.toggle('dark');localStorage.setItem('erin_theme',d?'dark':'light');upBtn();};
+})();
+</script>
 </head>
 <body>
 
 <!-- GLOBAL NAV -->
 <nav class="global-nav">
   <div class="gnav-inner">
-    <a href="index.html" class="gnav-home">EL &#8594;</a>
+    <a href="index.html" class="gnav-home">&#127968; Home</a>
     <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
     <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
     <a href="erin_applications.html" class="gnav-link">&#128196; Applications</a>
     <a href="erin_proftracker.html" class="gnav-link">&#128100; Professors</a>
     <a href="erin_reftracker.html" class="gnav-link">&#128393; References</a>
     <a href="erin_outreach.html" class="gnav-link">&#9997;&#65039; Outreach</a>
+    <button class="gnav-toggle" id="theme-toggle" onclick="__toggleTheme()" title="Toggle dark/light">&#127769;</button>
   </div>
 </nav>
 
 <div class="page">
+
+<div class="page-header">
+  <div class="page-header-eyebrow">What's Next for Erin</div>
+  <div class="page-header-title">Internships</div>
+  <div class="page-header-sub">Current-cycle paid internship opportunities matched to Erin&rsquo;s background</div>
+</div>
+
 <div class="top-nav">
-  <a href="index.html" class="back-btn">&#8592; Home</a>
   <span class="pg-title">Internships</span>
 </div>
 
@@ -123,6 +236,57 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
 
 <!-- FEDERAL -->
 <div class="slabel">Federal agency internships</div>
+
+<div style="border:.5px solid var(--bd);border-left:4px solid #0f6e56;border-radius:var(--r2);padding:1.1rem 1.25rem;margin-bottom:1rem;background:var(--bg)">
+  <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:.5rem;margin-bottom:.5rem">
+    <div>
+      <div style="font-size:15px;font-weight:500;color:var(--t1)">Dauphin Island Sea Lab &mdash; BOATS Postbac Fellowship <span class="status-badge s-updated">&#10024; New May 2026</span></div>
+      <div style="font-size:12px;color:var(--t3);margin-top:2px">Dauphin Island, AL &middot; Mobile Bay estuary / northern Gulf of Mexico</div>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;gap:5px">
+      <span style="background:#e1f5ee;color:#0f6e56;font-size:11px;font-weight:700;padding:3px 10px;border-radius:999px">Open &mdash; apply by Aug 21, 2026</span>
+      <span style="background:#e6f1fb;color:#185fa5;font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px">Strong fit</span>
+    </div>
+  </div>
+  <div style="font-size:12px;color:var(--t2);margin-bottom:.5rem">
+    <strong>Application window:</strong> Open now &mdash; August 21, 2026 &nbsp;&middot;&nbsp; <strong>Program:</strong> January 4 &ndash; December 17, 2027 &nbsp;&middot;&nbsp; <strong>Stipend:</strong> $46,000 + housing + research funds
+  </div>
+  <div style="font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.65rem">
+    NSF-funded postbaccalaureate research fellowship at Alabama&rsquo;s premier marine science research center, located on a Gulf barrier island adjacent to Mobile Bay. One full year of immersive, mentored research in coastal and marine science. Faculty mentors include researchers in fisheries ecology (Dr. Sean Powers), marine ecology/restoration, microbial ecology, and coastal biogeochemistry. Eligibility: BS degree within past 2.5 years (Erin eligible through late 2027), minimum 3.0 GPA. Explicitly prioritizes underrepresented groups and graduates of lower-resourced institutions. Strong fit for Erin&rsquo;s aquatic/water quality background and goal of building credentials for graduate school. Apply at disl.edu/university-programs/boats/.
+  </div>
+  <div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:.65rem">
+    <span style="background:#e1f5ee;color:#0f6e56;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Marine &amp; coastal ecology</span>
+    <span style="background:#e1f5ee;color:#0f6e56;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Fisheries &amp; aquatic science</span>
+    <span style="background:#e6f1fb;color:#185fa5;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">$46K stipend + housing</span>
+    <span style="background:#faeeda;color:#854f0b;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Grad school preparation</span>
+  </div>
+  <div style="display:flex;gap:.75rem;flex-wrap:wrap;align-items:center">
+    <!-- ML_BTN_item-077 --><button class="ml-save-btn" data-id="item-077" data-item="{&quot;title&quot;:&quot;Dauphin Island Sea Lab — BOATS Postbac Fellowship&quot;,&quot;org&quot;:&quot;Dauphin Island, AL · Mobile Bay estuary / northern Gulf of Mexico&quot;,&quot;type&quot;:&quot;Internship&quot;,&quot;cat&quot;:&quot;Internships&quot;,&quot;src&quot;:&quot;erin_internships.html&quot;,&quot;src_label&quot;:&quot;Internships&quot;,&quot;deadline&quot;:&quot;Application window open March 30 – August 21, 2026; program Jan 4 – Dec 17, 2027&quot;,&quot;start&quot;:&quot;January 4, 2027&quot;,&quot;body&quot;:&quot;NSF-funded postbac fellowship at Dauphin Island Sea Lab. $46K stipend + housing + research funds. One year of mentored research in coastal/marine science. Eligible within 2.5 years of BS degree. Priority for underrepresented groups and lower-resourced institutions. Apply at disl.edu/university-programs/boats/&quot;,&quot;badge&quot;:&quot;Open — apply by August 21, 2026&quot;,&quot;pills&quot;:[&quot;Marine & coastal ecology&quot;,&quot;Fisheries & aquatic science&quot;,&quot;$46K stipend + housing&quot;,&quot;Grad school preparation&quot;],&quot;id&quot;:&quot;item-077&quot;}">&#9734; Save to My List</button>
+    <a href="https://www.disl.edu/university-programs/boats/" target="_blank" style="font-size:12px;color:var(--blue)">Apply at DISL website &#8594;</a>
+  </div>
+</div>
+
+
+<div style="border:.5px solid var(--bd);border-radius:var(--r2);padding:1.1rem 1.25rem;margin-bottom:1rem;background:var(--bg)">
+  <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:.5rem;margin-bottom:.5rem">
+    <div>
+      <div style="font-size:15px;font-weight:500;color:var(--t1)">Dauphin Island Sea Lab &mdash; Fisheries Ecology Lab Internship (Dr. Sean Powers) <span class="status-badge s-updated">&#10024; New May 2026</span></div>
+      <div style="font-size:12px;color:var(--t3);margin-top:2px">Dauphin Island, AL &middot; Mobile Bay / Gulf of Mexico</div>
+    </div>
+    <span style="background:#e1f5ee;color:#0f6e56;font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px">Rolling &mdash; contact lab directly</span>
+  </div>
+  <div style="font-size:12px;color:var(--t2);margin-bottom:.5rem"><strong>Commitment:</strong> Prefer 6-month minimum &nbsp;&middot;&nbsp; <strong>Compensation:</strong> Paid &nbsp;&middot;&nbsp; <strong>Available:</strong> Throughout 2026 field season</div>
+  <div style="font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.65rem">
+    Paid rolling internships in Dr. Sean Powers&rsquo; Fisheries Ecology Lab. Projects involve fish (bony fishes, sharks, rays) and shellfish in Mobile Bay and Gulf waters — sampling techniques, fisheries data collection, and lab processing. Preference for 6-month+ commitment. Access to the DISL research network, which is a feeder into the BOATS fellowship above. Apply directly through disl.edu/about/internships/.
+  </div>
+  <div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:.65rem">
+    <span style="background:#e1f5ee;color:#0f6e56;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Fisheries ecology</span>
+    <span style="background:#e1f5ee;color:#0f6e56;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Mobile Bay estuary</span>
+    <span style="background:#faeeda;color:#854f0b;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Rolling hire</span>
+  </div>
+  <!-- ML_BTN_item-078 --><button class="ml-save-btn" data-id="item-078" data-item="{&quot;title&quot;:&quot;Dauphin Island Sea Lab — Fisheries Ecology Lab Internship (Dr. Sean Powers)&quot;,&quot;org&quot;:&quot;Dauphin Island, AL · Mobile Bay / Gulf of Mexico&quot;,&quot;type&quot;:&quot;Internship&quot;,&quot;cat&quot;:&quot;Internships&quot;,&quot;src&quot;:&quot;erin_internships.html&quot;,&quot;src_label&quot;:&quot;Internships&quot;,&quot;deadline&quot;:&quot;Rolling — preference for 6-month commitment; available throughout 2026 field season&quot;,&quot;start&quot;:&quot;&quot;,&quot;body&quot;:&quot;Paid rolling internship in Dr. Sean Powers' Fisheries Ecology Lab at DISL. Projects: fish and shellfish in Mobile Bay and Gulf of Mexico waters. Sampling techniques, data collection, lab processing. Prefer 6-month+ commitment. Apply at disl.edu/about/internships/&quot;,&quot;badge&quot;:&quot;Rolling — contact lab directly&quot;,&quot;pills&quot;:[&quot;Fisheries ecology&quot;,&quot;Mobile Bay estuary&quot;,&quot;Coastal aquatic science&quot;],&quot;id&quot;:&quot;item-078&quot;}">&#9734; Save to My List</button>
+</div>
+
 
 <!-- USGS SAWSC -->
 <div class="pos-card hot">
@@ -520,6 +684,7 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
 <hr>
 
 <!-- SEARCH LINKS -->
+
 <div class="slabel">Search resources &amp; job boards</div>
 <div class="card">
   <a class="rl" href="https://www.usajobs.gov/Search/Results?hp=student&k=environmental+science+wetlands+water">&#128269;&nbsp; USAJobs &mdash; federal student internships: environmental science &amp; water</a>
@@ -534,55 +699,6 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
   <a class="rl" href="https://www.environmentalscience.org/internships">&#128269;&nbsp; EnvironmentalScience.org &mdash; comprehensive internship guide by agency</a>
 </div>
 
-
-<div style="border:.5px solid var(--bd);border-left:4px solid #0f6e56;border-radius:var(--r2);padding:1.1rem 1.25rem;margin-bottom:1rem;background:var(--bg)">
-  <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:.5rem;margin-bottom:.5rem">
-    <div>
-      <div style="font-size:15px;font-weight:500;color:var(--t1)">Dauphin Island Sea Lab &mdash; BOATS Postbac Fellowship <span class="status-badge s-updated">&#10024; New May 2026</span></div>
-      <div style="font-size:12px;color:var(--t3);margin-top:2px">Dauphin Island, AL &middot; Mobile Bay estuary / northern Gulf of Mexico</div>
-    </div>
-    <div style="display:flex;flex-wrap:wrap;gap:5px">
-      <span style="background:#e1f5ee;color:#0f6e56;font-size:11px;font-weight:700;padding:3px 10px;border-radius:999px">Open &mdash; apply by Aug 21, 2026</span>
-      <span style="background:#e6f1fb;color:#185fa5;font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px">Strong fit</span>
-    </div>
-  </div>
-  <div style="font-size:12px;color:var(--t2);margin-bottom:.5rem">
-    <strong>Application window:</strong> Open now &mdash; August 21, 2026 &nbsp;&middot;&nbsp; <strong>Program:</strong> January 4 &ndash; December 17, 2027 &nbsp;&middot;&nbsp; <strong>Stipend:</strong> $46,000 + housing + research funds
-  </div>
-  <div style="font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.65rem">
-    NSF-funded postbaccalaureate research fellowship at Alabama&rsquo;s premier marine science research center, located on a Gulf barrier island adjacent to Mobile Bay. One full year of immersive, mentored research in coastal and marine science. Faculty mentors include researchers in fisheries ecology (Dr. Sean Powers), marine ecology/restoration, microbial ecology, and coastal biogeochemistry. Eligibility: BS degree within past 2.5 years (Erin eligible through late 2027), minimum 3.0 GPA. Explicitly prioritizes underrepresented groups and graduates of lower-resourced institutions. Strong fit for Erin&rsquo;s aquatic/water quality background and goal of building credentials for graduate school. Apply at disl.edu/university-programs/boats/.
-  </div>
-  <div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:.65rem">
-    <span style="background:#e1f5ee;color:#0f6e56;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Marine &amp; coastal ecology</span>
-    <span style="background:#e1f5ee;color:#0f6e56;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Fisheries &amp; aquatic science</span>
-    <span style="background:#e6f1fb;color:#185fa5;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">$46K stipend + housing</span>
-    <span style="background:#faeeda;color:#854f0b;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Grad school preparation</span>
-  </div>
-  <div style="display:flex;gap:.75rem;flex-wrap:wrap;align-items:center">
-    <!-- ML_BTN_item-077 --><button class="ml-save-btn" data-id="item-077" data-item="{&quot;title&quot;:&quot;Dauphin Island Sea Lab — BOATS Postbac Fellowship&quot;,&quot;org&quot;:&quot;Dauphin Island, AL · Mobile Bay estuary / northern Gulf of Mexico&quot;,&quot;type&quot;:&quot;Internship&quot;,&quot;cat&quot;:&quot;Internships&quot;,&quot;src&quot;:&quot;erin_internships.html&quot;,&quot;src_label&quot;:&quot;Internships&quot;,&quot;deadline&quot;:&quot;Application window open March 30 – August 21, 2026; program Jan 4 – Dec 17, 2027&quot;,&quot;start&quot;:&quot;January 4, 2027&quot;,&quot;body&quot;:&quot;NSF-funded postbac fellowship at Dauphin Island Sea Lab. $46K stipend + housing + research funds. One year of mentored research in coastal/marine science. Eligible within 2.5 years of BS degree. Priority for underrepresented groups and lower-resourced institutions. Apply at disl.edu/university-programs/boats/&quot;,&quot;badge&quot;:&quot;Open — apply by August 21, 2026&quot;,&quot;pills&quot;:[&quot;Marine & coastal ecology&quot;,&quot;Fisheries & aquatic science&quot;,&quot;$46K stipend + housing&quot;,&quot;Grad school preparation&quot;],&quot;id&quot;:&quot;item-077&quot;}">&#9734; Save to My List</button>
-    <a href="https://www.disl.edu/university-programs/boats/" target="_blank" style="font-size:12px;color:var(--blue)">Apply at DISL website &#8594;</a>
-  </div>
-</div>
-
-<div style="border:.5px solid var(--bd);border-radius:var(--r2);padding:1.1rem 1.25rem;margin-bottom:1rem;background:var(--bg)">
-  <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:.5rem;margin-bottom:.5rem">
-    <div>
-      <div style="font-size:15px;font-weight:500;color:var(--t1)">Dauphin Island Sea Lab &mdash; Fisheries Ecology Lab Internship (Dr. Sean Powers) <span class="status-badge s-updated">&#10024; New May 2026</span></div>
-      <div style="font-size:12px;color:var(--t3);margin-top:2px">Dauphin Island, AL &middot; Mobile Bay / Gulf of Mexico</div>
-    </div>
-    <span style="background:#e1f5ee;color:#0f6e56;font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px">Rolling &mdash; contact lab directly</span>
-  </div>
-  <div style="font-size:12px;color:var(--t2);margin-bottom:.5rem"><strong>Commitment:</strong> Prefer 6-month minimum &nbsp;&middot;&nbsp; <strong>Compensation:</strong> Paid &nbsp;&middot;&nbsp; <strong>Available:</strong> Throughout 2026 field season</div>
-  <div style="font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.65rem">
-    Paid rolling internships in Dr. Sean Powers&rsquo; Fisheries Ecology Lab. Projects involve fish (bony fishes, sharks, rays) and shellfish in Mobile Bay and Gulf waters — sampling techniques, fisheries data collection, and lab processing. Preference for 6-month+ commitment. Access to the DISL research network, which is a feeder into the BOATS fellowship above. Apply directly through disl.edu/about/internships/.
-  </div>
-  <div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:.65rem">
-    <span style="background:#e1f5ee;color:#0f6e56;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Fisheries ecology</span>
-    <span style="background:#e1f5ee;color:#0f6e56;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Mobile Bay estuary</span>
-    <span style="background:#faeeda;color:#854f0b;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Rolling hire</span>
-  </div>
-  <!-- ML_BTN_item-078 --><button class="ml-save-btn" data-id="item-078" data-item="{&quot;title&quot;:&quot;Dauphin Island Sea Lab — Fisheries Ecology Lab Internship (Dr. Sean Powers)&quot;,&quot;org&quot;:&quot;Dauphin Island, AL · Mobile Bay / Gulf of Mexico&quot;,&quot;type&quot;:&quot;Internship&quot;,&quot;cat&quot;:&quot;Internships&quot;,&quot;src&quot;:&quot;erin_internships.html&quot;,&quot;src_label&quot;:&quot;Internships&quot;,&quot;deadline&quot;:&quot;Rolling — preference for 6-month commitment; available throughout 2026 field season&quot;,&quot;start&quot;:&quot;&quot;,&quot;body&quot;:&quot;Paid rolling internship in Dr. Sean Powers' Fisheries Ecology Lab at DISL. Projects: fish and shellfish in Mobile Bay and Gulf of Mexico waters. Sampling techniques, data collection, lab processing. Prefer 6-month+ commitment. Apply at disl.edu/about/internships/&quot;,&quot;badge&quot;:&quot;Rolling — contact lab directly&quot;,&quot;pills&quot;:[&quot;Fisheries ecology&quot;,&quot;Mobile Bay estuary&quot;,&quot;Coastal aquatic science&quot;],&quot;id&quot;:&quot;item-078&quot;}">&#9734; Save to My List</button>
-</div>
 
 <p class="footer">Listings verified May 2026. Internship availability changes rapidly &mdash; verify all positions directly. Federal positions especially fill quickly after posting. Apply as soon as positions open.<br><br><a href="index.html" style="color:#185fa5">&#8592; Back to home</a></p>
 </div>

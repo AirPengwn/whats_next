@@ -3,13 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Erin Lamberton &#8212; My Opportunity List</title>
+<title>My Opportunity List — What's Next for Erin</title>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{--bg:#fff;--bg2:#f5f5f3;--bg3:#eeede8;--t1:#1a1a18;--t2:#5f5e5a;--t3:#888780;--bd:rgba(0,0,0,0.12);--bds:rgba(0,0,0,0.22);--r1:8px;--r2:12px;--fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;--teal:#5dcaa5;--teal-bg:#e1f5ee;--teal-t:#0f6e56;--blue:#185fa5;--blue-bg:#e6f1fb;--amber-bg:#faeeda;--amber-t:#854f0b}
-@media(prefers-color-scheme:dark){:root{--bg:#1e1e1c;--bg2:#2a2a28;--bg3:#333330;--t1:#f0ede6;--t2:#b4b2a9;--t3:#888780;--bd:rgba(255,255,255,0.1);--bds:rgba(255,255,255,0.2);--teal-bg:#085041;--teal-t:#9fe1cb;--blue-bg:#0c447c;--amber-bg:#633806;--amber-t:#fac775}}
-body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem}
-.page{max-width:720px;margin:0 autopadding:0 1rem}
+
+body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem;}
 a{color:var(--blue);text-decoration:none}
 a:hover{text-decoration:underline}
 .top-nav{display:flex;align-items:center;gap:12px;margin-bottom:1.5rem}
@@ -48,7 +46,7 @@ a:hover{text-decoration:underline}
 .ip-job{background:#eeedfe;color:#534ab7}
 .ip-service{background:var(--amber-bg);color:var(--amber-t)}
 .ip-next{background:var(--bg2);color:var(--t3);border:.5px solid var(--bd)}
-@media(prefers-color-scheme:dark){.ip-job{background:#3c3489;color:#cecdfa}}
+
 .item-meta{display:flex;flex-wrap:wrap;gap:4px 16px;margin-bottom:.4rem;font-size:12px;color:var(--t2)}
 .im-lbl{font-weight:500;color:var(--t1)}
 .body-text{font-size:12px;color:var(--t2);line-height:1.6;margin-bottom:.45rem;display:none}
@@ -87,7 +85,6 @@ a:hover{text-decoration:underline}
 .empty-body{font-size:13px;color:var(--t2);line-height:1.65}
 .footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
 
-/* ── GLOBAL NAV ── */
 .global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
 .gnav-inner{max-width:720px;margin:0 auto;display:flex;align-items:center;gap:0;overflow-x:auto;scrollbar-width:none}
 .gnav-inner::-webkit-scrollbar{display:none}
@@ -98,28 +95,144 @@ a:hover{text-decoration:underline}
 .gnav-link.active{color:var(--teal-t);border-bottom-color:var(--teal)}
 
 .s-updated{background:#e8e4fe;color:#4c3bc4}
-@media(prefers-color-scheme:dark){.s-updated{background:#2d2563;color:#b5abfa}}
-</style>
+
+/* Dark mode toggle */
+.gnav-toggle{margin-left:auto;flex-shrink:0;font-size:13px;padding:5px 10px;border:none;background:transparent;color:var(--t3);cursor:pointer;border-radius:6px;font-family:var(--fn);line-height:1}
+.gnav-toggle:hover{background:var(--bg2);color:var(--t1)}
+/* Manual dark override (toggle) */
+
+html.dark body{background:var(--bg3);color:var(--t1)}
+
+.global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
+.gnav-inner{max-width:720px;margin:0 auto;display:flex;align-items:center;gap:0;overflow-x:auto;scrollbar-width:none}
+.gnav-inner::-webkit-scrollbar{display:none}
+.gnav-home{font-size:13px;font-weight:600;color:var(--t1);text-decoration:none;padding:11px 14px 11px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:4px;flex-shrink:0}
+.gnav-home:hover{color:var(--teal-t)}
+.gnav-link{font-size:12px;font-weight:500;color:var(--t3);text-decoration:none;padding:11px 10px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
+.gnav-link:hover{color:var(--t1)}
+.gnav-link.active{color:var(--teal-t);border-bottom-color:var(--teal)}
+.gnav-toggle{margin-left:auto;flex-shrink:0;font-size:14px;padding:5px 10px;border:none;background:transparent;color:var(--t3);cursor:pointer;border-radius:6px;font-family:var(--fn);line-height:1}
+.gnav-toggle:hover{background:var(--bg2);color:var(--t1)}
+
+.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.5rem}
+.page-header-eyebrow{font-size:11px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-t);margin-bottom:.25rem}
+.page-header-title{font-size:24px;font-weight:700;color:var(--t1);line-height:1.2;letter-spacing:-.02em;margin-bottom:.2rem}
+.page-header-sub{font-size:13px;color:var(--t2);line-height:1.5}
+/* Remove old top-nav bubble gap */
+.top-nav{display:none!important}
+
+.s-updated{background:#e8e4fe;color:#4c3bc4}
+
+html.dark .s-updated{background:#2d2563;color:#b5abfa}
+
+.page{max-width:720px;margin:0 auto;padding:0 1rem}
+/* ensure page-header gets left padding from .page */
+.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.5rem}
+
+/* Layout */
+body{padding:0 0 2rem;margin:0}
+.page{max-width:720px;margin:0 auto;padding:0 1rem}
+.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.5rem}
+
+/* ════════════════════════════════════
+   THEME VARIABLES — What's Next for Erin
+   Light: Medium grey scale palette
+   Dark: Forest green palette
+   ════════════════════════════════════ */
+
+/* Light mode base */
+:root {
+  /* Grey scale (Medium palette) */
+  --bg:   #FAFAFA;   /* grey-50  — card white */
+  --bg2:  #F5F5F5;   /* grey-100 — subtle areas */
+  --bg3:  #EEEEEE;   /* grey-200 — page background */
+  --t1:   #212121;   /* grey-900 — primary text */
+  --t2:   #424242;   /* grey-800 — secondary text */
+  --t3:   #757575;   /* grey-600 — muted text */
+  --bd:   rgba(0,0,0,0.10);
+  --bds:  rgba(0,0,0,0.22);
+  /* Shared */
+  --r1:8px;--r2:12px;
+  --fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  /* Green accents (from original palette) */
+  --teal:#4e9836;--teal-bg:#eaf3e5;--teal-t:#3c7b20;
+  --blue:#3a7878;--blue-bg:#e5f0f0;
+  --amber:#8a6f00;--amber-bg:#f5f0db;--amber-t:#6b5500;
+  --red:#993c1d;--red-bg:#faece7;--red-t:#993c1d;
+  --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
+}
+
+/* System dark mode (auto) */
+@media(prefers-color-scheme:dark) {
+  :root {
+    --bg:#1c2018;--bg2:#242b1e;--bg3:#18201a;
+    --t1:#f0ede0;--t2:#c0c4a8;--t3:#9dc8c8;
+    --bd:rgba(157,200,200,0.15);--bds:rgba(157,200,200,0.28);
+    --teal-bg:#2a3d22;--teal-t:#8fc87a;
+    --blue-bg:#1e3535;--amber-bg:#3d3510;--amber-t:#d4c47a;
+    --red-bg:#3d1510;--red-t:#f5a490;
+    --purple-bg:#2d2563;--purple-t:#b5abfa;
+  }
+}
+
+/* Manual toggle — must come LAST so it overrides both :root and @media */
+html.dark {
+  --bg:#1c2018;--bg2:#242b1e;--bg3:#18201a;
+  --t1:#f0ede0;--t2:#c0c4a8;--t3:#9dc8c8;
+  --bd:rgba(157,200,200,0.15);--bds:rgba(157,200,200,0.28);
+  --teal-bg:#2a3d22;--teal-t:#8fc87a;
+  --blue-bg:#1e3535;--amber-bg:#3d3510;--amber-t:#d4c47a;
+  --red-bg:#3d1510;--red-t:#f5a490;
+  --purple-bg:#2d2563;--purple-t:#b5abfa;
+}
+/* Override light mode when .dark is set (belt AND suspenders) */
+html:not(.dark) {
+  --bg:#FAFAFA;--bg2:#F5F5F5;--bg3:#EEEEEE;
+  --t1:#212121;--t2:#424242;--t3:#757575;
+  --bd:rgba(0,0,0,0.10);--bds:rgba(0,0,0,0.22);
+  --teal-bg:#eaf3e5;--teal-t:#3c7b20;
+  --blue-bg:#e5f0f0;--amber-bg:#f5f0db;--amber-t:#6b5500;
+  --red-bg:#faece7;--red-t:#993c1d;
+  --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
+}</style>
+
+<script>
+(function(){
+  var saved=localStorage.getItem('erin_theme');
+  var prefersDark=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches;
+  if(saved==='dark'||(!saved&&prefersDark)) document.documentElement.classList.add('dark');
+  function upBtn(){var b=document.getElementById('theme-toggle');if(b)b.innerHTML=document.documentElement.classList.contains('dark')?'&#9728;':'&#127769;';}
+  document.addEventListener('DOMContentLoaded',upBtn);
+  window.__toggleTheme=function(){var d=document.documentElement.classList.toggle('dark');localStorage.setItem('erin_theme',d?'dark':'light');upBtn();};
+})();
+</script>
 </head>
 <body>
 
 <!-- GLOBAL NAV -->
 <nav class="global-nav">
   <div class="gnav-inner">
-    <a href="index.html" class="gnav-home">EL &#8594;</a>
+    <a href="index.html" class="gnav-home">&#127968; Home</a>
     <a href="erin_mylist.html" class="gnav-link active">&#9733; My List</a>
     <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
     <a href="erin_applications.html" class="gnav-link">&#128196; Applications</a>
     <a href="erin_proftracker.html" class="gnav-link">&#128100; Professors</a>
     <a href="erin_reftracker.html" class="gnav-link">&#128393; References</a>
     <a href="erin_outreach.html" class="gnav-link">&#9997;&#65039; Outreach</a>
+    <button class="gnav-toggle" id="theme-toggle" onclick="__toggleTheme()" title="Toggle dark/light">&#127769;</button>
   </div>
 </nav>
 
 <div class="page">
 
+
+<div class="page-header">
+  <div class="page-header-eyebrow">What's Next for Erin</div>
+  <div class="page-header-title">My Opportunity List</div>
+  <div class="page-header-sub">Your saved programs, internships, jobs, and service positions</div>
+</div>
+
 <div class="top-nav">
-  <a href="index.html" class="back-btn">&#8592; Home</a>
   <span class="pg-title">My Opportunity List</span>
 </div>
 

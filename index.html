@@ -3,13 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Erin Lamberton — Career & Graduate School Resource Hub</title>
+<title>What&#8217;s Next for Erin &#8212; Career &amp; Graduate School Hub</title>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{--bg:#fff;--bg2:#f5f5f3;--bg3:#eeede8;--t1:#1a1a18;--t2:#5f5e5a;--t3:#888780;--bd:rgba(0,0,0,0.12);--bds:rgba(0,0,0,0.22);--r1:8px;--r2:12px;--fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
-@media(prefers-color-scheme:dark){:root{--bg:#1e1e1c;--bg2:#2a2a28;--bg3:#333330;--t1:#f0ede6;--t2:#b4b2a9;--t3:#888780;--bd:rgba(255,255,255,0.1);--bds:rgba(255,255,255,0.2)}}
-body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:2rem 1rem}
-.page{max-width:720px;margin:0 auto}
+
+body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem}
 .slabel{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin-bottom:.75rem}
 .card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1.25rem;margin-bottom:1rem}
 hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
@@ -36,22 +34,137 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
 .b-teal{background:#e1f5ee;color:#0f6e56}
 .b-blue{background:#e6f1fb;color:#185fa5}
 .b-amber{background:#faeeda;color:#854f0b}
-@media(prefers-color-scheme:dark){.b-teal{background:#085041;color:#9fe1cb}.b-blue{background:#0c447c;color:#b5d4f4}.b-amber{background:#633806;color:#fac775}}
+
 .outreach-btn{display:flex;align-items:center;gap:1rem;background:var(--bg);border:2px solid #185fa5;border-radius:var(--r2);padding:1rem 1.25rem;text-decoration:none;color:var(--t1);margin-top:12px;transition:background .12s}
 .outreach-btn:hover{background:#e6f1fb}
-@media(prefers-color-scheme:dark){.outreach-btn:hover{background:#0c447c}}
+
 .outreach-title{font-size:14px;font-weight:500;color:var(--t1);margin-bottom:2px}
 .outreach-desc{font-size:12px;color:var(--t3);line-height:1.4}
 .outreach-arrow{font-size:18px;color:#185fa5;margin-left:auto;flex-shrink:0}
 .outreach-banner{display:flex;align-items:center;gap:1rem;background:#e6f1fb;border:2px solid #185fa5;border-radius:var(--r2);padding:1rem 1.25rem;text-decoration:none;color:var(--t1);margin-top:12px;transition:background .12s}
 .outreach-banner:hover{background:#cce0f5}
-@media(prefers-color-scheme:dark){.outreach-banner{background:#0c3a6e;border-color:#4d9de0}.outreach-banner:hover{background:#0a4f8c}}
+
 .footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
 @media(max-width:520px){.stats{grid-template-columns:repeat(2,1fr)}.nav-grid{grid-template-columns:1fr}}
-</style>
+
+.global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
+.gnav-inner{max-width:720px;margin:0 auto;display:flex;align-items:center;gap:0;overflow-x:auto;scrollbar-width:none}
+.gnav-inner::-webkit-scrollbar{display:none}
+.gnav-home{font-size:13px;font-weight:600;color:var(--t1);text-decoration:none;padding:11px 14px 11px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:4px;flex-shrink:0}
+.gnav-home:hover{color:#0f6e56}
+.gnav-link{font-size:12px;font-weight:500;color:var(--t3);text-decoration:none;padding:11px 10px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
+.gnav-link:hover{color:var(--t1)}
+.gnav-link.active{color:#0f6e56;border-bottom-color:#5dcaa5}
+.gnav-toggle{margin-left:auto;flex-shrink:0;font-size:14px;padding:5px 10px;border:none;background:transparent;color:var(--t3);cursor:pointer;border-radius:6px;font-family:var(--fn);line-height:1}
+.gnav-toggle:hover{background:var(--bg2);color:var(--t1)}
+.site-title-banner{padding:1.5rem 0 .85rem}
+.site-eyebrow{font-size:11px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--t3);margin-bottom:.3rem}
+.site-headline{font-size:30px;font-weight:700;color:var(--t1);line-height:1.2;margin-bottom:.3rem;letter-spacing:-.02em}
+.site-subhead{font-size:13px;color:var(--t2);line-height:1.55}
+
+.page{max-width:720px;margin:0 auto;padding:0 1rem}
+/* ensure page-header gets left padding from .page */
+.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.5rem}
+
+/* Layout */
+body{padding:0 0 2rem;margin:0}
+.page{max-width:720px;margin:0 auto;padding:0 1rem}
+.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.5rem}
+
+/* ════════════════════════════════════
+   THEME VARIABLES — What's Next for Erin
+   Light: Medium grey scale palette
+   Dark: Forest green palette
+   ════════════════════════════════════ */
+
+/* Light mode base */
+:root {
+  /* Grey scale (Medium palette) */
+  --bg:   #FAFAFA;   /* grey-50  — card white */
+  --bg2:  #F5F5F5;   /* grey-100 — subtle areas */
+  --bg3:  #EEEEEE;   /* grey-200 — page background */
+  --t1:   #212121;   /* grey-900 — primary text */
+  --t2:   #424242;   /* grey-800 — secondary text */
+  --t3:   #757575;   /* grey-600 — muted text */
+  --bd:   rgba(0,0,0,0.10);
+  --bds:  rgba(0,0,0,0.22);
+  /* Shared */
+  --r1:8px;--r2:12px;
+  --fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  /* Green accents (from original palette) */
+  --teal:#4e9836;--teal-bg:#eaf3e5;--teal-t:#3c7b20;
+  --blue:#3a7878;--blue-bg:#e5f0f0;
+  --amber:#8a6f00;--amber-bg:#f5f0db;--amber-t:#6b5500;
+  --red:#993c1d;--red-bg:#faece7;--red-t:#993c1d;
+  --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
+}
+
+/* System dark mode (auto) */
+@media(prefers-color-scheme:dark) {
+  :root {
+    --bg:#1c2018;--bg2:#242b1e;--bg3:#18201a;
+    --t1:#f0ede0;--t2:#c0c4a8;--t3:#9dc8c8;
+    --bd:rgba(157,200,200,0.15);--bds:rgba(157,200,200,0.28);
+    --teal-bg:#2a3d22;--teal-t:#8fc87a;
+    --blue-bg:#1e3535;--amber-bg:#3d3510;--amber-t:#d4c47a;
+    --red-bg:#3d1510;--red-t:#f5a490;
+    --purple-bg:#2d2563;--purple-t:#b5abfa;
+  }
+}
+
+/* Manual toggle — must come LAST so it overrides both :root and @media */
+html.dark {
+  --bg:#1c2018;--bg2:#242b1e;--bg3:#18201a;
+  --t1:#f0ede0;--t2:#c0c4a8;--t3:#9dc8c8;
+  --bd:rgba(157,200,200,0.15);--bds:rgba(157,200,200,0.28);
+  --teal-bg:#2a3d22;--teal-t:#8fc87a;
+  --blue-bg:#1e3535;--amber-bg:#3d3510;--amber-t:#d4c47a;
+  --red-bg:#3d1510;--red-t:#f5a490;
+  --purple-bg:#2d2563;--purple-t:#b5abfa;
+}
+/* Override light mode when .dark is set (belt AND suspenders) */
+html:not(.dark) {
+  --bg:#FAFAFA;--bg2:#F5F5F5;--bg3:#EEEEEE;
+  --t1:#212121;--t2:#424242;--t3:#757575;
+  --bd:rgba(0,0,0,0.10);--bds:rgba(0,0,0,0.22);
+  --teal-bg:#eaf3e5;--teal-t:#3c7b20;
+  --blue-bg:#e5f0f0;--amber-bg:#f5f0db;--amber-t:#6b5500;
+  --red-bg:#faece7;--red-t:#993c1d;
+  --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
+}</style>
+<script>
+(function(){
+  var saved=localStorage.getItem('erin_theme');
+  var prefersDark=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches;
+  if(saved==='dark'||(!saved&&prefersDark)) document.documentElement.classList.add('dark');
+  function upBtn(){var b=document.getElementById('theme-toggle');if(b)b.innerHTML=document.documentElement.classList.contains('dark')?'&#9728;':'&#127769;';}
+  document.addEventListener('DOMContentLoaded',upBtn);
+  window.__toggleTheme=function(){var d=document.documentElement.classList.toggle('dark');localStorage.setItem('erin_theme',d?'dark':'light');upBtn();};
+})();
+</script>
 </head>
 <body>
+<!-- GLOBAL NAV -->
+<nav class="global-nav">
+  <div class="gnav-inner">
+    <a href="index.html" class="gnav-home">&#127968; Home</a>
+    <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
+    <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
+    <a href="erin_applications.html" class="gnav-link">&#128196; Applications</a>
+    <a href="erin_proftracker.html" class="gnav-link">&#128100; Professors</a>
+    <a href="erin_reftracker.html" class="gnav-link">&#128393; References</a>
+    <a href="erin_outreach.html" class="gnav-link">&#9997;&#65039; Outreach</a>
+    <button class="gnav-toggle" id="theme-toggle" onclick="__toggleTheme()" title="Toggle dark/light">&#127769;</button>
+  </div>
+</nav>
+
 <div class="page">
+
+<div class="site-title-banner">
+  <div class="site-eyebrow">Career &amp; Graduate School Planning</div>
+  <div class="site-headline">What&rsquo;s Next for Erin</div>
+  <div class="site-subhead">A personalized resource hub &mdash; programs, internships, jobs &amp; trackers built for Erin Lamberton &middot; BS Environmental Science, WCU &rsquo;25 &middot; Magna Cum Laude</div>
+</div>
 
 <div class="hero">
   <div class="ph">
@@ -138,6 +251,11 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
     <span class="nav-icon">&#128393;</span>
     <div class="nav-title">Reference letter tracker</div>
     <div class="nav-desc">Manage recommenders — status, materials sent, deadlines, and notes</div>
+  </a>
+  <a href="erin_applications.html" class="nav-btn">
+    <span class="nav-icon">&#128196;</span>
+    <div class="nav-title">Application tracker</div>
+    <div class="nav-desc">Track every application &mdash; status, portal, materials checklist, and decision</div>
   </a>
 </div>
 
