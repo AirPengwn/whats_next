@@ -65,7 +65,15 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
 .gnav-link:hover{color:var(--t1)}
 .gnav-link.active{color:var(--teal-t);border-bottom-color:var(--teal)}
 
-.s-updated{background:#e8e4fe;color:#4c3bc4}
+.s-updated{
+  display:inline-flex;align-items:center;gap:5px;
+  background:#4c3bc4;color:#fff;
+  font-size:11px;font-weight:700;
+  padding:3px 10px;border-radius:999px;
+  letter-spacing:.03em;white-space:nowrap;
+  vertical-align:middle;margin-left:0
+}
+html.dark .s-updated{background:#6d5fe0;color:#fff}
 
 /* Dark mode toggle */
 .gnav-toggle{margin-left:auto;flex-shrink:0;font-size:13px;padding:5px 10px;border:none;background:transparent;color:var(--t3);cursor:pointer;border-radius:6px;font-family:var(--fn);line-height:1}
@@ -92,7 +100,15 @@ html.dark body{background:var(--bg3);color:var(--t1)}
 /* Remove old top-nav bubble gap */
 .top-nav{display:none!important}
 
-.s-updated{background:#e8e4fe;color:#4c3bc4}
+.s-updated{
+  display:inline-flex;align-items:center;gap:5px;
+  background:#4c3bc4;color:#fff;
+  font-size:11px;font-weight:700;
+  padding:3px 10px;border-radius:999px;
+  letter-spacing:.03em;white-space:nowrap;
+  vertical-align:middle;margin-left:0
+}
+html.dark .s-updated{background:#6d5fe0;color:#fff}
 
 html.dark .s-updated{background:#2d2563;color:#b5abfa}
 
@@ -220,7 +236,7 @@ html:not(.dark) {
 <div style="border:.5px solid var(--bd);border-radius:var(--r2);padding:1.1rem 1.25rem;margin-bottom:1rem;background:var(--bg)">
   <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:.5rem;margin-bottom:.5rem">
     <div>
-      <div style="font-size:15px;font-weight:500;color:var(--t1)">Alabama A&amp;M University &mdash; Longleaf Pine Ecology MS <span class="status-badge s-updated">&#10024; New May 2026</span></div>
+      <div style="font-size:15px;font-weight:500;color:var(--t1)"><span class="status-badge s-updated">&#10024; New &mdash; May 16, 2026</span> Alabama A&amp;M University &mdash; Longleaf Pine Ecology MS </div>
       <div style="font-size:12px;color:var(--t3);margin-top:2px">Huntsville, AL &middot; Department of Forestry</div>
     </div>
     <span style="background:#faeeda;color:#854f0b;font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px">Contact directly</span>
@@ -241,7 +257,7 @@ html:not(.dark) {
 <div style="border:.5px solid var(--bd);border-radius:var(--r2);padding:1.1rem 1.25rem;margin-bottom:1rem;background:var(--bg)">
   <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:.5rem;margin-bottom:.5rem">
     <div>
-      <div style="font-size:15px;font-weight:500;color:var(--t1)">University of Arkansas &mdash; Water Quality / Stream Biogeochemistry (PhD) <span class="status-badge s-updated">&#10024; New May 2026</span></div>
+      <div style="font-size:15px;font-weight:500;color:var(--t1)"><span class="status-badge s-updated">&#10024; New &mdash; May 16, 2026</span> University of Arkansas &mdash; Water Quality / Stream Biogeochemistry (PhD) </div>
       <div style="font-size:12px;color:var(--t3);margin-top:2px">Fayetteville, AR &middot; Department of Biological Sciences</div>
     </div>
     <span style="background:#faeeda;color:#854f0b;font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px">Contact for Fall 2027</span>
