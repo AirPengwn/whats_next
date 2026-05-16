@@ -152,7 +152,25 @@ html:not(.dark) {
   --blue-bg:#e5f0f0;--amber-bg:#f5f0db;--amber-t:#6b5500;
   --red-bg:#faece7;--red-t:#993c1d;
   --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
-}@media(max-width:480px){.cal-grid{grid-template-columns:1fr}}
+}
+/* ── Calendar ── */
+.cal-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px;margin-bottom:1.5rem}
+.cal-month{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);overflow:hidden}
+.cal-header{padding:.5rem .65rem;border-bottom:.5px solid var(--bd);font-weight:600;font-size:13px;color:var(--t1)}
+.cal-dow{display:grid;grid-template-columns:repeat(7,1fr);margin-bottom:3px}
+.cal-dow-cell{font-size:10px;font-weight:500;color:var(--t3);text-align:center;padding:2px 0}
+.cal-days{display:grid;grid-template-columns:repeat(7,1fr);gap:2px}
+.cal-body{padding:.6rem .5rem .5rem}
+.cal-cell{min-height:28px;display:flex;align-items:center;justify-content:center;font-size:12px;color:var(--t2);border-radius:5px;position:relative;cursor:default}
+.cal-cell.has-deadline{cursor:pointer;font-weight:600}
+.cal-cell.has-deadline:hover{background:var(--bg2)}
+.cal-cell.past{color:var(--t3);opacity:.5}
+.cal-dot{width:5px;height:5px;border-radius:50%;position:absolute;bottom:2px;left:50%;transform:translateX(-50%)}
+.ld-urgent{background:#e53935}
+.ld-soon{background:#fb8c00}
+.ld-ok{background:#4e9836}
+.ld-future{background:#3a7878}
+@media(max-width:480px){.cal-grid{grid-template-columns:1fr}}
 </style>
 <script>
 (function(){
