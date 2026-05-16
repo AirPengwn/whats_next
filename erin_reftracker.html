@@ -226,7 +226,9 @@ var RSTORE = 'erin_ref_letters';
 function loadRefs(){ try{ return JSON.parse(localStorage.getItem(RSTORE)||'[]'); } catch(e){ return []; } }
 function saveRefs(arr){ localStorage.setItem(RSTORE,JSON.stringify(arr)); }
 
+
 function pushRefs(arr){
+  if(!isPrimary()) return; // Only primary device writes to cloud
   fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
   .then(function(r){return r.json();})
   .then(function(data){
@@ -240,11 +242,22 @@ function pushRefs(arr){
   }).catch(function(){});
 }
 
+
 function pullRefs(){
   fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
   .then(function(r){return r.json();})
   .then(function(data){
-    if(data.record && data.record.refs){ saveRefs(data.record.refs); }
+    if(data.record && data.record.refs){
+      var cloud=data.record.refs;
+      var local=loadRefs();
+      if(isPrimary()){
+        // Primary device: local is truth — push local to cloud
+        pushRefs(local);
+      } else {
+        // Secondary device: cloud wins — overwrite local
+        saveRefs(cloud);
+      }
+    }
     render();
   }).catch(function(){ render(); });
 }

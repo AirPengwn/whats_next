@@ -196,30 +196,43 @@ var PSTORE = 'erin_prof_contacts';
 function loadProfs(){ try{ return JSON.parse(localStorage.getItem(PSTORE)||'[]'); } catch(e){ return []; } }
 function saveProfs(arr){ localStorage.setItem(PSTORE,JSON.stringify(arr)); }
 
+
 function pushProfs(arr){
+  if(!isPrimary()) return; // Only primary device writes to cloud
   fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
-    .then(function(r){return r.json();})
-    .then(function(data){
-      var rec = data.record||{};
-      rec.profs = arr;
-      fetch('https://api.jsonbin.io/v3/b/'+BIN,{
-        method:'PUT',
-        headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},
-        body:JSON.stringify(rec)
-      });
-    }).catch(function(){});
+  .then(function(r){return r.json();})
+  .then(function(data){
+    var rec=data.record||{};
+    rec.profs=arr;
+    fetch('https://api.jsonbin.io/v3/b/'+BIN,{
+      method:'PUT',
+      headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},
+      body:JSON.stringify(rec)
+    });
+  }).catch(function(){});
 }
+
+
 
 function pullProfs(){
   fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
-    .then(function(r){return r.json();})
-    .then(function(data){
-      if(data.record && data.record.profs){
-        saveProfs(data.record.profs);
+  .then(function(r){return r.json();})
+  .then(function(data){
+    if(data.record && data.record.profs){
+      var cloud=data.record.profs;
+      var local=loadProfs();
+      if(isPrimary()){
+        // Primary device: local is truth — push local to cloud
+        pushProfs(local);
+      } else {
+        // Secondary device: cloud wins — overwrite local
+        saveProfs(cloud);
       }
-      render();
-    }).catch(function(){ render(); });
+    }
+    render();
+  }).catch(function(){ render(); });
 }
+
 
 function statusPillClass(s){
   return {none:'sp-none',contacted:'sp-contacted',responded:'sp-responded',pursuing:'sp-pursuing',notfit:'sp-notfit'}[s]||'sp-none';

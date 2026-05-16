@@ -343,11 +343,18 @@ function save(m){ localStorage.setItem(STORE,JSON.stringify(m)); }
 function has(id){ return !!load()[id]; }
 
 function push(m){
-  fetch('https://api.jsonbin.io/v3/b/'+BIN,{
-    method:'PUT',
-    headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},
-    body:JSON.stringify({items:m})
-  }).then(function(){ flash('Synced'); }).catch(function(){ flash('Sync failed'); });
+  if(!isPrimary()) return; // Only primary device writes to cloud
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+    .then(function(r){return r.json();})
+    .then(function(data){
+      var rec=data.record||{};
+      rec.items=m;
+      return fetch('https://api.jsonbin.io/v3/b/'+BIN,{
+        method:'PUT',
+        headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},
+        body:JSON.stringify(rec)
+      });
+    }).then(function(){ flash('Synced'); }).catch(function(){ flash('Sync error'); });
 }
 
 function flash(msg){

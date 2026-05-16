@@ -247,6 +247,10 @@ html:not(.dark){
 
 <script>
 var BIN='6a039aa4250b1311c33f2bac',KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
+
+var PRIMARY_KEY='erin_primary_device';
+function isPrimary(){ return localStorage.getItem(PRIMARY_KEY)==='1'; }
+
 var MYLIST_STORE='erin_mylist_v1';
 var APP_STORE='erin_applications_v1';
 
@@ -255,30 +259,43 @@ function loadMyList(){ try{ return JSON.parse(localStorage.getItem(MYLIST_STORE)
 function loadApps(){ try{ return JSON.parse(localStorage.getItem(APP_STORE)||'[]'); }catch(e){ return []; } }
 function saveApps(arr){ localStorage.setItem(APP_STORE,JSON.stringify(arr)); }
 
+
 function pushApps(arr){
+  if(!isPrimary()) return; // Only primary device writes to cloud
   fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
-    .then(function(r){return r.json();})
-    .then(function(data){
-      var rec=data.record||{};
-      rec.apps=arr;
-      fetch('https://api.jsonbin.io/v3/b/'+BIN,{
-        method:'PUT',
-        headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},
-        body:JSON.stringify(rec)
-      });
-    }).catch(function(){});
+  .then(function(r){return r.json();})
+  .then(function(data){
+    var rec=data.record||{};
+    rec.apps=arr;
+    fetch('https://api.jsonbin.io/v3/b/'+BIN,{
+      method:'PUT',
+      headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},
+      body:JSON.stringify(rec)
+    });
+  }).catch(function(){});
 }
+
+
 
 function pullApps(){
   fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
-    .then(function(r){return r.json();})
-    .then(function(data){
-      if(data.record && data.record.apps){
-        saveApps(data.record.apps);
+  .then(function(r){return r.json();})
+  .then(function(data){
+    if(data.record && data.record.apps){
+      var cloud=data.record.apps;
+      var local=loadApps();
+      if(isPrimary()){
+        // Primary device: local is truth — push local to cloud
+        pushApps(local);
+      } else {
+        // Secondary device: cloud wins — overwrite local
+        saveApps(cloud);
       }
-      render();
-    }).catch(function(){ render(); });
+    }
+    renderCards();
+  }).catch(function(){ renderCards(); });
 }
+
 
 // ── Status helpers ──
 var STATUS_ORDER={notstarted:0,gathering:1,submitted:2,review:3,decision:4,accepted:5,waitlisted:6,declined:7};
