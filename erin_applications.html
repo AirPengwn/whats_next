@@ -201,6 +201,18 @@ html:not(.dark) {
 .opp-link:hover{background:var(--teal-bg)}
 .opp-link-sec{color:var(--blue);border-color:var(--blue)}
 .opp-link-sec:hover{background:var(--blue-bg)}
+
+@media print {
+  .global-nav, .gnav-inner, button, .add-btn, .del-btn, .save-btn,
+  .mode-tabs, .list-filters, .browse-actions, .item-actions, .note-area,
+  .saved-flash, .app-row, .app-actions, footer, .footer { display:none!important }
+  body { background:#fff!important; color:#000!important }
+  .page { max-width:100%!important; padding:0!important }
+  .page-header { border-bottom:1px solid #ccc!important }
+  .item-card, .app-card, .prof-card, .browse-card { 
+    border:1px solid #ccc!important; break-inside:avoid; margin-bottom:.5rem!important }
+}
+
 </style>
 <script>
 (function(){
@@ -224,6 +236,7 @@ html:not(.dark) {
     <a href="erin_applications.html" class="gnav-link active">&#128196; Applications</a>
     <a href="erin_proftracker.html" class="gnav-link">&#128100; Professors</a>
     <a href="erin_reftracker.html" class="gnav-link">&#128393; References</a>
+    <a href="erin_writing_samples.html" class="gnav-link">&#128196; Writing</a>
     <a href="erin_outreach.html" class="gnav-link">&#9997;&#65039; Outreach</a>
     <button class="gnav-toggle" id="theme-toggle" onclick="__toggleTheme()" title="Toggle dark/light">&#127769;</button>
   </div>
@@ -272,7 +285,8 @@ html:not(.dark) {
 
   <button class="add-btn" onclick="addCard('')">&#43; Add application manually</button>
 
-  <div id="app-body"></div>
+  <button onclick="window.print()" style="font-size:12px;font-weight:500;padding:5px 12px;border:.5px solid var(--bds);border-radius:6px;background:var(--bg2);color:var(--t2);cursor:pointer;font-family:var(--fn);display:flex;align-items:center;gap:5px">&#128438; Print / Export</button>
+<div id="app-body"></div>
 
   <p class="footer">Tracks applications derived from your saved opportunities.<br><br>
     <a href="erin_mylist.html">&#8592; My List</a>&nbsp;&nbsp;<a href="index.html">&#8592; Home</a></p>
@@ -348,6 +362,8 @@ function saveCard(id){
   arr[idx].portalLogin = document.getElementById('apl-'+id).value;
   arr[idx].submitDate  = document.getElementById('asd-'+id).value;
   arr[idx].decisionDate= document.getElementById('add-'+id).value;
+  if(document.getElementById('approf-'+id)) arr[idx].professor=document.getElementById('approf-'+id).value;
+  if(document.getElementById('adr-'+id)) arr[idx].decisionReason=document.getElementById('adr-'+id).value;
   arr[idx].notes       = document.getElementById('an-'+id).value;
   // materials saved live via onchange, already in arr[idx].materials
 
@@ -396,8 +412,8 @@ function addCard(prefill){
   var id='a'+Date.now();
   arr.push({
     id:id, programTitle:prefill||'', org:'', deadline:'', itemId:'', itemUrl:'', itemSrc:'',
-    status:'notstarted', portalUrl:'', portalLogin:'',
-    submitDate:'', decisionDate:'', notes:'', materials:{}
+    professor:'', status:'notstarted', portalUrl:'', portalLogin:'',
+    submitDate:'', decisionDate:'', decisionReason:'', notes:'', materials:{}
   });
   saveApps(arr); render();
   setTimeout(function(){
@@ -543,11 +559,21 @@ function makeCard(app){
     var spl=document.getElementById('aspl-'+app.id);
     if(spl){ spl.className='status-pill '+STATUS_CSS[s]; spl.textContent=STATUS_LABELS[s]; }
     updateCardClass(app.id,s);
+    var drWrap=document.getElementById('adr-wrap-'+app.id);
+    if(drWrap) drWrap.style.display=(s==='decision'||s==='accepted'||s==='declined'||s==='waitlisted')?'flex':'none';
   };
   sf.appendChild(sel); row1.appendChild(sf);
 
   row1.appendChild(makeField('Submit date','asd-'+app.id,app.submitDate,'date'));
   row1.appendChild(makeField('Decision date','add-'+app.id,app.decisionDate,'date'));
+
+  // Decision reason (shown only for decision/accepted/declined/waitlisted statuses)
+  var drf=document.createElement('div'); drf.className='app-field'; drf.id='adr-wrap-'+app.id;
+  drf.style.display=(st==='decision'||st==='accepted'||st==='declined'||st==='waitlisted')?'flex':'none';
+  var drl=document.createElement('div'); drl.className='app-lbl'; drl.textContent='Decision reason / notes'; drf.appendChild(drl);
+  var drInp=document.createElement('input'); drInp.className='app-input'; drInp.id='adr-'+app.id;
+  drInp.value=app.decisionReason||''; drInp.placeholder='e.g. Waitlisted — funding position filled; offered spring instead';
+  drf.appendChild(drInp); row1.appendChild(drf);
 
   // Portal URL
   var pu=document.createElement('div'); pu.className='app-field';
@@ -560,6 +586,23 @@ function makeCard(app){
   // Row 2
   var row2=document.createElement('div'); row2.className='app-row';
   row2.appendChild(makeField('Portal login / username','apl-'+app.id,app.portalLogin,''));
+
+  // Professor / POC field
+  var pf=document.createElement('div'); pf.className='app-field';
+  var pl=document.createElement('div'); pl.className='app-lbl'; pl.textContent='Professor / POC'; pf.appendChild(pl);
+  var pSel=document.createElement('select'); pSel.className='app-select'; pSel.id='approf-'+app.id;
+  var emptyOpt=document.createElement('option'); emptyOpt.value=''; emptyOpt.textContent='— None / N/A'; pSel.appendChild(emptyOpt);
+  // Load from proftracker
+  try{
+    var profs=JSON.parse(localStorage.getItem('erin_prof_contacts')||'[]');
+    profs.forEach(function(p){
+      var opt=document.createElement('option'); opt.value=p.id;
+      opt.textContent=(p.professor||'Unnamed')+' — '+(p.programTitle||'').slice(0,30);
+      if((app.professor||'')===(p.id||'')) opt.selected=true;
+      pSel.appendChild(opt);
+    });
+  }catch(e){}
+  pf.appendChild(pSel); row2.appendChild(pf);
 
   var nf=document.createElement('div'); nf.className='app-field';
   var nl=document.createElement('div'); nl.className='app-lbl'; nl.textContent='Notes'; nf.appendChild(nl);

@@ -187,6 +187,16 @@ html:not(.dark) {
   --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
 }.card-urgent{border-left:3px solid var(--teal)!important}
 .card-deadline{border-left:3px solid #c0392b!important}
+
+/* Page search bar */
+.page-search-wrap{display:flex;align-items:center;gap:.5rem;margin-bottom:1.25rem;padding:.5rem .75rem;background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r1)}
+.page-search-icon{font-size:14px;color:var(--t3);flex-shrink:0}
+.page-search-input{flex:1;border:none;background:transparent;outline:none;font-size:13px;color:var(--t1);font-family:var(--fn)}
+.page-search-input::placeholder{color:var(--t3)}
+.page-search-clear{font-size:12px;color:var(--t3);background:none;border:none;cursor:pointer;font-family:var(--fn);flex-shrink:0;display:none}
+.page-search-count{font-size:11px;color:var(--t3);flex-shrink:0;white-space:nowrap}
+.search-hidden{display:none!important}
+
 </style>
 
 <script>
@@ -211,6 +221,7 @@ html:not(.dark) {
     <a href="erin_applications.html" class="gnav-link">&#128196; Applications</a>
     <a href="erin_proftracker.html" class="gnav-link">&#128100; Professors</a>
     <a href="erin_reftracker.html" class="gnav-link">&#128393; References</a>
+    <a href="erin_writing_samples.html" class="gnav-link">&#128196; Writing</a>
     <a href="erin_outreach.html" class="gnav-link">&#9997;&#65039; Outreach</a>
     <button class="gnav-toggle" id="theme-toggle" onclick="__toggleTheme()" title="Toggle dark/light">&#127769;</button>
   </div>
@@ -258,6 +269,12 @@ html:not(.dark) {
   </a>
 </div>
 
+<div class="page-search-wrap" id="psr-wrap">
+  <span class="page-search-icon">&#128269;</span>
+  <input class="page-search-input" id="psr-input" type="text" placeholder="Search this page..." oninput="pageSearch(this.value)">
+  <span class="page-search-count" id="psr-count"></span>
+  <button class="page-search-clear" id="psr-clear" onclick="pageSearch('');document.getElementById('psr-input').value=''">&#10005; Clear</button>
+</div>
 <div class="slabel">Application deadline quick reference</div>
 <div class="card" style="padding:1rem">
   <table style="width:100%;border-collapse:collapse;font-size:13px">
@@ -882,6 +899,56 @@ document.addEventListener('DOMContentLoaded',function(){
   });
 });
 })();
+</script>
+
+
+<script>
+function pageSearch(q){
+  var inp=document.getElementById('psr-input');
+  var clr=document.getElementById('psr-clear');
+  var cnt=document.getElementById('psr-count');
+  if(clr) clr.style.display=q?'block':'none';
+  
+  // Find all searchable cards and card-like blocks
+  var cards=document.querySelectorAll('.pos-card,.card,.context-banner,.card-deadline');
+  var shown=0, hidden=0;
+  var ql=q.toLowerCase().trim();
+  
+  cards.forEach(function(card){
+    if(!ql){ card.classList.remove('search-hidden'); shown++; return; }
+    var text=card.textContent.toLowerCase();
+    if(text.indexOf(ql)>-1){ card.classList.remove('search-hidden'); shown++; }
+    else{ card.classList.add('search-hidden'); hidden++; }
+  });
+  
+  // Also hide/show slabels that have no visible children
+  document.querySelectorAll('.slabel,.section-label,.ph2').forEach(function(lbl){
+    if(!ql){ lbl.classList.remove('search-hidden'); return; }
+    // Find next sibling cards
+    var el=lbl.nextElementSibling;
+    var anyVisible=false;
+    while(el&&!el.classList.contains('slabel')&&!el.classList.contains('rl-wrap')){
+      if(el.classList.contains('pos-card')||el.classList.contains('card')){
+        if(!el.classList.contains('search-hidden')) anyVisible=true;
+      }
+      el=el.nextElementSibling;
+    }
+    lbl.classList.toggle('search-hidden',!anyVisible);
+  });
+  
+  if(cnt){
+    if(ql) cnt.textContent=shown+' result'+(shown===1?'':'s');
+    else cnt.textContent='';
+  }
+}
+// Keyboard shortcut: / to focus search
+document.addEventListener('keydown',function(e){
+  if(e.key==='/'&&document.activeElement.tagName!=='INPUT'&&document.activeElement.tagName!=='TEXTAREA'){
+    e.preventDefault();
+    var inp=document.getElementById('psr-input');
+    if(inp) inp.focus();
+  }
+});
 </script>
 
 </body>

@@ -135,6 +135,195 @@ html:not(.dark) {
   document.addEventListener('DOMContentLoaded',upBtn);
   window.__toggleTheme=function(){var d=document.documentElement.classList.toggle('dark');localStorage.setItem('erin_theme',d?'dark':'light');upBtn();};
 })();
+
+
+// ══════════════════════════════════════════════
+// EMAIL GENERATOR
+// ══════════════════════════════════════════════
+var MYLIST_STORE='erin_mylist_v1';
+function getMyList(){ try{ return Object.values(JSON.parse(localStorage.getItem(MYLIST_STORE)||'{}')); }catch(e){ return []; } }
+
+function initGenerator(){
+  var sel=document.getElementById('gen-opp'); if(!sel) return;
+  var items=getMyList();
+  sel.innerHTML='<option value="">— Select a saved opportunity —</option>';
+  items.sort(function(a,b){ return (a.title||'').localeCompare(b.title||''); });
+  items.forEach(function(it){
+    var opt=document.createElement('option');
+    opt.value=it.id;
+    opt.textContent=(it.title||'').slice(0,60)+' — '+(it.org||'').split('·')[0].trim().slice(0,30);
+    opt.dataset.item=JSON.stringify(it);
+    sel.appendChild(opt);
+  });
+}
+
+function getErinCoursework(topic){
+  var courses={
+    water:['ENVH 310 (Water Quality)','GEOL 423 (Contaminated Rivers)','GEOL 349 (Hydrogeology)','GEOL 455 (Wetlands)'],
+    wetland:['GEOL 455 (Wetlands)','ENVH 310 (Water Quality)','GEOL 423 (Contaminated Rivers)','BIOL 303 (Ecology)'],
+    wildlife:['NRM 479 (Mammalogy)','NRM 330 (Fish & Wildlife)','BIOL 303 (Ecology)','NRM 450 (Wildlife Management)'],
+    gis:['GIS 310 (Applied GIS)','GEOL 455 (Wetlands)','NRM 330 (Fish & Wildlife)'],
+    forest:['NRM 330 (Fish & Wildlife)','BIOL 303 (Ecology)','NRM 479 (Mammalogy)'],
+    restoration:['GEOL 423 (Contaminated Rivers)','GEOL 455 (Wetlands)','ENVH 310 (Water Quality)','BIOL 303 (Ecology)'],
+    compliance:['ENVH 375 (Environmental Toxicology)','ENVH 493 (Environmental Justice)','GEOL 455 (Wetlands)','ENVH 310 (Water Quality)'],
+    default:['GEOL 455 (Wetlands)','ENVH 310 (Water Quality)','GEOL 423 (Contaminated Rivers)','NRM 479 (Mammalogy)']
+  };
+  var t=(topic||'').toLowerCase();
+  if(t.match(/water|hydro|stream|river|aquatic/)) return courses.water;
+  if(t.match(/wetland|delineat|marsh|bog/)) return courses.wetland;
+  if(t.match(/wildlife|mammal|bird|species|habitat/)) return courses.wildlife;
+  if(t.match(/gis|mapping|remote|spatial/)) return courses.gis;
+  if(t.match(/forest|woodland|timber|pine/)) return courses.forest;
+  if(t.match(/restor|mitigation|rehabilitation/)) return courses.restoration;
+  if(t.match(/compliance|permit|regulation|npdes|swppp/)) return courses.compliance;
+  return courses.default;
+}
+
+function generateEmail(){
+  var oppSel=document.getElementById('gen-opp');
+  var typeSel=document.getElementById('gen-type').value;
+  var profName=document.getElementById('gen-prof').value.trim();
+  var researchOverride=document.getElementById('gen-research').value.trim();
+
+  if(!oppSel.value){ alert('Please select an opportunity from your saved list.'); return; }
+
+  var selOpt=oppSel.options[oppSel.selectedIndex];
+  var it; try{ it=JSON.parse(selOpt.dataset.item); }catch(e){ return; }
+
+  var institution=(it.org||'').split('·')[0].trim().split('—')[0].trim();
+  var title=it.title||'';
+  var research=researchOverride||(it.body||'').split('.')[0].trim()||title;
+  var deadline=it.deadline||'';
+  var profFirst=profName?profName.split(' ').pop():'Professor';
+  var profSalut=profName?'Dr. '+profFirst:'Professor';
+  var courses=getErinCoursework(research);
+  var courseStr=courses.slice(0,3).join(', ');
+  var isGrad=it.type==='Graduate Program';
+  var isService=(it.type||'').indexOf('Service')>-1||(it.type||'').indexOf('Corps')>-1;
+
+  var subject='', body='';
+
+  if(typeSel==='inquiry'){
+    if(isGrad){
+      subject='Prospective MS Student — '+title.split('—')[0].trim().slice(0,50);
+      body='Dear '+profSalut+',
+
+I am writing to inquire about graduate research opportunities in your lab at '+institution+'. I recently completed my BS in Environmental Science at Western Carolina University (May 2025, Magna Cum Laude, GPA 3.731) and am very interested in your research on '+research+'.
+
+For my senior capstone, I investigated lead and heavy metal contamination in the Pigeon River watershed following Hurricane Helene — combining field sampling, water quality analysis, and GIS mapping. This experience gave me hands-on training directly relevant to your work. My relevant coursework includes '+courseStr+'.
+
+I also bring field experience in wetland delineation, mammalian surveying, electrofishing, and aquatic macroinvertebrate sampling. I am particularly drawn to '+institution+' because '+research.slice(0,120)+'.
+
+I have attached my CV. I would welcome the opportunity to discuss potential research directions and funding availability. Are you expecting to take on MS students for the upcoming cycle?
+
+Thank you for your time and consideration.
+
+Best regards,
+Erin Lamberton
+erin.lamberton@gmail.com
+LinkedIn: [your LinkedIn URL]';
+    } else {
+      subject='Application Inquiry — '+title.slice(0,55);
+      body='Dear '+profSalut+',
+
+I am writing to express my strong interest in the '+title+' position at '+institution+'. I recently completed my BS in Environmental Science at Western Carolina University (May 2025, Magna Cum Laude) and am actively building field and research experience before graduate school.
+
+My background includes '+courseStr+', as well as hands-on field experience in wetland delineation, water quality sampling, wildlife surveys, and GIS. For my senior capstone I investigated heavy metal contamination in the Pigeon River watershed following Hurricane Helene — a project that combined field sampling, lab analysis, and spatial data analysis.
+
+I am drawn to this opportunity because it directly aligns with my interests in '+research.slice(0,100)+'.'+(deadline?' The position deadline of '+deadline+' works well with my timeline.':'')+'
+
+I have attached my CV and would be glad to provide additional materials. Please let me know if you have questions.
+
+Thank you for your consideration.
+
+Sincerely,
+Erin Lamberton
+erin.lamberton@gmail.com';
+    }
+  } else if(typeSel==='followup'){
+    subject='Following up — '+title.slice(0,55);
+    body='Dear '+profSalut+',
+
+I hope this message finds you well. I wanted to follow up on my email from a few weeks ago regarding '+title+' at '+institution+'. I remain very interested and wanted to check whether you have had a chance to review my inquiry.
+
+I am happy to provide any additional information — CV, writing samples, or references — at your convenience. I appreciate your time and look forward to hearing from you.
+
+Best regards,
+Erin Lamberton
+erin.lamberton@gmail.com';
+  } else if(typeSel==='thankyou'){
+    subject='Thank you — '+title.slice(0,55);
+    body='Dear '+profSalut+',
+
+Thank you so much for taking the time to speak with me about the '+title+' opportunity at '+institution+'. It was genuinely exciting to hear more about your research on '+research.slice(0,80)+', and I left the conversation even more enthusiastic about the fit.
+
+As we discussed, I will [follow up with / submit / send you] [materials/application/transcript] by [DATE]. Please do not hesitate to reach out if you need anything in the meantime.
+
+Thank you again — I look forward to staying in touch.
+
+Warm regards,
+Erin Lamberton
+erin.lamberton@gmail.com';
+  } else if(typeSel==='internship'){
+    subject='Internship / position inquiry — '+title.slice(0,50);
+    body='Dear '+profSalut+',
+
+I am reaching out to inquire about potential internship or field technician opportunities with your group at '+institution+'. I am a recent Environmental Science graduate (WCU, May 2025) with hands-on experience in wetland delineation, water quality monitoring, wildlife surveys, and GIS analysis.
+
+My coursework includes '+courseStr+', and my senior capstone — investigating post-Helene lead contamination in the Pigeon River watershed — gave me direct applied experience in field sampling and environmental data analysis.
+
+I am flexible in timing and geography, and am particularly interested in '+research.slice(0,100)+'. I have attached my CV and would welcome a brief conversation about any upcoming opportunities.
+
+Thank you for your consideration.
+
+Sincerely,
+Erin Lamberton
+erin.lamberton@gmail.com';
+  } else if(typeSel==='reference'){
+    subject='Reference letter request — graduate school applications';
+    body='Dear '+profSalut+',
+
+I hope you are doing well. I am writing to ask whether you would be willing to write a letter of recommendation for my graduate school applications. I am applying to MS programs in Environmental Science with a focus on '+research.slice(0,80)+', with applications due '+deadline+'.
+
+As you may recall, [briefly remind them of your connection / coursework / project together]. I believe your perspective on my [research skills / field work / academic performance] would be particularly valuable to these programs.
+
+I would be happy to provide my CV, a draft statement of purpose, a list of programs and deadlines, and any other materials that would be helpful. Please let me know if you have any questions or if you would prefer to discuss by phone.
+
+Thank you so much for considering this request — I genuinely appreciate your support.
+
+Warm regards,
+Erin Lamberton
+erin.lamberton@gmail.com';
+  }
+
+  document.getElementById('gen-subject').textContent=subject;
+  document.getElementById('gen-body').value=body;
+  document.getElementById('gen-output').style.display='block';
+  document.getElementById('gen-output').scrollIntoView({behavior:'smooth',block:'start'});
+}
+
+function copyGenerated(){
+  var subj=document.getElementById('gen-subject').textContent;
+  var body=document.getElementById('gen-body').value;
+  var full='Subject: '+subj+'\n\n'+body;
+  navigator.clipboard.writeText(full).then(function(){ 
+    var btn=event.target; btn.textContent='✓ Copied!'; setTimeout(function(){btn.innerHTML='&#128203; Copy';},2000); 
+  }).catch(function(){ alert('Copy failed — please select all text in the box and copy manually.'); });
+}
+
+function openMailto(){
+  var subj=encodeURIComponent(document.getElementById('gen-subject').textContent);
+  var body=encodeURIComponent(document.getElementById('gen-body').value);
+  window.open('mailto:?subject='+subj+'&body='+body);
+}
+
+// Extend showTab to init generator when its tab is opened
+var _origShowTab=showTab;
+showTab=function(id,btn){
+  _origShowTab(id,btn);
+  if(id==='generator') initGenerator();
+};
+
 </script>
 </head>
 <body>
@@ -148,6 +337,8 @@ html:not(.dark) {
     <a href="erin_applications.html" class="gnav-link">&#128196; Applications</a>
     <a href="erin_proftracker.html" class="gnav-link">&#128100; Professors</a>
     <a href="erin_reftracker.html" class="gnav-link">&#128393; References</a>
+    <a href="erin_writing_samples.html" class="gnav-link">&#128196; Writing</a>
+    <a href="erin_writing_samples.html" class="gnav-link">&#128196; Writing</a>
     <a href="erin_outreach.html" class="gnav-link active">&#9997;&#65039; Outreach</a>
     <button class="gnav-toggle" id="theme-toggle" onclick="__toggleTheme()" title="Toggle dark/light">&#127769;</button>
   </div>
@@ -183,6 +374,7 @@ html:not(.dark) {
   <button class="tab" onclick="showTab('email-wildlife',this)">Email: wildlife ecology</button>
   <button class="tab" onclick="showTab('email-ncstate',this)">Email: NC State / Dr. Forrester</button>
   <button class="tab" onclick="showTab('tips',this)">Writing tips</button>
+  <button class="tab" onclick="showTab('generator',this)">&#9889; Email generator</button>
 </div>
 
 <!-- STATEMENT OF PURPOSE -->
@@ -320,6 +512,59 @@ erintlamberton@gmail.com
 </div>
 
 <hr>
+
+
+<!-- EMAIL GENERATOR TAB -->
+<div id="tab-generator" class="tab-content" style="display:none">
+  <div class="card" style="margin-bottom:1rem">
+    <div class="card-title">&#9889; Smart Email Generator</div>
+    <div class="card-body" style="margin-bottom:1rem">Pick a saved opportunity and a template — the email fills in automatically with the right professor name, institution, research topic, and Erin's most relevant coursework. Edit before sending.</div>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin-bottom:.75rem">
+      <div>
+        <div style="font-size:11px;font-weight:600;color:var(--t3);text-transform:uppercase;letter-spacing:.06em;margin-bottom:.3rem">Opportunity / Program</div>
+        <select id="gen-opp" style="width:100%;padding:6px 10px;border:.5px solid var(--bds);border-radius:6px;background:var(--bg2);color:var(--t1);font-size:13px;font-family:var(--fn)">
+          <option value="">— Loading your saved list —</option>
+        </select>
+      </div>
+      <div>
+        <div style="font-size:11px;font-weight:600;color:var(--t3);text-transform:uppercase;letter-spacing:.06em;margin-bottom:.3rem">Email type</div>
+        <select id="gen-type" style="width:100%;padding:6px 10px;border:.5px solid var(--bds);border-radius:6px;background:var(--bg2);color:var(--t1);font-size:13px;font-family:var(--fn)">
+          <option value="inquiry">Prospective MS student inquiry</option>
+          <option value="followup">Follow-up (no reply after 2–3 weeks)</option>
+          <option value="thankyou">Thank-you after reply / call</option>
+          <option value="internship">Internship / position inquiry</option>
+          <option value="reference">Reference letter request</option>
+        </select>
+      </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin-bottom:.75rem">
+      <div>
+        <div style="font-size:11px;font-weight:600;color:var(--t3);text-transform:uppercase;letter-spacing:.06em;margin-bottom:.3rem">Professor / contact name</div>
+        <input id="gen-prof" type="text" placeholder="Dr. Jane Smith" style="width:100%;padding:6px 10px;border:.5px solid var(--bds);border-radius:6px;background:var(--bg2);color:var(--t1);font-size:13px;font-family:var(--fn);box-sizing:border-box">
+      </div>
+      <div>
+        <div style="font-size:11px;font-weight:600;color:var(--t3);text-transform:uppercase;letter-spacing:.06em;margin-bottom:.3rem">Their research focus (optional override)</div>
+        <input id="gen-research" type="text" placeholder="e.g. wetland biogeochemistry" style="width:100%;padding:6px 10px;border:.5px solid var(--bds);border-radius:6px;background:var(--bg2);color:var(--t1);font-size:13px;font-family:var(--fn);box-sizing:border-box">
+      </div>
+    </div>
+
+    <button onclick="generateEmail()" style="background:var(--teal);color:#fff;border:none;padding:8px 18px;border-radius:6px;font-size:13px;font-weight:600;cursor:pointer;font-family:var(--fn)">&#9889; Generate email</button>
+  </div>
+
+  <div id="gen-output" style="display:none">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:.5rem">
+      <div style="font-size:11px;font-weight:600;color:var(--t3);text-transform:uppercase;letter-spacing:.06em">Generated email — edit before sending</div>
+      <div style="display:flex;gap:.5rem">
+        <button onclick="copyGenerated()" style="font-size:12px;padding:4px 10px;border:.5px solid var(--bds);border-radius:5px;background:var(--bg2);color:var(--t1);cursor:pointer;font-family:var(--fn)">&#128203; Copy</button>
+        <button onclick="openMailto()" style="font-size:12px;padding:4px 10px;border:.5px solid var(--teal);border-radius:5px;background:var(--teal-bg);color:var(--teal-t);cursor:pointer;font-family:var(--fn)">&#9993; Open in email</button>
+      </div>
+    </div>
+    <div style="font-size:11px;color:var(--t3);margin-bottom:.3rem">Subject: <span id="gen-subject" style="color:var(--t2);font-weight:500"></span></div>
+    <textarea id="gen-body" style="width:100%;min-height:320px;padding:.85rem 1rem;border:.5px solid var(--bds);border-radius:8px;background:var(--bg2);color:var(--t1);font-size:13px;font-family:var(--fn);line-height:1.65;box-sizing:border-box;resize:vertical"></textarea>
+  </div>
+</div>
 
 <p class="footer">Documents drafted May 2026 based on Erin's transcript, resumes, and course records. All bracketed placeholders must be replaced before submission. These are starting points — Erin's own voice should come through in the final versions.<br><br><a href="index.html" style="color:#185fa5">&#8592; Back to home</a>&nbsp;&nbsp;<a href="erin_programs.html" style="color:#185fa5">&#128279; View funded programs</a></p>
 </div>

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Writing Samples Tracker — What's Next for Erin</title>
+<style>
+:root{--bg:#ffffff;--bg2:#f4f5ef;--bg3:#e6e8d8;--t1:#2a2a28;--t2:#4a4a45;--t3:#666464;--bd:rgba(60,123,32,0.18);--bds:rgba(60,123,32,0.32);--r1:8px;--r2:12px;--fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;--teal:#4e9836;--teal-bg:#eaf3e5;--teal-t:#3c7b20;--blue:#3a7878;--blue-bg:#e5f0f0;--amber:#8a6f00;--amber-bg:#f5f0db;--amber-t:#6b5500;--red:#993c1d;--red-bg:#faece7}
+body{font-family:var(--fn);color:var(--t1);background:var(--bg3);padding:0 0 2rem;margin:0}
+.page{max-width:720px;margin:0 auto;padding:0 1rem}
+.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.5rem}
+.page-header-eyebrow{font-size:11px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-t);margin-bottom:.25rem}
+.page-header-title{font-size:24px;font-weight:700;color:var(--t1);line-height:1.2;letter-spacing:-.02em;margin-bottom:.2rem}
+.page-header-sub{font-size:13px;color:var(--t2);line-height:1.5}
+.global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
+.gnav-inner{max-width:720px;margin:0 auto;display:flex;align-items:center;gap:0;overflow-x:auto;scrollbar-width:none}
+.gnav-inner::-webkit-scrollbar{display:none}
+.gnav-home{font-size:13px;font-weight:600;color:var(--t1);text-decoration:none;padding:11px 14px 11px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:4px;flex-shrink:0}
+.gnav-home:hover{color:var(--teal-t)}
+.gnav-link{font-size:12px;font-weight:500;color:var(--t3);text-decoration:none;padding:11px 10px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
+.gnav-link:hover{color:var(--t1)}
+.gnav-link.active{color:var(--teal-t);border-bottom-color:var(--teal)}
+.gnav-toggle{margin-left:auto;flex-shrink:0;font-size:14px;padding:5px 10px;border:none;background:transparent;color:var(--t3);cursor:pointer;border-radius:6px;font-family:var(--fn);line-height:1}
+.gnav-toggle:hover{background:var(--bg2);color:var(--t1)}
+html.dark{color-scheme:dark;--bg:#1c2018;--bg2:#242b1e;--bg3:#18201a;--t1:#f0ede0;--t2:#c0c4a8;--t3:#9dc8c8;--bd:rgba(157,200,200,0.15);--bds:rgba(157,200,200,0.28);--teal-bg:#2a3d22;--teal-t:#8fc87a;--blue-bg:#1e3535;--amber-bg:#3d3510;--amber-t:#d4c47a}
+/* Cards */
+.ws-card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:.85rem}
+.ws-header{display:flex;align-items:flex-start;justify-content:space-between;gap:.75rem;margin-bottom:.5rem}
+.ws-title-input{font-size:14px;font-weight:600;color:var(--t1);background:transparent;border:none;outline:none;width:100%;font-family:var(--fn);padding:0}
+.ws-title-input:focus{border-bottom:1.5px solid var(--teal)}
+.status-pill{font-size:11px;font-weight:600;padding:3px 10px;border-radius:999px;white-space:nowrap;flex-shrink:0}
+.sp-draft{background:#faeeda;color:#854f0b}
+.sp-polished{background:#e5f0f0;color:#3a7878}
+.sp-submitted{background:var(--teal-bg);color:var(--teal-t)}
+.ws-row{display:grid;grid-template-columns:1fr 1fr;gap:.65rem;margin-bottom:.6rem}
+.ws-field{display:flex;flex-direction:column;gap:3px}
+.ws-lbl{font-size:10px;font-weight:600;color:var(--t3);text-transform:uppercase;letter-spacing:.07em}
+.ws-input{font-size:12px;color:var(--t2);background:transparent;border:none;border-bottom:.5px solid var(--bd);outline:none;padding:2px 0;font-family:var(--fn);width:100%}
+.ws-input:focus{border-bottom-color:var(--teal);color:var(--t1)}
+.ws-sel{font-size:12px;color:var(--t2);background:var(--bg2);border:.5px solid var(--bd);border-radius:4px;padding:3px 6px;outline:none;font-family:var(--fn)}
+.ws-ta{font-size:12px;color:var(--t2);background:transparent;border:.5px solid var(--bd);border-radius:5px;padding:5px 8px;outline:none;font-family:var(--fn);resize:vertical;min-height:48px;width:100%;box-sizing:border-box;margin-top:3px;line-height:1.5}
+.ws-ta:focus{border-color:var(--teal);color:var(--t1)}
+/* Usage tags */
+.usage-tags{display:flex;flex-wrap:wrap;gap:4px;margin:.4rem 0}
+.usage-tag{font-size:11px;padding:2px 8px;border-radius:999px;background:var(--teal-bg);color:var(--teal-t);display:flex;align-items:center;gap:4px}
+.usage-tag button{background:none;border:none;color:var(--teal-t);cursor:pointer;font-size:12px;padding:0;line-height:1}
+.add-usage-row{display:flex;gap:.5rem;align-items:center;margin-top:.3rem}
+.add-usage-input{font-size:12px;flex:1;padding:3px 8px;border:.5px solid var(--bd);border-radius:5px;background:var(--bg2);color:var(--t1);outline:none;font-family:var(--fn)}
+.add-usage-input:focus{border-color:var(--teal)}
+/* Actions */
+.ws-actions{display:flex;gap:.75rem;align-items:center;margin-top:.6rem;padding-top:.6rem;border-top:.5px solid var(--bd)}
+.save-btn{font-size:12px;font-weight:500;padding:4px 12px;border-radius:5px;border:.5px solid var(--teal);background:transparent;color:var(--teal-t);cursor:pointer;font-family:var(--fn)}
+.save-btn:hover{background:var(--teal-bg)}
+.saved-flash{font-size:11px;color:var(--teal-t);display:none}
+.del-btn{font-size:12px;color:var(--red);background:none;border:none;cursor:pointer;margin-left:auto;font-family:var(--fn)}
+/* Add button */
+.add-btn{display:flex;align-items:center;gap:.5rem;padding:.7rem 1.1rem;background:transparent;border:.5px solid var(--bds);border-radius:var(--r1);color:var(--t2);font-size:13px;cursor:pointer;font-family:var(--fn);margin-bottom:1.25rem;width:auto}
+.add-btn:hover{background:var(--bg2);color:var(--t1)}
+/* Summary */
+.summary-bar{display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:1.25rem;padding:.75rem 1rem;background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r1);font-size:12px}
+.summary-stat{display:flex;flex-direction:column;align-items:center;gap:2px}
+.summary-num{font-size:18px;font-weight:700;color:var(--t1)}
+.summary-lbl{font-size:10px;color:var(--t3);text-transform:uppercase;letter-spacing:.06em}
+/* Empty */
+.empty{text-align:center;padding:2rem 1rem;color:var(--t3)}
+.empty-icon{font-size:32px;margin-bottom:.5rem}
+.empty-title{font-size:15px;font-weight:500;color:var(--t2);margin-bottom:.25rem}
+.footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
+</style>
+</head>
+<body>
+
+<!-- GLOBAL NAV -->
+<nav class="global-nav">
+  <div class="gnav-inner">
+    <a href="index.html" class="gnav-home">&#127968; Home</a>
+    <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
+    <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
+    <a href="erin_applications.html" class="gnav-link">&#128196; Applications</a>
+    <a href="erin_proftracker.html" class="gnav-link">&#128100; Professors</a>
+    <a href="erin_reftracker.html" class="gnav-link">&#128393; References</a>
+    <a href="erin_writing_samples.html" class="gnav-link">&#128196; Writing</a>
+    <a href="erin_writing_samples.html" class="gnav-link">&#128196; Writing</a>
+    <a href="erin_outreach.html" class="gnav-link active">&#9997;&#65039; Outreach</a>
+    <button class="gnav-toggle" id="theme-toggle" onclick="__toggleTheme()" title="Toggle dark/light">&#127769;</button>
+  </div>
+</nav>
+
+<div class="page">
+
+<div class="page-header">
+  <div class="page-header-eyebrow">What's Next for Erin</div>
+  <div class="page-header-title">Writing Samples Tracker</div>
+  <div class="page-header-sub">Track writing samples — which one goes where, its polish status, and any notes on tailoring</div>
+</div>
+
+<div class="summary-bar" id="ws-summary">
+  <div class="summary-stat"><div class="summary-num" id="wss-total">0</div><div class="summary-lbl">samples</div></div>
+  <div class="summary-stat"><div class="summary-num" id="wss-polished">0</div><div class="summary-lbl">polished</div></div>
+  <div class="summary-stat"><div class="summary-num" id="wss-submitted">0</div><div class="summary-lbl">submitted</div></div>
+  <div class="summary-stat"><div class="summary-num" id="wss-usages">0</div><div class="summary-lbl">applications using a sample</div></div>
+</div>
+
+<div style="background:var(--teal-bg);border-left:3px solid var(--teal);border-radius:var(--r1);padding:.65rem 1rem;font-size:13px;color:var(--t2);margin-bottom:1.1rem;line-height:1.55">
+  <strong style="color:var(--teal-t)">Tip:</strong> For each sample, list which applications/programs you're sending it to under "Sending to." Most grad programs want a scientific writing sample — Erin's Pigeon River capstone is the strongest choice. Some fellowships want a policy memo or personal statement instead.
+</div>
+
+<button class="add-btn" onclick="addCard()">
+  <span style="font-size:16px">+</span> Add writing sample
+</button>
+
+<div id="ws-body"></div>
+
+<p class="footer">Writing sample tracker — local to this device · <a href="erin_outreach.html" style="color:var(--teal-t)">&#9997; Outreach &amp; email templates</a> &nbsp; <a href="erin_applications.html" style="color:var(--teal-t)">&#128196; Application tracker</a></p>
+
+</div>
+
+<script>
+(function(){
+  var saved=localStorage.getItem('erin_theme');
+  var prefersDark=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches;
+  if(saved==='dark'||(!saved&&prefersDark)) document.documentElement.classList.add('dark');
+  function upBtn(){var b=document.getElementById('theme-toggle');if(b)b.innerHTML=document.documentElement.classList.contains('dark')?'&#9728;':'&#127769;';}
+  document.addEventListener('DOMContentLoaded',upBtn);
+  window.__toggleTheme=function(){var d=document.documentElement.classList.toggle('dark');localStorage.setItem('erin_theme',d?'dark':'light');upBtn();};
+})();
+
+var WSSTORE='erin_writing_samples';
+function loadSamples(){ try{ return JSON.parse(localStorage.getItem(WSSTORE)||'[]'); }catch(e){ return []; } }
+function saveSamples(arr){ localStorage.setItem(WSSTORE,JSON.stringify(arr)); }
+
+// Pre-seed with Erin's known writing samples
+function seedDefaults(){
+  var arr=loadSamples();
+  if(arr.length) return; // already has data
+  arr=[
+    {id:'ws1',title:'Pigeon River Lead Contamination — Senior Capstone (ES 495)',type:'Scientific research report',status:'polished',pages:'18',usages:['NC State — Hurricane Helene Forest Recovery','Oklahoma State — Watershed Hydrology'],notes:'Primary scientific writing sample. Field sampling + water quality analysis + GIS + contaminated site context. Strong fit for any water quality or environmental science program.'},
+    {id:'ws2',title:'Statement of Purpose — Environmental Science MS',type:'Statement of purpose',status:'draft',pages:'2',usages:[],notes:'SOP draft on outreach page. Tailor the opening paragraph for each program.'},
+    {id:'ws3',title:'Wetlands Assessment Field Report (GEOL 455)',type:'Technical field report',status:'polished',pages:'8',usages:[],notes:'Wetland delineation methodology, soil and vegetation surveys. Good secondary sample for programs focused on wetland science.'},
+  ];
+  saveSamples(arr);
+}
+
+function updateSummary(){
+  var arr=loadSamples();
+  document.getElementById('wss-total').textContent=arr.length;
+  document.getElementById('wss-polished').textContent=arr.filter(function(s){return s.status==='polished';}).length;
+  document.getElementById('wss-submitted').textContent=arr.filter(function(s){return s.status==='submitted';}).length;
+  var totalUsages=arr.reduce(function(n,s){return n+(s.usages||[]).length;},0);
+  document.getElementById('wss-usages').textContent=totalUsages;
+}
+
+function render(){
+  var arr=loadSamples();
+  updateSummary();
+  var body=document.getElementById('ws-body');
+  body.innerHTML='';
+  if(!arr.length){
+    body.innerHTML='<div class="empty"><div class="empty-icon">&#128196;</div><div class="empty-title">No writing samples yet</div><div class="empty-body">Click &ldquo;Add writing sample&rdquo; to start tracking. Your Pigeon River capstone is a great first entry.</div></div>';
+    return;
+  }
+  arr.forEach(function(s){ body.appendChild(makeCard(s)); });
+}
+
+function makeCard(s){
+  var card=document.createElement('div'); card.className='ws-card'; card.id='wsc-'+s.id;
+
+  // Header row: title + status pill
+  var hdr=document.createElement('div'); hdr.className='ws-header';
+  var titleInp=document.createElement('input'); titleInp.className='ws-title-input'; titleInp.type='text';
+  titleInp.value=s.title||''; titleInp.placeholder='Writing sample title (e.g. Pigeon River Capstone)';
+  hdr.appendChild(titleInp);
+
+  var stCls={'draft':'sp-draft','polished':'sp-polished','submitted':'sp-submitted'};
+  var sp=document.createElement('span'); sp.id='wssp-'+s.id;
+  sp.className='status-pill '+(stCls[s.status||'draft']||'sp-draft');
+  sp.textContent=s.status||'draft'; hdr.appendChild(sp);
+  card.appendChild(hdr);
+
+  // Row 1: type, status, pages
+  var row1=document.createElement('div'); row1.className='ws-row';
+
+  // Type
+  var tf=document.createElement('div'); tf.className='ws-field';
+  var tl=document.createElement('div'); tl.className='ws-lbl'; tl.textContent='Sample type'; tf.appendChild(tl);
+  var tSel=document.createElement('select'); tSel.className='ws-sel'; tSel.id='wst-'+s.id;
+  ['Scientific research report','Technical field report','Statement of purpose','Personal statement','Policy memo','Literature review','Lab report','Other'].forEach(function(opt){
+    var o=document.createElement('option'); o.value=opt; o.textContent=opt; if(opt===s.type) o.selected=true; tSel.appendChild(o);
+  }); tf.appendChild(tSel); row1.appendChild(tf);
+
+  // Status
+  var sf=document.createElement('div'); sf.className='ws-field';
+  var sl=document.createElement('div'); sl.className='ws-lbl'; sl.textContent='Polish status'; sf.appendChild(sl);
+  var sSel=document.createElement('select'); sSel.className='ws-sel'; sSel.id='wss-'+s.id;
+  [{v:'draft',l:'Draft'},{v:'polished',l:'Polished'},{v:'submitted',l:'Submitted ✓'}].forEach(function(opt){
+    var o=document.createElement('option'); o.value=opt.v; o.textContent=opt.l; if(opt.v===s.status) o.selected=true; sSel.appendChild(o);
+  });
+  sSel.onchange=function(){
+    sp.className='status-pill '+(stCls[sSel.value]||'sp-draft'); sp.textContent=sSel.value;
+  }; sf.appendChild(sSel); row1.appendChild(sf);
+
+  // Pages
+  var pf=document.createElement('div'); pf.className='ws-field';
+  var pl=document.createElement('div'); pl.className='ws-lbl'; pl.textContent='Length (pages)'; pf.appendChild(pl);
+  var pInp=document.createElement('input'); pInp.className='ws-input'; pInp.type='text'; pInp.id='wsp-'+s.id;
+  pInp.value=s.pages||''; pInp.placeholder='e.g. 12'; pf.appendChild(pInp); row1.appendChild(pf);
+
+  card.appendChild(row1);
+
+  // Sending to — usage tags
+  var ul=document.createElement('div'); ul.className='ws-lbl'; ul.style.marginTop='.5rem'; ul.textContent='Sending to (programs / applications)'; card.appendChild(ul);
+  var tagsDiv=document.createElement('div'); tagsDiv.className='usage-tags'; tagsDiv.id='wstags-'+s.id;
+  (s.usages||[]).forEach(function(u){ tagsDiv.appendChild(makeTag(s.id, u)); }); card.appendChild(tagsDiv);
+
+  var addRow=document.createElement('div'); addRow.className='add-usage-row';
+  var addInp=document.createElement('input'); addInp.className='add-usage-input'; addInp.type='text';
+  addInp.placeholder='Type a program name and press Enter'; addInp.id='wsadd-'+s.id;
+  addInp.onkeydown=function(e){ if(e.key==='Enter'&&addInp.value.trim()){ addUsage(s.id,addInp.value.trim()); addInp.value=''; }};
+  var addBtn=document.createElement('button'); addBtn.className='save-btn'; addBtn.textContent='Add';
+  addBtn.onclick=function(){ if(addInp.value.trim()){ addUsage(s.id,addInp.value.trim()); addInp.value=''; }};
+  addRow.appendChild(addInp); addRow.appendChild(addBtn); card.appendChild(addRow);
+
+  // Notes
+  var nl=document.createElement('div'); nl.className='ws-lbl'; nl.style.marginTop='.5rem'; nl.textContent='Notes / tailoring instructions'; card.appendChild(nl);
+  var ta=document.createElement('textarea'); ta.className='ws-ta'; ta.id='wsn-'+s.id;
+  ta.placeholder='Notes on this sample — when to use it, how to tailor it, what to highlight...';
+  ta.value=s.notes||''; card.appendChild(ta);
+
+  // Actions
+  var acts=document.createElement('div'); acts.className='ws-actions';
+  var sb=document.createElement('button'); sb.className='save-btn'; sb.textContent='Save';
+  var fl=document.createElement('span'); fl.className='saved-flash'; fl.id='wsfl-'+s.id; fl.textContent='Saved ✓';
+  sb.onclick=function(){ saveCard(s.id); fl.style.display='inline'; setTimeout(function(){fl.style.display='none';},2000); };
+  acts.appendChild(sb); acts.appendChild(fl);
+  var db=document.createElement('button'); db.className='del-btn'; db.textContent='Remove';
+  db.onclick=function(){ if(!confirm('Remove this writing sample?')) return; var arr=loadSamples().filter(function(x){return x.id!==s.id;}); saveSamples(arr); render(); };
+  acts.appendChild(db); card.appendChild(acts);
+  return card;
+}
+
+function makeTag(sid, text){
+  var tag=document.createElement('span'); tag.className='usage-tag'; tag.dataset.val=text;
+  var t=document.createElement('span'); t.textContent=text; tag.appendChild(t);
+  var x=document.createElement('button'); x.innerHTML='&times;'; x.title='Remove';
+  x.onclick=function(){ removeUsage(sid,text); }; tag.appendChild(x);
+  return tag;
+}
+
+function addUsage(sid,text){
+  var arr=loadSamples(); var s=arr.find(function(x){return x.id===sid;}); if(!s) return;
+  if(!s.usages) s.usages=[];
+  if(s.usages.indexOf(text)<0){ s.usages.push(text); saveSamples(arr); }
+  var tagsDiv=document.getElementById('wstags-'+sid);
+  if(tagsDiv){ tagsDiv.appendChild(makeTag(sid,text)); }
+  updateSummary();
+}
+
+function removeUsage(sid,text){
+  var arr=loadSamples(); var s=arr.find(function(x){return x.id===sid;}); if(!s) return;
+  s.usages=(s.usages||[]).filter(function(u){return u!==text;}); saveSamples(arr);
+  var tagsDiv=document.getElementById('wstags-'+sid);
+  if(tagsDiv){ Array.from(tagsDiv.children).forEach(function(tag){ if(tag.dataset.val===text) tag.remove(); }); }
+  updateSummary();
+}
+
+function saveCard(id){
+  var arr=loadSamples(); var idx=arr.findIndex(function(s){return s.id===id;}); if(idx<0) return;
+  arr[idx].title=document.querySelector('#wsc-'+id+' .ws-title-input').value;
+  arr[idx].type=document.getElementById('wst-'+id).value;
+  arr[idx].status=document.getElementById('wss-'+id).value;
+  arr[idx].pages=document.getElementById('wsp-'+id).value;
+  arr[idx].notes=document.getElementById('wsn-'+id).value;
+  saveSamples(arr); updateSummary();
+}
+
+function addCard(){
+  var arr=loadSamples();
+  arr.push({id:'ws'+Date.now(),title:'',type:'Scientific research report',status:'draft',pages:'',usages:[],notes:''});
+  saveSamples(arr); render();
+  // Scroll to new card
+  setTimeout(function(){ var cards=document.querySelectorAll('.ws-card'); if(cards.length) cards[cards.length-1].scrollIntoView({behavior:'smooth',block:'start'}); },100);
+}
+
+// Init
+seedDefaults();
+render();
+</script>
+</body>
+</html>

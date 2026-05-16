@@ -161,6 +161,18 @@ html:not(.dark) {
 .opp-link:hover{background:var(--teal-bg)}
 .opp-link-sec{color:var(--blue);border-color:var(--blue)}
 .opp-link-sec:hover{background:var(--blue-bg)}
+
+@media print {
+  .global-nav, .gnav-inner, button, .add-btn, .del-btn, .save-btn,
+  .mode-tabs, .list-filters, .browse-actions, .item-actions, .note-area,
+  .saved-flash, .app-row, .app-actions, footer, .footer { display:none!important }
+  body { background:#fff!important; color:#000!important }
+  .page { max-width:100%!important; padding:0!important }
+  .page-header { border-bottom:1px solid #ccc!important }
+  .item-card, .app-card, .prof-card, .browse-card { 
+    border:1px solid #ccc!important; break-inside:avoid; margin-bottom:.5rem!important }
+}
+
 </style>
 <script>
 (function(){
@@ -184,6 +196,7 @@ html:not(.dark) {
     <a href="erin_applications.html" class="gnav-link">&#128196; Applications</a>
     <a href="erin_proftracker.html" class="gnav-link active">&#128100; Professors</a>
     <a href="erin_reftracker.html" class="gnav-link">&#128393; References</a>
+    <a href="erin_writing_samples.html" class="gnav-link">&#128196; Writing</a>
     <a href="erin_outreach.html" class="gnav-link">&#9997;&#65039; Outreach</a>
     <button class="gnav-toggle" id="theme-toggle" onclick="__toggleTheme()" title="Toggle dark/light">&#127769;</button>
   </div>
@@ -212,7 +225,8 @@ html:not(.dark) {
 
   <button class="add-btn" onclick="addCard('')">&#43; Add program manually</button>
 
-  <div id="prof-body"></div>
+  <button onclick="window.print()" style="font-size:12px;font-weight:500;padding:5px 12px;border:.5px solid var(--bds);border-radius:6px;background:var(--bg2);color:var(--t2);cursor:pointer;font-family:var(--fn);display:flex;align-items:center;gap:5px">&#128438; Print / Export</button>
+<div id="prof-body"></div>
 
   <p class="footer">Data drawn from your saved opportunities in My List.<br><br>
     <a href="erin_mylist.html">&#8592; My List</a>&nbsp;&nbsp;<a href="index.html">&#8592; Home</a></p>
@@ -382,6 +396,19 @@ function render(){
       if(p.itemSrc){ var sl=document.createElement('a'); sl.href=p.itemSrc; sl.target='_blank'; sl.className='opp-link opp-link-sec'; sl.innerHTML='&#128203; In site'; lnkRow.appendChild(sl); }
       left.appendChild(lnkRow);
     }
+    // Show linked applications
+    try{
+      var apps=JSON.parse(localStorage.getItem('erin_applications_v1')||'[]');
+      var linked=apps.filter(function(a){return a.professor===p.id;});
+      if(linked.length){
+        var appRow=document.createElement('div'); appRow.style.cssText='display:flex;flex-wrap:wrap;gap:5px;margin-top:4px';
+        var appLbl=document.createElement('span'); appLbl.style.cssText='font-size:10px;font-weight:600;color:var(--t3);text-transform:uppercase;letter-spacing:.06em;margin-right:3px'; appLbl.textContent='Applications:'; appRow.appendChild(appLbl);
+        linked.forEach(function(a){
+          var tag=document.createElement('span'); tag.style.cssText='font-size:11px;padding:2px 7px;border-radius:999px;background:var(--blue-bg);color:var(--blue);'; tag.textContent=(a.programTitle||'').split('—')[0].trim().slice(0,35); appRow.appendChild(tag);
+        });
+        left.appendChild(appRow);
+      }
+    }catch(e){}
     header.appendChild(left);
 
     var sp=document.createElement('span'); sp.className='status-pill '+statusPillClass(p.status||'none'); sp.id='spl-'+p.id; sp.textContent=statusLabel(p.status||'none');
