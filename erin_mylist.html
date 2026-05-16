@@ -426,7 +426,22 @@ function buildFilters(elId, cur, fn){
   });
 }
 
+
+// ── Merge saved item with ALL array to get enriched fields (url, pay, etc.) ──
+function mergeWithAll(it){
+  var match = ALL.find(function(a){ return a.id === it.id; });
+  if(!match) return it;
+  var merged = Object.assign({}, match, it); // saved fields override ALL (preserve notes, _done etc.)
+  // But for enrichment fields missing from saved, take from ALL
+  var enrichFields = ['url','url_label','url2','url2_label','pay','location','benefits','stipend','extbody','contact'];
+  enrichFields.forEach(function(f){
+    if(!merged[f] && match[f]) merged[f] = match[f];
+  });
+  return merged;
+}
+
 function makeListCard(it){
+  it=mergeWithAll(it);
   var card=el('div','item-card'+(it._done?' done':''));
   card.id='card-'+it.id;
 
