@@ -178,8 +178,8 @@ body{padding:0 0 3rem}
       +(isApp?row('Portal',d.portalUrl||''):'')
       +(isApp?row('Portal login',d.portalLogin||''):'')
       +'</div>';
-    if(m.body){ h+=sec('About this opportunity')+'<div class="pk-body">'+esc(m.body)+'</div>'; }
-    if(m.extbody){ h+=sec('Additional detail')+'<div class="pk-body">'+esc(m.extbody)+'</div>'; }
+    var about=m.extbody||m.body||'';
+    if(about){ h+=sec('About this opportunity')+'<div class="pk-body">'+esc(about)+'</div>'; }
     if(Array.isArray(m.pills)&&m.pills.length){ h+=sec('Focus areas')+'<div class="pk-body">'+m.pills.map(esc).join('  ·  ')+'</div>'; }
     if(m.contact){ h+=sec('How to apply / contact')+'<div class="pk-body">'+esc(m.contact)+'</div>'; }
 
