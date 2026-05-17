@@ -4,95 +4,64 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Writing Samples Tracker — What's Next for Erin</title>
-<style>
-:root{--bg:#ffffff;--bg2:#f4f5ef;--bg3:#e6e8d8;--t1:#2a2a28;--t2:#4a4a45;--t3:#666464;--bd:rgba(60,123,32,0.18);--bds:rgba(60,123,32,0.32);--r1:8px;--r2:12px;--fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;--teal:#4e9836;--teal-bg:#eaf3e5;--teal-t:#3c7b20;--blue:#3a7878;--blue-bg:#e5f0f0;--amber:#8a6f00;--amber-bg:#f5f0db;--amber-t:#6b5500;--red:#993c1d;--red-bg:#faece7}
-body{font-family:var(--fn);color:var(--t1);background:var(--bg3);padding:0 0 2rem;margin:0}
-.page{max-width:720px;margin:0 auto;padding:0 1rem}
-.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.5rem}
-.page-header-eyebrow{font-size:11px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-t);margin-bottom:.25rem}
-.page-header-title{font-size:24px;font-weight:700;color:var(--t1);line-height:1.2;letter-spacing:-.02em;margin-bottom:.2rem}
-.page-header-sub{font-size:13px;color:var(--t2);line-height:1.5}
-/* ── Global nav ── */
-.global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
-.gnav-wrap{max-width:1100px;margin:0 auto;display:flex;align-items:center}
-.gnav-inner{flex:1;min-width:0;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:0 2px;row-gap:2px;scrollbar-width:none}
-.gnav-divider{display:inline-block;width:1px;height:16px;background:var(--bd);margin:0 4px;flex-shrink:0}
-.gnav-group{display:inline-flex;align-items:center;gap:0;flex-shrink:0}
-.gnav-group-label{font-size:9px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;margin-right:4px;flex-shrink:0;padding:2px 6px;border-radius:4px;line-height:1}
-.gnav-group-label.gl-track{background:var(--teal-bg);color:var(--teal-t)}
-.gnav-group-label.gl-browse{background:var(--blue-bg);color:var(--blue)}
-.gnav-group-label.gl-write{background:var(--amber-bg);color:var(--amber-t)}
-.gnav-home{font-size:12px;font-weight:600;color:var(--t1);text-decoration:none;padding:8px 8px 8px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:2px;flex-shrink:0}
-.gnav-home:hover{color:var(--teal-t)}
-.gnav-link{font-size:11px;font-weight:500;color:var(--t3);text-decoration:none;padding:8px 5px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
-.gnav-link:hover{color:var(--t1)}
-.gnav-link.active{color:var(--teal-t);border-bottom-color:var(--teal)}
-.gnav-toggle{flex-shrink:0;width:34px;height:34px;margin-left:8px;display:flex;align-items:center;justify-content:center;border:1.5px solid var(--bd);background:var(--bg2);color:var(--t2);cursor:pointer;border-radius:6px;font-family:var(--fn);font-size:14px;line-height:1;transition:background .12s,border-color .12s}
-.gnav-toggle:hover{background:var(--bg3);border-color:var(--bds);color:var(--t1)}
-html.dark .gnav-toggle{background:var(--bg2);border-color:var(--bd);color:var(--t1)}
-html.dark{color-scheme:dark;--bg:#1c2018;--bg2:#242b1e;--bg3:#18201a;--t1:#f0ede0;--t2:#c0c4a8;--t3:#9dc8c8;--bd:rgba(157,200,200,0.15);--bds:rgba(157,200,200,0.28);--teal-bg:#2a3d22;--teal-t:#8fc87a;--blue-bg:#1e3535;--amber-bg:#3d3510;--amber-t:#d4c47a}
-/* Cards */
-.ws-card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:.85rem}
-.ws-header{display:flex;align-items:flex-start;justify-content:space-between;gap:.75rem;margin-bottom:.5rem}
-.ws-title-input{font-size:14px;font-weight:600;color:var(--t1);background:transparent;border:none;outline:none;width:100%;font-family:var(--fn);padding:0}
-.ws-title-input:focus{border-bottom:1.5px solid var(--teal)}
-.status-pill{font-size:11px;font-weight:600;padding:3px 10px;border-radius:999px;white-space:nowrap;flex-shrink:0}
-.sp-draft{background:#faeeda;color:#854f0b}
-.sp-polished{background:#e5f0f0;color:#3a7878}
-.sp-submitted{background:var(--teal-bg);color:var(--teal-t)}
-.ws-row{display:grid;grid-template-columns:1fr 1fr;gap:.65rem;margin-bottom:.6rem}
-.ws-field{display:flex;flex-direction:column;gap:3px}
-.ws-lbl{font-size:10px;font-weight:600;color:var(--t3);text-transform:uppercase;letter-spacing:.07em}
-.ws-input{font-size:12px;color:var(--t2);background:transparent;border:none;border-bottom:.5px solid var(--bd);outline:none;padding:2px 0;font-family:var(--fn);width:100%}
-.ws-input:focus{border-bottom-color:var(--teal);color:var(--t1)}
-.ws-sel{font-size:12px;color:var(--t2);background:var(--bg2);border:.5px solid var(--bd);border-radius:4px;padding:3px 6px;outline:none;font-family:var(--fn)}
-.ws-ta{font-size:12px;color:var(--t2);background:transparent;border:.5px solid var(--bd);border-radius:5px;padding:5px 8px;outline:none;font-family:var(--fn);resize:vertical;min-height:48px;width:100%;box-sizing:border-box;margin-top:3px;line-height:1.5}
-.ws-ta:focus{border-color:var(--teal);color:var(--t1)}
-/* Usage tags */
-.usage-tags{display:flex;flex-wrap:wrap;gap:4px;margin:.4rem 0}
-.usage-tag{font-size:11px;padding:2px 8px;border-radius:999px;background:var(--teal-bg);color:var(--teal-t);display:flex;align-items:center;gap:4px}
-.usage-tag button{background:none;border:none;color:var(--teal-t);cursor:pointer;font-size:12px;padding:0;line-height:1}
-.add-usage-row{display:flex;gap:.5rem;align-items:center;margin-top:.3rem}
-.add-usage-input{font-size:12px;flex:1;padding:3px 8px;border:.5px solid var(--bd);border-radius:5px;background:var(--bg2);color:var(--t1);outline:none;font-family:var(--fn)}
-.add-usage-input:focus{border-color:var(--teal)}
-/* Actions */
-.ws-actions{display:flex;gap:.75rem;align-items:center;margin-top:.6rem;padding-top:.6rem;border-top:.5px solid var(--bd)}
-.save-btn{font-size:12px;font-weight:500;padding:4px 12px;border-radius:5px;border:.5px solid var(--teal);background:transparent;color:var(--teal-t);cursor:pointer;font-family:var(--fn)}
-.save-btn:hover{background:var(--teal-bg)}
-.saved-flash{font-size:11px;color:var(--teal-t);display:none}
-.del-btn{font-size:12px;color:var(--red);background:none;border:none;cursor:pointer;margin-left:auto;font-family:var(--fn)}
-/* Add button */
-.add-btn{display:flex;align-items:center;gap:.5rem;padding:.7rem 1.1rem;background:transparent;border:.5px solid var(--bds);border-radius:var(--r1);color:var(--t2);font-size:13px;cursor:pointer;font-family:var(--fn);margin-bottom:1.25rem;width:auto}
-.add-btn:hover{background:var(--bg2);color:var(--t1)}
-/* Summary */
-.summary-bar{display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:1.25rem;padding:.75rem 1rem;background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r1);font-size:12px}
-.summary-stat{display:flex;flex-direction:column;align-items:center;gap:2px}
-.summary-num{font-size:18px;font-weight:700;color:var(--t1)}
-.summary-lbl{font-size:10px;color:var(--t3);text-transform:uppercase;letter-spacing:.06em}
-/* Empty */
-.empty{text-align:center;padding:2rem 1rem;color:var(--t3)}
-.empty-icon{font-size:32px;margin-bottom:.5rem}
-.empty-title{font-size:15px;font-weight:500;color:var(--t2);margin-bottom:.25rem}
-.footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
-</style>
+<link rel="stylesheet" href="styles.css">
+<script src="site.js"></script>
 <script>
-/* ── Sync hook: must run before any tracker script's fetch() calls. ── */
 (function(){
-  if(!window.fetch || window.__erinSyncHooked) return;
-  window.__erinSyncHooked = true;
-  var ORIG = window.fetch;
-  window.fetch = function(){
-    var args = arguments, p = ORIG.apply(this, args);
-    try {
-      var url = (args[0] && args[0].url) || args[0] || '';
-      if(typeof url === 'string' && url.indexOf('api.jsonbin.io') > -1){
-        p.then(function(r){ if(r && (r.ok || r.status === 200)) localStorage.setItem('erin_last_sync', Date.now().toString()); }).catch(function(){});
-      }
-    } catch(e) {}
-    return p;
-  };
+  var saved=localStorage.getItem('erin_theme');
+  var prefersDark=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches;
+  if(saved==='dark'||(!saved&&prefersDark)) document.documentElement.classList.add('dark');
+  function upBtn(){var b=document.getElementById('theme-toggle');if(b)b.innerHTML=document.documentElement.classList.contains('dark')?'&#9728;':'&#127769;';}
+  document.addEventListener('DOMContentLoaded',upBtn);
+  window.__toggleTheme=function(){var d=document.documentElement.classList.toggle('dark');localStorage.setItem('erin_theme',d?'dark':'light');upBtn();};
 })();
 </script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+/* Custom writing-page color accent */
+:root{--accent:#3c7b20;--accent-bg:#eaf3e5;--accent-t:#2d6016}
+html.dark{--accent:#8fc87a;--accent-bg:#2a3d22;--accent-t:#a8e095}
+
+.ws-card{background:var(--bg);border:1px solid var(--bd);border-radius:10px;padding:1rem 1.1rem;margin-bottom:.75rem}
+.ws-card.st-final{border-left:3px solid var(--accent)}
+.ws-card.st-submitted{border-left:3px solid #4a90d9}
+.ws-title{font-size:14px;font-weight:600;color:var(--t1);margin-bottom:.15rem}
+.ws-type-pill{font-size:11px;font-weight:600;padding:2px 9px;border-radius:999px;white-space:nowrap;background:var(--accent-bg);color:var(--accent-t)}
+.ws-meta{display:flex;flex-wrap:wrap;gap:.35rem;align-items:center;margin-bottom:.5rem}
+.ws-status-pill{font-size:11px;font-weight:600;padding:2px 9px;border-radius:999px;white-space:nowrap}
+.wst-idea{background:var(--bg2);color:var(--t3);border:1px solid var(--bd)}
+.wst-draft{background:var(--amber-bg);color:var(--amber-t)}
+.wst-revision{background:#e8f0ff;color:#3355aa}
+.wst-final{background:var(--accent-bg);color:var(--accent-t)}
+.wst-submitted{background:#ddeeff;color:#1a5fa8}
+.ws-usages{font-size:11px;color:var(--t3);margin-bottom:.4rem}
+.ws-usages span{display:inline-block;background:var(--bg2);border:1px solid var(--bd);border-radius:5px;padding:1px 7px;margin:2px 3px 2px 0;font-size:11px;color:var(--t2)}
+.ws-acts{display:flex;gap:.5rem;align-items:center;flex-wrap:wrap;margin-top:.5rem}
+.ws-btn{font-size:11px;font-weight:500;padding:3px 10px;border-radius:6px;border:1px solid var(--bd);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn)}
+.ws-btn:hover{background:var(--bg2)}
+.ws-btn.danger{color:var(--red-t);border-color:var(--red-t)}
+.ws-note{margin-top:.5rem;padding:.5rem .6rem;background:var(--bg2);border-radius:6px;font-size:12px;color:var(--t2);line-height:1.5;display:none}
+.ws-note.open{display:block}
+.ws-note-edit{width:100%;border:none;background:transparent;font-size:12px;font-family:var(--fn);color:var(--t2);resize:vertical;min-height:60px;outline:none;line-height:1.5}
+.ws-words{font-size:11px;color:var(--t3)}
+.add-form{background:var(--bg);border:1px solid var(--bds);border-radius:10px;padding:1rem 1.1rem;margin-bottom:1rem}
+.add-form h3{font-size:13px;font-weight:600;color:var(--t1);margin-bottom:.75rem}
+.form-row{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:.5rem}
+.form-field{display:flex;flex-direction:column;gap:.2rem;flex:1;min-width:140px}
+.form-label{font-size:11px;color:var(--t3);font-weight:500}
+.form-input{font-size:13px;padding:5px 9px;border-radius:6px;border:1px solid var(--bd);background:var(--bg2);color:var(--t1);font-family:var(--fn)}
+.form-input:focus{outline:none;border-color:var(--accent)}
+.form-select{font-size:13px;padding:5px 9px;border-radius:6px;border:1px solid var(--bd);background:var(--bg2);color:var(--t1);font-family:var(--fn)}
+.form-save-btn{font-size:12px;font-weight:600;padding:6px 18px;border-radius:7px;border:none;background:var(--accent);color:#fff;cursor:pointer;font-family:var(--fn)}
+.form-cancel-btn{font-size:12px;padding:6px 14px;border-radius:7px;border:1px solid var(--bd);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn)}
+.filter-pill{font-size:11px;padding:3px 10px;border-radius:999px;border:1px solid var(--bd);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn)}
+.filter-pill.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.empty{text-align:center;padding:3rem 1rem;color:var(--t3)}
+.empty-icon{font-size:2rem;margin-bottom:.5rem}
+.empty-title{font-size:14px;font-weight:600;color:var(--t2);margin-bottom:.25rem}
+.empty-body{font-size:12px;line-height:1.6}
+@media print{.gnav-toggle,.ws-acts,.add-form,.filter-pill{display:none}}
+</style>
 </head>
 <body>
 
@@ -105,6 +74,7 @@ html.dark{color-scheme:dark;--bg:#1c2018;--bg2:#242b1e;--bg3:#18201a;--t1:#f0ede
       <div class="gnav-group">
         <span class="gnav-group-label gl-track">Track</span>
         <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
+        <a href="erin_compare.html" class="gnav-link">&#9878; Compare</a>
         <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
         <a href="erin_applications.html" class="gnav-link">&#128196; Apps</a>
         <a href="erin_proftracker.html" class="gnav-link">&#128100; Profs</a>
@@ -123,7 +93,7 @@ html.dark{color-scheme:dark;--bg:#1c2018;--bg2:#242b1e;--bg3:#18201a;--t1:#f0ede
       <div class="gnav-group">
         <span class="gnav-group-label gl-write">Write</span>
         <a href="erin_materials.html" class="gnav-link">&#128218; Materials</a>
-        <a href="erin_writing_samples.html" class="gnav-link active">&#9997; Writing</a>
+        <a href="erin_writing_samples.html" class="gnav-link">&#9997; Writing</a>
         <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
       </div>
     </div>
@@ -134,277 +104,153 @@ html.dark{color-scheme:dark;--bg:#1c2018;--bg2:#242b1e;--bg3:#18201a;--t1:#f0ede
 <div class="page">
 
 <div class="page-header">
-  <div class="page-header-eyebrow">What's Next for Erin</div>
-  <div class="page-header-title">Writing Samples Tracker</div>
-  <div class="page-header-sub">Track writing samples — which one goes where, its polish status, and any notes on tailoring</div>
+  <div class="page-header-eyebrow">What&rsquo;s Next for Erin</div>
+  <div class="page-header-title">Writing Samples</div>
+  <div class="page-header-sub">Track your statements, essays, and writing samples by status and target program &mdash; <span id="ws-count-summary" style="color:var(--accent);font-weight:500"></span></div>
 </div>
 
-<div class="summary-bar" id="ws-summary">
-  <div class="summary-stat"><div class="summary-num" id="wss-total">0</div><div class="summary-lbl">samples</div></div>
-  <div class="summary-stat"><div class="summary-num" id="wss-polished">0</div><div class="summary-lbl">polished</div></div>
-  <div class="summary-stat"><div class="summary-num" id="wss-submitted">0</div><div class="summary-lbl">submitted</div></div>
-  <div class="summary-stat"><div class="summary-num" id="wss-usages">0</div><div class="summary-lbl">applications using a sample</div></div>
+<div class="tip">&#9997;&nbsp; Keep a master version of each document in your Materials Library and track which programs each version targets here. Most grad applications want an SOP (1&ndash;2 pages), a personal statement, and optionally a writing sample or research statement.</div>
+
+<div style="margin-top:1rem;display:flex;gap:.5rem;align-items:center;flex-wrap:wrap">
+  <button class="form-save-btn" id="show-add-btn" onclick="showAddForm()" style="font-size:12px;padding:5px 14px">+ Add document</button>
+  <div id="filter-bar" style="display:flex;gap:.35rem;flex-wrap:wrap"></div>
 </div>
 
-<div style="background:var(--teal-bg);border-left:3px solid var(--teal);border-radius:var(--r1);padding:.65rem 1rem;font-size:13px;color:var(--t2);margin-bottom:1.1rem;line-height:1.55">
-  <strong style="color:var(--teal-t)">Tip:</strong> For each sample, list which applications/programs you're sending it to under "Sending to." Most grad programs want a scientific writing sample — Erin's Pigeon River capstone is the strongest choice. Some fellowships want a policy memo or personal statement instead.
-</div>
+<div id="add-form-container" style="display:none;margin-top:.75rem"></div>
+<div id="ws-body" style="margin-top:.75rem"></div>
 
-<button class="add-btn" onclick="addCard()">
-  <span style="font-size:16px">+</span> Add writing sample
-</button>
-
-<div id="ws-body"></div>
-
-<p class="footer">Writing sample tracker — synced via the primary device · <a href="erin_outreach.html" style="color:var(--teal-t)">&#9997; Outreach &amp; email templates</a> &nbsp; <a href="erin_applications.html" style="color:var(--teal-t)">&#128196; Application tracker</a></p>
-
-</div>
+</div><!-- /.page -->
 
 <script>
-(function(){
-  var saved=localStorage.getItem('erin_theme');
-  var prefersDark=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches;
-  if(saved==='dark'||(!saved&&prefersDark)) document.documentElement.classList.add('dark');
-  function upBtn(){var b=document.getElementById('theme-toggle');if(b)b.innerHTML=document.documentElement.classList.contains('dark')?'&#9728;':'&#127769;';}
-  document.addEventListener('DOMContentLoaded',upBtn);
-  window.__toggleTheme=function(){var d=document.documentElement.classList.toggle('dark');localStorage.setItem('erin_theme',d?'dark':'light');upBtn();};
-})();
-
-var WSSTORE='erin_writing_samples';
-function loadSamples(){ try{ return JSON.parse(localStorage.getItem(WSSTORE)||'[]'); }catch(e){ return []; } }
-function saveSamples(arr){ localStorage.setItem(WSSTORE,JSON.stringify(arr)); }
-
-// ── Cloud sync (primary-device pattern, same as Applications / Prof / Ref trackers) ──
-var BIN='6a039aa4250b1311c33f2bac',KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
+var STORE='erin_writing_samples';
+var BIN='6a039aa4250b1311c33f2bac';
+var KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
 var PRIMARY_KEY='erin_primary_device';
 function isPrimary(){ return localStorage.getItem(PRIMARY_KEY)==='1'; }
+function loadSamples(){ try{ return JSON.parse(localStorage.getItem(STORE)||'[]'); }catch(e){ return []; } }
+function saveSamples(arr){ localStorage.setItem(STORE,JSON.stringify(arr)); }
 function pushSamples(arr){
   if(!isPrimary()) return;
   fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
-    .then(function(r){return r.json();})
-    .then(function(data){
-      var rec=data.record||{};
-      rec.writing=arr;
-      fetch('https://api.jsonbin.io/v3/b/'+BIN,{method:'PUT',headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},body:JSON.stringify(rec)});
-    }).catch(function(){});
+  .then(function(r){return r.json();})
+  .then(function(data){
+    var rec=data.record||{}; rec.writingSamples=arr;
+    return fetch('https://api.jsonbin.io/v3/b/'+BIN,{method:'PUT',headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},body:JSON.stringify(rec)});
+  }).catch(function(){});
 }
-function pullSamples(cb){
+function pullCloud(){
   fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
-    .then(function(r){return r.json();})
-    .then(function(data){
-      if(data.record && Array.isArray(data.record.writing)){
-        if(isPrimary()){ pushSamples(loadSamples()); }
-        else { saveSamples(data.record.writing); }
-      } else if(isPrimary()){ pushSamples(loadSamples()); }
-      if(cb) cb();
-    }).catch(function(){ if(cb) cb(); });
+  .then(function(r){return r.json();})
+  .then(function(data){
+    if(data.record&&data.record.writingSamples){ saveSamples(data.record.writingSamples); render(); }
+  }).catch(function(){});
 }
-
-// Pre-seed with Erin's known writing samples
-function seedDefaults(){
-  var arr=loadSamples();
-  if(arr.length) return; // already has data
-  arr=[
-    {id:'ws1',title:'Pigeon River Lead Contamination — Senior Capstone (ES 495)',type:'Scientific research report',status:'polished',pages:'18',usages:['NC State — Hurricane Helene Forest Recovery','Oklahoma State — Watershed Hydrology'],notes:'Primary scientific writing sample. Field sampling + water quality analysis + GIS + contaminated site context. Strong fit for any water quality or environmental science program.'},
-    {id:'ws2',title:'Statement of Purpose — Environmental Science MS',type:'Statement of purpose',status:'draft',pages:'2',usages:[],notes:'SOP draft on outreach page. Tailor the opening paragraph for each program.'},
-    {id:'ws3',title:'Wetlands Assessment Field Report (GEOL 455)',type:'Technical field report',status:'polished',pages:'8',usages:[],notes:'Wetland delineation methodology, soil and vegetation surveys. Good secondary sample for programs focused on wetland science.'},
-  ];
-  saveSamples(arr);
-}
-
-function updateSummary(){
-  var arr=loadSamples();
-  document.getElementById('wss-total').textContent=arr.length;
-  document.getElementById('wss-polished').textContent=arr.filter(function(s){return s.status==='polished';}).length;
-  document.getElementById('wss-submitted').textContent=arr.filter(function(s){return s.status==='submitted';}).length;
-  var totalUsages=arr.reduce(function(n,s){return n+(s.usages||[]).length;},0);
-  document.getElementById('wss-usages').textContent=totalUsages;
-}
-
-function render(){
-  var arr=loadSamples();
-  updateSummary();
-  var body=document.getElementById('ws-body');
-  body.innerHTML='';
-  if(!arr.length){
-    body.innerHTML='<div class="empty"><div class="empty-icon">&#128196;</div><div class="empty-title">No writing samples yet</div><div class="empty-body">Click &ldquo;Add writing sample&rdquo; to start tracking. Your Pigeon River capstone is a great first entry.</div></div>';
-    return;
+var DOC_TYPES=['Statement of Purpose','Personal Statement','Research Statement','Writing Sample','Diversity Statement','Other'];
+var STATUSES=[
+  {v:'idea',l:'Idea / not started',cls:'wst-idea'},
+  {v:'draft',l:'Draft',cls:'wst-draft'},
+  {v:'revision',l:'In revision',cls:'wst-revision'},
+  {v:'final',l:'Final ✓',cls:'wst-final'},
+  {v:'submitted',l:'Submitted',cls:'wst-submitted'}
+];
+function statusCls(s){ var m=STATUSES.find(function(x){return x.v===s;}); return m?m.cls:'wst-idea'; }
+function statusLabel(s){ var m=STATUSES.find(function(x){return x.v===s;}); return m?m.l:s; }
+var currentFilter='all';
+function el(tag,cls,text){ var e=document.createElement(tag); if(cls)e.className=cls; if(text!==undefined)e.textContent=text; return e; }
+function makeCard(sample){
+  var card=el('div','ws-card st-'+(sample.status||'idea'));
+  card.id='wscard-'+sample.id;
+  card.appendChild(el('div','ws-title',sample.title||'Untitled'));
+  var meta=el('div','ws-meta');
+  if(sample.type){ meta.appendChild(el('span','ws-type-pill',sample.type)); }
+  meta.appendChild(el('span','ws-status-pill '+statusCls(sample.status),statusLabel(sample.status)));
+  if(sample.words){ var ww=el('span','ws-words',sample.words+' words'); meta.appendChild(ww); }
+  card.appendChild(meta);
+  if(sample.usages&&sample.usages.length){
+    var ubox=el('div','ws-usages'); ubox.innerHTML='Sending to: ';
+    sample.usages.forEach(function(u){ ubox.appendChild(el('span','',u)); });
+    card.appendChild(ubox);
   }
-  arr.forEach(function(s){ body.appendChild(makeCard(s)); });
-}
-
-function makeCard(s){
-  var card=document.createElement('div'); card.className='ws-card'; card.id='wsc-'+s.id;
-
-  // Header row: title + status pill
-  var hdr=document.createElement('div'); hdr.className='ws-header';
-  var titleInp=document.createElement('input'); titleInp.className='ws-title-input'; titleInp.type='text';
-  titleInp.value=s.title||''; titleInp.placeholder='Writing sample title (e.g. Pigeon River Capstone)';
-  hdr.appendChild(titleInp);
-
-  var stCls={'draft':'sp-draft','polished':'sp-polished','submitted':'sp-submitted'};
-  var sp=document.createElement('span'); sp.id='wssp-'+s.id;
-  sp.className='status-pill '+(stCls[s.status||'draft']||'sp-draft');
-  sp.textContent=s.status||'draft'; hdr.appendChild(sp);
-  card.appendChild(hdr);
-
-  // Row 1: type, status, pages
-  var row1=document.createElement('div'); row1.className='ws-row';
-
-  // Type
-  var tf=document.createElement('div'); tf.className='ws-field';
-  var tl=document.createElement('div'); tl.className='ws-lbl'; tl.textContent='Sample type'; tf.appendChild(tl);
-  var tSel=document.createElement('select'); tSel.className='ws-sel'; tSel.id='wst-'+s.id;
-  ['Scientific research report','Technical field report','Statement of purpose','Personal statement','Policy memo','Literature review','Lab report','Other'].forEach(function(opt){
-    var o=document.createElement('option'); o.value=opt; o.textContent=opt; if(opt===s.type) o.selected=true; tSel.appendChild(o);
-  }); tf.appendChild(tSel); row1.appendChild(tf);
-
-  // Status
-  var sf=document.createElement('div'); sf.className='ws-field';
-  var sl=document.createElement('div'); sl.className='ws-lbl'; sl.textContent='Polish status'; sf.appendChild(sl);
-  var sSel=document.createElement('select'); sSel.className='ws-sel'; sSel.id='wss-'+s.id;
-  [{v:'draft',l:'Draft'},{v:'polished',l:'Polished'},{v:'submitted',l:'Submitted ✓'}].forEach(function(opt){
-    var o=document.createElement('option'); o.value=opt.v; o.textContent=opt.l; if(opt.v===s.status) o.selected=true; sSel.appendChild(o);
-  });
-  sSel.onchange=function(){
-    sp.className='status-pill '+(stCls[sSel.value]||'sp-draft'); sp.textContent=sSel.value;
-  }; sf.appendChild(sSel); row1.appendChild(sf);
-
-  // Pages
-  var pf=document.createElement('div'); pf.className='ws-field';
-  var pl=document.createElement('div'); pl.className='ws-lbl'; pl.textContent='Length (pages)'; pf.appendChild(pl);
-  var pInp=document.createElement('input'); pInp.className='ws-input'; pInp.type='text'; pInp.id='wsp-'+s.id;
-  pInp.value=s.pages||''; pInp.placeholder='e.g. 12'; pf.appendChild(pInp); row1.appendChild(pf);
-
-  card.appendChild(row1);
-
-  // Sending to — usage tags
-  var ul=document.createElement('div'); ul.className='ws-lbl'; ul.style.marginTop='.5rem'; ul.textContent='Sending to (programs / applications)'; card.appendChild(ul);
-  var tagsDiv=document.createElement('div'); tagsDiv.className='usage-tags'; tagsDiv.id='wstags-'+s.id;
-  (s.usages||[]).forEach(function(u){ tagsDiv.appendChild(makeTag(s.id, u)); }); card.appendChild(tagsDiv);
-
-  var addRow=document.createElement('div'); addRow.className='add-usage-row';
-  var addInp=document.createElement('input'); addInp.className='add-usage-input'; addInp.type='text';
-  addInp.placeholder='Type a program name and press Enter'; addInp.id='wsadd-'+s.id;
-  addInp.onkeydown=function(e){ if(e.key==='Enter'&&addInp.value.trim()){ addUsage(s.id,addInp.value.trim()); addInp.value=''; }};
-  var addBtn=document.createElement('button'); addBtn.className='save-btn'; addBtn.textContent='Add';
-  addBtn.onclick=function(){ if(addInp.value.trim()){ addUsage(s.id,addInp.value.trim()); addInp.value=''; }};
-  addRow.appendChild(addInp); addRow.appendChild(addBtn); card.appendChild(addRow);
-
-  // Notes
-  var nl=document.createElement('div'); nl.className='ws-lbl'; nl.style.marginTop='.5rem'; nl.textContent='Notes / tailoring instructions'; card.appendChild(nl);
-  var ta=document.createElement('textarea'); ta.className='ws-ta'; ta.id='wsn-'+s.id;
-  ta.placeholder='Notes on this sample — when to use it, how to tailor it, what to highlight...';
-  ta.value=s.notes||''; card.appendChild(ta);
-
-  // Actions
-  var acts=document.createElement('div'); acts.className='ws-actions';
-  var sb=document.createElement('button'); sb.className='save-btn'; sb.textContent='Save';
-  var fl=document.createElement('span'); fl.className='saved-flash'; fl.id='wsfl-'+s.id; fl.textContent='Saved ✓';
-  sb.onclick=function(){ saveCard(s.id); fl.style.display='inline'; setTimeout(function(){fl.style.display='none';},2000); };
-  acts.appendChild(sb); acts.appendChild(fl);
-  var db=document.createElement('button'); db.className='del-btn'; db.textContent='Remove';
-  db.onclick=function(){ if(!confirm('Remove this writing sample?')) return; var arr=loadSamples().filter(function(x){return x.id!==s.id;}); saveSamples(arr); pushSamples(arr); render(); };
-  acts.appendChild(db); card.appendChild(acts);
+  var noteBox=el('div','ws-note'+(sample.note?' open':'')); noteBox.id='wsnote-'+sample.id;
+  var noteTA=el('textarea','ws-note-edit'); noteTA.placeholder='Notes, feedback, to-dos…'; noteTA.value=sample.note||'';
+  noteTA.onblur=function(){ var arr=loadSamples(); var s=arr.find(function(x){return x.id===sample.id;}); if(s){s.note=noteTA.value;saveSamples(arr);pushSamples(arr);} };
+  noteBox.appendChild(noteTA); card.appendChild(noteBox);
+  var acts=el('div','ws-acts');
+  var statusSel=document.createElement('select'); statusSel.className='form-select'; statusSel.style.fontSize='11px';
+  STATUSES.forEach(function(s){ var o=document.createElement('option'); o.value=s.v; o.textContent=s.l; if(sample.status===s.v)o.selected=true; statusSel.appendChild(o); });
+  statusSel.onchange=function(){ var arr=loadSamples(); var s=arr.find(function(x){return x.id===sample.id;}); if(s){s.status=statusSel.value;saveSamples(arr);pushSamples(arr);render();} };
+  acts.appendChild(statusSel);
+  var noteBtn=el('button','ws-btn','Note'); noteBtn.onclick=function(){ noteBox.classList.toggle('open'); }; acts.appendChild(noteBtn);
+  var editBtn=el('button','ws-btn','Edit'); editBtn.onclick=function(){ showEditForm(sample.id); }; acts.appendChild(editBtn);
+  var delBtn=el('button','ws-btn danger','Remove');
+  delBtn.onclick=function(){ if(!confirm('Remove "'+sample.title+'"?'))return; var arr=loadSamples().filter(function(x){return x.id!==sample.id;}); saveSamples(arr);pushSamples(arr);render(); };
+  acts.appendChild(delBtn);
+  card.appendChild(acts);
   return card;
 }
-
-function makeTag(sid, text){
-  var tag=document.createElement('span'); tag.className='usage-tag'; tag.dataset.val=text;
-  var t=document.createElement('span'); t.textContent=text; tag.appendChild(t);
-  var x=document.createElement('button'); x.innerHTML='&times;'; x.title='Remove';
-  x.onclick=function(){ removeUsage(sid,text); }; tag.appendChild(x);
-  return tag;
-}
-
-function addUsage(sid,text){
-  var arr=loadSamples(); var s=arr.find(function(x){return x.id===sid;}); if(!s) return;
-  if(!s.usages) s.usages=[];
-  if(s.usages.indexOf(text)<0){ s.usages.push(text); saveSamples(arr); pushSamples(arr); }
-  var tagsDiv=document.getElementById('wstags-'+sid);
-  if(tagsDiv){ tagsDiv.appendChild(makeTag(sid,text)); }
-  updateSummary();
-}
-
-function removeUsage(sid,text){
-  var arr=loadSamples(); var s=arr.find(function(x){return x.id===sid;}); if(!s) return;
-  s.usages=(s.usages||[]).filter(function(u){return u!==text;}); saveSamples(arr); pushSamples(arr);
-  var tagsDiv=document.getElementById('wstags-'+sid);
-  if(tagsDiv){ Array.from(tagsDiv.children).forEach(function(tag){ if(tag.dataset.val===text) tag.remove(); }); }
-  updateSummary();
-}
-
-function saveCard(id){
-  var arr=loadSamples(); var idx=arr.findIndex(function(s){return s.id===id;}); if(idx<0) return;
-  arr[idx].title=document.querySelector('#wsc-'+id+' .ws-title-input').value;
-  arr[idx].type=document.getElementById('wst-'+id).value;
-  arr[idx].status=document.getElementById('wss-'+id).value;
-  arr[idx].pages=document.getElementById('wsp-'+id).value;
-  arr[idx].notes=document.getElementById('wsn-'+id).value;
-  saveSamples(arr); pushSamples(arr); updateSummary();
-}
-
-function addCard(){
-  var arr=loadSamples();
-  arr.push({id:'ws'+Date.now(),title:'',type:'Scientific research report',status:'draft',pages:'',usages:[],notes:''});
-  saveSamples(arr); pushSamples(arr); render();
-  // Scroll to new card
-  setTimeout(function(){ var cards=document.querySelectorAll('.ws-card'); if(cards.length) cards[cards.length-1].scrollIntoView({behavior:'smooth',block:'start'}); },100);
-}
-
-// Init — seed defaults locally, render, then pull from cloud. On the primary device the
-// pull pushes local up (preserves every existing sample). On secondary devices the
-// pull overwrites local with cloud, so all devices stay consistent.
-seedDefaults();
-render();
-pullSamples(function(){ render(); });
-</script>
-
-<script>
-/* ── Sync indicator: shows "Synced X ago" in the nav, auto-updates every 30s ── */
-(function(){
-  var ORIG_FETCH = window.fetch;
-  if(ORIG_FETCH && !window.__erinSyncHooked){
-    window.__erinSyncHooked = true;
-    window.fetch = function(){
-      var args = arguments, p = ORIG_FETCH.apply(this, args);
-      try {
-        var url = (args[0] && args[0].url) || args[0] || '';
-        if(typeof url === 'string' && url.indexOf('api.jsonbin.io') > -1){
-          p.then(function(r){ if(r && (r.ok || r.status === 200)) localStorage.setItem('erin_last_sync', Date.now().toString()); }).catch(function(){});
-        }
-      } catch(e) {}
-      return p;
-    };
+function render(){
+  var samples=loadSamples();
+  var body=document.getElementById('ws-body'); body.innerHTML='';
+  var final=samples.filter(function(s){return s.status==='final'||s.status==='submitted';}).length;
+  var sum=document.getElementById('ws-count-summary');
+  if(sum) sum.textContent=samples.length+' document'+(samples.length===1?'':'s')+' · '+final+' ready';
+  var filtered=currentFilter==='all'?samples:samples.filter(function(s){return s.status===currentFilter;});
+  var fb=document.getElementById('filter-bar'); fb.innerHTML='';
+  var allBtn=el('button','filter-pill'+(currentFilter==='all'?' active':''),'All ('+samples.length+')');
+  allBtn.onclick=function(){currentFilter='all';render();}; fb.appendChild(allBtn);
+  STATUSES.forEach(function(s){
+    var cnt=samples.filter(function(x){return x.status===s.v;}).length; if(!cnt)return;
+    var btn=el('button','filter-pill'+(currentFilter===s.v?' active':''),s.l+' ('+cnt+')');
+    btn.onclick=(function(v){return function(){currentFilter=v;render();};})(s.v); fb.appendChild(btn);
+  });
+  if(!filtered.length){
+    var emp=el('div','empty');
+    emp.innerHTML='<div class="empty-icon">&#9997;</div><div class="empty-title">'+(samples.length?'No matches':'No documents yet')+'</div><div class="empty-body">'+(samples.length?'Try a different filter.':'Click "+ Add document" to start tracking your writing samples and essays.')+'</div>';
+    body.appendChild(emp); return;
   }
-  function fmtAgo(ts){
-    if(!ts) return 'never';
-    var s=Math.floor((Date.now()-ts)/1000);
-    if(s<5) return 'just now';
-    if(s<60) return s+'s ago';
-    var m=Math.floor(s/60); if(m<60) return m+'m ago';
-    var h=Math.floor(m/60); if(h<24) return h+'h ago';
-    return Math.floor(h/24)+'d ago';
-  }
-  function render(){
-    var el=document.getElementById('gnav-sync'); if(!el) return;
-    var ts=parseInt(localStorage.getItem('erin_last_sync')||'0',10);
-    el.textContent = ts ? '✓ Synced '+fmtAgo(ts) : '— not synced';
-  }
-  function setup(){
-    var inner=document.querySelector('.gnav-inner');
-    if(!inner || document.getElementById('gnav-sync')) return;
-    var span=document.createElement('span');
-    span.id='gnav-sync'; span.className='gnav-sync'; span.title='Last cloud sync';
-    span.style.cssText='font-size:10px;color:var(--t3);padding:3px 8px;background:var(--bg2);border-radius:4px;white-space:nowrap;flex-shrink:0;margin-left:10px;border:.5px solid var(--bd)';
-    inner.appendChild(span);
+  filtered.forEach(function(s){ body.appendChild(makeCard(s)); });
+}
+function buildForm(existing){
+  var form=el('div','add-form');
+  form.innerHTML='<h3>'+(existing?'Edit document':'Add document')+'</h3>';
+  function field(lbl,inputEl){ var w=el('div','form-field'); w.appendChild(el('label','form-label',lbl)); w.appendChild(inputEl); return w; }
+  var titleIn=el('input','form-input'); titleIn.placeholder='e.g. SOP — Environmental Science (NCSU)'; titleIn.value=existing?existing.title||'':'';
+  var typeIn=document.createElement('select'); typeIn.className='form-select';
+  DOC_TYPES.forEach(function(t){ var o=document.createElement('option'); o.value=t; o.textContent=t; if(existing&&existing.type===t)o.selected=true; typeIn.appendChild(o); });
+  var wordsIn=el('input','form-input'); wordsIn.type='number'; wordsIn.placeholder='Word count'; wordsIn.value=existing?existing.words||'':'';
+  var usagesIn=el('input','form-input'); usagesIn.placeholder='Programs (comma-separated)'; usagesIn.value=existing&&existing.usages?existing.usages.join(', '):'';
+  var statusSel=document.createElement('select'); statusSel.className='form-select';
+  STATUSES.forEach(function(s){ var o=document.createElement('option'); o.value=s.v; o.textContent=s.l; if(existing&&existing.status===s.v)o.selected=true; statusSel.appendChild(o); });
+  var r1=el('div','form-row'); r1.appendChild(field('Document title *',titleIn)); r1.appendChild(field('Type',typeIn)); form.appendChild(r1);
+  var r2=el('div','form-row'); r2.appendChild(field('Word count',wordsIn)); r2.appendChild(field('Status',statusSel)); form.appendChild(r2);
+  var r3=el('div','form-row'); r3.appendChild(field('Sending to (programs)',usagesIn)); form.appendChild(r3);
+  var btnRow=el('div',''); btnRow.style.cssText='display:flex;gap:.5rem;margin-top:.25rem';
+  var saveBtn=el('button','form-save-btn',existing?'Save changes':'Add document');
+  saveBtn.onclick=function(){
+    var title=titleIn.value.trim(); if(!title){titleIn.focus();return;}
+    var arr=loadSamples();
+    var usages=usagesIn.value.split(',').map(function(s){return s.trim();}).filter(Boolean);
+    if(existing){ var s=arr.find(function(x){return x.id===existing.id;}); if(s){s.title=title;s.type=typeIn.value;s.words=wordsIn.value.trim();s.status=statusSel.value;s.usages=usages;} }
+    else { arr.push({id:'ws-'+Date.now()+'-'+Math.random().toString(36).slice(2,6),title:title,type:typeIn.value,words:wordsIn.value.trim(),status:statusSel.value,usages:usages,note:''}); }
+    saveSamples(arr); pushSamples(arr); hideAddForm(); render();
+  };
+  btnRow.appendChild(saveBtn);
+  var cancelBtn=el('button','form-cancel-btn','Cancel'); cancelBtn.onclick=hideAddForm; btnRow.appendChild(cancelBtn);
+  form.appendChild(btnRow); return form;
+}
+function showAddForm(){ var c=document.getElementById('add-form-container'); c.innerHTML=''; c.style.display='block'; c.appendChild(buildForm(null)); document.getElementById('show-add-btn').style.display='none'; }
+function showEditForm(id){ var s=loadSamples().find(function(x){return x.id===id;}); if(!s)return; var c=document.getElementById('add-form-container'); c.innerHTML=''; c.style.display='block'; c.appendChild(buildForm(s)); document.getElementById('show-add-btn').style.display='none'; }
+function hideAddForm(){ var c=document.getElementById('add-form-container'); c.innerHTML=''; c.style.display='none'; document.getElementById('show-add-btn').style.display=''; }
+document.addEventListener('DOMContentLoaded',function(){
+  if(isPrimary()){
+    var arr=loadSamples();
     render();
-    setInterval(render,30000);
-    window.addEventListener('erin-sync', render);
+    if(arr.length>0){ pushSamples(arr); } // heartbeat: keep JSONbin current
+    else { pullCloud(); }                  // recovery: localStorage empty, restore from cloud
+  } else {
+    pullCloud(); // secondary: always read from cloud
   }
-  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',setup);
-  else setup();
-})();
+});
 </script>
 </body>
 </html>

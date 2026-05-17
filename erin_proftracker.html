@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
 <title>Erin Lamberton &#8212; Professor Contact Tracker</title>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -155,7 +156,37 @@ html:not(.dark){
 .ref-guide-body ul:last-child{margin-bottom:0}
 .ref-guide-body li{margin-bottom:.35rem}
 .ref-guide-body strong{color:var(--t1);font-weight:600}
+
+/* ── Interaction log ── */
+.log-section{margin-top:.65rem;padding-top:.6rem;border-top:.5px solid var(--bd)}
+.log-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:.4rem}
+.log-title{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--t3)}
+.log-add-btn{font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px;border:1px solid var(--teal);background:transparent;color:var(--teal-t);cursor:pointer;font-family:var(--fn)}
+.log-add-btn:hover{background:var(--teal-bg)}
+.log-empty{font-size:12px;color:var(--t3);font-style:italic;padding:.2rem 0 .35rem}
+.log-entry{display:flex;align-items:flex-start;gap:.5rem;padding:.4rem 0;border-bottom:.5px solid var(--bd)}
+.log-entry:last-child{border-bottom:none}
+.log-date{font-size:11px;color:var(--t3);white-space:nowrap;padding-top:2px;min-width:72px}
+.log-type-pill{font-size:10px;font-weight:600;padding:2px 7px;border-radius:999px;white-space:nowrap;flex-shrink:0}
+.lt-email{background:var(--blue-bg);color:var(--blue)}
+.lt-reply{background:var(--teal-bg);color:var(--teal-t)}
+.lt-call{background:var(--amber-bg);color:var(--amber-t)}
+.lt-followup{background:var(--purple-bg);color:var(--purple-t)}
+.lt-inperson{background:var(--red-bg);color:var(--red-t)}
+.lt-other{background:var(--bg2);color:var(--t2);border:.5px solid var(--bd)}
+.log-text{font-size:12px;color:var(--t2);line-height:1.5;flex:1;min-width:0}
+.log-del{font-size:11px;color:var(--t3);background:none;border:none;cursor:pointer;padding:1px 4px;font-family:var(--fn);flex-shrink:0}
+.log-del:hover{color:#c0392b}
+.log-form{margin-top:.5rem;padding:.6rem .75rem;background:var(--bg2);border-radius:var(--r1);border:.5px solid var(--bd)}
+.log-form-row{display:flex;gap:.45rem;flex-wrap:wrap;margin-bottom:.45rem;align-items:center}
+.log-form-select,.log-form-date{font-size:12px;padding:5px 8px;border-radius:var(--r1);border:1px solid var(--bds);background:var(--bg);color:var(--t1);font-family:var(--fn);cursor:pointer}
+.log-form-select:focus,.log-form-date:focus{outline:none;border-color:var(--teal)}
+.log-form-input{flex:1;font-size:12px;padding:5px 8px;border-radius:var(--r1);border:1px solid var(--bds);background:var(--bg);color:var(--t1);font-family:var(--fn);min-width:180px}
+.log-form-input:focus{outline:none;border-color:var(--teal)}
+.log-save-btn{font-size:12px;font-weight:500;padding:4px 14px;border-radius:999px;border:none;background:var(--teal);color:#fff;cursor:pointer;font-family:var(--fn)}
+.log-cancel-btn{font-size:12px;padding:4px 10px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn)}
 </style>
+<script src="site.js"></script>
 <script>
 (function(){
   var saved=localStorage.getItem('erin_theme');
@@ -164,24 +195,6 @@ html:not(.dark){
   function upBtn(){var b=document.getElementById('theme-toggle');if(b)b.innerHTML=document.documentElement.classList.contains('dark')?'&#9728;':'&#127769;';}
   document.addEventListener('DOMContentLoaded',upBtn);
   window.__toggleTheme=function(){var d=document.documentElement.classList.toggle('dark');localStorage.setItem('erin_theme',d?'dark':'light');upBtn();};
-})();
-</script>
-<script>
-/* ── Sync hook: must run before any tracker script's fetch() calls. ── */
-(function(){
-  if(!window.fetch || window.__erinSyncHooked) return;
-  window.__erinSyncHooked = true;
-  var ORIG = window.fetch;
-  window.fetch = function(){
-    var args = arguments, p = ORIG.apply(this, args);
-    try {
-      var url = (args[0] && args[0].url) || args[0] || '';
-      if(typeof url === 'string' && url.indexOf('api.jsonbin.io') > -1){
-        p.then(function(r){ if(r && (r.ok || r.status === 200)) localStorage.setItem('erin_last_sync', Date.now().toString()); }).catch(function(){});
-      }
-    } catch(e) {}
-    return p;
-  };
 })();
 </script>
 </head>
@@ -196,9 +209,10 @@ html:not(.dark){
       <div class="gnav-group">
         <span class="gnav-group-label gl-track">Track</span>
         <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
+        <a href="erin_compare.html" class="gnav-link">&#9878; Compare</a>
         <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
         <a href="erin_applications.html" class="gnav-link">&#128196; Apps</a>
-        <a href="erin_proftracker.html" class="gnav-link active">&#128100; Profs</a>
+        <a href="erin_proftracker.html" class="gnav-link">&#128100; Profs</a>
         <a href="erin_reftracker.html" class="gnav-link">&#128393; Refs</a>
         <a href="erin_archive.html" class="gnav-link">&#128193; Archive</a>
       </div>
@@ -352,21 +366,86 @@ function pullProfs(){
   fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
   .then(function(r){return r.json();})
   .then(function(data){
-    if(data.record && data.record.profs){
-      var cloud=data.record.profs;
-      var local=loadProfs();
-      if(isPrimary()){
-        // Primary device: local is truth — push local to cloud
-        pushProfs(local);
-      } else {
-        // Secondary device: cloud wins — overwrite local
-        saveProfs(cloud);
-      }
-    }
+    if(data.record && data.record.profs){ saveProfs(data.record.profs); }
     render();
   }).catch(function(){ render(); });
 }
 
+
+/* ── Interaction log helpers ── */
+var LOG_TYPES=[
+  {v:'email',l:'Email sent'},
+  {v:'reply',l:'Reply received'},
+  {v:'call',l:'Call / Zoom'},
+  {v:'followup',l:'Follow-up sent'},
+  {v:'inperson',l:'In person'},
+  {v:'other',l:'Other'}
+];
+function logPillCls(t){return{email:'lt-email',reply:'lt-reply',call:'lt-call',followup:'lt-followup',inperson:'lt-inperson',other:'lt-other'}[t]||'lt-other';}
+function logTypeLabel(t){var x=LOG_TYPES.find(function(o){return o.v===t;});return x?x.l:'Other';}
+
+function deleteLogEntry(profId,entryId){
+  var arr=loadProfs();
+  var prof=arr.find(function(p){return p.id===profId;});
+  if(!prof||!prof.log) return;
+  prof.log=prof.log.filter(function(e){return e.id!==entryId;});
+  saveProfs(arr); pushProfs(arr);
+}
+
+function makeLogEntryEl(profId,entry,listEl,titleEl,logArr){
+  var row=document.createElement('div'); row.className='log-entry'; row.id='le-'+entry.id;
+  var date=document.createElement('span'); date.className='log-date'; date.textContent=(entry.date||'').slice(0,10);
+  var pill=document.createElement('span'); pill.className='log-type-pill '+logPillCls(entry.type); pill.textContent=logTypeLabel(entry.type);
+  var txt=document.createElement('span'); txt.className='log-text'; txt.textContent=entry.text||'';
+  var del=document.createElement('button'); del.type='button'; del.className='log-del'; del.textContent='✕'; del.title='Delete entry';
+  del.onclick=(function(pid,eid){return function(){
+    if(!confirm('Delete this log entry?')) return;
+    deleteLogEntry(pid,eid);
+    var el=document.getElementById('le-'+eid); if(el) el.remove();
+    var arr=loadProfs(); var prof=arr.find(function(p){return p.id===pid;});
+    if(titleEl) titleEl.textContent='Interaction log'+(prof&&prof.log&&prof.log.length?' ('+prof.log.length+')':'');
+    var empty=listEl.querySelector('.log-empty');
+    if(listEl.querySelectorAll('.log-entry').length===0&&!empty){
+      var e=document.createElement('div'); e.className='log-empty'; e.textContent='No entries yet.'; listEl.appendChild(e);
+    }
+  };})(profId,entry.id);
+  row.appendChild(date); row.appendChild(pill); row.appendChild(txt); row.appendChild(del);
+  return row;
+}
+
+function makeLogForm(profId,listEl,titleEl){
+  var form=document.createElement('div'); form.className='log-form';
+  var row1=document.createElement('div'); row1.className='log-form-row';
+  var sel=document.createElement('select'); sel.className='log-form-select';
+  LOG_TYPES.forEach(function(t){ var o=document.createElement('option'); o.value=t.v; o.textContent=t.l; sel.appendChild(o); });
+  var dateInp=document.createElement('input'); dateInp.type='date'; dateInp.className='log-form-date';
+  dateInp.value=new Date().toISOString().slice(0,10);
+  var textInp=document.createElement('input'); textInp.type='text'; textInp.className='log-form-input';
+  textInp.placeholder='Brief note (e.g. "Replied positively — lab has openings for Fall 2027")';
+  row1.appendChild(sel); row1.appendChild(dateInp); row1.appendChild(textInp);
+  form.appendChild(row1);
+  var btnRow=document.createElement('div'); btnRow.style.cssText='display:flex;gap:.45rem';
+  var saveBtn=document.createElement('button'); saveBtn.type='button'; saveBtn.className='log-save-btn'; saveBtn.textContent='Add entry';
+  saveBtn.onclick=function(){
+    var arr=loadProfs();
+    var prof=arr.find(function(p){return p.id===profId;});
+    if(!prof) return;
+    if(!prof.log) prof.log=[];
+    var entry={id:'log-'+Date.now()+'-'+Math.random().toString(36).slice(2,5),date:dateInp.value,type:sel.value,text:textInp.value.trim()};
+    prof.log.push(entry);
+    saveProfs(arr); pushProfs(arr);
+    var empty=listEl.querySelector('.log-empty'); if(empty) empty.remove();
+    listEl.insertBefore(makeLogEntryEl(profId,entry,listEl,titleEl,prof.log),listEl.firstChild);
+    if(titleEl) titleEl.textContent='Interaction log ('+prof.log.length+')';
+    textInp.value=''; dateInp.value=new Date().toISOString().slice(0,10);
+    form.style.display='none';
+  };
+  var cancelBtn=document.createElement('button'); cancelBtn.type='button'; cancelBtn.className='log-cancel-btn'; cancelBtn.textContent='Cancel';
+  cancelBtn.onclick=function(){ form.style.display='none'; };
+  btnRow.appendChild(saveBtn); btnRow.appendChild(cancelBtn);
+  form.appendChild(btnRow);
+  return form;
+}
 
 function statusPillClass(s){
   return {none:'sp-none',contacted:'sp-contacted',responded:'sp-responded',pursuing:'sp-pursuing',notfit:'sp-notfit'}[s]||'sp-none';
@@ -547,23 +626,25 @@ function render(){
       document.getElementById('spl-'+p.id).textContent=statusLabel(s);
       document.getElementById('spl-'+p.id).className='status-pill '+statusPillClass(s);
     };
-    sf.appendChild(sel); row.appendChild(sf);
-    card.appendChild(row);
-
-    var nf=document.createElement('div'); nf.className='prof-field'; nf.style.marginBottom='.6rem';
-    var nl=document.createElement('div'); nl.className='prof-lbl'; nl.textContent='Notes / next steps'; nf.appendChild(nl);
-    var ta=document.createElement('textarea'); ta.className='prof-ta'; ta.id='pn-'+p.id; ta.placeholder='Notes, response summary, next steps...'; ta.value=p.notes||''; nf.appendChild(ta);
-    card.appendChild(nf);
-
-    var acts=document.createElement('div'); acts.className='prof-actions';
-    var sb=document.createElement('button'); sb.className='save-btn'; sb.textContent='Save';
-    sb.onclick=(function(pid){return function(){ saveCard(pid); };})(p.id);
-    acts.appendChild(sb);
-    var fl=document.createElement('span'); fl.className='saved-flash'; fl.id='pfl-'+p.id; fl.textContent='Saved ✓'; acts.appendChild(fl);
-    var db=document.createElement('button'); db.className='del-btn'; db.textContent='Remove';
-    db.onclick=(function(pid){return function(){ deleteCard(pid); };})(p.id);
-    acts.appendChild(db);
     card.appendChild(acts);
+
+    // ── Interaction log section ──
+    var logSec=document.createElement('div'); logSec.className='log-section';
+    var logHdr=document.createElement('div'); logHdr.className='log-header';
+    var logTitle=document.createElement('span'); logTitle.className='log-title';
+    var logArr=p.log||[];
+    logTitle.textContent='Interaction log'+(logArr.length?' ('+logArr.length+')':'');
+    var logAddBtn=document.createElement('button'); logAddBtn.type='button'; logAddBtn.className='log-add-btn'; logAddBtn.textContent='+ Add entry';
+    logHdr.appendChild(logTitle); logHdr.appendChild(logAddBtn); logSec.appendChild(logHdr);
+    var logList=document.createElement('div');
+    if(!logArr.length){ var emptyEl=document.createElement('div'); emptyEl.className='log-empty'; emptyEl.textContent='No entries yet.'; logList.appendChild(emptyEl); }
+    else { logArr.slice().reverse().forEach(function(entry){ logList.appendChild(makeLogEntryEl(p.id,entry,logList,logTitle,logArr)); }); }
+    logSec.appendChild(logList);
+    var logForm=makeLogForm(p.id,logList,logTitle); logForm.style.display='none';
+    logSec.appendChild(logForm);
+    logAddBtn.onclick=function(){ logForm.style.display=logForm.style.display==='none'?'block':'none'; };
+    card.appendChild(logSec);
+
     body.appendChild(card);
   });
 }
@@ -586,7 +667,15 @@ var _origProfRender=render;
 render=function(){ _origProfRender.apply(this,arguments); scrollToHash(); };
 window.addEventListener('hashchange', scrollToHash);
 
-pullProfs();
+// JSONbin-first init: primary heartbeat-pushes to cloud; secondary always pulls
+if(isPrimary()){
+  var _arr=loadProfs();
+  render();
+  if(_arr.length>0){ pushProfs(_arr); } // heartbeat: keep JSONbin current
+  else { pullProfs(); }                  // recovery: localStorage empty, restore from cloud
+} else {
+  pullProfs(); // secondary: always read from cloud
+}
 
 // Professor guide collapsible sections
 document.querySelectorAll('.ref-guide-heading').forEach(function(hdr){
@@ -598,22 +687,8 @@ document.querySelectorAll('.ref-guide-heading').forEach(function(hdr){
 </script>
 
 <script>
-/* ── Sync indicator: shows "Synced X ago" in the nav, auto-updates every 30s ── */
+/* ── Kept for compatibility — actual sync now handled by site.js ── */
 (function(){
-  var ORIG_FETCH = window.fetch;
-  if(ORIG_FETCH && !window.__erinSyncHooked){
-    window.__erinSyncHooked = true;
-    window.fetch = function(){
-      var args = arguments, p = ORIG_FETCH.apply(this, args);
-      try {
-        var url = (args[0] && args[0].url) || args[0] || '';
-        if(typeof url === 'string' && url.indexOf('api.jsonbin.io') > -1){
-          p.then(function(r){ if(r && (r.ok || r.status === 200)) localStorage.setItem('erin_last_sync', Date.now().toString()); }).catch(function(){});
-        }
-      } catch(e) {}
-      return p;
-    };
-  }
   function fmtAgo(ts){
     if(!ts) return 'never';
     var s=Math.floor((Date.now()-ts)/1000);
