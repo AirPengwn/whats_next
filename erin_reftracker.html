@@ -62,11 +62,16 @@ a:hover{text-decoration:underline}
 /* ── Global nav ── */
 .global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
 .gnav-wrap{max-width:720px;margin:0 auto;display:flex;align-items:center}
-.gnav-inner{flex:1;min-width:0;display:flex;align-items:center;gap:0;overflow-x:auto;scrollbar-width:none}
-.gnav-inner::-webkit-scrollbar{display:none}
-.gnav-home{font-size:13px;font-weight:600;color:var(--t1);text-decoration:none;padding:11px 12px 11px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:2px;flex-shrink:0}
+.gnav-inner{flex:1;min-width:0;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:0 4px;row-gap:2px;scrollbar-width:none}
+.gnav-divider{display:inline-block;width:1px;height:18px;background:var(--bd);margin:0 6px;flex-shrink:0}
+.gnav-group{display:inline-flex;align-items:center;gap:0;flex-shrink:0}
+.gnav-group-label{font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin-right:6px;flex-shrink:0;padding:3px 7px;border-radius:5px;line-height:1}
+.gnav-group-label.gl-track{background:var(--teal-bg);color:var(--teal-t)}
+.gnav-group-label.gl-browse{background:var(--blue-bg);color:var(--blue)}
+.gnav-group-label.gl-write{background:var(--amber-bg);color:var(--amber-t)}
+.gnav-home{font-size:12px;font-weight:600;color:var(--t1);text-decoration:none;padding:10px 9px 10px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:2px;flex-shrink:0}
 .gnav-home:hover{color:var(--teal-t)}
-.gnav-link{font-size:12px;font-weight:500;color:var(--t3);text-decoration:none;padding:11px 9px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
+.gnav-link{font-size:11px;font-weight:500;color:var(--t3);text-decoration:none;padding:10px 7px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
 .gnav-link:hover{color:var(--t1)}
 .gnav-link.active{color:var(--teal-t);border-bottom-color:var(--teal)}
 .gnav-toggle{flex-shrink:0;width:34px;height:34px;margin-left:8px;display:flex;align-items:center;justify-content:center;border:1.5px solid var(--bd);background:var(--bg2);color:var(--t2);cursor:pointer;border-radius:6px;font-family:var(--fn);font-size:14px;line-height:1;transition:background .12s,border-color .12s}
@@ -192,13 +197,31 @@ html:not(.dark) {
   <div class="gnav-wrap">
     <div class="gnav-inner">
       <a href="index.html" class="gnav-home">&#127968; Home</a>
-    <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
-    <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
-    <a href="erin_applications.html" class="gnav-link">&#128196; Applications</a>
-    <a href="erin_proftracker.html" class="gnav-link">&#128100; Professors</a>
-    <a href="erin_reftracker.html" class="gnav-link active">&#128393; References</a>
-    <a href="erin_writing_samples.html" class="gnav-link">&#9997; Writing</a>
-    <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-track">Track</span>
+        <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
+        <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
+        <a href="erin_applications.html" class="gnav-link">&#128196; Apps</a>
+        <a href="erin_proftracker.html" class="gnav-link">&#128100; Profs</a>
+        <a href="erin_reftracker.html" class="gnav-link active">&#128393; Refs</a>
+        <a href="erin_archive.html" class="gnav-link">&#128193; Archive</a>
+      </div>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-browse">Browse</span>
+        <a href="erin_programs.html" class="gnav-link">&#127979; Programs</a>
+        <a href="erin_internships.html" class="gnav-link">&#128203; Internships</a>
+        <a href="erin_jobs.html" class="gnav-link">&#128188; Jobs</a>
+        <a href="erin_service.html" class="gnav-link">&#127807; Service</a>
+      </div>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-write">Write</span>
+        <a href="erin_materials.html" class="gnav-link">&#128218; Materials</a>
+        <a href="erin_writing_samples.html" class="gnav-link">&#9997; Writing</a>
+        <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
+      </div>
     </div>
     <button class="gnav-toggle" id="theme-toggle" onclick="__toggleTheme()" title="Toggle dark/light mode">&#127769;</button>
   </div>
@@ -318,6 +341,11 @@ var RSTORE = 'erin_ref_letters';
 function loadRefs(){ try{ return JSON.parse(localStorage.getItem(RSTORE)||'[]'); } catch(e){ return []; } }
 function saveRefs(arr){ localStorage.setItem(RSTORE,JSON.stringify(arr)); }
 
+// Primary-device gate — only Erin's laptop writes to cloud. Defined locally so this
+// page doesn't depend on another page having loaded first.
+var PRIMARY_KEY='erin_primary_device';
+function isPrimary(){ return localStorage.getItem(PRIMARY_KEY)==='1'; }
+
 
 function pushRefs(arr){
   if(!isPrimary()) return; // Only primary device writes to cloud
@@ -361,6 +389,29 @@ function statusLbl(s){
   return {pending:'Not yet asked',asked:'Asked',confirmed:'Confirmed yes',submitted:'Letter submitted',declined:'Declined'}[s]||'Not yet asked';
 }
 
+// Chip for a linked application — deep-links into the Applications page card
+function makeAppChip(rid, app){
+  var chip=document.createElement('span');
+  chip.style.cssText='display:inline-flex;align-items:center;gap:3px;font-size:11px;padding:2px 4px 2px 9px;border-radius:999px;background:var(--blue-bg);color:var(--blue);font-weight:500';
+  var lnk=document.createElement('a');
+  lnk.href='erin_applications.html#acard-'+app.id;
+  lnk.style.cssText='color:inherit;text-decoration:none';
+  lnk.textContent=((app.programTitle||'Untitled').split('—')[0].trim()).slice(0,32);
+  chip.appendChild(lnk);
+  var x=document.createElement('button');
+  x.innerHTML='&times;'; x.title='Unlink';
+  x.style.cssText='background:none;border:none;color:var(--blue);cursor:pointer;font-size:14px;padding:0 4px;line-height:1';
+  x.onclick=function(){
+    var arr=loadRefs();
+    var rec=arr.find(function(x){return x.id===rid;});
+    if(!rec) return;
+    rec.applicationIds=(rec.applicationIds||[]).filter(function(id){return id!==app.id;});
+    saveRefs(arr); pushRefs(arr); render();
+  };
+  chip.appendChild(x);
+  return chip;
+}
+
 function saveCard(id){
   var arr=loadRefs();
   var idx=arr.findIndex(function(r){return r.id===id;});
@@ -387,15 +438,16 @@ function updateCardClass(id,status){
 
 function deleteCard(id){
   if(!confirm('Remove this recommender?')) return;
-  saveRefs(loadRefs().filter(function(r){return r.id!==id;}));
+  var arr=loadRefs().filter(function(r){return r.id!==id;});
+  saveRefs(arr); pushRefs(arr);
   render();
 }
 
 function addCard(){
   var arr=loadRefs();
   var id='r'+Date.now();
-  arr.push({id:id,name:'',title:'',email:'',dateAsked:'',status:'pending',materials:'',notes:''});
-  saveRefs(arr); render();
+  arr.push({id:id,name:'',title:'',email:'',dateAsked:'',status:'pending',materials:'',notes:'',applicationIds:[]});
+  saveRefs(arr); pushRefs(arr); render();
   setTimeout(function(){ var el=document.getElementById('rcard-'+id); if(el)el.scrollIntoView({behavior:'smooth',block:'center'}); },100);
 }
 
@@ -500,6 +552,46 @@ function render(){
       var t=document.createElement('textarea'); t.className='ref-ta'; t.id=id; t.value=val||''; t.placeholder=ph||lbl; f.appendChild(t);
       return f;
     }
+    // ── Linked applications (chip multi-select) ──
+    // "Dr. Lee is writing for NC State, LSU, CSU" in one click each. Stored on the
+    // recommender as r.applicationIds=[appId,…]; reverse-rendered on the app card.
+    var appsLbl=document.createElement('div'); appsLbl.className='ref-lbl';
+    appsLbl.style.cssText='margin-top:.5rem;margin-bottom:.3rem'; appsLbl.textContent='Writing letter for these applications';
+    card.appendChild(appsLbl);
+    var appsChips=document.createElement('div'); appsChips.id='rapps-'+r.id;
+    appsChips.style.cssText='display:flex;flex-wrap:wrap;gap:5px;margin-bottom:.65rem;align-items:center';
+    try{
+      var allApps=JSON.parse(localStorage.getItem('erin_applications_v1')||'[]');
+      var selectedIds=r.applicationIds||[];
+      selectedIds.forEach(function(aid){
+        var a=allApps.find(function(x){return x.id===aid;});
+        if(a) appsChips.appendChild(makeAppChip(r.id, a));
+      });
+      var addSel=document.createElement('select');
+      addSel.style.cssText='font-size:11px;padding:3px 8px;border:.5px solid var(--bd);border-radius:5px;background:var(--bg2);color:var(--t2);outline:none;font-family:var(--fn);max-width:280px';
+      var defOpt=document.createElement('option'); defOpt.value=''; defOpt.textContent='+ Add application…'; addSel.appendChild(defOpt);
+      var availableApps=allApps.filter(function(a){ return selectedIds.indexOf(a.id)<0; });
+      if(!availableApps.length){
+        var noneOpt=document.createElement('option'); noneOpt.value=''; noneOpt.disabled=true; noneOpt.textContent='(no other applications yet)'; addSel.appendChild(noneOpt);
+      }
+      availableApps.forEach(function(a){
+        var o=document.createElement('option'); o.value=a.id;
+        o.textContent=((a.programTitle||'Untitled application').split('—')[0].trim()).slice(0,60);
+        addSel.appendChild(o);
+      });
+      addSel.onchange=function(){
+        if(!addSel.value) return;
+        var arr=loadRefs();
+        var rec=arr.find(function(x){return x.id===r.id;});
+        if(!rec) return;
+        if(!rec.applicationIds) rec.applicationIds=[];
+        rec.applicationIds.push(addSel.value);
+        saveRefs(arr); pushRefs(arr); render();
+      };
+      appsChips.appendChild(addSel);
+    }catch(e){}
+    card.appendChild(appsChips);
+
     card.appendChild(ta('Materials sent to them','rm-'+r.id,r.materials,'Resume, SOP draft, program list, deadlines...'));
     card.appendChild(ta('Notes','rno-'+r.id,r.notes,'Response status, follow-up needed, reminders...'));
 
@@ -515,6 +607,24 @@ function render(){
   });
 }
 
+// ── Hash-based deep link: scroll to and highlight a specific recommender card on arrival ──
+function scrollToHash(){
+  var hash=window.location.hash;
+  if(!hash) return;
+  var el=document.querySelector(hash);
+  if(!el) return;
+  setTimeout(function(){
+    el.scrollIntoView({behavior:'smooth',block:'center'});
+    var prev=el.style.boxShadow;
+    el.style.transition='box-shadow .35s';
+    el.style.boxShadow='0 0 0 3px var(--teal)';
+    setTimeout(function(){ el.style.boxShadow=prev||''; },1800);
+  },150);
+}
+var _origRefRender=render;
+render=function(){ _origRefRender.apply(this,arguments); scrollToHash(); };
+window.addEventListener('hashchange', scrollToHash);
+
 pullRefs();
 
 
@@ -525,6 +635,53 @@ document.querySelectorAll('.ref-guide-heading').forEach(function(hdr){
   });
 });
 
+</script>
+
+<script>
+/* ── Sync indicator: shows "Synced X ago" in the nav, auto-updates every 30s ── */
+(function(){
+  var ORIG_FETCH = window.fetch;
+  if(ORIG_FETCH && !window.__erinSyncHooked){
+    window.__erinSyncHooked = true;
+    window.fetch = function(){
+      var args = arguments, p = ORIG_FETCH.apply(this, args);
+      try {
+        var url = (args[0] && args[0].url) || args[0] || '';
+        if(typeof url === 'string' && url.indexOf('api.jsonbin.io') > -1){
+          p.then(function(r){ if(r && (r.ok || r.status === 200)) localStorage.setItem('erin_last_sync', Date.now().toString()); }).catch(function(){});
+        }
+      } catch(e) {}
+      return p;
+    };
+  }
+  function fmtAgo(ts){
+    if(!ts) return 'never';
+    var s=Math.floor((Date.now()-ts)/1000);
+    if(s<5) return 'just now';
+    if(s<60) return s+'s ago';
+    var m=Math.floor(s/60); if(m<60) return m+'m ago';
+    var h=Math.floor(m/60); if(h<24) return h+'h ago';
+    return Math.floor(h/24)+'d ago';
+  }
+  function render(){
+    var el=document.getElementById('gnav-sync'); if(!el) return;
+    var ts=parseInt(localStorage.getItem('erin_last_sync')||'0',10);
+    el.textContent = ts ? '✓ Synced '+fmtAgo(ts) : '— not synced';
+  }
+  function setup(){
+    var wrap=document.querySelector('.gnav-wrap');
+    if(!wrap || document.getElementById('gnav-sync')) return;
+    var span=document.createElement('span');
+    span.id='gnav-sync'; span.className='gnav-sync'; span.title='Last cloud sync';
+    span.style.cssText='font-size:10px;color:var(--t3);margin:0 8px 0 auto;white-space:nowrap;flex-shrink:0';
+    var toggle=document.getElementById('theme-toggle');
+    if(toggle) wrap.insertBefore(span,toggle); else wrap.appendChild(span);
+    render();
+    setInterval(render,30000);
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',setup);
+  else setup();
+})();
 </script>
 </body>
 </html>

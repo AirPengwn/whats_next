@@ -88,11 +88,16 @@ a:hover{text-decoration:underline}
 /* ── Global nav ── */
 .global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
 .gnav-wrap{max-width:720px;margin:0 auto;display:flex;align-items:center}
-.gnav-inner{flex:1;min-width:0;display:flex;align-items:center;gap:0;overflow-x:auto;scrollbar-width:none}
-.gnav-inner::-webkit-scrollbar{display:none}
-.gnav-home{font-size:13px;font-weight:600;color:var(--t1);text-decoration:none;padding:11px 12px 11px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:2px;flex-shrink:0}
+.gnav-inner{flex:1;min-width:0;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:0 4px;row-gap:2px;scrollbar-width:none}
+.gnav-divider{display:inline-block;width:1px;height:18px;background:var(--bd);margin:0 6px;flex-shrink:0}
+.gnav-group{display:inline-flex;align-items:center;gap:0;flex-shrink:0}
+.gnav-group-label{font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin-right:6px;flex-shrink:0;padding:3px 7px;border-radius:5px;line-height:1}
+.gnav-group-label.gl-track{background:var(--teal-bg);color:var(--teal-t)}
+.gnav-group-label.gl-browse{background:var(--blue-bg);color:var(--blue)}
+.gnav-group-label.gl-write{background:var(--amber-bg);color:var(--amber-t)}
+.gnav-home{font-size:12px;font-weight:600;color:var(--t1);text-decoration:none;padding:10px 9px 10px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:2px;flex-shrink:0}
 .gnav-home:hover{color:var(--teal-t)}
-.gnav-link{font-size:12px;font-weight:500;color:var(--t3);text-decoration:none;padding:11px 9px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
+.gnav-link{font-size:11px;font-weight:500;color:var(--t3);text-decoration:none;padding:10px 7px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
 .gnav-link:hover{color:var(--t1)}
 .gnav-link.active{color:var(--teal-t);border-bottom-color:var(--teal)}
 .gnav-toggle{flex-shrink:0;width:34px;height:34px;margin-left:8px;display:flex;align-items:center;justify-content:center;border:1.5px solid var(--bd);background:var(--bg2);color:var(--t2);cursor:pointer;border-radius:6px;font-family:var(--fn);font-size:14px;line-height:1;transition:background .12s,border-color .12s}
@@ -105,11 +110,16 @@ html.dark body{background:var(--bg3);color:var(--t1)}
 /* ── Global nav ── */
 .global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
 .gnav-wrap{max-width:720px;margin:0 auto;display:flex;align-items:center}
-.gnav-inner{flex:1;min-width:0;display:flex;align-items:center;gap:0;overflow-x:auto;scrollbar-width:none}
-.gnav-inner::-webkit-scrollbar{display:none}
-.gnav-home{font-size:13px;font-weight:600;color:var(--t1);text-decoration:none;padding:11px 12px 11px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:2px;flex-shrink:0}
+.gnav-inner{flex:1;min-width:0;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:0 4px;row-gap:2px;scrollbar-width:none}
+.gnav-divider{display:inline-block;width:1px;height:18px;background:var(--bd);margin:0 6px;flex-shrink:0}
+.gnav-group{display:inline-flex;align-items:center;gap:0;flex-shrink:0}
+.gnav-group-label{font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin-right:6px;flex-shrink:0;padding:3px 7px;border-radius:5px;line-height:1}
+.gnav-group-label.gl-track{background:var(--teal-bg);color:var(--teal-t)}
+.gnav-group-label.gl-browse{background:var(--blue-bg);color:var(--blue)}
+.gnav-group-label.gl-write{background:var(--amber-bg);color:var(--amber-t)}
+.gnav-home{font-size:12px;font-weight:600;color:var(--t1);text-decoration:none;padding:10px 9px 10px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:2px;flex-shrink:0}
 .gnav-home:hover{color:var(--teal-t)}
-.gnav-link{font-size:12px;font-weight:500;color:var(--t3);text-decoration:none;padding:11px 9px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
+.gnav-link{font-size:11px;font-weight:500;color:var(--t3);text-decoration:none;padding:10px 7px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
 .gnav-link:hover{color:var(--t1)}
 .gnav-link.active{color:var(--teal-t);border-bottom-color:var(--teal)}
 .gnav-toggle{flex-shrink:0;width:34px;height:34px;margin-left:8px;display:flex;align-items:center;justify-content:center;border:1.5px solid var(--bd);background:var(--bg2);color:var(--t2);cursor:pointer;border-radius:6px;font-family:var(--fn);font-size:14px;line-height:1;transition:background .12s,border-color .12s}
@@ -253,13 +263,31 @@ html:not(.dark) {
   <div class="gnav-wrap">
     <div class="gnav-inner">
       <a href="index.html" class="gnav-home">&#127968; Home</a>
-    <a href="erin_mylist.html" class="gnav-link active">&#9733; My List</a>
-    <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
-    <a href="erin_applications.html" class="gnav-link">&#128196; Applications</a>
-    <a href="erin_proftracker.html" class="gnav-link">&#128100; Professors</a>
-    <a href="erin_reftracker.html" class="gnav-link">&#128393; References</a>
-    <a href="erin_writing_samples.html" class="gnav-link">&#9997; Writing</a>
-    <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-track">Track</span>
+        <a href="erin_mylist.html" class="gnav-link active">&#9733; My List</a>
+        <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
+        <a href="erin_applications.html" class="gnav-link">&#128196; Apps</a>
+        <a href="erin_proftracker.html" class="gnav-link">&#128100; Profs</a>
+        <a href="erin_reftracker.html" class="gnav-link">&#128393; Refs</a>
+        <a href="erin_archive.html" class="gnav-link">&#128193; Archive</a>
+      </div>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-browse">Browse</span>
+        <a href="erin_programs.html" class="gnav-link">&#127979; Programs</a>
+        <a href="erin_internships.html" class="gnav-link">&#128203; Internships</a>
+        <a href="erin_jobs.html" class="gnav-link">&#128188; Jobs</a>
+        <a href="erin_service.html" class="gnav-link">&#127807; Service</a>
+      </div>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-write">Write</span>
+        <a href="erin_materials.html" class="gnav-link">&#128218; Materials</a>
+        <a href="erin_writing_samples.html" class="gnav-link">&#9997; Writing</a>
+        <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
+      </div>
     </div>
     <button class="gnav-toggle" id="theme-toggle" onclick="__toggleTheme()" title="Toggle dark/light mode">&#127769;</button>
   </div>
@@ -278,8 +306,14 @@ html:not(.dark) {
   <span class="pg-title">My Opportunity List</span>
 </div>
 
-<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:.75rem">
-  <div></div>
+<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:.75rem;flex-wrap:wrap;gap:.5rem">
+  <div style="display:flex;gap:6px;flex-wrap:wrap">
+    <button onclick="window.backupAll()" title="Download a JSON snapshot of every store on this device" style="font-size:12px;font-weight:500;padding:5px 12px;border:.5px solid var(--bds);border-radius:6px;background:var(--bg2);color:var(--t2);cursor:pointer;font-family:var(--fn);display:inline-flex;align-items:center;gap:5px">&#128190; Backup all data</button>
+    <label style="font-size:12px;font-weight:500;padding:5px 12px;border:.5px solid var(--bds);border-radius:6px;background:var(--bg2);color:var(--t2);cursor:pointer;font-family:var(--fn);display:inline-flex;align-items:center;gap:5px" title="Restore from a previously-downloaded backup">
+      &#128229; Restore from backup
+      <input type="file" id="restore-file" accept="application/json,.json" style="display:none" onchange="window.restoreAll(this)">
+    </label>
+  </div>
   <button onclick="window.print()" style="font-size:12px;font-weight:500;padding:5px 12px;border:.5px solid var(--bds);border-radius:6px;background:var(--bg2);color:var(--t2);cursor:pointer;font-family:var(--fn);display:flex;align-items:center;gap:5px">&#128438; Print / Export</button>
 </div>
 <div class="mode-tabs">
@@ -365,6 +399,87 @@ function flash(msg){
 
 function addItem(d){ var m=load(); m[d.id]=d; save(m); push(m); }
 function delItem(id){ var m=load(); delete m[id]; save(m); push(m); }
+
+// ── Archive log: rationale capture when items are removed from My List ──
+// Shared store with Applications page ('erin_archive_log', bin key 'archiveLog')
+// so the full history of every passed-on opportunity lives in one place.
+var ARCHIVE_STORE='erin_archive_log';
+function loadArchive(){ try{ return JSON.parse(localStorage.getItem(ARCHIVE_STORE)||'[]'); }catch(e){ return []; } }
+function saveArchive(arr){ localStorage.setItem(ARCHIVE_STORE,JSON.stringify(arr)); }
+function pushArchive(arr){
+  if(!isPrimary()) return;
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+    .then(function(r){return r.json();})
+    .then(function(data){
+      var rec=data.record||{}; rec.archiveLog=arr;
+      fetch('https://api.jsonbin.io/v3/b/'+BIN,{method:'PUT',headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},body:JSON.stringify(rec)});
+    }).catch(function(){});
+}
+function logArchive(entry){
+  if(!entry) return;
+  var arr=loadArchive();
+  entry.id='arch-'+Date.now()+'-'+Math.random().toString(36).slice(2,7);
+  entry.date=new Date().toISOString();
+  arr.push(entry);
+  saveArchive(arr); pushArchive(arr);
+}
+
+// Shared rationale modal — also lives on the Applications page. cb(null) on cancel.
+window.showArchiveModal=function(opts, cb){
+  var TAGS=['too far','no funding','wrong research fit','missed deadline','better option','not competitive','other'];
+  var overlay=document.createElement('div');
+  overlay.style.cssText='position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:9999;display:flex;align-items:center;justify-content:center;padding:1rem;font-family:var(--fn,sans-serif)';
+  var modal=document.createElement('div');
+  modal.style.cssText='background:var(--bg);border:.5px solid var(--bd);border-radius:12px;max-width:440px;width:100%;padding:1.25rem 1.35rem;box-shadow:0 8px 32px rgba(0,0,0,.28);color:var(--t1)';
+  var actionVerb={removed:'Remove from list',declined:'Mark as Declined',waitlisted:'Mark as Waitlisted',accepted:'Mark as Accepted'}[opts.action]||'Archive';
+  var t=document.createElement('div');
+  t.style.cssText='font-size:14px;font-weight:600;color:var(--t1);margin-bottom:.35rem;line-height:1.4';
+  t.textContent=actionVerb+': '+(opts.title||'this item');
+  modal.appendChild(t);
+  if(opts.org){
+    var og=document.createElement('div'); og.style.cssText='font-size:12px;color:var(--t3);margin-bottom:.85rem'; og.textContent=opts.org; modal.appendChild(og);
+  }
+  var hint=document.createElement('div');
+  hint.style.cssText='font-size:12px;color:var(--t2);margin-bottom:.6rem;line-height:1.5';
+  hint.textContent='A one-line rationale helps future-Erin understand the past. Optional, but recommended.';
+  modal.appendChild(hint);
+  var tagsRow=document.createElement('div'); tagsRow.style.cssText='display:flex;flex-wrap:wrap;gap:5px;margin-bottom:.75rem';
+  var pickedTags={};
+  TAGS.forEach(function(tg){
+    var btn=document.createElement('button'); btn.type='button'; btn.textContent=tg;
+    btn.style.cssText='font-size:11px;font-weight:500;padding:4px 10px;border-radius:999px;border:1px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:inherit';
+    btn.onclick=function(){
+      pickedTags[tg]=!pickedTags[tg];
+      btn.style.background=pickedTags[tg]?'var(--teal-bg)':'transparent';
+      btn.style.color=pickedTags[tg]?'var(--teal-t)':'var(--t2)';
+      btn.style.borderColor=pickedTags[tg]?'var(--teal)':'var(--bds)';
+    };
+    tagsRow.appendChild(btn);
+  });
+  modal.appendChild(tagsRow);
+  var input=document.createElement('textarea');
+  input.placeholder='Brief reason (e.g. "Lab too small, advisor not taking students for Fall 2027")';
+  input.style.cssText='width:100%;min-height:60px;font-size:13px;padding:8px 10px;border-radius:8px;border:1px solid var(--bds);background:var(--bg2);color:var(--t1);font-family:inherit;resize:vertical;box-sizing:border-box';
+  modal.appendChild(input);
+  var btnRow=document.createElement('div'); btnRow.style.cssText='display:flex;gap:.6rem;justify-content:flex-end;margin-top:.85rem;flex-wrap:wrap';
+  var cancel=document.createElement('button'); cancel.type='button'; cancel.textContent='Cancel';
+  cancel.style.cssText='font-size:12px;padding:6px 14px;border-radius:6px;border:.5px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:inherit';
+  cancel.onclick=function(){ document.body.removeChild(overlay); cb(null); };
+  var skip=document.createElement('button'); skip.type='button'; skip.textContent='Skip reason';
+  skip.style.cssText='font-size:12px;padding:6px 14px;border-radius:6px;border:.5px solid var(--bds);background:var(--bg2);color:var(--t2);cursor:pointer;font-family:inherit';
+  skip.onclick=function(){ document.body.removeChild(overlay); cb({reason:'',tags:[],itemId:opts.itemId,source:opts.source,action:opts.action,itemTitle:opts.title,itemOrg:opts.org}); };
+  var save=document.createElement('button'); save.type='button'; save.textContent='Save & '+actionVerb.toLowerCase();
+  save.style.cssText='font-size:12px;font-weight:500;padding:6px 16px;border-radius:6px;border:none;background:var(--teal);color:#fff;cursor:pointer;font-family:inherit';
+  save.onclick=function(){
+    var tags=Object.keys(pickedTags).filter(function(k){return pickedTags[k];});
+    document.body.removeChild(overlay);
+    cb({reason:input.value.trim(),tags:tags,itemId:opts.itemId,source:opts.source,action:opts.action,itemTitle:opts.title,itemOrg:opts.org});
+  };
+  btnRow.appendChild(cancel); btnRow.appendChild(skip); btnRow.appendChild(save);
+  modal.appendChild(btnRow);
+  overlay.appendChild(modal); document.body.appendChild(overlay);
+  setTimeout(function(){input.focus();},50);
+};
 
 var PRIMARY_KEY = 'erin_primary_device';
 function isPrimary(){ return localStorage.getItem(PRIMARY_KEY)==='1'; }
@@ -552,9 +667,15 @@ function makeListCard(it){
 
   var rb=el('button','act-remove','Remove');
   rb.onclick=function(){
-    if(!confirm('Remove this item from your list?')) return;
-    delItem(it.id); renderList();
-    if(document.getElementById('mode-browse').style.display!=='none') renderBrowse();
+    window.showArchiveModal(
+      {title:it.title, org:it.org, source:'mylist', itemId:it.id, action:'removed'},
+      function(result){
+        if(!result) return; // cancelled — leave item in place
+        logArchive(result);
+        delItem(it.id); renderList();
+        if(document.getElementById('mode-browse').style.display!=='none') renderBrowse();
+      }
+    );
   };
   acts.appendChild(rb);
   main.appendChild(acts);
@@ -661,8 +782,18 @@ function renderBrowse(){
       var acts=el('div','browse-actions');
       var sb=el('button','b-save-btn'+(saved?' saved':''),saved?'Saved':'Save to My List');
       sb.onclick=function(){
-        if(has(it.id)){ if(!confirm('Remove from your list?')) return; delItem(it.id); }
-        else { addItem(Object.assign({},it)); }
+        if(has(it.id)){
+          window.showArchiveModal(
+            {title:it.title, org:it.org, source:'mylist', itemId:it.id, action:'removed'},
+            function(result){
+              if(!result) return; // cancelled
+              logArchive(result);
+              delItem(it.id);
+              renderList(); renderBrowse();
+            }
+          );
+          return;
+        } else { addItem(Object.assign({},it)); }
         renderList(); renderBrowse();
       };
       acts.appendChild(sb);
@@ -673,10 +804,105 @@ function renderBrowse(){
   });
 }
 
+// ── Backup / Restore: download or upload a JSON snapshot of every store ──
+// Belt-and-suspenders insurance against JSONBin going away, cache wipes, or any
+// other data mishap. Stash to USB or email yourself once a week.
+var BACKUP_STORES = ['erin_mylist_v1','erin_applications_v1','erin_prof_contacts','erin_ref_letters','erin_writing_samples','erin_archive_log','erin_materials','erin_primary_device','erin_theme','erin_pd_collapsed','erin_last_sync'];
+window.backupAll = function(){
+  var snap = { _exportedAt: new Date().toISOString(), _version: 1, stores: {} };
+  BACKUP_STORES.forEach(function(k){
+    var v = localStorage.getItem(k);
+    if(v !== null) snap.stores[k] = v;
+  });
+  var d = new Date(), pad = function(n){return n<10?'0'+n:n;};
+  var name = 'erin_backup_' + d.getFullYear() + '-' + pad(d.getMonth()+1) + '-' + pad(d.getDate()) + '.json';
+  var blob = new Blob([JSON.stringify(snap, null, 2)], {type:'application/json'});
+  var url = URL.createObjectURL(blob);
+  var a = document.createElement('a'); a.href = url; a.download = name;
+  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  setTimeout(function(){ URL.revokeObjectURL(url); }, 1000);
+  flash('Backup downloaded ✓');
+};
+window.restoreAll = function(input){
+  var file = input.files && input.files[0]; if(!file) return;
+  var reader = new FileReader();
+  reader.onload = function(ev){
+    try {
+      var snap = JSON.parse(ev.target.result);
+      if(!snap.stores || typeof snap.stores !== 'object') throw new Error('Not a valid backup file');
+      var when = snap._exportedAt ? new Date(snap._exportedAt).toLocaleString() : 'unknown date';
+      var keys = Object.keys(snap.stores);
+      var msg = 'Restore from backup taken ' + when + '?\n\n'
+              + 'This will OVERWRITE these stores on this device:\n  '
+              + keys.join('\n  ')
+              + '\n\nIf this is the primary device, the cloud will also be overwritten on the next push.\n\nProceed?';
+      if(!confirm(msg)) { input.value = ''; return; }
+      keys.forEach(function(k){ localStorage.setItem(k, snap.stores[k]); });
+      // Push to cloud if primary
+      if(isPrimary() && typeof push === 'function'){
+        try { push(JSON.parse(snap.stores['erin_mylist_v1']||'{}')); } catch(e){}
+      }
+      alert('Restored ' + keys.length + ' stores. Reloading the page so every tracker picks up the new data…');
+      location.reload();
+    } catch(e) {
+      alert('Restore failed: ' + e.message);
+    }
+    input.value = '';
+  };
+  reader.readAsText(file);
+};
+
 renderList();
 updatePrimaryUI();
 pullCloud();
 
+</script>
+
+<script>
+/* ── Sync indicator: shows "Synced X ago" in the nav, auto-updates every 30s ── */
+(function(){
+  var ORIG_FETCH = window.fetch;
+  if(ORIG_FETCH && !window.__erinSyncHooked){
+    window.__erinSyncHooked = true;
+    window.fetch = function(){
+      var args = arguments, p = ORIG_FETCH.apply(this, args);
+      try {
+        var url = (args[0] && args[0].url) || args[0] || '';
+        if(typeof url === 'string' && url.indexOf('api.jsonbin.io') > -1){
+          p.then(function(r){ if(r && (r.ok || r.status === 200)) localStorage.setItem('erin_last_sync', Date.now().toString()); }).catch(function(){});
+        }
+      } catch(e) {}
+      return p;
+    };
+  }
+  function fmtAgo(ts){
+    if(!ts) return 'never';
+    var s=Math.floor((Date.now()-ts)/1000);
+    if(s<5) return 'just now';
+    if(s<60) return s+'s ago';
+    var m=Math.floor(s/60); if(m<60) return m+'m ago';
+    var h=Math.floor(m/60); if(h<24) return h+'h ago';
+    return Math.floor(h/24)+'d ago';
+  }
+  function render(){
+    var el=document.getElementById('gnav-sync'); if(!el) return;
+    var ts=parseInt(localStorage.getItem('erin_last_sync')||'0',10);
+    el.textContent = ts ? '✓ Synced '+fmtAgo(ts) : '— not synced';
+  }
+  function setup(){
+    var wrap=document.querySelector('.gnav-wrap');
+    if(!wrap || document.getElementById('gnav-sync')) return;
+    var span=document.createElement('span');
+    span.id='gnav-sync'; span.className='gnav-sync'; span.title='Last cloud sync';
+    span.style.cssText='font-size:10px;color:var(--t3);margin:0 8px 0 auto;white-space:nowrap;flex-shrink:0';
+    var toggle=document.getElementById('theme-toggle');
+    if(toggle) wrap.insertBefore(span,toggle); else wrap.appendChild(span);
+    render();
+    setInterval(render,30000);
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',setup);
+  else setup();
+})();
 </script>
 </body>
 </html>
