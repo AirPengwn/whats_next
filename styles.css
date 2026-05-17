@@ -136,6 +136,14 @@ html.erin-readonly .page input,
 html.erin-readonly .page select,
 html.erin-readonly .page textarea { pointer-events:none;opacity:.8;cursor:default }
 
+/* …except pure VIEW controls that never write data — these stay usable
+   even in view-only mode (packet chooser, global search, browse search). */
+html.erin-readonly #pick,
+html.erin-readonly #q,
+html.erin-readonly #bs,
+html.erin-readonly #bs2,
+html.erin-readonly .ro-ok { pointer-events:auto!important;opacity:1!important;cursor:auto!important }
+
 /* ── Print ── */
 @media print {
   .global-nav{display:none!important}
