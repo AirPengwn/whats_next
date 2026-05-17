@@ -48,13 +48,17 @@ document.addEventListener('DOMContentLoaded', function(){
 
   /* ── Sync indicator: "✓ Synced Xm ago" chip in the nav ── */
   (function(){
-    var inner = document.querySelector('.gnav-inner');
-    if(!inner || document.getElementById('gnav-sync')) return;
+    var wrap = document.querySelector('.gnav-wrap');
+    if(!wrap || document.getElementById('gnav-sync')) return;
     var span = document.createElement('span');
     span.id = 'gnav-sync';
     span.className = 'gnav-sync';
     span.title = 'Last cloud sync';
-    inner.appendChild(span);
+    /* Dock the chip beside the theme toggle (right side), NOT inside the
+       wrapping link row — keeps the header identical on every page. */
+    var tog = document.getElementById('theme-toggle');
+    if(tog && tog.parentNode === wrap) wrap.insertBefore(span, tog);
+    else wrap.appendChild(span);
 
     function fmtAgo(ts){
       if(!ts) return '— not synced';
