@@ -332,36 +332,34 @@ window.showArchiveModal=function(opts, cb){
       btn.style.background=pickedTags[tg]?'var(--teal-bg)':'transparent';
       btn.style.color=pickedTags[tg]?'var(--teal-t)':'var(--t2)';
       btn.style.borderColor=pickedTags[tg]?'var(--teal)':'var(--bds)';
-<!-- MISSING LINE 350 -->
-<!-- MISSING LINE 351 -->
-<!-- MISSING LINE 352 -->
-<!-- MISSING LINE 353 -->
-<!-- MISSING LINE 354 -->
-<!-- MISSING LINE 355 -->
-<!-- MISSING LINE 356 -->
-<!-- MISSING LINE 357 -->
-<!-- MISSING LINE 358 -->
-<!-- MISSING LINE 359 -->
-<!-- MISSING LINE 360 -->
-<!-- MISSING LINE 361 -->
-<!-- MISSING LINE 362 -->
-<!-- MISSING LINE 363 -->
-<!-- MISSING LINE 364 -->
-<!-- MISSING LINE 365 -->
-<!-- MISSING LINE 366 -->
-<!-- MISSING LINE 367 -->
-<!-- MISSING LINE 368 -->
-<!-- MISSING LINE 369 -->
-<!-- MISSING LINE 370 -->
-<!-- MISSING LINE 371 -->
-<!-- MISSING LINE 372 -->
-<!-- MISSING LINE 373 -->
-<!-- MISSING LINE 374 -->
-<!-- MISSING LINE 375 -->
-<!-- MISSING LINE 376 -->
-<!-- MISSING LINE 377 -->
-<!-- MISSING LINE 378 -->
-<!-- MISSING LINE 379 -->
+    };
+    tagsRow.appendChild(btn);
+  });
+  modal.appendChild(tagsRow);
+  var input=document.createElement('textarea');
+  input.placeholder='Brief reason (e.g. "Lab too small, advisor not taking students for Fall 2027")';
+  input.style.cssText='width:100%;min-height:60px;font-size:13px;padding:8px 10px;border-radius:8px;border:1px solid var(--bds);background:var(--bg2);color:var(--t1);font-family:inherit;resize:vertical;box-sizing:border-box';
+  modal.appendChild(input);
+  var btnRow=document.createElement('div'); btnRow.style.cssText='display:flex;gap:.6rem;justify-content:flex-end;margin-top:.85rem;flex-wrap:wrap';
+  var cancel=document.createElement('button'); cancel.type='button'; cancel.textContent='Cancel';
+  cancel.style.cssText='font-size:12px;padding:6px 14px;border-radius:6px;border:.5px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:inherit';
+  cancel.onclick=function(){ document.body.removeChild(overlay); cb(null); };
+  var skip=document.createElement('button'); skip.type='button'; skip.textContent='Skip reason';
+  skip.style.cssText='font-size:12px;padding:6px 14px;border-radius:6px;border:.5px solid var(--bds);background:var(--bg2);color:var(--t2);cursor:pointer;font-family:inherit';
+  skip.onclick=function(){ document.body.removeChild(overlay); cb({reason:'',tags:[],itemId:opts.itemId,source:opts.source,action:opts.action,itemTitle:opts.title,itemOrg:opts.org}); };
+  var save=document.createElement('button'); save.type='button'; save.textContent='Save & '+actionVerb.toLowerCase();
+  save.style.cssText='font-size:12px;font-weight:500;padding:6px 16px;border-radius:6px;border:none;background:var(--teal);color:#fff;cursor:pointer;font-family:inherit';
+  save.onclick=function(){
+    var tags=Object.keys(pickedTags).filter(function(k){return pickedTags[k];});
+    document.body.removeChild(overlay);
+    cb({reason:input.value.trim(),tags:tags,itemId:opts.itemId,source:opts.source,action:opts.action,itemTitle:opts.title,itemOrg:opts.org});
+  };
+  btnRow.appendChild(cancel); btnRow.appendChild(skip); btnRow.appendChild(save);
+  modal.appendChild(btnRow);
+  overlay.appendChild(modal); document.body.appendChild(overlay);
+  setTimeout(function(){input.focus();},50);
+};
+
 var APP_STORE='erin_applications_v1';
 var MYLIST_STORE='erin_mylist_v1';
 

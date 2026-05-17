@@ -301,19 +301,29 @@ html:not(.dark) {
 <div class="page-header">
   <div class="page-header-eyebrow">What’s Next for Erin</div>
   <div class="page-header-title">My List</div>
-  <div class="page-header-sub">Your saved opportunities — grad programs, internships, jobs, and service programs. <span id="list-count" style="color:var(--teal-t);font-weight:500"></span></div>
+  <div id="hero-sub" class="page-header-sub">Your saved opportunities — grad programs, internships, jobs, and service programs.</div>
 </div>
 <div id="ss" class="sync-status"></div>
 
-<div id="list-section">
+<div style="display:flex;align-items:center;justify-content:space-between;gap:.75rem;flex-wrap:wrap;margin-bottom:.75rem">
+  <span id="count-pill" class="count-pill"></span>
+  <button id="primary-btn"></button>
+</div>
+
+<div class="mode-tabs">
+  <button id="tab-list" class="mode-tab active" onclick="setMode(‘list’)">&#9733; My List <span id="tab-count"></span></button>
+  <button id="tab-browse" class="mode-tab" onclick="setMode(‘browse’)">Browse All</button>
+</div>
+
+<div id="mode-list">
+  <div id="list-filters" class="filter-row" style="margin-bottom:.75rem"></div>
   <div id="list-body"></div>
 </div>
 
-<div id="browse-section" style="margin-top:1.5rem">
-  <div class="sec-header" style="display:flex;align-items:center;gap:.5rem;margin-bottom:.6rem">
-    <span style="font-size:13px;font-weight:600;color:var(--t2)">Browse All</span>
-    <input id="browse-search" type="search" placeholder="Search…" style="flex:1;font-size:12px;padding:5px 10px;border-radius:8px;border:1px solid var(--bd);background:var(--bg2);color:var(--t1);font-family:var(--fn)">
-    <div id="cat-filters" style="display:flex;gap:4px;flex-wrap:wrap"></div>
+<div id="mode-browse" style="display:none;margin-top:.5rem">
+  <div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.6rem;flex-wrap:wrap">
+    <input id="bs" type="search" class="search-input" placeholder="Search opportunities…" oninput="renderBrowse()" style="flex:1;margin-bottom:0">
+    <div id="browse-filters" style="display:flex;gap:4px;flex-wrap:wrap"></div>
   </div>
   <div id="browse-body"></div>
 </div>
@@ -324,6 +334,9 @@ html:not(.dark) {
 var BIN='6a039aa4250b1311c33f2bac';
 var KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
 var STORE='erin_mylist_v1';
+var mf='All'; var bf='All';
+var CATS=['All','Graduate Programs','Internships','Career','Service','Graduate Programs — Next Cycle','Internships — Next Cycle','Career — Next Cycle','Service — Next Cycle'];
+var ALL=[];
 
 function load(){ try{ return JSON.parse(localStorage.getItem(STORE)||'{}'); }catch(e){ return {}; } }
 function save(m){ localStorage.setItem(STORE,JSON.stringify(m)); }
@@ -545,10 +558,10 @@ function pullCloud(){
   .then(function(data){
     if(data.record && data.record.items){
       save(data.record.items);
-      renderList();
       flash('Synced \u2713');
     }
-  }).catch(function(){});
+    renderList();
+  }).catch(function(){ renderList(); });
 }
 
 function setMode(m){
@@ -581,7 +594,7 @@ function catLbl(c){
 }
 
 function buildFilters(elId, cur, fn){
-  var wrap=document.getElementById(elId); wrap.innerHTML='';
+  var wrap=document.getElementById(elId); if(!wrap) return; wrap.innerHTML='';
   CATS.forEach(function(c){
     var b=el('button','f-btn'+(c===cur?' on':''),c);
     b.onclick=function(){ fn(c); };

@@ -139,8 +139,9 @@ function pullCloud(){
   fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
   .then(function(r){return r.json();})
   .then(function(data){
-    if(data.record&&data.record.refs){ saveRefs(data.record.refs); render(); }
-  }).catch(function(){});
+    if(data.record&&data.record.refs){ saveRefs(data.record.refs); }
+    render();
+  }).catch(function(){ render(); });
 }
 var STATUSES=[
   {v:'planning',l:'Planning to ask',cls:'rs-planning'},

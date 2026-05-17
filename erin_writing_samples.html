@@ -142,8 +142,9 @@ function pullCloud(){
   fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
   .then(function(r){return r.json();})
   .then(function(data){
-    if(data.record&&data.record.writingSamples){ saveSamples(data.record.writingSamples); render(); }
-  }).catch(function(){});
+    if(data.record&&data.record.writingSamples){ saveSamples(data.record.writingSamples); }
+    render();
+  }).catch(function(){ render(); });
 }
 var DOC_TYPES=['Statement of Purpose','Personal Statement','Research Statement','Writing Sample','Diversity Statement','Other'];
 var STATUSES=[
@@ -205,7 +206,8 @@ function render(){
   });
   if(!filtered.length){
     var emp=el('div','empty');
-    emp.innerHTML='<div class="empty-icon">&#9997;</div><div class="empty-title">'+(samples.length?'No matches':'No documents yet')+'</div><div class="empty-body">'+(samples.length?'Try a different filter.':'Click "+ Add document" to start tracking your writing samples and essays.')+'</div>';
+    var emptyBody=samples.length?'Try a different filter.':(localStorage.getItem('erin_primary_device')==='1'?'Click "+ Add document" to start tracking your writing samples and essays.':'No documents have been added yet.');
+    emp.innerHTML='<div class="empty-icon">&#9997;</div><div class="empty-title">'+(samples.length?'No matches':'No documents yet')+'</div><div class="empty-body">'+emptyBody+'</div>';
     body.appendChild(emp); return;
   }
   filtered.forEach(function(s){ body.appendChild(makeCard(s)); });
