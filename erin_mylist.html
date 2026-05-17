@@ -247,6 +247,7 @@ html:not(.dark) {
 </style>
 
 <script src="site.js"></script>
+<script src="opportunities.js"></script>
 <script>
 (function(){
   var saved=localStorage.getItem('erin_theme');
@@ -335,8 +336,8 @@ var BIN='6a039aa4250b1311c33f2bac';
 var KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
 var STORE='erin_mylist_v1';
 var mf='All'; var bf='All';
-var CATS=['All','Graduate Programs','Internships','Career','Service','Graduate Programs — Next Cycle','Internships — Next Cycle','Career — Next Cycle','Service — Next Cycle'];
-var ALL=[];
+var CATS=['All','Funded Graduate Programs','Internships','Career Positions','Service & Fellowships','Graduate Programs — Next Cycle','Internships — Next Cycle','Career Positions — Next Cycle','Service & Fellowships — Next Cycle'];
+// ALL is populated by opportunities.js (loaded before this script)
 
 function load(){ try{ return JSON.parse(localStorage.getItem(STORE)||'{}'); }catch(e){ return {}; } }
 function save(m){ localStorage.setItem(STORE,JSON.stringify(m)); }
@@ -742,7 +743,7 @@ function renderList(){
     ? n+' opportunit'+(n===1?'y':'ies')+' saved'
     : 'No items saved yet - use Browse All to add some';
   buildFilters('list-filters',mf,function(c){ mf=c; renderList(); });
-  var items=mf==='All'?all:all.filter(function(it){ return it.type===mf; });
+  var items=mf==='All'?all:all.filter(function(it){ return (it.cat||it.type)===mf; });
   var body=document.getElementById('list-body'); body.innerHTML='';
   if(!items.length){
     var e=el('div','empty');
@@ -768,7 +769,7 @@ function renderBrowse(){
   var q=(document.getElementById('bs')||{}).value||''; q=q.toLowerCase();
   buildFilters('browse-filters',bf,function(c){ bf=c; renderBrowse(); });
   var items=ALL;
-  if(bf!=='All') items=items.filter(function(it){ return it.type===bf; });
+  if(bf!=='All') items=items.filter(function(it){ return (it.cat||it.type)===bf; });
   if(q) items=items.filter(function(it){
     return (it.title+it.org+it.cat+(it.deadline||'')+(it.body||'')+(it.pills||[]).join(' ')).toLowerCase().indexOf(q)>-1;
   });
