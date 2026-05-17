@@ -152,27 +152,36 @@ body{padding:0 0 3rem}
     var box=document.getElementById('packet');
     if(!o){ box.innerHTML='<div class="pk-empty">Pick an opportunity above to build its packet.</div>'; document.getElementById('printBtn').disabled=true; return; }
     var d=o.data, isApp=o.kind==='app';
-    var title=(isApp?d.programTitle:d.title)||'Untitled';
-    var org=d.org||'';
-    var opp=oppById(isApp?d.itemId:o.id, title)|| (isApp?null:d);
-    var body=(opp&&(opp.body||opp.extbody))||d.body||'';
-    var deadline=d.deadline||(opp&&opp.deadline)||'';
-    var status=isApp?(d.status||'notstarted'):'(saved — not yet an application)';
+    var title0=(isApp?d.programTitle:d.title)||'Untitled';
+    var opp=oppById(isApp?d.itemId:o.id, title0);
+    /* Full record: opportunity data enriched, saved/app fields override. */
+    var m=Object.assign({}, opp||{}, d);
+    var title=(isApp?(m.programTitle||m.title):(m.title||m.programTitle))||'Untitled';
+    var org=m.org||'';
+    var status=isApp?(d.status||'notstarted'):'Saved — not yet an application';
+    function sec(t){ return '<div class="pk-sec">'+t+'</div>'; }
     var h='<div class="packet"><div class="pk-head">'
       +'<div class="pk-kicker">Application packet · Erin Lamberton</div>'
       +'<div class="pk-title">'+esc(title)+'</div>'
-      +(org?'<div class="pk-org">'+esc(org)+'</div>':'')+'</div>';
-    h+='<div class="pk-grid">'
-      +row('Deadline',deadline)
-      +row('Status',status)
-      +row('Category',d.itemType||d.type||d.cat||(opp&&opp.cat)||'')
-      +row('Location',(opp&&opp.location)||d.location||'')
-      +row('Pay / Stipend',(opp&&(opp.pay||opp.stipend))||d.pay||'')
-      +row('Portal',isApp?(d.portalUrl||''):'')
-      +row('Portal login',isApp?(d.portalLogin||''):'')
+      +(org?'<div class="pk-org">'+esc(org)+'</div>':'')
+      +(m.badge?'<div class="pk-org" style="margin-top:4px"><strong>'+esc(m.badge)+'</strong></div>':'')
       +'</div>';
-    if(body){ h+='<div class="pk-sec">About this opportunity</div><div class="pk-body">'+esc(body)+'</div>'; }
-    if(opp&&opp.contact){ h+='<div class="pk-sec">How to apply / contact</div><div class="pk-body">'+esc(opp.contact)+'</div>'; }
+    h+='<div class="pk-grid">'
+      +row('Deadline',m.deadline||'')
+      +row('Start',m.start||'')
+      +row('Status',status)
+      +row('Category',m.itemType||m.type||m.cat||'')
+      +row('Location',m.location||'')
+      +row('Pay',m.pay||'')
+      +row('Stipend',m.stipend||'')
+      +row('Benefits',m.benefits||'')
+      +(isApp?row('Portal',d.portalUrl||''):'')
+      +(isApp?row('Portal login',d.portalLogin||''):'')
+      +'</div>';
+    if(m.body){ h+=sec('About this opportunity')+'<div class="pk-body">'+esc(m.body)+'</div>'; }
+    if(m.extbody){ h+=sec('Additional detail')+'<div class="pk-body">'+esc(m.extbody)+'</div>'; }
+    if(Array.isArray(m.pills)&&m.pills.length){ h+=sec('Focus areas')+'<div class="pk-body">'+m.pills.map(esc).join('  ·  ')+'</div>'; }
+    if(m.contact){ h+=sec('How to apply / contact')+'<div class="pk-body">'+esc(m.contact)+'</div>'; }
 
     if(isApp){
       var mats=d.materials||{}, labels=MAT_LABELS();
@@ -196,9 +205,12 @@ body{padding:0 0 3rem}
     }
 
     var links=[];
-    if(opp){ if(opp.url) links.push([opp.url_label||'Apply / posting',opp.url]); if(opp.url2) links.push([opp.url2_label||'More info',opp.url2]); if(opp.src) links.push(['Source page',opp.src]); }
+    if(m.url) links.push([m.url_label||'Apply / posting',m.url]);
+    if(m.url2) links.push([m.url2_label||'More info',m.url2]);
+    if(m.src) links.push([m.src_label||'Source page',m.src]);
     if(isApp&&d.itemUrl) links.push(['Application URL',d.itemUrl]);
-    if(links.length){ h+='<div class="pk-sec">Links</div><div class="pk-links">'+links.map(function(l){ return '<a href="'+esc(l[1])+'" target="_blank" rel="noopener">'+esc(l[0])+' ↗</a>'; }).join('')+'</div>'; }
+    if(isApp&&d.portalUrl) links.push(['Portal',d.portalUrl]);
+    if(links.length){ h+=sec('Links')+'<div class="pk-links">'+links.map(function(l){ return '<a href="'+esc(l[1])+'" target="_blank" rel="noopener">'+esc(l[0])+' ↗</a>'; }).join('')+'</div>'; }
 
     h+='<div class="pk-foot">Generated '+new Date().toLocaleDateString()+' from “What’s Next for Erin”. Verify all details on the official program page before submitting.</div></div>';
     box.innerHTML=h;
