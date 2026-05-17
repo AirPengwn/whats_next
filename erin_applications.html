@@ -67,6 +67,7 @@ a:hover{text-decoration:underline}
 .ps-gathering{background:var(--amber-bg);color:var(--amber-t)}
 .ps-submitted{background:var(--blue-bg);color:var(--blue)}
 .ps-review{background:var(--purple-bg);color:var(--purple-t)}
+.ps-interview{background:#e6f1fb;color:#185fa5;border:1px solid #185fa5}
 .ps-decision{background:var(--teal-bg);color:var(--teal-t)}
 .ps-accepted{background:#e1f5ee;color:#0f6e56;border:1.5px solid #0f6e56}
 .ps-declined{background:var(--red-bg);color:var(--red-t)}
@@ -78,6 +79,7 @@ a:hover{text-decoration:underline}
 .app-card.status-gathering{border-left:3px solid #ef9f27}
 .app-card.status-submitted{border-left:3px solid #185fa5}
 .app-card.status-review{border-left:3px solid #534ab7}
+.app-card.status-interview{border-left:3px solid #185fa5}
 .app-card.status-decision{border-left:3px solid var(--teal)}
 .app-card.status-accepted{border-left:3px solid #0f6e56;background:var(--teal-bg)}
 .app-card.status-declined{border-left:3px solid #993c1d;opacity:.7}
@@ -200,18 +202,20 @@ html:not(.dark){
   <div class="gnav-wrap">
     <div class="gnav-inner">
       <a href="index.html" class="gnav-home">&#127968; Home</a>
+      <a href="erin_search.html" class="gnav-link">&#128269; Search</a>
       <span class="gnav-divider"></span>
       <div class="gnav-group">
         <span class="gnav-group-label gl-track">Track</span>
         <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
         <a href="erin_compare.html" class="gnav-link">&#9878; Compare</a>
+        <a href="erin_pipeline.html" class="gnav-link">&#128202; Pipeline</a>
         <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
         <a href="erin_applications.html" class="gnav-link">&#128196; Apps</a>
         <a href="erin_proftracker.html" class="gnav-link">&#128100; Profs</a>
         <a href="erin_reftracker.html" class="gnav-link">&#128393; Refs</a>
         <a href="erin_archive.html" class="gnav-link">&#128193; Archive</a>
       </div>
-      <span class="gnav-divider"></span>
+      <span class="gnav-divider gnav-break"></span>
       <div class="gnav-group">
         <span class="gnav-group-label gl-browse">Browse</span>
         <a href="erin_programs.html" class="gnav-link">&#127979; Programs</a>
@@ -225,6 +229,7 @@ html:not(.dark){
         <a href="erin_materials.html" class="gnav-link">&#128218; Materials</a>
         <a href="erin_writing_samples.html" class="gnav-link">&#9997; Writing</a>
         <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
+        <a href="erin_packet.html" class="gnav-link">&#128424; Packet</a>
       </div>
     </div>
     <button class="gnav-toggle" id="theme-toggle" onclick="__toggleTheme()" title="Toggle dark/light mode">&#127769;</button>
@@ -249,6 +254,8 @@ html:not(.dark){
     <span class="pipe-step ps-submitted">Submitted</span>
     <span class="pipe-arrow">›</span>
     <span class="pipe-step ps-review">Under review</span>
+    <span class="pipe-arrow">›</span>
+    <span class="pipe-step ps-interview">Interview / heard back</span>
     <span class="pipe-arrow">›</span>
     <span class="pipe-step ps-decision">Decision received</span>
     <span class="pipe-arrow">›</span>
@@ -397,9 +404,9 @@ function pullApps(){
 
 
 // ── Status helpers ──
-var STATUS_ORDER={notstarted:0,gathering:1,submitted:2,review:3,decision:4,accepted:5,waitlisted:6,declined:7};
-var STATUS_LABELS={notstarted:'Not started',gathering:'Gathering materials',submitted:'Submitted',review:'Under review',decision:'Decision received',accepted:'Accepted ✓',declined:'Declined',waitlisted:'Waitlisted'};
-var STATUS_CSS={notstarted:'ps-notstarted',gathering:'ps-gathering',submitted:'ps-submitted',review:'ps-review',decision:'ps-decision',accepted:'ps-accepted',declined:'ps-declined',waitlisted:'ps-waitlisted'};
+var STATUS_ORDER={notstarted:0,gathering:1,submitted:2,review:3,interview:4,decision:5,accepted:6,waitlisted:7,declined:8};
+var STATUS_LABELS={notstarted:'Not started',gathering:'Gathering materials',submitted:'Submitted',review:'Under review',interview:'Interview / heard back',decision:'Decision received',accepted:'Accepted ✓',declined:'Declined',waitlisted:'Waitlisted'};
+var STATUS_CSS={notstarted:'ps-notstarted',gathering:'ps-gathering',submitted:'ps-submitted',review:'ps-review',interview:'ps-interview',decision:'ps-decision',accepted:'ps-accepted',declined:'ps-declined',waitlisted:'ps-waitlisted'};
 
 // Default materials checklist items
 var DEFAULT_MATERIALS=[
@@ -692,12 +699,12 @@ if(isPrimary()){
     el.textContent = ts ? '✓ Synced '+fmtAgo(ts) : '— not synced';
   }
   function setup(){
-    var inner=document.querySelector('.gnav-inner');
-    if(!inner || document.getElementById('gnav-sync')) return;
+    var wrap=document.querySelector('.gnav-wrap');
+    if(!wrap || document.getElementById('gnav-sync')) return;
     var span=document.createElement('span');
     span.id='gnav-sync'; span.className='gnav-sync'; span.title='Last cloud sync';
-    span.style.cssText='font-size:10px;color:var(--t3);padding:3px 8px;background:var(--bg2);border-radius:4px;white-space:nowrap;flex-shrink:0;margin-left:10px;border:.5px solid var(--bd)';
-    inner.appendChild(span);
+    span.style.cssText='font-size:10px;color:var(--t3);padding:3px 8px;background:var(--bg2);border-radius:4px;white-space:nowrap;flex-shrink:0;margin-left:10px;border:.5px solid var(--bd);align-self:center';
+    var tog=document.getElementById('theme-toggle');if(tog&&tog.parentNode===wrap)wrap.insertBefore(span,tog);else wrap.appendChild(span);
     render();
     setInterval(render,30000);
     window.addEventListener('erin-sync', render);

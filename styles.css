@@ -94,8 +94,9 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.5rem 0}
 /* ── Global nav ── */
 .global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
 .gnav-wrap{max-width:1100px;margin:0 auto;display:flex;align-items:center}
-.gnav-inner{flex:1;min-width:0;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:0 2px;row-gap:2px;scrollbar-width:none}
+.gnav-inner{flex:1;min-width:0;display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-start;gap:0 2px;row-gap:2px;scrollbar-width:none}
 .gnav-divider{display:inline-block;width:1px;height:16px;background:var(--bd);margin:0 4px;flex-shrink:0}
+.gnav-divider.gnav-break{flex-basis:100%;width:0;height:0;background:none;margin:0}
 .gnav-group{display:inline-flex;align-items:center;gap:0;flex-shrink:0}
 .gnav-group-label{font-size:9px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;margin-right:4px;flex-shrink:0;padding:2px 6px;border-radius:4px;line-height:1}
 .gnav-group-label.gl-track{background:var(--teal-bg);color:var(--teal-t)}

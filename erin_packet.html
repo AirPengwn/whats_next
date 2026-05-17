@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>Application Packet — What's Next for Erin</title>
+<style>
+body{padding:0 0 3rem}
+.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.25rem}
+.page-header-eyebrow{font-size:11px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-t);margin-bottom:.25rem}
+.page-header-title{font-size:24px;font-weight:700;color:var(--t1);line-height:1.2;letter-spacing:-.02em;margin-bottom:.2rem}
+.page-header-sub{font-size:13px;color:var(--t2);line-height:1.5}
+.chooser{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1rem 1.15rem;margin-bottom:1.25rem}
+.ch-lbl{font-size:12px;font-weight:600;color:var(--t2);margin-bottom:.5rem}
+.ch-sel{width:100%;font-size:14px;padding:9px 12px;border-radius:var(--r1);border:1px solid var(--bds);background:var(--bg);color:var(--t1);font-family:var(--fn)}
+.ch-actions{margin-top:.85rem;display:flex;gap:.6rem;flex-wrap:wrap}
+.btn{font-size:13px;font-weight:500;padding:8px 18px;border-radius:999px;border:none;background:var(--teal);color:#fff;cursor:pointer;font-family:var(--fn)}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.btn.sec{background:transparent;color:var(--t2);border:1px solid var(--bds)}
+.packet{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1.75rem 1.85rem;max-width:760px}
+.pk-head{border-bottom:2px solid var(--t1);padding-bottom:.85rem;margin-bottom:1.1rem}
+.pk-kicker{font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--t3);margin-bottom:.35rem}
+.pk-title{font-size:22px;font-weight:700;color:var(--t1);line-height:1.25;margin-bottom:.3rem}
+.pk-org{font-size:14px;color:var(--t2)}
+.pk-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:.6rem 1.5rem;margin:1rem 0 1.2rem}
+.pk-f{font-size:13px;color:var(--t2)}
+.pk-f b{display:block;font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--t3);margin-bottom:1px}
+.pk-sec{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--t3);border-bottom:.5px solid var(--bd);padding-bottom:.3rem;margin:1.3rem 0 .6rem}
+.pk-body{font-size:13px;color:var(--t2);line-height:1.7;white-space:pre-wrap}
+.pk-list{list-style:none;padding:0;margin:.2rem 0}
+.pk-list li{font-size:13px;color:var(--t2);padding:.3rem 0;border-bottom:.5px dotted var(--bd);display:flex;gap:.6rem;align-items:flex-start}
+.pk-chk{flex-shrink:0;width:15px;height:15px;border:1.5px solid var(--bds);border-radius:3px;display:inline-flex;align-items:center;justify-content:center;font-size:11px;color:var(--teal-t)}
+.pk-chk.done{background:var(--teal-bg);border-color:var(--teal)}
+.pk-links a{font-size:12px;color:var(--teal-t);display:inline-block;margin:.2rem .8rem .2rem 0;word-break:break-all}
+.pk-foot{margin-top:1.5rem;padding-top:.7rem;border-top:.5px solid var(--bd);font-size:11px;color:var(--t3)}
+.pk-empty{font-size:13px;color:var(--t2);text-align:center;padding:2rem}
+
+@media print {
+  .global-nav,.gnav-toggle,.page-header,.chooser,.btn,.no-print{display:none!important}
+  body{background:#fff!important;color:#000!important;padding:0!important}
+  .page{max-width:100%!important;padding:0!important}
+  .packet{border:none!important;border-radius:0!important;padding:0!important;max-width:100%!important;background:#fff!important;color:#000!important}
+  .pk-title,.pk-org,.pk-body,.pk-f,.pk-list li{color:#000!important}
+  .pk-head{border-color:#000!important}
+  a{color:#000!important;text-decoration:underline}
+}
+</style>
+<script>
+(function(){
+  var saved=localStorage.getItem('erin_theme');
+  var prefersDark=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches;
+  if(saved==='dark'||(!saved&&prefersDark)) document.documentElement.classList.add('dark');
+  function upBtn(){var b=document.getElementById('theme-toggle');if(b)b.innerHTML=document.documentElement.classList.contains('dark')?'&#9728;':'&#127769;';}
+  document.addEventListener('DOMContentLoaded',upBtn);
+  window.__toggleTheme=function(){var d=document.documentElement.classList.toggle('dark');localStorage.setItem('erin_theme',d?'dark':'light');upBtn();};
+})();
+</script>
+<script src="site.js"></script>
+<script src="opportunities.js"></script>
+</head>
+<body>
+
+<!-- GLOBAL NAV -->
+<nav class="global-nav">
+  <div class="gnav-wrap">
+    <div class="gnav-inner">
+      <a href="index.html" class="gnav-home">&#127968; Home</a>
+      <a href="erin_search.html" class="gnav-link">&#128269; Search</a>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-track">Track</span>
+        <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
+        <a href="erin_compare.html" class="gnav-link">&#9878; Compare</a>
+        <a href="erin_pipeline.html" class="gnav-link">&#128202; Pipeline</a>
+        <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
+        <a href="erin_applications.html" class="gnav-link">&#128196; Apps</a>
+        <a href="erin_proftracker.html" class="gnav-link">&#128100; Profs</a>
+        <a href="erin_reftracker.html" class="gnav-link">&#128393; Refs</a>
+        <a href="erin_archive.html" class="gnav-link">&#128193; Archive</a>
+      </div>
+      <span class="gnav-divider gnav-break"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-browse">Browse</span>
+        <a href="erin_programs.html" class="gnav-link">&#127979; Programs</a>
+        <a href="erin_internships.html" class="gnav-link">&#128203; Internships</a>
+        <a href="erin_jobs.html" class="gnav-link">&#128188; Jobs</a>
+        <a href="erin_service.html" class="gnav-link">&#127807; Service</a>
+      </div>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-write">Write</span>
+        <a href="erin_materials.html" class="gnav-link">&#128218; Materials</a>
+        <a href="erin_writing_samples.html" class="gnav-link">&#9997; Writing</a>
+        <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
+        <a href="erin_packet.html" class="gnav-link active">&#128424; Packet</a>
+      </div>
+    </div>
+    <button class="gnav-toggle" id="theme-toggle" onclick="__toggleTheme()" title="Toggle dark/light mode">&#127769;</button>
+  </div>
+</nav>
+
+<div class="page" style="max-width:820px">
+
+  <div class="page-header">
+    <div class="page-header-eyebrow">What&rsquo;s Next for Erin</div>
+    <div class="page-header-title">Application Packet</div>
+    <div class="page-header-sub">A clean one-page summary of any opportunity &mdash; ready to print or save as PDF for offline reference.</div>
+  </div>
+
+  <div class="chooser no-print">
+    <div class="ch-lbl">Choose an opportunity</div>
+    <select id="pick" class="ch-sel"><option value="">Loading&hellip;</option></select>
+    <div class="ch-actions">
+      <button id="printBtn" class="btn" onclick="window.print()" disabled>&#128424; Print / Save as PDF</button>
+      <button class="btn sec" onclick="location.href='erin_mylist.html'">Back to My List</button>
+    </div>
+  </div>
+
+  <div id="packet"><div class="pk-empty">Pick an opportunity above to build its packet.</div></div>
+</div>
+
+<script>
+(function(){
+  var BIN='6a039aa4250b1311c33f2bac', KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
+  function lj(k,fb){ try{ return JSON.parse(localStorage.getItem(k)||fb); }catch(e){ return JSON.parse(fb); } }
+  function esc(s){ return (s+'').replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+  function q(name){ var m=new RegExp('[?&]'+name+'=([^&]+)').exec(location.search); return m?decodeURIComponent(m[1]):''; }
+  var REC={}, OPTS=[];
+
+  function oppById(id,title){
+    if(typeof ALL==='undefined'||!Array.isArray(ALL)) return null;
+    return ALL.find(function(a){ return (id&&a.id===id)||(title&&a.title===title); })||null;
+  }
+  function MAT_LABELS(){ return ['SOP / Cover letter','CV / Resume','Transcripts','Writing sample','Recommendation 1','Recommendation 2','Recommendation 3','GRE / Test scores','Portal account','Application fee']; }
+
+  function buildOptions(){
+    var apps=Array.isArray(REC.apps)?REC.apps:lj('erin_applications_v1','[]');
+    var ml=REC.items||lj('erin_mylist_v1','{}');
+    OPTS=[];
+    apps.forEach(function(a,i){ OPTS.push({k:'app:'+i,kind:'app',label:'[Application] '+((a.programTitle||'Untitled').split('—')[0].trim())+(a.org?' — '+a.org:''),data:a}); });
+    Object.keys(ml).forEach(function(id){ var it=ml[id]; if(!it) return; OPTS.push({k:'ml:'+id,kind:'ml',label:'[Saved] '+((it.title||'Untitled').split('—')[0].trim())+(it.org?' — '+it.org:''),data:it,id:id}); });
+    var sel=document.getElementById('pick');
+    sel.innerHTML='<option value="">— Select —</option>'+OPTS.map(function(o){ return '<option value="'+esc(o.k)+'">'+esc(o.label)+'</option>'; }).join('');
+    if(!OPTS.length) sel.innerHTML='<option value="">No saved items or applications found</option>';
+  }
+
+  function row(lbl,val){ return val?('<div class="pk-f"><b>'+esc(lbl)+'</b>'+esc(val)+'</div>'):''; }
+
+  function render(o){
+    var box=document.getElementById('packet');
+    if(!o){ box.innerHTML='<div class="pk-empty">Pick an opportunity above to build its packet.</div>'; document.getElementById('printBtn').disabled=true; return; }
+    var d=o.data, isApp=o.kind==='app';
+    var title=(isApp?d.programTitle:d.title)||'Untitled';
+    var org=d.org||'';
+    var opp=oppById(isApp?d.itemId:o.id, title)|| (isApp?null:d);
+    var body=(opp&&(opp.body||opp.extbody))||d.body||'';
+    var deadline=d.deadline||(opp&&opp.deadline)||'';
+    var status=isApp?(d.status||'notstarted'):'(saved — not yet an application)';
+    var h='<div class="packet"><div class="pk-head">'
+      +'<div class="pk-kicker">Application packet · Erin Lamberton</div>'
+      +'<div class="pk-title">'+esc(title)+'</div>'
+      +(org?'<div class="pk-org">'+esc(org)+'</div>':'')+'</div>';
+    h+='<div class="pk-grid">'
+      +row('Deadline',deadline)
+      +row('Status',status)
+      +row('Category',d.itemType||d.type||d.cat||(opp&&opp.cat)||'')
+      +row('Location',(opp&&opp.location)||d.location||'')
+      +row('Pay / Stipend',(opp&&(opp.pay||opp.stipend))||d.pay||'')
+      +row('Portal',isApp?(d.portalUrl||''):'')
+      +row('Portal login',isApp?(d.portalLogin||''):'')
+      +'</div>';
+    if(body){ h+='<div class="pk-sec">About this opportunity</div><div class="pk-body">'+esc(body)+'</div>'; }
+    if(opp&&opp.contact){ h+='<div class="pk-sec">How to apply / contact</div><div class="pk-body">'+esc(opp.contact)+'</div>'; }
+
+    if(isApp){
+      var mats=d.materials||{}, labels=MAT_LABELS();
+      h+='<div class="pk-sec">Materials checklist</div><ul class="pk-list">';
+      labels.forEach(function(lbl,idx){
+        var done=!!mats[idx]||!!mats[lbl];
+        h+='<li><span class="pk-chk'+(done?' done':'')+'">'+(done?'&#10003;':'')+'</span>'+esc(lbl)+'</li>';
+      });
+      h+='</ul>';
+      var refs=lj('erin_ref_tracker_v1','[]'); if(!Array.isArray(refs)) refs=[];
+      var linked=refs.filter(function(r){ return (r.applicationIds||[]).indexOf(d.id)>-1; });
+      if(linked.length){
+        h+='<div class="pk-sec">Recommenders</div><ul class="pk-list">';
+        linked.forEach(function(r){ h+='<li><span class="pk-chk'+(/confirmed|submitted/i.test(r.status||'')?' done':'')+'">'+(/confirmed|submitted/i.test(r.status||'')?'&#10003;':'')+'</span>'+esc((r.name||r.recommender||'Recommender')+(r.status?' — '+r.status:''))+'</li>'; });
+        h+='</ul>';
+      }
+      if(d.notes){ h+='<div class="pk-sec">Notes</div><div class="pk-body">'+esc(d.notes)+'</div>'; }
+      if(d.decisionReason){ h+='<div class="pk-sec">Decision</div><div class="pk-body">'+esc(d.decisionReason)+'</div>'; }
+    } else if(d._note){
+      h+='<div class="pk-sec">Your note</div><div class="pk-body">'+esc(d._note)+'</div>';
+    }
+
+    var links=[];
+    if(opp){ if(opp.url) links.push([opp.url_label||'Apply / posting',opp.url]); if(opp.url2) links.push([opp.url2_label||'More info',opp.url2]); if(opp.src) links.push(['Source page',opp.src]); }
+    if(isApp&&d.itemUrl) links.push(['Application URL',d.itemUrl]);
+    if(links.length){ h+='<div class="pk-sec">Links</div><div class="pk-links">'+links.map(function(l){ return '<a href="'+esc(l[1])+'" target="_blank" rel="noopener">'+esc(l[0])+' ↗</a>'; }).join('')+'</div>'; }
+
+    h+='<div class="pk-foot">Generated '+new Date().toLocaleDateString()+' from “What’s Next for Erin”. Verify all details on the official program page before submitting.</div></div>';
+    box.innerHTML=h;
+    document.getElementById('printBtn').disabled=false;
+  }
+
+  document.getElementById('pick').addEventListener('change',function(){
+    var o=OPTS.find(function(x){ return x.k===this.value; }.bind(this));
+    render(o||null);
+  });
+
+  function preselect(){
+    var ml=q('ml'), ap=q('app');
+    if(ml){ var o=OPTS.find(function(x){ return x.k==='ml:'+ml; }); if(o){ document.getElementById('pick').value=o.k; render(o); return; } }
+    if(ap){ var t=ap.toLowerCase(); var o2=OPTS.find(function(x){ return x.kind==='app'&&x.label.toLowerCase().indexOf(t)>-1; }); if(o2){ document.getElementById('pick').value=o2.k; render(o2); } }
+  }
+
+  function init(){ buildOptions(); preselect(); }
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+    .then(function(r){ return r.json(); })
+    .then(function(data){ REC=(data&&data.record)||{}; init(); })
+    .catch(function(){ REC={}; init(); });
+})();
+</script>
+<script>
+/* ── Sync indicator: appears at end of nav, updates on every sync ── */
+(function(){
+  function fmtAgo(ts){
+    if(!ts) return 'never';
+    var s=Math.floor((Date.now()-ts)/1000);
+    if(s<5) return 'just now';
+    if(s<60) return s+'s ago';
+    var m=Math.floor(s/60); if(m<60) return m+'m ago';
+    var h=Math.floor(m/60); if(h<24) return h+'h ago';
+    return Math.floor(h/24)+'d ago';
+  }
+  function render(){
+    var el=document.getElementById('gnav-sync'); if(!el) return;
+    var ts=parseInt(localStorage.getItem('erin_last_sync')||'0',10);
+    el.textContent = ts ? '✓ Synced '+fmtAgo(ts) : '— not synced';
+  }
+  function setup(){
+    var wrap=document.querySelector('.gnav-wrap');
+    if(!wrap || document.getElementById('gnav-sync')) return;
+    var span=document.createElement('span');
+    span.id='gnav-sync'; span.className='gnav-sync'; span.title='Last cloud sync';
+    span.style.cssText='font-size:10px;color:var(--t3);padding:3px 8px;background:var(--bg2);border-radius:4px;white-space:nowrap;flex-shrink:0;margin-left:10px;border:.5px solid var(--bd);align-self:center';
+    var tog=document.getElementById('theme-toggle');if(tog&&tog.parentNode===wrap)wrap.insertBefore(span,tog);else wrap.appendChild(span);
+    render();
+    setInterval(render,30000);
+    window.addEventListener('erin-sync', render);
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',setup);
+  else setup();
+})();
+</script>
+</body>
+</html>

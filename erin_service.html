@@ -114,18 +114,20 @@ html.dark .s-updated{background:#2d2563;color:#b5abfa}
   <div class="gnav-wrap">
     <div class="gnav-inner">
       <a href="index.html" class="gnav-home">&#127968; Home</a>
+      <a href="erin_search.html" class="gnav-link">&#128269; Search</a>
       <span class="gnav-divider"></span>
       <div class="gnav-group">
         <span class="gnav-group-label gl-track">Track</span>
         <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
         <a href="erin_compare.html" class="gnav-link">&#9878; Compare</a>
+        <a href="erin_pipeline.html" class="gnav-link">&#128202; Pipeline</a>
         <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
         <a href="erin_applications.html" class="gnav-link">&#128196; Apps</a>
         <a href="erin_proftracker.html" class="gnav-link">&#128100; Profs</a>
         <a href="erin_reftracker.html" class="gnav-link">&#128393; Refs</a>
         <a href="erin_archive.html" class="gnav-link">&#128193; Archive</a>
       </div>
-      <span class="gnav-divider"></span>
+      <span class="gnav-divider gnav-break"></span>
       <div class="gnav-group">
         <span class="gnav-group-label gl-browse">Browse</span>
         <a href="erin_programs.html" class="gnav-link">&#127979; Programs</a>
@@ -139,6 +141,7 @@ html.dark .s-updated{background:#2d2563;color:#b5abfa}
         <a href="erin_materials.html" class="gnav-link">&#128218; Materials</a>
         <a href="erin_writing_samples.html" class="gnav-link">&#9997; Writing</a>
         <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
+        <a href="erin_packet.html" class="gnav-link">&#128424; Packet</a>
       </div>
     </div>
     <button class="gnav-toggle" id="theme-toggle" onclick="__toggleTheme()" title="Toggle dark/light mode">&#127769;</button>
@@ -653,12 +656,12 @@ document.addEventListener('keydown',function(e){
     el.textContent = ts ? '✓ Synced '+fmtAgo(ts) : '— not synced';
   }
   function setup(){
-    var inner=document.querySelector('.gnav-inner');
-    if(!inner || document.getElementById('gnav-sync')) return;
+    var wrap=document.querySelector('.gnav-wrap');
+    if(!wrap || document.getElementById('gnav-sync')) return;
     var span=document.createElement('span');
     span.id='gnav-sync'; span.className='gnav-sync'; span.title='Last cloud sync';
-    span.style.cssText='font-size:10px;color:var(--t3);padding:3px 8px;background:var(--bg2);border-radius:4px;white-space:nowrap;flex-shrink:0;margin-left:10px;border:.5px solid var(--bd)';
-    inner.appendChild(span);
+    span.style.cssText='font-size:10px;color:var(--t3);padding:3px 8px;background:var(--bg2);border-radius:4px;white-space:nowrap;flex-shrink:0;margin-left:10px;border:.5px solid var(--bd);align-self:center';
+    var tog=document.getElementById('theme-toggle');if(tog&&tog.parentNode===wrap)wrap.insertBefore(span,tog);else wrap.appendChild(span);
     render();
     setInterval(render,30000);
     window.addEventListener('erin-sync', render);

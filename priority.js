@@ -7,8 +7,8 @@
 (function(){
   var BIN='6a039aa4250b1311c33f2bac', KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
   function isPrimary(){ return localStorage.getItem('erin_primary_device')==='1'; }
-  var SL={notstarted:'Not started',gathering:'Gathering materials',submitted:'Submitted',review:'Under review',decision:'Decision received',accepted:'Accepted',declined:'Declined',waitlisted:'Waitlisted'};
-  var DONE={submitted:1,review:1,decision:1,accepted:1,declined:1,waitlisted:1};
+  var SL={notstarted:'Not started',gathering:'Gathering materials',submitted:'Submitted',review:'Under review',interview:'Interview / heard back',decision:'Decision received',accepted:'Accepted',declined:'Declined',waitlisted:'Waitlisted'};
+  var DONE={submitted:1,review:1,interview:1,decision:1,accepted:1,declined:1,waitlisted:1};
   function lj(k,fb){ try{ return JSON.parse(localStorage.getItem(k)||fb); }catch(e){ return JSON.parse(fb); } }
   function dayDiff(s){
     if(!s||typeof s!=='string') return null;
@@ -56,7 +56,48 @@
     A.sort(function(a,b){return b.weight-a.weight;});
     return A;
   }
+  function esc(s){ return (s+'').replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+  function fmtCat(s){ if(!s) return ''; if(/grad/i.test(s)) return 'Grad Program'; if(/intern/i.test(s)) return 'Internship'; if(/career|job/i.test(s)) return 'Career'; if(/service|fellow/i.test(s)) return 'Service'; return s; }
+  function buildDeadlines(){
+    var ml=lj('erin_mylist_v1','{}'), apps=lj('erin_applications_v1','[]'), out=[], seen={};
+    function add(name,org,deadline,cat,link){
+      if(!name) return;
+      var d=dayDiff(deadline); if(d==null) return;
+      if(d>14||d< -45) return;                       /* next 14 days, plus recent overdue */
+      var key=(name+'').toLowerCase().trim(); if(!key||seen[key]) return; seen[key]=1;
+      out.push({name:name,org:org||'',deadline:deadline,cat:fmtCat(cat),d:d,link:link});
+    }
+    apps.forEach(function(a){ if(/^(accepted|declined|waitlisted)$/i.test(a.status||'')) return; add((a.programTitle||'').split('—')[0].trim(),a.org,a.deadline,a.itemType,'erin_applications.html#acard-'+a.id); });
+    Object.values(ml).forEach(function(it){ if(it._done) return; add((it.title||'').split('—')[0].trim(),it.org,it.deadline,it.type||it.cat,'erin_mylist.html'); });
+    out.sort(function(x,y){ return x.d-y.d; });
+    return out;
+  }
+  function renderDeadlines(){
+    var box=document.getElementById('pd-deadlines'); if(!box) return;
+    var list=buildDeadlines();
+    var h='<div class="pd-section"><div class="pd-sec-head"><div class="pd-sec-title">⏰ Deadlines in the next 14 days</div><span class="pd-sec-count">'+list.length+'</span></div>';
+    h+='<div class="pd-sec-sub">Always shown — even ones that didn’t make the prioritized list above.</div>';
+    if(!list.length){
+      h+='<div class="pd-empty-dl">✅ No deadlines in the next 14 days — nothing time-critical right now.</div>';
+    } else {
+      list.slice(0,8).forEach(function(o){
+        var over=o.d<0, num, lbl;
+        if(o.d<0){ num=-o.d; lbl=(num===1?'day':'days')+' overdue'; }
+        else if(o.d===0){ num='!'; lbl='due today'; }
+        else { num=o.d; lbl=(o.d===1?'day':'days')+' left'; }
+        var meta=(over?'Was due ':'Due ')+esc(o.deadline)+(o.cat?' · '+esc(o.cat):'');
+        h+='<a href="'+esc(o.link)+'" class="pdl'+(over?' over':'')+'">'
+          +'<div class="pdl-when"><div class="pdl-num">'+num+'</div><div class="pdl-lbl">'+lbl+'</div></div>'
+          +'<div class="pdl-mid"><div class="pdl-name">'+esc(o.name)+'</div><div class="pdl-meta">'+meta+'</div></div>'
+          +'<div class="pdl-cta">›</div></a>';
+      });
+      if(list.length>8) h+='<div class="pd-more">+ '+(list.length-8)+' more with deadlines</div>';
+    }
+    h+='<div class="pd-foot">📅 <a href="erin_timeline.html">See all deadlines on the Timeline →</a></div></div>';
+    box.innerHTML=h;
+  }
   function render(){
+    try{ renderDeadlines(); }catch(e){}
     var A=buildActions(), top=A.slice(0,5), c=document.getElementById('pd-actions'), ce=document.getElementById('pd-count');
     if(!c) return; c.innerHTML='';
     if(!top.length){ if(ce) ce.textContent=''; c.innerHTML='<div class="pd-empty"><span class="pd-empty-emoji">✅</span>All caught up — no urgent actions surfaced right now.</div>'; return; }

@@ -266,18 +266,20 @@ html:not(.dark) {
   <div class="gnav-wrap">
     <div class="gnav-inner">
       <a href="index.html" class="gnav-home">&#127968; Home</a>
+      <a href="erin_search.html" class="gnav-link">&#128269; Search</a>
       <span class="gnav-divider"></span>
       <div class="gnav-group">
         <span class="gnav-group-label gl-track">Track</span>
         <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
         <a href="erin_compare.html" class="gnav-link">&#9878; Compare</a>
+        <a href="erin_pipeline.html" class="gnav-link">&#128202; Pipeline</a>
         <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
         <a href="erin_applications.html" class="gnav-link">&#128196; Apps</a>
         <a href="erin_proftracker.html" class="gnav-link">&#128100; Profs</a>
         <a href="erin_reftracker.html" class="gnav-link">&#128393; Refs</a>
         <a href="erin_archive.html" class="gnav-link">&#128193; Archive</a>
       </div>
-      <span class="gnav-divider"></span>
+      <span class="gnav-divider gnav-break"></span>
       <div class="gnav-group">
         <span class="gnav-group-label gl-browse">Browse</span>
         <a href="erin_programs.html" class="gnav-link">&#127979; Programs</a>
@@ -291,6 +293,7 @@ html:not(.dark) {
         <a href="erin_materials.html" class="gnav-link">&#128218; Materials</a>
         <a href="erin_writing_samples.html" class="gnav-link">&#9997; Writing</a>
         <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
+        <a href="erin_packet.html" class="gnav-link">&#128424; Packet</a>
       </div>
     </div>
     <button class="gnav-toggle" id="theme-toggle" onclick="__toggleTheme()" title="Toggle dark/light mode">&#127769;</button>
@@ -310,12 +313,14 @@ html:not(.dark) {
   <span id="count-pill" class="count-pill"></span>
   <div style="display:flex;align-items:center;gap:.4rem;flex-wrap:wrap">
     <button id="export-btn" type="button" onclick="exportBackup()" title="Download a full backup (My List + Applications + Archive) as a JSON file" style="font-size:12px;font-weight:500;padding:5px 12px;border-radius:999px;border:1px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn)">&#11015; Export backup</button>
-    <button id="import-btn" type="button" onclick="document.getElementById('import-file').click()" title="Restore from a backup JSON file (primary device only)" style="font-size:12px;font-weight:500;padding:5px 12px;border-radius:999px;border:1px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn)">&#11014; Restore</button>
+    <button id="import-btn" type="button" onclick="document.getElementById('import-file').click()" title="Restore from a backup JSON file (primary device only)" style="font-size:12px;font-weight:500;padding:5px 12px;border-radius:999px;border:1px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn)">&#11014; Restore file</button>
+    <button id="snap-btn" type="button" onclick="restoreFromSnapshot()" title="Restore from one of the automatic daily snapshots (primary device only)" style="font-size:12px;font-weight:500;padding:5px 12px;border-radius:999px;border:1px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn)">&#128499; Restore auto-backup</button>
     <input id="import-file" type="file" accept="application/json,.json" style="display:none" onchange="importBackup(this)">
     <button id="primary-btn"></button>
   </div>
 </div>
 <div id="device-banner" style="display:none;font-size:12px;line-height:1.5;padding:.5rem .75rem;border-radius:var(--r1);margin-bottom:.75rem"></div>
+<div id="backup-nudge" style="display:none;font-size:12px;line-height:1.5;padding:.5rem .75rem;border-radius:var(--r1);margin-bottom:.75rem"></div>
 
 <div class="mode-tabs">
   <button id="tab-list" class="mode-tab active" onclick="setMode('list')">&#9733; My List <span id="tab-count"></span></button>
@@ -620,6 +625,7 @@ function buildDetailPanel(it,idPrefix){
   if(it.url){ var al=document.createElement('a'); al.className='id-link id-link-primary'; al.href=it.url; al.target='_blank'; al.innerHTML='&#128279; '+(it.url_label||'Apply / View posting')+' &rarr;'; lnkDiv.appendChild(al); }
   if(it.url2){ var al2=document.createElement('a'); al2.className='id-link'; al2.href=it.url2; al2.target='_blank'; al2.innerHTML='&#128279; '+(it.url2_label||'More info')+' &rarr;'; lnkDiv.appendChild(al2); }
   if(it.src){ var sl=document.createElement('a'); sl.className='id-link'; sl.href=it.src; sl.target='_blank'; sl.innerHTML='Open '+(it.src_label||'source page')+' &rarr;'; lnkDiv.appendChild(sl); }
+  if(it.id){ var pk=document.createElement('a'); pk.className='id-link'; pk.href='erin_packet.html?ml='+encodeURIComponent(it.id); pk.innerHTML='&#128424; Print packet'; lnkDiv.appendChild(pk); }
   if(lnkDiv.children.length) detail.appendChild(lnkDiv);
   detail.appendChild(el('div','id-section-label','Section'));
   var oi=el('div','id-meta-item'); oi.textContent=(it.src_label||it.cat||''); detail.appendChild(oi);
@@ -880,42 +886,68 @@ initPrimaryBtn();
       try{ parsed=JSON.parse(reader.result); }catch(e){ alert('That file is not valid JSON — restore cancelled.'); return; }
       var rec = (parsed && parsed.record) ? parsed.record : parsed; /* accept our wrapper or a raw record */
       if(!rec || typeof rec!=='object'){ alert('Backup file not recognised — restore cancelled.'); return; }
-      var present=BACKUP_MAP.filter(function(d){ return rec[d.cloud]!=null; });
-      if(!present.length){ alert('This backup contains none of the known data sections — restore cancelled.'); return; }
-      var summary=present.map(function(d){ return '  • '+d.label+': '+cnt(rec[d.cloud]); }).join('\n');
-      if(!confirm('Restore this backup?\n\nThis REPLACES the following — on this device AND in the cloud:\n\n'+summary+'\n\nAny section NOT listed above is left untouched.\n\nTip: click “Export backup” first to snapshot the current state.\n\nProceed?')) return;
-      try{
-        present.forEach(function(d){ localStorage.setItem(d.ls, JSON.stringify(rec[d.cloud])); });
-      }catch(e){ alert('Could not write to local storage — restore aborted before any cloud change.'); return; }
-      /* Overlay restored domains onto the LIVE cloud record (don't blow away
-         anything the backup doesn't mention). */
-      fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
-        .then(function(r){ return r.json(); })
-        .then(function(data){
-          var live=(data&&data.record)||{};
-          present.forEach(function(d){ live[d.cloud]=rec[d.cloud]; });
-          return fetch('https://api.jsonbin.io/v3/b/'+BIN,{
-            method:'PUT',
-            headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},
-            body:JSON.stringify(live)
-          });
-        })
-        .then(function(){ try{flash('Restored ✓');}catch(e){} alert('Backup restored and synced to the cloud.\n\nOpen the other tracker pages to see their restored data.'); renderList(); renderBrowse(); })
-        .catch(function(){ alert('Restored locally, but the cloud sync failed (check connection). Local data is updated; it will sync on the next change made on this device.'); renderList(); renderBrowse(); });
+      applyRestore(rec,'this backup file');
     };
     reader.readAsText(file);
   };
 
+  /* Shared restore core — used by file import AND auto-snapshot restore.
+     Primary-gated double-confirm, writes localStorage then merges to cloud. */
+  function applyRestore(rec, srcLabel){
+    if(!rec || typeof rec!=='object'){ alert('Backup not recognised — restore cancelled.'); return; }
+    if(!isPrimary()){ alert('Restore is only allowed on the PRIMARY device (Erin’s laptop).'); return; }
+    var present=BACKUP_MAP.filter(function(d){ return rec[d.cloud]!=null; });
+    if(!present.length){ alert('That backup contains none of the known data sections — restore cancelled.'); return; }
+    var summary=present.map(function(d){ return '  • '+d.label+': '+cnt(rec[d.cloud]); }).join('\n');
+    if(!confirm('Restore from '+(srcLabel||'backup')+'?\n\nThis REPLACES the following — on this device AND in the cloud:\n\n'+summary+'\n\nAny section NOT listed above is left untouched.\n\nTip: click “Export backup” first to snapshot the current state.\n\nProceed?')) return;
+    try{
+      present.forEach(function(d){ localStorage.setItem(d.ls, JSON.stringify(rec[d.cloud])); });
+    }catch(e){ alert('Could not write to local storage — restore aborted before any cloud change.'); return; }
+    fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+      .then(function(r){ return r.json(); })
+      .then(function(data){
+        var live=(data&&data.record)||{};
+        present.forEach(function(d){ live[d.cloud]=rec[d.cloud]; });
+        return fetch('https://api.jsonbin.io/v3/b/'+BIN,{
+          method:'PUT',
+          headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},
+          body:JSON.stringify(live)
+        });
+      })
+      .then(function(){ try{flash('Restored ✓');}catch(e){} alert('Backup restored and synced to the cloud.\n\nOpen the other tracker pages to see their restored data.'); renderList(); renderBrowse(); })
+      .catch(function(){ alert('Restored locally, but the cloud sync failed (check connection). Local data is updated; it will sync on the next change made on this device.'); renderList(); renderBrowse(); });
+  }
+
+  window.restoreFromSnapshot=function(){
+    if(!isPrimary()){ alert('Restore is only allowed on the PRIMARY device (Erin’s laptop).'); return; }
+    fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+      .then(function(r){ return r.json(); })
+      .then(function(data){
+        var rec=(data&&data.record)||{};
+        var bk=Array.isArray(rec.backups)?rec.backups:[];
+        if(!bk.length){ alert('No automatic snapshots exist yet. They are created once per day when Erin’s laptop is used.'); return; }
+        var lines=bk.map(function(s,i){
+          var when=s.at?new Date(s.at):null;
+          var label=when?when.toLocaleString():(s.day||'unknown');
+          return (i+1)+') '+label+' ('+relTime(s.at)+')';
+        });
+        var pick=prompt('Restore from an automatic snapshot.\n\nNewest is last. Type a number to restore it, or Cancel:\n\n'+lines.join('\n'));
+        if(pick==null) return;
+        var idx=parseInt(pick,10)-1;
+        if(isNaN(idx)||idx<0||idx>=bk.length){ alert('“'+pick+'” isn’t one of the listed numbers — cancelled.'); return; }
+        applyRestore(bk[idx].data, 'automatic snapshot ('+(bk[idx].at?new Date(bk[idx].at).toLocaleString():bk[idx].day)+')');
+      })
+      .catch(function(){ alert('Couldn’t reach the cloud to list snapshots (check connection).'); });
+  };
+
   function setRestoreEnabled(on){
-    var ib=document.getElementById('import-btn'); if(!ib) return;
-    ib.disabled=!on;
-    if(on){
-      ib.style.opacity=''; ib.style.cursor='pointer';
-      ib.title='Restore from a backup JSON file (primary device only)';
-    } else {
-      ib.style.opacity='.45'; ib.style.cursor='not-allowed';
-      ib.title='Restore is disabled on view-only devices. Do this on Erin’s primary laptop.';
-    }
+    ['import-btn','snap-btn'].forEach(function(id){
+      var ib=document.getElementById(id); if(!ib) return;
+      ib.disabled=!on;
+      if(on){ ib.style.opacity=''; ib.style.cursor='pointer'; }
+      else { ib.style.opacity='.45'; ib.style.cursor='not-allowed';
+        ib.title='Restore is disabled on view-only devices. Do this on Erin’s primary laptop.'; }
+    });
   }
 
   window.updateDeviceBanner=function(){
@@ -932,6 +964,97 @@ initPrimaryBtn();
     }
   };
   updateDeviceBanner();
+
+  /* ── Automatic rolling snapshots (last 5, in-bin, once/day on primary) ──
+     Closes the "nobody clicked Export" gap. Keeps a capped history under the
+     bin's `backups` key so a bad overwrite or deletion can be rolled back. */
+  var SNAP_CAP=5;
+  function relTime(iso){
+    var t=Date.parse(iso); if(isNaN(t)) return 'unknown';
+    var s=Math.floor((Date.now()-t)/1000);
+    if(s<90) return 'just now';
+    var m=Math.floor(s/60); if(m<60) return m+' min ago';
+    var h=Math.floor(m/60); if(h<24) return h+' hr ago';
+    var d=Math.floor(h/24); return d===1?'yesterday':d+' days ago';
+  }
+  function showNudge(kind,msg){
+    var n=document.getElementById('backup-nudge'); if(!n) return;
+    n.style.display='block'; n.textContent=msg;
+    if(kind==='warn'){ n.style.background='var(--amber-bg)'; n.style.color='var(--amber-t)'; n.style.border='1px solid var(--amber)'; }
+    else { n.style.background='var(--bg2)'; n.style.color='var(--t2)'; n.style.border='.5px solid var(--bd)'; }
+  }
+  function backupRoutine(){
+    fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+      .then(function(r){ return r.json(); })
+      .then(function(data){
+        var rec=(data&&data.record)||{};
+        var backups=Array.isArray(rec.backups)?rec.backups:[];
+        var today=new Date().toISOString().slice(0,10);
+        var dueToday = isPrimary() && localStorage.getItem('erin_snap_day')!==today;
+        if(dueToday){
+          var snap={};
+          BACKUP_MAP.forEach(function(d){ if(rec[d.cloud]!=null) snap[d.cloud]=rec[d.cloud]; });
+          backups.push({ at:new Date().toISOString(), day:today, data:snap });
+          if(backups.length>SNAP_CAP) backups=backups.slice(backups.length-SNAP_CAP);
+          rec.backups=backups;
+          fetch('https://api.jsonbin.io/v3/b/'+BIN,{
+            method:'PUT',
+            headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},
+            body:JSON.stringify(rec)
+          }).then(function(){
+            localStorage.setItem('erin_snap_day',today);
+            showNudge('ok','🛟 Auto-backup saved just now · keeping the last '+SNAP_CAP+' daily snapshots.');
+          }).catch(function(){
+            showNudge('warn','⚠ Couldn’t save today’s automatic backup (connection?). Consider clicking “Export backup”.');
+          });
+        } else if(backups.length){
+          var last=backups[backups.length-1];
+          var ageDays=Math.floor((Date.now()-Date.parse(last.at))/864e5);
+          showNudge(ageDays>=3?'warn':'ok',
+            (ageDays>=3?'⚠ ':'🛟 ')+'Last automatic backup: '+relTime(last.at)+' · '+backups.length+' kept'
+            +(ageDays>=3?' — consider “Export backup” for an extra copy.':'.'));
+        } else {
+          showNudge(isPrimary()?'ok':'warn',
+            isPrimary()?'🛟 No automatic backup yet — one will be saved today.'
+                       :'⚠ No automatic backup found yet (these are created on Erin’s primary laptop).');
+        }
+      })
+      .catch(function(){ /* offline: stay silent, nothing to nudge about */ });
+  }
+  /* defer so the existing load-time heartbeat sync settles first */
+  setTimeout(function(){ try{ backupRoutine(); }catch(e){} }, 1800);
+})();
+</script>
+<script>
+/* ── Sync indicator: appears at end of nav, updates on every sync ── */
+(function(){
+  function fmtAgo(ts){
+    if(!ts) return 'never';
+    var s=Math.floor((Date.now()-ts)/1000);
+    if(s<5) return 'just now';
+    if(s<60) return s+'s ago';
+    var m=Math.floor(s/60); if(m<60) return m+'m ago';
+    var h=Math.floor(m/60); if(h<24) return h+'h ago';
+    return Math.floor(h/24)+'d ago';
+  }
+  function render(){
+    var el=document.getElementById('gnav-sync'); if(!el) return;
+    var ts=parseInt(localStorage.getItem('erin_last_sync')||'0',10);
+    el.textContent = ts ? '✓ Synced '+fmtAgo(ts) : '— not synced';
+  }
+  function setup(){
+    var wrap=document.querySelector('.gnav-wrap');
+    if(!wrap || document.getElementById('gnav-sync')) return;
+    var span=document.createElement('span');
+    span.id='gnav-sync'; span.className='gnav-sync'; span.title='Last cloud sync';
+    span.style.cssText='font-size:10px;color:var(--t3);padding:3px 8px;background:var(--bg2);border-radius:4px;white-space:nowrap;flex-shrink:0;margin-left:10px;border:.5px solid var(--bd);align-self:center';
+    var tog=document.getElementById('theme-toggle');if(tog&&tog.parentNode===wrap)wrap.insertBefore(span,tog);else wrap.appendChild(span);
+    render();
+    setInterval(render,30000);
+    window.addEventListener('erin-sync', render);
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',setup);
+  else setup();
 })();
 </script>
 </body>
