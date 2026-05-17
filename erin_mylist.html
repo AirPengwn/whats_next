@@ -1,10 +1,10 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="styles.css">
-<title>My Opportunity List â€” What's Next for Erin</title>
+<title>My Opportunity List — What's Next for Erin</title>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 
@@ -86,7 +86,7 @@ a:hover{text-decoration:underline}
 .empty-body{font-size:13px;color:var(--t2);line-height:1.65}
 .footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
 
-/* â”€â”€ Global nav â”€â”€ */
+/* ── Global nav ── */
 .global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
 .gnav-wrap{max-width:1100px;margin:0 auto;display:flex;align-items:center}
 .gnav-inner{flex:1;min-width:0;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:0 2px;row-gap:2px;scrollbar-width:none}
@@ -108,7 +108,7 @@ html.dark .gnav-toggle{background:var(--bg2);border-color:var(--bd);color:var(--
 
 html.dark body{background:var(--bg3);color:var(--t1)}
 
-/* â”€â”€ Global nav â”€â”€ */
+/* ── Global nav ── */
 .global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
 .gnav-wrap{max-width:1100px;margin:0 auto;display:flex;align-items:center}
 .gnav-inner{flex:1;min-width:0;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:0 2px;row-gap:2px;scrollbar-width:none}
@@ -155,21 +155,21 @@ body{padding:0 0 2rem;margin:0}
 .page{max-width:720px;margin:0 auto;padding:0 1rem}
 .page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.5rem}
 
-/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
-   THEME VARIABLES â€” What's Next for Erin
+/* ════════════════════════════════════
+   THEME VARIABLES — What's Next for Erin
    Light: Medium grey scale palette
    Dark: Forest green palette
-   â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+   ════════════════════════════════════ */
 
 /* Light mode base */
 :root {
   /* Grey scale (Medium palette) */
-  --bg:   #FAFAFA;   /* grey-50  â€” card white */
-  --bg2:  #F5F5F5;   /* grey-100 â€” subtle areas */
-  --bg3:  #EEEEEE;   /* grey-200 â€” page background */
-  --t1:   #212121;   /* grey-900 â€” primary text */
-  --t2:   #424242;   /* grey-800 â€” secondary text */
-  --t3:   #757575;   /* grey-600 â€” muted text */
+  --bg:   #FAFAFA;   /* grey-50  — card white */
+  --bg2:  #F5F5F5;   /* grey-100 — subtle areas */
+  --bg3:  #EEEEEE;   /* grey-200 — page background */
+  --t1:   #212121;   /* grey-900 — primary text */
+  --t2:   #424242;   /* grey-800 — secondary text */
+  --t3:   #757575;   /* grey-600 — muted text */
   --bd:   rgba(0,0,0,0.10);
   --bds:  rgba(0,0,0,0.22);
   /* Shared */
@@ -196,7 +196,7 @@ body{padding:0 0 2rem;margin:0}
   }
 }
 
-/* Manual toggle â€” must come LAST so it overrides both :root and @media */
+/* Manual toggle — must come LAST so it overrides both :root and @media */
 html.dark {
   --bg:#1c2018;--bg2:#242b1e;--bg3:#18201a;
   --t1:#f0ede0;--t2:#c0c4a8;--t3:#9dc8c8;
@@ -300,9 +300,9 @@ html:not(.dark) {
 <div class="page">
 
 <div class="page-header">
-  <div class="page-header-eyebrow">Whatâ€™s Next for Erin</div>
+  <div class="page-header-eyebrow">What’s Next for Erin</div>
   <div class="page-header-title">My List</div>
-  <div id="hero-sub" class="page-header-sub">Your saved opportunities â€” grad programs, internships, jobs, and service programs.</div>
+  <div id="hero-sub" class="page-header-sub">Your saved opportunities — grad programs, internships, jobs, and service programs.</div>
 </div>
 <div id="ss" class="sync-status"></div>
 
@@ -329,7 +329,7 @@ html:not(.dark) {
 
 <div id="mode-browse" style="display:none;margin-top:.5rem">
   <div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.6rem;flex-wrap:wrap">
-    <input id="bs" type="search" class="search-input" placeholder="Search opportunitiesâ€¦" oninput="renderBrowse()" style="flex:1;margin-bottom:0">
+    <input id="bs" type="search" class="search-input" placeholder="Search opportunities…" oninput="renderBrowse()" style="flex:1;margin-bottom:0">
     <div id="browse-filters" style="display:flex;gap:4px;flex-wrap:wrap"></div>
   </div>
   <div id="browse-body"></div>
@@ -342,7 +342,7 @@ var BIN='6a039aa4250b1311c33f2bac';
 var KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
 var STORE='erin_mylist_v1';
 var mf='All'; var bf='All';
-var CATS=['All','Funded Graduate Programs','Internships','Career Positions','Service & Fellowships','Graduate Programs â€” Next Cycle','Internships â€” Next Cycle','Career Positions â€” Next Cycle','Service & Fellowships â€” Next Cycle'];
+var CATS=['All','Funded Graduate Programs','Internships','Career Positions','Service & Fellowships','Graduate Programs — Next Cycle','Internships — Next Cycle','Career Positions — Next Cycle','Service & Fellowships — Next Cycle'];
 // ALL is populated by opportunities.js (loaded before this script)
 
 function load(){ try{ return JSON.parse(localStorage.getItem(STORE)||'{}'); }catch(e){ return {}; } }
@@ -374,7 +374,7 @@ function flash(msg){
 function addItem(d){ var m=load(); m[d.id]=d; save(m); push(m); }
 function delItem(id){ var m=load(); delete m[id]; save(m); push(m); }
 
-// â”€â”€ Archive log: rationale capture when items are removed from My List â”€â”€
+// ── Archive log: rationale capture when items are removed from My List ──
 // Shared store with Applications page ('erin_archive_log', bin key 'archiveLog')
 // so the full history of every passed-on opportunity lives in one place.
 var ARCHIVE_STORE='erin_archive_log';
@@ -398,7 +398,7 @@ function logArchive(entry){
   saveArchive(arr); pushArchive(arr);
 }
 
-// Shared rationale modal â€” also lives on the Applications page. cb(null) on cancel.
+// Shared rationale modal — also lives on the Applications page. cb(null) on cancel.
 window.showArchiveModal=function(opts, cb){
   var TAGS=['too far','no funding','wrong research fit','missed deadline','better option','not competitive','other'];
   var overlay=document.createElement('div');
@@ -469,7 +469,7 @@ function mirrorPrimary(){
 }
 mirrorPrimary();
 
-// â”€â”€ Applications tracker helpers (used by "â†’ Apps" button on each card) â”€â”€
+// ── Applications tracker helpers (used by "→ Apps" button on each card) ──
 var APP_STORE='erin_applications_v1';
 function loadApps(){ try{ return JSON.parse(localStorage.getItem(APP_STORE)||'[]'); }catch(e){ return []; } }
 function saveApps(arr){ localStorage.setItem(APP_STORE,JSON.stringify(arr)); }
@@ -494,7 +494,7 @@ function addToApps(it,btn){
     btn.textContent=msg; btn.style.color=col||'';
     setTimeout(function(){ btn.textContent=orig; btn.style.color=''; },2500);
   }
-  if(exists){ flash('âœ“ Already in Apps','var(--teal-t)'); return; }
+  if(exists){ flash('✓ Already in Apps','var(--teal-t)'); return; }
   var id='a'+Date.now();
   apps.push({
     id:id, programTitle:it.title||'', org:it.org||'', deadline:it.deadline||'',
@@ -503,7 +503,7 @@ function addToApps(it,btn){
     submitDate:'', decisionDate:'', decisionReason:'', notes:'', materials:{}
   });
   saveApps(apps); pushApps(apps);
-  flash('âœ“ Added to Apps','var(--teal-t)');
+  flash('✓ Added to Apps','var(--teal-t)');
 }
 function setPrimary(v){
   localStorage.setItem(PRIMARY_KEY, v?'1':'0');
@@ -573,7 +573,7 @@ function buildFilters(elId, cur, fn){
 }
 
 
-// â”€â”€ Merge saved item with ALL array to get enriched fields (url, pay, etc.) â”€â”€
+// ── Merge saved item with ALL array to get enriched fields (url, pay, etc.) ──
 function mergeWithAll(it){
   var match = ALL.find(function(a){ return a.id === it.id; });
   if(!match) return it;
@@ -654,19 +654,19 @@ function makeListCard(it){
 
   if(it._note){ var nd=el('div','note-display','Note: '+it._note); main.appendChild(nd); }
 
-  // â”€â”€ Rich detail panel â”€â”€
+  // ── Rich detail panel ──
   var detail=buildDetailPanel(it,'detail-');
   main.appendChild(detail);
 
   var acts=el('div','item-actions');
   if(it.body||it.deadline||it.pills){
     var db=el('button','act-btn','Details'); db.onclick=function(){ detail.classList.toggle('open'); db.textContent=detail.classList.contains('open')?'Hide details':'Details'; }; acts.appendChild(db);
-    acts.appendChild(el('span','act-sep',' Â· '));
+    acts.appendChild(el('span','act-sep',' · '));
   }
   var noteArea=el('div','note-area'); noteArea.id='note-'+it.id;
   var nb=el('button','act-btn','Note'); nb.onclick=function(){ noteArea.classList.toggle('open'); }; acts.appendChild(nb);
-  acts.appendChild(el('span','act-sep',' Â· '));
-  var ab=el('button','act-btn','â†’ Apps'); ab.title='Add to Application Tracker';
+  acts.appendChild(el('span','act-sep',' · '));
+  var ab=el('button','act-btn','→ Apps'); ab.title='Add to Application Tracker';
   ab.onclick=function(){ addToApps(it,ab); }; acts.appendChild(ab);
 
   var rb=el('button','act-remove','Remove');
@@ -674,7 +674,7 @@ function makeListCard(it){
     window.showArchiveModal(
       {title:it.title, org:it.org, source:'mylist', itemId:it.id, action:'removed'},
       function(result){
-        if(!result) return; // cancelled â€” leave item in place
+        if(!result) return; // cancelled — leave item in place
         logArchive(result);
         delItem(it.id); renderList();
         if(document.getElementById('mode-browse').style.display!=='none') renderBrowse();
@@ -749,12 +749,12 @@ function renderBrowse(){
       card.appendChild(el('div','browse-org',it.org));
       var meta=el('div','browse-meta');
       if(it.deadline){ var dm=el('span'); dm.innerHTML='<strong style="font-weight:500">Deadline:</strong> '+it.deadline; meta.appendChild(dm); }
-      if(it.start){ if(it.deadline){meta.appendChild(el('span',null,' Â· '));} var sm=el('span'); sm.innerHTML='<strong style="font-weight:500">Start:</strong> '+it.start; meta.appendChild(sm); }
+      if(it.start){ if(it.deadline){meta.appendChild(el('span',null,' · '));} var sm=el('span'); sm.innerHTML='<strong style="font-weight:500">Start:</strong> '+it.start; meta.appendChild(sm); }
       card.appendChild(meta);
-      // â”€â”€ Rich browse detail panel â”€â”€
+      // ── Rich browse detail panel ──
       var bd=buildDetailPanel(it,'bb-');
       card.appendChild(bd);
-      var sav=el('button','browse-save-btn'+(saved?' saved':''), saved?'âœ“ Saved':'+ Save');
+      var sav=el('button','browse-save-btn'+(saved?' saved':''), saved?'✓ Saved':'+ Save');
       sav.onclick=function(){
         if(has(it.id)){ delItem(it.id); }
         else { addItem(it); }
@@ -778,7 +778,7 @@ function initPrimaryBtn(){
   var btn=document.getElementById('primary-btn');
   if(!btn) return;
   if(isPrimary()){
-    btn.textContent='This is the primary device âœ“';
+    btn.textContent='This is the primary device ✓';
     btn.style.cssText='font-size:12px;font-weight:500;padding:5px 14px;border-radius:999px;border:1px solid var(--teal-t);background:var(--teal-bg);color:var(--teal-t);cursor:default;font-family:var(--fn)';
   } else {
     btn.onclick=function(){
