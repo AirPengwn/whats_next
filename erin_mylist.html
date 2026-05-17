@@ -821,7 +821,7 @@ function initPrimaryBtn(){
   if(!btn) return;
   if(isPrimary()){
     btn.textContent='This is the primary device ✓';
-    btn.style.cssText='font-size:12px;font-weight:500;padding:5px 14px;border-radius:999px;border:1px solid var(--teal-t');background:var(--teal-bg);color:var(--teal-t);cursor:default;font-family:var(--fn)';
+    btn.style.cssText='font-size:12px;font-weight:500;padding:5px 14px;border-radius:999px;border:1px solid var(--teal-t);background:var(--teal-bg);color:var(--teal-t);cursor:default;font-family:var(--fn)';
   } else {
     btn.onclick=function(){ localStorage.setItem('erin_primary_device','1'); initPrimaryBtn(); };
     btn.textContent='Set as primary device';
