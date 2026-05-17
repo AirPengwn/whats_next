@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="styles.css?v=20260518c">
+<link rel="stylesheet" href="styles.css?v=20260518d">
 <title>Erin Lamberton &#8212; Professor Contact Tracker</title>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -187,7 +187,7 @@ html:not(.dark){
 .log-save-btn{font-size:12px;font-weight:500;padding:4px 14px;border-radius:999px;border:none;background:var(--teal);color:#fff;cursor:pointer;font-family:var(--fn)}
 .log-cancel-btn{font-size:12px;padding:4px 10px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn)}
 </style>
-<script src="site.js?v=20260518c"></script>
+<script src="site.js?v=20260518d"></script>
 <script>
 (function(){
   var saved=localStorage.getItem('erin_theme');
@@ -712,7 +712,7 @@ document.querySelectorAll('.ref-guide-heading').forEach(function(hdr){
     if(!wrap || document.getElementById('gnav-sync')) return;
     var span=document.createElement('span');
     span.id='gnav-sync'; span.className='gnav-sync'; span.title='Last cloud sync';
-    span.style.cssText='font-size:10px;color:var(--t3);padding:3px 8px;background:var(--bg2);border-radius:4px;white-space:nowrap;flex-shrink:0;margin-left:10px;border:.5px solid var(--bd);align-self:center';
+    span.style.cssText='font-size:10px;color:var(--t3);padding:3px 8px;background:var(--bg2);border-radius:4px;white-space:nowrap;flex-shrink:0;margin-left:10px;border:.5px solid var(--bd);align-self:center;min-width:118px;text-align:center;box-sizing:border-box';
     var tog=document.getElementById('theme-toggle');if(tog&&tog.parentNode===wrap)wrap.insertBefore(span,tog);else wrap.appendChild(span);
     render();
     setInterval(render,30000);
