@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Erin Lamberton &mdash; Archive Log</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem}
+
+/* ── Global nav ── */
+.global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
+.gnav-wrap{max-width:1100px;margin:0 auto;display:flex;align-items:center}
+.gnav-inner{flex:1;min-width:0;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:0 2px;row-gap:2px;scrollbar-width:none}
+.gnav-divider{display:inline-block;width:1px;height:16px;background:var(--bd);margin:0 4px;flex-shrink:0}
+.gnav-group{display:inline-flex;align-items:center;gap:0;flex-shrink:0}
+.gnav-group-label{font-size:9px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;margin-right:4px;flex-shrink:0;padding:2px 6px;border-radius:4px;line-height:1}
+.gnav-group-label.gl-track{background:var(--teal-bg);color:var(--teal-t)}
+.gnav-group-label.gl-browse{background:var(--blue-bg);color:var(--blue)}
+.gnav-group-label.gl-write{background:var(--amber-bg);color:var(--amber-t)}
+.gnav-home{font-size:12px;font-weight:600;color:var(--t1);text-decoration:none;padding:8px 8px 8px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:2px;flex-shrink:0}
+.gnav-home:hover{color:var(--teal-t)}
+.gnav-link{font-size:11px;font-weight:500;color:var(--t3);text-decoration:none;padding:8px 5px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
+.gnav-link:hover{color:var(--t1)}
+.gnav-link.active{color:var(--teal-t);border-bottom-color:var(--teal)}
+.gnav-toggle{flex-shrink:0;width:34px;height:34px;margin-left:8px;display:flex;align-items:center;justify-content:center;border:1.5px solid var(--bd);background:var(--bg2);color:var(--t2);cursor:pointer;border-radius:6px;font-family:var(--fn);font-size:14px;line-height:1;transition:background .12s,border-color .12s}
+.gnav-toggle:hover{background:var(--bg3);border-color:var(--bds);color:var(--t1)}
+html.dark .gnav-toggle{background:var(--bg2);border-color:var(--bd);color:var(--t1)}
+
+.page{max-width:720px;margin:0 auto;padding:0 1rem}
+.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.5rem}
+.page-header-eyebrow{font-size:11px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-t);margin-bottom:.25rem}
+.page-header-title{font-size:24px;font-weight:700;color:var(--t1);line-height:1.2;letter-spacing:-.02em;margin-bottom:.2rem}
+.page-header-sub{font-size:13px;color:var(--t2);line-height:1.5}
+
+a{color:var(--blue);text-decoration:none}
+a:hover{text-decoration:underline}
+.tip{border-left:3px solid var(--teal);background:var(--bg2);padding:.75rem 1rem;margin-bottom:1.1rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
+.empty{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:2.5rem;text-align:center}
+.empty-icon{font-size:32px;margin-bottom:.65rem}
+.empty-title{font-size:15px;font-weight:500;margin-bottom:.35rem}
+.empty-body{font-size:13px;color:var(--t2);line-height:1.65}
+.footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
+
+/* Summary stats */
+.stats-row{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:1.25rem}
+@media(max-width:520px){.stats-row{grid-template-columns:repeat(2,1fr)}}
+.stat{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r1);padding:.65rem .85rem;text-align:center}
+.sv{font-size:22px;font-weight:600;color:var(--t1)}
+.sl{font-size:10px;color:var(--t3);text-transform:uppercase;letter-spacing:.06em;margin-top:2px}
+
+/* Filter chips */
+.filter-block{margin-bottom:1.1rem}
+.filter-lbl{font-size:10px;font-weight:700;letter-spacing:.07em;color:var(--t3);text-transform:uppercase;margin-bottom:.4rem}
+.filter-row{display:flex;flex-wrap:wrap;gap:5px}
+.f-btn{font-size:12px;font-weight:500;padding:4px 12px;border-radius:999px;border:1px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn)}
+.f-btn.on{background:var(--teal);border-color:var(--teal);color:#fff}
+.f-btn:not(.on):hover{background:var(--bg2)}
+
+/* Archive entries */
+.entry{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:.65rem;border-left:3px solid var(--bds)}
+.entry.act-removed{border-left-color:var(--bds)}
+.entry.act-declined{border-left-color:#993c1d;background:linear-gradient(to right, var(--red-bg) 0%, var(--bg) 25%)}
+.entry.act-waitlisted{border-left-color:#ef9f27;background:linear-gradient(to right, var(--amber-bg) 0%, var(--bg) 25%)}
+.entry.act-accepted{border-left-color:#0f6e56;background:linear-gradient(to right, var(--teal-bg) 0%, var(--bg) 25%)}
+.entry-header{display:flex;align-items:flex-start;justify-content:space-between;gap:.75rem;margin-bottom:.4rem;flex-wrap:wrap}
+.entry-title{font-size:14px;font-weight:500;color:var(--t1);line-height:1.4;flex:1;min-width:0}
+.entry-org{font-size:12px;color:var(--t3);margin-bottom:.3rem}
+.entry-date{font-size:11px;color:var(--t3);white-space:nowrap;flex-shrink:0}
+.entry-action{font-size:11px;font-weight:600;padding:2px 9px;border-radius:999px;display:inline-block;margin-right:6px}
+.a-removed{background:var(--bg2);color:var(--t2);border:.5px solid var(--bd)}
+.a-declined{background:var(--red-bg);color:var(--red-t)}
+.a-waitlisted{background:var(--amber-bg);color:var(--amber-t)}
+.a-accepted{background:var(--teal-bg);color:var(--teal-t)}
+.entry-reason{font-size:13px;color:var(--t2);line-height:1.55;margin:.4rem 0;padding:.4rem .6rem;background:var(--bg2);border-radius:var(--r1);border-left:2px solid var(--bd)}
+.entry-tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:.35rem}
+.entry-tag{font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px;background:var(--bg2);color:var(--t2);border:.5px solid var(--bd)}
+.entry-source{font-size:10px;font-weight:600;color:var(--t3);text-transform:uppercase;letter-spacing:.05em}
+
+/* ════════════════════════════════════
+   THEME VARIABLES — What's Next for Erin
+   ════════════════════════════════════ */
+:root {
+  --bg:#FAFAFA;--bg2:#F5F5F5;--bg3:#EEEEEE;
+  --t1:#212121;--t2:#424242;--t3:#757575;
+  --bd:rgba(0,0,0,0.10);--bds:rgba(0,0,0,0.22);
+  --r1:8px;--r2:12px;
+  --fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  --teal:#4e9836;--teal-bg:#eaf3e5;--teal-t:#3c7b20;
+  --blue:#3a7878;--blue-bg:#e5f0f0;
+  --amber:#8a6f00;--amber-bg:#f5f0db;--amber-t:#6b5500;
+  --red:#993c1d;--red-bg:#faece7;--red-t:#993c1d;
+  --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
+}
+@media(prefers-color-scheme:dark){
+  :root{
+    --bg:#1c2018;--bg2:#242b1e;--bg3:#18201a;
+    --t1:#f0ede0;--t2:#c0c4a8;--t3:#9dc8c8;
+    --bd:rgba(157,200,200,0.15);--bds:rgba(157,200,200,0.28);
+    --teal-bg:#2a3d22;--teal-t:#8fc87a;
+    --blue-bg:#1e3535;--amber-bg:#3d3510;--amber-t:#d4c47a;
+    --red-bg:#3d1510;--red-t:#f5a490;
+    --purple-bg:#2d2563;--purple-t:#b5abfa;
+  }
+}
+html.dark{
+  --bg:#1c2018;--bg2:#242b1e;--bg3:#18201a;
+  --t1:#f0ede0;--t2:#c0c4a8;--t3:#9dc8c8;
+  --bd:rgba(157,200,200,0.15);--bds:rgba(157,200,200,0.28);
+  --teal-bg:#2a3d22;--teal-t:#8fc87a;
+  --blue-bg:#1e3535;--amber-bg:#3d3510;--amber-t:#d4c47a;
+  --red-bg:#3d1510;--red-t:#f5a490;
+  --purple-bg:#2d2563;--purple-t:#b5abfa;
+}
+html:not(.dark){
+  --bg:#FAFAFA;--bg2:#F5F5F5;--bg3:#EEEEEE;
+  --t1:#212121;--t2:#424242;--t3:#757575;
+  --bd:rgba(0,0,0,0.10);--bds:rgba(0,0,0,0.22);
+  --teal-bg:#eaf3e5;--teal-t:#3c7b20;
+  --blue-bg:#e5f0f0;--amber-bg:#f5f0db;--amber-t:#6b5500;
+  --red-bg:#faece7;--red-t:#993c1d;
+  --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
+}
+</style>
+<script>
+(function(){
+  var saved=localStorage.getItem('erin_theme');
+  var prefersDark=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches;
+  if(saved==='dark'||(!saved&&prefersDark)) document.documentElement.classList.add('dark');
+  function upBtn(){var b=document.getElementById('theme-toggle');if(b)b.innerHTML=document.documentElement.classList.contains('dark')?'&#9728;':'&#127769;';}
+  document.addEventListener('DOMContentLoaded',upBtn);
+  window.__toggleTheme=function(){var d=document.documentElement.classList.toggle('dark');localStorage.setItem('erin_theme',d?'dark':'light');upBtn();};
+})();
+</script>
+<script>
+/* ── Sync hook: must run before any tracker script's fetch() calls. ── */
+(function(){
+  if(!window.fetch || window.__erinSyncHooked) return;
+  window.__erinSyncHooked = true;
+  var ORIG = window.fetch;
+  window.fetch = function(){
+    var args = arguments, p = ORIG.apply(this, args);
+    try {
+      var url = (args[0] && args[0].url) || args[0] || '';
+      if(typeof url === 'string' && url.indexOf('api.jsonbin.io') > -1){
+        p.then(function(r){
+          if(r && (r.ok || r.status === 200)){
+            localStorage.setItem('erin_last_sync', Date.now().toString());
+            try { window.dispatchEvent(new Event('erin-sync')); } catch(e){}
+          }
+        }).catch(function(){});
+      }
+    } catch(e) {}
+    return p;
+  };
+})();
+</script>
+</head>
+<body>
+
+<!-- GLOBAL NAV -->
+<nav class="global-nav">
+  <div class="gnav-wrap">
+    <div class="gnav-inner">
+      <a href="index.html" class="gnav-home">&#127968; Home</a>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-track">Track</span>
+        <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
+        <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
+        <a href="erin_applications.html" class="gnav-link">&#128196; Apps</a>
+        <a href="erin_proftracker.html" class="gnav-link">&#128100; Profs</a>
+        <a href="erin_reftracker.html" class="gnav-link">&#128393; Refs</a>
+        <a href="erin_archive.html" class="gnav-link active">&#128193; Archive</a>
+      </div>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-browse">Browse</span>
+        <a href="erin_programs.html" class="gnav-link">&#127979; Programs</a>
+        <a href="erin_internships.html" class="gnav-link">&#128203; Internships</a>
+        <a href="erin_jobs.html" class="gnav-link">&#128188; Jobs</a>
+        <a href="erin_service.html" class="gnav-link">&#127807; Service</a>
+      </div>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-write">Write</span>
+        <a href="erin_materials.html" class="gnav-link">&#128218; Materials</a>
+        <a href="erin_writing_samples.html" class="gnav-link">&#9997; Writing</a>
+        <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
+      </div>
+    </div>
+    <button class="gnav-toggle" id="theme-toggle" onclick="__toggleTheme()" title="Toggle dark/light mode">&#127769;</button>
+  </div>
+</nav>
+
+<div class="page">
+
+<div class="page-header">
+  <div class="page-header-eyebrow">What's Next for Erin</div>
+  <div class="page-header-title">Archive Log</div>
+  <div class="page-header-sub">Every removed / declined / waitlisted opportunity, with the reason at the time &mdash; <span id="arch-count" style="color:var(--teal-t);font-weight:500"></span></div>
+</div>
+
+<div class="tip">&#128193;&nbsp; <strong>Why this matters:</strong> Six months from now, when the Fall 2027 cycle starts, "why did we pass on this?" is the most useful query. Every removal from My List and every Declined/Waitlisted application leaves a breadcrumb here.</div>
+
+<div class="stats-row" id="stats-row"></div>
+
+<div class="filter-block">
+  <div class="filter-lbl">Filter by source</div>
+  <div class="filter-row" id="filter-source"></div>
+</div>
+<div class="filter-block">
+  <div class="filter-lbl">Filter by action</div>
+  <div class="filter-row" id="filter-action"></div>
+</div>
+<div class="filter-block">
+  <div class="filter-lbl">Filter by reason tag</div>
+  <div class="filter-row" id="filter-tag"></div>
+</div>
+
+<div id="entries"></div>
+
+<p class="footer">Archive log entries are written whenever you remove an item from My List or change an Application to Declined/Waitlisted/Accepted.<br><br>
+  <a href="erin_mylist.html">&#8592; My List</a>&nbsp;&nbsp;<a href="erin_applications.html">&#8592; Applications</a>&nbsp;&nbsp;<a href="index.html">&#8592; Home</a>
+</p>
+</div>
+
+<script>
+var BIN='6a039aa4250b1311c33f2bac',KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
+var ARCHIVE_STORE='erin_archive_log';
+var PRIMARY_KEY='erin_primary_device';
+function isPrimary(){ return localStorage.getItem(PRIMARY_KEY)==='1'; }
+function loadArchive(){ try{ return JSON.parse(localStorage.getItem(ARCHIVE_STORE)||'[]'); }catch(e){ return []; } }
+function saveArchive(arr){ localStorage.setItem(ARCHIVE_STORE,JSON.stringify(arr)); }
+function pullArchive(cb){
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+    .then(function(r){return r.json();})
+    .then(function(data){
+      if(data && data.record && Array.isArray(data.record.archiveLog)){
+        if(!isPrimary()) saveArchive(data.record.archiveLog);
+      }
+      if(cb) cb();
+    }).catch(function(){ if(cb) cb(); });
+}
+
+var filters = { source:'All', action:'All', tag:'All' };
+
+function fmtDate(iso){
+  try {
+    var d=new Date(iso);
+    return d.toLocaleString(undefined,{year:'numeric',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});
+  } catch(e){ return iso; }
+}
+
+function actionLabel(a){
+  return {removed:'Removed',declined:'Declined',waitlisted:'Waitlisted',accepted:'Accepted'}[a]||a;
+}
+function sourceLabel(s){
+  return {mylist:'My List',application:'Application'}[s]||s;
+}
+
+function renderStats(entries){
+  var row=document.getElementById('stats-row'); row.innerHTML='';
+  var byAction={removed:0,declined:0,waitlisted:0,accepted:0};
+  entries.forEach(function(e){ byAction[e.action]=(byAction[e.action]||0)+1; });
+  var stats=[
+    {v:entries.length, l:'total entries'},
+    {v:byAction.removed||0, l:'removed'},
+    {v:byAction.declined||0, l:'declined'},
+    {v:(byAction.waitlisted||0)+(byAction.accepted||0), l:'waitlisted / accepted'}
+  ];
+  stats.forEach(function(s){
+    var d=document.createElement('div'); d.className='stat';
+    d.innerHTML='<div class="sv">'+s.v+'</div><div class="sl">'+s.l+'</div>';
+    row.appendChild(d);
+  });
+}
+
+function buildFilter(elId, cur, options, key){
+  var row=document.getElementById(elId); row.innerHTML='';
+  options.forEach(function(opt){
+    var b=document.createElement('button');
+    b.className='f-btn'+(opt.value===cur?' on':'');
+    b.textContent=opt.label + (opt.count!==undefined?' ('+opt.count+')':'');
+    b.onclick=function(){ filters[key]=opt.value; render(); };
+    row.appendChild(b);
+  });
+}
+
+function uniqueTags(entries){
+  var counts={};
+  entries.forEach(function(e){ (e.tags||[]).forEach(function(t){ counts[t]=(counts[t]||0)+1; }); });
+  return counts;
+}
+
+function render(){
+  var all=loadArchive().slice().sort(function(a,b){
+    return new Date(b.date) - new Date(a.date);
+  });
+
+  // Build filter options based on full dataset (so counts are accurate)
+  var sourceCounts={mylist:0, application:0};
+  all.forEach(function(e){ if(sourceCounts[e.source]!==undefined) sourceCounts[e.source]++; });
+  buildFilter('filter-source', filters.source, [
+    {label:'All', value:'All', count:all.length},
+    {label:'My List', value:'mylist', count:sourceCounts.mylist},
+    {label:'Applications', value:'application', count:sourceCounts.application}
+  ], 'source');
+
+  var actionCounts={removed:0,declined:0,waitlisted:0,accepted:0};
+  all.forEach(function(e){ actionCounts[e.action]=(actionCounts[e.action]||0)+1; });
+  buildFilter('filter-action', filters.action, [
+    {label:'All', value:'All'},
+    {label:'Removed', value:'removed', count:actionCounts.removed},
+    {label:'Declined', value:'declined', count:actionCounts.declined},
+    {label:'Waitlisted', value:'waitlisted', count:actionCounts.waitlisted},
+    {label:'Accepted', value:'accepted', count:actionCounts.accepted}
+  ], 'action');
+
+  var tagCounts=uniqueTags(all);
+  var tagOpts=[{label:'All', value:'All'}];
+  Object.keys(tagCounts).sort().forEach(function(t){
+    tagOpts.push({label:t, value:t, count:tagCounts[t]});
+  });
+  buildFilter('filter-tag', filters.tag, tagOpts, 'tag');
+
+  // Apply filters
+  var entries=all.filter(function(e){
+    if(filters.source!=='All' && e.source!==filters.source) return false;
+    if(filters.action!=='All' && e.action!==filters.action) return false;
+    if(filters.tag!=='All' && (e.tags||[]).indexOf(filters.tag)<0) return false;
+    return true;
+  });
+
+  document.getElementById('arch-count').textContent = entries.length + ' shown of ' + all.length + ' total';
+  renderStats(all);
+
+  var body=document.getElementById('entries'); body.innerHTML='';
+  if(!entries.length){
+    body.innerHTML = '<div class="empty"><div class="empty-icon">&#128193;</div><div class="empty-title">'
+      + (all.length?'No entries match the current filters':'No archive entries yet')
+      + '</div><div class="empty-body">'
+      + (all.length?'Try a different filter, or reset above.':'When you remove an item from My List or change an Application to Declined/Waitlisted/Accepted, an entry will appear here.')
+      + '</div></div>';
+    return;
+  }
+
+  entries.forEach(function(e){
+    var card=document.createElement('div');
+    card.className='entry act-'+(e.action||'removed');
+    var header=document.createElement('div'); header.className='entry-header';
+    var left=document.createElement('div'); left.style.cssText='flex:1;min-width:0';
+    var actionPill=document.createElement('span');
+    actionPill.className='entry-action a-'+(e.action||'removed');
+    actionPill.textContent=actionLabel(e.action||'removed');
+    var srcSpan=document.createElement('span'); srcSpan.className='entry-source'; srcSpan.textContent='from ' + sourceLabel(e.source||'');
+    var titleLine=document.createElement('div');
+    titleLine.style.cssText='margin-bottom:.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:6px';
+    titleLine.appendChild(actionPill);
+    titleLine.appendChild(srcSpan);
+    left.appendChild(titleLine);
+    var title=document.createElement('div'); title.className='entry-title'; title.textContent=e.itemTitle||'(no title saved)';
+    left.appendChild(title);
+    if(e.itemOrg){
+      var org=document.createElement('div'); org.className='entry-org'; org.textContent=e.itemOrg;
+      left.appendChild(org);
+    }
+    header.appendChild(left);
+    var dt=document.createElement('div'); dt.className='entry-date'; dt.textContent=fmtDate(e.date);
+    header.appendChild(dt);
+    card.appendChild(header);
+
+    if(e.reason){
+      var reason=document.createElement('div'); reason.className='entry-reason'; reason.textContent=e.reason;
+      card.appendChild(reason);
+    }
+    if(e.tags && e.tags.length){
+      var tagsDiv=document.createElement('div'); tagsDiv.className='entry-tags';
+      e.tags.forEach(function(t){
+        var tg=document.createElement('span'); tg.className='entry-tag'; tg.textContent=t;
+        tagsDiv.appendChild(tg);
+      });
+      card.appendChild(tagsDiv);
+    }
+    body.appendChild(card);
+  });
+}
+
+// Pull cloud first (no-op on primary device), then render
+pullArchive(function(){ render(); });
+</script>
+
+<script>
+/* ── Sync indicator render: appears at end of nav, updates on every sync ── */
+(function(){
+  function fmtAgo(ts){
+    if(!ts) return 'never';
+    var s=Math.floor((Date.now()-ts)/1000);
+    if(s<5) return 'just now';
+    if(s<60) return s+'s ago';
+    var m=Math.floor(s/60); if(m<60) return m+'m ago';
+    var h=Math.floor(m/60); if(h<24) return h+'h ago';
+    return Math.floor(h/24)+'d ago';
+  }
+  function render(){
+    var el=document.getElementById('gnav-sync'); if(!el) return;
+    var ts=parseInt(localStorage.getItem('erin_last_sync')||'0',10);
+    el.textContent = ts ? '✓ Synced '+fmtAgo(ts) : '— not synced';
+  }
+  function setup(){
+    var inner=document.querySelector('.gnav-inner');
+    if(!inner || document.getElementById('gnav-sync')) return;
+    var span=document.createElement('span');
+    span.id='gnav-sync'; span.className='gnav-sync'; span.title='Last cloud sync';
+    span.style.cssText='font-size:10px;color:var(--t3);padding:3px 8px;background:var(--bg2);border-radius:4px;white-space:nowrap;flex-shrink:0;margin-left:10px;border:.5px solid var(--bd)';
+    inner.appendChild(span);
+    render();
+    setInterval(render,30000);
+    window.addEventListener('erin-sync', render);
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',setup);
+  else setup();
+})();
+</script>
+</body>
+</html>

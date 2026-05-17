@@ -49,12 +49,17 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
 
 /* ── Global nav ── */
 .global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
-.gnav-wrap{max-width:720px;margin:0 auto;display:flex;align-items:center}
-.gnav-inner{flex:1;min-width:0;display:flex;align-items:center;gap:0;overflow-x:auto;scrollbar-width:none}
-.gnav-inner::-webkit-scrollbar{display:none}
-.gnav-home{font-size:13px;font-weight:600;color:var(--t1);text-decoration:none;padding:11px 12px 11px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:2px;flex-shrink:0}
+.gnav-wrap{max-width:1100px;margin:0 auto;display:flex;align-items:center}
+.gnav-inner{flex:1;min-width:0;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:0 2px;row-gap:2px;scrollbar-width:none}
+.gnav-divider{display:inline-block;width:1px;height:16px;background:var(--bd);margin:0 4px;flex-shrink:0}
+.gnav-group{display:inline-flex;align-items:center;gap:0;flex-shrink:0}
+.gnav-group-label{font-size:9px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;margin-right:4px;flex-shrink:0;padding:2px 6px;border-radius:4px;line-height:1}
+.gnav-group-label.gl-track{background:var(--teal-bg);color:var(--teal-t)}
+.gnav-group-label.gl-browse{background:var(--blue-bg);color:var(--blue)}
+.gnav-group-label.gl-write{background:var(--amber-bg);color:var(--amber-t)}
+.gnav-home{font-size:12px;font-weight:600;color:var(--t1);text-decoration:none;padding:8px 8px 8px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:2px;flex-shrink:0}
 .gnav-home:hover{color:var(--teal-t)}
-.gnav-link{font-size:12px;font-weight:500;color:var(--t3);text-decoration:none;padding:11px 9px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
+.gnav-link{font-size:11px;font-weight:500;color:var(--t3);text-decoration:none;padding:8px 5px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
 .gnav-link:hover{color:var(--t1)}
 .gnav-link.active{color:var(--teal-t);border-bottom-color:var(--teal)}
 .gnav-toggle{flex-shrink:0;width:34px;height:34px;margin-left:8px;display:flex;align-items:center;justify-content:center;border:1.5px solid var(--bd);background:var(--bg2);color:var(--t2);cursor:pointer;border-radius:6px;font-family:var(--fn);font-size:14px;line-height:1;transition:background .12s,border-color .12s}
@@ -145,6 +150,51 @@ html:not(.dark) {
 .update-page-link{font-size:11px;font-weight:500;padding:2px 9px;border-radius:999px;background:var(--bg);border:.5px solid var(--teal);color:var(--teal-t);text-decoration:none;white-space:nowrap}
 .update-page-link:hover{background:var(--teal-bg)}
 
+/* ── Priority dashboard ('What to do this week') ── */
+.pd-wrap{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1.1rem 1.25rem 1rem;margin:0 0 1.25rem}
+.pd-wrap.collapsed{padding:1.1rem 1.25rem}
+.pd-wrap.collapsed .pd-head{margin-bottom:0}
+.pd-head{display:flex;align-items:center;justify-content:space-between;gap:.75rem;margin-bottom:.55rem;flex-wrap:wrap;cursor:pointer;user-select:none}
+.pd-head-left{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap}
+.pd-title{font-size:18px;font-weight:600;color:var(--t1);letter-spacing:-.01em;display:flex;align-items:center;gap:.5rem}
+.pd-sub{font-size:12px;color:var(--t3);margin-bottom:.85rem;line-height:1.5}
+.pd-count{font-size:11px;font-weight:600;padding:2px 9px;border-radius:999px;background:var(--teal-bg);color:var(--teal-t)}
+.pd-collapse-btn{background:var(--bg2);border:.5px solid var(--bd);cursor:pointer;color:var(--t2);padding:6px 12px;border-radius:8px;font-family:var(--fn);font-size:13px;font-weight:500;line-height:1;display:inline-flex;align-items:center;gap:6px;transition:background .12s,border-color .12s,color .12s}
+.pd-collapse-btn:hover{background:var(--bg3);border-color:var(--bds);color:var(--t1)}
+.pd-collapse-btn .pd-arrow{display:inline-block;transition:transform .2s;font-size:16px;line-height:1}
+.pd-wrap.collapsed .pd-collapse-btn .pd-arrow{transform:rotate(-90deg)}
+html.dark .pd-collapse-btn{background:var(--bg2);border-color:var(--bd);color:var(--t1)}
+.pd-body{display:block}
+.pd-wrap.collapsed .pd-body{display:none}
+.pd-empty{padding:1rem .5rem;font-size:13px;color:var(--t2);text-align:center;line-height:1.55}
+.pd-empty-emoji{font-size:22px;display:block;margin-bottom:.35rem}
+.action-card{display:flex;align-items:flex-start;gap:.7rem;padding:.7rem .85rem;border-radius:var(--r1);background:var(--bg2);border:.5px solid var(--bd);text-decoration:none;color:var(--t1);margin-bottom:.5rem;transition:border-color .12s,background .12s}
+.action-card:hover{border-color:var(--bds);background:var(--bg3)}
+.action-row{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem;font-size:11px;color:var(--t3)}
+.action-toggle{font-size:11px;color:var(--t3);background:none;border:none;cursor:pointer;padding:0;font-family:var(--fn);text-decoration:underline;text-underline-offset:2px}
+.action-toggle:hover{color:var(--t1)}
+.action-expand{display:none;margin-top:.55rem;padding:.65rem .8rem;background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r1);font-size:12px;color:var(--t2);line-height:1.6}
+.action-expand.open{display:block}
+.action-expand .ax-row{margin-bottom:.4rem}
+.action-expand .ax-lbl{font-size:10px;font-weight:600;color:var(--t3);text-transform:uppercase;letter-spacing:.06em;margin-right:5px}
+.action-expand a{font-size:11px;font-weight:500;color:var(--teal-t);text-decoration:none;display:inline-block;padding:3px 8px;border:.5px solid var(--teal);border-radius:5px;margin-right:5px;margin-top:3px}
+.action-expand a:hover{background:var(--teal-bg)}
+.action-card.pr-urgent{border-left:3px solid #993c1d;background:var(--red-bg)}
+.action-card.pr-high{border-left:3px solid #ef9f27;background:var(--amber-bg)}
+.action-card.pr-medium{border-left:3px solid var(--teal)}
+.action-card.pr-low{border-left:3px solid var(--bds)}
+.action-emoji{font-size:18px;line-height:1.2;flex-shrink:0}
+.action-body{flex:1;min-width:0}
+.action-title{font-size:13px;font-weight:600;color:var(--t1);line-height:1.4;margin-bottom:2px}
+.action-detail{font-size:11px;color:var(--t2);line-height:1.45}
+.action-cta{font-size:11px;font-weight:500;color:var(--teal-t);margin-top:3px;display:inline-block}
+.action-card.pr-urgent .action-title{color:#7a2e15}
+.action-card.pr-urgent .action-cta{color:#993c1d}
+html.dark .action-card.pr-urgent .action-title{color:#f5a490}
+html.dark .action-card.pr-urgent .action-cta{color:#f5a490}
+html.dark .action-card.pr-high .action-title,html.dark .action-card.pr-high .action-cta{color:var(--amber-t)}
+.pd-more{font-size:11px;color:var(--t3);text-align:center;margin-top:.3rem;font-style:italic}
+
 </style>
 <script>
 (function(){
@@ -156,6 +206,29 @@ html:not(.dark) {
   window.__toggleTheme=function(){var d=document.documentElement.classList.toggle('dark');localStorage.setItem('erin_theme',d?'dark':'light');upBtn();};
 })();
 </script>
+<script>
+/* ── Sync hook: must run before any tracker script's fetch() calls. ── */
+(function(){
+  if(!window.fetch || window.__erinSyncHooked) return;
+  window.__erinSyncHooked = true;
+  var ORIG = window.fetch;
+  window.fetch = function(){
+    var args = arguments, p = ORIG.apply(this, args);
+    try {
+      var url = (args[0] && args[0].url) || args[0] || '';
+      if(typeof url === 'string' && url.indexOf('api.jsonbin.io') > -1){
+        p.then(function(r){
+          if(r && (r.ok || r.status === 200)){
+            localStorage.setItem('erin_last_sync', Date.now().toString());
+            try { window.dispatchEvent(new Event('erin-sync')); } catch(e){}
+          }
+        }).catch(function(){});
+      }
+    } catch(e) {}
+    return p;
+  };
+})();
+</script>
 </head>
 <body>
 
@@ -164,13 +237,31 @@ html:not(.dark) {
   <div class="gnav-wrap">
     <div class="gnav-inner">
       <a href="index.html" class="gnav-home">&#127968; Home</a>
-    <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
-    <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
-    <a href="erin_applications.html" class="gnav-link">&#128196; Applications</a>
-    <a href="erin_proftracker.html" class="gnav-link">&#128100; Professors</a>
-    <a href="erin_reftracker.html" class="gnav-link">&#128393; References</a>
-    <a href="erin_writing_samples.html" class="gnav-link">&#9997; Writing</a>
-    <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-track">Track</span>
+        <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
+        <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
+        <a href="erin_applications.html" class="gnav-link">&#128196; Apps</a>
+        <a href="erin_proftracker.html" class="gnav-link">&#128100; Profs</a>
+        <a href="erin_reftracker.html" class="gnav-link">&#128393; Refs</a>
+        <a href="erin_archive.html" class="gnav-link">&#128193; Archive</a>
+      </div>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-browse">Browse</span>
+        <a href="erin_programs.html" class="gnav-link">&#127979; Programs</a>
+        <a href="erin_internships.html" class="gnav-link">&#128203; Internships</a>
+        <a href="erin_jobs.html" class="gnav-link">&#128188; Jobs</a>
+        <a href="erin_service.html" class="gnav-link">&#127807; Service</a>
+      </div>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-write">Write</span>
+        <a href="erin_materials.html" class="gnav-link">&#128218; Materials</a>
+        <a href="erin_writing_samples.html" class="gnav-link">&#9997; Writing</a>
+        <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
+      </div>
     </div>
     <button class="gnav-toggle" id="theme-toggle" onclick="__toggleTheme()" title="Toggle dark/light mode">&#127769;</button>
   </div>
@@ -205,6 +296,51 @@ html:not(.dark) {
   </div>
 </div>
 
+<!-- ── Priority dashboard: "What to do this week" ── -->
+<!-- Reads from every tracker (My List, Apps, Profs, Refs) and surfaces the 3-5
+     highest-leverage next actions. Pulls fresh data from cloud first so this is
+     accurate even on Erin's phone. Collapsible — state persists in localStorage. -->
+<div class="pd-wrap" id="pd-wrap">
+  <div class="pd-head" id="pd-head" onclick="window.__togglePd()" title="Click to collapse / expand">
+    <div class="pd-head-left">
+      <div class="pd-title">&#127919; What to do this week</div>
+      <span class="pd-count" id="pd-count"></span>
+    </div>
+    <button class="pd-collapse-btn" id="pd-collapse-btn" type="button" aria-label="Toggle priority dashboard" onclick="event.stopPropagation(); window.__togglePd();">
+      <span class="pd-collapse-label" id="pd-collapse-label">Show</span>
+      <span class="pd-arrow">&#9662;</span>
+    </button>
+  </div>
+  <div class="pd-body" id="pd-body">
+    <div class="pd-sub">Prioritized from every tracker — deadlines, follow-ups, missing recommenders, untouched outreach. Click any card to jump straight there.</div>
+    <div id="pd-actions"><div class="pd-empty"><span class="pd-empty-emoji">&#8987;</span>Loading actions&hellip;</div></div>
+  </div>
+</div>
+<script>
+// Collapse toggle with localStorage persistence. Default is COLLAPSED — open it
+// once and the preference sticks until you collapse it again.
+(function(){
+  var COLLAPSE_KEY='erin_pd_collapsed';
+  function apply(){
+    var w=document.getElementById('pd-wrap');
+    if(!w) return;
+    // Default to collapsed unless explicitly opened ('0')
+    var collapsed = localStorage.getItem(COLLAPSE_KEY) !== '0';
+    w.classList.toggle('collapsed', collapsed);
+    var lbl=document.getElementById('pd-collapse-label');
+    if(lbl) lbl.textContent = collapsed ? 'Show' : 'Hide';
+  }
+  window.__togglePd=function(){
+    var w=document.getElementById('pd-wrap');
+    if(!w) return;
+    var nowCollapsed=!w.classList.contains('collapsed');
+    localStorage.setItem(COLLAPSE_KEY, nowCollapsed?'1':'0');
+    apply();
+  };
+  apply();
+})();
+</script>
+
 <div class="hero">
   <div class="ph">
     <div class="avatar">EL</div>
@@ -223,100 +359,46 @@ html:not(.dark) {
 
   <div class="slabel">Why this profile is competitive</div>
   <div class="rationale">
-    <p style="margin-bottom:.85rem">Erin graduates with a rare combination of <strong>rigorous interdisciplinary coursework</strong> and <strong>genuine hands-on field experience</strong> across wetlands, water quality, wildlife ecology, and GIS &mdash; disciplines that rarely overlap in a single undergraduate. Her WCU Environmental Science program is intentionally interdisciplinary, and she took full advantage of it, building a coherent research track that runs from General Chemistry through Environmental Toxicology, Contaminated Rivers, Wetlands, Mammalogy, and two GIS courses.</p>
-    <p style="margin-bottom:.85rem">Her <strong>capstone research project</strong> &mdash; analyzing lead contamination in Pigeon River Basin sediments following Hurricane Helene (2024) &mdash; is not a typical undergraduate exercise. It applied graduate-level geomorphological-geochemical methodology (from a course cross-listed at the 500 level) to a real, ongoing environmental disaster in her own backyard. That project will anchor every application she submits.</p>
-    <p style="margin-bottom:.85rem">Her <strong>GIS proficiency</strong> (both introductory and applied courses, including a multi-criteria suitability analysis capstone) is increasingly essential in ecological research, and her <strong>environmental justice coursework</strong> in the Appalachian context gives her a policy and community dimension that purely technical candidates lack.</p>
-    <p>She also volunteered in <strong>Hurricane Helene disaster relief</strong> in the same region she was simultaneously studying &mdash; a connection between scholarship and service that is rare and worth highlighting prominently in any personal statement or cover letter. Her 3.731 GPA with Dean's and Chancellor's List honors places her above the typical 3.0&ndash;3.2 minimum for funded research assistantships at R1 universities.</p>
+    <p style="margin-bottom:.85rem">Erin graduates with a rare combination of <strong>rigorous interdisciplinary coursework</strong> and <strong>genuine hands-on field experience</strong> across wetlands, water quality, wildlife ecology, and GIS &mdash; disciplines that rarely overlap in a single undergraduate. Her WCU Environmental Science program is intentionally interdisciplinary, and she took full advantage of it, building a coherent research track from General Chemistry through Environmental Toxicology, Contaminated Rivers, Wetlands, Mammalogy, and two GIS courses.</p>
+    <p style="margin-bottom:.85rem">Her <strong>capstone research project</strong> &mdash; analyzing lead contamination in Pigeon River Basin sediments following Hurricane Helene (2024) &mdash; applied graduate-level geomorphological-geochemical methodology to a real, ongoing environmental disaster in her own backyard. That project will anchor every application she submits.</p>
+    <p style="margin-bottom:.85rem">Her <strong>GIS proficiency</strong> (introductory + applied, including a multi-criteria suitability analysis capstone) is increasingly essential in ecological research, and her <strong>environmental justice coursework</strong> in the Appalachian context gives her a policy and community dimension that purely technical candidates lack.</p>
+    <p>She also volunteered in <strong>Hurricane Helene disaster relief</strong> in the same region she was studying &mdash; a rare connection between scholarship and service. Her 3.731 GPA with Dean's and Chancellor's List honors places her above the typical 3.0&ndash;3.2 minimum for funded research assistantships at R1 universities.</p>
   </div>
-
   <div style="display:flex;flex-wrap:wrap;gap:6px">
-    <span class="badge b-teal">Wetlands &amp; water quality</span>
-    <span class="badge b-teal">Trace metal contamination</span>
-    <span class="badge b-teal">Wildlife &amp; mammalogy</span>
-    <span class="badge b-blue">GIS (basic &amp; advanced)</span>
-    <span class="badge b-blue">Environmental toxicology</span>
-    <span class="badge b-blue">Epidemiology</span>
-    <span class="badge b-amber">Environmental justice &mdash; Appalachia</span>
-    <span class="badge b-amber">AmeriCorps NCCC</span>
-    <span class="badge b-amber">Hurricane Helene relief volunteer</span>
+    <span class="badge b-teal">Wetlands &amp; water quality</span><span class="badge b-teal">Trace metal contamination</span><span class="badge b-teal">Wildlife &amp; mammalogy</span><span class="badge b-blue">GIS (basic &amp; advanced)</span><span class="badge b-blue">Environmental toxicology</span><span class="badge b-blue">Epidemiology</span><span class="badge b-amber">Environmental justice &mdash; Appalachia</span><span class="badge b-amber">AmeriCorps NCCC</span><span class="badge b-amber">Hurricane Helene relief volunteer</span>
   </div>
 </div>
 
 <hr>
 <div class="slabel">Navigate to a section</div>
-
 <div class="nav-grid">
-  <a href="erin_bio.html" class="nav-btn">
-    <span class="nav-icon">&#128100;</span>
-    <div class="nav-title">Full biography &amp; transcript</div>
-    <div class="nav-desc">Resume downloads, skills, projects, experience, complete transcript with course descriptions, and WCU program overview</div>
-  </a>
-  <a href="erin_mylist.html" class="nav-btn" id="mylist-nav">
-    <span class="nav-icon">&#9733;</span>
-    <div class="nav-title">My opportunity list <span id="home-count" style="font-size:11px;font-weight:500;padding:2px 7px;border-radius:999px;background:#e1f5ee;color:#0f6e56;margin-left:4px"></span></div>
-    <div class="nav-desc">Your saved opportunities from all pages — deadlines, notes, and links in one place</div>
-  </a>
-  <a href="erin_programs.html" class="nav-btn">
-    <span class="nav-icon">&#127979;</span>
-    <div class="nav-title">Funded graduate programs</div>
-    <div class="nav-desc">Fully funded MS positions in wetlands, wildlife, Colorado/Mountain West, and Southern US regions with search links</div>
-  </a>
-  <a href="erin_internships.html" class="nav-btn">
-    <span class="nav-icon">&#128203;</span>
-    <div class="nav-title">Internships</div>
-    <div class="nav-desc">Environmental science, GIS, water quality, and wildlife internship opportunities matched to Erin's background</div>
-  </a>
-  <a href="erin_jobs.html" class="nav-btn">
-    <span class="nav-icon">&#128188;</span>
-    <div class="nav-title">Career positions</div>
-    <div class="nav-desc">Entry-level and professional environmental science positions, agencies, and organizations to target</div>
-  </a>
-  <a href="erin_service.html" class="nav-btn">
-    <span class="nav-icon">&#127807;</span>
-    <div class="nav-title">Service &amp; fellowships</div>
-    <div class="nav-desc">AmeriCorps, conservation corps, environmental fellowships, and bridge year programs</div>
-  </a>
-  <a href="erin_timeline.html" class="nav-btn">
-    <span class="nav-icon">&#128197;</span>
-    <div class="nav-title">Deadline timeline</div>
-    <div class="nav-desc">All deadlines from your saved list in chronological order with urgency indicators</div>
-  </a>
-  <a href="erin_proftracker.html" class="nav-btn">
-    <span class="nav-icon">&#128100;</span>
-    <div class="nav-title">Professor contact tracker</div>
-    <div class="nav-desc">Track outreach to faculty — who you emailed, when, and what happened</div>
-  </a>
-  <a href="erin_reftracker.html" class="nav-btn">
-    <span class="nav-icon">&#128393;</span>
-    <div class="nav-title">Reference letter tracker</div>
-    <div class="nav-desc">Manage recommenders — status, materials sent, deadlines, and notes</div>
-  </a>
-  <a href="erin_applications.html" class="nav-btn">
-    <span class="nav-icon">&#128196;</span>
-    <div class="nav-title">Application tracker</div>
-    <div class="nav-desc">Track every application &mdash; status, portal, materials checklist, and decision</div>
-  </a>
+<a href="erin_bio.html" class="nav-btn"><span class="nav-icon">&#128100;</span><div class="nav-title">Full biography &amp; transcript</div><div class="nav-desc">Resume, skills, projects, complete transcript</div></a>
+<a href="erin_mylist.html" class="nav-btn"><span class="nav-icon">&#9733;</span><div class="nav-title">My opportunity list <span id="home-count" style="font-size:11px;padding:2px 7px;border-radius:999px;background:#e1f5ee;color:#0f6e56;margin-left:4px"></span></div><div class="nav-desc">Your saved opportunities &mdash; deadlines, notes, links</div></a>
+<a href="erin_programs.html" class="nav-btn"><span class="nav-icon">&#127979;</span><div class="nav-title">Funded graduate programs</div><div class="nav-desc">MS positions in wetlands, wildlife, Mountain West &amp; Southern US</div></a>
+<a href="erin_internships.html" class="nav-btn"><span class="nav-icon">&#128203;</span><div class="nav-title">Internships</div><div class="nav-desc">Environmental science, GIS, water quality, wildlife</div></a>
+<a href="erin_jobs.html" class="nav-btn"><span class="nav-icon">&#128188;</span><div class="nav-title">Career positions</div><div class="nav-desc">Entry-level and professional environmental positions</div></a>
+<a href="erin_service.html" class="nav-btn"><span class="nav-icon">&#127807;</span><div class="nav-title">Service &amp; fellowships</div><div class="nav-desc">AmeriCorps, conservation corps, fellowships, bridge year</div></a>
+<a href="erin_timeline.html" class="nav-btn"><span class="nav-icon">&#128197;</span><div class="nav-title">Deadline timeline</div><div class="nav-desc">All deadlines in chronological order with urgency</div></a>
+<a href="erin_proftracker.html" class="nav-btn"><span class="nav-icon">&#128100;</span><div class="nav-title">Professor contact tracker</div><div class="nav-desc">Track faculty outreach &mdash; who, when, what happened</div></a>
+<a href="erin_reftracker.html" class="nav-btn"><span class="nav-icon">&#128393;</span><div class="nav-title">Reference letter tracker</div><div class="nav-desc">Manage recommenders &mdash; status, materials, apps</div></a>
+<a href="erin_applications.html" class="nav-btn"><span class="nav-icon">&#128196;</span><div class="nav-title">Application tracker</div><div class="nav-desc">Status, portal, materials checklist, decision</div></a>
+<a href="erin_materials.html" class="nav-btn"><span class="nav-icon">&#128218;</span><div class="nav-title">Materials library</div><div class="nav-desc">Canonical SOP, CV, transcripts &mdash; one source of truth</div></a>
+<a href="erin_archive.html" class="nav-btn"><span class="nav-icon">&#128193;</span><div class="nav-title">Archive log</div><div class="nav-desc">Removed / declined / waitlisted decisions with reasons</div></a>
 </div>
 
-<a href="erin_outreach.html" class="outreach-banner" style="margin-top:12px">
-  <span style="font-size:20px">&#9997;&#65039;</span>
-  <div style="flex:1">
-    <div style="font-size:14px;font-weight:500;color:var(--teal-t);margin-bottom:3px">Ready to apply? Start with the statement of purpose &amp; outreach emails &#8594;</div>
-    <div style="font-size:12px;color:var(--t2)">Full SOP draft &middot; Faculty email templates &middot; NC State / Dr. Forrester ready-to-send email &middot; Writing strategy tips</div>
-  </div>
-</a>
+<a href="erin_outreach.html" class="outreach-banner" style="margin-top:12px"><span style="font-size:20px">&#9997;&#65039;</span><div style="flex:1"><div style="font-size:14px;font-weight:500;color:var(--teal-t);margin-bottom:3px">Ready to apply? SOP &amp; outreach emails &#8594;</div><div style="font-size:12px;color:var(--t2)">SOP draft &middot; Faculty email templates &middot; Dr. Forrester ready-to-send</div></div></a>
 
-<p class="footer">Resource guide compiled May 2026. Information should be verified directly with each institution or program.</p>
+<p class="footer">Resource guide compiled May 2026. Verify all details with each program.</p>
 </div>
 
+<script>(function(){try{var m=JSON.parse(localStorage.getItem('erin_mylist_v1')||'{}');var n=Object.keys(m).length;var e=document.getElementById('home-count');if(e&&n>0)e.textContent=n;}catch(e){}})();</script>
+<script src="priority.js"></script>
 <script>
 (function(){
-  try{
-    var map = JSON.parse(localStorage.getItem('erin_mylist_v1')||'{}');
-    var n = Object.keys(map).length;
-    var el = document.getElementById('home-count');
-    if(el && n>0) el.textContent = n;
-  }catch(e){}
+  function fmtAgo(ts){if(!ts)return'never';var s=Math.floor((Date.now()-ts)/1000);if(s<5)return'just now';if(s<60)return s+'s ago';var m=Math.floor(s/60);if(m<60)return m+'m ago';var h=Math.floor(m/60);if(h<24)return h+'h ago';return Math.floor(h/24)+'d ago';}
+  function render(){var el=document.getElementById('gnav-sync');if(!el)return;var ts=parseInt(localStorage.getItem('erin_last_sync')||'0',10);el.textContent=ts?'✓ Synced '+fmtAgo(ts):'— not synced';}
+  function setup(){var inner=document.querySelector('.gnav-inner');if(!inner||document.getElementById('gnav-sync'))return;var span=document.createElement('span');span.id='gnav-sync';span.title='Last cloud sync';span.style.cssText='font-size:10px;color:var(--t3);padding:3px 8px;background:var(--bg2);border-radius:4px;white-space:nowrap;flex-shrink:0;margin-left:10px;border:.5px solid var(--bd)';inner.appendChild(span);render();setInterval(render,30000);window.addEventListener('erin-sync',render);}
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',setup);else setup();
 })();
 </script>
 </body>
