@@ -306,10 +306,16 @@ html:not(.dark) {
 </div>
 <div id="ss" class="sync-status"></div>
 
-<div style="display:flex;align-items:center;justify-content:space-between;gap:.75rem;flex-wrap:wrap;margin-bottom:.75rem">
+<div style="display:flex;align-items:center;justify-content:space-between;gap:.75rem;flex-wrap:wrap;margin-bottom:.5rem">
   <span id="count-pill" class="count-pill"></span>
-  <button id="primary-btn"></button>
+  <div style="display:flex;align-items:center;gap:.4rem;flex-wrap:wrap">
+    <button id="export-btn" type="button" onclick="exportBackup()" title="Download a full backup (My List + Applications + Archive) as a JSON file" style="font-size:12px;font-weight:500;padding:5px 12px;border-radius:999px;border:1px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn)">&#11015; Export backup</button>
+    <button id="import-btn" type="button" onclick="document.getElementById('import-file').click()" title="Restore from a backup JSON file (primary device only)" style="font-size:12px;font-weight:500;padding:5px 12px;border-radius:999px;border:1px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn)">&#11014; Restore</button>
+    <input id="import-file" type="file" accept="application/json,.json" style="display:none" onchange="importBackup(this)">
+    <button id="primary-btn"></button>
+  </div>
 </div>
+<div id="device-banner" style="display:none;font-size:12px;line-height:1.5;padding:.5rem .75rem;border-radius:var(--r1);margin-bottom:.75rem"></div>
 
 <div class="mode-tabs">
   <button id="tab-list" class="mode-tab active" onclick="setMode('list')">&#9733; My List <span id="tab-count"></span></button>
@@ -450,7 +456,18 @@ window.showArchiveModal=function(opts, cb){
 };
 
 var PRIMARY_KEY = 'erin_primary_device';
-function isPrimary(){ return localStorage.getItem(PRIMARY_KEY)==='1'; }
+var PRIMARY_BAK = 'erin_primary_device_bak';
+function isPrimary(){ return localStorage.getItem(PRIMARY_KEY)==='1' || localStorage.getItem(PRIMARY_BAK)==='1'; }
+// Resilience: keep a redundant copy of the primary flag so a partial
+// localStorage loss can't silently demote Erin's laptop to read-only.
+// Purely additive — only ever re-asserts when already primary; never clears.
+function mirrorPrimary(){
+  try{
+    if(localStorage.getItem(PRIMARY_KEY)==='1') localStorage.setItem(PRIMARY_BAK,'1');
+    else if(localStorage.getItem(PRIMARY_BAK)==='1') localStorage.setItem(PRIMARY_KEY,'1');
+  }catch(e){}
+}
+mirrorPrimary();
 
 // â”€â”€ Applications tracker helpers (used by "â†’ Apps" button on each card) â”€â”€
 var APP_STORE='erin_applications_v1';
@@ -490,6 +507,7 @@ function addToApps(it,btn){
 }
 function setPrimary(v){
   localStorage.setItem(PRIMARY_KEY, v?'1':'0');
+  if(v) localStorage.setItem(PRIMARY_BAK,'1'); else localStorage.removeItem(PRIMARY_BAK);
   updatePrimaryUI();
 }
 function updatePrimaryUI(){
@@ -756,13 +774,17 @@ function renderBrowse(){
 }
 
 function initPrimaryBtn(){
+  if(window.updateDeviceBanner) updateDeviceBanner();
   var btn=document.getElementById('primary-btn');
   if(!btn) return;
   if(isPrimary()){
     btn.textContent='This is the primary device âœ“';
     btn.style.cssText='font-size:12px;font-weight:500;padding:5px 14px;border-radius:999px;border:1px solid var(--teal-t);background:var(--teal-bg);color:var(--teal-t);cursor:default;font-family:var(--fn)';
   } else {
-    btn.onclick=function(){ localStorage.setItem('erin_primary_device','1'); initPrimaryBtn(); };
+    btn.onclick=function(){
+      if(!confirm('Make THIS device the primary?\n\nOnly the primary device saves changes to the cloud. This should normally be Erin’s laptop. If another device is already primary, making this one primary too can cause them to overwrite each other.\n\nContinue?')) return;
+      localStorage.setItem(PRIMARY_KEY,'1'); localStorage.setItem(PRIMARY_BAK,'1'); initPrimaryBtn();
+    };
     btn.textContent='Set as primary device';
     btn.style.cssText='font-size:12px;font-weight:500;padding:5px 14px;border-radius:999px;border:1px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn)';
   }
@@ -779,6 +801,138 @@ if(isPrimary()){
 }
 renderBrowse();
 initPrimaryBtn();
+</script>
+
+<script>
+/* ── Backup / Restore + device status banner ──
+   Export works on ANY device (read-only safe). Restore is gated to the
+   primary device and double-confirmed, because it overwrites cloud data. */
+(function(){
+  /* Every meaningful data domain in the shared bin, with its localStorage
+     mirror. This is the single source of truth for what gets backed up.
+     Excludes device-only keys (theme, last-sync, primary-device flag) on
+     purpose — those should never travel between devices in a restore. */
+  var BACKUP_MAP=[
+    {cloud:'items',          ls:'erin_mylist_v1',        label:'My List (saved/favorited)'},
+    {cloud:'apps',           ls:'erin_applications_v1',  label:'Applications tracker'},
+    {cloud:'archiveLog',     ls:'erin_archive_log',      label:'Archive log'},
+    {cloud:'profs',          ls:'erin_prof_contacts',    label:'Professor tracker'},
+    {cloud:'refs',           ls:'erin_ref_tracker_v1',   label:'Reference tracker'},
+    {cloud:'materials',      ls:'erin_materials',        label:'Materials library'},
+    {cloud:'writingSamples', ls:'erin_writing_samples',  label:'Writing samples'}
+  ];
+
+  function lsGet(k){ try{ return localStorage.getItem(k); }catch(e){ return null; } }
+  function cnt(v){ return Array.isArray(v)?v.length : (v&&typeof v==='object'?Object.keys(v).length : (v!=null?1:0)); }
+
+  function triggerDownload(obj){
+    var name='erin-backup-'+new Date().toISOString().slice(0,10)+'.json';
+    var blob=new Blob([JSON.stringify(obj,null,2)],{type:'application/json'});
+    var url=URL.createObjectURL(blob);
+    var a=document.createElement('a'); a.href=url; a.download=name;
+    document.body.appendChild(a); a.click();
+    setTimeout(function(){ document.body.removeChild(a); URL.revokeObjectURL(url); },0);
+  }
+
+  /* Build a record from this device's localStorage — only includes a domain
+     if it actually exists locally (never fabricates empties that could
+     overwrite good cloud data on restore). */
+  function localSnapshot(){
+    var rec={};
+    BACKUP_MAP.forEach(function(d){
+      var raw=lsGet(d.ls);
+      if(raw!=null){ try{ rec[d.cloud]=JSON.parse(raw); }catch(e){} }
+    });
+    return rec;
+  }
+
+  window.exportBackup=function(){
+    var btn=document.getElementById('export-btn'); var orig=btn?btn.textContent:'';
+    if(btn){ btn.textContent='Preparing…'; btn.disabled=true; }
+    function finish(record, source){
+      triggerDownload({ exportedAt:new Date().toISOString(), source:source, record:record });
+      if(btn){ btn.textContent='✓ Downloaded'; setTimeout(function(){ btn.textContent=orig; btn.disabled=false; },2500); }
+    }
+    fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+      .then(function(r){ return r.json(); })
+      .then(function(data){
+        /* The whole cloud record is the backup. Fold in any domain that
+           exists locally but is missing from the cloud, as a safety net. */
+        var rec=(data&&data.record)||{};
+        var snap=localSnapshot();
+        BACKUP_MAP.forEach(function(d){ if(rec[d.cloud]==null && snap[d.cloud]!=null) rec[d.cloud]=snap[d.cloud]; });
+        finish(rec,'cloud');
+      })
+      .catch(function(){ finish(localSnapshot(),'local-only (cloud unreachable)'); });
+  };
+
+  window.importBackup=function(input){
+    var file=input&&input.files&&input.files[0];
+    input.value=''; /* allow re-selecting the same file later */
+    if(!file) return;
+    if(!isPrimary()){
+      alert('Restore is only allowed on the PRIMARY device (Erin’s laptop).\n\nThis device is view-only, so restoring here would not be saved and could be lost. Open this backup on the primary device instead.');
+      return;
+    }
+    var reader=new FileReader();
+    reader.onload=function(){
+      var parsed;
+      try{ parsed=JSON.parse(reader.result); }catch(e){ alert('That file is not valid JSON — restore cancelled.'); return; }
+      var rec = (parsed && parsed.record) ? parsed.record : parsed; /* accept our wrapper or a raw record */
+      if(!rec || typeof rec!=='object'){ alert('Backup file not recognised — restore cancelled.'); return; }
+      var present=BACKUP_MAP.filter(function(d){ return rec[d.cloud]!=null; });
+      if(!present.length){ alert('This backup contains none of the known data sections — restore cancelled.'); return; }
+      var summary=present.map(function(d){ return '  • '+d.label+': '+cnt(rec[d.cloud]); }).join('\n');
+      if(!confirm('Restore this backup?\n\nThis REPLACES the following — on this device AND in the cloud:\n\n'+summary+'\n\nAny section NOT listed above is left untouched.\n\nTip: click “Export backup” first to snapshot the current state.\n\nProceed?')) return;
+      try{
+        present.forEach(function(d){ localStorage.setItem(d.ls, JSON.stringify(rec[d.cloud])); });
+      }catch(e){ alert('Could not write to local storage — restore aborted before any cloud change.'); return; }
+      /* Overlay restored domains onto the LIVE cloud record (don't blow away
+         anything the backup doesn't mention). */
+      fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+        .then(function(r){ return r.json(); })
+        .then(function(data){
+          var live=(data&&data.record)||{};
+          present.forEach(function(d){ live[d.cloud]=rec[d.cloud]; });
+          return fetch('https://api.jsonbin.io/v3/b/'+BIN,{
+            method:'PUT',
+            headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},
+            body:JSON.stringify(live)
+          });
+        })
+        .then(function(){ try{flash('Restored ✓');}catch(e){} alert('Backup restored and synced to the cloud.\n\nOpen the other tracker pages to see their restored data.'); renderList(); renderBrowse(); })
+        .catch(function(){ alert('Restored locally, but the cloud sync failed (check connection). Local data is updated; it will sync on the next change made on this device.'); renderList(); renderBrowse(); });
+    };
+    reader.readAsText(file);
+  };
+
+  function setRestoreEnabled(on){
+    var ib=document.getElementById('import-btn'); if(!ib) return;
+    ib.disabled=!on;
+    if(on){
+      ib.style.opacity=''; ib.style.cursor='pointer';
+      ib.title='Restore from a backup JSON file (primary device only)';
+    } else {
+      ib.style.opacity='.45'; ib.style.cursor='not-allowed';
+      ib.title='Restore is disabled on view-only devices. Do this on Erin’s primary laptop.';
+    }
+  }
+
+  window.updateDeviceBanner=function(){
+    var primary=isPrimary();
+    setRestoreEnabled(primary);
+    var b=document.getElementById('device-banner'); if(!b) return;
+    b.style.display='block';
+    if(primary){
+      b.style.background='var(--teal-bg)'; b.style.color='var(--teal-t)'; b.style.border='1px solid var(--teal)';
+      b.textContent='✓ Primary device — changes you make here are saved to the cloud.';
+    } else {
+      b.style.background='var(--amber-bg)'; b.style.color='var(--amber-t)'; b.style.border='1px solid var(--amber)';
+      b.textContent='👀 View-only device — changes here are NOT saved. Refreshing pulls the latest from Erin’s laptop. Restore is disabled here (primary device only).';
+    }
+  };
+  updateDeviceBanner();
+})();
 </script>
 </body>
 </html>
