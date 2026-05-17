@@ -15,11 +15,16 @@ body{font-family:var(--fn);color:var(--t1);background:var(--bg3);padding:0 0 2re
 /* ── Global nav ── */
 .global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
 .gnav-wrap{max-width:720px;margin:0 auto;display:flex;align-items:center}
-.gnav-inner{flex:1;min-width:0;display:flex;align-items:center;gap:0;overflow-x:auto;scrollbar-width:none}
-.gnav-inner::-webkit-scrollbar{display:none}
-.gnav-home{font-size:13px;font-weight:600;color:var(--t1);text-decoration:none;padding:11px 12px 11px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:2px;flex-shrink:0}
+.gnav-inner{flex:1;min-width:0;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:0 4px;row-gap:2px;scrollbar-width:none}
+.gnav-divider{display:inline-block;width:1px;height:18px;background:var(--bd);margin:0 6px;flex-shrink:0}
+.gnav-group{display:inline-flex;align-items:center;gap:0;flex-shrink:0}
+.gnav-group-label{font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin-right:6px;flex-shrink:0;padding:3px 7px;border-radius:5px;line-height:1}
+.gnav-group-label.gl-track{background:var(--teal-bg);color:var(--teal-t)}
+.gnav-group-label.gl-browse{background:var(--blue-bg);color:var(--blue)}
+.gnav-group-label.gl-write{background:var(--amber-bg);color:var(--amber-t)}
+.gnav-home{font-size:12px;font-weight:600;color:var(--t1);text-decoration:none;padding:10px 9px 10px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:2px;flex-shrink:0}
 .gnav-home:hover{color:var(--teal-t)}
-.gnav-link{font-size:12px;font-weight:500;color:var(--t3);text-decoration:none;padding:11px 9px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
+.gnav-link{font-size:11px;font-weight:500;color:var(--t3);text-decoration:none;padding:10px 7px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
 .gnav-link:hover{color:var(--t1)}
 .gnav-link.active{color:var(--teal-t);border-bottom-color:var(--teal)}
 .gnav-toggle{flex-shrink:0;width:34px;height:34px;margin-left:8px;display:flex;align-items:center;justify-content:center;border:1.5px solid var(--bd);background:var(--bg2);color:var(--t2);cursor:pointer;border-radius:6px;font-family:var(--fn);font-size:14px;line-height:1;transition:background .12s,border-color .12s}
@@ -78,13 +83,29 @@ html.dark{color-scheme:dark;--bg:#1c2018;--bg2:#242b1e;--bg3:#18201a;--t1:#f0ede
   <div class="gnav-wrap">
     <div class="gnav-inner">
       <a href="index.html" class="gnav-home">&#127968; Home</a>
-    <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
-    <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
-    <a href="erin_applications.html" class="gnav-link">&#128196; Applications</a>
-    <a href="erin_proftracker.html" class="gnav-link">&#128100; Professors</a>
-    <a href="erin_reftracker.html" class="gnav-link">&#128393; References</a>
-    <a href="erin_writing_samples.html" class="gnav-link active">&#9997; Writing</a>
-    <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-track">Track</span>
+        <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
+        <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
+        <a href="erin_applications.html" class="gnav-link">&#128196; Apps</a>
+        <a href="erin_proftracker.html" class="gnav-link">&#128100; Profs</a>
+        <a href="erin_reftracker.html" class="gnav-link">&#128393; Refs</a>
+      </div>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-browse">Browse</span>
+        <a href="erin_programs.html" class="gnav-link">&#127979; Programs</a>
+        <a href="erin_internships.html" class="gnav-link">&#128203; Internships</a>
+        <a href="erin_jobs.html" class="gnav-link">&#128188; Jobs</a>
+        <a href="erin_service.html" class="gnav-link">&#127807; Service</a>
+      </div>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-write">Write</span>
+        <a href="erin_writing_samples.html" class="gnav-link active">&#9997; Writing</a>
+        <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
+      </div>
     </div>
     <button class="gnav-toggle" id="theme-toggle" onclick="__toggleTheme()" title="Toggle dark/light mode">&#127769;</button>
   </div>
@@ -115,7 +136,7 @@ html.dark{color-scheme:dark;--bg:#1c2018;--bg2:#242b1e;--bg3:#18201a;--t1:#f0ede
 
 <div id="ws-body"></div>
 
-<p class="footer">Writing sample tracker — local to this device · <a href="erin_outreach.html" style="color:var(--teal-t)">&#9997; Outreach &amp; email templates</a> &nbsp; <a href="erin_applications.html" style="color:var(--teal-t)">&#128196; Application tracker</a></p>
+<p class="footer">Writing sample tracker — synced via the primary device · <a href="erin_outreach.html" style="color:var(--teal-t)">&#9997; Outreach &amp; email templates</a> &nbsp; <a href="erin_applications.html" style="color:var(--teal-t)">&#128196; Application tracker</a></p>
 
 </div>
 
@@ -132,6 +153,32 @@ html.dark{color-scheme:dark;--bg:#1c2018;--bg2:#242b1e;--bg3:#18201a;--t1:#f0ede
 var WSSTORE='erin_writing_samples';
 function loadSamples(){ try{ return JSON.parse(localStorage.getItem(WSSTORE)||'[]'); }catch(e){ return []; } }
 function saveSamples(arr){ localStorage.setItem(WSSTORE,JSON.stringify(arr)); }
+
+// ── Cloud sync (primary-device pattern, same as Applications / Prof / Ref trackers) ──
+var BIN='6a039aa4250b1311c33f2bac',KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
+var PRIMARY_KEY='erin_primary_device';
+function isPrimary(){ return localStorage.getItem(PRIMARY_KEY)==='1'; }
+function pushSamples(arr){
+  if(!isPrimary()) return;
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+    .then(function(r){return r.json();})
+    .then(function(data){
+      var rec=data.record||{};
+      rec.writing=arr;
+      fetch('https://api.jsonbin.io/v3/b/'+BIN,{method:'PUT',headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},body:JSON.stringify(rec)});
+    }).catch(function(){});
+}
+function pullSamples(cb){
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+    .then(function(r){return r.json();})
+    .then(function(data){
+      if(data.record && Array.isArray(data.record.writing)){
+        if(isPrimary()){ pushSamples(loadSamples()); }
+        else { saveSamples(data.record.writing); }
+      } else if(isPrimary()){ pushSamples(loadSamples()); }
+      if(cb) cb();
+    }).catch(function(){ if(cb) cb(); });
+}
 
 // Pre-seed with Erin's known writing samples
 function seedDefaults(){
@@ -237,7 +284,7 @@ function makeCard(s){
   sb.onclick=function(){ saveCard(s.id); fl.style.display='inline'; setTimeout(function(){fl.style.display='none';},2000); };
   acts.appendChild(sb); acts.appendChild(fl);
   var db=document.createElement('button'); db.className='del-btn'; db.textContent='Remove';
-  db.onclick=function(){ if(!confirm('Remove this writing sample?')) return; var arr=loadSamples().filter(function(x){return x.id!==s.id;}); saveSamples(arr); render(); };
+  db.onclick=function(){ if(!confirm('Remove this writing sample?')) return; var arr=loadSamples().filter(function(x){return x.id!==s.id;}); saveSamples(arr); pushSamples(arr); render(); };
   acts.appendChild(db); card.appendChild(acts);
   return card;
 }
@@ -253,7 +300,7 @@ function makeTag(sid, text){
 function addUsage(sid,text){
   var arr=loadSamples(); var s=arr.find(function(x){return x.id===sid;}); if(!s) return;
   if(!s.usages) s.usages=[];
-  if(s.usages.indexOf(text)<0){ s.usages.push(text); saveSamples(arr); }
+  if(s.usages.indexOf(text)<0){ s.usages.push(text); saveSamples(arr); pushSamples(arr); }
   var tagsDiv=document.getElementById('wstags-'+sid);
   if(tagsDiv){ tagsDiv.appendChild(makeTag(sid,text)); }
   updateSummary();
@@ -261,7 +308,7 @@ function addUsage(sid,text){
 
 function removeUsage(sid,text){
   var arr=loadSamples(); var s=arr.find(function(x){return x.id===sid;}); if(!s) return;
-  s.usages=(s.usages||[]).filter(function(u){return u!==text;}); saveSamples(arr);
+  s.usages=(s.usages||[]).filter(function(u){return u!==text;}); saveSamples(arr); pushSamples(arr);
   var tagsDiv=document.getElementById('wstags-'+sid);
   if(tagsDiv){ Array.from(tagsDiv.children).forEach(function(tag){ if(tag.dataset.val===text) tag.remove(); }); }
   updateSummary();
@@ -274,20 +321,23 @@ function saveCard(id){
   arr[idx].status=document.getElementById('wss-'+id).value;
   arr[idx].pages=document.getElementById('wsp-'+id).value;
   arr[idx].notes=document.getElementById('wsn-'+id).value;
-  saveSamples(arr); updateSummary();
+  saveSamples(arr); pushSamples(arr); updateSummary();
 }
 
 function addCard(){
   var arr=loadSamples();
   arr.push({id:'ws'+Date.now(),title:'',type:'Scientific research report',status:'draft',pages:'',usages:[],notes:''});
-  saveSamples(arr); render();
+  saveSamples(arr); pushSamples(arr); render();
   // Scroll to new card
   setTimeout(function(){ var cards=document.querySelectorAll('.ws-card'); if(cards.length) cards[cards.length-1].scrollIntoView({behavior:'smooth',block:'start'}); },100);
 }
 
-// Init
+// Init — seed defaults locally, render, then pull from cloud. On the primary device the
+// pull pushes local up (preserves every existing sample). On secondary devices the
+// pull overwrites local with cloud, so all devices stay consistent.
 seedDefaults();
 render();
+pullSamples(function(){ render(); });
 </script>
 </body>
 </html>

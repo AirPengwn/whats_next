@@ -60,11 +60,16 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
 /* ── Global nav ── */
 .global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
 .gnav-wrap{max-width:720px;margin:0 auto;display:flex;align-items:center}
-.gnav-inner{flex:1;min-width:0;display:flex;align-items:center;gap:0;overflow-x:auto;scrollbar-width:none}
-.gnav-inner::-webkit-scrollbar{display:none}
-.gnav-home{font-size:13px;font-weight:600;color:var(--t1);text-decoration:none;padding:11px 12px 11px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:2px;flex-shrink:0}
+.gnav-inner{flex:1;min-width:0;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:0 4px;row-gap:2px;scrollbar-width:none}
+.gnav-divider{display:inline-block;width:1px;height:18px;background:var(--bd);margin:0 6px;flex-shrink:0}
+.gnav-group{display:inline-flex;align-items:center;gap:0;flex-shrink:0}
+.gnav-group-label{font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin-right:6px;flex-shrink:0;padding:3px 7px;border-radius:5px;line-height:1}
+.gnav-group-label.gl-track{background:var(--teal-bg);color:var(--teal-t)}
+.gnav-group-label.gl-browse{background:var(--blue-bg);color:var(--blue)}
+.gnav-group-label.gl-write{background:var(--amber-bg);color:var(--amber-t)}
+.gnav-home{font-size:12px;font-weight:600;color:var(--t1);text-decoration:none;padding:10px 9px 10px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:2px;flex-shrink:0}
 .gnav-home:hover{color:var(--teal-t)}
-.gnav-link{font-size:12px;font-weight:500;color:var(--t3);text-decoration:none;padding:11px 9px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
+.gnav-link{font-size:11px;font-weight:500;color:var(--t3);text-decoration:none;padding:10px 7px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
 .gnav-link:hover{color:var(--t1)}
 .gnav-link.active{color:var(--teal-t);border-bottom-color:var(--teal)}
 .gnav-toggle{flex-shrink:0;width:34px;height:34px;margin-left:8px;display:flex;align-items:center;justify-content:center;border:1.5px solid var(--bd);background:var(--bg2);color:var(--t2);cursor:pointer;border-radius:6px;font-family:var(--fn);font-size:14px;line-height:1;transition:background .12s,border-color .12s}
@@ -77,11 +82,16 @@ html.dark body{background:var(--bg3);color:var(--t1)}
 /* ── Global nav ── */
 .global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
 .gnav-wrap{max-width:720px;margin:0 auto;display:flex;align-items:center}
-.gnav-inner{flex:1;min-width:0;display:flex;align-items:center;gap:0;overflow-x:auto;scrollbar-width:none}
-.gnav-inner::-webkit-scrollbar{display:none}
-.gnav-home{font-size:13px;font-weight:600;color:var(--t1);text-decoration:none;padding:11px 12px 11px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:2px;flex-shrink:0}
+.gnav-inner{flex:1;min-width:0;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:0 4px;row-gap:2px;scrollbar-width:none}
+.gnav-divider{display:inline-block;width:1px;height:18px;background:var(--bd);margin:0 6px;flex-shrink:0}
+.gnav-group{display:inline-flex;align-items:center;gap:0;flex-shrink:0}
+.gnav-group-label{font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin-right:6px;flex-shrink:0;padding:3px 7px;border-radius:5px;line-height:1}
+.gnav-group-label.gl-track{background:var(--teal-bg);color:var(--teal-t)}
+.gnav-group-label.gl-browse{background:var(--blue-bg);color:var(--blue)}
+.gnav-group-label.gl-write{background:var(--amber-bg);color:var(--amber-t)}
+.gnav-home{font-size:12px;font-weight:600;color:var(--t1);text-decoration:none;padding:10px 9px 10px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:2px;flex-shrink:0}
 .gnav-home:hover{color:var(--teal-t)}
-.gnav-link{font-size:12px;font-weight:500;color:var(--t3);text-decoration:none;padding:11px 9px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
+.gnav-link{font-size:11px;font-weight:500;color:var(--t3);text-decoration:none;padding:10px 7px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
 .gnav-link:hover{color:var(--t1)}
 .gnav-link.active{color:var(--teal-t);border-bottom-color:var(--teal)}
 .gnav-toggle{flex-shrink:0;width:34px;height:34px;margin-left:8px;display:flex;align-items:center;justify-content:center;border:1.5px solid var(--bd);background:var(--bg2);color:var(--t2);cursor:pointer;border-radius:6px;font-family:var(--fn);font-size:14px;line-height:1;transition:background .12s,border-color .12s}
@@ -206,13 +216,29 @@ html:not(.dark) {
   <div class="gnav-wrap">
     <div class="gnav-inner">
       <a href="index.html" class="gnav-home">&#127968; Home</a>
-    <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
-    <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
-    <a href="erin_applications.html" class="gnav-link">&#128196; Applications</a>
-    <a href="erin_proftracker.html" class="gnav-link">&#128100; Professors</a>
-    <a href="erin_reftracker.html" class="gnav-link">&#128393; References</a>
-    <a href="erin_writing_samples.html" class="gnav-link">&#9997; Writing</a>
-    <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-track">Track</span>
+        <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
+        <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
+        <a href="erin_applications.html" class="gnav-link">&#128196; Apps</a>
+        <a href="erin_proftracker.html" class="gnav-link">&#128100; Profs</a>
+        <a href="erin_reftracker.html" class="gnav-link">&#128393; Refs</a>
+      </div>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-browse">Browse</span>
+        <a href="erin_programs.html" class="gnav-link">&#127979; Programs</a>
+        <a href="erin_internships.html" class="gnav-link active">&#128203; Internships</a>
+        <a href="erin_jobs.html" class="gnav-link">&#128188; Jobs</a>
+        <a href="erin_service.html" class="gnav-link">&#127807; Service</a>
+      </div>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-write">Write</span>
+        <a href="erin_writing_samples.html" class="gnav-link">&#9997; Writing</a>
+        <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
+      </div>
     </div>
     <button class="gnav-toggle" id="theme-toggle" onclick="__toggleTheme()" title="Toggle dark/light mode">&#127769;</button>
   </div>
@@ -675,6 +701,39 @@ document.addEventListener('keydown',function(e){
     if(inp) inp.focus();
   }
 });
+</script>
+
+
+<script>
+/* Sort any opportunity card flagged as "New find" / "New — <date>" to the top of its
+   sibling group. Safe no-op if no such badges are present. */
+(function(){
+  function go(){
+    var badges=document.querySelectorAll('.s-new, .s-updated');
+    var moved=new Set();
+    var cardSelector='.pc2, .pos-card, .opp-card, .ic, .jc, .sc';
+    badges.forEach(function(b){
+      var card=b.closest(cardSelector);
+      if(!card||moved.has(card)) return;
+      moved.add(card);
+      var parent=card.parentElement;
+      if(!parent) return;
+      // Find first sibling that's also a card (peer of the same kind) and insert above it
+      var firstPeer=null;
+      Array.from(parent.children).forEach(function(child){
+        if(firstPeer) return;
+        for(var c=0;c<card.classList.length;c++){
+          if(child.classList.contains(card.classList[c]) && (child.matches?child.matches(cardSelector):true)){
+            firstPeer=child; return;
+          }
+        }
+      });
+      if(firstPeer && firstPeer!==card){ parent.insertBefore(card, firstPeer); }
+    });
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', go);
+  else go();
+})();
 </script>
 
 </body>

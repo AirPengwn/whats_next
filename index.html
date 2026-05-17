@@ -50,11 +50,16 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
 /* ── Global nav ── */
 .global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
 .gnav-wrap{max-width:720px;margin:0 auto;display:flex;align-items:center}
-.gnav-inner{flex:1;min-width:0;display:flex;align-items:center;gap:0;overflow-x:auto;scrollbar-width:none}
-.gnav-inner::-webkit-scrollbar{display:none}
-.gnav-home{font-size:13px;font-weight:600;color:var(--t1);text-decoration:none;padding:11px 12px 11px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:2px;flex-shrink:0}
+.gnav-inner{flex:1;min-width:0;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:0 4px;row-gap:2px;scrollbar-width:none}
+.gnav-divider{display:inline-block;width:1px;height:18px;background:var(--bd);margin:0 6px;flex-shrink:0}
+.gnav-group{display:inline-flex;align-items:center;gap:0;flex-shrink:0}
+.gnav-group-label{font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin-right:6px;flex-shrink:0;padding:3px 7px;border-radius:5px;line-height:1}
+.gnav-group-label.gl-track{background:var(--teal-bg);color:var(--teal-t)}
+.gnav-group-label.gl-browse{background:var(--blue-bg);color:var(--blue)}
+.gnav-group-label.gl-write{background:var(--amber-bg);color:var(--amber-t)}
+.gnav-home{font-size:12px;font-weight:600;color:var(--t1);text-decoration:none;padding:10px 9px 10px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:2px;flex-shrink:0}
 .gnav-home:hover{color:var(--teal-t)}
-.gnav-link{font-size:12px;font-weight:500;color:var(--t3);text-decoration:none;padding:11px 9px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
+.gnav-link{font-size:11px;font-weight:500;color:var(--t3);text-decoration:none;padding:10px 7px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
 .gnav-link:hover{color:var(--t1)}
 .gnav-link.active{color:var(--teal-t);border-bottom-color:var(--teal)}
 .gnav-toggle{flex-shrink:0;width:34px;height:34px;margin-left:8px;display:flex;align-items:center;justify-content:center;border:1.5px solid var(--bd);background:var(--bg2);color:var(--t2);cursor:pointer;border-radius:6px;font-family:var(--fn);font-size:14px;line-height:1;transition:background .12s,border-color .12s}
@@ -145,6 +150,51 @@ html:not(.dark) {
 .update-page-link{font-size:11px;font-weight:500;padding:2px 9px;border-radius:999px;background:var(--bg);border:.5px solid var(--teal);color:var(--teal-t);text-decoration:none;white-space:nowrap}
 .update-page-link:hover{background:var(--teal-bg)}
 
+/* ── Priority dashboard ('What to do this week') ── */
+.pd-wrap{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1.1rem 1.25rem 1rem;margin:0 0 1.25rem}
+.pd-wrap.collapsed{padding:1.1rem 1.25rem}
+.pd-wrap.collapsed .pd-head{margin-bottom:0}
+.pd-head{display:flex;align-items:center;justify-content:space-between;gap:.75rem;margin-bottom:.55rem;flex-wrap:wrap;cursor:pointer;user-select:none}
+.pd-head-left{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap}
+.pd-title{font-size:18px;font-weight:600;color:var(--t1);letter-spacing:-.01em;display:flex;align-items:center;gap:.5rem}
+.pd-sub{font-size:12px;color:var(--t3);margin-bottom:.85rem;line-height:1.5}
+.pd-count{font-size:11px;font-weight:600;padding:2px 9px;border-radius:999px;background:var(--teal-bg);color:var(--teal-t)}
+.pd-collapse-btn{background:var(--bg2);border:.5px solid var(--bd);cursor:pointer;color:var(--t2);padding:6px 12px;border-radius:8px;font-family:var(--fn);font-size:13px;font-weight:500;line-height:1;display:inline-flex;align-items:center;gap:6px;transition:background .12s,border-color .12s,color .12s}
+.pd-collapse-btn:hover{background:var(--bg3);border-color:var(--bds);color:var(--t1)}
+.pd-collapse-btn .pd-arrow{display:inline-block;transition:transform .2s;font-size:16px;line-height:1}
+.pd-wrap.collapsed .pd-collapse-btn .pd-arrow{transform:rotate(-90deg)}
+html.dark .pd-collapse-btn{background:var(--bg2);border-color:var(--bd);color:var(--t1)}
+.pd-body{display:block}
+.pd-wrap.collapsed .pd-body{display:none}
+.pd-empty{padding:1rem .5rem;font-size:13px;color:var(--t2);text-align:center;line-height:1.55}
+.pd-empty-emoji{font-size:22px;display:block;margin-bottom:.35rem}
+.action-card{display:flex;align-items:flex-start;gap:.7rem;padding:.7rem .85rem;border-radius:var(--r1);background:var(--bg2);border:.5px solid var(--bd);text-decoration:none;color:var(--t1);margin-bottom:.5rem;transition:border-color .12s,background .12s}
+.action-card:hover{border-color:var(--bds);background:var(--bg3)}
+.action-row{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem;font-size:11px;color:var(--t3)}
+.action-toggle{font-size:11px;color:var(--t3);background:none;border:none;cursor:pointer;padding:0;font-family:var(--fn);text-decoration:underline;text-underline-offset:2px}
+.action-toggle:hover{color:var(--t1)}
+.action-expand{display:none;margin-top:.55rem;padding:.65rem .8rem;background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r1);font-size:12px;color:var(--t2);line-height:1.6}
+.action-expand.open{display:block}
+.action-expand .ax-row{margin-bottom:.4rem}
+.action-expand .ax-lbl{font-size:10px;font-weight:600;color:var(--t3);text-transform:uppercase;letter-spacing:.06em;margin-right:5px}
+.action-expand a{font-size:11px;font-weight:500;color:var(--teal-t);text-decoration:none;display:inline-block;padding:3px 8px;border:.5px solid var(--teal);border-radius:5px;margin-right:5px;margin-top:3px}
+.action-expand a:hover{background:var(--teal-bg)}
+.action-card.pr-urgent{border-left:3px solid #993c1d;background:var(--red-bg)}
+.action-card.pr-high{border-left:3px solid #ef9f27;background:var(--amber-bg)}
+.action-card.pr-medium{border-left:3px solid var(--teal)}
+.action-card.pr-low{border-left:3px solid var(--bds)}
+.action-emoji{font-size:18px;line-height:1.2;flex-shrink:0}
+.action-body{flex:1;min-width:0}
+.action-title{font-size:13px;font-weight:600;color:var(--t1);line-height:1.4;margin-bottom:2px}
+.action-detail{font-size:11px;color:var(--t2);line-height:1.45}
+.action-cta{font-size:11px;font-weight:500;color:var(--teal-t);margin-top:3px;display:inline-block}
+.action-card.pr-urgent .action-title{color:#7a2e15}
+.action-card.pr-urgent .action-cta{color:#993c1d}
+html.dark .action-card.pr-urgent .action-title{color:#f5a490}
+html.dark .action-card.pr-urgent .action-cta{color:#f5a490}
+html.dark .action-card.pr-high .action-title,html.dark .action-card.pr-high .action-cta{color:var(--amber-t)}
+.pd-more{font-size:11px;color:var(--t3);text-align:center;margin-top:.3rem;font-style:italic}
+
 </style>
 <script>
 (function(){
@@ -164,13 +214,29 @@ html:not(.dark) {
   <div class="gnav-wrap">
     <div class="gnav-inner">
       <a href="index.html" class="gnav-home">&#127968; Home</a>
-    <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
-    <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
-    <a href="erin_applications.html" class="gnav-link">&#128196; Applications</a>
-    <a href="erin_proftracker.html" class="gnav-link">&#128100; Professors</a>
-    <a href="erin_reftracker.html" class="gnav-link">&#128393; References</a>
-    <a href="erin_writing_samples.html" class="gnav-link">&#9997; Writing</a>
-    <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-track">Track</span>
+        <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
+        <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
+        <a href="erin_applications.html" class="gnav-link">&#128196; Apps</a>
+        <a href="erin_proftracker.html" class="gnav-link">&#128100; Profs</a>
+        <a href="erin_reftracker.html" class="gnav-link">&#128393; Refs</a>
+      </div>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-browse">Browse</span>
+        <a href="erin_programs.html" class="gnav-link">&#127979; Programs</a>
+        <a href="erin_internships.html" class="gnav-link">&#128203; Internships</a>
+        <a href="erin_jobs.html" class="gnav-link">&#128188; Jobs</a>
+        <a href="erin_service.html" class="gnav-link">&#127807; Service</a>
+      </div>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-write">Write</span>
+        <a href="erin_writing_samples.html" class="gnav-link">&#9997; Writing</a>
+        <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
+      </div>
     </div>
     <button class="gnav-toggle" id="theme-toggle" onclick="__toggleTheme()" title="Toggle dark/light mode">&#127769;</button>
   </div>
@@ -204,6 +270,51 @@ html:not(.dark) {
     </div>
   </div>
 </div>
+
+<!-- ── Priority dashboard: "What to do this week" ── -->
+<!-- Reads from every tracker (My List, Apps, Profs, Refs) and surfaces the 3-5
+     highest-leverage next actions. Pulls fresh data from cloud first so this is
+     accurate even on Erin's phone. Collapsible — state persists in localStorage. -->
+<div class="pd-wrap" id="pd-wrap">
+  <div class="pd-head" id="pd-head" onclick="window.__togglePd()" title="Click to collapse / expand">
+    <div class="pd-head-left">
+      <div class="pd-title">&#127919; What to do this week</div>
+      <span class="pd-count" id="pd-count"></span>
+    </div>
+    <button class="pd-collapse-btn" id="pd-collapse-btn" type="button" aria-label="Toggle priority dashboard" onclick="event.stopPropagation(); window.__togglePd();">
+      <span class="pd-collapse-label" id="pd-collapse-label">Show</span>
+      <span class="pd-arrow">&#9662;</span>
+    </button>
+  </div>
+  <div class="pd-body" id="pd-body">
+    <div class="pd-sub">Prioritized from every tracker — deadlines, follow-ups, missing recommenders, untouched outreach. Click any card to jump straight there.</div>
+    <div id="pd-actions"><div class="pd-empty"><span class="pd-empty-emoji">&#8987;</span>Loading actions&hellip;</div></div>
+  </div>
+</div>
+<script>
+// Collapse toggle with localStorage persistence. Default is COLLAPSED — open it
+// once and the preference sticks until you collapse it again.
+(function(){
+  var COLLAPSE_KEY='erin_pd_collapsed';
+  function apply(){
+    var w=document.getElementById('pd-wrap');
+    if(!w) return;
+    // Default to collapsed unless explicitly opened ('0')
+    var collapsed = localStorage.getItem(COLLAPSE_KEY) !== '0';
+    w.classList.toggle('collapsed', collapsed);
+    var lbl=document.getElementById('pd-collapse-label');
+    if(lbl) lbl.textContent = collapsed ? 'Show' : 'Hide';
+  }
+  window.__togglePd=function(){
+    var w=document.getElementById('pd-wrap');
+    if(!w) return;
+    var nowCollapsed=!w.classList.contains('collapsed');
+    localStorage.setItem(COLLAPSE_KEY, nowCollapsed?'1':'0');
+    apply();
+  };
+  apply();
+})();
+</script>
 
 <div class="hero">
   <div class="ph">
@@ -310,6 +421,7 @@ html:not(.dark) {
 </div>
 
 <script>
+// My List count badge on the nav-grid button
 (function(){
   try{
     var map = JSON.parse(localStorage.getItem('erin_mylist_v1')||'{}');
@@ -319,5 +431,210 @@ html:not(.dark) {
   }catch(e){}
 })();
 </script>
+
+<script>
+// ════════════════════════════════════════════════════════════════
+// Priority engine — scans every tracker and surfaces 3-5 actions
+// ════════════════════════════════════════════════════════════════
+(function(){
+  var BIN='6a039aa4250b1311c33f2bac', KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
+  function isPrimary(){ return localStorage.getItem('erin_primary_device')==='1'; }
+  var STATUS_LABELS={notstarted:'Not started',gathering:'Gathering materials',submitted:'Submitted',review:'Under review',decision:'Decision received',accepted:'Accepted',declined:'Declined',waitlisted:'Waitlisted'};
+  var DONE_STATUSES={submitted:1,review:1,decision:1,accepted:1,declined:1,waitlisted:1};
+
+  function loadJSON(k,fb){ try{ return JSON.parse(localStorage.getItem(k)||fb); }catch(e){ return JSON.parse(fb); } }
+  function loadMyList(){ return loadJSON('erin_mylist_v1','{}'); }
+  function loadApps(){ return loadJSON('erin_applications_v1','[]'); }
+  function loadProfs(){ return loadJSON('erin_prof_contacts','[]'); }
+  function loadRefs(){ return loadJSON('erin_ref_letters','[]'); }
+
+  function dayDiff(s){
+    if(!s||typeof s!=='string') return null;
+    if(/rolling|verify|tbd|n\/?a|tba/i.test(s)) return null;
+    var d=new Date(s);
+    if(isNaN(d)){
+      var m=s.match(/(\d{1,2})\s*[\/\-\.]\s*(\d{1,2})\s*[\/\-\.]\s*(\d{2,4})/);
+      if(m){ d=new Date(parseInt(m[3].length===2?'20'+m[3]:m[3]),parseInt(m[1])-1,parseInt(m[2])); }
+      if(isNaN(d)) return null;
+    }
+    var today=new Date(); today.setHours(0,0,0,0); d.setHours(0,0,0,0);
+    return Math.floor((d-today)/864e5);
+  }
+
+  function buildActions(){
+    var actions=[], mylistMap=loadMyList(), mylist=Object.values(mylistMap), apps=loadApps(), profs=loadProfs(), refs=loadRefs();
+
+    // Helper — gather everything for an action's full reveal panel
+    function fullDetailFor(opts){
+      var parts=[], urls=[], app=opts.app, item=opts.item, prof=opts.prof, ref=opts.ref;
+      if(app){
+        if(app.org)         parts.push({k:'Organization',v:app.org});
+        if(app.deadline)    parts.push({k:'Deadline',v:app.deadline});
+        if(app.itemType)    parts.push({k:'Type',v:app.itemType});
+        if(app.submitDate)  parts.push({k:'Submit date',v:app.submitDate});
+        if(app.notes)       parts.push({k:'Notes',v:app.notes});
+        if(app.decisionReason) parts.push({k:'Decision',v:app.decisionReason});
+        var m=mylistMap[app.itemId]; if(m) item=m;
+      }
+      if(item){
+        if(item.body)     parts.push({k:'Description',v:item.body});
+        if(item.pay)      parts.push({k:'Pay',v:item.pay});
+        if(item.stipend)  parts.push({k:'Stipend',v:item.stipend});
+        if(item.location) parts.push({k:'Location',v:item.location});
+        if(item.benefits) parts.push({k:'Benefits',v:item.benefits});
+        if(item.contact)  parts.push({k:'How to apply',v:item.contact});
+        if(item._note)    parts.push({k:'Your note',v:item._note});
+        if(Array.isArray(item.pills)&&item.pills.length) parts.push({k:'Tags',v:item.pills.join(' · ')});
+      }
+      if(prof){
+        if(prof.email)       parts.push({k:'Email',v:prof.email});
+        if(prof.dateEmailed) parts.push({k:'Emailed',v:prof.dateEmailed});
+        if(prof.notes)       parts.push({k:'Notes',v:prof.notes});
+      }
+      if(ref){
+        if(ref.email)     parts.push({k:'Email',v:ref.email});
+        if(ref.dateAsked) parts.push({k:'Asked on',v:ref.dateAsked});
+        if(ref.materials) parts.push({k:'Materials sent',v:ref.materials});
+      }
+      if(app && app.portalUrl) urls.push({label:'Application portal',href:app.portalUrl});
+      if(app && app.itemUrl)   urls.push({label:'Apply / posting',href:app.itemUrl});
+      if(app && app.itemSrc)   urls.push({label:'View on site',href:app.itemSrc});
+      if(item && item.url)     urls.push({label:item.url_label||'Apply / posting',href:item.url});
+      if(item && item.url2)    urls.push({label:item.url2_label||'More info',href:item.url2});
+      if(item && item.src)     urls.push({label:'Source page',href:item.src});
+      return {parts:parts, urls:urls};
+    }
+
+    // Rule 1 — app deadlines (urgent <=14d, soon <=30d) on not-yet-submitted apps
+    apps.forEach(function(app){
+      var st=app.status||'notstarted'; if(DONE_STATUSES[st]) return;
+      var d=dayDiff(app.deadline); if(d==null||d<0) return;
+      if(d<=14) actions.push({weight:200-d,klass:'pr-urgent',emoji:'&#9203;',title:'URGENT — '+(app.programTitle||'application').split('—')[0].trim()+' deadline in '+d+' day'+(d===1?'':'s'),detail:(app.org?app.org+' · ':'')+'status: '+(STATUS_LABELS[st]||st),cta:'Open application',link:'erin_applications.html#acard-'+app.id,full:fullDetailFor({app:app})});
+      else if(d<=30) actions.push({weight:120-d,klass:'pr-high',emoji:'&#128197;',title:(app.programTitle||'application').split('—')[0].trim()+' deadline in '+d+' days',detail:(app.org?app.org+' · ':'')+'status: '+(STATUS_LABELS[st]||st),cta:'Open application',link:'erin_applications.html#acard-'+app.id,full:fullDetailFor({app:app})});
+    });
+
+    // Rule 2 — stale prof follow-ups (emailed 14+ days ago, no response logged)
+    profs.forEach(function(p){
+      if(p.status!=='contacted'||!p.dateEmailed) return;
+      var since=dayDiff(p.dateEmailed); if(since==null) return; since=-since;
+      if(since>=14) actions.push({weight:90+Math.min(since-14,40),klass:'pr-high',emoji:'&#128231;',title:'Follow up with '+(p.professor||'professor'),detail:'Emailed '+since+' days ago · '+(p.programTitle||'').split('—')[0].trim().slice(0,42)+' · no response logged',cta:'Open contact',link:'erin_proftracker.html#pcard-'+p.id,full:fullDetailFor({prof:p})});
+    });
+
+    // Rule 3 — saved grad programs with no prof contacted yet
+    mylist.filter(function(it){return it.type==='Graduate Program'&&!it._done;}).forEach(function(it){
+      var matched=profs.find(function(p){return p.programTitle===it.title;});
+      if(matched && matched.status && matched.status!=='none') return;
+      actions.push({weight:60,klass:'pr-medium',emoji:'&#128075;',title:'No prof contacted for '+(it.title.split('—')[0].trim()).slice(0,45),detail:'Direct outreach is the highest-leverage activity in grad applications',cta:'Open prof tracker',link:'erin_proftracker.html'+(matched?'#pcard-'+matched.id:''),full:fullDetailFor({item:it,prof:matched})});
+    });
+
+    // Rule 4 — apps within 60d without enough linked recommenders
+    apps.forEach(function(app){
+      var st=app.status||'notstarted'; if(DONE_STATUSES[st]) return;
+      var d=dayDiff(app.deadline); if(d==null||d<0||d>60) return;
+      var linked=refs.filter(function(r){return (r.applicationIds||[]).indexOf(app.id)>-1;});
+      var ready=linked.filter(function(r){return r.status==='confirmed'||r.status==='submitted';}).length;
+      if(linked.length<2 || ready<2) actions.push({weight:80+(60-d),klass:'pr-high',emoji:'&#128393;',title:(linked.length===0?'No recommenders':'Only '+ready+' confirmed recommender'+(ready===1?'':'s'))+' for '+(app.programTitle||'application').split('—')[0].trim().slice(0,32),detail:'Deadline in '+d+' days · '+linked.length+' linked, need ~3',cta:'Open references',link:'erin_reftracker.html',full:fullDetailFor({app:app})});
+    });
+
+    // Rule 5 — "apply immediately" items in My List not yet in app tracker
+    mylist.forEach(function(it){
+      if(it._done) return;
+      var t=((it.pills||[]).join(' ')+' '+(it.body||'')+' '+(it._note||'')+' '+(it.deadline||'')).toLowerCase();
+      if(!/apply immediately|apply now|rolling|first[- ]come|review begins/.test(t)) return;
+      if(apps.some(function(a){return a.programTitle===it.title && a.org===it.org;})) return;
+      actions.push({weight:95,klass:'pr-high',emoji:'&#128640;',title:'"Apply immediately" not yet in app tracker: '+(it.title.split('—')[0].trim()).slice(0,42),detail:(it.org||'')+(it.deadline?' · '+it.deadline:'')+(it.id?' · '+it.id:''),cta:'Open My List',link:'erin_mylist.html',full:fullDetailFor({item:it})});
+    });
+
+    // Rule 6 — SOP not drafted on apps within 45 days
+    apps.forEach(function(app){
+      var st=app.status||'notstarted'; if(DONE_STATUSES[st]) return;
+      var d=dayDiff(app.deadline); if(d==null||d<0||d>45) return;
+      if((app.materials||{})[0]) return;
+      actions.push({weight:70+(45-d),klass:'pr-high',emoji:'&#128221;',title:'SOP not drafted for '+(app.programTitle||'application').split('—')[0].trim().slice(0,42),detail:'Deadline in '+d+' days · use the Outreach page SOP template',cta:'Open application',link:'erin_applications.html#acard-'+app.id,full:fullDetailFor({app:app})});
+    });
+
+    var seen={};
+    actions=actions.filter(function(a){ if(seen[a.link]) return false; seen[a.link]=true; return true; });
+    actions.sort(function(a,b){ return b.weight-a.weight; });
+    return actions;
+  }
+
+  function render(){
+    var actions=buildActions(), top=actions.slice(0,5);
+    var container=document.getElementById('pd-actions');
+    var countEl=document.getElementById('pd-count');
+    if(!container) return;
+    container.innerHTML='';
+    if(!top.length){
+      if(countEl) countEl.textContent='';
+      container.innerHTML='<div class="pd-empty"><span class="pd-empty-emoji">&#9989;</span>All caught up — no urgent actions surfaced right now. Keep an eye on the trackers as deadlines approach.</div>';
+      return;
+    }
+    if(countEl) countEl.textContent=actions.length+' total';
+    top.forEach(function(a){
+      var wrap=document.createElement('div');
+      var card=document.createElement('a');
+      card.className='action-card '+(a.klass||'pr-medium');
+      card.href=a.link;
+      var hasFull=a.full && (a.full.parts.length || a.full.urls.length);
+      card.innerHTML='<span class="action-emoji">'+a.emoji+'</span><span class="action-body">'
+        +'<div class="action-title">'+a.title.replace(/</g,'&lt;')+'</div>'
+        +'<div class="action-detail">'+(a.detail||'').replace(/</g,'&lt;')+'</div>'
+        +'<span class="action-cta">'+(a.cta||'Open')+' &rarr;</span></span>';
+      wrap.appendChild(card);
+      if(hasFull){
+        var toggleRow=document.createElement('div'); toggleRow.className='action-row';
+        var toggle=document.createElement('button'); toggle.type='button'; toggle.className='action-toggle'; toggle.textContent='Show details';
+        var panel=document.createElement('div'); panel.className='action-expand';
+        var html='';
+        a.full.parts.forEach(function(p){ html+='<div class="ax-row"><span class="ax-lbl">'+p.k+':</span>'+(p.v+'').replace(/</g,'&lt;')+'</div>'; });
+        if(a.full.urls.length){
+          html+='<div class="ax-row" style="margin-top:.55rem">';
+          a.full.urls.forEach(function(u){ html+='<a href="'+u.href+'" target="_blank" rel="noopener">'+(u.label||'Link')+' &#8599;</a>'; });
+          html+='</div>';
+        }
+        panel.innerHTML=html;
+        toggle.onclick=function(ev){ ev.preventDefault(); ev.stopPropagation(); var open=panel.classList.toggle('open'); toggle.textContent=open?'Hide details':'Show details'; };
+        toggleRow.appendChild(toggle);
+        wrap.appendChild(toggleRow);
+        wrap.appendChild(panel);
+      }
+      container.appendChild(wrap);
+    });
+    if(actions.length>top.length){
+      var more=document.createElement('div'); more.className='pd-more';
+      more.textContent='+ '+(actions.length-top.length)+' more in the trackers';
+      container.appendChild(more);
+    }
+  }
+
+  // Pull fresh data from cloud first (so widget is accurate on Erin's phone too),
+  // then render. On the primary device local stays the source of truth.
+  function syncAndRender(){
+    fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+      .then(function(r){ return r.json(); })
+      .then(function(data){
+        if(data && data.record && !isPrimary()){
+          var r=data.record;
+          if(r.items)      localStorage.setItem('erin_mylist_v1',     JSON.stringify(r.items));
+          if(r.apps)       localStorage.setItem('erin_applications_v1', JSON.stringify(r.apps));
+          if(r.profs)      localStorage.setItem('erin_prof_contacts', JSON.stringify(r.profs));
+          if(r.refs)       localStorage.setItem('erin_ref_letters',   JSON.stringify(r.refs));
+          if(r.writing)    localStorage.setItem('erin_writing_samples', JSON.stringify(r.writing));
+          if(r.archiveLog) localStorage.setItem('erin_archive_log',   JSON.stringify(r.archiveLog));
+          try{ var n=Object.keys(JSON.parse(localStorage.getItem('erin_mylist_v1')||'{}')).length;
+               var el=document.getElementById('home-count'); if(el) el.textContent=n>0?n:''; }catch(e){}
+        }
+      })
+      .catch(function(){})
+      .then(function(){ render(); });
+  }
+
+  // Render immediately from cache, then refresh after cloud pull
+  render();
+  syncAndRender();
+})();
+</script>
+
 </body>
 </html>
