@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="styles.css">
-<title>My Opportunity List — What's Next for Erin</title>
+<title>My Opportunity List â€” What's Next for Erin</title>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 
@@ -86,7 +86,7 @@ a:hover{text-decoration:underline}
 .empty-body{font-size:13px;color:var(--t2);line-height:1.65}
 .footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
 
-/* ── Global nav ── */
+/* â”€â”€ Global nav â”€â”€ */
 .global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
 .gnav-wrap{max-width:1100px;margin:0 auto;display:flex;align-items:center}
 .gnav-inner{flex:1;min-width:0;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:0 2px;row-gap:2px;scrollbar-width:none}
@@ -108,7 +108,7 @@ html.dark .gnav-toggle{background:var(--bg2);border-color:var(--bd);color:var(--
 
 html.dark body{background:var(--bg3);color:var(--t1)}
 
-/* ── Global nav ── */
+/* â”€â”€ Global nav â”€â”€ */
 .global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
 .gnav-wrap{max-width:1100px;margin:0 auto;display:flex;align-items:center}
 .gnav-inner{flex:1;min-width:0;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:0 2px;row-gap:2px;scrollbar-width:none}
@@ -155,21 +155,21 @@ body{padding:0 0 2rem;margin:0}
 .page{max-width:720px;margin:0 auto;padding:0 1rem}
 .page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.5rem}
 
-/* ════════════════════════════════════
-   THEME VARIABLES — What's Next for Erin
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   THEME VARIABLES â€” What's Next for Erin
    Light: Medium grey scale palette
    Dark: Forest green palette
-   ════════════════════════════════════ */
+   â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 
 /* Light mode base */
 :root {
   /* Grey scale (Medium palette) */
-  --bg:   #FAFAFA;   /* grey-50  — card white */
-  --bg2:  #F5F5F5;   /* grey-100 — subtle areas */
-  --bg3:  #EEEEEE;   /* grey-200 — page background */
-  --t1:   #212121;   /* grey-900 — primary text */
-  --t2:   #424242;   /* grey-800 — secondary text */
-  --t3:   #757575;   /* grey-600 — muted text */
+  --bg:   #FAFAFA;   /* grey-50  â€” card white */
+  --bg2:  #F5F5F5;   /* grey-100 â€” subtle areas */
+  --bg3:  #EEEEEE;   /* grey-200 â€” page background */
+  --t1:   #212121;   /* grey-900 â€” primary text */
+  --t2:   #424242;   /* grey-800 â€” secondary text */
+  --t3:   #757575;   /* grey-600 â€” muted text */
   --bd:   rgba(0,0,0,0.10);
   --bds:  rgba(0,0,0,0.22);
   /* Shared */
@@ -196,7 +196,7 @@ body{padding:0 0 2rem;margin:0}
   }
 }
 
-/* Manual toggle — must come LAST so it overrides both :root and @media */
+/* Manual toggle â€” must come LAST so it overrides both :root and @media */
 html.dark {
   --bg:#1c2018;--bg2:#242b1e;--bg3:#18201a;
   --t1:#f0ede0;--t2:#c0c4a8;--t3:#9dc8c8;
@@ -300,9 +300,9 @@ html:not(.dark) {
 <div class="page">
 
 <div class="page-header">
-  <div class="page-header-eyebrow">What’s Next for Erin</div>
+  <div class="page-header-eyebrow">Whatâ€™s Next for Erin</div>
   <div class="page-header-title">My List</div>
-  <div id="hero-sub" class="page-header-sub">Your saved opportunities — grad programs, internships, jobs, and service programs.</div>
+  <div id="hero-sub" class="page-header-sub">Your saved opportunities â€” grad programs, internships, jobs, and service programs.</div>
 </div>
 <div id="ss" class="sync-status"></div>
 
@@ -312,8 +312,8 @@ html:not(.dark) {
 </div>
 
 <div class="mode-tabs">
-  <button id="tab-list" class="mode-tab active" onclick="setMode(‘list’)">&#9733; My List <span id="tab-count"></span></button>
-  <button id="tab-browse" class="mode-tab" onclick="setMode(‘browse’)">Browse All</button>
+  <button id="tab-list" class="mode-tab active" onclick="setMode('list')">&#9733; My List <span id="tab-count"></span></button>
+  <button id="tab-browse" class="mode-tab" onclick="setMode('browse')">Browse All</button>
 </div>
 
 <div id="mode-list">
@@ -323,7 +323,7 @@ html:not(.dark) {
 
 <div id="mode-browse" style="display:none;margin-top:.5rem">
   <div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.6rem;flex-wrap:wrap">
-    <input id="bs" type="search" class="search-input" placeholder="Search opportunities…" oninput="renderBrowse()" style="flex:1;margin-bottom:0">
+    <input id="bs" type="search" class="search-input" placeholder="Search opportunitiesâ€¦" oninput="renderBrowse()" style="flex:1;margin-bottom:0">
     <div id="browse-filters" style="display:flex;gap:4px;flex-wrap:wrap"></div>
   </div>
   <div id="browse-body"></div>
@@ -336,7 +336,7 @@ var BIN='6a039aa4250b1311c33f2bac';
 var KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
 var STORE='erin_mylist_v1';
 var mf='All'; var bf='All';
-var CATS=['All','Funded Graduate Programs','Internships','Career Positions','Service & Fellowships','Graduate Programs — Next Cycle','Internships — Next Cycle','Career Positions — Next Cycle','Service & Fellowships — Next Cycle'];
+var CATS=['All','Funded Graduate Programs','Internships','Career Positions','Service & Fellowships','Graduate Programs â€” Next Cycle','Internships â€” Next Cycle','Career Positions â€” Next Cycle','Service & Fellowships â€” Next Cycle'];
 // ALL is populated by opportunities.js (loaded before this script)
 
 function load(){ try{ return JSON.parse(localStorage.getItem(STORE)||'{}'); }catch(e){ return {}; } }
@@ -347,55 +347,6 @@ function push(m){ pushCloud(m); }
 function pushCloud(m){
   if(!isPrimary()) return;
   fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     .then(function(r){return r.json();})
     .then(function(data){
       var rec=data.record||{};
@@ -417,7 +368,7 @@ function flash(msg){
 function addItem(d){ var m=load(); m[d.id]=d; save(m); push(m); }
 function delItem(id){ var m=load(); delete m[id]; save(m); push(m); }
 
-// ── Archive log: rationale capture when items are removed from My List ──
+// â”€â”€ Archive log: rationale capture when items are removed from My List â”€â”€
 // Shared store with Applications page ('erin_archive_log', bin key 'archiveLog')
 // so the full history of every passed-on opportunity lives in one place.
 var ARCHIVE_STORE='erin_archive_log';
@@ -441,7 +392,7 @@ function logArchive(entry){
   saveArchive(arr); pushArchive(arr);
 }
 
-// Shared rationale modal — also lives on the Applications page. cb(null) on cancel.
+// Shared rationale modal â€” also lives on the Applications page. cb(null) on cancel.
 window.showArchiveModal=function(opts, cb){
   var TAGS=['too far','no funding','wrong research fit','missed deadline','better option','not competitive','other'];
   var overlay=document.createElement('div');
@@ -501,7 +452,7 @@ window.showArchiveModal=function(opts, cb){
 var PRIMARY_KEY = 'erin_primary_device';
 function isPrimary(){ return localStorage.getItem(PRIMARY_KEY)==='1'; }
 
-// ── Applications tracker helpers (used by "→ Apps" button on each card) ──
+// â”€â”€ Applications tracker helpers (used by "â†’ Apps" button on each card) â”€â”€
 var APP_STORE='erin_applications_v1';
 function loadApps(){ try{ return JSON.parse(localStorage.getItem(APP_STORE)||'[]'); }catch(e){ return []; } }
 function saveApps(arr){ localStorage.setItem(APP_STORE,JSON.stringify(arr)); }
@@ -526,7 +477,7 @@ function addToApps(it,btn){
     btn.textContent=msg; btn.style.color=col||'';
     setTimeout(function(){ btn.textContent=orig; btn.style.color=''; },2500);
   }
-  if(exists){ flash('✓ Already in Apps','var(--teal-t)'); return; }
+  if(exists){ flash('âœ“ Already in Apps','var(--teal-t)'); return; }
   var id='a'+Date.now();
   apps.push({
     id:id, programTitle:it.title||'', org:it.org||'', deadline:it.deadline||'',
@@ -535,7 +486,7 @@ function addToApps(it,btn){
     submitDate:'', decisionDate:'', decisionReason:'', notes:'', materials:{}
   });
   saveApps(apps); pushApps(apps);
-  flash('✓ Added to Apps','var(--teal-t)');
+  flash('âœ“ Added to Apps','var(--teal-t)');
 }
 function setPrimary(v){
   localStorage.setItem(PRIMARY_KEY, v?'1':'0');
@@ -604,7 +555,7 @@ function buildFilters(elId, cur, fn){
 }
 
 
-// ── Merge saved item with ALL array to get enriched fields (url, pay, etc.) ──
+// â”€â”€ Merge saved item with ALL array to get enriched fields (url, pay, etc.) â”€â”€
 function mergeWithAll(it){
   var match = ALL.find(function(a){ return a.id === it.id; });
   if(!match) return it;
@@ -617,6 +568,45 @@ function mergeWithAll(it){
   return merged;
 }
 
+function buildDetailPanel(it,idPrefix){
+  var detail=el('div','item-detail'); detail.id=idPrefix+it.id;
+  if(it.badge){ var ib=el('div','id-badge',it.badge); detail.appendChild(ib); }
+  if(it.deadline||it.start){
+    var mr=el('div','id-meta-row');
+    if(it.deadline){ var di=el('div','id-meta-item'); di.innerHTML='<strong>Deadline:</strong> '+it.deadline; mr.appendChild(di); }
+    if(it.start){ var si=el('div','id-meta-item'); si.innerHTML='<strong>Start:</strong> '+it.start; mr.appendChild(si); }
+    detail.appendChild(mr);
+  }
+  if(it.body){
+    detail.appendChild(el('div','id-section-label','About this opportunity'));
+    detail.appendChild(el('div','id-body',it.body));
+  }
+  if(it.pills&&it.pills.length){
+    detail.appendChild(el('div','id-section-label','Focus areas'));
+    var pd=el('div','id-pills');
+    it.pills.forEach(function(p){ pd.appendChild(el('span','id-pill',p)); });
+    detail.appendChild(pd);
+  }
+  if(it.pay||it.location||it.benefits||it.stipend){
+    detail.appendChild(el('div','id-section-label','Compensation & location'));
+    var mr2=el('div','id-meta-row');
+    if(it.pay){ var pi=el('div','id-meta-item'); pi.innerHTML='<strong>Pay:</strong> '+it.pay; mr2.appendChild(pi); }
+    if(it.stipend){ var sti=el('div','id-meta-item'); sti.innerHTML='<strong>Stipend:</strong> '+it.stipend; mr2.appendChild(sti); }
+    if(it.location){ var li2=el('div','id-meta-item'); li2.innerHTML='<strong>Location:</strong> '+it.location; mr2.appendChild(li2); }
+    if(it.benefits){ var bi=el('div','id-meta-item'); bi.innerHTML='<strong>Benefits:</strong> '+it.benefits; mr2.appendChild(bi); }
+    detail.appendChild(mr2);
+  }
+  if(it.extbody){ detail.appendChild(el('div','id-section-label','Additional detail')); var eb=el('div','id-body',it.extbody); eb.style.fontSize='12px'; detail.appendChild(eb); }
+  if(it.contact){ detail.appendChild(el('div','id-section-label','How to apply / contact')); var cb=el('div','id-body',it.contact); cb.style.fontSize='12px'; detail.appendChild(cb); }
+  var lnkDiv=document.createElement('div'); lnkDiv.style.cssText='display:flex;flex-wrap:wrap;gap:6px;margin-top:.5rem';
+  if(it.url){ var al=document.createElement('a'); al.className='id-link id-link-primary'; al.href=it.url; al.target='_blank'; al.innerHTML='&#128279; '+(it.url_label||'Apply / View posting')+' &rarr;'; lnkDiv.appendChild(al); }
+  if(it.url2){ var al2=document.createElement('a'); al2.className='id-link'; al2.href=it.url2; al2.target='_blank'; al2.innerHTML='&#128279; '+(it.url2_label||'More info')+' &rarr;'; lnkDiv.appendChild(al2); }
+  if(it.src){ var sl=document.createElement('a'); sl.className='id-link'; sl.href=it.src; sl.target='_blank'; sl.innerHTML='Open '+(it.src_label||'source page')+' &rarr;'; lnkDiv.appendChild(sl); }
+  if(lnkDiv.children.length) detail.appendChild(lnkDiv);
+  detail.appendChild(el('div','id-section-label','Section'));
+  var oi=el('div','id-meta-item'); oi.textContent=(it.src_label||it.cat||''); detail.appendChild(oi);
+  return detail;
+}
 function makeListCard(it){
   it=mergeWithAll(it);
   var card=el('div','item-card'+(it._done?' done':''));
@@ -646,68 +636,19 @@ function makeListCard(it){
 
   if(it._note){ var nd=el('div','note-display','Note: '+it._note); main.appendChild(nd); }
 
-  // ── Rich detail panel ──
-  var detail=el('div','item-detail'); detail.id='detail-'+it.id;
-
-  // Badge
-  if(it.badge){ var ib=el('div','id-badge',it.badge); detail.appendChild(ib); }
-
-  // Deadline + Start row
-  if(it.deadline||it.start){
-    var mr=el('div','id-meta-row');
-    if(it.deadline){ var di=el('div','id-meta-item'); di.innerHTML='<strong>Deadline:</strong> '+it.deadline; mr.appendChild(di); }
-    if(it.start){ var si=el('div','id-meta-item'); si.innerHTML='<strong>Start:</strong> '+it.start; mr.appendChild(si); }
-    detail.appendChild(mr);
-  }
-
-  // Body text
-  if(it.body){
-    var bl=el('div','id-section-label','About this opportunity'); detail.appendChild(bl);
-    var bd=el('div','id-body',it.body); detail.appendChild(bd);
-  }
-
-  // Pills
-  if(it.pills&&it.pills.length){
-    var pl=el('div','id-section-label','Focus areas'); detail.appendChild(pl);
-    var pd=el('div','id-pills');
-    it.pills.forEach(function(p){ pd.appendChild(el('span','id-pill',p)); });
-    detail.appendChild(pd);
-  }
-
-  // ── Pay / Location / Benefits / Stipend ──
-  if(it.pay||it.location||it.benefits||it.stipend){
-    detail.appendChild(el('div','id-section-label','Compensation & location'));
-    var mr2=el('div','id-meta-row');
-    if(it.pay){ var pi=el('div','id-meta-item'); pi.innerHTML='<strong>Pay:</strong> '+it.pay; mr2.appendChild(pi); }
-    if(it.stipend){ var sti=el('div','id-meta-item'); sti.innerHTML='<strong>Stipend:</strong> '+it.stipend; mr2.appendChild(sti); }
-    if(it.location){ var li2=el('div','id-meta-item'); li2.innerHTML='<strong>Location:</strong> '+it.location; mr2.appendChild(li2); }
-    if(it.benefits){ var bi=el('div','id-meta-item'); bi.innerHTML='<strong>Benefits:</strong> '+it.benefits; mr2.appendChild(bi); }
-    detail.appendChild(mr2);
-  }
-  // ── Extended detail ──
-  if(it.extbody){ detail.appendChild(el('div','id-section-label','Additional detail')); var eb=el('div','id-body',it.extbody); eb.style.fontSize='12px'; detail.appendChild(eb); }
-  if(it.contact){ detail.appendChild(el('div','id-section-label','How to apply / contact')); var cb=el('div','id-body',it.contact); cb.style.fontSize='12px'; detail.appendChild(cb); }
-  // ── Links ──
-  var lnkDiv=document.createElement('div'); lnkDiv.style.cssText='display:flex;flex-wrap:wrap;gap:6px;margin-top:.5rem';
-  if(it.url){ var al=document.createElement('a'); al.className='id-link id-link-primary'; al.href=it.url; al.target='_blank'; al.innerHTML='&#128279; '+(it.url_label||'Apply / View posting')+' &rarr;'; lnkDiv.appendChild(al); }
-  if(it.url2){ var al2=document.createElement('a'); al2.className='id-link'; al2.href=it.url2; al2.target='_blank'; al2.innerHTML='&#128279; '+(it.url2_label||'More info')+' &rarr;'; lnkDiv.appendChild(al2); }
-  if(it.src){ var sl=document.createElement('a'); sl.className='id-link'; sl.href=it.src; sl.target='_blank'; sl.textContent='Open '+(it.src_label||'source page')+' →'; lnkDiv.appendChild(sl); }
-  if(lnkDiv.children.length) detail.appendChild(lnkDiv);
-  // ── Source label ──
-  detail.appendChild(el('div','id-section-label','Section'));
-  var oi=el('div','id-meta-item'); oi.textContent=(it.src_label||it.cat||''); detail.appendChild(oi);
-
+  // â”€â”€ Rich detail panel â”€â”€
+  var detail=buildDetailPanel(it,'detail-');
   main.appendChild(detail);
 
   var acts=el('div','item-actions');
   if(it.body||it.deadline||it.pills){
     var db=el('button','act-btn','Details'); db.onclick=function(){ detail.classList.toggle('open'); db.textContent=detail.classList.contains('open')?'Hide details':'Details'; }; acts.appendChild(db);
-    acts.appendChild(el('span','act-sep',' · '));
+    acts.appendChild(el('span','act-sep',' Â· '));
   }
   var noteArea=el('div','note-area'); noteArea.id='note-'+it.id;
   var nb=el('button','act-btn','Note'); nb.onclick=function(){ noteArea.classList.toggle('open'); }; acts.appendChild(nb);
-  acts.appendChild(el('span','act-sep',' · '));
-  var ab=el('button','act-btn','→ Apps'); ab.title='Add to Application Tracker';
+  acts.appendChild(el('span','act-sep',' Â· '));
+  var ab=el('button','act-btn','â†’ Apps'); ab.title='Add to Application Tracker';
   ab.onclick=function(){ addToApps(it,ab); }; acts.appendChild(ab);
 
   var rb=el('button','act-remove','Remove');
@@ -715,7 +656,7 @@ function makeListCard(it){
     window.showArchiveModal(
       {title:it.title, org:it.org, source:'mylist', itemId:it.id, action:'removed'},
       function(result){
-        if(!result) return; // cancelled — leave item in place
+        if(!result) return; // cancelled â€” leave item in place
         logArchive(result);
         delItem(it.id); renderList();
         if(document.getElementById('mode-browse').style.display!=='none') renderBrowse();
@@ -790,26 +731,24 @@ function renderBrowse(){
       card.appendChild(el('div','browse-org',it.org));
       var meta=el('div','browse-meta');
       if(it.deadline){ var dm=el('span'); dm.innerHTML='<strong style="font-weight:500">Deadline:</strong> '+it.deadline; meta.appendChild(dm); }
-      if(it.start){ if(it.deadline){meta.appendChild(el('span',null,' · '));} var sm=el('span'); sm.innerHTML='<strong style="font-weight:500">Start:</strong> '+it.start; meta.appendChild(sm); }
+      if(it.start){ if(it.deadline){meta.appendChild(el('span',null,' Â· '));} var sm=el('span'); sm.innerHTML='<strong style="font-weight:500">Start:</strong> '+it.start; meta.appendChild(sm); }
       card.appendChild(meta);
-      // ── Rich browse detail panel ──
-      var bd=el('div','item-detail'); bd.id='bb-'+it.id;
-      if(it.deadline||it.start){
-        var dm=el('div','browse-meta');
-        if(it.deadline){ var ds=el('span'); ds.innerHTML='<strong style="font-weight:500">Deadline:</strong> '+it.deadline; dm.appendChild(ds); }
-        if(it.start){ if(it.deadline)dm.appendChild(el('span',null,' · ')); var ss2=el('span'); ss2.innerHTML='<strong style="font-weight:500">Start:</strong> '+it.start; dm.appendChild(ss2); }
-        bd.appendChild(dm);
-      }
-      if(it.desc){ var dd=el('div','browse-desc'); dd.textContent=it.desc; bd.appendChild(dd); }
+      // â”€â”€ Rich browse detail panel â”€â”€
+      var bd=buildDetailPanel(it,'bb-');
       card.appendChild(bd);
-      var sav=el('button','browse-save-btn'+(saved?' saved':''), saved?'✓ Saved':'+ Save');
+      var sav=el('button','browse-save-btn'+(saved?' saved':''), saved?'âœ“ Saved':'+ Save');
       sav.onclick=function(){
         if(has(it.id)){ delItem(it.id); }
         else { addItem(it); }
         renderBrowse();
         renderList();
       };
-      card.onclick=function(ev){ if(!ev.target.closest('.browse-save-btn')){ bd.classList.toggle('open'); } };
+      var bacts=el('div','item-actions');
+      var bdt=el('button','act-btn','Details');
+      bdt.onclick=function(ev){ ev.stopPropagation(); bd.classList.toggle('open'); bdt.textContent=bd.classList.contains('open')?'Hide details':'Details'; };
+      bacts.appendChild(bdt);
+      card.appendChild(bacts);
+      card.onclick=function(ev){ if(ev.target.closest('a')||ev.target.closest('button')) return; bd.classList.toggle('open'); };
       card.appendChild(sav);
       body.appendChild(card);
     });
@@ -820,7 +759,7 @@ function initPrimaryBtn(){
   var btn=document.getElementById('primary-btn');
   if(!btn) return;
   if(isPrimary()){
-    btn.textContent='This is the primary device ✓';
+    btn.textContent='This is the primary device âœ“';
     btn.style.cssText='font-size:12px;font-weight:500;padding:5px 14px;border-radius:999px;border:1px solid var(--teal-t);background:var(--teal-bg);color:var(--teal-t);cursor:default;font-family:var(--fn)';
   } else {
     btn.onclick=function(){ localStorage.setItem('erin_primary_device','1'); initPrimaryBtn(); };
