@@ -12,9 +12,15 @@ const fs = require('fs');
 const NAV   = fs.readFileSync('_nav_block.txt', 'utf8').trim();
 const THEME = fs.readFileSync('_theme_block.txt', 'utf8').trim();
 const MLRAW = fs.readFileSync('_ml_block.txt', 'utf8').trim();      // <script>…</script>
-const CSS   = fs.readFileSync('_engine_css.txt', 'utf8')
-                .split('\n').filter(l => l && !/^\/\*EXTRACTED/.test(l) && !/@media print/.test(l))
-                .join('\n');
+/* IMPORTANT: _engine_css.txt ends with the stylesheet's @media print
+   hide-list (".global-nav, button, … {display:none!important}"). Cutting
+   at the first @media drops that entire block — keeping it (even without
+   the @media wrapper) would globally hide the nav and ALL buttons. */
+let CSS = fs.readFileSync('_engine_css.txt', 'utf8').split('@media')[0]
+            .split('\n').filter(l => l && !/^\/\*EXTRACTED/.test(l)).join('\n');
+if (/display:\s*none\s*!important/.test(CSS) || /\.global-nav|\bbutton\b\s*[,{]/.test(CSS)) {
+  console.error('✗ refusing: engine CSS still contains a global hide/nav-button rule'); process.exit(1);
+}
 
 /* pull the verified engine IIFE body out of the reviewed mockup */
 const MK = fs.readFileSync('mockup_programs.html', 'utf8');
