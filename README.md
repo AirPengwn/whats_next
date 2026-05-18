@@ -121,7 +121,12 @@ runs the build:
 > new, refresh deadlines/status, write accurate full descriptions; no
 > fabrication; don't silently delete curated entries (mark expiring ones).
 > Do not rewrite or shorten existing accurate descriptions; only fill gaps
-> and add genuinely new info. (3) Run `node build.js`; fix data and re-run
+> and add genuinely new info. **For each genuinely new opportunity, set its
+> `status` to `{ "kind": "s-new", "label": "✨ New — <Month D, YYYY>" }`
+> using the sweep date** — the "✨ NEW" badge + home banner appear
+> automatically and auto-expire 21 days after that date (no cleanup of old
+> NEW needed; do NOT hand-clear last week's). Use an "Updated — <date>"
+> label for refreshed (not new) entries. (3) Run `node build.js`; fix data and re-run
 > until it passes. It regenerates `opportunities.js` and writes
 > `SWEEP_DIGEST.md`; the 4 Browse pages render the changes automatically
 > (no HTML edits). Never hand-edit `opportunities.js`. (4) Verify

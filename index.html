@@ -303,10 +303,10 @@ html.dark .action-card.pr-high .action-title,html.dark .action-card.pr-high .act
   <div class="update-strip">
     <div class="update-dot"></div>
     <div class="update-main">
-      <div class="update-date">Last Opportunity Sweep &mdash; May 16, 2026</div>
+      <div class="update-date" id="sweep-date">Latest opportunity sweep</div>
       <div class="update-text">
-        New opportunities found and stale deadlines updated across 5 sections — including first career sweep.
-        <span class="update-new">&#10024; 13 new</span>
+        New opportunities and refreshed deadlines from the latest research sweep.
+        <span class="update-new" id="sweep-new">&#10024;</span>
       </div>
       <div class="update-pages">
         <a href="erin_programs.html" class="update-page-link">&#127979; Graduate Programs</a>
@@ -428,6 +428,40 @@ html.dark .action-card.pr-high .action-title,html.dark .action-card.pr-high .act
   function render(){var el=document.getElementById('gnav-sync');if(!el)return;var ts=parseInt(localStorage.getItem('erin_last_sync')||'0',10);el.textContent=ts?'✓ Synced '+fmtAgo(ts):'— not synced';}
   function setup(){var wrap=document.querySelector('.gnav-wrap');if(!wrap ||document.getElementById('gnav-sync'))return;var span=document.createElement('span');span.id='gnav-sync';span.title='Last cloud sync';span.style.cssText='font-size:10px;color:var(--t3);padding:3px 8px;background:var(--bg2);border-radius:4px;white-space:nowrap;flex-shrink:0;margin-left:10px;border:.5px solid var(--bd);align-self:center;min-width:118px;text-align:center;box-sizing:border-box';var tog=document.getElementById('theme-toggle');if(tog&&tog.parentNode===wrap)wrap.insertBefore(span,tog);else wrap.appendChild(span);render();setInterval(render,30000);window.addEventListener('erin-sync',render);}
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',setup);else setup();
+})();
+</script>
+<script src="opportunities.js?v=20260518-87-dc3b3a1e"></script>
+<script>
+/* Auto-update the "latest sweep" banner from the cabinet. Uses the SAME
+   "New" rule as the Browse pages (status contains "New" + dated within
+   NEW_DAYS) so the count always matches the badges users see. */
+(function(){
+  var NEW_DAYS=21;
+  function statusDate(s){
+    if(!s) return null; s=String(s);
+    var m=s.match(/(\d{4})-(\d{2})-(\d{2})/); if(m) return new Date(+m[1],+m[2]-1,+m[3]);
+    var MON={jan:0,feb:1,mar:2,apr:3,may:4,jun:5,jul:6,aug:7,sep:8,oct:9,nov:10,dec:11};
+    m=s.match(/(jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)[a-z]*\.?\s+(\d{1,2}),?\s*(\d{4})/i);
+    if(m) return new Date(+m[3],MON[m[1].slice(0,3).toLowerCase()],+m[2]);
+    return null;
+  }
+  function go(){
+    if(typeof ALL==='undefined') return;
+    var n=new Date(); var today=new Date(n.getFullYear(),n.getMonth(),n.getDate());
+    var count=0, newest=null;
+    ALL.forEach(function(e){
+      if(!(e.status && /(^|\W)new(\W|$)|new find/i.test(e.status.label||''))) return;
+      var d=statusDate(e.status.label); if(!d) return;
+      var age=(today-d)/864e5;
+      if(age>=0 && age<=NEW_DAYS){ count++; if(!newest||d>newest) newest=d; }
+    });
+    var ns=document.getElementById('sweep-new');
+    if(ns) ns.innerHTML='&#10024; '+count+' new';
+    var ds=document.getElementById('sweep-date');
+    if(ds && newest) ds.textContent='Latest opportunity sweep — '+
+      newest.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'});
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',go); else go();
 })();
 </script>
 </body>
