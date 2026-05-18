@@ -421,7 +421,7 @@ function buildCalendar(year,month,datedItems,panel,isPast){
       var dotsEl=document.createElement('div'); dotsEl.className='cal-dots';
       dayMap[d].slice(0,3).forEach(function(x){
         var dot=document.createElement('div');
-        dot.className='cal-dot '+(isPastDate?'future':urgency(x.date));
+        dot.className='cal-dot ld-'+(isPastDate?'future':urgency(x.date));
         dotsEl.appendChild(dot);
       });
       cell.appendChild(dotsEl);

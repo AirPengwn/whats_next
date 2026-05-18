@@ -29,7 +29,8 @@ body{padding:0 0 3rem}
 @media(max-width:680px){.board{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:460px){.board{grid-template-columns:1fr}}
 .col{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:.85rem .8rem;min-height:140px}
-.col-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:.7rem}
+.col-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:.35rem}
+.col-desc{font-size:11px;color:var(--t3);line-height:1.45;margin-bottom:.7rem}
 .col-title{font-size:13px;font-weight:700;color:var(--t1);display:flex;align-items:center;gap:6px}
 .col-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
 .d-save{background:var(--bds)}.d-prep{background:#ef9f27}.d-sub{background:var(--blue)}.d-await{background:var(--purple-t)}.d-intv{background:#185fa5}.d-out{background:var(--teal)}
@@ -243,9 +244,18 @@ body{padding:0 0 3rem}
     return h;
   }
 
+  var COLDESC={
+    save:'Saved to My List — not started applying yet.',
+    prep:'Application underway — gathering materials, drafting, lining up references.',
+    sub:'Submitted; nothing needed from you right now.',
+    await:'Submitted and waiting on a decision (no interview stage).',
+    intv:'Contacted or interviewing — actively in conversation.',
+    out:'Final result in — accepted, waitlisted, declined, or decision received.'
+  };
   function colHtml(title,dot,cls,items){
     var cap=8, shown=items.slice(0,cap);
-    var h='<div class="col"><div class="col-head"><div class="col-title"><span class="col-dot '+dot+'"></span>'+title+'</div><span class="col-count">'+items.length+'</span></div>';
+    var h='<div class="col"><div class="col-head"><div class="col-title"><span class="col-dot '+dot+'"></span>'+title+'</div><span class="col-count">'+items.length+'</span></div>'
+      +'<div class="col-desc">'+(COLDESC[cls]||'')+'</div>';
     if(!items.length){ h+='<div class="col-empty">Nothing here yet</div>'; }
     else { shown.forEach(function(c){ h+=cardHtml(c); });
       if(items.length>cap) h+='<div class="col-empty" style="padding:.5rem">+ '+(items.length-cap)+' more&hellip;</div>'; }
