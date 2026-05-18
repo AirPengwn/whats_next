@@ -58,7 +58,7 @@ body{padding:0 0 3rem}
 })();
 </script>
 <script src="site.js?v=20260518e"></script>
-<script src="opportunities.js"></script>
+<script src="opportunities.js?v=20260518-87-d5d49f67"></script>
 </head>
 <body>
 
@@ -182,6 +182,7 @@ body{padding:0 0 3rem}
     if(about){ h+=sec('About this opportunity')+'<div class="pk-body">'+esc(about)+'</div>'; }
     if(Array.isArray(m.pills)&&m.pills.length){ h+=sec('Focus areas')+'<div class="pk-body">'+m.pills.map(esc).join('  ·  ')+'</div>'; }
     if(m.contact){ h+=sec('How to apply / contact')+'<div class="pk-body">'+esc(m.contact)+'</div>'; }
+    if(m.more){ h+=sec('Application details')+'<div class="pk-body">'+esc(m.more)+'</div>'; }
 
     if(isApp){
       var mats=d.materials||{}, labels=MAT_LABELS();
@@ -208,6 +209,7 @@ body{padding:0 0 3rem}
     if(m.url) links.push([m.url_label||'Apply / posting',m.url]);
     if(m.url2) links.push([m.url2_label||'More info',m.url2]);
     if(m.src) links.push([m.src_label||'Source page',m.src]);
+    if(Array.isArray(m.links)) m.links.forEach(function(L){ if(L&&L.href) links.push([L.label||'Link',L.href]); });
     if(isApp&&d.itemUrl) links.push(['Application URL',d.itemUrl]);
     if(isApp&&d.portalUrl) links.push(['Portal',d.portalUrl]);
     if(links.length){ h+=sec('Links')+'<div class="pk-links">'+links.map(function(l){ return '<a href="'+esc(l[1])+'" target="_blank" rel="noopener">'+esc(l[0])+' ↗</a>'; }).join('')+'</div>'; }
