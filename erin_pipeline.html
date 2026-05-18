@@ -163,7 +163,8 @@ body{padding:0 0 3rem}
   /* 6 distinct stages. Saved is handled separately (My List, no app yet). */
   function stageOf(st){
     st=(st||'notstarted')+'';
-    if(/^(notstarted|gathering)$/.test(st)) return 'prep';
+    if(/^notstarted$/.test(st)) return 'save';
+    if(/^gathering$/.test(st)) return 'prep';
     if(/^submitted$/.test(st)) return 'sub';
     if(/^review$/.test(st)) return 'await';
     if(/^interview$/.test(st)) return 'intv';
