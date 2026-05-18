@@ -218,6 +218,7 @@ var SUB={
 /* multi-select state: each category is an array; [] === "All" */
 var LOCK_TYPE='Service';
 var BX={type:LOCK_TYPE?[LOCK_TYPE]:[],cycle:[],status:[],region:[],fit:[],fresh:[],sub:{}};
+var showPassed=false; /* "Hide passed/expired" is default ON; this toggle reveals them */
 /* deep-link pre-filters: ?region=… &type=… &view=browse (home quick-links) */
 (function(){ try{
   var q=new URLSearchParams((typeof location!=='undefined'&&location.search)||'');
@@ -264,6 +265,7 @@ function buildBrowseFiltersX(){
   w.appendChild(mgroup('Status', BX.status, STATUSES.slice(1)));
   w.appendChild(mgroup('Fit', BX.fit, FITS.slice(1).map(function(f){return [f,f];})));
   w.appendChild(mgroup('New', BX.fresh, FRESH));
+  w.appendChild(fgroup('Passed', [chip('Show passed / expired', showPassed, function(){ showPassed=!showPassed; renderBrowse(); })]));
   // per-type subfilters: shown for each selected type (extensible config)
   BX.type.forEach(function(t){ (SUB[t]||[]).forEach(function(sf){
     if(!BX.sub[sf.k]) BX.sub[sf.k]=[];
@@ -316,6 +318,7 @@ function renderBrowseX(){
     if(BX.cycle.length  && !has1(BX.cycle,(it.cycle||'current'))) return false;
     if(BX.region.length && !has1(BX.region,(it.region||'National / Remote / Multiple'))) return false;
     if(BX.status.length && !has1(BX.status,bucketOf(it))) return false;
+    if((bucketOf(it)===5 || it.expired===true) && !showPassed && !(BX.status.length && has1(BX.status,5))) return false;
     if(BX.fit.length    && !has1(BX.fit,fitLabel(it))) return false;
     if(BX.fresh.length){ var fOk=false;
       if(has1(BX.fresh,'new')&&isNewItem(it)) fOk=true;

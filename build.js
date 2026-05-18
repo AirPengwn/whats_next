@@ -113,7 +113,11 @@ const digest =
   (review.length ? '**⚠ Review these (reach / weak fit — your call whether to keep):**\n' + review.join('\n') + '\n\n' : '') +
   '**Updated ' + updL.length + '** (deadline / status / description changed)' +
   (updL.length ? ':\n' + updL.join('\n') : '.') + '\n\n' +
-  '**Total opportunities:** ' + data.length + '\n' +
+  '**Total opportunities:** ' + data.length +
+  '  ·  next-cycle: ' + data.filter(function(e){return e.cycle==='next';}).length +
+  '  ·  expired (one-time, no future cycle): ' + data.filter(function(e){return e.expired===true;}).length + '\n' +
+  'Triage: passed-but-recurring → `cycle:"next"`; one-time/discontinued → `expired:true`. ' +
+  'Passed/expired are hidden on the site by default (toggle to show); never deleted, never moved to the personal Archive. ' +
   'Fit tiers: _Excellent_ / _Strong_ / _Good_ / _Reach / review_ (set via each entry\'s badge). ' +
   'The Browse pages render from this data automatically — no HTML edits. ' +
   'Nothing is live until this PR is merged.\n';

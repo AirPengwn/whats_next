@@ -40,6 +40,7 @@ unchanged; these were added by a one-time lossless extraction from the
 | `deadline_date` | ISO date — the next actionable date, when parseable |
 | `deadline_kind` | `fixed` · `rolling` · `contact-first` · `passed` · `unknown` — drives urgency sort/filter |
 | `region` | US region bucket (8) — drives the Region filter & home quick-links |
+| `expired` | `true` only for one-time/discontinued opps (no future cycle); hidden by default, never deleted |
 | `badge` | Fit tier wording: Exceptional/Strong/Good/Solid, or "Reach"/"Weak fit — review" — drives the Fit filter |
 
 The 8 Browse-page HTML files remain the **verbatim source of truth** for
@@ -128,10 +129,43 @@ runs the build:
 > spread across all regions** (Southeast/Appalachia, Northeast, Midwest &
 > Great Plains, Mountain West, Southwest, West Coast/Pacific, Alaska/
 > Hawaii, and remote/national). **No cap on the number of finds.**
-> (1) Research current/new fitting opportunities nationwide; verify
-> deadlines on official pages. (2) Update `opportunities.data.json` ONLY — add
-> new, refresh deadlines/status, write accurate full descriptions; no
-> fabrication; don't silently delete curated entries (mark expiring ones).
+> Eligibility: Erin is a 2025 BS graduate — exclude undergraduate-only
+> programs (e.g., NOAA Hollings); include recent-grad / MS–PhD options.
+>
+> **SEARCH METHOD — run a FULL-DEPTH, BALANCED sweep (standing pref):**
+> Do NOT rely on a few generic queries. (a) **Coverage matrix:** for EACH
+> type (funded MS/PhD programs · internships · environmental jobs ·
+> conservation service/fellowships) search across EACH of the 8 regions,
+> PLUS interest-area-specific queries (wetlands/water quality, GIS/remote
+> sensing, restoration, hydrology, fisheries/aquatic, wildlife, soils,
+> coastal, climate, policy, ecotox, etc.). (b) **Source-targeted
+> mining** — query and/or fetch these high-yield sources directly, not
+> just generic web search: Texas A&M Natural Resources Job Board
+> (jobs.rwfm.tamu.edu) · ecophys-jobs.org · ECOLOG-L · American Fisheries
+> Society (jobs.fisheries.org) · Conservation Job Board
+> (conservationjobboard.com) · USAJOBS (federal: USGS/USFWS/EPA/NPS/BLM/
+> USACE/NOAA — Pathways/Recent Graduates) · Sea Grant network · The Corps
+> Network / AmeriCorps / state conservation corps (WCC, CCC, SCA,
+> American Conservation Experience, Conservation Legacy/Stewards) ·
+> university .edu grad-program & lab pages in her interest areas.
+> (c) **Balanced bias:** include BOTH currently-open postings with hard
+> deadlines (`cycle:"current"`, `deadline_kind:"fixed"`, set
+> `deadline_date`) AND recurring/next-cycle targets (`cycle:"next"`,
+> `deadline_kind:"contact-first"`/`"passed"`); aim for a real regional
+> spread. (d) **De-dupe:** check existing `opportunities.data.json` by
+> title+org — only add genuinely new items; if an existing one's
+> deadline/status changed, update just those fields (don't duplicate;
+> don't rewrite accurate descriptions). (e) Depth is bounded only by
+> honest verification, not by a number — expect many searches
+> (type×region matrix + interest-area + source-targeted).
+>
+> (1) Using the SEARCH METHOD above, research nationwide; verify every
+> added item's deadline on its official page (never fabricate; if timing
+> can't be confirmed, set `deadline_kind:"contact-first"` + a "Reach /
+> review — verify" badge and still include it). (2) Update
+> `opportunities.data.json` ONLY — add new, refresh deadlines/status,
+> write accurate full descriptions; no fabrication; don't silently delete
+> curated entries (mark expiring ones).
 > **Set each entry's `region`** to one of: "Southeast & Appalachia",
 > "Northeast", "Midwest & Great Plains", "Mountain West", "Southwest",
 > "West Coast / Pacific", "Alaska, Hawaii & Territories", "National /
@@ -147,7 +181,17 @@ runs the build:
 > using the sweep date** — the "✨ NEW" badge + home banner appear
 > automatically and auto-expire 21 days after that date (no cleanup of old
 > NEW needed; do NOT hand-clear last week's). Use an "Updated — <date>"
-> label for refreshed (not new) entries. (3) Run `node build.js`; fix data and re-run
+> label for refreshed (not new) entries. **Triage anything whose deadline
+> has officially passed:** if the program/posting recurs, set
+> `cycle:"next"` (and update `deadline`/`deadline_kind`, e.g.
+> contact-first) so it resurfaces for the next cycle — do NOT mark it
+> expired; only if it is genuinely one-time / discontinued / has no future
+> cycle, set `"expired": true` and a `status` label "Expired — <date>".
+> Never delete curated entries and never move anything to the personal
+> Archive page (that is Erin's own decision log in JSONbin — off-limits to
+> the sweep). Passed & expired items are hidden on the live site by
+> default (a "Show passed / expired" toggle reveals them); the digest
+> reports next-cycle and expired counts. (3) Run `node build.js`; fix data and re-run
 > until it passes. It regenerates `opportunities.js` and writes
 > `SWEEP_DIGEST.md`; the 4 Browse pages render the changes automatically
 > (no HTML edits). Never hand-edit `opportunities.js`. (4) Verify
