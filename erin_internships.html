@@ -121,7 +121,7 @@ html.dark .bx-new{background:#ff5a3c;color:#1a1a1a}
 <div id="browse-body"></div>
 <p class="footer">Live opportunities, sorted by urgency. Saving is gated to Erin&rsquo;s primary device.<br><br><a href="index.html" style="color:var(--blue)">&#8592; Back to home</a></p>
 </div>
-<script src="opportunities.js?v=20260518-87-dc3b3a1e"></script>
+<script src="opportunities.js?v=20260518-87-3c14f463"></script>
 <script>
 (function(){
 var BIN_ID='6a039aa4250b1311c33f2bac',API_KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa',STORE='erin_mylist_v1';
@@ -198,8 +198,9 @@ function fitRank(b){ b=(b||'').toLowerCase();
 /* extensible filter config — universal + per-type subfilters */
 var TYPES=['All','Graduate','Internship','Career','Service'];
 var CYCLES=[['All','All'],['Current','current'],['Next cycle','next']];
+var REGIONS=['Southeast & Appalachia','Northeast','Midwest & Great Plains','Mountain West','Southwest','West Coast / Pacific','Alaska, Hawaii & Territories','National / Remote / Multiple'];
 var STATUSES=[['All',-1],['Closing soon',0],['Upcoming',1],['Open / rolling',2],['Contact first',3],['Unconfirmed',4],['Passed',5]];
-var FITS=['All','Exceptional','Strong','Good'];
+var FITS=['All','Exceptional','Strong','Good','Reach / review'];
 var SUB={
  Graduate:[{k:'fund',label:'Funding',opts:['All','Funded/Assistantship'],
    test:function(it,v){return v==='All'||/assistantship|fully funded|\bfunded\b|stipend|tuition waiver/i.test((it.desc||it.body||'')+(it.metaLine||''));}}],
@@ -216,7 +217,15 @@ var SUB={
 };
 /* multi-select state: each category is an array; [] === "All" */
 var LOCK_TYPE='Internship';
-var BX={type:LOCK_TYPE?[LOCK_TYPE]:[],cycle:[],status:[],fit:[],fresh:[],sub:{}};
+var BX={type:LOCK_TYPE?[LOCK_TYPE]:[],cycle:[],status:[],region:[],fit:[],fresh:[],sub:{}};
+/* deep-link pre-filters: ?region=… &type=… &view=browse (home quick-links) */
+(function(){ try{
+  var q=new URLSearchParams((typeof location!=='undefined'&&location.search)||'');
+  var rg=q.get('region'); if(rg && REGIONS.indexOf(rg)>-1) BX.region=[rg];
+  var lk=(typeof LOCK_TYPE!=='undefined'&&LOCK_TYPE);
+  var ty=q.get('type'); if(ty && !lk && ['Graduate','Internship','Career','Service'].indexOf(ty)>-1) BX.type=[ty];
+  if(q.get('view')==='browse' && typeof setMode==='function') setMode('browse');
+}catch(e){} })();
 var NEW_DAYS=21; /* a "New"/"Updated" flag auto-expires this many days after its dated status */
 function statusDate(s){
   if(!s) return null; s=String(s);
@@ -232,7 +241,7 @@ function isUpdatedItem(it){ if(!(it.status&&/updated/i.test(it.status.label||'')
 var FRESH=[['✨ New','new'],['Updated','upd']];
 function has1(a,v){ return a.indexOf(v)>-1; }
 function toggle1(a,v){ var i=a.indexOf(v); if(i>-1)a.splice(i,1); else a.push(v); }
-function fitLabel(it){ return ['Exceptional','Strong','Good',''][fitRank(it.badge)]; }
+function fitLabel(it){ return ['Exceptional','Strong','Good','Reach / review'][fitRank(it.badge)]; }
 
 function chip(label,on,fn){ var b=el('button','bx-chip'+(on?' on':''),label); b.type='button'; b.onclick=fn; return b; }
 function fgroup(label,children){ var g=el('div','bx-fgroup'); g.appendChild(el('span','bx-flabel',label));
@@ -251,6 +260,7 @@ function buildBrowseFiltersX(){
   w.className='bx-fwrap'; w.innerHTML='';
   if(!LOCK_TYPE) w.appendChild(mgroup('Type', BX.type, TYPES.slice(1).map(function(t){return [t,t];})));
   w.appendChild(mgroup('Cycle', BX.cycle, CYCLES.slice(1)));
+  w.appendChild(mgroup('Region', BX.region, REGIONS.map(function(r){return [r,r];})));
   w.appendChild(mgroup('Status', BX.status, STATUSES.slice(1)));
   w.appendChild(mgroup('Fit', BX.fit, FITS.slice(1).map(function(f){return [f,f];})));
   w.appendChild(mgroup('New', BX.fresh, FRESH));
@@ -304,6 +314,7 @@ function renderBrowseX(){
   var items=ALL.filter(function(it){
     if(BX.type.length   && !has1(BX.type,typeOf(it))) return false;
     if(BX.cycle.length  && !has1(BX.cycle,(it.cycle||'current'))) return false;
+    if(BX.region.length && !has1(BX.region,(it.region||'National / Remote / Multiple'))) return false;
     if(BX.status.length && !has1(BX.status,bucketOf(it))) return false;
     if(BX.fit.length    && !has1(BX.fit,fitLabel(it))) return false;
     if(BX.fresh.length){ var fOk=false;

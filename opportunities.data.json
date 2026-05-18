@@ -25,7 +25,8 @@
     },
     "cycle": "current",
     "deadline_date": "2026-05-15",
-    "deadline_kind": "fixed"
+    "deadline_kind": "fixed",
+    "region": "Southwest"
   },
   {
     "title": "Colorado State University",
@@ -112,7 +113,8 @@
       "label": "✨ Updated — May 16, 2026"
     },
     "cycle": "current",
-    "deadline_kind": "unknown"
+    "deadline_kind": "unknown",
+    "region": "Mountain West"
   },
   {
     "title": "Colorado State University",
@@ -200,7 +202,8 @@
     },
     "cycle": "current",
     "deadline_date": "2025-12-01",
-    "deadline_kind": "passed"
+    "deadline_kind": "passed",
+    "region": "Mountain West"
   },
   {
     "title": "Louisiana State University — WABL & Coastal Sciences",
@@ -235,7 +238,8 @@
       "label": "Verified open"
     },
     "cycle": "current",
-    "deadline_kind": "passed"
+    "deadline_kind": "passed",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "Louisiana State University — WABL",
@@ -270,7 +274,8 @@
       "label": "Verified open"
     },
     "cycle": "current",
-    "deadline_kind": "passed"
+    "deadline_kind": "passed",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "University of Georgia — Odum School / SREL",
@@ -309,7 +314,8 @@
       "label": "Verify status"
     },
     "cycle": "current",
-    "deadline_kind": "contact-first"
+    "deadline_kind": "contact-first",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "University of Georgia — Savannah River Ecology Lab",
@@ -348,7 +354,8 @@
       "label": "Verify status"
     },
     "cycle": "current",
-    "deadline_kind": "contact-first"
+    "deadline_kind": "contact-first",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "University of Southern Mississippi — Gulf Coast Research Lab",
@@ -398,7 +405,8 @@
       "label": "Verify status"
     },
     "cycle": "current",
-    "deadline_kind": "contact-first"
+    "deadline_kind": "contact-first",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "University of Wyoming — Wildfire & Forest Resilience",
@@ -439,7 +447,8 @@
       "label": "Verified open"
     },
     "cycle": "current",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "Mountain West"
   },
   {
     "title": "University of Wyoming — Haub School",
@@ -478,7 +487,8 @@
       "label": "Verified open"
     },
     "cycle": "current",
-    "deadline_kind": "passed"
+    "deadline_kind": "passed",
+    "region": "Mountain West"
   },
   {
     "title": "NC State University — Hurricane Helene Forest Recovery",
@@ -508,7 +518,8 @@
     },
     "cycle": "current",
     "deadline_date": "2026-01-31",
-    "deadline_kind": "fixed"
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "NC State University — Hurricane Helene Forest Recovery",
@@ -538,7 +549,8 @@
     },
     "cycle": "current",
     "deadline_date": "2026-01-31",
-    "deadline_kind": "fixed"
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "Clemson University — Elmore Lab, Bird Response to Helene",
@@ -573,7 +585,8 @@
       "label": "Verify status"
     },
     "cycle": "current",
-    "deadline_kind": "contact-first"
+    "deadline_kind": "contact-first",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "Auburn University — ACFWRU",
@@ -607,7 +620,8 @@
       "label": "Verify status"
     },
     "cycle": "current",
-    "deadline_kind": "contact-first"
+    "deadline_kind": "contact-first",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "Auburn University — Alabama CFWRU",
@@ -638,7 +652,8 @@
       "label": "Verify status"
     },
     "cycle": "current",
-    "deadline_kind": "contact-first"
+    "deadline_kind": "contact-first",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "Mississippi State University — Forest Hydrology & Soils Lab",
@@ -671,7 +686,8 @@
       "label": "Verify status"
     },
     "cycle": "current",
-    "deadline_kind": "passed"
+    "deadline_kind": "passed",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "Mississippi State University — Geosystems Research Institute",
@@ -707,7 +723,8 @@
       "label": "Verify status"
     },
     "cycle": "current",
-    "deadline_kind": "contact-first"
+    "deadline_kind": "contact-first",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "Mississippi State University — Forest & Wildlife Research Center",
@@ -740,7 +757,8 @@
       "label": "Verify status"
     },
     "cycle": "current",
-    "deadline_kind": "contact-first"
+    "deadline_kind": "contact-first",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "CU Boulder — INSTAAR / Environmental Studies",
@@ -851,7 +869,8 @@
       "label": "Verified open"
     },
     "cycle": "current",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "Mountain West"
   },
   {
     "title": "University of Montana — Environmental Studies",
@@ -922,7 +941,8 @@
       "label": "Verified open"
     },
     "cycle": "current",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "Mountain West"
   },
   {
     "title": "Alabama A&M University — Longleaf Pine Ecology MS",
@@ -949,7 +969,8 @@
     },
     "cycle": "next",
     "deadline_date": "2026-04-24",
-    "deadline_kind": "passed"
+    "deadline_kind": "passed",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "University of Arkansas — Water Quality / Stream Biogeochemistry (PhD)",
@@ -976,7 +997,8 @@
     },
     "cycle": "next",
     "deadline_date": "2026-02-24",
-    "deadline_kind": "passed"
+    "deadline_kind": "passed",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "NC State University — Dept. of Forestry & Environmental Resources",
@@ -1059,7 +1081,8 @@
     ],
     "cycle": "next",
     "deadline_date": "2026-09-01",
-    "deadline_kind": "fixed"
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "Purdue University — Dept. of Forestry & Natural Resources",
@@ -1128,7 +1151,8 @@
     ],
     "cycle": "next",
     "deadline_date": "2026-05-31",
-    "deadline_kind": "fixed"
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains"
   },
   {
     "title": "Louisiana State University — Wetland & Aquatic Biogeochemistry Lab",
@@ -1209,7 +1233,8 @@
     ],
     "cycle": "next",
     "deadline_date": "2027-02-15",
-    "deadline_kind": "fixed"
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "University of Montana — MS Wildlife Biology",
@@ -1278,7 +1303,8 @@
     ],
     "cycle": "next",
     "deadline_date": "2027-01-15",
-    "deadline_kind": "fixed"
+    "deadline_kind": "fixed",
+    "region": "Mountain West"
   },
   {
     "title": "Mississippi State University — Wildlife, Fisheries & Aquaculture",
@@ -1349,7 +1375,8 @@
       }
     ],
     "cycle": "next",
-    "deadline_kind": "contact-first"
+    "deadline_kind": "contact-first",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "Colorado State University — Ecosystem Science & Sustainability / GDPE",
@@ -1429,7 +1456,8 @@
       }
     ],
     "cycle": "next",
-    "deadline_kind": "contact-first"
+    "deadline_kind": "contact-first",
+    "region": "Mountain West"
   },
   {
     "title": "University of Minnesota — Water Resources Science Program",
@@ -1462,7 +1490,8 @@
     "desc": "UMN's Water Resources Science program is fully interdisciplinary — students are placed with a faculty advisor across any department (ecology, civil engineering, soil science, etc.). All admitted students are fully funded by their faculty advisor via RA or TA. Applications for Fall 2026 opened mid-September 2025 with a December 1 priority deadline. Fall 2027 applications will follow the same pattern — watch for September 2026 opening.",
     "cycle": "next",
     "deadline_date": "2026-12-01",
-    "deadline_kind": "fixed"
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains"
   },
   {
     "title": "SUNY College of Environmental Science & Forestry (ESF) — Waterfowl & Wetlands MPS",
@@ -1498,7 +1527,8 @@
     "more": "Program details This MPS is a professional degree (not thesis-based) emphasizing applied skills: wetland delineation (with Ducks Unlimited staff), waterfowl ecology, habitat restoration, and USFWS field experience. Includes a summer internship. Accepts up to 3 students for Fall 2026 and Spring 2027 — still open as of May 2026. StatusCurrently accepting applications for Fall 2026 and Spring 2027 ScholarshipIn-state tuition scholarship for highest-ranked applicant ApplicationSend letter of interest, resume, unofficial transcripts to program director ContactDr. Michael L. Schummer — contact via SUNY ESF website Send letter of interest, resume, and unofficial transcripts to Dr. Michael Schummer via SUNY ESF. Emphasize GEOL 455 Army Corps delineation training, NRM 479 field work, and Pigeon River capstone.",
     "desc": "SUNY ESF's MPS in Ecological Restoration with Waterfowl & Wetlands Focus is actively accepting applications for Fall 2026 and Spring 2027 (up to 3 students). A scholarship covering in-state tuition for one semester is offered to the highest-ranked applicant. The program includes Ducks Unlimited wetland delineation training and intensive Wetlands Monitoring and Assessment field courses — a direct continuation of Erin's GEOL 455 Army Corps delineation work.",
     "cycle": "next",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "Northeast"
   },
   {
     "title": "Dauphin Island Sea Lab — BOATS Postbac Fellowship",
@@ -1526,7 +1556,8 @@
     },
     "cycle": "current",
     "deadline_date": "2026-08-21",
-    "deadline_kind": "fixed"
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "Dauphin Island Sea Lab — Fisheries Ecology Lab Internship (Dr. Sean Powers)",
@@ -1558,7 +1589,8 @@
       "label": "✨ New — May 16, 2026"
     },
     "cycle": "current",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "USGS South Atlantic Water Science Center (SAWSC) — Student Corps",
@@ -1601,7 +1633,8 @@
       }
     ],
     "cycle": "current",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "EPA Office of Water — Student Volunteer Internship",
@@ -1639,7 +1672,8 @@
       }
     ],
     "cycle": "current",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "National / Remote / Multiple"
   },
   {
     "title": "USFWS Pathways Internship — Biological Science Student Trainee",
@@ -1672,7 +1706,8 @@
       }
     ],
     "cycle": "current",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "National / Remote / Multiple"
   },
   {
     "title": "USGS Pathways Recent Graduate Program — Hydrologist / Physical Scientist",
@@ -1732,7 +1767,8 @@
       }
     ],
     "cycle": "current",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "National / Remote / Multiple"
   },
   {
     "title": "Environmental Technician Internship — Summer 2026",
@@ -1764,7 +1800,8 @@
       }
     ],
     "cycle": "current",
-    "deadline_kind": "passed"
+    "deadline_kind": "passed",
+    "region": "National / Remote / Multiple"
   },
   {
     "title": "Natural Resources Intern — Stream Surveying & Wetland Delineation",
@@ -1801,7 +1838,8 @@
       }
     ],
     "cycle": "current",
-    "deadline_kind": "contact-first"
+    "deadline_kind": "contact-first",
+    "region": "National / Remote / Multiple"
   },
   {
     "title": "Natural Resources Internship — Ecology Team",
@@ -1833,7 +1871,8 @@
       }
     ],
     "cycle": "current",
-    "deadline_kind": "contact-first"
+    "deadline_kind": "contact-first",
+    "region": "Mountain West"
   },
   {
     "title": "Science Intern — Fall 2026",
@@ -1884,7 +1923,8 @@
     ],
     "cycle": "current",
     "deadline_date": "2026-05-15",
-    "deadline_kind": "passed"
+    "deadline_kind": "passed",
+    "region": "National / Remote / Multiple"
   },
   {
     "title": "Research Internship — Wetland Ecology & Water Quality",
@@ -1915,7 +1955,8 @@
       }
     ],
     "cycle": "current",
-    "deadline_kind": "passed"
+    "deadline_kind": "passed",
+    "region": "Northeast"
   },
   {
     "title": "Research Internship — Wetland Ecology",
@@ -1943,7 +1984,8 @@
       }
     ],
     "cycle": "current",
-    "deadline_kind": "contact-first"
+    "deadline_kind": "contact-first",
+    "region": "Northeast"
   },
   {
     "title": "University of Alabama / Jones Center at Ichauway — Woods to Water RaMP Postbac",
@@ -1971,7 +2013,8 @@
     },
     "cycle": "next",
     "deadline_date": "2026-04-15",
-    "deadline_kind": "fixed"
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "USGS Pathways Recent Graduate Program — Hydrologist / Physical Scientist",
@@ -2035,7 +2078,8 @@
       }
     ],
     "cycle": "next",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "EPA Office of Water — Student Volunteer Internship (Fall 2026–Spring 2027 cycle)",
@@ -2092,7 +2136,8 @@
     ],
     "cycle": "next",
     "deadline_date": "2026-08-01",
-    "deadline_kind": "fixed"
+    "deadline_kind": "fixed",
+    "region": "National / Remote / Multiple"
   },
   {
     "title": "USFWS Pathways Internship — Biological Science Student Trainee (GS-0404)",
@@ -2147,7 +2192,8 @@
       }
     ],
     "cycle": "next",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "USGS Wetland Ecology Internship — Great Lakes & Southeast Science Centers",
@@ -2180,7 +2226,8 @@
       }
     ],
     "cycle": "next",
-    "deadline_kind": "contact-first"
+    "deadline_kind": "contact-first",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "Natural Resource Scientist / Environmental Technician — Fall/Year-Round Hire",
@@ -2232,7 +2279,8 @@
       }
     ],
     "cycle": "next",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "Entry-Level Environmental Scientist — SE Region",
@@ -2287,7 +2335,8 @@
       }
     ],
     "cycle": "next",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "Georgia Southern University — MROC2S Postbac Research Fellowship",
@@ -2338,7 +2387,8 @@
       }
     ],
     "cycle": "next",
-    "deadline_kind": "passed"
+    "deadline_kind": "passed",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "Jug Bay Wetlands Sanctuary — Research Internship (2027 cycle)",
@@ -2386,7 +2436,8 @@
     ],
     "cycle": "next",
     "deadline_date": "2027-03-01",
-    "deadline_kind": "fixed"
+    "deadline_kind": "fixed",
+    "region": "Northeast"
   },
   {
     "id": "item-081",
@@ -2413,7 +2464,8 @@
       "label": "✨ New — May 16, 2026"
     },
     "cycle": "current",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia"
   },
   {
     "id": "item-082",
@@ -2446,7 +2498,8 @@
       "label": "✨ New — May 16, 2026"
     },
     "cycle": "current",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia"
   },
   {
     "id": "item-083",
@@ -2479,7 +2532,8 @@
       "label": "✨ New — May 16, 2026"
     },
     "cycle": "current",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia"
   },
   {
     "id": "item-084",
@@ -2512,7 +2566,8 @@
       "label": "✨ New — May 16, 2026"
     },
     "cycle": "current",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "Hydrologic Technician / Environmental Science Technician",
@@ -2576,7 +2631,8 @@
       }
     ],
     "cycle": "current",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "Biological Science Technician (GS-0404)",
@@ -2616,7 +2672,8 @@
       }
     ],
     "cycle": "current",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "Environmental Science / Natural Resources Specialist",
@@ -2675,7 +2732,8 @@
       }
     ],
     "cycle": "current",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "Environmental Specialist I — Water Quality or Wetlands",
@@ -2714,7 +2772,8 @@
       }
     ],
     "cycle": "current",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "Wildlife Biologist I / Wildlife Technician",
@@ -2761,7 +2820,8 @@
       }
     ],
     "cycle": "current",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "National / Remote / Multiple"
   },
   {
     "title": "Environmental Compliance Technician",
@@ -2791,7 +2851,8 @@
       }
     ],
     "cycle": "current",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "Environmental Compliance Technician",
@@ -2819,7 +2880,8 @@
       }
     ],
     "cycle": "current",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "Staff Environmental Scientist / Environmental Scientist I",
@@ -2903,7 +2965,8 @@
       }
     ],
     "cycle": "current",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "National / Remote / Multiple"
   },
   {
     "title": "Conservation Scientist / GIS Analyst — Land Protection",
@@ -2965,7 +3028,8 @@
       }
     ],
     "cycle": "current",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "National / Remote / Multiple"
   },
   {
     "id": "item-085",
@@ -2992,7 +3056,8 @@
       "label": "✨ New — May 16, 2026"
     },
     "cycle": "next",
-    "deadline_kind": "passed"
+    "deadline_kind": "passed",
+    "region": "Southeast & Appalachia"
   },
   {
     "id": "item-086",
@@ -3025,7 +3090,8 @@
       "label": "✨ New — May 16, 2026"
     },
     "cycle": "next",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "Hydrologic Technician / Environmental Science Technician (GS-1316 / GS-1301)",
@@ -3089,7 +3155,8 @@
       }
     ],
     "cycle": "next",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "Biological Science Technician (GS-0404) — SE Region National Wildlife Refuges",
@@ -3129,7 +3196,8 @@
       }
     ],
     "cycle": "next",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "Natural Resources Specialist / Environmental Scientist — 401/404 Permitting",
@@ -3185,7 +3253,8 @@
       }
     ],
     "cycle": "next",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "Environmental Specialist I — Water Quality / Wetlands Division",
@@ -3236,7 +3305,8 @@
       }
     ],
     "cycle": "next",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "Wildlife Biologist I / Wildlife Technician",
@@ -3279,7 +3349,8 @@
       }
     ],
     "cycle": "next",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "National / Remote / Multiple"
   },
   {
     "title": "Environmental Compliance Technician / Staff Environmental Scientist",
@@ -3347,7 +3418,8 @@
       }
     ],
     "cycle": "next",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "National / Remote / Multiple"
   },
   {
     "title": "BLM Wetlands & Wildlife Technician — Individual Placement",
@@ -3387,7 +3459,8 @@
       "label": "✨ Updated — May 16, 2026"
     },
     "cycle": "current",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "National / Remote / Multiple"
   },
   {
     "title": "Environmental Conservation Corps — Restoration Crew & Community Restoration Members",
@@ -3423,7 +3496,8 @@
       }
     ],
     "cycle": "current",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "Biological Science Technician — Individual Placement, Cherokee National Forest",
@@ -3455,7 +3529,8 @@
       }
     ],
     "cycle": "current",
-    "deadline_kind": "contact-first"
+    "deadline_kind": "contact-first",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "Biological Science Individual Placement — USFWS Military Lands Conservation, Kirtland AFB",
@@ -3491,7 +3566,8 @@
       }
     ],
     "cycle": "current",
-    "deadline_kind": "contact-first"
+    "deadline_kind": "contact-first",
+    "region": "Southwest"
   },
   {
     "title": "Wildlife Monitoring Individual Placement — Wichita Mountains Wildlife Refuge",
@@ -3524,7 +3600,8 @@
     ],
     "cycle": "current",
     "deadline_date": "2026-01-25",
-    "deadline_kind": "passed"
+    "deadline_kind": "passed",
+    "region": "Southwest"
   },
   {
     "title": "Stewards Individual Placements — GIS Mapping, Species Inventory & Land Management",
@@ -3556,7 +3633,8 @@
       }
     ],
     "cycle": "current",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "National / Remote / Multiple"
   },
   {
     "title": "Environmental Compliance Intern — US Army Corps of Engineers",
@@ -3588,7 +3666,8 @@
       }
     ],
     "cycle": "current",
-    "deadline_kind": "passed"
+    "deadline_kind": "passed",
+    "region": "National / Remote / Multiple"
   },
   {
     "title": "Conservation Corps Minnesota & Iowa — Individual Placements",
@@ -3615,7 +3694,8 @@
       "label": "✨ New — May 16, 2026"
     },
     "cycle": "next",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "Midwest & Great Plains"
   },
   {
     "title": "BLM Wetlands & Wildlife Technician — Individual Placement (2026–27 cycle)",
@@ -3687,7 +3767,8 @@
       "label": "✨ Updated — May 16, 2026"
     },
     "cycle": "next",
-    "deadline_kind": "passed"
+    "deadline_kind": "passed",
+    "region": "National / Remote / Multiple"
   },
   {
     "title": "Stewards Individual Placements — GIS Mapping, Species Inventory & Land Management",
@@ -3747,7 +3828,8 @@
       }
     ],
     "cycle": "next",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "National / Remote / Multiple"
   },
   {
     "title": "Biological Science Technician IP — Cherokee & Pisgah National Forests",
@@ -3798,7 +3880,8 @@
       }
     ],
     "cycle": "next",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia"
   },
   {
     "title": "Wildlife Monitoring IP — Wichita Mountains Wildlife Refuge (2026 cycle)",
@@ -3842,7 +3925,8 @@
     ],
     "cycle": "next",
     "deadline_date": "2026-03-02",
-    "deadline_kind": "fixed"
+    "deadline_kind": "fixed",
+    "region": "Southwest"
   },
   {
     "title": "EPA Greater Research Opportunities (GRO) Fellowship",
@@ -3885,7 +3969,8 @@
       }
     ],
     "cycle": "next",
-    "deadline_kind": "contact-first"
+    "deadline_kind": "contact-first",
+    "region": "National / Remote / Multiple"
   },
   {
     "title": "USDA Forest Service Pathways Recent Graduate Program",
@@ -3940,7 +4025,8 @@
       }
     ],
     "cycle": "next",
-    "deadline_kind": "rolling"
+    "deadline_kind": "rolling",
+    "region": "Mountain West"
   },
   {
     "title": "Smithsonian Environmental Research Center — Research Technician",
@@ -3987,6 +4073,7 @@
       }
     ],
     "cycle": "next",
-    "deadline_kind": "contact-first"
+    "deadline_kind": "contact-first",
+    "region": "Northeast"
   }
 ]

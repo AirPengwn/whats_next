@@ -39,6 +39,8 @@ unchanged; these were added by a one-time lossless extraction from the
 | `cycle` | `current` or `next` (derived from the source page) |
 | `deadline_date` | ISO date — the next actionable date, when parseable |
 | `deadline_kind` | `fixed` · `rolling` · `contact-first` · `passed` · `unknown` — drives urgency sort/filter |
+| `region` | US region bucket (8) — drives the Region filter & home quick-links |
+| `badge` | Fit tier wording: Exceptional/Strong/Good/Solid, or "Reach"/"Weak fit — review" — drives the Fit filter |
 
 The 8 Browse-page HTML files remain the **verbatim source of truth** for
 existing cards (golden-gated, byte-identical). The cabinet now carries the
@@ -113,13 +115,32 @@ runs the build:
 
 > Weekly opportunity sweep for "What's Next for Erin". Source of truth is
 > `opportunities.data.json`; `build.js` regenerates `opportunities.js`. Erin —
-> BS Environmental Science (WCU '25): wetlands, water quality, wildlife/
-> mammalogy, GIS, environmental justice; targeting FUNDED MS programs,
-> internships, env. jobs, conservation service in Appalachia/Southeast +
-> Mountain West. (1) Research current/new fitting opportunities; verify
+> BS Environmental Science (WCU '25). Interest areas: wetlands · water
+> quality · wildlife & mammalogy · GIS & remote sensing · environmental
+> justice · ecology & conservation biology · restoration ecology ·
+> hydrology & watershed science · soil science · fisheries & aquatic
+> ecology · forestry & natural resource management · coastal & marine
+> science · climate change & adaptation · environmental policy &
+> management · environmental chemistry & ecotoxicology · sustainability &
+> land use · biogeochemistry. Targets: FUNDED MS/PhD programs,
+> internships, environmental jobs, conservation service. **She will
+> relocate anywhere in the US — NO geographic limit; actively seek a
+> spread across all regions** (Southeast/Appalachia, Northeast, Midwest &
+> Great Plains, Mountain West, Southwest, West Coast/Pacific, Alaska/
+> Hawaii, and remote/national). **No cap on the number of finds.**
+> (1) Research current/new fitting opportunities nationwide; verify
 > deadlines on official pages. (2) Update `opportunities.data.json` ONLY — add
 > new, refresh deadlines/status, write accurate full descriptions; no
 > fabrication; don't silently delete curated entries (mark expiring ones).
+> **Set each entry's `region`** to one of: "Southeast & Appalachia",
+> "Northeast", "Midwest & Great Plains", "Mountain West", "Southwest",
+> "West Coast / Pacific", "Alaska, Hawaii & Territories", "National /
+> Remote / Multiple" (the institution's location wins). **Set `badge` to
+> an honest fit tier** so weak/long-shot finds are flagged for review,
+> not hidden: use wording containing "Exceptional"/"Top recommendation",
+> "Strong", "Good"/"Solid", or — for stretches/long shots/tangential
+> matches — "Reach" or "Weak fit — review". Include reaches; don't drop
+> them — they surface in a "⚠ Review these" section of the digest.
 > Do not rewrite or shorten existing accurate descriptions; only fill gaps
 > and add genuinely new info. **For each genuinely new opportunity, set its
 > `status` to `{ "kind": "s-new", "label": "✨ New — <Month D, YYYY>" }`

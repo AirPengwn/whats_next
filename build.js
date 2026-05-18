@@ -93,16 +93,28 @@ fs.writeFileSync(SNAP, JSON.stringify(snap, null, 1), { encoding: 'utf8' });
 /* 8. Plain-English "what changed" digest for the weekly PR ----------
    The 4 Browse pages render straight from opportunities.js, so the sweep
    is DATA-ONLY: just summarise the snapshot diff. No page rewriting. */
-const TITLE = {}; data.forEach(function (e) { TITLE[e.id] = e.title; });
-const addedT = newIds.map(function (id) { return TITLE[id] || id; });
-const updT   = updIds.map(function (id) { return TITLE[id] || id; });
+const REC = {}; data.forEach(function (e) { REC[e.id] = e; });
+function fitTier(b){ b=(b||'').toLowerCase();
+  if(/exception|top recommend/.test(b)) return 'Excellent';
+  if(/strong/.test(b)) return 'Strong';
+  if(/good|solid|verified open|open now/.test(b)) return 'Good';
+  return 'Reach / review'; }
+function line(id){ var e=REC[id]||{}; return '- ' + (e.title||id)
+  + ' — _' + fitTier(e.badge) + '_'
+  + (e.region ? ' · ' + e.region : '')
+  + (e.deadline ? ' · deadline: ' + e.deadline : ''); }
+const addedL = newIds.map(line);
+const updL   = updIds.map(line);
+const review = newIds.filter(function (id) { return fitTier((REC[id]||{}).badge) === 'Reach / review'; }).map(line);
 const digest =
   '# Weekly opportunity sweep — ' + META.sweptOn + '\n\n' +
-  '**Added ' + addedT.length + ' new** ' + (addedT.length === 1 ? 'opportunity' : 'opportunities') +
-  (addedT.length ? ':\n' + addedT.map(function (t) { return '- ' + t; }).join('\n') : '.') + '\n\n' +
-  '**Updated ' + updT.length + '** (deadline / status / description changed)' +
-  (updT.length ? ':\n' + updT.map(function (t) { return '- ' + t; }).join('\n') : '.') + '\n\n' +
+  '**Added ' + addedL.length + ' new** ' + (addedL.length === 1 ? 'opportunity' : 'opportunities') +
+  (addedL.length ? ':\n' + addedL.join('\n') : '.') + '\n\n' +
+  (review.length ? '**⚠ Review these (reach / weak fit — your call whether to keep):**\n' + review.join('\n') + '\n\n' : '') +
+  '**Updated ' + updL.length + '** (deadline / status / description changed)' +
+  (updL.length ? ':\n' + updL.join('\n') : '.') + '\n\n' +
   '**Total opportunities:** ' + data.length + '\n' +
+  'Fit tiers: _Excellent_ / _Strong_ / _Good_ / _Reach / review_ (set via each entry\'s badge). ' +
   'The Browse pages render from this data automatically — no HTML edits. ' +
   'Nothing is live until this PR is merged.\n';
 fs.writeFileSync('SWEEP_DIGEST.md', digest, { encoding: 'utf8' });
