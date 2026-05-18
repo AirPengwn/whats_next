@@ -3,196 +3,63 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Funded Graduate Programs — What's Next for Erin</title>
+<script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
+<link rel="stylesheet" href="styles.css?v=20260518e">
+<title>Funded Graduate Programs — What’s Next for Erin</title>
 <style>
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-
-body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem;}
-.top-nav{display:flex;align-items:center;gap:12px;margin-bottom:1.25rem}
-.back-btn{font-size:13px;padding:5px 14px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t2);text-decoration:none;display:inline-block}
-.back-btn:hover{background:var(--bg2);color:var(--t1)}
-.pg-title{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3)}
-.slabel{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin-bottom:.75rem}
-.card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1.25rem;margin-bottom:1rem}
-.card-title{font-size:15px;font-weight:500;margin-bottom:.5rem;color:var(--t1)}
-.card-body{font-size:13px;color:var(--t2);line-height:1.7}
-hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
-.tip{border-left:3px solid var(--teal);background:var(--bg2);padding:.85rem 1rem;margin-bottom:.85rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
-.tip-warn{border-left-color:var(--amber)}
-.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:1.25rem}
-.tab{font-size:13px;padding:6px 16px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn)}
-.tab:hover,.tab.active{background:var(--bg2);color:var(--t1);font-weight:500}
-.psec{display:none}.psec.active{display:block}
-.pc2{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:.75rem}
-.pc2.ft{border-left:3px solid var(--blue)}
-.pc2.confirmed{border-left:3px solid var(--teal)}
-.ph2{display:flex;align-items:flex-start;justify-content:space-between;gap:.75rem;margin-bottom:.4rem}
-.pn{font-size:14px;font-weight:500;color:var(--t1)}
-.pl{font-size:12px;color:var(--t2);margin-top:2px}
-.pb2{font-size:13px;color:var(--t2);line-height:1.6;margin-bottom:.75rem}
-.badge{font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px;white-space:nowrap;flex-shrink:0}
-.ms{background:var(--teal-bg);color:var(--teal-t)}.mg{background:var(--blue-bg);color:var(--blue)}.mo{background:var(--purple-bg);color:#534ab7}.mw{background:var(--amber-bg);color:var(--amber-t)}.mx{background:var(--red-bg);color:#993c1d}
-
-.slinks{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:.75rem}
-.sl2{display:inline-flex;align-items:center;gap:5px;font-size:12px;color:var(--blue);text-decoration:none;padding:3px 0;margin-right:.75rem}
-.sl2:hover{text-decoration:underline}
-.more-btn{font-size:12px;font-weight:500;padding:4px 13px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn);display:inline-flex;align-items:center;gap:5px}
-.more-btn:hover{background:var(--bg2);color:var(--t1)}
-.more-panel{display:none;margin-top:.85rem;padding-top:.85rem;border-top:.5px solid var(--bd)}
-.more-panel.open{display:block}
-.more-panel h4{font-size:12px;font-weight:500;color:var(--t3);text-transform:uppercase;letter-spacing:.05em;margin-bottom:.4rem;margin-top:.75rem}
-.more-panel h4:first-child{margin-top:0}
-.more-panel p{font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.5rem}
-.more-panel p:last-child{margin-bottom:0}
-.more-panel .detail-row{font-size:13px;color:var(--t2);padding:4px 0;border-bottom:.5px solid var(--bd);display:flex;gap:8px}
-.more-panel .detail-row:last-child{border-bottom:none}
-.more-panel .detail-label{font-weight:500;color:var(--t1);min-width:110px;flex-shrink:0}
-.more-panel .contact-block{background:var(--bg2);border-radius:var(--r1);padding:.65rem .85rem;margin-top:.5rem;font-size:13px;color:var(--t2);line-height:1.6}
-.more-panel .contact-block a{color:var(--blue);text-decoration:none}
-.more-panel .contact-block a:hover{text-decoration:underline}
-.status-badge{display:inline-block;font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px;margin-left:6px}
-.s-open{background:var(--teal-bg);color:var(--teal-t)}
-.s-check{background:var(--amber-bg);color:var(--amber-t)}
-.s-new{background:var(--red-bg);color:#993c1d}
-.rl{display:block;font-size:13px;color:var(--blue);text-decoration:none;padding:7px 0;border-bottom:.5px solid var(--bd)}
-.rl:last-child{border-bottom:none}
-.rl:hover{text-decoration:underline}
-.footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
-@media(max-width:520px){.ph2{flex-direction:column;align-items:flex-start}}
-
-/* ── Global nav ── */
-.global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
-.gnav-wrap{max-width:720px;margin:0 auto;display:flex;align-items:center}
-.gnav-inner{flex:1;min-width:0;display:flex;align-items:center;gap:0;overflow-x:auto;scrollbar-width:none}
-.gnav-inner::-webkit-scrollbar{display:none}
-.gnav-home{font-size:13px;font-weight:600;color:var(--t1);text-decoration:none;padding:11px 12px 11px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:2px;flex-shrink:0}
-.gnav-home:hover{color:var(--teal-t)}
-.gnav-link{font-size:12px;font-weight:500;color:var(--t3);text-decoration:none;padding:11px 9px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
-.gnav-link:hover{color:var(--t1)}
-.gnav-link.active{color:var(--teal-t);border-bottom-color:var(--teal)}
-.gnav-toggle{flex-shrink:0;width:34px;height:34px;margin-left:8px;display:flex;align-items:center;justify-content:center;border:1.5px solid var(--bd);background:var(--bg2);color:var(--t2);cursor:pointer;border-radius:6px;font-family:var(--fn);font-size:14px;line-height:1;transition:background .12s,border-color .12s}
-.gnav-toggle:hover{background:var(--bg3);border-color:var(--bds);color:var(--t1)}
-html.dark .gnav-toggle{background:var(--bg2);border-color:var(--bd);color:var(--t1)}
-/* Manual dark override (toggle) */
-
-html.dark body{background:var(--bg3);color:var(--t1)}
-
-/* ── Global nav ── */
-.global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
-.gnav-wrap{max-width:720px;margin:0 auto;display:flex;align-items:center}
-.gnav-inner{flex:1;min-width:0;display:flex;align-items:center;gap:0;overflow-x:auto;scrollbar-width:none}
-.gnav-inner::-webkit-scrollbar{display:none}
-.gnav-home{font-size:13px;font-weight:600;color:var(--t1);text-decoration:none;padding:11px 12px 11px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:2px;flex-shrink:0}
-.gnav-home:hover{color:var(--teal-t)}
-.gnav-link{font-size:12px;font-weight:500;color:var(--t3);text-decoration:none;padding:11px 9px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
-.gnav-link:hover{color:var(--t1)}
-.gnav-link.active{color:var(--teal-t);border-bottom-color:var(--teal)}
-.gnav-toggle{flex-shrink:0;width:34px;height:34px;margin-left:8px;display:flex;align-items:center;justify-content:center;border:1.5px solid var(--bd);background:var(--bg2);color:var(--t2);cursor:pointer;border-radius:6px;font-family:var(--fn);font-size:14px;line-height:1;transition:background .12s,border-color .12s}
-.gnav-toggle:hover{background:var(--bg3);border-color:var(--bds);color:var(--t1)}
-html.dark .gnav-toggle{background:var(--bg2);border-color:var(--bd);color:var(--t1)}
-
-.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.5rem}
+body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem}
+.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.25rem}
 .page-header-eyebrow{font-size:11px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-t);margin-bottom:.25rem}
 .page-header-title{font-size:24px;font-weight:700;color:var(--t1);line-height:1.2;letter-spacing:-.02em;margin-bottom:.2rem}
 .page-header-sub{font-size:13px;color:var(--t2);line-height:1.5}
-/* Remove old top-nav bubble gap */
-.top-nav{display:none!important}
-
-.s-updated{
-  display:inline-flex;align-items:center;gap:5px;
-  background:#4c3bc4;color:#fff;
-  font-size:11px;font-weight:700;
-  padding:3px 10px;border-radius:999px;
-  letter-spacing:.03em;white-space:nowrap;
-  vertical-align:middle;margin-left:0
-}
-html.dark .s-updated{background:#6d5fe0;color:#fff}
-
-html.dark .s-updated{background:#2d2563;color:#b5abfa}
-
-.page{max-width:720px;margin:0 auto;padding:0 1rem}
-/* ensure page-header gets left padding from .page */
-.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.5rem}
-
-/* Layout */
-body{padding:0 0 2rem;margin:0}
-.page{max-width:720px;margin:0 auto;padding:0 1rem}
-.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.5rem}
-
-/* ════════════════════════════════════
-   THEME VARIABLES — What's Next for Erin
-   Light: Medium grey scale palette
-   Dark: Forest green palette
-   ════════════════════════════════════ */
-
-/* Light mode base */
-:root {
-  /* Grey scale (Medium palette) */
-  --bg:   #FAFAFA;   /* grey-50  — card white */
-  --bg2:  #F5F5F5;   /* grey-100 — subtle areas */
-  --bg3:  #EEEEEE;   /* grey-200 — page background */
-  --t1:   #212121;   /* grey-900 — primary text */
-  --t2:   #424242;   /* grey-800 — secondary text */
-  --t3:   #757575;   /* grey-600 — muted text */
-  --bd:   rgba(0,0,0,0.10);
-  --bds:  rgba(0,0,0,0.22);
-  /* Shared */
-  --r1:8px;--r2:12px;
-  --fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
-  /* Green accents (from original palette) */
-  --teal:#4e9836;--teal-bg:#eaf3e5;--teal-t:#3c7b20;
-  --blue:#3a7878;--blue-bg:#e5f0f0;
-  --amber:#8a6f00;--amber-bg:var(--amber-bg);--amber-t:var(--amber-t);
-  --red:#993c1d;--red-bg:var(--red-bg);--red-t:#993c1d;
-  --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
-}
-
-/* System dark mode (auto) */
-@media(prefers-color-scheme:dark) {
-  :root {
-    --bg:#1c2018;--bg2:#242b1e;--bg3:#18201a;
-    --t1:#f0ede0;--t2:#c0c4a8;--t3:#9dc8c8;
-    --bd:rgba(157,200,200,0.15);--bds:rgba(157,200,200,0.28);
-    --teal-bg:#2a3d22;--teal-t:#8fc87a;
-    --blue-bg:#1e3535;--amber-bg:#3d3510;--amber-t:#d4c47a;
-    --red-bg:#3d1510;--red-t:#f5a490;
-    --purple-bg:#2d2563;--purple-t:#b5abfa;
-  }
-}
-
-/* Manual toggle — must come LAST so it overrides both :root and @media */
-html.dark {
-  --bg:#1c2018;--bg2:#242b1e;--bg3:#18201a;
-  --t1:#f0ede0;--t2:#c0c4a8;--t3:#9dc8c8;
-  --bd:rgba(157,200,200,0.15);--bds:rgba(157,200,200,0.28);
-  --teal-bg:#2a3d22;--teal-t:#8fc87a;
-  --blue-bg:#1e3535;--amber-bg:#3d3510;--amber-t:#d4c47a;
-  --red-bg:#3d1510;--red-t:#f5a490;
-  --purple-bg:#2d2563;--purple-t:#b5abfa;
-}
-/* Override light mode when .dark is set (belt AND suspenders) */
-html:not(.dark) {
-  --bg:#FAFAFA;--bg2:#F5F5F5;--bg3:#EEEEEE;
-  --t1:#212121;--t2:#424242;--t3:#757575;
-  --bd:rgba(0,0,0,0.10);--bds:rgba(0,0,0,0.22);
-  --teal-bg:#eaf3e5;--teal-t:#3c7b20;
-  --blue-bg:#e5f0f0;--amber-bg:var(--amber-bg);--amber-t:var(--amber-t);
-  --red-bg:var(--red-bg);--red-t:#993c1d;
-  --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
-}.card-urgent{border-left:3px solid var(--teal)!important}
-.card-deadline{border-left:3px solid var(--red)!important}
-
-/* Page search bar */
-.page-search-wrap{display:flex;align-items:center;gap:.5rem;margin-bottom:1.25rem;padding:.5rem .75rem;background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r1)}
-.page-search-icon{font-size:14px;color:var(--t3);flex-shrink:0}
-.page-search-input{flex:1;border:none;background:transparent;outline:none;font-size:13px;color:var(--t1);font-family:var(--fn)}
-.page-search-input::placeholder{color:var(--t3)}
-.page-search-clear{font-size:12px;color:var(--t3);background:none;border:none;cursor:pointer;font-family:var(--fn);flex-shrink:0;display:none}
-.page-search-count{font-size:11px;color:var(--t3);flex-shrink:0;white-space:nowrap}
-.search-hidden{display:none!important}
-
+.footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
+.sec-label{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin:1.25rem 0 .6rem;display:flex;align-items:center;gap:.5rem}
+.sec-count{font-weight:400}
+.item-actions{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin-top:.25rem}
+.act-btn{font-size:12px;color:var(--t3);background:none;border:none;cursor:pointer;padding:0;font-family:var(--fn)}
+.act-btn:hover{color:var(--t1)}
+.browse-card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:.85rem 1.1rem;margin-bottom:.5rem}
+.browse-card.is-saved{border:1.5px solid var(--teal)}
+.browse-title{font-size:14px;font-weight:500;color:var(--t1);line-height:1.4;margin-bottom:1px}
+.browse-org{font-size:12px;color:var(--t3);margin-bottom:.3rem}
+.browse-meta{font-size:12px;color:var(--t2);margin-bottom:.35rem}
+.search-input{font-size:13px;padding:8px 12px;border-radius:var(--r1);border:1px solid var(--bds);background:var(--bg);color:var(--t1);width:100%;font-family:var(--fn);margin-bottom:.85rem}
+.search-input:focus{outline:none;border-color:var(--teal)}
+.empty{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:2.5rem;text-align:center}
+/* Rich detail panel */
+.item-detail{display:none;margin-top:.75rem;padding:.85rem 1rem;background:var(--bg2);border-radius:var(--r1);border:.5px solid var(--bd)}
+.item-detail.open{display:block}
+.id-badge{display:inline-block;font-size:11px;font-weight:600;padding:2px 9px;border-radius:999px;background:var(--teal-bg);color:var(--teal-t);margin-bottom:.55rem}
+.id-section-label{font-size:10px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin:.6rem 0 .2rem}
+.id-body{font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.5rem}
+.id-meta-row{display:flex;gap:1.5rem;flex-wrap:wrap;margin-bottom:.5rem}
+.id-meta-item{font-size:12px;color:var(--t2)}
+.id-pills{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:.5rem}
+.id-pill{font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px;background:var(--teal-bg);color:var(--teal-t)}
+.id-link{display:inline-block;font-size:12px;font-weight:500;color:var(--teal-t);text-decoration:none;margin-top:.4rem;padding:4px 10px;border:1px solid var(--teal);border-radius:6px}
+.id-link-primary{background:var(--teal);color:#fff;font-weight:600}
+.id-link-primary:hover{opacity:.88}
+.id-link:hover{background:var(--teal-bg)}
+  .global-nav, .gnav-inner, button, .add-btn, .del-btn, .save-btn,
+  .mode-tabs, .list-filters, .browse-actions, .item-actions, .note-area,
+  .saved-flash, .app-row, .app-actions, footer, .footer { display:none!important }
+.bx-fgroup{display:flex;align-items:center;gap:4px;flex-wrap:wrap;margin:.15rem 0}
+.bx-flabel{font-size:10px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--t3);min-width:62px}
+.bx-chip{font-size:12px;padding:3px 11px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn)}
+.bx-chip.on{background:var(--teal);color:#fff;border-color:var(--teal);font-weight:600}
+.bx-chip:not(.on):hover{background:var(--bg2);color:var(--t1)}
+.bx-sec{font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--t3);margin:1rem 0 .5rem;display:flex;align-items:center;gap:8px}
+.bx-sec .n{background:var(--bg2);color:var(--t2);border-radius:999px;padding:1px 8px;font-size:11px}
+.bx-saved{font-size:10px;font-weight:700;padding:2px 8px;border-radius:999px;background:var(--teal-bg);color:var(--teal-t);white-space:nowrap}
+.bx-new{font-size:10px;font-weight:800;padding:2px 9px;border-radius:999px;background:#d63a1f;color:#fff;white-space:nowrap;letter-spacing:.04em;box-shadow:0 0 0 2px rgba(214,58,31,.2)}
+html.dark .bx-new{background:#ff5a3c;color:#1a1a1a}
+.browse-card.is-new{border-left:3px solid #d63a1f}
+.bx-urg{font-size:10px;font-weight:700;padding:2px 8px;border-radius:999px;white-space:nowrap}
+.u0{background:var(--red-bg);color:#993c1d}.u1{background:var(--amber-bg);color:var(--amber-t)}
+.u2{background:var(--teal-bg);color:var(--teal-t)}.u3{background:var(--blue-bg);color:var(--blue)}
+.u4{background:var(--bg2);color:var(--t3)}.u5{background:var(--bg2);color:var(--t3)}
+.bx-fwrap{display:flex;flex-direction:column;gap:2px;width:100%}
 </style>
-
 <script>
 (function(){
   var saved=localStorage.getItem('erin_theme');
@@ -203,669 +70,81 @@ html:not(.dark) {
   window.__toggleTheme=function(){var d=document.documentElement.classList.toggle('dark');localStorage.setItem('erin_theme',d?'dark':'light');upBtn();};
 })();
 </script>
+<script src="site.js?v=20260518e"></script>
 </head>
 <body>
-
 <!-- GLOBAL NAV -->
 <nav class="global-nav">
   <div class="gnav-wrap">
     <div class="gnav-inner">
       <a href="index.html" class="gnav-home">&#127968; Home</a>
-    <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
-    <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
-    <a href="erin_applications.html" class="gnav-link">&#128196; Applications</a>
-    <a href="erin_proftracker.html" class="gnav-link">&#128100; Professors</a>
-    <a href="erin_reftracker.html" class="gnav-link">&#128393; References</a>
-    <a href="erin_writing_samples.html" class="gnav-link">&#9997; Writing</a>
-    <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
+      <a href="erin_search.html" class="gnav-link">&#128269; Search</a>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-track">Track</span>
+        <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
+        <a href="erin_compare.html" class="gnav-link">&#9878; Compare</a>
+        <a href="erin_pipeline.html" class="gnav-link">&#128202; Pipeline</a>
+        <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
+        <a href="erin_applications.html" class="gnav-link">&#128196; Apps</a>
+        <a href="erin_proftracker.html" class="gnav-link">&#128100; Profs</a>
+        <a href="erin_reftracker.html" class="gnav-link">&#128393; Refs</a>
+        <a href="erin_archive.html" class="gnav-link">&#128193; Archive</a>
+      </div>
+      <span class="gnav-divider gnav-break"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-browse">Browse</span>
+        <a href="erin_programs.html" class="gnav-link">&#127979; Programs</a>
+        <a href="erin_internships.html" class="gnav-link">&#128203; Internships</a>
+        <a href="erin_jobs.html" class="gnav-link">&#128188; Jobs</a>
+        <a href="erin_service.html" class="gnav-link">&#127807; Service</a>
+      </div>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-write">Write</span>
+        <a href="erin_materials.html" class="gnav-link">&#128218; Materials</a>
+        <a href="erin_writing_samples.html" class="gnav-link">&#9997; Writing</a>
+        <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
+        <a href="erin_packet.html" class="gnav-link">&#128424; Packet</a>
+      </div>
     </div>
     <button class="gnav-toggle" id="theme-toggle" onclick="__toggleTheme()" title="Toggle dark/light mode">&#127769;</button>
   </div>
 </nav>
-
 <div class="page">
-
 <div class="page-header">
-  <div class="page-header-eyebrow">What's Next for Erin</div>
+  <div class="page-header-eyebrow">What&rsquo;s Next for Erin</div>
   <div class="page-header-title">Funded Graduate Programs</div>
-  <div class="page-header-sub">Current-cycle funded MS positions — Erin&rsquo;s strongest matches</div>
+  <div class="page-header-sub">Current &amp; next-cycle MS/PhD positions — sorted by urgency; filter by status, cycle, fit.</div>
 </div>
-<a href="erin_programs_next.html" style="display:flex;align-items:center;gap:.85rem;background:var(--bg);border:1.5px solid var(--teal);border-radius:var(--r2);padding:.9rem 1.25rem;text-decoration:none;color:var(--t1);margin-bottom:1.5rem;transition:background .12s">
-  <span style="font-size:20px">🔄</span>
-  <div style="flex:1">
-    <div style="font-size:14px;font-weight:500;color:var(--t1);margin-bottom:2px">Next cycle — Fall 2027 &amp; beyond</div>
-    <div style="font-size:12px;color:var(--t3)">AI-generated forward-looking programs for an Aug/Sep 2026+ applicant &middot; Updated each visit</div>
-  </div>
-  <span style="font-size:16px;color:var(--teal);margin-left:auto">&#8594;</span>
-</a>
-
-<div class="slabel">About funded MS programs</div>
-<div class="card">
-  <div class="card-title">Research &amp; Teaching Assistantships &mdash; how they work</div>
-  <div class="card-body">
-    <p style="margin-bottom:.75rem">A <strong style="font-weight:500">Research Assistantship (RA)</strong> means working on a professor's funded research project. In exchange: full tuition waiver + annual stipend ($18k&ndash;$35k depending on school) + health insurance. A <strong style="font-weight:500">Teaching Assistantship (TA)</strong> means helping teach undergrad courses &mdash; same package. Both are most common at the PhD level but many MS programs offer them, especially thesis-track MS degrees at R1 universities.</p>
-    <p><strong style="font-weight:500">Most important action:</strong> email professors directly before applying. Many funded MS positions are filled through personal contact and never publicly posted. A short, targeted email referencing a professor's specific research and explaining how Erin's background connects is the single highest-leverage action she can take.</p>
-  </div>
+<div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.6rem;flex-wrap:wrap">
+  <input id="bs" type="search" class="search-input" placeholder="Search funded graduate programs…" style="flex:1;margin-bottom:0">
+  <div id="browse-filters" style="display:flex;gap:4px;flex-wrap:wrap"></div>
 </div>
-
-
-<div style="margin-bottom:1.25rem">
-  <a href="erin_outreach.html" style="display:flex;align-items:center;gap:.75rem;background:var(--bg);border:2px solid var(--blue);border-radius:var(--r2);padding:.9rem 1.25rem;text-decoration:none;color:var(--t1)">
-    <span style="font-size:18px">&#9997;</span>
-    <div>
-      <div style="font-size:14px;font-weight:500;color:var(--t1);margin-bottom:2px">Statement of purpose &amp; outreach emails</div>
-      <div style="font-size:12px;color:var(--t3)">Full SOP draft &middot; Faculty outreach templates incl. NC State / Dr. Forrester &middot; Writing strategy guide</div>
-    </div>
-    <span style="font-size:16px;color:var(--blue);margin-left:auto">&#8594;</span>
-  </a>
+<div id="browse-body"></div>
+<p class="footer">Live opportunities, sorted by urgency. Saving is gated to Erin&rsquo;s primary device.<br><br><a href="index.html" style="color:var(--blue)">&#8592; Back to home</a></p>
 </div>
-
-<div class="page-search-wrap" id="psr-wrap">
-  <span class="page-search-icon">&#128269;</span>
-  <input class="page-search-input" id="psr-input" type="text" placeholder="Search this page..." oninput="pageSearch(this.value)">
-  <span class="page-search-count" id="psr-count"></span>
-  <button class="page-search-clear" id="psr-clear" onclick="pageSearch('');document.getElementById('psr-input').value=''">&#10005; Clear</button>
-</div>
-<div class="slabel">Application deadline quick reference</div>
-<div class="card" style="padding:1rem">
-  <table style="width:100%;border-collapse:collapse;font-size:13px">
-    <thead>
-      <tr>
-        <th style="font-size:11px;font-weight:500;letter-spacing:.04em;text-transform:uppercase;color:var(--t3);text-align:left;padding:0 8px 8px 0;border-bottom:.5px solid var(--bd)">Program</th>
-        <th style="font-size:11px;font-weight:500;letter-spacing:.04em;text-transform:uppercase;color:var(--t3);text-align:left;padding:0 8px 8px 0;border-bottom:.5px solid var(--bd)">Fall deadline (funding)</th>
-        <th style="font-size:11px;font-weight:500;letter-spacing:.04em;text-transform:uppercase;color:var(--t3);text-align:left;padding:0 0 8px 0;border-bottom:.5px solid var(--bd)">Spring deadline</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td style="padding:7px 8px 7px 0;border-bottom:.5px solid var(--bd);color:var(--t1);font-weight:500;white-space:nowrap">NC State &mdash; Forestry &amp; Env. Resources</td><td style="padding:7px 8px 7px 0;border-bottom:.5px solid var(--bd);color:var(--t2)"><strong style="color:#993c1d">Jan 31</strong> (aid); Jun 25 (adm. only)</td><td style="padding:7px 0 7px 0;border-bottom:.5px solid var(--bd);color:var(--t2)">Sep 30 (aid); Nov 25 (adm. only)</td></tr>
-      <tr><td style="padding:7px 8px 7px 0;border-bottom:.5px solid var(--bd);color:var(--t1);font-weight:500;white-space:nowrap">NC State &mdash; Fisheries, Wildlife &amp; Cons. Bio.</td><td style="padding:7px 8px 7px 0;border-bottom:.5px solid var(--bd);color:var(--t2)"><strong style="color:#993c1d">Jan 15</strong> (funding priority)</td><td style="padding:7px 0 7px 0;border-bottom:.5px solid var(--bd);color:var(--t2)">Oct 15</td></tr>
-      <tr><td style="padding:7px 8px 7px 0;border-bottom:.5px solid var(--bd);color:var(--t1);font-weight:500;white-space:nowrap">Colorado State &mdash; Ecosystem Science &amp; Sustainability</td><td style="padding:7px 8px 7px 0;border-bottom:.5px solid var(--bd);color:var(--t2)"><strong style="color:#993c1d">Feb 1</strong> (preferred, full funding)</td><td style="padding:7px 0 7px 0;border-bottom:.5px solid var(--bd);color:var(--t2)">Contact dept.</td></tr>
-      <tr><td style="padding:7px 8px 7px 0;border-bottom:.5px solid var(--bd);color:var(--t1);font-weight:500;white-space:nowrap">Colorado State &mdash; Ecology (GDPE)</td><td style="padding:7px 8px 7px 0;border-bottom:.5px solid var(--bd);color:var(--t2)"><strong style="color:#993c1d">Dec 1</strong> for full consideration</td><td style="padding:7px 0 7px 0;border-bottom:.5px solid var(--bd);color:var(--t2)">Contact dept.</td></tr>
-      <tr><td style="padding:7px 8px 7px 0;border-bottom:.5px solid var(--bd);color:var(--t1);font-weight:500;white-space:nowrap">LSU &mdash; Oceanography &amp; Coastal Sciences</td><td style="padding:7px 8px 7px 0;border-bottom:.5px solid var(--bd);color:var(--t2)"><strong style="color:#993c1d">Feb 15</strong> (target; later may qualify)</td><td style="padding:7px 0 7px 0;border-bottom:.5px solid var(--bd);color:var(--t2)">Oct 15</td></tr>
-      <tr><td style="padding:7px 8px 7px 0;border-bottom:.5px solid var(--bd);color:var(--t1);font-weight:500;white-space:nowrap">LSU &mdash; must complete pre-application first</td><td style="padding:7px 8px 7px 0;border-bottom:.5px solid var(--bd);color:var(--t2)">Formal deadline: <strong style="color:#993c1d">May 15</strong> (guarantee)</td><td style="padding:7px 0 7px 0;border-bottom:.5px solid var(--bd);color:var(--t2)">Oct 15</td></tr>
-      <tr><td style="padding:7px 8px 7px 0;border-bottom:.5px solid var(--bd);color:var(--t1);font-weight:500;white-space:nowrap">MSU &mdash; Forestry / Forest Hydrology &amp; Soils</td><td style="padding:7px 8px 7px 0;border-bottom:.5px solid var(--bd);color:var(--t2)"><strong style="color:#993c1d">Dec 1</strong> domestic / Oct 1 international (Siegert Lab)</td><td style="padding:7px 0 7px 0;border-bottom:.5px solid var(--bd);color:var(--t2)">Contact dept.</td></tr>
-      <tr><td style="padding:7px 8px 7px 0;border-bottom:.5px solid var(--bd);color:var(--t1);font-weight:500;white-space:nowrap">MSU &mdash; Geosystems Research Institute (GRI)</td><td style="padding:7px 8px 7px 0;border-bottom:.5px solid var(--bd);color:var(--t2)">Spring or <strong style="color:#993c1d">Fall 2026</strong> (contact GRI directly)</td><td style="padding:7px 0 7px 0;border-bottom:.5px solid var(--bd);color:var(--t2)">Spring 2026 available</td></tr>
-      <tr><td style="padding:7px 8px 7px 0;border-bottom:.5px solid var(--bd);color:var(--t1);font-weight:500;white-space:nowrap">Clemson &mdash; Elmore Lab (bird/Helene)</td><td style="padding:7px 8px 7px 0;border-bottom:.5px solid var(--bd);color:var(--t2)">Rolling; <strong style="color:#993c1d">apply immediately</strong> &mdash; Jan/May 2026 start</td><td style="padding:7px 0 7px 0;border-bottom:.5px solid var(--bd);color:var(--t2)">Rolling</td></tr>
-      <tr><td style="padding:7px 8px 7px 0;border-bottom:.5px solid var(--bd);color:var(--t1);font-weight:500;white-space:nowrap">University of Wyoming &mdash; Haub School / CFWRU</td><td style="padding:7px 8px 7px 0;border-bottom:.5px solid var(--bd);color:var(--t2)"><strong style="color:#993c1d">Mar 1</strong> priority (Haub); CFWRU rolling</td><td style="padding:7px 0 7px 0;border-bottom:.5px solid var(--bd);color:var(--t2)">Contact dept.</td></tr>
-      <tr><td style="padding:7px 8px 7px 0;border-bottom:.5px solid var(--bd);color:var(--t1);font-weight:500;white-space:nowrap">UWyo &mdash; Wildfire/LiDAR MS</td><td style="padding:7px 8px 7px 0;border-bottom:.5px solid var(--bd);color:var(--t2)">Fall 2026; contact lab to verify</td><td style="padding:7px 0 7px 0;border-bottom:.5px solid var(--bd);color:var(--t2)">&mdash;</td></tr>
-      <tr><td style="padding:7px 8px 7px 0;border-bottom:.5px solid var(--bd);color:var(--t1);font-weight:500;white-space:nowrap">Auburn ACFWRU / UGA SREL / USM GCRL</td><td style="padding:7px 8px 7px 0;border-bottom:.5px solid var(--bd);color:var(--t2)">Varies by position &mdash; contact faculty first</td><td style="padding:7px 0 7px 0;border-bottom:.5px solid var(--bd);color:var(--t2)">Varies</td></tr>
-    </tbody>
-  </table>
-  <div style="font-size:12px;color:var(--t3);margin-top:.75rem">&#9888;&nbsp; For RA-funded positions, the deadline to <strong style="font-weight:500;color:var(--t2)">contact the professor directly</strong> is always earlier than the formal application deadline &mdash; typically 1&ndash;3 months before. Many funded spots are committed before applications open.</div>
-</div>
-
-<hr>
-<div class="slabel">Programs by focus area</div>
-
-<div class="card card-deadline">
-  <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:.5rem;margin-bottom:.5rem">
-    <div>
-      <div style="font-size:15px;font-weight:500;color:var(--t1)"><span class="status-badge s-updated">&#10024; New &mdash; May 16, 2026</span> Oklahoma State University &mdash; Watershed Hydrology &amp; Rangeland Ecology (2 MS) </div>
-      <div style="font-size:12px;color:var(--t3);margin-top:2px">Stillwater, OK &middot; Environmental Science Graduate Program</div>
-    </div>
-    <div style="display:flex;flex-wrap:wrap;gap:5px">
-      <span style="background:var(--red-bg);color:#993c1d;font-size:11px;font-weight:700;padding:3px 10px;border-radius:999px">&#9888; Deadline May 15 &mdash; URGENT</span>
-      <span style="background:var(--teal-bg);color:var(--teal-t);font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px">Exceptional fit</span>
-    </div>
-  </div>
-  <div style="font-size:12px;color:var(--t2);margin-bottom:.5rem">
-    <strong>Start:</strong> May 27&ndash;June 5, 2026 &nbsp;&middot;&nbsp; <strong>Funding:</strong> Full stipend + tuition waiver + health insurance
-  </div>
-  <div style="font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.65rem">
-    Two fully funded MS assistantships for an interdisciplinary watershed conservation project in the Neosho River Watershed of northeastern Oklahoma &mdash; which includes the Tar Creek Superfund Site, one of the most historically significant mining-contaminated landscapes in the US. <strong>Position 1 (Ecology/Rangeland):</strong> wildlife habitat assessment, species of conservation need, restoration planning. <strong>Position 2 (Hydrology/GIS):</strong> watershed hydrology, site suitability modeling, flood mitigation, conservation planning. The contaminated watershed + GIS + field ecology combination is a direct methodological parallel to Erin&rsquo;s Pigeon River lead contamination capstone. Advisors: Dr. Scott Stoodley &amp; Dr. Jaime Schussler.
-  </div>
-  <div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:.65rem">
-    <span style="background:var(--teal-bg);color:var(--teal-t);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Watershed hydrology</span>
-    <span style="background:var(--blue-bg);color:var(--blue);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">GIS &amp; site suitability</span>
-    <span style="background:var(--amber-bg);color:var(--amber-t);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Contaminated sites</span>
-    <span style="background:var(--teal-bg);color:var(--teal-t);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Wildlife habitat assessment</span>
-  </div>
-  <div style="display:flex;gap:.75rem;flex-wrap:wrap;align-items:center">
-    <!-- ML_BTN_item-074 --><button class="ml-save-btn" data-id="item-074" data-item="{&quot;title&quot;:&quot;Oklahoma State University — Watershed Hydrology & Rangeland Ecology (2 MS positions)&quot;,&quot;org&quot;:&quot;Stillwater, OK · Environmental Science Graduate Program&quot;,&quot;type&quot;:&quot;Graduate Program&quot;,&quot;cat&quot;:&quot;Funded Graduate Programs&quot;,&quot;src&quot;:&quot;erin_programs.html&quot;,&quot;src_label&quot;:&quot;Funded Graduate Programs&quot;,&quot;deadline&quot;:&quot;May 15, 2026 — URGENT&quot;,&quot;start&quot;:&quot;May 27–June 5, 2026&quot;,&quot;body&quot;:&quot;Two fully funded MS assistantships — Neosho River Watershed, Oklahoma. Tar Creek Superfund Site contamination context. Position 1: Ecology/Rangeland — wildlife habitat, species of conservation need. Position 2: Hydrology/GIS — site suitability modeling, flood mitigation. Full stipend + tuition waiver + health insurance. Advisors: Dr. Scott Stoodley & Dr. Jaime Schussler. Email: esgp@okstate.edu&quot;,&quot;badge&quot;:&quot;Exceptional fit — URGENT, deadline May 15&quot;,&quot;pills&quot;:[&quot;Watershed hydrology&quot;,&quot;GIS & site suitability&quot;,&quot;Contaminated sites&quot;,&quot;Wildlife habitat assessment&quot;],&quot;id&quot;:&quot;item-074&quot;}">&#9734; Save to My List</button>
-    <a href="https://www.conservationjobboard.com/job-listing-oklahoma-state-university---graduate-research-assistantships-2---ms-environmental-science-range-ecologyhydrology-stillwater-oklahoma/1051514597" target="_blank" style="font-size:12px;color:var(--blue)">View full posting &#8594;</a>
-    <span style="font-size:11px;color:var(--t3)">Email materials to: esgp@okstate.edu</span>
-  </div>
-</div>
-
-<div style="font-size:12px;color:var(--t3);margin-bottom:1rem">
-  <span style="display:inline-flex;align-items:center;gap:4px;margin-right:12px"><span class="status-badge s-open" style="margin:0">Verified open</span> position confirmed active as of May 2026</span>
-  <span style="display:inline-flex;align-items:center;gap:4px;margin-right:12px"><span class="status-badge s-check" style="margin:0">Verify status</span> posted but may be filled</span>
-  <span style="display:inline-flex;align-items:center;gap:4px"><span class="status-badge s-new" style="margin:0">New find</span> identified in current search, not in prior list</span>
-</div>
-
-<div class="tabs">
-  <button class="tab active" onclick="showTab('wetlands',this)">Wetlands &amp; water</button>
-  <button class="tab" onclick="showTab('wildlife',this)">Wildlife &amp; ecology</button>
-  <button class="tab" onclick="showTab('colorado',this)">Colorado &amp; Mountain West</button>
-  <button class="tab" onclick="showTab('south',this)">Southern US</button>
-</div>
-
-<!-- ===== WETLANDS TAB ===== -->
-<div id="tab-wetlands" class="psec active">
-  <div class="tip">Best fit for Erin's wetland delineation fieldwork, water sampling, toxicology coursework, and the Hurricane Helene lead analysis project.</div>
-
-  <!-- CSU Wetlands -->
-  <div class="pc2 ft">
-    <div class="ph2"><div><span class="status-badge s-updated">&#10024; Updated &mdash; May 16, 2026</span><br>
-<div class="pn">Colorado State University <span class="status-badge s-open">Verified open</span></div><div class="pl">Fort Collins, CO &middot; Ecosystem Science &amp; Sustainability / Ecology</div></div><span class="badge ms">Strong fit</span></div>
-    <div class="pb2">Active MS/PhD position in the Landscape Modeling Lab (Aug 2026 start) on remote sensing of wetland dynamics in interior and coastal systems, wetland conversion and loss in the Prairie Pothole Region. Fieldwork includes vegetation, water, and near-surface remote sensing data. Also the Water, Environment &amp; Society group seeks a student on water governance. 40&ndash;50 active assistantships per semester across departments.</div>
-    <div class="slinks">
-      <a class="sl2" href="https://warnercnr.colostate.edu/ess/graduate-programs/graduate-research-opportunities/">&#128269; CSU active grad opportunities page</a>
-      <a class="sl2" href="https://ecology.colostate.edu/assistantships/">&#128269; CSU Ecology assistantships</a>
-    </div>
-    <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
-    <div class="more-panel">
-      <h4>Confirmed open position (Aug 2026)</h4>
-      <p>The Landscape Modeling Lab seeks a graduate student for a funded project on remote sensing models of wetland conversion and loss in the Prairie Pothole Region (ND, SD, MN, IA, MO). Fieldwork includes vegetation surveys, water sampling, and near-surface remote sensing. The student will lead a field team and coordinate with landowners for site access. Degree: MS or PhD in Ecosystem Science &amp; Sustainability or Graduate Degree Program in Ecology.</p>
-      <h4>Application details</h4>
-      <div style="background:var(--red-bg);border:1px solid var(--teal);border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:var(--red-t)">
-  &#9888; Deadline passed (Dec 1, 2025) — this position is in the next cycle. Check erin_programs_next.html.
-</div>
-<div class="detail-row"><span class="detail-label">Deadline</span>Dec 1, 2025 for full consideration; no later than Feb 1, 2026</div>
-      <div class="detail-row"><span class="detail-label">Start date</span>August 2026</div>
-      <div class="detail-row"><span class="detail-label">GRE required</span>Not required</div>
-      <div class="detail-row"><span class="detail-label">&#128197; Ecosystem Science &amp; Sustainability</span><strong style="color:#993c1d">February 1</strong> preferred for full funding consideration</div>
-      <div class="detail-row"><span class="detail-label">&#128197; Ecology (GDPE)</span><strong style="color:#993c1d">December 1</strong> for full funding consideration</div>
-      <div class="detail-row"><span class="detail-label">Apply via</span>CSU Graduate School Admissions portal; contact lab directly first</div>
-      <h4>Also relevant: Water, Environment &amp; Society Group</h4>
-      <p>Researches governance of water and natural resources at local, regional, and transboundary scales. Topics include water-energy-food governance, groundwater sustainability, and climate adaptation. PhD track; Watershed Science program.</p>
-      <h4>How to apply</h4>
-      <div class="contact-block">Email the Landscape Modeling Lab via the <a href="https://warnercnr.colostate.edu/ess/graduate-programs/graduate-research-opportunities/">CSU grad opportunities page</a>. Include: statement of purpose addressing research interests, CV/resume with field work and leadership experience, and whether you have a valid driver's license.</div>
-    
-<button class="ml-save-btn" data-id="item-009" data-item="{&quot;title&quot;: &quot;Colorado State University&quot;, &quot;org&quot;: &quot;Fort Collins, CO · Multiple departments&quot;, &quot;type&quot;: &quot;Graduate Program&quot;, &quot;cat&quot;: &quot;Funded Graduate Programs&quot;, &quot;src&quot;: &quot;erin_programs.html&quot;, &quot;src_label&quot;: &quot;Funded Graduate Programs&quot;, &quot;deadline&quot;: &quot;&quot;, &quot;start&quot;: &quot;&quot;, &quot;body&quot;: &quot;The single strongest overall match. Active MS/PhD openings in wetland remote sensing (Landscape Modeling Lab, Aug 2026) and water governance research (Water, Environment & Society Group). 40–50 active assistantships per semester across Ecosystem Science, Ecology, and related departments. Full fee...&quot;, &quot;badge&quot;: &quot;Top recommendation&quot;, &quot;pills&quot;: [], &quot;id&quot;: &quot;item-009&quot;}">&#9734; Save to My List</button></div>
-  
-<button class="ml-save-btn" data-id="item-000" data-item="{&quot;title&quot;: &quot;Colorado State University&quot;, &quot;org&quot;: &quot;Fort Collins, CO · Ecosystem Science & Sustainability / Ecology&quot;, &quot;type&quot;: &quot;Graduate Program&quot;, &quot;cat&quot;: &quot;Funded Graduate Programs&quot;, &quot;src&quot;: &quot;erin_programs.html&quot;, &quot;src_label&quot;: &quot;Funded Graduate Programs&quot;, &quot;deadline&quot;: &quot;Dec 1, 2025 for full consideration; no later than Feb 1, 2026&quot;, &quot;start&quot;: &quot;&quot;, &quot;body&quot;: &quot;Active MS/PhD position in the Landscape Modeling Lab (Aug 2026 start) on remote sensing of wetland dynamics in interior and coastal systems, wetland conversion and loss in the Prairie Pothole Region. Fieldwork includes vegetation, water, and near-surface remote sensing data. Also the Water, Envir...&quot;, &quot;badge&quot;: &quot;Strong fit&quot;, &quot;pills&quot;: [], &quot;id&quot;: &quot;item-000&quot;}">&#9734; Save to My List</button></div>
-
-  <!-- LSU -->
-  <div class="pc2">
-    <div class="ph2"><div><div class="pn">Louisiana State University &mdash; WABL <span class="status-badge s-open">Verified open</span></div><div class="pl">Baton Rouge, LA &middot; Dept. of Oceanography &amp; Coastal Sciences</div></div><span class="badge mg">Good fit</span></div>
-    <div class="pb2">Dr. John White's Wetland and Aquatic Biogeochemistry Laboratory (WABL) has a PhD assistantship available for Fall 2026 focused on coastal wetland systems. MS minimum stipend $23,000/yr; PhD $31,000/yr. Research spans freshwater and coastal wetlands, lakes, estuaries, nutrient cycling, and contaminant biogeochemistry &mdash; strong match for Erin's water quality and contaminated rivers background.</div>
-    <div class="slinks">
-      <a class="sl2" href="https://faculty.lsu.edu/whitelab/">&#128269; LSU WABL lab website</a>
-      <a class="sl2" href="https://faculty.lsu.edu/whitelab/graduateassistantships.php">&#128269; WABL assistantships page</a>
-    </div>
-    <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
-    <div class="more-panel">
-      <h4>Lab &amp; research focus</h4>
-      <p>The Wetland and Aquatic Biogeochemistry Laboratory (WABL) investigates biogeochemical cycling of nutrients and contaminants in freshwater and coastal wetlands, lakes, estuaries, and coastal environments. Located within LSU's College of the Coast &amp; Environment. Recent MS research has focused on: wetland plant nitrogen uptake across salinity gradients in the Mississippi River Delta, thin layer dredge impacts on mangrove soil biogeochemistry, and drought impacts on coastal marsh health.</p>
-      <h4>Funding details</h4>
-      <div class="detail-row"><span class="detail-label">MS stipend</span>$23,000/yr minimum (2025 rate)</div>
-      <div class="detail-row"><span class="detail-label">PhD stipend</span>$31,000/yr minimum</div>
-      <div class="detail-row"><span class="detail-label">Tuition</span>Full waiver + non-resident fee waiver</div>
-      <div class="detail-row"><span class="detail-label">Health insurance</span>75% of premium covered</div>
-      <div class="detail-row"><span class="detail-label">Extra</span>Internship hours with LA Coastal Protection &amp; Restoration Authority</div>
-      <div class="detail-row"><span class="detail-label">&#128197; Fall deadline (target)</span><strong style="color:#993c1d">February 15</strong> for funding consideration; formal deadline May 15</div>
-      <div class="detail-row"><span class="detail-label">&#128197; Spring deadline</span>October 15</div>
-      <div class="detail-row"><span class="detail-label">&#9888; Pre-application required</span>Complete free DOCS pre-application at lsu.edu/cce BEFORE formal application</div>
-      <h4>Key qualifier</h4>
-      <p>LSU's College of the Coast &amp; Environment funds all students through faculty research grants. You <strong style="font-weight:500">must contact a faculty member and secure their commitment before submitting a formal application</strong>. Do not apply without a faculty sponsor.</p>
-      <h4>Contact</h4>
-      <div style="background:var(--red-bg);border:1px solid var(--teal);border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:var(--red-t)">
-  &#9888; Funding deadline passed (Feb 15, 2026) — see next cycle for Feb 2027 application.
-</div>
-<div style="background:var(--red-bg);border:1px solid var(--teal);border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:var(--red-t)">
-  &#9888; Funding deadline passed (Feb 15, 2026) — see next cycle for Feb 2027 application.
-</div>
-<div class="contact-block">Dr. John White &mdash; <a href="mailto:jrwhite@lsu.edu">jrwhite@lsu.edu</a><br>Include: CV + completed pre-application form at <a href="https://lsu.edu/cce/academics/graduate/docs/docs-admissions.php">lsu.edu/cce/academics/graduate</a></div>
-      <h4>Also at LSU: aquatic biology &amp; crayfish ecology</h4>
-      <p>Dr. Kaelyn Fogelman's new lab in the School of Renewable Natural Resources has a funded MS/PhD assistantship (Jan or May 2026 start) on crayfish and unionid mussels responding to environmental stress. MS stipend $28,000/yr; PhD $31,000/yr + full tuition + 75% health insurance. Contact: <a href="mailto:kfogelman@agcenter.lsu.edu" style="color:var(--blue)">kfogelman@agcenter.lsu.edu</a></p>
-    
-<!-- ML_BTN_item-016 --><button class="ml-save-btn" data-id="item-016" data-item="{&amp;quot;title&amp;quot;: &amp;quot;Louisiana State University \u2014 WABL &amp; Coastal Sciences&amp;quot;, &amp;quot;org&amp;quot;: &amp;quot;Baton Rouge, LA \u00b7 Dept. of Oceanography &amp; Coastal Sciences&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;Graduate Program&amp;quot;, &amp;quot;cat&amp;quot;: &amp;quot;Funded Graduate Programs&amp;quot;, &amp;quot;src&amp;quot;: &amp;quot;erin_programs.html&amp;quot;, &amp;quot;src_label&amp;quot;: &amp;quot;Funded Graduate Programs&amp;quot;, &amp;quot;deadline&amp;quot;: &amp;quot;&amp;quot;, &amp;quot;start&amp;quot;: &amp;quot;&amp;quot;, &amp;quot;body&amp;quot;: &amp;quot;Dr. John White's WABL lab has a PhD assistantship available for Fall 2026 in coastal wetland biogeochemistry. Also, Dr. Kaelyn Fogelman's new lab has a funded MS/PhD position on crayfish &amp; unionid mussels responding to environmental stress (Jan or May 2026). MS minimum stipend $23,000\u2013$28,000/yr....&amp;quot;, &amp;quot;badge&amp;quot;: &amp;quot;Deadline passed \u2014 see next cycle&amp;quot;, &amp;quot;pills&amp;quot;: [], &amp;quot;id&amp;quot;: &amp;quot;item-016&amp;quot;}">&#9734; Save to My List</button></div>
-  
-<!-- ML_BTN_item-001 --><button class="ml-save-btn" data-id="item-001" data-item="{&amp;quot;title&amp;quot;: &amp;quot;Louisiana State University \u2014 WABL&amp;quot;, &amp;quot;org&amp;quot;: &amp;quot;Baton Rouge, LA \u00b7 Dept. of Oceanography &amp; Coastal Sciences&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;Graduate Program&amp;quot;, &amp;quot;cat&amp;quot;: &amp;quot;Funded Graduate Programs&amp;quot;, &amp;quot;src&amp;quot;: &amp;quot;erin_programs.html&amp;quot;, &amp;quot;src_label&amp;quot;: &amp;quot;Funded Graduate Programs&amp;quot;, &amp;quot;deadline&amp;quot;: &amp;quot;February 15 for funding consideration; formal deadline May 15&amp;quot;, &amp;quot;start&amp;quot;: &amp;quot;&amp;quot;, &amp;quot;body&amp;quot;: &amp;quot;Dr. John White's Wetland and Aquatic Biogeochemistry Laboratory (WABL) has a PhD assistantship available for Fall 2026 focused on coastal wetland systems. MS minimum stipend $23,000/yr; PhD $31,000/yr. Research spans freshwater and coastal wetlands, lakes, estuaries, nutrient cycling, and contami...&amp;quot;, &amp;quot;badge&amp;quot;: &amp;quot;Deadline passed \u2014 see next cycle&amp;quot;, &amp;quot;pills&amp;quot;: [], &amp;quot;id&amp;quot;: &amp;quot;item-001&amp;quot;}">&#9734; Save to My List</button></div>
-
-  <!-- UGA SREL -->
-  <div class="pc2">
-    <div class="ph2"><div><div class="pn">University of Georgia &mdash; Savannah River Ecology Lab<span class="status-badge s-check">Verify status</span></div><div class="pl">Athens, GA / Aiken, SC &middot; Odum School of Ecology</div></div><span class="badge mg">Good fit</span></div>
-    <div class="pb2">SREL is a long-established field station in Aiken, SC with strong aquatic and wetland ecology research. MS opportunities in terrestrial-aquatic linkages and contaminant ecology. Competitive stipend and tuition waiver; contact faculty directly to confirm current openings.</div>
-    <div class="slinks">
-      <a class="sl2" href="https://www.srel.uga.edu/">&#128269; SREL website</a>
-      <a class="sl2" href="https://www.google.com/search?q=UGA+Savannah+River+Ecology+Lab+MS+research+assistantship+2026">&#128269; Search current SREL openings</a>
-    </div>
-    <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
-    <div class="more-panel">
-      <h4>About SREL</h4>
-      <p>The Savannah River Ecology Laboratory has operated for over 70 years as a field station near Aiken, SC. Research spans aquatic ecology, herpetology, radioecology, and ecosystem science. Graduate students enroll in UGA's Odum School of Ecology or related departments while conducting research at the SREL facility.</p>
-      <h4>Research areas matching Erin's background</h4>
-      <p>Contaminant biogeochemistry and trace metal movement through wetland systems; aquatic-terrestrial linkages in southeastern ecosystems; wetland ecology in the Savannah River Site floodplain. These align directly with Erin's GEOL 423 (Contaminated Rivers) coursework and Pigeon River research.</p>
-      <h4>How to approach</h4>
-      <div class="contact-block">Browse faculty profiles at <a href="https://www.srel.uga.edu/people/">srel.uga.edu/people</a> and email 2&ndash;3 faculty whose research matches directly. Include CV, transcript, and 1-paragraph summary of Pigeon River research. Mention that GEOL 423 is cross-listed at the graduate level (GEOL 523).</div>
-    
-<!-- ML_BTN_item-018 --><button class="ml-save-btn" data-id="item-018" data-item="{&quot;title&quot;: &quot;University of Georgia \u2014 Odum School / SREL&quot;, &quot;org&quot;: &quot;Athens, GA / Aiken, SC&quot;, &quot;type&quot;: &quot;Graduate Program&quot;, &quot;cat&quot;: &quot;Funded Graduate Programs&quot;, &quot;src&quot;: &quot;erin_programs.html&quot;, &quot;src_label&quot;: &quot;Funded Graduate Programs&quot;, &quot;deadline&quot;: &quot;&quot;, &quot;start&quot;: &quot;&quot;, &quot;body&quot;: &quot;UGA's Odum School of Ecology and Savannah River Ecology Lab both offer competitive funded MS positions. Research in aquatic ecology, contaminant biogeochemistry, and wetland systems aligns strongly with Erin's coursework. Strong institutional reputation. Contact faculty directly.&quot;, &quot;badge&quot;: &quot;Good fit&quot;, &quot;pills&quot;: [], &quot;id&quot;: &quot;item-018&quot;, &quot;url&quot;: &quot;https://www.srel.uga.edu/&quot;, &quot;url_label&quot;: &quot;\ud83d\udd0d SREL website&quot;, &quot;extbody&quot;: &quot;About SREL The Savannah River Ecology Laboratory has operated for over 70 years as a field station near Aiken, SC. Research spans aquatic ecology, herpetology, radioecology, and ecosystem science. Graduate students enroll in UGA's Odum School of Ecology or related departments while conducting research at the SREL facility. Research areas matching Erin's background Contaminant biogeochemistry and trace metal movement through wetland systems; aquatic-terrestrial linkages in southeastern ecosystems&quot;, &quot;contact&quot;: &quot;Browse faculty profiles at&quot;}">&#9734; Save to My List</button></div>
-  
-<!-- ML_BTN_item-002 --><button class="ml-save-btn" data-id="item-002" data-item="{&quot;title&quot;: &quot;University of Georgia \u2014 Savannah River Ecology Lab&quot;, &quot;org&quot;: &quot;Athens, GA / Aiken, SC \u00b7 Odum School of Ecology&quot;, &quot;type&quot;: &quot;Graduate Program&quot;, &quot;cat&quot;: &quot;Funded Graduate Programs&quot;, &quot;src&quot;: &quot;erin_programs.html&quot;, &quot;src_label&quot;: &quot;Funded Graduate Programs&quot;, &quot;deadline&quot;: &quot;&quot;, &quot;start&quot;: &quot;&quot;, &quot;body&quot;: &quot;SREL is a long-established field station in Aiken, SC with strong aquatic and wetland ecology research. MS opportunities in terrestrial-aquatic linkages and contaminant ecology. Competitive stipend and tuition waiver; contact faculty directly to confirm current openings.&quot;, &quot;badge&quot;: &quot;Good fit&quot;, &quot;pills&quot;: [], &quot;id&quot;: &quot;item-002&quot;, &quot;url&quot;: &quot;https://www.srel.uga.edu/&quot;, &quot;url_label&quot;: &quot;\ud83d\udd0d SREL website&quot;, &quot;extbody&quot;: &quot;About SREL The Savannah River Ecology Laboratory has operated for over 70 years as a field station near Aiken, SC. Research spans aquatic ecology, herpetology, radioecology, and ecosystem science. Graduate students enroll in UGA's Odum School of Ecology or related departments while conducting research at the SREL facility. Research areas matching Erin's background Contaminant biogeochemistry and trace metal movement through wetland systems; aquatic-terrestrial linkages in southeastern ecosystems&quot;, &quot;contact&quot;: &quot;Browse faculty profiles at&quot;}">&#9734; Save to My List</button></div>
-
-  <!-- USM GCRL -->
-  <div class="pc2">
-    <div class="ph2"><div><div class="pn">University of Southern Mississippi &mdash; Gulf Coast Research Lab<span class="status-badge s-check">Verify status</span></div><div class="pl">Hattiesburg/Ocean Springs, MS &middot; Marine Science</div></div><span class="badge mo">Solid option</span></div>
-    <div class="pb2">Gulf Coast Research Lab has MS assistantships in Marine Science including oyster recruitment and coastal restoration research in Mississippi Sound. Good match for field sampling and aquatic ecology background. Verify current openings directly with GCRL faculty.</div>
-    <div class="slinks">
-      <a class="sl2" href="https://www.usm.edu/gcrl/">&#128269; USM GCRL website</a>
-      <a class="sl2" href="https://www.google.com/search?q=USM+Gulf+Coast+Research+Lab+MS+marine+science+assistantship+2026">&#128269; Search GCRL openings</a>
-    </div>
-    <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
-    <div class="more-panel">
-      <h4>About GCRL</h4>
-      <p>The Gulf Coast Research Laboratory in Ocean Springs, MS is one of the premier marine science research stations on the Gulf Coast. Graduate students in the MS in Marine Science program are based at GCRL with access to coastal and estuarine research sites throughout Mississippi Sound and the northern Gulf.</p>
-      <h4>Research match</h4>
-      <p>Coastal restoration ecology, oyster reef dynamics, and estuarine water quality are active research areas. Erin's soil/water sampling skills, aquatic ecology background, and toxicology coursework are directly applicable to field work in these systems.</p>
-      <div class="contact-block">Browse faculty at <a href="https://www.usm.edu/gcrl/faculty-staff.php">usm.edu/gcrl/faculty-staff</a> and contact faculty whose work aligns with water quality or coastal ecology interests.</div>
-    </div>
-  </div>
-
-<button class="ml-save-btn" data-id="item-003" data-item="{&quot;title&quot;: &quot;University of Southern Mississippi — Gulf Coast Research Lab&quot;, &quot;org&quot;: &quot;Hattiesburg/Ocean Springs, MS · Marine Science&quot;, &quot;type&quot;: &quot;Graduate Program&quot;, &quot;cat&quot;: &quot;Funded Graduate Programs&quot;, &quot;src&quot;: &quot;erin_programs.html&quot;, &quot;src_label&quot;: &quot;Funded Graduate Programs&quot;, &quot;deadline&quot;: &quot;&quot;, &quot;start&quot;: &quot;&quot;, &quot;body&quot;: &quot;Gulf Coast Research Lab has MS assistantships in Marine Science including oyster recruitment and coastal restoration research in Mississippi Sound. Good match for field sampling and aquatic ecology background. Verify current openings directly with GCRL faculty.&quot;, &quot;badge&quot;: &quot;Solid option&quot;, &quot;pills&quot;: [], &quot;id&quot;: &quot;item-003&quot;}">&#9734; Save to My List</button></div>
-
-<!-- ===== WILDLIFE TAB ===== -->
-<div id="tab-wildlife" class="psec">
-  <div class="tip">Best fit for Erin's mammalogy coursework, small mammal trapping and tagging, Wildlife Insights camera trap experience, and wildlife management planning.</div>
-
-  <!-- UWyo -->
-  <div class="pc2 ft">
-    <div class="ph2"><div><div class="pn">University of Wyoming &mdash; Haub School <span class="status-badge s-open">Verified open</span></div><div class="pl">Laramie, WY &middot; Environment, Natural Resources &amp; Society</div></div><span class="badge ms">Strong fit</span></div>
-    <div class="pb2">R1 university with robust wildlife ecology and natural resources programs. MS assistantship value ~$27,500 total (stipend + tuition + health insurance). Wyoming Cooperative Fish &amp; Wildlife Research Unit has active funded positions. Priority deadline: March 1.</div>
-    <div class="slinks">
-      <a class="sl2" href="https://www.uwyo.edu/haub/">&#128269; UW Haub School</a>
-      <a class="sl2" href="https://www.uwyo.edu/wycoop/">&#128269; Wyoming CFWRU</a>
-    </div>
-    <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
-    <div class="more-panel">
-      <h4>About the Haub School</h4>
-      <p>The Haub School of Environment and Natural Resources at UW is an interdisciplinary graduate school focused on environment, natural resources, and society. MS and PhD programs draw faculty from ecology, economics, social science, and policy. Students can pursue wildlife ecology, watershed science, conservation biology, and environmental policy tracks.</p>
-      <h4>Wyoming Cooperative Fish &amp; Wildlife Research Unit</h4>
-      <p>The Wyoming CFWRU is a federally funded research unit (USGS/USFWS/Wyoming Game &amp; Fish) housed at UW. Funded MS positions in wildlife survey design, species distribution modeling, habitat assessment, and natural resource management are periodically available. Erin's NRM 330 (Fish &amp; Wildlife Ecology) and NRM 479 (Mammalogy) background is a strong match.</p>
-      <h4>Funding details</h4>
-      <div class="detail-row"><span class="detail-label">MS stipend</span>~$15,642/yr + tuition + fees + health insurance</div>
-      <div class="detail-row"><span class="detail-label">Total value</span>~$27,500/yr estimated</div>
-      <div style="background:var(--red-bg);border:1px solid var(--teal);border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:var(--red-t)">
-  &#9888; Priority deadline passed (March 1, 2026) — see next cycle for 2027 application.
-</div>
-<div class="detail-row"><span class="detail-label">Priority deadline</span>March 1 for Haub School; CFWRU positions vary</div>
-      <div class="detail-row"><span class="detail-label">GRE required</span>Not required by most programs</div>
-      <div class="detail-row"><span class="detail-label">&#128197; Haub School priority deadline</span><strong style="color:#993c1d">March 1</strong> for assistantship consideration</div>
-      <div class="detail-row"><span class="detail-label">&#128197; CFWRU positions</span>Rolling; contact unit leaders directly</div>
-      <div class="detail-row"><span class="detail-label">&#9888; Note</span>Haub School GA positions for AY 25-26 are closed; check back for 26-27 openings</div>
-      <h4>How to approach</h4>
-      <div class="contact-block">Browse faculty at <a href="https://www.uwyo.edu/haub/people/faculty/">uwyo.edu/haub/people/faculty</a> and CFWRU researchers at <a href="https://www.uwyo.edu/wycoop/personnel/">uwyo.edu/wycoop/personnel</a>. Email faculty directly expressing interest in specific research before applying.</div>
-    
-<!-- ML_BTN_item-010 --><button class="ml-save-btn" data-id="item-010" data-item="{&quot;title&quot;: &quot;University of Wyoming \u2014 Wildfire &amp; Forest Resilience&quot;, &quot;org&quot;: &quot;Laramie, WY \u00b7 Forest Forensics &amp; Dendroecology Lab&quot;, &quot;type&quot;: &quot;Graduate Program&quot;, &quot;cat&quot;: &quot;Funded Graduate Programs&quot;, &quot;src&quot;: &quot;erin_programs.html&quot;, &quot;src_label&quot;: &quot;Funded Graduate Programs&quot;, &quot;deadline&quot;: &quot;Contact lab directly to verify; Fall 2026 start&quot;, &quot;start&quot;: &quot;&quot;, &quot;body&quot;: &quot;Fully funded MS for Fall 2026 \u2014 $23,000 stipend + full tuition waiver + health insurance. Focus: wildfire risk, forest recovery, LiDAR remote sensing and deep learning models. Ideal for GIS-skilled candidates. Verify current availability \u2014 position was posted Fall 2025.&quot;, &quot;badge&quot;: &quot;Open position&quot;, &quot;pills&quot;: [], &quot;id&quot;: &quot;item-010&quot;, &quot;url&quot;: &quot;https://www.uwyo.edu/haub/&quot;, &quot;url_label&quot;: &quot;\ud83d\udd0d UW Haub School&quot;}">&#9734; Save to My List</button></div>
-  
-<!-- ML_BTN_item-004 --><button class="ml-save-btn" data-id="item-004" data-item="{&amp;quot;title&amp;quot;: &amp;quot;University of Wyoming \u2014 Haub School&amp;quot;, &amp;quot;org&amp;quot;: &amp;quot;Laramie, WY \u00b7 Environment, Natural Resources &amp; Society&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;Graduate Program&amp;quot;, &amp;quot;cat&amp;quot;: &amp;quot;Funded Graduate Programs&amp;quot;, &amp;quot;src&amp;quot;: &amp;quot;erin_programs.html&amp;quot;, &amp;quot;src_label&amp;quot;: &amp;quot;Funded Graduate Programs&amp;quot;, &amp;quot;deadline&amp;quot;: &amp;quot;March 1 for Haub School; CFWRU positions vary&amp;quot;, &amp;quot;start&amp;quot;: &amp;quot;&amp;quot;, &amp;quot;body&amp;quot;: &amp;quot;R1 university with robust wildlife ecology and natural resources programs. MS assistantship value ~$27,500 total (stipend + tuition + health insurance). Wyoming Cooperative Fish &amp; Wildlife Research Unit has active funded positions. Priority deadline: March 1.&amp;quot;, &amp;quot;badge&amp;quot;: &amp;quot;Deadline passed \u2014 see next cycle&amp;quot;, &amp;quot;pills&amp;quot;: [], &amp;quot;id&amp;quot;: &amp;quot;item-004&amp;quot;}">&#9734; Save to My List</button></div>
-
-  <!-- NC State Hurricane Helene NEW FIND -->
-  <div class="pc2 confirmed">
-    <div class="ph2"><div><div class="pn">NC State University &mdash; Hurricane Helene Forest Recovery <span class="status-badge s-new">New find</span> </div><div class="pl">Raleigh, NC &middot; Dept. of Forestry &amp; Environmental Resources</div></div><span class="badge mx">Exceptional fit</span></div>
-    <div class="pb2">Actively recruiting a funded MS student (preferred start May 2026) to study how forest structure, composition, and function are affected by Hurricane Helene in western NC oak-hickory forests. Uses vegetation and wildlife inventories to evaluate and aid forest recovery. Co-advised by Drs. Jodi Forrester and Chris Moorman (NC State) and Dr. Tara Keyser (USDA Forest Service). This is a near-perfect match for Erin's background and her Pigeon River research.</div>
-    <div class="slinks">
-      <a class="sl2" href="https://cnr.ncsu.edu/fer/">&#128269; NC State Dept. of Forestry &amp; Environmental Resources</a>
-      <a class="sl2" href="https://catalog.ncsu.edu/graduate/natural-resources/forestry/">&#128269; NC State Forestry MS program</a>
-    </div>
-    <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
-    <div class="more-panel">
-      <h4>Position details</h4>
-      <p>This is a funded MS research assistantship studying the ecological aftermath of Hurricane Helene in western North Carolina oak-hickory forests. The project focuses on how the storm's variable damage patterns affected wildlife distributions and oak regeneration, using vegetation and wildlife inventories to evaluate and support ongoing forest recovery and rehabilitation efforts.</p>
-      <h4>Why this is Erin's strongest single match</h4>
-      <p>This project is geographically and thematically identical to Erin's senior capstone research. The Pigeon River Basin where she analyzed lead contamination is in the same Hurricane Helene impact zone as the Pisgah National Forest where fieldwork will be conducted. Erin's WCU background in Appalachian environmental science, combined with NRM 330 (Fish &amp; Wildlife Ecology), NRM 479 (Mammalogy), and the Pigeon River contamination project, makes her an unusually strong candidate.</p>
-      <h4>Research team</h4>
-      <div class="detail-row"><span class="detail-label">Primary advisor</span>Dr. Jodi Forrester (NC State) &mdash; jodi_forrester@ncsu.edu</div>
-      <div class="detail-row"><span class="detail-label">Co-advisor</span>Dr. Chris Moorman (NC State)</div>
-      <div class="detail-row"><span class="detail-label">USFS collaborator</span>Dr. Tara Keyser (Southern Research Station)</div>
-      <div class="detail-row"><span class="detail-label">Field location</span>Pisgah National Forest, western NC (near Asheville)</div>
-      <div class="detail-row"><span class="detail-label">Preferred start</span>May 2026</div>
-      <div class="detail-row"><span class="detail-label">Funding</span>Full tuition waiver + stipend (rate TBD; NC State MS stipends typically $18k&ndash;$23k)</div>
-      <div class="detail-row"><span class="detail-label">GRE required</span>No</div>
-      <div class="detail-row"><span class="detail-label">&#128197; Fall deadline (funding)</span><strong style="color:#993c1d">January 31</strong> for financial aid consideration; June 25 for admission only</div>
-      <div class="detail-row"><span class="detail-label">&#128197; Spring deadline</span>September 30 (aid); November 25 (admission only)</div>
-      <div class="detail-row"><span class="detail-label">&#128197; FWCB programs</span>January 15 priority for Fisheries, Wildlife &amp; Conservation Biology</div>
-      <h4>How to apply</h4>
-      <div class="contact-block">Email Dr. Jodi Forrester at <a href="mailto:jodi_forrester@ncsu.edu">jodi_forrester@ncsu.edu</a>. Submit a single PDF with: letter of interest, CV, unofficial transcripts, and 3 references. Mention the Hurricane Helene position specifically. Emphasize the Pigeon River research and WCU/Appalachian field experience in your letter.</div>
-    
-<!-- ML_BTN_item-014 --><button class="ml-save-btn" data-id="item-014" data-item="{&amp;quot;title&amp;quot;: &amp;quot;NC State University \u2014 Hurricane Helene Forest Recovery&amp;quot;, &amp;quot;org&amp;quot;: &amp;quot;Raleigh, NC \u00b7 Forestry &amp; Environmental Resources&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;Graduate Program&amp;quot;, &amp;quot;cat&amp;quot;: &amp;quot;Funded Graduate Programs&amp;quot;, &amp;quot;src&amp;quot;: &amp;quot;erin_programs.html&amp;quot;, &amp;quot;src_label&amp;quot;: &amp;quot;Funded Graduate Programs&amp;quot;, &amp;quot;deadline&amp;quot;: &amp;quot;Financial aid deadline passed (Jan 31, 2026); admission still open \u2014 June 25, 2026&amp;quot;, &amp;quot;start&amp;quot;: &amp;quot;&amp;quot;, &amp;quot;body&amp;quot;: &amp;quot;Funded MS position (preferred start May 2026) studying Hurricane Helene forest damage and recovery in western NC Pisgah National Forest oak-hickory forests. Vegetation and wildlife inventory methods. Co-advised by Drs. Jodi Forrester &amp; Chris Moorman (NC State) and Dr. Tara Keyser (USDA FS). This ...&amp;quot;, &amp;quot;badge&amp;quot;: &amp;quot;Admission open until June 25&amp;quot;, &amp;quot;pills&amp;quot;: [], &amp;quot;id&amp;quot;: &amp;quot;item-014&amp;quot;}">&#9734; Save to My List</button></div>
-  
-<!-- ML_BTN_item-005 --><button class="ml-save-btn" data-id="item-005" data-item="{&amp;quot;title&amp;quot;: &amp;quot;NC State University \u2014 Hurricane Helene Forest Recovery&amp;quot;, &amp;quot;org&amp;quot;: &amp;quot;Raleigh, NC \u00b7 Dept. of Forestry &amp; Environmental Resources&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;Graduate Program&amp;quot;, &amp;quot;cat&amp;quot;: &amp;quot;Funded Graduate Programs&amp;quot;, &amp;quot;src&amp;quot;: &amp;quot;erin_programs.html&amp;quot;, &amp;quot;src_label&amp;quot;: &amp;quot;Funded Graduate Programs&amp;quot;, &amp;quot;deadline&amp;quot;: &amp;quot;Financial aid deadline passed (Jan 31, 2026); admission still open \u2014 June 25, 2026&amp;quot;, &amp;quot;start&amp;quot;: &amp;quot;&amp;quot;, &amp;quot;body&amp;quot;: &amp;quot;Actively recruiting a funded MS student (preferred start May 2026) to study how forest structure, composition, and function are affected by Hurricane Helene in western NC oak-hickory forests. Uses vegetation and wildlife inventories to evaluate and aid forest recovery. Co-advised by Drs. Jodi For...&amp;quot;, &amp;quot;badge&amp;quot;: &amp;quot;Admission open until June 25&amp;quot;, &amp;quot;pills&amp;quot;: [], &amp;quot;id&amp;quot;: &amp;quot;item-005&amp;quot;}">&#9734; Save to My List</button></div>
-
-  <!-- Clemson bird -->
-  <div class="pc2">
-    <div class="ph2"><div><div class="pn">Clemson University &mdash; Elmore Lab, Bird Response to Helene <span class="status-badge s-check">Verify status</span></div><div class="pl">Clemson, SC &middot; Dept. of Forestry &amp; Environmental Conservation</div></div><span class="badge mg">Good fit</span></div>
-    <div class="pb2">The Elmore Lab at Clemson's Forestry &amp; Environmental Conservation dept. was recruiting MS and PhD students for a Hurricane Helene bird ecology project. MS candidate to coordinate nest monitoring studying how priority bird species (Kentucky Warbler, Golden-winged Warbler, Cerulean Warbler, Swainson's Warbler, Ruffed Grouse) respond to hurricane damage. MS stipend $30k/yr; PhD $35k/yr. Field work in Pisgah National Forest. Verify if still open.</div>
-    <div class="slinks">
-      <a class="sl2" href="https://www.clemson.edu/cafls/academics/graduate/forest-resources.html">&#128269; Clemson FEC grad programs</a>
-      <a class="sl2" href="https://www.google.com/search?q=Clemson+Elmore+Lab+bird+Hurricane+Helene+MS+assistantship+2026">&#128269; Search Clemson Elmore Lab position</a>
-    </div>
-    <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
-    <div class="more-panel">
-      <h4>Position details (verify current status)</h4>
-      <p>The Elmore Lab was actively recruiting for both a PhD and MS student. The MS position involves coordinating a nest monitoring project studying nesting behavior and success of priority bird species in hurricane-disturbed vs. undisturbed forest areas. Students will have the opportunity to shape their thesis questions within the monitoring framework.</p>
-      <h4>Compensation package (if still available)</h4>
-      <div class="detail-row"><span class="detail-label">MS stipend</span>$30,000/yr (12-month)</div>
-      <div class="detail-row"><span class="detail-label">Tuition</span>Full waiver</div>
-      <div class="detail-row"><span class="detail-label">Extras</span>University computer, conference/travel funding, publication costs</div>
-      <div class="detail-row"><span class="detail-label">Field location</span>Pisgah National Forest, near Asheville, NC</div>
-      <div class="detail-row"><span class="detail-label">&#128197; Application</span><strong style="color:#993c1d">Rolling &mdash; apply immediately</strong>; review began immediately, continues until filled</div>
-      <div class="detail-row"><span class="detail-label">Start date</span>January or May 2026 (verify if still open)</div>
-      <h4>Fit assessment</h4>
-      <p>Good match for Erin's NRM 479 (Mammalogy) field skills and NRM 330 wildlife management background. Bird focus is adjacent &mdash; she would need to convey transferable field skills. The Hurricane Helene connection and Appalachian fieldwork at WCU are strong talking points.</p>
-      <div class="contact-block">Contact: <a href="mailto:jaelmor@clemson.edu">jaelmor@clemson.edu</a> with subject "Bird response to disturbance graduate position." Send: letter of interest, CV, unofficial transcripts, and 3 references as a single PDF. Note: position review began immediately &mdash; confirm availability first.</div>
-    </div>
-  
-<!-- ML_BTN_item-006 --><button class="ml-save-btn" data-id="item-006" data-item="{&quot;title&quot;: &quot;Clemson University \u2014 Elmore Lab, Bird Response to Helene&quot;, &quot;org&quot;: &quot;Clemson, SC \u00b7 Dept. of Forestry &amp; Environmental Conservation&quot;, &quot;type&quot;: &quot;Graduate Program&quot;, &quot;cat&quot;: &quot;Funded Graduate Programs&quot;, &quot;src&quot;: &quot;erin_programs.html&quot;, &quot;src_label&quot;: &quot;Funded Graduate Programs&quot;, &quot;deadline&quot;: &quot;&quot;, &quot;start&quot;: &quot;&quot;, &quot;body&quot;: &quot;The Elmore Lab at Clemson's Forestry &amp; Environmental Conservation dept. was recruiting MS and PhD students for a Hurricane Helene bird ecology project. MS candidate to coordinate nest monitoring studying how priority bird species (Kentucky Warbler, Golden-winged Warbler, Cerulean Warbler, Swainso...&quot;, &quot;badge&quot;: &quot;Good fit&quot;, &quot;pills&quot;: [], &quot;id&quot;: &quot;item-006&quot;, &quot;url&quot;: &quot;https://www.clemson.edu/cafls/academics/graduate/forest-resources.html&quot;, &quot;url_label&quot;: &quot;\ud83d\udd0d Clemson FEC grad programs&quot;}">&#9734; Save to My List</button></div>
-
-  <!-- Auburn -->
-  <div class="pc2">
-    <div class="ph2"><div><div class="pn">Auburn University &mdash; Alabama CFWRU <span class="status-badge s-check">Verify status</span></div><div class="pl">Auburn, AL &middot; Biological Sciences / Natural Resources</div></div><span class="badge mg">Good fit</span></div>
-    <div class="pb2">The Alabama Cooperative Fish &amp; Wildlife Research Unit at Auburn has funded MS assistantships in wildlife survey design, fish ecology, and invasive species management. Strong southern field ecology tradition. Good match for wildlife management planning and mammalogy background.</div>
-    <div class="slinks">
-      <a class="sl2" href="https://www.auburn.edu/cosam/departments/biology/research/alabamacfwru/">&#128269; Auburn ACFWRU website</a>
-      <a class="sl2" href="https://www.google.com/search?q=Auburn+Alabama+Cooperative+Fish+Wildlife+Research+Unit+MS+assistantship+2026">&#128269; Search Auburn ACFWRU openings</a>
-    </div>
-    <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
-    <div class="more-panel">
-      <h4>About ACFWRU</h4>
-      <p>The Alabama Cooperative Fish &amp; Wildlife Research Unit is a federally-funded research partnership between USGS, USFWS, Auburn University, the Alabama Department of Conservation and Natural Resources, and the Wildlife Management Institute. Graduate students work on real management questions relevant to Alabama and the Southeast.</p>
-      <h4>Research areas</h4>
-      <p>Wildlife survey design and monitoring methods; native fish distribution and invasive species (including invasive carp in lower Mississippi tributaries); freshwater fisheries; habitat management. Erin's mammalogy field skills (trapping, tagging, camera trap work) and NRM 330 background transfer well to wildlife survey work.</p>
-      <div class="contact-block">Browse unit leader and cooperating faculty at the Auburn ACFWRU website. Contact faculty directly with CV and a brief description of field experience and research interests.</div>
-    
-<!-- ML_BTN_item-017 --><button class="ml-save-btn" data-id="item-017" data-item="{&quot;title&quot;: &quot;Auburn University \u2014 ACFWRU&quot;, &quot;org&quot;: &quot;Auburn, AL \u00b7 Biological Sciences / Natural Resources&quot;, &quot;type&quot;: &quot;Graduate Program&quot;, &quot;cat&quot;: &quot;Funded Graduate Programs&quot;, &quot;src&quot;: &quot;erin_programs.html&quot;, &quot;src_label&quot;: &quot;Funded Graduate Programs&quot;, &quot;deadline&quot;: &quot;&quot;, &quot;start&quot;: &quot;&quot;, &quot;body&quot;: &quot;Alabama Cooperative Fish &amp; Wildlife Research Unit has funded MS positions in wildlife surveys and fish ecology. Good match for wildlife management planning and mammalogy field skills. Contact unit leaders directly to confirm current openings.&quot;, &quot;badge&quot;: &quot;Solid option&quot;, &quot;pills&quot;: [], &quot;id&quot;: &quot;item-017&quot;, &quot;contact&quot;: &quot;Contact:&quot;, &quot;url&quot;: &quot;https://www.auburn.edu/cosam/departments/biology/research/alabamacfwru/&quot;, &quot;url_label&quot;: &quot;\ud83d\udd0d Auburn ACFWRU website&quot;}">&#9734; Save to My List</button></div>
-  
-<!-- ML_BTN_item-007 --><button class="ml-save-btn" data-id="item-007" data-item="{&quot;title&quot;: &quot;Auburn University — Alabama CFWRU&quot;, &quot;org&quot;: &quot;Auburn, AL · Biological Sciences / Natural Resources&quot;, &quot;type&quot;: &quot;Graduate Program&quot;, &quot;cat&quot;: &quot;Funded Graduate Programs&quot;, &quot;src&quot;: &quot;erin_programs.html&quot;, &quot;src_label&quot;: &quot;Funded Graduate Programs&quot;, &quot;deadline&quot;: &quot;&quot;, &quot;start&quot;: &quot;&quot;, &quot;body&quot;: &quot;The Alabama Cooperative Fish & Wildlife Research Unit at Auburn has funded MS assistantships in wildlife survey design, fish ecology, and invasive species management. Strong southern field ecology tradition. Good match for wildlife management planning and mammalogy background.&quot;, &quot;badge&quot;: &quot;Good fit&quot;, &quot;pills&quot;: [], &quot;id&quot;: &quot;item-007&quot;}">&#9734; Save to My List</button></div>
-
-  <!-- MSU wildlife -->
-  <div class="pc2">
-    <div class="ph2"><div><div class="pn">Mississippi State University &mdash; Forest &amp; Wildlife Research Center <span class="status-badge s-check">Verify status</span></div><div class="pl">Starkville, MS &middot; Dept. of Wildlife, Fisheries &amp; Aquaculture</div></div><span class="badge mg">Good fit</span></div>
-    <div class="pb2">The College of Forest Resources at MSU has active funded MS positions in fire ecology, forest hydrology, and wildlife. The Forest Ecology Lab (Dr. Ashley Schulz) periodically recruits MS students for southeastern forest ecology and restoration. Research assistantships typically include tuition waiver, stipend, and health insurance.</div>
-    <div class="slinks">
-      <a class="sl2" href="https://www.cfr.msstate.edu/">&#128269; MSU College of Forest Resources</a>
-      <a class="sl2" href="https://www.google.com/search?q=Mississippi+State+wildlife+fisheries+aquaculture+MS+funded+research+assistantship+2026">&#128269; Search MSU wildlife MS openings</a>
-    </div>
-    <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
-    <div class="more-panel">
-      <h4>About the program</h4>
-      <p>MSU's College of Forest Resources houses the Department of Wildlife, Fisheries and Aquaculture and the Department of Forestry under one roof, providing cross-disciplinary MS and PhD opportunities. The Forest and Wildlife Research Center (FWRC) is a state-funded research institute supporting graduate student projects.</p>
-      <h4>Key process note</h4>
-      <p><strong style="font-weight:500">Contact faculty before applying.</strong> MSU's funding model allocates assistantships to faculty from research grants. Browse the CFR job board and faculty pages, then email potential advisors with CV and statement of interest before submitting a formal application.</p>
-      <div class="detail-row"><span class="detail-label">Typical MS stipend</span>$18,000&ndash;$22,000/yr</div>
-      <div class="detail-row"><span class="detail-label">Tuition</span>Full waiver</div>
-      <div class="detail-row"><span class="detail-label">Health insurance</span>Included in most packages</div>
-      <div style="background:var(--red-bg);border:1px solid var(--teal);border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:var(--red-t)">
-  &#9888; Deadline passed (Dec 2025, for Jan 2026 start) — watch for next NSF-FIRE opening.
-</div>
-<div class="contact-block">Check the <a href="https://www.cfr.msstate.edu/job-board/">CFR job board</a> for current openings. Email faculty in wildlife, fisheries, or forestry whose research aligns with Erin's background in mammalogy, water quality, or GIS.</div>
-    
-<!-- ML_BTN_item-015 --><button class="ml-save-btn" data-id="item-015" data-item="{&amp;quot;title&amp;quot;: &amp;quot;Mississippi State University \u2014 Forest Hydrology &amp; Soils Lab&amp;quot;, &amp;quot;org&amp;quot;: &amp;quot;Starkville, MS \u00b7 Dept. of Forestry&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;Graduate Program&amp;quot;, &amp;quot;cat&amp;quot;: &amp;quot;Funded Graduate Programs&amp;quot;, &amp;quot;src&amp;quot;: &amp;quot;erin_programs.html&amp;quot;, &amp;quot;src_label&amp;quot;: &amp;quot;Funded Graduate Programs&amp;quot;, &amp;quot;deadline&amp;quot;: &amp;quot;December 1 domestic / October 1 international (for Dr. Siegert lab)&amp;quot;, &amp;quot;start&amp;quot;: &amp;quot;&amp;quot;, &amp;quot;body&amp;quot;: &amp;quot;Three-year funded MS research assistantship starting January 2026 in the Forest Hydrology and Soils Lab (Dr. Courtney Siegert). NSF-FIRE project investigating how back-to-back extreme weather events drive forest hydrology and flammability in the southeastern US. Fully funded: full tuition waiver ...&amp;quot;, &amp;quot;badge&amp;quot;: &amp;quot;Deadline passed \u2014 see next cycle&amp;quot;, &amp;quot;pills&amp;quot;: [], &amp;quot;id&amp;quot;: &amp;quot;item-015&amp;quot;}">&#9734; Save to My List</button></div>
-  
-<!-- ML_BTN_item-012 --><button class="ml-save-btn" data-id="item-012" data-item="{&quot;title&quot;: &quot;Mississippi State University \u2014 Geosystems Research Institute&quot;, &quot;org&quot;: &quot;Starkville, MS \u00b7 GIS &amp; Health Geography&quot;, &quot;type&quot;: &quot;Graduate Program&quot;, &quot;cat&quot;: &quot;Funded Graduate Programs&quot;, &quot;src&quot;: &quot;erin_programs.html&quot;, &quot;src_label&quot;: &quot;Funded Graduate Programs&quot;, &quot;deadline&quot;: &quot;&quot;, &quot;start&quot;: &quot;&quot;, &quot;body&quot;: &quot;MSU's Geosystems Research Institute (GRI) is offering fully funded MS and PhD research assistantships in GIS and Health Geography, starting Spring or Fall 2026. Projects use geospatial technology and spatial analysis for public health, environmental health, and epidemiology \u2014 a strong cross-disci...&quot;, &quot;badge&quot;: &quot;Good fit&quot;, &quot;pills&quot;: [], &quot;id&quot;: &quot;item-012&quot;, &quot;url&quot;: &quot;https://www.cfr.msstate.edu/&quot;, &quot;url_label&quot;: &quot;\ud83d\udd0d MSU College of Forest Resources&quot;, &quot;extbody&quot;: &quot;About the program MSU's College of Forest Resources houses the Department of Wildlife, Fisheries and Aquaculture and the Department of Forestry under one roof, providing cross-disciplinary MS and PhD opportunities. The Forest and Wildlife Research Center (FWRC) is a state-funded research institute supporting graduate student projects. Key process note Contact faculty before applying. MSU's funding model allocates assistantships to faculty from research grants. Browse the CFR job board and facult&quot;, &quot;contact&quot;: &quot;Check the&quot;}">&#9734; Save to My List</button></div>
-
-<!-- ML_BTN_item-008 --><button class="ml-save-btn" data-id="item-008" data-item="{&quot;title&quot;: &quot;Mississippi State University — Forest & Wildlife Research Center&quot;, &quot;org&quot;: &quot;Starkville, MS · Dept. of Wildlife, Fisheries & Aquaculture&quot;, &quot;type&quot;: &quot;Graduate Program&quot;, &quot;cat&quot;: &quot;Funded Graduate Programs&quot;, &quot;src&quot;: &quot;erin_programs.html&quot;, &quot;src_label&quot;: &quot;Funded Graduate Programs&quot;, &quot;deadline&quot;: &quot;&quot;, &quot;start&quot;: &quot;&quot;, &quot;body&quot;: &quot;The College of Forest Resources at MSU has active funded MS positions in fire ecology, forest hydrology, and wildlife. The Forest Ecology Lab (Dr. Ashley Schulz) periodically recruits MS students for southeastern forest ecology and restoration. Research assistantships typically include tuition wa...&quot;, &quot;badge&quot;: &quot;Good fit&quot;, &quot;pills&quot;: [], &quot;id&quot;: &quot;item-008&quot;}">&#9734; Save to My List</button></div>
-
-<!-- ===== COLORADO TAB ===== -->
-<div id="tab-colorado" class="psec">
-  <div class="tip">Colorado and Mountain West programs &mdash; strong for water, wildlife, and landscape ecology. Neighboring states offer WICHE-discounted tuition for Colorado residents.</div>
-
-  <!-- CSU top -->
-  <div class="pc2 ft">
-    <div class="ph2"><div><div class="pn">Colorado State University <span class="status-badge s-open">Verified open</span></div><div class="pl">Fort Collins, CO &middot; Multiple departments</div></div><span class="badge ms">Top recommendation</span></div>
-    <div class="pb2">The single strongest overall match. Active MS/PhD openings in wetland remote sensing (Landscape Modeling Lab, Aug 2026) and water governance research (Water, Environment &amp; Society Group). 40&ndash;50 active assistantships per semester across Ecosystem Science, Ecology, and related departments. Full fees + stipend + health insurance beginning 2025&ndash;26.</div>
-    <div class="slinks">
-      <a class="sl2" href="https://warnercnr.colostate.edu/ess/graduate-programs/graduate-research-opportunities/">&#128269; CSU active grad opportunities</a>
-      <a class="sl2" href="https://ecology.colostate.edu/assistantships/">&#128269; GDPE assistantships</a>
-    </div>
-    <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
-    <div class="more-panel">
-      <h4>Active openings (verified May 2026)</h4>
-      <p><strong style="font-weight:500">Landscape Modeling Lab</strong> (Dr. TBD): MS/PhD on remote sensing of wetland dynamics and wetland conversion/loss in Prairie Pothole Region. Fieldwork: vegetation, water, and near-surface remote sensing. Start Aug 2026. Apply by Dec 1, 2025 (may still have openings).</p>
-      <p><strong style="font-weight:500">Water, Environment &amp; Society Research Group</strong>: MS/PhD on water governance, groundwater sustainability, and climate adaptation in water supply systems. Watershed Science PhD track. Start Aug 2026.</p>
-      <p><strong style="font-weight:500">Fish, Wildlife &amp; Conservation Biology</strong> (Koons Lab): MS/PhD in population ecology and wildlife management. Long-term waterfowl ecology study in western Alaska. Strong quantitative focus.</p>
-      <h4>Programs to apply to</h4>
-      <div class="detail-row"><span class="detail-label">MS Ecology</span>Graduate Degree Program in Ecology (GDPE) &mdash; interdisciplinary, university-wide</div>
-      <div class="detail-row"><span class="detail-label">MS/PhD</span>Dept. of Ecosystem Science &amp; Sustainability</div>
-      <div class="detail-row"><span class="detail-label">PhD</span>Watershed Science Program</div>
-      <div class="detail-row"><span class="detail-label">GRE required</span>No (most programs)</div>
-      <div class="detail-row"><span class="detail-label">&#128197; Ecosystem Science &amp; Sustainability</span><strong style="color:#993c1d">February 1</strong> preferred for full funding consideration</div>
-      <div class="detail-row"><span class="detail-label">&#128197; Ecology (GDPE)</span><strong style="color:#993c1d">December 1</strong> for full funding consideration (no later than Feb 1)</div>
-      <div class="detail-row"><span class="detail-label">&#128197; Landscape Modeling Lab</span>Dec 1, 2025 for full consideration; no later than Feb 1, 2026</div>
-      <div class="contact-block">Start at the <a href="https://warnercnr.colostate.edu/ess/graduate-programs/graduate-research-opportunities/">CSU grad opportunities page</a>, identify labs with open positions, and email those faculty directly before applying. Include statement of purpose with field experience and leadership history.</div>
-    </div>
-  </div>
-
-  <!-- UWyo LiDAR -->
-  <div class="pc2">
-    <div class="ph2"><div><div class="pn">University of Wyoming &mdash; Wildfire &amp; Forest Resilience<span class="status-badge s-check">Verify status</span></div><div class="pl">Laramie, WY &middot; Forest Forensics &amp; Dendroecology Lab</div></div><span class="badge mw">Open position</span></div>
-    <div class="pb2">Fully funded MS for Fall 2026 &mdash; $23,000 stipend + full tuition waiver + health insurance. Focus: wildfire risk, forest recovery, LiDAR remote sensing and deep learning models. Ideal for GIS-skilled candidates. Verify current availability &mdash; position was posted Fall 2025.</div>
-    <div class="slinks">
-      <a class="sl2" href="https://www.uwyo.edu/haub/">&#128269; UW Haub School</a>
-      <a class="sl2" href="https://www.google.com/search?q=University+Wyoming+Forest+Forensics+Dendroecology+Lab+LiDAR+wildfire+MS+assistantship+2026">&#128269; Search UWyo wildfire MS position</a>
-    </div>
-    <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
-    <div class="more-panel">
-      <h4>Position details</h4>
-      <p>This MS position focuses on using LiDAR remote sensing and deep learning models to assess wildfire risk and track forest recovery across landscapes. Strong GIS component &mdash; a good extension of Erin's NRM 344 (Applied GIS) background into remote sensing and spatial data science.</p>
-      <div class="detail-row"><span class="detail-label">Stipend</span>$23,000/yr</div>
-      <div class="detail-row"><span class="detail-label">Tuition</span>Full waiver</div>
-      <div class="detail-row"><span class="detail-label">Health insurance</span>Included</div>
-      <div class="detail-row"><span class="detail-label">&#128197; Deadline</span>Contact lab directly to verify; Fall 2026 start</div>
-      <div class="detail-row"><span class="detail-label">Start</span>Fall 2026 (verify if still open)</div>
-      <h4>Fit assessment</h4>
-      <p>Erin's two GIS courses (GEOG 221, NRM 344) and spatial suitability analysis experience provide a foundation. She would be expanding into LiDAR and deep learning, which is a stretch but achievable. Emphasize GIS experience, field leadership, and willingness to develop quantitative skills.</p>
-      <div class="contact-block">Search "University Wyoming Forest Forensics Dendroecology Lab" to find current contact information and verify the position is still recruiting.</div>
-    </div>
-  </div>
-
-  <!-- CU Boulder -->
-  <div class="pc2">
-    <div class="ph2"><div><div class="pn">CU Boulder &mdash; INSTAAR / Environmental Studies<span class="status-badge s-check">Verify status</span></div><div class="pl">Boulder, CO</div></div><span class="badge mg">Good fit</span></div>
-    <div class="pb2">Research and teaching assistantships include tuition remission and health insurance. INSTAAR (Institute of Arctic and Alpine Research) is a strong match for water quality, biogeochemistry, and landscape ecology research. Competitive but prestigious. Best approach: direct faculty contact first.</div>
-    <div class="slinks">
-      <a class="sl2" href="https://instaar.colorado.edu/">&#128269; INSTAAR website</a>
-      <a class="sl2" href="https://www.colorado.edu/envs/graduate">&#128269; CU Environmental Studies grad program</a>
-    </div>
-    <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
-    <div class="more-panel">
-      <h4>INSTAAR research match</h4>
-      <p>INSTAAR researchers study alpine/arctic systems, water quality, biogeochemical cycling, and landscape change. The Mountain Research Station near Nederland, CO provides field access to high-elevation ecosystems. Strong match for Erin's water quality and contaminant transport background (ENVH 310, GEOL 423).</p>
-      <h4>Environmental Studies MS</h4>
-      <p>CU Environmental Studies offers an interdisciplinary MS with a policy and social science dimension &mdash; good fit for Erin's environmental justice coursework. Fewer guaranteed assistantships than CSU; securing an RA requires faculty sponsorship.</p>
-      <div class="contact-block">Browse INSTAAR faculty at <a href="https://instaar.colorado.edu/people/faculty/">instaar.colorado.edu/people/faculty</a>. Contact 2&ndash;3 whose research directly aligns, with CV and a 1-paragraph description of Pigeon River research.</div>
-    </div>
-  
-<!-- ML_BTN_item-011 --><button class="ml-save-btn" data-id="item-011" data-item="{&quot;title&quot;: &quot;CU Boulder \u2014 INSTAAR / Environmental Studies&quot;, &quot;org&quot;: &quot;Boulder, CO&quot;, &quot;type&quot;: &quot;Graduate Program&quot;, &quot;cat&quot;: &quot;Funded Graduate Programs&quot;, &quot;src&quot;: &quot;erin_programs.html&quot;, &quot;src_label&quot;: &quot;Funded Graduate Programs&quot;, &quot;deadline&quot;: &quot;&quot;, &quot;start&quot;: &quot;&quot;, &quot;body&quot;: &quot;Research and teaching assistantships include tuition remission and health insurance. INSTAAR (Institute of Arctic and Alpine Research) is a strong match for water quality, biogeochemistry, and landscape ecology research. Competitive but prestigious. Best approach: direct faculty contact first.&quot;, &quot;badge&quot;: &quot;Good fit&quot;, &quot;pills&quot;: [], &quot;id&quot;: &quot;item-011&quot;, &quot;url&quot;: &quot;https://www.uwyo.edu/haub/&quot;, &quot;url_label&quot;: &quot;\ud83d\udd0d UW Haub School&quot;, &quot;contact&quot;: &quot;Start at the&quot;}">&#9734; Save to My List</button></div>
-
-  <!-- MSU GIS -->
-  <div class="pc2">
-    <div class="ph2"><div><div class="pn">Mississippi State University &mdash; Geosystems Research Institute <span class="status-badge s-open">Verified open</span></div><div class="pl">Starkville, MS &middot; GIS &amp; Health Geography</div></div><span class="badge mg">Good fit</span></div>
-    <div class="pb2">MSU's Geosystems Research Institute (GRI) is offering fully funded MS and PhD research assistantships in GIS and Health Geography, starting Spring or Fall 2026. Projects use geospatial technology and spatial analysis for public health, environmental health, and epidemiology &mdash; a strong cross-disciplinary match for Erin's GIS + epidemiology background.</div>
-    <div class="slinks">
-      <a class="sl2" href="https://www.gri.msstate.edu/">&#128269; MSU GRI website</a>
-      <a class="sl2" href="https://www.google.com/search?q=Mississippi+State+Geosystems+Research+Institute+GIS+MS+PhD+assistantship+2026">&#128269; Search MSU GRI openings</a>
-    </div>
-    <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
-    <div class="more-panel">
-      <h4>Position details</h4>
-      <p>Multiple MS and one PhD assistantship available. Research focuses on applying GIS and remote sensing to public health and environmental health challenges &mdash; including epidemiology, climate, and agriculture. Tools: ArcGIS, QGIS, R, Python. This is an unusual convergence of Erin's GIS coursework and her HSCC 472 (Epidemiology) background.</p>
-      <div class="detail-row"><span class="detail-label">Start dates</span>Spring 2026 or Fall 2026</div>
-      <div class="detail-row"><span class="detail-label">Funding</span>Full assistantship (stipend + tuition) &mdash; confirm current rate</div>
-      <div class="detail-row"><span class="detail-label">Ideal background</span>GIS, environmental science, public health, data analytics</div>
-      <div class="contact-block">Apply through MSU Graduate School portal. Mention GRI assistantship interest in statement of purpose. Contact GRI faculty directly via the GRI website to signal interest early.</div>
-    </div>
-  </div>
-
-  <!-- U Montana -->
-  <div class="pc2">
-    <div class="ph2"><div><div class="pn">University of Montana &mdash; Environmental Studies<span class="status-badge s-check">Verify status</span></div><div class="pl">Missoula, MT &middot; WICHE eligible for Colorado residents</div></div><span class="badge mg">WICHE discount</span></div>
-    <div class="pb2">Colorado residents qualify for 150% of Montana in-state tuition via WICHE (Western Regional Graduate Program). Teaching assistantships with full tuition waiver. Strong environmental justice and policy MS &mdash; great fit for Erin's Appalachian justice coursework.</div>
-    <div class="slinks">
-      <a class="sl2" href="https://www.umt.edu/environmental-studies/graduate/">&#128269; UM Environmental Studies grad</a>
-      <a class="sl2" href="https://www.wiche.edu/tuition-savings/wrgp/">&#128269; WICHE tuition savings info</a>
-    </div>
-    <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
-    <div class="more-panel">
-      <h4>About the program</h4>
-      <p>University of Montana's Environmental Studies program emphasizes interdisciplinary approaches to environmental issues, with strong threads in environmental justice, natural resource policy, and community-based research. This aligns directly with Erin's ENVH 493 (Environmental Justice in Appalachia) and PSC 354 (International Environmental Politics).</p>
-      <h4>WICHE benefit</h4>
-      <p>Through the Western Regional Graduate Program, Colorado residents pay 150% of Montana in-state tuition &mdash; still significantly less than full non-resident rates. Combined with a TA (which waives tuition entirely), the cost burden can be minimal.</p>
-      <div class="detail-row"><span class="detail-label">TA tuition waiver</span>Full waiver for TA-holders</div>
-      <div class="detail-row"><span class="detail-label">TA stipend</span>Varies; contact program for current rates</div>
-      <div class="contact-block">Contact the Environmental Studies graduate program at <a href="mailto:evst@mso.umt.edu">evst@mso.umt.edu</a> and ask about TA availability for incoming students. Review faculty research at <a href="https://www.umt.edu/environmental-studies/people/faculty.php">umt.edu/environmental-studies/people/faculty</a>.</div>
-    </div>
-  </div>
-
-<!-- ML_BTN_item-013 --><button class="ml-save-btn" data-id="item-013" data-item="{&quot;title&quot;: &quot;University of Montana \u2014 Environmental Studies&quot;, &quot;org&quot;: &quot;Missoula, MT \u00b7 WICHE eligible for Colorado residents&quot;, &quot;type&quot;: &quot;Graduate Program&quot;, &quot;cat&quot;: &quot;Funded Graduate Programs&quot;, &quot;src&quot;: &quot;erin_programs.html&quot;, &quot;src_label&quot;: &quot;Funded Graduate Programs&quot;, &quot;deadline&quot;: &quot;&quot;, &quot;start&quot;: &quot;&quot;, &quot;body&quot;: &quot;Colorado residents qualify for 150% of Montana in-state tuition via WICHE (Western Regional Graduate Program). Teaching assistantships with full tuition waiver. Strong environmental justice and policy MS \u2014 great fit for Erin's Appalachian justice coursework.&quot;, &quot;badge&quot;: &quot;WICHE discount&quot;, &quot;pills&quot;: [], &quot;id&quot;: &quot;item-013&quot;, &quot;url&quot;: &quot;https://www.gri.msstate.edu/&quot;, &quot;url_label&quot;: &quot;\ud83d\udd0d MSU GRI website&quot;, &quot;contact&quot;: &quot;Browse INSTAAR faculty at&quot;}">&#9734; Save to My List</button></div>
-
-<!-- ===== SOUTH TAB ===== -->
-<div id="tab-south" class="psec">
-  <div class="tip">Southern programs &mdash; strong match for Erin's Appalachian field experience and WCU background. Two positions directly tied to Hurricane Helene recovery research.</div>
-
-  <!-- NC State Hurricane Helene -->
-  <div class="pc2 confirmed">
-    <div class="ph2"><div><div class="pn">NC State University &mdash; Hurricane Helene Forest Recovery <span class="status-badge s-new">New find</span></div><div class="pl">Raleigh, NC &middot; Forestry &amp; Environmental Resources</div></div><span class="badge mx">Exceptional fit</span></div>
-    <div class="pb2">Funded MS position (preferred start May 2026) studying Hurricane Helene forest damage and recovery in western NC Pisgah National Forest oak-hickory forests. Vegetation and wildlife inventory methods. Co-advised by Drs. Jodi Forrester &amp; Chris Moorman (NC State) and Dr. Tara Keyser (USDA FS). This is the single best match for Erin's background.</div>
-    <div class="slinks">
-      <a class="sl2" href="https://cnr.ncsu.edu/fer/">&#128269; NC State Dept. of Forestry &amp; Env. Resources</a>
-    </div>
-    <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
-    <div class="more-panel">
-      <h4>Why this is Erin's #1 match</h4>
-      <p>This project studies the same Hurricane Helene event that Erin researched for her senior capstone &mdash; just from a forest ecology rather than water quality angle. The field site (Pisgah National Forest near Asheville) is adjacent to where Erin conducted her Pigeon River Basin research. Her WCU background, Appalachian field experience, wildlife coursework, and NRM 479 mammalogy skills all directly support this position. She can honestly say she has studied the same event from a complementary angle &mdash; that's a compelling narrative.</p>
-      <div class="detail-row"><span class="detail-label">Stipend</span>Funded (rate TBD; NC State MS typically $18k&ndash;$23k)</div>
-      <div class="detail-row"><span class="detail-label">Tuition</span>Full waiver</div>
-      <div class="detail-row"><span class="detail-label">Start</span>May 2026 preferred</div>
-      <div class="detail-row"><span class="detail-label">GRE</span>Not required by NC State</div>
-      <div class="detail-row"><span class="detail-label">&#128197; Fall application deadline (aid)</span><strong style="color:#993c1d">January 31</strong> for financial aid; June 25 admission only</div>
-      <div class="detail-row"><span class="detail-label">&#128197; Spring deadline</span>September 30 (aid); November 25 (admission only)</div>
-      <div class="detail-row"><span class="detail-label">&#9888; Contact professor first</span>Email Dr. Forrester to confirm position availability before applying</div>
-      <div class="contact-block">Email Dr. Jodi Forrester: <a href="mailto:jodi_forrester@ncsu.edu">jodi_forrester@ncsu.edu</a><br>Single PDF: letter of interest + CV + unofficial transcripts + 3 references. Subject: "Hurricane Helene MS position inquiry." Lead with the Pigeon River research connection in your opening paragraph.</div>
-    </div>
-  </div>
-
-  <!-- MSU Hydrology -->
-  <div class="pc2 ft">
-    <div class="ph2"><div><div class="pn">Mississippi State University &mdash; Forest Hydrology &amp; Soils Lab <span class="status-badge s-open">Verified open</span></div><div class="pl">Starkville, MS &middot; Dept. of Forestry</div></div><span class="badge mw">Active opening</span></div>
-    <div class="pb2">Three-year funded MS research assistantship starting January 2026 in the Forest Hydrology and Soils Lab (Dr. Courtney Siegert). NSF-FIRE project investigating how back-to-back extreme weather events drive forest hydrology and flammability in the southeastern US. Fully funded: full tuition waiver + $22k stipend + health insurance + conference travel support.</div>
-    <div class="slinks">
-      <a class="sl2" href="https://www.forestry.msstate.edu/">&#128269; MSU Dept. of Forestry</a>
-      <a class="sl2" href="https://www.google.com/search?q=Courtney+Siegert+Mississippi+State+Forest+Hydrology+Soils+Lab+NSF+graduate+assistantship">&#128269; Search Dr. Siegert lab</a>
-    </div>
-    <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
-    <div class="more-panel">
-      <h4>Project details</h4>
-      <p>This is an NSF-FIRE funded project investigating how "whiplashes" (back-to-back extreme wet/dry events) in moisture patterns drive forest hydrology and flammability across southeastern landscapes. The student will work with an interdisciplinary team at MSU, NC State, and the USDA Forest Service. Work includes quantifying regional fuel loadings and conducting field-scale fuel moisture dynamic experiments.</p>
-      <h4>Funding</h4>
-      <div class="detail-row"><span class="detail-label">Stipend</span>$22,000/yr</div>
-      <div class="detail-row"><span class="detail-label">Duration</span>3 years fully funded</div>
-      <div class="detail-row"><span class="detail-label">Tuition</span>Full waiver</div>
-      <div class="detail-row"><span class="detail-label">Health insurance</span>Included</div>
-      <div class="detail-row"><span class="detail-label">Conference travel</span>Supplemental funding available</div>
-      <div class="detail-row"><span class="detail-label">Start date</span>January 2026 (may be filled &mdash; verify; ask about future openings)</div>
-      <div class="detail-row"><span class="detail-label">&#128197; Fall 2026 deadline</span><strong style="color:#993c1d">December 1</strong> domestic / October 1 international (for Dr. Siegert lab)</div>
-      <div class="detail-row"><span class="detail-label">&#9888; Contact first</span>Email Dr. Siegert before applying to confirm funding availability</div>
-      <h4>Fit assessment</h4>
-      <p>Strong match for Erin's hydrology and water quality background (ENVH 310, GEOL 423), forest ecosystems exposure (NRM 330, NRM 351), and field experience. Applying to environmental science, hydrology, or forestry backgrounds explicitly welcome. If this specific position is filled, contact Dr. Siegert about future openings or related projects.</p>
-      <div class="contact-block">Dr. Courtney Siegert &mdash; <a href="mailto:courtney.siegert@msstate.edu">courtney.siegert@msstate.edu</a><br>Subject: "Application for Fire MS Assistantship." Send CV + brief statement of research experience. Ask about January 2026 status and any upcoming openings.</div>
-    </div>
-  </div>
-
-  <!-- LSU South -->
-  <div class="pc2">
-    <div class="ph2"><div><div class="pn">Louisiana State University &mdash; WABL &amp; Coastal Sciences <span class="status-badge s-open">Verified open</span></div><div class="pl">Baton Rouge, LA &middot; Dept. of Oceanography &amp; Coastal Sciences</div></div><span class="badge mg">Good fit</span></div>
-    <div class="pb2">Dr. John White's WABL lab has a PhD assistantship available for Fall 2026 in coastal wetland biogeochemistry. Also, Dr. Kaelyn Fogelman's new lab has a funded MS/PhD position on crayfish &amp; unionid mussels responding to environmental stress (Jan or May 2026). MS minimum stipend $23,000&ndash;$28,000/yr. Strong match for water quality and wetland background.</div>
-    <div class="slinks">
-      <a class="sl2" href="https://faculty.lsu.edu/whitelab/">&#128269; LSU WABL lab</a>
-      <a class="sl2" href="https://faculty.lsu.edu/whitelab/graduateassistantships.php">&#128269; WABL assistantships</a>
-    </div>
-    <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
-    <div class="more-panel">
-      <h4>Two active opportunities</h4>
-      <p><strong style="font-weight:500">WABL (Dr. John White)</strong> &mdash; PhD assistantship for Fall 2026 in coastal wetland systems. MS minimum $23,000/yr; PhD $31,000/yr. Full tuition + 75% health insurance. Must contact Dr. White and secure commitment before applying. Contact: <a href="mailto:jrwhite@lsu.edu" style="color:var(--blue)">jrwhite@lsu.edu</a></p>
-      <p><strong style="font-weight:500">Fogelman Lab (Dr. Kaelyn Fogelman)</strong> &mdash; New lab recruiting MS/PhD for Jan or May 2026. Focus: crayfish and unionid mussels, environmental stress, lab experiments + pond studies + field work across Louisiana and southeastern US. MS stipend $28,000/yr; PhD $31,000/yr + full tuition + 75% health insurance. Contact: <a href="mailto:kfogelman@agcenter.lsu.edu" style="color:var(--blue)">kfogelman@agcenter.lsu.edu</a></p>
-      <h4>Key process note</h4>
-      <p>LSU's College of the Coast &amp; Environment requires a faculty commitment before you apply. Email first, secure support, then submit the formal application. This is non-negotiable per their graduate program policy.</p>
-    </div>
-  </div>
-
-  <!-- Auburn South -->
-  <div class="pc2">
-    <div class="ph2"><div><div class="pn">Auburn University &mdash; ACFWRU <span class="status-badge s-check">Verify status</span></div><div class="pl">Auburn, AL &middot; Biological Sciences / Natural Resources</div></div><span class="badge mo">Solid option</span></div>
-    <div class="pb2">Alabama Cooperative Fish &amp; Wildlife Research Unit has funded MS positions in wildlife surveys and fish ecology. Good match for wildlife management planning and mammalogy field skills. Contact unit leaders directly to confirm current openings.</div>
-    <div class="slinks">
-      <a class="sl2" href="https://www.auburn.edu/cosam/departments/biology/research/alabamacfwru/">&#128269; Auburn ACFWRU website</a>
-    </div>
-    <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
-    <div class="more-panel">
-      <h4>About</h4>
-      <p>The Alabama CFWRU is a federally-funded research partnership at Auburn providing graduate students with hands-on wildlife and fisheries research experience with real management implications. Students work on questions posed by state and federal agencies.</p>
-      <div class="contact-block">Browse unit researchers at the ACFWRU website and contact those whose work matches Erin's background in mammalogy, wildlife survey methods, or southern species ecology.</div>
-    </div>
-  </div>
-
-  <!-- UGA South -->
-  <div class="pc2">
-    <div class="ph2"><div><div class="pn">University of Georgia &mdash; Odum School / SREL <span class="status-badge s-check">Verify status</span></div><div class="pl">Athens, GA / Aiken, SC</div></div><span class="badge mg">Good fit</span></div>
-    <div class="pb2">UGA's Odum School of Ecology and Savannah River Ecology Lab both offer competitive funded MS positions. Research in aquatic ecology, contaminant biogeochemistry, and wetland systems aligns strongly with Erin's coursework. Strong institutional reputation. Contact faculty directly.</div>
-    <div class="slinks">
-      <a class="sl2" href="https://odum.uga.edu/graduate/">&#128269; UGA Odum School grad program</a>
-      <a class="sl2" href="https://www.srel.uga.edu/">&#128269; SREL website</a>
-    </div>
-    <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
-    <div class="more-panel">
-      <h4>Two pathways at UGA</h4>
-      <p><strong style="font-weight:500">Odum School of Ecology MS:</strong> One of the premier ecology graduate programs in the US. Competitive; requires strong GPA and research experience. Erin's 3.731 GPA and capstone research are strong credentials. Browse faculty at odum.uga.edu.</p>
-      <p><strong style="font-weight:500">Savannah River Ecology Lab (SREL):</strong> Field station near Aiken, SC. Research in aquatic-terrestrial linkages, contaminant ecology, herpetology, and radioecology. Graduate students enroll in UGA Odum School while based at SREL. Strong match for Erin's contaminated rivers and water quality background.</p>
-      <div class="contact-block">Browse Odum School faculty at <a href="https://odum.uga.edu/people/">odum.uga.edu/people</a> and SREL researchers at <a href="https://www.srel.uga.edu/people/">srel.uga.edu/people</a>. Contact 2&ndash;3 faculty directly with CV and Pigeon River research summary before applying.</div>
-    </div>
-  </div>
-</div>
-
-<hr>
-<div class="slabel">General search resources</div>
-<div class="card">
-  <div class="card-title" style="margin-bottom:.85rem">Find more funded positions</div>
-  <a class="rl" href="https://ecophys-jobs.org/grad.html">&#128269;&nbsp; ecophys-jobs.org &mdash; aggregated ecology &amp; environmental grad positions (updated regularly)</a>
-  <a class="rl" href="https://jobs.rwfm.tamu.edu/">&#128269;&nbsp; Texas A&amp;M Natural Resources Job Board &mdash; graduate assistantship listings</a>
-  <a class="rl" href="https://jobs.fisheries.org/q-graduate-research-assistant-jobs.html">&#128269;&nbsp; American Fisheries Society Career Center &mdash; graduate positions</a>
-  <a class="rl" href="https://www.google.com/search?q=wetlands+water+quality+contamination+MS+research+assistantship+2026+funded">&#128269;&nbsp; Wetlands &amp; water quality MS positions 2026</a>
-  <a class="rl" href="https://www.google.com/search?q=wildlife+ecology+mammalogy+MS+research+assistantship+2026+southeastern+US">&#128269;&nbsp; Wildlife ecology MS positions southeastern US 2026</a>
-  <a class="rl" href="https://www.google.com/search?q=Hurricane+Helene+forest+recovery+ecology+MS+PhD+research+assistantship+2026">&#128269;&nbsp; Hurricane Helene ecology research positions 2026</a>
-  <a class="rl" href="https://www.google.com/search?q=GIS+environmental+science+remote+sensing+MS+research+assistantship+2026">&#128269;&nbsp; GIS / remote sensing environmental science MS positions</a>
-</div>
-
-<p class="footer">Verified against current listings as of May 2026. Position availability changes rapidly &mdash; confirm directly with each program before applying. "Verified open" means actively confirmed in current web search; "Verify status" means previously posted but fill date unknown.<br><br><a href="index.html" style="color:var(--blue)">&#8592; Back to home</a>&nbsp;&nbsp;<a href="erin_outreach.html" style="color:var(--blue)">&#9997; Statement of purpose &amp; outreach emails</a></p>
-</div>
-
-<script>
-function showTab(n,b){
-  document.querySelectorAll('.psec').forEach(function(e){e.classList.remove('active')});
-  document.querySelectorAll('.tab').forEach(function(e){e.classList.remove('active')});
-  document.getElementById('tab-'+n).classList.add('active');
-  b.classList.add('active');
-}
-function toggleMore(btn){
-  var panel=btn.nextElementSibling;
-  var open=panel.classList.toggle('open');
-  btn.textContent=open?'− Less info':'+ More info';
-}
-</script>
-
-
-
-
-
-<style>
-.ml-save-btn{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:500;padding:5px 14px;border-radius:999px;border:1.5px solid var(--teal);background:transparent;color:var(--teal-t);cursor:pointer;font-family:inherit;margin-top:.6rem;transition:background .12s,color .12s}
-.ml-save-btn:hover{background:var(--teal-bg)}
-.ml-save-btn.saved{background:var(--teal-bg);color:var(--teal-t)}
-@media(prefers-color-scheme:dark){.ml-save-btn{color:var(--teal-t)}.ml-save-btn:hover,.ml-save-btn.saved{background:var(--teal-t)}}
-</style>
+<script src="opportunities.js?v=20260518-87-dc3b3a1e"></script>
 <script>
 (function(){
 var BIN_ID='6a039aa4250b1311c33f2bac',API_KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa',STORE='erin_mylist_v1';
 function getSaved(){try{return JSON.parse(localStorage.getItem(STORE)||'{}')}catch(e){return{}}}
 function setSaved(m){localStorage.setItem(STORE,JSON.stringify(m));}
 function isSaved(id){return!!getSaved()[id];}
+function isPrimary(){return localStorage.getItem('erin_primary_device')==='1'||localStorage.getItem('erin_primary_device_bak')==='1';}
 function push(m){
-  fetch('https://api.jsonbin.io/v3/b/'+BIN_ID,{
-    method:'PUT',
-    headers:{'Content-Type':'application/json','X-Master-Key':API_KEY,'X-Bin-Versioning':'false'},
-    body:JSON.stringify({items:m})
-  }).catch(function(){});
+  if(!isPrimary()) return;            /* only Erin's primary laptop writes to the cloud */
+  fetch('https://api.jsonbin.io/v3/b/'+BIN_ID+'/latest',{headers:{'X-Master-Key':API_KEY}})
+    .then(function(r){return r.json();})
+    .then(function(data){
+      var rec=(data&&data.record)||{};
+      rec.items=m;                    /* merge: only replace items, keep apps/archiveLog/etc */
+      return fetch('https://api.jsonbin.io/v3/b/'+BIN_ID,{
+        method:'PUT',
+        headers:{'Content-Type':'application/json','X-Master-Key':API_KEY,'X-Bin-Versioning':'false'},
+        body:JSON.stringify(rec)
+      });
+    }).catch(function(){});
 }
 window.ML={
   isSaved:isSaved,
@@ -891,56 +170,205 @@ document.addEventListener('DOMContentLoaded',function(){
 });
 })();
 </script>
-
-
 <script>
-function pageSearch(q){
-  var inp=document.getElementById('psr-input');
-  var clr=document.getElementById('psr-clear');
-  var cnt=document.getElementById('psr-count');
-  if(clr) clr.style.display=q?'block':'none';
-  
-  // Find all searchable cards and card-like blocks
-  var cards=document.querySelectorAll('.pos-card,.card,.context-banner,.card-deadline');
-  var shown=0, hidden=0;
-  var ql=q.toLowerCase().trim();
-  
-  cards.forEach(function(card){
-    if(!ql){ card.classList.remove('search-hidden'); shown++; return; }
-    var text=card.textContent.toLowerCase();
-    if(text.indexOf(ql)>-1){ card.classList.remove('search-hidden'); shown++; }
-    else{ card.classList.add('search-hidden'); hidden++; }
-  });
-  
-  // Also hide/show slabels that have no visible children
-  document.querySelectorAll('.slabel,.section-label,.ph2').forEach(function(lbl){
-    if(!ql){ lbl.classList.remove('search-hidden'); return; }
-    // Find next sibling cards
-    var el=lbl.nextElementSibling;
-    var anyVisible=false;
-    while(el&&!el.classList.contains('slabel')&&!el.classList.contains('rl-wrap')){
-      if(el.classList.contains('pos-card')||el.classList.contains('card')){
-        if(!el.classList.contains('search-hidden')) anyVisible=true;
-      }
-      el=el.nextElementSibling;
-    }
-    lbl.classList.toggle('search-hidden',!anyVisible);
-  });
-  
-  if(cnt){
-    if(ql) cnt.textContent=shown+' result'+(shown===1?'':'s');
-    else cnt.textContent='';
-  }
-}
-// Keyboard shortcut: / to focus search
-document.addEventListener('keydown',function(e){
-  if(e.key==='/'&&document.activeElement.tagName!=='INPUT'&&document.activeElement.tagName!=='TEXTAREA'){
-    e.preventDefault();
-    var inp=document.getElementById('psr-input');
-    if(inp) inp.focus();
-  }
-});
-</script>
+(function(){
+/* lean per-type Browse page — data-driven, primary-gated save reused */
+function el(tag,cls,txt){ var e=document.createElement(tag); if(cls)e.className=cls; if(txt!=null)e.textContent=txt; return e; }
+function payload(it){ return {title:it.title,org:it.org,type:it.type,cat:it.cat,src:it.src,
+  src_label:it.src_label,deadline:it.deadline||'',start:it.start||'',body:it.body||'',
+  desc:it.desc||'',badge:it.badge||'',pills:it.pills||[],id:it.id}; }
+function has(id){ return !!(window.ML&&ML.isSaved(id)); }
+function addItem(it){ if(window.ML) ML.save(payload(it)); }
+function delItem(id){ if(window.ML) ML.remove(id); }
+function renderBrowse(){ renderBrowseX(); }
+var TODAY=new Date('2026-05-17T00:00:00');
+function daysUntil(d){ if(!d) return null; return Math.round((new Date(d+'T00:00:00')-TODAY)/86400000); }
+function typeOf(it){ var c=(it.cat||it.type||'');
+  if(/Graduate/.test(c))return'Graduate'; if(/Internship/.test(c))return'Internship';
+  if(/Career/.test(c))return'Career'; if(/Service/.test(c))return'Service'; return'Other'; }
+var BUCKETS=['Closing soon','Upcoming — dated deadline','Open now / rolling','Contact faculty first','Timing unconfirmed','Deadline passed (kept for reference)'];
+function bucketOf(it){ var k=it.deadline_kind||'unknown', du=daysUntil(it.deadline_date);
+  if(k==='passed') return 5;
+  if(k==='fixed'&&du!=null&&du>=0&&du<=45) return 0;
+  if(k==='fixed'&&du!=null&&du>=0) return 1;
+  if(k==='rolling') return 2;
+  if(k==='contact-first') return 3;
+  return 4; }
+function fitRank(b){ b=(b||'').toLowerCase();
+  if(/exception|top recommend/.test(b))return 0; if(/strong/.test(b))return 1;
+  if(/good|solid|verified open|open now/.test(b))return 2; return 3; }
 
+/* extensible filter config — universal + per-type subfilters */
+var TYPES=['All','Graduate','Internship','Career','Service'];
+var CYCLES=[['All','All'],['Current','current'],['Next cycle','next']];
+var STATUSES=[['All',-1],['Closing soon',0],['Upcoming',1],['Open / rolling',2],['Contact first',3],['Unconfirmed',4],['Passed',5]];
+var FITS=['All','Exceptional','Strong','Good'];
+var SUB={
+ Graduate:[{k:'fund',label:'Funding',opts:['All','Funded/Assistantship'],
+   test:function(it,v){return v==='All'||/assistantship|fully funded|\bfunded\b|stipend|tuition waiver/i.test((it.desc||it.body||'')+(it.metaLine||''));}}],
+ Career:[{k:'sector',label:'Sector',opts:['All','Federal','State','Private/NGO'],
+   test:function(it,v){var s=(it.org||'')+' '+(it.desc||it.body||'');if(v==='All')return true;
+     var fed=/USFWS|US Fish|USGS|\bBLM\b|federal|GS-?\d|National Park|NOAA|USDA|Forest Service|Army Corps/i.test(s);
+     var st=/\bstate\b|NCWRC|Wildlife Resources Commission|Dept\.? of (Natural|Environment)/i.test(s);
+     if(v==='Federal')return fed; if(v==='State')return st&&!fed; return !fed&&!st;}}],
+ Internship:[{k:'paid',label:'Paid',opts:['All','Paid / Stipend'],
+   test:function(it,v){return v==='All'||/stipend|\bpaid\b|\$\s?\d|salary|housing provided/i.test((it.desc||it.body||'')+(it.metaLine||'')+(it.pay||''));}}],
+ Service:[{k:'prog',label:'Program',opts:['All','AmeriCorps','Conservation Corps'],
+   test:function(it,v){var s=(it.title||'')+' '+(it.org||'')+' '+(it.desc||'');if(v==='All')return true;
+     if(v==='AmeriCorps')return/americorps/i.test(s); return /conservation corps|\bcorps\b/i.test(s);}}]
+};
+/* multi-select state: each category is an array; [] === "All" */
+var LOCK_TYPE='Graduate';
+var BX={type:LOCK_TYPE?[LOCK_TYPE]:[],cycle:[],status:[],fit:[],fresh:[],sub:{}};
+function isNewItem(it){ return !!(it.status && /(^|\W)new(\W|$)|new find/i.test(it.status.label||'')); }
+function isUpdatedItem(it){ return !!(it.status && /updated/i.test(it.status.label||'')); }
+var FRESH=[['✨ New','new'],['Updated','upd']];
+function has1(a,v){ return a.indexOf(v)>-1; }
+function toggle1(a,v){ var i=a.indexOf(v); if(i>-1)a.splice(i,1); else a.push(v); }
+function fitLabel(it){ return ['Exceptional','Strong','Good',''][fitRank(it.badge)]; }
+
+function chip(label,on,fn){ var b=el('button','bx-chip'+(on?' on':''),label); b.type='button'; b.onclick=fn; return b; }
+function fgroup(label,children){ var g=el('div','bx-fgroup'); g.appendChild(el('span','bx-flabel',label));
+  children.forEach(function(c){g.appendChild(c);}); return g; }
+/* a multi-select group: an "All" chip (on when nothing picked, clears the
+   category) followed by toggle chips (multiple may be active). */
+function mgroup(label,arr,opts){
+  var kids=[chip('All',arr.length===0,function(){ arr.length=0; renderBrowse(); })];
+  opts.forEach(function(o){ var lbl=o[0],val=o[1];
+    kids.push(chip(lbl,has1(arr,val),function(){ toggle1(arr,val); renderBrowse(); })); });
+  return fgroup(label,kids);
+}
+
+function buildBrowseFiltersX(){
+  var w=document.getElementById('browse-filters'); if(!w) return;
+  w.className='bx-fwrap'; w.innerHTML='';
+  if(!LOCK_TYPE) w.appendChild(mgroup('Type', BX.type, TYPES.slice(1).map(function(t){return [t,t];})));
+  w.appendChild(mgroup('Cycle', BX.cycle, CYCLES.slice(1)));
+  w.appendChild(mgroup('Status', BX.status, STATUSES.slice(1)));
+  w.appendChild(mgroup('Fit', BX.fit, FITS.slice(1).map(function(f){return [f,f];})));
+  w.appendChild(mgroup('New', BX.fresh, FRESH));
+  // per-type subfilters: shown for each selected type (extensible config)
+  BX.type.forEach(function(t){ (SUB[t]||[]).forEach(function(sf){
+    if(!BX.sub[sf.k]) BX.sub[sf.k]=[];
+    w.appendChild(mgroup(sf.label, BX.sub[sf.k], sf.opts.slice(1).map(function(o){return [o,o];})));
+  }); });
+}
+
+function buildBrowseDetailX(it){
+  var d=el('div','item-detail'); d.id='bb-'+it.id;
+  var kindLbl={fixed:'Dated deadline',rolling:'Open / rolling','contact-first':'Contact faculty first',passed:'Deadline passed',unknown:'Timing unconfirmed'}[it.deadline_kind||'unknown'];
+  var top=el('div','id-meta-row');
+  var ki=el('div','id-meta-item'); ki.innerHTML='<strong>Status:</strong> '+kindLbl+(it.deadline_date?(' · '+it.deadline_date):''); top.appendChild(ki);
+  if(it.deadline){ var di=el('div','id-meta-item'); di.innerHTML='<strong>Deadline:</strong> '+it.deadline; top.appendChild(di); }
+  if(it.start){ var si=el('div','id-meta-item'); si.innerHTML='<strong>Start:</strong> '+it.start; top.appendChild(si); }
+  d.appendChild(top);
+  if(it.badge){ d.appendChild(el('div','id-badge',it.badge)); }
+  d.appendChild(el('div','id-section-label','About this opportunity'));
+  d.appendChild(el('div','id-body', it.desc||it.body||''));
+  if(it.pills&&it.pills.length){ d.appendChild(el('div','id-section-label','Focus areas'));
+    var pd=el('div','id-pills'); it.pills.forEach(function(p){pd.appendChild(el('span','id-pill',p));}); d.appendChild(pd); }
+  if(it.pay||it.location||it.stipend||it.benefits){ d.appendChild(el('div','id-section-label','Compensation & location'));
+    var mr=el('div','id-meta-row');
+    if(it.pay){var x=el('div','id-meta-item');x.innerHTML='<strong>Pay:</strong> '+it.pay;mr.appendChild(x);}
+    if(it.stipend){var x2=el('div','id-meta-item');x2.innerHTML='<strong>Stipend:</strong> '+it.stipend;mr.appendChild(x2);}
+    if(it.location){var x3=el('div','id-meta-item');x3.innerHTML='<strong>Location:</strong> '+it.location;mr.appendChild(x3);}
+    if(it.benefits){var x4=el('div','id-meta-item');x4.innerHTML='<strong>Benefits:</strong> '+it.benefits;mr.appendChild(x4);} d.appendChild(mr); }
+  if(it.detail&&it.detail.length){ d.appendChild(el('div','id-section-label','Application detail'));
+    it.detail.forEach(function(b){
+      if(b.t==='h') d.appendChild(el('div','id-section-label',b.v));
+      else if(b.t==='row'){ var r=el('div','id-meta-item'); r.innerHTML='<strong>'+b.label+':</strong> '+b.value; d.appendChild(r); }
+      else if(b.t==='contact'){ var c=el('div','id-body',b.v); c.style.fontSize='12px'; d.appendChild(c); }
+      else { var p=el('div','id-body',b.v); p.style.fontSize='12px'; d.appendChild(p); }
+    }); }
+  if(it.extbody){ d.appendChild(el('div','id-section-label','Additional detail')); var eb=el('div','id-body',it.extbody); eb.style.fontSize='12px'; d.appendChild(eb); }
+  if(it.contact){ d.appendChild(el('div','id-section-label','How to apply / contact')); var cb=el('div','id-body',it.contact); cb.style.fontSize='12px'; d.appendChild(cb); }
+  var ln=document.createElement('div'); ln.style.cssText='display:flex;flex-wrap:wrap;gap:6px;margin-top:.5rem';
+  (it.links||[]).forEach(function(l){ var a=document.createElement('a'); a.className='id-link'; a.href=l.href; a.target='_blank'; a.textContent=l.label; ln.appendChild(a); });
+  if(it.url){ var au=document.createElement('a'); au.className='id-link id-link-primary'; au.href=it.url; au.target='_blank'; au.innerHTML='&#128279; '+(it.url_label||'Apply / View posting')+' &rarr;'; ln.appendChild(au); }
+  if(it.src){ var as=document.createElement('a'); as.className='id-link'; as.href=it.src; as.target='_blank'; as.textContent='Open '+(it.src_label||'source page'); ln.appendChild(as); }
+  if(it.id){ var ap=document.createElement('a'); ap.className='id-link'; ap.href='erin_packet.html?ml='+encodeURIComponent(it.id); ap.innerHTML='&#128424; Print packet'; ln.appendChild(ap); }
+  if(ln.children.length) d.appendChild(ln);
+  return d;
+}
+
+function renderBrowseX(){
+  buildBrowseFiltersX();
+  var q=((document.getElementById('bs')||{}).value||'').toLowerCase();
+  var items=ALL.filter(function(it){
+    if(BX.type.length   && !has1(BX.type,typeOf(it))) return false;
+    if(BX.cycle.length  && !has1(BX.cycle,(it.cycle||'current'))) return false;
+    if(BX.status.length && !has1(BX.status,bucketOf(it))) return false;
+    if(BX.fit.length    && !has1(BX.fit,fitLabel(it))) return false;
+    if(BX.fresh.length){ var fOk=false;
+      if(has1(BX.fresh,'new')&&isNewItem(it)) fOk=true;
+      if(has1(BX.fresh,'upd')&&isUpdatedItem(it)) fOk=true;
+      if(!fOk) return false; }
+    // subfilters: only for selected types; OR within a subfilter group
+    for(var t=0;t<BX.type.length;t++){ var defs=SUB[BX.type[t]]||[];
+      for(var i=0;i<defs.length;i++){ var sf=defs[i], picks=BX.sub[sf.k]||[];
+        if(picks.length){ var ok=false;
+          for(var p=0;p<picks.length;p++){ if(sf.test(it,picks[p])){ ok=true; break; } }
+          if(!ok) return false; } } }
+    if(q){ var hay=(it.title+it.org+(it.cat||'')+(it.deadline||'')+(it.desc||it.body||'')+(it.pills||[]).join(' ')).toLowerCase(); if(hay.indexOf(q)<0) return false; }
+    return true;
+  });
+  items.sort(function(a,b){
+    var ba=bucketOf(a),bb=bucketOf(b); if(ba!==bb) return ba-bb;
+    if(ba===0||ba===1){ var da=daysUntil(a.deadline_date),db=daysUntil(b.deadline_date);
+      if(da!=null&&db!=null&&da!==db) return da-db; }
+    var fa=fitRank(a.badge),fb=fitRank(b.badge); if(fa!==fb) return fa-fb;
+    return (a.title||'').localeCompare(b.title||'');
+  });
+  var body=document.getElementById('browse-body'); body.innerHTML='';
+  var hdr=el('div',null); hdr.style.cssText='font-size:12px;color:var(--t3);margin:.25rem 0 .5rem';
+  hdr.textContent=items.length+' opportunit'+(items.length===1?'y':'ies')+' · sorted by urgency, then fit';
+  body.appendChild(hdr);
+  if(!items.length){ body.appendChild(el('div','empty','No matches — adjust filters.')); return; }
+  var curB=-1;
+  items.forEach(function(raw){
+    var it=(typeof mergeWithAll==='function')?mergeWithAll(raw):raw;
+    var bk=bucketOf(raw);
+    if(bk!==curB){ curB=bk; var sec=el('div','bx-sec'); sec.innerHTML=BUCKETS[bk]+' <span class="n">'+items.filter(function(z){return bucketOf(z)===bk;}).length+'</span>'; body.appendChild(sec); }
+    var saved=(typeof has==='function')&&has(it.id);
+    var fresh=isNewItem(it);
+    var card=el('div','browse-card'+(saved?' is-saved':'')+(fresh?' is-new':'')); card.id='bcx-'+it.id;
+    var th=el('div',null); th.style.cssText='display:flex;justify-content:space-between;gap:8px;align-items:flex-start';
+    var tl=el('div',null);
+    var titleRow=el('div',null); titleRow.style.cssText='display:flex;align-items:center;gap:7px;flex-wrap:wrap';
+    if(fresh) titleRow.appendChild(el('span','bx-new','✨ NEW'));
+    titleRow.appendChild(el('div','browse-title',it.title));
+    if(saved) titleRow.appendChild(el('span','bx-saved','✓ Saved'));
+    tl.appendChild(titleRow);
+    tl.appendChild(el('div','browse-org',it.org));
+    th.appendChild(tl);
+    var du=daysUntil(it.deadline_date);
+    var urgTxt=bk===0?(du!=null?(du<=0?'Due now':du+'d left'):'Closing soon'):bk===1?'Upcoming':bk===2?'Open now':bk===3?'Contact first':bk===4?'Check timing':'Passed';
+    var u=el('span','bx-urg u'+bk,urgTxt); th.appendChild(u);
+    card.appendChild(th);
+    var meta=el('div','browse-meta');
+    if(it.deadline){ var dm=el('span'); dm.innerHTML='<strong style="font-weight:500">Deadline:</strong> '+it.deadline; meta.appendChild(dm); }
+    if(it.badge){ if(it.deadline)meta.appendChild(el('span',null,' · ')); var bm=el('span'); bm.textContent=it.badge; meta.appendChild(bm); }
+    card.appendChild(meta);
+    var bd=buildBrowseDetailX(it); card.appendChild(bd);
+    var acts=el('div','item-actions');
+    var dbt=el('button','act-btn','Details');
+    dbt.onclick=function(ev){ ev.stopPropagation(); bd.classList.toggle('open'); dbt.textContent=bd.classList.contains('open')?'Hide details':'Details'; };
+    acts.appendChild(dbt); card.appendChild(acts);
+    var sv=el('button','browse-save-btn'+(saved?' saved':''), saved?'✓ Saved':'+ Save');
+    sv.onclick=function(){ if(typeof has==='function'&&has(it.id)){ if(typeof delItem==='function')delItem(it.id); } else if(typeof addItem==='function'){ addItem(it); } renderBrowse(); if(typeof renderList==='function')renderList(); };
+    card.appendChild(sv);
+    card.onclick=function(ev){ if(ev.target.closest('a')||ev.target.closest('button'))return; bd.classList.toggle('open'); };
+    body.appendChild(card);
+  });
+}
+function init(){
+  var s=document.getElementById('bs'); if(s) s.addEventListener('input',renderBrowseX);
+  renderBrowseX();
+  if(window.ML&&ML.update) ML.update();
+}
+if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',init);
+else init();
+})();
+</script>
 </body>
 </html>

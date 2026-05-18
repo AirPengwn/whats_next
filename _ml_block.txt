@@ -1,0 +1,45 @@
+<script>
+(function(){
+var BIN_ID='6a039aa4250b1311c33f2bac',API_KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa',STORE='erin_mylist_v1';
+function getSaved(){try{return JSON.parse(localStorage.getItem(STORE)||'{}')}catch(e){return{}}}
+function setSaved(m){localStorage.setItem(STORE,JSON.stringify(m));}
+function isSaved(id){return!!getSaved()[id];}
+function isPrimary(){return localStorage.getItem('erin_primary_device')==='1'||localStorage.getItem('erin_primary_device_bak')==='1';}
+function push(m){
+  if(!isPrimary()) return;            /* only Erin's primary laptop writes to the cloud */
+  fetch('https://api.jsonbin.io/v3/b/'+BIN_ID+'/latest',{headers:{'X-Master-Key':API_KEY}})
+    .then(function(r){return r.json();})
+    .then(function(data){
+      var rec=(data&&data.record)||{};
+      rec.items=m;                    /* merge: only replace items, keep apps/archiveLog/etc */
+      return fetch('https://api.jsonbin.io/v3/b/'+BIN_ID,{
+        method:'PUT',
+        headers:{'Content-Type':'application/json','X-Master-Key':API_KEY,'X-Bin-Versioning':'false'},
+        body:JSON.stringify(rec)
+      });
+    }).catch(function(){});
+}
+window.ML={
+  isSaved:isSaved,
+  update:function(){
+    document.querySelectorAll('.ml-save-btn').forEach(function(b){
+      var id=b.getAttribute('data-id');
+      if(isSaved(id)){b.classList.add('saved');b.innerHTML='&#10003; Saved';}
+      else{b.classList.remove('saved');b.innerHTML='&#9734; Save to My List';}
+    });
+  },
+  save:function(d){var m=getSaved();m[d.id]=d;setSaved(m);push(m);ML.update();},
+  remove:function(id){var m=getSaved();delete m[id];setSaved(m);push(m);ML.update();}
+};
+document.addEventListener('DOMContentLoaded',function(){
+  ML.update();
+  document.querySelectorAll('.ml-save-btn').forEach(function(b){
+    b.addEventListener('click',function(){
+      var id=b.getAttribute('data-id');
+      if(ML.isSaved(id)){ML.remove(id);}
+      else{try{ML.save(JSON.parse(b.getAttribute('data-item')));}catch(e){}}
+    });
+  });
+});
+})();
+</script>

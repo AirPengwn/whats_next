@@ -3,193 +3,63 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Internships — What's Next for Erin</title>
+<script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
+<link rel="stylesheet" href="styles.css?v=20260518e">
+<title>Internships — What’s Next for Erin</title>
 <style>
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-
-body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem;}
-.top-nav{display:flex;align-items:center;gap:12px;margin-bottom:1.25rem}
-.back-btn{font-size:13px;padding:5px 14px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t2);text-decoration:none;display:inline-block}
-.back-btn:hover{background:var(--bg2);color:var(--t1)}
-.pg-title{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3)}
-.slabel{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin-bottom:.75rem}
-.card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1.25rem;margin-bottom:1rem}
-.card-title{font-size:15px;font-weight:500;margin-bottom:.5rem;color:var(--t1)}
-.card-body{font-size:13px;color:var(--t2);line-height:1.7}
-hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
-.tip{border-left:3px solid var(--teal);background:var(--bg2);padding:.85rem 1rem;margin-bottom:.85rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
-.pos-card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:.85rem}
-.pos-card.hot{}
-.pos-header{display:flex;align-items:flex-start;justify-content:space-between;gap:.75rem;margin-bottom:.35rem}
-.pos-title{font-size:14px;font-weight:500;color:var(--t1);line-height:1.4}
-.pos-org{font-size:12px;color:var(--t3);margin-bottom:.5rem}
-.pos-body{font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.65rem}
-.badge{font-size:11px;font-weight:500;padding:3px 9px;border-radius:999px;white-space:nowrap;flex-shrink:0}
-.b-open{background:var(--teal-bg);color:var(--teal-t)}
-.b-check{background:var(--amber-bg);color:var(--amber-t)}
-.b-rolling{background:var(--blue-bg);color:var(--blue)}
-.b-closed{background:var(--bg2);color:var(--t3)}
-
-.meta-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 12px;margin-bottom:.65rem}
-.meta-item{font-size:12px;color:var(--t2)}
-.meta-label{font-weight:500;color:var(--t1)}
-.fit-pills{margin-bottom:.65rem;display:flex;flex-wrap:wrap;gap:4px}
-.fit-pill{display:inline-block;font-size:11px;font-weight:500;padding:3px 9px;border-radius:999px;background:var(--blue-bg);color:var(--blue)}
-
-.pos-links{display:flex;flex-wrap:wrap;gap:4px}
-.pos-link{display:inline-flex;align-items:center;gap:5px;font-size:12px;color:var(--blue);text-decoration:none;padding:3px 0;margin-right:.75rem}
-.pos-link:hover{text-decoration:underline}
-.more-btn{font-size:12px;font-weight:500;padding:4px 13px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn);display:inline-flex;align-items:center;gap:5px;margin-top:.4rem}
-.more-btn:hover{background:var(--bg2);color:var(--t1)}
-.more-panel{display:none;margin-top:.85rem;padding-top:.85rem;border-top:.5px solid var(--bd)}
-.more-panel.open{display:block}
-.more-panel h4{font-size:12px;font-weight:500;color:var(--t3);text-transform:uppercase;letter-spacing:.05em;margin-bottom:.4rem;margin-top:.75rem}
-.more-panel h4:first-child{margin-top:0}
-.more-panel p{font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.5rem}
-.more-panel p:last-child{margin-bottom:0}
-.detail-row{font-size:13px;color:var(--t2);padding:4px 0;border-bottom:.5px solid var(--bd);display:flex;gap:8px}
-.detail-row:last-child{border-bottom:none}
-.detail-label{font-weight:500;color:var(--t1);min-width:120px;flex-shrink:0}
-.contact-block{background:var(--bg2);border-radius:var(--r1);padding:.65rem .85rem;margin-top:.5rem;font-size:13px;color:var(--t2);line-height:1.6}
-.contact-block a{color:var(--blue);text-decoration:none}
-.contact-block a:hover{text-decoration:underline}
-.rl{display:block;font-size:13px;color:var(--blue);text-decoration:none;padding:7px 0;border-bottom:.5px solid var(--bd)}
-.rl:last-child{border-bottom:none}
-.rl:hover{text-decoration:underline}
-.footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
-@media(max-width:520px){.pos-header{flex-direction:column;align-items:flex-start}.meta-grid{grid-template-columns:1fr}}
-
-/* ── Global nav ── */
-.global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
-.gnav-wrap{max-width:720px;margin:0 auto;display:flex;align-items:center}
-.gnav-inner{flex:1;min-width:0;display:flex;align-items:center;gap:0;overflow-x:auto;scrollbar-width:none}
-.gnav-inner::-webkit-scrollbar{display:none}
-.gnav-home{font-size:13px;font-weight:600;color:var(--t1);text-decoration:none;padding:11px 12px 11px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:2px;flex-shrink:0}
-.gnav-home:hover{color:var(--teal-t)}
-.gnav-link{font-size:12px;font-weight:500;color:var(--t3);text-decoration:none;padding:11px 9px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
-.gnav-link:hover{color:var(--t1)}
-.gnav-link.active{color:var(--teal-t);border-bottom-color:var(--teal)}
-.gnav-toggle{flex-shrink:0;width:34px;height:34px;margin-left:8px;display:flex;align-items:center;justify-content:center;border:1.5px solid var(--bd);background:var(--bg2);color:var(--t2);cursor:pointer;border-radius:6px;font-family:var(--fn);font-size:14px;line-height:1;transition:background .12s,border-color .12s}
-.gnav-toggle:hover{background:var(--bg3);border-color:var(--bds);color:var(--t1)}
-html.dark .gnav-toggle{background:var(--bg2);border-color:var(--bd);color:var(--t1)}
-/* Manual dark override (toggle) */
-
-html.dark body{background:var(--bg3);color:var(--t1)}
-
-/* ── Global nav ── */
-.global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
-.gnav-wrap{max-width:720px;margin:0 auto;display:flex;align-items:center}
-.gnav-inner{flex:1;min-width:0;display:flex;align-items:center;gap:0;overflow-x:auto;scrollbar-width:none}
-.gnav-inner::-webkit-scrollbar{display:none}
-.gnav-home{font-size:13px;font-weight:600;color:var(--t1);text-decoration:none;padding:11px 12px 11px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:2px;flex-shrink:0}
-.gnav-home:hover{color:var(--teal-t)}
-.gnav-link{font-size:12px;font-weight:500;color:var(--t3);text-decoration:none;padding:11px 9px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
-.gnav-link:hover{color:var(--t1)}
-.gnav-link.active{color:var(--teal-t);border-bottom-color:var(--teal)}
-.gnav-toggle{flex-shrink:0;width:34px;height:34px;margin-left:8px;display:flex;align-items:center;justify-content:center;border:1.5px solid var(--bd);background:var(--bg2);color:var(--t2);cursor:pointer;border-radius:6px;font-family:var(--fn);font-size:14px;line-height:1;transition:background .12s,border-color .12s}
-.gnav-toggle:hover{background:var(--bg3);border-color:var(--bds);color:var(--t1)}
-html.dark .gnav-toggle{background:var(--bg2);border-color:var(--bd);color:var(--t1)}
-
-.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.5rem}
+body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem}
+.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.25rem}
 .page-header-eyebrow{font-size:11px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-t);margin-bottom:.25rem}
 .page-header-title{font-size:24px;font-weight:700;color:var(--t1);line-height:1.2;letter-spacing:-.02em;margin-bottom:.2rem}
 .page-header-sub{font-size:13px;color:var(--t2);line-height:1.5}
-/* Remove old top-nav bubble gap */
-.top-nav{display:none!important}
-
-.s-updated{
-  display:inline-flex;align-items:center;gap:5px;
-  background:#4c3bc4;color:#fff;
-  font-size:11px;font-weight:700;
-  padding:3px 10px;border-radius:999px;
-  letter-spacing:.03em;white-space:nowrap;
-  vertical-align:middle;margin-left:0
-}
-html.dark .s-updated{background:#6d5fe0;color:#fff}
-
-html.dark .s-updated{background:#2d2563;color:#b5abfa}
-
-.page{max-width:720px;margin:0 auto;padding:0 1rem}
-/* ensure page-header gets left padding from .page */
-.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.5rem}
-
-/* Layout */
-body{padding:0 0 2rem;margin:0}
-.page{max-width:720px;margin:0 auto;padding:0 1rem}
-.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.5rem}
-
-/* ════════════════════════════════════
-   THEME VARIABLES — What's Next for Erin
-   Light: Medium grey scale palette
-   Dark: Forest green palette
-   ════════════════════════════════════ */
-
-/* Light mode base */
-:root {
-  /* Grey scale (Medium palette) */
-  --bg:   #FAFAFA;   /* grey-50  — card white */
-  --bg2:  #F5F5F5;   /* grey-100 — subtle areas */
-  --bg3:  #EEEEEE;   /* grey-200 — page background */
-  --t1:   #212121;   /* grey-900 — primary text */
-  --t2:   #424242;   /* grey-800 — secondary text */
-  --t3:   #757575;   /* grey-600 — muted text */
-  --bd:   rgba(0,0,0,0.10);
-  --bds:  rgba(0,0,0,0.22);
-  /* Shared */
-  --r1:8px;--r2:12px;
-  --fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
-  /* Green accents (from original palette) */
-  --teal:#4e9836;--teal-bg:#eaf3e5;--teal-t:#3c7b20;
-  --blue:#3a7878;--blue-bg:#e5f0f0;
-  --amber:#8a6f00;--amber-bg:var(--amber-bg);--amber-t:var(--amber-t);
-  --red:#993c1d;--red-bg:var(--red-bg);--red-t:#993c1d;
-  --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
-}
-
-/* System dark mode (auto) */
-@media(prefers-color-scheme:dark) {
-  :root {
-    --bg:#1c2018;--bg2:#242b1e;--bg3:#18201a;
-    --t1:#f0ede0;--t2:#c0c4a8;--t3:#9dc8c8;
-    --bd:rgba(157,200,200,0.15);--bds:rgba(157,200,200,0.28);
-    --teal-bg:#2a3d22;--teal-t:#8fc87a;
-    --blue-bg:#1e3535;--amber-bg:#3d3510;--amber-t:#d4c47a;
-    --red-bg:#3d1510;--red-t:#f5a490;
-    --purple-bg:#2d2563;--purple-t:#b5abfa;
-  }
-}
-
-/* Manual toggle — must come LAST so it overrides both :root and @media */
-html.dark {
-  --bg:#1c2018;--bg2:#242b1e;--bg3:#18201a;
-  --t1:#f0ede0;--t2:#c0c4a8;--t3:#9dc8c8;
-  --bd:rgba(157,200,200,0.15);--bds:rgba(157,200,200,0.28);
-  --teal-bg:#2a3d22;--teal-t:#8fc87a;
-  --blue-bg:#1e3535;--amber-bg:#3d3510;--amber-t:#d4c47a;
-  --red-bg:#3d1510;--red-t:#f5a490;
-  --purple-bg:#2d2563;--purple-t:#b5abfa;
-}
-/* Override light mode when .dark is set (belt AND suspenders) */
-html:not(.dark) {
-  --bg:#FAFAFA;--bg2:#F5F5F5;--bg3:#EEEEEE;
-  --t1:#212121;--t2:#424242;--t3:#757575;
-  --bd:rgba(0,0,0,0.10);--bds:rgba(0,0,0,0.22);
-  --teal-bg:#eaf3e5;--teal-t:#3c7b20;
-  --blue-bg:#e5f0f0;--amber-bg:var(--amber-bg);--amber-t:var(--amber-t);
-  --red-bg:var(--red-bg);--red-t:#993c1d;
-  --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
-}
-/* Page search bar */
-.page-search-wrap{display:flex;align-items:center;gap:.5rem;margin-bottom:1.25rem;padding:.5rem .75rem;background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r1)}
-.page-search-icon{font-size:14px;color:var(--t3);flex-shrink:0}
-.page-search-input{flex:1;border:none;background:transparent;outline:none;font-size:13px;color:var(--t1);font-family:var(--fn)}
-.page-search-input::placeholder{color:var(--t3)}
-.page-search-clear{font-size:12px;color:var(--t3);background:none;border:none;cursor:pointer;font-family:var(--fn);flex-shrink:0;display:none}
-.page-search-count{font-size:11px;color:var(--t3);flex-shrink:0;white-space:nowrap}
-.search-hidden{display:none!important}
-
+.footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
+.sec-label{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin:1.25rem 0 .6rem;display:flex;align-items:center;gap:.5rem}
+.sec-count{font-weight:400}
+.item-actions{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin-top:.25rem}
+.act-btn{font-size:12px;color:var(--t3);background:none;border:none;cursor:pointer;padding:0;font-family:var(--fn)}
+.act-btn:hover{color:var(--t1)}
+.browse-card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:.85rem 1.1rem;margin-bottom:.5rem}
+.browse-card.is-saved{border:1.5px solid var(--teal)}
+.browse-title{font-size:14px;font-weight:500;color:var(--t1);line-height:1.4;margin-bottom:1px}
+.browse-org{font-size:12px;color:var(--t3);margin-bottom:.3rem}
+.browse-meta{font-size:12px;color:var(--t2);margin-bottom:.35rem}
+.search-input{font-size:13px;padding:8px 12px;border-radius:var(--r1);border:1px solid var(--bds);background:var(--bg);color:var(--t1);width:100%;font-family:var(--fn);margin-bottom:.85rem}
+.search-input:focus{outline:none;border-color:var(--teal)}
+.empty{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:2.5rem;text-align:center}
+/* Rich detail panel */
+.item-detail{display:none;margin-top:.75rem;padding:.85rem 1rem;background:var(--bg2);border-radius:var(--r1);border:.5px solid var(--bd)}
+.item-detail.open{display:block}
+.id-badge{display:inline-block;font-size:11px;font-weight:600;padding:2px 9px;border-radius:999px;background:var(--teal-bg);color:var(--teal-t);margin-bottom:.55rem}
+.id-section-label{font-size:10px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin:.6rem 0 .2rem}
+.id-body{font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.5rem}
+.id-meta-row{display:flex;gap:1.5rem;flex-wrap:wrap;margin-bottom:.5rem}
+.id-meta-item{font-size:12px;color:var(--t2)}
+.id-pills{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:.5rem}
+.id-pill{font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px;background:var(--teal-bg);color:var(--teal-t)}
+.id-link{display:inline-block;font-size:12px;font-weight:500;color:var(--teal-t);text-decoration:none;margin-top:.4rem;padding:4px 10px;border:1px solid var(--teal);border-radius:6px}
+.id-link-primary{background:var(--teal);color:#fff;font-weight:600}
+.id-link-primary:hover{opacity:.88}
+.id-link:hover{background:var(--teal-bg)}
+  .global-nav, .gnav-inner, button, .add-btn, .del-btn, .save-btn,
+  .mode-tabs, .list-filters, .browse-actions, .item-actions, .note-area,
+  .saved-flash, .app-row, .app-actions, footer, .footer { display:none!important }
+.bx-fgroup{display:flex;align-items:center;gap:4px;flex-wrap:wrap;margin:.15rem 0}
+.bx-flabel{font-size:10px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--t3);min-width:62px}
+.bx-chip{font-size:12px;padding:3px 11px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn)}
+.bx-chip.on{background:var(--teal);color:#fff;border-color:var(--teal);font-weight:600}
+.bx-chip:not(.on):hover{background:var(--bg2);color:var(--t1)}
+.bx-sec{font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--t3);margin:1rem 0 .5rem;display:flex;align-items:center;gap:8px}
+.bx-sec .n{background:var(--bg2);color:var(--t2);border-radius:999px;padding:1px 8px;font-size:11px}
+.bx-saved{font-size:10px;font-weight:700;padding:2px 8px;border-radius:999px;background:var(--teal-bg);color:var(--teal-t);white-space:nowrap}
+.bx-new{font-size:10px;font-weight:800;padding:2px 9px;border-radius:999px;background:#d63a1f;color:#fff;white-space:nowrap;letter-spacing:.04em;box-shadow:0 0 0 2px rgba(214,58,31,.2)}
+html.dark .bx-new{background:#ff5a3c;color:#1a1a1a}
+.browse-card.is-new{border-left:3px solid #d63a1f}
+.bx-urg{font-size:10px;font-weight:700;padding:2px 8px;border-radius:999px;white-space:nowrap}
+.u0{background:var(--red-bg);color:#993c1d}.u1{background:var(--amber-bg);color:var(--amber-t)}
+.u2{background:var(--teal-bg);color:var(--teal-t)}.u3{background:var(--blue-bg);color:var(--blue)}
+.u4{background:var(--bg2);color:var(--t3)}.u5{background:var(--bg2);color:var(--t3)}
+.bx-fwrap{display:flex;flex-direction:column;gap:2px;width:100%}
 </style>
-
 <script>
 (function(){
   var saved=localStorage.getItem('erin_theme');
@@ -200,563 +70,81 @@ html:not(.dark) {
   window.__toggleTheme=function(){var d=document.documentElement.classList.toggle('dark');localStorage.setItem('erin_theme',d?'dark':'light');upBtn();};
 })();
 </script>
+<script src="site.js?v=20260518e"></script>
 </head>
 <body>
-
 <!-- GLOBAL NAV -->
 <nav class="global-nav">
   <div class="gnav-wrap">
     <div class="gnav-inner">
       <a href="index.html" class="gnav-home">&#127968; Home</a>
-    <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
-    <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
-    <a href="erin_applications.html" class="gnav-link">&#128196; Applications</a>
-    <a href="erin_proftracker.html" class="gnav-link">&#128100; Professors</a>
-    <a href="erin_reftracker.html" class="gnav-link">&#128393; References</a>
-    <a href="erin_writing_samples.html" class="gnav-link">&#9997; Writing</a>
-    <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
+      <a href="erin_search.html" class="gnav-link">&#128269; Search</a>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-track">Track</span>
+        <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
+        <a href="erin_compare.html" class="gnav-link">&#9878; Compare</a>
+        <a href="erin_pipeline.html" class="gnav-link">&#128202; Pipeline</a>
+        <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
+        <a href="erin_applications.html" class="gnav-link">&#128196; Apps</a>
+        <a href="erin_proftracker.html" class="gnav-link">&#128100; Profs</a>
+        <a href="erin_reftracker.html" class="gnav-link">&#128393; Refs</a>
+        <a href="erin_archive.html" class="gnav-link">&#128193; Archive</a>
+      </div>
+      <span class="gnav-divider gnav-break"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-browse">Browse</span>
+        <a href="erin_programs.html" class="gnav-link">&#127979; Programs</a>
+        <a href="erin_internships.html" class="gnav-link">&#128203; Internships</a>
+        <a href="erin_jobs.html" class="gnav-link">&#128188; Jobs</a>
+        <a href="erin_service.html" class="gnav-link">&#127807; Service</a>
+      </div>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-write">Write</span>
+        <a href="erin_materials.html" class="gnav-link">&#128218; Materials</a>
+        <a href="erin_writing_samples.html" class="gnav-link">&#9997; Writing</a>
+        <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
+        <a href="erin_packet.html" class="gnav-link">&#128424; Packet</a>
+      </div>
     </div>
     <button class="gnav-toggle" id="theme-toggle" onclick="__toggleTheme()" title="Toggle dark/light mode">&#127769;</button>
   </div>
 </nav>
-
 <div class="page">
-
 <div class="page-header">
-  <div class="page-header-eyebrow">What's Next for Erin</div>
+  <div class="page-header-eyebrow">What&rsquo;s Next for Erin</div>
   <div class="page-header-title">Internships</div>
-  <div class="page-header-sub">Current-cycle paid internship opportunities matched to Erin&rsquo;s background</div>
+  <div class="page-header-sub">Current &amp; next-cycle internships — sorted by urgency; filter by status, cycle, fit.</div>
 </div>
-
-<div class="top-nav">
-  <span class="pg-title">Internships</span>
+<div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.6rem;flex-wrap:wrap">
+  <input id="bs" type="search" class="search-input" placeholder="Search internships…" style="flex:1;margin-bottom:0">
+  <div id="browse-filters" style="display:flex;gap:4px;flex-wrap:wrap"></div>
 </div>
-
-<div class="page-search-wrap" id="psr-wrap">
-  <span class="page-search-icon">&#128269;</span>
-  <input class="page-search-input" id="psr-input" type="text" placeholder="Search this page..." oninput="pageSearch(this.value)">
-  <span class="page-search-count" id="psr-count"></span>
-  <button class="page-search-clear" id="psr-clear" onclick="pageSearch('');document.getElementById('psr-input').value=''">&#10005; Clear</button>
+<div id="browse-body"></div>
+<p class="footer">Live opportunities, sorted by urgency. Saving is gated to Erin&rsquo;s primary device.<br><br><a href="index.html" style="color:var(--blue)">&#8592; Back to home</a></p>
 </div>
-<a href="erin_internships_next.html" style="display:flex;align-items:center;gap:.85rem;background:var(--bg);border:2px solid var(--teal);border-radius:var(--r2);padding:.9rem 1.25rem;text-decoration:none;color:var(--t1);margin-bottom:1.5rem;transition:background .12s">
-  <span style="font-size:20px">🔄</span>
-  <div style="flex:1">
-    <div style="font-size:14px;font-weight:500;color:var(--t1);margin-bottom:2px">Next cycle — Fall 2026 &amp; beyond</div>
-    <div style="font-size:12px;color:var(--t3)">AI-generated forward-looking internships for an Aug/Sep 2026 start &middot; Updated each visit</div>
-  </div>
-  <span style="font-size:16px;color:var(--teal);margin-left:auto">&#8594;</span>
-</a>
-
-<div class="slabel">Overview</div>
-<div class="card">
-  <div class="card-body">
-    <p style="margin-bottom:.75rem">Erin's strongest internship matches are in wetland science, water quality, wildlife field work, and GIS — ideally with federal agencies (USGS, EPA, USFWS, Army Corps) or environmental consulting firms that do delineation and permitting work. Her Pigeon River contamination research gives her a concrete story to tell in every cover letter.</p>
-    <p>Most summer internships open applications December&ndash;February. Fall internships typically open in May&ndash;June. Apply early — federal positions especially close quickly once quota is met.</p>
-  </div>
-</div>
-
-<!-- STATUS KEY -->
-<div style="font-size:12px;color:var(--t3);margin-bottom:1rem;display:flex;flex-wrap:wrap;gap:10px">
-  <span><span class="badge b-open">Open</span> actively recruiting as of May 2026</span>
-  <span><span class="badge b-rolling">Rolling</span> ongoing/continuous applications</span>
-  <span><span class="badge b-check">Verify</span> posted recently — confirm before applying</span>
-  <span><span class="badge b-closed">Reference</span> shown for awareness; watch for next cycle</span>
-</div>
-
-<!-- FEDERAL -->
-<div class="slabel">Federal agency internships</div>
-
-<div style="border:.5px solid var(--bd);border-left:4px solid var(--teal-t);border-radius:var(--r2);padding:1.1rem 1.25rem;margin-bottom:1rem;background:var(--bg)">
-  <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:.5rem;margin-bottom:.5rem">
-    <div>
-      <div style="font-size:15px;font-weight:500;color:var(--t1)"><span class="status-badge s-updated">&#10024; New &mdash; May 16, 2026</span> Dauphin Island Sea Lab &mdash; BOATS Postbac Fellowship </div>
-      <div style="font-size:12px;color:var(--t3);margin-top:2px">Dauphin Island, AL &middot; Mobile Bay estuary / northern Gulf of Mexico</div>
-    </div>
-    <div style="display:flex;flex-wrap:wrap;gap:5px">
-      <span style="background:var(--teal-bg);color:var(--teal-t);font-size:11px;font-weight:700;padding:3px 10px;border-radius:999px">Open &mdash; apply by Aug 21, 2026</span>
-      <span style="background:var(--blue-bg);color:var(--blue);font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px">Strong fit</span>
-    </div>
-  </div>
-  <div style="font-size:12px;color:var(--t2);margin-bottom:.5rem">
-    <strong>Application window:</strong> Open now &mdash; August 21, 2026 &nbsp;&middot;&nbsp; <strong>Program:</strong> January 4 &ndash; December 17, 2027 &nbsp;&middot;&nbsp; <strong>Stipend:</strong> $46,000 + housing + research funds
-  </div>
-  <div style="font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.65rem">
-    NSF-funded postbaccalaureate research fellowship at Alabama&rsquo;s premier marine science research center, located on a Gulf barrier island adjacent to Mobile Bay. One full year of immersive, mentored research in coastal and marine science. Faculty mentors include researchers in fisheries ecology (Dr. Sean Powers), marine ecology/restoration, microbial ecology, and coastal biogeochemistry. Eligibility: BS degree within past 2.5 years (Erin eligible through late 2027), minimum 3.0 GPA. Explicitly prioritizes underrepresented groups and graduates of lower-resourced institutions. Strong fit for Erin&rsquo;s aquatic/water quality background and goal of building credentials for graduate school. Apply at disl.edu/university-programs/boats/.
-  </div>
-  <div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:.65rem">
-    <span style="background:var(--teal-bg);color:var(--teal-t);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Marine &amp; coastal ecology</span>
-    <span style="background:var(--teal-bg);color:var(--teal-t);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Fisheries &amp; aquatic science</span>
-    <span style="background:var(--blue-bg);color:var(--blue);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">$46K stipend + housing</span>
-    <span style="background:var(--amber-bg);color:var(--amber-t);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Grad school preparation</span>
-  </div>
-  <div style="display:flex;gap:.75rem;flex-wrap:wrap;align-items:center">
-    <!-- ML_BTN_item-077 --><button class="ml-save-btn" data-id="item-077" data-item="{&quot;title&quot;:&quot;Dauphin Island Sea Lab — BOATS Postbac Fellowship&quot;,&quot;org&quot;:&quot;Dauphin Island, AL · Mobile Bay estuary / northern Gulf of Mexico&quot;,&quot;type&quot;:&quot;Internship&quot;,&quot;cat&quot;:&quot;Internships&quot;,&quot;src&quot;:&quot;erin_internships.html&quot;,&quot;src_label&quot;:&quot;Internships&quot;,&quot;deadline&quot;:&quot;Application window open March 30 – August 21, 2026; program Jan 4 – Dec 17, 2027&quot;,&quot;start&quot;:&quot;January 4, 2027&quot;,&quot;body&quot;:&quot;NSF-funded postbac fellowship at Dauphin Island Sea Lab. $46K stipend + housing + research funds. One year of mentored research in coastal/marine science. Eligible within 2.5 years of BS degree. Priority for underrepresented groups and lower-resourced institutions. Apply at disl.edu/university-programs/boats/&quot;,&quot;badge&quot;:&quot;Open — apply by August 21, 2026&quot;,&quot;pills&quot;:[&quot;Marine & coastal ecology&quot;,&quot;Fisheries & aquatic science&quot;,&quot;$46K stipend + housing&quot;,&quot;Grad school preparation&quot;],&quot;id&quot;:&quot;item-077&quot;}">&#9734; Save to My List</button>
-    <a href="https://www.disl.edu/university-programs/boats/" target="_blank" style="font-size:12px;color:var(--blue)">Apply at DISL website &#8594;</a>
-  </div>
-</div>
-
-
-<div class="pos-card">
-  <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:.5rem;margin-bottom:.5rem">
-    <div>
-      <div style="font-size:15px;font-weight:500;color:var(--t1)"><span class="status-badge s-updated">&#10024; New &mdash; May 16, 2026</span> Dauphin Island Sea Lab &mdash; Fisheries Ecology Lab Internship (Dr. Sean Powers) </div>
-      <div style="font-size:12px;color:var(--t3);margin-top:2px">Dauphin Island, AL &middot; Mobile Bay / Gulf of Mexico</div>
-    </div>
-    <span style="background:var(--teal-bg);color:var(--teal-t);font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px">Rolling &mdash; contact lab directly</span>
-  </div>
-  <div style="font-size:12px;color:var(--t2);margin-bottom:.5rem"><strong>Commitment:</strong> Prefer 6-month minimum &nbsp;&middot;&nbsp; <strong>Compensation:</strong> Paid &nbsp;&middot;&nbsp; <strong>Available:</strong> Throughout 2026 field season</div>
-  <div style="font-size:13px;color:var(--t2);line-height:1.65;margin-bottom:.65rem">
-    Paid rolling internships in Dr. Sean Powers&rsquo; Fisheries Ecology Lab. Projects involve fish (bony fishes, sharks, rays) and shellfish in Mobile Bay and Gulf waters — sampling techniques, fisheries data collection, and lab processing. Preference for 6-month+ commitment. Access to the DISL research network, which is a feeder into the BOATS fellowship above. Apply directly through disl.edu/about/internships/.
-  </div>
-  <div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:.65rem">
-    <span style="background:var(--teal-bg);color:var(--teal-t);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Fisheries ecology</span>
-    <span style="background:var(--teal-bg);color:var(--teal-t);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Mobile Bay estuary</span>
-    <span style="background:var(--amber-bg);color:var(--amber-t);font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px">Rolling hire</span>
-  </div>
-  <!-- ML_BTN_item-078 --><button class="ml-save-btn" data-id="item-078" data-item="{&quot;title&quot;:&quot;Dauphin Island Sea Lab — Fisheries Ecology Lab Internship (Dr. Sean Powers)&quot;,&quot;org&quot;:&quot;Dauphin Island, AL · Mobile Bay / Gulf of Mexico&quot;,&quot;type&quot;:&quot;Internship&quot;,&quot;cat&quot;:&quot;Internships&quot;,&quot;src&quot;:&quot;erin_internships.html&quot;,&quot;src_label&quot;:&quot;Internships&quot;,&quot;deadline&quot;:&quot;Rolling — preference for 6-month commitment; available throughout 2026 field season&quot;,&quot;start&quot;:&quot;&quot;,&quot;body&quot;:&quot;Paid rolling internship in Dr. Sean Powers' Fisheries Ecology Lab at DISL. Projects: fish and shellfish in Mobile Bay and Gulf of Mexico waters. Sampling techniques, data collection, lab processing. Prefer 6-month+ commitment. Apply at disl.edu/about/internships/&quot;,&quot;badge&quot;:&quot;Rolling — contact lab directly&quot;,&quot;pills&quot;:[&quot;Fisheries ecology&quot;,&quot;Mobile Bay estuary&quot;,&quot;Coastal aquatic science&quot;],&quot;id&quot;:&quot;item-078&quot;}">&#9734; Save to My List</button>
-</div>
-
-
-<!-- USGS SAWSC -->
-<div class="pos-card hot">
-  <div class="pos-header">
-    <div>
-      <div class="pos-title">USGS South Atlantic Water Science Center (SAWSC) &mdash; Student Corps</div>
-      <div class="pos-org">US Geological Survey &middot; North Carolina, South Carolina &amp; Georgia</div>
-    </div>
-    <span class="badge b-rolling">Rolling</span>
-  </div>
-  <div class="fit-pills">
-    <span class="fit-pill">Water quality monitoring</span>
-    <span class="fit-pill">Hydrology fieldwork</span>
-    <span class="fit-pill">Environmental science</span>
-    <span class="fit-pill">SE United States</span>
-    <span class="fit-pill">Recent grad eligible</span>
-  </div>
-  <div class="pos-body">USGS SAWSC offers part-time and full-time entry-level paid positions in NC, SC, and GA specifically for current students and recent graduates. Focused on hands-on fieldwork in water resources, hydrology, aquatic biology, and environmental science in the Southeast US — a near-perfect geographic and subject-matter match for Erin's background. Positions are posted year-round on USAJobs.</div>
-  <div class="meta-grid">
-    <div class="meta-item"><span class="meta-label">Location:</span> NC, SC, GA offices</div>
-    <div class="meta-item"><span class="meta-label">Pay:</span> Paid (federal GS scale)</div>
-    <div class="meta-item"><span class="meta-label">Eligibility:</span> Recent grad (&lt;1 yr) or current student</div>
-    <div class="meta-item"><span class="meta-label">Deadline:</span> Rolling — posted year-round on USAJobs</div>
-  </div>
-  <div class="pos-links">
-    <a class="pos-link" href="https://www.usgs.gov/centers/sawsc/science/south-atlantic-water-science-center-sawsc-student-corps-employment">&#128269; SAWSC Student Corps page</a>
-    <a class="pos-link" href="mailto:gs-sawscsc@usgs.gov">&#9993; gs-sawscsc@usgs.gov — contact for upcoming vacancies</a>
-    <a class="pos-link" href="https://www.usajobs.gov/Search/Results?a=USGS&hp=student">&#128269; USAJobs USGS student positions</a>
-  </div>
-  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
-  <div class="more-panel">
-    <h4>Why this is a top match</h4>
-    <p>SAWSC is the USGS Water Science Center for NC, SC, and GA — exactly where Erin studied and conducted her Hurricane Helene research. SAWSC technicians collect streamflow data, water quality samples, and biological specimens from rivers, streams, and aquifers across the region. Erin's GEOL 423 (Contaminated Rivers), ENVH 310 (Water Quality), and field sampling experience from the Pigeon River project are directly applicable.</p>
-    <h4>What hydrologic technicians do</h4>
-    <p>Operate and maintain stream gauges; collect water quality samples; conduct aquatic biological surveys; analyze field and lab data; support hydrologists on research projects. Physical fieldwork in diverse weather conditions required.</p>
-    <div class="detail-row"><span class="detail-label">&#128197; How to apply</span>Create a USAJobs profile, upload resume and unofficial transcript, and search "USGS SAWSC student." Also email gs-sawscsc@usgs.gov directly expressing interest.</div>
-    <div class="detail-row"><span class="detail-label">Driver's license</span>Required for most field positions</div>
-    <div class="detail-row"><span class="detail-label">Min. age</span>18</div>
-  </div>
-
-
-<!-- ML_BTN_item-019 --><button class="ml-save-btn" data-id="item-019" data-item="{&quot;title&quot;: &quot;USGS South Atlantic Water Science Center (SAWSC) \u2014 Student Corps&quot;, &quot;org&quot;: &quot;US Geological Survey \u00b7 North Carolina, South Carolina &amp; Georgia&quot;, &quot;type&quot;: &quot;Internship&quot;, &quot;cat&quot;: &quot;Internships&quot;, &quot;src&quot;: &quot;erin_internships.html&quot;, &quot;src_label&quot;: &quot;Internships&quot;, &quot;deadline&quot;: &quot;Rolling \u2014 posted year-round on USAJobs&quot;, &quot;start&quot;: &quot;&quot;, &quot;body&quot;: &quot;USGS SAWSC offers part-time and full-time entry-level paid positions in NC, SC, and GA specifically for current students and recent graduates. Focused on hands-on fieldwork in water resources, hydrology, aquatic biology, and environmental science in the Southeast US \u2014 a near-perfect geographic an...&quot;, &quot;badge&quot;: &quot;Rolling&quot;, &quot;pills&quot;: [&quot;Water quality monitoring&quot;, &quot;Hydrology fieldwork&quot;, &quot;Environmental science&quot;, &quot;SE United States&quot;], &quot;id&quot;: &quot;item-019&quot;, &quot;pay&quot;: &quot;Paid (federal GS scale)&quot;, &quot;location&quot;: &quot;NC, SC, GA offices&quot;, &quot;url&quot;: &quot;https://www.usgs.gov/centers/sawsc/science/south-atlantic-water-science-center-sawsc-student-corps-employment&quot;, &quot;url_label&quot;: &quot;\ud83d\udd0d SAWSC Student Corps page&quot;, &quot;url2&quot;: &quot;mailto:gs-sawscsc@usgs.gov&quot;, &quot;url2_label&quot;: &quot;\u2709 gs-sawscsc@usgs.gov \u2014 contact for upcoming vacancies&quot;, &quot;extbody&quot;: &quot;Why this is a top match SAWSC is the USGS Water Science Center for NC, SC, and GA \u2014 exactly where Erin studied and conducted her Hurricane Helene research. SAWSC technicians collect streamflow data, water quality samples, and biological specimens from rivers, streams, and aquifers across the region. Erin's GEOL 423 (Contaminated Rivers), ENVH 310 (Water Quality), and field sampling experience from the Pigeon River project are directly applicable. What hydrologic technicians do Operate and mainta&quot;}">&#9734; Save to My List</button></div>
-
-<!-- EPA Office of Water -->
-<div class="pos-card">
-  <div class="pos-header">
-    <div>
-      <div class="pos-title">EPA Office of Water &mdash; Student Volunteer Internship</div>
-      <div class="pos-org">US Environmental Protection Agency &middot; Washington, DC (Office of Wetlands, Oceans &amp; Watersheds)</div>
-    </div>
-    <span class="badge b-check">Verify status</span>
-  </div>
-  <div class="fit-pills">
-    <span class="fit-pill">Wetlands policy</span>
-    <span class="fit-pill">Water quality</span>
-    <span class="fit-pill">GIS &amp; data analysis</span>
-    <span class="fit-pill">Environmental justice</span>
-  </div>
-  <div class="pos-body">EPA's Office of Water offers unpaid student internships in several divisions. The Office of Wetlands, Oceans and Watersheds (OWOW) is a direct match — it uses science to assess water quality, protect wetlands, fund restoration, and apply watershed approaches. The Office of Wastewater Management also accepts GIS, hydrology, and public health backgrounds. Requires full- or part-time student enrollment (or recent grad status).</div>
-  <div class="meta-grid">
-    <div class="meta-item"><span class="meta-label">Location:</span> Washington, DC</div>
-    <div class="meta-item"><span class="meta-label">Pay:</span> Unpaid (volunteer)</div>
-    <div class="meta-item"><span class="meta-label">Eligibility:</span> US citizen + enrolled student or recent grad</div>
-    <div class="meta-item"><span class="meta-label">Deadline:</span> Rolling; apply well in advance of desired term</div>
-    <div class="meta-item"><span class="meta-label">Disciplines:</span> Env. science, hydrology, GIS, toxicology, public health</div>
-  </div>
-  <div class="pos-links">
-    <a class="pos-link" href="https://www.epa.gov/careers/student-volunteer-internships-20252026-office-water-washington-dc">&#128269; EPA Office of Water internship listing</a>
-    <a class="pos-link" href="https://www.epa.gov/careers">&#128269; EPA Careers page</a>
-  </div>
-  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
-  <div class="more-panel">
-    <h4>Best division match for Erin</h4>
-    <p><strong style="font-weight:500">Office of Wetlands, Oceans and Watersheds (OWOW)</strong> — protects wetlands, monitors water quality, funds aquatic restoration, and develops watershed management plans. Erin's wetland delineation training, water quality coursework, and GIS skills are directly relevant. Mention GEOL 455 (Wetlands, Army Corps delineation) prominently in application.</p>
-    <p><strong style="font-weight:500">Office of Wastewater Management (OWM)</strong> — also a fit for water quality and environmental compliance background. Less fieldwork, more policy-oriented.</p>
-    <h4>Application tips</h4>
-    <p>Write a targeted cover letter explaining connection between coursework (specifically ENVH 310, GEOL 423, GEOL 455) and OWOW's mission. Mention Pigeon River contamination project as applied water quality research experience. Request the OWOW division specifically.</p>
-    <div class="detail-row"><span class="detail-label">How to apply</span>Submit via EPA Careers page; designate preferred OW division in cover letter</div>
-  </div>
-
-<!-- ML_BTN_item-020 --><button class="ml-save-btn" data-id="item-020" data-item="{&quot;title&quot;: &quot;EPA Office of Water \u2014 Student Volunteer Internship&quot;, &quot;org&quot;: &quot;US Environmental Protection Agency \u00b7 Washington, DC (Office of Wetlands, Oceans &amp; Watersheds)&quot;, &quot;type&quot;: &quot;Internship&quot;, &quot;cat&quot;: &quot;Internships&quot;, &quot;src&quot;: &quot;erin_internships.html&quot;, &quot;src_label&quot;: &quot;Internships&quot;, &quot;deadline&quot;: &quot;Rolling; apply well in advance of desired term&quot;, &quot;start&quot;: &quot;&quot;, &quot;body&quot;: &quot;EPA's Office of Water offers unpaid student internships in several divisions. The Office of Wetlands, Oceans and Watersheds (OWOW) is a direct match \u2014 it uses science to assess water quality, protect wetlands, fund restoration, and apply watershed approaches. The Office of Wastewater Management a...&quot;, &quot;badge&quot;: &quot;Verify status&quot;, &quot;pills&quot;: [&quot;Wetlands policy&quot;, &quot;Water quality&quot;, &quot;GIS &amp; data analysis&quot;, &quot;Environmental justice&quot;], &quot;id&quot;: &quot;item-020&quot;, &quot;pay&quot;: &quot;Unpaid (volunteer)&quot;, &quot;location&quot;: &quot;Washington, DC&quot;, &quot;url&quot;: &quot;https://www.epa.gov/careers/student-volunteer-internships-20252026-office-water-washington-dc&quot;, &quot;url_label&quot;: &quot;\ud83d\udd0d EPA Office of Water internship listing&quot;, &quot;url2&quot;: &quot;https://www.epa.gov/careers&quot;, &quot;url2_label&quot;: &quot;\ud83d\udd0d EPA Careers page&quot;}">&#9734; Save to My List</button></div>
-
-<!-- USFWS Pathways -->
-<div class="pos-card">
-  <div class="pos-header">
-    <div>
-      <div class="pos-title">USFWS Pathways Internship &mdash; Biological Science Student Trainee</div>
-      <div class="pos-org">US Fish &amp; Wildlife Service &middot; Multiple National Wildlife Refuges &amp; field offices</div>
-    </div>
-    <span class="badge b-rolling">Rolling</span>
-  </div>
-  <div class="fit-pills">
-    <span class="fit-pill">Wildlife surveys</span>
-    <span class="fit-pill">Wetland management</span>
-    <span class="fit-pill">Species monitoring</span>
-    <span class="fit-pill">Federal hiring pathway</span>
-  </div>
-  <div class="pos-body">USFWS Pathways Internships are paid federal positions that can convert to permanent federal employment. "Biological Science Student Trainee" is the primary series (GS-0404). Duties include wildlife surveys, wetland management, habitat assessments, and species monitoring. Pro tip from USFWS: wetlands ecology coursework (GEOL 455) may be classified as aquatic coursework — include a letter clarifying this in your application.</div>
-  <div class="meta-grid">
-    <div class="meta-item"><span class="meta-label">Pay:</span> GS-03 to GS-05 scale (~$15&ndash;$22/hr depending on location/grade)</div>
-    <div class="meta-item"><span class="meta-label">Locations:</span> Nationwide; search by region</div>
-    <div class="meta-item"><span class="meta-label">Deadline:</span> Rolling; postings vary by position</div>
-    <div class="meta-item"><span class="meta-label">Conversion:</span> Can convert to permanent after completing degree</div>
-  </div>
-  <div class="pos-links">
-    <a class="pos-link" href="https://www.usajobs.gov/Search/Results?hp=student&a=FWS&k=biological+science">&#128269; USAJobs: USFWS Biological Science student positions</a>
-    <a class="pos-link" href="https://www.fws.gov/careers">&#128269; USFWS Careers page</a>
-  </div>
-  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
-  <div class="more-panel">
-    <h4>Key application note from USFWS</h4>
-    <p>USFWS HR specialists categorize coursework by specific terms listed in job announcements. GEOL 455 (Wetlands) may not automatically be recognized as "aquatic" coursework. USFWS recommends including a brief letter with your application stating: "My coursework in GEOL 455 Wetlands covers wetland hydrology, soil indicators, and vegetation, and should qualify as aquatic science coursework for the purposes of this announcement."</p>
-    <h4>Best refuge regions for Erin</h4>
-    <p>Southeast Region (Region 4): Alabama, Arkansas, Florida, Georgia, Kentucky, Louisiana, Mississippi, North Carolina, South Carolina, Tennessee. This region covers the ecosystems where Erin has the most field experience and most relevant coursework. Search USAJobs filtered to Region 4 offices.</p>
-    <div class="detail-row"><span class="detail-label">&#128197; When to apply</span>Summer positions post Dec&ndash;Feb; fall positions post May&ndash;Jun; apply immediately when posted</div>
-    <div class="detail-row"><span class="detail-label">How to apply</span>Create USAJobs profile, upload resume + unofficial transcript; apply to specific vacancy announcements</div>
-  </div>
-
-<!-- ML_BTN_item-021 --><button class="ml-save-btn" data-id="item-021" data-item="{&quot;title&quot;: &quot;USFWS Pathways Internship \u2014 Biological Science Student Trainee&quot;, &quot;org&quot;: &quot;US Fish &amp; Wildlife Service \u00b7 Multiple National Wildlife Refuges &amp; field offices&quot;, &quot;type&quot;: &quot;Internship&quot;, &quot;cat&quot;: &quot;Internships&quot;, &quot;src&quot;: &quot;erin_internships.html&quot;, &quot;src_label&quot;: &quot;Internships&quot;, &quot;deadline&quot;: &quot;Rolling; postings vary by position&quot;, &quot;start&quot;: &quot;&quot;, &quot;body&quot;: &quot;USFWS Pathways Internships are paid federal positions that can convert to permanent federal employment. \&quot;Biological Science Student Trainee\&quot; is the primary series (GS-0404). Duties include wildlife surveys, wetland management, habitat assessments, and species monitoring. Pro tip from USFWS: wetla...&quot;, &quot;badge&quot;: &quot;Rolling&quot;, &quot;pills&quot;: [&quot;Wildlife surveys&quot;, &quot;Wetland management&quot;, &quot;Species monitoring&quot;, &quot;Federal hiring pathway&quot;], &quot;id&quot;: &quot;item-021&quot;, &quot;pay&quot;: &quot;GS-03 to GS-05 scale (~$15\u2013$22/hr depending on location/grade)&quot;}">&#9734; Save to My List</button></div>
-
-<!-- USGS Pathways -->
-<div class="pos-card">
-  <div class="pos-header">
-    <div>
-      <div class="pos-title">USGS Pathways Recent Graduate Program &mdash; Hydrologist / Physical Scientist</div>
-      <div class="pos-org">US Geological Survey &middot; Various Water Science Centers nationwide</div>
-    </div>
-    <span class="badge b-rolling">Rolling</span>
-  </div>
-  <div class="fit-pills">
-    <span class="fit-pill">Hydrology</span>
-    <span class="fit-pill">Water resources</span>
-    <span class="fit-pill">GIS &amp; data analysis</span>
-    <span class="fit-pill">Federal career pathway</span>
-  </div>
-  <div class="pos-body">The USGS Recent Graduate Program provides 1&ndash;2 year developmental positions for graduates within the last 2 years. Can convert to permanent federal employment. USGS Water Science Centers are distributed across every state. Positions in hydrology, water quality, and biological science are the strongest matches for Erin's background. GRE/special exam not required.</div>
-  <div class="meta-grid">
-    <div class="meta-item"><span class="meta-label">Eligibility:</span> Graduated within last 2 years (6 for veterans)</div>
-    <div class="meta-item"><span class="meta-label">Duration:</span> 1&ndash;2 years, convertible to permanent</div>
-    <div class="meta-item"><span class="meta-label">Pay:</span> GS-07 to GS-09 typically</div>
-    <div class="meta-item"><span class="meta-label">Deadline:</span> Posted year-round on USAJobs; apply when posted</div>
-  </div>
-  <div class="pos-links">
-    <a class="pos-link" href="https://www.usgs.gov/human-capital/internship-recent-graduate-and-fellowship-opportunities">&#128269; USGS Pathways opportunities</a>
-    <a class="pos-link" href="https://www.usajobs.gov/Search/Results?hp=rg&a=USGS">&#128269; USAJobs: USGS Recent Graduate positions</a>
-  </div>
-  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
-  <div class="more-panel">
-    <h4>About the program</h4>
-    <p>The USGS Recent Graduate Program is a formal federal hiring pathway. Participants complete a structured 1–2 year developmental experience, receive mentoring, and can be non-competitively converted to permanent federal positions at the end. This is a meaningful career accelerator for someone targeting a federal water resources or environmental science career.</p>
-    <h4>How to find the right position</h4>
-    <p>Search USAJobs for "USGS Recent Graduate" and filter by series: 1315 (Hydrology), 1350 (Geology), 0401 (Biology), 0408 (Ecology). Also search 1301 (Physical Science). Prioritize Water Science Center positions — SAWSC (NC/SC/GA), Southeast (FL/AL/MS), and Appalachians WSC are the strongest regional fits.</p>
-    <div class="detail-row"><span class="detail-label">Key documents</span>Federal resume (1–3 pages, include all coursework and specific duties); unofficial transcript; completed profile on USAJobs</div>
-    <div class="detail-row"><span class="detail-label">&#9888; Federal resume note</span>Federal resumes are longer than private sector — include GPA, all relevant coursework, and specific technical skills. USAJobs has a resume builder tool.</div>
-  </div>
-
-<button class="ml-save-btn" data-id="item-022" data-item="{&quot;title&quot;: &quot;USGS Pathways Recent Graduate Program — Hydrologist / Physical Scientist&quot;, &quot;org&quot;: &quot;US Geological Survey · Various Water Science Centers nationwide&quot;, &quot;type&quot;: &quot;Internship&quot;, &quot;cat&quot;: &quot;Internships&quot;, &quot;src&quot;: &quot;erin_internships.html&quot;, &quot;src_label&quot;: &quot;Internships&quot;, &quot;deadline&quot;: &quot;Posted year-round on USAJobs; apply when posted&quot;, &quot;start&quot;: &quot;&quot;, &quot;body&quot;: &quot;The USGS Recent Graduate Program provides 1–2 year developmental positions for graduates within the last 2 years. Can convert to permanent federal employment. USGS Water Science Centers are distributed across every state. Positions in hydrology, water quality, and biological science are the stron...&quot;, &quot;badge&quot;: &quot;Rolling&quot;, &quot;pills&quot;: [&quot;Hydrology&quot;, &quot;Water resources&quot;, &quot;GIS & data analysis&quot;, &quot;Federal career pathway&quot;], &quot;id&quot;: &quot;item-022&quot;}">&#9734; Save to My List</button></div>
-
-<hr>
-
-<!-- CONSULTING INTERNSHIPS -->
-<div class="slabel">Environmental consulting internships</div>
-
-<div style="background:var(--red-bg);border:1px solid var(--red);border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:#993c1d">&#9888; CONFIRMED CLOSED — Summer 2026 filled. Watch wetlands.com/careers for fall 2026 or summer 2027.</div>
-<!-- WSSI -->
-<div class="pos-card hot">
-  <div class="pos-header">
-    <div>
-      <div class="pos-title">Environmental Technician Internship &mdash; Summer 2026</div>
-      <div class="pos-org">Wetland Studies and Solutions, Inc. (WSSI) &middot; Gainesville, VA &middot; Millersville, MD &middot; Richmond, VA</div>
-    </div>
-    <span class="badge b-open">Open</span>
-  </div>
-  <div class="fit-pills">
-    <span class="fit-pill">Wetland delineation</span>
-    <span class="fit-pill">Wildlife monitoring</span>
-    <span class="fit-pill">Erosion control</span>
-    <span class="fit-pill">Field site visits</span>
-    <span class="fit-pill">Consulting experience</span>
-  </div>
-  <div class="pos-body">WSSI is an award-winning wetland and environmental consulting firm. Summer 2026 internship opportunities are live. Interns gain hands-on experience from erosion control to wildlife and insect monitoring through field visits to working jobsites contributing to real projects. WSSI also has a permanent Environmental Compliance Technician opening in Raleigh, NC for candidates with 1+ year experience — an entry-level career target after internship experience. Nearly half of WSSI's executive leadership started as interns.</div>
-  <div class="meta-grid">
-    <div class="meta-item"><span class="meta-label">Locations:</span> Gainesville VA, Millersville MD, Richmond VA</div>
-    <div class="meta-item"><span class="meta-label">Timeline:</span> Summer 2026 — apply now</div>
-    <div class="meta-item"><span class="meta-label">Pay:</span> Paid (confirm rate on application)</div>
-    <div class="meta-item"><span class="meta-label">Career track:</span> Many interns hired permanently</div>
-    <div class="meta-item"><span class="meta-label">Skills built:</span> Wetland delineation, erosion control, wildlife monitoring, field reporting</div>
-  </div>
-  <div class="pos-links">
-    <a class="pos-link" href="https://www.wetlands.com/careers/internships/">&#128269; WSSI Summer 2026 internship listings (apply here)</a>
-    <a class="pos-link" href="https://www.wetlands.com/careers/current-openings/">&#128269; WSSI permanent openings (Raleigh EC Technician)</a>
-  </div>
-  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
-  <div class="more-panel">
-    <h4>Why this is a strong match</h4>
-    <p>WSSI specializes in wetland delineation, permitting, stream restoration, and environmental compliance — all directly overlapping with Erin's GEOL 455 (Wetlands/Army Corps delineation), GEOL 423 (Contaminated Rivers), and ENVH 310 (Water Quality) coursework. The company has a stated pathway from internship to permanent employment.</p>
-    <h4>Current permanent opening in Raleigh</h4>
-    <p>WSSI also has an active posting for an Environmental Compliance Technician in Raleigh, NC — ideal candidates have a BS in Environmental Studies or related field and at least 1 year experience. After internship experience, this would be an excellent target. Duties: SWPPP development, wetland/stormwater compliance inspections, BMP monitoring, federal and state agency coordination.</p>
-    <div class="detail-row"><span class="detail-label">Apply</span>Via WSSI careers page — submit resume + cover letter</div>
-    <div class="detail-row"><span class="detail-label">Mention in cover letter</span>GEOL 455 Army Corps delineation methods, Pigeon River contamination project, field sampling experience</div>
-  </div>
-
-
-<!-- ML_BTN_item-023 --><button class="ml-save-btn" data-id="item-023" data-item="{&amp;quot;title&amp;quot;: &amp;quot;Environmental Technician Internship \u2014 Summer 2026&amp;quot;, &amp;quot;org&amp;quot;: &amp;quot;Wetland Studies and Solutions, Inc. (WSSI) \u00b7 Gainesville, VA \u00b7 Millersville, MD \u00b7 Richmond, VA&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;Internship&amp;quot;, &amp;quot;cat&amp;quot;: &amp;quot;Internships&amp;quot;, &amp;quot;src&amp;quot;: &amp;quot;erin_internships.html&amp;quot;, &amp;quot;src_label&amp;quot;: &amp;quot;Internships&amp;quot;, &amp;quot;deadline&amp;quot;: &amp;quot;&amp;quot;, &amp;quot;start&amp;quot;: &amp;quot;&amp;quot;, &amp;quot;body&amp;quot;: &amp;quot;WSSI is an award-winning wetland and environmental consulting firm. Summer 2026 internship opportunities are live. Interns gain hands-on experience from erosion control to wildlife and insect monitoring through field visits to working jobsites contributing to real projects. WSSI also has a perman...&amp;quot;, &amp;quot;badge&amp;quot;: &amp;quot;Closed \u2014 Summer 2026 filled&amp;quot;, &amp;quot;pills&amp;quot;: [&amp;quot;Wetland delineation&amp;quot;, &amp;quot;Wildlife monitoring&amp;quot;, &amp;quot;Erosion control&amp;quot;, &amp;quot;Field site visits&amp;quot;], &amp;quot;id&amp;quot;: &amp;quot;item-023&amp;quot;}">&#9734; Save to My List</button></div>
-
-<!-- ERO Resources Colorado -->
-<div class="pos-card">
-  <div class="pos-header">
-    <div>
-      <div class="pos-title">Natural Resources Internship &mdash; Ecology Team</div>
-      <div class="pos-org">ERO Resources Corporation &middot; Lakewood, CO</div>
-    </div>
-    <span class="badge b-check">Verify status</span>
-  </div>
-  <div class="fit-pills">
-    <span class="fit-pill">Natural resource assessments</span>
-    <span class="fit-pill">Wetland delineation</span>
-    <span class="fit-pill">Colorado-based</span>
-    <span class="fit-pill">Consulting</span>
-  </div>
-  <div class="pos-body">ERO Resources is a Denver-area environmental consulting firm seeking ecology interns to assist with natural resource assessments, wetland delineations, and related field work. Duties include writing natural resource assessments, wetland delineations, and field surveys. Good match for Erin's GEOL 455 Army Corps delineation training and Colorado geographic interest.</div>
-  <div class="meta-grid">
-    <div class="meta-item"><span class="meta-label">Location:</span> Lakewood, CO (Denver area)</div>
-    <div class="meta-item"><span class="meta-label">Focus:</span> Ecology, wetland delineation, natural resource assessment</div>
-  </div>
-  <div class="pos-links">
-    <a class="pos-link" href="https://www.eroresources.com/careers">&#128269; ERO Resources careers page</a>
-    <a class="pos-link" href="https://www.google.com/search?q=ERO+Resources+Corporation+natural+resources+ecology+internship+2026">&#128269; Search ERO Resources internship 2026</a>
-  </div>
-  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
-  <div class="more-panel">
-    <h4>About ERO Resources</h4>
-    <p>ERO Resources is a Denver-area environmental consulting firm focused on ecological services, natural resource management, and environmental compliance in Colorado and the Mountain West. An internship here would directly complement any graduate school applications to CSU or CU Boulder by building Colorado-based professional contacts and field experience.</p>
-    <div class="detail-row"><span class="detail-label">How to apply</span>Via ERO Resources careers page; confirm current availability of summer 2026 position</div>
-    <div class="detail-row"><span class="detail-label">Mention</span>GEOL 455 wetland delineation training; two GIS courses; Pigeon River project</div>
-  
-<!-- ML_BTN_item-025 --><button class="ml-save-btn" data-id="item-025" data-item="{&quot;title&quot;: &quot;Natural Resources Intern \u2014 Stream Surveying &amp; Wetland Delineation&quot;, &quot;org&quot;: &quot;KCI Technologies, Inc. \u00b7 Nashville, TN&quot;, &quot;type&quot;: &quot;Internship&quot;, &quot;cat&quot;: &quot;Internships&quot;, &quot;src&quot;: &quot;erin_internships.html&quot;, &quot;src_label&quot;: &quot;Internships&quot;, &quot;deadline&quot;: &quot;&quot;, &quot;start&quot;: &quot;&quot;, &quot;body&quot;: &quot;KCI Technologies was seeking a natural resources intern in Nashville, TN to assist with vegetative monitoring, stream surveying, identification and delineation of waters in Tennessee and surrounding states. Strong match for Erin's wetlands and water quality background with Appalachian-adjacent ge...&quot;, &quot;badge&quot;: &quot;Verify status&quot;, &quot;pills&quot;: [&quot;Stream surveying&quot;, &quot;Wetland delineation&quot;, &quot;Vegetative monitoring&quot;, &quot;Tennessee / Southeast&quot;], &quot;id&quot;: &quot;item-025&quot;, &quot;location&quot;: &quot;Lakewood, CO (Denver area)&quot;, &quot;url&quot;: &quot;https://www.eroresources.com/careers&quot;, &quot;url_label&quot;: &quot;\ud83d\udd0d ERO Resources careers page&quot;, &quot;url2&quot;: &quot;https://www.google.com/search?q=ERO+Resources+Corporation+natural+resources+ecology+internship+2026&quot;, &quot;url2_label&quot;: &quot;\ud83d\udd0d Search ERO Resources internship 2026&quot;}">&#9734; Save to My List</button></div>
-
-<!-- ML_BTN_item-024 --><button class="ml-save-btn" data-id="item-024" data-item="{&quot;title&quot;: &quot;Natural Resources Internship — Ecology Team&quot;, &quot;org&quot;: &quot;ERO Resources Corporation · Lakewood, CO&quot;, &quot;type&quot;: &quot;Internship&quot;, &quot;cat&quot;: &quot;Internships&quot;, &quot;src&quot;: &quot;erin_internships.html&quot;, &quot;src_label&quot;: &quot;Internships&quot;, &quot;deadline&quot;: &quot;&quot;, &quot;start&quot;: &quot;&quot;, &quot;body&quot;: &quot;ERO Resources is a Denver-area environmental consulting firm seeking ecology interns to assist with natural resource assessments, wetland delineations, and related field work. Duties include writing natural resource assessments, wetland delineations, and field surveys. Good match for Erin's GEOL ...&quot;, &quot;badge&quot;: &quot;Verify status&quot;, &quot;pills&quot;: [&quot;Natural resource assessments&quot;, &quot;Wetland delineation&quot;, &quot;Colorado-based&quot;, &quot;Consulting&quot;], &quot;id&quot;: &quot;item-024&quot;}">&#9734; Save to My List</button></div>
-
-<!-- KCI Technologies Nashville -->
-<div class="pos-card">
-  <div class="pos-header">
-    <div>
-      <div class="pos-title">Natural Resources Intern &mdash; Stream Surveying &amp; Wetland Delineation</div>
-      <div class="pos-org">KCI Technologies, Inc. &middot; Nashville, TN</div>
-    </div>
-    <span class="badge b-check">Verify status</span>
-  </div>
-  <div class="fit-pills">
-    <span class="fit-pill">Stream surveying</span>
-    <span class="fit-pill">Wetland delineation</span>
-    <span class="fit-pill">Vegetative monitoring</span>
-    <span class="fit-pill">Tennessee / Southeast</span>
-  </div>
-  <div class="pos-body">KCI Technologies was seeking a natural resources intern in Nashville, TN to assist with vegetative monitoring, stream surveying, identification and delineation of waters in Tennessee and surrounding states. Strong match for Erin's wetlands and water quality background with Appalachian-adjacent geography.</div>
-  <div class="meta-grid">
-    <div class="meta-item"><span class="meta-label">Location:</span> Nashville, TN</div>
-    <div class="meta-item"><span class="meta-label">Focus:</span> Stream surveying, delineation, vegetative monitoring, Southeast states</div>
-  </div>
-  <div class="pos-links">
-    <a class="pos-link" href="https://www.kci.com/careers/">&#128269; KCI Technologies careers page</a>
-    <a class="pos-link" href="https://www.google.com/search?q=KCI+Technologies+natural+resources+intern+Nashville+Tennessee+2026">&#128269; Search KCI Nashville internship 2026</a>
-  </div>
-  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
-  <div class="more-panel">
-    <h4>About KCI</h4>
-    <p>KCI Technologies is a mid-size engineering and environmental consulting firm with offices across the eastern US. Their Nashville office does environmental field work across Tennessee and surrounding states — right in the heart of the Appalachian region where Erin studied. A position here would build wetland/stream consulting experience in terrain Erin knows well from WCU fieldwork.</p>
-    <div class="detail-row"><span class="detail-label">How to apply</span>Via KCI careers page — confirm 2026 position availability</div>
-  </div>
-</div>
-
-<!-- Earthjustice Science Intern -->
-<div class="pos-card">
-  <div class="pos-header">
-    <div>
-      <div class="pos-title">Science Intern &mdash; Fall 2026</div>
-      <div class="pos-org">Earthjustice &middot; Washington, DC Regional Office (remote/hybrid option)</div>
-    </div>
-    <span class="badge b-open">Open</span>
-  </div>
-  <div class="fit-pills">
-    <span class="fit-pill">Environmental health science</span>
-    <span class="fit-pill">Wetlands &amp; water policy</span>
-    <span class="fit-pill">Toxicology</span>
-    <span class="fit-pill">Environmental justice</span>
-    <span class="fit-pill">Remote eligible</span>
-  </div>
-  <div class="pos-body">Earthjustice's DC office advocates on wetlands, water pollution, clean air, and climate. The fall 2026 science intern researches scientific questions to support advocacy and litigation before federal agencies and courts. Requires coursework in environmental health, epidemiology, or toxicology — Erin's ENVH 375 (Toxicology, A+), HSCC 472 (Epidemiology, A+), and ENVH 493 (Environmental Justice, A+) are a direct match. Hourly pay: $27.39 (graduate rate). Deadline: May 15, 2026 at 5:00pm PT. Offers extended no later than July 8.</div>
-  <div class="meta-grid">
-    <div style="background:var(--red-bg);border:1px solid var(--red);border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:#993c1d">
-  &#9888; Deadline passed May 15, 2026 — this cycle is closed. Watch Earthjustice for next fall cycle.
-</div>
-<div class="meta-item"><span class="meta-label">&#128197; Deadline:</span> <strong style="color:#993c1d">May 15, 2026 at 5pm PT</strong></div>
-    <div class="meta-item"><span class="meta-label">Hours:</span> 10&ndash;15 hrs/week for 10&ndash;12 weeks</div>
-    <div class="meta-item"><span class="meta-label">Pay:</span> $27.39/hr (current fiscal year rate)</div>
-    <div class="meta-item"><span class="meta-label">Location:</span> Remote from US or hybrid DC</div>
-    <div class="meta-item"><span class="meta-label">Start:</span> Fall 2026; offers by July 8</div>
-  </div>
-  <div class="pos-links">
-    <a class="pos-link" href="https://www.greenjobsboard.us/jobs/fall-2026-science-internship---washington-dc-regional-office">&#128269; Earthjustice Fall 2026 Science Intern listing</a>
-    <a class="pos-link" href="https://earthjustice.org/about/jobs">&#128269; Earthjustice jobs page</a>
-  </div>
-  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
-  <div class="more-panel">
-    <h4>What the intern does</h4>
-    <p>Researches scientific questions to support Earthjustice's advocacy before EPA, Army Corps, and federal courts. Current DC office docket includes litigation to protect streams and wetlands from pollution, advance water quality regulation under the Clean Water Act, and address public health impacts of environmental contamination — all directly relevant to Erin's contaminated rivers and water quality coursework.</p>
-    <h4>What to submit (per listing)</h4>
-    <p>Via Jobvite: (1) resume, (2) one-page cover letter addressing why you want to work with Earthjustice's DC office, your weekly availability, and relevant deadlines, (3) proof of academic enrollment/graduation, (4) writing sample up to 10 pages demonstrating ability to analyze an environmental issue.</p>
-    <h4>Writing sample suggestion</h4>
-    <p>The Pigeon River lead contamination research from ES 495 would be an ideal writing sample — it analyzes a real contaminated river system using scientific methods, which is exactly what Earthjustice science interns support.</p>
-    <div class="detail-row"><span class="detail-label">&#128197; Deadline</span><strong style="color:#993c1d">May 15, 2026, 5:00pm Pacific Time</strong> — apply immediately</div>
-    <div style="background:var(--red-bg);border:1px solid var(--red);border-radius:6px;padding:.5rem .85rem;margin-bottom:.4rem;font-size:12px;font-weight:500;color:#993c1d">&#9888; Deadline passed May 15, 2026 — this cycle is closed. Watch Earthjustice careers for next fall cycle.</div>
-<div class="detail-row"><span class="detail-label">Apply via</span>Jobvite link on Earthjustice website</div>
-  </div>
-
-<!-- ML_BTN_item-026 --><button class="ml-save-btn" data-id="item-026" data-item="{&amp;quot;title&amp;quot;: &amp;quot;Science Intern \u2014 Fall 2026&amp;quot;, &amp;quot;org&amp;quot;: &amp;quot;Earthjustice \u00b7 Washington, DC Regional Office (remote/hybrid option)&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;Internship&amp;quot;, &amp;quot;cat&amp;quot;: &amp;quot;Internships&amp;quot;, &amp;quot;src&amp;quot;: &amp;quot;erin_internships.html&amp;quot;, &amp;quot;src_label&amp;quot;: &amp;quot;Internships&amp;quot;, &amp;quot;deadline&amp;quot;: &amp;quot;May 15, 2026 at 5pm PT \u2014 CLOSED&amp;quot;, &amp;quot;start&amp;quot;: &amp;quot;Fall 2026; offers by July 8&amp;quot;, &amp;quot;body&amp;quot;: &amp;quot;Earthjustice's DC office advocates on wetlands, water pollution, clean air, and climate. The fall 2026 science intern researches scientific questions to support advocacy and litigation before federal agencies and courts. Requires coursework in environmental health, epidemiology, or toxicology \u2014 E...&amp;quot;, &amp;quot;badge&amp;quot;: &amp;quot;Deadline passed May 15, 2026&amp;quot;, &amp;quot;pills&amp;quot;: [&amp;quot;Environmental health science&amp;quot;, &amp;quot;Wetlands &amp; water policy&amp;quot;, &amp;quot;Toxicology&amp;quot;, &amp;quot;Environmental justice&amp;quot;], &amp;quot;id&amp;quot;: &amp;quot;item-026&amp;quot;}">&#9734; Save to My List</button></div>
-
-<hr>
-
-<!-- NONPROFIT / RESEARCH -->
-<div class="slabel">Nonprofit &amp; research station internships</div>
-
-<!-- WSSI / Wetlands Institute NJ -->
-<div class="pos-card">
-  <div class="pos-header">
-    <div>
-      <div class="pos-title">Research Internship &mdash; Wetland Ecology</div>
-      <div class="pos-org">The Wetlands Institute &middot; Stone Harbor, NJ</div>
-    </div>
-    <span class="badge b-open">Open &mdash; Summer 2026</span>
-  </div>
-  <div class="fit-pills">
-    <span class="fit-pill">Wetland ecology field research</span>
-    <span class="fit-pill">Bird &amp; wildlife surveys</span>
-    <span class="fit-pill">GIS mapping</span>
-    <span class="fit-pill">Coastal wetlands</span>
-  </div>
-  <div class="pos-body">The Wetlands Institute in Stone Harbor, NJ has summer 2026 internships available now. Research interns complete field surveys and studies under Science Staff supervision, including bird monitoring, nesting surveys, species counts, and GIS mapping. Strong match for Erin's wildlife survey skills, GIS background, and wetlands coursework. Also includes environmental education and restoration fieldwork opportunities.</div>
-  <div class="meta-grid">
-    <div class="meta-item"><span class="meta-label">Location:</span> Stone Harbor, NJ (Cape May County)</div>
-    <div class="meta-item"><span class="meta-label">&#128197; Deadline:</span> Applications available now for Summer 2026</div>
-    <div class="meta-item"><span class="meta-label">Focus:</span> Field surveys, GIS mapping, wildlife monitoring</div>
-  </div>
-  <div class="pos-links">
-    <a class="pos-link" href="https://wetlandsinstitute.org/education/internship-opportunities/">&#128269; Wetlands Institute internship applications</a>
-  </div>
-  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
-  <div class="more-panel">
-    <h4>About the program</h4>
-    <p>The Wetlands Institute is a nonprofit research and education center on the NJ coast focused on coastal and wetland ecosystems. Research interns work directly with science staff on active projects. Past intern projects have included bird nesting surveys, diamondback terrapin monitoring, wetland vegetation surveys, and GIS habitat mapping.</p>
-    <div class="detail-row"><span class="detail-label">How to apply</span>Download application form from wetlandsinstitute.org; contact Director of Educational Program Development Brooke Knapick</div>
-    <div class="contact-block">Brooke Knapick, Director of Educational Program Development<br><a href="mailto:education@wetlandsinstitute.org">education@wetlandsinstitute.org</a><br>The Wetlands Institute, 1075 Stone Harbor Blvd, Stone Harbor, NJ 08247</div>
-  
-<!-- ML_BTN_item-028 --><button class="ml-save-btn" data-id="item-028" data-item="{&quot;title&quot;: &quot;Research Internship \u2014 Wetland Ecology &amp; Water Quality&quot;, &quot;org&quot;: &quot;Jug Bay Wetlands Sanctuary \u00b7 Lothian, MD (Anne Arundel County)&quot;, &quot;type&quot;: &quot;Internship&quot;, &quot;cat&quot;: &quot;Internships&quot;, &quot;src&quot;: &quot;erin_internships.html&quot;, &quot;src_label&quot;: &quot;Internships&quot;, &quot;deadline&quot;: &quot;&quot;, &quot;start&quot;: &quot;&quot;, &quot;body&quot;: &quot;Jug Bay's 2026 research internship included a project directly matching Erin's skills: studying beaver dam impacts on stream water quality \u2014 field work and data analysis on vegetation, water quality, and sedimentation in old and new beaver dams. Mentored by Dr. Patricia Delgado (JBWS/USGS) and Dr...&quot;, &quot;badge&quot;: &quot;Reference \u2014 2026 deadline passed&quot;, &quot;pills&quot;: [&quot;Wetland ecology&quot;, &quot;Beaver dam water quality&quot;, &quot;Field research design&quot;, &quot;Mentor: USGS Wetland Ecologist&quot;], &quot;id&quot;: &quot;item-028&quot;, &quot;location&quot;: &quot;Stone Harbor, NJ (Cape May County)&quot;, &quot;url&quot;: &quot;https://wetlandsinstitute.org/education/internship-opportunities/&quot;, &quot;url_label&quot;: &quot;\ud83d\udd0d Wetlands Institute internship applications&quot;}">&#9734; Save to My List</button></div>
-
-<!-- ML_BTN_item-027 --><button class="ml-save-btn" data-id="item-027" data-item="{&amp;quot;title&amp;quot;: &amp;quot;Research Internship \u2014 Wetland Ecology&amp;quot;, &amp;quot;org&amp;quot;: &amp;quot;The Wetlands Institute \u00b7 Stone Harbor, NJ&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;Internship&amp;quot;, &amp;quot;cat&amp;quot;: &amp;quot;Internships&amp;quot;, &amp;quot;src&amp;quot;: &amp;quot;erin_internships.html&amp;quot;, &amp;quot;src_label&amp;quot;: &amp;quot;Internships&amp;quot;, &amp;quot;deadline&amp;quot;: &amp;quot;Applications available now for Summer 2026&amp;quot;, &amp;quot;start&amp;quot;: &amp;quot;&amp;quot;, &amp;quot;body&amp;quot;: &amp;quot;The Wetlands Institute in Stone Harbor, NJ has summer 2026 internships available now. Research interns complete field surveys and studies under Science Staff supervision, including bird monitoring, nesting surveys, species counts, and GIS mapping. Strong match for Erin's wildlife survey skills, G...&amp;quot;, &amp;quot;badge&amp;quot;: &amp;quot;Verify \u2014 may be filled; contact directly&amp;quot;, &amp;quot;pills&amp;quot;: [&amp;quot;Wetland ecology field research&amp;quot;, &amp;quot;Bird &amp; wildlife surveys&amp;quot;, &amp;quot;GIS mapping&amp;quot;, &amp;quot;Coastal wetlands&amp;quot;], &amp;quot;id&amp;quot;: &amp;quot;item-027&amp;quot;}">&#9734; Save to My List</button></div>
-
-<!-- JugBay -->
-<div class="pos-card">
-  <div class="pos-header">
-    <div>
-      <div class="pos-title">Research Internship &mdash; Wetland Ecology &amp; Water Quality</div>
-      <div class="pos-org">Jug Bay Wetlands Sanctuary &middot; Lothian, MD (Anne Arundel County)</div>
-    </div>
-    <span class="badge b-closed">Reference &mdash; 2026 deadline passed</span>
-  </div>
-  <div class="fit-pills">
-    <span class="fit-pill">Wetland ecology</span>
-    <span class="fit-pill">Beaver dam water quality</span>
-    <span class="fit-pill">Field research design</span>
-    <span class="fit-pill">Mentor: USGS Wetland Ecologist</span>
-  </div>
-  <div class="pos-body">Jug Bay's 2026 research internship included a project directly matching Erin's skills: studying beaver dam impacts on stream water quality &mdash; field work and data analysis on vegetation, water quality, and sedimentation in old and new beaver dams. Mentored by Dr. Patricia Delgado (JBWS/USGS) and Dr. Timothy McMahon (USGS). The 2026 deadline was March 27. Watch for 2027 cycle &mdash; this program recurs annually.</div>
-  <div class="meta-grid">
-    <div class="meta-item"><span class="meta-label">Location:</span> Lothian, MD (Chesapeake region)</div>
-    <div class="meta-item"><span class="meta-label">&#128197; 2026 deadline:</span> March 27 (passed — watch for 2027)</div>
-    <div class="meta-item"><span class="meta-label">Duration:</span> 10&ndash;12 weeks, June&ndash;August</div>
-    <div class="meta-item"><span class="meta-label">Mentor:</span> Dr. Patricia Delgado, Wetland Ecologist (USGS)</div>
-  </div>
-  <div class="pos-links">
-    <a class="pos-link" href="https://jugbay.org/internships-2/">&#128269; Jug Bay internship program (watch for 2027)</a>
-    <a class="pos-link" href="mailto:rpdelg88@aacounty.org">&#9993; Dr. Patricia Delgado — rpdelg88@aacounty.org</a>
-  </div>
-  <button class="more-btn" onclick="toggleMore(this)">&#43; More info</button>
-  <div class="more-panel">
-    <h4>2026 project — perfect match (for reference &amp; 2027 watch)</h4>
-    <p>The beaver dam water quality project asks interns to characterize vegetation and water quality in both old and newly formed beaver dams and adjacent streams, documenting the role of beavers in stream water quality dynamics. This is essentially an applied version of Erin's GEOL 423 coursework applied to a field context. Students submit a short research proposal (&le;5 pages) on a project of their choosing from a list.</p>
-    <h4>How to prepare for 2027</h4>
-    <p>Email Dr. Patricia Delgado in January 2027 to express interest and ask about the upcoming cycle. Submit a strong research proposal using methodology from GEOL 423 and ENVH 310 coursework. The Pigeon River lead contamination project demonstrates exactly the kind of field-based water quality research this program values.</p>
-    <div class="detail-row"><span class="detail-label">&#128197; Watch for</span>2027 applications typically open January&ndash;February; deadline approximately March</div>
-  </div>
-</div>
-
-<hr>
-
-<!-- SEARCH LINKS -->
-
-<div class="slabel">Search resources &amp; job boards</div>
-<div class="card">
-  <a class="rl" href="https://www.usajobs.gov/Search/Results?hp=student&k=environmental+science+wetlands+water">&#128269;&nbsp; USAJobs &mdash; federal student internships: environmental science &amp; water</a>
-  <a class="rl" href="https://www.usajobs.gov/Search/Results?hp=student&a=FWS&k=biological+science">&#128269;&nbsp; USAJobs &mdash; USFWS biological science student positions</a>
-  <a class="rl" href="https://www.usajobs.gov/Search/Results?hp=student&a=USGS&k=water+hydrology">&#128269;&nbsp; USAJobs &mdash; USGS water/hydrology student positions</a>
-  <a class="rl" href="https://www.conservationjobboard.com/category/internship">&#128269;&nbsp; Conservation Job Board &mdash; internship listings</a>
-  <a class="rl" href="https://www.google.com/search?q=environmental+science+wetlands+water+quality+internship+summer+2026+paid">&#128269;&nbsp; Search: wetlands/water quality paid internships Summer 2026</a>
-  <a class="rl" href="https://www.google.com/search?q=wildlife+biology+field+technician+internship+southeastern+US+2026">&#128269;&nbsp; Search: wildlife field technician internships southeast 2026</a>
-  <a class="rl" href="https://www.google.com/search?q=GIS+environmental+science+internship+2026+paid+summer">&#128269;&nbsp; Search: GIS environmental science internships 2026</a>
-  <a class="rl" href="https://www.google.com/search?q=EPA+USGS+USFWS+Army+Corps+internship+environmental+science+2026+apply">&#128269;&nbsp; Search: federal agency environmental science internships 2026</a>
-  <a class="rl" href="https://www.google.com/search?q=environmental+consulting+wetland+delineation+internship+NC+SC+TN+CO+2026">&#128269;&nbsp; Search: wetland delineation consulting internships NC/SC/TN/CO 2026</a>
-  <a class="rl" href="https://www.environmentalscience.org/internships">&#128269;&nbsp; EnvironmentalScience.org &mdash; comprehensive internship guide by agency</a>
-</div>
-
-
-<p class="footer">Listings verified May 2026. Internship availability changes rapidly &mdash; verify all positions directly. Federal positions especially fill quickly after posting. Apply as soon as positions open.<br><br><a href="index.html" style="color:var(--blue)">&#8592; Back to home</a></p>
-</div>
-<script>
-function toggleMore(btn){var p=btn.nextElementSibling;var o=p.classList.toggle('open');btn.textContent=o?'− Less info':'+ More info'}
-</script>
-
-
-
-
-
-<style>
-.ml-save-btn{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:500;padding:5px 14px;border-radius:999px;border:1.5px solid var(--teal);background:transparent;color:var(--teal-t);cursor:pointer;font-family:inherit;margin-top:.6rem;transition:background .12s,color .12s}
-.ml-save-btn:hover{background:var(--teal-bg)}
-.ml-save-btn.saved{background:var(--teal-bg);color:var(--teal-t)}
-@media(prefers-color-scheme:dark){.ml-save-btn{color:var(--teal-t)}.ml-save-btn:hover,.ml-save-btn.saved{background:var(--teal-t)}}
-</style>
+<script src="opportunities.js?v=20260518-87-dc3b3a1e"></script>
 <script>
 (function(){
 var BIN_ID='6a039aa4250b1311c33f2bac',API_KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa',STORE='erin_mylist_v1';
 function getSaved(){try{return JSON.parse(localStorage.getItem(STORE)||'{}')}catch(e){return{}}}
 function setSaved(m){localStorage.setItem(STORE,JSON.stringify(m));}
 function isSaved(id){return!!getSaved()[id];}
+function isPrimary(){return localStorage.getItem('erin_primary_device')==='1'||localStorage.getItem('erin_primary_device_bak')==='1';}
 function push(m){
-  fetch('https://api.jsonbin.io/v3/b/'+BIN_ID,{
-    method:'PUT',
-    headers:{'Content-Type':'application/json','X-Master-Key':API_KEY,'X-Bin-Versioning':'false'},
-    body:JSON.stringify({items:m})
-  }).catch(function(){});
+  if(!isPrimary()) return;            /* only Erin's primary laptop writes to the cloud */
+  fetch('https://api.jsonbin.io/v3/b/'+BIN_ID+'/latest',{headers:{'X-Master-Key':API_KEY}})
+    .then(function(r){return r.json();})
+    .then(function(data){
+      var rec=(data&&data.record)||{};
+      rec.items=m;                    /* merge: only replace items, keep apps/archiveLog/etc */
+      return fetch('https://api.jsonbin.io/v3/b/'+BIN_ID,{
+        method:'PUT',
+        headers:{'Content-Type':'application/json','X-Master-Key':API_KEY,'X-Bin-Versioning':'false'},
+        body:JSON.stringify(rec)
+      });
+    }).catch(function(){});
 }
 window.ML={
   isSaved:isSaved,
@@ -782,56 +170,205 @@ document.addEventListener('DOMContentLoaded',function(){
 });
 })();
 </script>
-
-
 <script>
-function pageSearch(q){
-  var inp=document.getElementById('psr-input');
-  var clr=document.getElementById('psr-clear');
-  var cnt=document.getElementById('psr-count');
-  if(clr) clr.style.display=q?'block':'none';
-  
-  // Find all searchable cards and card-like blocks
-  var cards=document.querySelectorAll('.pos-card,.card,.context-banner,.card-deadline');
-  var shown=0, hidden=0;
-  var ql=q.toLowerCase().trim();
-  
-  cards.forEach(function(card){
-    if(!ql){ card.classList.remove('search-hidden'); shown++; return; }
-    var text=card.textContent.toLowerCase();
-    if(text.indexOf(ql)>-1){ card.classList.remove('search-hidden'); shown++; }
-    else{ card.classList.add('search-hidden'); hidden++; }
-  });
-  
-  // Also hide/show slabels that have no visible children
-  document.querySelectorAll('.slabel,.section-label,.ph2').forEach(function(lbl){
-    if(!ql){ lbl.classList.remove('search-hidden'); return; }
-    // Find next sibling cards
-    var el=lbl.nextElementSibling;
-    var anyVisible=false;
-    while(el&&!el.classList.contains('slabel')&&!el.classList.contains('rl-wrap')){
-      if(el.classList.contains('pos-card')||el.classList.contains('card')){
-        if(!el.classList.contains('search-hidden')) anyVisible=true;
-      }
-      el=el.nextElementSibling;
-    }
-    lbl.classList.toggle('search-hidden',!anyVisible);
-  });
-  
-  if(cnt){
-    if(ql) cnt.textContent=shown+' result'+(shown===1?'':'s');
-    else cnt.textContent='';
-  }
-}
-// Keyboard shortcut: / to focus search
-document.addEventListener('keydown',function(e){
-  if(e.key==='/'&&document.activeElement.tagName!=='INPUT'&&document.activeElement.tagName!=='TEXTAREA'){
-    e.preventDefault();
-    var inp=document.getElementById('psr-input');
-    if(inp) inp.focus();
-  }
-});
-</script>
+(function(){
+/* lean per-type Browse page — data-driven, primary-gated save reused */
+function el(tag,cls,txt){ var e=document.createElement(tag); if(cls)e.className=cls; if(txt!=null)e.textContent=txt; return e; }
+function payload(it){ return {title:it.title,org:it.org,type:it.type,cat:it.cat,src:it.src,
+  src_label:it.src_label,deadline:it.deadline||'',start:it.start||'',body:it.body||'',
+  desc:it.desc||'',badge:it.badge||'',pills:it.pills||[],id:it.id}; }
+function has(id){ return !!(window.ML&&ML.isSaved(id)); }
+function addItem(it){ if(window.ML) ML.save(payload(it)); }
+function delItem(id){ if(window.ML) ML.remove(id); }
+function renderBrowse(){ renderBrowseX(); }
+var TODAY=new Date('2026-05-17T00:00:00');
+function daysUntil(d){ if(!d) return null; return Math.round((new Date(d+'T00:00:00')-TODAY)/86400000); }
+function typeOf(it){ var c=(it.cat||it.type||'');
+  if(/Graduate/.test(c))return'Graduate'; if(/Internship/.test(c))return'Internship';
+  if(/Career/.test(c))return'Career'; if(/Service/.test(c))return'Service'; return'Other'; }
+var BUCKETS=['Closing soon','Upcoming — dated deadline','Open now / rolling','Contact faculty first','Timing unconfirmed','Deadline passed (kept for reference)'];
+function bucketOf(it){ var k=it.deadline_kind||'unknown', du=daysUntil(it.deadline_date);
+  if(k==='passed') return 5;
+  if(k==='fixed'&&du!=null&&du>=0&&du<=45) return 0;
+  if(k==='fixed'&&du!=null&&du>=0) return 1;
+  if(k==='rolling') return 2;
+  if(k==='contact-first') return 3;
+  return 4; }
+function fitRank(b){ b=(b||'').toLowerCase();
+  if(/exception|top recommend/.test(b))return 0; if(/strong/.test(b))return 1;
+  if(/good|solid|verified open|open now/.test(b))return 2; return 3; }
 
+/* extensible filter config — universal + per-type subfilters */
+var TYPES=['All','Graduate','Internship','Career','Service'];
+var CYCLES=[['All','All'],['Current','current'],['Next cycle','next']];
+var STATUSES=[['All',-1],['Closing soon',0],['Upcoming',1],['Open / rolling',2],['Contact first',3],['Unconfirmed',4],['Passed',5]];
+var FITS=['All','Exceptional','Strong','Good'];
+var SUB={
+ Graduate:[{k:'fund',label:'Funding',opts:['All','Funded/Assistantship'],
+   test:function(it,v){return v==='All'||/assistantship|fully funded|\bfunded\b|stipend|tuition waiver/i.test((it.desc||it.body||'')+(it.metaLine||''));}}],
+ Career:[{k:'sector',label:'Sector',opts:['All','Federal','State','Private/NGO'],
+   test:function(it,v){var s=(it.org||'')+' '+(it.desc||it.body||'');if(v==='All')return true;
+     var fed=/USFWS|US Fish|USGS|\bBLM\b|federal|GS-?\d|National Park|NOAA|USDA|Forest Service|Army Corps/i.test(s);
+     var st=/\bstate\b|NCWRC|Wildlife Resources Commission|Dept\.? of (Natural|Environment)/i.test(s);
+     if(v==='Federal')return fed; if(v==='State')return st&&!fed; return !fed&&!st;}}],
+ Internship:[{k:'paid',label:'Paid',opts:['All','Paid / Stipend'],
+   test:function(it,v){return v==='All'||/stipend|\bpaid\b|\$\s?\d|salary|housing provided/i.test((it.desc||it.body||'')+(it.metaLine||'')+(it.pay||''));}}],
+ Service:[{k:'prog',label:'Program',opts:['All','AmeriCorps','Conservation Corps'],
+   test:function(it,v){var s=(it.title||'')+' '+(it.org||'')+' '+(it.desc||'');if(v==='All')return true;
+     if(v==='AmeriCorps')return/americorps/i.test(s); return /conservation corps|\bcorps\b/i.test(s);}}]
+};
+/* multi-select state: each category is an array; [] === "All" */
+var LOCK_TYPE='Internship';
+var BX={type:LOCK_TYPE?[LOCK_TYPE]:[],cycle:[],status:[],fit:[],fresh:[],sub:{}};
+function isNewItem(it){ return !!(it.status && /(^|\W)new(\W|$)|new find/i.test(it.status.label||'')); }
+function isUpdatedItem(it){ return !!(it.status && /updated/i.test(it.status.label||'')); }
+var FRESH=[['✨ New','new'],['Updated','upd']];
+function has1(a,v){ return a.indexOf(v)>-1; }
+function toggle1(a,v){ var i=a.indexOf(v); if(i>-1)a.splice(i,1); else a.push(v); }
+function fitLabel(it){ return ['Exceptional','Strong','Good',''][fitRank(it.badge)]; }
+
+function chip(label,on,fn){ var b=el('button','bx-chip'+(on?' on':''),label); b.type='button'; b.onclick=fn; return b; }
+function fgroup(label,children){ var g=el('div','bx-fgroup'); g.appendChild(el('span','bx-flabel',label));
+  children.forEach(function(c){g.appendChild(c);}); return g; }
+/* a multi-select group: an "All" chip (on when nothing picked, clears the
+   category) followed by toggle chips (multiple may be active). */
+function mgroup(label,arr,opts){
+  var kids=[chip('All',arr.length===0,function(){ arr.length=0; renderBrowse(); })];
+  opts.forEach(function(o){ var lbl=o[0],val=o[1];
+    kids.push(chip(lbl,has1(arr,val),function(){ toggle1(arr,val); renderBrowse(); })); });
+  return fgroup(label,kids);
+}
+
+function buildBrowseFiltersX(){
+  var w=document.getElementById('browse-filters'); if(!w) return;
+  w.className='bx-fwrap'; w.innerHTML='';
+  if(!LOCK_TYPE) w.appendChild(mgroup('Type', BX.type, TYPES.slice(1).map(function(t){return [t,t];})));
+  w.appendChild(mgroup('Cycle', BX.cycle, CYCLES.slice(1)));
+  w.appendChild(mgroup('Status', BX.status, STATUSES.slice(1)));
+  w.appendChild(mgroup('Fit', BX.fit, FITS.slice(1).map(function(f){return [f,f];})));
+  w.appendChild(mgroup('New', BX.fresh, FRESH));
+  // per-type subfilters: shown for each selected type (extensible config)
+  BX.type.forEach(function(t){ (SUB[t]||[]).forEach(function(sf){
+    if(!BX.sub[sf.k]) BX.sub[sf.k]=[];
+    w.appendChild(mgroup(sf.label, BX.sub[sf.k], sf.opts.slice(1).map(function(o){return [o,o];})));
+  }); });
+}
+
+function buildBrowseDetailX(it){
+  var d=el('div','item-detail'); d.id='bb-'+it.id;
+  var kindLbl={fixed:'Dated deadline',rolling:'Open / rolling','contact-first':'Contact faculty first',passed:'Deadline passed',unknown:'Timing unconfirmed'}[it.deadline_kind||'unknown'];
+  var top=el('div','id-meta-row');
+  var ki=el('div','id-meta-item'); ki.innerHTML='<strong>Status:</strong> '+kindLbl+(it.deadline_date?(' · '+it.deadline_date):''); top.appendChild(ki);
+  if(it.deadline){ var di=el('div','id-meta-item'); di.innerHTML='<strong>Deadline:</strong> '+it.deadline; top.appendChild(di); }
+  if(it.start){ var si=el('div','id-meta-item'); si.innerHTML='<strong>Start:</strong> '+it.start; top.appendChild(si); }
+  d.appendChild(top);
+  if(it.badge){ d.appendChild(el('div','id-badge',it.badge)); }
+  d.appendChild(el('div','id-section-label','About this opportunity'));
+  d.appendChild(el('div','id-body', it.desc||it.body||''));
+  if(it.pills&&it.pills.length){ d.appendChild(el('div','id-section-label','Focus areas'));
+    var pd=el('div','id-pills'); it.pills.forEach(function(p){pd.appendChild(el('span','id-pill',p));}); d.appendChild(pd); }
+  if(it.pay||it.location||it.stipend||it.benefits){ d.appendChild(el('div','id-section-label','Compensation & location'));
+    var mr=el('div','id-meta-row');
+    if(it.pay){var x=el('div','id-meta-item');x.innerHTML='<strong>Pay:</strong> '+it.pay;mr.appendChild(x);}
+    if(it.stipend){var x2=el('div','id-meta-item');x2.innerHTML='<strong>Stipend:</strong> '+it.stipend;mr.appendChild(x2);}
+    if(it.location){var x3=el('div','id-meta-item');x3.innerHTML='<strong>Location:</strong> '+it.location;mr.appendChild(x3);}
+    if(it.benefits){var x4=el('div','id-meta-item');x4.innerHTML='<strong>Benefits:</strong> '+it.benefits;mr.appendChild(x4);} d.appendChild(mr); }
+  if(it.detail&&it.detail.length){ d.appendChild(el('div','id-section-label','Application detail'));
+    it.detail.forEach(function(b){
+      if(b.t==='h') d.appendChild(el('div','id-section-label',b.v));
+      else if(b.t==='row'){ var r=el('div','id-meta-item'); r.innerHTML='<strong>'+b.label+':</strong> '+b.value; d.appendChild(r); }
+      else if(b.t==='contact'){ var c=el('div','id-body',b.v); c.style.fontSize='12px'; d.appendChild(c); }
+      else { var p=el('div','id-body',b.v); p.style.fontSize='12px'; d.appendChild(p); }
+    }); }
+  if(it.extbody){ d.appendChild(el('div','id-section-label','Additional detail')); var eb=el('div','id-body',it.extbody); eb.style.fontSize='12px'; d.appendChild(eb); }
+  if(it.contact){ d.appendChild(el('div','id-section-label','How to apply / contact')); var cb=el('div','id-body',it.contact); cb.style.fontSize='12px'; d.appendChild(cb); }
+  var ln=document.createElement('div'); ln.style.cssText='display:flex;flex-wrap:wrap;gap:6px;margin-top:.5rem';
+  (it.links||[]).forEach(function(l){ var a=document.createElement('a'); a.className='id-link'; a.href=l.href; a.target='_blank'; a.textContent=l.label; ln.appendChild(a); });
+  if(it.url){ var au=document.createElement('a'); au.className='id-link id-link-primary'; au.href=it.url; au.target='_blank'; au.innerHTML='&#128279; '+(it.url_label||'Apply / View posting')+' &rarr;'; ln.appendChild(au); }
+  if(it.src){ var as=document.createElement('a'); as.className='id-link'; as.href=it.src; as.target='_blank'; as.textContent='Open '+(it.src_label||'source page'); ln.appendChild(as); }
+  if(it.id){ var ap=document.createElement('a'); ap.className='id-link'; ap.href='erin_packet.html?ml='+encodeURIComponent(it.id); ap.innerHTML='&#128424; Print packet'; ln.appendChild(ap); }
+  if(ln.children.length) d.appendChild(ln);
+  return d;
+}
+
+function renderBrowseX(){
+  buildBrowseFiltersX();
+  var q=((document.getElementById('bs')||{}).value||'').toLowerCase();
+  var items=ALL.filter(function(it){
+    if(BX.type.length   && !has1(BX.type,typeOf(it))) return false;
+    if(BX.cycle.length  && !has1(BX.cycle,(it.cycle||'current'))) return false;
+    if(BX.status.length && !has1(BX.status,bucketOf(it))) return false;
+    if(BX.fit.length    && !has1(BX.fit,fitLabel(it))) return false;
+    if(BX.fresh.length){ var fOk=false;
+      if(has1(BX.fresh,'new')&&isNewItem(it)) fOk=true;
+      if(has1(BX.fresh,'upd')&&isUpdatedItem(it)) fOk=true;
+      if(!fOk) return false; }
+    // subfilters: only for selected types; OR within a subfilter group
+    for(var t=0;t<BX.type.length;t++){ var defs=SUB[BX.type[t]]||[];
+      for(var i=0;i<defs.length;i++){ var sf=defs[i], picks=BX.sub[sf.k]||[];
+        if(picks.length){ var ok=false;
+          for(var p=0;p<picks.length;p++){ if(sf.test(it,picks[p])){ ok=true; break; } }
+          if(!ok) return false; } } }
+    if(q){ var hay=(it.title+it.org+(it.cat||'')+(it.deadline||'')+(it.desc||it.body||'')+(it.pills||[]).join(' ')).toLowerCase(); if(hay.indexOf(q)<0) return false; }
+    return true;
+  });
+  items.sort(function(a,b){
+    var ba=bucketOf(a),bb=bucketOf(b); if(ba!==bb) return ba-bb;
+    if(ba===0||ba===1){ var da=daysUntil(a.deadline_date),db=daysUntil(b.deadline_date);
+      if(da!=null&&db!=null&&da!==db) return da-db; }
+    var fa=fitRank(a.badge),fb=fitRank(b.badge); if(fa!==fb) return fa-fb;
+    return (a.title||'').localeCompare(b.title||'');
+  });
+  var body=document.getElementById('browse-body'); body.innerHTML='';
+  var hdr=el('div',null); hdr.style.cssText='font-size:12px;color:var(--t3);margin:.25rem 0 .5rem';
+  hdr.textContent=items.length+' opportunit'+(items.length===1?'y':'ies')+' · sorted by urgency, then fit';
+  body.appendChild(hdr);
+  if(!items.length){ body.appendChild(el('div','empty','No matches — adjust filters.')); return; }
+  var curB=-1;
+  items.forEach(function(raw){
+    var it=(typeof mergeWithAll==='function')?mergeWithAll(raw):raw;
+    var bk=bucketOf(raw);
+    if(bk!==curB){ curB=bk; var sec=el('div','bx-sec'); sec.innerHTML=BUCKETS[bk]+' <span class="n">'+items.filter(function(z){return bucketOf(z)===bk;}).length+'</span>'; body.appendChild(sec); }
+    var saved=(typeof has==='function')&&has(it.id);
+    var fresh=isNewItem(it);
+    var card=el('div','browse-card'+(saved?' is-saved':'')+(fresh?' is-new':'')); card.id='bcx-'+it.id;
+    var th=el('div',null); th.style.cssText='display:flex;justify-content:space-between;gap:8px;align-items:flex-start';
+    var tl=el('div',null);
+    var titleRow=el('div',null); titleRow.style.cssText='display:flex;align-items:center;gap:7px;flex-wrap:wrap';
+    if(fresh) titleRow.appendChild(el('span','bx-new','✨ NEW'));
+    titleRow.appendChild(el('div','browse-title',it.title));
+    if(saved) titleRow.appendChild(el('span','bx-saved','✓ Saved'));
+    tl.appendChild(titleRow);
+    tl.appendChild(el('div','browse-org',it.org));
+    th.appendChild(tl);
+    var du=daysUntil(it.deadline_date);
+    var urgTxt=bk===0?(du!=null?(du<=0?'Due now':du+'d left'):'Closing soon'):bk===1?'Upcoming':bk===2?'Open now':bk===3?'Contact first':bk===4?'Check timing':'Passed';
+    var u=el('span','bx-urg u'+bk,urgTxt); th.appendChild(u);
+    card.appendChild(th);
+    var meta=el('div','browse-meta');
+    if(it.deadline){ var dm=el('span'); dm.innerHTML='<strong style="font-weight:500">Deadline:</strong> '+it.deadline; meta.appendChild(dm); }
+    if(it.badge){ if(it.deadline)meta.appendChild(el('span',null,' · ')); var bm=el('span'); bm.textContent=it.badge; meta.appendChild(bm); }
+    card.appendChild(meta);
+    var bd=buildBrowseDetailX(it); card.appendChild(bd);
+    var acts=el('div','item-actions');
+    var dbt=el('button','act-btn','Details');
+    dbt.onclick=function(ev){ ev.stopPropagation(); bd.classList.toggle('open'); dbt.textContent=bd.classList.contains('open')?'Hide details':'Details'; };
+    acts.appendChild(dbt); card.appendChild(acts);
+    var sv=el('button','browse-save-btn'+(saved?' saved':''), saved?'✓ Saved':'+ Save');
+    sv.onclick=function(){ if(typeof has==='function'&&has(it.id)){ if(typeof delItem==='function')delItem(it.id); } else if(typeof addItem==='function'){ addItem(it); } renderBrowse(); if(typeof renderList==='function')renderList(); };
+    card.appendChild(sv);
+    card.onclick=function(ev){ if(ev.target.closest('a')||ev.target.closest('button'))return; bd.classList.toggle('open'); };
+    body.appendChild(card);
+  });
+}
+function init(){
+  var s=document.getElementById('bs'); if(s) s.addEventListener('input',renderBrowseX);
+  renderBrowseX();
+  if(window.ML&&ML.update) ML.update();
+}
+if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',init);
+else init();
+})();
+</script>
 </body>
 </html>

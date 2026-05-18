@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
+<link rel="stylesheet" href="styles.css?v=20260518e">
 <title>Erin Lamberton &#8212; Application Tracker</title>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -11,12 +13,18 @@ body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6
 
 /* ── Global nav ── */
 .global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
-.gnav-wrap{max-width:720px;margin:0 auto;display:flex;align-items:center}
-.gnav-inner{flex:1;min-width:0;display:flex;align-items:center;gap:0;overflow-x:auto;scrollbar-width:none}
-.gnav-inner::-webkit-scrollbar{display:none}
-.gnav-home{font-size:13px;font-weight:600;color:var(--t1);text-decoration:none;padding:11px 12px 11px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:2px;flex-shrink:0}
+.gnav-wrap{max-width:1100px;margin:0 auto;display:flex;align-items:center}
+.gnav-inner{flex:1;min-width:0;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:0 2px;row-gap:2px;scrollbar-width:none}
+.gnav-divider{display:inline-block;width:1px;height:16px;background:var(--bd);margin:0 4px;flex-shrink:0}
+.gnav-divider.gnav-break{flex-basis:100%;width:0;height:0;background:none;margin:0}
+.gnav-group{display:inline-flex;align-items:center;gap:0;flex-shrink:0}
+.gnav-group-label{font-size:9px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;margin-right:4px;flex-shrink:0;padding:2px 6px;border-radius:4px;line-height:1}
+.gnav-group-label.gl-track{background:var(--teal-bg);color:var(--teal-t)}
+.gnav-group-label.gl-browse{background:var(--blue-bg);color:var(--blue)}
+.gnav-group-label.gl-write{background:var(--amber-bg);color:var(--amber-t)}
+.gnav-home{font-size:12px;font-weight:600;color:var(--t1);text-decoration:none;padding:8px 8px 8px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:2px;flex-shrink:0}
 .gnav-home:hover{color:var(--teal-t)}
-.gnav-link{font-size:12px;font-weight:500;color:var(--t3);text-decoration:none;padding:11px 9px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
+.gnav-link{font-size:11px;font-weight:500;color:var(--t3);text-decoration:none;padding:8px 5px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
 .gnav-link:hover{color:var(--t1)}
 .gnav-link.active{color:var(--teal-t);border-bottom-color:var(--teal)}
 .gnav-toggle{flex-shrink:0;width:34px;height:34px;margin-left:8px;display:flex;align-items:center;justify-content:center;border:1.5px solid var(--bd);background:var(--bg2);color:var(--t2);cursor:pointer;border-radius:6px;font-family:var(--fn);font-size:14px;line-height:1;transition:background .12s,border-color .12s}
@@ -61,6 +69,7 @@ a:hover{text-decoration:underline}
 .ps-gathering{background:var(--amber-bg);color:var(--amber-t)}
 .ps-submitted{background:var(--blue-bg);color:var(--blue)}
 .ps-review{background:var(--purple-bg);color:var(--purple-t)}
+.ps-interview{background:#e6f1fb;color:#185fa5;border:1px solid #185fa5}
 .ps-decision{background:var(--teal-bg);color:var(--teal-t)}
 .ps-accepted{background:#e1f5ee;color:#0f6e56;border:1.5px solid #0f6e56}
 .ps-declined{background:var(--red-bg);color:var(--red-t)}
@@ -72,6 +81,7 @@ a:hover{text-decoration:underline}
 .app-card.status-gathering{border-left:3px solid #ef9f27}
 .app-card.status-submitted{border-left:3px solid #185fa5}
 .app-card.status-review{border-left:3px solid #534ab7}
+.app-card.status-interview{border-left:3px solid #185fa5}
 .app-card.status-decision{border-left:3px solid var(--teal)}
 .app-card.status-accepted{border-left:3px solid #0f6e56;background:var(--teal-bg)}
 .app-card.status-declined{border-left:3px solid #993c1d;opacity:.7}
@@ -172,9 +182,10 @@ html:not(.dark){
   --teal-bg:#eaf3e5;--teal-t:#3c7b20;
   --blue-bg:#e5f0f0;--amber-bg:#f5f0db;--amber-t:#6b5500;
   --red-bg:#faece7;--red-t:#993c1d;
-  --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
+  --purple-bg:#efebfe;--purple-t:#4c37c8;
 }
 </style>
+<script src="site.js?v=20260518e"></script>
 <script>
 (function(){
   var saved=localStorage.getItem('erin_theme');
@@ -193,13 +204,35 @@ html:not(.dark){
   <div class="gnav-wrap">
     <div class="gnav-inner">
       <a href="index.html" class="gnav-home">&#127968; Home</a>
-    <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
-    <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
-    <a href="erin_applications.html" class="gnav-link active">&#128196; Applications</a>
-    <a href="erin_proftracker.html" class="gnav-link">&#128100; Professors</a>
-    <a href="erin_reftracker.html" class="gnav-link">&#128393; References</a>
-    <a href="erin_writing_samples.html" class="gnav-link">&#9997; Writing</a>
-    <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
+      <a href="erin_search.html" class="gnav-link">&#128269; Search</a>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-track">Track</span>
+        <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
+        <a href="erin_compare.html" class="gnav-link">&#9878; Compare</a>
+        <a href="erin_pipeline.html" class="gnav-link">&#128202; Pipeline</a>
+        <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
+        <a href="erin_applications.html" class="gnav-link">&#128196; Apps</a>
+        <a href="erin_proftracker.html" class="gnav-link">&#128100; Profs</a>
+        <a href="erin_reftracker.html" class="gnav-link">&#128393; Refs</a>
+        <a href="erin_archive.html" class="gnav-link">&#128193; Archive</a>
+      </div>
+      <span class="gnav-divider gnav-break"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-browse">Browse</span>
+        <a href="erin_programs.html" class="gnav-link">&#127979; Programs</a>
+        <a href="erin_internships.html" class="gnav-link">&#128203; Internships</a>
+        <a href="erin_jobs.html" class="gnav-link">&#128188; Jobs</a>
+        <a href="erin_service.html" class="gnav-link">&#127807; Service</a>
+      </div>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-write">Write</span>
+        <a href="erin_materials.html" class="gnav-link">&#128218; Materials</a>
+        <a href="erin_writing_samples.html" class="gnav-link">&#9997; Writing</a>
+        <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
+        <a href="erin_packet.html" class="gnav-link">&#128424; Packet</a>
+      </div>
     </div>
     <button class="gnav-toggle" id="theme-toggle" onclick="__toggleTheme()" title="Toggle dark/light mode">&#127769;</button>
   </div>
@@ -223,6 +256,8 @@ html:not(.dark){
     <span class="pipe-step ps-submitted">Submitted</span>
     <span class="pipe-arrow">›</span>
     <span class="pipe-step ps-review">Under review</span>
+    <span class="pipe-arrow">›</span>
+    <span class="pipe-step ps-interview">Interview / heard back</span>
     <span class="pipe-arrow">›</span>
     <span class="pipe-step ps-decision">Decision received</span>
     <span class="pipe-arrow">›</span>
@@ -251,8 +286,91 @@ var BIN='6a039aa4250b1311c33f2bac',KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEh
 var PRIMARY_KEY='erin_primary_device';
 function isPrimary(){ return localStorage.getItem(PRIMARY_KEY)==='1'; }
 
-var MYLIST_STORE='erin_mylist_v1';
+// ── Archive log: rationale capture when applications are removed/declined/waitlisted ──
+// Shared store ('erin_archive_log', bin key 'archiveLog') with My List so the full
+// history of every passed-on opportunity lives in one place. Six months from now,
+// looking back at the Fall 2027 cycle, that history is gold.
+var ARCHIVE_STORE='erin_archive_log';
+function loadArchive(){ try{ return JSON.parse(localStorage.getItem(ARCHIVE_STORE)||'[]'); }catch(e){ return []; } }
+function saveArchive(arr){ localStorage.setItem(ARCHIVE_STORE,JSON.stringify(arr)); }
+function pushArchive(arr){
+  if(!isPrimary()) return;
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+    .then(function(r){return r.json();})
+    .then(function(data){
+      var rec=data.record||{}; rec.archiveLog=arr;
+      fetch('https://api.jsonbin.io/v3/b/'+BIN,{method:'PUT',headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},body:JSON.stringify(rec)});
+    }).catch(function(){});
+}
+function logArchive(entry){
+  if(!entry) return;
+  var arr=loadArchive();
+  entry.id='arch-'+Date.now()+'-'+Math.random().toString(36).slice(2,7);
+  entry.date=new Date().toISOString();
+  arr.push(entry);
+  saveArchive(arr); pushArchive(arr);
+}
+
+// Modal — optional one-liner + tag chips. cb(null) on cancel, cb({...}) otherwise.
+window.showArchiveModal=function(opts, cb){
+  var TAGS=['too far','no funding','wrong research fit','missed deadline','better option','not competitive','other'];
+  var overlay=document.createElement('div');
+  overlay.style.cssText='position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:9999;display:flex;align-items:center;justify-content:center;padding:1rem;font-family:var(--fn,sans-serif)';
+  var modal=document.createElement('div');
+  modal.style.cssText='background:var(--bg);border:.5px solid var(--bd);border-radius:12px;max-width:440px;width:100%;padding:1.25rem 1.35rem;box-shadow:0 8px 32px rgba(0,0,0,.28);color:var(--t1)';
+  var verbMap={removed:'Remove application',declined:'Mark as Declined',waitlisted:'Mark as Waitlisted',accepted:'Mark as Accepted'};
+  var actionVerb=verbMap[opts.action]||'Archive';
+  var t=document.createElement('div');
+  t.style.cssText='font-size:14px;font-weight:600;color:var(--t1);margin-bottom:.35rem;line-height:1.4';
+  t.textContent=actionVerb+': '+(opts.title||'this application');
+  modal.appendChild(t);
+  if(opts.org){
+    var og=document.createElement('div'); og.style.cssText='font-size:12px;color:var(--t3);margin-bottom:.85rem'; og.textContent=opts.org; modal.appendChild(og);
+  }
+  var hint=document.createElement('div');
+  hint.style.cssText='font-size:12px;color:var(--t2);margin-bottom:.6rem;line-height:1.5';
+  hint.textContent='A one-line rationale helps future-Erin understand the past. Optional, but recommended.';
+  modal.appendChild(hint);
+  var tagsRow=document.createElement('div'); tagsRow.style.cssText='display:flex;flex-wrap:wrap;gap:5px;margin-bottom:.75rem';
+  var pickedTags={};
+  TAGS.forEach(function(tg){
+    var btn=document.createElement('button'); btn.type='button'; btn.textContent=tg;
+    btn.style.cssText='font-size:11px;font-weight:500;padding:4px 10px;border-radius:999px;border:1px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:inherit';
+    btn.onclick=function(){
+      pickedTags[tg]=!pickedTags[tg];
+      btn.style.background=pickedTags[tg]?'var(--teal-bg)':'transparent';
+      btn.style.color=pickedTags[tg]?'var(--teal-t)':'var(--t2)';
+      btn.style.borderColor=pickedTags[tg]?'var(--teal)':'var(--bds)';
+    };
+    tagsRow.appendChild(btn);
+  });
+  modal.appendChild(tagsRow);
+  var input=document.createElement('textarea');
+  input.placeholder='Brief reason (e.g. "Lab too small, advisor not taking students for Fall 2027")';
+  input.style.cssText='width:100%;min-height:60px;font-size:13px;padding:8px 10px;border-radius:8px;border:1px solid var(--bds);background:var(--bg2);color:var(--t1);font-family:inherit;resize:vertical;box-sizing:border-box';
+  modal.appendChild(input);
+  var btnRow=document.createElement('div'); btnRow.style.cssText='display:flex;gap:.6rem;justify-content:flex-end;margin-top:.85rem;flex-wrap:wrap';
+  var cancel=document.createElement('button'); cancel.type='button'; cancel.textContent='Cancel';
+  cancel.style.cssText='font-size:12px;padding:6px 14px;border-radius:6px;border:.5px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:inherit';
+  cancel.onclick=function(){ document.body.removeChild(overlay); cb(null); };
+  var skip=document.createElement('button'); skip.type='button'; skip.textContent='Skip reason';
+  skip.style.cssText='font-size:12px;padding:6px 14px;border-radius:6px;border:.5px solid var(--bds);background:var(--bg2);color:var(--t2);cursor:pointer;font-family:inherit';
+  skip.onclick=function(){ document.body.removeChild(overlay); cb({reason:'',tags:[],itemId:opts.itemId,source:opts.source,action:opts.action,itemTitle:opts.title,itemOrg:opts.org}); };
+  var save=document.createElement('button'); save.type='button'; save.textContent='Save & '+actionVerb.toLowerCase();
+  save.style.cssText='font-size:12px;font-weight:500;padding:6px 16px;border-radius:6px;border:none;background:var(--teal);color:#fff;cursor:pointer;font-family:inherit';
+  save.onclick=function(){
+    var tags=Object.keys(pickedTags).filter(function(k){return pickedTags[k];});
+    document.body.removeChild(overlay);
+    cb({reason:input.value.trim(),tags:tags,itemId:opts.itemId,source:opts.source,action:opts.action,itemTitle:opts.title,itemOrg:opts.org});
+  };
+  btnRow.appendChild(cancel); btnRow.appendChild(skip); btnRow.appendChild(save);
+  modal.appendChild(btnRow);
+  overlay.appendChild(modal); document.body.appendChild(overlay);
+  setTimeout(function(){input.focus();},50);
+};
+
 var APP_STORE='erin_applications_v1';
+var MYLIST_STORE='erin_mylist_v1';
 
 // ── Storage helpers ──
 function loadMyList(){ try{ return JSON.parse(localStorage.getItem(MYLIST_STORE)||'{}'); }catch(e){ return {}; } }
@@ -281,26 +399,16 @@ function pullApps(){
   fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
   .then(function(r){return r.json();})
   .then(function(data){
-    if(data.record && data.record.apps){
-      var cloud=data.record.apps;
-      var local=loadApps();
-      if(isPrimary()){
-        // Primary device: local is truth — push local to cloud
-        pushApps(local);
-      } else {
-        // Secondary device: cloud wins — overwrite local
-        saveApps(cloud);
-      }
-    }
-    renderCards();
-  }).catch(function(){ renderCards(); });
+    if(data.record && data.record.apps){ saveApps(data.record.apps); }
+    render();
+  }).catch(function(){ render(); });
 }
 
 
 // ── Status helpers ──
-var STATUS_ORDER={notstarted:0,gathering:1,submitted:2,review:3,decision:4,accepted:5,waitlisted:6,declined:7};
-var STATUS_LABELS={notstarted:'Not started',gathering:'Gathering materials',submitted:'Submitted',review:'Under review',decision:'Decision received',accepted:'Accepted ✓',declined:'Declined',waitlisted:'Waitlisted'};
-var STATUS_CSS={notstarted:'ps-notstarted',gathering:'ps-gathering',submitted:'ps-submitted',review:'ps-review',decision:'ps-decision',accepted:'ps-accepted',declined:'ps-declined',waitlisted:'ps-waitlisted'};
+var STATUS_ORDER={notstarted:0,gathering:1,submitted:2,review:3,interview:4,decision:5,accepted:6,waitlisted:7,declined:8};
+var STATUS_LABELS={notstarted:'Not started',gathering:'Gathering materials',submitted:'Submitted',review:'Under review',interview:'Interview / heard back',decision:'Decision received',accepted:'Accepted ✓',declined:'Declined',waitlisted:'Waitlisted'};
+var STATUS_CSS={notstarted:'ps-notstarted',gathering:'ps-gathering',submitted:'ps-submitted',review:'ps-review',interview:'ps-interview',decision:'ps-decision',accepted:'ps-accepted',declined:'ps-declined',waitlisted:'ps-waitlisted'};
 
 // Default materials checklist items
 var DEFAULT_MATERIALS=[
@@ -372,9 +480,18 @@ function updateProgress(id,materials){
 }
 
 function deleteCard(id){
-  if(!confirm('Remove this application entry?')) return;
-  var arr=loadApps().filter(function(a){return a.id!==id;});
-  saveApps(arr); pushApps(arr); render();
+  var arr=loadApps();
+  var app=arr.find(function(a){return a.id===id;});
+  if(!app) return;
+  window.showArchiveModal(
+    {title:app.programTitle||'this application', org:app.org, source:'application', itemId:id, action:'removed'},
+    function(result){
+      if(!result) return; // cancelled — leave application in place
+      logArchive(result);
+      var next=loadApps().filter(function(a){return a.id!==id;});
+      saveApps(next); pushApps(next); render();
+    }
+  );
 }
 
 function addCard(prefill){
@@ -442,202 +559,161 @@ function render(){
     } else {
       // Keep deadline in sync if it changed
       if(it.deadline&&!exists.deadline) exists.deadline=it.deadline;
-      if(it.org&&!exists.org) exists.org=it.org;
-      if(it.type&&!exists.itemType) exists.itemType=it.type;
     }
   });
-
   saveApps(arr);
-  document.getElementById('app-count').textContent=arr.length+' application'+(arr.length===1?'':'s')+' tracked';
+  renderCards();
   updateSummary();
   buildFilters();
-  renderCards();
 }
 
 function renderCards(){
   var arr=loadApps();
+  if(currentFilter!=='All') arr=arr.filter(function(a){ return a.itemType===currentFilter||a.org===currentFilter; });
   var body=document.getElementById('app-body'); body.innerHTML='';
-
-  var visible=arr;
-  if(currentFilter!=='All'){
-    visible=arr.filter(function(a){ return (a.itemType||'').indexOf(currentFilter.split(' ')[0])>-1; });
-  }
-
-  if(!visible.length){
-    body.innerHTML='<div class="empty"><div class="empty-icon">&#128196;</div><div class="empty-title">No applications tracked yet</div><div class="empty-body">Save opportunities to My List and they will appear here automatically, or click "+ Add application manually" above.</div></div>';
+  document.getElementById('app-count').textContent=arr.length+' application'+(arr.length!==1?'s':'');
+  if(!arr.length){
+    body.innerHTML='<div class="empty"><div class="empty-icon">&#128196;</div><div class="empty-title">No applications yet</div><div class="empty-body">Save Graduate Programs to My List — they\'ll appear here automatically. Or click "+ Add application manually" above.</div></div>';
     return;
   }
+  arr.forEach(function(app){
+    var card=document.createElement('div');
+    card.className='app-card'+(app.status&&app.status!=='notstarted'?' status-'+app.status:'');
+    card.id='acard-'+app.id;
 
-  // Sort: active statuses first, then by status pipeline order
-  visible.sort(function(a,b){
-    return (STATUS_ORDER[a.status||'notstarted']||0)-(STATUS_ORDER[b.status||'notstarted']||0);
-  });
+    // Header
+    var hdr=document.createElement('div'); hdr.className='app-header';
+    var left=document.createElement('div');
+    var titleEl=document.createElement('div'); titleEl.className='app-title'; titleEl.textContent=app.programTitle||'Untitled Application';
+    var orgEl=document.createElement('div'); orgEl.className='app-org'; orgEl.textContent=app.org||'';
+    left.appendChild(titleEl); left.appendChild(orgEl);
+    if(app.deadline){ var dl=document.createElement('div'); dl.className='app-deadline'; dl.textContent='Deadline: '+app.deadline; left.appendChild(dl); }
+    hdr.appendChild(left);
 
-  visible.forEach(function(app){ body.appendChild(makeCard(app)); });
-}
-
-function makeCard(app){
-  var card=document.createElement('div');
-  var st=app.status||'notstarted';
-  card.className='app-card'+(st!=='notstarted'?' status-'+st:'');
-  card.id='acard-'+app.id;
-
-  // Header
-  var hdr=document.createElement('div'); hdr.className='app-header';
-  var left=document.createElement('div');
-  var title=document.createElement('div'); title.className='app-title'; title.textContent=app.programTitle||'New application'; left.appendChild(title);
-  if(app.org){ var org=document.createElement('div'); org.className='app-org'; org.textContent=app.org; left.appendChild(org); }
-  // Link to opportunity source
-  if(app.itemUrl||app.itemSrc){
-    var lnkRow=document.createElement('div'); lnkRow.style.cssText='display:flex;gap:8px;flex-wrap:wrap;margin-top:3px';
-    if(app.itemUrl){ var ul=document.createElement('a'); ul.href=app.itemUrl; ul.target='_blank'; ul.className='opp-link'; ul.innerHTML='&#128279; Apply / posting'; lnkRow.appendChild(ul); }
-    if(app.itemSrc){ var sl=document.createElement('a'); sl.href=app.itemSrc; sl.target='_blank'; sl.className='opp-link opp-link-sec'; sl.innerHTML='&#128203; View in site'; lnkRow.appendChild(sl); }
-    left.appendChild(lnkRow);
-  }
-  if(app.deadline){ var dl=document.createElement('div'); dl.className='app-deadline'; dl.innerHTML='<strong style="font-weight:500;color:var(--t1)">Deadline:</strong> '+app.deadline; left.appendChild(dl); }
-  hdr.appendChild(left);
-
-  // Status pill
-  var sp=document.createElement('span');
-  sp.className='status-pill '+STATUS_CSS[st];
-  sp.id='aspl-'+app.id;
-  sp.textContent=STATUS_LABELS[st]||st;
-  hdr.appendChild(sp);
-  card.appendChild(hdr);
-
-  // Fields grid — row 1
-  var row1=document.createElement('div'); row1.className='app-row';
-
-  function makeField(lbl, elId, val, type){
-    var f=document.createElement('div'); f.className='app-field';
-    var l=document.createElement('div'); l.className='app-lbl'; l.textContent=lbl; f.appendChild(l);
-    var inp=document.createElement('input'); inp.className='app-input'; inp.id=elId; inp.value=val||''; inp.placeholder=lbl;
-    if(type==='date') inp.type='date';
-    f.appendChild(inp); return f;
-  }
-
-  // Status select
-  var sf=document.createElement('div'); sf.className='app-field';
-  var sl=document.createElement('div'); sl.className='app-lbl'; sl.textContent='Status'; sf.appendChild(sl);
-  var sel=document.createElement('select'); sel.className='app-select'; sel.id='as-'+app.id;
-  Object.keys(STATUS_LABELS).forEach(function(k){
-    var opt=document.createElement('option'); opt.value=k; opt.textContent=STATUS_LABELS[k];
-    if(k===st) opt.selected=true; sel.appendChild(opt);
-  });
-  sel.onchange=function(){
-    var s=sel.value;
-    var spl=document.getElementById('aspl-'+app.id);
-    if(spl){ spl.className='status-pill '+STATUS_CSS[s]; spl.textContent=STATUS_LABELS[s]; }
-    updateCardClass(app.id,s);
-    var drWrap=document.getElementById('adr-wrap-'+app.id);
-    if(drWrap) drWrap.style.display=(s==='decision'||s==='accepted'||s==='declined'||s==='waitlisted')?'flex':'none';
-  };
-  sf.appendChild(sel); row1.appendChild(sf);
-
-  row1.appendChild(makeField('Submit date','asd-'+app.id,app.submitDate,'date'));
-  row1.appendChild(makeField('Decision date','add-'+app.id,app.decisionDate,'date'));
-
-  // Decision reason (shown only for decision/accepted/declined/waitlisted statuses)
-  var drf=document.createElement('div'); drf.className='app-field'; drf.id='adr-wrap-'+app.id;
-  drf.style.display=(st==='decision'||st==='accepted'||st==='declined'||st==='waitlisted')?'flex':'none';
-  var drl=document.createElement('div'); drl.className='app-lbl'; drl.textContent='Decision reason / notes'; drf.appendChild(drl);
-  var drInp=document.createElement('input'); drInp.className='app-input'; drInp.id='adr-'+app.id;
-  drInp.value=app.decisionReason||''; drInp.placeholder='e.g. Waitlisted — funding position filled; offered spring instead';
-  drf.appendChild(drInp); row1.appendChild(drf);
-
-  // Portal URL
-  var pu=document.createElement('div'); pu.className='app-field';
-  var pul=document.createElement('div'); pul.className='app-lbl'; pul.textContent='Portal URL'; pu.appendChild(pul);
-  var puInp=document.createElement('input'); puInp.className='app-input'; puInp.id='apu-'+app.id; puInp.value=app.portalUrl||''; puInp.placeholder='https://apply.university.edu';
-  pu.appendChild(puInp); row1.appendChild(pu);
-
-  card.appendChild(row1);
-
-  // Row 2
-  var row2=document.createElement('div'); row2.className='app-row';
-  row2.appendChild(makeField('Portal login / username','apl-'+app.id,app.portalLogin,''));
-
-  // Professor / POC field
-  var pf=document.createElement('div'); pf.className='app-field';
-  var pl=document.createElement('div'); pl.className='app-lbl'; pl.textContent='Professor / POC'; pf.appendChild(pl);
-  var pSel=document.createElement('select'); pSel.className='app-select'; pSel.id='approf-'+app.id;
-  var emptyOpt=document.createElement('option'); emptyOpt.value=''; emptyOpt.textContent='— None / N/A'; pSel.appendChild(emptyOpt);
-  // Load from proftracker
-  try{
-    var profs=JSON.parse(localStorage.getItem('erin_prof_contacts')||'[]');
-    profs.forEach(function(p){
-      var opt=document.createElement('option'); opt.value=p.id;
-      opt.textContent=(p.professor||'Unnamed')+' — '+(p.programTitle||'').slice(0,30);
-      if((app.professor||'')===(p.id||'')) opt.selected=true;
-      pSel.appendChild(opt);
+    // Status pill
+    var statusSel=document.createElement('select'); statusSel.className='app-select'; statusSel.id='as-'+app.id;
+    statusSel.style.cssText='width:auto;font-size:11px;padding:3px 8px';
+    Object.keys(STATUS_LABELS).forEach(function(k){
+      var o=document.createElement('option'); o.value=k; o.textContent=STATUS_LABELS[k];
+      if(k===app.status) o.selected=true;
+      statusSel.appendChild(o);
     });
-  }catch(e){}
-  pf.appendChild(pSel); row2.appendChild(pf);
+    hdr.appendChild(statusSel);
+    card.appendChild(hdr);
 
-  var nf=document.createElement('div'); nf.className='app-field';
-  var nl=document.createElement('div'); nl.className='app-lbl'; nl.textContent='Notes'; nf.appendChild(nl);
-  var ta=document.createElement('textarea'); ta.className='app-ta'; ta.id='an-'+app.id; ta.placeholder='Notes, next steps, interview dates...'; ta.value=app.notes||''; nf.appendChild(ta);
-  row2.appendChild(nf);
-  card.appendChild(row2);
+    // Fields grid
+    var row1=document.createElement('div'); row1.className='app-row';
+    function field(lbl,id,type,val,placeholder){
+      var f=document.createElement('div'); f.className='app-field';
+      var lb=document.createElement('div'); lb.className='app-lbl'; lb.textContent=lbl;
+      var inp=document.createElement(type==='textarea'?'textarea':'input');
+      if(type==='textarea'){ inp.className='app-ta'; inp.rows=2; }
+      else { inp.type=type||'text'; inp.className='app-input'; }
+      inp.id=id; inp.value=val||''; if(placeholder) inp.placeholder=placeholder;
+      f.appendChild(lb); f.appendChild(inp); return f;
+    }
+    row1.appendChild(field('Portal URL','apu-'+app.id,'text',app.portalUrl,'https://'));
+    row1.appendChild(field('Portal Login','apl-'+app.id,'text',app.portalLogin,'username / email'));
+    card.appendChild(row1);
 
-  // Materials checklist
-  var cls=document.createElement('div'); cls.className='checklist-section';
-  var clt=document.createElement('div'); clt.className='checklist-title'; clt.textContent='Materials checklist'; cls.appendChild(clt);
+    var row2=document.createElement('div'); row2.className='app-row';
+    row2.appendChild(field('Submitted','asd-'+app.id,'date',app.submitDate));
+    row2.appendChild(field('Decision date','add-'+app.id,'date',app.decisionDate));
+    card.appendChild(row2);
 
-  var checked=Object.keys(app.materials||{}).filter(function(k){return app.materials[k];}).length;
-  var total=DEFAULT_MATERIALS.length;
+    if(app.status==='accepted'||app.status==='declined'||app.status==='waitlisted'){
+      var row3=document.createElement('div'); row3.className='app-row';
+      row3.appendChild(field('Professor / contact','approf-'+app.id,'text',app.professor,'Name / email'));
+      row3.appendChild(field('Decision reason / notes','adr-'+app.id,'text',app.decisionReason,'e.g. funding, fit'));
+      card.appendChild(row3);
+    } else {
+      // Hidden fields still needed for saveCard
+      var hf1=document.createElement('input'); hf1.type='hidden'; hf1.id='approf-'+app.id; hf1.value=app.professor||''; card.appendChild(hf1);
+      var hf2=document.createElement('input'); hf2.type='hidden'; hf2.id='adr-'+app.id; hf2.value=app.decisionReason||''; card.appendChild(hf2);
+    }
 
-  // Progress bar
-  var progress=document.createElement('div'); progress.className='checklist-progress';
-  var bar=document.createElement('div'); bar.className='checklist-bar'; bar.id='apr-'+app.id;
-  bar.style.width=Math.round(100*checked/total)+'%';
-  progress.appendChild(bar); cls.appendChild(progress);
+    var noteRow=document.createElement('div');
+    var noteLbl=document.createElement('div'); noteLbl.className='app-lbl'; noteLbl.textContent='Notes';
+    var noteTa=document.createElement('textarea'); noteTa.className='app-ta'; noteTa.id='an-'+app.id;
+    noteTa.rows=2; noteTa.value=app.notes||''; noteTa.placeholder='Portal notes, contact name, interview details…';
+    noteRow.appendChild(noteLbl); noteRow.appendChild(noteTa);
+    card.appendChild(noteRow);
 
-  var clgrid=document.createElement('div'); clgrid.className='checklist-grid';
-  clgrid.style.marginTop='.5rem';
+    // Materials checklist
+    var cl=document.createElement('div'); cl.className='checklist-section';
+    var clt=document.createElement('div'); clt.className='checklist-title'; clt.textContent='Materials checklist';
+    cl.appendChild(clt);
+    var prog=document.createElement('div'); prog.className='checklist-progress';
+    var bar=document.createElement('div'); bar.className='checklist-bar'; bar.id='apr-'+app.id;
+    prog.appendChild(bar); cl.appendChild(prog);
+    var grid=document.createElement('div'); grid.className='checklist-grid';
+    DEFAULT_MATERIALS.forEach(function(lbl,i){
+      var item=document.createElement('label'); item.className='check-item'; item.id='aml-'+app.id+'-'+i;
+      if(app.materials&&app.materials[i]) item.classList.add('checked-item');
+      var cb=document.createElement('input'); cb.type='checkbox'; cb.checked=!!(app.materials&&app.materials[i]);
+      cb.onchange=(function(aid,idx){ return function(){ saveMaterial(aid,idx,this.checked); }; })(app.id,i);
+      item.appendChild(cb); item.appendChild(document.createTextNode(lbl));
+      grid.appendChild(item);
+    });
+    cl.appendChild(grid); card.appendChild(cl);
+    updateProgress(app.id, app.materials||{});
 
-  DEFAULT_MATERIALS.forEach(function(mat,i){
-    var isChecked=!!(app.materials&&app.materials[i]);
-    var label=document.createElement('label');
-    label.className='check-item'+(isChecked?' checked-item':'');
-    label.id='aml-'+app.id+'-'+i;
-    var chk=document.createElement('input'); chk.type='checkbox'; chk.checked=isChecked;
-    (function(appId,matIdx){
-      chk.onchange=function(){
-        saveMaterial(appId,matIdx,chk.checked);
-      };
-    })(app.id,i);
-    label.appendChild(chk);
-    var span=document.createElement('span'); span.textContent=mat; label.appendChild(span);
-    clgrid.appendChild(label);
+    // Actions row
+    var acts=document.createElement('div'); acts.className='app-actions';
+    var saveBtn=document.createElement('button'); saveBtn.className='save-btn'; saveBtn.textContent='Save';
+    saveBtn.onclick=(function(aid){ return function(){ saveCard(aid); }; })(app.id);
+    var flash=document.createElement('span'); flash.className='saved-flash'; flash.id='afl-'+app.id; flash.textContent='Saved ✓';
+    var delBtn=document.createElement('button'); delBtn.className='del-btn'; delBtn.textContent='Remove';
+    delBtn.onclick=(function(aid){ return function(){ deleteCard(aid); }; })(app.id);
+    acts.appendChild(saveBtn); acts.appendChild(flash); acts.appendChild(delBtn);
+    card.appendChild(acts);
+    updateCardClass(app.id, app.status);
+    body.appendChild(card);
   });
-
-  cls.appendChild(clgrid);
-  card.appendChild(cls);
-
-  // Actions
-  var acts=document.createElement('div'); acts.className='app-actions';
-  var sb=document.createElement('button'); sb.className='save-btn'; sb.textContent='Save';
-  sb.onclick=(function(aid){return function(){saveCard(aid);};})(app.id);
-  acts.appendChild(sb);
-
-  var fl=document.createElement('span'); fl.className='saved-flash'; fl.id='afl-'+app.id; fl.textContent='Saved ✓'; acts.appendChild(fl);
-
-  if(app.portalUrl){
-    var pl=document.createElement('a'); pl.href=app.portalUrl; pl.target='_blank';
-    pl.style.cssText='font-size:12px;color:var(--blue);margin-left:4px';
-    pl.textContent='Open portal ↗'; acts.appendChild(pl);
-  }
-
-  var db=document.createElement('button'); db.className='del-btn'; db.textContent='Remove';
-  db.onclick=(function(aid){return function(){deleteCard(aid);};})(app.id);
-  acts.appendChild(db);
-
-  card.appendChild(acts);
-  return card;
 }
 
-pullApps();
+// JSONbin-first init
+if(isPrimary()){
+  var _apps=loadApps();
+  render();
+  if(_apps.length>0){ pushApps(_apps); } // heartbeat: keep JSONbin current
+  else { pullApps(); }                    // recovery: localStorage empty, restore from cloud
+} else {
+  pullApps(); // secondary: always read from cloud
+}
+</script>
+
+<script>
+/* ── Sync indicator: appears at end of nav, updates on every sync ── */
+(function(){
+  function fmtAgo(ts){
+    if(!ts) return 'never';
+    var s=Math.floor((Date.now()-ts)/1000);
+    if(s<5) return 'just now';
+    if(s<60) return s+'s ago';
+    var m=Math.floor(s/60); if(m<60) return m+'m ago';
+    var h=Math.floor(m/60); if(h<24) return h+'h ago';
+    return Math.floor(h/24)+'d ago';
+  }
+  function render(){
+    var el=document.getElementById('gnav-sync'); if(!el) return;
+    var ts=parseInt(localStorage.getItem('erin_last_sync')||'0',10);
+    el.textContent = ts ? '✓ Synced '+fmtAgo(ts) : '— not synced';
+  }
+  function setup(){
+    var wrap=document.querySelector('.gnav-wrap');
+    if(!wrap || document.getElementById('gnav-sync')) return;
+    var span=document.createElement('span');
+    span.id='gnav-sync'; span.className='gnav-sync'; span.title='Last cloud sync';
+    span.style.cssText='font-size:10px;color:var(--t3);padding:3px 8px;background:var(--bg2);border-radius:4px;white-space:nowrap;flex-shrink:0;margin-left:10px;border:.5px solid var(--bd);align-self:center;min-width:118px;text-align:center;box-sizing:border-box';
+    var tog=document.getElementById('theme-toggle');if(tog&&tog.parentNode===wrap)wrap.insertBefore(span,tog);else wrap.appendChild(span);
+    render();
+    setInterval(render,30000);
+    window.addEventListener('erin-sync', render);
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',setup);
+  else setup();
+})();
 </script>
 </body>
 </html>

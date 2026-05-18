@@ -3,9 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
+<link rel="stylesheet" href="styles.css?v=20260518e">
 <title>Service & Fellowships — Next Cycle — What's Next for Erin</title>
 <style>
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 
 body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem;}
 .top-nav{display:flex;align-items:center;gap:12px;margin-bottom:1.25rem}
@@ -57,38 +58,11 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.75rem 0}
 .footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
 @media(max-width:520px){.pos-header{flex-direction:column;align-items:flex-start}.meta-grid{grid-template-columns:1fr}}
 
-/* ── Global nav ── */
-.global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
-.gnav-wrap{max-width:720px;margin:0 auto;display:flex;align-items:center}
-.gnav-inner{flex:1;min-width:0;display:flex;align-items:center;gap:0;overflow-x:auto;scrollbar-width:none}
-.gnav-inner::-webkit-scrollbar{display:none}
-.gnav-home{font-size:13px;font-weight:600;color:var(--t1);text-decoration:none;padding:11px 12px 11px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:2px;flex-shrink:0}
-.gnav-home:hover{color:var(--teal-t)}
-.gnav-link{font-size:12px;font-weight:500;color:var(--t3);text-decoration:none;padding:11px 9px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
-.gnav-link:hover{color:var(--t1)}
-.gnav-link.active{color:var(--teal-t);border-bottom-color:var(--teal)}
-.gnav-toggle{flex-shrink:0;width:34px;height:34px;margin-left:8px;display:flex;align-items:center;justify-content:center;border:1.5px solid var(--bd);background:var(--bg2);color:var(--t2);cursor:pointer;border-radius:6px;font-family:var(--fn);font-size:14px;line-height:1;transition:background .12s,border-color .12s}
-.gnav-toggle:hover{background:var(--bg3);border-color:var(--bds);color:var(--t1)}
-html.dark .gnav-toggle{background:var(--bg2);border-color:var(--bd);color:var(--t1)}
+
 /* Manual dark override (toggle) */
 
 html.dark body{background:var(--bg3);color:var(--t1)}
 
-/* ── Global nav ── */
-.global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
-.gnav-wrap{max-width:720px;margin:0 auto;display:flex;align-items:center}
-.gnav-inner{flex:1;min-width:0;display:flex;align-items:center;gap:0;overflow-x:auto;scrollbar-width:none}
-.gnav-inner::-webkit-scrollbar{display:none}
-.gnav-home{font-size:13px;font-weight:600;color:var(--t1);text-decoration:none;padding:11px 12px 11px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:2px;flex-shrink:0}
-.gnav-home:hover{color:var(--teal-t)}
-.gnav-link{font-size:12px;font-weight:500;color:var(--t3);text-decoration:none;padding:11px 9px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
-.gnav-link:hover{color:var(--t1)}
-.gnav-link.active{color:var(--teal-t);border-bottom-color:var(--teal)}
-.gnav-toggle{flex-shrink:0;width:34px;height:34px;margin-left:8px;display:flex;align-items:center;justify-content:center;border:1.5px solid var(--bd);background:var(--bg2);color:var(--t2);cursor:pointer;border-radius:6px;font-family:var(--fn);font-size:14px;line-height:1;transition:background .12s,border-color .12s}
-.gnav-toggle:hover{background:var(--bg3);border-color:var(--bds);color:var(--t1)}
-html.dark .gnav-toggle{background:var(--bg2);border-color:var(--bd);color:var(--t1)}
-
-.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.5rem}
 .page-header-eyebrow{font-size:11px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-t);margin-bottom:.25rem}
 .page-header-title{font-size:24px;font-weight:700;color:var(--t1);line-height:1.2;letter-spacing:-.02em;margin-bottom:.2rem}
 .page-header-sub{font-size:13px;color:var(--t2);line-height:1.5}
@@ -107,76 +81,15 @@ html.dark .s-updated{background:#6d5fe0;color:#fff}
 
 html.dark .s-updated{background:#2d2563;color:#b5abfa}
 
-.page{max-width:720px;margin:0 auto;padding:0 1rem}
 /* ensure page-header gets left padding from .page */
-.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.5rem}
-
 /* Layout */
-body{padding:0 0 2rem;margin:0}
-.page{max-width:720px;margin:0 auto;padding:0 1rem}
-.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.5rem}
-
 /* ════════════════════════════════════
    THEME VARIABLES — What's Next for Erin
    Light: Medium grey scale palette
    Dark: Forest green palette
    ════════════════════════════════════ */
 
-/* Light mode base */
-:root {
-  /* Grey scale (Medium palette) */
-  --bg:   #FAFAFA;   /* grey-50  — card white */
-  --bg2:  #F5F5F5;   /* grey-100 — subtle areas */
-  --bg3:  #EEEEEE;   /* grey-200 — page background */
-  --t1:   #212121;   /* grey-900 — primary text */
-  --t2:   #424242;   /* grey-800 — secondary text */
-  --t3:   #757575;   /* grey-600 — muted text */
-  --bd:   rgba(0,0,0,0.10);
-  --bds:  rgba(0,0,0,0.22);
-  /* Shared */
-  --r1:8px;--r2:12px;
-  --fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
-  /* Green accents (from original palette) */
-  --teal:#4e9836;--teal-bg:#eaf3e5;--teal-t:#3c7b20;
-  --blue:#3a7878;--blue-bg:#e5f0f0;
-  --amber:#8a6f00;--amber-bg:var(--amber-bg);--amber-t:var(--amber-t);
-  --red:#993c1d;--red-bg:var(--red-bg);--red-t:#993c1d;
-  --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
-}
 
-/* System dark mode (auto) */
-@media(prefers-color-scheme:dark) {
-  :root {
-    --bg:#1c2018;--bg2:#242b1e;--bg3:#18201a;
-    --t1:#f0ede0;--t2:#c0c4a8;--t3:#9dc8c8;
-    --bd:rgba(157,200,200,0.15);--bds:rgba(157,200,200,0.28);
-    --teal-bg:#2a3d22;--teal-t:#8fc87a;
-    --blue-bg:#1e3535;--amber-bg:#3d3510;--amber-t:#d4c47a;
-    --red-bg:#3d1510;--red-t:#f5a490;
-    --purple-bg:#2d2563;--purple-t:#b5abfa;
-  }
-}
-
-/* Manual toggle — must come LAST so it overrides both :root and @media */
-html.dark {
-  --bg:#1c2018;--bg2:#242b1e;--bg3:#18201a;
-  --t1:#f0ede0;--t2:#c0c4a8;--t3:#9dc8c8;
-  --bd:rgba(157,200,200,0.15);--bds:rgba(157,200,200,0.28);
-  --teal-bg:#2a3d22;--teal-t:#8fc87a;
-  --blue-bg:#1e3535;--amber-bg:#3d3510;--amber-t:#d4c47a;
-  --red-bg:#3d1510;--red-t:#f5a490;
-  --purple-bg:#2d2563;--purple-t:#b5abfa;
-}
-/* Override light mode when .dark is set (belt AND suspenders) */
-html:not(.dark) {
-  --bg:#FAFAFA;--bg2:#F5F5F5;--bg3:#EEEEEE;
-  --t1:#212121;--t2:#424242;--t3:#757575;
-  --bd:rgba(0,0,0,0.10);--bds:rgba(0,0,0,0.22);
-  --teal-bg:#eaf3e5;--teal-t:#3c7b20;
-  --blue-bg:#e5f0f0;--amber-bg:var(--amber-bg);--amber-t:var(--amber-t);
-  --red-bg:var(--red-bg);--red-t:#993c1d;
-  --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
-}
 /* Page search bar */
 .page-search-wrap{display:flex;align-items:center;gap:.5rem;margin-bottom:1.25rem;padding:.5rem .75rem;background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r1)}
 .page-search-icon{font-size:14px;color:var(--t3);flex-shrink:0}
@@ -188,6 +101,7 @@ html:not(.dark) {
 
 </style>
 
+<script src="site.js?v=20260518e"></script>
 <script>
 (function(){
   var saved=localStorage.getItem('erin_theme');
@@ -206,13 +120,35 @@ html:not(.dark) {
   <div class="gnav-wrap">
     <div class="gnav-inner">
       <a href="index.html" class="gnav-home">&#127968; Home</a>
-    <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
-    <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
-    <a href="erin_applications.html" class="gnav-link">&#128196; Applications</a>
-    <a href="erin_proftracker.html" class="gnav-link">&#128100; Professors</a>
-    <a href="erin_reftracker.html" class="gnav-link">&#128393; References</a>
-    <a href="erin_writing_samples.html" class="gnav-link">&#9997; Writing</a>
-    <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
+      <a href="erin_search.html" class="gnav-link">&#128269; Search</a>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-track">Track</span>
+        <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
+        <a href="erin_compare.html" class="gnav-link">&#9878; Compare</a>
+        <a href="erin_pipeline.html" class="gnav-link">&#128202; Pipeline</a>
+        <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
+        <a href="erin_applications.html" class="gnav-link">&#128196; Apps</a>
+        <a href="erin_proftracker.html" class="gnav-link">&#128100; Profs</a>
+        <a href="erin_reftracker.html" class="gnav-link">&#128393; Refs</a>
+        <a href="erin_archive.html" class="gnav-link">&#128193; Archive</a>
+      </div>
+      <span class="gnav-divider gnav-break"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-browse">Browse</span>
+        <a href="erin_programs.html" class="gnav-link">&#127979; Programs</a>
+        <a href="erin_internships.html" class="gnav-link">&#128203; Internships</a>
+        <a href="erin_jobs.html" class="gnav-link">&#128188; Jobs</a>
+        <a href="erin_service.html" class="gnav-link">&#127807; Service</a>
+      </div>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-write">Write</span>
+        <a href="erin_materials.html" class="gnav-link">&#128218; Materials</a>
+        <a href="erin_writing_samples.html" class="gnav-link">&#9997; Writing</a>
+        <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
+        <a href="erin_packet.html" class="gnav-link">&#128424; Packet</a>
+      </div>
     </div>
     <button class="gnav-toggle" id="theme-toggle" onclick="__toggleTheme()" title="Toggle dark/light mode">&#127769;</button>
   </div>
@@ -241,7 +177,7 @@ html:not(.dark) {
 <hr>
 <div class="slabel">AmeriCorps IPs — aquatic &amp; wetland focus</div>
 
-<div class="pos-card">
+<!--BR:erin_service_next:0:start--><div class="pos-card">
   <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:.5rem;margin-bottom:.5rem">
     <div>
       <div style="font-size:15px;font-weight:500;color:var(--t1)"><span class="status-badge s-updated">&#10024; New &mdash; May 16, 2026</span> Conservation Corps Minnesota &amp; Iowa &mdash; Individual Placements (Soil &amp; Water / Natural Resources) </div>
@@ -343,12 +279,12 @@ html:not(.dark) {
     <div class="contact-block">Apply: <a href="https://stewardslegacy.org/open-positions">stewardslegacy.org/open-positions</a> — positions reviewed on rolling basis; apply early.</div>
   </div>
 
-<button class="ml-save-btn" data-id="item-068" data-item="{&quot;title&quot;: &quot;Stewards Individual Placements — GIS Mapping, Species Inventory & Land Management&quot;, &quot;org&quot;: &quot;Conservation Legacy / Stewards · BLM, USFS, NPS, USFWS — multiple locations&quot;, &quot;type&quot;: &quot;Service / Corps&quot;, &quot;cat&quot;: &quot;Service & Fellowships — Next Cycle&quot;, &quot;src&quot;: &quot;erin_service_next.html&quot;, &quot;src_label&quot;: &quot;Service & Fellowships — Next Cycle&quot;, &quot;deadline&quot;: &quot;&quot;, &quot;start&quot;: &quot;&quot;, &quot;body&quot;: &quot;Stewards (Conservation Legacy's IP program) places AmeriCorps members with federal agencies across the country for 10-week to 1-year terms. Members work on GIS mapping, inventory assessments, species surveys, invasive species removal, and water resources work. New positions post continuously. Thi...&quot;, &quot;badge&quot;: &quot;Rolling — new positions year-round&quot;, &quot;pills&quot;: [&quot;GIS mapping&quot;, &quot;Species inventory&quot;, &quot;Invasive species management&quot;, &quot;Federal land management&quot;], &quot;id&quot;: &quot;item-068&quot;}">&#9734; Save to My List</button></div>
+<button class="ml-save-btn" data-id="item-068" data-item="{&quot;title&quot;: &quot;Stewards Individual Placements — GIS Mapping, Species Inventory & Land Management&quot;, &quot;org&quot;: &quot;Conservation Legacy / Stewards · BLM, USFS, NPS, USFWS — multiple locations&quot;, &quot;type&quot;: &quot;Service / Corps&quot;, &quot;cat&quot;: &quot;Service & Fellowships — Next Cycle&quot;, &quot;src&quot;: &quot;erin_service_next.html&quot;, &quot;src_label&quot;: &quot;Service & Fellowships — Next Cycle&quot;, &quot;deadline&quot;: &quot;&quot;, &quot;start&quot;: &quot;&quot;, &quot;body&quot;: &quot;Stewards (Conservation Legacy's IP program) places AmeriCorps members with federal agencies across the country for 10-week to 1-year terms. Members work on GIS mapping, inventory assessments, species surveys, invasive species removal, and water resources work. New positions post continuously. Thi...&quot;, &quot;badge&quot;: &quot;Rolling — new positions year-round&quot;, &quot;pills&quot;: [&quot;GIS mapping&quot;, &quot;Species inventory&quot;, &quot;Invasive species management&quot;, &quot;Federal land management&quot;], &quot;id&quot;: &quot;item-068&quot;}">&#9734; Save to My List</button></div><!--BR:erin_service_next:0:end-->
 
 <hr>
 <div class="slabel">AmeriCorps IPs — wildlife &amp; Appalachian focus</div>
 
-<div class="pos-card">
+<!--BR:erin_service_next:1:start--><div class="pos-card">
   <div class="pos-header">
     <div>
       <div class="pos-title">Biological Science Technician IP — Cherokee &amp; Pisgah National Forests</div>
@@ -417,12 +353,12 @@ html:not(.dark) {
     <div class="detail-row"><span class="detail-label">Watch for 2026–27</span>Monitor americanyouthworks.org from November 2026; apply by January 2027 for March 2027 start</div>
   </div>
 
-<button class="ml-save-btn" data-id="item-070" data-item="{&amp;quot;title&amp;quot;: &amp;quot;Wildlife Monitoring IP \u2014 Wichita Mountains Wildlife Refuge (2026 cycle)&amp;quot;, &amp;quot;org&amp;quot;: &amp;quot;American Youthworks / USFWS \u00b7 Fort Sill / Lawton, OK&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;Service / Corps&amp;quot;, &amp;quot;cat&amp;quot;: &amp;quot;Service &amp; Fellowships \u2014 Next Cycle&amp;quot;, &amp;quot;src&amp;quot;: &amp;quot;erin_service_next.html&amp;quot;, &amp;quot;src_label&amp;quot;: &amp;quot;Service &amp; Fellowships \u2014 Next Cycle&amp;quot;, &amp;quot;deadline&amp;quot;: &amp;quot;March 2, 2026 \u2013 November 6, 2026 (confirmed active) \u2014 check American Youthworks for backfill&amp;quot;, &amp;quot;start&amp;quot;: &amp;quot;&amp;quot;, &amp;quot;body&amp;quot;: &amp;quot;American Youthworks places AmeriCorps members at the Wichita Mountains Wildlife Refuge and Fort Sill through the ARTES (At Risk, Threatened, and Endangered Species) Program \u2014 monitoring tricolored bat, monarch butterfly, black-capped vireo, and northern bobwhite quail. The 2026 cycle (March 2 \u2013 N...&amp;quot;, &amp;quot;badge&amp;quot;: &amp;quot;Active March 2026 \u2013 Nov 2026 \u2014 verify backfill&amp;quot;, &amp;quot;pills&amp;quot;: [&amp;quot;Endangered species monitoring&amp;quot;, &amp;quot;Wildlife surveys&amp;quot;, &amp;quot;USFWS experience&amp;quot;, &amp;quot;Bat surveys&amp;quot;], &amp;quot;id&amp;quot;: &amp;quot;item-070&amp;quot;}">&#9734; Save to My List</button></div>
+<button class="ml-save-btn" data-id="item-070" data-item="{&amp;quot;title&amp;quot;: &amp;quot;Wildlife Monitoring IP \u2014 Wichita Mountains Wildlife Refuge (2026 cycle)&amp;quot;, &amp;quot;org&amp;quot;: &amp;quot;American Youthworks / USFWS \u00b7 Fort Sill / Lawton, OK&amp;quot;, &amp;quot;type&amp;quot;: &amp;quot;Service / Corps&amp;quot;, &amp;quot;cat&amp;quot;: &amp;quot;Service &amp; Fellowships \u2014 Next Cycle&amp;quot;, &amp;quot;src&amp;quot;: &amp;quot;erin_service_next.html&amp;quot;, &amp;quot;src_label&amp;quot;: &amp;quot;Service &amp; Fellowships \u2014 Next Cycle&amp;quot;, &amp;quot;deadline&amp;quot;: &amp;quot;March 2, 2026 \u2013 November 6, 2026 (confirmed active) \u2014 check American Youthworks for backfill&amp;quot;, &amp;quot;start&amp;quot;: &amp;quot;&amp;quot;, &amp;quot;body&amp;quot;: &amp;quot;American Youthworks places AmeriCorps members at the Wichita Mountains Wildlife Refuge and Fort Sill through the ARTES (At Risk, Threatened, and Endangered Species) Program \u2014 monitoring tricolored bat, monarch butterfly, black-capped vireo, and northern bobwhite quail. The 2026 cycle (March 2 \u2013 N...&amp;quot;, &amp;quot;badge&amp;quot;: &amp;quot;Active March 2026 \u2013 Nov 2026 \u2014 verify backfill&amp;quot;, &amp;quot;pills&amp;quot;: [&amp;quot;Endangered species monitoring&amp;quot;, &amp;quot;Wildlife surveys&amp;quot;, &amp;quot;USFWS experience&amp;quot;, &amp;quot;Bat surveys&amp;quot;], &amp;quot;id&amp;quot;: &amp;quot;item-070&amp;quot;}">&#9734; Save to My List</button></div><!--BR:erin_service_next:1:end-->
 
 <hr>
 <div class="slabel">Fellowships &amp; bridge programs — 2026–27</div>
 
-<div class="pos-card">
+<!--BR:erin_service_next:2:start--><div class="pos-card">
   <div class="pos-header">
     <div>
       <div class="pos-title">EPA Greater Research Opportunities (GRO) Fellowship</div>
@@ -522,7 +458,7 @@ html:not(.dark) {
     <div class="detail-row"><span class="detail-label">Field skills match</span>Soil sampling, root/rhizome processing, wetland experiment maintenance, water sampling — all in Erin's GEOL 455 and ENVH 310 toolkit</div>
   </div>
 
-<button class="ml-save-btn" data-id="item-073" data-item="{&quot;title&quot;: &quot;Smithsonian Environmental Research Center — Research Technician&quot;, &quot;org&quot;: &quot;Smithsonian Environmental Research Center · Edgewater, MD (Chesapeake Bay)&quot;, &quot;type&quot;: &quot;Service / Corps&quot;, &quot;cat&quot;: &quot;Service & Fellowships — Next Cycle&quot;, &quot;src&quot;: &quot;erin_service_next.html&quot;, &quot;src_label&quot;: &quot;Service & Fellowships — Next Cycle&quot;, &quot;deadline&quot;: &quot;&quot;, &quot;start&quot;: &quot;&quot;, &quot;body&quot;: &quot;SERC's Global Change Ecology and Biogeochemistry Labs recruit research technicians for coastal ecosystem and wetland response research (~$46k/yr, 6-month to 1-year appointments). Current and recent openings have focused on root and rhizome processing from long-term wetland experiments — field and...&quot;, &quot;badge&quot;: &quot;Verify — watch SERC careers&quot;, &quot;pills&quot;: [&quot;Coastal ecosystem research&quot;, &quot;Wetland biogeochemistry&quot;, &quot;Long-term experiments&quot;, &quot;Global Change Ecology&quot;], &quot;id&quot;: &quot;item-073&quot;}">&#9734; Save to My List</button></div>
+<button class="ml-save-btn" data-id="item-073" data-item="{&quot;title&quot;: &quot;Smithsonian Environmental Research Center — Research Technician&quot;, &quot;org&quot;: &quot;Smithsonian Environmental Research Center · Edgewater, MD (Chesapeake Bay)&quot;, &quot;type&quot;: &quot;Service / Corps&quot;, &quot;cat&quot;: &quot;Service & Fellowships — Next Cycle&quot;, &quot;src&quot;: &quot;erin_service_next.html&quot;, &quot;src_label&quot;: &quot;Service & Fellowships — Next Cycle&quot;, &quot;deadline&quot;: &quot;&quot;, &quot;start&quot;: &quot;&quot;, &quot;body&quot;: &quot;SERC's Global Change Ecology and Biogeochemistry Labs recruit research technicians for coastal ecosystem and wetland response research (~$46k/yr, 6-month to 1-year appointments). Current and recent openings have focused on root and rhizome processing from long-term wetland experiments — field and...&quot;, &quot;badge&quot;: &quot;Verify — watch SERC careers&quot;, &quot;pills&quot;: [&quot;Coastal ecosystem research&quot;, &quot;Wetland biogeochemistry&quot;, &quot;Long-term experiments&quot;, &quot;Global Change Ecology&quot;], &quot;id&quot;: &quot;item-073&quot;}">&#9734; Save to My List</button></div><!--BR:erin_service_next:2:end-->
 
 <hr>
 
@@ -563,12 +499,20 @@ var BIN_ID='6a039aa4250b1311c33f2bac',API_KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbL
 function getSaved(){try{return JSON.parse(localStorage.getItem(STORE)||'{}')}catch(e){return{}}}
 function setSaved(m){localStorage.setItem(STORE,JSON.stringify(m));}
 function isSaved(id){return!!getSaved()[id];}
+function isPrimary(){return localStorage.getItem('erin_primary_device')==='1'||localStorage.getItem('erin_primary_device_bak')==='1';}
 function push(m){
-  fetch('https://api.jsonbin.io/v3/b/'+BIN_ID,{
-    method:'PUT',
-    headers:{'Content-Type':'application/json','X-Master-Key':API_KEY,'X-Bin-Versioning':'false'},
-    body:JSON.stringify({items:m})
-  }).catch(function(){});
+  if(!isPrimary()) return;            /* only Erin's primary laptop writes to the cloud */
+  fetch('https://api.jsonbin.io/v3/b/'+BIN_ID+'/latest',{headers:{'X-Master-Key':API_KEY}})
+    .then(function(r){return r.json();})
+    .then(function(data){
+      var rec=(data&&data.record)||{};
+      rec.items=m;                    /* merge: only replace items, keep apps/archiveLog/etc */
+      return fetch('https://api.jsonbin.io/v3/b/'+BIN_ID,{
+        method:'PUT',
+        headers:{'Content-Type':'application/json','X-Master-Key':API_KEY,'X-Bin-Versioning':'false'},
+        body:JSON.stringify(rec)
+      });
+    }).catch(function(){});
 }
 window.ML={
   isSaved:isSaved,
@@ -643,6 +587,73 @@ document.addEventListener('keydown',function(e){
     if(inp) inp.focus();
   }
 });
+</script>
+
+
+<script>
+/* Sort any opportunity card flagged as "New find" / "New — <date>" to the top of its
+   sibling group. Safe no-op if no such badges are present. */
+(function(){
+  function go(){
+    var badges=document.querySelectorAll('.s-new, .s-updated');
+    var moved=new Set();
+    var cardSelector='.pc2, .pos-card, .opp-card, .ic, .jc, .sc';
+    badges.forEach(function(b){
+      var card=b.closest(cardSelector);
+      if(!card||moved.has(card)) return;
+      moved.add(card);
+      var parent=card.parentElement;
+      if(!parent) return;
+      // Find first sibling that's also a card (peer of the same kind) and insert above it
+      var firstPeer=null;
+      Array.from(parent.children).forEach(function(child){
+        if(firstPeer) return;
+        for(var c=0;c<card.classList.length;c++){
+          if(child.classList.contains(card.classList[c]) && (child.matches?child.matches(cardSelector):true)){
+            firstPeer=child; return;
+          }
+        }
+      });
+      if(firstPeer && firstPeer!==card){ parent.insertBefore(card, firstPeer); }
+    });
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', go);
+  else go();
+})();
+</script>
+
+
+<script>
+/* ── Sync indicator render: appears at end of nav, updates on every sync ── */
+(function(){
+  function fmtAgo(ts){
+    if(!ts) return 'never';
+    var s=Math.floor((Date.now()-ts)/1000);
+    if(s<5) return 'just now';
+    if(s<60) return s+'s ago';
+    var m=Math.floor(s/60); if(m<60) return m+'m ago';
+    var h=Math.floor(m/60); if(h<24) return h+'h ago';
+    return Math.floor(h/24)+'d ago';
+  }
+  function render(){
+    var el=document.getElementById('gnav-sync'); if(!el) return;
+    var ts=parseInt(localStorage.getItem('erin_last_sync')||'0',10);
+    el.textContent = ts ? '✓ Synced '+fmtAgo(ts) : '— not synced';
+  }
+  function setup(){
+    var wrap=document.querySelector('.gnav-wrap');
+    if(!wrap || document.getElementById('gnav-sync')) return;
+    var span=document.createElement('span');
+    span.id='gnav-sync'; span.className='gnav-sync'; span.title='Last cloud sync';
+    span.style.cssText='font-size:10px;color:var(--t3);padding:3px 8px;background:var(--bg2);border-radius:4px;white-space:nowrap;flex-shrink:0;margin-left:10px;border:.5px solid var(--bd);align-self:center;min-width:118px;text-align:center;box-sizing:border-box';
+    var tog=document.getElementById('theme-toggle');if(tog&&tog.parentNode===wrap)wrap.insertBefore(span,tog);else wrap.appendChild(span);
+    render();
+    setInterval(render,30000);
+    window.addEventListener('erin-sync', render);
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',setup);
+  else setup();
+})();
 </script>
 
 </body>

@@ -1061,6 +1061,8 @@ initPrimaryBtn();
 })();
 </script>
 <style>
+#mk-banner{background:#4c3bc4;color:#fff;font-size:12px;font-weight:600;text-align:center;padding:6px 10px;border-radius:8px;margin-bottom:1rem}
+html.dark #mk-banner{background:#2d2563;color:#b5abfa}
 .bx-fgroup{display:flex;align-items:center;gap:4px;flex-wrap:wrap;margin:.15rem 0}
 .bx-flabel{font-size:10px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--t3);min-width:62px}
 .bx-chip{font-size:12px;padding:3px 11px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn)}
@@ -1076,11 +1078,13 @@ initPrimaryBtn();
 .bx-fwrap{display:flex;flex-direction:column;gap:2px;width:100%}
 </style>
 <script>
-/* ════════ Enhanced Browse-All: urgency sort + multi-select filters ═══
-   Additive UI only. Reassigns renderBrowse to the enhanced version; the
-   page's My List / cloud-sync / primary-device code is untouched. Saving
-   still goes through the live, primary-gated addItem/delItem. */
+/* ════════ MOCKUP: enhanced Browse-All (preview only) ════════════════
+   Non-destructive: this file is mockup_*-prefixed (build.js skips it).
+   ALL cloud writes are stubbed. Live erin_mylist.html is untouched. */
 (function(){
+try{ push=function(){}; pushCloud=function(){}; pushArchive=function(){};
+     pushApps=function(){}; pullCloud=function(){}; }catch(e){}
+
 var TODAY=new Date('2026-05-17T00:00:00');
 function daysUntil(d){ if(!d) return null; return Math.round((new Date(d+'T00:00:00')-TODAY)/86400000); }
 function typeOf(it){ var c=(it.cat||it.type||'');
@@ -1126,6 +1130,8 @@ function fitLabel(it){ return ['Exceptional','Strong','Good',''][fitRank(it.badg
 function chip(label,on,fn){ var b=el('button','bx-chip'+(on?' on':''),label); b.type='button'; b.onclick=fn; return b; }
 function fgroup(label,children){ var g=el('div','bx-fgroup'); g.appendChild(el('span','bx-flabel',label));
   children.forEach(function(c){g.appendChild(c);}); return g; }
+/* a multi-select group: an "All" chip (on when nothing picked, clears the
+   category) followed by toggle chips (multiple may be active). */
 function mgroup(label,arr,opts){
   var kids=[chip('All',arr.length===0,function(){ arr.length=0; renderBrowse(); })];
   opts.forEach(function(o){ var lbl=o[0],val=o[1];
@@ -1140,6 +1146,7 @@ function buildBrowseFiltersX(){
   w.appendChild(mgroup('Cycle', BX.cycle, CYCLES.slice(1)));
   w.appendChild(mgroup('Status', BX.status, STATUSES.slice(1)));
   w.appendChild(mgroup('Fit', BX.fit, FITS.slice(1).map(function(f){return [f,f];})));
+  // per-type subfilters: shown for each selected type (extensible config)
   BX.type.forEach(function(t){ (SUB[t]||[]).forEach(function(sf){
     if(!BX.sub[sf.k]) BX.sub[sf.k]=[];
     w.appendChild(mgroup(sf.label, BX.sub[sf.k], sf.opts.slice(1).map(function(o){return [o,o];})));
@@ -1191,6 +1198,7 @@ function renderBrowseX(){
     if(BX.cycle.length  && !has1(BX.cycle,(it.cycle||'current'))) return false;
     if(BX.status.length && !has1(BX.status,bucketOf(it))) return false;
     if(BX.fit.length    && !has1(BX.fit,fitLabel(it))) return false;
+    // subfilters: only for selected types; OR within a subfilter group
     for(var t=0;t<BX.type.length;t++){ var defs=SUB[BX.type[t]]||[];
       for(var i=0;i<defs.length;i++){ var sf=defs[i], picks=BX.sub[sf.k]||[];
         if(picks.length){ var ok=false;
@@ -1248,6 +1256,19 @@ function renderBrowseX(){
 }
 
 try{ renderBrowse=renderBrowseX; }catch(e){ window.renderBrowse=renderBrowseX; }
+
+function mkInit(){
+  var pg=document.querySelector('.page');
+  if(pg && !document.getElementById('mk-banner')){
+    var ban=el('div',null,'MOCKUP — enhanced Browse-All preview. Defaults to My List (favorites); click “Browse All” to see it. Nothing is saved; your live page is untouched.');
+    ban.id='mk-banner'; pg.insertBefore(ban,pg.firstChild);
+  }
+  /* default view = My List (favorites), like the live page. The enhanced
+     Browse All renders via renderBrowse (reassigned) when its tab opens. */
+}
+if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',mkInit);
+else mkInit();
+setTimeout(mkInit,150);
 })();
 </script>
 </body>
