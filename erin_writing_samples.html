@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Writing Samples Tracker — What's Next for Erin</title>
+<script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
+<link rel="stylesheet" href="styles.css?v=20260518e">
+<script src="site.js?v=20260518e"></script>
+<script>
+(function(){
+  var saved=localStorage.getItem('erin_theme');
+  var prefersDark=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches;
+  if(saved==='dark'||(!saved&&prefersDark)) document.documentElement.classList.add('dark');
+  function upBtn(){var b=document.getElementById('theme-toggle');if(b)b.innerHTML=document.documentElement.classList.contains('dark')?'&#9728;':'&#127769;';}
+  document.addEventListener('DOMContentLoaded',upBtn);
+  window.__toggleTheme=function(){var d=document.documentElement.classList.toggle('dark');localStorage.setItem('erin_theme',d?'dark':'light');upBtn();};
+})();
+</script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+/* Custom writing-page color accent */
+:root{--accent:#3c7b20;--accent-bg:#eaf3e5;--accent-t:#2d6016}
+html.dark{--accent:#8fc87a;--accent-bg:#2a3d22;--accent-t:#a8e095}
+
+.ws-card{background:var(--bg);border:1px solid var(--bd);border-radius:10px;padding:1rem 1.1rem;margin-bottom:.75rem}
+.ws-card.st-final{border-left:3px solid var(--accent)}
+.ws-card.st-submitted{border-left:3px solid #4a90d9}
+.ws-title{font-size:14px;font-weight:600;color:var(--t1);margin-bottom:.15rem}
+.ws-type-pill{font-size:11px;font-weight:600;padding:2px 9px;border-radius:999px;white-space:nowrap;background:var(--accent-bg);color:var(--accent-t)}
+.ws-meta{display:flex;flex-wrap:wrap;gap:.35rem;align-items:center;margin-bottom:.5rem}
+.ws-status-pill{font-size:11px;font-weight:600;padding:2px 9px;border-radius:999px;white-space:nowrap}
+.wst-idea{background:var(--bg2);color:var(--t3);border:1px solid var(--bd)}
+.wst-draft{background:var(--amber-bg);color:var(--amber-t)}
+.wst-revision{background:#e8f0ff;color:#3355aa}
+.wst-final{background:var(--accent-bg);color:var(--accent-t)}
+.wst-submitted{background:#ddeeff;color:#1a5fa8}
+.ws-usages{font-size:11px;color:var(--t3);margin-bottom:.4rem}
+.ws-usages span{display:inline-block;background:var(--bg2);border:1px solid var(--bd);border-radius:5px;padding:1px 7px;margin:2px 3px 2px 0;font-size:11px;color:var(--t2)}
+.ws-acts{display:flex;gap:.5rem;align-items:center;flex-wrap:wrap;margin-top:.5rem}
+.ws-btn{font-size:11px;font-weight:500;padding:3px 10px;border-radius:6px;border:1px solid var(--bd);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn)}
+.ws-btn:hover{background:var(--bg2)}
+.ws-btn.danger{color:var(--red-t);border-color:var(--red-t)}
+.ws-note{margin-top:.5rem;padding:.5rem .6rem;background:var(--bg2);border-radius:6px;font-size:12px;color:var(--t2);line-height:1.5;display:none}
+.ws-note.open{display:block}
+.ws-note-edit{width:100%;border:none;background:transparent;font-size:12px;font-family:var(--fn);color:var(--t2);resize:vertical;min-height:60px;outline:none;line-height:1.5}
+.ws-words{font-size:11px;color:var(--t3)}
+.add-form{background:var(--bg);border:1px solid var(--bds);border-radius:10px;padding:1rem 1.1rem;margin-bottom:1rem}
+.add-form h3{font-size:13px;font-weight:600;color:var(--t1);margin-bottom:.75rem}
+.form-row{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:.5rem}
+.form-field{display:flex;flex-direction:column;gap:.2rem;flex:1;min-width:140px}
+.form-label{font-size:11px;color:var(--t3);font-weight:500}
+.form-input{font-size:13px;padding:5px 9px;border-radius:6px;border:1px solid var(--bd);background:var(--bg2);color:var(--t1);font-family:var(--fn)}
+.form-input:focus{outline:none;border-color:var(--accent)}
+.form-select{font-size:13px;padding:5px 9px;border-radius:6px;border:1px solid var(--bd);background:var(--bg2);color:var(--t1);font-family:var(--fn)}
+.form-save-btn{font-size:12px;font-weight:600;padding:6px 18px;border-radius:7px;border:none;background:var(--accent);color:#fff;cursor:pointer;font-family:var(--fn)}
+.form-cancel-btn{font-size:12px;padding:6px 14px;border-radius:7px;border:1px solid var(--bd);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn)}
+.filter-pill{font-size:11px;padding:3px 10px;border-radius:999px;border:1px solid var(--bd);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn)}
+.filter-pill.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.empty{text-align:center;padding:3rem 1rem;color:var(--t3)}
+.empty-icon{font-size:2rem;margin-bottom:.5rem}
+.empty-title{font-size:14px;font-weight:600;color:var(--t2);margin-bottom:.25rem}
+.empty-body{font-size:12px;line-height:1.6}
+@media print{.gnav-toggle,.ws-acts,.add-form,.filter-pill{display:none}}
+</style>
+</head>
+<body>
+
+<!-- GLOBAL NAV -->
+<nav class="global-nav">
+  <div class="gnav-wrap">
+    <div class="gnav-inner">
+      <a href="index.html" class="gnav-home">&#127968; Home</a>
+      <a href="erin_search.html" class="gnav-link">&#128269; Search</a>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-track">Track</span>
+        <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
+        <a href="erin_compare.html" class="gnav-link">&#9878; Compare</a>
+        <a href="erin_pipeline.html" class="gnav-link">&#128202; Pipeline</a>
+        <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
+        <a href="erin_applications.html" class="gnav-link">&#128196; Apps</a>
+        <a href="erin_proftracker.html" class="gnav-link">&#128100; Profs</a>
+        <a href="erin_reftracker.html" class="gnav-link">&#128393; Refs</a>
+        <a href="erin_archive.html" class="gnav-link">&#128193; Archive</a>
+      </div>
+      <span class="gnav-divider gnav-break"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-browse">Browse</span>
+        <a href="erin_programs.html" class="gnav-link">&#127979; Programs</a>
+        <a href="erin_internships.html" class="gnav-link">&#128203; Internships</a>
+        <a href="erin_jobs.html" class="gnav-link">&#128188; Jobs</a>
+        <a href="erin_service.html" class="gnav-link">&#127807; Service</a>
+      </div>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-write">Write</span>
+        <a href="erin_materials.html" class="gnav-link">&#128218; Materials</a>
+        <a href="erin_writing_samples.html" class="gnav-link">&#9997; Writing</a>
+        <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
+        <a href="erin_packet.html" class="gnav-link">&#128424; Packet</a>
+      </div>
+    </div>
+    <button class="gnav-toggle" id="theme-toggle" onclick="__toggleTheme()" title="Toggle dark/light mode">&#127769;</button>
+  </div>
+</nav>
+
+<div class="page">
+
+<div class="page-header">
+  <div class="page-header-eyebrow">What&rsquo;s Next for Erin</div>
+  <div class="page-header-title">Writing Samples</div>
+  <div class="page-header-sub">Track your statements, essays, and writing samples by status and target program &mdash; <span id="ws-count-summary" style="color:var(--accent);font-weight:500"></span></div>
+</div>
+
+<div class="tip">&#9997;&nbsp; Keep a master version of each document in your Materials Library and track which programs each version targets here. Most grad applications want an SOP (1&ndash;2 pages), a personal statement, and optionally a writing sample or research statement.</div>
+
+<div style="margin-top:1rem;display:flex;gap:.5rem;align-items:center;flex-wrap:wrap">
+  <button class="form-save-btn" id="show-add-btn" onclick="showAddForm()" style="font-size:12px;padding:5px 14px">+ Add document</button>
+  <div id="filter-bar" style="display:flex;gap:.35rem;flex-wrap:wrap"></div>
+</div>
+
+<div id="add-form-container" style="display:none;margin-top:.75rem"></div>
+<div id="ws-body" style="margin-top:.75rem"></div>
+
+</div><!-- /.page -->
+
+<script>
+var STORE='erin_writing_samples';
+var BIN='6a039aa4250b1311c33f2bac';
+var KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
+var PRIMARY_KEY='erin_primary_device';
+function isPrimary(){ return localStorage.getItem(PRIMARY_KEY)==='1'; }
+function loadSamples(){ try{ return JSON.parse(localStorage.getItem(STORE)||'[]'); }catch(e){ return []; } }
+function saveSamples(arr){ localStorage.setItem(STORE,JSON.stringify(arr)); }
+function pushSamples(arr){
+  if(!isPrimary()) return;
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+  .then(function(r){return r.json();})
+  .then(function(data){
+    var rec=data.record||{}; rec.writingSamples=arr;
+    return fetch('https://api.jsonbin.io/v3/b/'+BIN,{method:'PUT',headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},body:JSON.stringify(rec)});
+  }).catch(function(){});
+}
+function pullCloud(){
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+  .then(function(r){return r.json();})
+  .then(function(data){
+    if(data.record&&data.record.writingSamples){ saveSamples(data.record.writingSamples); }
+    render();
+  }).catch(function(){ render(); });
+}
+var DOC_TYPES=['Statement of Purpose','Personal Statement','Research Statement','Writing Sample','Diversity Statement','Other'];
+var STATUSES=[
+  {v:'idea',l:'Idea / not started',cls:'wst-idea'},
+  {v:'draft',l:'Draft',cls:'wst-draft'},
+  {v:'revision',l:'In revision',cls:'wst-revision'},
+  {v:'final',l:'Final ✓',cls:'wst-final'},
+  {v:'submitted',l:'Submitted',cls:'wst-submitted'}
+];
+function statusCls(s){ var m=STATUSES.find(function(x){return x.v===s;}); return m?m.cls:'wst-idea'; }
+function statusLabel(s){ var m=STATUSES.find(function(x){return x.v===s;}); return m?m.l:s; }
+var currentFilter='all';
+function el(tag,cls,text){ var e=document.createElement(tag); if(cls)e.className=cls; if(text!==undefined)e.textContent=text; return e; }
+function makeCard(sample){
+  var card=el('div','ws-card st-'+(sample.status||'idea'));
+  card.id='wscard-'+sample.id;
+  card.appendChild(el('div','ws-title',sample.title||'Untitled'));
+  var meta=el('div','ws-meta');
+  if(sample.type){ meta.appendChild(el('span','ws-type-pill',sample.type)); }
+  meta.appendChild(el('span','ws-status-pill '+statusCls(sample.status),statusLabel(sample.status)));
+  if(sample.words){ var ww=el('span','ws-words',sample.words+' words'); meta.appendChild(ww); }
+  card.appendChild(meta);
+  if(sample.usages&&sample.usages.length){
+    var ubox=el('div','ws-usages'); ubox.innerHTML='Sending to: ';
+    sample.usages.forEach(function(u){ ubox.appendChild(el('span','',u)); });
+    card.appendChild(ubox);
+  }
+  var noteBox=el('div','ws-note'+(sample.note?' open':'')); noteBox.id='wsnote-'+sample.id;
+  var noteTA=el('textarea','ws-note-edit'); noteTA.placeholder='Notes, feedback, to-dos…'; noteTA.value=sample.note||'';
+  noteTA.onblur=function(){ var arr=loadSamples(); var s=arr.find(function(x){return x.id===sample.id;}); if(s){s.note=noteTA.value;saveSamples(arr);pushSamples(arr);} };
+  noteBox.appendChild(noteTA); card.appendChild(noteBox);
+  var acts=el('div','ws-acts');
+  var statusSel=document.createElement('select'); statusSel.className='form-select'; statusSel.style.fontSize='11px';
+  STATUSES.forEach(function(s){ var o=document.createElement('option'); o.value=s.v; o.textContent=s.l; if(sample.status===s.v)o.selected=true; statusSel.appendChild(o); });
+  statusSel.onchange=function(){ var arr=loadSamples(); var s=arr.find(function(x){return x.id===sample.id;}); if(s){s.status=statusSel.value;saveSamples(arr);pushSamples(arr);render();} };
+  acts.appendChild(statusSel);
+  var noteBtn=el('button','ws-btn','Note'); noteBtn.onclick=function(){ noteBox.classList.toggle('open'); }; acts.appendChild(noteBtn);
+  var editBtn=el('button','ws-btn','Edit'); editBtn.onclick=function(){ showEditForm(sample.id); }; acts.appendChild(editBtn);
+  var delBtn=el('button','ws-btn danger','Remove');
+  delBtn.onclick=function(){ if(!confirm('Remove "'+sample.title+'"?'))return; var arr=loadSamples().filter(function(x){return x.id!==sample.id;}); saveSamples(arr);pushSamples(arr);render(); };
+  acts.appendChild(delBtn);
+  card.appendChild(acts);
+  return card;
+}
+function render(){
+  var samples=loadSamples();
+  var body=document.getElementById('ws-body'); body.innerHTML='';
+  var final=samples.filter(function(s){return s.status==='final'||s.status==='submitted';}).length;
+  var sum=document.getElementById('ws-count-summary');
+  if(sum) sum.textContent=samples.length+' document'+(samples.length===1?'':'s')+' · '+final+' ready';
+  var filtered=currentFilter==='all'?samples:samples.filter(function(s){return s.status===currentFilter;});
+  var fb=document.getElementById('filter-bar'); fb.innerHTML='';
+  var allBtn=el('button','filter-pill'+(currentFilter==='all'?' active':''),'All ('+samples.length+')');
+  allBtn.onclick=function(){currentFilter='all';render();}; fb.appendChild(allBtn);
+  STATUSES.forEach(function(s){
+    var cnt=samples.filter(function(x){return x.status===s.v;}).length; if(!cnt)return;
+    var btn=el('button','filter-pill'+(currentFilter===s.v?' active':''),s.l+' ('+cnt+')');
+    btn.onclick=(function(v){return function(){currentFilter=v;render();};})(s.v); fb.appendChild(btn);
+  });
+  if(!filtered.length){
+    var emp=el('div','empty');
+    var emptyBody=samples.length?'Try a different filter.':(localStorage.getItem('erin_primary_device')==='1'?'Click "+ Add document" to start tracking your writing samples and essays.':'No documents have been added yet.');
+    emp.innerHTML='<div class="empty-icon">&#9997;</div><div class="empty-title">'+(samples.length?'No matches':'No documents yet')+'</div><div class="empty-body">'+emptyBody+'</div>';
+    body.appendChild(emp); return;
+  }
+  filtered.forEach(function(s){ body.appendChild(makeCard(s)); });
+}
+function buildForm(existing){
+  var form=el('div','add-form');
+  form.innerHTML='<h3>'+(existing?'Edit document':'Add document')+'</h3>';
+  function field(lbl,inputEl){ var w=el('div','form-field'); w.appendChild(el('label','form-label',lbl)); w.appendChild(inputEl); return w; }
+  var titleIn=el('input','form-input'); titleIn.placeholder='e.g. SOP — Environmental Science (NCSU)'; titleIn.value=existing?existing.title||'':'';
+  var typeIn=document.createElement('select'); typeIn.className='form-select';
+  DOC_TYPES.forEach(function(t){ var o=document.createElement('option'); o.value=t; o.textContent=t; if(existing&&existing.type===t)o.selected=true; typeIn.appendChild(o); });
+  var wordsIn=el('input','form-input'); wordsIn.type='number'; wordsIn.placeholder='Word count'; wordsIn.value=existing?existing.words||'':'';
+  var usagesIn=el('input','form-input'); usagesIn.placeholder='Programs (comma-separated)'; usagesIn.value=existing&&existing.usages?existing.usages.join(', '):'';
+  var statusSel=document.createElement('select'); statusSel.className='form-select';
+  STATUSES.forEach(function(s){ var o=document.createElement('option'); o.value=s.v; o.textContent=s.l; if(existing&&existing.status===s.v)o.selected=true; statusSel.appendChild(o); });
+  var r1=el('div','form-row'); r1.appendChild(field('Document title *',titleIn)); r1.appendChild(field('Type',typeIn)); form.appendChild(r1);
+  var r2=el('div','form-row'); r2.appendChild(field('Word count',wordsIn)); r2.appendChild(field('Status',statusSel)); form.appendChild(r2);
+  var r3=el('div','form-row'); r3.appendChild(field('Sending to (programs)',usagesIn)); form.appendChild(r3);
+  var btnRow=el('div',''); btnRow.style.cssText='display:flex;gap:.5rem;margin-top:.25rem';
+  var saveBtn=el('button','form-save-btn',existing?'Save changes':'Add document');
+  saveBtn.onclick=function(){
+    var title=titleIn.value.trim(); if(!title){titleIn.focus();return;}
+    var arr=loadSamples();
+    var usages=usagesIn.value.split(',').map(function(s){return s.trim();}).filter(Boolean);
+    if(existing){ var s=arr.find(function(x){return x.id===existing.id;}); if(s){s.title=title;s.type=typeIn.value;s.words=wordsIn.value.trim();s.status=statusSel.value;s.usages=usages;} }
+    else { arr.push({id:'ws-'+Date.now()+'-'+Math.random().toString(36).slice(2,6),title:title,type:typeIn.value,words:wordsIn.value.trim(),status:statusSel.value,usages:usages,note:''}); }
+    saveSamples(arr); pushSamples(arr); hideAddForm(); render();
+  };
+  btnRow.appendChild(saveBtn);
+  var cancelBtn=el('button','form-cancel-btn','Cancel'); cancelBtn.onclick=hideAddForm; btnRow.appendChild(cancelBtn);
+  form.appendChild(btnRow); return form;
+}
+function showAddForm(){ var c=document.getElementById('add-form-container'); c.innerHTML=''; c.style.display='block'; c.appendChild(buildForm(null)); document.getElementById('show-add-btn').style.display='none'; }
+function showEditForm(id){ var s=loadSamples().find(function(x){return x.id===id;}); if(!s)return; var c=document.getElementById('add-form-container'); c.innerHTML=''; c.style.display='block'; c.appendChild(buildForm(s)); document.getElementById('show-add-btn').style.display='none'; }
+function hideAddForm(){ var c=document.getElementById('add-form-container'); c.innerHTML=''; c.style.display='none'; document.getElementById('show-add-btn').style.display=''; }
+document.addEventListener('DOMContentLoaded',function(){
+  if(isPrimary()){
+    var arr=loadSamples();
+    render();
+    if(arr.length>0){ pushSamples(arr); } // heartbeat: keep JSONbin current
+    else { pullCloud(); }                  // recovery: localStorage empty, restore from cloud
+  } else {
+    pullCloud(); // secondary: always read from cloud
+  }
+});
+</script>
+<script>
+/* ── Sync indicator: appears at end of nav, updates on every sync ── */
+(function(){
+  function fmtAgo(ts){
+    if(!ts) return 'never';
+    var s=Math.floor((Date.now()-ts)/1000);
+    if(s<5) return 'just now';
+    if(s<60) return s+'s ago';
+    var m=Math.floor(s/60); if(m<60) return m+'m ago';
+    var h=Math.floor(m/60); if(h<24) return h+'h ago';
+    return Math.floor(h/24)+'d ago';
+  }
+  function render(){
+    var el=document.getElementById('gnav-sync'); if(!el) return;
+    var ts=parseInt(localStorage.getItem('erin_last_sync')||'0',10);
+    el.textContent = ts ? '✓ Synced '+fmtAgo(ts) : '— not synced';
+  }
+  function setup(){
+    var wrap=document.querySelector('.gnav-wrap');
+    if(!wrap || document.getElementById('gnav-sync')) return;
+    var span=document.createElement('span');
+    span.id='gnav-sync'; span.className='gnav-sync'; span.title='Last cloud sync';
+    span.style.cssText='font-size:10px;color:var(--t3);padding:3px 8px;background:var(--bg2);border-radius:4px;white-space:nowrap;flex-shrink:0;margin-left:10px;border:.5px solid var(--bd);align-self:center;min-width:118px;text-align:center;box-sizing:border-box';
+    var tog=document.getElementById('theme-toggle');if(tog&&tog.parentNode===wrap)wrap.insertBefore(span,tog);else wrap.appendChild(span);
+    render();
+    setInterval(render,30000);
+    window.addEventListener('erin-sync', render);
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',setup);
+  else setup();
+})();
+</script>
+</body>
+</html>

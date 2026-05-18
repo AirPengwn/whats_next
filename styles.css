@@ -1,0 +1,153 @@
+/* ═══════════════════════════════════════════════════════════
+   What's Next for Erin — shared stylesheet
+   Loaded before any page-specific <style> on every page.
+   To change a color, nav style, or theme variable: edit here.
+   ═══════════════════════════════════════════════════════════ */
+
+/* ── Reset ── */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+/* ════════════════════════════════════
+   THEME VARIABLES
+   Light: Medium grey scale palette
+   Dark:  Forest green palette
+   ════════════════════════════════════ */
+
+/* Light mode base */
+:root {
+  --bg:   #FAFAFA;   /* grey-50  — card white      */
+  --bg2:  #F5F5F5;   /* grey-100 — subtle areas    */
+  --bg3:  #EEEEEE;   /* grey-200 — page background */
+  --t1:   #212121;   /* grey-900 — primary text    */
+  --t2:   #424242;   /* grey-800 — secondary text  */
+  --t3:   #757575;   /* grey-600 — muted text      */
+  --bd:   rgba(0,0,0,0.10);
+  --bds:  rgba(0,0,0,0.22);
+  --r1:8px;--r2:12px;
+  --fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  /* Accents */
+  --teal:#4e9836;--teal-bg:#eaf3e5;--teal-t:#3c7b20;
+  --blue:#3a7878;--blue-bg:#e5f0f0;
+  --amber:#8a6f00;--amber-bg:#f5f0db;--amber-t:#6b5500;
+  --red:#993c1d;--red-bg:#faece7;--red-t:#993c1d;
+  --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
+}
+
+/* System dark mode (auto) */
+@media(prefers-color-scheme:dark) {
+  :root {
+    --bg:#1c2018;--bg2:#242b1e;--bg3:#18201a;
+    --t1:#f0ede0;--t2:#c0c4a8;--t3:#9dc8c8;
+    --bd:rgba(157,200,200,0.15);--bds:rgba(157,200,200,0.28);
+    --teal-bg:#2a3d22;--teal-t:#8fc87a;
+    --blue-bg:#1e3535;--amber-bg:#3d3510;--amber-t:#d4c47a;
+    --red-bg:#3d1510;--red-t:#f5a490;
+    --purple-bg:#2d2563;--purple-t:#b5abfa;
+  }
+}
+
+/* Manual toggle — must come LAST so it overrides both :root and @media */
+html.dark {
+  --bg:#1c2018;--bg2:#242b1e;--bg3:#18201a;
+  --t1:#f0ede0;--t2:#c0c4a8;--t3:#9dc8c8;
+  --bd:rgba(157,200,200,0.15);--bds:rgba(157,200,200,0.28);
+  --teal-bg:#2a3d22;--teal-t:#8fc87a;
+  --blue-bg:#1e3535;--amber-bg:#3d3510;--amber-t:#d4c47a;
+  --red-bg:#3d1510;--red-t:#f5a490;
+  --purple-bg:#2d2563;--purple-t:#b5abfa;
+}
+
+/* Override light mode when .dark is NOT set (belt + suspenders) */
+html:not(.dark) {
+  --bg:#FAFAFA;--bg2:#F5F5F5;--bg3:#EEEEEE;
+  --t1:#212121;--t2:#424242;--t3:#757575;
+  --bd:rgba(0,0,0,0.10);--bds:rgba(0,0,0,0.22);
+  --teal-bg:#eaf3e5;--teal-t:#3c7b20;
+  --blue-bg:#e5f0f0;--amber-bg:#f5f0db;--amber-t:#6b5500;
+  --red-bg:#faece7;--red-t:#993c1d;
+  --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
+}
+
+/* ── Base ── */
+body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem;margin:0}
+a{color:var(--blue);text-decoration:none}
+a:hover{text-decoration:underline}
+hr{border:none;border-top:.5px solid var(--bd);margin:1.5rem 0}
+
+/* ── Layout ── */
+.page{max-width:720px;margin:0 auto;padding:0 1rem}
+.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.5rem}
+.page-header-eyebrow{font-size:11px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-t);margin-bottom:.25rem}
+.page-header-title{font-size:24px;font-weight:700;color:var(--t1);line-height:1.2;letter-spacing:-.02em;margin-bottom:.2rem}
+.page-header-sub{font-size:13px;color:var(--t2);line-height:1.5}
+
+/* ── Common elements ── */
+.slabel{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin-bottom:.6rem}
+.footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
+.card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1.25rem;margin-bottom:1rem}
+.tip{border-left:3px solid var(--teal);background:var(--bg2);padding:.75rem 1rem;margin-bottom:1rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
+.empty{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:2.5rem;text-align:center}
+.empty-icon{font-size:32px;margin-bottom:.65rem}
+.empty-title{font-size:15px;font-weight:500;margin-bottom:.35rem}
+.empty-body{font-size:13px;color:var(--t2);line-height:1.65}
+
+/* ── Global nav ── */
+.global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
+.gnav-wrap{max-width:1100px;margin:0 auto;display:flex;align-items:center}
+.gnav-inner{flex:1;min-width:0;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:0 2px;row-gap:2px;scrollbar-width:none}
+.gnav-divider{display:inline-block;width:1px;height:16px;background:var(--bd);margin:0 4px;flex-shrink:0}
+.gnav-divider.gnav-break{flex-basis:100%;width:0;height:0;background:none;margin:0}
+.gnav-group{display:inline-flex;align-items:center;gap:0;flex-shrink:0}
+.gnav-group-label{font-size:9px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;margin-right:4px;flex-shrink:0;padding:2px 6px;border-radius:4px;line-height:1}
+.gnav-group-label.gl-track{background:var(--teal-bg);color:var(--teal-t)}
+.gnav-group-label.gl-browse{background:var(--blue-bg);color:var(--blue)}
+.gnav-group-label.gl-write{background:var(--amber-bg);color:var(--amber-t)}
+.gnav-home{font-size:12px;font-weight:600;color:var(--t1);text-decoration:none;padding:8px 8px 8px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:2px;flex-shrink:0}
+.gnav-home:hover{color:var(--teal-t)}
+.gnav-link{font-size:11px;font-weight:500;color:var(--t3);text-decoration:none;padding:8px 5px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
+.gnav-link:hover{color:var(--t1)}
+.gnav-link.active{color:var(--teal-t);border-bottom-color:var(--teal)}
+.gnav-toggle{flex-shrink:0;width:34px;height:34px;margin-left:8px;display:flex;align-items:center;justify-content:center;border:1.5px solid var(--bd);background:var(--bg2);color:var(--t2);cursor:pointer;border-radius:6px;font-family:var(--fn);font-size:14px;line-height:1;transition:background .12s,border-color .12s}
+.gnav-toggle:hover{background:var(--bg3);border-color:var(--bds);color:var(--t1)}
+html.dark .gnav-toggle{background:var(--bg2);border-color:var(--bd);color:var(--t1)}
+
+/* ── Sync indicator chip (appended to nav by site.js) ── */
+.gnav-sync{font-size:10px;color:var(--t3);padding:3px 8px;background:var(--bg2);border-radius:4px;white-space:nowrap;flex-shrink:0;margin-left:10px;border:.5px solid var(--bd);align-self:center;min-width:118px;text-align:center;box-sizing:border-box}
+
+/* ── Read-only mode (non-primary device) ──────────────────── */
+/* Banner inserted by site.js below the nav */
+.erin-readonly-banner{font-size:12px;font-weight:400;color:var(--amber-t);background:var(--amber-bg);padding:7px 1rem;text-align:center;border-bottom:.5px solid var(--bd);line-height:1.5}
+
+/* Hide every control that writes data */
+html.erin-readonly .add-btn,
+html.erin-readonly .del-btn,
+html.erin-readonly .save-btn,
+html.erin-readonly .log-save-btn,
+html.erin-readonly .log-del,
+html.erin-readonly .log-form,
+html.erin-readonly .form-save-btn,
+html.erin-readonly .form-cancel-btn,
+html.erin-readonly #show-add-btn,
+html.erin-readonly #primary-btn,
+html.erin-readonly .browse-save-btn { display:none!important }
+
+/* Make text fields non-interactive (still readable/selectable) */
+html.erin-readonly .page input,
+html.erin-readonly .page select,
+html.erin-readonly .page textarea { pointer-events:none;opacity:.8;cursor:default }
+
+/* …except pure VIEW controls that never write data — these stay usable
+   even in view-only mode (packet chooser, global search, browse search). */
+html.erin-readonly #pick,
+html.erin-readonly #q,
+html.erin-readonly #bs,
+html.erin-readonly #bs2,
+html.erin-readonly .ro-ok { pointer-events:auto!important;opacity:1!important;cursor:auto!important }
+
+/* ── Print ── */
+@media print {
+  .global-nav{display:none!important}
+  body{background:#fff!important;color:#000!important}
+  .page{max-width:100%!important;padding:0!important}
+  .page-header{border-bottom:1px solid #ccc!important}
+}

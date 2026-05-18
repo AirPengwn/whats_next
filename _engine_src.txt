@@ -1,0 +1,203 @@
+/* ════════ MOCKUP: enhanced Browse-All (preview only) ════════════════
+   Non-destructive: this file is mockup_*-prefixed (build.js skips it).
+   ALL cloud writes are stubbed. Live erin_mylist.html is untouched. */
+(function(){
+try{ push=function(){}; pushCloud=function(){}; pushArchive=function(){};
+     pushApps=function(){}; pullCloud=function(){}; }catch(e){}
+
+var TODAY=new Date('2026-05-17T00:00:00');
+function daysUntil(d){ if(!d) return null; return Math.round((new Date(d+'T00:00:00')-TODAY)/86400000); }
+function typeOf(it){ var c=(it.cat||it.type||'');
+  if(/Graduate/.test(c))return'Graduate'; if(/Internship/.test(c))return'Internship';
+  if(/Career/.test(c))return'Career'; if(/Service/.test(c))return'Service'; return'Other'; }
+var BUCKETS=['Closing soon','Upcoming — dated deadline','Open now / rolling','Contact faculty first','Timing unconfirmed','Deadline passed (kept for reference)'];
+function bucketOf(it){ var k=it.deadline_kind||'unknown', du=daysUntil(it.deadline_date);
+  if(k==='passed') return 5;
+  if(k==='fixed'&&du!=null&&du>=0&&du<=45) return 0;
+  if(k==='fixed'&&du!=null&&du>=0) return 1;
+  if(k==='rolling') return 2;
+  if(k==='contact-first') return 3;
+  return 4; }
+function fitRank(b){ b=(b||'').toLowerCase();
+  if(/exception|top recommend/.test(b))return 0; if(/strong/.test(b))return 1;
+  if(/good|solid|verified open|open now/.test(b))return 2; return 3; }
+
+/* extensible filter config — universal + per-type subfilters */
+var TYPES=['All','Graduate','Internship','Career','Service'];
+var CYCLES=[['All','All'],['Current','current'],['Next cycle','next']];
+var STATUSES=[['All',-1],['Closing soon',0],['Upcoming',1],['Open / rolling',2],['Contact first',3],['Unconfirmed',4],['Passed',5]];
+var FITS=['All','Exceptional','Strong','Good'];
+var SUB={
+ Graduate:[{k:'fund',label:'Funding',opts:['All','Funded/Assistantship'],
+   test:function(it,v){return v==='All'||/assistantship|fully funded|\bfunded\b|stipend|tuition waiver/i.test((it.desc||it.body||'')+(it.metaLine||''));}}],
+ Career:[{k:'sector',label:'Sector',opts:['All','Federal','State','Private/NGO'],
+   test:function(it,v){var s=(it.org||'')+' '+(it.desc||it.body||'');if(v==='All')return true;
+     var fed=/USFWS|US Fish|USGS|\bBLM\b|federal|GS-?\d|National Park|NOAA|USDA|Forest Service|Army Corps/i.test(s);
+     var st=/\bstate\b|NCWRC|Wildlife Resources Commission|Dept\.? of (Natural|Environment)/i.test(s);
+     if(v==='Federal')return fed; if(v==='State')return st&&!fed; return !fed&&!st;}}],
+ Internship:[{k:'paid',label:'Paid',opts:['All','Paid / Stipend'],
+   test:function(it,v){return v==='All'||/stipend|\bpaid\b|\$\s?\d|salary|housing provided/i.test((it.desc||it.body||'')+(it.metaLine||'')+(it.pay||''));}}],
+ Service:[{k:'prog',label:'Program',opts:['All','AmeriCorps','Conservation Corps'],
+   test:function(it,v){var s=(it.title||'')+' '+(it.org||'')+' '+(it.desc||'');if(v==='All')return true;
+     if(v==='AmeriCorps')return/americorps/i.test(s); return /conservation corps|\bcorps\b/i.test(s);}}]
+};
+/* multi-select state: each category is an array; [] === "All" */
+var LOCK_TYPE='Graduate'; /* per-type page: Programs */
+var BX={type:LOCK_TYPE?[LOCK_TYPE]:[],cycle:[],status:[],fit:[],fresh:[],sub:{}};
+function isNewItem(it){ return !!(it.status && /(^|\W)new(\W|$)|new find/i.test(it.status.label||'')); }
+function isUpdatedItem(it){ return !!(it.status && /updated/i.test(it.status.label||'')); }
+var FRESH=[['✨ New','new'],['Updated','upd']];
+function has1(a,v){ return a.indexOf(v)>-1; }
+function toggle1(a,v){ var i=a.indexOf(v); if(i>-1)a.splice(i,1); else a.push(v); }
+function fitLabel(it){ return ['Exceptional','Strong','Good',''][fitRank(it.badge)]; }
+
+function chip(label,on,fn){ var b=el('button','bx-chip'+(on?' on':''),label); b.type='button'; b.onclick=fn; return b; }
+function fgroup(label,children){ var g=el('div','bx-fgroup'); g.appendChild(el('span','bx-flabel',label));
+  children.forEach(function(c){g.appendChild(c);}); return g; }
+/* a multi-select group: an "All" chip (on when nothing picked, clears the
+   category) followed by toggle chips (multiple may be active). */
+function mgroup(label,arr,opts){
+  var kids=[chip('All',arr.length===0,function(){ arr.length=0; renderBrowse(); })];
+  opts.forEach(function(o){ var lbl=o[0],val=o[1];
+    kids.push(chip(lbl,has1(arr,val),function(){ toggle1(arr,val); renderBrowse(); })); });
+  return fgroup(label,kids);
+}
+
+function buildBrowseFiltersX(){
+  var w=document.getElementById('browse-filters'); if(!w) return;
+  w.className='bx-fwrap'; w.innerHTML='';
+  if(!LOCK_TYPE) w.appendChild(mgroup('Type', BX.type, TYPES.slice(1).map(function(t){return [t,t];})));
+  w.appendChild(mgroup('Cycle', BX.cycle, CYCLES.slice(1)));
+  w.appendChild(mgroup('Status', BX.status, STATUSES.slice(1)));
+  w.appendChild(mgroup('Fit', BX.fit, FITS.slice(1).map(function(f){return [f,f];})));
+  w.appendChild(mgroup('New', BX.fresh, FRESH));
+  // per-type subfilters: shown for each selected type (extensible config)
+  BX.type.forEach(function(t){ (SUB[t]||[]).forEach(function(sf){
+    if(!BX.sub[sf.k]) BX.sub[sf.k]=[];
+    w.appendChild(mgroup(sf.label, BX.sub[sf.k], sf.opts.slice(1).map(function(o){return [o,o];})));
+  }); });
+}
+
+function buildBrowseDetailX(it){
+  var d=el('div','item-detail'); d.id='bb-'+it.id;
+  var kindLbl={fixed:'Dated deadline',rolling:'Open / rolling','contact-first':'Contact faculty first',passed:'Deadline passed',unknown:'Timing unconfirmed'}[it.deadline_kind||'unknown'];
+  var top=el('div','id-meta-row');
+  var ki=el('div','id-meta-item'); ki.innerHTML='<strong>Status:</strong> '+kindLbl+(it.deadline_date?(' · '+it.deadline_date):''); top.appendChild(ki);
+  if(it.deadline){ var di=el('div','id-meta-item'); di.innerHTML='<strong>Deadline:</strong> '+it.deadline; top.appendChild(di); }
+  if(it.start){ var si=el('div','id-meta-item'); si.innerHTML='<strong>Start:</strong> '+it.start; top.appendChild(si); }
+  d.appendChild(top);
+  if(it.badge){ d.appendChild(el('div','id-badge',it.badge)); }
+  d.appendChild(el('div','id-section-label','About this opportunity'));
+  d.appendChild(el('div','id-body', it.desc||it.body||''));
+  if(it.pills&&it.pills.length){ d.appendChild(el('div','id-section-label','Focus areas'));
+    var pd=el('div','id-pills'); it.pills.forEach(function(p){pd.appendChild(el('span','id-pill',p));}); d.appendChild(pd); }
+  if(it.pay||it.location||it.stipend||it.benefits){ d.appendChild(el('div','id-section-label','Compensation & location'));
+    var mr=el('div','id-meta-row');
+    if(it.pay){var x=el('div','id-meta-item');x.innerHTML='<strong>Pay:</strong> '+it.pay;mr.appendChild(x);}
+    if(it.stipend){var x2=el('div','id-meta-item');x2.innerHTML='<strong>Stipend:</strong> '+it.stipend;mr.appendChild(x2);}
+    if(it.location){var x3=el('div','id-meta-item');x3.innerHTML='<strong>Location:</strong> '+it.location;mr.appendChild(x3);}
+    if(it.benefits){var x4=el('div','id-meta-item');x4.innerHTML='<strong>Benefits:</strong> '+it.benefits;mr.appendChild(x4);} d.appendChild(mr); }
+  if(it.detail&&it.detail.length){ d.appendChild(el('div','id-section-label','Application detail'));
+    it.detail.forEach(function(b){
+      if(b.t==='h') d.appendChild(el('div','id-section-label',b.v));
+      else if(b.t==='row'){ var r=el('div','id-meta-item'); r.innerHTML='<strong>'+b.label+':</strong> '+b.value; d.appendChild(r); }
+      else if(b.t==='contact'){ var c=el('div','id-body',b.v); c.style.fontSize='12px'; d.appendChild(c); }
+      else { var p=el('div','id-body',b.v); p.style.fontSize='12px'; d.appendChild(p); }
+    }); }
+  if(it.extbody){ d.appendChild(el('div','id-section-label','Additional detail')); var eb=el('div','id-body',it.extbody); eb.style.fontSize='12px'; d.appendChild(eb); }
+  if(it.contact){ d.appendChild(el('div','id-section-label','How to apply / contact')); var cb=el('div','id-body',it.contact); cb.style.fontSize='12px'; d.appendChild(cb); }
+  var ln=document.createElement('div'); ln.style.cssText='display:flex;flex-wrap:wrap;gap:6px;margin-top:.5rem';
+  (it.links||[]).forEach(function(l){ var a=document.createElement('a'); a.className='id-link'; a.href=l.href; a.target='_blank'; a.textContent=l.label; ln.appendChild(a); });
+  if(it.url){ var au=document.createElement('a'); au.className='id-link id-link-primary'; au.href=it.url; au.target='_blank'; au.innerHTML='&#128279; '+(it.url_label||'Apply / View posting')+' &rarr;'; ln.appendChild(au); }
+  if(it.src){ var as=document.createElement('a'); as.className='id-link'; as.href=it.src; as.target='_blank'; as.textContent='Open '+(it.src_label||'source page'); ln.appendChild(as); }
+  if(it.id){ var ap=document.createElement('a'); ap.className='id-link'; ap.href='erin_packet.html?ml='+encodeURIComponent(it.id); ap.innerHTML='&#128424; Print packet'; ln.appendChild(ap); }
+  if(ln.children.length) d.appendChild(ln);
+  return d;
+}
+
+function renderBrowseX(){
+  buildBrowseFiltersX();
+  var q=((document.getElementById('bs')||{}).value||'').toLowerCase();
+  var items=ALL.filter(function(it){
+    if(BX.type.length   && !has1(BX.type,typeOf(it))) return false;
+    if(BX.cycle.length  && !has1(BX.cycle,(it.cycle||'current'))) return false;
+    if(BX.status.length && !has1(BX.status,bucketOf(it))) return false;
+    if(BX.fit.length    && !has1(BX.fit,fitLabel(it))) return false;
+    if(BX.fresh.length){ var fOk=false;
+      if(has1(BX.fresh,'new')&&isNewItem(it)) fOk=true;
+      if(has1(BX.fresh,'upd')&&isUpdatedItem(it)) fOk=true;
+      if(!fOk) return false; }
+    // subfilters: only for selected types; OR within a subfilter group
+    for(var t=0;t<BX.type.length;t++){ var defs=SUB[BX.type[t]]||[];
+      for(var i=0;i<defs.length;i++){ var sf=defs[i], picks=BX.sub[sf.k]||[];
+        if(picks.length){ var ok=false;
+          for(var p=0;p<picks.length;p++){ if(sf.test(it,picks[p])){ ok=true; break; } }
+          if(!ok) return false; } } }
+    if(q){ var hay=(it.title+it.org+(it.cat||'')+(it.deadline||'')+(it.desc||it.body||'')+(it.pills||[]).join(' ')).toLowerCase(); if(hay.indexOf(q)<0) return false; }
+    return true;
+  });
+  items.sort(function(a,b){
+    var ba=bucketOf(a),bb=bucketOf(b); if(ba!==bb) return ba-bb;
+    if(ba===0||ba===1){ var da=daysUntil(a.deadline_date),db=daysUntil(b.deadline_date);
+      if(da!=null&&db!=null&&da!==db) return da-db; }
+    var fa=fitRank(a.badge),fb=fitRank(b.badge); if(fa!==fb) return fa-fb;
+    return (a.title||'').localeCompare(b.title||'');
+  });
+  var body=document.getElementById('browse-body'); body.innerHTML='';
+  var hdr=el('div',null); hdr.style.cssText='font-size:12px;color:var(--t3);margin:.25rem 0 .5rem';
+  hdr.textContent=items.length+' opportunit'+(items.length===1?'y':'ies')+' · sorted by urgency, then fit';
+  body.appendChild(hdr);
+  if(!items.length){ body.appendChild(el('div','empty','No matches — adjust filters.')); return; }
+  var curB=-1;
+  items.forEach(function(raw){
+    var it=(typeof mergeWithAll==='function')?mergeWithAll(raw):raw;
+    var bk=bucketOf(raw);
+    if(bk!==curB){ curB=bk; var sec=el('div','bx-sec'); sec.innerHTML=BUCKETS[bk]+' <span class="n">'+items.filter(function(z){return bucketOf(z)===bk;}).length+'</span>'; body.appendChild(sec); }
+    var saved=(typeof has==='function')&&has(it.id);
+    var fresh=isNewItem(it);
+    var card=el('div','browse-card'+(saved?' is-saved':'')+(fresh?' is-new':'')); card.id='bcx-'+it.id;
+    var th=el('div',null); th.style.cssText='display:flex;justify-content:space-between;gap:8px;align-items:flex-start';
+    var tl=el('div',null);
+    var titleRow=el('div',null); titleRow.style.cssText='display:flex;align-items:center;gap:7px;flex-wrap:wrap';
+    if(fresh) titleRow.appendChild(el('span','bx-new','✨ NEW'));
+    titleRow.appendChild(el('div','browse-title',it.title));
+    if(saved) titleRow.appendChild(el('span','bx-saved','✓ Saved'));
+    tl.appendChild(titleRow);
+    tl.appendChild(el('div','browse-org',it.org));
+    th.appendChild(tl);
+    var du=daysUntil(it.deadline_date);
+    var urgTxt=bk===0?(du!=null?(du<=0?'Due now':du+'d left'):'Closing soon'):bk===1?'Upcoming':bk===2?'Open now':bk===3?'Contact first':bk===4?'Check timing':'Passed';
+    var u=el('span','bx-urg u'+bk,urgTxt); th.appendChild(u);
+    card.appendChild(th);
+    var meta=el('div','browse-meta');
+    if(it.deadline){ var dm=el('span'); dm.innerHTML='<strong style="font-weight:500">Deadline:</strong> '+it.deadline; meta.appendChild(dm); }
+    if(it.badge){ if(it.deadline)meta.appendChild(el('span',null,' · ')); var bm=el('span'); bm.textContent=it.badge; meta.appendChild(bm); }
+    card.appendChild(meta);
+    var bd=buildBrowseDetailX(it); card.appendChild(bd);
+    var acts=el('div','item-actions');
+    var dbt=el('button','act-btn','Details');
+    dbt.onclick=function(ev){ ev.stopPropagation(); bd.classList.toggle('open'); dbt.textContent=bd.classList.contains('open')?'Hide details':'Details'; };
+    acts.appendChild(dbt); card.appendChild(acts);
+    var sv=el('button','browse-save-btn'+(saved?' saved':''), saved?'✓ Saved':'+ Save');
+    sv.onclick=function(){ if(typeof has==='function'&&has(it.id)){ if(typeof delItem==='function')delItem(it.id); } else if(typeof addItem==='function'){ addItem(it); } renderBrowse(); if(typeof renderList==='function')renderList(); };
+    card.appendChild(sv);
+    card.onclick=function(ev){ if(ev.target.closest('a')||ev.target.closest('button'))return; bd.classList.toggle('open'); };
+    body.appendChild(card);
+  });
+}
+
+try{ renderBrowse=renderBrowseX; }catch(e){ window.renderBrowse=renderBrowseX; }
+
+function mkInit(){
+  var pg=document.querySelector('.page');
+  if(pg && !document.getElementById('mk-banner')){
+    var ban=el('div',null,'MOCKUP — “Programs” per-type page (current + next cycle merged, data-driven). Use the Cycle filter to switch Current / Next. Nothing is saved; live pages untouched.');
+    ban.id='mk-banner'; pg.insertBefore(ban,pg.firstChild);
+  }
+  if(typeof setMode==='function') setMode('browse'); /* type page: show its list */
+  if(typeof renderBrowseX==='function') renderBrowseX();
+}
+if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',mkInit);
+else mkInit();
+setTimeout(mkInit,150);
+})();

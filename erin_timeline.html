@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
+<link rel="stylesheet" href="styles.css?v=20260518e">
+<title>Erin Lamberton &#8212; Deadline Timeline</title>
+<style>
+
+body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem;}
+hr{border:none;border-top:.5px solid var(--bd);margin:1.5rem 0}
+a{color:var(--blue);text-decoration:none}
+a:hover{text-decoration:underline}
+
+.page-header-eyebrow{font-size:11px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-t);margin-bottom:.25rem}
+.page-header-title{font-size:24px;font-weight:700;color:var(--t1);line-height:1.2;letter-spacing:-.02em;margin-bottom:.2rem}
+.page-header-sub{font-size:13px;color:var(--t2);line-height:1.5}
+/* Remove old top-nav bubble gap */
+.top-nav{display:none!important}
+
+.s-updated{background:#e8e4fe;color:#4c3bc4}
+
+html.dark .s-updated{background:#2d2563;color:#b5abfa}
+
+
+/* ensure page-header gets left padding from .page */
+/* Layout */
+/* ════════════════════════════════════
+   THEME VARIABLES — What's Next for Erin
+   Light: Medium grey scale palette
+   Dark: Forest green palette
+   ════════════════════════════════════ */
+
+
+/* ── Calendar ── */
+.cal-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px;margin-bottom:1.5rem}
+.cal-month{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);overflow:hidden}
+.cal-header{padding:.5rem .65rem;border-bottom:.5px solid var(--bd);font-weight:600;font-size:13px;color:var(--t1)}
+.cal-dow{display:grid;grid-template-columns:repeat(7,1fr);margin-bottom:3px}
+.cal-dow-cell{font-size:10px;font-weight:500;color:var(--t3);text-align:center;padding:2px 0}
+.cal-days{display:grid;grid-template-columns:repeat(7,1fr);gap:2px}
+.cal-body{padding:.6rem .5rem .5rem}
+.cal-cell{min-height:28px;display:flex;align-items:center;justify-content:center;font-size:12px;color:var(--t2);border-radius:5px;position:relative;cursor:default}
+.cal-cell.has-deadline{cursor:pointer;font-weight:600}
+.cal-cell.has-deadline:hover{background:var(--bg2)}
+.cal-cell.past{color:var(--t3);opacity:.5}
+.cal-dot{width:5px;height:5px;border-radius:50%;position:absolute;bottom:2px;left:50%;transform:translateX(-50%)}
+.ld-urgent{background:#e53935}
+.ld-soon{background:#fb8c00}
+.ld-ok{background:#4e9836}
+.ld-future{background:#3a7878}
+@media(max-width:480px){.cal-grid{grid-template-columns:1fr}}
+
+.slabel{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin:1.5rem 0 .65rem;display:block}
+.tip{border-left:3px solid var(--teal);background:var(--bg2);padding:.75rem 1rem;font-size:13px;color:var(--t2);line-height:1.55;margin-bottom:1rem;border-radius:0 var(--r1) var(--r1) 0}
+.legend{display:flex;flex-wrap:wrap;gap:.5rem 1.25rem;margin-bottom:1rem;align-items:center}
+.leg-item{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--t2)}
+.leg-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
+.action-strip{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:.85rem 1.1rem;margin-bottom:1.25rem}
+.action-title{font-size:12px;font-weight:600;color:var(--t3);text-transform:uppercase;letter-spacing:.06em;margin-bottom:.5rem}
+.action-row{display:flex;align-items:flex-start;gap:.5rem;font-size:13px;color:var(--t2);margin-bottom:.3rem}
+.action-arrow{color:var(--teal-t);font-weight:700;font-size:15px;line-height:1.3;flex-shrink:0}
+.detail-panel{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:1rem;display:none}
+.detail-panel.open{display:block}
+.detail-title{font-size:14px;font-weight:500;color:var(--t1);margin-bottom:.35rem}
+.detail-org{font-size:12px;color:var(--t3);margin-bottom:.5rem}
+.rolling-banner{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:.85rem 1.1rem;margin-bottom:1rem}
+.rolling-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:.75rem}
+.rolling-count{font-size:12px;font-weight:600;color:var(--t3)}
+.rolling-list{display:flex;flex-direction:column;gap:.4rem}
+.rolling-card{display:flex;align-items:flex-start;gap:.75rem;padding:.5rem .65rem;border-radius:var(--r1);background:var(--bg2)}
+.rc-dot{width:8px;height:8px;border-radius:50%;background:var(--teal);flex-shrink:0;margin-top:4px}
+.rc-main{flex:1;min-width:0}
+.rc-title{font-size:13px;font-weight:500;color:var(--t1);margin-bottom:1px}
+.rc-title a{color:var(--t1);text-decoration:none}
+.rc-title a:hover{color:var(--teal-t)}
+.rc-org{font-size:11px;color:var(--t3)}
+.rc-dl{font-size:11px;color:var(--t2);margin-top:1px}
+.rc-type{font-size:10px;font-weight:600;padding:2px 7px;border-radius:999px;white-space:nowrap;flex-shrink:0;align-self:flex-start}
+.rc-grad{background:var(--teal-bg);color:var(--teal-t)}
+.rc-career{background:var(--blue-bg);color:var(--blue)}
+.rc-intern{background:var(--amber-bg);color:var(--amber-t)}
+.rc-service{background:var(--purple-bg);color:var(--purple-t)}
+.no-date-list{display:flex;flex-direction:column;gap:.5rem}
+.nd-card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r1);padding:.65rem .9rem;display:flex;align-items:flex-start;gap:.75rem}
+.nd-icon{font-size:16px;flex-shrink:0}
+.nd-title{font-size:13px;font-weight:500;color:var(--t1)}
+.nd-org{font-size:11px;color:var(--t3);margin-top:1px}
+
+.footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1rem}
+
+.empty{text-align:center;padding:3rem 1rem;color:var(--t3)}
+.empty-icon{font-size:36px;margin-bottom:.75rem}
+.empty-title{font-size:15px;font-weight:500;color:var(--t2);margin-bottom:.3rem}
+.empty-body{font-size:13px;color:var(--t3);line-height:1.6}
+</style>
+<script src="site.js?v=20260518e"></script>
+<script>
+(function(){
+  var saved=localStorage.getItem('erin_theme');
+  var prefersDark=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches;
+  if(saved==='dark'||(!saved&&prefersDark)) document.documentElement.classList.add('dark');
+  function upBtn(){var b=document.getElementById('theme-toggle');if(b)b.innerHTML=document.documentElement.classList.contains('dark')?'&#9728;':'&#127769;';}
+  document.addEventListener('DOMContentLoaded',upBtn);
+  window.__toggleTheme=function(){var d=document.documentElement.classList.toggle('dark');localStorage.setItem('erin_theme',d?'dark':'light');upBtn();};
+})();
+</script>
+</head>
+<body>
+
+<!-- GLOBAL NAV -->
+<nav class="global-nav">
+  <div class="gnav-wrap">
+    <div class="gnav-inner">
+      <a href="index.html" class="gnav-home">&#127968; Home</a>
+      <a href="erin_search.html" class="gnav-link">&#128269; Search</a>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-track">Track</span>
+        <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
+        <a href="erin_compare.html" class="gnav-link">&#9878; Compare</a>
+        <a href="erin_pipeline.html" class="gnav-link">&#128202; Pipeline</a>
+        <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
+        <a href="erin_applications.html" class="gnav-link">&#128196; Apps</a>
+        <a href="erin_proftracker.html" class="gnav-link">&#128100; Profs</a>
+        <a href="erin_reftracker.html" class="gnav-link">&#128393; Refs</a>
+        <a href="erin_archive.html" class="gnav-link">&#128193; Archive</a>
+      </div>
+      <span class="gnav-divider gnav-break"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-browse">Browse</span>
+        <a href="erin_programs.html" class="gnav-link">&#127979; Programs</a>
+        <a href="erin_internships.html" class="gnav-link">&#128203; Internships</a>
+        <a href="erin_jobs.html" class="gnav-link">&#128188; Jobs</a>
+        <a href="erin_service.html" class="gnav-link">&#127807; Service</a>
+      </div>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-write">Write</span>
+        <a href="erin_materials.html" class="gnav-link">&#128218; Materials</a>
+        <a href="erin_writing_samples.html" class="gnav-link">&#9997; Writing</a>
+        <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
+        <a href="erin_packet.html" class="gnav-link">&#128424; Packet</a>
+      </div>
+    </div>
+    <button class="gnav-toggle" id="theme-toggle" onclick="__toggleTheme()" title="Toggle dark/light mode">&#127769;</button>
+  </div>
+</nav>
+
+<div class="page">
+  
+<div class="page-header">
+  <div class="page-header-eyebrow">What's Next for Erin</div>
+  <div class="page-header-title">Deadline Timeline</div>
+  <div class="page-header-sub">All deadlines from your saved list in chronological order &mdash; <span id="tl-count" style="color:var(--teal-t);font-weight:500">loading&hellip;</span></div>
+</div>
+  <div id="tl-body"></div>
+
+  <p class="footer">Deadlines parsed from your saved opportunities. Always verify directly before applying.</p>
+</div>
+
+<script>
+var BIN='6a039aa4250b1311c33f2bac',KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa',STORE='erin_mylist_v1';
+function load(){try{return JSON.parse(localStorage.getItem(STORE)||'{}')}catch(e){return{}}}
+function getSavedItems(){return Object.values(load());}
+
+function pullCloud(){
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+    .then(function(r){return r.json();})
+    .then(function(data){
+      if(data.record && data.record.items){
+        var merged=Object.assign({},load(),data.record.items);
+        localStorage.setItem(STORE,JSON.stringify(merged));
+        render();
+      }
+    }).catch(function(){render();});
+}
+
+var MONTH_NAMES=['January','February','March','April','May','June','July','August','September','October','November','December'];
+function parseDeadline(dl){
+  if(!dl) return null;
+  var s=dl.toLowerCase();
+  if(/^\s*(rolling|year.round|posted|varies|apply when|open now|available now|typically)/.test(s)) return null;
+  if(/rolling|year.round/.test(s) && !/\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec|january|february|march|april|june|july|august|september|october|november|december)\b/.test(s)) return null;
+  var MO=['january','february','march','april','may','june','july','august','september','october','november','december'];
+  var SH=['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec'];
+  var sm=s.match(/\b(spring|summer|fall|autumn|winter)\s+(20[2-3][0-9])/);
+  if(sm){var smap={spring:2,summer:6,fall:9,autumn:9,winter:11};return new Date(parseInt(sm[2]),smap[sm[1]]||9,1);}
+  var nm=s.match(/(\d{1,2})[\/-](\d{1,2})[\/-](20[2-3][0-9])/);
+  if(nm) return new Date(parseInt(nm[3]),parseInt(nm[1])-1,parseInt(nm[2]));
+  var best={pos:99999,month:-1};
+  for(var i=0;i<MO.length;i++){
+    var p=s.indexOf(MO[i]); if(p>=0&&p<best.pos)best={pos:p,month:i};
+    var p2=s.indexOf(SH[i]); if(p2>=0&&p2<best.pos)best={pos:p2,month:i};
+  }
+  if(best.month<0) return null;
+  var ctx=s.slice(Math.max(0,best.pos-5),Math.min(s.length,best.pos+65));
+  var yrm=ctx.match(/20[2-3][0-9]/);
+  var daym=ctx.match(/\b([1-9]|[12][0-9]|3[01])(st|nd|rd|th)?\b/);
+  var day=daym?parseInt(daym[1]):1;
+  if(day>31)day=1;
+  var year;
+  if(yrm){year=parseInt(yrm[0]);}
+  else{var now=new Date(),testYear=now.getFullYear(),testDate=new Date(testYear,best.month,day);if(testDate<now)testYear++;year=testYear;}
+  try{return new Date(year,best.month,day);}catch(e){return null;}
+}
+
+function urgency(d){
+  var diff=(d-new Date())/864e5;
+  if(diff<0) return 'passed';
+  if(diff<30) return 'urgent';
+  if(diff<90) return 'soon';
+  if(diff<270) return 'ok';
+  return 'future';
+}
+
+function daysLabel(d){
+  var diff=Math.round((d-new Date())/864e5);
+  if(diff<=0) return 'Past';
+  if(diff===1) return '1 day';
+  if(diff<14) return diff+'d';
+  if(diff<60) return Math.round(diff/7)+'wk';
+  return Math.round(diff/30)+'mo';
+}
+
+function typeCls(t){
+  if(!t) return 'dp-service';
+  if(t.indexOf('Graduate')>-1) return 'dp-grad';
+  if(t.indexOf('Internship')>-1) return 'dp-intern';
+  if(t.indexOf('Career')>-1) return 'dp-job';
+  return 'dp-service';
+}
+
+function rollingTypeCls(t){
+  if(!t) return 'rt-service';
+  if(t.indexOf('Graduate')>-1) return 'rt-grad';
+  if(t.indexOf('Internship')>-1) return 'rt-intern';
+  if(t.indexOf('Career')>-1) return 'rt-job';
+  return 'rt-service';
+}
+
+var selectedKey=null;
+
+function isRolling(dl){
+  if(!dl||/^\s*$/.test(dl)) return false;
+  var s=dl.toLowerCase();
+  if(/rolling|year.round|posted year.round/i.test(s)) return true;
+  if(/^\s*(posted|varies|apply when|open now|available now|typically)/i.test(s)) return true;
+  if(/rolling/i.test(s) && !/\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec|january|february|march|april|june|july|august|september|october|november|december)\b/i.test(s)) return true;
+  return false;
+}
+
+function render(){
+  var items=getSavedItems();
+  var body=document.getElementById('tl-body');
+  body.innerHTML='';
+  var n=items.length;
+  document.getElementById('tl-count').textContent=n+' saved item'+(n===1?'':'s');
+
+  if(!n){
+    body.innerHTML='<div class="empty"><div class="empty-icon">&#128197;</div><div class="empty-title">No saved items yet</div><div class="empty-body">Save opportunities from My List to see them here.</div></div>';
+    return;
+  }
+
+  var dated=[], rolling=[], nodates=[];
+  var now=new Date();
+
+  items.forEach(function(it){
+    var dl=it.deadline||'';
+    if(isRolling(dl)){ rolling.push(it); return; }
+    var d=parseDeadline(dl);
+    if(d){ dated.push({item:it,date:d}); }
+    else if(!dl||/^\s*$/.test(dl)){ nodates.push(it); }
+    else { rolling.push(it); }
+  });
+
+  dated.sort(function(a,b){return a.date-b.date;});
+
+  // ── SECTION 1: CALENDAR (dated deadlines) ──
+  if(dated.length){
+    var upcoming=dated.filter(function(x){var u=urgency(x.date);return u==='urgent'||u==='soon';});
+    if(upcoming.length){
+      var strip=document.createElement('div'); strip.className='action-strip';
+      var at=document.createElement('div'); at.className='action-title'; at.textContent='Needs attention soon'; strip.appendChild(at);
+      upcoming.slice(0,6).forEach(function(x){
+        var row=document.createElement('div'); row.className='action-row';
+        var arr=document.createElement('span'); arr.className='action-arrow'; arr.textContent='›'; row.appendChild(arr);
+        var txt=document.createElement('span');
+        var diff=Math.round((x.date-now)/864e5);
+        var when=diff<=0?'Past':diff===1?'Tomorrow':'in '+daysLabel(x.date);
+        txt.innerHTML='<strong>'+x.item.title.split('\u2014')[0].split('—')[0].trim().slice(0,45)+'</strong> — '+when;
+        row.appendChild(txt); strip.appendChild(row);
+      });
+      body.appendChild(strip);
+    }
+
+    var monthMap={};
+    dated.forEach(function(x){
+      var k=x.date.getFullYear()+'-'+x.date.getMonth();
+      if(!monthMap[k])monthMap[k]={year:x.date.getFullYear(),month:x.date.getMonth(),items:[]};
+      monthMap[k].items.push(x);
+    });
+
+    var calLbl=document.createElement('div'); calLbl.className='slabel'; calLbl.textContent='Deadline calendar'; body.appendChild(calLbl);
+
+    var leg=document.createElement('div'); leg.className='legend';
+    [{cls:'ld-urgent',lbl:'Within 30 days'},{cls:'ld-soon',lbl:'Within 90 days'},{cls:'ld-ok',lbl:'Within 9 months'},{cls:'ld-future',lbl:'Future'},{cls:'ld-future',lbl:'Past (grayed)'}].forEach(function(l,i){
+      var li=document.createElement('div'); li.className='leg-item';
+      var dot=document.createElement('div'); dot.className='leg-dot '+l.cls;
+      if(i===4) dot.style.opacity='0.4';
+      li.appendChild(dot);
+      var t=document.createElement('span'); t.textContent=l.lbl; li.appendChild(t);
+      leg.appendChild(li);
+    });
+    body.appendChild(leg);
+
+    var panel=document.createElement('div'); panel.className='detail-panel'; panel.id='detail-panel'; body.appendChild(panel);
+
+    var grid=document.createElement('div'); grid.className='cal-grid';
+    Object.keys(monthMap).sort().forEach(function(mk){
+      var mg=monthMap[mk];
+      var isPast=(new Date(mg.year,mg.month+1,0)<now);
+      grid.appendChild(buildCalendar(mg.year,mg.month,mg.items,panel,isPast));
+    });
+    body.appendChild(grid);
+
+    var calTip=document.createElement('div'); calTip.className='tip';
+    calTip.innerHTML='&#128310;&nbsp; <strong>Red</strong> = within 30 days &middot; <strong>Amber</strong> = within 90 days &middot; <strong>Teal</strong> = within 9 months. Click any marked date for full details.';
+    body.appendChild(calTip);
+  }
+
+  // ── SECTION 2: ROLLING / APPLY NOW ──
+  if(rolling.length){
+    var hr1=document.createElement('hr'); body.appendChild(hr1);
+    var rollLbl=document.createElement('div'); rollLbl.className='slabel'; rollLbl.textContent='Rolling — apply anytime'; body.appendChild(rollLbl);
+
+    var rtip=document.createElement('div'); rtip.className='tip';
+    rtip.innerHTML='&#9654;&nbsp; These opportunities have <strong>no fixed deadline</strong> — they hire on a rolling basis or year-round. Federal postings (USGS, USFWS, USACE) close without notice. Apply as soon as you\'re ready.';
+    body.appendChild(rtip);
+
+    var banner=document.createElement('div'); banner.className='rolling-banner';
+    var bh=document.createElement('div'); bh.className='rolling-header';
+    var bc=document.createElement('span'); bc.className='rolling-count'; bc.textContent=rolling.length+' opportunities'; bh.appendChild(bc);
+    banner.appendChild(bh);
+
+    var rlist=document.createElement('div'); rlist.className='rolling-list';
+    var byType={};
+    rolling.forEach(function(it){ var t=it.type||'Other'; if(!byType[t])byType[t]=[]; byType[t].push(it); });
+    ['Graduate Program','Career Position','Internship','Service / Corps'].forEach(function(t){
+      if(!byType[t]||!byType[t].length) return;
+      var grpLbl=document.createElement('div');
+      grpLbl.style.cssText='font-size:11px;font-weight:500;color:var(--t3);text-transform:uppercase;letter-spacing:.06em;margin:.6rem 0 .3rem';
+      grpLbl.textContent=t; rlist.appendChild(grpLbl);
+      byType[t].forEach(function(it){
+        var card=document.createElement('div'); card.className='rolling-card';
+        var dot=document.createElement('div'); dot.className='rc-dot'; card.appendChild(dot);
+        var main=document.createElement('div'); main.className='rc-main';
+        var tEl=document.createElement('div'); tEl.className='rc-title';
+        var lnk=document.createElement('a'); lnk.href=it.src||'erin_mylist.html'; lnk.target='_blank'; lnk.textContent=it.title; tEl.appendChild(lnk); main.appendChild(tEl);
+        var org=document.createElement('div'); org.className='rc-org'; org.textContent=it.org; main.appendChild(org);
+        if(it.deadline){ var dl=document.createElement('div'); dl.className='rc-dl'; dl.textContent=it.deadline; main.appendChild(dl); }
+        card.appendChild(main);
+        var tp=document.createElement('div'); tp.className='rc-type '+rollingTypeCls(it.type); tp.textContent=(it.type||'').replace(' Program','').replace(' Position','').replace(' / Corps',''); card.appendChild(tp);
+        rlist.appendChild(card);
+      });
+    });
+    banner.appendChild(rlist);
+    body.appendChild(banner);
+  }
+
+  // ── SECTION 3: VERIFY DIRECTLY ──
+  if(nodates.length){
+    var hr2=document.createElement('hr'); body.appendChild(hr2);
+    var ndLbl=document.createElement('div'); ndLbl.className='slabel'; ndLbl.textContent='No specific deadline — verify directly'; body.appendChild(ndLbl);
+    var tip3=document.createElement('div'); tip3.className='tip';
+    tip3.innerHTML='&#10067;&nbsp; These saved items have <strong>no deadline info</strong> yet. Verify on USAJobs, the program website, or contact directly before assuming they\'re still open.';
+    body.appendChild(tip3);
+    var list=document.createElement('div'); list.className='no-date-list';
+    nodates.forEach(function(it){ list.appendChild(makeNdCard(it)); });
+    body.appendChild(list);
+  }
+}
+
+
+function buildCalendar(year,month,datedItems,panel,isPast){
+  var dayMap={};
+  datedItems.forEach(function(x){
+    if(x.date.getFullYear()===year&&x.date.getMonth()===month){
+      var d=x.date.getDate();
+      if(!dayMap[d])dayMap[d]=[];
+      dayMap[d].push(x);
+    }
+  });
+  var now=new Date();
+  var firstDay=new Date(year,month,1).getDay();
+  var daysInMonth=new Date(year,month+1,0).getDate();
+  var wrap=document.createElement('div'); wrap.className='cal-month'+(isPast?' passed-month':'');
+  var hdr=document.createElement('div'); hdr.className='cal-header';
+  hdr.textContent=MONTH_NAMES[month]+' '+year+(isPast?' (past)':''); wrap.appendChild(hdr);
+  var body=document.createElement('div'); body.className='cal-body';
+  var dow=document.createElement('div'); dow.className='cal-dow';
+  ['Su','Mo','Tu','We','Th','Fr','Sa'].forEach(function(d){
+    var c=document.createElement('div'); c.className='cal-dow-cell'; c.textContent=d; dow.appendChild(c);
+  });
+  body.appendChild(dow);
+  var days=document.createElement('div'); days.className='cal-days';
+  for(var i=0;i<firstDay;i++){
+    var ec=document.createElement('div'); ec.className='cal-cell empty-cell'; days.appendChild(ec);
+  }
+  for(var d=1;d<=daysInMonth;d++){
+    var cell=document.createElement('div'); cell.className='cal-cell';
+    var thisDate=new Date(year,month,d);
+    var isToday=(year===now.getFullYear()&&month===now.getMonth()&&d===now.getDate());
+    if(isToday) cell.classList.add('today');
+    var num=document.createElement('span'); num.textContent=d; cell.appendChild(num);
+    if(dayMap[d]){
+      cell.classList.add('has-deadline');
+      var isPastDate=thisDate<now;
+      if(isPastDate) cell.classList.add('past-deadline');
+      var dotsEl=document.createElement('div'); dotsEl.className='cal-dots';
+      dayMap[d].slice(0,3).forEach(function(x){
+        var dot=document.createElement('div');
+        dot.className='cal-dot '+(isPastDate?'future':urgency(x.date));
+        dotsEl.appendChild(dot);
+      });
+      cell.appendChild(dotsEl);
+      (function(y,m,d2,items_here){
+        cell.onclick=function(){
+          var key=y+'-'+m+'-'+d2;
+          showDetail(panel,key,y,m,d2,items_here,cell);
+        };
+      })(year,month,d,dayMap[d]);
+    }
+    days.appendChild(cell);
+  }
+  body.appendChild(days); wrap.appendChild(body);
+  return wrap;
+}
+
+function showDetail(panel,key,year,month,day,items,clickedCell){
+  if(selectedKey===key){
+    selectedKey=null; panel.className='detail-panel'; panel.innerHTML='';
+    document.querySelectorAll('.cal-cell.active').forEach(function(c){c.classList.remove('active');});
+    return;
+  }
+  selectedKey=key;
+  document.querySelectorAll('.cal-cell.active').forEach(function(c){c.classList.remove('active');});
+  clickedCell.classList.add('active');
+  panel.innerHTML=''; panel.className='detail-panel open';
+  setTimeout(function(){panel.scrollIntoView({behavior:'smooth',block:'nearest'});},50);
+  var dh=document.createElement('div'); dh.className='detail-date-header';
+  dh.textContent=MONTH_NAMES[month]+' '+day+', '+year; panel.appendChild(dh);
+  items.forEach(function(x){
+    var it=x.item, u=urgency(x.date);
+    var row=document.createElement('div'); row.className='detail-item';
+    var bar=document.createElement('div'); bar.className='detail-urgency-bar bar-'+u; row.appendChild(bar);
+    var main=document.createElement('div'); main.className='detail-main';
+    var title=document.createElement('div'); title.className='detail-title';
+    var lnk=document.createElement('a'); lnk.href=it.src||'erin_mylist.html'; lnk.target='_blank'; lnk.textContent=it.title; title.appendChild(lnk); main.appendChild(title);
+    var org=document.createElement('div'); org.className='detail-org'; org.textContent=it.org; main.appendChild(org);
+    var dl=document.createElement('div'); dl.className='detail-deadline'; dl.textContent='Deadline: '+it.deadline; main.appendChild(dl);
+    var pills=document.createElement('div'); pills.className='detail-pills';
+    var tp=document.createElement('span'); tp.className='dp '+typeCls(it.type); tp.textContent=it.type; pills.appendChild(tp);
+    if(it.badge){var bp=document.createElement('span');bp.className='dp dp-badge';bp.textContent=it.badge;pills.appendChild(bp);}
+    main.appendChild(pills);
+    if(it.body){
+      var bodyEl=document.createElement('div'); bodyEl.className='detail-body'; bodyEl.textContent=it.body; main.appendChild(bodyEl);
+      var tog=document.createElement('button'); tog.className='detail-toggle'; tog.textContent='Show details ▾';
+      tog.onclick=function(){bodyEl.classList.toggle('open');tog.textContent=bodyEl.classList.contains('open')?'Hide details ▴':'Show details ▾';};
+      main.appendChild(tog);
+    }
+    row.appendChild(main);
+    var diff=Math.round((x.date-new Date())/864e5);
+    var badge=document.createElement('div');
+    if(diff<0){badge.className='days-passed';badge.textContent='Past';}
+    else{badge.className='days-badge days-'+u;badge.textContent=diff===0?'Today':daysLabel(x.date)+' left';}
+    row.appendChild(badge);
+    panel.appendChild(row);
+  });
+}
+
+function makeNdCard(it){
+  var card=document.createElement('div'); card.className='nd-card';
+  var left=document.createElement('div');
+  var t=document.createElement('div'); t.className='nd-title';
+  var lnk=document.createElement('a'); lnk.href=it.src||'erin_mylist.html'; lnk.target='_blank'; lnk.textContent=it.title; t.appendChild(lnk); left.appendChild(t);
+  var o=document.createElement('div'); o.className='nd-org'; o.textContent=it.org; left.appendChild(o);
+  card.appendChild(left);
+  var tp=document.createElement('div'); tp.className='nd-type dp '+typeCls(it.type); tp.textContent=it.type; card.appendChild(tp);
+  return card;
+}
+
+pullCloud();
+</script>
+
+<script>
+/* ── Sync indicator render: appears at end of nav, updates on every sync ── */
+(function(){
+  function fmtAgo(ts){
+    if(!ts) return 'never';
+    var s=Math.floor((Date.now()-ts)/1000);
+    if(s<5) return 'just now';
+    if(s<60) return s+'s ago';
+    var m=Math.floor(s/60); if(m<60) return m+'m ago';
+    var h=Math.floor(m/60); if(h<24) return h+'h ago';
+    return Math.floor(h/24)+'d ago';
+  }
+  function render(){
+    var el=document.getElementById('gnav-sync'); if(!el) return;
+    var ts=parseInt(localStorage.getItem('erin_last_sync')||'0',10);
+    el.textContent = ts ? '✓ Synced '+fmtAgo(ts) : '— not synced';
+  }
+  function setup(){
+    var wrap=document.querySelector('.gnav-wrap');
+    if(!wrap || document.getElementById('gnav-sync')) return;
+    var span=document.createElement('span');
+    span.id='gnav-sync'; span.className='gnav-sync'; span.title='Last cloud sync';
+    span.style.cssText='font-size:10px;color:var(--t3);padding:3px 8px;background:var(--bg2);border-radius:4px;white-space:nowrap;flex-shrink:0;margin-left:10px;border:.5px solid var(--bd);align-self:center;min-width:118px;text-align:center;box-sizing:border-box';
+    var tog=document.getElementById('theme-toggle');if(tog&&tog.parentNode===wrap)wrap.insertBefore(span,tog);else wrap.appendChild(span);
+    render();
+    setInterval(render,30000);
+    window.addEventListener('erin-sync', render);
+  }
+  if(document.readyState==='loading') document.addEventListener(

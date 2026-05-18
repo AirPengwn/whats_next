@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
+<link rel="stylesheet" href="styles.css?v=20260518e">
+<title>Erin Lamberton &#8212; Professor Contact Tracker</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem;}
+
+/* ── Global nav ── */
+.global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
+.gnav-wrap{max-width:1100px;margin:0 auto;display:flex;align-items:center}
+.gnav-inner{flex:1;min-width:0;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:0 2px;row-gap:2px;scrollbar-width:none}
+.gnav-divider{display:inline-block;width:1px;height:16px;background:var(--bd);margin:0 4px;flex-shrink:0}
+.gnav-divider.gnav-break{flex-basis:100%;width:0;height:0;background:none;margin:0}
+.gnav-group{display:inline-flex;align-items:center;gap:0;flex-shrink:0}
+.gnav-group-label{font-size:9px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;margin-right:4px;flex-shrink:0;padding:2px 6px;border-radius:4px;line-height:1}
+.gnav-group-label.gl-track{background:var(--teal-bg);color:var(--teal-t)}
+.gnav-group-label.gl-browse{background:var(--blue-bg);color:var(--blue)}
+.gnav-group-label.gl-write{background:var(--amber-bg);color:var(--amber-t)}
+.gnav-home{font-size:12px;font-weight:600;color:var(--t1);text-decoration:none;padding:8px 8px 8px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:2px;flex-shrink:0}
+.gnav-home:hover{color:var(--teal-t)}
+.gnav-link{font-size:11px;font-weight:500;color:var(--t3);text-decoration:none;padding:8px 5px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
+.gnav-link:hover{color:var(--t1)}
+.gnav-link.active{color:var(--teal-t);border-bottom-color:var(--teal)}
+.gnav-toggle{flex-shrink:0;width:34px;height:34px;margin-left:8px;display:flex;align-items:center;justify-content:center;border:1.5px solid var(--bd);background:var(--bg2);color:var(--t2);cursor:pointer;border-radius:6px;font-family:var(--fn);font-size:14px;line-height:1;transition:background .12s,border-color .12s}
+.gnav-toggle:hover{background:var(--bg3);border-color:var(--bds);color:var(--t1)}
+html.dark .gnav-toggle{background:var(--bg2);border-color:var(--bd);color:var(--t1)}
+
+.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.5rem}
+.page-header-eyebrow{font-size:11px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-t);margin-bottom:.25rem}
+.page-header-title{font-size:24px;font-weight:700;color:var(--t1);line-height:1.2;letter-spacing:-.02em;margin-bottom:.2rem}
+.page-header-sub{font-size:13px;color:var(--t2);line-height:1.5}
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+@media(prefers-color-scheme:dark){}
+body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem}
+.page{max-width:720px;margin:0 auto;padding:0 1rem}
+
+/* ── GLOBAL NAV ── */
+
+hr{border:none;border-top:.5px solid var(--bd);margin:1.5rem 0}
+a{color:var(--blue);text-decoration:none}
+a:hover{text-decoration:underline}
+.pg-title{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin:.75rem 0 .15rem}
+.slabel{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin-bottom:.6rem}
+.card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1.1rem 1.25rem;margin-bottom:.75rem}
+.tip{border-left:3px solid var(--teal);background:var(--bg2);padding:.75rem 1rem;margin-bottom:1.1rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
+.empty{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:2.5rem;text-align:center}
+.empty-icon{font-size:32px;margin-bottom:.65rem}
+.empty-title{font-size:15px;font-weight:500;margin-bottom:.35rem}
+.empty-body{font-size:13px;color:var(--t2);line-height:1.65}
+.footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
+.prof-card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:.65rem}
+.prof-card.contacted{border-left:3px solid var(--teal)}
+.prof-card.responded{border-left:3px solid #185fa5}
+.prof-card.pursuing{border-left:3px solid #ef9f27}
+.prof-header{display:flex;align-items:flex-start;justify-content:space-between;gap:.75rem;margin-bottom:.5rem;flex-wrap:wrap}
+.prof-title{font-size:14px;font-weight:500;color:var(--t1);line-height:1.4}
+.prof-org{font-size:12px;color:var(--t3);margin-bottom:.5rem}
+.prof-row{display:grid;grid-template-columns:1fr 1fr;gap:.5rem .75rem;margin-bottom:.6rem}
+@media(max-width:480px){.prof-row{grid-template-columns:1fr}}
+.prof-field{}
+.prof-lbl{font-size:11px;font-weight:500;color:var(--t3);text-transform:uppercase;letter-spacing:.05em;margin-bottom:3px}
+.prof-input{font-size:13px;padding:6px 10px;border-radius:var(--r1);border:1px solid var(--bds);background:var(--bg2);color:var(--t1);width:100%;font-family:var(--fn)}
+.prof-input:focus{outline:none;border-color:var(--teal)}
+.prof-select{font-size:13px;padding:6px 10px;border-radius:var(--r1);border:1px solid var(--bds);background:var(--bg2);color:var(--t1);width:100%;font-family:var(--fn);cursor:pointer}
+.prof-select:focus{outline:none;border-color:var(--teal)}
+.prof-ta{font-size:13px;padding:6px 10px;border-radius:var(--r1);border:1px solid var(--bds);background:var(--bg2);color:var(--t1);width:100%;font-family:var(--fn);resize:vertical;min-height:56px}
+.prof-ta:focus{outline:none;border-color:var(--teal)}
+.prof-actions{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin-top:.3rem}
+.save-btn{font-size:12px;font-weight:500;padding:4px 14px;border-radius:999px;border:none;background:var(--teal);color:#fff;cursor:pointer;font-family:var(--fn)}
+.del-btn{font-size:12px;color:var(--t3);background:none;border:none;cursor:pointer;padding:0;font-family:var(--fn);margin-left:auto}
+.del-btn:hover{color:#c0392b}
+.saved-flash{font-size:12px;color:var(--teal-t);display:none;font-weight:500}
+.status-pill{font-size:11px;font-weight:500;padding:2px 9px;border-radius:999px}
+.sp-none{background:var(--bg2);color:var(--t3)}
+.sp-contacted{background:var(--teal-bg);color:var(--teal-t)}
+.sp-responded{background:var(--blue-bg);color:var(--blue)}
+.sp-pursuing{background:var(--amber-bg);color:var(--amber-t)}
+.sp-notfit{background:#faece7;color:#993c1d}
+.add-btn{display:flex;align-items:center;gap:.5rem;font-size:13px;font-weight:500;padding:8px 18px;border-radius:999px;border:1.5px solid var(--teal);background:transparent;color:var(--teal-t);cursor:pointer;font-family:var(--fn);margin-bottom:1rem}
+.add-btn:hover{background:var(--teal-bg)}
+.summary-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1.1rem}
+.sum-pill{font-size:12px;font-weight:500;padding:4px 12px;border-radius:999px;background:var(--bg);border:.5px solid var(--bd)}
+/* follow-up alert badge */
+.followup-badge{font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px;background:#faeeda;color:#854f0b;margin-left:6px}
+.followup-strip{background:#faeeda;border:1px solid #ef9f27;border-radius:var(--r1);padding:.55rem .85rem;margin-bottom:.65rem;font-size:12px;color:#854f0b;display:flex;align-items:center;gap:.5rem}
+
+
+
+
+
+/* ════════════════════════════════════
+   THEME VARIABLES
+   Light: Medium grey scale palette
+   Dark: Forest green palette
+   ════════════════════════════════════ */
+:root {
+  --bg:#FAFAFA;--bg2:#F5F5F5;--bg3:#EEEEEE;
+  --t1:#212121;--t2:#424242;--t3:#757575;
+  --bd:rgba(0,0,0,0.10);--bds:rgba(0,0,0,0.22);
+  --r1:8px;--r2:12px;
+  --fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  --teal:#4e9836;--teal-bg:#eaf3e5;--teal-t:#3c7b20;
+  --blue:#3a7878;--blue-bg:#e5f0f0;
+  --amber:#8a6f00;--amber-bg:#f5f0db;--amber-t:#6b5500;
+  --red:#993c1d;--red-bg:#faece7;--red-t:#993c1d;
+  --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
+}
+@media(prefers-color-scheme:dark){
+  :root{
+    --bg:#1c2018;--bg2:#242b1e;--bg3:#18201a;
+    --t1:#f0ede0;--t2:#c0c4a8;--t3:#9dc8c8;
+    --bd:rgba(157,200,200,0.15);--bds:rgba(157,200,200,0.28);
+    --teal-bg:#2a3d22;--teal-t:#8fc87a;
+    --blue-bg:#1e3535;--amber-bg:#3d3510;--amber-t:#d4c47a;
+    --red-bg:#3d1510;--red-t:#f5a490;
+    --purple-bg:#2d2563;--purple-t:#b5abfa;
+  }
+}
+html.dark{
+  --bg:#1c2018;--bg2:#242b1e;--bg3:#18201a;
+  --t1:#f0ede0;--t2:#c0c4a8;--t3:#9dc8c8;
+  --bd:rgba(157,200,200,0.15);--bds:rgba(157,200,200,0.28);
+  --teal-bg:#2a3d22;--teal-t:#8fc87a;
+  --blue-bg:#1e3535;--amber-bg:#3d3510;--amber-t:#d4c47a;
+  --red-bg:#3d1510;--red-t:#f5a490;
+  --purple-bg:#2d2563;--purple-t:#b5abfa;
+}
+html:not(.dark){
+  --bg:#FAFAFA;--bg2:#F5F5F5;--bg3:#EEEEEE;
+  --t1:#212121;--t2:#424242;--t3:#757575;
+  --bd:rgba(0,0,0,0.10);--bds:rgba(0,0,0,0.22);
+  --teal-bg:#eaf3e5;--teal-t:#3c7b20;
+  --blue-bg:#e5f0f0;--amber-bg:#f5f0db;--amber-t:#6b5500;
+  --red-bg:#faece7;--red-t:#993c1d;
+  --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
+}
+
+/* Professor guide collapsible sections (same as ref-guide) */
+.ref-guide{display:flex;flex-direction:column;gap:.6rem;margin-bottom:1.5rem}
+.ref-guide-section{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);overflow:hidden}
+.ref-guide-heading{font-size:11px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--teal-t);background:var(--teal-bg);padding:.55rem 1rem;cursor:pointer;display:flex;justify-content:space-between;align-items:center;user-select:none}
+.ref-guide-heading:hover{background:var(--bg3)}
+.ref-guide-arrow{font-size:10px;color:var(--t3);transition:transform .2s;display:inline-block}
+.ref-guide-section.open .ref-guide-arrow{transform:rotate(90deg)}
+.ref-guide-body{display:none;padding:.75rem 1rem;font-size:13px;color:var(--t2);line-height:1.65;border-top:.5px solid var(--bd)}
+.ref-guide-section.open .ref-guide-body{display:block}
+.ref-guide-body p{margin:0 0 .6rem}
+.ref-guide-body p:last-child{margin-bottom:0}
+.ref-guide-body ul{margin:.3rem 0 .6rem 1.1rem;padding:0}
+.ref-guide-body ul:last-child{margin-bottom:0}
+.ref-guide-body li{margin-bottom:.35rem}
+.ref-guide-body strong{color:var(--t1);font-weight:600}
+
+/* ── Interaction log ── */
+.log-section{margin-top:.65rem;padding-top:.6rem;border-top:.5px solid var(--bd)}
+.log-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:.4rem}
+.log-title{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--t3)}
+.log-add-btn{font-size:11px;font-weight:500;padding:3px 10px;border-radius:999px;border:1px solid var(--teal);background:transparent;color:var(--teal-t);cursor:pointer;font-family:var(--fn)}
+.log-add-btn:hover{background:var(--teal-bg)}
+.log-empty{font-size:12px;color:var(--t3);font-style:italic;padding:.2rem 0 .35rem}
+.log-entry{display:flex;align-items:flex-start;gap:.5rem;padding:.4rem 0;border-bottom:.5px solid var(--bd)}
+.log-entry:last-child{border-bottom:none}
+.log-date{font-size:11px;color:var(--t3);white-space:nowrap;padding-top:2px;min-width:72px}
+.log-type-pill{font-size:10px;font-weight:600;padding:2px 7px;border-radius:999px;white-space:nowrap;flex-shrink:0}
+.lt-email{background:var(--blue-bg);color:var(--blue)}
+.lt-reply{background:var(--teal-bg);color:var(--teal-t)}
+.lt-call{background:var(--amber-bg);color:var(--amber-t)}
+.lt-followup{background:var(--purple-bg);color:var(--purple-t)}
+.lt-inperson{background:var(--red-bg);color:var(--red-t)}
+.lt-other{background:var(--bg2);color:var(--t2);border:.5px solid var(--bd)}
+.log-text{font-size:12px;color:var(--t2);line-height:1.5;flex:1;min-width:0}
+.log-del{font-size:11px;color:var(--t3);background:none;border:none;cursor:pointer;padding:1px 4px;font-family:var(--fn);flex-shrink:0}
+.log-del:hover{color:#c0392b}
+.log-form{margin-top:.5rem;padding:.6rem .75rem;background:var(--bg2);border-radius:var(--r1);border:.5px solid var(--bd)}
+.log-form-row{display:flex;gap:.45rem;flex-wrap:wrap;margin-bottom:.45rem;align-items:center}
+.log-form-select,.log-form-date{font-size:12px;padding:5px 8px;border-radius:var(--r1);border:1px solid var(--bds);background:var(--bg);color:var(--t1);font-family:var(--fn);cursor:pointer}
+.log-form-select:focus,.log-form-date:focus{outline:none;border-color:var(--teal)}
+.log-form-input{flex:1;font-size:12px;padding:5px 8px;border-radius:var(--r1);border:1px solid var(--bds);background:var(--bg);color:var(--t1);font-family:var(--fn);min-width:180px}
+.log-form-input:focus{outline:none;border-color:var(--teal)}
+.log-save-btn{font-size:12px;font-weight:500;padding:4px 14px;border-radius:999px;border:none;background:var(--teal);color:#fff;cursor:pointer;font-family:var(--fn)}
+.log-cancel-btn{font-size:12px;padding:4px 10px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn)}
+</style>
+<script src="site.js?v=20260518e"></script>
+<script>
+(function(){
+  var saved=localStorage.getItem('erin_theme');
+  var prefersDark=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches;
+  if(saved==='dark'||(!saved&&prefersDark)) document.documentElement.classList.add('dark');
+  function upBtn(){var b=document.getElementById('theme-toggle');if(b)b.innerHTML=document.documentElement.classList.contains('dark')?'&#9728;':'&#127769;';}
+  document.addEventListener('DOMContentLoaded',upBtn);
+  window.__toggleTheme=function(){var d=document.documentElement.classList.toggle('dark');localStorage.setItem('erin_theme',d?'dark':'light');upBtn();};
+})();
+</script>
+</head>
+<body>
+
+<!-- GLOBAL NAV -->
+<nav class="global-nav">
+  <div class="gnav-wrap">
+    <div class="gnav-inner">
+      <a href="index.html" class="gnav-home">&#127968; Home</a>
+      <a href="erin_search.html" class="gnav-link">&#128269; Search</a>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-track">Track</span>
+        <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
+        <a href="erin_compare.html" class="gnav-link">&#9878; Compare</a>
+        <a href="erin_pipeline.html" class="gnav-link">&#128202; Pipeline</a>
+        <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
+        <a href="erin_applications.html" class="gnav-link">&#128196; Apps</a>
+        <a href="erin_proftracker.html" class="gnav-link">&#128100; Profs</a>
+        <a href="erin_reftracker.html" class="gnav-link">&#128393; Refs</a>
+        <a href="erin_archive.html" class="gnav-link">&#128193; Archive</a>
+      </div>
+      <span class="gnav-divider gnav-break"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-browse">Browse</span>
+        <a href="erin_programs.html" class="gnav-link">&#127979; Programs</a>
+        <a href="erin_internships.html" class="gnav-link">&#128203; Internships</a>
+        <a href="erin_jobs.html" class="gnav-link">&#128188; Jobs</a>
+        <a href="erin_service.html" class="gnav-link">&#127807; Service</a>
+      </div>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-write">Write</span>
+        <a href="erin_materials.html" class="gnav-link">&#128218; Materials</a>
+        <a href="erin_writing_samples.html" class="gnav-link">&#9997; Writing</a>
+        <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
+        <a href="erin_packet.html" class="gnav-link">&#128424; Packet</a>
+      </div>
+    </div>
+    <button class="gnav-toggle" id="theme-toggle" onclick="__toggleTheme()" title="Toggle dark/light mode">&#127769;</button>
+  </div>
+</nav>
+
+<div class="page">
+  
+<div class="page-header">
+  <div class="page-header-eyebrow">What's Next for Erin</div>
+  <div class="page-header-title">Professor Contact Tracker</div>
+  <div class="page-header-sub">Track faculty outreach — who you emailed, when, and what happened &mdash; <span id="prof-count" style="color:var(--teal-t);font-weight:500"></span></div>
+</div>
+<div class="tip">&#9997;&#65039;&nbsp; Populated from your saved <strong>graduate programs</strong> in My List. Track who you&rsquo;ve emailed, when, and what happened. Direct professor outreach before applications open is the highest-leverage activity in grad school applications.</div>
+
+<div class="ref-guide" style="margin-top:.85rem">
+
+  <div class="ref-guide-section">
+    <div class="ref-guide-heading"><span>&#128200; Why professor outreach works &mdash; and when to do it</span><span class="ref-guide-arrow">&#9654;</span></div>
+    <div class="ref-guide-body">
+      <p>Most funded MS and PhD positions are filled <strong>before applications open</strong>. A professor who knows your name and has seen your CV will advocate for you internally in ways a cold application never can. Direct outreach is how most grad students actually get funded positions &mdash; not through the formal application alone.</p>
+      <ul>
+        <li><strong>August&ndash;October 2026</strong> is the ideal window &mdash; faculty are back from summer fieldwork, haven&rsquo;t yet committed spots, and the fall application rush hasn&rsquo;t started.</li>
+        <li>A professor who replies positively is essentially pre-approving your application. That changes your odds dramatically.</li>
+        <li>Even a &ldquo;not taking students this cycle&rdquo; reply is useful &mdash; it tells you to redirect effort and saves you application fees.</li>
+        <li>Professors who don&rsquo;t reply after two emails are probably not taking students. Move on &mdash; don&rsquo;t send a third.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="ref-guide-section">
+    <div class="ref-guide-heading"><span>&#9993; What to say in a first email</span><span class="ref-guide-arrow">&#9654;</span></div>
+    <div class="ref-guide-body">
+      <p>Keep it to 4&ndash;5 short paragraphs. A faculty inbox is not the place for a cover letter. The goal is a reply, not to tell them everything.</p>
+      <ul>
+        <li><strong>Paragraph 1 &mdash; Who you are and why you&rsquo;re emailing:</strong> &ldquo;I&rsquo;m a recent BS graduate in Environmental Science from Western Carolina University (May 2025, Magna Cum Laude) and am writing to inquire about MS opportunities in your lab for Fall 2027.&rdquo;</li>
+        <li><strong>Paragraph 2 &mdash; Show you know their work:</strong> Be specific. Name a paper, a project, a dataset. &ldquo;Your research on [specific topic] is directly relevant to my interests because&hellip;&rdquo; Generic interest statements are immediately obvious and ignored.</li>
+        <li><strong>Paragraph 3 &mdash; Your strongest credential:</strong> Lead with the Pigeon River capstone &mdash; Hurricane Helene, trace metal contamination, field sampling, GIS. This is a genuinely compelling research story and directly relevant to most environmental science labs.</li>
+        <li><strong>Paragraph 4 &mdash; The ask:</strong> &ldquo;Are you expecting to take on MS students for Fall 2027? I would welcome the opportunity to discuss potential research directions and funding availability.&rdquo;</li>
+        <li><strong>Close:</strong> &ldquo;I have attached my CV and would be happy to share writing samples or unofficial transcripts.&rdquo; Then sign off.</li>
+      </ul>
+      <p style="font-size:12px;color:var(--t3)">Use the &#9889; Email Generator on the Outreach page to auto-fill a template for any saved program.</p>
+    </div>
+  </div>
+
+  <div class="ref-guide-section">
+    <div class="ref-guide-heading"><span>&#128197; Follow-up timing</span><span class="ref-guide-arrow">&#9654;</span></div>
+    <div class="ref-guide-body">
+      <ul>
+        <li><strong>No reply after 2&ndash;3 weeks:</strong> Send one follow-up. Keep it brief &mdash; &ldquo;I wanted to follow up on my email from [date] regarding MS opportunities in your lab. I remain very interested and am happy to provide any additional materials.&rdquo;</li>
+        <li><strong>No reply after follow-up:</strong> Mark as &ldquo;No response&rdquo; and move on. Professors who want to take students reply.</li>
+        <li><strong>After a positive reply:</strong> Respond within 24 hours. Thank them, answer any questions, and ask what they recommend for next steps. If they suggest a call, say yes.</li>
+        <li><strong>After a call or video meeting:</strong> Send a thank-you email within 24 hours. Reference something specific they said. This is the &ldquo;confirmed pursuing&rdquo; stage &mdash; update your tracker accordingly.</li>
+        <li><strong>During application season:</strong> Let them know when you&rsquo;ve submitted your application and reference their name/lab in your SOP. Keep them in the loop without being annoying.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="ref-guide-section">
+    <div class="ref-guide-heading"><span>&#128161; Erin-specific strategy</span><span class="ref-guide-arrow">&#9654;</span></div>
+    <div class="ref-guide-body">
+      <ul>
+        <li><strong>NC State / Dr. Jodi Forrester</strong> is the top priority &mdash; lead with Hurricane Helene forest recovery and the Pigeon River basin geography. This is Erin&rsquo;s single strongest institutional fit. Email in August 2026 regardless of whether a posted position is still open.</li>
+        <li><strong>Contaminated sites programs</strong> (Oklahoma State, U Arkansas): emphasize the trace metal contamination angle of the capstone and GEOL 423 (Contaminated Rivers). These labs are looking for exactly this background.</li>
+        <li><strong>Wetland programs</strong> (LSU WABL, CSU, MSU): lead with GEOL 455, wetland delineation fieldwork, and ENVH 310 water quality.</li>
+        <li><strong>Before emailing</strong> any professor: read at least one of their recent papers. It takes 20 minutes and completely changes the quality of the email &mdash; and whether they reply.</li>
+        <li><strong>Subject line matters:</strong> &ldquo;Prospective MS Student &mdash; [Their Research Topic]&rdquo; outperforms &ldquo;Graduate School Inquiry&rdquo; significantly. Be specific.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="ref-guide-section">
+    <div class="ref-guide-heading"><span>&#9888; Common mistakes to avoid</span><span class="ref-guide-arrow">&#9654;</span></div>
+    <div class="ref-guide-body">
+      <ul>
+        <li><strong>Generic emails:</strong> &ldquo;I am interested in your research&rdquo; with no specifics. Faculty delete these immediately.</li>
+        <li><strong>Emailing professors who aren&rsquo;t taking students:</strong> Check lab websites for &ldquo;not accepting students&rdquo; notices before emailing. Saves time.</li>
+        <li><strong>Asking about funding in the first email:</strong> Establish interest first. Funding comes up naturally once there&rsquo;s a dialogue.</li>
+        <li><strong>Sending the same email to multiple professors at once:</strong> They can tell. Personalize each one, even if only the middle paragraph changes.</li>
+        <li><strong>Attaching a 20-page document:</strong> Attach a 1&ndash;2 page CV only. Offer other materials if they want them.</li>
+        <li><strong>Giving up after one no-reply:</strong> Send one follow-up, then decide. Professors are busy &mdash; sometimes a second email at a better moment gets a reply.</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+  <div id="followup-alerts"></div>
+
+  <div class="summary-row" id="summary-row"></div>
+
+  <button class="add-btn" onclick="addCard('')">&#43; Add program manually</button>
+
+  <button onclick="window.print()" style="font-size:12px;font-weight:500;padding:5px 12px;border:.5px solid var(--bds);border-radius:6px;background:var(--bg2);color:var(--t2);cursor:pointer;font-family:var(--fn);display:flex;align-items:center;gap:5px">&#128438; Print / Export</button>
+<div id="prof-body"></div>
+
+  <p class="footer">Data drawn from your saved opportunities in My List.<br><br>
+    <a href="erin_mylist.html">&#8592; My List</a>&nbsp;&nbsp;<a href="index.html">&#8592; Home</a></p>
+</div>
+
+<script>
+var BIN='6a039aa4250b1311c33f2bac',KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa',STORE='erin_mylist_v1';
+function load(){try{return JSON.parse(localStorage.getItem(STORE)||'{}')}catch(e){return {}}}
+function getSavedItems(){var m=load();return Object.values(m).filter(function(it){return!it._done||true});}
+
+var PSTORE = 'erin_prof_contacts';
+function loadProfs(){ try{ return JSON.parse(localStorage.getItem(PSTORE)||'[]'); } catch(e){ return []; } }
+function saveProfs(arr){ localStorage.setItem(PSTORE,JSON.stringify(arr)); }
+
+// Primary-device gate — only Erin's laptop writes to cloud. Defined locally so this
+// page doesn't depend on another page having loaded first.
+var PRIMARY_KEY='erin_primary_device';
+function isPrimary(){ return localStorage.getItem(PRIMARY_KEY)==='1'; }
+
+
+function pushProfs(arr){
+  if(!isPrimary()) return; // Only primary device writes to cloud
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+  .then(function(r){return r.json();})
+  .then(function(data){
+    var rec=data.record||{};
+    rec.profs=arr;
+    fetch('https://api.jsonbin.io/v3/b/'+BIN,{
+      method:'PUT',
+      headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},
+      body:JSON.stringify(rec)
+    });
+  }).catch(function(){});
+}
+
+
+
+function pullProfs(){
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+  .then(function(r){return r.json();})
+  .then(function(data){
+    if(data.record && data.record.profs){ saveProfs(data.record.profs); }
+    render();
+  }).catch(function(){ render(); });
+}
+
+
+/* ── Interaction log helpers ── */
+var LOG_TYPES=[
+  {v:'email',l:'Email sent'},
+  {v:'reply',l:'Reply received'},
+  {v:'call',l:'Call / Zoom'},
+  {v:'followup',l:'Follow-up sent'},
+  {v:'inperson',l:'In person'},
+  {v:'other',l:'Other'}
+];
+function logPillCls(t){return{email:'lt-email',reply:'lt-reply',call:'lt-call',followup:'lt-followup',inperson:'lt-inperson',other:'lt-other'}[t]||'lt-other';}
+function logTypeLabel(t){var x=LOG_TYPES.find(function(o){return o.v===t;});return x?x.l:'Other';}
+
+function deleteLogEntry(profId,entryId){
+  var arr=loadProfs();
+  var prof=arr.find(function(p){return p.id===profId;});
+  if(!prof||!prof.log) return;
+  prof.log=prof.log.filter(function(e){return e.id!==entryId;});
+  saveProfs(arr); pushProfs(arr);
+}
+
+function makeLogEntryEl(profId,entry,listEl,titleEl,logArr){
+  var row=document.createElement('div'); row.className='log-entry'; row.id='le-'+entry.id;
+  var date=document.createElement('span'); date.className='log-date'; date.textContent=(entry.date||'').slice(0,10);
+  var pill=document.createElement('span'); pill.className='log-type-pill '+logPillCls(entry.type); pill.textContent=logTypeLabel(entry.type);
+  var txt=document.createElement('span'); txt.className='log-text'; txt.textContent=entry.text||'';
+  var del=document.createElement('button'); del.type='button'; del.className='log-del'; del.textContent='✕'; del.title='Delete entry';
+  del.onclick=(function(pid,eid){return function(){
+    if(!confirm('Delete this log entry?')) return;
+    deleteLogEntry(pid,eid);
+    var el=document.getElementById('le-'+eid); if(el) el.remove();
+    var arr=loadProfs(); var prof=arr.find(function(p){return p.id===pid;});
+    if(titleEl) titleEl.textContent='Interaction log'+(prof&&prof.log&&prof.log.length?' ('+prof.log.length+')':'');
+    var empty=listEl.querySelector('.log-empty');
+    if(listEl.querySelectorAll('.log-entry').length===0&&!empty){
+      var e=document.createElement('div'); e.className='log-empty'; e.textContent='No entries yet.'; listEl.appendChild(e);
+    }
+  };})(profId,entry.id);
+  row.appendChild(date); row.appendChild(pill); row.appendChild(txt); row.appendChild(del);
+  return row;
+}
+
+function makeLogForm(profId,listEl,titleEl){
+  var form=document.createElement('div'); form.className='log-form';
+  var row1=document.createElement('div'); row1.className='log-form-row';
+  var sel=document.createElement('select'); sel.className='log-form-select';
+  LOG_TYPES.forEach(function(t){ var o=document.createElement('option'); o.value=t.v; o.textContent=t.l; sel.appendChild(o); });
+  var dateInp=document.createElement('input'); dateInp.type='date'; dateInp.className='log-form-date';
+  dateInp.value=new Date().toISOString().slice(0,10);
+  var textInp=document.createElement('input'); textInp.type='text'; textInp.className='log-form-input';
+  textInp.placeholder='Brief note (e.g. "Replied positively — lab has openings for Fall 2027")';
+  row1.appendChild(sel); row1.appendChild(dateInp); row1.appendChild(textInp);
+  form.appendChild(row1);
+  var btnRow=document.createElement('div'); btnRow.style.cssText='display:flex;gap:.45rem';
+  var saveBtn=document.createElement('button'); saveBtn.type='button'; saveBtn.className='log-save-btn'; saveBtn.textContent='Add entry';
+  saveBtn.onclick=function(){
+    var arr=loadProfs();
+    var prof=arr.find(function(p){return p.id===profId;});
+    if(!prof) return;
+    if(!prof.log) prof.log=[];
+    var entry={id:'log-'+Date.now()+'-'+Math.random().toString(36).slice(2,5),date:dateInp.value,type:sel.value,text:textInp.value.trim()};
+    prof.log.push(entry);
+    saveProfs(arr); pushProfs(arr);
+    var empty=listEl.querySelector('.log-empty'); if(empty) empty.remove();
+    listEl.insertBefore(makeLogEntryEl(profId,entry,listEl,titleEl,prof.log),listEl.firstChild);
+    if(titleEl) titleEl.textContent='Interaction log ('+prof.log.length+')';
+    textInp.value=''; dateInp.value=new Date().toISOString().slice(0,10);
+    form.style.display='none';
+  };
+  var cancelBtn=document.createElement('button'); cancelBtn.type='button'; cancelBtn.className='log-cancel-btn'; cancelBtn.textContent='Cancel';
+  cancelBtn.onclick=function(){ form.style.display='none'; };
+  btnRow.appendChild(saveBtn); btnRow.appendChild(cancelBtn);
+  form.appendChild(btnRow);
+  return form;
+}
+
+function statusPillClass(s){
+  return {none:'sp-none',contacted:'sp-contacted',responded:'sp-responded',pursuing:'sp-pursuing',notfit:'sp-notfit'}[s]||'sp-none';
+}
+function statusLabel(s){
+  return {none:'Not contacted',contacted:'Contacted',responded:'Responded',pursuing:'Pursuing',notfit:'Not a fit'}[s]||'Not contacted';
+}
+
+function daysSince(dateStr){
+  if(!dateStr) return null;
+  var d=new Date(dateStr);
+  if(isNaN(d)) return null;
+  return Math.floor((new Date()-d)/864e5);
+}
+
+function saveCard(id){
+  var arr=loadProfs();
+  var idx=arr.findIndex(function(p){return p.id===id;});
+  if(idx<0) return;
+  arr[idx].professor = document.getElementById('pf-'+id).value;
+  arr[idx].email = document.getElementById('pe-'+id).value;
+  arr[idx].dateEmailed = document.getElementById('pd-'+id).value;
+  arr[idx].status = document.getElementById('ps-'+id).value;
+  arr[idx].notes = document.getElementById('pn-'+id).value;
+  saveProfs(arr);
+  pushProfs(arr);
+  var fl=document.getElementById('pfl-'+id); fl.style.display='inline'; setTimeout(function(){fl.style.display='none';},2000);
+  updateSummary();
+  updateCardClass(id, arr[idx].status);
+  renderFollowUpAlerts();
+}
+
+function updateCardClass(id, status){
+  var card = document.getElementById('pcard-'+id);
+  if(!card) return;
+  card.className = 'prof-card' + (status&&status!=='none'?' '+status:'');
+}
+
+function deleteCard(id){
+  if(!confirm('Remove this professor contact?')) return;
+  var arr=loadProfs().filter(function(p){return p.id!==id;});
+  saveProfs(arr); pushProfs(arr); render();
+}
+
+function addCard(prefill){
+  var arr=loadProfs();
+  var id='p'+Date.now();
+  arr.push({id:id, programTitle:prefill||'', org:'', itemUrl:'', itemSrc:'', professor:'', email:'', dateEmailed:'', status:'none', notes:''});
+  saveProfs(arr); render();
+  setTimeout(function(){ var el=document.getElementById('pcard-'+id); if(el)el.scrollIntoView({behavior:'smooth',block:'center'}); },100);
+}
+
+function updateSummary(){
+  var arr=loadProfs();
+  var counts={none:0,contacted:0,responded:0,pursuing:0,notfit:0};
+  arr.forEach(function(p){ counts[p.status||'none']++; });
+  var row=document.getElementById('summary-row'); row.innerHTML='';
+  var labels={contacted:'Contacted',responded:'Responded',pursuing:'Pursuing',notfit:'Not a fit',none:'Not yet contacted'};
+  Object.keys(labels).forEach(function(k){
+    if(counts[k]>0){
+      var pill=document.createElement('span'); pill.className='sum-pill';
+      pill.textContent=counts[k]+' '+labels[k]; row.appendChild(pill);
+    }
+  });
+}
+
+function renderFollowUpAlerts(){
+  var arr=loadProfs();
+  var alerts=document.getElementById('followup-alerts'); alerts.innerHTML='';
+  var overdue=arr.filter(function(p){
+    return p.status==='contacted' && p.dateEmailed && daysSince(p.dateEmailed)>=14;
+  });
+  if(!overdue.length) return;
+  var strip=document.createElement('div'); strip.className='followup-strip';
+  strip.innerHTML='&#9203;&nbsp;<strong>'+overdue.length+' follow-up'+(overdue.length>1?'s':'')+' overdue</strong> — emailed 14+ days ago with no response recorded: '+
+    overdue.map(function(p){return p.professor||(p.programTitle?p.programTitle.split('—')[0].trim().slice(0,30):'Unknown');}).join(', ');
+  alerts.appendChild(strip);
+}
+
+function render(){
+  var saved = getSavedItems().filter(function(it){ return it.type==='Graduate Program'; });
+  var arr = loadProfs();
+
+  saved.forEach(function(it){
+    var exists = arr.find(function(p){ return p.programTitle===it.title; });
+    if(!exists){
+      arr.push({id:'p'+Math.random().toString(36).slice(2), programTitle:it.title, org:it.org||'', itemUrl:it.url||'', itemSrc:it.src||'', professor:'', email:'', dateEmailed:'', status:'none', notes:''});
+    }
+  });
+
+  saveProfs(arr);
+  document.getElementById('prof-count').textContent = arr.length + ' program' + (arr.length===1?'':'s') + ' tracked';
+  updateSummary();
+  renderFollowUpAlerts();
+
+  var body=document.getElementById('prof-body'); body.innerHTML='';
+
+  if(!arr.length){
+    body.innerHTML='<div class="empty"><div class="empty-icon">&#128100;</div><div class="empty-title">No programs tracked yet</div><div class="empty-body">Save graduate programs to My List and they will appear here automatically.</div></div>';
+    return;
+  }
+
+  var order={pursuing:0,contacted:1,responded:2,none:3,notfit:4};
+  arr.sort(function(a,b){ return (order[a.status||'none']||3)-(order[b.status||'none']||3); });
+
+  arr.forEach(function(p){
+    var card=document.createElement('div');
+    card.className='prof-card'+(p.status&&p.status!=='none'?' '+p.status:'');
+    card.id='pcard-'+p.id;
+
+    var header=document.createElement('div'); header.className='prof-header';
+    var left=document.createElement('div');
+
+    var titleRow=document.createElement('div'); titleRow.style.cssText='display:flex;align-items:center;flex-wrap:wrap;gap:4px';
+    var title=document.createElement('div'); title.className='prof-title'; title.textContent=p.programTitle||'New program'; titleRow.appendChild(title);
+
+    // Follow-up badge inline on card
+    var ds=daysSince(p.dateEmailed);
+    if(p.status==='contacted' && ds!==null && ds>=14){
+      var fb=document.createElement('span'); fb.className='followup-badge'; fb.textContent='Follow up! ('+ds+'d ago)'; titleRow.appendChild(fb);
+    }
+
+    left.appendChild(titleRow);
+    // Opportunity links
+    if(p.itemUrl||p.itemSrc||p.org){
+      var lnkRow=document.createElement('div'); lnkRow.style.cssText='display:flex;gap:6px;flex-wrap:wrap;margin-top:3px;align-items:center';
+      if(p.org){ var og=document.createElement('span'); og.style.cssText='font-size:11px;color:var(--t3);margin-right:4px'; og.textContent=p.org; lnkRow.appendChild(og); }
+      if(p.itemUrl){ var ul=document.createElement('a'); ul.href=p.itemUrl; ul.target='_blank'; ul.className='opp-link'; ul.innerHTML='&#128279; Posting'; lnkRow.appendChild(ul); }
+      if(p.itemSrc){ var sl=document.createElement('a'); sl.href=p.itemSrc; sl.target='_blank'; sl.className='opp-link opp-link-sec'; sl.innerHTML='&#128203; In site'; lnkRow.appendChild(sl); }
+      left.appendChild(lnkRow);
+    }
+    // Show linked applications — clickable, deep-link into the Applications page
+    try{
+      var apps=JSON.parse(localStorage.getItem('erin_applications_v1')||'[]');
+      var linked=apps.filter(function(a){return a.professor===p.id;});
+      if(linked.length){
+        var appRow=document.createElement('div'); appRow.style.cssText='display:flex;flex-wrap:wrap;gap:5px;margin-top:4px;align-items:center';
+        var appLbl=document.createElement('span'); appLbl.style.cssText='font-size:10px;font-weight:600;color:var(--t3);text-transform:uppercase;letter-spacing:.06em;margin-right:3px'; appLbl.textContent='Applications:'; appRow.appendChild(appLbl);
+        linked.forEach(function(a){
+          var tag=document.createElement('a');
+          tag.href='erin_applications.html#acard-'+a.id;
+          tag.style.cssText='font-size:11px;padding:2px 8px;border-radius:999px;background:var(--blue-bg);color:var(--blue);text-decoration:none;font-weight:500';
+          tag.textContent=(a.programTitle||'').split('—')[0].trim().slice(0,35);
+          appRow.appendChild(tag);
+        });
+        left.appendChild(appRow);
+      }
+    }catch(e){}
+    header.appendChild(left);
+
+    var sp=document.createElement('span'); sp.className='status-pill '+statusPillClass(p.status||'none'); sp.id='spl-'+p.id; sp.textContent=statusLabel(p.status||'none');
+    header.appendChild(sp);
+    card.appendChild(header);
+
+    var row=document.createElement('div'); row.className='prof-row';
+
+    function field(lbl, id, val, type){
+      var f=document.createElement('div'); f.className='prof-field';
+      var l=document.createElement('div'); l.className='prof-lbl'; l.textContent=lbl; f.appendChild(l);
+      var inp=document.createElement('input'); inp.className='prof-input'; inp.id=id; inp.value=val||''; inp.placeholder=lbl;
+      if(type==='date') inp.type='date';
+      f.appendChild(inp);
+      return f;
+    }
+
+    row.appendChild(field('Professor name','pf-'+p.id,p.professor));
+    row.appendChild(field('Email address','pe-'+p.id,p.email));
+    row.appendChild(field('Date emailed','pd-'+p.id,p.dateEmailed,'date'));
+
+    var sf=document.createElement('div'); sf.className='prof-field';
+    var sl=document.createElement('div'); sl.className='prof-lbl'; sl.textContent='Status'; sf.appendChild(sl);
+    var sel=document.createElement('select'); sel.className='prof-select'; sel.id='ps-'+p.id;
+    [{v:'none',l:'Not contacted'},{v:'contacted',l:'Contacted'},{v:'responded',l:'Responded'},{v:'pursuing',l:'Pursuing'},{v:'notfit',l:'Not a fit'}].forEach(function(o){
+      var opt=document.createElement('option'); opt.value=o.v; opt.textContent=o.l; if(p.status===o.v) opt.selected=true; sel.appendChild(opt);
+    });
+    sel.onchange=function(){
+      var s=sel.value;
+      document.getElementById('spl-'+p.id).textContent=statusLabel(s);
+      document.getElementById('spl-'+p.id).className='status-pill '+statusPillClass(s);
+    };
+    card.appendChild(acts);
+
+    // ── Interaction log section ──
+    var logSec=document.createElement('div'); logSec.className='log-section';
+    var logHdr=document.createElement('div'); logHdr.className='log-header';
+    var logTitle=document.createElement('span'); logTitle.className='log-title';
+    var logArr=p.log||[];
+    logTitle.textContent='Interaction log'+(logArr.length?' ('+logArr.length+')':'');
+    var logAddBtn=document.createElement('button'); logAddBtn.type='button'; logAddBtn.className='log-add-btn'; logAddBtn.textContent='+ Add entry';
+    logHdr.appendChild(logTitle); logHdr.appendChild(logAddBtn); logSec.appendChild(logHdr);
+    var logList=document.createElement('div');
+    if(!logArr.length){ var emptyEl=document.createElement('div'); emptyEl.className='log-empty'; emptyEl.textContent='No entries yet.'; logList.appendChild(emptyEl); }
+    else { logArr.slice().reverse().forEach(function(entry){ logList.appendChild(makeLogEntryEl(p.id,entry,logList,logTitle,logArr)); }); }
+    logSec.appendChild(logList);
+    var logForm=makeLogForm(p.id,logList,logTitle); logForm.style.display='none';
+    logSec.appendChild(logForm);
+    logAddBtn.onclick=function(){ logForm.style.display=logForm.style.display==='none'?'block':'none'; };
+    card.appendChild(logSec);
+
+    body.appendChild(card);
+  });
+}
+
+// ── Hash-based deep link: scroll to and highlight a specific prof card on arrival ──
+function scrollToHash(){
+  var hash=window.location.hash;
+  if(!hash) return;
+  var el=document.querySelector(hash);
+  if(!el) return;
+  setTimeout(function(){
+    el.scrollIntoView({behavior:'smooth',block:'center'});
+    var prev=el.style.boxShadow;
+    el.style.transition='box-shadow .35s';
+    el.style.boxShadow='0 0 0 3px var(--teal)';
+    setTimeout(function(){ el.style.boxShadow=prev||''; },1800);
+  },150);
+}
+var _origProfRender=render;
+render=function(){ _origProfRender.apply(this,arguments); scrollToHash(); };
+window.addEventListener('hashchange', scrollToHash);
+
+// JSONbin-first init: primary heartbeat-pushes to cloud; secondary always pulls
+if(isPrimary()){
+  var _arr=loadProfs();
+  render();
+  if(_arr.length>0){ pushProfs(_arr); } // heartbeat: keep JSONbin current
+  else { pullProfs(); }                  // recovery: localStorage empty, restore from cloud
+} else {
+  pullProfs(); // secondary: always read from cloud
+}
+
+// Professor guide collapsible sections
+document.querySelectorAll('.ref-guide-heading').forEach(function(hdr){
+  hdr.addEventListener('click', function(){
+    hdr.parentElement.classList.toggle('open');
+  });
+});
+
+</script>
+
+<script>
+/* ── Kept for compatibility — actual sync now handled by site.js ── */
+(function(){
+  function fmtAgo(ts){
+    if(!ts) return 'never';
+    var s=Math.floor((Date.now()-ts)/1000);
+    if(s<5) return 'just now';
+    if(s<60) return s+'s ago';
+    var m=Math.floor(s/60); if(m<60) return m+'m ago';
+    var h=Math.floor(m/60); if(h<24) return h+'h ago';
+    return Math.floor(h/24)+'d ago';
+  }
+  function render(){
+    var el=document.getElementById('gnav-sync'); if(!el) return;
+    var ts=parseInt(localStorage.getItem('erin_last_sync')||'0',10);
+    el.textContent = ts ? '✓ Synced '+fmtAgo(ts) : '— not synced';
+  }
+  function setup(){
+    var wrap=document.querySelector('.gnav-wrap');
+    if(!wrap || document.getElementById('gnav-sync')) return;
+    var span=document.createElement('span');
+    span.id='gnav-sync'; span.className='gnav-sync'; span.title='Last cloud sync';
+    span.style.cssText='font-size:10px;color:var(--t3);padding:3px 8px;background:var(--bg2);border-radius:4px;white-space:nowrap;flex-shrink:0;margin-left:10px;border:.5px solid var(--bd);align-self:center;min-width:118px;text-align:center;box-sizing:border-box';
+    var tog=document.getElementById('theme-toggle');if(tog&&tog.parentNode===wrap)wrap.insertBefore(span,tog);else wrap.appendChild(span);
+    render();
+    setInterval(render,30000);
+    window.addEventListener('erin-sync', render);
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',setup);
+  else setup();
+})();
+</script>
+</body>
+</html>
