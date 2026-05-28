@@ -6,7 +6,7 @@
     "cat": "Funded Graduate Programs",
     "src": "erin_programs.html",
     "src_label": "Funded Graduate Programs",
-    "deadline": "May 15, 2026 — URGENT",
+    "deadline": "May 15, 2026 deadline passed — next cycle ~May 2027",
     "start": "May 27–June 5, 2026",
     "body": "Two fully funded MS assistantships — Neosho River Watershed, Oklahoma. Tar Creek Superfund Site contamination context. Position 1: Ecology/Rangeland — wildlife habitat, species of conservation need. Position 2: Hydrology/GIS — site suitability modeling, flood mitigation. Full stipend + tuition waiver + health insurance. Advisors: Dr. Scott Stoodley & Dr. Jaime Schussler. Email: esgp@okstate.edu",
     "badge": "Exceptional fit — URGENT, deadline May 15",
@@ -21,11 +21,11 @@
     "metaLine": "Start: May 27–June 5, 2026  ·  Funding: Full stipend + tuition waiver + health insurance",
     "status": {
       "kind": "s-updated",
-      "label": "✨ New — May 16, 2026"
+      "label": "✨ Updated — May 28, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_date": "2026-05-15",
-    "deadline_kind": "fixed",
+    "deadline_kind": "passed",
     "region": "Southwest"
   },
   {
@@ -4117,7 +4117,7 @@
     "cat": "Service & Fellowships",
     "src": "erin_service.html",
     "src_label": "Service & Fellowships",
-    "deadline": "May 26, 2026 (summer 3-month term application closes)",
+    "deadline": "Summer 2026 term application closed May 26; watch for 2027 summer + fall 2026 9-month terms",
     "start": "June 8 – September 10, 2026",
     "body": "Washington Conservation Corps AmeriCorps member — habitat restoration, native planting, water-quality monitoring, trails. 3-month summer term (Jun 8–Sep 10, 2026); application closes May 26, 2026. Living allowance + AmeriCorps education award. Ages 18–25. wccactivities@ecy.wa.gov",
     "desc": "Washington Conservation Corps (WA Dept. of Ecology) AmeriCorps members do hands-on habitat and watershed restoration — coastal/wetland buffer restoration, native planting, water-quality testing and monitoring, trail and rain-garden construction — with professionally taught, career-transferable trainings. This is the 3-month summer term (June 8–September 10, 2026); the online application closes May 26, 2026. Members receive a bimonthly living allowance plus an AmeriCorps education award. Eligibility: ages 18–25 on the first day of service; U.S. citizen/national/lawful permanent resident. Strong match for Erin’s water-quality monitoring and field restoration skills, and a way into Pacific Northwest conservation networks.",
@@ -4129,9 +4129,9 @@
       "Pacific Northwest"
     ],
     "metaLine": "Term: Jun 8 – Sep 10, 2026 · living allowance + education award · ages 18–25",
-    "cycle": "current",
+    "cycle": "next",
     "deadline_date": "2026-05-26",
-    "deadline_kind": "fixed",
+    "deadline_kind": "passed",
     "region": "West Coast / Pacific",
     "links": [
       {
@@ -4144,8 +4144,8 @@
       }
     ],
     "status": {
-      "kind": "s-new",
-      "label": "✨ New — May 18, 2026"
+      "kind": "s-updated",
+      "label": "✨ Updated — May 28, 2026"
     },
     "id": "item-088"
   },
@@ -4250,5 +4250,188 @@
       "label": "✨ New — May 18, 2026"
     },
     "id": "item-091"
+  },
+  {
+    "title": "Texas A&M University–Kingsville — Funded MS, Watershed Restoration (Xi Lab)",
+    "org": "Kingsville, TX · Texas A&M–Kingsville (Xi Lab)",
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "deadline": "Rolling — reviewed until filled",
+    "start": "September 2026",
+    "body": "Funded MS in watershed restoration with Dr. Weimin Xi (Inflation Reduction Act Urban & Community Forestry grant): field surveys, statistical and spatial (GIS) analyses, forest/rangeland restoration. Stipend + out-of-state tuition waiver. BS in Bio/Forestry/Ecology/Env Sci/GIS or related. Apply by emailing Dr. Xi a single PDF: letter of interest, CV, transcripts, 3 references.",
+    "desc": "Dr. Weimin Xi’s lab at Texas A&M University–Kingsville is recruiting a funded MS student in ecological restoration of degraded watersheds and ecosystems, supported by an Inflation Reduction Act Urban & Community Forestry Program grant. The position runs field surveys plus statistical and spatial (GIS / geospatial) analyses related to forest and rangeland restoration — a direct match for Erin’s watershed, GIS, and field-ecology skills. Funding: stipend + out-of-state tuition waiver. Start: September 2026. Qualifications: BS in Biology, Forestry, Ecology, Botany, Environmental Science, Geography, GIS, or related. Applications are reviewed on a rolling basis until the position is filled; apply by emailing Dr. Xi (weimin.xi@tamuk.edu) a single PDF with letter of interest, CV, unofficial transcripts, and three academic/research references. Lab: drxilab.netlify.app",
+    "badge": "Strong fit",
+    "pills": [
+      "Watershed restoration",
+      "GIS & spatial analysis",
+      "Forest/rangeland ecology",
+      "Funded MS"
+    ],
+    "metaLine": "Stipend + out-of-state tuition waiver · rolling until filled · Sept 2026 start",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://drxilab.netlify.app/",
+        "label": "🔍 Xi Lab website"
+      },
+      {
+        "href": "https://www.tamuk.edu/artsci/departments/biol/faculty-staff/xi.html",
+        "label": "🔍 TAMUK Biology — Dr. Xi"
+      }
+    ],
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — May 28, 2026"
+    },
+    "id": "item-092"
+  },
+  {
+    "title": "Michigan State University — Funded MS, Sea Lamprey Chemical & Aquatic Ecology (2 positions, Scott Lab)",
+    "org": "East Lansing, MI · Dept. of Fisheries & Wildlife",
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "deadline": "Rolling — review began Dec 19, 2025",
+    "start": "Fall 2026 / negotiable",
+    "body": "Two funded MS positions with Dr. Anne Scott (MSU Fisheries & Wildlife) on chemical cues in sea lamprey: (1) host preference/recognition, (2) pheromone-disruption of invasive sea lamprey in the Great Lakes. Funding: $32k stipend + tuition waiver + health insurance for 3 years. Rolling review.",
+    "desc": "Dr. Anne Scott (MSU Department of Fisheries & Wildlife) is recruiting two funded MS students for related projects in chemical and aquatic ecology of invasive sea lamprey in the Great Lakes: (1) chemical cues used in sea lamprey host preference and recognition, and (2) pheromone disruption as an invasive-species control tool. Strong fit for Erin’s aquatic / fisheries / water-quality interests with applied invasive-species and Great Lakes context. Funding: ~$32,000 annual stipend, tuition waiver, and health insurance for three years. Review of applications began December 19, 2025 and continues on a rolling basis.",
+    "badge": "Strong fit",
+    "pills": [
+      "Aquatic & fisheries ecology",
+      "Invasive species control",
+      "Great Lakes",
+      "Funded MS (3-yr)"
+    ],
+    "metaLine": "$32k stipend + tuition waiver + health · 3-yr funding · rolling review",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://ecophys-jobs.org/grad.html",
+        "label": "🔍 ecophys-jobs.org grad listings"
+      }
+    ],
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — May 28, 2026"
+    },
+    "id": "item-093"
+  },
+  {
+    "title": "Colorado State University — Funded MS, Mesocarnivore Ecology (Gerber Lab)",
+    "org": "Fort Collins, CO · Dept. of Fish, Wildlife, & Conservation Biology",
+    "type": "Graduate Program",
+    "cat": "Graduate Programs — Next Cycle",
+    "src": "erin_programs.html",
+    "src_label": "Graduate Programs — Next Cycle",
+    "deadline": "Mar 1, 2026 priority (passed) — next cycle ~Mar 2027 (Fall 2027 start); may inquire now",
+    "start": "Fall 2026 cycle filled; target Fall 2027",
+    "body": "Funded MS assistantship with Dr. Brian D. Gerber on mesocarnivore (small carnivore) ecology — student develops a project + sampling frame and leads field surveys. $3,000/mo stipend + tuition + fees + health. The Mar 1, 2026 deadline has passed; watch/inquire for Fall 2027.",
+    "desc": "Dr. Brian D. Gerber’s lab (Colorado State University, Dept. of Fish, Wildlife & Conservation Biology) offers a funded MS assistantship in mesocarnivore ecology. The student develops a project proposal and sampling frame in year one and leads field surveys — a strong match for Erin’s mammalogy and wildlife-management coursework. Funding: $3,000/month stipend + tuition + fees + health insurance, Fall 2026–Spring 2029. The March 1, 2026 application deadline for Fall 2026 has passed, so this is flagged for the next cycle (~March 2027 for Fall 2027 start). A brief, well-targeted inquiry email to Dr. Gerber now (subject \"MS mesocarnivore\", with cover letter, CV with 3–4 references, and unofficial BS transcripts) establishes contact early.",
+    "badge": "Strong fit — next cycle",
+    "pills": [
+      "Mammalogy / mesocarnivores",
+      "Field surveys",
+      "Funded MS (3-yr)",
+      "Mountain West"
+    ],
+    "metaLine": "$3,000/mo stipend + tuition + fees + health · contact Dr. Brian Gerber",
+    "cycle": "next",
+    "deadline_kind": "contact-first",
+    "region": "Mountain West",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=113040",
+        "label": "🔍 Position listing (Texas A&M NR job board)"
+      }
+    ],
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — May 28, 2026"
+    },
+    "id": "item-094"
+  },
+  {
+    "title": "Oregon State University — Water Resources Science MS/PhD (and Environmental Sciences)",
+    "org": "Corvallis, OR · Multiple departments",
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "deadline": "No fixed date — contact potential advisors first",
+    "start": "Varies",
+    "body": "OSU offers MS/PhD in Water Resources Science (interdisciplinary across ecology, forest science, geology, env science) and MA/MS/PhD in Environmental Sciences. Funded TA/RA opportunities; Pacific Northwest field access. Contact prospective advisors before applying.",
+    "desc": "Oregon State University runs two strong, related graduate majors a good fit for Erin: (1) Water Resources Science (MS/PhD) — interdisciplinary water training across ecology, forest science, geology, and environmental science, with direct access to Pacific Northwest watersheds, coastal systems, and Cascadian hydrology; and (2) Environmental Sciences (MA/MS/PhD). Funded TA/RA assistantships are available through individual labs and programs; OSU’s College of Earth, Ocean, and Atmospheric Sciences and College of Forestry are particularly active. No single fixed application deadline drives funded admission — the standard advice is to identify and contact prospective advisors before applying. This entry exists primarily to surface OSU in the Pacific region for Erin’s outreach.",
+    "badge": "Strong fit",
+    "pills": [
+      "Water resources / hydrology",
+      "Wetlands & watersheds",
+      "Pacific Northwest",
+      "Funded TA/RA"
+    ],
+    "metaLine": "Contact prospective advisors first · funded TA/RA via labs/programs",
+    "cycle": "current",
+    "deadline_kind": "contact-first",
+    "region": "West Coast / Pacific",
+    "links": [
+      {
+        "href": "https://catalog.oregonstate.edu/college-departments/graduate-education/water-resources-science-ms-phd/",
+        "label": "🔍 OSU Water Resources Science (MS/PhD)"
+      },
+      {
+        "href": "https://graduate.oregonstate.edu/programs/6420/environmental-sciences-phd-ma-ms-psm-minor",
+        "label": "🔍 OSU Environmental Sciences graduate"
+      },
+      {
+        "href": "https://ceoas.oregonstate.edu/jobs",
+        "label": "🔍 OSU CEOAS jobs & opportunities"
+      }
+    ],
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — May 28, 2026"
+    },
+    "id": "item-095"
+  },
+  {
+    "title": "South Dakota State University — Funded MS, Plant Evolutionary Ecology (Wenzell Lab)",
+    "org": "Brookings, SD · Plant Science",
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "deadline": "May 31, 2026 — CLOSING SOON",
+    "start": "Negotiable",
+    "body": "Dr. Katie Wenzell — MS on floral trait variation and genetic structure in Castilleja (paintbrushes). Competitive stipend + tuition remission, 2+ years. Plant evolutionary ecology / population genetics — peripheral to Erin’s wetland/water focus, included as a reach with an honest \"review\" flag.",
+    "desc": "Dr. Katie Wenzell’s lab at South Dakota State University is recruiting a funded MS in plant evolutionary ecology — floral trait variation and genetic structure in Castilleja (Indian paintbrush) species. Funding: competitive stipend + tuition remission for 2+ years. Deadline: May 31, 2026 — closing soon. Honestly flagged Reach / review: plant evolutionary genetics is tangential to Erin’s wetland / water-quality / GIS / wildlife focus and her capstone strengths (Pigeon River lead contamination, wetland delineation). Included so you can decide whether to keep tracking it; not removed silently.",
+    "badge": "Reach / review — plant evol-genetics; tangential to her focus",
+    "pills": [
+      "Plant evolutionary ecology",
+      "Population genetics",
+      "Funded MS (2+ yr)",
+      "Midwest"
+    ],
+    "metaLine": "Competitive stipend + tuition remission · deadline May 31, 2026",
+    "cycle": "current",
+    "deadline_date": "2026-05-31",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://ecophys-jobs.org/grad.html",
+        "label": "🔍 ecophys-jobs.org grad listings"
+      }
+    ],
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — May 28, 2026"
+    },
+    "id": "item-096"
   }
 ]
