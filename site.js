@@ -5,7 +5,7 @@
    ═══════════════════════════════════════════════════════════ */
 
 /* build-stamped version + build (build.js patches these lines each release) */
-var WN_VERSION = '1.05';
+var WN_VERSION = '1.06';
 var WN_BUILD   = '20260602-97-82b92d63';
 
 /* ── 1. Sync hook ──────────────────────────────────────────
@@ -58,6 +58,8 @@ document.addEventListener('DOMContentLoaded', function(){
     span.id = 'gnav-sync';
     span.className = 'gnav-sync';
     span.title = 'Last cloud sync';
+    /* Inline styles — match version badge dimensions exactly, teal-tinted */
+    span.style.cssText = 'font-size:9px;color:var(--teal-t);padding:1px 6px;background:var(--teal-bg);border-radius:3px;white-space:nowrap;flex-shrink:0;margin-left:6px;border:.5px solid var(--teal);align-self:center;box-sizing:border-box;font-family:var(--fn)';
     /* Dock the chip beside the theme toggle (right side), NOT inside the
        wrapping link row — keeps the header identical on every page. */
     var tog = document.getElementById('theme-toggle');
@@ -118,10 +120,29 @@ document.addEventListener('DOMContentLoaded', function(){
     if(localStorage.getItem('erin_primary_device') === '1') return;
     // Add class to <html> so CSS can hide all edit controls
     document.documentElement.classList.add('erin-readonly');
-    // Insert a soft banner below the nav so it's clear this is view-only
+    // Insert a soft banner below the nav so it's clear this is view-only.
+    // All visual styling is inline here so no external CSS can left-align it.
     var banner = document.createElement('div');
     banner.id = 'erin-readonly-banner';
     banner.className = 'erin-readonly-banner';
+    banner.style.cssText = [
+      'display:block',
+      'width:100%',
+      'box-sizing:border-box',
+      'text-align:center',
+      'font-size:10px',
+      'font-weight:400',
+      'font-family:var(--fn)',
+      'color:var(--amber-t)',
+      'background:var(--amber-bg)',
+      'padding:3px 1rem',
+      'border-bottom:.5px solid var(--bd)',
+      'line-height:1.3',
+      'margin:0',
+      'position:relative',
+      'left:0',
+      'right:0'
+    ].join(';') + ';';
     banner.innerHTML = '&#128065;&nbsp;<strong>View-only</strong> &mdash; marks are session-only (refresh resets them).';
     var nav = document.querySelector('.global-nav');
     if(nav && nav.parentNode) nav.parentNode.insertBefore(banner, nav.nextSibling);
