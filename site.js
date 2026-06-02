@@ -4,8 +4,9 @@
    script, before page-specific scripts).
    ═══════════════════════════════════════════════════════════ */
 
-/* build-stamped version (build.js patches this line each build) */
-var WN_VERSION = '20260602-97-82b92d63';
+/* build-stamped version + build (build.js patches these lines each release) */
+var WN_VERSION = '1.00';
+var WN_BUILD   = '20260602-97-82b92d63';
 
 /* ── 1. Sync hook ──────────────────────────────────────────
    Patches window.fetch to timestamp every successful JSONbin
@@ -87,18 +88,19 @@ document.addEventListener('DOMContentLoaded', function(){
   (function(){
     var wrap = document.querySelector('.gnav-wrap');
     if(!wrap || document.getElementById('gnav-version')) return;
-    var v = (typeof WN_VERSION !== 'undefined' && WN_VERSION) ? WN_VERSION : 'dev';
-    /* WN_VERSION format: "YYYYMMDD-COUNT-HASH" (e.g., "20260602-97-82b92d63") */
-    var m = /^(\d{4})(\d{2})(\d{2})-(\d+)-([0-9a-f]+)/.exec(v);
-    var shortLabel, fullTitle;
+    var release = (typeof WN_VERSION !== 'undefined' && WN_VERSION) ? WN_VERSION : 'dev';
+    var build   = (typeof WN_BUILD   !== 'undefined' && WN_BUILD)   ? WN_BUILD   : '';
+    var shortLabel = 'v ' + release;
+    var fullTitle;
+    /* WN_BUILD format: "YYYYMMDD-COUNT-HASH" */
+    var m = /^(\d{4})(\d{2})(\d{2})-(\d+)-([0-9a-f]+)/.exec(build);
     if(m){
       var MO=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-      var dateStr = MO[(+m[2])-1] + ' ' + (+m[3]);
-      shortLabel = 'v ' + m[5] + ' · ' + dateStr;
-      fullTitle = 'Build ' + v + ' · ' + m[4] + ' opportunities · ' + m[1] + '-' + m[2] + '-' + m[3];
+      fullTitle = 'Release ' + release + ' · build ' + m[5] +
+                  ' · ' + MO[(+m[2])-1] + ' ' + (+m[3]) + ' ' + m[1] +
+                  ' · ' + m[4] + ' opportunities';
     } else {
-      shortLabel = 'v ' + v;
-      fullTitle = 'Build ' + v;
+      fullTitle = 'Release ' + release + (build ? ' · ' + build : '');
     }
     var span = document.createElement('span');
     span.id = 'gnav-version';

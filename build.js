@@ -88,19 +88,13 @@ fs.readdirSync('.')
     if (t1 !== t0) { fs.writeFileSync(f, t1, { encoding: 'utf8' }); bumped++; }
   });
 
-/* 6b. Stamp the build version into site.js so the in-nav version
-   badge updates automatically every build. */
+/* 6b. Stamp the build hash into site.js (the cache-bust id; the
+   user-facing release number is bumped later, only on real changes). */
 try {
   var sjP = 'site.js', sj0 = fs.readFileSync(sjP, 'utf8');
-  var sj1 = sj0.replace(/var WN_VERSION\s*=\s*'[^']*'\s*;/, "var WN_VERSION = '" + ver + "';");
+  var sj1 = sj0.replace(/var WN_BUILD\s*=\s*'[^']*'\s*;/, "var WN_BUILD   = '" + ver + "';");
   if (sj1 !== sj0) fs.writeFileSync(sjP, sj1, { encoding: 'utf8' });
-} catch (e) { console.error('  ⚠ site.js version stamp skipped: ' + e.message); }
-/* version.json — small machine-readable record of the current build */
-fs.writeFileSync('version.json', JSON.stringify({
-  version: ver, builtAt: new Date().toISOString(),
-  total: data.length, newCount: newIds.length, updatedCount: updIds.length,
-  hash: hash, date: META.sweptOn
-}, null, 2), { encoding: 'utf8' });
+} catch (e) { console.error('  ⚠ site.js build stamp skipped: ' + e.message); }
 
 /* 7. Persist snapshot for next diff --------------------------------- */
 fs.writeFileSync(SNAP, JSON.stringify(snap, null, 1), { encoding: 'utf8' });
@@ -145,26 +139,55 @@ if (!baseline) console.log('  updated:   ' + updIds.length + (updIds.length ? ' 
 console.log('  cache ver: ' + ver + '  (opportunities.js?v= bumped on ' + bumped + ' page(s))');
 console.log('  digest:    SWEEP_DIGEST.md written');
 
-/* 10. Auto-deploy: commit any changes and push to main (Pages source).
-   Soft-fails so the build itself never errors on a network/auth blip;
-   you can re-run `node build.js` to retry the push later. */
+/* 10. Auto-deploy: bump release, commit, push to main.
+   Release number (1.00, 1.01, 1.02, …) bumps ONLY when there's something
+   real to deploy — running build.js with no source changes does NOT bump.
+   The bump is computed AFTER staging so the commit captures the new
+   release number + writes version.json + patches site.js's WN_VERSION. */
 (function deploy(){
-  try {
-    /* skip if there's no git repo here (e.g. fresh clone w/o init) */
-    cp.execSync('git rev-parse --is-inside-work-tree', { stdio: 'pipe' });
-  } catch (e) { console.log('  deploy:   skipped (not a git repo here)'); return; }
+  try { cp.execSync('git rev-parse --is-inside-work-tree', { stdio: 'pipe' }); }
+  catch (e) { console.log('  deploy:   skipped (not a git repo here)'); return; }
   try {
     cp.execSync('git add -A', { stdio: 'pipe' });
-    /* Anything to commit? */
     var status = '';
-    try { status = cp.execSync('git diff --cached --name-only', { encoding: 'utf8' }); }
-    catch (e) { status = ''; }
+    try { status = cp.execSync('git diff --cached --name-only', { encoding: 'utf8' }); } catch (e) {}
     if (!status.trim()) { console.log('  deploy:   no changes to commit; skipping push'); return; }
-    var msg = 'Build v' + ver + ' · ' + data.length + ' opps' +
+
+    /* Bump the human release number (1.xx). */
+    var prevRelease = null;
+    try { prevRelease = JSON.parse(fs.readFileSync('version.json', 'utf8')).release; } catch (e) {}
+    var nextRelease;
+    if (prevRelease == null || !/^\d+\.\d+$/.test(String(prevRelease))) {
+      nextRelease = '1.00';
+    } else {
+      nextRelease = (Math.round((parseFloat(prevRelease) + 0.01) * 100) / 100).toFixed(2);
+    }
+
+    /* Patch site.js WN_VERSION = release number (cache hash already stamped
+       earlier into WN_BUILD). */
+    try {
+      var sjP = 'site.js', sj0 = fs.readFileSync(sjP, 'utf8');
+      var sj1 = sj0.replace(/var WN_VERSION\s*=\s*'[^']*'\s*;/, "var WN_VERSION = '" + nextRelease + "';");
+      if (sj1 !== sj0) fs.writeFileSync(sjP, sj1, { encoding: 'utf8' });
+    } catch (e) {}
+
+    /* version.json — machine-readable record */
+    fs.writeFileSync('version.json', JSON.stringify({
+      release: nextRelease, build: ver, builtAt: new Date().toISOString(),
+      total: data.length, newCount: newIds.length, updatedCount: updIds.length,
+      hash: hash, date: META.sweptOn
+    }, null, 2), { encoding: 'utf8' });
+
+    /* re-stage so the bump is included in the same commit */
+    cp.execSync('git add -A', { stdio: 'pipe' });
+
+    var msg = 'Release v' + nextRelease + ' · build ' + hash +
+              ' · ' + data.length + ' opps' +
               (newIds.length ? ' · +' + newIds.length + ' new' : '') +
               (updIds.length ? ' · ' + updIds.length + ' updated' : '');
     cp.execSync('git commit -q -m ' + JSON.stringify(msg), { stdio: 'pipe' });
-    console.log('  commit:   ' + msg);
+    console.log('  release:  v' + nextRelease + '  (' + msg + ')');
+
     try {
       cp.execSync('git push origin HEAD:main', { stdio: 'pipe' });
       console.log('  deploy:   ✓ pushed to origin/main (Pages will rebuild in a few minutes)');
