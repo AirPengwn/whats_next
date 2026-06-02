@@ -123,7 +123,7 @@
     "cat": "Funded Graduate Programs",
     "src": "erin_programs.html",
     "src_label": "Funded Graduate Programs",
-    "deadline": "Dec 1, 2025 for full consideration; no later than Feb 1, 2026",
+    "deadline": "Next cycle (Fall 2027 admit): Dec 1 for full consideration; no later than Feb 1 — contact PI early",
     "start": "",
     "body": "Active MS/PhD position in the Landscape Modeling Lab (Aug 2026 start) on remote sensing of wetland dynamics in interior and coastal systems, wetland conversion and loss in the Prairie Pothole Region. Fieldwork includes vegetation, water, and near-surface remote sensing data. Also the Water, Envir...",
     "badge": "Strong fit",
@@ -200,9 +200,8 @@
       "kind": "s-updated",
       "label": "✨ Updated — May 16, 2026"
     },
-    "cycle": "current",
-    "deadline_date": "2025-12-01",
-    "deadline_kind": "passed",
+    "cycle": "next",
+    "deadline_kind": "contact-first",
     "region": "Mountain West"
   },
   {
@@ -212,7 +211,7 @@
     "cat": "Funded Graduate Programs",
     "src": "erin_programs.html",
     "src_label": "Funded Graduate Programs",
-    "deadline": "",
+    "deadline": "Next cycle — contact program / individual faculty directly for Fall 2027 admit",
     "start": "",
     "body": "Dr. John White's WABL lab has a PhD assistantship available for Fall 2026 in coastal wetland biogeochemistry. Also, Dr. Kaelyn Fogelman's new lab has a funded MS/PhD position on crayfish & unionid mussels responding to environmental stress (Jan or May 2026). MS minimum stipend $23,000–$28,000/yr....",
     "badge": "Deadline passed — see next cycle",
@@ -237,8 +236,8 @@
       "kind": "s-open",
       "label": "Verified open"
     },
-    "cycle": "current",
-    "deadline_kind": "passed",
+    "cycle": "next",
+    "deadline_kind": "contact-first",
     "region": "Southeast & Appalachia"
   },
   {
@@ -248,7 +247,7 @@
     "cat": "Funded Graduate Programs",
     "src": "erin_programs.html",
     "src_label": "Funded Graduate Programs",
-    "deadline": "February 15 for funding consideration; formal deadline May 15",
+    "deadline": "Next cycle (Fall 2027 admit): Feb 15 for funding consideration; formal deadline May 15 — contact early",
     "start": "",
     "body": "Dr. John White's Wetland and Aquatic Biogeochemistry Laboratory (WABL) has a PhD assistantship available for Fall 2026 focused on coastal wetland systems. MS minimum stipend $23,000/yr; PhD $31,000/yr. Research spans freshwater and coastal wetlands, lakes, estuaries, nutrient cycling, and contami...",
     "badge": "Deadline passed — see next cycle",
@@ -273,8 +272,8 @@
       "kind": "s-open",
       "label": "Verified open"
     },
-    "cycle": "current",
-    "deadline_kind": "passed",
+    "cycle": "next",
+    "deadline_kind": "contact-first",
     "region": "Southeast & Appalachia"
   },
   {
@@ -457,7 +456,7 @@
     "cat": "Funded Graduate Programs",
     "src": "erin_programs.html",
     "src_label": "Funded Graduate Programs",
-    "deadline": "March 1 for Haub School; CFWRU positions vary",
+    "deadline": "Next cycle (Fall 2027 admit): typical Mar 1 for Haub School; CFWRU positions vary — contact directly",
     "start": "",
     "body": "R1 university with robust wildlife ecology and natural resources programs. MS assistantship value ~$27,500 total (stipend + tuition + health insurance). Wyoming Cooperative Fish & Wildlife Research Unit has active funded positions. Priority deadline: March 1.",
     "badge": "Deadline passed — see next cycle",
@@ -486,8 +485,8 @@
       "kind": "s-open",
       "label": "Verified open"
     },
-    "cycle": "current",
-    "deadline_kind": "passed",
+    "cycle": "next",
+    "deadline_kind": "contact-first",
     "region": "Mountain West"
   },
   {
@@ -662,7 +661,7 @@
     "cat": "Funded Graduate Programs",
     "src": "erin_programs.html",
     "src_label": "Funded Graduate Programs",
-    "deadline": "December 1 domestic / October 1 international (for Dr. Siegert lab)",
+    "deadline": "Next cycle (Fall 2027 admit): typical Dec 1 domestic / Oct 1 international — contact Dr. Siegert lab",
     "start": "",
     "body": "Three-year funded MS research assistantship starting January 2026 in the Forest Hydrology and Soils Lab (Dr. Courtney Siegert). NSF-FIRE project investigating how back-to-back extreme weather events drive forest hydrology and flammability in the southeastern US. Fully funded: full tuition waiver ...",
     "badge": "Deadline passed — see next cycle",
@@ -685,8 +684,8 @@
       "kind": "s-check",
       "label": "Verify status"
     },
-    "cycle": "current",
-    "deadline_kind": "passed",
+    "cycle": "next",
+    "deadline_kind": "contact-first",
     "region": "Southeast & Appalachia"
   },
   {
@@ -1777,7 +1776,7 @@
     "cat": "Internships",
     "src": "erin_internships.html",
     "src_label": "Internships",
-    "deadline": "",
+    "deadline": "Next cycle (Summer 2027) — contact WSSI for posting; Summer 2026 filled",
     "start": "",
     "body": "WSSI is an award-winning wetland and environmental consulting firm. Summer 2026 internship opportunities are live. Interns gain hands-on experience from erosion control to wildlife and insect monitoring through field visits to working jobsites contributing to real projects. WSSI also has a perman...",
     "badge": "Closed — Summer 2026 filled",
@@ -1799,8 +1798,8 @@
         "label": "🔍 WSSI permanent openings (Raleigh EC Technician)"
       }
     ],
-    "cycle": "current",
-    "deadline_kind": "passed",
+    "cycle": "next",
+    "deadline_kind": "contact-first",
     "region": "National / Remote / Multiple"
   },
   {
@@ -1881,7 +1880,7 @@
     "cat": "Internships",
     "src": "erin_internships.html",
     "src_label": "Internships",
-    "deadline": "May 15, 2026 at 5pm PT — CLOSED",
+    "deadline": "Next cycle (Fall 2027) — Earthjustice posts annually; Fall 2026 cycle closed May 15, 2026",
     "start": "Fall 2026; offers by July 8",
     "body": "Earthjustice's DC office advocates on wetlands, water pollution, clean air, and climate. The fall 2026 science intern researches scientific questions to support advocacy and litigation before federal agencies and courts. Requires coursework in environmental health, epidemiology, or toxicology — E...",
     "badge": "Deadline passed May 15, 2026",
@@ -1921,9 +1920,8 @@
         "v": "KCI Technologies is a mid-size engineering and environmental consulting firm with offices across the eastern US. Their Nashville office does environmental field work across Tennessee and surrounding states — right in the heart of the Appalachian region where Erin studied. A position here would build wetland/stream consulting experience in terrain Erin knows well from WCU fieldwork."
       }
     ],
-    "cycle": "current",
-    "deadline_date": "2026-05-15",
-    "deadline_kind": "passed",
+    "cycle": "next",
+    "deadline_kind": "contact-first",
     "region": "National / Remote / Multiple"
   },
   {
@@ -1933,7 +1931,7 @@
     "cat": "Internships",
     "src": "erin_internships.html",
     "src_label": "Internships",
-    "deadline": "",
+    "deadline": "Next cycle (2027) — Jug Bay posts annually; 2026 cycle closed",
     "start": "",
     "body": "Jug Bay's 2026 research internship included a project directly matching Erin's skills: studying beaver dam impacts on stream water quality — field work and data analysis on vegetation, water quality, and sedimentation in old and new beaver dams. Mentored by Dr. Patricia Delgado (JBWS/USGS) and Dr...",
     "badge": "Reference — 2026 deadline passed",
@@ -1954,8 +1952,8 @@
         "label": "🔍 Wetlands Institute internship applications"
       }
     ],
-    "cycle": "current",
-    "deadline_kind": "passed",
+    "cycle": "next",
+    "deadline_kind": "contact-first",
     "region": "Northeast"
   },
   {
@@ -3576,7 +3574,7 @@
     "cat": "Service & Fellowships",
     "src": "erin_service.html",
     "src_label": "Service & Fellowships",
-    "deadline": "Jan 25, 2026 (may be filled)",
+    "deadline": "Next cycle — American Youthworks / USFWS Wichita placements recur; Jan 25, 2026 closed",
     "start": "",
     "body": "AmeriCorps members assist in wildlife conservation through the ARTES (At Risk, Threatened, and Endangered Species) Program with the Wichita Mountains Wildlife Refuge and US Army Garrison at Fort Sill. Monitoring species including tricolored bat, monarch butterfly, black-capped vireo, northern bob...",
     "badge": "Deadline passed — see next cycle",
@@ -3598,9 +3596,8 @@
         "label": "🔍 Search for current status"
       }
     ],
-    "cycle": "current",
-    "deadline_date": "2026-01-25",
-    "deadline_kind": "passed",
+    "cycle": "next",
+    "deadline_kind": "contact-first",
     "region": "Southwest"
   },
   {
@@ -4406,7 +4403,7 @@
     "cat": "Funded Graduate Programs",
     "src": "erin_programs.html",
     "src_label": "Funded Graduate Programs",
-    "deadline": "May 31, 2026 — CLOSING SOON",
+    "deadline": "Next cycle — contact program for next funded MS opening (May 31, 2026 cycle closed)",
     "start": "Negotiable",
     "body": "Dr. Katie Wenzell — MS on floral trait variation and genetic structure in Castilleja (paintbrushes). Competitive stipend + tuition remission, 2+ years. Plant evolutionary ecology / population genetics — peripheral to Erin’s wetland/water focus, included as a reach with an honest \"review\" flag.",
     "desc": "Dr. Katie Wenzell’s lab at South Dakota State University is recruiting a funded MS in plant evolutionary ecology — floral trait variation and genetic structure in Castilleja (Indian paintbrush) species. Funding: competitive stipend + tuition remission for 2+ years. Deadline: May 31, 2026 — closing soon. Honestly flagged Reach / review: plant evolutionary genetics is tangential to Erin’s wetland / water-quality / GIS / wildlife focus and her capstone strengths (Pigeon River lead contamination, wetland delineation). Included so you can decide whether to keep tracking it; not removed silently.",
@@ -4418,9 +4415,8 @@
       "Midwest"
     ],
     "metaLine": "Competitive stipend + tuition remission · deadline May 31, 2026",
-    "cycle": "current",
-    "deadline_date": "2026-05-31",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "contact-first",
     "region": "Midwest & Great Plains",
     "links": [
       {
