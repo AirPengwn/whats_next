@@ -72,6 +72,23 @@ var FRESH=[['✨ New','new'],['Updated','upd']];
 function has1(a,v){ return a.indexOf(v)>-1; }
 function toggle1(a,v){ var i=a.indexOf(v); if(i>-1)a.splice(i,1); else a.push(v); }
 function fitLabel(it){ return ['Exceptional','Strong','Good','Reach / review'][fitRank(it.badge)]; }
+/* v2.0 — classify a badge as a confident fit tier, a quiet (reach/weak) tier,
+   or null (a non-fit status-y badge like "Rolling", "Open now", "Verify"). */
+function fitTier(b){ if(!b) return null;
+  if(/exceptional|top recommendation|strong|good|solid/i.test(b)) return 'strong';
+  if(/reach|weak/i.test(b)) return 'weak'; return null; }
+/* Short, scan-friendly label for the fit pill */
+function shortFitLabel(b){
+  if(/exceptional/i.test(b)) return 'Exceptional fit';
+  if(/top recommendation/i.test(b)) return 'Top pick';
+  if(/strong/i.test(b)) return 'Strong fit';
+  if(/good/i.test(b)) return 'Good fit';
+  if(/solid/i.test(b)) return 'Solid fit';
+  if(/reach/i.test(b)) return 'Reach';
+  if(/weak/i.test(b)) return 'Weak — review';
+  return b; }
+/* Trim a status-y badge to its first phrase for the neutral chip */
+function shortBadgeLabel(b){ return (b||'').split(/[—·(]/)[0].trim(); }
 
 function chip(label,on,fn){ var b=el('button','bx-chip'+(on?' on':''),label); b.type='button'; b.onclick=fn; return b; }
 function fgroup(label,children){ var g=el('div','bx-fgroup'); g.appendChild(el('span','bx-flabel',label));
@@ -197,11 +214,22 @@ function renderBrowseX(){
     th.appendChild(tl);
     var du=daysUntil(it.deadline_date);
     var urgTxt=bk===0?(du!=null?(du<=0?'Due now':du+'d left'):'Closing soon'):bk===1?'Upcoming':bk===2?'Open now':bk===3?'Contact first':bk===4?'Check timing':'Passed';
-    var u=el('span','bx-urg u'+bk,urgTxt); th.appendChild(u);
+    /* v2.0: right-side vertical stack — urgency pill on top, fit-pill OR
+       neutral status chip below. Three-pill cap respected: urgency + saved
+       (in title row) + fit. Non-fit badges become quiet neutral chips. */
+    var rs=el('div',null); rs.style.cssText='display:flex;flex-direction:column;gap:4px;align-items:flex-end;flex-shrink:0';
+    rs.appendChild(el('span','bx-urg u'+bk,urgTxt));
+    if(it.badge){
+      var ft=fitTier(it.badge);
+      if(ft==='strong') rs.appendChild(el('span','fit-pill',shortFitLabel(it.badge)));
+      else if(ft==='weak') rs.appendChild(el('span','fit-pill fit-weak',shortFitLabel(it.badge)));
+      else rs.appendChild(el('span','neutral-chip',shortBadgeLabel(it.badge)));
+    }
+    th.appendChild(rs);
     card.appendChild(th);
     var meta=el('div','browse-meta');
     if(it.deadline){ var dm=el('span'); dm.innerHTML='<strong style="font-weight:500">Deadline:</strong> '+it.deadline; meta.appendChild(dm); }
-    if(it.badge){ if(it.deadline)meta.appendChild(el('span',null,' · ')); var bm=el('span'); bm.textContent=it.badge; meta.appendChild(bm); }
+    /* badge no longer rendered in meta — it lives in the right-side pill stack */
     card.appendChild(meta);
     var bd=buildBrowseDetailX(it); card.appendChild(bd);
     /* Card actions row: Details (left, blue pill) · [Not interested, Save] (right) */

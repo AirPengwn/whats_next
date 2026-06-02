@@ -31,6 +31,8 @@
   --amber:#8a6f00;--amber-bg:#f5f0db;--amber-t:#6b5500;
   --red:#993c1d;--red-bg:#faece7;--red-t:#993c1d;
   --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
+  /* Fit pill (v2.0 — distinct from --blue so it doesn't collide with links/Browse-group label) */
+  --fit:#2f5f88;--fit-bg:#e2ecf3;--fit-t:#2f5f88;
 }
 
 /* System dark mode (auto) */
@@ -43,6 +45,7 @@
     --blue-bg:#1e3535;--amber-bg:#3d3510;--amber-t:#d4c47a;
     --red-bg:#3d1510;--red-t:#f5a490;
     --purple-bg:#2d2563;--purple-t:#b5abfa;
+    --fit-bg:#1e3535;--fit-t:#9ec3dd;
   }
 }
 
@@ -55,6 +58,7 @@ html.dark {
   --blue-bg:#1e3535;--amber-bg:#3d3510;--amber-t:#d4c47a;
   --red-bg:#3d1510;--red-t:#f5a490;
   --purple-bg:#2d2563;--purple-t:#b5abfa;
+  --fit-bg:#1e3535;--fit-t:#9ec3dd;
 }
 
 /* Override light mode when .dark is NOT set (belt + suspenders) */
@@ -66,7 +70,18 @@ html:not(.dark) {
   --blue-bg:#e5f0f0;--amber-bg:#f5f0db;--amber-t:#6b5500;
   --red-bg:#faece7;--red-t:#993c1d;
   --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
+  --fit:#2f5f88;--fit-bg:#e2ecf3;--fit-t:#2f5f88;
 }
+
+/* ── v2.0 card-discipline pills ─────────────────────────── */
+/* Confident fit pill — Exceptional / Top recommendation / Strong / Good / Solid */
+.fit-pill{font-size:11px;font-weight:600;padding:2px 9px;border-radius:999px;
+  background:var(--fit-bg);color:var(--fit-t);white-space:nowrap;line-height:1.5;letter-spacing:.01em}
+/* Quiet fit pill — Reach / Weak. Never wears a confident fill. */
+.fit-pill.fit-weak{background:transparent;color:var(--t3);border:1px solid var(--bds);font-weight:500}
+/* Neutral hairline chip — non-fit status badges (Rolling, Open now, Verify, …) */
+.neutral-chip{font-size:11px;font-weight:500;padding:2px 9px;border-radius:999px;
+  background:transparent;color:var(--t3);border:1px solid var(--bds);white-space:nowrap;line-height:1.5}
 
 /* ── Base ── */
 body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem;margin:0}
