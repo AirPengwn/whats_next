@@ -42,12 +42,9 @@ a:hover{text-decoration:underline}
 .item-title{font-size:14px;font-weight:500;color:var(--t1);line-height:1.4;margin-bottom:1px}
 .item-org{font-size:12px;color:var(--t3);margin-bottom:.35rem}
 .item-pills{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:.4rem}
-.ip{font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px}
-.ip-grad{background:var(--teal-bg);color:var(--teal-t)}
-.ip-intern{background:var(--blue-bg);color:var(--blue)}
-.ip-job{background:#eeedfe;color:#534ab7}
-.ip-service{background:var(--amber-bg);color:var(--amber-t)}
-.ip-next{background:var(--bg2);color:var(--t3);border:.5px solid var(--bd)}
+/* v2.0 card-discipline: type pills are category info → neutral hairline chips */
+.ip{font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px;background:transparent;color:var(--mute-t);border:1px solid var(--bds);white-space:nowrap}
+.ip-grad,.ip-intern,.ip-job,.ip-service,.ip-next{background:transparent;color:var(--t3);border:1px solid var(--bds)}
 
 .item-meta{display:flex;flex-wrap:wrap;gap:4px 16px;margin-bottom:.4rem;font-size:12px;color:var(--t2)}
 .im-lbl{font-weight:500;color:var(--t1)}
@@ -235,7 +232,8 @@ html:not(.dark) {
 .id-meta-item{font-size:12px;color:var(--t2)}
 .id-meta-item strong{color:var(--t1);font-weight:600}
 .id-pills{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:.5rem}
-.id-pill{font-size:11px;font-weight:500;padding:2px 8px;border-radius:999px;background:var(--teal-bg);color:var(--teal-t)}
+/* v2.0: Focus-area pills are category info → neutral hairline chip */
+var(--mute-t);border:1px solid var(--bds)}
 .id-link{display:inline-block;font-size:12px;font-weight:500;color:var(--teal-t);text-decoration:none;margin-top:.4rem;padding:4px 10px;border:1px solid var(--teal);border-radius:6px}
 .id-link-primary{background:var(--teal);color:#fff;font-weight:600}
 .id-link-primary:hover{opacity:.88}
