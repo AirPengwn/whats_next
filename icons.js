@@ -30,6 +30,11 @@
     inbox:     function(s){ return svg('<path d="m2.5 9 2-5h9l2 5v5.5a.5.5 0 0 1-.5.5h-12a.5.5 0 0 1-.5-.5z"/><path d="M2.5 9h4l1 1.5h3L11.5 9h4"/>', s); },
     /* v2.1 Phase A — clock + check, added so chrome emoji can be fully converted */
     clock:     function(s){ return svg('<circle cx="9" cy="9" r="6.5"/><path d="M9 5v4l2.5 1.5"/>', s); },
-    check:     function(s){ return svg('<path d="M3.5 9.5 7 13l7.5-8"/>', s); }
+    check:     function(s){ return svg('<path d="M3.5 9.5 7 13l7.5-8"/>', s); },
+    /* v2.1 emoji-sweep finish — dashboard action glyphs (all 1.5px stroke, 18 viewBox) */
+    mail:      function(s){ return svg('<rect x="2.5" y="4.5" width="13" height="9" rx="1"/><path d="m3 5 6 4.5L15 5"/>', s); },
+    bolt:      function(s){ return svg('<path d="M10 2 4 10h4l-1 6 6-8H9z"/>', s); },
+    alert:     function(s){ return svg('<path d="M9 2.5 16 14.5H2z"/><path d="M9 7v3.5M9 12.5v.5"/>', s); },
+    wave:      function(s){ return svg('<path d="M5 6c0-1 1-2 2-2s2 1 2 2v3"/><path d="M9 5c0-1 1-2 2-2s2 1 2 2v4"/><path d="M13 6c0-1 .8-2 1.6-2s1.4 1 1.4 2v5c0 2.5-2 4.5-4.5 4.5S7 13.5 7 11V8c0-.8-.7-1.5-1.5-1.5S4 7.2 4 8"/>', s); }
   };
 })();

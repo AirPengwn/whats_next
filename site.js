@@ -5,7 +5,7 @@
    ═══════════════════════════════════════════════════════════ */
 
 /* build-stamped version + build (build.js patches these lines each release) */
-var WN_VERSION = '2.12';
+var WN_VERSION = '2.13';
 var WN_BUILD   = '20260602-97-ac4d518d';
 
 /* ── 1. Sync hook ──────────────────────────────────────────
@@ -35,6 +35,18 @@ var WN_BUILD   = '20260602-97-ac4d518d';
 
 /* ── 2. DOMContentLoaded: active nav + sync indicator + read-only mode ── */
 document.addEventListener('DOMContentLoaded', function(){
+
+  /* v2.1 emoji-sweep finish: resolve any <span data-i="iconName"> placeholder
+     to a line-icon SVG. Lets `.tip` boxes and other section glyphs across
+     pages use `<span class="tip-icon" data-i="archive"></span>` without each
+     page needing its own bootstrap. */
+  (function(){
+    if(!window.WN_ICONS) return;
+    document.querySelectorAll('[data-i]').forEach(function(el){
+      var name = el.getAttribute('data-i');
+      if(WN_ICONS[name]) el.innerHTML = WN_ICONS[name](16);
+    });
+  })();
 
   /* ── v2.0 Phase 2.3: rebuild the global nav into the compact 3-group form ──
      One source of truth — replaces hand-edited 17-link wrapping bar on every

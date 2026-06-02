@@ -148,7 +148,7 @@ body{padding:0 0 3rem}
 
 <div class="page-header">
   <div class="page-header-eyebrow">What's Next for Erin</div>
-  <div class="page-header-title">&#9878; Compare Opportunities</div>
+  <div class="page-header-title"><span class="page-title-icon" id="cmp-title-icon"></span>Compare Opportunities</div>
   <div class="page-header-sub">Select 2–4 saved items to compare side-by-side — deadlines, funding, location, research fit, and your tracker status.</div>
 </div>
 
@@ -461,7 +461,7 @@ function renderComparison(){
   if(!items.length){
     document.getElementById('sel-panel').style.display='none';
     document.getElementById('cmp-area').innerHTML=
-      '<div class="empty-state"><div class="empty-state-icon">&#9878;</div>'
+      '<div class="empty-state"><div class="empty-state-icon" id="cmp-empty-icon"></div>'
       +'<div class="empty-state-title">Nothing saved yet</div>'
       +'<div class="empty-state-body">Save opportunities in <a href="erin_mylist.html">My List</a> first, then come back here to compare them.</div></div>';
     return;
@@ -469,6 +469,12 @@ function renderComparison(){
   renderFilters();
   renderGrid();
   updateSelCount();
+})();
+/* v2.1 emoji-sweep finish: render page-title + empty-state glyphs as line icons */
+(function(){
+  if(!window.WN_ICONS) return;
+  var t=document.getElementById('cmp-title-icon'); if(t) t.innerHTML=WN_ICONS.compare(22);
+  var e=document.getElementById('cmp-empty-icon'); if(e) e.innerHTML=WN_ICONS.compare(32);
 })();
 </script>
 <script>
