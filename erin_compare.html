@@ -33,7 +33,18 @@ body{padding:0 0 3rem}
 .clear-btn:hover{background:var(--bg2)}
 .sel-count{font-size:12.5px;color:var(--t3)}
 
-/* ── v2.0 Phase 4c: Compare table polish (per mockup) — more air, stronger label column ── */
+/* v2.1 Phase C: collapsed selection strip (shown once a comparison is rendered) */
+.sel-strip{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:.7rem 1rem;margin-bottom:1.1rem;display:flex;align-items:center;gap:.6rem;flex-wrap:wrap}
+.sel-strip-label{font-family:var(--mono);font-size:12.5px;font-weight:600;color:var(--t3);text-transform:uppercase;letter-spacing:.06em;flex-shrink:0}
+.sel-strip-chips{display:flex;gap:6px;flex-wrap:wrap;flex:1;min-width:0}
+.sel-strip-chip{font-size:12.5px;padding:3px 8px 3px 12px;border-radius:999px;background:var(--teal-bg);color:var(--teal-t);display:inline-flex;align-items:center;gap:6px;max-width:280px}
+.sel-strip-chip .ss-name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sel-strip-chip .ss-x{cursor:pointer;opacity:.6;font-weight:600;flex-shrink:0;padding:0 2px;border:none;background:none;color:inherit;font-size:13px;line-height:1}
+.sel-strip-chip .ss-x:hover{opacity:1}
+.sel-strip-edit{font-size:12.5px;font-weight:500;padding:4px 12px;border-radius:999px;border:.5px dashed var(--bds);background:transparent;color:var(--t3);cursor:pointer;font-family:var(--fn);flex-shrink:0}
+.sel-strip-edit:hover{color:var(--t1);border-color:var(--t1)}
+
+/* ── v2.0 Phase 4c: Compare table polish (per mockup) ── */
 .cmp-wrap{overflow-x:auto;margin-bottom:1.25rem;background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2)}
 .cmp-table{width:100%;border-collapse:separate;border-spacing:0;min-width:460px}
 .cmp-table th,.cmp-table td{padding:.85rem 1rem;text-align:left;border-bottom:.5px solid var(--bd);vertical-align:top}
@@ -141,7 +152,7 @@ body{padding:0 0 3rem}
   <div class="page-header-sub">Select 2–4 saved items to compare side-by-side — deadlines, funding, location, research fit, and your tracker status.</div>
 </div>
 
-<!-- Selector panel -->
+<!-- Selector panel (full grid — shown when nothing is yet compared) -->
 <div class="sel-panel" id="sel-panel">
   <div class="sel-intro">Choose up to 4 opportunities from your saved list. Use the filters to narrow by category.</div>
   <div class="sel-filters" id="sel-filters"></div>
@@ -151,6 +162,13 @@ body{padding:0 0 3rem}
     <button class="clear-btn" id="clear-btn">Clear all</button>
     <span class="sel-count" id="sel-count">0 of 4 selected</span>
   </div>
+</div>
+
+<!-- v2.1 Phase C: compact selection strip — replaces full grid once a comparison is active -->
+<div class="sel-strip" id="sel-strip" style="display:none">
+  <span class="sel-strip-label">Comparing</span>
+  <div class="sel-strip-chips" id="sel-strip-chips"></div>
+  <button class="sel-strip-edit" id="sel-strip-edit" type="button">Edit selection</button>
 </div>
 
 <!-- Comparison table (shown after clicking Compare) -->
@@ -269,9 +287,41 @@ document.getElementById('compare-btn').onclick=function(){
 };
 
 // ── Comparison table ──
+/* v2.1 Phase C: collapse the selector grid to a compact chip strip once a
+   comparison is active. Edit-selection re-expands the full grid. */
+function renderSelStrip(){
+  var items=Object.values(selected);
+  var strip=document.getElementById('sel-strip');
+  var chips=document.getElementById('sel-strip-chips');
+  var panel=document.getElementById('sel-panel');
+  if(!strip||!chips||!panel) return;
+  if(items.length<2){ strip.style.display='none'; panel.style.display=''; return; }
+  chips.innerHTML='';
+  items.forEach(function(it){
+    var c=document.createElement('span'); c.className='sel-strip-chip';
+    var n=document.createElement('span'); n.className='ss-name'; n.textContent=(it.title||'').split('—')[0].trim();
+    var x=document.createElement('button'); x.className='ss-x'; x.type='button'; x.textContent='×'; x.title='Remove from comparison';
+    x.onclick=function(){ delete selected[it.id]; renderGrid(); updateSelCount(); renderComparison(); };
+    c.appendChild(n); c.appendChild(x); chips.appendChild(c);
+  });
+  panel.style.display='none';
+  strip.style.display='';
+}
+/* Wire the "Edit selection" button once */
+(function(){
+  var ed=document.getElementById('sel-strip-edit');
+  if(ed) ed.onclick=function(){
+    var panel=document.getElementById('sel-panel'), strip=document.getElementById('sel-strip');
+    if(panel) panel.style.display='';
+    if(strip) strip.style.display='none';
+    if(panel) panel.scrollIntoView({behavior:'smooth',block:'start'});
+  };
+})();
+
 function renderComparison(){
   var items=Object.values(selected);
-  if(items.length<2) return;
+  if(items.length<2){ renderSelStrip(); return; }
+  renderSelStrip();
   var apps=loadApps();
   var profs=loadProfs();
 

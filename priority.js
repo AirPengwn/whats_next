@@ -6,6 +6,10 @@
    ═════════════════════════════════════════════════════════════════ */
 (function(){
   var BIN='6a039aa4250b1311c33f2bac', KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
+  /* v2.1 Phase A: chrome icon strings (line-icon SVG via icons.js, with emoji fallback if WN_ICONS missing) */
+  var ICO_CLOCK=(window.WN_ICONS?WN_ICONS.clock(18):'⏳'),
+      ICO_CAL=(window.WN_ICONS?WN_ICONS.calendar(18):'📅'),
+      ICO_CHECK=(window.WN_ICONS?WN_ICONS.check(18):'✅');
   function isPrimary(){ return localStorage.getItem('erin_primary_device')==='1'; }
   var SL={notstarted:'Not started',gathering:'Gathering materials',submitted:'Submitted',review:'Under review',interview:'Interview / heard back',decision:'Decision received',accepted:'Accepted',declined:'Declined',waitlisted:'Waitlisted'};
   var DONE={submitted:1,review:1,interview:1,decision:1,accepted:1,declined:1,waitlisted:1};
@@ -35,8 +39,8 @@
     }
     // R1 deadlines
     apps.forEach(function(a){ var st=a.status||'notstarted'; if(DONE[st]) return; var d=dayDiff(a.deadline); if(d==null||d<0) return;
-      if(d<=14) A.push({weight:200-d,klass:'pr-urgent',emoji:'⏳',title:'URGENT — '+(a.programTitle||'application').split('—')[0].trim()+' deadline in '+d+'d',detail:(a.org?a.org+' · ':'')+'status: '+(SL[st]||st),cta:'Open application',link:'erin_applications.html#acard-'+a.id,full:full({app:a})});
-      else if(d<=30) A.push({weight:120-d,klass:'pr-high',emoji:'📅',title:(a.programTitle||'application').split('—')[0].trim()+' deadline in '+d+'d',detail:(a.org?a.org+' · ':'')+'status: '+(SL[st]||st),cta:'Open application',link:'erin_applications.html#acard-'+a.id,full:full({app:a})});
+      if(d<=14) A.push({weight:200-d,klass:'pr-urgent',emoji:ICO_CLOCK,title:'URGENT — '+(a.programTitle||'application').split('—')[0].trim()+' deadline in '+d+'d',detail:(a.org?a.org+' · ':'')+'status: '+(SL[st]||st),cta:'Open application',link:'erin_applications.html#acard-'+a.id,full:full({app:a})});
+      else if(d<=30) A.push({weight:120-d,klass:'pr-high',emoji:ICO_CAL,title:(a.programTitle||'application').split('—')[0].trim()+' deadline in '+d+'d',detail:(a.org?a.org+' · ':'')+'status: '+(SL[st]||st),cta:'Open application',link:'erin_applications.html#acard-'+a.id,full:full({app:a})});
     });
     // R2 stale prof follow-ups
     profs.forEach(function(p){ if(p.status!=='contacted'||!p.dateEmailed) return; var s=dayDiff(p.dateEmailed); if(s==null) return; s=-s; if(s>=14) A.push({weight:90+Math.min(s-14,40),klass:'pr-high',emoji:'📧',title:'Follow up with '+(p.professor||'professor'),detail:'Emailed '+s+'d ago · '+(p.programTitle||'').split('—')[0].trim().slice(0,42)+' · no response logged',cta:'Open contact',link:'erin_proftracker.html#pcard-'+p.id,full:full({prof:p})}); });
@@ -78,7 +82,7 @@
     var h='<div class="pd-section"><div class="pd-sec-head"><div class="pd-sec-title">⏰ Deadlines in the next 14 days</div><span class="pd-sec-count">'+list.length+'</span></div>';
     h+='<div class="pd-sec-sub">Always shown — even ones that didn’t make the prioritized list above.</div>';
     if(!list.length){
-      h+='<div class="pd-empty-dl">✅ No deadlines in the next 14 days — nothing time-critical right now.</div>';
+      h+='<div class="pd-empty-dl"><span class="pd-empty-icon">'+ICO_CHECK+'</span> No deadlines in the next 14 days — nothing time-critical right now.</div>';
     } else {
       list.slice(0,8).forEach(function(o){
         var over=o.d<0, num, lbl;
@@ -93,14 +97,14 @@
       });
       if(list.length>8) h+='<div class="pd-more">+ '+(list.length-8)+' more with deadlines</div>';
     }
-    h+='<div class="pd-foot">📅 <a href="erin_timeline.html">See all deadlines on the Timeline →</a></div></div>';
+    h+='<div class="pd-foot"><span class="pd-foot-icon">'+ICO_CAL+'</span> <a href="erin_timeline.html">See all deadlines on the Timeline &rarr;</a></div></div>';
     box.innerHTML=h;
   }
   function render(){
     try{ renderDeadlines(); }catch(e){}
     var A=buildActions(), top=A.slice(0,5), c=document.getElementById('pd-actions'), ce=document.getElementById('pd-count');
     if(!c) return; c.innerHTML='';
-    if(!top.length){ if(ce) ce.textContent=''; c.innerHTML='<div class="pd-empty"><span class="pd-empty-emoji">✅</span>All caught up — no urgent actions surfaced right now.</div>'; return; }
+    if(!top.length){ if(ce) ce.textContent=''; c.innerHTML='<div class="pd-empty"><span class="pd-empty-emoji">'+ICO_CHECK+'</span>All caught up — no urgent actions surfaced right now.</div>'; return; }
     if(ce) ce.textContent=A.length+' total';
     top.forEach(function(a){
       var w=document.createElement('div'), card=document.createElement('a');

@@ -27,6 +27,9 @@
     leaf:      function(s){ return svg('<path d="M3 15c0-6 4-11 12-12-.5 8-5 12-11 12.5"/><path d="M3 15c2.5-3 5-5 8-7"/>', s); },
     book:      function(s){ return svg('<path d="M3 4a1 1 0 0 1 1-1h4a2 2 0 0 1 2 2v10a2 2 0 0 0-2-2H4a1 1 0 0 1-1-1z"/><path d="M15 4a1 1 0 0 0-1-1h-4a2 2 0 0 0-2 2v10a2 2 0 0 1 2-2h4a1 1 0 0 0 1-1z"/>', s); },
     printer:   function(s){ return svg('<path d="M5 6V3h8v3M3 6h12a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-2v2H5v-2H3a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1z"/><circle cx="13" cy="9" r=".5" fill="currentColor"/>', s); },
-    inbox:     function(s){ return svg('<path d="m2.5 9 2-5h9l2 5v5.5a.5.5 0 0 1-.5.5h-12a.5.5 0 0 1-.5-.5z"/><path d="M2.5 9h4l1 1.5h3L11.5 9h4"/>', s); }
+    inbox:     function(s){ return svg('<path d="m2.5 9 2-5h9l2 5v5.5a.5.5 0 0 1-.5.5h-12a.5.5 0 0 1-.5-.5z"/><path d="M2.5 9h4l1 1.5h3L11.5 9h4"/>', s); },
+    /* v2.1 Phase A — clock + check, added so chrome emoji can be fully converted */
+    clock:     function(s){ return svg('<circle cx="9" cy="9" r="6.5"/><path d="M9 5v4l2.5 1.5"/>', s); },
+    check:     function(s){ return svg('<path d="M3.5 9.5 7 13l7.5-8"/>', s); }
   };
 })();

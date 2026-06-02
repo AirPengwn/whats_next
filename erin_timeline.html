@@ -45,7 +45,12 @@ html.dark .s-updated{background:#2d2563;color:#b5abfa}
 .cal-cell.has-deadline{cursor:pointer;font-weight:600}
 .cal-cell.has-deadline:hover{background:var(--bg2)}
 .cal-cell.past{color:var(--t3);opacity:.5}
-.cal-dot{width:5px;height:5px;border-radius:50%;position:absolute;bottom:2px;left:50%;transform:translateX(-50%)}
+/* v2.1 Phase B: dual encoding — color + size + fill so calendar reads in greyscale */
+.cal-dot{width:5px;height:5px;border-radius:50%;position:absolute;bottom:2px;left:50%;transform:translateX(-50%);box-sizing:border-box}
+.cal-dot.ld-urgent{width:7px;height:7px;background:#e53935;border:none}
+.cal-dot.ld-soon{width:6px;height:6px;background:#fb8c00;border:none}
+.cal-dot.ld-ok{width:6px;height:6px;background:transparent;border:1.5px solid #4e9836}
+.cal-dot.ld-future{width:5px;height:5px;background:transparent;border:1.5px solid var(--t3)}
 .ld-urgent{background:#e53935}
 .ld-soon{background:#fb8c00}
 .ld-ok{background:#4e9836}
@@ -56,7 +61,12 @@ html.dark .s-updated{background:#2d2563;color:#b5abfa}
 .tip{border-left:3px solid var(--teal);background:var(--bg2);padding:.75rem 1rem;font-size:13px;color:var(--t2);line-height:1.55;margin-bottom:1rem;border-radius:0 var(--r1) var(--r1) 0}
 .legend{display:flex;flex-wrap:wrap;gap:.5rem 1.25rem;margin-bottom:1rem;align-items:center}
 .leg-item{display:flex;align-items:center;gap:6px;font-size:12.5px;color:var(--t2)}
-.leg-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
+/* v2.1 Phase B: legend dots mirror calendar's size/fill language */
+.leg-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0;box-sizing:border-box}
+.leg-dot.ld-urgent{width:12px;height:12px;background:#e53935;border:none}
+.leg-dot.ld-soon{width:10px;height:10px;background:#fb8c00;border:none}
+.leg-dot.ld-ok{width:10px;height:10px;background:transparent;border:2px solid #4e9836}
+.leg-dot.ld-future{width:9px;height:9px;background:transparent;border:2px solid var(--t3)}
 .action-strip{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:.85rem 1.1rem;margin-bottom:1.25rem}
 .action-title{font-size:12.5px;font-weight:600;color:var(--t3);text-transform:uppercase;letter-spacing:.06em;margin-bottom:.5rem}
 .action-row{display:flex;align-items:flex-start;gap:.5rem;font-size:13px;color:var(--t2);margin-bottom:.3rem}
@@ -327,7 +337,8 @@ function render(){
     body.appendChild(grid);
 
     var calTip=document.createElement('div'); calTip.className='tip';
-    calTip.innerHTML='&#128310;&nbsp; <strong>Red</strong> = within 30 days &middot; <strong>Amber</strong> = within 90 days &middot; <strong>Teal</strong> = within 9 months. Click any marked date for full details.';
+    /* v2.1 Phase A: dropped 🔶 — the legend dots already show the colors */
+    calTip.innerHTML='<strong>Red</strong> = within 30 days &middot; <strong>Amber</strong> = within 90 days &middot; <strong>Teal</strong> = within 9 months. Click any marked date for full details.';
     body.appendChild(calTip);
   }
 

@@ -65,15 +65,15 @@ a:hover{text-decoration:underline}
 /* status pipeline legend */
 .pipeline{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:1.25rem;align-items:center}
 .pipe-step{font-size:12.5px;font-weight:500;padding:3px 10px;border-radius:999px}
-.ps-notstarted{background:var(--bg2);color:var(--t3);border:.5px solid var(--bd)}
-.ps-gathering{background:var(--amber-bg);color:var(--amber-t)}
-.ps-submitted{background:var(--blue-bg);color:var(--blue)}
-.ps-review{background:var(--purple-bg);color:var(--purple-t)}
-.ps-interview{background:#e6f1fb;color:#185fa5;border:1px solid #185fa5}
-.ps-decision{background:var(--teal-bg);color:var(--teal-t)}
-.ps-accepted{background:#e1f5ee;color:#0f6e56;border:1.5px solid #0f6e56}
-.ps-declined{background:var(--red-bg);color:var(--red-t)}
-.ps-waitlisted{background:var(--amber-bg);color:var(--amber-t);border:1.5px solid #ef9f27}
+/* v2.1 Phase D.2: one quiet family for the six in-progress stages.
+   Position in the arrow sequence already says which stage you're at. */
+.ps-notstarted,.ps-gathering,.ps-submitted,.ps-review,.ps-interview,.ps-decision{
+  background:transparent;color:var(--mute-t);border:1px solid var(--bds);font-weight:500
+}
+/* Reserve saturated color for the three OUTCOMES that demand a reaction */
+.ps-accepted{background:var(--teal-bg);color:var(--teal-t);border:1.5px solid var(--teal);font-weight:600}
+.ps-declined{background:var(--red-bg);color:var(--red-t);font-weight:600}
+.ps-waitlisted{background:var(--amber-bg);color:var(--amber-t);border:1.5px solid #ef9f27;font-weight:600}
 .pipe-arrow{font-size:14px;color:var(--t3)}
 
 /* v2.0 Phase 4d: app card is two-column on desktop (main form + sidebar) */
@@ -92,13 +92,10 @@ a:hover{text-decoration:underline}
 .sb-val.sb-soon{color:var(--amber-t)}
 .sb-val.sb-ok{color:var(--teal-t)}
 .sb-val.sb-past{color:var(--t3);text-decoration:line-through}
-.app-card.status-gathering{border-left:3px solid #ef9f27}
-.app-card.status-submitted{border-left:3px solid #185fa5}
-.app-card.status-review{border-left:3px solid #534ab7}
-.app-card.status-interview{border-left:3px solid #185fa5}
-.app-card.status-decision{border-left:3px solid var(--teal)}
-.app-card.status-accepted{border-left:3px solid #0f6e56;background:var(--teal-bg)}
-.app-card.status-declined{border-left:3px solid #993c1d;opacity:.7}
+/* v2.1 Phase D.2: in-progress stages share the default card border — no colored
+   left-rule. Only the three OUTCOMES still flag the card. */
+.app-card.status-accepted{border-left:3px solid var(--teal);background:var(--teal-bg)}
+.app-card.status-declined{border-left:3px solid var(--red);opacity:.75}
 .app-card.status-waitlisted{border-left:3px solid #ef9f27}
 .app-header{display:flex;align-items:flex-start;justify-content:space-between;gap:.75rem;margin-bottom:.5rem;flex-wrap:wrap}
 .app-title{font-size:14px;font-weight:500;color:var(--t1);line-height:1.4}
@@ -260,7 +257,8 @@ html:not(.dark){
   <div class="page-header-title">Application Tracker</div>
   <div class="page-header-sub">Track every application — status, portal, materials, and decision &mdash; <span id="app-count" style="color:var(--teal-t);font-weight:500"></span></div>
 </div>
-<div class="tip">&#127919;&nbsp; Auto-populated from your saved <strong>Graduate Programs</strong> in My List. Track every application from first draft through decision. Use the materials checklist on each card to know exactly what&rsquo;s done and what&rsquo;s left.</div>
+<div class="tip"><span class="tip-icon" id="tip-clipboard-icon"></span> Auto-populated from your saved <strong>Graduate Programs</strong> in My List. Track every application from first draft through decision. Use the materials checklist on each card to know exactly what&rsquo;s done and what&rsquo;s left.</div>
+<script>(function(){var e=document.getElementById('tip-clipboard-icon');if(e&&window.WN_ICONS)e.innerHTML=WN_ICONS.clipboard(16);})();</script>
 
   <!-- Pipeline legend -->
   <div class="pipeline">
@@ -697,9 +695,9 @@ function renderCards(){
         var days = Math.ceil((dlDate - today) / 864e5);
         var cls = days <= 0 ? 'sb-past' : days < 30 ? 'sb-urgent' : days < 90 ? 'sb-soon' : 'sb-ok';
         var label = days < 0 ? Math.abs(days)+'d ago' : days === 0 ? 'today' : days+'d left';
-        sideHtml += '<div class="sb-sec"><div class="sb-lbl">Deadline</div><div class="sb-val '+cls+'">'+label+'</div><div class="sb-meta">'+app.deadline+'</div></div>';
+        sideHtml += '<div class="sb-sec"><div class="sb-lbl">Next deadline</div><div class="sb-val '+cls+'">'+label+'</div><div class="sb-meta">'+app.deadline+'</div></div>';
       } else {
-        sideHtml += '<div class="sb-sec"><div class="sb-lbl">Deadline</div><div class="sb-val">'+app.deadline+'</div></div>';
+        sideHtml += '<div class="sb-sec"><div class="sb-lbl">Next deadline</div><div class="sb-val">'+app.deadline+'</div></div>';
       }
     }
     // Materials count
