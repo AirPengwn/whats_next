@@ -5,7 +5,7 @@
    ═══════════════════════════════════════════════════════════ */
 
 /* build-stamped version + build (build.js patches these lines each release) */
-var WN_VERSION = '2.03';
+var WN_VERSION = '2.04';
 var WN_BUILD   = '20260602-97-ac4d518d';
 
 /* ── 1. Sync hook ──────────────────────────────────────────
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function(){
     span.className = 'gnav-sync';
     span.title = 'Last cloud sync';
     /* Inline styles — match version badge dimensions exactly, teal-tinted */
-    span.style.cssText = 'font-size:9px;color:var(--teal-t);padding:1px 6px;background:var(--teal-bg);border-radius:3px;white-space:nowrap;flex-shrink:0;margin-left:6px;border:.5px solid var(--teal);align-self:center;box-sizing:border-box;font-family:var(--fn)';
+    span.style.cssText = 'font-size:12.5px;color:var(--teal-t);padding:2px 8px;background:var(--teal-bg);border-radius:6px;white-space:nowrap;flex-shrink:0;margin-left:6px;border:.5px solid var(--teal);align-self:center;box-sizing:border-box;font-family:var(--fn);font-weight:500';
     /* Dock the chip beside the theme toggle (right side), NOT inside the
        wrapping link row — keeps the header identical on every page. */
     var tog = document.getElementById('theme-toggle');
@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function(){
     span.className = 'gnav-version';
     span.title = fullTitle;
     span.textContent = shortLabel;
-    span.style.cssText = 'font-size:9px;color:var(--t3);padding:1px 6px;background:var(--bg2);border-radius:3px;white-space:nowrap;flex-shrink:0;margin-left:4px;border:.5px solid var(--bd);align-self:center;box-sizing:border-box;font-family:var(--fn)';
+    span.style.cssText = 'font-size:12.5px;color:var(--t3);padding:2px 8px;background:var(--bg2);border-radius:6px;white-space:nowrap;flex-shrink:0;margin-left:4px;border:.5px solid var(--bd);align-self:center;box-sizing:border-box;font-family:var(--fn);font-weight:500';
     var tog = document.getElementById('theme-toggle');
     if(tog && tog.parentNode === wrap) wrap.insertBefore(span, tog);
     else wrap.appendChild(span);
@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', function(){
       'width:100%',
       'box-sizing:border-box',
       'text-align:center',
-      'font-size:10px',
+      'font-size:12.5px',
       'font-weight:400',
       'font-family:var(--fn)',
       'color:var(--amber-t)',

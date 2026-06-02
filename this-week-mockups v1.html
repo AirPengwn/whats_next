@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>This Week — Mockups</title>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<style>
+  /* "Site" tokens — reproduce the actual styles.css palette/type so mockups
+     look identical to the real site. */
+  .site{
+    --bg:#FAFAFA;--bg2:#F5F5F5;--bg3:#EEEEEE;
+    --t1:#212121;--t2:#424242;--t3:#757575;
+    --bd:rgba(0,0,0,0.10);--bds:rgba(0,0,0,0.22);
+    --r1:8px;--r2:12px;
+    --fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    --teal:#4e9836;--teal-bg:#eaf3e5;--teal-t:#3c7b20;
+    --blue:#3a7878;--blue-bg:#e5f0f0;
+    --amber:#8a6f00;--amber-bg:#f5f0db;--amber-t:#6b5500;
+    --red:#993c1d;--red-bg:#faece7;
+    --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
+    font-family:var(--fn);background:var(--bg3);color:var(--t1);
+    width:100%;height:100%;overflow:hidden;
+  }
+  .site *{box-sizing:border-box}
+  .site a{color:inherit;text-decoration:none}
+
+  /* mark-up of changed elements in "after" artboards */
+  .annot{position:absolute;font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:12.5px;color:#a33828;letter-spacing:.04em;font-weight:500;pointer-events:none;line-height:1.35}
+  .annot::before{content:"";position:absolute;width:14px;height:1px;background:#a33828}
+  .annot.r::before{right:100%;top:7px;margin-right:4px}
+  .annot.l::before{left:100%;top:7px;margin-left:4px}
+  .annot.t::before{display:none}
+  .annot-dot{width:7px;height:7px;border-radius:50%;background:#a33828;position:absolute;outline:2px solid rgba(163,56,40,0.18)}
+</style>
+</head>
+<body>
+<div id="root"></div>
+
+<script type="text/babel" src="design-canvas.jsx?v=3"></script>
+
+<script type="text/babel" data-presets="env,react">
+const { useState } = React;
+
+/* ═════════════════════════════════════════════════════════════════════════
+   Shared site UI fragments — drawn to match the real styles.css.
+   Each fragment takes an optional `size` override prop so the Before and
+   After versions can reuse the same layout with different scales.
+   ═════════════════════════════════════════════════════════════════════════ */
+
+function GlobalNav({ scale = 'before', collapsedPhone = false, focusedIdx = null }) {
+  // scale: 'before' = 9/11px ; 'after' = 10.5/13px
+  const v = scale === 'before'
+    ? { gl: 9, link: 11, home: 12, pad: '8px 5px' }
+    : { gl: 10.5, link: 13, home: 13.5, pad: '9px 7px' };
+
+  const focusRing = (i) => focusedIdx === i ? {
+    outline: '2px solid #4e9836',
+    outlineOffset: 2,
+    borderRadius: 4,
+  } : {};
+
+  if (collapsedPhone) {
+    // After-phone: Home + Search + active group only + More
+    return (
+      <nav style={{ background: 'var(--bg)', borderBottom: '.5px solid var(--bd)', padding: '0 12px' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 4, padding: '8px 0', flexWrap: 'wrap' }}>
+          <a style={{ fontSize: 13, fontWeight: 600, color: 'var(--t1)', padding: '6px 8px 6px 0', borderRight: '.5px solid var(--bd)', marginRight: 4 }}>🏠 Home</a>
+          <a style={{ fontSize: 12, color: 'var(--t3)', padding: '6px 6px', fontWeight: 500 }}>🔍 Search</a>
+          <span style={{ width: 1, height: 14, background: 'var(--bd)', margin: '0 6px' }} />
+          <span style={{ fontSize: 10.5, fontWeight: 700, letterSpacing: '.05em', textTransform: 'uppercase', padding: '3px 7px', borderRadius: 4, background: 'var(--teal-bg)', color: 'var(--teal-t)' }}>Track</span>
+          <a style={{ fontSize: 12.5, color: 'var(--teal-t)', borderBottom: '2px solid var(--teal)', padding: '6px 5px', fontWeight: 600 }}>★ My List</a>
+          <a style={{ fontSize: 12.5, color: 'var(--t2)', padding: '6px 5px', fontWeight: 500 }}>📅 Timeline</a>
+          <a style={{ fontSize: 12.5, color: 'var(--t2)', padding: '6px 5px', fontWeight: 500 }}>📄 Apps</a>
+          <span style={{ marginLeft: 'auto', fontSize: 12, color: 'var(--t2)', padding: '5px 11px', border: '.5px solid var(--bds)', borderRadius: 999, fontWeight: 500, background: 'var(--bg2)' }}>More ▾</span>
+        </div>
+      </nav>
+    );
+  }
+
+  // Standard wide nav — Before or After at scale
+  const links = [
+    { label: '🏠 Home', home: true, group: 'home' },
+    { label: '🔍 Search' },
+    { div: true },
+    { gl: 'Track', cls: 't' },
+    { label: '★ My List' }, { label: '⚖ Compare' }, { label: '📊 Pipeline', active: true },
+    { label: '📅 Timeline' }, { label: '📄 Apps' }, { label: '👤 Profs' },
+    { label: '✎ Refs' }, { label: '📁 Archive' },
+    { div: true },
+    { gl: 'Browse', cls: 'b' },
+    { label: '🏛 Programs' }, { label: '📋 Internships' }, { label: '💼 Jobs' }, { label: '🌳 Service' },
+    { div: true },
+    { gl: 'Write', cls: 'w' },
+    { label: '📚 Materials' }, { label: '✎ Writing' }, { label: '🖨 Packet' },
+  ];
+
+  const glBg = { t: 'var(--teal-bg)', b: 'var(--blue-bg)', w: 'var(--amber-bg)' };
+  const glClr = { t: 'var(--teal-t)', b: 'var(--blue)', w: 'var(--amber-t)' };
+
+  return (
+    <nav style={{ background: 'var(--bg)', borderBottom: '.5px solid var(--bd)', padding: '0 16px' }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: '0 2px', flexWrap: 'wrap', padding: '0' }}>
+        {links.map((l, i) => {
+          if (l.div) return <span key={i} style={{ width: 1, height: 16, background: 'var(--bd)', margin: '0 4px' }} />;
+          if (l.gl) return (
+            <span key={i} style={{
+              fontSize: v.gl, fontWeight: 700, letterSpacing: '.05em', textTransform: 'uppercase',
+              padding: '2px 6px', borderRadius: 4, marginRight: 4,
+              background: glBg[l.cls], color: glClr[l.cls], lineHeight: 1,
+            }}>{l.gl}</span>
+          );
+          if (l.home) return <a key={i} style={{
+            fontSize: v.home, fontWeight: 600, color: 'var(--t1)', padding: '8px 8px 8px 0',
+            borderRight: '.5px solid var(--bd)', marginRight: 2, ...focusRing(i),
+          }}>{l.label}</a>;
+          return <a key={i} style={{
+            fontSize: v.link, fontWeight: 500, color: l.active ? 'var(--teal-t)' : 'var(--t3)',
+            borderBottom: l.active ? '2px solid var(--teal)' : '2px solid transparent',
+            padding: v.pad, ...focusRing(i),
+          }}>{l.label}</a>;
+        })}
+      </div>
+    </nav>
+  );
+}
+
+/* ═════════════════════════════════════════════════════════════════════════
+   1.  TYPE SCALE
+   ═════════════════════════════════════════════════════════════════════════ */
+
+function TypeScaleArtboard({ scale }) {
+  const v = scale === 'before'
+    ? { eyebrow: 11, title: 24, sub: 13, secLabel: 11, secCount: 11, cardTitle: 14, cardOrg: 12, cardMeta: 12, pill: 10, gl: 9 }
+    : { eyebrow: 11, title: 30, sub: 15, secLabel: 13, secCount: 11, cardTitle: 16, cardOrg: 13, cardMeta: 13, pill: 11, gl: 10.5 };
+
+  const ann = scale === 'after';
+
+  return (
+    <div className="site" style={{ position: 'relative', width: '100%', height: '100%' }}>
+      <GlobalNav scale={scale} />
+      <div style={{ maxWidth: 720, margin: '0 auto', padding: '0 16px' }}>
+        <div style={{ padding: '20px 0 14px', borderBottom: '.5px solid var(--bd)', marginBottom: 18, position: 'relative' }}>
+          <div style={{ fontSize: v.eyebrow, fontWeight: 500, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--teal-t)', marginBottom: 4 }}>What's Next for Erin</div>
+          <div style={{ fontSize: v.title, fontWeight: 700, color: 'var(--t1)', letterSpacing: '-.02em', marginBottom: 4, lineHeight: 1.15 }}>Funded Graduate Programs</div>
+          <div style={{ fontSize: v.sub, color: 'var(--t2)', lineHeight: 1.5 }}>Current &amp; next-cycle MS/PhD positions — sorted by urgency.</div>
+          {ann && <div className="annot l" style={{ left: 'calc(100% - 80px)', top: 32 }}>30px / 700<br/>was&nbsp;24</div>}
+          {ann && <div className="annot l" style={{ left: 'calc(100% - 80px)', top: 70 }}>15px<br/>was&nbsp;13</div>}
+        </div>
+
+        <div style={{ fontSize: v.secLabel, fontWeight: 600, letterSpacing: '.06em', textTransform: 'uppercase', color: 'var(--t1)', margin: '14px 0 10px', display: 'flex', alignItems: 'center', gap: 8, position: 'relative' }}>
+          Closing soon
+          <span style={{ fontSize: v.secCount, fontWeight: 500, padding: '1px 8px', borderRadius: 999, background: 'var(--red-bg)', color: '#993c1d', textTransform: 'none', letterSpacing: 0 }}>3</span>
+          {ann && <div className="annot l" style={{ left: 200, top: -2 }}>13px / 600<br/>was&nbsp;11&nbsp;/&nbsp;500</div>}
+        </div>
+
+        {/* Card */}
+        <div style={{ background: 'var(--bg)', border: '.5px solid var(--bd)', borderRadius: 12, padding: '14px 18px', marginBottom: 8, borderLeft: '3px solid #d63a1f', position: 'relative' }}>
+          <div style={{ fontSize: v.cardTitle, fontWeight: 600, color: 'var(--t1)', lineHeight: 1.35, marginBottom: 2 }}>MS Position — Wetland Carbon Dynamics</div>
+          <div style={{ fontSize: v.cardOrg, color: 'var(--t3)', marginBottom: 6 }}>University of Tennessee · Knoxville, TN</div>
+          <div style={{ fontSize: v.cardMeta, color: 'var(--t2)', marginBottom: 8, lineHeight: 1.5 }}>
+            Deadline: <strong style={{ color: '#993c1d' }}>Dec 15, 2026 · 28 days</strong> &nbsp;·&nbsp; Stipend $30k
+          </div>
+          <div style={{ display: 'flex', gap: 5, flexWrap: 'wrap' }}>
+            <span style={{ fontSize: v.pill, fontWeight: 700, padding: '2px 9px', borderRadius: 999, background: '#d63a1f', color: '#fff', letterSpacing: '.04em' }}>✨ NEW</span>
+            <span style={{ fontSize: v.pill, fontWeight: 600, padding: '2px 9px', borderRadius: 999, background: 'var(--teal-bg)', color: 'var(--teal-t)' }}>✓ Saved</span>
+            <span style={{ fontSize: v.pill, fontWeight: 700, padding: '2px 9px', borderRadius: 999, background: 'var(--red-bg)', color: '#993c1d' }}>28d left</span>
+            <span style={{ fontSize: v.pill, fontWeight: 600, padding: '2px 9px', borderRadius: 999, background: 'var(--teal-bg)', color: 'var(--teal-t)' }}>Graduate</span>
+          </div>
+          {ann && <div className="annot l" style={{ left: 'calc(100% - 90px)', top: 16 }}>16px / 600<br/>was&nbsp;14&nbsp;/&nbsp;500</div>}
+          {ann && <div className="annot l" style={{ left: 'calc(100% - 90px)', top: 78 }}>11px&nbsp;pill<br/>was&nbsp;10</div>}
+        </div>
+
+        <div style={{ background: 'var(--bg)', border: '.5px solid var(--bd)', borderRadius: 12, padding: '14px 18px', marginBottom: 8 }}>
+          <div style={{ fontSize: v.cardTitle, fontWeight: 600, color: 'var(--t1)', marginBottom: 2 }}>Coastal Wetland Restoration Crew</div>
+          <div style={{ fontSize: v.cardOrg, color: 'var(--t3)', marginBottom: 6 }}>The Nature Conservancy · Mobile Bay, AL</div>
+          <div style={{ fontSize: v.cardMeta, color: 'var(--t2)' }}>
+            Deadline: <strong style={{ color: 'var(--amber-t)' }}>Jan 31, 2027 · 75 days</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ═════════════════════════════════════════════════════════════════════════
+   2.  HOME, DEMOTED  —  before & after of the home page top-of-fold
+   ═════════════════════════════════════════════════════════════════════════ */
+
+function HomeBefore() {
+  return (
+    <div className="site" style={{ width: '100%', height: '100%', overflow: 'auto' }}>
+      <GlobalNav scale="before" />
+      <div style={{ maxWidth: 720, margin: '0 auto', padding: '0 16px' }}>
+
+        {/* Big masthead */}
+        <div style={{ padding: '20px 0 14px' }}>
+          <div style={{ fontSize: 11, fontWeight: 500, letterSpacing: '.12em', textTransform: 'uppercase', color: 'var(--t3)', marginBottom: 5 }}>Career &amp; Graduate School Planning</div>
+          <div style={{ fontSize: 30, fontWeight: 700, color: 'var(--t1)', letterSpacing: '-.02em', marginBottom: 5, lineHeight: 1.15 }}>What's Next for Erin</div>
+          <div style={{ fontSize: 13, color: 'var(--t2)', lineHeight: 1.5, marginBottom: 12 }}>A personalized resource hub — programs, internships, jobs &amp; trackers built for Erin Lamberton · BS Environmental Science, WCU '25 · Magna Cum Laude</div>
+          <div style={{ display: 'flex', gap: 10, padding: '11px 14px', background: 'var(--teal-bg)', border: '1px solid var(--teal)', borderRadius: 8 }}>
+            <div style={{ width: 8, height: 8, borderRadius: '50%', background: 'var(--teal)', marginTop: 5 }} />
+            <div style={{ flex: 1, fontSize: 12 }}>
+              <div style={{ fontSize: 13, fontWeight: 700, letterSpacing: '.04em', textTransform: 'uppercase', color: 'var(--teal-t)', marginBottom: 4 }}>Latest opportunity sweep — May 18, 2026</div>
+              <div style={{ color: 'var(--t2)' }}>New opportunities and refreshed deadlines. <span style={{ fontSize: 10, fontWeight: 700, background: 'var(--teal)', color: '#fff', padding: '2px 8px', borderRadius: 999 }}>✨ 7 new</span></div>
+            </div>
+          </div>
+        </div>
+
+        {/* Priority dashboard — collapsed (current default) */}
+        <div style={{ background: 'var(--bg)', border: '.5px solid var(--bd)', borderRadius: 12, padding: '14px 18px', marginBottom: 16, position: 'relative' }}>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+              <div style={{ fontSize: 18, fontWeight: 600 }}>🎯 What to do this week</div>
+              <span style={{ fontSize: 11, fontWeight: 600, padding: '2px 9px', borderRadius: 999, background: 'var(--teal-bg)', color: 'var(--teal-t)' }}>5</span>
+            </div>
+            <button style={{ fontSize: 12, background: 'var(--bg2)', border: '.5px solid var(--bd)', padding: '5px 12px', borderRadius: 8, color: 'var(--t2)' }}>Show ▾</button>
+          </div>
+          <div style={{ position: 'absolute', right: -120, top: 14, fontSize: 11, fontFamily: 'IBM Plex Mono,ui-monospace,monospace', color: '#a33828', width: 110, lineHeight: 1.35 }}>
+            <div style={{ borderTop: '1px solid #a33828', paddingTop: 4 }}>collapsed by default — hides the page's actual job</div>
+          </div>
+        </div>
+
+        {/* Hero biography — competes with everything */}
+        <div style={{ background: 'var(--bg)', border: '.5px solid var(--bd)', borderRadius: 12, padding: '22px 20px', marginBottom: 16, position: 'relative' }}>
+          <div style={{ display: 'flex', gap: 14, marginBottom: 14, alignItems: 'center' }}>
+            <div style={{ width: 56, height: 56, borderRadius: '50%', background: '#e1f5ee', color: '#0f6e56', fontWeight: 500, fontSize: 18, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>EL</div>
+            <div>
+              <div style={{ fontSize: 24, fontWeight: 500, marginBottom: 3 }}>Erin Lamberton</div>
+              <div style={{ fontSize: 13, color: 'var(--t2)' }}>BS Environmental Science · Western Carolina University · Magna Cum Laude · May 2025</div>
+            </div>
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: 10, marginBottom: 16 }}>
+            {[['3.731', 'Cumulative GPA'], ['Magna', 'Cum Laude'], ['5+', "Dean's List"], ['3', "Chancellor's"]].map(([v, l]) => (
+              <div key={l} style={{ background: 'var(--bg2)', borderRadius: 8, padding: '8px 10px' }}>
+                <div style={{ fontSize: 20, fontWeight: 500 }}>{v}</div>
+                <div style={{ fontSize: 11, color: 'var(--t3)', marginTop: 2 }}>{l}</div>
+              </div>
+            ))}
+          </div>
+
+          <div style={{ fontSize: 11, fontWeight: 500, letterSpacing: '.08em', textTransform: 'uppercase', color: 'var(--t3)', marginBottom: 10 }}>Why this profile is competitive</div>
+          <div style={{ fontSize: 13.5, color: 'var(--t2)', lineHeight: 1.8 }}>
+            <p style={{ marginBottom: 12 }}>Erin graduates with a rare combination of <strong style={{ color: 'var(--t1)', fontWeight: 500 }}>rigorous interdisciplinary coursework</strong> and <strong style={{ color: 'var(--t1)', fontWeight: 500 }}>genuine hands-on field experience</strong> across wetlands, water quality, wildlife ecology, and GIS — disciplines that rarely overlap…</p>
+            <p style={{ marginBottom: 12 }}>Her <strong style={{ color: 'var(--t1)', fontWeight: 500 }}>capstone research project</strong> — analyzing lead contamination in Pigeon River Basin sediments following Hurricane Helene (2024) — applied graduate-level methodology to a real, ongoing environmental disaster in her own backyard…</p>
+          </div>
+          <div style={{ position: 'absolute', right: -130, top: 80, fontSize: 11, fontFamily: 'IBM Plex Mono,ui-monospace,monospace', color: '#a33828', width: 120, lineHeight: 1.35 }}>
+            <div style={{ borderTop: '1px solid #a33828', paddingTop: 4 }}>4 paragraphs of biography above the priority dashboard. Wrong order.</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  );
+}
+
+function HomeAfter() {
+  return (
+    <div className="site" style={{ width: '100%', height: '100%', overflow: 'auto' }}>
+      <GlobalNav scale="after" />
+      <div style={{ maxWidth: 720, margin: '0 auto', padding: '0 16px' }}>
+
+        {/* Compact masthead — one line */}
+        <div style={{ padding: '20px 0 12px', display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', gap: 16, borderBottom: '.5px solid var(--bd)', marginBottom: 16, position: 'relative' }}>
+          <div>
+            <div style={{ fontSize: 11, fontWeight: 500, letterSpacing: '.12em', textTransform: 'uppercase', color: 'var(--t3)', marginBottom: 3 }}>Hello, Erin — Wednesday, May 20</div>
+            <div style={{ fontSize: 26, fontWeight: 700, color: 'var(--t1)', letterSpacing: '-.015em' }}>What's next</div>
+          </div>
+          <a style={{ fontSize: 12.5, color: 'var(--teal-t)', fontWeight: 500, padding: '5px 11px', border: '.5px solid var(--teal)', borderRadius: 999 }}>View bio &amp; profile →</a>
+          <div className="annot" style={{ left: -110, top: 22 }}>masthead<br/>compressed to<br/>one line</div>
+        </div>
+
+        {/* Sweep banner — kept */}
+        <div style={{ display: 'flex', gap: 10, padding: '11px 14px', background: 'var(--teal-bg)', border: '1px solid var(--teal)', borderRadius: 8, marginBottom: 16 }}>
+          <div style={{ width: 8, height: 8, borderRadius: '50%', background: 'var(--teal)', marginTop: 5 }} />
+          <div style={{ flex: 1 }}>
+            <div style={{ fontSize: 13, fontWeight: 700, letterSpacing: '.04em', textTransform: 'uppercase', color: 'var(--teal-t)', marginBottom: 3 }}>May 18 sweep — 7 new</div>
+            <div style={{ fontSize: 12.5, color: 'var(--t2)' }}>2 graduate · 3 internships · 2 service. Jump to <span style={{ color: 'var(--teal-t)', fontWeight: 500 }}>Browse →</span></div>
+          </div>
+        </div>
+
+        {/* Priority dashboard — DEFAULT EXPANDED */}
+        <div style={{ background: 'var(--bg)', border: '1px solid var(--bds)', borderRadius: 12, padding: '18px 20px', marginBottom: 16, position: 'relative', boxShadow: '0 1px 0 rgba(0,0,0,0.02)' }}>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 4 }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+              <div style={{ fontSize: 20, fontWeight: 600, letterSpacing: '-.005em' }}>What to do this week</div>
+              <span style={{ fontSize: 11, fontWeight: 700, padding: '2px 9px', borderRadius: 999, background: 'var(--teal-bg)', color: 'var(--teal-t)' }}>5</span>
+            </div>
+            <button style={{ fontSize: 12, background: 'transparent', border: 'none', color: 'var(--t3)', cursor: 'pointer' }}>Hide ▴</button>
+          </div>
+          <div style={{ fontSize: 12.5, color: 'var(--t3)', marginBottom: 14, lineHeight: 1.5 }}>Prioritized from every tracker. Click any card to jump there.</div>
+
+          {/* action cards */}
+          {[
+            { sev: '#993c1d', sevBg: '#faece7', emoji: '🔴', t: 'Submit UTK Wetland MS application', d: 'Deadline Dec 15 · 28 days · materials 80% complete' },
+            { sev: '#ef9f27', sevBg: '#f5f0db', emoji: '🟠', t: 'Email Dr. Forrester to confirm fit', d: 'Outreach drafted · waiting for your send' },
+            { sev: '#ef9f27', sevBg: '#f5f0db', emoji: '🟠', t: 'Get 3rd recommender confirmation', d: 'Dr. Stevens — last contact 12 days ago' },
+            { sev: '#4e9836', sevBg: 'transparent', emoji: '🟢', t: 'Polish SOP paragraph 3 (Helene capstone)', d: 'Draft saved · est. 30 min' },
+          ].map((a, i) => (
+            <div key={i} style={{ display: 'flex', gap: 10, padding: '10px 12px', background: a.sevBg, border: '.5px solid var(--bd)', borderLeft: `3px solid ${a.sev}`, borderRadius: 8, marginBottom: 6 }}>
+              <div style={{ fontSize: 12, paddingTop: 2 }}>{a.emoji}</div>
+              <div style={{ flex: 1 }}>
+                <div style={{ fontSize: 14, fontWeight: 600, color: 'var(--t1)', marginBottom: 2, lineHeight: 1.35 }}>{a.t}</div>
+                <div style={{ fontSize: 12, color: 'var(--t2)', lineHeight: 1.45 }}>{a.d}</div>
+              </div>
+              <div style={{ fontSize: 14, color: 'var(--t3)', alignSelf: 'center' }}>›</div>
+            </div>
+          ))}
+
+          {/* Upcoming deadlines mini-strip */}
+          <div style={{ marginTop: 14, paddingTop: 12, borderTop: '.5px solid var(--bd)' }}>
+            <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase', color: 'var(--t3)', marginBottom: 8 }}>Next deadlines</div>
+            <div style={{ display: 'flex', gap: 6 }}>
+              {[
+                ['28d', 'UTK Wetland MS', '#993c1d', '#faece7'],
+                ['45d', 'TNC Mobile Bay', '#ef9f27', '#f5f0db'],
+                ['62d', 'EPA STAR fellowship', '#ef9f27', '#f5f0db'],
+                ['90d', 'NCCC summer cohort', '#3c7b20', '#eaf3e5'],
+              ].map(([d, t, c, bg]) => (
+                <div key={t} style={{ flex: 1, padding: '8px 10px', background: bg, border: `.5px solid ${c}33`, borderRadius: 6 }}>
+                  <div style={{ fontSize: 14, fontWeight: 700, color: c }}>{d}</div>
+                  <div style={{ fontSize: 11, color: 'var(--t2)', marginTop: 2 }}>{t}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="annot l" style={{ left: 'calc(100% - 16px)', top: 14, width: 110 }}>default<br/>expanded</div>
+        </div>
+
+        {/* The "directory" tightened to three doors */}
+        <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase', color: 'var(--t3)', margin: '8px 0 10px' }}>Jump to</div>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 8, marginBottom: 12, position: 'relative' }}>
+          {[
+            { t: 'My list', d: '14 saved', icon: '★', accent: 'var(--teal-t)' },
+            { t: 'Browse', d: '92 records', icon: '⌖', accent: 'var(--blue)' },
+            { t: 'Timeline', d: '7 deadlines', icon: '▦', accent: 'var(--amber-t)' },
+          ].map((x) => (
+            <a key={x.t} style={{ background: 'var(--bg)', border: '.5px solid var(--bd)', borderRadius: 10, padding: '14px 14px' }}>
+              <div style={{ fontSize: 18, color: x.accent, marginBottom: 4 }}>{x.icon}</div>
+              <div style={{ fontSize: 15, fontWeight: 600, color: 'var(--t1)' }}>{x.t}</div>
+              <div style={{ fontSize: 12, color: 'var(--t3)', marginTop: 2 }}>{x.d}</div>
+            </a>
+          ))}
+          <div className="annot l" style={{ left: 'calc(100% - 16px)', top: 14, width: 120 }}>3 primary doors<br/>(was 18 tiles)</div>
+        </div>
+
+        <div style={{ fontSize: 11, fontWeight: 500, letterSpacing: '.08em', textTransform: 'uppercase', color: 'var(--t3)', margin: '12px 0 8px' }}>Or open a specific tool</div>
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: 5 }}>
+          {['Compare', 'Pipeline', 'Apps', 'Profs', 'Refs', 'Archive', 'Materials', 'Writing', 'Outreach', 'Packet', 'Programs', 'Internships', 'Jobs', 'Service'].map((t) => (
+            <span key={t} style={{ fontSize: 11.5, padding: '4px 10px', borderRadius: 999, border: '.5px solid var(--bds)', color: 'var(--t2)', background: 'var(--bg)' }}>{t}</span>
+          ))}
+        </div>
+
+      </div>
+    </div>
+  );
+}
+
+/* ═════════════════════════════════════════════════════════════════════════
+   3.  FOCUS RINGS
+   ═════════════════════════════════════════════════════════════════════════ */
+
+function FocusRingsArtboard({ scale }) {
+  // before = no rings; after = focus rings on the third item in each row
+  const isFocused = (idx, group) => scale === 'after' && idx === 2;
+  const ring = (idx, group) => isFocused(idx, group) ? {
+    outline: '2px solid var(--teal-t)',
+    outlineOffset: 2,
+    borderRadius: 6,
+  } : {};
+
+  return (
+    <div className="site" style={{ width: '100%', height: '100%', padding: 18, position: 'relative' }}>
+      <div style={{ background: 'var(--bg)', border: '.5px solid var(--bd)', borderRadius: 12, padding: '18px 20px' }}>
+
+        <div style={{ fontSize: 11, fontWeight: 500, letterSpacing: '.08em', textTransform: 'uppercase', color: 'var(--t3)', marginBottom: 8 }}>Filter chips</div>
+        <div style={{ display: 'flex', gap: 6, marginBottom: 16, flexWrap: 'wrap' }}>
+          {['All', 'Current', 'Next cycle', 'Southeast', 'Mountain West', 'Federal'].map((t, i) => (
+            <span key={t} style={{ fontSize: 12, padding: '4px 12px', borderRadius: 999, border: '1px solid var(--bds)', color: 'var(--t2)', background: 'var(--bg)', ...ring(i, 'chip') }}>{t}</span>
+          ))}
+        </div>
+
+        <div style={{ fontSize: 11, fontWeight: 500, letterSpacing: '.08em', textTransform: 'uppercase', color: 'var(--t3)', marginBottom: 8 }}>Nav links</div>
+        <div style={{ display: 'flex', gap: 4, marginBottom: 16, alignItems: 'center' }}>
+          {['★ My List', '⚖ Compare', '📊 Pipeline', '📅 Timeline'].map((t, i) => (
+            <a key={t} style={{ fontSize: 12, color: 'var(--t3)', padding: '8px 8px', fontWeight: 500, ...ring(i, 'nav') }}>{t}</a>
+          ))}
+        </div>
+
+        <div style={{ fontSize: 11, fontWeight: 500, letterSpacing: '.08em', textTransform: 'uppercase', color: 'var(--t3)', marginBottom: 8 }}>Buttons</div>
+        <div style={{ display: 'flex', gap: 10, alignItems: 'center', marginBottom: 16 }}>
+          <button style={{ fontSize: 13, fontWeight: 500, padding: '6px 16px', borderRadius: 999, border: 'none', background: 'var(--teal)', color: '#fff', cursor: 'pointer', ...ring(0, 'btn') }}>Compare</button>
+          <button style={{ fontSize: 12, fontWeight: 500, padding: '6px 14px', borderRadius: 999, border: '.5px solid var(--bds)', background: 'transparent', color: 'var(--t2)', cursor: 'pointer', ...ring(1, 'btn') }}>Clear</button>
+          <button style={{ fontSize: 12, fontWeight: 500, padding: '4px 12px', borderRadius: 999, border: '1.5px solid var(--teal)', background: 'transparent', color: 'var(--teal-t)', cursor: 'pointer', ...ring(2, 'btn') }}>☆ Save to My List</button>
+        </div>
+
+        <div style={{ fontSize: 11, fontWeight: 500, letterSpacing: '.08em', textTransform: 'uppercase', color: 'var(--t3)', marginBottom: 8 }}>Inputs</div>
+        <input style={{ fontSize: 13, padding: '8px 12px', borderRadius: 8, border: '1px solid var(--bds)', background: 'var(--bg)', width: '70%', fontFamily: 'inherit', ...(scale === 'after' ? { outline: '2px solid var(--teal-t)', outlineOffset: 2, borderColor: 'var(--teal)' } : {}) }} defaultValue="wetland" />
+
+        {scale === 'before' && (
+          <div style={{ position: 'absolute', bottom: 20, right: 20, fontSize: 11, fontFamily: 'IBM Plex Mono,ui-monospace,monospace', color: '#a33828', width: 200, lineHeight: 1.4, textAlign: 'right' }}>
+            Tab through this page and you cannot tell where you are. No <code style={{ fontFamily: 'inherit' }}>:focus-visible</code> styles defined.
+          </div>
+        )}
+        {scale === 'after' && (
+          <div style={{ position: 'absolute', bottom: 20, right: 20, fontSize: 11, fontFamily: 'IBM Plex Mono,ui-monospace,monospace', color: '#3c7b20', width: 200, lineHeight: 1.4, textAlign: 'right' }}>
+            One <code style={{ fontFamily: 'inherit' }}>:focus-visible</code> rule in <code style={{ fontFamily: 'inherit' }}>styles.css</code>.<br/>2px teal-t outline, 2px offset, inherit border-radius.
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+/* ═════════════════════════════════════════════════════════════════════════
+   4.  PHONE NAV
+   ═════════════════════════════════════════════════════════════════════════ */
+
+function PhoneFrame({ children, label }) {
+  return (
+    <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'flex-start', justifyContent: 'center', padding: 16, background: '#e8e6e0' }}>
+      <div style={{
+        width: 360, height: 640, background: '#000', borderRadius: 32, padding: 8,
+        boxShadow: '0 8px 24px rgba(0,0,0,.15)', position: 'relative',
+      }}>
+        {/* notch */}
+        <div style={{ position: 'absolute', top: 14, left: '50%', transform: 'translateX(-50%)', width: 90, height: 22, background: '#000', borderRadius: 12, zIndex: 5 }} />
+        <div style={{ width: '100%', height: '100%', background: 'var(--bg3)', borderRadius: 26, overflow: 'hidden', position: 'relative' }} className="site">
+          {/* status bar */}
+          <div style={{ height: 36, display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', padding: '0 24px 4px', fontSize: 12, fontWeight: 600, color: 'var(--t1)' }}>
+            <span>9:41</span>
+            <span style={{ fontSize: 11 }}>● ● ● ●</span>
+          </div>
+          {children}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function PhoneNavBefore() {
+  // 19 links wrapping across multiple rows
+  return (
+    <PhoneFrame>
+      <nav style={{ background: 'var(--bg)', borderBottom: '.5px solid var(--bd)', padding: '4px 10px 6px', position: 'relative' }}>
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0 2px', rowGap: 1, alignItems: 'center' }}>
+          {[
+            { l: '🏠 Home', home: true },
+            { l: '🔍 Search' },
+            { div: true },
+            { gl: 'Track', cls: 't' },
+            ...['★ My List', '⚖ Compare', '📊 Pipeline', '📅 Timeline', '📄 Apps', '👤 Profs', '✎ Refs', '📁 Archive'].map(l => ({ l })),
+            { div: true },
+            { gl: 'Browse', cls: 'b' },
+            ...['🏛 Programs', '📋 Intern', '💼 Jobs', '🌳 Svc'].map(l => ({ l })),
+            { div: true },
+            { gl: 'Write', cls: 'w' },
+            ...['📚 Materials', '✎ Writing', '🖨 Packet'].map(l => ({ l })),
+          ].map((x, i) => {
+            if (x.div) return <span key={i} style={{ width: 1, height: 12, background: 'var(--bd)', margin: '0 3px' }} />;
+            if (x.gl) {
+              const bg = x.cls === 't' ? 'var(--teal-bg)' : x.cls === 'b' ? 'var(--blue-bg)' : 'var(--amber-bg)';
+              const cl = x.cls === 't' ? 'var(--teal-t)' : x.cls === 'b' ? 'var(--blue)' : 'var(--amber-t)';
+              return <span key={i} style={{ fontSize: 9, fontWeight: 700, letterSpacing: '.05em', textTransform: 'uppercase', padding: '2px 5px', borderRadius: 4, marginRight: 3, background: bg, color: cl, lineHeight: 1 }}>{x.gl}</span>;
+            }
+            if (x.home) return <a key={i} style={{ fontSize: 11, fontWeight: 600, color: 'var(--t1)', padding: '4px 6px 4px 0', borderRight: '.5px solid var(--bd)', marginRight: 2 }}>{x.l}</a>;
+            return <a key={i} style={{ fontSize: 10, fontWeight: 500, color: 'var(--t3)', padding: '4px 3px', whiteSpace: 'nowrap' }}>{x.l}</a>;
+          })}
+        </div>
+      </nav>
+      <div style={{ padding: 16 }}>
+        <div style={{ fontSize: 11, fontWeight: 500, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--teal-t)', marginBottom: 4 }}>What's Next for Erin</div>
+        <div style={{ fontSize: 22, fontWeight: 700, color: 'var(--t1)', letterSpacing: '-.02em', lineHeight: 1.15 }}>Pipeline</div>
+      </div>
+      <div style={{ position: 'absolute', bottom: 14, left: 14, right: 14, fontSize: 10, fontFamily: 'IBM Plex Mono,ui-monospace,monospace', color: '#a33828', lineHeight: 1.4, textAlign: 'center' }}>
+        ↑ 19 links wrap across 4 rows, ~10&nbsp;px text, hostile to a thumb.
+      </div>
+    </PhoneFrame>
+  );
+}
+
+function PhoneNavAfter() {
+  return (
+    <PhoneFrame>
+      <nav style={{ background: 'var(--bg)', borderBottom: '.5px solid var(--bd)', padding: '8px 14px 10px' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 4, flexWrap: 'wrap' }}>
+          <a style={{ fontSize: 14, fontWeight: 600, color: 'var(--t1)', padding: '6px 10px 6px 0', borderRight: '.5px solid var(--bd)', marginRight: 4 }}>🏠</a>
+          <a style={{ fontSize: 13, color: 'var(--t2)', padding: '6px 8px', fontWeight: 500 }}>🔍 Search</a>
+          <span style={{ width: 1, height: 14, background: 'var(--bd)', margin: '0 6px' }} />
+          <span style={{ fontSize: 11, fontWeight: 700, letterSpacing: '.05em', textTransform: 'uppercase', padding: '3px 7px', borderRadius: 4, background: 'var(--teal-bg)', color: 'var(--teal-t)' }}>Track</span>
+          <span style={{ marginLeft: 'auto', fontSize: 13, color: 'var(--t2)', padding: '6px 12px', border: '.5px solid var(--bds)', borderRadius: 999, fontWeight: 500, background: 'var(--bg2)' }}>More ▾</span>
+        </div>
+        <div style={{ display: 'flex', gap: 0, marginTop: 8, overflowX: 'auto' }}>
+          {[
+            { l: '★ My List', active: true },
+            { l: '📊 Pipeline' },
+            { l: '📅 Timeline' },
+            { l: '📄 Apps' },
+            { l: '👤 Profs' },
+            { l: '✎ Refs' },
+          ].map((x, i) => (
+            <a key={i} style={{
+              fontSize: 13, fontWeight: x.active ? 600 : 500,
+              color: x.active ? 'var(--teal-t)' : 'var(--t2)',
+              borderBottom: x.active ? '2px solid var(--teal)' : '2px solid transparent',
+              padding: '8px 12px', whiteSpace: 'nowrap',
+            }}>{x.l}</a>
+          ))}
+        </div>
+      </nav>
+      <div style={{ padding: 16 }}>
+        <div style={{ fontSize: 11, fontWeight: 500, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--teal-t)', marginBottom: 4 }}>What's Next for Erin</div>
+        <div style={{ fontSize: 24, fontWeight: 700, color: 'var(--t1)', letterSpacing: '-.02em', lineHeight: 1.15 }}>My List</div>
+        <div style={{ fontSize: 13, color: 'var(--t2)', lineHeight: 1.5, marginTop: 4 }}>14 saved · 3 closing this month</div>
+      </div>
+      <div style={{ padding: '0 14px' }}>
+        <div style={{ background: 'var(--bg)', border: '.5px solid var(--bd)', borderRadius: 10, padding: '12px 14px', marginBottom: 8, borderLeft: '3px solid #d63a1f' }}>
+          <div style={{ fontSize: 14.5, fontWeight: 600, color: 'var(--t1)', lineHeight: 1.3 }}>UTK Wetland MS</div>
+          <div style={{ fontSize: 12, color: 'var(--t3)', marginTop: 2 }}>Knoxville, TN · 28 days left</div>
+        </div>
+        <div style={{ background: 'var(--bg)', border: '.5px solid var(--bd)', borderRadius: 10, padding: '12px 14px', marginBottom: 8 }}>
+          <div style={{ fontSize: 14.5, fontWeight: 600, color: 'var(--t1)', lineHeight: 1.3 }}>TNC Mobile Bay Crew</div>
+          <div style={{ fontSize: 12, color: 'var(--t3)', marginTop: 2 }}>Service · 45 days</div>
+        </div>
+      </div>
+      {/* More drawer hint */}
+      <div style={{ position: 'absolute', top: 80, right: 14, background: '#fff', border: '.5px solid var(--bds)', borderRadius: 10, padding: '10px 12px', fontSize: 12, color: 'var(--t2)', boxShadow: '0 8px 16px rgba(0,0,0,.12)', width: 150, zIndex: 4 }}>
+        <div style={{ fontSize: 10, fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase', color: 'var(--t3)', marginBottom: 6 }}>More</div>
+        <div style={{ fontSize: 12.5, color: 'var(--blue)', marginBottom: 5 }}>Browse ↗</div>
+        <div style={{ fontSize: 12.5, color: 'var(--amber-t)' }}>Write ↗</div>
+        <div style={{ position: 'absolute', top: -6, right: 32, width: 0, height: 0, borderLeft: '6px solid transparent', borderRight: '6px solid transparent', borderBottom: '6px solid #fff' }} />
+      </div>
+    </PhoneFrame>
+  );
+}
+
+/* ═════════════════════════════════════════════════════════════════════════
+   ROOT
+   ═════════════════════════════════════════════════════════════════════════ */
+
+function App() {
+  return (
+    <DesignCanvas title="This Week — Mockups" subtitle="Four recommendations from the audit, before & after">
+
+      <DCSection id="type" title="01 · Type scale floor" subtitle="Push every 9–11 px instance up half a step. Body to 15–16 px. Highest-leverage single change on the site.">
+        <DCArtboard id="type-before" label="Before · current scale" width={720} height={500}>
+          <TypeScaleArtboard scale="before" />
+        </DCArtboard>
+        <DCArtboard id="type-after" label="After · bumped scale" width={720} height={500}>
+          <TypeScaleArtboard scale="after" />
+        </DCArtboard>
+      </DCSection>
+
+      <DCSection id="home" title="02 · Home, demoted" subtitle="The home page exists to answer “what do I need to do?” — that surface should lead. Move the biography to Bio.">
+        <DCArtboard id="home-before" label="Before · biography dominates, dashboard collapsed" width={760} height={960}>
+          <HomeBefore />
+        </DCArtboard>
+        <DCArtboard id="home-after" label="After · dashboard leads, 3 primary doors, bio linked out" width={760} height={960}>
+          <HomeAfter />
+        </DCArtboard>
+      </DCSection>
+
+      <DCSection id="focus" title="03 · Focus rings" subtitle="Currently no visible focus styles — tabbing through any page is invisible. One :focus-visible rule fixes the whole site.">
+        <DCArtboard id="focus-before" label="Before · no focus indicator" width={720} height={420}>
+          <FocusRingsArtboard scale="before" />
+        </DCArtboard>
+        <DCArtboard id="focus-after" label="After · 2 px teal-t outline, 2 px offset" width={720} height={420}>
+          <FocusRingsArtboard scale="after" />
+        </DCArtboard>
+      </DCSection>
+
+      <DCSection id="phone" title="04 · Phone nav" subtitle="Today the global bar wraps 19 links across 3–4 rows at 10 px. Collapse to Home + Search + active-group + “More”.">
+        <DCArtboard id="phone-before" label="Before · 19 links wrap on 4 rows" width={420} height={720}>
+          <PhoneNavBefore />
+        </DCArtboard>
+        <DCArtboard id="phone-after" label="After · active group + “More” drawer" width={420} height={720}>
+          <PhoneNavAfter />
+        </DCArtboard>
+      </DCSection>
+
+    </DesignCanvas>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script>
+</body>
+</html>

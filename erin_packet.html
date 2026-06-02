@@ -9,11 +9,11 @@
 <style>
 body{padding:0 0 3rem}
 .page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.25rem}
-.page-header-eyebrow{font-size:11px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-t);margin-bottom:.25rem}
+.page-header-eyebrow{font-size:12.5px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-t);margin-bottom:.25rem}
 .page-header-title{font-size:24px;font-weight:700;color:var(--t1);line-height:1.2;letter-spacing:-.02em;margin-bottom:.2rem}
 .page-header-sub{font-size:13px;color:var(--t2);line-height:1.5}
 .chooser{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1rem 1.15rem;margin-bottom:1.25rem}
-.ch-lbl{font-size:12px;font-weight:600;color:var(--t2);margin-bottom:.5rem}
+.ch-lbl{font-size:12.5px;font-weight:600;color:var(--t2);margin-bottom:.5rem}
 .ch-sel{width:100%;font-size:14px;padding:9px 12px;border-radius:var(--r1);border:1px solid var(--bds);background:var(--bg);color:var(--t1);font-family:var(--fn)}
 .ch-actions{margin-top:.85rem;display:flex;gap:.6rem;flex-wrap:wrap}
 .btn{font-size:13px;font-weight:500;padding:8px 18px;border-radius:999px;border:none;background:var(--teal);color:#fff;cursor:pointer;font-family:var(--fn)}
@@ -21,20 +21,20 @@ body{padding:0 0 3rem}
 .btn.sec{background:transparent;color:var(--t2);border:1px solid var(--bds)}
 .packet{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1.75rem 1.85rem;max-width:760px}
 .pk-head{border-bottom:2px solid var(--t1);padding-bottom:.85rem;margin-bottom:1.1rem}
-.pk-kicker{font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--t3);margin-bottom:.35rem}
+.pk-kicker{font-size:12.5px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--t3);margin-bottom:.35rem}
 .pk-title{font-size:22px;font-weight:700;color:var(--t1);line-height:1.25;margin-bottom:.3rem}
 .pk-org{font-size:14px;color:var(--t2)}
 .pk-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:.6rem 1.5rem;margin:1rem 0 1.2rem}
 .pk-f{font-size:13px;color:var(--t2)}
-.pk-f b{display:block;font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--t3);margin-bottom:1px}
-.pk-sec{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--t3);border-bottom:.5px solid var(--bd);padding-bottom:.3rem;margin:1.3rem 0 .6rem}
+.pk-f b{display:block;font-size:12.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--t3);margin-bottom:1px}
+.pk-sec{font-size:12.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--t3);border-bottom:.5px solid var(--bd);padding-bottom:.3rem;margin:1.3rem 0 .6rem}
 .pk-body{font-size:13px;color:var(--t2);line-height:1.7;white-space:pre-wrap}
 .pk-list{list-style:none;padding:0;margin:.2rem 0}
 .pk-list li{font-size:13px;color:var(--t2);padding:.3rem 0;border-bottom:.5px dotted var(--bd);display:flex;gap:.6rem;align-items:flex-start}
-.pk-chk{flex-shrink:0;width:15px;height:15px;border:1.5px solid var(--bds);border-radius:3px;display:inline-flex;align-items:center;justify-content:center;font-size:11px;color:var(--teal-t)}
+.pk-chk{flex-shrink:0;width:15px;height:15px;border:1.5px solid var(--bds);border-radius:3px;display:inline-flex;align-items:center;justify-content:center;font-size:12.5px;color:var(--teal-t)}
 .pk-chk.done{background:var(--teal-bg);border-color:var(--teal)}
-.pk-links a{font-size:12px;color:var(--teal-t);display:inline-block;margin:.2rem .8rem .2rem 0;word-break:break-all}
-.pk-foot{margin-top:1.5rem;padding-top:.7rem;border-top:.5px solid var(--bd);font-size:11px;color:var(--t3)}
+.pk-links a{font-size:12.5px;color:var(--teal-t);display:inline-block;margin:.2rem .8rem .2rem 0;word-break:break-all}
+.pk-foot{margin-top:1.5rem;padding-top:.7rem;border-top:.5px solid var(--bd);font-size:12.5px;color:var(--t3)}
 .pk-empty{font-size:13px;color:var(--t2);text-align:center;padding:2rem}
 
 @media print {
@@ -259,7 +259,7 @@ body{padding:0 0 3rem}
     if(!wrap || document.getElementById('gnav-sync')) return;
     var span=document.createElement('span');
     span.id='gnav-sync'; span.className='gnav-sync'; span.title='Last cloud sync';
-    span.style.cssText='font-size:10px;color:var(--t3);padding:3px 8px;background:var(--bg2);border-radius:4px;white-space:nowrap;flex-shrink:0;margin-left:10px;border:.5px solid var(--bd);align-self:center;min-width:118px;text-align:center;box-sizing:border-box';
+    span.style.cssText='font-size:12.5px;color:var(--t3);padding:3px 8px;background:var(--bg2);border-radius:4px;white-space:nowrap;flex-shrink:0;margin-left:10px;border:.5px solid var(--bd);align-self:center;min-width:118px;text-align:center;box-sizing:border-box';
     var tog=document.getElementById('theme-toggle');if(tog&&tog.parentNode===wrap)wrap.insertBefore(span,tog);else wrap.appendChild(span);
     render();
     setInterval(render,30000);

@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>What's Next — Complete Mockups</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<style>
+  .site{
+    --bg:#FAFAFA;--bg2:#F5F5F5;--bg3:#EEEEEE;
+    --t1:#212121;--t2:#424242;--t3:#757575;
+    --bd:rgba(0,0,0,0.10);--bds:rgba(0,0,0,0.22);
+    --r1:8px;--r2:12px;
+    --fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    --serif:'Newsreader','Charter','Iowan Old Style',Georgia,serif;
+    --teal:#4e9836;--teal-bg:#eaf3e5;--teal-t:#3c7b20;
+    --blue:#3a7878;--blue-bg:#e5f0f0;
+    --amber:#8a6f00;--amber-bg:#f5f0db;--amber-t:#6b5500;
+    --red:#993c1d;--red-bg:#faece7;
+    --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
+    font-family:var(--fn);background:var(--bg3);color:var(--t1);
+    width:100%;height:100%;overflow:hidden;
+  }
+  /* Warm variant — Option for the "this afternoon" Light Theme Warmth */
+  .site.warm{
+    --bg:#FAF8F1;--bg2:#F2EFE6;--bg3:#EBE6D9;
+    --t1:#1f1d18;--t2:#46423a;--t3:#7b756a;
+    --bd:rgba(60,40,15,0.10);--bds:rgba(60,40,15,0.20);
+    --teal-bg:#e8f0e0;--amber-bg:#f3eccf;--blue-bg:#e1edec;--red-bg:#f8e7e0;
+  }
+  .site *{box-sizing:border-box}
+  .site a{color:inherit;text-decoration:none}
+  .site button{font-family:inherit}
+  .annot{font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:10.5px;color:#a33828;letter-spacing:.03em;line-height:1.4}
+  .annot.ok{color:#3c7b20}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel" src="design-canvas.jsx?v=3"></script>
+
+<script type="text/babel" data-presets="env,react">
+const { useState, Fragment } = React;
+
+/* ═════════════════════════════════════════════════════════════════════════
+   Shared bits — same as the other mockups file
+   ═════════════════════════════════════════════════════════════════════════ */
+const TRACK_LINKS = ['My List', 'Compare', 'Pipeline', 'Timeline', 'Apps', 'Profs', 'Refs', 'Archive'];
+const BROWSE_LINKS = ['Programs', 'Internships', 'Jobs', 'Service'];
+const WRITE_LINKS = ['Materials', 'Writing', 'Outreach', 'Packet'];
+
+const ICON_COMMON = { width: 16, height: 16, viewBox: '0 0 18 18', fill: 'none', stroke: 'currentColor', strokeWidth: 1.5, strokeLinecap: 'round', strokeLinejoin: 'round' };
+
+/* A small, stroke-based icon set — 15 glyphs at 1.5px stroke, 18px viewBox,
+   designed to match the site's hairline aesthetic. Replaces emoji nav glyphs. */
+const Icon = {
+  home: () => <svg {...ICON_COMMON}><path d="M3 9 9 3l6 6v6a1 1 0 0 1-1 1h-3v-4H7v4H4a1 1 0 0 1-1-1V9z"/></svg>,
+  search: () => <svg {...ICON_COMMON}><circle cx="8" cy="8" r="4.5"/><path d="m11.5 11.5 3 3"/></svg>,
+  star: () => <svg {...ICON_COMMON}><path d="M9 2.5 10.6 6.8l4.6.3-3.5 3 1.1 4.5L9 12.3l-3.8 2.3 1.1-4.5-3.5-3 4.6-.3z"/></svg>,
+  compare: () => <svg {...ICON_COMMON}><rect x="2.5" y="3" width="5" height="12" rx="1"/><rect x="10.5" y="3" width="5" height="12" rx="1"/></svg>,
+  kanban: () => <svg {...ICON_COMMON}><rect x="2.5" y="3" width="3" height="10" rx=".5"/><rect x="7.5" y="3" width="3" height="6" rx=".5"/><rect x="12.5" y="3" width="3" height="8" rx=".5"/></svg>,
+  calendar: () => <svg {...ICON_COMMON}><rect x="2.5" y="4" width="13" height="11" rx="1"/><path d="M2.5 7.5h13M6 2.5v3M12 2.5v3"/></svg>,
+  file: () => <svg {...ICON_COMMON}><path d="M4 2.5h6l4 4V15a.5.5 0 0 1-.5.5h-9A.5.5 0 0 1 4 15V3a.5.5 0 0 1 0-.5z"/><path d="M10 2.5v4h4"/></svg>,
+  person: () => <svg {...ICON_COMMON}><circle cx="9" cy="6.5" r="2.8"/><path d="M3.5 15.5c.6-2.7 2.9-4.5 5.5-4.5s4.9 1.8 5.5 4.5"/></svg>,
+  pen: () => <svg {...ICON_COMMON}><path d="m3 15 1-3.5L11.5 4l3 3-7.5 7.5L3.5 15zM10 5.5l3 3"/></svg>,
+  archive: () => <svg {...ICON_COMMON}><rect x="2.5" y="3.5" width="13" height="3" rx=".5"/><path d="M3.5 6.5V14a.5.5 0 0 0 .5.5h10a.5.5 0 0 0 .5-.5V6.5"/><path d="M7 9.5h4"/></svg>,
+  cap: () => <svg {...ICON_COMMON}><path d="M1.5 6.5 9 3l7.5 3.5L9 10z"/><path d="M4.5 8.5V12c1.2 1.5 7.8 1.5 9 0V8.5"/></svg>,
+  clipboard: () => <svg {...ICON_COMMON}><rect x="4" y="3" width="10" height="12.5" rx=".5"/><rect x="6" y="2" width="6" height="2.5" rx=".4" fill="currentColor" stroke="none"/><path d="M6.5 9h5M6.5 12h3"/></svg>,
+  briefcase: () => <svg {...ICON_COMMON}><rect x="2.5" y="6" width="13" height="8.5" rx="1"/><path d="M6 6V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2M2.5 10h13"/></svg>,
+  leaf: () => <svg {...ICON_COMMON}><path d="M3 15c0-6 4-11 12-12-.5 8-5 12-11 12.5"/><path d="M3 15c2.5-3 5-5 8-7"/></svg>,
+  book: () => <svg {...ICON_COMMON}><path d="M3 4a1 1 0 0 1 1-1h4a2 2 0 0 1 2 2v10a2 2 0 0 0-2-2H4a1 1 0 0 1-1-1z"/><path d="M15 4a1 1 0 0 0-1-1h-4a2 2 0 0 0-2 2v10a2 2 0 0 1 2-2h4a1 1 0 0 0 1-1z"/></svg>,
+  printer: () => <svg {...ICON_COMMON}><path d="M5 6V3h8v3M3 6h12a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-2v2H5v-2H3a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1z"/><circle cx="13" cy="9" r=".5" fill="currentColor"/></svg>,
+  inbox: () => <svg {...ICON_COMMON}><path d="m2.5 9 2-5h9l2 5v5.5a.5.5 0 0 1-.5.5h-12a.5.5 0 0 1-.5-.5z"/><path d="M2.5 9h4l1 1.5h3L11.5 9h4"/></svg>,
+};
+
+function GroupLabel({ kind, children }) {
+  const c = { track: ['var(--teal-bg)', 'var(--teal-t)'], browse: ['var(--blue-bg)', 'var(--blue)'], write: ['var(--amber-bg)', 'var(--amber-t)'] };
+  const [bg, fg] = c[kind];
+  return <span style={{ fontSize: 10.5, fontWeight: 700, letterSpacing: '.05em', textTransform: 'uppercase', padding: '3px 7px', borderRadius: 4, background: bg, color: fg, lineHeight: 1 }}>{children}</span>;
+}
+
+function NavLink({ children, active, icon }) {
+  return (
+    <a style={{
+      fontSize: 12.5, fontWeight: 500,
+      color: active ? 'var(--teal-t)' : 'var(--t3)',
+      borderBottom: active ? '2px solid var(--teal)' : '2px solid transparent',
+      padding: '8px 7px', whiteSpace: 'nowrap', display: 'inline-flex', alignItems: 'center', gap: 5,
+    }}>{icon}{children}</a>
+  );
+}
+
+/* Centered Option-A style header — reused on most page mockups so they all
+   inherit the recommended header.  Pass `useIcons` to swap emoji glyphs for
+   the SVG icon set; pass `serif` to render the brand wordmark in serif. */
+function PageHeader({ activeGroup = 'track', activeLink = null, useIcons = false, serif = false, warm = false }) {
+  const groups = {
+    track: { label: 'Track', kind: 'track', links: TRACK_LINKS, icons: [Icon.star, Icon.compare, Icon.kanban, Icon.calendar, Icon.file, Icon.person, Icon.pen, Icon.archive] },
+    browse: { label: 'Browse', kind: 'browse', links: BROWSE_LINKS, icons: [Icon.cap, Icon.clipboard, Icon.briefcase, Icon.leaf] },
+    write: { label: 'Write', kind: 'write', links: WRITE_LINKS, icons: [Icon.book, Icon.pen, Icon.inbox, Icon.printer] },
+  };
+  return (
+    <nav style={{ background: 'var(--bg)', borderBottom: '.5px solid var(--bd)', padding: '0 16px' }}>
+      <div style={{ maxWidth: 1040, margin: '0 auto', display: 'flex', alignItems: 'center', gap: 12, height: 44 }}>
+        <a style={{ display: 'flex', alignItems: 'center', gap: 8, minWidth: 130 }}>
+          <div style={{ width: 26, height: 26, borderRadius: 6, background: 'var(--teal-t)', color: '#fff', fontWeight: 700, fontSize: 11, display: 'flex', alignItems: 'center', justifyContent: 'center', letterSpacing: '.02em' }}>WN</div>
+          <div style={{ fontSize: serif ? 15 : 13, fontFamily: serif ? 'var(--serif)' : 'inherit', fontWeight: serif ? 500 : 600, color: 'var(--t1)', letterSpacing: serif ? '-.005em' : 0 }}>What's Next</div>
+        </a>
+        <div style={{ flex: 1, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+          {Object.entries(groups).flatMap(([key, g], gi) => {
+            const items = [];
+            if (gi > 0) items.push(<span key={key + '-div'} style={{ width: 1, height: 16, background: 'var(--bd)', margin: '0 8px' }} />);
+            items.push(<GroupLabel key={key + '-gl'} kind={g.kind}>{g.label}</GroupLabel>);
+            items.push(
+              <div key={key + '-links'} style={{ display: 'flex', marginLeft: 4 }}>
+                {g.links.map((l, i) => {
+                  const IconC = g.icons[i];
+                  return <NavLink key={i} active={activeGroup === key && activeLink === l} icon={useIcons ? <IconC /> : null}>{l}</NavLink>;
+                })}
+              </div>
+            );
+            return items;
+          })}
+        </div>
+        <div style={{ minWidth: 130, display: 'flex', justifyContent: 'flex-end', gap: 4 }}>
+          <button style={{ fontSize: 12.5, padding: '6px 11px', border: '.5px solid var(--bds)', borderRadius: 999, background: 'transparent', color: 'var(--t2)', display: 'flex', alignItems: 'center', gap: 5 }}>{useIcons ? <Icon.search/> : '🔍'} Search</button>
+          <button style={{ width: 30, height: 30, border: 'none', background: 'transparent', borderRadius: 6, color: 'var(--t2)', fontSize: 14 }}>🌙</button>
+        </div>
+      </div>
+    </nav>
+  );
+}
+
+/* ═════════════════════════════════════════════════════════════════════════
+   06.  DOCUMENT vs CABINET WIDTH SPLIT
+   ═════════════════════════════════════════════════════════════════════════ */
+
+function DocCabinetSplit() {
+  return (
+    <div className="site" style={{ width: '100%', height: '100%', overflow: 'auto', padding: '16px 0', background: '#e8e6e0' }}>
+      <PageHeader />
+      <div style={{ display: 'grid', gridTemplateColumns: '720px 1040px', justifyContent: 'center', gap: 32, padding: '24px 16px', alignItems: 'start' }}>
+        {/* Document — 720px */}
+        <div>
+          <div className="annot" style={{ marginBottom: 6 }}>DOCUMENT · 720 px · serif body, reading rhythm</div>
+          <div style={{ background: 'var(--bg)', border: '.5px solid var(--bd)', borderRadius: 12, padding: '28px 36px', minHeight: 480 }}>
+            <div style={{ fontSize: 11, fontWeight: 500, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--teal-t)', marginBottom: 6 }}>Write · Outreach</div>
+            <div style={{ fontSize: 32, fontFamily: 'var(--serif)', fontWeight: 500, letterSpacing: '-.015em', color: 'var(--t1)', lineHeight: 1.1, marginBottom: 10 }}>Statement of purpose</div>
+            <div style={{ fontSize: 14, color: 'var(--t2)', marginBottom: 22, fontStyle: 'italic', fontFamily: 'var(--serif)' }}>A canonical draft Erin tunes program-by-program.</div>
+            <div style={{ fontFamily: 'var(--serif)', fontSize: 16, lineHeight: 1.7, color: 'var(--t1)' }}>
+              <p style={{ marginBottom: 14 }}>The afternoon Hurricane Helene crossed the Pigeon River, I was four miles upstream collecting routine sediment cores for an undergraduate water-quality class. Three days later, the same reach was unrecognizable&mdash;<span style={{ background: '#e8efff', color: '#185fa5', padding: '0 3px', fontStyle: 'italic' }}>[program-specific question]</span>&hellip;</p>
+              <p style={{ marginBottom: 14 }}>My capstone project followed those reach changes through the next two seasons. Using paired GIS suitability analysis and trace-metal core data, I traced legacy lead and zinc signatures from the upstream Champion paper mill basin&hellip;</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Cabinet — 1040px */}
+        <div>
+          <div className="annot" style={{ marginBottom: 6 }}>CABINET · 1040 px · row-style cards, denser</div>
+          <div style={{ background: 'var(--bg)', border: '.5px solid var(--bd)', borderRadius: 12, padding: '24px 28px', minHeight: 480 }}>
+            <div style={{ fontSize: 11, fontWeight: 500, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--teal-t)', marginBottom: 6 }}>Browse</div>
+            <div style={{ fontSize: 28, fontWeight: 700, color: 'var(--t1)', letterSpacing: '-.02em', marginBottom: 4 }}>Funded Graduate Programs</div>
+            <div style={{ fontSize: 13.5, color: 'var(--t2)', marginBottom: 16 }}>17 current · 12 next cycle</div>
+
+            <div style={{ display: 'flex', gap: 5, marginBottom: 14, flexWrap: 'wrap' }}>
+              {['All', 'Closing &lt; 30d', 'Mountain West', 'Southeast', 'Wetlands', 'GIS', 'Wildlife'].map((t, i) => (
+                <span key={t} dangerouslySetInnerHTML={{ __html: t }} style={{ fontSize: 11.5, padding: '3px 11px', borderRadius: 999, border: i === 0 ? 'none' : '1px solid var(--bds)', background: i === 0 ? 'var(--teal)' : 'transparent', color: i === 0 ? '#fff' : 'var(--t2)' }} />
+              ))}
+            </div>
+
+            {[
+              ['MS — Wetland Carbon Dynamics', 'University of Tennessee · Knoxville, TN', '28d', '#993c1d', 'var(--red-bg)'],
+              ['MS — Trace Metals & Geomorphology', 'Virginia Tech · Blacksburg, VA', '40d', 'var(--amber-t)', 'var(--amber-bg)'],
+              ['MS — Coastal Wildlife Ecology', 'University of Florida · Gainesville', '62d', 'var(--amber-t)', 'var(--amber-bg)'],
+              ['MS — Stream Restoration', 'Colorado State · Fort Collins', '95d', 'var(--teal-t)', 'var(--teal-bg)'],
+            ].map(([t, o, urg, c, bg]) => (
+              <div key={t} style={{ display: 'grid', gridTemplateColumns: '1fr 100px 90px 90px', alignItems: 'center', gap: 14, padding: '10px 14px', borderBottom: '.5px solid var(--bd)' }}>
+                <div>
+                  <div style={{ fontSize: 14.5, fontWeight: 600, color: 'var(--t1)' }}>{t}</div>
+                  <div style={{ fontSize: 12, color: 'var(--t3)' }}>{o}</div>
+                </div>
+                <span style={{ fontSize: 11, fontWeight: 700, padding: '2px 9px', borderRadius: 999, background: bg, color: c, justifySelf: 'start' }}>{urg} left</span>
+                <span style={{ fontSize: 12, color: 'var(--t3)' }}>$30k/yr</span>
+                <button style={{ fontSize: 12, fontWeight: 500, padding: '5px 12px', borderRadius: 999, border: '.5px solid var(--bds)', background: 'transparent', color: 'var(--t2)' }}>Details →</button>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ═════════════════════════════════════════════════════════════════════════
+   07.  CARD DISCIPLINE — 5+ pills vs. 2 colored + neutral chips
+   ═════════════════════════════════════════════════════════════════════════ */
+
+function CardDiscipline({ variant }) {
+  const noisy = variant === 'before';
+  return (
+    <div className="site" style={{ width: '100%', height: '100%', padding: 24, position: 'relative', background: 'var(--bg3)' }}>
+      <div className="annot" style={{ marginBottom: 8, color: noisy ? '#a33828' : '#3c7b20' }}>
+        {noisy ? 'BEFORE · five hues fight for attention' : 'AFTER · two colored pills + neutral chips'}
+      </div>
+      <div style={{ background: 'var(--bg)', border: '.5px solid var(--bd)', borderRadius: 12, padding: '16px 20px', borderLeft: '3px solid #d63a1f', maxWidth: 640 }}>
+        <div style={{ fontSize: 16, fontWeight: 600, color: 'var(--t1)', marginBottom: 3 }}>MS Position — Wetland Carbon Dynamics</div>
+        <div style={{ fontSize: 13, color: 'var(--t3)', marginBottom: 10 }}>University of Tennessee · Knoxville, TN</div>
+        <div style={{ fontSize: 13, color: 'var(--t2)', marginBottom: 12 }}>Deadline: <strong style={{ color: '#993c1d' }}>Dec 15, 2026 · 28 days left</strong></div>
+
+        {noisy ? (
+          /* Before — five hues, all loud */
+          <div style={{ display: 'flex', gap: 5, flexWrap: 'wrap' }}>
+            <span style={{ fontSize: 11, fontWeight: 700, padding: '2px 9px', borderRadius: 999, background: '#d63a1f', color: '#fff' }}>✨ NEW</span>
+            <span style={{ fontSize: 11, fontWeight: 600, padding: '2px 9px', borderRadius: 999, background: 'var(--teal-bg)', color: 'var(--teal-t)' }}>✓ Saved</span>
+            <span style={{ fontSize: 11, fontWeight: 700, padding: '2px 9px', borderRadius: 999, background: 'var(--red-bg)', color: '#993c1d' }}>28d left</span>
+            <span style={{ fontSize: 11, fontWeight: 600, padding: '2px 9px', borderRadius: 999, background: 'var(--teal-bg)', color: 'var(--teal-t)' }}>Graduate</span>
+            <span style={{ fontSize: 11, fontWeight: 600, padding: '2px 9px', borderRadius: 999, background: 'var(--amber-bg)', color: 'var(--amber-t)' }}>★ Strong fit</span>
+            <span style={{ fontSize: 11, fontWeight: 600, padding: '2px 9px', borderRadius: 999, background: 'var(--blue-bg)', color: 'var(--blue)' }}>Southeast</span>
+            <span style={{ fontSize: 11, fontWeight: 600, padding: '2px 9px', borderRadius: 999, background: 'var(--purple-bg)', color: 'var(--purple-t)' }}>Funded</span>
+          </div>
+        ) : (
+          /* After — two color, rest demoted to neutral chips */
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 7 }}>
+            <div style={{ display: 'flex', gap: 5, flexWrap: 'wrap' }}>
+              {/* Two colored — state pills only */}
+              <span style={{ fontSize: 11, fontWeight: 700, padding: '2px 9px', borderRadius: 999, background: '#d63a1f', color: '#fff' }}>NEW</span>
+              <span style={{ fontSize: 11, fontWeight: 700, padding: '2px 9px', borderRadius: 999, background: 'var(--red-bg)', color: '#993c1d' }}>28d left</span>
+            </div>
+            <div style={{ display: 'flex', gap: 5, flexWrap: 'wrap' }}>
+              {/* Everything else — neutral chips, mono-tone */}
+              {['Graduate', '★ Strong fit', 'Southeast', 'Funded', 'Saved'].map(t => (
+                <span key={t} style={{ fontSize: 11, fontWeight: 500, padding: '2px 9px', borderRadius: 999, background: 'var(--bg2)', color: 'var(--t2)', border: '.5px solid var(--bd)' }}>{t}</span>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+
+      <div style={{ marginTop: 18, fontSize: 12, color: 'var(--t2)', lineHeight: 1.6, maxWidth: 640, fontFamily: 'IBM Plex Mono, ui-monospace, monospace' }}>
+        {noisy
+          ? 'Five hues per card. The eye can\'t find what to read first. Every pill is equally loud — so nothing is loud.'
+          : 'Reserve color for STATE: new, urgency, saved. Reduce everything else to neutral chips. The two reds now pop because they\'re the only chroma on the card.'}
+      </div>
+    </div>
+  );
+}
+
+/* ═════════════════════════════════════════════════════════════════════════
+   08.  ICON SET — replace nav emoji
+   ═════════════════════════════════════════════════════════════════════════ */
+
+function IconSetArtboard() {
+  const all = [
+    ['home', 'Home', Icon.home], ['search', 'Search', Icon.search],
+    ['star', 'My List', Icon.star], ['compare', 'Compare', Icon.compare],
+    ['kanban', 'Pipeline', Icon.kanban], ['calendar', 'Timeline', Icon.calendar],
+    ['file', 'Apps', Icon.file], ['person', 'Profs', Icon.person],
+    ['pen', 'Refs / Writing', Icon.pen], ['archive', 'Archive', Icon.archive],
+    ['cap', 'Programs', Icon.cap], ['clipboard', 'Internships', Icon.clipboard],
+    ['briefcase', 'Jobs', Icon.briefcase], ['leaf', 'Service', Icon.leaf],
+    ['book', 'Materials', Icon.book], ['inbox', 'Outreach', Icon.inbox],
+    ['printer', 'Packet', Icon.printer],
+  ];
+  return (
+    <div className="site" style={{ width: '100%', height: '100%', padding: 22, overflow: 'auto' }}>
+      <div className="annot ok" style={{ marginBottom: 14 }}>One stroke weight (1.5 px), one viewBox (18), one color (currentColor)</div>
+
+      {/* The set */}
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(6,1fr)', gap: 12, marginBottom: 22 }}>
+        {all.map(([key, label, I]) => (
+          <div key={key} style={{ background: 'var(--bg)', border: '.5px solid var(--bd)', borderRadius: 8, padding: '14px 8px 10px', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 6 }}>
+            <div style={{ color: 'var(--t1)', width: 22, height: 22, display: 'flex', alignItems: 'center', justifyContent: 'center' }}><I /></div>
+            <div style={{ fontSize: 11, color: 'var(--t3)', fontFamily: 'IBM Plex Mono, ui-monospace, monospace', letterSpacing: '.02em' }}>{key}</div>
+          </div>
+        ))}
+      </div>
+
+      {/* Side-by-side nav comparison */}
+      <div className="annot" style={{ marginBottom: 6 }}>BEFORE · emoji</div>
+      <div style={{ background: 'var(--bg)', border: '.5px solid var(--bd)', borderRadius: 8, padding: '0 12px', marginBottom: 14 }}>
+        <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '0 2px', padding: '6px 0' }}>
+          <span style={{ fontSize: 13, fontWeight: 600, padding: '6px 8px 6px 0', borderRight: '.5px solid var(--bd)', marginRight: 4 }}>🏠 Home</span>
+          <a style={{ fontSize: 12, padding: '6px 5px', color: 'var(--t3)' }}>🔍 Search</a>
+          <span style={{ width: 1, height: 14, background: 'var(--bd)', margin: '0 6px' }} />
+          <GroupLabel kind="track">Track</GroupLabel>
+          {['★ My List', '⚖ Compare', '📊 Pipeline', '📅 Timeline', '📄 Apps', '👤 Profs', '✎ Refs', '📁 Archive'].map(l => <a key={l} style={{ fontSize: 12, padding: '6px 5px', color: 'var(--t3)' }}>{l}</a>)}
+          <span style={{ width: 1, height: 14, background: 'var(--bd)', margin: '0 6px' }} />
+          <GroupLabel kind="browse">Browse</GroupLabel>
+          {['🏛 Programs', '📋 Internships', '💼 Jobs', '🌳 Service'].map(l => <a key={l} style={{ fontSize: 12, padding: '6px 5px', color: 'var(--t3)' }}>{l}</a>)}
+        </div>
+      </div>
+
+      <div className="annot ok" style={{ marginBottom: 6 }}>AFTER · stroke set</div>
+      <div style={{ background: 'var(--bg)', border: '.5px solid var(--bd)', borderRadius: 8, padding: '0 12px' }}>
+        <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '0 2px', padding: '6px 0' }}>
+          <a style={{ fontSize: 13, fontWeight: 600, padding: '6px 8px 6px 0', borderRight: '.5px solid var(--bd)', marginRight: 4, display: 'inline-flex', alignItems: 'center', gap: 6 }}><Icon.home/> Home</a>
+          <a style={{ fontSize: 12, padding: '6px 5px', color: 'var(--t3)', display: 'inline-flex', alignItems: 'center', gap: 5 }}><Icon.search/> Search</a>
+          <span style={{ width: 1, height: 14, background: 'var(--bd)', margin: '0 6px' }} />
+          <GroupLabel kind="track">Track</GroupLabel>
+          {[[Icon.star,'My List'],[Icon.compare,'Compare'],[Icon.kanban,'Pipeline'],[Icon.calendar,'Timeline'],[Icon.file,'Apps'],[Icon.person,'Profs'],[Icon.pen,'Refs'],[Icon.archive,'Archive']].map(([I,l]) => <a key={l} style={{ fontSize: 12, padding: '6px 5px', color: 'var(--t3)', display: 'inline-flex', alignItems: 'center', gap: 5 }}><I/>{l}</a>)}
+          <span style={{ width: 1, height: 14, background: 'var(--bd)', margin: '0 6px' }} />
+          <GroupLabel kind="browse">Browse</GroupLabel>
+          {[[Icon.cap,'Programs'],[Icon.clipboard,'Internships'],[Icon.briefcase,'Jobs'],[Icon.leaf,'Service']].map(([I,l]) => <a key={l} style={{ fontSize: 12, padding: '6px 5px', color: 'var(--t3)', display: 'inline-flex', alignItems: 'center', gap: 5 }}><I/>{l}</a>)}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ═════════════════════════════════════════════════════════════════════════
+   09.  SERIF VOICE — system sans vs. Newsreader
+   ═════════════════════════════════════════════════════════════════════════ */
+
+function SerifVoiceArtboard({ variant }) {
+  const useSerif = variant === 'after';
+  return (
+    <div className="site" style={{ width: '100%', height: '100%', overflow: 'auto', padding: 24 }}>
+      <div className="annot" style={{ color: useSerif ? '#3c7b20' : '#a33828', marginBottom: 12 }}>
+        {useSerif ? 'AFTER · serif for page titles + SOP body' : 'BEFORE · system sans throughout'}
+      </div>
+
+      {/* Page title */}
+      <div style={{ marginBottom: 22, paddingBottom: 18, borderBottom: '.5px solid var(--bd)' }}>
+        <div style={{ fontSize: 11, fontWeight: 500, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--teal-t)', marginBottom: 6 }}>Write · Outreach</div>
+        <div style={{
+          fontSize: useSerif ? 38 : 28,
+          fontFamily: useSerif ? 'var(--serif)' : 'inherit',
+          fontWeight: useSerif ? 500 : 700,
+          letterSpacing: useSerif ? '-.015em' : '-.02em',
+          color: 'var(--t1)', lineHeight: 1.1, marginBottom: 4,
+        }}>Statement of purpose</div>
+        <div style={{
+          fontSize: useSerif ? 16 : 13,
+          fontFamily: useSerif ? 'var(--serif)' : 'inherit',
+          fontStyle: useSerif ? 'italic' : 'normal',
+          color: 'var(--t2)',
+        }}>A canonical draft Erin tunes program-by-program.</div>
+      </div>
+
+      {/* Body */}
+      <div style={{
+        fontSize: useSerif ? 17 : 14,
+        fontFamily: useSerif ? 'var(--serif)' : 'inherit',
+        lineHeight: useSerif ? 1.7 : 1.65,
+        color: useSerif ? 'var(--t1)' : 'var(--t2)',
+        maxWidth: 620,
+      }}>
+        <p style={{ marginBottom: 14 }}>The afternoon Hurricane Helene crossed the Pigeon River, I was four miles upstream collecting routine sediment cores for an undergraduate water-quality class. Three days later, the same reach was unrecognizable.</p>
+        <p style={{ marginBottom: 14 }}>My capstone project followed those reach changes through the next two seasons. Using paired GIS suitability analysis and trace-metal core data, I traced legacy lead and zinc signatures from the upstream Champion paper mill basin into the new post-flood depositional terraces.</p>
+        <p>What I want from a graduate program is the chance to extend that work into the next decade of post-Helene recovery&mdash;to understand how the river's chemistry, geomorphology, and ecology will re-equilibrate under a climate that increasingly delivers events of this size.</p>
+      </div>
+    </div>
+  );
+}
+
+/* ═════════════════════════════════════════════════════════════════════════
+   10.  MONOGRAM EXPLORATION — five marks for "What's Next" / "WN"
+   ═════════════════════════════════════════════════════════════════════════ */
+
+function MonogramArtboard() {
+  const marks = [
+    {
+      name: '01 · WN ligature',
+      note: 'two-stroke wordmark; serif crossbar; serious & restrained',
+      svg: (
+        <svg viewBox="0 0 80 80" width="80" height="80">
+          <text x="40" y="58" textAnchor="middle" fontFamily="Newsreader, Georgia, serif" fontWeight="500" fontSize="46" fill="#1a1a1a" letterSpacing="-0.04em">WN</text>
+        </svg>
+      ),
+    },
+    {
+      name: '02 · WN block, teal fill',
+      note: 'square plate, bold sans, brand color; reads "app"',
+      svg: (
+        <svg viewBox="0 0 80 80" width="80" height="80">
+          <rect x="6" y="6" width="68" height="68" rx="14" fill="#3c7b20"/>
+          <text x="40" y="54" textAnchor="middle" fontFamily="-apple-system, sans-serif" fontWeight="700" fontSize="32" fill="#fff" letterSpacing="-0.02em">WN</text>
+        </svg>
+      ),
+    },
+    {
+      name: '03 · Compass needle',
+      note: 'a needle pointing "next"; tiny, line-only, no letters',
+      svg: (
+        <svg viewBox="0 0 80 80" width="80" height="80" fill="none" stroke="#1a1a1a" strokeWidth="1.5">
+          <circle cx="40" cy="40" r="28"/>
+          <path d="M40 16 L40 64 M16 40 L64 40" opacity="0.25"/>
+          <path d="M40 18 L46 40 L40 35 L34 40 Z" fill="#3c7b20" stroke="#3c7b20"/>
+          <circle cx="40" cy="40" r="2" fill="#1a1a1a"/>
+        </svg>
+      ),
+    },
+    {
+      name: '04 · Sprout / next chapter',
+      note: 'metaphorical: growth + path; pairs with environmental theme',
+      svg: (
+        <svg viewBox="0 0 80 80" width="80" height="80" fill="none" stroke="#1a1a1a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M40 64 L40 36"/>
+          <path d="M40 38 C40 28 30 24 22 28 C26 38 32 44 40 42" fill="#eaf3e5"/>
+          <path d="M40 36 C40 30 48 26 56 30 C52 38 46 42 40 40" fill="#eaf3e5"/>
+          <line x1="20" y1="68" x2="60" y2="68" stroke="#1a1a1a" opacity="0.4"/>
+        </svg>
+      ),
+    },
+    {
+      name: '05 · Arrow → (literal)',
+      note: 'the wordmark IS an arrow; light & legible; works at 16 px',
+      svg: (
+        <svg viewBox="0 0 80 80" width="80" height="80">
+          <text x="14" y="54" fontFamily="Newsreader, Georgia, serif" fontWeight="500" fontSize="38" fill="#1a1a1a" letterSpacing="-0.02em" fontStyle="italic">w</text>
+          <text x="36" y="54" fontFamily="Newsreader, Georgia, serif" fontWeight="500" fontSize="38" fill="#1a1a1a" letterSpacing="-0.02em" fontStyle="italic">n</text>
+          <path d="M58 41 L70 41 M65 36 L70 41 L65 46" fill="none" stroke="#3c7b20" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+        </svg>
+      ),
+    },
+  ];
+
+  return (
+    <div className="site" style={{ width: '100%', height: '100%', padding: 22, overflow: 'auto' }}>
+      <div className="annot ok" style={{ marginBottom: 14 }}>Five directions for a single mark — pick at most one</div>
+
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5,1fr)', gap: 12, marginBottom: 22 }}>
+        {marks.map(m => (
+          <div key={m.name} style={{ background: 'var(--bg)', border: '.5px solid var(--bd)', borderRadius: 10, padding: 14 }}>
+            <div style={{ background: 'var(--bg2)', borderRadius: 6, padding: 12, display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 10 }}>{m.svg}</div>
+            <div style={{ fontSize: 12, fontWeight: 600, color: 'var(--t1)', marginBottom: 3 }}>{m.name}</div>
+            <div style={{ fontSize: 11, color: 'var(--t3)', lineHeight: 1.5 }}>{m.note}</div>
+          </div>
+        ))}
+      </div>
+
+      {/* In context — show each at header scale */}
+      <div className="annot" style={{ marginBottom: 8 }}>In context, at 26 px header scale</div>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
+        {marks.map((m, i) => (
+          <div key={m.name} style={{ background: 'var(--bg)', border: '.5px solid var(--bd)', borderRadius: 6, padding: '8px 14px', display: 'flex', alignItems: 'center', gap: 10 }}>
+            <div style={{ width: 32, height: 32, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+              {React.cloneElement(m.svg, { width: 28, height: 28 })}
+            </div>
+            <div style={{ fontFamily: 'var(--serif)', fontSize: 16, fontWeight: 500, letterSpacing: '-.005em' }}>What's Next</div>
+            <div style={{ marginLeft: 'auto', fontFamily: 'IBM Plex Mono,ui-monospace,monospace', fontSize: 10.5, color: 'var(--t3)' }}>{m.name.split(' · ')[0]}</div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+/* ═════════════════════════════════════════════════════════════════════════
+   11.  WARM LIGHT THEME — before/after
+   ═════════════════════════════════════════════════════════════════════════ */
+
+function WarmThemeArtboard({ variant }) {
+  const warm = variant === 'after';
+  return (
+    <div className={`site ${warm ? 'warm' : ''}`} style={{ width: '100%', height: '100%', overflow: 'auto', padding: 0 }}>
+      <PageHeader activeGroup="track" activeLink="My List" warm={warm} />
+      <div className="annot" style={{ color: warm ? '#3c7b20' : '#a33828', padding: '14px 22px 0' }}>
+        {warm ? 'AFTER · 2–3% warm shift toward parchment' : 'BEFORE · neutral cool grey'}
+      </div>
+      <div style={{ maxWidth: 720, margin: '12px auto 0', padding: '0 16px' }}>
+        <div style={{ paddingBottom: 14, borderBottom: '.5px solid var(--bd)', marginBottom: 16 }}>
+          <div style={{ fontSize: 11, fontWeight: 500, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--teal-t)', marginBottom: 4 }}>Track</div>
+          <div style={{ fontSize: 28, fontWeight: 700, color: 'var(--t1)', letterSpacing: '-.02em' }}>My List</div>
+          <div style={{ fontSize: 13.5, color: 'var(--t2)' }}>14 saved opportunities</div>
+        </div>
+
+        {[
+          ['MS — Wetland Carbon Dynamics', 'University of Tennessee', '28d', '#993c1d', 'var(--red-bg)'],
+          ['Coastal Wetland Restoration Crew', 'The Nature Conservancy', '45d', 'var(--amber-t)', 'var(--amber-bg)'],
+          ['STAR Fellowship — EJ in Appalachia', 'US EPA', '62d', 'var(--amber-t)', 'var(--amber-bg)'],
+        ].map(([t, o, urg, c, bg]) => (
+          <div key={t} style={{ background: 'var(--bg)', border: '.5px solid var(--bd)', borderRadius: 10, padding: '12px 16px', marginBottom: 6, display: 'grid', gridTemplateColumns: '1fr auto', gap: 12 }}>
+            <div>
+              <div style={{ fontSize: 15, fontWeight: 600, color: 'var(--t1)' }}>{t}</div>
+              <div style={{ fontSize: 12.5, color: 'var(--t3)', marginTop: 1 }}>{o}</div>
+            </div>
+            <span style={{ fontSize: 11, fontWeight: 700, padding: '3px 9px', borderRadius: 999, background: bg, color: c, alignSelf: 'center' }}>{urg}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+/* ═════════════════════════════════════════════════════════════════════════
+   12.  PIPELINE PAGE — redesigned kanban
+   ═════════════════════════════════════════════════════════════════════════ */
+
+function PipelinePage() {
+  const cols = [
+    { key: 'save', label: 'Saved', clr: 'var(--bds)', count: 4, cards: [
+      ['MS Stream Restoration', 'CSU', 'Graduate', '95d'],
+      ['GIS Tech — USGS', 'USGS Reston', 'Career', 'Rolling'],
+      ['MS Coastal Wildlife', 'UF', 'Graduate', '62d'],
+      ['SCA Land Steward', 'Yellowstone', 'Service', 'Rolling'],
+    ] },
+    { key: 'prep', label: 'Preparing', clr: '#ef9f27', count: 3, cards: [
+      ['MS Wetland Carbon', 'UTK', 'Graduate', '28d', 'urgent'],
+      ['STAR Fellowship', 'EPA', 'Graduate', '62d'],
+      ['NCCC SW Cohort', 'AmeriCorps', 'Service', '90d'],
+    ] },
+    { key: 'sub', label: 'Submitted', clr: 'var(--blue)', count: 2, cards: [
+      ['MS Trace Metals', 'VT', 'Graduate', 'Dec 1'],
+      ['TNC Mobile Bay', 'TNC', 'Service', 'Nov 15'],
+    ] },
+    { key: 'await', label: 'Awaiting decision', clr: 'var(--purple-t)', count: 2, cards: [
+      ['MS Wildlife — UGA', 'UGA', 'Graduate', '—'],
+      ['NPS Resource Asst.', 'NPS', 'Service', '—'],
+    ] },
+    { key: 'intv', label: 'Interview', clr: '#185fa5', count: 1, cards: [
+      ['MS Hydrogeology', 'UT-Austin', 'Graduate', 'Jan 22 call'],
+    ] },
+    { key: 'out', label: 'Outcome', clr: 'var(--teal)', count: 2, cards: [
+      ['MS Aquatic Ecology', 'UNC-Chapel Hill', 'Graduate', '✓ Accepted', 'accept'],
+      ['Audubon Field Asst.', 'Audubon NC', 'Career', '× Declined offer', 'declined'],
+    ] },
+  ];
+  const TYP = TYPE_PILL_FN();
+  return (
+    <div className="site" style={{ width: '100%', height: '100%', overflow: 'auto' }}>
+      <PageHeader activeGroup="track" activeLink="Pipeline" useIcons={true} />
+      <div style={{ maxWidth: 1280, margin: '0 auto', padding: '20px 16px' }}>
+        <div style={{ paddingBottom: 14, borderBottom: '.5px solid var(--bd)', marginBottom: 18 }}>
+          <div style={{ fontSize: 11, fontWeight: 500, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--teal-t)', marginBottom: 4 }}>Track</div>
+          <div style={{ fontSize: 30, fontWeight: 700, color: 'var(--t1)', letterSpacing: '-.02em' }}>Pipeline</div>
+          <div style={{ fontSize: 14, color: 'var(--t2)' }}>14 opportunities · drag cards between stages to advance.</div>
+        </div>
+
+        {/* Funnel summary */}
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(6,1fr)', gap: 8, marginBottom: 18 }}>
+          {cols.map(c => (
+            <div key={c.key} style={{ background: 'var(--bg)', border: '.5px solid var(--bd)', borderTop: `3px solid ${c.clr}`, borderRadius: 8, padding: '12px 14px', textAlign: 'center' }}>
+              <div style={{ fontSize: 26, fontWeight: 700, color: 'var(--t1)' }}>{c.count}</div>
+              <div style={{ fontSize: 11.5, color: 'var(--t3)', marginTop: 2 }}>{c.label}</div>
+            </div>
+          ))}
+        </div>
+
+        {/* Board */}
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(6,1fr)', gap: 10 }}>
+          {cols.map(col => (
+            <div key={col.key} style={{ background: 'var(--bg)', border: '.5px solid var(--bd)', borderRadius: 10, padding: 10, minHeight: 220 }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginBottom: 10 }}>
+                <div style={{ width: 9, height: 9, borderRadius: '50%', background: col.clr }} />
+                <div style={{ fontSize: 13, fontWeight: 700 }}>{col.label}</div>
+                <div style={{ marginLeft: 'auto', fontSize: 10.5, fontWeight: 600, padding: '1px 7px', borderRadius: 999, background: 'var(--bg2)', color: 'var(--t2)' }}>{col.count}</div>
+              </div>
+              {col.cards.map(([t, o, ty, urg, flag], i) => (
+                <div key={i} style={{
+                  background: 'var(--bg2)',
+                  border: '.5px solid var(--bd)',
+                  borderLeft: flag === 'urgent' ? '3px solid #d63a1f' : '.5px solid var(--bd)',
+                  borderRadius: 6, padding: '8px 10px', marginBottom: 5, cursor: 'grab',
+                }}>
+                  <div style={{ fontSize: 12, fontWeight: 600, color: 'var(--t1)', lineHeight: 1.3, marginBottom: 2 }}>{t}</div>
+                  <div style={{ fontSize: 10.5, color: 'var(--t3)', marginBottom: 5 }}>{o}</div>
+                  <div style={{ display: 'flex', gap: 4, alignItems: 'center' }}>
+                    <span style={{ fontSize: 9.5, fontWeight: 600, padding: '1px 7px', borderRadius: 999, background: TYP[ty].bg, color: TYP[ty].fg }}>{ty}</span>
+                    <span style={{ fontSize: 10, color: flag === 'urgent' ? '#993c1d' : (flag === 'accept' ? 'var(--teal-t)' : (flag === 'declined' ? 'var(--t3)' : 'var(--t2)')), fontWeight: flag ? 600 : 400, marginLeft: 'auto' }}>{urg}</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          ))}
+        </div>
+
+        <div className="annot ok" style={{ marginTop: 14 }}>Funnel summary above + 6-column board. Same content as today, with bigger column headers, type-pill on every card, and drag affordance via cursor:grab.</div>
+      </div>
+    </div>
+  );
+}
+
+function TYPE_PILL_FN() {
+  return {
+    Graduate: { bg: 'var(--teal-bg)', fg: 'var(--teal-t)' },
+    Service: { bg: 'var(--amber-bg)', fg: 'var(--amber-t)' },
+    Career: { bg: 'var(--purple-bg)', fg: 'var(--purple-t)' },
+    Internship: { bg: 'var(--blue-bg)', fg: 'var(--blue)' },
+  };
+}
+
+/* ═════════════════════════════════════════════════════════════════════════
+   13.  TIMELINE PAGE — calendar dominates
+   ═════════════════════════════════════════════════════════════════════════ */
+
+function TimelinePage() {
+  const months = [
+    { label: 'November 2026', dots: { 15: 'amber', 22: 'amber' } },
+    { label: 'December 2026', dots: { 1: 'red', 15: 'red' } },
+    { label: 'January 2027', dots: { 22: 'red', 31: 'amber' } },
+    { label: 'February 2027', dots: { 14: 'amber', 17: 'amber', 28: 'teal' } },
+    { label: 'March 2027', dots: { 17: 'teal' } },
+    { label: 'April 2027', dots: { 9: 'teal' } },
+  ];
+
+  const dotColor = (k) => ({ red: '#d63a1f', amber: '#ef9f27', teal: '#4e9836' }[k]);
+
+  return (
+    <div className="site" style={{ width: '100%', height: '100%', overflow: 'auto' }}>
+      <PageHeader activeGroup="track" activeLink="Timeline" useIcons={true} />
+      <div style={{ maxWidth: 1280, margin: '0 auto', padding: '20px 16px' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr auto', alignItems: 'end', paddingBottom: 14, borderBottom: '.5px solid var(--bd)', marginBottom: 18 }}>
+          <div>
+            <div style={{ fontSize: 11, fontWeight: 500, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--teal-t)', marginBottom: 4 }}>Track</div>
+            <div style={{ fontSize: 30, fontWeight: 700, color: 'var(--t1)', letterSpacing: '-.02em' }}>Timeline</div>
+            <div style={{ fontSize: 14, color: 'var(--t2)' }}>9 deadlines, next 6 months · click any date to open the opportunity.</div>
+          </div>
+          {/* Legend */}
+          <div style={{ display: 'flex', gap: 16, alignItems: 'center', fontSize: 12, color: 'var(--t2)' }}>
+            <span style={{ display: 'inline-flex', alignItems: 'center', gap: 5 }}><span style={{ width: 9, height: 9, borderRadius: '50%', background: '#d63a1f' }}/>≤30d</span>
+            <span style={{ display: 'inline-flex', alignItems: 'center', gap: 5 }}><span style={{ width: 9, height: 9, borderRadius: '50%', background: '#ef9f27' }}/>≤90d</span>
+            <span style={{ display: 'inline-flex', alignItems: 'center', gap: 5 }}><span style={{ width: 9, height: 9, borderRadius: '50%', background: '#4e9836' }}/>≤9mo</span>
+          </div>
+        </div>
+
+        {/* Big calendar grid */}
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 14, marginBottom: 24 }}>
+          {months.map(m => (
+            <div key={m.label} style={{ background: 'var(--bg)', border: '.5px solid var(--bd)', borderRadius: 10, overflow: 'hidden' }}>
+              <div style={{ padding: '10px 14px', borderBottom: '.5px solid var(--bd)', fontSize: 14, fontWeight: 700, color: 'var(--t1)' }}>{m.label}</div>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(7,1fr)', padding: '8px 8px 4px', gap: 1 }}>
+                {['S','M','T','W','T','F','S'].map((d,i) => <div key={i} style={{ fontSize: 10, fontWeight: 600, color: 'var(--t3)', textAlign: 'center', padding: '2px 0' }}>{d}</div>)}
+              </div>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(7,1fr)', padding: '0 8px 12px', gap: 2 }}>
+                {Array.from({length: 35}, (_, i) => {
+                  const day = i - 2;
+                  if (day < 1 || day > 31) return <div key={i} />;
+                  const dot = m.dots[day];
+                  return (
+                    <div key={i} style={{
+                      minHeight: 32, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
+                      fontSize: 12, fontWeight: dot ? 600 : 400, color: dot ? 'var(--t1)' : 'var(--t2)',
+                      borderRadius: 4, position: 'relative',
+                      cursor: dot ? 'pointer' : 'default',
+                      background: dot ? 'var(--bg2)' : 'transparent',
+                    }}>
+                      {day}
+                      {dot && <div style={{ width: 6, height: 6, borderRadius: '50%', background: dotColor(dot), position: 'absolute', bottom: 3 }} />}
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* Compact roll-up below */}
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 18 }}>
+          <div>
+            <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase', color: 'var(--t3)', marginBottom: 8 }}>Rolling / open now</div>
+            {['GIS Technician (USGS)', 'SCA Land Steward (Yellowstone)', 'Audubon NC Field Assistant'].map(t => (
+              <div key={t} style={{ background: 'var(--bg)', border: '.5px solid var(--bd)', borderRadius: 6, padding: '8px 12px', marginBottom: 4, fontSize: 13 }}>{t}</div>
+            ))}
+          </div>
+          <div>
+            <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase', color: 'var(--t3)', marginBottom: 8 }}>Date TBD / contact first</div>
+            {['MS Hydrogeology (UT-Austin)', 'NPS Resource Assistant'].map(t => (
+              <div key={t} style={{ background: 'var(--bg)', border: '.5px solid var(--bd)', borderRadius: 6, padding: '8px 12px', marginBottom: 4, fontSize: 13 }}>{t}</div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ═════════════════════════════════════════════════════════════════════════
+   14.  OUTREACH / SOP PAGE — with serif body
+   ═════════════════════════════════════════════════════════════════════════ */
+
+function SOPPage() {
+  return (
+    <div className="site" style={{ width: '100%', height: '100%', overflow: 'auto' }}>
+      <PageHeader activeGroup="write" activeLink="Outreach" useIcons={true} serif={true} />
+      <div style={{ maxWidth: 760, margin: '0 auto', padding: '24px 16px' }}>
+        <div style={{ paddingBottom: 14, borderBottom: '.5px solid var(--bd)', marginBottom: 22 }}>
+          <div style={{ fontSize: 11, fontWeight: 500, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--amber-t)', marginBottom: 6 }}>Write · Outreach</div>
+          <div style={{ fontSize: 38, fontFamily: 'var(--serif)', fontWeight: 500, letterSpacing: '-.015em', color: 'var(--t1)', lineHeight: 1.05, marginBottom: 6 }}>Statement of purpose &amp; outreach</div>
+          <div style={{ fontSize: 15, fontFamily: 'var(--serif)', color: 'var(--t2)', fontStyle: 'italic' }}>A canonical SOP draft plus a generator that tunes it for each program.</div>
+        </div>
+
+        {/* Email generator promoted to top */}
+        <div style={{ background: 'var(--teal-bg)', border: '1px solid var(--teal)', borderRadius: 10, padding: '18px 22px', marginBottom: 26 }}>
+          <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase', color: 'var(--teal-t)', marginBottom: 8 }}>Generate an outreach email</div>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr auto', gap: 8, marginBottom: 10 }}>
+            <select style={{ fontSize: 13, padding: '8px 12px', borderRadius: 6, border: '.5px solid var(--bds)', background: 'var(--bg)', fontFamily: 'inherit' }} defaultValue="utk">
+              <option value="utk">MS Wetland Carbon — UTK</option>
+            </select>
+            <select style={{ fontSize: 13, padding: '8px 12px', borderRadius: 6, border: '.5px solid var(--bds)', background: 'var(--bg)', fontFamily: 'inherit' }}>
+              <option>Dr. Forrester</option>
+            </select>
+            <button style={{ fontSize: 13, fontWeight: 600, padding: '8px 18px', borderRadius: 6, border: 'none', background: 'var(--teal-t)', color: '#fff', cursor: 'pointer' }}>Generate →</button>
+          </div>
+          <div style={{ fontSize: 12, color: 'var(--t2)' }}>Pulls coursework, capstone refs, and the right faculty links for the selected program.</div>
+        </div>
+
+        {/* SOP draft — serif body */}
+        <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase', color: 'var(--t3)', marginBottom: 8 }}>SOP draft</div>
+        <div style={{
+          background: 'var(--bg)', border: '.5px solid var(--bd)', borderRadius: 10,
+          padding: '28px 40px',
+        }}>
+          <div style={{ fontFamily: 'var(--serif)', fontSize: 17, lineHeight: 1.75, color: 'var(--t1)' }}>
+            <p style={{ marginBottom: 16 }}>The afternoon Hurricane Helene crossed the Pigeon River, I was four miles upstream collecting routine sediment cores for an undergraduate water-quality class. Three days later, the same reach was unrecognizable&mdash;<span style={{ background: '#e8efff', color: '#185fa5', padding: '0 3px', fontStyle: 'italic' }}>[program-specific question]</span>.</p>
+            <p style={{ marginBottom: 16 }}>My capstone project followed those reach changes through the next two seasons. Using paired GIS suitability analysis and trace-metal core data, I traced legacy lead and zinc signatures from the upstream Champion paper mill basin into the new post-flood depositional terraces. The work taught me how quickly a system you thought you understood can be re-written by a single climate event &mdash; and how powerful a tool the right pre-event baseline becomes when it does.</p>
+            <p style={{ marginBottom: 16 }}>What I want from a graduate program is the chance to extend that work into the next decade of post-Helene recovery. <span style={{ background: '#e8efff', color: '#185fa5', padding: '0 3px', fontStyle: 'italic' }}>[specific lab / advisor]</span> &hellip;</p>
+          </div>
+        </div>
+
+        {/* Templates strip */}
+        <div style={{ marginTop: 26, fontSize: 11, fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase', color: 'var(--t3)', marginBottom: 8 }}>Faculty email templates</div>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 8 }}>
+          {['Cold inquiry — graduate', 'Follow-up after no reply', 'Reference letter ask'].map(t => (
+            <div key={t} style={{ background: 'var(--bg)', border: '.5px solid var(--bd)', borderRadius: 8, padding: '12px 14px' }}>
+              <div style={{ fontSize: 13.5, fontFamily: 'var(--serif)', fontWeight: 500, color: 'var(--t1)' }}>{t}</div>
+              <div style={{ fontSize: 11, color: 'var(--t3)', marginTop: 3, fontStyle: 'italic' }}>4 placeholders · ~180 words</div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ═════════════════════════════════════════════════════════════════════════
+   15.  BIO PAGE — where the biography content moves to
+   ═════════════════════════════════════════════════════════════════════════ */
+
+function BioPage() {
+  return (
+    <div className="site" style={{ width: '100%', height: '100%', overflow: 'auto' }}>
+      <PageHeader useIcons={true} serif={true} />
+      <div style={{ maxWidth: 760, margin: '0 auto', padding: '32px 16px' }}>
+
+        {/* Name + line */}
+        <div style={{ marginBottom: 28 }}>
+          <div style={{ fontSize: 11, fontWeight: 500, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--teal-t)', marginBottom: 8 }}>Profile</div>
+          <div style={{ display: 'flex', gap: 18, alignItems: 'center' }}>
+            <div style={{ width: 80, height: 80, borderRadius: '50%', background: 'linear-gradient(135deg, var(--teal-bg), var(--teal))', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'var(--serif)', fontSize: 30, fontWeight: 500, letterSpacing: '-.02em' }}>EL</div>
+            <div>
+              <div style={{ fontSize: 42, fontFamily: 'var(--serif)', fontWeight: 500, letterSpacing: '-.02em', color: 'var(--t1)', lineHeight: 1.05 }}>Erin Lamberton</div>
+              <div style={{ fontSize: 15, fontFamily: 'var(--serif)', color: 'var(--t2)', fontStyle: 'italic', marginTop: 4 }}>B.S. Environmental Science · Western Carolina University · Magna Cum Laude · May 2025</div>
+            </div>
+          </div>
+        </div>
+
+        {/* Stats */}
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: 10, marginBottom: 28 }}>
+          {[['3.731', 'Cumulative GPA'], ['Magna', 'Cum Laude'], ['5+', "Dean's List semesters"], ['3', "Chancellor's List"]].map(([v, l]) => (
+            <div key={l} style={{ background: 'var(--bg)', border: '.5px solid var(--bd)', borderRadius: 10, padding: '14px 16px' }}>
+              <div style={{ fontSize: 26, fontFamily: 'var(--serif)', fontWeight: 500, color: 'var(--t1)', letterSpacing: '-.01em' }}>{v}</div>
+              <div style={{ fontSize: 11.5, color: 'var(--t3)', marginTop: 3 }}>{l}</div>
+            </div>
+          ))}
+        </div>
+
+        {/* Narrative — serif body */}
+        <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase', color: 'var(--t3)', marginBottom: 8 }}>Why this profile is competitive</div>
+        <div style={{ fontSize: 17, fontFamily: 'var(--serif)', lineHeight: 1.75, color: 'var(--t1)' }}>
+          <p style={{ marginBottom: 18 }}>Erin graduates with a rare combination of <em>rigorous interdisciplinary coursework</em> and <em>genuine hands-on field experience</em> across wetlands, water quality, wildlife ecology, and GIS — disciplines that rarely overlap in a single undergraduate. Her WCU program is intentionally interdisciplinary, and she took full advantage of it, building a coherent research track from General Chemistry through Environmental Toxicology, Contaminated Rivers, Wetlands, Mammalogy, and two GIS courses.</p>
+          <p style={{ marginBottom: 18 }}>Her capstone research project — analyzing lead contamination in Pigeon River Basin sediments following Hurricane Helene (2024) — applied graduate-level geomorphological-geochemical methodology to a real, ongoing environmental disaster in her own backyard. That project will anchor every application she submits.</p>
+          <p style={{ marginBottom: 18 }}>Her GIS proficiency (introductory + applied, including a multi-criteria suitability analysis capstone) is increasingly essential in ecological research, and her environmental justice coursework in the Appalachian context gives her a policy and community dimension that purely technical candidates lack.</p>
+          <p>She also volunteered in Hurricane Helene disaster relief in the same region she was studying — a rare connection between scholarship and service.</p>
+        </div>
+
+        {/* Strengths/badges */}
+        <div style={{ marginTop: 28, fontSize: 11, fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase', color: 'var(--t3)', marginBottom: 10 }}>Areas of focus</div>
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
+          {[
+            ['Wetlands & water quality', 'teal'],
+            ['Trace metal contamination', 'teal'],
+            ['Wildlife & mammalogy', 'teal'],
+            ['GIS — basic & advanced', 'blue'],
+            ['Environmental toxicology', 'blue'],
+            ['Epidemiology', 'blue'],
+            ['Environmental justice — Appalachia', 'amber'],
+            ['AmeriCorps NCCC interest', 'amber'],
+            ['Hurricane Helene relief volunteer', 'amber'],
+          ].map(([t, c]) => (
+            <span key={t} style={{
+              fontSize: 12, fontWeight: 500, padding: '4px 12px', borderRadius: 999,
+              background: c === 'teal' ? 'var(--teal-bg)' : c === 'blue' ? 'var(--blue-bg)' : 'var(--amber-bg)',
+              color: c === 'teal' ? 'var(--teal-t)' : c === 'blue' ? 'var(--blue)' : 'var(--amber-t)',
+            }}>{t}</span>
+          ))}
+        </div>
+
+        {/* Transcript link */}
+        <div style={{ marginTop: 28, padding: '14px 18px', background: 'var(--bg)', border: '.5px solid var(--bd)', borderRadius: 8, display: 'flex', alignItems: 'center', gap: 12 }}>
+          <Icon.file />
+          <div style={{ flex: 1 }}>
+            <div style={{ fontSize: 14, fontWeight: 600, color: 'var(--t1)' }}>Unofficial transcript (PDF)</div>
+            <div style={{ fontSize: 12, color: 'var(--t3)' }}>Full coursework · 124 credits</div>
+          </div>
+          <a style={{ fontSize: 12, color: 'var(--teal-t)', fontWeight: 500 }}>Open ↗</a>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ═════════════════════════════════════════════════════════════════════════
+   16.  COMPARE PAGE
+   ═════════════════════════════════════════════════════════════════════════ */
+
+function ComparePage() {
+  const cols = [
+    { title: 'MS — Wetland Carbon', org: 'UTK', deadline: 'Dec 15 · 28d', stipend: '$30k', fit: 'Strong', advisor: 'Dr. Forrester', status: 'Preparing', region: 'Southeast' },
+    { title: 'MS — Trace Metals', org: 'Virginia Tech', deadline: 'Jan 1 · 40d', stipend: '$28k', fit: 'Strong', advisor: 'Dr. Chen', status: 'Submitted', region: 'Mid-Atlantic' },
+    { title: 'STAR Fellowship', org: 'EPA', deadline: 'Feb 17 · 62d', stipend: '$36k + tuition', fit: 'Top recommend', advisor: '— (flexible)', status: 'Preparing', region: 'National' },
+  ];
+
+  return (
+    <div className="site" style={{ width: '100%', height: '100%', overflow: 'auto' }}>
+      <PageHeader activeGroup="track" activeLink="Compare" useIcons={true} />
+      <div style={{ maxWidth: 1180, margin: '0 auto', padding: '20px 16px' }}>
+        <div style={{ paddingBottom: 14, borderBottom: '.5px solid var(--bd)', marginBottom: 18 }}>
+          <div style={{ fontSize: 11, fontWeight: 500, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--teal-t)', marginBottom: 4 }}>Track</div>
+          <div style={{ fontSize: 30, fontWeight: 700, color: 'var(--t1)', letterSpacing: '-.02em' }}>Compare</div>
+          <div style={{ fontSize: 14, color: 'var(--t2)' }}>3 of 14 saved opportunities · side by side.</div>
+        </div>
+
+        {/* Selector chips — collapsed (compact) */}
+        <div style={{ background: 'var(--bg)', border: '.5px solid var(--bd)', borderRadius: 10, padding: '10px 14px', marginBottom: 18, display: 'flex', alignItems: 'center', gap: 10, flexWrap: 'wrap' }}>
+          <div style={{ fontSize: 11, fontWeight: 600, letterSpacing: '.06em', textTransform: 'uppercase', color: 'var(--t3)' }}>Comparing</div>
+          {cols.map(c => (
+            <span key={c.title} style={{ fontSize: 12, padding: '3px 10px 3px 12px', borderRadius: 999, background: 'var(--teal-bg)', color: 'var(--teal-t)', display: 'inline-flex', alignItems: 'center', gap: 6 }}>
+              {c.title}
+              <span style={{ opacity: .6, cursor: 'pointer' }}>×</span>
+            </span>
+          ))}
+          <button style={{ fontSize: 12, padding: '4px 12px', borderRadius: 999, border: '.5px dashed var(--bds)', background: 'transparent', color: 'var(--t3)', cursor: 'pointer' }}>+ add another</button>
+        </div>
+
+        {/* Comparison table */}
+        <div style={{ background: 'var(--bg)', border: '.5px solid var(--bd)', borderRadius: 10, overflow: 'hidden' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: '180px repeat(3,1fr)', borderBottom: '.5px solid var(--bd)' }}>
+            <div style={{ padding: '14px 16px', background: 'var(--bg2)', fontSize: 11, fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase', color: 'var(--t3)' }}>Opportunity</div>
+            {cols.map(c => (
+              <div key={c.title} style={{ padding: '14px 16px', borderLeft: '.5px solid var(--bd)' }}>
+                <div style={{ fontSize: 14.5, fontWeight: 700, color: 'var(--t1)', lineHeight: 1.3, marginBottom: 2 }}>{c.title}</div>
+                <div style={{ fontSize: 12, color: 'var(--t3)' }}>{c.org}</div>
+              </div>
+            ))}
+          </div>
+          {[
+            ['Deadline', cols.map(c => c.deadline), (v, i) => <span style={{ fontSize: 13, fontWeight: 600, color: i === 0 ? '#993c1d' : 'var(--amber-t)' }}>{v}</span>],
+            ['Stipend / comp', cols.map(c => c.stipend)],
+            ['Fit', cols.map(c => c.fit), (v) => <span style={{ fontSize: 11.5, fontWeight: 600, padding: '2px 9px', borderRadius: 999, background: 'var(--teal-bg)', color: 'var(--teal-t)' }}>{v}</span>],
+            ['Region', cols.map(c => c.region)],
+            ['Advisor / contact', cols.map(c => c.advisor)],
+            ['Status', cols.map(c => c.status), (v) => <span style={{ fontSize: 11.5, fontWeight: 600, padding: '2px 9px', borderRadius: 999, background: 'var(--amber-bg)', color: 'var(--amber-t)' }}>{v}</span>],
+          ].map(([label, values, render]) => (
+            <div key={label} style={{ display: 'grid', gridTemplateColumns: '180px repeat(3,1fr)', borderBottom: '.5px solid var(--bd)' }}>
+              <div style={{ padding: '12px 16px', background: 'var(--bg2)', fontSize: 11.5, fontWeight: 600, color: 'var(--t3)', letterSpacing: '.04em', textTransform: 'uppercase' }}>{label}</div>
+              {values.map((v, i) => (
+                <div key={i} style={{ padding: '12px 16px', borderLeft: '.5px solid var(--bd)', fontSize: 13, color: 'var(--t2)' }}>
+                  {render ? render(v, i) : v}
+                </div>
+              ))}
+            </div>
+          ))}
+          <div style={{ display: 'grid', gridTemplateColumns: '180px repeat(3,1fr)' }}>
+            <div style={{ padding: '12px 16px', background: 'var(--bg2)' }} />
+            {cols.map((c, i) => (
+              <div key={i} style={{ padding: '12px 16px', borderLeft: '.5px solid var(--bd)' }}>
+                <button style={{ fontSize: 12, fontWeight: 500, padding: '5px 14px', borderRadius: 999, border: '.5px solid var(--bds)', background: 'transparent', color: 'var(--t2)', marginRight: 6 }}>Details →</button>
+                <button style={{ fontSize: 12, fontWeight: 600, padding: '5px 14px', borderRadius: 999, border: 'none', background: 'var(--teal)', color: '#fff' }}>Apply ↗</button>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ═════════════════════════════════════════════════════════════════════════
+   17.  APPLICATIONS PAGE
+   ═════════════════════════════════════════════════════════════════════════ */
+
+function ApplicationsPage() {
+  const checklist = [
+    ['SOP draft (program-specific)', true],
+    ['CV (PDF, version 2)', true],
+    ['Undergraduate transcript', true],
+    ['GRE waiver request', true],
+    ['Reference 1 — Dr. Stevens', true],
+    ['Reference 2 — Dr. Hammond', false, 'Waiting confirmation'],
+    ['Reference 3 — Dr. Rivers', false, 'Not yet asked'],
+    ['Online portal submission', false],
+  ];
+  const done = checklist.filter(c => c[1]).length;
+  const pct = Math.round(done / checklist.length * 100);
+
+  return (
+    <div className="site" style={{ width: '100%', height: '100%', overflow: 'auto' }}>
+      <PageHeader activeGroup="track" activeLink="Apps" useIcons={true} />
+      <div style={{ maxWidth: 1040, margin: '0 auto', padding: '20px 16px' }}>
+        <div style={{ paddingBottom: 14, borderBottom: '.5px solid var(--bd)', marginBottom: 18 }}>
+          <div style={{ fontSize: 11, fontWeight: 500, letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--teal-t)', marginBottom: 4 }}>Track</div>
+          <div style={{ fontSize: 30, fontWeight: 700, color: 'var(--t1)', letterSpacing: '-.02em' }}>Applications</div>
+          <div style={{ fontSize: 14, color: 'var(--t2)' }}>14 saved · 5 active · 2 submitted · 7 not started.</div>
+        </div>
+
+        {/* Pipeline strip */}
+        <div style={{ display: 'flex', gap: 6, marginBottom: 18, alignItems: 'center', flexWrap: 'wrap' }}>
+          {[
+            ['Not started', 7, 'var(--bg2)', 'var(--t3)'],
+            ['Gathering', 3, 'var(--amber-bg)', 'var(--amber-t)'],
+            ['Submitted', 2, 'var(--blue-bg)', 'var(--blue)'],
+            ['Under review', 1, 'var(--purple-bg)', 'var(--purple-t)'],
+            ['Interview', 0, 'var(--bg2)', 'var(--t3)'],
+            ['Decision', 1, 'var(--teal-bg)', 'var(--teal-t)'],
+          ].map(([l, n, bg, fg]) => (
+            <span key={l} style={{ fontSize: 12, fontWeight: 600, padding: '5px 12px', borderRadius: 999, background: bg, color: fg, display: 'inline-flex', gap: 5, alignItems: 'center' }}>
+              {l} <span style={{ fontSize: 10.5, opacity: .7 }}>{n}</span>
+            </span>
+          ))}
+        </div>
+
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 280px', gap: 18, alignItems: 'start' }}>
+          {/* List of applications */}
+          <div>
+            {/* Active application — expanded */}
+            <div style={{ background: 'var(--bg)', border: '1.5px solid var(--teal)', borderRadius: 12, padding: '18px 22px', marginBottom: 12 }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 6 }}>
+                <span style={{ fontSize: 11, fontWeight: 700, padding: '2px 9px', borderRadius: 999, background: 'var(--amber-bg)', color: 'var(--amber-t)' }}>Gathering materials</span>
+                <span style={{ fontSize: 11, fontWeight: 700, padding: '2px 9px', borderRadius: 999, background: 'var(--red-bg)', color: '#993c1d' }}>28d left</span>
+              </div>
+              <div style={{ fontSize: 18, fontWeight: 700, color: 'var(--t1)', letterSpacing: '-.005em', marginBottom: 2 }}>MS Position — Wetland Carbon Dynamics</div>
+              <div style={{ fontSize: 13, color: 'var(--t3)', marginBottom: 14 }}>University of Tennessee · Dr. Forrester · Portal: <a style={{ color: 'var(--blue)' }}>gradapp.utk.edu ↗</a></div>
+
+              {/* Progress */}
+              <div style={{ marginBottom: 14 }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 12, color: 'var(--t2)', marginBottom: 5 }}>
+                  <span>Materials complete</span>
+                  <span style={{ fontWeight: 600 }}>{done}/{checklist.length} · {pct}%</span>
+                </div>
+                <div style={{ height: 6, background: 'var(--bg2)', borderRadius: 999, overflow: 'hidden' }}>
+                  <div style={{ height: '100%', width: pct + '%', background: 'var(--teal)' }} />
+                </div>
+              </div>
+
+              {/* Checklist */}
+              <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase', color: 'var(--t3)', marginBottom: 6 }}>Checklist</div>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
+                {checklist.map(([t, done, note]) => (
+                  <div key={t} style={{ display: 'grid', gridTemplateColumns: '18px 1fr auto', gap: 10, alignItems: 'center', padding: '6px 0', borderBottom: '.5px solid var(--bd)' }}>
+                    <div style={{ width: 16, height: 16, borderRadius: 3, border: '1.5px solid var(--bds)', background: done ? 'var(--teal)' : 'transparent', color: '#fff', fontSize: 11, fontWeight: 700, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>{done ? '✓' : ''}</div>
+                    <div style={{ fontSize: 13, color: done ? 'var(--t3)' : 'var(--t1)', textDecoration: done ? 'line-through' : 'none' }}>{t}</div>
+                    {note && <span style={{ fontSize: 11, color: 'var(--amber-t)', fontStyle: 'italic' }}>{note}</span>}
+                  </div>
+                ))}
+              </div>
+
+              {/* Actions */}
+              <div style={{ display: 'flex', gap: 8, marginTop: 14 }}>
+                <button style={{ fontSize: 13, fontWeight: 600, padding: '8px 18px', borderRadius: 999, border: 'none', background: 'var(--teal)', color: '#fff', cursor: 'pointer' }}>Continue application →</button>
+                <button style={{ fontSize: 13, fontWeight: 500, padding: '8px 16px', borderRadius: 999, border: '.5px solid var(--bds)', background: 'transparent', color: 'var(--t2)', cursor: 'pointer' }}>Add note</button>
+              </div>
+            </div>
+
+            {/* Other active apps — compact rows */}
+            {[
+              ['MS — Trace Metals & Geomorphology', 'Virginia Tech', 'Submitted', 'var(--blue-bg)', 'var(--blue)', 'Dec 1'],
+              ['STAR Fellowship', 'US EPA', 'Gathering', 'var(--amber-bg)', 'var(--amber-t)', '62d'],
+              ['MS — Hydrogeology', 'UT-Austin', 'Interview', '#e6f1fb', '#185fa5', 'Jan 22'],
+            ].map(([t, o, s, bg, fg, due]) => (
+              <div key={t} style={{ background: 'var(--bg)', border: '.5px solid var(--bd)', borderRadius: 10, padding: '12px 18px', marginBottom: 6, display: 'grid', gridTemplateColumns: '1fr auto auto auto', gap: 14, alignItems: 'center' }}>
+                <div>
+                  <div style={{ fontSize: 14, fontWeight: 600, color: 'var(--t1)' }}>{t}</div>
+                  <div style={{ fontSize: 12, color: 'var(--t3)' }}>{o}</div>
+                </div>
+                <span style={{ fontSize: 11, fontWeight: 600, padding: '2px 9px', borderRadius: 999, background: bg, color: fg }}>{s}</span>
+                <div style={{ fontSize: 12, color: 'var(--t3)' }}>{due}</div>
+                <button style={{ fontSize: 12, fontWeight: 500, padding: '5px 12px', borderRadius: 999, border: '.5px solid var(--bds)', background: 'transparent', color: 'var(--t2)' }}>Open →</button>
+              </div>
+            ))}
+          </div>
+
+          {/* Right sidebar — references & decisions */}
+          <div>
+            <div style={{ background: 'var(--bg)', border: '.5px solid var(--bd)', borderRadius: 10, padding: 14, marginBottom: 12 }}>
+              <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase', color: 'var(--t3)', marginBottom: 8 }}>References</div>
+              {[
+                ['Dr. Stevens', 'confirmed', 'var(--teal-t)'],
+                ['Dr. Hammond', 'awaiting', 'var(--amber-t)'],
+                ['Dr. Rivers', 'not yet asked', 'var(--t3)'],
+              ].map(([n, s, c]) => (
+                <div key={n} style={{ display: 'flex', justifyContent: 'space-between', fontSize: 12.5, padding: '6px 0', borderBottom: '.5px solid var(--bd)' }}>
+                  <span style={{ color: 'var(--t1)', fontWeight: 500 }}>{n}</span>
+                  <span style={{ color: c, fontStyle: 'italic' }}>{s}</span>
+                </div>
+              ))}
+            </div>
+
+            <div style={{ background: 'var(--bg)', border: '.5px solid var(--bd)', borderRadius: 10, padding: 14 }}>
+              <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase', color: 'var(--t3)', marginBottom: 8 }}>Recent decisions</div>
+              {[
+                ['MS Aquatic Ecology — UNC', '✓ Accepted', 'var(--teal-t)'],
+                ['Audubon NC Field Asst.', '× Declined offer', 'var(--t3)'],
+              ].map(([n, s, c]) => (
+                <div key={n} style={{ fontSize: 12.5, padding: '6px 0', borderBottom: '.5px solid var(--bd)' }}>
+                  <div style={{ color: 'var(--t1)', fontWeight: 500 }}>{n}</div>
+                  <div style={{ color: c, fontSize: 11.5, marginTop: 2 }}>{s}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ═════════════════════════════════════════════════════════════════════════
+   ROOT
+   ═════════════════════════════════════════════════════════════════════════ */
+
+function App() {
+  return (
+    <DesignCanvas title="What's Next — complete mockups" subtitle="This Month · Afternoon · plus the remaining pages">
+
+      {/* ── THIS MONTH ─────────────────────────────────────────── */}
+      <DCSection id="month1" title="06 · Document vs. cabinet width split" subtitle="Two page widths: 720 px for documents (reading), 1040 px for cabinet/track (scanning). Side-by-side at the same scale.">
+        <DCArtboard id="doc-cab" label="Both widths at the same scale" width={1900} height={680}><DocCabinetSplit/></DCArtboard>
+      </DCSection>
+
+      <DCSection id="month2" title="07 · Card discipline" subtitle="Cap colored pills at TWO per card (state-only). Demote category, region, fit, etc. to neutral chips.">
+        <DCArtboard id="card-before" label="Before · five hues per card" width={720} height={440}><CardDiscipline variant="before"/></DCArtboard>
+        <DCArtboard id="card-after" label="After · two colored + neutral chips" width={720} height={440}><CardDiscipline variant="after"/></DCArtboard>
+      </DCSection>
+
+      <DCSection id="month3" title="08 · Icon set — replace nav emoji" subtitle="A 17-glyph SVG set in one stroke weight. Keep ✨ and 🎯 where they have emotional charge.">
+        <DCArtboard id="iconset" label="The full set + side-by-side nav comparison" width={1080} height={620}><IconSetArtboard/></DCArtboard>
+      </DCSection>
+
+      {/* ── AFTERNOON ─────────────────────────────────────────── */}
+      <DCSection id="aft1" title="09 · Serif voice for documents" subtitle="A single editorial serif (Newsreader) for page titles and document body. Cabinet stays sans.">
+        <DCArtboard id="serif-before" label="Before · system sans everywhere" width={760} height={620}><SerifVoiceArtboard variant="before"/></DCArtboard>
+        <DCArtboard id="serif-after" label="After · Newsreader for titles & SOP body" width={760} height={620}><SerifVoiceArtboard variant="after"/></DCArtboard>
+      </DCSection>
+
+      <DCSection id="aft2" title="10 · A mark for the project" subtitle="Five directions. Pick one. The mark only needs to exist — it can be small, quiet, and serif.">
+        <DCArtboard id="monogram" label="Five candidate marks + in-header preview" width={1100} height={680}><MonogramArtboard/></DCArtboard>
+      </DCSection>
+
+      <DCSection id="aft3" title="11 · Warm the light theme" subtitle="2–3% warm shift on the greys. Dark mode has a soul; light mode should match.">
+        <DCArtboard id="warm-before" label="Before · neutral cool grey" width={820} height={520}><WarmThemeArtboard variant="before"/></DCArtboard>
+        <DCArtboard id="warm-after" label="After · warm parchment grey" width={820} height={520}><WarmThemeArtboard variant="after"/></DCArtboard>
+      </DCSection>
+
+      {/* ── PAGES ─────────────────────────────────────────── */}
+      <DCSection id="pages" title="12 · The remaining pages" subtitle="Pipeline, Timeline, Outreach/SOP, Bio, Compare, and Applications — redesigned to apply every audit recommendation.">
+        <DCArtboard id="pipeline" label="Pipeline · kanban + funnel summary" width={1320} height={760}><PipelinePage/></DCArtboard>
+        <DCArtboard id="timeline" label="Timeline · calendar dominates the viewport" width={1320} height={840}><TimelinePage/></DCArtboard>
+        <DCArtboard id="sop" label="Outreach / SOP · generator promoted, serif body" width={800} height={1100}><SOPPage/></DCArtboard>
+        <DCArtboard id="bio" label="Bio · where the biography moves to" width={800} height={1100}><BioPage/></DCArtboard>
+        <DCArtboard id="compare" label="Compare · proper data table, chips for selection" width={1220} height={680}><ComparePage/></DCArtboard>
+        <DCArtboard id="apps" label="Applications · expanded app + sidebar trackers" width={1080} height={920}><ApplicationsPage/></DCArtboard>
+      </DCSection>
+
+    </DesignCanvas>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script>
+</body>
+</html>

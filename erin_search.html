@@ -9,27 +9,27 @@
 <style>
 body{padding:0 0 3rem}
 .page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.25rem}
-.page-header-eyebrow{font-size:11px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-t);margin-bottom:.25rem}
+.page-header-eyebrow{font-size:12.5px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-t);margin-bottom:.25rem}
 .page-header-title{font-size:24px;font-weight:700;color:var(--t1);line-height:1.2;letter-spacing:-.02em;margin-bottom:.2rem}
 .page-header-sub{font-size:13px;color:var(--t2);line-height:1.5}
 .search-box{position:relative;margin-bottom:1.25rem}
 .search-input{width:100%;font-size:15px;padding:12px 40px 12px 14px;border-radius:var(--r2);border:1px solid var(--bds);background:var(--bg);color:var(--t1);font-family:var(--fn)}
 .search-input:focus{outline:none;border-color:var(--teal)}
 .search-clear{position:absolute;right:10px;top:50%;transform:translateY(-50%);border:none;background:none;color:var(--t3);font-size:18px;cursor:pointer;display:none;font-family:var(--fn)}
-.search-hint{font-size:12px;color:var(--t3);margin-bottom:1rem}
+.search-hint{font-size:12.5px;color:var(--t3);margin-bottom:1rem}
 .sr-group{margin-bottom:1.5rem}
-.sr-glabel{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--t3);margin-bottom:.6rem;display:flex;align-items:center;gap:.5rem}
-.sr-gcount{font-weight:600;font-size:11px;padding:1px 8px;border-radius:999px;background:var(--bg2);color:var(--t2);letter-spacing:0;text-transform:none}
+.sr-glabel{font-size:12.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--t3);margin-bottom:.6rem;display:flex;align-items:center;gap:.5rem}
+.sr-gcount{font-weight:600;font-size:12.5px;padding:1px 8px;border-radius:999px;background:var(--bg2);color:var(--t2);letter-spacing:0;text-transform:none}
 .sr-card{display:block;background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r1);padding:.65rem .85rem;margin-bottom:.5rem;text-decoration:none;color:var(--t1);transition:border-color .12s,background .12s}
 .sr-card:hover{border-color:var(--bds);background:var(--bg2)}
 .sr-title{font-size:13px;font-weight:600;color:var(--t1);line-height:1.35;margin-bottom:2px}
-.sr-sub{font-size:11px;color:var(--t3);line-height:1.45}
-.sr-snip{font-size:11px;color:var(--t2);line-height:1.5;margin-top:3px}
+.sr-sub{font-size:12.5px;color:var(--t3);line-height:1.45}
+.sr-snip{font-size:12.5px;color:var(--t2);line-height:1.5;margin-top:3px}
 .sr-snip mark{background:var(--amber-bg);color:var(--amber-t);padding:0 2px;border-radius:3px}
-.sr-more{font-size:11px;color:var(--t3);font-style:italic;text-align:center;padding:.3rem}
+.sr-more{font-size:12.5px;color:var(--t3);font-style:italic;text-align:center;padding:.3rem}
 .sr-empty{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:2.5rem;text-align:center;color:var(--t2)}
 .sr-empty-icon{font-size:30px;margin-bottom:.5rem}
-.sr-summary{font-size:12px;color:var(--t3);margin-bottom:1rem}
+.sr-summary{font-size:12.5px;color:var(--t3);margin-bottom:1rem}
 </style>
 <script>
 (function(){
@@ -97,7 +97,7 @@ body{padding:0 0 3rem}
     <input id="q" class="search-input" type="search" placeholder="Search opportunities, applications, professors, notes&hellip;" autocomplete="off">
     <button id="qclear" class="search-clear" title="Clear" onclick="document.getElementById('q').value='';doSearch();">&times;</button>
   </div>
-  <label style="display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--t3);margin-bottom:.75rem;cursor:pointer">
+  <label style="display:inline-flex;align-items:center;gap:6px;font-size:12.5px;color:var(--t3);margin-bottom:.75rem;cursor:pointer">
     <input id="sni" type="checkbox" style="cursor:pointer"> Show items I marked "Not interested"
   </label>
   <div id="sr"><div class="search-hint">Type at least 2 characters. Searches titles, orgs, notes, deadlines &mdash; everything.</div></div>
@@ -220,7 +220,7 @@ body{padding:0 0 3rem}
     if(!wrap || document.getElementById('gnav-sync')) return;
     var span=document.createElement('span');
     span.id='gnav-sync'; span.className='gnav-sync'; span.title='Last cloud sync';
-    span.style.cssText='font-size:10px;color:var(--t3);padding:3px 8px;background:var(--bg2);border-radius:4px;white-space:nowrap;flex-shrink:0;margin-left:10px;border:.5px solid var(--bd);align-self:center;min-width:118px;text-align:center;box-sizing:border-box';
+    span.style.cssText='font-size:12.5px;color:var(--t3);padding:3px 8px;background:var(--bg2);border-radius:4px;white-space:nowrap;flex-shrink:0;margin-left:10px;border:.5px solid var(--bd);align-self:center;min-width:118px;text-align:center;box-sizing:border-box';
     var tog=document.getElementById('theme-toggle');if(tog&&tog.parentNode===wrap)wrap.insertBefore(span,tog);else wrap.appendChild(span);
     render();
     setInterval(render,30000);
