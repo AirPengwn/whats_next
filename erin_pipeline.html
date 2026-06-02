@@ -40,9 +40,13 @@ body{padding:0 0 3rem}
 .pc-name{font-size:12.5px;font-weight:600;line-height:1.3;margin-bottom:2px}
 .pc-org{font-size:12.5px;color:var(--t3);margin-bottom:.35rem}
 .pc-foot{display:flex;align-items:center;gap:5px;flex-wrap:wrap}
-/* v2.0 card-discipline: type chip is neutral hairline (category info, not action-critical) */
-.pc-pill{font-size:12.5px;font-weight:500;padding:1px 7px;border-radius:999px;background:transparent;color:var(--mute-t);border:1px solid var(--bds);white-space:nowrap}
-.p-grad,.p-job,.p-intern,.p-service,.p-other{background:transparent;color:var(--t3);border:1px solid var(--bds)}
+/* v2.0 Phase 2 — mockup wins: Pipeline type pills colored to aid kanban scanning */
+.pc-pill{font-size:12.5px;font-weight:600;padding:1px 7px;border-radius:999px;white-space:nowrap;border:none}
+.p-grad{background:var(--teal-bg);color:var(--teal-t)}
+.p-job{background:var(--purple-bg);color:var(--purple-t)}
+.p-intern{background:var(--blue-bg);color:var(--blue)}
+.p-service{background:var(--amber-bg);color:var(--amber-t)}
+.p-other{background:var(--bg2);color:var(--t3)}
 .pc-due{font-size:12.5px;color:var(--t3)}
 .pc-due.warn{color:var(--red-t);font-weight:600}
 .pc-status{font-size:12.5px;font-weight:600;padding:1px 7px;border-radius:999px;background:var(--bg3);color:var(--t2)}
@@ -121,7 +125,7 @@ body{padding:0 0 3rem}
   </div>
 </nav>
 
-<div class="page" style="max-width:1000px">
+<div class="page cab-page">
 
   <div class="page-header">
     <div class="page-header-eyebrow">What&rsquo;s Next for Erin</div>
