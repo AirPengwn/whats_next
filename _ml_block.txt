@@ -1,10 +1,15 @@
 <script>
 (function(){
 var BIN_ID='6a039aa4250b1311c33f2bac',API_KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa',STORE='erin_mylist_v1';
-function getSaved(){try{return JSON.parse(localStorage.getItem(STORE)||'{}')}catch(e){return{}}}
-function setSaved(m){localStorage.setItem(STORE,JSON.stringify(m));}
-function isSaved(id){return!!getSaved()[id];}
 function isPrimary(){return localStorage.getItem('erin_primary_device')==='1'||localStorage.getItem('erin_primary_device_bak')==='1';}
+/* Reader-mode (non-primary): keep state in memory only — never written
+   to localStorage, never pushed to cloud. A one-shot cloud GET below
+   seeds the cache so the reader sees Erin's actual list; clicks update
+   memory; refresh resets to whatever cloud says. */
+var _mem=null, _memNI=null;
+function getSaved(){if(isPrimary()){try{return JSON.parse(localStorage.getItem(STORE)||'{}')}catch(e){return{}}} if(_mem===null)_mem={}; return _mem;}
+function setSaved(m){if(isPrimary()){localStorage.setItem(STORE,JSON.stringify(m));} else {_mem=m;}}
+function isSaved(id){return!!getSaved()[id];}
 function push(m){
   if(!isPrimary()) return;            /* only Erin's primary laptop writes to the cloud */
   fetch('https://api.jsonbin.io/v3/b/'+BIN_ID+'/latest',{headers:{'X-Master-Key':API_KEY}})
@@ -34,8 +39,8 @@ window.ML={
 /* "Not interested" personal flag — same primary-gated sync model as ML.
    Stored as { id: true } map locally + under `notInterested` in JSONbin. */
 var NI_STORE='erin_not_interested_v1';
-function getNI(){try{return JSON.parse(localStorage.getItem(NI_STORE)||'{}')}catch(e){return{}}}
-function setNI(m){localStorage.setItem(NI_STORE,JSON.stringify(m));}
+function getNI(){if(isPrimary()){try{return JSON.parse(localStorage.getItem(NI_STORE)||'{}')}catch(e){return{}}} if(_memNI===null)_memNI={}; return _memNI;}
+function setNI(m){if(isPrimary()){localStorage.setItem(NI_STORE,JSON.stringify(m));} else {_memNI=m;}}
 function pushNI(m){
   if(!isPrimary()) return;
   fetch('https://api.jsonbin.io/v3/b/'+BIN_ID+'/latest',{headers:{'X-Master-Key':API_KEY}})
@@ -54,6 +59,20 @@ window.NI={
   has:function(id){return !!getNI()[id];},
   toggle:function(id){var m=getNI(); if(m[id]) delete m[id]; else m[id]=true; setNI(m); pushNI(m); return !!m[id];}
 };
+/* Reader-mode init: one-shot read-only cloud pull so the in-memory cache
+   reflects Erin's actual Saved + Not-Interested state on first paint. */
+function _readerPull(){
+  if(isPrimary()) return;
+  fetch('https://api.jsonbin.io/v3/b/'+BIN_ID+'/latest',{headers:{'X-Master-Key':API_KEY}})
+    .then(function(r){return r.json();})
+    .then(function(data){
+      var rec=(data&&data.record)||{};
+      if(rec.items) _mem = rec.items;
+      if(rec.notInterested) _memNI = rec.notInterested;
+      ML.update();
+      try{ if(typeof renderBrowse==='function') renderBrowse(); }catch(e){}
+    }).catch(function(){});
+}
 document.addEventListener('DOMContentLoaded',function(){
   ML.update();
   document.querySelectorAll('.ml-save-btn').forEach(function(b){
@@ -63,6 +82,7 @@ document.addEventListener('DOMContentLoaded',function(){
       else{try{ML.save(JSON.parse(b.getAttribute('data-item')));}catch(e){}}
     });
   });
+  _readerPull();
 });
 })();
 </script>

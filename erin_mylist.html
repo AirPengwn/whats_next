@@ -353,8 +353,20 @@ var mf='All'; var bf='All';
 var CATS=['All','Funded Graduate Programs','Internships','Career Positions','Service & Fellowships','Graduate Programs — Next Cycle','Internships — Next Cycle','Career Positions — Next Cycle','Service & Fellowships — Next Cycle'];
 // ALL is populated by opportunities.js (loaded before this script)
 
-function load(){ try{ return JSON.parse(localStorage.getItem(STORE)||'{}'); }catch(e){ return {}; } }
-function save(m){ localStorage.setItem(STORE,JSON.stringify(m)); }
+/* Reader-mode (non-primary): keep state in memory only — never written
+   to localStorage, never pushed to cloud. pullCloud seeds _memItems on
+   page load; clicks update it; refresh resets it. Primary devices use
+   localStorage as before. */
+var _memItems = null;
+function load(){
+  if(isPrimary()){ try{ return JSON.parse(localStorage.getItem(STORE)||'{}'); }catch(e){ return {}; } }
+  if(_memItems===null) _memItems={};
+  return _memItems;
+}
+function save(m){
+  if(isPrimary()){ localStorage.setItem(STORE,JSON.stringify(m)); }
+  else { _memItems = m; }
+}
 function has(id){ return !!load()[id]; }
 
 function push(m){ pushCloud(m); }
@@ -385,8 +397,17 @@ function delItem(id){ var m=load(); delete m[id]; save(m); push(m); }
 /* "Not interested" personal flag — primary-gated cloud sync, same model as items.
    localStorage `erin_not_interested_v1` + JSONbin record key `notInterested`. */
 var NI_STORE='erin_not_interested_v1';
-function niLoad(){ try{ return JSON.parse(localStorage.getItem(NI_STORE)||'{}'); }catch(e){ return {}; } }
-function niSave(m){ localStorage.setItem(NI_STORE, JSON.stringify(m)); }
+/* Reader-mode: same ephemeral pattern for Not-Interested. */
+var _memNI = null;
+function niLoad(){
+  if(isPrimary()){ try{ return JSON.parse(localStorage.getItem(NI_STORE)||'{}'); }catch(e){ return {}; } }
+  if(_memNI===null) _memNI={};
+  return _memNI;
+}
+function niSave(m){
+  if(isPrimary()){ localStorage.setItem(NI_STORE, JSON.stringify(m)); }
+  else { _memNI = m; }
+}
 function pushNI(m){
   if(!isPrimary()) return;
   fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})

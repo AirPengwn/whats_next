@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', function(){
     var banner = document.createElement('div');
     banner.id = 'erin-readonly-banner';
     banner.className = 'erin-readonly-banner';
-    banner.innerHTML = '&#128065;&nbsp;<strong>View-only mode</strong> &mdash; you can explore Erin\'s progress but edits will not be saved. To enable editing, open My&nbsp;List and set this as the primary device.';
+    banner.innerHTML = '&#128065;&nbsp;<strong>View-only mode</strong> &mdash; you can browse and try the &#9734; Save and &#10005; Not&nbsp;interested buttons, but your marks are <em>session-only</em> (refresh resets them, nothing syncs to the cloud). To enable real editing, open My&nbsp;List and set this as the primary device.';
     var nav = document.querySelector('.global-nav');
     if(nav && nav.parentNode) nav.parentNode.insertBefore(banner, nav.nextSibling);
     else document.body.insertBefore(banner, document.body.firstChild);

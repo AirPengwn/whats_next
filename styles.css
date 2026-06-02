@@ -144,6 +144,13 @@ html.erin-readonly #bs,
 html.erin-readonly #bs2,
 html.erin-readonly .ro-ok { pointer-events:auto!important;opacity:1!important;cursor:auto!important }
 
+/* Reader-mode interactive (session-only): show Save + Not-Interested
+   buttons on non-primary devices so a reader can explore the interaction.
+   Clicks are routed to an in-memory cache only — never persisted to
+   localStorage, never pushed to the cloud — so refresh resets them. */
+html.erin-readonly .browse-save-btn,
+html.erin-readonly .bx-ni-btn { display:inline-flex!important;pointer-events:auto!important;opacity:1!important;cursor:pointer!important }
+
 /* ── Print ── */
 @media print {
   .global-nav{display:none!important}
