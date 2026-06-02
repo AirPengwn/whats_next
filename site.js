@@ -5,7 +5,7 @@
    ═══════════════════════════════════════════════════════════ */
 
 /* build-stamped version + build (build.js patches these lines each release) */
-var WN_VERSION = '1.01';
+var WN_VERSION = '1.02';
 var WN_BUILD   = '20260602-97-82b92d63';
 
 /* ── 1. Sync hook ──────────────────────────────────────────
@@ -65,15 +65,15 @@ document.addEventListener('DOMContentLoaded', function(){
     else wrap.appendChild(span);
 
     function fmtAgo(ts){
-      if(!ts) return '— not synced';
+      if(!ts) return '—';
       var s = Math.floor((Date.now() - ts) / 1000);
-      if(s < 5)  return '✓ Synced just now';
-      if(s < 60) return '✓ Synced ' + s + 's ago';
+      if(s < 5)  return '✓ now';
+      if(s < 60) return '✓ ' + s + 's';
       var m = Math.floor(s / 60);
-      if(m < 60) return '✓ Synced ' + m + 'm ago';
+      if(m < 60) return '✓ ' + m + 'm';
       var h = Math.floor(m / 60);
-      if(h < 24) return '✓ Synced ' + h + 'h ago';
-      return '✓ Synced ' + Math.floor(h / 24) + 'd ago';
+      if(h < 24) return '✓ ' + h + 'h';
+      return '✓ ' + Math.floor(h / 24) + 'd';
     }
     function renderSync(){
       var ts = parseInt(localStorage.getItem('erin_last_sync') || '0', 10);
@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', function(){
     span.className = 'gnav-version';
     span.title = fullTitle;
     span.textContent = shortLabel;
-    span.style.cssText = 'font-size:10px;color:var(--t3);padding:3px 8px;background:var(--bg2);border-radius:4px;white-space:nowrap;flex-shrink:0;margin-left:6px;border:.5px solid var(--bd);align-self:center;box-sizing:border-box;font-family:var(--fn)';
+    span.style.cssText = 'font-size:9px;color:var(--t3);padding:1px 6px;background:var(--bg2);border-radius:3px;white-space:nowrap;flex-shrink:0;margin-left:4px;border:.5px solid var(--bd);align-self:center;box-sizing:border-box;font-family:var(--fn)';
     var tog = document.getElementById('theme-toggle');
     if(tog && tog.parentNode === wrap) wrap.insertBefore(span, tog);
     else wrap.appendChild(span);
@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', function(){
     var banner = document.createElement('div');
     banner.id = 'erin-readonly-banner';
     banner.className = 'erin-readonly-banner';
-    banner.innerHTML = '&#128065;&nbsp;<strong>View-only mode</strong> &mdash; you can browse and try the &#9734; Save and &#10005; Not&nbsp;interested buttons, but your marks are <em>session-only</em> (refresh resets them, nothing syncs to the cloud). To enable real editing, open My&nbsp;List and set this as the primary device.';
+    banner.innerHTML = '&#128065;&nbsp;<strong>View-only</strong> &mdash; marks are session-only (refresh resets them).';
     var nav = document.querySelector('.global-nav');
     if(nav && nav.parentNode) nav.parentNode.insertBefore(banner, nav.nextSibling);
     else document.body.insertBefore(banner, document.body.firstChild);
