@@ -83,9 +83,24 @@ fs.readdirSync('.')
   .filter(function (f) { return /\.html$/.test(f) && !f.startsWith('mockup_') && !f.startsWith('_'); })
   .forEach(function (f) {
     const t0 = fs.readFileSync(f, 'utf8');
-    const t1 = t0.replace(/src="opportunities\.js(\?v=[0-9a-z-]+)?"/g, 'src="opportunities.js?v=' + ver + '"');
+    var t1 = t0.replace(/src="opportunities\.js(\?v=[0-9a-z-]+)?"/g, 'src="opportunities.js?v=' + ver + '"');
+    t1 = t1.replace(/src="site\.js(\?v=[0-9a-z-]+)?"/g, 'src="site.js?v=' + ver + '"');
     if (t1 !== t0) { fs.writeFileSync(f, t1, { encoding: 'utf8' }); bumped++; }
   });
+
+/* 6b. Stamp the build version into site.js so the in-nav version
+   badge updates automatically every build. */
+try {
+  var sjP = 'site.js', sj0 = fs.readFileSync(sjP, 'utf8');
+  var sj1 = sj0.replace(/var WN_VERSION\s*=\s*'[^']*'\s*;/, "var WN_VERSION = '" + ver + "';");
+  if (sj1 !== sj0) fs.writeFileSync(sjP, sj1, { encoding: 'utf8' });
+} catch (e) { console.error('  ⚠ site.js version stamp skipped: ' + e.message); }
+/* version.json — small machine-readable record of the current build */
+fs.writeFileSync('version.json', JSON.stringify({
+  version: ver, builtAt: new Date().toISOString(),
+  total: data.length, newCount: newIds.length, updatedCount: updIds.length,
+  hash: hash, date: META.sweptOn
+}, null, 2), { encoding: 'utf8' });
 
 /* 7. Persist snapshot for next diff --------------------------------- */
 fs.writeFileSync(SNAP, JSON.stringify(snap, null, 1), { encoding: 'utf8' });
@@ -129,4 +144,36 @@ if (!baseline) console.log('  new:       ' + newIds.length + (newIds.length ? ' 
 if (!baseline) console.log('  updated:   ' + updIds.length + (updIds.length ? '  [' + updIds.join(', ') + ']' : ''));
 console.log('  cache ver: ' + ver + '  (opportunities.js?v= bumped on ' + bumped + ' page(s))');
 console.log('  digest:    SWEEP_DIGEST.md written');
-console.log('  Next: review changes, commit, push/PR to your branch.\n');
+
+/* 10. Auto-deploy: commit any changes and push to main (Pages source).
+   Soft-fails so the build itself never errors on a network/auth blip;
+   you can re-run `node build.js` to retry the push later. */
+(function deploy(){
+  try {
+    /* skip if there's no git repo here (e.g. fresh clone w/o init) */
+    cp.execSync('git rev-parse --is-inside-work-tree', { stdio: 'pipe' });
+  } catch (e) { console.log('  deploy:   skipped (not a git repo here)'); return; }
+  try {
+    cp.execSync('git add -A', { stdio: 'pipe' });
+    /* Anything to commit? */
+    var status = '';
+    try { status = cp.execSync('git diff --cached --name-only', { encoding: 'utf8' }); }
+    catch (e) { status = ''; }
+    if (!status.trim()) { console.log('  deploy:   no changes to commit; skipping push'); return; }
+    var msg = 'Build v' + ver + ' · ' + data.length + ' opps' +
+              (newIds.length ? ' · +' + newIds.length + ' new' : '') +
+              (updIds.length ? ' · ' + updIds.length + ' updated' : '');
+    cp.execSync('git commit -q -m ' + JSON.stringify(msg), { stdio: 'pipe' });
+    console.log('  commit:   ' + msg);
+    try {
+      cp.execSync('git push origin HEAD:main', { stdio: 'pipe' });
+      console.log('  deploy:   ✓ pushed to origin/main (Pages will rebuild in a few minutes)');
+    } catch (e) {
+      console.log('  ⚠ push failed (commit kept locally): ' + (e.stderr ? e.stderr.toString().trim().split('\n').pop() : e.message));
+      console.log('              re-run `node build.js` to retry, or push manually.');
+    }
+  } catch (e) {
+    console.log('  ⚠ deploy step error (build itself succeeded): ' + e.message);
+  }
+})();
+console.log('');

@@ -4,6 +4,9 @@
    script, before page-specific scripts).
    ═══════════════════════════════════════════════════════════ */
 
+/* build-stamped version (build.js patches this line each build) */
+var WN_VERSION = '20260602-97-82b92d63';
+
 /* ── 1. Sync hook ──────────────────────────────────────────
    Patches window.fetch to timestamp every successful JSONbin
    call and fire an 'erin-sync' event so the indicator updates.
@@ -78,6 +81,34 @@ document.addEventListener('DOMContentLoaded', function(){
     renderSync();
     setInterval(renderSync, 30000);
     window.addEventListener('erin-sync', renderSync);
+  })();
+
+  /* ── Version badge: small "v <hash> · <date>" chip in the nav ── */
+  (function(){
+    var wrap = document.querySelector('.gnav-wrap');
+    if(!wrap || document.getElementById('gnav-version')) return;
+    var v = (typeof WN_VERSION !== 'undefined' && WN_VERSION) ? WN_VERSION : 'dev';
+    /* WN_VERSION format: "YYYYMMDD-COUNT-HASH" (e.g., "20260602-97-82b92d63") */
+    var m = /^(\d{4})(\d{2})(\d{2})-(\d+)-([0-9a-f]+)/.exec(v);
+    var shortLabel, fullTitle;
+    if(m){
+      var MO=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+      var dateStr = MO[(+m[2])-1] + ' ' + (+m[3]);
+      shortLabel = 'v ' + m[5] + ' · ' + dateStr;
+      fullTitle = 'Build ' + v + ' · ' + m[4] + ' opportunities · ' + m[1] + '-' + m[2] + '-' + m[3];
+    } else {
+      shortLabel = 'v ' + v;
+      fullTitle = 'Build ' + v;
+    }
+    var span = document.createElement('span');
+    span.id = 'gnav-version';
+    span.className = 'gnav-version';
+    span.title = fullTitle;
+    span.textContent = shortLabel;
+    span.style.cssText = 'font-size:10px;color:var(--t3);padding:3px 8px;background:var(--bg2);border-radius:4px;white-space:nowrap;flex-shrink:0;margin-left:6px;border:.5px solid var(--bd);align-self:center;box-sizing:border-box;font-family:var(--fn)';
+    var tog = document.getElementById('theme-toggle');
+    if(tog && tog.parentNode === wrap) wrap.insertBefore(span, tog);
+    else wrap.appendChild(span);
   })();
 
   /* ── Read-only mode: mark non-primary devices ── */
