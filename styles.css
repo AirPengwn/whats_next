@@ -121,8 +121,18 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.5rem 0}
 .doc-body p{margin-bottom:.85rem}
 /* Page-header sub stays sans (it's UI text, not body prose) */
 .doc-page .page-header-sub{font-family:var(--fn);font-style:italic;color:var(--t2)}
-/* Mono eyebrows/labels — page-header-eyebrow and any explicit .mono-label */
-.page-header-eyebrow,.mono-label,.slabel{font-family:var(--mono)}
+/* Mono eyebrows/labels — every uppercase label or date stamp on the site */
+.page-header-eyebrow,
+.mono-label,
+.slabel,
+.site-eyebrow,
+.update-date,
+.pd-eyebrow,
+.checklist-title,
+.sec-label,
+.id-section-label,
+.bx-sec,
+.bx-flabel{font-family:var(--mono);letter-spacing:.04em}
 .page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.5rem}
 .page-header-eyebrow{font-size:12.5px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-t);margin-bottom:.25rem}
 .page-header-title{font-size:24px;font-weight:700;color:var(--t1);line-height:1.2;letter-spacing:-.02em;margin-bottom:.2rem}
