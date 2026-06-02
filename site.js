@@ -5,7 +5,7 @@
    ═══════════════════════════════════════════════════════════ */
 
 /* build-stamped version + build (build.js patches these lines each release) */
-var WN_VERSION = '1.03';
+var WN_VERSION = '1.04';
 var WN_BUILD   = '20260602-97-82b92d63';
 
 /* ── 1. Sync hook ──────────────────────────────────────────
@@ -65,15 +65,15 @@ document.addEventListener('DOMContentLoaded', function(){
     else wrap.appendChild(span);
 
     function fmtAgo(ts){
-      if(!ts) return '—';
+      if(!ts) return 'Not synced';
       var s = Math.floor((Date.now() - ts) / 1000);
-      if(s < 5)  return '✓ now';
-      if(s < 60) return '✓ ' + s + 's';
+      if(s < 10) return '✓ Synced';
+      if(s < 60) return '✓ ' + s + 's ago';
       var m = Math.floor(s / 60);
-      if(m < 60) return '✓ ' + m + 'm';
+      if(m < 60) return '✓ ' + m + 'm ago';
       var h = Math.floor(m / 60);
-      if(h < 24) return '✓ ' + h + 'h';
-      return '✓ ' + Math.floor(h / 24) + 'd';
+      if(h < 24) return '✓ ' + h + 'h ago';
+      return '✓ ' + Math.floor(h / 24) + 'd ago';
     }
     function renderSync(){
       var ts = parseInt(localStorage.getItem('erin_last_sync') || '0', 10);
