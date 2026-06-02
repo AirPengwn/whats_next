@@ -154,6 +154,45 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.5rem 0}
 .gnav-toggle:hover{background:var(--bg3);border-color:var(--bds);color:var(--t1)}
 html.dark .gnav-toggle{background:var(--bg2);border-color:var(--bd);color:var(--t1)}
 
+/* ── v2.0 Phase 2.3: compact 3-group nav (rebuilt into .global-nav by site.js) ── */
+.wn-nav-wrap{max-width:1100px;margin:0 auto;display:flex;align-items:center;gap:12px;height:48px;padding:0}
+.wn-brand{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--t1);min-width:130px;flex-shrink:0}
+.wn-logo{width:26px;height:26px;border-radius:6px;background:var(--teal-t);color:#fff;font-weight:700;font-size:12.5px;display:flex;align-items:center;justify-content:center;letter-spacing:.02em;font-family:var(--fn)}
+.wn-mark{font-family:var(--serif);font-size:16px;font-weight:500;letter-spacing:-.005em;color:var(--t1);white-space:nowrap}
+.wn-groups{flex:1;display:flex;justify-content:center;align-items:center;gap:6px}
+.wn-gtab{font-size:12.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:5px 12px;border-radius:6px;color:var(--t3);text-decoration:none;transition:background .12s,color .12s;line-height:1.4}
+.wn-gtab:hover{color:var(--t1);background:var(--bg2)}
+.wn-gtab.active.gl-track{background:var(--teal-bg);color:var(--teal-t)}
+.wn-gtab.active.gl-browse{background:var(--blue-bg);color:var(--blue)}
+.wn-gtab.active.gl-write{background:var(--amber-bg);color:var(--amber-t)}
+.wn-utils{display:flex;align-items:center;gap:6px;min-width:130px;justify-content:flex-end;flex-shrink:0}
+.wn-util-link{display:inline-flex;align-items:center;gap:5px;font-size:12.5px;color:var(--t2);text-decoration:none;padding:5px 10px;border:.5px solid var(--bds);border-radius:999px;background:transparent}
+.wn-util-link:hover{background:var(--bg2);color:var(--t1)}
+
+/* On-page sub-nav strip (Track/Browse/Write contextual links) — sibling AFTER .global-nav */
+.wn-subnav{background:var(--bg);border-bottom:.5px solid var(--bd);padding:0 1rem}
+.wn-subnav-wrap{max-width:1100px;margin:0 auto;display:flex;align-items:center;gap:0 4px;flex-wrap:wrap;padding:6px 0}
+.wn-subnav-label{font-size:12.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 8px;border-radius:4px;margin-right:8px;line-height:1;font-family:var(--mono)}
+.wn-subnav.gl-track .wn-subnav-label{background:var(--teal-bg);color:var(--teal-t)}
+.wn-subnav.gl-browse .wn-subnav-label{background:var(--blue-bg);color:var(--blue)}
+.wn-subnav.gl-write .wn-subnav-label{background:var(--amber-bg);color:var(--amber-t)}
+.wn-subnav-link{display:inline-flex;align-items:center;gap:5px;font-size:12.5px;font-weight:500;color:var(--t3);text-decoration:none;padding:6px 9px;border-radius:6px;border-bottom:2px solid transparent;transition:color .12s,background .12s}
+.wn-subnav-link:hover{color:var(--t1);background:var(--bg2)}
+.wn-subnav-link.active{color:var(--t1);font-weight:600}
+.wn-subnav.gl-track .wn-subnav-link.active{border-bottom-color:var(--teal)}
+.wn-subnav.gl-browse .wn-subnav-link.active{border-bottom-color:var(--blue)}
+.wn-subnav.gl-write .wn-subnav-link.active{border-bottom-color:var(--amber)}
+.wn-subnav-link svg{flex-shrink:0}
+
+@media(max-width:680px){
+  .wn-mark{display:none}
+  .wn-brand{min-width:34px}
+  .wn-utils{min-width:0}
+  .wn-util-link span{display:none}
+  .wn-util-link{padding:5px 8px}
+  .wn-gtab{padding:5px 8px;font-size:11.5px}
+}
+
 /* ── Sync indicator chip (appended to nav by site.js) — matches version badge size ── */
 .gnav-sync{font-size:12.5px;color:var(--teal-t);padding:1px 6px;background:var(--teal-bg);border-radius:3px;white-space:nowrap;flex-shrink:0;margin-left:6px;border:.5px solid var(--teal);align-self:center;box-sizing:border-box;font-family:var(--fn)}
 
