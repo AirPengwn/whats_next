@@ -204,16 +204,22 @@ function renderBrowseX(){
     if(it.badge){ if(it.deadline)meta.appendChild(el('span',null,' · ')); var bm=el('span'); bm.textContent=it.badge; meta.appendChild(bm); }
     card.appendChild(meta);
     var bd=buildBrowseDetailX(it); card.appendChild(bd);
+    /* Card actions row: Details (left, blue pill) · [Not interested, Save] (right) */
     var acts=el('div','item-actions');
+    acts.style.cssText='display:flex;align-items:center;gap:.6rem;justify-content:space-between;flex-wrap:wrap;margin-top:.6rem';
     var dbt=el('button','act-btn','Details');
     dbt.onclick=function(ev){ ev.stopPropagation(); bd.classList.toggle('open'); dbt.textContent=bd.classList.contains('open')?'Hide details':'Details'; };
-    acts.appendChild(dbt); card.appendChild(acts);
+    acts.appendChild(dbt);
+    var rightGrp=el('div','bx-act-right');
+    rightGrp.style.cssText='display:flex;gap:.5rem;align-items:center;flex-wrap:wrap';
     var nibtn=el('button','bx-ni-btn'+(ni?' on':''), ni?'↩ Show again':'✗ Not interested');
     nibtn.onclick=function(){ if(window.NI&&NI.toggle){ NI.toggle(it.id); renderBrowse(); } };
-    card.appendChild(nibtn);
-    var sv=el('button','browse-save-btn'+(saved?' saved':''), saved?'✓ Saved':'+ Save');
+    rightGrp.appendChild(nibtn);
+    var sv=el('button','browse-save-btn'+(saved?' saved':''), saved?'★ Saved':'☆ Save to My List');
     sv.onclick=function(){ if(typeof has==='function'&&has(it.id)){ if(typeof delItem==='function')delItem(it.id); } else if(typeof addItem==='function'){ addItem(it); } renderBrowse(); if(typeof renderList==='function')renderList(); };
-    card.appendChild(sv);
+    rightGrp.appendChild(sv);
+    acts.appendChild(rightGrp);
+    card.appendChild(acts);
     card.onclick=function(ev){ if(ev.target.closest('a')||ev.target.closest('button'))return; bd.classList.toggle('open'); };
     body.appendChild(card);
   });

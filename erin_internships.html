@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
-<link rel="stylesheet" href="styles.css?v=20260518e">
+<link rel="stylesheet" href="styles.css?v=20260602-97-82b92d63">
 <title>Internships — What’s Next for Erin</title>
 <style>
 body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem}
@@ -16,8 +16,12 @@ body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6
 .sec-label{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin:1.25rem 0 .6rem;display:flex;align-items:center;gap:.5rem}
 .sec-count{font-weight:400}
 .item-actions{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin-top:.25rem}
-.act-btn{font-size:12px;color:var(--t3);background:none;border:none;cursor:pointer;padding:0;font-family:var(--fn)}
-.act-btn:hover{color:var(--t1)}
+.act-btn{font-size:11px;font-weight:500;color:var(--blue);background:var(--blue-bg);border:.5px solid var(--blue-bg);padding:4px 12px;border-radius:999px;cursor:pointer;font-family:var(--fn)}
+.act-btn:hover{background:var(--bg);color:var(--blue);border-color:var(--blue)}
+.browse-save-btn{font-size:11px;font-weight:600;color:var(--teal-t);background:var(--teal-bg);border:1px solid var(--teal);padding:4px 12px;border-radius:999px;cursor:pointer;font-family:var(--fn);white-space:nowrap}
+.browse-save-btn:hover{background:var(--teal);color:#fff}
+.browse-save-btn.saved{background:var(--teal);color:#fff}
+.browse-save-btn.saved:hover{background:var(--teal-bg);color:var(--teal-t)}
 .browse-card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:.85rem 1.1rem;margin-bottom:.5rem}
 .browse-card.is-saved{border:1.5px solid var(--teal)}
 .browse-title{font-size:14px;font-weight:500;color:var(--t1);line-height:1.4;margin-bottom:1px}
@@ -426,16 +430,22 @@ function renderBrowseX(){
     if(it.badge){ if(it.deadline)meta.appendChild(el('span',null,' · ')); var bm=el('span'); bm.textContent=it.badge; meta.appendChild(bm); }
     card.appendChild(meta);
     var bd=buildBrowseDetailX(it); card.appendChild(bd);
+    /* Card actions row: Details (left, blue pill) · [Not interested, Save] (right) */
     var acts=el('div','item-actions');
+    acts.style.cssText='display:flex;align-items:center;gap:.6rem;justify-content:space-between;flex-wrap:wrap;margin-top:.6rem';
     var dbt=el('button','act-btn','Details');
     dbt.onclick=function(ev){ ev.stopPropagation(); bd.classList.toggle('open'); dbt.textContent=bd.classList.contains('open')?'Hide details':'Details'; };
-    acts.appendChild(dbt); card.appendChild(acts);
+    acts.appendChild(dbt);
+    var rightGrp=el('div','bx-act-right');
+    rightGrp.style.cssText='display:flex;gap:.5rem;align-items:center;flex-wrap:wrap';
     var nibtn=el('button','bx-ni-btn'+(ni?' on':''), ni?'↩ Show again':'✗ Not interested');
     nibtn.onclick=function(){ if(window.NI&&NI.toggle){ NI.toggle(it.id); renderBrowse(); } };
-    card.appendChild(nibtn);
-    var sv=el('button','browse-save-btn'+(saved?' saved':''), saved?'✓ Saved':'+ Save');
+    rightGrp.appendChild(nibtn);
+    var sv=el('button','browse-save-btn'+(saved?' saved':''), saved?'★ Saved':'☆ Save to My List');
     sv.onclick=function(){ if(typeof has==='function'&&has(it.id)){ if(typeof delItem==='function')delItem(it.id); } else if(typeof addItem==='function'){ addItem(it); } renderBrowse(); if(typeof renderList==='function')renderList(); };
-    card.appendChild(sv);
+    rightGrp.appendChild(sv);
+    acts.appendChild(rightGrp);
+    card.appendChild(acts);
     card.onclick=function(ev){ if(ev.target.closest('a')||ev.target.closest('button'))return; bd.classList.toggle('open'); };
     body.appendChild(card);
   });

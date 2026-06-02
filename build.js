@@ -85,6 +85,7 @@ fs.readdirSync('.')
     const t0 = fs.readFileSync(f, 'utf8');
     var t1 = t0.replace(/src="opportunities\.js(\?v=[0-9a-z-]+)?"/g, 'src="opportunities.js?v=' + ver + '"');
     t1 = t1.replace(/src="site\.js(\?v=[0-9a-z-]+)?"/g, 'src="site.js?v=' + ver + '"');
+    t1 = t1.replace(/href="styles\.css(\?v=[0-9a-z-]+)?"/g, 'href="styles.css?v=' + ver + '"');
     if (t1 !== t0) { fs.writeFileSync(f, t1, { encoding: 'utf8' }); bumped++; }
   });
 
