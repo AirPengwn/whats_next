@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
+<link rel="stylesheet" href="styles.css?v=20260518e">
+<title>Pipeline — What's Next for Erin</title>
+<style>
+body{padding:0 0 3rem}
+.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.25rem}
+.page-header-eyebrow{font-size:11px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-t);margin-bottom:.25rem}
+.page-header-title{font-size:24px;font-weight:700;color:var(--t1);line-height:1.2;letter-spacing:-.02em;margin-bottom:.2rem}
+.page-header-sub{font-size:13px;color:var(--t2);line-height:1.5}
+
+.funnel{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1.25rem}
+.fn-cell{flex:1;min-width:120px;background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:.7rem .85rem;text-align:center}
+.fn-n{font-size:22px;font-weight:700;color:var(--t1)}
+.fn-l{font-size:11px;color:var(--t3);margin-top:2px}
+.fn-cell.c-save{border-top:3px solid var(--bds)}
+.fn-cell.c-prep{border-top:3px solid #ef9f27}
+.fn-cell.c-sub{border-top:3px solid var(--blue)}
+.fn-cell.c-await{border-top:3px solid var(--purple-t)}
+.fn-cell.c-intv{border-top:3px solid #185fa5}
+.fn-cell.c-out{border-top:3px solid var(--teal)}
+
+.board{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
+@media(max-width:1080px){.board{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:680px){.board{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:460px){.board{grid-template-columns:1fr}}
+.col{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:.85rem .8rem;min-height:140px}
+.col-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:.35rem}
+.col-desc{font-size:11px;color:var(--t3);line-height:1.45;margin-bottom:.7rem}
+.col-title{font-size:13px;font-weight:700;color:var(--t1);display:flex;align-items:center;gap:6px}
+.col-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
+.d-save{background:var(--bds)}.d-prep{background:#ef9f27}.d-sub{background:var(--blue)}.d-await{background:var(--purple-t)}.d-intv{background:#185fa5}.d-out{background:var(--teal)}
+.col-count{font-size:11px;font-weight:600;padding:1px 8px;border-radius:999px;background:var(--bg2);color:var(--t2)}
+.pcard{display:block;background:var(--bg2);border:.5px solid var(--bd);border-radius:var(--r1);padding:.6rem .65rem;margin-bottom:.5rem;text-decoration:none;color:var(--t1);transition:border-color .12s,background .12s}
+.pcard:hover{border-color:var(--bds);background:var(--bg3)}
+.pc-name{font-size:12.5px;font-weight:600;line-height:1.3;margin-bottom:2px}
+.pc-org{font-size:11px;color:var(--t3);margin-bottom:.35rem}
+.pc-foot{display:flex;align-items:center;gap:5px;flex-wrap:wrap}
+.pc-pill{font-size:10px;font-weight:600;padding:1px 7px;border-radius:999px}
+.p-grad{background:var(--teal-bg);color:var(--teal-t)}
+.p-job{background:var(--purple-bg);color:var(--purple-t)}
+.p-intern{background:var(--blue-bg);color:var(--blue)}
+.p-service{background:var(--amber-bg);color:var(--amber-t)}
+.p-other{background:var(--bg3);color:var(--t2)}
+.pc-due{font-size:10px;color:var(--t3)}
+.pc-due.warn{color:var(--red-t);font-weight:600}
+.pc-status{font-size:10px;font-weight:600;padding:1px 7px;border-radius:999px;background:var(--bg3);color:var(--t2)}
+.s-accept{background:var(--teal-bg);color:var(--teal-t)}
+.s-decline{background:var(--red-bg);color:var(--red-t)}
+.s-wait{background:var(--amber-bg);color:var(--amber-t)}
+.col-empty{font-size:12px;color:var(--t3);text-align:center;padding:1.25rem .5rem;font-style:italic}
+.legend{font-size:11px;color:var(--t3);margin-top:1rem;text-align:center}
+.pl-loading{font-size:13px;color:var(--t3);text-align:center;padding:2rem}
+.arch-sec{margin-top:1.5rem;background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:.95rem 1.1rem}
+.arch-head{display:flex;align-items:center;justify-content:space-between;gap:.5rem;cursor:pointer;user-select:none}
+.arch-title{font-size:13px;font-weight:700;color:var(--t2);display:flex;align-items:center;gap:6px}
+.arch-count{font-size:11px;font-weight:600;padding:1px 8px;border-radius:999px;background:var(--bg2);color:var(--t3)}
+.arch-toggle{font-size:12px;color:var(--t3);background:none;border:none;cursor:pointer;font-family:var(--fn)}
+.arch-body{margin-top:.7rem;display:none}
+.arch-body.open{display:block}
+.arch-item{display:flex;gap:.7rem;align-items:baseline;padding:.4rem 0;border-bottom:.5px dotted var(--bd);font-size:12px}
+.arch-item:last-child{border-bottom:none}
+.arch-when{flex-shrink:0;width:88px;color:var(--t3);font-size:11px}
+.arch-main{flex:1;min-width:0}
+.arch-name{color:var(--t2);font-weight:600}
+.arch-why{color:var(--t3);font-size:11px}
+.arch-act{flex-shrink:0;font-size:10px;font-weight:600;padding:1px 7px;border-radius:999px;background:var(--red-bg);color:var(--red-t)}
+.arch-link{display:inline-block;margin-top:.6rem;font-size:11px;color:var(--teal-t);text-decoration:none;font-weight:500}
+</style>
+<script>
+(function(){
+  var saved=localStorage.getItem('erin_theme');
+  var prefersDark=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches;
+  if(saved==='dark'||(!saved&&prefersDark)) document.documentElement.classList.add('dark');
+  function upBtn(){var b=document.getElementById('theme-toggle');if(b)b.innerHTML=document.documentElement.classList.contains('dark')?'&#9728;':'&#127769;';}
+  document.addEventListener('DOMContentLoaded',upBtn);
+  window.__toggleTheme=function(){var d=document.documentElement.classList.toggle('dark');localStorage.setItem('erin_theme',d?'dark':'light');upBtn();};
+})();
+</script>
+<script src="site.js?v=20260518e"></script>
+</head>
+<body>
+
+<!-- GLOBAL NAV -->
+<nav class="global-nav">
+  <div class="gnav-wrap">
+    <div class="gnav-inner">
+      <a href="index.html" class="gnav-home">&#127968; Home</a>
+      <a href="erin_search.html" class="gnav-link">&#128269; Search</a>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-track">Track</span>
+        <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
+        <a href="erin_compare.html" class="gnav-link">&#9878; Compare</a>
+        <a href="erin_pipeline.html" class="gnav-link active">&#128202; Pipeline</a>
+        <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
+        <a href="erin_applications.html" class="gnav-link">&#128196; Apps</a>
+        <a href="erin_proftracker.html" class="gnav-link">&#128100; Profs</a>
+        <a href="erin_reftracker.html" class="gnav-link">&#128393; Refs</a>
+        <a href="erin_archive.html" class="gnav-link">&#128193; Archive</a>
+      </div>
+      <span class="gnav-divider gnav-break"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-browse">Browse</span>
+        <a href="erin_programs.html" class="gnav-link">&#127979; Programs</a>
+        <a href="erin_internships.html" class="gnav-link">&#128203; Internships</a>
+        <a href="erin_jobs.html" class="gnav-link">&#128188; Jobs</a>
+        <a href="erin_service.html" class="gnav-link">&#127807; Service</a>
+      </div>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-write">Write</span>
+        <a href="erin_materials.html" class="gnav-link">&#128218; Materials</a>
+        <a href="erin_writing_samples.html" class="gnav-link">&#9997; Writing</a>
+        <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
+        <a href="erin_packet.html" class="gnav-link">&#128424; Packet</a>
+      </div>
+    </div>
+    <button class="gnav-toggle" id="theme-toggle" onclick="__toggleTheme()" title="Toggle dark/light mode">&#127769;</button>
+  </div>
+</nav>
+
+<div class="page" style="max-width:1000px">
+
+  <div class="page-header">
+    <div class="page-header-eyebrow">What&rsquo;s Next for Erin</div>
+    <div class="page-header-title">Pipeline</div>
+    <div class="page-header-sub">Every opportunity, by stage &mdash; from saved idea to final decision. Read-only overview; nothing is edited here.</div>
+  </div>
+
+  <div id="pl-root"><div class="pl-loading">&#8987; Loading pipeline&hellip;</div></div>
+
+  <div class="legend">Pulled from My List + the Application tracker &middot; click any card to open it in the relevant tracker</div>
+</div>
+
+<script>
+(function(){
+  var BIN='6a039aa4250b1311c33f2bac', KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
+  function lj(k,fb){ try{ return JSON.parse(localStorage.getItem(k)||fb); }catch(e){ return JSON.parse(fb); } }
+  function esc(s){ return (s+'').replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+  function fmtCatCls(s){ s=(s||'')+''; if(/grad/i.test(s)) return ['Grad','p-grad']; if(/intern/i.test(s)) return ['Internship','p-intern']; if(/career|job/i.test(s)) return ['Career','p-job']; if(/service|fellow/i.test(s)) return ['Service','p-service']; return [s||'Other','p-other']; }
+  function dayDiff(s){
+    if(!s||typeof s!=='string') return null;
+    if(/rolling|verify|tbd|n\/?a|tba|open/i.test(s)) return null;
+    var d=new Date(s);
+    if(isNaN(d)){ var m=s.match(/(\d{1,2})\s*[\/\-\.]\s*(\d{1,2})\s*[\/\-\.]\s*(\d{2,4})/); if(m){ d=new Date(parseInt(m[3].length===2?'20'+m[3]:m[3]),parseInt(m[1])-1,parseInt(m[2])); } if(isNaN(d)) return null; }
+    var t=new Date(); t.setHours(0,0,0,0); d.setHours(0,0,0,0); return Math.floor((d-t)/864e5);
+  }
+  function dueText(dl){
+    var d=dayDiff(dl);
+    if(d==null) return [dl?('Due '+dl):'', false];
+    if(d<0) return ['Overdue '+(-d)+'d', true];
+    if(d===0) return ['Due today', true];
+    if(d<=7) return ['Due in '+d+'d', true];
+    return ['Due in '+d+'d', false];
+  }
+
+  var SL={notstarted:'Not started',gathering:'Gathering',submitted:'Submitted',review:'Under review',interview:'Interview / heard back',decision:'Decision received',accepted:'Accepted',declined:'Declined',waitlisted:'Waitlisted'};
+  /* 6 distinct stages. Saved is handled separately (My List, no app yet). */
+  function stageOf(st){
+    st=(st||'notstarted')+'';
+    if(/^notstarted$/.test(st)) return 'save';
+    if(/^gathering$/.test(st)) return 'prep';
+    if(/^submitted$/.test(st)) return 'sub';
+    if(/^review$/.test(st)) return 'await';
+    if(/^interview$/.test(st)) return 'intv';
+    if(/^(decision|accepted|declined|waitlisted)$/.test(st)) return 'out';
+    return 'prep';
+  }
+  var OUT_RANK={accepted:0,waitlisted:1,decision:2,declined:3};
+
+  function build(rec){
+    var ml=rec.items||lj('erin_mylist_v1','{}');
+    var apps=rec.apps||lj('erin_applications_v1','[]');
+    if(!Array.isArray(apps)) apps=[];
+    var cols={save:[],prep:[],sub:[],await:[],intv:[],out:[]};
+    var inApp={};
+    apps.forEach(function(a){
+      var key=((a.programTitle||'')+'|'+(a.org||'')).toLowerCase();
+      inApp[key]=1;
+      var stg=stageOf(a.status);
+      cols[stg].push({
+        name:(a.programTitle||'Untitled').split('—')[0].trim(),
+        org:a.org||'', cat:a.itemType||'', deadline:a.deadline||'',
+        status:SL[(a.status||'')]|| (a.status||''), rawStatus:(a.status||'').toLowerCase(),
+        link:'erin_applications.html#acard-'+(a.id||''), d:dayDiff(a.deadline)
+      });
+    });
+    Object.keys(ml).forEach(function(k){
+      var it=ml[k]; if(!it||it._done) return;
+      var key=((it.title||'')+'|'+(it.org||'')).toLowerCase();
+      if(inApp[key]) return;
+      cols.save.push({
+        name:(it.title||'Untitled').split('—')[0].trim(),
+        org:it.org||'', cat:it.type||it.cat||'', deadline:it.deadline||'',
+        status:'', rawStatus:'', link:'erin_mylist.html', d:dayDiff(it.deadline)
+      });
+    });
+    function byDeadline(x,y){
+      if(x.d==null&&y.d==null) return 0;
+      if(x.d==null) return 1; if(y.d==null) return -1;
+      return x.d-y.d;
+    }
+    ['save','prep','sub','await','intv'].forEach(function(k){ cols[k].sort(byDeadline); });
+    /* Outcome: accepted first, then waitlisted, decision, declined */
+    cols.out.sort(function(x,y){
+      var rx=OUT_RANK[x.rawStatus]==null?9:OUT_RANK[x.rawStatus];
+      var ry=OUT_RANK[y.rawStatus]==null?9:OUT_RANK[y.rawStatus];
+      return rx-ry;
+    });
+    /* Archived / passed-on history (read-only, from the archive log) */
+    var arr=rec.archiveLog||lj('erin_archive_log','[]');
+    if(!Array.isArray(arr)) arr=[];
+    cols.archived=arr.slice().sort(function(a,b){ return (b.date||'').localeCompare(a.date||''); }).map(function(e){
+      return {
+        name:(e.itemTitle||e.title||'Untitled')+'', org:(e.itemOrg||e.org||'')+'',
+        why:[(e.reason||''),((e.tags||[]).join(', '))].filter(Boolean).join(' — '),
+        action:(e.action||'archived')+'', date:e.date||''
+      };
+    });
+    return cols;
+  }
+
+  function statusCls(rs){
+    rs=(rs||'').toLowerCase();
+    if(rs==='accepted') return 's-accept';
+    if(rs==='declined') return 's-decline';
+    if(rs==='waitlisted') return 's-wait';
+    return '';
+  }
+
+  function cardHtml(c){
+    var cc=fmtCatCls(c.cat), dt=dueText(c.deadline);
+    var h='<a class="pcard" href="'+esc(c.link)+'">';
+    h+='<div class="pc-name">'+esc(c.name)+'</div>';
+    if(c.org) h+='<div class="pc-org">'+esc(c.org)+'</div>';
+    h+='<div class="pc-foot"><span class="pc-pill '+cc[1]+'">'+esc(cc[0])+'</span>';
+    if(dt[0]) h+='<span class="pc-due'+(dt[1]?' warn':'')+'">'+esc(dt[0])+'</span>';
+    if(c.status) h+='<span class="pc-status '+statusCls(c.rawStatus)+'">'+esc(c.status)+'</span>';
+    h+='</div></a>';
+    return h;
+  }
+
+  var COLDESC={
+    save:'Saved to My List — not started applying yet.',
+    prep:'Application underway — gathering materials, drafting, lining up references.',
+    sub:'Submitted; nothing needed from you right now.',
+    await:'Submitted and waiting on a decision (no interview stage).',
+    intv:'Contacted or interviewing — actively in conversation.',
+    out:'Final result in — accepted, waitlisted, declined, or decision received.'
+  };
+  function colHtml(title,dot,cls,items){
+    var cap=8, shown=items.slice(0,cap);
+    var h='<div class="col"><div class="col-head"><div class="col-title"><span class="col-dot '+dot+'"></span>'+title+'</div><span class="col-count">'+items.length+'</span></div>'
+      +'<div class="col-desc">'+(COLDESC[cls]||'')+'</div>';
+    if(!items.length){ h+='<div class="col-empty">Nothing here yet</div>'; }
+    else { shown.forEach(function(c){ h+=cardHtml(c); });
+      if(items.length>cap) h+='<div class="col-empty" style="padding:.5rem">+ '+(items.length-cap)+' more&hellip;</div>'; }
+    return h+'</div>';
+  }
+
+  function archHtml(list){
+    if(!list||!list.length) return '';
+    var rows=list.slice(0,40).map(function(e){
+      var when=e.date?new Date(e.date):null;
+      var w=when&&!isNaN(when)?when.toLocaleDateString():'';
+      return '<div class="arch-item"><div class="arch-when">'+esc(w)+'</div>'
+        +'<div class="arch-main"><span class="arch-name">'+esc(e.name)+'</span>'+(e.org?' <span class="arch-why">· '+esc(e.org)+'</span>':'')
+        +(e.why?'<div class="arch-why">'+esc(e.why)+'</div>':'')+'</div>'
+        +'<div class="arch-act">'+esc(e.action)+'</div></div>';
+    }).join('');
+    return '<div class="arch-sec">'
+      +'<div class="arch-head" onclick="window.__toggleArch()"><div class="arch-title">&#128193; Archived / passed on '
+      +'<span class="arch-count">'+list.length+'</span></div>'
+      +'<button class="arch-toggle" type="button" id="archTgl" onclick="event.stopPropagation();window.__toggleArch()">Show</button></div>'
+      +'<div class="arch-body" id="archBody">'+rows
+      +(list.length>40?'<div class="col-empty">+ '+(list.length-40)+' more</div>':'')
+      +'<a class="arch-link" href="erin_archive.html">Open full Archive log &rarr;</a></div></div>';
+  }
+  window.__toggleArch=function(){
+    var b=document.getElementById('archBody'), t=document.getElementById('archTgl');
+    if(!b) return; var open=b.classList.toggle('open'); if(t) t.textContent=open?'Hide':'Show';
+  };
+
+  function render(rec){
+    var cols=build(rec||{});
+    var root=document.getElementById('pl-root'); if(!root) return;
+    var fn='<div class="funnel">'
+      +'<div class="fn-cell c-save"><div class="fn-n">'+cols.save.length+'</div><div class="fn-l">Saved</div></div>'
+      +'<div class="fn-cell c-prep"><div class="fn-n">'+cols.prep.length+'</div><div class="fn-l">Preparing</div></div>'
+      +'<div class="fn-cell c-sub"><div class="fn-n">'+cols.sub.length+'</div><div class="fn-l">Submitted</div></div>'
+      +'<div class="fn-cell c-await"><div class="fn-n">'+cols.await.length+'</div><div class="fn-l">Awaiting decision</div></div>'
+      +'<div class="fn-cell c-intv"><div class="fn-n">'+cols.intv.length+'</div><div class="fn-l">Interview</div></div>'
+      +'<div class="fn-cell c-out"><div class="fn-n">'+cols.out.length+'</div><div class="fn-l">Outcome</div></div>'
+      +'</div>';
+    var board='<div class="board">'
+      +colHtml('Saved','d-save','save',cols.save)
+      +colHtml('Preparing','d-prep','prep',cols.prep)
+      +colHtml('Submitted','d-sub','sub',cols.sub)
+      +colHtml('Awaiting decision','d-await','await',cols.await)
+      +colHtml('Interview','d-intv','intv',cols.intv)
+      +colHtml('Outcome','d-out','out',cols.out)
+      +'</div>';
+    root.innerHTML=fn+board+archHtml(cols.archived);
+  }
+
+  /* Read-only: pull latest from the cloud; fall back to local cache. Never writes. */
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+    .then(function(r){ return r.json(); })
+    .then(function(data){ render((data&&data.record)||{}); })
+    .catch(function(){ render({}); });
+})();
+</script>
+<script>
+/* ── Sync indicator: appears at end of nav, updates on every sync ── */
+(function(){
+  function fmtAgo(ts){
+    if(!ts) return 'never';
+    var s=Math.floor((Date.now()-ts)/1000);
+    if(s<5) return 'just now';
+    if(s<60) return s+'s ago';
+    var m=Math.floor(s/60); if(m<60) return m+'m ago';
+    var h=Math.floor(m/60); if(h<24) return h+'h ago';
+    return Math.floor(h/24)+'d ago';
+  }
+  function render(){
+    var el=document.getElementById('gnav-sync'); if(!el) return;
+    var ts=parseInt(localStorage.getItem('erin_last_sync')||'0',10);
+    el.textContent = ts ? '✓ Synced '+fmtAgo(ts) : '— not synced';
+  }
+  function setup(){
+    var wrap=document.querySelector('.gnav-wrap');
+    if(!wrap || document.getElementById('gnav-sync')) return;
+    var span=document.createElement('span');
+    span.id='gnav-sync'; span.className='gnav-sync'; span.title='Last cloud sync';
+    span.style.cssText='font-size:10px;color:var(--t3);padding:3px 8px;background:var(--bg2);border-radius:4px;white-space:nowrap;flex-shrink:0;margin-left:10px;border:.5px solid var(--bd);align-self:center;min-width:118px;text-align:center;box-sizing:border-box';
+    var tog=document.getElementById('theme-toggle');if(tog&&tog.parentNode===wrap)wrap.insertBefore(span,tog);else wrap.appendChild(span);
+    render();
+    setInterval(render,30000);
+    window.addEventListener('erin-sync', render);
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',setup);
+  else setup();
+})();
+</script>
+</body>
+</html>

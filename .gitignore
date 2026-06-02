@@ -1,0 +1,9 @@
+# Local-only safety backups — never publish to the repo / GitHub Pages
+.overhaul_backup/
+
+# Claude Code local config / session data — keep out of the public repo
+.claude/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db

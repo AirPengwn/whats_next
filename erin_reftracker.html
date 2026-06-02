@@ -3,162 +3,64 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Erin Lamberton &#8212; Reference Letter Tracker</title>
+<title>Erin Lamberton — Reference Letter Tracker</title>
+<script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
+<link rel="stylesheet" href="styles.css?v=20260518e">
+<script src="site.js?v=20260518e"></script>
+<script>
+(function(){
+  var saved=localStorage.getItem('erin_theme');
+  var prefersDark=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches;
+  if(saved==='dark'||(!saved&&prefersDark)) document.documentElement.classList.add('dark');
+  function upBtn(){var b=document.getElementById('theme-toggle');if(b)b.innerHTML=document.documentElement.classList.contains('dark')?'&#9728;':'&#127769;';}
+  document.addEventListener('DOMContentLoaded',upBtn);
+  window.__toggleTheme=function(){var d=document.documentElement.classList.toggle('dark');localStorage.setItem('erin_theme',d?'dark':'light');upBtn();};
+})();
+</script>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+.ref-card{background:var(--bg);border:1px solid var(--bd);border-radius:10px;padding:1rem 1.1rem;margin-bottom:.75rem;position:relative}
+.ref-card.status-agreed{border-left:3px solid var(--teal-t)}
+.ref-card.status-submitted{border-left:3px solid #4a90d9}
+.ref-card.status-declined{border-left:3px solid var(--red-t);opacity:.7}
+.ref-name{font-size:14px;font-weight:600;color:var(--t1);margin-bottom:.15rem}
+.ref-title{font-size:12px;color:var(--t3);margin-bottom:.4rem}
+.ref-meta{display:flex;flex-wrap:wrap;gap:.35rem;margin-bottom:.5rem}
+.ref-status-pill{font-size:11px;font-weight:600;padding:2px 9px;border-radius:999px;white-space:nowrap}
+.rs-planning{background:var(--bg2);color:var(--t3);border:1px solid var(--bd)}
+.rs-asked{background:var(--amber-bg);color:var(--amber-t)}
+.rs-agreed{background:var(--teal-bg);color:var(--teal-t)}
+.rs-submitted{background:#ddeeff;color:#1a5fa8}
+.rs-declined{background:var(--red-bg);color:var(--red-t)}
+.ref-programs{font-size:11px;color:var(--t3);margin-bottom:.4rem}
+.ref-programs span{display:inline-block;background:var(--bg2);border:1px solid var(--bd);border-radius:5px;padding:1px 7px;margin:2px 3px 2px 0;font-size:11px;color:var(--t2)}
+.ref-acts{display:flex;gap:.5rem;align-items:center;flex-wrap:wrap;margin-top:.5rem}
+.ref-btn{font-size:11px;font-weight:500;padding:3px 10px;border-radius:6px;border:1px solid var(--bd);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn)}
+.ref-btn:hover{background:var(--bg2)}
+.ref-btn.danger{color:var(--red-t);border-color:var(--red-t)}
+.ref-email{font-size:11px;color:var(--t3);margin-bottom:.25rem}
+.ref-note{margin-top:.5rem;padding:.5rem .6rem;background:var(--bg2);border-radius:6px;font-size:12px;color:var(--t2);line-height:1.5;display:none}
+.ref-note.open{display:block}
+.ref-note-edit{width:100%;border:none;background:transparent;font-size:12px;font-family:var(--fn);color:var(--t2);resize:vertical;min-height:60px;outline:none;line-height:1.5}
+.add-form{background:var(--bg);border:1px solid var(--bds);border-radius:10px;padding:1rem 1.1rem;margin-bottom:1rem}
+.add-form h3{font-size:13px;font-weight:600;color:var(--t1);margin-bottom:.75rem}
+.form-row{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:.5rem}
+.form-field{display:flex;flex-direction:column;gap:.2rem;flex:1;min-width:140px}
+.form-label{font-size:11px;color:var(--t3);font-weight:500}
+.form-input{font-size:13px;padding:5px 9px;border-radius:6px;border:1px solid var(--bd);background:var(--bg2);color:var(--t1);font-family:var(--fn)}
+.form-input:focus{outline:none;border-color:var(--teal-t)}
+.form-select{font-size:13px;padding:5px 9px;border-radius:6px;border:1px solid var(--bd);background:var(--bg2);color:var(--t1);font-family:var(--fn)}
+.form-save-btn{font-size:12px;font-weight:600;padding:6px 18px;border-radius:7px;border:none;background:var(--teal-t);color:#fff;cursor:pointer;font-family:var(--fn)}
+.form-cancel-btn{font-size:12px;padding:6px 14px;border-radius:7px;border:1px solid var(--bd);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn)}
+.filter-pill{font-size:11px;padding:3px 10px;border-radius:999px;border:1px solid var(--bd);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn)}
+.filter-pill.active{background:var(--teal-t);color:#fff;border-color:var(--teal-t)}
+.empty{text-align:center;padding:3rem 1rem;color:var(--t3)}
+.empty-icon{font-size:2rem;margin-bottom:.5rem}
+.empty-title{font-size:14px;font-weight:600;color:var(--t2);margin-bottom:.25rem}
+.empty-body{font-size:12px;line-height:1.6}
+@media print{.gnav-toggle,.ref-acts,.add-form,.filter-pill{display:none}}
 
-body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem;}
-hr{border:none;border-top:.5px solid var(--bd);margin:1.5rem 0}
-a{color:var(--blue);text-decoration:none}
-a:hover{text-decoration:underline}
-.top-nav{display:flex;align-items:center;gap:10px;margin-bottom:1.5rem;flex-wrap:wrap}
-.back-btn{font-size:13px;padding:5px 14px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t2);text-decoration:none}
-.back-btn:hover{background:var(--bg2)}
-.pg-title{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3)}
-.slabel{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin-bottom:.6rem}
-.card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1.1rem 1.25rem;margin-bottom:.75rem}
-.tip{border-left:3px solid var(--teal);background:var(--bg2);padding:.75rem 1rem;margin-bottom:1.1rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
-.empty{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:2.5rem;text-align:center}
-.empty-icon{font-size:32px;margin-bottom:.65rem}
-.empty-title{font-size:15px;font-weight:500;margin-bottom:.35rem}
-.empty-body{font-size:13px;color:var(--t2);line-height:1.65}
-.footer{font-size:12px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
-
-.ref-card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:.65rem}
-.ref-card.asked{border-left:3px solid var(--teal)}
-.ref-card.confirmed{border-left:3px solid #185fa5}
-.ref-card.submitted{border-left:3px solid #534ab7}
-.ref-header{display:flex;align-items:flex-start;justify-content:space-between;gap:.75rem;margin-bottom:.5rem;flex-wrap:wrap}
-.ref-name{font-size:15px;font-weight:500;color:var(--t1)}
-.ref-row{display:grid;grid-template-columns:1fr 1fr;gap:.5rem .75rem;margin-bottom:.6rem}
-@media(max-width:480px){.ref-row{grid-template-columns:1fr}}
-.ref-field{}
-.ref-lbl{font-size:11px;font-weight:500;color:var(--t3);text-transform:uppercase;letter-spacing:.05em;margin-bottom:3px}
-.ref-input{font-size:13px;padding:6px 10px;border-radius:var(--r1);border:1px solid var(--bds);background:var(--bg2);color:var(--t1);width:100%;font-family:var(--fn)}
-.ref-input:focus{outline:none;border-color:var(--teal)}
-.ref-select{font-size:13px;padding:6px 10px;border-radius:var(--r1);border:1px solid var(--bds);background:var(--bg2);color:var(--t1);width:100%;font-family:var(--fn);cursor:pointer}
-.ref-select:focus{outline:none;border-color:var(--teal)}
-.ref-ta{font-size:13px;padding:6px 10px;border-radius:var(--r1);border:1px solid var(--bds);background:var(--bg2);color:var(--t1);width:100%;font-family:var(--fn);resize:vertical;min-height:52px}
-.ref-ta:focus{outline:none;border-color:var(--teal)}
-.ref-actions{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin-top:.3rem}
-.save-btn{font-size:12px;font-weight:500;padding:4px 14px;border-radius:999px;border:none;background:var(--teal);color:#fff;cursor:pointer;font-family:var(--fn)}
-.del-btn{font-size:12px;color:var(--t3);background:none;border:none;cursor:pointer;padding:0;font-family:var(--fn);margin-left:auto}
-.del-btn:hover{color:#c0392b}
-.saved-flash{font-size:12px;color:var(--teal-t);display:none;font-weight:500}
-.status-pill{font-size:11px;font-weight:500;padding:2px 9px;border-radius:999px}
-.sp-pending{background:var(--bg2);color:var(--t3)}
-.sp-asked{background:var(--teal-bg);color:var(--teal-t)}
-.sp-confirmed{background:var(--blue-bg);color:var(--blue)}
-.sp-submitted{background:#eeedfe;color:#534ab7}
-.sp-declined{background:#faece7;color:#993c1d}
-
-.add-btn{display:flex;align-items:center;gap:.5rem;font-size:13px;font-weight:500;padding:8px 18px;border-radius:999px;border:1.5px solid var(--teal);background:transparent;color:var(--teal-t);cursor:pointer;font-family:var(--fn);margin-bottom:1rem}
-.add-btn:hover{background:var(--teal-bg)}
-.summary-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1.1rem}
-.sum-pill{font-size:12px;font-weight:500;padding:4px 12px;border-radius:999px;background:var(--bg);border:.5px solid var(--bd)}
-.deadline-list{margin-top:.5rem;padding:.6rem .85rem;background:var(--bg2);border-radius:var(--r1);font-size:12px;color:var(--t2);line-height:1.8}
-.deadline-list strong{font-weight:500;color:var(--t1)}
-
-/* ── Global nav ── */
-.global-nav{background:var(--bg);border-bottom:.5px solid var(--bd);position:sticky;top:0;z-index:100;padding:0 1rem}
-.gnav-wrap{max-width:720px;margin:0 auto;display:flex;align-items:center}
-.gnav-inner{flex:1;min-width:0;display:flex;align-items:center;gap:0;overflow-x:auto;scrollbar-width:none}
-.gnav-inner::-webkit-scrollbar{display:none}
-.gnav-home{font-size:13px;font-weight:600;color:var(--t1);text-decoration:none;padding:11px 12px 11px 0;white-space:nowrap;border-right:.5px solid var(--bd);margin-right:2px;flex-shrink:0}
-.gnav-home:hover{color:var(--teal-t)}
-.gnav-link{font-size:12px;font-weight:500;color:var(--t3);text-decoration:none;padding:11px 9px;white-space:nowrap;border-bottom:2px solid transparent;transition:color .12s,border-color .12s;flex-shrink:0}
-.gnav-link:hover{color:var(--t1)}
-.gnav-link.active{color:var(--teal-t);border-bottom-color:var(--teal)}
-.gnav-toggle{flex-shrink:0;width:34px;height:34px;margin-left:8px;display:flex;align-items:center;justify-content:center;border:1.5px solid var(--bd);background:var(--bg2);color:var(--t2);cursor:pointer;border-radius:6px;font-family:var(--fn);font-size:14px;line-height:1;transition:background .12s,border-color .12s}
-.gnav-toggle:hover{background:var(--bg3);border-color:var(--bds);color:var(--t1)}
-html.dark .gnav-toggle{background:var(--bg2);border-color:var(--bd);color:var(--t1)}
-
-.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.5rem}
-.page-header-eyebrow{font-size:11px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-t);margin-bottom:.25rem}
-.page-header-title{font-size:24px;font-weight:700;color:var(--t1);line-height:1.2;letter-spacing:-.02em;margin-bottom:.2rem}
-.page-header-sub{font-size:13px;color:var(--t2);line-height:1.5}
-/* Remove old top-nav bubble gap */
-.top-nav{display:none!important}
-
-.s-updated{background:#e8e4fe;color:#4c3bc4}
-
-html.dark .s-updated{background:#2d2563;color:#b5abfa}
-
-.page{max-width:720px;margin:0 auto;padding:0 1rem}
-/* ensure page-header gets left padding from .page */
-.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.5rem}
-
-/* Layout */
-body{padding:0 0 2rem;margin:0}
-.page{max-width:720px;margin:0 auto;padding:0 1rem}
-.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.5rem}
-
-/* ════════════════════════════════════
-   THEME VARIABLES — What's Next for Erin
-   Light: Medium grey scale palette
-   Dark: Forest green palette
-   ════════════════════════════════════ */
-
-/* Light mode base */
-:root {
-  /* Grey scale (Medium palette) */
-  --bg:   #FAFAFA;   /* grey-50  — card white */
-  --bg2:  #F5F5F5;   /* grey-100 — subtle areas */
-  --bg3:  #EEEEEE;   /* grey-200 — page background */
-  --t1:   #212121;   /* grey-900 — primary text */
-  --t2:   #424242;   /* grey-800 — secondary text */
-  --t3:   #757575;   /* grey-600 — muted text */
-  --bd:   rgba(0,0,0,0.10);
-  --bds:  rgba(0,0,0,0.22);
-  /* Shared */
-  --r1:8px;--r2:12px;
-  --fn:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
-  /* Green accents (from original palette) */
-  --teal:#4e9836;--teal-bg:#eaf3e5;--teal-t:#3c7b20;
-  --blue:#3a7878;--blue-bg:#e5f0f0;
-  --amber:#8a6f00;--amber-bg:#f5f0db;--amber-t:#6b5500;
-  --red:#993c1d;--red-bg:#faece7;--red-t:#993c1d;
-  --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
-}
-
-/* System dark mode (auto) */
-@media(prefers-color-scheme:dark) {
-  :root {
-    --bg:#1c2018;--bg2:#242b1e;--bg3:#18201a;
-    --t1:#f0ede0;--t2:#c0c4a8;--t3:#9dc8c8;
-    --bd:rgba(157,200,200,0.15);--bds:rgba(157,200,200,0.28);
-    --teal-bg:#2a3d22;--teal-t:#8fc87a;
-    --blue-bg:#1e3535;--amber-bg:#3d3510;--amber-t:#d4c47a;
-    --red-bg:#3d1510;--red-t:#f5a490;
-    --purple-bg:#2d2563;--purple-t:#b5abfa;
-  }
-}
-
-/* Manual toggle — must come LAST so it overrides both :root and @media */
-html.dark {
-  --bg:#1c2018;--bg2:#242b1e;--bg3:#18201a;
-  --t1:#f0ede0;--t2:#c0c4a8;--t3:#9dc8c8;
-  --bd:rgba(157,200,200,0.15);--bds:rgba(157,200,200,0.28);
-  --teal-bg:#2a3d22;--teal-t:#8fc87a;
-  --blue-bg:#1e3535;--amber-bg:#3d3510;--amber-t:#d4c47a;
-  --red-bg:#3d1510;--red-t:#f5a490;
-  --purple-bg:#2d2563;--purple-t:#b5abfa;
-}
-/* Override light mode when .dark is set (belt AND suspenders) */
-html:not(.dark) {
-  --bg:#FAFAFA;--bg2:#F5F5F5;--bg3:#EEEEEE;
-  --t1:#212121;--t2:#424242;--t3:#757575;
-  --bd:rgba(0,0,0,0.10);--bds:rgba(0,0,0,0.22);
-  --teal-bg:#eaf3e5;--teal-t:#3c7b20;
-  --blue-bg:#e5f0f0;--amber-bg:#f5f0db;--amber-t:#6b5500;
-  --red-bg:#faece7;--red-t:#993c1d;
-  --purple-bg:#e8e4fe;--purple-t:#4c3bc4;
-}.opp-link{font-size:11px;font-weight:500;color:var(--teal-t);text-decoration:none;padding:2px 7px;border:1px solid var(--teal);border-radius:5px;white-space:nowrap}
-.opp-link:hover{background:var(--teal-bg)}
-.opp-link-sec{color:var(--blue);border-color:var(--blue)}
-.opp-link-sec:hover{background:var(--blue-bg)}
-
-/* Reference guidance section */
+/* ── Reference guide collapsible sections ── */
 .ref-guide{display:flex;flex-direction:column;gap:.6rem;margin-bottom:1.5rem}
 .ref-guide-section{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);overflow:hidden}
 .ref-guide-heading{font-size:11px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--teal-t);background:var(--teal-bg);padding:.55rem 1rem;cursor:pointer;display:flex;justify-content:space-between;align-items:center;user-select:none}
@@ -174,16 +76,6 @@ html:not(.dark) {
 .ref-guide-body li{margin-bottom:.35rem}
 .ref-guide-body strong{color:var(--t1);font-weight:600}
 </style>
-<script>
-(function(){
-  var saved=localStorage.getItem('erin_theme');
-  var prefersDark=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches;
-  if(saved==='dark'||(!saved&&prefersDark)) document.documentElement.classList.add('dark');
-  function upBtn(){var b=document.getElementById('theme-toggle');if(b)b.innerHTML=document.documentElement.classList.contains('dark')?'&#9728;':'&#127769;';}
-  document.addEventListener('DOMContentLoaded',upBtn);
-  window.__toggleTheme=function(){var d=document.documentElement.classList.toggle('dark');localStorage.setItem('erin_theme',d?'dark':'light');upBtn();};
-})();
-</script>
 </head>
 <body>
 
@@ -192,13 +84,35 @@ html:not(.dark) {
   <div class="gnav-wrap">
     <div class="gnav-inner">
       <a href="index.html" class="gnav-home">&#127968; Home</a>
-    <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
-    <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
-    <a href="erin_applications.html" class="gnav-link">&#128196; Applications</a>
-    <a href="erin_proftracker.html" class="gnav-link">&#128100; Professors</a>
-    <a href="erin_reftracker.html" class="gnav-link active">&#128393; References</a>
-    <a href="erin_writing_samples.html" class="gnav-link">&#9997; Writing</a>
-    <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
+      <a href="erin_search.html" class="gnav-link">&#128269; Search</a>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-track">Track</span>
+        <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
+        <a href="erin_compare.html" class="gnav-link">&#9878; Compare</a>
+        <a href="erin_pipeline.html" class="gnav-link">&#128202; Pipeline</a>
+        <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
+        <a href="erin_applications.html" class="gnav-link">&#128196; Apps</a>
+        <a href="erin_proftracker.html" class="gnav-link">&#128100; Profs</a>
+        <a href="erin_reftracker.html" class="gnav-link">&#128393; Refs</a>
+        <a href="erin_archive.html" class="gnav-link">&#128193; Archive</a>
+      </div>
+      <span class="gnav-divider gnav-break"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-browse">Browse</span>
+        <a href="erin_programs.html" class="gnav-link">&#127979; Programs</a>
+        <a href="erin_internships.html" class="gnav-link">&#128203; Internships</a>
+        <a href="erin_jobs.html" class="gnav-link">&#128188; Jobs</a>
+        <a href="erin_service.html" class="gnav-link">&#127807; Service</a>
+      </div>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-write">Write</span>
+        <a href="erin_materials.html" class="gnav-link">&#128218; Materials</a>
+        <a href="erin_writing_samples.html" class="gnav-link">&#9997; Writing</a>
+        <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
+        <a href="erin_packet.html" class="gnav-link">&#128424; Packet</a>
+      </div>
     </div>
     <button class="gnav-toggle" id="theme-toggle" onclick="__toggleTheme()" title="Toggle dark/light mode">&#127769;</button>
   </div>
@@ -207,25 +121,14 @@ html:not(.dark) {
 <div class="page">
 
 <div class="page-header">
-  <div class="page-header-eyebrow">What's Next for Erin</div>
+  <div class="page-header-eyebrow">What&rsquo;s Next for Erin</div>
   <div class="page-header-title">Reference Letter Tracker</div>
-  <div class="page-header-sub">Manage recommenders — status, materials sent, deadlines</div>
+  <div class="page-header-sub">Track who&rsquo;s writing letters &mdash; status, programs, and follow-ups &mdash; <span id="ref-count-summary" style="color:var(--teal-t);font-weight:500"></span></div>
 </div>
 
-<div class="top-nav">
-  <a href="erin_mylist.html" class="back-btn">&#8592; My List</a>
-  <span class="pg-title">Reference Letters</span>
-</div>
+<div class="tip">&#128393;&nbsp; Aim for 3 strong letters per application. Ask <strong>at least 8&ndash;10 weeks before the earliest deadline</strong> &mdash; faculty inboxes fill fast in the fall. A brief reminder 3&ndash;4 weeks before the deadline is appropriate and expected.</div>
 
-<div class="card" style="margin-bottom:1rem">
-  <div style="font-size:18px;font-weight:500;margin-bottom:3px">&#128393; Reference Letter Tracker</div>
-  <div style="font-size:13px;color:var(--t2)" id="ref-count">Loading&#8230;</div>
-</div>
-<div class="tip" style="margin-bottom:.75rem">
-  &#9888;&nbsp; Most grad programs require <strong>2&ndash;3 letters</strong>. Federal positions often need 3. Ask at least <strong>4&ndash;6 weeks in advance</strong> &mdash; earlier is always better. Faculty receive many requests in fall; reach out in August&ndash;September before the rush.
-</div>
-
-<div class="ref-guide">
+<div class="ref-guide" style="margin-top:.85rem">
 
   <div class="ref-guide-section">
     <div class="ref-guide-heading"><span>&#128221; Who to ask</span><span class="ref-guide-arrow">&#9654;</span></div>
@@ -298,233 +201,186 @@ html:not(.dark) {
   </div>
 
 </div>
-<div class="summary-row" id="summary-row"></div>
-<div id="deadline-section" style="margin-bottom:1rem"></div>
-<button class="add-btn" onclick="addCard()">&#43; Add recommender</button>
-<div id="ref-body"></div>
 
-<p class="footer">Data drawn from your saved opportunities in My List.<br><br>
-<a href="erin_mylist.html">&#8592; My List</a>&nbsp;&nbsp;<a href="index.html">&#8592; Home</a></p>
+<div style="margin-top:1rem;display:flex;gap:.5rem;align-items:center;flex-wrap:wrap">
+  <button class="form-save-btn" id="show-add-btn" onclick="showAddForm()" style="font-size:12px;padding:5px 14px">+ Add reference</button>
+  <div id="filter-bar" style="display:flex;gap:.35rem;flex-wrap:wrap"></div>
 </div>
+
+<div id="add-form-container" style="display:none;margin-top:.75rem"></div>
+<div id="ref-body" style="margin-top:.75rem"></div>
+
+</div><!-- /.page -->
+
 <script>
-
-var BIN='6a039aa4250b1311c33f2bac',KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa',STORE='erin_mylist_v1';
-function load(){try{return JSON.parse(localStorage.getItem(STORE)||'{}')}catch(e){return {}}}
-function getSavedItems(){var m=load();return Object.values(m).filter(function(it){return!it._done||true});}
-
-
-var RSTORE = 'erin_ref_letters';
-
-function loadRefs(){ try{ return JSON.parse(localStorage.getItem(RSTORE)||'[]'); } catch(e){ return []; } }
-function saveRefs(arr){ localStorage.setItem(RSTORE,JSON.stringify(arr)); }
-
-
+var BIN='6a039aa4250b1311c33f2bac';
+var KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
+var STORE='erin_ref_tracker_v1';
+var PRIMARY_KEY='erin_primary_device';
+function isPrimary(){ return localStorage.getItem(PRIMARY_KEY)==='1'; }
+function loadRefs(){ try{ return JSON.parse(localStorage.getItem(STORE)||'[]'); }catch(e){ return []; } }
+function saveRefs(arr){ localStorage.setItem(STORE,JSON.stringify(arr)); }
 function pushRefs(arr){
-  if(!isPrimary()) return; // Only primary device writes to cloud
+  if(!isPrimary()) return;
   fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
   .then(function(r){return r.json();})
   .then(function(data){
-    var rec=data.record||{};
-    rec.refs=arr;
-    fetch('https://api.jsonbin.io/v3/b/'+BIN,{
-      method:'PUT',
-      headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},
-      body:JSON.stringify(rec)
-    });
+    var rec=data.record||{}; rec.refs=arr;
+    return fetch('https://api.jsonbin.io/v3/b/'+BIN,{method:'PUT',headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},body:JSON.stringify(rec)});
   }).catch(function(){});
 }
-
-
-function pullRefs(){
+function pullCloud(){
   fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
   .then(function(r){return r.json();})
   .then(function(data){
-    if(data.record && data.record.refs){
-      var cloud=data.record.refs;
-      var local=loadRefs();
-      if(isPrimary()){
-        // Primary device: local is truth — push local to cloud
-        pushRefs(local);
-      } else {
-        // Secondary device: cloud wins — overwrite local
-        saveRefs(cloud);
-      }
-    }
+    if(data.record&&data.record.refs){ saveRefs(data.record.refs); }
     render();
   }).catch(function(){ render(); });
 }
-
-function statusCls(s){
-  return {pending:'sp-pending',asked:'sp-asked',confirmed:'sp-confirmed',submitted:'sp-submitted',declined:'sp-declined'}[s]||'sp-pending';
+var STATUSES=[
+  {v:'planning',l:'Planning to ask',cls:'rs-planning'},
+  {v:'asked',l:'Asked',cls:'rs-asked'},
+  {v:'agreed',l:'Agreed ✓',cls:'rs-agreed'},
+  {v:'submitted',l:'Submitted ✓✓',cls:'rs-submitted'},
+  {v:'declined',l:'Declined',cls:'rs-declined'}
+];
+function statusCls(s){ var m=STATUSES.find(function(x){return x.v===s;}); return m?m.cls:'rs-planning'; }
+function statusLabel(s){ var m=STATUSES.find(function(x){return x.v===s;}); return m?m.l:s; }
+var currentFilter='all';
+function el(tag,cls,text){ var e=document.createElement(tag); if(cls)e.className=cls; if(text!==undefined)e.textContent=text; return e; }
+function makeCard(ref){
+  var card=el('div','ref-card status-'+(ref.status||'planning'));
+  card.id='rcard-'+ref.id;
+  card.appendChild(el('div','ref-name',ref.name||''));
+  if(ref.title||ref.institution){ card.appendChild(el('div','ref-title',(ref.title||'')+((ref.title&&ref.institution)?' — ':'')+( ref.institution||''))); }
+  if(ref.email){ var em=el('div','ref-email'); em.innerHTML='&#128231; <a href="mailto:'+ref.email+'" style="color:var(--t3)">'+ref.email+'</a>'; card.appendChild(em); }
+  var meta=el('div','ref-meta');
+  meta.appendChild(el('span','ref-status-pill '+statusCls(ref.status),statusLabel(ref.status)));
+  if(ref.relationship){ var rel=el('span',''); rel.style.cssText='font-size:11px;color:var(--t3);padding:2px 7px;background:var(--bg2);border-radius:5px;border:1px solid var(--bd)'; rel.textContent=ref.relationship; meta.appendChild(rel); }
+  card.appendChild(meta);
+  if(ref.programs&&ref.programs.length){ var progs=el('div','ref-programs'); progs.innerHTML='Writing for: '; ref.programs.forEach(function(p){ progs.appendChild(el('span','',p)); }); card.appendChild(progs); }
+  var noteBox=el('div','ref-note'+(ref.note?' open':'')); noteBox.id='rnote-'+ref.id;
+  var noteTA=el('textarea','ref-note-edit'); noteTA.placeholder='Notes…'; noteTA.value=ref.note||'';
+  noteTA.onblur=function(){ var arr=loadRefs(); var r=arr.find(function(x){return x.id===ref.id;}); if(r){r.note=noteTA.value;saveRefs(arr);pushRefs(arr);} };
+  noteBox.appendChild(noteTA); card.appendChild(noteBox);
+  var acts=el('div','ref-acts');
+  var statusSel=document.createElement('select'); statusSel.className='form-select'; statusSel.style.fontSize='11px';
+  STATUSES.forEach(function(s){ var o=document.createElement('option'); o.value=s.v; o.textContent=s.l; if(ref.status===s.v)o.selected=true; statusSel.appendChild(o); });
+  statusSel.onchange=function(){ var arr=loadRefs(); var r=arr.find(function(x){return x.id===ref.id;}); if(r){r.status=statusSel.value;saveRefs(arr);pushRefs(arr);render();} };
+  acts.appendChild(statusSel);
+  var noteBtn=el('button','ref-btn','Note'); noteBtn.onclick=function(){ noteBox.classList.toggle('open'); }; acts.appendChild(noteBtn);
+  var editBtn=el('button','ref-btn','Edit'); editBtn.onclick=function(){ showEditForm(ref.id); }; acts.appendChild(editBtn);
+  var delBtn=el('button','ref-btn danger','Remove');
+  delBtn.onclick=function(){ if(!confirm('Remove '+ref.name+'?'))return; var arr=loadRefs().filter(function(x){return x.id!==ref.id;}); saveRefs(arr);pushRefs(arr);render(); };
+  acts.appendChild(delBtn);
+  card.appendChild(acts);
+  return card;
 }
-function statusLbl(s){
-  return {pending:'Not yet asked',asked:'Asked',confirmed:'Confirmed yes',submitted:'Letter submitted',declined:'Declined'}[s]||'Not yet asked';
-}
-
-function saveCard(id){
-  var arr=loadRefs();
-  var idx=arr.findIndex(function(r){return r.id===id;});
-  if(idx<0) return;
-  arr[idx].name      = document.getElementById('rn-'+id).value;
-  arr[idx].title     = document.getElementById('rt-'+id).value;
-  arr[idx].email     = document.getElementById('re-'+id).value;
-  arr[idx].dateAsked = document.getElementById('rda-'+id).value;
-  arr[idx].status    = document.getElementById('rs-'+id).value;
-  arr[idx].materials = document.getElementById('rm-'+id).value;
-  if(document.getElementById('rp-'+id)) arr[idx].programs = document.getElementById('rp-'+id).value;
-  arr[idx].notes     = document.getElementById('rno-'+id).value;
-  saveRefs(arr); pushRefs(arr);
-  var fl=document.getElementById('rfl-'+id); fl.style.display='inline'; setTimeout(function(){fl.style.display='none';},2000);
-  updateSummary();
-  updateCardClass(id,arr[idx].status);
-}
-
-function updateCardClass(id,status){
-  var card=document.getElementById('rcard-'+id);
-  if(!card) return;
-  card.className='ref-card'+(status&&status!=='pending'?' '+status:'');
-}
-
-function deleteCard(id){
-  if(!confirm('Remove this recommender?')) return;
-  saveRefs(loadRefs().filter(function(r){return r.id!==id;}));
-  render();
-}
-
-function addCard(){
-  var arr=loadRefs();
-  var id='r'+Date.now();
-  arr.push({id:id,name:'',title:'',email:'',dateAsked:'',status:'pending',materials:'',notes:''});
-  saveRefs(arr); render();
-  setTimeout(function(){ var el=document.getElementById('rcard-'+id); if(el)el.scrollIntoView({behavior:'smooth',block:'center'}); },100);
-}
-
-function updateSummary(){
-  var arr=loadRefs();
-  var counts={pending:0,asked:0,confirmed:0,submitted:0,declined:0};
-  arr.forEach(function(r){counts[r.status||'pending']++;});
-  var row=document.getElementById('summary-row'); row.innerHTML='';
-  var labels={confirmed:'Confirmed',submitted:'Submitted',asked:'Asked',pending:'Not asked yet',declined:'Declined'};
-  ['confirmed','submitted','asked','pending','declined'].forEach(function(k){
-    if(counts[k]>0){
-      var pill=document.createElement('span'); pill.className='sum-pill';
-      pill.textContent=counts[k]+' '+labels[k]; row.appendChild(pill);
-    }
-  });
-}
-
-function buildDeadlineList(){
-  // Pull saved grad program deadlines to show as reference
-  var items=getSavedItems().filter(function(it){ return it.type==='Graduate Program' && it.deadline && !/rolling|verify|tbd/i.test(it.deadline); });
-  if(!items.length) return null;
-  var div=document.createElement('div'); div.className='deadline-list';
-  div.innerHTML='<strong>Program deadlines (from your saved list)</strong><br>';
-  items.slice(0,8).forEach(function(it){
-    div.innerHTML+=it.title.split('—')[0].trim().slice(0,40)+'&#8230; &nbsp;<strong>'+it.deadline+'</strong><br>';
-  });
-  return div;
-}
-
 function render(){
-  var arr=loadRefs();
-  document.getElementById('ref-count').textContent=arr.length+' recommender'+(arr.length===1?'':'s')+' tracked';
-  updateSummary();
-
-  var dl=document.getElementById('deadline-section');
-  dl.innerHTML='';
-  var dlDiv=buildDeadlineList();
-  if(dlDiv) dl.appendChild(dlDiv);
-
+  var refs=loadRefs();
   var body=document.getElementById('ref-body'); body.innerHTML='';
-
-  if(!arr.length){
-    body.innerHTML='<div class="empty"><div class="empty-icon">&#128393;</div><div class="empty-title">No recommenders added yet</div><div class="empty-body">Click &ldquo;Add recommender&rdquo; to start tracking. Most grad programs require 2–3 letters. Reach out early — faculty are busy.</div></div>';
-    return;
+  var agreed=refs.filter(function(r){return r.status==='agreed';}).length;
+  var submitted=refs.filter(function(r){return r.status==='submitted';}).length;
+  var sum=document.getElementById('ref-count-summary');
+  if(sum) sum.textContent=refs.length+' total · '+agreed+' agreed · '+submitted+' submitted';
+  var filtered=currentFilter==='all'?refs:refs.filter(function(r){return r.status===currentFilter;});
+  var fb=document.getElementById('filter-bar'); fb.innerHTML='';
+  var allBtn=el('button','filter-pill'+(currentFilter==='all'?' active':''),'All ('+refs.length+')');
+  allBtn.onclick=function(){ currentFilter='all'; render(); }; fb.appendChild(allBtn);
+  STATUSES.forEach(function(s){
+    var cnt=refs.filter(function(r){return r.status===s.v;}).length; if(!cnt)return;
+    var btn=el('button','filter-pill'+(currentFilter===s.v?' active':''),s.l+' ('+cnt+')');
+    btn.onclick=(function(v){return function(){currentFilter=v;render();};})(s.v); fb.appendChild(btn);
+  });
+  if(!filtered.length){
+    var emp=el('div','empty');
+    emp.innerHTML='<div class="empty-icon">&#128393;</div><div class="empty-title">'+(refs.length?'No matches':'No references yet')+'</div><div class="empty-body">'+(refs.length?'Try a different filter.':'Click “+ Add reference” to start tracking your letter writers.')+'</div>';
+    body.appendChild(emp); return;
+  }
+  filtered.forEach(function(ref){ body.appendChild(makeCard(ref)); });
+}
+function buildForm(existing){
+  var form=el('div','add-form');
+  form.innerHTML='<h3>'+(existing?'Edit reference':'Add reference writer')+'</h3>';
+  function field(lbl,inputEl){ var w=el('div','form-field'); w.appendChild(el('label','form-label',lbl)); w.appendChild(inputEl); return w; }
+  var nameIn=el('input','form-input'); nameIn.placeholder='Full name'; nameIn.value=existing?existing.name||'':'';
+  var titleIn=el('input','form-input'); titleIn.placeholder='e.g. Associate Professor'; titleIn.value=existing?existing.title||'':'';
+  var instIn=el('input','form-input'); instIn.placeholder='Institution'; instIn.value=existing?existing.institution||'':'';
+  var emailIn=el('input','form-input'); emailIn.type='email'; emailIn.placeholder='Email (optional)'; emailIn.value=existing?existing.email||'':'';
+  var relIn=el('input','form-input'); relIn.placeholder='e.g. Capstone advisor, Employer'; relIn.value=existing?existing.relationship||'':'';
+  var progsIn=el('input','form-input'); progsIn.placeholder='Programs (comma-separated)'; progsIn.value=existing&&existing.programs?existing.programs.join(', '):'';
+  var statusSel=document.createElement('select'); statusSel.className='form-select';
+  STATUSES.forEach(function(s){ var o=document.createElement('option'); o.value=s.v; o.textContent=s.l; if(existing&&existing.status===s.v)o.selected=true; statusSel.appendChild(o); });
+  var r1=el('div','form-row'); r1.appendChild(field('Name *',nameIn)); r1.appendChild(field('Title / Role',titleIn)); form.appendChild(r1);
+  var r2=el('div','form-row'); r2.appendChild(field('Institution',instIn)); r2.appendChild(field('Email',emailIn)); form.appendChild(r2);
+  var r3=el('div','form-row'); r3.appendChild(field('Relationship to you',relIn)); r3.appendChild(field('Status',statusSel)); form.appendChild(r3);
+  var r4=el('div','form-row'); r4.appendChild(field("Programs they're writing for",progsIn)); form.appendChild(r4);
+  var btnRow=el('div',''); btnRow.style.cssText='display:flex;gap:.5rem;margin-top:.25rem';
+  var saveBtn=el('button','form-save-btn',existing?'Save changes':'Add reference');
+  saveBtn.onclick=function(){
+    var name=nameIn.value.trim(); if(!name){nameIn.focus();return;}
+    var arr=loadRefs();
+    var progs=progsIn.value.split(',').map(function(s){return s.trim();}).filter(Boolean);
+    if(existing){ var r=arr.find(function(x){return x.id===existing.id;}); if(r){r.name=name;r.title=titleIn.value.trim();r.institution=instIn.value.trim();r.email=emailIn.value.trim();r.relationship=relIn.value.trim();r.status=statusSel.value;r.programs=progs;} }
+    else { arr.push({id:'ref-'+Date.now()+'-'+Math.random().toString(36).slice(2,6),name:name,title:titleIn.value.trim(),institution:instIn.value.trim(),email:emailIn.value.trim(),relationship:relIn.value.trim(),status:statusSel.value,programs:progs,note:''}); }
+    saveRefs(arr); pushRefs(arr); hideAddForm(); render();
+  };
+  btnRow.appendChild(saveBtn);
+  var cancelBtn=el('button','form-cancel-btn','Cancel'); cancelBtn.onclick=hideAddForm; btnRow.appendChild(cancelBtn);
+  form.appendChild(btnRow); return form;
+}
+function showAddForm(){ var c=document.getElementById('add-form-container'); c.innerHTML=''; c.style.display='block'; c.appendChild(buildForm(null)); document.getElementById('show-add-btn').style.display='none'; }
+function showEditForm(id){ var ref=loadRefs().find(function(r){return r.id===id;}); if(!ref)return; var c=document.getElementById('add-form-container'); c.innerHTML=''; c.style.display='block'; c.appendChild(buildForm(ref)); document.getElementById('show-add-btn').style.display='none'; }
+function hideAddForm(){ var c=document.getElementById('add-form-container'); c.innerHTML=''; c.style.display='none'; document.getElementById('show-add-btn').style.display=''; }
+document.addEventListener('DOMContentLoaded',function(){
+  if(isPrimary()){
+    var arr=loadRefs();
+    render();
+    if(arr.length>0){ pushRefs(arr); } // heartbeat: keep JSONbin current
+    else { pullCloud(); }              // recovery: localStorage empty, restore from cloud
+  } else {
+    pullCloud(); // secondary: always read from cloud
   }
 
-  var order={confirmed:0,asked:1,submitted:2,pending:3,declined:4};
-  arr.sort(function(a,b){return (order[a.status||'pending']||3)-(order[b.status||'pending']||3);});
-
-  arr.forEach(function(r){
-    var card=document.createElement('div');
-    card.className='ref-card'+(r.status&&r.status!=='pending'?' '+r.status:'');
-    card.id='rcard-'+r.id;
-
-    var header=document.createElement('div'); header.className='ref-header';
-    var left=document.createElement('div');
-    var nm=document.createElement('div'); nm.className='ref-name'; nm.textContent=r.name||'New recommender'; left.appendChild(nm);
-    if(r.title){ var tl=document.createElement('div'); tl.style.cssText='font-size:12px;color:var(--t3)'; tl.textContent=r.title; left.appendChild(tl); }
-    if(r.programs){
-      var pg=document.createElement('div'); pg.style.cssText='font-size:11px;color:var(--teal-t);font-weight:500;margin-top:2px';
-      pg.innerHTML='&#128197; Requesting for: '+r.programs; left.appendChild(pg);
-    }
-    // Crosslinks to My List and Applications
-    var xlRow=document.createElement('div'); xlRow.style.cssText='display:flex;gap:6px;flex-wrap:wrap;margin-top:4px';
-    var xlList=document.createElement('a'); xlList.href='erin_mylist.html'; xlList.className='opp-link'; xlList.innerHTML='&#9733; My List'; xlRow.appendChild(xlList);
-    var xlApp=document.createElement('a'); xlApp.href='erin_applications.html'; xlApp.className='opp-link opp-link-sec'; xlApp.innerHTML='&#128196; Applications'; xlRow.appendChild(xlApp);
-    left.appendChild(xlRow);
-    header.appendChild(left);
-    var sp=document.createElement('span'); sp.className='status-pill '+statusCls(r.status||'pending'); sp.id='rsp-'+r.id; sp.textContent=statusLbl(r.status||'pending');
-    header.appendChild(sp);
-    card.appendChild(header);
-
-    var row=document.createElement('div'); row.className='ref-row';
-
-    function inp(lbl,id,val,type){
-      var f=document.createElement('div'); f.className='ref-field';
-      var l=document.createElement('div'); l.className='ref-lbl'; l.textContent=lbl; f.appendChild(l);
-      var i=document.createElement('input'); i.className='ref-input'; i.id=id; i.value=val||''; i.placeholder=lbl;
-      if(type==='date') i.type='date';
-      f.appendChild(i); return f;
-    }
-
-    row.appendChild(inp('Full name','rn-'+r.id,r.name));
-    row.appendChild(inp('Title / position','rt-'+r.id,r.title));
-    row.appendChild(inp('Email','re-'+r.id,r.email));
-    row.appendChild(inp('Requesting for (programs/positions)','rp-'+r.id,r.programs));
-    row.appendChild(inp('Date asked','rda-'+r.id,r.dateAsked,'date'));
-
-    var sf=document.createElement('div'); sf.className='ref-field';
-    var sl=document.createElement('div'); sl.className='ref-lbl'; sl.textContent='Status'; sf.appendChild(sl);
-    var sel=document.createElement('select'); sel.className='ref-select'; sel.id='rs-'+r.id;
-    [{v:'pending',l:'Not yet asked'},{v:'asked',l:'Asked'},{v:'confirmed',l:'Confirmed yes'},{v:'submitted',l:'Letter submitted'},{v:'declined',l:'Declined'}].forEach(function(o){
-      var opt=document.createElement('option'); opt.value=o.v; opt.textContent=o.l; if(r.status===o.v) opt.selected=true; sel.appendChild(opt);
+  // Reference guide collapsible sections
+  document.querySelectorAll('.ref-guide-heading').forEach(function(hdr){
+    hdr.addEventListener('click', function(){
+      hdr.parentElement.classList.toggle('open');
     });
-    sel.onchange=function(){ var s=sel.value; var spl=document.getElementById('rsp-'+r.id); spl.textContent=statusLbl(s); spl.className='status-pill '+statusCls(s); updateCardClass(r.id,s); };
-    sf.appendChild(sel); row.appendChild(sf);
-    card.appendChild(row);
-
-    function ta(lbl,id,val,ph){
-      var f=document.createElement('div'); f.className='ref-field'; f.style.marginBottom='.5rem';
-      var l=document.createElement('div'); l.className='ref-lbl'; l.textContent=lbl; f.appendChild(l);
-      var t=document.createElement('textarea'); t.className='ref-ta'; t.id=id; t.value=val||''; t.placeholder=ph||lbl; f.appendChild(t);
-      return f;
-    }
-    card.appendChild(ta('Materials sent to them','rm-'+r.id,r.materials,'Resume, SOP draft, program list, deadlines...'));
-    card.appendChild(ta('Notes','rno-'+r.id,r.notes,'Response status, follow-up needed, reminders...'));
-
-    var acts=document.createElement('div'); acts.className='ref-actions';
-    var sb=document.createElement('button'); sb.className='save-btn'; sb.textContent='Save';
-    sb.onclick=(function(rid){return function(){saveCard(rid);};})(r.id); acts.appendChild(sb);
-    var fl=document.createElement('span'); fl.className='saved-flash'; fl.id='rfl-'+r.id; fl.textContent='Saved ✓'; acts.appendChild(fl);
-    var db=document.createElement('button'); db.className='del-btn'; db.textContent='Remove';
-    db.onclick=(function(rid){return function(){deleteCard(rid);};})(r.id); acts.appendChild(db);
-    card.appendChild(acts);
-
-    body.appendChild(card);
-  });
-}
-
-pullRefs();
-
-
-// Reference guide collapsible sections
-document.querySelectorAll('.ref-guide-heading').forEach(function(hdr){
-  hdr.addEventListener('click', function(){
-    hdr.parentElement.classList.toggle('open');
   });
 });
-
+</script>
+<script>
+/* ── Sync indicator: appears at end of nav, updates on every sync ── */
+(function(){
+  function fmtAgo(ts){
+    if(!ts) return 'never';
+    var s=Math.floor((Date.now()-ts)/1000);
+    if(s<5) return 'just now';
+    if(s<60) return s+'s ago';
+    var m=Math.floor(s/60); if(m<60) return m+'m ago';
+    var h=Math.floor(m/60); if(h<24) return h+'h ago';
+    return Math.floor(h/24)+'d ago';
+  }
+  function render(){
+    var el=document.getElementById('gnav-sync'); if(!el) return;
+    var ts=parseInt(localStorage.getItem('erin_last_sync')||'0',10);
+    el.textContent = ts ? '✓ Synced '+fmtAgo(ts) : '— not synced';
+  }
+  function setup(){
+    var wrap=document.querySelector('.gnav-wrap');
+    if(!wrap || document.getElementById('gnav-sync')) return;
+    var span=document.createElement('span');
+    span.id='gnav-sync'; span.className='gnav-sync'; span.title='Last cloud sync';
+    span.style.cssText='font-size:10px;color:var(--t3);padding:3px 8px;background:var(--bg2);border-radius:4px;white-space:nowrap;flex-shrink:0;margin-left:10px;border:.5px solid var(--bd);align-self:center;min-width:118px;text-align:center;box-sizing:border-box';
+    var tog=document.getElementById('theme-toggle');if(tog&&tog.parentNode===wrap)wrap.insertBefore(span,tog);else wrap.appendChild(span);
+    render();
+    setInterval(render,30000);
+    window.addEventListener('erin-sync', render);
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',setup);
+  else setup();
+})();
 </script>
 </body>
 </html>

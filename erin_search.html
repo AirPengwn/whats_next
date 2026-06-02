@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
+<link rel="stylesheet" href="styles.css?v=20260518e">
+<title>Search — What's Next for Erin</title>
+<style>
+body{padding:0 0 3rem}
+.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.25rem}
+.page-header-eyebrow{font-size:11px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-t);margin-bottom:.25rem}
+.page-header-title{font-size:24px;font-weight:700;color:var(--t1);line-height:1.2;letter-spacing:-.02em;margin-bottom:.2rem}
+.page-header-sub{font-size:13px;color:var(--t2);line-height:1.5}
+.search-box{position:relative;margin-bottom:1.25rem}
+.search-input{width:100%;font-size:15px;padding:12px 40px 12px 14px;border-radius:var(--r2);border:1px solid var(--bds);background:var(--bg);color:var(--t1);font-family:var(--fn)}
+.search-input:focus{outline:none;border-color:var(--teal)}
+.search-clear{position:absolute;right:10px;top:50%;transform:translateY(-50%);border:none;background:none;color:var(--t3);font-size:18px;cursor:pointer;display:none;font-family:var(--fn)}
+.search-hint{font-size:12px;color:var(--t3);margin-bottom:1rem}
+.sr-group{margin-bottom:1.5rem}
+.sr-glabel{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--t3);margin-bottom:.6rem;display:flex;align-items:center;gap:.5rem}
+.sr-gcount{font-weight:600;font-size:11px;padding:1px 8px;border-radius:999px;background:var(--bg2);color:var(--t2);letter-spacing:0;text-transform:none}
+.sr-card{display:block;background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r1);padding:.65rem .85rem;margin-bottom:.5rem;text-decoration:none;color:var(--t1);transition:border-color .12s,background .12s}
+.sr-card:hover{border-color:var(--bds);background:var(--bg2)}
+.sr-title{font-size:13px;font-weight:600;color:var(--t1);line-height:1.35;margin-bottom:2px}
+.sr-sub{font-size:11px;color:var(--t3);line-height:1.45}
+.sr-snip{font-size:11px;color:var(--t2);line-height:1.5;margin-top:3px}
+.sr-snip mark{background:var(--amber-bg);color:var(--amber-t);padding:0 2px;border-radius:3px}
+.sr-more{font-size:11px;color:var(--t3);font-style:italic;text-align:center;padding:.3rem}
+.sr-empty{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:2.5rem;text-align:center;color:var(--t2)}
+.sr-empty-icon{font-size:30px;margin-bottom:.5rem}
+.sr-summary{font-size:12px;color:var(--t3);margin-bottom:1rem}
+</style>
+<script>
+(function(){
+  var saved=localStorage.getItem('erin_theme');
+  var prefersDark=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches;
+  if(saved==='dark'||(!saved&&prefersDark)) document.documentElement.classList.add('dark');
+  function upBtn(){var b=document.getElementById('theme-toggle');if(b)b.innerHTML=document.documentElement.classList.contains('dark')?'&#9728;':'&#127769;';}
+  document.addEventListener('DOMContentLoaded',upBtn);
+  window.__toggleTheme=function(){var d=document.documentElement.classList.toggle('dark');localStorage.setItem('erin_theme',d?'dark':'light');upBtn();};
+})();
+</script>
+<script src="site.js?v=20260518e"></script>
+<script src="opportunities.js?v=20260602-97-82b92d63"></script>
+</head>
+<body>
+
+<!-- GLOBAL NAV -->
+<nav class="global-nav">
+  <div class="gnav-wrap">
+    <div class="gnav-inner">
+      <a href="index.html" class="gnav-home">&#127968; Home</a>
+      <a href="erin_search.html" class="gnav-link active">&#128269; Search</a>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-track">Track</span>
+        <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
+        <a href="erin_compare.html" class="gnav-link">&#9878; Compare</a>
+        <a href="erin_pipeline.html" class="gnav-link">&#128202; Pipeline</a>
+        <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
+        <a href="erin_applications.html" class="gnav-link">&#128196; Apps</a>
+        <a href="erin_proftracker.html" class="gnav-link">&#128100; Profs</a>
+        <a href="erin_reftracker.html" class="gnav-link">&#128393; Refs</a>
+        <a href="erin_archive.html" class="gnav-link">&#128193; Archive</a>
+      </div>
+      <span class="gnav-divider gnav-break"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-browse">Browse</span>
+        <a href="erin_programs.html" class="gnav-link">&#127979; Programs</a>
+        <a href="erin_internships.html" class="gnav-link">&#128203; Internships</a>
+        <a href="erin_jobs.html" class="gnav-link">&#128188; Jobs</a>
+        <a href="erin_service.html" class="gnav-link">&#127807; Service</a>
+      </div>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-write">Write</span>
+        <a href="erin_materials.html" class="gnav-link">&#128218; Materials</a>
+        <a href="erin_writing_samples.html" class="gnav-link">&#9997; Writing</a>
+        <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
+        <a href="erin_packet.html" class="gnav-link">&#128424; Packet</a>
+      </div>
+    </div>
+    <button class="gnav-toggle" id="theme-toggle" onclick="__toggleTheme()" title="Toggle dark/light mode">&#127769;</button>
+  </div>
+</nav>
+
+<div class="page" style="max-width:760px">
+
+  <div class="page-header">
+    <div class="page-header-eyebrow">What&rsquo;s Next for Erin</div>
+    <div class="page-header-title">Search everything</div>
+    <div class="page-header-sub">One box across all opportunities and every tracker &mdash; My List, Applications, Professors, References, Materials, Writing, Archive.</div>
+  </div>
+
+  <div class="search-box">
+    <input id="q" class="search-input" type="search" placeholder="Search opportunities, applications, professors, notes&hellip;" autocomplete="off">
+    <button id="qclear" class="search-clear" title="Clear" onclick="document.getElementById('q').value='';doSearch();">&times;</button>
+  </div>
+  <label style="display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--t3);margin-bottom:.75rem;cursor:pointer">
+    <input id="sni" type="checkbox" style="cursor:pointer"> Show items I marked "Not interested"
+  </label>
+  <div id="sr"><div class="search-hint">Type at least 2 characters. Searches titles, orgs, notes, deadlines &mdash; everything.</div></div>
+
+</div>
+
+<script>
+(function(){
+  var BIN='6a039aa4250b1311c33f2bac', KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
+  function lj(k,fb){ try{ return JSON.parse(localStorage.getItem(k)||fb); }catch(e){ return JSON.parse(fb); } }
+  function niMap(){ try{ return JSON.parse(localStorage.getItem('erin_not_interested_v1')||'{}'); }catch(e){ return {}; } }
+  function niHas(id){ return !!niMap()[id]; }
+  function esc(s){ return (s+'').replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+  function firstOf(o,fields){ for(var i=0;i<fields.length;i++){ var v=o[fields[i]]; if(v!=null&&(''+v).trim()) return ''+v; } return ''; }
+  function asList(v){ if(Array.isArray(v)) return v; if(v&&typeof v==='object') return Object.keys(v).map(function(k){return v[k];}); return []; }
+
+  /* Group definitions. Generic deep-text match so unknown shapes still work. */
+  var GROUPS=[
+    {id:'opp',  label:'🌐 Opportunities', get:function(){ return (typeof ALL!=='undefined'&&Array.isArray(ALL))?ALL:[]; },
+       title:['title'], sub:['org','cat','deadline'], link:function(r){ return r.src||r.url||'erin_mylist.html'; }},
+    {id:'list', label:'★ My List', get:function(){ return asList(lj('erin_mylist_v1','{}')); },
+       title:['title'], sub:['org','deadline','_note'], link:function(){ return 'erin_mylist.html'; }},
+    {id:'apps', label:'📄 Applications', get:function(){ return lj('erin_applications_v1','[]'); },
+       title:['programTitle','title'], sub:['org','status','deadline','notes'], link:function(r){ return 'erin_applications.html'+(r.id?'#acard-'+r.id:''); }},
+    {id:'prof', label:'👤 Professors', get:function(){ return lj('erin_prof_contacts','[]'); },
+       title:['professor','name','programTitle'], sub:['email','status','notes'], link:function(){ return 'erin_proftracker.html'; }},
+    {id:'refs', label:'🖋 References', get:function(){ return lj('erin_ref_tracker_v1','[]'); },
+       title:['name','recommender','professor'], sub:['email','status','notes'], link:function(){ return 'erin_reftracker.html'; }},
+    {id:'mat',  label:'📚 Materials', get:function(){ return asList(lj('erin_materials','{}')); },
+       title:['title','name','label'], sub:['type','notes'], link:function(){ return 'erin_materials.html'; }},
+    {id:'writ', label:'✍ Writing samples', get:function(){ return asList(lj('erin_writing_samples','{}')); },
+       title:['title','name'], sub:['type','notes'], link:function(){ return 'erin_writing_samples.html'; }},
+    {id:'arch', label:'📁 Archive', get:function(){ return lj('erin_archive_log','[]'); },
+       title:['itemTitle','title'], sub:['itemOrg','reason','action','date'], link:function(){ return 'erin_archive.html'; }}
+  ];
+
+  function snippet(rec,q){
+    var s=''; try{ s=JSON.stringify(rec); }catch(e){ s=''+rec; }
+    s=s.replace(/[{}\[\]"]/g,' ').replace(/\s+/g,' ').trim();
+    var i=s.toLowerCase().indexOf(q);
+    if(i<0) return '';
+    var start=Math.max(0,i-45), end=Math.min(s.length,i+q.length+55);
+    var frag=(start>0?'…':'')+s.slice(start,end)+(end<s.length?'…':'');
+    return esc(frag).replace(new RegExp('('+q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','ig'),'<mark>$1</mark>');
+  }
+
+  window.doSearch=function(){
+    var q=(document.getElementById('q').value||'').trim().toLowerCase();
+    document.getElementById('qclear').style.display=q?'block':'none';
+    var box=document.getElementById('sr');
+    if(q.length<2){ box.innerHTML='<div class="search-hint">Type at least 2 characters. Searches titles, orgs, notes, deadlines &mdash; everything.</div>'; return; }
+    var html='', total=0;
+    var showNI=!!(document.getElementById('sni')&&document.getElementById('sni').checked);
+    GROUPS.forEach(function(g){
+      var rows=[];
+      g.get().forEach(function(rec){
+        if(!rec||typeof rec!=='object') return;
+        var hay; try{ hay=JSON.stringify(rec).toLowerCase(); }catch(e){ hay=(''+rec).toLowerCase(); }
+        if(hay.indexOf(q)<0) return;
+        if(rec.id && niHas(rec.id) && !showNI) return;  /* hide Not-interested by default */
+        rows.push(rec);
+      });
+      if(!rows.length) return;
+      total+=rows.length;
+      html+='<div class="sr-group"><div class="sr-glabel">'+g.label+' <span class="sr-gcount">'+rows.length+'</span></div>';
+      rows.slice(0,12).forEach(function(rec){
+        var t=firstOf(rec,g.title)||'(untitled)';
+        var sub=g.sub.map(function(f){ return rec[f]; }).filter(function(v){ return v!=null&&(''+v).trim(); }).join(' · ');
+        var snip=snippet(rec,q);
+        html+='<a class="sr-card" href="'+esc(g.link(rec))+'">'
+          +'<div class="sr-title">'+esc(t)+'</div>'
+          +(sub?'<div class="sr-sub">'+esc(sub).slice(0,160)+'</div>':'')
+          +(snip?'<div class="sr-snip">'+snip+'</div>':'')
+          +'</a>';
+      });
+      if(rows.length>12) html+='<div class="sr-more">+ '+(rows.length-12)+' more in this section</div>';
+      html+='</div>';
+    });
+    if(!total){
+      box.innerHTML='<div class="sr-empty"><div class="sr-empty-icon">🔍</div><div>No matches for &ldquo;'+esc(q)+'&rdquo;.</div></div>';
+    } else {
+      box.innerHTML='<div class="sr-summary">'+total+' result'+(total===1?'':'s')+' across '+GROUPS.filter(function(g){return g.get().some(function(r){try{return JSON.stringify(r).toLowerCase().indexOf(q)>-1;}catch(e){return false;}});}).length+' section(s)</div>'+html;
+    }
+  };
+
+  var inp=document.getElementById('q'), tmr;
+  inp.addEventListener('input',function(){ clearTimeout(tmr); tmr=setTimeout(doSearch,140); });
+  var sni=document.getElementById('sni'); if(sni) sni.addEventListener('change',doSearch);
+  inp.focus();
+
+  /* Refresh tracker caches from the cloud (read-only) so search is current. */
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+    .then(function(r){ return r.json(); })
+    .then(function(data){
+      var rec=(data&&data.record)||{}, map={items:'erin_mylist_v1',apps:'erin_applications_v1',profs:'erin_prof_contacts',refs:'erin_ref_tracker_v1',materials:'erin_materials',writingSamples:'erin_writing_samples',archiveLog:'erin_archive_log',notInterested:'erin_not_interested_v1'};
+      Object.keys(map).forEach(function(k){ if(rec[k]!=null){ try{ localStorage.setItem(map[k],JSON.stringify(rec[k])); }catch(e){} } });
+      if((document.getElementById('q').value||'').trim().length>=2) doSearch();
+    }).catch(function(){});
+})();
+</script>
+<script>
+/* ── Sync indicator: appears at end of nav, updates on every sync ── */
+(function(){
+  function fmtAgo(ts){
+    if(!ts) return 'never';
+    var s=Math.floor((Date.now()-ts)/1000);
+    if(s<5) return 'just now';
+    if(s<60) return s+'s ago';
+    var m=Math.floor(s/60); if(m<60) return m+'m ago';
+    var h=Math.floor(m/60); if(h<24) return h+'h ago';
+    return Math.floor(h/24)+'d ago';
+  }
+  function render(){
+    var el=document.getElementById('gnav-sync'); if(!el) return;
+    var ts=parseInt(localStorage.getItem('erin_last_sync')||'0',10);
+    el.textContent = ts ? '✓ Synced '+fmtAgo(ts) : '— not synced';
+  }
+  function setup(){
+    var wrap=document.querySelector('.gnav-wrap');
+    if(!wrap || document.getElementById('gnav-sync')) return;
+    var span=document.createElement('span');
+    span.id='gnav-sync'; span.className='gnav-sync'; span.title='Last cloud sync';
+    span.style.cssText='font-size:10px;color:var(--t3);padding:3px 8px;background:var(--bg2);border-radius:4px;white-space:nowrap;flex-shrink:0;margin-left:10px;border:.5px solid var(--bd);align-self:center;min-width:118px;text-align:center;box-sizing:border-box';
+    var tog=document.getElementById('theme-toggle');if(tog&&tog.parentNode===wrap)wrap.insertBefore(span,tog);else wrap.appendChild(span);
+    render();
+    setInterval(render,30000);
+    window.addEventListener('erin-sync', render);
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',setup);
+  else setup();
+})();
+</script>
+</body>
+</html>
