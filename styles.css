@@ -114,9 +114,13 @@ hr{border:none;border-top:.5px solid var(--bd);margin:1.5rem 0}
 .page.cab-page{max-width:var(--w-cab)}
 /* v2.0 Phase 2.1: serif voice for documents (Home/Bio/Outreach/Materials/Writing/Packet) */
 .doc-page .page-header-title,
-.doc-title{font-family:var(--serif);font-weight:500;letter-spacing:-.015em}
-.doc-body{font-family:var(--serif);font-size:17px;line-height:1.7;color:var(--t1)}
+.doc-title{font-family:var(--serif);font-weight:500;letter-spacing:-.015em;font-size:32px;line-height:1.15}
+/* Prose paragraphs inside document pages — serif body */
+.doc-page p,
+.doc-body{font-family:var(--serif);font-size:16px;line-height:1.7;color:var(--t1)}
 .doc-body p{margin-bottom:.85rem}
+/* Page-header sub stays sans (it's UI text, not body prose) */
+.doc-page .page-header-sub{font-family:var(--fn);font-style:italic;color:var(--t2)}
 /* Mono eyebrows/labels — page-header-eyebrow and any explicit .mono-label */
 .page-header-eyebrow,.mono-label,.slabel{font-family:var(--mono)}
 .page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.5rem}

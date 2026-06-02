@@ -24,7 +24,8 @@ body{padding:0 0 3rem}
 .fn-cell.c-intv{border-top:3px solid #185fa5}
 .fn-cell.c-out{border-top:3px solid var(--teal)}
 
-.board{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
+/* v2.0 Phase 4a: wider column gap to match cab-page width */
+.board{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
 @media(max-width:1080px){.board{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:680px){.board{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:460px){.board{grid-template-columns:1fr}}
@@ -35,7 +36,8 @@ body{padding:0 0 3rem}
 .col-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
 .d-save{background:var(--bds)}.d-prep{background:#ef9f27}.d-sub{background:var(--blue)}.d-await{background:var(--purple-t)}.d-intv{background:#185fa5}.d-out{background:var(--teal)}
 .col-count{font-size:12.5px;font-weight:600;padding:1px 8px;border-radius:999px;background:var(--bg2);color:var(--t2)}
-.pcard{display:block;background:var(--bg2);border:.5px solid var(--bd);border-radius:var(--r1);padding:.6rem .65rem;margin-bottom:.5rem;text-decoration:none;color:var(--t1);transition:border-color .12s,background .12s}
+/* v2.0 Phase 4a: more air between Pipeline cards (per mockup) */
+.pcard{display:block;background:var(--bg2);border:.5px solid var(--bd);border-radius:var(--r1);padding:.75rem .85rem;margin-bottom:.65rem;text-decoration:none;color:var(--t1);transition:border-color .12s,background .12s}
 .pcard:hover{border-color:var(--bds);background:var(--bg3)}
 .pc-name{font-size:12.5px;font-weight:600;line-height:1.3;margin-bottom:2px}
 .pc-org{font-size:12.5px;color:var(--t3);margin-bottom:.35rem}
