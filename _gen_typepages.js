@@ -93,9 +93,9 @@ ${CSS}
 html.dark .bx-new{background:#ff5a3c;color:#1a1a1a}
 .browse-card.is-new{border-left:3px solid #d63a1f}
 .bx-ni-badge{font-size:10px;font-weight:600;padding:2px 8px;border-radius:999px;background:var(--bg2);color:var(--t3);border:.5px solid var(--bd);white-space:nowrap}
-.bx-ni-btn{font-size:11px;padding:4px 10px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t3);cursor:pointer;font-family:var(--fn);margin-top:.4rem;margin-right:.4rem}
-.bx-ni-btn:hover{background:var(--bg2);color:var(--t1)}
-.bx-ni-btn.on{background:var(--bg2);color:var(--t1);border-color:var(--bds)}
+.bx-ni-btn{font-size:11px;font-weight:600;color:var(--red-t);background:var(--red-bg);border:1px solid var(--red);padding:4px 12px;border-radius:999px;cursor:pointer;font-family:var(--fn);white-space:nowrap}
+.bx-ni-btn:hover{background:var(--red);color:#fff}
+.bx-ni-btn.on{background:var(--red);color:#fff}
 .browse-card.is-ni{opacity:.7}
 .browse-card.is-ni:hover{opacity:1}
 .bx-urg{font-size:10px;font-weight:700;padding:2px 8px;border-radius:999px;white-space:nowrap}

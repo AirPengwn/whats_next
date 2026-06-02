@@ -55,12 +55,14 @@ a:hover{text-decoration:underline}
 
 .item-actions{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin-top:.25rem}
 .act-link{font-size:12px;color:var(--blue)}
-.act-btn{font-size:11px;font-weight:500;color:var(--blue);background:var(--blue-bg);border:.5px solid var(--blue-bg);padding:4px 12px;border-radius:999px;cursor:pointer;font-family:var(--fn)}
-.act-btn:hover{background:var(--bg);color:var(--blue);border-color:var(--blue)}
-.browse-save-btn{font-size:11px;font-weight:600;color:var(--teal-t);background:var(--teal-bg);border:1px solid var(--teal);padding:4px 12px;border-radius:999px;cursor:pointer;font-family:var(--fn);white-space:nowrap}
-.browse-save-btn:hover{background:var(--teal);color:#fff}
-.browse-save-btn.saved{background:var(--teal);color:#fff}
-.browse-save-btn.saved:hover{background:var(--teal-bg);color:var(--teal-t)}
+/* Three card-action pills — same size/font, distinct colors:
+   Details = blue (info) · Not interested = red · Save = amber/gold (★) */
+.act-btn{font-size:11px;font-weight:600;color:var(--blue);background:var(--blue-bg);border:1px solid var(--blue);padding:4px 12px;border-radius:999px;cursor:pointer;font-family:var(--fn);white-space:nowrap}
+.act-btn:hover{background:var(--blue);color:#fff}
+.browse-save-btn{font-size:11px;font-weight:600;color:var(--amber-t);background:var(--amber-bg);border:1px solid var(--amber);padding:4px 12px;border-radius:999px;cursor:pointer;font-family:var(--fn);white-space:nowrap}
+.browse-save-btn:hover{background:var(--amber);color:#fff}
+.browse-save-btn.saved{background:var(--amber);color:#fff}
+.browse-save-btn.saved:hover{background:var(--amber-bg);color:var(--amber-t)}
 .act-sep{color:var(--bds)}
 .act-remove{font-size:12px;color:var(--t3);background:none;border:none;cursor:pointer;padding:0;font-family:var(--fn);margin-left:auto}
 .act-remove:hover{color:#c0392b}
@@ -1126,9 +1128,9 @@ initPrimaryBtn();
 html.dark .bx-new{background:#ff5a3c;color:#1a1a1a}
 .browse-card.is-new{border-left:3px solid #d63a1f}
 .bx-ni-badge{font-size:10px;font-weight:600;padding:2px 8px;border-radius:999px;background:var(--bg2);color:var(--t3);border:.5px solid var(--bd);white-space:nowrap}
-.bx-ni-btn{font-size:11px;padding:4px 10px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t3);cursor:pointer;font-family:var(--fn);margin-top:.4rem;margin-right:.4rem}
-.bx-ni-btn:hover{background:var(--bg2);color:var(--t1)}
-.bx-ni-btn.on{background:var(--bg2);color:var(--t1);border-color:var(--bds)}
+.bx-ni-btn{font-size:11px;font-weight:600;color:var(--red-t);background:var(--red-bg);border:1px solid var(--red);padding:4px 12px;border-radius:999px;cursor:pointer;font-family:var(--fn);white-space:nowrap}
+.bx-ni-btn:hover{background:var(--red);color:#fff}
+.bx-ni-btn.on{background:var(--red);color:#fff}
 .browse-card.is-ni{opacity:.7}
 .browse-card.is-ni:hover{opacity:1}
 .bx-urg{font-size:10px;font-weight:700;padding:2px 8px;border-radius:999px;white-space:nowrap}
