@@ -35,6 +35,8 @@ a:hover{text-decoration:underline}
 .sec-count{font-weight:400}
 .item-card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:.9rem 1.1rem;margin-bottom:.55rem}
 .item-card.done{opacity:.45}
+/* v2.17: saved-item card flagged with broken link */
+.item-card.is-bl{border-left:3px solid var(--red)}
 .item-row1{display:flex;align-items:flex-start;gap:.75rem}
 .item-check{width:17px;height:17px;border:1.5px solid var(--bds);border-radius:4px;cursor:pointer;appearance:none;-webkit-appearance:none;background:transparent;flex-shrink:0;margin-top:2px}
 .item-check:checked{background:var(--teal);border-color:var(--teal)}
@@ -721,11 +723,25 @@ function buildDetailPanel(it,idPrefix){
   if(lnkDiv.children.length) detail.appendChild(lnkDiv);
   detail.appendChild(el('div','id-section-label','Section'));
   var oi=el('div','id-meta-item'); oi.textContent=(it.src_label||it.cat||''); detail.appendChild(oi);
+  /* v2.17: "Mark link broken" toggle on saved-item detail panel too (matches Browse) */
+  var _blFlagged = !!(window.BL && BL.has(it.id));
+  var _blBox = document.createElement('div'); _blBox.className='id-bl-box';
+  _blBox.style.cssText='margin-top:.85rem;padding:.5rem .75rem;border:.5px dashed '+(_blFlagged?'var(--red)':'var(--bds)')+';border-radius:var(--r1);font-size:12.5px;color:'+(_blFlagged?'var(--red-t)':'var(--t3)')+';display:flex;align-items:center;gap:8px;background:'+(_blFlagged?'var(--red-bg)':'transparent');
+  var _blChk = document.createElement('input'); _blChk.type='checkbox'; _blChk.id='blchk-list-'+it.id;
+  _blChk.checked = _blFlagged;
+  _blChk.style.cssText='accent-color:var(--red);cursor:pointer;width:15px;height:15px;flex-shrink:0';
+  _blChk.onchange = function(){ if(window.BL){ BL.toggle(it.id); if(typeof renderList==='function') renderList(); if(typeof renderBrowse==='function') renderBrowse(); } };
+  var _blLbl = document.createElement('label'); _blLbl.htmlFor = 'blchk-list-'+it.id;
+  _blLbl.innerHTML = '<strong style="font-weight:600">Link broken?</strong> &mdash; flag for next sweep to verify &amp; update';
+  _blLbl.style.cssText='cursor:pointer;flex:1';
+  _blBox.appendChild(_blChk); _blBox.appendChild(_blLbl);
+  detail.appendChild(_blBox);
   return detail;
 }
 function makeListCard(it){
   it=mergeWithAll(it);
-  var card=el('div','item-card'+(it._done?' done':''));
+  var _blOnCard = !!(window.BL && BL.has(it.id));
+  var card=el('div','item-card'+(it._done?' done':'')+(_blOnCard?' is-bl':''));
   card.id='card-'+it.id;
 
   var row=el('div','item-row1');
@@ -743,6 +759,7 @@ function makeListCard(it){
   var cp=el('span','ip '+catCls(it.cat||it.type)); cp.textContent=catLbl(it.cat||it.type); pills.appendChild(cp);
   if(it.badge){ var bp=el('span','ip ip-next',it.badge); pills.appendChild(bp); }
   (it.pills||[]).slice(0,3).forEach(function(p){ pills.appendChild(el('span','ip ip-next',p)); });
+  if(_blOnCard){ pills.appendChild(el('span','bx-bl-badge','⚠ Link reported broken')); }
   main.appendChild(pills);
 
   var meta=el('div','item-meta');
