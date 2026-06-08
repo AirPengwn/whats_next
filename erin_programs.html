@@ -436,13 +436,15 @@ function buildBrowseDetailX(it){
       || /americanyouthworks\.org\/what-we-do\/cc\/open-positions|americorps-member-positions/i.test(h)
       || /ncwildlife\.gov\/about|deq\.nc\.gov\/about\/work-deq|oshr\.nc\.gov\/work-nc/i.test(h);
   }
+  /* v2.30: LINKS section header — matches other id-section-label styling */
+  if(_ext.length){ d.appendChild(el('div','id-section-label','Links')); }
   if(_ext.some(function(l){return _isList(l.href);})){
     var _ln = el('div','id-list-note');
-    _ln.style.cssText='font-size:12.5px;color:var(--amber-t);background:var(--amber-bg);border-left:3px solid var(--amber);padding:.35rem .7rem;margin-top:.55rem;border-radius:0 var(--r1) var(--r1) 0;font-family:var(--mono);letter-spacing:.02em;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis';
+    _ln.style.cssText='font-size:12.5px;color:var(--amber-t);background:var(--amber-bg);border-left:3px solid var(--amber);padding:.35rem .7rem;margin-top:.2rem;border-radius:0 var(--r1) var(--r1) 0;font-family:var(--mono);letter-spacing:.02em;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis';
     _ln.innerHTML='📋 List page &mdash; search results, not one specific job';
     d.appendChild(_ln);
   }
-  var ln=document.createElement('div'); ln.style.cssText='display:flex;flex-wrap:wrap;gap:6px;margin-top:.5rem';
+  var ln=document.createElement('div'); ln.style.cssText='display:flex;flex-wrap:wrap;gap:6px;margin-top:.3rem';
   _ext.forEach(function(l){
     var a=document.createElement('a');
     a.className='id-link'+(l.primary?' id-link-primary':'');
