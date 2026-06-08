@@ -1,15 +1,6 @@
 # Weekly opportunity sweep — 2026-06-08
 
-**Added 4 new** opportunities:
-- Coastal & Fisheries Ecology Internship — Baker Lab — _Strong_ · Southeast & Appalachia · deadline: June 14, 2026
-- Environmental Consultant — Mining, Mitigation & Water Resource Permitting — _Reach / review_ · Southeast & Appalachia · deadline: June 24, 2026
-- Preserve Manager — Northern California — _Reach / review_ · West Coast / Pacific · deadline: June 19, 2026 (open until filled)
-- ORISE Wetland Plant Ecology Fellowship — EPA Pacific Ecological Systems Division — _Reach / review_ · West Coast / Pacific · deadline: Rolling — contact first
-
-**⚠ Review these (reach / weak fit — your call whether to keep):**
-- Environmental Consultant — Mining, Mitigation & Water Resource Permitting — _Reach / review_ · Southeast & Appalachia · deadline: June 24, 2026
-- Preserve Manager — Northern California — _Reach / review_ · West Coast / Pacific · deadline: June 19, 2026 (open until filled)
-- ORISE Wetland Plant Ecology Fellowship — EPA Pacific Ecological Systems Division — _Reach / review_ · West Coast / Pacific · deadline: Rolling — contact first
+**Added 0 new** opportunities.
 
 **Updated 0** (deadline / status / description changed).
 

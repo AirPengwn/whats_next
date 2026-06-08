@@ -772,27 +772,11 @@
     "badge": "Good fit",
     "pills": [],
     "id": "item-011",
-    "url": "https://www.uwyo.edu/haub/",
-    "url_label": "🔍 UW Haub School",
+    "url": "https://www.colorado.edu/instaar/",
+    "url_label": "CU Boulder INSTAAR",
     "contact": "Start at the",
     "desc": "The single strongest overall match. Active MS/PhD openings in wetland remote sensing (Landscape Modeling Lab, Aug 2026) and water governance research (Water, Environment & Society Group). 40–50 active assistantships per semester across Ecosystem Science, Ecology, and related departments. Full fees + stipend + health insurance beginning 2025–26.",
     "links": [
-      {
-        "href": "https://warnercnr.colostate.edu/ess/graduate-programs/graduate-research-opportunities/",
-        "label": "🔍 CSU active grad opportunities"
-      },
-      {
-        "href": "https://ecology.colostate.edu/assistantships/",
-        "label": "🔍 GDPE assistantships"
-      },
-      {
-        "href": "https://www.uwyo.edu/haub/",
-        "label": "🔍 UW Haub School"
-      },
-      {
-        "href": "https://www.google.com/search?q=University+Wyoming+Forest+Forensics+Dendroecology+Lab+LiDAR+wildfire+MS+assistantship+2026",
-        "label": "🔍 Search UWyo wildfire MS position"
-      },
       {
         "href": "https://www.colorado.edu/instaar/",
         "label": "🔗 CU Boulder INSTAAR"
@@ -884,26 +868,18 @@
     "badge": "WICHE discount",
     "pills": [],
     "id": "item-013",
-    "url": "https://www.gri.msstate.edu/",
-    "url_label": "🔍 MSU GRI website",
+    "url": "https://www.umt.edu/environmental-studies/graduate/",
+    "url_label": "UM Environmental Studies — Graduate",
     "contact": "Browse INSTAAR faculty at",
     "desc": "MSU's Geosystems Research Institute (GRI) is offering fully funded MS and PhD research assistantships in GIS and Health Geography, starting Spring or Fall 2026. Projects use geospatial technology and spatial analysis for public health, environmental health, and epidemiology — a strong cross-disciplinary match for Erin's GIS + epidemiology background.",
     "links": [
       {
-        "href": "https://www.gri.msstate.edu/",
-        "label": "🔍 MSU GRI website"
-      },
-      {
-        "href": "https://www.google.com/search?q=Mississippi+State+Geosystems+Research+Institute+GIS+MS+PhD+assistantship+2026",
-        "label": "🔍 Search MSU GRI openings"
-      },
-      {
         "href": "https://www.umt.edu/environmental-studies/graduate/",
-        "label": "🔍 UM Environmental Studies grad"
+        "label": "🔗 UM Environmental Studies — Graduate"
       },
       {
         "href": "https://www.wiche.edu/tuition-savings/wrgp/",
-        "label": "🔍 WICHE tuition savings info"
+        "label": "🔗 WICHE WRGP tuition info"
       },
       {
         "href": "https://www.umt.edu/environmental-studies/people/",
@@ -1821,19 +1797,13 @@
     ],
     "id": "item-025",
     "location": "Lakewood, CO (Denver area)",
-    "url": "https://www.eroresources.com/careers",
-    "url_label": "🔍 ERO Resources careers page",
-    "url2": "https://www.google.com/search?q=ERO+Resources+Corporation+natural+resources+ecology+internship+2026",
-    "url2_label": "🔍 Search ERO Resources internship 2026",
+    "url": "https://www.kci.com/careers/",
+    "url_label": "KCI Technologies careers",
     "desc": "ERO Resources is a Denver-area environmental consulting firm seeking ecology interns to assist with natural resource assessments, wetland delineations, and related field work. Duties include writing natural resource assessments, wetland delineations, and field surveys. Good match for Erin's GEOL 455 Army Corps delineation training and Colorado geographic interest.",
     "links": [
       {
-        "href": "https://www.eroresources.com/careers",
-        "label": "🔍 ERO Resources careers page"
-      },
-      {
-        "href": "https://www.google.com/search?q=ERO+Resources+Corporation+natural+resources+ecology+internship+2026",
-        "label": "🔍 Search ERO Resources internship 2026"
+        "href": "https://www.kci.com/careers/",
+        "label": "🔗 KCI Technologies careers"
       }
     ],
     "cycle": "current",
@@ -1894,14 +1864,6 @@
     "desc": "KCI Technologies was seeking a natural resources intern in Nashville, TN to assist with vegetative monitoring, stream surveying, identification and delineation of waters in Tennessee and surrounding states. Strong match for Erin's wetlands and water quality background with Appalachian-adjacent geography.",
     "links": [
       {
-        "href": "https://www.kci.com/careers/",
-        "label": "🔍 KCI Technologies careers page"
-      },
-      {
-        "href": "https://www.google.com/search?q=KCI+Technologies+natural+resources+intern+Nashville+Tennessee+2026",
-        "label": "🔍 Search KCI Nashville internship 2026"
-      },
-      {
         "href": "https://jobs.jobvite.com/earthjustice/job/ovZ3zfwQ",
         "label": "🔗 Earthjustice Fall 2026 Science Internship (Jobvite)"
       },
@@ -1927,7 +1889,9 @@
     "status": {
       "kind": "s-expired",
       "label": "Expired — June 8, 2026"
-    }
+    },
+    "url": "https://jobs.jobvite.com/earthjustice/job/ovZ3zfwQ",
+    "url_label": "Earthjustice Fall 2026 Science Internship (Jobvite)"
   },
   {
     "title": "Research Internship — Wetland Ecology & Water Quality",
@@ -2493,8 +2457,8 @@
     "desc": "CONFIRMED OPEN May 2026. WSSI seeks an environmental compliance technician for their Raleigh, NC team. BS in Environmental Studies or related field required; at least 1 year experience in environmental compliance — Erin's capstone fieldwork qualifies. Responsibilities: SWPPP inspections and reporting, coordination with federal and state resource agencies on wetlands, erosion/sediment control, stormwater compliance, and BMP construction monitoring. WSSI is an award-winning wetland and environmental consulting firm with Gainesville VA, Millersville MD, Raleigh NC, and Richmond VA offices. Offers 401k, medical, dental, vision, life insurance. Entry-level path into wetland permitting and consulting with a firm that does high-quality work.",
     "links": [
       {
-        "href": "https://www.wildlandseng.com/career-opportunities/",
-        "label": "🔗 Apply / View posting &rarr;"
+        "href": "https://www.wetlands.com/careers/current-openings/",
+        "label": "🔗 WSSI current openings"
       }
     ],
     "status": {
@@ -2514,7 +2478,7 @@
     "cat": "Career Positions",
     "src": "erin_jobs.html",
     "src_label": "Career Positions",
-    "url": "https://res.us/careers",
+    "url": "https://res.us/home/people/open-positions/",
     "deadline": "Rolling — check res.us/careers for current openings",
     "start": "",
     "body": "RES is one of the largest ecological restoration companies in the US, specializing in stream and wetland mitigation banking, habitat creation, and restoration ecology. They actively hire entry-level scientists for field crews and project support roles in the Southeast. Work includes wetland and stream restoration monitoring, invasive species control, reforestation, and GIS analysis. RES has a strong NC and Southeast presence and recruits from Appalachian-region schools. Work is purpose-driven, field-heavy, and directly relevant to Erin's restoration ecology and water quality background. Set a job alert at res.us/careers.",
@@ -2528,8 +2492,8 @@
     "desc": "RES is one of the largest ecological restoration companies in the US, specializing in stream and wetland mitigation banking, habitat creation, and restoration ecology. They actively hire entry-level scientists for field crews and project support roles in the Southeast. Work includes wetland and stream restoration monitoring, invasive species control, reforestation, and GIS analysis. RES has a strong NC and Southeast presence and recruits from Appalachian-region schools. Work is purpose-driven, field-heavy, and directly relevant to Erin's restoration ecology and water quality background. Set a job alert at res.us/careers.",
     "links": [
       {
-        "href": "https://www.wetlands.com/careers/current-openings/",
-        "label": "🔗 Apply / View posting &rarr;"
+        "href": "https://res.us/home/people/open-positions/",
+        "label": "🔗 RES — Open Positions"
       }
     ],
     "status": {
@@ -2538,7 +2502,8 @@
     },
     "cycle": "current",
     "deadline_kind": "rolling",
-    "region": "Southeast & Appalachia"
+    "region": "Southeast & Appalachia",
+    "url_label": "RES — Open Positions"
   },
   {
     "id": "item-084",
@@ -2562,8 +2527,8 @@
     "desc": "RK&K seeks an entry-level Natural Resource Scientist (Wetland Scientist I) with a strong interest in wetlands and field-based environmental science for their Raleigh, NC office. Role supports transportation and infrastructure projects through wetland delineations, stream assessments, natural resource reports, and Section 404/401 permitting. RK&K is a mid-size engineering and consulting firm with significant NC DOT work — reliable, growing, steady employer. Erin's GEOL 423, ENVH 310, GEOL 309 (Wetland Delineation) coursework are directly applicable. Raleigh location aligns with NC professional network.",
     "links": [
       {
-        "href": "https://res.us/careers",
-        "label": "🔗 Apply / View posting &rarr;"
+        "href": "https://myjobs.adp.com/rkkcareers",
+        "label": "🔗 RK&K — All Openings (ADP portal)"
       }
     ],
     "status": {
@@ -2572,7 +2537,8 @@
     },
     "cycle": "current",
     "deadline_kind": "rolling",
-    "region": "Southeast & Appalachia"
+    "region": "Southeast & Appalachia",
+    "url_label": "RK&K Engineering careers"
   },
   {
     "title": "Hydrologic Technician / Environmental Science Technician",
