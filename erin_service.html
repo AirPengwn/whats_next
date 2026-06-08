@@ -415,18 +415,27 @@ function buildBrowseDetailX(it){
   if(it.src){ var as=document.createElement('a'); as.className='id-link'; as.href=it.src; as.target='_blank'; as.textContent='Open '+(it.src_label||'source page'); ln.appendChild(as); }
   if(it.id){ var ap=document.createElement('a'); ap.className='id-link'; ap.href='erin_packet.html?ml='+encodeURIComponent(it.id); ap.innerHTML='&#128424; Print packet'; ln.appendChild(ap); }
   if(ln.children.length) d.appendChild(ln);
-  /* v2.16: "Mark link broken" toggle — primary-gated, persists to JSONbin so
-     the weekly sweep can find flagged items, verify URLs, and clear flags. */
+  /* v2.16/v2.18: "Mark link broken" toggle — primary-gated. On read-only
+     devices the box is read-only (shows flag state from cloud, can't toggle). */
   var blFlagged = !!(window.BL && BL.has(it.id));
-  var blBox = document.createElement('div'); blBox.className='id-bl-box';
+  var blReadOnly = document.documentElement.classList.contains('erin-readonly');
+  var blBox = document.createElement('div'); blBox.className='id-bl-box'+(blReadOnly?' ro-bl':'');
   blBox.style.cssText='margin-top:.85rem;padding:.5rem .75rem;border:.5px dashed '+(blFlagged?'var(--red)':'var(--bds)')+';border-radius:var(--r1);font-size:12.5px;color:'+(blFlagged?'var(--red-t)':'var(--t3)')+';display:flex;align-items:center;gap:8px;background:'+(blFlagged?'var(--red-bg)':'transparent');
   var blChk = document.createElement('input'); blChk.type='checkbox'; blChk.id='blchk-'+it.id;
   blChk.checked = blFlagged;
-  blChk.style.cssText='accent-color:var(--red);cursor:pointer;width:15px;height:15px;flex-shrink:0';
-  blChk.onchange = function(){ if(window.BL){ BL.toggle(it.id); if(typeof renderBrowse==='function') renderBrowse(); } };
+  blChk.disabled = blReadOnly;
+  blChk.style.cssText='accent-color:var(--red);width:15px;height:15px;flex-shrink:0;cursor:'+(blReadOnly?'not-allowed':'pointer')+';opacity:'+(blReadOnly?'.6':'1');
+  blChk.onchange = function(){ if(blReadOnly) return; if(window.BL){ BL.toggle(it.id); if(typeof renderBrowse==='function') renderBrowse(); } };
   var blLbl = document.createElement('label'); blLbl.htmlFor = 'blchk-'+it.id;
-  blLbl.innerHTML = '<strong style="font-weight:600">Link broken?</strong> &mdash; flag for next sweep to verify &amp; update';
-  blLbl.style.cssText='cursor:pointer;flex:1';
+  if(blReadOnly){
+    blLbl.innerHTML = blFlagged
+      ? '<strong style="font-weight:600">Link flagged broken</strong> &mdash; set on Erin&rsquo;s primary device'
+      : '<strong style="font-weight:600">Link broken?</strong> &mdash; flag from Erin&rsquo;s primary device';
+    blLbl.style.cssText='flex:1;cursor:default';
+  } else {
+    blLbl.innerHTML = '<strong style="font-weight:600">Link broken?</strong> &mdash; flag for next sweep to verify &amp; update';
+    blLbl.style.cssText='cursor:pointer;flex:1';
+  }
   blBox.appendChild(blChk); blBox.appendChild(blLbl);
   d.appendChild(blBox);
   return d;

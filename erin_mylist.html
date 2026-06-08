@@ -723,17 +723,20 @@ function buildDetailPanel(it,idPrefix){
   if(lnkDiv.children.length) detail.appendChild(lnkDiv);
   detail.appendChild(el('div','id-section-label','Section'));
   var oi=el('div','id-meta-item'); oi.textContent=(it.src_label||it.cat||''); detail.appendChild(oi);
-  /* v2.17: "Mark link broken" toggle on saved-item detail panel too (matches Browse) */
+  /* v2.17/v2.18: broken-link toggle on saved items — read-only on non-primary */
   var _blFlagged = !!(window.BL && BL.has(it.id));
-  var _blBox = document.createElement('div'); _blBox.className='id-bl-box';
+  var _blRO = document.documentElement.classList.contains('erin-readonly');
+  var _blBox = document.createElement('div'); _blBox.className='id-bl-box'+(_blRO?' ro-bl':'');
   _blBox.style.cssText='margin-top:.85rem;padding:.5rem .75rem;border:.5px dashed '+(_blFlagged?'var(--red)':'var(--bds)')+';border-radius:var(--r1);font-size:12.5px;color:'+(_blFlagged?'var(--red-t)':'var(--t3)')+';display:flex;align-items:center;gap:8px;background:'+(_blFlagged?'var(--red-bg)':'transparent');
   var _blChk = document.createElement('input'); _blChk.type='checkbox'; _blChk.id='blchk-list-'+it.id;
-  _blChk.checked = _blFlagged;
-  _blChk.style.cssText='accent-color:var(--red);cursor:pointer;width:15px;height:15px;flex-shrink:0';
-  _blChk.onchange = function(){ if(window.BL){ BL.toggle(it.id); if(typeof renderList==='function') renderList(); if(typeof renderBrowse==='function') renderBrowse(); } };
+  _blChk.checked = _blFlagged; _blChk.disabled = _blRO;
+  _blChk.style.cssText='accent-color:var(--red);width:15px;height:15px;flex-shrink:0;cursor:'+(_blRO?'not-allowed':'pointer')+';opacity:'+(_blRO?'.6':'1');
+  _blChk.onchange = function(){ if(_blRO) return; if(window.BL){ BL.toggle(it.id); if(typeof renderList==='function') renderList(); if(typeof renderBrowse==='function') renderBrowse(); } };
   var _blLbl = document.createElement('label'); _blLbl.htmlFor = 'blchk-list-'+it.id;
-  _blLbl.innerHTML = '<strong style="font-weight:600">Link broken?</strong> &mdash; flag for next sweep to verify &amp; update';
-  _blLbl.style.cssText='cursor:pointer;flex:1';
+  _blLbl.innerHTML = _blRO
+    ? (_blFlagged ? '<strong style="font-weight:600">Link flagged broken</strong> &mdash; set on Erin&rsquo;s primary device' : '<strong style="font-weight:600">Link broken?</strong> &mdash; flag from Erin&rsquo;s primary device')
+    : '<strong style="font-weight:600">Link broken?</strong> &mdash; flag for next sweep to verify &amp; update';
+  _blLbl.style.cssText=_blRO?'flex:1;cursor:default':'cursor:pointer;flex:1';
   _blBox.appendChild(_blChk); _blBox.appendChild(_blLbl);
   detail.appendChild(_blBox);
   return detail;
@@ -1348,18 +1351,20 @@ function buildBrowseDetailX(it){
   if(it.src){ var as=document.createElement('a'); as.className='id-link'; as.href=it.src; as.target='_blank'; as.textContent='Open '+(it.src_label||'source page'); ln.appendChild(as); }
   if(it.id){ var ap=document.createElement('a'); ap.className='id-link'; ap.href='erin_packet.html?ml='+encodeURIComponent(it.id); ap.innerHTML='&#128424; Print packet'; ln.appendChild(ap); }
   if(ln.children.length) d.appendChild(ln);
-  /* v2.16: "Mark link broken" toggle — primary-gated; persists to JSONbin
-     so weekly sweep can verify the URL and fix it. */
+  /* v2.16/v2.18: broken-link toggle — read-only on non-primary devices */
   var _blFlagged = !!(window.BL && BL.has(it.id));
-  var _blBox = document.createElement('div'); _blBox.className='id-bl-box';
+  var _blRO = document.documentElement.classList.contains('erin-readonly');
+  var _blBox = document.createElement('div'); _blBox.className='id-bl-box'+(_blRO?' ro-bl':'');
   _blBox.style.cssText='margin-top:.85rem;padding:.5rem .75rem;border:.5px dashed '+(_blFlagged?'var(--red)':'var(--bds)')+';border-radius:var(--r1);font-size:12.5px;color:'+(_blFlagged?'var(--red-t)':'var(--t3)')+';display:flex;align-items:center;gap:8px;background:'+(_blFlagged?'var(--red-bg)':'transparent');
   var _blChk = document.createElement('input'); _blChk.type='checkbox'; _blChk.id='blchk-'+it.id;
-  _blChk.checked = _blFlagged;
-  _blChk.style.cssText='accent-color:var(--red);cursor:pointer;width:15px;height:15px;flex-shrink:0';
-  _blChk.onchange = function(){ if(window.BL){ BL.toggle(it.id); if(typeof renderBrowse==='function') renderBrowse(); if(typeof renderList==='function') renderList(); } };
+  _blChk.checked = _blFlagged; _blChk.disabled = _blRO;
+  _blChk.style.cssText='accent-color:var(--red);width:15px;height:15px;flex-shrink:0;cursor:'+(_blRO?'not-allowed':'pointer')+';opacity:'+(_blRO?'.6':'1');
+  _blChk.onchange = function(){ if(_blRO) return; if(window.BL){ BL.toggle(it.id); if(typeof renderBrowse==='function') renderBrowse(); if(typeof renderList==='function') renderList(); } };
   var _blLbl = document.createElement('label'); _blLbl.htmlFor = 'blchk-'+it.id;
-  _blLbl.innerHTML = '<strong style="font-weight:600">Link broken?</strong> &mdash; flag for next sweep to verify &amp; update';
-  _blLbl.style.cssText='cursor:pointer;flex:1';
+  _blLbl.innerHTML = _blRO
+    ? (_blFlagged ? '<strong style="font-weight:600">Link flagged broken</strong> &mdash; set on Erin&rsquo;s primary device' : '<strong style="font-weight:600">Link broken?</strong> &mdash; flag from Erin&rsquo;s primary device')
+    : '<strong style="font-weight:600">Link broken?</strong> &mdash; flag for next sweep to verify &amp; update';
+  _blLbl.style.cssText=_blRO?'flex:1;cursor:default':'cursor:pointer;flex:1';
   _blBox.appendChild(_blChk); _blBox.appendChild(_blLbl);
   d.appendChild(_blBox);
   return d;
