@@ -289,15 +289,15 @@
     "badge": "Good fit",
     "pills": [],
     "id": "item-018",
-    "url": "https://www.srel.uga.edu/",
-    "url_label": "🔍 SREL website",
+    "url": "https://srel.uga.edu/opportunities/",
+    "url_label": "SREL Opportunities",
     "extbody": "About SREL The Savannah River Ecology Laboratory has operated for over 70 years as a field station near Aiken, SC. Research spans aquatic ecology, herpetology, radioecology, and ecosystem science. Graduate students enroll in UGA's Odum School of Ecology or related departments while conducting research at the SREL facility. Research areas matching Erin's background Contaminant biogeochemistry and trace metal movement through wetland systems; aquatic-terrestrial linkages in southeastern ecosystems",
     "contact": "Browse faculty profiles at",
     "desc": "SREL is a long-established field station in Aiken, SC with strong aquatic and wetland ecology research. MS opportunities in terrestrial-aquatic linkages and contaminant ecology. Competitive stipend and tuition waiver; contact faculty directly to confirm current openings.",
     "links": [
       {
-        "href": "https://www.srel.uga.edu/",
-        "label": "🔍 SREL website"
+        "href": "https://srel.uga.edu/opportunities/",
+        "label": "🔗 SREL Opportunities"
       },
       {
         "href": "https://www.srel.uga.edu/people/",
@@ -329,15 +329,15 @@
     "badge": "Good fit",
     "pills": [],
     "id": "item-002",
-    "url": "https://www.srel.uga.edu/",
-    "url_label": "🔍 SREL website",
+    "url": "https://srel.uga.edu/opportunities/",
+    "url_label": "SREL Opportunities",
     "extbody": "About SREL The Savannah River Ecology Laboratory has operated for over 70 years as a field station near Aiken, SC. Research spans aquatic ecology, herpetology, radioecology, and ecosystem science. Graduate students enroll in UGA's Odum School of Ecology or related departments while conducting research at the SREL facility. Research areas matching Erin's background Contaminant biogeochemistry and trace metal movement through wetland systems; aquatic-terrestrial linkages in southeastern ecosystems",
     "contact": "Browse faculty profiles at",
     "desc": "SREL is a long-established field station in Aiken, SC with strong aquatic and wetland ecology research. MS opportunities in terrestrial-aquatic linkages and contaminant ecology. Competitive stipend and tuition waiver; contact faculty directly to confirm current openings.",
     "links": [
       {
-        "href": "https://www.srel.uga.edu/",
-        "label": "🔍 SREL website"
+        "href": "https://srel.uga.edu/opportunities/",
+        "label": "🔗 SREL Opportunities"
       },
       {
         "href": "https://www.srel.uga.edu/people/",
@@ -371,12 +371,12 @@
     "id": "item-003",
     "links": [
       {
-        "href": "https://www.usm.edu/gcrl/",
-        "label": "🔍 USM GCRL website"
+        "href": "https://gcrl.usm.edu/coastal_sciences/master_science.php",
+        "label": "🔗 GCRL — Coastal Sciences MS"
       },
       {
-        "href": "https://www.google.com/search?q=USM+Gulf+Coast+Research+Lab+MS+marine+science+assistantship+2026",
-        "label": "🔍 Search GCRL openings"
+        "href": "https://www.usm.edu/ocean-science-engineering/coastal-sciences-apply.php",
+        "label": "🔗 Apply — Coastal Sciences (USM)"
       }
     ],
     "more": "About GCRL The Gulf Coast Research Laboratory in Ocean Springs, MS is one of the premier marine science research stations on the Gulf Coast. Graduate students in the MS in Marine Science program are based at GCRL with access to coastal and estuarine research sites throughout Mississippi Sound and the northern Gulf. Research match Coastal restoration ecology, oyster reef dynamics, and estuarine water quality are active research areas. Erin's soil/water sampling skills, aquatic ecology background, and toxicology coursework are directly applicable to field work in these systems. Browse faculty at usm.edu/gcrl/faculty-staff and contact faculty whose work aligns with water quality or coastal ecology interests.",
@@ -420,17 +420,17 @@
     "badge": "Open position",
     "pills": [],
     "id": "item-010",
-    "url": "https://www.uwyo.edu/haub/",
-    "url_label": "🔍 UW Haub School",
+    "url": "https://www.uwyo.edu/haub/academics/graduate-students/",
+    "url_label": "Haub School — Graduate Programs",
     "desc": "R1 university with robust wildlife ecology and natural resources programs. MS assistantship value ~$27,500 total (stipend + tuition + health insurance). Wyoming Cooperative Fish & Wildlife Research Unit has active funded positions. Priority deadline: March 1.",
     "links": [
       {
-        "href": "https://www.uwyo.edu/haub/",
-        "label": "🔍 UW Haub School"
+        "href": "https://www.uwyo.edu/haub/academics/graduate-students/",
+        "label": "🔗 Haub School — Graduate Programs"
       },
       {
-        "href": "https://wyocoopunit.org/",
-        "label": "🔗 Wyoming CFWRU"
+        "href": "https://wyocoopunit.org/news",
+        "label": "🔗 Wyoming Coop Unit — News & opportunities"
       },
       {
         "href": "https://www.uwyo.edu/haub/about-us/people/index.html",
@@ -465,12 +465,12 @@
     "desc": "R1 university with robust wildlife ecology and natural resources programs. MS assistantship value ~$27,500 total (stipend + tuition + health insurance). Wyoming Cooperative Fish & Wildlife Research Unit has active funded positions. Priority deadline: March 1.",
     "links": [
       {
-        "href": "https://www.uwyo.edu/haub/",
-        "label": "🔍 UW Haub School"
+        "href": "https://www.uwyo.edu/haub/academics/graduate-students/",
+        "label": "🔗 Haub School — Graduate Programs"
       },
       {
-        "href": "https://wyocoopunit.org/",
-        "label": "🔗 Wyoming CFWRU"
+        "href": "https://wyocoopunit.org/news",
+        "label": "🔗 Wyoming Coop Fish & Wildlife Unit — News & Open Positions"
       },
       {
         "href": "https://www.uwyo.edu/haub/about-us/people/index.html",
@@ -505,8 +505,8 @@
     "extbody": "Funded MS position (preferred start May 2026) studying Hurricane Helene forest damage and recovery in western NC Pisgah National Forest oak-hickory forests. Vegetation and wildlife inventory methods. Co-advised by Drs. Jodi Forrester & Chris Moorman (NC State) and Dr. Tara Keyser (USDA FS). This is the single best match for Erin's background.",
     "links": [
       {
-        "href": "https://cnr.ncsu.edu/fer/",
-        "label": "🔍 NC State Dept. of Forestry & Env. Resources"
+        "href": "https://cnr.ncsu.edu/fer/graduate/application-process/",
+        "label": "🔗 NC State FER — Graduate Application Process"
       }
     ],
     "more": "Why this is Erin's #1 match This project studies the same Hurricane Helene event that Erin researched for her senior capstone — just from a forest ecology rather than water quality angle. The field site (Pisgah National Forest near Asheville) is adjacent to where Erin conducted her Pigeon River Basin research. Her WCU background, Appalachian field experience, wildlife coursework, and NRM 479 mammalogy skills all directly support this position. She can honestly say she has studied the same event from a complementary angle — that's a compelling narrative. StipendFunded (rate TBD; NC State MS typically $18k–$23k) TuitionFull waiver StartMay 2026 preferred GRENot required by NC State 📅 Fall application deadline (aid)January 31 for financial aid; June 25 admission only 📅 Spring deadlineSeptember 30 (aid); November 25 (admission only) ⚠ Contact professor firstEmail Dr. Forrester to confirm position availability before applying Email Dr. Jodi Forrester: jodi_forrester@ncsu.eduSingle PDF: letter of interest + CV + unofficial transcripts + 3 references. Subject: \"Hurricane Helene MS position inquiry.\" Lead with the Pigeon River research connection in your opening paragraph.",
@@ -536,8 +536,8 @@
     "extbody": "Funded MS position (preferred start May 2026) studying Hurricane Helene forest damage and recovery in western NC Pisgah National Forest oak-hickory forests. Vegetation and wildlife inventory methods. Co-advised by Drs. Jodi Forrester & Chris Moorman (NC State) and Dr. Tara Keyser (USDA FS). This is the single best match for Erin's background.",
     "links": [
       {
-        "href": "https://cnr.ncsu.edu/fer/",
-        "label": "🔍 NC State Dept. of Forestry & Env. Resources"
+        "href": "https://cnr.ncsu.edu/fer/graduate/application-process/",
+        "label": "🔗 NC State FER — Graduate Application Process"
       }
     ],
     "more": "Why this is Erin's #1 match This project studies the same Hurricane Helene event that Erin researched for her senior capstone — just from a forest ecology rather than water quality angle. The field site (Pisgah National Forest near Asheville) is adjacent to where Erin conducted her Pigeon River Basin research. Her WCU background, Appalachian field experience, wildlife coursework, and NRM 479 mammalogy skills all directly support this position. She can honestly say she has studied the same event from a complementary angle — that's a compelling narrative. StipendFunded (rate TBD; NC State MS typically $18k–$23k) TuitionFull waiver StartMay 2026 preferred GRENot required by NC State 📅 Fall application deadline (aid)January 31 for financial aid; June 25 admission only 📅 Spring deadlineSeptember 30 (aid); November 25 (admission only) ⚠ Contact professor firstEmail Dr. Forrester to confirm position availability before applying Email Dr. Jodi Forrester: jodi_forrester@ncsu.eduSingle PDF: letter of interest + CV + unofficial transcripts + 3 references. Subject: \"Hurricane Helene MS position inquiry.\" Lead with the Pigeon River research connection in your opening paragraph.",
@@ -573,8 +573,8 @@
         "label": "🔍 Clemson FEC grad programs"
       },
       {
-        "href": "https://www.google.com/search?q=Clemson+Elmore+Lab+bird+Hurricane+Helene+MS+assistantship+2026",
-        "label": "🔍 Search Clemson Elmore Lab position"
+        "href": "https://eeb.uconn.edu/2025/11/07/phd-ms-research-assistantships-bird-response-to-disturbance-in-national-forests-of-north-carolina/",
+        "label": "🔗 PhD & MS posting — Bird response to disturbance (Elmore Lab)"
       }
     ],
     "more": "Position details (verify current status) The Elmore Lab was actively recruiting for both a PhD and MS student. The MS position involves coordinating a nest monitoring project studying nesting behavior and success of priority bird species in hurricane-disturbed vs. undisturbed forest areas. Students will have the opportunity to shape their thesis questions within the monitoring framework. Compensation package (if still available) MS stipend$30,000/yr (12-month) TuitionFull waiver ExtrasUniversity computer, conference/travel funding, publication costs Field locationPisgah National Forest, near Asheville, NC 📅 ApplicationRolling — apply immediately; review began immediately, continues until filled Start dateJanuary or May 2026 (verify if still open) Fit assessment Good match for Erin's NRM 479 (Mammalogy) field skills and NRM 330 wildlife management background. Bird focus is adjacent — she would need to convey transferable field skills. The Hurricane Helene connection and Appalachian fieldwork at WCU are strong talking points. Contact: jaelmor@clemson.edu with subject \"Bird response to disturbance graduate position.\" Send: letter of interest, CV, unofficial transcripts, and 3 references as a single PDF. Note: position review began immediately — confirm availability first.",
@@ -601,17 +601,17 @@
     "pills": [],
     "id": "item-017",
     "contact": "Contact:",
-    "url": "https://cfwe.auburn.edu/research/research-centers-cooperatives/",
-    "url_label": "Auburn CFWE — ACFWRU",
+    "url": "https://www.usgs.gov/programs/cooperative-research-units/alabama-cooperative-fish-and-wildlife-research-unit",
+    "url_label": "Alabama Coop Fish & Wildlife Research Unit (USGS)",
     "desc": "The Alabama Cooperative Fish & Wildlife Research Unit at Auburn has funded MS assistantships in wildlife survey design, fish ecology, and invasive species management. Strong southern field ecology tradition. Good match for wildlife management planning and mammalogy background.",
     "links": [
       {
-        "href": "https://cfwe.auburn.edu/research/research-centers-cooperatives/",
-        "label": "🔗 Auburn CFWE — ACFWRU"
+        "href": "https://www.usgs.gov/programs/cooperative-research-units/alabama-cooperative-fish-and-wildlife-research-unit",
+        "label": "🔗 Alabama Coop Fish & Wildlife Research Unit (USGS)"
       },
       {
-        "href": "https://www.google.com/search?q=Auburn+Alabama+Cooperative+Fish+Wildlife+Research+Unit+MS+assistantship+2026",
-        "label": "🔍 Search Auburn ACFWRU openings"
+        "href": "https://www.usgs.gov/programs/cooperative-research-units/alabama-cooperative-fish-and-wildlife-research-unit",
+        "label": "🔗 Alabama Coop Fish & Wildlife Research Unit (USGS)"
       }
     ],
     "status": {
@@ -638,12 +638,12 @@
     "desc": "The Alabama Cooperative Fish & Wildlife Research Unit at Auburn has funded MS assistantships in wildlife survey design, fish ecology, and invasive species management. Strong southern field ecology tradition. Good match for wildlife management planning and mammalogy background.",
     "links": [
       {
-        "href": "https://cfwe.auburn.edu/research/research-centers-cooperatives/",
-        "label": "🔗 Auburn CFWE — ACFWRU"
+        "href": "https://www.usgs.gov/programs/cooperative-research-units/alabama-cooperative-fish-and-wildlife-research-unit",
+        "label": "🔗 Alabama Coop Fish & Wildlife Research Unit (USGS)"
       },
       {
-        "href": "https://www.google.com/search?q=Auburn+Alabama+Cooperative+Fish+Wildlife+Research+Unit+MS+assistantship+2026",
-        "label": "🔍 Search Auburn ACFWRU openings"
+        "href": "https://www.usgs.gov/programs/cooperative-research-units/alabama-cooperative-fish-and-wildlife-research-unit",
+        "label": "🔗 Alabama Coop Fish & Wildlife Research Unit (USGS)"
       }
     ],
     "status": {
@@ -670,12 +670,12 @@
     "extbody": "Three-year funded MS research assistantship starting January 2026 in the Forest Hydrology and Soils Lab (Dr. Courtney Siegert). NSF-FIRE project investigating how back-to-back extreme weather events drive forest hydrology and flammability in the southeastern US. Fully funded: full tuition waiver + $22k stipend + health insurance + conference travel support.",
     "links": [
       {
-        "href": "https://www.forestry.msstate.edu/",
-        "label": "🔍 MSU Dept. of Forestry"
+        "href": "https://www.forestry.msstate.edu/people/cms977",
+        "label": "🔗 Dr. Courtney Siegert — Faculty page (MSU Forestry)"
       },
       {
-        "href": "https://www.google.com/search?q=Courtney+Siegert+Mississippi+State+Forest+Hydrology+Soils+Lab+NSF+graduate+assistantship",
-        "label": "🔍 Search Dr. Siegert lab"
+        "href": "https://www.siegert-hydrolab.com/",
+        "label": "🔗 Siegert Hydrolab — Forest Hydrology & Soils (lab site)"
       }
     ],
     "more": "Project details This is an NSF-FIRE funded project investigating how \"whiplashes\" (back-to-back extreme wet/dry events) in moisture patterns drive forest hydrology and flammability across southeastern landscapes. The student will work with an interdisciplinary team at MSU, NC State, and the USDA Forest Service. Work includes quantifying regional fuel loadings and conducting field-scale fuel moisture dynamic experiments. Funding Stipend$22,000/yr Duration3 years fully funded TuitionFull waiver Health insuranceIncluded Conference travelSupplemental funding available Start dateJanuary 2026 (may be filled — verify; ask about future openings) 📅 Fall 2026 deadlineDecember 1 domestic / October 1 international (for Dr. Siegert lab) ⚠ Contact firstEmail Dr. Siegert before applying to confirm funding availability Fit assessment Strong match for Erin's hydrology and water quality background (ENVH 310, GEOL 423), forest ecosystems exposure (NRM 330, NRM 351), and field experience. Applying to environmental science, hydrology, or forestry backgrounds explicitly welcome. If this specific position is filled, contact Dr. Siegert about future openings or related projects. Dr. Courtney Siegert — courtney.siegert@msstate.eduSubject: \"Application for Fire MS Assistantship.\" Send CV + brief statement of research experience. Ask about January 2026 status and any upcoming openings.",
@@ -701,18 +701,18 @@
     "badge": "Good fit",
     "pills": [],
     "id": "item-012",
-    "url": "https://www.cfr.msstate.edu/",
-    "url_label": "🔍 MSU College of Forest Resources",
+    "url": "https://www.gri.msstate.edu/opportunities.php",
+    "url_label": "GRI — Opportunities",
     "extbody": "About the program MSU's College of Forest Resources houses the Department of Wildlife, Fisheries and Aquaculture and the Department of Forestry under one roof, providing cross-disciplinary MS and PhD opportunities. The Forest and Wildlife Research Center (FWRC) is a state-funded research institute supporting graduate student projects. Key process note Contact faculty before applying. MSU's funding model allocates assistantships to faculty from research grants. Browse the CFR job board and facult",
     "contact": "Check the",
     "links": [
       {
-        "href": "https://www.gri.msstate.edu/",
-        "label": "🔍 MSU GRI website"
+        "href": "https://www.gri.msstate.edu/opportunities.php",
+        "label": "🔗 GRI — Opportunities"
       },
       {
-        "href": "https://www.google.com/search?q=Mississippi+State+Geosystems+Research+Institute+GIS+MS+PhD+assistantship+2026",
-        "label": "🔍 Search MSU GRI openings"
+        "href": "https://www.gri.msstate.edu/opportunities.php",
+        "label": "🔗 GRI Opportunities — graduate assistantships"
       }
     ],
     "more": "Position details Multiple MS and one PhD assistantship available. Research focuses on applying GIS and remote sensing to public health and environmental health challenges — including epidemiology, climate, and agriculture. Tools: ArcGIS, QGIS, R, Python. This is an unusual convergence of Erin's GIS coursework and her HSCC 472 (Epidemiology) background. Start datesSpring 2026 or Fall 2026 FundingFull assistantship (stipend + tuition) — confirm current rate Ideal backgroundGIS, environmental science, public health, data analytics Apply through MSU Graduate School portal. Mention GRI assistantship interest in statement of purpose. Contact GRI faculty directly via the GRI website to signal interest early.",
@@ -741,8 +741,8 @@
     "extbody": "The College of Forest Resources at MSU has active funded MS positions in fire ecology, forest hydrology, and wildlife. The Forest Ecology Lab (Dr. Ashley Schulz) periodically recruits MS students for southeastern forest ecology and restoration. Research assistantships typically include tuition waiver, stipend, and health insurance.",
     "links": [
       {
-        "href": "https://www.cfr.msstate.edu/",
-        "label": "🔍 MSU College of Forest Resources"
+        "href": "https://www.wildlifefisheries.msstate.edu/students/graduate-programs.php",
+        "label": "🔗 MSU Wildlife, Fisheries & Aquaculture — Graduate Programs"
       },
       {
         "href": "https://www.wildlifefisheries.msstate.edu/students/graduate-programs.php",
@@ -772,14 +772,14 @@
     "badge": "Good fit",
     "pills": [],
     "id": "item-011",
-    "url": "https://www.colorado.edu/instaar/",
-    "url_label": "CU Boulder INSTAAR",
+    "url": "https://www.colorado.edu/instaar/prospective-students",
+    "url_label": "INSTAAR — Prospective Students",
     "contact": "Start at the",
     "desc": "The single strongest overall match. Active MS/PhD openings in wetland remote sensing (Landscape Modeling Lab, Aug 2026) and water governance research (Water, Environment & Society Group). 40–50 active assistantships per semester across Ecosystem Science, Ecology, and related departments. Full fees + stipend + health insurance beginning 2025–26.",
     "links": [
       {
-        "href": "https://www.colorado.edu/instaar/",
-        "label": "🔗 CU Boulder INSTAAR"
+        "href": "https://www.colorado.edu/instaar/prospective-students",
+        "label": "🔗 INSTAAR — Prospective Students"
       },
       {
         "href": "https://www.colorado.edu/envs/graduate-studies/graduate-programs",
@@ -996,8 +996,8 @@
     "extbody": "NC State remains Erin's single strongest institutional match. Dr. Jodi Forrester's lab focuses on forest recovery from disturbance events in western NC — directly overlapping with Erin's Pigeon River capstone. Even if the specific May 2026 position is filled, Fall 2027 positions in the same lab or adjacent labs (Moorman Lab, wildlife; Scheller Lab, landscape ecology) are highly likely given ongoing Helene recovery funding cycles.",
     "links": [
       {
-        "href": "https://cnr.ncsu.edu/fer/",
-        "label": "🔍 NC State Forestry & Environmental Resources"
+        "href": "https://cnr.ncsu.edu/fer/academics/graduate/",
+        "label": "🔗 NC State FER — Graduate Programs"
       },
       {
         "href": "https://cnr.ncsu.edu/geospatial/academics/phd-in-geospatial-analytics/graduate-assistantships/",
@@ -1084,8 +1084,8 @@
         "label": "🔗 Purdue FNR — Prospective Graduate Students"
       },
       {
-        "href": "https://www.google.com/search?q=Purdue+Jo+Lab+soil+contamination+vegetation+MS+assistantship+2026+2027",
-        "label": "🔍 Search Purdue Jo Lab MS openings"
+        "href": "https://www.purdue.edu/fnr/insujo/join-us/",
+        "label": "🔗 Jo Lab at Purdue — Join Us (MS assistantship listing)"
       }
     ],
     "more": "Position details Dr. Katie Jo's lab studies how persistent pollutants affect above- and belowground vegetation structure, ecosystem resilience, and soil function. The Indiana Dunes project is an interdisciplinary, field-based contamination study — methodologically similar to the Pigeon River Basin lead analysis Erin completed for her senior capstone. Fall 2026 or Spring 2027 start; apply immediately if interested in the current cycle, or contact for Fall 2027 openings. Current deadlineMay 31, 2026 for current opening; position open until filled Fall 2027 appsTypically open October 2026; deadline ~January 2027 FundingFull RA — stipend + tuition (contact for current rate) GRE requiredContact department Email Dr. Katie Jo via Purdue FNR website — ag.purdue.edu/fnr. Lead with Pigeon River lead contamination connection and GEOL 423 cross-listed graduate coursework.",
@@ -1310,8 +1310,8 @@
         "label": "🔍 MSU College of Forest Resources job board"
       },
       {
-        "href": "https://www.gri.msstate.edu/",
-        "label": "🔍 MSU Geosystems Research Institute (GIS/health)"
+        "href": "https://www.wildlifefisheries.msstate.edu/students/graduate-programs.php",
+        "label": "🔗 MSU Wildlife, Fisheries & Aquaculture — Graduate Programs"
       }
     ],
     "more": "Two pathways at MSU WFA / FWRC: Wildlife, fisheries, and forest ecology RAs funded through extramural grants. Browse faculty and contact those working on mammalogy, southeastern wildlife, or aquatic ecology. Expect Fall 2027 apps to open September–October 2026. Geosystems Research Institute (GRI): Fully funded MS and PhD positions in GIS and environmental health — Spring or Fall 2026/2027 start. Erin's GIS + epidemiology combination is an unusually strong fit here. Contact GRI directly. WFA MS stipend$18,000–$22,000/yr + tuition waiver GRI fundingFull assistantship (stipend + tuition) — confirm current rate Fall 2027 appsTypically open October 2026; contact faculty first WFA faculty: wildlifefisheries.msstate.edu/faculty-staff · GRI: gri.msstate.edu",
@@ -1554,8 +1554,8 @@
     "desc": "Paid rolling internships in Dr. Sean Powers’ Fisheries Ecology Lab. Projects involve fish (bony fishes, sharks, rays) and shellfish in Mobile Bay and Gulf waters — sampling techniques, fisheries data collection, and lab processing. Preference for 6-month+ commitment. Access to the DISL research network, which is a feeder into the BOATS fellowship above. Apply directly through disl.edu/about/internships/.",
     "links": [
       {
-        "href": "https://www.disl.edu/university-programs/boats/",
-        "label": "Apply at DISL website →"
+        "href": "https://www.disl.edu/research/fisheries-ecology-research/",
+        "label": "🔗 DISL — Fisheries Ecology Research (Dr. Sean Powers lab)"
       }
     ],
     "metaLine": "Commitment: Prefer 6-month minimum  ·  Compensation: Paid  ·  Available: Throughout 2026 field season",
@@ -1797,13 +1797,13 @@
     ],
     "id": "item-025",
     "location": "Lakewood, CO (Denver area)",
-    "url": "https://www.kci.com/careers/",
-    "url_label": "KCI Technologies careers",
+    "url": "https://jobs.localjobnetwork.com/j/t-Water-Resources-Intern-e-KCI-Technologies-Inc-l-Nashville,-TN;-Rock-Hill,-SC-jobs-j84940603.html",
+    "url_label": "KCI — Natural Resources/Water Resources Intern (Nashville, TN)",
     "desc": "ERO Resources is a Denver-area environmental consulting firm seeking ecology interns to assist with natural resource assessments, wetland delineations, and related field work. Duties include writing natural resource assessments, wetland delineations, and field surveys. Good match for Erin's GEOL 455 Army Corps delineation training and Colorado geographic interest.",
     "links": [
       {
-        "href": "https://www.kci.com/careers/",
-        "label": "🔗 KCI Technologies careers"
+        "href": "https://jobs.localjobnetwork.com/j/t-Water-Resources-Intern-e-KCI-Technologies-Inc-l-Nashville,-TN;-Rock-Hill,-SC-jobs-j84940603.html",
+        "label": "🔗 KCI — Natural Resources/Water Resources Intern (Nashville, TN)"
       }
     ],
     "cycle": "current",
@@ -1831,12 +1831,12 @@
     "desc": "ERO Resources is a Denver-area environmental consulting firm seeking ecology interns to assist with natural resource assessments, wetland delineations, and related field work. Duties include writing natural resource assessments, wetland delineations, and field surveys. Good match for Erin's GEOL 455 Army Corps delineation training and Colorado geographic interest.",
     "links": [
       {
-        "href": "https://www.eroresources.com/careers",
-        "label": "🔍 ERO Resources careers page"
+        "href": "https://job-boards.greenhouse.io/eroresources/jobs/5078520008",
+        "label": "🔗 ERO Resources — Natural Resources Internship (Greenhouse)"
       },
       {
-        "href": "https://www.google.com/search?q=ERO+Resources+Corporation+natural+resources+ecology+internship+2026",
-        "label": "🔍 Search ERO Resources internship 2026"
+        "href": "https://www.eroresources.com/careers/",
+        "label": "🔗 ERO Resources — Careers"
       }
     ],
     "cycle": "current",
@@ -1912,13 +1912,13 @@
     ],
     "id": "item-028",
     "location": "Stone Harbor, NJ (Cape May County)",
-    "url": "https://wetlandsinstitute.org/education/internship-opportunities/",
-    "url_label": "🔍 Wetlands Institute internship applications",
+    "url": "https://jugbay.org/internships-2/",
+    "url_label": "Jug Bay Wetlands Sanctuary — Summer Internships",
     "desc": "The Wetlands Institute in Stone Harbor, NJ has summer 2026 internships available now. Research interns complete field surveys and studies under Science Staff supervision, including bird monitoring, nesting surveys, species counts, and GIS mapping. Strong match for Erin's wildlife survey skills, GIS background, and wetlands coursework. Also includes environmental education and restoration fieldwork opportunities.",
     "links": [
       {
-        "href": "https://wetlandsinstitute.org/education/internship-opportunities/",
-        "label": "🔍 Wetlands Institute internship applications"
+        "href": "https://jugbay.org/internships-2/",
+        "label": "🔗 Jug Bay Wetlands Sanctuary — Summer Internships"
       }
     ],
     "cycle": "next",
@@ -1946,8 +1946,8 @@
     "desc": "The Wetlands Institute in Stone Harbor, NJ has summer 2026 internships available now. Research interns complete field surveys and studies under Science Staff supervision, including bird monitoring, nesting surveys, species counts, and GIS mapping. Strong match for Erin's wildlife survey skills, GIS background, and wetlands coursework. Also includes environmental education and restoration fieldwork opportunities.",
     "links": [
       {
-        "href": "https://wetlandsinstitute.org/education/internship-opportunities/",
-        "label": "🔍 Wetlands Institute internship applications"
+        "href": "https://wetlandsinstitute.org/research/ccrp/",
+        "label": "🔗 Wetlands Institute — Coastal Conservation Research Program (CCRP)"
       }
     ],
     "cycle": "next",
@@ -2217,12 +2217,12 @@
     "desc": "RK&K is actively seeking an entry-level Natural Resource Scientist with a strong interest in wetlands and field-based environmental science in their Raleigh, NC office — confirmed open as of May 2026. This is exactly Erin's background: Army Corps delineation training (GEOL 455), water quality (ENVH 310), contaminated rivers (GEOL 423), and GIS (NRM 344). RK&K is a mid-size firm with offices across the Southeast.",
     "links": [
       {
-        "href": "https://www.indeed.com/q-entry-level-environmental-l-north-carolina-jobs.html",
-        "label": "🔍 Search entry-level environmental NC (Indeed)"
+        "href": "https://www.rkk.com/careers/",
+        "label": "🔗 RK&K Careers — search for environmental scientist roles"
       },
       {
-        "href": "https://www.rkk.com/careers",
-        "label": "🔍 RK&K Careers page"
+        "href": "https://careers.rkk.com/us/en/search-results?keywords=Raleigh",
+        "label": "🔗 RK&K careers — Raleigh, NC jobs"
       }
     ],
     "detail": [
@@ -2326,12 +2326,12 @@
     "desc": "The MROC2S (Mentoring and Research for Careers in Coastal Sciences) program at Georgia Southern is an NSF-funded postbaccalaureate research and mentoring fellowship for early-career scientists. The 2026–27 cohort (August 2026 – July 2027) had a deadline of April 15, 2026 — just passed. However, this program runs annually; watch for the 2027–28 cycle opening in early 2027. Provides stipend, free housing, and structured research mentorship in coastal science — an outstanding bridge-year opportunity before graduate school.",
     "links": [
       {
-        "href": "https://ecophys-jobs.org/temp.html",
-        "label": "🔍 ecophys-jobs.org temp/seasonal listings (watch for 2027 posting)"
+        "href": "https://etap.nsf.gov/award/4325/opportunity/11511",
+        "label": "🔗 Apply — NSF ETAP MROC2S RaMP postbac fellowship"
       },
       {
-        "href": "https://www.georgiasouthern.edu/cosm/biology/",
-        "label": "🔍 Georgia Southern Department of Biology"
+        "href": "https://sites.google.com/georgiasouthern.edu/mroc2s-ramp/home",
+        "label": "🔗 MROC2S @ GASO — program site"
       }
     ],
     "detail": [
@@ -2513,7 +2513,7 @@
     "cat": "Career Positions",
     "src": "erin_jobs.html",
     "src_label": "Career Positions",
-    "url": "https://www.rkk.com/careers/",
+    "url": "https://www.rkk.com/job/project-scientist-wetlands/",
     "deadline": "Rolling — active posting confirmed on Indeed May 2026",
     "start": "",
     "body": "RK&K seeks an entry-level Natural Resource Scientist (Wetland Scientist I) with a strong interest in wetlands and field-based environmental science for their Raleigh, NC office. Role supports transportation and infrastructure projects through wetland delineations, stream assessments, natural resource reports, and Section 404/401 permitting. RK&K is a mid-size engineering and consulting firm with significant NC DOT work — reliable, growing, steady employer. Erin's GEOL 423, ENVH 310, GEOL 309 (Wetland Delineation) coursework are directly applicable. Raleigh location aligns with NC professional network.",
@@ -2538,7 +2538,7 @@
     "cycle": "current",
     "deadline_kind": "rolling",
     "region": "Southeast & Appalachia",
-    "url_label": "RK&K Engineering careers"
+    "url_label": "RK&K — Project Scientist, Wetlands (Raleigh, NC)"
   },
   {
     "title": "Hydrologic Technician / Environmental Science Technician",
@@ -2561,8 +2561,8 @@
     "desc": "USGS SAWSC offers full-time entry-level paid positions in NC, SC, and GA for recent graduates with environmental science, hydrology, or biological science backgrounds. Hydrologic Technicians operate stream gauges, collect water quality samples, conduct aquatic biological surveys, and analyze field and lab data. This is the most direct match for Erin's water quality, contaminated rivers, and field sampling background in her home region.",
     "links": [
       {
-        "href": "https://www.usgs.gov/centers/sawsc/science/south-atlantic-water-science-center-sawsc-student-corps-employment",
-        "label": "🔍 SAWSC employment page"
+        "href": "https://www.usajobs.gov/Search/Results?k=South%20Atlantic%20Water%20Science%20Center",
+        "label": "🔗 USAJOBS — SAWSC student/tech postings"
       },
       {
         "href": "mailto:gs-sawscsc@usgs.gov",
@@ -2727,19 +2727,19 @@
     "pay": "$38,000–$50,000 (NC state scale)",
     "location": "Raleigh, Asheville, Wilmington, and regional offices",
     "benefits": "State pension, health, leave",
-    "url": "https://oshr.nc.gov/work-nc",
-    "url_label": "NC State Careers (Work NC)",
-    "url2": "https://oshr.nc.gov/work-nc",
-    "url2_label": "NC State Careers (Work NC)",
+    "url": "https://www.governmentjobs.com/careers/northcarolina?department%5B0%5D=Dept+of+Environmental+Quality&sort=PositionTitle%7CAscending",
+    "url_label": "NC DEQ — Current Job Postings",
+    "url2": "https://www.governmentjobs.com/careers/northcarolina?department%5B0%5D=Dept+of+Environmental+Quality&sort=PositionTitle%7CAscending",
+    "url2_label": "NC DEQ — Current Job Postings",
     "desc": "NC DEQ's Division of Water Resources and Division of Water Quality hire Environmental Specialists with water quality, wetlands, and field science backgrounds. Entry-level Environmental Specialist I positions review wetland and stream impact permits (401 Water Quality Certifications), conduct field inspections, and monitor compliance. NC is one of the most active states for 404/401 permitting given its diverse wetland types. Strong match for Erin's ENVH 310, GEOL 455, and GEOL 423 coursework.",
     "links": [
       {
-        "href": "https://oshr.nc.gov/work-nc",
-        "label": "🔗 NC State Careers (Work NC)"
+        "href": "https://www.governmentjobs.com/careers/northcarolina?department%5B0%5D=Dept+of+Environmental+Quality&sort=PositionTitle%7CAscending",
+        "label": "🔗 NC DEQ — Current Job Postings"
       },
       {
-        "href": "https://oshr.nc.gov/work-nc",
-        "label": "🔗 NC State Careers (Work NC)"
+        "href": "https://www.governmentjobs.com/careers/northcarolina?department%5B0%5D=Dept+of+Environmental+Quality&sort=PositionTitle%7CAscending",
+        "label": "🔗 NC DEQ — Current Job Postings"
       }
     ],
     "cycle": "current",
@@ -2767,12 +2767,12 @@
     "desc": "NC Wildlife Resources Commission hires wildlife biologists and technicians for population monitoring, habitat assessment, GIS analysis, and species management across NC. Strong match for Erin's NRM 479 (Mammalogy), NRM 330 (Wildlife Management), and GIS coursework. NCWRC also conducts significant work in the mountain region where Erin has field experience.",
     "links": [
       {
-        "href": "https://www.ncwildlife.gov/about",
-        "label": "🔗 NCWRC About / Careers"
+        "href": "https://www.governmentjobs.com/careers/northcarolina?department%5B0%5D=Wildlife+Resource+Commission&sort=PositionTitle%7CAscending",
+        "label": "🔗 NCWRC — Current Job Openings"
       },
       {
-        "href": "https://www.google.com/search?q=NC+Wildlife+Resources+Commission+wildlife+biologist+technician+entry+level+2026",
-        "label": "🔍 Search NCWRC openings 2026"
+        "href": "https://www.governmentjobs.com/careers/northcarolina/?department%5B0%5D=NC%20Wildlife%20Resources%20Commission",
+        "label": "🔗 NCWRC jobs on Work for NC (NeoGov)"
       }
     ],
     "detail": [
@@ -2892,8 +2892,8 @@
         "label": "🔍 Stantec Careers"
       },
       {
-        "href": "https://www.google.com/search?q=environmental+scientist+I+wetland+delineation+entry+level+NC+SC+CO+consulting+2026",
-        "label": "🔍 Search consulting environmental scientist I positions"
+        "href": "https://stantec.jobs/job-titles/environmental-scientistwetland-delineator/jobs/",
+        "label": "🔗 Stantec — Environmental Scientist / Wetland Delineator jobs"
       }
     ],
     "detail": [
@@ -2969,12 +2969,12 @@
         "label": "🔍 TNC Careers page"
       },
       {
-        "href": "https://www.google.com/search?q=The+Nature+Conservancy+GIS+analyst+conservation+scientist+entry+level+NC+SC+CO+2026",
-        "label": "🔍 Search TNC entry-level positions 2026"
+        "href": "https://careers.tnc.org/us/en/search-results",
+        "label": "🔗 TNC Careers — search openings"
       },
       {
-        "href": "https://appalachian.org/about/careers/",
-        "label": "appalachian.org/about/careers"
+        "href": "https://appalachian.org/home/join-our-team/",
+        "label": "🔗 Southern Appalachian Highlands Conservancy — Join Our Team"
       }
     ],
     "detail": [
@@ -3090,8 +3090,8 @@
     "desc": "USGS SAWSC is Erin's single strongest federal target. Hydrologic Technicians in NC/SC/GA operate stream gauges, collect water quality samples, conduct aquatic biological surveys, and analyze field data — a professional extension of her Pigeon River capstone work. GS-05 to GS-07 scale (~$38k–$52k). Full federal benefits. Email SAWSC directly; they maintain a Student Corps contact list and post positions continuously on USAJobs.",
     "links": [
       {
-        "href": "https://www.usgs.gov/centers/sawsc/science/south-atlantic-water-science-center-sawsc-student-corps-employment",
-        "label": "🔍 SAWSC employment page"
+        "href": "https://www.usajobs.gov/Search/Results?k=South%20Atlantic%20Water%20Science%20Center",
+        "label": "🔗 USAJOBS — SAWSC student/tech postings"
       },
       {
         "href": "https://www.usajobs.gov/Search/Results?a=USGS&k=hydrologic+technician",
@@ -3253,12 +3253,12 @@
     "desc": "NC DEQ's Division of Water Resources hires Environmental Specialists with water quality and wetlands backgrounds for 401 Water Quality Certification review, wetland/stream impact permit evaluation, and field compliance inspections. The Asheville Western Regional Office is particularly relevant — it covers the mountain counties where Erin studied and directly handles post-Hurricane Helene stream and wetland permitting. Mentioning the Pigeon River research in an Asheville application is a direct credential connection.",
     "links": [
       {
-        "href": "https://oshr.nc.gov/work-nc",
-        "label": "🔗 NC State Careers (Work NC)"
+        "href": "https://nc.wd108.myworkdayjobs.com/NC_Careers",
+        "label": "🔗 NC Careers (Workday) — search DEQ Environmental Specialist"
       },
       {
-        "href": "https://oshr.nc.gov/work-nc",
-        "label": "🔗 NC State Careers (Work NC)"
+        "href": "https://nc.wd108.myworkdayjobs.com/NC_Careers",
+        "label": "🔗 NC Careers (Workday) — search DEQ Environmental Specialist"
       }
     ],
     "detail": [
@@ -3305,8 +3305,8 @@
     "desc": "NCWRC hires Wildlife Biologists and Technicians for population monitoring, habitat assessment, and GIS-based wildlife management. The mountain region office manages species Erin studied in NRM 479 (small mammals, mustelids, bears) and NRM 330 (population management frameworks). GIS skills are explicitly valued for habitat connectivity and population mapping work. $35k–$48k entry level.",
     "links": [
       {
-        "href": "https://www.ncwildlife.gov/about",
-        "label": "🔗 NCWRC About / Careers"
+        "href": "https://nc.wd108.myworkdayjobs.com/NC_Careers?hiringCompany=4c5533ba0a02100160ece027abd20000",
+        "label": "🔗 NC Careers — NCWRC openings (Workday)"
       }
     ],
     "detail": [
@@ -3464,8 +3464,8 @@
         "label": "🔍 Apply: ECC AmeriCorps positions"
       },
       {
-        "href": "https://sustainabilityinstitutesc.org/ecc/join-americorps/",
-        "label": "🔍 Full position descriptions"
+        "href": "https://sustainabilityinstitutesc.org/programs/environmental-conservation-corps/join-americorps/",
+        "label": "🔗 Sustainability Institute — Join AmeriCorps (ECC)"
       },
       {
         "href": "mailto:Marni@SustainabilityInstituteSC.org",
@@ -3497,12 +3497,12 @@
     "desc": "Southeast Conservation Corps has placed AmeriCorps members with the U.S. Forest Service's fisheries team in Cherokee National Forest in eastern Tennessee. Biological Science Technicians gain hands-on experience in aquatic resource monitoring, stream restoration, and watershed health — including electrofishing, macroinvertebrate surveys, freshwater snorkeling, and public education. This directly matches Erin's water quality background and Appalachian field experience. SECC operates throughout the Southeast and regularly has Appalachian-region placements.",
     "links": [
       {
-        "href": "https://southeastconservationcorps.org/individual-placements",
-        "label": "🔍 SECC Individual Placements page"
+        "href": "https://jobs.fire-up.net/companies/conservation-legacy/jobs/44449805-biological-science-technician-usfs-fisheries-americorps-individual-placement",
+        "label": "🔗 SECC — Biological Science Technician USFS Fisheries (IP, AmeriCorps)"
       },
       {
-        "href": "https://southeastconservationcorps.org/individual-placements",
-        "label": "🔗 Apply via SECC Individual Placements"
+        "href": "https://jobs.fire-up.net/companies/conservation-legacy/jobs/44449805-biological-science-technician-usfs-fisheries-americorps-individual-placement",
+        "label": "🔗 SECC — Biological Science Technician USFS Fisheries (IP, AmeriCorps)"
       }
     ],
     "cycle": "current",
@@ -3708,16 +3708,16 @@
         "label": "🔗 SCC Individual Placement Positions"
       },
       {
-        "href": "https://jobs.fire-up.net/jobs?q=wetlands+wildlife+BLM",
-        "label": "🔍 FireUp: BLM wetlands/wildlife AmeriCorps"
+        "href": "https://conservationlegacy.org/program/southwest-conservation-corps/",
+        "label": "🔗 Southwest Conservation Corps — Individual Placements (program page)"
       },
       {
         "href": "mailto:nantonio@conservationlegacy.org",
         "label": "✉ Niki Antonio, Conservation Legacy — nantonio@conservationlegacy.org"
       },
       {
-        "href": "https://conservationcorps.org/join/",
-        "label": "Browse open positions →"
+        "href": "https://conservation-legacy.breezy.hr/",
+        "label": "🔗 Conservation Legacy — all open positions (Breezy)"
       },
       {
         "href": "https://jobs.fire-up.net",
@@ -3781,8 +3781,8 @@
         "label": "🔍 Stewards open positions (apply here — updates daily)"
       },
       {
-        "href": "https://stewardslegacy.org/JOIN",
-        "label": "🔍 Stewards program overview"
+        "href": "https://stewardslegacy.org/open-positions",
+        "label": "🔗 Stewards — open positions"
       }
     ],
     "detail": [
@@ -3838,12 +3838,12 @@
     "desc": "Southeast Conservation Corps regularly places AmeriCorps members with US Forest Service fisheries and wildlife teams in Cherokee National Forest (TN) and Pisgah National Forest (NC) — the exact landscape of Erin's Hurricane Helene research. Duties include aquatic resource monitoring, stream restoration, electrofishing, macroinvertebrate surveys, and freshwater snorkeling. This is a direct follow-on to her GEOL 423 (Contaminated Rivers) and ENVH 310 (Water Quality) coursework in the same geography.",
     "links": [
       {
-        "href": "https://southeastconservationcorps.org/individual-placements",
-        "label": "🔍 SECC Individual Placements"
+        "href": "https://southeastconservationcorps.org/open-positions",
+        "label": "🔗 SECC — current open positions"
       },
       {
-        "href": "https://southeastconservationcorps.org/individual-placements",
-        "label": "🔗 Apply via SECC Individual Placements"
+        "href": "https://southeastconservationcorps.org/open-positions",
+        "label": "🔗 SECC — current open positions"
       }
     ],
     "detail": [
@@ -3988,8 +3988,8 @@
         "label": "🔍 USAJobs: USDA Forest Service Recent Graduate"
       },
       {
-        "href": "https://www.fs.usda.gov/working-with-us/careers/pathways-internships",
-        "label": "🔗 USDA FS Pathways program overview"
+        "href": "https://www.usajobs.gov/Search/Results?k=recent%20graduate&a=AG11",
+        "label": "🔗 USAJOBS — Forest Service Recent Graduate postings"
       },
       {
         "href": "https://www.usajobs.gov/Search/Results?hp=rg&a=FS",
@@ -4040,12 +4040,12 @@
     "desc": "SERC's Global Change Ecology and Biogeochemistry Labs recruit research technicians for coastal ecosystem and wetland response research (~$46k/yr, 6-month to 1-year appointments). Current and recent openings have focused on root and rhizome processing from long-term wetland experiments — field and lab work aligned with Erin's soil and water quality background. Strong technical credentialing for graduate school. Watch SERC careers and ecophys-jobs.org for upcoming fall 2026 postings.",
     "links": [
       {
-        "href": "https://serc.si.edu/about-serc/careers",
-        "label": "🔍 SERC Careers page"
+        "href": "https://serc.si.edu/get-involved/job-opportunities",
+        "label": "🔗 SERC — Job Opportunities"
       },
       {
-        "href": "https://ecophys-jobs.org/temp.html",
-        "label": "🔍 ecophys-jobs.org seasonal/temp (watch for posting)"
+        "href": "https://serc.si.edu/get-involved/job-opportunities/research-technician-global-change-ecology-biogeochemistry",
+        "label": "🔗 SERC Research Technician — Global Change Ecology & Biogeochemistry"
       }
     ],
     "detail": [
@@ -4130,8 +4130,8 @@
         "label": "🔍 Join WCC — AmeriCorps positions"
       },
       {
-        "href": "https://apps.ecology.wa.gov/wcc/",
-        "label": "🔍 WCC member application"
+        "href": "https://gis.ecology.wa.gov/portal/apps/instant/basic/index.html?appid=604927e446bc49a29c87b63bca60d92c",
+        "label": "🔗 WCC recruitment map — position descriptions & locations"
       }
     ],
     "status": {
@@ -4270,8 +4270,8 @@
         "label": "🔍 Xi Lab website"
       },
       {
-        "href": "https://www.tamuk.edu/artsci/departments/biol/faculty-staff/xi.html",
-        "label": "🔍 TAMUK Biology — Dr. Xi"
+        "href": "https://drxilab.netlify.app/",
+        "label": "🔗 Dr. Weimin Xi Lab — Texas A&M-Kingsville"
       }
     ],
     "status": {
@@ -4377,8 +4377,8 @@
         "label": "🔍 OSU Water Resources Science (MS/PhD)"
       },
       {
-        "href": "https://graduate.oregonstate.edu/programs/6420/environmental-sciences-phd-ma-ms-psm-minor",
-        "label": "🔍 OSU Environmental Sciences graduate"
+        "href": "https://gradwater.oregonstate.edu/applicants",
+        "label": "🔗 OSU Water Resources — Application Information"
       },
       {
         "href": "https://ceoas.oregonstate.edu/jobs",
@@ -4450,8 +4450,8 @@
     "region": "Northeast",
     "links": [
       {
-        "href": "https://dep.nj.gov/jobs/",
-        "label": "🔗 NJDEP Employment Opportunities"
+        "href": "https://njdepartmentofenvironmentalprotection.applytojob.com/apply",
+        "label": "🔗 NJDEP — Apply Portal (Environmental Services Trainee)"
       }
     ],
     "status": {
@@ -4694,8 +4694,8 @@
     "region": "Southwest",
     "links": [
       {
-        "href": "https://www.conservationjobboard.com/category/wetland-jobs",
-        "label": "🔗 Conservation Job Board · GBI listing"
+        "href": "https://www.thegreatbasininstitute.org/employment-and-volunteer-opportunities/",
+        "label": "🔗 Great Basin Institute — Employment opportunities"
       }
     ],
     "status": {
@@ -4728,8 +4728,8 @@
     "region": "Northeast",
     "links": [
       {
-        "href": "https://jobs.rwfm.tamu.edu/search/?keywords=EDR&sort-by=PostingDate",
-        "label": "🔗 Texas A&M Natural Resources Job Board"
+        "href": "https://www.edrdpc.com/careers/seasonal-field-technician-2/",
+        "label": "🔗 EDR — Seasonal Field Technician (wetland/stream)"
       }
     ],
     "status": {
@@ -4796,8 +4796,8 @@
     "region": "Southeast & Appalachia",
     "links": [
       {
-        "href": "https://stewardslegacy.org/open-positions",
-        "label": "🔗 Stewards Individual Placement open positions"
+        "href": "https://jobs.fire-up.net/companies/conservation-legacy/jobs/71034259-lidar-monitoring-technician-member-region-4-americorps",
+        "label": "🔗 Stewards — LiDAR Monitoring Technician (USFWS Region 4, AmeriCorps)"
       }
     ],
     "status": {
@@ -4831,8 +4831,8 @@
     "region": "Mountain West",
     "links": [
       {
-        "href": "https://jobs.rwfm.tamu.edu/",
-        "label": "🔗 Texas A&M NR Job Board (search USU mule deer)"
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=116821",
+        "label": "🔗 USU PhD — Landscape Fitness & Migratory Connectivity (TAMU job posting)"
       }
     ],
     "status": {
@@ -4971,8 +4971,8 @@
     "region": "West Coast / Pacific",
     "links": [
       {
-        "href": "https://www.cnlm.org/donate-get-involved/job-opportunities/",
-        "label": "🔗 CNLM — Job Opportunities"
+        "href": "https://www.cnlm.org/wp-content/uploads/Northern-California-Preserve-Manager-final-05-14-2026.pdf",
+        "label": "🔗 CNLM Preserve Manager — Northern California (PDF job description)"
       }
     ],
     "status": {
@@ -5005,8 +5005,8 @@
     "region": "West Coast / Pacific",
     "links": [
       {
-        "href": "https://orise.orau.gov/epa/current-research-opportunities.html",
-        "label": "🔗 ORISE EPA — Current Opportunities"
+        "href": "https://www.zintellect.com/Opportunity/Details/EPA-ORD-CPHEA-PESD-2024-02",
+        "label": "🔗 EPA Fellowship in NWCA Plant Ecology — PESD Corvallis (Zintellect)"
       }
     ],
     "status": {

@@ -1,0 +1,254 @@
+[
+ {
+  "id": "item-003",
+  "title": "University of Southern Mississippi — Gulf Coast Researc",
+  "org": "Hattiesburg/Ocean Springs, MS · Marine S",
+  "cycle": "current",
+  "quality": "search",
+  "field": "links[1]",
+  "href": "https://www.google.com/search?q=USM+Gulf+Coast+Research+Lab+MS+marine+science+assistantship+2026"
+ },
+ {
+  "id": "item-006",
+  "title": "Clemson University — Elmore Lab, Bird Response to Helen",
+  "org": "Clemson, SC · Dept. of Forestry & Enviro",
+  "cycle": "current",
+  "quality": "search",
+  "field": "links[1]",
+  "href": "https://www.google.com/search?q=Clemson+Elmore+Lab+bird+Hurricane+Helene+MS+assistantship+2026"
+ },
+ {
+  "id": "item-017",
+  "title": "Auburn University — ACFWRU",
+  "org": "Auburn, AL · Biological Sciences / Natur",
+  "cycle": "current",
+  "quality": "search",
+  "field": "links[1]",
+  "href": "https://www.google.com/search?q=Auburn+Alabama+Cooperative+Fish+Wildlife+Research+Unit+MS+assistantship+2026"
+ },
+ {
+  "id": "item-007",
+  "title": "Auburn University — Alabama CFWRU",
+  "org": "Auburn, AL · Biological Sciences / Natur",
+  "cycle": "current",
+  "quality": "search",
+  "field": "links[1]",
+  "href": "https://www.google.com/search?q=Auburn+Alabama+Cooperative+Fish+Wildlife+Research+Unit+MS+assistantship+2026"
+ },
+ {
+  "id": "item-012",
+  "title": "Mississippi State University — Geosystems Research Inst",
+  "org": "Starkville, MS · GIS & Health Geography",
+  "cycle": "current",
+  "quality": "search",
+  "field": "links[1]",
+  "href": "https://www.google.com/search?q=Mississippi+State+Geosystems+Research+Institute+GIS+MS+PhD+assistantship+2026"
+ },
+ {
+  "id": "item-024",
+  "title": "Natural Resources Internship — Ecology Team",
+  "org": "ERO Resources Corporation · Lakewood, CO",
+  "cycle": "current",
+  "quality": "search",
+  "field": "links[1]",
+  "href": "https://www.google.com/search?q=ERO+Resources+Corporation+natural+resources+ecology+internship+2026"
+ },
+ {
+  "id": "item-033",
+  "title": "Wildlife Biologist I / Wildlife Technician",
+  "org": "NC Wildlife Resources Commission (NCWRC)",
+  "cycle": "current",
+  "quality": "search",
+  "field": "links[1]",
+  "href": "https://www.google.com/search?q=NC+Wildlife+Resources+Commission+wildlife+biologist+technician+entry+level+2026"
+ },
+ {
+  "id": "item-035",
+  "title": "Staff Environmental Scientist / Environmental Scientist",
+  "org": "ECS Federal, Terracon, Cardno, Stantec, ",
+  "cycle": "current",
+  "quality": "search",
+  "field": "links[3]",
+  "href": "https://www.google.com/search?q=environmental+scientist+I+wetland+delineation+entry+level+NC+SC+CO+consulting+2026"
+ },
+ {
+  "id": "item-037",
+  "title": "Conservation Scientist / GIS Analyst — Land Protection",
+  "org": "The Nature Conservancy (TNC) · NC, SC, C",
+  "cycle": "current",
+  "quality": "search",
+  "field": "links[1]",
+  "href": "https://www.google.com/search?q=The+Nature+Conservancy+GIS+analyst+conservation+scientist+entry+level+NC+SC+CO+2026"
+ },
+ {
+  "id": "item-104",
+  "title": "Restoration Technician — Moapa Valley NWR (USFWS partne",
+  "org": "Great Basin Institute / USFWS · Moapa Va",
+  "cycle": "current",
+  "quality": "agg-search",
+  "field": "links[0]",
+  "href": "https://www.conservationjobboard.com/category/wetland-jobs"
+ },
+ {
+  "id": "item-105",
+  "title": "Seasonal Field Technician — wetland delineation & ecolo",
+  "org": "EDR (Environmental Design & Research, DP",
+  "cycle": "current",
+  "quality": "agg-search",
+  "field": "links[0]",
+  "href": "https://jobs.rwfm.tamu.edu/search/?keywords=EDR&sort-by=PostingDate"
+ },
+ {
+  "id": "item-018",
+  "title": "University of Georgia — Odum School / SREL",
+  "org": "Athens, GA / Aiken, SC",
+  "cycle": "current",
+  "quality": "landing",
+  "field": "url",
+  "href": "https://www.srel.uga.edu/"
+ },
+ {
+  "id": "item-018",
+  "title": "University of Georgia — Odum School / SREL",
+  "org": "Athens, GA / Aiken, SC",
+  "cycle": "current",
+  "quality": "landing",
+  "field": "links[0]",
+  "href": "https://www.srel.uga.edu/"
+ },
+ {
+  "id": "item-002",
+  "title": "University of Georgia — Savannah River Ecology Lab",
+  "org": "Athens, GA / Aiken, SC · Odum School of ",
+  "cycle": "current",
+  "quality": "landing",
+  "field": "url",
+  "href": "https://www.srel.uga.edu/"
+ },
+ {
+  "id": "item-002",
+  "title": "University of Georgia — Savannah River Ecology Lab",
+  "org": "Athens, GA / Aiken, SC · Odum School of ",
+  "cycle": "current",
+  "quality": "landing",
+  "field": "links[0]",
+  "href": "https://www.srel.uga.edu/"
+ },
+ {
+  "id": "item-003",
+  "title": "University of Southern Mississippi — Gulf Coast Researc",
+  "org": "Hattiesburg/Ocean Springs, MS · Marine S",
+  "cycle": "current",
+  "quality": "landing",
+  "field": "links[0]",
+  "href": "https://www.usm.edu/gcrl/"
+ },
+ {
+  "id": "item-010",
+  "title": "University of Wyoming — Wildfire & Forest Resilience",
+  "org": "Laramie, WY · Forest Forensics & Dendroe",
+  "cycle": "current",
+  "quality": "landing",
+  "field": "url",
+  "href": "https://www.uwyo.edu/haub/"
+ },
+ {
+  "id": "item-010",
+  "title": "University of Wyoming — Wildfire & Forest Resilience",
+  "org": "Laramie, WY · Forest Forensics & Dendroe",
+  "cycle": "current",
+  "quality": "landing",
+  "field": "links[0]",
+  "href": "https://www.uwyo.edu/haub/"
+ },
+ {
+  "id": "item-010",
+  "title": "University of Wyoming — Wildfire & Forest Resilience",
+  "org": "Laramie, WY · Forest Forensics & Dendroe",
+  "cycle": "current",
+  "quality": "landing",
+  "field": "links[1]",
+  "href": "https://wyocoopunit.org/"
+ },
+ {
+  "id": "item-014",
+  "title": "NC State University — Hurricane Helene Forest Recovery",
+  "org": "Raleigh, NC · Forestry & Environmental R",
+  "cycle": "current",
+  "quality": "landing",
+  "field": "links[0]",
+  "href": "https://cnr.ncsu.edu/fer/"
+ },
+ {
+  "id": "item-005",
+  "title": "NC State University — Hurricane Helene Forest Recovery",
+  "org": "Raleigh, NC · Dept. of Forestry & Enviro",
+  "cycle": "current",
+  "quality": "landing",
+  "field": "links[0]",
+  "href": "https://cnr.ncsu.edu/fer/"
+ },
+ {
+  "id": "item-017",
+  "title": "Auburn University — ACFWRU",
+  "org": "Auburn, AL · Biological Sciences / Natur",
+  "cycle": "current",
+  "quality": "landing",
+  "field": "url",
+  "href": "https://cfwe.auburn.edu/research/research-centers-cooperatives/"
+ },
+ {
+  "id": "item-017",
+  "title": "Auburn University — ACFWRU",
+  "org": "Auburn, AL · Biological Sciences / Natur",
+  "cycle": "current",
+  "quality": "landing",
+  "field": "links[0]",
+  "href": "https://cfwe.auburn.edu/research/research-centers-cooperatives/"
+ },
+ {
+  "id": "item-007",
+  "title": "Auburn University — Alabama CFWRU",
+  "org": "Auburn, AL · Biological Sciences / Natur",
+  "cycle": "current",
+  "quality": "landing",
+  "field": "links[0]",
+  "href": "https://cfwe.auburn.edu/research/research-centers-cooperatives/"
+ },
+ {
+  "id": "item-012",
+  "title": "Mississippi State University — Geosystems Research Inst",
+  "org": "Starkville, MS · GIS & Health Geography",
+  "cycle": "current",
+  "quality": "landing",
+  "field": "url",
+  "href": "https://www.cfr.msstate.edu/"
+ },
+ {
+  "id": "item-012",
+  "title": "Mississippi State University — Geosystems Research Inst",
+  "org": "Starkville, MS · GIS & Health Geography",
+  "cycle": "current",
+  "quality": "landing",
+  "field": "links[0]",
+  "href": "https://www.gri.msstate.edu/"
+ },
+ {
+  "id": "item-008",
+  "title": "Mississippi State University — Forest & Wildlife Resear",
+  "org": "Starkville, MS · Dept. of Wildlife, Fish",
+  "cycle": "current",
+  "quality": "landing",
+  "field": "links[0]",
+  "href": "https://www.cfr.msstate.edu/"
+ },
+ {
+  "id": "item-011",
+  "title": "CU Boulder — INSTAAR / Environmental Studies",
+  "org": "Boulder, CO",
+  "cycle": "current",
+  "quality": "landing",
+  "field": "url",
+  "href": "https://www.colorado.edu/instaar/"
+ }
+]
