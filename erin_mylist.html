@@ -718,7 +718,18 @@ function buildDetailPanel(it,idPrefix){
   var lnkDiv=document.createElement('div'); lnkDiv.style.cssText='display:flex;flex-wrap:wrap;gap:6px;margin-top:.5rem';
   if(it.url){ var al=document.createElement('a'); al.className='id-link id-link-primary'; al.href=it.url; al.target='_blank'; al.innerHTML='&#128279; '+(it.url_label||'Apply / View posting')+' &rarr;'; lnkDiv.appendChild(al); }
   if(it.url2){ var al2=document.createElement('a'); al2.className='id-link'; al2.href=it.url2; al2.target='_blank'; al2.innerHTML='&#128279; '+(it.url2_label||'More info')+' &rarr;'; lnkDiv.appendChild(al2); }
-  if(it.src){ var sl=document.createElement('a'); sl.className='id-link'; sl.href=it.src; sl.target='_blank'; sl.innerHTML='Open '+(it.src_label||'source page')+' &rarr;'; lnkDiv.appendChild(sl); }
+  /* v2.25 BUGFIX: render it.links[] array (was being skipped on saved-item detail).
+     Most deepened URLs from the verification sweeps live in links[], so without
+     this loop the saved-item view showed only the internal source link. */
+  (it.links||[]).forEach(function(l){
+    if(!l || !l.href) return;
+    var ll=document.createElement('a'); ll.className='id-link'; ll.href=l.href; ll.target='_blank';
+    ll.textContent = l.label || l.href;
+    lnkDiv.appendChild(ll);
+  });
+  /* it.src — only render as external link if it's an http(s) URL, not an internal cabinet page */
+  if(it.src && /^https?:/.test(it.src)){ var sl=document.createElement('a'); sl.className='id-link'; sl.href=it.src; sl.target='_blank'; sl.innerHTML='Open '+(it.src_label||'source page')+' &rarr;'; lnkDiv.appendChild(sl); }
+  else if(it.src && it.src.endsWith('.html')){ var slc=document.createElement('a'); slc.className='id-link'; slc.href=it.src; slc.innerHTML='Open '+(it.src_label||'source page')+' &rarr;'; lnkDiv.appendChild(slc); }
   if(it.id){ var pk=document.createElement('a'); pk.className='id-link'; pk.href='erin_packet.html?ml='+encodeURIComponent(it.id); pk.innerHTML='&#128424; Print packet'; lnkDiv.appendChild(pk); }
   if(lnkDiv.children.length) detail.appendChild(lnkDiv);
   detail.appendChild(el('div','id-section-label','Section'));
