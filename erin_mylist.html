@@ -1312,8 +1312,9 @@ function buildBrowseFiltersX(){
   w.appendChild(mgroup('New', BX.fresh, FRESH));
   w.appendChild(fgroup('Passed', [chip('Show passed / expired', showPassed, function(){ showPassed=!showPassed; renderBrowse(); })]));
   w.appendChild(fgroup('Hidden', [chip('Show not interested', showNI, function(){ showNI=!showNI; renderBrowse(); })]));
-  /* v2.19: broken-link filter — restricts view to flagged items for batch review */
-  w.appendChild(fgroup('Links', [chip('⚠ Only broken links', onlyBroken, function(){ onlyBroken=!onlyBroken; renderBrowse(); })]));
+  /* v2.19/v2.20: broken-link filter — chip shows "(view-only)" on read-only devices */
+  var _blChipLbl = '⚠ Only broken links' + (document.documentElement.classList.contains('erin-readonly') ? ' (view-only)' : '');
+  w.appendChild(fgroup('Links', [chip(_blChipLbl, onlyBroken, function(){ onlyBroken=!onlyBroken; renderBrowse(); })]));
   BX.type.forEach(function(t){ (SUB[t]||[]).forEach(function(sf){
     if(!BX.sub[sf.k]) BX.sub[sf.k]=[];
     w.appendChild(mgroup(sf.label, BX.sub[sf.k], sf.opts.slice(1).map(function(o){return [o,o];})));
