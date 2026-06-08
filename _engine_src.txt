@@ -153,12 +153,62 @@ function buildBrowseDetailX(it){
     }); }
   if(it.extbody){ d.appendChild(el('div','id-section-label','Additional detail')); var eb=el('div','id-body',it.extbody); eb.style.fontSize='12px'; d.appendChild(eb); }
   if(it.contact){ d.appendChild(el('div','id-section-label','How to apply / contact')); var cb=el('div','id-body',it.contact); cb.style.fontSize='12px'; d.appendChild(cb); }
+  /* v2.28: dedupe url/url2/links[], detect list/search-page URLs, split out
+     internal section nav (Open <section> + packet) below the Section label. */
+  var _seenU={}, _ext=[];
+  function _add(href,label,primary){
+    if(!href||!/^https?:/.test(href)||_seenU[href]) return;
+    _seenU[href]=1; _ext.push({href:href,label:label||href,primary:!!primary});
+  }
+  _add(it.url, it.url_label||'Apply / View posting', true);
+  _add(it.url2, it.url2_label||'More info', false);
+  (it.links||[]).forEach(function(l){ if(l) _add(l.href, l.label||l.href, false); });
+  function _isList(h){
+    if(!h) return false;
+    return /usajobs\.gov\/Search|google\.com\/search|bing\.com\/search|indeed\.com\/q-|ziprecruiter\.com\/Jobs/i.test(h)
+      || /jobs\.rwfm\.tamu\.edu\/search|stantec\.jobs\/job-titles|careers\.tnc\.org\/.*search-results/i.test(h)
+      || /conservationjobboard\.com\/category|jobs\.fire-up\.net\/?$|jobs\.fire-up\.net\/jobs(\?|$)|conservation-legacy\.breezy\.hr/i.test(h)
+      || /governmentjobs\.com\/.*department|myworkdayjobs\.com|aecom\.jobs|myjobs\.adp\.com|careers\.rkk\.com/i.test(h)
+      || /\/careers\/(current-openings|open-positions|job-opportunities|ip-positions)\/?$/i.test(h)
+      || /\.com\/careers\/?$|\.com\/jobs\/?$|\.gov\/careers\/?$|\.org\/careers\/?$|fws\.gov\/careers\/?$/i.test(h)
+      || /southeastconservationcorps\.org\/open-positions|sccorps\.org\/ip-positions|stewardslegacy\.org\/open-positions/i.test(h)
+      || /americanyouthworks\.org\/what-we-do\/cc\/open-positions|americorps-member-positions/i.test(h)
+      || /ncwildlife\.gov\/about|deq\.nc\.gov\/about\/work-deq|oshr\.nc\.gov\/work-nc/i.test(h);
+  }
+  if(_ext.some(function(l){return _isList(l.href);})){
+    var _ln = el('div','id-list-note');
+    _ln.style.cssText='font-size:12.5px;color:var(--mute-t);background:var(--bg2);border-left:3px solid var(--bds);padding:.4rem .65rem;margin-top:.65rem;border-radius:0 var(--r1) var(--r1) 0;line-height:1.45;font-family:var(--mono);letter-spacing:.01em';
+    _ln.innerHTML='<strong style="font-weight:600">📋 List page</strong> &mdash; this links to a search/listing of current openings (not a single specific posting). Browse and filter from there.';
+    d.appendChild(_ln);
+  }
   var ln=document.createElement('div'); ln.style.cssText='display:flex;flex-wrap:wrap;gap:6px;margin-top:.5rem';
-  (it.links||[]).forEach(function(l){ var a=document.createElement('a'); a.className='id-link'; a.href=l.href; a.target='_blank'; a.textContent=l.label; ln.appendChild(a); });
-  if(it.url){ var au=document.createElement('a'); au.className='id-link id-link-primary'; au.href=it.url; au.target='_blank'; au.innerHTML='&#128279; '+(it.url_label||'Apply / View posting')+' &rarr;'; ln.appendChild(au); }
-  if(it.src){ var as=document.createElement('a'); as.className='id-link'; as.href=it.src; as.target='_blank'; as.textContent='Open '+(it.src_label||'source page'); ln.appendChild(as); }
-  if(it.id){ var ap=document.createElement('a'); ap.className='id-link'; ap.href='erin_packet.html?ml='+encodeURIComponent(it.id); ap.innerHTML='&#128424; Print packet'; ln.appendChild(ap); }
+  _ext.forEach(function(l){
+    var a=document.createElement('a');
+    a.className='id-link'+(l.primary?' id-link-primary':'');
+    a.href=l.href; a.target='_blank';
+    a.innerHTML='&#128279; '+l.label+(l.primary?' &rarr;':'');
+    ln.appendChild(a);
+  });
   if(ln.children.length) d.appendChild(ln);
+  /* Section label + section name + internal section actions below */
+  d.appendChild(el('div','id-section-label','Section'));
+  var _oi=el('div','id-meta-item'); _oi.textContent=(it.src_label||it.cat||''); d.appendChild(_oi);
+  var _sa=document.createElement('div'); _sa.style.cssText='display:flex;flex-wrap:wrap;gap:6px;margin-top:.4rem';
+  if(it.src && /\.html$/i.test(it.src) && !/^https?:/.test(it.src)){
+    var _slc=document.createElement('a'); _slc.className='id-link'; _slc.href=it.src;
+    _slc.innerHTML='Open '+(it.src_label||'source page')+' &rarr;';
+    _sa.appendChild(_slc);
+  } else if(it.src && /^https?:/.test(it.src)){
+    var _sla=document.createElement('a'); _sla.className='id-link'; _sla.href=it.src; _sla.target='_blank';
+    _sla.innerHTML='Open '+(it.src_label||'source page')+' &rarr;';
+    _sa.appendChild(_sla);
+  }
+  if(it.id){
+    var _pk=document.createElement('a'); _pk.className='id-link'; _pk.href='erin_packet.html?ml='+encodeURIComponent(it.id);
+    _pk.innerHTML='&#128424; Print packet';
+    _sa.appendChild(_pk);
+  }
+  if(_sa.children.length) d.appendChild(_sa);
   /* v2.16/v2.18: "Mark link broken" toggle — primary-gated. On read-only
      devices the box is read-only (shows flag state from cloud, can't toggle). */
   var blFlagged = !!(window.BL && BL.has(it.id));
