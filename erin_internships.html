@@ -308,6 +308,7 @@ var LOCK_TYPE='Internship';
 var BX={type:LOCK_TYPE?[LOCK_TYPE]:[],cycle:[],status:[],region:[],fit:[],fresh:[],sub:{}};
 var showPassed=false; /* "Hide passed/expired" is default ON; this toggle reveals them */
 var showNI=false; /* "Hide Not interested" is default ON; this toggle reveals them */
+var onlyBroken=false; /* v2.19: restrict view to only items flagged as broken-link */
 function niHas(id){ return !!(window.NI && NI.has && NI.has(id)); }
 /* deep-link pre-filters: ?region=… &type=… &view=browse (home quick-links) */
 (function(){ try{
@@ -374,6 +375,8 @@ function buildBrowseFiltersX(){
   w.appendChild(mgroup('New', BX.fresh, FRESH));
   w.appendChild(fgroup('Passed', [chip('Show passed / expired', showPassed, function(){ showPassed=!showPassed; renderBrowse(); })]));
   w.appendChild(fgroup('Hidden', [chip('Show not interested', showNI, function(){ showNI=!showNI; renderBrowse(); })]));
+  /* v2.19: broken-link filter — restricts view to flagged items for batch review */
+  w.appendChild(fgroup('Links', [chip('⚠ Only broken links', onlyBroken, function(){ onlyBroken=!onlyBroken; renderBrowse(); })]));
   // per-type subfilters: shown for each selected type (extensible config)
   BX.type.forEach(function(t){ (SUB[t]||[]).forEach(function(sf){
     if(!BX.sub[sf.k]) BX.sub[sf.k]=[];
@@ -451,6 +454,7 @@ function renderBrowseX(){
     if(BX.status.length && !has1(BX.status,bucketOf(it))) return false;
     if((bucketOf(it)===5 || it.expired===true) && !showPassed && !(BX.status.length && has1(BX.status,5))) return false;
     if(niHas(it.id) && !showNI) return false;
+    if(onlyBroken && !(window.BL && BL.has(it.id))) return false;  /* v2.19 */
     if(BX.fit.length    && !has1(BX.fit,fitLabel(it))) return false;
     if(BX.fresh.length){ var fOk=false;
       if(has1(BX.fresh,'new')&&isNewItem(it)) fOk=true;
