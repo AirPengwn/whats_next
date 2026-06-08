@@ -1,0 +1,2108 @@
+[
+ {
+  "id": "item-009",
+  "title": "Colorado State University",
+  "org": "Fort Collins, CO · Multiple departments",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://warnercnr.colostate.edu/ess/graduate-programs/graduate-research-opportunities/",
+    "label": "🔍 CSU active grad opportunities page"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://ecology.colostate.edu/assistantships/",
+    "label": "🔍 CSU Ecology assistantships"
+   }
+  ]
+ },
+ {
+  "id": "item-000",
+  "title": "Colorado State University",
+  "org": "Fort Collins, CO · Ecosystem Science & Sustainability / Ecol",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://warnercnr.colostate.edu/ess/graduate-programs/graduate-research-opportunities/",
+    "label": "🔍 CSU active grad opportunities page"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://ecology.colostate.edu/assistantships/",
+    "label": "🔍 CSU Ecology assistantships"
+   }
+  ]
+ },
+ {
+  "id": "item-016",
+  "title": "Louisiana State University — WABL & Coastal Sciences",
+  "org": "Baton Rouge, LA · Dept. of Oceanography & Coastal Sciences",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://faculty.lsu.edu/whitelab/",
+    "label": "🔍 LSU WABL lab website"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://faculty.lsu.edu/whitelab/graduateassistantships.php",
+    "label": "🔍 WABL assistantships page"
+   },
+   {
+    "field": "links[2]",
+    "href": "https://lsu.edu/cce/academics/graduate/docs/docs-admissions.php",
+    "label": "lsu.edu/cce/academics/graduate"
+   }
+  ]
+ },
+ {
+  "id": "item-001",
+  "title": "Louisiana State University — WABL",
+  "org": "Baton Rouge, LA · Dept. of Oceanography & Coastal Sciences",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://faculty.lsu.edu/whitelab/",
+    "label": "🔍 LSU WABL lab website"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://faculty.lsu.edu/whitelab/graduateassistantships.php",
+    "label": "🔍 WABL assistantships page"
+   },
+   {
+    "field": "links[2]",
+    "href": "https://lsu.edu/cce/academics/graduate/docs/docs-admissions.php",
+    "label": "lsu.edu/cce/academics/graduate"
+   }
+  ]
+ },
+ {
+  "id": "item-018",
+  "title": "University of Georgia — Odum School / SREL",
+  "org": "Athens, GA / Aiken, SC",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "url",
+    "href": "https://www.srel.uga.edu/",
+    "label": "🔍 SREL website"
+   },
+   {
+    "field": "links[0]",
+    "href": "https://www.srel.uga.edu/",
+    "label": "🔍 SREL website"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.google.com/search?q=UGA+Savannah+River+Ecology+Lab+MS+research+assistantship+2026",
+    "label": "🔍 Search current SREL openings"
+   },
+   {
+    "field": "links[2]",
+    "href": "https://www.srel.uga.edu/people/",
+    "label": "srel.uga.edu/people"
+   }
+  ]
+ },
+ {
+  "id": "item-002",
+  "title": "University of Georgia — Savannah River Ecology Lab",
+  "org": "Athens, GA / Aiken, SC · Odum School of Ecology",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "url",
+    "href": "https://www.srel.uga.edu/",
+    "label": "🔍 SREL website"
+   },
+   {
+    "field": "links[0]",
+    "href": "https://www.srel.uga.edu/",
+    "label": "🔍 SREL website"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.google.com/search?q=UGA+Savannah+River+Ecology+Lab+MS+research+assistantship+2026",
+    "label": "🔍 Search current SREL openings"
+   },
+   {
+    "field": "links[2]",
+    "href": "https://www.srel.uga.edu/people/",
+    "label": "srel.uga.edu/people"
+   }
+  ]
+ },
+ {
+  "id": "item-003",
+  "title": "University of Southern Mississippi — Gulf Coast Research Lab",
+  "org": "Hattiesburg/Ocean Springs, MS · Marine Science",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.usm.edu/gcrl/",
+    "label": "🔍 USM GCRL website"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.google.com/search?q=USM+Gulf+Coast+Research+Lab+MS+marine+science+assistantship+2026",
+    "label": "🔍 Search GCRL openings"
+   }
+  ]
+ },
+ {
+  "id": "item-010",
+  "title": "University of Wyoming — Wildfire & Forest Resilience",
+  "org": "Laramie, WY · Forest Forensics & Dendroecology Lab",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "url",
+    "href": "https://www.uwyo.edu/haub/",
+    "label": "🔍 UW Haub School"
+   },
+   {
+    "field": "links[0]",
+    "href": "https://www.uwyo.edu/haub/",
+    "label": "🔍 UW Haub School"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.uwyo.edu/wycoop/",
+    "label": "🔍 Wyoming CFWRU"
+   },
+   {
+    "field": "links[2]",
+    "href": "https://www.uwyo.edu/haub/people/faculty/",
+    "label": "uwyo.edu/haub/people/faculty"
+   },
+   {
+    "field": "links[3]",
+    "href": "https://www.uwyo.edu/wycoop/personnel/",
+    "label": "uwyo.edu/wycoop/personnel"
+   }
+  ]
+ },
+ {
+  "id": "item-004",
+  "title": "University of Wyoming — Haub School",
+  "org": "Laramie, WY · Environment, Natural Resources & Society",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.uwyo.edu/haub/",
+    "label": "🔍 UW Haub School"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.uwyo.edu/wycoop/",
+    "label": "🔍 Wyoming CFWRU"
+   },
+   {
+    "field": "links[2]",
+    "href": "https://www.uwyo.edu/haub/people/faculty/",
+    "label": "uwyo.edu/haub/people/faculty"
+   },
+   {
+    "field": "links[3]",
+    "href": "https://www.uwyo.edu/wycoop/personnel/",
+    "label": "uwyo.edu/wycoop/personnel"
+   }
+  ]
+ },
+ {
+  "id": "item-014",
+  "title": "NC State University — Hurricane Helene Forest Recovery",
+  "org": "Raleigh, NC · Forestry & Environmental Resources",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://cnr.ncsu.edu/fer/",
+    "label": "🔍 NC State Dept. of Forestry & Env. Resources"
+   }
+  ]
+ },
+ {
+  "id": "item-005",
+  "title": "NC State University — Hurricane Helene Forest Recovery",
+  "org": "Raleigh, NC · Dept. of Forestry & Environmental Resources",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://cnr.ncsu.edu/fer/",
+    "label": "🔍 NC State Dept. of Forestry & Env. Resources"
+   }
+  ]
+ },
+ {
+  "id": "item-006",
+  "title": "Clemson University — Elmore Lab, Bird Response to Helene",
+  "org": "Clemson, SC · Dept. of Forestry & Environmental Conservation",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "url",
+    "href": "https://www.clemson.edu/cafls/academics/graduate/forest-resources.html",
+    "label": "🔍 Clemson FEC grad programs"
+   },
+   {
+    "field": "links[0]",
+    "href": "https://www.clemson.edu/cafls/academics/graduate/forest-resources.html",
+    "label": "🔍 Clemson FEC grad programs"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.google.com/search?q=Clemson+Elmore+Lab+bird+Hurricane+Helene+MS+assistantship+2026",
+    "label": "🔍 Search Clemson Elmore Lab position"
+   }
+  ]
+ },
+ {
+  "id": "item-017",
+  "title": "Auburn University — ACFWRU",
+  "org": "Auburn, AL · Biological Sciences / Natural Resources",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "url",
+    "href": "https://www.auburn.edu/cosam/departments/biology/research/alabamacfwru/",
+    "label": "🔍 Auburn ACFWRU website"
+   },
+   {
+    "field": "links[0]",
+    "href": "https://www.auburn.edu/cosam/departments/biology/research/alabamacfwru/",
+    "label": "🔍 Auburn ACFWRU website"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.google.com/search?q=Auburn+Alabama+Cooperative+Fish+Wildlife+Research+Unit+MS+assistantship+2026",
+    "label": "🔍 Search Auburn ACFWRU openings"
+   }
+  ]
+ },
+ {
+  "id": "item-007",
+  "title": "Auburn University — Alabama CFWRU",
+  "org": "Auburn, AL · Biological Sciences / Natural Resources",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.auburn.edu/cosam/departments/biology/research/alabamacfwru/",
+    "label": "🔍 Auburn ACFWRU website"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.google.com/search?q=Auburn+Alabama+Cooperative+Fish+Wildlife+Research+Unit+MS+assistantship+2026",
+    "label": "🔍 Search Auburn ACFWRU openings"
+   }
+  ]
+ },
+ {
+  "id": "item-015",
+  "title": "Mississippi State University — Forest Hydrology & Soils Lab",
+  "org": "Starkville, MS · Dept. of Forestry",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.forestry.msstate.edu/",
+    "label": "🔍 MSU Dept. of Forestry"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.google.com/search?q=Courtney+Siegert+Mississippi+State+Forest+Hydrology+Soils+Lab+NSF+graduate+assistantship",
+    "label": "🔍 Search Dr. Siegert lab"
+   }
+  ]
+ },
+ {
+  "id": "item-012",
+  "title": "Mississippi State University — Geosystems Research Institute",
+  "org": "Starkville, MS · GIS & Health Geography",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "url",
+    "href": "https://www.cfr.msstate.edu/",
+    "label": "🔍 MSU College of Forest Resources"
+   },
+   {
+    "field": "links[0]",
+    "href": "https://www.gri.msstate.edu/",
+    "label": "🔍 MSU GRI website"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.google.com/search?q=Mississippi+State+Geosystems+Research+Institute+GIS+MS+PhD+assistantship+2026",
+    "label": "🔍 Search MSU GRI openings"
+   }
+  ]
+ },
+ {
+  "id": "item-008",
+  "title": "Mississippi State University — Forest & Wildlife Research Center",
+  "org": "Starkville, MS · Dept. of Wildlife, Fisheries & Aquaculture",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.cfr.msstate.edu/",
+    "label": "🔍 MSU College of Forest Resources"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.google.com/search?q=Mississippi+State+wildlife+fisheries+aquaculture+MS+funded+research+assistantship+2026",
+    "label": "🔍 Search MSU wildlife MS openings"
+   }
+  ]
+ },
+ {
+  "id": "item-011",
+  "title": "CU Boulder — INSTAAR / Environmental Studies",
+  "org": "Boulder, CO",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "url",
+    "href": "https://www.uwyo.edu/haub/",
+    "label": "🔍 UW Haub School"
+   },
+   {
+    "field": "links[0]",
+    "href": "https://warnercnr.colostate.edu/ess/graduate-programs/graduate-research-opportunities/",
+    "label": "🔍 CSU active grad opportunities"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://ecology.colostate.edu/assistantships/",
+    "label": "🔍 GDPE assistantships"
+   },
+   {
+    "field": "links[2]",
+    "href": "https://www.uwyo.edu/haub/",
+    "label": "🔍 UW Haub School"
+   },
+   {
+    "field": "links[3]",
+    "href": "https://www.google.com/search?q=University+Wyoming+Forest+Forensics+Dendroecology+Lab+LiDAR+wildfire+MS+assistantship+2026",
+    "label": "🔍 Search UWyo wildfire MS position"
+   },
+   {
+    "field": "links[4]",
+    "href": "https://instaar.colorado.edu/",
+    "label": "🔍 INSTAAR website"
+   },
+   {
+    "field": "links[5]",
+    "href": "https://www.colorado.edu/envs/graduate",
+    "label": "🔍 CU Environmental Studies grad program"
+   },
+   {
+    "field": "links[6]",
+    "href": "https://instaar.colorado.edu/people/faculty/",
+    "label": "instaar.colorado.edu/people/faculty"
+   }
+  ]
+ },
+ {
+  "id": "item-013",
+  "title": "University of Montana — Environmental Studies",
+  "org": "Missoula, MT · WICHE eligible for Colorado residents",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "url",
+    "href": "https://www.gri.msstate.edu/",
+    "label": "🔍 MSU GRI website"
+   },
+   {
+    "field": "links[0]",
+    "href": "https://www.gri.msstate.edu/",
+    "label": "🔍 MSU GRI website"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.google.com/search?q=Mississippi+State+Geosystems+Research+Institute+GIS+MS+PhD+assistantship+2026",
+    "label": "🔍 Search MSU GRI openings"
+   },
+   {
+    "field": "links[2]",
+    "href": "https://www.umt.edu/environmental-studies/graduate/",
+    "label": "🔍 UM Environmental Studies grad"
+   },
+   {
+    "field": "links[3]",
+    "href": "https://www.wiche.edu/tuition-savings/wrgp/",
+    "label": "🔍 WICHE tuition savings info"
+   },
+   {
+    "field": "links[4]",
+    "href": "https://www.umt.edu/environmental-studies/people/faculty.php",
+    "label": "umt.edu/environmental-studies/people/faculty"
+   }
+  ]
+ },
+ {
+  "id": "item-045",
+  "title": "NC State University — Dept. of Forestry & Environmental Resources",
+  "org": "Raleigh, NC · MS Forestry / Natural Resources — thesis track",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://cnr.ncsu.edu/fer/",
+    "label": "🔍 NC State Forestry & Environmental Resources"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://cnr.ncsu.edu/geospatial/academics/phd-in-geospatial-analytics/graduate-assistantships/",
+    "label": "🔍 NC State Center for Geospatial Analytics — GIS assistantships (PhD, $30k+)"
+   }
+  ]
+ },
+ {
+  "id": "item-046",
+  "title": "Purdue University — Dept. of Forestry & Natural Resources",
+  "org": "West Lafayette, IN · MS Environmental Science / Natural Reso",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.purdue.edu/gradschool/prospective/gradrequirements/westlafayette/fnr.html",
+    "label": "🔍 Purdue FNR graduate program"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.google.com/search?q=Purdue+Jo+Lab+soil+contamination+vegetation+MS+assistantship+2026+2027",
+    "label": "🔍 Search Purdue Jo Lab MS openings"
+   }
+  ]
+ },
+ {
+  "id": "item-047",
+  "title": "Louisiana State University — Wetland & Aquatic Biogeochemistry Lab",
+  "org": "Baton Rouge, LA · MS Oceanography & Coastal Sciences",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://faculty.lsu.edu/whitelab/graduateassistantships.php",
+    "label": "🔍 LSU WABL assistantships"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://faculty.lsu.edu/whitelab/",
+    "label": "🔍 WABL lab website"
+   }
+  ]
+ },
+ {
+  "id": "item-048",
+  "title": "University of Montana — MS Wildlife Biology",
+  "org": "Missoula, MT · Wildlife Biology Program",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.umt.edu/wildlife-biology/graduate/ms-wbio/",
+    "label": "🔍 UM Wildlife Biology MS program"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.umt.edu/wildlife-biology/people/faculty/",
+    "label": "🔍 Browse UM Wildlife Biology faculty"
+   }
+  ]
+ },
+ {
+  "id": "item-049",
+  "title": "Mississippi State University — Wildlife, Fisheries & Aquaculture",
+  "org": "Starkville, MS · MS Wildlife or Fisheries",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.wildlifefisheries.msstate.edu/students/graduate-programs.php",
+    "label": "🔍 MSU WFA graduate programs"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.cfr.msstate.edu/job-board/",
+    "label": "🔍 MSU College of Forest Resources job board"
+   },
+   {
+    "field": "links[2]",
+    "href": "https://www.gri.msstate.edu/",
+    "label": "🔍 MSU Geosystems Research Institute (GIS/health)"
+   }
+  ]
+ },
+ {
+  "id": "item-050",
+  "title": "Colorado State University — Ecosystem Science & Sustainability / GDPE",
+  "org": "Fort Collins, CO · MS or PhD — multiple departments",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://warnercnr.colostate.edu/ess/graduate-programs/graduate-research-opportunities/",
+    "label": "🔍 CSU active grad opportunities"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://ecology.colostate.edu/assistantships/",
+    "label": "🔍 CSU Ecology (GDPE) assistantships"
+   }
+  ]
+ },
+ {
+  "id": "item-051",
+  "title": "University of Minnesota — Water Resources Science Program",
+  "org": "St. Paul, MN · MS Water Resources Science (interdisciplinary",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "url",
+    "href": "https://wrs.umn.edu/prospective-students",
+    "label": "🔍 UMN Water Resources Science admissions"
+   },
+   {
+    "field": "links[0]",
+    "href": "https://wrs.umn.edu/prospective-students",
+    "label": "🔍 UMN Water Resources Science admissions"
+   }
+  ]
+ },
+ {
+  "id": "item-052",
+  "title": "SUNY College of Environmental Science & Forestry (ESF) — Waterfowl & Wetlands MP",
+  "org": "Syracuse, NY · Master of Professional Studies — Ecological R",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "url",
+    "href": "https://careers.wildlife.org/jobs/industry/Ecology/",
+    "label": "🔍 SUNY ESF Waterfowl & Wetlands MPS listing (Wildlife Society)"
+   },
+   {
+    "field": "links[0]",
+    "href": "https://careers.wildlife.org/jobs/industry/Ecology/",
+    "label": "🔍 SUNY ESF Waterfowl & Wetlands MPS listing (Wildlife Society)"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.esf.edu/graduate/",
+    "label": "🔍 SUNY ESF Graduate Admissions"
+   }
+  ]
+ },
+ {
+  "id": "item-078",
+  "title": "Dauphin Island Sea Lab — Fisheries Ecology Lab Internship (Dr. Sean Powers)",
+  "org": "Dauphin Island, AL · Mobile Bay / Gulf of Mexico",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.disl.edu/university-programs/boats/",
+    "label": "Apply at DISL website →"
+   }
+  ]
+ },
+ {
+  "id": "item-019",
+  "title": "USGS South Atlantic Water Science Center (SAWSC) — Student Corps",
+  "org": "US Geological Survey · North Carolina, South Carolina & Geor",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "url",
+    "href": "https://www.usgs.gov/centers/sawsc/science/south-atlantic-water-science-center-sawsc-student-corps-employment",
+    "label": "🔍 SAWSC Student Corps page"
+   },
+   {
+    "field": "url2",
+    "href": "mailto:gs-sawscsc@usgs.gov",
+    "label": "✉ gs-sawscsc@usgs.gov — contact for upcoming vacancies"
+   },
+   {
+    "field": "links[0]",
+    "href": "https://www.usgs.gov/centers/sawsc/science/south-atlantic-water-science-center-sawsc-student-corps-employment",
+    "label": "🔍 SAWSC Student Corps page"
+   },
+   {
+    "field": "links[2]",
+    "href": "https://www.usajobs.gov/Search/Results?a=USGS&hp=student",
+    "label": "🔍 USAJobs USGS student positions"
+   }
+  ]
+ },
+ {
+  "id": "item-020",
+  "title": "EPA Office of Water — Student Volunteer Internship",
+  "org": "US Environmental Protection Agency · Washington, DC (Office ",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "url",
+    "href": "https://www.epa.gov/careers/student-volunteer-internships-20252026-office-water-washington-dc",
+    "label": "🔍 EPA Office of Water internship listing"
+   },
+   {
+    "field": "url2",
+    "href": "https://www.epa.gov/careers",
+    "label": "🔍 EPA Careers page"
+   },
+   {
+    "field": "links[0]",
+    "href": "https://www.epa.gov/careers/student-volunteer-internships-20252026-office-water-washington-dc",
+    "label": "🔍 EPA Office of Water internship listing"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.epa.gov/careers",
+    "label": "🔍 EPA Careers page"
+   }
+  ]
+ },
+ {
+  "id": "item-021",
+  "title": "USFWS Pathways Internship — Biological Science Student Trainee",
+  "org": "US Fish & Wildlife Service · Multiple National Wildlife Refu",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.usajobs.gov/Search/Results?hp=student&a=FWS&k=biological+science",
+    "label": "🔍 USAJobs: USFWS Biological Science student positions"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.fws.gov/careers",
+    "label": "🔍 USFWS Careers page"
+   }
+  ]
+ },
+ {
+  "id": "item-022",
+  "title": "USGS Pathways Recent Graduate Program — Hydrologist / Physical Scientist",
+  "org": "US Geological Survey · Various Water Science Centers nationw",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.usgs.gov/human-capital/internship-recent-graduate-and-fellowship-opportunities",
+    "label": "🔍 USGS Pathways opportunities"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.usajobs.gov/Search/Results?hp=rg&a=USGS",
+    "label": "🔍 USAJobs: USGS Recent Graduate positions"
+   }
+  ]
+ },
+ {
+  "id": "item-023",
+  "title": "Environmental Technician Internship — Summer 2026",
+  "org": "Wetland Studies and Solutions, Inc. (WSSI) · Gainesville, VA",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.wetlands.com/careers/internships/",
+    "label": "🔍 WSSI Summer 2026 internship listings (apply here)"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.wetlands.com/careers/current-openings/",
+    "label": "🔍 WSSI permanent openings (Raleigh EC Technician)"
+   }
+  ]
+ },
+ {
+  "id": "item-025",
+  "title": "Natural Resources Intern — Stream Surveying & Wetland Delineation",
+  "org": "KCI Technologies, Inc. · Nashville, TN",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "url",
+    "href": "https://www.eroresources.com/careers",
+    "label": "🔍 ERO Resources careers page"
+   },
+   {
+    "field": "url2",
+    "href": "https://www.google.com/search?q=ERO+Resources+Corporation+natural+resources+ecology+internship+2026",
+    "label": "🔍 Search ERO Resources internship 2026"
+   },
+   {
+    "field": "links[0]",
+    "href": "https://www.eroresources.com/careers",
+    "label": "🔍 ERO Resources careers page"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.google.com/search?q=ERO+Resources+Corporation+natural+resources+ecology+internship+2026",
+    "label": "🔍 Search ERO Resources internship 2026"
+   }
+  ]
+ },
+ {
+  "id": "item-024",
+  "title": "Natural Resources Internship — Ecology Team",
+  "org": "ERO Resources Corporation · Lakewood, CO",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.eroresources.com/careers",
+    "label": "🔍 ERO Resources careers page"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.google.com/search?q=ERO+Resources+Corporation+natural+resources+ecology+internship+2026",
+    "label": "🔍 Search ERO Resources internship 2026"
+   }
+  ]
+ },
+ {
+  "id": "item-026",
+  "title": "Science Intern — Fall 2026",
+  "org": "Earthjustice · Washington, DC Regional Office (remote/hybrid",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.kci.com/careers/",
+    "label": "🔍 KCI Technologies careers page"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.google.com/search?q=KCI+Technologies+natural+resources+intern+Nashville+Tennessee+2026",
+    "label": "🔍 Search KCI Nashville internship 2026"
+   },
+   {
+    "field": "links[2]",
+    "href": "https://www.greenjobsboard.us/jobs/fall-2026-science-internship---washington-dc-regional-office",
+    "label": "🔍 Earthjustice Fall 2026 Science Intern listing"
+   },
+   {
+    "field": "links[3]",
+    "href": "https://earthjustice.org/about/jobs",
+    "label": "🔍 Earthjustice jobs page"
+   }
+  ]
+ },
+ {
+  "id": "item-028",
+  "title": "Research Internship — Wetland Ecology & Water Quality",
+  "org": "Jug Bay Wetlands Sanctuary · Lothian, MD (Anne Arundel Count",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "url",
+    "href": "https://wetlandsinstitute.org/education/internship-opportunities/",
+    "label": "🔍 Wetlands Institute internship applications"
+   },
+   {
+    "field": "links[0]",
+    "href": "https://wetlandsinstitute.org/education/internship-opportunities/",
+    "label": "🔍 Wetlands Institute internship applications"
+   }
+  ]
+ },
+ {
+  "id": "item-027",
+  "title": "Research Internship — Wetland Ecology",
+  "org": "The Wetlands Institute · Stone Harbor, NJ",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://wetlandsinstitute.org/education/internship-opportunities/",
+    "label": "🔍 Wetlands Institute internship applications"
+   }
+  ]
+ },
+ {
+  "id": "item-053",
+  "title": "USGS Pathways Recent Graduate Program — Hydrologist / Physical Scientist",
+  "org": "US Geological Survey · South Atlantic Water Science Center (",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.usgs.gov/human-capital/internship-recent-graduate-and-fellowship-opportunities",
+    "label": "🔍 USGS Pathways opportunities"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.usajobs.gov/Search/Results?hp=rg&a=USGS",
+    "label": "🔍 USAJobs: USGS Recent Graduate positions"
+   },
+   {
+    "field": "links[3]",
+    "href": "https://www.usgs.gov/centers/sawsc/science/south-atlantic-water-science-center-sawsc-student-corps-employment",
+    "label": "usgs.gov/centers/sawsc"
+   }
+  ]
+ },
+ {
+  "id": "item-054",
+  "title": "EPA Office of Water — Student Volunteer Internship (Fall 2026–Spring 2027 cycle)",
+  "org": "US Environmental Protection Agency · Office of Wetlands, Oce",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.epa.gov/careers/student-volunteer-internships-20252026-office-water-washington-dc",
+    "label": "🔍 Current cycle listing (for reference)"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.epa.gov/careers",
+    "label": "🔍 EPA Careers — watch for fall 2026 posting"
+   }
+  ]
+ },
+ {
+  "id": "item-055",
+  "title": "USFWS Pathways Internship — Biological Science Student Trainee (GS-0404)",
+  "org": "US Fish & Wildlife Service · Region 4 — Southeast National W",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.usajobs.gov/Search/Results?hp=student&a=FWS&k=biological+science",
+    "label": "🔍 USAJobs: USFWS Biological Science student positions"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.fws.gov/careers",
+    "label": "🔍 USFWS Careers page"
+   }
+  ]
+ },
+ {
+  "id": "item-056",
+  "title": "USGS Wetland Ecology Internship — Great Lakes & Southeast Science Centers",
+  "org": "US Geological Survey · Wetland Ecosystem Research",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "url",
+    "href": "https://www.usgs.gov/special-topics/national-science-foundation/usgs-internship-opportunities/ecologyecosystems-research",
+    "label": "🔍 USGS Ecology/Ecosystems internship opportunities"
+   },
+   {
+    "field": "links[0]",
+    "href": "https://www.usgs.gov/special-topics/national-science-foundation/usgs-internship-opportunities/ecologyecosystems-research",
+    "label": "🔍 USGS Ecology/Ecosystems internship opportunities"
+   }
+  ]
+ },
+ {
+  "id": "item-057",
+  "title": "Natural Resource Scientist / Environmental Technician — Fall/Year-Round Hire",
+  "org": "RK&K Engineers · Raleigh, NC",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.indeed.com/q-entry-level-environmental-l-north-carolina-jobs.html",
+    "label": "🔍 Search entry-level environmental NC (Indeed)"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.rkk.com/careers",
+    "label": "🔍 RK&K Careers page"
+   }
+  ]
+ },
+ {
+  "id": "item-058",
+  "title": "Entry-Level Environmental Scientist — SE Region",
+  "org": "Tetra Tech / AECOM / Geosyntec · Raleigh NC, Asheville NC, C",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.tetratech.com/en/careers",
+    "label": "🔍 Tetra Tech Careers"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://aecom.com/careers/",
+    "label": "🔍 AECOM Careers"
+   },
+   {
+    "field": "links[2]",
+    "href": "https://www.geosyntec.com/about/careers",
+    "label": "🔍 Geosyntec Careers (Asheville office)"
+   },
+   {
+    "field": "links[3]",
+    "href": "https://www.indeed.com/q-entry-level-wetland-jobs.html",
+    "label": "🔍 Indeed: entry-level wetland positions"
+   }
+  ]
+ },
+ {
+  "id": "item-059",
+  "title": "Georgia Southern University — MROC2S Postbac Research Fellowship",
+  "org": "Georgia Southern University / NSF RaMP Program · Statesboro,",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://ecophys-jobs.org/temp.html",
+    "label": "🔍 ecophys-jobs.org temp/seasonal listings (watch for 2027 posting)"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.georgiasouthern.edu/cosm/biology/",
+    "label": "🔍 Georgia Southern Department of Biology"
+   }
+  ]
+ },
+ {
+  "id": "item-060",
+  "title": "Jug Bay Wetlands Sanctuary — Research Internship (2027 cycle)",
+  "org": "Jug Bay Wetlands Sanctuary / USGS · Lothian, MD (Chesapeake ",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://jugbay.org/internships-2/",
+    "label": "🔍 Jug Bay internship program (watch for 2027)"
+   }
+  ]
+ },
+ {
+  "id": "item-081",
+  "title": "Environmental Scientist I — Wetland Delineation & Stream Assessment",
+  "org": "Wildlands Engineering · Charlotte, NC / Asheville, NC / Knox",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "url",
+    "href": "https://www.wildlandseng.com/career-opportunities/",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "id": "item-082",
+  "title": "Environmental Compliance Technician — Raleigh, NC",
+  "org": "WSSI (Wetland Studies and Solutions, Inc.) · Raleigh, NC",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "url",
+    "href": "https://www.wetlands.com/careers/current-openings/",
+    "label": ""
+   },
+   {
+    "field": "links[0]",
+    "href": "https://www.wildlandseng.com/career-opportunities/",
+    "label": "🔗 Apply / View posting &rarr;"
+   }
+  ]
+ },
+ {
+  "id": "item-083",
+  "title": "Field Scientist / Environmental Scientist — Ecological Restoration",
+  "org": "RES (Resource Environmental Solutions) · Southeast Region",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "url",
+    "href": "https://res.us/careers",
+    "label": ""
+   },
+   {
+    "field": "links[0]",
+    "href": "https://www.wetlands.com/careers/current-openings/",
+    "label": "🔗 Apply / View posting &rarr;"
+   }
+  ]
+ },
+ {
+  "id": "item-084",
+  "title": "Natural Resource Scientist / Wetland Scientist I",
+  "org": "RK&K Engineering · Raleigh, NC",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "url",
+    "href": "https://www.rkk.com/careers/",
+    "label": ""
+   },
+   {
+    "field": "links[0]",
+    "href": "https://res.us/careers",
+    "label": "🔗 Apply / View posting &rarr;"
+   }
+  ]
+ },
+ {
+  "id": "item-029",
+  "title": "Hydrologic Technician / Environmental Science Technician",
+  "org": "USGS South Atlantic Water Science Center (SAWSC) · NC, SC & ",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.usgs.gov/centers/sawsc/science/south-atlantic-water-science-center-sawsc-student-corps-employment",
+    "label": "🔍 SAWSC employment page"
+   },
+   {
+    "field": "links[2]",
+    "href": "https://www.usajobs.gov/Search/Results?a=USGS&k=hydrologic+technician",
+    "label": "🔍 USAJobs: USGS Hydrologic Technician"
+   }
+  ]
+ },
+ {
+  "id": "item-030",
+  "title": "Biological Science Technician (GS-0404)",
+  "org": "US Fish & Wildlife Service · Southeast Region (Region 4) NWR",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "url",
+    "href": "https://www.usajobs.gov/Search/Results?a=FWS&k=biological+science+technician&Series=0404",
+    "label": "🔍 USAJobs: USFWS Biological Science Technician"
+   },
+   {
+    "field": "url2",
+    "href": "https://www.fws.gov/careers",
+    "label": "🔍 USFWS Careers"
+   },
+   {
+    "field": "links[0]",
+    "href": "https://www.usajobs.gov/Search/Results?a=FWS&k=biological+science+technician&Series=0404",
+    "label": "🔍 USAJobs: USFWS Biological Science Technician"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.fws.gov/careers",
+    "label": "🔍 USFWS Careers"
+   }
+  ]
+ },
+ {
+  "id": "item-031",
+  "title": "Environmental Science / Natural Resources Specialist",
+  "org": "US Army Corps of Engineers · Wilmington District (NC/SC) or ",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.usajobs.gov/Search/Results?a=USACE&k=natural+resources+biologist+wetlands",
+    "label": "🔍 USAJobs: Army Corps biologist/natural resources"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.sas.usace.army.mil/Careers/",
+    "label": "🔍 Savannah District careers"
+   },
+   {
+    "field": "links[2]",
+    "href": "https://www.saw.usace.army.mil/Careers/",
+    "label": "🔍 Wilmington District careers"
+   }
+  ]
+ },
+ {
+  "id": "item-032",
+  "title": "Environmental Specialist I — Water Quality or Wetlands",
+  "org": "NC Department of Environmental Quality (NC DEQ) · Raleigh & ",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "url",
+    "href": "https://deq.nc.gov/careers",
+    "label": "🔍 NC DEQ Careers page"
+   },
+   {
+    "field": "url2",
+    "href": "https://www.governmentjobs.com/careers/northcarolina?keywords=environmental+specialist+water",
+    "label": "🔍 NC state job board — environmental specialist"
+   },
+   {
+    "field": "links[0]",
+    "href": "https://deq.nc.gov/careers",
+    "label": "🔍 NC DEQ Careers page"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.governmentjobs.com/careers/northcarolina?keywords=environmental+specialist+water",
+    "label": "🔍 NC state job board — environmental specialist"
+   }
+  ]
+ },
+ {
+  "id": "item-033",
+  "title": "Wildlife Biologist I / Wildlife Technician",
+  "org": "NC Wildlife Resources Commission (NCWRC) · Statewide",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.ncwildlife.org/About-Us/Careers",
+    "label": "🔍 NCWRC Careers page"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.google.com/search?q=NC+Wildlife+Resources+Commission+wildlife+biologist+technician+entry+level+2026",
+    "label": "🔍 Search NCWRC openings 2026"
+   }
+  ]
+ },
+ {
+  "id": "item-034",
+  "title": "Environmental Compliance Technician",
+  "org": "Wetland Studies and Solutions, Inc. (WSSI) · Raleigh, NC",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.wetlands.com/careers/current-openings/",
+    "label": "🔍 WSSI current openings (apply here)"
+   }
+  ]
+ },
+ {
+  "id": "item-036",
+  "title": "Environmental Compliance Technician",
+  "org": "Davey Tree Expert Company · Raleigh, NC",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.wetlands.com/careers/current-openings/",
+    "label": "🔍 WSSI current openings (apply here)"
+   }
+  ]
+ },
+ {
+  "id": "item-035",
+  "title": "Staff Environmental Scientist / Environmental Scientist I",
+  "org": "ECS Federal, Terracon, Cardno, Stantec, WSP, Kimley-Horn · S",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.ecsfederal.com/careers",
+    "label": "🔍 ECS Federal Careers"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.terracon.com/careers/",
+    "label": "🔍 Terracon Careers"
+   },
+   {
+    "field": "links[2]",
+    "href": "https://www.stantec.com/en/careers",
+    "label": "🔍 Stantec Careers"
+   },
+   {
+    "field": "links[3]",
+    "href": "https://www.google.com/search?q=environmental+scientist+I+wetland+delineation+entry+level+NC+SC+CO+consulting+2026",
+    "label": "🔍 Search consulting environmental scientist I positions"
+   }
+  ]
+ },
+ {
+  "id": "item-037",
+  "title": "Conservation Scientist / GIS Analyst — Land Protection",
+  "org": "The Nature Conservancy (TNC) · NC, SC, CO chapters",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.nature.org/en-us/about-us/careers/",
+    "label": "🔍 TNC Careers page"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.google.com/search?q=The+Nature+Conservancy+GIS+analyst+conservation+scientist+entry+level+NC+SC+CO+2026",
+    "label": "🔍 Search TNC entry-level positions 2026"
+   },
+   {
+    "field": "links[2]",
+    "href": "https://appalachian.org/about/careers/",
+    "label": "appalachian.org/about/careers"
+   }
+  ]
+ },
+ {
+  "id": "item-085",
+  "title": "Entry-Level Environmental Scientist — SE Region",
+  "org": "AECOM · Georgia / Alabama / Florida / South Carolina",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "url",
+    "href": "https://aecom.com/careers/",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "id": "item-086",
+  "title": "Early-Career Environmental Scientist — Contaminated Site Assessment",
+  "org": "Geosyntec Consultants · Raleigh, NC (Carolinas office)",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "url",
+    "href": "https://www.geosyntec.com/careers",
+    "label": ""
+   },
+   {
+    "field": "links[0]",
+    "href": "https://aecom.com/careers/",
+    "label": "🔗 Apply / View posting &rarr;"
+   }
+  ]
+ },
+ {
+  "id": "item-061",
+  "title": "Hydrologic Technician / Environmental Science Technician (GS-1316 / GS-1301)",
+  "org": "USGS South Atlantic Water Science Center · NC, SC & GA offic",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.usgs.gov/centers/sawsc/science/south-atlantic-water-science-center-sawsc-student-corps-employment",
+    "label": "🔍 SAWSC employment page"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.usajobs.gov/Search/Results?a=USGS&k=hydrologic+technician",
+    "label": "🔍 USAJobs: USGS Hydrologic Technician"
+   },
+   {
+    "field": "links[3]",
+    "href": "https://www.usgs.gov/centers/sawsc",
+    "label": "usgs.gov/centers/sawsc"
+   }
+  ]
+ },
+ {
+  "id": "item-062",
+  "title": "Biological Science Technician (GS-0404) — SE Region National Wildlife Refuges",
+  "org": "US Fish & Wildlife Service · Region 4 — NC, SC, GA, TN, AL, ",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "url",
+    "href": "https://www.usajobs.gov/Search/Results?a=FWS&k=biological+science+technician&Series=0404",
+    "label": "🔍 USAJobs: USFWS Biological Science Technician"
+   },
+   {
+    "field": "url2",
+    "href": "https://www.fws.gov/careers",
+    "label": "🔍 USFWS Careers"
+   },
+   {
+    "field": "links[0]",
+    "href": "https://www.usajobs.gov/Search/Results?a=FWS&k=biological+science+technician&Series=0404",
+    "label": "🔍 USAJobs: USFWS Biological Science Technician"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.fws.gov/careers",
+    "label": "🔍 USFWS Careers"
+   }
+  ]
+ },
+ {
+  "id": "item-063",
+  "title": "Natural Resources Specialist / Environmental Scientist — 401/404 Permitting",
+  "org": "US Army Corps of Engineers · Wilmington District (NC/SC) or ",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.usajobs.gov/Search/Results?a=USACE&k=natural+resources+biologist+wetlands",
+    "label": "🔍 USAJobs: Army Corps biologist/natural resources"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.saw.usace.army.mil/Careers/",
+    "label": "🔍 Wilmington District careers"
+   },
+   {
+    "field": "links[2]",
+    "href": "https://www.sas.usace.army.mil/Careers/",
+    "label": "🔍 Savannah District careers"
+   }
+  ]
+ },
+ {
+  "id": "item-064",
+  "title": "Environmental Specialist I — Water Quality / Wetlands Division",
+  "org": "NC Department of Environmental Quality (NC DEQ) · Asheville ",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://deq.nc.gov/careers",
+    "label": "🔍 NC DEQ Careers page"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.governmentjobs.com/careers/northcarolina?keywords=environmental+specialist+water",
+    "label": "🔍 NC state job board — environmental specialist"
+   }
+  ]
+ },
+ {
+  "id": "item-065",
+  "title": "Wildlife Biologist I / Wildlife Technician",
+  "org": "NC Wildlife Resources Commission (NCWRC) · Mountain & Piedmo",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.ncwildlife.org/About-Us/Careers",
+    "label": "🔍 NCWRC Careers page"
+   }
+  ]
+ },
+ {
+  "id": "item-066",
+  "title": "Environmental Compliance Technician / Staff Environmental Scientist",
+  "org": "WSSI, CDM Smith, Tetra Tech, ECS Federal, Kimley-Horn · Rale",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.wetlands.com/careers/current-openings/",
+    "label": "🔍 WSSI current openings (Raleigh — active)"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.cdmsmith.com/en/Careers",
+    "label": "🔍 CDM Smith Careers"
+   },
+   {
+    "field": "links[2]",
+    "href": "https://www.ecsfederal.com/careers",
+    "label": "🔍 ECS Federal Careers"
+   },
+   {
+    "field": "links[3]",
+    "href": "https://www.kimley-horn.com/careers/",
+    "label": "🔍 Kimley-Horn Careers (Raleigh HQ)"
+   },
+   {
+    "field": "links[4]",
+    "href": "https://www.ziprecruiter.com/Jobs/Entry-Level-Wetland-Delineation",
+    "label": "🔍 ZipRecruiter: entry-level wetland delineation"
+   }
+  ]
+ },
+ {
+  "id": "item-038",
+  "title": "BLM Wetlands & Wildlife Technician — Individual Placement",
+  "org": "Southwest Conservation Corps / Bureau of Land Management · S",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://jobs.fire-up.net/companies/conservation-legacy/jobs/76033896-blm-wetlands-wildlife-technician-individual-placement-americorps",
+    "label": "🔍 Original position listing (FireUp)"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.southwestconservationcorps.org/individual-placements",
+    "label": "🔍 SCC Individual Placements — watch for 2027 version"
+   }
+  ]
+ },
+ {
+  "id": "item-039",
+  "title": "Environmental Conservation Corps — Restoration Crew & Community Restoration Memb",
+  "org": "The Sustainability Institute · Charleston / Lowcountry, SC &",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://sustainabilityinstitutesc.org/programs/environmental-conservation-corps/join-americorps/",
+    "label": "🔍 Apply: ECC AmeriCorps positions"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://sustainabilityinstitutesc.org/ecc/join-americorps/",
+    "label": "🔍 Full position descriptions"
+   }
+  ]
+ },
+ {
+  "id": "item-040",
+  "title": "Biological Science Technician — Individual Placement, Cherokee National Forest",
+  "org": "Southeast Conservation Corps / US Forest Service · Cherokee ",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://southeastconservationcorps.org/individual-placements",
+    "label": "🔍 SECC Individual Placements page"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://southeastconservationcorps.org/apply",
+    "label": "🔍 Apply to SECC"
+   }
+  ]
+ },
+ {
+  "id": "item-042",
+  "title": "Biological Science Individual Placement — USFWS Military Lands Conservation, Kir",
+  "org": "Conservation Corps New Mexico (CCNM) / US Fish & Wildlife Se",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "url",
+    "href": "https://southeastconservationcorps.org/individual-placements",
+    "label": "🔍 SECC Individual Placements page"
+   },
+   {
+    "field": "url2",
+    "href": "https://southeastconservationcorps.org/apply",
+    "label": "🔍 Apply to SECC"
+   },
+   {
+    "field": "links[0]",
+    "href": "https://www.indeed.com/viewjob?jk=f56105f0a34583fb",
+    "label": "🔍 Original listing (Indeed)"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.conservationlegacy.org/ccnm",
+    "label": "🔍 Conservation Corps New Mexico (CCNM)"
+   }
+  ]
+ },
+ {
+  "id": "item-041",
+  "title": "Wildlife Monitoring Individual Placement — Wichita Mountains Wildlife Refuge",
+  "org": "American Youthworks / US Fish & Wildlife Service · Fort Sill",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://americanyouthworks.org/what-we-do/cc/open-positions",
+    "label": "🔍 American Youthworks open positions"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.google.com/search?q=American+Youthworks+Wichita+Mountains+wildlife+AmeriCorps+2026",
+    "label": "🔍 Search for current status"
+   }
+  ]
+ },
+ {
+  "id": "item-043",
+  "title": "Stewards Individual Placements — GIS Mapping, Species Inventory & Land Managemen",
+  "org": "Stewards Individual Placement Program / Conservation Legacy ",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://stewardslegacy.org/open-positions",
+    "label": "🔍 Stewards open positions (apply here)"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://stewardslegacy.org/join",
+    "label": "🔍 Stewards program overview"
+   }
+  ]
+ },
+ {
+  "id": "item-044",
+  "title": "Environmental Compliance Intern — US Army Corps of Engineers",
+  "org": "The Corps Network / US Army Corps of Engineers · Multiple lo",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://corpsnetwork.org/jobs-at-corps/",
+    "label": "🔍 Corps Network jobs board"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://corpsnetwork.org/job-openings/internship-usace-environmental-compliance/",
+    "label": "🔍 USACE Environmental Compliance listing"
+   }
+  ]
+ },
+ {
+  "id": "item-067",
+  "title": "BLM Wetlands & Wildlife Technician — Individual Placement (2026–27 cycle)",
+  "org": "Southwest Conservation Corps / Bureau of Land Management · S",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.southwestconservationcorps.org/individual-placements",
+    "label": "🔍 SCC Individual Placements — watch for 2026–27 version"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://jobs.fire-up.net/jobs?q=wetlands+wildlife+BLM",
+    "label": "🔍 FireUp: BLM wetlands/wildlife AmeriCorps"
+   },
+   {
+    "field": "links[3]",
+    "href": "https://conservationcorps.org/join/",
+    "label": "Browse open positions →"
+   },
+   {
+    "field": "links[4]",
+    "href": "https://jobs.fire-up.net",
+    "label": "jobs.fire-up.net"
+   }
+  ]
+ },
+ {
+  "id": "item-068",
+  "title": "Stewards Individual Placements — GIS Mapping, Species Inventory & Land Managemen",
+  "org": "Conservation Legacy / Stewards · BLM, USFS, NPS, USFWS — mul",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://stewardslegacy.org/open-positions",
+    "label": "🔍 Stewards open positions (apply here — updates daily)"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://stewardslegacy.org/JOIN",
+    "label": "🔍 Stewards program overview"
+   }
+  ]
+ },
+ {
+  "id": "item-069",
+  "title": "Biological Science Technician IP — Cherokee & Pisgah National Forests",
+  "org": "Southeast Conservation Corps / US Forest Service · Eastern T",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://southeastconservationcorps.org/individual-placements",
+    "label": "🔍 SECC Individual Placements"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://southeastconservationcorps.org/apply",
+    "label": "🔍 Apply to SECC"
+   }
+  ]
+ },
+ {
+  "id": "item-070",
+  "title": "Wildlife Monitoring IP — Wichita Mountains Wildlife Refuge (2026 cycle)",
+  "org": "American Youthworks / USFWS · Fort Sill / Lawton, OK",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://americanyouthworks.org/what-we-do/cc/open-positions",
+    "label": "🔍 American Youthworks open positions"
+   }
+  ]
+ },
+ {
+  "id": "item-071",
+  "title": "EPA Greater Research Opportunities (GRO) Fellowship",
+  "org": "US Environmental Protection Agency · Nationwide + EPA facili",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.epa.gov/careers/gro-fellowships",
+    "label": "🔍 EPA GRO Fellowship"
+   }
+  ]
+ },
+ {
+  "id": "item-072",
+  "title": "USDA Forest Service Pathways Recent Graduate Program",
+  "org": "USDA Forest Service · Multiple offices, SE and Mountain West",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.usajobs.gov/Search/Results?hp=rg&k=environmental+science+biological&a=FS",
+    "label": "🔍 USAJobs: USDA Forest Service Recent Graduate"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.fs.usda.gov/working-with-us/jobs/pathways",
+    "label": "🔍 USDA FS Pathways program overview"
+   },
+   {
+    "field": "links[2]",
+    "href": "https://www.usajobs.gov/Search/Results?hp=rg&a=FS",
+    "label": "usajobs.gov — USDA FS Pathways Recent Graduate"
+   }
+  ]
+ },
+ {
+  "id": "item-073",
+  "title": "Smithsonian Environmental Research Center — Research Technician",
+  "org": "Smithsonian Environmental Research Center · Edgewater, MD (C",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://serc.si.edu/about-serc/careers",
+    "label": "🔍 SERC Careers page"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://ecophys-jobs.org/temp.html",
+    "label": "🔍 ecophys-jobs.org seasonal/temp (watch for posting)"
+   }
+  ]
+ },
+ {
+  "id": "item-087",
+  "title": "USGS — Recent Graduates Program (environmental science / GIS)",
+  "org": "U.S. Geological Survey · nationwide (USAJOBS)",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.usgs.gov/human-capital/students-and-recent-graduates",
+    "label": "🔍 USGS Students & Recent Graduates"
+   }
+  ]
+ },
+ {
+  "id": "item-088",
+  "title": "Washington Conservation Corps — AmeriCorps Member (summer term)",
+  "org": "WA Dept. of Ecology · multiple locations, Washington",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://ecology.wa.gov/issues-and-local-projects/investing-in-communities/washington-conservation-corps/americorps-member-positions",
+    "label": "🔍 Join WCC — AmeriCorps positions"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://apps.ecology.wa.gov/wcc/",
+    "label": "🔍 WCC member application"
+   }
+  ]
+ },
+ {
+  "id": "item-089",
+  "title": "SUNY Brockport — Fully funded MS, Wetland Ecology (Schultz Lab)",
+  "org": "Brockport, NY · Dept. of Environmental Science & Ecology",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.brockport.edu/academics/environmental_science/",
+    "label": "🔍 SUNY Brockport Env. Science & Ecology"
+   }
+  ]
+ },
+ {
+  "id": "item-090",
+  "title": "UMass Amherst — MS/PhD Environmental Conservation (Water, Wetlands & Watersheds)",
+  "org": "Amherst, MA · Dept. of Environmental Conservation",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.umass.edu/environmental-conservation/academics/graduate-programs/environmental-conservation-m-s-ph-d/water-wetlands-and-watersheds",
+    "label": "🔍 UMass Water, Wetlands & Watersheds"
+   }
+  ]
+ },
+ {
+  "id": "item-091",
+  "title": "Minnesota Sea Grant — Science & Policy Fellowship (water quality)",
+  "org": "University of Minnesota · Minnesota Sea Grant",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://seagrant.umn.edu/student-opportunities/mnsg-sci-policy-fellowship-fellows",
+    "label": "🔍 MN Sea Grant Science & Policy Fellowship"
+   }
+  ]
+ },
+ {
+  "id": "item-092",
+  "title": "Texas A&M University–Kingsville — Funded MS, Watershed Restoration (Xi Lab)",
+  "org": "Kingsville, TX · Texas A&M–Kingsville (Xi Lab)",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://drxilab.netlify.app/",
+    "label": "🔍 Xi Lab website"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.tamuk.edu/artsci/departments/biol/faculty-staff/xi.html",
+    "label": "🔍 TAMUK Biology — Dr. Xi"
+   }
+  ]
+ },
+ {
+  "id": "item-093",
+  "title": "Michigan State University — Funded MS, Sea Lamprey Chemical & Aquatic Ecology (2",
+  "org": "East Lansing, MI · Dept. of Fisheries & Wildlife",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://ecophys-jobs.org/grad.html",
+    "label": "🔍 ecophys-jobs.org grad listings"
+   }
+  ]
+ },
+ {
+  "id": "item-094",
+  "title": "Colorado State University — Funded MS, Mesocarnivore Ecology (Gerber Lab)",
+  "org": "Fort Collins, CO · Dept. of Fish, Wildlife, & Conservation B",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://jobs.rwfm.tamu.edu/view-job/?id=113040",
+    "label": "🔍 Position listing (Texas A&M NR job board)"
+   }
+  ]
+ },
+ {
+  "id": "item-095",
+  "title": "Oregon State University — Water Resources Science MS/PhD (and Environmental Scie",
+  "org": "Corvallis, OR · Multiple departments",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://catalog.oregonstate.edu/college-departments/graduate-education/water-resources-science-ms-phd/",
+    "label": "🔍 OSU Water Resources Science (MS/PhD)"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://graduate.oregonstate.edu/programs/6420/environmental-sciences-phd-ma-ms-psm-minor",
+    "label": "🔍 OSU Environmental Sciences graduate"
+   },
+   {
+    "field": "links[2]",
+    "href": "https://ceoas.oregonstate.edu/jobs",
+    "label": "🔍 OSU CEOAS jobs & opportunities"
+   }
+  ]
+ },
+ {
+  "id": "item-096",
+  "title": "South Dakota State University — Funded MS, Plant Evolutionary Ecology (Wenzell L",
+  "org": "Brookings, SD · Plant Science",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://ecophys-jobs.org/grad.html",
+    "label": "🔍 ecophys-jobs.org grad listings"
+   }
+  ]
+ },
+ {
+  "id": "item-097",
+  "title": "Environmental Services Trainee — Permit Efficiency Initiative (WLM)",
+  "org": "New Jersey Department of Environmental Protection · Trenton,",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://dep.nj.gov/jobs/",
+    "label": "🔗 NJDEP Employment Opportunities"
+   }
+  ]
+ },
+ {
+  "id": "item-098",
+  "title": "Seasonal Seed Collection Crew Lead — native plant restoration",
+  "org": "Coos Watershed Association · Coos Bay, OR · Plants Program",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.conservationjobboard.com/job-listing-seasonal-seed-collection-crew-lead-coos-bay-oregon/8493671191",
+    "label": "🔗 Conservation Job Board listing"
+   }
+  ]
+ },
+ {
+  "id": "item-099",
+  "title": "Central Michigan University — Funded MS, Wetland Nutrient Dynamics Modeling",
+  "org": "Mount Pleasant, MI · Lammers Lab (Engineering) / Suchy Lab (",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://web.cobleskill.edu/fishwildlifejobs/2026/04/03/wetland-modeling-m-s-research-assistant-central-michigan-university/",
+    "label": "🔗 Fish & Wildlife Jobs Board posting"
+   }
+  ]
+ },
+ {
+  "id": "item-100",
+  "title": "Iowa State University — Funded PhD, Soil Biogeochemistry & Ecosystem Ecology (Hu",
+  "org": "Ames, IA · Dept. of Ecology, Evolution & Organismal Biology ",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://wjhuangecology.wordpress.com/",
+    "label": "🔗 Huang Lab website"
+   }
+  ]
+ },
+ {
+  "id": "item-101",
+  "title": "UMass Boston — Funded PhD, Remote Sensing & Geospatial Analysis (Chen Lab)",
+  "org": "Boston, MA · School for the Environment",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.umb.edu/school-for-the-environment/",
+    "label": "🔗 UMass Boston School for the Environment"
+   }
+  ]
+ },
+ {
+  "id": "item-102",
+  "title": "Conservation Wetland Specialist — USDA private-lands wetland restoration",
+  "org": "Conservation Districts of Iowa · West Union, IA",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.conservationjobboard.com/job-listing-conservation-wetland-specialist-west-union-iowa/5525589291",
+    "label": "🔗 Conservation Job Board listing"
+   }
+  ]
+ },
+ {
+  "id": "item-103",
+  "title": "Environmental Restoration Field Technician — wetland & habitat restoration crew",
+  "org": "Riparia Environmental (MacKay Sposito subsidiary) · Fife, WA",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://riparia.applytojob.com/apply/XqISOjZS5C/Environmental-Restoration-Field-Technician",
+    "label": "🔗 Riparia Environmental careers"
+   }
+  ]
+ },
+ {
+  "id": "item-104",
+  "title": "Restoration Technician — Moapa Valley NWR (USFWS partnership)",
+  "org": "Great Basin Institute / USFWS · Moapa Valley, NV",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.conservationjobboard.com/category/wetland-jobs",
+    "label": "🔗 Conservation Job Board · GBI listing"
+   }
+  ]
+ },
+ {
+  "id": "item-105",
+  "title": "Seasonal Field Technician — wetland delineation & ecological surveys",
+  "org": "EDR (Environmental Design & Research, DPC) · Syracuse NY / H",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://jobs.rwfm.tamu.edu/search/?keywords=EDR&sort-by=PostingDate",
+    "label": "🔗 Texas A&M Natural Resources Job Board"
+   }
+  ]
+ },
+ {
+  "id": "item-106",
+  "title": "Habitat Enhancement Crew Member — prairie/wetland restoration with MN DNR",
+  "org": "Conservation Corps Minnesota & Iowa / MN DNR Wildlife · Elbo",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://conservationcorps.org/updates-stories/habitat-enhancement-crew-member-mn-department-of-natural-resources-elbow-lake-mn/",
+    "label": "🔗 Conservation Corps MN & IA posting"
+   }
+  ]
+ },
+ {
+  "id": "item-107",
+  "title": "LiDAR Monitoring Technician — USFWS Region 4 (AmeriCorps placement)",
+  "org": "Stewards Individual Placement (Conservation Legacy) / USFWS ",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://stewardslegacy.org/open-positions",
+    "label": "🔗 Stewards Individual Placement open positions"
+   }
+  ]
+ },
+ {
+  "id": "item-108",
+  "title": "Utah State University — Funded PhD, Landscape Fitness & Migratory Connectivity (",
+  "org": "Logan, UT · Wildland Resources (with BYU & Utah DWR)",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://jobs.rwfm.tamu.edu/",
+    "label": "🔗 Texas A&M NR Job Board (search USU mule deer)"
+   }
+  ]
+ },
+ {
+  "id": "item-109",
+  "title": "Louisiana State University — Funded PhD, Conservation Ecology (Entomology)",
+  "org": "Baton Rouge, LA · Department of Entomology",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.lsu.edu/agriculture/entomology/programs/doctorate.php",
+    "label": "🔗 LSU Entomology PhD program"
+   }
+  ]
+ }
+]

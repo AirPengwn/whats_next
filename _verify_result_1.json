@@ -1,0 +1,128 @@
+{
+  "verified": [
+    { "id": "item-009", "url_updates": [
+      { "field": "links[0]", "current_href": "https://warnercnr.colostate.edu/ess/graduate-programs/graduate-research-opportunities/", "verdict": "alive_deep_link", "position_status": "unknown", "new_href": null, "new_label": null, "notes": "Loads; framework awaiting positions." },
+      { "field": "links[1]", "current_href": "https://ecology.colostate.edu/assistantships/", "verdict": "alive_deep_link", "position_status": "still_offered", "new_href": null, "new_label": null, "notes": "GDPE assistantships listed." }
+    ], "record_recommendation": "keep_as_is" },
+    { "id": "item-000", "url_updates": [
+      { "field": "links[0]", "current_href": "https://warnercnr.colostate.edu/ess/graduate-programs/graduate-research-opportunities/", "verdict": "alive_deep_link", "position_status": "unknown", "new_href": null, "new_label": null, "notes": "Same CSU page." },
+      { "field": "links[1]", "current_href": "https://ecology.colostate.edu/assistantships/", "verdict": "alive_deep_link", "position_status": "still_offered", "new_href": null, "new_label": null, "notes": "Same." }
+    ], "record_recommendation": "keep_as_is" },
+    { "id": "item-016", "url_updates": [
+      { "field": "links[0]", "current_href": "https://faculty.lsu.edu/whitelab/", "verdict": "alive_deep_link", "position_status": "still_offered", "new_href": null, "new_label": null, "notes": "WABL active, recruiting." },
+      { "field": "links[1]", "current_href": "https://faculty.lsu.edu/whitelab/graduateassistantships.php", "verdict": "alive_deep_link", "position_status": "still_offered", "new_href": null, "new_label": null, "notes": "PhD assistantship Fall 2026/Spring 2027 $31k+tuition advertised." },
+      { "field": "links[2]", "current_href": "https://lsu.edu/cce/academics/graduate/docs/docs-admissions.php", "verdict": "alive_deep_link", "position_status": "still_offered", "new_href": null, "new_label": null, "notes": "DOCS admissions page alive." }
+    ], "record_recommendation": "keep_as_is" },
+    { "id": "item-001", "url_updates": [
+      { "field": "links[0]", "current_href": "https://faculty.lsu.edu/whitelab/", "verdict": "alive_deep_link", "position_status": "still_offered", "new_href": null, "new_label": null, "notes": "Same WABL." },
+      { "field": "links[1]", "current_href": "https://faculty.lsu.edu/whitelab/graduateassistantships.php", "verdict": "alive_deep_link", "position_status": "still_offered", "new_href": null, "new_label": null, "notes": "Same." },
+      { "field": "links[2]", "current_href": "https://lsu.edu/cce/academics/graduate/docs/docs-admissions.php", "verdict": "alive_deep_link", "position_status": "still_offered", "new_href": null, "new_label": null, "notes": "Same." }
+    ], "record_recommendation": "keep_as_is" },
+    { "id": "item-018", "url_updates": [
+      { "field": "url", "current_href": "https://www.srel.uga.edu/", "verdict": "alive_but_landing", "position_status": "still_offered", "new_href": null, "new_label": null, "notes": "SREL homepage." },
+      { "field": "links[0]", "current_href": "https://www.srel.uga.edu/", "verdict": "alive_but_landing", "position_status": "still_offered", "new_href": null, "new_label": null, "notes": "Same homepage." },
+      { "field": "links[1]", "current_href": "https://www.google.com/search?q=UGA+Savannah+River+Ecology+Lab+MS+research+assistantship+2026", "verdict": "alive_but_search", "position_status": "unknown", "new_href": "https://www.srel.uga.edu/people/", "new_label": "SREL Faculty & Researchers", "notes": "Replace Google search with people page." },
+      { "field": "links[2]", "current_href": "https://www.srel.uga.edu/people/", "verdict": "alive_deep_link", "position_status": "still_offered", "new_href": null, "new_label": null, "notes": "OK." }
+    ], "record_recommendation": "needs_review" },
+    { "id": "item-002", "url_updates": [
+      { "field": "url", "current_href": "https://www.srel.uga.edu/", "verdict": "alive_but_landing", "position_status": "still_offered", "new_href": null, "new_label": null, "notes": "SREL homepage." },
+      { "field": "links[0]", "current_href": "https://www.srel.uga.edu/", "verdict": "alive_but_landing", "position_status": "still_offered", "new_href": null, "new_label": null, "notes": "Same." },
+      { "field": "links[1]", "current_href": "https://www.google.com/search?q=UGA+Savannah+River+Ecology+Lab+MS+research+assistantship+2026", "verdict": "alive_but_search", "position_status": "unknown", "new_href": "https://www.srel.uga.edu/people/", "new_label": "SREL Faculty & Researchers", "notes": "Replace." },
+      { "field": "links[2]", "current_href": "https://www.srel.uga.edu/people/", "verdict": "alive_deep_link", "position_status": "still_offered", "new_href": null, "new_label": null, "notes": "OK." }
+    ], "record_recommendation": "needs_review" },
+    { "id": "item-003", "url_updates": [
+      { "field": "links[0]", "current_href": "https://www.usm.edu/gcrl/", "verdict": "alive_but_landing", "position_status": "still_offered", "new_href": null, "new_label": null, "notes": "GCRL homepage; active facility." },
+      { "field": "links[1]", "current_href": "https://www.google.com/search?q=USM+Gulf+Coast+Research+Lab+MS+marine+science+assistantship+2026", "verdict": "alive_but_search", "position_status": "unknown", "new_href": null, "new_label": null, "notes": "Google search URL; no good deep replacement found." }
+    ], "record_recommendation": "needs_review" },
+    { "id": "item-010", "url_updates": [
+      { "field": "url", "current_href": "https://www.uwyo.edu/haub/", "verdict": "alive_but_landing", "position_status": "still_offered", "new_href": null, "new_label": null, "notes": "Haub homepage." },
+      { "field": "links[0]", "current_href": "https://www.uwyo.edu/haub/", "verdict": "alive_but_landing", "position_status": "still_offered", "new_href": null, "new_label": null, "notes": "Same." },
+      { "field": "links[1]", "current_href": "https://www.uwyo.edu/wycoop/", "verdict": "dead", "position_status": "unknown", "new_href": "https://wyocoopunit.org/", "new_label": "Wyoming CFWRU", "notes": "Moved to wyocoopunit.org." },
+      { "field": "links[2]", "current_href": "https://www.uwyo.edu/haub/people/faculty/", "verdict": "dead", "position_status": "unknown", "new_href": "https://www.uwyo.edu/haub/about-us/people/index.html", "new_label": "UW Haub School — People", "notes": "Moved to /about-us/people/." },
+      { "field": "links[3]", "current_href": "https://www.uwyo.edu/wycoop/personnel/", "verdict": "dead", "position_status": "unknown", "new_href": "https://wyocoopunit.org/people/", "new_label": "Wyoming CFWRU — People", "notes": "Moved." }
+    ], "record_recommendation": "needs_review" },
+    { "id": "item-004", "url_updates": [
+      { "field": "links[0]", "current_href": "https://www.uwyo.edu/haub/", "verdict": "alive_but_landing", "position_status": "still_offered", "new_href": null, "new_label": null, "notes": "Haub homepage." },
+      { "field": "links[1]", "current_href": "https://www.uwyo.edu/wycoop/", "verdict": "dead", "position_status": "unknown", "new_href": "https://wyocoopunit.org/", "new_label": "Wyoming CFWRU", "notes": "Moved." },
+      { "field": "links[2]", "current_href": "https://www.uwyo.edu/haub/people/faculty/", "verdict": "dead", "position_status": "unknown", "new_href": "https://www.uwyo.edu/haub/about-us/people/index.html", "new_label": "UW Haub School — People", "notes": "Moved." },
+      { "field": "links[3]", "current_href": "https://www.uwyo.edu/wycoop/personnel/", "verdict": "dead", "position_status": "unknown", "new_href": "https://wyocoopunit.org/people/", "new_label": "Wyoming CFWRU — People", "notes": "Moved." }
+    ], "record_recommendation": "needs_review" },
+    { "id": "item-014", "url_updates": [{ "field": "links[0]", "current_href": "https://cnr.ncsu.edu/fer/", "verdict": "timeout", "position_status": "unknown", "new_href": null, "new_label": null, "notes": "403 bot-block; presumed live." }], "record_recommendation": "keep_as_is" },
+    { "id": "item-005", "url_updates": [{ "field": "links[0]", "current_href": "https://cnr.ncsu.edu/fer/", "verdict": "timeout", "position_status": "unknown", "new_href": null, "new_label": null, "notes": "Same." }], "record_recommendation": "keep_as_is" },
+    { "id": "item-006", "url_updates": [
+      { "field": "url", "current_href": "https://www.clemson.edu/cafls/academics/graduate/forest-resources.html", "verdict": "alive_deep_link", "position_status": "still_offered", "new_href": null, "new_label": null, "notes": "Live." },
+      { "field": "links[0]", "current_href": "https://www.clemson.edu/cafls/academics/graduate/forest-resources.html", "verdict": "alive_deep_link", "position_status": "still_offered", "new_href": null, "new_label": null, "notes": "Same." },
+      { "field": "links[1]", "current_href": "https://www.google.com/search?q=Clemson+Elmore+Lab+bird+Hurricane+Helene+MS+assistantship+2026", "verdict": "alive_but_search", "position_status": "unknown", "new_href": null, "new_label": null, "notes": "No good deep-link found yet." }
+    ], "record_recommendation": "needs_review" },
+    { "id": "item-017", "url_updates": [
+      { "field": "url", "current_href": "https://www.auburn.edu/cosam/departments/biology/research/alabamacfwru/", "verdict": "dead", "position_status": "unknown", "new_href": "https://cfwe.auburn.edu/research/research-centers-cooperatives/", "new_label": "Auburn CFWE — ACFWRU", "notes": "Moved to CFWE." },
+      { "field": "links[0]", "current_href": "https://www.auburn.edu/cosam/departments/biology/research/alabamacfwru/", "verdict": "dead", "position_status": "unknown", "new_href": "https://cfwe.auburn.edu/research/research-centers-cooperatives/", "new_label": "Auburn CFWE — ACFWRU", "notes": "Same." },
+      { "field": "links[1]", "current_href": "https://www.google.com/search?q=Auburn+Alabama+Cooperative+Fish+Wildlife+Research+Unit+MS+assistantship+2026", "verdict": "alive_but_search", "position_status": "unknown", "new_href": "https://www.usgs.gov/programs/cooperative-research-units/alabama-cooperative-fish-and-wildlife-research-unit", "new_label": "USGS — Alabama CFWRU", "notes": "Replace with USGS official ACFWRU page." }
+    ], "record_recommendation": "needs_review" },
+    { "id": "item-007", "url_updates": [
+      { "field": "links[0]", "current_href": "https://www.auburn.edu/cosam/departments/biology/research/alabamacfwru/", "verdict": "dead", "position_status": "unknown", "new_href": "https://cfwe.auburn.edu/research/research-centers-cooperatives/", "new_label": "Auburn CFWE — ACFWRU", "notes": "Moved." },
+      { "field": "links[1]", "current_href": "https://www.google.com/search?q=Auburn+Alabama+Cooperative+Fish+Wildlife+Research+Unit+MS+assistantship+2026", "verdict": "alive_but_search", "position_status": "unknown", "new_href": null, "new_label": null, "notes": "Search URL." }
+    ], "record_recommendation": "needs_review" },
+    { "id": "item-015", "url_updates": [
+      { "field": "links[0]", "current_href": "https://www.forestry.msstate.edu/", "verdict": "unknown", "position_status": "unknown", "new_href": null, "new_label": null, "notes": "MSU SSL cert issue; presumed live in browser." },
+      { "field": "links[1]", "current_href": "https://www.google.com/search?q=Courtney+Siegert+Mississippi+State+Forest+Hydrology+Soils+Lab+NSF+graduate+assistantship", "verdict": "alive_but_search", "position_status": "unknown", "new_href": null, "new_label": null, "notes": "Search URL." }
+    ], "record_recommendation": "needs_review" },
+    { "id": "item-012", "url_updates": [
+      { "field": "url", "current_href": "https://www.cfr.msstate.edu/", "verdict": "unknown", "position_status": "unknown", "new_href": null, "new_label": null, "notes": "MSU SSL." },
+      { "field": "links[0]", "current_href": "https://www.gri.msstate.edu/", "verdict": "alive_but_landing", "position_status": "unknown", "new_href": null, "new_label": null, "notes": "GRI homepage." },
+      { "field": "links[1]", "current_href": "https://www.google.com/search?q=Mississippi+State+Geosystems+Research+Institute+GIS+MS+PhD+assistantship+2026", "verdict": "alive_but_search", "position_status": "unknown", "new_href": null, "new_label": null, "notes": "Search URL." }
+    ], "record_recommendation": "needs_review" },
+    { "id": "item-008", "url_updates": [
+      { "field": "links[0]", "current_href": "https://www.cfr.msstate.edu/", "verdict": "unknown", "position_status": "unknown", "new_href": null, "new_label": null, "notes": "MSU SSL." },
+      { "field": "links[1]", "current_href": "https://www.google.com/search?q=Mississippi+State+wildlife+fisheries+aquaculture+MS+funded+research+assistantship+2026", "verdict": "alive_but_search", "position_status": "unknown", "new_href": "https://www.wildlifefisheries.msstate.edu/students/graduate-programs.php", "new_label": "MSU Wildlife, Fisheries & Aquaculture — Graduate Programs", "notes": "Replace with WFA grad programs page." }
+    ], "record_recommendation": "needs_review" },
+    { "id": "item-011", "url_updates": [
+      { "field": "url", "current_href": "https://www.uwyo.edu/haub/", "verdict": "alive_but_landing", "position_status": "still_offered", "new_href": null, "new_label": null, "notes": "MIS-TAGGED — UW URL on CU Boulder record." },
+      { "field": "links[0]", "current_href": "https://warnercnr.colostate.edu/ess/graduate-programs/graduate-research-opportunities/", "verdict": "alive_deep_link", "position_status": "unknown", "new_href": null, "new_label": null, "notes": "MIS-TAGGED — CSU on CU record." },
+      { "field": "links[1]", "current_href": "https://ecology.colostate.edu/assistantships/", "verdict": "alive_deep_link", "position_status": "still_offered", "new_href": null, "new_label": null, "notes": "MIS-TAGGED — CSU on CU record." },
+      { "field": "links[2]", "current_href": "https://www.uwyo.edu/haub/", "verdict": "alive_but_landing", "position_status": "still_offered", "new_href": null, "new_label": null, "notes": "MIS-TAGGED — UW on CU record." },
+      { "field": "links[3]", "current_href": "https://www.google.com/search?q=University+Wyoming+Forest+Forensics+Dendroecology+Lab+LiDAR+wildfire+MS+assistantship+2026", "verdict": "alive_but_search", "position_status": "unknown", "new_href": null, "new_label": null, "notes": "MIS-TAGGED — UWyo search on CU record." },
+      { "field": "links[4]", "current_href": "https://instaar.colorado.edu/", "verdict": "redirected", "position_status": "still_offered", "new_href": "https://www.colorado.edu/instaar/", "new_label": "CU Boulder INSTAAR", "notes": "Canonical INSTAAR URL." },
+      { "field": "links[5]", "current_href": "https://www.colorado.edu/envs/graduate", "verdict": "dead", "position_status": "still_offered", "new_href": "https://www.colorado.edu/envs/graduate-studies/graduate-programs", "new_label": "CU Boulder ENVS — Graduate Programs", "notes": "Corrected path." },
+      { "field": "links[6]", "current_href": "https://instaar.colorado.edu/people/faculty/", "verdict": "redirected", "position_status": "still_offered", "new_href": "https://www.colorado.edu/instaar/people", "new_label": "INSTAAR — People", "notes": "Canonical." }
+    ], "record_recommendation": "needs_review" },
+    { "id": "item-013", "url_updates": [
+      { "field": "url", "current_href": "https://www.gri.msstate.edu/", "verdict": "alive_but_landing", "position_status": "unknown", "new_href": null, "new_label": null, "notes": "MIS-TAGGED — MSU GRI on UMontana record." },
+      { "field": "links[0]", "current_href": "https://www.gri.msstate.edu/", "verdict": "alive_but_landing", "position_status": "unknown", "new_href": null, "new_label": null, "notes": "MIS-TAGGED." },
+      { "field": "links[1]", "current_href": "https://www.google.com/search?q=Mississippi+State+Geosystems+Research+Institute+GIS+MS+PhD+assistantship+2026", "verdict": "alive_but_search", "position_status": "unknown", "new_href": null, "new_label": null, "notes": "MIS-TAGGED." },
+      { "field": "links[2]", "current_href": "https://www.umt.edu/environmental-studies/graduate/", "verdict": "alive_deep_link", "position_status": "still_offered", "new_href": null, "new_label": null, "notes": "OK." },
+      { "field": "links[3]", "current_href": "https://www.wiche.edu/tuition-savings/wrgp/", "verdict": "alive_deep_link", "position_status": "still_offered", "new_href": null, "new_label": null, "notes": "OK." },
+      { "field": "links[4]", "current_href": "https://www.umt.edu/environmental-studies/people/faculty.php", "verdict": "dead", "position_status": "unknown", "new_href": "https://www.umt.edu/environmental-studies/people/", "new_label": "UM Environmental Studies — Faculty & Staff", "notes": "Old URL 404." }
+    ], "record_recommendation": "needs_review" },
+    { "id": "item-045", "url_updates": [
+      { "field": "links[0]", "current_href": "https://cnr.ncsu.edu/fer/", "verdict": "timeout", "position_status": "unknown", "new_href": null, "new_label": null, "notes": "Bot-block." },
+      { "field": "links[1]", "current_href": "https://cnr.ncsu.edu/geospatial/academics/phd-in-geospatial-analytics/graduate-assistantships/", "verdict": "timeout", "position_status": "unknown", "new_href": null, "new_label": null, "notes": "Bot-block; presumed live." }
+    ], "record_recommendation": "keep_as_is" },
+    { "id": "item-046", "url_updates": [
+      { "field": "links[0]", "current_href": "https://www.purdue.edu/gradschool/prospective/gradrequirements/westlafayette/fnr.html", "verdict": "dead", "position_status": "still_offered", "new_href": "https://ag.purdue.edu/department/fnr/graduate/prospective-students.html", "new_label": "Purdue FNR — Prospective Graduate Students", "notes": "Moved to ag.purdue.edu/department/fnr/." },
+      { "field": "links[1]", "current_href": "https://www.google.com/search?q=Purdue+Jo+Lab+soil+contamination+vegetation+MS+assistantship+2026+2027", "verdict": "alive_but_search", "position_status": "unknown", "new_href": null, "new_label": null, "notes": "Search URL." }
+    ], "record_recommendation": "needs_review" },
+    { "id": "item-047", "url_updates": [
+      { "field": "links[0]", "current_href": "https://faculty.lsu.edu/whitelab/graduateassistantships.php", "verdict": "alive_deep_link", "position_status": "still_offered", "new_href": null, "new_label": null, "notes": "PhD assistantship Fall 2026/Spring 2027 advertised." },
+      { "field": "links[1]", "current_href": "https://faculty.lsu.edu/whitelab/", "verdict": "alive_deep_link", "position_status": "still_offered", "new_href": null, "new_label": null, "notes": "Live." }
+    ], "record_recommendation": "keep_as_is" },
+    { "id": "item-048", "url_updates": [
+      { "field": "links[0]", "current_href": "https://www.umt.edu/wildlife-biology/graduate/ms-wbio/", "verdict": "alive_deep_link", "position_status": "still_offered", "new_href": null, "new_label": null, "notes": "UM Wildlife Bio MS page, Jan 15 deadline." },
+      { "field": "links[1]", "current_href": "https://www.umt.edu/wildlife-biology/people/faculty/", "verdict": "dead", "position_status": "unknown", "new_href": "https://www.umt.edu/wildlife-biology/people/faculty.php", "new_label": "UM Wildlife Biology — Faculty", "notes": ".php variant works." }
+    ], "record_recommendation": "needs_review" },
+    { "id": "item-049", "url_updates": [
+      { "field": "links[0]", "current_href": "https://www.wildlifefisheries.msstate.edu/students/graduate-programs.php", "verdict": "alive_deep_link", "position_status": "still_offered", "new_href": null, "new_label": null, "notes": "Loads with MS/PhD details." },
+      { "field": "links[1]", "current_href": "https://www.cfr.msstate.edu/job-board/", "verdict": "unknown", "position_status": "unknown", "new_href": null, "new_label": null, "notes": "MSU SSL." },
+      { "field": "links[2]", "current_href": "https://www.gri.msstate.edu/", "verdict": "alive_but_landing", "position_status": "unknown", "new_href": null, "new_label": null, "notes": "GRI homepage." }
+    ], "record_recommendation": "needs_review" },
+    { "id": "item-050", "url_updates": [
+      { "field": "links[0]", "current_href": "https://warnercnr.colostate.edu/ess/graduate-programs/graduate-research-opportunities/", "verdict": "alive_deep_link", "position_status": "unknown", "new_href": null, "new_label": null, "notes": "Loads." },
+      { "field": "links[1]", "current_href": "https://ecology.colostate.edu/assistantships/", "verdict": "alive_deep_link", "position_status": "still_offered", "new_href": null, "new_label": null, "notes": "GDPE listed." }
+    ], "record_recommendation": "keep_as_is" },
+    { "id": "item-051", "url_updates": [
+      { "field": "url", "current_href": "https://wrs.umn.edu/prospective-students", "verdict": "alive_deep_link", "position_status": "still_offered", "new_href": null, "new_label": null, "notes": "UMN Water Resources Science admissions, Dec 1 priority Fall 2026." },
+      { "field": "links[0]", "current_href": "https://wrs.umn.edu/prospective-students", "verdict": "alive_deep_link", "position_status": "still_offered", "new_href": null, "new_label": null, "notes": "Same." }
+    ], "record_recommendation": "keep_as_is" }
+  ],
+  "summary": "Checked 26 records, 75 URLs. Alive: ~46. Dead/404 needing replacement: 11. Google search URLs: 9 (some replaceable). MIS-TAGGED data quality issue detected on items 011 (CU Boulder carries UWyo/CSU links) and 013 (UMontana carries MSU links)."
+}

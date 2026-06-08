@@ -1,0 +1,401 @@
+[
+ {
+  "id": "item-071",
+  "title": "EPA Greater Research Opportunities (GRO) Fellowship",
+  "org": "US Environmental Protection Agency · Nationwide + EPA facili",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.epa.gov/careers/gro-fellowships",
+    "label": "🔍 EPA GRO Fellowship"
+   }
+  ]
+ },
+ {
+  "id": "item-072",
+  "title": "USDA Forest Service Pathways Recent Graduate Program",
+  "org": "USDA Forest Service · Multiple offices, SE and Mountain West",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.usajobs.gov/Search/Results?hp=rg&k=environmental+science+biological&a=FS",
+    "label": "🔍 USAJobs: USDA Forest Service Recent Graduate"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.fs.usda.gov/working-with-us/jobs/pathways",
+    "label": "🔍 USDA FS Pathways program overview"
+   },
+   {
+    "field": "links[2]",
+    "href": "https://www.usajobs.gov/Search/Results?hp=rg&a=FS",
+    "label": "usajobs.gov — USDA FS Pathways Recent Graduate"
+   }
+  ]
+ },
+ {
+  "id": "item-073",
+  "title": "Smithsonian Environmental Research Center — Research Technician",
+  "org": "Smithsonian Environmental Research Center · Edgewater, MD (C",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://serc.si.edu/about-serc/careers",
+    "label": "🔍 SERC Careers page"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://ecophys-jobs.org/temp.html",
+    "label": "🔍 ecophys-jobs.org seasonal/temp (watch for posting)"
+   }
+  ]
+ },
+ {
+  "id": "item-087",
+  "title": "USGS — Recent Graduates Program (environmental science / GIS)",
+  "org": "U.S. Geological Survey · nationwide (USAJOBS)",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.usgs.gov/human-capital/students-and-recent-graduates",
+    "label": "🔍 USGS Students & Recent Graduates"
+   }
+  ]
+ },
+ {
+  "id": "item-088",
+  "title": "Washington Conservation Corps — AmeriCorps Member (summer term)",
+  "org": "WA Dept. of Ecology · multiple locations, Washington",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://ecology.wa.gov/issues-and-local-projects/investing-in-communities/washington-conservation-corps/americorps-member-positions",
+    "label": "🔍 Join WCC — AmeriCorps positions"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://apps.ecology.wa.gov/wcc/",
+    "label": "🔍 WCC member application"
+   }
+  ]
+ },
+ {
+  "id": "item-089",
+  "title": "SUNY Brockport — Fully funded MS, Wetland Ecology (Schultz Lab)",
+  "org": "Brockport, NY · Dept. of Environmental Science & Ecology",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.brockport.edu/academics/environmental_science/",
+    "label": "🔍 SUNY Brockport Env. Science & Ecology"
+   }
+  ]
+ },
+ {
+  "id": "item-090",
+  "title": "UMass Amherst — MS/PhD Environmental Conservation (Water, Wetlands & Watersheds)",
+  "org": "Amherst, MA · Dept. of Environmental Conservation",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.umass.edu/environmental-conservation/academics/graduate-programs/environmental-conservation-m-s-ph-d/water-wetlands-and-watersheds",
+    "label": "🔍 UMass Water, Wetlands & Watersheds"
+   }
+  ]
+ },
+ {
+  "id": "item-091",
+  "title": "Minnesota Sea Grant — Science & Policy Fellowship (water quality)",
+  "org": "University of Minnesota · Minnesota Sea Grant",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://seagrant.umn.edu/student-opportunities/mnsg-sci-policy-fellowship-fellows",
+    "label": "🔍 MN Sea Grant Science & Policy Fellowship"
+   }
+  ]
+ },
+ {
+  "id": "item-092",
+  "title": "Texas A&M University–Kingsville — Funded MS, Watershed Restoration (Xi Lab)",
+  "org": "Kingsville, TX · Texas A&M–Kingsville (Xi Lab)",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://drxilab.netlify.app/",
+    "label": "🔍 Xi Lab website"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.tamuk.edu/artsci/departments/biol/faculty-staff/xi.html",
+    "label": "🔍 TAMUK Biology — Dr. Xi"
+   }
+  ]
+ },
+ {
+  "id": "item-093",
+  "title": "Michigan State University — Funded MS, Sea Lamprey Chemical & Aquatic Ecology (2",
+  "org": "East Lansing, MI · Dept. of Fisheries & Wildlife",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://ecophys-jobs.org/grad.html",
+    "label": "🔍 ecophys-jobs.org grad listings"
+   }
+  ]
+ },
+ {
+  "id": "item-094",
+  "title": "Colorado State University — Funded MS, Mesocarnivore Ecology (Gerber Lab)",
+  "org": "Fort Collins, CO · Dept. of Fish, Wildlife, & Conservation B",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://jobs.rwfm.tamu.edu/view-job/?id=113040",
+    "label": "🔍 Position listing (Texas A&M NR job board)"
+   }
+  ]
+ },
+ {
+  "id": "item-095",
+  "title": "Oregon State University — Water Resources Science MS/PhD (and Environmental Scie",
+  "org": "Corvallis, OR · Multiple departments",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://catalog.oregonstate.edu/college-departments/graduate-education/water-resources-science-ms-phd/",
+    "label": "🔍 OSU Water Resources Science (MS/PhD)"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://graduate.oregonstate.edu/programs/6420/environmental-sciences-phd-ma-ms-psm-minor",
+    "label": "🔍 OSU Environmental Sciences graduate"
+   },
+   {
+    "field": "links[2]",
+    "href": "https://ceoas.oregonstate.edu/jobs",
+    "label": "🔍 OSU CEOAS jobs & opportunities"
+   }
+  ]
+ },
+ {
+  "id": "item-096",
+  "title": "South Dakota State University — Funded MS, Plant Evolutionary Ecology (Wenzell L",
+  "org": "Brookings, SD · Plant Science",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://ecophys-jobs.org/grad.html",
+    "label": "🔍 ecophys-jobs.org grad listings"
+   }
+  ]
+ },
+ {
+  "id": "item-097",
+  "title": "Environmental Services Trainee — Permit Efficiency Initiative (WLM)",
+  "org": "New Jersey Department of Environmental Protection · Trenton,",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://dep.nj.gov/jobs/",
+    "label": "🔗 NJDEP Employment Opportunities"
+   }
+  ]
+ },
+ {
+  "id": "item-098",
+  "title": "Seasonal Seed Collection Crew Lead — native plant restoration",
+  "org": "Coos Watershed Association · Coos Bay, OR · Plants Program",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.conservationjobboard.com/job-listing-seasonal-seed-collection-crew-lead-coos-bay-oregon/8493671191",
+    "label": "🔗 Conservation Job Board listing"
+   }
+  ]
+ },
+ {
+  "id": "item-099",
+  "title": "Central Michigan University — Funded MS, Wetland Nutrient Dynamics Modeling",
+  "org": "Mount Pleasant, MI · Lammers Lab (Engineering) / Suchy Lab (",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://web.cobleskill.edu/fishwildlifejobs/2026/04/03/wetland-modeling-m-s-research-assistant-central-michigan-university/",
+    "label": "🔗 Fish & Wildlife Jobs Board posting"
+   }
+  ]
+ },
+ {
+  "id": "item-100",
+  "title": "Iowa State University — Funded PhD, Soil Biogeochemistry & Ecosystem Ecology (Hu",
+  "org": "Ames, IA · Dept. of Ecology, Evolution & Organismal Biology ",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://wjhuangecology.wordpress.com/",
+    "label": "🔗 Huang Lab website"
+   }
+  ]
+ },
+ {
+  "id": "item-101",
+  "title": "UMass Boston — Funded PhD, Remote Sensing & Geospatial Analysis (Chen Lab)",
+  "org": "Boston, MA · School for the Environment",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.umb.edu/school-for-the-environment/",
+    "label": "🔗 UMass Boston School for the Environment"
+   }
+  ]
+ },
+ {
+  "id": "item-102",
+  "title": "Conservation Wetland Specialist — USDA private-lands wetland restoration",
+  "org": "Conservation Districts of Iowa · West Union, IA",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.conservationjobboard.com/job-listing-conservation-wetland-specialist-west-union-iowa/5525589291",
+    "label": "🔗 Conservation Job Board listing"
+   }
+  ]
+ },
+ {
+  "id": "item-103",
+  "title": "Environmental Restoration Field Technician — wetland & habitat restoration crew",
+  "org": "Riparia Environmental (MacKay Sposito subsidiary) · Fife, WA",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://riparia.applytojob.com/apply/XqISOjZS5C/Environmental-Restoration-Field-Technician",
+    "label": "🔗 Riparia Environmental careers"
+   }
+  ]
+ },
+ {
+  "id": "item-104",
+  "title": "Restoration Technician — Moapa Valley NWR (USFWS partnership)",
+  "org": "Great Basin Institute / USFWS · Moapa Valley, NV",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.conservationjobboard.com/category/wetland-jobs",
+    "label": "🔗 Conservation Job Board · GBI listing"
+   }
+  ]
+ },
+ {
+  "id": "item-105",
+  "title": "Seasonal Field Technician — wetland delineation & ecological surveys",
+  "org": "EDR (Environmental Design & Research, DPC) · Syracuse NY / H",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://jobs.rwfm.tamu.edu/search/?keywords=EDR&sort-by=PostingDate",
+    "label": "🔗 Texas A&M Natural Resources Job Board"
+   }
+  ]
+ },
+ {
+  "id": "item-106",
+  "title": "Habitat Enhancement Crew Member — prairie/wetland restoration with MN DNR",
+  "org": "Conservation Corps Minnesota & Iowa / MN DNR Wildlife · Elbo",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://conservationcorps.org/updates-stories/habitat-enhancement-crew-member-mn-department-of-natural-resources-elbow-lake-mn/",
+    "label": "🔗 Conservation Corps MN & IA posting"
+   }
+  ]
+ },
+ {
+  "id": "item-107",
+  "title": "LiDAR Monitoring Technician — USFWS Region 4 (AmeriCorps placement)",
+  "org": "Stewards Individual Placement (Conservation Legacy) / USFWS ",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://stewardslegacy.org/open-positions",
+    "label": "🔗 Stewards Individual Placement open positions"
+   }
+  ]
+ },
+ {
+  "id": "item-108",
+  "title": "Utah State University — Funded PhD, Landscape Fitness & Migratory Connectivity (",
+  "org": "Logan, UT · Wildland Resources (with BYU & Utah DWR)",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://jobs.rwfm.tamu.edu/",
+    "label": "🔗 Texas A&M NR Job Board (search USU mule deer)"
+   }
+  ]
+ },
+ {
+  "id": "item-109",
+  "title": "Louisiana State University — Funded PhD, Conservation Ecology (Entomology)",
+  "org": "Baton Rouge, LA · Department of Entomology",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.lsu.edu/agriculture/entomology/programs/doctorate.php",
+    "label": "🔗 LSU Entomology PhD program"
+   }
+  ]
+ }
+]

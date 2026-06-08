@@ -1,0 +1,611 @@
+[
+ {
+  "id": "item-009",
+  "title": "Colorado State University",
+  "org": "Fort Collins, CO · Multiple departments",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://warnercnr.colostate.edu/ess/graduate-programs/graduate-research-opportunities/",
+    "label": "🔍 CSU active grad opportunities page"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://ecology.colostate.edu/assistantships/",
+    "label": "🔍 CSU Ecology assistantships"
+   }
+  ]
+ },
+ {
+  "id": "item-000",
+  "title": "Colorado State University",
+  "org": "Fort Collins, CO · Ecosystem Science & Sustainability / Ecol",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://warnercnr.colostate.edu/ess/graduate-programs/graduate-research-opportunities/",
+    "label": "🔍 CSU active grad opportunities page"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://ecology.colostate.edu/assistantships/",
+    "label": "🔍 CSU Ecology assistantships"
+   }
+  ]
+ },
+ {
+  "id": "item-016",
+  "title": "Louisiana State University — WABL & Coastal Sciences",
+  "org": "Baton Rouge, LA · Dept. of Oceanography & Coastal Sciences",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://faculty.lsu.edu/whitelab/",
+    "label": "🔍 LSU WABL lab website"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://faculty.lsu.edu/whitelab/graduateassistantships.php",
+    "label": "🔍 WABL assistantships page"
+   },
+   {
+    "field": "links[2]",
+    "href": "https://lsu.edu/cce/academics/graduate/docs/docs-admissions.php",
+    "label": "lsu.edu/cce/academics/graduate"
+   }
+  ]
+ },
+ {
+  "id": "item-001",
+  "title": "Louisiana State University — WABL",
+  "org": "Baton Rouge, LA · Dept. of Oceanography & Coastal Sciences",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://faculty.lsu.edu/whitelab/",
+    "label": "🔍 LSU WABL lab website"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://faculty.lsu.edu/whitelab/graduateassistantships.php",
+    "label": "🔍 WABL assistantships page"
+   },
+   {
+    "field": "links[2]",
+    "href": "https://lsu.edu/cce/academics/graduate/docs/docs-admissions.php",
+    "label": "lsu.edu/cce/academics/graduate"
+   }
+  ]
+ },
+ {
+  "id": "item-018",
+  "title": "University of Georgia — Odum School / SREL",
+  "org": "Athens, GA / Aiken, SC",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "url",
+    "href": "https://www.srel.uga.edu/",
+    "label": "🔍 SREL website"
+   },
+   {
+    "field": "links[0]",
+    "href": "https://www.srel.uga.edu/",
+    "label": "🔍 SREL website"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.google.com/search?q=UGA+Savannah+River+Ecology+Lab+MS+research+assistantship+2026",
+    "label": "🔍 Search current SREL openings"
+   },
+   {
+    "field": "links[2]",
+    "href": "https://www.srel.uga.edu/people/",
+    "label": "srel.uga.edu/people"
+   }
+  ]
+ },
+ {
+  "id": "item-002",
+  "title": "University of Georgia — Savannah River Ecology Lab",
+  "org": "Athens, GA / Aiken, SC · Odum School of Ecology",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "url",
+    "href": "https://www.srel.uga.edu/",
+    "label": "🔍 SREL website"
+   },
+   {
+    "field": "links[0]",
+    "href": "https://www.srel.uga.edu/",
+    "label": "🔍 SREL website"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.google.com/search?q=UGA+Savannah+River+Ecology+Lab+MS+research+assistantship+2026",
+    "label": "🔍 Search current SREL openings"
+   },
+   {
+    "field": "links[2]",
+    "href": "https://www.srel.uga.edu/people/",
+    "label": "srel.uga.edu/people"
+   }
+  ]
+ },
+ {
+  "id": "item-003",
+  "title": "University of Southern Mississippi — Gulf Coast Research Lab",
+  "org": "Hattiesburg/Ocean Springs, MS · Marine Science",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.usm.edu/gcrl/",
+    "label": "🔍 USM GCRL website"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.google.com/search?q=USM+Gulf+Coast+Research+Lab+MS+marine+science+assistantship+2026",
+    "label": "🔍 Search GCRL openings"
+   }
+  ]
+ },
+ {
+  "id": "item-010",
+  "title": "University of Wyoming — Wildfire & Forest Resilience",
+  "org": "Laramie, WY · Forest Forensics & Dendroecology Lab",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "url",
+    "href": "https://www.uwyo.edu/haub/",
+    "label": "🔍 UW Haub School"
+   },
+   {
+    "field": "links[0]",
+    "href": "https://www.uwyo.edu/haub/",
+    "label": "🔍 UW Haub School"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.uwyo.edu/wycoop/",
+    "label": "🔍 Wyoming CFWRU"
+   },
+   {
+    "field": "links[2]",
+    "href": "https://www.uwyo.edu/haub/people/faculty/",
+    "label": "uwyo.edu/haub/people/faculty"
+   },
+   {
+    "field": "links[3]",
+    "href": "https://www.uwyo.edu/wycoop/personnel/",
+    "label": "uwyo.edu/wycoop/personnel"
+   }
+  ]
+ },
+ {
+  "id": "item-004",
+  "title": "University of Wyoming — Haub School",
+  "org": "Laramie, WY · Environment, Natural Resources & Society",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.uwyo.edu/haub/",
+    "label": "🔍 UW Haub School"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.uwyo.edu/wycoop/",
+    "label": "🔍 Wyoming CFWRU"
+   },
+   {
+    "field": "links[2]",
+    "href": "https://www.uwyo.edu/haub/people/faculty/",
+    "label": "uwyo.edu/haub/people/faculty"
+   },
+   {
+    "field": "links[3]",
+    "href": "https://www.uwyo.edu/wycoop/personnel/",
+    "label": "uwyo.edu/wycoop/personnel"
+   }
+  ]
+ },
+ {
+  "id": "item-014",
+  "title": "NC State University — Hurricane Helene Forest Recovery",
+  "org": "Raleigh, NC · Forestry & Environmental Resources",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://cnr.ncsu.edu/fer/",
+    "label": "🔍 NC State Dept. of Forestry & Env. Resources"
+   }
+  ]
+ },
+ {
+  "id": "item-005",
+  "title": "NC State University — Hurricane Helene Forest Recovery",
+  "org": "Raleigh, NC · Dept. of Forestry & Environmental Resources",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://cnr.ncsu.edu/fer/",
+    "label": "🔍 NC State Dept. of Forestry & Env. Resources"
+   }
+  ]
+ },
+ {
+  "id": "item-006",
+  "title": "Clemson University — Elmore Lab, Bird Response to Helene",
+  "org": "Clemson, SC · Dept. of Forestry & Environmental Conservation",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "url",
+    "href": "https://www.clemson.edu/cafls/academics/graduate/forest-resources.html",
+    "label": "🔍 Clemson FEC grad programs"
+   },
+   {
+    "field": "links[0]",
+    "href": "https://www.clemson.edu/cafls/academics/graduate/forest-resources.html",
+    "label": "🔍 Clemson FEC grad programs"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.google.com/search?q=Clemson+Elmore+Lab+bird+Hurricane+Helene+MS+assistantship+2026",
+    "label": "🔍 Search Clemson Elmore Lab position"
+   }
+  ]
+ },
+ {
+  "id": "item-017",
+  "title": "Auburn University — ACFWRU",
+  "org": "Auburn, AL · Biological Sciences / Natural Resources",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "url",
+    "href": "https://www.auburn.edu/cosam/departments/biology/research/alabamacfwru/",
+    "label": "🔍 Auburn ACFWRU website"
+   },
+   {
+    "field": "links[0]",
+    "href": "https://www.auburn.edu/cosam/departments/biology/research/alabamacfwru/",
+    "label": "🔍 Auburn ACFWRU website"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.google.com/search?q=Auburn+Alabama+Cooperative+Fish+Wildlife+Research+Unit+MS+assistantship+2026",
+    "label": "🔍 Search Auburn ACFWRU openings"
+   }
+  ]
+ },
+ {
+  "id": "item-007",
+  "title": "Auburn University — Alabama CFWRU",
+  "org": "Auburn, AL · Biological Sciences / Natural Resources",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.auburn.edu/cosam/departments/biology/research/alabamacfwru/",
+    "label": "🔍 Auburn ACFWRU website"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.google.com/search?q=Auburn+Alabama+Cooperative+Fish+Wildlife+Research+Unit+MS+assistantship+2026",
+    "label": "🔍 Search Auburn ACFWRU openings"
+   }
+  ]
+ },
+ {
+  "id": "item-015",
+  "title": "Mississippi State University — Forest Hydrology & Soils Lab",
+  "org": "Starkville, MS · Dept. of Forestry",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.forestry.msstate.edu/",
+    "label": "🔍 MSU Dept. of Forestry"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.google.com/search?q=Courtney+Siegert+Mississippi+State+Forest+Hydrology+Soils+Lab+NSF+graduate+assistantship",
+    "label": "🔍 Search Dr. Siegert lab"
+   }
+  ]
+ },
+ {
+  "id": "item-012",
+  "title": "Mississippi State University — Geosystems Research Institute",
+  "org": "Starkville, MS · GIS & Health Geography",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "url",
+    "href": "https://www.cfr.msstate.edu/",
+    "label": "🔍 MSU College of Forest Resources"
+   },
+   {
+    "field": "links[0]",
+    "href": "https://www.gri.msstate.edu/",
+    "label": "🔍 MSU GRI website"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.google.com/search?q=Mississippi+State+Geosystems+Research+Institute+GIS+MS+PhD+assistantship+2026",
+    "label": "🔍 Search MSU GRI openings"
+   }
+  ]
+ },
+ {
+  "id": "item-008",
+  "title": "Mississippi State University — Forest & Wildlife Research Center",
+  "org": "Starkville, MS · Dept. of Wildlife, Fisheries & Aquaculture",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.cfr.msstate.edu/",
+    "label": "🔍 MSU College of Forest Resources"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.google.com/search?q=Mississippi+State+wildlife+fisheries+aquaculture+MS+funded+research+assistantship+2026",
+    "label": "🔍 Search MSU wildlife MS openings"
+   }
+  ]
+ },
+ {
+  "id": "item-011",
+  "title": "CU Boulder — INSTAAR / Environmental Studies",
+  "org": "Boulder, CO",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "url",
+    "href": "https://www.uwyo.edu/haub/",
+    "label": "🔍 UW Haub School"
+   },
+   {
+    "field": "links[0]",
+    "href": "https://warnercnr.colostate.edu/ess/graduate-programs/graduate-research-opportunities/",
+    "label": "🔍 CSU active grad opportunities"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://ecology.colostate.edu/assistantships/",
+    "label": "🔍 GDPE assistantships"
+   },
+   {
+    "field": "links[2]",
+    "href": "https://www.uwyo.edu/haub/",
+    "label": "🔍 UW Haub School"
+   },
+   {
+    "field": "links[3]",
+    "href": "https://www.google.com/search?q=University+Wyoming+Forest+Forensics+Dendroecology+Lab+LiDAR+wildfire+MS+assistantship+2026",
+    "label": "🔍 Search UWyo wildfire MS position"
+   },
+   {
+    "field": "links[4]",
+    "href": "https://instaar.colorado.edu/",
+    "label": "🔍 INSTAAR website"
+   },
+   {
+    "field": "links[5]",
+    "href": "https://www.colorado.edu/envs/graduate",
+    "label": "🔍 CU Environmental Studies grad program"
+   },
+   {
+    "field": "links[6]",
+    "href": "https://instaar.colorado.edu/people/faculty/",
+    "label": "instaar.colorado.edu/people/faculty"
+   }
+  ]
+ },
+ {
+  "id": "item-013",
+  "title": "University of Montana — Environmental Studies",
+  "org": "Missoula, MT · WICHE eligible for Colorado residents",
+  "expired": false,
+  "cycle": "current",
+  "urls": [
+   {
+    "field": "url",
+    "href": "https://www.gri.msstate.edu/",
+    "label": "🔍 MSU GRI website"
+   },
+   {
+    "field": "links[0]",
+    "href": "https://www.gri.msstate.edu/",
+    "label": "🔍 MSU GRI website"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.google.com/search?q=Mississippi+State+Geosystems+Research+Institute+GIS+MS+PhD+assistantship+2026",
+    "label": "🔍 Search MSU GRI openings"
+   },
+   {
+    "field": "links[2]",
+    "href": "https://www.umt.edu/environmental-studies/graduate/",
+    "label": "🔍 UM Environmental Studies grad"
+   },
+   {
+    "field": "links[3]",
+    "href": "https://www.wiche.edu/tuition-savings/wrgp/",
+    "label": "🔍 WICHE tuition savings info"
+   },
+   {
+    "field": "links[4]",
+    "href": "https://www.umt.edu/environmental-studies/people/faculty.php",
+    "label": "umt.edu/environmental-studies/people/faculty"
+   }
+  ]
+ },
+ {
+  "id": "item-045",
+  "title": "NC State University — Dept. of Forestry & Environmental Resources",
+  "org": "Raleigh, NC · MS Forestry / Natural Resources — thesis track",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://cnr.ncsu.edu/fer/",
+    "label": "🔍 NC State Forestry & Environmental Resources"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://cnr.ncsu.edu/geospatial/academics/phd-in-geospatial-analytics/graduate-assistantships/",
+    "label": "🔍 NC State Center for Geospatial Analytics — GIS assistantships (PhD, $30k+)"
+   }
+  ]
+ },
+ {
+  "id": "item-046",
+  "title": "Purdue University — Dept. of Forestry & Natural Resources",
+  "org": "West Lafayette, IN · MS Environmental Science / Natural Reso",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.purdue.edu/gradschool/prospective/gradrequirements/westlafayette/fnr.html",
+    "label": "🔍 Purdue FNR graduate program"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.google.com/search?q=Purdue+Jo+Lab+soil+contamination+vegetation+MS+assistantship+2026+2027",
+    "label": "🔍 Search Purdue Jo Lab MS openings"
+   }
+  ]
+ },
+ {
+  "id": "item-047",
+  "title": "Louisiana State University — Wetland & Aquatic Biogeochemistry Lab",
+  "org": "Baton Rouge, LA · MS Oceanography & Coastal Sciences",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://faculty.lsu.edu/whitelab/graduateassistantships.php",
+    "label": "🔍 LSU WABL assistantships"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://faculty.lsu.edu/whitelab/",
+    "label": "🔍 WABL lab website"
+   }
+  ]
+ },
+ {
+  "id": "item-048",
+  "title": "University of Montana — MS Wildlife Biology",
+  "org": "Missoula, MT · Wildlife Biology Program",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.umt.edu/wildlife-biology/graduate/ms-wbio/",
+    "label": "🔍 UM Wildlife Biology MS program"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.umt.edu/wildlife-biology/people/faculty/",
+    "label": "🔍 Browse UM Wildlife Biology faculty"
+   }
+  ]
+ },
+ {
+  "id": "item-049",
+  "title": "Mississippi State University — Wildlife, Fisheries & Aquaculture",
+  "org": "Starkville, MS · MS Wildlife or Fisheries",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://www.wildlifefisheries.msstate.edu/students/graduate-programs.php",
+    "label": "🔍 MSU WFA graduate programs"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://www.cfr.msstate.edu/job-board/",
+    "label": "🔍 MSU College of Forest Resources job board"
+   },
+   {
+    "field": "links[2]",
+    "href": "https://www.gri.msstate.edu/",
+    "label": "🔍 MSU Geosystems Research Institute (GIS/health)"
+   }
+  ]
+ },
+ {
+  "id": "item-050",
+  "title": "Colorado State University — Ecosystem Science & Sustainability / GDPE",
+  "org": "Fort Collins, CO · MS or PhD — multiple departments",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "links[0]",
+    "href": "https://warnercnr.colostate.edu/ess/graduate-programs/graduate-research-opportunities/",
+    "label": "🔍 CSU active grad opportunities"
+   },
+   {
+    "field": "links[1]",
+    "href": "https://ecology.colostate.edu/assistantships/",
+    "label": "🔍 CSU Ecology (GDPE) assistantships"
+   }
+  ]
+ },
+ {
+  "id": "item-051",
+  "title": "University of Minnesota — Water Resources Science Program",
+  "org": "St. Paul, MN · MS Water Resources Science (interdisciplinary",
+  "expired": false,
+  "cycle": "next",
+  "urls": [
+   {
+    "field": "url",
+    "href": "https://wrs.umn.edu/prospective-students",
+    "label": "🔍 UMN Water Resources Science admissions"
+   },
+   {
+    "field": "links[0]",
+    "href": "https://wrs.umn.edu/prospective-students",
+    "label": "🔍 UMN Water Resources Science admissions"
+   }
+  ]
+ }
+]
