@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
-<link rel="stylesheet" href="styles.css?v=20260602-102-bb84be96">
+<link rel="stylesheet" href="styles.css?v=20260608-102-bb84be96">
 <title>My Opportunity List — What's Next for Erin</title>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -254,8 +254,8 @@ var(--mute-t);border:1px solid var(--bds)}
 </style>
 
 <script src="icons.js?v=20260602"></script>
-<script src="site.js?v=20260602-102-bb84be96"></script>
-<script src="opportunities.js?v=20260602-102-bb84be96"></script>
+<script src="site.js?v=20260608-102-bb84be96"></script>
+<script src="opportunities.js?v=20260608-102-bb84be96"></script>
 <script>
 (function(){
   var saved=localStorage.getItem('erin_theme');
@@ -432,6 +432,39 @@ window.NI={
   toggle:function(id){ var m=niLoad(); if(m[id]) delete m[id]; else m[id]=true; niSave(m); pushNI(m); return !!m[id]; }
 };
 
+/* v2.16: "Link broken" personal flag — primary-gated cloud sync.
+   localStorage `erin_broken_links_v1` + JSONbin record key `brokenLinks`.
+   Surfaces in next weekly sweep so URLs can be verified and fixed. */
+var BL_STORE='erin_broken_links_v1';
+var _memBL = null;
+function blLoad(){
+  if(isPrimary()){ try{ return JSON.parse(localStorage.getItem(BL_STORE)||'{}'); }catch(e){ return {}; } }
+  if(_memBL===null) _memBL={};
+  return _memBL;
+}
+function blSave(m){
+  if(isPrimary()){ localStorage.setItem(BL_STORE, JSON.stringify(m)); }
+  else { _memBL = m; }
+}
+function pushBL(m){
+  if(!isPrimary()) return;
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+    .then(function(r){return r.json();})
+    .then(function(data){
+      var rec=data.record||{};
+      rec.brokenLinks=m;
+      return fetch('https://api.jsonbin.io/v3/b/'+BIN,{
+        method:'PUT',
+        headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},
+        body:JSON.stringify(rec)
+      });
+    }).then(function(){ flash('Synced'); }).catch(function(){ flash('Sync error'); });
+}
+window.BL={
+  has:function(id){ return !!blLoad()[id]; },
+  toggle:function(id){ var m=blLoad(); if(m[id]) delete m[id]; else m[id]=true; blSave(m); pushBL(m); return !!m[id]; }
+};
+
 // ── Archive log: rationale capture when items are removed from My List ──
 // Shared store with Applications page ('erin_archive_log', bin key 'archiveLog')
 // so the full history of every passed-on opportunity lives in one place.
@@ -590,6 +623,9 @@ function pullCloud(){
     }
     if(data.record && data.record.notInterested){
       niSave(data.record.notInterested);  /* mirror cloud \u2192 local for the Not-interested flag */
+    }
+    if(data.record && data.record.brokenLinks){
+      blSave(data.record.brokenLinks);    /* v2.16: mirror broken-link flags so weekly sweep can see them */
     }
     renderList();
   }).catch(function(){ renderList(); });
@@ -877,6 +913,7 @@ initPrimaryBtn();
   var BACKUP_MAP=[
     {cloud:'items',          ls:'erin_mylist_v1',        label:'My List (saved/favorited)'},
     {cloud:'notInterested',  ls:'erin_not_interested_v1',label:'Not interested (hidden in Browse)'},
+    {cloud:'brokenLinks',    ls:'erin_broken_links_v1',  label:'Broken-link flags (for next sweep)'},
     {cloud:'apps',           ls:'erin_applications_v1',  label:'Applications tracker'},
     {cloud:'archiveLog',     ls:'erin_archive_log',      label:'Archive log'},
     {cloud:'profs',          ls:'erin_prof_contacts',    label:'Professor tracker'},
@@ -1132,6 +1169,9 @@ html.dark .bx-new{background:#ff5a3c;color:#1a1a1a}
 .bx-ni-btn.on{background:var(--red);color:#fff}
 .browse-card.is-ni{opacity:.7}
 .browse-card.is-ni:hover{opacity:1}
+/* v2.16: broken-link flag — red left rule + warning badge */
+.browse-card.is-bl{border-left:3px solid var(--red)}
+.bx-bl-badge{font-size:12.5px;font-weight:600;padding:2px 8px;border-radius:999px;background:var(--red-bg);color:var(--red-t);border:.5px solid var(--red);white-space:nowrap}
 .bx-urg{font-size:12.5px;font-weight:700;padding:2px 8px;border-radius:999px;white-space:nowrap}
 .u0{background:var(--red-bg);color:#993c1d}.u1{background:var(--amber-bg);color:var(--amber-t)}
 .u2{background:var(--teal-bg);color:var(--teal-t)}.u3{background:var(--blue-bg);color:var(--blue)}
@@ -1291,6 +1331,20 @@ function buildBrowseDetailX(it){
   if(it.src){ var as=document.createElement('a'); as.className='id-link'; as.href=it.src; as.target='_blank'; as.textContent='Open '+(it.src_label||'source page'); ln.appendChild(as); }
   if(it.id){ var ap=document.createElement('a'); ap.className='id-link'; ap.href='erin_packet.html?ml='+encodeURIComponent(it.id); ap.innerHTML='&#128424; Print packet'; ln.appendChild(ap); }
   if(ln.children.length) d.appendChild(ln);
+  /* v2.16: "Mark link broken" toggle — primary-gated; persists to JSONbin
+     so weekly sweep can verify the URL and fix it. */
+  var _blFlagged = !!(window.BL && BL.has(it.id));
+  var _blBox = document.createElement('div'); _blBox.className='id-bl-box';
+  _blBox.style.cssText='margin-top:.85rem;padding:.5rem .75rem;border:.5px dashed '+(_blFlagged?'var(--red)':'var(--bds)')+';border-radius:var(--r1);font-size:12.5px;color:'+(_blFlagged?'var(--red-t)':'var(--t3)')+';display:flex;align-items:center;gap:8px;background:'+(_blFlagged?'var(--red-bg)':'transparent');
+  var _blChk = document.createElement('input'); _blChk.type='checkbox'; _blChk.id='blchk-'+it.id;
+  _blChk.checked = _blFlagged;
+  _blChk.style.cssText='accent-color:var(--red);cursor:pointer;width:15px;height:15px;flex-shrink:0';
+  _blChk.onchange = function(){ if(window.BL){ BL.toggle(it.id); if(typeof renderBrowse==='function') renderBrowse(); if(typeof renderList==='function') renderList(); } };
+  var _blLbl = document.createElement('label'); _blLbl.htmlFor = 'blchk-'+it.id;
+  _blLbl.innerHTML = '<strong style="font-weight:600">Link broken?</strong> &mdash; flag for next sweep to verify &amp; update';
+  _blLbl.style.cssText='cursor:pointer;flex:1';
+  _blBox.appendChild(_blChk); _blBox.appendChild(_blLbl);
+  d.appendChild(_blBox);
   return d;
 }
 
@@ -1337,7 +1391,8 @@ function renderBrowseX(){
     var saved=(typeof has==='function')&&has(it.id);
     var fresh=isNewItem(it);
     var ni=niHas(it.id);
-    var card=el('div','browse-card'+(saved?' is-saved':'')+(fresh?' is-new':'')+(ni?' is-ni':'')); card.id='bcx-'+it.id;
+    var blFlag=!!(window.BL&&BL.has(it.id));
+    var card=el('div','browse-card'+(saved?' is-saved':'')+(fresh?' is-new':'')+(ni?' is-ni':'')+(blFlag?' is-bl':'')); card.id='bcx-'+it.id;
     var th=el('div',null); th.style.cssText='display:flex;justify-content:space-between;gap:8px;align-items:flex-start';
     var tl=el('div',null);
     var titleRow=el('div',null); titleRow.style.cssText='display:flex;align-items:center;gap:7px;flex-wrap:wrap';
@@ -1345,6 +1400,7 @@ function renderBrowseX(){
     titleRow.appendChild(el('div','browse-title',it.title));
     if(saved) titleRow.appendChild(el('span','bx-saved','✓ Saved'));
     if(ni) titleRow.appendChild(el('span','bx-ni-badge','✗ Not interested'));
+    if(blFlag) titleRow.appendChild(el('span','bx-bl-badge','⚠ Link reported broken'));
     tl.appendChild(titleRow);
     tl.appendChild(el('div','browse-org',it.org));
     th.appendChild(tl);

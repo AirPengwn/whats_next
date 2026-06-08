@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
-<link rel="stylesheet" href="styles.css?v=20260602-102-bb84be96">
+<link rel="stylesheet" href="styles.css?v=20260608-102-bb84be96">
 <title>Service & Fellowships — What’s Next for Erin</title>
 <style>
 body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem}
@@ -26,6 +26,9 @@ body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6
 .browse-save-btn.saved:hover{background:var(--amber-bg);color:var(--amber-t)}
 .browse-card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:.85rem 1.1rem;margin-bottom:.5rem}
 .browse-card.is-saved{border:1.5px solid var(--teal)}
+/* v2.16: card flagged with broken link — red left rule + warning badge in title row */
+.browse-card.is-bl{border-left:3px solid var(--red)}
+.bx-bl-badge{font-size:12.5px;font-weight:600;padding:2px 8px;border-radius:999px;background:var(--red-bg);color:var(--red-t);border:.5px solid var(--red);white-space:nowrap}
 /* v2.0 card-discipline pills — confident fit, quiet fit, neutral status chip */
 .fit-pill{font-size:12.5px;font-weight:600;padding:2px 9px;border-radius:999px;background:var(--fit-bg);color:var(--fit-t);white-space:nowrap;line-height:1.5;letter-spacing:.01em}
 .fit-pill.fit-weak{background:transparent;color:var(--mute-t);border:1px solid var(--bds);font-weight:500}
@@ -84,7 +87,7 @@ html.dark .bx-new{background:#ff5a3c;color:#1a1a1a}
   window.__toggleTheme=function(){var d=document.documentElement.classList.toggle('dark');localStorage.setItem('erin_theme',d?'dark':'light');upBtn();};
 })();
 </script>
-<script src="site.js?v=20260602-102-bb84be96"></script>
+<script src="site.js?v=20260608-102-bb84be96"></script>
 </head>
 <body>
 <!-- GLOBAL NAV -->
@@ -138,7 +141,7 @@ html.dark .bx-new{background:#ff5a3c;color:#1a1a1a}
 <div id="browse-body"></div>
 <p class="footer">Live opportunities, sorted by urgency. Saving is gated to Erin&rsquo;s primary device.<br><br><a href="index.html" style="color:var(--blue)">&#8592; Back to home</a></p>
 </div>
-<script src="opportunities.js?v=20260602-102-bb84be96"></script>
+<script src="opportunities.js?v=20260608-102-bb84be96"></script>
 <script>
 (function(){
 var BIN_ID='6a039aa4250b1311c33f2bac',API_KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa',STORE='erin_mylist_v1';
@@ -147,7 +150,7 @@ function isPrimary(){return localStorage.getItem('erin_primary_device')==='1'||l
    to localStorage, never pushed to cloud. A one-shot cloud GET below
    seeds the cache so the reader sees Erin's actual list; clicks update
    memory; refresh resets to whatever cloud says. */
-var _mem=null, _memNI=null;
+var _mem=null, _memNI=null, _memBL=null;
 function getSaved(){if(isPrimary()){try{return JSON.parse(localStorage.getItem(STORE)||'{}')}catch(e){return{}}} if(_mem===null)_mem={}; return _mem;}
 function setSaved(m){if(isPrimary()){localStorage.setItem(STORE,JSON.stringify(m));} else {_mem=m;}}
 function isSaved(id){return!!getSaved()[id];}
@@ -200,6 +203,30 @@ window.NI={
   has:function(id){return !!getNI()[id];},
   toggle:function(id){var m=getNI(); if(m[id]) delete m[id]; else m[id]=true; setNI(m); pushNI(m); return !!m[id];}
 };
+/* "Link broken" personal flag — same primary-gated sync model. When Erin marks
+   a card's link broken, the flag persists across devices via JSONbin so the
+   weekly sweep can pick it up, verify, replace the URL, and clear the flag. */
+var BL_STORE='erin_broken_links_v1';
+function getBL(){if(isPrimary()){try{return JSON.parse(localStorage.getItem(BL_STORE)||'{}')}catch(e){return{}}} if(_memBL===null)_memBL={}; return _memBL;}
+function setBL(m){if(isPrimary()){localStorage.setItem(BL_STORE,JSON.stringify(m));} else {_memBL=m;}}
+function pushBL(m){
+  if(!isPrimary()) return;
+  fetch('https://api.jsonbin.io/v3/b/'+BIN_ID+'/latest',{headers:{'X-Master-Key':API_KEY}})
+    .then(function(r){return r.json();})
+    .then(function(data){
+      var rec=(data&&data.record)||{};
+      rec.brokenLinks=m;                /* merge: only replace brokenLinks key */
+      return fetch('https://api.jsonbin.io/v3/b/'+BIN_ID,{
+        method:'PUT',
+        headers:{'Content-Type':'application/json','X-Master-Key':API_KEY,'X-Bin-Versioning':'false'},
+        body:JSON.stringify(rec)
+      });
+    }).catch(function(){});
+}
+window.BL={
+  has:function(id){return !!getBL()[id];},
+  toggle:function(id){var m=getBL(); if(m[id]) delete m[id]; else m[id]=true; setBL(m); pushBL(m); return !!m[id];}
+};
 /* Reader-mode init: one-shot read-only cloud pull so the in-memory cache
    reflects Erin's actual Saved + Not-Interested state on first paint. */
 function _readerPull(){
@@ -210,6 +237,7 @@ function _readerPull(){
       var rec=(data&&data.record)||{};
       if(rec.items) _mem = rec.items;
       if(rec.notInterested) _memNI = rec.notInterested;
+      if(rec.brokenLinks) _memBL = rec.brokenLinks;
       ML.update();
       try{ if(typeof renderBrowse==='function') renderBrowse(); }catch(e){}
     }).catch(function(){});
@@ -387,6 +415,20 @@ function buildBrowseDetailX(it){
   if(it.src){ var as=document.createElement('a'); as.className='id-link'; as.href=it.src; as.target='_blank'; as.textContent='Open '+(it.src_label||'source page'); ln.appendChild(as); }
   if(it.id){ var ap=document.createElement('a'); ap.className='id-link'; ap.href='erin_packet.html?ml='+encodeURIComponent(it.id); ap.innerHTML='&#128424; Print packet'; ln.appendChild(ap); }
   if(ln.children.length) d.appendChild(ln);
+  /* v2.16: "Mark link broken" toggle — primary-gated, persists to JSONbin so
+     the weekly sweep can find flagged items, verify URLs, and clear flags. */
+  var blFlagged = !!(window.BL && BL.has(it.id));
+  var blBox = document.createElement('div'); blBox.className='id-bl-box';
+  blBox.style.cssText='margin-top:.85rem;padding:.5rem .75rem;border:.5px dashed '+(blFlagged?'var(--red)':'var(--bds)')+';border-radius:var(--r1);font-size:12.5px;color:'+(blFlagged?'var(--red-t)':'var(--t3)')+';display:flex;align-items:center;gap:8px;background:'+(blFlagged?'var(--red-bg)':'transparent');
+  var blChk = document.createElement('input'); blChk.type='checkbox'; blChk.id='blchk-'+it.id;
+  blChk.checked = blFlagged;
+  blChk.style.cssText='accent-color:var(--red);cursor:pointer;width:15px;height:15px;flex-shrink:0';
+  blChk.onchange = function(){ if(window.BL){ BL.toggle(it.id); if(typeof renderBrowse==='function') renderBrowse(); } };
+  var blLbl = document.createElement('label'); blLbl.htmlFor = 'blchk-'+it.id;
+  blLbl.innerHTML = '<strong style="font-weight:600">Link broken?</strong> &mdash; flag for next sweep to verify &amp; update';
+  blLbl.style.cssText='cursor:pointer;flex:1';
+  blBox.appendChild(blChk); blBox.appendChild(blLbl);
+  d.appendChild(blBox);
   return d;
 }
 
@@ -434,7 +476,8 @@ function renderBrowseX(){
     var saved=(typeof has==='function')&&has(it.id);
     var fresh=isNewItem(it);
     var ni=niHas(it.id);
-    var card=el('div','browse-card'+(saved?' is-saved':'')+(fresh?' is-new':'')+(ni?' is-ni':'')); card.id='bcx-'+it.id;
+    var blFlag=!!(window.BL&&BL.has(it.id));
+    var card=el('div','browse-card'+(saved?' is-saved':'')+(fresh?' is-new':'')+(ni?' is-ni':'')+(blFlag?' is-bl':'')); card.id='bcx-'+it.id;
     var th=el('div',null); th.style.cssText='display:flex;justify-content:space-between;gap:8px;align-items:flex-start';
     var tl=el('div',null);
     var titleRow=el('div',null); titleRow.style.cssText='display:flex;align-items:center;gap:7px;flex-wrap:wrap';
@@ -442,6 +485,7 @@ function renderBrowseX(){
     titleRow.appendChild(el('div','browse-title',it.title));
     if(saved) titleRow.appendChild(el('span','bx-saved','✓ Saved'));
     if(ni) titleRow.appendChild(el('span','bx-ni-badge','✗ Not interested'));
+    if(blFlag) titleRow.appendChild(el('span','bx-bl-badge','⚠ Link reported broken'));
     tl.appendChild(titleRow);
     tl.appendChild(el('div','browse-org',it.org));
     th.appendChild(tl);

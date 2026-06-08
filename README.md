@@ -159,6 +159,17 @@ runs the build:
 > honest verification, not by a number — expect many searches
 > (type×region matrix + interest-area + source-targeted).
 >
+> **(0) PRE-SWEEP — broken-link check.** Fetch JSONbin
+> (`https://api.jsonbin.io/v3/b/6a039aa4250b1311c33f2bac/latest`,
+> header `X-Master-Key: $2a$10$zEyOgbH7E5...`) and read `record.brokenLinks`
+> (object: `{id: true}`). For each flagged opportunity ID, locate the matching
+> record in `opportunities.data.json` by `id`, verify the `links[*].href`,
+> `src`, and `url` on the official page. If broken: find the current URL and
+> update the field. If the program/posting is gone: set `expired:true` with
+> `status` label `"Expired — <date>"`. **After fixing, clear those flags** by
+> PUTting `record.brokenLinks = {}` back to JSONbin (or removing only the
+> resolved ids — preserve any flags added during the sweep window).
+>
 > (1) Using the SEARCH METHOD above, research nationwide; verify every
 > added item's deadline on its official page (never fabricate; if timing
 > can't be confirmed, set `deadline_kind:"contact-first"` + a "Reach /

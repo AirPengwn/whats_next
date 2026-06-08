@@ -6,7 +6,7 @@ function isPrimary(){return localStorage.getItem('erin_primary_device')==='1'||l
    to localStorage, never pushed to cloud. A one-shot cloud GET below
    seeds the cache so the reader sees Erin's actual list; clicks update
    memory; refresh resets to whatever cloud says. */
-var _mem=null, _memNI=null;
+var _mem=null, _memNI=null, _memBL=null;
 function getSaved(){if(isPrimary()){try{return JSON.parse(localStorage.getItem(STORE)||'{}')}catch(e){return{}}} if(_mem===null)_mem={}; return _mem;}
 function setSaved(m){if(isPrimary()){localStorage.setItem(STORE,JSON.stringify(m));} else {_mem=m;}}
 function isSaved(id){return!!getSaved()[id];}
@@ -59,6 +59,30 @@ window.NI={
   has:function(id){return !!getNI()[id];},
   toggle:function(id){var m=getNI(); if(m[id]) delete m[id]; else m[id]=true; setNI(m); pushNI(m); return !!m[id];}
 };
+/* "Link broken" personal flag — same primary-gated sync model. When Erin marks
+   a card's link broken, the flag persists across devices via JSONbin so the
+   weekly sweep can pick it up, verify, replace the URL, and clear the flag. */
+var BL_STORE='erin_broken_links_v1';
+function getBL(){if(isPrimary()){try{return JSON.parse(localStorage.getItem(BL_STORE)||'{}')}catch(e){return{}}} if(_memBL===null)_memBL={}; return _memBL;}
+function setBL(m){if(isPrimary()){localStorage.setItem(BL_STORE,JSON.stringify(m));} else {_memBL=m;}}
+function pushBL(m){
+  if(!isPrimary()) return;
+  fetch('https://api.jsonbin.io/v3/b/'+BIN_ID+'/latest',{headers:{'X-Master-Key':API_KEY}})
+    .then(function(r){return r.json();})
+    .then(function(data){
+      var rec=(data&&data.record)||{};
+      rec.brokenLinks=m;                /* merge: only replace brokenLinks key */
+      return fetch('https://api.jsonbin.io/v3/b/'+BIN_ID,{
+        method:'PUT',
+        headers:{'Content-Type':'application/json','X-Master-Key':API_KEY,'X-Bin-Versioning':'false'},
+        body:JSON.stringify(rec)
+      });
+    }).catch(function(){});
+}
+window.BL={
+  has:function(id){return !!getBL()[id];},
+  toggle:function(id){var m=getBL(); if(m[id]) delete m[id]; else m[id]=true; setBL(m); pushBL(m); return !!m[id];}
+};
 /* Reader-mode init: one-shot read-only cloud pull so the in-memory cache
    reflects Erin's actual Saved + Not-Interested state on first paint. */
 function _readerPull(){
@@ -69,6 +93,7 @@ function _readerPull(){
       var rec=(data&&data.record)||{};
       if(rec.items) _mem = rec.items;
       if(rec.notInterested) _memNI = rec.notInterested;
+      if(rec.brokenLinks) _memBL = rec.brokenLinks;
       ML.update();
       try{ if(typeof renderBrowse==='function') renderBrowse(); }catch(e){}
     }).catch(function(){});

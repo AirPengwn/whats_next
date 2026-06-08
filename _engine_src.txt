@@ -154,6 +154,20 @@ function buildBrowseDetailX(it){
   if(it.src){ var as=document.createElement('a'); as.className='id-link'; as.href=it.src; as.target='_blank'; as.textContent='Open '+(it.src_label||'source page'); ln.appendChild(as); }
   if(it.id){ var ap=document.createElement('a'); ap.className='id-link'; ap.href='erin_packet.html?ml='+encodeURIComponent(it.id); ap.innerHTML='&#128424; Print packet'; ln.appendChild(ap); }
   if(ln.children.length) d.appendChild(ln);
+  /* v2.16: "Mark link broken" toggle — primary-gated, persists to JSONbin so
+     the weekly sweep can find flagged items, verify URLs, and clear flags. */
+  var blFlagged = !!(window.BL && BL.has(it.id));
+  var blBox = document.createElement('div'); blBox.className='id-bl-box';
+  blBox.style.cssText='margin-top:.85rem;padding:.5rem .75rem;border:.5px dashed '+(blFlagged?'var(--red)':'var(--bds)')+';border-radius:var(--r1);font-size:12.5px;color:'+(blFlagged?'var(--red-t)':'var(--t3)')+';display:flex;align-items:center;gap:8px;background:'+(blFlagged?'var(--red-bg)':'transparent');
+  var blChk = document.createElement('input'); blChk.type='checkbox'; blChk.id='blchk-'+it.id;
+  blChk.checked = blFlagged;
+  blChk.style.cssText='accent-color:var(--red);cursor:pointer;width:15px;height:15px;flex-shrink:0';
+  blChk.onchange = function(){ if(window.BL){ BL.toggle(it.id); if(typeof renderBrowse==='function') renderBrowse(); } };
+  var blLbl = document.createElement('label'); blLbl.htmlFor = 'blchk-'+it.id;
+  blLbl.innerHTML = '<strong style="font-weight:600">Link broken?</strong> &mdash; flag for next sweep to verify &amp; update';
+  blLbl.style.cssText='cursor:pointer;flex:1';
+  blBox.appendChild(blChk); blBox.appendChild(blLbl);
+  d.appendChild(blBox);
   return d;
 }
 
@@ -201,7 +215,8 @@ function renderBrowseX(){
     var saved=(typeof has==='function')&&has(it.id);
     var fresh=isNewItem(it);
     var ni=niHas(it.id);
-    var card=el('div','browse-card'+(saved?' is-saved':'')+(fresh?' is-new':'')+(ni?' is-ni':'')); card.id='bcx-'+it.id;
+    var blFlag=!!(window.BL&&BL.has(it.id));
+    var card=el('div','browse-card'+(saved?' is-saved':'')+(fresh?' is-new':'')+(ni?' is-ni':'')+(blFlag?' is-bl':'')); card.id='bcx-'+it.id;
     var th=el('div',null); th.style.cssText='display:flex;justify-content:space-between;gap:8px;align-items:flex-start';
     var tl=el('div',null);
     var titleRow=el('div',null); titleRow.style.cssText='display:flex;align-items:center;gap:7px;flex-wrap:wrap';
@@ -209,6 +224,7 @@ function renderBrowseX(){
     titleRow.appendChild(el('div','browse-title',it.title));
     if(saved) titleRow.appendChild(el('span','bx-saved','✓ Saved'));
     if(ni) titleRow.appendChild(el('span','bx-ni-badge','✗ Not interested'));
+    if(blFlag) titleRow.appendChild(el('span','bx-bl-badge','⚠ Link reported broken'));
     tl.appendChild(titleRow);
     tl.appendChild(el('div','browse-org',it.org));
     th.appendChild(tl);
