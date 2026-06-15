@@ -109,9 +109,220 @@ body{padding:0 0 3rem}
      - coverage: array of {id, title} for affected opportunities
    ═══════════════════════════════════════════════════════════ */
 var PUNCH_DATA = {
-  updated: null,                /* "June 15, 2026" once first generated */
-  basedOn: 0,                   /* saved opportunity count at generation time */
-  sections: []                  /* see structure above */
+  updated: "June 15, 2026",
+  basedOn: 16,
+  sections: [
+    /* ═══════════════════════════════════════════════════════════
+       GRADUATE PROGRAMS — 6 saved
+       item-045 NC State Forestry · item-048 UMontana Wildlife
+       item-049 MSU WFA · item-050 CSU GDPE
+       item-094 CSU Mesocarnivore (filled — archive)
+       item-109 LSU Entomology PhD
+       ═══════════════════════════════════════════════════════════ */
+    {
+      type: "grad", label: "Graduate Programs", icon: "cap",
+      actions: [
+        {
+          rank: 1, priority: 1,
+          title: "Identify 3 recommenders → ask them → log in the Refs tracker",
+          detail: "Your Refs tracker is currently <strong>empty</strong>. Every grad application needs ~3 strong letters, and the same 3 letters work across all 6 saved programs. Best candidates: a WCU faculty member who supervised your Pigeon River capstone, a second faculty member (lab/field course), and a research/internship supervisor. Ask <strong>at least 8 weeks before</strong> your earliest deadline — faculty inboxes fill in early fall.",
+          impact: "Unblocks all 6 saved grad applications",
+          effort: "1 hr drafting ask emails · then follow-ups over 2-3 wks",
+          coverage: [
+            {id: "item-045", title: "NC State Forestry"},
+            {id: "item-048", title: "UMontana Wildlife"},
+            {id: "item-049", title: "MSU WFA"},
+            {id: "item-050", title: "CSU GDPE"},
+            {id: "item-109", title: "LSU Entomology"}
+          ]
+        },
+        {
+          rank: 2, priority: 1,
+          title: "Begin direct professor outreach at all 6 grad programs",
+          detail: "Direct outreach BEFORE applications open is the single highest-leverage activity in funded grad recruiting — funded MS/PhD spots often go to students who contacted a PI first. Your Profs tracker is empty. Pick one PI per program, find a paper or project of theirs that genuinely interests you, and write a 200-word email tying it to your Pigeon River capstone.",
+          impact: "All 6 saved grad programs — direct line to admit decisions",
+          effort: "30-45 min per email × 6 (spread over 2-3 weeks)",
+          coverage: [
+            {id: "item-045", title: "NC State Forestry"},
+            {id: "item-048", title: "UMontana Wildlife"},
+            {id: "item-049", title: "MSU WFA"},
+            {id: "item-050", title: "CSU GDPE"},
+            {id: "item-109", title: "LSU Entomology"}
+          ]
+        },
+        {
+          rank: 3, priority: 2,
+          title: "Draft your base SOP — anchor on the Pigeon River + Helene capstone",
+          detail: "One ~700-word SOP base, tunable per program. Open with the Pigeon River lead-contamination story (this IS your distinctive angle), then your interest area, then 2-3 PIs at this program whose work overlaps. This document also bridges into Outreach emails. The Outreach page in the Write group has a template + Dr. Forrester example already drafted.",
+          impact: "Base for 6 grad apps + spillover to some service / fellowship apps",
+          effort: "4-6 hours initial · 30 min tune per program",
+          coverage: [
+            {id: "item-045", title: "NC State Forestry"},
+            {id: "item-048", title: "UMontana Wildlife"},
+            {id: "item-049", title: "MSU WFA"},
+            {id: "item-050", title: "CSU GDPE"},
+            {id: "item-109", title: "LSU Entomology"}
+          ]
+        },
+        {
+          rank: 4, priority: 2,
+          title: "Stand up the Materials Library — CV, transcript, SOP base — single source of truth",
+          detail: "The Materials page in the Write group exists; populate it once and every application gets faster. Federal applications (Career + Internship) want a different resume format — have a federal-resume variant ready. This investment <strong>repays itself within 2 applications</strong>.",
+          impact: "Every saved opportunity (16) — applications get 2-3× faster",
+          effort: "2-3 hours one-time setup",
+          coverage: [{title: "All 16 saved opportunities"}]
+        },
+        {
+          rank: 5, priority: 1,
+          title: "NC State (item-045) — your single strongest match. Tailor outreach to Dr. Jodi Forrester first",
+          detail: "Dr. Forrester's bird/Helene-recovery lab is the most direct overlap with your Pigeon River capstone of anything on your list. ~September 2026 deadline (less than 3 months). Read 2 recent papers from her lab, draft a tailored email, then submit application. There's a Dr. Forrester outreach draft already on the Outreach page — adapt that.",
+          impact: "1 — but exceptional fit + earliest deadline",
+          effort: "1-2 hrs research · 30 min outreach · 4-6 hrs application",
+          coverage: [{id: "item-045", title: "NC State Forestry"}]
+        },
+        {
+          rank: 6, priority: 2,
+          title: "LSU Entomology PhD (item-109) — bridge your sediment work to conservation entomology",
+          detail: "October 15, 2026 deadline. Flagged as a Reach — make sure you can bridge your story. Best angle: aquatic insects as bio-indicators of contamination (links your Pigeon River trace-metal work to entomology's role in conservation monitoring). Email a potential advisor first to test fit before investing in the full app.",
+          impact: "1 (reach fit)",
+          effort: "2-3 hours tailoring + advisor email first",
+          coverage: [{id: "item-109", title: "LSU Entomology PhD"}]
+        },
+        {
+          rank: 7, priority: 3,
+          title: "UMontana Wildlife (item-048) — Jan 15, 2027 deadline; calendar it now and start prof identification",
+          detail: "Longer runway than the others. Use this time to read papers from 2-3 Wildlife Biology faculty and find your best PI match. WICHE eligibility may apply (Colorado residents pay reduced tuition — check if it applies to you).",
+          impact: "1",
+          effort: "1-2 hours initial scoping; build over fall",
+          coverage: [{id: "item-048", title: "UMontana Wildlife"}]
+        },
+        {
+          rank: 8, priority: 4,
+          title: "Archive CSU Mesocarnivore Ecology (item-094) — position likely filled",
+          detail: "March 1, 2026 priority deadline passed; the TAMU job board listing was pulled (verified in the v2.22 link sweep). Mesocarnivore work was a reach for your profile anyway. Archive with reason 'Cycle closed / position filled'.",
+          impact: "Cleanup",
+          effort: "2 min",
+          coverage: [{id: "item-094", title: "CSU Mesocarnivore Ecology"}]
+        }
+      ]
+    },
+
+    /* ═══════════════════════════════════════════════════════════
+       CAREER POSITIONS — 2 saved
+       item-030 USFWS GS-0404 · item-033 NCWRC Wildlife Biologist
+       ═══════════════════════════════════════════════════════════ */
+    {
+      type: "career", label: "Career Positions", icon: "briefcase",
+      actions: [
+        {
+          rank: 1, priority: 1,
+          title: "Build a USAJOBS profile + upload federal-format resume",
+          detail: "Every federal application — USFWS GS-0404, USDA FS Pathways (over in Service), every future federal posting — flows through USAJobs. One profile + resume upload, then it's near-one-click to apply. Federal resumes have specific formatting (months/years for every position, hours/week, supervisor contact). Use the USAJOBS resume builder for the federal variant; keep your standard CV separate.",
+          impact: "Federal pipeline — 2 saved items + every future federal posting",
+          effort: "1-2 hours one-time",
+          coverage: [
+            {id: "item-030", title: "USFWS GS-0404"},
+            {id: "item-072", title: "USDA FS Pathways (Service section)"}
+          ]
+        },
+        {
+          rank: 2, priority: 2,
+          title: "Set USAJOBS saved-search alert: Fish-and-Wildlife-Service + JobCategoryCode 0404",
+          detail: "Once your USAJOBS profile is live, save the FWS+0404 search and turn on daily email alerts. GS-0404 postings rotate constantly — alerts let you apply the day a relevant posting opens. The link on your saved card now points to the right filter.",
+          impact: "USFWS GS-0404 (recurring)",
+          effort: "5 min (after profile setup)",
+          coverage: [{id: "item-030", title: "USFWS GS-0404"}]
+        },
+        {
+          rank: 3, priority: 2,
+          title: "Set NC Careers (Workday) alert: NCWRC + Wildlife Biologist",
+          detail: "NCWRC Wildlife Biologist I/Technician postings appear sporadically on the NC Careers Workday portal. Save the search filtered to NCWRC; turn on notifications. Application closes ~2 weeks after posting so speed matters.",
+          impact: "NCWRC Wildlife Biologist (recurring)",
+          effort: "5-10 min",
+          coverage: [{id: "item-033", title: "NCWRC Wildlife Biologist"}]
+        }
+      ]
+    },
+
+    /* ═══════════════════════════════════════════════════════════
+       INTERNSHIPS — 2 saved (1 expired)
+       item-058 Tetra Tech/AECOM/Geosyntec SE Region
+       item-103 Riparia Environmental WA (HTTP 410 Gone — archive)
+       ═══════════════════════════════════════════════════════════ */
+    {
+      type: "intern", label: "Internships", icon: "clipboard",
+      actions: [
+        {
+          rank: 1, priority: 2,
+          title: "Apply directly to Tetra Tech, AECOM, and Geosyntec SE-region careers",
+          detail: "This saved card aggregates 3 firms hiring entry-level Environmental Scientists in NC/SC/GA/AL. Best path: separate applications via each firm's career portal (the deepened links on your card go straight there). AECOM has an active Aiken-SC entry-level posting right now; Geosyntec has a verified Asheville opening.",
+          impact: "3 employers in one campaign",
+          effort: "~1 hr per firm × 3 = 3 hrs",
+          coverage: [{id: "item-058", title: "Tetra Tech / AECOM / Geosyntec SE Region"}]
+        },
+        {
+          rank: 2, priority: 4,
+          title: "Archive Riparia Environmental Field Tech (item-103) — position filled",
+          detail: "URL returned HTTP 410 Gone in the v2.22 link sweep — Riparia removed the posting from their applicant tracker, indicating it's filled. Archive with reason 'Position filled'.",
+          impact: "Cleanup",
+          effort: "2 min",
+          coverage: [{id: "item-103", title: "Riparia Environmental WA"}]
+        }
+      ]
+    },
+
+    /* ═══════════════════════════════════════════════════════════
+       SERVICE & FELLOWSHIPS — 6 saved (1 expired)
+       item-038 BLM Wetlands SCC (closed — archive)
+       item-039 Sustainability Institute SC
+       item-069 SECC Cherokee/Pisgah
+       item-072 USDA FS Pathways
+       item-080 CCMI Individual Placements
+       item-107 Stewards LiDAR Region 4 — strong-fit, rolling
+       ═══════════════════════════════════════════════════════════ */
+    {
+      type: "service", label: "Service & Fellowships", icon: "leaf",
+      actions: [
+        {
+          rank: 1, priority: 1,
+          title: "Apply NOW to Stewards LiDAR Monitoring Technician — USFWS Region 4 (item-107)",
+          detail: "Rolling applications, exact GIS-wetlands match for your applied multi-criteria suitability work. AmeriCorps placement at USFWS in the Florida panhandle (Apalachicola / St. Marks NWR area) — strong USFWS resume line that sets up a future Pathways or grad-school remote-sensing track. Apply via Conservation Legacy portal before it fills.",
+          impact: "1 — exceptional GIS-wetlands match",
+          effort: "2-3 hrs (Conservation Legacy portal application)",
+          coverage: [{id: "item-107", title: "Stewards LiDAR Region 4"}]
+        },
+        {
+          rank: 2, priority: 2,
+          title: "Draft a single base Service Corps cover letter — adapt for 4 orgs",
+          detail: "Sustainability Institute SC, Conservation Corps Minnesota & Iowa, SECC Cherokee/Pisgah, and Stewards all want the same essentials: motivation, field-readiness, willingness to be placed anywhere, the Pigeon River + Helene story. One ~400-word base letter saves hours per application.",
+          impact: "4 service orgs",
+          effort: "2 hrs initial · 20 min per org adapt",
+          coverage: [
+            {id: "item-039", title: "Sustainability Institute SC"},
+            {id: "item-080", title: "CCMI Individual Placements"},
+            {id: "item-069", title: "SECC Cherokee/Pisgah"},
+            {id: "item-107", title: "Stewards LiDAR Region 4"}
+          ]
+        },
+        {
+          rank: 3, priority: 2,
+          title: "Apply to USDA Forest Service Pathways Recent Graduate Program (item-072)",
+          detail: "Federal Pathways is one of the cleanest post-grad on-ramps to permanent federal employment. Flows through USAJobs — so you need the USAJOBS profile from Career section #1 first. Pathways accepts applications across the year but specific listings have short windows; set an alert.",
+          impact: "1 — converts to permanent federal employment",
+          effort: "2-3 hrs (after USAJOBS profile)",
+          coverage: [{id: "item-072", title: "USDA FS Pathways"}]
+        },
+        {
+          rank: 4, priority: 4,
+          title: "Archive BLM Wetlands & Wildlife (Southwest Conservation Corps, item-038)",
+          detail: "2025-26 cohort applications already closed per the v2.22 link sweep. SCC reposts annually; if Erin wants to track for the next cycle, set cycle:'next' instead of archiving. Otherwise archive with reason 'Cycle closed'.",
+          impact: "Cleanup",
+          effort: "2 min",
+          coverage: [{id: "item-038", title: "BLM Wetlands SCC"}]
+        }
+      ]
+    }
+  ]
 };
 
 (function(){
