@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
+<link rel="stylesheet" href="styles.css?v=20260615-124-dc421408">
+<title>Punch List &mdash; What&rsquo;s Next for Erin</title>
+<style>
+body{padding:0 0 3rem}
+.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.25rem}
+.page-header-eyebrow{font-size:12.5px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-t);margin-bottom:.25rem}
+.page-header-title{font-size:24px;font-weight:700;color:var(--t1);line-height:1.2;letter-spacing:-.02em;margin-bottom:.2rem}
+.page-header-sub{font-size:13px;color:var(--t2);line-height:1.5}
+
+/* Top meta strip — last-updated + count */
+.pl-meta{font-size:12.5px;color:var(--t3);margin-bottom:1rem;font-family:var(--mono);letter-spacing:.02em}
+
+/* Filter chips */
+.pl-filters{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-bottom:1.25rem}
+.pl-filter-label{font-size:12.5px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--t3);margin-right:6px;font-family:var(--mono)}
+.pl-chip{font-size:12.5px;padding:4px 12px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn);font-weight:500;transition:background .12s,color .12s}
+.pl-chip:hover{background:var(--bg2);color:var(--t1)}
+.pl-chip.on{background:var(--teal);color:#fff;border-color:var(--teal);font-weight:600}
+
+/* Section headers */
+.pl-section{margin-bottom:1.75rem}
+.pl-sec-head{display:flex;align-items:baseline;gap:8px;font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--t2);margin:.75rem 0 .7rem;padding-bottom:.4rem;border-bottom:.5px solid var(--bd);font-family:var(--mono)}
+.pl-sec-head .n{font-weight:500;color:var(--t3);font-size:12.5px}
+.pl-sec-head .ic{color:var(--teal-t);display:inline-flex;align-items:center}
+.pl-sec.gl-grad   .pl-sec-head{color:var(--teal-t)}
+.pl-sec.gl-intern .pl-sec-head{color:var(--blue)}
+.pl-sec.gl-career .pl-sec-head{color:var(--amber-t)}
+.pl-sec.gl-service .pl-sec-head{color:var(--purple-t)}
+
+/* Action cards */
+.pl-act{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:.85rem 1.1rem;margin-bottom:.6rem;display:grid;grid-template-columns:auto 1fr;gap:.65rem 1rem;align-items:start;transition:border-color .12s}
+.pl-act:hover{border-color:var(--bds)}
+.pl-act.pr-1{border-left:3px solid #993c1d}
+.pl-act.pr-2{border-left:3px solid #ef9f27}
+.pl-act.pr-3{border-left:3px solid var(--teal)}
+.pl-act.pr-4{border-left:3px solid var(--bds)}
+
+.pl-prio{flex-shrink:0;font-size:12.5px;font-weight:700;font-family:var(--mono);letter-spacing:.04em;color:var(--mute-t);min-width:38px;padding-top:2px}
+.pl-prio.pr-1{color:#993c1d}
+.pl-prio.pr-2{color:var(--amber-t)}
+.pl-prio.pr-3{color:var(--teal-t)}
+
+.pl-body{min-width:0}
+.pl-title{font-size:15px;font-weight:600;color:var(--t1);line-height:1.35;margin-bottom:.25rem}
+.pl-detail{font-size:13px;color:var(--t2);line-height:1.55;margin-bottom:.45rem}
+.pl-meta-row{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12.5px;color:var(--t3);font-family:var(--mono);letter-spacing:.02em;margin-bottom:.35rem}
+.pl-meta-row strong{color:var(--t2);font-weight:600}
+.pl-coverage{display:flex;flex-wrap:wrap;gap:5px;margin-top:.45rem}
+.pl-cov-chip{font-size:12.5px;padding:2px 9px;border-radius:999px;background:var(--bg2);color:var(--t2);border:.5px solid var(--bd);white-space:nowrap}
+.pl-cov-chip a{color:inherit;text-decoration:none}
+.pl-cov-chip a:hover{color:var(--teal-t)}
+
+/* Empty / placeholder */
+.pl-empty{background:var(--bg);border:.5px dashed var(--bds);border-radius:var(--r2);padding:2rem 1.5rem;text-align:center}
+.pl-empty-icon{font-size:32px;margin-bottom:.6rem;display:block;opacity:.7}
+.pl-empty-title{font-size:15px;font-weight:500;margin-bottom:.4rem}
+.pl-empty-body{font-size:13px;color:var(--t2);line-height:1.6}
+
+.footer{font-size:12.5px;color:var(--t3);text-align:center;margin-top:2rem;padding-bottom:1rem}
+</style>
+<script src="icons.js?v=20260615e"></script>
+<script src="site.js?v=20260615-124-dc421408"></script>
+</head>
+<body>
+
+<!-- GLOBAL NAV (rebuilt by site.js) -->
+<nav class="global-nav">
+  <div class="gnav-wrap"><div class="gnav-inner"></div></div>
+</nav>
+
+<div class="page cab-page">
+  <div class="page-header">
+    <div class="page-header-eyebrow">Track</div>
+    <div class="page-header-title">Punch List</div>
+    <div class="page-header-sub">Prioritized next steps across your saved opportunities &mdash; leverage-first. Doing one task that knocks out 5 opportunities ranks above one that knocks out 1.</div>
+  </div>
+
+  <div class="pl-meta" id="pl-meta">Loading&hellip;</div>
+
+  <div class="pl-filters">
+    <span class="pl-filter-label">Show types:</span>
+    <button class="pl-chip on" data-type="all" type="button">All</button>
+    <button class="pl-chip on" data-type="grad" type="button">Graduate Programs</button>
+    <button class="pl-chip on" data-type="intern" type="button">Internships</button>
+    <button class="pl-chip on" data-type="career" type="button">Career</button>
+    <button class="pl-chip on" data-type="service" type="button">Service</button>
+  </div>
+
+  <div id="pl-body"></div>
+
+  <p class="footer">Ask Claude to update this punch list. Generation looks at the items you&rsquo;ve starred + their deadlines + open trackers, and surfaces the highest-leverage actions first.<br><br><a href="erin_mylist.html" style="color:var(--blue)">&#8592; Back to My List</a></p>
+</div>
+
+<script>
+/* ═══════════════════════════════════════════════════════════
+   PUNCH_DATA — regenerated when Claude is prompted.
+   Each section.actions[i] carries:
+     - priority: 1 (top urgent) … 4 (background)
+     - title:    one-line imperative
+     - detail:   why it matters / how to do it
+     - impact:   how many opportunities it advances
+     - effort:   estimated time/lift
+     - coverage: array of {id, title} for affected opportunities
+   ═══════════════════════════════════════════════════════════ */
+var PUNCH_DATA = {
+  updated: null,                /* "June 15, 2026" once first generated */
+  basedOn: 0,                   /* saved opportunity count at generation time */
+  sections: []                  /* see structure above */
+};
+
+(function(){
+  /* ── Filter state ── */
+  var TYPES = ['grad','intern','career','service'];
+  var active = {grad:true, intern:true, career:true, service:true};
+  function syncAll(){
+    var allOn = TYPES.every(function(t){return active[t];});
+    var btn = document.querySelector('[data-type="all"]');
+    if(btn) btn.classList.toggle('on', allOn);
+  }
+  document.querySelectorAll('.pl-chip').forEach(function(b){
+    b.addEventListener('click', function(){
+      var t = b.getAttribute('data-type');
+      if(t === 'all'){
+        var turnOn = !TYPES.every(function(x){return active[x];});
+        TYPES.forEach(function(x){active[x] = turnOn;});
+      } else {
+        active[t] = !active[t];
+      }
+      TYPES.forEach(function(x){
+        var c = document.querySelector('[data-type="'+x+'"]');
+        if(c) c.classList.toggle('on', active[x]);
+      });
+      syncAll();
+      render();
+    });
+  });
+
+  /* ── Render ── */
+  function render(){
+    var body = document.getElementById('pl-body');
+    var meta = document.getElementById('pl-meta');
+    if(!body || !meta) return;
+    body.innerHTML = '';
+
+    if(PUNCH_DATA.updated){
+      meta.textContent = 'Last updated: ' + PUNCH_DATA.updated + ' · Based on ' + PUNCH_DATA.basedOn + ' saved opportunity' + (PUNCH_DATA.basedOn===1?'':'ies');
+    } else {
+      meta.textContent = 'No punch list generated yet — ask Claude to generate one.';
+    }
+
+    if(!PUNCH_DATA.sections.length){
+      body.innerHTML = '<div class="pl-empty">'
+        + '<span class="pl-empty-icon">✓</span>'
+        + '<div class="pl-empty-title">No punch list yet</div>'
+        + '<div class="pl-empty-body">When you’re ready, ask Claude to <em>“update the punch list”</em> and Claude will look at your saved opportunities, their deadlines, and your existing tracker state, then surface the highest-leverage actions — grouped by opportunity type.<br><br>The most useful punch list comes when you have <strong>at least 5–6 items saved</strong> across multiple types, so Claude can spot tasks that knock out multiple opportunities at once (e.g. one outreach email that fits 3 grad programs).</div>'
+        + '</div>';
+      return;
+    }
+
+    PUNCH_DATA.sections.forEach(function(sec){
+      if(!active[sec.type]) return;
+      if(!sec.actions || !sec.actions.length) return;
+
+      var s = document.createElement('div'); s.className = 'pl-section pl-sec gl-'+sec.type;
+      var h = document.createElement('div'); h.className = 'pl-sec-head';
+      h.innerHTML = '<span class="ic" data-i="'+(sec.icon||'check')+'"></span> '
+        + sec.label + ' <span class="n">· ' + sec.actions.length + ' action' + (sec.actions.length===1?'':'s') + '</span>';
+      s.appendChild(h);
+
+      sec.actions.forEach(function(a){
+        var card = document.createElement('div');
+        var prio = +a.priority||3;
+        card.className = 'pl-act pr-' + prio;
+
+        var prioBox = document.createElement('div'); prioBox.className = 'pl-prio pr-'+prio;
+        prioBox.textContent = '#' + (a.rank || prio);
+        card.appendChild(prioBox);
+
+        var b = document.createElement('div'); b.className = 'pl-body';
+        b.innerHTML = '<div class="pl-title">' + esc(a.title) + '</div>'
+          + (a.detail ? '<div class="pl-detail">' + a.detail + '</div>' : '')
+          + '<div class="pl-meta-row">'
+          + (a.impact ? '<span><strong>Impact:</strong> '+esc(a.impact)+'</span>' : '')
+          + (a.effort ? '<span><strong>Effort:</strong> '+esc(a.effort)+'</span>' : '')
+          + '</div>';
+        if(a.coverage && a.coverage.length){
+          var cov = document.createElement('div'); cov.className = 'pl-coverage';
+          a.coverage.forEach(function(c){
+            var chip = document.createElement('span'); chip.className = 'pl-cov-chip';
+            chip.innerHTML = c.id
+              ? '<a href="erin_mylist.html#card-'+esc(c.id)+'">'+esc(c.title||c.id)+'</a>'
+              : esc(c.title||'');
+            cov.appendChild(chip);
+          });
+          b.appendChild(cov);
+        }
+        card.appendChild(b);
+        s.appendChild(card);
+      });
+
+      body.appendChild(s);
+    });
+
+    /* Resolve any icon spans we just inserted */
+    if(window.WN_ICONS){
+      body.querySelectorAll('[data-i]').forEach(function(el){
+        var name = el.getAttribute('data-i');
+        if(WN_ICONS[name]) el.innerHTML = WN_ICONS[name](14);
+      });
+    }
+  }
+  function esc(s){ return String(s||'').replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];}); }
+
+  document.addEventListener('DOMContentLoaded', render);
+})();
+</script>
+</body>
+</html>

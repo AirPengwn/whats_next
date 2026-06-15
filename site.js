@@ -5,7 +5,7 @@
    ═══════════════════════════════════════════════════════════ */
 
 /* build-stamped version + build (build.js patches these lines each release) */
-var WN_VERSION = '2.31';
+var WN_VERSION = '2.32';
 var WN_BUILD   = '20260615-124-dc421408';
 
 /* ── 1. Sync hook ──────────────────────────────────────────
@@ -68,6 +68,7 @@ document.addEventListener('DOMContentLoaded', function(){
       /* Track */
       'erin_mylist.html':        { group:'track', sub:'My List',     icon:'star',     href:'erin_mylist.html' },
       'erin_compare.html':       { group:'track', sub:'Compare',     icon:'compare',  href:'erin_compare.html' },
+      'erin_punchlist.html':     { group:'track', sub:'Punch List',  icon:'check',    href:'erin_punchlist.html' },
       'erin_pipeline.html':      { group:'track', sub:'Pipeline',    icon:'kanban',   href:'erin_pipeline.html' },
       'erin_timeline.html':      { group:'track', sub:'Timeline',    icon:'calendar', href:'erin_timeline.html' },
       'erin_applications.html':  { group:'track', sub:'Apps',        icon:'file',     href:'erin_applications.html' },
