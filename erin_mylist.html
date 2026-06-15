@@ -33,7 +33,8 @@ a:hover{text-decoration:underline}
 .f-btn:not(.on):hover{background:var(--bg2)}
 .sec-label{font-size:12.5px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin:1.25rem 0 .6rem;display:flex;align-items:center;gap:.5rem}
 .sec-count{font-weight:400}
-.item-card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:.9rem 1.1rem;margin-bottom:.55rem}
+.item-card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:.9rem 1.1rem;margin-bottom:.55rem;transition:box-shadow .25s,border-color .25s}
+.item-card.hl-flash{border-color:var(--teal);box-shadow:0 0 0 2px rgba(20,140,120,.18)}
 .item-card.done{opacity:.45}
 /* v2.17: saved-item card flagged with broken link */
 .item-card.is-bl{border-left:3px solid var(--red)}
@@ -892,7 +893,42 @@ function renderList(){
     var lbl=el('div','sec-label'); lbl.innerHTML=g+' <span class="sec-count">'+groups[g].length+'</span>'; body.appendChild(lbl);
     groups[g].forEach(function(it){ body.appendChild(makeListCard(it)); });
   });
+  _focusCardFromHash();
 }
+
+/* When a hash like #card-item-045 is in the URL, scroll the matching card
+   into view, expand its rich detail panel, and pulse a brief highlight so
+   it's easy to spot. Called from renderList() and on hashchange. */
+function _focusCardFromHash(){
+  var h=(location.hash||'').replace(/^#/,'');
+  if(!h || h.indexOf('card-')!==0) return;
+  var id=h.slice(5);
+  var card=document.getElementById('card-'+id);
+  if(!card){
+    /* If a filter is hiding the card, drop to All and re-render once. */
+    if(typeof mf!=='undefined' && mf!=='All'){
+      mf='All';
+      try{ setMode('list'); }catch(_){}
+      renderList();
+      card=document.getElementById('card-'+id);
+    }
+    if(!card) return;
+  }
+  var det=card.querySelector('.item-detail');
+  if(det && !det.classList.contains('open')){
+    det.classList.add('open');
+    var btns=card.querySelectorAll('.act-btn');
+    for(var i=0;i<btns.length;i++){
+      if((btns[i].textContent||'').toLowerCase().indexOf('detail')===0){
+        btns[i].textContent='Hide details'; break;
+      }
+    }
+  }
+  try{ card.scrollIntoView({behavior:'smooth',block:'start'}); }catch(_){}
+  card.classList.add('hl-flash');
+  setTimeout(function(){ card.classList.remove('hl-flash'); }, 2400);
+}
+window.addEventListener('hashchange', _focusCardFromHash);
 
 function toggleDone(id,val){
   var m=load(); if(m[id]){ m[id]._done=val; save(m); push(m); }
