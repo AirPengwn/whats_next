@@ -40,6 +40,13 @@ body{padding:0 0 3rem}
 .pl-act.pr-2{border-left:3px solid #ef9f27}
 .pl-act.pr-3{border-left:3px solid var(--teal)}
 .pl-act.pr-4{border-left:3px solid var(--bds)}
+/* v2.38: done state — crossed out + dimmed, sorted to the bottom */
+.pl-act.pl-done{opacity:.5;border-left-color:var(--bds)}
+.pl-act.pl-done .pl-title{text-decoration:line-through;color:var(--t3)}
+.pl-act.pl-done .pl-detail,.pl-act.pl-done .pl-meta-row{text-decoration:line-through}
+.pl-done-btn{margin-top:.6rem;font-size:12.5px;font-weight:600;padding:3px 12px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn)}
+.pl-done-btn:hover{background:var(--bg2);color:var(--t1)}
+.pl-act.pl-done .pl-done-btn{color:var(--teal-t);border-color:var(--teal)}
 
 .pl-prio{flex-shrink:0;font-size:12.5px;font-weight:700;font-family:var(--mono);letter-spacing:.04em;color:var(--mute-t);min-width:38px;padding-top:2px}
 .pl-prio.pr-1{color:#993c1d}
@@ -121,258 +128,594 @@ body{padding:0 0 3rem}
      - coverage: array of {id, title} for affected opportunities
    ═══════════════════════════════════════════════════════════ */
 var PUNCH_DATA = {
-  updated: "June 15, 2026",
-  basedOn: 16,
-  sections: [
-    /* ═══════════════════════════════════════════════════════════
-       GRADUATE PROGRAMS — 6 saved
-       item-045 NC State Forestry · item-048 UMontana Wildlife
-       item-049 MSU WFA · item-050 CSU GDPE
-       item-094 CSU Mesocarnivore (filled — archive)
-       item-109 LSU Entomology PhD
-       ═══════════════════════════════════════════════════════════ */
+  "updated": "June 16, 2026",
+  "basedOn": 20,
+  "sections": [
     {
-      type: "grad", label: "Graduate Programs", icon: "cap",
-      actions: [
+      "type": "grad",
+      "label": "Graduate Programs",
+      "icon": "cap",
+      "actions": [
         {
-          rank: 1, priority: 1,
-          title: "Identify 3 recommenders → ask them → log in the Refs tracker",
-          detail: "Your Refs tracker is currently <strong>empty</strong>. Every grad application needs ~3 strong letters, and the same 3 letters work across all 6 saved programs. Best candidates: a WCU faculty member who supervised your Pigeon River capstone, a second faculty member (lab/field course), and a research/internship supervisor. Ask <strong>at least 8 weeks before</strong> your earliest deadline — faculty inboxes fill in early fall.",
-          impact: "Unblocks all 6 saved grad applications",
-          effort: "1 hr drafting ask emails · then follow-ups over 2-3 wks",
-          coverage: [
-            {id: "item-045", title: "NC State Forestry"},
-            {id: "item-048", title: "UMontana Wildlife"},
-            {id: "item-049", title: "MSU WFA"},
-            {id: "item-050", title: "CSU GDPE"},
-            {id: "item-109", title: "LSU Entomology"}
+          "id": "grad-recommenders",
+          "rank": 1,
+          "priority": 1,
+          "title": "Identify 3 recommenders → ask them → log in the Refs tracker",
+          "detail": "Your Refs tracker is empty. The <strong>same 3 letters work across all 10 saved grad programs</strong>, so this is the single highest-leverage grad task. Best mix: the WCU faculty member who supervised your Pigeon River capstone, a second faculty member, and a research/field supervisor. Ask <strong>at least 8 weeks before</strong> your earliest deadline.",
+          "impact": "Unblocks all 10 saved grad programs",
+          "effort": "1 hr drafting asks · then follow-ups",
+          "coverage": [
+            {
+              "title": "Shared across all 10 grad programs"
+            }
           ],
-          links: [
-            {href: "erin_outreach.html#tab-recommender-ask", label: "Recommender ask draft"},
-            {href: "erin_reftracker.html", label: "Refs tracker"}
+          "links": [
+            {
+              "href": "erin_outreach.html#tab-recommender-ask",
+              "label": "Recommender ask draft"
+            },
+            {
+              "href": "erin_reftracker.html",
+              "label": "Refs tracker"
+            }
           ]
         },
         {
-          rank: 2, priority: 1,
-          title: "Begin direct professor outreach at all 6 grad programs",
-          detail: "Direct outreach BEFORE applications open is the single highest-leverage activity in funded grad recruiting — funded MS/PhD spots often go to students who contacted a PI first. Your Profs tracker is empty. Pick one PI per program, find a paper or project of theirs that genuinely interests you, and write a 200-word email tying it to your Pigeon River capstone.",
-          impact: "All 6 saved grad programs — direct line to admit decisions",
-          effort: "30-45 min per email × 6 (spread over 2-3 weeks)",
-          coverage: [
-            {id: "item-045", title: "NC State Forestry"},
-            {id: "item-048", title: "UMontana Wildlife"},
-            {id: "item-049", title: "MSU WFA"},
-            {id: "item-050", title: "CSU GDPE"},
-            {id: "item-109", title: "LSU Entomology"}
+          "id": "grad-sop-base",
+          "rank": 2,
+          "priority": 2,
+          "title": "Draft your base Statement of Purpose — anchor on the Pigeon River + Helene capstone",
+          "detail": "One ~700-word base SOP, tuned per program later. Open with the Pigeon River lead-contamination story, then your interest area, then the specific PIs at each program. This base also feeds your outreach emails.",
+          "impact": "Base for all 10 grad programs",
+          "effort": "4-6 hrs once · 30 min tune per program",
+          "coverage": [
+            {
+              "title": "Base for all 10 grad programs"
+            }
           ],
-          links: [
-            {href: "erin_outreach.html#tab-email-water", label: "Email: water quality / wetlands"},
-            {href: "erin_outreach.html#tab-email-wildlife", label: "Email: wildlife ecology"},
-            {href: "erin_outreach.html#tab-email-entomology", label: "Email: entomology"},
-            {href: "erin_proftracker.html", label: "Profs tracker"}
+          "links": [
+            {
+              "href": "erin_outreach.html#tab-sop",
+              "label": "SOP starter draft"
+            },
+            {
+              "href": "erin_outreach.html#tab-tips",
+              "label": "Writing tips"
+            }
           ]
         },
         {
-          rank: 3, priority: 2,
-          title: "Draft your base SOP — anchor on the Pigeon River + Helene capstone",
-          detail: "One ~700-word SOP base, tunable per program. Open with the Pigeon River lead-contamination story (this IS your distinctive angle), then your interest area, then 2-3 PIs at this program whose work overlaps. This document also bridges into Outreach emails. The Outreach page in the Write group has a template + Dr. Forrester example already drafted.",
-          impact: "Base for 6 grad apps + spillover to some service / fellowship apps",
-          effort: "4-6 hours initial · 30 min tune per program",
-          coverage: [
-            {id: "item-045", title: "NC State Forestry"},
-            {id: "item-048", title: "UMontana Wildlife"},
-            {id: "item-049", title: "MSU WFA"},
-            {id: "item-050", title: "CSU GDPE"},
-            {id: "item-109", title: "LSU Entomology"}
+          "id": "grad-materials",
+          "rank": 3,
+          "priority": 2,
+          "title": "Stand up the Materials Library — CV, transcript, SOP base, writing sample",
+          "detail": "Populate the Materials page once and every application gets faster. Keep a federal-resume variant ready for the USAJOBS roles too.",
+          "impact": "Every saved opportunity (all 20)",
+          "effort": "2-3 hrs one-time",
+          "coverage": [
+            {
+              "title": "Foundational — all opportunities"
+            }
           ],
-          links: [
-            {href: "erin_outreach.html#tab-sop", label: "SOP starter draft"},
-            {href: "erin_outreach.html#tab-tips", label: "Writing tips"}
+          "links": [
+            {
+              "href": "erin_materials.html",
+              "label": "Materials Library"
+            },
+            {
+              "href": "erin_outreach.html#tab-federal-resume",
+              "label": "Federal resume notes"
+            }
           ]
         },
         {
-          rank: 4, priority: 2,
-          title: "Stand up the Materials Library — CV, transcript, SOP base — single source of truth",
-          detail: "The Materials page in the Write group exists; populate it once and every application gets faster. Federal applications (Career + Internship) want a different resume format — have a federal-resume variant ready. This investment <strong>repays itself within 2 applications</strong>.",
-          impact: "Every saved opportunity (16) — applications get 2-3× faster",
-          effort: "2-3 hours one-time setup",
-          coverage: [{title: "All 16 saved opportunities"}],
-          links: [
-            {href: "erin_materials.html", label: "Materials Library"},
-            {href: "erin_outreach.html#tab-federal-resume", label: "Federal resume notes"}
+          "id": "grad-006",
+          "rank": 4,
+          "priority": 1,
+          "title": "Clemson — Elmore Lab (bird response to Helene): email Dr. Elmore first",
+          "detail": "This is your most direct overlap of anything on the list — a lab literally studying bird response to Hurricane Helene, the same storm as your capstone. Read 2 recent papers, then send a tailored outreach email tying your Pigeon River + Helene work to the lab.",
+          "impact": "1 — exceptional fit",
+          "effort": "1-2 hrs research · 30 min email",
+          "coverage": [
+            {
+              "id": "item-006",
+              "title": "Clemson — Elmore Lab (Helene birds)"
+            }
+          ],
+          "links": [
+            {
+              "href": "erin_outreach.html#tab-email-wildlife",
+              "label": "Wildlife outreach draft"
+            },
+            {
+              "href": "erin_proftracker.html",
+              "label": "Profs tracker"
+            }
           ]
         },
         {
-          rank: 5, priority: 1,
-          title: "NC State (item-045) — your single strongest match. Tailor outreach to Dr. Jodi Forrester first",
-          detail: "Dr. Forrester's bird/Helene-recovery lab is the most direct overlap with your Pigeon River capstone of anything on your list. ~September 2026 deadline (less than 3 months). Read 2 recent papers from her lab, draft a tailored email, then submit application. There's a Dr. Forrester outreach draft already on the Outreach page — adapt that.",
-          impact: "1 — but exceptional fit + earliest deadline",
-          effort: "1-2 hrs research · 30 min outreach · 4-6 hrs application",
-          coverage: [{id: "item-045", title: "NC State Forestry"}],
-          links: [
-            {href: "erin_outreach.html#tab-email-ncstate", label: "Dr. Forrester outreach draft"}
+          "id": "grad-045",
+          "rank": 5,
+          "priority": 1,
+          "title": "NC State (item-045) — tailor outreach to Dr. Jodi Forrester",
+          "detail": "Strong forestry/Helene-recovery overlap with your capstone; ~September 2026 deadline (earliest of your grad set). Read 2 papers, adapt the Forrester draft, then submit.",
+          "impact": "1 — strong fit + earliest deadline",
+          "effort": "1-2 hrs research · 30 min outreach",
+          "coverage": [
+            {
+              "id": "item-045",
+              "title": "NC State Forestry"
+            }
+          ],
+          "links": [
+            {
+              "href": "erin_outreach.html#tab-email-ncstate",
+              "label": "Dr. Forrester outreach draft"
+            },
+            {
+              "href": "erin_proftracker.html",
+              "label": "Profs tracker"
+            }
           ]
         },
         {
-          rank: 6, priority: 2,
-          title: "LSU Entomology PhD (item-109) — bridge your sediment work to conservation entomology",
-          detail: "October 15, 2026 deadline. Flagged as a Reach — make sure you can bridge your story. Best angle: aquatic insects as bio-indicators of contamination (links your Pigeon River trace-metal work to entomology's role in conservation monitoring). Email a potential advisor first to test fit before investing in the full app.",
-          impact: "1 (reach fit)",
-          effort: "2-3 hours tailoring + advisor email first",
-          coverage: [{id: "item-109", title: "LSU Entomology PhD"}],
-          links: [
-            {href: "erin_outreach.html#tab-email-entomology", label: "LSU entomology bridge draft"}
+          "id": "grad-109",
+          "rank": 6,
+          "priority": 2,
+          "title": "LSU Entomology PhD (item-109) — email a potential advisor before the Oct 15 deadline",
+          "detail": "October 15, 2026 deadline. Bridge your sediment/trace-metal work to aquatic insects as bio-indicators of contamination. Test fit with an advisor email before investing in the full app.",
+          "impact": "1 (reach-to-strong with the right bridge)",
+          "effort": "2-3 hrs tailoring + advisor email",
+          "coverage": [
+            {
+              "id": "item-109",
+              "title": "LSU Entomology PhD"
+            }
+          ],
+          "links": [
+            {
+              "href": "erin_outreach.html#tab-email-entomology",
+              "label": "LSU entomology bridge draft"
+            },
+            {
+              "href": "erin_proftracker.html",
+              "label": "Profs tracker"
+            }
           ]
         },
         {
-          rank: 7, priority: 3,
-          title: "UMontana Wildlife (item-048) — Jan 15, 2027 deadline; calendar it now and start prof identification",
-          detail: "Longer runway than the others. Use this time to read papers from 2-3 Wildlife Biology faculty and find your best PI match. WICHE eligibility may apply (Colorado residents pay reduced tuition — check if it applies to you).",
-          impact: "1",
-          effort: "1-2 hours initial scoping; build over fall",
-          coverage: [{id: "item-048", title: "UMontana Wildlife"}],
-          links: [
-            {href: "erin_outreach.html#tab-email-wildlife", label: "Wildlife outreach draft"}
+          "id": "grad-117",
+          "rank": 7,
+          "priority": 2,
+          "title": "SUNY-ESF (item-117) — contact PIs on the fish & wetland (arsenic) project",
+          "detail": "Rolling; contact PIs first (official deadline Jan 15, 2027 for Fall 2027). The arsenic/wetland angle is a clean match to your contaminated-sediment capstone.",
+          "impact": "1 — strong contaminant/wetland fit",
+          "effort": "1-2 hrs · tailored email",
+          "coverage": [
+            {
+              "id": "item-117",
+              "title": "SUNY-ESF Fish & Wetland Ecology"
+            }
+          ],
+          "links": [
+            {
+              "href": "erin_outreach.html#tab-email-water",
+              "label": "Water quality / wetlands draft"
+            },
+            {
+              "href": "erin_proftracker.html",
+              "label": "Profs tracker"
+            }
           ]
         },
         {
-          rank: 8, priority: 4,
-          title: "Archive CSU Mesocarnivore Ecology (item-094) — position likely filled",
-          detail: "March 1, 2026 priority deadline passed; the TAMU job board listing was pulled (verified in the v2.22 link sweep). Mesocarnivore work was a reach for your profile anyway. Archive with reason 'Cycle closed / position filled'.",
-          impact: "Cleanup",
-          effort: "2 min",
-          coverage: [{id: "item-094", title: "CSU Mesocarnivore Ecology"}]
+          "id": "grad-092",
+          "rank": 8,
+          "priority": 3,
+          "title": "Texas A&M–Kingsville (item-092) — watershed MS, rolling: email the PI now",
+          "detail": "Reviewed until filled, so apply early. Watershed focus lines up with your water-quality background.",
+          "impact": "1",
+          "effort": "1-2 hrs · tailored email",
+          "coverage": [
+            {
+              "id": "item-092",
+              "title": "TAMU-Kingsville Watershed MS"
+            }
+          ],
+          "links": [
+            {
+              "href": "erin_outreach.html#tab-email-water",
+              "label": "Water quality / wetlands draft"
+            },
+            {
+              "href": "erin_proftracker.html",
+              "label": "Profs tracker"
+            }
+          ]
+        },
+        {
+          "id": "grad-116",
+          "rank": 9,
+          "priority": 3,
+          "title": "Texas A&M Natural Resources Institute (item-116) — rolling: reach out for Summer/Fall 26 or Spring 27",
+          "detail": "Multiple start windows, apply now. Natural-resources/GIS work fits your toolkit.",
+          "impact": "1",
+          "effort": "1-2 hrs · tailored email",
+          "coverage": [
+            {
+              "id": "item-116",
+              "title": "TAMU Natural Resources Institute"
+            }
+          ],
+          "links": [
+            {
+              "href": "erin_outreach.html#tab-email-wildlife",
+              "label": "Wildlife / ecology draft"
+            },
+            {
+              "href": "erin_proftracker.html",
+              "label": "Profs tracker"
+            }
+          ]
+        },
+        {
+          "id": "grad-048",
+          "rank": 10,
+          "priority": 3,
+          "title": "U. Montana Wildlife (item-048) — Jan 15, 2027: identify your PI over the fall",
+          "detail": "Longest runway. Read papers from 2-3 Wildlife Biology faculty and find your best PI match; check WICHE tuition eligibility.",
+          "impact": "1",
+          "effort": "1-2 hrs scoping; build over fall",
+          "coverage": [
+            {
+              "id": "item-048",
+              "title": "U. Montana Wildlife"
+            }
+          ],
+          "links": [
+            {
+              "href": "erin_outreach.html#tab-email-wildlife",
+              "label": "Wildlife outreach draft"
+            },
+            {
+              "href": "erin_proftracker.html",
+              "label": "Profs tracker"
+            }
+          ]
+        },
+        {
+          "id": "grad-049",
+          "rank": 11,
+          "priority": 3,
+          "title": "Mississippi State WFA (item-049) — email a faculty match",
+          "detail": "Wildlife/Fisheries/Aquaculture. Pick one PI whose work overlaps your field + GIS background and send a tailored note.",
+          "impact": "1",
+          "effort": "1-2 hrs · tailored email",
+          "coverage": [
+            {
+              "id": "item-049",
+              "title": "Mississippi State WFA"
+            }
+          ],
+          "links": [
+            {
+              "href": "erin_outreach.html#tab-email-wildlife",
+              "label": "Wildlife outreach draft"
+            },
+            {
+              "href": "erin_proftracker.html",
+              "label": "Profs tracker"
+            }
+          ]
+        },
+        {
+          "id": "grad-050",
+          "rank": 12,
+          "priority": 3,
+          "title": "Colorado State GDPE (item-050) — email a faculty match",
+          "detail": "Ecosystem Science & Sustainability. Tie your water-quality/restoration interests to a specific lab.",
+          "impact": "1",
+          "effort": "1-2 hrs · tailored email",
+          "coverage": [
+            {
+              "id": "item-050",
+              "title": "CSU Ecosystem Science"
+            }
+          ],
+          "links": [
+            {
+              "href": "erin_outreach.html#tab-email-water",
+              "label": "Water quality / wetlands draft"
+            },
+            {
+              "href": "erin_proftracker.html",
+              "label": "Profs tracker"
+            }
+          ]
+        },
+        {
+          "id": "grad-094",
+          "rank": 13,
+          "priority": 4,
+          "title": "CSU Mesocarnivore (item-094) — next cycle (~Mar 2027); inquire later",
+          "detail": "Priority deadline passed for this cycle; next window ~March 2027 for Fall 2027. Low urgency — you may inquire now but don’t prioritize over the active programs.",
+          "impact": "1 (next cycle)",
+          "effort": "15 min inquiry, later",
+          "coverage": [
+            {
+              "id": "item-094",
+              "title": "CSU Mesocarnivore Ecology"
+            }
+          ],
+          "links": [
+            {
+              "href": "erin_outreach.html#tab-email-wildlife",
+              "label": "Wildlife outreach draft"
+            }
+          ]
         }
       ]
     },
-
-    /* ═══════════════════════════════════════════════════════════
-       CAREER POSITIONS — 2 saved
-       item-030 USFWS GS-0404 · item-033 NCWRC Wildlife Biologist
-       ═══════════════════════════════════════════════════════════ */
     {
-      type: "career", label: "Career Positions", icon: "briefcase",
-      actions: [
+      "type": "career",
+      "label": "Career Positions",
+      "icon": "briefcase",
+      "actions": [
         {
-          rank: 1, priority: 1,
-          title: "Build a USAJOBS profile + upload federal-format resume",
-          detail: "Every federal application — USFWS GS-0404, USDA FS Pathways (over in Service), every future federal posting — flows through USAJobs. One profile + resume upload, then it's near-one-click to apply. Federal resumes have specific formatting (months/years for every position, hours/week, supervisor contact). Use the USAJOBS resume builder for the federal variant; keep your standard CV separate.",
-          impact: "Federal pipeline — 2 saved items + every future federal posting",
-          effort: "1-2 hours one-time",
-          coverage: [
-            {id: "item-030", title: "USFWS GS-0404"},
-            {id: "item-072", title: "USDA FS Pathways (Service section)"}
+          "id": "career-usajobs",
+          "rank": 1,
+          "priority": 1,
+          "title": "Build a USAJOBS profile + upload a federal-format resume",
+          "detail": "Every federal application — USFWS GS-0404, USDA FS Pathways, future federal postings — flows through USAJOBS. One profile + resume, then it’s near one-click. Federal resumes need months/years, hours/week, and supervisor contact for each role.",
+          "impact": "Federal pipeline — multiple roles + every future federal posting",
+          "effort": "1-2 hrs one-time",
+          "coverage": [
+            {
+              "title": "USFWS GS-0404, USDA FS Pathways, all federal postings"
+            }
           ],
-          links: [
-            {href: "erin_outreach.html#tab-federal-resume", label: "Federal resume notes"}
+          "links": [
+            {
+              "href": "erin_outreach.html#tab-federal-resume",
+              "label": "Federal resume notes"
+            }
           ]
         },
         {
-          rank: 2, priority: 2,
-          title: "Set USAJOBS saved-search alert: Fish-and-Wildlife-Service + JobCategoryCode 0404",
-          detail: "Once your USAJOBS profile is live, save the FWS+0404 search and turn on daily email alerts. GS-0404 postings rotate constantly — alerts let you apply the day a relevant posting opens. The link on your saved card now points to the right filter.",
-          impact: "USFWS GS-0404 (recurring)",
-          effort: "5 min (after profile setup)",
-          coverage: [{id: "item-030", title: "USFWS GS-0404"}]
+          "id": "career-alert-030",
+          "rank": 2,
+          "priority": 2,
+          "title": "Set USAJOBS saved-search alert: Fish-and-Wildlife-Service + 0404",
+          "detail": "Once your profile is live, save the FWS + JobCategory 0404 search and turn on daily email alerts. GS-0404 postings rotate constantly.",
+          "impact": "USFWS GS-0404 (recurring)",
+          "effort": "5 min (after profile)",
+          "coverage": [
+            {
+              "id": "item-030",
+              "title": "USFWS GS-0404"
+            }
+          ]
         },
         {
-          rank: 3, priority: 2,
-          title: "Set NC Careers (Workday) alert: NCWRC + Wildlife Biologist",
-          detail: "NCWRC Wildlife Biologist I/Technician postings appear sporadically on the NC Careers Workday portal. Save the search filtered to NCWRC; turn on notifications. Application closes ~2 weeks after posting so speed matters.",
-          impact: "NCWRC Wildlife Biologist (recurring)",
-          effort: "5-10 min",
-          coverage: [{id: "item-033", title: "NCWRC Wildlife Biologist"}]
+          "id": "career-alert-033",
+          "rank": 3,
+          "priority": 2,
+          "title": "Set NC Careers (Workday) alert: NCWRC + Wildlife Biologist",
+          "detail": "NCWRC Wildlife Biologist/Technician postings appear sporadically and close ~2 weeks after posting, so speed matters. Save the search and turn on notifications.",
+          "impact": "NCWRC Wildlife Biologist (recurring)",
+          "effort": "5-10 min",
+          "coverage": [
+            {
+              "id": "item-033",
+              "title": "NCWRC Wildlife Biologist"
+            }
+          ]
         }
       ]
     },
-
-    /* ═══════════════════════════════════════════════════════════
-       INTERNSHIPS — 2 saved (1 expired)
-       item-058 Tetra Tech/AECOM/Geosyntec SE Region
-       item-103 Riparia Environmental WA (HTTP 410 Gone — archive)
-       ═══════════════════════════════════════════════════════════ */
     {
-      type: "intern", label: "Internships", icon: "clipboard",
-      actions: [
+      "type": "service",
+      "label": "Service & Fellowships",
+      "icon": "leaf",
+      "actions": [
         {
-          rank: 1, priority: 2,
-          title: "Apply directly to Tetra Tech, AECOM, and Geosyntec SE-region careers",
-          detail: "This saved card aggregates 3 firms hiring entry-level Environmental Scientists in NC/SC/GA/AL. Best path: separate applications via each firm's career portal (the deepened links on your card go straight there). AECOM has an active Aiken-SC entry-level posting right now; Geosyntec has a verified Asheville opening.",
-          impact: "3 employers in one campaign",
-          effort: "~1 hr per firm × 3 = 3 hrs",
-          coverage: [{id: "item-058", title: "Tetra Tech / AECOM / Geosyntec SE Region"}],
-          links: [
-            {href: "erin_outreach.html#tab-cover-consulting", label: "Consulting cover letter draft"}
+          "id": "service-114",
+          "rank": 1,
+          "priority": 1,
+          "title": "URGENT — Watershed Stewards Program (item-114): full packet due June 23, 2026",
+          "detail": "California Conservation Corps + AmeriCorps; salmonid habitat restoration + water-quality monitoring — a direct match to your watershed/water-quality work, with a strong benefits package ($2,904/mo + ~$10K combined ed awards). <strong>Full application packet is due Tuesday, June 23</strong> — this is the most time-critical item on your whole list.",
+          "impact": "1 — exceptional fit, imminent deadline",
+          "effort": "Several hours — do this first",
+          "coverage": [
+            {
+              "id": "item-114",
+              "title": "Watershed Stewards Program (CA)"
+            }
+          ],
+          "links": [
+            {
+              "href": "erin_outreach.html#tab-cover-service",
+              "label": "Service Corps cover draft"
+            }
           ]
         },
         {
-          rank: 2, priority: 4,
-          title: "Archive Riparia Environmental Field Tech (item-103) — position filled",
-          detail: "URL returned HTTP 410 Gone in the v2.22 link sweep — Riparia removed the posting from their applicant tracker, indicating it's filled. Archive with reason 'Position filled'.",
-          impact: "Cleanup",
-          effort: "2 min",
-          coverage: [{id: "item-103", title: "Riparia Environmental WA"}]
+          "id": "service-039",
+          "rank": 2,
+          "priority": 1,
+          "title": "Sustainability Institute SC (item-039): finish & send the cover letter — already in your Apps tracker",
+          "detail": "You’ve started this application. Tailor the Sustainability-Institute paragraph in the service-corps cover (disaster-affected landscapes, Helene relief, salt-marsh/oyster restoration) and submit.",
+          "impact": "1 — already in motion",
+          "effort": "1-2 hrs",
+          "coverage": [
+            {
+              "id": "item-039",
+              "title": "Sustainability Institute SC"
+            }
+          ],
+          "links": [
+            {
+              "href": "erin_outreach.html#tab-cover-service",
+              "label": "Service Corps cover draft"
+            },
+            {
+              "href": "erin_applications.html",
+              "label": "Applications tracker"
+            }
+          ]
+        },
+        {
+          "id": "service-cover-base",
+          "rank": 3,
+          "priority": 2,
+          "title": "Draft your base service-corps cover letter (reused, then tailored per org)",
+          "detail": "One ~400-word base: motivation, field-readiness, willingness to be placed anywhere, the Pigeon River + Helene story. You then tune one paragraph per org in the items below.",
+          "impact": "Base for every service application",
+          "effort": "2 hrs once",
+          "coverage": [
+            {
+              "title": "Base for all service-corps applications"
+            }
+          ],
+          "links": [
+            {
+              "href": "erin_outreach.html#tab-cover-service",
+              "label": "Service Corps base draft"
+            }
+          ]
+        },
+        {
+          "id": "service-069",
+          "rank": 4,
+          "priority": 2,
+          "title": "SECC Cherokee/Pisgah (item-069): tailor & send the cover letter",
+          "detail": "Southern Appalachian forests you already know from WCU field labs. Tune the cover’s middle paragraph to the Pisgah/Cherokee placement and apply.",
+          "impact": "1",
+          "effort": "20 min adapt + apply",
+          "coverage": [
+            {
+              "id": "item-069",
+              "title": "SECC Cherokee/Pisgah"
+            }
+          ],
+          "links": [
+            {
+              "href": "erin_outreach.html#tab-cover-service",
+              "label": "Service Corps cover draft"
+            }
+          ]
+        },
+        {
+          "id": "service-080",
+          "rank": 5,
+          "priority": 2,
+          "title": "CCMI Individual Placements (item-080): tailor & send the cover letter",
+          "detail": "Rolling; new placements posted continuously. Pick a wetland/watershed-focused host site and tune your cover to it.",
+          "impact": "1",
+          "effort": "20 min adapt + apply",
+          "coverage": [
+            {
+              "id": "item-080",
+              "title": "CCMI Individual Placements"
+            }
+          ],
+          "links": [
+            {
+              "href": "erin_outreach.html#tab-cover-service",
+              "label": "Service Corps cover draft"
+            }
+          ]
+        },
+        {
+          "id": "service-106",
+          "rank": 6,
+          "priority": 2,
+          "title": "CCMI Habitat Enhancement Crew (item-106): tailor & send the cover letter",
+          "detail": "Prairie/wetland restoration crew (posted June 5, 2026). Tune your cover to the restoration-crew angle and apply.",
+          "impact": "1",
+          "effort": "20 min adapt + apply",
+          "coverage": [
+            {
+              "id": "item-106",
+              "title": "CCMI Habitat Enhancement Crew"
+            }
+          ],
+          "links": [
+            {
+              "href": "erin_outreach.html#tab-cover-service",
+              "label": "Service Corps cover draft"
+            }
+          ]
+        },
+        {
+          "id": "service-072",
+          "rank": 7,
+          "priority": 3,
+          "title": "USDA Forest Service Pathways (item-072): apply via USAJOBS",
+          "detail": "One of the cleanest on-ramps to permanent federal employment. Flows through USAJOBS — do the Career-section profile first, then watch for short Pathways listing windows.",
+          "impact": "1 — converts to permanent federal",
+          "effort": "2-3 hrs (after USAJOBS profile)",
+          "coverage": [
+            {
+              "id": "item-072",
+              "title": "USDA FS Pathways"
+            }
+          ],
+          "links": [
+            {
+              "href": "erin_outreach.html#tab-federal-resume",
+              "label": "Federal resume notes"
+            }
+          ]
         }
       ]
     },
-
-    /* ═══════════════════════════════════════════════════════════
-       SERVICE & FELLOWSHIPS — 6 saved (1 expired)
-       item-038 BLM Wetlands SCC (closed — archive)
-       item-039 Sustainability Institute SC
-       item-069 SECC Cherokee/Pisgah
-       item-072 USDA FS Pathways
-       item-080 CCMI Individual Placements
-       item-107 Stewards LiDAR Region 4 — strong-fit, rolling
-       ═══════════════════════════════════════════════════════════ */
     {
-      type: "service", label: "Service & Fellowships", icon: "leaf",
-      actions: [
+      "type": "intern",
+      "label": "Internships",
+      "icon": "clipboard",
+      "actions": [
         {
-          rank: 1, priority: 1,
-          title: "Apply NOW to Stewards LiDAR Monitoring Technician — USFWS Region 4 (item-107)",
-          detail: "Rolling applications, exact GIS-wetlands match for your applied multi-criteria suitability work. AmeriCorps placement at USFWS in the Florida panhandle (Apalachicola / St. Marks NWR area) — strong USFWS resume line that sets up a future Pathways or grad-school remote-sensing track. Apply via Conservation Legacy portal before it fills.",
-          impact: "1 — exceptional GIS-wetlands match",
-          effort: "2-3 hrs (Conservation Legacy portal application)",
-          coverage: [{id: "item-107", title: "Stewards LiDAR Region 4"}],
-          links: [
-            {href: "erin_outreach.html#tab-cover-service", label: "Service Corps cover letter draft"}
-          ]
-        },
-        {
-          rank: 2, priority: 2,
-          title: "Draft a single base Service Corps cover letter — adapt for 4 orgs",
-          detail: "Sustainability Institute SC, Conservation Corps Minnesota & Iowa, SECC Cherokee/Pisgah, and Stewards all want the same essentials: motivation, field-readiness, willingness to be placed anywhere, the Pigeon River + Helene story. One ~400-word base letter saves hours per application.",
-          impact: "4 service orgs",
-          effort: "2 hrs initial · 20 min per org adapt",
-          coverage: [
-            {id: "item-039", title: "Sustainability Institute SC"},
-            {id: "item-080", title: "CCMI Individual Placements"},
-            {id: "item-069", title: "SECC Cherokee/Pisgah"},
-            {id: "item-107", title: "Stewards LiDAR Region 4"}
+          "id": "intern-103",
+          "rank": 1,
+          "priority": 1,
+          "title": "URGENT — Riparia Restoration Field Tech (item-103): apply by July 3, 2026",
+          "detail": "Wetland & stream restoration field technician — a strong match to your delineation + field experience. <strong>Applications close July 3</strong>, so tailor a short cover and apply this week.",
+          "impact": "1 — strong fit, near deadline",
+          "effort": "1-2 hrs",
+          "coverage": [
+            {
+              "id": "item-103",
+              "title": "Riparia Environmental Restoration Field Tech"
+            }
           ],
-          links: [
-            {href: "erin_outreach.html#tab-cover-service", label: "Service Corps base draft"}
+          "links": [
+            {
+              "href": "erin_outreach.html#tab-cover-service",
+              "label": "Adaptable cover letter draft"
+            }
           ]
         },
         {
-          rank: 3, priority: 2,
-          title: "Apply to USDA Forest Service Pathways Recent Graduate Program (item-072)",
-          detail: "Federal Pathways is one of the cleanest post-grad on-ramps to permanent federal employment. Flows through USAJobs — so you need the USAJOBS profile from Career section #1 first. Pathways accepts applications across the year but specific listings have short windows; set an alert.",
-          impact: "1 — converts to permanent federal employment",
-          effort: "2-3 hrs (after USAJOBS profile)",
-          coverage: [{id: "item-072", title: "USDA FS Pathways"}],
-          links: [
-            {href: "erin_outreach.html#tab-federal-resume", label: "Federal resume notes"}
+          "id": "intern-058",
+          "rank": 2,
+          "priority": 2,
+          "title": "SE-region consulting firms (item-058): apply to Tetra Tech / AECOM / Geosyntec",
+          "detail": "This card aggregates 3 firms hiring entry-level Environmental Scientists in NC/SC/GA/AL. Apply through each firm’s portal; AECOM has an active Aiken-SC posting and Geosyntec a verified Asheville opening.",
+          "impact": "3 employers in one campaign",
+          "effort": "~1 hr per firm",
+          "coverage": [
+            {
+              "id": "item-058",
+              "title": "Tetra Tech / AECOM / Geosyntec SE"
+            }
+          ],
+          "links": [
+            {
+              "href": "erin_outreach.html#tab-cover-consulting",
+              "label": "Consulting cover letter draft"
+            }
           ]
-        },
-        {
-          rank: 4, priority: 4,
-          title: "Archive BLM Wetlands & Wildlife (Southwest Conservation Corps, item-038)",
-          detail: "2025-26 cohort applications already closed per the v2.22 link sweep. SCC reposts annually; if Erin wants to track for the next cycle, set cycle:'next' instead of archiving. Otherwise archive with reason 'Cycle closed'.",
-          impact: "Cleanup",
-          effort: "2 min",
-          coverage: [{id: "item-038", title: "BLM Wetlands SCC"}]
         }
       ]
     }
@@ -414,10 +757,28 @@ var PUNCH_DATA = {
     if(!showExpired && PSTATE.expired[id]) return true;
     return false;
   }
+
+  /* v2.38: "mark done" per punch-list action — primary-gated cloud sync.
+     localStorage erin_punch_done_v1 + JSONbin key punchDone. */
+  function _isPrimary(){ return localStorage.getItem('erin_primary_device')==='1'||localStorage.getItem('erin_primary_device_bak')==='1'; }
+  var _memPD=null;
+  function pdLoad(){ if(_isPrimary()){ try{ return JSON.parse(localStorage.getItem('erin_punch_done_v1')||'{}'); }catch(e){ return {}; } } if(_memPD===null)_memPD={}; return _memPD; }
+  function pdSave(m){ if(_isPrimary()){ localStorage.setItem('erin_punch_done_v1',JSON.stringify(m)); } else { _memPD=m; } }
+  function pushPD(m){ if(!_isPrimary()) return;
+    fetch('https://api.jsonbin.io/v3/b/'+BINP+'/latest',{headers:{'X-Master-Key':KEYP}})
+      .then(function(r){ return r.json(); })
+      .then(function(data){ var rec=(data&&data.record)||{}; rec.punchDone=m;
+        return fetch('https://api.jsonbin.io/v3/b/'+BINP,{method:'PUT',headers:{'Content-Type':'application/json','X-Master-Key':KEYP,'X-Bin-Versioning':'false'},body:JSON.stringify(rec)}); })
+      .catch(function(){});
+  }
+  function isDone(id){ return !!(id && pdLoad()[id]); }
+  window.__pdToggle=function(id){ if(!id) return; var m=pdLoad(); if(m[id]) delete m[id]; else m[id]=true; pdSave(m); pushPD(m); render(); };
+
   function loadState(cb){
     fetch('https://api.jsonbin.io/v3/b/'+BINP+'/latest',{headers:{'X-Master-Key':KEYP}})
       .then(function(r){ return r.json(); })
       .then(function(data){ var rec=(data&&data.record)||{};
+        if(rec.punchDone) _memPD=rec.punchDone;
         _computeState(rec.items||_lj('erin_mylist_v1','{}'), rec.archiveLog||_lj('erin_archive_log','[]')); cb&&cb(); })
       .catch(function(){ _computeState(_lj('erin_mylist_v1','{}'), _lj('erin_archive_log','[]')); cb&&cb(); });
   }
@@ -457,7 +818,7 @@ var PUNCH_DATA = {
     body.innerHTML = '';
 
     if(PUNCH_DATA.updated){
-      meta.textContent = 'Last updated: ' + PUNCH_DATA.updated + ' · Based on ' + PUNCH_DATA.basedOn + ' saved opportunity' + (PUNCH_DATA.basedOn===1?'':'ies');
+      meta.textContent = 'Last updated: ' + PUNCH_DATA.updated + ' · Based on ' + PUNCH_DATA.basedOn + ' saved ' + (PUNCH_DATA.basedOn===1?'opportunity':'opportunities');
     } else {
       meta.textContent = 'No punch list generated yet — ask Claude to generate one.';
     }
@@ -484,14 +845,20 @@ var PUNCH_DATA = {
 
       var s = document.createElement('div'); s.className = 'pl-section pl-sec gl-'+sec.type;
       var h = document.createElement('div'); h.className = 'pl-sec-head';
+      var _doneN = visActions.filter(function(a){ return isDone(a.id); }).length;
       h.innerHTML = '<span class="ic" data-i="'+(sec.icon||'check')+'"></span> '
-        + sec.label + ' <span class="n">· ' + visActions.length + ' action' + (visActions.length===1?'':'s') + '</span>';
+        + sec.label + ' <span class="n">· ' + visActions.length + ' action' + (visActions.length===1?'':'s')
+        + (_doneN? ' · ' + _doneN + ' done':'') + '</span>';
       s.appendChild(h);
+
+      /* completed actions sink to the bottom of their section */
+      visActions = visActions.slice().sort(function(x,y){ return (isDone(x.id)?1:0)-(isDone(y.id)?1:0); });
 
       visActions.forEach(function(a){
         var card = document.createElement('div');
         var prio = +a.priority||3;
-        card.className = 'pl-act pr-' + prio;
+        var _done = isDone(a.id);
+        card.className = 'pl-act pr-' + prio + (_done?' pl-done':'');
 
         var prioBox = document.createElement('div'); prioBox.className = 'pl-prio pr-'+prio;
         prioBox.textContent = '#' + (a.rank || prio);
@@ -532,6 +899,12 @@ var PUNCH_DATA = {
             lk.appendChild(aEl);
           });
           if(lk.childNodes.length) b.appendChild(lk);
+        }
+        if(a.id){
+          var df = document.createElement('button'); df.type='button'; df.className='pl-done-btn';
+          df.textContent = _done ? '↺ Mark not done' : '✓ Mark done';
+          df.onclick = function(){ window.__pdToggle(a.id); };
+          b.appendChild(df);
         }
         card.appendChild(b);
         s.appendChild(card);
