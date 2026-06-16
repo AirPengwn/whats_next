@@ -5,7 +5,7 @@
    ═══════════════════════════════════════════════════════════ */
 
 /* build-stamped version + build (build.js patches these lines each release) */
-var WN_VERSION = '2.39';
+var WN_VERSION = '2.40';
 var WN_BUILD   = '20260616-128-7ed18429';
 
 /* ── 1. Sync hook ──────────────────────────────────────────
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function(){
       'erin_finds.html':         { group:'track', sub:'Finds',       icon:'bolt',     href:'erin_finds.html' },
       'erin_pipeline.html':      { group:'track', sub:'Pipeline',    icon:'kanban',   href:'erin_pipeline.html' },
       'erin_timeline.html':      { group:'track', sub:'Timeline',    icon:'calendar', href:'erin_timeline.html' },
-      'erin_applications.html':  { group:'track', sub:'Apps',        icon:'file',     href:'erin_applications.html' },
+      'erin_applications.html':  { group:'track', sub:'Tracker',     icon:'file',     href:'erin_applications.html' },
       'erin_proftracker.html':   { group:'track', sub:'Profs',       icon:'person',   href:'erin_proftracker.html' },
       'erin_reftracker.html':    { group:'track', sub:'Refs',        icon:'pen',      href:'erin_reftracker.html' },
       'erin_archive.html':       { group:'track', sub:'Archive',     icon:'archive',  href:'erin_archive.html' },
