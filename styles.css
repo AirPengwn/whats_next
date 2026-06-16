@@ -252,6 +252,12 @@ html.erin-readonly .ro-ok { pointer-events:auto!important;opacity:1!important;cu
 html.erin-readonly .browse-save-btn,
 html.erin-readonly .bx-ni-btn { display:inline-flex!important;pointer-events:auto!important;opacity:1!important;cursor:pointer!important }
 
+/* Finds page: adding a find is allowed from ANY device (append-only, GET-merge-PUT
+   on just the `finds` key), so its add form must stay interactive in view-only mode. */
+html.erin-readonly .add-box .add-btn{display:inline-flex!important;pointer-events:auto!important;opacity:1!important;cursor:pointer!important}
+html.erin-readonly .add-box .add-input,
+html.erin-readonly .add-box .add-sel{pointer-events:auto!important;opacity:1!important;cursor:auto!important}
+
 /* ── Print ── */
 @media print {
   .global-nav{display:none!important}
