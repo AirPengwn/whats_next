@@ -199,7 +199,7 @@ body{padding:0 0 3rem}
       if(a.itemId) inApp['id:'+a.itemId]=1;   // v2.47: dedup by stable itemId too
       var stg=stageOf(a.status);
       cols[stg].push({
-        name:(a.programTitle||'Untitled').split('—')[0].trim(),
+        name:(a.programTitle||'Untitled').split('—')[0].trim(), fullName:(a.programTitle||'Untitled'),
         org:a.org||'', cat:a.itemType||'', deadline:a.deadline||'',
         status:SL[(a.status||'')]|| (a.status||''), rawStatus:(a.status||'').toLowerCase(),
         link:'erin_applications.html#acard-'+(a.id||''), d:dayDiff(a.deadline),
@@ -212,7 +212,7 @@ body{padding:0 0 3rem}
       if(inApp['id:'+k] || inApp[key]) return;
       var dC=dayDiff(it.deadline);
       var card={
-        name:(it.title||'Untitled').split('—')[0].trim(),
+        name:(it.title||'Untitled').split('—')[0].trim(), fullName:(it.title||'Untitled'),
         org:it.org||'', cat:it.type||it.cat||'', deadline:it.deadline||'',
         status:'', rawStatus:'', link:'erin_mylist.html#card-'+k, d:dC,
         itemId:k, prio:!!pr[k], _ni:!!ni[k], _exp:(it.expired===true || (dC!=null && dC<0))
@@ -255,7 +255,9 @@ body{padding:0 0 3rem}
 
   function cardHtml(c){
     var cc=fmtCatCls(c.cat), dt=dueText(c.deadline);
-    var h='<a class="pcard" href="'+esc(c.link)+'">';
+    /* full (untruncated) name + location on hover, since the card text is clamped/truncated */
+    var _tip=esc(c.fullName||c.name)+(c.org?' — '+esc(c.org):'')+(c.deadline?'\n'+esc(c.deadline):'');
+    var h='<a class="pcard" title="'+_tip+'" href="'+esc(c.link)+'">';
     h+='<div class="pc-name">'+(c.prio?'⭐ ':'')+esc(c.name)+'</div>';
     if(c.org) h+='<div class="pc-org">'+esc(c.org)+'</div>';
     h+='<div class="pc-foot"><span class="pc-pill '+cc[1]+'">'+esc(cc[0])+'</span>';
