@@ -3482,7 +3482,11 @@
     ],
     "cycle": "current",
     "deadline_kind": "rolling",
-    "region": "Southeast & Appalachia"
+    "region": "Southeast & Appalachia",
+    "location": "Charleston / Lowcountry, SC & Bucksport/Conway, SC",
+    "pay": "AmeriCorps living allowance (~$8,500 for a 6-mo term / ~$19,000 for 12-mo)",
+    "stipend": "Segal Education Award (~$3,447–$6,895 by term)",
+    "benefits": "Health insurance, childcare assistance, field training & certifications"
   },
   {
     "title": "Biological Science Technician — Individual Placement, Cherokee National Forest",
@@ -3689,7 +3693,11 @@
     },
     "cycle": "next",
     "deadline_kind": "rolling",
-    "region": "Midwest & Great Plains"
+    "region": "Midwest & Great Plains",
+    "location": "Minnesota & Iowa — statewide host sites (MN DNR, USFS, SWCDs, nonprofits)",
+    "pay": "AmeriCorps living allowance (40 hrs/wk; varies by placement)",
+    "stipend": "Segal Education Award (~$7,395 full-time; MN/IA exempt it from state income tax)",
+    "benefits": "AmeriCorps benefits; field training"
   },
   {
     "title": "BLM Wetlands & Wildlife Technician — Individual Placement (2026–27 cycle)",
@@ -3875,7 +3883,11 @@
     ],
     "cycle": "next",
     "deadline_kind": "rolling",
-    "region": "Southeast & Appalachia"
+    "region": "Southeast & Appalachia",
+    "location": "Cherokee NF, TN & Pisgah NF, NC (E. Tennessee / W. North Carolina)",
+    "pay": "AmeriCorps living allowance (varies by placement)",
+    "stipend": "Segal Education Award (~$7,395 full-time, Pell-linked)",
+    "benefits": "Conservation Legacy AmeriCorps benefits; some roles confer Public Lands Corps federal hiring authority"
   },
   {
     "title": "Wildlife Monitoring IP — Wichita Mountains Wildlife Refuge (2026 cycle)",
@@ -4025,7 +4037,10 @@
     ],
     "cycle": "next",
     "deadline_kind": "rolling",
-    "region": "Mountain West"
+    "region": "Mountain West",
+    "location": "Multiple USDA Forest Service offices (posted on USAJOBS)",
+    "pay": "Federal GS pay (USAJOBS Pathways developmental role — varies by series/grade/locality)",
+    "benefits": "Federal benefits; converts to permanent federal employment on completion"
   },
   {
     "title": "Smithsonian Environmental Research Center — Research Technician",
@@ -4778,7 +4793,11 @@
       "kind": "s-new",
       "label": "✨ New — June 8, 2026"
     },
-    "id": "item-106"
+    "id": "item-106",
+    "location": "Elbow Lake, MN (west-central Minnesota; MN DNR Wildlife)",
+    "pay": "$25.95–$29.93/hr (per the cited job-board posting)",
+    "stipend": "Segal Education Award (Pell-linked) for the AmeriCorps term",
+    "benefits": "AmeriCorps benefits; prairie/wetland restoration field experience"
   },
   {
     "title": "LiDAR Monitoring Technician — USFWS Region 4 (AmeriCorps placement)",
@@ -5058,7 +5077,11 @@
       "kind": "s-new",
       "label": "✨ New — June 15, 2026"
     },
-    "id": "item-114"
+    "id": "item-114",
+    "location": "Coastal California — multiple host sites (CDFW, NMFS, RCDs, watershed councils)",
+    "pay": "~$2,904/month living stipend (~$2,967 for Team Leader)",
+    "stipend": "$10,000 education award ($7,395 Segal + $2,605 California for All) on completing the 1,700-hr term",
+    "benefits": "Program-paid medical premiums, student-loan forbearance, childcare subsidy if eligible"
   },
   {
     "title": "Oklahoma State University — MS Assistantship, Vernal Pool & Seep Wetland Mapping (Murray Lab)",
@@ -5404,7 +5427,10 @@
       }
     ],
     "sourceFindUrl": "https://usaconservation.applicantpool.com/",
-    "id": "item-124"
+    "id": "item-124",
+    "location": "USFWS Southeast Region — remote (SE preference: NC/SC/GA/FL/AL/TN/KY/AR/LA/MS)",
+    "pay": "~$700/week living allowance (biweekly)",
+    "benefits": "Public Lands Corps federal hiring authority after 640 hrs; some roles add a ~$225/wk housing allowance"
   },
   {
     "type": "Service / Corps",
@@ -5441,7 +5467,11 @@
       }
     ],
     "sourceFindUrl": "https://www.river.science/rivercorps",
-    "id": "item-125"
+    "id": "item-125",
+    "location": "Statewide Colorado host sites (watershed orgs & agencies; via River Science, Cañon City, CO)",
+    "pay": "AmeriCorps living allowance (~$17,500; varies by term type)",
+    "stipend": "Segal Education Award (Pell-linked; CO exempts it from state income tax as of 2026)",
+    "benefits": "Water-quality/ecology & hydrology technician certifications; streamflow, GIS & watershed-coordination training"
   },
   {
     "type": "Service / Corps",
@@ -5478,7 +5508,11 @@
       }
     ],
     "sourceFindUrl": "https://appalachiancc.org/open-positions",
-    "id": "item-126"
+    "id": "item-126",
+    "location": "Central Appalachia — VA, WV, OH, MD, DC, PA host sites",
+    "pay": "AmeriCorps living allowance (biweekly; rate varies by placement length)",
+    "stipend": "Segal Education Award (varies by term length)",
+    "benefits": "Public Lands Corps federal hiring authority on completion; project-specific training"
   },
   {
     "type": "Service / Corps",
@@ -5515,6 +5549,10 @@
       }
     ],
     "sourceFindUrl": "https://www.mtcorps.org/joinmcc/individual-placement-programs/big-sky-watershed-corps.html",
-    "id": "item-127"
+    "id": "item-127",
+    "location": "Statewide Montana host sites (conservation districts, tribes, agencies, watershed nonprofits)",
+    "pay": "~$1,200 biweekly living allowance",
+    "stipend": "Segal Education Award ~$7,395 on completion",
+    "benefits": "Free health insurance; hydrology/GIS/watershed field training"
   }
 ]
