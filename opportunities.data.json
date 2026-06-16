@@ -496,10 +496,10 @@
     "cat": "Funded Graduate Programs",
     "src": "erin_programs.html",
     "src_label": "Funded Graduate Programs",
-    "deadline": "Financial aid deadline passed (Jan 31, 2026); admission still open — June 25, 2026",
+    "deadline": "Listed start (May 2026) has passed — contact the PI about future funded openings",
     "start": "",
     "body": "Funded MS position (preferred start May 2026) studying Hurricane Helene forest damage and recovery in western NC Pisgah National Forest oak-hickory forests. Vegetation and wildlife inventory methods. Co-advised by Drs. Jodi Forrester & Chris Moorman (NC State) and Dr. Tara Keyser (USDA FS). This ...",
-    "badge": "Admission open until June 25",
+    "badge": "Good fit",
     "pills": [],
     "id": "item-014",
     "extbody": "Funded MS position (preferred start May 2026) studying Hurricane Helene forest damage and recovery in western NC Pisgah National Forest oak-hickory forests. Vegetation and wildlife inventory methods. Co-advised by Drs. Jodi Forrester & Chris Moorman (NC State) and Dr. Tara Keyser (USDA FS). This is the single best match for Erin's background.",
@@ -512,12 +512,12 @@
     "more": "Why this is Erin's #1 match This project studies the same Hurricane Helene event that Erin researched for her senior capstone — just from a forest ecology rather than water quality angle. The field site (Pisgah National Forest near Asheville) is adjacent to where Erin conducted her Pigeon River Basin research. Her WCU background, Appalachian field experience, wildlife coursework, and NRM 479 mammalogy skills all directly support this position. She can honestly say she has studied the same event from a complementary angle — that's a compelling narrative. StipendFunded (rate TBD; NC State MS typically $18k–$23k) TuitionFull waiver StartMay 2026 preferred GRENot required by NC State 📅 Fall application deadline (aid)January 31 for financial aid; June 25 admission only 📅 Spring deadlineSeptember 30 (aid); November 25 (admission only) ⚠ Contact professor firstEmail Dr. Forrester to confirm position availability before applying Email Dr. Jodi Forrester: jodi_forrester@ncsu.eduSingle PDF: letter of interest + CV + unofficial transcripts + 3 references. Subject: \"Hurricane Helene MS position inquiry.\" Lead with the Pigeon River research connection in your opening paragraph.",
     "desc": "Actively recruiting a funded MS student (preferred start May 2026) to study how forest structure, composition, and function are affected by Hurricane Helene in western NC oak-hickory forests. Uses vegetation and wildlife inventories to evaluate and aid forest recovery. Co-advised by Drs. Jodi Forrester and Chris Moorman (NC State) and Dr. Tara Keyser (USDA Forest Service). This is a near-perfect match for Erin's background and her Pigeon River research.",
     "status": {
-      "kind": "s-new",
-      "label": "New find"
+      "kind": "s-updated",
+      "label": "Updated — June 16, 2026"
     },
-    "cycle": "current",
-    "deadline_date": "2026-01-31",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_date": "",
+    "deadline_kind": "contact-first",
     "region": "Southeast & Appalachia"
   },
   {
@@ -527,10 +527,10 @@
     "cat": "Funded Graduate Programs",
     "src": "erin_programs.html",
     "src_label": "Funded Graduate Programs",
-    "deadline": "Financial aid deadline passed (Jan 31, 2026); admission still open — June 25, 2026",
+    "deadline": "Listed start (May 2026) has passed — contact the PI about future funded openings",
     "start": "",
     "body": "Actively recruiting a funded MS student (preferred start May 2026) to study how forest structure, composition, and function are affected by Hurricane Helene in western NC oak-hickory forests. Uses vegetation and wildlife inventories to evaluate and aid forest recovery. Co-advised by Drs. Jodi For...",
-    "badge": "Admission open until June 25",
+    "badge": "Good fit",
     "pills": [],
     "id": "item-005",
     "extbody": "Funded MS position (preferred start May 2026) studying Hurricane Helene forest damage and recovery in western NC Pisgah National Forest oak-hickory forests. Vegetation and wildlife inventory methods. Co-advised by Drs. Jodi Forrester & Chris Moorman (NC State) and Dr. Tara Keyser (USDA FS). This is the single best match for Erin's background.",
@@ -543,12 +543,12 @@
     "more": "Why this is Erin's #1 match This project studies the same Hurricane Helene event that Erin researched for her senior capstone — just from a forest ecology rather than water quality angle. The field site (Pisgah National Forest near Asheville) is adjacent to where Erin conducted her Pigeon River Basin research. Her WCU background, Appalachian field experience, wildlife coursework, and NRM 479 mammalogy skills all directly support this position. She can honestly say she has studied the same event from a complementary angle — that's a compelling narrative. StipendFunded (rate TBD; NC State MS typically $18k–$23k) TuitionFull waiver StartMay 2026 preferred GRENot required by NC State 📅 Fall application deadline (aid)January 31 for financial aid; June 25 admission only 📅 Spring deadlineSeptember 30 (aid); November 25 (admission only) ⚠ Contact professor firstEmail Dr. Forrester to confirm position availability before applying Email Dr. Jodi Forrester: jodi_forrester@ncsu.eduSingle PDF: letter of interest + CV + unofficial transcripts + 3 references. Subject: \"Hurricane Helene MS position inquiry.\" Lead with the Pigeon River research connection in your opening paragraph.",
     "desc": "Actively recruiting a funded MS student (preferred start May 2026) to study how forest structure, composition, and function are affected by Hurricane Helene in western NC oak-hickory forests. Uses vegetation and wildlife inventories to evaluate and aid forest recovery. Co-advised by Drs. Jodi Forrester and Chris Moorman (NC State) and Dr. Tara Keyser (USDA Forest Service). This is a near-perfect match for Erin's background and her Pigeon River research.",
     "status": {
-      "kind": "s-new",
-      "label": "New find"
+      "kind": "s-updated",
+      "label": "Updated — June 16, 2026"
     },
-    "cycle": "current",
-    "deadline_date": "2026-01-31",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_date": "",
+    "deadline_kind": "contact-first",
     "region": "Southeast & Appalachia"
   },
   {
@@ -588,7 +588,8 @@
     "region": "Southeast & Appalachia",
     "location": "Clemson, South Carolina (Clemson University)",
     "stipend": "MS/PhD assistantship on the Hurricane Helene bird-ecology project (confirm current funding with the Elmore Lab)",
-    "benefits": "Tuition support typical of Clemson assistantships (confirm with program)"
+    "benefits": "Tuition support typical of Clemson assistantships (confirm with program)",
+    "pay": "MS ~$30k/yr; PhD ~$35k/yr (per the lab posting)"
   },
   {
     "title": "Auburn University — ACFWRU",
@@ -2327,7 +2328,8 @@
     ],
     "cycle": "next",
     "deadline_kind": "rolling",
-    "region": "Southeast & Appalachia"
+    "region": "Southeast & Appalachia",
+    "location": "Southeast US — Raleigh & Asheville NC, Charleston SC, Atlanta GA (offices vary by firm)"
   },
   {
     "title": "Georgia Southern University — MROC2S Postbac Research Fellowship",
@@ -2816,7 +2818,8 @@
     ],
     "cycle": "current",
     "deadline_kind": "rolling",
-    "region": "National / Remote / Multiple"
+    "region": "National / Remote / Multiple",
+    "location": "North Carolina (statewide; NCWRC)"
   },
   {
     "title": "Environmental Compliance Technician",
@@ -4922,7 +4925,11 @@
       "kind": "s-new",
       "label": "✨ New — June 8, 2026"
     },
-    "id": "item-109"
+    "id": "item-109",
+    "location": "Baton Rouge, Louisiana (LSU, Dept. of Entomology)",
+    "pay": "$30,667/year (PhD assistantship)",
+    "stipend": "$30,667/year graduate assistantship",
+    "benefits": "Non-resident tuition waiver + standard graduate benefits"
   },
   {
     "title": "Coastal & Fisheries Ecology Internship — Baker Lab",
@@ -5169,7 +5176,11 @@
       "kind": "s-new",
       "label": "✨ New — June 15, 2026"
     },
-    "id": "item-116"
+    "id": "item-116",
+    "location": "College Station, Texas (Texas A&M Natural Resources Institute)",
+    "pay": "MS ~$32k/yr or PhD ~$35k/yr",
+    "stipend": "MS ~$32,000/yr (2 yrs) or PhD ~$35,000/yr (4 yrs)",
+    "benefits": "Tuition coverage"
   },
   {
     "title": "SUNY-ESF — Funded MS/PhD, Fish & Wetland Ecology (Arsenault & Farrell)",
@@ -5203,7 +5214,11 @@
       "kind": "s-new",
       "label": "✨ New — June 15, 2026"
     },
-    "id": "item-117"
+    "id": "item-117",
+    "location": "Syracuse, New York (SUNY-ESF); field at Thousand Islands & Cranberry Lake biological stations",
+    "pay": "Fully funded MS/PhD assistantship (stipend + tuition; confirm current rate with the PIs)",
+    "stipend": "Graduate assistantship on a NY Sea Grant–funded project ($217k); stipend + tuition",
+    "benefits": "Tuition coverage; funded field seasons (May–Oct)"
   },
   {
     "title": "Southern Illinois University Carbondale — Funded MS, Watershed Science (Soils, Water & Nutrient Dynamics)",
@@ -5701,5 +5716,89 @@
       "label": "✨ New — June 16, 2026"
     },
     "id": "item-130"
+  },
+  {
+    "title": "Nature Collective — Land Stewardship Internship (GIS & Monitoring)",
+    "org": "San Diego, CA · Nature Collective (formerly San Elijo Lagoon Conservancy)",
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "deadline": "Apply by July 1, 2026 (Fall 2026 cohort; window opens May 1)",
+    "start": "September 2026 – January 2027 (4 months)",
+    "body": "Four-month Land Stewardship internship (Sept–Jan) doing GIS data collection and reporting, property monitoring, and field stewardship across Nature Collective's San Diego coastal-lagoon and upland preserves. A stipend is provided. The Fall 2026 cohort accepts applications May 1–July 1, 2026, and recent environmental-science / geography graduates are welcome.",
+    "desc": "A direct match for Erin's GIS and multi-criteria suitability-mapping skills paired with hands-on coastal/wetland field stewardship. Nature Collective also runs a Habitat Restoration internship and a 9-month Integrated internship (restoration + land stewardship + water quality + volunteer programs) on the same May 1–July 1 window — worth asking about the integrated track for broader experience. San Diego coastal-lagoon work would add West Coast estuarine/wetland breadth to a resume currently weighted toward Appalachian freshwater systems.",
+    "badge": "Strong fit",
+    "pills": [
+      "GIS & monitoring",
+      "Land stewardship",
+      "Coastal wetlands",
+      "Paid internship",
+      "West Coast"
+    ],
+    "metaLine": "Paid internship · GIS + field stewardship · Sept–Jan · apply by Jul 1",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-01",
+    "region": "West Coast / Pacific",
+    "location": "San Diego, California",
+    "pay": "Stipend provided (amount not published; confirm with program)",
+    "stipend": "Internship stipend (amount not published)",
+    "benefits": "Hands-on GIS, monitoring, and coastal-wetland stewardship experience",
+    "links": [
+      {
+        "href": "https://naturecollective.org/interns/",
+        "label": "🔗 Nature Collective — Internships"
+      }
+    ],
+    "url": "https://naturecollective.org/interns/",
+    "url_label": "View internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — June 16, 2026"
+    },
+    "id": "item-131"
+  },
+  {
+    "title": "Texas Tech University — Funded MS, Spatial Ecology of Desert Wetlands (McIntyre & Griffis-Kyle)",
+    "org": "Lubbock, TX · Biological Sciences / Natural Resources Management",
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "deadline": "Listed deadline Jan 1, 2026 has passed — email both PIs about the next cohort",
+    "start": "Fall (3-year funded MS)",
+    "body": "Fully funded MS co-advised by Dr. Nancy McIntyre (Biological Sciences) and Dr. Kerry Griffis-Kyle (Natural Resources Management) on the spatial ecology of desert wetlands (playas / desert waters) in the Southwest. Full tuition remission plus a ~$25,000–30,000/yr living stipend for three years (primarily a 9-month departmental TA). Preference for applicants with landscape ecology, remote sensing, and GIS experience.",
+    "desc": "One of the closest skills matches in the cabinet to Erin's GIS / multi-criteria suitability-mapping and remote-sensing toolkit, applied to wetland landscapes. The posted Jan 1, 2026 deadline (Fall 2026 cohort) has passed, so it is filed as a next-cycle contact-first lead: email both PIs (nancy.mcintyre@ttu.edu and kerry.griffis-kyle@ttu.edu, subject 'Graduate application – desert wetlands') about the next opening. Note one eligibility requirement: applicants must be U.S. citizens and able to pass a background check.",
+    "badge": "Strong fit",
+    "pills": [
+      "GIS & remote sensing",
+      "Wetland landscape ecology",
+      "Funded MS",
+      "Contact PI",
+      "Southwest"
+    ],
+    "metaLine": "Funded MS · ~$25–30k/yr + tuition (3 yrs) · contact PIs re: next cohort",
+    "cycle": "next",
+    "deadline_kind": "contact-first",
+    "deadline_date": "",
+    "region": "Southwest",
+    "location": "Lubbock, Texas (Texas Tech University)",
+    "pay": "~$25,000–30,000/year (TA), 3 years",
+    "stipend": "~$25,000–$30,000/year living stipend (9-month TA), 3 years",
+    "benefits": "Full tuition remission",
+    "links": [
+      {
+        "href": "https://eeb.uconn.edu/2025/10/29/m-s-position-on-spatial-ecology-of-desert-waters/",
+        "label": "🔗 MS — Spatial ecology of desert wetlands (posting)"
+      }
+    ],
+    "url": "https://eeb.uconn.edu/2025/10/29/m-s-position-on-spatial-ecology-of-desert-waters/",
+    "url_label": "View posting",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — June 16, 2026"
+    },
+    "id": "item-132"
   }
 ]
