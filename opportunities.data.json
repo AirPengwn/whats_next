@@ -585,7 +585,10 @@
     },
     "cycle": "current",
     "deadline_kind": "contact-first",
-    "region": "Southeast & Appalachia"
+    "region": "Southeast & Appalachia",
+    "location": "Clemson, South Carolina (Clemson University)",
+    "stipend": "MS/PhD assistantship on the Hurricane Helene bird-ecology project (confirm current funding with the Elmore Lab)",
+    "benefits": "Tuition support typical of Clemson assistantships (confirm with program)"
   },
   {
     "title": "Auburn University — ACFWRU",
@@ -1057,7 +1060,10 @@
     "cycle": "next",
     "deadline_date": "2026-09-01",
     "deadline_kind": "fixed",
-    "region": "Southeast & Appalachia"
+    "region": "Southeast & Appalachia",
+    "location": "Raleigh, North Carolina (NC State University)",
+    "stipend": "Graduate assistantship (RA/TA) — thesis-track funding via faculty/dept",
+    "benefits": "Tuition support typical of NC State assistantships (confirm with program)"
   },
   {
     "title": "Purdue University — Dept. of Forestry & Natural Resources",
@@ -1279,7 +1285,10 @@
     "cycle": "next",
     "deadline_date": "2027-01-15",
     "deadline_kind": "fixed",
-    "region": "Mountain West"
+    "region": "Mountain West",
+    "location": "Missoula, Montana (University of Montana)",
+    "stipend": "Admission requires confirmed RA/TA funding; TA packages include a tuition waiver",
+    "benefits": "Full tuition waiver (per TA/RA package); WICHE discount may apply for some states"
   },
   {
     "title": "Mississippi State University — Wildlife, Fisheries & Aquaculture",
@@ -1351,7 +1360,11 @@
     ],
     "cycle": "next",
     "deadline_kind": "contact-first",
-    "region": "Southeast & Appalachia"
+    "region": "Southeast & Appalachia",
+    "location": "Starkville, Mississippi (Mississippi State University)",
+    "pay": "$18,000–$22,000/yr (typical MS stipend)",
+    "stipend": "$18,000–$22,000/yr MS research assistantship (funded projects only)",
+    "benefits": "Tuition waiver"
   },
   {
     "title": "Colorado State University — Ecosystem Science & Sustainability / GDPE",
@@ -1432,7 +1445,10 @@
     ],
     "cycle": "next",
     "deadline_kind": "contact-first",
-    "region": "Mountain West"
+    "region": "Mountain West",
+    "location": "Fort Collins, Colorado (Colorado State University)",
+    "stipend": "Funded via one of 40–50 active graduate assistantships across Ecosystem Science/Ecology each semester",
+    "benefits": "Tuition support typical of CSU assistantships (confirm with department)"
   },
   {
     "title": "University of Minnesota — Water Resources Science Program",
@@ -4301,7 +4317,11 @@
       "kind": "s-new",
       "label": "✨ New — May 28, 2026"
     },
-    "id": "item-092"
+    "id": "item-092",
+    "location": "Kingsville, Texas (Texas A&M University–Kingsville)",
+    "pay": "Graduate research assistantship stipend (amount not publicly posted)",
+    "stipend": "MS research assistantship funded by an IRA Urban & Community Forestry grant",
+    "benefits": "Out-of-state tuition waiver"
   },
   {
     "title": "Michigan State University — Funded MS, Sea Lamprey Chemical & Aquatic Ecology (2 positions, Scott Lab)",
@@ -5635,5 +5655,51 @@
     },
     "sourceFindUrl": "https://www.usajobs.gov/search/results/?k=Conservation+Technicians&p=1",
     "id": "item-129"
+  },
+  {
+    "title": "Eastern Illinois University — Funded MS, Fisheries & Aquatic Ecology (Wabash River)",
+    "org": "Charleston, IL · Center for Fisheries & Aquatic Sciences",
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "deadline": "Apply by August 19, 2026 (review began Nov 25, 2025; open until filled)",
+    "start": "Spring or Summer 2026 (flexible)",
+    "body": "Up to four funded MS research assistantships at EIU's Center for Fisheries & Aquatic Sciences — $1,600/month stipend plus a full tuition waiver. Thesis projects include Wabash River fish community assessment, Channel Catfish demographics and spawning-box evaluation in small impoundments, and invasive carp reproduction, recruitment, and movement ecology.",
+    "desc": "Listed on the Texas A&M Natural Resources Job Board. A strong, BS-eligible route into a funded fisheries/aquatic-ecology MS — directly relevant to Erin's water-quality and watershed background (her Pigeon River trace-metal capstone), and her trapping and camera/field-monitoring skills transfer well to fish-community and invasive-species work. Recent-graduate friendly (unofficial transcripts accepted); apply early since review is rolling and the spots fill. Email a cover letter, CV with GPA, transcripts, and three references to Dr. Daniel Roth (drroth@eiu.edu).",
+    "badge": "Strong fit",
+    "pills": [
+      "Fisheries",
+      "Aquatic ecology",
+      "Funded MS",
+      "Invasive species",
+      "Midwest"
+    ],
+    "metaLine": "Funded MS · $1,600/mo + tuition waiver · up to 4 spots · apply by Aug 19",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-19",
+    "region": "Midwest & Great Plains",
+    "location": "Charleston, Illinois (Eastern Illinois University)",
+    "pay": "$1,600/month stipend",
+    "stipend": "$1,600/month graduate research assistantship stipend",
+    "benefits": "Full tuition waiver",
+    "links": [
+      {
+        "href": "https://wfscjobs.tamu.edu/jobs/ms-graduate-research-assistantship-at-eastern-illinois-university-aquatic-ecology/",
+        "label": "🔗 MS GRA — EIU Fisheries & Aquatic Sciences (job board)"
+      },
+      {
+        "href": "https://www.eiu.edu/fisheries/",
+        "label": "🔍 EIU Center for Fisheries & Aquatic Sciences"
+      }
+    ],
+    "url": "https://wfscjobs.tamu.edu/jobs/ms-graduate-research-assistantship-at-eastern-illinois-university-aquatic-ecology/",
+    "url_label": "View posting",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — June 16, 2026"
+    },
+    "id": "item-130"
   }
 ]
