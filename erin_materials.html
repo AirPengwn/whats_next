@@ -72,9 +72,12 @@ a:hover{text-decoration:underline}
 .sum-pill{font-size:12.5px;font-weight:500;padding:4px 12px;border-radius:999px;background:var(--bg);border:.5px solid var(--bd)}
 
 
+.hl-flash{animation:hlf 2.4s ease-out}
+@keyframes hlf{0%{box-shadow:0 0 0 3px var(--teal)}55%{box-shadow:0 0 0 3px var(--teal)}100%{box-shadow:0 0 0 0 rgba(0,0,0,0)}}
 </style>
 <script src="icons.js?v=20260602"></script>
 <script src="site.js?v=20260616-128-18935f83"></script>
+<script src="opportunities.js?v=20260616-128-18935f83"></script>
 <script>
 (function(){
   var saved=localStorage.getItem('erin_theme');
@@ -288,6 +291,24 @@ function fmtAgo(iso){
   return d.toLocaleDateString();
 }
 
+/* v2.47: link a material to the saved opportunities it's used for (itemIds[]). */
+function savedItemsList(){ try{ var m=JSON.parse(localStorage.getItem('erin_mylist_v1')||'{}'); return Object.keys(m).map(function(k){ return {id:k, title:(m[k]&&m[k].title)||k}; }); }catch(e){ return []; } }
+function oppTitle(id){ var L=savedItemsList(); for(var i=0;i<L.length;i++){ if(L[i].id===id) return (L[i].title||id).split('—')[0].trim().slice(0,50); }
+  if(typeof ALL!=='undefined'&&Array.isArray(ALL)){ for(var j=0;j<ALL.length;j++){ if(ALL[j].id===id) return (ALL[j].title||id).split('—')[0].trim().slice(0,50); } } return id; }
+function linkItem(mid,iid){ var arr=loadMats(); var i=arr.findIndex(function(x){return x.id===mid;}); if(i<0)return; if(!Array.isArray(arr[i].itemIds))arr[i].itemIds=[]; if(arr[i].itemIds.indexOf(iid)<0){ arr[i].itemIds.push(iid); arr[i].updated=new Date().toISOString(); saveMats(arr); pushMats(arr); } render(); }
+function unlinkItem(mid,iid){ var arr=loadMats(); var i=arr.findIndex(function(x){return x.id===mid;}); if(i<0)return; arr[i].itemIds=(arr[i].itemIds||[]).filter(function(x){return x!==iid;}); arr[i].updated=new Date().toISOString(); saveMats(arr); pushMats(arr); render(); }
+window.linkItem=linkItem; window.unlinkItem=unlinkItem;
+/* deep-link focus: #mat-<id> (or #mcard-<id>) scrolls to + highlights that material */
+function _focusMatFromHash(){
+  var h=(location.hash||'').replace(/^#/,''); if(!h) return;
+  var elId = h.indexOf('mcard-')===0 ? h : (h.indexOf('mat-')===0 ? 'mcard-'+h : '');
+  if(!elId) return;
+  var card=document.getElementById(elId); if(!card) return;
+  try{ card.scrollIntoView({behavior:'smooth',block:'start'}); }catch(e){}
+  card.classList.add('hl-flash'); setTimeout(function(){ card.classList.remove('hl-flash'); },2400);
+}
+window.addEventListener('hashchange', _focusMatFromHash);
+
 function render(){
   updateSummary();
   var arr=loadMats();
@@ -375,6 +396,25 @@ function makeCard(m){
     card.appendChild(us);
   }
 
+  // Used for — linked opportunities (deep-link to the job card)
+  var lf2=document.createElement('div'); lf2.className='mat-field'; lf2.style.marginTop='.55rem';
+  var ll2=document.createElement('div'); ll2.className='mat-lbl'; ll2.textContent='Used for (linked opportunities)'; lf2.appendChild(ll2);
+  var chips=document.createElement('div'); chips.style.cssText='display:flex;flex-wrap:wrap;gap:5px;align-items:center';
+  var ids=Array.isArray(m.itemIds)?m.itemIds:[];
+  ids.forEach(function(iid){
+    var chip=document.createElement('span'); chip.className='usage-chip'; chip.style.cssText='display:inline-flex;align-items:center;gap:6px;background:var(--teal-bg);color:var(--teal-t)';
+    var a=document.createElement('a'); a.href='erin_mylist.html#card-'+iid; a.textContent=oppTitle(iid); a.style.cssText='color:inherit;text-decoration:none'; a.title='Open the opportunity card'; chip.appendChild(a);
+    var x=document.createElement('button'); x.type='button'; x.textContent='×'; x.title='Unlink'; x.style.cssText='border:none;background:none;color:inherit;cursor:pointer;font-size:14px;line-height:1;padding:0';
+    x.onclick=(function(mid,id){return function(){ unlinkItem(mid,id); };})(m.id,iid); chip.appendChild(x);
+    chips.appendChild(chip);
+  });
+  var sel=document.createElement('select'); sel.className='mat-sel'; sel.style.cssText='max-width:280px';
+  var opt0=document.createElement('option'); opt0.value=''; opt0.textContent=ids.length?'+ Link another saved opportunity…':'+ Link a saved opportunity…'; sel.appendChild(opt0);
+  savedItemsList().forEach(function(s){ if(ids.indexOf(s.id)>-1) return; var o=document.createElement('option'); o.value=s.id; o.textContent=(s.title||s.id).split('—')[0].trim().slice(0,60); sel.appendChild(o); });
+  sel.onchange=(function(mid){return function(){ if(this.value) linkItem(mid,this.value); };})(m.id);
+  chips.appendChild(sel);
+  lf2.appendChild(chips); card.appendChild(lf2);
+
   // Actions
   var acts=document.createElement('div'); acts.className='mat-actions';
   var sb=document.createElement('button'); sb.className='save-btn'; sb.textContent='Save';
@@ -403,6 +443,7 @@ if(isPrimary()){
 } else {
   pullMats(function(){ render(); }); // secondary: always read from cloud
 }
+setTimeout(_focusMatFromHash, 350);   // honor #mat-<id> deep-links after first render
 </script>
 
 <script>

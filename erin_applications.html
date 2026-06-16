@@ -553,7 +553,9 @@ function render(){
   var arr=loadApps();
 
   mylist.forEach(function(it){
-    var exists=arr.find(function(a){ return a.programTitle===it.title&&a.org===it.org; });
+    /* v2.47: match by stable itemId first (falls back to title+org for legacy apps),
+       so renaming a program no longer spawns a duplicate application card. */
+    var exists=arr.find(function(a){ return (a.itemId&&it.id&&a.itemId===it.id) || (a.programTitle===it.title&&a.org===it.org); });
     if(!exists){
       arr.push({
         id:'a'+Math.random().toString(36).slice(2),
@@ -570,6 +572,7 @@ function render(){
         notes:'',materials:{}
       });
     } else {
+      if(!exists.itemId && it.id) exists.itemId=it.id;   // backfill the join key on legacy apps
       // Keep deadline in sync if it changed
       if(it.deadline&&!exists.deadline) exists.deadline=it.deadline;
     }
@@ -674,6 +677,25 @@ function renderCards(){
     });
     cl.appendChild(grid); leftCol.appendChild(cl);
     updateProgress(app.id, app.materials||{});
+
+    // v2.47: linked materials — SOP/cover/etc. tagged to this opportunity via itemId
+    if(app.itemId){
+      var _mats=[]; try{ _mats=JSON.parse(localStorage.getItem('erin_materials')||'[]'); }catch(e){ _mats=[]; }
+      var _linked=_mats.filter(function(m){ return m && Array.isArray(m.itemIds) && m.itemIds.indexOf(app.itemId)>-1; });
+      if(_linked.length){
+        var ms=document.createElement('div'); ms.className='checklist-section'; ms.style.marginTop='.6rem';
+        var mst=document.createElement('div'); mst.className='checklist-title'; mst.textContent='Linked materials';
+        ms.appendChild(mst);
+        var mwrap=document.createElement('div'); mwrap.style.cssText='display:flex;flex-wrap:wrap;gap:6px;margin-top:.35rem';
+        _linked.forEach(function(m){
+          var a=document.createElement('a'); a.href='erin_materials.html#'+m.id;
+          a.style.cssText='font-size:12.5px;font-weight:500;padding:3px 11px;border-radius:999px;background:var(--teal-bg);color:var(--teal-t);border:.5px solid var(--teal);text-decoration:none';
+          a.textContent='📄 '+String(m.title||m.type||'Material').slice(0,40)+' →'; a.title='Open this material';
+          mwrap.appendChild(a);
+        });
+        ms.appendChild(mwrap); leftCol.appendChild(ms);
+      }
+    }
 
     // Actions row
     var acts=document.createElement('div'); acts.className='app-actions';

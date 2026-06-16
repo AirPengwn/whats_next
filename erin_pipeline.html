@@ -194,6 +194,7 @@ body{padding:0 0 3rem}
     apps.forEach(function(a){
       var key=((a.programTitle||'')+'|'+(a.org||'')).toLowerCase();
       inApp[key]=1;
+      if(a.itemId) inApp['id:'+a.itemId]=1;   // v2.47: dedup by stable itemId too
       var stg=stageOf(a.status);
       cols[stg].push({
         name:(a.programTitle||'Untitled').split('—')[0].trim(),
@@ -206,7 +207,7 @@ body{padding:0 0 3rem}
     Object.keys(ml).forEach(function(k){
       var it=ml[k]; if(!it||it._done) return;
       var key=((it.title||'')+'|'+(it.org||'')).toLowerCase();
-      if(inApp[key]) return;
+      if(inApp['id:'+k] || inApp[key]) return;
       var dC=dayDiff(it.deadline);
       var card={
         name:(it.title||'Untitled').split('—')[0].trim(),

@@ -728,4 +728,60 @@ window.addEventListener('hashchange',_openFromHash);
     setInterval(render,30000);
     window.addEventListener('erin-sync', render);
   }
-  if(document.readyState==='l
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',setup);
+  else setup();
+})();
+</script>
+
+<script>
+/* v2.47: "Save to Materials" on each Outreach draft — captures the draft text into the
+   Materials library (cloud key `materials`, GET-merge-PUT so other materials are preserved).
+   Link it to the job it's for via "Used for" on the Materials page. */
+(function(){
+  var BIN='6a039aa4250b1311c33f2bac', KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
+  function isPrimary(){ return localStorage.getItem('erin_primary_device')==='1'||localStorage.getItem('erin_primary_device_bak')==='1'; }
+  function loadMats(){ try{ return JSON.parse(localStorage.getItem('erin_materials')||'[]'); }catch(e){ return []; } }
+  function saveMats(a){ localStorage.setItem('erin_materials',JSON.stringify(a)); }
+  function guessType(s){ s=(s||'').toLowerCase();
+    if(/statement of purpose|\bsop\b/.test(s)) return 'SOP';
+    if(/cover/.test(s)) return 'Cover Letter';
+    if(/recommendation|recommender|reference/.test(s)) return 'Reference List';
+    if(/resume|\bcv\b/.test(s)) return 'Resume';
+    return 'Other'; }
+  function entryFrom(card){
+    var bodyEl=card.querySelector('.doc-body'); if(!bodyEl) return null;
+    var title=((card.querySelector('.doc-title')||{}).textContent||'Outreach draft').trim();
+    var label=((card.querySelector('.doc-label')||{}).textContent||'').trim();
+    return {id:'mat-'+Date.now()+'-'+Math.random().toString(36).slice(2,6), title:title.slice(0,90),
+      type:guessType(title+' '+label), version:'from Outreach', updated:new Date().toISOString(),
+      content:(bodyEl.innerText||'').trim(), url:'',
+      notes:'Saved from the Outreach page. Open Materials and use “Used for” to link it to the job it’s for.', itemIds:[]}; }
+  function flash(btn,msg){ btn.textContent=msg; btn.disabled=true; setTimeout(function(){ btn.textContent='💾 Save to Materials'; btn.disabled=false; },2600); }
+  function save(card,btn){
+    var entry=entryFrom(card); if(!entry) return;
+    if(isPrimary()){
+      fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+        .then(function(r){return r.json();})
+        .then(function(data){ var rec=(data&&data.record)||{}; var cloud=Array.isArray(rec.materials)?rec.materials:loadMats();
+          cloud.unshift(entry); saveMats(cloud); rec.materials=cloud;
+          return fetch('https://api.jsonbin.io/v3/b/'+BIN,{method:'PUT',headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},body:JSON.stringify(rec)}); })
+        .then(function(){ flash(btn,'✓ Saved to Materials'); })
+        .catch(function(){ var a=loadMats(); a.unshift(entry); saveMats(a); flash(btn,'Saved locally (sync failed)'); });
+    } else {
+      var a=loadMats(); a.unshift(entry); saveMats(a); flash(btn,'✓ Saved (this device only)');
+    }
+  }
+  document.addEventListener('DOMContentLoaded',function(){
+    document.querySelectorAll('.doc-card').forEach(function(card){
+      if(!card.querySelector('.doc-body') || card.querySelector('.save-to-mat')) return;
+      var b=document.createElement('button'); b.type='button'; b.className='save-to-mat';
+      b.textContent='💾 Save to Materials';
+      b.style.cssText='margin-top:.7rem;font-size:12.5px;font-weight:600;padding:6px 14px;border-radius:999px;border:1px solid var(--teal);background:var(--teal-bg);color:var(--teal-t);cursor:pointer;font-family:var(--fn)';
+      b.onclick=function(){ save(card,b); };
+      card.appendChild(b);
+    });
+  });
+})();
+</script>
+</body>
+</html>
