@@ -174,7 +174,11 @@ html.dark .s-updated{background:#2d2563;color:#b5abfa}
 <script>
 var BIN='6a039aa4250b1311c33f2bac',KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa',STORE='erin_mylist_v1';
 function load(){try{return JSON.parse(localStorage.getItem(STORE)||'{}')}catch(e){return{}}}
-function getSavedItems(){return Object.values(load());}
+function getSavedItems(){
+  var ni; try{ ni=JSON.parse(localStorage.getItem('erin_not_interested_v1')||'{}'); }catch(e){ ni={}; }
+  /* hide not-interested + explicitly-expired items (past dated deadlines still show — that's the timeline's job) */
+  return Object.values(load()).filter(function(it){ return it && !ni[it.id] && it.expired!==true; });
+}
 
 function pullCloud(){
   fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})

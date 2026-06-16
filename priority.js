@@ -29,7 +29,7 @@
     var t=new Date(); t.setHours(0,0,0,0); d.setHours(0,0,0,0); return Math.floor((d-t)/864e5);
   }
   function buildActions(){
-    var A=[], ml=lj('erin_mylist_v1','{}'), mlv=Object.values(ml), apps=lj('erin_applications_v1','[]'), profs=lj('erin_prof_contacts','[]'), refs=lj('erin_ref_letters','[]');
+    var A=[], ml=lj('erin_mylist_v1','{}'), mlv=Object.values(ml), apps=lj('erin_applications_v1','[]'), profs=lj('erin_prof_contacts','[]'), refs=lj('erin_ref_tracker_v1','[]'), ni=lj('erin_not_interested_v1','{}');
     function full(o){
       var p=[], u=[], app=o.app, it=o.item, pr=o.prof, rf=o.ref;
       if(app){ if(app.org)p.push({k:'Organization',v:app.org}); if(app.deadline)p.push({k:'Deadline',v:app.deadline}); if(app.notes)p.push({k:'Notes',v:app.notes}); if(app.decisionReason)p.push({k:'Decision',v:app.decisionReason}); var mm=ml[app.itemId]; if(mm) it=mm; }
@@ -52,17 +52,20 @@
     // R2 stale prof follow-ups
     profs.forEach(function(p){ if(p.status!=='contacted'||!p.dateEmailed) return; var s=dayDiff(p.dateEmailed); if(s==null) return; s=-s; if(s>=14) A.push({weight:90+Math.min(s-14,40),klass:'pr-high',emoji:ICO_MAIL,title:'Follow up with '+(p.professor||'professor'),detail:'Emailed '+s+'d ago · '+(p.programTitle||'').split('—')[0].trim().slice(0,42)+' · no response logged',cta:'Open contact',link:'erin_proftracker.html#pcard-'+p.id,full:full({prof:p})}); });
     // R3 saved grad programs with no prof contacted yet
-    mlv.filter(function(it){return it.type==='Graduate Program'&&!it._done;}).forEach(function(it){ var m=profs.find(function(p){return p.programTitle===it.title;}); if(m&&m.status&&m.status!=='none') return; A.push({weight:60,klass:'pr-medium',emoji:ICO_WAVE,title:'No prof contacted for '+(it.title.split('—')[0].trim()).slice(0,45),detail:'Direct outreach is the highest-leverage activity in grad applications',cta:'Open prof tracker',link:'erin_proftracker.html'+(m?'#pcard-'+m.id:''),full:full({item:it,prof:m})}); });
-    // R4 apps within 60d without enough linked recommenders
-    apps.forEach(function(a){ var st=a.status||'notstarted'; if(DONE[st]) return; var d=dayDiff(a.deadline); if(d==null||d<0||d>60) return; var lk=refs.filter(function(r){return (r.applicationIds||[]).indexOf(a.id)>-1;}); var rd=lk.filter(function(r){return r.status==='confirmed'||r.status==='submitted';}).length; if(lk.length<2||rd<2) A.push({weight:80+(60-d),klass:'pr-high',emoji:ICO_PEN,title:(lk.length===0?'No recommenders':'Only '+rd+' confirmed recommender'+(rd===1?'':'s'))+' for '+(a.programTitle||'application').split('—')[0].trim().slice(0,32),detail:'Deadline in '+d+'d · '+lk.length+' linked, need ~3',cta:'Open references',link:'erin_reftracker.html',full:full({app:a})}); });
+    mlv.filter(function(it){return it.type==='Graduate Program'&&!it._done&&!ni[it.id];}).forEach(function(it){ var m=profs.find(function(p){return p.programTitle===it.title;}); if(m&&m.status&&m.status!=='none') return; A.push({weight:60,klass:'pr-medium',emoji:ICO_WAVE,title:'No prof contacted for '+(it.title.split('—')[0].trim()).slice(0,45),detail:'Direct outreach is the highest-leverage activity in grad applications',cta:'Open prof tracker',link:'erin_proftracker.html'+(m?'#pcard-'+m.id:''),full:full({item:it,prof:m})}); });
+    // R4 apps within 60d without ~2 secured recommenders (counts the real Ref tracker statuses)
+    var refSecured=refs.filter(function(r){return /agreed|submitted/i.test(r.status||'');}).length;
+    var refAsked=refs.filter(function(r){return /asked|agreed|submitted/i.test(r.status||'');}).length;
+    apps.forEach(function(a){ var st=a.status||'notstarted'; if(DONE[st]) return; var d=dayDiff(a.deadline); if(d==null||d<0||d>60) return; if(refSecured>=2) return;
+      A.push({weight:80+(60-d),klass:'pr-high',emoji:ICO_PEN,title:(refAsked===0?'Line up recommenders':'Only '+refSecured+' recommender'+(refSecured===1?'':'s')+' secured')+' for '+(a.programTitle||'application').split('—')[0].trim().slice(0,32),detail:'Deadline in '+d+'d · '+refAsked+' asked / '+refSecured+' agreed — aim for ~3 letters',cta:'Open references',link:'erin_reftracker.html',full:full({app:a})}); });
     // R5 "apply immediately" items not in app tracker
-    mlv.forEach(function(it){ if(it._done) return; var t=((it.pills||[]).join(' ')+' '+(it.body||'')+' '+(it._note||'')+' '+(it.deadline||'')).toLowerCase(); if(!/apply immediately|apply now|rolling|first[- ]come|review begins/.test(t)) return; if(apps.some(function(a){return a.programTitle===it.title&&a.org===it.org;})) return; A.push({weight:95,klass:'pr-high',emoji:ICO_BOLT,title:'"Apply immediately" not yet in app tracker: '+(it.title.split('—')[0].trim()).slice(0,42),detail:(it.org||'')+(it.deadline?' · '+it.deadline:'')+(it.id?' · '+it.id:''),cta:'Open My List',link:'erin_mylist.html',full:full({item:it})}); });
+    mlv.forEach(function(it){ if(it._done||ni[it.id]) return; var t=((it.pills||[]).join(' ')+' '+(it.body||'')+' '+(it._note||'')+' '+(it.deadline||'')).toLowerCase(); if(!/apply immediately|apply now|rolling|first[- ]come|review begins/.test(t)) return; if(apps.some(function(a){return a.programTitle===it.title&&a.org===it.org;})) return; A.push({weight:95,klass:'pr-high',emoji:ICO_BOLT,title:'"Apply immediately" not yet in app tracker: '+(it.title.split('—')[0].trim()).slice(0,42),detail:(it.org||'')+(it.deadline?' · '+it.deadline:'')+(it.id?' · '+it.id:''),cta:'Open My List',link:'erin_mylist.html'+(it.id?'#card-'+it.id:''),full:full({item:it})}); });
     // R6 SOP not drafted within 45d
     apps.forEach(function(a){ var st=a.status||'notstarted'; if(DONE[st]) return; var d=dayDiff(a.deadline); if(d==null||d<0||d>45) return; if((a.materials||{})[0]) return; A.push({weight:70+(45-d),klass:'pr-high',emoji:ICO_FILE,title:'SOP not drafted for '+(a.programTitle||'application').split('—')[0].trim().slice(0,42),detail:'Deadline in '+d+'d · use the Outreach page SOP template',cta:'Open application',link:'erin_applications.html#acard-'+a.id,full:full({app:a})}); });
     // R7a passed-deadline apps still notstarted/gathering
     apps.forEach(function(a){ var st=a.status||'notstarted'; if(DONE[st]) return; var d=dayDiff(a.deadline); if(d==null||d>=0) return; var ago=-d; A.push({weight:150,klass:'pr-urgent',emoji:ICO_ALERT,title:'Deadline passed '+ago+'d ago — '+(a.programTitle||'application').split('—')[0].trim().slice(0,40),detail:'Status still "'+(SL[st]||st)+'" · archive (Declined/Missed) or push to next cycle',cta:'Open application',link:'erin_applications.html#acard-'+a.id,full:full({app:a})}); });
     // R7b My List items with passed deadline, never in apps
-    Object.values(ml).forEach(function(it){ if(it._done) return; var d=dayDiff(it.deadline); if(d==null||d>=0) return; if(apps.some(function(a){return a.programTitle===it.title&&a.org===it.org;})) return; var ago=-d; A.push({weight:130,klass:'pr-urgent',emoji:ICO_ALERT,title:'Deadline passed '+ago+'d ago, never opened: '+(it.title.split('—')[0].trim()).slice(0,40),detail:(it.org||'')+(it.deadline?' · '+it.deadline:'')+' · remove with reason or move to next-cycle list',cta:'Open My List',link:'erin_mylist.html',full:full({item:it})}); });
+    Object.values(ml).forEach(function(it){ if(it._done||ni[it.id]) return; var d=dayDiff(it.deadline); if(d==null||d>=0) return; if(apps.some(function(a){return a.programTitle===it.title&&a.org===it.org;})) return; var ago=-d; A.push({weight:130,klass:'pr-urgent',emoji:ICO_ALERT,title:'Deadline passed '+ago+'d ago, never opened: '+(it.title.split('—')[0].trim()).slice(0,40),detail:(it.org||'')+(it.deadline?' · '+it.deadline:'')+' · remove with reason or move to next-cycle list',cta:'Open My List',link:'erin_mylist.html'+(it.id?'#card-'+it.id:''),full:full({item:it})}); });
     var s={}; A=A.filter(function(a){ if(s[a.link]) return false; s[a.link]=true; return true; });
     A.sort(function(a,b){return b.weight-a.weight;});
     return A;
@@ -70,7 +73,7 @@
   function esc(s){ return (s+'').replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
   function fmtCat(s){ if(!s) return ''; if(/grad/i.test(s)) return 'Grad Program'; if(/intern/i.test(s)) return 'Internship'; if(/career|job/i.test(s)) return 'Career'; if(/service|fellow/i.test(s)) return 'Service'; return s; }
   function buildDeadlines(){
-    var ml=lj('erin_mylist_v1','{}'), apps=lj('erin_applications_v1','[]'), out=[], seen={};
+    var ml=lj('erin_mylist_v1','{}'), apps=lj('erin_applications_v1','[]'), niD=lj('erin_not_interested_v1','{}'), out=[], seen={};
     function add(name,org,deadline,cat,link){
       if(!name) return;
       var d=dayDiff(deadline); if(d==null) return;
@@ -79,7 +82,7 @@
       out.push({name:name,org:org||'',deadline:deadline,cat:fmtCat(cat),d:d,link:link});
     }
     apps.forEach(function(a){ if(/^(accepted|declined|waitlisted)$/i.test(a.status||'')) return; add((a.programTitle||'').split('—')[0].trim(),a.org,a.deadline,a.itemType,'erin_applications.html#acard-'+a.id); });
-    Object.values(ml).forEach(function(it){ if(it._done) return; add((it.title||'').split('—')[0].trim(),it.org,it.deadline,it.type||it.cat,'erin_mylist.html'); });
+    Object.values(ml).forEach(function(it){ if(it._done||niD[it.id]) return; add((it.title||'').split('—')[0].trim(),it.org,it.deadline,it.type||it.cat,'erin_mylist.html'+(it.id?'#card-'+it.id:'')); });
     out.sort(function(x,y){ return x.d-y.d; });
     return out;
   }
@@ -142,7 +145,8 @@
           if(r.items) localStorage.setItem('erin_mylist_v1',JSON.stringify(r.items));
           if(r.apps) localStorage.setItem('erin_applications_v1',JSON.stringify(r.apps));
           if(r.profs) localStorage.setItem('erin_prof_contacts',JSON.stringify(r.profs));
-          if(r.refs) localStorage.setItem('erin_ref_letters',JSON.stringify(r.refs));
+          if(r.refs) localStorage.setItem('erin_ref_tracker_v1',JSON.stringify(r.refs));
+          if(r.notInterested) localStorage.setItem('erin_not_interested_v1',JSON.stringify(r.notInterested));
           if(r.writing) localStorage.setItem('erin_writing_samples',JSON.stringify(r.writing));
           if(r.materials) localStorage.setItem('erin_materials',JSON.stringify(r.materials));
           if(r.archiveLog) localStorage.setItem('erin_archive_log',JSON.stringify(r.archiveLog));

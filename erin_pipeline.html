@@ -187,6 +187,7 @@ body{padding:0 0 3rem}
     var ml=rec.items||lj('erin_mylist_v1','{}');
     var apps=rec.apps||lj('erin_applications_v1','[]');
     var pr=rec.priority||lj('erin_priority_v1','{}');
+    var ni=rec.notInterested||lj('erin_not_interested_v1','{}');
     if(!Array.isArray(apps)) apps=[];
     var cols={save:[],prio:[],prep:[],sub:[],await:[],intv:[],out:[]};
     var inApp={};
@@ -206,11 +207,12 @@ body{padding:0 0 3rem}
       var it=ml[k]; if(!it||it._done) return;
       var key=((it.title||'')+'|'+(it.org||'')).toLowerCase();
       if(inApp[key]) return;
+      var dC=dayDiff(it.deadline);
       var card={
         name:(it.title||'Untitled').split('—')[0].trim(),
         org:it.org||'', cat:it.type||it.cat||'', deadline:it.deadline||'',
-        status:'', rawStatus:'', link:'erin_mylist.html#card-'+k, d:dayDiff(it.deadline),
-        itemId:k, prio:!!pr[k]
+        status:'', rawStatus:'', link:'erin_mylist.html#card-'+k, d:dC,
+        itemId:k, prio:!!pr[k], _ni:!!ni[k], _exp:(it.expired===true || (dC!=null && dC<0))
       };
       /* Priority saved-stage items split OUT of Saved into the Priority column */
       if(pr[k]) cols.prio.push(card); else cols.save.push(card);
@@ -305,7 +307,6 @@ body{padding:0 0 3rem}
   /* v2.36 scope view: 'all' | 'priority' | 'expired' | 'removed' */
   var viewScope='all', _rec={};
   function applyScope(cols){
-    if(viewScope==='all') return cols;
     if(viewScope==='removed'){
       return {save:[],prio:[],prep:[],sub:[],await:[],intv:[],out:[],
         archived:(cols.archived||[]).filter(function(e){ return /remov/i.test(e.action||''); })};
@@ -314,8 +315,9 @@ body{padding:0 0 3rem}
     ['save','prio','prep','sub','await','intv','out'].forEach(function(k){
       out[k]=(cols[k]||[]).filter(function(c){
         if(viewScope==='priority') return c.prio;
-        if(viewScope==='expired') return c.d!=null && c.d<0;
-        return true;
+        if(viewScope==='expired') return c._exp || (c.d!=null && c.d<0);
+        /* 'all' — hide not-interested + expired saved/priority items; applications always show */
+        return !c._ni && !c._exp;
       });
     });
     return out;
