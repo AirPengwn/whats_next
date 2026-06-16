@@ -11,3 +11,6 @@ Thumbs.db
 # Weekly-sweep routine scratch files (never publish)
 _cloud_snapshot.json
 _dedup_index.json
+
+# Local-only preview dev server (never publish)
+._preview_server.js
