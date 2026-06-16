@@ -13,8 +13,13 @@ body{padding:0 0 3rem}
 .page-header-title{font-size:24px;font-weight:700;color:var(--t1);line-height:1.2;letter-spacing:-.02em;margin-bottom:.2rem}
 .page-header-sub{font-size:13px;color:var(--t2);line-height:1.5}
 
-.funnel{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1.25rem}
-.fn-cell{flex:1;min-width:120px;background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:.7rem .85rem;text-align:center}
+/* v2.37: funnel uses the SAME grid + gaps + breakpoints as the board so
+   each summary cell sits directly above its column. */
+.funnel{display:grid;grid-template-columns:repeat(7,1fr);gap:14px;margin-bottom:1.25rem}
+@media(max-width:1080px){.funnel{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:680px){.funnel{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:460px){.funnel{grid-template-columns:1fr}}
+.fn-cell{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:.7rem .85rem;text-align:center}
 .fn-n{font-size:22px;font-weight:700;color:var(--t1)}
 .fn-l{font-size:12.5px;color:var(--t3);margin-top:2px}
 .fn-cell.c-save{border-top:3px solid var(--bds)}
@@ -204,7 +209,7 @@ body{padding:0 0 3rem}
       var card={
         name:(it.title||'Untitled').split('—')[0].trim(),
         org:it.org||'', cat:it.type||it.cat||'', deadline:it.deadline||'',
-        status:'', rawStatus:'', link:'erin_mylist.html', d:dayDiff(it.deadline),
+        status:'', rawStatus:'', link:'erin_mylist.html#card-'+k, d:dayDiff(it.deadline),
         itemId:k, prio:!!pr[k]
       };
       /* Priority saved-stage items split OUT of Saved into the Priority column */
