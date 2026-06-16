@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
-<link rel="stylesheet" href="styles.css?v=20260616-128-7122d372">
+<link rel="stylesheet" href="styles.css?v=20260616-128-18935f83">
 <title>Funded Graduate Programs — What’s Next for Erin</title>
 <style>
 body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem}
@@ -76,6 +76,8 @@ html.dark .bx-new{background:#ff5a3c;color:#1a1a1a}
 .u2{background:var(--teal-bg);color:var(--teal-t)}.u3{background:var(--blue-bg);color:var(--blue)}
 .u4{background:var(--bg2);color:var(--t3)}.u5{background:var(--bg2);color:var(--t3)}
 .bx-fwrap{display:flex;flex-direction:column;gap:2px;width:100%}
+.hl-flash{animation:hlf 2.4s ease-out}
+@keyframes hlf{0%{box-shadow:0 0 0 3px var(--teal)}55%{box-shadow:0 0 0 3px var(--teal)}100%{box-shadow:0 0 0 0 rgba(0,0,0,0)}}
 </style>
 <script>
 (function(){
@@ -87,7 +89,7 @@ html.dark .bx-new{background:#ff5a3c;color:#1a1a1a}
   window.__toggleTheme=function(){var d=document.documentElement.classList.toggle('dark');localStorage.setItem('erin_theme',d?'dark':'light');upBtn();};
 })();
 </script>
-<script src="site.js?v=20260616-128-7122d372"></script>
+<script src="site.js?v=20260616-128-18935f83"></script>
 </head>
 <body>
 <!-- GLOBAL NAV -->
@@ -141,7 +143,7 @@ html.dark .bx-new{background:#ff5a3c;color:#1a1a1a}
 <div id="browse-body"></div>
 <p class="footer">Live opportunities, sorted by urgency. Saving is gated to Erin&rsquo;s primary device.<br><br><a href="index.html" style="color:var(--blue)">&#8592; Back to home</a></p>
 </div>
-<script src="opportunities.js?v=20260616-128-7122d372"></script>
+<script src="opportunities.js?v=20260616-128-18935f83"></script>
 <script>
 (function(){
 var BIN_ID='6a039aa4250b1311c33f2bac',API_KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa',STORE='erin_mylist_v1';
@@ -295,6 +297,29 @@ function has(id){ return !!(window.ML&&ML.isSaved(id)); }
 function addItem(it){ if(window.ML) ML.save(payload(it)); }
 function delItem(id){ if(window.ML) ML.remove(id); }
 function renderBrowse(){ renderBrowseX(); }
+/* v2.45: deep-link focus — open a specific opportunity's detail from #card-<id> or #bcx-<id>.
+   Reveals the card if a filter is hiding it (clears filters + shows passed/hidden), then
+   opens its detail panel, scrolls to it, and pulses a highlight. */
+function _focusBrowseFromHash(){
+  var h=(location.hash||'').replace(/^#/,'');
+  var id = h.indexOf('card-')===0 ? h.slice(5) : (h.indexOf('bcx-')===0 ? h.slice(4) : '');
+  if(!id) return;
+  var card=document.getElementById('bcx-'+id);
+  if(!card){
+    try{ if(typeof BX==='object'){ BX.status.length=0; BX.cycle.length=0; BX.region.length=0; BX.fit.length=0; BX.fresh.length=0; } }catch(e){}
+    try{ viewScope='all'; }catch(e){}
+    try{ showPassed=true; showNI=true; }catch(e){}
+    var bs=document.getElementById('bs'); if(bs) bs.value='';
+    renderBrowseX();
+    card=document.getElementById('bcx-'+id);
+  }
+  if(!card) return;
+  var bd=card.querySelector('.item-detail');
+  if(bd && !bd.classList.contains('open')){ bd.classList.add('open');
+    var b=card.querySelector('.act-btn'); if(b && (b.textContent||'').toLowerCase().indexOf('detail')===0) b.textContent='Hide details'; }
+  try{ card.scrollIntoView({behavior:'smooth',block:'start'}); }catch(e){}
+  card.classList.add('hl-flash'); setTimeout(function(){ card.classList.remove('hl-flash'); }, 2400);
+}
 var TODAY=(function(){var n=new Date();return new Date(n.getFullYear(),n.getMonth(),n.getDate());})();
 function daysUntil(d){ if(!d) return null; return Math.round((new Date(d+'T00:00:00')-TODAY)/86400000); }
 function typeOf(it){ var c=(it.cat||it.type||'');
@@ -671,7 +696,9 @@ function init(){
   var s=document.getElementById('bs'); if(s) s.addEventListener('input',renderBrowseX);
   renderBrowseX();
   if(window.ML&&ML.update) ML.update();
+  _focusBrowseFromHash();
 }
+window.addEventListener('hashchange', _focusBrowseFromHash);
 if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',init);
 else init();
 })();

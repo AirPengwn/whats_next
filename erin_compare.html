@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
-<link rel="stylesheet" href="styles.css?v=20260616-128-7122d372">
+<link rel="stylesheet" href="styles.css?v=20260616-128-18935f83">
 <title>Compare Opportunities — What's Next for Erin</title>
 <style>
 body{padding:0 0 3rem}
@@ -101,7 +101,7 @@ body{padding:0 0 3rem}
 })();
 </script>
 <script src="icons.js?v=20260602"></script>
-<script src="site.js?v=20260616-128-7122d372"></script>
+<script src="site.js?v=20260616-128-18935f83"></script>
 </head>
 <body>
 
@@ -438,9 +438,10 @@ function renderComparison(){
   // Row: Links
   addRow('Links', items.map(function(it){
     var d=document.createElement('div');
+    if(it.id){ var vc=document.createElement('a'); vc.href='erin_mylist.html#card-'+it.id; vc.style.cssText='font-size:12.5px;color:var(--blue);display:block;margin-bottom:3px;font-weight:600'; vc.textContent='View full card →'; d.appendChild(vc); }
     if(it.url){ var a=document.createElement('a'); a.href=it.url; a.target='_blank'; a.style.cssText='font-size:12.5px;color:var(--teal-t);display:block;margin-bottom:3px'; a.textContent=(it.url_label||'Apply / view posting')+' ↗'; d.appendChild(a); }
     if(it.url2){ var a2=document.createElement('a'); a2.href=it.url2; a2.target='_blank'; a2.style.cssText='font-size:12.5px;color:var(--t3);display:block'; a2.textContent=(it.url2_label||'More info')+' ↗'; d.appendChild(a2); }
-    if(!it.url&&!it.url2){ d.className='empty'; d.textContent='—'; }
+    if(!d.childNodes.length){ d.className='empty'; d.textContent='—'; }
     return d;
   }));
 

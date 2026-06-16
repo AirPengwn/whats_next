@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
-<link rel="stylesheet" href="styles.css?v=20260616-128-7122d372">
+<link rel="stylesheet" href="styles.css?v=20260616-128-18935f83">
 <title>Search — What's Next for Erin</title>
 <style>
 body{padding:0 0 3rem}
@@ -42,8 +42,8 @@ body{padding:0 0 3rem}
 })();
 </script>
 <script src="icons.js?v=20260602"></script>
-<script src="site.js?v=20260616-128-7122d372"></script>
-<script src="opportunities.js?v=20260616-128-7122d372"></script>
+<script src="site.js?v=20260616-128-18935f83"></script>
+<script src="opportunities.js?v=20260616-128-18935f83"></script>
 </head>
 <body>
 
@@ -118,9 +118,9 @@ body{padding:0 0 3rem}
   /* Group definitions. Generic deep-text match so unknown shapes still work. */
   var GROUPS=[
     {id:'opp',  label:'🌐 Opportunities', get:function(){ return (typeof ALL!=='undefined'&&Array.isArray(ALL))?ALL:[]; },
-       title:['title'], sub:['org','cat','deadline'], link:function(r){ return r.src||r.url||'erin_mylist.html'; }},
+       title:['title'], sub:['org','cat','deadline'], link:function(r){ var base=r.src||'erin_mylist.html'; return base+(r.id&&/\.html$/i.test(base)?'#card-'+r.id:''); }},
     {id:'list', label:'★ My List', get:function(){ return asList(lj('erin_mylist_v1','{}')); },
-       title:['title'], sub:['org','deadline','_note'], link:function(){ return 'erin_mylist.html'; }},
+       title:['title'], sub:['org','deadline','_note'], link:function(r){ return 'erin_mylist.html'+(r&&r.id?'#card-'+r.id:''); }},
     {id:'apps', label:'📄 Applications', get:function(){ return lj('erin_applications_v1','[]'); },
        title:['programTitle','title'], sub:['org','status','deadline','notes'], link:function(r){ return 'erin_applications.html'+(r.id?'#acard-'+r.id:''); }},
     {id:'prof', label:'👤 Professors', get:function(){ return lj('erin_prof_contacts','[]'); },

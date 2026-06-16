@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
-<link rel="stylesheet" href="styles.css?v=20260616-128-7122d372">
+<link rel="stylesheet" href="styles.css?v=20260616-128-18935f83">
 <title>Erin Lamberton &#8212; Deadline Timeline</title>
 <style>
 
@@ -106,7 +106,7 @@ html.dark .s-updated{background:#2d2563;color:#b5abfa}
 .empty-body{font-size:13px;color:var(--t3);line-height:1.6}
 </style>
 <script src="icons.js?v=20260602"></script>
-<script src="site.js?v=20260616-128-7122d372"></script>
+<script src="site.js?v=20260616-128-18935f83"></script>
 <script>
 (function(){
   var saved=localStorage.getItem('erin_theme');
@@ -373,7 +373,7 @@ function render(){
         var dot=document.createElement('div'); dot.className='rc-dot'; card.appendChild(dot);
         var main=document.createElement('div'); main.className='rc-main';
         var tEl=document.createElement('div'); tEl.className='rc-title';
-        var lnk=document.createElement('a'); lnk.href=it.src||'erin_mylist.html'; lnk.target='_blank'; lnk.textContent=it.title; tEl.appendChild(lnk); main.appendChild(tEl);
+        var lnk=document.createElement('a'); lnk.href='erin_mylist.html#card-'+(it.id||''); lnk.textContent=it.title; tEl.appendChild(lnk); main.appendChild(tEl);
         var org=document.createElement('div'); org.className='rc-org'; org.textContent=it.org; main.appendChild(org);
         if(it.deadline){ var dl=document.createElement('div'); dl.className='rc-dl'; dl.textContent=it.deadline; main.appendChild(dl); }
         card.appendChild(main);
@@ -473,7 +473,7 @@ function showDetail(panel,key,year,month,day,items,clickedCell){
     var bar=document.createElement('div'); bar.className='detail-urgency-bar bar-'+u; row.appendChild(bar);
     var main=document.createElement('div'); main.className='detail-main';
     var title=document.createElement('div'); title.className='detail-title';
-    var lnk=document.createElement('a'); lnk.href=it.src||'erin_mylist.html'; lnk.target='_blank'; lnk.textContent=it.title; title.appendChild(lnk); main.appendChild(title);
+    var lnk=document.createElement('a'); lnk.href='erin_mylist.html#card-'+(it.id||''); lnk.textContent=it.title; title.appendChild(lnk); main.appendChild(title);
     var org=document.createElement('div'); org.className='detail-org'; org.textContent=it.org; main.appendChild(org);
     var dl=document.createElement('div'); dl.className='detail-deadline'; dl.textContent='Deadline: '+it.deadline; main.appendChild(dl);
     var pills=document.createElement('div'); pills.className='detail-pills';
@@ -500,7 +500,7 @@ function makeNdCard(it){
   var card=document.createElement('div'); card.className='nd-card';
   var left=document.createElement('div');
   var t=document.createElement('div'); t.className='nd-title';
-  var lnk=document.createElement('a'); lnk.href=it.src||'erin_mylist.html'; lnk.target='_blank'; lnk.textContent=it.title; t.appendChild(lnk); left.appendChild(t);
+  var lnk=document.createElement('a'); lnk.href='erin_mylist.html#card-'+(it.id||''); lnk.textContent=it.title; t.appendChild(lnk); left.appendChild(t);
   var o=document.createElement('div'); o.className='nd-org'; o.textContent=it.org; left.appendChild(o);
   card.appendChild(left);
   var tp=document.createElement('div'); tp.className='nd-type dp '+typeCls(it.type); tp.textContent=it.type; card.appendChild(tp);

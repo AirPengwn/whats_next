@@ -52,12 +52,37 @@ function has(id){ return !!(window.ML&&ML.isSaved(id)); }
 function addItem(it){ if(window.ML) ML.save(payload(it)); }
 function delItem(id){ if(window.ML) ML.remove(id); }
 function renderBrowse(){ renderBrowseX(); }
+/* v2.45: deep-link focus — open a specific opportunity's detail from #card-<id> or #bcx-<id>.
+   Reveals the card if a filter is hiding it (clears filters + shows passed/hidden), then
+   opens its detail panel, scrolls to it, and pulses a highlight. */
+function _focusBrowseFromHash(){
+  var h=(location.hash||'').replace(/^#/,'');
+  var id = h.indexOf('card-')===0 ? h.slice(5) : (h.indexOf('bcx-')===0 ? h.slice(4) : '');
+  if(!id) return;
+  var card=document.getElementById('bcx-'+id);
+  if(!card){
+    try{ if(typeof BX==='object'){ BX.status.length=0; BX.cycle.length=0; BX.region.length=0; BX.fit.length=0; BX.fresh.length=0; } }catch(e){}
+    try{ viewScope='all'; }catch(e){}
+    try{ showPassed=true; showNI=true; }catch(e){}
+    var bs=document.getElementById('bs'); if(bs) bs.value='';
+    renderBrowseX();
+    card=document.getElementById('bcx-'+id);
+  }
+  if(!card) return;
+  var bd=card.querySelector('.item-detail');
+  if(bd && !bd.classList.contains('open')){ bd.classList.add('open');
+    var b=card.querySelector('.act-btn'); if(b && (b.textContent||'').toLowerCase().indexOf('detail')===0) b.textContent='Hide details'; }
+  try{ card.scrollIntoView({behavior:'smooth',block:'start'}); }catch(e){}
+  card.classList.add('hl-flash'); setTimeout(function(){ card.classList.remove('hl-flash'); }, 2400);
+}
 ${body.trim()}
 function init(){
   var s=document.getElementById('bs'); if(s) s.addEventListener('input',renderBrowseX);
   renderBrowseX();
   if(window.ML&&ML.update) ML.update();
+  _focusBrowseFromHash();
 }
+window.addEventListener('hashchange', _focusBrowseFromHash);
 if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',init);
 else init();
 })();
@@ -103,6 +128,8 @@ html.dark .bx-new{background:#ff5a3c;color:#1a1a1a}
 .u2{background:var(--teal-bg);color:var(--teal-t)}.u3{background:var(--blue-bg);color:var(--blue)}
 .u4{background:var(--bg2);color:var(--t3)}.u5{background:var(--bg2);color:var(--t3)}
 .bx-fwrap{display:flex;flex-direction:column;gap:2px;width:100%}
+.hl-flash{animation:hlf 2.4s ease-out}
+@keyframes hlf{0%{box-shadow:0 0 0 3px var(--teal)}55%{box-shadow:0 0 0 3px var(--teal)}100%{box-shadow:0 0 0 0 rgba(0,0,0,0)}}
 </style>
 ${THEME}
 <script src="site.js?v=20260518e"></script>
