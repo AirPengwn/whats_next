@@ -1064,7 +1064,8 @@
     "region": "Southeast & Appalachia",
     "location": "Raleigh, North Carolina (NC State University)",
     "stipend": "Graduate assistantship (RA/TA) — thesis-track funding via faculty/dept",
-    "benefits": "Tuition support typical of NC State assistantships (confirm with program)"
+    "benefits": "Tuition support typical of NC State assistantships (confirm with program)",
+    "pay": "Graduate assistantship stipend (RA/TA; amount set by lab/department funding — confirm with program)"
   },
   {
     "title": "Purdue University — Dept. of Forestry & Natural Resources",
@@ -1289,7 +1290,8 @@
     "region": "Mountain West",
     "location": "Missoula, Montana (University of Montana)",
     "stipend": "Admission requires confirmed RA/TA funding; TA packages include a tuition waiver",
-    "benefits": "Full tuition waiver (per TA/RA package); WICHE discount may apply for some states"
+    "benefits": "Full tuition waiver (per TA/RA package); WICHE discount may apply for some states",
+    "pay": "RA/TA assistantship stipend (admission requires confirmed funding; amount varies by package)"
   },
   {
     "title": "Mississippi State University — Wildlife, Fisheries & Aquaculture",
@@ -1449,7 +1451,8 @@
     "region": "Mountain West",
     "location": "Fort Collins, Colorado (Colorado State University)",
     "stipend": "Funded via one of 40–50 active graduate assistantships across Ecosystem Science/Ecology each semester",
-    "benefits": "Tuition support typical of CSU assistantships (confirm with department)"
+    "benefits": "Tuition support typical of CSU assistantships (confirm with department)",
+    "pay": "Graduate assistantship stipend (one of 40–50 active assistantships per semester; amount varies by appointment)"
   },
   {
     "title": "University of Minnesota — Water Resources Science Program",
@@ -2329,7 +2332,10 @@
     "cycle": "next",
     "deadline_kind": "rolling",
     "region": "Southeast & Appalachia",
-    "location": "Southeast US — Raleigh & Asheville NC, Charleston SC, Atlanta GA (offices vary by firm)"
+    "location": "Southeast US — Raleigh & Asheville NC, Charleston SC, Atlanta GA (offices vary by firm)",
+    "pay": "Entry-level salaried consulting role; pay varies by firm and office and is not published in these postings (confirm per posting).",
+    "stipend": "Salaried position (not stipend-based)",
+    "benefits": "Standard private-sector benefits vary by firm (health, retirement/401k, PTO)"
   },
   {
     "title": "Georgia Southern University — MROC2S Postbac Research Fellowship",
@@ -2819,7 +2825,10 @@
     "cycle": "current",
     "deadline_kind": "rolling",
     "region": "National / Remote / Multiple",
-    "location": "North Carolina (statewide; NCWRC)"
+    "location": "North Carolina (statewide; NCWRC)",
+    "pay": "Wildlife Technician roles are typically hourly/seasonal; Wildlife Biologist I is a permanent State of NC position. Comparable NCWRC professional-biologist pay grades run roughly $50k+ (e.g., Conservation Biologist I band $50,633–$88,607, eff. Jan 2025) — confirm the exact grade on each posting.",
+    "stipend": "Salaried state position (not stipend-based)",
+    "benefits": "State of North Carolina employee benefits (health, retirement, leave) for permanent roles"
   },
   {
     "title": "Environmental Compliance Technician",
@@ -5800,5 +5809,89 @@
       "label": "✨ New — June 16, 2026"
     },
     "id": "item-132"
+  },
+  {
+    "title": "Grand Valley State University — Funded MS, Annis Water Resources Institute (Aquatic Ecology & Wetlands)",
+    "org": "Muskegon, MI · Grand Valley State University — Robert B. Annis Water Resources Institute (AWRI)",
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "deadline": "Rolling — contact faculty / apply through AWRI; assistantships filled as funded projects open",
+    "start": "Typically Fall (next cohort)",
+    "body": "Funded MS (Biology, aquatic-sciences emphasis) based at the Annis Water Resources Institute on Muskegon Lake. Graduate research assistantships span aquatic ecology, freshwater biology, stream ecology, wetlands, fish biology, and fisheries management, with state-of-the-art analytical and GIS laboratories, two research vessels, and a mesocosm facility. Assistantships carry a 12-month stipend eligible for annual renewal; funding sources include NOAA, NSF, USDA, and NASA.",
+    "desc": "A strong fit for Erin: AWRI pairs freshwater/wetland and water-quality research with in-house GIS and analytical labs — a direct line from her Pigeon River trace-metal/sediment capstone and multi-criteria GIS work into Great Lakes coastal-wetland and watershed science. Great Lakes estuarine/coastal-wetland systems would broaden a resume currently weighted toward Appalachian streams. Best approached by identifying an AWRI faculty member whose project matches and emailing about assistantship availability before formally applying.",
+    "badge": "Strong fit",
+    "pills": [
+      "Aquatic ecology",
+      "Freshwater wetlands",
+      "Water quality",
+      "GIS labs",
+      "Midwest"
+    ],
+    "metaLine": "Funded MS · aquatic/wetland + GIS · 12-mo renewable stipend · contact AWRI faculty",
+    "cycle": "current",
+    "deadline_kind": "contact-first",
+    "deadline_date": null,
+    "region": "Midwest & Great Plains",
+    "location": "Muskegon, Michigan (Annis Water Resources Institute, on Muskegon Lake; ~30 mi from GVSU main campus in Allendale)",
+    "pay": "12-month graduate assistantship stipend, eligible for annual renewal (dollar amount not published; confirm with AWRI)",
+    "stipend": "12-month renewable assistantship stipend",
+    "benefits": "Tuition support typical of GVSU assistantships; access to GIS/analytical labs, two research vessels, and a mesocosm facility (confirm package with AWRI)",
+    "links": [
+      {
+        "href": "https://www.gvsu.edu/wri/",
+        "label": "🔗 GVSU Annis Water Resources Institute"
+      }
+    ],
+    "url": "https://www.gvsu.edu/wri/",
+    "url_label": "View AWRI",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — June 16, 2026"
+    },
+    "id": "item-133"
+  },
+  {
+    "title": "Northern Michigan University — Funded MS, Freshwater Ecology (Tumolo Lab)",
+    "org": "Marquette, MI · Northern Michigan University — Dept. of Biology (Tumolo Lab)",
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "deadline": "Fall 2026 start; priority-consideration deadline was Dec 16, 2025 (passed) — email Dr. Tumolo about remaining availability / the next cohort",
+    "start": "Fall 2026 (or next cohort)",
+    "body": "Funded MS assistantship in Dr. Ben Tumolo’s lab (Biology Dept.) studying freshwater ecology — linkages between macroinvertebrates and aquatic ecosystem functions, aquatic-insect community responses to environmental change, and species interactions in ecosystem functioning. Based in Marquette on Lake Superior. Two-year support package: stipend, tuition and fee waivers, plus conference-travel funds. BS in Biology, Environmental Science, or related; 3.0+ GPA; research experience preferred.",
+    "desc": "A good fit for Erin’s water-quality and aquatic background: macroinvertebrate community work is the backbone of stream bioassessment and connects naturally to her Pigeon River sediment/trace-metal capstone and field-monitoring skills. The priority deadline (Dec 16, 2025) has passed, so this is a contact-first lead — email Dr. Tumolo (btumolo@nmu.edu, subject “GA Position (last name)”) to ask whether the Fall 2026 seat is still open or about the next cohort. Lake Superior / Upper Peninsula adds northern-temperate freshwater breadth.",
+    "badge": "Good fit",
+    "pills": [
+      "Freshwater ecology",
+      "Macroinvertebrates",
+      "Funded MS",
+      "Water quality",
+      "Midwest"
+    ],
+    "metaLine": "Funded MS · freshwater/aquatic insects · 2-yr support · contact-first (priority date passed)",
+    "cycle": "next",
+    "deadline_kind": "contact-first",
+    "deadline_date": null,
+    "region": "Midwest & Great Plains",
+    "location": "Marquette, Michigan (Upper Peninsula; Lake Superior), Northern Michigan University",
+    "pay": "Two-year support package (stipend; amount not published — confirm with lab)",
+    "stipend": "Stipend included in a two-year support package",
+    "benefits": "Tuition and fee waivers plus conference-travel funds (per the two-year support package)",
+    "links": [
+      {
+        "href": "https://ecophys-jobs.org/grad.html",
+        "label": "🔗 Listing (ecophys-jobs.org grad board)"
+      }
+    ],
+    "url": "mailto:btumolo@nmu.edu",
+    "url_label": "Email Dr. Tumolo",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — June 16, 2026"
+    },
+    "id": "item-134"
   }
 ]
