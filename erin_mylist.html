@@ -1390,8 +1390,7 @@ html.dark .bx-new{background:#ff5a3c;color:#1a1a1a}
 .bx-ni-btn.on{background:var(--red);color:#fff}
 .browse-card.is-ni{opacity:.7}
 .browse-card.is-ni:hover{opacity:1}
-.browse-card.is-reviewed{opacity:.6}
-.browse-card.is-reviewed:hover{opacity:1}
+.browse-card.is-reviewed{opacity:.55}
 /* v2.16: broken-link flag — red left rule + warning badge */
 .browse-card.is-bl{border-left:3px solid var(--red)}
 .bx-bl-badge{font-size:12.5px;font-weight:600;padding:2px 8px;border-radius:999px;background:var(--red-bg);color:var(--red-t);border:.5px solid var(--red);white-space:nowrap}
@@ -1456,6 +1455,7 @@ var onlyBroken=false; /* v2.19: restrict view to only items flagged as broken-li
 var viewScope='all'; /* v2.36 scope view: 'all' | 'priority' | 'expired' | 'removed' — absolute when not 'all' */
 var reviewedFilter='all'; /* 'all' | 'unrev' | 'rev' — Reviewed filter; never hides on its own, just narrows */
 var _openCards={}; /* remember which detail cards are expanded so a re-render (priority/reviewed toggle) keeps them open */
+var _stickyShow={}, _keepSticky=false; /* a just-marked "Not interested" card stays visible+open for this render; cleared on the next filter/scope/reload render so it then hides */
 function niHas(id){ return !!(window.NI && NI.has && NI.has(id)); }
 function prHas(id){ return !!(window.PR && PR.has && PR.has(id)); }
 function rvHas(id){ return !!(window.RV && RV.has && RV.has(id)); }
@@ -1658,6 +1658,10 @@ function buildBrowseDetailX(it){
 }
 
 function renderBrowseX(){
+  /* clear the "keep just-marked NI card visible" exemption unless THIS render was
+     triggered by the NI button itself (which sets _keepSticky just beforehand) */
+  if(!_keepSticky) _stickyShow={};
+  _keepSticky=false;
   buildBrowseFiltersX();
   var q=((document.getElementById('bs')||{}).value||'').toLowerCase();
   var RM = viewScope==='removed' ? removedSet() : null;
@@ -1675,7 +1679,7 @@ function renderBrowseX(){
     if(BX.status.length && !has1(BX.status,bucketOf(it))) return false;
     if(viewScope==='all'){
       if((bucketOf(it)===5 || it.expired===true) && !showPassed && !(BX.status.length && has1(BX.status,5))) return false;
-      if(niHas(it.id) && !showNI) return false;
+      if(niHas(it.id) && !showNI && !_stickyShow[it.id]) return false;
     }
     if(onlyBroken && !(window.BL && BL.has(it.id))) return false;  /* v2.19 */
     if(BX.fit.length    && !has1(BX.fit,fitLabel(it))) return false;
@@ -1759,7 +1763,7 @@ function renderBrowseX(){
     var rightGrp=el('div','bx-act-right');
     rightGrp.style.cssText='display:flex;gap:.5rem;align-items:center;flex-wrap:wrap';
     var nibtn=el('button','bx-ni-btn'+(ni?' on':''), ni?'↩ Show again':'✗ Not interested');
-    nibtn.onclick=function(){ if(window.NI&&NI.toggle){ NI.toggle(it.id); renderBrowse(); } };
+    nibtn.onclick=function(ev){ if(ev)ev.stopPropagation(); if(window.NI&&NI.toggle){ NI.toggle(it.id); _stickyShow[it.id]=true; _keepSticky=true; renderBrowse(); } };
     rightGrp.appendChild(nibtn);
     /* v2.36 Priority marker — turning ON also saves the item; OFF leaves it saved. */
     var pbtn=el('button','bx-prio-btn'+(prio?' on':''), prio?'⭐ Priority':'☆ Priority');
