@@ -5366,5 +5366,153 @@
       "label": "✨ New — June 15, 2026"
     },
     "id": "item-123"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — June 16, 2026"
+    },
+    "title": "USFWS Inventory & Monitoring Conservation Planning Fellow — Southeast Region",
+    "org": "American Conservation Experience (ACE) EPIC / AmeriCorps · USFWS Southeast Region (remote, SE preference)",
+    "deadline": "Rolling — verify current Southeast posting on the ACE EPIC board",
+    "start": "~52-week term (≈2,080 hrs)",
+    "body": "AmeriCorps individual placement with USFWS Inventory & Monitoring: GIS/ArcGIS Pro data management, maps, and reports supporting refuge and ecological-services work across the Southeast Region. ~$700/week living allowance; gear reimbursement; confers federal hiring authority after 640 hours.",
+    "desc": "Strong fit and a direct USFWS on-ramp — ArcGIS-based monitoring in Erin's home region (NC/SC/GA/FL/AL/TN/KY/AR/LA/MS) with federal hiring authority that advances her USFWS goal. ⚠ Verify a current SE-region posting: ACE EPIC rotates these on a rolling basis, so the durable entry point is the ACE EPIC job map (saved search recommended).",
+    "badge": "Strong fit",
+    "pills": [
+      "GIS / remote sensing",
+      "Monitoring",
+      "USFWS",
+      "AmeriCorps",
+      "Southeast"
+    ],
+    "metaLine": "ACE EPIC · ~$700/wk · federal hiring authority · rolling",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://usaconservation.applicantpool.com/",
+        "label": "🔗 ACE EPIC job board"
+      }
+    ],
+    "sourceFindUrl": "https://usaconservation.applicantpool.com/",
+    "id": "item-124"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — June 16, 2026"
+    },
+    "title": "River Corps Member — watershed restoration & water-quality monitoring",
+    "org": "River Science (RiverCorps) / AmeriCorps · Statewide Colorado host sites",
+    "deadline": "Rolling — verify next intake (2026 cohort underway)",
+    "start": "~7-month terms (e.g., Feb–Sep); ask about 2027",
+    "body": "AmeriCorps program placing members at Colorado watershed organizations and agencies for low-tech process-based restoration, hydrology and water-quality monitoring, and GIS. Living allowance ~$17,500 plus Segal Education Award; state-accredited hydrology & water-quality monitoring certifications.",
+    "desc": "Good-to-strong fit: restoration + water-quality sampling + GIS mirrors Erin's Pigeon River trace-metal/sediment work, with field certifications that build her résumé. ⚠ The 2026 cohort already started — confirm mid-cycle or 2027 openings via the member interest form.",
+    "badge": "Good fit",
+    "pills": [
+      "Water quality",
+      "Restoration",
+      "GIS / remote sensing",
+      "AmeriCorps",
+      "Mountain West"
+    ],
+    "metaLine": "AmeriCorps · ~$17.5k + ed award · CO · rolling",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Mountain West",
+    "links": [
+      {
+        "href": "https://www.river.science/rivercorps",
+        "label": "🔗 RiverCorps member interest"
+      }
+    ],
+    "sourceFindUrl": "https://www.river.science/rivercorps",
+    "id": "item-125"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — June 16, 2026"
+    },
+    "title": "Appalachian Conservation Corps — Individual Placement (Natural Resource Management)",
+    "org": "Appalachian Conservation Corps (Conservation Legacy) / AmeriCorps · VA / WV / Mid-Atlantic host sites",
+    "deadline": "Rolling — postings appear on the open-positions board",
+    "start": "20–52 week terms depending on role",
+    "body": "AmeriCorps individual placements with agencies and nonprofits across the central Appalachians: natural-resource management, restoration, monitoring, and (for some roles) GIS. Living allowance plus Segal Education Award; many placements confer Public Lands Corps federal hiring authority.",
+    "desc": "Good fit close to Erin's WCU/Pigeon River base, in Appalachian ecosystems she already knows. The Public Lands Corps hiring authority is a real federal-track lever. Submit a résumé to the recruiter to be matched to rotating placements.",
+    "badge": "Good fit",
+    "pills": [
+      "Restoration",
+      "Monitoring",
+      "AmeriCorps",
+      "Federal hiring authority",
+      "Appalachia"
+    ],
+    "metaLine": "Conservation Legacy · Segal award · PLC authority · rolling",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://appalachiancc.org/open-positions",
+        "label": "🔗 ACC open positions"
+      }
+    ],
+    "sourceFindUrl": "https://appalachiancc.org/open-positions",
+    "id": "item-126"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — June 16, 2026"
+    },
+    "title": "Big Sky Watershed Corps Member — hydrology, GIS & watershed coordination",
+    "org": "Montana Conservation Corps + MT watershed partners / AmeriCorps · Statewide Montana host sites",
+    "deadline": "2026 cohort closed — recruitment for the next term opens ~August 2026",
+    "start": "~Apr–Nov term (flexible starts)",
+    "body": "AmeriCorps program placing members with Montana conservation districts, tribes, agencies, and watershed nonprofits for hydrologic field techniques, GIS, and watershed coordination. ~$1,200 biweekly, Segal Education Award, free health insurance. Bachelor's in natural resources preferred.",
+    "desc": "Strong fit and an ideal grad-school/agency springboard combining hydrology fieldwork + GIS + watershed coordination — Erin clears the bachelor's-preferred profile cleanly. Timing: this cycle is closed, so set an August 2026 reminder to apply for the next term.",
+    "badge": "Strong fit",
+    "pills": [
+      "Water quality",
+      "GIS / remote sensing",
+      "Hydrology",
+      "AmeriCorps",
+      "Mountain West"
+    ],
+    "metaLine": "AmeriCorps · ~$1,200/biwk + ed award · next cycle opens Aug 2026",
+    "cycle": "next",
+    "deadline_kind": "unknown",
+    "deadline_date": "",
+    "region": "Mountain West",
+    "links": [
+      {
+        "href": "https://www.mtcorps.org/joinmcc/individual-placement-programs/big-sky-watershed-corps.html",
+        "label": "🔗 Big Sky Watershed Corps"
+      }
+    ],
+    "sourceFindUrl": "https://www.mtcorps.org/joinmcc/individual-placement-programs/big-sky-watershed-corps.html",
+    "id": "item-127"
   }
 ]

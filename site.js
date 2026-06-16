@@ -5,8 +5,8 @@
    ═══════════════════════════════════════════════════════════ */
 
 /* build-stamped version + build (build.js patches these lines each release) */
-var WN_VERSION = '2.38';
-var WN_BUILD   = '20260616-124-dc421408';
+var WN_VERSION = '2.39';
+var WN_BUILD   = '20260616-128-7ed18429';
 
 /* ── 1. Sync hook ──────────────────────────────────────────
    Patches window.fetch to timestamp every successful JSONbin
@@ -69,6 +69,7 @@ document.addEventListener('DOMContentLoaded', function(){
       'erin_mylist.html':        { group:'track', sub:'My List',     icon:'star',     href:'erin_mylist.html' },
       'erin_compare.html':       { group:'track', sub:'Compare',     icon:'compare',  href:'erin_compare.html' },
       'erin_punchlist.html':     { group:'track', sub:'Punch List',  icon:'check',    href:'erin_punchlist.html' },
+      'erin_finds.html':         { group:'track', sub:'Finds',       icon:'bolt',     href:'erin_finds.html' },
       'erin_pipeline.html':      { group:'track', sub:'Pipeline',    icon:'kanban',   href:'erin_pipeline.html' },
       'erin_timeline.html':      { group:'track', sub:'Timeline',    icon:'calendar', href:'erin_timeline.html' },
       'erin_applications.html':  { group:'track', sub:'Apps',        icon:'file',     href:'erin_applications.html' },

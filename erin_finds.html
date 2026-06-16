@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
+<link rel="stylesheet" href="styles.css?v=20260616-128-7ed18429">
+<title>Finds &mdash; What&rsquo;s Next for Erin</title>
+<style>
+body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem}
+.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.25rem}
+.page-header-eyebrow{font-size:12.5px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-t);margin-bottom:.25rem}
+.page-header-title{font-size:24px;font-weight:700;color:var(--t1);line-height:1.2;letter-spacing:-.02em;margin-bottom:.2rem}
+.page-header-sub{font-size:13px;color:var(--t2);line-height:1.5}
+a{color:var(--blue);text-decoration:none}
+a:hover{text-decoration:underline}
+.tip{border-left:3px solid var(--teal);background:var(--bg2);padding:.75rem 1rem;margin-bottom:1.1rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
+
+/* Add-a-find form */
+.add-box{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1rem 1.25rem;margin-bottom:1.5rem}
+.add-row{display:flex;flex-direction:column;gap:3px;margin-bottom:.7rem}
+.add-lbl{font-size:12.5px;font-weight:600;color:var(--t3);text-transform:uppercase;letter-spacing:.06em}
+.add-input{font-size:13px;padding:8px 11px;border-radius:var(--r1);border:1px solid var(--bds);background:var(--bg2);color:var(--t1);width:100%;font-family:var(--fn)}
+.add-input:focus{outline:none;border-color:var(--teal)}
+.add-sel{font-size:13px;padding:8px 11px;border-radius:var(--r1);border:1px solid var(--bds);background:var(--bg2);color:var(--t1);font-family:var(--fn);cursor:pointer}
+.add-foot{display:flex;align-items:center;gap:.75rem;flex-wrap:wrap}
+.add-btn{display:inline-flex;align-items:center;gap:.5rem;font-size:13px;font-weight:600;padding:8px 18px;border-radius:999px;border:none;background:var(--teal);color:#fff;cursor:pointer;font-family:var(--fn)}
+.add-btn:hover{opacity:.9}
+.add-flash{font-size:12.5px;color:var(--teal-t);font-weight:500;display:none}
+
+.finds-count{font-size:12.5px;color:var(--t3);margin-bottom:.8rem;font-family:var(--mono);letter-spacing:.02em}
+
+/* Find card */
+.find-card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:.85rem 1.1rem;margin-bottom:.7rem;border-left:3px solid var(--bds)}
+.find-card.is-promoted{border-left-color:var(--teal)}
+.find-card.is-search{border-left-color:#534ab7}
+.find-top{display:flex;align-items:flex-start;justify-content:space-between;gap:.75rem;flex-wrap:wrap}
+.find-title{font-size:14px;font-weight:600;color:var(--t1);line-height:1.35;word-break:break-word}
+.find-badge{font-size:12.5px;font-weight:600;padding:2px 9px;border-radius:999px;white-space:nowrap;flex-shrink:0}
+.fb-stub{background:var(--amber-bg);color:var(--amber-t)}
+.fb-promoted{background:var(--teal-bg);color:var(--teal-t)}
+.fb-search{background:var(--purple-bg);color:var(--purple-t)}
+.find-url{font-size:12.5px;color:var(--blue);word-break:break-all;display:inline-block;margin:.3rem 0}
+.find-note{font-size:12.5px;color:var(--t2);margin:.25rem 0;font-style:italic}
+.find-meta{font-size:12px;color:var(--t3);margin-top:.35rem;font-family:var(--mono)}
+.find-actions{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin-top:.55rem;padding-top:.5rem;border-top:.5px solid var(--bd)}
+.find-open{font-size:12.5px;font-weight:500;padding:4px 12px;border-radius:999px;border:.5px solid var(--bds);background:transparent;color:var(--t2);text-decoration:none}
+.find-open:hover{background:var(--bg2);text-decoration:none}
+.find-open.primary{border-color:var(--teal);background:var(--teal-bg);color:var(--teal-t)}
+.find-del{font-size:12.5px;color:var(--t3);background:none;border:none;cursor:pointer;padding:0;font-family:var(--fn);margin-left:auto}
+.find-del:hover{color:#c0392b}
+
+.empty{background:var(--bg);border:.5px dashed var(--bds);border-radius:var(--r2);padding:2.25rem 1.5rem;text-align:center}
+.empty-icon{font-size:30px;margin-bottom:.55rem;opacity:.7}
+.empty-title{font-size:15px;font-weight:500;margin-bottom:.35rem}
+.empty-body{font-size:13px;color:var(--t2);line-height:1.6}
+.footer{font-size:12.5px;color:var(--t3);text-align:center;margin-top:1.75rem;padding-bottom:1.5rem}
+</style>
+<script src="icons.js?v=20260602"></script>
+<script src="site.js?v=20260616-128-7ed18429"></script>
+<script src="opportunities.js?v=20260616-128-7ed18429"></script>
+<script>
+(function(){
+  var saved=localStorage.getItem('erin_theme');
+  var prefersDark=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches;
+  if(saved==='dark'||(!saved&&prefersDark)) document.documentElement.classList.add('dark');
+  function upBtn(){var b=document.getElementById('theme-toggle');if(b)b.innerHTML=document.documentElement.classList.contains('dark')?'&#9728;':'&#127769;';}
+  document.addEventListener('DOMContentLoaded',upBtn);
+  window.__toggleTheme=function(){var d=document.documentElement.classList.toggle('dark');localStorage.setItem('erin_theme',d?'dark':'light');upBtn();};
+})();
+</script>
+</head>
+<body>
+
+<!-- GLOBAL NAV (rebuilt by site.js) -->
+<nav class="global-nav">
+  <div class="gnav-wrap"><div class="gnav-inner"></div></div>
+</nav>
+
+<div class="page cab-page">
+
+  <div class="page-header">
+    <div class="page-header-eyebrow">Track</div>
+    <div class="page-header-title">Finds</div>
+    <div class="page-header-sub">Paste a link to a posting (or a page of search results) and it&rsquo;s saved here as a card. Ask Claude to &ldquo;process my finds&rdquo; and each one becomes a full, rated opportunity in Browse &mdash; marked as a new find.</div>
+  </div>
+
+  <div class="tip"><span class="tip-icon" data-i="bolt"></span> <strong>How it works:</strong> drop in a URL below &mdash; it&rsquo;s kept here instantly as a stub. When Claude processes your finds, single postings become one card and a search-results page is expanded into several, all added to Browse and flagged &ldquo;new.&rdquo; Your finds sync from Erin&rsquo;s primary device, just like the rest of your data.</div>
+
+  <div class="add-box">
+    <div class="add-row">
+      <label class="add-lbl" for="f-url">Position or search-results URL</label>
+      <input class="add-input" id="f-url" type="text" placeholder="https://&hellip; (paste a job/program posting or a search page)">
+    </div>
+    <div class="add-row">
+      <label class="add-lbl" for="f-note">Quick note (optional)</label>
+      <input class="add-input" id="f-note" type="text" placeholder="e.g. 'AmeriCorps wetland GIS role a friend mentioned'">
+    </div>
+    <div class="add-foot">
+      <select class="add-sel" id="f-kind" title="What kind of link is this?">
+        <option value="auto">Auto-detect type</option>
+        <option value="posting">Single posting</option>
+        <option value="search">Search-results page</option>
+      </select>
+      <button class="add-btn" type="button" onclick="addFind()"><span style="font-size:16px">+</span> Add find</button>
+      <span class="add-flash" id="add-flash">Saved &#10003;</span>
+    </div>
+  </div>
+
+  <div class="finds-count" id="finds-count"></div>
+  <div id="finds-body"></div>
+
+  <p class="footer">Finds are saved to Erin&rsquo;s cloud data (primary device) and included in backups. Promoted finds appear in <a href="erin_mylist.html">My List / Browse</a> with a &#10024; New badge.<br><br><a href="index.html">&#8592; Home</a></p>
+</div>
+
+<script>
+(function(){
+  var BIN='6a039aa4250b1311c33f2bac', KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
+  var FSTORE='erin_finds_v1';
+  function isPrimary(){ return localStorage.getItem('erin_primary_device')==='1'||localStorage.getItem('erin_primary_device_bak')==='1'; }
+  function loadFinds(){ try{ return JSON.parse(localStorage.getItem(FSTORE)||'[]'); }catch(e){ return []; } }
+  function saveFinds(a){ localStorage.setItem(FSTORE,JSON.stringify(a)); }
+  function pushFinds(a){
+    if(!isPrimary()) return;                 /* only Erin's primary device writes to the cloud */
+    fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+      .then(function(r){return r.json();})
+      .then(function(data){
+        var rec=(data&&data.record)||{};
+        rec.finds=a;                         /* merge: only replace the finds key */
+        return fetch('https://api.jsonbin.io/v3/b/'+BIN,{method:'PUT',headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},body:JSON.stringify(rec)});
+      }).catch(function(){});
+  }
+  function pullFinds(cb){
+    fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+      .then(function(r){return r.json();})
+      .then(function(data){
+        var rec=(data&&data.record)||{};
+        if(Array.isArray(rec.finds)) saveFinds(rec.finds);
+        if(cb) cb();
+      }).catch(function(){ if(cb) cb(); });
+  }
+
+  function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+
+  /* Heuristic: does this URL look like a search / listing page rather than one posting?
+     Mirrors the Browse engine's list-page detection, plus generic search markers. */
+  function looksLikeSearch(h){
+    if(!h) return false;
+    return /[?&](q|query|keywords|search|k)=/i.test(h)
+      || /\/search(\/|\?|$)|\/jobs(\/|\?|$)|\/careers(\/|\?|$)|\/results|\/listing|\/openings|\/open-positions|search-results|job-search|publicRequestSearch/i.test(h)
+      || /usajobs\.gov\/Search|indeed\.com\/q-|ziprecruiter\.com\/Jobs|google\.com\/search|myworkdayjobs\.com|breezy\.hr\/?$|applicantpool\.com\/?$/i.test(h);
+  }
+
+  /* A find is "promoted" once a curated opportunity carries its sourceFindUrl
+     (set by Claude on the enrichment pass) — or matches its url directly. */
+  function promotedFor(f){
+    if(typeof ALL==='undefined' || !Array.isArray(ALL)) return null;
+    for(var i=0;i<ALL.length;i++){
+      var o=ALL[i]; if(!o) continue;
+      if(o.sourceFindUrl===f.url || o.url===f.url || o.url2===f.url) return o;
+    }
+    return null;
+  }
+
+  window.addFind=function(){
+    var urlEl=document.getElementById('f-url'), noteEl=document.getElementById('f-note'), kindEl=document.getElementById('f-kind');
+    var url=(urlEl.value||'').trim();
+    if(!url){ alert('Paste a URL first.'); urlEl.focus(); return; }
+    if(!/^https?:\/\//i.test(url)) url='https://'+url;
+    var note=(noteEl.value||'').trim();
+    var kind=kindEl.value;
+    if(kind==='auto') kind=looksLikeSearch(url)?'search':'posting';
+    var a=loadFinds();
+    if(a.some(function(x){return x.url===url;})){ alert('That URL is already in your finds.'); return; }
+    a.unshift({id:'find-'+Date.now(),url:url,note:note,kind:kind,addedAt:new Date().toISOString()});
+    saveFinds(a); pushFinds(a);
+    urlEl.value=''; noteEl.value=''; kindEl.value='auto';
+    var fl=document.getElementById('add-flash'); if(fl){ fl.style.display='inline'; setTimeout(function(){fl.style.display='none';},1600); }
+    render();
+  };
+  window.delFind=function(id){
+    if(!confirm('Remove this find? (This does not remove any card already added to Browse.)')) return;
+    var a=loadFinds().filter(function(x){return x.id!==id;});
+    saveFinds(a); pushFinds(a); render();
+  };
+
+  function render(){
+    var body=document.getElementById('finds-body'), cnt=document.getElementById('finds-count');
+    if(!body) return;
+    var a=loadFinds();
+    var prom=0; a.forEach(function(f){ if(promotedFor(f)) prom++; });
+    cnt.textContent = a.length ? (a.length+' find'+(a.length===1?'':'s')+' · '+prom+' added to Browse · '+(a.length-prom)+' awaiting Claude') : '';
+    body.innerHTML='';
+    if(!a.length){
+      body.innerHTML='<div class="empty"><div class="empty-icon">&#128279;</div><div class="empty-title">No finds yet</div>'
+        +'<div class="empty-body">Paste a posting or search-results URL above. It&rsquo;s saved here instantly; ask Claude to <em>&ldquo;process my finds&rdquo;</em> to turn each into a full opportunity card in Browse.</div></div>';
+      return;
+    }
+    a.forEach(function(f){
+      var o=promotedFor(f);
+      var card=document.createElement('div');
+      card.className='find-card'+(o?' is-promoted':(f.kind==='search'?' is-search':''));
+      var badge = o ? '<span class="find-badge fb-promoted">&#10003; Added to Browse</span>'
+        : (f.kind==='search' ? '<span class="find-badge fb-search">&#128269; Search page</span>'
+        : '<span class="find-badge fb-stub">&#10024; New find &mdash; needs detail</span>');
+      var title = o ? esc(o.title||f.note||f.url) : esc(f.note||f.url);
+      var when=''; try{ var d=new Date(f.addedAt); if(!isNaN(d)) when=d.toLocaleDateString(); }catch(e){}
+      var h='<div class="find-top"><div class="find-title">'+title+'</div>'+badge+'</div>';
+      if(f.note && (o||f.note!==f.url)) h+='<div class="find-note">'+esc(f.note)+'</div>';
+      h+='<a class="find-url" href="'+esc(f.url)+'" target="_blank" rel="noopener">'+esc(f.url)+'</a>';
+      h+='<div class="find-meta">'+(f.kind==='search'?'Search-results page · ':'Single posting · ')+(when?('added '+when):'')
+        +(o?(' · in Browse as '+esc(o.id||'')):'')+'</div>';
+      h+='<div class="find-actions">';
+      h+='<a class="find-open" href="'+esc(f.url)+'" target="_blank" rel="noopener">Open link &#8599;</a>';
+      if(o) h+='<a class="find-open primary" href="erin_mylist.html#card-'+esc(o.id||'')+'">View the card &#8594;</a>';
+      h+='<button class="find-del" type="button" onclick="delFind(\''+f.id+'\')">Remove</button>';
+      h+='</div>';
+      card.innerHTML=h;
+      body.appendChild(card);
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', function(){
+    render();
+    pullFinds(render);   /* refresh from cloud, then re-render */
+  });
+})();
+</script>
+</body>
+</html>
