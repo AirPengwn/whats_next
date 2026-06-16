@@ -4452,8 +4452,8 @@
       "Northeast"
     ],
     "metaLine": "Multiple openings (WLM-2026-12/13/14) · NJ residency required · deadline June 8, 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-06-08",
     "region": "Northeast",
     "links": [
@@ -4625,8 +4625,8 @@
       "Midwest"
     ],
     "metaLine": "Permanent · $18.47/hr · USDA partner · apply by Jun 15",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "contact-first",
     "deadline_date": "2026-06-15",
     "region": "Midwest & Great Plains",
     "links": [
@@ -4800,7 +4800,8 @@
     ],
     "metaLine": "AmeriCorps · LiDAR · USFWS · rolling",
     "cycle": "current",
-    "deadline_kind": "rolling",
+    "deadline_kind": "passed",
+    "expired": true,
     "region": "Southeast & Appalachia",
     "links": [
       {
@@ -4810,7 +4811,7 @@
     ],
     "status": {
       "kind": "s-new",
-      "label": "✨ New — June 8, 2026"
+      "label": "Expired — June 16, 2026"
     },
     "id": "item-107"
   },
@@ -4903,8 +4904,8 @@
       "Southeast"
     ],
     "metaLine": "Paid intern · Mobile Bay · apply by Jun 14",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-06-14",
     "region": "Southeast & Appalachia",
     "links": [
@@ -5215,7 +5216,8 @@
     ],
     "metaLine": "SCA IP · USFWS NWI · housing+stipend+ed award · rolling",
     "cycle": "current",
-    "deadline_kind": "rolling",
+    "deadline_kind": "passed",
+    "expired": true,
     "region": "Alaska, Hawaii & Territories",
     "links": [
       {
@@ -5225,7 +5227,7 @@
     ],
     "status": {
       "kind": "s-new",
-      "label": "✨ New — June 15, 2026"
+      "label": "Expired — June 16, 2026"
     },
     "id": "item-119"
   },

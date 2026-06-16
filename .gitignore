@@ -7,3 +7,7 @@
 # OS / editor cruft
 .DS_Store
 Thumbs.db
+
+# Weekly-sweep routine scratch files (never publish)
+_cloud_snapshot.json
+_dedup_index.json
