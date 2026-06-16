@@ -85,7 +85,7 @@ a:hover{text-decoration:underline}
     <div class="page-header-sub">Paste a link to a posting (or a page of search results) and it&rsquo;s saved here as a card. Ask Claude to &ldquo;process my finds&rdquo; and each one becomes a full, rated opportunity in Browse &mdash; marked as a new find.</div>
   </div>
 
-  <div class="tip"><span class="tip-icon" data-i="bolt"></span> <strong>How it works:</strong> drop in a URL below &mdash; it&rsquo;s kept here instantly as a stub. When Claude processes your finds, single postings become one card and a search-results page is expanded into several, all added to Browse and flagged &ldquo;new.&rdquo; Your finds sync from Erin&rsquo;s primary device, just like the rest of your data.</div>
+  <div class="tip"><span class="tip-icon" data-i="bolt"></span> <strong>How it works:</strong> drop in a URL below &mdash; it&rsquo;s kept here instantly as a stub. When Claude processes your finds, single postings become one card and a search-results page is expanded into several, all added to Browse and flagged &ldquo;new.&rdquo; Adding a find works from <strong>any device</strong> &mdash; phone or laptop &mdash; and syncs to the cloud.</div>
 
   <div class="add-box">
     <div class="add-row">
@@ -110,7 +110,7 @@ a:hover{text-decoration:underline}
   <div class="finds-count" id="finds-count"></div>
   <div id="finds-body"></div>
 
-  <p class="footer">Finds are saved to Erin&rsquo;s cloud data (primary device) and included in backups. Promoted finds appear in <a href="erin_mylist.html">My List / Browse</a> with a &#10024; New badge.<br><br><a href="index.html">&#8592; Home</a></p>
+  <p class="footer">Finds sync to the cloud from any device and are included in backups. Promoted finds appear in <a href="erin_mylist.html">My List / Browse</a> with a &#10024; New badge.<br><br><a href="index.html">&#8592; Home</a></p>
 </div>
 
 <script>
@@ -120,15 +120,23 @@ a:hover{text-decoration:underline}
   function isPrimary(){ return localStorage.getItem('erin_primary_device')==='1'||localStorage.getItem('erin_primary_device_bak')==='1'; }
   function loadFinds(){ try{ return JSON.parse(localStorage.getItem(FSTORE)||'[]'); }catch(e){ return []; } }
   function saveFinds(a){ localStorage.setItem(FSTORE,JSON.stringify(a)); }
-  function pushFinds(a){
-    if(!isPrimary()) return;                 /* only Erin's primary device writes to the cloud */
+  /* Finds are APPEND-ONLY and non-destructive, so — unlike Erin's other data —
+     they may be written from ANY device (primary or not). Every change is a
+     GET-mutate-PUT that only ever replaces the `finds` key, so all of Erin's
+     authoritative data (items/apps/etc.) is preserved untouched. */
+  function syncFinds(mutate, cb){
     fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
       .then(function(r){return r.json();})
       .then(function(data){
         var rec=(data&&data.record)||{};
-        rec.finds=a;                         /* merge: only replace the finds key */
+        var cloud=Array.isArray(rec.finds)?rec.finds:[];
+        var next=mutate(cloud.slice());      /* apply the add/remove on the LATEST cloud finds */
+        saveFinds(next);
+        rec.finds=next;                      /* GET-merge-PUT: only the finds key changes */
         return fetch('https://api.jsonbin.io/v3/b/'+BIN,{method:'PUT',headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},body:JSON.stringify(rec)});
-      }).catch(function(){});
+      })
+      .then(function(){ if(cb) cb(true); })
+      .catch(function(){ if(cb) cb(false); });
   }
   function pullFinds(cb){
     fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
@@ -170,18 +178,22 @@ a:hover{text-decoration:underline}
     var note=(noteEl.value||'').trim();
     var kind=kindEl.value;
     if(kind==='auto') kind=looksLikeSearch(url)?'search':'posting';
-    var a=loadFinds();
-    if(a.some(function(x){return x.url===url;})){ alert('That URL is already in your finds.'); return; }
-    a.unshift({id:'find-'+Date.now(),url:url,note:note,kind:kind,addedAt:new Date().toISOString()});
-    saveFinds(a); pushFinds(a);
+    if(loadFinds().some(function(x){return x.url===url;})){ alert('That URL is already in your finds.'); return; }
+    var entry={id:'find-'+Date.now(),url:url,note:note,kind:kind,addedAt:new Date().toISOString()};
+    saveFinds([entry].concat(loadFinds()));        /* optimistic — show it immediately */
     urlEl.value=''; noteEl.value=''; kindEl.value='auto';
     var fl=document.getElementById('add-flash'); if(fl){ fl.style.display='inline'; setTimeout(function(){fl.style.display='none';},1600); }
     render();
+    syncFinds(function(cloud){                      /* persist to cloud (works from any device) */
+      if(cloud.some(function(x){return x && x.url===url;})) return cloud;
+      return [entry].concat(cloud);
+    }, function(){ render(); });
   };
   window.delFind=function(id){
     if(!confirm('Remove this find? (This does not remove any card already added to Browse.)')) return;
-    var a=loadFinds().filter(function(x){return x.id!==id;});
-    saveFinds(a); pushFinds(a); render();
+    saveFinds(loadFinds().filter(function(x){return x.id!==id;}));   /* optimistic */
+    render();
+    syncFinds(function(cloud){ return cloud.filter(function(x){return x && x.id!==id;}); }, function(){ render(); });
   };
 
   function render(){
