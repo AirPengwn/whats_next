@@ -538,4 +538,9 @@ pullCloud();
     setInterval(render,30000);
     window.addEventListener('erin-sync', render);
   }
-  if(document.readyState==='loading') document.addEventListener(
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',setup);
+  else setup();
+})();
+</script>
+</body>
+</html>
