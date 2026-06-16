@@ -6,7 +6,7 @@ function isPrimary(){return localStorage.getItem('erin_primary_device')==='1'||l
    to localStorage, never pushed to cloud. A one-shot cloud GET below
    seeds the cache so the reader sees Erin's actual list; clicks update
    memory; refresh resets to whatever cloud says. */
-var _mem=null, _memNI=null, _memBL=null, _memPR=null;
+var _mem=null, _memNI=null, _memBL=null, _memPR=null, _memRV=null;
 function getSaved(){if(isPrimary()){try{return JSON.parse(localStorage.getItem(STORE)||'{}')}catch(e){return{}}} if(_mem===null)_mem={}; return _mem;}
 function setSaved(m){if(isPrimary()){localStorage.setItem(STORE,JSON.stringify(m));} else {_mem=m;}}
 function isSaved(id){return!!getSaved()[id];}
@@ -114,6 +114,34 @@ window.PR={
   set:function(id,on){var m=getPR(); if(on) m[id]=true; else delete m[id]; setPR(m); pushPR(m); return !!m[id];},
   toggle:function(id){return window.PR.set(id,!window.PR.has(id));}
 };
+/* "Reviewed / seen" personal flag — same primary-gated sync model. Lets Erin
+   mark items she has already looked at so she can filter them out and not
+   re-review the same ones. PURELY informational: it has NO bearing on whether
+   a card is visible, saved, not-interested, or expired — it only drives the
+   "Reviewed" filter. Stored as { id:true } locally + under `reviewed` in JSONbin. */
+var RV_STORE='erin_reviewed_v1';
+function getRV(){if(isPrimary()){try{return JSON.parse(localStorage.getItem(RV_STORE)||'{}')}catch(e){return{}}} if(_memRV===null)_memRV={}; return _memRV;}
+function setRV(m){if(isPrimary()){localStorage.setItem(RV_STORE,JSON.stringify(m));} else {_memRV=m;}}
+function pushRV(m){
+  if(!isPrimary()) return;
+  fetch('https://api.jsonbin.io/v3/b/'+BIN_ID+'/latest',{headers:{'X-Master-Key':API_KEY}})
+    .then(function(r){return r.json();})
+    .then(function(data){
+      if(!data||!data.record) return;   /* guard: a malformed 200 (no record) must not clobber other keys */
+      var rec=data.record;
+      rec.reviewed=m;                   /* merge: only replace reviewed key */
+      return fetch('https://api.jsonbin.io/v3/b/'+BIN_ID,{
+        method:'PUT',
+        headers:{'Content-Type':'application/json','X-Master-Key':API_KEY,'X-Bin-Versioning':'false'},
+        body:JSON.stringify(rec)
+      });
+    }).catch(function(){});
+}
+window.RV={
+  has:function(id){return !!getRV()[id];},
+  set:function(id,on){var m=getRV(); if(on) m[id]=true; else delete m[id]; setRV(m); pushRV(m); return !!m[id];},
+  toggle:function(id){return window.RV.set(id,!window.RV.has(id));}
+};
 /* Reader-mode init: one-shot read-only cloud pull so the in-memory cache
    reflects Erin's actual Saved + Not-Interested state on first paint. */
 function _readerPull(){
@@ -127,6 +155,7 @@ function _readerPull(){
       if(rec.notInterested) _memNI = rec.notInterested;
       if(rec.brokenLinks) _memBL = rec.brokenLinks;
       if(rec.priority) _memPR = rec.priority;
+      if(rec.reviewed) _memRV = rec.reviewed;
       if(rec.archiveLog) window.__arch = rec.archiveLog;   /* for the "Removed only" view on reader devices */
       ML.update();
       try{ if(typeof renderBrowse==='function') renderBrowse(); }catch(e){}

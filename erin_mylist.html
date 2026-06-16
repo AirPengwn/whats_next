@@ -504,6 +504,41 @@ window.PR={
   toggle:function(id){ return window.PR.set(id,!window.PR.has(id)); }
 };
 
+/* "Reviewed / seen" personal flag — primary-gated cloud sync, same model.
+   localStorage `erin_reviewed_v1` + JSONbin record key `reviewed`. PURELY a
+   "seen" marker: no effect on visibility, saving, not-interested, or expiry —
+   it only drives the Reviewed filter. */
+var RV_STORE='erin_reviewed_v1';
+var _memRV = null;
+function rvLoad(){
+  if(isPrimary()){ try{ return JSON.parse(localStorage.getItem(RV_STORE)||'{}'); }catch(e){ return {}; } }
+  if(_memRV===null) _memRV={};
+  return _memRV;
+}
+function rvSave(m){
+  if(isPrimary()){ localStorage.setItem(RV_STORE, JSON.stringify(m)); }
+  else { _memRV = m; }
+}
+function pushRV(m){
+  if(!isPrimary()) return;
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+    .then(function(r){return r.json();})
+    .then(function(data){
+      if(!data||!data.record) return; var rec=data.record;
+      rec.reviewed=m;
+      return fetch('https://api.jsonbin.io/v3/b/'+BIN,{
+        method:'PUT',
+        headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},
+        body:JSON.stringify(rec)
+      });
+    }).then(function(){ flash('Synced'); }).catch(function(){ flash('Sync error'); });
+}
+window.RV={
+  has:function(id){ return !!rvLoad()[id]; },
+  set:function(id,on){ var m=rvLoad(); if(on) m[id]=true; else delete m[id]; rvSave(m); pushRV(m); return !!m[id]; },
+  toggle:function(id){ return window.RV.set(id,!window.RV.has(id)); }
+};
+
 // ── Archive log: rationale capture when items are removed from My List ──
 // Shared store with Applications page ('erin_archive_log', bin key 'archiveLog')
 // so the full history of every passed-on opportunity lives in one place.
@@ -665,6 +700,9 @@ function pullCloud(){
     }
     if(data.record && data.record.brokenLinks){
       blSave(data.record.brokenLinks);    /* v2.16: mirror broken-link flags so weekly sweep can see them */
+    }
+    if(data.record && data.record.reviewed){
+      rvSave(data.record.reviewed);       /* mirror cloud → local for the Reviewed flag */
     }
     renderList();
   }).catch(function(){ renderList(); });
@@ -1094,6 +1132,7 @@ initPrimaryBtn();
     {cloud:'notInterested',  ls:'erin_not_interested_v1',label:'Not interested (hidden in Browse)'},
     {cloud:'brokenLinks',    ls:'erin_broken_links_v1',  label:'Broken-link flags (for next sweep)'},
     {cloud:'priority',       ls:'erin_priority_v1',      label:'Priority / focus flags'},
+    {cloud:'reviewed',       ls:'erin_reviewed_v1',      label:'Reviewed / seen flags'},
     {cloud:'punchDone',      ls:'erin_punch_done_v1',    label:'Punch list — done flags'},
     {cloud:'finds',          ls:'erin_finds_v1',         label:'Finds (URLs you added)'},
     {cloud:'apps',           ls:'erin_applications_v1',  label:'Applications tracker'},
@@ -1413,8 +1452,11 @@ var showPassed=false; /* "Hide passed/expired" is default ON; this toggle reveal
 var showNI=false; /* "Hide Not interested" is default ON; this toggle reveals them */
 var onlyBroken=false; /* v2.19: restrict view to only items flagged as broken-link */
 var viewScope='all'; /* v2.36 scope view: 'all' | 'priority' | 'expired' | 'removed' — absolute when not 'all' */
+var reviewedFilter='all'; /* 'all' | 'unrev' | 'rev' — Reviewed filter; never hides on its own, just narrows */
+var _openCards={}; /* remember which detail cards are expanded so a re-render (priority/reviewed toggle) keeps them open */
 function niHas(id){ return !!(window.NI && NI.has && NI.has(id)); }
 function prHas(id){ return !!(window.PR && PR.has && PR.has(id)); }
+function rvHas(id){ return !!(window.RV && RV.has && RV.has(id)); }
 function isExpiredItem(it){ return bucketOf(it)===5 || it.expired===true; }
 function removedSet(){
   var s={}, a=[];
@@ -1493,6 +1535,13 @@ function buildBrowseFiltersX(){
   w.appendChild(mgroup('New', BX.fresh, FRESH));
   w.appendChild(fgroup('Passed', [chip('Show passed / expired', showPassed, function(){ showPassed=!showPassed; renderBrowse(); })]));
   w.appendChild(fgroup('Hidden', [chip('Show not interested', showNI, function(){ showNI=!showNI; renderBrowse(); })]));
+  /* Reviewed filter — a personal "seen" flag. Default 'all' shows everything;
+     "Not yet reviewed" narrows to un-seen items so Erin can work the backlog. */
+  w.appendChild(fgroup('Reviewed', [
+    chip('All', reviewedFilter==='all', function(){ reviewedFilter='all'; renderBrowse(); }),
+    chip('👁 Not yet reviewed', reviewedFilter==='unrev', function(){ reviewedFilter='unrev'; renderBrowse(); }),
+    chip('✓ Reviewed only', reviewedFilter==='rev', function(){ reviewedFilter='rev'; renderBrowse(); })
+  ]));
   /* v2.19/v2.20: broken-link filter — chip shows "(view-only)" on read-only devices */
   var _blChipLbl = '⚠ Only broken links' + (document.documentElement.classList.contains('erin-readonly') ? ' (view-only)' : '');
   w.appendChild(fgroup('Links', [chip(_blChipLbl, onlyBroken, function(){ onlyBroken=!onlyBroken; renderBrowse(); })]));
@@ -1615,6 +1664,9 @@ function renderBrowseX(){
     if(viewScope==='priority'){ if(!prHas(it.id)) return false; }
     else if(viewScope==='expired'){ if(!isExpiredItem(it)) return false; }
     else if(viewScope==='removed'){ if(!RM[it.id]) return false; }
+    /* Reviewed filter — applies in every scope; never expands what's shown */
+    if(reviewedFilter==='unrev' && rvHas(it.id)) return false;
+    if(reviewedFilter==='rev'   && !rvHas(it.id)) return false;
     if(BX.type.length   && !has1(BX.type,typeOf(it))) return false;
     if(BX.cycle.length  && !has1(BX.cycle,(it.cycle||'current'))) return false;
     if(BX.region.length && !has1(BX.region,(it.region||'National / Remote / Multiple'))) return false;
@@ -1658,6 +1710,7 @@ function renderBrowseX(){
     var fresh=isNewItem(it);
     var ni=niHas(it.id);
     var prio=prHas(it.id);
+    var rvd=rvHas(it.id);
     var blFlag=!!(window.BL&&BL.has(it.id));
     var card=el('div','browse-card'+(saved?' is-saved':'')+(fresh?' is-new':'')+(ni?' is-ni':'')+(blFlag?' is-bl':'')); card.id='bcx-'+it.id;
     var th=el('div',null); th.style.cssText='display:flex;justify-content:space-between;gap:8px;align-items:flex-start';
@@ -1666,6 +1719,7 @@ function renderBrowseX(){
     if(fresh) titleRow.appendChild(el('span','bx-new','✨ NEW'));
     titleRow.appendChild(el('div','browse-title',it.title));
     if(prio){ var _pb=el('span','bx-saved','⭐ Priority'); _pb.style.cssText='background:var(--purple-bg);color:var(--purple-t)'; titleRow.appendChild(_pb); }
+    if(rvd){ titleRow.appendChild(el('span','neutral-chip','👁 Reviewed')); }
     if(saved) titleRow.appendChild(el('span','bx-saved','✓ Saved'));
     if(ni) titleRow.appendChild(el('span','bx-ni-badge','✗ Not interested'));
     if(blFlag) titleRow.appendChild(el('span','bx-bl-badge','⚠ Link reported broken'));
@@ -1691,11 +1745,14 @@ function renderBrowseX(){
     /* badge no longer rendered in meta — it lives in the right-side pill stack */
     card.appendChild(meta);
     var bd=buildBrowseDetailX(it); card.appendChild(bd);
+    /* restore expanded state so a re-render (priority/reviewed toggle) keeps it open */
+    if(_openCards[it.id]) bd.classList.add('open');
     /* Card actions row: Details (left, blue pill) · [Not interested, Save] (right) */
     var acts=el('div','item-actions');
     acts.style.cssText='display:flex;align-items:center;gap:.6rem;justify-content:space-between;flex-wrap:wrap;margin-top:.6rem';
-    var dbt=el('button','act-btn','Details');
-    dbt.onclick=function(ev){ ev.stopPropagation(); bd.classList.toggle('open'); dbt.textContent=bd.classList.contains('open')?'Hide details':'Details'; };
+    var dbt=el('button','act-btn',_openCards[it.id]?'Hide details':'Details');
+    function _setOpen(open){ if(open){ bd.classList.add('open'); _openCards[it.id]=true; } else { bd.classList.remove('open'); delete _openCards[it.id]; } dbt.textContent=open?'Hide details':'Details'; }
+    dbt.onclick=function(ev){ ev.stopPropagation(); _setOpen(!bd.classList.contains('open')); };
     acts.appendChild(dbt);
     var rightGrp=el('div','bx-act-right');
     rightGrp.style.cssText='display:flex;gap:.5rem;align-items:center;flex-wrap:wrap';
@@ -1711,12 +1768,19 @@ function renderBrowseX(){
       else { if(!(typeof has==='function'&&has(it.id)) && typeof addItem==='function') addItem(it); PR.set(it.id,true); }
       renderBrowse(); if(typeof renderList==='function')renderList(); };
     rightGrp.appendChild(pbtn);
+    /* Reviewed marker — a personal "seen" flag. No effect on visibility, saving,
+       not-interested, or expiry; only drives the Reviewed filter. */
+    var rvbtn=el('button','bx-rev-btn'+(rvd?' on':''), rvd?'👁 Reviewed':'👁 Mark reviewed');
+    rvbtn.style.cssText='font-size:12.5px;font-weight:600;padding:4px 12px;border-radius:999px;cursor:pointer;font-family:var(--fn);white-space:nowrap;border:1px solid var(--t3);'+(rvd?'background:var(--t3);color:#fff':'background:transparent;color:var(--t3)');
+    rvbtn.title=rvd?'Marked as reviewed — click to unmark':'Mark as reviewed (a personal “seen” flag; does not hide or save the item)';
+    rvbtn.onclick=function(ev){ ev.stopPropagation(); if(!window.RV) return; RV.toggle(it.id); renderBrowse(); if(typeof renderList==='function')renderList(); };
+    rightGrp.appendChild(rvbtn);
     var sv=el('button','browse-save-btn'+(saved?' saved':''), saved?'★ Saved':'☆ Save to My List');
     sv.onclick=function(){ if(typeof has==='function'&&has(it.id)){ if(typeof delItem==='function')delItem(it.id); if(window.PR&&PR.has(it.id))PR.set(it.id,false); } else if(typeof addItem==='function'){ addItem(it); } renderBrowse(); if(typeof renderList==='function')renderList(); };
     rightGrp.appendChild(sv);
     acts.appendChild(rightGrp);
     card.appendChild(acts);
-    card.onclick=function(ev){ if(ev.target.closest('a')||ev.target.closest('button'))return; bd.classList.toggle('open'); };
+    card.onclick=function(ev){ if(ev.target.closest('a')||ev.target.closest('button'))return; _setOpen(!bd.classList.contains('open')); };
     body.appendChild(card);
   });
 }

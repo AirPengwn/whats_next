@@ -1,8 +1,6 @@
 # Weekly opportunity sweep — 2026-06-16
 
-**Added 2 new** opportunities:
-- Grand Valley State University — Funded MS, Annis Water Resources Institute (Aquatic Ecology & Wetlands) — _Strong_ · Midwest & Great Plains · deadline: Rolling — contact faculty / apply through AWRI; assistantships filled as funded projects open
-- Northern Michigan University — Funded MS, Freshwater Ecology (Tumolo Lab) — _Good_ · Midwest & Great Plains · deadline: Fall 2026 start; priority-consideration deadline was Dec 16, 2025 (passed) — email Dr. Tumolo about remaining availability / the next cohort
+**Added 0 new** opportunities.
 
 **Updated 0** (deadline / status / description changed).
 
