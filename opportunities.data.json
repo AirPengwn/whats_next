@@ -5554,5 +5554,86 @@
     "pay": "~$1,200 biweekly living allowance",
     "stipend": "Segal Education Award ~$7,395 on completion",
     "benefits": "Free health insurance; hydrology/GIS/watershed field training"
+  },
+  {
+    "title": "Green Iowa AmeriCorps — Environmental Summer Steward",
+    "org": "University of Northern Iowa / AmeriCorps · Cedar Falls, IA",
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "deadline": "Apply by June 21, 2026",
+    "start": "June 1 – August 31, 2026 (3-month summer term)",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-06-21",
+    "region": "Midwest & Great Plains",
+    "body": "Summer AmeriCorps term placing members across Iowa to deliver energy-efficiency services to underserved communities, serve as school sustainability coordinators, and run environmental education events. Weekly mix of direct service, education, volunteer coordination, and professional training. Living allowance + Segal Education Award on completion.",
+    "desc": "A short summer AmeriCorps option — environmental service + an education award, good for building the AmeriCorps record. Note: it leans toward energy-efficiency and environmental EDUCATION rather than the field ecology / wetland / GIS work that's Erin's core track, so it's a fit by mission more than by skill match. Deadline is imminent (June 21).",
+    "badge": "Good fit",
+    "pills": [
+      "Environmental education",
+      "Sustainability",
+      "AmeriCorps",
+      "Summer term",
+      "Midwest"
+    ],
+    "metaLine": "AmeriCorps · 3-mo summer · living allowance + ed award · apply by Jun 21",
+    "location": "Cedar Falls, IA (statewide Iowa placements)",
+    "pay": "AmeriCorps living allowance (summer term)",
+    "stipend": "Segal Education Award on completion",
+    "contact": "Laura Mast · greeniowaamericorps@uni.edu · 319-273-5750",
+    "links": [
+      {
+        "href": "https://my.americorps.gov/mp/listing/viewListing.do?fromSearch=true&id=102012",
+        "label": "🔗 AmeriCorps listing"
+      }
+    ],
+    "url": "https://my.americorps.gov/mp/listing/viewListing.do?fromSearch=true&id=102012",
+    "url_label": "Apply on AmeriCorps",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — June 16, 2026"
+    },
+    "sourceFindUrl": "https://my.americorps.gov/mp/listing/viewListing.do?fromSearch=true&id=102012",
+    "id": "item-128"
+  },
+  {
+    "title": "Conservation / Biological Science Technician (GS-0404) — federal openings",
+    "org": "Various federal agencies (NPS, USFWS, USFS, BLM) · USAJOBS — nationwide",
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "deadline": "Rolling — postings rotate; set a USAJOBS saved-search alert",
+    "start": "Varies (seasonal spring/summer entry, term, or permanent)",
+    "deadline_kind": "rolling",
+    "region": "National / Remote / Multiple",
+    "body": "A standing USAJOBS search for federal Biological Science Technician (GS-0404) and conservation-technician roles — seasonal, term, and permanent — across the National Park Service, US Fish & Wildlife Service, US Forest Service, and BLM. Recent openings include seasonal Wildlife, Plants, and Aquatic Resources technicians (spring/summer entry) and GS-0404-7 term positions. Listings rotate constantly.",
+    "desc": "Strong, direct fit — GS-0404 federal field-tech work is exactly Erin's target track (mirrors the saved USFWS GS-0404 entry). Because postings turn over weekly, this is a recurring SOURCE rather than one job: save the search on USAJOBS and turn on daily email alerts so you can apply the day a relevant Wildlife / Aquatic / Plants posting opens.",
+    "badge": "Strong fit",
+    "pills": [
+      "GS-0404",
+      "Field technician",
+      "USFWS / NPS / USFS",
+      "Federal",
+      "Nationwide"
+    ],
+    "metaLine": "Federal · GS-0404 · seasonal/term/permanent · rolling — set an alert",
+    "location": "Nationwide (federal duty stations)",
+    "pay": "Federal GS pay (varies by grade/locality; GS-0404 technician scale)",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/search/results/?k=Conservation+Technicians&p=1",
+        "label": "🔗 USAJOBS — Conservation Technician search"
+      }
+    ],
+    "url": "https://www.usajobs.gov/search/results/?k=Conservation+Technicians&p=1",
+    "url_label": "Search USAJOBS",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — June 16, 2026"
+    },
+    "sourceFindUrl": "https://www.usajobs.gov/search/results/?k=Conservation+Technicians&p=1",
+    "id": "item-129"
   }
 ]
