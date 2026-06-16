@@ -102,6 +102,7 @@ body{padding:0 0 3rem}
 </script>
 <script src="icons.js?v=20260602"></script>
 <script src="site.js?v=20260616-128-18935f83"></script>
+<script src="opportunities.js?v=20260616-128-18935f83"></script>
 </head>
 <body>
 
@@ -185,6 +186,15 @@ var PROF_STORE='erin_prof_contacts';
 function lj(k,fb){ try{ return JSON.parse(localStorage.getItem(k)||fb); }catch(e){ return JSON.parse(fb||'null'); } }
 
 function load(){ return lj(STORE,'{}'); }
+/* v2.54: merge a thin saved item with its full opportunity record (deadline_kind,
+   region, location, pay, stipend, etc.) so Compare can show all available fields. */
+function mergeWithAll(it){
+  if(it && typeof ALL!=='undefined' && Array.isArray(ALL)){
+    var m=ALL.find(function(a){ return a && a.id===it.id; });
+    if(m) return Object.assign({}, m, it);
+  }
+  return it;
+}
 function loadApps(){ return lj(APP_STORE,'[]')||[]; }
 function loadProfs(){ return lj(PROF_STORE,'[]')||[]; }
 
@@ -216,8 +226,13 @@ function dayDiff(s){
   var t=new Date(); t.setHours(0,0,0,0); d.setHours(0,0,0,0);
   return Math.floor((d-t)/864e5);
 }
-function deadlineDisplay(s){
-  if(!s) return {text:'—',cls:''};
+function deadlineDisplay(s, kind){
+  if(!s){
+    if(kind==='rolling') return {text:'Rolling — apply when posted',cls:'deadline-ok'};
+    if(kind==='contact-first') return {text:'Contact first',cls:''};
+    if(kind==='passed') return {text:'Closed / passed',cls:'deadline-urgent'};
+    return {text:'—',cls:''};
+  }
   var d=dayDiff(s);
   if(d===null) return {text:s,cls:''};
   if(d<0) return {text:s+' (passed)',cls:'deadline-urgent'};
@@ -319,7 +334,7 @@ function renderSelStrip(){
 })();
 
 function renderComparison(){
-  var items=Object.values(selected);
+  var items=Object.values(selected).map(mergeWithAll);
   if(items.length<2){ renderSelStrip(); return; }
   renderSelStrip();
   var apps=loadApps();
@@ -384,7 +399,7 @@ function renderComparison(){
 
   // Row: Deadline
   addRow('Deadline', items.map(function(it){
-    var dl=deadlineDisplay(it.deadline);
+    var dl=deadlineDisplay(it.deadline, it.deadline_kind);
     var td2=document.createElement('div');
     if(dl.cls){ td2.className=dl.cls; }
     td2.textContent=dl.text;
@@ -392,10 +407,10 @@ function renderComparison(){
   }));
 
   // Row: Start date
-  addRow('Start', items.map(function(it){ return it.start||'—'; }));
+  addRow('Start', items.map(function(it){ return it.start || (it.deadline_kind==='rolling'?'Flexible / rolling':'—'); }));
 
-  // Row: Location
-  addRow('Location', items.map(function(it){ return it.location||'—'; }));
+  // Row: Location — fall back to region when no structured location field
+  addRow('Location', items.map(function(it){ return it.location || it.region || '—'; }));
 
   // Row: Funding / Pay
   addRow('Funding / Pay', items.map(function(it){
