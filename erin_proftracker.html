@@ -586,7 +586,7 @@ function render(){
     // Show linked applications — clickable, deep-link into the Applications page
     try{
       var apps=JSON.parse(localStorage.getItem('erin_applications_v1')||'[]');
-      var linked=apps.filter(function(a){return a.professor===p.id;});
+      var linked=apps.filter(function(a){return a.professorId&&a.professorId===p.id;});
       if(linked.length){
         var appRow=document.createElement('div'); appRow.style.cssText='display:flex;flex-wrap:wrap;gap:5px;margin-top:4px;align-items:center';
         var appLbl=document.createElement('span'); appLbl.style.cssText='font-size:12.5px;font-weight:600;color:var(--t3);text-transform:uppercase;letter-spacing:.06em;margin-right:3px'; appLbl.textContent='Applications:'; appRow.appendChild(appLbl);
@@ -617,9 +617,9 @@ function render(){
       return f;
     }
 
-    row.appendChild(field('Professor name','pf-'+p.id,p.professor));
-    row.appendChild(field('Email address','pe-'+p.id,p.email));
-    row.appendChild(field('Date emailed','pd-'+p.id,p.dateEmailed,'date'));
+    var nameF=field('Professor name','pf-'+p.id,p.professor); row.appendChild(nameF);
+    var emailF=field('Email address','pe-'+p.id,p.email); row.appendChild(emailF);
+    var dateF=field('Date emailed','pd-'+p.id,p.dateEmailed,'date'); row.appendChild(dateF);
 
     var sf=document.createElement('div'); sf.className='prof-field';
     var sl=document.createElement('div'); sl.className='prof-lbl'; sl.textContent='Status'; sf.appendChild(sl);
@@ -627,12 +627,27 @@ function render(){
     [{v:'none',l:'Not contacted'},{v:'contacted',l:'Contacted'},{v:'responded',l:'Responded'},{v:'pursuing',l:'Pursuing'},{v:'notfit',l:'Not a fit'}].forEach(function(o){
       var opt=document.createElement('option'); opt.value=o.v; opt.textContent=o.l; if(p.status===o.v) opt.selected=true; sel.appendChild(opt);
     });
+    sf.appendChild(sel);
+    /* v2.49: this card section was incomplete (fields built but never appended,
+       and `card.appendChild(acts)` referenced an undefined var → crashed on any prof).
+       Repaired: append the row + wire persistence on blur/change. */
+    function _saveProfFields(){
+      var arr=loadProfs(); var pr=arr.find(function(x){return x.id===p.id;}); if(!pr) return;
+      var g=function(pre){ var e=document.getElementById(pre+p.id); return e?e.value:undefined; }, v;
+      if((v=g('pf-'))!==undefined) pr.professor=v;
+      if((v=g('pe-'))!==undefined) pr.email=v;
+      if((v=g('pd-'))!==undefined) pr.dateEmailed=v;
+      pr.status=sel.value;
+      saveProfs(arr); pushProfs(arr);
+    }
+    [nameF,emailF,dateF].forEach(function(f){ var inp=f.querySelector('input'); if(inp) inp.addEventListener('blur',_saveProfFields); });
     sel.onchange=function(){
-      var s=sel.value;
-      document.getElementById('spl-'+p.id).textContent=statusLabel(s);
-      document.getElementById('spl-'+p.id).className='status-pill '+statusPillClass(s);
+      var pill=document.getElementById('spl-'+p.id);
+      if(pill){ pill.textContent=statusLabel(sel.value); pill.className='status-pill '+statusPillClass(sel.value); }
+      _saveProfFields();
     };
-    card.appendChild(acts);
+    row.appendChild(sf);
+    card.appendChild(row);
 
     // ── Interaction log section ──
     var logSec=document.createElement('div'); logSec.className='log-section';

@@ -53,11 +53,15 @@
     profs.forEach(function(p){ if(p.status!=='contacted'||!p.dateEmailed) return; var s=dayDiff(p.dateEmailed); if(s==null) return; s=-s; if(s>=14) A.push({weight:90+Math.min(s-14,40),klass:'pr-high',emoji:ICO_MAIL,title:'Follow up with '+(p.professor||'professor'),detail:'Emailed '+s+'d ago · '+(p.programTitle||'').split('—')[0].trim().slice(0,42)+' · no response logged',cta:'Open contact',link:'erin_proftracker.html#pcard-'+p.id,full:full({prof:p})}); });
     // R3 saved grad programs with no prof contacted yet
     mlv.filter(function(it){return it.type==='Graduate Program'&&!it._done&&!ni[it.id];}).forEach(function(it){ var m=profs.find(function(p){return p.programTitle===it.title;}); if(m&&m.status&&m.status!=='none') return; A.push({weight:60,klass:'pr-medium',emoji:ICO_WAVE,title:'No prof contacted for '+(it.title.split('—')[0].trim()).slice(0,45),detail:'Direct outreach is the highest-leverage activity in grad applications',cta:'Open prof tracker',link:'erin_proftracker.html'+(m?'#pcard-'+m.id:''),full:full({item:it,prof:m})}); });
-    // R4 apps within 60d without ~2 secured recommenders (counts the real Ref tracker statuses)
-    var refSecured=refs.filter(function(r){return /agreed|submitted/i.test(r.status||'');}).length;
-    var refAsked=refs.filter(function(r){return /asked|agreed|submitted/i.test(r.status||'');}).length;
-    apps.forEach(function(a){ var st=a.status||'notstarted'; if(DONE[st]) return; var d=dayDiff(a.deadline); if(d==null||d<0||d>60) return; if(refSecured>=2) return;
-      A.push({weight:80+(60-d),klass:'pr-high',emoji:ICO_PEN,title:(refAsked===0?'Line up recommenders':'Only '+refSecured+' recommender'+(refSecured===1?'':'s')+' secured')+' for '+(a.programTitle||'application').split('—')[0].trim().slice(0,32),detail:'Deadline in '+d+'d · '+refAsked+' asked / '+refSecured+' agreed — aim for ~3 letters',cta:'Open references',link:'erin_reftracker.html',full:full({app:a})}); });
+    // R4 apps within 60d without ~2 secured recommenders. If refs are linked to
+    // applications, count per-application; otherwise fall back to the global count.
+    var refsHaveLinks=refs.some(function(r){return Array.isArray(r.applicationIds)&&r.applicationIds.length;});
+    apps.forEach(function(a){ var st=a.status||'notstarted'; if(DONE[st]) return; var d=dayDiff(a.deadline); if(d==null||d<0||d>60) return;
+      var pool = refsHaveLinks ? refs.filter(function(r){ return Array.isArray(r.applicationIds)&&r.applicationIds.indexOf(a.id)>-1; }) : refs;
+      var secured=pool.filter(function(r){return /agreed|submitted/i.test(r.status||'');}).length;
+      var asked=pool.filter(function(r){return /asked|agreed|submitted/i.test(r.status||'');}).length;
+      if(secured>=2) return;
+      A.push({weight:80+(60-d),klass:'pr-high',emoji:ICO_PEN,title:(asked===0?'Line up recommenders':'Only '+secured+' recommender'+(secured===1?'':'s')+' secured')+' for '+(a.programTitle||'application').split('—')[0].trim().slice(0,32),detail:'Deadline in '+d+'d · '+asked+' asked / '+secured+' agreed — aim for ~3 letters',cta:'Open references',link:'erin_reftracker.html',full:full({app:a})}); });
     // R5 "apply immediately" items not in app tracker
     mlv.forEach(function(it){ if(it._done||ni[it.id]) return; var t=((it.pills||[]).join(' ')+' '+(it.body||'')+' '+(it._note||'')+' '+(it.deadline||'')).toLowerCase(); if(!/apply immediately|apply now|rolling|first[- ]come|review begins/.test(t)) return; if(apps.some(function(a){return (a.itemId&&a.itemId===it.id)||(a.programTitle===it.title&&a.org===it.org);})) return; A.push({weight:95,klass:'pr-high',emoji:ICO_BOLT,title:'"Apply immediately" not yet in app tracker: '+(it.title.split('—')[0].trim()).slice(0,42),detail:(it.org||'')+(it.deadline?' · '+it.deadline:'')+(it.id?' · '+it.id:''),cta:'Open My List',link:'erin_mylist.html'+(it.id?'#card-'+it.id:''),full:full({item:it})}); });
     // R6 SOP not drafted within 45d

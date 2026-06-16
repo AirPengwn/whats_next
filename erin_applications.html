@@ -512,7 +512,7 @@ function addCard(prefill){
   var id='a'+Date.now();
   arr.push({
     id:id, programTitle:prefill||'', org:'', deadline:'', itemId:'', itemUrl:'', itemSrc:'',
-    professor:'', status:'notstarted', portalUrl:'', portalLogin:'',
+    professor:'', professorId:'', status:'notstarted', portalUrl:'', portalLogin:'',
     submitDate:'', decisionDate:'', decisionReason:'', notes:'', materials:{}
   });
   saveApps(arr); render();
@@ -696,6 +696,32 @@ function renderCards(){
         ms.appendChild(mwrap); leftCol.appendChild(ms);
       }
     }
+
+    // v2.49: People — linked professor + recommenders (deep-link to their trackers)
+    (function(){
+      var profs=[]; try{ profs=JSON.parse(localStorage.getItem('erin_prof_contacts')||'[]'); }catch(e){ profs=[]; }
+      var refs=[]; try{ refs=JSON.parse(localStorage.getItem('erin_ref_tracker_v1')||'[]'); }catch(e){ refs=[]; }
+      var hub=document.createElement('div'); hub.className='checklist-section'; hub.style.marginTop='.6rem';
+      var ht=document.createElement('div'); ht.className='checklist-title'; ht.textContent='People'; hub.appendChild(ht);
+      // Professor picker
+      var pRow=document.createElement('div'); pRow.style.cssText='display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:.35rem';
+      var pLbl=document.createElement('span'); pLbl.textContent='Professor:'; pLbl.style.cssText='font-size:12.5px;color:var(--t3)'; pRow.appendChild(pLbl);
+      var pSel=document.createElement('select'); pSel.className='app-select'; pSel.style.cssText='width:auto;font-size:12.5px;padding:3px 8px';
+      var p0=document.createElement('option'); p0.value=''; p0.textContent='— none —'; pSel.appendChild(p0);
+      profs.forEach(function(pr){ var o=document.createElement('option'); o.value=pr.id; o.textContent=String(pr.professor||pr.programTitle||'professor').slice(0,40); if(app.professorId===pr.id)o.selected=true; pSel.appendChild(o); });
+      pSel.onchange=function(){ var arr=loadApps(); var a=arr.find(function(x){return x.id===app.id;}); if(a){ a.professorId=pSel.value; saveApps(arr); pushApps(arr); render(); } };
+      pRow.appendChild(pSel);
+      if(app.professorId){ var pl=document.createElement('a'); pl.href='erin_proftracker.html#pcard-'+app.professorId; pl.textContent='open ↗'; pl.style.cssText='font-size:12.5px;color:var(--blue);text-decoration:none'; pRow.appendChild(pl); }
+      hub.appendChild(pRow);
+      // Recommenders linked to this application
+      var rRow=document.createElement('div'); rRow.style.cssText='display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:.35rem';
+      var rLbl=document.createElement('span'); rLbl.textContent='Recommenders:'; rLbl.style.cssText='font-size:12.5px;color:var(--t3)'; rRow.appendChild(rLbl);
+      var linkedRefs=refs.filter(function(r){ return Array.isArray(r.applicationIds)&&r.applicationIds.indexOf(app.id)>-1; });
+      if(linkedRefs.length){ linkedRefs.forEach(function(r){ var a2=document.createElement('a'); a2.href='erin_reftracker.html#rcard-'+r.id; a2.textContent='🖋 '+String(r.name||'reference')+(r.status?(' · '+r.status):''); a2.style.cssText='font-size:12.5px;padding:2px 9px;border-radius:999px;background:var(--bg2);color:var(--t2);border:.5px solid var(--bd);text-decoration:none'; rRow.appendChild(a2); }); }
+      else { var none=document.createElement('span'); none.textContent='none linked — link them on the Refs page'; none.style.cssText='font-size:12.5px;color:var(--t3);font-style:italic'; rRow.appendChild(none); }
+      hub.appendChild(rRow);
+      leftCol.appendChild(hub);
+    })();
 
     // Actions row
     var acts=document.createElement('div'); acts.className='app-actions';

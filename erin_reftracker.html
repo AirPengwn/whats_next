@@ -76,6 +76,8 @@
 .ref-guide-body ul:last-child{margin-bottom:0}
 .ref-guide-body li{margin-bottom:.35rem}
 .ref-guide-body strong{color:var(--t1);font-weight:600}
+.hl-flash{animation:hlf 2.4s ease-out}
+@keyframes hlf{0%{box-shadow:0 0 0 3px var(--teal)}55%{box-shadow:0 0 0 3px var(--teal)}100%{box-shadow:0 0 0 0 rgba(0,0,0,0)}}
 </style>
 </head>
 <body>
@@ -249,6 +251,15 @@ function statusCls(s){ var m=STATUSES.find(function(x){return x.v===s;}); return
 function statusLabel(s){ var m=STATUSES.find(function(x){return x.v===s;}); return m?m.l:s; }
 var currentFilter='all';
 function el(tag,cls,text){ var e=document.createElement(tag); if(cls)e.className=cls; if(text!==undefined)e.textContent=text; return e; }
+/* v2.49: link a reference to the application(s) it's writing for (applicationIds[]). */
+function loadApps(){ try{ return JSON.parse(localStorage.getItem('erin_applications_v1')||'[]'); }catch(e){ return []; } }
+function appTitle(id){ var a=loadApps().find(function(x){return x.id===id;}); return a?((a.programTitle||'Application').split('—')[0].trim().slice(0,42)):'(application)'; }
+function linkApp(refId,appId){ var arr=loadRefs(); var r=arr.find(function(x){return x.id===refId;}); if(!r)return; if(!Array.isArray(r.applicationIds))r.applicationIds=[]; if(r.applicationIds.indexOf(appId)<0)r.applicationIds.push(appId); saveRefs(arr);pushRefs(arr);render(); }
+function unlinkApp(refId,appId){ var arr=loadRefs(); var r=arr.find(function(x){return x.id===refId;}); if(!r)return; r.applicationIds=(r.applicationIds||[]).filter(function(x){return x!==appId;}); saveRefs(arr);pushRefs(arr);render(); }
+window.linkApp=linkApp; window.unlinkApp=unlinkApp;
+/* deep-link focus: #rcard-<id> (or #ref-<id>) scrolls to + highlights a reference */
+function _focusRefFromHash(){ var h=(location.hash||'').replace(/^#/,''); var elId=h.indexOf('rcard-')===0?h:(h.indexOf('ref-')===0?'rcard-'+h:''); if(!elId)return; var c=document.getElementById(elId); if(!c)return; try{c.scrollIntoView({behavior:'smooth',block:'start'});}catch(e){} c.classList.add('hl-flash'); setTimeout(function(){c.classList.remove('hl-flash');},2400); }
+window.addEventListener('hashchange',_focusRefFromHash);
 function makeCard(ref){
   var card=el('div','ref-card status-'+(ref.status||'planning'));
   card.id='rcard-'+ref.id;
@@ -260,6 +271,24 @@ function makeCard(ref){
   if(ref.relationship){ var rel=el('span',''); rel.style.cssText='font-size:12.5px;color:var(--t3);padding:2px 7px;background:var(--bg2);border-radius:5px;border:1px solid var(--bd)'; rel.textContent=ref.relationship; meta.appendChild(rel); }
   card.appendChild(meta);
   if(ref.programs&&ref.programs.length){ var progs=el('div','ref-programs'); progs.innerHTML='Writing for: '; ref.programs.forEach(function(p){ progs.appendChild(el('span','',p)); }); card.appendChild(progs); }
+  // Linked applications (deep-link to the app card)
+  var laWrap=el('div','ref-programs'); laWrap.style.marginBottom='.4rem'; laWrap.appendChild(document.createTextNode('For applications: '));
+  var aids=Array.isArray(ref.applicationIds)?ref.applicationIds:[];
+  aids.forEach(function(aid){
+    var chip=el('span',''); chip.style.cssText='display:inline-flex;align-items:center;gap:5px;background:var(--teal-bg);color:var(--teal-t);border:1px solid var(--teal-t);border-radius:5px;padding:1px 7px;margin:2px 3px 2px 0;font-size:12.5px';
+    var a=document.createElement('a'); a.href='erin_applications.html#acard-'+aid; a.textContent=appTitle(aid); a.style.cssText='color:inherit;text-decoration:none'; chip.appendChild(a);
+    var x=document.createElement('button'); x.type='button'; x.textContent='×'; x.title='Unlink'; x.style.cssText='border:none;background:none;color:inherit;cursor:pointer;padding:0;font-size:13px;line-height:1'; x.onclick=(function(rid,id){return function(){unlinkApp(rid,id);};})(ref.id,aid); chip.appendChild(x);
+    laWrap.appendChild(chip);
+  });
+  var _apps=loadApps();
+  if(_apps.length){
+    var aSel=document.createElement('select'); aSel.className='form-select'; aSel.style.cssText='font-size:11px;max-width:230px';
+    var ao0=document.createElement('option'); ao0.value=''; ao0.textContent=aids.length?'+ link another application…':'+ link an application…'; aSel.appendChild(ao0);
+    _apps.forEach(function(a){ if(aids.indexOf(a.id)>-1) return; var o=document.createElement('option'); o.value=a.id; o.textContent=(a.programTitle||a.id).split('—')[0].trim().slice(0,40); aSel.appendChild(o); });
+    aSel.onchange=(function(rid){return function(){ if(this.value) linkApp(rid,this.value); };})(ref.id);
+    laWrap.appendChild(aSel);
+  } else { laWrap.appendChild(el('span','','—  (add applications first)')); }
+  card.appendChild(laWrap);
   var noteBox=el('div','ref-note'+(ref.note?' open':'')); noteBox.id='rnote-'+ref.id;
   var noteTA=el('textarea','ref-note-edit'); noteTA.placeholder='Notes…'; noteTA.value=ref.note||'';
   noteTA.onblur=function(){ var arr=loadRefs(); var r=arr.find(function(x){return x.id===ref.id;}); if(r){r.note=noteTA.value;saveRefs(arr);pushRefs(arr);} };
@@ -342,6 +371,7 @@ document.addEventListener('DOMContentLoaded',function(){
   } else {
     pullCloud(); // secondary: always read from cloud
   }
+  setTimeout(_focusRefFromHash, 350);   // honor #rcard-<id> deep-links from the app card
 
   // Reference guide collapsible sections
   document.querySelectorAll('.ref-guide-heading').forEach(function(hdr){
