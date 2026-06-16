@@ -297,7 +297,7 @@ html:not(.dark){
 var BIN='6a039aa4250b1311c33f2bac',KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
 
 var PRIMARY_KEY='erin_primary_device';
-function isPrimary(){ return localStorage.getItem(PRIMARY_KEY)==='1'; }
+function isPrimary(){ return localStorage.getItem(PRIMARY_KEY)==='1' || localStorage.getItem('erin_primary_device_bak')==='1'; }
 
 // ── Archive log: rationale capture when applications are removed/declined/waitlisted ──
 // Shared store ('erin_archive_log', bin key 'archiveLog') with My List so the full
@@ -581,7 +581,19 @@ function render(){
   renderCards();
   updateSummary();
   buildFilters();
+  try{ _focusAppFromHash(); }catch(e){}
 }
+
+/* v2.50: deep-link focus — #acard-<id> from Search / Profs / Pipeline / recommenders.
+   (Cards render after load, so the browser's native hash-scroll misses them.) */
+function _focusAppFromHash(){
+  var h=(location.hash||'').replace(/^#/,''); if(h.indexOf('acard-')!==0) return;
+  var card=document.getElementById(h); if(!card) return;
+  try{ card.scrollIntoView({behavior:'smooth',block:'start'}); }catch(e){}
+  var prev=card.style.boxShadow; card.style.transition='box-shadow .35s'; card.style.boxShadow='0 0 0 3px var(--teal)';
+  setTimeout(function(){ card.style.boxShadow=prev||''; }, 2000);
+}
+window.addEventListener('hashchange', _focusAppFromHash);
 
 function renderCards(){
   var arr=loadApps();

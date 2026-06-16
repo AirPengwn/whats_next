@@ -348,7 +348,7 @@ function saveProfs(arr){ localStorage.setItem(PSTORE,JSON.stringify(arr)); }
 // Primary-device gate — only Erin's laptop writes to cloud. Defined locally so this
 // page doesn't depend on another page having loaded first.
 var PRIMARY_KEY='erin_primary_device';
-function isPrimary(){ return localStorage.getItem(PRIMARY_KEY)==='1'; }
+function isPrimary(){ return localStorage.getItem(PRIMARY_KEY)==='1' || localStorage.getItem('erin_primary_device_bak')==='1'; }
 
 
 function pushProfs(arr){

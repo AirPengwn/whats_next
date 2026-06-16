@@ -359,6 +359,7 @@ var KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
 var STORE='erin_mylist_v1';
 var mf='All'; var bf='All';
 var listScope='all'; /* v2.36 saved-list scope: 'all' | 'priority' | 'expired' */
+var _forceShowId=null; /* v2.50: a deep-linked card id to reveal even if the scope filter would hide it */
 var CATS=['All','Funded Graduate Programs','Internships','Career Positions','Service & Fellowships','Graduate Programs — Next Cycle','Internships — Next Cycle','Career Positions — Next Cycle','Service & Fellowships — Next Cycle'];
 // ALL is populated by opportunities.js (loaded before this script)
 
@@ -936,7 +937,7 @@ function renderList(){
   if(listScope==='priority') items=items.filter(function(it){ return window.PR&&PR.has(it.id); });
   else if(listScope==='expired') items=items.filter(function(it){ var m=mergeWithAll(it); return (typeof bucketOf==='function'&&bucketOf(m)===5) || m.expired===true; });
   else { /* 'all' — hide not-interested + expired by default; the View chips reveal them */
-    items=items.filter(function(it){ var m=mergeWithAll(it);
+    items=items.filter(function(it){ if(it.id===_forceShowId) return true; var m=mergeWithAll(it);
       var hide=(window.NI&&NI.has&&NI.has(it.id)) || (typeof bucketOf==='function'&&bucketOf(m)===5) || m.expired===true;
       if(hide) hiddenN++; return !hide; });
   }
@@ -967,9 +968,12 @@ function _focusCardFromHash(){
   var id=h.slice(5);
   var card=document.getElementById('card-'+id);
   if(!card){
-    /* If a filter is hiding the card, drop to All and re-render once. */
-    if(typeof mf!=='undefined' && mf!=='All'){
-      mf='All';
+    /* A category filter OR the default scope (which hides expired/not-interested)
+       may be hiding the card. Force-reveal this id + drop to All, re-render once.
+       The _forceShowId!==id guard prevents infinite recursion when the item isn't saved. */
+    if(_forceShowId!==id){
+      _forceShowId=id;
+      if(typeof mf!=='undefined') mf='All';
       try{ setMode('list'); }catch(_){}
       renderList();
       card=document.getElementById('card-'+id);

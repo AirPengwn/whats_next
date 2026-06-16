@@ -155,7 +155,7 @@ a:hover{text-decoration:underline}
 var BIN='6a039aa4250b1311c33f2bac',KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
 var MSTORE='erin_materials';
 var PRIMARY_KEY='erin_primary_device';
-function isPrimary(){ return localStorage.getItem(PRIMARY_KEY)==='1'; }
+function isPrimary(){ return localStorage.getItem(PRIMARY_KEY)==='1' || localStorage.getItem('erin_primary_device_bak')==='1'; }
 function loadMats(){ try{ return JSON.parse(localStorage.getItem(MSTORE)||'[]'); }catch(e){ return []; } }
 function saveMats(arr){ localStorage.setItem(MSTORE,JSON.stringify(arr)); }
 function pushMats(arr){
@@ -433,13 +433,17 @@ function makeCard(m){
   return card;
 }
 
-// JSONbin-first init
-seedDefaults();
+// JSONbin-first init.
+// v2.50 fix: do NOT seed before the cloud check — seeding before pushMats would
+// overwrite real cloud materials with placeholders on a fresh/cleared primary device.
+// Only seed when BOTH local AND cloud are empty (a genuine first run).
 if(isPrimary()){
   var _mats=loadMats();
-  render();
-  if(_mats.length>0){ pushMats(_mats); } // heartbeat: keep JSONbin current
-  else { pullMats(function(){ render(); }); } // recovery: localStorage empty, restore from cloud
+  if(_mats.length>0){ render(); pushMats(_mats); }            // have local → render + heartbeat
+  else { pullMats(function(){                                  // local empty → recover from cloud
+    if(!loadMats().length){ seedDefaults(); pushMats(loadMats()); }  // cloud also empty → first-run seed
+    render();
+  }); }
 } else {
   pullMats(function(){ render(); }); // secondary: always read from cloud
 }

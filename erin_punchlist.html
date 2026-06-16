@@ -741,7 +741,7 @@ var PUNCH_DATA = {
     if(isNaN(d)){ var m=s.match(/(\d{1,2})\s*[\/\-\.]\s*(\d{1,2})\s*[\/\-\.]\s*(\d{2,4})/); if(m){ d=new Date(parseInt(m[3].length===2?'20'+m[3]:m[3]),parseInt(m[1])-1,parseInt(m[2])); } if(isNaN(d)) return null; }
     return d.getTime();
   }
-  function _computeState(items, arch){
+  function _computeState(items, arch, ni){
     var rm={}; (Array.isArray(arch)?arch:[]).forEach(function(e){ if(e && e.action==='removed'){ var id=e.itemId||e.id; if(id) rm[id]=true; } });
     var exp={}, today=new Date(); today.setHours(0,0,0,0); var tms=today.getTime();
     var it=items||{};
@@ -749,11 +749,12 @@ var PUNCH_DATA = {
       if(o.expired===true){ exp[k]=true; return; }
       var d=_pd(o.deadline); if(d!=null && d<tms) exp[k]=true;
     });
-    PSTATE={items:it, removed:rm, expired:exp};
+    PSTATE={items:it, removed:rm, expired:exp, ni:(ni||{})};
   }
   function _isHidden(id){
     if(!id) return false;
-    if(!showRemoved && PSTATE.removed[id]) return true;
+    /* removed + not-interested are both "opted out" — revealed by the Show removed toggle */
+    if(!showRemoved && (PSTATE.removed[id] || (PSTATE.ni&&PSTATE.ni[id]))) return true;
     if(!showExpired && PSTATE.expired[id]) return true;
     return false;
   }
@@ -779,8 +780,8 @@ var PUNCH_DATA = {
       .then(function(r){ return r.json(); })
       .then(function(data){ var rec=(data&&data.record)||{};
         if(rec.punchDone) _memPD=rec.punchDone;
-        _computeState(rec.items||_lj('erin_mylist_v1','{}'), rec.archiveLog||_lj('erin_archive_log','[]')); cb&&cb(); })
-      .catch(function(){ _computeState(_lj('erin_mylist_v1','{}'), _lj('erin_archive_log','[]')); cb&&cb(); });
+        _computeState(rec.items||_lj('erin_mylist_v1','{}'), rec.archiveLog||_lj('erin_archive_log','[]'), rec.notInterested||_lj('erin_not_interested_v1','{}')); cb&&cb(); })
+      .catch(function(){ _computeState(_lj('erin_mylist_v1','{}'), _lj('erin_archive_log','[]'), _lj('erin_not_interested_v1','{}')); cb&&cb(); });
   }
   function syncAll(){
     var allOn = TYPES.every(function(t){return active[t];});

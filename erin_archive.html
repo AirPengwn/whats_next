@@ -149,7 +149,7 @@ a:hover{text-decoration:underline}
 var BIN='6a039aa4250b1311c33f2bac',KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
 var ARCHIVE_STORE='erin_archive_log';
 var PRIMARY_KEY='erin_primary_device';
-function isPrimary(){ return localStorage.getItem(PRIMARY_KEY)==='1'; }
+function isPrimary(){ return localStorage.getItem(PRIMARY_KEY)==='1' || localStorage.getItem('erin_primary_device_bak')==='1'; }
 function loadArchive(){ try{ return JSON.parse(localStorage.getItem(ARCHIVE_STORE)||'[]'); }catch(e){ return []; } }
 function saveArchive(arr){ localStorage.setItem(ARCHIVE_STORE,JSON.stringify(arr)); }
 function pullArchive(cb){

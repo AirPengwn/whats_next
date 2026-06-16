@@ -220,7 +220,7 @@ var BIN='6a039aa4250b1311c33f2bac';
 var KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
 var STORE='erin_ref_tracker_v1';
 var PRIMARY_KEY='erin_primary_device';
-function isPrimary(){ return localStorage.getItem(PRIMARY_KEY)==='1'; }
+function isPrimary(){ return localStorage.getItem(PRIMARY_KEY)==='1' || localStorage.getItem('erin_primary_device_bak')==='1'; }
 function loadRefs(){ try{ return JSON.parse(localStorage.getItem(STORE)||'[]'); }catch(e){ return []; } }
 function saveRefs(arr){ localStorage.setItem(STORE,JSON.stringify(arr)); }
 function pushRefs(arr){
