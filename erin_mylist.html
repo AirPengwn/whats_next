@@ -1390,6 +1390,8 @@ html.dark .bx-new{background:#ff5a3c;color:#1a1a1a}
 .bx-ni-btn.on{background:var(--red);color:#fff}
 .browse-card.is-ni{opacity:.7}
 .browse-card.is-ni:hover{opacity:1}
+.browse-card.is-reviewed{opacity:.6}
+.browse-card.is-reviewed:hover{opacity:1}
 /* v2.16: broken-link flag — red left rule + warning badge */
 .browse-card.is-bl{border-left:3px solid var(--red)}
 .bx-bl-badge{font-size:12.5px;font-weight:600;padding:2px 8px;border-radius:999px;background:var(--red-bg);color:var(--red-t);border:.5px solid var(--red);white-space:nowrap}
@@ -1712,7 +1714,7 @@ function renderBrowseX(){
     var prio=prHas(it.id);
     var rvd=rvHas(it.id);
     var blFlag=!!(window.BL&&BL.has(it.id));
-    var card=el('div','browse-card'+(saved?' is-saved':'')+(fresh?' is-new':'')+(ni?' is-ni':'')+(blFlag?' is-bl':'')); card.id='bcx-'+it.id;
+    var card=el('div','browse-card'+(saved?' is-saved':'')+(fresh?' is-new':'')+(ni?' is-ni':'')+(rvd?' is-reviewed':'')+(blFlag?' is-bl':'')); card.id='bcx-'+it.id;
     var th=el('div',null); th.style.cssText='display:flex;justify-content:space-between;gap:8px;align-items:flex-start';
     var tl=el('div',null);
     var titleRow=el('div',null); titleRow.style.cssText='display:flex;align-items:center;gap:7px;flex-wrap:wrap';

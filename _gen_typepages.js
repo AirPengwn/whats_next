@@ -123,6 +123,8 @@ html.dark .bx-new{background:#ff5a3c;color:#1a1a1a}
 .bx-ni-btn.on{background:var(--red);color:#fff}
 .browse-card.is-ni{opacity:.7}
 .browse-card.is-ni:hover{opacity:1}
+.browse-card.is-reviewed{opacity:.6}
+.browse-card.is-reviewed:hover{opacity:1}
 .bx-urg{font-size:12.5px;font-weight:700;padding:2px 8px;border-radius:999px;white-space:nowrap}
 .u0{background:var(--red-bg);color:#993c1d}.u1{background:var(--amber-bg);color:var(--amber-t)}
 .u2{background:var(--teal-bg);color:var(--teal-t)}.u3{background:var(--blue-bg);color:var(--blue)}
