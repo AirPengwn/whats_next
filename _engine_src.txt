@@ -48,7 +48,19 @@ var BX={type:LOCK_TYPE?[LOCK_TYPE]:[],cycle:[],status:[],region:[],fit:[],fresh:
 var showPassed=false; /* "Hide passed/expired" is default ON; this toggle reveals them */
 var showNI=false; /* "Hide Not interested" is default ON; this toggle reveals them */
 var onlyBroken=false; /* v2.19: restrict view to only items flagged as broken-link */
+var viewScope='all'; /* scope view: 'all' | 'priority' | 'expired' | 'removed' — absolute when not 'all' */
 function niHas(id){ return !!(window.NI && NI.has && NI.has(id)); }
+function prHas(id){ return !!(window.PR && PR.has && PR.has(id)); }
+function isExpiredItem(it){ return bucketOf(it)===5 || it.expired===true; }
+/* Items Erin removed from My List (archive log, action 'removed'). Reads
+   localStorage on the primary device; falls back to the reader-mode cache. */
+function removedSet(){
+  var s={}, a=[];
+  try{ a=JSON.parse(localStorage.getItem('erin_archive_log')||'[]'); }catch(e){ a=[]; }
+  if((!a||!a.length) && window.__arch) a=window.__arch;
+  if(Array.isArray(a)) a.forEach(function(e){ if(e && e.action==='removed'){ var id=e.itemId||e.id; if(id) s[id]=true; } });
+  return s;
+}
 /* deep-link pre-filters: ?region=… &type=… &view=browse (home quick-links) */
 (function(){ try{
   var q=new URLSearchParams((typeof location!=='undefined'&&location.search)||'');
@@ -103,9 +115,19 @@ function mgroup(label,arr,opts){
   return fgroup(label,kids);
 }
 
+/* single-select scope group: exactly one chip active at a time */
+function sgroup(label,opts){
+  var kids=opts.map(function(o){ var lbl=o[0],val=o[1];
+    return chip(lbl, viewScope===val, function(){ viewScope=val; renderBrowse(); }); });
+  return fgroup(label,kids);
+}
 function buildBrowseFiltersX(){
   var w=document.getElementById('browse-filters'); if(!w) return;
   w.className='bx-fwrap'; w.innerHTML='';
+  /* v2.36: scope "View" row on top — All / Priority / Expired / Removed */
+  var _vrow=sgroup('View', [['All','all'],['⭐ Priority only','priority'],['⌛ Expired only','expired'],['🗑 Removed only','removed']]);
+  _vrow.style.cssText='flex-basis:100%;border-bottom:.5px solid var(--bd);padding-bottom:.5rem;margin-bottom:.2rem';
+  w.appendChild(_vrow);
   if(!LOCK_TYPE) w.appendChild(mgroup('Type', BX.type, TYPES.slice(1).map(function(t){return [t,t];})));
   w.appendChild(mgroup('Cycle', BX.cycle, CYCLES.slice(1)));
   w.appendChild(mgroup('Region', BX.region, REGIONS.map(function(r){return [r,r];})));
@@ -240,13 +262,21 @@ function buildBrowseDetailX(it){
 function renderBrowseX(){
   buildBrowseFiltersX();
   var q=((document.getElementById('bs')||{}).value||'').toLowerCase();
+  var RM = viewScope==='removed' ? removedSet() : null;
   var items=ALL.filter(function(it){
+    /* scope "View" — absolute: shows the subset even if saved/passed/hidden */
+    if(viewScope==='priority'){ if(!prHas(it.id)) return false; }
+    else if(viewScope==='expired'){ if(!isExpiredItem(it)) return false; }
+    else if(viewScope==='removed'){ if(!RM[it.id]) return false; }
     if(BX.type.length   && !has1(BX.type,typeOf(it))) return false;
     if(BX.cycle.length  && !has1(BX.cycle,(it.cycle||'current'))) return false;
     if(BX.region.length && !has1(BX.region,(it.region||'National / Remote / Multiple'))) return false;
     if(BX.status.length && !has1(BX.status,bucketOf(it))) return false;
-    if((bucketOf(it)===5 || it.expired===true) && !showPassed && !(BX.status.length && has1(BX.status,5))) return false;
-    if(niHas(it.id) && !showNI) return false;
+    /* default passed/expired + not-interested hides apply only in the 'all' view */
+    if(viewScope==='all'){
+      if((bucketOf(it)===5 || it.expired===true) && !showPassed && !(BX.status.length && has1(BX.status,5))) return false;
+      if(niHas(it.id) && !showNI) return false;
+    }
     if(onlyBroken && !(window.BL && BL.has(it.id))) return false;  /* v2.19 */
     if(BX.fit.length    && !has1(BX.fit,fitLabel(it))) return false;
     if(BX.fresh.length){ var fOk=false;
@@ -282,6 +312,7 @@ function renderBrowseX(){
     var saved=(typeof has==='function')&&has(it.id);
     var fresh=isNewItem(it);
     var ni=niHas(it.id);
+    var prio=prHas(it.id);
     var blFlag=!!(window.BL&&BL.has(it.id));
     var card=el('div','browse-card'+(saved?' is-saved':'')+(fresh?' is-new':'')+(ni?' is-ni':'')+(blFlag?' is-bl':'')); card.id='bcx-'+it.id;
     var th=el('div',null); th.style.cssText='display:flex;justify-content:space-between;gap:8px;align-items:flex-start';
@@ -289,6 +320,7 @@ function renderBrowseX(){
     var titleRow=el('div',null); titleRow.style.cssText='display:flex;align-items:center;gap:7px;flex-wrap:wrap';
     if(fresh) titleRow.appendChild(el('span','bx-new','✨ NEW'));
     titleRow.appendChild(el('div','browse-title',it.title));
+    if(prio){ var _pb=el('span','bx-saved','⭐ Priority'); _pb.style.cssText='background:var(--purple-bg);color:var(--purple-t)'; titleRow.appendChild(_pb); }
     if(saved) titleRow.appendChild(el('span','bx-saved','✓ Saved'));
     if(ni) titleRow.appendChild(el('span','bx-ni-badge','✗ Not interested'));
     if(blFlag) titleRow.appendChild(el('span','bx-bl-badge','⚠ Link reported broken'));
@@ -326,8 +358,18 @@ function renderBrowseX(){
     var nibtn=el('button','bx-ni-btn'+(ni?' on':''), ni?'↩ Show again':'✗ Not interested');
     nibtn.onclick=function(){ if(window.NI&&NI.toggle){ NI.toggle(it.id); renderBrowse(); } };
     rightGrp.appendChild(nibtn);
+    /* Priority marker — sits beside Save. Turning it ON also saves the item
+       (a priority item is always in My List). Turning it OFF leaves it saved. */
+    var pbtn=el('button','bx-prio-btn'+(prio?' on':''), prio?'⭐ Priority':'☆ Priority');
+    pbtn.style.cssText='font-size:12.5px;font-weight:600;padding:4px 12px;border-radius:999px;cursor:pointer;font-family:var(--fn);white-space:nowrap;border:1px solid var(--purple-t);'+(prio?'background:var(--purple-t);color:#fff':'background:transparent;color:var(--purple-t)');
+    pbtn.title=prio?'Remove from your focus list':'Mark as a focus item (also saves it to My List)';
+    pbtn.onclick=function(ev){ ev.stopPropagation(); if(!window.PR) return;
+      if(PR.has(it.id)){ PR.set(it.id,false); }
+      else { if(!(typeof has==='function'&&has(it.id)) && typeof addItem==='function') addItem(it); PR.set(it.id,true); }
+      renderBrowse(); if(typeof renderList==='function')renderList(); };
+    rightGrp.appendChild(pbtn);
     var sv=el('button','browse-save-btn'+(saved?' saved':''), saved?'★ Saved':'☆ Save to My List');
-    sv.onclick=function(){ if(typeof has==='function'&&has(it.id)){ if(typeof delItem==='function')delItem(it.id); } else if(typeof addItem==='function'){ addItem(it); } renderBrowse(); if(typeof renderList==='function')renderList(); };
+    sv.onclick=function(){ if(typeof has==='function'&&has(it.id)){ if(typeof delItem==='function')delItem(it.id); if(window.PR&&PR.has(it.id))PR.set(it.id,false); } else if(typeof addItem==='function'){ addItem(it); } renderBrowse(); if(typeof renderList==='function')renderList(); };
     rightGrp.appendChild(sv);
     acts.appendChild(rightGrp);
     card.appendChild(acts);

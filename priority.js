@@ -146,6 +146,7 @@
           if(r.writing) localStorage.setItem('erin_writing_samples',JSON.stringify(r.writing));
           if(r.materials) localStorage.setItem('erin_materials',JSON.stringify(r.materials));
           if(r.archiveLog) localStorage.setItem('erin_archive_log',JSON.stringify(r.archiveLog));
+          if(r.priority) localStorage.setItem('erin_priority_v1',JSON.stringify(r.priority));
           try{ var n=Object.keys(JSON.parse(localStorage.getItem('erin_mylist_v1')||'{}')).length; var e=document.getElementById('home-count'); if(e) e.textContent=n>0?n:''; }catch(e){}
         }
       }).catch(function(){}).then(function(){ render(); });

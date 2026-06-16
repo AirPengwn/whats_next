@@ -6,7 +6,7 @@ function isPrimary(){return localStorage.getItem('erin_primary_device')==='1'||l
    to localStorage, never pushed to cloud. A one-shot cloud GET below
    seeds the cache so the reader sees Erin's actual list; clicks update
    memory; refresh resets to whatever cloud says. */
-var _mem=null, _memNI=null, _memBL=null;
+var _mem=null, _memNI=null, _memBL=null, _memPR=null;
 function getSaved(){if(isPrimary()){try{return JSON.parse(localStorage.getItem(STORE)||'{}')}catch(e){return{}}} if(_mem===null)_mem={}; return _mem;}
 function setSaved(m){if(isPrimary()){localStorage.setItem(STORE,JSON.stringify(m));} else {_mem=m;}}
 function isSaved(id){return!!getSaved()[id];}
@@ -83,6 +83,33 @@ window.BL={
   has:function(id){return !!getBL()[id];},
   toggle:function(id){var m=getBL(); if(m[id]) delete m[id]; else m[id]=true; setBL(m); pushBL(m); return !!m[id];}
 };
+/* "Priority / focus" personal flag — same primary-gated sync model. Marks the
+   small set of opportunities Erin is actively focused on. Stored as { id:true }
+   locally + under `priority` in JSONbin. Toggling priority ON also saves the
+   item (the card click handler calls ML.save first), so a priority item is
+   always a member of My List. */
+var PR_STORE='erin_priority_v1';
+function getPR(){if(isPrimary()){try{return JSON.parse(localStorage.getItem(PR_STORE)||'{}')}catch(e){return{}}} if(_memPR===null)_memPR={}; return _memPR;}
+function setPR(m){if(isPrimary()){localStorage.setItem(PR_STORE,JSON.stringify(m));} else {_memPR=m;}}
+function pushPR(m){
+  if(!isPrimary()) return;
+  fetch('https://api.jsonbin.io/v3/b/'+BIN_ID+'/latest',{headers:{'X-Master-Key':API_KEY}})
+    .then(function(r){return r.json();})
+    .then(function(data){
+      var rec=(data&&data.record)||{};
+      rec.priority=m;                   /* merge: only replace priority key */
+      return fetch('https://api.jsonbin.io/v3/b/'+BIN_ID,{
+        method:'PUT',
+        headers:{'Content-Type':'application/json','X-Master-Key':API_KEY,'X-Bin-Versioning':'false'},
+        body:JSON.stringify(rec)
+      });
+    }).catch(function(){});
+}
+window.PR={
+  has:function(id){return !!getPR()[id];},
+  set:function(id,on){var m=getPR(); if(on) m[id]=true; else delete m[id]; setPR(m); pushPR(m); return !!m[id];},
+  toggle:function(id){return window.PR.set(id,!window.PR.has(id));}
+};
 /* Reader-mode init: one-shot read-only cloud pull so the in-memory cache
    reflects Erin's actual Saved + Not-Interested state on first paint. */
 function _readerPull(){
@@ -94,6 +121,8 @@ function _readerPull(){
       if(rec.items) _mem = rec.items;
       if(rec.notInterested) _memNI = rec.notInterested;
       if(rec.brokenLinks) _memBL = rec.brokenLinks;
+      if(rec.priority) _memPR = rec.priority;
+      if(rec.archiveLog) window.__arch = rec.archiveLog;   /* for the "Removed only" view on reader devices */
       ML.update();
       try{ if(typeof renderBrowse==='function') renderBrowse(); }catch(e){}
     }).catch(function(){});

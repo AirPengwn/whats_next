@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
-<link rel="stylesheet" href="styles.css?v=20260615-124-dc421408">
+<link rel="stylesheet" href="styles.css?v=20260616-124-dc421408">
 <title>My Opportunity List — What's Next for Erin</title>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -257,8 +257,8 @@ var(--mute-t);border:1px solid var(--bds)}
 </style>
 
 <script src="icons.js?v=20260602"></script>
-<script src="site.js?v=20260615-124-dc421408"></script>
-<script src="opportunities.js?v=20260615-124-dc421408"></script>
+<script src="site.js?v=20260616-124-dc421408"></script>
+<script src="opportunities.js?v=20260616-124-dc421408"></script>
 <script>
 (function(){
   var saved=localStorage.getItem('erin_theme');
@@ -358,6 +358,7 @@ var BIN='6a039aa4250b1311c33f2bac';
 var KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
 var STORE='erin_mylist_v1';
 var mf='All'; var bf='All';
+var listScope='all'; /* v2.36 saved-list scope: 'all' | 'priority' | 'expired' */
 var CATS=['All','Funded Graduate Programs','Internships','Career Positions','Service & Fellowships','Graduate Programs — Next Cycle','Internships — Next Cycle','Career Positions — Next Cycle','Service & Fellowships — Next Cycle'];
 // ALL is populated by opportunities.js (loaded before this script)
 
@@ -466,6 +467,40 @@ function pushBL(m){
 window.BL={
   has:function(id){ return !!blLoad()[id]; },
   toggle:function(id){ var m=blLoad(); if(m[id]) delete m[id]; else m[id]=true; blSave(m); pushBL(m); return !!m[id]; }
+};
+
+/* v2.36: "Priority / focus" personal flag — primary-gated cloud sync, same model.
+   localStorage `erin_priority_v1` + JSONbin record key `priority`. Marking an
+   item priority also keeps it saved in My List (callers save first). */
+var PR_STORE='erin_priority_v1';
+var _memPR = null;
+function prLoad(){
+  if(isPrimary()){ try{ return JSON.parse(localStorage.getItem(PR_STORE)||'{}'); }catch(e){ return {}; } }
+  if(_memPR===null) _memPR={};
+  return _memPR;
+}
+function prSave(m){
+  if(isPrimary()){ localStorage.setItem(PR_STORE, JSON.stringify(m)); }
+  else { _memPR = m; }
+}
+function pushPR(m){
+  if(!isPrimary()) return;
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+    .then(function(r){return r.json();})
+    .then(function(data){
+      var rec=data.record||{};
+      rec.priority=m;
+      return fetch('https://api.jsonbin.io/v3/b/'+BIN,{
+        method:'PUT',
+        headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},
+        body:JSON.stringify(rec)
+      });
+    }).then(function(){ flash('Synced'); }).catch(function(){ flash('Sync error'); });
+}
+window.PR={
+  has:function(id){ return !!prLoad()[id]; },
+  set:function(id,on){ var m=prLoad(); if(on) m[id]=true; else delete m[id]; prSave(m); pushPR(m); return !!m[id]; },
+  toggle:function(id){ return window.PR.set(id,!window.PR.has(id)); }
 };
 
 // ── Archive log: rationale capture when items are removed from My List ──
@@ -818,6 +853,7 @@ function makeListCard(it){
 
   var pills=el('div','item-pills');
   var cp=el('span','ip '+catCls(it.cat||it.type)); cp.textContent=catLbl(it.cat||it.type); pills.appendChild(cp);
+  if(window.PR&&PR.has(it.id)){ var _pp=el('span','ip','⭐ Priority'); _pp.style.cssText='background:var(--purple-bg);color:var(--purple-t)'; pills.appendChild(_pp); }
   if(it.badge){ var bp=el('span','ip ip-next',it.badge); pills.appendChild(bp); }
   (it.pills||[]).slice(0,3).forEach(function(p){ pills.appendChild(el('span','ip ip-next',p)); });
   if(_blOnCard){ pills.appendChild(el('span','bx-bl-badge','⚠ Link reported broken')); }
@@ -845,6 +881,12 @@ function makeListCard(it){
   var ab=el('button','act-btn','→ Apps'); ab.title='Add to Application Tracker';
   ab.onclick=function(){ addToApps(it,ab); }; acts.appendChild(ab);
 
+  var _isP=!!(window.PR&&PR.has(it.id));
+  var pbt=el('button','act-btn',_isP?'⭐ Priority ✓':'☆ Make priority');
+  pbt.title=_isP?'Remove from your focus list':'Add to your focus list';
+  pbt.onclick=function(){ if(window.PR){ PR.set(it.id,!PR.has(it.id)); renderList(); } };
+  acts.appendChild(pbt);
+  acts.appendChild(el('span','act-sep',' · '));
   var rb=el('button','act-remove','Remove');
   rb.onclick=function(){
     window.showArchiveModal(
@@ -878,7 +920,20 @@ function renderList(){
     ? n+' opportunit'+(n===1?'y':'ies')+' saved'
     : 'No items saved yet - use Browse All to add some';
   buildFilters('list-filters',mf,function(c){ mf=c; renderList(); });
+  /* v2.36: scope "View" row — All / Priority only / Expired only (saved items) */
+  (function(){
+    var wrap=document.getElementById('list-filters'); if(!wrap) return;
+    var sep=el('span',null,'View:'); sep.style.cssText='font-size:12.5px;font-weight:600;color:var(--t3);margin:0 4px 0 12px;align-self:center';
+    wrap.appendChild(sep);
+    [['All','all'],['⭐ Priority only','priority'],['⌛ Expired only','expired']].forEach(function(o){
+      var b=el('button','f-btn'+(listScope===o[1]?' on':''),o[0]);
+      b.onclick=function(){ listScope=o[1]; renderList(); };
+      wrap.appendChild(b);
+    });
+  })();
   var items=mf==='All'?all:all.filter(function(it){ return (it.cat||it.type)===mf; });
+  if(listScope==='priority') items=items.filter(function(it){ return window.PR&&PR.has(it.id); });
+  else if(listScope==='expired') items=items.filter(function(it){ var m=mergeWithAll(it); return (typeof bucketOf==='function'&&bucketOf(m)===5) || m.expired===true; });
   var body=document.getElementById('list-body'); body.innerHTML='';
   if(!items.length){
     var e=el('div','empty');
@@ -1027,6 +1082,7 @@ initPrimaryBtn();
     {cloud:'items',          ls:'erin_mylist_v1',        label:'My List (saved/favorited)'},
     {cloud:'notInterested',  ls:'erin_not_interested_v1',label:'Not interested (hidden in Browse)'},
     {cloud:'brokenLinks',    ls:'erin_broken_links_v1',  label:'Broken-link flags (for next sweep)'},
+    {cloud:'priority',       ls:'erin_priority_v1',      label:'Priority / focus flags'},
     {cloud:'apps',           ls:'erin_applications_v1',  label:'Applications tracker'},
     {cloud:'archiveLog',     ls:'erin_archive_log',      label:'Archive log'},
     {cloud:'profs',          ls:'erin_prof_contacts',    label:'Professor tracker'},
@@ -1343,7 +1399,17 @@ var BX={type:[],cycle:[],status:[],region:[],fit:[],fresh:[],sub:{}};
 var showPassed=false; /* "Hide passed/expired" is default ON; this toggle reveals them */
 var showNI=false; /* "Hide Not interested" is default ON; this toggle reveals them */
 var onlyBroken=false; /* v2.19: restrict view to only items flagged as broken-link */
+var viewScope='all'; /* v2.36 scope view: 'all' | 'priority' | 'expired' | 'removed' — absolute when not 'all' */
 function niHas(id){ return !!(window.NI && NI.has && NI.has(id)); }
+function prHas(id){ return !!(window.PR && PR.has && PR.has(id)); }
+function isExpiredItem(it){ return bucketOf(it)===5 || it.expired===true; }
+function removedSet(){
+  var s={}, a=[];
+  try{ a=JSON.parse(localStorage.getItem('erin_archive_log')||'[]'); }catch(e){ a=[]; }
+  if((!a||!a.length) && window.__arch) a=window.__arch;
+  if(Array.isArray(a)) a.forEach(function(e){ if(e && e.action==='removed'){ var id=e.itemId||e.id; if(id) s[id]=true; } });
+  return s;
+}
 /* deep-link pre-filters: ?region=… &type=… &view=browse (home quick-links) */
 (function(){ try{
   var q=new URLSearchParams((typeof location!=='undefined'&&location.search)||'');
@@ -1394,9 +1460,18 @@ function mgroup(label,arr,opts){
   return fgroup(label,kids);
 }
 
+function sgroup(label,opts){
+  var kids=opts.map(function(o){ var lbl=o[0],val=o[1];
+    return chip(lbl, viewScope===val, function(){ viewScope=val; renderBrowse(); }); });
+  return fgroup(label,kids);
+}
 function buildBrowseFiltersX(){
   var w=document.getElementById('browse-filters'); if(!w) return;
   w.className='bx-fwrap'; w.innerHTML='';
+  /* v2.36: scope "View" row on top — All / Priority / Expired / Removed */
+  var _vrow=sgroup('View', [['All','all'],['⭐ Priority only','priority'],['⌛ Expired only','expired'],['🗑 Removed only','removed']]);
+  _vrow.style.cssText='flex-basis:100%;border-bottom:.5px solid var(--bd);padding-bottom:.5rem;margin-bottom:.2rem';
+  w.appendChild(_vrow);
   w.appendChild(mgroup('Type', BX.type, TYPES.slice(1).map(function(t){return [t,t];})));
   w.appendChild(mgroup('Cycle', BX.cycle, CYCLES.slice(1)));
   w.appendChild(mgroup('Region', BX.region, REGIONS.map(function(r){return [r,r];})));
@@ -1521,13 +1596,20 @@ function buildBrowseDetailX(it){
 function renderBrowseX(){
   buildBrowseFiltersX();
   var q=((document.getElementById('bs')||{}).value||'').toLowerCase();
+  var RM = viewScope==='removed' ? removedSet() : null;
   var items=ALL.filter(function(it){
+    /* v2.36 scope "View" — absolute: shows the subset even if saved/passed/hidden */
+    if(viewScope==='priority'){ if(!prHas(it.id)) return false; }
+    else if(viewScope==='expired'){ if(!isExpiredItem(it)) return false; }
+    else if(viewScope==='removed'){ if(!RM[it.id]) return false; }
     if(BX.type.length   && !has1(BX.type,typeOf(it))) return false;
     if(BX.cycle.length  && !has1(BX.cycle,(it.cycle||'current'))) return false;
     if(BX.region.length && !has1(BX.region,(it.region||'National / Remote / Multiple'))) return false;
     if(BX.status.length && !has1(BX.status,bucketOf(it))) return false;
-    if((bucketOf(it)===5 || it.expired===true) && !showPassed && !(BX.status.length && has1(BX.status,5))) return false;
-    if(niHas(it.id) && !showNI) return false;
+    if(viewScope==='all'){
+      if((bucketOf(it)===5 || it.expired===true) && !showPassed && !(BX.status.length && has1(BX.status,5))) return false;
+      if(niHas(it.id) && !showNI) return false;
+    }
     if(onlyBroken && !(window.BL && BL.has(it.id))) return false;  /* v2.19 */
     if(BX.fit.length    && !has1(BX.fit,fitLabel(it))) return false;
     if(BX.fresh.length){ var fOk=false;
@@ -1562,6 +1644,7 @@ function renderBrowseX(){
     var saved=(typeof has==='function')&&has(it.id);
     var fresh=isNewItem(it);
     var ni=niHas(it.id);
+    var prio=prHas(it.id);
     var blFlag=!!(window.BL&&BL.has(it.id));
     var card=el('div','browse-card'+(saved?' is-saved':'')+(fresh?' is-new':'')+(ni?' is-ni':'')+(blFlag?' is-bl':'')); card.id='bcx-'+it.id;
     var th=el('div',null); th.style.cssText='display:flex;justify-content:space-between;gap:8px;align-items:flex-start';
@@ -1569,6 +1652,7 @@ function renderBrowseX(){
     var titleRow=el('div',null); titleRow.style.cssText='display:flex;align-items:center;gap:7px;flex-wrap:wrap';
     if(fresh) titleRow.appendChild(el('span','bx-new','✨ NEW'));
     titleRow.appendChild(el('div','browse-title',it.title));
+    if(prio){ var _pb=el('span','bx-saved','⭐ Priority'); _pb.style.cssText='background:var(--purple-bg);color:var(--purple-t)'; titleRow.appendChild(_pb); }
     if(saved) titleRow.appendChild(el('span','bx-saved','✓ Saved'));
     if(ni) titleRow.appendChild(el('span','bx-ni-badge','✗ Not interested'));
     if(blFlag) titleRow.appendChild(el('span','bx-bl-badge','⚠ Link reported broken'));
@@ -1605,8 +1689,17 @@ function renderBrowseX(){
     var nibtn=el('button','bx-ni-btn'+(ni?' on':''), ni?'↩ Show again':'✗ Not interested');
     nibtn.onclick=function(){ if(window.NI&&NI.toggle){ NI.toggle(it.id); renderBrowse(); } };
     rightGrp.appendChild(nibtn);
+    /* v2.36 Priority marker — turning ON also saves the item; OFF leaves it saved. */
+    var pbtn=el('button','bx-prio-btn'+(prio?' on':''), prio?'⭐ Priority':'☆ Priority');
+    pbtn.style.cssText='font-size:12.5px;font-weight:600;padding:4px 12px;border-radius:999px;cursor:pointer;font-family:var(--fn);white-space:nowrap;border:1px solid var(--purple-t);'+(prio?'background:var(--purple-t);color:#fff':'background:transparent;color:var(--purple-t)');
+    pbtn.title=prio?'Remove from your focus list':'Mark as a focus item (also saves it to My List)';
+    pbtn.onclick=function(ev){ ev.stopPropagation(); if(!window.PR) return;
+      if(PR.has(it.id)){ PR.set(it.id,false); }
+      else { if(!(typeof has==='function'&&has(it.id)) && typeof addItem==='function') addItem(it); PR.set(it.id,true); }
+      renderBrowse(); if(typeof renderList==='function')renderList(); };
+    rightGrp.appendChild(pbtn);
     var sv=el('button','browse-save-btn'+(saved?' saved':''), saved?'★ Saved':'☆ Save to My List');
-    sv.onclick=function(){ if(typeof has==='function'&&has(it.id)){ if(typeof delItem==='function')delItem(it.id); } else if(typeof addItem==='function'){ addItem(it); } renderBrowse(); if(typeof renderList==='function')renderList(); };
+    sv.onclick=function(){ if(typeof has==='function'&&has(it.id)){ if(typeof delItem==='function')delItem(it.id); if(window.PR&&PR.has(it.id))PR.set(it.id,false); } else if(typeof addItem==='function'){ addItem(it); } renderBrowse(); if(typeof renderList==='function')renderList(); };
     rightGrp.appendChild(sv);
     acts.appendChild(rightGrp);
     card.appendChild(acts);

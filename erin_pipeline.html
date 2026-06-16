@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
-<link rel="stylesheet" href="styles.css?v=20260615-124-dc421408">
+<link rel="stylesheet" href="styles.css?v=20260616-124-dc421408">
 <title>Pipeline — What's Next for Erin</title>
 <style>
 body{padding:0 0 3rem}
@@ -18,6 +18,7 @@ body{padding:0 0 3rem}
 .fn-n{font-size:22px;font-weight:700;color:var(--t1)}
 .fn-l{font-size:12.5px;color:var(--t3);margin-top:2px}
 .fn-cell.c-save{border-top:3px solid var(--bds)}
+.fn-cell.c-prio{border-top:3px solid var(--purple-t)}
 .fn-cell.c-prep{border-top:3px solid #ef9f27}
 .fn-cell.c-sub{border-top:3px solid var(--blue)}
 .fn-cell.c-await{border-top:3px solid var(--purple-t)}
@@ -25,7 +26,7 @@ body{padding:0 0 3rem}
 .fn-cell.c-out{border-top:3px solid var(--teal)}
 
 /* v2.0 Phase 4a: wider column gap to match cab-page width */
-.board{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
+.board{display:grid;grid-template-columns:repeat(7,1fr);gap:14px}
 @media(max-width:1080px){.board{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:680px){.board{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:460px){.board{grid-template-columns:1fr}}
@@ -34,7 +35,7 @@ body{padding:0 0 3rem}
 .col-desc{font-size:12.5px;color:var(--t3);line-height:1.45;margin-bottom:.7rem}
 .col-title{font-size:13px;font-weight:700;color:var(--t1);display:flex;align-items:center;gap:6px}
 .col-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
-.d-save{background:var(--bds)}.d-prep{background:#ef9f27}.d-sub{background:var(--blue)}.d-await{background:var(--purple-t)}.d-intv{background:#185fa5}.d-out{background:var(--teal)}
+.d-save{background:var(--bds)}.d-prio{background:var(--purple-t)}.d-prep{background:#ef9f27}.d-sub{background:var(--blue)}.d-await{background:var(--purple-t)}.d-intv{background:#185fa5}.d-out{background:var(--teal)}
 .col-count{font-size:12.5px;font-weight:600;padding:1px 8px;border-radius:999px;background:var(--bg2);color:var(--t2)}
 /* v2.0 Phase 4a: more air between Pipeline cards (per mockup) */
 .pcard{display:block;background:var(--bg2);border:.5px solid var(--bd);border-radius:var(--r1);padding:.75rem .85rem;margin-bottom:.65rem;text-decoration:none;color:var(--t1);transition:border-color .12s,background .12s}
@@ -85,7 +86,7 @@ body{padding:0 0 3rem}
 })();
 </script>
 <script src="icons.js?v=20260602"></script>
-<script src="site.js?v=20260615-124-dc421408"></script>
+<script src="site.js?v=20260616-124-dc421408"></script>
 </head>
 <body>
 
@@ -180,8 +181,9 @@ body{padding:0 0 3rem}
   function build(rec){
     var ml=rec.items||lj('erin_mylist_v1','{}');
     var apps=rec.apps||lj('erin_applications_v1','[]');
+    var pr=rec.priority||lj('erin_priority_v1','{}');
     if(!Array.isArray(apps)) apps=[];
-    var cols={save:[],prep:[],sub:[],await:[],intv:[],out:[]};
+    var cols={save:[],prio:[],prep:[],sub:[],await:[],intv:[],out:[]};
     var inApp={};
     apps.forEach(function(a){
       var key=((a.programTitle||'')+'|'+(a.org||'')).toLowerCase();
@@ -191,25 +193,29 @@ body{padding:0 0 3rem}
         name:(a.programTitle||'Untitled').split('—')[0].trim(),
         org:a.org||'', cat:a.itemType||'', deadline:a.deadline||'',
         status:SL[(a.status||'')]|| (a.status||''), rawStatus:(a.status||'').toLowerCase(),
-        link:'erin_applications.html#acard-'+(a.id||''), d:dayDiff(a.deadline)
+        link:'erin_applications.html#acard-'+(a.id||''), d:dayDiff(a.deadline),
+        itemId:a.itemId||'', prio:!!(a.itemId&&pr[a.itemId])
       });
     });
     Object.keys(ml).forEach(function(k){
       var it=ml[k]; if(!it||it._done) return;
       var key=((it.title||'')+'|'+(it.org||'')).toLowerCase();
       if(inApp[key]) return;
-      cols.save.push({
+      var card={
         name:(it.title||'Untitled').split('—')[0].trim(),
         org:it.org||'', cat:it.type||it.cat||'', deadline:it.deadline||'',
-        status:'', rawStatus:'', link:'erin_mylist.html', d:dayDiff(it.deadline)
-      });
+        status:'', rawStatus:'', link:'erin_mylist.html', d:dayDiff(it.deadline),
+        itemId:k, prio:!!pr[k]
+      };
+      /* Priority saved-stage items split OUT of Saved into the Priority column */
+      if(pr[k]) cols.prio.push(card); else cols.save.push(card);
     });
     function byDeadline(x,y){
       if(x.d==null&&y.d==null) return 0;
       if(x.d==null) return 1; if(y.d==null) return -1;
       return x.d-y.d;
     }
-    ['save','prep','sub','await','intv'].forEach(function(k){ cols[k].sort(byDeadline); });
+    ['save','prio','prep','sub','await','intv'].forEach(function(k){ cols[k].sort(byDeadline); });
     /* Outcome: accepted first, then waitlisted, decision, declined */
     cols.out.sort(function(x,y){
       var rx=OUT_RANK[x.rawStatus]==null?9:OUT_RANK[x.rawStatus];
@@ -240,7 +246,7 @@ body{padding:0 0 3rem}
   function cardHtml(c){
     var cc=fmtCatCls(c.cat), dt=dueText(c.deadline);
     var h='<a class="pcard" href="'+esc(c.link)+'">';
-    h+='<div class="pc-name">'+esc(c.name)+'</div>';
+    h+='<div class="pc-name">'+(c.prio?'⭐ ':'')+esc(c.name)+'</div>';
     if(c.org) h+='<div class="pc-org">'+esc(c.org)+'</div>';
     h+='<div class="pc-foot"><span class="pc-pill '+cc[1]+'">'+esc(cc[0])+'</span>';
     if(dt[0]) h+='<span class="pc-due'+(dt[1]?' warn':'')+'">'+esc(dt[0])+'</span>';
@@ -251,6 +257,7 @@ body{padding:0 0 3rem}
 
   var COLDESC={
     save:'Saved to My List — not started applying yet.',
+    prio:'Your focus list — saved items you starred as priority.',
     prep:'Application underway — gathering materials, drafting, lining up references.',
     sub:'Submitted; nothing needed from you right now.',
     await:'Submitted and waiting on a decision (no interview stage).',
@@ -290,26 +297,68 @@ body{padding:0 0 3rem}
     if(!b) return; var open=b.classList.toggle('open'); if(t) t.textContent=open?'Hide':'Show';
   };
 
+  /* v2.36 scope view: 'all' | 'priority' | 'expired' | 'removed' */
+  var viewScope='all', _rec={};
+  function applyScope(cols){
+    if(viewScope==='all') return cols;
+    if(viewScope==='removed'){
+      return {save:[],prio:[],prep:[],sub:[],await:[],intv:[],out:[],
+        archived:(cols.archived||[]).filter(function(e){ return /remov/i.test(e.action||''); })};
+    }
+    var out={archived:cols.archived};
+    ['save','prio','prep','sub','await','intv','out'].forEach(function(k){
+      out[k]=(cols[k]||[]).filter(function(c){
+        if(viewScope==='priority') return c.prio;
+        if(viewScope==='expired') return c.d!=null && c.d<0;
+        return true;
+      });
+    });
+    return out;
+  }
+  function scopeRow(){
+    var opts=[['All','all'],['⭐ Priority','priority'],['⌛ Expired','expired'],['🗑 Removed','removed']];
+    var h='<div style="display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-bottom:1rem">';
+    h+='<span style="font-size:12.5px;font-weight:600;color:var(--t3);margin-right:4px">View:</span>';
+    opts.forEach(function(o){ var on=viewScope===o[1];
+      h+='<button type="button" onclick="window.__plScope(\''+o[1]+'\')" style="font-size:12.5px;padding:4px 12px;border-radius:999px;border:.5px solid '+(on?'var(--teal)':'var(--bds)')+';background:'+(on?'var(--teal)':'transparent')+';color:'+(on?'#fff':'var(--t2)')+';cursor:pointer;font-family:var(--fn);font-weight:'+(on?'600':'500')+'">'+o[0]+'</button>';
+    });
+    return h+'</div>';
+  }
+  window.__plScope=function(v){ viewScope=v; render(); };
+
   function render(rec){
-    var cols=build(rec||{});
+    if(rec) _rec=rec;
+    var cols=build(_rec||{});
+    var view=applyScope(cols);
     var root=document.getElementById('pl-root'); if(!root) return;
+    if(viewScope==='removed'){
+      var rm=view.archived||[];
+      root.innerHTML=scopeRow()
+        +'<div class="legend" style="margin:0 0 1rem">Showing only items you removed from My List.</div>'
+        +(rm.length?archHtml(rm):'<div class="col-empty">Nothing removed yet.</div>');
+      var b=document.getElementById('archBody'); if(b) b.classList.add('open');
+      var t=document.getElementById('archTgl'); if(t) t.textContent='Hide';
+      return;
+    }
     var fn='<div class="funnel">'
-      +'<div class="fn-cell c-save"><div class="fn-n">'+cols.save.length+'</div><div class="fn-l">Saved</div></div>'
-      +'<div class="fn-cell c-prep"><div class="fn-n">'+cols.prep.length+'</div><div class="fn-l">Preparing</div></div>'
-      +'<div class="fn-cell c-sub"><div class="fn-n">'+cols.sub.length+'</div><div class="fn-l">Submitted</div></div>'
-      +'<div class="fn-cell c-await"><div class="fn-n">'+cols.await.length+'</div><div class="fn-l">Awaiting decision</div></div>'
-      +'<div class="fn-cell c-intv"><div class="fn-n">'+cols.intv.length+'</div><div class="fn-l">Interview</div></div>'
-      +'<div class="fn-cell c-out"><div class="fn-n">'+cols.out.length+'</div><div class="fn-l">Outcome</div></div>'
+      +'<div class="fn-cell c-save"><div class="fn-n">'+view.save.length+'</div><div class="fn-l">Saved</div></div>'
+      +'<div class="fn-cell c-prio"><div class="fn-n">'+view.prio.length+'</div><div class="fn-l">Priority</div></div>'
+      +'<div class="fn-cell c-prep"><div class="fn-n">'+view.prep.length+'</div><div class="fn-l">Preparing</div></div>'
+      +'<div class="fn-cell c-sub"><div class="fn-n">'+view.sub.length+'</div><div class="fn-l">Submitted</div></div>'
+      +'<div class="fn-cell c-await"><div class="fn-n">'+view.await.length+'</div><div class="fn-l">Awaiting decision</div></div>'
+      +'<div class="fn-cell c-intv"><div class="fn-n">'+view.intv.length+'</div><div class="fn-l">Interview</div></div>'
+      +'<div class="fn-cell c-out"><div class="fn-n">'+view.out.length+'</div><div class="fn-l">Outcome</div></div>'
       +'</div>';
     var board='<div class="board">'
-      +colHtml('Saved','d-save','save',cols.save)
-      +colHtml('Preparing','d-prep','prep',cols.prep)
-      +colHtml('Submitted','d-sub','sub',cols.sub)
-      +colHtml('Awaiting decision','d-await','await',cols.await)
-      +colHtml('Interview','d-intv','intv',cols.intv)
-      +colHtml('Outcome','d-out','out',cols.out)
+      +colHtml('Saved','d-save','save',view.save)
+      +colHtml('Priority','d-prio','prio',view.prio)
+      +colHtml('Preparing','d-prep','prep',view.prep)
+      +colHtml('Submitted','d-sub','sub',view.sub)
+      +colHtml('Awaiting decision','d-await','await',view.await)
+      +colHtml('Interview','d-intv','intv',view.intv)
+      +colHtml('Outcome','d-out','out',view.out)
       +'</div>';
-    root.innerHTML=fn+board+archHtml(cols.archived);
+    root.innerHTML=scopeRow()+fn+board+archHtml(viewScope==='all'?cols.archived:[]);
   }
 
   /* Read-only: pull latest from the cloud; fall back to local cache. Never writes. */
