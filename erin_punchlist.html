@@ -768,7 +768,7 @@ var PUNCH_DATA = {
   function pushPD(m){ if(!_isPrimary()) return;
     fetch('https://api.jsonbin.io/v3/b/'+BINP+'/latest',{headers:{'X-Master-Key':KEYP}})
       .then(function(r){ return r.json(); })
-      .then(function(data){ var rec=(data&&data.record)||{}; rec.punchDone=m;
+      .then(function(data){ if(!data||!data.record) return; var rec=data.record; rec.punchDone=m;
         return fetch('https://api.jsonbin.io/v3/b/'+BINP,{method:'PUT',headers:{'Content-Type':'application/json','X-Master-Key':KEYP,'X-Bin-Versioning':'false'},body:JSON.stringify(rec)}); })
       .catch(function(){});
   }

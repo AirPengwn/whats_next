@@ -762,7 +762,7 @@ window.addEventListener('hashchange',_openFromHash);
     if(isPrimary()){
       fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
         .then(function(r){return r.json();})
-        .then(function(data){ var rec=(data&&data.record)||{}; var cloud=Array.isArray(rec.materials)?rec.materials:loadMats();
+        .then(function(data){ if(!data||!data.record) return; var rec=data.record; var cloud=Array.isArray(rec.materials)?rec.materials:loadMats();
           cloud.unshift(entry); saveMats(cloud); rec.materials=cloud;
           return fetch('https://api.jsonbin.io/v3/b/'+BIN,{method:'PUT',headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},body:JSON.stringify(rec)}); })
         .then(function(){ flash(btn,'✓ Saved to Materials'); })

@@ -15,7 +15,8 @@ function push(m){
   fetch('https://api.jsonbin.io/v3/b/'+BIN_ID+'/latest',{headers:{'X-Master-Key':API_KEY}})
     .then(function(r){return r.json();})
     .then(function(data){
-      var rec=(data&&data.record)||{};
+      if(!data||!data.record) return;   /* guard: a malformed 200 (no record) must not clobber other keys */
+      var rec=data.record;
       rec.items=m;                    /* merge: only replace items, keep apps/archiveLog/etc */
       return fetch('https://api.jsonbin.io/v3/b/'+BIN_ID,{
         method:'PUT',
@@ -46,7 +47,8 @@ function pushNI(m){
   fetch('https://api.jsonbin.io/v3/b/'+BIN_ID+'/latest',{headers:{'X-Master-Key':API_KEY}})
     .then(function(r){return r.json();})
     .then(function(data){
-      var rec=(data&&data.record)||{};
+      if(!data||!data.record) return;   /* guard: a malformed 200 (no record) must not clobber other keys */
+      var rec=data.record;
       rec.notInterested=m;             /* merge: only replace notInterested key */
       return fetch('https://api.jsonbin.io/v3/b/'+BIN_ID,{
         method:'PUT',
@@ -70,7 +72,8 @@ function pushBL(m){
   fetch('https://api.jsonbin.io/v3/b/'+BIN_ID+'/latest',{headers:{'X-Master-Key':API_KEY}})
     .then(function(r){return r.json();})
     .then(function(data){
-      var rec=(data&&data.record)||{};
+      if(!data||!data.record) return;   /* guard: a malformed 200 (no record) must not clobber other keys */
+      var rec=data.record;
       rec.brokenLinks=m;                /* merge: only replace brokenLinks key */
       return fetch('https://api.jsonbin.io/v3/b/'+BIN_ID,{
         method:'PUT',
@@ -96,7 +99,8 @@ function pushPR(m){
   fetch('https://api.jsonbin.io/v3/b/'+BIN_ID+'/latest',{headers:{'X-Master-Key':API_KEY}})
     .then(function(r){return r.json();})
     .then(function(data){
-      var rec=(data&&data.record)||{};
+      if(!data||!data.record) return;   /* guard: a malformed 200 (no record) must not clobber other keys */
+      var rec=data.record;
       rec.priority=m;                   /* merge: only replace priority key */
       return fetch('https://api.jsonbin.io/v3/b/'+BIN_ID,{
         method:'PUT',
@@ -117,7 +121,8 @@ function _readerPull(){
   fetch('https://api.jsonbin.io/v3/b/'+BIN_ID+'/latest',{headers:{'X-Master-Key':API_KEY}})
     .then(function(r){return r.json();})
     .then(function(data){
-      var rec=(data&&data.record)||{};
+      if(!data||!data.record) return;   /* guard: a malformed 200 (no record) must not clobber other keys */
+      var rec=data.record;
       if(rec.items) _mem = rec.items;
       if(rec.notInterested) _memNI = rec.notInterested;
       if(rec.brokenLinks) _memBL = rec.brokenLinks;

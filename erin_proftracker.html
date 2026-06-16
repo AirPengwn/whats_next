@@ -356,7 +356,7 @@ function pushProfs(arr){
   fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
   .then(function(r){return r.json();})
   .then(function(data){
-    var rec=data.record||{};
+    if(!data||!data.record) return; var rec=data.record;
     rec.profs=arr;
     fetch('https://api.jsonbin.io/v3/b/'+BIN,{
       method:'PUT',

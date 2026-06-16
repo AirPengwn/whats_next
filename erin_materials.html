@@ -163,7 +163,7 @@ function pushMats(arr){
   fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
     .then(function(r){return r.json();})
     .then(function(data){
-      var rec=data.record||{}; rec.materials=arr;
+      if(!data||!data.record) return; var rec=data.record; rec.materials=arr;
       fetch('https://api.jsonbin.io/v3/b/'+BIN,{method:'PUT',headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},body:JSON.stringify(rec)});
     }).catch(function(){});
 }

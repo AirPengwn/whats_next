@@ -128,7 +128,7 @@ a:hover{text-decoration:underline}
     fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
       .then(function(r){return r.json();})
       .then(function(data){
-        var rec=(data&&data.record)||{};
+        if(!data||!data.record) return; var rec=data.record;
         var cloud=Array.isArray(rec.finds)?rec.finds:[];
         var next=mutate(cloud.slice());      /* apply the add/remove on the LATEST cloud finds */
         saveFinds(next);
@@ -142,7 +142,7 @@ a:hover{text-decoration:underline}
     fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
       .then(function(r){return r.json();})
       .then(function(data){
-        var rec=(data&&data.record)||{};
+        if(!data||!data.record) return; var rec=data.record;
         if(Array.isArray(rec.finds)) saveFinds(rec.finds);
         if(cb) cb();
       }).catch(function(){ if(cb) cb(); });

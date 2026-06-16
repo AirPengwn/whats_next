@@ -385,7 +385,7 @@ function pushCloud(m){
   fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
     .then(function(r){return r.json();})
     .then(function(data){
-      var rec=data.record||{};
+      if(!data||!data.record) return; var rec=data.record;
       rec.items=m;
       return fetch('https://api.jsonbin.io/v3/b/'+BIN,{
         method:'PUT',
@@ -423,7 +423,7 @@ function pushNI(m){
   fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
     .then(function(r){return r.json();})
     .then(function(data){
-      var rec=data.record||{};
+      if(!data||!data.record) return; var rec=data.record;
       rec.notInterested=m;       /* merge: only replace notInterested, keep everything else */
       return fetch('https://api.jsonbin.io/v3/b/'+BIN,{
         method:'PUT',
@@ -456,7 +456,7 @@ function pushBL(m){
   fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
     .then(function(r){return r.json();})
     .then(function(data){
-      var rec=data.record||{};
+      if(!data||!data.record) return; var rec=data.record;
       rec.brokenLinks=m;
       return fetch('https://api.jsonbin.io/v3/b/'+BIN,{
         method:'PUT',
@@ -489,7 +489,7 @@ function pushPR(m){
   fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
     .then(function(r){return r.json();})
     .then(function(data){
-      var rec=data.record||{};
+      if(!data||!data.record) return; var rec=data.record;
       rec.priority=m;
       return fetch('https://api.jsonbin.io/v3/b/'+BIN,{
         method:'PUT',
@@ -515,7 +515,7 @@ function pushArchive(arr){
   fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
     .then(function(r){return r.json();})
     .then(function(data){
-      var rec=data.record||{}; rec.archiveLog=arr;
+      if(!data||!data.record) return; var rec=data.record; rec.archiveLog=arr;
       fetch('https://api.jsonbin.io/v3/b/'+BIN,{method:'PUT',headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},body:JSON.stringify(rec)});
     }).catch(function(){});
 }
@@ -608,7 +608,7 @@ function pushApps(arr){
   fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
     .then(function(r){return r.json();})
     .then(function(data){
-      var rec=data.record||{}; rec.apps=arr;
+      if(!data||!data.record) return; var rec=data.record; rec.apps=arr;
       fetch('https://api.jsonbin.io/v3/b/'+BIN,{
         method:'PUT',
         headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},
