@@ -669,6 +669,11 @@ function renderCards(){
       if(k===app.status) o.selected=true;
       statusSel.appendChild(o);
     });
+    /* v2.70: status auto-saves on change (no Save click needed), matching the
+       Materials checklist + Professor picker. saveCard persists + pushes to cloud
+       + flashes "Saved ✓". On secondary devices the select is disabled (read-only),
+       so this never fires there — only Erin's primary laptop writes. */
+    statusSel.onchange=function(){ saveCard(app.id); };
     hdr.appendChild(statusSel);
     leftCol.appendChild(hdr);
 
@@ -688,8 +693,9 @@ function renderCards(){
     leftCol.appendChild(row1);
 
     var row2=document.createElement('div'); row2.className='app-row';
-    row2.appendChild(field('Submitted','asd-'+app.id,'date',app.submitDate));
-    row2.appendChild(field('Decision date','add-'+app.id,'date',app.decisionDate));
+    /* v2.70: dates auto-save on change too (same trap as status) */
+    var _sdF=field('Submitted','asd-'+app.id,'date',app.submitDate); _sdF.querySelector('input').onchange=function(){ saveCard(app.id); }; row2.appendChild(_sdF);
+    var _ddF=field('Decision date','add-'+app.id,'date',app.decisionDate); _ddF.querySelector('input').onchange=function(){ saveCard(app.id); }; row2.appendChild(_ddF);
     leftCol.appendChild(row2);
 
     if(app.status==='accepted'||app.status==='declined'||app.status==='waitlisted'){
