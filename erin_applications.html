@@ -479,6 +479,10 @@ function updateCardClass(id,status){
   var card=document.getElementById('acard-'+id);
   if(!card) return;
   card.className='app-card'+(status&&status!=='notstarted'?' status-'+status:'');
+  /* v2.71: refresh the right-sidebar Status pill live so it matches the dropdown
+     immediately (no reload needed). */
+  var pill=document.getElementById('sbstatus-'+id);
+  if(pill){ pill.className='pipe-step ps-'+(status||'notstarted'); pill.style.display='inline-block'; pill.textContent=STATUS_LABELS[status||'notstarted']||'Not started'; }
 }
 
 function saveMaterial(id,matIdx,checked){
@@ -810,7 +814,7 @@ function renderCards(){
     if(app.materials){ for(var k in app.materials){ if(app.materials[k]) mDone++; } }
     sideHtml += '<div class="sb-sec"><div class="sb-lbl">Materials</div><div class="sb-val">'+mDone+' <span class="sb-meta">/ '+mTotal+'</span></div></div>';
     // Status (mirror of header select, as a static badge for quick scan)
-    sideHtml += '<div class="sb-sec"><div class="sb-lbl">Status</div><div class="sb-val"><span class="pipe-step ps-'+(app.status||'notstarted')+'" style="display:inline-block">'+(STATUS_LABELS[app.status||'notstarted']||'Not started')+'</span></div></div>';
+    sideHtml += '<div class="sb-sec"><div class="sb-lbl">Status</div><div class="sb-val"><span id="sbstatus-'+app.id+'" class="pipe-step ps-'+(app.status||'notstarted')+'" style="display:inline-block">'+(STATUS_LABELS[app.status||'notstarted']||'Not started')+'</span></div></div>';
     // Linked contact
     if(app.professor){
       sideHtml += '<div class="sb-sec"><div class="sb-lbl">Contact</div><div class="sb-val" style="font-size:13px">'+escHtml(app.professor.split(/[<,;]/)[0].trim())+'</div></div>';
