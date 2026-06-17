@@ -391,6 +391,11 @@ var MYLIST_STORE='erin_mylist_v1';
    otherwise the Tracker has nothing to build its cards from and shows blank. */
 var _memMyList=null;
 function loadMyList(){ if(isPrimary()){ try{ return JSON.parse(localStorage.getItem(MYLIST_STORE)||'{}'); }catch(e){ return {}; } } return _memMyList||{}; }
+/* v2.69: priority flags (cloud key `priority`) so the Tracker can filter to ⭐ items.
+   Primary reads localStorage; secondary uses the cloud-seeded cache. */
+var _memPriority=null;
+function getPriority(){ if(isPrimary()){ try{ return JSON.parse(localStorage.getItem('erin_priority_v1')||'{}'); }catch(e){ return {}; } } return _memPriority||{}; }
+function isPriorityApp(a){ var p=getPriority(); return !!(a && a.itemId && p[a.itemId]); }
 function loadApps(){ try{ return JSON.parse(localStorage.getItem(APP_STORE)||'[]'); }catch(e){ return []; } }
 function saveApps(arr){ localStorage.setItem(APP_STORE,JSON.stringify(arr)); }
 
@@ -418,6 +423,7 @@ function pullApps(){
   .then(function(data){
     if(data.record && data.record.apps){ saveApps(data.record.apps); }
     if(data.record && data.record.items){ _memMyList = data.record.items; }  /* seed saved-item cache so the Tracker can build cards on secondary devices */
+    if(data.record && data.record.priority){ _memPriority = data.record.priority; }  /* seed priority flags for the ⭐ filter on secondary devices */
     render();
   }).catch(function(){ render(); });
 }
@@ -541,7 +547,7 @@ function updateSummary(){
 }
 
 function buildFilters(){
-  var cats=['All','Graduate Program','Internship','Career Position','Service / Corps'];
+  var cats=['All','⭐ Priority','Graduate Program','Internship','Career Position','Service / Corps'];
   var row=document.getElementById('filter-row'); row.innerHTML='';
   cats.forEach(function(c){
     var b=document.createElement('button');
@@ -602,11 +608,16 @@ window.addEventListener('hashchange', _focusAppFromHash);
 
 function renderCards(){
   var arr=loadApps();
-  if(currentFilter!=='All') arr=arr.filter(function(a){ return a.itemType===currentFilter||a.org===currentFilter; });
+  if(currentFilter==='⭐ Priority'){ arr=arr.filter(isPriorityApp); }
+  else if(currentFilter!=='All') arr=arr.filter(function(a){ return a.itemType===currentFilter||a.org===currentFilter; });
   var body=document.getElementById('app-body'); body.innerHTML='';
   document.getElementById('app-count').textContent=arr.length+' application'+(arr.length!==1?'s':'');
   if(!arr.length){
-    body.innerHTML='<div class="empty"><div class="empty-icon">&#128196;</div><div class="empty-title">No applications yet</div><div class="empty-body">Save Graduate Programs to My List — they\'ll appear here automatically. Or click "+ Add application manually" above.</div></div>';
+    if(currentFilter==='⭐ Priority'){
+      body.innerHTML='<div class="empty"><div class="empty-icon">&#11088;</div><div class="empty-title">No priority items</div><div class="empty-body">Star opportunities as Priority (the ☆ button on a card) and they\'ll show up here.</div></div>';
+    } else {
+      body.innerHTML='<div class="empty"><div class="empty-icon">&#128196;</div><div class="empty-title">No applications yet</div><div class="empty-body">Save Graduate Programs to My List — they\'ll appear here automatically. Or click "+ Add application manually" above.</div></div>';
+    }
     return;
   }
   arr.forEach(function(app){
@@ -621,7 +632,7 @@ function renderCards(){
     // Header
     var hdr=document.createElement('div'); hdr.className='app-header';
     var left=document.createElement('div');
-    var titleEl=document.createElement('div'); titleEl.className='app-title'; titleEl.textContent=app.programTitle||'Untitled Application';
+    var titleEl=document.createElement('div'); titleEl.className='app-title'; titleEl.textContent=(isPriorityApp(app)?'⭐ ':'')+(app.programTitle||'Untitled Application');
     var orgEl=document.createElement('div'); orgEl.className='app-org'; orgEl.textContent=app.org||'';
     left.appendChild(titleEl); left.appendChild(orgEl);
     if(app.deadline){ var dl=document.createElement('div'); dl.className='app-deadline'; dl.textContent='Deadline: '+app.deadline; left.appendChild(dl); }
