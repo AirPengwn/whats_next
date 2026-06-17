@@ -620,6 +620,24 @@ function renderCards(){
     var orgEl=document.createElement('div'); orgEl.className='app-org'; orgEl.textContent=app.org||'';
     left.appendChild(titleEl); left.appendChild(orgEl);
     if(app.deadline){ var dl=document.createElement('div'); dl.className='app-deadline'; dl.textContent='Deadline: '+app.deadline; left.appendChild(dl); }
+    /* v2.65: back-links to the opportunity — its detail card + the live posting.
+       View controls (plain anchors), so they stay usable on view-only devices.
+       Gracefully omitted for legacy apps with no itemId / no stored URL. */
+    var oppLinks=document.createElement('div'); oppLinks.style.cssText='display:flex;flex-wrap:wrap;gap:12px;margin-top:4px';
+    if(app.itemId){
+      var oppHref=(app.itemSrc||'erin_mylist.html')+'#card-'+app.itemId;
+      var ol=document.createElement('a'); ol.href=oppHref; ol.textContent='View opportunity →';
+      ol.title='Open the full opportunity card';
+      ol.style.cssText='font-size:12.5px;font-weight:500;color:var(--blue);text-decoration:none';
+      oppLinks.appendChild(ol);
+    }
+    if(app.itemUrl){
+      var pl=document.createElement('a'); pl.href=app.itemUrl; pl.target='_blank'; pl.rel='noopener';
+      pl.textContent='Apply / View posting ↗'; pl.title='Open the live application posting in a new tab';
+      pl.style.cssText='font-size:12.5px;font-weight:500;color:var(--teal-t);text-decoration:none';
+      oppLinks.appendChild(pl);
+    }
+    if(oppLinks.children.length) left.appendChild(oppLinks);
     hdr.appendChild(left);
 
     // Status pill

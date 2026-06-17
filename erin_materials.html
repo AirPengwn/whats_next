@@ -157,6 +157,12 @@ var MSTORE='erin_materials';
 var PRIMARY_KEY='erin_primary_device';
 function isPrimary(){ return localStorage.getItem(PRIMARY_KEY)==='1' || localStorage.getItem('erin_primary_device_bak')==='1'; }
 function loadMats(){ try{ return JSON.parse(localStorage.getItem(MSTORE)||'[]'); }catch(e){ return []; } }
+/* v2.65: read-only access to Applications so each material can link to the
+   applications that use it. Primary reads localStorage; reader devices use the
+   cache seeded from the cloud GET in pullMats. Display-only — never written. */
+var _appsCache=null;
+var _APP_STATUS={notstarted:'Not started',gathering:'Gathering materials',submitted:'Submitted',review:'Under review',interview:'Interview / heard back',decision:'Decision received',accepted:'Accepted ✓',declined:'Declined',waitlisted:'Waitlisted'};
+function getApps(){ if(isPrimary()){ try{return JSON.parse(localStorage.getItem('erin_applications_v1')||'[]')}catch(e){return[]} } return _appsCache||[]; }
 function saveMats(arr){ localStorage.setItem(MSTORE,JSON.stringify(arr)); }
 function pushMats(arr){
   if(!isPrimary()) return;
@@ -174,6 +180,7 @@ function pullMats(cb){
       if(data && data.record && Array.isArray(data.record.materials)){
         saveMats(data.record.materials);
       }
+      if(data && data.record && Array.isArray(data.record.apps)) _appsCache = data.record.apps;  /* for material → application back-links */
       if(cb) cb();
     }).catch(function(){ if(cb) cb(); });
 }
@@ -414,6 +421,27 @@ function makeCard(m){
   sel.onchange=(function(mid){return function(){ if(this.value) linkItem(mid,this.value); };})(m.id);
   chips.appendChild(sel);
   lf2.appendChild(chips); card.appendChild(lf2);
+
+  // v2.65: Used in applications — back-link to each application that uses this
+  // material (apps whose itemId is one of this material's linked opportunities).
+  try{
+    var _apps=getApps();
+    var _used = Array.isArray(_apps) ? _apps.filter(function(a){ return a && a.itemId && ids.indexOf(a.itemId)>-1; }) : [];
+    if(_used.length){
+      var lf3=document.createElement('div'); lf3.className='mat-field'; lf3.style.marginTop='.55rem';
+      var ll3=document.createElement('div'); ll3.className='mat-lbl'; ll3.textContent='Used in applications'; lf3.appendChild(ll3);
+      var achips=document.createElement('div'); achips.style.cssText='display:flex;flex-wrap:wrap;gap:5px;align-items:center';
+      _used.forEach(function(a){
+        var lbl=((a.programTitle||a.org||'Application')+'').split('—')[0].trim().slice(0,40);
+        var st=_APP_STATUS[a.status||'notstarted']||'Not started';
+        var aa=document.createElement('a'); aa.className='usage-chip'; aa.href='erin_applications.html#acard-'+(a.id||'');
+        aa.style.cssText='display:inline-flex;align-items:center;gap:6px;background:var(--bg2);color:var(--t2);text-decoration:none;border:.5px solid var(--bd)';
+        aa.textContent='📋 '+lbl+' · '+st; aa.title='Open this application';
+        achips.appendChild(aa);
+      });
+      lf3.appendChild(achips); card.appendChild(lf3);
+    }
+  }catch(e){}
 
   // Actions
   var acts=document.createElement('div'); acts.className='mat-actions';

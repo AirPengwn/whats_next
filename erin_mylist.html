@@ -637,6 +637,17 @@ mirrorPrimary();
 // ── Applications tracker helpers (used by "→ Apps" button on each card) ──
 var APP_STORE='erin_applications_v1';
 function loadApps(){ try{ return JSON.parse(localStorage.getItem(APP_STORE)||'[]'); }catch(e){ return []; } }
+/* v2.65: read-only access to Apps + Materials so opportunity cards can show
+   back-links. Primary reads localStorage; reader devices use _memApps/_memMats
+   seeded from the cloud GET in pullCloud. Display-only — never written here. */
+var _memApps=null, _memMats=null;
+var _APP_STATUS={notstarted:'Not started',gathering:'Gathering materials',submitted:'Submitted',review:'Under review',interview:'Interview / heard back',decision:'Decision received',accepted:'Accepted ✓',declined:'Declined',waitlisted:'Waitlisted'};
+function _getApps(){ if(isPrimary()) return loadApps(); return _memApps||[]; }
+function _getMats(){ if(isPrimary()){ try{return JSON.parse(localStorage.getItem('erin_materials')||'[]')}catch(e){return[]} } return _memMats||[]; }
+window.linkedApps=function(itemId){ if(!itemId) return []; var a=_getApps(); if(!Array.isArray(a)) return [];
+  return a.filter(function(x){return x&&x.itemId===itemId;}).map(function(x){return {id:x.id||'', status:_APP_STATUS[x.status||'notstarted']||'Not started'};}); };
+window.linkedMats=function(itemId){ if(!itemId) return []; var m=_getMats(); if(!Array.isArray(m)) return [];
+  return m.filter(function(x){return x&&Array.isArray(x.itemIds)&&x.itemIds.indexOf(itemId)>-1;}).map(function(x){return {id:x.id||'', label:(x.title||x.type||'Material')+''};}); };
 function saveApps(arr){ localStorage.setItem(APP_STORE,JSON.stringify(arr)); }
 function pushApps(arr){
   if(!isPrimary()) return;
@@ -704,6 +715,8 @@ function pullCloud(){
     if(data.record && data.record.reviewed){
       rvSave(data.record.reviewed);       /* mirror cloud → local for the Reviewed flag */
     }
+    if(data.record && data.record.apps) _memApps = data.record.apps;        /* for opportunity → application back-links on reader devices */
+    if(data.record && data.record.materials) _memMats = data.record.materials; /* for opportunity → materials back-links on reader devices */
     renderList();
   }).catch(function(){ renderList(); });
 }
@@ -855,6 +868,26 @@ function buildDetailPanel(it,idPrefix){
     sectActs.appendChild(pk);
   }
   if(sectActs.children.length) detail.appendChild(sectActs);
+  /* v2.65: back-links to Erin's tracker entries for THIS opportunity */
+  try{
+    var _lapps=(window.linkedApps?window.linkedApps(it.id):[])||[];
+    var _lmats=(window.linkedMats?window.linkedMats(it.id):[])||[];
+    if(_lapps.length || _lmats.length){
+      detail.appendChild(el('div','id-section-label','On your tracker'));
+      var _tr=document.createElement('div'); _tr.style.cssText='display:flex;flex-wrap:wrap;gap:6px;margin-top:.3rem';
+      _lapps.forEach(function(a){
+        var x=document.createElement('a'); x.className='id-link'; x.href='erin_applications.html#acard-'+(a.id||'');
+        x.innerHTML='&#128203; Application'+(a.status?(' &middot; '+a.status):'')+' &rarr;';
+        _tr.appendChild(x);
+      });
+      _lmats.forEach(function(m){
+        var x=document.createElement('a'); x.className='id-link'; x.href='erin_materials.html#'+(m.id||'');
+        x.innerHTML='&#128196; '+((m.label||'Material').slice(0,40))+' &rarr;';
+        _tr.appendChild(x);
+      });
+      detail.appendChild(_tr);
+    }
+  }catch(e){}
   /* v2.17/v2.18: broken-link toggle on saved items — read-only on non-primary */
   var _blFlagged = !!(window.BL && BL.has(it.id));
   var _blRO = document.documentElement.classList.contains('erin-readonly');
@@ -1638,6 +1671,26 @@ function buildBrowseDetailX(it){
     _sa.appendChild(_pk);
   }
   if(_sa.children.length) d.appendChild(_sa);
+  /* v2.65: back-links to Erin's tracker entries for THIS opportunity */
+  try{
+    var _lapps=(window.linkedApps?window.linkedApps(it.id):[])||[];
+    var _lmats=(window.linkedMats?window.linkedMats(it.id):[])||[];
+    if(_lapps.length || _lmats.length){
+      d.appendChild(el('div','id-section-label','On your tracker'));
+      var _tr=document.createElement('div'); _tr.style.cssText='display:flex;flex-wrap:wrap;gap:6px;margin-top:.3rem';
+      _lapps.forEach(function(a){
+        var x=document.createElement('a'); x.className='id-link'; x.href='erin_applications.html#acard-'+(a.id||'');
+        x.innerHTML='&#128203; Application'+(a.status?(' &middot; '+a.status):'')+' &rarr;';
+        _tr.appendChild(x);
+      });
+      _lmats.forEach(function(m){
+        var x=document.createElement('a'); x.className='id-link'; x.href='erin_materials.html#'+(m.id||'');
+        x.innerHTML='&#128196; '+((m.label||'Material').slice(0,40))+' &rarr;';
+        _tr.appendChild(x);
+      });
+      d.appendChild(_tr);
+    }
+  }catch(e){}
   /* v2.16/v2.18: broken-link toggle — read-only on non-primary devices */
   var _blFlagged = !!(window.BL && BL.has(it.id));
   var _blRO = document.documentElement.classList.contains('erin-readonly');

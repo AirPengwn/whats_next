@@ -244,6 +244,28 @@ function buildBrowseDetailX(it){
     _sa.appendChild(_pk);
   }
   if(_sa.children.length) d.appendChild(_sa);
+  /* v2.65: back-links to Erin's own tracker entries for THIS opportunity —
+     applications started + materials prepared. Read-only nav; shows on any
+     device (apps/materials are pulled into the reader cache). */
+  try{
+    var _lapps=(window.linkedApps?window.linkedApps(it.id):[])||[];
+    var _lmats=(window.linkedMats?window.linkedMats(it.id):[])||[];
+    if(_lapps.length || _lmats.length){
+      d.appendChild(el('div','id-section-label','On your tracker'));
+      var _tr=document.createElement('div'); _tr.style.cssText='display:flex;flex-wrap:wrap;gap:6px;margin-top:.3rem';
+      _lapps.forEach(function(a){
+        var x=document.createElement('a'); x.className='id-link'; x.href='erin_applications.html#acard-'+(a.id||'');
+        x.innerHTML='&#128203; Application'+(a.status?(' &middot; '+a.status):'')+' &rarr;';
+        _tr.appendChild(x);
+      });
+      _lmats.forEach(function(m){
+        var x=document.createElement('a'); x.className='id-link'; x.href='erin_materials.html#'+(m.id||'');
+        x.innerHTML='&#128196; '+((m.label||'Material').slice(0,40))+' &rarr;';
+        _tr.appendChild(x);
+      });
+      d.appendChild(_tr);
+    }
+  }catch(e){}
   /* v2.16/v2.18: "Mark link broken" toggle — primary-gated. On read-only
      devices the box is read-only (shows flag state from cloud, can't toggle). */
   var blFlagged = !!(window.BL && BL.has(it.id));

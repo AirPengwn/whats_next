@@ -289,6 +289,18 @@ window.RV={
   set:function(id,on){var m=getRV(); if(on) m[id]=true; else delete m[id]; setRV(m); pushRV(m); return !!m[id];},
   toggle:function(id){return window.RV.set(id,!window.RV.has(id));}
 };
+/* Read-only access to Erin's Applications + Materials so the opportunity cards
+   can show back-links ("you have an application / materials for this"). On the
+   primary device these read localStorage; on a reader device they come from the
+   one-shot cloud GET below (_memApps/_memMats). Display-only — never written. */
+var _memApps=null, _memMats=null;
+var _APP_STATUS={notstarted:'Not started',gathering:'Gathering materials',submitted:'Submitted',review:'Under review',interview:'Interview / heard back',decision:'Decision received',accepted:'Accepted ✓',declined:'Declined',waitlisted:'Waitlisted'};
+function _getApps(){ if(isPrimary()){ try{return JSON.parse(localStorage.getItem('erin_applications_v1')||'[]')}catch(e){return[]} } return _memApps||[]; }
+function _getMats(){ if(isPrimary()){ try{return JSON.parse(localStorage.getItem('erin_materials')||'[]')}catch(e){return[]} } return _memMats||[]; }
+window.linkedApps=function(itemId){ if(!itemId) return []; var a=_getApps(); if(!Array.isArray(a)) return [];
+  return a.filter(function(x){return x&&x.itemId===itemId;}).map(function(x){return {id:x.id||'', status:_APP_STATUS[x.status||'notstarted']||'Not started'};}); };
+window.linkedMats=function(itemId){ if(!itemId) return []; var m=_getMats(); if(!Array.isArray(m)) return [];
+  return m.filter(function(x){return x&&Array.isArray(x.itemIds)&&x.itemIds.indexOf(itemId)>-1;}).map(function(x){return {id:x.id||'', label:(x.title||x.type||'Material')+''};}); };
 /* Reader-mode init: one-shot read-only cloud pull so the in-memory cache
    reflects Erin's actual Saved + Not-Interested state on first paint. */
 function _readerPull(){
@@ -303,6 +315,8 @@ function _readerPull(){
       if(rec.brokenLinks) _memBL = rec.brokenLinks;
       if(rec.priority) _memPR = rec.priority;
       if(rec.reviewed) _memRV = rec.reviewed;
+      if(rec.apps) _memApps = rec.apps;            /* for opportunity → application back-links on reader devices */
+      if(rec.materials) _memMats = rec.materials;  /* for opportunity → materials back-links on reader devices */
       if(rec.archiveLog) window.__arch = rec.archiveLog;   /* for the "Removed only" view on reader devices */
       ML.update();
       try{ if(typeof renderBrowse==='function') renderBrowse(); }catch(e){}
@@ -594,6 +608,28 @@ function buildBrowseDetailX(it){
     _sa.appendChild(_pk);
   }
   if(_sa.children.length) d.appendChild(_sa);
+  /* v2.65: back-links to Erin's own tracker entries for THIS opportunity —
+     applications started + materials prepared. Read-only nav; shows on any
+     device (apps/materials are pulled into the reader cache). */
+  try{
+    var _lapps=(window.linkedApps?window.linkedApps(it.id):[])||[];
+    var _lmats=(window.linkedMats?window.linkedMats(it.id):[])||[];
+    if(_lapps.length || _lmats.length){
+      d.appendChild(el('div','id-section-label','On your tracker'));
+      var _tr=document.createElement('div'); _tr.style.cssText='display:flex;flex-wrap:wrap;gap:6px;margin-top:.3rem';
+      _lapps.forEach(function(a){
+        var x=document.createElement('a'); x.className='id-link'; x.href='erin_applications.html#acard-'+(a.id||'');
+        x.innerHTML='&#128203; Application'+(a.status?(' &middot; '+a.status):'')+' &rarr;';
+        _tr.appendChild(x);
+      });
+      _lmats.forEach(function(m){
+        var x=document.createElement('a'); x.className='id-link'; x.href='erin_materials.html#'+(m.id||'');
+        x.innerHTML='&#128196; '+((m.label||'Material').slice(0,40))+' &rarr;';
+        _tr.appendChild(x);
+      });
+      d.appendChild(_tr);
+    }
+  }catch(e){}
   /* v2.16/v2.18: "Mark link broken" toggle — primary-gated. On read-only
      devices the box is read-only (shows flag state from cloud, can't toggle). */
   var blFlagged = !!(window.BL && BL.has(it.id));
