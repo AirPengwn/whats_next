@@ -625,7 +625,12 @@ function renderCards(){
        Gracefully omitted for legacy apps with no itemId / no stored URL. */
     var oppLinks=document.createElement('div'); oppLinks.style.cssText='display:flex;flex-wrap:wrap;gap:12px;margin-top:4px';
     if(app.itemId){
-      var oppHref=(app.itemSrc||'erin_mylist.html')+'#card-'+app.itemId;
+      /* Sanitize the stored source page: legacy app records may hold a virtual
+         "next cycle" page (erin_*_next.html, which 404s) — collapse it to the
+         real base page. Only use src if it's an internal .html page; otherwise
+         fall back to My List (always exists, has the deep-link focus handler). */
+      var _src=(app.itemSrc||'').replace(/_next\.html$/i,'.html');
+      var oppHref=(_src && /\.html$/i.test(_src) && !/^https?:/i.test(_src)) ? (_src+'#card-'+app.itemId) : ('erin_mylist.html#card-'+app.itemId);
       var ol=document.createElement('a'); ol.href=oppHref; ol.textContent='View opportunity →';
       ol.title='Open the full opportunity card';
       ol.style.cssText='font-size:12.5px;font-weight:500;color:var(--blue);text-decoration:none';
