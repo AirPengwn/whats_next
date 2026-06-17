@@ -712,6 +712,9 @@ function pullCloud(){
     if(data.record && data.record.brokenLinks){
       blSave(data.record.brokenLinks);    /* v2.16: mirror broken-link flags so weekly sweep can see them */
     }
+    if(data.record && data.record.priority){
+      prSave(data.record.priority);       /* mirror cloud → local for Priority so ⭐ flags + filter + column show on secondary devices */
+    }
     if(data.record && data.record.reviewed){
       rvSave(data.record.reviewed);       /* mirror cloud → local for the Reviewed flag */
     }
