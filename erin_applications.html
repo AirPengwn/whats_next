@@ -386,7 +386,11 @@ var APP_STORE='erin_applications_v1';
 var MYLIST_STORE='erin_mylist_v1';
 
 // ── Storage helpers ──
-function loadMyList(){ try{ return JSON.parse(localStorage.getItem(MYLIST_STORE)||'{}'); }catch(e){ return {}; } }
+/* v2.68: on a secondary (reader) device the saved items live in the cloud, not
+   localStorage, so loadMyList must fall back to a cloud-seeded memory cache —
+   otherwise the Tracker has nothing to build its cards from and shows blank. */
+var _memMyList=null;
+function loadMyList(){ if(isPrimary()){ try{ return JSON.parse(localStorage.getItem(MYLIST_STORE)||'{}'); }catch(e){ return {}; } } return _memMyList||{}; }
 function loadApps(){ try{ return JSON.parse(localStorage.getItem(APP_STORE)||'[]'); }catch(e){ return []; } }
 function saveApps(arr){ localStorage.setItem(APP_STORE,JSON.stringify(arr)); }
 
@@ -413,6 +417,7 @@ function pullApps(){
   .then(function(r){return r.json();})
   .then(function(data){
     if(data.record && data.record.apps){ saveApps(data.record.apps); }
+    if(data.record && data.record.items){ _memMyList = data.record.items; }  /* seed saved-item cache so the Tracker can build cards on secondary devices */
     render();
   }).catch(function(){ render(); });
 }
