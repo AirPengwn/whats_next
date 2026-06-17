@@ -3960,7 +3960,11 @@
     "cycle": "next",
     "deadline_date": "2026-03-02",
     "deadline_kind": "fixed",
-    "region": "Southwest"
+    "region": "Southwest",
+    "location": "Wichita Mountains Wildlife Refuge & Fort Sill — Lawton, OK",
+    "pay": "$600/week living allowance + $225/week housing stipend",
+    "stipend": "Full Segal Education Award (~$7,395 for the 1,200-hour term)",
+    "benefits": "Public Lands Corps federal hiring authority; hands-on USFWS endangered-species monitoring experience; standard AmeriCorps benefits"
   },
   {
     "title": "EPA Greater Research Opportunities (GRO) Fellowship",
@@ -5474,7 +5478,8 @@
     "id": "item-124",
     "location": "USFWS Southeast Region — remote (SE preference: NC/SC/GA/FL/AL/TN/KY/AR/LA/MS)",
     "pay": "~$700/week living allowance (biweekly)",
-    "benefits": "Public Lands Corps federal hiring authority after 640 hrs; some roles add a ~$225/wk housing allowance"
+    "benefits": "Public Lands Corps federal hiring authority after 640 hrs; some roles add a ~$225/wk housing allowance",
+    "stipend": "Segal Education Award (amount scales with term hours; ~$7,395 for a full 1,700-hr term)"
   },
   {
     "type": "Service / Corps",
@@ -5893,5 +5898,91 @@
       "label": "✨ New — June 16, 2026"
     },
     "id": "item-134"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — June 16, 2026"
+    },
+    "title": "Montana Conservation Corps — Open AmeriCorps Positions (source)",
+    "org": "Montana Conservation Corps (AmeriCorps) · Bozeman, Kalispell & statewide MT host sites",
+    "deadline": "Rolling — roles post on the MCC open-positions board; many 2026 roles fill early, so set a \"Get Notified for 2027\" alert",
+    "start": "Varies by role (e.g., Fall Wildland Restoration term Aug 3 – Oct 16, 2026)",
+    "body": "Montana Conservation Corps runs AmeriCorps field crews and individual placements across Montana and the Northern Rockies — wildland restoration, trail and habitat work, and natural-resource projects with federal and tribal land partners. Roles carry a living stipend plus a Segal Education Award; longer terms include health insurance. This is the recurring SOURCE board (postings rotate); the Fall-only Wildland Restoration Team Member (Bozeman/Kalispell) lists a $1,200 bi-weekly living stipend and a $1,565.08 education award.",
+    "desc": "A durable entry point into Mountain West conservation service. MCC crews give Erin Northern Rockies field experience and Public Lands Corps federal hiring authority — a strong complement to her Southeast/Appalachian background and her USFWS goal. Because individual postings open and close throughout the year, save this board and use the \"Get Notified\" sign-up rather than chasing single listings; apply early since many 2026 roles have already closed.",
+    "badge": "Good fit",
+    "pills": [
+      "Restoration",
+      "AmeriCorps",
+      "Federal hiring authority",
+      "Mountain West",
+      "Field crews"
+    ],
+    "metaLine": "AmeriCorps · living stipend + Segal award · Public Lands Corps authority · rolling board",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Mountain West",
+    "links": [
+      {
+        "href": "https://www.mtcorps.org/joinmcc/open-positions/current-open-positions.html",
+        "label": "🔍 MCC current open positions"
+      }
+    ],
+    "sourceFindUrl": "https://www.mtcorps.org/joinmcc/open-positions/current-open-positions.html",
+    "id": "item-135",
+    "location": "Montana — Bozeman & Kalispell hubs plus statewide host sites (Northern Rockies)",
+    "pay": "Living stipend varies by role (Fall Wildland Restoration: $1,200 bi-weekly)",
+    "stipend": "Segal Education Award (Fall term ~$1,565; larger for full-season terms)",
+    "benefits": "Public Lands Corps federal hiring authority; health insurance on terms over ~4 months; project training & food per diem"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — June 16, 2026"
+    },
+    "title": "Boise State University — Funded PhD, Wetland Remote Sensing (European Frogbit, Great Lakes)",
+    "org": "Boise State University — Ecology, Evolution & Behavior PhD · Brandt & Caughlin labs · Boise, ID (Great Lakes fieldwork)",
+    "deadline": "Contact-first — email Drs. Jodi Brandt & Trevor Caughlin with CV + statement; verify the current cohort is still open",
+    "start": "Flexible / rolling once a candidate is matched",
+    "body": "A funded PhD assistantship integrating UAV/drone and satellite remote sensing, LiDAR, ecological modeling, and field data to map and predict the spread of an invasive plant (European Frogbit) and to monitor restoration in Great Lakes coastal wetlands. Advised by Dr. Jodi Brandt and Dr. Trevor Caughlin in Boise State's Ecology, Evolution & Behavior PhD program. Support: a renewable 12-month graduate assistantship at $24,000/yr, full tuition and fee waiver, and health insurance.",
+    "desc": "An almost point-for-point match to Erin's GIS / remote-sensing / wetlands toolkit (multi-criteria suitability mapping, Wildlife Insights monitoring, wetland delineation) applied to invasive-species spread modeling and restoration monitoring. Marked a REACH only on eligibility: the ad states competitive applicants will hold a Master's degree, and Erin is a 2025 BS graduate — so this is a strong-topic-fit stretch. Worth a direct, well-targeted email to both PIs describing her capstone (Pigeon River trace-metal GIS work) and asking whether they consider exceptional BS applicants or a bridge MS.",
+    "badge": "Reach — strong topic fit, PhD prefers an MS",
+    "pills": [
+      "GIS",
+      "Remote sensing",
+      "Wetlands",
+      "Invasive species",
+      "Restoration monitoring",
+      "LiDAR"
+    ],
+    "metaLine": "Funded PhD · $24,000/yr + tuition waiver + health insurance · contact-first",
+    "cycle": "current",
+    "deadline_kind": "contact-first",
+    "deadline_date": "",
+    "region": "Mountain West",
+    "links": [
+      {
+        "href": "http://www.trevorcaughlin.com/?page_id=271",
+        "label": "🔗 Caughlin lab — Join the lab"
+      },
+      {
+        "href": "https://www.boisestate.edu/biology-eeb/",
+        "label": "🔗 Boise State EEB PhD"
+      }
+    ],
+    "id": "item-136",
+    "location": "Boise, Idaho (home base) with summer fieldwork in Great Lakes coastal wetlands",
+    "pay": "$24,000/yr graduate assistantship (12-month, renewable)",
+    "stipend": "Assistantship stipend as above",
+    "benefits": "Full tuition & fee waiver; health insurance"
   }
 ]
