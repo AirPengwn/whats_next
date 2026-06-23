@@ -1,10 +1,10 @@
 {
-  "release": "2.71",
-  "build": "20260617-137-d85d5e78",
-  "builtAt": "2026-06-17T15:59:28.718Z",
-  "total": 137,
-  "newCount": 0,
+  "release": "2.72",
+  "build": "20260623-139-aac28f34",
+  "builtAt": "2026-06-23T03:41:31.993Z",
+  "total": 139,
+  "newCount": 2,
   "updatedCount": 0,
-  "hash": "d85d5e78",
-  "date": "2026-06-17"
+  "hash": "aac28f34",
+  "date": "2026-06-23"
 }

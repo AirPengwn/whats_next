@@ -5984,5 +5984,91 @@
     "pay": "$24,000/yr graduate assistantship (12-month, renewable)",
     "stipend": "Assistantship stipend as above",
     "benefits": "Full tuition & fee waiver; health insurance"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — June 22, 2026"
+    },
+    "title": "University of Mississippi — Funded MS/PhD, Freshwater Ecology (Lopez Lab)",
+    "org": "University of Mississippi — Lopez Lab for Aquatic Conservation & Ecosystem Science · Dr. Jonathan Lopez · Oxford, MS",
+    "deadline": "Contact-first — email Dr. Jonathan Lopez (jwlopez@olemiss.edu). The posted 2026 cohort deadlines (Spring/Summer Oct 15, 2025; Fall Jan 15, 2026) have passed — inquire about remaining or next-cohort slots.",
+    "start": "2026 — one Spring/Summer 2026 slot (with summer research) and one Fall 2026 slot",
+    "body": "Two funded graduate assistantships in the Lopez Lab for Aquatic Conservation & Ecosystem Science. Research links conservation biology with ecosystem science — animal-driven impacts on ecosystem function, freshwater biodiversity surveys, ecophysiological experiments, and analyses of nutrient cycling and stream metabolism. One student is MS-level; the other MS or PhD depending on goals. Support: MS $23,000/yr; PhD $25,000/yr (pre-candidacy) rising to $26,000 after candidacy; full tuition waiver and subsidized health insurance.",
+    "desc": "A strong fit for Erin's water-quality and aquatic-ecology interests. Freshwater biodiversity surveys, nutrient cycling, and stream metabolism connect directly to her Pigeon River trace-metal sediment capstone and her trace-metal sampling skills. MS-eligible for a 2025 BS graduate (one slot is explicitly MS-level), with PhD possible. Field-heavy with biogeochemistry analysis. Because the listed 2026 deadlines have passed, this is contact-first now — a targeted email to Dr. Lopez describing her capstone and aquatic skills is the right next step.",
+    "badge": "Strong fit",
+    "pills": [
+      "Freshwater ecology",
+      "Water quality",
+      "Nutrient cycling",
+      "Stream metabolism",
+      "Biodiversity",
+      "Funded MS/PhD"
+    ],
+    "metaLine": "Funded MS/PhD · MS $23k/yr · PhD $25–26k/yr + tuition waiver + health insurance · contact-first",
+    "cycle": "current",
+    "deadline_kind": "contact-first",
+    "deadline_date": "",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://sites.google.com/view/aceslab",
+        "label": "🔗 Lopez Lab (ACES Lab) website"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=108823",
+        "label": "🔗 NR Job Board posting"
+      }
+    ],
+    "id": "item-137",
+    "location": "Oxford, Mississippi (University of Mississippi)",
+    "pay": "MS $23,000/yr; PhD $25,000/yr pre-candidacy, $26,000/yr after candidacy",
+    "stipend": "Graduate assistantship stipend as above",
+    "benefits": "Full tuition waiver; subsidized health insurance"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — June 22, 2026"
+    },
+    "title": "Central Michigan University — Funded MS, Wetland Nutrient Modeling (Lammers & Suchy)",
+    "org": "Central Michigan University — MS in Engineering or Biology · Drs. Roderick Lammers & Amanda Suchy · Mount Pleasant, MI",
+    "deadline": "Contact-first — email Dr. Roderick Lammers (lamme1r@cmich.edu). The April 17, 2026 priority deadline has passed — inquire whether the position is still open for an August 2026 start.",
+    "start": "August 2026 (possible project employment from May 2026)",
+    "body": "A funded MS research assistantship to characterize and model nutrient dynamics in managed wetlands in Michigan. Responsibilities include field data collection, data analysis, and developing process-based models of wetland hydrology and nutrient cycling. The student will be jointly supervised by Drs. Roderick Lammers and Amanda Suchy and may pursue an MS in Engineering or Biology depending on background. Support: 2 years of stipend plus tuition waiver. Preferred background: BS in ecology, environmental science/engineering or related, with coursework or research experience in water quality, hydrology, biogeochemistry and/or numerical modeling.",
+    "desc": "A direct fit for Erin's wetlands, water-quality, hydrology, and GIS/modeling interests. The combination of field wetland work and process-based nutrient modeling builds quantitative skills that strengthen both grad-school and federal (USGS/USFWS) pathways. BS-eligible. Because the April 17 priority deadline has passed, this is contact-first — a short email to Dr. Lammers noting her wetland delineation and GIS/suitability-modeling experience is the move.",
+    "badge": "Strong fit",
+    "pills": [
+      "Wetlands",
+      "Water quality",
+      "Hydrology",
+      "Nutrient cycling",
+      "Modeling",
+      "Funded MS"
+    ],
+    "metaLine": "Funded MS · 2-yr stipend + tuition waiver · contact-first (Apr 17 priority passed)",
+    "cycle": "current",
+    "deadline_kind": "contact-first",
+    "deadline_date": "",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://web.cobleskill.edu/fishwildlifejobs/2026/04/03/wetland-modeling-m-s-research-assistant-central-michigan-university/",
+        "label": "🔗 Position posting"
+      }
+    ],
+    "id": "item-138",
+    "location": "Mount Pleasant, Michigan (field sites in managed Michigan wetlands)",
+    "pay": "Graduate assistantship stipend (amount not published — confirm with Dr. Lammers)",
+    "stipend": "2 years of stipend",
+    "benefits": "Tuition waiver"
   }
 ]
