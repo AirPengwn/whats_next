@@ -1,8 +1,6 @@
 # Weekly opportunity sweep — 2026-06-23
 
-**Added 2 new** opportunities:
-- University of Mississippi — Funded MS/PhD, Freshwater Ecology (Lopez Lab) — _Strong_ · Southeast & Appalachia · deadline: Contact-first — email Dr. Jonathan Lopez (jwlopez@olemiss.edu). The posted 2026 cohort deadlines (Spring/Summer Oct 15, 2025; Fall Jan 15, 2026) have passed — inquire about remaining or next-cohort slots.
-- Central Michigan University — Funded MS, Wetland Nutrient Modeling (Lammers & Suchy) — _Strong_ · Midwest & Great Plains · deadline: Contact-first — email Dr. Roderick Lammers (lamme1r@cmich.edu). The April 17, 2026 priority deadline has passed — inquire whether the position is still open for an August 2026 start.
+**Added 0 new** opportunities.
 
 **Updated 0** (deadline / status / description changed).
 
