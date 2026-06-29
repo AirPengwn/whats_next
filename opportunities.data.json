@@ -4735,7 +4735,7 @@
     "cat": "Internships",
     "src": "erin_internships.html",
     "src_label": "Internships",
-    "deadline": "Apply by June 24, 2026",
+    "deadline": "Recurring seasonal hire — the June 24, 2026 posting has closed. Great Basin Institute fills USFWS restoration-technician terms on a rolling basis; watch the GBI/USFWS listings or contact GBI about the next term.",
     "start": "Summer 2026 (temporary)",
     "body": "Temporary field tech with Great Basin Institute supporting USFWS habitat restoration at Moapa Valley NWR in southern Nevada — work on threatened desert spring/wetland ecosystems.",
     "desc": "Entry-level (0–1 yr) GBI placement at one of the Mojave's most ecologically distinctive refuges — the Moapa dace and warm-spring wetlands. Good fit for Erin's wetland and environmental-justice interests, and gives Southwest regional spread plus a USFWS resume line. Pay is $17.75/hr (temporary). GBI typically provides housing or housing stipend; verify in posting. Apply through Conservation Job Board / GBI portal.",
@@ -4747,9 +4747,9 @@
       "Southwest"
     ],
     "metaLine": "Temporary · $17.75/hr · NV desert wetlands · apply by Jun 24",
-    "cycle": "current",
-    "deadline_kind": "fixed",
-    "deadline_date": "2026-06-24",
+    "cycle": "next",
+    "deadline_kind": "contact-first",
+    "deadline_date": "",
     "region": "Southwest",
     "links": [
       {
@@ -4758,10 +4758,11 @@
       }
     ],
     "status": {
-      "kind": "s-new",
-      "label": "✨ New — June 8, 2026"
+      "kind": "s-updated",
+      "label": "✨ Updated — June 29, 2026"
     },
-    "id": "item-104"
+    "id": "item-104",
+    "location": "Moapa Valley, Nevada (Moapa Valley NWR)"
   },
   {
     "title": "Seasonal Field Technician — wetland delineation & ecological surveys",
@@ -4988,7 +4989,7 @@
     "cat": "Career Positions",
     "src": "erin_jobs.html",
     "src_label": "Career Positions",
-    "deadline": "June 24, 2026",
+    "deadline": "The June 24, 2026 vacancy has closed. Florida DEP's Division of Water Resource Management posts Environmental Consultant roles regularly — check the State of Florida careers site (jobs.myflorida.com) for the next opening.",
     "start": "Summer 2026",
     "body": "State Environmental Consultant reviewing mining reclamation, wetland mitigation, stormwater, and floodplain permits under Florida Statutes Ch. 211/373/378.",
     "desc": "Strong technical state-agency role at FDEP HQ working on wetland hydrology, mitigation banking, and stormwater review — exactly the regulatory side of wetlands work that complements Erin's GIS and ecology training. The posting lists a 5-year experience minimum, so this is a clear Reach: she should only apply if she can credibly count capstone, volunteer, and project work toward that, or use it as a target to grow into. Posted June 3, 2026; closes June 24. $58,308 salary, Tallahassee.",
@@ -5000,9 +5001,9 @@
       "Southeast"
     ],
     "metaLine": "State career · $58,308 · 5 yrs req · apply by Jun 24",
-    "cycle": "current",
-    "deadline_kind": "fixed",
-    "deadline_date": "2026-06-24",
+    "cycle": "next",
+    "deadline_kind": "contact-first",
+    "deadline_date": "",
     "region": "Southeast & Appalachia",
     "links": [
       {
@@ -5011,10 +5012,11 @@
       }
     ],
     "status": {
-      "kind": "s-new",
-      "label": "✨ New — June 8, 2026"
+      "kind": "s-updated",
+      "label": "✨ Updated — June 29, 2026"
     },
-    "id": "item-111"
+    "id": "item-111",
+    "location": "Tallahassee, Florida (Florida DEP, Division of Water Resource Management)"
   },
   {
     "title": "Preserve Manager — Northern California",
@@ -5023,7 +5025,7 @@
     "cat": "Career Positions",
     "src": "erin_jobs.html",
     "src_label": "Career Positions",
-    "deadline": "June 19, 2026 (open until filled)",
+    "deadline": "The open-until-filled posting from June 19, 2026 has closed. CNLM hires Preserve Managers and stewardship staff across California regularly — watch the CNLM careers page for the next Northern California opening.",
     "start": "Summer 2026",
     "body": "Land manager for a portfolio of CNLM mitigation/conservation preserves in the Sacramento Valley — vernal pools, grasslands, riparian habitats.",
     "desc": "Stewardship role covering monitoring, restoration, contractor oversight, and reporting on preserves protecting endangered species and wetland habitats. Salary band ($68-78K + stipends) and the title \"Manager\" suggest this leans mid-career, so it is a Reach for a brand-new BS grad — but CNLM occasionally hires strong entry-level candidates with field/restoration experience, which Erin has via Helene relief and her capstone. Worth a careful application if she is open to California. Posted May 21, closes June 19.",
@@ -5035,9 +5037,9 @@
       "West Coast"
     ],
     "metaLine": "Manager role · $68-78K · CA · apply by Jun 19",
-    "cycle": "current",
-    "deadline_kind": "fixed",
-    "deadline_date": "2026-06-19",
+    "cycle": "next",
+    "deadline_kind": "contact-first",
+    "deadline_date": "",
     "region": "West Coast / Pacific",
     "links": [
       {
@@ -5046,10 +5048,11 @@
       }
     ],
     "status": {
-      "kind": "s-new",
-      "label": "✨ New — June 8, 2026"
+      "kind": "s-updated",
+      "label": "✨ Updated — June 29, 2026"
     },
-    "id": "item-112"
+    "id": "item-112",
+    "location": "Sacramento / Davis area, California (Sacramento, Solano & Yolo Counties)"
   },
   {
     "title": "ORISE Wetland Plant Ecology Fellowship — EPA Pacific Ecological Systems Division",
@@ -5092,7 +5095,7 @@
     "cat": "Service & Fellowships",
     "src": "erin_service.html",
     "src_label": "Service & Fellowships",
-    "deadline": "Tuesday, June 23, 2026 (full application packets due)",
+    "deadline": "Year 33 packets were due June 23, 2026. The Watershed Stewards Program runs annual cohorts — applications for the next (Year 34) cohort typically open in spring; watch the WSP/CCC site or contact the program.",
     "start": "October 5, 2026 — 10.5-month term ending August 19, 2027",
     "body": "California AmeriCorps program placing recent grads at host sites along coastal CA to monitor anadromous salmonid populations, conduct habitat restoration, water-quality monitoring, and community education. Monthly stipend ~$2,904-$2,967 plus $10,000 education award and medical insurance.",
     "desc": "Excellent on-ramp for Erin: structured AmeriCorps role with mentor placements at agencies (CDFW, NMFS, RCDs, watershed councils), heavy on stream/watershed fieldwork plus a built-in cohort. Salmonid focus complements her Pigeon River sediment work, and CA placements span coastal, redwood-belt, and Sierra streams. Time-sensitive — applications close in 8 days. Requires watching the WSP informational video before applying (passcode needed). Phone interviews follow June; site interviews July 9-27.",
@@ -5105,9 +5108,9 @@
       "West Coast"
     ],
     "metaLine": "AmeriCorps · ~$2,904/mo + $10k ed award · apply by Jun 23",
-    "cycle": "current",
-    "deadline_kind": "fixed",
-    "deadline_date": "2026-06-23",
+    "cycle": "next",
+    "deadline_kind": "contact-first",
+    "deadline_date": "",
     "region": "West Coast / Pacific",
     "links": [
       {
@@ -5116,8 +5119,8 @@
       }
     ],
     "status": {
-      "kind": "s-new",
-      "label": "✨ New — June 15, 2026"
+      "kind": "s-updated",
+      "label": "✨ Updated — June 29, 2026"
     },
     "id": "item-114",
     "location": "Coastal California — multiple host sites (CDFW, NMFS, RCDs, watershed councils)",
@@ -5613,10 +5616,10 @@
     "cat": "Service & Fellowships",
     "src": "erin_service.html",
     "src_label": "Service & Fellowships",
-    "deadline": "Apply by June 21, 2026",
+    "deadline": "The June 21, 2026 summer cohort has closed. Green Iowa AmeriCorps runs annual summer and year-long terms — watch the Green Iowa AmeriCorps listings or my.americorps.gov for the next cycle.",
     "start": "June 1 – August 31, 2026 (3-month summer term)",
-    "deadline_kind": "fixed",
-    "deadline_date": "2026-06-21",
+    "deadline_kind": "contact-first",
+    "deadline_date": "",
     "region": "Midwest & Great Plains",
     "body": "Summer AmeriCorps term placing members across Iowa to deliver energy-efficiency services to underserved communities, serve as school sustainability coordinators, and run environmental education events. Weekly mix of direct service, education, volunteer coordination, and professional training. Living allowance + Segal Education Award on completion.",
     "desc": "A short summer AmeriCorps option — environmental service + an education award, good for building the AmeriCorps record. Note: it leans toward energy-efficiency and environmental EDUCATION rather than the field ecology / wetland / GIS work that's Erin's core track, so it's a fit by mission more than by skill match. Deadline is imminent (June 21).",
@@ -5642,11 +5645,12 @@
     "url": "https://my.americorps.gov/mp/listing/viewListing.do?fromSearch=true&id=102012",
     "url_label": "Apply on AmeriCorps",
     "status": {
-      "kind": "s-new",
-      "label": "✨ New — June 16, 2026"
+      "kind": "s-updated",
+      "label": "✨ Updated — June 29, 2026"
     },
     "sourceFindUrl": "https://my.americorps.gov/mp/listing/viewListing.do?fromSearch=true&id=102012",
-    "id": "item-128"
+    "id": "item-128",
+    "cycle": "next"
   },
   {
     "title": "Conservation / Biological Science Technician (GS-0404) — federal openings",
@@ -6072,5 +6076,90 @@
     "pay": "Graduate assistantship stipend (amount not published — confirm with Dr. Lammers)",
     "stipend": "2 years of stipend",
     "benefits": "Tuition waiver"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — June 29, 2026"
+    },
+    "title": "University of Vermont — Funded PhD, Lake Champlain Fisheries (Henderson Lab / VT Coop Unit)",
+    "org": "University of Vermont — USGS Vermont Cooperative Fish & Wildlife Research Unit · Henderson Lab · Dr. Mark Henderson · Burlington, VT",
+    "deadline": "Contact-first — email Dr. Mark Henderson (mark.henderson@uvm.edu) to ask about current openings and the application timeline.",
+    "start": "2026–2027 (negotiable with the PI)",
+    "body": "Two funded PhD assistantships in the Henderson Lab at the USGS Vermont Cooperative Fish & Wildlife Research Unit (Rubenstein School of Environment and Natural Resources). Project 1 uses acoustic telemetry and genomic analyses to test whether multiple Lake Sturgeon populations exist within Lake Champlain and to estimate their effective population size. Project 2 uses acoustic telemetry and genomics to resolve population structure, spawning behavior, and habitat use of Lake Whitefish in Lake Champlain, testing for ecotypes that disproportionately contribute to the spawning population. Positions include a competitive stipend, tuition, and health insurance.",
+    "desc": "Lake Champlain fisheries work pairing acoustic telemetry and field monitoring with population genomics. The telemetry, spawning, habitat-use, and population-structure components align well with Erin's field-monitoring background (camera-trap and small-mammal survey experience) and her aquatic interests, while the genomics emphasis would be new ground for her. These are PhD positions — a direct step up from a BS — so they fit if she's ready to commit to a doctorate; the cooperative-unit funding model (stipend + tuition + health insurance) makes for a strong package. Contact-first: a short email to Dr. Henderson about her aquatic monitoring and Pigeon River capstone is the right opening.",
+    "badge": "Good fit",
+    "pills": [
+      "Fisheries ecology",
+      "Acoustic telemetry",
+      "Population genomics",
+      "Lake Champlain",
+      "Funded PhD",
+      "Field monitoring"
+    ],
+    "metaLine": "Funded PhD · stipend + tuition + health insurance · acoustic telemetry & genomics · contact-first",
+    "cycle": "current",
+    "deadline_kind": "contact-first",
+    "deadline_date": "",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://www.uvm.edu/rsenr/graduate-faculty",
+        "label": "🔗 UVM Rubenstein graduate faculty"
+      },
+      {
+        "href": "https://warnell.uga.edu/two-fisheries-phd-student-assistantships-university-vermont",
+        "label": "🔗 Position announcement (two PhD assistantships)"
+      }
+    ],
+    "id": "item-139",
+    "location": "Burlington, Vermont (University of Vermont) — fieldwork on Lake Champlain",
+    "pay": "Competitive PhD assistantship stipend (amount not published — confirm with the PI)",
+    "stipend": "Graduate research assistantship stipend",
+    "benefits": "Tuition coverage; health insurance"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — June 29, 2026"
+    },
+    "title": "University of Maine — Funded MS/PhD, Forest Biomass Supply-Chain Sustainability (School of Forest Resources)",
+    "org": "University of Maine — School of Forest Resources · Orono, ME",
+    "deadline": "Apply by June 30, 2026 — submit cover letter, CV, transcripts, and references via the program's Google Form.",
+    "start": "Fall 2026 (preferred)",
+    "body": "USDA NIFA-funded Graduate Research Assistantship in the School of Forest Resources, optimizing forest biomass supply chains with an integrated emphasis on economic, ecological, and social sustainability. Support: $28,000/yr living allowance for MS students ($31,333/yr for PhD); the university covers 65% of health insurance and 50% of dental, plus office space, laptop access, and dedicated field/conference travel funds. Open to applicants holding a B.S. in Forestry, Economics, Statistics, or a quantitatively focused Environmental or Social Science discipline with a natural-resource-management background.",
+    "desc": "A funded, BS-eligible assistantship in forestry and natural-resource management — within Erin's forestry/sustainability/land-use interests, though it leans quantitative (supply-chain optimization, economics) rather than her core water-quality and wildlife focus. Her GIS and multi-criteria suitability-analysis skills transfer well to the spatial/optimization side, and the program explicitly welcomes quantitatively focused environmental-science BS graduates. The package is solid ($28k MS + health/dental + travel). The deadline is imminent (June 30, 2026), so this is apply-now if the supply-chain/sustainability angle appeals.",
+    "badge": "Good fit",
+    "pills": [
+      "Forestry",
+      "Natural resource management",
+      "Sustainability",
+      "GIS / optimization",
+      "Funded MS/PhD"
+    ],
+    "metaLine": "Funded MS/PhD · MS $28k/yr · PhD $31,333/yr + health/dental + travel · apply by Jun 30, 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-06-30",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://forest.umaine.edu/graduate-programs/available-assistantships/",
+        "label": "🔗 School of Forest Resources — available assistantships"
+      }
+    ],
+    "id": "item-140",
+    "location": "Orono, Maine (University of Maine)",
+    "pay": "$28,000/yr (MS) or $31,333/yr (PhD) living allowance",
+    "stipend": "GRA living allowance as above",
+    "benefits": "65% health insurance + 50% dental coverage; office space, laptop, field/conference travel funds"
   }
 ]
