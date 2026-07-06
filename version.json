@@ -1,10 +1,10 @@
 {
-  "release": "2.74",
-  "build": "20260629-141-34025ee2",
-  "builtAt": "2026-06-29T12:17:03.301Z",
-  "total": 141,
+  "release": "2.75",
+  "build": "20260706-143-cba422d6",
+  "builtAt": "2026-07-06T12:21:24.680Z",
+  "total": 143,
   "newCount": 2,
-  "updatedCount": 5,
-  "hash": "34025ee2",
-  "date": "2026-06-29"
+  "updatedCount": 2,
+  "hash": "cba422d6",
+  "date": "2026-07-06"
 }

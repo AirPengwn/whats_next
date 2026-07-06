@@ -1,15 +1,12 @@
-# Weekly opportunity sweep — 2026-06-29
+# Weekly opportunity sweep — 2026-07-06
 
 **Added 2 new** opportunities:
-- University of Vermont — Funded PhD, Lake Champlain Fisheries (Henderson Lab / VT Coop Unit) — _Good_ · Northeast · deadline: Contact-first — email Dr. Mark Henderson (mark.henderson@uvm.edu) to ask about current openings and the application timeline.
-- University of Maine — Funded MS/PhD, Forest Biomass Supply-Chain Sustainability (School of Forest Resources) — _Good_ · Northeast · deadline: Apply by June 30, 2026 — submit cover letter, CV, transcripts, and references via the program's Google Form.
+- California BLM Riparian & Wetland AIM Monitoring — Crew Leads & Field Technicians (CNHP) — _Strong_ · West Coast / Pacific · deadline: Seasonal summer crew (recurring). The 2026 field season is already underway — email a resume, cover letter, and three references (with phone and email) to Katrina Castro (Katrina.Castro@colostate.edu) to be considered for the next (2027) season, and note if you want Crew Lead consideration. Watch CNHP's jobs page and the TAMU Natural Resources Job Board in late winter.
+- University of Connecticut — Funded PhD, Biogeochemistry of Beaver-Created Ecosystems (Helton Lab) — _Good_ · Northeast · deadline: Apply by September 1, 2026 — email Dr. Ashley Helton (ashley.helton@uconn.edu) with the subject line "PhD Application Beaver Project," a research statement, and a CV listing three references.
 
-**Updated 5** (deadline / status / description changed):
-- Restoration Technician — Moapa Valley NWR (USFWS partnership) — _Good_ · Southwest · deadline: Recurring seasonal hire — the June 24, 2026 posting has closed. Great Basin Institute fills USFWS restoration-technician terms on a rolling basis; watch the GBI/USFWS listings or contact GBI about the next term.
-- Environmental Consultant — Mining, Mitigation & Water Resource Permitting — _Reach / review_ · Southeast & Appalachia · deadline: The June 24, 2026 vacancy has closed. Florida DEP's Division of Water Resource Management posts Environmental Consultant roles regularly — check the State of Florida careers site (jobs.myflorida.com) for the next opening.
-- Preserve Manager — Northern California — _Reach / review_ · West Coast / Pacific · deadline: The open-until-filled posting from June 19, 2026 has closed. CNLM hires Preserve Managers and stewardship staff across California regularly — watch the CNLM careers page for the next Northern California opening.
-- Watershed Stewards Program (WSP) Corpsmember — Year 33 Cohort — _Excellent_ · West Coast / Pacific · deadline: Year 33 packets were due June 23, 2026. The Watershed Stewards Program runs annual cohorts — applications for the next (Year 34) cohort typically open in spring; watch the WSP/CCC site or contact the program.
-- Green Iowa AmeriCorps — Environmental Summer Steward — _Good_ · Midwest & Great Plains · deadline: The June 21, 2026 summer cohort has closed. Green Iowa AmeriCorps runs annual summer and year-long terms — watch the Green Iowa AmeriCorps listings or my.americorps.gov for the next cycle.
+**Updated 2** (deadline / status / description changed):
+- Nature Collective — Land Stewardship Internship (GIS & Monitoring) — _Strong_ · West Coast / Pacific · deadline: The July 1, 2026 application window has closed. Nature Collective's Land Stewardship Internships recur — watch their careers/get-involved page and contact the stewardship team about the next cohort.
+- University of Maine — Funded MS/PhD, Forest Biomass Supply-Chain Sustainability (School of Forest Resources) — _Good_ · Northeast · deadline: The June 30, 2026 application window has closed. This USDA NIFA-funded assistantship recurs with each admissions cycle — contact the School of Forest Resources (via the assistantships page) about the next cohort.
 
-**Total opportunities:** 141  ·  next-cycle: 67  ·  expired (one-time, no future cycle): 13
+**Total opportunities:** 143  ·  next-cycle: 70  ·  expired (one-time, no future cycle): 13
 Triage: passed-but-recurring → `cycle:"next"`; one-time/discontinued → `expired:true`. Passed/expired are hidden on the site by default (toggle to show); never deleted, never moved to the personal Archive. Fit tiers: _Excellent_ / _Strong_ / _Good_ / _Reach / review_ (set via each entry's badge). The Browse pages render from this data automatically — no HTML edits. Nothing is live until this PR is merged.

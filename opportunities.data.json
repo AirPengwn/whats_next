@@ -5744,7 +5744,7 @@
     "cat": "Internships",
     "src": "erin_internships.html",
     "src_label": "Internships",
-    "deadline": "Apply by July 1, 2026 (Fall 2026 cohort; window opens May 1)",
+    "deadline": "The July 1, 2026 application window has closed. Nature Collective's Land Stewardship Internships recur — watch their careers/get-involved page and contact the stewardship team about the next cohort.",
     "start": "September 2026 – January 2027 (4 months)",
     "body": "Four-month Land Stewardship internship (Sept–Jan) doing GIS data collection and reporting, property monitoring, and field stewardship across Nature Collective's San Diego coastal-lagoon and upland preserves. A stipend is provided. The Fall 2026 cohort accepts applications May 1–July 1, 2026, and recent environmental-science / geography graduates are welcome.",
     "desc": "A direct match for Erin's GIS and multi-criteria suitability-mapping skills paired with hands-on coastal/wetland field stewardship. Nature Collective also runs a Habitat Restoration internship and a 9-month Integrated internship (restoration + land stewardship + water quality + volunteer programs) on the same May 1–July 1 window — worth asking about the integrated track for broader experience. San Diego coastal-lagoon work would add West Coast estuarine/wetland breadth to a resume currently weighted toward Appalachian freshwater systems.",
@@ -5756,10 +5756,10 @@
       "Paid internship",
       "West Coast"
     ],
-    "metaLine": "Paid internship · GIS + field stewardship · Sept–Jan · apply by Jul 1",
-    "cycle": "current",
-    "deadline_kind": "fixed",
-    "deadline_date": "2026-07-01",
+    "metaLine": "Paid internship · GIS + field stewardship · Sept–Jan · contact for next cohort",
+    "cycle": "next",
+    "deadline_kind": "contact-first",
+    "deadline_date": "",
     "region": "West Coast / Pacific",
     "location": "San Diego, California",
     "pay": "Stipend provided (amount not published; confirm with program)",
@@ -5774,8 +5774,8 @@
     "url": "https://naturecollective.org/interns/",
     "url_label": "View internships",
     "status": {
-      "kind": "s-new",
-      "label": "✨ New — June 16, 2026"
+      "kind": "s-updated",
+      "label": "Updated — July 6, 2026"
     },
     "id": "item-131"
   },
@@ -6128,12 +6128,12 @@
     "src": "erin_programs.html",
     "src_label": "Funded Graduate Programs",
     "status": {
-      "kind": "s-new",
-      "label": "✨ New — June 29, 2026"
+      "kind": "s-updated",
+      "label": "Updated — July 6, 2026"
     },
     "title": "University of Maine — Funded MS/PhD, Forest Biomass Supply-Chain Sustainability (School of Forest Resources)",
     "org": "University of Maine — School of Forest Resources · Orono, ME",
-    "deadline": "Apply by June 30, 2026 — submit cover letter, CV, transcripts, and references via the program's Google Form.",
+    "deadline": "The June 30, 2026 application window has closed. This USDA NIFA-funded assistantship recurs with each admissions cycle — contact the School of Forest Resources (via the assistantships page) about the next cohort.",
     "start": "Fall 2026 (preferred)",
     "body": "USDA NIFA-funded Graduate Research Assistantship in the School of Forest Resources, optimizing forest biomass supply chains with an integrated emphasis on economic, ecological, and social sustainability. Support: $28,000/yr living allowance for MS students ($31,333/yr for PhD); the university covers 65% of health insurance and 50% of dental, plus office space, laptop access, and dedicated field/conference travel funds. Open to applicants holding a B.S. in Forestry, Economics, Statistics, or a quantitatively focused Environmental or Social Science discipline with a natural-resource-management background.",
     "desc": "A funded, BS-eligible assistantship in forestry and natural-resource management — within Erin's forestry/sustainability/land-use interests, though it leans quantitative (supply-chain optimization, economics) rather than her core water-quality and wildlife focus. Her GIS and multi-criteria suitability-analysis skills transfer well to the spatial/optimization side, and the program explicitly welcomes quantitatively focused environmental-science BS graduates. The package is solid ($28k MS + health/dental + travel). The deadline is imminent (June 30, 2026), so this is apply-now if the supply-chain/sustainability angle appeals.",
@@ -6145,10 +6145,10 @@
       "GIS / optimization",
       "Funded MS/PhD"
     ],
-    "metaLine": "Funded MS/PhD · MS $28k/yr · PhD $31,333/yr + health/dental + travel · apply by Jun 30, 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
-    "deadline_date": "2026-06-30",
+    "metaLine": "Funded MS/PhD · MS $28k/yr · PhD $31,333/yr + health/dental + travel · contact for next cohort",
+    "cycle": "next",
+    "deadline_kind": "contact-first",
+    "deadline_date": "",
     "region": "Northeast",
     "links": [
       {
@@ -6161,5 +6161,94 @@
     "pay": "$28,000/yr (MS) or $31,333/yr (PhD) living allowance",
     "stipend": "GRA living allowance as above",
     "benefits": "65% health insurance + 50% dental coverage; office space, laptop, field/conference travel funds"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships — Next Cycle",
+    "src": "erin_internships.html",
+    "src_label": "Internships — Next Cycle",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 6, 2026"
+    },
+    "title": "California BLM Riparian & Wetland AIM Monitoring — Crew Leads & Field Technicians (CNHP)",
+    "org": "Colorado Natural Heritage Program (Colorado State University) · in partnership with California BLM · statewide, CA",
+    "deadline": "Seasonal summer crew (recurring). The 2026 field season is already underway — email a resume, cover letter, and three references (with phone and email) to Katrina Castro (Katrina.Castro@colostate.edu) to be considered for the next (2027) season, and note if you want Crew Lead consideration. Watch CNHP's jobs page and the TAMU Natural Resources Job Board in late winter.",
+    "start": "Summer field season (approx. May–September)",
+    "body": "Field crews collect wetland and riparian condition data using BLM's Riparian & Wetland Assessment, Inventory, and Monitoring (AIM) protocol on BLM lands across California. Crews are trained by CNHP and BLM National Operations Center wetland ecologists, then spend the season sampling — vegetation composition, soil-profile descriptions, and water-quality measurements — beginning in southeastern California and moving to northeastern California (Eagle Lake and Applegate Field Offices). Crew Leads require a B.S. and lead a small crew; Field Technicians assist with data collection and backcountry navigation. Per recent CNHP announcements: Crew Leads roughly $20–22/hr and Field Technicians roughly $17–19/hr, depending on experience, plus about $60/day per diem and gear reimbursement (around $395–455 per two-week hitch) when traveling beyond the base location.",
+    "desc": "A near-exact match to Erin's field toolkit — wetland delineation (she is trained in the Army Corps manual), vegetation sampling, soil-profile description, and water-quality/sediment sampling are the core daily duties. The AIM protocol is a nationally standardized federal monitoring method that reads strongly on a federal or grad-school résumé, and the Crew Lead role is open to a B.S. graduate. West Coast placement also broadens her geographic range. The main caveats: it is a seasonal field position rather than a career track, and the 2026 season is already filled — so this is a plan-ahead card for the 2027 cycle (or an immediate contact if any late vacancies open).",
+    "badge": "Strong fit",
+    "pills": [
+      "Wetland & riparian monitoring",
+      "AIM protocol",
+      "Vegetation & soils",
+      "Water quality",
+      "Field technician",
+      "BS-eligible (Crew Lead)"
+    ],
+    "metaLine": "Seasonal field crew · Crew Lead ~$20–22/hr / Tech ~$17–19/hr + per diem · California BLM · plan ahead for 2027",
+    "cycle": "next",
+    "deadline_kind": "contact-first",
+    "deadline_date": "",
+    "region": "West Coast / Pacific",
+    "links": [
+      {
+        "href": "https://cnhp.colostate.edu/cwic/condition/blm_aim/",
+        "label": "🔗 CNHP — BLM AIM program"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/",
+        "label": "🔗 TAMU Natural Resources Job Board"
+      }
+    ],
+    "id": "item-141",
+    "location": "Statewide California (BLM lands; SE California, then Eagle Lake & Applegate Field Offices)",
+    "pay": "Crew Lead ~$20–22/hr; Field Technician ~$17–19/hr (per recent CNHP announcements)",
+    "stipend": "Hourly seasonal wage as above",
+    "benefits": "~$60/day per diem + gear reimbursement (~$395–455 per two-week hitch) when traveling beyond base; field training in the AIM protocol"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 6, 2026"
+    },
+    "title": "University of Connecticut — Funded PhD, Biogeochemistry of Beaver-Created Ecosystems (Helton Lab)",
+    "org": "University of Connecticut — Dept. of Natural Resources & the Environment · Helton & Lawrence Labs · Dr. Ashley Helton · Storrs, CT",
+    "deadline": "Apply by September 1, 2026 — email Dr. Ashley Helton (ashley.helton@uconn.edu) with the subject line \"PhD Application Beaver Project,\" a research statement, and a CV listing three references.",
+    "start": "Between January and May 2027",
+    "body": "Fully funded PhD Graduate Assistantship (up to $40,000/yr) in the Helton and Lawrence lab groups, studying how beaver-created ecosystems in the northeastern United States affect freshwater carbon cycling. The project pairs field biogeochemistry with modeling to quantify how beaver ponds and wetlands store and release carbon. A bachelor's degree is required and about one year of post-baccalaureate research experience is expected; a master's is strongly preferred but not required. To apply, email a research statement and a CV (with three references) to Dr. Ashley Helton.",
+    "desc": "Freshwater biogeochemistry and wetland carbon cycling sit squarely in Erin's interest areas, and the work builds naturally on her Pigeon River trace-metal sediment capstone and sediment-sampling skills — sediment and water biogeochemistry are the same analytical world. Beaver-pond wetlands also connect to her wetland-delineation training, and the stipend is excellent (up to $40k). It is a direct-to-PhD position where the ad prefers (but does not require) a master's and expects roughly a year of post-baccalaureate research experience — so eligibility is a reach-to-strong depending on how her AmeriCorps and technician research time is counted. A specific, well-argued outreach email to Dr. Helton is the right move; the later start (early–mid 2027) leaves time to line up references and funding.",
+    "badge": "Good fit",
+    "pills": [
+      "Biogeochemistry",
+      "Freshwater carbon cycling",
+      "Wetlands",
+      "Beaver ecosystems",
+      "Funded PhD"
+    ],
+    "metaLine": "Funded PhD · up to $40,000/yr · Storrs, CT · apply by Sep 1, 2026 · start early 2027",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-01",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://nre.uconn.edu/",
+        "label": "🔗 UConn Natural Resources & the Environment"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/",
+        "label": "🔗 TAMU Natural Resources Job Board"
+      }
+    ],
+    "id": "item-142",
+    "location": "Storrs, Connecticut (University of Connecticut); field sites across the northeastern US",
+    "pay": "Up to $40,000/yr PhD graduate assistantship",
+    "stipend": "Graduate assistantship stipend up to $40,000/yr",
+    "benefits": "Standard UConn PhD graduate-assistant benefits (tuition support / health plan — confirm specifics with the lab)"
   }
 ]
