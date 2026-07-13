@@ -6250,5 +6250,91 @@
     "pay": "Up to $40,000/yr PhD graduate assistantship",
     "stipend": "Graduate assistantship stipend up to $40,000/yr",
     "benefits": "Standard UConn PhD graduate-assistant benefits (tuition support / health plan — confirm specifics with the lab)"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 13, 2026"
+    },
+    "title": "Cal Poly Humboldt — Three Funded MS Assistantships, Fisheries Conservation Genetics & eDNA (Arcata, CA)",
+    "org": "Cal Poly Humboldt — Dept. of Fisheries Biology · Natural Resources MS · Arcata, CA (northern California)",
+    "deadline": "Contact-first — email the Fisheries Biology graduate program (fisheries@humboldt.edu) to ask which of the three genetics/eDNA assistantships are still open and the current application timeline; the campus Natural Resources MS admission cycle typically closes in late winter for fall start.",
+    "start": "Fall term (confirm year with the department)",
+    "body": "Three funded M.S. Graduate Research Assistantships in the Fisheries Biology department at Cal Poly Humboldt (Arcata, CA), applying genetic and environmental-DNA (eDNA) approaches to fish conservation and management. The three projects are: (1) quantifying variability of Ceratonova shasta (a salmonid parasite) DNA concentrations in Klamath River water samples; (2) monitoring coho salmon at local scales in northern California streams using eDNA; and (3) using genomics to study local adaptation among isolated populations of the endangered tidewater goby. Support is roughly $25,000/yr (hourly wages or stipend depending on position) plus partial tuition support. A BS is sufficient to apply to the Natural Resources MS.",
+    "desc": "This is a solid West Coast fisheries/aquatic add that leans on Erin's water-sampling and field-monitoring background — the Klamath River project in particular is built on collecting and analyzing river water samples, the same field-and-lab world as her Pigeon River trace-metal water/sediment work. The eDNA and genomics methods are new ground for her (her strengths are wetland delineation, GIS, sediment/trace-metal sampling, and camera/small-mammal work), so this is a genuine skills stretch rather than a bullseye — hence a Good rather than Strong tier. Because the three positions fill individually and no dated deadline is posted, the right move is a specific outreach email naming the project she is most drawn to (the Klamath water-quality/parasite project fits her best) and asking about the current cycle. Arcata is redwood-coast northern California, filling an under-represented West Coast region on her list.",
+    "badge": "Good fit",
+    "pills": [
+      "Fisheries",
+      "eDNA & genomics",
+      "Water sampling",
+      "Salmon & tidewater goby",
+      "Funded MS"
+    ],
+    "metaLine": "Three funded MS assistantships · ~$25,000/yr + partial tuition · Arcata, CA · contact-first",
+    "cycle": "current",
+    "deadline_kind": "contact-first",
+    "region": "West Coast / Pacific",
+    "links": [
+      {
+        "href": "https://www.humboldt.edu/fisheries-biology/graduate-program",
+        "label": "🔗 Cal Poly Humboldt Fisheries Biology — Graduate Program"
+      },
+      {
+        "href": "https://fisheries.org/employment/jobs/fisheries-conservation-genetics-positions-three-m-s-assistantships/",
+        "label": "🔗 AFS posting — three MS assistantships"
+      }
+    ],
+    "id": "item-143",
+    "location": "Arcata, California (Cal Poly Humboldt); field sites on the Klamath River and northern California coastal streams",
+    "pay": "~$25,000/yr (hourly wage or stipend, by position)",
+    "stipend": "Graduate research assistantship ~$25,000/yr",
+    "benefits": "Partial tuition support (confirm health coverage and fee remission with the department)"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 13, 2026"
+    },
+    "title": "University of Arizona — MS/PhD, Watershed Management & Ecohydrology (SNRE, Tucson, AZ)",
+    "org": "University of Arizona — School of Natural Resources & the Environment · Watershed Management & Ecohydrology emphasis · Tucson, AZ",
+    "deadline": "Contact-first — identify a faculty advisor in the Watershed Management & Ecohydrology group, email them about assistantship funding for the next cohort, then apply through the UArizona graduate portal (apply.grad.arizona.edu). No single fixed deadline is posted on the program page; deadlines are set per advisor/cohort.",
+    "start": "Fall (next available cohort — confirm with the program)",
+    "body": "MS and PhD study in the Watershed Management & Ecohydrology emphasis within the School of Natural Resources & the Environment at the University of Arizona (Tucson). The program trains students to manage water resources by understanding how hydrologic processes are shaped by land management and land-surface conditions in upland watersheds, especially in the arid Southwest; coursework spans dryland ecohydrology, vegetation dynamics, wildland water quality, ecological climatology, and fire ecology. Funding is typically through research or teaching assistantships tied to a faculty advisor's grants — the program page does not list a blanket funded offer, so funding should be confirmed directly with a prospective advisor. A BS is sufficient to apply for the MS.",
+    "desc": "Topically this is close to a bullseye for Erin's stated interests — watershed science, hydrology, water quality, and GIS/remote sensing — applied to arid-Southwest watersheds, a landscape and water-scarcity context different from her Appalachian/Southeast experience and therefore good breadth. Her multi-criteria GIS suitability work and water-quality sampling transfer directly to ecohydrology and wildland water-quality research. The one caveat is funding: unlike a posted assistantship, admission-plus-funding here runs through a specific faculty advisor, so this is a contact-first program rather than a single deadline to hit — the move is to find one or two SNRE watershed/ecohydrology faculty whose work matches her wetland/water-quality background and email them before applying. Fills the under-represented Southwest region on her list.",
+    "badge": "Strong fit",
+    "pills": [
+      "Watershed science",
+      "Ecohydrology",
+      "Water quality",
+      "GIS / remote sensing",
+      "Arid Southwest"
+    ],
+    "metaLine": "MS / PhD · assistantship funding via advisor · Tucson, AZ · contact-first",
+    "cycle": "current",
+    "deadline_kind": "contact-first",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://snre.arizona.edu/graduate/ms-phd-natural-resources/watershed-management-and-ecohydrology",
+        "label": "🔗 UArizona SNRE — Watershed Management & Ecohydrology"
+      },
+      {
+        "href": "https://apply.grad.arizona.edu/",
+        "label": "🔗 UArizona Graduate Application Portal"
+      }
+    ],
+    "id": "item-144",
+    "location": "Tucson, Arizona (University of Arizona, SNRE); watershed field sites across the arid Southwest",
+    "pay": "Research/teaching assistantship stipend (amount set by advisor's funding — confirm)",
+    "stipend": "Assistantship stipend varies by advisor/grant (not published on the program page)",
+    "benefits": "Assistantships typically include a tuition remission and health plan — confirm specifics with the prospective advisor"
   }
 ]
