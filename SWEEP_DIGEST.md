@@ -1,8 +1,6 @@
-# Weekly opportunity sweep — 2026-07-13
+# Weekly opportunity sweep — 2026-07-18
 
-**Added 2 new** opportunities:
-- Cal Poly Humboldt — Three Funded MS Assistantships, Fisheries Conservation Genetics & eDNA (Arcata, CA) — _Good_ · West Coast / Pacific · deadline: Contact-first — email the Fisheries Biology graduate program (fisheries@humboldt.edu) to ask which of the three genetics/eDNA assistantships are still open and the current application timeline; the campus Natural Resources MS admission cycle typically closes in late winter for fall start.
-- University of Arizona — MS/PhD, Watershed Management & Ecohydrology (SNRE, Tucson, AZ) — _Strong_ · Southwest · deadline: Contact-first — identify a faculty advisor in the Watershed Management & Ecohydrology group, email them about assistantship funding for the next cohort, then apply through the UArizona graduate portal (apply.grad.arizona.edu). No single fixed deadline is posted on the program page; deadlines are set per advisor/cohort.
+**Added 0 new** opportunities.
 
 **Updated 0** (deadline / status / description changed).
 
