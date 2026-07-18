@@ -146,8 +146,15 @@ body{padding:0 0 3rem}
     return esc(frag).replace(new RegExp('('+q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','ig'),'<mark>$1</mark>');
   }
 
+  /* v2.78: index every form of the card number so "137", "0137", "#0137" and
+     "item-137" all match the same card (display is padded to 4; id is unchanged). */
+  function idTokens(id){ var m=String(id||'').match(/(\d+)\s*$/); if(!m) return '';
+    return ' '+(String(id)+' '+m[1]+' '+m[1].padStart(4,'0')).toLowerCase(); }
+  function hayOf(rec){ var h; try{ h=JSON.stringify(rec).toLowerCase(); }catch(e){ h=(''+rec).toLowerCase(); }
+    return h + idTokens(rec && (rec.id||rec.itemId)); }
+
   window.doSearch=function(){
-    var q=(document.getElementById('q').value||'').trim().toLowerCase();
+    var q=(document.getElementById('q').value||'').trim().toLowerCase().replace(/^#/,'');  /* allow "#0137" */
     document.getElementById('qclear').style.display=q?'block':'none';
     var box=document.getElementById('sr');
     if(q.length<2){ box.innerHTML='<div class="search-hint">Type at least 2 characters. Searches titles, orgs, notes, deadlines &mdash; everything.</div>'; return; }
@@ -157,7 +164,7 @@ body{padding:0 0 3rem}
       var rows=[];
       g.get().forEach(function(rec){
         if(!rec||typeof rec!=='object') return;
-        var hay; try{ hay=JSON.stringify(rec).toLowerCase(); }catch(e){ hay=(''+rec).toLowerCase(); }
+        var hay=hayOf(rec);
         if(hay.indexOf(q)<0) return;
         if(rec.id && niHas(rec.id) && !showNI) return;  /* hide Not-interested by default */
         rows.push(rec);
@@ -181,7 +188,7 @@ body{padding:0 0 3rem}
     if(!total){
       box.innerHTML='<div class="sr-empty"><div class="sr-empty-icon">🔍</div><div>No matches for &ldquo;'+esc(q)+'&rdquo;.</div></div>';
     } else {
-      box.innerHTML='<div class="sr-summary">'+total+' result'+(total===1?'':'s')+' across '+GROUPS.filter(function(g){return g.get().some(function(r){try{return JSON.stringify(r).toLowerCase().indexOf(q)>-1;}catch(e){return false;}});}).length+' section(s)</div>'+html;
+      box.innerHTML='<div class="sr-summary">'+total+' result'+(total===1?'':'s')+' across '+GROUPS.filter(function(g){return g.get().some(function(r){try{return hayOf(r).indexOf(q)>-1;}catch(e){return false;}});}).length+' section(s)</div>'+html;
     }
   };
 

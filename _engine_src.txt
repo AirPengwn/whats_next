@@ -55,6 +55,13 @@ var _stickyShow={}, _keepSticky=false; /* a just-marked "Not interested" card st
 function niHas(id){ return !!(window.NI && NI.has && NI.has(id)); }
 function prHas(id){ return !!(window.PR && PR.has && PR.has(id)); }
 function rvHas(id){ return !!(window.RV && RV.has && RV.has(id)); }
+/* v2.78: card number. DISPLAY is zero-padded to 4 ("item-137" -> "#0137") so the
+   column stays a uniform width past 999. The stored id is NEVER changed — it's the
+   join key for saved items / apps / materials / flags. Search indexes every form
+   ("item-137 137 0137") so 137, 0137, #137, #0137 and item-137 all find the card. */
+function oppNum(id){ var m=String(id||'').match(/(\d+)\s*$/); return m ? m[1].padStart(4,'0') : ''; }
+function idTokens(id){ var m=String(id||'').match(/(\d+)\s*$/); if(!m) return String(id||'').toLowerCase();
+  return (String(id)+' '+m[1]+' '+m[1].padStart(4,'0')).toLowerCase(); }
 function isExpiredItem(it){ return bucketOf(it)===5 || it.expired===true; }
 /* Items Erin removed from My List (archive log, action 'removed'). Reads
    localStorage on the primary device; falls back to the reader-mode cache. */
@@ -298,7 +305,7 @@ function renderBrowseX(){
   if(!_keepSticky) _stickyShow={};
   _keepSticky=false;
   buildBrowseFiltersX();
-  var q=((document.getElementById('bs')||{}).value||'').toLowerCase();
+  var q=((document.getElementById('bs')||{}).value||'').toLowerCase().trim().replace(/^#/,'');  /* allow "#0137" */
   var RM = viewScope==='removed' ? removedSet() : null;
   var items=ALL.filter(function(it){
     /* scope "View" — absolute: shows the subset even if saved/passed/hidden */
@@ -329,7 +336,7 @@ function renderBrowseX(){
         if(picks.length){ var ok=false;
           for(var p=0;p<picks.length;p++){ if(sf.test(it,picks[p])){ ok=true; break; } }
           if(!ok) return false; } } }
-    if(q){ var hay=(it.title+it.org+(it.cat||'')+(it.deadline||'')+(it.desc||it.body||'')+(it.pills||[]).join(' ')).toLowerCase(); if(hay.indexOf(q)<0) return false; }
+    if(q){ var hay=(it.title+it.org+(it.cat||'')+(it.deadline||'')+(it.desc||it.body||'')+(it.pills||[]).join(' ')).toLowerCase()+' '+idTokens(it.id); if(hay.indexOf(q)<0) return false; }
     return true;
   });
   items.sort(function(a,b){
@@ -359,6 +366,10 @@ function renderBrowseX(){
     var th=el('div',null); th.style.cssText='display:flex;justify-content:space-between;gap:8px;align-items:flex-start';
     var tl=el('div',null);
     var titleRow=el('div',null); titleRow.style.cssText='display:flex;align-items:center;gap:7px;flex-wrap:wrap';
+    var _idc=el('span','bx-idnum','#'+oppNum(it.id));
+    _idc.style.cssText='font-family:var(--mono);font-size:12.5px;font-weight:600;color:var(--t3);background:var(--bg2);border:.5px solid var(--bd);padding:1px 7px;border-radius:5px;white-space:nowrap;flex-shrink:0';
+    _idc.title='Card '+it.id+' — search this number to jump straight here';
+    titleRow.appendChild(_idc);
     if(fresh) titleRow.appendChild(el('span','bx-new','✨ NEW'));
     titleRow.appendChild(el('div','browse-title',it.title));
     if(prio){ var _pb=el('span','bx-saved','⭐ Priority'); _pb.style.cssText='background:var(--purple-bg);color:var(--purple-t)'; titleRow.appendChild(_pb); }

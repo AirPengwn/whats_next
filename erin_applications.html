@@ -397,6 +397,8 @@ function loadMyList(){ if(isPrimary()){ try{ return JSON.parse(localStorage.getI
 var _memPriority=null;
 function getPriority(){ if(isPrimary()){ try{ return JSON.parse(localStorage.getItem('erin_priority_v1')||'{}'); }catch(e){ return {}; } } return _memPriority||{}; }
 function isPriorityApp(a){ var p=getPriority(); return !!(a && a.itemId && p[a.itemId]); }
+/* v2.78: show the opportunity's card number (display-padded to 4) so cards are easy to reference */
+function oppNum(id){ var m=String(id||'').match(/(\d+)\s*$/); return m ? m[1].padStart(4,'0') : ''; }
 function loadApps(){ try{ return JSON.parse(localStorage.getItem(APP_STORE)||'[]'); }catch(e){ return []; } }
 function saveApps(arr){ localStorage.setItem(APP_STORE,JSON.stringify(arr)); }
 
@@ -637,7 +639,7 @@ function renderCards(){
     // Header
     var hdr=document.createElement('div'); hdr.className='app-header';
     var left=document.createElement('div');
-    var titleEl=document.createElement('div'); titleEl.className='app-title'; titleEl.textContent=(isPriorityApp(app)?'⭐ ':'')+(app.programTitle||'Untitled Application');
+    var titleEl=document.createElement('div'); titleEl.className='app-title'; titleEl.textContent=(isPriorityApp(app)?'⭐ ':'')+(app.itemId?'#'+oppNum(app.itemId)+' ':'')+(app.programTitle||'Untitled Application');
     var orgEl=document.createElement('div'); orgEl.className='app-org'; orgEl.textContent=app.org||'';
     left.appendChild(titleEl); left.appendChild(orgEl);
     if(app.deadline){ var dl=document.createElement('div'); dl.className='app-deadline'; dl.textContent='Deadline: '+app.deadline; left.appendChild(dl); }
