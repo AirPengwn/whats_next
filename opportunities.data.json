@@ -10076,5 +10076,277 @@
     "stipend": "Not published on the CCNC listing pages — sibling corps pay $600 per week; confirm with the program",
     "benefits": "AmeriCorps term — confirm Segal Education Award amount with Conservation Corps North Carolina",
     "id": "item-226"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Fish and Wildlife Scientific Aid — Tidal Wetland Restoration Monitoring (Delta)",
+    "org": "California Department of Fish and Wildlife · Stockton, CA",
+    "deadline": "Application deadline July 23, 2026",
+    "start": "Full-time seasonal",
+    "body": "Supports monitoring of tidal wetland restoration effectiveness in the Sacramento–San Joaquin Delta. The role is roughly 40 hours per week of laboratory microscopy identifying aquatic invertebrates, plus seasonal boat-based benthic and pelagic sampling. The posting explicitly requires only some undergraduate coursework and no prior experience. Scientific Aid appointments require no prior civil service examination. Posted pay is $18.26 to $21.67 per hour.",
+    "desc": "A job whose entire purpose is measuring whether tidal wetland restoration actually worked is close to ideal for Erin — it pairs her wetland background with the benthic and sediment sampling she did for her capstone, and adds invertebrate identification, a genuinely marketable lab skill she does not yet have. The Sacramento–San Joaquin Delta is also the largest estuarine restoration landscape in the western United States, so the experience travels. Best of all, the posting states no prior experience is required and the Scientific Aid class needs no civil service exam, which removes the two barriers that usually block a recent graduate from state work. The deadline is essentially immediate.",
+    "badge": "Top recommendation",
+    "pills": [
+      "Tidal wetland restoration monitoring",
+      "Benthic & pelagic sampling",
+      "Invertebrate ID lab skill",
+      "No prior experience required",
+      "No civil service exam",
+      "⚠️ Deadline Jul 23"
+    ],
+    "metaLine": "Seasonal state · $18.26–$21.67/hr · Stockton CA · deadline Jul 23 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-23",
+    "region": "West Coast / Pacific",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117450",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      },
+      {
+        "href": "https://wildlife.ca.gov/Employment",
+        "label": "🔗 CDFW employment"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117450",
+    "location": "Stockton, CA (Sacramento–San Joaquin Delta restoration sites)",
+    "pay": "$18.26–$21.67 per hour",
+    "stipend": "",
+    "benefits": "Seasonal Scientific Aid appointment — confirm benefit eligibility with CDFW",
+    "id": "item-227"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Natural Resource Member — aquatic & watershed monitoring with USFS/BLM biologists",
+    "org": "American Conservation Experience · EPIC · Corvallis, OR",
+    "deadline": "Application deadline August 1, 2026",
+    "start": "Late July or early August 2026, minimum ~12 weeks",
+    "body": "Serves alongside US Forest Service and BLM aquatic biologists on watershed monitoring across northwest California, Oregon and Washington west of the Cascades. Work covers stream habitat surveys including channel morphology, substrate, pools and large wood, benthic macroinvertebrate collection, and water chemistry sampling. An October phase involves retrieving Autonomous Recording Units for Northern Spotted Owl monitoring. The schedule runs eight days in the field followed by six days off. Published compensation is $800 per week dispersed bi-weekly, plus up to $200 per week housing reimbursement and $500 relocation assistance.",
+    "desc": "This is the closest single match found anywhere in this sweep to Erin's combined skill set: water chemistry sampling, substrate and channel characterization, macroinvertebrate collection and wildlife monitoring are all in one position, and she has done versions of nearly all of them. Serving directly alongside Forest Service and BLM aquatic biologists is also the fastest realistic route to federal references and federal familiarity given how thin direct federal hiring is right now. The compensation is strong for a service term — $800 per week plus housing reimbursement genuinely covers living costs. The eight-days-on schedule is demanding, but her NCCC experience means she knows what that feels like.",
+    "badge": "Top recommendation",
+    "pills": [
+      "Water chemistry sampling",
+      "Stream habitat & substrate surveys",
+      "Macroinvertebrate collection",
+      "Spotted Owl ARU retrieval",
+      "$800/wk + $200/wk housing",
+      "Serves with USFS & BLM biologists"
+    ],
+    "metaLine": "~12+ weeks · $800/wk + housing · Corvallis OR · deadline Aug 1 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-01",
+    "region": "West Coast / Pacific",
+    "links": [
+      {
+        "href": "https://usaconservation.applicantpool.com/jobs/1312892.html",
+        "label": "🔗 Full posting — ACE EPIC"
+      },
+      {
+        "href": "https://www.usaconservation.org/epic/",
+        "label": "🔗 About ACE EPIC"
+      }
+    ],
+    "url": "https://usaconservation.applicantpool.com/jobs/1312892.html",
+    "location": "Corvallis, OR (fieldwork across NW California, Oregon and Washington west of the Cascades)",
+    "pay": "",
+    "stipend": "$800 per week living allowance, dispersed bi-weekly",
+    "benefits": "Up to $200/week housing reimbursement and $500 relocation assistance",
+    "id": "item-228"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Biological Science Technician (Fish), GS-0404-05 — Central Valley fish monitoring",
+    "org": "U.S. Fish and Wildlife Service · Lodi Fish and Wildlife Office · Lodi, CA",
+    "deadline": "Application deadline July 24, 2026",
+    "start": "Seasonal federal appointment",
+    "body": "A seasonal federal fisheries technician position supporting Central Valley fish monitoring, including field sampling, fish handling and identification, water quality measurement, and data recording. The announcement is open to the public under direct-hire authority at GS-5, the standard entry grade for a bachelor’s degree holder. Posted pay is $24.40 to $31.72 per hour.",
+    "desc": "Genuinely public-facing federal announcements at GS-5 are scarce right now — most postings in this series are internal merit-promotion or resume-bank placeholders — so an open direct-hire announcement Erin can actually qualify for is worth acting on quickly. Water quality measurement is explicitly in the duty list alongside the fish work, so it is not a pure fisheries role. Any federal appointment, even seasonal, starts building the service record and internal-applicant status that make later USFWS and USDA applications dramatically easier. Pay is strong for a technician position. The deadline is days away.",
+    "badge": "Top recommendation",
+    "pills": [
+      "Genuine public federal announcement",
+      "GS-5 entry grade for a BS",
+      "$24.40–$31.72/hr",
+      "Water quality measurement",
+      "USFWS — her target agency",
+      "⚠️ Deadline Jul 24"
+    ],
+    "metaLine": "Seasonal federal GS-5 · $24.40–$31.72/hr · Lodi CA · deadline Jul 24 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-24",
+    "region": "West Coast / Pacific",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/876805000",
+        "label": "🔗 Full announcement — USAJOBS"
+      },
+      {
+        "href": "https://www.fws.gov/office/lodi-fish-and-wildlife",
+        "label": "🔗 Lodi Fish and Wildlife Office"
+      }
+    ],
+    "url": "https://www.usajobs.gov/job/876805000",
+    "location": "Lodi, CA (Central Valley monitoring sites)",
+    "pay": "$24.40–$31.72 per hour (GS-0404-05)",
+    "stipend": "",
+    "benefits": "Seasonal federal appointment — confirm benefit eligibility on the USAJOBS announcement",
+    "id": "item-229"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Biological Science Technician (Fish), GS-0404-05 — upper Sacramento River salmonids",
+    "org": "U.S. Fish and Wildlife Service · Red Bluff Fish and Wildlife Office · Anderson / Red Bluff, CA",
+    "deadline": "Application deadline July 27, 2026",
+    "start": "Seasonal federal appointment",
+    "body": "A seasonal USFWS technician position working on upper Sacramento River salmonid monitoring, including rotary screw trapping, spawning surveys, fish handling and biological data collection. The announcement is a public-eligible direct-hire posting at GS-5. Posted pay is $19.52 to $25.37 per hour.",
+    "desc": "A second open federal GS-5 technician slot in California, and river-based monitoring work that parallels her Pigeon River capstone closely enough that she can speak to it credibly in an interview. Rotary screw trapping and spawning surveys are standard salmonid techniques that appear constantly in west coast fisheries job descriptions, so learning them opens a whole category of future positions. Applying to both this and the Lodi announcement doubles her odds at essentially no extra cost, since the resume and federal application package are the same. Pay is somewhat lower than Lodi, and Red Bluff is a smaller town.",
+    "badge": "Strong fit",
+    "pills": [
+      "Public federal announcement",
+      "GS-5 entry grade",
+      "Rotary screw trapping",
+      "Spawning surveys",
+      "$19.52–$25.37/hr",
+      "Pairs with the Lodi application"
+    ],
+    "metaLine": "Seasonal federal GS-5 · $19.52–$25.37/hr · Red Bluff CA · deadline Jul 27 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-27",
+    "region": "West Coast / Pacific",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/876870200",
+        "label": "🔗 Full announcement — USAJOBS"
+      },
+      {
+        "href": "https://www.fws.gov/office/red-bluff-fish-and-wildlife",
+        "label": "🔗 Red Bluff Fish and Wildlife Office"
+      }
+    ],
+    "url": "https://www.usajobs.gov/job/876870200",
+    "location": "Anderson / Red Bluff, CA (upper Sacramento River)",
+    "pay": "$19.52–$25.37 per hour (GS-0404-05)",
+    "stipend": "",
+    "benefits": "Seasonal federal appointment — confirm benefit eligibility on the USAJOBS announcement",
+    "id": "item-230"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Environmental Resource Specialist — watershed, water quality & GIS (central coast)",
+    "org": "Coastal San Luis Resource Conservation District · Morro Bay, CA",
+    "deadline": "Application deadline July 31, 2026",
+    "start": "Full-time",
+    "body": "A resource conservation district role covering watershed and water-quality projects, landowner technical assistance, and habitat restoration on California's central coast. The listing appears under both water-quality and GIS categories, indicating geospatial work is a core duty rather than an occasional task. Posted pay is $25 to $28 per hour.",
+    "desc": "Watershed work and GIS in the same job description, at an entry-level district, is exactly the combination Erin should be looking for — most postings offer one or the other. Resource conservation districts also give a new hire unusually broad exposure, since landowner technical assistance means learning to translate technical findings for non-scientists, which is a skill that compounds. The central coast is expensive, so $25 to $28 per hour needs weighing against Morro Bay housing costs, but the rate is respectable for a first professional position and the work is squarely in her stated interest area.",
+    "badge": "Top recommendation",
+    "pills": [
+      "Watershed & water quality projects",
+      "GIS is a core duty",
+      "Habitat restoration",
+      "Landowner technical assistance",
+      "$25–$28/hour",
+      "Entry-level district role"
+    ],
+    "metaLine": "Full-time · $25–$28/hr · Morro Bay CA · deadline Jul 31 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "West Coast / Pacific",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117642",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      },
+      {
+        "href": "https://www.coastalrcd.org/",
+        "label": "🔗 Coastal San Luis RCD"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117642",
+    "location": "Morro Bay, CA (California's central coast watersheds)",
+    "pay": "$25–$28 per hour",
+    "stipend": "",
+    "benefits": "Confirm benefits with Coastal San Luis Resource Conservation District",
+    "id": "item-231"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Washington Conservation Corps AmeriCorps Member — salmon & riparian restoration (statewide)",
+    "org": "Washington Conservation Corps · WA Department of Ecology · statewide",
+    "deadline": "Application deadline September 24, 2026",
+    "start": "October 5, 2026 through September 15, 2027",
+    "body": "An eleven-month AmeriCorps term running October 5, 2026 through September 15, 2027. Field crews of six perform salmon and riparian habitat restoration, native planting, invasive species removal and restoration site monitoring; individual placements embed members with partner organizations assisting biologists and educators. Published compensation is $1,476 twice monthly, or $2,952 per month before taxes, rising to $1,609 twice monthly in King, Snohomish and Clark counties, plus a $7,395 Segal Education Award for a full term, health insurance, 120 hours of time off, and student loan interest paid during service. Eligibility is stated as ages 18 to 25 on the first day of service, with exceptions for veterans and people with disabilities.",
+    "desc": "The Washington Conservation Corps is the best-paid and highest-volume entry point in the Pacific Northwest for exactly Erin's skill set, and the benefits package — health insurance, paid time off, and loan interest covered — is far more complete than most service terms offer. The individual placement track matters most for her: embedding with a partner biologist builds a technical resume in a way crew work does not. Riparian and salmon habitat restoration also sits directly in her watershed interest area. One thing to verify first: the posting states an age range of 18 to 25 on the first day of service, so she should confirm her eligibility before investing in the application.",
+    "badge": "Strong fit",
+    "pills": [
+      "$2,952/month before taxes",
+      "$7,395 education award",
+      "Health insurance + 120 hrs leave",
+      "Loan interest paid",
+      "Individual placement track",
+      "⚠️ States age 18–25 eligibility"
+    ],
+    "metaLine": "11 months · $2,952/mo + $7,395 award · statewide WA · deadline Sep 24 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-24",
+    "region": "West Coast / Pacific",
+    "links": [
+      {
+        "href": "https://ecology.wa.gov/about-us/jobs-at-ecology/washington-conservation-corps/join-wcc",
+        "label": "🔗 Join WCC — WA Dept. of Ecology"
+      }
+    ],
+    "url": "https://ecology.wa.gov/about-us/jobs-at-ecology/washington-conservation-corps/join-wcc",
+    "location": "Statewide WA — Chelan, Clallam, Clark, Grays Harbor, Jefferson, King, Kittitas, Mason, Pierce, Skagit, Snohomish, Spokane, Thurston, Whatcom and Yakima Counties",
+    "pay": "",
+    "stipend": "$1,476 twice monthly ($2,952/month before taxes); $1,609 twice monthly in King, Snohomish and Clark counties",
+    "benefits": "$7,395 Segal Education Award for a full term, health insurance, 120 hours time off, and student loan interest paid during service",
+    "id": "item-232"
   }
 ]
