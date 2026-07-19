@@ -8434,5 +8434,281 @@
     "stipend": "$21,500 per year",
     "benefits": "AmeriCorps placement — confirm Segal Education Award and health coverage with Appalachian Forest NHA",
     "id": "item-190"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Biologist, Environmental Compliance Mitigation — Great Plains Region",
+    "org": "Ducks Unlimited · Fort Collins, CO or Grand Island, NE",
+    "deadline": "Open until filled (posted July 17, 2026)",
+    "start": "Full-time, start negotiable",
+    "body": "Develops and delivers wetland, stream, species and habitat mitigation projects for Ducks Unlimited's Environmental Compliance Mitigation program across a seven-state Great Plains region covering ND, SD, NE, KS, CO, WY and MT. Duties include conducting field investigations and wetland delineations, writing mitigation and restoration plans, performing GIS analysis and map production, and coordinating with the Army Corps of Engineers, USFWS, landowners and consultants. The work supports compliance with the Endangered Species Act, NEPA and Clean Water Act Section 404. The posting requires a BS in environmental science or a related field and names the Corps of Engineers Wetland Delineation Manual and Regional Supplements plus GIS analysis among its preferred skills. Salary is posted at $65,000 to $90,000 per year, and the candidate may choose either regional office. The listing describes itself as mid-level with a stated range of two to ten years of experience.",
+    "desc": "This posting reads as though it were written from Erin's resume — it names the Army Corps Wetland Delineation Manual specifically, pairs it with GIS analysis, and sets the degree bar at a BS in environmental science. Nothing else surfaced this year matches her two strongest technical skills that precisely, and the salary is roughly double what the seasonal technician roles pay. The honest caveat is seniority: Ducks Unlimited calls this mid-level with a two-to-ten-year band, so with a May 2025 BS plus NCCC she sits at or just below the floor and would be the junior candidate in the pool. That makes it a reach rather than a likely offer — but it is exactly the job her next two years should be aimed at, so it is worth applying and worth studying even if it does not land.",
+    "badge": "Reach",
+    "pills": [
+      "Names Army Corps delineation manual",
+      "GIS analysis & map production",
+      "$65,000–$90,000/yr",
+      "BS in env science required",
+      "Section 404 / NEPA / ESA",
+      "⚠️ States 2–10 years experience"
+    ],
+    "metaLine": "Full-time · $65,000–$90,000/yr · Fort Collins CO or Grand Island NE · open until filled",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "National / Remote / Multiple",
+    "links": [
+      {
+        "href": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7deee1c0-b159-4fdc-8bdb-3f1d87c47510&ccId=19000101_000001&lang=en_US&jobId=592483",
+        "label": "🔗 Full posting — Ducks Unlimited"
+      },
+      {
+        "href": "https://www.ducks.org/about-du/du-careers",
+        "label": "🔗 Ducks Unlimited careers"
+      }
+    ],
+    "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7deee1c0-b159-4fdc-8bdb-3f1d87c47510&ccId=19000101_000001&lang=en_US&jobId=592483",
+    "location": "Fort Collins, CO or Grand Island, NE (region covers ND, SD, NE, KS, CO, WY, MT)",
+    "pay": "$65,000–$90,000 per year",
+    "stipend": "",
+    "benefits": "Full-time Ducks Unlimited position — confirm benefits package with DU human resources",
+    "id": "item-191"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Conservation Crew Technician — stream & riparian restoration (WV/VA/MD)",
+    "org": "Trout Unlimited · West Virginia, Virginia and Maryland",
+    "deadline": "Rolling — start dates negotiable",
+    "start": "Temporary, up to six months or 1,000 hours",
+    "body": "A seasonal, entry-level field crew role delivering stream and riparian habitat restoration across a three-state Mid-Atlantic footprint. Work includes agricultural exclusion fencing, alternative watering systems, riparian tree plantings, stream habitat enhancement, streambank shaping and invasive species removal, with training provided. The position is temporary with flexible end dates and a maximum performance period of six months or 1,000 hours, and involves overnight travel. Posted pay is $15.00 to $20.00 per hour.",
+    "desc": "Trout Unlimited does some of the most respected stream restoration work in the country, and this role has no degree-level or years-of-experience bar at all, which makes it one of the most accessible entries on the list. The work — streambank shaping, riparian plantings, exclusion fencing — is hands-on watershed restoration that maps cleanly onto both her NCCC field-crew background and her stated restoration interest, and the three-state Appalachian footprint keeps her in familiar systems. The pay is at the low end and the term is capped at six months, so this is a season of good experience with a well-known organization rather than a stable position.",
+    "badge": "Good fit",
+    "pills": [
+      "Stream & riparian restoration",
+      "Streambank shaping",
+      "Riparian tree plantings",
+      "No experience bar",
+      "Training provided",
+      "$15–$20/hr"
+    ],
+    "metaLine": "Seasonal ≤6 months · $15–$20/hr · WV/VA/MD · rolling",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/937266",
+        "label": "🔗 Full posting — Trout Unlimited"
+      },
+      {
+        "href": "https://www.tu.org/about/careers/",
+        "label": "🔗 Trout Unlimited careers"
+      }
+    ],
+    "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/937266",
+    "location": "West Virginia, Virginia and Maryland (multi-state, overnight travel required)",
+    "pay": "$15.00–$20.00 per hour",
+    "stipend": "",
+    "benefits": "Temporary seasonal position — confirm benefit eligibility with Trout Unlimited",
+    "id": "item-192"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Stewards Individual Placements — national rolling portal (SOURCE — set an alert)",
+    "org": "Stewards Individual Placement Program · Conservation Legacy · nationwide",
+    "deadline": "Rolling — new placements posted continuously",
+    "start": "Varies by placement",
+    "body": "Stewards is Conservation Legacy's individual-placement arm, embedding AmeriCorps members and non-AmeriCorps interns with the National Park Service, US Forest Service, Bureau of Land Management, Bureau of Reclamation and OSMRE at host sites across the country. The open-positions table states that applications are reviewed and filled on a rolling basis with new postings added continuously. Live roles at the time of this sweep included vegetation monitoring, invasive plant management, and ecological conservation and restoration stewards. Members receive a living stipend that varies by agency plus an AmeriCorps Segal Education Award. Because individual postings turn over quickly, this card is a durable pointer to the portal rather than a snapshot of any one position.",
+    "desc": "This is a recurring source card, not a single job — the point is that Stewards posts new individual placements continuously all year, so it rewards a standing alert rather than a one-time look. Individual placements matter more than crew terms for Erin's trajectory because they embed her one-on-one with federal agency staff, which is how a corps term converts into a federal resume and federal references. Vegetation monitoring and restoration stewardship roles appear regularly and sit directly on her skill set. Stipends are set per placement and are not published at the portal level, so each posting needs its own check.",
+    "badge": "Strong fit",
+    "pills": [
+      "Recurring source — set an alert",
+      "Individual placements, not crew",
+      "NPS / USFS / BLM / BOR hosts",
+      "25+ states and territories",
+      "Builds federal resume",
+      "Rolling intake year-round"
+    ],
+    "metaLine": "Recurring source · stipend varies by placement · nationwide · rolling",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "National / Remote / Multiple",
+    "links": [
+      {
+        "href": "https://stewardslegacy.org/open-positions",
+        "label": "🔗 Stewards — open positions (check regularly)"
+      },
+      {
+        "href": "https://conservationlegacy.org/",
+        "label": "🔗 Conservation Legacy"
+      }
+    ],
+    "url": "https://stewardslegacy.org/open-positions",
+    "location": "Nationwide — host sites in 25+ states and territories",
+    "pay": "",
+    "stipend": "AmeriCorps living stipend — varies by agency and placement; check each posting",
+    "benefits": "AmeriCorps Segal Education Award on term completion; some placements include housing",
+    "id": "item-193"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "SCA Individual Placements & Conservation Internships — national portal (SOURCE — set an alert)",
+    "org": "Student Conservation Association · all 50 states",
+    "deadline": "Rolling — postings refreshed year-round",
+    "start": "Terms typically 3–12 months",
+    "body": "The Student Conservation Association's Individual Placement program puts adults aged 18 and over into single-intern conservation roles with federal and state land agencies, spanning biological survey work, habitat management, GIS and real-property mapping, and resource monitoring. Terms run roughly three to twelve months with paid travel to the work site, housing, and a biweekly living stipend; student loans may be deferred during service. Postings are added continuously rather than in a single annual cycle. The specific stipend amount is not published at the program level and varies by placement. Note that SCA's live listings sit behind a JavaScript-rendered ADP portal, so the listing page may need to be opened in a normal browser rather than followed from a link preview.",
+    "desc": "SCA placements routinely call for GIS applications, vegetation transects and biological surveys, which is an unusually exact match to Erin's skill set, and they are explicitly open to recent bachelor's graduates. Like Stewards, this is a recurring source rather than one job — the portal refreshes year-round, so the winning move is a standing alert and a periodic check rather than a single application. Housing and paid travel are included on most placements, which materially changes the economics of a low stipend. The published stipend figure varies by placement and is not stated at the program level, so each posting needs its own read.",
+    "badge": "Strong fit",
+    "pills": [
+      "Recurring source — set an alert",
+      "GIS & biological survey roles",
+      "All 50 states",
+      "Housing + paid travel",
+      "Open to recent BS grads",
+      "Terms 3–12 months"
+    ],
+    "metaLine": "Recurring source · stipend varies by placement · nationwide · rolling",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "National / Remote / Multiple",
+    "links": [
+      {
+        "href": "https://thesca.org/individual-placements",
+        "label": "🔗 SCA — individual placements"
+      },
+      {
+        "href": "https://myjobs.adp.com/scacareers/cx/job-listing",
+        "label": "🔗 SCA careers portal (open in a browser)"
+      }
+    ],
+    "url": "https://thesca.org/individual-placements",
+    "location": "All 50 states — public lands placements nationwide",
+    "pay": "",
+    "stipend": "Biweekly living stipend — amount not published at program level; varies by placement",
+    "benefits": "Paid travel to the work site, housing on most placements, and possible student loan deferment during service",
+    "id": "item-194"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "ACE EPIC — Emerging Professionals in Conservation, national placements (SOURCE — set an alert)",
+    "org": "American Conservation Experience · five national regions",
+    "deadline": "Rolling — new requisitions posted continuously",
+    "start": "Terms 3–12 months",
+    "body": "The Emerging Professionals in Conservation program places participants into three- to twelve-month mentored individual placements with the National Park Service, Bureau of Land Management, USFWS, US Forest Service and non-federal partners across five national regions: Eastern, Mountain West, Southwest, Pacific West and EPIC Nationwide. New requisitions post continuously to the ApplicantPool board, including GIS and data-management members, invasive species members, and wetland management district roles. All members receive a cost-of-living allowance, with housing or travel assistance on some positions. Amounts are set per placement and are not published at the program level.",
+    "desc": "EPIC's GIS and data-management placements and its wetland management district roles are entry-level by design and recruit nationwide, so Erin can apply from anywhere and relocate to whichever placement lands. This card is a durable pointer to the board rather than a snapshot of one requisition, because the postings turn over continuously — several individual EPIC positions already on her list came off this same portal. The mentored structure is the draw: unlike a crew term, an EPIC placement pairs her with agency staff doing the actual technical work she wants to be doing. Allowances vary by position, so each posting needs checking individually.",
+    "badge": "Strong fit",
+    "pills": [
+      "Recurring source — set an alert",
+      "GIS & data management roles",
+      "Wetland management districts",
+      "Mentored placements",
+      "Five national regions",
+      "Terms 3–12 months"
+    ],
+    "metaLine": "Recurring source · allowance varies by placement · nationwide · rolling",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "National / Remote / Multiple",
+    "links": [
+      {
+        "href": "https://usaconservation.applicantpool.com/jobs/",
+        "label": "🔗 ACE EPIC — open positions (check regularly)"
+      },
+      {
+        "href": "https://www.usaconservation.org/epic/",
+        "label": "🔗 About ACE EPIC"
+      }
+    ],
+    "url": "https://usaconservation.applicantpool.com/jobs/",
+    "location": "Nationwide — Eastern, Mountain West, Southwest, Pacific West and EPIC Nationwide regions",
+    "pay": "",
+    "stipend": "Cost-of-living allowance — amount not published at program level; set per placement",
+    "benefits": "Housing or travel assistance on some positions; confirm per posting",
+    "id": "item-195"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "FEMA Corps — AmeriCorps NCCC 2027 cohort",
+    "org": "AmeriCorps NCCC · FEMA Corps · nationwide deployment",
+    "deadline": "Application deadline October 19, 2026",
+    "start": "February 1 through November 20, 2027",
+    "body": "A ten-month full-time national service term running February 1 to November 20, 2027, serving on eight- to ten-person teams that complete four to six project deployments nationwide, with intensive training delivered directly by FEMA. Listed benefits are housing, health coverage, a living allowance, a relocation allowance, a stipend, training, and a Segal Education Award on completion, though no dollar figures are published on the listing. Service locations span all 50 states, DC, Puerto Rico, the US Virgin Islands, Guam, American Samoa and Saipan. Age eligibility is 18 to 24 for corps members; Team Leader roles carry no upper age limit.",
+    "desc": "As an NCCC alumna Erin already knows this model from the inside, which makes her a natural Team Leader candidate rather than a first-time corps member — and the Team Leader track has no upper age limit, which matters because the standard member track caps at 24. Disaster response is a genuine pivot away from her wetland and water quality core, but post-Helene recovery work is precisely the context her capstone came out of, so the connection to her story is real rather than a stretch. This is also the only firm-deadline national NCCC track currently accepting applications. Verify which track she is age-eligible for before investing in the application.",
+    "badge": "Good fit",
+    "pills": [
+      "10-month national term",
+      "Team Leader track for NCCC alumni",
+      "Disaster response training by FEMA",
+      "Housing + health coverage",
+      "Deadline Oct 19 2026",
+      "⚠️ Member track is age 18–24"
+    ],
+    "metaLine": "10 months · allowance not published · nationwide · deadline Oct 19 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-10-19",
+    "region": "National / Remote / Multiple",
+    "links": [
+      {
+        "href": "https://my.americorps.gov/mp/listing/viewListing.do?fromSearch=true&id=129840",
+        "label": "🔗 Full listing — AmeriCorps"
+      },
+      {
+        "href": "https://americorps.gov/serve/fit-finder/americorps-nccc",
+        "label": "🔗 About AmeriCorps NCCC"
+      }
+    ],
+    "url": "https://my.americorps.gov/mp/listing/viewListing.do?fromSearch=true&id=129840",
+    "location": "All 50 states, DC, Puerto Rico, USVI, Guam, American Samoa and Saipan",
+    "pay": "",
+    "stipend": "AmeriCorps living allowance — no dollar figure published on the listing; confirm with NCCC",
+    "benefits": "Housing, health coverage, relocation allowance, FEMA-delivered training and a Segal Education Award on completion",
+    "id": "item-196"
   }
 ]
