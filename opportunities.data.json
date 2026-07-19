@@ -14808,5 +14808,427 @@
     "stipend": "$2,066.66 per month",
     "benefits": "AmeriCorps term — confirm Segal Education Award amount with NDOW",
     "id": "item-328"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Funded Master of Natural Resources — MOSS Environmental Education & Science Communication Fellowship",
+    "org": "University of Idaho · McCall Outdoor Science School · McCall, ID",
+    "deadline": "Application deadline July 31, 2026",
+    "start": "10.5-month residential fellowship",
+    "body": "A 10.5-month residential fellowship in which participants earn a Master of Natural Resources from the University of Idaho while teaching field science at the McCall Outdoor Science School. The fellowship requires a bachelor’s degree, no prior experience, and US citizenship. The application needs three letters of recommendation, transcripts and a career-objectives statement. Compensation is free housing plus financial support, with the dollar amount not published.",
+    "desc": "This is a funded route to a completed master's degree that explicitly accepts a bachelor's with zero experience — which addresses the exact bottleneck Erin keeps hitting, where good graduate positions want a year or two of field work first. Earning the degree in 10.5 months rather than two or three years is unusually efficient, and free housing removes the biggest cost. Teaching field science also builds the communication skills that distinguish scientists who can explain their work. Two honest caveats: the financial support amount is not published, so she must ask, and this is a professional Master of Natural Resources rather than a thesis-based research MS, which matters if she wants a research career.",
+    "badge": "Top recommendation",
+    "pills": [
+      "Earns a completed MS in 10.5 months",
+      "BS with zero experience accepted",
+      "Free housing provided",
+      "Teaching field science",
+      "Requires 3 letters — start asking now",
+      "⚠️ Support amount unpublished; non-thesis MS"
+    ],
+    "metaLine": "Master of Natural Resources · free housing + support · McCall ID · deadline Jul 31 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "Mountain West",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=109107",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      },
+      {
+        "href": "https://www.uidaho.edu/cnr/moss",
+        "label": "🔗 McCall Outdoor Science School"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=109107",
+    "location": "McCall, ID (residential)",
+    "pay": "",
+    "stipend": "Financial support provided — dollar amount not published; confirm with the program",
+    "benefits": "Free housing for the 10.5-month residential term; earns a Master of Natural Resources from the University of Idaho",
+    "id": "item-329"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "AmeriCorps Ecological Monitoring Technician — BLM Rock Springs (GBI)",
+    "org": "The Great Basin Institute · with BLM Rock Springs Field Office · Rock Springs, WY",
+    "deadline": "Application deadline July 29, 2026",
+    "start": "AmeriCorps Research Associate placement",
+    "body": "The Great Basin Institute Research Associate Program, in cooperation with BLM Rock Springs, is recruiting one AmeriCorps member to conduct ecological and vegetation monitoring across southwest Wyoming public lands. This is a field-heavy role involving data collection, plot sampling and database entry. No prior experience or degree is formally required. Posted compensation is $2,640 per month.",
+    "desc": "The Great Basin Institute gives explicit hiring preference to AmeriCorps alumni, so Erin's NCCC service is a scored advantage rather than a footnote — and GBI placements have consistently been the strongest matches on her list. The work itself is direct field ecology plus data management on BLM land, which is a clean bridge into federal employment, and plot sampling and database entry are things she can already do. At $2,640 per month the compensation is solid for a service term. Only one position is available, so the alumni preference matters a great deal here.",
+    "badge": "Top recommendation",
+    "pills": [
+      "GBI prioritizes AmeriCorps alumni",
+      "$2,640 per month",
+      "Ecological & vegetation monitoring",
+      "Plot sampling + database entry",
+      "BLM partnership — federal bridge",
+      "⚠️ Single position, deadline Jul 29"
+    ],
+    "metaLine": "AmeriCorps · $2,640/month · Rock Springs WY · deadline Jul 29 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-29",
+    "region": "Mountain West",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117296",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      },
+      {
+        "href": "https://www.thegreatbasininstitute.org/",
+        "label": "🔗 Great Basin Institute"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117296",
+    "location": "Rock Springs, WY (southwest Wyoming BLM public lands)",
+    "pay": "",
+    "stipend": "$2,640 per month",
+    "benefits": "AmeriCorps Research Associate placement — confirm education award and health coverage with the Great Basin Institute",
+    "id": "item-330"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Natural Resource Specialist GS-0401-09 — USFWS Prairie Pothole region (permanent, public)",
+    "org": "U.S. Fish and Wildlife Service · Great Falls, MT and Bismarck, ND",
+    "deadline": "Application deadline July 30, 2026",
+    "start": "Permanent federal appointment",
+    "body": "A permanent USFWS natural resource specialist position open to the public, covering habitat management, easement administration and partner coordination in the Prairie Pothole region. Qualification requires the 0401 basic education requirement plus one year of specialized experience at the GS-07 level, or two years of graduate education. Posted salary is $61,722 to $80,243 per year.",
+    "desc": "This was the only genuinely public, in-region, permanent USFWS opening found across both sweeps — federal hiring at this level is otherwise almost entirely internal or resume-bank placeholders, which makes it worth an application even as a stretch. Erin's degree meets the 0401 basic education requirement outright; the gap is the one year of GS-07-equivalent specialized experience, and her AmeriCorps NCCC term may be creditable toward it, which is worth arguing explicitly in the application. The Prairie Pothole region is the most important wetland complex in North America for waterfowl, and easement administration is exactly the private-lands wetland work her delineation training supports.",
+    "badge": "Reach",
+    "pills": [
+      "Permanent USFWS — her target agency",
+      "Open to the public (rare)",
+      "$61,722–$80,243/year",
+      "Prairie Pothole wetland complex",
+      "Her degree meets 0401 education req",
+      "⚠️ Asks 1 yr specialized GS-07 experience"
+    ],
+    "metaLine": "Permanent federal GS-09 · $61,722–$80,243/yr · Great Falls MT · deadline Jul 30 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-30",
+    "region": "Mountain West",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/875814600",
+        "label": "🔗 Full announcement — USAJOBS"
+      },
+      {
+        "href": "https://www.fws.gov/careers",
+        "label": "🔗 USFWS careers"
+      }
+    ],
+    "url": "https://www.usajobs.gov/job/875814600",
+    "location": "Great Falls, MT (also Bismarck, ND) — Prairie Pothole region",
+    "pay": "$61,722–$80,243 per year",
+    "stipend": "",
+    "benefits": "Permanent federal appointment — full federal benefits including health, retirement and leave",
+    "id": "item-331"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Wildlife Habitat Technician — C.J. Strike Wildlife Management Area (wetland management)",
+    "org": "Idaho Department of Fish and Game · Bruneau, ID",
+    "deadline": "Application deadline July 31, 2026",
+    "start": "Seasonal",
+    "body": "A habitat technician position on the C.J. Strike Wildlife Management Area performing wetland and upland habitat management, water-level manipulation, vegetation work and equipment operation. No prior experience is required. Posted pay starts at $18.61 per hour.",
+    "desc": "C.J. Strike is a major wetland wildlife management area, and water-level manipulation is applied wetland hydrology — this is the closest thing in the Mountain West to hands-on wetland management work matching Erin's Army Corps delineation training. Actively managing water levels to produce specific habitat conditions is a skill that agencies value and that most technicians never learn. Idaho Fish and Game is also a good agency to have on a resume, and no prior experience is required so she is fully competitive. The pay is modest and the position is seasonal, so the value is the specific wetland management experience.",
+    "badge": "Top recommendation",
+    "pills": [
+      "Wetland habitat management",
+      "Water-level manipulation",
+      "Closest MW match to her delineation training",
+      "No prior experience required",
+      "$18.61/hour starting",
+      "State agency experience"
+    ],
+    "metaLine": "Seasonal state · from $18.61/hr · Bruneau ID · deadline Jul 31 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "Mountain West",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=116916",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      },
+      {
+        "href": "https://idfg.idaho.gov/careers",
+        "label": "🔗 Idaho Fish & Game careers"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=116916",
+    "location": "Bruneau, ID (C.J. Strike Wildlife Management Area)",
+    "pay": "Starting at $18.61 per hour",
+    "stipend": "",
+    "benefits": "Seasonal appointment — confirm benefit eligibility with Idaho Fish & Game",
+    "id": "item-332"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Fully funded MS Assistantship — Seedling Chain-of-Custody, forest restoration",
+    "org": "University of Idaho · Moscow, ID",
+    "deadline": "Application deadline September 13, 2026",
+    "start": "January 2027",
+    "body": "A fully funded master’s assistantship starting January 2027 studying seedling chain-of-custody in forest restoration, spanning greenhouse, laboratory and field settings. The posting requires a bachelor’s in forestry, plant ecophysiology, botany or a related field. Compensation is a competitive stipend, waiver of out-of-state tuition, full in-state tuition coverage and student health insurance, with additional research and travel funds available.\",",
+    "desc": "The funding package here is close to complete: a competitive stipend plus out-of-state tuition waiver plus in-state tuition coverage plus student health insurance, with research and travel funds on top, removes essentially every financial risk from a master's degree. Erin's environmental science BS should qualify under the related-field clause. The greenhouse, laboratory and field mix matches the range of settings she has already worked across. Seedling chain-of-custody research addresses a real bottleneck in restoration — tracking plant materials from seed to planting — so the work is applied and fundable. A January 2027 start gives her a clear runway.",
+    "badge": "Strong fit",
+    "pills": [
+      "Fully funded — stipend + tuition + insurance",
+      "Out-of-state tuition waived",
+      "Research and travel funds included",
+      "Greenhouse, lab and field work",
+      "Forest restoration focus",
+      "January 2027 start"
+    ],
+    "metaLine": "MS · fully funded · Moscow ID · deadline Sep 13 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-13",
+    "region": "Mountain West",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-ms-assistantship---seedling-chain-of-custody-moscow-idaho/3345944003",
+        "label": "🔗 Full posting — Conservation Job Board"
+      },
+      {
+        "href": "https://www.uidaho.edu/cnr",
+        "label": "🔗 University of Idaho College of Natural Resources"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-ms-assistantship---seedling-chain-of-custody-moscow-idaho/3345944003",
+    "location": "Moscow, ID",
+    "pay": "",
+    "stipend": "Competitive stipend — amount not published; confirm with the program",
+    "benefits": "Waiver of out-of-state tuition, full in-state tuition coverage, student health insurance, plus additional research and travel funds",
+    "id": "item-333"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Big Sky Watershed Corps — 2027 term (recruitment opens August 2026)",
+    "org": "Montana Conservation Corps · statewide MT",
+    "deadline": "Contact first — 2027 recruitment opens August 2026; sign up for notifications now",
+    "start": "Year-long individual placement, 2027 term",
+    "body": "A year-long AmeriCorps individual placement embedding members with watershed groups and natural-resource agencies across Montana. Members build skills in hydrologic field techniques, GIS, grant writing, outreach and agricultural management. The 2026 term is closed; recruitment for the 2027 term opens in August 2026 and the program has a notification sign-up form. Published compensation is a $1,200 biweekly living allowance plus a $3,697.50 AmeriCorps Education Award, with free health insurance.",
+    "desc": "Of every service program surfaced across both sweeps, this is the single best-aligned with Erin's profile: hydrologic field techniques and GIS are the two named skill areas, embedded with watershed groups, which is precisely her stated interest and her strongest toolkit combined. Free health insurance is unusual and valuable in a corps position. The timing is the actionable part — the 2026 term has closed but 2027 recruitment opens next month, so the right move now is signing up for the notification list rather than applying. Grant writing and agricultural management would round out skills that field-only roles never develop.",
+    "badge": "Top recommendation",
+    "pills": [
+      "Hydrologic field techniques + GIS",
+      "Embedded with watershed groups",
+      "$1,200 biweekly + $3,697.50 award",
+      "FREE health insurance",
+      "Best-aligned service program found",
+      "⚠️ 2027 recruitment opens Aug 2026 — sign up"
+    ],
+    "metaLine": "Year-long placement · $1,200 biweekly + award · statewide MT · 2027 term, opens Aug 2026",
+    "cycle": "current",
+    "deadline_kind": "contact",
+    "deadline_date": "",
+    "region": "Mountain West",
+    "links": [
+      {
+        "href": "https://www.mtcorps.org/joinmcc/individual-placement-programs/big-sky-watershed-corps.html",
+        "label": "🔗 Big Sky Watershed Corps — sign up for 2027 notifications"
+      },
+      {
+        "href": "https://www.mtcorps.org/",
+        "label": "🔗 Montana Conservation Corps"
+      }
+    ],
+    "url": "https://www.mtcorps.org/joinmcc/individual-placement-programs/big-sky-watershed-corps.html",
+    "location": "Statewide Montana (watershed groups and natural resource agencies)",
+    "pay": "",
+    "stipend": "$1,200 biweekly living allowance",
+    "benefits": "$3,697.50 AmeriCorps Education Award plus free health insurance",
+    "id": "item-334"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Conservation Education Coordinator — Wyoming Game & Fish (permanent)",
+    "org": "Wyoming Game & Fish Division · Cheyenne, WY",
+    "deadline": "Application deadline July 28, 2026",
+    "start": "Permanent state position",
+    "body": "Coordinates Wyoming Game and Fish conservation education programming statewide, including curriculum, outreach events and partner coordination. Listed requirements are a bachelor’s degree and at least one year of experience. Posted salary is $6,087.47 to $6,763.47 per month.",
+    "desc": "This is a permanent state agency position paying $6,087 to $6,763 per month where Erin's AmeriCorps NCCC service substitutes naturally for the one-year experience requirement — corps service is exactly the kind of program delivery and outreach background this role screens for. Getting inside a state wildlife agency at that salary, with full benefits, is a strong outcome regardless of the specific duties, and internal transfers within agencies are far easier than outside hires. The content is education and outreach rather than field science, so this develops program skills rather than technical ones. The deadline is close.",
+    "badge": "Strong fit",
+    "pills": [
+      "Permanent state wildlife agency",
+      "$6,087–$6,763/month",
+      "NCCC service covers the 1-year ask",
+      "Statewide program coordination",
+      "Full state benefits",
+      "⚠️ Education role · deadline Jul 28"
+    ],
+    "metaLine": "Permanent state · $6,087–$6,763/month · Cheyenne WY · deadline Jul 28 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-28",
+    "region": "Mountain West",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/wyoming/jobs/5411431/conservation-education-coordinator-2026-01805",
+        "label": "🔗 Full posting — Wyoming state jobs"
+      },
+      {
+        "href": "https://wgfd.wyo.gov/about-us/employment",
+        "label": "🔗 Wyoming Game & Fish employment"
+      }
+    ],
+    "url": "https://www.governmentjobs.com/careers/wyoming/jobs/5411431/conservation-education-coordinator-2026-01805",
+    "location": "Cheyenne, WY (statewide programming)",
+    "pay": "$6,087.47–$6,763.47 per month",
+    "stipend": "",
+    "benefits": "Wyoming state permanent position — full state benefits including health and retirement",
+    "id": "item-335"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "GIS Specialist — fisheries, water resources & dam/hydro consulting (no experience required)",
+    "org": "McMillen, LLC · Boise, ID",
+    "deadline": "Application deadline September 7, 2026",
+    "start": "Full-time",
+    "body": "A GIS specialist role with an engineering and environmental consulting firm specializing in fisheries, water resources and dam and hydropower projects. Listed requirements are a bachelor’s degree and no prior experience. The posted range is $50,000 to $95,800; the job board’s period field reads \"per month\", which appears to be a data-entry error, so the figure should be confirmed with the employer.",
+    "desc": "A professional GIS position requiring no prior experience is genuinely rare — most GIS roles ask for two or three years, which is the wall Erin keeps hitting. That the firm specializes in fisheries, water resources and dam and hydropower projects makes it doubly relevant, since dam removal and hydropower relicensing work involves exactly the sediment and watershed questions her capstone addressed. Consulting also pays better than agency or nonprofit work early on. One thing to verify before getting excited: the posted salary range carries an obvious data-entry error on the pay period, so confirm the actual figure with the employer first.",
+    "badge": "Top recommendation",
+    "pills": [
+      "Professional GIS with NO experience required",
+      "Fisheries & water resources focus",
+      "Dam and hydropower projects",
+      "Bachelor's is the stated requirement",
+      "Consulting pay premium",
+      "⚠️ Posted salary period looks like an error"
+    ],
+    "metaLine": "Full-time · $50,000–$95,800 (confirm period) · Boise ID · deadline Sep 7 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-07",
+    "region": "Mountain West",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117622",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      },
+      {
+        "href": "https://www.mcmillen-llc.com/careers/",
+        "label": "🔗 McMillen careers"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117622",
+    "location": "Boise, ID",
+    "pay": "Posted range $50,000–$95,800 — the listing's pay-period field appears erroneous; confirm with the employer",
+    "stipend": "",
+    "benefits": "Full-time consulting position — confirm benefits with McMillen, LLC",
+    "id": "item-336"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Colorado Parks & Wildlife temporary technicians — AIS sampling, CWD & wildlife property (no residency bar)",
+    "org": "Colorado Parks and Wildlife · Moffat County, Denver, Kit Carson County and Montrose, CO",
+    "deadline": "CWD technician deadline July 24, 2026; others rolling",
+    "start": "Temporary appointments",
+    "body": "Four temporary Colorado Parks and Wildlife technician positions. The Aquatic Invasive Species Sampling and Outreach Technician in Moffat County collects plankton and water samples at northwest Colorado waters and conducts boater outreach. The Invasive Species Lab Technician in Denver processes aquatic invasive species samples including microscopy, sample logging and quality control. The Area 14 Wildlife Property Technician in Kit Carson County maintains state wildlife areas including habitat work and wetland and water management. The Mandatory Hunter Harvest Check and CWD Technician in Montrose staffs check stations collecting chronic wasting disease samples via lymph node extraction, at $17 per hour with a July 24 deadline. Salaries on the other three are not published.",
+    "desc": "There is a crucial mechanical detail here worth understanding: most Colorado Parks and Wildlife classified postings state they are open only to Colorado residents at the time of application, which disqualifies Erin while she is in North Carolina. Temporary postings of nine months or less carry no such clause — so these four are among the only CPW roles she can actually apply to from out of state. The AIS sampling role involves water sample collection directly in her wheelhouse, and the Denver lab technician role processing samples under microscopy is a close analog to her trace-metal sediment work.",
+    "badge": "Strong fit",
+    "pills": [
+      "Temporary = NO Colorado residency bar",
+      "Water & plankton sampling",
+      "Lab microscopy & sample QC",
+      "Wetland and water management",
+      "CWD tissue sampling ($17/hr)",
+      "⚠️ Classified CPW jobs need CO residency"
+    ],
+    "metaLine": "Temporary state · $17/hr (CWD), others unpublished · Colorado · Jul 24 deadline / rolling",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-24",
+    "region": "Mountain West",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/colorado/jobs/5281987/temporary-aquatic-invasive-species-sampling-and-outreach-technician-moffat-count",
+        "label": "🔗 AIS Sampling & Outreach Technician — Moffat County"
+      },
+      {
+        "href": "https://www.governmentjobs.com/careers/colorado/jobs/5203751/lead-non-lead-invasive-species-lab-technician-6060-broadway-denver-co",
+        "label": "🔗 Invasive Species Lab Technician — Denver"
+      },
+      {
+        "href": "https://www.governmentjobs.com/careers/colorado/jobs/5275533/temporary-area-14-wildlife-property-technician",
+        "label": "🔗 Area 14 Wildlife Property Technician — Kit Carson County"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117655",
+        "label": "🔗 CWD Technician — Montrose ($17/hr, deadline Jul 24)"
+      }
+    ],
+    "url": "https://www.governmentjobs.com/careers/colorado/jobs/5281987/temporary-aquatic-invasive-species-sampling-and-outreach-technician-moffat-count",
+    "location": "Moffat County, Denver, Kit Carson County and Montrose, CO",
+    "pay": "$17 per hour (CWD technician) — the other three do not publish salary",
+    "stipend": "",
+    "benefits": "Temporary CPW appointments (nine months or less) — no Colorado residency requirement, unlike classified positions",
+    "id": "item-337"
   }
 ]
