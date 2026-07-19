@@ -8710,5 +8710,282 @@
     "stipend": "AmeriCorps living allowance — no dollar figure published on the listing; confirm with NCCC",
     "benefits": "Housing, health coverage, relocation allowance, FEMA-delivered training and a Segal Education Award on completion",
     "id": "item-196"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Funded MS / PhD Assistantships — STREAM Project, floodplain mapping & watershed characterization",
+    "org": "USGS Maine Cooperative Fish & Wildlife Research Unit · University of Maine · Orono, ME",
+    "deadline": "Contact first — no dated deadline posted; email the unit before applying",
+    "start": "Negotiable with the advisor",
+    "body": "Funded MS and PhD assistantships on the STREAM Project, focused on floodplain mapping and stream and watershed characterization across rural Maine. The work combines field data collection with geospatial analysis of flood-prone river corridors. The listing is open at the BS level, requiring a bachelor's degree and roughly one year of relevant experience. Posted funding is $28,000 to $31,333 per year. The board's summary view did not expose a deadline field, so the application timeline should be confirmed directly with the unit before applying.",
+    "desc": "This is the strongest graduate match surfaced this week. Floodplain mapping and watershed characterization sit at the exact intersection of Erin's two strongest skills — GIS and multi-criteria suitability analysis on one side, water and sediment fieldwork on the other — and a USGS Cooperative Research Unit is among the best possible places to build toward federal work, because Coop Unit students routinely move into USGS and USFWS positions. The published stipend range is solid for the Northeast, and the BS-plus-one-year bar means she is genuinely eligible rather than reaching. Post-Helene flood-corridor work is also close enough to her Pigeon River capstone that her statement of purpose would write itself.",
+    "badge": "Top recommendation",
+    "pills": [
+      "USGS Cooperative Research Unit",
+      "Floodplain mapping",
+      "Watershed characterization",
+      "GIS & geospatial analysis",
+      "$28,000–$31,333/yr",
+      "BS-eligible",
+      "MS or PhD track"
+    ],
+    "metaLine": "MS/PhD · $28,000–$31,333/yr · Orono ME · contact first",
+    "cycle": "current",
+    "deadline_kind": "contact",
+    "deadline_date": "",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117645",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      },
+      {
+        "href": "https://www.usgs.gov/centers/maine-cooperative-fish-and-wildlife-research-unit",
+        "label": "🔗 Maine Cooperative Fish & Wildlife Research Unit"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117645",
+    "location": "Orono, ME (field sites across rural Maine river corridors)",
+    "pay": "",
+    "stipend": "$28,000–$31,333 per year",
+    "benefits": "Graduate assistantship — confirm tuition waiver and health insurance with the unit",
+    "id": "item-197"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Funded MS Assistantship — Urban Wildlife Ecology & tick-borne disease risk (NSF-funded)",
+    "org": "Bridgewater State University · Bridgewater, MA",
+    "deadline": "Contact first — no dated deadline posted; email the lab before applying",
+    "start": "Negotiable with the advisor",
+    "body": "An NSF-funded MS assistantship examining urban wildlife ecology, host-vector interactions, and tick-borne disease risk. The project involves small-mammal host sampling and field surveys across an urban-to-rural gradient. The listing requires a bachelor's degree and about one year of relevant experience. The stipend is listed as negotiable rather than published, so the amount must be confirmed with the advisor. The board's summary view did not expose a deadline field, so the application timeline should be confirmed directly with the lab.",
+    "desc": "Small-mammal host sampling is the specific technique Erin already has, which makes this a rare assistantship where she would arrive with the core field method rather than learning it — that tends to matter in advisor conversations. Urban-to-rural gradient design also pairs naturally with her GIS background, since landscape gradients are analyzed spatially. The honest caveats are two: disease ecology is a real pivot from her water quality and wetlands core, and the stipend is listed as negotiable with no published figure, which is a meaningful unknown for a Massachusetts cost of living. Worth an email to gauge both the funding level and how quantitative the role is.",
+    "badge": "Good fit",
+    "pills": [
+      "NSF-funded",
+      "Small-mammal sampling — skill she has",
+      "Urban-to-rural gradient design",
+      "Host-vector interactions",
+      "BS-eligible",
+      "⚠️ Stipend negotiable, not published"
+    ],
+    "metaLine": "MS · stipend negotiable, not published · Bridgewater MA · contact first",
+    "cycle": "current",
+    "deadline_kind": "contact",
+    "deadline_date": "",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117565",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      },
+      {
+        "href": "https://www.bridgew.edu/academics/colleges-departments/biological-sciences",
+        "label": "🔗 Bridgewater State — Biological Sciences"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117565",
+    "location": "Bridgewater, MA (field sites along an urban-to-rural gradient)",
+    "pay": "",
+    "stipend": "Listed as negotiable — no figure published; confirm with the advisor",
+    "benefits": "NSF-funded assistantship — confirm tuition waiver and health insurance with the department",
+    "id": "item-198"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "11-Month Environmental Steward — 2026–2027 cohort (water quality & conservation tracks)",
+    "org": "Green Iowa AmeriCorps · University of Northern Iowa · statewide host sites",
+    "deadline": "Rolling — cohort runs October 1, 2026 to August 31, 2027",
+    "start": "October 1, 2026 through August 31, 2027",
+    "body": "An eleven-month AmeriCorps term running October 1, 2026 through August 31, 2027 at environmental host sites across Iowa. Member activities include water quality services, tree plantings and carbon sequestration, conservation projects, greenhouse gas inventories, energy efficiency, and environmental education and outreach. Conservation-heavy host sites include Whiterock Conservancy in Coon Rapids and the Tallgrass Prairie Center in Cedar Falls; site-specific position descriptions are posted on the program Locations page. The living allowance is not published on the open-positions page.",
+    "desc": "This is the full-year cohort rather than the short summer steward term already on Erin's list, and the difference matters — eleven months is long enough to own a project and earn a substantive reference. The water quality services track is the relevant one for her, and the conservation-focused host sites are worth targeting specifically: the Tallgrass Prairie Center in particular does restoration ecology work that would extend her skills into prairie systems. Host site choice drives almost everything about the experience here, so the practical move is to read the site-specific descriptions on the Locations page rather than applying to the program generically.",
+    "badge": "Good fit",
+    "pills": [
+      "11-month full term",
+      "Water quality services track",
+      "Conservation host sites",
+      "Tallgrass Prairie Center option",
+      "Oct 2026–Aug 2027",
+      "8 Iowa host cities"
+    ],
+    "metaLine": "11 months · living allowance not published · Iowa · rolling",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://www.greeniowaamericorps.org/open-positions",
+        "label": "🔗 Green Iowa AmeriCorps — open positions"
+      },
+      {
+        "href": "https://www.greeniowaamericorps.org/locations",
+        "label": "🔗 Host site locations & position descriptions"
+      }
+    ],
+    "url": "https://www.greeniowaamericorps.org/open-positions",
+    "location": "Host sites across Iowa: Ames, Cedar Falls, Cedar Rapids, Coon Rapids, Davenport, Des Moines, Dubuque and Iowa City",
+    "pay": "",
+    "stipend": "AmeriCorps living allowance — not published on the open-positions page; confirm with the program",
+    "benefits": "Segal AmeriCorps Education Award on term completion — confirm amount for the 11-month term",
+    "id": "item-199"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "AmeriCorps Crew Leader — Fall 2026 session (28-week season)",
+    "org": "WisCorps · Wisconsin Conservation Corps · La Crosse, WI",
+    "deadline": "Rolling — fall session runs September 8 to November 14, 2026",
+    "start": "September 8 through November 14, 2026",
+    "body": "Crew Leaders co-lead daily project work, train crew members in conservation techniques, and model communication, problem-solving and field leadership. The fall session runs September 8 through November 14, 2026 as part of a 900-hour service term. The role requires being age 21 or over, holding a valid driver license, and having prior leadership experience in conservation or outdoor settings. Published compensation is a $550 per week living stipend, totaling $15,400 across the 28-week season, plus an approximately $8,800 Segal AmeriCorps Education Award.",
+    "desc": "Erin's AmeriCorps NCCC service supplies exactly the prior conservation leadership background this role screens for, which means she can enter as a leader at roughly double the crew member stipend rather than repeating a member term. The $8,800 education award is also substantial — large enough to matter against graduate tuition — and the 28-week season means real earnings rather than a short seasonal stint. Crews work habitat restoration and invasive species removal across the Upper Midwest, so the ecological content is genuine even though the primary skill being built is supervisory rather than technical.",
+    "badge": "Strong fit",
+    "pills": [
+      "$550/week · $15,400 season",
+      "~$8,800 education award",
+      "NCCC service qualifies her",
+      "900-hour term",
+      "Habitat restoration",
+      "Requires age 21+ and driver license"
+    ],
+    "metaLine": "28-week season · $550/wk + ~$8,800 award · La Crosse WI · rolling",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://wiscorps.org/crew-leader-2026/",
+        "label": "🔗 Crew Leader posting — WisCorps"
+      },
+      {
+        "href": "https://wiscorps.org/",
+        "label": "🔗 WisCorps"
+      }
+    ],
+    "url": "https://wiscorps.org/crew-leader-2026/",
+    "location": "La Crosse, WI (project sites across Wisconsin and the Upper Midwest)",
+    "pay": "",
+    "stipend": "$550 per week living stipend ($15,400 across the 28-week season)",
+    "benefits": "Approximately $8,800 Segal AmeriCorps Education Award; wilderness first aid, tool operation and Leave No Trace training",
+    "id": "item-200"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "AmeriCorps Crew Member — Fall 2026 session (10-week term)",
+    "org": "WisCorps · Wisconsin Conservation Corps · La Crosse, WI",
+    "deadline": "Rolling — fall session runs September 8 to November 14, 2026",
+    "start": "September 8 through November 14, 2026",
+    "body": "A ten-week, 675-hour fall service term running September 8 through November 14, 2026. Crews of two leaders and three to four members complete habitat restoration, invasive species removal, and trail construction on public lands throughout the Upper Midwest. Members live communally in single-occupancy tents or dormitories and receive wilderness first aid, tool operation, and Leave No Trace training. Published compensation is a $300 per week living stipend for ten weeks, totaling $3,000, plus an approximately $2,800 Segal AmeriCorps Education Award.",
+    "desc": "A ten-week fall start lets Erin keep field experience current without waiting for a January cohort, which is useful if her nearer-term applications do not land and she needs something productive in the meantime. Habitat restoration and invasive species removal on Upper Midwest public lands is real ecological work, and the bundled training certifications carry forward. That said, given her NCCC background the companion Crew Leader role is the better version of this same program — same work, nearly double the stipend, and triple the education award — so this member posting is mainly a fallback if the leader position is filled.",
+    "badge": "Good fit",
+    "pills": [
+      "10-week term",
+      "$300/week · $3,000 total",
+      "~$2,800 education award",
+      "Habitat restoration",
+      "Wilderness first aid training",
+      "Communal field housing"
+    ],
+    "metaLine": "10 weeks · $300/wk + ~$2,800 award · La Crosse WI · rolling",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://wiscorps.org/crew-member-2026/",
+        "label": "🔗 Crew Member posting — WisCorps"
+      },
+      {
+        "href": "https://wiscorps.org/",
+        "label": "🔗 WisCorps"
+      }
+    ],
+    "url": "https://wiscorps.org/crew-member-2026/",
+    "location": "La Crosse, WI (project sites across Wisconsin and the Upper Midwest)",
+    "pay": "",
+    "stipend": "$300 per week living stipend ($3,000 across the 10-week term)",
+    "benefits": "Approximately $2,800 Segal AmeriCorps Education Award; wilderness first aid, tool operation and Leave No Trace training; communal housing provided",
+    "id": "item-201"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Wetland Engineering Technician — private-lands wetland restoration (Northwood)",
+    "org": "Conservation Districts of Iowa · with Iowa NRCS · Northwood, IA",
+    "deadline": "Rolling — position funded through September 2027",
+    "start": "Full-time, funded through September 2027",
+    "body": "A Wetland Engineering Technician opening in north-central Iowa supporting private-lands wetland restoration through USDA easement programs. The technician assists with survey, design and construction oversight of wetland restoration and enhancement practices delivered with Iowa NRCS, under the Agricultural Conservation Easement Program Wetland Reserve Easements and the Conservation Reserve Program. The position is part of a multi-position agreement between Conservation Districts of Iowa and Iowa NRCS, grant-funded through September 2027 with the opportunity for extension. Salary is not published on the listing.",
+    "desc": "This is the north-central Iowa posting in the same Conservation Districts of Iowa wetland technician family already on Erin's list, in the heart of the prairie pothole region — a landscape where wetland restoration is unusually concentrated and where field survey and delineation skills get used constantly rather than occasionally. Working under a USDA NRCS agreement is also the practical back door into federal familiarity: she would be using NRCS practice standards and working alongside agency staff without needing to clear a federal hiring process first. Funding is secured through September 2027 with possible extension, so it offers more stability than a seasonal technician role.",
+    "badge": "Strong fit",
+    "pills": [
+      "Wetland restoration design",
+      "Survey & construction oversight",
+      "USDA NRCS partnership",
+      "Prairie pothole region",
+      "Funded through Sept 2027",
+      "Salary not published"
+    ],
+    "metaLine": "Full-time · salary not published · Northwood IA · rolling",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-wetland-engineering-technician-northwood-iowa/7256669416",
+        "label": "🔗 Full posting — Conservation Job Board"
+      },
+      {
+        "href": "https://cdiowa.org/who-we-are/job-openings/",
+        "label": "🔗 Conservation Districts of Iowa — job openings"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-wetland-engineering-technician-northwood-iowa/7256669416",
+    "location": "Northwood, IA (private farmland across north-central Iowa)",
+    "pay": "Salary not published on the listing — confirm with Conservation Districts of Iowa",
+    "stipend": "",
+    "benefits": "Grant-funded through September 2027 with possible extension; sibling CDI postings list health and dental insurance, PTO and training",
+    "id": "item-202"
   }
 ]
