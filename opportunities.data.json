@@ -13896,5 +13896,469 @@
     "stipend": "",
     "benefits": "Full-time position — confirm benefits with Lloyd Engineering",
     "id": "item-308"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "USFWS Refuge Placements — Trinity River, Aransas & Attwater Prairie Chicken (Public Land Corps eligibility)",
+    "org": "American Conservation Experience · EPIC · with U.S. Fish & Wildlife Service · Liberty, Austwell, Rockport and Eagle Lake, TX",
+    "deadline": "Trinity River deadline July 29, 2026; others rolling",
+    "start": "Terms begin August–September 2026",
+    "body": "Four individual placements on Texas national wildlife refuges, all carrying Public Land Corps hiring authority which grants non-competitive federal hiring eligibility on completion. The Invasive Species Strike Team Member at the 30,000-acre Trinity River NWR, a bottomland hardwood wetland complex, is a 27-week minimum commitment starting August 2026 at $600 per week with a July 29 deadline. The Invasive Species Support Member at Aransas NWR, wintering ground of the whooping crane, is a 24-week minimum from September 2026 at $600 per week. The Biology Program Support Member at the 11,083-acre Attwater Prairie Chicken NWR supports habitat restoration and biological surveys, desires radio telemetry, UTV/ATV operation and Field Maps/Survey123 experience, and runs a 19-week minimum at $600 per week. The Energy and Minerals Support Member at Aransas is a 38-week placement at $805 per week plus up to $125 per week housing reimbursement.",
+    "desc": "Public Land Corps hiring authority is the reason to take these seriously: completing one gives Erin non-competitive federal hiring eligibility, meaning agencies can hire her directly without a competitive announcement. Given that this sweep found federal entry-level hiring almost completely frozen, that eligibility is arguably the most valuable thing on this entire list. Trinity River is a bottomland hardwood wetland complex, the closest match to her delineation training. Attwater explicitly wants Field Maps and Survey123, which is her GIS toolkit, plus radio telemetry. The Energy and Minerals placement pays the most at $805 per week with housing help.",
+    "badge": "Top recommendation",
+    "pills": [
+      "Public Land Corps federal hiring eligibility",
+      "$600–$805 per week",
+      "Bottomland hardwood wetland refuge",
+      "Attwater wants Field Maps/Survey123",
+      "Whooping crane wintering ground",
+      "Four placements, one organization"
+    ],
+    "metaLine": "19–38 week placements · $600–$805/wk · Texas Gulf refuges · Jul 29 deadline / rolling",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-29",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://usaconservation.applicantpool.com/jobs/1312297.html",
+        "label": "🔗 Trinity River NWR — Invasive Species Strike Team (deadline Jul 29)"
+      },
+      {
+        "href": "https://usaconservation.applicantpool.com/jobs/1304087.html",
+        "label": "🔗 Attwater Prairie Chicken NWR — Biology Program Support (Field Maps/Survey123)"
+      },
+      {
+        "href": "https://usaconservation.applicantpool.com/jobs/1311262.html",
+        "label": "🔗 Aransas NWR — Energy & Minerals Support ($805/wk + housing)"
+      },
+      {
+        "href": "https://usaconservation.applicantpool.com/jobs/1312992.html",
+        "label": "🔗 Aransas NWR — Invasive Species Support"
+      }
+    ],
+    "url": "https://usaconservation.applicantpool.com/jobs/1312297.html",
+    "location": "Liberty, Austwell, Rockport and Eagle Lake, TX (Gulf Coast national wildlife refuges)",
+    "pay": "",
+    "stipend": "$600 per week (Trinity River, Aransas Invasive Species, Attwater) · $805 per week (Aransas Energy & Minerals)",
+    "benefits": "Public Land Corps hiring authority granting non-competitive federal hiring eligibility on completion; up to $125/week housing reimbursement on the Energy & Minerals placement",
+    "id": "item-309"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Wildlife Disease Technician — CWD surveillance & biological sampling",
+    "org": "New Mexico Department of Game & Fish · statewide NM",
+    "deadline": "Application deadline August 5, 2026",
+    "start": "Seasonal, fall hunting season",
+    "body": "A seasonal technician position supporting Chronic Wasting Disease surveillance through hunter check stations, biological sample collection and data management during the fall hunting season. Additional work may include wildlife capture, health investigations, New World Screwworm surveillance and necropsies. A bachelor’s degree is required with no experience required. Posted pay is $180 per day.",
+    "desc": "Sample collection and data management are things Erin has already done, and this role adds wildlife disease surveillance — a specialty that state and federal agencies are investing in heavily as chronic wasting disease and emerging livestock pests spread. Necropsy and health investigation experience is uncommon at entry level and distinguishes a candidate. Working inside a state wildlife agency also builds the network that leads to permanent positions there. At $180 per day the pay is reasonable for seasonal work. The season is short and tied to fall hunting, so this is a defined-term position rather than a career step.",
+    "badge": "Strong fit",
+    "pills": [
+      "CWD disease surveillance",
+      "Biological sample collection",
+      "Necropsy & health investigations",
+      "Bachelor's, no experience required",
+      "$180 per day",
+      "State wildlife agency network"
+    ],
+    "metaLine": "Seasonal state · $180/day · statewide NM · deadline Aug 5 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-05",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117640",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      },
+      {
+        "href": "https://www.wildlife.state.nm.us/careers/",
+        "label": "🔗 NM Game & Fish careers"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117640",
+    "location": "Statewide New Mexico (hunter check stations)",
+    "pay": "$180 per day",
+    "stipend": "",
+    "benefits": "Seasonal appointment — confirm benefit eligibility with NM Department of Game & Fish",
+    "id": "item-310"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Fish Hatchery Technician 1 — permanent Nevada state position, no experience required",
+    "org": "Nevada Department of Wildlife · Yerington, NV",
+    "deadline": "Application deadline July 24, 2026 — may close early on application volume",
+    "start": "Permanent state position",
+    "body": "A permanent state position responsible for day-to-day operation of a Nevada Department of Wildlife fish hatchery within the Fisheries Division. The role is also posted at the Technician 2 level, and candidates may apply to either or both with the position filled at whichever level fits. The recruitment may close early depending on application volume. Posted salary is $46,666.80 to $67,964.40 per year.",
+    "desc": "A permanent state position with full benefits starting at $46,666 and no experience requirement is a genuinely stable landing spot — the kind of job that lets Erin save money and apply to graduate programs from a position of security rather than scrambling between seasonal contracts. Hatchery operation involves continuous water quality management, which uses her sampling background directly. Applying at both the Technician 1 and 2 levels costs nothing and increases her chances. The caution worth noting is that the posting may close early if applications pile up, so this should not wait until the twenty-fourth.",
+    "badge": "Strong fit",
+    "pills": [
+      "Permanent state position",
+      "$46,666.80–$67,964.40/year",
+      "No experience required",
+      "Water quality management",
+      "Apply at both Tech 1 and 2 levels",
+      "⚠️ May close early on volume"
+    ],
+    "metaLine": "Permanent state · $46,666.80–$67,964.40/yr · Yerington NV · deadline Jul 24 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-24",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117294",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      },
+      {
+        "href": "https://www.ndow.org/about/careers/",
+        "label": "🔗 Nevada Department of Wildlife careers"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117294",
+    "location": "Yerington, NV",
+    "pay": "$46,666.80–$67,964.40 per year",
+    "stipend": "",
+    "benefits": "Nevada state permanent position — full state benefits including health and retirement",
+    "id": "item-311"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Restoration and Recreation Technician — GBI Mojave (employer-paid health, dental & vision)",
+    "org": "The Great Basin Institute · Las Vegas, NV",
+    "deadline": "Rolling — seasonal or longer terms",
+    "start": "Seasonal or extended",
+    "body": "A seasonal or longer AmeriCorps term working and camping on Mojave Desert public lands, conducting habitat restoration and recreation-site work. Unusually for a corps position, the Great Basin Institute pays health, dental and vision insurance premiums with an option to upgrade. Posted compensation is $2,707.68 per month.",
+    "desc": "Two things make this stand out among corps terms. First, the Great Basin Institute gives explicit hiring preference to AmeriCorps alumni, so Erin's NCCC service is a scored advantage rather than background detail — GBI placements have consistently been among the strongest matches on her list. Second, employer-paid health, dental and vision premiums are close to unheard of in corps positions, where members typically get a bare-minimum health plan or none at all; that materially raises the real value above the $2,707.68 monthly figure. Mojave desert restoration is physically demanding camping work in extreme heat.",
+    "badge": "Strong fit",
+    "pills": [
+      "GBI prioritizes AmeriCorps alumni",
+      "$2,707.68 per month",
+      "Health, dental AND vision paid",
+      "Habitat restoration",
+      "Rare benefits for a corps term",
+      "⚠️ Desert camping, extreme heat"
+    ],
+    "metaLine": "Seasonal+ · $2,707.68/month · Las Vegas NV · rolling",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-restoration-and-recreation-technician-las-vegas-nevada/9734989445",
+        "label": "🔗 Full posting — Conservation Job Board"
+      },
+      {
+        "href": "https://www.thegreatbasininstitute.org/",
+        "label": "🔗 Great Basin Institute"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-restoration-and-recreation-technician-las-vegas-nevada/9734989445",
+    "location": "Las Vegas, NV (Mojave Desert public lands)",
+    "pay": "",
+    "stipend": "$2,707.68 per month",
+    "benefits": "Health, dental and vision insurance premiums paid by the Great Basin Institute, with an option to upgrade; AmeriCorps Education Award",
+    "id": "item-312"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Restoration Field Technician — Arizona borderlands watershed crew",
+    "org": "Borderlands Restoration Network · Patagonia, AZ",
+    "deadline": "Application deadline August 7, 2026",
+    "start": "Flexible September 14, 2026 start",
+    "body": "A full-time, field-based watershed restoration crew position in the Arizona borderlands. Duties include surveying, building erosion-control structures, non-chemical invasive plant control, and ecological monitoring and data collection. No prior experience is required, with a flexible September 14 start. Posted pay is $19.00 to $21.25 per hour.",
+    "desc": "This is a regular full-time restoration job — not a seasonal contract or a service term — open to a new graduate with no experience bar, which is rarer than it should be in this field. Building erosion-control structures is applied hydrology and directly relevant to watershed management; in arid borderlands systems, these structures are the primary tool for restoring degraded washes. Combining that construction work with ecological monitoring and data collection means Erin would both implement and measure, which is the full restoration cycle. The Sky Islands region is exceptionally biodiverse. Pay is moderate and the work is physically demanding in heat.",
+    "badge": "Strong fit",
+    "pills": [
+      "Full-time, not seasonal",
+      "No experience required",
+      "Erosion-control structures",
+      "Ecological monitoring & data collection",
+      "$19.00–$21.25/hour",
+      "Sky Islands biodiversity hotspot"
+    ],
+    "metaLine": "Full-time · $19.00–$21.25/hr · Patagonia AZ · deadline Aug 7 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-07",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117679",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      },
+      {
+        "href": "https://www.borderlandsrestoration.org/",
+        "label": "🔗 Borderlands Restoration Network"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117679",
+    "location": "Patagonia, AZ (Arizona borderlands / Sky Islands)",
+    "pay": "$19.00–$21.25 per hour",
+    "stipend": "",
+    "benefits": "Full-time position — confirm benefits with Borderlands Restoration Network",
+    "id": "item-313"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Natural Resources Monitor — border infrastructure environmental compliance ($32/hr)",
+    "org": "DAWSON / Laukoa · Laredo, TX with Arizona equivalents",
+    "deadline": "Application deadline July 31, 2026",
+    "start": "Immediate need",
+    "body": "An environmental compliance monitor position on a US/Mexico border infrastructure project, providing daily field notes and photographs on best-management-practice compliance, collecting project data, and supporting listed-species surveys ahead of construction. The listing states an immediate need, and similar openings exist along the Arizona border. Posted pay is $32 per hour.",
+    "desc": "At $32 per hour this is the highest hourly rate found for bachelor's-level field compliance work anywhere in this sweep — roughly double what most restoration technician roles pay. Construction-phase environmental monitoring is a real and growing specialty: someone has to verify that best management practices are actually followed and that listed species are surveyed before ground is broken, and it requires exactly the survey discipline and documentation rigor Erin has. Compliance monitoring also teaches the regulatory framework from the enforcement side. Border infrastructure work carries political and personal considerations she should weigh deliberately.",
+    "badge": "Strong fit",
+    "pills": [
+      "$32/hour — highest field rate found",
+      "Listed-species surveys",
+      "BMP compliance documentation",
+      "Immediate need",
+      "Arizona equivalents available",
+      "⚠️ Border infrastructure context"
+    ],
+    "metaLine": "Full-time · $32/hr · Laredo TX (AZ equivalents) · deadline Jul 31 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117657",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117657",
+    "location": "Laredo, TX (similar openings along the Arizona border)",
+    "pay": "$32 per hour",
+    "stipend": "",
+    "benefits": "Confirm benefits with DAWSON / Laukoa",
+    "id": "item-314"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Land Steward — Cibolo Creek riparian corridor (salaried, Texas Hill Country)",
+    "org": "The Cibolo Center for Conservation · Boerne, TX",
+    "deadline": "Application deadline July 31, 2026",
+    "start": "Full-time",
+    "body": "A full-time stewardship position managing over 200 acres of natural areas along Cibolo Creek, covering habitat management, invasive species control, trail and preserve maintenance, and support for education programming. The role sits within a small conservation team in the Texas Hill Country. Posted salary is $45,000 to $55,000 per year.",
+    "desc": "Riparian-corridor land management with a real salary of $45,000 to $55,000 is a strong combination, and small conservation organizations like this one give a new graduate breadth quickly — she would touch habitat management, invasive control, infrastructure and education rather than being slotted into one narrow task. Managing a specific 200-acre property also means ownership: the condition of that land becomes visibly her responsibility, which is a much better story than assisting on someone else's project. Cibolo Creek is a Hill Country riparian system, so her wetland and watershed training applies. Education support is part of the role.",
+    "badge": "Strong fit",
+    "pills": [
+      "$45,000–$55,000 salaried",
+      "200+ acres of ownership",
+      "Riparian corridor management",
+      "Invasive species control",
+      "Small team, broad responsibility",
+      "Texas Hill Country"
+    ],
+    "metaLine": "Full-time · $45,000–$55,000/yr · Boerne TX · deadline Jul 31 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=115465",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      },
+      {
+        "href": "https://cibolo.org/",
+        "label": "🔗 The Cibolo Center for Conservation"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=115465",
+    "location": "Boerne, TX (Cibolo Creek, Texas Hill Country)",
+    "pay": "$45,000–$55,000 per year",
+    "stipend": "",
+    "benefits": "Full-time position — confirm benefits with The Cibolo Center for Conservation",
+    "id": "item-315"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Texas Conservation Corps & GulfCorps — coastal wetland restoration (highest regional corps pay)",
+    "org": "American YouthWorks · Texas Conservation Corps and TNC GulfCorps · Austin and Houston, TX",
+    "deadline": "Texas Conservation Corps deadline August 31, 2026; GulfCorps rolling",
+    "start": "Varies by crew",
+    "body": "Two related AmeriCorps crew programs run by American YouthWorks. Texas Conservation Corps has several openings across its programs covering habitat restoration, trail work and disaster response, with an August 31 deadline. GulfCorps, affiliated with The Nature Conservancy, runs crews restoring Gulf Coast habitats out of Houston and Baton Rouge, covering coastal and wetland habitat restoration, invasive species removal and prescribed fire support, with training and certifications provided on a rolling basis. Both pay $2,400 to $2,720 per month with an end-of-service AmeriCorps Education Award that applies to qualified student loans and graduate programs.",
+    "desc": "GulfCorps is the stronger of the two for Erin: coastal and wetland habitat restoration under a Nature Conservancy partnership speaks to both the graduate school track and the NGO track, and prescribed fire support adds the burn credential that keeps appearing as a differentiator in agency hiring. At $2,400 to $2,720 per month these are the best-paid corps positions in the Southwest. The education award applying to graduate programs matters given that grad school is her stated direction. Texas Conservation Corps adds disaster response experience, which connects to her post-Hurricane Helene capstone context.",
+    "badge": "Strong fit",
+    "pills": [
+      "$2,400–$2,720/month — top regional corps pay",
+      "Coastal & wetland restoration",
+      "Prescribed fire support",
+      "Nature Conservancy partnership",
+      "Education award applies to grad school",
+      "Disaster response experience"
+    ],
+    "metaLine": "AmeriCorps crews · $2,400–$2,720/month · Austin & Houston TX · deadline Aug 31 / rolling",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-31",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-multiple-conservation-crew-positions--austin-tx-austin-texas/4565577203",
+        "label": "🔗 Texas Conservation Corps — multiple positions (deadline Aug 31)"
+      },
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-gulfcorps-crew-members-and-leaders--houston-tx-and-baton-rouge-la-houston-texas/1854428816",
+        "label": "🔗 GulfCorps crew members & leaders — coastal wetland restoration"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-multiple-conservation-crew-positions--austin-tx-austin-texas/4565577203",
+    "location": "Austin and Houston, TX (GulfCorps also Baton Rouge, LA)",
+    "pay": "",
+    "stipend": "$2,400–$2,720 per month",
+    "benefits": "End-of-service AmeriCorps Education Award applicable to qualified student loans and graduate programs; training and certifications provided",
+    "id": "item-316"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Rangeland & vegetation monitoring technicians — BLM lands and Southwest consulting",
+    "org": "DJ&A, P.C. (Reno, NV) · Grouse Mountain Environmental Consultants (Santa Fe, NM) · WestLand / Trinity Consultants (Reno, NV)",
+    "deadline": "Application deadlines August 1 and 3, 2026; WestLand July 31",
+    "start": "August–October 2026 field seasons",
+    "body": "Three related Southwest vegetation and rangeland monitoring positions. DJ&A is hiring two seasonal technicians for August through mid-November conducting rangeland monitoring on Bureau of Land Management lands in two-person teams with a field lead, at $24 to $26 per hour with an August 3 deadline and a possible transition to full-time; it requires a bachelor’s in rangeland ecology, natural resource management or biology, with qualifications met through education, experience or a combination. Grouse Mountain Environmental Consultants is hiring multiple seasonal technicians for rangeland assessments and vegetation measurement across New Mexico from August through October at $23 per hour with an August 1 deadline. WestLand Engineering, part of Trinity Consultants, seeks a Field Botanist for Mojave and Great Basin ecosystems at $26 to $30 per hour with a September or October start.",
+    "desc": "Grouping these shows a clear pattern: the Southwest hires vegetation and rangeland technicians in volume every autumn at $23 to $30 per hour, which is well above the national restoration technician norm. The DJ&A posting is the standout because it explicitly allows qualifications to be met through education, experience or a combination — that clause is written for someone in Erin's position — and it names a possible transition to full-time. The WestLand role sits inside a consulting division that also does wetlands and GIS work, so it could grow directly into her delineation specialty rather than staying botanical.",
+    "badge": "Strong fit",
+    "pills": [
+      "$23–$30/hour across the three",
+      "DJ&A: education-or-experience clause",
+      "DJ&A: possible full-time transition",
+      "BLM monitoring experience",
+      "WestLand division does wetlands + GIS",
+      "Fall 2026 field seasons"
+    ],
+    "metaLine": "Seasonal · $23–$30/hr · Reno NV & Santa Fe NM · deadlines Jul 31–Aug 3 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-01",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=116239",
+        "label": "🔗 DJ&A Rangeland Monitoring Technician ($24–$26/hr, deadline Aug 3)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117424",
+        "label": "🔗 Grouse Mountain Rangeland Technician ($23/hr, deadline Aug 1)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117639",
+        "label": "🔗 WestLand Field Botanist ($26–$30/hr, deadline Jul 31)"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=116239",
+    "location": "Reno, NV and Santa Fe, NM (BLM and Mojave/Great Basin field sites)",
+    "pay": "$23–$26 per hour (rangeland technicians) · $26–$30 per hour (field botanist)",
+    "stipend": "",
+    "benefits": "Seasonal positions; DJ&A notes a possible transition to full-time — confirm benefits with each firm",
+    "id": "item-317"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Bat Research Assistant & Project Manager — multi-year mammal survey program",
+    "org": "Becker Lab · University of Oklahoma · Norman, OK",
+    "deadline": "Application deadline August 1, 2026",
+    "start": "Multi-year appointment starting early 2027",
+    "body": "A full-time research assistant and project manager position for long-term studies of migratory and Neotropical bats, managing monthly Mexican free-tailed bat surveys in western Oklahoma, an annual bat survey in northern Belize, and sample exportation from Belize. This is a multi-year appointment starting in early 2027. Posted salary is $36,000 to $39,000 per year.",
+    "desc": "Mammal field survey and sample handling build directly on Erin's small-mammal trapping training, and bats are simply small mammals with more demanding capture protocols — the transfer is real. What distinguishes this role is the project manager component: running monthly survey programs and coordinating international fieldwork and sample exportation is genuine research management experience that very few people get within two years of a bachelor's degree, and it reads strongly on graduate applications. A multi-year appointment also provides stability. International fieldwork in Belize is a meaningful addition. The salary is modest but the role is salaried and durable.",
+    "badge": "Strong fit",
+    "pills": [
+      "$36,000–$39,000 salaried",
+      "Multi-year appointment",
+      "Project management experience",
+      "Mammal survey & sample handling",
+      "International fieldwork in Belize",
+      "University research lab"
+    ],
+    "metaLine": "Full-time · $36,000–$39,000/yr · Norman OK · deadline Aug 1 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-01",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=116563",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=116563",
+    "location": "Norman, OK (field sites in western Oklahoma and northern Belize)",
+    "pay": "$36,000–$39,000 per year",
+    "stipend": "",
+    "benefits": "University of Oklahoma appointment — confirm benefits with the Becker Lab",
+    "id": "item-318"
   }
 ]

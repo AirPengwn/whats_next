@@ -1,18 +1,18 @@
 # Weekly opportunity sweep — 2026-07-19
 
 **Added 10 new** opportunities:
-- Biological Science Technician (Aquatic Invasive Species) — Glen Canyon / Lake Powell — _Excellent_ · Southwest · deadline: Application deadline July 20, 2026
-- Fisheries Biologist — regional, BS with no experience required ($60k) — _Excellent_ · Southwest · deadline: Application deadline July 22, 2026
-- Restoration and GIS Specialist — Verde River watershed — _Excellent_ · Southwest · deadline: Application deadline August 28, 2026
-- Funded MS — Playa Lake Restoration Assessment (wetland restoration ecology) — _Excellent_ · Southwest · deadline: Rolling — multiple positions available
-- Funded MS — Arundo donax management in riparian systems (tuition covered 2.5 years) — _Excellent_ · Southwest · deadline: Rolling — contact Dr. Megan Clayton
-- Funded MS/PhD — Freshwater Mussel Ecology & environmental flows ($32–35k) — _Excellent_ · Southwest · deadline: Application deadline October 1, 2026
-- MS Assistantship — Coastal Water Quality & microbial pollution source tracking — _Excellent_ · Southwest · deadline: Application deadline October 1, 2026
-- Research Assistant — acoustic & camera-trap wildlife monitoring — _Strong_ · Southwest · deadline: Application deadline August 15, 2026
-- Natural Resources Specialist I / Fish & Wildlife Technician I — Texas Parks & Wildlife (permanent) — _Excellent_ · Southwest · deadline: Application deadlines July 29 and August 3, 2026
-- Environmental Specialist (entry level) — biological surveys & technical reporting — _Strong_ · Southwest · deadline: Application deadline July 31, 2026
+- USFWS Refuge Placements — Trinity River, Aransas & Attwater Prairie Chicken (Public Land Corps eligibility) — _Excellent_ · Southwest · deadline: Trinity River deadline July 29, 2026; others rolling
+- Wildlife Disease Technician — CWD surveillance & biological sampling — _Strong_ · Southwest · deadline: Application deadline August 5, 2026
+- Fish Hatchery Technician 1 — permanent Nevada state position, no experience required — _Strong_ · Southwest · deadline: Application deadline July 24, 2026 — may close early on application volume
+- Restoration and Recreation Technician — GBI Mojave (employer-paid health, dental & vision) — _Strong_ · Southwest · deadline: Rolling — seasonal or longer terms
+- Restoration Field Technician — Arizona borderlands watershed crew — _Strong_ · Southwest · deadline: Application deadline August 7, 2026
+- Natural Resources Monitor — border infrastructure environmental compliance ($32/hr) — _Strong_ · Southwest · deadline: Application deadline July 31, 2026
+- Land Steward — Cibolo Creek riparian corridor (salaried, Texas Hill Country) — _Strong_ · Southwest · deadline: Application deadline July 31, 2026
+- Texas Conservation Corps & GulfCorps — coastal wetland restoration (highest regional corps pay) — _Strong_ · Southwest · deadline: Texas Conservation Corps deadline August 31, 2026; GulfCorps rolling
+- Rangeland & vegetation monitoring technicians — BLM lands and Southwest consulting — _Strong_ · Southwest · deadline: Application deadlines August 1 and 3, 2026; WestLand July 31
+- Bat Research Assistant & Project Manager — multi-year mammal survey program — _Strong_ · Southwest · deadline: Application deadline August 1, 2026
 
 **Updated 0** (deadline / status / description changed).
 
-**Total opportunities:** 309  ·  next-cycle: 70  ·  expired (one-time, no future cycle): 13
+**Total opportunities:** 319  ·  next-cycle: 70  ·  expired (one-time, no future cycle): 13
 Triage: passed-but-recurring → `cycle:"next"`; one-time/discontinued → `expired:true`. Passed/expired are hidden on the site by default (toggle to show); never deleted, never moved to the personal Archive. Fit tiers: _Excellent_ / _Strong_ / _Good_ / _Reach / review_ (set via each entry's badge). The Browse pages render from this data automatically — no HTML edits. Nothing is live until this PR is merged.
