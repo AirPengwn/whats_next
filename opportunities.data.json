@@ -12604,5 +12604,419 @@
     "stipend": "$475 weekly living allowance",
     "benefits": "$1,565.08 AmeriCorps Education Award upon completion",
     "id": "item-280"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Biological Science Technician (Wildlife) — Alaska & Hawaii federal openings",
+    "org": "USDA APHIS Wildlife Services · Alaska and multiple Hawaiian Islands",
+    "deadline": "Application deadlines July 24 and 27, 2026",
+    "start": "Federal appointments",
+    "body": "Two federal biological science technician announcements in the GS-0404 series. The Alaska position conducts airport wildlife hazard management including bird and mammal surveys, hazing, habitat modification and data reporting, posted at $51,344 to $74,173 per year with a July 27 deadline. The Hawaii announcement covers positions across multiple islands supporting invasive species control, wildlife damage management and protection of native species, advertised across GS-3 through GS-6 at $17.47 to $35.36 per hour with a July 24 deadline, meaning a bachelor’s degree qualifies at the upper grades.",
+    "desc": "The GS-0404 series is the standard federal wildlife technician ladder, and these are two of the few genuinely open announcements Erin can qualify for right now. The Alaska posting is the stronger one on paper: a graded federal position with full benefits at $51,344 to $74,173 is dramatically better than seasonal technician work, and it establishes federal service time. The Hawaii announcement's GS-3 through GS-6 span means her BS places her at GS-5 or GS-6 rather than the bottom rung, and native species protection there is genuinely urgent conservation work. Both involve wildlife damage management including hazing and removal, so she should be clear that suits her.",
+    "badge": "Strong fit",
+    "pills": [
+      "Standard federal GS-0404 ladder",
+      "Alaska: $51,344–$74,173/yr",
+      "Hawaii: $17.47–$35.36/hr, GS-3 to GS-6",
+      "BS qualifies at upper grades",
+      "Establishes federal service time",
+      "⚠️ Includes wildlife damage management"
+    ],
+    "metaLine": "Federal · $51,344–$74,173/yr (AK) · Alaska & Hawaii · deadlines Jul 24 & 27 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-24",
+    "region": "West Coast / Pacific",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117591",
+        "label": "🔗 Alaska posting ($51,344–$74,173/yr, deadline Jul 27)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117588",
+        "label": "🔗 Hawaii posting (GS-3/4/5/6, deadline Jul 24)"
+      },
+      {
+        "href": "https://www.usajobs.gov/",
+        "label": "🔗 USAJOBS — search the announcements"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117591",
+    "location": "Alaska (airport wildlife hazard program) and multiple islands, Hawaii",
+    "pay": "$51,344–$74,173 per year (Alaska) · $17.47–$35.36 per hour, GS-3 through GS-6 (Hawaii)",
+    "stipend": "",
+    "benefits": "Federal appointments — full federal benefits; confirm eligibility on each USAJOBS announcement",
+    "id": "item-281"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "AmeriCorps Maintenance & Fire Management — Oahu National Wildlife Refuge Complex",
+    "org": "Student Conservation Association · with USFWS · Kahuku, HI",
+    "deadline": "Application deadline July 24, 2026",
+    "start": "September 7, 2026 through August 6, 2027 (48 weeks)",
+    "body": "A 48-week AmeriCorps term from September 7, 2026 through August 6, 2027 on Oahu's wetland refuge complex. Work covers vegetation management along roads, trails, fence lines and fire breaks to reduce wildfire fuels, invasive plant control, and habitat restoration supporting endangered Hawaiian waterbirds. Published compensation is a $600 weekly living allowance, a $350 monthly housing allowance, and a $7,395 Segal AmeriCorps Education Award upon completion.",
+    "desc": "James Campbell National Wildlife Refuge is a managed coastal wetland maintained specifically for endangered Hawaiian waterbirds, which means Erin would be applying wetland and habitat-management knowledge in a full-year federal placement rather than doing generic trail work. Forty-eight weeks inside a USFWS refuge complex is substantial — long enough to clear the 640-hour threshold that triggers federal hiring authority eligibility, and long enough to earn references from refuge staff. The full package of $600 weekly plus $350 monthly housing plus the maximum $7,395 education award is competitive. Hawaii's cost of living and distance are the practical considerations.",
+    "badge": "Strong fit",
+    "pills": [
+      "48-week USFWS refuge placement",
+      "Managed wetland for endangered waterbirds",
+      "$600/week + $350/month housing",
+      "$7,395 education award",
+      "Clears federal hiring-authority threshold",
+      "⚠️ Deadline Jul 24"
+    ],
+    "metaLine": "48 weeks · $600/wk + housing + $7,395 award · Kahuku HI · deadline Jul 24 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-24",
+    "region": "West Coast / Pacific",
+    "links": [
+      {
+        "href": "https://careers.newark.rutgers.edu/jobs/the-student-conservation-association-americorps-maintenance-fire-management-at-oahu-national-wildlife-refuge-complex/",
+        "label": "🔗 Full posting"
+      },
+      {
+        "href": "https://www.fws.gov/refuge/james-campbell",
+        "label": "🔗 James Campbell National Wildlife Refuge"
+      }
+    ],
+    "url": "https://careers.newark.rutgers.edu/jobs/the-student-conservation-association-americorps-maintenance-fire-management-at-oahu-national-wildlife-refuge-complex/",
+    "location": "Kahuku, HI (James Campbell National Wildlife Refuge, Oahu NWR Complex)",
+    "pay": "",
+    "stipend": "$600 weekly living allowance",
+    "benefits": "$350 monthly housing allowance and a $7,395 Segal AmeriCorps Education Award upon completion",
+    "id": "item-282"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Conservation Hatchery Internship — Craig Brook National Fish Hatchery (USFWS)",
+    "org": "U.S. Fish & Wildlife Service · Craig Brook National Fish Hatchery · Orland, ME",
+    "deadline": "Contact first — no dated deadline posted on the board",
+    "start": "Seasonal",
+    "body": "A federal internship at Craig Brook National Fish Hatchery supporting Atlantic salmon conservation propagation in coastal Maine. Interns assist with fish rearing, water quality monitoring and field stocking operations. The position is hosted directly by the U.S. Fish and Wildlife Service. Neither compensation nor a dated deadline appeared in the board listing, so both should be confirmed with the hatchery.",
+    "desc": "This blends water quality monitoring with endangered species restoration under direct USFWS hosting, which makes it a strong resume credential for someone explicitly targeting federal work — being hosted by the agency itself rather than by a partner organization means the supervisors are federal staff who can speak to her work. Atlantic salmon in Maine is one of the highest-profile endangered species recovery programs in the Northeast. The water quality monitoring component is directly in her wheelhouse. Both compensation and timeline are unpublished, so an email to the hatchery is the necessary first step rather than a cold application.",
+    "badge": "Strong fit",
+    "pills": [
+      "Hosted directly by USFWS",
+      "Water quality monitoring",
+      "Endangered Atlantic salmon recovery",
+      "Federal supervisors as references",
+      "⚠️ Compensation not published",
+      "⚠️ No dated deadline"
+    ],
+    "metaLine": "Internship · compensation not published · Orland ME · contact first",
+    "cycle": "current",
+    "deadline_kind": "contact",
+    "deadline_date": "",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117382",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      },
+      {
+        "href": "https://www.fws.gov/fish-hatchery/craig-brook",
+        "label": "🔗 Craig Brook National Fish Hatchery"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117382",
+    "location": "Orland, ME (coastal Maine)",
+    "pay": "",
+    "stipend": "Not published on the listing — confirm with the hatchery",
+    "benefits": "Confirm housing availability and benefit eligibility with Craig Brook National Fish Hatchery",
+    "id": "item-283"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "EPA Chesapeake Bay water quality & hydrodynamic model fellowship (ORAU)",
+    "org": "Oak Ridge Associated Universities · U.S. EPA Chesapeake Bay Program · Annapolis, MD",
+    "deadline": "Contact first — confirm the current cycle on Zintellect",
+    "start": "Negotiable",
+    "body": "An ORAU research participation appointment with the EPA Chesapeake Bay Program supporting estuarine water quality and hydrodynamic modeling. Work involves environmental data analysis and model evaluation for Bay restoration targets. The position is based at the Bay Program office in Annapolis. Neither a stipend figure nor a dated deadline appeared in the board listing, and the required degree level was not confirmed, so all three should be verified on the Zintellect posting before applying.",
+    "desc": "The Chesapeake Bay Program is the flagship estuary restoration effort in the United States, and water quality modeling there sits at the intersection of Erin's sampling background and her quantitative and spatial skills. ORAU appointments are also one of the recognized side doors into federal science careers. The significant unknown is the degree tier: some ORAU appointments are postgraduate and open to bachelor's holders while others require a master's, and this listing did not specify — so verifying eligibility on Zintellect is the first step, not an afterthought. Modeling is more computational than her prior work, which makes this a stretch toward quantitative skills.",
+    "badge": "Good fit",
+    "pills": [
+      "Flagship estuary restoration program",
+      "Water quality & hydrodynamic modeling",
+      "ORAU = federal science side door",
+      "Spatial data analysis",
+      "⚠️ Degree tier unconfirmed",
+      "⚠️ Stipend not published"
+    ],
+    "metaLine": "Fellowship · stipend not published · Annapolis MD · contact first",
+    "cycle": "current",
+    "deadline_kind": "contact",
+    "deadline_date": "",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=116590",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      },
+      {
+        "href": "https://www.zintellect.com/",
+        "label": "🔗 Zintellect — verify degree tier and deadline here"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=116590",
+    "location": "Annapolis, MD (EPA Chesapeake Bay Program office)",
+    "pay": "",
+    "stipend": "Not published — confirm on the Zintellect posting",
+    "benefits": "ORAU research participation appointment — confirm health insurance allowance with ORAU",
+    "id": "item-284"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Water Resources Resilience Plan Intern — Delaware River Basin Commission",
+    "org": "Delaware River Basin Commission · West Trenton, NJ (hybrid)",
+    "deadline": "Application deadline July 29, 2026",
+    "start": "Flexible end date up to 12 months after hire",
+    "body": "A paid internship at the interstate Delaware River Basin Commission supporting development of a Water Resources Resilience Plan for the basin. The position runs up to 37.5 hours per week with a flexible end date up to twelve months after hire, on a hybrid schedule. Applications go to Avery Lentini at the DRBC. Posted pay is $16 to $21.50 per hour.",
+    "desc": "Water resources planning at a regional interstate water agency draws directly on Erin's water quality monitoring and GIS skills, and the Delaware River Basin Commission is an unusual employer — an interstate compact agency where she would see how water management decisions get made across state lines. That is a systems-level perspective most entry-level field jobs never provide. The flexible term of up to twelve months means it can flex to fit around other plans rather than locking her in. Pay is modest for the region and it is an internship rather than a career line, so the value is the planning experience and the agency exposure.",
+    "badge": "Good fit",
+    "pills": [
+      "Interstate water agency",
+      "Basin-scale resilience planning",
+      "Water quality + GIS skills",
+      "Hybrid schedule",
+      "Flexible term up to 12 months",
+      "$16–$21.50/hour"
+    ],
+    "metaLine": "Internship · $16–$21.50/hr · West Trenton NJ · deadline Jul 29 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-29",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://www.nj.gov/drbc/about/staff/internships.html",
+        "label": "🔗 DRBC internships"
+      }
+    ],
+    "url": "https://www.nj.gov/drbc/about/staff/internships.html",
+    "location": "West Trenton, NJ (hybrid; Delaware River Basin)",
+    "pay": "$16–$21.50 per hour, up to 37.5 hours per week",
+    "stipend": "",
+    "benefits": "Internship appointment — confirm benefit eligibility with the DRBC",
+    "id": "item-285"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Endangered Species & Environmental Review Biologist — NHDES Water Division",
+    "org": "New Hampshire Department of Environmental Services · Water Division · Concord, NH",
+    "deadline": "Contact first — confirm the posting is still live",
+    "start": "Full-time",
+    "body": "A full-time vacancy conducting environmental review of proposed projects for impacts to endangered and threatened species, coordinating with permitting programs in the NHDES Water Division. The stated minimum qualification is a bachelor's in biology, wildlife or fisheries plus roughly 18 months of experience. Salary was not published on the source reached, and the posting should be confirmed as still live before applying.",
+    "desc": "Wetland delineation, GIS and wildlife survey experience together are the core toolkit for species-impact review, so this role uses nearly everything Erin has in one position — and it sits inside a Water Division, which keeps her connected to the watershed side. The eighteen-month experience bar is soft enough that her degree plus NCCC service plus any field season would plausibly clear it, unlike the three-year requirements that screen her out elsewhere. Environmental review is also a durable career track: every proposed project needs one. Two things to verify first, since neither was confirmed: whether the posting is still open, and what it pays.",
+    "badge": "Strong fit",
+    "pills": [
+      "Species-impact environmental review",
+      "Uses delineation + GIS + surveys",
+      "~18 month experience bar (soft)",
+      "Inside the Water Division",
+      "⚠️ Salary not published",
+      "⚠️ Confirm posting is still live"
+    ],
+    "metaLine": "Full-time state · salary not published · Concord NH · contact first",
+    "cycle": "current",
+    "deadline_kind": "contact",
+    "deadline_date": "",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://www.des.nh.gov/contact/nhdes-jobs",
+        "label": "🔗 NHDES jobs"
+      }
+    ],
+    "url": "https://www.des.nh.gov/contact/nhdes-jobs",
+    "location": "Concord, NH (statewide project review)",
+    "pay": "Not published on the source reached — confirm with NHDES",
+    "stipend": "",
+    "benefits": "New Hampshire state position — confirm benefits with NHDES",
+    "id": "item-286"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "2026 DEEP Seasonal Jobs — Wildlife, Fisheries, Water Protection & Forestry (rolling bulletin)",
+    "org": "Connecticut Department of Energy and Environmental Protection · statewide CT",
+    "deadline": "Rolling bulletin — open through December 4, 2026",
+    "start": "Seasonal, filled continuously",
+    "body": "A single rolling posting covering Connecticut DEEP's seasonal hiring across Wildlife, Fisheries, Water Protection, Forestry, Boating and State Parks. Individual roles are filled continuously against this bulletin through early December. Requirements vary by assignment. Posted pay is $16.94 to $20.94 per hour.",
+    "desc": "This is a standing bulletin rather than a single job, which makes it a useful thing to have on the list: rather than watching for individual Connecticut postings, Erin applies once against the bulletin and is considered as roles open through early December. The Wildlife and Water Protection tracks are the relevant ones — they line up with her camera-trap, small-mammal trapping and water quality monitoring experience. Because assignments vary, she should state track preferences clearly in the application. The pay is at the lower end and the roles are seasonal, so this functions as a backstop and a way into a state agency rather than a primary target.",
+    "badge": "Good fit",
+    "pills": [
+      "Rolling bulletin — apply once",
+      "Wildlife & Water Protection tracks",
+      "Open through Dec 4 2026",
+      "Filled continuously",
+      "$16.94–$20.94/hour",
+      "State agency entry point"
+    ],
+    "metaLine": "Seasonal state · $16.94–$20.94/hr · statewide CT · open through Dec 4 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-12-04",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://www.jobapscloud.com/CT/sup/bulpreview.asp?b=&R1=CTDEEP&R2=3492VR&R3=JOB",
+        "label": "🔗 2026 DEEP Seasonal Jobs bulletin"
+      },
+      {
+        "href": "https://portal.ct.gov/deep",
+        "label": "🔗 CT DEEP"
+      }
+    ],
+    "url": "https://www.jobapscloud.com/CT/sup/bulpreview.asp?b=&R1=CTDEEP&R2=3492VR&R3=JOB",
+    "location": "Statewide Connecticut",
+    "pay": "$16.94–$20.94 per hour",
+    "stipend": "",
+    "benefits": "Seasonal state appointment — confirm benefit eligibility with CT DEEP",
+    "id": "item-287"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Point Blue Conservation Science — lab technician, nursery technician & field apprenticeships",
+    "org": "Point Blue Conservation Science · Petaluma and Bolinas, CA",
+    "deadline": "Deadlines July 27 and August 9, 2026; apprenticeships contact-first",
+    "start": "Varies by position",
+    "body": "Several openings at a leading California conservation science nonprofit. The Laboratory Research Technician in Petaluma processes and analyzes samples supporting ecology and restoration research at $23.15 per hour with an August 9 deadline. The STRAW Nursery Technician is roughly 75 percent native plant propagation, seed collection, irrigation and nursery inventory plus 20 percent supporting student Restoration Days, at $26.45 per hour with a July 27 deadline and a start after August 31; it asks for two years in habitat restoration, horticulture or natural resource management. Point Blue also runs standing apprenticeship programs: the Palomarin Field Station bird banding and landbird monitoring apprenticeship at Point Reyes, which has trained over 700 early-career scientists since 1966 and posts fall cohorts around September, and the STRAW ecological restoration apprenticeship working on community-based creek and wetland restoration. Apprenticeship compensation is not published.",
+    "desc": "Point Blue is one of the strongest possible first employers in west coast conservation science, and this cluster gives Erin several angles in. The Laboratory Research Technician role is the cleanest fit — her trace-metal sediment lab work transfers directly, and $23.15 an hour is solid. The STRAW nursery role pays more but asks for two years, which her NCCC service plus field-heavy undergraduate work arguably reaches. The STRAW apprenticeship is the most relevant of the two apprenticeships, since creek and wetland restoration maps onto her delineation training. Palomarin is a famous training program but is bird-banding specific. Apprenticeship pay is unpublished; the contact for Palomarin is Diana Humple.",
+    "badge": "Strong fit",
+    "pills": [
+      "Lab tech $23.15/hr (deadline Aug 9)",
+      "Nursery tech $26.45/hr (deadline Jul 27)",
+      "STRAW creek & wetland restoration",
+      "Palomarin — 700+ scientists trained",
+      "Leading CA conservation nonprofit",
+      "⚠️ Apprenticeship pay not published"
+    ],
+    "metaLine": "Multiple roles · $23.15–$26.45/hr · Petaluma & Bolinas CA · deadlines Jul 27 & Aug 9",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-27",
+    "region": "West Coast / Pacific",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117535",
+        "label": "🔗 Laboratory Research Technician ($23.15/hr, deadline Aug 9)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117469",
+        "label": "🔗 STRAW Nursery Technician ($26.45/hr, deadline Jul 27)"
+      },
+      {
+        "href": "https://www.pointblue.org/internships/straw-apprenticeship/",
+        "label": "🔗 STRAW Apprenticeship — creek & wetland restoration"
+      },
+      {
+        "href": "https://www.pointblue.org/internships/palomarin-field-station-apprenticeships/",
+        "label": "🔗 Palomarin Field Station Apprenticeship"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117535",
+    "location": "Petaluma, CA (lab and STRAW) and Bolinas, CA (Palomarin, Point Reyes National Seashore)",
+    "pay": "$23.15/hour (Laboratory Research Technician) · $26.45/hour (STRAW Nursery Technician)",
+    "stipend": "Apprenticeship compensation not published — confirm with Point Blue",
+    "benefits": "Confirm benefits per position with Point Blue Conservation Science",
+    "id": "item-288"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Cougar and Bobcat Capture Technician — Siskiyou Mountains carnivore research",
+    "org": "Oregon State University · Central Point, OR",
+    "deadline": "Application deadline August 5, 2026",
+    "start": "Field research position",
+    "body": "A field technician position on an Oregon State University carnivore research project in southwest Oregon, capturing and collaring cougars and bobcats and supporting associated monitoring. The work is rugged, remote fieldwork in the Siskiyou Mountains. Posted pay is $25 to $35 per hour.",
+    "desc": "Erin's small-mammal trapping and camera-trap monitoring experience is close to the best possible undergraduate preparation for a live-capture carnivore crew — the animals are larger and the stakes higher, but the underlying discipline of safe capture, handling and systematic monitoring is the same, and few applicants at her level have documented trapping experience at all. At $25 to $35 per hour this also pays substantially better than most field technician work. Carnivore capture and collaring is distinctive enough to make a resume memorable and is a natural bridge into wildlife graduate programs. The work is genuinely rugged and remote, and handling large carnivores carries real physical risk.",
+    "badge": "Strong fit",
+    "pills": [
+      "$25–$35/hour",
+      "Live capture & collaring",
+      "Her trapping experience is direct prep",
+      "University research project",
+      "Distinctive resume credential",
+      "⚠️ Rugged, remote, higher-risk work"
+    ],
+    "metaLine": "Field research · $25–$35/hr · Central Point OR · deadline Aug 5 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-05",
+    "region": "West Coast / Pacific",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117544",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117544",
+    "location": "Central Point, OR (Siskiyou Mountains, southwest Oregon)",
+    "pay": "$25–$35 per hour",
+    "stipend": "",
+    "benefits": "Confirm benefit eligibility with Oregon State University",
+    "id": "item-289"
   }
 ]
