@@ -7398,5 +7398,235 @@
     "stipend": "Monthly ORISE stipend (varies by posting)",
     "benefits": "Health insurance supplement; appointments renewable up to five years total",
     "id": "item-167"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 18, 2026"
+    },
+    "title": "OHV Restoration Technician (4 positions) — ACE / BLM Ridgecrest Field Office",
+    "org": "American Conservation Experience · in partnership with the Bureau of Land Management, Ridgecrest Field Office · Ridgecrest, CA",
+    "deadline": "Rolling — the posting notes it may close at any time, so apply promptly.",
+    "start": "September 8, 2026 – July 13, 2027",
+    "body": "Four term positions running September 8, 2026 through July 13, 2027 on BLM-managed California desert lands. Members identify restoration project sites, monitor the outcomes of prior restoration efforts, maintain the GIS restoration database, coordinate volunteers and crews, and deliver outreach to off-highway-vehicle recreationists. The posting requires a valid driver's license and comfort working independently in remote settings. Posted benefits are an $875 per week living allowance, up to $225 per week in housing reimbursement, up to $150 in gear assistance, and up to $350 in training assistance.",
+    "desc": "This posting explicitly pairs field restoration monitoring with GIS database maintenance — the two skills Erin has the most documented experience in — which is a less common combination than it sounds. Monitoring the outcomes of prior restoration work is genuinely useful experience for restoration-track graduate applications, since it teaches what actually succeeds rather than only how to install a project. The compensation is the highest weekly rate among the ACE placements found, and the housing reimbursement makes the effective pay stronger still. Caveats: the OHV recreation-outreach component is a public-facing role outside her experience, and the Mojave desert posting is remote and hot.",
+    "badge": "Good fit",
+    "pills": [
+      "Ecological restoration",
+      "GIS database",
+      "Restoration monitoring",
+      "BLM",
+      "Volunteer coordination",
+      "Housing reimbursement"
+    ],
+    "metaLine": "Term Sep 2026–Jul 2027 · $875/week + housing · Ridgecrest CA · rolling, may close anytime",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "West Coast / Pacific",
+    "links": [
+      {
+        "href": "https://highdesertcajobs.com/jobs/ohv-restoration-technician-61e40135",
+        "label": "🔗 Job listing — apply"
+      },
+      {
+        "href": "https://www.blm.gov/office/ridgecrest-field-office",
+        "label": "🔗 BLM Ridgecrest Field Office"
+      }
+    ],
+    "url": "https://highdesertcajobs.com/jobs/ohv-restoration-technician-61e40135",
+    "location": "Ridgecrest, CA (BLM-managed California desert lands)",
+    "pay": "$875 per week living allowance",
+    "stipend": "$875/week living allowance",
+    "benefits": "Up to $225/week housing reimbursement; up to $150 gear assistance; up to $350 training assistance",
+    "id": "item-168"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 18, 2026"
+    },
+    "title": "University of Hawaiʻi at Hilo — M.S. Tropical Conservation Biology & Environmental Science (TCBES) assistantships",
+    "org": "University of Hawaiʻi at Hilo · Tropical Conservation Biology and Environmental Science program · Hilo, HI",
+    "deadline": "Contact-first — graduate assistantships are posted through NEOGOV and awarded in one-year terms with the option to reapply. Email the TCBES program and prospective faculty advisors about assistantship availability before applying.",
+    "start": "Fall (next available cohort — confirm with the program)",
+    "body": "Standing graduate assistantships for prospective and current TCBES master's students, providing a monthly salary plus full tuition remission (excluding student fees), awarded in one-year terms with the option to reapply. Positions are posted through the NEOGOV system. The TCBES M.S. spans conservation biology, watershed and stream ecology, ecological restoration, and geospatial analysis, in one of the most distinctive island ecosystems available for conservation research. A BS is sufficient to apply for the M.S.",
+    "desc": "A BS-eligible master's program with tuition-remission assistantships whose research areas — watershed and stream ecology, restoration, and geospatial analysis — line up closely with Erin's wetland delineation, water quality, and GIS skill set. Hawaiʻi island ecosystems offer a genuinely distinctive research context (endemism, invasive species pressure, and steep watershed gradients) that would differentiate her from mainland-trained applicants. The tuition remission is a real financial advantage. Honest caveats: assistantship dollar amounts are not published centrally so funding must be confirmed directly, and one important eligibility note — the parallel Hauʻoli Mau Loa Foundation assistantships require graduation from a Hawaiʻi high school and she is not eligible for those; the general TCBES awards carry no such restriction.",
+    "badge": "Good fit",
+    "pills": [
+      "Watershed & stream ecology",
+      "Ecological restoration",
+      "Geospatial analysis",
+      "M.S. BS-eligible",
+      "Tuition remission",
+      "Contact-first"
+    ],
+    "metaLine": "M.S. · monthly salary + full tuition remission (amount unpublished) · Hilo HI · contact-first",
+    "cycle": "current",
+    "deadline_kind": "contact-first",
+    "deadline_date": "",
+    "region": "West Coast / Pacific",
+    "links": [
+      {
+        "href": "https://hilo.hawaii.edu/depts/tcbes/funding.php",
+        "label": "🔗 UH Hilo TCBES — funding"
+      },
+      {
+        "href": "https://hilo.hawaii.edu/depts/tcbes/",
+        "label": "🔗 UH Hilo TCBES program"
+      }
+    ],
+    "url": "https://hilo.hawaii.edu/depts/tcbes/funding.php",
+    "location": "Hilo, HI",
+    "pay": "Monthly graduate assistantship salary — amount not published; confirm with the program",
+    "stipend": "Graduate assistantship, one-year terms, renewable by reapplication (amount unpublished)",
+    "benefits": "Full tuition remission (excluding student fees)",
+    "id": "item-169"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 18, 2026"
+    },
+    "title": "District Manager — Dayton Valley Conservation District",
+    "org": "Dayton Valley Conservation District · Dayton, NV",
+    "deadline": "Applications due August 14, 2026. Apply through the Conservation Job Board posting.",
+    "start": "Rolling / as filled",
+    "body": "A permanent position directing a small conservation district's restoration, riverbank stabilization, and noxious weed control programs, including project permitting, contracting, grant writing, and field site evaluations. GIS and Google Earth Pro proficiency are listed requirements. The stated minimum is a bachelor's degree in science or agriculture with no year-count attached. Posted salary is $55,000–$65,000 annually depending on experience.",
+    "desc": "An unusual opportunity for a recent graduate: a management-level role with no experience minimum attached, at a salary well above typical entry-level conservation work. GIS is a listed required skill rather than a preference, and the riverbank stabilization and restoration programs connect directly to Erin's watershed and Army Corps delineation background. Grant writing and project permitting are genuinely valuable professional skills she does not yet have, and running a district's programs would demonstrate leadership on a grad-school or federal application. Honest caveat: this is a manager role, so it would ask a 2025 graduate to lead programs and handle contracting immediately — a real stretch in responsibility even though she meets the stated qualifications.",
+    "badge": "Good fit",
+    "pills": [
+      "Restoration programs",
+      "Riverbank stabilization",
+      "GIS required",
+      "Grant writing & permitting",
+      "Management role",
+      "No experience minimum"
+    ],
+    "metaLine": "Permanent · $55,000–$65,000/yr DOE · Dayton NV · apply by Aug 14, 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-14",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-district-manager-dayton-nevada/6095870099",
+        "label": "🔗 Conservation Job Board — listing"
+      },
+      {
+        "href": "https://www.nvacd.org/",
+        "label": "🔗 Nevada Association of Conservation Districts"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-district-manager-dayton-nevada/6095870099",
+    "location": "Dayton, NV",
+    "pay": "$55,000–$65,000 annually (DOE)",
+    "stipend": "",
+    "benefits": "Permanent full-time position — confirm benefit package with the district",
+    "id": "item-170"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 18, 2026"
+    },
+    "title": "Natural Resources Specialist I–III (Wildlife District Biologist) — Texas Parks & Wildlife",
+    "org": "Texas Parks and Wildlife Department · Texas Panhandle (eight-county district)",
+    "deadline": "Applications due July 29, 2026. Apply through the Texas Parks and Wildlife careers portal.",
+    "start": "Permanent state appointment",
+    "body": "A permanent state wildlife biologist post covering an eight-county district in the Texas Panhandle, handling natural resource management planning, habitat monitoring, and research with heavy emphasis on private-lands wildlife management. Duties include developing landowner wildlife management plans, conducting low-level aerial surveys, and public outreach. The position is advertised across three rungs, with the Natural Resources Specialist I entry level explicitly requiring 0–1 years of experience. Posted salary is $4,504.18–$5,824.14 per month.",
+    "desc": "A permanent state biologist position at the zero-experience rung is a genuinely rare find, and Erin's small-mammal trapping and camera-trap survey work map directly onto the population monitoring duties. Writing landowner wildlife management plans is the same private-lands conservation delivery skill that Farm Bill partner roles build, and it reads well toward USDA and USFWS work later. District biologist is a real career title rather than a technician stopgap. Caveats: the Panhandle is a remote posting far from her current network, low-level aerial survey work is physically demanding and new to her, and the deadline is close.",
+    "badge": "Good fit",
+    "pills": [
+      "District wildlife biologist",
+      "Habitat monitoring",
+      "Private lands management",
+      "Population surveys",
+      "Permanent state position",
+      "Entry rung 0–1 yrs"
+    ],
+    "metaLine": "Permanent · $4,504–$5,824/month · Texas Panhandle · apply by Jul 29, 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-29",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-natural-resources-specialist-i---ii---iii-wildlife-district-biologist-tbd-texas/3198655799",
+        "label": "🔗 Conservation Job Board — listing"
+      },
+      {
+        "href": "https://tpwd.texas.gov/jobs/",
+        "label": "🔗 Texas Parks & Wildlife careers"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-natural-resources-specialist-i---ii---iii-wildlife-district-biologist-tbd-texas/3198655799",
+    "location": "Texas Panhandle (eight-county district)",
+    "pay": "$4,504.18–$5,824.14 per month",
+    "stipend": "",
+    "benefits": "Full Texas state employee benefits (permanent position)",
+    "id": "item-171"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 18, 2026"
+    },
+    "title": "Wildlife Technician — Idaho Department of Fish & Game (Salmon Region)",
+    "org": "Idaho Department of Fish and Game · Salmon Regional Office · Salmon, ID",
+    "deadline": "Open until filled (posted July 14, 2026). Apply through the IDFG jobs portal.",
+    "start": "Seasonal temporary, approximately 8 months, up to 40 hours/week",
+    "body": "A seasonal temporary technician position of roughly eight months at up to 40 hours per week, providing field support for bighorn sheep research and wildlife management in the Salmon region. Duties include field data collection, wildlife population surveys, Chronic Wasting Disease monitoring via biological sample collection, and work with marked animals. The work is remote and backcountry, involving substantial hiking and overnight stays. Minimum qualifications are knowledge of wildlife ecology plus biological data experience — a BS clears this with no master's or multi-year requirement. Posted pay is $18.61 per hour.",
+    "desc": "A straightforward, currently-open field technician role that directly extends Erin's small-mammal trapping, camera-trap, and field-data background into large-mammal research. Bighorn sheep work in the Salmon region is genuinely rugged backcountry field experience, which is exactly what strengthens a wildlife-track grad application, and the CWD biological sampling adds a disease-surveillance skill that agencies increasingly want. The qualification bar sits comfortably below her degree, so she is a strong rather than marginal candidate. Caveats: it is seasonal and modestly paid, and the physical and remoteness demands are significant.",
+    "badge": "Good fit",
+    "pills": [
+      "Wildlife population surveys",
+      "Bighorn sheep research",
+      "Biological sampling",
+      "CWD monitoring",
+      "Backcountry field work",
+      "BS clears minimum"
+    ],
+    "metaLine": "Seasonal ~8 months · $18.61/hr · Salmon ID · open until filled",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Mountain West",
+    "links": [
+      {
+        "href": "https://idfg.idaho.gov/job/162368",
+        "label": "🔗 IDFG — apply"
+      },
+      {
+        "href": "https://idfg.idaho.gov/careers",
+        "label": "🔗 Idaho Fish & Game careers"
+      }
+    ],
+    "url": "https://idfg.idaho.gov/job/162368",
+    "location": "Salmon, ID (Salmon Regional Office; remote backcountry field sites)",
+    "pay": "$18.61 per hour",
+    "stipend": "",
+    "benefits": "Seasonal temporary appointment — confirm benefit eligibility with the regional office",
+    "id": "item-172"
   }
 ]
