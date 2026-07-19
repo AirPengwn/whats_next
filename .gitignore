@@ -14,3 +14,11 @@ _dedup_index.json
 
 # Local-only preview dev server (never publish)
 ._preview_server.js
+
+# All dot-underscore helpers/scratch (temp sweep scripts, preview server, etc.)
+._*
+
+# API keys for the weekly sweep — MUST never reach the public repo
+._sweep_keys.json
+*.key
+secrets.json
