@@ -13432,5 +13432,469 @@
     "stipend": "$650–$700 per week (Green Mountain Club Trail Technician)",
     "benefits": "GMC: housing, free Wilderness First Aid certification, 403b matching, gear discounts. AMC: optional housing and food seven days a week at $75/week; room and board provided for the Hut Naturalist",
     "id": "item-298"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Biological Science Technician (Aquatic Invasive Species) — Glen Canyon / Lake Powell",
+    "org": "National Park Service · Glen Canyon National Recreation Area · Page, AZ",
+    "deadline": "Application deadline July 20, 2026",
+    "start": "Federal appointment",
+    "body": "A federal technician position supporting aquatic invasive species detection and control at Glen Canyon National Recreation Area and Lake Powell. Work includes watercraft inspection, decontamination, field sampling and data recording. This was one of only two genuinely entry-level federal natural-resource announcements open across the entire Southwest at the time of this sweep. Posted salary is $55,882 to $72,644 per year.",
+    "desc": "Federal entry-level hiring is close to frozen right now — a sweep of all seven relevant job series across five states turned up almost nothing but Air Force resume-bank placeholders and GS-13 supervisory roles, which makes this announcement genuinely scarce rather than merely appealing. At $55,882 to $72,644 it also pays far above the technician norm. Aquatic invasive species work at Lake Powell combines field sampling and water-based survey with a National Park Service appointment, which is exactly the federal foothold Erin has been building toward. The deadline is tomorrow, so this is a drop-everything application.",
+    "badge": "Top recommendation",
+    "pills": [
+      "Genuine entry-level federal opening",
+      "$55,882–$72,644/year",
+      "National Park Service appointment",
+      "Field sampling & data recording",
+      "Rare — federal hiring is near-frozen",
+      "⚠️ Deadline July 20"
+    ],
+    "metaLine": "Federal · $55,882–$72,644/yr · Page AZ · deadline Jul 20 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-20",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/876188200",
+        "label": "🔗 Full announcement — USAJOBS"
+      },
+      {
+        "href": "https://www.nps.gov/glca/",
+        "label": "🔗 Glen Canyon National Recreation Area"
+      }
+    ],
+    "url": "https://www.usajobs.gov/job/876188200",
+    "location": "Page, AZ (Glen Canyon NRA / Lake Powell)",
+    "pay": "$55,882–$72,644 per year",
+    "stipend": "",
+    "benefits": "Federal appointment — full federal benefits; confirm eligibility on the USAJOBS announcement",
+    "id": "item-299"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Fisheries Biologist — regional, BS with no experience required ($60k)",
+    "org": "Oklahoma Department of Wildlife Conservation · Jenks, OK",
+    "deadline": "Application deadline July 22, 2026",
+    "start": "September 2026 start",
+    "body": "A regional fisheries biologist position planning, organizing and directing fish and wildlife management and research projects, collecting population and habitat data, and preparing reports. The posting requires a bachelor's degree with no experience required, based at the Jenks facility near Tulsa with a September 2026 start. Posted salary is $60,480.03 per year plus a state benefit allowance. A companion Aquatic Nuisance Species biologist posting at Porter, OK carries the same salary and requirements but closes today.",
+    "desc": "A biologist title — not technician — at $60,480 open to a candidate with a bachelor's and no experience is the single most favorable pay-to-requirement ratio found anywhere across both weeks of searching. Most people spend three or four seasons as a technician before earning that title. Oklahoma is clearly struggling to fill these, which is Erin's opportunity. Planning and directing research projects would also give her project ownership immediately rather than assisting on someone else's work. The companion Porter posting closes today; this Jenks one gives her a few days, so it is the realistic target.",
+    "badge": "Top recommendation",
+    "pills": [
+      "Biologist title, not technician",
+      "$60,480.03/year plus benefit allowance",
+      "Bachelor's with NO experience required",
+      "Directs research projects",
+      "Permanent state position",
+      "⚠️ Deadline July 22"
+    ],
+    "metaLine": "State biologist · $60,480.03/yr · Jenks OK · deadline Jul 22 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-22",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117597",
+        "label": "🔗 Regional Fisheries Biologist — Jenks (deadline Jul 22)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117596",
+        "label": "🔗 Aquatic Nuisance Species Biologist — Porter (closes today)"
+      },
+      {
+        "href": "https://www.wildlifedepartment.com/about/careers",
+        "label": "🔗 ODWC careers"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117597",
+    "location": "Jenks, OK (Tulsa area; regional assignment)",
+    "pay": "$60,480.03 per year plus state benefit allowance",
+    "stipend": "",
+    "benefits": "Oklahoma state position — full state benefits plus benefit allowance",
+    "id": "item-300"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Restoration and GIS Specialist — Verde River watershed",
+    "org": "Friends of the Verde River · Cottonwood, AZ",
+    "deadline": "Application deadline August 28, 2026",
+    "start": "Full-time",
+    "body": "A full-time role blending on-the-ground riparian restoration with GIS mapping, spatial analysis and monitoring data management for the Verde River watershed program. The position reports to the Restoration Program Manager and supports project planning, treatment tracking and reporting. Posted pay is $21 to $24 per hour. The organization also runs two AmeriCorps positions in Cottonwood: a Restoration Assistant at $720 bi-weekly with a $3,697.50 education award, and an Operations and Volunteer Assistant at $914.29 bi-weekly with a $5,176.50 education award.",
+    "desc": "The job title says it: restoration and GIS in one position, which is precisely Erin's combination and far rarer in postings than it should be. The Verde River is one of Arizona's last free-flowing rivers, so riparian restoration there is high-stakes desert watershed work with real institutional attention. Spatial analysis and monitoring data management would let her own the mapping side of a program rather than collecting data for someone else. If the specialist role goes to someone more experienced, the same organization runs two AmeriCorps placements in the same town — a natural fallback that could convert later.",
+    "badge": "Top recommendation",
+    "pills": [
+      "Restoration AND GIS in one role",
+      "$21–$24/hour",
+      "Spatial analysis & data management",
+      "One of AZ's last free-flowing rivers",
+      "Two AmeriCorps fallbacks at same org",
+      "Deadline Aug 28 2026"
+    ],
+    "metaLine": "Full-time · $21–$24/hr · Cottonwood AZ · deadline Aug 28 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-28",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=116864",
+        "label": "🔗 Restoration and GIS Specialist — full posting"
+      },
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-operations-and-volunteer-assistant-cottonwood-arizona/7961949322",
+        "label": "🔗 Operations & Volunteer Assistant (AmeriCorps, $914.29 bi-weekly)"
+      },
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-restoration-assistant-cottonwood-arizona/1569766326",
+        "label": "🔗 Restoration Assistant (AmeriCorps, $720 bi-weekly)"
+      },
+      {
+        "href": "https://verderiver.org/",
+        "label": "🔗 Friends of the Verde River"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=116864",
+    "location": "Cottonwood, AZ (Verde River watershed)",
+    "pay": "$21–$24 per hour",
+    "stipend": "AmeriCorps alternatives: $720 bi-weekly (Restoration Assistant) or $914.29 bi-weekly (Operations & Volunteer Assistant)",
+    "benefits": "AmeriCorps roles include education awards of $3,697.50 and $5,176.50 plus student loan forbearance; confirm specialist benefits with the organization",
+    "id": "item-301"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Funded MS — Playa Lake Restoration Assessment (wetland restoration ecology)",
+    "org": "Borderlands Research Institute · Sul Ross State University · Alpine, TX",
+    "deadline": "Rolling — multiple positions available",
+    "start": "Negotiable",
+    "body": "Multiple funded master’s positions assessing avian, insect and vegetative community response to playa lake restoration in the Southern High Plains. Data collection uses autonomous recording units, avian point counts, Malaise traps, sweep nets and Daubenmire frames. Available thesis topics include seedbank potential and trophic structure of restored versus unrestored playas. Posted funding is $18,000 per year plus fringe.",
+    "desc": "Playas are wetlands — this is a funded master's in wetland restoration ecology, aimed directly at Erin's stated interest area, with multiple positions available rather than a single competitive slot. The methods list is a good match too: Daubenmire frames and point counts are standard vegetation and wildlife survey techniques close to what she has done, and autonomous recording units extend her camera-trap monitoring experience into acoustics. Comparing restored against unrestored systems is exactly the kind of question that makes a strong thesis and a legible career story. The $18,000 stipend is modest, though Alpine's cost of living is low.",
+    "badge": "Top recommendation",
+    "pills": [
+      "Playas ARE wetlands — direct interest match",
+      "Multiple funded positions",
+      "$18,000/year plus fringe",
+      "Vegetation & avian survey methods",
+      "ARU acoustic monitoring",
+      "Restored vs unrestored comparison"
+    ],
+    "metaLine": "MS · $18,000/yr plus fringe · Alpine TX · rolling",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117556",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      },
+      {
+        "href": "https://bri.sulross.edu/",
+        "label": "🔗 Borderlands Research Institute"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117556",
+    "location": "Alpine, TX (Southern High Plains playa systems)",
+    "pay": "",
+    "stipend": "$18,000 per year plus fringe",
+    "benefits": "Confirm tuition waiver and health insurance with the Borderlands Research Institute",
+    "id": "item-302"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Funded MS — Arundo donax management in riparian systems (tuition covered 2.5 years)",
+    "org": "Texas A&M AgriLife Extension Service · College Station, TX",
+    "deadline": "Rolling — contact Dr. Megan Clayton",
+    "start": "Negotiable",
+    "body": "A funded master’s position under Dr. Megan Clayton identifying cost-effective control of giant reed infestations in Texas riparian systems, including ground and unmanned aerial vehicle herbicide application and follow-up treatment. The posting requires a BS in natural resource management or a related field and a GPA above 3.0, and field technician support is provided. Posted funding is $24,000 per year plus fringe, insurance and tuition, funded for 2.5 years.",
+    "desc": "This is one of the most complete funding packages found: $24,000 per year plus fringe, insurance and tuition, committed for two and a half years, removes essentially all the financial uncertainty that makes master's programs risky. Erin's 3.731 clears the stated 3.0 threshold comfortably. Giant reed is one of the most damaging riparian invasives in the Southwest, so the work is applied restoration in her interest area, and the UAV herbicide application component would add drone-based operations to her remote sensing skills — a genuinely marketable and still-uncommon capability. Field technician support means she would supervise rather than do all the labor herself.",
+    "badge": "Top recommendation",
+    "pills": [
+      "$24,000/yr + tuition + insurance",
+      "Funded 2.5 years",
+      "Riparian invasive management",
+      "UAV/drone herbicide application",
+      "Her 3.731 clears the 3.0 bar",
+      "Field technician support provided"
+    ],
+    "metaLine": "MS · $24,000/yr + tuition, 2.5 years · College Station TX · rolling",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117557",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      },
+      {
+        "href": "https://agrilifeextension.tamu.edu/",
+        "label": "🔗 Texas A&M AgriLife Extension"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117557",
+    "location": "College Station, TX (riparian field sites across Texas)",
+    "pay": "",
+    "stipend": "$24,000 per year plus fringe",
+    "benefits": "Insurance and tuition covered; funded for 2.5 years",
+    "id": "item-303"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Funded MS/PhD — Freshwater Mussel Ecology & environmental flows ($32–35k)",
+    "org": "Texas A&M Natural Resources Institute · Mussel Lab · Dallas, TX",
+    "deadline": "Application deadline October 1, 2026",
+    "start": "Negotiable",
+    "body": "Up to two graduate assistantships in the Natural Resources Institute Mussel Lab under Dr. Charles Randklev and Dr. Roel Lopez, focused on emersion tolerance to inform environmental flow recommendations and on developing and ground-truthing predictive models. The work has a freshwater conservation emphasis with no prior experience required. Posted funding is $32,000 to $35,000 per year.",
+    "desc": "At $32,000 to $35,000 this is among the best-funded master's stipends on Erin's entire list, and freshwater conservation is squarely in her interest area. Environmental flow recommendations — determining how much water a river needs to sustain its species — is one of the central questions in western water management, so the work has direct policy relevance and a clear career path. Freshwater mussels are also excellent water quality indicators, which connects to her contamination background. The predictive modeling and ground-truthing component would strengthen her quantitative skills. No prior experience required, and the October 1 deadline leaves real preparation time.",
+    "badge": "Top recommendation",
+    "pills": [
+      "$32,000–$35,000/year — top-tier funding",
+      "Freshwater conservation emphasis",
+      "Environmental flow recommendations",
+      "Predictive modeling & ground-truthing",
+      "No prior experience required",
+      "MS or PhD track"
+    ],
+    "metaLine": "MS/PhD · $32,000–$35,000/yr · Dallas TX · deadline Oct 1 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-10-01",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=115689",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      },
+      {
+        "href": "https://nri.tamu.edu/",
+        "label": "🔗 Texas A&M Natural Resources Institute"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=115689",
+    "location": "Dallas, TX (Texas river systems)",
+    "pay": "",
+    "stipend": "$32,000–$35,000 per year",
+    "benefits": "Confirm tuition waiver and health insurance with the Natural Resources Institute",
+    "id": "item-304"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "MS Assistantship — Coastal Water Quality & microbial pollution source tracking",
+    "org": "Texas A&M University-Corpus Christi · Harte Research Institute · Corpus Christi, TX",
+    "deadline": "Application deadline October 1, 2026",
+    "start": "Spring 2027",
+    "body": "A master’s position in the Coastal Water Health Laboratory beginning Spring 2027, monitoring water quality in Redfish Bay and performing microbial source tracking to identify human, canine and gull sources of fecal pollution. Results will guide management recommendations on pollutant source prioritization. Posted funding is $1,200 per month.",
+    "desc": "Structurally this is Erin's capstone repeated at graduate level: identify a contaminant in a water body, trace it to its source, and translate that into management recommendations. She did exactly that with lead and trace metals in the Pigeon River; here the contaminant is microbial rather than metallic, but the investigative logic and the sampling discipline are the same. That parallel makes her an unusually strong applicant and gives her a statement of purpose that writes itself. The Harte Research Institute is a well-regarded coastal research center. The $1,200 monthly stipend is modest, so tuition and fee coverage needs confirming.",
+    "badge": "Top recommendation",
+    "pills": [
+      "Structurally identical to her capstone",
+      "Pollution source tracking",
+      "Coastal water quality monitoring",
+      "Management recommendations output",
+      "Harte Research Institute",
+      "⚠️ $1,200/mo — confirm tuition coverage"
+    ],
+    "metaLine": "MS · $1,200/month · Corpus Christi TX · deadline Oct 1 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-10-01",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=116158",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      },
+      {
+        "href": "https://www.harteresearchinstitute.org/",
+        "label": "🔗 Harte Research Institute"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=116158",
+    "location": "Corpus Christi, TX (Redfish Bay)",
+    "pay": "",
+    "stipend": "$1,200 per month",
+    "benefits": "Confirm tuition and fee coverage with the Coastal Water Health Laboratory",
+    "id": "item-305"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Research Assistant — acoustic & camera-trap wildlife monitoring",
+    "org": "Texas A&M AgriLife Research · College Station, TX with west Texas field sites",
+    "deadline": "Application deadline August 15, 2026",
+    "start": "Full-time",
+    "body": "Supports wildlife monitoring research in west Texas by deploying and maintaining acoustic monitors, ultrasonic monitors and trail cameras, then processing recordings and images and verifying species detections. The role also handles data entry, quality control and database management. A bachelor’s degree is required with no experience required. Posted pay is $15.85 per hour.",
+    "desc": "This is close to a line-for-line restatement of Erin's documented skills — deploying trail cameras, processing images, and verifying species detections is precisely her camera-trap monitoring and Wildlife Insights experience, and adding acoustic and ultrasonic monitors extends it into a second sensor modality. Very few applicants at this level arrive already fluent in detection verification and the data management that goes with it. Working within Texas A&M AgriLife Research also puts her inside a large research organization with visible pathways into its graduate programs. The pay of $15.85 per hour is the clear weakness, well below comparable technical roles.",
+    "badge": "Strong fit",
+    "pills": [
+      "Camera traps — her exact experience",
+      "Acoustic & ultrasonic monitoring",
+      "Species detection verification",
+      "Database management & QC",
+      "Bachelor's, no experience required",
+      "⚠️ $15.85/hr is low for the skill match"
+    ],
+    "metaLine": "Full-time · $15.85/hr · College Station TX · deadline Aug 15 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-15",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117574",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117574",
+    "location": "College Station, TX (field site in west Texas)",
+    "pay": "$15.85 per hour",
+    "stipend": "",
+    "benefits": "Confirm benefit eligibility with Texas A&M AgriLife Research",
+    "id": "item-306"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Natural Resources Specialist I / Fish & Wildlife Technician I — Texas Parks & Wildlife (permanent)",
+    "org": "Texas Parks and Wildlife Department · Texas Panhandle district and Tennessee Colony, TX",
+    "deadline": "Application deadlines July 29 and August 3, 2026",
+    "start": "Permanent state positions",
+    "body": "Two permanent Texas Parks and Wildlife Department positions posted at multi-level grades so a new graduate can enter at the I level. The Natural Resources Specialist I–II–III role is a district wildlife biologist covering technical guidance to private landowners, habitat management planning and wildlife population surveys across an assigned multi-county district in the Texas Panhandle, at $4,504.18 to $5,824.14 per month with a July 29 deadline and a named hiring contact. The Fish and Wildlife Technician I–II–III role at Tennessee Colony conducts habitat management, wildlife surveys and public-use support on a wildlife management area at $3,859.97 to $4,979.51 per month with an August 3 deadline. Both carry full state benefits including retirement and pension.",
+    "desc": "Both of these are permanent positions with pension and full benefits, which is what separates a career from a series of seasons. The Natural Resources Specialist is the more ambitious application — it carries an actual biologist role with landowner technical guidance and habitat planning, and the I-level rung is explicitly open to a new graduate. Private-lands technical guidance is also a distinctly valuable skill in Texas, where the overwhelming majority of habitat is privately owned. The posting includes a named hiring contact, which is an invitation to call before applying. The technician role is the safer parallel application at the same agency.",
+    "badge": "Top recommendation",
+    "pills": [
+      "Both permanent with pension",
+      "Specialist: $4,504–$5,824/month",
+      "Technician: $3,860–$4,980/month",
+      "I-level rung open to new grads",
+      "Private-lands habitat planning",
+      "Named hiring contact — call first"
+    ],
+    "metaLine": "Permanent state · $3,860–$5,824/month · Texas Panhandle & Tennessee Colony TX · deadlines Jul 29 & Aug 3",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-29",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117524",
+        "label": "🔗 Fish & Wildlife Technician I–II–III (deadline Aug 3)"
+      },
+      {
+        "href": "https://tpwd.texas.gov/jobs/",
+        "label": "🔗 Texas Parks & Wildlife careers — search Natural Resources Specialist"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117524",
+    "location": "Texas Panhandle district (Natural Resources Specialist) and Tennessee Colony, TX (Fish & Wildlife Technician)",
+    "pay": "$4,504.18–$5,824.14 monthly (Specialist) · $3,859.97–$4,979.51 monthly (Technician)",
+    "stipend": "",
+    "benefits": "Texas state permanent positions — full state benefits including retirement and pension",
+    "id": "item-307"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Environmental Specialist (entry level) — biological surveys & technical reporting",
+    "org": "Lloyd Engineering, Inc. · Houston, TX",
+    "deadline": "Application deadline July 31, 2026",
+    "start": "Full-time",
+    "body": "An entry-level role in the Environmental Sciences group performing biological field surveys, data collection and entry, and technical report writing for natural resources projects. The minimum requirement is a bachelor’s in biology, ecology, environmental science, natural resource management or a related field. Posted salary is $48,000 to $60,000 per year.",
+    "desc": "An explicitly entry-level consulting position paying $48,000 to $60,000 is a strong opening salary for a recent graduate, and consulting is where Erin's Army Corps wetland delineation training becomes a directly billable skill rather than a line on a resume. Technical report writing is worth calling out as a benefit rather than a chore: the ability to write a defensible technical document is what distinguishes people who advance in this field, and few new graduates get structured practice at it. Houston sits near extensive coastal wetland and bottomland systems. Consulting is client-driven and deadline-heavy, which suits some people and not others.",
+    "badge": "Strong fit",
+    "pills": [
+      "$48,000–$60,000/year",
+      "Explicitly entry-level",
+      "Bachelor's is the stated minimum",
+      "Biological field surveys",
+      "Technical report writing practice",
+      "Delineation is billable here"
+    ],
+    "metaLine": "Full-time · $48,000–$60,000/yr · Houston TX · deadline Jul 31 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=115834",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=115834",
+    "location": "Houston, TX (natural resources project sites)",
+    "pay": "$48,000–$60,000 per year",
+    "stipend": "",
+    "benefits": "Full-time position — confirm benefits with Lloyd Engineering",
+    "id": "item-308"
   }
 ]
