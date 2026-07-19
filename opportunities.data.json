@@ -7121,5 +7121,282 @@
     "stipend": "",
     "benefits": "Permanent benefited position with a Delaware governmental subdivision",
     "id": "item-161"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 18, 2026"
+    },
+    "title": "TerraCorps AmeriCorps Service Member — Land Stewardship / Land Conservation",
+    "org": "TerraCorps · placed with 40+ host land trusts across Massachusetts and Rhode Island",
+    "deadline": "Applications due August 7, 2026 for the 2026–27 term. Apply through the TerraCorps member positions page.",
+    "start": "September 8, 2026 – July 30, 2027 (11-month term)",
+    "body": "An 11-month AmeriCorps placement running September 8, 2026 through July 30, 2027 with a New England land trust, covering land stewardship planning, land management, conservation mapping, and volunteer coordination. The host site is matched during the interview process, so placements can be steered toward specific ecological focus areas. Posted benefits are a $27,750 living allowance plus a $7,395 Segal AmeriCorps Education Award, health insurance, childcare assistance, and student loan forbearance.",
+    "desc": "The best-compensated service term found in this sweep, and the host-matching step is what makes it strategically useful — rather than accepting a generic placement, Erin can steer toward a wetland- or wildlife-focused trust where her delineation training and camera-trap monitoring become the differentiator. Conservation mapping is a named duty, so her GIS skills are used rather than idle. Her NCCC alumna status is a strong selection signal for TerraCorps, and land-trust stewardship experience reads well for both restoration-track grad programs and NGO career paths. Caveat: it is another service year rather than a career appointment or degree.",
+    "badge": "Strong fit",
+    "pills": [
+      "Land stewardship",
+      "Conservation mapping",
+      "Host-site matching",
+      "AmeriCorps",
+      "$27,750 + Segal",
+      "Health insurance"
+    ],
+    "metaLine": "11-month term Sep 2026–Jul 2027 · $27,750 + $7,395 Segal · MA & RI · apply by Aug 7, 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-07",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://terracorps.org/available-member-positions/",
+        "label": "🔗 TerraCorps — available positions"
+      },
+      {
+        "href": "https://terracorps.org/",
+        "label": "🔗 TerraCorps"
+      }
+    ],
+    "url": "https://terracorps.org/available-member-positions/",
+    "location": "Massachusetts and Rhode Island (40+ host land trusts; site matched during interview)",
+    "pay": "$27,750 living allowance over the 11-month term",
+    "stipend": "$27,750 AmeriCorps living allowance",
+    "benefits": "$7,395 Segal AmeriCorps Education Award; health insurance; childcare assistance; student loan forbearance",
+    "id": "item-162"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 18, 2026"
+    },
+    "title": "USGS Post-Bachelor's Fellowship — Avian Influenza & Immune Health of Wild Avifauna",
+    "org": "U.S. Geological Survey · Eastern Ecological Science Center · Laurel, MD",
+    "deadline": "Applications due August 28, 2026. Start date is approximately August 17, 2026 with flexibility — contact the program about timing.",
+    "start": "Approximately August 17, 2026 (flexible)",
+    "body": "A USGS post-bachelor's fellowship analyzing immune-health biomarkers in plasma from wild birds with known avian influenza exposure, with structured training in laboratory technique, statistics, and scientific writing including manuscript co-authorship. The position is explicitly designed for recent bachelor's-degree holders. Requirements include U.S. citizenship or lawful permanent residency and proof of health insurance. The posted stipend varies by education and experience and is not published as a fixed figure.",
+    "desc": "Purpose-built as a BS-to-grad-school bridge, and the manuscript co-authorship is the decisive feature — a publication is the single highest-leverage credential for a competitive MS or PhD application, and very few entry-level positions offer one. Erin's trace-metal sediment lab work demonstrates the analytical bench discipline the role requires, and the structured statistics and scientific writing training addresses the exact gaps between a BS résumé and a strong grad application. A USGS appointment at the Eastern Ecological Science Center also puts her directly inside the Department of the Interior network she is targeting for USFWS work. Caveats: the stipend is unpublished (confirm before committing), and the work is laboratory and immunology-focused rather than field or wetland ecology.",
+    "badge": "Strong fit",
+    "pills": [
+      "USGS federal experience",
+      "Lab & biomarker analysis",
+      "Manuscript co-authorship",
+      "Statistics training",
+      "Designed for recent BS grads",
+      "Grad-school bridge"
+    ],
+    "metaLine": "Post-bachelor's fellowship · stipend varies (unpublished) · Laurel MD · apply by Aug 28, 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-28",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-usgs-post-bachelors-fellowship-assessing-subclinical-impacts-of-infection-with-avian-influenza-on-the-immune-health-of-wild-avifauna-laurel-maryland/9696193021",
+        "label": "🔗 Conservation Job Board — listing"
+      },
+      {
+        "href": "https://www.usgs.gov/centers/eesc",
+        "label": "🔗 USGS Eastern Ecological Science Center"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-usgs-post-bachelors-fellowship-assessing-subclinical-impacts-of-infection-with-avian-influenza-on-the-immune-health-of-wild-avifauna-laurel-maryland/9696193021",
+    "location": "Laurel, MD (USGS Eastern Ecological Science Center)",
+    "pay": "Stipend varies by education and experience — amount not published; confirm with the program",
+    "stipend": "Post-bachelor's fellowship stipend (amount unpublished)",
+    "benefits": "Structured training in lab technique, statistics, and scientific writing; manuscript co-authorship. Proof of health insurance required (not provided).",
+    "id": "item-163"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 18, 2026"
+    },
+    "title": "Wetland Engineering Technician — Conservation Districts of Iowa",
+    "org": "Conservation Districts of Iowa · Charles City or Ankeny, IA",
+    "deadline": "Open until filled (listing posted through July 24, 2026). Apply through the Conservation Job Board posting.",
+    "start": "Rolling / as filled",
+    "body": "A permanent full-time position assisting in the design and implementation of wetland restoration and enhancement on private Iowa farmland through USDA conservation programs. The work includes coordinating with landowners, conducting field surveys, preparing project plans, and overseeing construction. The posting requires ArcGIS, CAD, and USDA Conservation Desktop proficiency and the ability to obtain USDA federal security clearance. Posted pay is $18.47 per hour with health insurance, a retirement plan, and paid time off. The stated bar is a bachelor's degree plus about one year of relevant experience.",
+    "desc": "Wetland restoration plus GIS in a single permanent job description is exactly Erin's Army Corps delineation training combined with her multi-criteria suitability work — few postings ask for both together. Her capstone and NCCC field time cover the roughly one-year experience bar. The strategic feature is the USDA federal security clearance: obtaining one seeds a federal record and working inside USDA conservation program delivery is the standard on-ramp to NRCS and USFWS positions, which is her stated goal. Honest caveat: at $18.47/hour the pay is well below the state-agency options on her list, so this is a credential-building and mission-fit choice rather than a compensation-driven one.",
+    "badge": "Top recommendation",
+    "pills": [
+      "Wetland restoration design",
+      "ArcGIS & CAD",
+      "USDA programs",
+      "Federal security clearance",
+      "Permanent + benefits",
+      "Landowner coordination"
+    ],
+    "metaLine": "Permanent · $18.47/hr + benefits · Charles City or Ankeny IA · open until filled",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-wetland-engineering-technician-charles-city-ankeny-iowa/1243871222",
+        "label": "🔗 Conservation Job Board — listing"
+      },
+      {
+        "href": "https://www.cdiowa.org/",
+        "label": "🔗 Conservation Districts of Iowa"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-wetland-engineering-technician-charles-city-ankeny-iowa/1243871222",
+    "location": "Charles City or Ankeny, IA",
+    "pay": "$18.47 per hour",
+    "stipend": "",
+    "benefits": "Health insurance, retirement plan, and paid time off (permanent full-time)",
+    "id": "item-164"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 18, 2026"
+    },
+    "title": "MN Farm Bill Wildlife Biologist I — Pheasants Forever / Quail Forever",
+    "org": "Pheasants Forever, Inc. and Quail Forever · Moorhead, MN (Clay, Norman, and Mahnomen Counties)",
+    "deadline": "Open until filled; application review begins August 7, 2026. Apply through the Conservation Job Board posting.",
+    "start": "September 2026",
+    "body": "A partner-biologist position promoting and delivering Farm Bill conservation programs such as CRP and EQIP to private landowners in northwestern Minnesota, writing conservation plans and conducting habitat assessments. The role is roughly 70% office and 30% field. The Level I rung explicitly requires only a bachelor's degree in wildlife management or natural resources, and the posting names ArcGIS proficiency and plant identification as core skills. Posted compensation is $45,000 per year at Level I, plus health, dental, and vision coverage, a 401(k) with 5% match, $200 per month in student loan assistance, 15 days of paid time off, and 13 paid holidays.",
+    "desc": "Farm Bill partner-biologist roles are one of the best-known stepping stones into USDA/NRCS and USFWS careers — the position is co-located with NRCS staff and builds exactly the private-lands conservation delivery experience federal panels value. Level I requires only a bachelor's, and ArcGIS plus plant ID are both skills Erin already has. The benefits package is unusually strong for an entry conservation job; the $200/month student loan assistance is rare in this field. Caveats: at 70% office it is considerably less field-heavy than her other options, and the work is programmatic and landowner-facing rather than research-oriented.",
+    "badge": "Strong fit",
+    "pills": [
+      "Farm Bill / CRP & EQIP",
+      "Habitat assessment",
+      "ArcGIS & plant ID",
+      "Private lands conservation",
+      "USDA pipeline",
+      "Loan assistance"
+    ],
+    "metaLine": "$45,000/yr + benefits & loan assistance · Moorhead MN · review begins Aug 7, 2026 · start Sep 2026",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-mn-farm-bill-wildlife-biologist-i-ii-or-iii-moorhead-minnesota/8810418050",
+        "label": "🔗 Conservation Job Board — listing"
+      },
+      {
+        "href": "https://www.pheasantsforever.org/",
+        "label": "🔗 Pheasants Forever"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-mn-farm-bill-wildlife-biologist-i-ii-or-iii-moorhead-minnesota/8810418050",
+    "location": "Moorhead, MN (Clay, Norman, and Mahnomen Counties)",
+    "pay": "$45,000 per year at Level I",
+    "stipend": "",
+    "benefits": "Health, dental, and vision; 401(k) with 5% match; $200/month student loan assistance; 15 days PTO; 13 paid holidays",
+    "id": "item-165"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 18, 2026"
+    },
+    "title": "Conservation Technician — Kanabec Soil & Water Conservation District",
+    "org": "Kanabec Soil and Water Conservation District · Mora, MN",
+    "deadline": "No posted closing date — treat as rolling and apply promptly. Apply through the Conservation Job Board posting.",
+    "start": "Rolling / as filled",
+    "body": "A permanent entry-level position working with landowners and partner organizations to implement conservation practices across soil health, water quality, forestry, wetlands, and habitat restoration in Kanabec County, Minnesota. The district emphasizes training, certifications, and mentorship to build technical expertise. The posting is listed as entry-level (0–1 years). Posted pay is $26.65–$32.64 per hour, with paid holidays, vacation and sick leave, PERA retirement, life insurance, and a health plan or taxable fringe benefit.",
+    "desc": "Explicitly entry-level and explicitly covering water quality and wetlands — Erin's two strongest interest areas — at the highest hourly rate among the non-federal entry-level roles found in this sweep. The district's stated emphasis on training, certifications, and mentorship is a genuine advantage for someone building credentials toward either grad school or a federal series, and PERA retirement plus full leave makes it a real career-track position rather than a seasonal stopgap. Caveat: it is a small rural district, so the role is broad and generalist rather than specialized, and Mora is a small-town posting.",
+    "badge": "Strong fit",
+    "pills": [
+      "Water quality",
+      "Wetlands",
+      "Soil health",
+      "Habitat restoration",
+      "Entry-level (0–1 yrs)",
+      "Training & certifications",
+      "PERA retirement"
+    ],
+    "metaLine": "Permanent entry-level · $26.65–$32.64/hr + benefits · Mora MN · rolling",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-conservation-technician-mora-minnesota/6272681446",
+        "label": "🔗 Conservation Job Board — listing"
+      },
+      {
+        "href": "https://www.kanabecswcd.org/",
+        "label": "🔗 Kanabec SWCD"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-conservation-technician-mora-minnesota/6272681446",
+    "location": "Mora, MN (Kanabec County)",
+    "pay": "$26.65–$32.64 per hour",
+    "stipend": "",
+    "benefits": "Paid holidays, vacation and sick leave; PERA retirement; life insurance; health plan or taxable fringe benefit",
+    "id": "item-166"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 18, 2026"
+    },
+    "title": "EPA Research Participation Program (ORISE) — Postgraduate Appointments (recurring source)",
+    "org": "U.S. Environmental Protection Agency · administered by the Oak Ridge Institute for Science and Education (ORISE) · EPA labs and regional offices nationwide",
+    "deadline": "Rolling — applications are accepted year-round and new opportunities post continuously. Individual postings carry their own closing dates and may close early once a strong applicant pool forms. Set up an alert on the ORISE opportunity catalog and check it monthly.",
+    "start": "Varies by appointment (one year, renewable up to five years total)",
+    "body": "This is a recurring SOURCE card rather than a single posting — ORISE administers EPA's research participation program and refreshes its catalog continuously, so the durable action is to monitor the catalog and apply to matching postings as they appear. Appointments place recent graduates on project-specific EPA research in water quality, wetlands and streams, ecological monitoring, and environmental data and GIS work. Postgraduate applicants qualify with a BS received within the last 60 months; U.S. citizenship is required, along with two recommendations. Appointments run one year and are renewable up to five years total, and all applications go through the Zintellect portal. Stipends are monthly and commensurate with education and experience, with a health insurance supplement; dollar amounts are stated on each individual posting. Recent EPA postings in this catalog have included Great Lakes ecosystem restoration fellowships and regional wetlands and streams reference-data work.",
+    "desc": "Worth treating as a standing monthly check rather than a one-time application. EPA's wetlands, streams, and water-quality condition assessment postings are a direct application of Erin's Army Corps delineation training and trace-metal sediment sampling, and the BS-within-60-months eligibility rule places her squarely in the target window — a window that closes in 2030, so this is best used early. ORISE appointments are among the cleanest on-ramps into federal science for someone without prior federal service. Note that her list already includes item-113, a specific ORISE wetland plant ecology fellowship; this card is the broader catalog behind it. Caveats: stipends vary by posting and are not published centrally, and appointments are training positions rather than federal employment, so they do not confer competitive status by themselves.",
+    "badge": "Strong fit",
+    "pills": [
+      "Recurring source — check monthly",
+      "EPA research",
+      "Wetlands & water quality",
+      "GIS & environmental data",
+      "BS within 60 months",
+      "Renewable up to 5 years"
+    ],
+    "metaLine": "Recurring source · rolling year-round · EPA labs nationwide · monthly stipend + health supplement",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "National / Remote / Multiple",
+    "links": [
+      {
+        "href": "https://orise.orau.gov/epa/current-research-opportunities.html",
+        "label": "🔗 ORISE EPA — current opportunities"
+      },
+      {
+        "href": "https://www.zintellect.com/",
+        "label": "🔗 Zintellect application portal"
+      }
+    ],
+    "url": "https://orise.orau.gov/epa/current-research-opportunities.html",
+    "location": "Multiple EPA labs and regional offices nationwide (e.g. Research Triangle Park NC, Cincinnati OH, Chicago IL, Corvallis OR, Narragansett RI)",
+    "pay": "Monthly stipend commensurate with education and experience — amount stated on each individual posting",
+    "stipend": "Monthly ORISE stipend (varies by posting)",
+    "benefits": "Health insurance supplement; appointments renewable up to five years total",
+    "id": "item-167"
   }
 ]
