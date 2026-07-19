@@ -13018,5 +13018,419 @@
     "stipend": "",
     "benefits": "Confirm benefit eligibility with Oregon State University",
     "id": "item-289"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "M.S. Fisheries Biology — Klamath post-dam-removal sediment research (advisor-first)",
+    "org": "Cal Poly Humboldt · Department of Fisheries Biology · Arcata, CA",
+    "deadline": "Contact first — funding negotiated with a prospective advisor",
+    "start": "Negotiable with the advisor",
+    "body": "Support in this program varies substantially by faculty member, and students may be accepted with or without assurance of stipend support, so funding is negotiated directly with a prospective advisor. Labs run coastal, estuarine and riverine monitoring work including Klamath-basin post-dam-removal research. Stipend amounts are not published at the program level.",
+    "desc": "The Klamath dam removals are the largest river restoration project in United States history, and the sediment dynamics research following them is close to a direct methodological match for Erin's Pigeon River capstone — both study how a disturbed river redistributes contaminated or mobilized sediment. That parallel gives her an unusually strong statement of purpose and a real basis for a first email to a lab. The serious caveat is the funding structure: this program explicitly admits students with or without stipend assurance, so she must secure a funding commitment in writing before accepting any offer. Never enroll on the hope that support materializes later.",
+    "badge": "Strong fit",
+    "pills": [
+      "Klamath post-dam-removal research",
+      "Near-identical to her capstone method",
+      "Terminal MS program",
+      "Coastal & riverine monitoring labs",
+      "Advisor-first — email labs now",
+      "⚠️ May admit without funding — get it in writing"
+    ],
+    "metaLine": "MS · funding negotiated per advisor · Arcata CA · contact first",
+    "cycle": "current",
+    "deadline_kind": "contact",
+    "deadline_date": "",
+    "region": "West Coast / Pacific",
+    "links": [
+      {
+        "href": "https://www.humboldt.edu/fisheries-biology/graduate-program",
+        "label": "🔗 Graduate program — Cal Poly Humboldt Fisheries Biology"
+      }
+    ],
+    "url": "https://www.humboldt.edu/fisheries-biology/graduate-program",
+    "location": "Arcata, CA (Klamath basin and north coast rivers)",
+    "pay": "",
+    "stipend": "Not published — varies by faculty member; secure a written funding commitment before accepting",
+    "benefits": "Confirm tuition remission and health insurance with the prospective advisor",
+    "id": "item-290"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "M.S. graduate assistantships — UAF Wildlife Biology, UH Mānoa NREM, and University of Idaho CNR",
+    "org": "University of Alaska Fairbanks · University of Hawaiʻi at Mānoa · University of Idaho",
+    "deadline": "Contact first — all three route funding through faculty advisors",
+    "start": "Negotiable with the advisor",
+    "body": "Three advisor-first master's pathways. The University of Alaska Fairbanks Department of Biology and Wildlife supports students through research assistantships including a limited number via the Alaska Cooperative Fish and Wildlife Research Unit and the Institute of Arctic Biology, plus teaching assistantships and fellowships; assistantships may include tuition, stipend, health insurance and fees, paid up to 20 hours per week while school is in session, and students are generally not admitted without a faculty advisor agreeing to mentor them. The University of Hawaiʻi at Mānoa NREM program covers sustainable management of tropical terrestrial and aquatic ecosystems including watershed management and ecological restoration; appointments carry a tuition waiver, and the department states funding is limited and often awarded well in advance of application deadlines. University of Idaho's College of Natural Resources offers research assistantships attached to funded projects across fish and wildlife sciences and environmental science, with no central posted list. Stipend amounts are unpublished at all three.",
+    "desc": "These three share a structure worth understanding: none post a funded MS slot publicly, all three route support through individual faculty, and all three effectively require an advisor to agree before admission. That means the actionable work is faculty emails, not applications. UAF is the strongest technical match — small-mammal trapping and camera-trap monitoring are core methods in its Arctic and boreal wildlife projects, and her NCCC field-conditions experience is a genuine asset there. UH Mānoa's note that funding is often awarded well in advance of deadlines makes a July inquiry unusually well-timed. Idaho's watershed and restoration projects align but its advertised slots skew PhD.",
+    "badge": "Good fit",
+    "pills": [
+      "Three advisor-first MS pathways",
+      "UAF: trapping & camera traps are core methods",
+      "UH Mānoa: watershed management, early awards",
+      "Idaho: watershed & restoration projects",
+      "Tuition waivers on all three",
+      "⚠️ Stipends unpublished; advisor required"
+    ],
+    "metaLine": "MS · tuition waiver, stipend unpublished · AK / HI / ID · contact first",
+    "cycle": "current",
+    "deadline_kind": "contact",
+    "deadline_date": "",
+    "region": "West Coast / Pacific",
+    "links": [
+      {
+        "href": "https://www.uaf.edu/bw/graduate/graduate-funding/index.php",
+        "label": "🔗 UAF Biology & Wildlife — graduate funding"
+      },
+      {
+        "href": "https://cms.ctahr.hawaii.edu/nrem/Graduate/NREM-GRAD-FUNDING",
+        "label": "🔗 UH Mānoa NREM — graduate funding"
+      },
+      {
+        "href": "https://www.uidaho.edu/cnr/grad-programs/cnr-graduate-funding-opportunities",
+        "label": "🔗 University of Idaho CNR — funding opportunities"
+      }
+    ],
+    "url": "https://www.uaf.edu/bw/graduate/graduate-funding/index.php",
+    "location": "Fairbanks, AK · Honolulu, HI · Moscow, ID",
+    "pay": "",
+    "stipend": "Not published at any of the three — confirm with the prospective advisor",
+    "benefits": "Assistantships may include tuition waiver, health insurance and fees; confirm per program",
+    "id": "item-291"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Engineering / Planning / Surveying Technician II — drainage & stormwater projects",
+    "org": "Kent Conservation District · Smyrna, DE",
+    "deadline": "Application deadline July 31, 2026",
+    "start": "Full-time",
+    "body": "A technician role supporting conservation district engineering, planning and survey work on drainage, stormwater and water-resource projects in Kent County, Delaware. The position involves field data collection and mapping support. It is listed on the National Association of Wetland Managers jobs board. Salary is not published on the listing.",
+    "desc": "Field survey and mapping duties line up with Erin's delineation and spatial-analysis skills at a technician entry point, and drainage and stormwater work is the applied hydrology side of watershed management — understanding how water actually moves through an engineered landscape is a practical complement to her ecological training. Kent Conservation District is also currently running several openings at once including the Environmental Habitat Specialist I already on her list, so a single conversation with the district could surface more than one opportunity. The salary is not published, which is the first thing to establish.",
+    "badge": "Good fit",
+    "pills": [
+      "Field survey & mapping support",
+      "Drainage & stormwater projects",
+      "Technician entry point",
+      "District has multiple openings",
+      "⚠️ Salary not published",
+      "Deadline Jul 31 2026"
+    ],
+    "metaLine": "Full-time · salary not published · Smyrna DE · deadline Jul 31 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://kentcd.org/jobs/engineering-planning-surveying-technician-ii-2/",
+        "label": "🔗 Full posting — Kent Conservation District"
+      },
+      {
+        "href": "https://kentcd.org/jobs/",
+        "label": "🔗 All Kent Conservation District openings"
+      }
+    ],
+    "url": "https://kentcd.org/jobs/engineering-planning-surveying-technician-ii-2/",
+    "location": "Smyrna, DE (Kent County)",
+    "pay": "Not published on the listing — confirm with Kent Conservation District",
+    "stipend": "",
+    "benefits": "Confirm benefits with Kent Conservation District",
+    "id": "item-292"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Environmental / Landscape Crew Member — Cape Cod ecological land management",
+    "org": "Crawford Land Management · Sandwich, MA",
+    "deadline": "Rolling — apply when posted",
+    "start": "Full-time field position",
+    "body": "A field crew position with a Cape Cod ecological land management firm. Work includes habitat restoration, vegetation management and invasive species control on conserved and coastal properties. This is a hands-on outdoor role with no advanced degree requirement. Posted pay is $24 to $30 per hour.",
+    "desc": "At $24 to $30 per hour this is an unusually strong rate for entry-level field work with no advanced degree requirement — it beats most technician positions on this list and several roles that ask for years of experience. Cape Cod's coastal properties include salt marsh, dune and kettle pond systems that Erin is trained to read, so the landscape rewards her wetland background even though the job title is generic. Ecological land management firms also tend to hire on demonstrated field competence and promote quickly. The tradeoff is that this is crew work rather than a science role, so it builds hours and regional contacts rather than technical specialization.",
+    "badge": "Good fit",
+    "pills": [
+      "$24–$30/hour — high for entry level",
+      "No advanced degree required",
+      "Habitat restoration",
+      "Coastal & conserved properties",
+      "Cape Cod wetland systems",
+      "⚠️ Crew work, not a science role"
+    ],
+    "metaLine": "Full-time · $24–$30/hr · Sandwich MA · rolling",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-environmentallandscape-crew-member-sandwich-massachusetts/6589792855",
+        "label": "🔗 Full posting — Conservation Job Board"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-environmentallandscape-crew-member-sandwich-massachusetts/6589792855",
+    "location": "Sandwich, MA (Cape Cod conserved and coastal properties)",
+    "pay": "$24–$30 per hour",
+    "stipend": "",
+    "benefits": "Confirm benefits with Crawford Land Management",
+    "id": "item-293"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Fish Culturist & Hatchery Technician — Southeast Alaska salmon production",
+    "org": "Northern Southeast Regional Aquaculture Association · Sitka, AK",
+    "deadline": "Fish Culturist deadline August 19, 2026; Technician rolling",
+    "start": "Year-round positions",
+    "body": "Two rungs of the same Southeast Alaska hatchery career ladder. The Fish Culturist is a year-round salaried position covering incubation, rearing, feeding, marking and water quality management for salmon production, posted at $53,317 to $65,165 per year with an August 19 deadline and housing considerations typical of remote Alaska hatcheries. The Fish Hatchery Technician is the entry-level rung assisting with salmon incubation, rearing, feeding and facility maintenance, posted at $17 to $21 per hour on a rolling basis.",
+    "desc": "The Fish Culturist role is the notable one: a year-round salaried position at $53,317 to $65,165 is far above the seasonal technician pay that dominates this field, and hatchery water quality management uses Erin's sampling and lab background directly rather than incidentally. Southeast Alaska salmon hatcheries are also substantial operations with real career ladders. If the Culturist grade proves too senior, the Technician posting is the no-experience-required entry to the same ladder at the same organization, so applying to both is sensible. Sitka is remote and island-bound, and hatchery work is demanding and schedule-driven year-round.",
+    "badge": "Strong fit",
+    "pills": [
+      "Culturist: $53,317–$65,165/yr salaried",
+      "Technician: $17–$21/hr entry rung",
+      "Year-round, not seasonal",
+      "Water quality management",
+      "Same ladder — apply to both",
+      "⚠️ Remote island posting"
+    ],
+    "metaLine": "Year-round · $53,317–$65,165/yr or $17–$21/hr · Sitka AK · deadline Aug 19 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-19",
+    "region": "West Coast / Pacific",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117562",
+        "label": "🔗 Fish Culturist ($53,317–$65,165/yr, deadline Aug 19)"
+      },
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-fish-hatchery-technician-sitka-alaska/3044043444",
+        "label": "🔗 Fish Hatchery Technician ($17–$21/hr, rolling)"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117562",
+    "location": "Sitka, AK (Southeast Alaska)",
+    "pay": "$53,317–$65,165 per year (Fish Culturist) · $17–$21 per hour (Hatchery Technician)",
+    "stipend": "",
+    "benefits": "Housing considerations typical of remote Alaska hatcheries — confirm with NSRAA",
+    "id": "item-294"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Marine Biologist — Alaska fisheries observer (training provided)",
+    "org": "A.I.S. Inc. · Sitka, AK",
+    "deadline": "Application deadline July 31, 2026",
+    "start": "Contract position, training provided",
+    "body": "A fisheries observer position collecting catch composition and biological data aboard commercial vessels in Alaska waters. This is a contractor position supporting federal fisheries monitoring, with training provided. Posted pay is $5,100 to $8,100 per month.",
+    "desc": "Observer programs routinely hire bachelor's graduates with no prior sea time and provide the training themselves, which makes this one of the more accessible high-paying entries anywhere on the list — $5,100 to $8,100 per month is exceptional for an entry-level position. The work supports federal fisheries monitoring, so it builds a federal-adjacent record. The honest picture: observer work means extended periods at sea on commercial fishing vessels, which is physically demanding, isolating, and a genuinely different life from shore-based field work. It is a well-known way to save money quickly early in a career, and many people do exactly one contract.",
+    "badge": "Good fit",
+    "pills": [
+      "$5,100–$8,100 per month",
+      "Training provided",
+      "No prior sea time required",
+      "Federal fisheries monitoring",
+      "Fast way to save early on",
+      "⚠️ Extended periods at sea"
+    ],
+    "metaLine": "Contract · $5,100–$8,100/month · Sitka AK · deadline Jul 31 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "West Coast / Pacific",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117513",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117513",
+    "location": "Sitka, AK (commercial vessels in Alaska waters)",
+    "pay": "$5,100–$8,100 per month",
+    "stipend": "",
+    "benefits": "Contractor position — confirm benefits, sea-day scheduling and training terms with A.I.S. Inc.",
+    "id": "item-295"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Invasive Species Field Associate I — GPS survey & control across Maui",
+    "org": "Maui Invasive Species Committee · University of Hawaiʻi RCUH · Paia, HI",
+    "deadline": "Rolling — apply when posted",
+    "start": "Full-time entry-grade position",
+    "body": "An entry-grade field position surveying for and controlling priority invasive plants and animals across Maui, including work in remote and steep terrain, GPS data collection and treatment records. The position is administered through the University of Hawaiʻi Research Corporation system. Posted pay is $3,400 per month.",
+    "desc": "Associate I is the explicit entry grade, and GPS survey data collection is a core duty Erin can already perform rather than something she would learn on the job. Hawaii's invasive species programs are among the most sophisticated in the world out of sheer necessity, so a year there produces genuine specialist knowledge in early detection and rapid response — a framework that transfers to any state. At $3,400 per month the pay is reasonable though Maui's cost of living is high. The terrain is steep and remote and the work is physically demanding, which her NCCC background prepares her for better than most applicants.",
+    "badge": "Strong fit",
+    "pills": [
+      "Explicit entry grade (Associate I)",
+      "GPS survey data collection",
+      "World-class invasive species program",
+      "Early detection & rapid response",
+      "$3,400 per month",
+      "⚠️ Steep, remote terrain"
+    ],
+    "metaLine": "Full-time · $3,400/month · Paia HI (Maui) · rolling",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "West Coast / Pacific",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-invasive-species-field-associate-i-paia-hawaii/3904113326",
+        "label": "🔗 Full posting — Conservation Job Board"
+      },
+      {
+        "href": "https://mauiinvasive.org/employment/",
+        "label": "🔗 Maui Invasive Species Committee"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-invasive-species-field-associate-i-paia-hawaii/3904113326",
+    "location": "Paia, HI (field sites across Maui)",
+    "pay": "$3,400 per month",
+    "stipend": "",
+    "benefits": "Administered through the University of Hawaiʻi RCUH system — confirm benefits with MISC",
+    "id": "item-296"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Seasonal Land Steward & Community Engagement Coordinator — northern New England land trusts",
+    "org": "Blue Hill Heritage Trust (Blue Hill, ME) · Upper Valley Land Trust (Hanover, NH)",
+    "deadline": "Blue Hill deadline August 9, 2026; Upper Valley rolling",
+    "start": "Varies by position",
+    "body": "Two northern New England land trust openings. The Blue Hill Heritage Trust Seasonal Land Steward handles land and conservation easement management including trail design and maintenance, building sustainable trail infrastructure, conducting natural resource inventories, and assisting contractors; the posting explicitly accepts interest and willingness to learn in place of prior experience, and pays $20.50 per hour with an August 9 deadline. The Upper Valley Land Trust Community Engagement Coordinator recruits and engages volunteers and manages community impact programs, with secondary responsibilities monitoring conservation easements, managing properties and trails, and delivering outdoor programs, at $47,840 to $52,000 annually and open until filled.",
+    "desc": "Land trusts are an underrated entry route because conservation easement monitoring is steady, year-round work that uses mapping and field assessment skills, and the organizations are small enough that a capable new hire quickly does everything. Blue Hill's posting is notable for explicitly accepting willingness to learn instead of experience, and natural resource inventory work suits Erin's field survey background. Upper Valley's coordinator role pays a real salary of $47,840 to $52,000 and includes genuine easement monitoring and property stewardship duties, which distinguishes it from the organization's other openings that carry a three-year bar. The Upper Valley role is more outreach-weighted.",
+    "badge": "Good fit",
+    "pills": [
+      "Blue Hill: $20.50/hr, no experience needed",
+      "Upper Valley: $47,840–$52,000 salaried",
+      "Conservation easement monitoring",
+      "Natural resource inventories",
+      "Land trusts — quick responsibility",
+      "Two northern New England options"
+    ],
+    "metaLine": "Land trust roles · $20.50/hr or $47,840–$52,000/yr · Blue Hill ME & Hanover NH · deadline Aug 9 / rolling",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-09",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://www.mltn.org/job/seasonal-land-steward-14/",
+        "label": "🔗 Blue Hill Heritage Trust — Seasonal Land Steward ($20.50/hr)"
+      },
+      {
+        "href": "https://uvlt.org/jobs-internships/",
+        "label": "🔗 Upper Valley Land Trust — Community Engagement Coordinator"
+      }
+    ],
+    "url": "https://www.mltn.org/job/seasonal-land-steward-14/",
+    "location": "Blue Hill, ME and Hanover, NH",
+    "pay": "$20.50 per hour (Blue Hill) · $47,840–$52,000 annually, $23–$25 per hour (Upper Valley)",
+    "stipend": "",
+    "benefits": "Confirm benefits with each land trust",
+    "id": "item-297"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Appalachian Mountain Club & Green Mountain Club — fall backcountry crews and naturalist roles",
+    "org": "Appalachian Mountain Club (NH & MA) · Green Mountain Club (VT)",
+    "deadline": "Green Mountain Club deadline August 1, 2026; AMC roles rolling",
+    "start": "August–October 2026 seasons",
+    "body": "Fall backcountry positions across northern New England. The Green Mountain Club Trail Technician runs August 3 to October 9, 2026 on Vermont’s Long Trail, repairing heavily damaged trail sections with technical stone construction including staircases, bridges and waterbars, camping on site Monday through Thursday, at $650 to $700 per week plus housing, free Wilderness First Aid certification, 403b matching and gear discounts, with an August 1 deadline. Appalachian Mountain Club roles include the Southern New England Trail Crew and White Mountain Trail Crew at $15 to $20 per hour with optional housing and food at $75 per week, the Southern New England RidgeRunner at $16.25 per hour living on the Appalachian Trail in ten-day shifts, and the Fall Backcountry Hut Naturalist at $11.75 per hour plus tips with room and board provided, which collects plant phenology data twice weekly supporting AMC climate change research.",
+    "desc": "Green Mountain Club is the strongest of this group on compensation: $650 to $700 per week plus housing and a free Wilderness First Aid certification is well above the AMC hourly rates, and no prior trail experience is required. Of the AMC roles, the Backcountry Hut Naturalist is the most scientifically relevant despite the lowest hourly rate — it explicitly seeks a natural or environmental sciences degree and involves recurring plant phenology data collection for a long-term climate research dataset, with room and board covered so the low wage is largely offset. The RidgeRunner role also includes environmental monitoring data reporting. These are best treated as fall bridge terms.",
+    "badge": "Good fit",
+    "pills": [
+      "Green Mountain Club $650–$700/wk + housing",
+      "Free Wilderness First Aid certification",
+      "Hut Naturalist: phenology data for climate research",
+      "Room and board on several roles",
+      "No prior experience required",
+      "Fall bridge terms Aug–Oct 2026"
+    ],
+    "metaLine": "Fall seasons · $650–$700/wk (GMC) or $11.75–$20/hr (AMC) · VT/NH/MA · deadline Aug 1 / rolling",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-01",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-trail-technician-waterbury-center-vermont/9269788680",
+        "label": "🔗 Green Mountain Club Trail Technician ($650–$700/wk, deadline Aug 1)"
+      },
+      {
+        "href": "https://www.paycomonline.net/v4/ats/web.php/portal/BBCC05572F3551CD7692FCADEA3B8414/jobs/276878",
+        "label": "🔗 AMC Fall Backcountry Hut Naturalist (phenology data)"
+      },
+      {
+        "href": "https://www.paycomonline.net/v4/ats/web.php/portal/BBCC05572F3551CD7692FCADEA3B8414/jobs/260096",
+        "label": "🔗 AMC Fall White Mountain Trail Crew"
+      },
+      {
+        "href": "https://www.paycomonline.net/v4/ats/web.php/portal/BBCC05572F3551CD7692FCADEA3B8414/jobs/275097",
+        "label": "🔗 AMC Southern New England RidgeRunner"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-trail-technician-waterbury-center-vermont/9269788680",
+    "location": "Waterbury Center, VT · Gorham, NH · Russell and South Egremont, MA",
+    "pay": "$15.00–$20.00 per hour (AMC crews) · $16.25 per hour (RidgeRunner) · $11.75 per hour plus tips (Hut Naturalist)",
+    "stipend": "$650–$700 per week (Green Mountain Club Trail Technician)",
+    "benefits": "GMC: housing, free Wilderness First Aid certification, 403b matching, gear discounts. AMC: optional housing and food seven days a week at $75/week; room and board provided for the Hut Naturalist",
+    "id": "item-298"
   }
 ]
