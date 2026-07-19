@@ -10624,5 +10624,281 @@
     "stipend": "No blanket figure published — assistantships attached to individual faculty grants; confirm with the advisor",
     "benefits": "Confirm tuition remission and health insurance with the program coordinator",
     "id": "item-238"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Environmental Specialist I — wetland permitting (Certified Wetland Evaluator track)",
+    "org": "Florida Department of Environmental Protection · Southeast District · West Palm Beach, FL",
+    "deadline": "Application deadline July 30, 2026",
+    "start": "Full-time career service position",
+    "body": "An entry-level regulatory position processing Environmental Resource Permit applications and conducting compliance inspections at regulated facilities. The role includes technical assistance to the regulated community, support for enforcement actions, and database documentation. It requires field inspection capability and obtaining Certified Wetland Evaluator certification within nine months of hire. Posted salary is $47,350.08 annually.",
+    "desc": "The Certified Wetland Evaluator certification is what makes this posting stand out — the state pays for Erin to formalize the wetland delineation skill she already has into a recognized credential, which raises her market value permanently and travels with her to any future employer. Environmental Resource Permit review also teaches her how wetland science gets used in regulatory decisions, which is the piece most field technicians never see. At $47,350 with full state career service benefits this pays better than nearly every technician role on her list. The work is regulatory and inspection-based rather than research, so she should want the compliance side of the field.",
+    "badge": "Top recommendation",
+    "pills": [
+      "Certified Wetland Evaluator certification",
+      "Environmental Resource Permit review",
+      "$47,350.08/year",
+      "Full state career service",
+      "Compliance inspections",
+      "Entry-level Specialist I"
+    ],
+    "metaLine": "Career service · $47,350.08/yr · West Palm Beach FL · deadline Jul 30 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-30",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://jobs.myflorida.com/job/WEST-PALM-BEACH-ENVIRONMENTAL-SPECIALIST-I-37020711-FL-33406/1410187300/",
+        "label": "🔗 Full posting — Florida state jobs"
+      },
+      {
+        "href": "https://floridadep.gov/jobs",
+        "label": "🔗 Florida DEP careers"
+      }
+    ],
+    "url": "https://jobs.myflorida.com/job/WEST-PALM-BEACH-ENVIRONMENTAL-SPECIALIST-I-37020711-FL-33406/1410187300/",
+    "location": "West Palm Beach, FL (DEP Southeast District)",
+    "pay": "$47,350.08 annually",
+    "stipend": "",
+    "benefits": "Florida career service position — full state benefits including health and retirement",
+    "id": "item-239"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Environmental Specialist I — nutrient chemistry for watershed restoration",
+    "org": "Florida DEP · Division of Environmental Assessment & Restoration · Chemistry Program, Nutrients Section · Tallahassee, FL",
+    "deadline": "Application deadline July 22, 2026",
+    "start": "Full-time career service position",
+    "body": "A laboratory position preparing and analyzing environmental samples for nutrients, inorganic anions and related compounds in support of statewide water quality assessment and restoration. Responsibilities include running analytical tests, maintaining instrumentation, and analyzing data to regulatory standards. Records management is largely independent with team collaboration. A bachelor’s degree substitutes fully for the experience requirement. Posted salary is $3,602.50 monthly.",
+    "desc": "Nutrient analysis in direct support of watershed restoration sits squarely in Erin's stated interest area, and the analytical chemistry side would formalize the sample-handling and lab work she did for her trace-metal capstone into professional laboratory credentials. Running instrumentation to regulatory standards is a rigorous, transferable skill — environmental labs everywhere need people who can do it and document it defensibly. A bachelor's degree substituting fully for experience means she qualifies cleanly. The tradeoff is that this is bench work rather than field work, so it trades her outdoor time for technical depth. Deadline is imminent.",
+    "badge": "Strong fit",
+    "pills": [
+      "Nutrient & anion analysis",
+      "Supports watershed restoration",
+      "BS substitutes for experience",
+      "$3,602.50/month",
+      "Regulatory-standard lab work",
+      "⚠️ Bench work, not field"
+    ],
+    "metaLine": "Career service · $3,602.50/mo · Tallahassee FL · deadline Jul 22 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-22",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://jobs.myflorida.com/job/TALLAHASSEE-ENVIRONMENTAL-SPECIALIST-I-37010108-FL-32399/1406738600/",
+        "label": "🔗 Full posting — Florida state jobs"
+      },
+      {
+        "href": "https://floridadep.gov/jobs",
+        "label": "🔗 Florida DEP careers"
+      }
+    ],
+    "url": "https://jobs.myflorida.com/job/TALLAHASSEE-ENVIRONMENTAL-SPECIALIST-I-37010108-FL-32399/1406738600/",
+    "location": "Tallahassee, FL (Chemistry Program laboratory)",
+    "pay": "$3,602.50 monthly",
+    "stipend": "",
+    "benefits": "Florida career service position — full state benefits including health and retirement",
+    "id": "item-240"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Environmental Specialist I — aquatic toxicology laboratory",
+    "org": "Florida DEP · Division of Environmental Assessment & Restoration · Biology Program, Toxicology Laboratory · Tallahassee, FL",
+    "deadline": "Application deadline July 31, 2026",
+    "start": "Full-time career service position",
+    "body": "An entry-level laboratory scientist position conducting aquatic toxicity bioassays using algae, invertebrate and vertebrate test organisms to assess pollutants in Florida waters. Duties include Algal Growth Potential testing, compliance testing for state and federal regulations, sample collection and transport, and laboratory quality assurance and control. The role also involves data analysis, interpretation and report writing. Posted salary is $3,602.50 monthly.",
+    "desc": "Aquatic toxicity testing is the logical professional extension of Erin's capstone — she measured contaminant concentrations in Pigeon River sediments, and this work measures what those contaminants actually do to living organisms. That progression from concentration to effect is a genuinely compelling story for graduate applications and for any contaminants-focused career. The bioassay and QA/QC skills are specialized enough to be scarce, which is good for her leverage. It also includes sample collection and transport, so it is not purely bench-bound. Data analysis and report writing round out a position that would develop her technical writing alongside her lab skills.",
+    "badge": "Strong fit",
+    "pills": [
+      "Aquatic toxicity bioassays",
+      "Direct extension of her capstone",
+      "Sample collection & transport",
+      "Lab QA/QC",
+      "Data analysis & report writing",
+      "$3,602.50/month"
+    ],
+    "metaLine": "Career service · $3,602.50/mo · Tallahassee FL · deadline Jul 31 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://jobs.myflorida.com/job/TALLAHASSEE-ENVIRONMENTAL-SPECIALIST-I-37020844-FL-32399/1410195300/",
+        "label": "🔗 Full posting — Florida state jobs"
+      },
+      {
+        "href": "https://floridadep.gov/jobs",
+        "label": "🔗 Florida DEP careers"
+      }
+    ],
+    "url": "https://jobs.myflorida.com/job/TALLAHASSEE-ENVIRONMENTAL-SPECIALIST-I-37020844-FL-32399/1410195300/",
+    "location": "Tallahassee, FL (Toxicology Laboratory)",
+    "pay": "$3,602.50 monthly",
+    "stipend": "",
+    "benefits": "Florida career service position — full state benefits including health and retirement",
+    "id": "item-241"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Environmental Scientist 1 — entry-level state science role (upper East Tennessee)",
+    "org": "Tennessee Department of Environment and Conservation · Washington County, TN",
+    "deadline": "Application deadline July 22, 2026",
+    "start": "Full-time state position",
+    "body": "An entry-level TDEC scientist position in the Scientists and Foresters job family, based in Washington County in upper East Tennessee. The Environmental Scientist 1 class performs professional environmental, natural resources and science-related program work of routine difficulty under immediate supervision, typically including field inspections, sample collection, data analysis and technical documentation. The class minimum qualification is a bachelor's degree in environmental science, physical sciences, ecology, sustainability or life sciences. Salary was not published on the live posting and should be confirmed with TDEC.",
+    "desc": "This is a true entry-level state science position in the southern Appalachians — the region Erin knows best and lives closest to — where her Environmental Science bachelor's alone meets the full qualification with nothing else required. Washington County is in the Tri-Cities area, an easy move from western North Carolina, which matters if she would rather not relocate across the country for a first job. The class description covers field inspections, sample collection and data analysis, all of which she can already do. The salary is the notable gap: it was not published on the live posting, so that is the first thing to confirm. The deadline is imminent.",
+    "badge": "Strong fit",
+    "pills": [
+      "BS alone meets full qualification",
+      "Entry-level state science class",
+      "Field inspections & sample collection",
+      "Upper East Tennessee — near home",
+      "⚠️ Salary not published",
+      "⚠️ Deadline Jul 22"
+    ],
+    "metaLine": "Full-time state · salary not published · Washington County TN · deadline Jul 22 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-22",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://careers.edison.tn.gov/psc/hrprdrs/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&Page=HRS_APP_JBPST_FL&SiteId=1&JobOpeningId=79108&PostingSeq=1",
+        "label": "🔗 Full posting — TN careers (opens in a browser)"
+      },
+      {
+        "href": "https://www.tn.gov/environment/about-tdec/careers.html",
+        "label": "🔗 TDEC careers"
+      }
+    ],
+    "url": "https://careers.edison.tn.gov/psc/hrprdrs/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&Page=HRS_APP_JBPST_FL&SiteId=1&JobOpeningId=79108&PostingSeq=1",
+    "location": "Washington County, TN (upper East Tennessee / Tri-Cities)",
+    "pay": "Salary not published on the live posting — confirm with TDEC",
+    "stipend": "",
+    "benefits": "Tennessee state position — full state benefits; confirm details with TDEC",
+    "id": "item-242"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "AFO Inspector — water quality compliance in the Shenandoah watershed",
+    "org": "Virginia Department of Environmental Quality · Valley Regional Office · Harrisonburg, VA",
+    "deadline": "Application deadline July 31, 2026",
+    "start": "Full-time, hybrid office and telework",
+    "body": "An inspector position ensuring animal feeding operations comply with Virginia water quality laws and permits. Duties include scheduled and unscheduled compliance inspections, issuing general permits for animal feeding and poultry operations, maintaining the CEDS permitting database, investigating complaints, and documenting non-compliance with recommendations for corrective action. The schedule is hybrid in-office and telework. The role requires Virginia Certified Nutrient Management Planner certification or eligibility within six months. Posted salary is $60,000 to $85,000.",
+    "desc": "The salary here is the headline: $60,000 to $85,000 is far above anything else at this experience level on Erin's list, and the posting states no degree above a BS and no multi-year experience requirement. Agricultural runoff is one of the largest nonpoint sources of water quality impairment in the country, so this is substantive watershed protection work in the Shenandoah Valley, and the Nutrient Management Planner certification is another paid credential she would carry forward. The honest caveat is that inspection and enforcement is a different daily experience from field science — it involves visiting operations, documenting violations, and sometimes difficult conversations with operators.",
+    "badge": "Top recommendation",
+    "pills": [
+      "$60,000–$85,000/year",
+      "No experience requirement stated",
+      "Nutrient Management Planner certification",
+      "Shenandoah watershed protection",
+      "Hybrid schedule",
+      "⚠️ Inspection & enforcement work"
+    ],
+    "metaLine": "Full-time · $60,000–$85,000/yr · Harrisonburg VA · deadline Jul 31 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://www.jobs.virginia.gov/jobs/vro-p4149-afo-inspector-harrisonburg-virginia-united-states",
+        "label": "🔗 Full posting — Virginia jobs"
+      },
+      {
+        "href": "https://www.deq.virginia.gov/our-agency/careers",
+        "label": "🔗 Virginia DEQ careers"
+      }
+    ],
+    "url": "https://www.jobs.virginia.gov/jobs/vro-p4149-afo-inspector-harrisonburg-virginia-united-states",
+    "location": "Harrisonburg, VA (Valley Regional Office; Shenandoah Valley operations)",
+    "pay": "$60,000–$85,000 per year",
+    "stipend": "",
+    "benefits": "Commonwealth of Virginia position — full state benefits; hybrid office and telework schedule",
+    "id": "item-243"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Florida Conservation Corps — AmeriCorps Non-native Plant Terminators (25 state parks)",
+    "org": "Florida Department of Environmental Protection · AmeriCorps · statewide FL",
+    "deadline": "Application deadline August 7, 2026",
+    "start": "September 1, 2026 through July 31, 2027",
+    "body": "An AmeriCorps term of service focused on habitat restoration through invasive exotic plant management across roughly 25 Florida state parks. Members remove non-native vegetation using varied techniques, lead volunteer recruitment, deliver visitor outreach, maintain trails, and may participate in prescribed fire activities. Service is 1,700 hours from September 1, 2026 through July 31, 2027, with in-person orientation in October 2026. Service sites include Tallahassee, Alachua, Crystal River, Jacksonville and Sarasota. Published compensation is a $2,200.00 monthly living allowance.",
+    "desc": "At $2,200 per month this is one of the better-paid state AmeriCorps programs, and as an NCCC alumna Erin already knows the service model well enough to focus entirely on the technical content. Invasive exotic plant management is a serious discipline in Florida — the state spends more on it than almost anywhere else — so a year of it produces genuine specialist knowledge rather than generic crew experience. The possible prescribed fire participation is a valuable add, since burn experience opens doors at agencies for years. Working across 25 parks also means exposure to a wide range of Florida ecosystems, from springs to coastal scrub.",
+    "badge": "Good fit",
+    "pills": [
+      "$2,200/month living allowance",
+      "1,700-hour full-year term",
+      "Invasive plant specialization",
+      "Possible prescribed fire",
+      "~25 Florida state parks",
+      "NCCC background fits"
+    ],
+    "metaLine": "11 months · $2,200/month · statewide FL · deadline Aug 7 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-07",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://jobs.myflorida.com/job/TALLAHASSEE-Florida-Conservation-Corps-%28FLCC%29-AmeriCorps-Non-native-Plant-Terminators-%28A_N_T_%29-FL-32308/1406468000/",
+        "label": "🔗 Full posting — Florida state jobs"
+      },
+      {
+        "href": "https://www.floridastateparks.org/get-involved/florida-conservation-corps",
+        "label": "🔗 Florida Conservation Corps"
+      }
+    ],
+    "url": "https://jobs.myflorida.com/job/TALLAHASSEE-Florida-Conservation-Corps-%28FLCC%29-AmeriCorps-Non-native-Plant-Terminators-%28A_N_T_%29-FL-32308/1406468000/",
+    "location": "Statewide FL — service sites include Tallahassee, Alachua, Crystal River, Jacksonville and Sarasota (approx. 25 state parks)",
+    "pay": "",
+    "stipend": "$2,200.00 monthly living allowance",
+    "benefits": "AmeriCorps term — confirm Segal Education Award amount with the Florida Conservation Corps",
+    "id": "item-244"
   }
 ]
