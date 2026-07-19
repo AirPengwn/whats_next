@@ -9805,5 +9805,276 @@
     "stipend": "",
     "benefits": "Temporary refuge appointment — confirm housing availability and benefit eligibility with the refuge",
     "id": "item-220"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Clean Water Grant Manager — stream & wetland restoration projects",
+    "org": "Lamoille County Natural Resources Conservation District · Morrisville, VT",
+    "deadline": "Rolling — apply when posted",
+    "start": "Full-time",
+    "body": "A position managing clean water grant projects for a Vermont conservation district, including stream and wetland restoration work funded through state clean water programs. The role combines project administration with field oversight. Posted pay is $23 to $26 per hour. The manager title suggests an experience threshold that is not stated in the listing, so it should be verified before applying.",
+    "desc": "Small conservation districts are where a generalist with wetland and GIS skills is the expected profile rather than an odd fit, and Vermont's Clean Water Act funding has made stream and wetland restoration a genuinely active field there. Managing grant projects would give Erin the funding and administration side of restoration — how the money is won, tracked and reported — which is the piece most field technicians never learn and which becomes the bottleneck on promotion later. The word manager in the title is the thing to check: the pay band reads entry-adjacent but the responsibility framing may imply a couple of years, so a quick call before applying is worthwhile.",
+    "badge": "Good fit",
+    "pills": [
+      "$23–$26/hour",
+      "Stream & wetland restoration",
+      "Grant management experience",
+      "Vermont Clean Water funding",
+      "Small district breadth",
+      "⚠️ Verify experience threshold"
+    ],
+    "metaLine": "Full-time · $23–$26/hr · Morrisville VT · rolling",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-clean-water-grant-manager-morrisville-vermont/4921647387",
+        "label": "🔗 Full posting — Conservation Job Board"
+      },
+      {
+        "href": "https://www.lcnrcd.com/",
+        "label": "🔗 Lamoille County NRCD"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-clean-water-grant-manager-morrisville-vermont/4921647387",
+    "location": "Morrisville, VT (Lamoille County watersheds)",
+    "pay": "$23–$26 per hour",
+    "stipend": "",
+    "benefits": "Confirm benefits with Lamoille County Natural Resources Conservation District",
+    "id": "item-221"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Restoration, Invasive Species & Forestry Technician — northern New England",
+    "org": "Redstart · Corinth, VT",
+    "deadline": "Rolling — apply when posted",
+    "start": "Full-time field position",
+    "body": "A field technician position with a Vermont ecological restoration and forestry consulting firm. Work covers invasive species control, restoration plantings and forestry field support across northern New England. The listing is an entry-level field position with pay of $16 to $18 per hour depending on experience.",
+    "desc": "This is straightforward paid field technician work at a private restoration firm, which is one of the common and underrated entry routes into Northeast consulting — small firms hire on demonstrated field competence rather than credentials, and they tend to give new technicians real responsibility quickly. Invasive species control and restoration plantings extend Erin's ecological skills into applied vegetation management. The pay is the lowest of the Northeast career positions on this list, so it competes poorly against the consulting and district roles on compensation; its argument is accessibility and a low barrier to getting hired.",
+    "badge": "Good fit",
+    "pills": [
+      "Entry-level field position",
+      "Invasive species control",
+      "Restoration plantings",
+      "Forestry field support",
+      "$16–$18/hour",
+      "Small-firm entry route"
+    ],
+    "metaLine": "Full-time · $16–$18/hr · Corinth VT · rolling",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-restoration-invasive-species-and-forestry-technician-corinth-vermont/1713322448",
+        "label": "🔗 Full posting — Conservation Job Board"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-restoration-invasive-species-and-forestry-technician-corinth-vermont/1713322448",
+    "location": "Corinth, VT (project sites across northern New England)",
+    "pay": "$16–$18 per hour, depending on experience",
+    "stipend": "",
+    "benefits": "Confirm benefits with Redstart",
+    "id": "item-222"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Urban Forestry Fellowship — tree inventory & green infrastructure",
+    "org": "Student Conservation Association · Reading, PA",
+    "deadline": "Rolling — apply when posted",
+    "start": "Term fellowship",
+    "body": "An SCA fellowship supporting urban forestry and green infrastructure work in Reading, Pennsylvania. The role includes tree inventory, community engagement and urban natural resource management. It is structured as a term fellowship for early-career candidates. Posted pay is $20 per hour.",
+    "desc": "SCA fellowships are built for recent bachelor's graduates, and Erin's GIS inventory skills transfer straight to urban tree canopy assessment — inventory work is spatial data collection, which is squarely what she does. At $20 per hour this pays meaningfully better than most corps and fellowship positions on the list, which matters when weighing it against a $600 per week crew term. Urban forestry and green infrastructure is also a growing field with municipal and federal funding behind it. The content is a step away from her wetland and wildlife core, so its value is a paid fellowship credential plus applied GIS practice rather than deepening her existing specialty.",
+    "badge": "Good fit",
+    "pills": [
+      "$20/hour",
+      "SCA fellowship credential",
+      "Tree inventory = applied GIS",
+      "Green infrastructure",
+      "Built for recent BS grads",
+      "Community engagement"
+    ],
+    "metaLine": "Fellowship · $20/hr · Reading PA · rolling",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-urban-forestry-fellowship-reading-pennsylvania/4393903232",
+        "label": "🔗 Full posting — Conservation Job Board"
+      },
+      {
+        "href": "https://thesca.org/",
+        "label": "🔗 Student Conservation Association"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-urban-forestry-fellowship-reading-pennsylvania/4393903232",
+    "location": "Reading, PA (urban forestry and green infrastructure sites)",
+    "pay": "$20 per hour",
+    "stipend": "",
+    "benefits": "SCA term fellowship — confirm housing and benefit details with SCA",
+    "id": "item-223"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Waterbird Migration Counter — Avalon Seawatch fall migration",
+    "org": "New Jersey Audubon · Cape May Bird Observatory · Avalon, NJ",
+    "deadline": "Application deadline August 1, 2026",
+    "start": "Fall migration season",
+    "body": "A seasonal contract position conducting the Avalon Seawatch waterbird migration count for Cape May Bird Observatory. The work involves daily systematic counts, data entry and public interpretation during fall migration. The Avalon Seawatch is one of the longest-running seabird counts in North America. Posted compensation is up to $13,134.00 for the contract period.",
+    "desc": "Standardized long-term monitoring is a distinctive line on a resume — the Avalon Seawatch is a recognized dataset, and having run a season of it signals that Erin can execute a rigorous protocol consistently over months, which is precisely what research and agency employers screen for. It builds on her structured wildlife survey experience while adding avian identification, a skill gap that closes off a surprising number of wildlife jobs when missing. The obvious caveat is that seawatch counting demands strong bird identification ability up front, so she should assess honestly whether she can meet that bar or whether the position expects it to be learned. Deadline is close.",
+    "badge": "Good fit",
+    "pills": [
+      "Up to $13,134 for the season",
+      "Long-running dataset",
+      "Systematic daily counts",
+      "Builds avian ID skills",
+      "Public interpretation",
+      "⚠️ Requires bird ID ability"
+    ],
+    "metaLine": "Seasonal contract · up to $13,134 · Avalon NJ · deadline Aug 1 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-01",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-waterbird-migration-counter-avalon-new-jersey/1152159170",
+        "label": "🔗 Full posting — Conservation Job Board"
+      },
+      {
+        "href": "https://njaudubon.org/about-us/careers/",
+        "label": "🔗 New Jersey Audubon — careers"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-waterbird-migration-counter-avalon-new-jersey/1152159170",
+    "location": "Avalon, NJ (Avalon Seawatch, Cape May County)",
+    "pay": "Up to $13,134.00 for the contract period",
+    "stipend": "",
+    "benefits": "Seasonal contract — confirm housing availability with Cape May Bird Observatory",
+    "id": "item-224"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Conservation Coordinator AmeriCorps Member — district watershed & habitat programs",
+    "org": "Indiana County Conservation District · Indiana, PA",
+    "deadline": "Rolling — apply when posted",
+    "start": "AmeriCorps service term",
+    "body": "An AmeriCorps service term coordinating conservation outreach and field projects for a Pennsylvania conservation district. Compensation is a living stipend plus a Segal Education Award; no dollar figures are published on the listing. The position provides direct exposure to district watershed and habitat programs.",
+    "desc": "As an NCCC alumna Erin would step into this with no ramp-up on the service model itself, letting her focus entirely on the conservation content. The real appeal is placement inside a conservation district — the same organization that posts the salaried Conservation Program Specialist role also on this list — which makes this a plausible foot in the door if the specialist position goes to someone more experienced. Western Pennsylvania watershed work connects to her contaminated-stream capstone. The living allowance is not published anywhere on the listing, so the financial terms are a genuine unknown that needs asking about early.",
+    "badge": "Good fit",
+    "pills": [
+      "NCCC background = no ramp-up",
+      "District watershed programs",
+      "Foot in the door at the district",
+      "Conservation outreach",
+      "⚠️ Stipend not published"
+    ],
+    "metaLine": "AmeriCorps term · stipend not published · Indiana PA · rolling",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-conservation-coordinator-americorps-member-indiana-pennsylvania/9698915094",
+        "label": "🔗 Full posting — Conservation Job Board"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-conservation-coordinator-americorps-member-indiana-pennsylvania/9698915094",
+    "location": "Indiana, PA (western Pennsylvania watersheds)",
+    "pay": "",
+    "stipend": "AmeriCorps living allowance — no figure published on the listing; confirm with the district",
+    "benefits": "Segal AmeriCorps Education Award on term completion — confirm amount with the district",
+    "id": "item-225"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Helene Recovery Trail & Vegetation Crews — western North Carolina",
+    "org": "Conservation Corps North Carolina · Conservation Legacy · Old Fort, NC",
+    "deadline": "Rolling — terms run September 15 to November 18, 2026",
+    "start": "September 15 through November 18, 2026",
+    "body": "Fall 2026 crew terms running September 15 through November 18, 2026, restoring storm-damaged trails and public lands infrastructure in western North Carolina following Hurricane Helene, and addressing post-Helene vegetation recovery, invasive establishment and slope and riparian stabilization. Conservation Corps North Carolina does not publish pay on its listing pages, unlike its sibling corps in Virginia and Tennessee which post $600 per week; the rate should be confirmed with the program.",
+    "desc": "This is the most personally resonant opportunity on the list. Erin's capstone studied lead and trace-metal contamination in the Pigeon River after Hurricane Helene, and these crews are doing the physical recovery work in the same storm-affected western North Carolina landscape — riparian and slope stabilization is the applied counterpart to the contamination assessment she already did. That connection would make an unusually strong cover letter and an unusually coherent story for graduate applications later. It is crew labor rather than technical work, and Conservation Corps North Carolina does not publish its rate, so the compensation question needs asking directly.",
+    "badge": "Strong fit",
+    "pills": [
+      "Post-Helene recovery work",
+      "Riparian & slope stabilization",
+      "Ties directly to her capstone",
+      "Western NC — home region",
+      "Sept 15–Nov 18 2026",
+      "⚠️ Pay not published by CCNC"
+    ],
+    "metaLine": "Crew terms · pay not published · Old Fort NC · Sept 15–Nov 18 2026",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://secure.entertimeonline.com/ta/conservationlegacy.careers?ShowJob=721996803",
+        "label": "🔗 Helene Recovery Trail Crew — full posting"
+      },
+      {
+        "href": "https://secure.entertimeonline.com/ta/conservationlegacy.careers?ShowJob=721997511",
+        "label": "🔗 Helene Recovery Vegetation Crew — full posting"
+      },
+      {
+        "href": "https://conservationcorpsnc.org/",
+        "label": "🔗 Conservation Corps North Carolina"
+      }
+    ],
+    "url": "https://secure.entertimeonline.com/ta/conservationlegacy.careers?ShowJob=721996803",
+    "location": "Old Fort, NC (Hurricane Helene-affected public lands, western North Carolina)",
+    "pay": "",
+    "stipend": "Not published on the CCNC listing pages — sibling corps pay $600 per week; confirm with the program",
+    "benefits": "AmeriCorps term — confirm Segal Education Award amount with Conservation Corps North Carolina",
+    "id": "item-226"
   }
 ]
