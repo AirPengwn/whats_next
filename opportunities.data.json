@@ -9529,5 +9529,281 @@
     "stipend": "",
     "benefits": "Permanent conservation district position — confirm benefits with North Central Conservation District",
     "id": "item-214"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Biological Scientist (Environmental) — Air Force PALACE Acquire recent-graduate program",
+    "org": "U.S. Air Force · Department of the Air Force · 58 bases nationwide",
+    "deadline": "Application deadline September 28, 2026",
+    "start": "Permanent federal career appointment",
+    "body": "A Force Renewal / PALACE Acquire developmental program that recruits recent graduates into permanent Air Force civilian environmental science careers, with structured training and rotational developmental assignments. The announcement was confirmed through the USAJOBS API to carry hiring paths of graduates, student and public, which distinguishes it from the resume-bank placeholder announcements that dominate this job series. Applicants choose from 58 base locations across states including AK, AZ, AR, CA and CO, and must submit transcripts to qualify on education. Posted salary is $49,960 to $99,314 per year at the GS-7 to GS-9 level.",
+    "desc": "This is the strongest genuine federal opening surfaced this week, and it is worth understanding why it is rare: most postings in this job series are resume-bank placeholders or internal merit-promotion announcements that a recent graduate cannot actually win. This one is explicitly built for recent graduates, is permanent rather than seasonal, and starts at GS-7 to GS-9 with a real salary. Permanent federal status is the single most valuable thing on this list for someone aiming at USFWS or USDA later, because it converts every future federal application from an outside bid into an internal one. The location choice across 58 bases fits her willingness to relocate. Transcripts are required, and her 3.731 helps here.",
+    "badge": "Top recommendation",
+    "pills": [
+      "Permanent federal career",
+      "Built for recent graduates",
+      "GS-7 to GS-9",
+      "$49,960–$99,314/yr",
+      "58 base locations",
+      "Verified genuine, not a resume bank"
+    ],
+    "metaLine": "Permanent federal · $49,960–$99,314/yr · 58 US bases · deadline Sep 28 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-28",
+    "region": "National / Remote / Multiple",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/846774300",
+        "label": "🔗 Full announcement — USAJOBS"
+      },
+      {
+        "href": "https://afciviliancareers.com/",
+        "label": "🔗 Air Force Civilian Careers"
+      }
+    ],
+    "url": "https://www.usajobs.gov/job/846774300",
+    "location": "58 Air Force bases nationwide (AK, AZ, AR, CA, CO and more) — applicant selects preferred locations",
+    "pay": "$49,960–$99,314 per year (GS-7 to GS-9)",
+    "stipend": "",
+    "benefits": "Permanent federal appointment — full federal benefits including health, retirement and leave",
+    "id": "item-215"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Funded PhD Teaching Assistantship — Bat Ecology (Fritts Lab)",
+    "org": "Texas State University · Department of Biology · San Marcos, TX",
+    "deadline": "Application deadline August 5, 2026",
+    "start": "Fall 2026 or negotiable with the advisor",
+    "body": "A funded doctoral teaching assistantship in bat ecology under Dr. Sarah Fritts, carrying a stipend of $31,615 per year with tuition waived for three years. Application is by direct contact with the advisor rather than through a central portal. The position is based in the Department of Biology at Texas State University in San Marcos.",
+    "desc": "Bat field methods — capture, handling, acoustic and camera monitoring — overlap directly with Erin's small-mammal trapping and camera-trap experience, so she would arrive with transferable technique rather than starting from zero. The funding package is unusually clear and generous for an advertised assistantship: $31,615 with three years of tuition waived is a real offer rather than a vague promise of support, and central Texas has a low cost of living against that stipend. The significant caveat is that this is a direct-to-PhD commitment rather than an MS, which is a five-to-six-year decision, and bat ecology is a genuine departure from her wetland and water quality core. Contacting Dr. Fritts is the required first step and also the best way to judge fit.",
+    "badge": "Good fit",
+    "pills": [
+      "$31,615/year stipend",
+      "Tuition waived 3 years",
+      "Direct-to-PhD track",
+      "Field methods overlap",
+      "Contact the advisor directly",
+      "⚠️ Pivot from wetlands/water"
+    ],
+    "metaLine": "PhD · $31,615/yr + tuition waiver · San Marcos TX · deadline Aug 5 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-05",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://www.bio.txst.edu/",
+        "label": "🔗 Texas State — Department of Biology"
+      },
+      {
+        "href": "https://www.bio.txst.edu/about/faculty-staff.html",
+        "label": "🔗 Faculty directory — contact Dr. Sarah Fritts"
+      }
+    ],
+    "url": "https://www.bio.txst.edu/",
+    "location": "San Marcos, TX (central Texas Hill Country field sites)",
+    "pay": "",
+    "stipend": "$31,615 per year",
+    "benefits": "Tuition waived for three years; confirm health insurance and summer support with the advisor",
+    "id": "item-216"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Seasonal Natural Areas Field Technician & Educator — urban salt marsh & freshwater wetland",
+    "org": "Randall's Island Park Alliance · New York, NY",
+    "deadline": "Contact first — no dated deadline posted on the board",
+    "start": "Seasonal",
+    "body": "A seasonal technician position managing restored natural areas including salt marsh, freshwater wetland and meadow habitats on Randall's Island in New York City. The role combines hands-on habitat restoration and monitoring fieldwork with public education duties, and involves outdoor work in all types of weather. Neither salary nor a dated deadline appeared in the board listing, so both should be confirmed with the organization.",
+    "desc": "Managing restored salt marsh and freshwater wetland exercises Erin's delineation and monitoring skills in a system type she has not worked in, and urban restoration is a growing specialty with more funding behind it each year — knowing how restored urban wetlands actually perform is a marketable and somewhat uncommon thing to have done. The education component pairs naturally with her AmeriCorps outreach experience. The practical unknowns are salary and timeline, neither of which the listing publishes, and New York City living costs would need a serious look against whatever the seasonal rate turns out to be.",
+    "badge": "Good fit",
+    "pills": [
+      "Salt marsh & freshwater wetland",
+      "Restoration monitoring",
+      "Urban restoration specialty",
+      "Education component",
+      "⚠️ Salary and deadline unpublished",
+      "⚠️ NYC cost of living"
+    ],
+    "metaLine": "Seasonal · salary not published · New York NY · contact first",
+    "cycle": "current",
+    "deadline_kind": "contact",
+    "deadline_date": "",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117441",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      },
+      {
+        "href": "https://randallsisland.org/about/careers/",
+        "label": "🔗 Randall's Island Park Alliance — careers"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117441",
+    "location": "Randall's Island, New York, NY (restored salt marsh, freshwater wetland and meadow)",
+    "pay": "Salary not published on the listing — confirm with the organization",
+    "stipend": "",
+    "benefits": "Seasonal position — confirm benefit eligibility with the Park Alliance",
+    "id": "item-217"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Restoration Designer — native habitat restoration on Cape Cod",
+    "org": "Wilkinson Ecological Design · Orleans, MA",
+    "deadline": "Contact first — no dated deadline posted on the board",
+    "start": "Full-time",
+    "body": "An ecological restoration design role on Cape Cod with a firm specializing in native habitat restoration and coastal landscapes. Work involves site assessment, planting design and restoration project implementation. The listing is posted separately from the firm's senior-level designer opening, indicating it is the junior rung. Salary is not published on the listing.",
+    "desc": "Designing restoration rather than only implementing or monitoring it is a meaningful step up in responsibility, and it is unusual to find that opening at a junior level — the firm has posted this separately from its senior designer role, which signals they expect to train someone. Cape Cod's coastal dune, salt marsh and kettle pond systems are excellent wetland country and would broaden Erin considerably beyond southern Appalachian streams. Wilkinson has a strong regional reputation in native plant restoration. Salary is unpublished and Cape Cod housing is expensive and seasonal, so compensation is the question to lead with.",
+    "badge": "Strong fit",
+    "pills": [
+      "Restoration design, not just implementation",
+      "Site assessment",
+      "Native habitat specialty",
+      "Coastal Cape Cod systems",
+      "Junior rung of the series",
+      "⚠️ Salary unpublished"
+    ],
+    "metaLine": "Full-time · salary not published · Orleans MA · contact first",
+    "cycle": "current",
+    "deadline_kind": "contact",
+    "deadline_date": "",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=116815",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      },
+      {
+        "href": "https://www.wilkinsonecological.com/careers",
+        "label": "🔗 Wilkinson Ecological Design — careers"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=116815",
+    "location": "Orleans, MA (Cape Cod coastal and native habitat projects)",
+    "pay": "Salary not published on the listing — confirm with the firm",
+    "stipend": "",
+    "benefits": "Full-time position — confirm benefits with Wilkinson Ecological Design",
+    "id": "item-218"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Aquatic / Terrestrial Ecologist — open application (firm invites unsolicited resumes)",
+    "org": "Princeton Hydro, LLC · Ringoes, NJ and regional Northeast offices",
+    "deadline": "Contact first — open application, no posted deadline",
+    "start": "Negotiable",
+    "body": "Princeton Hydro accepts open applications from terrestrial and aquatic ecologists and natural resource professionals even when no matching position is publicly posted. The firm specializes in lake and watershed management, wetland restoration and ecological engineering across New Jersey, Pennsylvania and New York. Resumes and cover letters are directed to resume@princetonhydro.com. No salary figures are published for open applications.",
+    "desc": "This is the highest-leverage cold outreach target on the list, and it is a different kind of entry than the others: a firm that publicly invites unsolicited resumes is telling candidates that a well-aimed letter will actually be read, which is rarely true elsewhere. Princeton Hydro's specialties — lake and watershed management, wetland restoration, ecological engineering — line up almost exactly with Erin's wetland delineation and sediment sampling profile, so a tailored letter naming her Pigeon River trace-metal capstone would land in the right hands. Because there is no posted vacancy there is also no deadline pressure and no competition from a public applicant pool. Worth writing carefully rather than sending a generic resume.",
+    "badge": "Strong fit",
+    "pills": [
+      "Firm invites open applications",
+      "Lake & watershed management",
+      "Wetland restoration",
+      "Ecological engineering",
+      "No posted vacancy, no competition",
+      "Email resume@princetonhydro.com"
+    ],
+    "metaLine": "Open application · no salary published · NJ / PA / NY · contact first",
+    "cycle": "current",
+    "deadline_kind": "contact",
+    "deadline_date": "",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://www.princetonhydro.com/our-firm/careers/",
+        "label": "🔗 Princeton Hydro — careers & open application"
+      },
+      {
+        "href": "https://www.princetonhydro.com/services/",
+        "label": "🔗 Princeton Hydro — services (tailor the letter to these)"
+      }
+    ],
+    "url": "https://www.princetonhydro.com/our-firm/careers/",
+    "location": "Ringoes, NJ headquarters plus regional offices across NJ, PA and NY",
+    "pay": "No salary published for open applications — negotiate if a role opens",
+    "stipend": "",
+    "benefits": "Confirm benefits if an opening materializes from the open application",
+    "id": "item-219"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Hunting Control Station Manager — Patuxent Research Refuge (paid federal refuge position)",
+    "org": "Patuxent Research Refuge · U.S. Fish & Wildlife Service · Laurel, MD",
+    "deadline": "Contact first — position runs August 2026 through February 2027",
+    "start": "August 2026 through February 2027",
+    "body": "A temporary undergraduate or graduate-level position running the hunter check station at Patuxent Research Refuge from August 2026 through February 2027. Duties include hunter registration, biological data collection from harvested deer, and refuge program support. The listing is designated an undergraduate/graduate opportunity. Posted compensation is $400 per week.",
+    "desc": "The value here is the employer rather than the duties: Patuxent is a flagship USFWS research refuge, and a season working inside it puts Erin on the ground with Fish and Wildlife Service staff, which is exactly the network that matters if federal work is the goal. Biological data collection from harvested deer is also a legitimate wildlife skill — check station work is how population and health data actually get gathered. The rate is modest at $400 per week and the term runs through winter, so this is a resume-and-network position rather than a financially comfortable one. The undergraduate/graduate designation means her BS qualifies her as posted.",
+    "badge": "Good fit",
+    "pills": [
+      "USFWS flagship refuge",
+      "$400/week published",
+      "Biological data collection",
+      "Aug 2026–Feb 2027",
+      "Open at undergrad/grad level",
+      "Builds USFWS network"
+    ],
+    "metaLine": "Temporary · $400/week · Laurel MD · Aug 2026–Feb 2027",
+    "cycle": "current",
+    "deadline_kind": "contact",
+    "deadline_date": "",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=116720",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      },
+      {
+        "href": "https://www.fws.gov/refuge/patuxent-research",
+        "label": "🔗 Patuxent Research Refuge"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=116720",
+    "location": "Laurel, MD (Patuxent Research Refuge)",
+    "pay": "$400 per week",
+    "stipend": "",
+    "benefits": "Temporary refuge appointment — confirm housing availability and benefit eligibility with the refuge",
+    "id": "item-220"
   }
 ]
