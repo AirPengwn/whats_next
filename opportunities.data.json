@@ -6336,5 +6336,238 @@
     "pay": "Research/teaching assistantship stipend (amount set by advisor's funding — confirm)",
     "stipend": "Assistantship stipend varies by advisor/grant (not published on the program page)",
     "benefits": "Assistantships typically include a tuition remission and health plan — confirm specifics with the prospective advisor"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 18, 2026"
+    },
+    "title": "Habitat Restoration Fellow — Bitter Lake National Wildlife Refuge (ACE EPIC / USFWS)",
+    "org": "American Conservation Experience — EPIC · in partnership with the U.S. Fish and Wildlife Service · Bitter Lake NWR, Roswell, NM",
+    "deadline": "Rolling — applications reviewed as received; the posted start date is August 31, 2026, so apply well before then. Apply through the ACE applicant portal.",
+    "start": "August 31, 2026 (52-week term)",
+    "body": "A 52-week ACE EPIC fellowship at Bitter Lake National Wildlife Refuge, a 24,563-acre refuge in the Pecos River watershed that is among the most biologically significant wetland complexes in the Southwest. Roughly 75% of the work is native seed collection, propagation, and monitoring of restoration outcomes, together with invasive species removal. The remaining time covers fish, waterbird, and threatened-and-endangered species surveys plus monitoring of wetland water levels and flows. The position carries Public Land Corps (PLC) hiring-authority eligibility, which grants non-competitive federal hiring status after the required hours are served. The posted living allowance is $600 per week.",
+    "desc": "This is the strongest single Southwest match on the board right now because it stacks three of Erin's core areas into one term: wetland systems, watershed hydrology, and ecological restoration. Monitoring wetland water levels and flows in the Pecos River watershed is a direct analogue to her Pigeon River watershed capstone, and the T&E and waterbird survey work builds on her camera-trap and field-monitoring experience. The decisive feature is the PLC non-competitive hiring authority — it is the cleanest documented path from a BS into the permanent USFWS positions she is targeting, and it stacks with her AmeriCorps NCCC alumna status. Caveat: it is a term fellowship, not a career appointment, and Roswell is a remote posting.",
+    "badge": "Strong fit",
+    "pills": [
+      "Wetland restoration",
+      "Pecos River watershed",
+      "Native seed collection",
+      "T&E surveys",
+      "USFWS",
+      "PLC hiring authority",
+      "BS-eligible"
+    ],
+    "metaLine": "52-week fellowship · $600/week · Bitter Lake NWR, Roswell NM · start Aug 31, 2026 · PLC eligible",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://usaconservation.applicantpool.com/jobs/1314490",
+        "label": "🔗 ACE EPIC — apply"
+      },
+      {
+        "href": "https://www.fws.gov/refuge/bitter-lake",
+        "label": "🔗 Bitter Lake NWR"
+      }
+    ],
+    "url": "https://usaconservation.applicantpool.com/jobs/1314490",
+    "location": "Roswell, NM (Bitter Lake National Wildlife Refuge)",
+    "pay": "$600 per week living allowance",
+    "stipend": "$600/week living allowance (52-week term)",
+    "benefits": "Public Land Corps non-competitive federal hiring authority after required hours; USFWS field training and agency mentorship",
+    "id": "item-145"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 18, 2026"
+    },
+    "title": "Vegetation Monitoring Botany Assistant — NPS Sonoran Desert Network I&M (AmeriCorps)",
+    "org": "Conservation Legacy — Stewards Individual Placements · host: National Park Service, Sonoran Desert Inventory & Monitoring Network · Tucson, AZ",
+    "deadline": "Applications due July 27, 2026. Apply through the Conservation Legacy careers portal (search the position by title if the direct link has rotated).",
+    "start": "52-week, 1700-hour AmeriCorps term",
+    "body": "A 52-week, 1700-hour AmeriCorps individual placement revisiting permanent upland and riparian vegetation monitoring plots across roughly six National Park units in southern Arizona. Core duties include plant identification, soil stability and biological soil crust data collection, greenline riparian surveys, GPS-tablet mapping of non-native plants, and data QA/QC. Additional protocols the member may support include wildlife camera work, springs water-quality sampling, and macroinvertebrate collection. The posted benefit package is a $600 per week living allowance plus a $270 per week additional pre-tax benefit, and a $7,395 Segal AmeriCorps Education Award on completion. The stated education bar is three years of progress toward a bachelor's degree.",
+    "desc": "An unusually broad skills match: greenline riparian surveys, soil description, GPS/GIS mapping, camera work, and springs water-quality sampling together cover nearly everything on Erin's field résumé in a single term. The NPS Inventory & Monitoring networks run nationally standardized protocols, which reads well on both a federal application and a grad-school CV, and a second AmeriCorps term adds another Segal award toward tuition. As an NCCC alumna she already knows the service model. Caveats: the deadline is close, and the position is monitoring-focused rather than a research or career track.",
+    "badge": "Strong fit",
+    "pills": [
+      "Riparian monitoring",
+      "Vegetation & soils",
+      "GPS/GIS mapping",
+      "Springs water quality",
+      "NPS I&M",
+      "AmeriCorps",
+      "Segal award"
+    ],
+    "metaLine": "52-week AmeriCorps · $600/wk + $270/wk benefit + $7,395 Segal · Tucson AZ · apply by Jul 27, 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-27",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://stewardslegacy.org/open-positions",
+        "label": "🔗 Stewards — open positions"
+      },
+      {
+        "href": "https://www.nps.gov/im/sodn/index.htm",
+        "label": "🔗 NPS Sonoran Desert Network I&M"
+      }
+    ],
+    "url": "https://stewardslegacy.org/open-positions",
+    "location": "Tucson, AZ (approx. six NPS units across southern Arizona)",
+    "pay": "$600/week living allowance + $270/week additional pre-tax benefit",
+    "stipend": "$600/week living allowance (1700-hour, 52-week term)",
+    "benefits": "$7,395 Segal AmeriCorps Education Award on completion; NPS I&M protocol training",
+    "id": "item-146"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 18, 2026"
+    },
+    "title": "GIS & Data Management Support Member — USFWS Data Management Support Office (ACE EPIC)",
+    "org": "American Conservation Experience — EPIC · in partnership with the U.S. Fish and Wildlife Service Data Management Support Office · remote (US-based), supporting National Wildlife Refuges including Southwest Region 2",
+    "deadline": "Rolling — reviewed as received, with a flexible August 2026 start. Apply through the ACE applicant portal.",
+    "start": "Flexible, approximately August 2026 (23-week minimum term)",
+    "body": "A remote, 23-week-minimum ACE EPIC placement building GIS and data-management tooling that tracks invasive species across the National Wildlife Refuge System. The work spans ArcGIS Pro and ArcGIS Online, Field Maps and Survey123, Experience Builder dashboards, the Power Platform, and scripting in Arcade, Python, and R with version control in Git. The position includes ESRI virtual training and a $200 home-office equipment reimbursement. The posted living allowance is $720 per week.",
+    "desc": "The strongest pure GIS skill-builder currently open anywhere on the list, and it is remote — so it costs Erin no relocation while she pursues other applications. It takes her existing ArcGIS multi-criteria suitability work and extends it into the modern Esri web stack (Field Maps, Survey123, dashboards) plus scripting in Python and R, which is exactly the technical gap between her current résumé and a GS-0401 GIS-heavy federal role. It also puts USFWS institutional experience on her record, which is her stated federal target. Caveat: it is desk-based rather than field work, so it complements rather than replaces a field season.",
+    "badge": "Strong fit",
+    "pills": [
+      "GIS",
+      "ArcGIS Pro & Online",
+      "Survey123 / Field Maps",
+      "Python & R",
+      "Remote",
+      "USFWS",
+      "ESRI training"
+    ],
+    "metaLine": "23-week minimum · $720/week · remote (US) · flexible Aug 2026 start · USFWS DMSO",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://usaconservation.applicantpool.com/jobs/1315905",
+        "label": "🔗 ACE EPIC — apply"
+      },
+      {
+        "href": "https://www.fws.gov/",
+        "label": "🔗 U.S. Fish & Wildlife Service"
+      }
+    ],
+    "url": "https://usaconservation.applicantpool.com/jobs/1315905",
+    "location": "Remote (US-based); supports National Wildlife Refuges including Southwest Region 2",
+    "pay": "$720 per week living allowance",
+    "stipend": "$720/week living allowance (23-week minimum term)",
+    "benefits": "ESRI virtual training; $200 home-office equipment reimbursement",
+    "id": "item-147"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 18, 2026"
+    },
+    "title": "Environmental Technician 1–3 — Arizona Department of Environmental Quality",
+    "org": "Arizona Department of Environmental Quality (ADEQ) · Phoenix, AZ",
+    "deadline": "Open until filled — rolling. Apply through the Arizona state jobs portal.",
+    "start": "Rolling / as filled",
+    "body": "A full-time ADEQ ambient monitoring role that is roughly 50% field time: collecting environmental samples, calibrating and troubleshooting monitoring instruments, and performing data verification under EPA Quality Assurance Handbook procedures and agency Quality Assurance Project Plans. The posting is open until filled and offers remote flexibility of up to two days per week. It is advertised across three levels, with Level 1 written for a bachelor's-degree holder with no prior experience: Level 1 $40,000–$45,000, Level 2 $45,000–$55,000, Level 3 $55,000–$60,000.",
+    "desc": "A permanent, salaried, benefited state environmental position with an explicit zero-experience entry rung — a genuinely rare combination for a 2025 graduate. Erin's trace-metal sediment sampling gives her precisely the sample-collection, chain-of-custody, and QA/QC discipline the Environmental Technician 1 duties describe, and working to EPA QA Handbook and QAPP standards is directly transferable credentialing for later federal work. It is monitoring and compliance rather than ecology, so it is a career-foundation option rather than a wildlife-track one — but it pays a real salary and builds regulatory experience her field-heavy résumé currently lacks.",
+    "badge": "Good fit",
+    "pills": [
+      "Water & air monitoring",
+      "Field sampling",
+      "EPA QA/QC",
+      "State agency",
+      "Permanent + benefits",
+      "Entry-level (Level 1)"
+    ],
+    "metaLine": "Permanent state position · Level 1 $40k–$45k · Phoenix AZ · open until filled · up to 2 remote days/wk",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://www.azstatejobs.gov/jobs/environmental-technician-1-3-phoenix-arizona-united-states",
+        "label": "🔗 Arizona state jobs — apply"
+      },
+      {
+        "href": "https://azdeq.gov/",
+        "label": "🔗 ADEQ"
+      }
+    ],
+    "url": "https://www.azstatejobs.gov/jobs/environmental-technician-1-3-phoenix-arizona-united-states",
+    "location": "Phoenix, AZ (approx. 50% field time; up to 2 remote days/week)",
+    "pay": "Level 1 $40,000–$45,000; Level 2 $45,000–$55,000; Level 3 $55,000–$60,000 annually",
+    "stipend": "",
+    "benefits": "Full Arizona state employee benefits; remote flexibility up to two days per week",
+    "id": "item-148"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 18, 2026"
+    },
+    "title": "New Mexico State University — M.S. Water Science & Management, Watersheds and Aquatic/Riparian Wetlands concentration",
+    "org": "New Mexico State University · Water Science & Management program · Las Cruces, NM",
+    "deadline": "Contact-first — assistantships are awarded by the academic department rather than the Graduate School, so the required first step is emailing faculty in the Water Science & Management program about assistantship availability, then applying through the NMSU graduate portal. No single fixed program deadline is published.",
+    "start": "Fall (next available cohort — confirm with the department)",
+    "body": "A 32–33 credit interdisciplinary thesis M.S. built around watershed methods, water resource economics, and statistical analysis, with 12 credits of concentration electives in aquatic and riparian wetland management. Because assistantships are awarded at the department level rather than centrally, funding must be arranged directly with a prospective faculty advisor — the program page does not advertise a blanket funded offer. Beginning Fall 2026, NMSU graduate assistants receive full-time tuition coverage. A BS is sufficient to apply for the M.S.",
+    "desc": "Curricularly this is one of the closest matches in the Southwest to what Erin actually wants to study — watersheds plus aquatic and riparian wetland management, at a state flagship with an established riparian research program, in an arid-Southwest setting that would broaden her Appalachian field experience considerably. The tuition-coverage policy for assistantships is a real financial advantage. The honest caveat is that funding is advisor-dependent and not published, so this is a contact-first lead rather than a funded offer: she should email prospective advisors to confirm an assistantship exists before investing in an application.",
+    "badge": "Good fit",
+    "pills": [
+      "Watershed science",
+      "Riparian & aquatic wetlands",
+      "Thesis M.S.",
+      "BS-eligible",
+      "Tuition covered for GAs",
+      "Contact-first"
+    ],
+    "metaLine": "Thesis M.S. · assistantship + full tuition coverage (advisor-dependent) · Las Cruces NM · contact-first",
+    "cycle": "current",
+    "deadline_kind": "contact-first",
+    "deadline_date": "",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://catalogs.nmsu.edu/nmsu/graduate-school/water-science-management-watersheds-aquatic-riparian-wetlands-master-science/",
+        "label": "🔗 NMSU — program catalog"
+      },
+      {
+        "href": "https://gradschool.nmsu.edu/",
+        "label": "🔗 NMSU Graduate School"
+      }
+    ],
+    "url": "https://catalogs.nmsu.edu/nmsu/graduate-school/water-science-management-watersheds-aquatic-riparian-wetlands-master-science/",
+    "location": "Las Cruces, NM",
+    "pay": "Graduate assistantship stipend — amount not published; confirm with the department",
+    "stipend": "Departmental assistantship (amount unpublished — confirm with prospective advisor)",
+    "benefits": "Full-time tuition coverage for graduate assistants beginning Fall 2026",
+    "id": "item-149"
   }
 ]
