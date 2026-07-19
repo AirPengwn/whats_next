@@ -6569,5 +6569,280 @@
     "stipend": "Departmental assistantship (amount unpublished — confirm with prospective advisor)",
     "benefits": "Full-time tuition coverage for graduate assistants beginning Fall 2026",
     "id": "item-149"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 18, 2026"
+    },
+    "title": "NW Cascades Project Coordinator — Trout Unlimited",
+    "org": "Trout Unlimited · Central/South Puget Sound, WA (remote base with heavy field work on the Mt. Baker-Snoqualmie National Forest)",
+    "deadline": "Rolling — applications reviewed as received. Apply through the Trout Unlimited careers portal.",
+    "start": "Term position through December 31, 2026 (renewable)",
+    "body": "A term position running through December 31, 2026 with renewal potential, co-leading field data collection, quality assurance, analysis, and reporting for a landscape-scale Low-tech Process-based Restoration (LTPBR) assessment on the Mt. Baker-Snoqualmie National Forest. The coordinator drafts field sampling protocols, data sheets, and databases, and supports restoration site selection and preliminary design work. The role also represents Trout Unlimited at WRIA 9 and WRIA 10/12 salmon recovery planning meetings. Posted pay is $24.00–$26.00 per hour. The stated bar is a bachelor's degree plus about one year of relevant experience.",
+    "desc": "The closest single match on the West Coast to Erin's combined profile: watershed-scale restoration assessment, protocol and database design, and ArcGIS analysis are the three pillars of the job and the three strongest items on her résumé. Writing field sampling protocols is a meaningful step up from executing someone else's — it is the kind of responsibility that distinguishes a grad-school or federal application. Her AmeriCorps NCCC term covers the one-year experience bar. Caveats: it is a term appointment rather than permanent, and the salmon-recovery policy meetings are a new skill area for her.",
+    "badge": "Strong fit",
+    "pills": [
+      "Watershed restoration",
+      "LTPBR assessment",
+      "Protocol & database design",
+      "ArcGIS",
+      "Salmon recovery",
+      "NGO"
+    ],
+    "metaLine": "Term through Dec 31, 2026 (renewable) · $24–$26/hr · Puget Sound WA · rolling",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "West Coast / Pacific",
+    "links": [
+      {
+        "href": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4303517",
+        "label": "🔗 Trout Unlimited — apply"
+      },
+      {
+        "href": "https://www.tu.org/",
+        "label": "🔗 Trout Unlimited"
+      }
+    ],
+    "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4303517",
+    "location": "Central/South Puget Sound, WA (remote base; field work on Mt. Baker-Snoqualmie NF)",
+    "pay": "$24.00–$26.00 per hour",
+    "stipend": "",
+    "benefits": "Trout Unlimited employee benefits (confirm specifics with the hiring contact)",
+    "id": "item-150"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 18, 2026"
+    },
+    "title": "Environmental Scientist — Invasive Mussel Program (Limited Term), CA Dept. of Fish & Wildlife",
+    "org": "California Department of Fish and Wildlife · Invasive Mussel Program · Sacramento, CA",
+    "deadline": "Applications due July 27, 2026. Apply through the CalCareers portal.",
+    "start": "Limited-term appointment (confirm dates with the hiring unit)",
+    "body": "A limited-term Environmental Scientist position with CDFW's Invasive Mussel Program. Under close supervision the scientist conducts environmental DNA (eDNA), veliger, and adult dreissenid mussel monitoring following established protocols, collects water quality samples, and maintains chain-of-custody records. The role also includes inspecting and quarantining potentially infested watercraft and conducting public outreach. The posted salary range is $4,418–$9,321 per month. The 'under close supervision' framing and protocol-driven duties mark this as a genuine new-graduate Environmental Scientist hire rather than a senior role.",
+    "desc": "Chain-of-custody water sampling and protocol-driven field monitoring map almost one-to-one onto Erin's trace-metal sediment sampling training — the sample handling and QA discipline transfer directly, only the target analyte changes. California's Environmental Scientist classification is a well-known entry point into state environmental service with a real salary and benefits, and eDNA is a genuinely marketable new technique to add. Caveats: it is limited-term rather than permanent, the deadline is close, and the watercraft inspection component is more enforcement-flavored than ecological.",
+    "badge": "Strong fit",
+    "pills": [
+      "Water quality sampling",
+      "eDNA",
+      "Chain of custody",
+      "Invasive species",
+      "State agency",
+      "Entry-level classification"
+    ],
+    "metaLine": "Limited term · $4,418–$9,321/month · Sacramento CA · apply by Jul 27, 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-27",
+    "region": "West Coast / Pacific",
+    "links": [
+      {
+        "href": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=524628",
+        "label": "🔗 CalCareers — apply"
+      },
+      {
+        "href": "https://wildlife.ca.gov/Conservation/Invasives/Quagga-Mussels",
+        "label": "🔗 CDFW Invasive Mussel Program"
+      }
+    ],
+    "url": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=524628",
+    "location": "Sacramento, CA",
+    "pay": "$4,418–$9,321 per month",
+    "stipend": "",
+    "benefits": "California state employee benefits (health, dental, vision, CalPERS retirement)",
+    "id": "item-151"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 18, 2026"
+    },
+    "title": "Washington Conservation Corps — Individual Placement (IP) Program, AmeriCorps Member",
+    "org": "Washington State Department of Ecology · Washington Conservation Corps · Individual Placement Program · statewide WA host agencies and nonprofits",
+    "deadline": "Applications open annually in July for the 11-month term. Posted deadline September 24, 2026 for the October 2026 – September 2027 term; many IP roles ask for a resume and cover letter.",
+    "start": "October 2026 (11-month term through September 2027)",
+    "body": "The professional-track arm of the Washington Conservation Corps. Rather than serving on a field crew, Individual Placement members are embedded one-on-one with a host organization's biologists, foresters, hydrologists, and environmental educators, taking on project-level responsibility within that agency or nonprofit. Terms run 11 months, October through September. The posted living allowance is $1,476 twice monthly (approximately $2,952 per month pre-tax), rising to $1,609 twice monthly in King, Snohomish, and Clark counties, plus a Segal AmeriCorps Education Award of up to $7,395. A college degree is preferred for many placements.",
+    "desc": "This is the version of a corps term that actually rewards Erin's degree. Where a standard crew term would use her as field labor, an Individual Placement embeds her alongside a hydrologist or biologist doing project work — so her GIS suitability modeling, wetland delineation, and monitoring experience become the reason she is selected rather than background detail. Washington is a strong region for salmon, riparian, and wetland restoration work, the pay is at the top of the AmeriCorps range, and a second Segal award offsets grad-school cost. As an NCCC alumna she clears the culture bar immediately. Caveat: the specific host placement is matched during the process, so the technical content depends on which host she lands.",
+    "badge": "Strong fit",
+    "pills": [
+      "Individual placement",
+      "Embedded with agency scientists",
+      "Riparian & wetland restoration",
+      "AmeriCorps",
+      "Segal award",
+      "Degree preferred"
+    ],
+    "metaLine": "11-month term Oct 2026–Sep 2027 · ~$2,952/month + $7,395 Segal · statewide WA · apply by Sep 24, 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-24",
+    "region": "West Coast / Pacific",
+    "links": [
+      {
+        "href": "https://ecology.wa.gov/about-us/jobs-at-ecology/washington-conservation-corps/individual-placement-program",
+        "label": "🔗 WCC Individual Placement Program"
+      },
+      {
+        "href": "https://ecology.wa.gov/about-us/jobs-at-ecology/washington-conservation-corps",
+        "label": "🔗 Washington Conservation Corps"
+      }
+    ],
+    "url": "https://ecology.wa.gov/about-us/jobs-at-ecology/washington-conservation-corps/individual-placement-program",
+    "location": "Statewide Washington (host agencies and nonprofits)",
+    "pay": "$1,476 twice monthly (~$2,952/month pre-tax); $1,609 twice monthly in King, Snohomish, Clark counties",
+    "stipend": "AmeriCorps living allowance as above (11-month term)",
+    "benefits": "Segal AmeriCorps Education Award up to $7,395; health insurance; paid leave; professional training",
+    "id": "item-152"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 18, 2026"
+    },
+    "title": "Stewardship Technician — Solano Land Trust",
+    "org": "Solano Land Trust · Suisun City, CA",
+    "deadline": "Applications due August 31, 2026. Apply through the Solano Land Trust careers page.",
+    "start": "Rolling / as filled",
+    "body": "A stewardship technician maintaining and improving roughly 12,000 acres of oak woodland, vernal pool, and rolling grassland open space adjacent to Suisun Marsh — one of the largest brackish marsh systems on the Pacific coast. Duties include monitoring species of special concern (native flora and fauna), implementing ecological restoration projects, and supporting habitat and landscape maintenance. Posted pay is $22.50–$26.00 per hour depending on experience, plus partial employer-paid health, dental, and vision coverage, a 403(b) with a 3% match, and three weeks of vacation. The posting states no minimum degree or years-of-experience floor.",
+    "desc": "Species-of-special-concern monitoring on vernal pool and marsh-adjacent land is where Erin's camera-trap monitoring and small-mammal trapping become immediately billable rather than merely relevant. Vernal pools are seasonal wetlands, so her Army Corps delineation training applies directly, and the restoration project work builds the hands-on implementation experience her résumé is lighter on. With no stated experience floor, real benefits, and a 403(b) match, this is one of the more accessible permanent-track roles found on the West Coast. Caveat: it is a land-trust technician role, so it is closer to applied stewardship than to research.",
+    "badge": "Good fit",
+    "pills": [
+      "Vernal pools & marsh",
+      "Species of special concern",
+      "Ecological restoration",
+      "Land trust",
+      "No experience floor",
+      "Benefits + 403(b)"
+    ],
+    "metaLine": "$22.50–$26.00/hr + benefits · Suisun City CA · apply by Aug 31, 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-31",
+    "region": "West Coast / Pacific",
+    "links": [
+      {
+        "href": "https://solanolandtrust.bamboohr.com/careers/25",
+        "label": "🔗 Solano Land Trust — apply"
+      },
+      {
+        "href": "https://solanolandtrust.org/",
+        "label": "🔗 Solano Land Trust"
+      }
+    ],
+    "url": "https://solanolandtrust.bamboohr.com/careers/25",
+    "location": "Suisun City, CA (12,000 acres adjacent to Suisun Marsh)",
+    "pay": "$22.50–$26.00 per hour DOE",
+    "stipend": "",
+    "benefits": "Partial employer-paid health/dental/vision; 403(b) with 3% match; three weeks vacation",
+    "id": "item-153"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 18, 2026"
+    },
+    "title": "Scientific Aid — Cannabis Regulation & Enforcement Unit, CA State Water Resources Control Board",
+    "org": "California State Water Resources Control Board · Cannabis Regulation and Enforcement Unit · Redding, CA (North Coast region)",
+    "deadline": "Applications due August 10, 2026. Apply through the CalCareers portal.",
+    "start": "Intermittent appointment (capped at 1,500 hours per year)",
+    "body": "A non-tenured intermittent Scientific Aid position, capped at 1,500 hours per year, supporting regulatory oversight of cannabis cultivation in California's North Coast region. Duties include water quality site inspections, field sampling, permitting support, technical report review, and database management. The classification requires only essential personal qualifications and a valid driver's license — there is no civil service exam and no stated experience minimum. Posted pay is $18.26–$21.67 per hour.",
+    "desc": "The lowest-friction entry point into California state environmental service that surfaced in this sweep: no exam, no experience minimum, and the work is genuine water-quality field sampling and watershed compliance in a region with serious cultivation-related sediment and diversion impacts. Erin's water-quality and sediment sampling background applies directly, and the permitting and technical report review would give her regulatory exposure she does not yet have. Honest caveats: it is intermittent rather than full-time, the pay is the lowest of the California options here, and Scientific Aid is explicitly a foot-in-the-door classification rather than a career appointment.",
+    "badge": "Good fit",
+    "pills": [
+      "Water quality inspections",
+      "Field sampling",
+      "Permitting",
+      "No exam required",
+      "State agency entry point"
+    ],
+    "metaLine": "Intermittent (max 1,500 hrs/yr) · $18.26–$21.67/hr · Redding CA · apply by Aug 10, 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-10",
+    "region": "West Coast / Pacific",
+    "links": [
+      {
+        "href": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=519208",
+        "label": "🔗 CalCareers — apply"
+      },
+      {
+        "href": "https://www.waterboards.ca.gov/",
+        "label": "🔗 CA State Water Resources Control Board"
+      }
+    ],
+    "url": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=519208",
+    "location": "Redding, CA (North Coast region)",
+    "pay": "$18.26–$21.67 per hour",
+    "stipend": "",
+    "benefits": "Intermittent classification — confirm benefit eligibility with the hiring unit",
+    "id": "item-154"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 18, 2026"
+    },
+    "title": "CWD Biologist (Natural Resource Specialist 1) — Oregon Dept. of Fish & Wildlife",
+    "org": "Oregon Department of Fish and Wildlife · Wildlife Health and Population Lab · Enterprise, OR",
+    "deadline": "Applications due July 29, 2026. Apply through the Oregon state careers portal (Workday).",
+    "start": "Approximately September 1 – December 31, 2026 (seasonal full-time)",
+    "body": "A seasonal full-time position running roughly September 1 through December 31, 2026 with ODFW's Wildlife Health and Population Lab, conducting Chronic Wasting Disease surveillance. Duties include sampling harvested and road-killed cervids, staffing hunter check stations, and removing targeted surveillance animals, plus CWD database entry and GIS mapping, aerial and ground game surveys, and wildlife capture and handling. The position is posted at the Natural Resource Specialist 1 classification, Oregon's entry-level natural resource rung. Posted salary is $4,519–$6,276 per month.",
+    "desc": "A clean pairing of Erin's two strongest skill areas — GIS mapping and hands-on wildlife handling and biological sampling — at an explicitly entry-level state classification. Disease surveillance is a growing specialty within wildlife agencies and gives her a distinct technical angle for grad-school applications, while the NRS 1 classification is the standard first rung into permanent Oregon state service. Caveats: it is a four-month seasonal appointment rather than a career position, Enterprise is a remote posting in far northeastern Oregon, and the deadline is close.",
+    "badge": "Good fit",
+    "pills": [
+      "Wildlife disease surveillance",
+      "Biological sampling",
+      "GIS mapping",
+      "Wildlife capture & handling",
+      "State agency",
+      "Entry-level (NRS 1)"
+    ],
+    "metaLine": "Seasonal Sep–Dec 2026 · $4,519–$6,276/month · Enterprise OR · apply by Jul 29, 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-29",
+    "region": "West Coast / Pacific",
+    "links": [
+      {
+        "href": "https://oregon.wd5.myworkdayjobs.com/SOR_External_Career_Site/job/Enterprise--ODFW/CWD-Biologist--Natural-Resource-Specialist-1-_REQ-203565",
+        "label": "🔗 ODFW — apply"
+      },
+      {
+        "href": "https://myodfw.com/",
+        "label": "🔗 Oregon Dept. of Fish & Wildlife"
+      }
+    ],
+    "url": "https://oregon.wd5.myworkdayjobs.com/SOR_External_Career_Site/job/Enterprise--ODFW/CWD-Biologist--Natural-Resource-Specialist-1-_REQ-203565",
+    "location": "Enterprise, OR (northeastern Oregon)",
+    "pay": "$4,519–$6,276 per month",
+    "stipend": "",
+    "benefits": "Oregon state seasonal employment — confirm benefit eligibility with the hiring unit",
+    "id": "item-155"
   }
 ]
