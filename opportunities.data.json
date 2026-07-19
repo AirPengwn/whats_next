@@ -14360,5 +14360,453 @@
     "stipend": "",
     "benefits": "University of Oklahoma appointment — confirm benefits with the Becker Lab",
     "id": "item-318"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Fully funded PhD — Predator-Prey Ecology, Caesar Kleberg Wildlife Research Institute",
+    "org": "Texas A&M University-Kingsville · Caesar Kleberg Wildlife Research Institute · Kingsville, TX",
+    "deadline": "Application deadline July 24, 2026",
+    "start": "Fall 2026, flexible",
+    "body": "A doctoral position advised by Dr. Michael J. Cherry, Stuart Stedman Chair for White-tailed Deer Research, on a collaborative predator-prey project. The Caesar Kleberg Wildlife Research Institute has a long track record placing graduates in academia, state agencies, NGOs and private lands work. The start is Fall 2026 with flexibility. Funding is fully covered — stipend plus tuition plus benefits.",
+    "desc": "Caesar Kleberg is one of the premier wildlife research institutes in the country, and a fully funded PhD covering stipend, tuition and benefits, enterable directly from a bachelor's, is a substantial opportunity. Their placement record into agencies and NGOs is the part worth weighing — the institute is known for producing people who get hired. Predator-prey ecology involves the capture, collaring and monitoring methods that extend Erin's trapping and camera-trap work. The serious consideration is scope: a direct-to-PhD commitment is five to six years and a decisive move away from her wetland and water quality core toward large-mammal wildlife ecology. The deadline is days away.",
+    "badge": "Strong fit",
+    "pills": [
+      "Fully funded — stipend, tuition, benefits",
+      "Premier wildlife research institute",
+      "Strong agency/NGO placement record",
+      "Enterable straight from a BS",
+      "Capture & monitoring methods",
+      "⚠️ 5–6 year PhD, pivots from wetlands"
+    ],
+    "metaLine": "PhD · fully funded · Kingsville TX · deadline Jul 24 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-24",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117475",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      },
+      {
+        "href": "https://www.ckwri.tamuk.edu/",
+        "label": "🔗 Caesar Kleberg Wildlife Research Institute"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117475",
+    "location": "Kingsville, TX (South Texas)",
+    "pay": "",
+    "stipend": "Fully funded — stipend amount not itemized; confirm with Dr. Cherry",
+    "benefits": "Tuition and benefits covered",
+    "id": "item-319"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Funded MS — Insect Vector Ecology & quantitative modeling (Lyberger Lab)",
+    "org": "Arizona State University · Lyberger Lab · Mesa, AZ",
+    "deadline": "Application deadline July 31, 2026",
+    "start": "Negotiable",
+    "body": "A funded master’s assistantship supporting research on climate-dependent dynamics of disease-causing insects. Work spans literature review, environmental data processing, quantitative ecology, and ecological and population modeling. The position suits a student interested in disease ecology and environmental variation. Posted funding is up to $31,200 per year.",
+    "desc": "At up to $31,200 this is among the best-funded master's positions in the Southwest, and the emphasis is worth noting: environmental data processing, quantitative ecology and population modeling would push Erin toward the analytical side of the field, which is where her GIS skills naturally extend and where the strongest job leverage sits long term. Climate-dependent disease dynamics is also a well-funded research area. The honest caveat is subject: insect vector ecology is a real pivot from wetlands and water quality, so this makes sense if she wants to become a quantitative ecologist and is relatively agnostic about taxon, less so if wetlands are the point.",
+    "badge": "Good fit",
+    "pills": [
+      "Up to $31,200/year",
+      "Quantitative ecology & modeling",
+      "Environmental data processing",
+      "Builds on GIS toward analytics",
+      "Arizona State University",
+      "⚠️ Pivots to disease ecology"
+    ],
+    "metaLine": "MS · up to $31,200/yr · Mesa AZ · deadline Jul 31 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117696",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117696",
+    "location": "Mesa, AZ",
+    "pay": "",
+    "stipend": "Up to $31,200 per year",
+    "benefits": "Confirm tuition waiver and health insurance with the Lyberger Lab",
+    "id": "item-320"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "PhD — Applied Forest Ecology & Digital Forestry (LiDAR, drone & remote sensing)",
+    "org": "Oklahoma State University · Dept. of Natural Resource Ecology and Management · Stillwater, OK",
+    "deadline": "Application deadline September 1, 2026",
+    "start": "Negotiable",
+    "body": "A doctoral assistantship in Dr. Lu Zhai’s group covering forest carbon storage and productivity, species invasion, and forest microclimate and wildfire. Methods span forest inventory data, remote sensing imagery, LiDAR, drone and field-based measurement. A bachelor’s degree is required with no prior experience. Posted funding starts at $26,000 per year.",
+    "desc": "This is the most remote-sensing-intensive graduate position surfaced in either sweep — LiDAR and drone-based measurement alongside satellite imagery would take Erin's GIS and remote sensing interest from coursework to genuine technical depth, and those are among the most transferable skills in environmental science right now. Entering a PhD directly from a bachelor's with no prior experience required is explicitly allowed here. Forest carbon and species invasion work connects to ecological restoration. The considerations are the same as any direct-to-PhD path: it is a long commitment, and the focus is forestry rather than wetlands, though the methods transfer broadly.",
+    "badge": "Good fit",
+    "pills": [
+      "LiDAR, drone & remote sensing methods",
+      "Deepens her strongest technical skill",
+      "Starting at $26,000/year",
+      "Bachelor's, no experience required",
+      "Forest carbon & species invasion",
+      "⚠️ Direct-to-PhD, forestry focus"
+    ],
+    "metaLine": "PhD · from $26,000/yr · Stillwater OK · deadline Sep 1 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-01",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=110249",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      },
+      {
+        "href": "https://nrem.okstate.edu/",
+        "label": "🔗 OSU Natural Resource Ecology & Management"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=110249",
+    "location": "Stillwater, OK",
+    "pay": "",
+    "stipend": "Starting at $26,000 per year",
+    "benefits": "Confirm tuition waiver and health insurance with the department",
+    "id": "item-321"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "PhD — Fish Ecophysiology & Conservation (NSF CAREER funded, Environmental Science degree)",
+    "org": "University of Texas at San Antonio · San Antonio, TX",
+    "deadline": "Application deadline July 31, 2026",
+    "start": "Negotiable",
+    "body": "An NSF CAREER-funded doctoral position studying interactive effects of climate change and urbanization on range shifts of tropical invasive fishes. The dissertation integrates field studies of temperature regimes and fish populations, laboratory physiology and computational modeling, leading to an Environmental Science and Engineering PhD. Posted funding is $24,000 per year.",
+    "desc": "The degree itself is the notable detail: this leads to an Environmental Science and Engineering PhD rather than a biology doctorate, which matches Erin's undergraduate training and keeps her professional identity consistent. NSF CAREER funding is also a good sign — those awards are competitive and multi-year, so the support is stable. The work combines field water sampling with laboratory and computational components, spanning the range from fieldwork to modeling. Urbanization effects on aquatic systems connects to her water quality interest. As with the other doctoral options, the length of commitment is the main thing to weigh at this stage.",
+    "badge": "Good fit",
+    "pills": [
+      "NSF CAREER funded — stable support",
+      "Environmental Science PhD, matches her BS",
+      "Field + lab + computational modeling",
+      "Aquatic systems & water quality",
+      "$24,000/year",
+      "⚠️ Direct-to-PhD commitment"
+    ],
+    "metaLine": "PhD · $24,000/yr · San Antonio TX · deadline Jul 31 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=116152",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=116152",
+    "location": "San Antonio, TX",
+    "pay": "",
+    "stipend": "$24,000 per year",
+    "benefits": "Confirm tuition waiver and health insurance with the program",
+    "id": "item-322"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Research and Outreach Specialist — Oklahoma Natural Areas Registry",
+    "org": "Oklahoma Biological Survey · University of Oklahoma · Norman, OK",
+    "deadline": "Application deadline August 15, 2026",
+    "start": "Full-time",
+    "body": "Manages the Oklahoma Natural Areas Registry Program, working directly with landowners on habitat conservation, coordinates educational events and outreach initiatives, and conducts fieldwork on rare species and habitats across the state. Posted salary is $50,000 per year.",
+    "desc": "This blends fieldwork, landowner conservation and outreach at a university survey unit, which is an unusually well-rounded first professional position — and at $50,000 it pays like a real job rather than a stepping stone. Running a natural areas registry means learning how conservation actually happens on private land, which is where most habitat sits. Rare species and habitat fieldwork keeps her survey skills sharp. Being housed at a university biological survey also puts her near graduate faculty and research infrastructure, which is strategically useful if she plans to apply to programs while working. Strong pre-graduate-school position.",
+    "badge": "Strong fit",
+    "pills": [
+      "$50,000/year",
+      "Fieldwork + landowner conservation",
+      "Rare species & habitat surveys",
+      "University survey unit",
+      "Near graduate faculty",
+      "Program management experience"
+    ],
+    "metaLine": "Full-time · $50,000/yr · Norman OK · deadline Aug 15 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-15",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=104576",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      },
+      {
+        "href": "https://biosurvey.ou.edu/",
+        "label": "🔗 Oklahoma Biological Survey"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=104576",
+    "location": "Norman, OK (statewide fieldwork)",
+    "pay": "$50,000 per year",
+    "stipend": "",
+    "benefits": "University of Oklahoma position — confirm benefits with the Oklahoma Biological Survey",
+    "id": "item-323"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Restoration Project Coordinator — McDowell Sonoran Preserve",
+    "org": "McDowell Sonoran Conservancy · Scottsdale, AZ",
+    "deadline": "Application deadline October 15, 2026",
+    "start": "Full-time",
+    "body": "Runs long-term ecosystem conservation projects in Scottsdale's McDowell Sonoran Preserve, planning and leading ecological restoration, invasive plant removal and monitoring projects with volunteer teams. The role reports to the Senior Scientific Program Manager. Posted salary is up to $52,500 per year.",
+    "desc": "A coordinator title with a salary up to $52,500 is a step above the technician roles that dominate entry-level conservation, and this one combines the three things Erin does — restoration, monitoring and working with volunteer teams, the last of which her AmeriCorps NCCC leadership covers directly. Planning and leading projects rather than executing someone else's plan is the transition that matters most early in a career. The McDowell Sonoran Preserve is a large urban preserve with a well-established science program. The October 15 deadline gives real preparation time, and the role is a realistic stretch rather than an impossible one.",
+    "badge": "Strong fit",
+    "pills": [
+      "Up to $52,500/year",
+      "Coordinator title, not technician",
+      "Plans and leads restoration projects",
+      "Volunteer team leadership",
+      "NCCC leadership applies directly",
+      "Deadline Oct 15 — time to prepare"
+    ],
+    "metaLine": "Full-time · up to $52,500/yr · Scottsdale AZ · deadline Oct 15 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-10-15",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117135",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      },
+      {
+        "href": "https://www.mcdowellsonoran.org/",
+        "label": "🔗 McDowell Sonoran Conservancy"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117135",
+    "location": "Scottsdale, AZ (McDowell Sonoran Preserve)",
+    "pay": "Up to $52,500 per year",
+    "stipend": "",
+    "benefits": "Full-time position — confirm benefits with McDowell Sonoran Conservancy",
+    "id": "item-324"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Biologist (seasonal or full-time) — right-of-way compliance & species surveys",
+    "org": "Resi Solutions · Carlsbad, NM",
+    "deadline": "Application deadline July 20, 2026",
+    "start": "Seasonal or full-time",
+    "body": "An environmental consulting biologist position supporting right-of-way applications for the oil and gas industry, ensuring compliance with federal and state environmental regulations. The role includes species surveys and compliance documentation. Per diem is available and expenses are reimbursed. Posted pay is $25 to $35 per hour.",
+    "desc": "At $25 to $35 per hour plus per diem and mileage, the effective compensation here is well above most entry-level field work, and consulting is where Erin's Army Corps wetland delineation training commands an immediate premium — right-of-way work routinely requires wetland and waters determinations. Species surveys and compliance documentation build the regulatory fluency that opens later agency and consulting doors. The role carries the title of biologist rather than technician. Two honest considerations: the client is the oil and gas industry, which she may or may not want on her resume, and the deadline is tomorrow.",
+    "badge": "Strong fit",
+    "pills": [
+      "$25–$35/hour plus per diem",
+      "Biologist title",
+      "Delineation is a premium skill here",
+      "Species surveys & compliance docs",
+      "Expenses reimbursed",
+      "⚠️ Oil & gas clients · deadline Jul 20"
+    ],
+    "metaLine": "Seasonal or full-time · $25–$35/hr + per diem · Carlsbad NM · deadline Jul 20 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-20",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=116176",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=116176",
+    "location": "Carlsbad, NM (Permian Basin right-of-way projects)",
+    "pay": "$25–$35 per hour, plus per diem and mileage",
+    "stipend": "",
+    "benefits": "Per diem available and expenses reimbursed — confirm other benefits with Resi Solutions",
+    "id": "item-325"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Range & Wildlife Technicians — quail telemetry and South Texas ranch conservation",
+    "org": "Rolling Plains Quail Research Foundation (Rotan, TX) · East Foundation (Hebbronville, TX)",
+    "deadline": "Application deadlines July 24 and 31, 2026",
+    "start": "Fall 2026 seasons",
+    "body": "Two Texas private-lands technician positions. The Rolling Plains Quail Research Foundation is hiring four technicians for research and land management on the Rolling Plains Quail Research Ranch in Fisher County, with duties including radio telemetry, quail trapping, raptor identification, bird dog care and habitat management practices, and exposure to a wide range of data collection techniques and farm equipment, starting at $2,500 per month with a July 31 deadline. The East Foundation is hiring a temporary September through November technician based at San Antonio Viejo Ranch in Jim Hogg County, potentially working across all East Foundation properties in South Texas, requiring a bachelor’s with no prior experience and providing on-ranch housing, at $16 per hour with a July 24 deadline.",
+    "desc": "The Rolling Plains position is the stronger of the two: radio telemetry and quail trapping extend Erin's small-mammal trapping experience into game birds and, more importantly, into telemetry — a technique that appears constantly in wildlife job descriptions and that she does not yet have. Four openings also means good odds. The East Foundation role provides on-ranch housing, which changes the economics of a $16 per hour rate considerably, and the East Foundation manages some of the largest private conservation acreage in Texas. Both are private-lands positions, which is where most Texas habitat conservation actually happens.",
+    "badge": "Strong fit",
+    "pills": [
+      "Radio telemetry — a skill gap filled",
+      "Quail trapping extends her trapping work",
+      "Rolling Plains: 4 openings, $2,500/month",
+      "East Foundation: housing provided",
+      "Private-lands conservation",
+      "BS with no experience required"
+    ],
+    "metaLine": "Fall seasons · $2,500/month or $16/hr + housing · Rotan & Hebbronville TX · deadlines Jul 24 & 31",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-24",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117418",
+        "label": "🔗 Rolling Plains Quail Research Foundation ($2,500/mo, deadline Jul 31)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=116770",
+        "label": "🔗 East Foundation ($16/hr + housing, deadline Jul 24)"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117418",
+    "location": "Rotan, TX (Fisher County) and Hebbronville, TX (Jim Hogg County, South Texas)",
+    "pay": "Starting at $2,500 per month (Rolling Plains) · $16 per hour with housing provided (East Foundation)",
+    "stipend": "",
+    "benefits": "On-ranch housing provided at East Foundation; confirm other benefits with each organization",
+    "id": "item-326"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Seed Collection Crew & Fall Crew — GBI Roswell and Rocky Mountain Youth Corps Taos",
+    "org": "Great Basin Institute (Roswell, NM) · Rocky Mountain Youth Corps — Upper Rio Grande (Taos, NM)",
+    "deadline": "Application deadlines July 22 and 31, 2026",
+    "start": "Fall 2026 seasons",
+    "body": "Two New Mexico crew opportunities. The Great Basin Institute is hiring two Seed Collection Crew Members to conduct native seed collection and ecological monitoring for the National Park Service in southeastern New Mexico, supporting native plant materials development and restoration, at $21 per hour with a July 22 deadline; the Great Basin Institute gives hiring preference to AmeriCorps alumni. Rocky Mountain Youth Corps is hiring Fall Crew Members out of its Taos office serving northern New Mexico public lands on trail construction, habitat and watershed restoration and fuels reduction, at $650 per week plus a $1,956.35 AmeriCorps Education Award with a July 31 deadline.",
+    "desc": "The Great Basin Institute posting is the one to prioritize because of the AmeriCorps alumni hiring preference — Erin's NCCC service is a scored advantage there, and at $21 per hour with National Park Service partnership the role is well-compensated for seed collection and monitoring work. Native seed collection is also foundational to restoration: the plant materials pipeline is a genuine bottleneck in western restoration, and understanding it is useful knowledge. The Rocky Mountain Youth Corps term is a shorter fall option that includes watershed restoration and adds a second education award she could apply toward graduate school.",
+    "badge": "Strong fit",
+    "pills": [
+      "GBI prioritizes AmeriCorps alumni",
+      "GBI: $21/hour with NPS partnership",
+      "Native seed collection & monitoring",
+      "RMYC: $650/week + $1,956.35 award",
+      "Watershed restoration (RMYC)",
+      "Two fall options in New Mexico"
+    ],
+    "metaLine": "Fall seasons · $21/hr or $650/wk · Roswell & Taos NM · deadlines Jul 22 & 31",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-22",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-seed-collection-crew-member-nps-roswell-new-mexico-roswell-new-mexico/6540394037",
+        "label": "🔗 GBI Seed Collection Crew — NPS Roswell ($21/hr, deadline Jul 22)"
+      },
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-fall-crew-member-taos-new-mexico/7809464640",
+        "label": "🔗 Rocky Mountain Youth Corps Fall Crew — Taos ($650/wk, deadline Jul 31)"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-seed-collection-crew-member-nps-roswell-new-mexico-roswell-new-mexico/6540394037",
+    "location": "Roswell, NM (southeastern New Mexico NPS units) and Taos, NM (northern New Mexico public lands)",
+    "pay": "$21 per hour (Great Basin Institute)",
+    "stipend": "$650 per week (Rocky Mountain Youth Corps)",
+    "benefits": "$1,956.35 AmeriCorps Education Award on the Rocky Mountain Youth Corps term",
+    "id": "item-327"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Wildlife Educator AmeriCorps Member — embedded in a state wildlife agency",
+    "org": "Nevada Department of Wildlife · Conservation Education Division · Las Vegas, NV",
+    "deadline": "Application deadline July 31, 2026",
+    "start": "September 16, 2026 through August 28, 2027",
+    "body": "A year-long AmeriCorps placement inside the Nevada Department of Wildlife's Conservation Education Division, Southern Region, developing and facilitating events across the Wildlife, Urban Wildlife, Angler, Hunter and Shooting Sports education programs. The term runs September 16, 2026 through August 28, 2027 under the Southern Region Conservation Education Coordinators. Posted compensation is $2,066.66 per month.",
+    "desc": "The distinctive feature here is placement inside a state wildlife agency rather than with a partner nonprofit — Erin would spend a year with NDOW staff, building the internal network that makes agency hiring dramatically easier afterward, while earning a service credential. That combination of agency access plus AmeriCorps status is genuinely useful for someone targeting government work. The content is conservation education and event facilitation rather than field science, so it develops her public-facing and program skills rather than her technical toolkit. At $2,066.66 per month the pay is mid-range for a full-year service term.",
+    "badge": "Good fit",
+    "pills": [
+      "Embedded inside a state wildlife agency",
+      "Builds NDOW internal network",
+      "Full-year term",
+      "$2,066.66 per month",
+      "Service credential + agency access",
+      "⚠️ Education role, not field science"
+    ],
+    "metaLine": "Full year · $2,066.66/month · Las Vegas NV · deadline Jul 31 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117270",
+        "label": "🔗 Full posting — TAMU Natural Resources board"
+      },
+      {
+        "href": "https://www.ndow.org/about/careers/",
+        "label": "🔗 Nevada Department of Wildlife"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117270",
+    "location": "Las Vegas, NV (NDOW Southern Region)",
+    "pay": "",
+    "stipend": "$2,066.66 per month",
+    "benefits": "AmeriCorps term — confirm Segal Education Award amount with NDOW",
+    "id": "item-328"
   }
 ]
