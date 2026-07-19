@@ -7898,5 +7898,267 @@
     "stipend": "AmeriCorps living allowance — amount not published for this placement; confirm with Conservation Corps MN & IA",
     "benefits": "Segal AmeriCorps Education Award on successful term completion — confirm amount for the 3- vs 6-month term",
     "id": "item-178"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Natural Resource Management Project Assistant — Florida Park Service",
+    "org": "Florida Park Service · Florida Dept. of Environmental Protection · Tallahassee, FL",
+    "deadline": "Application deadline July 22, 2026",
+    "start": "Full-time",
+    "body": "A state park system position supporting natural resource management projects statewide from the Tallahassee central office. Duties span habitat management planning, project coordination, and field support across Florida's park units. The listing is posted at zero to one years of experience with pay of $22 to $24 per hour.",
+    "desc": "State agency resource-management work is one of the better launchpads for a BS environmental scientist, because it exposes her to management planning and interagency coordination rather than field data collection alone — the skills that separate a technician from a biologist on later applications. The pay is unusually strong for an entry-level posting, and a statewide remit means variety across Florida's coastal, wetland and upland systems. The deadline is the problem: it is essentially immediate, so this is apply-today or let it go.",
+    "badge": "Strong fit",
+    "pills": [
+      "State agency role",
+      "Habitat management planning",
+      "Statewide park units",
+      "$22–$24/hr",
+      "Entry-level 0–1 years",
+      "⚠️ Deadline imminent"
+    ],
+    "metaLine": "Full-time · $22–$24/hr · Tallahassee FL · deadline Jul 22 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-22",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/florida",
+        "label": "🔗 Conservation Job Board — Florida listings"
+      },
+      {
+        "href": "https://www.floridastateparks.org/get-involved/careers",
+        "label": "🔗 Florida Park Service careers"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/florida",
+    "location": "Tallahassee, FL (central office; projects across Florida state parks)",
+    "pay": "$22–$24 per hour",
+    "stipend": "",
+    "benefits": "State of Florida position — confirm benefit eligibility with FDEP human resources",
+    "id": "item-179"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "District Resources Management Assistant — Virginia State Parks District 4",
+    "org": "Virginia State Parks · Virginia Dept. of Conservation & Recreation · Chesterfield County, VA",
+    "deadline": "Application deadline July 21, 2026",
+    "start": "Full-time",
+    "body": "Assists the district resource manager with natural and cultural resource stewardship across Virginia State Parks in District 4. Work includes habitat monitoring, invasive species management, and resource inventory support. The posting is listed at zero to one years of experience with pay of $22 to $25 per hour.",
+    "desc": "Agency resource stewardship in Virginia puts Erin in Appalachian-adjacent terrain doing exactly the monitoring and inventory work her GIS and field skills support, and district-level roles tend to give a new graduate more responsibility breadth than a single-park position would. Working directly under a district resource manager is also a good reference-building position for later state or federal applications. Like the Florida posting, the deadline is effectively immediate — this one closes even sooner.",
+    "badge": "Strong fit",
+    "pills": [
+      "State agency role",
+      "Habitat monitoring",
+      "Resource inventory",
+      "Invasive species management",
+      "$22–$25/hr",
+      "⚠️ Deadline imminent"
+    ],
+    "metaLine": "Full-time · $22–$25/hr · Chesterfield County VA · deadline Jul 21 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-21",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/virginia",
+        "label": "🔗 Conservation Job Board — Virginia listings"
+      },
+      {
+        "href": "https://www.dcr.virginia.gov/about/jobs",
+        "label": "🔗 Virginia DCR careers"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/virginia",
+    "location": "Chesterfield County, VA (District 4 state parks)",
+    "pay": "$22–$25 per hour",
+    "stipend": "",
+    "benefits": "Commonwealth of Virginia position — confirm benefit eligibility with Virginia DCR",
+    "id": "item-180"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Habitat Learning Lab Specialist — Alabama Wildlife Federation",
+    "org": "Alabama Wildlife Federation · Huntsville, AL",
+    "deadline": "Application deadline July 31, 2026",
+    "start": "Full-time salaried",
+    "body": "A salaried position with Alabama's leading conservation nonprofit, developing and running habitat-based learning lab programming in the Huntsville area. The role combines habitat management on demonstration sites with outreach and education delivery. The posting is listed at zero to one years of experience with a salary of $38,000 to $45,000 per year.",
+    "desc": "A full salaried nonprofit conservation job open to a fresh bachelor's is genuinely uncommon, and this one blends hands-on habitat management with the public-facing programming that AmeriCorps NCCC service builds well. For Erin the appeal is a stable full-time position with a real salary rather than another seasonal hourly stint, which matters if she wants to bank savings before grad school. The tradeoff is that education delivery is a substantial share of the job, so it develops her outreach and program-design skills more than her sampling, GIS or delineation toolkit.",
+    "badge": "Good fit",
+    "pills": [
+      "Salaried $38–45k",
+      "Full-time nonprofit role",
+      "Habitat management",
+      "Education & outreach",
+      "Entry-level 0–1 years"
+    ],
+    "metaLine": "Full-time · $38,000–$45,000/yr · Huntsville AL · deadline Jul 31 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/alabama",
+        "label": "🔗 Conservation Job Board — Alabama listings"
+      },
+      {
+        "href": "https://www.alabamawildlife.org/careers/",
+        "label": "🔗 Alabama Wildlife Federation careers"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/alabama",
+    "location": "Huntsville, AL (habitat demonstration sites in north Alabama)",
+    "pay": "$38,000–$45,000 per year",
+    "stipend": "",
+    "benefits": "Full-time nonprofit position — confirm benefits package with Alabama Wildlife Federation",
+    "id": "item-181"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Lake Management Technician — water quality & aquatic vegetation (north Georgia)",
+    "org": "Aquatic Environmental Services · Jasper, GA",
+    "deadline": "Application deadline September 30, 2026",
+    "start": "Full-time field position",
+    "body": "A field technician role managing lake and pond systems across north Georgia, including water quality assessment, aquatic vegetation management, and treatment application. The listing is posted at zero to one years of experience with pay of $18.50 to $22.00 per hour.",
+    "desc": "Water quality is one of Erin's stated primary interests, and this is straightforward paid entry into it — routine assessment work across many waterbodies builds a volume of sampling reps that a single research project cannot. The applied vegetation management and treatment side would also be new ground for her, adding a practical lake-management skill set. It is private-sector service work rather than research or agency conservation, so it reads on a resume as solid technical experience rather than as a step toward a research career.",
+    "badge": "Good fit",
+    "pills": [
+      "Water quality assessment",
+      "Aquatic vegetation management",
+      "$18.50–$22.00/hr",
+      "Entry-level 0–1 years",
+      "North Georgia lakes"
+    ],
+    "metaLine": "Full-time · $18.50–$22.00/hr · Jasper GA · deadline Sep 30 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-30",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/georgia",
+        "label": "🔗 Conservation Job Board — Georgia listings"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/georgia",
+    "location": "Jasper, GA (lake and pond systems across north Georgia)",
+    "pay": "$18.50–$22.00 per hour",
+    "stipend": "",
+    "benefits": "Full-time position — confirm benefits with Aquatic Environmental Services",
+    "id": "item-182"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Fisheries Technician — electrofishing & population assessment (north Georgia)",
+    "org": "Aquatic Environmental Services · Jasper, GA",
+    "deadline": "Application deadline September 30, 2026",
+    "start": "Full-time field position",
+    "body": "A fisheries field technician role supporting electrofishing surveys, fish population assessments, and aquatic habitat work across north Georgia waterbodies. The posting lists a minimum of zero to one years of experience with pay of $19 to $22 per hour.",
+    "desc": "Electrofishing and population assessment are standard fisheries techniques that Erin does not yet have, and picking them up would meaningfully widen the set of graduate assistantships and agency jobs she can credibly apply to — a great many aquatic positions list electrofishing as a required skill. Her sediment-sampling and water quality background transfers cleanly to the aquatic habitat side of the work. As with the companion lake role, this is private-sector technical work, so its value is skill acquisition rather than agency or research positioning.",
+    "badge": "Good fit",
+    "pills": [
+      "Electrofishing surveys",
+      "Fish population assessment",
+      "Aquatic habitat work",
+      "$19–$22/hr",
+      "New transferable skill",
+      "Entry-level 0–1 years"
+    ],
+    "metaLine": "Full-time · $19–$22/hr · Jasper GA · deadline Sep 30 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-30",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/georgia",
+        "label": "🔗 Conservation Job Board — Georgia listings"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/georgia",
+    "location": "Jasper, GA (waterbodies across north Georgia)",
+    "pay": "$19–$22 per hour",
+    "stipend": "",
+    "benefits": "Full-time position — confirm benefits with Aquatic Environmental Services",
+    "id": "item-183"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Ecological Restoration Technician — wetland & upland restoration (Treasure Coast)",
+    "org": "Advanced Restoration Ecology · Jensen Beach, FL",
+    "deadline": "Rolling — apply when posted",
+    "start": "Full-time field position",
+    "body": "A hands-on ecological restoration technician role on Florida's Treasure Coast, covering wetland and upland restoration implementation, invasive species control, and native plantings. The posting is listed at zero to one years of experience with no graduate degree requirement and pay of $18 to $24 per hour.",
+    "desc": "Ecological restoration is one of Erin's stated core interests, and this role pairs it with the wetland systems she trained on, so it is a rare case where the stated interest and the trained skill point at the same job. Implementation work — actually installing restoration rather than monitoring it — is a different and complementary competence to her assessment background, and restoration contractors value people who understand both sides. Florida's subtropical wetland systems would also be genuinely new ecological ground relative to her southern Appalachian experience.",
+    "badge": "Strong fit",
+    "pills": [
+      "Wetland restoration",
+      "Upland restoration",
+      "Invasive species control",
+      "Native plantings",
+      "$18–$24/hr",
+      "Entry-level 0–1 years"
+    ],
+    "metaLine": "Full-time · $18–$24/hr · Jensen Beach FL · rolling",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/florida",
+        "label": "🔗 Conservation Job Board — Florida listings"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/florida",
+    "location": "Jensen Beach, FL (Florida's Treasure Coast)",
+    "pay": "$18–$24 per hour",
+    "stipend": "",
+    "benefits": "Full-time position — confirm benefits with Advanced Restoration Ecology",
+    "id": "item-184"
   }
 ]
