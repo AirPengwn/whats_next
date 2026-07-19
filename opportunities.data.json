@@ -8160,5 +8160,279 @@
     "stipend": "",
     "benefits": "Full-time position — confirm benefits with Advanced Restoration Ecology",
     "id": "item-184"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "AmeriCorps Individual Placement — Recreation Technician, Francis Marion & Sumter National Forest",
+    "org": "Southeast Conservation Corps · Conservation Legacy · with the US Forest Service · Edgefield, SC",
+    "deadline": "Rolling — term starts September 14, 2026",
+    "start": "Starts September 14, 2026",
+    "body": "An individual placement embedded with the US Forest Service on the Francis Marion & Sumter National Forest, beginning September 14, 2026. Individual placements pair a member one-on-one with agency staff on professional-track resource work rather than crew labor. Published compensation is $800 per week, the highest weekly rate among the currently open regional corps postings.",
+    "desc": "Individual placements are the corps track that actually builds a federal resume — Erin would be embedded with Forest Service staff, using agency systems and generating agency references, which is a materially different thing from a trail crew term on the same land. At $800 per week this is also the best-paid Southeast corps placement currently open, enough to live on rather than merely subsist. The caveat is that the role is titled recreation rather than resources, so she should confirm with the host how much of the work is natural resource monitoring versus recreation infrastructure before committing.",
+    "badge": "Strong fit",
+    "pills": [
+      "Individual placement (not crew)",
+      "Embedded with US Forest Service",
+      "$800/week",
+      "Builds federal resume",
+      "Starts Sept 14 2026"
+    ],
+    "metaLine": "Individual placement · $800/wk · Edgefield SC · rolling",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://secure.entertimeonline.com/ta/conservationlegacy.careers?ShowJob=721995394",
+        "label": "🔗 Full posting — Conservation Legacy"
+      },
+      {
+        "href": "https://southeastconservationcorps.org/open-positions",
+        "label": "🔗 Southeast Conservation Corps — open positions"
+      }
+    ],
+    "url": "https://secure.entertimeonline.com/ta/conservationlegacy.careers?ShowJob=721995394",
+    "location": "Edgefield, SC (Francis Marion & Sumter National Forest)",
+    "pay": "",
+    "stipend": "$800 per week",
+    "benefits": "AmeriCorps individual placement — confirm education award amount and housing with Southeast Conservation Corps",
+    "id": "item-185"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Fall Conservation Crew Member — Chattanooga (9 positions open)",
+    "org": "Southeast Conservation Corps · Conservation Legacy · Chattanooga, TN",
+    "deadline": "Rolling — term runs Aug 17 to Nov 20, 2026",
+    "start": "August 17 through November 20, 2026",
+    "body": "A full conservation crew term based in Chattanooga running August 17 through November 20, 2026, with nine positions available. Crews complete trail construction, habitat restoration, and public lands stewardship projects across the southern Appalachians. No prior crew experience is required. Published compensation is $600 per week.",
+    "desc": "With nine slots open this is the highest-probability Appalachian corps placement currently posted, and it sits in the heart of the region Erin knows best. Habitat restoration and public lands stewardship keep her field skills current through the fall, which matters because most agency field technician hiring for the following spring happens over the winter — a term ending in November positions her well for that cycle. It is crew labor rather than technical resource work, so it maintains and broadens field experience rather than deepening her sampling or GIS specialization.",
+    "badge": "Good fit",
+    "pills": [
+      "9 positions available",
+      "No prior experience required",
+      "Habitat restoration",
+      "Southern Appalachians",
+      "$600/week",
+      "Aug–Nov 2026"
+    ],
+    "metaLine": "Crew term · $600/wk · Chattanooga TN · Aug 17–Nov 20 2026",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://secure.entertimeonline.com/ta/conservationlegacy.careers?ShowJob=721974934",
+        "label": "🔗 Full posting — Conservation Legacy"
+      },
+      {
+        "href": "https://southeastconservationcorps.org/open-positions",
+        "label": "🔗 Southeast Conservation Corps — open positions"
+      }
+    ],
+    "url": "https://secure.entertimeonline.com/ta/conservationlegacy.careers?ShowJob=721974934",
+    "location": "Chattanooga, TN (project sites across the southern Appalachians)",
+    "pay": "",
+    "stipend": "$600 per week",
+    "benefits": "AmeriCorps term — confirm Segal Education Award amount with Southeast Conservation Corps",
+    "id": "item-186"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Fall Staff Crew Leader — Shenandoah Valley (employee status, highest corps pay)",
+    "org": "Appalachian Conservation Corps · Conservation Legacy · Harrisonburg, VA",
+    "deadline": "Application deadline August 3, 2026",
+    "start": "Fall 2026 season",
+    "body": "A staff crew leader position running fall conservation crews out of Harrisonburg, Virginia. Unlike the AmeriCorps leader track this is an employee-status role with full staff responsibilities for crew safety, project delivery with land agency partners, and member development. Published pay is $925 to $1,125 per week, substantially higher than the AmeriCorps leadership rate.",
+    "desc": "This is by far the best-paying corps role open in the region, and prior AmeriCorps NCCC service is the standard qualifying background for it — Erin's corps experience is the specific credential that makes a fresh BS graduate credible as a staff leader rather than a member. Employee status also means real wages and likely benefits instead of a living stipend, which changes the financial calculus substantially against the $600 per week member roles. The work is crew leadership and project management rather than science, so its value is supervisory experience and earnings, not technical depth.",
+    "badge": "Strong fit",
+    "pills": [
+      "$925–$1,125/week",
+      "Employee status, not stipend",
+      "Crew leadership",
+      "NCCC service qualifies her",
+      "Agency partner coordination"
+    ],
+    "metaLine": "Staff position · $925–$1,125/wk · Harrisonburg VA · deadline Aug 3 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-03",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/virginia",
+        "label": "🔗 Conservation Job Board — Virginia listings"
+      },
+      {
+        "href": "https://appalachiancc.org/open-positions",
+        "label": "🔗 Appalachian Conservation Corps — open positions"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/virginia",
+    "location": "Harrisonburg, VA (crews across Virginia and West Virginia)",
+    "pay": "$925–$1,125 per week",
+    "stipend": "",
+    "benefits": "Staff employee position — confirm benefits package with Appalachian Conservation Corps",
+    "id": "item-187"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Fall Forest Health Crew Member — invasive removal & stand improvement",
+    "org": "Appalachian Conservation Corps · Conservation Legacy · Swoope, VA",
+    "deadline": "Rolling — term runs September to November 2026",
+    "start": "September through November 2026",
+    "body": "A September through November 2026 crew focused specifically on forest health: invasive species removal, forest stand improvement, and native habitat restoration in the Shenandoah Valley. This crew is distinct from the general trail crews in having an explicitly ecological rather than recreational focus. Published compensation is $600 per week, structured as a $500 living stipend plus a $100 additional member benefit.",
+    "desc": "Of the Appalachian Conservation Corps crews currently open this is the most ecology-focused, which makes it the best match for Erin's restoration interest rather than a general trail labor term. Invasive species management and stand improvement are applied vegetation ecology skills that show up constantly in agency and NGO restoration job descriptions, so the term reads well on later applications. The Shenandoah Valley also keeps her in Appalachian systems she already understands, which means she can go deeper rather than starting over in an unfamiliar landscape.",
+    "badge": "Good fit",
+    "pills": [
+      "Forest health focus",
+      "Invasive species removal",
+      "Stand improvement",
+      "Native habitat restoration",
+      "$600/week",
+      "Sept–Nov 2026"
+    ],
+    "metaLine": "Crew term · $600/wk · Swoope VA · Sept–Nov 2026",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://secure8.entertimeonline.com/ta/conservationlegacy.careers?ShowJob=721993216",
+        "label": "🔗 Full posting — Conservation Legacy"
+      },
+      {
+        "href": "https://appalachiancc.org/open-positions",
+        "label": "🔗 Appalachian Conservation Corps — open positions"
+      }
+    ],
+    "url": "https://secure8.entertimeonline.com/ta/conservationlegacy.careers?ShowJob=721993216",
+    "location": "Swoope, VA (Shenandoah Valley)",
+    "pay": "",
+    "stipend": "$600 per week ($500 living stipend plus $100 additional member benefit)",
+    "benefits": "AmeriCorps term — confirm Segal Education Award amount with Appalachian Conservation Corps",
+    "id": "item-188"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Fall & Winter Conservation Crew Member — extended term (Sept 2026 – Jan 2027)",
+    "org": "Appalachian Conservation Corps · Conservation Legacy · Harrisonburg, VA",
+    "deadline": "Rolling — term runs September 2026 to January 2027",
+    "start": "September 2026 through January 2027",
+    "body": "An extended crew term based in the central Shenandoah Valley running September 2026 through January 2027. Projects span trail work, habitat restoration, and public lands stewardship across Virginia and West Virginia. Published compensation is $600 per week, structured as a $500 living stipend plus a $100 additional member benefit.",
+    "desc": "This is the longest Appalachian Conservation Corps term currently open, which matters for two practical reasons: a longer term means a larger Segal Education Award, and finishing in January drops her directly into the window when agencies hire for the spring and summer field season. For someone deciding between grad school and federal work, that timing is genuinely useful — it buys a paid winter rather than an unpaid gap. The work mixes trail labor with restoration, so it is broader and less ecologically focused than the forest health crew.",
+    "badge": "Good fit",
+    "pills": [
+      "Longest open ACC term",
+      "Larger education award",
+      "Habitat restoration",
+      "VA & WV public lands",
+      "$600/week",
+      "Bridges into 2027 hiring"
+    ],
+    "metaLine": "Extended crew term · $600/wk · Harrisonburg VA · Sept 2026–Jan 2027",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://secure8.entertimeonline.com/ta/conservationlegacy.careers?ShowJob=721993152",
+        "label": "🔗 Full posting — Conservation Legacy"
+      },
+      {
+        "href": "https://appalachiancc.org/open-positions",
+        "label": "🔗 Appalachian Conservation Corps — open positions"
+      }
+    ],
+    "url": "https://secure8.entertimeonline.com/ta/conservationlegacy.careers?ShowJob=721993152",
+    "location": "Harrisonburg, VA (projects across Virginia and West Virginia)",
+    "pay": "",
+    "stipend": "$600 per week ($500 living stipend plus $100 additional member benefit)",
+    "benefits": "AmeriCorps term — confirm Segal Education Award amount with Appalachian Conservation Corps",
+    "id": "item-189"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Conservation AmeriCorps Volunteer — year-long professional placement, WV highlands",
+    "org": "Appalachian Forest National Heritage Area · Elkins, WV",
+    "deadline": "Rolling — full-year placements",
+    "start": "Full-year term",
+    "body": "A full-year AmeriCorps individual placement with a heritage area covering the highlands of West Virginia and western Maryland. Conservation members are placed with partner land agencies and nonprofits on natural resource, forest, and watershed projects. Positions are professional-track rather than crew-based. Published compensation is $21,500 per year.",
+    "desc": "A year-long professional placement in central Appalachia with real watershed and forest resource assignments is a substantially different proposition from a seasonal crew term — Erin would be doing project work with a partner agency for twelve months, long enough to own something and to earn a reference who can speak to her technical judgment. The West Virginia highlands are also headwaters country with a heavy acid mine drainage and stream restoration history, which connects directly to her trace-metal contamination capstone. The published rate is modest for a full year, so cost of living in Elkins is worth checking.",
+    "badge": "Strong fit",
+    "pills": [
+      "Full-year placement",
+      "Professional track, not crew",
+      "Watershed & forest projects",
+      "Partner agency placement",
+      "$21,500/year",
+      "Central Appalachian highlands"
+    ],
+    "metaLine": "Full-year placement · $21,500/yr · Elkins WV · rolling",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/west-virginia",
+        "label": "🔗 Conservation Job Board — West Virginia listings"
+      },
+      {
+        "href": "https://appalachianforestnha.org/americorps",
+        "label": "🔗 Appalachian Forest NHA AmeriCorps"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/west-virginia",
+    "location": "Elkins, WV (partner sites across the WV and western MD highlands)",
+    "pay": "",
+    "stipend": "$21,500 per year",
+    "benefits": "AmeriCorps placement — confirm Segal Education Award and health coverage with Appalachian Forest NHA",
+    "id": "item-190"
   }
 ]
