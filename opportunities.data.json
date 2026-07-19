@@ -11736,5 +11736,427 @@
     "stipend": "$800 weekly stipend over 39 weeks",
     "benefits": "$500 reimbursable training and work travel funding; no housing provided",
     "id": "item-262"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "M.S. — School of Environmental & Forest Sciences (automatic funding consideration)",
+    "org": "University of Washington · School of Environmental and Forest Sciences · Seattle, WA",
+    "deadline": "Application deadline November 15, 2026 (application opens August 1)",
+    "start": "Fall 2027 entry",
+    "body": "The School of Environmental and Forest Sciences opens its application August 1 with a November 15 deadline, and complete applications received by that date are automatically considered for admissions funding offers. Admission requires a faculty member willing to advise, so applicants must contact prospective principal investigators in advance. Research areas include wildlife science, restoration ecology, and freshwater and watershed systems. Specific stipend amounts are not published at the program level.",
+    "desc": "This is one of only two West Coast graduate programs found with a hard published deadline and automatic funding consideration — everywhere else runs on advisor-by-advisor negotiation with no fixed date, which makes planning nearly impossible. The November 15 deadline with an August 1 opening means Erin has a clean, actionable timeline: spend August and September on faculty outreach, then submit. SEFS restoration ecology and wildlife labs use her GIS and camera-trap toolkit directly, and freshwater and watershed systems is a named research area. The requirement that a faculty member agree to advise before admission is the real gate, so the emails matter more than the application.",
+    "badge": "Top recommendation",
+    "pills": [
+      "Hard deadline Nov 15 2026",
+      "Automatic funding consideration",
+      "Application opens Aug 1",
+      "Restoration ecology & wildlife labs",
+      "Freshwater & watershed systems",
+      "Requires advisor agreement first"
+    ],
+    "metaLine": "MS · funding considered automatically · Seattle WA · deadline Nov 15 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-11-15",
+    "region": "West Coast / Pacific",
+    "links": [
+      {
+        "href": "https://sefs.uw.edu/admissions/graduate-application-process/m-s-and-ph-d-graduate-admissions/",
+        "label": "🔗 MS & PhD admissions — UW SEFS"
+      },
+      {
+        "href": "https://sefs.uw.edu/research/",
+        "label": "🔗 SEFS research areas — pick advisors here"
+      }
+    ],
+    "url": "https://sefs.uw.edu/admissions/graduate-application-process/m-s-and-ph-d-graduate-admissions/",
+    "location": "Seattle, WA",
+    "pay": "",
+    "stipend": "Not published at program level — funding offers made at admission; confirm with the prospective advisor",
+    "benefits": "Confirm tuition waiver and health insurance with SEFS graduate admissions",
+    "id": "item-263"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "M.S. Environmental Science & Management — GTA/RA funding (urban watersheds & water quality)",
+    "org": "Portland State University · Department of Environmental Science and Management · Portland, OR",
+    "deadline": "Application deadline January 15, 2027 — GTA interest must be indicated in the application",
+    "start": "Fall 2027 entry",
+    "body": "Portland State's Environmental Science and Management applications and graduate teaching assistantship interest indications are both due January 15, and applicants must indicate GTA interest in the application's dedicated section. Admission requires having already found a graduate advisor. Faculty research covers urban watersheds, water quality, restoration ecology, and GIS and remote sensing. Teaching assistantships include tuition covering nine credit hours with some also including a small stipend; academic-year research assistantships must include tuition per the Graduate Employee Union contract, with pay varying by project.",
+    "desc": "Portland State's urban-watershed and water-quality faculty are a direct match to Erin's Pigeon River contamination capstone — this is a department where her existing research would be legible and interesting rather than tangential. The union-guaranteed tuition on research assistantships is a genuinely meaningful protection that most programs do not offer, and it removes the worst-case scenario of being admitted without support. The January 15 deadline gives her a full autumn to do faculty outreach, and the requirement to indicate GTA interest inside the application is an easy thing to miss, so it is worth noting now. Advisor agreement is required before admission.",
+    "badge": "Top recommendation",
+    "pills": [
+      "Hard deadline Jan 15 2027",
+      "Urban watershed & water quality faculty",
+      "RA tuition union-guaranteed",
+      "GIS & remote sensing research",
+      "Must flag GTA interest in application",
+      "Requires advisor agreement first"
+    ],
+    "metaLine": "MS · GTA/RA with tuition · Portland OR · deadline Jan 15 2027",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2027-01-15",
+    "region": "West Coast / Pacific",
+    "links": [
+      {
+        "href": "https://www.pdx.edu/environmental-science/admissions-environmental-science-and-management-ms",
+        "label": "🔗 MS admissions — PSU ESM"
+      },
+      {
+        "href": "https://www.pdx.edu/environmental-science/",
+        "label": "🔗 PSU Environmental Science & Management"
+      }
+    ],
+    "url": "https://www.pdx.edu/environmental-science/admissions-environmental-science-and-management-ms",
+    "location": "Portland, OR",
+    "pay": "",
+    "stipend": "TA: tuition for 9 credit hours, some with a small stipend. RA: tuition guaranteed by union contract, pay varies by project",
+    "benefits": "Graduate Employee Union contract protections; confirm health insurance with the department",
+    "id": "item-264"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "M.S. — School of the Environment / Biological Sciences (published tuition waiver + stipend)",
+    "org": "Washington State University · Pullman, Vancouver and Tri-Cities, WA",
+    "deadline": "Contact first — appointments tied to specific faculty projects",
+    "start": "Negotiable with the advisor",
+    "body": "Washington State University funds most environment and biology master’s students on teaching or research assistantships carrying a tuition waiver, health insurance and a living stipend. Teaching and research appointments are nine-month academic-year appointments with full tuition waiver, health insurance and a living stipend; School of Biological Sciences master’s students are eligible for two years of 50-percent-time assistantship support with full tuition waiver and health benefits. The School of the Environment covers watershed and ecosystem science. Positions are tied to specific faculty projects, so advisor contact precedes application. Specific stipend dollar amounts are not published.",
+    "desc": "WSU is one of the very few Pacific programs that states master's-level funding as the norm rather than the exception — most schools fund PhD students and leave MS applicants to fend for themselves, so a published two-year commitment of tuition waiver plus health benefits is a meaningful differentiator. The School of the Environment's watershed and ecosystem science focus lines up with Erin's interests directly. Because appointments attach to specific faculty projects, the actionable step is identifying and emailing principal investigators now rather than waiting for a posting. The stipend dollar figure is not published, so that is the question to ask in the first exchange.",
+    "badge": "Strong fit",
+    "pills": [
+      "MS funding stated as the norm",
+      "Full tuition waiver + health insurance",
+      "Two years of support (Bio Sciences)",
+      "Watershed & ecosystem science",
+      "Three campus options",
+      "⚠️ Stipend amount not published"
+    ],
+    "metaLine": "MS · tuition waiver + stipend · Pullman / Vancouver / Tri-Cities WA · contact first",
+    "cycle": "current",
+    "deadline_kind": "contact",
+    "deadline_date": "",
+    "region": "West Coast / Pacific",
+    "links": [
+      {
+        "href": "https://environment.wsu.edu/graduate-studies/financial-support/",
+        "label": "🔗 Financial support — WSU School of the Environment"
+      },
+      {
+        "href": "https://labs.wsu.edu/manning/prospective-students/",
+        "label": "🔗 Quantitative Wildlife Ecology Lab (Dr. Jeff Manning) — ask about MS slots"
+      }
+    ],
+    "url": "https://environment.wsu.edu/graduate-studies/financial-support/",
+    "location": "Pullman, Vancouver and Tri-Cities, WA",
+    "pay": "",
+    "stipend": "Living stipend on 9-month TA/RA appointments — dollar amount not published; confirm with the advisor",
+    "benefits": "Full tuition waiver and health insurance; School of Biological Sciences MS students eligible for two years of 50%-time support",
+    "id": "item-265"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "M.S. Fisheries, Wildlife & Conservation Sciences / Wildlife Science — advisor-secured assistantships",
+    "org": "Oregon State University · Department of Fisheries, Wildlife and Conservation Sciences · Corvallis, OR",
+    "deadline": "Contact first — advisor and funding plan required before applying",
+    "start": "Negotiable with the advisor",
+    "body": "Oregon State requires applicants to secure a major advisor and a committed funding plan before submitting a full application. Research spans wildlife population dynamics, landscape ecology, freshwater and terrestrial conservation, and human dimensions; the Wildlife Science major emphasizes quantitative modeling of wildlife population dynamics and habitat across terrestrial and freshwater systems. Assistantships provide a monthly salary, tuition remission, and an institutional contribution toward mandatory fees and the graduate assistant health insurance premium. Specific stipend amounts are not published.",
+    "desc": "Oregon State's fisheries and wildlife program is among the strongest in the country for this field, and its landscape-ecology and monitoring labs run on exactly the methods Erin already has — camera-trap monitoring, small-mammal field work, and GIS suitability modeling. The advisor-first structure is not a barrier so much as a different kind of application: the real work is a well-aimed email demonstrating she understands a specific lab's research, which is something she can start today. Assistantships carry tuition remission and a health insurance contribution alongside salary. Corvallis is also where the ACE watershed monitoring placement on her list is based, which could be a useful sequence.",
+    "badge": "Strong fit",
+    "pills": [
+      "Top-tier fisheries & wildlife program",
+      "Landscape ecology & monitoring labs",
+      "Monthly salary + tuition remission",
+      "Health insurance contribution",
+      "Advisor-first — email labs now",
+      "⚠️ Stipend amount not published"
+    ],
+    "metaLine": "MS · salary + tuition remission · Corvallis OR · contact first",
+    "cycle": "current",
+    "deadline_kind": "contact",
+    "deadline_date": "",
+    "region": "West Coast / Pacific",
+    "links": [
+      {
+        "href": "https://fwcs.oregonstate.edu/fisheries-and-wildlife/how-apply-ms-or-phd-graduate-program",
+        "label": "🔗 How to apply — OSU FWCS"
+      },
+      {
+        "href": "https://fw.oregonstate.edu/fw-gs-guide/financial-support/graduate-assistantships",
+        "label": "🔗 Graduate assistantships — funding details"
+      }
+    ],
+    "url": "https://fwcs.oregonstate.edu/fisheries-and-wildlife/how-apply-ms-or-phd-graduate-program",
+    "location": "Corvallis, OR",
+    "pay": "",
+    "stipend": "Monthly salary on assistantship — amount not published; confirm with the prospective advisor",
+    "benefits": "Tuition remission plus institutional contribution toward mandatory fees and graduate assistant health insurance premium",
+    "id": "item-266"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "OPS Biological Scientist II — freshwater Long-Term Monitoring Team (sonar vegetation mapping)",
+    "org": "Florida Fish and Wildlife Conservation Commission · Eustis, FL",
+    "deadline": "Application deadline August 7, 2026",
+    "start": "Field-based OPS position",
+    "body": "Field-based support for the Florida Fish and Wildlife Conservation Commission's freshwater Long-Term Monitoring Team. Duties include statewide freshwater fish sampling with multiple net types, sonar mapping of aquatic vegetation, processing fish age structures, and maintaining field equipment and vessels. The role also involves database entry, report and map production, and outreach. The qualification path is a bachelor's degree plus one year of experience. Posted pay is $20.00 per hour.",
+    "desc": "Sonar mapping of aquatic vegetation plus map production is the standout here — it is applied remote sensing in an aquatic setting, which extends Erin's GIS skills into a technique she does not yet have and which relatively few entry-level candidates can claim. Long-term monitoring programs also teach protocol discipline and produce datasets that get published, both of which matter for graduate applications. The bachelor's-plus-one-year path fits her May 2025 degree combined with NCCC service. Statewide sampling means variety and travel. OPS is Florida's temporary classification, so this is not a permanent line.",
+    "badge": "Strong fit",
+    "pills": [
+      "Sonar aquatic vegetation mapping",
+      "Map production & database work",
+      "Long-Term Monitoring Team",
+      "BS + 1 year qualification path",
+      "$20.00/hour",
+      "⚠️ OPS = temporary classification"
+    ],
+    "metaLine": "OPS temporary · $20.00/hr · Eustis FL · deadline Aug 7 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-07",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://jobs.myflorida.com/job/EUSTIS-OPS-Biological-Scientist-II-77907361-FL-32726/1409266700/",
+        "label": "🔗 Full posting — Florida state jobs"
+      },
+      {
+        "href": "https://myfwc.com/get-involved/employment/",
+        "label": "🔗 FWC employment"
+      }
+    ],
+    "url": "https://jobs.myflorida.com/job/EUSTIS-OPS-Biological-Scientist-II-77907361-FL-32726/1409266700/",
+    "location": "Eustis, FL (statewide freshwater sampling)",
+    "pay": "$20.00 per hour",
+    "stipend": "",
+    "benefits": "Florida OPS temporary position — confirm benefit eligibility with FWC",
+    "id": "item-267"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "OPS Fish & Wildlife Technician — 12,000-acre WMA habitat management",
+    "org": "Florida Fish and Wildlife Conservation Commission · St. Cloud, FL",
+    "deadline": "Application deadline August 9, 2026",
+    "start": "OPS position, 1,920 hours per fiscal year",
+    "body": "A temporary habitat-management technician position working roughly 12,000 acres of wildlife management area. Duties include prescribed fire application, mechanical and chemical vegetation control, wildlife food plot establishment, hunter check station operation, and road and fence infrastructure maintenance. The role requires equipment operation including trucks, tractors and ATVs, plus public outreach on wildlife regulations. Posted pay is $18.23 per hour for 1,920 hours per fiscal year.",
+    "desc": "Prescribed fire application is the headline skill here — burn experience is one of the most consistently requested qualifications in state and federal wildlife hiring, and getting it early compounds in value for years. Managing 12,000 acres of wildlife management area also means real land-management responsibility rather than assisting on someone else's project, and it builds directly on Erin's AmeriCorps crew background. The work is physical and equipment-heavy, and the hunter check station and outreach components add a public-facing dimension. OPS is a temporary classification capped at 1,920 hours, so it is a season rather than a career line.",
+    "badge": "Good fit",
+    "pills": [
+      "Prescribed fire application",
+      "12,000-acre WMA",
+      "Vegetation control & food plots",
+      "Heavy equipment operation",
+      "$18.23/hour",
+      "⚠️ OPS temporary, 1,920 hrs"
+    ],
+    "metaLine": "OPS temporary · $18.23/hr · St. Cloud FL · deadline Aug 9 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-09",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://jobs.myflorida.com/job/ST_-CLOUD-OPS-Fish-&-Wildlife-Technician-77909059-FL-34773/1376368400/",
+        "label": "🔗 Full posting — Florida state jobs"
+      },
+      {
+        "href": "https://myfwc.com/get-involved/employment/",
+        "label": "🔗 FWC employment"
+      }
+    ],
+    "url": "https://jobs.myflorida.com/job/ST_-CLOUD-OPS-Fish-&-Wildlife-Technician-77909059-FL-34773/1376368400/",
+    "location": "St. Cloud, FL (approximately 12,000 acres of wildlife management area)",
+    "pay": "$18.23 per hour (1,920 hours per fiscal year)",
+    "stipend": "",
+    "benefits": "Florida OPS temporary position — confirm benefit eligibility with FWC",
+    "id": "item-268"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Environmental Specialist I — coastal permitting & resilience (Joint Coastal Permits)",
+    "org": "Florida DEP · Office of Resilience and Coastal Protection · Tallahassee, FL",
+    "deadline": "Application deadline August 2, 2026",
+    "start": "Full-time career service position",
+    "body": "An entry-level permitting and compliance role for coastal construction, processing Joint Coastal Permits and Environmental Resource Permits. Duties include evaluating environmental impacts to coastal systems, drafting technical reports, conducting construction compliance site inspections, and coordinating with applicants and regulatory agencies. The position requires diving or snorkeling validation under the DEP underwater operations manual. Posted salary is $43,230.00 to $44,000.00 annually.",
+    "desc": "Evaluating environmental impacts to beach, marine and wetland habitats draws directly on Erin's wetland delineation and ecological assessment training, applied to the coastal side of the permitting system. Coastal resilience is also where a great deal of state and federal money is heading, so building expertise there now is well-timed. The diving or snorkeling validation requirement is unusual and worth noting — it is a real prerequisite, not a preference, so she should confirm whether DEP trains and certifies new hires or expects them to arrive qualified. Full career service benefits and a starting salary above $43,000 make this a solid permanent entry.",
+    "badge": "Strong fit",
+    "pills": [
+      "Coastal permitting & compliance",
+      "Wetland & marine impact evaluation",
+      "$43,230–$44,000/year",
+      "Full state career service",
+      "Coastal resilience growth area",
+      "⚠️ Requires diving/snorkeling validation"
+    ],
+    "metaLine": "Career service · $43,230–$44,000/yr · Tallahassee FL · deadline Aug 2 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-02",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://jobs.myflorida.com/job/TALLAHASSEE-ENVIRONMENTAL-SPECIALIST-I-37001038-FL-32399/1404001200/",
+        "label": "🔗 Full posting — Florida state jobs"
+      },
+      {
+        "href": "https://floridadep.gov/jobs",
+        "label": "🔗 Florida DEP careers"
+      }
+    ],
+    "url": "https://jobs.myflorida.com/job/TALLAHASSEE-ENVIRONMENTAL-SPECIALIST-I-37001038-FL-32399/1404001200/",
+    "location": "Tallahassee, FL (coastal construction sites statewide)",
+    "pay": "$43,230.00–$44,000.00 annually",
+    "stipend": "",
+    "benefits": "Florida career service position — full state benefits including health and retirement",
+    "id": "item-269"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Biological Technician I — Scott Henderson Gulf Mountain WMA (part-time)",
+    "org": "Arkansas Game and Fish Commission · Scotland, AR",
+    "deadline": "Application deadline July 29, 2026",
+    "start": "Part-time",
+    "body": "A part-time technician position on Scott Henderson Gulf Mountain Wildlife Management Area focused on habitat management and area operations. Work includes prescribed burn program participation, biological data collection, infrastructure monitoring, and operation of tractors, ATVs, boats and chainsaws. A bachelor's degree in wildlife management or a related field is preferred. Posted salary is $39,925 to $61,706 annually on the full-time scale.",
+    "desc": "This is the third Arkansas Game and Fish technician posting in the same hiring round, and applying to all of them costs one application package — the agency is clearly staffing up across several wildlife management areas at once, which is good odds. Upland wildlife habitat work in the Ozarks is Appalachian-adjacent in structure, so Erin's regional ecological knowledge partly transfers. Prescribed burn participation is again the credential worth having. The limitation is the same as its Sylamore sibling: part-time, so it works as a supplement or an entry point rather than a primary income, and the posted salary reflects the full-time scale.",
+    "badge": "Good fit",
+    "pills": [
+      "Third AGFC posting this round",
+      "Prescribed burn program",
+      "Biological data collection",
+      "BS in wildlife preferred",
+      "Ozark upland habitat",
+      "⚠️ Part-time position"
+    ],
+    "metaLine": "Part-time state · $39,925–$61,706 full-time scale · Scotland AR · deadline Jul 29 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-29",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://jobs.agfc.com/postings/posting/3692/",
+        "label": "🔗 Full posting — Arkansas Game & Fish"
+      },
+      {
+        "href": "https://jobs.agfc.com/",
+        "label": "🔗 AGFC jobs portal"
+      }
+    ],
+    "url": "https://jobs.agfc.com/postings/posting/3692/",
+    "location": "Scotland, AR (Scott Henderson Gulf Mountain Wildlife Management Area)",
+    "pay": "$39,925–$61,706 annually on the full-time scale — part-time appointment, confirm prorated rate",
+    "stipend": "",
+    "benefits": "Arkansas state part-time position — confirm benefit eligibility with AGFC",
+    "id": "item-270"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 19, 2026"
+    },
+    "title": "Appalachian & Southeast Conservation Corps — additional fall crews & leader roles",
+    "org": "Conservation Legacy · Appalachian Conservation Corps & Southeast Conservation Corps · VA, WV, TN, NC",
+    "deadline": "Rolling, with the AmeriCorps Crew Leader deadline August 3, 2026",
+    "start": "Fall 2026 terms",
+    "body": "Additional fall 2026 crew and leadership postings across the Conservation Legacy southeastern corps beyond those already listed. Appalachian Conservation Corps has a Fall Remote Conservation Crew based in Beckley, West Virginia working backcountry public lands including the New River Gorge region, a Fall and Winter Timber Crew in Swoope, Virginia offering chainsaw certification and forest stand management, and an AmeriCorps Crew Leader position in Harrisonburg with an August 3 deadline at $675 per week. Southeast Conservation Corps has a Great Smoky Mountains Trail Crew running eight weeks from August 17 to October 9 and Assistant Crew Leader roles on both the fall and Smokies crews at $650 per week. Crew member roles pay $600 per week; Conservation Corps North Carolina also has Piedmont and Croatan vegetation management crews whose pay is not published.",
+    "desc": "This card collects the remaining Conservation Legacy fall openings so Erin can see the full ladder in one place rather than as scattered postings. The practical guidance is that her NCCC service qualifies her for the Assistant Crew Leader and Crew Leader tiers at $650 to $675 per week rather than the $600 member rate, so she should aim there. The Croatan crew is worth a specific look — that forest holds extensive pocosin wetland and longleaf pine systems, making it the most relevant to her wetland training of any crew in the group. The Beckley remote crew offers New River Gorge backcountry work, and the timber crew offers chainsaw certification.",
+    "badge": "Good fit",
+    "pills": [
+      "Leader tiers $650–$675/week",
+      "Crew member tier $600/week",
+      "Croatan pocosin wetlands crew",
+      "Chainsaw certification (timber crew)",
+      "New River Gorge backcountry",
+      "NCCC service qualifies her for leader roles"
+    ],
+    "metaLine": "Fall 2026 crews · $600–$675/wk by tier · VA/WV/TN/NC · rolling, leader deadline Aug 3",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://appalachiancc.org/open-positions",
+        "label": "🔗 Appalachian Conservation Corps — open positions"
+      },
+      {
+        "href": "https://southeastconservationcorps.org/open-positions",
+        "label": "🔗 Southeast Conservation Corps — open positions"
+      },
+      {
+        "href": "https://conservationcorpsnc.org/",
+        "label": "🔗 Conservation Corps North Carolina"
+      },
+      {
+        "href": "https://secure.entertimeonline.com/ta/conservationlegacy.careers?ShowJob=721996800",
+        "label": "🔗 Croatan Vegetation Crew (pocosin wetlands)"
+      }
+    ],
+    "url": "https://appalachiancc.org/open-positions",
+    "location": "Beckley WV · Swoope and Harrisonburg VA · Chattanooga TN and Great Smoky Mountains NP · Bahama NC",
+    "pay": "",
+    "stipend": "$600/week crew member · $650/week assistant crew leader · $675/week AmeriCorps crew leader · CCNC crews not published",
+    "benefits": "AmeriCorps terms — confirm Segal Education Award amounts with each corps",
+    "id": "item-271"
   }
 ]
