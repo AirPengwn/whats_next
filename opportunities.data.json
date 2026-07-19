@@ -6844,5 +6844,282 @@
     "stipend": "",
     "benefits": "Oregon state seasonal employment — confirm benefit eligibility with the hiring unit",
     "id": "item-155"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 18, 2026"
+    },
+    "title": "AmeriCorps Ecological Monitoring Technician — BLM Rock Springs (Great Basin Institute)",
+    "org": "Great Basin Institute · in partnership with the Bureau of Land Management, Rock Springs Field Office · Rock Springs, WY",
+    "deadline": "Applications due July 29, 2026. Apply through the Great Basin Institute applicant portal.",
+    "start": "20-week AmeriCorps term",
+    "body": "A 20-week AmeriCorps term monitoring riparian, wetland, and sage-grouse habitat at established and newly established BLM field sites in southwestern Wyoming. The technician collects GPS, photo-point, vegetation, wildlife, soil, and hydrologic data on standardized protocols. Posted benefits are a $1,320 biweekly living allowance (capped at $13,200 for the term), a $2,817 Segal AmeriCorps Education Award, free housing, and medical, dental, and vision coverage. The posting sets no degree floor and lists field experience as preferred rather than required.",
+    "desc": "This is the single best skills match found anywhere in this sweep. Riparian and wetland monitoring is the exact work Erin trained for under the Army Corps delineation manual; the vegetation, soil, and hydrologic data collection lines up with her trace-metal sediment sampling; and the GPS and photo-point work uses her GIS background daily. Free housing plus health coverage on top of the living allowance makes the effective compensation well above the usual corps term, and a second Segal award adds to her grad-school funding. Caveats: it is a 20-week seasonal term rather than a career track, and Rock Springs is an isolated posting.",
+    "badge": "Top recommendation",
+    "pills": [
+      "Riparian & wetland monitoring",
+      "Vegetation, soils & hydrology",
+      "GPS & photo points",
+      "Sage-grouse habitat",
+      "BLM",
+      "Free housing",
+      "AmeriCorps"
+    ],
+    "metaLine": "20-week AmeriCorps · $1,320 biweekly + $2,817 Segal + free housing & health · Rock Springs WY · apply by Jul 29, 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-29",
+    "region": "Mountain West",
+    "links": [
+      {
+        "href": "https://www.paycomonline.net/v4/ats/web.php/portal/A1ADEF5691B02D64E998539442696918/jobs/408697",
+        "label": "🔗 Great Basin Institute — apply"
+      },
+      {
+        "href": "https://www.thegreatbasininstitute.org/",
+        "label": "🔗 Great Basin Institute"
+      }
+    ],
+    "url": "https://www.paycomonline.net/v4/ats/web.php/portal/A1ADEF5691B02D64E998539442696918/jobs/408697",
+    "location": "Rock Springs, WY (BLM Rock Springs Field Office)",
+    "pay": "$1,320 biweekly living allowance (capped at $13,200 for the 20-week term)",
+    "stipend": "$1,320 biweekly AmeriCorps living allowance",
+    "benefits": "$2,817 Segal AmeriCorps Education Award; free housing; medical, dental, and vision coverage",
+    "id": "item-156"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 18, 2026"
+    },
+    "title": "Wolverine Technician — Wyoming Game & Fish Department (4 positions)",
+    "org": "Wyoming Game and Fish Department · Lander / Pinedale, WY",
+    "deadline": "Continuous — open until filled. Apply through the Wyoming state jobs portal (posting 2026-01790).",
+    "start": "November 2, 2026 – April 30, 2027",
+    "body": "Four temporary full-time technician positions running November 2, 2026 through April 30, 2027, supporting Wyoming's wolverine monitoring effort. Work centers on deploying and maintaining remote camera stations with bait and lure across high-elevation winter habitat, collecting genetic samples, and identifying wildlife from camera imagery with associated data entry. The posting requires excellent physical condition for winter backcountry travel by ski and snowmobile. Posted pay is $21.37 per hour. The stated preference is roughly two years of college coursework — well below Erin's completed BS.",
+    "desc": "Remote camera deployment plus photo identification and data management is precisely Erin's camera-trap monitoring and Wildlife Insights experience, applied to a charismatic and difficult-to-survey carnivore. Wolverine work is high-profile within the wildlife field and would stand out on both a grad-school application and a state or federal résumé. The pay is solid for a technician role and the qualification bar sits below her degree, making her a strong candidate rather than a marginal one. Honest caveats: it is a winter seasonal appointment, and the physical demands are real — sustained backcountry ski and snowmobile travel in high-elevation winter conditions.",
+    "badge": "Strong fit",
+    "pills": [
+      "Remote camera trapping",
+      "Wildlife photo ID",
+      "Genetic sampling",
+      "Carnivore monitoring",
+      "State agency",
+      "Winter field season"
+    ],
+    "metaLine": "Temporary Nov 2026–Apr 2027 · $21.37/hr · Lander/Pinedale WY · open until filled",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Mountain West",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/wyoming/jobs/5409905/wolverine-technician-2026-01790",
+        "label": "🔗 Wyoming state jobs — apply"
+      },
+      {
+        "href": "https://wgfd.wyo.gov/",
+        "label": "🔗 Wyoming Game & Fish Department"
+      }
+    ],
+    "url": "https://www.governmentjobs.com/careers/wyoming/jobs/5409905/wolverine-technician-2026-01790",
+    "location": "Lander / Pinedale, WY (high-elevation winter field sites)",
+    "pay": "$21.37 per hour",
+    "stipend": "",
+    "benefits": "Temporary state appointment — confirm benefit eligibility with the hiring unit",
+    "id": "item-157"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 18, 2026"
+    },
+    "title": "GIS Support Specialist — Wyoming Game & Fish Department",
+    "org": "Wyoming Game and Fish Department · Cheyenne, WY",
+    "deadline": "Continuous — open until filled. Apply through the Wyoming state jobs portal (posting 2026-01777).",
+    "start": "Rolling / as filled",
+    "body": "A permanent state position administering an agency-wide geospatial compliance application, deploying Esri web applications, writing Python automation, digitizing landscape features from imagery, and providing geoprocessing analyses on agency datasets. The posting explicitly accepts a bachelor's degree with 0–3 years of experience. Posted salary is $6,087.47–$6,763.47 per month.",
+    "desc": "A permanent, well-paid state position that is genuinely open to a new graduate — the 0–3 years band is stated, not inferred. Erin's multi-criteria suitability analysis is exactly the geoprocessing skill the role wants, and digitizing landscape features from imagery draws on her remote-sensing coursework. It would make her a GIS professional inside a wildlife agency, a durable and portable specialty that transfers cleanly to USFWS or USDA later. The honest gap is Python automation, which she would need to learn or credibly commit to learning; and the role is desk-based, so it trades field time for salary and permanence.",
+    "badge": "Good fit",
+    "pills": [
+      "GIS",
+      "Esri web applications",
+      "Python automation",
+      "Geoprocessing",
+      "Permanent state position",
+      "0–3 years accepted"
+    ],
+    "metaLine": "Permanent · $6,087–$6,763/month · Cheyenne WY · open until filled",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Mountain West",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/wyoming/jobs/5407405/gis-support-specialist-2026-01777",
+        "label": "🔗 Wyoming state jobs — apply"
+      },
+      {
+        "href": "https://wgfd.wyo.gov/",
+        "label": "🔗 Wyoming Game & Fish Department"
+      }
+    ],
+    "url": "https://www.governmentjobs.com/careers/wyoming/jobs/5407405/gis-support-specialist-2026-01777",
+    "location": "Cheyenne, WY",
+    "pay": "$6,087.47–$6,763.47 per month",
+    "stipend": "",
+    "benefits": "Full Wyoming state employee benefits (permanent position)",
+    "id": "item-158"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 18, 2026"
+    },
+    "title": "Land Conservation Specialist — Colorado West Land Trust",
+    "org": "Colorado West Land Trust · Montrose, CO",
+    "deadline": "Applications due September 1, 2026. Apply through the Colorado West Land Trust careers listing.",
+    "start": "Rolling / as filled",
+    "body": "A permanent full-time position developing land protection projects, drafting conservation easements, conducting annual easement monitoring, and managing project databases for a western Colorado land trust. The posting requires only a bachelor's degree in conservation, natural resources, or a related field — no master's and no years-of-experience floor. Posted pay range is $24.50–$31.75 per hour, with a stated hiring range of $22.50–$28.25 per hour.",
+    "desc": "A permanent, benefited conservation position that a 2025 BS graduate can actually qualify for, which is uncommon. The annual easement monitoring and project database work draw directly on Erin's GIS and field-documentation skills, and conservation easement practice is a distinct professional skill set — land protection, legal documentation, landowner relations — that would broaden her profile beyond field monitoring. Western Colorado also places her in a high-value conservation landscape. Caveats: it leans toward project development and landowner relations rather than field science, so it is a career-direction choice rather than a straight extension of her current path.",
+    "badge": "Good fit",
+    "pills": [
+      "Land protection",
+      "Conservation easements",
+      "Easement monitoring",
+      "GIS & databases",
+      "Land trust",
+      "Permanent, BS-eligible"
+    ],
+    "metaLine": "Permanent · hiring range $22.50–$28.25/hr · Montrose CO · apply by Sep 1, 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-01",
+    "region": "Mountain West",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-land-conservation-specialist-montrose-colorado/4025790041",
+        "label": "🔗 Conservation Job Board — listing"
+      },
+      {
+        "href": "https://coloradowestlandtrust.org/",
+        "label": "🔗 Colorado West Land Trust"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-land-conservation-specialist-montrose-colorado/4025790041",
+    "location": "Montrose, CO (western Colorado)",
+    "pay": "Posted range $24.50–$31.75/hr; stated hiring range $22.50–$28.25/hr",
+    "stipend": "",
+    "benefits": "Full-time permanent position — confirm benefit package with the hiring contact",
+    "id": "item-159"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 18, 2026"
+    },
+    "title": "Environmental Program Specialist 1 / Trainee 1 (NY HELPS) — NYS Dept. of Environmental Conservation",
+    "org": "New York State Department of Environmental Conservation · Division of Environmental Remediation · Albany, NY",
+    "deadline": "Applications due July 29, 2026. Apply through the New York State jobs portal (vacancy 219406).",
+    "start": "Permanent state appointment",
+    "body": "A permanent New York State position handling project management and field oversight for contaminated-site investigations and remediations, including construction inspection, with 50–70% statewide travel plus OSHA training and respirator certification. Under the NY HELPS program a bachelor's degree substitutes for the full experience requirement at the Trainee 1 level, making the position reachable directly from a BS. Posted salary is $53,764–$85,138 per year with full New York State benefits.",
+    "desc": "This is the rare posting where Erin's capstone is the qualification rather than a nice-to-have: her Pigeon River lead and trace-metal contamination work after Hurricane Helene maps almost one-to-one onto contaminated-site investigation, and her sediment sampling is the core field method. The NY HELPS pathway makes a permanent, well-paid state position genuinely reachable on a BS — the highest entry-level salary found anywhere in this sweep — and state environmental agency experience transfers cleanly toward federal service later. Caveats: 50–70% travel is substantial, and remediation is regulatory and engineering-flavored rather than ecological, so it is a deliberate pivot toward environmental contamination work.",
+    "badge": "Top recommendation",
+    "pills": [
+      "Contaminated site investigation",
+      "Sediment & trace metals",
+      "Field oversight",
+      "Permanent state position",
+      "BS-eligible via NY HELPS",
+      "$53k–$85k"
+    ],
+    "metaLine": "Permanent · $53,764–$85,138/yr · Albany NY (50–70% travel) · apply by Jul 29, 2026",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-29",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://statejobs.ny.gov/public/vacancyDetailsView.cfm?id=219406",
+        "label": "🔗 NYS jobs — apply"
+      },
+      {
+        "href": "https://dec.ny.gov/environmental-protection/site-cleanup",
+        "label": "🔗 NYSDEC Environmental Remediation"
+      }
+    ],
+    "url": "https://statejobs.ny.gov/public/vacancyDetailsView.cfm?id=219406",
+    "location": "Albany, NY (50–70% statewide travel)",
+    "pay": "$53,764–$85,138 per year",
+    "stipend": "",
+    "benefits": "Full New York State employee benefits; OSHA training and respirator certification provided",
+    "id": "item-160"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 18, 2026"
+    },
+    "title": "Environmental Habitat Specialist I — Kent Conservation District (Delaware)",
+    "org": "Kent Conservation District · in partnership with the Delaware Division of Fish & Wildlife · Port Penn, DE",
+    "deadline": "Open until filled — rolling. Apply through the posting on Conservation Job Board.",
+    "start": "Rolling / as filled",
+    "body": "A permanent, benefited position with a Delaware governmental subdivision, implementing conservation best-management practices across more than 68,000 acres of state wildlife areas. Duties include habitat restoration, wetland and retention-pond management, invasive species control, equipment operation, and ecological data collection. The posting requires a BS in wildlife management or an applied science with 0–1 years of experience. Posted salary is $46,412.56 per year.",
+    "desc": "Wetland management is written into the duties rather than merely adjacent to them, which makes this the closest thing on any board to a direct application of Erin's Army Corps delineation training. It is entry-level by design at 0–1 years, pays a real salary rather than a stipend, and is a permanent benefited position — and working inside a state Fish & Wildlife partnership builds exactly the record a USFWS hiring panel reads well. The rolling deadline means she can apply immediately. Caveat: it is applied land management with a meaningful equipment-operation component, so it is hands-on stewardship rather than research.",
+    "badge": "Strong fit",
+    "pills": [
+      "Wetland management",
+      "Habitat restoration",
+      "Invasive species control",
+      "Ecological data collection",
+      "Permanent + benefits",
+      "0–1 years"
+    ],
+    "metaLine": "Permanent · $46,412/yr · Port Penn DE · open until filled",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-environmental-habitat-specialist-i-port-penn-delaware/9754308792",
+        "label": "🔗 Conservation Job Board — listing"
+      },
+      {
+        "href": "https://dnrec.delaware.gov/fish-wildlife/",
+        "label": "🔗 Delaware Division of Fish & Wildlife"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-environmental-habitat-specialist-i-port-penn-delaware/9754308792",
+    "location": "Port Penn, DE (68,000+ acres of Delaware state wildlife areas)",
+    "pay": "$46,412.56 per year",
+    "stipend": "",
+    "benefits": "Permanent benefited position with a Delaware governmental subdivision",
+    "id": "item-161"
   }
 ]
