@@ -17100,5 +17100,429 @@
     "stipend": "",
     "benefits": "Confirm benefits with Insignia Environmental",
     "id": "item-383"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Careers",
+    "src": "erin_jobs.html",
+    "src_label": "Careers",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Biologist & Biological Science Technician — USFWS Mississippi Delta refuges (2 permanent roles)",
+    "org": "U.S. Fish and Wildlife Service",
+    "deadline": "July 31, 2026",
+    "start": "2026",
+    "body": "Two permanent federal positions with the U.S. Fish and Wildlife Service at the Theodore Roosevelt National Wildlife Refuge Complex in Yazoo City, Mississippi. The Biologist role, starting at $55,000, covers waterfowl and migratory bird survey, moist-soil and bottomland hardwood wetland management, and habitat monitoring, with a bachelor's degree as the stated education requirement. The Biological Science Technician role, starting at $45,000, supports refuge habitat management through vegetation and wildlife survey, water-level management on moist-soil units, and data collection supporting refuge biologists. Both close July 31.",
+    "desc": "This is the closest thing to your stated goal that appeared anywhere in this sweep: permanent USFWS positions, doing wetland management, explicitly open at the bachelor's level. Permanent matters enormously here — most federal entry points are seasonal or term appointments, and permanent status brings tenure, benefits and internal transfer rights that seasonal work never does. Moist-soil unit management is applied wetland hydrology, which is your specialism approached from the management side. Apply to both: they are separate announcements, so applying twice genuinely doubles your chances rather than splitting them, and the technician role is your fallback if the biologist certificate goes to someone with more experience.",
+    "badge": "Top recommendation",
+    "pills": [
+      "⏰ Both close Jul 31",
+      "PERMANENT federal, not seasonal or term",
+      "BS is the stated education requirement",
+      "Apply to BOTH — separate announcements",
+      "Moist-soil wetland management",
+      "$55,000 biologist / $45,000 technician"
+    ],
+    "metaLine": "Deadline Jul 31, 2026 · $45,000–$55,000 · Yazoo City, MS · permanent USFWS",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117585",
+        "label": "🔗 Biologist — USFWS Theodore Roosevelt NWR Complex ($55,000)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117586",
+        "label": "🔗 Biological Science Technician — USFWS ($45,000)"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117585",
+    "location": "Yazoo City, Mississippi (Theodore Roosevelt NWR Complex, Mississippi Delta)",
+    "pay": "Starting at $55,000 per year (Biologist) · starting at $45,000 per year (Biological Science Technician)",
+    "stipend": "",
+    "benefits": "Federal benefits: health, dental, vision, FERS retirement, paid leave",
+    "id": "item-384"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Careers",
+    "src": "erin_jobs.html",
+    "src_label": "Careers",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Wetland Biologist / Botanist — delineation & jurisdictional determinations (North Carolina)",
+    "org": "Dr. J. H. Carter III and Associates",
+    "deadline": "July 30, 2026",
+    "start": "2026",
+    "body": "An environmental consulting firm in the North Carolina Sandhills hiring a wetland biologist and botanist. The work centers on wetland delineation, jurisdictional determinations, and plant community identification supporting permitting and endangered-species projects. The posting does not publish a salary figure.",
+    "desc": "The job title is literally your training. Wetland delineation under the Army Corps manual and jurisdictional determinations are the specific certifications you hold, and this firm wants them as the core function rather than as one duty among many. It is also in North Carolina, so you would not have to relocate. Jurisdictional determination work is worth understanding as a career asset: it is the legally consequential judgment about whether a wetland falls under federal jurisdiction, and people who can make and defend those calls become expensive and hard to replace. The one gap is that pay is unpublished, so ask early. The plant identification requirement may be your stretch — Sandhills flora is specialized.",
+    "badge": "Top recommendation",
+    "pills": [
+      "Job title = your exact training",
+      "Wetland delineation + jurisdictional determinations",
+      "In North Carolina — no relocation",
+      "JD work becomes a high-value career asset",
+      "⚠️ Salary not published — ask early",
+      "⚠️ Sandhills plant ID may be a stretch"
+    ],
+    "metaLine": "Deadline Jul 30, 2026 · pay not published · Southern Pines, NC · wetland delineation",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-30",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=116784",
+        "label": "🔗 Wetland Biologist/Botanist — Dr. J. H. Carter III and Associates"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=116784",
+    "location": "Southern Pines, North Carolina (NC Sandhills)",
+    "pay": "Not published — confirm with the firm",
+    "stipend": "",
+    "benefits": "Confirm benefits with the firm",
+    "id": "item-385"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Careers",
+    "src": "erin_jobs.html",
+    "src_label": "Careers",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Conservation GIS Analyst — statewide biodiversity datasets (remote allowed)",
+    "org": "Florida Natural Areas Inventory, Florida State University",
+    "deadline": "July 20, 2026 — ⚠️ closes today, verify",
+    "start": "2026",
+    "body": "The Florida Natural Areas Inventory's conservation GIS analyst builds and maintains statewide spatial datasets covering managed areas, conservation lands and biodiversity. The work includes spatial analysis, cartography and data quality assurance supporting Florida conservation planning. It is a bachelor's-level position starting at $52,000 with remote work allowed.",
+    "desc": "This is a pure GIS conservation analyst role at $52,000 — well above field technician pay — and it is the kind of position your multi-criteria suitability modeling was training for. Natural heritage inventories are the organizations that maintain a state's authoritative biodiversity data, so the work has real weight behind it. Remote flexibility is unusual and valuable. The problem is timing: the listed close date is today, so this may already be gone. Check immediately, and if it has closed, note that natural heritage programs exist in every state and recruit for near-identical roles — this is a job type worth setting alerts for rather than a one-off.",
+    "badge": "Top recommendation",
+    "pills": [
+      "⚠️ Listed closing TODAY — check immediately",
+      "$52,000 for a pure GIS analyst role",
+      "Remote work allowed",
+      "Statewide biodiversity spatial datasets",
+      "Bachelor's-level position",
+      "Every state has a heritage program — set alerts"
+    ],
+    "metaLine": "Closes Jul 20, 2026 (verify) · from $52,000 · Tallahassee, FL (remote allowed) · GIS analyst",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-20",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117337",
+        "label": "🔗 FL Conservation GIS Analyst — Florida Natural Areas Inventory"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117337",
+    "location": "Tallahassee, Florida (remote work allowed)",
+    "pay": "Starting at $52,000 per year",
+    "stipend": "",
+    "benefits": "Florida State University staff benefits — confirm",
+    "id": "item-386"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Careers",
+    "src": "erin_jobs.html",
+    "src_label": "Careers",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Environmental Specialist III — TMDL Developer (impaired waters)",
+    "org": "Florida Department of Environmental Protection",
+    "deadline": "July 27, 2026",
+    "start": "2026",
+    "body": "A Florida Department of Environmental Protection position developing Total Maximum Daily Loads for impaired Florida waterbodies. The work involves water-quality data analysis, pollutant load modeling and technical report writing under the Clean Water Act, at $4,465.05 per month.",
+    "desc": "TMDL development is the regulatory heart of water-quality work in the United States. A Total Maximum Daily Load is the calculation of how much of a pollutant a waterbody can receive and still meet standards — which is, in essence, the formal version of the question your Pigeon River capstone asked about lead and trace metals. Doing this work teaches you the Clean Water Act from the inside, and TMDL experience transfers to every state environmental agency and to EPA. This is arguably the strongest match on your entire list between what you studied and what a job actually does day to day. The deadline is July 27.",
+    "badge": "Top recommendation",
+    "pills": [
+      "⏰ Deadline Jul 27",
+      "TMDL = the formal version of your capstone question",
+      "Teaches the Clean Water Act from the inside",
+      "Transfers to every state agency and EPA",
+      "Pollutant load modeling & data analysis",
+      "$4,465/month state position"
+    ],
+    "metaLine": "Deadline Jul 27, 2026 · $4,465.05/month · Tallahassee, FL · Clean Water Act TMDLs",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-27",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117581",
+        "label": "🔗 Environmental Specialist III — TMDL Developer, Florida DEP"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117581",
+    "location": "Tallahassee, Florida",
+    "pay": "$4,465.05 per month",
+    "stipend": "",
+    "benefits": "State of Florida employee benefits",
+    "id": "item-387"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Funded MS — modeling wetland reforestation, Lower Mississippi Alluvial Valley",
+    "org": "University of Arkansas at Monticello",
+    "deadline": "July 31, 2026",
+    "start": "2026",
+    "body": "A funded master's assistantship modeling bottomland hardwood wetland reforestation outcomes in the Lower Mississippi Alluvial Valley. The project combines spatial modeling, field vegetation sampling and restoration science, starting at $20,000 per year.",
+    "desc": "Look at what this project actually combines: wetlands, spatial modeling and ecological restoration. Those are three of your four stated interests in a single thesis, and the methods are the ones you already have — GIS modeling plus field vegetation sampling. The Lower Mississippi Alluvial Valley is also the largest wetland restoration effort in North America, so the work sits inside a well-funded, professionally networked landscape rather than an isolated project. The honest caveat is the stipend: $20,000 is at the low end of what is on your list, noticeably below the $28,000 to $35,000 offered elsewhere. Weigh the exceptional topical fit against that, and ask what tuition and health coverage come with it.",
+    "badge": "Top recommendation",
+    "pills": [
+      "Wetlands + spatial modeling + restoration in one thesis",
+      "Uses the exact methods you already have",
+      "Largest wetland restoration landscape in N. America",
+      "⏰ Deadline Jul 31",
+      "⚠️ $20,000 is low vs other options on your list",
+      "Ask about tuition & health coverage"
+    ],
+    "metaLine": "Deadline Jul 31, 2026 · from $20,000/year · Monticello, AR · MS wetland modeling",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117371",
+        "label": "🔗 MS GRA — Modeling Wetland Reforestation, U. Arkansas Monticello"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117371",
+    "location": "Monticello, Arkansas (Lower Mississippi Alluvial Valley)",
+    "pay": "",
+    "stipend": "Starting at $20,000 per year",
+    "benefits": "Confirm tuition waiver and health coverage with the program",
+    "id": "item-388"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Funded MS & PhD — aquatic ecology, harmful algal blooms & water quality",
+    "org": "Auburn University",
+    "deadline": "November 14, 2026",
+    "start": "2027",
+    "body": "Funded master's and doctoral assistantships in aquatic ecology at Auburn University, focused on harmful algal blooms, nutrient dynamics and water-quality drivers. The work includes field limnology, laboratory analysis and data modeling at a major land-grant university, at $30,000 to $35,000 per year.",
+    "desc": "At $30,000 to $35,000 this is among the best-funded assistantships in the Southeast, and the November 14 deadline gives you nearly four months to build a genuinely strong application rather than rushing. Harmful algal blooms are a nutrient and water-quality problem, so the lab is working the same broad question as your capstone from the nutrient side rather than the metals side — your analytical and field sampling experience transfers directly. Auburn is a major land-grant with the funding and professional network that implies. Given the deadline runway, this is one to email the PI about now, visit if you can, and apply to properly.",
+    "badge": "Top recommendation",
+    "pills": [
+      "$30,000–$35,000 — top Southeast funding",
+      "Deadline Nov 14 — nearly 4 months to prepare",
+      "Water quality & nutrient dynamics",
+      "Field limnology + lab analysis + modeling",
+      "Major land-grant network",
+      "Email the PI now, apply properly"
+    ],
+    "metaLine": "Deadline Nov 14, 2026 · $30,000–$35,000 · Auburn, AL · MS or PhD",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-11-14",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=95971",
+        "label": "🔗 PhD & MS GRAs — Aquatic Ecology & Harmful Algal Blooms, Auburn"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=95971",
+    "location": "Auburn, Alabama",
+    "pay": "",
+    "stipend": "$30,000–$35,000 per year",
+    "benefits": "Confirm tuition waiver and health coverage with the program",
+    "id": "item-389"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Funded PhD — wetland & aquatic biogeochemistry (contaminant cycling)",
+    "org": "Louisiana State University",
+    "deadline": "September 30, 2026",
+    "start": "2027",
+    "body": "A funded doctoral assistantship in Louisiana State University's wetland and aquatic biogeochemistry lab, studying nutrient and contaminant cycling in coastal and freshwater wetlands, starting at $31,000 per year. The posting lists a master's preference, though direct entry from a strong bachelor's is common in this field.",
+    "desc": "Wetland contaminant biogeochemistry is the direct scientific lineage of your Pigeon River work — you studied how trace metals move and accumulate in a river system, and this lab studies how contaminants and nutrients cycle through wetlands. That is the same science at a deeper level. At $31,000 the funding is strong. The master's preference is the obstacle to be clear-eyed about: it is a preference rather than a requirement, and direct-from-BS PhD entry is genuinely common in biogeochemistry, but you would be arguing against the stated ideal. Email the PI before applying, lead with your capstone as evidence you already do this work, and ask directly whether they would consider a BS applicant.",
+    "badge": "Strong fit",
+    "pills": [
+      "Direct scientific lineage of your capstone",
+      "$31,000/year",
+      "Deadline Sep 30",
+      "⚠️ MS preferred — but direct-from-BS is common",
+      "Email the PI FIRST and ask",
+      "Lead with your capstone as evidence"
+    ],
+    "metaLine": "Deadline Sep 30, 2026 · from $31,000/year · Baton Rouge, LA · PhD",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-30",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117223",
+        "label": "🔗 PhD Assistantship — Wetland & Aquatic Biogeochemistry Lab, LSU"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117223",
+    "location": "Baton Rouge, Louisiana",
+    "pay": "",
+    "stipend": "Starting at $31,000 per year",
+    "benefits": "Confirm tuition waiver and health coverage with the lab",
+    "id": "item-390"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Funded GRA — contaminant fate & transport in soil and water (Wang Lab)",
+    "org": "University of Florida",
+    "deadline": "October 31, 2026",
+    "start": "2027",
+    "body": "A funded graduate research assistantship in a University of Florida lab studying contaminant fate and transport in soil and water systems, including emerging contaminants and nanomaterials. The work combines laboratory geochemistry with environmental modeling, at $30,000 per year.",
+    "desc": "Contaminant fate and transport is the graduate-level formalization of exactly what you did as an undergraduate — your capstone tracked where lead and trace metals went in a river system after a hurricane, which is a fate and transport question. This lab does that science systematically, with laboratory geochemistry you have hands-on experience in. At $30,000 with an October 31 deadline you have both good funding and time to prepare. The emerging-contaminants and nanomaterials angle is newer ground, but it is an area with substantial research funding behind it, which tends to mean stable support and good job prospects afterward.",
+    "badge": "Top recommendation",
+    "pills": [
+      "Fate & transport = the formal version of your capstone",
+      "$30,000/year",
+      "Deadline Oct 31 — time to prepare properly",
+      "Lab geochemistry you already know",
+      "Emerging contaminants = well-funded area",
+      "University of Florida"
+    ],
+    "metaLine": "Deadline Oct 31, 2026 · $30,000/year · Gainesville, FL · contaminant fate & transport",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-10-31",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117133",
+        "label": "🔗 Graduate Research Assistant (Wang Lab) — University of Florida"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117133",
+    "location": "Gainesville, Florida",
+    "pay": "",
+    "stipend": "$30,000 per year",
+    "benefits": "Confirm tuition waiver and health coverage with the lab",
+    "id": "item-391"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Careers",
+    "src": "erin_jobs.html",
+    "src_label": "Careers",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Research Assistant — dedicated water sciences institute, Savannah River",
+    "org": "Phinizy Center for Water Sciences",
+    "deadline": "August 15, 2026",
+    "start": "2026",
+    "body": "A research assistant position at a dedicated water-sciences institute on the Savannah River in Augusta, Georgia. The work includes water-quality sampling, laboratory analysis, macroinvertebrate and wetland monitoring, and data entry, at $12 to $15 per hour.",
+    "desc": "Institutionally this is the closest match on your list — an organization whose entire purpose is water science, doing water-quality sampling, laboratory analysis and wetland monitoring, which is a near-complete list of your skills. Working somewhere singularly focused rather than at an organization where water is one program among many means faster skill development and mentors who do exactly what you want to do. The obvious problem is pay: $12 to $15 an hour is the lowest rate on your list and below a living wage in most places. Weigh it as a short, high-learning stepping stone rather than a sustainable position, and only if the cost of living works out.",
+    "badge": "Good fit",
+    "pills": [
+      "Institution devoted entirely to water science",
+      "Water-quality sampling + lab + wetland monitoring",
+      "Mentors doing exactly your target work",
+      "⚠️ $12–$15/hour — lowest pay on your list",
+      "Treat as a short stepping stone",
+      "Savannah River, Augusta GA"
+    ],
+    "metaLine": "Deadline Aug 15, 2026 · $12–$15/hour · Augusta, GA · water sciences institute",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-15",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=116543",
+        "label": "🔗 Research Assistant — Phinizy Center for Water Sciences"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=116543",
+    "location": "Augusta, Georgia (Savannah River)",
+    "pay": "$12–$15 per hour",
+    "stipend": "",
+    "benefits": "Confirm benefits with the center",
+    "id": "item-392"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Careers",
+    "src": "erin_jobs.html",
+    "src_label": "Careers",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Staff Scientist / Biologist — Appalachian stream & wetland assessment",
+    "org": "Alliance Consulting Inc.",
+    "deadline": "December 1, 2026",
+    "start": "Rolling",
+    "body": "An environmental consulting staff scientist position in Beaver, West Virginia, working on stream and wetland assessments, water-quality sampling and permitting support for Appalachian projects. It is a bachelor's-level entry position with an unusually long application window running to December 1, 2026. Salary is not published.",
+    "desc": "Same landscape, same sampling work, same problems as your capstone — southern West Virginia is Appalachian stream country with the mining legacy and water-quality issues you already understand. Stream and wetland assessment plus water-quality sampling is a direct list of your competencies, and consulting is where wetland delineation becomes billable. The long December window is genuinely useful: it means you can apply to the imminent-deadline positions on your list first and still have this in reserve, rather than choosing between them. Pay is unpublished, so ask early in the conversation.",
+    "badge": "Strong fit",
+    "pills": [
+      "Appalachian streams — your capstone landscape",
+      "Stream & wetland assessment + water sampling",
+      "Bachelor's-level entry position",
+      "Long window to Dec 1 — good fallback option",
+      "Delineation is billable in consulting",
+      "⚠️ Salary not published — ask early"
+    ],
+    "metaLine": "Deadline Dec 1, 2026 · pay not published · Beaver, WV · Appalachian consulting",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-12-01",
+    "region": "Southeast & Appalachia",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=108661",
+        "label": "🔗 Staff Scientist/Biologist — Alliance Consulting Inc."
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=108661",
+    "location": "Beaver, West Virginia",
+    "pay": "Not published — confirm with the firm",
+    "stipend": "",
+    "benefits": "Confirm benefits with the firm",
+    "id": "item-393"
   }
 ]
