@@ -16932,5 +16932,173 @@
     "stipend": "",
     "benefits": "Confirm benefits with the firm",
     "id": "item-379"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Careers",
+    "src": "erin_jobs.html",
+    "src_label": "Careers",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Wildlife District Biologist (Natural Resources Specialist I–III) — BS, no experience",
+    "org": "Texas Parks and Wildlife Department",
+    "deadline": "July 29, 2026",
+    "start": "2026",
+    "body": "A district wildlife biologist role with Texas Parks and Wildlife covering four Panhandle counties — Collingsworth, Donley, Gray and Hemphill. Duties span wildlife population and habitat monitoring, technical guidance to private landowners, and administration of public hunting programs. The posting is tiered Natural Resources Specialist I through III, and a bachelor's degree is accepted with no prior experience required at the entry tier.",
+    "desc": "A district biologist post open to a BS with zero experience is a genuinely unusual find — most state agencies gate the biologist title behind two or more years, and technicians can wait a long time to cross that line. Starting your career already carrying the title changes how every subsequent application reads. The private-landowner technical guidance component is also the skill that transfers most directly into federal USDA and USFWS work, since both agencies deliver most of their conservation through private landowners. At $4,504 to $5,824 a month this pays well above typical entry conservation work.",
+    "badge": "Top recommendation",
+    "pills": [
+      "⏰ Deadline Jul 29",
+      "BIOLOGIST title at entry, no experience needed",
+      "$4,504–$5,824/month",
+      "Private-landowner guidance = USDA/USFWS skill",
+      "Four-county Panhandle district",
+      "Tiered I–III with room to promote"
+    ],
+    "metaLine": "Deadline Jul 29, 2026 · $4,504–$5,824/month · Texas Panhandle · BS, no experience",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-29",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117526",
+        "label": "🔗 Wildlife District Biologist — Texas Parks & Wildlife"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117526",
+    "location": "Texas Panhandle (Collingsworth, Donley, Gray and Hemphill counties)",
+    "pay": "$4,504.18–$5,824.14 per month",
+    "stipend": "",
+    "benefits": "State of Texas employee benefits",
+    "id": "item-380"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Habitat Restoration Fellow — Bitter Lake NWR wetlands (federal hiring eligibility)",
+    "org": "American Conservation Experience (ACE) with USFWS",
+    "deadline": "Rolling",
+    "start": "2026",
+    "body": "An AmeriCorps fellowship embedded with the U.S. Fish and Wildlife Service at Bitter Lake National Wildlife Refuge near Roswell, New Mexico, working on wetland and riparian habitat restoration in the Pecos River valley. The position pays a $600 per week living allowance with up to $200 in gear reimbursement. Members who complete 640 hours of service become eligible for federal direct-hire authority.",
+    "desc": "This is the clearest single path to your stated goal that appeared anywhere this week. You would do wetland and riparian restoration — your specialism — on a USFWS refuge, supervised by USFWS staff, and at 640 hours you earn Public Land Corps non-competitive hiring eligibility. That eligibility lets USFWS hire you directly for permanent positions without competing through the normal announcement process, which is the single hardest barrier between a BS graduate and a federal career. One mechanical detail worth knowing: the two-year eligibility clock runs to your onboarding date, not your application date, so plan to use it promptly once earned.",
+    "badge": "Top recommendation",
+    "pills": [
+      "640 hours → federal DIRECT-HIRE eligibility",
+      "Wetland & riparian restoration = your specialism",
+      "Embedded with USFWS on a refuge",
+      "$600/week + gear reimbursement",
+      "Bypasses the hardest federal hiring barrier",
+      "⚠️ 2-year clock runs to ONBOARDING, not application"
+    ],
+    "metaLine": "Rolling · $600/week · Roswell, NM · USFWS refuge + federal hiring eligibility",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://usaconservation.applicantpool.com/jobs/1314490.html",
+        "label": "🔗 Habitat Restoration Fellow — ACE / Bitter Lake NWR"
+      }
+    ],
+    "url": "https://usaconservation.applicantpool.com/jobs/1314490.html",
+    "location": "Roswell, New Mexico (Bitter Lake NWR, Pecos River valley)",
+    "pay": "",
+    "stipend": "$600 per week living allowance",
+    "benefits": "Up to $200 gear reimbursement; 640 service hours confer federal direct-hire (Public Land Corps) eligibility",
+    "id": "item-381"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Vegetation Monitoring Botany Assistant — NPS Sonoran Desert Network ($870/week)",
+    "org": "National Park Service Inventory & Monitoring Program",
+    "deadline": "August 14, 2026",
+    "start": "2026",
+    "body": "A field assistant position on National Park Service Sonoran Desert Network vegetation monitoring crews, based in Tucson, Arizona, collecting long-term plot data across southwestern park units. A bachelor's degree and roughly one year of experience are expected. The position pays $870 per week.",
+    "desc": "The Inventory and Monitoring program is worth understanding as a credential: it is the National Park Service's long-term ecological monitoring backbone, and its field protocols are standardized across the whole system. Learning I&M protocols means you can work at any park network afterward, and it is exactly the experience that federal ecological positions screen for. At $870 a week this also pays substantially better than most seasonal field work. Your wetland delineation background is directly relevant because both are standardized plot-based assessment — you already know how to work a protocol precisely, which is the core competency here.",
+    "badge": "Strong fit",
+    "pills": [
+      "$870/week — high for seasonal field work",
+      "NPS I&M protocols transfer system-wide",
+      "Plot-based monitoring = delineation discipline",
+      "Federal experience on your record",
+      "Sonoran Desert Network, multiple park units",
+      "~1 year experience expected"
+    ],
+    "metaLine": "Deadline Aug 14, 2026 · $870/week · Tucson, AZ · NPS Inventory & Monitoring",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-14",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117670",
+        "label": "🔗 Vegetation Monitoring Botany Assistant — NPS Sonoran Desert Network"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117670",
+    "location": "Tucson, Arizona (southwestern NPS units)",
+    "pay": "$870 per week",
+    "stipend": "",
+    "benefits": "Confirm benefits with the program",
+    "id": "item-382"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Careers",
+    "src": "erin_jobs.html",
+    "src_label": "Careers",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Qualified Desert Tortoise Biologist / Monitor — $50–$55/hour",
+    "org": "Insignia Environmental",
+    "deadline": "September 2, 2026",
+    "start": "2026",
+    "body": "Desert tortoise monitoring biologist positions supporting compliance on Mojave Desert projects at Fort Irwin, California, conducting surveys and construction monitoring under U.S. Fish and Wildlife Service protocols. A bachelor's degree with roughly two years of experience is expected, at $50 to $55 per hour.",
+    "desc": "The rate is the headline — $50 to $55 an hour is roughly double most field biology work, and it exists because USFWS-authorized desert tortoise handling is a gated credential that relatively few people hold. That is the strategic point: becoming an authorized tortoise biologist is a portable, durable qualification that keeps paying across the entire desert Southwest. Working to USFWS protocols also puts agency-standard practice on your record. Be realistic that the two-year experience requirement is a genuine barrier here since authorization normally requires documented survey hours — but it is worth knowing this track exists and asking what the path to authorization looks like.",
+    "badge": "Good fit",
+    "pills": [
+      "$50–$55/hour — roughly double typical field pay",
+      "USFWS-authorized credential is gated & portable",
+      "Works to USFWS protocols",
+      "Keeps paying across the desert Southwest",
+      "⚠️ Authorization normally needs documented hours",
+      "Ask about the path to authorization"
+    ],
+    "metaLine": "Deadline Sep 2, 2026 · $50–$55/hour · Fort Irwin, CA (Mojave) · USFWS protocols",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-02",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=116958",
+        "label": "🔗 Qualified Desert Tortoise Biologists / Monitors — Insignia Environmental"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=116958",
+    "location": "Fort Irwin, California (Mojave Desert)",
+    "pay": "$50–$55 per hour",
+    "stipend": "",
+    "benefits": "Confirm benefits with Insignia Environmental",
+    "id": "item-383"
   }
 ]
