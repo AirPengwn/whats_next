@@ -15584,5 +15584,341 @@
     "stipend": "$9,636 per year (NWYC AmeriCorps Crew Member)",
     "benefits": "AmeriCorps Education Awards on member terms; confirm housing and benefits per program",
     "id": "item-347"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Careers",
+    "src": "erin_jobs.html",
+    "src_label": "Careers",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Physical Scientist (Environmental) — Air Force PALACE Acquire recent-graduate program",
+    "org": "U.S. Air Force — Air Force Civilian Career Training",
+    "deadline": "September 28, 2026",
+    "start": "Negotiable after selection",
+    "body": "This is the environmental physical-scientist track of the Air Force PALACE Acquire program, the sibling posting to the biological-scientist track already on your list. PALACE Acquire is the Air Force's centrally funded recent-graduate development program: you enter at GS-07 or GS-09, follow a three-year formal training plan with built-in yearly salary increases, and convert to a permanent civilian position on completion. The work centers on environmental monitoring, contamination assessment, and environmental compliance support at Air Force installations, across 48 named sites including Gunter and Maxwell AFB in Alabama, Davis-Monthan in Arizona, Edwards, Los Angeles, Travis and Vandenberg in California, and the Air Force Academy and Buckley in Colorado. This is a genuine nationwide permanent-hire pipeline, not one of the resume-bank placeholder announcements that dominate federal natural-resources searches.",
+    "desc": "One thing to check before you spend time on this: the physical-scientist track has a different basic requirement than the biological one. It asks for a degree in physical science, engineering, or mathematics that includes at least 24 semester hours of physical science or related engineering science. An Environmental Science BS often clears that through chemistry, geology, hydrology and soils coursework, but it depends on your specific transcript — count those hours before applying. If you do qualify, this is arguably the better-matched of the two PALACE tracks for you: contamination assessment and environmental monitoring is precisely what your Pigeon River lead and trace-metal sediment capstone was. Your 3.731 GPA also clears the Superior Academic Achievement threshold of 2.95, which is what qualifies you for direct GS-07 entry rather than GS-05.",
+    "badge": "Strong fit",
+    "pills": [
+      "Permanent federal after 3-year plan",
+      "GPA 3.731 clears the 2.95 SAA threshold",
+      "48 installations nationwide",
+      "⚠️ Verify 24 semester hours physical science",
+      "Contamination assessment = your capstone",
+      "Sibling posting to #0215"
+    ],
+    "metaLine": "Deadline Sep 28, 2026 · $49,960–$99,314 · 48 installations nationwide · recent-graduate pipeline",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-28",
+    "region": "National / Remote / Multiple",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/846709200",
+        "label": "🔗 USAJOBS — Physical Scientist (Environmental) PALACE Acquire"
+      }
+    ],
+    "url": "https://www.usajobs.gov/job/846709200",
+    "location": "48 Air Force installations nationwide (AL, AZ, CA, CO and others)",
+    "pay": "$49,960–$99,314 per year (GS-07 to GS-09 entry, yearly increases across the 3-year plan)",
+    "stipend": "",
+    "benefits": "Full federal civilian benefits: health, dental and vision insurance, FERS retirement, paid leave and federal holidays",
+    "id": "item-348"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Careers",
+    "src": "erin_jobs.html",
+    "src_label": "Careers",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Resource Conservation Technician — erosion, sediment & stream/wetland projects",
+    "org": "Elk County Conservation District (Pennsylvania)",
+    "deadline": "August 14, 2026",
+    "start": "2026",
+    "body": "A full-time county conservation district position in Saint Marys, Pennsylvania, working on erosion and sediment control, stormwater management, permitting review, and stream and wetland conservation projects. The district is the local delivery arm for Pennsylvania's water-quality programs, so the technician spends time both in the field inspecting sites and in the office handling permit paperwork and landowner technical assistance. The posting requires only a two-year degree or the equivalent, and comes with a full benefits package.",
+    "desc": "Read the desired-qualifications list on this one carefully, because it reads like it was written off your resume: wetland delineation and identification, stream classification, hydrology, and watershed delineation are all named as desired skills. They are desired rather than required, and the education bar is only a two-year degree, which means you arrive over-qualified on paper with exactly the specialized skills they are hoping for. That combination is unusual and it is why this is worth a strong application even though the salary sits at the modest end. County conservation districts are also one of the most reliable on-ramps into state water-quality work.",
+    "badge": "Top recommendation",
+    "pills": [
+      "Posting names wetland delineation as desired",
+      "Watershed delineation + stream classification",
+      "Only a 2-year degree required",
+      "Full benefits package",
+      "Erosion & sediment control",
+      "County district = on-ramp to state work"
+    ],
+    "metaLine": "Deadline Aug 14, 2026 · $35,000–$40,000 · Saint Marys, PA · full benefits",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-14",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117651",
+        "label": "🔗 Resource Conservation Technician — Elk County CD"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117651",
+    "location": "Saint Marys, Pennsylvania",
+    "pay": "$35,000–$40,000 per year",
+    "stipend": "",
+    "benefits": "Full benefits package (details on the posting)",
+    "id": "item-349"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Careers",
+    "src": "erin_jobs.html",
+    "src_label": "Careers",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Fish Culture Specialist 1 — permanent state position, no experience required",
+    "org": "Vermont Fish and Wildlife Department",
+    "deadline": "July 27, 2026",
+    "start": "2026",
+    "body": "An entry-level permanent position with the State of Vermont at the Ed Weed Fish Culture Station in Grand Isle, on Lake Champlain. The work covers propagation and care of fish: feeding, cleaning rearing tanks and raceways, fish sampling and transfer, and monitoring facility water levels and water quality, all under close supervision. A bachelor's degree is required and no prior experience is required. The posting notes that multiple positions may be filled from the same recruitment.",
+    "desc": "The important words here are permanent and no experience required. Most state wildlife agency work open to a new graduate is seasonal, and seasonal work does not build the benefits, tenure, or internal-transfer eligibility that a permanent classified position does. This is a permanent state job that asks only for a BS. Water-quality monitoring is already in your hands-on toolkit, and hatchery work is a recognized route into broader fisheries and aquatic-resources roles within a state agency. The deadline is very close — July 27 — so this is a same-week application if you want it.",
+    "badge": "Strong fit",
+    "pills": [
+      "⏰ Deadline Jul 27 — apply this week",
+      "PERMANENT state position",
+      "BS required, NO experience required",
+      "Water-quality monitoring duties",
+      "Multiple positions may be filled",
+      "Lake Champlain / Ed Weed station"
+    ],
+    "metaLine": "Deadline Jul 27, 2026 · starting $22.51/hour · Grand Isle, VT · permanent, entry-level",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-27",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117621",
+        "label": "🔗 Fish Culture Specialist 1 — Vermont Fish & Wildlife"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117621",
+    "location": "Grand Isle, Vermont (Ed Weed Fish Culture Station, Lake Champlain)",
+    "pay": "Starting at $22.51 per hour",
+    "stipend": "",
+    "benefits": "State of Vermont permanent classified employee benefits",
+    "id": "item-350"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Careers",
+    "src": "erin_jobs.html",
+    "src_label": "Careers",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Environmental Control Technician — Upland Gamebird Program (trapping & banding)",
+    "org": "Delaware DNREC, Division of Fish and Wildlife",
+    "deadline": "August 10, 2026",
+    "start": "November 2026",
+    "body": "A seasonal biological aide position in Smyrna, Delaware supporting the state Turkey, Quail and Upland Game Biologist on wild turkey and northern bobwhite projects. Duties include gamebird surveys, trapping and banding, data entry, operating vehicles, boats and sampling equipment, and providing occasional support to the deer, waterfowl and non-game programs. The term runs approximately November 2026 through April 2027. A bachelor's degree is required and no prior experience is required.",
+    "desc": "This is a clean skills-transfer position. You already have small-mammal trapping experience, and trapping and banding gamebirds is the same discipline applied to a different taxon — careful handling, standardized data capture, and consistent protocol work. The cross-program exposure is the real value: you would touch deer, waterfowl and non-game work alongside the upland program, which is how you find out which part of a state wildlife agency you actually want to build a career in. November-to-April timing also means it does not conflict with a fall graduate-school application cycle.",
+    "badge": "Good fit",
+    "pills": [
+      "Trapping & banding — direct skills transfer",
+      "BS required, NO experience required",
+      "Cross-exposure: deer, waterfowl, non-game",
+      "Nov 2026–Apr 2027 term",
+      "Works alongside the state game biologist",
+      "Winter timing clears fall grad applications"
+    ],
+    "metaLine": "Deadline Aug 10, 2026 · up to $16.50/hour · Smyrna, DE · Nov 2026–Apr 2027 seasonal",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-10",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117540",
+        "label": "🔗 Environmental Control Technician — Delaware DNREC"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117540",
+    "location": "Smyrna, Delaware",
+    "pay": "Up to $16.50 per hour",
+    "stipend": "",
+    "benefits": "Seasonal position — confirm benefits with DNREC",
+    "id": "item-351"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Careers",
+    "src": "erin_jobs.html",
+    "src_label": "Careers",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Seasonal Research Assistant — Upland Gamebirds, Great Swamp",
+    "org": "Rhode Island DEM, Division of Fish and Wildlife",
+    "deadline": "August 1, 2026",
+    "start": "October 2026",
+    "body": "A six-month seasonal technician role in the upland game bird program at the Rhode Island DEM Great Swamp office in West Kingston. The season splits into pheasant stocking from October through December and turkey trapping from December through March, plus support to the waterfowl, deer and furbearer programs including waterfowl banding and deer check stations. Night and weekend work is required and housing is not provided. A bachelor's degree is required with no prior experience; the posting states the successful candidate is selected by August 10.",
+    "desc": "Rhode Island frames this posting explicitly as hands-on experience for someone learning how a state wildlife agency actually operates, which is a useful signal — they expect to train you rather than screen you out. Between turkey trapping, waterfowl banding and deer check stations you would touch nearly every branch of the agency's wildlife work in one season. Two practical caveats to weigh: housing is not provided in an expensive part of the country, and night and weekend work is a stated requirement rather than an occasional ask.",
+    "badge": "Good fit",
+    "pills": [
+      "BS required, NO experience required",
+      "Turkey trapping + waterfowl banding",
+      "Exposure across 4 agency programs",
+      "6-month season, Oct–Mar",
+      "⚠️ No housing provided",
+      "⚠️ Night & weekend work required"
+    ],
+    "metaLine": "Deadline Aug 1, 2026 · starting $16.50/hour · West Kingston, RI · 6-month seasonal",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-01",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117164",
+        "label": "🔗 Seasonal Research Assistant — RI DEM Fish & Wildlife"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117164",
+    "location": "West Kingston, Rhode Island (Great Swamp office)",
+    "pay": "Starting at $16.50 per hour",
+    "stipend": "",
+    "benefits": "Seasonal position — housing NOT provided",
+    "id": "item-352"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Careers",
+    "src": "erin_jobs.html",
+    "src_label": "Careers",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Dirt, Gravel & Low Volume Road Specialist — erosion control + GIS mapping",
+    "org": "Clarion Conservation District (Pennsylvania)",
+    "deadline": "August 31, 2026",
+    "start": "Open until filled",
+    "body": "This position leads Clarion Conservation District's Dirt, Gravel and Low Volume Road program, which reduces erosion and stream sedimentation by disconnecting municipal road drainage from waterways and implementing Environmentally Sensitive Maintenance practices. The work spans developing project proposals, inspecting and monitoring road projects in the field, and maintaining the district's online GIS project mapper. The posting is open until filled and accepts a bachelor's degree in natural resources or environmental science, or equivalent experience and training.",
+    "desc": "Two things make this a better fit than the job title suggests. First, the core problem being solved is sediment loading into streams — the same water-quality mechanism behind your Pigeon River capstone, just approached from the prevention side rather than the measurement side. Second, maintaining the online GIS project mapper is a named duty, so your GIS work is a job requirement here rather than a nice-to-have. The posting also accepts equivalent training in place of the experience ask, which keeps the door open for a recent graduate.",
+    "badge": "Strong fit",
+    "pills": [
+      "Sediment & erosion control = your capstone topic",
+      "GIS project mapper is a named duty",
+      "BS in environmental science accepted",
+      "Equivalent training accepted for experience",
+      "Open until filled",
+      "Field inspection + project development"
+    ],
+    "metaLine": "Deadline Aug 31, 2026 (open until filled) · $38,000–$40,000 · Clarion, PA",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-31",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=116530",
+        "label": "🔗 Dirt, Gravel & Low Volume Road Specialist — Clarion CD"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=116530",
+    "location": "Clarion, Pennsylvania",
+    "pay": "$38,000–$40,000 per year",
+    "stipend": "",
+    "benefits": "Confirm benefits package with the district",
+    "id": "item-353"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Careers",
+    "src": "erin_jobs.html",
+    "src_label": "Careers",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Agriculture Specialist — nutrient management & non-point source pollution",
+    "org": "Clarion Conservation District (Pennsylvania)",
+    "deadline": "August 31, 2026",
+    "start": "Open until filled",
+    "body": "The companion posting to Clarion Conservation District's road specialist role. This position leads the district's Agriculture Conservation Assistance Program along with its Nutrient and Manure Management programs, providing technical assistance to landowners on the design and installation of best management practices that improve soil health and water quality while reducing non-point source pollution. Duties include writing management plans, supporting landowners through installation, and maintaining the district's online GIS project mapper. A bachelor's in environmental science or a related field is accepted, or equivalent experience and training.",
+    "desc": "Non-point source pollution is the largest unsolved water-quality problem in most watersheds, and this is a job that works on it directly at the landowner scale. The GIS mapper duty appears here too, so your mapping skills carry over. Worth applying to both Clarion postings together — they are the same district, the same deadline and the same education bar, so a single tailored cover letter can address both and doubles your chance of landing one of the two. Plan writing is a skill you would build here that transfers well into state and federal water-quality roles later.",
+    "badge": "Strong fit",
+    "pills": [
+      "Non-point source pollution & water quality",
+      "GIS project mapper is a named duty",
+      "BS in environmental science accepted",
+      "Equivalent training accepted for experience",
+      "Apply alongside the road specialist role",
+      "Builds plan-writing skills"
+    ],
+    "metaLine": "Deadline Aug 31, 2026 (open until filled) · $38,000–$40,000 · Clarion, PA",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-31",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=116531",
+        "label": "🔗 Agriculture Specialist — Clarion CD"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=116531",
+    "location": "Clarion, Pennsylvania",
+    "pay": "$38,000–$40,000 per year",
+    "stipend": "",
+    "benefits": "Confirm benefits package with the district",
+    "id": "item-354"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Careers",
+    "src": "erin_jobs.html",
+    "src_label": "Careers",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Natural Resources Monitoring Coordinator — rare species & ArcGIS Pro",
+    "org": "Hudson Highlands Fjord Trail (Scenic Hudson subsidiary)",
+    "deadline": "Rolling — open until filled",
+    "start": "2026",
+    "body": "A monitoring role with the Hudson Highlands Fjord Trail, a nonprofit subsidiary of Scenic Hudson, based in Beacon, New York. The coordinator conducts construction monitoring for rare, threatened and endangered species along the Fjord Trail corridor, with particular focus on herpetofauna including timber rattlesnake and eastern fence lizard. The position maintains monitoring logs and submits compliance reports to New York State DEC. It requires proficiency in ESRI ArcGIS Pro and a NYS DEC Endangered and Threatened Species Permit, or the ability to obtain one within three months of hire.",
+    "desc": "This is one of the better-paid entry-adjacent roles found this week and it uses two of your skills at once: structured field monitoring of the kind you did with camera traps, and ArcGIS Pro as a stated requirement rather than a bonus. The regulatory angle is what makes it valuable career-wise — writing compliance reports that go to NYS DEC teaches you how environmental review actually works, which is exactly the experience that consulting firms and state agencies hire for. The species permit is obtainable after hire, so treat it as a task rather than a barrier. Do note the herpetofauna focus is new ground for you.",
+    "badge": "Strong fit",
+    "pills": [
+      "$60,000–$70,000 published salary",
+      "ArcGIS Pro is a stated requirement",
+      "Regulatory compliance reporting to NYS DEC",
+      "Species permit obtainable after hire",
+      "Field monitoring = camera-trap skills transfer",
+      "⚠️ Herpetofauna focus is new ground"
+    ],
+    "metaLine": "Rolling · $60,000–$70,000 · Beacon, NY · GIS + rare species monitoring",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://www.scenichudson.org/about-us/jobs/",
+        "label": "🔗 Scenic Hudson jobs — Natural Resources Monitoring Coordinator"
+      }
+    ],
+    "url": "https://www.scenichudson.org/about-us/jobs/",
+    "location": "Beacon, New York (Hudson Highlands Fjord Trail corridor)",
+    "pay": "$60,000–$70,000 per year",
+    "stipend": "",
+    "benefits": "Confirm benefits with Scenic Hudson",
+    "id": "item-355"
   }
 ]
