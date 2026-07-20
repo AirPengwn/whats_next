@@ -125,10 +125,19 @@ html.dark .bx-new{background:#ff5a3c;color:#1a1a1a}
 .browse-card.is-ni{opacity:.7}
 .browse-card.is-ni:hover{opacity:1}
 .browse-card.is-reviewed{opacity:.55}
-.bx-urg{font-size:12.5px;font-weight:700;padding:2px 8px;border-radius:999px;white-space:nowrap}
+.bx-urg{font-size:13px;font-weight:700;padding:3px 11px;border-radius:999px;white-space:nowrap;letter-spacing:.01em;line-height:1.35}
 .u0{background:var(--red-bg);color:#993c1d}.u1{background:var(--amber-bg);color:var(--amber-t)}
 .u2{background:var(--teal-bg);color:var(--teal-t)}.u3{background:var(--blue-bg);color:var(--blue)}
 .u4{background:var(--bg2);color:var(--t3)}.u5{background:var(--bg2);color:var(--t3)}
+/* v3.17 — urgency graded by ACTUAL days left. Declared AFTER .u0 so it wins.
+   Gets louder as the deadline closes; 30d+ stays deliberately calm. */
+.ut-now,.ut-crit{background:#c0392b;color:#fff;box-shadow:0 0 0 3px rgba(192,57,43,.22)}
+.ut-soon{background:#dd6236;color:#fff}
+.ut-near{background:#e0a02c;color:#3a2900}
+.ut-mid{background:var(--amber-bg);color:var(--amber-t)}
+.ut-far{background:var(--bg2);color:var(--t2);border:.5px solid var(--bds);font-weight:600}
+/* "Added N days ago" — quiet, sits with the deadline in the meta row */
+.bx-age{font-size:12.5px;color:var(--t3);opacity:.85}
 .bx-fwrap{display:flex;flex-direction:column;gap:2px;width:100%}
 .hl-flash{animation:hlf 2.4s ease-out}
 @keyframes hlf{0%{box-shadow:0 0 0 3px var(--teal)}55%{box-shadow:0 0 0 3px var(--teal)}100%{box-shadow:0 0 0 0 rgba(0,0,0,0)}}

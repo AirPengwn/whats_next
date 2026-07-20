@@ -73,10 +73,19 @@ html.dark .bx-new{background:#ff5a3c;color:#1a1a1a}
 .browse-card.is-ni{opacity:.7}
 .browse-card.is-ni:hover{opacity:1}
 .browse-card.is-reviewed{opacity:.55}
-.bx-urg{font-size:12.5px;font-weight:700;padding:2px 8px;border-radius:999px;white-space:nowrap}
+.bx-urg{font-size:13px;font-weight:700;padding:3px 11px;border-radius:999px;white-space:nowrap;letter-spacing:.01em;line-height:1.35}
 .u0{background:var(--red-bg);color:#993c1d}.u1{background:var(--amber-bg);color:var(--amber-t)}
 .u2{background:var(--teal-bg);color:var(--teal-t)}.u3{background:var(--blue-bg);color:var(--blue)}
 .u4{background:var(--bg2);color:var(--t3)}.u5{background:var(--bg2);color:var(--t3)}
+/* v3.17 — urgency graded by ACTUAL days left. Declared AFTER .u0 so it wins.
+   Gets louder as the deadline closes; 30d+ stays deliberately calm. */
+.ut-now,.ut-crit{background:#c0392b;color:#fff;box-shadow:0 0 0 3px rgba(192,57,43,.22)}
+.ut-soon{background:#dd6236;color:#fff}
+.ut-near{background:#e0a02c;color:#3a2900}
+.ut-mid{background:var(--amber-bg);color:var(--amber-t)}
+.ut-far{background:var(--bg2);color:var(--t2);border:.5px solid var(--bds);font-weight:600}
+/* "Added N days ago" — quiet, sits with the deadline in the meta row */
+.bx-age{font-size:12.5px;color:var(--t3);opacity:.85}
 .bx-fwrap{display:flex;flex-direction:column;gap:2px;width:100%}
 .hl-flash{animation:hlf 2.4s ease-out}
 @keyframes hlf{0%{box-shadow:0 0 0 3px var(--teal)}55%{box-shadow:0 0 0 3px var(--teal)}100%{box-shadow:0 0 0 0 rgba(0,0,0,0)}}
@@ -420,6 +429,28 @@ var _stickyShow={}, _keepSticky=false; /* a just-marked "Not interested" card st
 function niHas(id){ return !!(window.NI && NI.has && NI.has(id)); }
 function prHas(id){ return !!(window.PR && PR.has && PR.has(id)); }
 function rvHas(id){ return !!(window.RV && RV.has && RV.has(id)); }
+/* v3.17: urgency colour driven by ACTUAL days left, not the 0–45 bucket.
+   Previously bucketOf() lumped everything 0–45d into .u0 (red), so "43d left"
+   screamed exactly as loud as "3d left". These tiers override .u0 (defined after
+   it in the stylesheet, so they win on equal specificity). */
+function urgTier(du){
+  if(du==null) return '';
+  if(du<=0)  return 'ut-now';
+  if(du<=3)  return 'ut-crit';
+  if(du<=7)  return 'ut-soon';
+  if(du<=14) return 'ut-near';
+  if(du<=30) return 'ut-mid';
+  return 'ut-far';
+}
+/* v3.17: how long ago this opportunity was added, from its dated status label.
+   ~84% of entries have a parseable date; the rest simply get no chip. */
+function foundAgo(it){
+  if(!(it.status && it.status.label)) return null;
+  var d=statusDate(it.status.label); if(!d) return null;
+  var n=Math.floor((TODAY-d)/864e5);
+  return (n>=0 && n<400) ? n : null;
+}
+function foundAgoText(n){ return n===0?'Added today':(n===1?'Added 1 day ago':'Added '+n+' days ago'); }
 /* v2.78: card number. DISPLAY is zero-padded to 4 ("item-137" -> "#0137") so the
    column stays a uniform width past 999. The stored id is NEVER changed — it's the
    join key for saved items / apps / materials / flags. Search indexes every form
@@ -751,7 +782,7 @@ function renderBrowseX(){
        neutral status chip below. Three-pill cap respected: urgency + saved
        (in title row) + fit. Non-fit badges become quiet neutral chips. */
     var rs=el('div',null); rs.style.cssText='display:flex;flex-direction:column;gap:4px;align-items:flex-end;flex-shrink:0';
-    rs.appendChild(el('span','bx-urg u'+bk,urgTxt));
+    rs.appendChild(el('span','bx-urg u'+bk+(bk===0?' '+urgTier(du):''),urgTxt));
     if(it.badge){
       var ft=fitTier(it.badge);
       if(ft==='strong') rs.appendChild(el('span','fit-pill',shortFitLabel(it.badge)));
@@ -762,6 +793,9 @@ function renderBrowseX(){
     card.appendChild(th);
     var meta=el('div','browse-meta');
     if(it.deadline){ var dm=el('span'); dm.innerHTML='<strong style="font-weight:500">Deadline:</strong> '+it.deadline; meta.appendChild(dm); }
+    /* v3.17: how long this has been on the list (counts up) */
+    var _fa=foundAgo(it);
+    if(_fa!=null){ var am=el('span','bx-age',foundAgoText(_fa)); am.title='First added to the list '+(_fa===0?'today':_fa+' day'+(_fa===1?'':'s')+' ago'); meta.appendChild(am); }
     /* badge no longer rendered in meta — it lives in the right-side pill stack */
     card.appendChild(meta);
     var bd=buildBrowseDetailX(it); card.appendChild(bd);
