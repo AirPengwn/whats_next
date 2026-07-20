@@ -136,8 +136,8 @@ html.dark .bx-new{background:#ff5a3c;color:#1a1a1a}
 .ut-near{background:#e0a02c;color:#3a2900}
 .ut-mid{background:var(--amber-bg);color:var(--amber-t)}
 .ut-far{background:var(--bg2);color:var(--t2);border:.5px solid var(--bds);font-weight:600}
-/* "Added N days ago" — quiet, sits with the deadline in the meta row */
-.bx-age{font-size:12.5px;color:var(--t3);opacity:.85}
+/* "Added N days ago" — a discrete chip in the meta row, never run-on text */
+.bx-age{font-size:12px;font-weight:500;color:var(--t3);background:var(--bg2);border:.5px solid var(--bd);padding:1px 9px;border-radius:999px;white-space:nowrap;flex-shrink:0}
 .bx-fwrap{display:flex;flex-direction:column;gap:2px;width:100%}
 .hl-flash{animation:hlf 2.4s ease-out}
 @keyframes hlf{0%{box-shadow:0 0 0 3px var(--teal)}55%{box-shadow:0 0 0 3px var(--teal)}100%{box-shadow:0 0 0 0 rgba(0,0,0,0)}}
