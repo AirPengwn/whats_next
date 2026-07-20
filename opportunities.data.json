@@ -16722,5 +16722,215 @@
     "stipend": "$180 per week living allowance; $5,815 Segal Education Award for the 10-month term",
     "benefits": "Housing and all meals provided, plus no-cost health insurance",
     "id": "item-374"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Stewards VISTA — abandoned mine reclamation & watershed GIS (EPCAMR)",
+    "org": "Conservation Legacy / Stewards Individual Placements with EPCAMR",
+    "deadline": "August 3, 2026",
+    "start": "2026",
+    "body": "An AmeriCorps VISTA placement with the Eastern Pennsylvania Coalition for Abandoned Mine Reclamation in Ashley, Pennsylvania, serving as Digital Mobilization Coordinator. The role supports digital outreach, mapping, and data mobilization for mine reclamation and watershed restoration work across the anthracite region. It is a full-year VISTA term at $68.39 per day.",
+    "desc": "Of every Northeast position surfaced this week, this is the nearest analogue to your capstone. Abandoned mine drainage is metal contamination of streams and sediment — the same problem you studied on the Pigeon River, arising from a different source. EPCAMR is the regional coalition doing that work, and the role is explicitly mapping and data focused, so your GIS skills are the job rather than a side benefit. Be clear-eyed about the pay: $68.39 a day is a VISTA living allowance, not a salary. What you are buying is a year of subject-matter expertise in contaminated-watershed restoration plus the education award, which is a strong platform for either graduate applications or state water-quality work.",
+    "badge": "Top recommendation",
+    "pills": [
+      "⏰ Deadline Aug 3",
+      "Mine drainage = metal contamination, your capstone",
+      "GIS and mapping IS the role",
+      "Full-year VISTA term + education award",
+      "⚠️ $68.39/day is a VISTA allowance, not salary",
+      "Builds contaminated-watershed expertise"
+    ],
+    "metaLine": "Deadline Aug 3, 2026 · $68.39/day · Ashley, PA · VISTA year, mine reclamation",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-03",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=115929",
+        "label": "🔗 Stewards VISTA — EPCAMR Digital Mobilization Coordinator"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=115929",
+    "location": "Ashley, Pennsylvania (anthracite region)",
+    "pay": "",
+    "stipend": "$68.39 per day AmeriCorps VISTA living allowance",
+    "benefits": "AmeriCorps VISTA education award or end-of-service cash stipend — confirm which",
+    "id": "item-375"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Careers",
+    "src": "erin_jobs.html",
+    "src_label": "Careers",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Environmental Specialist III — sediment & stormwater program review",
+    "org": "Kent Conservation District (Delaware)",
+    "deadline": "Rolling — no posted closing date",
+    "start": "Rolling",
+    "body": "A district environmental specialist position in Dover, Delaware handling sediment and stormwater program review, inspections and technical assistance to landowners and developers. The posting is listed at the two-to-four-years experience level with a published salary of $58,184.25.",
+    "desc": "This is the senior sibling of the Environmental Habitat Specialist I role already on your list at the same district, and worth knowing about even though the experience band is a stretch. At $58,184 it is one of the better-paid conservation district positions in the region. The two-to-four-year ask is the real barrier, but your AmeriCorps NCCC term plus capstone research is a credible partial answer, and rolling postings with no closing date often stay open long enough that districts reconsider the experience bar when the applicant pool is thin. Worth applying alongside the Specialist I position rather than instead of it — one application effort, two possible outcomes.",
+    "badge": "Good fit",
+    "pills": [
+      "$58,184.25 — high for a district role",
+      "Sediment & stormwater program review",
+      "⚠️ 2–4 years experience asked",
+      "Apply alongside the Specialist I role",
+      "Rolling, no closing date",
+      "NCCC term is a partial answer on experience"
+    ],
+    "metaLine": "Rolling · $58,184.25 · Dover, DE · sediment & stormwater review",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-environmental-specialist-iii-dover-delaware/3856063491",
+        "label": "🔗 Environmental Specialist III — Kent Conservation District"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-environmental-specialist-iii-dover-delaware/3856063491",
+    "location": "Dover, Delaware",
+    "pay": "$58,184.25 per year",
+    "stipend": "",
+    "benefits": "Confirm benefits with the district",
+    "id": "item-376"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Careers",
+    "src": "erin_jobs.html",
+    "src_label": "Careers",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "NH Bird Atlas Coordinator — statewide survey design & spatial data",
+    "org": "New Hampshire Audubon",
+    "deadline": "Rolling — no posted closing date",
+    "start": "Rolling",
+    "body": "A coordinator position running New Hampshire Audubon's statewide breeding bird atlas, covering volunteer management, survey design, and spatial data compilation and mapping. The posting is listed at the two-to-four-years experience level with a salary of $42,000 to $48,000.",
+    "desc": "Atlas coordination is a heavily GIS-driven job — compiling and mapping survey data across an entire state is spatial data management at scale, which is a different and more analytical use of your skills than field technician work. It also builds a distinct credential: coordinating a statewide monitoring program demonstrates project management alongside technical ability, which is what separates candidates for the specialist roles you would want in three years. Volunteer coordination draws on your AmeriCorps experience. The two-to-four-year band is a stretch, but survey design and spatial analysis are demonstrable in a portfolio rather than only by tenure — lead with the work itself.",
+    "badge": "Strong fit",
+    "pills": [
+      "Statewide spatial data compilation & mapping",
+      "Survey design — analytical, not just field work",
+      "Volunteer coordination fits your NCCC background",
+      "$42,000–$48,000",
+      "⚠️ 2–4 years experience asked",
+      "Lead with a portfolio, not tenure"
+    ],
+    "metaLine": "Rolling · $42,000–$48,000 · Concord, NH · statewide atlas & GIS",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-nh-bird-atlas-coordinator-concord-new-hampshire/8852352703",
+        "label": "🔗 NH Bird Atlas Coordinator — NH Audubon"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-nh-bird-atlas-coordinator-concord-new-hampshire/8852352703",
+    "location": "Concord, New Hampshire",
+    "pay": "$42,000–$48,000 per year",
+    "stipend": "",
+    "benefits": "Confirm benefits with NH Audubon",
+    "id": "item-377"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Careers",
+    "src": "erin_jobs.html",
+    "src_label": "Careers",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Bee Friendly Farming Associate — habitat certification & assessment",
+    "org": "Pollinator Partnership",
+    "deadline": "Rolling",
+    "start": "Rolling",
+    "body": "An associate position with Pollinator Partnership based in Montpelier, Vermont, supporting pollinator habitat certification, farm outreach and habitat assessment for a national pollinator conservation nonprofit. The posting is listed at the zero-to-one-years experience level at $24 to $26.50 per hour.",
+    "desc": "Habitat assessment against a certification standard is systematic evaluation work — you visit sites, apply defined criteria and document findings, which is structurally the same discipline as wetland delineation, where you assess against the Army Corps manual. That transfer is worth making explicitly in a cover letter. At $24 to $26.50 an hour with no experience required the pay is solid for entry level, and working for a national organization from a Vermont base gives you reach beyond one state. The pollinator focus is new subject matter for you, but the assessment-and-certification skill it builds is broadly portable across conservation programs.",
+    "badge": "Good fit",
+    "pills": [
+      "Habitat assessment = same discipline as delineation",
+      "0–1 years experience, $24–$26.50/hour",
+      "National organization, Vermont base",
+      "Certification & standards experience is portable",
+      "Farm outreach & landowner engagement",
+      "⚠️ Pollinator focus is new subject matter"
+    ],
+    "metaLine": "Rolling · $24–$26.50/hour · Montpelier, VT · habitat certification",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-bee-friendly-farming-associate-montpelier-vermont/4980034228",
+        "label": "🔗 Bee Friendly Farming Associate — Pollinator Partnership"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-bee-friendly-farming-associate-montpelier-vermont/4980034228",
+    "location": "Montpelier, Vermont",
+    "pay": "$24–$26.50 per hour",
+    "stipend": "",
+    "benefits": "Confirm benefits with Pollinator Partnership",
+    "id": "item-378"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Careers",
+    "src": "erin_jobs.html",
+    "src_label": "Careers",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Fisheries Biologist — private consulting, no experience required",
+    "org": "Aquatic Environment Consultants, Inc.",
+    "deadline": "September 1, 2026",
+    "start": "2026",
+    "body": "A full-time field position with one of the Mid-Atlantic's largest pond and lake management firms, based in Chambersburg, Pennsylvania and working mostly from a boat across Pennsylvania, Maryland, Virginia and West Virginia. The work spans aquatic herbicide application, water quality monitoring, fish population management and aeration of water bodies. Seasonal weeks run 50 to 60 hours with overnight travel. An undergraduate degree in biology, limnology or environmental science is preferred and no prior experience is required.",
+    "desc": "Carrying the title Fisheries Biologist in a first job out of a BS is unusual and worth something on later applications. Water quality monitoring is a core duty, so your existing skills apply immediately, and private consulting teaches you the commercial side of environmental work — scoping, client management, billable time — which agency roles never do. Two things to weigh honestly: 50 to 60 hour weeks with overnight travel in season is demanding, and herbicide application is a significant part of the job, which is worth thinking about if you want your record to read as restoration rather than vegetation control. The September 1 deadline gives you time to consider it.",
+    "badge": "Good fit",
+    "pills": [
+      "BIOLOGIST title with no experience required",
+      "Water quality monitoring is a core duty",
+      "Four-state Mid-Atlantic field work from a boat",
+      "Teaches the commercial consulting side",
+      "⚠️ 50–60 hour weeks in season, overnight travel",
+      "⚠️ Significant herbicide application component"
+    ],
+    "metaLine": "Deadline Sep 1, 2026 · pay not published · Chambersburg, PA · no experience required",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-01",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=91809",
+        "label": "🔗 Fisheries Biologist — Aquatic Environment Consultants"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=91809",
+    "location": "Chambersburg, Pennsylvania (field work across PA, MD, VA and WV)",
+    "pay": "Not published — listed as commensurate/negotiable",
+    "stipend": "",
+    "benefits": "Confirm benefits with the firm",
+    "id": "item-379"
   }
 ]
