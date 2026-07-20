@@ -16386,5 +16386,341 @@
     "stipend": "$25,000 per year",
     "benefits": "Housing provided during summer field work near Medora",
     "id": "item-366"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Careers",
+    "src": "erin_jobs.html",
+    "src_label": "Careers",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Fish & Wildlife Technician 3 — Hudson Valley (3 positions)",
+    "org": "NYS Department of Environmental Conservation",
+    "deadline": "July 22, 2026 — ⚠️ verify (DEC table shows 2027, likely a typo)",
+    "start": "2026",
+    "body": "Vacancy number 26-218889 posts three Fish and Wildlife Technician seats in DEC's Hudson Valley region, based in New Paltz. Fish and Wildlife Technicians run field surveys, wildlife banding and trapping, data collection and management, and assist biologists with monitoring programs. Three simultaneous openings on a single vacancy number materially improves the odds on one application.",
+    "desc": "The duties here map almost one to one onto what you already do: field surveys, trapping and banding, and structured data collection and management are the same skills as your small-mammal trapping and camera-trap monitoring, just applied within a state agency. Three seats on one vacancy is a meaningful advantage. One important warning: DEC's vacancy table lists the closing date as July 22, 2027, which is almost certainly a typographical error for 2026 — do not assume you have a year. Check the actual posting and, if in doubt, apply as though it closes imminently.",
+    "badge": "Top recommendation",
+    "pills": [
+      "⚠️ Listed 7/22/2027 — likely a typo for 2026, verify",
+      "THREE positions on one vacancy",
+      "Trapping & banding = your direct skills",
+      "Vacancy #26-218889",
+      "Field survey + data management",
+      "NY DEC Hudson Valley region"
+    ],
+    "metaLine": "Closes Jul 22 (verify year) · New Paltz, NY · 3 positions · NY DEC",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-22",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://dec.ny.gov/about/employment/listing-of-job-vacancies",
+        "label": "🔗 NYS DEC vacancy listing — search vacancy #26-218889"
+      }
+    ],
+    "url": "https://dec.ny.gov/about/employment/listing-of-job-vacancies#26-218889",
+    "location": "New Paltz, New York (DEC Hudson Valley region)",
+    "pay": "NYS Fish & Wildlife Technician 3 grade — confirm on the posting",
+    "stipend": "",
+    "benefits": "New York State employee benefits",
+    "id": "item-367"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Careers",
+    "src": "erin_jobs.html",
+    "src_label": "Careers",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Environmental Analyst 1 / Trainee — freshwater wetlands permit review (NY HELPS)",
+    "org": "NYS Department of Environmental Conservation",
+    "deadline": "July 22, 2026",
+    "start": "2026",
+    "body": "Vacancy number 26-219349, a western New York regional posting based in Avon, outside the Albany cluster where most DEC openings sit. Environmental Analysts review permit applications and environmental impact assessments, including wetland and water-body permits under New York's freshwater wetlands and protection-of-waters programs. The position is filled non-competitively under NY HELPS, which waives the civil service exam, and has a trainee entry level that a bachelor's degree satisfies.",
+    "desc": "This is the single most on-point use of your wetland delineation training found in the Northeast: reviewing permits under a state freshwater wetlands program means applying delineation criteria as the core of the job rather than as an occasional field task. Two structural advantages worth understanding. NY HELPS waives the civil service exam that normally gates New York state science jobs, and the trainee rung accepts your degree in place of experience. Being in Avon rather than Albany also means competing against a much smaller applicant pool. The deadline is July 22 — this week.",
+    "badge": "Top recommendation",
+    "pills": [
+      "⏰ Closes Jul 22 — this week",
+      "Freshwater wetlands permit review = delineation",
+      "NY HELPS waives the civil service exam",
+      "Trainee rung: BS satisfies the requirement",
+      "Vacancy #26-219349",
+      "Avon, not Albany — smaller applicant pool"
+    ],
+    "metaLine": "Closes Jul 22, 2026 · Avon, NY · NY HELPS trainee track · wetlands permitting",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-22",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://dec.ny.gov/about/employment/listing-of-job-vacancies",
+        "label": "🔗 NYS DEC vacancy listing — search vacancy #26-219349"
+      }
+    ],
+    "url": "https://dec.ny.gov/about/employment/listing-of-job-vacancies#26-219349",
+    "location": "Avon, New York (DEC western New York region)",
+    "pay": "NY HELPS trainee/analyst grade — confirm on the posting",
+    "stipend": "",
+    "benefits": "New York State employee benefits",
+    "id": "item-368"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Environmental Management Career Development Program — 3-year paid Chesapeake Bay placement",
+    "org": "Chesapeake Research Consortium / Chesapeake Bay Program",
+    "deadline": "Rolling — vacancies posted for a minimum of two weeks",
+    "start": "Rolling",
+    "body": "A three-year, entry-level professional development position embedding early-career scientists directly within Chesapeake Bay Program goal teams, spanning habitat, fisheries and wildlife, water quality, science and assessment, stewardship and communications. The Chesapeake Research Consortium typically fills three to five vacancies per year as staffers complete their terms, and each announcement is posted for a minimum of two weeks. Applications require a cover letter, resume, three references, transcripts and a one-to-five-page writing sample.",
+    "desc": "This is an unusual structure and worth understanding properly: it is a three-year salaried position at $51,153 designed specifically as a launchpad for people at exactly your stage, embedding you inside the interstate partnership that manages the largest estuary restoration effort in the United States. No experience is required. You would be choosing a goal team, and water quality or habitat would both use your background directly. Because vacancies appear throughout the year and are posted for only two weeks at a time, the practical move is to prepare the application package now — especially the writing sample, which most applicants underestimate — and watch the page.",
+    "badge": "Top recommendation",
+    "pills": [
+      "3-year salaried position at $51,153",
+      "Built for BS-level, no experience required",
+      "Chesapeake Bay Program goal teams",
+      "Prepare the writing sample IN ADVANCE",
+      "Postings open for only 2 weeks at a time",
+      "3–5 vacancies filled per year"
+    ],
+    "metaLine": "Rolling (2-week posting windows) · $51,153 · Annapolis, MD · 3-year term",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://chesapeake.org/emcdp/",
+        "label": "🔗 Environmental Management Career Development Program — CRC"
+      }
+    ],
+    "url": "https://chesapeake.org/emcdp/",
+    "location": "Annapolis, Maryland",
+    "pay": "$51,153 per year",
+    "stipend": "",
+    "benefits": "Confirm benefits with the Chesapeake Research Consortium",
+    "id": "item-369"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "MS in Lake Management (thesis track) — applied limnology & water quality",
+    "org": "SUNY Oneonta Biological Field Station",
+    "deadline": "Rolling — contact faculty first",
+    "start": "Rolling",
+    "body": "An applied water-resource management master's program based on Otsego Lake, blending limnology, aquatic biology and project design for real lake associations. The thesis track requires a SUNY Oneonta biology faculty member to agree in advance to serve as advisor, so contacting faculty comes before applying. The program is open to bachelor's holders in a functionally related area with a 3.0 major GPA. Students are eligible for a $10,000 stipend in each of the two years, funded by sponsoring lake associations and The Scriven Foundation.",
+    "desc": "What distinguishes this program is that it is applied rather than purely academic — students design and deliver projects for actual lake associations, so you graduate with a portfolio of real management work rather than only a thesis. That is a genuine advantage if you are aiming at agency or consulting work rather than a PhD. Water quality and limnology build directly on your capstone. Two honest caveats: the $10,000 a year stipend is modest compared with the $23,000 to $31,000 assistantships elsewhere on your list, and the thesis track requires you to secure a faculty advisor before applying, so start that conversation now rather than at application time. Your 3.731 clears the 3.0 requirement comfortably.",
+    "badge": "Good fit",
+    "pills": [
+      "Applied — real projects for lake associations",
+      "BS-eligible, 3.0 major GPA (you have 3.731)",
+      "$10,000/year for two years",
+      "⚠️ Modest stipend vs other options",
+      "Must secure a faculty advisor FIRST",
+      "Limnology + water quality on Otsego Lake"
+    ],
+    "metaLine": "Rolling (contact-first) · $10,000/year × 2 years · Oneonta/Cooperstown, NY · MS",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://suny.oneonta.edu/academics/majors-programs/lake-management",
+        "label": "🔗 MS in Lake Management — SUNY Oneonta"
+      }
+    ],
+    "url": "https://suny.oneonta.edu/academics/majors-programs/lake-management",
+    "location": "Oneonta and Cooperstown, New York (Otsego Lake Biological Field Station)",
+    "pay": "",
+    "stipend": "$10,000 for each of the two years (sponsored by lake associations and The Scriven Foundation)",
+    "benefits": "Confirm tuition and health coverage with the program",
+    "id": "item-370"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Two funded MS/PhD assistantships — fish passage & dam removal, Narraguagus River",
+    "org": "University of Maine — Dept. of Wildlife, Fisheries & Conservation Biology",
+    "deadline": "Rolling — review began July 15, 2026",
+    "start": "January 1, 2027",
+    "body": "Two companion funded assistantships at the University of Maine studying how dam removal and fish passage improvement restructure river systems, with field sites on the Narraguagus River. The first investigates effects on stream food webs using field sampling, stable isotope analysis and quantitative modeling, collaborating with state and federal agency and NGO partners. The second tracks upstream fish community change following dam replacement and passage restoration using eDNA sampling and electrofishing. Both are field-intensive with a strong quantitative component. Review of applications began July 15, 2026 with a January 1, 2027 start; only a bachelor's in biology or the equivalent is required.",
+    "desc": "Dam removal is one of the most active areas in river restoration right now, and Maine is where much of the foundational work happens. Both positions require only a BS and both are field-intensive, which suits how you have built your experience so far. The stipend package is among the better ones on your list at $28,000 for the MS with roughly two-thirds of medical insurance, half of dental and thirteen credit hours of tuition covered. Stable isotope and eDNA analysis would both be new methods for you, but they sit on top of field sampling protocols you already know. Review has already begun, so apply promptly rather than waiting for a deadline that does not exist.",
+    "badge": "Strong fit",
+    "pills": [
+      "Two positions, same lab group",
+      "BS in biology or equivalent — no MS needed",
+      "$28,000 MS / $31,333 PhD",
+      "Review already underway — apply promptly",
+      "Ecological restoration via dam removal",
+      "65% medical, 50% dental, 13 credit hours tuition"
+    ],
+    "metaLine": "Rolling (review began Jul 15) · $28,000–$31,333 + tuition & insurance · Orono, ME · Jan 2027 start",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://umaine.edu/wle/positions-available/",
+        "label": "🔗 UMaine Wildlife, Fisheries & Conservation Biology — positions available"
+      }
+    ],
+    "url": "https://umaine.edu/wle/positions-available/",
+    "location": "Orono, Maine (Narraguagus River field sites)",
+    "pay": "",
+    "stipend": "Minimum $28,000/year MS or $31,333.33/year PhD, paid bi-weekly",
+    "benefits": "Minimum 65% of medical insurance premium (up to 50% for one dependent), minimum 50% of dental, and minimum 13 credit hours of tuition",
+    "id": "item-371"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Careers",
+    "src": "erin_jobs.html",
+    "src_label": "Careers",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Conservation Program Specialist — watershed projects & delegated DEP programs (2 roles)",
+    "org": "Indiana County Conservation District (Pennsylvania)",
+    "deadline": "Rolling — no posted closing date",
+    "start": "Rolling",
+    "body": "Two companion positions at the Indiana County Conservation District in western Pennsylvania. The Watershed Projects role plans and implements stream restoration and water quality improvement projects, frequently including abandoned mine drainage remediation, which is common across western Pennsylvania. The Delegated Programs role focuses on Pennsylvania DEP delegated regulatory programs, chiefly erosion and sediment control and NPDES stormwater permit review and inspection. Neither posting carries a closing date. The district also runs a Conservation Coordinator AmeriCorps position supporting watershed education and project coordination.",
+    "desc": "Abandoned mine drainage is worth flagging specifically: it is metal contamination of streams, which is precisely what your Pigeon River lead and trace-metal capstone examined, just from a different source. Very few entry-level postings connect that directly to your thesis work. The delegated-programs role is the strategic sibling — working PA DEP delegated programs is a recognized on-ramp into PA DEP career positions, because you are already administering their regulations. At $47,000 to $55,000 both are well paid for entry level. Apply to both, and note the AmeriCorps coordinator position as a fallback that frequently converts to district staff.",
+    "badge": "Top recommendation",
+    "pills": [
+      "Mine drainage = metal contamination, your capstone",
+      "$47,000–$55,000 — strong entry pay",
+      "Delegated programs = on-ramp to PA DEP",
+      "Two roles plus an AmeriCorps fallback",
+      "Stream restoration & water quality",
+      "Rolling, no closing date"
+    ],
+    "metaLine": "Rolling · $47,000–$55,000 · Indiana, PA · 2 specialist roles + AmeriCorps option",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/pennsylvania",
+        "label": "🔗 Conservation Job Board — Pennsylvania (Indiana County CD listings)"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/pennsylvania#indiana-county-cd",
+    "location": "Indiana, Pennsylvania",
+    "pay": "$47,000–$55,000 per year (both specialist roles)",
+    "stipend": "AmeriCorps Conservation Coordinator: living stipend plus Segal Education Award, amount not published",
+    "benefits": "Confirm benefits with the district",
+    "id": "item-372"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Careers",
+    "src": "erin_jobs.html",
+    "src_label": "Careers",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Restoration, Invasive Species & Forestry Technician — entry-level consulting",
+    "org": "Redstart (Vermont)",
+    "deadline": "Rolling",
+    "start": "Rolling",
+    "body": "A field technician role with a Vermont ecological restoration and forestry consulting firm, posted explicitly at the zero-to-one-years experience level. The work involves riparian and upland restoration plantings, invasive species treatment and forestry field support.",
+    "desc": "The value here is the sector rather than the salary. Private ecological consulting is where wetland delineation becomes a billable skill — consultants charge for delineation reports, and firms hire people who can produce them. Starting on the restoration and invasive-species side of a consulting firm gets you inside that world and positions you to move toward delineation and permitting work, which pays considerably better than $16 to $18 an hour. Treat this as a two-year stepping stone rather than a destination, and be direct in your interview about wanting to grow into delineation work. Riparian restoration also keeps you close to your watershed interests.",
+    "badge": "Good fit",
+    "pills": [
+      "Explicitly 0–1 years experience",
+      "Entry into private consulting sector",
+      "Consulting is where delineation is billable",
+      "Riparian & upland restoration plantings",
+      "⚠️ Modest pay — treat as a stepping stone",
+      "Rolling application"
+    ],
+    "metaLine": "Rolling · $16–$18/hour · Corinth, VT · entry-level consulting",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/vermont",
+        "label": "🔗 Conservation Job Board — Vermont (Redstart listing)"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/vermont#redstart",
+    "location": "Corinth, Vermont",
+    "pay": "$16–$18 per hour",
+    "stipend": "",
+    "benefits": "Confirm benefits with Redstart",
+    "id": "item-373"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Excelsior Conservation Corps — Survey & Assessment crew (housing + meals included)",
+    "org": "Student Conservation Association with NYS Parks, DEC and Environmental Facilities Corp",
+    "deadline": "Rolling",
+    "start": "10-month residential term",
+    "body": "A 50-member residential AmeriCorps program based near Albany, operating five crews across four disciplines: Mixed Stewardship, Infrastructure and Sustainability, Survey and Assessment, and Education and Outreach. Members serve on projects for New York State Parks, the Department of Environmental Conservation and the Environmental Facilities Corporation across New York. The term runs ten months. Eligibility is ages 18 to 25, or 18 to 28 for veterans. Housing, all meals and no-cost health insurance are included alongside a $180 per week living allowance and a $5,815 Segal Education Award.",
+    "desc": "Target the Survey and Assessment crew specifically — that discipline is field data collection and mapping, which is your skill set, whereas the other three crews are stewardship, infrastructure and education. The compensation structure deserves a clear read: $180 a week looks low until you account for housing, all meals and health insurance being provided, which means nearly the entire allowance is bankable, and the $5,815 education award can be applied to graduate tuition. Serving on DEC projects also builds relationships inside the agency running the NY HELPS postings elsewhere on your list, which is a genuine strategic advantage.",
+    "badge": "Strong fit",
+    "pills": [
+      "Ask for the Survey & Assessment crew",
+      "Housing, ALL meals & health insurance included",
+      "$5,815 education award toward grad school",
+      "Builds relationships inside NYS DEC",
+      "10-month residential term near Albany",
+      "Ages 18–25 (28 for veterans)"
+    ],
+    "metaLine": "Rolling · $180/week + housing, meals & insurance · Albany, NY · 10-month residential",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://thesca.org/program/excelsior-conservation-corps",
+        "label": "🔗 Excelsior Conservation Corps — SCA"
+      }
+    ],
+    "url": "https://thesca.org/program/excelsior-conservation-corps",
+    "location": "Residential base near Albany, New York; projects statewide",
+    "pay": "",
+    "stipend": "$180 per week living allowance; $5,815 Segal Education Award for the 10-month term",
+    "benefits": "Housing and all meals provided, plus no-cost health insurance",
+    "id": "item-374"
   }
 ]
