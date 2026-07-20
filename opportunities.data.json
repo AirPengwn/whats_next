@@ -16046,5 +16046,345 @@
     "stipend": "",
     "benefits": "Federal benefits: health, dental, vision, FERS retirement, paid leave",
     "id": "item-358"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Careers",
+    "src": "erin_jobs.html",
+    "src_label": "Careers",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Natural Resources Technician — municipal water resources & GIS",
+    "org": "City of Burnsville, Minnesota",
+    "deadline": "August 2, 2026 (first consideration; open until filled)",
+    "start": "2026",
+    "body": "A municipal natural resources position supporting the planning and implementation of the City of Burnsville's natural resources programs, with a focus on water resources, upland habitat, wildlife management and environmental outreach. The technician leads water quality and lake management initiatives, manages environmental monitoring programs and contractors, and coordinates volunteers and seasonal staff. The posting is open until filled, with applications received by August 2, 2026 given first consideration. Minimum qualifications are a bachelor's in environmental studies plus two years in water resources and GIS software.",
+    "desc": "The salary here is the headline and it is not a typo: $86,195 to $107,494 for a position whose stated minimum is a bachelor's degree plus two years and GIS software experience. Municipal government pays substantially better than the nonprofit and seasonal-agency work that dominates this field, and it is a channel almost nobody applies through because everyone is looking at agencies and NGOs. The duties — water quality, lake management, environmental monitoring — are squarely your background. The two-year requirement is the one gap, so lead your application with the depth of the GIS and water-quality work rather than years elapsed.",
+    "badge": "Top recommendation",
+    "pills": [
+      "$86,195–$107,494 — highest pay found this week",
+      "Minimum is a BS + 2 years + GIS",
+      "Water quality & lake management",
+      "Municipal channel = far less competition",
+      "Open until filled",
+      "⚠️ 2-year experience ask is the one gap"
+    ],
+    "metaLine": "First consideration Aug 2, 2026 · $86,195–$107,494 · Burnsville, MN · municipal water resources",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-02",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-natural-resources-technician-burnsville-minnesota/2125339461",
+        "label": "🔗 Natural Resources Technician — City of Burnsville"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-natural-resources-technician-burnsville-minnesota/2125339461",
+    "location": "Burnsville, Minnesota",
+    "pay": "$86,195.20–$107,494.40 per year",
+    "stipend": "",
+    "benefits": "Municipal employee benefits — confirm with the city",
+    "id": "item-359"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Careers",
+    "src": "erin_jobs.html",
+    "src_label": "Careers",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Resource Specialist — Western Lake Erie Basin sediment & nutrient reduction",
+    "org": "Lenawee Conservation District (Michigan)",
+    "deadline": "August 7, 2026",
+    "start": "2026",
+    "body": "An EPA-funded position running through March 2029, delivering outreach and technical assistance to private landowners to reduce sediment and nutrient loss in the Michigan portion of the Western Lake Erie Basin. The work covers drainage water management, water control structures, filter strips, saturated buffers, grass waterways and sediment control basins, and includes leading the survey and design of engineered conservation practices. The role is remote-based with field work across Lenawee, Hillsdale, Monroe and Washtenaw counties. Experience is preferred rather than required.",
+    "desc": "Two things stand out. First, funding is secured through March 2029, which means this is nearly three years of stability — rare for a project-funded position and long enough to build a real specialism. Second, experience is only preferred, not required, so your degree plus capstone carries the application. The subject matter is sediment and nutrient loading into a major water body, which is the same problem your Pigeon River trace-metal work addressed, and the posting names aerial photo, soils and lidar interpretation, all of which sit inside your GIS skill set. The Western Lake Erie Basin is also one of the highest-profile water-quality efforts in the country.",
+    "badge": "Top recommendation",
+    "pills": [
+      "Funded through March 2029 — ~3 years",
+      "Experience PREFERRED, not required",
+      "Sediment & nutrient loading = your capstone",
+      "Lidar, soils & aerial photo interpretation",
+      "$28/hour",
+      "High-profile Western Lake Erie Basin work"
+    ],
+    "metaLine": "Deadline Aug 7, 2026 · $28/hour · Adrian, MI (remote-based) · EPA-funded to 2029",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-07",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-resource-specialist-adrian-michigan/5640660356",
+        "label": "🔗 Resource Specialist — Lenawee Conservation District"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-resource-specialist-adrian-michigan/5640660356",
+    "location": "Adrian, Michigan (remote-based; field work in Lenawee, Hillsdale, Monroe and Washtenaw counties)",
+    "pay": "$28 per hour",
+    "stipend": "",
+    "benefits": "Confirm benefits with the district",
+    "id": "item-360"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Careers",
+    "src": "erin_jobs.html",
+    "src_label": "Careers",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "District Technician — GPS survey, erosion & water quality",
+    "org": "Wood Soil and Water Conservation District (Ohio)",
+    "deadline": "August 14, 2026",
+    "start": "2026",
+    "body": "A district technician position in Bowling Green, Ohio providing technical assistance on conservation and natural-resource planning for landowners in Wood County. The role includes field visits, conservation-needs assessments, and the survey and design of practices that reduce erosion and protect water quality. The technician also runs GPS surveys for the district and NRCS, manages rental conservation equipment, and enters data into Ohio Department of Agriculture reporting systems.",
+    "desc": "A clean entry-level soil and water conservation district role built around exactly the skills you have: GPS and GIS survey work, soils, erosion control and water-quality practice design. Working alongside NRCS is the strategic part — NRCS is a USDA agency, and district technicians who share an office with NRCS staff routinely move into federal USDA positions later, which is one of the two federal tracks you have said you are building toward. Ohio conservation districts are also chronically under-applied to relative to state agency postings.",
+    "badge": "Strong fit",
+    "pills": [
+      "GPS/GIS survey is a core duty",
+      "Works alongside USDA NRCS staff",
+      "Erosion & water-quality practice design",
+      "Entry-level district technician role",
+      "Route toward federal USDA hiring",
+      "$21–$23/hour"
+    ],
+    "metaLine": "Deadline Aug 14, 2026 · $21–$23/hour · Bowling Green, OH · GPS survey + water quality",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-14",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-district-techinican-bowling-green-ohio/8361219448",
+        "label": "🔗 District Technician — Wood SWCD"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-district-techinican-bowling-green-ohio/8361219448",
+    "location": "Bowling Green, Ohio (Wood County)",
+    "pay": "$21–$23 per hour",
+    "stipend": "",
+    "benefits": "Confirm benefits with the district",
+    "id": "item-361"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Careers",
+    "src": "erin_jobs.html",
+    "src_label": "Careers",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Habitat Restoration Technician — multi-year, aimed at recent graduates",
+    "org": "American Bird Conservancy (with Nebraska Game and Parks Commission)",
+    "deadline": "August 11, 2026",
+    "start": "2026",
+    "body": "A habitat restoration technician position based at the Nebraska Game and Parks Commission office in Beatrice, supporting woodland and prairie restoration at Indian Cave State Park and other southeast Nebraska conservation lands. The work includes invasive plant control, prescribed fire preparation, conservation planning, private-lands conservation and bird monitoring alongside experienced professionals. The position is funded for up to four years through the Nebraska Natural Legacy Project.",
+    "desc": "The posting names recent graduates and early-career professionals as its target audience, which removes the usual guesswork about whether you are the intended applicant. Four years of funding is exceptional for a technician role and long enough to develop genuine expertise rather than bouncing between seasons. Being housed inside a state wildlife agency office while employed by a national NGO also gives you two professional networks at once. Prescribed fire experience in particular is a credential that opens doors across restoration and federal land management.",
+    "badge": "Strong fit",
+    "pills": [
+      "Explicitly targets recent graduates",
+      "Funded up to 4 years",
+      "Prescribed fire — a door-opening credential",
+      "Housed inside a state wildlife agency",
+      "Bird monitoring + invasive control",
+      "~$40,850, based on experience"
+    ],
+    "metaLine": "Deadline Aug 11, 2026 · est. $40,850 · Beatrice, NE · funded up to 4 years",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-11",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-habitat-restoration-technician-beatrice-nebraska/1699228744",
+        "label": "🔗 Habitat Restoration Technician — American Bird Conservancy"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-habitat-restoration-technician-beatrice-nebraska/1699228744",
+    "location": "Beatrice, Nebraska",
+    "pay": "Estimated $40,850 per year, based on experience",
+    "stipend": "",
+    "benefits": "Confirm benefits with American Bird Conservancy",
+    "id": "item-362"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Careers",
+    "src": "erin_jobs.html",
+    "src_label": "Careers",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Stewardship Technician — Driftless Area preserves & easement monitoring",
+    "org": "Mississippi Valley Conservancy",
+    "deadline": "August 31, 2026",
+    "start": "2026",
+    "body": "A stewardship technician position with a regional land trust in La Crosse, Wisconsin, implementing land management on Driftless Area nature preserves and monitoring conservation easements. Time splits roughly 65 percent land management, 25 percent land protection and 10 percent recordkeeping. Field work includes invasive species control, prescribed burning, timber stand improvement, boundary posting and site monitoring, plus coordinating volunteers and advising private landowners. About 75 percent of the time is spent outdoors across a nine-county service area.",
+    "desc": "Note the ceiling on this posting rather than the floor: it asks for a BS in natural resources plus two years, and no graduate degree — meaning you are not competing against master's holders here, which you are in much of this field. Easement monitoring is systematic documentation and mapping work that uses your GIS skills directly, and prescribed burning adds a credential that transfers everywhere. The Driftless Area is also ecologically distinctive — unglaciated terrain with cold-water streams — so the experience reads as specific rather than generic on a later application.",
+    "badge": "Strong fit",
+    "pills": [
+      "No graduate degree required — BS is the ceiling",
+      "Easement monitoring uses GIS directly",
+      "Prescribed burning credential",
+      "$45,000–$55,000",
+      "75% outdoors, nine-county area",
+      "Driftless Area cold-water streams"
+    ],
+    "metaLine": "Deadline Aug 31, 2026 · $45,000–$55,000 · La Crosse, WI · land trust stewardship",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-31",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-stewardship-technician-la-crosse-wisconsin/4186144073",
+        "label": "🔗 Stewardship Technician — Mississippi Valley Conservancy"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-stewardship-technician-la-crosse-wisconsin/4186144073",
+    "location": "La Crosse, Wisconsin (nine-county Driftless Area service area)",
+    "pay": "$45,000–$55,000 per year",
+    "stipend": "",
+    "benefits": "Confirm benefits with the conservancy",
+    "id": "item-363"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "NSF-funded Research Trainee — prairie pothole sediment cores & past fire regimes",
+    "org": "University of North Dakota — Earth System Science and Policy (with USDA ARS)",
+    "deadline": "December 31, 2026 (rolling review)",
+    "start": "As early as summer 2026",
+    "body": "An NSF-funded National Research Traineeship reconstructing historic fire regimes of the Northern Great Plains by analyzing prairie pothole sediment cores, using stable isotopes, charcoal analysis and pollen identification. Trainees receive structured training in soil processing, research methodology, quantitative skills and professional communication, and are jointly advised by UND's Earth System Science and Policy department and the USDA ARS Northern Plains Agricultural Research Laboratory. The traineeship is open at either the MS level over two years or the PhD level over four. Required qualifications are an environmental science background, research experience, comfort working in wetlands and a valid driver's license. Fellows must be U.S. citizens to receive the stipend and tuition waiver.",
+    "desc": "Read the required qualifications again, because they describe you almost exactly: an environmental science background, research experience and comfort working in wetlands. Prairie potholes are wetlands, and sediment-core collection and processing is methodologically the same work as the trace-metal sediment sampling in your Pigeon River capstone — you would be applying an existing skill to a new question rather than learning from scratch. The joint USDA ARS advising is a significant bonus given your federal ambitions, since it puts you inside a USDA lab as a student. One caution on the funding structure: the $37,000 is a lump sum paid on successful completion of the thesis or dissertation proposal exams, not an annual stipend, so ask directly how you are supported month to month.",
+    "badge": "Top recommendation",
+    "pills": [
+      "Sediment cores = your capstone method",
+      "Wetlands experience is a stated requirement",
+      "MS track (2 yr) open to a BS",
+      "Jointly advised by USDA ARS",
+      "Full tuition for the degree program",
+      "⚠️ $37,000 is a lump sum, not annual — ask"
+    ],
+    "metaLine": "Rolling to Dec 31, 2026 · full tuition + $37,000 completion award · Grand Forks, ND · MS or PhD",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-12-31",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=112111",
+        "label": "🔗 National Graduate Research Trainee — UND Earth System Science & Policy"
+      },
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-graduate-opportunity-national-research-trainee---studying-past-fire-regimes-for-the-northern-great-plains-grand-forks-north-dakota/1257624797",
+        "label": "🔗 Same traineeship on Conservation Job Board"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=112111",
+    "location": "Grand Forks, North Dakota",
+    "pay": "",
+    "stipend": "$37,000 lump sum on successful completion of the MS thesis or PhD dissertation proposal exams (confirm month-to-month support)",
+    "benefits": "Full tuition for the degree program; U.S. citizenship required for stipend and tuition waiver",
+    "id": "item-364"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Funded MS — contaminant effects on fish & life-cycle modeling (Lydy Lab)",
+    "org": "Southern Illinois University Carbondale — Center for Fisheries, Aquaculture and Aquatic Sciences",
+    "deadline": "August 1, 2026",
+    "start": "Flexible: August 2026 – January 2027",
+    "body": "The Lydy lab in environmental toxicology at Southern Illinois University Carbondale is recruiting graduate students to work on contaminant effects on fish, including Chinook salmon, and the incorporation of contaminant data into population life-cycle models. Facilities include a well-equipped analytical chemistry laboratory and a large modern aquatics facility. Research assistantships include a competitive salary, tuition waiver, health benefits and support for the proposed research. The start date is flexible between August 1, 2026 and January 15, 2027, so spring 2027 entry is available.",
+    "desc": "This is the closest topical match to your capstone of any graduate program surfaced this week. Your Pigeon River work was contaminant analysis in an aquatic system, and this lab does contaminant effects in aquatic systems as its core business — the difference is that they follow the contaminants into fish populations and models rather than stopping at the sediment. The lab's stated desired qualifications include analytical instrumentation experience and ArcGIS, and you have both. The flexible start through January 2027 is genuinely useful: it means missing the August window does not cost you a year.",
+    "badge": "Top recommendation",
+    "pills": [
+      "Contaminants in aquatic systems = your capstone",
+      "Analytical instrumentation + ArcGIS both named",
+      "Flexible start through January 2027",
+      "$23,000–$25,000 + tuition waiver + health",
+      "Well-equipped analytical chemistry lab",
+      "Spring 2027 entry available"
+    ],
+    "metaLine": "Deadline Aug 1, 2026 · $23,000–$25,000 + tuition waiver + health · Carbondale, IL",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-01",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=109551",
+        "label": "🔗 Research Assistantship — SIU Carbondale, Lydy Lab"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=109551",
+    "location": "Carbondale, Illinois",
+    "pay": "",
+    "stipend": "$23,000–$25,000 per year",
+    "benefits": "Tuition waiver, health benefits, and support for the proposed research",
+    "id": "item-365"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 20, 2026"
+    },
+    "title": "Funded MS — juniper encroachment & forage response, ND Badlands",
+    "org": "North Dakota State University — School of Natural Resource Sciences",
+    "deadline": "August 15, 2026",
+    "start": "Flexible: August 2026 – May 2027",
+    "body": "A funded master's assistantship at North Dakota State University investigating forage production response to juniper removal in North Dakota's Badlands. The student leads all components of their own thesis research while collaborating with graduate students, postdocs and faculty. Summer field work is based near Medora, North Dakota with housing provided. The start date is flexible between August 24, 2026 and May 17, 2027. A bachelor's degree in a related field is required and no existing master's is needed.",
+    "desc": "Woody encroachment — trees and shrubs invading grassland — is one of the defining restoration problems of the Great Plains, so this is a substantive research question rather than a narrow one. The vegetation sampling and plot work builds directly on the field protocols you already know from wetland delineation, where systematic plot assessment is the core method. Housing provided during summer field work is a real financial consideration on a $25,000 stipend. The flexible start window through May 2027 also gives you room to work a season first if you want the income and the field experience before committing.",
+    "badge": "Good fit",
+    "pills": [
+      "BS required, no MS needed",
+      "$25,000/year",
+      "Housing provided during summer field work",
+      "Flexible start through May 2027",
+      "You lead your own thesis research",
+      "Plot-based vegetation sampling"
+    ],
+    "metaLine": "Deadline Aug 15, 2026 · $25,000/year · Fargo, ND (field work near Medora) · MS",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-15",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117627",
+        "label": "🔗 MS Assistantship — NDSU School of Natural Resource Sciences"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117627",
+    "location": "Fargo, North Dakota (summer field work near Medora, ND)",
+    "pay": "",
+    "stipend": "$25,000 per year",
+    "benefits": "Housing provided during summer field work near Medora",
+    "id": "item-366"
   }
 ]
