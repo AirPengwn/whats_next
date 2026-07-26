@@ -5,7 +5,7 @@
    ═══════════════════════════════════════════════════════════ */
 
 /* build-stamped version + build (build.js patches these lines each release) */
-var WN_VERSION = '3.21';
+var WN_VERSION = '3.22';
 var WN_BUILD   = '20260726-391-8945b981';
 
 /* ── 1. Sync hook ──────────────────────────────────────────
@@ -31,6 +31,82 @@ var WN_BUILD   = '20260726-391-8945b981';
     } catch(e) {}
     return p;
   };
+})();
+
+/* ── 1b. SANDBOX / TEST MODE ──────────────────────────────────────────────
+   v3.22. Lets you explore and change anything on the site WITHOUT any of it
+   being saved — nothing reaches the cloud, nothing reaches localStorage.
+   The page still PULLS Erin's real current state (GET is allowed), so you're
+   playing with real data; you just can't alter it.
+
+   Why this is safe: every write in the entire site funnels through exactly
+   two chokepoints, and this file runs on every page BEFORE any page script:
+     1. fetch(... method:'PUT' ...) -> JSONbin   (44 call sites)
+     2. localStorage.setItem / removeItem       (all the *_v1 stores)
+   Both are intercepted below, so no page needs to know sandbox exists.
+
+   Stored in sessionStorage ON PURPOSE: it clears when the tab/browser closes,
+   so it can never be silently left on while Erin is actually working. */
+(function(){
+  var KEY='erin_sandbox';
+  function isOn(){ try{ return sessionStorage.getItem(KEY)==='1'; }catch(e){ return false; } }
+  window.WN_SANDBOX = isOn();
+  window.__wnSandbox = {
+    isOn: isOn,
+    enable: function(){ try{ sessionStorage.setItem(KEY,'1'); }catch(e){} location.reload(); },
+    disable: function(){ try{ sessionStorage.removeItem(KEY); }catch(e){} location.reload(); },
+    blocked: 0
+  };
+  if(!isOn()) return;           /* completely inert when off — no patching at all */
+
+  /* (1) Block every cloud WRITE. GET still works, so pages pull Erin's REAL
+     current state; only the write-back is swallowed. */
+  var _fetch = window.fetch;
+  window.fetch = function(input, init){
+    var url = (input && input.url) || input || '';
+    var method = ((init && init.method) || (input && input.method) || 'GET').toUpperCase();
+    if(typeof url === 'string' && url.indexOf('api.jsonbin.io') > -1 && method !== 'GET'){
+      window.__wnSandbox.blocked++;
+      try{ console.info('[SANDBOX] blocked '+method+' to cloud — nothing was saved'); }catch(e){}
+      /* Resolve like a success so page code carries on normally */
+      return Promise.resolve({ ok:true, status:200, json:function(){ return Promise.resolve({record:{},sandbox:true}); } });
+    }
+    return _fetch.apply(this, arguments);
+  };
+
+  /* (2) Swap Erin's data stores for an IN-MEMORY copy.
+     Not simply "blocked": if writes were dropped the UI would snap back on every
+     re-render and you couldn't try anything. Instead reads AND writes are served
+     from a memory map that dies with the tab — so the whole site behaves normally
+     while real localStorage is never touched.
+
+     The map starts EMPTY on purpose: each page's "local is empty -> restore from
+     cloud" path then fires, pulling Erin's genuine current state to play with.
+
+     'erin_primary_device' is spoofed to '1' so the site treats this as the
+     primary device and UNLOCKS the full UI (status dropdowns, Save buttons,
+     add/remove) — which is the whole point of test mode on a view-only PC. */
+  var mem = { erin_primary_device:'1', erin_primary_device_bak:'1' };
+  var realGet = Storage.prototype.getItem,
+      realSet = Storage.prototype.setItem,
+      realRem = Storage.prototype.removeItem;
+  function mine(k){ return typeof k==='string' && /^erin_/.test(k) && k!=='erin_theme'; }
+  try{
+    localStorage.getItem = function(k){
+      if(mine(k)) return Object.prototype.hasOwnProperty.call(mem,k) ? mem[k] : null;
+      return realGet.apply(localStorage, arguments);
+    };
+    localStorage.setItem = function(k,v){
+      if(mine(k)){ mem[k]=String(v); window.__wnSandbox.blocked++; return; }
+      return realSet.apply(localStorage, arguments);   /* theme still persists */
+    };
+    localStorage.removeItem = function(k){
+      if(mine(k)){ delete mem[k]; return; }
+      return realRem.apply(localStorage, arguments);
+    };
+    localStorage.clear = function(){ mem={}; };
+  }catch(e){}
+  window.__wnSandbox.mem = mem;
 })();
 
 /* ── 2. DOMContentLoaded: active nav + sync indicator + read-only mode ── */
@@ -120,10 +196,43 @@ document.addEventListener('DOMContentLoaded', function(){
     html += '<div class="wn-utils">';
     html += '<a href="erin_search.html" class="wn-util-link" title="Search everything">' + ic('search',15) + '<span>Search</span></a>';
     html += '<a href="erin_howto.html" class="wn-util-link' + (filename==='erin_howto.html'?' active':'') + '" title="How to use this site">' + ic('check',15) + '<span>How to</span></a>';
+    /* v3.22: Test-mode switch — explore/change anything without saving a thing */
+    var _sb = !!window.WN_SANDBOX;
+    html += '<button id="wn-sandbox-toggle" class="wn-sandbox-btn' + (_sb?' on':'') + '" type="button" '
+          + 'title="' + (_sb ? 'TEST MODE is ON — nothing you do is being saved. Click to turn off.'
+                             : 'Turn on TEST MODE — explore and change anything without saving. Erin\'s data is untouched.') + '">'
+          + '<span class="wn-sb-dot"></span><span>' + (_sb ? 'TEST ON' : 'Test') + '</span></button>';
     html += '<button id="theme-toggle" class="gnav-toggle" type="button" title="Toggle theme" onclick="window.__toggleTheme&&window.__toggleTheme()">&#9728;</button>';
     html += '</div>';
     html += '</div>';
     nav.innerHTML = html;
+
+    /* v3.22: wire the TEST switch + show the always-visible banner while it's on */
+    (function(){
+      var btn = document.getElementById('wn-sandbox-toggle');
+      if(btn) btn.onclick = function(){
+        if(window.WN_SANDBOX){ window.__wnSandbox.disable(); }
+        else if(confirm('Turn ON TEST MODE?\n\nYou can use the whole site — change statuses, save items, edit anything — and NONE of it is saved. Erin\'s real data is never touched.\n\nTurning it off (or closing this tab) discards everything you did and reloads her real data.')){
+          window.__wnSandbox.enable();
+        }
+      };
+      if(!window.WN_SANDBOX) return;
+      if(document.getElementById('wn-sandbox-banner')) return;
+      var b = document.createElement('div');
+      b.id = 'wn-sandbox-banner';
+      b.style.cssText = [
+        'display:block','width:100%','box-sizing:border-box','text-align:center',
+        'font-family:var(--fn)','font-size:12.5px','font-weight:700','letter-spacing:.04em',
+        'color:#3a2900','background:#e8c14a','border-bottom:1px solid #b8912b',
+        'padding:5px 1rem','line-height:1.4','position:relative','z-index:99'
+      ].join(';');
+      b.innerHTML = '&#9888; TEST MODE &mdash; nothing you do here is saved. '
+                  + '<span style="font-weight:500">Erin&rsquo;s real data is untouched.</span> '
+                  + '<button type="button" id="wn-sb-off" style="margin-left:10px;font-family:var(--fn);font-size:12px;font-weight:700;padding:1px 10px;border-radius:999px;border:1px solid #7a5f12;background:#3a2900;color:#e8c14a;cursor:pointer">Turn off</button>';
+      nav.parentNode.insertBefore(b, nav.nextSibling);
+      var off = document.getElementById('wn-sb-off');
+      if(off) off.onclick = function(){ window.__wnSandbox.disable(); };
+    })();
 
     /* Sub-nav strip — appears as a sibling RIGHT AFTER the nav, on grouped pages */
     var existing = document.getElementById('wn-subnav');
