@@ -95,6 +95,20 @@ a:hover{text-decoration:underline}
 .sb-val.sb-past{color:var(--t3);text-decoration:line-through}
 /* v2.1 Phase D.2: in-progress stages share the default card border — no colored
    left-rule. Only the three OUTCOMES still flag the card. */
+/* ── v3.21 STATUS COLOUR SYSTEM ─────────────────────────────────────────
+   Organised by "whose turn is it?", the question you actually ask when
+   scanning this page:
+     WARM (amber/purple) = your move — you owe it something
+     COOL (blue)         = their move — submitted, nothing to do but wait
+     GREEN / RED / AMBER = finished — an outcome landed
+   In-progress tints are deliberately faint (rgba wash, works on light AND
+   dark) so the three OUTCOMES still carry the loudest colour, per the
+   original Phase D.2 rule. */
+.app-card.status-gathering{border-left:3px solid #e0a02c;background:rgba(224,160,44,.07)}   /* your move */
+.app-card.status-submitted{border-left:3px solid #4a90d9;background:rgba(74,144,217,.06)}   /* their move */
+.app-card.status-review{border-left:3px solid #4a90d9;background:rgba(74,144,217,.06)}      /* their move */
+.app-card.status-interview{border-left:3px solid #7d6cd6;background:rgba(125,108,214,.09)}  /* your move — respond */
+.app-card.status-decision{border-left:3px solid var(--bds);background:rgba(128,128,128,.06)}/* read it */
 .app-card.status-accepted{border-left:3px solid var(--teal);background:var(--teal-bg)}
 .app-card.status-declined{border-left:3px solid var(--red);opacity:.75}
 .app-card.status-waitlisted{border-left:3px solid #ef9f27}
@@ -157,6 +171,12 @@ a:hover{text-decoration:underline}
 .add-btn:hover{background:var(--teal-bg)}
 
 /* type filter */
+/* v3.21: in-page search box (distinct from the global header Search) */
+.page-search{width:100%;font-size:13.5px;padding:9px 13px;border-radius:var(--r1);border:1px solid var(--bds);background:var(--bg);color:var(--t1);font-family:var(--fn);margin-bottom:.75rem}
+.page-search:focus{outline:none;border-color:var(--teal)}
+.page-search::placeholder{color:var(--t3)}
+.search-note{font-size:12.5px;color:var(--t3);font-style:italic;margin-bottom:.6rem}
+
 .filter-row{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:1rem}
 .f-btn{font-size:12.5px;font-weight:500;padding:3px 12px;border-radius:999px;border:1px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn)}
 .f-btn.on{background:var(--teal);border-color:var(--teal);color:#fff}
@@ -299,6 +319,9 @@ html:not(.dark){
   </div>
 
   <div class="summary-row" id="summary-row"></div>
+
+  <!-- v3.21: in-page search — narrows to one application without leaving the page -->
+  <input id="appq" type="search" class="page-search" placeholder="Search these applications — title, org, number (0039), notes…" autocomplete="off" oninput="renderCards()">
 
   <!-- Filter bar -->
   <div class="filter-row" id="filter-row"></div>
@@ -672,9 +695,31 @@ function renderCards(){
   var arr=loadApps();
   if(currentFilter==='⭐ Priority'){ arr=arr.filter(isPriorityApp); }
   else if(currentFilter!=='All') arr=arr.filter(function(a){ return a.itemType===currentFilter||a.org===currentFilter; });
+  /* v3.21: in-page text search. Matches title/org/notes/status label AND the card
+     number in every form (0039, 39, #0039, item-039). Leading '#' is stripped. */
+  var _qEl=document.getElementById('appq');
+  var _q=(_qEl?_qEl.value:'').toLowerCase().trim().replace(/^#/,'');
+  var _total=arr.length;
+  if(_q){
+    arr=arr.filter(function(a){
+      var hay=[a.programTitle,a.org,a.notes,a.itemType,a.portalUrl,STATUS_LABELS[a.status||'notstarted']].join(' ').toLowerCase();
+      if(a.itemId){ var m=String(a.itemId).match(/(\d+)\s*$/);
+        hay+=' '+String(a.itemId).toLowerCase()+(m?' '+m[1]+' '+m[1].padStart(4,'0'):''); }
+      return hay.indexOf(_q)>-1;
+    });
+  }
   var body=document.getElementById('app-body'); body.innerHTML='';
   document.getElementById('app-count').textContent=arr.length+' application'+(arr.length!==1?'s':'');
+  if(_q){
+    var note=document.createElement('div'); note.className='search-note';
+    note.textContent=arr.length+' of '+_total+' match “'+_q+'”';
+    body.appendChild(note);
+  }
   if(!arr.length){
+    if(_q){
+      body.appendChild(Object.assign(document.createElement('div'),{className:'empty',innerHTML:'<div class="empty-icon">&#128269;</div><div class="empty-title">No matches</div><div class="empty-body">Nothing here matches &ldquo;'+_q.replace(/[&<>"]/g,'')+'&rdquo;. Clear the search box to see them all.</div>'}));
+      return;
+    }
     if(currentFilter==='⭐ Priority'){
       body.innerHTML='<div class="empty"><div class="empty-icon">&#11088;</div><div class="empty-title">No priority items</div><div class="empty-body">Star opportunities as Priority (the ☆ button on a card) and they\'ll show up here.</div></div>';
     } else {

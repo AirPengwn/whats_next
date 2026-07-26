@@ -85,6 +85,12 @@ a:hover{text-decoration:underline}
 .b-save-btn:hover,.b-save-btn.saved{background:var(--teal-bg)}
 .b-toggle{font-size:12.5px;color:var(--t3);background:none;border:none;cursor:pointer;padding:0;font-family:var(--fn)}
 .b-toggle:hover{color:var(--t1)}
+/* v3.21: in-page search box (distinct from the global header Search) */
+.page-search{width:100%;font-size:13.5px;padding:9px 13px;border-radius:var(--r1);border:1px solid var(--bds);background:var(--bg);color:var(--t1);font-family:var(--fn);margin-bottom:.75rem}
+.page-search:focus{outline:none;border-color:var(--teal)}
+.page-search::placeholder{color:var(--t3)}
+.search-note{font-size:12.5px;color:var(--t3);font-style:italic;margin-bottom:.6rem}
+
 .search-input{font-size:13px;padding:8px 12px;border-radius:var(--r1);border:1px solid var(--bds);background:var(--bg);color:var(--t1);width:100%;font-family:var(--fn);margin-bottom:.85rem}
 .search-input:focus{outline:none;border-color:var(--teal)}
 .tip{border-left:3px solid var(--teal);background:var(--bg2);padding:.75rem 1rem;margin-bottom:1rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.6}
@@ -340,6 +346,8 @@ var(--mute-t);border:1px solid var(--bds)}
 </div>
 
 <div id="mode-list">
+  <!-- v3.21: in-page search — narrows the saved list without leaving the page -->
+  <input id="listq" type="search" class="page-search" placeholder="Search your saved list — title, org, number (0039)…" autocomplete="off" oninput="renderList()">
   <div id="list-filters" class="filter-row" style="margin-bottom:.75rem"></div>
   <div id="list-body"></div>
 </div>
@@ -1018,6 +1026,20 @@ function renderList(){
     });
   })();
   var items=mf==='All'?all:all.filter(function(it){ return (it.cat||it.type)===mf; });
+  /* v3.21: in-page text search — title/org/category plus the card number in every
+     form (0039, 39, #0039, item-039). Runs before the scope filters below. */
+  var _qEl=document.getElementById('listq');
+  var _q=(_qEl?_qEl.value:'').toLowerCase().trim().replace(/^#/,'');
+  var _preQ=items.length;
+  if(_q){
+    items=items.filter(function(it){
+      var m=mergeWithAll(it);
+      var hay=[m.title,m.org,m.cat||m.type,m.location,m.region,m.deadline].join(' ').toLowerCase();
+      var d=String(it.id||'').match(/(\d+)\s*$/);
+      hay+=' '+String(it.id||'').toLowerCase()+(d?' '+d[1]+' '+d[1].padStart(4,'0'):'');
+      return hay.indexOf(_q)>-1;
+    });
+  }
   var hiddenN=0;
   if(listScope==='priority') items=items.filter(function(it){ return window.PR&&PR.has(it.id); });
   else if(listScope==='expired') items=items.filter(function(it){ var m=mergeWithAll(it); return (typeof bucketOf==='function'&&bucketOf(m)===5) || m.expired===true; });
@@ -1027,7 +1049,16 @@ function renderList(){
       if(hide) hiddenN++; return !hide; });
   }
   var body=document.getElementById('list-body'); body.innerHTML='';
+  if(_q){
+    var _note=el('div','search-note',items.length+' of '+_preQ+' match “'+_q+'”');
+    body.appendChild(_note);
+  }
   if(!items.length){
+    if(_q){
+      var eq=el('div','empty');
+      eq.innerHTML='<div class="empty-icon">&#128269;</div><div class="empty-title">No matches</div><div class="empty-body">Nothing in your saved list matches that. Clear the search box to see everything again.</div>';
+      body.appendChild(eq); return;
+    }
     var e=el('div','empty');
     e.innerHTML='<div class="empty-icon">'+(n?'&#128269;':'&#128203;')+'</div>'
       +'<div class="empty-title">'+(n?(hiddenN?'Nothing active here':'No items match'):'Your list is empty')+'</div>'

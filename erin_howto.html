@@ -65,6 +65,17 @@ table.statusmap td{padding:.45rem .6rem;border-bottom:.5px solid var(--bd);color
 table.statusmap tr:last-child td{border-bottom:none}
 .pipe-col{font-family:var(--mono);font-size:12px;font-weight:600;color:var(--t2);background:var(--bg2);border:.5px solid var(--bd);padding:1px 8px;border-radius:5px;white-space:nowrap}
 
+/* Colour-key swatches — mirror the real Tracker card tints */
+.swatch{display:inline-block;width:14px;height:14px;border-radius:3px;vertical-align:-2px;margin-right:7px;border:.5px solid var(--bd);background:var(--bg2)}
+.sw-none{border-color:var(--bds)}
+.sw-amber{border-left:4px solid #e0a02c;background:rgba(224,160,44,.14)}
+.sw-blue{border-left:4px solid #4a90d9;background:rgba(74,144,217,.14)}
+.sw-purple{border-left:4px solid #7d6cd6;background:rgba(125,108,214,.16)}
+.sw-grey{border-left:4px solid var(--bds)}
+.sw-green{border-left:4px solid var(--teal);background:var(--teal-bg)}
+.sw-orange{border-left:4px solid #ef9f27}
+.sw-red{border-left:4px solid var(--red);opacity:.7}
+
 .sec-label{font-size:12.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin:1.6rem 0 .7rem;padding-bottom:.35rem;border-bottom:.5px solid var(--bd)}
 .footer{font-size:12.5px;color:var(--t3);text-align:center;margin-top:2rem;padding-bottom:1.5rem}
 </style>
@@ -213,8 +224,42 @@ table.statusmap tr:last-child td{border-bottom:none}
     <tr><td>They got in touch / interview</td><td>Interview / heard back</td><td><span class="pipe-col">Interview</span></td></tr>
     <tr><td>You got an answer</td><td>Accepted &#10003; / Waitlisted / Declined</td><td><span class="pipe-col">Outcome</span></td></tr>
   </table>
-  <div class="callout" style="margin:.8rem 0 0">
-    <strong>Accepted</strong> turns the card green, <strong>Waitlisted</strong> amber, and <strong>Declined</strong> dims it &mdash; so outcomes stand out at a glance.
+</div>
+
+<div class="sec-label">Reading the colours on the Tracker</div>
+
+<div class="callout">
+  Each application card is tinted by <strong>whose turn it is</strong> &mdash; so you can scan the page and see what needs you,
+  without reading a single word.
+</div>
+
+<div class="step">
+  <div class="step-head"><div class="step-num">&#127912;</div><div class="step-title">The colour key</div></div>
+  <table class="statusmap">
+    <tr><th>Card looks like</th><th>Status</th><th>What it means</th></tr>
+    <tr><td><span class="swatch sw-none"></span> Plain, no tint</td><td>Not started</td><td>Nothing begun yet</td></tr>
+    <tr><td><span class="swatch sw-amber"></span> Amber edge</td><td>Gathering materials</td><td><strong>Your turn</strong> &mdash; actively working on it</td></tr>
+    <tr><td><span class="swatch sw-blue"></span> Blue edge</td><td>Submitted &middot; Under review</td><td><strong>Their turn</strong> &mdash; it&rsquo;s out of your hands, just wait</td></tr>
+    <tr><td><span class="swatch sw-purple"></span> Purple edge</td><td>Interview / heard back</td><td><strong>Your turn &mdash; respond!</strong></td></tr>
+    <tr><td><span class="swatch sw-grey"></span> Grey edge</td><td>Decision received</td><td>An answer arrived &mdash; go read it</td></tr>
+    <tr><td><span class="swatch sw-green"></span> Green card</td><td>Accepted &#10003;</td><td>Offer in hand</td></tr>
+    <tr><td><span class="swatch sw-orange"></span> Orange edge</td><td>Waitlisted</td><td>On hold</td></tr>
+    <tr><td><span class="swatch sw-red"></span> Dimmed</td><td>Declined</td><td>Closed &mdash; kept for the record</td></tr>
+  </table>
+  <div class="callout tipgood" style="margin:.85rem 0 0">
+    <strong>The short version:</strong> <strong>warm colours mean you owe it something</strong>, <strong>cool blue means
+    you&rsquo;re waiting on them</strong>, and green / orange / dimmed mean it&rsquo;s finished. If you only have five minutes,
+    work the amber and purple cards.
+  </div>
+</div>
+
+<div class="step">
+  <div class="step-head"><div class="step-num">&#128269;</div><div class="step-title">Search inside a page</div></div>
+  <div class="step-sub" style="margin-left:42px">
+    <strong>My List</strong> and the <strong>Tracker</strong> each have their own search box at the top &mdash; separate from the
+    <strong>Search</strong> in the header. The header search looks across the <em>whole site</em>; these narrow the list
+    <em>you&rsquo;re standing on</em>. Type a title, an organisation, or a card number (<strong>0039</strong>), and it tells you
+    how many matched. Clear the box to get everything back.
   </div>
 </div>
 
