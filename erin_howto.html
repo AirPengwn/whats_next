@@ -106,7 +106,7 @@ table.t tr:last-child td{border-bottom:none}
 <div class="sec">1 &mdash; Save an opportunity</div>
 
 <div class="step">
-  <div class="step-head"><div class="step-num">1</div><div class="step-title">Click Save on any Browse card</div></div>
+  <div class="step-head"><div class="step-num">1</div><div class="step-title">Click &ldquo;Save to My List&rdquo; on any Browse card</div></div>
   <div class="shot">
     <div class="shot-row">
       <span class="d-det">Details</span>
@@ -119,15 +119,18 @@ table.t tr:last-child td{border-bottom:none}
   </div>
   <div class="shot-cap">The buttons at the bottom of every Browse card.</div>
   <table class="t">
-    <tr><td><span class="d-save">&#9734; Save to My List</span></td><td>Adds it to My List</td></tr>
-    <tr><td><span class="d-prio">&#9734; Priority</span></td><td>Your shortlist &mdash; also saves it</td></tr>
-    <tr><td><span class="d-rev">&#128065; Mark reviewed</span></td><td>&ldquo;Seen it&rdquo; &mdash; dims the card so you don&rsquo;t re-read it</td></tr>
-    <tr><td><span class="d-ni">&#10007; Not interested</span></td><td>Hides it (never deleted)</td></tr>
+    <tr><th>Button</th><th>What it does</th><th>Tracker card?</th></tr>
+    <tr><td><span class="d-save">&#9734; Save to My List</span></td><td>Adds it to My List</td><td><strong style="color:var(--teal-t)">Yes</strong></td></tr>
+    <tr><td><span class="d-prio">&#9734; Priority</span></td><td>Your shortlist &mdash; saves it too</td><td><strong style="color:var(--teal-t)">Yes</strong></td></tr>
+    <tr><td><span class="d-rev">&#128065; Mark reviewed</span></td><td>&ldquo;Seen it&rdquo; &mdash; dims the card so you don&rsquo;t re-read it</td><td>No</td></tr>
+    <tr><td><span class="d-ni">&#10007; Not interested</span></td><td>Hides it (never deleted)</td><td>No</td></tr>
   </table>
 </div>
 
 <div class="note good">
-  <strong>&#10003; That&rsquo;s all you do.</strong> Saving automatically creates its card on the Tracker at &ldquo;Not started.&rdquo;
+  <strong>&#10003; That&rsquo;s all you do.</strong> Saving it &mdash; with either <strong>Save to My List</strong> or
+  <strong>&#9734; Priority</strong> &mdash; automatically creates its card on the Tracker at &ldquo;Not started.&rdquo;
+  <em>Mark reviewed</em> and <em>Not interested</em> don&rsquo;t save it, so they don&rsquo;t create one.
 </div>
 
 <div class="sec">2 &mdash; Apply</div>
