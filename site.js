@@ -5,7 +5,7 @@
    ═══════════════════════════════════════════════════════════ */
 
 /* build-stamped version + build (build.js patches these lines each release) */
-var WN_VERSION = '3.19';
+var WN_VERSION = '3.20';
 var WN_BUILD   = '20260726-391-8945b981';
 
 /* ── 1. Sync hook ──────────────────────────────────────────
@@ -65,6 +65,7 @@ document.addEventListener('DOMContentLoaded', function(){
       'index.html':              { group:null,    sub:'Home',     icon:'home',     href:'index.html' },
       'erin_search.html':        { group:null,    sub:'Search',   icon:'search',   href:'erin_search.html', util:true },
       'erin_bio.html':           { group:null,    sub:'Profile',  icon:'person',   href:'erin_bio.html' },
+      'erin_howto.html':         { group:null,    sub:'How to',   icon:'check',    href:'erin_howto.html', util:true },
       /* Track */
       'erin_mylist.html':        { group:'track', sub:'My List',     icon:'star',     href:'erin_mylist.html' },
       'erin_compare.html':       { group:'track', sub:'Compare',     icon:'compare',  href:'erin_compare.html' },
@@ -118,6 +119,7 @@ document.addEventListener('DOMContentLoaded', function(){
     /* Utilities — search + theme toggle + (sync/version chips appended later) */
     html += '<div class="wn-utils">';
     html += '<a href="erin_search.html" class="wn-util-link" title="Search everything">' + ic('search',15) + '<span>Search</span></a>';
+    html += '<a href="erin_howto.html" class="wn-util-link' + (filename==='erin_howto.html'?' active':'') + '" title="How to use this site">' + ic('check',15) + '<span>How to</span></a>';
     html += '<button id="theme-toggle" class="gnav-toggle" type="button" title="Toggle theme" onclick="window.__toggleTheme&&window.__toggleTheme()">&#9728;</button>';
     html += '</div>';
     html += '</div>';

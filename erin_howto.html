@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
+<link rel="stylesheet" href="styles.css?v=20260726-391-8945b981">
+<title>Erin Lamberton &mdash; How to use this site</title>
+<style>
+body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem}
+a{color:var(--blue);text-decoration:none}
+a:hover{text-decoration:underline}
+
+.page-header-eyebrow{font-size:12.5px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-t);margin-bottom:.25rem}
+.page-header-title{font-size:24px;font-weight:700;color:var(--t1);line-height:1.2;letter-spacing:-.02em;margin-bottom:.2rem}
+.page-header-sub{font-size:13px;color:var(--t2);line-height:1.5}
+
+/* Callouts */
+.callout{border-left:3px solid var(--teal);background:var(--bg2);padding:.8rem 1rem;margin-bottom:1.25rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);line-height:1.65}
+.callout strong{color:var(--t1);font-weight:600}
+.callout.warn{border-left-color:#c0392b;background:var(--red-bg);color:var(--red-t)}
+.callout.warn strong{color:var(--red-t)}
+.callout.tipgood{border-left-color:var(--teal);background:var(--teal-bg);color:var(--teal-t)}
+.callout.tipgood strong{color:var(--teal-t)}
+
+/* Step sections */
+.step{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1.1rem 1.25rem;margin-bottom:.9rem}
+.step-head{display:flex;align-items:center;gap:.7rem;margin-bottom:.6rem;flex-wrap:wrap}
+.step-num{flex-shrink:0;width:30px;height:30px;border-radius:50%;background:var(--teal);color:#fff;font-weight:700;font-size:14px;display:flex;align-items:center;justify-content:center;font-family:var(--fn)}
+.step-title{font-size:16px;font-weight:700;color:var(--t1);line-height:1.25}
+.step-sub{font-size:12.5px;color:var(--t3);margin:-.35rem 0 .7rem 42px}
+
+ol.clicks{list-style:none;counter-reset:c;padding:0;margin:.2rem 0 0}
+ol.clicks li{counter-increment:c;position:relative;padding:.32rem 0 .32rem 30px;font-size:13.5px;color:var(--t2);line-height:1.6;border-bottom:.5px solid var(--bd)}
+ol.clicks li:last-child{border-bottom:none}
+ol.clicks li::before{content:counter(c);position:absolute;left:0;top:.42rem;width:19px;height:19px;border-radius:50%;background:var(--bg2);border:.5px solid var(--bds);color:var(--t3);font-size:11.5px;font-weight:700;display:flex;align-items:center;justify-content:center}
+ol.clicks li strong{color:var(--t1);font-weight:600}
+
+/* UI element references */
+.btn-ref{display:inline-block;font-size:12.5px;font-weight:600;padding:2px 10px;border-radius:999px;background:var(--amber-bg);color:var(--amber-t);border:1px solid var(--amber);white-space:nowrap}
+.btn-ref.teal{background:var(--teal-bg);color:var(--teal-t);border-color:var(--teal)}
+.btn-ref.purple{background:var(--purple-bg);color:var(--purple-t);border-color:var(--purple-t)}
+.btn-ref.grey{background:var(--bg2);color:var(--t2);border-color:var(--bds)}
+.btn-ref.red{background:var(--red-bg);color:var(--red-t);border-color:var(--red)}
+.navpath{font-family:var(--mono);font-size:12.5px;font-weight:600;background:var(--bg2);border:.5px solid var(--bd);padding:1px 8px;border-radius:5px;color:var(--t2);white-space:nowrap}
+
+/* Auto-save split */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin-top:.6rem}
+@media(max-width:620px){.split{grid-template-columns:1fr}}
+.split-box{border-radius:var(--r1);padding:.7rem .85rem;font-size:12.5px;line-height:1.6}
+.split-box.auto{background:var(--teal-bg);border:1px solid var(--teal)}
+.split-box.manual{background:var(--amber-bg);border:1px solid var(--amber)}
+.split-box .sb-h{font-weight:700;font-size:12.5px;margin-bottom:.35rem;letter-spacing:.02em}
+.split-box.auto .sb-h{color:var(--teal-t)}
+.split-box.manual .sb-h{color:var(--amber-t)}
+.split-box ul{margin:0;padding-left:1.1rem}
+.split-box.auto{color:var(--teal-t)}
+.split-box.manual{color:var(--amber-t)}
+
+/* Status table */
+table.statusmap{width:100%;border-collapse:collapse;margin-top:.5rem;font-size:13px}
+table.statusmap th{text-align:left;font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--t3);font-weight:700;padding:.4rem .6rem;border-bottom:1px solid var(--bd)}
+table.statusmap td{padding:.45rem .6rem;border-bottom:.5px solid var(--bd);color:var(--t2);vertical-align:middle}
+table.statusmap tr:last-child td{border-bottom:none}
+.pipe-col{font-family:var(--mono);font-size:12px;font-weight:600;color:var(--t2);background:var(--bg2);border:.5px solid var(--bd);padding:1px 8px;border-radius:5px;white-space:nowrap}
+
+.sec-label{font-size:12.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin:1.6rem 0 .7rem;padding-bottom:.35rem;border-bottom:.5px solid var(--bd)}
+.footer{font-size:12.5px;color:var(--t3);text-align:center;margin-top:2rem;padding-bottom:1.5rem}
+</style>
+<script src="icons.js?v=20260602"></script>
+<script src="site.js?v=20260726-391-8945b981"></script>
+</head>
+<body>
+
+<!-- GLOBAL NAV (site.js replaces this) -->
+<nav class="global-nav">
+  <div class="gnav-wrap">
+    <div class="gnav-inner">
+      <a href="index.html" class="gnav-home">&#127968; Home</a>
+      <a href="erin_search.html" class="gnav-link">&#128269; Search</a>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-track">Track</span>
+        <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
+        <a href="erin_applications.html" class="gnav-link">&#128196; Tracker</a>
+        <a href="erin_pipeline.html" class="gnav-link">&#128202; Pipeline</a>
+      </div>
+    </div>
+    <button class="gnav-toggle" id="theme-toggle" onclick="__toggleTheme()" title="Toggle dark/light mode">&#127769;</button>
+  </div>
+</nav>
+
+<div class="page">
+
+<div class="page-header">
+  <div class="page-header-eyebrow">What&rsquo;s Next for Erin</div>
+  <div class="page-header-title">How to use this site</div>
+  <div class="page-header-sub">From &ldquo;I found something I like&rdquo; to &ldquo;I applied and I&rsquo;m tracking it&rdquo; &mdash; every click, in order.</div>
+</div>
+
+<div class="callout warn">
+  <strong>&#9888; Before anything else: use Erin&rsquo;s laptop.</strong><br>
+  Only her laptop (the <em>primary device</em>) saves changes. On any other device you&rsquo;ll see a
+  <strong>&ldquo;View-only&rdquo;</strong> banner across the top &mdash; buttons still respond, but everything
+  <strong>resets the moment you refresh</strong>. To confirm you&rsquo;re on the right one, open
+  <span class="navpath">My List</span> and look for <strong>&ldquo;This is the primary device &#10003;&rdquo;</strong> near the top.
+</div>
+
+<div class="sec-label">Part 1 &mdash; You found an opportunity you like</div>
+
+<div class="step">
+  <div class="step-head"><div class="step-num">1</div><div class="step-title">Save it to My List</div></div>
+  <ol class="clicks">
+    <li>In the top nav choose <span class="navpath">Browse</span>, then the matching page &mdash; <strong>Programs</strong>, <strong>Internships</strong>, <strong>Jobs</strong>, or <strong>Service</strong>.</li>
+    <li>Find the card. Fastest way: type its <strong>number</strong> (e.g. <strong>0137</strong>) or a keyword into the search box at the top.</li>
+    <li>Click <span class="btn-ref">&#9734; Save to My List</span> &mdash; it changes to <span class="btn-ref">&#9733; Saved</span>.</li>
+  </ol>
+</div>
+
+<div class="step">
+  <div class="step-head"><div class="step-num">2</div><div class="step-title">Optional &mdash; flag it while you&rsquo;re there</div></div>
+  <div class="step-sub">Neither is required, but both make the long list easier to work through.</div>
+  <ol class="clicks">
+    <li><span class="btn-ref purple">&#9734; Priority</span> &mdash; for the ones she&rsquo;s serious about. Also saves the item automatically, and pulls it into its own column on the Pipeline.</li>
+    <li><span class="btn-ref grey">&#128065; Mark reviewed</span> &mdash; means &ldquo;I&rsquo;ve looked at this.&rdquo; The card dims, and it disappears from the <strong>&#128065; Not yet reviewed</strong> filter so you never read the same card twice.</li>
+    <li><span class="btn-ref red">&#10007; Not interested</span> &mdash; hides it from normal views. Nothing is ever deleted; you can always bring it back.</li>
+  </ol>
+</div>
+
+<div class="callout tipgood">
+  <strong>&#10003; You do NOT need to create an application.</strong><br>
+  The moment you save something to My List, the site <strong>automatically creates a card for it on the
+  Applications Tracker</strong>, starting at status <em>&ldquo;Not started.&rdquo;</em> It&rsquo;s already waiting for you.
+</div>
+
+<div class="sec-label">Part 2 &mdash; You applied online</div>
+
+<div class="callout">
+  Apply on the organisation&rsquo;s own website exactly as you normally would &mdash; this site doesn&rsquo;t submit
+  anything for you. Once you&rsquo;ve submitted there, come back here and record it.
+</div>
+
+<div class="sec-label">Part 3 &mdash; Record it on the Tracker</div>
+
+<div class="step">
+  <div class="step-head"><div class="step-num">3</div><div class="step-title">Open the application&rsquo;s card</div></div>
+  <ol class="clicks">
+    <li>Top nav &rarr; <span class="navpath">Track</span> &rarr; <span class="navpath">Tracker</span>.</li>
+    <li>Find its card &mdash; use the <strong>&#11088; Priority</strong> filter, or search its number (e.g. <strong>0137</strong>). Every application shows the opportunity&rsquo;s number in its title.</li>
+  </ol>
+</div>
+
+<div class="step">
+  <div class="step-head"><div class="step-num">4</div><div class="step-title">Set the status to &ldquo;Submitted&rdquo;</div></div>
+  <div class="step-sub">This is the single most important field &mdash; it drives the Pipeline board.</div>
+  <ol class="clicks">
+    <li>Click the <strong>status dropdown</strong> at the top-right of the card.</li>
+    <li>Choose <strong>Submitted</strong>.</li>
+    <li>It saves <strong>instantly</strong> &mdash; watch the <strong>Status</strong> pill in the card&rsquo;s right-hand sidebar update as you pick it. No Save click needed.</li>
+  </ol>
+</div>
+
+<div class="step">
+  <div class="step-head"><div class="step-num">5</div><div class="step-title">Fill in the details</div></div>
+  <ol class="clicks">
+    <li><strong>Submitted</strong> date &mdash; click the date box and pick the day you applied.</li>
+    <li><strong>Materials checklist</strong> &mdash; tick what you actually sent (<em>Application submitted</em>, <em>CV / resume updated</em>, <em>SOP finalized</em>, <em>Confirmation email saved</em>&hellip;). The progress bar fills as you go.</li>
+    <li><strong>Portal URL</strong> and <strong>Portal Login</strong> &mdash; so she can get back into the application later. <strong>Username or email only &mdash; never the password.</strong></li>
+    <li><strong>Notes</strong> &mdash; confirmation number, who you spoke to, anything worth remembering.</li>
+    <li>Click <span class="btn-ref teal">Save</span> &mdash; a green <em>&ldquo;Saved &#10003;&rdquo;</em> flashes next to the button.</li>
+  </ol>
+
+  <div class="split">
+    <div class="split-box auto">
+      <div class="sb-h">&#10003; Saves by itself</div>
+      <ul>
+        <li>Status dropdown</li>
+        <li>Submitted / Decision dates</li>
+        <li>Materials checkboxes</li>
+        <li>Professor picker</li>
+      </ul>
+    </div>
+    <div class="split-box manual">
+      <div class="sb-h">&#9888; Needs the Save button</div>
+      <ul>
+        <li>Portal URL</li>
+        <li>Portal Login</li>
+        <li>Notes</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="step">
+  <div class="step-head"><div class="step-num">6</div><div class="step-title">Check it landed</div></div>
+  <ol class="clicks">
+    <li>Go to <span class="navpath">Track</span> &rarr; <span class="navpath">Pipeline</span> &mdash; the card should now sit in the <strong>Submitted</strong> column.</li>
+    <li>Reload the Tracker page &mdash; your status, dates and notes should all still be there. If they are, it synced.</li>
+  </ol>
+</div>
+
+<div class="sec-label">Part 4 &mdash; Keep it updated as things happen</div>
+
+<div class="step">
+  <div class="step-head"><div class="step-num">7</div><div class="step-title">Just change the status &mdash; everything else follows</div></div>
+  <div class="step-sub">You never move cards by hand. The Pipeline board reads the status.</div>
+  <table class="statusmap">
+    <tr><th>What happened</th><th>Set status to</th><th>Moves to</th></tr>
+    <tr><td>Still gathering documents</td><td>Gathering materials</td><td><span class="pipe-col">Preparing</span></td></tr>
+    <tr><td>You submitted it</td><td><strong>Submitted</strong></td><td><span class="pipe-col">Submitted</span></td></tr>
+    <tr><td>Waiting to hear back</td><td>Under review</td><td><span class="pipe-col">Awaiting decision</span></td></tr>
+    <tr><td>They got in touch / interview</td><td>Interview / heard back</td><td><span class="pipe-col">Interview</span></td></tr>
+    <tr><td>You got an answer</td><td>Accepted &#10003; / Waitlisted / Declined</td><td><span class="pipe-col">Outcome</span></td></tr>
+  </table>
+  <div class="callout" style="margin:.8rem 0 0">
+    <strong>Accepted</strong> turns the card green, <strong>Waitlisted</strong> amber, and <strong>Declined</strong> dims it &mdash; so outcomes stand out at a glance.
+  </div>
+</div>
+
+<div class="sec-label">Two shortcuts worth knowing</div>
+
+<div class="step">
+  <div class="step-head"><div class="step-num">&#9733;</div><div class="step-title">Every card has a number</div></div>
+  <div class="step-sub" style="margin-left:42px">Each opportunity shows a number like <strong>#0137</strong>. Type <strong>0137</strong> into any search box to jump straight to it &mdash; and it&rsquo;s by far the easiest way to refer to a specific one in conversation.</div>
+</div>
+
+<div class="step">
+  <div class="step-head"><div class="step-num">&#8644;</div><div class="step-title">Everything links both ways</div></div>
+  <div class="step-sub" style="margin-left:42px">From an opportunity card, the <strong>&ldquo;On your tracker&rdquo;</strong> links jump to its application and materials. From the application, <strong>&ldquo;View opportunity &rarr;&rdquo;</strong> jumps back, and <strong>&ldquo;Apply / View posting &#8599;&rdquo;</strong> opens the live listing.</div>
+</div>
+
+<div class="step">
+  <div class="step-head"><div class="step-num">&#9662;</div><div class="step-title">See the opportunity without leaving the Tracker</div></div>
+  <div class="step-sub" style="margin-left:42px">
+    On any application card, click <span class="btn-ref grey">&#9656; Opportunity details</span> (next to the links under the title).
+    It expands <strong>in place</strong> to show the fit rating, deadline, pay, location, what the role actually involves,
+    and its focus areas &mdash; then click again to collapse. You keep your spot in the list.
+  </div>
+</div>
+
+<div class="callout">
+  <strong>Why two cards per opportunity?</strong> Each opportunity has <strong>two</strong> records behind it: the
+  <em>opportunity</em> (shared &mdash; title, description, pay, deadline; refreshed by the weekly sweep) and
+  <em>Erin&rsquo;s application</em> (private &mdash; status, dates, portal login, notes, checklist). They share the same
+  number, so <strong>#0039</strong> finds both. Keeping them separate means the weekly update can never overwrite her
+  progress notes.
+</div>
+
+<p class="footer">
+  Nothing on this site is ever deleted &mdash; items you pass on are hidden, not removed, and stay in the Archive.<br><br>
+  <a href="index.html">&#8592; Back to home</a>
+</p>
+
+</div>
+</body>
+</html>
