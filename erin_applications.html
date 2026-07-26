@@ -71,6 +71,8 @@ a:hover{text-decoration:underline}
 .ps-notstarted,.ps-gathering,.ps-submitted,.ps-review,.ps-interview,.ps-decision{
   background:transparent;color:var(--mute-t);border:1px solid var(--bds);font-weight:500
 }
+/* v3.23: the two-sided state gets a split amber/blue chip so it reads as BOTH */
+.ps-awaitingdocs{background:transparent;color:var(--amber-t);border:1px solid #e0a02c;font-weight:600}
 /* Reserve saturated color for the three OUTCOMES that demand a reaction */
 .ps-accepted{background:var(--teal-bg);color:var(--teal-t);border:1.5px solid var(--teal);font-weight:600}
 .ps-declined{background:var(--red-bg);color:var(--red-t);font-weight:600}
@@ -106,6 +108,15 @@ a:hover{text-decoration:underline}
    original Phase D.2 rule. */
 .app-card.status-gathering{border-left:3px solid #e0a02c;background:rgba(224,160,44,.07)}   /* your move */
 .app-card.status-submitted{border-left:3px solid #4a90d9;background:rgba(74,144,217,.06)}   /* their move */
+/* v3.23 BOTH moves: the app is in (blue) but Erin still owes refs/docs (amber).
+   Split left rule — amber on top, blue below — with the amber wash winning the
+   card tint, because the actionable half is what should catch your eye. */
+.app-card.status-awaitingdocs{
+  border-left:3px solid transparent;
+  background:
+    linear-gradient(180deg,#e0a02c 0 50%,#4a90d9 50% 100%) left top/3px 100% no-repeat,
+    rgba(224,160,44,.07);
+}
 .app-card.status-review{border-left:3px solid #4a90d9;background:rgba(74,144,217,.06)}      /* their move */
 .app-card.status-interview{border-left:3px solid #7d6cd6;background:rgba(125,108,214,.09)}  /* your move — respond */
 .app-card.status-decision{border-left:3px solid var(--bds);background:rgba(128,128,128,.06)}/* read it */
@@ -306,6 +317,8 @@ html:not(.dark){
     <span class="pipe-step ps-gathering">Gathering materials</span>
     <span class="pipe-arrow">›</span>
     <span class="pipe-step ps-submitted">Submitted</span>
+    <span class="pipe-arrow">&rarr;</span>
+    <span class="pipe-step ps-awaitingdocs" title="Application is in, but references / transcripts / scores are still outstanding">Submitted &mdash; refs/docs pending</span>
     <span class="pipe-arrow">›</span>
     <span class="pipe-step ps-review">Under review</span>
     <span class="pipe-arrow">›</span>
@@ -511,9 +524,13 @@ function pullApps(){
 
 
 // ── Status helpers ──
-var STATUS_ORDER={notstarted:0,gathering:1,submitted:2,review:3,interview:4,decision:5,accepted:6,waitlisted:7,declined:8};
-var STATUS_LABELS={notstarted:'Not started',gathering:'Gathering materials',submitted:'Submitted',review:'Under review',interview:'Interview / heard back',decision:'Decision received',accepted:'Accepted ✓',declined:'Declined',waitlisted:'Waitlisted'};
-var STATUS_CSS={notstarted:'ps-notstarted',gathering:'ps-gathering',submitted:'ps-submitted',review:'ps-review',interview:'ps-interview',decision:'ps-decision',accepted:'ps-accepted',declined:'ps-declined',waitlisted:'ps-waitlisted'};
+/* v3.23: `awaitingdocs` — the application itself is IN, but something Erin still
+   controls hasn't landed yet (recommendation letters, official transcripts, test
+   scores). It is simultaneously "their turn" (reviewing) and "her turn" (chase the
+   references) — the only genuinely two-sided state, and it colours accordingly. */
+var STATUS_ORDER={notstarted:0,gathering:1,submitted:2,awaitingdocs:3,review:4,interview:5,decision:6,accepted:7,waitlisted:8,declined:9};
+var STATUS_LABELS={notstarted:'Not started',gathering:'Gathering materials',submitted:'Submitted',awaitingdocs:'Submitted — refs/docs pending',review:'Under review',interview:'Interview / heard back',decision:'Decision received',accepted:'Accepted ✓',declined:'Declined',waitlisted:'Waitlisted'};
+var STATUS_CSS={notstarted:'ps-notstarted',gathering:'ps-gathering',submitted:'ps-submitted',awaitingdocs:'ps-awaitingdocs',review:'ps-review',interview:'ps-interview',decision:'ps-decision',accepted:'ps-accepted',declined:'ps-declined',waitlisted:'ps-waitlisted'};
 
 // Default materials checklist items
 var DEFAULT_MATERIALS=[

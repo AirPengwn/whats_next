@@ -64,6 +64,8 @@ body{padding:0 0 3rem}
 .s-accept{background:var(--teal-bg);color:var(--teal-t)}
 .s-decline{background:var(--red-bg);color:var(--red-t)}
 .s-wait{background:var(--amber-bg);color:var(--amber-t)}
+/* v3.23: submitted but refs/docs still outstanding — needs a nudge */
+.s-docs{background:var(--amber-bg);color:var(--amber-t);border:1px solid #e0a02c}
 .col-empty{font-size:12.5px;color:var(--t3);text-align:center;padding:1.25rem .5rem;font-style:italic}
 .legend{font-size:12.5px;color:var(--t3);margin-top:1rem;text-align:center}
 .pl-loading{font-size:13px;color:var(--t3);text-align:center;padding:2rem}
@@ -172,13 +174,16 @@ body{padding:0 0 3rem}
     return ['Due in '+d+'d', false];
   }
 
-  var SL={notstarted:'Not started',gathering:'Gathering',submitted:'Submitted',review:'Under review',interview:'Interview / heard back',decision:'Decision received',accepted:'Accepted',declined:'Declined',waitlisted:'Waitlisted'};
+  var SL={notstarted:'Not started',gathering:'Gathering',submitted:'Submitted',awaitingdocs:'Refs/docs pending',review:'Under review',interview:'Interview / heard back',decision:'Decision received',accepted:'Accepted',declined:'Declined',waitlisted:'Waitlisted'};
   /* 6 distinct stages. Saved is handled separately (My List, no app yet). */
   function stageOf(st){
     st=(st||'notstarted')+'';
     if(/^notstarted$/.test(st)) return 'save';
     if(/^gathering$/.test(st)) return 'prep';
     if(/^submitted$/.test(st)) return 'sub';
+    /* v3.23: application is in, but refs/transcripts still outstanding — it sits in
+       Submitted (it HAS been submitted) and the card's own status pill shows the nuance. */
+    if(/^awaitingdocs$/.test(st)) return 'sub';
     if(/^review$/.test(st)) return 'await';
     if(/^interview$/.test(st)) return 'intv';
     if(/^(decision|accepted|declined|waitlisted)$/.test(st)) return 'out';
@@ -251,6 +256,7 @@ body{padding:0 0 3rem}
     if(rs==='accepted') return 's-accept';
     if(rs==='declined') return 's-decline';
     if(rs==='waitlisted') return 's-wait';
+    if(rs==='awaitingdocs') return 's-docs';   /* v3.23: still needs chasing */
     return '';
   }
 
