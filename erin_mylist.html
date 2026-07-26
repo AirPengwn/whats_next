@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
-<link rel="stylesheet" href="styles.css?v=20260720-391-8945b981">
+<link rel="stylesheet" href="styles.css?v=20260726-391-8945b981">
 <title>My Opportunity List — What's Next for Erin</title>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -258,8 +258,8 @@ var(--mute-t);border:1px solid var(--bds)}
 </style>
 
 <script src="icons.js?v=20260602"></script>
-<script src="site.js?v=20260720-391-8945b981"></script>
-<script src="opportunities.js?v=20260720-391-8945b981"></script>
+<script src="site.js?v=20260726-391-8945b981"></script>
+<script src="opportunities.js?v=20260726-391-8945b981"></script>
 <script>
 (function(){
   var saved=localStorage.getItem('erin_theme');
@@ -910,6 +910,12 @@ function buildDetailPanel(it,idPrefix){
   detail.appendChild(_blBox);
   return detail;
 }
+/* v3.19 FIX: makeListCard lives in THIS script block, but the Browse engine below
+   is wrapped in an IIFE — its copy of oppNum() is private and invisible here.
+   Defining it on window makes it reachable from BOTH blocks. (Regression from
+   v2.78: the curated My List threw "oppNum is not defined" on every card, so the
+   section headers rendered but zero cards did.) */
+window.oppNum = window.oppNum || function(id){ var m=String(id||'').match(/(\d+)\s*$/); return m ? m[1].padStart(4,'0') : ''; };
 function makeListCard(it){
   it=mergeWithAll(it);
   var _blOnCard = !!(window.BL && BL.has(it.id));
