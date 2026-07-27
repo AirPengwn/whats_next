@@ -322,7 +322,7 @@ function render(){
 if(isPrimary()){
   var _arch=loadArchive();
   render();
-  if(_arch.length>0){ pushArchiveToCloud(); } // heartbeat: keep JSONbin current
+  if(_arch.length>0 && window.wnHeartbeatDue('archive')){ pushArchiveToCloud(); } // heartbeat: once per session (v3.59)
   else { pullArchive(function(){ render(); }); } // recovery: localStorage empty, restore from cloud
 } else {
   pullArchive(function(){ render(); }); // secondary: always read from cloud

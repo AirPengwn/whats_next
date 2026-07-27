@@ -468,7 +468,7 @@ function makeCard(m){
 // Only seed when BOTH local AND cloud are empty (a genuine first run).
 if(isPrimary()){
   var _mats=loadMats();
-  if(_mats.length>0){ render(); pushMats(_mats); }            // have local → render + heartbeat
+  if(_mats.length>0){ render(); if(window.wnHeartbeatDue('materials')) pushMats(_mats); }  // render always; heartbeat once per session (v3.59)
   else { pullMats(function(){                                  // local empty → recover from cloud
     if(!loadMats().length){ seedDefaults(); pushMats(loadMats()); }  // cloud also empty → first-run seed
     render();

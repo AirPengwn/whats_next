@@ -253,7 +253,7 @@ document.addEventListener('DOMContentLoaded',function(){
   if(isPrimary()){
     var arr=loadSamples();
     render();
-    if(arr.length>0){ pushSamples(arr); } // heartbeat: keep JSONbin current
+    if(arr.length>0 && window.wnHeartbeatDue('samples')){ pushSamples(arr); } // heartbeat: once per session (v3.59)
     else { pullCloud(); }                  // recovery: localStorage empty, restore from cloud
   } else {
     pullCloud(); // secondary: always read from cloud

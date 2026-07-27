@@ -1020,7 +1020,7 @@ function escHtml(s){ return String(s||'').replace(/[&<>"']/g,function(c){return 
 if(isPrimary()){
   var _apps=loadApps();
   render();
-  if(_apps.length>0){ pushApps(_apps).catch(function(){}); } // heartbeat: keep JSONbin current
+  if(_apps.length>0 && window.wnHeartbeatDue('apps')){ pushApps(_apps).catch(function(){}); } // heartbeat: once per session (v3.59)
   else { pullApps(); }                    // recovery: localStorage empty, restore from cloud
 } else {
   pullApps(); // secondary: always read from cloud

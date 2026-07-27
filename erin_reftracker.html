@@ -367,7 +367,7 @@ document.addEventListener('DOMContentLoaded',function(){
   if(isPrimary()){
     var arr=loadRefs();
     render();
-    if(arr.length>0){ pushRefs(arr); } // heartbeat: keep JSONbin current
+    if(arr.length>0 && window.wnHeartbeatDue('refs')){ pushRefs(arr); } // heartbeat: once per session (v3.59)
     else { pullCloud(); }              // recovery: localStorage empty, restore from cloud
   } else {
     pullCloud(); // secondary: always read from cloud

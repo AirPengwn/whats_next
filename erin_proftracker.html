@@ -693,7 +693,7 @@ window.addEventListener('hashchange', scrollToHash);
 if(isPrimary()){
   var _arr=loadProfs();
   render();
-  if(_arr.length>0){ pushProfs(_arr); } // heartbeat: keep JSONbin current
+  if(_arr.length>0 && window.wnHeartbeatDue('profs')){ pushProfs(_arr); } // heartbeat: once per session (v3.59)
   else { pullProfs(); }                  // recovery: localStorage empty, restore from cloud
 } else {
   pullProfs(); // secondary: always read from cloud

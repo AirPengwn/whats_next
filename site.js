@@ -5,7 +5,7 @@
    ═══════════════════════════════════════════════════════════ */
 
 /* build-stamped version + build (build.js patches these lines each release) */
-var WN_VERSION = '3.58';
+var WN_VERSION = '3.59';
 var WN_BUILD   = '20260727-636-a51d60ed';
 
 /* ── 1. Sync hook ──────────────────────────────────────────
@@ -154,6 +154,34 @@ window.wnUrl = function(it){
     });
   };
 })();
+
+/* ── 1d. ONCE-PER-SESSION HEARTBEAT (v3.59) ──────────────────────────────
+   The primary device does NOT merely read on page load — it runs a
+   "heartbeat" GET-merge-PUT to keep the cloud current (erin_mylist.html
+   ~1227 and six sibling pages). So Erin's laptop spends TWO requests per
+   page view, not one, and re-pushes data that has almost never changed.
+   Across a 20-page session that is 40 requests to say nothing new.
+
+   Firing it ONCE PER SESSION instead of once per page load is safe in a way
+   that read-caching on the primary device is NOT: skipping a redundant write
+   cannot lose data, because any genuine edit calls push() directly and still
+   syncs immediately. The heartbeat exists to catch up a cloud that drifted
+   while offline — one push per session satisfies that completely.
+
+   It also REDUCES risk: every heartbeat is a blind GET-merge-PUT, so each one
+   is another chance to merge a stale read and clobber the other device. Fewer
+   blind merges is strictly better.
+
+   Fails OPEN — if sessionStorage is unavailable we heartbeat exactly as
+   before, so a storage failure can never leave the cloud un-synced. */
+window.wnHeartbeatDue = function(key){
+  try{
+    var k = 'erin_hb_' + key;
+    if(sessionStorage.getItem(k)) return false;
+    sessionStorage.setItem(k, '1');
+    return true;
+  }catch(e){ return true; }
+};
 
 /* ── 1b. SANDBOX / TEST MODE ──────────────────────────────────────────────
    v3.22. Lets you explore and change anything on the site WITHOUT any of it
