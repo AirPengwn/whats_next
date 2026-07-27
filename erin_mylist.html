@@ -1426,6 +1426,27 @@ initPrimaryBtn();
     });
     return out;
   }
+  /* v3.57: BYTE-BUDGET PRUNE — the real capacity guard.
+     JSONbin hard-fails HTTP 403 above ~100 KB. A single snapshot is now ~26.5 KB
+     (apps alone are 13 KB of hand-entered progress that must NOT be slimmed), so
+     the count-based "4 weekly + 2 daily" cap would try to store ~159 KB and 403 —
+     i.e. the backup silently stops working exactly as Erin's data becomes most
+     worth backing up. A COUNT cap cannot hold when per-snapshot size grows with
+     her data, so budget by BYTES instead and drop oldest until the payload fits.
+     Daily snapshots are evicted before weekly ones (weekly are the reliable
+     sweep-made ones), and we never drop below a single surviving snapshot. */
+  var SNAP_BYTE_BUDGET = 85*1024;          /* safe margin under the ~100 KB wall */
+  function fitBudget(list){
+    var out=list.slice(), dropped=0;
+    while(out.length>1 && JSON.stringify({snapshots:out}).length > SNAP_BYTE_BUDGET){
+      var i=-1;
+      for(var k=0;k<out.length;k++){ if(out[k] && out[k].src!=='weekly-sweep'){ i=k; break; } }
+      if(i===-1) i=0;                      /* all weekly -> drop the oldest weekly */
+      out.splice(i,1); dropped++;
+    }
+    if(dropped) try{ console.info('[backup] pruned '+dropped+' old snapshot(s) to stay under the bin size limit'); }catch(e){}
+    return out;
+  }
   function backupRoutine(){
     fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
       .then(function(r){ return r.json(); })
@@ -1452,6 +1473,7 @@ initPrimaryBtn();
             var weekly=backups.filter(function(s){ return s.src==='weekly-sweep'; }).slice(-4);
             var daily =backups.filter(function(s){ return s.src!=='weekly-sweep'; }).slice(-2);
             backups=weekly.concat(daily).sort(function(a,b){ return (a.at||'').localeCompare(b.at||''); });
+            backups=fitBudget(backups);
             return fetch('https://api.jsonbin.io/v3/b/'+BACKUP_BIN,{
               method:'PUT',
               headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},
