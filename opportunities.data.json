@@ -4607,7 +4607,9 @@
     },
     "id": "item-099",
     "location": "Mount Pleasant, Michigan",
-    "benefits": "Stipend plus tuition waiver, travel accident insurance, library privileges and Michigan-resident tuition classification — amounts set per department/appointment and not published"
+    "benefits": "Stipend plus tuition waiver, travel accident insurance, library privileges and Michigan-resident tuition classification — amounts set per department/appointment and not published",
+    "pay": "Graduate assistantship stipend (amount not published — confirm with Dr. Lammers)",
+    "stipend": "2 years of stipend"
   },
   {
     "title": "Iowa State University — Funded PhD, Soil Biogeochemistry & Ecosystem Ecology (Huang Lab)",
@@ -5616,7 +5618,7 @@
     "start": "~Apr–Nov term (flexible starts)",
     "body": "AmeriCorps program placing members with Montana conservation districts, tribes, agencies, and watershed nonprofits for hydrologic field techniques, GIS, and watershed coordination. ~$1,200 biweekly, Segal Education Award, free health insurance. Bachelor's in natural resources preferred.",
     "desc": "Strong fit and an ideal grad-school/agency springboard combining hydrology fieldwork + GIS + watershed coordination — Erin clears the bachelor's-preferred profile cleanly. Timing: this cycle is closed, so set an August 2026 reminder to apply for the next term.",
-    "badge": "Strong fit",
+    "badge": "Top recommendation",
     "pills": [
       "Water quality",
       "GIS / remote sensing",
@@ -5640,7 +5642,8 @@
     "location": "Statewide Montana host sites (conservation districts, tribes, agencies, watershed nonprofits)",
     "pay": "~$1,200 biweekly living allowance",
     "stipend": "Segal Education Award ~$7,395 on completion",
-    "benefits": "Free health insurance; hydrology/GIS/watershed field training"
+    "benefits": "Free health insurance; hydrology/GIS/watershed field training",
+    "url": "https://www.mtcorps.org/joinmcc/individual-placement-programs/big-sky-watershed-corps.html"
   },
   {
     "title": "Green Iowa AmeriCorps — Environmental Summer Steward",
@@ -6076,47 +6079,6 @@
     "src_label": "Funded Graduate Programs",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — June 22, 2026"
-    },
-    "title": "Central Michigan University — Funded MS, Wetland Nutrient Modeling (Lammers & Suchy)",
-    "org": "Central Michigan University — MS in Engineering or Biology · Drs. Roderick Lammers & Amanda Suchy · Mount Pleasant, MI",
-    "deadline": "Contact-first — email Dr. Roderick Lammers (lamme1r@cmich.edu). The April 17, 2026 priority deadline has passed — inquire whether the position is still open for an August 2026 start.",
-    "start": "August 2026 (possible project employment from May 2026)",
-    "body": "A funded MS research assistantship to characterize and model nutrient dynamics in managed wetlands in Michigan. Responsibilities include field data collection, data analysis, and developing process-based models of wetland hydrology and nutrient cycling. The student will be jointly supervised by Drs. Roderick Lammers and Amanda Suchy and may pursue an MS in Engineering or Biology depending on background. Support: 2 years of stipend plus tuition waiver. Preferred background: BS in ecology, environmental science/engineering or related, with coursework or research experience in water quality, hydrology, biogeochemistry and/or numerical modeling.",
-    "desc": "A direct fit for Erin's wetlands, water-quality, hydrology, and GIS/modeling interests. The combination of field wetland work and process-based nutrient modeling builds quantitative skills that strengthen both grad-school and federal (USGS/USFWS) pathways. BS-eligible. Because the April 17 priority deadline has passed, this is contact-first — a short email to Dr. Lammers noting her wetland delineation and GIS/suitability-modeling experience is the move.",
-    "badge": "Strong fit",
-    "pills": [
-      "Wetlands",
-      "Water quality",
-      "Hydrology",
-      "Nutrient cycling",
-      "Modeling",
-      "Funded MS"
-    ],
-    "metaLine": "Funded MS · 2-yr stipend + tuition waiver · contact-first (Apr 17 priority passed)",
-    "cycle": "current",
-    "deadline_kind": "contact-first",
-    "deadline_date": "",
-    "region": "Midwest & Great Plains",
-    "links": [
-      {
-        "href": "https://web.cobleskill.edu/fishwildlifejobs/2026/04/03/wetland-modeling-m-s-research-assistant-central-michigan-university/",
-        "label": "🔗 Position posting"
-      }
-    ],
-    "id": "item-138",
-    "location": "Mount Pleasant, Michigan (field sites in managed Michigan wetlands)",
-    "pay": "Graduate assistantship stipend (amount not published — confirm with Dr. Lammers)",
-    "stipend": "2 years of stipend",
-    "benefits": "Tuition waiver"
-  },
-  {
-    "type": "Graduate Program",
-    "cat": "Funded Graduate Programs",
-    "src": "erin_programs.html",
-    "src_label": "Funded Graduate Programs",
-    "status": {
-      "kind": "s-new",
       "label": "✨ New — June 29, 2026"
     },
     "title": "University of Vermont — Funded PhD, Lake Champlain Fisheries (Henderson Lab / VT Coop Unit)",
@@ -6385,7 +6347,7 @@
     "start": "August 31, 2026 (52-week term)",
     "body": "A 52-week ACE EPIC fellowship at Bitter Lake National Wildlife Refuge, a 24,563-acre refuge in the Pecos River watershed that is among the most biologically significant wetland complexes in the Southwest. Roughly 75% of the work is native seed collection, propagation, and monitoring of restoration outcomes, together with invasive species removal. The remaining time covers fish, waterbird, and threatened-and-endangered species surveys plus monitoring of wetland water levels and flows. The position carries Public Land Corps (PLC) hiring-authority eligibility, which grants non-competitive federal hiring status after the required hours are served. The posted living allowance is $600 per week.",
     "desc": "This is the strongest single Southwest match on the board right now because it stacks three of Erin's core areas into one term: wetland systems, watershed hydrology, and ecological restoration. Monitoring wetland water levels and flows in the Pecos River watershed is a direct analogue to her Pigeon River watershed capstone, and the T&E and waterbird survey work builds on her camera-trap and field-monitoring experience. The decisive feature is the PLC non-competitive hiring authority — it is the cleanest documented path from a BS into the permanent USFWS positions she is targeting, and it stacks with her AmeriCorps NCCC alumna status. Caveat: it is a term fellowship, not a career appointment, and Roswell is a remote posting.",
-    "badge": "Strong fit",
+    "badge": "Top recommendation",
     "pills": [
       "Wetland restoration",
       "Pecos River watershed",
@@ -6940,7 +6902,7 @@
     "start": "November 2, 2026 – April 30, 2027",
     "body": "Four temporary full-time technician positions running November 2, 2026 through April 30, 2027, supporting Wyoming's wolverine monitoring effort. Work centers on deploying and maintaining remote camera stations with bait and lure across high-elevation winter habitat, collecting genetic samples, and identifying wildlife from camera imagery with associated data entry. The posting requires excellent physical condition for winter backcountry travel by ski and snowmobile. Posted pay is $21.37 per hour. The stated preference is roughly two years of college coursework — well below Erin's completed BS.",
     "desc": "Remote camera deployment plus photo identification and data management is precisely Erin's camera-trap monitoring and Wildlife Insights experience, applied to a charismatic and difficult-to-survey carnivore. Wolverine work is high-profile within the wildlife field and would stand out on both a grad-school application and a state or federal résumé. The pay is solid for a technician role and the qualification bar sits below her degree, making her a strong candidate rather than a marginal one. Honest caveats: it is a winter seasonal appointment, and the physical demands are real — sustained backcountry ski and snowmobile travel in high-elevation winter conditions.",
-    "badge": "Strong fit",
+    "badge": "Top recommendation",
     "pills": [
       "Remote camera trapping",
       "Wildlife photo ID",
@@ -14752,52 +14714,6 @@
     "id": "item-329"
   },
   {
-    "type": "Service / Corps",
-    "cat": "Service & Fellowships",
-    "src": "erin_service.html",
-    "src_label": "Service & Fellowships",
-    "status": {
-      "kind": "s-new",
-      "label": "✨ New — July 19, 2026"
-    },
-    "title": "AmeriCorps Ecological Monitoring Technician — BLM Rock Springs (GBI)",
-    "org": "The Great Basin Institute · with BLM Rock Springs Field Office · Rock Springs, WY",
-    "deadline": "Application deadline July 29, 2026",
-    "start": "AmeriCorps Research Associate placement",
-    "body": "The Great Basin Institute Research Associate Program, in cooperation with BLM Rock Springs, is recruiting one AmeriCorps member to conduct ecological and vegetation monitoring across southwest Wyoming public lands. This is a field-heavy role involving data collection, plot sampling and database entry. No prior experience or degree is formally required. Posted compensation is $2,640 per month.",
-    "desc": "The Great Basin Institute gives explicit hiring preference to AmeriCorps alumni, so Erin's NCCC service is a scored advantage rather than a footnote — and GBI placements have consistently been the strongest matches on her list. The work itself is direct field ecology plus data management on BLM land, which is a clean bridge into federal employment, and plot sampling and database entry are things she can already do. At $2,640 per month the compensation is solid for a service term. Only one position is available, so the alumni preference matters a great deal here.",
-    "badge": "Top recommendation",
-    "pills": [
-      "GBI prioritizes AmeriCorps alumni",
-      "$2,640 per month",
-      "Ecological & vegetation monitoring",
-      "Plot sampling + database entry",
-      "BLM partnership — federal bridge",
-      "⚠️ Single position, deadline Jul 29"
-    ],
-    "metaLine": "AmeriCorps · $2,640/month · Rock Springs WY · deadline Jul 29 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
-    "deadline_date": "2026-07-29",
-    "region": "Mountain West",
-    "links": [
-      {
-        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117296",
-        "label": "🔗 Full posting — TAMU Natural Resources board"
-      },
-      {
-        "href": "https://www.thegreatbasininstitute.org/",
-        "label": "🔗 Great Basin Institute"
-      }
-    ],
-    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117296",
-    "location": "Rock Springs, WY (southwest Wyoming BLM public lands)",
-    "pay": "",
-    "stipend": "$2,640 per month",
-    "benefits": "AmeriCorps Research Associate placement — confirm education award and health coverage with the Great Basin Institute",
-    "id": "item-330"
-  },
-  {
     "type": "Career Position",
     "cat": "Career Positions",
     "src": "erin_jobs.html",
@@ -14934,52 +14850,6 @@
     "stipend": "Competitive stipend — amount not published; confirm with the program",
     "benefits": "Waiver of out-of-state tuition, full in-state tuition coverage, student health insurance, plus additional research and travel funds",
     "id": "item-333"
-  },
-  {
-    "type": "Service / Corps",
-    "cat": "Service & Fellowships",
-    "src": "erin_service.html",
-    "src_label": "Service & Fellowships",
-    "status": {
-      "kind": "s-new",
-      "label": "✨ New — July 19, 2026"
-    },
-    "title": "Big Sky Watershed Corps — 2027 term (recruitment opens August 2026)",
-    "org": "Montana Conservation Corps · statewide MT",
-    "deadline": "Contact first — 2027 recruitment opens August 2026; sign up for notifications now",
-    "start": "Year-long individual placement, 2027 term",
-    "body": "A year-long AmeriCorps individual placement embedding members with watershed groups and natural-resource agencies across Montana. Members build skills in hydrologic field techniques, GIS, grant writing, outreach and agricultural management. The 2026 term is closed; recruitment for the 2027 term opens in August 2026 and the program has a notification sign-up form. Published compensation is a $1,200 biweekly living allowance plus a $3,697.50 AmeriCorps Education Award, with free health insurance.",
-    "desc": "Of every service program surfaced across both sweeps, this is the single best-aligned with Erin's profile: hydrologic field techniques and GIS are the two named skill areas, embedded with watershed groups, which is precisely her stated interest and her strongest toolkit combined. Free health insurance is unusual and valuable in a corps position. The timing is the actionable part — the 2026 term has closed but 2027 recruitment opens next month, so the right move now is signing up for the notification list rather than applying. Grant writing and agricultural management would round out skills that field-only roles never develop.",
-    "badge": "Top recommendation",
-    "pills": [
-      "Hydrologic field techniques + GIS",
-      "Embedded with watershed groups",
-      "$1,200 biweekly + $3,697.50 award",
-      "FREE health insurance",
-      "Best-aligned service program found",
-      "⚠️ 2027 recruitment opens Aug 2026 — sign up"
-    ],
-    "metaLine": "Year-long placement · $1,200 biweekly + award · statewide MT · 2027 term, opens Aug 2026",
-    "cycle": "current",
-    "deadline_kind": "contact",
-    "deadline_date": "",
-    "region": "Mountain West",
-    "links": [
-      {
-        "href": "https://www.mtcorps.org/joinmcc/individual-placement-programs/big-sky-watershed-corps.html",
-        "label": "🔗 Big Sky Watershed Corps — sign up for 2027 notifications"
-      },
-      {
-        "href": "https://www.mtcorps.org/",
-        "label": "🔗 Montana Conservation Corps"
-      }
-    ],
-    "url": "https://www.mtcorps.org/joinmcc/individual-placement-programs/big-sky-watershed-corps.html",
-    "location": "Statewide Montana (watershed groups and natural resource agencies)",
-    "pay": "",
-    "stipend": "$1,200 biweekly living allowance",
-    "benefits": "$3,697.50 AmeriCorps Education Award plus free health insurance",
-    "id": "item-334"
   },
   {
     "type": "Career Position",
@@ -15954,48 +15824,6 @@
     "stipend": "",
     "benefits": "Confirm benefits with Scenic Hudson",
     "id": "item-355"
-  },
-  {
-    "type": "Career Position",
-    "cat": "Careers",
-    "src": "erin_jobs.html",
-    "src_label": "Careers",
-    "status": {
-      "kind": "s-new",
-      "label": "✨ New — July 20, 2026"
-    },
-    "title": "Wolverine Technician — remote camera surveys (4 positions)",
-    "org": "Wyoming Game & Fish Department",
-    "deadline": "August 17, 2026",
-    "start": "Winter 2026–27",
-    "body": "Wyoming Game and Fish is hiring four seasonal technicians to conduct wolverine surveys using remote cameras, bait and lure stations across high-elevation winter habitat through April 2027. The work involves backcountry navigation on foot, skis and snowmobiles, along with data entry and photo identification of detections. Preference is given to candidates with winter backcountry travel skills and avalanche training. Positions are based in Pinedale and Sheridan.",
-    "desc": "This is the closest one-to-one skills match of any wildlife technician job found this week. Remote-camera surveys with bait and lure stations, followed by photo identification of detections, is exactly the camera-trap and Wildlife Insights workflow you already run — the only thing that changes is the target species. Four positions also means meaningfully better odds than a single-opening posting. Be honest with yourself about the winter backcountry component though: skiing and snowmobiling in high-elevation Wyoming through April is a genuine physical demand, and avalanche training is a preference you would want to close quickly.",
-    "badge": "Top recommendation",
-    "pills": [
-      "Remote cameras + photo ID = your exact workflow",
-      "4 positions available",
-      "Wildlife Insights experience transfers directly",
-      "Through April 2027",
-      "⚠️ Winter backcountry: ski & snowmobile",
-      "Avalanche training preferred"
-    ],
-    "metaLine": "Deadline Aug 17, 2026 · $21.37/hour · Pinedale & Sheridan, WY · 4 openings",
-    "cycle": "current",
-    "deadline_kind": "fixed",
-    "deadline_date": "2026-08-17",
-    "region": "Mountain West",
-    "links": [
-      {
-        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117697",
-        "label": "🔗 Wolverine Technician — Wyoming Game & Fish"
-      }
-    ],
-    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117697",
-    "location": "Pinedale and Sheridan, Wyoming",
-    "pay": "$21.37 per hour",
-    "stipend": "",
-    "benefits": "Seasonal position — confirm with the department",
-    "id": "item-356"
   },
   {
     "type": "Career Position",
@@ -17008,48 +16836,6 @@
     "stipend": "",
     "benefits": "State of Texas employee benefits",
     "id": "item-380"
-  },
-  {
-    "type": "Service / Corps",
-    "cat": "Service & Fellowships",
-    "src": "erin_service.html",
-    "src_label": "Service & Fellowships",
-    "status": {
-      "kind": "s-new",
-      "label": "✨ New — July 20, 2026"
-    },
-    "title": "Habitat Restoration Fellow — Bitter Lake NWR wetlands (federal hiring eligibility)",
-    "org": "American Conservation Experience (ACE) with USFWS",
-    "deadline": "Rolling",
-    "start": "2026",
-    "body": "An AmeriCorps fellowship embedded with the U.S. Fish and Wildlife Service at Bitter Lake National Wildlife Refuge near Roswell, New Mexico, working on wetland and riparian habitat restoration in the Pecos River valley. The position pays a $600 per week living allowance with up to $200 in gear reimbursement. Members who complete 640 hours of service become eligible for federal direct-hire authority.",
-    "desc": "This is the clearest single path to your stated goal that appeared anywhere this week. You would do wetland and riparian restoration — your specialism — on a USFWS refuge, supervised by USFWS staff, and at 640 hours you earn Public Land Corps non-competitive hiring eligibility. That eligibility lets USFWS hire you directly for permanent positions without competing through the normal announcement process, which is the single hardest barrier between a BS graduate and a federal career. One mechanical detail worth knowing: the two-year eligibility clock runs to your onboarding date, not your application date, so plan to use it promptly once earned.",
-    "badge": "Top recommendation",
-    "pills": [
-      "640 hours → federal DIRECT-HIRE eligibility",
-      "Wetland & riparian restoration = your specialism",
-      "Embedded with USFWS on a refuge",
-      "$600/week + gear reimbursement",
-      "Bypasses the hardest federal hiring barrier",
-      "⚠️ 2-year clock runs to ONBOARDING, not application"
-    ],
-    "metaLine": "Rolling · $600/week · Roswell, NM · USFWS refuge + federal hiring eligibility",
-    "cycle": "current",
-    "deadline_kind": "rolling",
-    "deadline_date": "",
-    "region": "Southwest",
-    "links": [
-      {
-        "href": "https://usaconservation.applicantpool.com/jobs/1314490.html",
-        "label": "🔗 Habitat Restoration Fellow — ACE / Bitter Lake NWR"
-      }
-    ],
-    "url": "https://usaconservation.applicantpool.com/jobs/1314490.html",
-    "location": "Roswell, New Mexico (Bitter Lake NWR, Pecos River valley)",
-    "pay": "",
-    "stipend": "$600 per week living allowance",
-    "benefits": "Up to $200 gear reimbursement; 640 service hours confer federal direct-hire (Public Land Corps) eligibility",
-    "id": "item-381"
   },
   {
     "type": "Internship",
