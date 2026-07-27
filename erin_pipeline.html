@@ -53,12 +53,13 @@ body{padding:0 0 3rem}
 .pc-wrap{background:var(--bg2);border:.5px solid var(--bd);border-radius:var(--r1);padding:.5rem .65rem;margin-bottom:.45rem;transition:border-color .12s,background .12s}
 .pc-wrap:hover{border-color:var(--bds);background:var(--bg3)}
 .pcard{display:block;text-decoration:none;color:var(--t1)}
-/* v3.61: the opportunity number sits in its own link, layered over the card.
-   It has to be OUTSIDE the .pcard anchor — an <a> inside an <a> is invalid HTML
-   and browsers silently un-nest it, which would break the card link itself. */
-/* Sits on the FOOTER row, not the title row. Reserving 43px beside a clamped
-   2-line title in a ~140px column would cost ~30% of the readable name; the
-   footer pills already wrap, so the space is nearly free there. */
+/* The opportunity number is its own link, inline on the FOOTER row. It must sit
+   OUTSIDE the .pcard anchor — an <a> inside an <a> is invalid HTML and browsers
+   silently un-nest it, which would break the card link itself.
+   Tried and rejected: absolute-positioning it over the card. Columns are only
+   ~95px wide, so reserving the chip's 43px left ~25px for the pills and the
+   "Not started" pill simply overflowed underneath it. Inline + flex-wrap has no
+   such failure mode. */
 .pc-id{font-family:var(--mono);font-size:11px;font-weight:600;line-height:1.6;color:var(--t3);background:var(--bg);border:.5px solid var(--bd);border-radius:4px;padding:0 4px;text-decoration:none;white-space:nowrap;flex-shrink:0}
 .pc-id:hover{color:var(--teal-t);border-color:var(--teal);background:var(--teal-bg)}
 .pc-name{font-size:12.5px;font-weight:600;line-height:1.3;margin-bottom:2px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
