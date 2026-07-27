@@ -1,6 +1,6 @@
 <script>
 (function(){
-var BIN_ID='6a039aa4250b1311c33f2bac',API_KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa',STORE='erin_mylist_v1';
+var BIN_ID='6a675f8ef5f4af5e29c7eca6',API_KEY='$2a$10$3VnClCkIfxL8M8fyJ.LzUevSqMpr8VjiTBw.dMqWluks0WktJY4eq',STORE='erin_mylist_v1';
 function isPrimary(){return localStorage.getItem('erin_primary_device')==='1'||localStorage.getItem('erin_primary_device_bak')==='1';}
 /* Reader-mode (non-primary): keep state in memory only — never written
    to localStorage, never pushed to cloud. A one-shot cloud GET below
@@ -12,7 +12,7 @@ function setSaved(m){if(isPrimary()){localStorage.setItem(STORE,JSON.stringify(m
 function isSaved(id){return!!getSaved()[id];}
 function push(m){
   if(!isPrimary()) return;            /* only Erin's primary laptop writes to the cloud */
-  fetch('https://api.jsonbin.io/v3/b/'+BIN_ID+'/latest',{headers:{'X-Master-Key':API_KEY}})
+  fetch('https://api.jsonbin.io/v3/b/'+BIN_ID+'/latest',{headers:{'X-Access-Key':API_KEY}})
     .then(function(r){return r.json();})
     .then(function(data){
       if(!data||!data.record) return;   /* guard: a malformed 200 (no record) must not clobber other keys */
@@ -20,7 +20,7 @@ function push(m){
       rec.items=m;                    /* merge: only replace items, keep apps/archiveLog/etc */
       return fetch('https://api.jsonbin.io/v3/b/'+BIN_ID,{
         method:'PUT',
-        headers:{'Content-Type':'application/json','X-Master-Key':API_KEY,'X-Bin-Versioning':'false'},
+        headers:{'Content-Type':'application/json','X-Access-Key':API_KEY,'X-Bin-Versioning':'false'},
         body:JSON.stringify(rec)
       }).then(function(res){
         /* v3.42: a failed save must NEVER be silent. The bin 403s above ~100 KB
@@ -71,7 +71,7 @@ function getNI(){if(isPrimary()){try{return JSON.parse(localStorage.getItem(NI_S
 function setNI(m){if(isPrimary()){localStorage.setItem(NI_STORE,JSON.stringify(m));} else {_memNI=m;}}
 function pushNI(m){
   if(!isPrimary()) return;
-  fetch('https://api.jsonbin.io/v3/b/'+BIN_ID+'/latest',{headers:{'X-Master-Key':API_KEY}})
+  fetch('https://api.jsonbin.io/v3/b/'+BIN_ID+'/latest',{headers:{'X-Access-Key':API_KEY}})
     .then(function(r){return r.json();})
     .then(function(data){
       if(!data||!data.record) return;   /* guard: a malformed 200 (no record) must not clobber other keys */
@@ -79,7 +79,7 @@ function pushNI(m){
       rec.notInterested=m;             /* merge: only replace notInterested key */
       return fetch('https://api.jsonbin.io/v3/b/'+BIN_ID,{
         method:'PUT',
-        headers:{'Content-Type':'application/json','X-Master-Key':API_KEY,'X-Bin-Versioning':'false'},
+        headers:{'Content-Type':'application/json','X-Access-Key':API_KEY,'X-Bin-Versioning':'false'},
         body:JSON.stringify(rec)
       });
     }).catch(function(){});
@@ -96,7 +96,7 @@ function getBL(){if(isPrimary()){try{return JSON.parse(localStorage.getItem(BL_S
 function setBL(m){if(isPrimary()){localStorage.setItem(BL_STORE,JSON.stringify(m));} else {_memBL=m;}}
 function pushBL(m){
   if(!isPrimary()) return;
-  fetch('https://api.jsonbin.io/v3/b/'+BIN_ID+'/latest',{headers:{'X-Master-Key':API_KEY}})
+  fetch('https://api.jsonbin.io/v3/b/'+BIN_ID+'/latest',{headers:{'X-Access-Key':API_KEY}})
     .then(function(r){return r.json();})
     .then(function(data){
       if(!data||!data.record) return;   /* guard: a malformed 200 (no record) must not clobber other keys */
@@ -104,7 +104,7 @@ function pushBL(m){
       rec.brokenLinks=m;                /* merge: only replace brokenLinks key */
       return fetch('https://api.jsonbin.io/v3/b/'+BIN_ID,{
         method:'PUT',
-        headers:{'Content-Type':'application/json','X-Master-Key':API_KEY,'X-Bin-Versioning':'false'},
+        headers:{'Content-Type':'application/json','X-Access-Key':API_KEY,'X-Bin-Versioning':'false'},
         body:JSON.stringify(rec)
       });
     }).catch(function(){});
@@ -123,7 +123,7 @@ function getPR(){if(isPrimary()){try{return JSON.parse(localStorage.getItem(PR_S
 function setPR(m){if(isPrimary()){localStorage.setItem(PR_STORE,JSON.stringify(m));} else {_memPR=m;}}
 function pushPR(m){
   if(!isPrimary()) return;
-  fetch('https://api.jsonbin.io/v3/b/'+BIN_ID+'/latest',{headers:{'X-Master-Key':API_KEY}})
+  fetch('https://api.jsonbin.io/v3/b/'+BIN_ID+'/latest',{headers:{'X-Access-Key':API_KEY}})
     .then(function(r){return r.json();})
     .then(function(data){
       if(!data||!data.record) return;   /* guard: a malformed 200 (no record) must not clobber other keys */
@@ -131,7 +131,7 @@ function pushPR(m){
       rec.priority=m;                   /* merge: only replace priority key */
       return fetch('https://api.jsonbin.io/v3/b/'+BIN_ID,{
         method:'PUT',
-        headers:{'Content-Type':'application/json','X-Master-Key':API_KEY,'X-Bin-Versioning':'false'},
+        headers:{'Content-Type':'application/json','X-Access-Key':API_KEY,'X-Bin-Versioning':'false'},
         body:JSON.stringify(rec)
       });
     }).catch(function(){});
@@ -151,7 +151,7 @@ function getRV(){if(isPrimary()){try{return JSON.parse(localStorage.getItem(RV_S
 function setRV(m){if(isPrimary()){localStorage.setItem(RV_STORE,JSON.stringify(m));} else {_memRV=m;}}
 function pushRV(m){
   if(!isPrimary()) return;
-  fetch('https://api.jsonbin.io/v3/b/'+BIN_ID+'/latest',{headers:{'X-Master-Key':API_KEY}})
+  fetch('https://api.jsonbin.io/v3/b/'+BIN_ID+'/latest',{headers:{'X-Access-Key':API_KEY}})
     .then(function(r){return r.json();})
     .then(function(data){
       if(!data||!data.record) return;   /* guard: a malformed 200 (no record) must not clobber other keys */
@@ -159,7 +159,7 @@ function pushRV(m){
       rec.reviewed=m;                   /* merge: only replace reviewed key */
       return fetch('https://api.jsonbin.io/v3/b/'+BIN_ID,{
         method:'PUT',
-        headers:{'Content-Type':'application/json','X-Master-Key':API_KEY,'X-Bin-Versioning':'false'},
+        headers:{'Content-Type':'application/json','X-Access-Key':API_KEY,'X-Bin-Versioning':'false'},
         body:JSON.stringify(rec)
       });
     }).catch(function(){});
@@ -185,7 +185,7 @@ window.linkedMats=function(itemId){ if(!itemId) return []; var m=_getMats(); if(
    reflects Erin's actual Saved + Not-Interested state on first paint. */
 function _readerPull(){
   if(isPrimary()) return;
-  fetch('https://api.jsonbin.io/v3/b/'+BIN_ID+'/latest',{headers:{'X-Master-Key':API_KEY}})
+  fetch('https://api.jsonbin.io/v3/b/'+BIN_ID+'/latest',{headers:{'X-Access-Key':API_KEY}})
     .then(function(r){return r.json();})
     .then(function(data){
       if(!data||!data.record) return;   /* guard: a malformed 200 (no record) must not clobber other keys */

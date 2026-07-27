@@ -108,7 +108,7 @@ body{padding:0 0 3rem}
 
 <script>
 (function(){
-  var BIN='6a039aa4250b1311c33f2bac', KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
+  var BIN='6a675f8ef5f4af5e29c7eca6', KEY='$2a$10$3VnClCkIfxL8M8fyJ.LzUevSqMpr8VjiTBw.dMqWluks0WktJY4eq';
   function lj(k,fb){ try{ return JSON.parse(localStorage.getItem(k)||fb); }catch(e){ return JSON.parse(fb); } }
   function niMap(){ try{ return JSON.parse(localStorage.getItem('erin_not_interested_v1')||'{}'); }catch(e){ return {}; } }
   function niHas(id){ return !!niMap()[id]; }
@@ -198,7 +198,7 @@ body{padding:0 0 3rem}
   inp.focus();
 
   /* Refresh tracker caches from the cloud (read-only) so search is current. */
-  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Access-Key':KEY}})
     .then(function(r){ return r.json(); })
     .then(function(data){
       var rec=(data&&data.record)||{}, map={items:'erin_mylist_v1',apps:'erin_applications_v1',profs:'erin_prof_contacts',refs:'erin_ref_tracker_v1',materials:'erin_materials',writingSamples:'erin_writing_samples',archiveLog:'erin_archive_log',notInterested:'erin_not_interested_v1'};

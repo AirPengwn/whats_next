@@ -349,7 +349,7 @@ html:not(.dark){
 </div>
 
 <script>
-var BIN='6a039aa4250b1311c33f2bac',KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
+var BIN='6a675f8ef5f4af5e29c7eca6',KEY='$2a$10$3VnClCkIfxL8M8fyJ.LzUevSqMpr8VjiTBw.dMqWluks0WktJY4eq';
 
 var PRIMARY_KEY='erin_primary_device';
 function isPrimary(){ return localStorage.getItem(PRIMARY_KEY)==='1' || localStorage.getItem('erin_primary_device_bak')==='1'; }
@@ -363,11 +363,11 @@ function loadArchive(){ try{ return JSON.parse(localStorage.getItem(ARCHIVE_STOR
 function saveArchive(arr){ localStorage.setItem(ARCHIVE_STORE,JSON.stringify(arr)); }
 function pushArchive(arr){
   if(!isPrimary()) return;
-  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Access-Key':KEY}})
     .then(function(r){return r.json();})
     .then(function(data){
       if(!data||!data.record) return; var rec=data.record; rec.archiveLog=arr;
-      fetch('https://api.jsonbin.io/v3/b/'+BIN,{method:'PUT',headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},body:JSON.stringify(rec)});
+      fetch('https://api.jsonbin.io/v3/b/'+BIN,{method:'PUT',headers:{'Content-Type':'application/json','X-Access-Key':KEY,'X-Bin-Versioning':'false'},body:JSON.stringify(rec)});
     }).catch(function(){});
 }
 function logArchive(entry){
@@ -500,7 +500,7 @@ function saveApps(arr){ localStorage.setItem(APP_STORE,JSON.stringify(arr)); }
    Pipeline (which reads the cloud) would silently disagree with this page. */
 function pushApps(arr){
   if(!isPrimary()) return Promise.reject(new Error('view-only'));
-  return fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+  return fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Access-Key':KEY}})
   .then(function(r){return r.json();})
   .then(function(data){
     if(!data||!data.record) throw new Error('bad cloud record');
@@ -508,7 +508,7 @@ function pushApps(arr){
     rec.apps=arr;
     return fetch('https://api.jsonbin.io/v3/b/'+BIN,{
       method:'PUT',
-      headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},
+      headers:{'Content-Type':'application/json','X-Access-Key':KEY,'X-Bin-Versioning':'false'},
       body:JSON.stringify(rec)
     });
   })
@@ -521,7 +521,7 @@ function pushApps(arr){
 
 
 function pullApps(){
-  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Access-Key':KEY}})
   .then(function(r){return r.json();})
   .then(function(data){
     if(data.record && data.record.apps){ saveApps(data.record.apps); }

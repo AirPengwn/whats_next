@@ -5,7 +5,7 @@
    avoid the ~21KB truncation issue on the Windows side.
    ═════════════════════════════════════════════════════════════════ */
 (function(){
-  var BIN='6a039aa4250b1311c33f2bac', KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
+  var BIN='6a675f8ef5f4af5e29c7eca6', KEY='$2a$10$3VnClCkIfxL8M8fyJ.LzUevSqMpr8VjiTBw.dMqWluks0WktJY4eq';
   /* v2.1 emoji-sweep finish: every dashboard chrome glyph is a line icon now (single-weight, currentColor) */
   function _ico(name, fb, size){ return (window.WN_ICONS && WN_ICONS[name]) ? WN_ICONS[name](size||18) : fb; }
   var ICO_CLOCK = _ico('clock','⏳'),
@@ -212,7 +212,7 @@
     return wrap;
   }
   function syncAndRender(){
-    fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+    fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Access-Key':KEY}})
       .then(function(r){return r.json();})
       .then(function(data){
         if(data&&data.record&&!isPrimary()){ var r=data.record;

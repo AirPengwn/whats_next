@@ -173,7 +173,7 @@ html.dark .s-updated{background:#2d2563;color:#b5abfa}
 </div>
 
 <script>
-var BIN='6a039aa4250b1311c33f2bac',KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa',STORE='erin_mylist_v1';
+var BIN='6a675f8ef5f4af5e29c7eca6',KEY='$2a$10$3VnClCkIfxL8M8fyJ.LzUevSqMpr8VjiTBw.dMqWluks0WktJY4eq',STORE='erin_mylist_v1';
 function load(){try{return JSON.parse(localStorage.getItem(STORE)||'{}')}catch(e){return{}}}
 function getSavedItems(){
   var ni; try{ ni=JSON.parse(localStorage.getItem('erin_not_interested_v1')||'{}'); }catch(e){ ni={}; }
@@ -182,7 +182,7 @@ function getSavedItems(){
 }
 
 function pullCloud(){
-  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Access-Key':KEY}})
     .then(function(r){return r.json();})
     .then(function(data){
       if(data.record && data.record.items){

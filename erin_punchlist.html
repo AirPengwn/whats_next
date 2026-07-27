@@ -798,7 +798,7 @@ var PUNCH_DATA = {
   /* v2.36: live opportunity state — hide coverage chips / whole actions for
      items Erin has removed from My List or that have expired. Read-only cloud
      pull, falls back to localStorage. Never writes. */
-  var BINP='6a039aa4250b1311c33f2bac', KEYP='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
+  var BINP='6a675f8ef5f4af5e29c7eca6', KEYP='$2a$10$3VnClCkIfxL8M8fyJ.LzUevSqMpr8VjiTBw.dMqWluks0WktJY4eq';
   var PSTATE = {items:{}, removed:{}, expired:{}};
   var showExpired = false, showRemoved = false;  /* default: both hidden */
   function _lj(k,fb){ try{ return JSON.parse(localStorage.getItem(k)||fb); }catch(e){ return JSON.parse(fb); } }
@@ -834,17 +834,17 @@ var PUNCH_DATA = {
   function pdLoad(){ if(_isPrimary()){ try{ return JSON.parse(localStorage.getItem('erin_punch_done_v1')||'{}'); }catch(e){ return {}; } } if(_memPD===null)_memPD={}; return _memPD; }
   function pdSave(m){ if(_isPrimary()){ localStorage.setItem('erin_punch_done_v1',JSON.stringify(m)); } else { _memPD=m; } }
   function pushPD(m){ if(!_isPrimary()) return;
-    fetch('https://api.jsonbin.io/v3/b/'+BINP+'/latest',{headers:{'X-Master-Key':KEYP}})
+    fetch('https://api.jsonbin.io/v3/b/'+BINP+'/latest',{headers:{'X-Access-Key':KEYP}})
       .then(function(r){ return r.json(); })
       .then(function(data){ if(!data||!data.record) return; var rec=data.record; rec.punchDone=m;
-        return fetch('https://api.jsonbin.io/v3/b/'+BINP,{method:'PUT',headers:{'Content-Type':'application/json','X-Master-Key':KEYP,'X-Bin-Versioning':'false'},body:JSON.stringify(rec)}); })
+        return fetch('https://api.jsonbin.io/v3/b/'+BINP,{method:'PUT',headers:{'Content-Type':'application/json','X-Access-Key':KEYP,'X-Bin-Versioning':'false'},body:JSON.stringify(rec)}); })
       .catch(function(){});
   }
   function isDone(id){ return !!(id && pdLoad()[id]); }
   window.__pdToggle=function(id){ if(!id) return; var m=pdLoad(); if(m[id]) delete m[id]; else m[id]=true; pdSave(m); pushPD(m); render(); };
 
   function loadState(cb){
-    fetch('https://api.jsonbin.io/v3/b/'+BINP+'/latest',{headers:{'X-Master-Key':KEYP}})
+    fetch('https://api.jsonbin.io/v3/b/'+BINP+'/latest',{headers:{'X-Access-Key':KEYP}})
       .then(function(r){ return r.json(); })
       .then(function(data){ var rec=(data&&data.record)||{};
         if(rec.punchDone) _memPD=rec.punchDone;

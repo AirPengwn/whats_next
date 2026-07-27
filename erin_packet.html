@@ -125,7 +125,7 @@ body{padding:0 0 3rem}
 
 <script>
 (function(){
-  var BIN='6a039aa4250b1311c33f2bac', KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
+  var BIN='6a675f8ef5f4af5e29c7eca6', KEY='$2a$10$3VnClCkIfxL8M8fyJ.LzUevSqMpr8VjiTBw.dMqWluks0WktJY4eq';
   function lj(k,fb){ try{ return JSON.parse(localStorage.getItem(k)||fb); }catch(e){ return JSON.parse(fb); } }
   function esc(s){ return (s+'').replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
   function q(name){ var m=new RegExp('[?&]'+name+'=([^&]+)').exec(location.search); return m?decodeURIComponent(m[1]):''; }
@@ -233,7 +233,7 @@ body{padding:0 0 3rem}
   }
 
   function init(){ buildOptions(); preselect(); }
-  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Access-Key':KEY}})
     .then(function(r){ return r.json(); })
     .then(function(data){ REC=(data&&data.record)||{}; init(); })
     .catch(function(){ REC={}; init(); });

@@ -787,7 +787,7 @@ window.addEventListener('hashchange',_openFromHash);
    Materials library (cloud key `materials`, GET-merge-PUT so other materials are preserved).
    Link it to the job it's for via "Used for" on the Materials page. */
 (function(){
-  var BIN='6a039aa4250b1311c33f2bac', KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
+  var BIN='6a675f8ef5f4af5e29c7eca6', KEY='$2a$10$3VnClCkIfxL8M8fyJ.LzUevSqMpr8VjiTBw.dMqWluks0WktJY4eq';
   function isPrimary(){ return localStorage.getItem('erin_primary_device')==='1'||localStorage.getItem('erin_primary_device_bak')==='1'; }
   function loadMats(){ try{ return JSON.parse(localStorage.getItem('erin_materials')||'[]'); }catch(e){ return []; } }
   function saveMats(a){ localStorage.setItem('erin_materials',JSON.stringify(a)); }
@@ -809,11 +809,11 @@ window.addEventListener('hashchange',_openFromHash);
   function save(card,btn){
     var entry=entryFrom(card); if(!entry) return;
     if(isPrimary()){
-      fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+      fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Access-Key':KEY}})
         .then(function(r){return r.json();})
         .then(function(data){ if(!data||!data.record) return; var rec=data.record; var cloud=Array.isArray(rec.materials)?rec.materials:loadMats();
           cloud.unshift(entry); saveMats(cloud); rec.materials=cloud;
-          return fetch('https://api.jsonbin.io/v3/b/'+BIN,{method:'PUT',headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},body:JSON.stringify(rec)}); })
+          return fetch('https://api.jsonbin.io/v3/b/'+BIN,{method:'PUT',headers:{'Content-Type':'application/json','X-Access-Key':KEY,'X-Bin-Versioning':'false'},body:JSON.stringify(rec)}); })
         .then(function(){ flash(btn,'✓ Saved to Materials'); })
         .catch(function(){ var a=loadMats(); a.unshift(entry); saveMats(a); flash(btn,'Saved locally (sync failed)'); });
     } else {

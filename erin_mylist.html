@@ -363,13 +363,35 @@ var(--mute-t);border:1px solid var(--bds)}
 </div><!-- /.page -->
 
 <script>
-var BIN='6a039aa4250b1311c33f2bac';
-/* v3.41: backups live in their OWN bin. A JSONbin bin hard-fails with 403 above
-   ~100 KB, and the old design kept snapshots inside the live bin — it filled up
-   and every backup silently 403'd for weeks. Separate bin = no size pressure on
-   live data, and a bad write to one can never touch the other. */
-var BACKUP_BIN='6a6725e1f5f4af5e29c6f5fe';
-var KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
+var BIN='6a675f8ef5f4af5e29c7eca6';
+/* v3.60: FOUR ROTATING BACKUP BINS, one snapshot each.
+   History: snapshots first lived in the live bin (it filled to 100 KB and every
+   backup silently 403'd for weeks), then in ONE separate bin (v3.41), which hit
+   the same wall from the other side — 3 snapshots at ~26.5 KB was 79.5 KB and
+   the next write would have 403'd, so v3.57 had to prune by byte budget.
+
+   One bin per snapshot removes the size problem entirely: each gets its own
+   ~100 KB, so depth is set by BIN COUNT and never shrinks as Erin's data grows.
+   The bigger win is BLAST RADIUS — with all snapshots in a single JSON blob, one
+   bad PUT destroyed the entire backup history at once, i.e. a single point of
+   failure on the thing whose only job is to be the fallback. Now a bad write can
+   reach exactly one snapshot.
+
+   Slot choice is DETERMINISTIC from the date, so no manifest, no pointer that
+   can desync, and no extra reads to decide where to write:
+     weekly-sweep -> slots 0/1, alternating by week   (2 weeks of sweep history)
+     daily/app    -> slots 2/3, alternating by day    (2 most recent daily)
+   Dailies therefore can never evict a weekly snapshot. */
+var BACKUP_BINS=['6a675f99da38895dfe967162',   /* slot 0 — weekly A */
+                 '6a675f9dda38895dfe967175',   /* slot 1 — weekly B */
+                 '6a675fa0da38895dfe96718e',   /* slot 2 — daily A  */
+                 '6a675fa5f5f4af5e29c7ecf9'];  /* slot 3 — daily B  */
+function backupSlot(src){
+  var now=Date.now();
+  if(src==='weekly-sweep') return Math.floor(now/6048e5)%2;        /* 0 or 1 by week */
+  return 2 + (Math.floor(now/864e5)%2);                            /* 2 or 3 by day  */
+}
+var KEY='$2a$10$3VnClCkIfxL8M8fyJ.LzUevSqMpr8VjiTBw.dMqWluks0WktJY4eq';
 var STORE='erin_mylist_v1';
 var mf='All'; var bf='All';
 var listScope='all'; /* v2.36 saved-list scope: 'all' | 'priority' | 'expired' */
@@ -396,14 +418,14 @@ function has(id){ return !!load()[id]; }
 function push(m){ pushCloud(m); }
 function pushCloud(m){
   if(!isPrimary()) return;
-  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Access-Key':KEY}})
     .then(function(r){return r.json();})
     .then(function(data){
       if(!data||!data.record) return; var rec=data.record;
       rec.items=m;
       return fetch('https://api.jsonbin.io/v3/b/'+BIN,{
         method:'PUT',
-        headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},
+        headers:{'Content-Type':'application/json','X-Access-Key':KEY,'X-Bin-Versioning':'false'},
         body:JSON.stringify(rec)
       }).then(function(res){
         /* v3.42: surface a real failure instead of a vague "Sync error" — the bin
@@ -466,14 +488,14 @@ function niSave(m){
 }
 function pushNI(m){
   if(!isPrimary()) return;
-  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Access-Key':KEY}})
     .then(function(r){return r.json();})
     .then(function(data){
       if(!data||!data.record) return; var rec=data.record;
       rec.notInterested=m;       /* merge: only replace notInterested, keep everything else */
       return fetch('https://api.jsonbin.io/v3/b/'+BIN,{
         method:'PUT',
-        headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},
+        headers:{'Content-Type':'application/json','X-Access-Key':KEY,'X-Bin-Versioning':'false'},
         body:JSON.stringify(rec)
       });
     }).then(function(){ flash('Synced'); }).catch(function(){ flash('Sync error'); });
@@ -499,14 +521,14 @@ function blSave(m){
 }
 function pushBL(m){
   if(!isPrimary()) return;
-  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Access-Key':KEY}})
     .then(function(r){return r.json();})
     .then(function(data){
       if(!data||!data.record) return; var rec=data.record;
       rec.brokenLinks=m;
       return fetch('https://api.jsonbin.io/v3/b/'+BIN,{
         method:'PUT',
-        headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},
+        headers:{'Content-Type':'application/json','X-Access-Key':KEY,'X-Bin-Versioning':'false'},
         body:JSON.stringify(rec)
       });
     }).then(function(){ flash('Synced'); }).catch(function(){ flash('Sync error'); });
@@ -532,14 +554,14 @@ function prSave(m){
 }
 function pushPR(m){
   if(!isPrimary()) return;
-  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Access-Key':KEY}})
     .then(function(r){return r.json();})
     .then(function(data){
       if(!data||!data.record) return; var rec=data.record;
       rec.priority=m;
       return fetch('https://api.jsonbin.io/v3/b/'+BIN,{
         method:'PUT',
-        headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},
+        headers:{'Content-Type':'application/json','X-Access-Key':KEY,'X-Bin-Versioning':'false'},
         body:JSON.stringify(rec)
       });
     }).then(function(){ flash('Synced'); }).catch(function(){ flash('Sync error'); });
@@ -567,14 +589,14 @@ function rvSave(m){
 }
 function pushRV(m){
   if(!isPrimary()) return;
-  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Access-Key':KEY}})
     .then(function(r){return r.json();})
     .then(function(data){
       if(!data||!data.record) return; var rec=data.record;
       rec.reviewed=m;
       return fetch('https://api.jsonbin.io/v3/b/'+BIN,{
         method:'PUT',
-        headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},
+        headers:{'Content-Type':'application/json','X-Access-Key':KEY,'X-Bin-Versioning':'false'},
         body:JSON.stringify(rec)
       });
     }).then(function(){ flash('Synced'); }).catch(function(){ flash('Sync error'); });
@@ -593,11 +615,11 @@ function loadArchive(){ try{ return JSON.parse(localStorage.getItem(ARCHIVE_STOR
 function saveArchive(arr){ localStorage.setItem(ARCHIVE_STORE,JSON.stringify(arr)); }
 function pushArchive(arr){
   if(!isPrimary()) return;
-  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Access-Key':KEY}})
     .then(function(r){return r.json();})
     .then(function(data){
       if(!data||!data.record) return; var rec=data.record; rec.archiveLog=arr;
-      fetch('https://api.jsonbin.io/v3/b/'+BIN,{method:'PUT',headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},body:JSON.stringify(rec)});
+      fetch('https://api.jsonbin.io/v3/b/'+BIN,{method:'PUT',headers:{'Content-Type':'application/json','X-Access-Key':KEY,'X-Bin-Versioning':'false'},body:JSON.stringify(rec)});
     }).catch(function(){});
 }
 function logArchive(entry){
@@ -697,13 +719,13 @@ window.linkedMats=function(itemId){ if(!itemId) return []; var m=_getMats(); if(
 function saveApps(arr){ localStorage.setItem(APP_STORE,JSON.stringify(arr)); }
 function pushApps(arr){
   if(!isPrimary()) return;
-  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Access-Key':KEY}})
     .then(function(r){return r.json();})
     .then(function(data){
       if(!data||!data.record) return; var rec=data.record; rec.apps=arr;
       fetch('https://api.jsonbin.io/v3/b/'+BIN,{
         method:'PUT',
-        headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},
+        headers:{'Content-Type':'application/json','X-Access-Key':KEY,'X-Bin-Versioning':'false'},
         body:JSON.stringify(rec)
       });
     }).catch(function(){});
@@ -745,7 +767,7 @@ function updatePrimaryUI(){
 }
 
 function pullCloud(){
-  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{ headers:{'X-Master-Key':KEY} })
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{ headers:{'X-Access-Key':KEY} })
   .then(function(r){ return r.json(); })
   .then(function(data){
     if(data.record && data.record.items){
@@ -1289,7 +1311,7 @@ initPrimaryBtn();
       triggerDownload({ exportedAt:new Date().toISOString(), source:source, record:record });
       if(btn){ btn.textContent='✓ Downloaded'; setTimeout(function(){ btn.textContent=orig; btn.disabled=false; },2500); }
     }
-    fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+    fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Access-Key':KEY}})
       .then(function(r){ return r.json(); })
       .then(function(data){
         /* The whole cloud record is the backup. Fold in any domain that
@@ -1333,14 +1355,14 @@ initPrimaryBtn();
     try{
       present.forEach(function(d){ localStorage.setItem(d.ls, JSON.stringify(rec[d.cloud])); });
     }catch(e){ alert('Could not write to local storage — restore aborted before any cloud change.'); return; }
-    fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+    fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Access-Key':KEY}})
       .then(function(r){ return r.json(); })
       .then(function(data){
         var live=(data&&data.record)||{};
         present.forEach(function(d){ live[d.cloud]=rec[d.cloud]; });
         return fetch('https://api.jsonbin.io/v3/b/'+BIN,{
           method:'PUT',
-          headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},
+          headers:{'Content-Type':'application/json','X-Access-Key':KEY,'X-Bin-Versioning':'false'},
           body:JSON.stringify(live)
         });
       })
@@ -1350,11 +1372,8 @@ initPrimaryBtn();
 
   window.restoreFromSnapshot=function(){
     if(!isPrimary()){ alert('Restore is only allowed on the PRIMARY device (Erin’s laptop).'); return; }
-    fetch('https://api.jsonbin.io/v3/b/'+BACKUP_BIN+'/latest',{headers:{'X-Master-Key':KEY}})
-      .then(function(r){ return r.json(); })
-      .then(function(data){
-        var rec=(data&&data.record)||{};
-        var bk=Array.isArray(rec.snapshots)?rec.snapshots:[];
+    readAllSnapshots()
+      .then(function(bk){
         if(!bk.length){ alert('No automatic snapshots exist yet. The weekly sweep creates one every Monday.'); return; }
         var lines=bk.map(function(s,i){
           var when=s.at?new Date(s.at):null;
@@ -1426,16 +1445,29 @@ initPrimaryBtn();
     });
     return out;
   }
-  /* v3.57: BYTE-BUDGET PRUNE — the real capacity guard.
-     JSONbin hard-fails HTTP 403 above ~100 KB. A single snapshot is now ~26.5 KB
-     (apps alone are 13 KB of hand-entered progress that must NOT be slimmed), so
-     the count-based "4 weekly + 2 daily" cap would try to store ~159 KB and 403 —
-     i.e. the backup silently stops working exactly as Erin's data becomes most
-     worth backing up. A COUNT cap cannot hold when per-snapshot size grows with
-     her data, so budget by BYTES instead and drop oldest until the payload fits.
-     Daily snapshots are evicted before weekly ones (weekly are the reliable
-     sweep-made ones), and we never drop below a single surviving snapshot. */
-  var SNAP_BYTE_BUDGET = 85*1024;          /* safe margin under the ~100 KB wall */
+  /* v3.60: gather snapshots from ALL rotation bins, newest last.
+     Read SEQUENTIALLY, not Promise.all — JSONbin returns 403 on rapid bursts, and
+     a burst of parallel GETs is exactly how that trips. A dead or empty bin is
+     skipped rather than failing the whole listing, so a single damaged slot can
+     never hide the other three. */
+  function readAllSnapshots(){
+    var all=[];
+    return BACKUP_BINS.reduce(function(chain, bin){
+      return chain.then(function(){
+        return fetch('https://api.jsonbin.io/v3/b/'+bin+'/latest',{headers:{'X-Access-Key':KEY}})
+          .then(function(r){ return (r && (r.ok||r.status===200)) ? r.json() : null; })
+          .then(function(d){
+            var s=((d&&d.record)||{}).snapshots;
+            if(Array.isArray(s)) s.forEach(function(x){ if(x&&x.at) all.push(x); });
+          })
+          .catch(function(){})                       /* skip unreachable slot */
+          .then(function(){ return new Promise(function(res){ setTimeout(res,350); }); });
+      });
+    }, Promise.resolve()).then(function(){
+      return all.sort(function(a,b){ return String(a.at).localeCompare(String(b.at)); });
+    });
+  }
+  var SNAP_BYTE_BUDGET = 85*1024;          /* retained: per-bin sanity ceiling */
   function fitBudget(list){
     var out=list.slice(), dropped=0;
     while(out.length>1 && JSON.stringify({snapshots:out}).length > SNAP_BYTE_BUDGET){
@@ -1448,17 +1480,14 @@ initPrimaryBtn();
     return out;
   }
   function backupRoutine(){
-    fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+    fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Access-Key':KEY}})
       .then(function(r){ return r.json(); })
       .then(function(live){
         var rec=(live&&live.record)||{};
         var today=new Date().toISOString().slice(0,10);
         var dueToday = isPrimary() && localStorage.getItem('erin_snap_day')!==today;
-        return fetch('https://api.jsonbin.io/v3/b/'+BACKUP_BIN+'/latest',{headers:{'X-Master-Key':KEY}})
-          .then(function(r){ return r.json(); })
-          .then(function(bkData){
-            var store=(bkData&&bkData.record)||{};
-            var backups=Array.isArray(store.snapshots)?store.snapshots:[];
+        return readAllSnapshots()
+          .then(function(backups){
             if(!dueToday) return backups;
             /* guard: never snapshot an obviously broken dataset */
             if(Object.keys(rec.items||{}).length < 5){
@@ -1468,21 +1497,19 @@ initPrimaryBtn();
             var snap={};
             BACKUP_MAP.forEach(function(d){ if(rec[d.cloud]!=null) snap[d.cloud]=rec[d.cloud]; });
             if(snap.items) snap.items=slimSnapItems(snap.items);
-            backups.push({ at:new Date().toISOString(), day:today, src:'daily-app', data:snap });
-            /* keep the newest 4 weekly + newest 2 daily, chronological */
-            var weekly=backups.filter(function(s){ return s.src==='weekly-sweep'; }).slice(-4);
-            var daily =backups.filter(function(s){ return s.src!=='weekly-sweep'; }).slice(-2);
-            backups=weekly.concat(daily).sort(function(a,b){ return (a.at||'').localeCompare(b.at||''); });
-            backups=fitBudget(backups);
-            return fetch('https://api.jsonbin.io/v3/b/'+BACKUP_BIN,{
+            var entry={ at:new Date().toISOString(), day:today, src:'daily-app', data:snap };
+            /* v3.60: write ONE snapshot to its own rotating bin. No read-merge-prune
+               of a shared blob, so this write cannot damage any other snapshot. */
+            var slot=backupSlot(entry.src);
+            return fetch('https://api.jsonbin.io/v3/b/'+BACKUP_BINS[slot],{
               method:'PUT',
-              headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},
-              body:JSON.stringify({snapshots:backups})
+              headers:{'Content-Type':'application/json','X-Access-Key':KEY,'X-Bin-Versioning':'false'},
+              body:JSON.stringify({snapshots:[entry]})
             }).then(function(res){
               if(!res || !(res.ok||res.status===200)) throw new Error('HTTP '+(res&&res.status));
               localStorage.setItem('erin_snap_day',today);
-              showNudge('ok','🛟 Auto-backup saved just now · '+backups.length+' snapshots kept.');
-              return backups;
+              showNudge('ok','🛟 Auto-backup saved just now · slot '+(slot+1)+' of '+BACKUP_BINS.length+'.');
+              return backups.concat([entry]);
             }).catch(function(){
               showNudge('warn','⚠ Couldn’t save today’s automatic backup. Click “Export backup” for a local copy.');
               return backups;

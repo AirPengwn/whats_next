@@ -338,7 +338,7 @@ html:not(.dark){
 </div>
 
 <script>
-var BIN='6a039aa4250b1311c33f2bac',KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa',STORE='erin_mylist_v1';
+var BIN='6a675f8ef5f4af5e29c7eca6',KEY='$2a$10$3VnClCkIfxL8M8fyJ.LzUevSqMpr8VjiTBw.dMqWluks0WktJY4eq',STORE='erin_mylist_v1';
 function load(){try{return JSON.parse(localStorage.getItem(STORE)||'{}')}catch(e){return {}}}
 function getSavedItems(){var m=load();return Object.values(m).filter(function(it){return!it._done||true});}
 
@@ -354,14 +354,14 @@ function isPrimary(){ return localStorage.getItem(PRIMARY_KEY)==='1' || localSto
 
 function pushProfs(arr){
   if(!isPrimary()) return; // Only primary device writes to cloud
-  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Access-Key':KEY}})
   .then(function(r){return r.json();})
   .then(function(data){
     if(!data||!data.record) return; var rec=data.record;
     rec.profs=arr;
     fetch('https://api.jsonbin.io/v3/b/'+BIN,{
       method:'PUT',
-      headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},
+      headers:{'Content-Type':'application/json','X-Access-Key':KEY,'X-Bin-Versioning':'false'},
       body:JSON.stringify(rec)
     });
   }).catch(function(){});
@@ -370,7 +370,7 @@ function pushProfs(arr){
 
 
 function pullProfs(){
-  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Access-Key':KEY}})
   .then(function(r){return r.json();})
   .then(function(data){
     if(data.record && data.record.profs){ saveProfs(data.record.profs); }

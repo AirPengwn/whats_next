@@ -116,7 +116,7 @@ a:hover{text-decoration:underline}
 
 <script>
 (function(){
-  var BIN='6a039aa4250b1311c33f2bac', KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
+  var BIN='6a675f8ef5f4af5e29c7eca6', KEY='$2a$10$3VnClCkIfxL8M8fyJ.LzUevSqMpr8VjiTBw.dMqWluks0WktJY4eq';
   var FSTORE='erin_finds_v1';
   function isPrimary(){ return localStorage.getItem('erin_primary_device')==='1'||localStorage.getItem('erin_primary_device_bak')==='1'; }
   function loadFinds(){ try{ return JSON.parse(localStorage.getItem(FSTORE)||'[]'); }catch(e){ return []; } }
@@ -126,7 +126,7 @@ a:hover{text-decoration:underline}
      GET-mutate-PUT that only ever replaces the `finds` key, so all of Erin's
      authoritative data (items/apps/etc.) is preserved untouched. */
   function syncFinds(mutate, cb){
-    fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+    fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Access-Key':KEY}})
       .then(function(r){return r.json();})
       .then(function(data){
         if(!data||!data.record) return; var rec=data.record;
@@ -134,13 +134,13 @@ a:hover{text-decoration:underline}
         var next=mutate(cloud.slice());      /* apply the add/remove on the LATEST cloud finds */
         saveFinds(next);
         rec.finds=next;                      /* GET-merge-PUT: only the finds key changes */
-        return fetch('https://api.jsonbin.io/v3/b/'+BIN,{method:'PUT',headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},body:JSON.stringify(rec)});
+        return fetch('https://api.jsonbin.io/v3/b/'+BIN,{method:'PUT',headers:{'Content-Type':'application/json','X-Access-Key':KEY,'X-Bin-Versioning':'false'},body:JSON.stringify(rec)});
       })
       .then(function(){ if(cb) cb(true); })
       .catch(function(){ if(cb) cb(false); });
   }
   function pullFinds(cb){
-    fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+    fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Access-Key':KEY}})
       .then(function(r){return r.json();})
       .then(function(data){
         if(!data||!data.record) return; var rec=data.record;
