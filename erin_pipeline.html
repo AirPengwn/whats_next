@@ -46,8 +46,21 @@ body{padding:0 0 3rem}
 .d-save{background:var(--bds)}.d-prio{background:var(--purple-t)}.d-prep{background:#ef9f27}.d-sub{background:var(--blue)}.d-await{background:var(--purple-t)}.d-intv{background:#185fa5}.d-out{background:var(--teal)}
 .col-count{font-size:12.5px;font-weight:600;padding:1px 8px;border-radius:999px;background:var(--bg2);color:var(--t2)}
 /* v2.0 Phase 4a: more air between Pipeline cards (per mockup) */
-.pcard{display:block;background:var(--bg2);border:.5px solid var(--bd);border-radius:var(--r1);padding:.5rem .65rem;margin-bottom:.45rem;text-decoration:none;color:var(--t1);transition:border-color .12s,background .12s}
-.pcard:hover{border-color:var(--bds);background:var(--bg3)}
+/* v3.61: the card CHROME moved from .pcard to .pc-wrap so the footer can live
+   OUTSIDE the anchor. That lets the opportunity number be a plain inline link
+   beside the pills — no <a> nesting, and no absolute positioning to collide
+   with wrapped pills in a ~95px column. */
+.pc-wrap{background:var(--bg2);border:.5px solid var(--bd);border-radius:var(--r1);padding:.5rem .65rem;margin-bottom:.45rem;transition:border-color .12s,background .12s}
+.pc-wrap:hover{border-color:var(--bds);background:var(--bg3)}
+.pcard{display:block;text-decoration:none;color:var(--t1)}
+/* v3.61: the opportunity number sits in its own link, layered over the card.
+   It has to be OUTSIDE the .pcard anchor — an <a> inside an <a> is invalid HTML
+   and browsers silently un-nest it, which would break the card link itself. */
+/* Sits on the FOOTER row, not the title row. Reserving 43px beside a clamped
+   2-line title in a ~140px column would cost ~30% of the readable name; the
+   footer pills already wrap, so the space is nearly free there. */
+.pc-id{font-family:var(--mono);font-size:11px;font-weight:600;line-height:1.6;color:var(--t3);background:var(--bg);border:.5px solid var(--bd);border-radius:4px;padding:0 4px;text-decoration:none;white-space:nowrap;flex-shrink:0}
+.pc-id:hover{color:var(--teal-t);border-color:var(--teal);background:var(--teal-bg)}
 .pc-name{font-size:12.5px;font-weight:600;line-height:1.3;margin-bottom:2px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .pc-org{font-size:12.5px;color:var(--t3);margin-bottom:.35rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .pc-foot{display:flex;align-items:center;gap:5px;flex-wrap:wrap}
@@ -260,17 +273,33 @@ body{padding:0 0 3rem}
     return '';
   }
 
+  /* v3.61: same 4-digit format as window.oppNum in My List and the Browse cards
+     (`item-39` -> `#0039`), so the number Erin sees here is the one she can type
+     into any search box. Derived from the id rather than looked up, because this
+     page deliberately does NOT load opportunities.js. */
+  function pipeNum(id){
+    var m=String(id||'').match(/(\d+)\s*$/);
+    return m ? '#'+m[1].padStart(4,'0') : '';
+  }
   function cardHtml(c){
     var cc=fmtCatCls(c.cat), dt=dueText(c.deadline);
     /* full (untruncated) name + location on hover, since the card text is clamped/truncated */
     var _tip=esc(c.fullName||c.name)+(c.org?' — '+esc(c.org):'')+(c.deadline?'\n'+esc(c.deadline):'');
-    var h='<a class="pcard" title="'+_tip+'" href="'+esc(c.link)+'">';
+    var h='<div class="pc-wrap">';
+    h+='<a class="pcard" title="'+_tip+'" href="'+esc(c.link)+'">';
     h+='<div class="pc-name">'+(c.prio?'⭐ ':'')+esc(c.name)+'</div>';
     if(c.org) h+='<div class="pc-org">'+esc(c.org)+'</div>';
-    h+='<div class="pc-foot"><span class="pc-pill '+cc[1]+'">'+esc(cc[0])+'</span>';
+    h+='</a>';
+    /* Footer sits OUTSIDE the anchor so the opportunity number can be its own
+       link — it points at the full card in My List even when the card body
+       points at the Applications tracker instead. */
+    h+='<div class="pc-foot">';
+    var n=pipeNum(c.itemId);
+    if(n) h+='<a class="pc-id" href="erin_mylist.html#card-'+esc(c.itemId)+'" title="Open opportunity card '+n+'">'+n+'</a>';
+    h+='<span class="pc-pill '+cc[1]+'">'+esc(cc[0])+'</span>';
     if(dt[0]) h+='<span class="pc-due'+(dt[1]?' warn':'')+'">'+esc(dt[0])+'</span>';
     if(c.status) h+='<span class="pc-status '+statusCls(c.rawStatus)+'">'+esc(c.status)+'</span>';
-    h+='</div></a>';
+    h+='</div></div>';
     return h;
   }
 

@@ -5,7 +5,7 @@
    ═══════════════════════════════════════════════════════════ */
 
 /* build-stamped version + build (build.js patches these lines each release) */
-var WN_VERSION = '3.60';
+var WN_VERSION = '3.61';
 var WN_BUILD   = '20260727-636-a51d60ed';
 
 /* ── 1. Sync hook ──────────────────────────────────────────
