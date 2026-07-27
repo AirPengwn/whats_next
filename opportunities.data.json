@@ -26,7 +26,9 @@
     "cycle": "next",
     "deadline_date": "2026-05-15",
     "deadline_kind": "passed",
-    "region": "Southwest"
+    "region": "Southwest",
+    "url": "https://gradcollege.okstate.edu/programs/esgp",
+    "url_label": "Program page"
   },
   {
     "title": "Colorado State University",
@@ -949,7 +951,9 @@
     "cycle": "next",
     "deadline_date": "2026-04-24",
     "deadline_kind": "passed",
-    "region": "Southeast & Appalachia"
+    "region": "Southeast & Appalachia",
+    "url": "https://www.aamu.edu/academics/colleges/agricultural-life-natural-sciences/departments/natural-resources-environmental-sciences/",
+    "url_label": "Program page"
   },
   {
     "title": "University of Arkansas — Water Quality / Stream Biogeochemistry (PhD)",
@@ -977,7 +981,9 @@
     "cycle": "next",
     "deadline_date": "2026-02-24",
     "deadline_kind": "passed",
-    "region": "Southeast & Appalachia"
+    "region": "Southeast & Appalachia",
+    "url": "https://speirlab.weebly.com/prospective-students.html",
+    "url_label": "Program page"
   },
   {
     "title": "NC State University — Dept. of Forestry & Environmental Resources",
@@ -1552,7 +1558,9 @@
     "cycle": "current",
     "deadline_date": "2026-08-21",
     "deadline_kind": "fixed",
-    "region": "Southeast & Appalachia"
+    "region": "Southeast & Appalachia",
+    "url": "https://www.disl.edu/university-programs/boats/",
+    "url_label": "Program page"
   },
   {
     "title": "Dauphin Island Sea Lab — Fisheries Ecology Lab Internship (Dr. Sean Powers)",
@@ -2005,7 +2013,9 @@
     "cycle": "next",
     "deadline_date": "2026-04-15",
     "deadline_kind": "fixed",
-    "region": "Southeast & Appalachia"
+    "region": "Southeast & Appalachia",
+    "url": "https://sites.ua.edu/ramp-w2w/",
+    "url_label": "Program page"
   },
   {
     "title": "USGS Pathways Recent Graduate Program — Hydrologist / Physical Scientist",
@@ -3725,7 +3735,9 @@
     "location": "Minnesota & Iowa — statewide host sites (MN DNR, USFS, SWCDs, nonprofits)",
     "pay": "AmeriCorps living allowance (40 hrs/wk; varies by placement)",
     "stipend": "Segal Education Award (~$7,395 full-time; MN/IA exempt it from state income tax)",
-    "benefits": "AmeriCorps benefits; field training"
+    "benefits": "AmeriCorps benefits; field training",
+    "url": "https://conservationcorps.org/programs/individual-placements/",
+    "url_label": "Program page"
   },
   {
     "title": "BLM Wetlands & Wildlife Technician — Individual Placement (2026–27 cycle)",
@@ -22211,5 +22223,1009 @@
     "stipend": "Living allowances vary by placement — set by each host program, not published centrally",
     "benefits": "Segal AmeriCorps Education Award on completion of most terms; many placements include housing",
     "id": "item-508"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Funded MS — climate change and fire effects on coastal vegetation (Palmquist lab)",
+    "org": "Marshall University · Department of Biological Sciences · Huntington, WV",
+    "deadline": "December 7, 2026",
+    "start": "See posting",
+    "body": "Funded MS assistantship in the Palmquist lab studying climate change and fire effects on coastal vegetation. The listed education requirement is a Bachelor’s degree. The application window runs to early December 2026.",
+    "desc": "A funded MS in plant and community ecology that takes a bachelor’s directly, with a December deadline that gives her time to prepare a proper application rather than rushing one. The stipend is modest, so ask what tuition and health coverage come with it before committing. Marshall also keeps her in Appalachia, which matters if she wants to stay near the landscapes her capstone covered.",
+    "badge": "Strong fit",
+    "pills": [
+      "$21,000 per year",
+      "BS accepted directly",
+      "Fire ecology and coastal vegetation",
+      "Long runway to December",
+      "⚠️ Confirm tuition and health coverage"
+    ],
+    "metaLine": "Deadline Dec 7, 2026 · $21,000/yr · Huntington WV · BS accepted",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-12-07",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=116947",
+        "label": "🔗 Funded MS — climate change and fire effects on coastal vegetation (Palmquist lab) — Marshall University · Department of Biological Sciences · Huntington, WV"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=116947",
+    "location": "Huntington, West Virginia",
+    "pay": "",
+    "stipend": "$21,000 per year",
+    "benefits": "Funded assistantship — confirm tuition and health coverage with the department",
+    "id": "item-509"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Conservation Coordinator — land protection, GIS mapping & stewardship",
+    "org": "Finger Lakes Land Trust · Ithaca, NY",
+    "deadline": "August 4, 2026",
+    "start": "See posting",
+    "body": "Land trust conservation coordinator supporting land protection projects, GIS mapping and stewardship across the Finger Lakes region. The posting lists minimum experience of 2 to 4 years, so this sits at the upper edge of entry level.",
+    "desc": "The GIS and conservation-planning mix is a direct use of her multi-criteria suitability work, at a salary that clears $49,000. The 2-to-4-year band makes it a stretch, but land trusts weigh demonstrated GIS capability heavily and a strong portfolio can substitute. Ithaca is also a deliberate strategic choice — living in Cornell’s town while doing land-trust work is a good position from which to apply to graduate programs there.",
+    "badge": "Strong fit",
+    "pills": [
+      "$49,725–$58,000 per year",
+      "GIS mapping and land protection",
+      "Ithaca — Cornell grad-school proximity",
+      "⚠️ 2–4 years listed"
+    ],
+    "metaLine": "Deadline Aug 4, 2026 · $49,725–$58,000 · Ithaca NY · 2–4 yrs listed",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-04",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-conservation-coordinator-ithaca-new-york/2006369205",
+        "label": "🔗 Conservation Coordinator — land protection, GIS mapping & stewardship — Finger Lakes Land Trust · Ithaca, NY"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-conservation-coordinator-ithaca-new-york/2006369205",
+    "location": "Ithaca, New York (Finger Lakes region)",
+    "pay": "$49,725 to $58,000 per year",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-510"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Park Ranger (Interpretation) — C&O Canal, GS-5 to GS-9 permanent",
+    "org": "National Park Service · Department of the Interior · Potomac, MD",
+    "deadline": "July 31, 2026",
+    "start": "See posting",
+    "body": "Permanent full-time National Park Service interpretive park ranger position along the C&O Canal, open to the public hiring path at GS-5 through GS-9. Duties centre on visitor education and resource interpretation on a river-corridor park unit.",
+    "desc": "This is one of very few genuinely public, entry-grade federal natural-resource postings currently open anywhere in the Northeast — most NPS and USFWS announcements that look promising turn out to be merit-promotion only. It is permanent rather than seasonal, which means it establishes federal service history and competitive status. Interpretation is not field science, but getting inside the agency at GS-5 makes later moves into resource-management series far easier than applying from outside.",
+    "badge": "Strong fit",
+    "pills": [
+      "Permanent federal appointment",
+      "Open to the public — not merit-promotion",
+      "GS-5 entry reachable with a BS",
+      "River-corridor park unit",
+      "Establishes federal competitive status"
+    ],
+    "metaLine": "Deadline Jul 31, 2026 · $46,610–$91,815 · Potomac MD · PERMANENT federal, open to the public",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/877459900",
+        "label": "🔗 Park Ranger (Interpretation) — C&O Canal, GS-5 to GS-9 permanent — National Park Service · Department of the Interior · Potomac, MD"
+      }
+    ],
+    "url": "https://www.usajobs.gov/job/877459900",
+    "location": "Potomac, Maryland (Chesapeake & Ohio Canal NHP)",
+    "pay": "$46,610 to $91,815 per year",
+    "stipend": "",
+    "benefits": "Full federal benefits; permanent full-time appointment",
+    "id": "item-511"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Gateway Community & Partnerships Engagement Fellow — DOI headquarters (AmeriCorps)",
+    "org": "Stewards Individual Placements · Conservation Legacy · with the Department of the Interior · Washington, DC",
+    "deadline": "August 3, 2026",
+    "start": "See posting",
+    "body": "AmeriCorps fellowship placed at Department of the Interior headquarters supporting gateway community and partnership engagement. The listed education requirement is a Bachelor’s degree with at least one year of experience.",
+    "desc": "Placement at DOI headquarters is unusual network access for someone building toward a USFWS career — USFWS sits under Interior, and a year spent inside the department means knowing people rather than submitting applications into a void. The work is partnerships rather than field biology, which is the honest trade-off. Her AmeriCorps NCCC term should satisfy the one-year experience line.",
+    "badge": "Strong fit",
+    "pills": [
+      "Department of the Interior headquarters",
+      "$600 per week",
+      "NCCC service covers the experience bar",
+      "Segal Education Award",
+      "Network access rather than field work"
+    ],
+    "metaLine": "Deadline Aug 3, 2026 · $600/wk · Washington DC · inside DOI headquarters",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-03",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117396",
+        "label": "🔗 Gateway Community & Partnerships Engagement Fellow — DOI headquarters (AmeriCorps) — Stewards Individual Placements · Conservation Legacy · with the Department of the Interior · Washington, DC"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117396",
+    "location": "Washington, DC (Department of the Interior headquarters)",
+    "pay": "",
+    "stipend": "$600 per week",
+    "benefits": "AmeriCorps term; Segal Education Award on completion",
+    "id": "item-512"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "USDA Forest Service — Air Quality Biomonitoring Data Science Fellowship",
+    "org": "Oak Ridge Associated Universities (ORAU) · USDA Forest Service · Washington, DC",
+    "deadline": "July 31, 2026",
+    "start": "See posting",
+    "body": "USDA Forest Service fellowship analysing national air-quality biomonitoring data, including lichen and related indicators. The listed education requirement is a Bachelor’s degree with no prior experience required. The stipend is listed only as commensurate or negotiable.",
+    "desc": "Biomonitoring is contaminant science by another route — using organisms as integrators of pollutant exposure, which is conceptually what her Pigeon River sediment work did with a different medium. It is a USDA placement, one of her two stated federal targets, and open at bachelor’s level with no experience. Verify the stipend before committing, since the posting does not publish one.",
+    "badge": "Strong fit",
+    "pills": [
+      "USDA — a stated federal target",
+      "Contaminant biomonitoring data",
+      "BS accepted, no experience required",
+      "⚠️ Stipend not published"
+    ],
+    "metaLine": "Deadline Jul 31, 2026 · stipend not published · Washington DC · USDA Forest Service",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117145",
+        "label": "🔗 USDA Forest Service — Air Quality Biomonitoring Data Science Fellowship — Oak Ridge Associated Universities (ORAU) · USDA Forest Service · Washington, DC"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117145",
+    "location": "Washington, DC",
+    "pay": "",
+    "stipend": "Stipend not published on the posting — listed only as commensurate/negotiable. Confirm with the program.",
+    "benefits": "ORISE/ORAU research participation appointment",
+    "id": "item-513"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "EPA Clean Air Data & Compliance Fellowship",
+    "org": "Oak Ridge Associated Universities (ORAU) · U.S. Environmental Protection Agency · Washington, DC",
+    "deadline": "July 31, 2026",
+    "start": "See posting",
+    "body": "EPA research participation fellowship working with clean air program data and compliance analysis. The listed education requirement is a Bachelor’s degree with no prior experience required. The stipend is listed only as commensurate or negotiable.",
+    "desc": "Air rather than water, so the subject is a step sideways from her focus — but federal environmental data and compliance work builds exactly the analytical credential set agencies screen for, and EPA is a name that opens doors. Worth applying alongside the other ORAU postings, since a single strong application package covers several of them.",
+    "badge": "Good fit",
+    "pills": [
+      "EPA federal placement",
+      "Environmental data and compliance",
+      "BS accepted, no experience required",
+      "⚠️ Stipend not published"
+    ],
+    "metaLine": "Deadline Jul 31, 2026 · stipend not published · Washington DC · EPA",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=116990",
+        "label": "🔗 EPA Clean Air Data & Compliance Fellowship — Oak Ridge Associated Universities (ORAU) · U.S. Environmental Protection Agency · Washington, DC"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=116990",
+    "location": "Washington, DC",
+    "pay": "",
+    "stipend": "Stipend not published on the posting — listed only as commensurate/negotiable. Confirm with the program.",
+    "benefits": "ORISE/ORAU research participation appointment",
+    "id": "item-514"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "EPA AIM Act and Clean Air Act Programs Fellowship",
+    "org": "Oak Ridge Associated Universities (ORAU) · U.S. Environmental Protection Agency · Washington, DC",
+    "deadline": "August 3, 2026",
+    "start": "See posting",
+    "body": "EPA fellowship supporting AIM Act and Clean Air Act program analysis and related domestic and international activities. The listed education requirement is a Bachelor’s degree with no prior experience required. The stipend is listed only as commensurate or negotiable.",
+    "desc": "This is the policy-facing member of the EPA fellowship cluster — less bench and field work, more regulatory analysis. That is genuinely useful literacy for someone who wants to work on contaminated sites, because the regulations are what drive the funding and the sampling requirements. Treat it as a complement to, not a replacement for, the technical postings.",
+    "badge": "Good fit",
+    "pills": [
+      "EPA federal placement",
+      "Regulatory and policy literacy",
+      "BS accepted, no experience required",
+      "⚠️ Stipend not published"
+    ],
+    "metaLine": "Deadline Aug 3, 2026 · stipend not published · Washington DC · regulatory policy focus",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-03",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=116419",
+        "label": "🔗 EPA AIM Act and Clean Air Act Programs Fellowship — Oak Ridge Associated Universities (ORAU) · U.S. Environmental Protection Agency · Washington, DC"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=116419",
+    "location": "Washington, DC",
+    "pay": "",
+    "stipend": "Stipend not published on the posting — listed only as commensurate/negotiable. Confirm with the program.",
+    "benefits": "ORISE/ORAU research participation appointment",
+    "id": "item-515"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "USDA-ARS Fellowship — fish nutritional analysis (National Cold Water Marine Aquaculture Center)",
+    "org": "Oak Ridge Associated Universities (ORAU) · USDA Agricultural Research Service · Franklin, ME",
+    "deadline": "July 31, 2026",
+    "start": "See posting",
+    "body": "USDA-ARS research fellowship in fish nutritional analysis at the National Cold Water Marine Aquaculture Center. The listed education requirement is a Bachelor’s degree with no prior experience required. The stipend is listed only as commensurate or negotiable.",
+    "desc": "The analytical laboratory work here is close in character to the trace-metal analyses she ran for her capstone — careful sample preparation, instrument work and quality control. It is a USDA appointment, which is one of her two stated federal targets, and coastal Maine is a good place to spend a year. Confirm the stipend before committing.",
+    "badge": "Good fit",
+    "pills": [
+      "USDA-ARS federal research",
+      "Analytical lab work like her capstone",
+      "BS accepted, no experience required",
+      "⚠️ Stipend not published"
+    ],
+    "metaLine": "Deadline Jul 31, 2026 · stipend not published · Franklin ME · USDA-ARS lab work",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117400",
+        "label": "🔗 USDA-ARS Fellowship — fish nutritional analysis (National Cold Water Marine Aquaculture Center) — Oak Ridge Associated Universities (ORAU) · USDA Agricultural Research Service · Franklin, ME"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117400",
+    "location": "Franklin, Maine",
+    "pay": "",
+    "stipend": "Stipend not published on the posting — listed only as commensurate/negotiable. Confirm with the program.",
+    "benefits": "ORISE/ORAU research participation appointment",
+    "id": "item-516"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "USDA-ARS Fellowship — parasites and pathogens of honey bees (Bee Research Laboratory)",
+    "org": "Oak Ridge Associated Universities (ORAU) · USDA Agricultural Research Service · Beltsville, MD",
+    "deadline": "July 31, 2026",
+    "start": "See posting",
+    "body": "USDA-ARS research fellowship at the Bee Research Laboratory studying honey bee parasites and pathogens. The listed education requirement is a Bachelor’s degree with no prior experience required. The stipend is listed only as commensurate or negotiable.",
+    "desc": "Pollinator health is outside her stated interests, so include this one on strategy rather than subject: it is a USDA research appointment open at bachelor’s level, and federal research affiliation transfers across topics far more than people expect. If she takes it, the value is the ARS name and the lab skills, not the bees.",
+    "badge": "Good fit",
+    "pills": [
+      "USDA-ARS federal research",
+      "BS accepted, no experience required",
+      "Subject is outside her stated focus",
+      "⚠️ Stipend not published"
+    ],
+    "metaLine": "Deadline Jul 31, 2026 · stipend not published · Beltsville MD · USDA-ARS",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=115956",
+        "label": "🔗 USDA-ARS Fellowship — parasites and pathogens of honey bees (Bee Research Laboratory) — Oak Ridge Associated Universities (ORAU) · USDA Agricultural Research Service · Beltsville, MD"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=115956",
+    "location": "Beltsville, Maryland",
+    "pay": "",
+    "stipend": "Stipend not published on the posting — listed only as commensurate/negotiable. Confirm with the program.",
+    "benefits": "ORISE/ORAU research participation appointment",
+    "id": "item-517"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "USGS Appalachian Landscape Climate Adaptation Fellowship",
+    "org": "Oak Ridge Associated Universities (ORAU) · U.S. Geological Survey · Northeast Climate Adaptation Science Center · Amherst, MA",
+    "deadline": "September 11, 2026",
+    "start": "See posting",
+    "body": "USGS-affiliated fellowship on climate adaptation across the Appalachian landscape, based at the Northeast Climate Adaptation Science Center. The posting lists a Master’s degree as the education requirement. The stipend is listed only as commensurate or negotiable.",
+    "desc": "Flagged Reach because the posting asks for a master’s. It is worth an inquiry email anyway: Appalachian landscape adaptation overlaps her Western North Carolina background and Hurricane Helene capstone about as directly as a posting can, and remote work is permitted. The worst outcome of asking is a no, and climate adaptation centres often have adjacent technician openings they will mention.",
+    "badge": "Reach",
+    "pills": [
+      "⚠️ Master’s listed — inquire rather than cold-apply",
+      "Appalachian climate adaptation",
+      "Remote work allowed",
+      "USGS science centre",
+      "⚠️ Stipend not published"
+    ],
+    "metaLine": "Deadline Sep 11, 2026 · stipend not published · Amherst MA · remote allowed · ⚠️ MS listed",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-11",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117693",
+        "label": "🔗 USGS Appalachian Landscape Climate Adaptation Fellowship — Oak Ridge Associated Universities (ORAU) · U.S. Geological Survey · Northeast Climate Adaptation Science Center · Amherst, MA"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117693",
+    "location": "Amherst, Massachusetts (remote work allowed)",
+    "pay": "",
+    "stipend": "Stipend not published on the posting — listed only as commensurate/negotiable. Confirm with the program.",
+    "benefits": "ORISE/ORAU research participation appointment; remote work allowed",
+    "id": "item-518"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Freshwater Institute Research Fellow — precision aquaculture & water reuse",
+    "org": "Oak Ridge Associated Universities (ORAU) · The Conservation Fund Freshwater Institute · Shepherdstown, WV",
+    "deadline": "August 28, 2026",
+    "start": "See posting",
+    "body": "Research fellowship in precision aquaculture and water reuse systems at The Conservation Fund’s Freshwater Institute. The posting lists a Master’s degree as the education requirement, though no prior experience is required. The stipend is listed only as commensurate or negotiable.",
+    "desc": "Recirculating aquaculture is applied water chemistry at a level of control most field settings never allow — continuous monitoring of nitrogen, solids and dissolved oxygen. That is close to her water-quality strengths, and the Freshwater Institute is a strong name. The master’s requirement makes it a reach, so approach with an email rather than a cold application.",
+    "badge": "Reach",
+    "pills": [
+      "⚠️ Master’s listed",
+      "Applied water chemistry and reuse systems",
+      "Well-regarded research institute",
+      "⚠️ Stipend not published"
+    ],
+    "metaLine": "Deadline Aug 28, 2026 · stipend not published · Shepherdstown WV · ⚠️ MS listed",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-28",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117635",
+        "label": "🔗 Freshwater Institute Research Fellow — precision aquaculture & water reuse — Oak Ridge Associated Universities (ORAU) · The Conservation Fund Freshwater Institute · Shepherdstown, WV"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117635",
+    "location": "Shepherdstown, West Virginia",
+    "pay": "",
+    "stipend": "Stipend not published on the posting — listed only as commensurate/negotiable. Confirm with the program.",
+    "benefits": "ORISE/ORAU research participation appointment",
+    "id": "item-519"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Seasonal Plant Health Support Intern — nursery inspection & USDA cooperative pest survey",
+    "org": "Rhode Island Dept. of Environmental Management · Division of Agriculture and Forestry",
+    "deadline": "November 4, 2026",
+    "start": "See posting",
+    "body": "Paid state agency internship supporting nursery inspection and the Cooperative Agricultural Pest Survey, an invasive-pest detection program run jointly with USDA APHIS. The listed education requirement is some undergraduate coursework with no prior experience required.",
+    "desc": "The useful thing here is the joint structure: it is a state position that runs a USDA APHIS cooperative program, so it puts USDA program experience on her resume without requiring a federal appointment. Invasive-pest detection is systematic survey work, which she has done. The November deadline makes it a genuine fallback rather than a rush.",
+    "badge": "Good fit",
+    "pills": [
+      "USDA APHIS cooperative program",
+      "$17.25–$17.75 per hour",
+      "No experience required",
+      "Long application window"
+    ],
+    "metaLine": "Deadline Nov 4, 2026 · $17.25–$17.75/hr · Rhode Island · USDA APHIS cooperative program",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-11-04",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=113938",
+        "label": "🔗 Seasonal Plant Health Support Intern — nursery inspection & USDA cooperative pest survey — Rhode Island Dept. of Environmental Management · Division of Agriculture and Forestry"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=113938",
+    "location": "Rhode Island",
+    "pay": "$17.25 to $17.75 per hour",
+    "stipend": "",
+    "benefits": "Seasonal state position — confirm benefits with the agency",
+    "id": "item-520"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Stewards VISTA — First State National Historical Park (AmeriCorps)",
+    "org": "Stewards Individual Placements · Conservation Legacy · with the National Park Service · New Castle, DE",
+    "deadline": "August 14, 2026",
+    "start": "See posting",
+    "body": "AmeriCorps VISTA placement at First State National Historical Park in Delaware. The posting lists minimum experience of 0 to 1 year and includes a Segal Education Award.",
+    "desc": "A National Park Service host site with a published living allowance, which is more than many VISTA listings offer. VISTA is capacity-building rather than field work, so this builds federal service history and an education award rather than technical skills. Delaware also has several other openings on her list, so a placement here puts her near them.",
+    "badge": "Good fit",
+    "pills": [
+      "National Park Service host site",
+      "~$24,962 per year published",
+      "Segal Education Award",
+      "Capacity building, not field work"
+    ],
+    "metaLine": "Deadline Aug 14, 2026 · $68.39/day (~$24,962/yr) · New Castle DE · NPS host site",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-14",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-stewards-vista-first-state-national-historical-park--americorps-new-castle-delaware/8444777424",
+        "label": "🔗 Stewards VISTA — First State National Historical Park (AmeriCorps) — Stewards Individual Placements · Conservation Legacy · with the National Park Service · New Castle, DE"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-stewards-vista-first-state-national-historical-park--americorps-new-castle-delaware/8444777424",
+    "location": "New Castle, Delaware",
+    "pay": "",
+    "stipend": "$68.39 per day (approximately $24,962 per year)",
+    "benefits": "Segal AmeriCorps Education Award on completion; 365-day VISTA term",
+    "id": "item-521"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Stewards VISTA — Grow Ohio Valley (AmeriCorps)",
+    "org": "Stewards Individual Placements · Conservation Legacy · Wheeling, WV",
+    "deadline": "August 14, 2026",
+    "start": "See posting",
+    "body": "AmeriCorps VISTA placement with Grow Ohio Valley, an urban agriculture and food systems nonprofit in Wheeling. The posting lists minimum experience of 0 to 1 year and includes a Segal Education Award.",
+    "desc": "Included honestly as a weaker topical fit — this is food systems and urban agriculture, not conservation science. What it offers is an Appalachian placement, a published living allowance and a second education award toward graduate school. Worth considering only if the stronger Stewards placements do not come through.",
+    "badge": "Good fit",
+    "pills": [
+      "~$24,962 per year published",
+      "Segal Education Award",
+      "Appalachian placement",
+      "⚠️ Food systems, not conservation science"
+    ],
+    "metaLine": "Deadline Aug 14, 2026 · $68.39/day (~$24,962/yr) · Wheeling WV · food systems focus",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-14",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-stewards-vista-grow-ohio-valley--americorps-wheeling-west-virginia/6480454229",
+        "label": "🔗 Stewards VISTA — Grow Ohio Valley (AmeriCorps) — Stewards Individual Placements · Conservation Legacy · Wheeling, WV"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-stewards-vista-grow-ohio-valley--americorps-wheeling-west-virginia/6480454229",
+    "location": "Wheeling, West Virginia",
+    "pay": "",
+    "stipend": "$68.39 per day (approximately $24,962 per year)",
+    "benefits": "Segal AmeriCorps Education Award on completion; 365-day VISTA term",
+    "id": "item-522"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Stewards VISTA — Hatfield and McCoy Foundation (AmeriCorps)",
+    "org": "Stewards Individual Placements · Conservation Legacy · Sarah Ann, WV",
+    "deadline": "August 14, 2026",
+    "start": "See posting",
+    "body": "AmeriCorps VISTA placement with the Hatfield and McCoy Foundation in southern West Virginia, supporting heritage tourism and community land-based development. The posting lists minimum experience of 0 to 1 year and includes a Segal Education Award.",
+    "desc": "Badged Reach on fit rather than on competitiveness: heritage tourism is a long way from wildlife ecology and water quality. It is here because southern West Virginia is Appalachian country similar in character to where she grew up and studied, the allowance is published, and it carries an education award. A fallback, not a target.",
+    "badge": "Reach",
+    "pills": [
+      "~$24,962 per year published",
+      "Segal Education Award",
+      "Southern Appalachian placement",
+      "⚠️ Heritage tourism, not conservation science"
+    ],
+    "metaLine": "Deadline Aug 14, 2026 · $68.39/day (~$24,962/yr) · Sarah Ann WV · heritage tourism focus",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-14",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-stewards-vista-hatfield-and-mccoy-foundation-wv--americorps-sarah-ann-west-virginia/7885405157",
+        "label": "🔗 Stewards VISTA — Hatfield and McCoy Foundation (AmeriCorps) — Stewards Individual Placements · Conservation Legacy · Sarah Ann, WV"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-stewards-vista-hatfield-and-mccoy-foundation-wv--americorps-sarah-ann-west-virginia/7885405157",
+    "location": "Sarah Ann, West Virginia (southern West Virginia)",
+    "pay": "",
+    "stipend": "$68.39 per day (approximately $24,962 per year)",
+    "benefits": "Segal AmeriCorps Education Award on completion; 365-day VISTA term",
+    "id": "item-523"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Farm to School AmeriCorps — New River Gorge",
+    "org": "New Roots Community Farm · Fayetteville, WV",
+    "deadline": "August 2, 2026",
+    "start": "See posting",
+    "body": "AmeriCorps service position running farm-to-school programming at a community farm in the New River Gorge area. The posting lists minimum experience of 0 to 1 year.",
+    "desc": "Outdoor education and sustainable agriculture service in a national-park gateway community, with a clearly published stipend — which is more than many corps listings manage. The subject matter is agriculture and youth education rather than field ecology, so weigh it against the watershed-focused placements. The New River Gorge setting is a genuine draw.",
+    "badge": "Good fit",
+    "pills": [
+      "$825 twice monthly — published",
+      "New River Gorge gateway community",
+      "0–1 year experience",
+      "Education and agriculture focus"
+    ],
+    "metaLine": "Deadline Aug 2, 2026 · $825 twice monthly · Fayetteville WV · New River Gorge",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-02",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-farm-to-school-americorps-fayetteville-west-virginia/7565594128",
+        "label": "🔗 Farm to School AmeriCorps — New River Gorge — New Roots Community Farm · Fayetteville, WV"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-farm-to-school-americorps-fayetteville-west-virginia/7565594128",
+    "location": "Fayetteville, West Virginia (New River Gorge area)",
+    "pay": "",
+    "stipend": "$825 pre-tax, paid twice monthly",
+    "benefits": "AmeriCorps service position; confirm education award with the host",
+    "id": "item-524"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Outreach Coordinator — Chesapeake Bay watershed restoration",
+    "org": "Interfaith Partners for the Chesapeake · Annapolis, MD",
+    "deadline": "August 7, 2026",
+    "start": "See posting",
+    "body": "Salaried outreach coordinator working with congregations on Chesapeake Bay watershed restoration projects such as rain gardens, tree plantings and stormwater retrofits. The posting lists minimum experience of 0 to 1 year with benefits included.",
+    "desc": "A full-time salaried watershed restoration job explicitly open to a new graduate is rare enough to be worth a serious application. The projects named — rain gardens, plantings, stormwater retrofits — are real green infrastructure work, not just messaging, so she would be coordinating installations that measurably affect water quality in the largest estuary in the country. Benefits are included, which many nonprofit postings at this level skip.",
+    "badge": "Strong fit",
+    "pills": [
+      "Explicitly open to 0–1 years",
+      "$43,000–$46,000 with benefits",
+      "Chesapeake Bay watershed restoration",
+      "Rain gardens, plantings, stormwater retrofits"
+    ],
+    "metaLine": "Deadline Aug 7, 2026 · $43,000–$46,000 + benefits · Annapolis MD · 0–1 yr experience",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-07",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-outreach-coordinator-annapolis-maryland/5931139682",
+        "label": "🔗 Outreach Coordinator — Chesapeake Bay watershed restoration — Interfaith Partners for the Chesapeake · Annapolis, MD"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-outreach-coordinator-annapolis-maryland/5931139682",
+    "location": "Annapolis, Maryland (Chesapeake Bay watershed)",
+    "pay": "$43,000 to $46,000 per year",
+    "stipend": "",
+    "benefits": "Benefits included per the posting",
+    "id": "item-525"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "School Year Educator — wetlands, watersheds & birds",
+    "org": "Pickering Creek Audubon Center · Easton, MD",
+    "deadline": "Rolling — no closing date published",
+    "start": "See posting",
+    "body": "School-year environmental educator at an Audubon center on Maryland’s Eastern Shore, delivering field programs on wetlands, watersheds and birds. The posting lists minimum experience of 0 to 1 year and no closing date.",
+    "desc": "The subject matter is content she already knows technically — wetlands, watersheds and birds — which makes this an easier transition than most education roles and a real chance to get fluent at explaining her own field. Audubon is a recognisable name on a resume. The rate is modest, so treat it as a bridge role rather than a destination.",
+    "badge": "Good fit",
+    "pills": [
+      "$18 per hour",
+      "Teaches content she already knows",
+      "Audubon center",
+      "0–1 year experience"
+    ],
+    "metaLine": "Rolling · $18/hr · Easton MD · wetlands and watershed teaching",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-school-year-educator-easton-maryland/5865908704",
+        "label": "🔗 School Year Educator — wetlands, watersheds & birds — Pickering Creek Audubon Center · Easton, MD"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-school-year-educator-easton-maryland/5865908704",
+    "location": "Easton, Maryland (Chesapeake Eastern Shore)",
+    "pay": "$18 per hour",
+    "stipend": "",
+    "benefits": "Confirm benefits with the center",
+    "id": "item-526"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Environmental Educator (part-time) — land conservancy programs",
+    "org": "Heritage Conservancy · Doylestown, PA",
+    "deadline": "Rolling — no closing date published",
+    "start": "See posting",
+    "body": "Part-time environmental educator with a Bucks County land conservancy delivering programs on natural resources and land stewardship. The posting lists minimum experience of 0 to 1 year and no closing date.",
+    "desc": "Part-time and rolling, which makes it a practical companion to a seasonal field position or to a stretch of concentrated graduate applications rather than a job in itself. The value is the land-trust connection: conservancies hire their educators into stewardship roles reasonably often, and $20 an hour is respectable for part-time work.",
+    "badge": "Good fit",
+    "pills": [
+      "$20 per hour, part-time",
+      "Pairs with a seasonal field role",
+      "Land trust connection",
+      "0–1 year experience"
+    ],
+    "metaLine": "Rolling · $20/hr part-time · Doylestown PA · land conservancy",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-environmental-educator---part-time-doylestown-pennsylvania/2672969420",
+        "label": "🔗 Environmental Educator (part-time) — land conservancy programs — Heritage Conservancy · Doylestown, PA"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-environmental-educator---part-time-doylestown-pennsylvania/2672969420",
+    "location": "Doylestown, Pennsylvania (Bucks County)",
+    "pay": "$20 per hour",
+    "stipend": "",
+    "benefits": "Part-time role — confirm benefits with the employer",
+    "id": "item-527"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Fall Outdoor Educator — residential field ecology",
+    "org": "The Ecology School · Saco, ME",
+    "deadline": "Rolling — no closing date published",
+    "start": "See posting",
+    "body": "Residential outdoor educator position at a Maine ecology school teaching field ecology to visiting school groups. The posting lists minimum experience of 0 to 1 year and no closing date.",
+    "desc": "The Ecology School is a well-regarded residential program and the teaching is genuine field ecology rather than generic outdoor recreation. Residential roles of this type usually include room and board, which would make $450 a week go considerably further than it sounds — confirm that before deciding. A common and respectable bridge year for new ecology graduates.",
+    "badge": "Good fit",
+    "pills": [
+      "$450 per week",
+      "Genuine field ecology content",
+      "Residential — confirm room and board",
+      "0–1 year experience"
+    ],
+    "metaLine": "Rolling · $450/wk · Saco ME · residential field ecology teaching",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-summerfall-outdoor-educator-saco-maine/3306089868",
+        "label": "🔗 Fall Outdoor Educator — residential field ecology — The Ecology School · Saco, ME"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-summerfall-outdoor-educator-saco-maine/3306089868",
+    "location": "Saco, Maine",
+    "pay": "",
+    "stipend": "$450 per week",
+    "benefits": "Residential position — confirm room and board with the school",
+    "id": "item-528"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Outdoor Educator — Catskills environmental education center",
+    "org": "The Ashokan Center · Olivebridge, NY",
+    "deadline": "August 14, 2026",
+    "start": "See posting",
+    "body": "Outdoor and environmental educator at a Catskills residential environmental education centre. The listed education requirement is a Bachelor’s degree with no prior experience required.",
+    "desc": "A no-experience-required role in the Catskills, which is a good landscape to know if she is considering New York graduate programs or state agency work later. The pay is entry-level, so its value is location and continuity rather than earnings. Ask whether housing is included, as many residential centres in the region provide it.",
+    "badge": "Good fit",
+    "pills": [
+      "From $17 per hour",
+      "No experience required",
+      "Catskill Mountains setting",
+      "Ask about on-site housing"
+    ],
+    "metaLine": "Deadline Aug 14, 2026 · from $17/hr · Olivebridge NY · Catskills",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-14",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117602",
+        "label": "🔗 Outdoor Educator — Catskills environmental education center — The Ashokan Center · Olivebridge, NY"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117602",
+    "location": "Olivebridge, New York (Catskill Mountains)",
+    "pay": "Starting at $17 per hour",
+    "stipend": "",
+    "benefits": "Confirm housing and benefits with the center",
+    "id": "item-529"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Educator / Deckhand aboard the schooner SoundWaters — Long Island Sound",
+    "org": "SoundWaters, Inc. · Stamford, CT",
+    "deadline": "Rolling — no closing date published",
+    "start": "See posting",
+    "body": "Marine science educator and deckhand aboard an 80-foot schooner on Long Island Sound, delivering STEM programs and assisting with vessel operations. The posting states no previous experience is required but asks for a bachelor’s degree in marine science or a relevant discipline, and includes room and board aboard plus a $200 travel stipend.",
+    "desc": "Room and board aboard the vessel is the thing to notice — $400 a week with housing and meals covered nets out better than several higher hourly listings. It would add estuarine water-quality experience to a resume currently built on freshwater systems, and sail-training work is memorable on an application. The trade-off is that it is education and seamanship rather than research.",
+    "badge": "Good fit",
+    "pills": [
+      "Room and board included aboard",
+      "$400 per week + $200 travel stipend",
+      "Adds estuarine experience",
+      "No previous experience required"
+    ],
+    "metaLine": "Rolling · $400/wk + room and board aboard · Stamford CT · Long Island Sound",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-educatordeckhand-aboard-80-schooner-soundwaters-stamford-connecticut/8614318599",
+        "label": "🔗 Educator / Deckhand aboard the schooner SoundWaters — Long Island Sound — SoundWaters, Inc. · Stamford, CT"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-educatordeckhand-aboard-80-schooner-soundwaters-stamford-connecticut/8614318599",
+    "location": "Stamford, Connecticut (Long Island Sound)",
+    "pay": "",
+    "stipend": "$400 per week, plus a $200 travel stipend",
+    "benefits": "Room and board provided aboard the vessel",
+    "id": "item-530"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Seasonal Field Instructor — Boston Harbor island campus",
+    "org": "Cathleen Stone Island Outward Bound School · Boston, MA",
+    "deadline": "August 16, 2026",
+    "start": "See posting",
+    "body": "Seasonal field instructor on a Boston Harbor island leading outdoor education and expedition programming. The posting lists minimum experience of 0 to 1 year.",
+    "desc": "Outward Bound is the closest civilian analogue to the AmeriCorps NCCC model she already succeeded in, so her existing experience translates almost directly and makes her a strong candidate rather than a marginal one. The work is expedition instruction rather than science, but crew leadership on a harbor island is a distinctive credential and the rate is fair for seasonal work.",
+    "badge": "Good fit",
+    "pills": [
+      "$19.36 per hour",
+      "NCCC experience translates directly",
+      "Boston Harbor island campus",
+      "0–1 year experience"
+    ],
+    "metaLine": "Deadline Aug 16, 2026 · $19.36/hr · Boston Harbor MA · expedition instruction",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-16",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-seasonal-field-instructor-boston-massachusetts/4501143225",
+        "label": "🔗 Seasonal Field Instructor — Boston Harbor island campus — Cathleen Stone Island Outward Bound School · Boston, MA"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-seasonal-field-instructor-boston-massachusetts/4501143225",
+    "location": "Boston, Massachusetts (Boston Harbor island)",
+    "pay": "$19.36 per hour",
+    "stipend": "",
+    "benefits": "Seasonal position — confirm benefits with the school",
+    "id": "item-531"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Environmental Education Internship — Fall 2026",
+    "org": "Center for Wildlife · Cape Neddick, ME",
+    "deadline": "August 9, 2026",
+    "start": "See posting",
+    "body": "Fall 2026 environmental education internship at a wildlife rehabilitation and education centre in coastal Maine. No education or experience requirements are listed and no stipend is published.",
+    "desc": "A low-barrier route into a wildlife rehabilitation setting, which would add live-animal handling to a resume built on trapping, cameras and sediment work. Because no stipend is published, treat the compensation question as the first thing to ask — an unpaid internship is only worth taking alongside paid work.",
+    "badge": "Good fit",
+    "pills": [
+      "Wildlife rehabilitation and handling",
+      "No stated education or experience bar",
+      "⚠️ Stipend not published — ask first",
+      "Coastal Maine"
+    ],
+    "metaLine": "Deadline Aug 9, 2026 · stipend not published · Cape Neddick ME · wildlife rehabilitation",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-09",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117638",
+        "label": "🔗 Environmental Education Internship — Fall 2026 — Center for Wildlife · Cape Neddick, ME"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117638",
+    "location": "Cape Neddick, Maine (coastal southern Maine)",
+    "pay": "",
+    "stipend": "Stipend not published on the posting — confirm with the center",
+    "benefits": "Confirm housing and benefits with the center",
+    "id": "item-532"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Zoo Conservation, Animal Care & Education Internships — Fall 2026",
+    "org": "Elmwood Park Zoo · Norristown, PA",
+    "deadline": "August 16, 2026",
+    "start": "See posting",
+    "body": "Fall 2026 internships across conservation, animal care and education tracks at a suburban Philadelphia zoo. The listed education requirement is some undergraduate coursework with no prior experience required, and no stipend is published.",
+    "desc": "The conservation track is the one worth asking about; the animal care and education tracks are further from where she is heading. Its practical use is maintaining a Philadelphia-area base while applying to graduate programs. As with the wildlife centre posting, confirm whether it pays anything before committing time to the application.",
+    "badge": "Good fit",
+    "pills": [
+      "Conservation track is the relevant one",
+      "No experience required",
+      "Major metro base",
+      "⚠️ Stipend not published — ask first"
+    ],
+    "metaLine": "Deadline Aug 16, 2026 · stipend not published · Norristown PA · three tracks",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-16",
+    "region": "Northeast",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117470",
+        "label": "🔗 Zoo Conservation, Animal Care & Education Internships — Fall 2026 — Elmwood Park Zoo · Norristown, PA"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117470",
+    "location": "Norristown, Pennsylvania (suburban Philadelphia)",
+    "pay": "",
+    "stipend": "Stipend not published on the posting — confirm with the zoo",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-533"
   }
 ]

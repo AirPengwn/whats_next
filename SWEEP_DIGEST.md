@@ -1,25 +1,38 @@
 # Weekly opportunity sweep — 2026-07-27
 
-**Added 11 new** opportunities:
-- Pathways Recent Graduates Program — standing federal search (SOURCE: set a daily alert) — _Excellent_ · National / Remote / Multiple · deadline: Rolling — individual announcements are often open only 3–5 days. Her eligibility window closes ~May 2027.
-- ERDC Coastal & Hydraulics Lab — post-wildfire flooding risk, resilience & mitigation — _Excellent_ · National / Remote / Multiple · deadline: August 1, 2026
-- ERDC Environmental Laboratory — post-bachelor research appointments (standing pool) — _Strong_ · National / Remote / Multiple · deadline: Rolling — standing pool with no posted closing date; reference codes are reissued each year
-- ERDC Construction Engineering Research Lab — fall/winter geospatial research internship — _Strong_ · National / Remote / Multiple · deadline: Rolling — no posted closing date; a Spring/Summer version is reposted each winter
-- GIS & Geospatial Data Internship — Fort Huachuca Army garrison — _Strong_ · Southwest · deadline: Rolling — no posted closing date; USAEC reposts numbered variants as projects open
-- DOE Scholars Program — 2026 Gen2 call (Environmental Management placements) — _Strong_ · National / Remote / Multiple · deadline: August 17, 2026 — reviewed on a rolling basis, so apply well before the close
-- NIEHS Health and Extreme Weather (HEW) Intramural Scholars Program — _Strong_ · National / Remote / Multiple · deadline: Rolling — reviewed as mentors post projects
-- Biological Science Laboratory Technician (Insect), GS-6 — three duty stations — _Strong_ · National / Remote / Multiple · deadline: ⏰ July 29, 2026
-- Environmental Protection Specialist (GS-9 to GS-12) — chemical risk management — _Reach / review_ · National / Remote / Multiple · deadline: July 31, 2026
-- Wildlife Biologist (GS-9), Wildlife Services — sixteen duty locations — _Reach / review_ · National / Remote / Multiple · deadline: July 30, 2026
-- AmeriCorps national listings — Environment & Natural Resources (SOURCE: weekly filtered check) — _Good_ · National / Remote / Multiple · deadline: Rolling — host programs post continuously with their own application windows
+**Added 25 new** opportunities:
+- Funded MS — climate change and fire effects on coastal vegetation (Palmquist lab) — _Strong_ · Northeast · deadline: December 7, 2026
+- Conservation Coordinator — land protection, GIS mapping & stewardship — _Strong_ · Northeast · deadline: August 4, 2026
+- Park Ranger (Interpretation) — C&O Canal, GS-5 to GS-9 permanent — _Strong_ · Northeast · deadline: July 31, 2026
+- Gateway Community & Partnerships Engagement Fellow — DOI headquarters (AmeriCorps) — _Strong_ · Northeast · deadline: August 3, 2026
+- USDA Forest Service — Air Quality Biomonitoring Data Science Fellowship — _Strong_ · Northeast · deadline: July 31, 2026
+- EPA Clean Air Data & Compliance Fellowship — _Good_ · Northeast · deadline: July 31, 2026
+- EPA AIM Act and Clean Air Act Programs Fellowship — _Good_ · Northeast · deadline: August 3, 2026
+- USDA-ARS Fellowship — fish nutritional analysis (National Cold Water Marine Aquaculture Center) — _Good_ · Northeast · deadline: July 31, 2026
+- USDA-ARS Fellowship — parasites and pathogens of honey bees (Bee Research Laboratory) — _Good_ · Northeast · deadline: July 31, 2026
+- USGS Appalachian Landscape Climate Adaptation Fellowship — _Reach / review_ · Northeast · deadline: September 11, 2026
+- Freshwater Institute Research Fellow — precision aquaculture & water reuse — _Reach / review_ · Northeast · deadline: August 28, 2026
+- Seasonal Plant Health Support Intern — nursery inspection & USDA cooperative pest survey — _Good_ · Northeast · deadline: November 4, 2026
+- Stewards VISTA — First State National Historical Park (AmeriCorps) — _Good_ · Northeast · deadline: August 14, 2026
+- Stewards VISTA — Grow Ohio Valley (AmeriCorps) — _Good_ · Northeast · deadline: August 14, 2026
+- Stewards VISTA — Hatfield and McCoy Foundation (AmeriCorps) — _Reach / review_ · Northeast · deadline: August 14, 2026
+- Farm to School AmeriCorps — New River Gorge — _Good_ · Northeast · deadline: August 2, 2026
+- Outreach Coordinator — Chesapeake Bay watershed restoration — _Strong_ · Northeast · deadline: August 7, 2026
+- School Year Educator — wetlands, watersheds & birds — _Good_ · Northeast · deadline: Rolling — no closing date published
+- Environmental Educator (part-time) — land conservancy programs — _Good_ · Northeast · deadline: Rolling — no closing date published
+- Fall Outdoor Educator — residential field ecology — _Good_ · Northeast · deadline: Rolling — no closing date published
+- Outdoor Educator — Catskills environmental education center — _Good_ · Northeast · deadline: August 14, 2026
+- Educator / Deckhand aboard the schooner SoundWaters — Long Island Sound — _Good_ · Northeast · deadline: Rolling — no closing date published
+- Seasonal Field Instructor — Boston Harbor island campus — _Good_ · Northeast · deadline: August 16, 2026
+- Environmental Education Internship — Fall 2026 — _Good_ · Northeast · deadline: August 9, 2026
+- Zoo Conservation, Animal Care & Education Internships — Fall 2026 — _Good_ · Northeast · deadline: August 16, 2026
 
 **⚠ Review these (reach / weak fit — your call whether to keep):**
-- Environmental Protection Specialist (GS-9 to GS-12) — chemical risk management — _Reach / review_ · National / Remote / Multiple · deadline: July 31, 2026
-- Wildlife Biologist (GS-9), Wildlife Services — sixteen duty locations — _Reach / review_ · National / Remote / Multiple · deadline: July 30, 2026
+- USGS Appalachian Landscape Climate Adaptation Fellowship — _Reach / review_ · Northeast · deadline: September 11, 2026
+- Freshwater Institute Research Fellow — precision aquaculture & water reuse — _Reach / review_ · Northeast · deadline: August 28, 2026
+- Stewards VISTA — Hatfield and McCoy Foundation (AmeriCorps) — _Reach / review_ · Northeast · deadline: August 14, 2026
 
-**Updated 2** (deadline / status / description changed):
-- USDA Forest Service Geospatial Fellow — Interactive Application and Content Publishing — _Excellent_ · National / Remote / Multiple · deadline: Closed — the real Zintellect deadline was June 5, 2026 (the Texas A&M board showed a stale July 31 date). USDA-FS reissues this fellowship annually; watch the Zintellect reference code for the next cycle.
-- EPA Airborne PFAS Toxicology Fellowship — _Strong_ · National / Remote / Multiple · deadline: Closed — the real Zintellect deadline was July 5, 2026 (the Texas A&M board showed a stale July 31 date). EPA reissues these fellowships; watch the Zintellect reference code for the next cycle.
+**Updated 0** (deadline / status / description changed).
 
-**Total opportunities:** 505  ·  next-cycle: 100  ·  expired (one-time, no future cycle): 19
+**Total opportunities:** 530  ·  next-cycle: 100  ·  expired (one-time, no future cycle): 19
 Triage: passed-but-recurring → `cycle:"next"`; one-time/discontinued → `expired:true`. Passed/expired are hidden on the site by default (toggle to show); never deleted, never moved to the personal Archive. Fit tiers: _Excellent_ / _Strong_ / _Good_ / _Reach / review_ (set via each entry's badge). The Browse pages render from this data automatically — no HTML edits. Nothing is live until this PR is merged.
