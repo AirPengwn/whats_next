@@ -1,4 +1,4 @@
-# Weekly opportunity sweep — 2026-07-26
+# Weekly opportunity sweep — 2026-07-27
 
 **Added 0 new** opportunities.
 

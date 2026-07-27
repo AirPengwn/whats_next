@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
-<link rel="stylesheet" href="styles.css?v=20260726-391-8945b981">
+<link rel="stylesheet" href="styles.css?v=20260727-391-8945b981">
 <title>Erin Lamberton &#8212; Applications Tracker</title>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -245,9 +245,9 @@ html:not(.dark){
 }
 </style>
 <script src="icons.js?v=20260602"></script>
-<script src="site.js?v=20260726-391-8945b981"></script>
+<script src="site.js?v=20260727-391-8945b981"></script>
 <!-- v3.20: opportunity data, so each application can expand its source opportunity inline -->
-<script src="opportunities.js?v=20260726-391-8945b981"></script>
+<script src="opportunities.js?v=20260727-391-8945b981"></script>
 <script>
 (function(){
   var saved=localStorage.getItem('erin_theme');
@@ -494,19 +494,28 @@ function loadApps(){ try{ return JSON.parse(localStorage.getItem(APP_STORE)||'[]
 function saveApps(arr){ localStorage.setItem(APP_STORE,JSON.stringify(arr)); }
 
 
+/* v3.25: returns a PROMISE that only resolves once the cloud actually confirms
+   the write. Previously every error was swallowed and callers flashed "Saved ✓"
+   immediately — so a failed sync looked identical to a successful one, and the
+   Pipeline (which reads the cloud) would silently disagree with this page. */
 function pushApps(arr){
-  if(!isPrimary()) return; // Only primary device writes to cloud
-  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+  if(!isPrimary()) return Promise.reject(new Error('view-only'));
+  return fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
   .then(function(r){return r.json();})
   .then(function(data){
-    if(!data||!data.record) return; var rec=data.record;
+    if(!data||!data.record) throw new Error('bad cloud record');
+    var rec=data.record;
     rec.apps=arr;
-    fetch('https://api.jsonbin.io/v3/b/'+BIN,{
+    return fetch('https://api.jsonbin.io/v3/b/'+BIN,{
       method:'PUT',
       headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},
       body:JSON.stringify(rec)
     });
-  }).catch(function(){});
+  })
+  .then(function(res){
+    if(!res || !(res.ok || res.status===200)) throw new Error('HTTP '+(res&&res.status));
+    return true;
+  });
 }
 
 
@@ -567,10 +576,30 @@ function saveCard(id){
   arr[idx].notes       = document.getElementById('an-'+id).value;
   // materials saved live via onchange, already in arr[idx].materials
 
-  saveApps(arr); pushApps(arr);
-  var fl=document.getElementById('afl-'+id); fl.style.display='inline'; setTimeout(function(){fl.style.display='none';},2000);
+  saveApps(arr);
+  syncFlash(id, pushApps(arr));      /* v3.25: honest confirmation — see below */
   updateSummary();
   updateCardClass(id,arr[idx].status);
+}
+
+/* v3.25: report what ACTUALLY happened to the cloud write, instead of always
+   flashing "Saved ✓". A silent failure here is what made the Pipeline appear
+   broken — this page looked saved while the cloud (which Pipeline reads) wasn't. */
+function syncFlash(id, promise){
+  var fl=document.getElementById('afl-'+id);
+  if(!fl) return;
+  function show(msg,color,hold){
+    fl.textContent=msg; fl.style.color=color; fl.style.display='inline';
+    if(hold) return;                                  /* leave errors on screen */
+    setTimeout(function(){ fl.style.display='none'; },2500);
+  }
+  show('Saving…','var(--t3)',true);
+  promise.then(function(){ show('Saved ✓','var(--teal-t)'); })
+         .catch(function(err){
+           var viewOnly = err && /view-only/.test(err.message||'');
+           show(viewOnly ? '⚠ Not saved — view-only device'
+                         : '⚠ Not synced — check connection', 'var(--red-t)', true);
+         });
 }
 
 function updateCardClass(id,status){
@@ -589,7 +618,8 @@ function saveMaterial(id,matIdx,checked){
   if(!app) return;
   if(!app.materials) app.materials={};
   app.materials[matIdx]=checked;
-  saveApps(arr); pushApps(arr);
+  saveApps(arr);
+  syncFlash(id, pushApps(arr));       /* checklist ticks report sync status too */
   updateProgress(id,app.materials);
 }
 
@@ -615,7 +645,7 @@ function deleteCard(id){
       if(!result) return; // cancelled — leave application in place
       logArchive(result);
       var next=loadApps().filter(function(a){return a.id!==id;});
-      saveApps(next); pushApps(next); render();
+      saveApps(next); pushApps(next).catch(function(){}); render();
     }
   );
 }
@@ -910,7 +940,7 @@ function renderCards(){
       var pSel=document.createElement('select'); pSel.className='app-select'; pSel.style.cssText='width:auto;font-size:12.5px;padding:3px 8px';
       var p0=document.createElement('option'); p0.value=''; p0.textContent='— none —'; pSel.appendChild(p0);
       profs.forEach(function(pr){ var o=document.createElement('option'); o.value=pr.id; o.textContent=String(pr.professor||pr.programTitle||'professor').slice(0,40); if(app.professorId===pr.id)o.selected=true; pSel.appendChild(o); });
-      pSel.onchange=function(){ var arr=loadApps(); var a=arr.find(function(x){return x.id===app.id;}); if(a){ a.professorId=pSel.value; saveApps(arr); pushApps(arr); render(); } };
+      pSel.onchange=function(){ var arr=loadApps(); var a=arr.find(function(x){return x.id===app.id;}); if(a){ a.professorId=pSel.value; saveApps(arr); pushApps(arr).catch(function(){}); render(); } };
       pRow.appendChild(pSel);
       if(app.professorId){ var pl=document.createElement('a'); pl.href='erin_proftracker.html#pcard-'+app.professorId; pl.textContent='open ↗'; pl.style.cssText='font-size:12.5px;color:var(--blue);text-decoration:none'; pRow.appendChild(pl); }
       hub.appendChild(pRow);
@@ -984,7 +1014,7 @@ function escHtml(s){ return String(s||'').replace(/[&<>"']/g,function(c){return 
 if(isPrimary()){
   var _apps=loadApps();
   render();
-  if(_apps.length>0){ pushApps(_apps); } // heartbeat: keep JSONbin current
+  if(_apps.length>0){ pushApps(_apps).catch(function(){}); } // heartbeat: keep JSONbin current
   else { pullApps(); }                    // recovery: localStorage empty, restore from cloud
 } else {
   pullApps(); // secondary: always read from cloud
