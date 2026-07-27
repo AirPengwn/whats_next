@@ -5,7 +5,7 @@
    ═══════════════════════════════════════════════════════════ */
 
 /* build-stamped version + build (build.js patches these lines each release) */
-var WN_VERSION = '3.57';
+var WN_VERSION = '3.58';
 var WN_BUILD   = '20260727-636-a51d60ed';
 
 /* ── 1. Sync hook ──────────────────────────────────────────
@@ -85,6 +85,73 @@ window.wnUrl = function(it){
       return Promise.resolve({ ok:true, status:200, json:function(){ return Promise.resolve({record:{},localBlocked:true}); } });
     }
     return _f.apply(this, arguments);
+  };
+})();
+
+/* ── 1c. VIEW-ONLY READ CACHE (v3.58) ────────────────────────────────────
+   This is about RUNWAY, not speed. The JSONbin account has a finite,
+   NON-RENEWING credit (10,000 requests; ~6,079 left on 2026-07-27) and every
+   single page load spends one re-reading the identical cloud record. A
+   ten-page browsing session burns ten requests for the same bytes. Cached,
+   that session costs one.
+
+   ⚠️ DELIBERATELY RESTRICTED TO VIEW-ONLY DEVICES — that restriction IS the
+   design, not a limitation. Every write in this site is GET-merge-PUT. Serving
+   a STALE read into that merge would let the following PUT silently clobber
+   whatever another device wrote in between — a lost update, which is exactly
+   the failure class that has already destroyed data in this project twice.
+   The safe move is not "pick a short TTL and hope the race doesn't land"; it
+   is to cache only where NO write path exists. A non-primary device already
+   has every write rejected by isPrimary(), so there is nothing a stale read
+   can corrupt. Safe by construction. Erin's primary laptop always reads fresh.
+
+   sessionStorage, not localStorage, on purpose: the cache dies with the tab,
+   so it can never serve stale data into a future session. */
+(function(){
+  var TTL = 90*1000;                       /* long enough to cover a browse session */
+  var CK  = 'erin_cloud_cache';
+  window.WN_CACHE = {hits:0, misses:0, active:false};
+  function primary(){
+    /* fail SAFE: if localStorage is unreadable, assume primary -> no caching */
+    try{ return localStorage.getItem('erin_primary_device')==='1'; }catch(e){ return true; }
+  }
+  function readMap(){ try{ return JSON.parse(sessionStorage.getItem(CK)||'{}')||{}; }catch(e){ return {}; } }
+  function writeMap(m){ try{ sessionStorage.setItem(CK, JSON.stringify(m)); }catch(e){} }
+  var _f = window.fetch;
+  window.fetch = function(input, init){
+    var url = (input && input.url) || input || '';
+    var method = ((init&&init.method)||(input&&input.method)||'GET').toUpperCase();
+    var isBin = typeof url==='string' && url.indexOf('api.jsonbin.io')>-1;
+
+    /* ANY write drops the whole cache immediately — never mask a real change */
+    if(isBin && method!=='GET'){
+      try{ sessionStorage.removeItem(CK); }catch(e){}
+      return _f.apply(this, arguments);
+    }
+    var cacheable = isBin && method==='GET' && url.indexOf('/latest')>-1 && !primary();
+    window.WN_CACHE.active = !primary();
+    if(!cacheable) return _f.apply(this, arguments);
+
+    var m = readMap(), e = m[url];
+    if(e && (Date.now()-e.at) < TTL){
+      window.WN_CACHE.hits++;
+      return Promise.resolve({
+        ok:true, status:200, fromCache:true,
+        json:function(){ return Promise.resolve(JSON.parse(e.body)); },
+        text:function(){ return Promise.resolve(e.body); }
+      });
+    }
+    return _f.apply(this, arguments).then(function(r){
+      window.WN_CACHE.misses++;
+      try{
+        if(r && (r.ok||r.status===200) && typeof r.clone==='function'){
+          r.clone().text().then(function(t){
+            var mm=readMap(); mm[url]={at:Date.now(), body:t}; writeMap(mm);
+          }).catch(function(){});
+        }
+      }catch(err){}
+      return r;
+    });
   };
 })();
 
