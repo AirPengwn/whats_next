@@ -4154,7 +4154,9 @@
       "kind": "s-new",
       "label": "✨ New — May 18, 2026"
     },
-    "id": "item-087"
+    "id": "item-087",
+    "location": "Nationwide — positions posted individually on USAJOBS",
+    "benefits": "One-year paid developmental appointment; mentor, Individual Development Plan and 40 hrs/yr formal training; possible non-competitive conversion to a permanent or term role"
   },
   {
     "title": "Washington Conservation Corps — AmeriCorps Member (summer term)",
@@ -4227,7 +4229,8 @@
       "kind": "s-new",
       "label": "✨ New — May 18, 2026"
     },
-    "id": "item-089"
+    "id": "item-089",
+    "location": "Brockport, New York"
   },
   {
     "title": "UMass Amherst — MS/PhD Environmental Conservation (Water, Wetlands & Watersheds)",
@@ -4587,7 +4590,9 @@
       "kind": "s-new",
       "label": "✨ New — June 2, 2026"
     },
-    "id": "item-099"
+    "id": "item-099",
+    "location": "Mount Pleasant, Michigan",
+    "benefits": "Stipend plus tuition waiver, travel accident insurance, library privileges and Michigan-resident tuition classification — amounts set per department/appointment and not published"
   },
   {
     "title": "Iowa State University — Funded PhD, Soil Biogeochemistry & Ecosystem Ecology (Huang Lab)",
@@ -4687,10 +4692,12 @@
       }
     ],
     "status": {
-      "kind": "s-new",
-      "label": "✨ New — June 8, 2026"
+      "kind": "s-expired",
+      "label": "Expired — July 27, 2026"
     },
-    "id": "item-102"
+    "id": "item-102",
+    "location": "West Union, Iowa",
+    "expired": true
   },
   {
     "title": "Environmental Restoration Field Technician — wetland & habitat restoration crew",
@@ -5073,7 +5080,7 @@
       "West Coast"
     ],
     "metaLine": "ORISE fellowship · EPA Corvallis · rolling · post-MS preferred",
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "rolling",
     "region": "West Coast / Pacific",
     "links": [
@@ -5083,10 +5090,14 @@
       }
     ],
     "status": {
-      "kind": "s-new",
-      "label": "✨ New — June 8, 2026"
+      "kind": "s-expired",
+      "label": "Expired — July 27, 2026"
     },
-    "id": "item-113"
+    "id": "item-113",
+    "location": "Corvallis, Oregon",
+    "benefits": "Health insurance obtainable through ORISE (required); free 5-year National Postdoctoral Association membership. Fellows are not employees, so no employment benefits.",
+    "stipend": "Monthly stipend commensurate with education and experience — no dollar figure published",
+    "expired": true
   },
   {
     "title": "Watershed Stewards Program (WSP) Corpsmember — Year 33 Cohort",
@@ -5396,7 +5407,7 @@
       "Prairie Pothole"
     ],
     "metaLine": "SCA IP · USFWS Prairie Pothole · 4 positions · rolling",
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "rolling",
     "region": "Midwest & Great Plains",
     "links": [
@@ -5406,10 +5417,14 @@
       }
     ],
     "status": {
-      "kind": "s-new",
-      "label": "✨ New — June 15, 2026"
+      "kind": "s-expired",
+      "label": "Expired — July 27, 2026"
     },
-    "id": "item-122"
+    "id": "item-122",
+    "location": "Woodworth, North Dakota — Chase Lake Wetland Management District",
+    "stipend": "Weekly subsistence living allowance — SCA does not publish the amount (varies by position)",
+    "benefits": "Housing generally provided at no cost; travel allowance $650 (no car) / $1,100 (car required) / $1,115 (AK, HI & territories); basic health insurance for terms of 42+ weeks; Segal AmeriCorps Education Award on completion",
+    "expired": true
   },
   {
     "title": "Coastal Processes Specialist — Cape Cod estuaries & barrier beaches",
@@ -17525,5 +17540,333 @@
     "stipend": "",
     "benefits": "Confirm benefits with the firm",
     "id": "item-393"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Fall 2027 Forest Ecology PhD Student Position",
+    "org": "University of Texas at El Paso",
+    "deadline": "January 31, 2027",
+    "start": "See posting",
+    "body": "Funded PhD position in forest/ecosystem ecology at UTEP starting Fall 2027. Listed education requirement is a Bachelor's degree, so a BS holder can enter directly. Chihuahuan Desert / Franklin Mountains setting with field-based ecological research.",
+    "desc": "Most funded PhD slots want a completed master's first; this one names a bachelor's as the requirement, which makes it one of the few doctoral doors genuinely open to you right now. The deadline is far out — January 2027 for a Fall 2027 start — so it is not urgent, but it is worth an early email to the lab because direct-entry PhD positions fill through conversation long before the formal deadline. The Franklin Mountains setting would move you into desert ecosystem ecology, which is a real shift from Appalachian streams, so treat this as a genuine broadening rather than a continuation.",
+    "badge": "Good fit",
+    "pills": [
+      "Funded PhD open to a BS — no MS required first",
+      "$26,000–$30,000/yr",
+      "Chihuahuan Desert field ecology",
+      "Long runway — Jan 2027 deadline, Fall 2027 start",
+      "Ecosystem ecology, adjacent to your training"
+    ],
+    "metaLine": "Deadline January 31, 2027 · funded PhD · BS entry · El Paso, TX",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2027-01-31",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117804",
+        "label": "🔗 Fall 2027 Forest Ecology PhD Student Position — University of Texas at El Paso"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117804",
+    "location": "El Paso, TX",
+    "pay": "$26,000–$30,000 per year",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-394"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "M.S. Graduate Research Assistant: Machine Learning and Bioacoustics for Avian Migration",
+    "org": "University of Texas Rio Grande Valley",
+    "deadline": "July 31, 2026",
+    "start": "See posting",
+    "body": "Master's research assistantship applying machine learning and bioacoustic monitoring to avian migration in the Lower Rio Grande Valley. Bachelor's-level entry. Stipend listed as commensurate rather than published.",
+    "desc": "Bioacoustic monitoring and camera-trap monitoring are the same job wearing different clothes: deploy autonomous sensors, haul back enormous files, and build a pipeline that turns raw recordings into species detections. You have already done that with Wildlife Insights, which is exactly the experience this project needs and most applicants lack. The catch is that the stipend is listed as commensurate rather than published, so you would be negotiating blind — ask for the number in your first email. The deadline is July 31, so this needs a decision within days.",
+    "badge": "Good fit",
+    "pills": [
+      "Machine learning + bioacoustic monitoring",
+      "Your Wildlife Insights work is the same workflow",
+      "Lower Rio Grande Valley fieldwork",
+      "⚠️ Stipend listed as commensurate — not published",
+      "⏰ Deadline July 31 — very soon"
+    ],
+    "metaLine": "Deadline July 31, 2026 · MS assistantship · Jul 31 deadline · Brownsville, TX",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=116480",
+        "label": "🔗 M.S. Graduate Research Assistant: Machine Learning and Bioac — University of Texas Rio Grande Valley"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=116480",
+    "location": "Brownsville, TX",
+    "pay": "Not published — confirm with the employer",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-395"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "PhD/MS Student: Impacts of Ranch Management on Insect Pollinators",
+    "org": "University of North Texas",
+    "deadline": "September 30, 2026",
+    "start": "See posting",
+    "body": "Funded graduate position (MS or PhD) examining how rangeland management practices affect insect pollinator communities in Texas. Bachelor's degree accepted for the MS track.",
+    "desc": "Insects are not your background, but read past the taxon: this is a landscape-scale study of how management practices change a biological community, sampled in the field and analysed spatially. That is the same structure as your suitability modelling work, and the field-sampling and GIS half of the job is squarely yours. Pollinator ecology is also a well-funded area right now, which is why the stipend is solid. Worth an honest email that leads with your sampling and spatial skills rather than pretending to entomology experience.",
+    "badge": "Good fit",
+    "pills": [
+      "Funded MS track accepts a BS",
+      "$26,400–$28,320/yr",
+      "Rangeland management effects on pollinators",
+      "Heavy field sampling + landscape GIS",
+      "September 30 deadline — comfortable runway"
+    ],
+    "metaLine": "Deadline September 30, 2026 · funded MS or PhD · $26,400–$28,320 · Denton, TX",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-30",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117752",
+        "label": "🔗 PhD/MS Student: Impacts of Ranch Management on Insect Pollin — University of North Texas"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117752",
+    "location": "Denton, TX",
+    "pay": "$26,400–$28,320 per year",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-396"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Visitor Services Member — Desert National Wildlife Refuge",
+    "org": "American Conservation Experience (with USFWS)",
+    "deadline": "Rolling — open until filled",
+    "start": "See posting",
+    "body": "45-week position (September 2026 to June 2027) supporting visitor services and environmental education at the largest refuge in the lower 48. Carries Public Land Corps non-competitive federal hiring eligibility.",
+    "desc": "Be clear-eyed about this one: it is a visitor-services and education role, not a biology position, so the day-to-day work is further from your training than the refuge technician placements. What makes it worth listing anyway is the Public Land Corps hiring authority attached to it — completing the term gives you non-competitive eligibility for federal jobs, which is the single hardest door to open in this field. If the biology-side placements do not come through, a year at Desert NWR buys you that eligibility plus a flagship refuge on your résumé.",
+    "badge": "Good fit",
+    "pills": [
+      "⭐ Public Land Corps — non-competitive federal hiring eligibility",
+      "$700/week living allowance",
+      "45-week term, Sept 2026 – June 2027",
+      "Largest refuge in the lower 48",
+      "⚠️ Visitor services, not biology — weaker topical fit"
+    ],
+    "metaLine": "Rolling · AmeriCorps · $700/wk · PLC eligibility · Las Vegas, NV",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://usaconservation.applicantpool.com/jobs/1310607.html",
+        "label": "🔗 Visitor Services Member — Desert National Wildlife Refuge — American Conservation Experience (with U"
+      }
+    ],
+    "url": "https://usaconservation.applicantpool.com/jobs/1310607.html",
+    "location": "Las Vegas, NV",
+    "pay": "",
+    "stipend": "$700 per week living allowance",
+    "benefits": "AmeriCorps Segal Education Award on completion of the term",
+    "id": "item-397"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Visitor Services Member — Stillwater National Wildlife Refuge",
+    "org": "American Conservation Experience (with USFWS)",
+    "deadline": "Rolling — open until filled",
+    "start": "See posting",
+    "body": "45-week position (September 2026 to June 2027) at an 81,322-acre refuge of salt-desert scrub and fresh-to-saline marsh, an Important Bird Area and hemispheric shorebird site.",
+    "desc": "Same structure as the Desert NWR placement — visitor services rather than biology — but Stillwater is a more interesting landscape for you. It is a terminal-basin marsh in the Great Basin, where water flows in and never flows out, so salinity concentrates and the wetland chemistry behaves nothing like an Appalachian floodplain. If you want to be able to say you have worked wetlands across genuinely different hydrologic regimes, this is a rare one to add, and the Public Land Corps federal eligibility comes with it.",
+    "badge": "Good fit",
+    "pills": [
+      "⭐ Public Land Corps — non-competitive federal hiring eligibility",
+      "$700/week living allowance",
+      "Fresh-to-saline marsh — unusual wetland type",
+      "Important Bird Area + hemispheric shorebird site",
+      "⚠️ Visitor services role, not a biology posting"
+    ],
+    "metaLine": "Rolling · AmeriCorps · $700/wk · desert wetlands · Fallon, NV",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://usaconservation.applicantpool.com/jobs/1309055.html",
+        "label": "🔗 Visitor Services Member — Stillwater National Wildlife Refug — American Conservation Experience (with U"
+      }
+    ],
+    "url": "https://usaconservation.applicantpool.com/jobs/1309055.html",
+    "location": "Fallon, NV",
+    "pay": "",
+    "stipend": "$700 per week living allowance",
+    "benefits": "AmeriCorps Segal Education Award on completion of the term",
+    "id": "item-398"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Wildlife Biology & Management Individual Placement — Salt Plains National Wildlife Refuge",
+    "org": "Conservation Corps New Mexico (Conservation Legacy)",
+    "deadline": "Contact first — no posted deadline",
+    "start": "See posting",
+    "body": "Individual Placement running August 3 to December 4, 2026 at Salt Plains NWR, a saline-flat and wetland refuge in northwestern Oklahoma. Stipend is not published on the listing page; AmeriCorps education award offered on completion.",
+    "desc": "Individual Placements matter more than crew slots for where you are headed: you are embedded with refuge staff doing the actual technical work rather than rotating through projects with a crew. This one carries wildlife biology in the title, on a refuge whose defining feature is its salt flats and wetlands, so it reads as a wildlife technician job that happens to be funded through AmeriCorps. The stipend is not published anywhere on the listing, which is the one thing to pin down before you commit — ask directly when you contact them.",
+    "badge": "Strong fit",
+    "pills": [
+      "Wildlife biology in the job title, not just the duties",
+      "Salt Plains NWR — saline flats and wetlands",
+      "Individual Placement, not crew work",
+      "Aug 3 – Dec 4, 2026 term",
+      "⚠️ Stipend not published — ask before committing"
+    ],
+    "metaLine": "Contact first · AmeriCorps IP · saline wetland refuge · Jet, OK",
+    "cycle": "current",
+    "deadline_kind": "contact-first",
+    "deadline_date": "",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://corpsnm.org/ip-positions",
+        "label": "🔗 Wildlife Biology & Management Individual Placement — Salt Pl — Conservation Corps New Mexico (Conservat"
+      }
+    ],
+    "url": "https://corpsnm.org/ip-positions",
+    "location": "Jet, OK",
+    "pay": "",
+    "stipend": "Not published — confirm with the program",
+    "benefits": "AmeriCorps Segal Education Award on completion of the term",
+    "id": "item-399"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Fall Field Crew Member",
+    "org": "Conservation Corps New Mexico (Conservation Legacy)",
+    "deadline": "July 31, 2026",
+    "start": "See posting",
+    "body": "Fall field crew term running September 7 to December 11, 2026 out of Las Cruces, doing conservation and restoration projects on Chihuahuan Desert public lands. Stipend not published on the positions table.",
+    "desc": "The value here is timing rather than the work itself. A crew term that starts in September and ends in December lands you back in the job market exactly when the spring 2027 assistantship and seasonal-technician cycle opens, so it fills the autumn gap without committing you to a full year. Chihuahuan Desert restoration also adds an arid-lands line to a résumé that currently reads as entirely eastern and wet. Confirm the stipend before accepting — the positions table does not publish it.",
+    "badge": "Good fit",
+    "pills": [
+      "Short fall term — Sept 7 to Dec 11, 2026",
+      "Chihuahuan Desert public lands",
+      "Bridges you to the spring 2027 application cycle",
+      "AmeriCorps education award on completion",
+      "⚠️ Stipend not published on the positions table"
+    ],
+    "metaLine": "Deadline July 31, 2026 · fall crew term · Sept–Dec 2026 · Las Cruces, NM",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://corpsnm.org/crew-positions",
+        "label": "🔗 Fall Field Crew Member — Conservation Corps New Mexico (Conservat"
+      }
+    ],
+    "url": "https://corpsnm.org/crew-positions",
+    "location": "Las Cruces, NM",
+    "pay": "",
+    "stipend": "Not published — confirm with the program",
+    "benefits": "AmeriCorps Segal Education Award on completion of the term",
+    "id": "item-400"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Urban Forestry Crew Member",
+    "org": "Arizona Conservation Corps (Conservation Legacy)",
+    "deadline": "Contact first — no posted deadline",
+    "start": "See posting",
+    "body": "Term running October 12, 2026 to January 22, 2027 growing and managing urban tree canopy in the Phoenix metro area. Non-camping, Monday–Friday program. Stipend not published.",
+    "desc": "This is the weakest topical fit of the Southwest corps options and it is listed for honesty rather than enthusiasm — urban tree canopy work does not build on your wetland, water-quality or GIS training in any direct way. What it does offer is a Monday-to-Friday, non-camping schedule in a major metro, which makes it liveable in a way crew terms often are not, and a foothold in Arizona if you want to be positioned there for the spring cycle. Take it as a fallback, not a target.",
+    "badge": "Reach",
+    "pills": [
+      "Phoenix metro urban tree canopy",
+      "Non-camping, Monday–Friday schedule",
+      "Oct 12, 2026 – Jan 22, 2027",
+      "⚠️ Urban forestry is off your main track",
+      "⚠️ Stipend not published"
+    ],
+    "metaLine": "Contact first · urban forestry crew · Oct 2026 – Jan 2027 · Phoenix Metro Area, AZ",
+    "cycle": "current",
+    "deadline_kind": "contact-first",
+    "deadline_date": "",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://azcorps.org/crew-positions",
+        "label": "🔗 Urban Forestry Crew Member — Arizona Conservation Corps (Conservation"
+      }
+    ],
+    "url": "https://azcorps.org/crew-positions",
+    "location": "Phoenix Metro Area, AZ",
+    "pay": "",
+    "stipend": "Not published — confirm with the program",
+    "benefits": "AmeriCorps Segal Education Award on completion of the term",
+    "id": "item-401"
   }
 ]
