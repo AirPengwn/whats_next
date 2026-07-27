@@ -5,7 +5,7 @@
    ═══════════════════════════════════════════════════════════ */
 
 /* build-stamped version + build (build.js patches these lines each release) */
-var WN_VERSION = '3.39';
+var WN_VERSION = '3.40';
 var WN_BUILD   = '20260727-480-cf5deb7c';
 
 /* ── 1. Sync hook ──────────────────────────────────────────
@@ -30,6 +30,35 @@ var WN_BUILD   = '20260727-480-cf5deb7c';
       }
     } catch(e) {}
     return p;
+  };
+})();
+
+/* ── 1a. LOCALHOST WRITE LOCK (v3.26) ─────────────────────────────────────
+   HARD RULE: a page served from localhost / 127.0.0.1 / file:// may READ the
+   cloud but may NEVER write to it. Preview and testing happen on localhost;
+   Erin's real data must be unreachable from there, full stop.
+
+   Why this exists: on 2026-07-27 a preview test set erin_primary_device='1'
+   and seeded a fake application. The fetch stub covered that page, but the
+   NEXT page navigation loaded fresh JS without the stub while the flag and
+   fake record were still in localStorage — the init heartbeat then pushed
+   1 test record over Erin's 28 real ones. No stub can protect against this,
+   because the danger is on page LOAD, before any test code runs. Blocking by
+   ORIGIN is the only fix that can't be forgotten or out-sequenced. */
+(function(){
+  var h = location.hostname;
+  var isLocal = h==='localhost' || h==='127.0.0.1' || h==='' || location.protocol==='file:';
+  window.WN_LOCAL_READONLY = isLocal;
+  if(!isLocal) return;                       /* live site: untouched */
+  var _f = window.fetch;
+  window.fetch = function(input, init){
+    var url = (input && input.url) || input || '';
+    var method = ((init && init.method) || (input && input.method) || 'GET').toUpperCase();
+    if(typeof url === 'string' && url.indexOf('api.jsonbin.io') > -1 && method !== 'GET'){
+      try{ console.warn('[LOCAL WRITE LOCK] blocked '+method+' to the live cloud from '+(h||'file://')+' — preview cannot modify real data'); }catch(e){}
+      return Promise.resolve({ ok:true, status:200, json:function(){ return Promise.resolve({record:{},localBlocked:true}); } });
+    }
+    return _f.apply(this, arguments);
   };
 })();
 
