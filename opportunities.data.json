@@ -19467,5 +19467,292 @@
     "stipend": "up to $20,400 per year",
     "benefits": "AmeriCorps Segal Education Award on completion of the term",
     "id": "item-441"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "USDA Forest Service Geospatial Fellow — Interactive Application and Content Publishing",
+    "org": "USDA Forest Service Northern Research Station via ORISE / Oak Ridge Associated Universities",
+    "deadline": "July 31, 2026",
+    "start": "See posting",
+    "body": "An ORISE fellowship with the Forest Service Northern Research Station building and publishing interactive geospatial web applications and content. Explicitly remote, with the participant working from home and occasional travel to a Forest Service office. Bachelor's degree accepted, no prior professional experience required; applications are reviewed on a rolling basis and the posting can close early.",
+    "desc": "A federal geospatial fellowship you can do from anywhere is a rare thing, and this one is squarely GIS work — building and publishing interactive spatial applications for the Forest Service Northern Research Station. It accepts a bachelor's with no experience. Two warnings: the stipend is not published anywhere on the listing, so you would need to ask; and ORISE postings review on a rolling basis and have closed early on volume before. The deadline is July 31, so this is a this-week decision.",
+    "badge": "Top recommendation",
+    "pills": [
+      "⭐ Fully remote — location is irrelevant",
+      "Builds interactive geospatial web applications",
+      "Your GIS and suitability-modelling skills, directly",
+      "BS accepted, NO prior experience",
+      "⚠️ Stipend not published · ⏰ closes July 31, can close EARLY"
+    ],
+    "metaLine": "Deadline July 31, 2026 · ORISE · FULLY REMOTE · ⏰ Jul 31 · Fully remote (occasional site visits within Forest Service Regions 8 and 9)",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "National / Remote / Multiple",
+    "links": [
+      {
+        "href": "https://www.zintellect.com/Opportunity/Details/USDA-FS-NRS-2026-0222",
+        "label": "🔗 USDA Forest Service Geospatial Fellow — Interactive Applicat — USDA Forest Service Northern Research St"
+      }
+    ],
+    "url": "https://www.zintellect.com/Opportunity/Details/USDA-FS-NRS-2026-0222",
+    "location": "Fully remote (occasional site visits within Forest Service Regions 8 and 9)",
+    "pay": "Not published — confirm with the employer",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-442"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "EPA Airborne PFAS Toxicology Fellowship",
+    "org": "U.S. EPA Office of Air and Radiation via ORISE / Oak Ridge Associated Universities",
+    "deadline": "July 31, 2026",
+    "start": "See posting",
+    "body": "ORISE research fellowship in EPA's Impacts and Ambient Standards Division supporting exposure and risk assessment for hazardous air pollutants and PFAS, feeding into National Ambient Air Quality Standards review. Bachelor's degree accepted with no experience required; anticipated start on or after September 1, 2026. Applications reviewed on a rolling basis and the posting may close before the stated deadline.",
+    "desc": "PFAS and hazardous air pollutants are a different medium from river sediment, but the analytical question is the one your capstone asked: how much of a contaminant is present, who is exposed, and what does that mean for a standard. This feeds directly into EPA's air quality standards review, which is policy-facing science of a kind that is hard to get near this early. Durham is also close to home if that matters. The stipend is unpublished and it closes July 31.",
+    "badge": "Strong fit",
+    "pills": [
+      "Contaminant exposure and risk assessment",
+      "Feeds into National Ambient Air Quality Standards",
+      "Choice of Durham NC or Washington DC",
+      "BS accepted, no experience required",
+      "⚠️ Stipend not published · ⏰ closes July 31"
+    ],
+    "metaLine": "Deadline July 31, 2026 · ORISE · contaminant risk assessment · ⏰ Jul 31 · Durham, North Carolina or Washington, DC",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "National / Remote / Multiple",
+    "links": [
+      {
+        "href": "https://www.zintellect.com/Opportunity/Details/EPA-OAR-2026-0008",
+        "label": "🔗 EPA Airborne PFAS Toxicology Fellowship — U.S. EPA Office of Air and Radiation via"
+      }
+    ],
+    "url": "https://www.zintellect.com/Opportunity/Details/EPA-OAR-2026-0008",
+    "location": "Durham, North Carolina or Washington, DC",
+    "pay": "Not published — confirm with the employer",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-443"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Data Management Member — USFWS Conservation Science and Innovation Program",
+    "org": "American Conservation Experience (ACE) in partnership with U.S. Fish and Wildlife Service",
+    "deadline": "Rolling — open until filled",
+    "start": "See posting",
+    "body": "A 23-week (about 920-hour) remote individual placement supporting the USFWS Landscape Recovery Tool: reviewing State Wildlife Action Plans, entering and QA/QC-ing Species of Greatest Conservation Need data, crosswalking state habitats to regional and national classifications, and helping edit interactive web-application interfaces. Start August or September 2026, flexible. Carries Public Land Corps non-competitive federal hiring authority after 640 hours of service.",
+    "desc": "Remote, paid at $750 a week, and it ends with non-competitive federal hiring eligibility — that combination is genuinely unusual. The work is conservation data management for the USFWS Landscape Recovery Tool: reviewing State Wildlife Action Plans, quality-controlling species data, and crosswalking state habitat classifications to national ones. That last task is exactly the kind of thinking your GIS and habitat coursework trained you for. Note this is a different posting from the other ACE data-management placement already on your list, so you can apply to both.",
+    "badge": "Strong fit",
+    "pills": [
+      "⭐ Public Land Corps federal hiring eligibility after 640 hrs",
+      "$750/week living allowance",
+      "Fully remote — work from anywhere in the US",
+      "State Wildlife Action Plans and habitat crosswalks",
+      "23-week term · rolling start Aug–Sept 2026"
+    ],
+    "metaLine": "Rolling · ACE · $750/week · FULLY REMOTE · PLC eligibility · Fully remote (work from home anywhere in the US)",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "National / Remote / Multiple",
+    "links": [
+      {
+        "href": "https://usaconservation.applicantpool.com/jobs/1314306.html",
+        "label": "🔗 Data Management Member — USFWS Conservation Science and Inno — American Conservation Experience (ACE) i"
+      }
+    ],
+    "url": "https://usaconservation.applicantpool.com/jobs/1314306.html",
+    "location": "Fully remote (work from home anywhere in the US)",
+    "pay": "",
+    "stipend": "$750 per week living allowance, plus up to $200 gear reimbursement",
+    "benefits": "AmeriCorps Segal Education Award on completion of the term",
+    "id": "item-444"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "AmeriCorps NCCC Traditional Corps Team Leader — 2027 Class",
+    "org": "AmeriCorps National Civilian Community Corps",
+    "deadline": "September 30, 2026",
+    "start": "See posting",
+    "body": "Team leaders serve an 11-month full-time term guiding a team of six to twelve 18-24 year olds through consecutive service projects nationwide, many of them conservation, disaster response and environmental stewardship projects. Applications for the 2027 class opened July 1, 2026 and close September 30, 2026. Benefits include a living allowance, housing, travel, training and an education award; a valid driver's license is required.",
+    "desc": "You have already done an NCCC term, which makes the team leader track the natural next move rather than a repeat. This is a paid supervisory credential: eleven months leading a team of six to twelve through consecutive service projects across the country, with housing and travel covered. Supervisory experience is what most of the \"two years experience\" job postings on your list are really asking for, so a leader term is one of the faster ways to become eligible for them. Applications for the 2027 class close September 30.",
+    "badge": "Strong fit",
+    "pills": [
+      "⭐ Team Leader — the step up from your NCCC term",
+      "Leads a team of 6–12 members nationwide",
+      "Living allowance, housing, travel and education award",
+      "Conservation and disaster response projects",
+      "2027 class · applications close September 30"
+    ],
+    "metaLine": "Deadline September 30, 2026 · NCCC Team Leader · 11 months · you are an alumna · National — based at an NCCC regional campus, deploying across the United States",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-30",
+    "region": "National / Remote / Multiple",
+    "links": [
+      {
+        "href": "https://www.americorps.gov/serve/americorps/americorps-nccc/traditional-corps",
+        "label": "🔗 AmeriCorps NCCC Traditional Corps Team Leader — 2027 Class — AmeriCorps National Civilian Community C"
+      }
+    ],
+    "url": "https://www.americorps.gov/serve/americorps/americorps-nccc/traditional-corps",
+    "location": "National — based at an NCCC regional campus, deploying across the United States",
+    "pay": "",
+    "stipend": "Not published — confirm with the program",
+    "benefits": "AmeriCorps Segal Education Award on completion of the term",
+    "id": "item-445"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "FEMA Corps — AmeriCorps NCCC Team Leader 2027",
+    "org": "AmeriCorps NCCC / FEMA",
+    "deadline": "October 19, 2026",
+    "start": "See posting",
+    "body": "An 11-month team-leader term leading a team of 8-10 young adults on FEMA disaster response and recovery projects, including data entry, mapping disaster evacuation routes and survivor assistance intake. Listed service areas include Environment alongside Disaster Relief and Community Outreach. Published benefits are a living allowance, stipend, education award, relocation allowance, housing, training and health coverage; references must be submitted by October 5.",
+    "desc": "This is the FEMA Corps leader track, distinct from the corps-member cohort already on your list. Two things make it a strong fit specifically for you: your capstone was about contamination after Hurricane Helene, so disaster recovery is a subject you have already studied from the environmental side; and the listed duties include mapping evacuation routes, which puts your GIS skills to work rather than leaving them idle. Watch the timing — references are due October 5, two weeks before the October 19 close.",
+    "badge": "Strong fit",
+    "pills": [
+      "⭐ Your Helene capstone and FEMA disaster work line up",
+      "Leads a team of 8–10 on disaster recovery projects",
+      "Mapping evacuation routes — uses your GIS skills",
+      "Living allowance, housing, health coverage, education award",
+      "⚠️ References due Oct 5 · applications close Oct 19"
+    ],
+    "metaLine": "Deadline October 19, 2026 · FEMA Corps Team Leader · disaster recovery + mapping · National — deploys to 4-6 projects across the country",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-10-19",
+    "region": "National / Remote / Multiple",
+    "links": [
+      {
+        "href": "https://my.americorps.gov/mp/listing/viewListing.do?fromSearch=true&id=129842",
+        "label": "🔗 FEMA Corps — AmeriCorps NCCC Team Leader 2027 — AmeriCorps NCCC / FEMA"
+      }
+    ],
+    "url": "https://my.americorps.gov/mp/listing/viewListing.do?fromSearch=true&id=129842",
+    "location": "National — deploys to 4-6 projects across the country",
+    "pay": "",
+    "stipend": "Not published — confirm with the program",
+    "benefits": "AmeriCorps Segal Education Award on completion of the term",
+    "id": "item-446"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "USFS Resource Assistants Program (RAP)",
+    "org": "USDA Forest Service via Stewards Individual Placements / Conservation Legacy",
+    "deadline": "Rolling — open until filled",
+    "start": "See posting",
+    "body": "RAP is a paid 8-month to 1-year Forest Service internship program for students and recent graduates working on forest management, watershed, recreation, research and restoration projects. After 960 hours of satisfactory service, resource assistants earn a two-year certificate of non-competitive hiring eligibility, plus access to a Direct Hire Authority for permanent Forest Service career positions. Positions are advertised on a rolling basis through partner corps job boards.",
+    "desc": "This is the single highest-leverage programme on your list for someone without a master's. Complete 960 hours as a Resource Assistant and you earn a two-year certificate of non-competitive hiring eligibility, plus access to a Direct Hire Authority for permanent Forest Service positions — meaning you can be hired into a federal career job without competing through the ordinary USAJOBS process. That mechanism, not the placement itself, is the prize. Positions are advertised on a rolling basis through partner corps boards rather than one central list, so check regularly.",
+    "badge": "Top recommendation",
+    "pills": [
+      "⭐ 960 hours earns a 2-year non-competitive federal certificate",
+      "Plus access to Forest Service Direct Hire Authority",
+      "Paid 8-month to 1-year Forest Service placements",
+      "Watershed, restoration and research projects",
+      "Rolling — posts through partner corps job boards"
+    ],
+    "metaLine": "Rolling · ⭐ 960 hours → non-competitive FEDERAL hiring eligibility · Nationwide — national forests and Forest Service research stations",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "National / Remote / Multiple",
+    "links": [
+      {
+        "href": "https://stewardslegacy.org/usfs-rap",
+        "label": "🔗 USFS Resource Assistants Program (RAP) — USDA Forest Service via Stewards Individ"
+      }
+    ],
+    "url": "https://stewardslegacy.org/usfs-rap",
+    "location": "Nationwide — national forests and Forest Service research stations",
+    "pay": "",
+    "stipend": "Not published — confirm with the program",
+    "benefits": "AmeriCorps Segal Education Award on completion of the term",
+    "id": "item-447"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Farm Bill Wildlife Biologist I, II or III — national rolling pipeline",
+    "org": "Pheasants Forever & Quail Forever (in partnership with USDA-NRCS)",
+    "deadline": "Rolling — open until filled",
+    "start": "See posting",
+    "body": "PF and QF continuously post Farm Bill Biologist positions co-located in USDA Service Centers nationwide; postings are explicitly tagged Entry Level. The work is conservation program promotion, contract coordination, conservation and habitat planning, site assessments and technical assistance to farmers and landowners on Farm Bill conservation practices. Published salary varies by individual state posting.",
+    "desc": "Save this as a standing source rather than a single job. Pheasants Forever and Quail Forever post Farm Bill Biologist roles continuously across many states, co-located in USDA Service Centers, and they tag them Entry Level — which in this field is rare enough to be worth building a search alert around. The work is conservation planning, site assessments and technical assistance to landowners, which maps cleanly onto your wetland delineation and GIS suitability skills. A specific Minnesota posting is already on your list; this card is the pipeline behind it.",
+    "badge": "Strong fit",
+    "pills": [
+      "⭐ The most reliably entry-level conservation pipeline in the country",
+      "Postings explicitly tagged Entry Level",
+      "Co-located in USDA Service Centers nationwide",
+      "Site assessments and conservation planning",
+      "⚠️ Salary varies by state posting — check each one"
+    ],
+    "metaLine": "Rolling · national pipeline · explicitly ENTRY LEVEL · rolling · Multiple states — new postings open continuously nationwide",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "National / Remote / Multiple",
+    "links": [
+      {
+        "href": "https://pheasantsforever.applytojob.com/apply",
+        "label": "🔗 Farm Bill Wildlife Biologist I, II or III — national rolling — Pheasants Forever & Quail Forever (in pa"
+      }
+    ],
+    "url": "https://pheasantsforever.applytojob.com/apply",
+    "location": "Multiple states — new postings open continuously nationwide",
+    "pay": "Not published — confirm with the employer",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-448"
   }
 ]
