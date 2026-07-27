@@ -75,7 +75,25 @@
     apps.forEach(function(a){ var st=a.status||'notstarted'; if(DONE[st]) return; var d=dayDiff(a.deadline); if(d==null||d>=0) return; var ago=-d; A.push({stale:1,ago:ago,weight:150,klass:'pr-urgent',emoji:ICO_ALERT,title:'Deadline passed '+ago+'d ago — '+(a.programTitle||'application').split('—')[0].trim().slice(0,40),detail:'Status still "'+(SL[st]||st)+'" · archive (Declined/Missed) or push to next cycle',cta:'Open application',link:'erin_applications.html#acard-'+a.id,full:full({app:a})}); });
     // R7b My List items with passed deadline, never in apps
     Object.values(ml).forEach(function(it){ if(it._done||ni[it.id]) return; var d=dayDiff(it.deadline); if(d==null||d>=0) return; if(apps.some(function(a){return (a.itemId&&a.itemId===it.id)||(a.programTitle===it.title&&a.org===it.org);})) return; var ago=-d; A.push({stale:1,ago:ago,weight:130,klass:'pr-urgent',emoji:ICO_ALERT,title:'Deadline passed '+ago+'d ago, never opened: '+((it.title||'').split('—')[0].trim()).slice(0,40),detail:(it.org||'')+(it.deadline?' · '+it.deadline:'')+' · remove with reason or move to next-cycle list',cta:'Open My List',link:'erin_mylist.html'+(it.id?'#card-'+it.id:''),full:full({item:it})}); });
+    /* v3.45 — SAFETY NET for the merged list. The separate "Deadlines" section used
+       to guarantee that an approaching deadline was always visible even if it lost
+       the top-5 race. Now that the two lists are one, that guarantee has to live
+       here: any saved item due within 30 days that produced no other action gets
+       its own entry, and `pin` marks anything due within 14 days so render() can
+       never cut it. */
+    Object.values(ml).forEach(function(it){
+      if(it._done||ni[it.id]) return;
+      var d=dayDiff(it.deadline); if(d==null||d<0||d>30) return;
+      if(apps.some(function(a){ return (a.itemId&&a.itemId===it.id)||(a.programTitle===it.title&&a.org===it.org); })) return;
+      A.push({weight:(d<=14?200-d:120-d),klass:(d<=14?'pr-urgent':'pr-high'),emoji:(d<=14?ICO_CLOCK:ICO_CAL),
+        title:((it.title||'').split('—')[0].trim()).slice(0,42)+' deadline in '+d+'d',
+        detail:(it.org||'')+' · not opened as an application yet',
+        cta:'Open My List',link:'erin_mylist.html'+(it.id?'#card-'+it.id:''),full:full({item:it})});
+    });
     var s={}; A=A.filter(function(a){ if(s[a.link]) return false; s[a.link]=true; return true; });
+    /* pin imminent deadlines so the display cap can never hide one */
+    A.forEach(function(a){ if(!a.stale && /deadline in (\d+)d/.test(a.title)){
+      var m=a.title.match(/deadline in (\d+)d/); if(m && +m[1]<=14) a.pin=1; } });
     A.sort(function(a,b){return b.weight-a.weight;});
     return A;
   }
@@ -124,11 +142,19 @@
     box.innerHTML=h;
   }
   function render(){
-    try{ renderDeadlines(); }catch(e){}
+    /* v3.45: the separate "Deadlines" section is GONE — it duplicated the action
+       list (upcoming deadlines already rank there) and, once passed deadlines moved
+       to the tidy-up line, it showed nothing but those same passed items. One list
+       of things to do + one quiet tidy-up line is the whole dashboard now. */
+    var dl=document.getElementById('pd-deadlines'); if(dl) dl.innerHTML='';
     /* v3.44: passed deadlines are housekeeping, not this week's work — they get a
        single summary line at the bottom instead of competing for the 5 slots. */
     var ALL_=buildActions(), sp=splitStale(ALL_), A=sp.live, stale=sp.stale;
-    var top=A.slice(0,5), c=document.getElementById('pd-actions'), ce=document.getElementById('pd-count');
+    /* v3.45: pinned items (deadline ≤14d) are ALWAYS shown, even past the cap —
+       they used to be guaranteed by the separate Deadlines section, now removed. */
+    var cap=6, pinned=A.filter(function(x){return x.pin;}), rest=A.filter(function(x){return !x.pin;});
+    var top=pinned.concat(rest).slice(0, Math.max(cap, pinned.length));
+    var c=document.getElementById('pd-actions'), ce=document.getElementById('pd-count');
     if(!c) return; c.innerHTML='';
     if(!top.length){
       if(ce) ce.textContent='';
