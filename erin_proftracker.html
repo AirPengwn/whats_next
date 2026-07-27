@@ -539,7 +539,7 @@ function render(){
   saved.forEach(function(it){
     var exists = arr.find(function(p){ return p.programTitle===it.title; });
     if(!exists){
-      arr.push({id:'p'+Math.random().toString(36).slice(2), programTitle:it.title, org:it.org||'', itemUrl:it.url||'', itemSrc:it.src||'', professor:'', email:'', dateEmailed:'', status:'none', notes:''});
+      arr.push({id:'p'+Math.random().toString(36).slice(2), programTitle:it.title, org:it.org||'', itemUrl:(window.wnUrl?window.wnUrl(it):it.url)||'', itemSrc:it.src||'', professor:'', email:'', dateEmailed:'', status:'none', notes:''});
     }
   });
 

@@ -5,7 +5,7 @@
    ═══════════════════════════════════════════════════════════ */
 
 /* build-stamped version + build (build.js patches these lines each release) */
-var WN_VERSION = '3.46';
+var WN_VERSION = '3.47';
 var WN_BUILD   = '20260727-480-5c1f109d';
 
 /* ── 1. Sync hook ──────────────────────────────────────────
@@ -32,6 +32,32 @@ var WN_BUILD   = '20260727-480-5c1f109d';
     return p;
   };
 })();
+
+/* ── 1b. BEST-LINK RESOLVER (v3.47) ───────────────────────────────────────
+   23% of entries (109 of 480 as of this release) carry no `url` field at all
+   — their link lives in `links[]` instead. Browse cards already fall back to
+   url -> url2 -> links[], but every DOWNSTREAM consumer (Applications, My
+   List's app seed, Professor tracker, Compare, the dashboard punch list, the
+   print packet) read `it.url` alone and silently rendered no link. An
+   application seeded from one of those 103 entries had no "Apply / View
+   posting" button even though a perfectly good URL was sitting in links[].
+
+   wnUrl(it) is the one place that decides "what is this item's link", so a
+   future entry shaped any of these ways is handled everywhere at once.       */
+window.wnUrl = function(it){
+  if(!it) return '';
+  function ok(h){ return typeof h==='string' && /^https?:/i.test(h) ? h : ''; }
+  var u = ok(it.url) || ok(it.url2);
+  if(u) return u;
+  var L = it.links;
+  if(Array.isArray(L)){
+    for(var i=0;i<L.length;i++){
+      var h = L[i] && ok(L[i].href);
+      if(h) return h;
+    }
+  }
+  return '';
+};
 
 /* ── 1a. LOCALHOST WRITE LOCK (v3.26) ─────────────────────────────────────
    HARD RULE: a page served from localhost / 127.0.0.1 / file:// may READ the

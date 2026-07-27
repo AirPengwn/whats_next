@@ -67,9 +67,11 @@ function payload(it){
     if(!known) throw 0;                                            /* orphan -> keep full */
     return slim;
   }catch(e){
-    return {title:it.title,org:it.org,type:it.type,cat:it.cat,src:it.src,
-      src_label:it.src_label,deadline:it.deadline||'',start:it.start||'',body:it.body||'',
-      desc:it.desc||'',badge:it.badge||'',pills:it.pills||[],id:it.id,url:it.url||'',_full:1};
+    /* v3.47: was a hardcoded field list that silently dropped url2/links/pay/
+       location — an orphan whose only link lived in links[] lost it forever,
+       and the orphan copy is by definition the ONLY copy. Copy the whole item,
+       matching what erin_mylist.html already does on its own orphan path. */
+    return Object.assign({}, it, {_full:1});
   }
 }
 function has(id){ return !!(window.ML&&ML.isSaved(id)); }

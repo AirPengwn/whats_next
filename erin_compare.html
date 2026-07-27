@@ -455,7 +455,8 @@ function renderComparison(){
   addRow('Links', items.map(function(it){
     var d=document.createElement('div');
     if(it.id){ var vc=document.createElement('a'); vc.href='erin_mylist.html#card-'+it.id; vc.style.cssText='font-size:12.5px;color:var(--blue);display:block;margin-bottom:3px;font-weight:600'; vc.textContent='View full card →'; d.appendChild(vc); }
-    if(it.url){ var a=document.createElement('a'); a.href=it.url; a.target='_blank'; a.style.cssText='font-size:12.5px;color:var(--teal-t);display:block;margin-bottom:3px'; a.textContent=(it.url_label||'Apply / view posting')+' ↗'; d.appendChild(a); }
+    var _u=(window.wnUrl?window.wnUrl(it):it.url)||'';
+    if(_u){ var a=document.createElement('a'); a.href=_u; a.target='_blank'; a.style.cssText='font-size:12.5px;color:var(--teal-t);display:block;margin-bottom:3px'; a.textContent=(it.url_label||'Apply / view posting')+' ↗'; d.appendChild(a); }
     if(it.url2){ var a2=document.createElement('a'); a2.href=it.url2; a2.target='_blank'; a2.style.cssText='font-size:12.5px;color:var(--t3);display:block'; a2.textContent=(it.url2_label||'More info')+' ↗'; d.appendChild(a2); }
     if(!d.childNodes.length){ d.className='empty'; d.textContent='—'; }
     return d;

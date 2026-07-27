@@ -720,7 +720,7 @@ function addToApps(it,btn){
   var id='a'+Date.now();
   apps.push({
     id:id, programTitle:it.title||'', org:it.org||'', deadline:it.deadline||'',
-    itemType:it.type||it.cat||'', itemId:it.id||'', itemUrl:it.url||'', itemSrc:it.src||'',
+    itemType:it.type||it.cat||'', itemId:it.id||'', itemUrl:(window.wnUrl?window.wnUrl(it):it.url)||'', itemSrc:it.src||'',
     status:'notstarted', portalUrl:'', portalLogin:'',
     submitDate:'', decisionDate:'', decisionReason:'', notes:'', materials:{}
   });

@@ -707,7 +707,7 @@ function render(){
         deadline:it.deadline||'',
         itemType:it.type||'',
         itemId:it.id||'',
-        itemUrl:it.url||'',
+        itemUrl:(window.wnUrl?window.wnUrl(it):it.url)||'',
         itemSrc:it.src||'',
         status:'notstarted',
         portalUrl:'',portalLogin:'',
@@ -806,8 +806,15 @@ function renderCards(){
       ol.style.cssText='font-size:12.5px;font-weight:500;color:var(--blue);text-decoration:none';
       oppLinks.appendChild(ol);
     }
-    if(app.itemUrl){
-      var pl=document.createElement('a'); pl.href=app.itemUrl; pl.target='_blank'; pl.rel='noopener';
+    /* v3.47: prefer the app's own saved itemUrl, then fall back to the source
+       opportunity's best link. Apps seeded before v3.47 stored itemUrl:'' for
+       any entry whose link lives in links[] rather than url — resolving at
+       RENDER time recovers the posting link for those already-saved apps
+       without rewriting a single cloud record. */
+    var _opp=oppById(app.itemId);
+    var _post=app.itemUrl || (window.wnUrl ? window.wnUrl(_opp) : '');
+    if(_post){
+      var pl=document.createElement('a'); pl.href=_post; pl.target='_blank'; pl.rel='noopener';
       pl.textContent='Apply / View posting ↗'; pl.title='Open the live application posting in a new tab';
       pl.style.cssText='font-size:12.5px;font-weight:500;color:var(--teal-t);text-decoration:none';
       oppLinks.appendChild(pl);
@@ -816,7 +823,6 @@ function renderCards(){
        leave the Tracker to remember what a role actually is. The app record only
        stores title/org/deadline — everything else (fit badge, pay, location,
        description, focus areas) lives on the opportunity, looked up from ALL. */
-    var _opp=oppById(app.itemId);
     if(_opp){
       var oppToggle=document.createElement('button'); oppToggle.type='button'; oppToggle.className='opp-toggle';
       oppToggle.textContent='▸ Opportunity details';

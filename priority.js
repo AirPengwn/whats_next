@@ -39,7 +39,8 @@
       if(app&&app.portalUrl)u.push({label:'Portal',href:app.portalUrl});
       if(app&&app.itemUrl)u.push({label:'Apply / posting',href:app.itemUrl});
       if(app&&app.itemSrc)u.push({label:'View on site',href:app.itemSrc});
-      if(it&&it.url)u.push({label:it.url_label||'Apply',href:it.url});
+      var _iu=(it&&window.wnUrl)?window.wnUrl(it):(it&&it.url);
+      if(_iu)u.push({label:(it&&it.url_label)||'Apply',href:_iu});
       if(it&&it.url2)u.push({label:it.url2_label||'More info',href:it.url2});
       if(it&&it.src)u.push({label:'Source page',href:it.src});
       return {parts:p,urls:u};
