@@ -67,12 +67,21 @@
     // R6 SOP not drafted within 45d
     apps.forEach(function(a){ var st=a.status||'notstarted'; if(DONE[st]) return; var d=dayDiff(a.deadline); if(d==null||d<0||d>45) return; if((a.materials||{})[0]) return; A.push({weight:70+(45-d),klass:'pr-high',emoji:ICO_FILE,title:'SOP not drafted for '+(a.programTitle||'application').split('—')[0].trim().slice(0,42),detail:'Deadline in '+d+'d · use the Outreach page SOP template',cta:'Open application',link:'erin_applications.html#acard-'+a.id,full:full({app:a})}); });
     // R7a passed-deadline apps still notstarted/gathering
-    apps.forEach(function(a){ var st=a.status||'notstarted'; if(DONE[st]) return; var d=dayDiff(a.deadline); if(d==null||d>=0) return; var ago=-d; A.push({weight:150,klass:'pr-urgent',emoji:ICO_ALERT,title:'Deadline passed '+ago+'d ago — '+(a.programTitle||'application').split('—')[0].trim().slice(0,40),detail:'Status still "'+(SL[st]||st)+'" · archive (Declined/Missed) or push to next cycle',cta:'Open application',link:'erin_applications.html#acard-'+a.id,full:full({app:a})}); });
+    /* v3.44: `stale:1` keeps these OUT of the prioritized action list. A deadline
+       that already passed is housekeeping, not something to do this week — and at
+       weight 150 it used to outrank "SOP not drafted, due in 3 weeks" (115) and
+       "no professor contacted" (60), so tidy-up items crowded out real work.
+       They're now summarised in one line instead (see renderStale). */
+    apps.forEach(function(a){ var st=a.status||'notstarted'; if(DONE[st]) return; var d=dayDiff(a.deadline); if(d==null||d>=0) return; var ago=-d; A.push({stale:1,ago:ago,weight:150,klass:'pr-urgent',emoji:ICO_ALERT,title:'Deadline passed '+ago+'d ago — '+(a.programTitle||'application').split('—')[0].trim().slice(0,40),detail:'Status still "'+(SL[st]||st)+'" · archive (Declined/Missed) or push to next cycle',cta:'Open application',link:'erin_applications.html#acard-'+a.id,full:full({app:a})}); });
     // R7b My List items with passed deadline, never in apps
-    Object.values(ml).forEach(function(it){ if(it._done||ni[it.id]) return; var d=dayDiff(it.deadline); if(d==null||d>=0) return; if(apps.some(function(a){return (a.itemId&&a.itemId===it.id)||(a.programTitle===it.title&&a.org===it.org);})) return; var ago=-d; A.push({weight:130,klass:'pr-urgent',emoji:ICO_ALERT,title:'Deadline passed '+ago+'d ago, never opened: '+((it.title||'').split('—')[0].trim()).slice(0,40),detail:(it.org||'')+(it.deadline?' · '+it.deadline:'')+' · remove with reason or move to next-cycle list',cta:'Open My List',link:'erin_mylist.html'+(it.id?'#card-'+it.id:''),full:full({item:it})}); });
+    Object.values(ml).forEach(function(it){ if(it._done||ni[it.id]) return; var d=dayDiff(it.deadline); if(d==null||d>=0) return; if(apps.some(function(a){return (a.itemId&&a.itemId===it.id)||(a.programTitle===it.title&&a.org===it.org);})) return; var ago=-d; A.push({stale:1,ago:ago,weight:130,klass:'pr-urgent',emoji:ICO_ALERT,title:'Deadline passed '+ago+'d ago, never opened: '+((it.title||'').split('—')[0].trim()).slice(0,40),detail:(it.org||'')+(it.deadline?' · '+it.deadline:'')+' · remove with reason or move to next-cycle list',cta:'Open My List',link:'erin_mylist.html'+(it.id?'#card-'+it.id:''),full:full({item:it})}); });
     var s={}; A=A.filter(function(a){ if(s[a.link]) return false; s[a.link]=true; return true; });
     A.sort(function(a,b){return b.weight-a.weight;});
     return A;
+  }
+  /* v3.44: split the action list from the housekeeping pile */
+  function splitStale(A){
+    return { live:A.filter(function(x){return !x.stale;}), stale:A.filter(function(x){return x.stale;}) };
   }
   function esc(s){ return (s+'').replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
   function fmtCat(s){ if(!s) return ''; if(/grad/i.test(s)) return 'Grad Program'; if(/intern/i.test(s)) return 'Internship'; if(/career|job/i.test(s)) return 'Career'; if(/service|fellow/i.test(s)) return 'Service'; return s; }
@@ -93,7 +102,7 @@
   function renderDeadlines(){
     var box=document.getElementById('pd-deadlines'); if(!box) return;
     var list=buildDeadlines();
-    var h='<div class="pd-section"><div class="pd-sec-head"><div class="pd-sec-title"><span class="pd-sec-icon">'+ICO_CLOCK+'</span> Deadlines in the next 14 days</div><span class="pd-sec-count">'+list.length+'</span></div>';
+    var h='<div class="pd-section"><div class="pd-sec-head"><div class="pd-sec-title"><span class="pd-sec-icon">'+ICO_CLOCK+'</span> Deadlines &mdash; next 14 days &amp; just missed</div><span class="pd-sec-count">'+list.length+'</span></div>';
     h+='<div class="pd-sec-sub">Always shown — even ones that didn’t make the prioritized list above.</div>';
     if(!list.length){
       h+='<div class="pd-empty-dl"><span class="pd-empty-icon">'+ICO_CHECK+'</span> No deadlines in the next 14 days — nothing time-critical right now.</div>';
@@ -116,9 +125,17 @@
   }
   function render(){
     try{ renderDeadlines(); }catch(e){}
-    var A=buildActions(), top=A.slice(0,5), c=document.getElementById('pd-actions'), ce=document.getElementById('pd-count');
+    /* v3.44: passed deadlines are housekeeping, not this week's work — they get a
+       single summary line at the bottom instead of competing for the 5 slots. */
+    var ALL_=buildActions(), sp=splitStale(ALL_), A=sp.live, stale=sp.stale;
+    var top=A.slice(0,5), c=document.getElementById('pd-actions'), ce=document.getElementById('pd-count');
     if(!c) return; c.innerHTML='';
-    if(!top.length){ if(ce) ce.textContent=''; c.innerHTML='<div class="pd-empty"><span class="pd-empty-emoji">'+ICO_CHECK+'</span>All caught up — no urgent actions surfaced right now.</div>'; return; }
+    if(!top.length){
+      if(ce) ce.textContent='';
+      c.innerHTML='<div class="pd-empty"><span class="pd-empty-emoji">'+ICO_CHECK+'</span>All caught up — no urgent actions surfaced right now.</div>';
+      if(stale.length) c.appendChild(staleLine(stale));
+      return;
+    }
     if(ce) ce.textContent=A.length+' total';
     top.forEach(function(a){
       var w=document.createElement('div'), card=document.createElement('a');
@@ -140,6 +157,32 @@
       c.appendChild(w);
     });
     if(A.length>top.length){ var mr=document.createElement('div'); mr.className='pd-more'; mr.textContent='+ '+(A.length-top.length)+' more in the trackers'; c.appendChild(mr); }
+    if(stale.length) c.appendChild(staleLine(stale));
+  }
+  /* One quiet line for everything whose deadline has already passed. Expands to
+     the individual items so nothing is hidden — it just stops being a "task". */
+  function staleLine(stale){
+    stale.sort(function(a,b){ return (a.ago||0)-(b.ago||0); });
+    var wrap=document.createElement('div'); wrap.className='pd-stale';
+    wrap.style.cssText='margin-top:.65rem;padding:.5rem .75rem;border:.5px dashed var(--bds);border-radius:var(--r1);'
+      +'font-size:12.5px;color:var(--t3);line-height:1.5';
+    var btn=document.createElement('button'); btn.type='button';
+    btn.style.cssText='background:none;border:none;padding:0;margin:0;font-family:var(--fn);font-size:12.5px;'
+      +'color:var(--t2);cursor:pointer;text-align:left;font-weight:600';
+    btn.textContent='🗂 '+stale.length+' item'+(stale.length===1?'':'s')+' with passed deadlines — tidy up when you get a chance ▸';
+    var panel=document.createElement('div');
+    panel.style.cssText='display:none;margin-top:.45rem;padding-top:.45rem;border-top:.5px solid var(--bd)';
+    stale.forEach(function(x){
+      var a=document.createElement('a'); a.href=x.link;
+      a.style.cssText='display:block;padding:2px 0;color:var(--t3);text-decoration:none;font-size:12.5px';
+      a.textContent='· '+x.title.replace(/^Deadline passed /,'').replace(/^(\d+)d ago[,—]?\s*/,'($1d ago) ');
+      panel.appendChild(a);
+    });
+    btn.onclick=function(){ var open=panel.style.display==='block';
+      panel.style.display=open?'none':'block';
+      btn.textContent=btn.textContent.replace(open?'▾':'▸', open?'▸':'▾'); };
+    wrap.appendChild(btn); wrap.appendChild(panel);
+    return wrap;
   }
   function syncAndRender(){
     fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
