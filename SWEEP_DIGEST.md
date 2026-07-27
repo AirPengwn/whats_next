@@ -1,12 +1,6 @@
 # Weekly opportunity sweep — 2026-07-27
 
-**Added 6 new** opportunities:
-- Conservation Project Coordinator (BLM / Intermountain West Joint Venture partnership) — _Excellent_ · Mountain West · deadline: Rolling — open until filled
-- Climate Resilient Stewardship Fellow (Colorado Conservation Fellowship) — _Excellent_ · Mountain West · deadline: August 9, 2026
-- Forestry Technician — Open Pool — _Strong_ · Mountain West · deadline: December 31, 2026
-- Senior Wildlife Technician (8-month, benefited) — _Strong_ · Mountain West · deadline: July 29, 2026
-- Wildlife Technician (2 positions — CWD monitoring and sampling) — _Strong_ · Mountain West · deadline: August 7, 2026
-- Fisheries Technician — Kootenai River Burbot (temporary) — _Strong_ · Mountain West · deadline: August 24, 2026
+**Added 0 new** opportunities.
 
 **Updated 0** (deadline / status / description changed).
 
