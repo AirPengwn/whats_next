@@ -376,9 +376,33 @@ document.addEventListener('DOMContentLoaded',function(){
 (function(){
 /* lean per-type Browse page — data-driven, primary-gated save reused */
 function el(tag,cls,txt){ var e=document.createElement(tag); if(cls)e.className=cls; if(txt!=null)e.textContent=txt; return e; }
-function payload(it){ return {title:it.title,org:it.org,type:it.type,cat:it.cat,src:it.src,
-  src_label:it.src_label,deadline:it.deadline||'',start:it.start||'',body:it.body||'',
-  desc:it.desc||'',badge:it.badge||'',pills:it.pills||[],id:it.id}; }
+/* v3.43 SLIM SAVE. A JSONbin bin hard-fails (403) above ~100 KB, and the saved
+   copy used to duplicate body/desc/pills/badge — data that already lives in
+   opportunities.js and is re-merged on every render via mergeWithAll(). Storing
+   only the join/display fields cuts 1292 B -> ~334 B per saved item (3.9x), so
+   the ceiling moves from ~49 saved items to ~108.
+
+   ORPHAN SAFEGUARD: if the id is NOT in ALL (opportunity was never in / has been
+   dropped from the site data), the saved copy is the ONLY copy — store it FULL.
+   Falls back to FULL whenever ALL isn't loaded, so it can never lose data. */
+function payload(it){
+  /* Only include NON-EMPTY fields: mergeWithAll() does Object.assign({},ALL,saved)
+     so a saved empty string would OVERRIDE and blank the real value from ALL. */
+  var slim={}; ['id','title','org','type','cat','src','deadline','url'].forEach(function(f){
+    if(it[f]!=null && it[f]!=='') slim[f]=it[f];
+  });
+  try{
+    if(typeof ALL==='undefined' || !Array.isArray(ALL)) throw 0;   /* no data -> keep full */
+    var known=false;
+    for(var i=0;i<ALL.length;i++){ if(ALL[i] && ALL[i].id===it.id){ known=true; break; } }
+    if(!known) throw 0;                                            /* orphan -> keep full */
+    return slim;
+  }catch(e){
+    return {title:it.title,org:it.org,type:it.type,cat:it.cat,src:it.src,
+      src_label:it.src_label,deadline:it.deadline||'',start:it.start||'',body:it.body||'',
+      desc:it.desc||'',badge:it.badge||'',pills:it.pills||[],id:it.id,url:it.url||'',_full:1};
+  }
+}
 function has(id){ return !!(window.ML&&ML.isSaved(id)); }
 function addItem(it){ if(window.ML) ML.save(payload(it)); }
 function delItem(id){ if(window.ML) ML.remove(id); }

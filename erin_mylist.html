@@ -425,7 +425,29 @@ function flash(msg){
   setTimeout(function(){ el.classList.remove('show'); },2500);
 }
 
-function addItem(d){ var m=load(); m[d.id]=d; save(m); push(m); }
+/* v3.43 SLIM SAVE — mirrors payload() on the Browse pages. Stores only the
+   join/display fields (1292 B -> ~334 B each), because everything else is
+   re-merged from opportunities.js by mergeWithAll() on render.
+   - ORPHAN SAFEGUARD: an id absent from ALL is stored FULL (only copy).
+   - Empty values are OMITTED, never stored as '': mergeWithAll does
+     Object.assign({},ALL,saved), so a saved '' would blank the real value.
+   - Any user-authored field already on the record (notes, _done, …) is kept. */
+function slimSave(d){
+  if(!d || !d.id) return d;
+  var known=false;
+  try{ if(typeof ALL!=='undefined' && Array.isArray(ALL)){
+    for(var i=0;i<ALL.length;i++){ if(ALL[i] && ALL[i].id===d.id){ known=true; break; } }
+  } }catch(e){}
+  if(!known) return Object.assign({}, d, {_full:1});      /* orphan / no data -> FULL */
+  var out={};
+  ['id','title','org','type','cat','src','deadline','url'].forEach(function(f){
+    if(d[f]!=null && d[f]!=='') out[f]=d[f];
+  });
+  /* preserve anything the user themselves added that ALL can't supply */
+  ['notes','_done','savedAt'].forEach(function(f){ if(d[f]!=null && d[f]!=='') out[f]=d[f]; });
+  return out;
+}
+function addItem(d){ var m=load(); m[d.id]=slimSave(d); save(m); push(m); }
 function delItem(id){ var m=load(); delete m[id]; save(m); push(m); }
 
 /* "Not interested" personal flag — primary-gated cloud sync, same model as items.
