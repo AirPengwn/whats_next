@@ -18196,5 +18196,333 @@
     "stipend": "",
     "benefits": "Confirm benefits with the employer",
     "id": "item-409"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Field Operations Technician",
+    "org": "Land Within Reach",
+    "deadline": "January 16, 2027",
+    "start": "See posting",
+    "body": "Salaried field operations technician role on Texas land stewardship and habitat projects. Bachelor's degree required with no prior experience. Long application window running into January 2027.",
+    "desc": "The useful thing about this one is its timing, not its ceiling. The window runs to January 2027, which means you can apply to every urgent posting on your list first and still have a salaried, benefits-carrying land stewardship job in reserve if none of them land. The pay is modest but it is real salary rather than an hourly seasonal rate, and it asks for no prior experience. Keep it as your floor rather than your target.",
+    "badge": "Good fit",
+    "pills": [
+      "Salaried from $41,600",
+      "BS required, NO prior experience",
+      "Texas land stewardship & habitat projects",
+      "Application window open to January 2027",
+      "Useful as a held-in-reserve backup"
+    ],
+    "metaLine": "Deadline January 16, 2027 · salaried $41,600 · deadline Jan 2027 · Fayette County, TX",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2027-01-16",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=112510",
+        "label": "🔗 Field Operations Technician — Land Within Reach"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=112510",
+    "location": "Fayette County, TX",
+    "pay": "starting at $41,600 per year",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-410"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Seasonal Field Technician",
+    "org": "Galveston Bay Foundation",
+    "deadline": "August 14, 2026",
+    "start": "See posting",
+    "body": "Two full-time temporary technicians (roughly 560 hours, September–December 2026) supporting habitat management and restoration on conserved coastal properties. Minimum experience 0–1 year.",
+    "desc": "Galveston Bay Foundation runs land preservation, habitat restoration, water quality and advocacy as its four programme areas — two of which are your primary interests, in one organisation. The role itself is a short autumn technician position on conserved coastal properties, so it is a season rather than a career, but estuary work would extend your wetland experience into brackish and tidal systems you have not worked in. Two positions are open, which improves the odds.",
+    "badge": "Strong fit",
+    "pills": [
+      "Galveston Bay estuary habitat restoration",
+      "Water quality is a core program area",
+      "$17/hour, roughly 560 hours Sept–Dec",
+      "Two positions available",
+      "August 14 deadline"
+    ],
+    "metaLine": "Deadline August 14, 2026 · seasonal · $17/hr · estuary restoration · Kemah, TX",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-14",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-seasonal-field-technician-kemah-texas/1759732110",
+        "label": "🔗 Seasonal Field Technician — Galveston Bay Foundation"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-seasonal-field-technician-kemah-texas/1759732110",
+    "location": "Kemah, TX",
+    "pay": "$17 per hour",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-411"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Field Assistant — Salt Cedar Program (Seasonal)",
+    "org": "Inyo County Water Department",
+    "deadline": "July 27, 2026",
+    "start": "See posting",
+    "body": "Seasonal field assistant with a county water department controlling invasive salt cedar (tamarisk) in the Owens Valley desert. High school diploma and about a year of experience required.",
+    "desc": "Worth knowing about even if the timing has beaten you: a county water department running its own salt cedar control programme sits exactly where your water-resources and restoration interests meet, and those two things rarely appear in the same employer. Tamarisk is the defining invasive of southwestern riparian corridors, so this is applied desert restoration with a hydrology employer behind it. The deadline is today — if it has closed, set a reminder to watch for the seasonal repost next year.",
+    "badge": "Good fit",
+    "pills": [
+      "Owens Valley desert riparian invasive control",
+      "$23.58–$30.63/hour",
+      "A county WATER department — unusual employer",
+      "Tamarisk control is applied restoration",
+      "⏰ Deadline is today — likely already gone"
+    ],
+    "metaLine": "Deadline July 27, 2026 · county water dept · $23.58–$30.63/hr · ⏰ closes today · Independence, CA (Owens Valley)",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-27",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117543",
+        "label": "🔗 Field Assistant — Salt Cedar Program (Seasonal) — Inyo County Water Department"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117543",
+    "location": "Independence, CA (Owens Valley)",
+    "pay": "$23.58–$30.63 per hour",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-412"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Wildlife Area Manager",
+    "org": "New Mexico Department of Game and Fish",
+    "deadline": "July 31, 2026",
+    "start": "See posting",
+    "body": "Permanent state position managing a New Mexico wildlife management area. Bachelor's degree with about one year of experience listed. Habitat management, infrastructure and public access on state wildlife land.",
+    "desc": "A permanent state wildlife-area management job with a salary floor above $55,000 and only a one-year experience bar is an unusually good ratio — most permanent agency roles at this pay want three to five years. Your AmeriCorps NCCC term is a credible answer to the experience line, particularly framed as field operations and crew work. The scope covers habitat management, infrastructure and public access, so it is broad rather than specialised. Closes July 31.",
+    "badge": "Strong fit",
+    "pills": [
+      "Permanent state position with benefits",
+      "$55,273–$82,909/yr",
+      "Only about one year of experience listed",
+      "Habitat management on state wildlife land",
+      "⏰ Deadline July 31"
+    ],
+    "metaLine": "Deadline July 31, 2026 · permanent state · $55,273–$82,909 · ⏰ Jul 31 · Marquez, NM",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=109838",
+        "label": "🔗 Wildlife Area Manager — New Mexico Department of Game and Fish"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=109838",
+    "location": "Marquez, NM",
+    "pay": "$55,273–$82,909 per year",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-413"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "NeighborWoods Seasonal Tree Distribution Assistant",
+    "org": "TreeFolks",
+    "deadline": "August 14, 2026",
+    "start": "See posting",
+    "body": "Seasonal urban forestry position supporting a large-scale community tree distribution program in Austin. Some undergraduate coursework and about a year of experience required.",
+    "desc": "Flagged honestly as off-profile: community tree distribution does not build on your wetland, water-quality or GIS training in any meaningful way. What it does is pay $23.71 an hour in Austin, which makes it a decent stopgap if you need income while stronger applications are pending and you want to be positioned in a city with a lot of environmental employers. Take it as a bridge, not a step.",
+    "badge": "Reach",
+    "pills": [
+      "$23.71/hour — strong seasonal rate",
+      "Large-scale Austin tree distribution program",
+      "⚠️ Urban forestry is off your main track",
+      "About one year of experience listed",
+      "August 14 deadline"
+    ],
+    "metaLine": "Deadline August 14, 2026 · seasonal · $23.71/hr · urban forestry · Austin, TX",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-14",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117577",
+        "label": "🔗 NeighborWoods Seasonal Tree Distribution Assistant — TreeFolks"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117577",
+    "location": "Austin, TX",
+    "pay": "$23.71 per hour",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-414"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Seasonal Shorebird Survey Technician",
+    "org": "Manomet Conservation Sciences",
+    "deadline": "August 10, 2026",
+    "start": "See posting",
+    "body": "Contract shorebird survey technician on the upper Texas coast for a leading shorebird science organization. No degree formally required though two years of experience is listed. Survey work in coastal wetland and mudflat habitats.",
+    "desc": "The pay is strong and the habitat is right — coastal wetland and mudflat survey work on the upper Texas coast. Two honest caveats: the posting asks for two years of experience and that experience is specifically bird survey work, which is the one part of the field methods you have least of; and it is an independent contractor arrangement, meaning no benefits and you handle your own taxes. Apply if shorebird work interests you enough to make the case, but do not let it displace the wetland-technician applications.",
+    "badge": "Good fit",
+    "pills": [
+      "Up to $3,720/month",
+      "Upper Texas coast wetland and mudflat surveys",
+      "Manomet is a leading shorebird science org",
+      "⚠️ Two years experience listed — bird-survey specific",
+      "⚠️ Independent contractor, not an employee"
+    ],
+    "metaLine": "Deadline August 10, 2026 · contract · up to $3,720/month · coastal wetlands · Chambers County, TX",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-10",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117542",
+        "label": "🔗 Seasonal Shorebird Survey Technician — Manomet Conservation Sciences"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117542",
+    "location": "Chambers County, TX",
+    "pay": "up to $3,720 per month",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-415"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Middle Rio Grande Restoration Ecologist",
+    "org": "New Mexico Department of Game and Fish",
+    "deadline": "July 31, 2026",
+    "start": "See posting",
+    "body": "State restoration ecologist position focused on the Middle Rio Grande riparian corridor. Bachelor's degree with roughly two years of experience listed. Bosque restoration, riparian habitat and river-corridor project management.",
+    "desc": "This is the job you are aiming for in about three years, posted now. Middle Rio Grande bosque restoration is river-corridor ecology at a state agency, with project management and habitat work across one of the most studied riparian systems in the West. The experience line says roughly two years, so you would be applying under it — but state agencies frequently hire at the bottom of a posted range, and a strong, specific letter costs you an evening. Worth the long shot precisely because the topical fit is near-perfect.",
+    "badge": "Reach",
+    "pills": [
+      "⭐ River-corridor restoration ecology — your stated target",
+      "$60,800–$91,200/yr",
+      "Middle Rio Grande bosque restoration",
+      "⚠️ About two years of experience listed — a genuine reach",
+      "⏰ Deadline July 31"
+    ],
+    "metaLine": "Deadline July 31, 2026 · state ecologist · $60,800–$91,200 · ⏰ Jul 31 · Albuquerque, NM",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=115579",
+        "label": "🔗 Middle Rio Grande Restoration Ecologist — New Mexico Department of Game and Fish"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=115579",
+    "location": "Albuquerque, NM",
+    "pay": "$60,800–$91,200 per year",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-416"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Wildlife Habitat Biologist (DOW 5069)",
+    "org": "New Mexico Department of Game and Fish",
+    "deadline": "August 5, 2026",
+    "start": "See posting",
+    "body": "Permanent state habitat biologist position in southeastern New Mexico. Bachelor's degree with roughly two years of experience listed. Habitat assessment, management planning and landowner coordination in the Pecos Valley.",
+    "desc": "A reach on the experience line, but two things make it worth an application. First, state agencies commonly hire at the floor of a published range when a strong candidate applies under the stated experience. Second, it is in the same corner of southeastern New Mexico as the Bitter Lake refuge fellowship already on your list — so one trip could serve two conversations, and landing either one puts you in the Pecos Valley wetland complex.",
+    "badge": "Reach",
+    "pills": [
+      "Permanent state habitat biologist role",
+      "$27.37–$41.06/hour",
+      "Pecos Valley habitat assessment & planning",
+      "Same area as the Bitter Lake refuge fellowship",
+      "⚠️ About two years of experience listed"
+    ],
+    "metaLine": "Deadline August 5, 2026 · permanent state · $27.37–$41.06/hr · Roswell, NM",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-05",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117710",
+        "label": "🔗 Wildlife Habitat Biologist (DOW 5069) — New Mexico Department of Game and Fish"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117710",
+    "location": "Roswell, NM",
+    "pay": "$27.37–$41.06 per hour",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-417"
   }
 ]
