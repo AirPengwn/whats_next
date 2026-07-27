@@ -405,8 +405,18 @@ function pushCloud(m){
         method:'PUT',
         headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},
         body:JSON.stringify(rec)
+      }).then(function(res){
+        /* v3.42: surface a real failure instead of a vague "Sync error" — the bin
+           403s above ~100 KB, and that used to be swallowed silently. */
+        if(!res || !(res.ok || res.status===200)) throw new Error('HTTP '+(res&&res.status));
+        return true;
       });
-    }).then(function(){ flash('Synced'); }).catch(function(){ flash('Sync error'); });
+    }).then(function(){ flash('Synced'); })
+      .catch(function(err){
+        var over = err && /40[36]/.test(err.message||'');
+        flash(over ? 'NOT SAVED — storage full' : 'NOT SAVED — check connection');
+        try{ console.error('[SAVE FAILED] My List did not sync:', err && err.message); }catch(e){}
+      });
 }
 
 function flash(msg){
