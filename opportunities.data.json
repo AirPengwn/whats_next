@@ -24604,5 +24604,929 @@
     "stipend": "",
     "benefits": "Leadership responsibilities available depending on experience and interest",
     "id": "item-567"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "PhD Assistantship — small wetlands of the Prairie Pothole Region (USGS & USFWS partnership)",
+    "org": "South Dakota State University · Dept. of Natural Resource Management · with USGS and the USFWS Habitat and Population Evaluation Team · Brookings, SD",
+    "deadline": "Contact-first — anticipated to begin on or before January 2027 (flexible)",
+    "start": "See posting",
+    "body": "Assistantship anticipated to begin on or before January 2027 (flexible), supporting a collaborative project with USGS and the USFWS Habitat and Population Evaluation Team to quantify the ecological value of small wetlands embedded in agricultural landscapes of the Prairie Pothole Region. Combines long-term datasets, high-resolution remote sensing and targeted field validation, with both computational and field components. An M.S. is preferred, but the posting states that exceptional candidates with a B.S. and strong quantitative skills may be considered.",
+    "desc": "This is the single best-aligned graduate posting the entire sweep produced. Wetlands, high-resolution remote sensing and a direct USFWS partnership in one project — and crucially, the posting itself writes an explicit door for a strong BS candidate with quantitative skills, which is exactly how she should present her multi-criteria GIS suitability work. Because it is contact-first and the MS preference is stated, email the advisor before anything else and lead with the remote sensing.",
+    "badge": "Top recommendation",
+    "pills": [
+      "Best-aligned grad posting of the entire sweep",
+      "Posting explicitly allows a strong BS",
+      "Prairie Pothole wetlands + remote sensing",
+      "Direct USGS and USFWS partnership",
+      "Email the advisor first"
+    ],
+    "metaLine": "Contact-first · stipend not published · Brookings SD · wetlands + remote sensing + USFWS partner",
+    "cycle": "current",
+    "deadline_kind": "contact-first",
+    "deadline_date": "",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://careers.wildlife.org/job/graduate-research-assistantship-phd/85157507/",
+        "label": "🔗 PhD Assistantship — small wetlands of the Prairie Pothole Region (USGS & USFWS partnership) — South Dakota State University · Dept. of Natural Resource Management · with USGS and the USFWS Habitat and Population Evaluation Team · Brookings, SD"
+      }
+    ],
+    "url": "https://careers.wildlife.org/job/graduate-research-assistantship-phd/85157507/",
+    "location": "Brookings, South Dakota (Prairie Pothole Region)",
+    "pay": "",
+    "stipend": "Stipend not published on the posting — contact the advisor",
+    "benefits": "Confirm tuition and health coverage with the department",
+    "id": "item-568"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Funded MS/PhD Assistantship — big-river fisheries & acoustic telemetry",
+    "org": "Iowa State University · Ames, IA",
+    "deadline": "July 31, 2026",
+    "start": "See posting",
+    "body": "Research on invasive carp and native fishes (sturgeon, blue suckers) behavioural ecology and population dynamics in the Missouri and Mississippi Rivers using extensive acoustic telemetry arrays, in close collaboration with state and federal agency partners. The student collects field data, supervises technicians, and leads analysis and annual reports; thesis topics can be shaped around student interests. MS applicants need a BS.",
+    "desc": "A funded MS explicitly open to BS applicants, on the two largest river systems in the country, with state and federal agency partners built into the project — those partnerships are what turn a thesis into a job offer. $29,000 is a strong stipend and the posting says topics can be shaped around student interest, which leaves room to bring her water-quality angle. Deadline is July 31, so this needs an email now.",
+    "badge": "Strong fit",
+    "pills": [
+      "From $29,000 per year",
+      "Explicitly open to BS applicants",
+      "Missouri and Mississippi River systems",
+      "State and federal agency partners",
+      "⏰ Closes July 31"
+    ],
+    "metaLine": "⏰ Deadline Jul 31, 2026 · from $29,000/yr · Ames IA · BS-eligible · big-river telemetry",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=98470",
+        "label": "🔗 Funded MS/PhD Assistantship — big-river fisheries & acoustic telemetry — Iowa State University · Ames, IA"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=98470",
+    "location": "Ames, Iowa (Missouri and Mississippi River systems)",
+    "pay": "",
+    "stipend": "Starting at $29,000 per year",
+    "benefits": "Confirm tuition and health coverage with the department",
+    "id": "item-569"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Two funded Graduate Research Assistantships — land use & insect population dynamics",
+    "org": "Kansas State University · Kim Eco Lab, Department of Entomology · Manhattan, KS",
+    "deadline": "July 31, 2026",
+    "start": "See posting",
+    "body": "Two funded Master’s or PhD positions in the Kim Eco Lab studying plant-insect interactions and how they vary with insect management and land-use change. Project 1 (MSc level) examines how grassland management and climate affect insect pollinator population dynamics, combining tallgrass prairie fieldwork with lab and greenhouse work; Project 2 addresses regenerative agricultural management effects on pests and beneficial insects.",
+    "desc": "The highest published stipend of any assistantship the sweep turned up at $34,000, in tallgrass prairie land-use ecology — a system where GIS and land-cover analysis are central rather than incidental. Two positions doubles the odds. Insects are not her stated focus, but the underlying question is land-use change and habitat, which is.",
+    "badge": "Strong fit",
+    "pills": [
+      "$34,000 — highest stipend of the sweep",
+      "Two positions open",
+      "Tallgrass prairie land-use ecology",
+      "MSc-level project available",
+      "⏰ Closes July 31"
+    ],
+    "metaLine": "⏰ Deadline Jul 31, 2026 · $34,000/yr · Manhattan KS · highest stipend found · 2 positions",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117046",
+        "label": "🔗 Two funded Graduate Research Assistantships — land use & insect population dynamics — Kansas State University · Kim Eco Lab, Department of Entomology · Manhattan, KS"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117046",
+    "location": "Manhattan, Kansas (tallgrass prairie)",
+    "pay": "",
+    "stipend": "$34,000 per year",
+    "benefits": "Confirm tuition and health coverage with the department",
+    "id": "item-570"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Funded MS/PhD — rangeland ecology, remote sensing & virtual fencing",
+    "org": "Kansas State University · Department of Agronomy (Dr. Colin Tobin) · Manhattan, KS",
+    "deadline": "December 31, 2026",
+    "start": "See posting",
+    "body": "Funded MS or PhD position under Dr. Colin Tobin starting Fall 2026 or Spring 2027, in applied rangeland ecology and livestock grazing systems across the Great Plains. Projects include targeted grazing for invasive species management, precision livestock technologies (GPS collars, virtual fencing, remote sensing), fire-grazing interactions in grasslands, and livestock-wildlife interactions on working landscapes.",
+    "desc": "GPS collars, virtual fencing and remote sensing in fire-grazing systems is a direct application of her multi-criteria GIS suitability skills to a live management problem. The December deadline gives room to contact the advisor properly. The stipend is not published, so make that the first question.",
+    "badge": "Strong fit",
+    "pills": [
+      "Remote sensing and GPS collar work",
+      "Fire-grazing interactions",
+      "Long runway to December",
+      "⚠️ Stipend not published — ask first"
+    ],
+    "metaLine": "Deadline Dec 31, 2026 · stipend not published · Manhattan KS · remote sensing + GPS collars",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-12-31",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=116409",
+        "label": "🔗 Funded MS/PhD — rangeland ecology, remote sensing & virtual fencing — Kansas State University · Department of Agronomy (Dr. Colin Tobin) · Manhattan, KS"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=116409",
+    "location": "Manhattan, Kansas (Great Plains)",
+    "pay": "",
+    "stipend": "Stipend not published on the posting — contact the advisor",
+    "benefits": "Confirm tuition and health coverage with the department",
+    "id": "item-571"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Aquatic Field Technician — long-term big-river monitoring, Illinois River Biological Station",
+    "org": "Illinois Natural History Survey · Macomb, IL",
+    "deadline": "August 23, 2026",
+    "start": "See posting",
+    "body": "One to two field technicians conducting applied research in aquatic ecology and large river systems across Illinois, with a focus on the Mississippi River. Technicians assist large river ecologists in collecting standardised long-term river monitoring data plus targeted data collection and lab sample processing, at 40 hours per week based in Macomb.",
+    "desc": "Standardised long-term river monitoring at a state natural history survey is exactly the data-collection pedigree that graduate committees and agencies look for — it demonstrates she can execute a protocol consistently, which is harder to prove than it sounds. The combination of field collection and lab sample processing also mirrors the structure of her capstone. Pay is not published, so ask.",
+    "badge": "Top recommendation",
+    "pills": [
+      "Long-term standardised river monitoring",
+      "State natural history survey",
+      "Field collection + lab processing",
+      "⚠️ Pay not published"
+    ],
+    "metaLine": "Deadline Aug 23, 2026 · pay not published · Macomb IL · standardised long-term river monitoring",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-23",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-aquatic-field-technician-hourly-macomb-illinois/7163998133",
+        "label": "🔗 Aquatic Field Technician — long-term big-river monitoring, Illinois River Biological Station — Illinois Natural History Survey · Macomb, IL"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-aquatic-field-technician-hourly-macomb-illinois/7163998133",
+    "location": "Macomb, Illinois (Mississippi and Illinois River systems)",
+    "pay": "Pay not published on the posting — confirm with the survey",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-572"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Biological Science Technician (Wildlife) — USDA-APHIS rolling federal register",
+    "org": "USDA-APHIS Wildlife Services · Plankinton, SD",
+    "deadline": "September 30, 2026 — qualified applicants considered weekly and referred as vacancies arise",
+    "start": "See posting",
+    "body": "Performs wildlife management duties and applies techniques to control wildlife damage to agriculture, natural resources, property, and human health and safety. Assists Wildlife Biologists with species identification, inspects and surveys areas, and helps revise wildlife damage management programmes. Qualified applicants are considered weekly and referred as vacancies arise; developmental grade levels are available with more limited scope.",
+    "desc": "This is a rolling federal register rather than a single vacancy, which means applying puts her in a pool that gets referred repeatedly rather than betting on one closing date. USDA is one of her two stated federal targets, and the developmental grade levels exist precisely for candidates without prior federal experience. A high-leverage application for the effort involved.",
+    "badge": "Strong fit",
+    "pills": [
+      "Rolling federal register — referred weekly",
+      "USDA, a stated federal target",
+      "Developmental grades for new entrants",
+      "$17.37–$35.36 per hour"
+    ],
+    "metaLine": "Deadline Sep 30, 2026 · $17.37–$35.36/hr · Plankinton SD · rolling federal register, weekly referrals",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-30",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117226",
+        "label": "🔗 Biological Science Technician (Wildlife) — USDA-APHIS rolling federal register — USDA-APHIS Wildlife Services · Plankinton, SD"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117226",
+    "location": "Plankinton, South Dakota",
+    "pay": "$17.37 to $35.36 per hour",
+    "stipend": "",
+    "benefits": "Federal position; developmental grade levels available with more limited scope",
+    "id": "item-573"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Conservation Technician — soil & water conservation district (ArcGIS and Trimble required)",
+    "org": "Vernon County Soil & Water Conservation District · Nevada, MO",
+    "deadline": "August 21, 2026",
+    "start": "See posting",
+    "body": "Conservation district technician handling stakeout and design of conservation practices, interpersonal communication with landowners, computer design work and general office duties. Requires the ability to navigate ArcGIS and Trimble units, good computer skills and basic farm knowledge; all relevant training is provided. Requires a high school diploma, a valid driver’s licence and passing a federal security background check.",
+    "desc": "This is the rare posting where her GIS skills are the qualifying credential rather than a nice-to-have — it names ArcGIS and Trimble explicitly. It comes with health, vision, dental and a public retirement plan, which is unusual at technician level, and the federal background check requirement signals NRCS-adjacent work. Pay is not published, so ask early.",
+    "badge": "Top recommendation",
+    "pills": [
+      "ArcGIS and Trimble named as requirements",
+      "Health, vision, dental + LAGERS retirement",
+      "Training provided",
+      "NRCS-adjacent — federal background check",
+      "⚠️ Pay not published"
+    ],
+    "metaLine": "Deadline Aug 21, 2026 · pay not published · Nevada MO · ArcGIS + Trimble REQUIRED · full benefits",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-21",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-5050-shared-technician-nevada-missouri/9620489989",
+        "label": "🔗 Conservation Technician — soil & water conservation district (ArcGIS and Trimble required) — Vernon County Soil & Water Conservation District · Nevada, MO"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-5050-shared-technician-nevada-missouri/9620489989",
+    "location": "Nevada, Missouri (Bates or Vernon County)",
+    "pay": "Pay not published on the posting — confirm with the district",
+    "stipend": "",
+    "benefits": "Health, vision and dental insurance plus LAGERS retirement; all relevant training provided",
+    "id": "item-574"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "District Specialist / Urban Waters Coordinator — Western Lake Erie Basin",
+    "org": "Lucas Soil & Water Conservation District · Toledo, OH",
+    "deadline": "August 8, 2026",
+    "start": "See posting",
+    "body": "Full-time, partially grant-funded two-year position split 50/50 between Urban Waters Coordinator and Lucas SWCD District Specialist duties, 40 hours per week. Includes Lucas County health insurance, OPERS retirement, paid holidays, and paid vacation and sick leave.",
+    "desc": "The Maumee basin drives the Lake Erie algal bloom problem, which makes this some of the most consequential and best-funded water-quality work in the Midwest — a good story to be able to tell later. A two-year term with county benefits and a public pension is unusually secure for an entry-level conservation role.",
+    "badge": "Strong fit",
+    "pills": [
+      "Western Lake Erie Basin water quality",
+      "Two-year term with county benefits",
+      "OPERS retirement",
+      "$21.00 per hour"
+    ],
+    "metaLine": "Deadline Aug 8, 2026 · $21.00/hr · Toledo OH · two-year term with county benefits",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-08",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-district-specialisturban-waters-coordinator-toledo-ohio/4354789484",
+        "label": "🔗 District Specialist / Urban Waters Coordinator — Western Lake Erie Basin — Lucas Soil & Water Conservation District · Toledo, OH"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-district-specialisturban-waters-coordinator-toledo-ohio/4354789484",
+    "location": "Toledo, Ohio (Maumee River / Western Lake Erie Basin)",
+    "pay": "$21.00 per hour",
+    "stipend": "",
+    "benefits": "Lucas County health insurance, OPERS retirement, paid holidays, paid vacation and sick leave",
+    "id": "item-575"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Ag / Natural Resources Technician — county water quality & conservation planning",
+    "org": "Harrison Soil & Water Conservation District · Cadiz, OH",
+    "deadline": "July 31, 2026",
+    "start": "See posting",
+    "body": "Promotes conservation practices, improves soil health and protects water quality throughout Harrison County. Works directly with farmers, landowners and partner agencies providing technical assistance, educational outreach and conservation planning, including field visits and site assessments. Compensation is listed only as \"based on experience\".",
+    "desc": "Ohio conservation district work is water-quality-first, which is the lane she wants, and site assessment plus conservation planning is real technical work rather than outreach with a technical veneer. The unpublished salary is the thing to pin down before investing in the application.",
+    "badge": "Good fit",
+    "pills": [
+      "Water-quality-first district work",
+      "Conservation planning and site assessment",
+      "Landowner technical assistance",
+      "⚠️ Pay not published"
+    ],
+    "metaLine": "Deadline Jul 31, 2026 · pay not published · Cadiz OH · water quality + site assessment",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-ag-natural-resources-technician-cadiz-ohio/6858575698",
+        "label": "🔗 Ag / Natural Resources Technician — county water quality & conservation planning — Harrison Soil & Water Conservation District · Cadiz, OH"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-ag-natural-resources-technician-cadiz-ohio/6858575698",
+    "location": "Cadiz, Ohio (Harrison County)",
+    "pay": "Pay not published — the posting states only \"based on experience\"",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-576"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Natural Resources Technician — managed wetlands & water level manipulation",
+    "org": "Indiana Department of Natural Resources · Winslow, IN",
+    "deadline": "July 31, 2026",
+    "start": "See posting",
+    "body": "Seasonal position participating in all aspects of wildlife and habitat management across the 8,500-acre Sugar Ridge and 2,500-acre Blue Grass Fish & Wildlife Areas. Heavy involvement in managed wetlands, water level manipulation, prescribed burning, bottomland hardwood and woodland management, plus dove and wood duck trapping and banding in summer.",
+    "desc": "Water level manipulation on managed wetlands is hands-on wetland hydrology — the operational counterpart to the delineation training she already has, and something very few entry roles actually let you do. The pay is genuinely low at $13.50, so this is a skills-acquisition decision rather than a financial one.",
+    "badge": "Strong fit",
+    "pills": [
+      "Managed wetland water level manipulation",
+      "Prescribed burning",
+      "Trapping and banding experience",
+      "⚠️ Low pay at $13.50/hr"
+    ],
+    "metaLine": "Deadline Jul 31, 2026 · $13.50/hr · Winslow IN · managed wetland hydrology + prescribed fire",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117344",
+        "label": "🔗 Natural Resources Technician — managed wetlands & water level manipulation — Indiana Department of Natural Resources · Winslow, IN"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117344",
+    "location": "Winslow, Indiana (Sugar Ridge & Blue Grass Fish & Wildlife Areas)",
+    "pay": "$13.50 per hour",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-577"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Ranch Manager — Hutton Niobrara Wild & Scenic River sanctuary",
+    "org": "Audubon of Kansas · Bassett / Carns, NE",
+    "deadline": "August 2, 2026",
+    "start": "See posting",
+    "body": "Implements all habitat management and property maintenance at the nearly 5,000-acre Hutton Niobrara Ranch Wildlife Sanctuary along the National Wild and Scenic Niobrara River. Work includes prescribed burns, controlling woody encroachment and invasive species, fence building, wildlife monitoring and overseeing visitation. No prior experience is required.",
+    "desc": "A manager title on a 5,000-acre riparian sanctuary with no experience required is a genuinely unusual opening — she would be running habitat management on a Wild and Scenic River rather than assisting with it. Prescribed fire and wildlife monitoring under one job, plus a salary, makes this one of the better whole-package roles in the region.",
+    "badge": "Strong fit",
+    "pills": [
+      "Manager title with no experience required",
+      "5,000-acre Wild & Scenic River sanctuary",
+      "Prescribed fire + wildlife monitoring",
+      "Salaried"
+    ],
+    "metaLine": "Deadline Aug 2, 2026 · $33,000–$43,000 · Bassett NE · manager title, NO experience required",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-02",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117326",
+        "label": "🔗 Ranch Manager — Hutton Niobrara Wild & Scenic River sanctuary — Audubon of Kansas · Bassett / Carns, NE"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117326",
+    "location": "Bassett / Carns, Nebraska (Niobrara National Wild and Scenic River)",
+    "pay": "$33,000 to $43,000 per year",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-578"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "North Branch Conservation Corps Crew Member — two-year wage ladder",
+    "org": "Friends of the Forest Preserves · Chicago, IL",
+    "deadline": "September 1, 2026",
+    "start": "See posting",
+    "body": "Full-time crew member (averaging 36 hours per week, typically nine-hour days Monday to Thursday) restoring natural areas across the nearly 70,000 acres of Cook County forest preserves. Friends of the Forest Preserves advocates for responsible management through advocacy, engagement and land stewardship. No education or experience requirements. Start date as soon as possible.",
+    "desc": "A corps role that pays an actual living wage with a written two-year raise schedule is rare — most service positions pay a stipend and end. Cook County holds one of the largest urban forest preserve systems in the country, so the restoration work is at real scale. The four-day week also leaves a day for applications or a second commitment.",
+    "badge": "Strong fit",
+    "pills": [
+      "$18/hr rising to $20 over two years",
+      "70,000 acres of forest preserves",
+      "Four-day week",
+      "No education or experience required"
+    ],
+    "metaLine": "Deadline Sep 1, 2026 · $18→$20/hr over two years · Chicago IL · no experience required",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-01",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117206",
+        "label": "🔗 North Branch Conservation Corps Crew Member — two-year wage ladder — Friends of the Forest Preserves · Chicago, IL"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117206",
+    "location": "Chicago, Illinois (Cook County forest preserves)",
+    "pay": "$18.00 per hour, increasing incrementally to $20.00 per hour over a two-year period",
+    "stipend": "",
+    "benefits": "Full-time averaging 36 hours per week, typically nine-hour days Monday to Thursday",
+    "id": "item-579"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Calumet Conservation Corps Crew Member — Calumet wetland & industrial-legacy landscape",
+    "org": "Friends of the Forest Preserves · South Holland, IL",
+    "deadline": "August 3, 2026",
+    "start": "See posting",
+    "body": "Crew member in the Calumet region working 6:00 am to 3:30 pm Monday to Thursday, with schedules varying by season and weather and occasional Friday or Saturday work. Same Cook County forest preserve stewardship mission as the North Branch crew. Open until filled; no education or experience requirements. NOTE: this posting is mislabelled \"Texas\" in the job board’s location field — it is genuinely Illinois.",
+    "desc": "The Calumet is a post-industrial wetland landscape where restoration happens alongside a long contamination history, which makes it a more interesting fit for her background than a straightforward prairie site. Same two-year wage ladder as the North Branch crew, so applying to both is sensible. Worth knowing the job board has the state wrong.",
+    "badge": "Strong fit",
+    "pills": [
+      "$18/hr rising to $20 over two years",
+      "Post-industrial wetland landscape",
+      "Apply alongside the North Branch crew",
+      "⚠️ Job board mislabels this as Texas"
+    ],
+    "metaLine": "Deadline Aug 3, 2026 · $18→$20/hr over two years · South Holland IL · Calumet wetlands",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-03",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=116849",
+        "label": "🔗 Calumet Conservation Corps Crew Member — Calumet wetland & industrial-legacy landscape — Friends of the Forest Preserves · South Holland, IL"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=116849",
+    "location": "South Holland, Illinois (Calumet region) — note: the job board mislabels this posting as Texas",
+    "pay": "$18.00 per hour, increasing incrementally to $20.00 per hour over a two-year period",
+    "stipend": "",
+    "benefits": "Open until filled; schedules vary by season and weather",
+    "id": "item-580"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Prairie Specialist — native seed production, Iowa DNR Prairie Resource Center",
+    "org": "Iowa Department of Natural Resources · Lehigh, IA",
+    "deadline": "July 31, 2026",
+    "start": "See posting",
+    "body": "Temporary position at the Iowa DNR Prairie Resource Center assisting with production of more than 100 species of local-ecotype native grass and wildflower seed for Iowa’s public lands. Duties include propagation at greenhouse and plot areas and assisting with harvest, storage, cleaning and processing of seed. Requires plant identification skills and the ability to lead others.",
+    "desc": "Native seed production sits upstream of every restoration project she might later run, and working with more than 100 local-ecotype species is a fast route to real plant identification depth — the most common gap on a GIS-heavy resume. Pay is low and the role is temporary, so weigh it as training.",
+    "badge": "Good fit",
+    "pills": [
+      "Deep plant identification training",
+      "100+ local-ecotype species",
+      "State agency resource centre",
+      "⚠️ Low pay, temporary"
+    ],
+    "metaLine": "Deadline Jul 31, 2026 · from $15.25/hr · Lehigh IA · 100+ species native seed production",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117408",
+        "label": "🔗 Prairie Specialist — native seed production, Iowa DNR Prairie Resource Center — Iowa Department of Natural Resources · Lehigh, IA"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117408",
+    "location": "Lehigh, Iowa (Brushy Creek)",
+    "pay": "Starting at $15.25 per hour",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-581"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Ecological Technician — permanent restoration work with full benefits",
+    "org": "Native Resource Preservation LLC (NRP) · West Saint Paul or Marshall/Clarkfield, MN",
+    "deadline": "August 19, 2026 — reviewed on a rolling basis until filled",
+    "start": "See posting",
+    "body": "Full-time permanent ecological restoration and land management position with a Minnesota firm of ecologists, equipment operators and fire practitioners. Requires a pesticide applicator’s licence (categories A, F, J) with support available, an MN DOT health card, first aid and CPR within six months, and MN UTV certification within 30 days.",
+    "desc": "Permanent rather than seasonal, with health insurance, a 401(k) match and — unusually — employer-funded gear and training stipends, which means the certifications she needs get paid for. The documented pay uplift on government contracts can nearly double the base rate. This is one of the few genuinely stable restoration jobs in the batch.",
+    "badge": "Good fit",
+    "pills": [
+      "Permanent, not seasonal",
+      "Health insurance + 401(k) match",
+      "Employer-funded certifications and gear",
+      "Documented uplift on government contracts"
+    ],
+    "metaLine": "Deadline Aug 19, 2026 · $19/hr (+$9–$14 on gov contracts) · Twin Cities MN · PERMANENT with benefits",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-19",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-ecological-technician-west-saint-paul-minnesota/1388394287",
+        "label": "🔗 Ecological Technician — permanent restoration work with full benefits — Native Resource Preservation LLC (NRP) · West Saint Paul or Marshall/Clarkfield, MN"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-ecological-technician-west-saint-paul-minnesota/1388394287",
+    "location": "West Saint Paul or Marshall/Clarkfield, Minnesota",
+    "pay": "$19.00 per hour; team members on specific government-funded contracts may earn an additional $9–$14+ per hour for applicable project time",
+    "stipend": "",
+    "benefits": "Health insurance, 401(k) with match, PTO, employer-paid life insurance, per diem for overnight travel, and annual gear and professional training stipends",
+    "id": "item-582"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Ecological Operator Technician — permanent, equipment-operating restoration role",
+    "org": "Native Resource Preservation LLC (NRP) · West Saint Paul or Marshall/Clarkfield, MN",
+    "deadline": "August 19, 2026 — reviewed on a rolling basis until filled",
+    "start": "See posting",
+    "body": "Equipment-operating counterpart to NRP’s Ecological Technician role, full-time and permanent, working under the company’s \"Light on the Land\" habitat conservation and restoration philosophy. Same benefits package: health insurance, 401(k) match, PTO, employer-paid life insurance, per diem for overnight travel, and annual gear and professional training stipends. Applications reviewed on a rolling basis until filled.",
+    "desc": "The same permanent-with-benefits structure as the technician role at a dollar more per hour, for someone willing to run equipment. Machine operation is a genuinely scarce skill on restoration crews and it travels well — worth applying to both postings and letting them decide which fits.",
+    "badge": "Good fit",
+    "pills": [
+      "$1/hr above the technician role",
+      "Permanent with full benefits",
+      "Equipment operation is a scarce skill",
+      "Apply alongside the technician posting"
+    ],
+    "metaLine": "Deadline Aug 19, 2026 · $20/hr (+$9–$14 on gov contracts) · Twin Cities MN · PERMANENT with benefits",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-19",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-ecological-operator-technician-west-saint-paul-minnesota/4054029989",
+        "label": "🔗 Ecological Operator Technician — permanent, equipment-operating restoration role — Native Resource Preservation LLC (NRP) · West Saint Paul or Marshall/Clarkfield, MN"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-ecological-operator-technician-west-saint-paul-minnesota/4054029989",
+    "location": "West Saint Paul or Marshall/Clarkfield, Minnesota",
+    "pay": "$20.00 per hour; team members on specific government-funded contracts may earn an additional $9–$14+ per hour for applicable project time",
+    "stipend": "",
+    "benefits": "Health insurance, 401(k) with match, PTO, employer-paid life insurance, per diem for overnight travel, and annual gear and professional training stipends",
+    "id": "item-583"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Environmental Restoration Technician — shoreline & rain garden restoration",
+    "org": "Natural Shore Technologies · Independence, MN",
+    "deadline": "August 14, 2026",
+    "start": "See posting",
+    "body": "Seasonal technician with a leading Twin Cities ecological restoration company specialising in design, installation and maintenance of shorelines, prairies, rain gardens and other natural landscapes for public agencies, commercial clients and residential customers. The company also runs a nursery producing Minnesota native plants.",
+    "desc": "Shoreline stabilisation and rain gardens are applied water-quality work — keeping sediment and nutrients out of lakes is the whole point of the practice, which connects directly to her capstone subject from the prevention side. The in-house native plant nursery also means real plant identification exposure. Pay is not published.",
+    "badge": "Good fit",
+    "pills": [
+      "Applied water-quality restoration",
+      "Shoreline stabilisation and rain gardens",
+      "In-house native plant nursery",
+      "⚠️ Pay not published"
+    ],
+    "metaLine": "Deadline Aug 14, 2026 · pay not published · Independence MN · shoreline + rain garden restoration",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-14",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-environmental-restoration--technician--seasonal-independence-minnesota/9847316503",
+        "label": "🔗 Environmental Restoration Technician — shoreline & rain garden restoration — Natural Shore Technologies · Independence, MN"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-environmental-restoration--technician--seasonal-independence-minnesota/9847316503",
+    "location": "Independence, Minnesota (Twin Cities area)",
+    "pay": "Pay not published on the posting — confirm with the employer",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-584"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Pollinator Survey Assistant — GPS protocol surveys on a DoD installation",
+    "org": "University of Montana · Center for Integrated Research on the Environment · Scott Air Force Base, IL",
+    "deadline": "July 31, 2026",
+    "start": "See posting",
+    "body": "Conducts standardised adult pollinator surveys, vegetation surveys and habitat assessments using established scientific field protocols, identifies common pollinator insects and flowering plants, and collects and manages field data to ensure data quality and integrity. Uses GPS units and mobile data collection platforms to document survey observations.",
+    "desc": "Protocol-driven survey work with GPS and mobile data collection on a Department of Defense installation is federal-adjacent experience with an explicit GIS component, administered through a university research centre. Military installations are quietly major landholders, and knowing how their natural-resources programmes work is a useful niche.",
+    "badge": "Good fit",
+    "pills": [
+      "Standardised protocol surveys",
+      "GPS and mobile data collection",
+      "DoD installation — federal-adjacent",
+      "⚠️ Pay not published"
+    ],
+    "metaLine": "Deadline Jul 31, 2026 · pay not published · Scott AFB IL · GPS protocol surveys, DoD installation",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-pollinator-survey-assistant-center-for-integrated-research-on-the-environment-scott-air-force-base-illinois/1900662375",
+        "label": "🔗 Pollinator Survey Assistant — GPS protocol surveys on a DoD installation — University of Montana · Center for Integrated Research on the Environment · Scott Air Force Base, IL"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-pollinator-survey-assistant-center-for-integrated-research-on-the-environment-scott-air-force-base-illinois/1900662375",
+    "location": "Scott Air Force Base, Illinois",
+    "pay": "Pay not published on the posting — confirm with CIRE",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-585"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Fire and Stewardship Crew Member — prescribed burn operations",
+    "org": "The Nature Conservancy · El Dorado Springs, MO",
+    "deadline": "August 21, 2026",
+    "start": "See posting",
+    "body": "Assists in ecological stewardship practices such as woody encroachment reduction, invasive species control and preserve maintenance, and participates in prescribed fire operations including ignition, control, post-ignition operations, suppression and monitoring. Also prepares fire lines, maintains equipment, and is expected to keep current on new burn and stewardship techniques as ongoing professional development.",
+    "desc": "The Nature Conservancy is a marquee name on a conservation resume and this is one of very few entry-accessible TNC field roles currently posted anywhere in the Midwest — their listings skew heavily to director and manager level. Full participation in burn operations including ignition is substantial fire experience, not just line prep.",
+    "badge": "Good fit",
+    "pills": [
+      "Rare entry-level TNC field role",
+      "Full burn operations including ignition",
+      "Marquee name on a resume",
+      "⚠️ Pay not published"
+    ],
+    "metaLine": "Deadline Aug 21, 2026 · pay not published · El Dorado Springs MO · full prescribed burn operations",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-21",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-fire-and-stewardship-crew-member-el-dorado-springs-missouri/6575657682",
+        "label": "🔗 Fire and Stewardship Crew Member — prescribed burn operations — The Nature Conservancy · El Dorado Springs, MO"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-fire-and-stewardship-crew-member-el-dorado-springs-missouri/6575657682",
+    "location": "El Dorado Springs, Missouri",
+    "pay": "Pay not published on the posting — TNC does not publish salaries on this board",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-586"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Environmental Monitor — energy project compliance (highest hourly in this batch)",
+    "org": "EDR · Ohio (with occasional New York State work)",
+    "deadline": "August 1, 2026",
+    "start": "See posting",
+    "body": "Environmental Monitor joining EDR’s Environmental Services group on large-scale energy project-based assignments mainly in Ohio. EDR is a woman-owned, multidisciplinary site design, engineering and environmental consulting firm founded in 1979, with an office in Columbus, Ohio. Qualified individuals hold an undergraduate degree in environmental science, natural resource management or forestry, agricultural engineering, or construction management.",
+    "desc": "The highest hourly rate of any no-experience-required posting in the Midwest batch, and the qualification list names environmental science first. Construction-phase environmental monitoring is where erosion and sediment control gets enforced in practice — the applied side of the wetland and stormwater regulation her Corps training touches.",
+    "badge": "Good fit",
+    "pills": [
+      "$25–$40 per hour — highest here",
+      "Names environmental science degree",
+      "Erosion and sediment compliance",
+      "No experience required"
+    ],
+    "metaLine": "Deadline Aug 1, 2026 · $25–$40/hr · Ohio · names environmental science as qualifying",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-01",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=115899",
+        "label": "🔗 Environmental Monitor — energy project compliance (highest hourly in this batch) — EDR · Ohio (with occasional New York State work)"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=115899",
+    "location": "Ohio, with occasional New York State work (office in Columbus, OH)",
+    "pay": "$25 to $40 per hour",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-587"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Forestry Field Technician — federal FIA & Common Stand Exam protocols",
+    "org": "MTM Environmental, LLC · Redmondville, MO (travel to National Forests nationwide)",
+    "deadline": "August 3, 2026",
+    "start": "See posting",
+    "body": "Conducts forest inventory and stand examination projects on National Forests throughout the continental U.S., including Common Stand Exams and Forest Inventory and Analysis protocols. Collects data on site conditions, regeneration, stocking, stand composition and tree characteristics to support Forest Service management decisions. Extensive travel; described as ideal for those entering forestry or natural resources careers.",
+    "desc": "FIA and Common Stand Exam are the Forest Service’s own national protocols, so this is federal-standard data collection on federal land without needing a federal appointment — a strong signal on a later USAJOBS application. Extensive travel is the trade-off, though she has already stated willingness to relocate.",
+    "badge": "Good fit",
+    "pills": [
+      "Federal FIA and CSE protocols",
+      "Work on National Forests nationwide",
+      "Strong signal for later federal applications",
+      "⚠️ Extensive travel required"
+    ],
+    "metaLine": "Deadline Aug 3, 2026 · from $18/hr · nationwide National Forests · federal FIA protocols",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-03",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117600",
+        "label": "🔗 Forestry Field Technician — federal FIA & Common Stand Exam protocols — MTM Environmental, LLC · Redmondville, MO (travel to National Forests nationwide)"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117600",
+    "location": "Redmondville, Missouri — extensive travel to National Forests across the continental U.S.",
+    "pay": "Starting at $18 per hour",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-588"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Natural Areas Stewardship Coordinator — Warbler Ridge Conservation Area",
+    "org": "Grand Prairie Friends · Charleston, IL",
+    "deadline": "August 8, 2026",
+    "start": "See posting",
+    "body": "Hands-on land management leader advancing conservation outcomes across east-central Illinois, spending roughly 80 percent of time at Warbler Ridge Conservation Area and the remainder across a 130-mile, nine-county service area of prairies, savannas, forests and conservation lands. Partners with the Natural Areas Manager to implement land management plans and lead stewardship operations. The experience target is at least three years at supervisor level.",
+    "desc": "A $50,000 land-trust stewardship role worth a stretch application if she can frame her AmeriCorps NCCC crew leadership as the supervisory experience being asked for — that is a legitimate framing, not a stretch of the truth. Eighty percent field time at a single conservation area means real ownership rather than scattered assignments.",
+    "badge": "Good fit",
+    "pills": [
+      "From $50,000 per year",
+      "80% field time at one conservation area",
+      "NCCC crew leadership is the framing",
+      "⚠️ 3 years supervisory listed"
+    ],
+    "metaLine": "Deadline Aug 8, 2026 · from $50,000 · Charleston IL · ⚠️ 3 yrs supervisory listed",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-08",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=116390",
+        "label": "🔗 Natural Areas Stewardship Coordinator — Warbler Ridge Conservation Area — Grand Prairie Friends · Charleston, IL"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=116390",
+    "location": "Charleston, Illinois (nine-county central Illinois service area)",
+    "pay": "Starting at $50,000 per year",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-589"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Stewards VISTA — Village of Corning, post-mining Appalachian Ohio (AmeriCorps)",
+    "org": "Conservation Legacy / Stewards Individual Placements · Corning, OH",
+    "deadline": "August 3, 2026",
+    "start": "See posting",
+    "body": "365-day AmeriCorps VISTA term (September 8, 2026 to September 7, 2027) with the Village of Corning, Ohio, an Appalachian community shaped by coal mining and rail history. The programme is dedicated to rebuilding infrastructure, expanding municipal services and advancing sustainable redevelopment, guided by community self-determination and rural revitalisation values. A Bachelor’s is required with no experience.",
+    "desc": "A post-mining landscape carries the same underlying problem her capstone documented — legacy contamination moving through a watershed — even though this role is community development rather than sampling. The published living allowance and education award are concrete, and Appalachian Ohio is close in character to where she studied.",
+    "badge": "Good fit",
+    "pills": [
+      "~$24,962 per year published",
+      "Segal Education Award",
+      "Post-mining landscape context",
+      "⚠️ Community development, not field science"
+    ],
+    "metaLine": "Deadline Aug 3, 2026 · $68.39/day (~$24,962/yr) · Corning OH · post-mining Appalachian community",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-03",
+    "region": "Midwest & Great Plains",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=115932",
+        "label": "🔗 Stewards VISTA — Village of Corning, post-mining Appalachian Ohio (AmeriCorps) — Conservation Legacy / Stewards Individual Placements · Corning, OH"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=115932",
+    "location": "Corning, Ohio (Appalachian Ohio)",
+    "pay": "",
+    "stipend": "$68.39 per day ($24,962.35 per year)",
+    "benefits": "365-day AmeriCorps VISTA term; Segal Education Award on completion",
+    "id": "item-590"
   }
 ]
