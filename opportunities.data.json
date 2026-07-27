@@ -19485,7 +19485,7 @@
     },
     "title": "USDA Forest Service Geospatial Fellow — Interactive Application and Content Publishing",
     "org": "USDA Forest Service Northern Research Station via ORISE / Oak Ridge Associated Universities",
-    "deadline": "July 31, 2026",
+    "deadline": "Closed — the real Zintellect deadline was June 5, 2026 (the Texas A&M board showed a stale July 31 date). USDA-FS reissues this fellowship annually; watch the Zintellect reference code for the next cycle.",
     "start": "See posting",
     "body": "An ORISE fellowship with the Forest Service Northern Research Station building and publishing interactive geospatial web applications and content. Explicitly remote, with the participant working from home and occasional travel to a Forest Service office. Bachelor's degree accepted, no prior professional experience required; applications are reviewed on a rolling basis and the posting can close early.",
     "desc": "A federal geospatial fellowship you can do from anywhere is a rare thing, and this one is squarely GIS work — building and publishing interactive spatial applications for the Forest Service Northern Research Station. It accepts a bachelor's with no experience. Two warnings: the stipend is not published anywhere on the listing, so you would need to ask; and ORISE postings review on a rolling basis and have closed early on volume before. The deadline is July 31, so this is a this-week decision.",
@@ -19498,8 +19498,8 @@
       "⚠️ Stipend not published · ⏰ closes July 31, can close EARLY"
     ],
     "metaLine": "Deadline July 31, 2026 · ORISE · FULLY REMOTE · ⏰ Jul 31 · Fully remote (occasional site visits within Forest Service Regions 8 and 9)",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "National / Remote / Multiple",
     "links": [
@@ -19513,7 +19513,8 @@
     "pay": "Not published — confirm with the employer",
     "stipend": "",
     "benefits": "Confirm benefits with the employer",
-    "id": "item-442"
+    "id": "item-442",
+    "expired": true
   },
   {
     "type": "Internship",
@@ -19526,7 +19527,7 @@
     },
     "title": "EPA Airborne PFAS Toxicology Fellowship",
     "org": "U.S. EPA Office of Air and Radiation via ORISE / Oak Ridge Associated Universities",
-    "deadline": "July 31, 2026",
+    "deadline": "Closed — the real Zintellect deadline was July 5, 2026 (the Texas A&M board showed a stale July 31 date). EPA reissues these fellowships; watch the Zintellect reference code for the next cycle.",
     "start": "See posting",
     "body": "ORISE research fellowship in EPA's Impacts and Ambient Standards Division supporting exposure and risk assessment for hazardous air pollutants and PFAS, feeding into National Ambient Air Quality Standards review. Bachelor's degree accepted with no experience required; anticipated start on or after September 1, 2026. Applications reviewed on a rolling basis and the posting may close before the stated deadline.",
     "desc": "PFAS and hazardous air pollutants are a different medium from river sediment, but the analytical question is the one your capstone asked: how much of a contaminant is present, who is exposed, and what does that mean for a standard. This feeds directly into EPA's air quality standards review, which is policy-facing science of a kind that is hard to get near this early. Durham is also close to home if that matters. The stipend is unpublished and it closes July 31.",
@@ -19539,8 +19540,8 @@
       "⚠️ Stipend not published · ⏰ closes July 31"
     ],
     "metaLine": "Deadline July 31, 2026 · ORISE · contaminant risk assessment · ⏰ Jul 31 · Durham, North Carolina or Washington, DC",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "National / Remote / Multiple",
     "links": [
@@ -19554,7 +19555,8 @@
     "pay": "Not published — confirm with the employer",
     "stipend": "",
     "benefits": "Confirm benefits with the employer",
-    "id": "item-443"
+    "id": "item-443",
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -21758,5 +21760,456 @@
     "stipend": "$500 per week",
     "benefits": "Confirm housing and benefits with the employer",
     "id": "item-497"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Pathways Recent Graduates Program — standing federal search (SOURCE: set a daily alert)",
+    "org": "U.S. Office of Personnel Management · all federal agencies · nationwide",
+    "deadline": "Rolling — individual announcements are often open only 3–5 days. Her eligibility window closes ~May 2027.",
+    "start": "Varies by announcement",
+    "body": "Pathways Recent Graduates announcements are restricted to people who finished a qualifying degree within the previous two years. Erin graduated in May 2025, which keeps her eligible until roughly May 2027. Announcements appear and close fast — many are open only three to five days — and are scattered across agencies, so the practical approach is a saved USAJOBS search filtered to the \"graduates\" hiring path plus the 0401, 0404, 1315, 0486 and 0408 series, with daily email alerts. Recent Graduate appointments can convert to permanent competitive-service positions.",
+    "desc": "This is a recurring source card rather than a single job, and it is the most time-sensitive thing on her whole list — not because a deadline is close, but because her eligibility itself expires. The Pathways route is the single cheapest way into permanent federal employment, it is restricted to people in exactly her situation, and the door closes around May 2027. Because individual announcements often stay open only three to five days, browsing occasionally will miss them; the daily saved-search alert is the entire point of this card.",
+    "badge": "Top recommendation",
+    "pills": [
+      "⚠️ Eligibility window closes ~May 2027",
+      "Converts to permanent federal employment",
+      "Announcements open only 3–5 days — set a DAILY alert",
+      "Filter: graduates path + series 0401/0404/1315/0486/0408",
+      "Nationwide"
+    ],
+    "metaLine": "SOURCE · rolling · federal GS pay · nationwide · ⚠️ eligibility expires ~May 2027",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "National / Remote / Multiple",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/Search/Results?hp=graduates",
+        "label": "🔗 Pathways Recent Graduates Program — standing federal search (SOURCE: set a daily alert) — U.S. Office of Personnel Management · all federal agencies · nationwide"
+      }
+    ],
+    "url": "https://www.usajobs.gov/Search/Results?hp=graduates",
+    "location": "Multiple locations, nationwide (many announcements list \"Multiple Locations\" or \"Location Negotiable\")",
+    "pay": "Federal GS pay, varies by series, grade and locality",
+    "stipend": "",
+    "benefits": "Full federal benefits; Recent Graduate appointments can convert to permanent competitive-service positions",
+    "id": "item-498"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "ERDC Coastal & Hydraulics Lab — post-wildfire flooding risk, resilience & mitigation",
+    "org": "U.S. Army Engineer Research and Development Center (ERDC-CHL) · via ORISE",
+    "deadline": "August 1, 2026",
+    "start": "Flexible; 12-month appointment",
+    "body": "Twelve-month ORISE research appointment, full or part time, with the Army Corps of Engineers Coastal & Hydraulics Laboratory, which researches ocean, estuarine, riverine and watershed systems. The project focuses on post-wildfire flooding risk and community resilience, recovery and mitigation. Eligibility is a Bachelor’s, Master’s or Doctoral degree received within the last 60 months, U.S. citizen or lawful permanent resident, in Environmental and Marine Sciences, Engineering or Social and Behavioral Sciences.",
+    "desc": "This is the closest structural match to her capstone that the sweep has turned up: post-disaster watershed hydrology, studying how a landscape-scale disturbance changes flood and contaminant behaviour downstream. That is the Pigeon River and Hurricane Helene story with the disturbance type swapped. It accepts a Bachelor’s with no experience requirement and sits inside the Army Corps research establishment. The deadline is August 1, so this is a days-not-weeks decision.",
+    "badge": "Top recommendation",
+    "pills": [
+      "⏰ Closes August 1, 2026",
+      "Post-wildfire flood risk — mirrors her Helene capstone",
+      "BS accepted, no experience required",
+      "Army Corps research laboratory",
+      "⚠️ Stipend not published"
+    ],
+    "metaLine": "⏰ Deadline Aug 1, 2026 · stipend not published · 12 months · post-disaster watershed hydrology",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-01",
+    "region": "National / Remote / Multiple",
+    "links": [
+      {
+        "href": "https://www.zintellect.com/Opportunity/Details/ERDC-CHL-2026-0004",
+        "label": "🔗 ERDC Coastal & Hydraulics Lab — post-wildfire flooding risk, resilience & mitigation — U.S. Army Engineer Research and Development Center (ERDC-CHL) · via ORISE"
+      }
+    ],
+    "url": "https://www.zintellect.com/Opportunity/Details/ERDC-CHL-2026-0004",
+    "location": "ERDC Coastal & Hydraulics Laboratory (duty location not specified in the posting)",
+    "pay": "",
+    "stipend": "Stipend not published on the posting — ORISE sets it by degree level and location",
+    "benefits": "Twelve-month appointment, full or part time; ORISE appointments typically include a health insurance supplement",
+    "id": "item-499"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "ERDC Environmental Laboratory — post-bachelor research appointments (standing pool)",
+    "org": "U.S. Army Engineer Research and Development Center (ERDC-EL) · via ORISE",
+    "deadline": "Rolling — standing pool with no posted closing date; reference codes are reissued each year",
+    "start": "Flexible",
+    "body": "Open-ended ORISE research appointment, part or full time and up to twelve months with extension possible, with the Army Corps of Engineers Environmental Laboratory. The laboratory works on ecosystem science and technology, environmental resiliency, environmental sensing, ecological modeling and forecasting, and risk and decision science. Eligibility is a Bachelor’s or Master’s degree received within the last 60 months with a minimum 2.50 GPA, and disciplines explicitly include Environmental and Marine Sciences and Earth and Geosciences.",
+    "desc": "ERDC-EL is the Army Corps research arm behind the wetland delineation manual Erin was actually trained on, which makes this an unusually direct institutional fit rather than a thematic one. Because it is a standing pool with no closing date, the right move is to apply now and set a watch on the reference code, since ERDC reissues these each year. The 2.50 GPA floor is far below her 3.731, so eligibility is not in question here — visibility is.",
+    "badge": "Strong fit",
+    "pills": [
+      "The lab behind the wetland delineation manual",
+      "Standing pool — apply now, set an alert",
+      "BS within 60 months, 2.50 GPA floor",
+      "Up to 12 months, extendable",
+      "⚠️ Stipend not published"
+    ],
+    "metaLine": "SOURCE · rolling standing pool · stipend not published · Army Corps Environmental Laboratory",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "National / Remote / Multiple",
+    "links": [
+      {
+        "href": "https://www.zintellect.com/Opportunity/Details/ERDC-EL-2026-0004",
+        "label": "🔗 ERDC Environmental Laboratory — post-bachelor research appointments (standing pool) — U.S. Army Engineer Research and Development Center (ERDC-EL) · via ORISE"
+      }
+    ],
+    "url": "https://www.zintellect.com/Opportunity/Details/ERDC-EL-2026-0004",
+    "location": "ERDC Environmental Laboratory sites (duty location not specified in the posting)",
+    "pay": "",
+    "stipend": "Stipend not published on the posting — ORISE sets it by degree level and location",
+    "benefits": "Appointments up to twelve months, extendable, part or full time",
+    "id": "item-500"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "ERDC Construction Engineering Research Lab — fall/winter geospatial research internship",
+    "org": "U.S. Army Engineer Research and Development Center (ERDC-CERL) · via ORISE",
+    "deadline": "Rolling — no posted closing date; a Spring/Summer version is reposted each winter",
+    "start": "Fall/winter",
+    "body": "Standing fall and winter ORISE internship pool with ERDC-CERL, which works on geospatial research and engineering, training-land management, and civil works for Department of Defense installations. Degree eligibility is wide, from high school through doctoral, received within the last 60 months or currently being pursued, and disciplines include Earth and Geosciences and Environmental and Marine Sciences. Appointments run up to twelve months, part or full time, with a health insurance supplement, relocation allowance and travel allowance.",
+    "desc": "Military installations are quietly one of the largest natural-resource landholdings in the country, and CERL is where the geospatial and training-land management research for them happens. That makes this a strong landing spot for her GIS and multi-criteria suitability work specifically, rather than for her field skills. The published benefits are better than most ORISE listings — health supplement plus relocation and travel allowances — and because it is a rolling pool there is no cycle to miss.",
+    "badge": "Strong fit",
+    "pills": [
+      "Geospatial research and training-land management",
+      "Relocation and travel allowances published",
+      "Standing pool — no cycle to miss",
+      "Up to 12 months",
+      "⚠️ Stipend not published"
+    ],
+    "metaLine": "SOURCE · rolling · stipend not published · geospatial research · relocation allowance included",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "National / Remote / Multiple",
+    "links": [
+      {
+        "href": "https://www.zintellect.com/Opportunity/Details/ERDC-CERL-2026-0004",
+        "label": "🔗 ERDC Construction Engineering Research Lab — fall/winter geospatial research internship — U.S. Army Engineer Research and Development Center (ERDC-CERL) · via ORISE"
+      }
+    ],
+    "url": "https://www.zintellect.com/Opportunity/Details/ERDC-CERL-2026-0004",
+    "location": "ERDC Construction Engineering Research Laboratory (duty location not specified in the posting)",
+    "pay": "",
+    "stipend": "Stipend not published on the posting — ORISE sets it by degree level and location",
+    "benefits": "Health insurance supplement, relocation allowance and travel allowance; appointments up to twelve months, part or full time",
+    "id": "item-501"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "GIS & Geospatial Data Internship — Fort Huachuca Army garrison",
+    "org": "U.S. Army Environmental Command (USAEC) · via ORISE · Fort Huachuca, AZ",
+    "deadline": "Rolling — no posted closing date; USAEC reposts numbered variants as projects open",
+    "start": "Flexible; twelve-month renewable",
+    "body": "Twelve-month, renewable, full-time ORISE internship in geospatial data management and map making for the Army garrison at Fort Huachuca, an 80,000-acre installation spanning several environmental zones from high-elevation desert grassland to the Huachuca Mountains. Eligibility is an Associate’s, Bachelor’s or Master’s degree received within the last 36 months with a minimum 3.00 GPA. There is no posted closing date; USAEC reposts numbered variants as projects open.",
+    "desc": "This is the rare posting that is purely GIS rather than field work with a mapping component, which makes it the cleanest test of whether she wants to specialise in that direction. An 80,000-acre installation crossing desert grassland to montane forest is a genuinely interesting mapping problem rather than a data-entry job. Her 3.731 clears the 3.00 floor comfortably and her May 2025 degree sits inside the tighter 36-month window this one uses. Note it is in person in southern Arizona, not remote.",
+    "badge": "Strong fit",
+    "pills": [
+      "Pure GIS and geospatial role",
+      "80,000-acre installation, desert to montane",
+      "3.00 GPA floor — she clears it",
+      "36-month degree window",
+      "⚠️ Stipend not published · in person"
+    ],
+    "metaLine": "SOURCE · rolling · stipend not published · Fort Huachuca AZ · pure GIS role · 3.0 GPA floor",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://www.zintellect.com/Opportunity/Details/Army-AEC-2025-0004",
+        "label": "🔗 GIS & Geospatial Data Internship — Fort Huachuca Army garrison — U.S. Army Environmental Command (USAEC) · via ORISE · Fort Huachuca, AZ"
+      }
+    ],
+    "url": "https://www.zintellect.com/Opportunity/Details/Army-AEC-2025-0004",
+    "location": "Fort Huachuca, Arizona (in person)",
+    "pay": "",
+    "stipend": "Stipend not published on the posting — ORISE sets it by degree level and location",
+    "benefits": "Twelve-month appointment, renewable, full time",
+    "id": "item-502"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "DOE Scholars Program — 2026 Gen2 call (Environmental Management placements)",
+    "org": "U.S. Department of Energy · via ORISE-ORAU · DOE HQ, field offices and national laboratories",
+    "deadline": "August 17, 2026 — reviewed on a rolling basis, so apply well before the close",
+    "start": "Varies by placement",
+    "body": "DOE’s flagship national placement program, open to anyone holding a Bachelor’s degree received within the last 60 months — no graduate enrolment is required. Placement areas include Environmental Management, Energy Security and Emergency Response, with appointments available at DOE Headquarters, field offices and national laboratories across the country. Applications are reviewed on a rolling basis and early submission is explicitly encouraged.",
+    "desc": "The Environmental Management track is the relevant one: DOE’s environmental management portfolio is largely contaminated-site cleanup and long-term monitoring, which is the applied version of what her trace-metal capstone was measuring. Two things make this stand out from the other federal fellowships here — the stipend is actually published at $700 to $750 a week, and the nationwide placement network means she picks geography rather than being tied to one duty station. Because review is rolling, applying in early August rather than on the 17th materially improves her odds.",
+    "badge": "Strong fit",
+    "pills": [
+      "$700–$750 per week — published",
+      "Nationwide placement choice",
+      "Environmental Management / contaminated sites",
+      "BS within 60 months, no grad enrolment needed",
+      "Up to $1,000 relocation support"
+    ],
+    "metaLine": "Deadline Aug 17, 2026 (rolling review) · $700–$750/wk · nationwide · Environmental Management",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-17",
+    "region": "National / Remote / Multiple",
+    "links": [
+      {
+        "href": "https://www.zintellect.com/Opportunity/Details/DOE-Scholars-2026-Gen2",
+        "label": "🔗 DOE Scholars Program — 2026 Gen2 call (Environmental Management placements) — U.S. Department of Energy · via ORISE-ORAU · DOE HQ, field offices and national laboratories"
+      }
+    ],
+    "url": "https://www.zintellect.com/Opportunity/Details/DOE-Scholars-2026-Gen2",
+    "location": "Multiple locations, nationwide (DOE Headquarters in Washington DC, DOE field offices, and national laboratories)",
+    "pay": "",
+    "stipend": "Stipends start at $700 per week for undergraduates and $750 per week for graduate students and postgraduates",
+    "benefits": "Up to $1,000 relocation support for participants moving more than 50 miles",
+    "id": "item-503"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "NIEHS Health and Extreme Weather (HEW) Intramural Scholars Program",
+    "org": "National Institutes of Health · NIEHS · via ORISE",
+    "deadline": "Rolling — reviewed as mentors post projects",
+    "start": "Flexible",
+    "body": "A new NIEHS initiative training early-career scientists to research how extreme weather events affect human health and the environment. Open to Bachelor’s, Master’s or Doctoral degree holders within the last five years, including Environmental and Marine Sciences. One-year appointments, renewable, with flexible start dates, a competitive stipend set by NIEHS, a health insurance allowance and potential travel and conference reimbursement.",
+    "desc": "Her capstone was, in substance, an extreme-weather environmental exposure study: a hurricane remobilised lead and trace metals into a river system that people live alongside. That is exactly the question this new NIEHS program was created to fund, and being early to a brand-new initiative usually means a thinner applicant pool. The health-and-environment framing also opens a door she may not have considered — environmental health is a well-funded route into contamination work that does not require a wildlife biology track.",
+    "badge": "Strong fit",
+    "pills": [
+      "Brand-new program — thinner applicant pool",
+      "Extreme-weather exposure = her capstone subject",
+      "BS within 5 years",
+      "Health insurance allowance + conference travel",
+      "⚠️ Exact stipend not published"
+    ],
+    "metaLine": "SOURCE · rolling · stipend not published · extreme weather & environmental health",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "National / Remote / Multiple",
+    "links": [
+      {
+        "href": "https://www.zintellect.com/Opportunity/Details/NIH-NIEHS-HEW-2026-0001",
+        "label": "🔗 NIEHS Health and Extreme Weather (HEW) Intramural Scholars Program — National Institutes of Health · NIEHS · via ORISE"
+      }
+    ],
+    "url": "https://www.zintellect.com/Opportunity/Details/NIH-NIEHS-HEW-2026-0001",
+    "location": "Multiple locations (NIH Institutes and Centers in the NIH Intramural Research Program)",
+    "pay": "",
+    "stipend": "Competitive stipend set by NIEHS — exact figure not published on the posting",
+    "benefits": "One-year appointments, renewable, with a health insurance allowance and potential travel and conference reimbursement",
+    "id": "item-504"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Biological Science Laboratory Technician (Insect), GS-6 — three duty stations",
+    "org": "USDA Animal and Plant Health Inspection Service · Sarasota FL, Waimanalo HI, Brighton MI",
+    "deadline": "⏰ July 29, 2026",
+    "start": "See announcement",
+    "body": "Technical support role across laboratory and field settings covering production, research and operations, including insect rearing and sterilization, at three widely separated duty stations. Open to the public at GS-6, which a bachelor’s degree plus limited experience can reach. This is one of the very few genuinely entry-grade multi-state federal science announcements currently open.",
+    "desc": "Most federal announcements that look open to her turn out to be GS-9 or merit-promotion only. This one is genuinely GS-6 and genuinely open to the public, which makes it one of the few realistic permanent federal appointments on the list. Applying once puts her in the running for three very different locations. The subject matter is insect rearing rather than wetlands, but the strategic value is the federal appointment itself — once inside, internal transfers to natural-resource series become far easier. Closes July 29, so it is a two-day window.",
+    "badge": "Strong fit",
+    "pills": [
+      "⏰ Closes July 29 — two-day window",
+      "Genuinely GS-6 and open to the public",
+      "Permanent federal appointment",
+      "Three duty stations, one application",
+      "Full federal benefits"
+    ],
+    "metaLine": "⏰ Deadline Jul 29, 2026 · $45,409–$65,113 · GS-6 permanent federal · FL / HI / MI",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-29",
+    "region": "National / Remote / Multiple",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/877515800",
+        "label": "🔗 Biological Science Laboratory Technician (Insect), GS-6 — three duty stations — USDA Animal and Plant Health Inspection Service · Sarasota FL, Waimanalo HI, Brighton MI"
+      }
+    ],
+    "url": "https://www.usajobs.gov/job/877515800",
+    "location": "Multiple locations — Sarasota, FL; Waimanalo, HI; Brighton, MI",
+    "pay": "$45,409 to $65,113 per year (GS-6)",
+    "stipend": "",
+    "benefits": "Full federal benefits; permanent federal appointment",
+    "id": "item-505"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Environmental Protection Specialist (GS-9 to GS-12) — chemical risk management",
+    "org": "U.S. Environmental Protection Agency · Office of Chemical Safety and Pollution Prevention · Washington DC / Durham NC / Cincinnati OH",
+    "deadline": "July 31, 2026",
+    "start": "See announcement",
+    "body": "Positions in EPA’s Office of Pollution Prevention and Toxics, Existing Chemical Risk Management Division. Open to the public (hiring paths: public and fed-transition) and advertised from GS-9, which is the standard superior-academic-achievement or one-year-of-graduate-study entry grade. This is an office-centred role; the selectee reports to one of the three duty stations, chosen after selection.",
+    "desc": "Flagged Reach because GS-9 normally wants a master’s or a year of graduate study — but the superior academic achievement provision is the exception that can qualify a strong bachelor’s, and magna cum laude at 3.731 is precisely what that provision exists for. It is worth an application on those grounds alone. Chemical risk management is desk work rather than field work, which is a real trade-off to weigh, but it is adjacent to her trace-metal background and the salary floor is far above anything else at her level.",
+    "badge": "Reach",
+    "pills": [
+      "⚠️ GS-9 — apply via superior academic achievement",
+      "$64,290 floor",
+      "Three duty station options",
+      "Chemical risk management — office based",
+      "Open to the public"
+    ],
+    "metaLine": "Deadline Jul 31, 2026 · $64,290–$133,142 · GS-9 entry · DC / Durham NC / Cincinnati OH",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "National / Remote / Multiple",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/877942800",
+        "label": "🔗 Environmental Protection Specialist (GS-9 to GS-12) — chemical risk management — U.S. Environmental Protection Agency · Office of Chemical Safety and Pollution Prevention · Washington DC / Durham NC / Cincinnati OH"
+      }
+    ],
+    "url": "https://www.usajobs.gov/job/877942800",
+    "location": "Multiple locations — Washington, DC; Durham, NC; Cincinnati, OH (duty station chosen after selection)",
+    "pay": "$64,290 to $133,142 per year",
+    "stipend": "",
+    "benefits": "Full federal benefits",
+    "id": "item-506"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Wildlife Biologist (GS-9), Wildlife Services — sixteen duty locations",
+    "org": "USDA Animal and Plant Health Inspection Service · KY, LA, NV, OR, VA, WA, WV",
+    "deadline": "July 30, 2026",
+    "start": "See announcement",
+    "body": "A single announcement filling wildlife biologist positions across sixteen duty locations in seven states, doing wildlife damage management — assessment, reduction and elimination of problems associated with wild and feral species in urban, suburban and rural settings. Open to the public. Advertised at GS-9, which normally requires a master’s degree or one year of specialized experience at GS-7.",
+    "desc": "Sixteen locations across seven states on one application is unusually good leverage, and the work itself uses her small-mammal trapping and camera-trap background directly. The honest caveat is the grade: GS-9 wants a master’s or a year at GS-7, so unless she can document qualifying specialized experience this is a stretch rather than a likely hire. Worth the application anyway given the single-form-many-locations structure, but it should not displace the GS-6 APHIS technician announcement, which is the realistic one.",
+    "badge": "Reach",
+    "pills": [
+      "16 duty locations, one application",
+      "Uses her trapping and camera-trap skills",
+      "⚠️ GS-9 — normally needs an MS or GS-7 year",
+      "Open to the public",
+      "Full federal benefits"
+    ],
+    "metaLine": "Deadline Jul 30, 2026 · $61,722–$91,815 · GS-9 · 16 locations across 7 states",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-30",
+    "region": "National / Remote / Multiple",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/877854500",
+        "label": "🔗 Wildlife Biologist (GS-9), Wildlife Services — sixteen duty locations — USDA Animal and Plant Health Inspection Service · KY, LA, NV, OR, VA, WA, WV"
+      }
+    ],
+    "url": "https://www.usajobs.gov/job/877854500",
+    "location": "Multiple locations — Grand Rivers KY; Barksdale AFB & Belle Chasse LA; Fallon & Reno NV; six counties in OR; Moseley VA; Thurston County WA; Canvas & Martinsburg WV",
+    "pay": "$61,722 to $91,815 per year",
+    "stipend": "",
+    "benefits": "Full federal benefits",
+    "id": "item-507"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "AmeriCorps national listings — Environment & Natural Resources (SOURCE: weekly filtered check)",
+    "org": "AmeriCorps · my.americorps.gov · State & National, VISTA and NCCC programs nationwide",
+    "deadline": "Rolling — host programs post continuously with their own application windows",
+    "start": "Varies by placement",
+    "body": "The official AmeriCorps listing search is a real, paginated database — currently returning several hundred open and recently open positions — with filters for program type (State & National, VISTA, NCCC), service area (Environment, Natural Resources), service term and state. Because listings are posted by individual host programs with their own application windows, new environment and natural-resource placements appear continuously rather than on a national cycle.",
+    "desc": "This is the broadest single index of paid conservation service placements in the country, and it is underused because most people find corps positions through individual organisations instead. Filtering it by Environment and Natural Resources weekly surfaces placements that never reach the job boards. Her NCCC alumna status is a genuine advantage in these applications rather than just a line on the resume — host programs actively prefer returning members who already know how a service term works.",
+    "badge": "Good fit",
+    "pills": [
+      "Broadest index of paid service placements",
+      "Filter: Environment / Natural Resources",
+      "NCCC alumna status is a real advantage",
+      "State & National, VISTA and NCCC",
+      "Weekly check is the right cadence"
+    ],
+    "metaLine": "SOURCE · rolling · allowances vary · nationwide · filter to Environment & Natural Resources",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "National / Remote / Multiple",
+    "links": [
+      {
+        "href": "https://my.americorps.gov/mp/listing/publicRequestSearch.do",
+        "label": "🔗 AmeriCorps national listings — Environment & Natural Resources (SOURCE: weekly filtered check) — AmeriCorps · my.americorps.gov · State & National, VISTA and NCCC programs nationwide"
+      }
+    ],
+    "url": "https://my.americorps.gov/mp/listing/publicRequestSearch.do",
+    "location": "Multiple locations, nationwide (all 50 states)",
+    "pay": "",
+    "stipend": "Living allowances vary by placement — set by each host program, not published centrally",
+    "benefits": "Segal AmeriCorps Education Award on completion of most terms; many placements include housing",
+    "id": "item-508"
   }
 ]

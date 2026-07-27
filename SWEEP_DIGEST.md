@@ -1,25 +1,25 @@
 # Weekly opportunity sweep — 2026-07-27
 
-**Added 14 new** opportunities:
-- Botany Specialist — seed collection & native plant materials (Zion & Bryce Canyon) — _Strong_ · Southwest · deadline: Rolling — ACE fills these when a suitable candidate applies, so apply early
-- Southwest Conservation Crew Member (300/450/900-hour AmeriCorps terms) — _Good_ · Southwest · deadline: Rolling — crews start throughout the year
-- Southwest Assistant Team Leader (ATL) — conservation crew leadership — _Good_ · Southwest · deadline: Rolling — 12 or 24-week terms start throughout the year
-- Aquatic Education Coordinator — _Reach / review_ · Southwest · deadline: August 5, 2026
-- Fisheries Biologist / Technician — Tyler, TX — _Good_ · Southwest · deadline: August 30, 2026
-- Fisheries Biologist / Technician — Bryan, TX — _Good_ · Southwest · deadline: August 30, 2026
-- Natural Resources Specialist (remote work allowed) — _Good_ · Southwest · deadline: August 31, 2026
-- Crew Member — CivicGreen stormwater infrastructure & native landscape installation — _Good_ · Southwest · deadline: Rolling
-- NeighborWoods Seasonal Community Programs Assistant — _Good_ · Southwest · deadline: August 14, 2026
-- Prairie Grouse Conservation Internship — _Good_ · Southwest · deadline: March 7, 2027
-- Environmental Education Internship (Spring term) — _Good_ · Southwest · deadline: October 1, 2026 (Spring term)
-- Environmental Educator — Fall (Fenton Ranch, Jemez Mountains) — _Good_ · Southwest · deadline: August 7, 2026
-- Educator / Naturalist — avian research, raptor husbandry & rescue — _Good_ · Southwest · deadline: October 1, 2026
-- Summer Mariculture Intern — _Good_ · Southwest · deadline: December 31, 2026
+**Added 11 new** opportunities:
+- Pathways Recent Graduates Program — standing federal search (SOURCE: set a daily alert) — _Excellent_ · National / Remote / Multiple · deadline: Rolling — individual announcements are often open only 3–5 days. Her eligibility window closes ~May 2027.
+- ERDC Coastal & Hydraulics Lab — post-wildfire flooding risk, resilience & mitigation — _Excellent_ · National / Remote / Multiple · deadline: August 1, 2026
+- ERDC Environmental Laboratory — post-bachelor research appointments (standing pool) — _Strong_ · National / Remote / Multiple · deadline: Rolling — standing pool with no posted closing date; reference codes are reissued each year
+- ERDC Construction Engineering Research Lab — fall/winter geospatial research internship — _Strong_ · National / Remote / Multiple · deadline: Rolling — no posted closing date; a Spring/Summer version is reposted each winter
+- GIS & Geospatial Data Internship — Fort Huachuca Army garrison — _Strong_ · Southwest · deadline: Rolling — no posted closing date; USAEC reposts numbered variants as projects open
+- DOE Scholars Program — 2026 Gen2 call (Environmental Management placements) — _Strong_ · National / Remote / Multiple · deadline: August 17, 2026 — reviewed on a rolling basis, so apply well before the close
+- NIEHS Health and Extreme Weather (HEW) Intramural Scholars Program — _Strong_ · National / Remote / Multiple · deadline: Rolling — reviewed as mentors post projects
+- Biological Science Laboratory Technician (Insect), GS-6 — three duty stations — _Strong_ · National / Remote / Multiple · deadline: ⏰ July 29, 2026
+- Environmental Protection Specialist (GS-9 to GS-12) — chemical risk management — _Reach / review_ · National / Remote / Multiple · deadline: July 31, 2026
+- Wildlife Biologist (GS-9), Wildlife Services — sixteen duty locations — _Reach / review_ · National / Remote / Multiple · deadline: July 30, 2026
+- AmeriCorps national listings — Environment & Natural Resources (SOURCE: weekly filtered check) — _Good_ · National / Remote / Multiple · deadline: Rolling — host programs post continuously with their own application windows
 
 **⚠ Review these (reach / weak fit — your call whether to keep):**
-- Aquatic Education Coordinator — _Reach / review_ · Southwest · deadline: August 5, 2026
+- Environmental Protection Specialist (GS-9 to GS-12) — chemical risk management — _Reach / review_ · National / Remote / Multiple · deadline: July 31, 2026
+- Wildlife Biologist (GS-9), Wildlife Services — sixteen duty locations — _Reach / review_ · National / Remote / Multiple · deadline: July 30, 2026
 
-**Updated 0** (deadline / status / description changed).
+**Updated 2** (deadline / status / description changed):
+- USDA Forest Service Geospatial Fellow — Interactive Application and Content Publishing — _Excellent_ · National / Remote / Multiple · deadline: Closed — the real Zintellect deadline was June 5, 2026 (the Texas A&M board showed a stale July 31 date). USDA-FS reissues this fellowship annually; watch the Zintellect reference code for the next cycle.
+- EPA Airborne PFAS Toxicology Fellowship — _Strong_ · National / Remote / Multiple · deadline: Closed — the real Zintellect deadline was July 5, 2026 (the Texas A&M board showed a stale July 31 date). EPA reissues these fellowships; watch the Zintellect reference code for the next cycle.
 
-**Total opportunities:** 494  ·  next-cycle: 98  ·  expired (one-time, no future cycle): 17
+**Total opportunities:** 505  ·  next-cycle: 100  ·  expired (one-time, no future cycle): 19
 Triage: passed-but-recurring → `cycle:"next"`; one-time/discontinued → `expired:true`. Passed/expired are hidden on the site by default (toggle to show); never deleted, never moved to the personal Archive. Fit tiers: _Excellent_ / _Strong_ / _Good_ / _Reach / review_ (set via each entry's badge). The Browse pages render from this data automatically — no HTML edits. Nothing is live until this PR is merged.
