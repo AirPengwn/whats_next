@@ -364,6 +364,11 @@ var(--mute-t);border:1px solid var(--bds)}
 
 <script>
 var BIN='6a039aa4250b1311c33f2bac';
+/* v3.41: backups live in their OWN bin. A JSONbin bin hard-fails with 403 above
+   ~100 KB, and the old design kept snapshots inside the live bin — it filled up
+   and every backup silently 403'd for weeks. Separate bin = no size pressure on
+   live data, and a bad write to one can never touch the other. */
+var BACKUP_BIN='6a6725e1f5f4af5e29c6f5fe';
 var KEY='$2a$10$zEyOgbH7E5.fBt9UlxHh8.yPbLUnHJKEhpY2z9WCQJ1fS/WLCOBpa';
 var STORE='erin_mylist_v1';
 var mf='All'; var bf='All';
@@ -1313,12 +1318,12 @@ initPrimaryBtn();
 
   window.restoreFromSnapshot=function(){
     if(!isPrimary()){ alert('Restore is only allowed on the PRIMARY device (Erin’s laptop).'); return; }
-    fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+    fetch('https://api.jsonbin.io/v3/b/'+BACKUP_BIN+'/latest',{headers:{'X-Master-Key':KEY}})
       .then(function(r){ return r.json(); })
       .then(function(data){
         var rec=(data&&data.record)||{};
-        var bk=Array.isArray(rec.backups)?rec.backups:[];
-        if(!bk.length){ alert('No automatic snapshots exist yet. They are created once per day when Erin’s laptop is used.'); return; }
+        var bk=Array.isArray(rec.snapshots)?rec.snapshots:[];
+        if(!bk.length){ alert('No automatic snapshots exist yet. The weekly sweep creates one every Monday.'); return; }
         var lines=bk.map(function(s,i){
           var when=s.at?new Date(s.at):null;
           var label=when?when.toLocaleString():(s.day||'unknown');
@@ -1376,31 +1381,62 @@ initPrimaryBtn();
     if(kind==='warn'){ n.style.background='var(--amber-bg)'; n.style.color='var(--amber-t)'; n.style.border='1px solid var(--amber)'; }
     else { n.style.background='var(--bg2)'; n.style.color='var(--t2)'; n.style.border='.5px solid var(--bd)'; }
   }
+  /* v3.41: writes to the SEPARATE backup bin, stores a SLIM copy of `items`
+     (drops body/pills/badge — My List re-merges those from opportunities.js on
+     render), and never evicts the weekly-sweep snapshots, which are the reliable
+     ones. Daily entries are capped at 2; weekly at 4. */
+  function slimSnapItems(items){
+    var keep=['id','title','org','cat','type','deadline','src','url'], out={};
+    Object.keys(items||{}).forEach(function(id){
+      var it=items[id]||{}, s={};
+      keep.forEach(function(f){ if(it[f]!=null) s[f]=it[f]; });
+      out[id]=s;
+    });
+    return out;
+  }
   function backupRoutine(){
     fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Master-Key':KEY}})
       .then(function(r){ return r.json(); })
-      .then(function(data){
-        var rec=(data&&data.record)||{};
-        var backups=Array.isArray(rec.backups)?rec.backups:[];
+      .then(function(live){
+        var rec=(live&&live.record)||{};
         var today=new Date().toISOString().slice(0,10);
         var dueToday = isPrimary() && localStorage.getItem('erin_snap_day')!==today;
-        if(dueToday){
-          var snap={};
-          BACKUP_MAP.forEach(function(d){ if(rec[d.cloud]!=null) snap[d.cloud]=rec[d.cloud]; });
-          backups.push({ at:new Date().toISOString(), day:today, data:snap });
-          if(backups.length>SNAP_CAP) backups=backups.slice(backups.length-SNAP_CAP);
-          rec.backups=backups;
-          fetch('https://api.jsonbin.io/v3/b/'+BIN,{
-            method:'PUT',
-            headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},
-            body:JSON.stringify(rec)
-          }).then(function(){
-            localStorage.setItem('erin_snap_day',today);
-            showNudge('ok','🛟 Auto-backup saved just now · keeping the last '+SNAP_CAP+' daily snapshots.');
-          }).catch(function(){
-            showNudge('warn','⚠ Couldn’t save today’s automatic backup (connection?). Consider clicking “Export backup”.');
+        return fetch('https://api.jsonbin.io/v3/b/'+BACKUP_BIN+'/latest',{headers:{'X-Master-Key':KEY}})
+          .then(function(r){ return r.json(); })
+          .then(function(bkData){
+            var store=(bkData&&bkData.record)||{};
+            var backups=Array.isArray(store.snapshots)?store.snapshots:[];
+            if(!dueToday) return backups;
+            /* guard: never snapshot an obviously broken dataset */
+            if(Object.keys(rec.items||{}).length < 5){
+              showNudge('warn','⚠ Backup skipped — saved list looks incomplete right now. Existing snapshots kept.');
+              return backups;
+            }
+            var snap={};
+            BACKUP_MAP.forEach(function(d){ if(rec[d.cloud]!=null) snap[d.cloud]=rec[d.cloud]; });
+            if(snap.items) snap.items=slimSnapItems(snap.items);
+            backups.push({ at:new Date().toISOString(), day:today, src:'daily-app', data:snap });
+            /* keep the newest 4 weekly + newest 2 daily, chronological */
+            var weekly=backups.filter(function(s){ return s.src==='weekly-sweep'; }).slice(-4);
+            var daily =backups.filter(function(s){ return s.src!=='weekly-sweep'; }).slice(-2);
+            backups=weekly.concat(daily).sort(function(a,b){ return (a.at||'').localeCompare(b.at||''); });
+            return fetch('https://api.jsonbin.io/v3/b/'+BACKUP_BIN,{
+              method:'PUT',
+              headers:{'Content-Type':'application/json','X-Master-Key':KEY,'X-Bin-Versioning':'false'},
+              body:JSON.stringify({snapshots:backups})
+            }).then(function(res){
+              if(!res || !(res.ok||res.status===200)) throw new Error('HTTP '+(res&&res.status));
+              localStorage.setItem('erin_snap_day',today);
+              showNudge('ok','🛟 Auto-backup saved just now · '+backups.length+' snapshots kept.');
+              return backups;
+            }).catch(function(){
+              showNudge('warn','⚠ Couldn’t save today’s automatic backup. Click “Export backup” for a local copy.');
+              return backups;
+            });
           });
-        } else if(backups.length){
+      })
+      .then(function(backups){
+        if(backups && backups.length){
           var last=backups[backups.length-1];
           var ageDays=Math.floor((Date.now()-Date.parse(last.at))/864e5);
           showNudge(ageDays>=3?'warn':'ok',
