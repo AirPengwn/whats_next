@@ -17868,5 +17868,333 @@
     "stipend": "Not published — confirm with the program",
     "benefits": "AmeriCorps Segal Education Award on completion of the term",
     "id": "item-401"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "GrizzlyCorps Fellow",
+    "org": "UC Berkeley GrizzlyCorps",
+    "deadline": "July 31, 2026",
+    "start": "See posting",
+    "body": "AmeriCorps fellowship placing recent graduates with California agricultural and forestry organizations on climate resilience, watershed and land stewardship projects. Bachelor's degree required, no prior experience needed.",
+    "desc": "AmeriCorps terms usually mean living on a stipend that barely covers rent; this one pays up to $34,450, which is more than several salaried entry-level jobs on your list. GrizzlyCorps places recent graduates with California agricultural and forestry organisations on climate resilience and watershed projects, so the work itself is on-profile rather than a compromise you make for the pay. UC Berkeley runs it, which carries weight. The deadline is July 31, so this belongs in the same urgent pile as the two July 29 applications.",
+    "badge": "Strong fit",
+    "pills": [
+      "Highest-paying AmeriCorps term found anywhere",
+      "Up to $34,450/yr",
+      "Climate resilience, watershed & land stewardship",
+      "BS required, zero experience needed",
+      "⏰ Deadline July 31 — days away"
+    ],
+    "metaLine": "Deadline July 31, 2026 · AmeriCorps · up to $34,450 · ⏰ Jul 31 · California (statewide placements)",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=115230",
+        "label": "🔗 GrizzlyCorps Fellow — UC Berkeley GrizzlyCorps"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=115230",
+    "location": "California (statewide placements)",
+    "pay": "",
+    "stipend": "up to $34,450 per year",
+    "benefits": "AmeriCorps Segal Education Award on completion of the term",
+    "id": "item-402"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Intern / Seasonal Technician",
+    "org": "Wildlife Systems, Inc.",
+    "deadline": "August 1, 2026",
+    "start": "See posting",
+    "body": "Seasonal wildlife management technician role in west-central Texas with a private wildlife management firm. Unusually strong pay for a seasonal technician position.",
+    "desc": "Seasonal technician work usually pays $15–18 an hour; this pays $2,500 to $3,000 a month, which is a meaningful difference if you are trying to save while applying to graduate programmes. The work is private-sector wildlife management in west-central Texas — rangeland habitat and game species rather than wetlands — so it broadens rather than deepens your profile. Useful if you want a well-paid autumn while the grad applications are in flight.",
+    "badge": "Good fit",
+    "pills": [
+      "$2,500–$3,000/month — high for a seasonal tech",
+      "West-central Texas rangeland fieldwork",
+      "Private wildlife management firm",
+      "Adds game-species survey experience",
+      "August 1 deadline"
+    ],
+    "metaLine": "Deadline August 1, 2026 · seasonal · $2,500–$3,000/month · San Angelo, TX",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-01",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117570",
+        "label": "🔗 Intern / Seasonal Technician — Wildlife Systems, Inc."
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117570",
+    "location": "San Angelo, TX",
+    "pay": "$2,500–$3,000 per month",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-403"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Physical Science Technician — NPS Mojave Desert Network Inventory & Monitoring",
+    "org": "Great Basin Institute",
+    "deadline": "August 5, 2026",
+    "start": "See posting",
+    "body": "Technician supporting the NPS Mojave Desert Network's physical science monitoring, covering water quality, springs and hydrologic condition across desert park units. Bachelor's degree required with no prior professional experience.",
+    "desc": "This is the strongest career-track match in the Southwest for you. The Mojave Desert Network's physical science programme monitors water quality, springs and hydrologic condition — the same class of work as your Pigeon River sampling, run to standardised National Park Service protocols. It asks for a bachelor's degree and explicitly no prior professional experience, which is unusual for a role this technical. Working inside an NPS Inventory & Monitoring network also puts you in the federal system with people who write the protocols. Apply by August 5.",
+    "badge": "Top recommendation",
+    "pills": [
+      "⭐ Water quality, springs & hydrologic condition monitoring",
+      "$24/hour",
+      "NPS Inventory & Monitoring network",
+      "BS required, NO prior experience",
+      "Closest career analogue to your capstone"
+    ],
+    "metaLine": "Deadline August 5, 2026 · $24/hr · water quality & springs monitoring · Boulder City, NV",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-05",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117794",
+        "label": "🔗 Physical Science Technician — NPS Mojave Desert Network Inve — Great Basin Institute"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117794",
+    "location": "Boulder City, NV",
+    "pay": "$24 per hour",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-404"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "GIS Specialist — NPS Death Valley National Park",
+    "org": "The Great Basin Institute",
+    "deadline": "August 5, 2026",
+    "start": "See posting",
+    "body": "Dedicated GIS position supporting Death Valley National Park resource management. Bachelor's degree with about one year of experience. Spatial data management, mapping and analysis for park resources.",
+    "desc": "Most jobs that use your GIS skills bury them under a field-technician title; this one is a GIS position outright, doing spatial data management, mapping and analysis for Death Valley's resource programme. That matters for your trajectory — a GIS Specialist line on your résumé opens doors that \"technician who also did some mapping\" does not. The posting lists about a year of experience, which your capstone and coursework can credibly cover if you lead with the multi-criteria suitability modelling. Closes August 5.",
+    "badge": "Top recommendation",
+    "pills": [
+      "⭐ A pure GIS job title, not GIS-as-a-side-duty",
+      "$27–$32/hour",
+      "Death Valley National Park resource management",
+      "Your multi-criteria suitability work is the core skill",
+      "About one year of experience listed"
+    ],
+    "metaLine": "Deadline August 5, 2026 · $27–$32/hr · dedicated GIS role · Death Valley, CA",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-05",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117739",
+        "label": "🔗 GIS Specialist — NPS Death Valley National Park — The Great Basin Institute"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117739",
+    "location": "Death Valley, CA",
+    "pay": "$27–$32 per hour",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-405"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Wildlife Technicians (Statewide)",
+    "org": "New Mexico Department of Game and Fish",
+    "deadline": "August 14, 2026",
+    "start": "See posting",
+    "body": "Multiple statewide wildlife technician openings with the New Mexico state wildlife agency. Bachelor's degree with about a year of experience. Field survey, capture and monitoring work.",
+    "desc": "When an agency posts multiple openings of the same title, your odds improve considerably, and the listed duties here — field survey, capture and monitoring across New Mexico's ecoregions — read almost verbatim off your skills list. Small-mammal trapping and camera-trap monitoring are the work, not a nice-to-have. State wildlife agencies also tend to promote from within their technician ranks, so this is a genuine entry point rather than a dead end. Deadline August 14.",
+    "badge": "Strong fit",
+    "pills": [
+      "Multiple openings — better odds than a single post",
+      "$180 per day",
+      "Field survey, capture and monitoring",
+      "Your trapping and camera-trap work IS the job description",
+      "August 14 deadline"
+    ],
+    "metaLine": "Deadline August 14, 2026 · $180/day · multiple statewide openings · Santa Fe / statewide, NM",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-14",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117761",
+        "label": "🔗 Wildlife Technicians (Statewide) — New Mexico Department of Game and Fish"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117761",
+    "location": "Santa Fe / statewide, NM",
+    "pay": "$180 per day",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-406"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Aquatic Biologist",
+    "org": "Aquatic Control, Inc.",
+    "deadline": "September 1, 2026",
+    "start": "See posting",
+    "body": "Full-time aquatic biologist role with a private lake and pond management firm in Texas. Bachelor's degree required with no prior experience. Water quality assessment, aquatic vegetation management and treatment planning.",
+    "desc": "A salaried position with benefits, in the mid-forties, that explicitly requires no prior experience is genuinely rare — most of what is open to you right now is hourly or stipend-based. The work is water quality assessment and aquatic vegetation management for a private lake and pond firm, which uses your training directly even though it is commercial rather than conservation. The September 1 deadline gives you room to apply to the urgent things first and still get a strong application in here.",
+    "badge": "Strong fit",
+    "pills": [
+      "Salaried $45,000–$50,000",
+      "BS required, NO prior experience",
+      "Water quality assessment + aquatic vegetation",
+      "Private lake and pond management",
+      "September 1 deadline — comfortable runway"
+    ],
+    "metaLine": "Deadline September 1, 2026 · $45,000–$50,000 salary · zero experience · Truesdale, TX",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-01",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117760",
+        "label": "🔗 Aquatic Biologist — Aquatic Control, Inc."
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117760",
+    "location": "Truesdale, TX",
+    "pay": "$45,000–$50,000 per year",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-407"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Conservation Tech I",
+    "org": "Houston Parks Board",
+    "deadline": "August 17, 2026",
+    "start": "See posting",
+    "body": "Entry-tier conservation technician on Houston's bayou greenway and park land stewardship program. Bachelor's degree with about a year of experience. Riparian habitat management along Houston's bayou corridors.",
+    "desc": "Houston's bayou greenway programme is one of the larger urban riparian restoration efforts in the country, and this is its entry-tier technician role at a real salary. Riparian corridor management is watershed work in an urban setting — same processes, different pressures — so it builds on your background while adding the stormwater and urban-hydrology dimension that consulting firms increasingly hire for. A big city also means options if you want to move within the field later.",
+    "badge": "Strong fit",
+    "pills": [
+      "Salaried $46,000–$48,000",
+      "Bayou greenway riparian habitat management",
+      "Major metro — Houston",
+      "About one year of experience listed",
+      "August 17 deadline"
+    ],
+    "metaLine": "Deadline August 17, 2026 · $46,000–$48,000 · urban riparian stewardship · Houston, TX",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-17",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117714",
+        "label": "🔗 Conservation Tech I — Houston Parks Board"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117714",
+    "location": "Houston, TX",
+    "pay": "$46,000–$48,000 per year",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-408"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Natural Resources Technician",
+    "org": "City of Houston Parks and Recreation Department",
+    "deadline": "July 28, 2026",
+    "start": "See posting",
+    "body": "Municipal natural resources technician doing habitat management on City of Houston parkland. No degree and no experience required.",
+    "desc": "Listed for completeness rather than enthusiasm: the pay is well below the Houston Parks Board role directly above it and the qualification bar is so low that you would be badly overqualified. Its one virtue is that municipal government is a stable employer with internal transfer options, so it can work as a foot in the door if nothing better lands. The deadline is tomorrow, so it is decide-now or let it go.",
+    "badge": "Good fit",
+    "pills": [
+      "No degree and no experience required",
+      "$17.50–$18/hour",
+      "City of Houston parkland habitat management",
+      "⏰ Deadline July 28 — tomorrow",
+      "⚠️ Pay is below the other Houston options"
+    ],
+    "metaLine": "Deadline July 28, 2026 · municipal · $17.50–$18/hr · ⏰ Jul 28 · Houston, TX",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-28",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117749",
+        "label": "🔗 Natural Resources Technician — City of Houston Parks and Recreation Dep"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117749",
+    "location": "Houston, TX",
+    "pay": "$17.50–$18 per hour",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-409"
   }
 ]
