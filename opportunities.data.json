@@ -19754,5 +19754,374 @@
     "stipend": "",
     "benefits": "Confirm benefits with the employer",
     "id": "item-448"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Scientists in Parks (SIP) — AmeriCorps Natural Resource Positions",
+    "org": "National Park Service / Conservation Legacy",
+    "deadline": "Contact first — no posted deadline",
+    "start": "See posting",
+    "body": "SIP places early-career scientists in full-time paid AmeriCorps natural-resource positions with the National Park Service for terms of three months to one year, on projects spanning water quality, wildlife, vegetation and geospatial science. The 2026 cycle closed June 14, 2026; summer 2027 positions are announced in early December 2026, and applicants may apply to up to five positions per season. Positions close early once they hit an application cap.",
+    "desc": "Scientists in Parks is built for precisely your career stage: paid National Park Service science placements for early-career graduates, on projects spanning water quality, wildlife, vegetation and geospatial science. The obstacle is purely timing — the 2026 cycle closed in June and the next round is announced in early December 2026. Positions also close early once they hit an application cap, so applying on day one genuinely matters. The action item now is a December calendar reminder; you may apply to up to five positions per season.",
+    "badge": "Strong fit",
+    "pills": [
+      "⭐ Designed specifically for early-career BS scientists",
+      "$775/week for 52-week positions",
+      "$450 relocation + $7,395 education award",
+      "Water quality, wildlife, vegetation and geospatial projects",
+      "⚠️ 2026 cycle CLOSED — 2027 posts announced early December"
+    ],
+    "metaLine": "Contact first · NPS · $775/week + relocation · ⏰ DECEMBER reminder · Nationwide — National Park Service units across the United States",
+    "cycle": "current",
+    "deadline_kind": "contact-first",
+    "deadline_date": "",
+    "region": "National / Remote / Multiple",
+    "links": [
+      {
+        "href": "https://www.nps.gov/subjects/science/scientists-in-parks.htm",
+        "label": "🔗 Scientists in Parks (SIP) — AmeriCorps Natural Resource Posi — National Park Service / Conservation Leg"
+      }
+    ],
+    "url": "https://www.nps.gov/subjects/science/scientists-in-parks.htm",
+    "location": "Nationwide — National Park Service units across the United States",
+    "pay": "",
+    "stipend": "$775 per week living allowance for 52-week positions, $450 relocation allowance, and a Segal Education Award of up to $7,395",
+    "benefits": "AmeriCorps Segal Education Award on completion of the term",
+    "id": "item-449"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Conservation Associate — Private Lands Program",
+    "org": "Mule Deer Foundation",
+    "deadline": "August 15, 2026",
+    "start": "See posting",
+    "body": "A three-year term position with possible extension supporting the Private Lands Conservation Program with administrative, financial, contracting, reporting and coordination work across large-scale habitat restoration, grazing management and wildlife-friendly infrastructure grant projects. Fully remote with location negotiable across the West and Great Plains; the posting lists a high-school-diploma education floor with about two years of experience.",
+    "desc": "A remote, salaried, three-year position with real benefits is a rare shape in this field — most of what is open to you is seasonal or stipend-based. The work is the coordination side of large habitat restoration projects: contracting, reporting, grant administration. That is a reach on the stated two years of experience, but the education floor is only a high school diploma, and your AmeriCorps project-coordination background speaks to exactly this kind of work. Worth an application for the stability alone.",
+    "badge": "Reach",
+    "pills": [
+      "Fully remote — location negotiable across the West",
+      "$50,000–$55,000 plus health insurance, PTO and 401K",
+      "Three-year term with possible extension",
+      "Habitat restoration and grazing management grants",
+      "⚠️ About two years of experience listed"
+    ],
+    "metaLine": "Deadline August 15, 2026 · REMOTE · $50,000–$55,000 + health, PTO, 401K · Remote — negotiable anywhere in the western US or Great Plains states",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-15",
+    "region": "National / Remote / Multiple",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117688",
+        "label": "🔗 Conservation Associate — Private Lands Program — Mule Deer Foundation"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117688",
+    "location": "Remote — negotiable anywhere in the western US or Great Plains states",
+    "pay": "$50,000 – $55,000 per year, plus health insurance, PTO and 401K",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-450"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Project Coordinator — Private Lands Program (Great Plains, multiple positions)",
+    "org": "Mule Deer Foundation",
+    "deadline": "August 16, 2026",
+    "start": "See posting",
+    "body": "Multiple Project Coordinator positions across the Great Plains delivering private-lands habitat enhancement, restoration and grazing-management projects with landowners and agency partners. Bachelor's degree with roughly two years of experience is the stated bar, and multiple positions may be filled from the single announcement.",
+    "desc": "Multiple seats being filled from a single announcement meaningfully changes the odds — an employer hiring several people is more willing to take someone at the edge of the experience range than one filling a single slot. The pay is strong, a bachelor's is the stated education bar, and the work is restoration delivery with landowners and agency partners across the Great Plains. Apply as a reach and say plainly what you would bring.",
+    "badge": "Reach",
+    "pills": [
+      "Multiple positions filled from one announcement",
+      "$60,000–$70,000/yr",
+      "Private-lands habitat restoration delivery",
+      "Bachelor's is the stated education requirement",
+      "⚠️ About two years of experience listed"
+    ],
+    "metaLine": "Deadline August 16, 2026 · $60,000–$70,000 · MULTIPLE positions open · Multiple locations across the Great Plains states",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-16",
+    "region": "National / Remote / Multiple",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117685",
+        "label": "🔗 Project Coordinator — Private Lands Program (Great Plains, m — Mule Deer Foundation"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117685",
+    "location": "Multiple locations across the Great Plains states",
+    "pay": "$60,000 – $70,000 per year",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-451"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Traveling Inventory Forester",
+    "org": "Skylight Forestry, Inc.",
+    "deadline": "August 17, 2026",
+    "start": "See posting",
+    "body": "A travel-based forest inventory and timber cruising role in which assignments rotate across regions; all field equipment and data-collection tools are provided and lodging arrangements are confirmed before each assignment. Bachelor's degree with about one year of experience; applications reviewed weekly and positions remain open until filled. Applicants are asked to state which regions they are willing to work in.",
+    "desc": "You have said you will relocate anywhere, and this job is designed around exactly that willingness — assignments rotate by region, you tell them which ones you will take, and lodging is arranged before each one. The pay is well above typical entry-level field rates and equipment is provided. It is forest inventory and timber cruising rather than conservation science, so treat it as well-compensated field experience and plot-sampling practice rather than a career step toward wetlands work.",
+    "badge": "Good fit",
+    "pills": [
+      "$4,500–$5,200/month plus mileage at the federal rate",
+      "Built for someone willing to travel anywhere",
+      "You state which regions you will work in",
+      "All field equipment and lodging arranged",
+      "Reviewed weekly · open until filled"
+    ],
+    "metaLine": "Deadline August 17, 2026 · $4,500–$5,200/month · travel-based, you pick regions · Multiple locations nationwide, travel-based",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-17",
+    "region": "National / Remote / Multiple",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117592",
+        "label": "🔗 Traveling Inventory Forester — Skylight Forestry, Inc."
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117592",
+    "location": "Multiple locations nationwide, travel-based",
+    "pay": "$4,500 – $5,200 per month, plus mileage reimbursed at the federal rate",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-452"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Field Environmental Monitors (Contract Positions)",
+    "org": "Merjent, Inc.",
+    "deadline": "July 31, 2026",
+    "start": "See posting",
+    "body": "Merjent staffs contract environmental inspectors and monitors on linear infrastructure and energy construction projects nationwide, monitoring erosion control, wetland and waterbody crossings and permit compliance. Requires a valid driver's license, acceptable driving record and a personal vehicle for work use; the posting lists a high-school education floor with about two years of experience.",
+    "desc": "The core task named in this posting is monitoring wetland and waterbody crossings for permit compliance — which is your Army Corps delineation training applied to construction oversight, at $35 to $45 an hour. The education floor is only a high school diploma, so the two-year experience line is the only real barrier. Two practical caveats: you need your own vehicle for work use, and it is contract rather than staff employment. Closes July 31.",
+    "badge": "Reach",
+    "pills": [
+      "⭐ Wetland and waterbody crossing compliance is the job",
+      "$35–$45/hour",
+      "Nationwide project deployment",
+      "High school education floor",
+      "⚠️ ~2 yrs experience · requires your own vehicle · ⏰ Jul 31"
+    ],
+    "metaLine": "Deadline July 31, 2026 · $35–$45/hour · WETLAND crossings are the core task · Multiple locations — project sites across multiple states",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "National / Remote / Multiple",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=116747",
+        "label": "🔗 Field Environmental Monitors (Contract Positions) — Merjent, Inc."
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=116747",
+    "location": "Multiple locations — project sites across multiple states",
+    "pay": "$35 – $45 per hour",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-453"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Staff Professional — environmental and engineering services",
+    "org": "Endeavor Professional Services, LLC",
+    "deadline": "August 31, 2026",
+    "start": "See posting",
+    "body": "An explicitly entry-to-mid-level role (bachelor's, no experience required) at a multi-disciplined engineering and design firm serving the energy and utility industries. Duties include aquatic resource delineation covering wetland and stream surveys, invasive and watchlist species surveys, infiltration testing and soil work, regulatory permitting applications, and field survey and construction oversight. Remote work is allowed alongside flexible field scheduling.",
+    "desc": "This is the posting to look at hardest. Consulting jobs that name wetland and stream delineation almost always want three-plus years; this one describes itself as entry-to-mid-level and asks for a bachelor's with no prior professional experience. The listed duties read like an inventory of your training: aquatic resource delineation, invasive species surveys, infiltration testing and soil work, regulatory permitting. Remote work is allowed alongside flexible field scheduling, and the window runs to August 31 so you can write a properly tailored application.",
+    "badge": "Top recommendation",
+    "pills": [
+      "⭐ Aquatic resource delineation — wetland and stream surveys",
+      "⭐ Bachelor's with NO experience required",
+      "Regulatory permitting applications",
+      "Soil work and infiltration testing",
+      "Remote work allowed · open to August 31"
+    ],
+    "metaLine": "Deadline August 31, 2026 · ⭐ names wetland delineation AND requires zero experience · State College, Pennsylvania — remote work allowed",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-31",
+    "region": "National / Remote / Multiple",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117033",
+        "label": "🔗 Staff Professional — environmental and engineering services — Endeavor Professional Services, LLC"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117033",
+    "location": "State College, Pennsylvania — remote work allowed",
+    "pay": "Not published — confirm with the employer",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-454"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "M.S. Research Assistantship — Landscape Use by Wildlife Post-Wildfire",
+    "org": "Texas Tech University, Department of Natural Resources Management",
+    "deadline": "July 31, 2026",
+    "start": "See posting",
+    "body": "A funded master's assistantship studying how wildlife use landscapes after wildfire, combining field-based animal and landscape assessments with analysis. Preferred qualifications explicitly list knowledge of camera-trap methodology and proficiency with statistical analyses and GIS software. Bachelor's degree, no prior experience required; materials go directly to the PI and review continues until filled.",
+    "desc": "Read the preferred qualifications and it is close to a description of you: camera-trap methodology, statistical analysis, GIS software. Very few postings name the exact three things you have. On top of that, the science is post-disturbance landscape ecology — how wildlife use a landscape after wildfire — which is structurally the same question your Hurricane Helene capstone asked about a different disturbance. The stipend is modest at $20,000, but materials go straight to the PI, so a direct, specific email can move quickly. Closes July 31.",
+    "badge": "Top recommendation",
+    "pills": [
+      "⭐ Camera-trap methodology listed as a preferred qualification",
+      "⭐ GIS and statistical analysis also named",
+      "$20,000/yr funded MS assistantship",
+      "Post-wildfire landscape use — parallels your Helene capstone",
+      "⏰ Deadline July 31 · apply direct to the PI"
+    ],
+    "metaLine": "Deadline July 31, 2026 · ⭐ camera-trap methodology is a NAMED preferred qualification · Multiple field locations (based at Texas Tech, Lubbock, TX)",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "National / Remote / Multiple",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117114",
+        "label": "🔗 M.S. Research Assistantship — Landscape Use by Wildlife Post — Texas Tech University, Department of Nat"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117114",
+    "location": "Multiple field locations (based at Texas Tech, Lubbock, TX)",
+    "pay": "$20,000 per year stipend",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-455"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "PhD Assistantship — Spatial and Disease Ecology of Bison",
+    "org": "USGS / Colorado State University (Greater Yellowstone Ecosystem)",
+    "deadline": "August 3, 2026",
+    "start": "See posting",
+    "body": "A fully funded four-year PhD covering stipend, tuition and health insurance contingent on satisfactory progress, building spatially explicit models of bison distribution, habitat use and disease risk to support adaptive management. Academic start is Spring 2027. An MS is listed as required, but the posting states explicitly that exceptional BS applicants will be considered; required skills are strong quantitative ability, R, and spatial analysis with GPS collar data.",
+    "desc": "Normally a PhD posting that lists a master's as required would not belong on your list — but this one states outright that exceptional bachelor's applicants will be considered, which is an explicit invitation. The methods are spatially explicit habitat and disease modelling using GPS collar data, which is your multi-criteria suitability work at the next level of sophistication. Be honest with yourself about the R requirement: if your statistical programming is thin, say so and show you can learn. Fully funded for four years, closing August 3.",
+    "badge": "Reach",
+    "pills": [
+      "⭐ Posting explicitly says exceptional BS applicants will be considered",
+      "Fully funded 4 years — stipend, tuition and health insurance",
+      "Spatial modelling with GPS collar data",
+      "Greater Yellowstone Ecosystem fieldwork",
+      "⚠️ MS listed as required · needs R proficiency · Aug 3"
+    ],
+    "metaLine": "Deadline August 3, 2026 · fully funded 4-year PhD · \"exceptional BS applicants considered\" · Colorado State University with fieldwork across the Greater Yellowstone Ecosystem",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-03",
+    "region": "National / Remote / Multiple",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=116955",
+        "label": "🔗 PhD Assistantship — Spatial and Disease Ecology of Bison — USGS / Colorado State University (Greate"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=116955",
+    "location": "Colorado State University with fieldwork across the Greater Yellowstone Ecosystem",
+    "pay": "Not published — confirm with the employer",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-456"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "NSF Graduate Research Fellowship Program (GRFP) — 2027 competition",
+    "org": "U.S. National Science Foundation",
+    "deadline": "Contact first — no posted deadline",
+    "start": "See posting",
+    "body": "GRFP funds three years of graduate study for US citizens and permanent residents entering or enrolled in research-based master's or doctoral STEM programs; environmental science applicants typically apply under Geosciences. Applicants may apply once as an undergraduate senior or as a graduating or graduated bachelor's holder before enrolling. Deadlines are discipline-specific and fall in late October and November; the 2027 competition dates had not been published as of late July 2026.",
+    "desc": "This is a timing matter more than an application. A bachelor's holder who has not yet enrolled in a graduate programme may apply once — so you are inside the window now, and that window closes the moment you enrol and pass the early-career limit. An award funds three years of graduate study and, just as usefully, makes you a candidate programmes compete for rather than one you have to persuade. Environmental science applicants normally apply under Geosciences. The 2027 dates were not published as of late July, so check the solicitation in early autumn; deadlines historically fall in late October and November.",
+    "badge": "Strong fit",
+    "pills": [
+      "⭐ You are still eligible — BS holder not yet enrolled",
+      "Funds three years of graduate study",
+      "Apply under Geosciences for environmental science",
+      "⚠️ One shot only — use it deliberately",
+      "⏰ 2027 dates unpublished — check the solicitation in early fall"
+    ],
+    "metaLine": "Contact first · NSF GRFP · you are in the eligibility window RIGHT NOW · National — tenable at any accredited US graduate institution",
+    "cycle": "current",
+    "deadline_kind": "contact-first",
+    "deadline_date": "",
+    "region": "National / Remote / Multiple",
+    "links": [
+      {
+        "href": "https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program",
+        "label": "🔗 NSF Graduate Research Fellowship Program (GRFP) — 2027 compe — U.S. National Science Foundation"
+      }
+    ],
+    "url": "https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program",
+    "location": "National — tenable at any accredited US graduate institution",
+    "pay": "Not published — confirm with the employer",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-457"
   }
 ]
