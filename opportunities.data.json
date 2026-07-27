@@ -2689,7 +2689,12 @@
     ],
     "cycle": "current",
     "deadline_kind": "rolling",
-    "region": "National / Remote / Multiple"
+    "region": "National / Remote / Multiple",
+    "expired": true,
+    "status": {
+      "kind": "s-updated",
+      "label": "Retired — July 27, 2026: superseded by per-firm cards"
+    }
   },
   {
     "title": "Conservation Scientist / GIS Analyst — Land Protection",
@@ -3101,7 +3106,12 @@
     ],
     "cycle": "next",
     "deadline_kind": "rolling",
-    "region": "National / Remote / Multiple"
+    "region": "National / Remote / Multiple",
+    "expired": true,
+    "status": {
+      "kind": "s-updated",
+      "label": "Retired — July 27, 2026: superseded by per-firm cards"
+    }
   },
   {
     "title": "BLM Wetlands & Wildlife Technician — Individual Placement",
@@ -26937,5 +26947,189 @@
     "stipend": "",
     "benefits": "Confirm benefits with the employer",
     "id": "item-644"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Southeast & Appalachia",
+    "start": "See posting",
+    "id": "item-645",
+    "title": "Environmental / Wetland Field Scientist — entry level",
+    "org": "Terracon Consultants · offices nationwide incl. the Carolinas",
+    "location": "Nationwide; Southeast offices include Greenville and the Carolinas",
+    "deadline": "Rolling — postings open and close year-round; check the job search page",
+    "pay": "Not published on the careers portal — ask the recruiter",
+    "stipend": "",
+    "benefits": "Full-time staff benefits; confirm with the recruiter",
+    "badge": "Strong fit",
+    "url": "https://careers.terracon.com/search-jobs",
+    "url_label": "Search Terracon jobs",
+    "links": [
+      {
+        "href": "https://careers.terracon.com/search-jobs",
+        "label": "🔗 Terracon job search"
+      },
+      {
+        "href": "https://careers.terracon.com/",
+        "label": "Terracon careers — Early Careers & Internships"
+      }
+    ],
+    "metaLine": "Rolling · pay not published · nationwide incl. Carolinas · BS accepted",
+    "body": "Terracon is a multidiscipline consulting firm (environmental, geotechnical, facilities, materials) operating since 1965. Their Environmental service line runs the field work Erin already knows: wetland and watercourse delineation, stream assessments, wildlife surveys, Phase I/II site assessments and stormwater permitting. Titles to watch are Wetland Scientist, Field Scientist and Environmental Field Scientist. The careers site has a dedicated Early Careers section alongside internships.",
+    "desc": "This is the closest commercial match to her Army Corps wetland-delineation training of any consultancy on the list — the duty lists read almost word for word off her coursework. Entry postings frequently ask for about one year in natural resources with wetland and stream delineation emphasis, which her AmeriCorps NCCC term plus the Pigeon River capstone can credibly answer. No salary is published, so treat the figure as an open question for the recruiter rather than an unknown risk.",
+    "pills": [
+      "Wetland & stream delineation",
+      "Phase I/II site assessments",
+      "Early Careers pathway",
+      "Offices in the Carolinas",
+      "⚠️ Pay not published"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Southeast & Appalachia",
+    "start": "See posting",
+    "id": "item-646",
+    "title": "Environmental Science Analyst — entry level",
+    "org": "Kimley-Horn · headquartered in Raleigh, NC · offices nationwide",
+    "location": "Nationwide; head office Raleigh, North Carolina",
+    "deadline": "Rolling — entry-level hiring runs year-round",
+    "pay": "Not published on the entry-level page — confirm on the specific posting",
+    "stipend": "",
+    "benefits": "Formal mentorship, training and licensure support are advertised",
+    "badge": "Strong fit",
+    "url": "https://www.kimley-horn.com/careers/entry-level/",
+    "url_label": "Kimley-Horn entry-level careers",
+    "links": [
+      {
+        "href": "https://www.kimley-horn.com/careers/entry-level/",
+        "label": "🔗 Entry-level careers"
+      },
+      {
+        "href": "https://jobs-kimley-horn.icims.com/",
+        "label": "Kimley-Horn job portal (iCIMS)"
+      }
+    ],
+    "metaLine": "Rolling · pay not published · Raleigh HQ · BS Environmental Science accepted",
+    "body": "Kimley-Horn is an engineering and planning consultancy that names environmental scientist explicitly as one of its entry-level career tracks, alongside engineer, planner and landscape architect. Environmental Science Analyst postings ask for a Bachelor's or Master's in Biology, Environmental Science or a related major. The firm advertises formal mentorship, structured training and financial support toward professional licensure.",
+    "desc": "Kimley-Horn is headquartered in Raleigh, which makes it one of the few national consultancies where the centre of gravity is in her home state rather than a distant regional office. They hire environmental science graduates directly rather than expecting an engineering degree, and the stated licensure support matters for a career where credentials gate the next step. Ignore the six-figure \"Analyst\" figures floating around on salary sites — those aggregate every analyst discipline in the firm and are not an entry-level environmental number.",
+    "pills": [
+      "Raleigh NC headquarters",
+      "Hires Environmental Science BS directly",
+      "Licensure support advertised",
+      "Structured mentorship",
+      "⚠️ Pay not published"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Southeast & Appalachia",
+    "start": "See posting",
+    "id": "item-647",
+    "title": "Environmental Scientist / Environmental Technician — entry level",
+    "org": "ECS Group of Companies (Engineering Consulting Services) · 90+ offices",
+    "location": "More than 90 offices and testing facilities across the United States",
+    "deadline": "Rolling — openings posted continuously",
+    "pay": "No posted figure; Glassdoor reports a median near $75,000 for their environmental scientist roles (aggregate, not a posting)",
+    "stipend": "",
+    "benefits": "PTO and holidays, medical/vision/dental, employee stock ownership plan, 401(k), continuing-education reimbursement",
+    "badge": "Good fit",
+    "url": "https://careers.ecslimited.com/jobs",
+    "url_label": "ECS current openings",
+    "links": [
+      {
+        "href": "https://careers.ecslimited.com/jobs",
+        "label": "🔗 ECS current openings"
+      },
+      {
+        "href": "https://www.ecslimited.com/careers/",
+        "label": "ECS careers overview"
+      }
+    ],
+    "metaLine": "Rolling · ~$75k Glassdoor median (unverified) · 90+ US offices · ESOP",
+    "body": "ECS Group of Companies, founded 1988 and trading as Engineering Consulting Services, has more than 2,700 employees across 90+ offices and testing facilities. Their service lines include Wetlands, Remediation and Environmental Due Diligence alongside geotechnical and construction-materials testing. Benefits advertised include an employee stock ownership plan and continuing-education reimbursement.",
+    "desc": "ECS runs a named Wetlands practice, which is the specific reason it is worth her time over a generic consultancy. The employee stock ownership plan and tuition reimbursement are unusually concrete for an entry-level commercial role. Note the ~$75,000 figure comes from Glassdoor aggregation rather than any posting, so treat it as a rough signal and confirm on the actual job. ⚠️ NAME CORRECTION: the old umbrella card called this \"ECS Federal\" — that is a different company (federal IT services). The environmental consultancy is ECS Limited / ECS Group of Companies at ecslimited.com.",
+    "pills": [
+      "Named Wetlands practice",
+      "Employee stock ownership plan",
+      "Tuition reimbursement",
+      "90+ US offices",
+      "⚠️ $75k is a Glassdoor median, not a posting"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "National / Remote / Multiple",
+    "start": "See posting",
+    "id": "item-648",
+    "title": "New-graduate & student pathways — water and environment",
+    "org": "CDM Smith · offices nationwide",
+    "location": "Nationwide",
+    "deadline": "Rolling — internships, co-ops and new-graduate openings posted year-round",
+    "pay": "Not published for science-track roles — engineering salary figures on aggregator sites do not apply",
+    "stipend": "",
+    "benefits": "Confirm with the recruiter",
+    "badge": "Verify status",
+    "url": "https://careers.cdmsmith.com/cdmsmith/jobs",
+    "url_label": "CDM Smith job search",
+    "links": [
+      {
+        "href": "https://careers.cdmsmith.com/cdmsmith/jobs",
+        "label": "🔗 CDM Smith job search"
+      },
+      {
+        "href": "https://careers.cdmsmith.com/talent/talentcommunity/form",
+        "label": "Join the talent community for alerts"
+      }
+    ],
+    "metaLine": "Rolling · pay not published · nationwide · ⚠️ mostly ENGINEERING roles",
+    "body": "CDM Smith is a water, environment and infrastructure consultancy with a dedicated Students pathway covering internships, co-ops, scholarships and new-graduate openings. Their advertised entry-level work centres on water and wastewater treatment design, sewer and pipeline infrastructure, site assessments and water-quality analysis.",
+    "desc": "Included honestly as the weakest of the four. CDM Smith's published entry-level roles skew heavily toward ENGINEERING degrees — Environmental Engineer, Water Resources Engineer — rather than environmental science, so a BS in Environmental Science is not the profile they advertise for. It earns a place because the water-quality and site-assessment work genuinely overlaps her capstone, and because the talent community sends alerts when science-track roles do open. Search the portal for scientist and technician titles specifically before investing time in an application.",
+    "pills": [
+      "Water & environment focus",
+      "Students / new-graduate pathway",
+      "Talent community alerts",
+      "⚠️ Roles skew engineering degrees",
+      "⚠️ Verify a science-track opening exists"
+    ]
   }
 ]
