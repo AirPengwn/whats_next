@@ -18524,5 +18524,292 @@
     "stipend": "",
     "benefits": "Confirm benefits with the employer",
     "id": "item-417"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Program Manager",
+    "org": "Springs Stewardship Institute",
+    "deadline": "October 30, 2026",
+    "start": "See posting",
+    "body": "Program management role at an institute dedicated to springs ecosystem inventory, assessment and stewardship across the Colorado Plateau. Bachelor's degree with about three years of experience listed. Heavy database, GIS and field inventory component.",
+    "desc": "Of all the reaches on your list, this has the tightest match between what they do and what you know. Springs are groundwater-fed wetlands, and the institute's work is inventory, assessment and stewardship built on spatial databases — which is your wetland training and your GIS training doing the same job at once. The three-year experience line is real and you would be applying well under it, so treat this as a long shot with a specific, technical cover letter. The October 30 deadline gives you time to make it a good one.",
+    "badge": "Reach",
+    "pills": [
+      "⭐ Springs ecosystem inventory + spatial databases",
+      "$30–$35/hour",
+      "Colorado Plateau springs stewardship",
+      "Wetland-plus-GIS is unusually precisely what they want",
+      "⚠️ About three years of experience listed"
+    ],
+    "metaLine": "Deadline October 30, 2026 · $30–$35/hr · springs ecohydrology + GIS · Flagstaff, AZ",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-10-30",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117495",
+        "label": "🔗 Program Manager — Springs Stewardship Institute"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117495",
+    "location": "Flagstaff, AZ",
+    "pay": "$30–$35 per hour",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-418"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Stewardship Manager",
+    "org": "Coastal Prairie Conservancy",
+    "deadline": "July 31, 2026",
+    "start": "See posting",
+    "body": "Land stewardship manager for a Texas coastal prairie and wetland land trust. Bachelor's degree with about two years of experience listed. Prairie restoration, wetland management and conservation easement monitoring.",
+    "desc": "A land trust stewardship manager role covering coastal prairie restoration, wetland management and easement monitoring — three things that map onto your training, at a salary that would be a genuinely good first professional job. The two-year experience line puts it out of easy reach, but land trusts are small organisations that hire on fit and enthusiasm more often than large agencies do. Closes July 31, so it competes with the other end-of-month deadlines.",
+    "badge": "Reach",
+    "pills": [
+      "Prairie restoration + wetland management",
+      "$50,000–$60,000/yr",
+      "Land trust with conservation easement monitoring",
+      "⚠️ About two years of experience listed",
+      "⏰ Deadline July 31"
+    ],
+    "metaLine": "Deadline July 31, 2026 · $50,000–$60,000 · coastal prairie & wetland trust · ⏰ Jul 31 · Waller, TX",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117038",
+        "label": "🔗 Stewardship Manager — Coastal Prairie Conservancy"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117038",
+    "location": "Waller, TX",
+    "pay": "$50,000–$60,000 per year",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-419"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Habitat Restoration Services Manager",
+    "org": "Santa Ana Watershed Association",
+    "deadline": "July 31, 2026",
+    "start": "See posting",
+    "body": "Manager of habitat restoration services for a watershed association working across the Santa Ana River system in inland southern California. Bachelor's degree with about two years of experience listed.",
+    "desc": "The pay here is exceptional and the organisation type is exactly what you have said you are aiming for — a watershed association doing habitat restoration across a river system. Be realistic: this is a services manager role overseeing restoration delivery and crews, and you would be applying several years under it. Listed because the fit between the organisation and your goals is close enough that it is worth knowing this employer exists, even if this particular posting goes to someone more senior. Consider a speculative note if it closes.",
+    "badge": "Reach",
+    "pills": [
+      "⭐ \"Watershed association\" + \"habitat restoration\" — your stated target",
+      "$57.21–$73.23/hour — exceptional",
+      "Santa Ana River system, inland southern California",
+      "⚠️ A significant reach — management role, ~2 yrs listed",
+      "⏰ Deadline July 31"
+    ],
+    "metaLine": "Deadline July 31, 2026 · $57.21–$73.23/hr · watershed association · Riverside, CA",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=116524",
+        "label": "🔗 Habitat Restoration Services Manager — Santa Ana Watershed Association"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=116524",
+    "location": "Riverside, CA",
+    "pay": "$57.21–$73.23 per hour",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-420"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Environmental Coordinator / Environmental Inspector",
+    "org": "Wilson Construction Company",
+    "deadline": "August 31, 2026",
+    "start": "See posting",
+    "body": "Environmental compliance inspection role on construction projects in eastern Nevada. Bachelor's degree with about two years of experience listed. Stormwater, erosion control and permit compliance monitoring.",
+    "desc": "Environmental compliance inspection is an under-considered route for someone with your background: stormwater and erosion control monitoring is applied sediment science, and the pay is well above what conservation nonprofits offer. The work is on construction projects rather than in protected landscapes, which is a real trade-off in day-to-day satisfaction. The two-year line is a reach, but compliance roles turn over often and firms hire when they need bodies. Open until August 31.",
+    "badge": "Reach",
+    "pills": [
+      "Stormwater, erosion control and permit compliance",
+      "$35–$42/hour",
+      "Construction environmental inspection, eastern Nevada",
+      "Draws on your sediment and water-quality training",
+      "⚠️ About two years of experience listed"
+    ],
+    "metaLine": "Deadline August 31, 2026 · $35–$42/hr · stormwater & erosion compliance · Ely, NV",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-31",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117275",
+        "label": "🔗 Environmental Coordinator / Environmental Inspector — Wilson Construction Company"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117275",
+    "location": "Ely, NV",
+    "pay": "$35–$42 per hour",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-421"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Trails & Restoration Specialist",
+    "org": "The Great Basin Institute",
+    "deadline": "July 31, 2026",
+    "start": "See posting",
+    "body": "Salaried specialist position overseeing trails and restoration projects for the Great Basin Institute. Only a high school diploma formally required though about three years of experience is listed.",
+    "desc": "The gap between the formal education requirement (high school diploma) and the salary ($61,000 to $78,000) is the largest on your entire list, which tells you this organisation pays for demonstrated field capability rather than credentials. The catch is the three years of experience it wants instead. Your NCCC term plus a season of crew work would start to make this credible — so if it closes before you are ready, remember the Great Basin Institute as an employer worth tracking, since they also run several of the AmeriCorps placements you are already considering.",
+    "badge": "Reach",
+    "pills": [
+      "$61,000–$78,000 — top field-restoration pay found anywhere",
+      "Only a high school diploma formally required",
+      "Trails and restoration project oversight",
+      "⚠️ About three years of experience listed",
+      "⏰ Deadline July 31"
+    ],
+    "metaLine": "Deadline July 31, 2026 · $61,000–$78,000 · highest field-restoration salary found · Reno, NV",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-07-31",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=116883",
+        "label": "🔗 Trails & Restoration Specialist — The Great Basin Institute"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=116883",
+    "location": "Reno, NV",
+    "pay": "$61,000–$78,000 per year",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-422"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Regional Representative (Oklahoma & Southern Kansas)",
+    "org": "Pheasants Forever, Inc., and Quail Forever",
+    "deadline": "Rolling — open until filled",
+    "start": "See posting",
+    "body": "Permanent position with the leading upland habitat conservation organization, working with volunteer chapters on habitat delivery, public access and advocacy. Anticipated start September 8, 2026, open until filled. Listed minimum experience 2–4 years.",
+    "desc": "Pheasants Forever and Quail Forever run one of the most reliably entry-friendly conservation career pipelines in the country, but this particular role is a regional representative post that wants two to four years. What makes it worth listing anyway is that it is open until filled with no hard cutoff, and it is remote — so it stays live while you build experience elsewhere. Treat the organisation as a target even if this specific posting is not yours yet; their Farm Bill biologist roles hire at entry level.",
+    "badge": "Reach",
+    "pills": [
+      "Remote within central Oklahoma",
+      "$59,000–$65,000/yr",
+      "Grassroots habitat delivery with volunteer chapters",
+      "Open until filled — no hard cutoff",
+      "⚠️ 2–4 years of experience listed"
+    ],
+    "metaLine": "Rolling · $59,000–$65,000 · remote · open until filled · Remote within central Oklahoma",
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-regional-representative-oklahoma--southern-kansas-negotiable-within-central-ok-oklahoma/3847708630",
+        "label": "🔗 Regional Representative (Oklahoma & Southern Kansas) — Pheasants Forever, Inc., and Quail Forev"
+      }
+    ],
+    "url": "https://www.conservationjobboard.com/job-listing-regional-representative-oklahoma--southern-kansas-negotiable-within-central-ok-oklahoma/3847708630",
+    "location": "Remote within central Oklahoma",
+    "pay": "$59,000–$65,000 per year",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-423"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — July 27, 2026"
+    },
+    "title": "Bear and Cougar Biologist (Statewide)",
+    "org": "New Mexico Department of Game and Fish",
+    "deadline": "August 5, 2026",
+    "start": "See posting",
+    "body": "Statewide large carnivore biologist position for New Mexico's wildlife agency. Bachelor's degree with roughly two years of experience listed. Population monitoring, harvest management and human-wildlife conflict work.",
+    "desc": "Your camera-trap monitoring and Wildlife Insights experience are genuinely core tools for carnivore population work — remote cameras are how bear and cougar densities get estimated. That gives you a real technical hook even though the posting asks for around two years of experience you do not have. This is a clear reach, listed because the methodological overlap is specific enough to be worth a letter rather than a generic application.",
+    "badge": "Reach",
+    "pills": [
+      "Camera-trap monitoring is a core tool of this job",
+      "$56,931–$85,396/yr",
+      "Statewide large carnivore population monitoring",
+      "⚠️ A clear reach — about two years of experience listed",
+      "August 5 deadline"
+    ],
+    "metaLine": "Deadline August 5, 2026 · $56,931–$85,396 · statewide carnivore biologist · Santa Fe / statewide, NM",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-05",
+    "region": "Southwest",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=104375",
+        "label": "🔗 Bear and Cougar Biologist (Statewide) — New Mexico Department of Game and Fish"
+      }
+    ],
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=104375",
+    "location": "Santa Fe / statewide, NM",
+    "pay": "$56,931–$85,396 per year",
+    "stipend": "",
+    "benefits": "Confirm benefits with the employer",
+    "id": "item-424"
   }
 ]
