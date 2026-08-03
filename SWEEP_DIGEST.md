@@ -1,18 +1,6 @@
 # Weekly opportunity sweep — 2026-08-03
 
-**Added 12 new** opportunities:
-- Hellbender Private Lands Biologist — NRCS Working Lands for Wildlife — _Excellent_ · Southeast & Appalachia · deadline: 2026-09-01
-- GIS Member — Chattahoochee River National Recreation Area — _Excellent_ · Southeast & Appalachia · deadline: 2026-09-04
-- Wildlife Biologist 1/2 — Deer Management Assistance Program — _Excellent_ · Southeast & Appalachia · deadline: 2026-08-05
-- Franklin Conservation Technician I — _Excellent_ · Southeast & Appalachia · deadline: 2026-08-04
-- Environmental Specialist II — Division of Waste Management — _Strong_ · Southeast & Appalachia · deadline: 2026-08-07
-- Oyster Rehabilitation Biologist (Conservation Biologist I) — _Strong_ · Southeast & Appalachia · deadline: 2026-08-06
-- PhD Assistantship — drone LiDAR of Gulf high-marsh microtopography (Eastern Black Rail) — _Excellent_ · Southeast & Appalachia · deadline: 2026-09-01
-- M.S. Graduate Teaching Assistantship — Gray Fox Ecology — _Strong_ · Southeast & Appalachia · deadline: 2026-09-30
-- Conservation Engineering Technician — _Strong_ · Southeast & Appalachia · deadline: 2026-08-28
-- Ecology Restoration Supervisor — _Strong_ · Southeast & Appalachia · deadline: 2026-08-31
-- Common Waters VISTA — statewide water quality — _Strong_ · Southeast & Appalachia · deadline: 2026-09-30
-- Field Biologist — statewide surveys including camera trapping — _Strong_ · Southeast & Appalachia · deadline: 2026-08-05
+**Added 0 new** opportunities.
 
 **Updated 0** (deadline / status / description changed).
 
