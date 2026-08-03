@@ -415,6 +415,46 @@ function save(m){
 }
 function has(id){ return !!load()[id]; }
 
+/* ── v3.77: SLIM AT THE WRITE BOUNDARY ────────────────────────────────────
+   addItem() has always slimmed on save, but push() shipped localStorage
+   VERBATIM — so any device whose local copy predates the slim migration
+   silently re-inflated the cloud on its very next heartbeat. That is exactly
+   what happened between Jul 27 and Aug 3: the live record went 26 KB -> 55 KB
+   and 27 of 30 saved items regained body/pills/desc/badge/start. Slimming the
+   CLOUD alone can never hold; slimming at the write boundary does, whatever a
+   given device has cached, and it self-heals on the next push without anyone
+   having to touch localStorage.
+
+   Verified against the live record before shipping: 34.8 KB -> 9.4 KB of items
+   with ZERO fields lost from what Erin actually sees — everything dropped is
+   re-merged from opportunities.js by mergeWithAll() on render. Two items
+   (item-127 badge, item-309 cycle/deadline_kind) render DIFFERENTLY after
+   slimming, and in both cases the saved copy was a stale snapshot overriding a
+   newer, correct value — so slimming corrects them rather than losing them. */
+function slimItemsForCloud(m){
+  var known={};
+  try{
+    /* If the catalogue isn't loaded we cannot tell a real item from an orphan,
+       and stripping an orphan would destroy its only copy. Push unchanged: an
+       oversized record is recoverable, a stripped orphan is not. */
+    if(typeof ALL==='undefined' || !Array.isArray(ALL) || !ALL.length) return m;
+    for(var i=0;i<ALL.length;i++){ if(ALL[i] && ALL[i].id) known[ALL[i].id]=1; }
+  }catch(e){ return m; }
+  var out={};
+  Object.keys(m||{}).forEach(function(id){
+    var d=m[id]||{};
+    if(!known[id]){ out[id]=Object.assign({}, d, {_full:1}); return; }  /* orphan -> FULL */
+    var s={};
+    ['id','title','org','type','cat','src','deadline','url'].forEach(function(f){
+      if(d[f]!=null && d[f]!=='') s[f]=d[f];            /* '' would blank the real value */
+    });
+    ['notes','_done','savedAt'].forEach(function(f){     /* user-authored: ALL can't supply these */
+      if(d[f]!=null && d[f]!=='') s[f]=d[f];
+    });
+    out[id]=s;
+  });
+  return out;
+}
 function push(m){ pushCloud(m); }
 function pushCloud(m){
   if(!isPrimary()) return;
@@ -422,7 +462,7 @@ function pushCloud(m){
     .then(function(r){return r.json();})
     .then(function(data){
       if(!data||!data.record) return; var rec=data.record;
-      rec.items=m;
+      rec.items=slimItemsForCloud(m);
       return fetch('https://api.jsonbin.io/v3/b/'+BIN,{
         method:'PUT',
         headers:{'Content-Type':'application/json','X-Access-Key':KEY,'X-Bin-Versioning':'false'},

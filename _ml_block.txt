@@ -10,6 +10,35 @@ var _mem=null, _memNI=null, _memBL=null, _memPR=null, _memRV=null;
 function getSaved(){if(isPrimary()){try{return JSON.parse(localStorage.getItem(STORE)||'{}')}catch(e){return{}}} if(_mem===null)_mem={}; return _mem;}
 function setSaved(m){if(isPrimary()){localStorage.setItem(STORE,JSON.stringify(m));} else {_mem=m;}}
 function isSaved(id){return!!getSaved()[id];}
+/* v3.77: slim every item on the way OUT to the cloud. payload() already slims
+   on save, but push() used to ship localStorage verbatim, so a device holding
+   pre-migration full copies re-inflated the cloud on its next write (26 KB ->
+   55 KB between Jul 27 and Aug 3). Fixing it at the write boundary self-heals
+   regardless of what any device has cached. Mirrors slimItemsForCloud() in
+   erin_mylist.html — keep the two in step. */
+function slimItemsForCloud(m){
+  var known={};
+  try{
+    /* catalogue not loaded -> cannot distinguish an orphan, and stripping one
+       destroys its only copy. Push unchanged; oversized is recoverable. */
+    if(typeof ALL==='undefined' || !Array.isArray(ALL) || !ALL.length) return m;
+    for(var i=0;i<ALL.length;i++){ if(ALL[i] && ALL[i].id) known[ALL[i].id]=1; }
+  }catch(e){ return m; }
+  var out={};
+  Object.keys(m||{}).forEach(function(id){
+    var d=m[id]||{};
+    if(!known[id]){ out[id]=Object.assign({}, d, {_full:1}); return; }
+    var s={};
+    ['id','title','org','type','cat','src','deadline','url'].forEach(function(f){
+      if(d[f]!=null && d[f]!=='') s[f]=d[f];
+    });
+    ['notes','_done','savedAt'].forEach(function(f){
+      if(d[f]!=null && d[f]!=='') s[f]=d[f];
+    });
+    out[id]=s;
+  });
+  return out;
+}
 function push(m){
   if(!isPrimary()) return;            /* only Erin's primary laptop writes to the cloud */
   fetch('https://api.jsonbin.io/v3/b/'+BIN_ID+'/latest',{headers:{'X-Access-Key':API_KEY}})
@@ -17,7 +46,7 @@ function push(m){
     .then(function(data){
       if(!data||!data.record) return;   /* guard: a malformed 200 (no record) must not clobber other keys */
       var rec=data.record;
-      rec.items=m;                    /* merge: only replace items, keep apps/archiveLog/etc */
+      rec.items=slimItemsForCloud(m); /* merge: only replace items, keep apps/archiveLog/etc */
       return fetch('https://api.jsonbin.io/v3/b/'+BIN_ID,{
         method:'PUT',
         headers:{'Content-Type':'application/json','X-Access-Key':API_KEY,'X-Bin-Versioning':'false'},
