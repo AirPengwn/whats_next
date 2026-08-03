@@ -1,28 +1,30 @@
 # Weekly opportunity sweep — 2026-08-03
 
-**Added 16 new** opportunities:
-- Biological Sciences — Air Force nationwide direct-hire register — _Good_ · National / Remote / Multiple · deadline: 2026-03-30
-- Physical Science — Air Force nationwide direct-hire register — _Good_ · National / Remote / Multiple · deadline: 2026-03-30
-- Natural Resource Specialist (GS-7/9) — four western duty stations — _Strong_ · National / Remote / Multiple · deadline: 2026-08-11
-- Natural Resource Specialist (GS-7/11) — four western duty stations — _Strong_ · National / Remote / Multiple · deadline: 2026-08-11
-- Environmental Resource Specialist (GS-7/11) — three Idaho districts — _Excellent_ · National / Remote / Multiple · deadline: 2026-08-14
-- Natural Resources Specialist (Ranger), GS-5/9 — six Corps reservoirs — _Strong_ · National / Remote / Multiple · deadline: 2026-08-14
-- Biological Science Technician (Field Support Technician), GS-7 — _Strong_ · National / Remote / Multiple · deadline: 2026-08-06
-- Environmental Protection Specialist (GS-9) — Fort Collins, Minneapolis & Raleigh — _Reach / review_ · National / Remote / Multiple · deadline: 2026-08-06
-- Wildlife Biologist (GS-9) — Fort Collins & Kapolei — _Reach / review_ · National / Remote / Multiple · deadline: 2026-08-06
-- Fish Biologist (GS-7/9) — Ludington & Marquette field stations — _Strong_ · National / Remote / Multiple · deadline: 2026-08-11
-- ORISE / Zintellect research-participation catalog (SOURCE — EPA, USGS, USDA, NOAA, ERDC) — _Excellent_ · National / Remote / Multiple · deadline: Rolling — applications reviewed as received
-- USGS Wetland Biogeochemistry — Prairie Pothole Region research appointment — _Excellent_ · National / Remote / Multiple · deadline: Rolling — applications reviewed as received
-- USGS Marsh Surfaces & Soil Composition after Thin Layer Placement — _Excellent_ · National / Remote / Multiple · deadline: Rolling — applications reviewed as received
-- USGS Wildlife-Habitat Modeling — San Francisco Bay marshes & ponds — _Strong_ · National / Remote / Multiple · deadline: Rolling — applications reviewed as received
-- USGS Climate Adaptation Science Centers — ecological efficacy synthesis fellowship — _Good_ · National / Remote / Multiple · deadline: Rolling — applications reviewed as received
-- USAEC Wildlife Research Fellowship — West Point — _Strong_ · National / Remote / Multiple · deadline: Rolling — applications reviewed as received
+**Added 15 new** opportunities:
+- Public Land Corps non-competitive federal hiring eligibility (SOURCE) — _Excellent_ · National / Remote / Multiple · deadline: Rolling — applications reviewed as received
+- The Corps Network — national Find a Corps directory (SOURCE) — _Good_ · National / Remote / Multiple · deadline: Rolling — applications reviewed as received
+- USGS Cooperative Fish & Wildlife Research Units — funded MS/PhD assistantships (SOURCE) — _Excellent_ · National / Remote / Multiple · deadline: Rolling — applications reviewed as received
+- MobilizeGreen — USFWS Adaptation and Maintenance & Infrastructure fellowships — _Strong_ · National / Remote / Multiple · deadline: Contact first — cycle dates announced by the programme
+- Environment for the Americas — federal conservation internship portal (SOURCE) — _Strong_ · National / Remote / Multiple · deadline: Contact first — cycle dates announced by the programme
+- Mosaics in Science — NPS natural-resource science internship — _Good_ · National / Remote / Multiple · deadline: Contact first — cycle dates announced by the programme
+- USAJOBS Recent Graduates / Pathways — standing nationwide saved search (SOURCE) — _Excellent_ · National / Remote / Multiple · deadline: Rolling — applications reviewed as received
+- Program Manager, Forest Management Program — remote — _Strong_ · National / Remote / Multiple · deadline: Rolling — applications reviewed as received
+- Marine Protection Atlas Intern — remote geospatial — _Good_ · National / Remote / Multiple · deadline: Rolling — applications reviewed as received
+- Switzer Environmental Fellowship — 2027 cycle, first nationwide year — _Reach / review_ · National / Remote / Multiple · deadline: Contact first — cycle dates announced by the programme
+- NOAA Sea Grant Knauss Marine Policy Fellowship — _Reach / review_ · National / Remote / Multiple · deadline: Contact first — cycle dates announced by the programme
+- EDF Climate Corps Fellowship — Summer 2027 — _Reach / review_ · National / Remote / Multiple · deadline: Contact first — cycle dates announced by the programme
+- Presidential Management Fellows (PMF) Program — _Reach / review_ · National / Remote / Multiple · deadline: Contact first — cycle dates announced by the programme
+- SWS Wetland Ambassadors research exchange — _Reach / review_ · National / Remote / Multiple · deadline: Contact first — cycle dates announced by the programme
+- Society for Conservation GIS — Global Scholarship Program — _Good_ · National / Remote / Multiple · deadline: Contact first — cycle dates announced by the programme
 
 **⚠ Review these (reach / weak fit — your call whether to keep):**
-- Environmental Protection Specialist (GS-9) — Fort Collins, Minneapolis & Raleigh — _Reach / review_ · National / Remote / Multiple · deadline: 2026-08-06
-- Wildlife Biologist (GS-9) — Fort Collins & Kapolei — _Reach / review_ · National / Remote / Multiple · deadline: 2026-08-06
+- Switzer Environmental Fellowship — 2027 cycle, first nationwide year — _Reach / review_ · National / Remote / Multiple · deadline: Contact first — cycle dates announced by the programme
+- NOAA Sea Grant Knauss Marine Policy Fellowship — _Reach / review_ · National / Remote / Multiple · deadline: Contact first — cycle dates announced by the programme
+- EDF Climate Corps Fellowship — Summer 2027 — _Reach / review_ · National / Remote / Multiple · deadline: Contact first — cycle dates announced by the programme
+- Presidential Management Fellows (PMF) Program — _Reach / review_ · National / Remote / Multiple · deadline: Contact first — cycle dates announced by the programme
+- SWS Wetland Ambassadors research exchange — _Reach / review_ · National / Remote / Multiple · deadline: Contact first — cycle dates announced by the programme
 
 **Updated 0** (deadline / status / description changed).
 
-**Total opportunities:** 643  ·  next-cycle: 210  ·  expired (one-time, no future cycle): 21
+**Total opportunities:** 658  ·  next-cycle: 210  ·  expired (one-time, no future cycle): 21
 Triage: passed-but-recurring → `cycle:"next"`; one-time/discontinued → `expired:true`. Passed/expired are hidden on the site by default (toggle to show); never deleted, never moved to the personal Archive. Fit tiers: _Excellent_ / _Strong_ / _Good_ / _Reach / review_ (set via each entry's badge). The Browse pages render from this data automatically — no HTML edits. Nothing is live until this PR is merged.

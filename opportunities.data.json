@@ -27787,5 +27787,620 @@
       "Habitat surveys",
       "Builds GS-9 eligibility"
     ]
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "National / Remote / Multiple",
+    "start": "See posting",
+    "id": "item-665",
+    "title": "Public Land Corps non-competitive federal hiring eligibility (SOURCE)",
+    "org": "U.S. Dept. of the Interior / USDA Forest Service · earned through member conservation corps",
+    "location": "Nationwide — any qualifying corps placement on federal land",
+    "deadline": "Rolling — applications reviewed as received",
+    "pay": "Not a paid position in itself — this is a hiring authority earned through a corps term",
+    "stipend": "",
+    "benefits": "Two years of non-competitive hiring status for permanent federal competitive-service positions",
+    "badge": "Top recommendation",
+    "url": "https://www.fws.gov/internships/public-land-corps",
+    "url_label": "USFWS — Public Land Corps",
+    "links": [
+      {
+        "href": "https://www.fws.gov/internships/public-land-corps",
+        "label": "🔗 USFWS — Public Land Corps"
+      }
+    ],
+    "metaLine": "Rolling · 640 service hours incl. 120 on federal land · before age 31 · 2-yr eligibility",
+    "body": "PLC is a hiring authority rather than a job. Complete 640 hours of qualifying conservation service including at least 120 hours on federal lands, before age 31, and you receive a certificate granting two years of non-competitive hiring status for permanent federal competitive-service positions. The certificate is uploaded to a USAJOBS profile and used by filtering job searches on the Special Authorities hiring path. Many ACE, SCA, Conservation Legacy and Corps Network positions are PLC-qualifying.",
+    "desc": "This is the mechanism that converts a corps season into the USFWS or USDA job she actually wants, and it is the strategic reason to prefer a PLC-flagged placement over an otherwise identical one — worth reading before choosing between corps offers, not after.",
+    "pills": [
+      "Hiring authority, not a job",
+      "640 hrs · 120 on federal land",
+      "2 years of eligibility",
+      "⚠️ Age 31 cutoff"
+    ]
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "National / Remote / Multiple",
+    "start": "See posting",
+    "id": "item-666",
+    "title": "The Corps Network — national Find a Corps directory (SOURCE)",
+    "org": "The Corps Network · member service & conservation corps in all 50 states",
+    "location": "Nationwide — member corps in every region",
+    "deadline": "Rolling — applications reviewed as received",
+    "pay": "",
+    "stipend": "Varies by member corps — most carry an AmeriCorps living allowance and education award",
+    "benefits": "Many member positions carry AmeriCorps education awards and Public Land Corps hiring eligibility",
+    "badge": "Good fit",
+    "url": "https://corpsnetwork.org/join-a-corps/",
+    "url_label": "Find a Corps directory",
+    "links": [
+      {
+        "href": "https://corpsnetwork.org/join-a-corps/",
+        "label": "🔗 Find a Corps directory"
+      }
+    ],
+    "metaLine": "Rolling · directory of member corps in all 50 states · recruitment cycles vary by corps",
+    "body": "The national association of service and conservation corps, with a Find a Corps directory covering member programmes across all fifty states. Many member corps positions carry AmeriCorps education awards and Public Land Corps hiring eligibility. Recruitment cycles vary by member corps and run year-round rather than to a single calendar.",
+    "desc": "One directory surfaces every regional corps at once, which is the efficient way to find PLC-qualifying placements in whichever part of the country she is willing to move to — use it alongside the Public Land Corps card rather than instead of it.",
+    "pills": [
+      "All 50 states",
+      "Many are PLC-qualifying",
+      "Year-round cycles",
+      "Use with the PLC card"
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "National / Remote / Multiple",
+    "start": "See posting",
+    "id": "item-667",
+    "title": "USGS Cooperative Fish & Wildlife Research Units — funded MS/PhD assistantships (SOURCE)",
+    "org": "U.S. Geological Survey Cooperative Research Units Program · land-grant universities nationwide",
+    "location": "Nationwide — units hosted at land-grant universities in most states",
+    "deadline": "Rolling — applications reviewed as received",
+    "pay": "",
+    "stipend": "Set by the host university — as one current example, the Maine unit's STREAM assistantships publish a minimum of $28,000/yr for MS and $31,333/yr for PhD",
+    "benefits": "Typically a stipend, tuition credits and partial health/dental coverage; terms set by the host university",
+    "badge": "Top recommendation",
+    "url": "https://www.usgs.gov/programs/cooperative-research-units",
+    "url_label": "USGS Coop Research Units",
+    "links": [
+      {
+        "href": "https://www.usgs.gov/programs/cooperative-research-units",
+        "label": "🔗 USGS Coop Research Units"
+      }
+    ],
+    "metaLine": "Rolling · fall posting wave starts now · federally-flavoured applied research degrees",
+    "body": "The Coop Units programme embeds USGS scientists inside universities across the country, and those scientists advertise fully funded graduate assistantships tied to applied fish, wildlife and habitat research on a rolling basis through the autumn. Assistantships typically carry a stipend, tuition credits and partial health and dental coverage, with the exact terms set by the host university. The Maine unit's STREAM river-mapping assistantships are a live example, with a September 30 2026 deadline and a January 2027 start.",
+    "desc": "A Coop Unit assistantship is the cleanest bridge between her BS and a USFWS or USGS career, because the research is applied, the advisor is a federal scientist, and the fall posting wave is starting right now — this is the single source most worth checking weekly between now and November.",
+    "pills": [
+      "Federal advisor",
+      "Fall posting wave starting",
+      "Tuition + stipend",
+      "Bridge to USFWS/USGS"
+    ]
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "contact-first",
+    "deadline_date": "",
+    "region": "National / Remote / Multiple",
+    "start": "See posting",
+    "id": "item-668",
+    "title": "MobilizeGreen — USFWS Adaptation and Maintenance & Infrastructure fellowships",
+    "org": "MobilizeGreen · in partnership with U.S. Fish & Wildlife Service · refuges nationwide",
+    "location": "Nationwide — USFWS refuges and offices",
+    "deadline": "Contact first — cycle dates announced by the programme",
+    "pay": "",
+    "stipend": "Not published on the programme page — confirm with MobilizeGreen before applying",
+    "benefits": "Benefits, travel and housing included; fellowships typically run six months and are extendable up to three years",
+    "badge": "Strong fit",
+    "url": "https://www.mobilizegreen.org/internships",
+    "url_label": "MobilizeGreen internships",
+    "links": [
+      {
+        "href": "https://www.mobilizegreen.org/internships",
+        "label": "🔗 MobilizeGreen internships"
+      }
+    ],
+    "metaLine": "Cohort recruitment opens January · USFWS-embedded · 6 months, extendable to 3 years",
+    "body": "MobilizeGreen runs USFWS-partnered fellowships placing conservation-minded recent graduates at refuges and offices nationwide, including an Adaptation Fellowship supporting Fish & Wildlife Service goals around rapid ecological change. Fellowships typically run six months and are extendable up to three years, with benefits, travel and housing included. Recruitment for the cohort opens in January, and some placements also run through the federal Resource Assistants Program and Public Land Corps authorities.",
+    "desc": "A USFWS-embedded fellowship for recent graduates that can extend to three years is close to the best possible non-permanent route into her target agency — and the extension path means it can turn into real tenure rather than another season.",
+    "pills": [
+      "USFWS-embedded",
+      "Extendable to 3 years",
+      "Housing included",
+      "January recruitment"
+    ]
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "contact-first",
+    "deadline_date": "",
+    "region": "National / Remote / Multiple",
+    "start": "See posting",
+    "id": "item-669",
+    "title": "Environment for the Americas — federal conservation internship portal (SOURCE)",
+    "org": "Environment for the Americas · national parks, forests & wildlife refuges nationwide",
+    "location": "Nationwide — federal sites across the National Park System, national forests and refuges",
+    "deadline": "Contact first — cycle dates announced by the programme",
+    "pay": "",
+    "stipend": "Varies by programme and placement — read the individual listing",
+    "benefits": "Varies by programme; many placements include housing or a housing allowance and paid travel",
+    "badge": "Strong fit",
+    "url": "https://environmentamericas.org/internships/available-internships/",
+    "url_label": "EFTA available internships",
+    "links": [
+      {
+        "href": "https://environmentamericas.org/internships/available-internships/",
+        "label": "🔗 EFTA available internships"
+      }
+    ],
+    "metaLine": "⚠️ Main window mid-Dec to early Feb · recruits for USFS Resource Assistants Program · ages 18–30",
+    "body": "EFTA is a lead recruiting partner for several federal internship pathways — the Resource Assistants Program, individual placements, Fish & Feathers, Latino Heritage and the monarch and accessibility programmes — with a searchable map of positions nationwide. Eligibility is US citizens or legal residents aged 18 to 30, extended to 35 for veterans. Most of its Park Service programmes recruit between mid-December and early February for the following summer.",
+    "desc": "This is one of the main portals through which USFS Resource Assistants Program positions are actually advertised, and RAP is the fastest documented route from a BS to direct-hire federal eligibility — the mid-December to early-February window is a hard calendar item, not a browse-when-convenient source.",
+    "pills": [
+      "Recruits for USFS RAP",
+      "⚠️ Dec–Feb window",
+      "Ages 18–30",
+      "Nationwide federal sites"
+    ]
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "contact-first",
+    "deadline_date": "",
+    "region": "National / Remote / Multiple",
+    "start": "See posting",
+    "id": "item-670",
+    "title": "Mosaics in Science — NPS natural-resource science internship",
+    "org": "National Park Service · via Environment for the Americas · parks nationwide",
+    "location": "Nationwide — national parks across the National Park System",
+    "deadline": "Contact first — cycle dates announced by the programme",
+    "pay": "",
+    "stipend": "⚠️ Published stipend figures conflict across sources — confirm the current rate on the programme site before relying on it",
+    "benefits": "Housing or a housing allowance and paid travel included",
+    "badge": "Good fit",
+    "url": "https://www.mosaicsinscience.org/internships/",
+    "url_label": "Mosaics in Science",
+    "links": [
+      {
+        "href": "https://www.mosaicsinscience.org/internships/",
+        "label": "🔗 Mosaics in Science"
+      }
+    ],
+    "metaLine": "⚠️ Window opens ~early Dec for the following summer · 11 weeks + career workshop · ages 18–35",
+    "body": "An eleven-week natural-resource science internship in a national park, followed by a four-day career workshop, aimed at students and recent graduates aged 18 to 35 in STEM fields. The application window historically runs from early December to January for the following summer, so a 2027 cycle would open around December 2026. Stipend figures reported by third-party sites disagree with each other, so the programme site is the only figure worth trusting.",
+    "desc": "An NPS natural-resource science placement whose December window lines up with the Scientists in Parks cycle she should already be watching, so both can be caught in a single sitting.",
+    "pills": [
+      "11 weeks + career workshop",
+      "⚠️ Verify stipend on the site",
+      "December window",
+      "Ages 18–35"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "National / Remote / Multiple",
+    "start": "See posting",
+    "id": "item-671",
+    "title": "USAJOBS Recent Graduates / Pathways — standing nationwide saved search (SOURCE)",
+    "org": "U.S. Office of Personnel Management · all federal agencies",
+    "location": "Nationwide — all federal duty stations",
+    "deadline": "Rolling — applications reviewed as received",
+    "pay": "Varies by announcement — Pathways Recent Graduate roles commonly post at GS-5 through GS-9",
+    "stipend": "",
+    "benefits": "Full federal benefits · non-competitive conversion to a permanent position on successful completion",
+    "badge": "Top recommendation",
+    "url": "https://help.usajobs.gov/working-in-government/unique-hiring-paths/recent-graduates",
+    "url_label": "USAJOBS — Recent Graduates path",
+    "links": [
+      {
+        "href": "https://help.usajobs.gov/working-in-government/unique-hiring-paths/recent-graduates",
+        "label": "🔗 USAJOBS — Recent Graduates path"
+      }
+    ],
+    "metaLine": "⏳ Her eligibility window closes ~May 2027 · one-year appointment · converts to permanent",
+    "body": "The Pathways Recent Graduates Program is a one-year developmental federal appointment open to people within two years of graduating, with non-competitive conversion to a permanent position on successful completion. Positions post continuously on USAJOBS and are only found by applying the Recent Graduates hiring-path filter, which is separate from the ordinary public search — searching without it hides them entirely.",
+    "desc": "Her two-year Recent Graduates eligibility from a May 2025 graduation runs out around May 2027, which makes this a closing window rather than a standing option. Setting it as a saved search now costs ten minutes and covers every federal agency until then.",
+    "pills": [
+      "⏳ Eligibility ends ~May 2027",
+      "Converts to permanent",
+      "Separate search filter",
+      "All agencies"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "National / Remote / Multiple",
+    "start": "See posting",
+    "id": "item-672",
+    "title": "Program Manager, Forest Management Program — remote",
+    "org": "Appalachian Carbon Exchange · remote (Kentucky-based organisation)",
+    "location": "Remote — Kentucky-based organisation, Appalachian region focus",
+    "deadline": "Rolling — applications reviewed as received",
+    "pay": "$68,000 per year",
+    "stipend": "",
+    "benefits": "Full-time permanent role — confirm benefits with the employer",
+    "badge": "Strong fit",
+    "url": "https://www.conservationjobboard.com/region/remote",
+    "url_label": "Conservation Job Board — remote listings",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/region/remote",
+        "label": "🔗 Conservation Job Board — remote listings"
+      }
+    ],
+    "metaLine": "Rolling · remote · $68,000 · listed at 0–1 years minimum experience · Appalachian focus",
+    "body": "A remote programme-management role in forest carbon and forest management, listed on Conservation Job Board's remote feed at a minimum experience level of nought to one year. It is a full-time permanent position with a published salary, at an organisation working in the Appalachian region.",
+    "desc": "A remote, permanent, published-salary conservation role that explicitly accepts nought to one year of experience is genuinely rare — and the Appalachian focus overlaps the landscape she knows from Western Carolina. Worth a look even though programme management is a step sideways from field work.",
+    "pills": [
+      "$68,000 published",
+      "Remote",
+      "0–1 years accepted",
+      "Appalachian region"
+    ]
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "National / Remote / Multiple",
+    "start": "See posting",
+    "id": "item-673",
+    "title": "Marine Protection Atlas Intern — remote geospatial",
+    "org": "Marine Conservation Institute · fully remote",
+    "location": "Remote",
+    "deadline": "Rolling — applications reviewed as received",
+    "pay": "",
+    "stipend": "⚠️ Structured as an unpaid voluntary internship — US-based interns receive a $1,000 stipend to offset home-office expenses",
+    "benefits": "",
+    "badge": "Good fit",
+    "url": "https://www.conservationjobboard.com/region/remote",
+    "url_label": "Conservation Job Board — remote listings",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/region/remote",
+        "label": "🔗 Conservation Job Board — remote listings"
+      }
+    ],
+    "metaLine": "Rolling · remote · ⚠️ essentially unpaid · geospatial database & mapping · 0–1 years",
+    "body": "A remote internship supporting the Marine Protection Atlas, a global spatial database of marine protected areas, involving geospatial data compilation, verification and mapping. It is listed at nought to one year of minimum experience. It is structured as an unpaid voluntary internship with only a modest home-office stipend rather than a wage.",
+    "desc": "Fully remote applied GIS and spatial-database work she could stack alongside a paid position or run while graduate applications are pending — but the compensation is the catch, so this only makes sense as a supplement, never as the main placement.",
+    "pills": [
+      "⚠️ Essentially unpaid",
+      "Remote",
+      "Spatial database work",
+      "Stackable alongside paid work"
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "contact-first",
+    "deadline_date": "",
+    "region": "National / Remote / Multiple",
+    "start": "See posting",
+    "id": "item-674",
+    "title": "Switzer Environmental Fellowship — 2027 cycle, first nationwide year",
+    "org": "Robert & Patricia Switzer Foundation · accredited US graduate institutions",
+    "location": "Nationwide — 2027 is the first cycle open beyond New England and California",
+    "deadline": "Contact first — cycle dates announced by the programme",
+    "pay": "",
+    "stipend": "Not published on the how-to-apply page for the 2027 cycle — confirm when applications open",
+    "benefits": "",
+    "badge": "Reach",
+    "url": "https://www.switzernetwork.org/how-apply",
+    "url_label": "Switzer — how to apply",
+    "links": [
+      {
+        "href": "https://www.switzernetwork.org/how-apply",
+        "label": "🔗 Switzer — how to apply"
+      }
+    ],
+    "metaLine": "Applications open early September 2026 · ⚠️ must already be enrolled in grad school",
+    "body": "Switzer funds emerging environmental leaders in graduate programmes, and the 2027 cycle is the first to accept applications nationwide rather than only from New England and California. Applications open in early September 2026. Applicants must be enrolled in an accredited US graduate programme for the full academic year and be a US citizen, permanent resident or DACA recipient.",
+    "desc": "Flagged as a reach because it requires enrolment she does not yet have — this is a card for the year she starts graduate school, and the reason it is worth recording now is that 2027 is the first cycle a North Carolina student is even eligible for.",
+    "pills": [
+      "⚠️ Requires grad enrolment",
+      "First nationwide cycle",
+      "Opens early Sept 2026",
+      "For after she matriculates"
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "contact-first",
+    "deadline_date": "",
+    "region": "National / Remote / Multiple",
+    "start": "See posting",
+    "id": "item-675",
+    "title": "NOAA Sea Grant Knauss Marine Policy Fellowship",
+    "org": "NOAA Sea Grant · via NC Sea Grant · Washington, DC placements",
+    "location": "Washington, DC placements, recruited through state Sea Grant programmes (NC Sea Grant for her)",
+    "deadline": "Contact first — cycle dates announced by the programme",
+    "pay": "",
+    "stipend": "$74,700 for the 12-month fellowship plus $5,000 for relocation and professional development (2027 cohort figures)",
+    "benefits": "",
+    "badge": "Reach",
+    "url": "https://seagrant.noaa.gov/communities/students/graduate-fellows/knauss-fellowship-program/",
+    "url_label": "Knauss Fellowship",
+    "links": [
+      {
+        "href": "https://seagrant.noaa.gov/communities/students/graduate-fellows/knauss-fellowship-program/",
+        "label": "🔗 Knauss Fellowship"
+      }
+    ],
+    "metaLine": "⚠️ 2027 deadline has passed · 2028 cycle posts via NC Sea Grant · requires grad enrolment",
+    "body": "Knauss places graduate students with federal agencies or congressional offices in Washington DC for a one-year paid fellowship in ocean, coastal and Great Lakes policy. Applicants must be enrolled in a graduate programme, and applications go through the state Sea Grant programme — NC Sea Grant in her case. The 2027 cohort deadline of June 3 2026 has passed, so the 2028 cycle is the live target.",
+    "desc": "The highest-paying national fellowship on the list and a direct federal-policy credential, but it needs graduate enrolment first — recorded now so that NC Sea Grant is on her radar from her first semester rather than her last.",
+    "pills": [
+      "$74,700 stipend",
+      "⚠️ Requires grad enrolment",
+      "Apply via NC Sea Grant",
+      "2028 cycle"
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "contact-first",
+    "deadline_date": "",
+    "region": "National / Remote / Multiple",
+    "start": "See posting",
+    "id": "item-676",
+    "title": "EDF Climate Corps Fellowship — Summer 2027",
+    "org": "Environmental Defense Fund · host organisations nationwide, many remote or hybrid",
+    "location": "Nationwide — host organisations across the US; many placements remote or hybrid",
+    "deadline": "Contact first — cycle dates announced by the programme",
+    "pay": "",
+    "stipend": "At least $1,400 per week for 10–12 weeks, plus $1,400 for Foundations Week participation",
+    "benefits": "",
+    "badge": "Reach",
+    "url": "https://business.edf.org/climate-corps/fellows/us/",
+    "url_label": "EDF Climate Corps",
+    "links": [
+      {
+        "href": "https://business.edf.org/climate-corps/fellows/us/",
+        "label": "🔗 EDF Climate Corps"
+      }
+    ],
+    "metaLine": "Applications open mid-October 2026 · ⚠️ requires grad enrolment · 10–12 weeks",
+    "body": "EDF Climate Corps embeds graduate-student fellows with companies, cities and institutions nationwide to build energy and climate strategy projects over a summer. Applications for Summer 2027 open in mid-October 2026, with the prior cycle having closed on December 22. Applicants must be enrolled in a graduate certificate or degree programme for at least one term of the relevant academic year.",
+    "desc": "A well-paid, nationally recruited summer fellowship she becomes eligible for the moment she enrols in a graduate programme — worth knowing about before she picks a programme, since a certificate enrolment also qualifies.",
+    "pills": [
+      "≥$1,400/week",
+      "⚠️ Requires grad enrolment",
+      "Opens mid-Oct 2026",
+      "Many remote placements"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "contact-first",
+    "deadline_date": "",
+    "region": "National / Remote / Multiple",
+    "start": "See posting",
+    "id": "item-677",
+    "title": "Presidential Management Fellows (PMF) Program",
+    "org": "U.S. Office of Personnel Management · federal agencies nationwide",
+    "location": "Nationwide — finalists place with federal agencies across the country",
+    "deadline": "Contact first — cycle dates announced by the programme",
+    "pay": "Not published as a single figure — PMF appointments are commonly made at GS-9 or GS-11 depending on the degree",
+    "stipend": "",
+    "benefits": "Two-year appointment with non-competitive conversion to a permanent federal position",
+    "badge": "Reach",
+    "url": "https://www.opm.gov/policy-data-oversight/hiring-information/students-recent-graduates/",
+    "url_label": "OPM — students & recent graduates",
+    "links": [
+      {
+        "href": "https://www.opm.gov/policy-data-oversight/hiring-information/students-recent-graduates/",
+        "label": "🔗 OPM — students & recent graduates"
+      }
+    ],
+    "metaLine": "⚠️ GRAD-REQUIRED — master's, JD or PhD within the preceding 2 years · window opens in the fall",
+    "body": "PMF is the government's flagship leadership-development pathway into federal service, offering a two-year appointment with non-competitive conversion. Eligibility rests on an advanced degree — master's, JD or PhD — completed within the two years preceding the announcement, or expected by the announcement's stated completion date. There is no GPA cap, age limit or discipline restriction, and the application window typically opens in the autumn.",
+    "desc": "Not usable until she has a master's in hand, and recorded here for one specific reason: the two-year post-graduation eligibility clock means her programme start and finish dates affect whether she can ever use it. Worth knowing before she picks a programme, not after she finishes one.",
+    "pills": [
+      "⚠️ Requires a completed master's",
+      "2-year eligibility clock",
+      "Converts to permanent",
+      "Fall window"
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "contact-first",
+    "deadline_date": "",
+    "region": "National / Remote / Multiple",
+    "start": "See posting",
+    "id": "item-678",
+    "title": "SWS Wetland Ambassadors research exchange",
+    "org": "Society of Wetland Scientists · international host institutions",
+    "location": "Nationwide applicant pool; international host institutions",
+    "deadline": "Contact first — cycle dates announced by the programme",
+    "pay": "",
+    "stipend": "Grant of up to US$5,000; host institutions may additionally provide lab costs, meal plans or room and board",
+    "benefits": "",
+    "badge": "Reach",
+    "url": "https://sws.org/",
+    "url_label": "Society of Wetland Scientists",
+    "links": [
+      {
+        "href": "https://sws.org/",
+        "label": "🔗 Society of Wetland Scientists"
+      }
+    ],
+    "metaLine": "⚠️ Requires MS/PhD enrolment · wetland-specific · confirm the current cycle with SWS",
+    "body": "A student research exchange that funds graduate students to travel to another country and conduct wetland research with a host institution. Applicants must be currently enrolled in an MS or PhD programme in wetland science, biology, environmental science or environmental engineering. Award cycles are announced through the society, so the current deadline should be confirmed with SWS directly.",
+    "desc": "A wetland-specific funded research award she becomes eligible for as soon as she enrols — and the practical action now is joining SWS, which costs little and puts the announcement in her inbox rather than requiring her to remember to check.",
+    "pills": [
+      "⚠️ Requires grad enrolment",
+      "Wetland-specific",
+      "Up to $5,000",
+      "Join SWS now to catch it"
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "contact-first",
+    "deadline_date": "",
+    "region": "National / Remote / Multiple",
+    "start": "See posting",
+    "id": "item-679",
+    "title": "Society for Conservation GIS — Global Scholarship Program",
+    "org": "Society for Conservation GIS · training held in California",
+    "location": "Nationwide and international applicant pool; training held in California",
+    "deadline": "Contact first — cycle dates announced by the programme",
+    "pay": "",
+    "stipend": "Covers conference and training participation rather than paying a salary — no stipend figure published",
+    "benefits": "",
+    "badge": "Good fit",
+    "url": "https://www.scgis.org/global-scholarship-program",
+    "url_label": "SCGIS Global Scholarship",
+    "links": [
+      {
+        "href": "https://www.scgis.org/global-scholarship-program",
+        "label": "🔗 SCGIS Global Scholarship"
+      }
+    ],
+    "metaLine": "⚠️ 2027 cycle not yet announced · Esri User Conference + SCGIS conference + GIS training",
+    "body": "SCGIS scholarships fund conservation GIS practitioners to attend the Esri User Conference and the SCGIS Annual Conference, plus specialised multi-week GIS training organised for scholarship recipients. Deadlines vary year to year and the 2027 cycle had not been announced as of early August 2026. The award covers participation rather than paying a wage.",
+    "desc": "A low-cost way to convert her GIS coursework into a professional network and a formal Esri training credential — which is exactly the gap between having taken GIS classes and being hired as a GIS person.",
+    "pills": [
+      "Esri training credential",
+      "Conservation GIS network",
+      "⚠️ 2027 cycle unannounced",
+      "Not a salary"
+    ]
   }
 ]
