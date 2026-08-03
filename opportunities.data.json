@@ -24830,6 +24830,10 @@
       {
         "href": "https://www.conservationjobboard.com/job-listing-wetland-environmental-scientist-raleigh-north-carolina/8129542792",
         "label": "🔗 Wetland Environmental Scientist — delineations & Section 401/404 permitting — Wildlands Engineering, Inc. · Raleigh, NC"
+      },
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-wetland-environmental-scientist-raleigh-north-carolina/8348063341",
+        "label": "🔗 Conservation Job Board — Wildlands Engineering"
       }
     ],
     "url": "https://www.conservationjobboard.com/job-listing-wetland-environmental-scientist-raleigh-north-carolina/8129542792",
@@ -24837,7 +24841,8 @@
     "pay": "$57,000 to $74,000 per year",
     "stipend": "",
     "benefits": "Confirm benefits with the employer",
-    "id": "item-591"
+    "id": "item-591",
+    "url_label": "Conservation Job Board — Wildlands Engineering"
   },
   {
     "type": "Career Position",
@@ -24870,6 +24875,10 @@
       {
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117741",
         "label": "🔗 Water Quality Lab Technician — sample analysis for lake & pond programs — Aquatic Environmental Services · Jasper, GA"
+      },
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-water-quality-lab-technician-jasper-georgia/8148286279",
+        "label": "🔗 Conservation Job Board — Aquatic Environmental Services"
       }
     ],
     "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117741",
@@ -24877,7 +24886,8 @@
     "pay": "$19 to $23.50 per hour",
     "stipend": "",
     "benefits": "Confirm benefits with the employer",
-    "id": "item-592"
+    "id": "item-592",
+    "url_label": "Conservation Job Board — Aquatic Environmental Services"
   },
   {
     "type": "Career Position",
@@ -33423,6 +33433,498 @@
       "Inside a grad-assistantship dept",
       "$18–$25/hr",
       "Closes Sep 7"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-01",
+    "region": "Southeast & Appalachia",
+    "start": "See posting",
+    "id": "item-802",
+    "title": "Hellbender Private Lands Biologist — NRCS Working Lands for Wildlife",
+    "org": "University of Georgia with USDA NRCS · Waynesville / Asheville, NC",
+    "location": "Waynesville and Asheville, North Carolina (western NC)",
+    "deadline": "2026-09-01",
+    "pay": "Starting at $54,636 per year",
+    "stipend": "",
+    "benefits": "University of Georgia employee benefits — confirm the package",
+    "badge": "Top recommendation",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=116606",
+    "url_label": "TAMU board — UGA/NRCS 116606",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=116606",
+        "label": "🔗 TAMU board — UGA/NRCS 116606"
+      }
+    ],
+    "metaLine": "Closes Sep 1 · $54,636 start · embedded with USDA NRCS · in her own back yard",
+    "body": "A University of Georgia position supporting implementation of the Working Lands for Wildlife Aquatics Connectivity Framework, a collaboration between UGA and USDA NRCS. Through the Farm Bill, NRCS provides technical and financial assistance to landowners undertaking conservation practices.",
+    "desc": "Aquatic connectivity work in western North Carolina, embedded with USDA NRCS — that is simultaneously her home landscape, her stated target agency, and a salary well above the technician market. Of everything found this run, this is the closest single match to where she says she wants to end up.",
+    "pills": [
+      "Embedded with USDA NRCS",
+      "$54,636 start",
+      "Western NC — home ground",
+      "Aquatic connectivity"
+    ]
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-04",
+    "region": "Southeast & Appalachia",
+    "start": "See posting",
+    "id": "item-803",
+    "title": "GIS Member — Chattahoochee River National Recreation Area",
+    "org": "American Conservation Experience / National Park Service · Sandy Springs, GA",
+    "location": "Sandy Springs, Georgia (Chattahoochee River NRA)",
+    "deadline": "2026-09-04",
+    "pay": "",
+    "stipend": "$650 per week (pre-tax) living allowance",
+    "benefits": "Housing provided at no cost — private bedroom in shared accommodation",
+    "badge": "Top recommendation",
+    "url": "https://usaconservation.applicantpool.com/jobs/1318054.html",
+    "url_label": "ACE — Chattahoochee GIS Member 1318054",
+    "links": [
+      {
+        "href": "https://usaconservation.applicantpool.com/jobs/1318054.html",
+        "label": "🔗 ACE — Chattahoochee GIS Member 1318054"
+      }
+    ],
+    "metaLine": "Closes Sep 4 · $650/wk + FREE HOUSING · dedicated GIS role · 52 weeks inside the NPS",
+    "body": "One ACE GIS Member contributing to a variety of GIS duties with the Planning, Resources and Education division of the park. It is a 52-week term with a flexible October 5 2026 start, and includes a private bedroom in provided shared housing.",
+    "desc": "A dedicated year-long GIS role inside the National Park Service with free housing — this is the best pure GIS match found anywhere this run, and a full year of federal geospatial work is exactly what converts her coursework into a hireable specialty. The free housing makes the modest weekly rate go much further.",
+    "pills": [
+      "Dedicated GIS role",
+      "FREE housing",
+      "52 weeks inside NPS",
+      "$650/wk"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-05",
+    "region": "Southeast & Appalachia",
+    "start": "See posting",
+    "id": "item-804",
+    "title": "Wildlife Biologist 1/2 — Deer Management Assistance Program",
+    "org": "Georgia DNR — Wildlife Resources Division · west central Georgia",
+    "location": "West central Georgia (home office near Newnan)",
+    "deadline": "2026-08-05",
+    "pay": "$49,969.11 per year (Wildlife Biologist 1) or $54,966.16 (Wildlife Biologist 2)",
+    "stipend": "",
+    "benefits": "State of Georgia employee benefits",
+    "badge": "Top recommendation",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117539",
+    "url_label": "TAMU board — Georgia DNR 117539",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117539",
+        "label": "🔗 TAMU board — Georgia DNR 117539"
+      }
+    ],
+    "metaLine": "⏰ Closes Aug 5 · BIOLOGIST 1 needs only a BS · $49,969 full salary · no experience bar",
+    "body": "Implements the Deer Management Assistance Program working intensively with landowners, hunt clubs and farmers. Duties include developing population and habitat management plans, data collection and analysis, wildlife disease surveillance and teaching management seminars. The Wildlife Biologist 1 tier requires only a bachelor's in biology or a related field.",
+    "desc": "The Wildlife Biologist 1 tier needs nothing but a bachelor's degree, which makes this a genuine full-salary state biologist entry point rather than a technician role dressed up — those are rare enough to be worth an application even at short notice.",
+    "pills": [
+      "BIOLOGIST 1 — BS is the only bar",
+      "$49,969 full salary",
+      "No experience required",
+      "⏰ Closes Aug 5"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-04",
+    "region": "Southeast & Appalachia",
+    "start": "See posting",
+    "id": "item-806",
+    "title": "Franklin Conservation Technician I",
+    "org": "North Carolina Wildlife Resources Commission · Macon County, NC",
+    "location": "Franklin, North Carolina (Macon County — western NC mountains)",
+    "deadline": "2026-08-04",
+    "pay": "$33,902–$59,327 per year",
+    "stipend": "",
+    "benefits": "State of North Carolina employee benefits",
+    "badge": "Top recommendation",
+    "url": "https://nc.wd108.myworkdayjobs.com/NC_Careers/job/Macon-County-NC/Franklin-Conservation-Technician-I_JR-120682",
+    "url_label": "NC Careers — NCWRC JR-120682",
+    "links": [
+      {
+        "href": "https://nc.wd108.myworkdayjobs.com/NC_Careers/job/Macon-County-NC/Franklin-Conservation-Technician-I_JR-120682",
+        "label": "🔗 NC Careers — NCWRC JR-120682"
+      }
+    ],
+    "metaLine": "⏰ Closes TOMORROW · entry state wildlife agency job · western NC mountains",
+    "body": "A Wildlife Conservation Technician I with NCWRC's Land and Water Access Division, supporting the Game Land Program, land acquisition and boating and fishing access maintenance out of the Franklin depot. Management preferences include knowledge of wildlife management, habitats, land management and forest management.",
+    "desc": "An entry-grade state wildlife agency job in the western North Carolina mountains — the landscape she already knows and studied. NCWRC technician roles are the standard route into permanent North Carolina wildlife positions. It closes tomorrow.",
+    "pills": [
+      "⏰ Closes Aug 4",
+      "Western NC mountains",
+      "Entry state wildlife agency",
+      "$33.9k–$59.3k"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-07",
+    "region": "Southeast & Appalachia",
+    "start": "See posting",
+    "id": "item-807",
+    "title": "Environmental Specialist II — Division of Waste Management",
+    "org": "NC Department of Environmental Quality · Wake County, NC",
+    "location": "Raleigh, North Carolina (Wake County)",
+    "deadline": "2026-08-07",
+    "pay": "$52,592–$66,310 per year",
+    "stipend": "",
+    "benefits": "State of North Carolina employee benefits — permanent position",
+    "badge": "Strong fit",
+    "url": "https://nc.wd108.myworkdayjobs.com/NC_Careers/job/Wake-County-NC/Environmental-Specialist-II_JR-121024",
+    "url_label": "NC Careers — NC DEQ JR-121024",
+    "links": [
+      {
+        "href": "https://nc.wd108.myworkdayjobs.com/NC_Careers/job/Wake-County-NC/Environmental-Specialist-II_JR-121024",
+        "label": "🔗 NC Careers — NC DEQ JR-121024"
+      }
+    ],
+    "metaLine": "⏰ Closes Aug 7 · PERMANENT state line · $52.6k–$66.3k · contaminated-site work",
+    "body": "An NC14 environmental specialist supporting the Division of Waste Management with site assessment and programme support duties. It is a permanent state position with full benefits.",
+    "desc": "Contaminated-site and waste work parallels her trace-metal contamination capstone, on a permanent state line with full benefits in her home state — the permanence is what distinguishes this from the seasonal technician roles that dominate her list.",
+    "pills": [
+      "PERMANENT state line",
+      "$52.6k–$66.3k",
+      "Contaminated-site work",
+      "⏰ Closes Aug 7"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-06",
+    "region": "Southeast & Appalachia",
+    "start": "See posting",
+    "id": "item-808",
+    "title": "Oyster Rehabilitation Biologist (Conservation Biologist I)",
+    "org": "NC DEQ — Division of Marine Fisheries · Carteret County, NC",
+    "location": "Morehead City, North Carolina (Carteret County)",
+    "deadline": "2026-08-06",
+    "pay": "$52,592–$54,170 per year",
+    "stipend": "",
+    "benefits": "State of North Carolina employee benefits",
+    "badge": "Strong fit",
+    "url": "https://nc.wd108.myworkdayjobs.com/NC_Careers/job/Carteret-County-NC/Oyster-Rehabilitation-Biologist_JR-120681",
+    "url_label": "NC Careers — NC DMF JR-120681",
+    "links": [
+      {
+        "href": "https://nc.wd108.myworkdayjobs.com/NC_Careers/job/Carteret-County-NC/Oyster-Rehabilitation-Biologist_JR-120681",
+        "label": "🔗 NC Careers — NC DMF JR-120681"
+      }
+    ],
+    "metaLine": "⏰ Closes Aug 6 · BIOLOGIST I title · coastal habitat restoration & monitoring",
+    "body": "A Conservation Biologist I running coastal shellfish rehabilitation programmes for the Division of Marine Fisheries, with a habitat restoration and monitoring focus.",
+    "desc": "An entry-titled Biologist I restoration role at a state agency — the title matters, and shellfish habitat restoration would broaden her from freshwater wetlands into estuarine systems without leaving North Carolina.",
+    "pills": [
+      "BIOLOGIST I title",
+      "Coastal habitat restoration",
+      "$52.6k–$54.2k",
+      "⏰ Closes Aug 6"
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-01",
+    "region": "Southeast & Appalachia",
+    "start": "See posting",
+    "id": "item-809",
+    "title": "PhD Assistantship — drone LiDAR of Gulf high-marsh microtopography (Eastern Black Rail)",
+    "org": "Mississippi State University · Dept. of Wildlife, Fisheries and Aquaculture / Geosystems · Starkville, MS",
+    "location": "Starkville, Mississippi (Gulf high marsh field sites)",
+    "deadline": "2026-09-01",
+    "pay": "",
+    "stipend": "Starting at $28,000 per year",
+    "benefits": "Confirm tuition and health coverage with the department",
+    "badge": "Top recommendation",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=116778",
+    "url_label": "TAMU board — Mississippi State 116778",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=116778",
+        "label": "🔗 TAMU board — Mississippi State 116778"
+      }
+    ],
+    "metaLine": "Closes Sep 1 · $28,000/yr · DRONE LiDAR + wetland microtopography · NOAA RESTORE funded",
+    "body": "A PhD student leading an assessment of microtopography in Gulf high marsh systems in association with prescribed fire, using drone-based LiDAR. It is part of phase two of the multi-institutional Firebird project sponsored by the NOAA RESTORE Science Program.",
+    "desc": "Drone LiDAR applied to wetland microtopography is the most advanced remote-sensing extension of her GIS background available anywhere in the region — it would take her from desktop suitability modelling to generating her own high-resolution elevation data, which is a substantial step up in employability.",
+    "pills": [
+      "Drone LiDAR",
+      "Wetland microtopography",
+      "$28,000/yr",
+      "NOAA RESTORE funded"
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-30",
+    "region": "Southeast & Appalachia",
+    "start": "See posting",
+    "id": "item-810",
+    "title": "M.S. Graduate Teaching Assistantship — Gray Fox Ecology",
+    "org": "University of Louisiana at Monroe · Eros / Monroe, LA",
+    "location": "Monroe, Louisiana (field sites near Eros)",
+    "deadline": "2026-09-30",
+    "pay": "",
+    "stipend": "",
+    "benefits": "⚠️ Stipend not published on the posting — confirm the assistantship terms with the advisor",
+    "badge": "Strong fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=116971",
+    "url_label": "TAMU board — UL Monroe 116971",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=116971",
+        "label": "🔗 TAMU board — UL Monroe 116971"
+      }
+    ],
+    "metaLine": "Closes Sep 30 · ⚠️ stipend not published · small-mammal trapping + camera occupancy · exact skills match",
+    "body": "An M.S. student serving as a Graduate Teaching Assistant while conducting thesis research on gray fox ecology and conservation in Louisiana under Dr Anastasia Couvillon. The project examines how small-mammal abundance and diversity influence gray fox occupancy across Louisiana.",
+    "desc": "The project literally requires small-mammal trapping and camera-based occupancy work — her two strongest documented field skills, named as the method. She would arrive already able to do the fieldwork. The stipend is not published, so that is the first question for the advisor.",
+    "pills": [
+      "Small-mammal trapping named",
+      "Camera occupancy modelling",
+      "⚠️ Stipend not published",
+      "Exact skills match"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-28",
+    "region": "Southeast & Appalachia",
+    "start": "See posting",
+    "id": "item-811",
+    "title": "Conservation Engineering Technician",
+    "org": "Shenandoah Valley Soil & Water Conservation District · Harrisonburg, VA",
+    "location": "Harrisonburg, Virginia (Rockingham and Page Counties)",
+    "deadline": "2026-08-28",
+    "pay": "$40,000–$52,000 per year",
+    "stipend": "",
+    "benefits": "Public agency benefits — confirm the package",
+    "badge": "Strong fit",
+    "url": "https://www.conservationjobboard.com/job-listing-conservation-engineering-technician-harrisonburg-virginia/2136291686",
+    "url_label": "Conservation Job Board — Shenandoah Valley SWCD",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-conservation-engineering-technician-harrisonburg-virginia/2136291686",
+        "label": "🔗 Conservation Job Board — Shenandoah Valley SWCD"
+      }
+    ],
+    "metaLine": "Closes Aug 28 · $40k–$52k · closest civilian analogue to an NRCS career path",
+    "body": "A technician with a self-governing public agency and political subdivision of Virginia covering Rockingham and Page Counties and the City of Harrisonburg, governed by an eight-member Board of Directors. The role supports conservation practice design and installation.",
+    "desc": "Soil and water conservation district work is the closest civilian analogue to a USDA NRCS career path — same practice standards, same landowner-facing delivery model — and Harrisonburg is where she already has an application in with Appalachian Conservation Corps.",
+    "pills": [
+      "Closest analogue to NRCS work",
+      "$40k–$52k",
+      "Practice design & installation",
+      "Harrisonburg VA"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-31",
+    "region": "Southeast & Appalachia",
+    "start": "See posting",
+    "id": "item-812",
+    "title": "Ecology Restoration Supervisor",
+    "org": "RES (Resource Environmental Solutions) · Warrenton, VA",
+    "location": "Warrenton, Virginia",
+    "deadline": "2026-08-31",
+    "pay": "$24–$26 per hour",
+    "stipend": "",
+    "benefits": "Confirm the benefits package with RES",
+    "badge": "Strong fit",
+    "url": "https://www.conservationjobboard.com/job-listing-ecology-restoration-supervisor-warrenton-virginia/8548174280",
+    "url_label": "Conservation Job Board — RES Warrenton",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-ecology-restoration-supervisor-warrenton-virginia/8548174280",
+        "label": "🔗 Conservation Job Board — RES Warrenton"
+      }
+    ],
+    "metaLine": "Closes Aug 31 · $24–$26/hr · stream & wetland mitigation · largest US restoration employer",
+    "body": "A field supervisory role with the nation's largest ecological restoration company, delivering stream and wetland mitigation projects, with emphasis on initiative, integrity, teamwork and adaptability.",
+    "desc": "RES is the largest private employer of wetland and stream restoration practitioners in the United States, so getting inside it opens a national internal job market — and mitigation delivery is where her delineation training earns money rather than just qualifying her.",
+    "pills": [
+      "Largest US restoration employer",
+      "Stream & wetland mitigation",
+      "Supervisory role",
+      "$24–$26/hr"
+    ]
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-30",
+    "region": "Southeast & Appalachia",
+    "start": "See posting",
+    "id": "item-813",
+    "title": "Common Waters VISTA — statewide water quality",
+    "org": "West Virginia University · Morgantown, WV",
+    "location": "Morgantown, West Virginia (statewide watershed projects)",
+    "deadline": "2026-09-30",
+    "pay": "",
+    "stipend": "",
+    "benefits": "Living allowance, choice of education award or end-of-service stipend, health coverage and training",
+    "badge": "Strong fit",
+    "url": "https://my.americorps.gov/mp/listing/viewListing.do?fromSearch=true&id=128100",
+    "url_label": "AmeriCorps listing 128100",
+    "links": [
+      {
+        "href": "https://my.americorps.gov/mp/listing/viewListing.do?fromSearch=true&id=128100",
+        "label": "🔗 AmeriCorps listing 128100"
+      }
+    ],
+    "metaLine": "Closes Sep 30 · watershed + water quality at a research university · ⚠️ allowance not published",
+    "body": "A VISTA position supporting watershed projects, strengthening partnerships and helping improve water quality across West Virginia. Benefits include a living allowance, choice of education award or end-of-service stipend, health coverage and training.",
+    "desc": "A watershed and water-quality VISTA hosted at a research university is close to a custom match for her stated interests, and being on a university campus for a year is quietly useful when graduate applications are due. The listing publishes no dollar figure, so ask first.",
+    "pills": [
+      "Watershed + water quality",
+      "Hosted at a research university",
+      "⚠️ Allowance not published",
+      "Full year"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-05",
+    "region": "Southeast & Appalachia",
+    "start": "See posting",
+    "id": "item-815",
+    "title": "Field Biologist — statewide surveys including camera trapping",
+    "org": "Florida Natural Areas Inventory, Florida State University · statewide, FL",
+    "location": "Statewide, Florida",
+    "deadline": "2026-08-05",
+    "pay": "Starting at $41,000 per year",
+    "stipend": "",
+    "benefits": "Florida State University employee benefits — confirm the package",
+    "badge": "Strong fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117801",
+    "url_label": "TAMU board — FNAI 117801",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117801",
+        "label": "🔗 TAMU board — FNAI 117801"
+      }
+    ],
+    "metaLine": "⏰ Closes Aug 5 · $41,000 salaried · camera trapping named in the duties",
+    "body": "A field biologist assisting FNAI with rare plant surveys, invasive plant surveys, gopher tortoise surveys, avian surveys, camera trapping of herps and mammals, and vegetation monitoring across Florida.",
+    "desc": "Camera trapping of herps and mammals is an explicit duty and she already runs Wildlife Insights — and at $41,000 salaried this is a real professional position rather than an hourly seasonal one. FNAI is also the state's natural heritage programme, so the survey methods are rigorous.",
+    "pills": [
+      "Camera trapping named",
+      "$41,000 salaried",
+      "Statewide survey work",
+      "⏰ Closes Aug 5"
     ]
   }
 ]
