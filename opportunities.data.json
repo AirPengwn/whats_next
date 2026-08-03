@@ -1001,7 +1001,7 @@
     ],
     "cycle": "next",
     "deadline_date": "2026-05-31",
-    "deadline_kind": "fixed",
+    "deadline_kind": "passed",
     "region": "Midwest & Great Plains"
   },
   {
@@ -1885,7 +1885,7 @@
     },
     "cycle": "next",
     "deadline_date": "2026-04-15",
-    "deadline_kind": "fixed",
+    "deadline_kind": "passed",
     "region": "Southeast & Appalachia",
     "url": "https://sites.ua.edu/ramp-w2w/",
     "url_label": "Program page"
@@ -3547,7 +3547,7 @@
     ],
     "cycle": "next",
     "deadline_date": "2026-03-02",
-    "deadline_kind": "fixed",
+    "deadline_kind": "passed",
     "region": "Southwest",
     "location": "Wichita Mountains Wildlife Refuge & Fort Sill — Lawton, OK",
     "pay": "$600/week living allowance + $225/week housing stipend",
@@ -4933,8 +4933,8 @@
       "Southwest"
     ],
     "metaLine": "Career · Houston TX · apply by Jul 31 · 2+ yrs likely",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Southwest",
     "links": [
@@ -4968,8 +4968,8 @@
       "Pacific NW"
     ],
     "metaLine": "Career · NE Washington · apply by Jul 31",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "West Coast / Pacific",
     "links": [
@@ -5981,8 +5981,8 @@
       "Segal award"
     ],
     "metaLine": "52-week AmeriCorps · $600/wk + $270/wk benefit + $7,395 Segal · Tucson AZ · apply by Jul 27, 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-27",
     "region": "Southwest",
     "links": [
@@ -6212,8 +6212,8 @@
       "Entry-level classification"
     ],
     "metaLine": "Limited term · $4,418–$9,321/month · Sacramento CA · apply by Jul 27, 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-27",
     "region": "West Coast / Pacific",
     "links": [
@@ -6395,8 +6395,8 @@
       "Entry-level (NRS 1)"
     ],
     "metaLine": "Seasonal Sep–Dec 2026 · $4,519–$6,276/month · Enterprise OR · apply by Jul 29, 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-29",
     "region": "West Coast / Pacific",
     "links": [
@@ -6442,8 +6442,8 @@
       "AmeriCorps"
     ],
     "metaLine": "20-week AmeriCorps · $1,320 biweekly + $2,817 Segal + free housing & health · Rock Springs WY · apply by Jul 29, 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-29",
     "region": "Mountain West",
     "links": [
@@ -6626,8 +6626,8 @@
       "$53k–$85k"
     ],
     "metaLine": "Permanent · $53,764–$85,138/yr · Albany NY (50–70% travel) · apply by Jul 29, 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-29",
     "region": "Northeast",
     "links": [
@@ -7133,8 +7133,8 @@
       "Entry rung 0–1 yrs"
     ],
     "metaLine": "Permanent · $4,504–$5,824/month · Texas Panhandle · apply by Jul 29, 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-29",
     "region": "Southwest",
     "links": [
@@ -7229,8 +7229,8 @@
       "Partnership with GA DNR"
     ],
     "metaLine": "Permanent · $40,000–$42,000/yr · Albany GA · deadline Jul 29 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-29",
     "region": "Southeast & Appalachia",
     "links": [
@@ -7590,8 +7590,8 @@
       "Entry-level 0–1 years"
     ],
     "metaLine": "Full-time · $38,000–$45,000/yr · Huntsville AL · deadline Jul 31 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Southeast & Appalachia",
     "links": [
@@ -8996,8 +8996,8 @@
       "⚠️ Leans administrative"
     ],
     "metaLine": "Permanent · $21.22/hr · Windsor CT · deadline Jul 31 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Northeast",
     "links": [
@@ -9448,8 +9448,8 @@
       "⚠️ Requires bird ID ability"
     ],
     "metaLine": "Seasonal contract · up to $13,134 · Avalon NJ · deadline Aug 1 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-08-01",
     "region": "Northeast",
     "links": [
@@ -9631,8 +9631,8 @@
       "Serves with USFS & BLM biologists"
     ],
     "metaLine": "~12+ weeks · $800/wk + housing · Corvallis OR · deadline Aug 1 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-08-01",
     "region": "West Coast / Pacific",
     "links": [
@@ -9723,8 +9723,8 @@
       "Pairs with the Lodi application"
     ],
     "metaLine": "Seasonal federal GS-5 · $19.52–$25.37/hr · Red Bluff CA · deadline Jul 27 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-27",
     "region": "West Coast / Pacific",
     "links": [
@@ -9769,8 +9769,8 @@
       "Entry-level district role"
     ],
     "metaLine": "Full-time · $25–$28/hr · Morro Bay CA · deadline Jul 31 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "West Coast / Pacific",
     "links": [
@@ -9899,8 +9899,8 @@
       "⚠️ Requires OR pesticide license"
     ],
     "metaLine": "Full-time benefited · $21.84–$26.16/hr · Coos Bay OR · deadline Jul 27 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-27",
     "region": "West Coast / Pacific",
     "links": [
@@ -10133,8 +10133,8 @@
       "Entry-level Specialist I"
     ],
     "metaLine": "Career service · $47,350.08/yr · West Palm Beach FL · deadline Jul 30 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-30",
     "region": "Southeast & Appalachia",
     "links": [
@@ -10225,8 +10225,8 @@
       "$3,602.50/month"
     ],
     "metaLine": "Career service · $3,602.50/mo · Tallahassee FL · deadline Jul 31 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Southeast & Appalachia",
     "links": [
@@ -10317,8 +10317,8 @@
       "⚠️ Inspection & enforcement work"
     ],
     "metaLine": "Full-time · $60,000–$85,000/yr · Harrisonburg VA · deadline Jul 31 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Southeast & Appalachia",
     "links": [
@@ -10501,8 +10501,8 @@
       "Division of Fish & Wildlife"
     ],
     "metaLine": "Permanent state · $53,764–$85,138/yr · Albany NY · deadline Jul 29 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-29",
     "region": "Northeast",
     "links": [
@@ -10831,8 +10831,8 @@
       "University research appointment"
     ],
     "metaLine": "Salaried research · $46,800/yr · Haleiwa Oahu HI · deadline Jul 31 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "West Coast / Pacific",
     "links": [
@@ -11061,8 +11061,8 @@
       "Two postings, deadlines a day apart"
     ],
     "metaLine": "Seasonal · $22–$28.50/hr · Vancouver & Pacific WA · deadlines Jul 30–31 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-30",
     "region": "West Coast / Pacific",
     "links": [
@@ -11107,8 +11107,8 @@
       "⚠️ Remote arctic posting"
     ],
     "metaLine": "Full-time · $23.38+/hr · Toolik Field Station AK · deadline Jul 27 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-27",
     "region": "West Coast / Pacific",
     "links": [
@@ -11475,8 +11475,8 @@
       "⚠️ Requires diving/snorkeling validation"
     ],
     "metaLine": "Career service · $43,230–$44,000/yr · Tallahassee FL · deadline Aug 2 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-08-02",
     "region": "Southeast & Appalachia",
     "links": [
@@ -11521,8 +11521,8 @@
       "⚠️ Part-time position"
     ],
     "metaLine": "Part-time state · $39,925–$61,706 full-time scale · Scotland AR · deadline Jul 29 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-29",
     "region": "Southeast & Appalachia",
     "links": [
@@ -11883,8 +11883,8 @@
       "⚠️ Half communications, not field science"
     ],
     "metaLine": "Full-time · $60,000/yr · Salem MA · deadline Jul 29 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-29",
     "region": "Northeast",
     "links": [
@@ -11975,8 +11975,8 @@
       "⚠️ Communications role, not sampling"
     ],
     "metaLine": "1 year · $24,962.35/yr + $7,395 award · Ashley PA · deadline Aug 2 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-08-02",
     "region": "Northeast",
     "links": [
@@ -12021,8 +12021,8 @@
       "NCCC background is near-direct credential"
     ],
     "metaLine": "300 hours · $475/wk + $1,565.08 award · Augusta ME · deadline Jul 31 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Northeast",
     "links": [
@@ -12255,8 +12255,8 @@
       "$16–$21.50/hour"
     ],
     "metaLine": "Internship · $16–$21.50/hr · West Trenton NJ · deadline Jul 29 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-29",
     "region": "Northeast",
     "links": [
@@ -12385,8 +12385,8 @@
       "⚠️ Apprenticeship pay not published"
     ],
     "metaLine": "Multiple roles · $23.15–$26.45/hr · Petaluma & Bolinas CA · deadlines Jul 27 & Aug 9",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-27",
     "region": "West Coast / Pacific",
     "links": [
@@ -12573,8 +12573,8 @@
       "Deadline Jul 31 2026"
     ],
     "metaLine": "Full-time · salary not published · Smyrna DE · deadline Jul 31 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Northeast",
     "links": [
@@ -12707,8 +12707,8 @@
       "⚠️ Extended periods at sea"
     ],
     "metaLine": "Contract · $5,100–$8,100/month · Sitka AK · deadline Jul 31 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "West Coast / Pacific",
     "links": [
@@ -12841,8 +12841,8 @@
       "Fall bridge terms Aug–Oct 2026"
     ],
     "metaLine": "Fall seasons · $650–$700/wk (GMC) or $11.75–$20/hr (AMC) · VT/NH/MA · deadline Aug 1 / rolling",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-08-01",
     "region": "Northeast",
     "links": [
@@ -13271,8 +13271,8 @@
       "Named hiring contact — call first"
     ],
     "metaLine": "Permanent state · $3,860–$5,824/month · Texas Panhandle & Tennessee Colony TX · deadlines Jul 29 & Aug 3",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-29",
     "region": "Southwest",
     "links": [
@@ -13317,8 +13317,8 @@
       "Delineation is billable here"
     ],
     "metaLine": "Full-time · $48,000–$60,000/yr · Houston TX · deadline Jul 31 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Southwest",
     "links": [
@@ -13359,8 +13359,8 @@
       "Four placements, one organization"
     ],
     "metaLine": "19–38 week placements · $600–$805/wk · Texas Gulf refuges · Jul 29 deadline / rolling",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-29",
     "region": "Southwest",
     "links": [
@@ -13597,8 +13597,8 @@
       "⚠️ Border infrastructure context"
     ],
     "metaLine": "Full-time · $32/hr · Laredo TX (AZ equivalents) · deadline Jul 31 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Southwest",
     "links": [
@@ -13639,8 +13639,8 @@
       "Texas Hill Country"
     ],
     "metaLine": "Full-time · $45,000–$55,000/yr · Boerne TX · deadline Jul 31 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Southwest",
     "links": [
@@ -13731,8 +13731,8 @@
       "Fall 2026 field seasons"
     ],
     "metaLine": "Seasonal · $23–$30/hr · Reno NV & Santa Fe NM · deadlines Jul 31–Aug 3 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-08-01",
     "region": "Southwest",
     "links": [
@@ -13781,8 +13781,8 @@
       "University research lab"
     ],
     "metaLine": "Full-time · $36,000–$39,000/yr · Norman OK · deadline Aug 1 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-08-01",
     "region": "Southwest",
     "links": [
@@ -13870,8 +13870,8 @@
       "⚠️ Pivots to disease ecology"
     ],
     "metaLine": "MS · up to $31,200/yr · Mesa AZ · deadline Jul 31 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Southwest",
     "links": [
@@ -13958,8 +13958,8 @@
       "⚠️ Direct-to-PhD commitment"
     ],
     "metaLine": "PhD · $24,000/yr · San Antonio TX · deadline Jul 31 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Southwest",
     "links": [
@@ -14226,8 +14226,8 @@
       "⚠️ Education role, not field science"
     ],
     "metaLine": "Full year · $2,066.66/month · Las Vegas NV · deadline Jul 31 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Southwest",
     "links": [
@@ -14272,8 +14272,8 @@
       "⚠️ Support amount unpublished; non-thesis MS"
     ],
     "metaLine": "Master of Natural Resources · free housing + support · McCall ID · deadline Jul 31 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Mountain West",
     "links": [
@@ -14318,8 +14318,8 @@
       "⚠️ Asks 1 yr specialized GS-07 experience"
     ],
     "metaLine": "Permanent federal GS-09 · $61,722–$80,243/yr · Great Falls MT · deadline Jul 30 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-30",
     "region": "Mountain West",
     "links": [
@@ -14364,8 +14364,8 @@
       "State agency experience"
     ],
     "metaLine": "Seasonal state · from $18.61/hr · Bruneau ID · deadline Jul 31 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Mountain West",
     "links": [
@@ -14456,8 +14456,8 @@
       "⚠️ Education role · deadline Jul 28"
     ],
     "metaLine": "Permanent state · $6,087–$6,763/month · Cheyenne WY · deadline Jul 28 2026",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-28",
     "region": "Mountain West",
     "links": [
@@ -15178,8 +15178,8 @@
       "Lake Champlain / Ed Weed station"
     ],
     "metaLine": "Deadline Jul 27, 2026 · starting $22.51/hour · Grand Isle, VT · permanent, entry-level",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-27",
     "region": "Northeast",
     "links": [
@@ -15262,8 +15262,8 @@
       "⚠️ Night & weekend work required"
     ],
     "metaLine": "Deadline Aug 1, 2026 · starting $16.50/hour · West Kingston, RI · 6-month seasonal",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-08-01",
     "region": "Northeast",
     "links": [
@@ -15472,8 +15472,8 @@
       "Superior academic achievement may apply"
     ],
     "metaLine": "Deadline Jul 29, 2026 · $61,722–$97,087 · western Oregon · GS-9/11 professional",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-29",
     "region": "West Coast / Pacific",
     "links": [
@@ -15514,8 +15514,8 @@
       "⚠️ 2-year experience ask is the one gap"
     ],
     "metaLine": "First consideration Aug 2, 2026 · $86,195–$107,494 · Burnsville, MN · municipal water resources",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-08-02",
     "region": "Midwest & Great Plains",
     "links": [
@@ -15770,8 +15770,8 @@
       "Spring 2027 entry available"
     ],
     "metaLine": "Deadline Aug 1, 2026 · $23,000–$25,000 + tuition waiver + health · Carbondale, IL",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-08-01",
     "region": "Midwest & Great Plains",
     "links": [
@@ -16488,8 +16488,8 @@
       "$55,000 biologist / $45,000 technician"
     ],
     "metaLine": "Deadline Jul 31, 2026 · $45,000–$55,000 · Yazoo City, MS · permanent USFWS",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Southeast & Appalachia",
     "links": [
@@ -16534,8 +16534,8 @@
       "⚠️ Sandhills plant ID may be a stretch"
     ],
     "metaLine": "Deadline Jul 30, 2026 · pay not published · Southern Pines, NC · wetland delineation",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-30",
     "region": "Southeast & Appalachia",
     "links": [
@@ -16618,8 +16618,8 @@
       "$4,465/month state position"
     ],
     "metaLine": "Deadline Jul 27, 2026 · $4,465.05/month · Tallahassee, FL · Clean Water Act TMDLs",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-27",
     "region": "Southeast & Appalachia",
     "links": [
@@ -16660,8 +16660,8 @@
       "Ask about tuition & health coverage"
     ],
     "metaLine": "Deadline Jul 31, 2026 · from $20,000/year · Monticello, AR · MS wetland modeling",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Southeast & Appalachia",
     "links": [
@@ -16952,8 +16952,8 @@
       "⏰ Deadline July 31 — very soon"
     ],
     "metaLine": "Deadline July 31, 2026 · MS assistantship · Jul 31 deadline · Brownsville, TX",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Southwest",
     "links": [
@@ -17157,8 +17157,8 @@
       "⚠️ Stipend not published on the positions table"
     ],
     "metaLine": "Deadline July 31, 2026 · fall crew term · Sept–Dec 2026 · Las Cruces, NM",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Southwest",
     "links": [
@@ -17239,8 +17239,8 @@
       "⏰ Deadline July 31 — days away"
     ],
     "metaLine": "Deadline July 31, 2026 · AmeriCorps · up to $34,450 · ⏰ Jul 31 · California (statewide placements)",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Southwest",
     "links": [
@@ -17280,8 +17280,8 @@
       "August 1 deadline"
     ],
     "metaLine": "Deadline August 1, 2026 · seasonal · $2,500–$3,000/month · San Angelo, TX",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-08-01",
     "region": "Southwest",
     "links": [
@@ -17526,8 +17526,8 @@
       "⚠️ Pay is below the other Houston options"
     ],
     "metaLine": "Deadline July 28, 2026 · municipal · $17.50–$18/hr · ⏰ Jul 28 · Houston, TX",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-28",
     "region": "Southwest",
     "links": [
@@ -17649,8 +17649,8 @@
       "⏰ Deadline is today — likely already gone"
     ],
     "metaLine": "Deadline July 27, 2026 · county water dept · $23.58–$30.63/hr · ⏰ closes today · Independence, CA (Owens Valley)",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-27",
     "region": "Southwest",
     "links": [
@@ -17690,8 +17690,8 @@
       "⏰ Deadline July 31"
     ],
     "metaLine": "Deadline July 31, 2026 · permanent state · $55,273–$82,909 · ⏰ Jul 31 · Marquez, NM",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Southwest",
     "links": [
@@ -17813,8 +17813,8 @@
       "⏰ Deadline July 31"
     ],
     "metaLine": "Deadline July 31, 2026 · state ecologist · $60,800–$91,200 · ⏰ Jul 31 · Albuquerque, NM",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Southwest",
     "links": [
@@ -17936,8 +17936,8 @@
       "⏰ Deadline July 31"
     ],
     "metaLine": "Deadline July 31, 2026 · $50,000–$60,000 · coastal prairie & wetland trust · ⏰ Jul 31 · Waller, TX",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Southwest",
     "links": [
@@ -17977,8 +17977,8 @@
       "⏰ Deadline July 31"
     ],
     "metaLine": "Deadline July 31, 2026 · $57.21–$73.23/hr · watershed association · Riverside, CA",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Southwest",
     "links": [
@@ -18059,8 +18059,8 @@
       "⏰ Deadline July 31"
     ],
     "metaLine": "Deadline July 31, 2026 · $61,000–$78,000 · highest field-restoration salary found · Reno, NV",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Southwest",
     "links": [
@@ -18264,8 +18264,8 @@
       "⏰ Deadline is today, July 27"
     ],
     "metaLine": "Deadline July 27, 2026 · NY HELPS · $66,951–$94,121 · ⏰ closes today · Albany, NY",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-27",
     "region": "Northeast",
     "links": [
@@ -18305,8 +18305,8 @@
       "July 31 deadline"
     ],
     "metaLine": "Deadline July 31, 2026 · $43,015 · state water permitting entry point · Dover, DE",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Northeast",
     "links": [
@@ -18510,8 +18510,8 @@
       "⚠️ 40–60 hour weeks · ⏰ deadline July 31"
     ],
     "metaLine": "Deadline July 31, 2026 · $3,500 season stipend · ⏰ Jul 31 · Cape May Point, NJ",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Northeast",
     "links": [
@@ -19250,8 +19250,8 @@
       "⚠️ ~2 yrs experience · requires your own vehicle · ⏰ Jul 31"
     ],
     "metaLine": "Deadline July 31, 2026 · $35–$45/hour · WETLAND crossings are the core task · Multiple locations — project sites across multiple states",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "National / Remote / Multiple",
     "links": [
@@ -19332,8 +19332,8 @@
       "⏰ Deadline July 31 · apply direct to the PI"
     ],
     "metaLine": "Deadline July 31, 2026 · ⭐ camera-trap methodology is a NAMED preferred qualification · Multiple field locations (based at Texas Tech, Lubbock, TX)",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "National / Remote / Multiple",
     "links": [
@@ -19701,8 +19701,8 @@
       "⏰ Deadline July 31"
     ],
     "metaLine": "Deadline July 31, 2026 · $25,000/yr PLUS tuition and fee waiver · Cookeville, Tennessee (fieldwork in Arkansas Delta WMAs)",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Southeast & Appalachia",
     "links": [
@@ -20402,8 +20402,8 @@
       "⚠️ 8-month term · ⏰ closes July 29"
     ],
     "metaLine": "Deadline July 29, 2026 · ⭐ camera-trap work · benefited state job · ⏰ Jul 29 · Coeur d'Alene, Idaho",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-29",
     "region": "Mountain West",
     "links": [
@@ -21129,8 +21129,8 @@
       "⚠️ Stipend not published"
     ],
     "metaLine": "⏰ Deadline Aug 1, 2026 · stipend not published · 12 months · post-disaster watershed hydrology",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-08-01",
     "region": "National / Remote / Multiple",
     "links": [
@@ -21375,8 +21375,8 @@
       "Full federal benefits"
     ],
     "metaLine": "⏰ Deadline Jul 29, 2026 · $45,409–$65,113 · GS-6 permanent federal · FL / HI / MI",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-29",
     "region": "National / Remote / Multiple",
     "links": [
@@ -21416,8 +21416,8 @@
       "Open to the public"
     ],
     "metaLine": "Deadline Jul 31, 2026 · $64,290–$133,142 · GS-9 entry · DC / Durham NC / Cincinnati OH",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "National / Remote / Multiple",
     "links": [
@@ -21457,8 +21457,8 @@
       "Full federal benefits"
     ],
     "metaLine": "Deadline Jul 30, 2026 · $61,722–$91,815 · GS-9 · 16 locations across 7 states",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-30",
     "region": "National / Remote / Multiple",
     "links": [
@@ -21620,8 +21620,8 @@
       "Establishes federal competitive status"
     ],
     "metaLine": "Deadline Jul 31, 2026 · $46,610–$91,815 · Potomac MD · PERMANENT federal, open to the public",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Northeast",
     "links": [
@@ -21701,8 +21701,8 @@
       "⚠️ Stipend not published"
     ],
     "metaLine": "Deadline Jul 31, 2026 · stipend not published · Washington DC · USDA Forest Service",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Northeast",
     "links": [
@@ -21741,8 +21741,8 @@
       "⚠️ Stipend not published"
     ],
     "metaLine": "Deadline Jul 31, 2026 · stipend not published · Washington DC · EPA",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Northeast",
     "links": [
@@ -21821,8 +21821,8 @@
       "⚠️ Stipend not published"
     ],
     "metaLine": "Deadline Jul 31, 2026 · stipend not published · Franklin ME · USDA-ARS lab work",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Northeast",
     "links": [
@@ -21861,8 +21861,8 @@
       "⚠️ Stipend not published"
     ],
     "metaLine": "Deadline Jul 31, 2026 · stipend not published · Beltsville MD · USDA-ARS",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Northeast",
     "links": [
@@ -22142,8 +22142,8 @@
       "Education and agriculture focus"
     ],
     "metaLine": "Deadline Aug 2, 2026 · $825 twice monthly · Fayetteville WV · New River Gorge",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-08-02",
     "region": "Northeast",
     "links": [
@@ -22584,8 +22584,8 @@
       "⏰ Closes Jul 29 or at 100 applicants"
     ],
     "metaLine": "⏰ Closes Jul 29 or at 100 applicants · $56,262–$73,142 · Estes Park CO · ⚠️ not open to the public",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-29",
     "region": "Mountain West",
     "links": [
@@ -22910,8 +22910,8 @@
       "Reclamation and rights-of-way work"
     ],
     "metaLine": "Deadline Jul 31, 2026 · $20–$28/hr · Rifle CO · plant ID development stated",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Mountain West",
     "links": [
@@ -23032,8 +23032,8 @@
       "⚠️ Apply on BOTH portals"
     ],
     "metaLine": "Deadline Aug 2, 2026 · $68.39/day (~$24,962/yr) + $7,395 award · Baker MT · economic development",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-08-02",
     "region": "Mountain West",
     "links": [
@@ -23073,8 +23073,8 @@
       "⏰ Closes July 28"
     ],
     "metaLine": "⏰ Deadline Jul 28, 2026 · $25/hr contractor · Greeley CO · 7 positions · 2 sessions/month minimum",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-28",
     "region": "Mountain West",
     "links": [
@@ -23114,8 +23114,8 @@
       "Training week of Aug 24"
     ],
     "metaLine": "Deadline Jul 31, 2026 · $21–$28/hr · Louisville CO · interviews begin early August",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Mountain West",
     "links": [
@@ -23276,8 +23276,8 @@
       "Part-time and temporary"
     ],
     "metaLine": "Deadline Aug 1, 2026 · $19.25–$22.50/hr + OT · Springfield IL · quantitative consulting firm",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-08-01",
     "region": "Midwest & Great Plains",
     "links": [
@@ -23316,8 +23316,8 @@
       "BS required, no experience"
     ],
     "metaLine": "Deadline Aug 2, 2026 · $17.00/hr · Onawa IA · Missouri River floodplain",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-08-02",
     "region": "Midwest & Great Plains",
     "links": [
@@ -23476,8 +23476,8 @@
       "Pair with a seasonal field role"
     ],
     "metaLine": "Deadline Jul 31, 2026 · $20–$23/hr · Brooklyn Park MN · ~4 hrs/week",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Midwest & Great Plains",
     "links": [
@@ -23596,8 +23596,8 @@
       "No experience or education required"
     ],
     "metaLine": "Deadline Aug 1, 2026 · $425/wk · Yellow Springs OH · 6 or 12 months, mentored",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-08-01",
     "region": "Midwest & Great Plains",
     "links": [
@@ -23637,8 +23637,8 @@
       "⚠️ 2 years experience listed"
     ],
     "metaLine": "⏰ Deadline Jul 28, 2026 · $28.76–$38.01/hr · Ohio · 2 positions · ⚠️ 2 yrs listed",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-28",
     "region": "Midwest & Great Plains",
     "links": [
@@ -23678,8 +23678,8 @@
       "Open to all job seekers"
     ],
     "metaLine": "Deadline Jul 31, 2026 · $64,895–$93,981 · Rosemount MN · PERMANENT with benefits · ⚠️ 2 yrs",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Midwest & Great Plains",
     "links": [
@@ -23921,8 +23921,8 @@
       "⏰ Closes July 31"
     ],
     "metaLine": "⏰ Deadline Jul 31, 2026 · from $29,000/yr · Ames IA · BS-eligible · big-river telemetry",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Midwest & Great Plains",
     "links": [
@@ -23962,8 +23962,8 @@
       "⏰ Closes July 31"
     ],
     "metaLine": "⏰ Deadline Jul 31, 2026 · $34,000/yr · Manhattan KS · highest stipend found · 2 positions",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Midwest & Great Plains",
     "links": [
@@ -24203,8 +24203,8 @@
       "⚠️ Pay not published"
     ],
     "metaLine": "Deadline Jul 31, 2026 · pay not published · Cadiz OH · water quality + site assessment",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Midwest & Great Plains",
     "links": [
@@ -24243,8 +24243,8 @@
       "⚠️ Low pay at $13.50/hr"
     ],
     "metaLine": "Deadline Jul 31, 2026 · $13.50/hr · Winslow IN · managed wetland hydrology + prescribed fire",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Midwest & Great Plains",
     "links": [
@@ -24283,8 +24283,8 @@
       "Salaried"
     ],
     "metaLine": "Deadline Aug 2, 2026 · $33,000–$43,000 · Bassett NE · manager title, NO experience required",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-08-02",
     "region": "Midwest & Great Plains",
     "links": [
@@ -24403,8 +24403,8 @@
       "⚠️ Low pay, temporary"
     ],
     "metaLine": "Deadline Jul 31, 2026 · from $15.25/hr · Lehigh IA · 100+ species native seed production",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Midwest & Great Plains",
     "links": [
@@ -24563,8 +24563,8 @@
       "⚠️ Pay not published"
     ],
     "metaLine": "Deadline Jul 31, 2026 · pay not published · Scott AFB IL · GPS protocol surveys, DoD installation",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Midwest & Great Plains",
     "links": [
@@ -24643,8 +24643,8 @@
       "No experience required"
     ],
     "metaLine": "Deadline Aug 1, 2026 · $25–$40/hr · Ohio · names environmental science as qualifying",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-08-01",
     "region": "Midwest & Great Plains",
     "links": [
@@ -24924,8 +24924,8 @@
       "Aug–Nov 2026 term"
     ],
     "metaLine": "Deadline Aug 1, 2026 · $14.00/hr · Albany GA · listed freshwater mussel surveys · 29 hrs/wk",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-08-01",
     "region": "Southeast & Appalachia",
     "links": [
@@ -25085,8 +25085,8 @@
       "Gulf Coast project work"
     ],
     "metaLine": "Deadline Jul 31, 2026 · $19.24–$25.48/hr · Baton Rouge LA · Gulf Coast consulting",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Southeast & Appalachia",
     "links": [
@@ -25165,8 +25165,8 @@
       "⚠️ Low stipend at $200/week"
     ],
     "metaLine": "⏰ Deadline Jul 28, 2026 · $200/wk · Crawfordville FL · USFWS refuge · 3 positions",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-28",
     "region": "Southeast & Appalachia",
     "links": [
@@ -25285,8 +25285,8 @@
       "BS required, no experience"
     ],
     "metaLine": "Deadline Jul 31, 2026 · from $17/hr · Frankfort KY · Oct 2026–May 2027 · sampling + assays",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Southeast & Appalachia",
     "links": [
@@ -25848,8 +25848,8 @@
       "⚠️ Modest stipend"
     ],
     "metaLine": "⏰ Deadline Jul 31, 2026 · up to $20,000/yr · Mississippi State MS · stable isotope tracers",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "Southeast & Appalachia",
     "links": [
@@ -25929,8 +25929,8 @@
       "Columbia Basin field sampling"
     ],
     "metaLine": "Deadline Aug 2, 2026 · $3,653–$4,866/month · Pasco WA · PERMANENT state position",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-08-02",
     "region": "West Coast / Pacific",
     "links": [
@@ -25969,8 +25969,8 @@
       "⏰ Closes July 30"
     ],
     "metaLine": "⏰ Deadline Jul 30, 2026 · $3,653–$4,866/month · Pasco WA · SIX openings",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-30",
     "region": "West Coast / Pacific",
     "links": [
@@ -26009,8 +26009,8 @@
       "⏰ Closes July 30"
     ],
     "metaLine": "⏰ Deadline Jul 30, 2026 · $3,653–$4,866/month · Pasco WA · FIVE openings · stream surveys",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-30",
     "region": "West Coast / Pacific",
     "links": [
@@ -26049,8 +26049,8 @@
       "⏰ Closes July 29"
     ],
     "metaLine": "⏰ Deadline Jul 29, 2026 · $3,195–$4,201/month · Ravensdale WA · EIGHT positions · 0–1 yr",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-29",
     "region": "West Coast / Pacific",
     "links": [
@@ -26089,8 +26089,8 @@
       "⏰ Closes July 30"
     ],
     "metaLine": "⏰ Deadline Jul 30, 2026 · $3,653–$5,376/month · Auburn WA · IN-TRAINING appointment",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-30",
     "region": "West Coast / Pacific",
     "links": [
@@ -26209,8 +26209,8 @@
       "⏰ Closes July 29"
     ],
     "metaLine": "⏰ Deadline Jul 29, 2026 · $3,327–$4,406/month · Olympia WA · no education or experience bar",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-29",
     "region": "West Coast / Pacific",
     "links": [
@@ -26489,8 +26489,8 @@
       "⚠️ 2 years experience listed"
     ],
     "metaLine": "Deadline Jul 31, 2026 · $68,640–$78,640 · Sacramento CA · mitigation preserves · ⚠️ 2 yrs",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "West Coast / Pacific",
     "links": [
@@ -26529,8 +26529,8 @@
       "⏰ Closes July 29"
     ],
     "metaLine": "⏰ Deadline Jul 29, 2026 · $40,736–$65,599 · western Oregon · GS-5/7 open to the public",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-29",
     "region": "West Coast / Pacific",
     "links": [
@@ -26851,8 +26851,8 @@
       "⏰ Closes July 31"
     ],
     "metaLine": "⏰ Deadline Jul 31, 2026 · from $600/wk · Fillmore CA · flagship USFWS recovery programme",
-    "cycle": "current",
-    "deadline_kind": "fixed",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "deadline_date": "2026-07-31",
     "region": "West Coast / Pacific",
     "links": [
