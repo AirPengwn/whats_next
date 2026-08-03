@@ -1677,7 +1677,10 @@
     ],
     "cycle": "next",
     "deadline_kind": "contact-first",
-    "region": "National / Remote / Multiple"
+    "region": "National / Remote / Multiple",
+    "location": "Gainesville, VA (HQ) · also Richmond, Virginia Beach and Blacksburg VA; Millersville MD; Lititz PA; Louisville KY; Raleigh NC; Tampa FL",
+    "pay": "No rate published by WSSI anywhere — the employer does not state whether the internship is paid; ask before applying",
+    "benefits": "WSSI lists company-wide benefits (healthcare, 401(k), flexible schedules, training and certification support, Davey employee stock purchase) but does not state that these extend to interns"
   },
   {
     "title": "Natural Resources Intern — Stream Surveying & Wetland Delineation",
@@ -1709,7 +1712,10 @@
     ],
     "cycle": "current",
     "deadline_kind": "contact-first",
-    "region": "National / Remote / Multiple"
+    "region": "National / Remote / Multiple",
+    "pay": "Paid, but no rate published for the Nashville role — KCI discloses ranges only in states whose law requires it (its Sparks MD and Sewell NJ intern postings show $20–$22/hr and $15–$18/hr respectively, for different roles)",
+    "stipend": "Housing stipend if her permanent address is more than 50 miles from the reporting office (amount not published)",
+    "benefits": "Medical/dental/vision, 401(k) with match, ESOP, tuition reimbursement, life cover, paid leave and holidays; assigned supervisor plus mentor; 40 hrs/week over 10+ weeks, mid-May to mid-August"
   },
   {
     "title": "Natural Resources Internship — Ecology Team",
@@ -2246,7 +2252,10 @@
     "cycle": "current",
     "deadline_kind": "rolling",
     "region": "Southeast & Appalachia",
-    "url_label": "RES — Open Positions"
+    "url_label": "RES — Open Positions",
+    "location": "HQ Bellaire (Houston), TX · ecological-restoration field roles currently posted across VA, NC, PA, IL, IN, WI, MN, NY and CA",
+    "pay": "$61,000–$75,000 for Scientist II – Ecologist in Albany, NY — an RES-published figure, but posted only because New York law requires it. RES publishes no range for the same work in other states, so treat this as one NY data point, not a national entry rate",
+    "benefits": "401(k) with employer match; vacation, sick time, parental leave and floating holidays; tuition reimbursement"
   },
   {
     "id": "item-084",
@@ -2281,7 +2290,10 @@
     "cycle": "current",
     "deadline_kind": "rolling",
     "region": "Southeast & Appalachia",
-    "url_label": "RK&K — Project Scientist, Wetlands (Raleigh, NC)"
+    "url_label": "RK&K — Project Scientist, Wetlands (Raleigh, NC)",
+    "location": "Raleigh, NC (8601 Six Forks Road) · 38 offices across the Mid-Atlantic, Southeast and South Central US; HQ Baltimore, MD",
+    "pay": "No salary range published — RK&K's own job board carries no ranges and North Carolina has no posting-disclosure law, so this figure is unlikely to appear; ask the recruiter",
+    "benefits": "Benefits package recognised by Milliman's 'Best in Benefits'; structured training programmes plus wellness and financial-wellbeing programmes — specifics not itemised publicly"
   },
   {
     "title": "Hydrologic Technician / Environmental Science Technician",
@@ -2346,7 +2358,10 @@
     ],
     "cycle": "next",
     "deadline_kind": "contact-first",
-    "region": "Southeast & Appalachia"
+    "region": "Southeast & Appalachia",
+    "location": "Raleigh NC, Columbia SC and Norcross GA (main science offices) · field offices in Asheville and Charlotte NC, Charleston and Hardeeville SC, Savannah and Tifton GA",
+    "pay": "GS-04 to GS-07 · $36,409–$68,502 (2026; Rest of U.S. +17.06%, Raleigh-Durham-Cary +22.24%, Atlanta +23.79%)",
+    "benefits": "Standard federal package (FEHB, FEGLI, FERS plus TSP match, 11 paid holidays, annual and sick leave); permanent full-time, telework-eligible, promotion potential to GS-11"
   },
   {
     "title": "Biological Science Technician (GS-0404)",
@@ -2447,7 +2462,10 @@
     ],
     "cycle": "current",
     "deadline_kind": "rolling",
-    "region": "Southeast & Appalachia"
+    "region": "Southeast & Appalachia",
+    "location": "Wilmington, NC (district headquarters) · project, lake and regulatory field offices across North Carolina",
+    "pay": "GS-05 to GS-09 · $40,736–$80,243 (2026 Rest of U.S. locality, +17.06%). If the duty station is the Raleigh regulatory field office instead, the Raleigh-Durham-Cary locality (+22.24%) applies: $42,538–$83,794",
+    "benefits": "Standard federal package — FEHB health insurance, FEGLI life cover, FERS pension plus TSP with agency match, 11 paid holidays, accruing annual and sick leave"
   },
   {
     "title": "Environmental Specialist I — Water Quality or Wetlands",
@@ -28401,6 +28419,90 @@
       "Conservation GIS network",
       "⚠️ 2027 cycle unannounced",
       "Not a salary"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-10",
+    "region": "Southeast & Appalachia",
+    "start": "See posting",
+    "id": "item-680",
+    "title": "Hydrologic Technician (GS-5) — 27 vacancies, Field Unit Local Hiring Authority",
+    "org": "USGS South Atlantic Water Science Center · Norcross GA · Charlotte NC · Columbia SC · Hardeeville SC",
+    "location": "Norcross GA, Charlotte NC, Columbia SC and Hardeeville SC (27 vacancies across the duty stations)",
+    "deadline": "2026-08-10",
+    "pay": "$40,736–$66,203 (USGS-stated range spanning all duty locations)",
+    "stipend": "",
+    "benefits": "Standard federal package — FEHB, FEGLI, FERS plus TSP match, 11 paid holidays, annual and sick leave; promotion potential to GS-11",
+    "badge": "Top recommendation",
+    "url": "https://www.usajobs.gov/job/878747900",
+    "url_label": "USAJOBS 878747900",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/878747900",
+        "label": "🔗 USAJOBS 878747900"
+      }
+    ],
+    "metaLine": "⏰ Closes Aug 10 · GS-5 · 27 vacancies · NC/SC/GA — her home region · ladder to GS-11",
+    "body": "A USGS Field Unit Local Hiring Authority announcement for hydrologic technicians across the South Atlantic Water Science Center, covering 27 vacancies at Norcross GA, Charlotte NC, Columbia SC and Hardeeville SC. The work is streamgaging, water-quality sampling and hydrologic data collection. It opens at GS-5 — the grade a bachelor's degree qualifies for outright — with promotion potential to GS-11.",
+    "desc": "This is the strongest single federal opening surfaced this run: 27 vacancies at GS-5 in the exact states she knows, doing water-quality and hydrologic field work that follows directly from her Pigeon River capstone. Twenty-seven openings on one announcement means the odds are unlike anything else on this list. The catch is the closing date — August 10 is one week out.",
+    "pills": [
+      "⏰ Closes Aug 10",
+      "27 vacancies",
+      "GS-5 — BS qualifies",
+      "NC/SC/GA",
+      "Ladder to GS-11"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-10",
+    "region": "Southeast & Appalachia",
+    "start": "See posting",
+    "id": "item-681",
+    "title": "Hydrologic Technician (GS-6) — Field Unit Local Hiring Authority",
+    "org": "USGS South Atlantic Water Science Center · Raleigh NC · Charlotte NC · Norcross & Tifton GA · Columbia & Hardeeville SC",
+    "location": "Raleigh and Charlotte NC, Norcross and Tifton GA, Columbia and Hardeeville SC",
+    "deadline": "2026-08-10",
+    "pay": "$45,409–$67,543 (USGS-stated range spanning all duty locations)",
+    "stipend": "",
+    "benefits": "Standard federal package — FEHB, FEGLI, FERS plus TSP match, 11 paid holidays, annual and sick leave; promotion potential to GS-11",
+    "badge": "Top recommendation",
+    "url": "https://www.usajobs.gov/job/878749000",
+    "url_label": "USAJOBS 878749000",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/878749000",
+        "label": "🔗 USAJOBS 878749000"
+      }
+    ],
+    "metaLine": "⏰ Closes Aug 10 · GS-6 · Raleigh + 5 more duty stations · ladder to GS-11",
+    "body": "The GS-6 companion to the South Atlantic Water Science Center's GS-5 hydrologic technician announcement, adding Raleigh NC and Tifton GA to the duty-station list. Same Field Unit Local Hiring Authority, same streamgaging and water-quality data collection work, one grade higher, with promotion potential to GS-11.",
+    "desc": "Worth filing alongside the GS-5 announcement rather than instead of it — the two are separate applications and the GS-6 pays about $4,700 more at entry. Raleigh as a duty station is the draw here, keeping her inside her existing North Carolina network while working for USGS.",
+    "pills": [
+      "⏰ Closes Aug 10",
+      "GS-6 — higher entry",
+      "Raleigh NC option",
+      "File with the GS-5 twin",
+      "Ladder to GS-11"
     ]
   }
 ]
