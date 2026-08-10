@@ -36120,5 +36120,375 @@
       "Her cover letter already exists",
       "⚠️ Stipend not published — ask"
     ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 10, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-18",
+    "region": "Southeast & Appalachia",
+    "start": "See posting",
+    "id": "item-869",
+    "title": "Green Swamp Conservation Technician I — permanent NCWRC game land post",
+    "org": "NC Wildlife Resources Commission · Green Swamp Game Land · Brunswick County, NC",
+    "location": "Brunswick County, North Carolina (Green Swamp Game Land)",
+    "deadline": "2026-08-18",
+    "pay": "$33,902 – $59,327 per year (grade NC05)",
+    "stipend": "",
+    "benefits": "State of North Carolina employee benefits — health, retirement, paid leave",
+    "badge": "Top recommendation",
+    "url": "https://nc.wd108.myworkdayjobs.com/en-US/NC_Careers/job/Brunswick-County-NC/Green-Swamp-Conservation-Technician-I_JR-116904",
+    "url_label": "NC Careers (Workday) — JR-116904",
+    "links": [
+      {
+        "href": "https://nc.wd108.myworkdayjobs.com/en-US/NC_Careers/job/Brunswick-County-NC/Green-Swamp-Conservation-Technician-I_JR-116904",
+        "label": "🔗 NC Careers (Workday) — JR-116904"
+      }
+    ],
+    "metaLine": "Closes Aug 18 · PERMANENT state wildlife job in her home state · prescribed fire + habitat + surveys",
+    "body": "A permanent NCWRC Wildlife Conservation Technician I position (grade NC05) supporting habitat management and monitoring on the Green Swamp Game Land. This is a field-based role in the Operations and Technical Services division covering prescribed fire support, habitat restoration and wildlife survey work.",
+    "desc": "A permanent state wildlife position in her own state, at the entry technician grade, doing exactly the field survey and habitat work her degree trained her for. Note that NC state jobs moved to Workday — older NCWRC links elsewhere on this site may be dead, so this is the current portal.",
+    "pills": [
+      "PERMANENT NC state job",
+      "Her home state",
+      "Prescribed fire + habitat + surveys",
+      "$33,902–$59,327",
+      "Closes Aug 18"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 10, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-13",
+    "region": "Southeast & Appalachia",
+    "start": "See posting",
+    "id": "item-870",
+    "title": "Research Technician — Phinizy Center for Water Sciences",
+    "org": "Phinizy Center for Water Sciences · Savannah River · Augusta, GA",
+    "location": "Augusta, Georgia (Savannah River basin)",
+    "deadline": "2026-08-13",
+    "pay": "$35,000 – $45,000 per year",
+    "stipend": "",
+    "benefits": "Full-time salaried — confirm the benefit package with the Center",
+    "badge": "Top recommendation",
+    "url": "https://www.conservationjobboard.com/job-listing-research-technician-augusta-georgia/2563859693",
+    "url_label": "Conservation Job Board — Phinizy Center Research Technician",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-research-technician-augusta-georgia/2563859693",
+        "label": "🔗 Conservation Job Board — Phinizy Center Research Technician"
+      }
+    ],
+    "metaLine": "Closes Aug 13 · salaried · plans and runs water-science FIELD AND LAB studies — her capstone as a job",
+    "body": "A salaried, full-time research technician planning and executing water-science field and laboratory studies for an independent water research centre on the Savannah River. The position reports to the Research Manager and is a standard forty-hour week.",
+    "desc": "Watershed water-quality sampling paired with laboratory analysis, in a dedicated research setting — this is close to her Pigeon River capstone turned into a salaried job. The fact that the technician helps plan the studies rather than only executing them is what makes it a genuine step up rather than a pair of hands.",
+    "pills": [
+      "Field + lab water science",
+      "Salaried, not hourly",
+      "Plans studies, not just samples",
+      "Closes Aug 13"
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 10, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "contact-first",
+    "deadline_date": "",
+    "region": "Southeast & Appalachia",
+    "start": "Fall 2027",
+    "id": "item-871",
+    "title": "Fully Funded PhD and MS Assistantships — Global Change Biogeochemistry Lab",
+    "org": "University of Tennessee, Knoxville · Fettrow Global Change Biogeochemistry Lab · Knoxville, TN",
+    "location": "Knoxville, Tennessee",
+    "deadline": "Contact first — email a CV and a 2–3 sentence research-interest statement to sfettrow@utk.edu",
+    "pay": "",
+    "stipend": "Tuition covered plus a monthly stipend (amount not published — ask the PI)",
+    "benefits": "Full tuition coverage · confirm health insurance with the department",
+    "badge": "Top recommendation",
+    "url": "https://www.applykite.com/positions/fully-funded-phd-and-ms-graduate-assistantships-in-biogeochemistry-wildfire-impacts-permafrost-thaw-and-blue-carbon-irhsppkjwh",
+    "url_label": "Fettrow Lab — funded MS/PhD assistantships",
+    "links": [
+      {
+        "href": "https://www.applykite.com/positions/fully-funded-phd-and-ms-graduate-assistantships-in-biogeochemistry-wildfire-impacts-permafrost-thaw-and-blue-carbon-irhsppkjwh",
+        "label": "🔗 Fettrow Lab — funded MS/PhD assistantships"
+      }
+    ],
+    "metaLine": "Contact-first · Fall 2027 · coastal wetland blue carbon + wildfire disturbance · lab explicitly recruits BS applicants",
+    "body": "Fully funded MS and PhD graduate assistantships starting Fall 2027 in the Fettrow Global Change Biogeochemistry Lab, covering wildfire impacts, permafrost thaw and coastal wetland blue carbon. Tuition is covered plus a monthly stipend. Applications are made by emailing a CV and a two-to-three sentence research interest statement to sfettrow@utk.edu.",
+    "desc": "Coastal wetland biogeochemistry and disturbance effects are a direct extension of her post-Helene contaminant work — the lab studies what happens to element cycling after a disturbance, which is the general form of her specific question. It is also a contact-first lab that explicitly recruits at BS level, so a short, well-aimed email now costs almost nothing.",
+    "pills": [
+      "Fully funded, tuition covered",
+      "Wetland biogeochemistry + disturbance",
+      "Recruits BS applicants directly",
+      "Email the PI — low cost to try"
+    ]
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 10, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-10-09",
+    "region": "Southeast & Appalachia",
+    "start": "See posting",
+    "id": "item-872",
+    "title": "Biology Support Member — Alligator River and Pea Island National Wildlife Refuges",
+    "org": "American Conservation Experience with U.S. Fish and Wildlife Service · Manteo, NC",
+    "location": "Manteo, North Carolina (NC Outer Banks refuges)",
+    "deadline": "2026-10-09",
+    "pay": "",
+    "stipend": "Up to $600 per week",
+    "benefits": "Direct USFWS refuge biologist mentorship · confirm AmeriCorps benefits with ACE",
+    "badge": "Top recommendation",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118077",
+    "url_label": "TAMU board — ACE Alligator River / Pea Island 118077",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118077",
+        "label": "🔗 TAMU board — ACE Alligator River / Pea Island 118077"
+      }
+    ],
+    "metaLine": "Open to Oct 9 · BIOLOGY placement with USFWS refuge biologists · in her home state",
+    "body": "An AmeriCorps individual placement supporting USFWS refuge biologists at Alligator River and Pea Island National Wildlife Refuges with wildlife surveys, habitat monitoring and biological data management on the North Carolina Outer Banks.",
+    "desc": "This is the best USFWS on-ramp found in the Southeast: it is the biology programme rather than visitor services, it is in her home state, and it puts her directly alongside refuge biologists — the people who write references and hear about permanent vacancies first. The October deadline also makes it a realistic fallback if the August federal applications do not land.",
+    "pills": [
+      "BIOLOGY programme, not visitor services",
+      "Direct USFWS biologist mentorship",
+      "Her home state",
+      "Open to Oct 9"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 10, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-17",
+    "region": "Southeast & Appalachia",
+    "start": "See posting",
+    "id": "item-873",
+    "title": "Biological Science Technician — USDA APHIS Wildlife Services, Virginia",
+    "org": "USDA APHIS Wildlife Services · Virginia",
+    "location": "Virginia",
+    "deadline": "2026-08-17",
+    "pay": "$41,341 – $61,663 per year",
+    "stipend": "",
+    "benefits": "Full federal benefits — health and life insurance, FERS retirement, paid leave",
+    "badge": "Strong fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118106",
+    "url_label": "TAMU board — USDA APHIS Wildlife Services 118106",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118106",
+        "label": "🔗 TAMU board — USDA APHIS Wildlife Services 118106"
+      }
+    ],
+    "metaLine": "Closes Aug 17 · a direct USDA federal appointment · bachelor's with NO prior experience required",
+    "body": "A federal biological science technician position with USDA APHIS Wildlife Services in Virginia, conducting wildlife damage management field operations, surveys and data collection. A bachelor's degree is required with no prior experience.",
+    "desc": "USDA is one of the two agencies she has named as a destination, and this is a direct federal appointment that asks for a bachelor's and no experience — an unusual combination. Getting into the federal system at any grade also makes every later internal vacancy reachable.",
+    "pills": [
+      "Direct USDA federal appointment",
+      "BS with NO experience required",
+      "$41,341–$61,663",
+      "Closes Aug 17"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 10, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-28",
+    "region": "Southeast & Appalachia",
+    "start": "See posting",
+    "id": "item-874",
+    "title": "Conservation Engineering Technician — agricultural BMPs for water quality",
+    "org": "Shenandoah Valley Soil & Water Conservation District · Harrisonburg, VA",
+    "location": "Harrisonburg, Virginia (Shenandoah Valley)",
+    "deadline": "2026-08-28",
+    "pay": "$40,000 – $52,000 per year",
+    "stipend": "",
+    "benefits": "Confirm the district benefit package with the SWCD",
+    "badge": "Strong fit",
+    "url": "https://www.conservationjobboard.com/job-listing-conservation-engineering-technician-harrisonburg-virginia/4955019807",
+    "url_label": "Conservation Job Board — Shenandoah Valley SWCD",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-conservation-engineering-technician-harrisonburg-virginia/4955019807",
+        "label": "🔗 Conservation Job Board — Shenandoah Valley SWCD"
+      }
+    ],
+    "metaLine": "Closes Aug 28 · $40,000–$52,000 · SWCD roles are the classic BS-level feeder into NRCS/USDA",
+    "body": "A technician position with a Virginia soil and water conservation district supporting agricultural best-management-practice survey, layout, design assistance and installation checkout for water quality improvement projects.",
+    "desc": "Soil and water conservation district technician roles are the standard BS-level feeder into NRCS and USDA careers, which is exactly her stated federal target — and the work itself is water-quality improvement, so it is not a detour. The Shenandoah Valley also keeps her in Appalachian country.",
+    "pills": [
+      "Feeder into NRCS/USDA",
+      "Water-quality BMP work",
+      "$40,000–$52,000",
+      "Appalachian Virginia"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 10, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-13",
+    "region": "Southeast & Appalachia",
+    "start": "See posting",
+    "id": "item-875",
+    "title": "Fisheries Technician 3 — permanent Georgia DNR post",
+    "org": "Georgia DNR Wildlife Resources Division · Albany, GA",
+    "location": "Albany, Georgia",
+    "deadline": "2026-08-13",
+    "pay": "Starting at $45,805.13 per year",
+    "stipend": "",
+    "benefits": "State of Georgia employee benefits — health, retirement, paid leave",
+    "badge": "Strong fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117990",
+    "url_label": "TAMU board — Georgia DNR Fisheries Technician 3 117990",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117990",
+        "label": "🔗 TAMU board — Georgia DNR Fisheries Technician 3 117990"
+      }
+    ],
+    "metaLine": "Closes Aug 13 · $45,805 PERMANENT · bachelor's with no experience required",
+    "body": "A permanent Georgia DNR fisheries technician position based in Albany, supporting fish population sampling, habitat assessment and hatchery or stream survey operations. A bachelor's degree is required with no experience.",
+    "desc": "A permanent state agency job starting above $45,000 for a BS with zero required experience is a genuinely strong entry offer — most equivalent roles are seasonal. Note also that Georgia DNR publishes a separate vacancy PDF carrying jobs that never reach the main state careers site, so it is worth checking directly.",
+    "pills": [
+      "PERMANENT state job",
+      "$45,805 start",
+      "BS, no experience required",
+      "Closes Aug 13"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 10, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-27",
+    "region": "Southeast & Appalachia",
+    "start": "See posting",
+    "id": "item-876",
+    "title": "Lead Wild Pig Research Technician — camera arrays and GPS collars",
+    "org": "University of Georgia · Savannah River Ecology Laboratory (Beasley Lab) · Aiken, SC",
+    "location": "Aiken, South Carolina (DOE Savannah River Site)",
+    "deadline": "2026-08-27",
+    "pay": "$35,000 – $38,000 per year",
+    "stipend": "",
+    "benefits": "University of Georgia employee benefits — confirm the package",
+    "badge": "Strong fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118091",
+    "url_label": "TAMU board — UGA SREL Beasley Lab 118091",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118091",
+        "label": "🔗 TAMU board — UGA SREL Beasley Lab 118091"
+      }
+    ],
+    "metaLine": "Closes Aug 27 · salaried LEAD tier · remote-camera population estimation + live trapping · her two core skills",
+    "body": "A lead technician role coordinating the Beasley Lab wild pig research crew at the Savannah River Ecology Laboratory, overseeing trapping, camera deployment and GPS collar work as well as data management. The posting requires about one year of relevant experience.",
+    "desc": "Remote-camera population estimation and live trapping are her two strongest documented field skills, and the stated one-year experience floor is exactly what she has — so she should apply to the salaried lead tier rather than the hourly technician version. SREL also has a graduate programme attached, which makes it a useful place to be seen.",
+    "pills": [
+      "Apply to the LEAD tier, not hourly",
+      "Cameras + trapping — her core skills",
+      "One year experience — she has it",
+      "$35,000–$38,000 salaried"
+    ]
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 10, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-10-01",
+    "region": "Southeast & Appalachia",
+    "start": "September 3, 2026 – September 2, 2027",
+    "id": "item-877",
+    "title": "Appalachian Forest National Heritage Area AmeriCorps — with a WV tuition waiver",
+    "org": "Appalachian Forest National Heritage Area · Elkins, WV",
+    "location": "Elkins, West Virginia (WV/MD Appalachian region)",
+    "deadline": "2026-10-01",
+    "pay": "",
+    "stipend": "AmeriCorps living allowance plus a completion bonus (amounts not published on the listing — ask the programme)",
+    "benefits": "Health coverage · WEST VIRGINIA TUITION WAIVER · completion bonus · Segal AmeriCorps Education Award",
+    "badge": "Strong fit",
+    "url": "https://my.americorps.gov/mp/listing/viewListing.do?fromSearch=true&id=130141",
+    "url_label": "my.americorps.gov listing 130141",
+    "links": [
+      {
+        "href": "https://my.americorps.gov/mp/listing/viewListing.do?fromSearch=true&id=130141",
+        "label": "🔗 my.americorps.gov listing 130141"
+      }
+    ],
+    "metaLine": "Open to Oct 1 · full year · a WV TUITION WAIVER on top of the education award — a real grad-school runway",
+    "body": "A full-year AmeriCorps term running September 3, 2026 to September 2, 2027, placing members with forest, watershed, heritage and public-lands partner organisations across the West Virginia and Maryland Appalachian region. Benefits include a living allowance, stipend, health coverage, a West Virginia tuition waiver, a completion bonus and a Segal Education Award.",
+    "desc": "The tuition waiver is what sets this apart from every other service term on this site: stacked on top of a Segal Education Award, it turns a service year into a genuine funding route for a West Virginia master's. Watershed and forest partner placements also keep the work relevant rather than purely administrative.",
+    "pills": [
+      "WV TUITION WAIVER + Ed Award",
+      "Completion bonus",
+      "Full-year Appalachian placement",
+      "⚠️ Allowance not published — ask"
+    ]
   }
 ]
