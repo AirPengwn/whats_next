@@ -1,13 +1,6 @@
 # Weekly opportunity sweep — 2026-08-10
 
-**Added 7 new** opportunities:
-- Hydrographer Commissioner — stream gaging and water measurement — _Excellent_ · Mountain West · deadline: Rolling — recruitment open
-- GIS Technician — wildlife geospatial layers and mobile data apps — _Strong_ · Mountain West · deadline: 2026-08-27
-- Surface Water Professional — permanent water-rights review — _Strong_ · Mountain West · deadline: Rolling — recruitment open
-- Elk Feedground CWD Technician — _Strong_ · Mountain West · deadline: 2026-08-15
-- Conservation Planner — based inside an NRCS field office — _Strong_ · Mountain West · deadline: 2026-08-16
-- Energy and Minerals Support Member — USFWS Natural Resource Program Center — _Strong_ · Mountain West · deadline: Rolling — open until filled
-- Wildlife Technician — Individual Placement with BLM Royal Gorge Field Office — _Good_ · Mountain West · deadline: 2026-09-01
+**Added 0 new** opportunities.
 
 **Updated 0** (deadline / status / description changed).
 
