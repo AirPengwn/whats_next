@@ -5826,6 +5826,10 @@
     "region": "Northeast",
     "links": [
       {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117417",
+        "label": "🔗 TAMU board — UConn Helton/Lawrence 117417"
+      },
+      {
         "href": "https://nre.uconn.edu/",
         "label": "🔗 UConn Natural Resources & the Environment"
       },
@@ -5838,7 +5842,9 @@
     "location": "Storrs, Connecticut (University of Connecticut); field sites across the northeastern US",
     "pay": "Up to $40,000/yr PhD graduate assistantship",
     "stipend": "Graduate assistantship stipend up to $40,000/yr",
-    "benefits": "Standard UConn PhD graduate-assistant benefits (tuition support / health plan — confirm specifics with the lab)"
+    "benefits": "Standard UConn PhD graduate-assistant benefits (tuition support / health plan — confirm specifics with the lab)",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117417",
+    "url_label": "TAMU board — UConn Helton/Lawrence 117417"
   },
   {
     "type": "Graduate Program",
@@ -33925,6 +33931,508 @@
       "$41,000 salaried",
       "Statewide survey work",
       "⏰ Closes Aug 5"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 10, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-14",
+    "region": "National / Remote / Multiple",
+    "start": "See posting",
+    "id": "item-816",
+    "title": "Hydrologic Technician, GS-1316-07 — nationwide hiring event (50 duty locations)",
+    "org": "U.S. Geological Survey · Water Science Centers nationwide",
+    "location": "50 duty locations across roughly 25 states plus Puerto Rico (incl. NC, TN, VA, CA, CO, FL, IA, MD, MO, NY, OK, TX, WA, WI)",
+    "deadline": "2026-08-14",
+    "pay": "$50,460 – $82,007 per year (GS-7)",
+    "stipend": "",
+    "benefits": "Full federal benefits — health and life insurance, FERS retirement, paid leave",
+    "badge": "Top recommendation",
+    "url": "https://www.usajobs.gov/job/879219900",
+    "url_label": "USAJOBS 879219900 — USGS nationwide hydrologic technician",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/879219900",
+        "label": "🔗 USAJOBS 879219900 — USGS nationwide hydrologic technician"
+      }
+    ],
+    "metaLine": "Closes Aug 14 · one application covers ~50 offices in ~25 states · streamgaging + sediment and water-quality sampling",
+    "body": "A single nationwide USGS \"Fill Under Limitation\" announcement that fills hydrologic technician vacancies at Water Science Centers across the country. The work is operating and maintaining streamgages, making discharge measurements, collecting water-quality and sediment samples, and doing hydrologic data QA. Applicants select which duty locations they will accept from the full list, and the hiring path is open to the public, so no prior federal status is required.",
+    "desc": "This is the single most efficient federal application on the list: one submission puts her in front of USGS offices in roughly twenty-five states, and the actual duties — sediment sampling and stream water-quality collection — are the applied version of her Pigeon River trace-metal capstone. It closes August 14, so it is a four-day window.",
+    "pills": [
+      "Closes Aug 14 — act now",
+      "~50 duty locations, one application",
+      "$50,460–$82,007",
+      "Sediment + water-quality sampling",
+      "Open to the public"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 10, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-17",
+    "region": "National / Remote / Multiple",
+    "start": "See posting",
+    "id": "item-817",
+    "title": "Natural Resources Specialist (Park Ranger), GS-5/7/9 — Direct Hire Authority",
+    "org": "U.S. Army Corps of Engineers · 6 duty locations across IN, KY and TN",
+    "location": "Peru, IN · Grand Rivers, Somerset and Taylor County, KY · Hendersonville and Lancaster, TN",
+    "deadline": "2026-08-17",
+    "pay": "$40,736 – $80,243 per year (GS-5 through GS-9)",
+    "stipend": "",
+    "benefits": "Full federal benefits — health and life insurance, FERS retirement, paid leave",
+    "badge": "Strong fit",
+    "url": "https://www.usajobs.gov/job/879016000",
+    "url_label": "USAJOBS 879016000 — USACE park ranger DHA",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/879016000",
+        "label": "🔗 USAJOBS 879016000 — USACE park ranger DHA"
+      }
+    ],
+    "metaLine": "Closes Aug 17 · Direct Hire Authority — no rating-and-ranking queue · GS-5 entry rung",
+    "body": "A multi-state Direct Hire Authority announcement for park rangers on Corps of Engineers lake and river projects, covering natural-resource management, shoreline and water-resource stewardship, visitor services and compliance. Direct Hire Authority means qualified applicants can be appointed directly rather than waiting through a rating-and-ranking queue, and the announcement is open to the public at grades as low as GS-5.",
+    "desc": "Direct Hire Authority is the fastest realistic route into a permanent federal natural-resources job with only a BS, and this one starts as low as GS-5 with a ladder to GS-9. The Army Corps is also the agency whose wetland delineation manual she already works from, which makes her training immediately legible to the hiring official.",
+    "pills": [
+      "Direct Hire Authority",
+      "GS-5 entry to GS-9",
+      "Closes Aug 17",
+      "Army Corps — her delineation manual",
+      "6 duty locations"
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 10, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "contact-first",
+    "deadline_date": "",
+    "region": "National / Remote / Multiple",
+    "start": "Fall 2027",
+    "id": "item-818",
+    "title": "NSF Graduate Research Fellowship Program (GRFP) — 2027 competition",
+    "org": "National Science Foundation · tenable at any accredited U.S. graduate institution",
+    "location": "Any accredited U.S. graduate institution — the fellowship travels with the awardee",
+    "deadline": "Late October 2026 — exact date is field-specific, confirm in the current solicitation",
+    "pay": "",
+    "stipend": "$37,000 annual stipend plus a $16,000 cost-of-education allowance, for 3 years of support within a 5-year fellowship period",
+    "benefits": "Fellowship is portable to any accredited U.S. institution · access to supercomputing and international research supplements",
+    "badge": "Strong fit",
+    "url": "https://www.nsfgrfp.org/",
+    "url_label": "NSF GRFP official program site",
+    "links": [
+      {
+        "href": "https://www.nsfgrfp.org/",
+        "label": "🔗 NSF GRFP official program site"
+      }
+    ],
+    "metaLine": "Applications due late October · $37,000/yr + $16,000 tuition · open to BS holders not yet enrolled",
+    "body": "GRFP explicitly allows bachelor's-degree holders who are not yet enrolled in a graduate program to apply, and the fellowship travels with the awardee to whichever U.S. institution they choose. Applications are organised by field — ecology, environmental science and geosciences all qualify — with deadlines falling in late October that are announced each year in the current program solicitation.",
+    "desc": "This is the highest-value national award she can win before ever enrolling anywhere, and being a magna cum laude BS holder who is actively building toward grad school is precisely the profile it is designed for. Winning it also makes her dramatically more competitive for every assistantship on this list, because she would arrive carrying her own funding.",
+    "pills": [
+      "$37,000/yr + $16,000 tuition",
+      "Open to BS holders pre-enrollment",
+      "Portable to any U.S. school",
+      "Due late October",
+      "3 years of support"
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 10, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-12-01",
+    "region": "Southwest",
+    "start": "January–March 2027",
+    "id": "item-819",
+    "title": "M.S. Assistantship in Wetland Assessment — Clean Water Act Section 404 mitigation",
+    "org": "Oklahoma State University · Dept. of Natural Resource Ecology and Management · Stillwater, OK",
+    "location": "Stillwater, Oklahoma",
+    "deadline": "2026-12-01",
+    "pay": "",
+    "stipend": "$25,000 – $27,000 per year",
+    "benefits": "Confirm the tuition-waiver and health-insurance package with the department",
+    "badge": "Top recommendation",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118071",
+    "url_label": "TAMU board — Oklahoma State 118071",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118071",
+        "label": "🔗 TAMU board — Oklahoma State 118071"
+      }
+    ],
+    "metaLine": "Due Dec 1 · $25,000–$27,000 · Section 404 mitigation assessment · BS with no experience required",
+    "body": "A funded M.S. research assistantship evaluating compensatory mitigation under Section 404 of the Clean Water Act — assessing whether mitigation wetlands actually offset the wetland losses that were permitted. The posting requires only a bachelor's degree with no prior experience, and the start window is January through March 2027.",
+    "desc": "Of every graduate posting found this run, this is the closest match to her Army Corps wetland-delineation training: Section 404 mitigation assessment is literally the applied, research-grade version of the skill she already has. The December deadline also gives her a comfortable runway to line up recommendation letters.",
+    "pills": [
+      "Section 404 mitigation",
+      "Her Corps delineation training",
+      "$25,000–$27,000",
+      "BS, no experience needed",
+      "Due Dec 1"
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 10, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-10-15",
+    "region": "Southeast & Appalachia",
+    "start": "See posting",
+    "id": "item-820",
+    "title": "M.S. Assistantships — Constructed Wetland Metal Retention / Stream Bioassessment",
+    "org": "University of Georgia · Savannah River Ecology Laboratory (Bier Lab) · Aiken, SC",
+    "location": "Aiken, South Carolina (Savannah River Site)",
+    "deadline": "2026-10-15",
+    "pay": "",
+    "stipend": "Stipend listed as negotiable rather than published — confirm the figure with the lab",
+    "benefits": "Confirm the tuition-waiver and health-insurance package with SREL",
+    "badge": "Top recommendation",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118048",
+    "url_label": "TAMU board — UGA SREL 118048",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118048",
+        "label": "🔗 TAMU board — UGA SREL 118048"
+      }
+    ],
+    "metaLine": "Due Oct 15 · constructed wetland metal retention (copper and zinc) · two positions · BS, no experience required",
+    "body": "Two funded M.S. assistantships at the Savannah River Ecology Laboratory. One studies the microbial ecology of a constructed wetland engineered to retain metals — copper and zinc are the primary contaminants of concern — including the relationships between water quality and plant and microbial communities, and in-situ metal sequestration. The second uses macroinvertebrates for stream bioassessment on the Savannah River Site. A bachelor's degree is required with no prior experience.",
+    "desc": "A constructed treatment wetland built to retain metal contaminants is the graduate-school version of her Pigeon River lead and trace-metal capstone — it puts wetlands, water quality and metals into a single project. SREL is also a long-established federal-partner research lab, which is useful currency for the USGS and USFWS track she is aiming at.",
+    "pills": [
+      "Metals + wetlands + water quality",
+      "Mirrors her capstone exactly",
+      "Two positions open",
+      "Federal-partner research lab",
+      "Due Oct 15"
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 10, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-12-15",
+    "region": "Midwest & Great Plains",
+    "start": "January or August 2027",
+    "id": "item-821",
+    "title": "Ph.D. / M.S. Opportunities in Grassland Ecohydrology (Spring or Fall 2027)",
+    "org": "Kansas State University · Ecohydrology Lab · Manhattan, KS",
+    "location": "Manhattan, Kansas (tallgrass prairie and Great Plains grassland systems)",
+    "deadline": "2026-12-15",
+    "pay": "",
+    "stipend": "Starting at $30,771 per year",
+    "benefits": "Confirm the tuition-waiver and health-insurance package with the department",
+    "badge": "Good fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117881",
+    "url_label": "TAMU board — Kansas State 117881",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117881",
+        "label": "🔗 TAMU board — Kansas State 117881"
+      }
+    ],
+    "metaLine": "Due Dec 15 · $30,771 start · MS or PhD · BS with no experience required",
+    "body": "Two funded graduate positions, at either the M.S. or Ph.D. level, in the Kansas State Ecohydrology Lab studying how water moves through and is stored in grassland systems. A bachelor's degree is required with no prior experience, and students may start in either January or August 2027. Lab details and application instructions are on the PI's site, linked from the posting.",
+    "desc": "Ecohydrology sits directly between her watershed and water-quality interests and her GIS and suitability-modelling skills, and the stipend is well above the typical M.S. assistantship. The flexible start and December deadline make it a realistic target even if she takes a service or technician position first.",
+    "pills": [
+      "$30,771 start",
+      "MS or PhD entry",
+      "Watershed hydrology",
+      "Spring or Fall 2027 start",
+      "Due Dec 15"
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 10, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-10-02",
+    "region": "Southeast & Appalachia",
+    "start": "Fall 2027",
+    "id": "item-822",
+    "title": "Ph.D. Research Assistantships in Quantitative Ecology",
+    "org": "Florida Atlantic University · Boca Raton, FL",
+    "location": "Boca Raton, Florida",
+    "deadline": "2026-10-02",
+    "pay": "",
+    "stipend": "$29,000 – $30,000 per year",
+    "benefits": "Confirm the tuition-waiver and health-insurance package with the department",
+    "badge": "Good fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118065",
+    "url_label": "TAMU board — Florida Atlantic 118065",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118065",
+        "label": "🔗 TAMU board — Florida Atlantic 118065"
+      }
+    ],
+    "metaLine": "Due Oct 2 · $29,000–$30,000 · direct-from-BS PhD, no master's required · Fall 2027 start",
+    "body": "Funded doctoral assistantships in quantitative ecology, open at the bachelor's level with no prior experience required and no completed master's needed. The start date is Fall 2027, which gives an unusually long runway to prepare an application and line up recommendations.",
+    "desc": "Direct-from-BS PhD lines are rare and worth taking seriously when they appear. Quantitative ecology would also build exactly the modelling and analysis credentials that USFWS and USGS reward at hiring, and the Fall 2027 start means she could take a field or service position in the meantime without losing the opportunity.",
+    "pills": [
+      "Direct-from-BS PhD",
+      "No master's required",
+      "$29,000–$30,000",
+      "Long runway — Fall 2027",
+      "Due Oct 2"
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 10, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-15",
+    "region": "Alaska, Hawaii & Territories",
+    "start": "January 2027",
+    "id": "item-823",
+    "title": "M.S. Position — Wood Bison Ecology",
+    "org": "University of Alaska Fairbanks · Fairbanks, AK",
+    "location": "Fairbanks, Alaska",
+    "deadline": "2026-09-15",
+    "pay": "Compensation posted as an hourly rate: starting at $25.17 per hour",
+    "stipend": "",
+    "benefits": "Confirm the tuition-waiver and health-insurance package with the department",
+    "badge": "Good fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118027",
+    "url_label": "TAMU board — UA Fairbanks 118027",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118027",
+        "label": "🔗 TAMU board — UA Fairbanks 118027"
+      }
+    ],
+    "metaLine": "Due Sep 15 · $25.17/hr · reintroduced-species wildlife ecology · BS, no experience required",
+    "body": "A funded master's position studying wood bison ecology in Alaska, tied to one of North America's most prominent large-mammal reintroduction and recovery efforts. A bachelor's degree is required with no prior experience, and the start date is January 2027. Compensation is posted as an hourly rate rather than an annual stipend.",
+    "desc": "A reintroduced-species wildlife ecology degree with heavy field seasons, and she has already demonstrated she will relocate for a field posting. Recovery-programme experience is also distinctive on a federal application in a way that routine monitoring work is not.",
+    "pills": [
+      "Wood bison recovery programme",
+      "$25.17/hr",
+      "BS, no experience needed",
+      "January 2027 start",
+      "Due Sep 15"
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 10, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-10-01",
+    "region": "Southeast & Appalachia",
+    "start": "After January 2027",
+    "id": "item-824",
+    "title": "M.S. Research Assistantship — Invasive Carp in the Atchafalaya River Basin",
+    "org": "Nicholls State University · Thibodaux, LA",
+    "location": "Thibodaux, Louisiana (Atchafalaya River Basin field sites)",
+    "deadline": "2026-10-01",
+    "pay": "",
+    "stipend": "Starting at $24,000 per year",
+    "benefits": "Confirm the tuition-waiver and health-insurance package with the department",
+    "badge": "Good fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117637",
+    "url_label": "TAMU board — Nicholls State 117637",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117637",
+        "label": "🔗 TAMU board — Nicholls State 117637"
+      }
+    ],
+    "metaLine": "Due Oct 1 · $24,000 · applied invasive-species management in a major river-basin wetland",
+    "body": "A funded M.S. assistantship investigating the use of invasive carp as bait in the Louisiana wild crawfish fishery in the Atchafalaya River Basin — an applied invasive-species management and fisheries project. A bachelor's degree is required with no prior experience, and the start is after January 2027.",
+    "desc": "Applied invasive-species management inside one of the largest river-basin wetland systems in the country, requiring only a BS. The applied framing — turning a management problem into a fishery input — is the kind of project that reads well to agency hiring panels.",
+    "pills": [
+      "Atchafalaya Basin wetlands",
+      "Applied invasive management",
+      "$24,000",
+      "BS, no experience needed",
+      "Due Oct 1"
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 10, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-15",
+    "region": "Southeast & Appalachia",
+    "start": "January 2027",
+    "id": "item-825",
+    "title": "M.S. — Roadside Pollinator Habitat Restoration and Native Bee Ecology",
+    "org": "Auburn University · Auburn, AL",
+    "location": "Auburn, Alabama (roadside restoration sites statewide)",
+    "deadline": "2026-09-15",
+    "pay": "",
+    "stipend": "$25,000 per year",
+    "benefits": "Confirm the tuition-waiver and health-insurance package with the department",
+    "badge": "Good fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117755",
+    "url_label": "TAMU board — Auburn 117755",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117755",
+        "label": "🔗 TAMU board — Auburn 117755"
+      }
+    ],
+    "metaLine": "Due Sep 15 · $25,000 · DOT-partnered restoration monitoring · BS, no experience required",
+    "body": "A funded M.S. assistantship on roadside habitat restoration and native bee community response — a state-DOT-partnered applied restoration project with a strong field-survey component. A bachelor's degree is required with no prior experience, and the start is January 2027.",
+    "desc": "Restoration-effectiveness monitoring on managed landscapes is precisely the applied ecological-restoration work she says she wants, and a DOT partnership means the results feed real management decisions. Agency-partnered projects also tend to come with a built-in professional network.",
+    "pills": [
+      "Restoration effectiveness monitoring",
+      "State DOT partnership",
+      "$25,000",
+      "BS, no experience needed",
+      "Due Sep 15"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 10, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "National / Remote / Multiple",
+    "start": "Ongoing",
+    "id": "item-826",
+    "title": "SAVED SEARCH — TAMU Natural Resources job board, funded graduate assistantships",
+    "org": "Texas A&M Rangeland, Wildlife and Fisheries Management · jobs.rwfm.tamu.edu",
+    "location": "Nationwide — assistantships at universities in every region",
+    "deadline": "Rolling — check weekly through the autumn recruiting season",
+    "pay": "",
+    "stipend": "Varies by posting — each listing publishes its own stipend, education and experience requirements",
+    "benefits": "",
+    "badge": "Strong fit",
+    "url": "https://jobs.rwfm.tamu.edu/search/",
+    "url_label": "TAMU Natural Resources job board — search page",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/search/",
+        "label": "🔗 TAMU Natural Resources job board — search page"
+      }
+    ],
+    "metaLine": "Standing search · ~700 live postings · the single best source of funded assistantships · check weekly Sep–Dec",
+    "body": "This is a standing saved search rather than a single posting. The TAMU Natural Resources board is the best-populated national board for funded graduate assistantships in this field, carrying roughly seven hundred live postings at any time, of which dozens are BS-entry M.S. and Ph.D. assistantships with published stipends. The search page exposes filters for graduate opportunities, remote work and minimum education, and each posting lists stipend, education required, experience required and deadline up front.",
+    "desc": "Nearly every funded assistantship on this whole site was found through this board, so it is worth checking directly rather than waiting for the weekly sweep. Most assistantship deadlines for Spring and Fall 2027 starts fall between September and December 2026, which makes the next four months the highest-yield window of the year.",
+    "pills": [
+      "~700 live postings",
+      "Set a weekly check Sep–Dec",
+      "Filters for BS-entry assistantships",
+      "Stipends published up front"
+    ]
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 10, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
+    "region": "National / Remote / Multiple",
+    "start": "Ongoing",
+    "id": "item-827",
+    "title": "SAVED SEARCH — Conservation Legacy / Stewards Individual Placements",
+    "org": "Conservation Legacy · Stewards Individual Placements, Appalachian, Southwest and Arizona Conservation Corps",
+    "location": "Nationwide — individual placements and crew positions across all regions",
+    "deadline": "Rolling — postings often carry only two to four weeks of lead time",
+    "pay": "",
+    "stipend": "Weekly living allowances on current AmeriCorps individual placements run roughly $600–$760 per week depending on the position",
+    "benefits": "Segal AmeriCorps Education Award · healthcare · student loan forbearance",
+    "badge": "Strong fit",
+    "url": "https://conservationlegacy.org/search-all-positions",
+    "url_label": "Conservation Legacy — all open positions",
+    "links": [
+      {
+        "href": "https://conservationlegacy.org/search-all-positions",
+        "label": "🔗 Conservation Legacy — all open positions"
+      }
+    ],
+    "metaLine": "Standing search · $600–$760/wk individual placements · short lead times, so check often",
+    "body": "Conservation Legacy's national portal aggregates its Stewards Individual Placements AmeriCorps positions alongside its regional corps programmes. Individual placements embed a single member with a federal or non-profit host doing technical work, rather than assigning them to a crew. Postings open and close continuously and many are advertised with only two to four weeks of lead time.",
+    "desc": "She has already submitted three Conservation Legacy crew-leader applications, so this is the organisation most likely to produce her next offer — and the individual placements are a better resume-builder than crew work for someone already past NCCC. The short lead times are the reason to check this directly rather than waiting a week.",
+    "pills": [
+      "$600–$760/wk placements",
+      "She already has 3 applications here",
+      "Individual placements beat crew work",
+      "Short lead times — check often"
     ]
   }
 ]
