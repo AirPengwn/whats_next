@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
-<link rel="stylesheet" href="styles.css?v=20260810-854-04710420">
+<link rel="stylesheet" href="styles.css?v=20260811-854-1a027f0d">
 <title>Erin Lamberton &#8212; Applications Tracker</title>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -245,9 +245,9 @@ html:not(.dark){
 }
 </style>
 <script src="icons.js?v=20260602"></script>
-<script src="site.js?v=20260810-854-04710420"></script>
+<script src="site.js?v=20260811-854-1a027f0d"></script>
 <!-- v3.20: opportunity data, so each application can expand its source opportunity inline -->
-<script src="opportunities.js?v=20260810-854-04710420"></script>
+<script src="opportunities.js?v=20260811-854-1a027f0d"></script>
 <script>
 (function(){
   var saved=localStorage.getItem('erin_theme');
@@ -561,12 +561,52 @@ var DEFAULT_MATERIALS=[
 var currentFilter='All';
 
 // ── Save a single card ──
+/* ── v3.88: PIN THE POSTING WHEN AN APPLICATION GOES LIVE ──────────────────
+   Real case that prompted this: Erin applied near a cutoff, was invited to
+   interview weeks later, and by then the posting had been taken down with no
+   copy anywhere. The details you need for an interview vanish exactly when
+   they start to matter.
+
+   The page CANNOT scrape the posting itself — it is a static site and the
+   browser blocks reading another origin. So instead we ask the Wayback Machine
+   to keep a copy, which costs us no storage and no server: one GET to
+   /save/<url> pins it, and /web/2026/<url> is a STABLE redirect to the nearest
+   snapshot, so we never have to record a timestamp.
+
+   Fires once, on the transition OUT of "Not started" — not on the weekly
+   sweep, because a posting can disappear days after applying. */
+var WN_PORTAL  = /entertimeonline\.com|myworkdayjobs\.com|icims\.com|breezy\.hr|paycomonline\.net|applicantpool\.com|applytojob\.com|taleo|brassring|ultipro/i;
+var WN_GENERIC = /conservationjobboard\.com\/[a-z-]+$|\/(careers|jobs|open-positions|employment)\/?$|\.gov\/careers/i;
+function wnArchiveKind(u){
+  if(!u || !/^https?:/i.test(u)) return 'none';
+  if(WN_PORTAL.test(u))  return 'portal';    /* login/JS — archiver gets an empty shell */
+  if(WN_GENERIC.test(u)) return 'generic';   /* a board index, not this posting */
+  return 'ok';
+}
+function wnArchiveLink(u){ return 'https://web.archive.org/web/2026/'+u; }
+function wnPinPosting(app){
+  if(!app) return;
+  var u = app.itemUrl || (window.wnUrl ? window.wnUrl(oppById(app.itemId)) : '');
+  if(wnArchiveKind(u)!=='ok') return;        /* nothing useful to capture */
+  if(app.archivedAt) return;                 /* already pinned once */
+  if(window.WN_LOCAL_READONLY) return;       /* never fire a real archive from preview */
+  try{
+    /* fire-and-forget: no-cors means we cannot read the reply, but the request
+       IS sent, which is all the archiver needs. Never block the save on it. */
+    fetch('https://web.archive.org/save/'+u, {mode:'no-cors', cache:'no-store'});
+    app.archivedAt = new Date().toISOString().slice(0,10);
+  }catch(e){}
+}
+
 function saveCard(id){
   var arr=loadApps();
   var idx=arr.findIndex(function(a){return a.id===id;});
   if(idx<0) return;
 
+  var _prevStatus = arr[idx].status;
   arr[idx].status      = document.getElementById('as-'+id).value;
+  /* pin as soon as it leaves the starting block, before the cloud write below */
+  if(_prevStatus==='notstarted' && arr[idx].status!=='notstarted') wnPinPosting(arr[idx]);
   arr[idx].portalUrl   = document.getElementById('apu-'+id).value;
   arr[idx].portalLogin = document.getElementById('apl-'+id).value;
   arr[idx].submitDate  = document.getElementById('asd-'+id).value;
@@ -818,6 +858,34 @@ function renderCards(){
       pl.textContent='Apply / View posting ↗'; pl.title='Open the live application posting in a new tab';
       pl.style.cssText='font-size:12.5px;font-weight:500;color:var(--teal-t);text-decoration:none';
       oppLinks.appendChild(pl);
+    }
+    /* v3.88: the archived copy — the version that still exists after the
+       employer takes the posting down. */
+    var _akind=wnArchiveKind(_post);
+    if(_akind==='ok'){
+      var al=document.createElement('a');
+      al.href=wnArchiveLink(_post); al.target='_blank'; al.rel='noopener';
+      al.textContent='📄 Archived copy ↗';
+      al.title='The posting as it was captured, via the Wayback Machine — works even after the employer removes it'
+             + (app.archivedAt ? ('\nPinned '+app.archivedAt) : '');
+      al.style.cssText='font-size:12.5px;font-weight:500;color:var(--t2);text-decoration:none';
+      oppLinks.appendChild(al);
+
+      var ar=document.createElement('a');
+      ar.href='https://web.archive.org/save/'+_post; ar.target='_blank'; ar.rel='noopener';
+      ar.textContent='📌 Archive now';
+      ar.title='Manually capture a fresh copy of this posting right now';
+      ar.style.cssText='font-size:12.5px;color:var(--t3);text-decoration:none';
+      oppLinks.appendChild(ar);
+    } else if(_akind==='portal'){
+      /* Workday / iCIMS / Paycom and friends render behind a login and JS, so an
+         archiver only ever captures an empty shell. Say so plainly rather than
+         offering a button that would quietly produce a useless snapshot. */
+      var pn=document.createElement('span');
+      pn.textContent='⚠ Save a PDF — this portal can’t be archived';
+      pn.title='This posting sits behind a login/JavaScript portal. The Wayback Machine would capture an empty page.\nOpen the posting and use Ctrl+P → Save as PDF instead.';
+      pn.style.cssText='font-size:12.5px;color:var(--amber-t);cursor:help';
+      oppLinks.appendChild(pn);
     }
     /* v3.20: expand the source opportunity's details INLINE, so you never have to
        leave the Tracker to remember what a role actually is. The app record only

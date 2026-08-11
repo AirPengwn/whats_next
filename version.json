@@ -1,10 +1,10 @@
 {
-  "release": "3.87",
-  "build": "20260810-854-04710420",
-  "builtAt": "2026-08-10T05:53:14.459Z",
+  "release": "3.88",
+  "build": "20260811-854-1a027f0d",
+  "builtAt": "2026-08-11T15:27:09.434Z",
   "total": 854,
-  "newCount": 9,
-  "updatedCount": 0,
-  "hash": "04710420",
-  "date": "2026-08-10"
+  "newCount": 0,
+  "updatedCount": 1,
+  "hash": "1a027f0d",
+  "date": "2026-08-11"
 }

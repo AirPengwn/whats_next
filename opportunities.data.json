@@ -7862,7 +7862,7 @@
     },
     "title": "Fall Staff Crew Leader — Shenandoah Valley (employee status, highest corps pay)",
     "org": "Appalachian Conservation Corps · Conservation Legacy · Harrisonburg, VA",
-    "deadline": "Application deadline August 3, 2026",
+    "deadline": "Rolling — applications reviewed until positions are filled (posting since removed; archived copy available)",
     "start": "Fall 2026 season",
     "body": "A staff crew leader position running fall conservation crews out of Harrisonburg, Virginia. Unlike the AmeriCorps leader track this is an employee-status role with full staff responsibilities for crew safety, project delivery with land agency partners, and member development. Published pay is $925 to $1,125 per week, substantially higher than the AmeriCorps leadership rate.",
     "desc": "This is by far the best-paying corps role open in the region, and prior AmeriCorps NCCC service is the standard qualifying background for it — Erin's corps experience is the specific credential that makes a fresh BS graduate credible as a staff leader rather than a member. Employee status also means real wages and likely benefits instead of a living stipend, which changes the financial calculus substantially against the $600 per week member roles. The work is crew leadership and project management rather than science, so its value is supervisory experience and earnings, not technical depth.",
@@ -7876,8 +7876,8 @@
     ],
     "metaLine": "Staff position · $925–$1,125/wk · Harrisonburg VA · deadline Aug 3 2026",
     "cycle": "next",
-    "deadline_kind": "passed",
-    "deadline_date": "2026-08-03",
+    "deadline_kind": "rolling",
+    "deadline_date": "",
     "region": "Southeast & Appalachia",
     "links": [
       {
@@ -7887,14 +7887,19 @@
       {
         "href": "https://appalachiancc.org/open-positions",
         "label": "🔗 Appalachian Conservation Corps — open positions"
+      },
+      {
+        "href": "http://web.archive.org/web/20260413052926/https://www.conservationjobboard.com/job-listing-staff-crew-leader-harrisonburg-virginia/3586377533",
+        "label": "📄 Archived copy of the original posting"
       }
     ],
-    "url": "https://www.conservationjobboard.com/virginia",
+    "url": "https://www.conservationjobboard.com/job-listing-staff-crew-leader-harrisonburg-virginia/3586377533",
     "location": "Harrisonburg, VA (crews across Virginia and West Virginia)",
     "pay": "$925–$1,125 per week",
     "stipend": "",
     "benefits": "Staff employee position — confirm benefits package with Appalachian Conservation Corps",
-    "id": "item-187"
+    "id": "item-187",
+    "url_label": "Original posting (archived)"
   },
   {
     "type": "Service / Corps",
