@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
-<link rel="stylesheet" href="styles.css?v=20260812-854-1a027f0d">
+<link rel="stylesheet" href="styles.css?v=20260812-854-f1865d98">
 <title>Erin Lamberton &#8212; Applications Tracker</title>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -245,9 +245,9 @@ html:not(.dark){
 }
 </style>
 <script src="icons.js?v=20260602"></script>
-<script src="site.js?v=20260812-854-1a027f0d"></script>
+<script src="site.js?v=20260812-854-f1865d98"></script>
 <!-- v3.20: opportunity data, so each application can expand its source opportunity inline -->
-<script src="opportunities.js?v=20260812-854-1a027f0d"></script>
+<script src="opportunities.js?v=20260812-854-f1865d98"></script>
 <script>
 (function(){
   var saved=localStorage.getItem('erin_theme');
@@ -866,6 +866,20 @@ function renderCards(){
       pl.textContent='Apply / View posting ↗'; pl.title='Open the live application posting in a new tab';
       pl.style.cssText='font-size:12.5px;font-weight:500;color:var(--teal-t);text-decoration:none';
       oppLinks.appendChild(pl);
+    }
+    /* v3.90: OUR OWN saved copy, kept in the repo. This outranks the Wayback
+       link because the Wayback replay is not trustworthy on JS-rendered boards:
+       conservationjobboard runs Livewire, so replaying the snapshot re-fires
+       /livewire/update and repaints the page with unrelated jobs (observed in
+       normal, id_ AND if_ modes), and some captures contain no posting text at
+       all. The local file is plain HTML with zero scripts — nothing to hijack. */
+    if(_opp && _opp.postingFile){
+      var sc=document.createElement('a');
+      sc.href=_opp.postingFile; sc.target='_blank'; sc.rel='noopener';
+      sc.textContent='💾 Saved copy';
+      sc.title='The original posting text, saved to this site. Readable even after the employer removes the listing.';
+      sc.style.cssText='font-size:12.5px;font-weight:600;color:var(--teal-t);text-decoration:none';
+      oppLinks.appendChild(sc);
     }
     /* v3.88: the archived copy — the version that still exists after the
        employer takes the posting down. */
