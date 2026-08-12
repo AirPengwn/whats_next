@@ -222,6 +222,12 @@ function buildBrowseDetailX(it){
     if(!href||!/^https?:/.test(href)||_seenU[href]) return;
     _seenU[href]=1; _ext.push({href:href,label:label||href,primary:!!primary});
   }
+  /* v3.91: OUR OWN saved copy, listed FIRST. It has to bypass _add(), whose
+     /^https?:/ guard silently drops a relative path like postings/item-187.html.
+     This matters most exactly when it is needed: item-187's original URL now
+     returns "This job has Expired", so the saved copy is the only readable
+     version of what she actually applied to. */
+  if(it.postingFile) _ext.push({href:it.postingFile,label:'Saved copy of the original posting',primary:true});
   _add(it.url, it.url_label||'Apply / View posting', true);
   _add(it.url2, it.url2_label||'More info', false);
   (it.links||[]).forEach(function(l){ if(l) _add(l.href, l.label||l.href, false); });

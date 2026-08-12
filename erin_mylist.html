@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
-<link rel="stylesheet" href="styles.css?v=20260812-854-f1865d98">
+<link rel="stylesheet" href="styles.css?v=20260812-854-41e6d60d">
 <title>My Opportunity List — What's Next for Erin</title>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -264,8 +264,8 @@ var(--mute-t);border:1px solid var(--bds)}
 </style>
 
 <script src="icons.js?v=20260602"></script>
-<script src="site.js?v=20260812-854-f1865d98"></script>
-<script src="opportunities.js?v=20260812-854-f1865d98"></script>
+<script src="site.js?v=20260812-854-41e6d60d"></script>
+<script src="opportunities.js?v=20260812-854-41e6d60d"></script>
 <script>
 (function(){
   var saved=localStorage.getItem('erin_theme');
@@ -1853,6 +1853,9 @@ function buildBrowseDetailX(it){
     if(!href||!/^https?:/.test(href)||_seenU[href]) return;
     _seenU[href]=1; _ext.push({href:href,label:label||href,primary:!!primary});
   }
+  /* v3.91: mirror of the Browse engine — our own saved copy first, bypassing
+     _add()'s /^https?:/ guard which would drop a relative path. */
+  if(it.postingFile) _ext.push({href:it.postingFile,label:'Saved copy of the original posting',primary:true});
   _add(it.url, it.url_label||'Apply / View posting', true);
   _add(it.url2, it.url2_label||'More info', false);
   (it.links||[]).forEach(function(l){ if(l) _add(l.href, l.label||l.href, false); });
