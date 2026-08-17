@@ -37635,5 +37635,440 @@
       "Only 1 yr experience needed",
       "Long window to Sep 30"
     ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-04",
+    "region": "National / Remote / Multiple",
+    "id": "item-906",
+    "title": "Cartographer (GS-9) — ONE application covering 23 USGS duty stations",
+    "org": "U.S. Geological Survey · Science Publishing Network · 23 offices nationwide",
+    "location": "23 USGS duty stations (Reston VA, Lakewood CO, Moffett Field CA, Seattle, Atlanta, Chicago, Austin, Portland and more)",
+    "deadline": "2026-09-04",
+    "pay": "$61,722–$145,468/yr (varies by grade and duty location)",
+    "stipend": "",
+    "benefits": "Federal health & retirement benefits · location negotiable after selection",
+    "badge": "Top recommendation",
+    "url": "https://www.usajobs.gov/job/880714300",
+    "url_label": "USAJOBS announcement",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/880714300",
+        "label": "🔗 USAJOBS announcement"
+      }
+    ],
+    "metaLine": "Closes Sep 4 · ONE application → 23 USGS offices · a GIS job title, federal, at GS-9",
+    "body": "A single announcement covering 23 USGS offices across the country, with the announcement stating that location is negotiable after selection to any USGS location. Duties are designing and exporting page-sized and oversized maps in ArcGIS Pro and Adobe Illustrator, and compiling datasets, basemaps and overlays to present complex hydrologic and geologic science.",
+    "desc": "This is the highest-leverage federal application available to you right now: one form, 23 duty stations, and a job title that is straightforwardly GIS. Your multi-criteria suitability work is the relevant experience, and the subject matter — hydrologic and geologic science — is your own field, so you are not pretending to be a cartographer for an unfamiliar discipline.",
+    "pills": [
+      "ONE application → 23 duty stations",
+      "GIS/ArcGIS Pro is the job",
+      "Federal GS-9",
+      "Location negotiable after selection"
+    ]
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "contact-first",
+    "region": "National / Remote / Multiple",
+    "id": "item-907",
+    "title": "GIS Stewards — nationwide National Park Service GIS placements",
+    "org": "National Park Service · Conservation Legacy · parks nationwide",
+    "location": "Nationwide — national parks across the country",
+    "deadline": "Contact-first — recruits Feb/Mar for June starts and Jun/Jul for October starts",
+    "pay": "",
+    "stipend": "",
+    "benefits": "",
+    "badge": "Top recommendation",
+    "url": "https://stewardslegacy.org/gis-stewards",
+    "url_label": "Stewards — GIS Stewards Program",
+    "links": [
+      {
+        "href": "https://stewardslegacy.org/gis-stewards",
+        "label": "🔗 Stewards — GIS Stewards Program"
+      }
+    ],
+    "metaLine": "A whole national programme built around GIS · 16–52 week placements · ⚠️ stipend not published",
+    "body": "An explicitly nationwide NPS partnership giving emerging GIS professionals 16-to-52-week placements using geospatial technology to support park management — natural and cultural resource preservation, planning and environmental compliance, facility asset and transportation management, and visitor and resource operations. Eligibility is 18 to 30 years old (up to 35 for veterans), US citizen or lawful permanent resident, high school diploma or GED, with past experience or academic study in GIS.",
+    "desc": "Most conservation postings treat GIS as a bonus skill; this programme is built entirely around it, at your exact level, across the whole park system. It is the cleanest way to convert your suitability-modelling coursework into a federal credential rather than a line on a résumé. The October-start cohort recruits in June and July, so note the cycle and set a reminder rather than waiting for a posting.",
+    "pills": [
+      "GIS IS the programme",
+      "National Park Service, nationwide",
+      "16–52 week placements",
+      "⚠️ Stipend not published — ask"
+    ]
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "National / Remote / Multiple",
+    "id": "item-908",
+    "title": "Conservation and Land Management (CLM) Internship — built for recent BS graduates",
+    "org": "Chicago Botanic Garden · with BLM, NPS, USFS and USFWS",
+    "location": "13 western states plus additional partner sites",
+    "deadline": "Rolling — applications reviewed continuously; Seeds of Success roles open now",
+    "pay": "",
+    "stipend": "",
+    "benefits": "",
+    "badge": "Top recommendation",
+    "url": "https://clminternship.org/",
+    "url_label": "CLM Internship Program",
+    "links": [
+      {
+        "href": "https://clminternship.org/",
+        "label": "🔗 CLM Internship Program"
+      }
+    ],
+    "metaLine": "Rolling · designed FOR recent graduates · staffed by all four federal land agencies · ⚠️ stipend not published",
+    "body": "Five- and ten-month seasonal salaried internships for recent college graduates, placing interns with professional staff at the Bureau of Land Management, National Park Service, US Forest Service and US Fish and Wildlife Service. The programme includes a week-long CLM Training Workshop held annually. Applications are reviewed on a rolling basis and Seeds of Success positions are currently accepting applications.",
+    "desc": "A programme whose stated audience is recent bachelor's graduates, staffed almost entirely by the four federal agencies you are targeting — so it is simultaneously a job, a training course and a federal network. One application reaches placements across thirteen states, which suits your stated willingness to relocate.",
+    "pills": [
+      "FOR recent BS graduates",
+      "BLM + NPS + USFS + USFWS",
+      "13 western states",
+      "Includes a training workshop"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "National / Remote / Multiple",
+    "id": "item-909",
+    "title": "NEON Field Technician — 81 long-term ecological monitoring sites",
+    "org": "Battelle · National Ecological Observatory Network · 81 sites nationwide",
+    "location": "81 field sites across 20 ecoclimate domains nationwide",
+    "deadline": "Rolling — postings appear by domain continuously; watch rather than apply once",
+    "pay": "",
+    "stipend": "",
+    "benefits": "",
+    "badge": "Strong fit",
+    "url": "https://jobs.battelle.org/us/en/neon",
+    "url_label": "Battelle NEON careers",
+    "links": [
+      {
+        "href": "https://jobs.battelle.org/us/en/neon",
+        "label": "🔗 Battelle NEON careers"
+      }
+    ],
+    "metaLine": "Rolling · one of the largest field-technician employers in US ecology · ⚠️ pay varies by domain",
+    "body": "NEON is one of the largest continuously recruiting ecological field-technician employers in the country, operating 81 field sites across 20 ecoclimate domains and hiring hundreds of seasonal and full-time field technicians each year. Technicians collect standardised environmental data, maintain field instrumentation and support long-term ecological research. Postings appear on a rolling basis by domain.",
+    "desc": "Standardised protocol-driven data collection is precisely what you already do — small-mammal trapping, camera traps and sediment sampling are all NEON protocols. Because it hires continuously across 81 sites, the right move is a saved search rather than a single application, and a NEON season is well understood by graduate admissions committees.",
+    "pills": [
+      "81 sites, 20 domains",
+      "Hires hundreds each year",
+      "Your exact protocols",
+      "Set an alert, not one application"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-13",
+    "region": "National / Remote / Multiple",
+    "id": "item-910",
+    "title": "Regional Representative — South Dakota (fully remote, 0–1 years experience)",
+    "org": "Pheasants Forever & Quail Forever · remote within South Dakota",
+    "location": "Remote within South Dakota (Pierre area preferred, not required)",
+    "deadline": "2026-09-13",
+    "pay": "$59,000–$65,000/yr",
+    "stipend": "",
+    "benefits": "",
+    "badge": "Strong fit",
+    "url": "https://pheasantsforever.applytojob.com/apply/6eJDWQnZfA/Regional-Representative-South-Dakota",
+    "url_label": "Pheasants Forever application",
+    "links": [
+      {
+        "href": "https://pheasantsforever.applytojob.com/apply/6eJDWQnZfA/Regional-Representative-South-Dakota",
+        "label": "🔗 Pheasants Forever application"
+      }
+    ],
+    "metaLine": "Closes Sep 13 · genuinely REMOTE · flagged 0–1 years · $59k–$65k",
+    "body": "A fully remote position supporting Pheasants Forever and Quail Forever chapters and volunteers across a broad geography, with an anticipated September 2026 start. Requires a bachelor's degree or equivalent experience in wildlife conservation, education, business, marketing or a related field, and is flagged 0 to 1 years experience. Involves self-directed project management across a wide territory and frequent in-state travel.",
+    "desc": "Genuinely remote entry-level conservation roles barely exist, and this one pays $59,000 to $65,000 while explicitly asking for zero to one year of experience. It is more relationship and project management than field science, so it is a real fork in the road rather than a straight upgrade — but at that salary it deserves an honest look.",
+    "pills": [
+      "FULLY REMOTE",
+      "0–1 years experience",
+      "$59,000–$65,000",
+      "Closes Sep 13"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Southwest",
+    "id": "item-911",
+    "title": "Biologist 2 (underfill) — non-game wildlife, Biodiversity Division",
+    "org": "Nevada Department of Wildlife · Fallon, NV",
+    "location": "Fallon, Nevada",
+    "deadline": "Rolling — continuous recruitment, may close without notice",
+    "pay": "$59,257.44–$87,570.72/yr",
+    "stipend": "",
+    "benefits": "Full Nevada state benefits",
+    "badge": "Top recommendation",
+    "url": "https://www.governmentjobs.com/careers/nv/jobs/5436554",
+    "url_label": "Nevada state careers posting",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/nv/jobs/5436554",
+        "label": "🔗 Nevada state careers posting"
+      }
+    ],
+    "metaLine": "Rolling · posted as an UNDERFILL — they will hire below grade and train you up · $59k floor",
+    "body": "A non-game wildlife biologist position working across mammals, birds, bats and reptiles on surveys, monitoring and management activities implementing the State Wildlife Action Plan. The position is part of a statewide collaborative wildlife conservation team. It is posted as an underfill, meaning the agency can hire below grade and train the successful candidate up.",
+    "desc": "The underfill flag is the important word here: it is an explicit statement that they will take someone who does not yet meet the Biologist 2 bar and develop them, which is exactly the opening an early-career applicant should walk through. Small-mammal and camera-trap monitoring are the core methods of non-game survey work, so your skills are the job description.",
+    "pills": [
+      "UNDERFILL — entry applicants wanted",
+      "$59,257–$87,571",
+      "Small mammals + camera traps",
+      "Full state benefits"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-10-01",
+    "region": "Southwest",
+    "id": "item-912",
+    "title": "Wild Turkey Trapping Technician — camera traps, GPS tagging & mortality investigation",
+    "org": "Oklahoma State University / Oklahoma Dept. of Wildlife Conservation · Cheyenne, OK",
+    "location": "Cheyenne, Oklahoma (Roger Mills County)",
+    "deadline": "2026-10-01",
+    "pay": "$15/hour plus housing provided",
+    "stipend": "",
+    "benefits": "Housing provided",
+    "badge": "Strong fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118018",
+    "url_label": "TAMU natural resources board listing 118018",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118018",
+        "label": "🔗 TAMU natural resources board listing 118018"
+      }
+    ],
+    "metaLine": "Closes Oct 1 · camera traps + autonomous recorders + live capture · SIX positions · housing included",
+    "body": "Six full-time temporary technician positions supporting a Rio Grande wild turkey harvest and population monitoring project from January through April 2027. Technicians assist two graduate students with capture and handling including GPS tagging, deploy and retrieve camera traps and autonomous recording units, monitor tagged birds, investigate mortality sites and handle data processing. Housing is provided.",
+    "desc": "Camera-trap deployment and live-capture handling are two skills you already have, so this is a low-risk application with six openings rather than one. The real value is structural: working directly under two graduate students in an OSU lab is one of the most reliable informal routes into a funded assistantship at that same institution.",
+    "pills": [
+      "Camera traps — your exact skill",
+      "SIX positions open",
+      "Housing provided",
+      "A pipeline into an OSU assistantship"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-11-30",
+    "region": "Southwest",
+    "id": "item-913",
+    "title": "Natural Resources Specialist — Permitting Specialist (NEPA & environmental assessment)",
+    "org": "Center for Environmental Health Monitoring and Management (CEHMM) · Carlsbad, NM",
+    "location": "Carlsbad, New Mexico",
+    "deadline": "2026-11-30",
+    "pay": "$25–$35/hour",
+    "stipend": "",
+    "benefits": "",
+    "badge": "Strong fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118098",
+    "url_label": "TAMU natural resources board listing 118098",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118098",
+        "label": "🔗 TAMU natural resources board listing 118098"
+      }
+    ],
+    "metaLine": "Open to Nov 30 · NEPA + permitting — the credential federal environmental careers run on",
+    "body": "A permanent full-time position conducting natural resource surveys and environmental permitting at federal and state levels. The desired background includes plant and wildlife surveys, environmental assessments, and working knowledge of NEPA and environmental planning. Reports to the Environmental Services Project Manager.",
+    "desc": "NEPA literacy is the quiet prerequisite behind an enormous share of federal and consulting environmental work, and almost nobody leaves a BS programme with it. Getting paid $25 to $35 an hour to learn it, at an organisation you already have a second saved role with, is a strong trade.",
+    "pills": [
+      "NEPA + permitting experience",
+      "$25–$35/hour",
+      "Permanent full-time",
+      "Same employer as a role you saved"
+    ]
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-31",
+    "region": "Southwest",
+    "id": "item-914",
+    "title": "Restoration & Recreation Technician — Nevada Conservation Corps (AmeriCorps)",
+    "org": "The Great Basin Institute · Reno and Las Vegas, NV",
+    "location": "Reno and Las Vegas, Nevada (public lands statewide)",
+    "deadline": "2026-08-31",
+    "pay": "",
+    "stipend": "Up to $2,707.68/month",
+    "benefits": "",
+    "badge": "Strong fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117641",
+    "url_label": "TAMU natural resources board listing 117641",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117641",
+        "label": "🔗 TAMU natural resources board listing 117641"
+      }
+    ],
+    "metaLine": "Closes Aug 31 · optional GIS and plant-ID training built into the term",
+    "body": "An AmeriCorps technician role with the Nevada Conservation Corps building and maintaining trails, restoring wildlife habitat and reducing hazardous fuels on public lands. Work includes chainsaw and hand-tool use, herbicide application, and camping up to seven nights at a time in wilderness settings. Optional training includes native and invasive plant identification and an introduction to GIS.",
+    "desc": "A standard corps term made more useful by the optional training: plant identification is a genuine gap for most environmental science graduates, and the fuels-reduction work builds toward fire qualifications. You have already applied to Great Basin Institute once, so their process is familiar.",
+    "pills": [
+      "Up to $2,707.68/month",
+      "Plant ID + GIS training included",
+      "GBI — you have applied before",
+      "Fuels reduction experience"
+    ]
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-11",
+    "region": "Southwest",
+    "id": "item-915",
+    "title": "Nevada Conservation Corps Staff Crew Leader",
+    "org": "The Great Basin Institute / Nevada Conservation Corps · Las Vegas, NV",
+    "location": "Las Vegas, Nevada",
+    "deadline": "2026-09-11",
+    "pay": "$3,360–$4,160/month",
+    "stipend": "",
+    "benefits": "",
+    "badge": "Strong fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118194",
+    "url_label": "TAMU natural resources board listing 118194",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118194",
+        "label": "🔗 TAMU natural resources board listing 118194"
+      }
+    ],
+    "metaLine": "Closes Sep 11 · the LEADER tier — nearly double member pay · your NCCC term is the qualification",
+    "body": "A staff crew leader position with the Nevada Conservation Corps, an AmeriCorps programme of the Great Basin Institute, running roughly September to December 2026. Crews carry out habitat restoration, invasive species control, forestry, trail building and community conservation projects. The role supervises and mentors corps members in the field.",
+    "desc": "You have already submitted three crew-leader applications, so you clearly understand this tier is where the money is — and your AmeriCorps NCCC service is precisely the qualification these roles screen for. At $3,360 to $4,160 a month this sits alongside the best-paid service positions on your list.",
+    "pills": [
+      "$3,360–$4,160/month",
+      "Leader tier — NCCC qualifies you",
+      "Supervision experience",
+      "Closes Sep 11"
+    ]
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Southwest",
+    "id": "item-916",
+    "title": "Wildlife Biology Member — San Andres National Wildlife Refuge (USFWS)",
+    "org": "American Conservation Experience EPIC · with USFWS · Las Cruces, NM",
+    "location": "Las Cruces, New Mexico (San Andres NWR, White Sands, Fort Bliss)",
+    "deadline": "Rolling — until filled",
+    "pay": "",
+    "stipend": "$600/week living allowance",
+    "benefits": "Up to $500 relocation support",
+    "badge": "Strong fit",
+    "url": "https://usaconservation.applicantpool.com/jobs/1319260.html",
+    "url_label": "ACE EPIC application",
+    "links": [
+      {
+        "href": "https://usaconservation.applicantpool.com/jobs/1319260.html",
+        "label": "🔗 ACE EPIC application"
+      }
+    ],
+    "metaLine": "Rolling · a USFWS placement with a big multi-agency partner list · $600/wk + relocation",
+    "body": "An individual placement assisting USFWS field staff with a collaborative habitat use and abundance study of mule deer, oryx, desert bighorn sheep and barbary sheep across San Andres NWR, White Sands Missile Range and Fort Bliss. Partners include the Department of Defense, New Mexico Department of Game and Fish, NMSU, UNM, Texas A&M and USGS. The term runs 12 to 24 weeks with up to $500 relocation support.",
+    "desc": "Abundance and habitat-use studies of large mammals run on camera-trap arrays and structured survey design, both of which you have done. The partner list is the hidden value — one placement puts you in working contact with USFWS, DoD, a state agency, USGS and three universities at once.",
+    "pills": [
+      "USFWS placement",
+      "$600/week + $500 relocation",
+      "Camera-trap abundance work",
+      "Huge multi-agency partner list"
+    ]
   }
 ]
