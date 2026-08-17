@@ -40437,46 +40437,6 @@
       "label": "✨ New — August 17, 2026"
     },
     "cycle": "current",
-    "deadline_kind": "fixed",
-    "deadline_date": "2026-08-27",
-    "region": "Mountain West",
-    "id": "item-976",
-    "title": "GIS Technician — wildlife geospatial data & mobile mapping apps",
-    "org": "Wyoming Game & Fish Department · Cheyenne, WY",
-    "location": "Cheyenne, Wyoming",
-    "deadline": "2026-08-27",
-    "pay": "Starting at $27.39/hour",
-    "stipend": "",
-    "benefits": "Wyoming state benefits",
-    "badge": "Top recommendation",
-    "url": "https://www.governmentjobs.com/careers/wyoming/jobs/5413936/gis-technician-2026-01822?keywords=1822&pagetype=jobOpportunitiesJobs",
-    "url_label": "Wyoming state careers posting 2026-01822",
-    "links": [
-      {
-        "href": "https://www.governmentjobs.com/careers/wyoming/jobs/5413936/gis-technician-2026-01822?keywords=1822&pagetype=jobOpportunitiesJobs",
-        "label": "🔗 Wyoming state careers posting 2026-01822"
-      }
-    ],
-    "metaLine": "Closes Aug 27 · a PURE GIS role at a state wildlife agency · BS + 1 year",
-    "body": "Update, maintain and standardise authoritative wildlife geospatial data; produce maps for Commission-managed lands; configure web maps and mobile data-collection apps; complete metadata and workflow documentation. A bachelor's in GIS, geography, geospatial technologies or a related field is preferred, with at least one year of experience.",
-    "desc": "A dedicated GIS position at a state wildlife agency — your strongest technical skill as the entire job rather than a component of it. The BS-plus-one-year bar matches you, and configuring mobile data-collection apps is a genuinely marketable skill to add.",
-    "pills": [
-      "PURE GIS role",
-      "State wildlife agency",
-      "BS + 1 year",
-      "$27.39/hour starting"
-    ]
-  },
-  {
-    "type": "Career Position",
-    "cat": "Career Positions",
-    "src": "erin_jobs.html",
-    "src_label": "Career Positions",
-    "status": {
-      "kind": "s-new",
-      "label": "✨ New — August 17, 2026"
-    },
-    "cycle": "current",
     "deadline_kind": "rolling",
     "region": "Mountain West",
     "id": "item-977",
