@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
-<link rel="stylesheet" href="styles.css?v=20260817-854-6605057c">
+<link rel="stylesheet" href="styles.css?v=20260817-854-38c6ba4e">
 <title>Punch List &mdash; What&rsquo;s Next for Erin</title>
 <style>
 body{padding:0 0 3rem}
@@ -82,7 +82,7 @@ body{padding:0 0 3rem}
 .footer{font-size:12.5px;color:var(--t3);text-align:center;margin-top:2rem;padding-bottom:1rem}
 </style>
 <script src="icons.js?v=20260615e"></script>
-<script src="site.js?v=20260817-854-6605057c"></script>
+<script src="site.js?v=20260817-854-38c6ba4e"></script>
 </head>
 <body>
 
@@ -129,9 +129,670 @@ body{padding:0 0 3rem}
      - coverage: array of {id, title} for affected opportunities
    ═══════════════════════════════════════════════════════════ */
 var PUNCH_DATA = {
-  "updated": "August 10, 2026",
-  "basedOn": 30,
+  "updated": "August 17, 2026",
+  "basedOn": 56,
   "sections": [
+    {
+      "type": "career",
+      "label": "Career Positions",
+      "icon": "briefcase",
+      "actions": [
+        {
+          "id": "career-closing-now",
+          "rank": 1,
+          "priority": 1,
+          "title": "🚨 Four saved jobs close within the next week — two of them in the next 48 hours",
+          "detail": "You saved a lot of career positions since the last review and several are about to run out. In deadline order: <strong>Skylight Forestry Traveling Inventory Forester closes TODAY, August 17</strong>; <strong>NC Wildlife Resources Commission Green Swamp Conservation Technician I closes TOMORROW, August 18</strong>; <strong>Conservation Metrics Data Technician closes August 21</strong>; <strong>Alaska Fish &amp; Game Wildlife Biologist 1 closes August 24</strong>. The NCWRC one deserves the first hour of your attention — it is a <strong>permanent</strong> position with your home-state agency, the agency you have already saved a second role with, and permanent state wildlife jobs at technician level are exactly the foothold that turns into a career. If you can only do one thing today, do that one.",
+          "impact": "Four saved jobs that vanish within a week",
+          "effort": "2–3 hrs to apply to the top two",
+          "coverage": [
+            {
+              "id": "item-452",
+              "title": "Skylight Forestry — Traveling Inventory Forester (closes Aug 17 — TODAY)"
+            },
+            {
+              "id": "item-869",
+              "title": "NCWRC — Green Swamp Conservation Technician I, permanent (closes Aug 18)"
+            },
+            {
+              "id": "item-476",
+              "title": "Conservation Metrics — Data Technician (closes Aug 21)"
+            },
+            {
+              "id": "item-771",
+              "title": "ADF&G — Wildlife Biologist 1, Southeast Alaska (closes Aug 24)"
+            }
+          ],
+          "links": [
+            {
+              "href": "erin_applications.html",
+              "label": "Applications tracker"
+            }
+          ]
+        },
+        {
+          "id": "career-base-cv",
+          "rank": 2,
+          "priority": 1,
+          "title": "📄 Your CV is still an empty file — and it now blocks nineteen saved jobs",
+          "detail": "This is the single highest-leverage unfinished thing on the whole site. The Materials Library has a CV entry with a sensible plan in its notes — <em>lead with the capstone, then GIS coursework, then field experience</em> — but <strong>zero characters of actual content</strong>. Meanwhile your saved career list has grown to nineteen positions. Every one of them needs a resume, so the blank CV is not one task, it is nineteen tasks wearing a trenchcoat. Write it once, properly, this week: one to two pages, capstone research first, then GIS including the multi-criteria suitability work, then wetland delineation under the Army Corps manual, camera trapping and Wildlife Insights, small-mammal trapping, and the AmeriCorps NCCC term. You have done this work; it just is not written down anywhere reusable.",
+          "impact": "Unblocks all nineteen saved career positions",
+          "effort": "3–4 hrs once",
+          "coverage": [],
+          "links": [
+            {
+              "href": "erin_materials.html",
+              "label": "Materials Library"
+            },
+            {
+              "href": "erin_materials.html",
+              "label": "CV / Resume entry"
+            }
+          ]
+        },
+        {
+          "id": "career-cover-template",
+          "rank": 3,
+          "priority": 1,
+          "title": "Write the career cover-letter template — the service one proved the approach works",
+          "detail": "You have a finished service-corps cover letter and it has carried <strong>five submitted applications</strong>. The career equivalent is still empty, which is why the service side of your pipeline moves and the career side does not. Copy the structure that already works: opening paragraph naming the specific role, a paragraph on the Pigeon River capstone as evidence you can run a real sampling and analysis project, a paragraph on GIS and field methods, and a close. Leave the first paragraph obviously swappable so retargeting stays a twenty-minute job rather than a rewrite.",
+          "impact": "Makes nineteen career applications cheap instead of expensive",
+          "effort": "2 hrs once",
+          "coverage": [],
+          "links": [
+            {
+              "href": "erin_materials.html",
+              "label": "Materials Library"
+            },
+            {
+              "href": "erin_outreach.html#tab-cover-consulting",
+              "label": "Consulting cover letter draft"
+            },
+            {
+              "href": "erin_outreach.html",
+              "label": "Outreach drafts"
+            }
+          ]
+        },
+        {
+          "id": "career-tracker-gap",
+          "rank": 4,
+          "priority": 1,
+          "title": "⚠️ Twenty-six of your fifty-six saved items have no application card at all",
+          "detail": "Your tracker holds 32 application cards but you have saved 56 opportunities — so <strong>26 saved items exist nowhere in the Applications tracker or the Pipeline board</strong>. Everything you saved recently is in that gap, including every one of the closing-this-week jobs above and all nine of the newly saved graduate programs. This matters because the Pipeline board is what tells you what is actually in flight; if an item is not on it, it is functionally invisible and you will find it again by accident or not at all. Open My List and create cards for the ones you genuinely intend to pursue — you do not need all 26, but you do need every item with a deadline inside the next two months.",
+          "impact": "Makes the tracker reflect reality again",
+          "effort": "30–40 min",
+          "coverage": [],
+          "links": [
+            {
+              "href": "erin_mylist.html",
+              "label": "My List"
+            },
+            {
+              "href": "erin_applications.html",
+              "label": "Applications tracker"
+            },
+            {
+              "href": "erin_pipeline.html",
+              "label": "Pipeline board"
+            }
+          ]
+        },
+        {
+          "id": "career-missed-window",
+          "rank": 5,
+          "priority": 2,
+          "title": "Three saved jobs closed while they sat unactioned — set alerts so the reposts reach you",
+          "detail": "These closed on August 13 and 14: <strong>NYS Parks Biologist 1 via NY HELPS</strong>, <strong>USFWS Sacramento Fish &amp; Wildlife Biologist GS-7/9/11</strong>, and <strong>NY DEC Fish &amp; Wildlife Technician 1, Allegany</strong>. That is not a disaster, because all three are recurring: NY HELPS is a standing hiring programme where a BS substitutes for four years of experience, NY DEC reposts technician roles regularly, and USFWS reposts biologist vacancies constantly. The fix is structural rather than remedial — set a <strong>USAJOBS saved search</strong> for series 0401/0404/0486 at GS-05 to GS-09, and a NY HELPS alert. Then these arrive while they are still open instead of after.",
+          "impact": "Stops the same three roles being missed again",
+          "effort": "30 min to set all the alerts",
+          "coverage": [
+            {
+              "id": "item-784",
+              "title": "NYS Parks — Biologist 1 / Trainee (NY HELPS, closed Aug 13)"
+            },
+            {
+              "id": "item-751",
+              "title": "USFWS Sacramento — Fish & Wildlife Biologist (closed Aug 13)"
+            },
+            {
+              "id": "item-786",
+              "title": "NY DEC — Fish & Wildlife Technician 1, Allegany (closed Aug 14)"
+            }
+          ],
+          "links": [
+            {
+              "href": "https://www.usajobs.gov/",
+              "label": "USAJOBS saved searches"
+            }
+          ]
+        },
+        {
+          "id": "career-federal-resume",
+          "rank": 6,
+          "priority": 2,
+          "title": "Build the USAJOBS federal resume — it is a different document, and it is what the federal track needs",
+          "detail": "A federal resume is not a normal resume: it wants hours per week, month-and-year dates, supervisor contacts and long explicit duty descriptions, and a normal one-page CV gets screened out for missing them. You are aiming at USFWS and USDA work, you already have USFWS-partnered applications in flight, and you have saved both a USDA-APHIS role and a USFWS technician role — so this document is on the critical path rather than optional. Build it once in the USAJOBS resume builder and it is reusable forever.",
+          "impact": "Required for every federal application you make",
+          "effort": "3 hrs once",
+          "coverage": [],
+          "links": [
+            {
+              "href": "erin_outreach.html#tab-federal-resume",
+              "label": "Federal resume guidance"
+            },
+            {
+              "href": "https://www.usajobs.gov/",
+              "label": "USAJOBS resume builder"
+            }
+          ]
+        },
+        {
+          "id": "career-869",
+          "rank": 7,
+          "priority": 1,
+          "title": "NCWRC Green Swamp Conservation Technician I — permanent, home state, closes August 18",
+          "detail": "Treated separately from the closing-soon cluster because it is the best of them. A <strong>permanent</strong> technician post with the North Carolina Wildlife Resources Commission, on a game land, in the state where you studied and did your capstone. Permanent state technician roles are the classic entry point into an agency career, and you have already saved a second NCWRC role, so this is an agency you clearly want. Apply today or tomorrow — do not let this be a fourth missed deadline.",
+          "impact": "Permanent role with your target home-state agency",
+          "effort": "1.5 hrs",
+          "coverage": [
+            {
+              "id": "item-869",
+              "title": "NCWRC — Green Swamp Conservation Technician I (closes Aug 18)"
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "career-597",
+          "rank": 8,
+          "priority": 2,
+          "title": "Tangled Bank Conservation, Asheville — camera traps and eDNA, in your own back yard",
+          "detail": "Closes <strong>September 15</strong>, and it may be the tightest skills match of any job on your list: camera-trap arrays and eDNA sampling, based in Asheville. You have documented camera-trap monitoring experience including Wildlife Insights, which is exactly the software layer most applicants lack. Being local also removes the relocation question entirely.",
+          "impact": "Closest skills-to-posting match on the career list",
+          "effort": "2 hrs",
+          "coverage": [
+            {
+              "id": "item-597",
+              "title": "Tangled Bank Conservation — Wildlife Conservation Technician (Sep 15)"
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "career-573",
+          "rank": 9,
+          "priority": 2,
+          "title": "USDA-APHIS Wildlife Services biological science technician — rolling to September 30",
+          "detail": "A rolling federal-adjacent posting open until <strong>September 30</strong>, which gives you room to apply properly rather than in a rush. APHIS Wildlife Services is a genuine USDA foothold and the technician grade is written for people at your stage. This is the natural first use of the federal resume above.",
+          "impact": "Direct USDA entry point",
+          "effort": "2 hrs after the federal resume exists",
+          "coverage": [
+            {
+              "id": "item-573",
+              "title": "USDA-APHIS Wildlife Services — Bio Sci Tech (Sep 30)"
+            }
+          ],
+          "links": [
+            {
+              "href": "erin_outreach.html#tab-federal-resume",
+              "label": "Federal resume guidance"
+            }
+          ]
+        },
+        {
+          "id": "career-030",
+          "rank": 10,
+          "priority": 2,
+          "title": "USFWS Biological Science Technician GS-0404 — the standing route into your target agency",
+          "detail": "GS-0404 is the classic USFWS technician series and the single most common way people enter the agency you are aiming at. The card is rolling, so the real action is a <strong>USAJOBS saved search on series 0404 at GS-05 to GS-09</strong> rather than a one-off application — vacancies open and close in short windows, and an alert is the only reliable way to catch them.",
+          "impact": "Standing coverage of your primary target agency",
+          "effort": "20 min to set the search",
+          "coverage": [
+            {
+              "id": "item-030",
+              "title": "USFWS — Biological Science Technician (GS-0404)"
+            }
+          ],
+          "links": [
+            {
+              "href": "https://www.usajobs.gov/",
+              "label": "USAJOBS saved searches"
+            }
+          ]
+        },
+        {
+          "id": "career-033",
+          "rank": 11,
+          "priority": 2,
+          "title": "NCWRC Wildlife Biologist I / Wildlife Technician — pair it with the Green Swamp application",
+          "detail": "Your second saved North Carolina Wildlife Resources Commission role. Since you are applying to Green Swamp this week anyway, check whether this one is currently posted — NC state jobs now live on <strong>Workday</strong> rather than governmentjobs.com, so an old bookmark may look empty when the role is in fact open. One trip to their careers site covers both.",
+          "impact": "Second shot at your home-state agency",
+          "effort": "45 min alongside Green Swamp",
+          "coverage": [
+            {
+              "id": "item-033",
+              "title": "NCWRC — Wildlife Biologist I / Wildlife Technician"
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "career-383",
+          "rank": 12,
+          "priority": 2,
+          "title": "Insignia Environmental desert tortoise biologist — $50–$55/hour, closes September 2",
+          "detail": "By some distance the highest hourly rate on your saved list. Qualified-biologist monitor roles normally want species-specific permitting experience, so read the requirements honestly before investing time — but at that rate it is worth the twenty minutes to find out, and consultancy monitoring work is a fast way to accumulate the field hours that permits require.",
+          "impact": "Highest-paying saved role by a wide margin",
+          "effort": "20 min to screen, 2 hrs to apply",
+          "coverage": [
+            {
+              "id": "item-383",
+              "title": "Insignia Environmental — Desert Tortoise Biologist ($50–55/hr, Sep 2)"
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "career-697",
+          "rank": 13,
+          "priority": 2,
+          "title": "Kansas wetland/wildlife technician, Marais des Cygnes — wetlands stated outright, closes October 1",
+          "detail": "A state wildlife-area technician role that names <strong>wetland</strong> work explicitly, which is unusual and directly matches your Army Corps delineation training. October 1 gives you time to apply after the CV is written, so slot this in behind the base documents rather than rushing it now.",
+          "impact": "Direct use of your wetland delineation training",
+          "effort": "2 hrs",
+          "coverage": [
+            {
+              "id": "item-697",
+              "title": "Kansas Dept. of Wildlife & Parks — Marais des Cygnes (Oct 1)"
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "career-593",
+          "rank": 14,
+          "priority": 2,
+          "title": "Aquatic Environmental Services fisheries technician — the posting explicitly welcomes entry level",
+          "detail": "Electrofishing survey work, open until <strong>December 31</strong>, and the listing states outright that it is entry-level — which removes the usual guessing game about whether you clear the bar. Long window, low risk, real field experience in aquatic sampling to sit alongside your sediment work.",
+          "impact": "Low-barrier aquatic field experience",
+          "effort": "1.5 hrs",
+          "coverage": [
+            {
+              "id": "item-593",
+              "title": "Aquatic Environmental Services — Fisheries Technician (Dec 31)"
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "career-287",
+          "rank": 15,
+          "priority": 3,
+          "title": "Connecticut DEEP seasonal jobs — one application, several programme areas",
+          "detail": "Open until <strong>December 4</strong> and spanning wildlife, fisheries and water protection, so a single application reaches several parts of the agency. Seasonal state work is a normal and effective bridge year, and water protection in particular lines up with your capstone.",
+          "impact": "One application, multiple agency programmes",
+          "effort": "1.5 hrs",
+          "coverage": [
+            {
+              "id": "item-287",
+              "title": "CT DEEP — 2026 Seasonal Jobs (Dec 4)"
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "career-854",
+          "rank": 16,
+          "priority": 3,
+          "title": "Center for Environmental Health field technician — permanent and entry-level, closes October 31",
+          "detail": "A permanent conservation field technician role explicitly pitched at entry level, with a long application window. Worth a proper application once the CV exists — permanent beats seasonal for building the continuous experience that federal and grad applications both reward.",
+          "impact": "Permanent entry-level field role",
+          "effort": "1.5 hrs",
+          "coverage": [
+            {
+              "id": "item-854",
+              "title": "Center for Environmental Health — Field Technician (Oct 31)"
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "career-748",
+          "rank": 17,
+          "priority": 3,
+          "title": "Bio Logical wildlife technician / construction monitor, Las Vegas — closes November 27",
+          "detail": "Construction monitoring is steady consultancy work and a common way into the private environmental sector. Long deadline, so this is a good candidate for a batch application session once your CV and career cover letter are both written.",
+          "impact": "Private-sector consultancy entry point",
+          "effort": "1.5 hrs",
+          "coverage": [
+            {
+              "id": "item-748",
+              "title": "Bio Logical — Wildlife Technician / Construction Monitor (Nov 27)"
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "career-496",
+          "rank": 18,
+          "priority": 3,
+          "title": "Hawks Aloft educator / naturalist, Albuquerque — closes October 1",
+          "detail": "Avian research combined with raptor husbandry and education. A slight step sideways from your core water-and-wetlands focus, but it is real applied wildlife work with a respected organisation, and outreach experience is genuinely useful on both grad and agency applications.",
+          "impact": "Applied wildlife and outreach experience",
+          "effort": "1.5 hrs",
+          "coverage": [
+            {
+              "id": "item-496",
+              "title": "Hawks Aloft — Educator / Naturalist (Oct 1)"
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "career-250",
+          "rank": 19,
+          "priority": 3,
+          "title": "RI DEM New England cottontail trapping technician — rolling, and small-mammal trapping is literally your skill",
+          "detail": "You have documented <strong>small-mammal trapping</strong> experience, and this role is small-mammal trapping. Rolling means no deadline pressure but also no prompt, so it will drift unless you deliberately schedule it. Verify it is still recruiting before writing anything.",
+          "impact": "Named match to a documented field skill",
+          "effort": "1 hr",
+          "coverage": [
+            {
+              "id": "item-250",
+              "title": "RI DEM — New England Cottontail Trapping Technician (rolling)"
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "career-476",
+          "rank": 20,
+          "priority": 2,
+          "title": "Conservation Metrics data technician — automated wildlife monitoring, closes August 21",
+          "detail": "Automated wildlife monitoring data work, closing <strong>August 21</strong>. Your camera-trap and Wildlife Insights experience is directly relevant, and this is a more data-and-analysis flavoured role than most of your list — useful range to have if you are weighing grad school, because it demonstrates the quantitative side.",
+          "impact": "Data-analysis experience with directly relevant tooling",
+          "effort": "2 hrs",
+          "coverage": [
+            {
+              "id": "item-476",
+              "title": "Conservation Metrics — Data Technician (Aug 21)"
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "career-771",
+          "rank": 21,
+          "priority": 2,
+          "title": "Alaska Fish & Game Wildlife Biologist 1, Southeast Alaska — closes August 24",
+          "detail": "A <strong>biologist</strong> title rather than technician, at grade 1, with a state agency — that title matters on a CV and Wildlife Biologist 1 is written for people at your stage. Southeast Alaska is a serious relocation, so decide honestly whether you would go before spending two hours on it; if the answer is yes, the deadline is August 24.",
+          "impact": "Biologist-titled state role at entry grade",
+          "effort": "2 hrs",
+          "coverage": [
+            {
+              "id": "item-771",
+              "title": "ADF&G — Wildlife Biologist 1, Southeast Alaska (Aug 24)"
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "career-452",
+          "rank": 22,
+          "priority": 1,
+          "title": "Skylight Forestry traveling inventory forester — closes TODAY",
+          "detail": "Listed separately because it expires today and therefore either happens in the next few hours or does not happen at all. Travelling forest-inventory work is field-heavy and hires at entry level. If your CV is not ready, a plain well-written email with your transcript and a short summary of your field experience is better than not applying — but only if you send it today.",
+          "impact": "Expires today",
+          "effort": "1 hr, today",
+          "coverage": [
+            {
+              "id": "item-452",
+              "title": "Skylight Forestry — Traveling Inventory Forester (closes Aug 17)"
+            }
+          ],
+          "links": []
+        }
+      ]
+    },
+    {
+      "type": "grad",
+      "label": "Funded Graduate Programs",
+      "icon": "grad",
+      "actions": [
+        {
+          "id": "grad-130",
+          "rank": 1,
+          "priority": 1,
+          "title": "⏰ Eastern Illinois funded MS closes August 19 — two days away",
+          "detail": "A funded fisheries and aquatic MS through the Center for Fisheries, closing <strong>August 19</strong>. This is the nearest graduate deadline you have and it is effectively now. Funded assistantships cover tuition and pay a stipend, so the real cost of applying is your time rather than money. If the full application cannot be assembled in two days, <strong>email the faculty contact today</strong> — a short, specific message explaining your background and asking whether late materials are acceptable is normal in this field and often works, because assistantship deadlines are frequently softer than posted.",
+          "impact": "Your nearest funded grad deadline",
+          "effort": "1 hr for the email, more if you apply in full",
+          "coverage": [
+            {
+              "id": "item-130",
+              "title": "Eastern Illinois University — Funded MS, Fisheries & Aquatic (Aug 19)"
+            }
+          ],
+          "links": [
+            {
+              "href": "erin_outreach.html",
+              "label": "Outreach drafts"
+            }
+          ]
+        },
+        {
+          "id": "grad-base-sop",
+          "rank": 2,
+          "priority": 1,
+          "title": "📝 The Statement of Purpose is still empty — and autumn application season starts in two weeks",
+          "detail": "Like the CV, this Materials Library entry has a good plan in its notes and <strong>no content</strong>. The plan is right: tailor the opening and the specific-fit paragraph per programme, keep the Pigeon River and Hurricane Helene work at the centre. Write the reusable 70% now — who you are, what the capstone actually involved and found, what methods you can run unsupervised, and what you want to study next — and leave the programme-specific paragraph as a clearly marked gap. You have <strong>sixteen saved graduate programmes</strong> and the September-to-December window is when almost all of them decide. Going into that window without a base SOP means writing from scratch sixteen times.",
+          "impact": "Unblocks all sixteen saved graduate programmes",
+          "effort": "4–5 hrs once",
+          "coverage": [],
+          "links": [
+            {
+              "href": "erin_materials.html",
+              "label": "Materials Library"
+            },
+            {
+              "href": "erin_outreach.html#tab-sop",
+              "label": "SOP draft and guidance"
+            }
+          ]
+        },
+        {
+          "id": "grad-recommenders",
+          "rank": 3,
+          "priority": 1,
+          "title": "Ask your three recommenders now — before everyone else in your cohort does",
+          "detail": "Recommendation letters are the one part of a graduate application you do not control, and they are the most common reason applications miss deadlines. Ask now, in mid-August, while faculty inboxes are still calm: WCU faculty who supervised the Pigeon River capstone, plus an AmeriCorps NCCC supervisor for the field-and-teamwork angle. Give each of them your CV, a short summary of the capstone, the programme list and the deadlines, and make it easy to say yes. Then log them in the reference tracker so you can see at a glance who has agreed and who has actually submitted.",
+          "impact": "Gates every one of the sixteen graduate applications",
+          "effort": "1 hr to send all three asks",
+          "coverage": [],
+          "links": [
+            {
+              "href": "erin_reftracker.html",
+              "label": "Reference tracker"
+            },
+            {
+              "href": "erin_outreach.html#tab-recommender-ask",
+              "label": "Recommender ask template"
+            }
+          ]
+        },
+        {
+          "id": "grad-autumn-window",
+          "rank": 4,
+          "priority": 1,
+          "title": "🍂 Autumn is assistantship season — three of your saved programmes have hard dates",
+          "detail": "Funded assistantship postings cluster from late August through November, so the next ten weeks are the highest-yield stretch of your entire year for graduate applications. Three saved programmes now carry firm deadlines: <strong>University of Louisiana Monroe, spatial ecology, October 31</strong>; <strong>University of Washington School of Environmental &amp; Forest Sciences, November 15</strong>; <strong>Marshall University, climate change and fire effects on coastal vegetation, December 7</strong>. Also worth putting in the calendar: the <strong>NSF GRFP</strong> deadline falls in late October and you are eligible as a recent BS graduate — it is a long shot for anyone, but the application forces you to write the research statement you need anyway. Check the Texas A&M natural resources board weekly through this window; it is the most reliable source of new assistantship postings.",
+          "impact": "Structures the highest-yield ten weeks of your year",
+          "effort": "30 min to calendar it, then weekly checks",
+          "coverage": [
+            {
+              "id": "item-615",
+              "title": "U Louisiana Monroe — Funded MS, spatial ecology (Oct 31)"
+            },
+            {
+              "id": "item-263",
+              "title": "University of Washington — MS, SEFS (Nov 15)"
+            },
+            {
+              "id": "item-509",
+              "title": "Marshall University — Funded MS, climate & fire (Dec 7)"
+            }
+          ],
+          "links": [
+            {
+              "href": "https://jobs.rwfm.tamu.edu/",
+              "label": "Texas A&M natural resources board"
+            },
+            {
+              "href": "https://www.nsfgrfp.org/",
+              "label": "NSF GRFP"
+            }
+          ]
+        },
+        {
+          "id": "grad-contact-first",
+          "rank": 5,
+          "priority": 2,
+          "title": "Seven saved programmes are \"contact first\" — that is an email, not an application",
+          "detail": "A large share of your saved graduate list does not have an application form to fill in at all; the route is an email to a specific faculty member, and the assistantship exists only if someone wants to fund you. Those seven are <strong>Oregon State, University of Hawaiʻi at Hilo, University of Alaska Fairbanks / UH Mānoa, Sul Ross Borderlands Research Institute playa lake restoration, the USGS Cooperative Research Units pipeline, the Chesapeake Research Consortium programme, and SUNY-ESF fish and wetland ecology</strong>. Write one good enquiry email and adapt it: two sentences on who you are, one paragraph on the capstone with an actual finding in it, one sentence on why <em>their</em> work specifically, and a direct question about whether they are taking funded students for autumn 2027. Send them in a batch — the marginal cost after the first is small.",
+          "impact": "Seven programmes that only open via a direct email",
+          "effort": "2 hrs for the first, 15 min each after",
+          "coverage": [
+            {
+              "id": "item-266",
+              "title": "Oregon State — MS Fisheries, Wildlife & Conservation Sciences"
+            },
+            {
+              "id": "item-169",
+              "title": "U Hawaiʻi at Hilo — MS Tropical Conservation Biology"
+            },
+            {
+              "id": "item-291",
+              "title": "UAF Wildlife Biology / UH Mānoa assistantships"
+            },
+            {
+              "id": "item-302",
+              "title": "Sul Ross Borderlands — Funded MS, Playa Lake Restoration"
+            },
+            {
+              "id": "item-667",
+              "title": "USGS Cooperative Research Units — funded MS pipeline"
+            },
+            {
+              "id": "item-369",
+              "title": "Chesapeake Research Consortium — Env. Management Career Development"
+            },
+            {
+              "id": "item-117",
+              "title": "SUNY-ESF — Funded MS/PhD, Fish & Wetland Ecology"
+            }
+          ],
+          "links": [
+            {
+              "href": "erin_outreach.html",
+              "label": "Outreach drafts"
+            },
+            {
+              "href": "erin_proftracker.html",
+              "label": "Professor tracker"
+            }
+          ]
+        },
+        {
+          "id": "grad-302",
+          "rank": 6,
+          "priority": 2,
+          "title": "Sul Ross playa lake restoration MS — wetland restoration assessment, which is your exact training",
+          "detail": "Singled out from the contact-first group because the topic match is unusually close: playa lakes are wetlands, and the project is a restoration <em>assessment</em>, which is delineation and monitoring work rather than pure ecology. Your Army Corps delineation training and GIS suitability modelling are both directly usable. Put this near the top of the enquiry-email batch.",
+          "impact": "Closest topical match among the funded MS options",
+          "effort": "30 min once the template exists",
+          "coverage": [
+            {
+              "id": "item-302",
+              "title": "Borderlands Research Institute / Sul Ross — Playa Lake Restoration MS"
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "grad-667",
+          "rank": 7,
+          "priority": 2,
+          "title": "USGS Cooperative Research Units — one pipeline, many funded assistantships, and a federal foot in the door",
+          "detail": "Coop Units are USGS-run research units embedded in universities across the country, and their assistantships are federally connected in a way that matters for the USFWS and USDA track you are building toward. This is a <em>pipeline</em> card rather than a single posting, so the action is to work through the unit list, identify the three or four whose research touches water quality, wetlands or contaminants, and email those unit leaders directly.",
+          "impact": "Federally connected route into funded graduate work",
+          "effort": "2 hrs to shortlist and email",
+          "coverage": [
+            {
+              "id": "item-667",
+              "title": "USGS Cooperative Fish & Wildlife Research Units"
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "grad-006",
+          "rank": 8,
+          "priority": 2,
+          "title": "Clemson Elmore Lab, bird response to Hurricane Helene — the same storm as your capstone",
+          "detail": "A Clemson lab studying <strong>Hurricane Helene</strong> effects, when your undergraduate capstone was Helene-driven trace-metal contamination in the Pigeon River. Very few applicants can say they already have field data from that storm. Even if the taxa differ, the storm-response framing is shared and that is a genuinely memorable opening line for an enquiry email.",
+          "impact": "A rare and specific shared research context",
+          "effort": "45 min for a strong tailored email",
+          "coverage": [
+            {
+              "id": "item-006",
+              "title": "Clemson University — Elmore Lab, bird response to Helene"
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "grad-092-116",
+          "rank": 9,
+          "priority": 2,
+          "title": "The two Texas A&M water programmes — one enquiry trip covers both",
+          "detail": "You have saved <strong>Texas A&M–Kingsville watershed restoration</strong> and the <strong>Texas A&M Natural Resources Institute freshwater programme</strong>. Both are rolling or recruiting continuously, both are water-focused, and both sit within the same university system, so researching and emailing them together costs barely more than doing one. Water quality is the strongest thread running through your capstone, so these deserve real effort rather than a form email.",
+          "impact": "Two water-focused funded programmes at once",
+          "effort": "1.5 hrs for both",
+          "coverage": [
+            {
+              "id": "item-092",
+              "title": "Texas A&M–Kingsville — Funded MS, Watershed Restoration"
+            },
+            {
+              "id": "item-116",
+              "title": "Texas A&M Natural Resources Institute — Funded MS/PhD, Freshwater"
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "grad-050-049",
+          "rank": 10,
+          "priority": 3,
+          "title": "Colorado State and Mississippi State — confirm the next intake dates before writing anything",
+          "detail": "Both are saved as next-cycle programmes without firm current deadlines, so the useful action is small: find out when each actually opens and put those dates in the calendar. Colorado State Ecosystem Science &amp; Sustainability runs multiple tracks and Mississippi State covers wildlife, fisheries and aquaculture — both broad enough to fit you, but neither is worth drafting for until you know the window.",
+          "impact": "Pins down two otherwise vague programmes",
+          "effort": "30 min",
+          "coverage": [
+            {
+              "id": "item-050",
+              "title": "Colorado State — Ecosystem Science & Sustainability"
+            },
+            {
+              "id": "item-049",
+              "title": "Mississippi State — Wildlife, Fisheries & Aquaculture"
+            }
+          ],
+          "links": []
+        }
+      ]
+    },
     {
       "type": "service",
       "label": "Service & Fellowships",
@@ -141,30 +802,30 @@ var PUNCH_DATA = {
           "id": "service-followup-submitted",
           "rank": 1,
           "priority": 1,
-          "title": "🎉 FIVE applications are now submitted — log the confirmation numbers and set your follow-up dates",
-          "detail": "This is a real change since last week: you have gone from two submitted applications to <strong>five</strong> — Great Basin Institute / BLM Rock Springs, ACE EPIC / USFWS Trinity River, and now <strong>three Conservation Legacy crew-leader roles</strong> (Old Fort NC trail crew, Old Fort NC vegetation management, and Shenandoah Valley). All three of the new ones are <strong>crew-leader tier at $925–$1,125 per week</strong>, which is the highest-paying corps band and the one your AmeriCorps NCCC term actually qualifies you for. Two things finish the job properly: open each tracker card and paste in the <strong>portal URL and any confirmation-email reference number</strong> (all five cards currently have those fields empty), then set follow-up reminders — <strong>around August 12</strong> for the two July applications, and <strong>early September</strong> for the three crew-leader roles, whose deadlines are August 3, 20 and 24. A short, polite status check about two weeks after a deadline passes is normal and expected, not pushy.",
-          "impact": "Protects all five applications you have already submitted",
-          "effort": "25 min now, 10 min per follow-up date",
+          "title": "📞 Your five submitted applications are now 3–7 weeks old — this is the week to chase them",
+          "detail": "Nothing has changed in the tracker since August 3: still <strong>five submitted, five with empty portal-URL and confirmation fields</strong>. But the clock has moved. Great Basin Institute / BLM Rock Springs and ACE EPIC / Trinity River were submitted <strong>July 24 and 25 — over three weeks ago</strong>, and both closed July 29. A polite status check is now firmly expected rather than early. The three Conservation Legacy crew-leader roles are closer to their deadlines (Old Fort trail crew closes <strong>August 20</strong>, Old Fort vegetation <strong>August 24</strong>, Shenandoah already closed August 3), so chase Shenandoah now and the two Old Fort roles in early September. Two concrete jobs: open each of the five tracker cards and paste in the <strong>portal URL and confirmation reference</strong> so you can find them again, then send the three overdue follow-ups. Keep them to three sentences — who you are, what you applied for and when, and a question about timeline.",
+          "impact": "Protects all five applications already in flight",
+          "effort": "25 min of logging, 10 min per email",
           "coverage": [
             {
               "id": "item-156",
-              "title": "GBI / BLM Rock Springs — Ecological Monitoring Tech (submitted Jul 24)"
+              "title": "GBI / BLM Rock Springs (submitted Jul 24 — chase now)"
             },
             {
               "id": "item-309",
-              "title": "ACE EPIC / USFWS Trinity River (submitted Jul 25)"
-            },
-            {
-              "id": "item-610",
-              "title": "CCNC Helene Recovery Trail Crew Leader, Old Fort NC (submitted · closes Aug 20)"
-            },
-            {
-              "id": "item-608",
-              "title": "CCNC Helene Recovery Vegetation Management Crew Leader, Old Fort NC (submitted · closes Aug 24)"
+              "title": "ACE EPIC / USFWS Trinity River (submitted Jul 25 — chase now)"
             },
             {
               "id": "item-187",
-              "title": "ACC Fall Staff Crew Leader, Shenandoah Valley (submitted · closed Aug 3)"
+              "title": "ACC Fall Staff Crew Leader, Shenandoah (closed Aug 3 — chase now)"
+            },
+            {
+              "id": "item-610",
+              "title": "CCNC Helene Trail Crew Leader, Old Fort NC (closes Aug 20)"
+            },
+            {
+              "id": "item-608",
+              "title": "CCNC Helene Vegetation Crew Leader, Old Fort NC (closes Aug 24)"
             }
           ],
           "links": [
@@ -179,17 +840,38 @@ var PUNCH_DATA = {
           ]
         },
         {
-          "id": "service-309-rolling",
+          "id": "service-127",
           "rank": 2,
           "priority": 1,
-          "title": "ACE EPIC — the Aransas and Attwater placements are still rolling, so apply to those too",
-          "detail": "Trinity River is submitted, but that posting was only one of four in the same ACE EPIC group and <strong>the other three have no July 29 cutoff</strong>. Two are worth a second application on their own merits: <strong>Aransas Energy &amp; Minerals pays $805 per week plus up to $125 per week housing reimbursement</strong> — the best-paying placement on your whole list — and <strong>Attwater Prairie Chicken asks for Field Maps and Survey123</strong>, which is the most direct GIS match of the four. All of them carry the same Public Land Corps hiring authority, so each one is a separate shot at non-competitive federal eligibility. Your Trinity River cover letter needs only light retargeting.",
-          "impact": "Three more shots at Public Land Corps federal eligibility",
-          "effort": "1 hr (the cover letter is already written)",
+          "title": "⏰ Big Sky Watershed Corps — the next-term window should be OPEN now, check it this week",
+          "detail": "Last week this was \"opening this month\". It is now <strong>mid-August</strong>, which is exactly when the card says next-term recruitment opens. This remains the strongest watershed-and-GIS corps position on your entire list — host sites are Montana conservation districts, tribes and watershed nonprofits, and the living allowance runs about <strong>$1,200 biweekly</strong>. Go look at the Montana Conservation Corps board now. If the posting is not up yet, set the \"Get Notified\" alert rather than planning to check back, because the good host sites are claimed early and a mid-cycle application gets whatever is left.",
+          "impact": "Best watershed/GIS service fit on the list",
+          "effort": "15 min to check and set the alert",
+          "coverage": [
+            {
+              "id": "item-127",
+              "title": "Big Sky Watershed Corps — next term"
+            }
+          ],
+          "links": [
+            {
+              "href": "https://www.mtcorps.org/joinmcc/open-positions/current-open-positions.html",
+              "label": "MCC open positions board"
+            }
+          ]
+        },
+        {
+          "id": "service-309-rolling",
+          "rank": 3,
+          "priority": 1,
+          "title": "ACE EPIC — Aransas and Attwater are still rolling, and your cover letter is already written",
+          "detail": "Trinity River is submitted, but it was one of four placements in the same ACE EPIC group and <strong>the others carry no July 29 cutoff</strong>. Two deserve their own application: <strong>Aransas Energy &amp; Minerals at $805 per week plus up to $125 per week housing reimbursement</strong> is the best-paid placement anywhere on your list, and <strong>Attwater Prairie Chicken names Field Maps and Survey123</strong>, the most direct GIS match of the four. All carry the same <strong>Public Land Corps hiring authority</strong>, so each is a separate route to non-competitive federal eligibility — which is the thing you are actually building toward. Your Trinity River letter needs only light retargeting.",
+          "impact": "Two more shots at Public Land Corps federal eligibility",
+          "effort": "1 hr — the base letter exists",
           "coverage": [
             {
               "id": "item-309",
-              "title": "ACE EPIC / USFWS — Aransas & Attwater placements (rolling)"
+              "title": "ACE EPIC / USFWS — Aransas & Attwater (rolling)"
             }
           ],
           "links": [
@@ -208,68 +890,43 @@ var PUNCH_DATA = {
           ]
         },
         {
-          "id": "service-127",
-          "rank": 3,
-          "priority": 1,
-          "title": "⏰ Big Sky Watershed Corps — the next-term window is opening NOW: check the board this week",
-          "detail": "This one has moved from \"set a reminder\" to \"go look\". The card says next-term recruitment opens <strong>around August 2026</strong> — that is this month. It is the strongest watershed-and-GIS-flavoured corps position on your whole list, host sites sit with Montana conservation districts, tribes and watershed nonprofits, and the living allowance is about $1,200 biweekly. Check the Montana Conservation Corps board now, and if the posting is not up yet, use the \"Get Notified\" alert so it reaches you on day one instead of mid-cycle when the good host sites are already claimed.",
-          "impact": "Best watershed/GIS corps fit — window opening this month",
-          "effort": "15 min to check the board and set the alert",
-          "coverage": [
-            {
-              "id": "item-127",
-              "title": "Big Sky Watershed Corps Member"
-            }
-          ],
-          "links": [
-            {
-              "href": "erin_outreach.html#tab-cover-service",
-              "label": "Service cover letter draft"
-            }
-          ]
-        },
-        {
           "id": "service-039",
           "rank": 4,
           "priority": 1,
-          "title": "Sustainability Institute SC (item-039): finish and send the cover letter",
-          "detail": "Starred, saved, and rolling — which means it has been sitting in the ready-to-send state longest. Rolling applications reward early submission because crews fill as they go. Your base service cover letter is already drafted in the Materials Library; this needs a tailoring pass on the Lowcountry restoration angle and then it can go.",
-          "impact": "Rolling — earlier submission means better crew placement",
-          "effort": "45 min to tailor and send",
+          "title": "The Sustainability Institute is your only application still sitting at \"Gathering\" — finish it or close it",
+          "detail": "This is the single card in your tracker stuck between \"not started\" and \"submitted\", and it is <strong>starred</strong>, so at some point you rated it highly. A card parked at Gathering usually means one specific thing is missing. Open it, write down in the notes field exactly what that thing is, and then either finish it this week or move it to not-interested. Either outcome is better than leaving it half-done — a stalled card quietly costs you attention every time you look at the board.",
+          "impact": "Clears the only stalled card in the tracker",
+          "effort": "30 min to finish, 1 min to close",
           "coverage": [
             {
               "id": "item-039",
-              "title": "Environmental Conservation Corps — Sustainability Institute"
+              "title": "Sustainability Institute — Environmental Conservation Corps"
             }
           ],
           "links": [
             {
-              "href": "erin_outreach.html#tab-cover-service",
-              "label": "Service cover letter draft"
+              "href": "erin_applications.html",
+              "label": "Applications tracker"
             }
           ]
         },
         {
           "id": "service-cover-base",
           "rank": 5,
-          "priority": 3,
-          "title": "✅ Base service-corps cover letter is WRITTEN — now reuse it instead of starting from scratch",
-          "detail": "This was the blocking item for months and it is <strong>done</strong>: the Materials Library service-corps cover letter now holds a real drafted letter, not an empty field. That is almost certainly why three crew-leader applications went out in the last week. The remaining work is not writing — it is <strong>reuse discipline</strong>. For each corps application below, copy the base letter and change only the opening paragraph (the specific host site and landscape) and one skills sentence. Anything more than a twenty-minute tailoring pass means you are rewriting a letter you have already written.",
-          "impact": "Already unblocking every corps application on this list",
-          "effort": "~20 min of tailoring per application, no new writing",
-          "coverage": [
-            {
-              "title": "Shared across all service & corps applications"
-            }
-          ],
+          "priority": 2,
+          "title": "✅ Your base service-corps cover letter is written — now make retargeting it a 20-minute job",
+          "detail": "The 2,043-character service cover letter in the Materials Library is <strong>done</strong>, and it has already carried five submitted applications. Worth protecting and reusing deliberately: it is the reason the ACE rolling placements and any new corps posting are cheap for you to apply to, while every career position and grad program below still costs you a blank page. Keep one clean master copy and only ever edit a duplicate, so a bad retarget can never eat the original.",
+          "impact": "Underpins every service application you send",
+          "effort": "10 min to organise",
+          "coverage": [],
           "links": [
-            {
-              "href": "erin_outreach.html#tab-cover-service",
-              "label": "Service cover letter draft"
-            },
             {
               "href": "erin_materials.html",
               "label": "Materials Library"
+            },
+            {
+              "href": "erin_outreach.html#tab-cover-service",
+              "label": "Service cover letter draft"
             }
           ]
         },
@@ -277,10 +934,10 @@ var PUNCH_DATA = {
           "id": "service-135",
           "rank": 6,
           "priority": 2,
-          "title": "Montana Conservation Corps — set the \"Get Notified\" alert for the 2027 intake",
-          "detail": "You starred this as a source card rather than a single posting, which is the right way to use it. MCC roles post continuously and many 2026 positions filled early. Setting the notification alert now means the 2027 roles reach you the day they post instead of after the good host sites are gone.",
-          "impact": "Standing pipeline into all future MCC roles",
-          "effort": "10 min",
+          "title": "Montana Conservation Corps — set the board alert rather than checking manually",
+          "detail": "This is your saved <em>source</em> card rather than a single posting: MCC roles appear on the open-positions board throughout the year and many 2026 roles filled early. Set the \"Get Notified\" alert so next season reaches you on day one. It also pairs with Big Sky Watershed Corps above — both run through MCC, so one alert covers a lot of ground.",
+          "impact": "Continuous coverage of a whole corps provider",
+          "effort": "10 min once",
           "coverage": [
             {
               "id": "item-135",
@@ -298,77 +955,14 @@ var PUNCH_DATA = {
           "id": "service-124",
           "rank": 7,
           "priority": 2,
-          "title": "USFWS Inventory & Monitoring Conservation Planning Fellow (item-124): verify the current Southeast posting, then apply",
-          "detail": "An ACE EPIC fellowship with USFWS that is remote with a Southeast preference — it fits both your GIS and monitoring skills and your geography. The listing is rolling, so the first step is confirming the current posting is live on the ACE EPIC board before you invest in the application.",
-          "impact": "Remote-friendly USFWS fellowship in your region",
-          "effort": "20 min to verify · 2 hrs to apply",
+          "title": "ACE / USFWS Inventory & Monitoring Conservation Planning Fellow — verify it is still live, then apply",
+          "detail": "A USFWS-partnered fellowship built around inventory, monitoring and conservation planning — close to the federal track you are aiming at, and ACE placements have already proved willing to take you seriously. The card is marked rolling but needs a status check before you spend time on it. Confirm it is open, then reuse the service cover letter.",
+          "impact": "Direct USFWS-partnered federal exposure",
+          "effort": "1 hr including verification",
           "coverage": [
             {
               "id": "item-124",
-              "title": "USFWS I&M Conservation Planning Fellow — SE Region"
-            }
-          ],
-          "links": [
-            {
-              "href": "erin_outreach.html#tab-cover-service",
-              "label": "Service cover letter draft"
-            }
-          ]
-        },
-        {
-          "id": "service-069",
-          "rank": 8,
-          "priority": 2,
-          "title": "SECC Cherokee & Pisgah National Forests (item-069): tailor and send the cover letter",
-          "detail": "Southeast Conservation Corps placement in eastern Tennessee and western North Carolina — your home ground, and the same Appalachian landscape as your capstone. Rolling, so send it once the base service letter is done.",
-          "impact": "Home-region placement, familiar landscape",
-          "effort": "45 min once the base letter exists",
-          "coverage": [
-            {
-              "id": "item-069",
-              "title": "Biological Science Technician IP — Cherokee & Pisgah NF"
-            }
-          ],
-          "links": [
-            {
-              "href": "erin_outreach.html#tab-cover-service",
-              "label": "Service cover letter draft"
-            }
-          ]
-        },
-        {
-          "id": "service-282",
-          "rank": 9,
-          "priority": 3,
-          "title": "Oahu National Wildlife Refuge (item-282): deadline passed July 24 — check whether SCA reposts it",
-          "detail": "You starred this one but its application window closed on <strong>July 24</strong>, now about ten days ago. SCA placements frequently repost when a position does not fill, and the Oahu NWR Complex runs recurring terms. Worth one check of the SCA board and an email to the listed contact asking whether the position is being re-advertised — this is now a five-minute check rather than something to plan around, since your energy is better spent on the Big Sky window that is opening this month.",
-          "impact": "Recover a starred opportunity if it reposts",
-          "effort": "15 min to check and email",
-          "coverage": [
-            {
-              "id": "item-282",
-              "title": "SCA / USFWS — Oahu NWR Complex (deadline passed)"
-            }
-          ],
-          "links": [
-            {
-              "href": "https://www.fws.gov/refuge/james-campbell",
-              "label": "James Campbell NWR"
-            }
-          ]
-        },
-        {
-          "id": "service-080",
-          "rank": 10,
-          "priority": 3,
-          "title": "Conservation Corps Minnesota & Iowa (item-080): tailor and send the cover letter",
-          "detail": "Rolling individual placements across Minnesota, Iowa and neighbouring states. New positions post continuously, so check the current board before writing — apply to the specific placement rather than the program generally.",
-          "impact": "Rolling — new placements post continuously",
-          "effort": "45 min once the base letter exists",
-          "coverage": [
-            {
-              "id": "item-080",
-              "title": "Conservation Corps Minnesota & Iowa — Individual Placements"
+              "title": "ACE — USFWS I&M Conservation Planning Fellow"
             }
           ],
           "links": [
@@ -380,12 +974,12 @@ var PUNCH_DATA = {
         },
         {
           "id": "service-126",
-          "rank": 11,
-          "priority": 3,
-          "title": "Appalachian Conservation Corps (item-126): watch the open-positions board and apply to a specific placement",
-          "detail": "Conservation Legacy's Appalachian arm, with host sites across Virginia, West Virginia and the Mid-Atlantic. Like the other corps listings this is a board rather than a single posting, so the action is to check it alongside the SECC placement and apply to whichever natural-resource placement matches.",
-          "impact": "Mid-Atlantic / Appalachian placements",
-          "effort": "30 min to check · 45 min to apply",
+          "rank": 8,
+          "priority": 2,
+          "title": "Appalachian Conservation Corps individual placement — you already have an ACC application on file",
+          "detail": "You applied to ACC for the Shenandoah crew-leader role, so your name and materials are already in their system. An individual placement is a different application but a warm one, and individual placements skew more technical than crew work — closer to monitoring and resource management than trail building.",
+          "impact": "Warm second application with a provider that knows you",
+          "effort": "45 min",
           "coverage": [
             {
               "id": "item-126",
@@ -401,16 +995,16 @@ var PUNCH_DATA = {
         },
         {
           "id": "service-125",
-          "rank": 12,
-          "priority": 3,
-          "title": "River Corps / River Science Colorado (item-125): verify the next intake",
-          "detail": "Watershed restoration and water-quality monitoring across Colorado host sites — squarely in your interest area. The 2026 cohort is underway, so the useful step now is confirming when the next intake opens rather than applying cold.",
-          "impact": "Water-quality monitoring, directly on-profile",
-          "effort": "20 min to verify the intake date",
+          "rank": 9,
+          "priority": 2,
+          "title": "River Corps — watershed restoration and water-quality monitoring, verify then apply",
+          "detail": "Water-quality monitoring is the through-line of your capstone, and this is one of the few corps positions that names it directly rather than treating it as incidental to trail work. Verify the posting is current, then apply with the service letter lightly retargeted toward water quality and sediment sampling.",
+          "impact": "Closest corps match to your capstone skill set",
+          "effort": "45 min",
           "coverage": [
             {
               "id": "item-125",
-              "title": "River Corps Member — watershed restoration & water quality"
+              "title": "River Corps — watershed restoration & water quality"
             }
           ],
           "links": [
@@ -421,34 +1015,45 @@ var PUNCH_DATA = {
           ]
         },
         {
-          "id": "service-070",
-          "rank": 13,
+          "id": "service-069",
+          "rank": 10,
           "priority": 3,
-          "title": "Wichita Mountains Wildlife Refuge (item-070): term runs to November 6 — ask about backfill",
-          "detail": "The 2026 term is already underway, so this is not a straight application. American Youthworks sometimes backfills mid-term when a member leaves, and the refuge runs the placement annually — one email asking about both backfill and the 2027 cycle covers the whole opportunity.",
-          "impact": "Backfill chance now, plus 2027 cycle",
-          "effort": "15 min email",
+          "title": "Southeast Conservation Corps — Cherokee & Pisgah biological science technician placement",
+          "detail": "A USFS-partnered individual placement in the Cherokee and Pisgah National Forests — literally your home ground and the same landscape as your Pigeon River capstone. The deadline has passed for this cycle, so treat it as a next-cycle target and check when recruitment reopens.",
+          "impact": "Home-ground federal-partnered placement",
+          "effort": "20 min to check the reopen date",
           "coverage": [
             {
-              "id": "item-070",
-              "title": "Wildlife Monitoring IP — Wichita Mountains WR"
+              "id": "item-069",
+              "title": "SECC / USFS — Cherokee & Pisgah Bio Sci Tech IP"
             }
           ],
-          "links": [
+          "links": []
+        },
+        {
+          "id": "service-080",
+          "rank": 11,
+          "priority": 3,
+          "title": "Conservation Corps Minnesota & Iowa — find a real posting URL before applying",
+          "detail": "This card has <strong>no working link anywhere</strong> — it is the one saved item on your whole list with nothing to click, so it cannot be actioned as it stands. Go to the CCMI site directly, find the current individual-placement listing, and paste the URL into the card so it stops being a dead end.",
+          "impact": "Repairs the only linkless card on your saved list",
+          "effort": "15 min",
+          "coverage": [
             {
-              "href": "erin_outreach.html#tab-cover-service",
-              "label": "Service cover letter draft"
+              "id": "item-080",
+              "title": "Conservation Corps Minnesota & Iowa — Individual Placements"
             }
-          ]
+          ],
+          "links": []
         },
         {
           "id": "service-072",
-          "rank": 14,
+          "rank": 12,
           "priority": 3,
-          "title": "USDA Forest Service Pathways Recent Graduate Program (item-072): apply through USAJOBS when it posts",
-          "detail": "This is a federal Pathways route, so it runs entirely through USAJOBS and depends on your federal resume being ready — which makes it downstream of the USAJOBS profile task in the Career section. Set a saved-search alert so you catch the announcement rather than checking manually.",
-          "impact": "Federal Pathways → permanent conversion route",
-          "effort": "30 min for the alert · federal resume must exist first",
+          "title": "USDA Forest Service Pathways Recent Graduate Program — check your eligibility window",
+          "detail": "Pathways Recent Graduate eligibility runs roughly two years from your degree date, so with a <strong>May 2025</strong> graduation your window closes around <strong>May 2027</strong>. That is still comfortable but not indefinite, and Pathways is one of the cleanest routes into a permanent federal job without competing against experienced applicants. Set a USAJOBS saved search for Forest Service Pathways postings so they reach you automatically.",
+          "impact": "Protects a time-limited federal hiring route",
+          "effort": "20 min to set the alert",
           "coverage": [
             {
               "id": "item-072",
@@ -457,494 +1062,81 @@ var PUNCH_DATA = {
           ],
           "links": [
             {
-              "href": "erin_outreach.html#tab-federal-resume",
-              "label": "Federal resume guide"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "grad",
-      "label": "Graduate Programs",
-      "icon": "cap",
-      "actions": [
-        {
-          "id": "grad-recommenders",
-          "rank": 1,
-          "priority": 1,
-          "title": "Identify 3 recommenders → ask them → log them in the Refs tracker",
-          "detail": "Your Refs tracker is still empty, and this is still the single highest-leverage graduate task: <strong>the same three letters serve every grad program on your list</strong>. Best mix is the WCU faculty member who supervised your Pigeon River capstone, a second faculty member, and a field or research supervisor. Ask <strong>at least 8 weeks before</strong> your earliest deadline — and your earliest is Eastern Illinois on August 19, which is now under four weeks away.",
-          "impact": "Unblocks every saved grad program",
-          "effort": "1 hr drafting the asks · then follow-ups",
-          "coverage": [
-            {
-              "title": "Shared across all saved grad programs"
-            }
-          ],
-          "links": [
-            {
-              "href": "erin_outreach.html#tab-recommender-ask",
-              "label": "Recommender ask draft"
-            },
-            {
-              "href": "erin_reftracker.html",
-              "label": "Refs tracker"
-            }
-          ]
-        },
-        {
-          "id": "grad-autumn-window",
-          "rank": 2,
-          "priority": 1,
-          "title": "📅 The autumn assistantship window is the one that matters — it opens now and closes in December",
-          "detail": "Funded graduate assistantships cluster hard between September and December for Spring and Fall 2027 starts, so the next four months are the highest-yield stretch of the entire year — and then it goes quiet until next autumn. Four things are worth acting on in order. <strong>Oklahoma State's Wetland Assessment M.S.</strong> (due Dec 1, $25,000–$27,000) evaluates compensatory mitigation under <strong>Clean Water Act Section 404</strong> — the research-grade version of the Army Corps delineation training you already have, and the single closest graduate match found this run. <strong>UGA's Savannah River Ecology Laboratory</strong> (due Oct 15) is studying a constructed wetland engineered to retain <strong>copper and zinc</strong>, which is your Pigeon River trace-metal capstone turned into a thesis. <strong>The NSF Graduate Research Fellowship</strong> (applications late October, $37,000/yr plus $16,000 tuition for three years) explicitly accepts bachelor's holders who are not yet enrolled, and winning it would let you arrive anywhere carrying your own funding — your magna cum laude 3.731 is exactly the profile it is built for. Finally, set a <strong>weekly check on the TAMU Natural Resources board</strong>; nearly every assistantship on this site came from it, and new BS-eligible positions post daily through the autumn. All of this depends on the recommender and Statement of Purpose actions above, so do those first.",
-          "impact": "The full autumn assistantship season, plus a portable national fellowship",
-          "effort": "2 hrs to shortlist and email PIs; GRFP is a multi-week effort",
-          "coverage": [
-            {
-              "id": "item-819",
-              "title": "Oklahoma State — M.S. Wetland Assessment, CWA Section 404 (due Dec 1)"
-            },
-            {
-              "id": "item-820",
-              "title": "UGA Savannah River Ecology Lab — constructed wetland metal retention (due Oct 15)"
-            },
-            {
-              "id": "item-818",
-              "title": "NSF GRFP 2027 — $37,000 + $16,000, open to BS holders (late Oct)"
-            },
-            {
-              "id": "item-826",
-              "title": "TAMU Natural Resources board — weekly check through the autumn"
-            },
-            {
-              "id": "item-821",
-              "title": "Kansas State — Grassland Ecohydrology, $30,771 (due Dec 15)"
-            },
-            {
-              "id": "item-822",
-              "title": "Florida Atlantic — direct-from-BS PhD, quantitative ecology (due Oct 2)"
-            }
-          ],
-          "links": [
-            {
-              "href": "erin_programs.html",
-              "label": "Browse graduate programs"
-            },
-            {
-              "href": "https://www.nsfgrfp.org/",
-              "label": "NSF GRFP"
-            },
-            {
-              "href": "https://jobs.rwfm.tamu.edu/search/",
-              "label": "TAMU assistantship board"
-            }
-          ]
-        },
-        {
-          "id": "grad-130",
-          "rank": 3,
-          "priority": 1,
-          "title": "⏰ AUG 19 — Eastern Illinois University, Fisheries & Aquatic Ecology MS: email the advisor now, then apply",
-          "detail": "This is your <strong>nearest hard graduate deadline</strong> — August 19, 2026, under four weeks out. Review began back in November and the position is open until filled, which means late applications are genuinely disadvantaged. The Wabash River fisheries work sits close to your water-quality and aquatic interests. Email the Center for Fisheries & Aquatic Sciences advisor first, then submit.",
-          "impact": "Nearest hard grad deadline — under 4 weeks",
-          "effort": "1 hr email · then the full application",
-          "coverage": [
-            {
-              "id": "item-130",
-              "title": "Eastern Illinois University — Funded MS, Fisheries & Aquatic Ecology"
-            }
-          ],
-          "links": [
-            {
-              "href": "erin_outreach.html#tab-email-water",
-              "label": "Water-focused outreach email"
-            },
-            {
-              "href": "erin_outreach.html#tab-sop",
-              "label": "SOP starter draft"
-            }
-          ]
-        },
-        {
-          "id": "grad-sop-base",
-          "rank": 4,
-          "priority": 1,
-          "title": "Draft your base Statement of Purpose — anchor it on the Pigeon River / Helene capstone",
-          "detail": "One roughly 700-word base SOP, tuned per program afterwards. Open with the Pigeon River lead-contamination story, then your interest area, then the specific PIs at each program. The Materials Library already has an SOP entry but its content is still empty — and this same base text also feeds every outreach email below, so it is doing double duty.",
-          "impact": "Base for every grad application and outreach email",
-          "effort": "4-6 hrs once · 30 min to tune per program",
-          "coverage": [
-            {
-              "title": "Base for all saved grad programs"
-            }
-          ],
-          "links": [
-            {
-              "href": "erin_outreach.html#tab-sop",
-              "label": "SOP starter draft"
-            },
-            {
-              "href": "erin_outreach.html#tab-tips",
-              "label": "Writing tips"
-            }
-          ]
-        },
-        {
-          "id": "grad-006",
-          "rank": 5,
-          "priority": 2,
-          "title": "Clemson — Elmore Lab (bird response to Helene): email Dr. Elmore first",
-          "detail": "Contact-first program, and the research subject could not line up better — this lab studies bird response to Hurricane Helene, the same storm behind your capstone. You can speak to the post-Helene landscape from direct field experience, which very few applicants can. Lead the email with that.",
-          "impact": "Strongest research-topic overlap on your list",
-          "effort": "1 hr to write a genuinely tailored email",
-          "coverage": [
-            {
-              "id": "item-006",
-              "title": "Clemson University — Elmore Lab, Bird Response to Helene"
-            }
-          ],
-          "links": [
-            {
-              "href": "erin_outreach.html#tab-email-wildlife",
-              "label": "Wildlife outreach email"
-            },
-            {
-              "href": "erin_proftracker.html",
-              "label": "Professor tracker"
-            }
-          ]
-        },
-        {
-          "id": "grad-117",
-          "rank": 6,
-          "priority": 2,
-          "title": "SUNY-ESF (item-117): contact the PIs on the fish and wetland arsenic projects",
-          "detail": "Arsenault and Farrell run fish and wetland work including trace-metal contamination — which is precisely your capstone methodology applied to a different system. The official ESF deadline is January 15, 2027, but PI contact is what actually determines funded placements, so the email is the real deadline and it should go out this autumn at the latest.",
-          "impact": "Trace-metal methods transfer directly",
-          "effort": "1 hr per PI email",
-          "coverage": [
-            {
-              "id": "item-117",
-              "title": "SUNY-ESF — Funded MS/PhD, Fish & Wetland Ecology"
-            }
-          ],
-          "links": [
-            {
-              "href": "erin_outreach.html#tab-email-water",
-              "label": "Water-focused outreach email"
-            },
-            {
-              "href": "erin_proftracker.html",
-              "label": "Professor tracker"
-            }
-          ]
-        },
-        {
-          "id": "grad-092",
-          "rank": 7,
-          "priority": 2,
-          "title": "Texas A&M–Kingsville, Xi Lab (item-092): email the PI — rolling, reviewed until filled",
-          "detail": "Funded MS in watershed restoration, reviewed on a rolling basis until filled. Rolling review means the queue position you take today is better than the one you take in October. Watershed restoration is a direct line from your capstone and your GIS suitability work.",
-          "impact": "Rolling review — earlier is materially better",
-          "effort": "1 hr email",
-          "coverage": [
-            {
-              "id": "item-092",
-              "title": "Texas A&M–Kingsville — Funded MS, Watershed Restoration (Xi Lab)"
-            }
-          ],
-          "links": [
-            {
-              "href": "erin_outreach.html#tab-email-water",
-              "label": "Water-focused outreach email"
-            },
-            {
-              "href": "erin_proftracker.html",
-              "label": "Professor tracker"
-            }
-          ]
-        },
-        {
-          "id": "grad-116",
-          "rank": 8,
-          "priority": 2,
-          "title": "Texas A&M Natural Resources Institute (item-116): reach out to Randklev or Lopez",
-          "detail": "Funded MS/PhD on freshwater mussels and water quality, with Summer/Fall 2026 or Spring 2027 starts and a rolling application. Freshwater mussels are a water-quality indicator taxon, so this is your interest area approached through a different organism — an easy connection to draw in the email.",
-          "impact": "Multiple start dates, rolling application",
-          "effort": "1 hr email",
-          "coverage": [
-            {
-              "id": "item-116",
-              "title": "Texas A&M NRI — Funded MS/PhD, Freshwater Mussels & Water Quality"
-            }
-          ],
-          "links": [
-            {
-              "href": "erin_outreach.html#tab-email-water",
-              "label": "Water-focused outreach email"
-            },
-            {
-              "href": "erin_proftracker.html",
-              "label": "Professor tracker"
-            }
-          ]
-        },
-        {
-          "id": "grad-049",
-          "rank": 9,
-          "priority": 3,
-          "title": "Mississippi State — Wildlife, Fisheries & Aquaculture (item-049): email a faculty match",
-          "detail": "Contact-first program with no fixed deadline, so it moves entirely on faculty interest. Identify one or two faculty whose work touches wetlands or aquatic systems and send a tailored note — a generic departmental enquiry will not get a reply.",
-          "impact": "Contact-first — faculty interest is the gate",
-          "effort": "1 hr to identify faculty · 1 hr email",
-          "coverage": [
-            {
-              "id": "item-049",
-              "title": "Mississippi State University — Wildlife, Fisheries & Aquaculture"
-            }
-          ],
-          "links": [
-            {
-              "href": "erin_outreach.html#tab-email-wildlife",
-              "label": "Wildlife outreach email"
-            },
-            {
-              "href": "erin_proftracker.html",
-              "label": "Professor tracker"
-            }
-          ]
-        },
-        {
-          "id": "grad-050",
-          "rank": 10,
-          "priority": 3,
-          "title": "Colorado State — Ecosystem Science & Sustainability / GDPE (item-050): email a faculty match",
-          "detail": "A large interdisciplinary graduate degree programme spanning several departments, which is an advantage — there are many possible advisors, but it also means a generic application goes nowhere. Pick the specific faculty member whose work overlaps your watershed or GIS background and write to them directly.",
-          "impact": "Broad programme, many possible advisors",
-          "effort": "1 hr to identify faculty · 1 hr email",
-          "coverage": [
-            {
-              "id": "item-050",
-              "title": "Colorado State University — Ecosystem Science & Sustainability / GDPE"
-            }
-          ],
-          "links": [
-            {
-              "href": "erin_outreach.html#tab-email-water",
-              "label": "Water-focused outreach email"
-            },
-            {
-              "href": "erin_proftracker.html",
-              "label": "Professor tracker"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "career",
-      "label": "Career Positions",
-      "icon": "brief",
-      "actions": [
-        {
-          "id": "career-closing-window",
-          "rank": 1,
-          "priority": 1,
-          "title": "⏰ THIS WEEK — a cluster of federal and state postings found this week close within days",
-          "detail": "This week's sweep turned up an unusual number of entry-grade postings with immediate deadlines, and they will not be reposted on the same terms. In deadline order: <strong>Aug 11 (tomorrow)</strong> — USFWS Pacific Islands <strong>Biologist GS-9</strong> in Honolulu, which carries the biologist title rather than technician. <strong>Aug 14</strong> — the USGS nationwide <strong>Hydrologic Technician GS-7</strong> covering roughly 50 duty stations in 25 states on a single application (the closest federal match to your sediment and water-quality work anywhere on this site), its companion <strong>GS-8</strong> Central Midwest announcement, the U.S. Army <strong>Cartographer GS-7</strong> at Joint Base Lewis-McChord where GIS is the entire job, and the Oklahoma <strong>Wildlife Technician</strong> at $51,584 permanent. <strong>Aug 17</strong> — ACE EPIC <strong>Lake Mead Aquatic Resource Technician</strong> at $1,000/week, the best-paid service placement found this run and Public Land Corps eligible, plus the NPS <strong>Ecologist GS-9/11</strong> at Theodore Roosevelt. <strong>Aug 18–19</strong> — two USFWS <strong>Biological Science Technician</strong> posts, the Iowa <strong>Watershed Coordinator</strong> (BS-only minimum, watershed plus GIS, $54,350 floor), the TCEQ <strong>Water Quality Assessment</strong> role that builds the state's impaired-waters list, and the Great Basin Institute technician post inside a USFWS refuge. <strong>Two shortcuts worth knowing:</strong> the USGS GS-7 and GS-8 are graded rungs of the same ladder, so apply to both rather than choosing; and your <strong>3.731 magna cum laude GPA qualifies you at GS-9 under Superior Academic Achievement</strong> without the year of specialised experience those announcements otherwise ask for — say so explicitly in the application.",
-          "impact": "Twelve entry-grade openings, several permanent and several federal",
-          "effort": "A USAJOBS profile makes the federal ones ~20 min each after the first",
-          "coverage": [
-            {
-              "id": "item-832",
-              "title": "USFWS Biologist GS-9, Pacific Islands — closes Aug 11 (tomorrow)"
-            },
-            {
-              "id": "item-816",
-              "title": "USGS Hydrologic Technician GS-7, ~50 locations nationwide — closes Aug 14"
-            },
-            {
-              "id": "item-842",
-              "title": "USGS Hydrologic Technician GS-8, Central Midwest — closes Aug 14"
-            },
-            {
-              "id": "item-829",
-              "title": "U.S. Army Cartographer GS-7, JBLM — GIS is the whole job — closes Aug 14"
-            },
-            {
-              "id": "item-853",
-              "title": "Oklahoma Wildlife Technician, Packsaddle WMA — $51,584 permanent — closes Aug 14"
-            },
-            {
-              "id": "item-848",
-              "title": "ACE EPIC Lake Mead Aquatic Resource Technician — $1,000/wk, PLC eligible — closes Aug 17"
-            },
-            {
-              "id": "item-841",
-              "title": "NPS Ecologist GS-9/11, Theodore Roosevelt NP — closes Aug 17"
-            },
-            {
-              "id": "item-831",
-              "title": "USFWS Bio Sci Tech GS-6/7, Klamath Basin — closes Aug 18"
-            },
-            {
-              "id": "item-830",
-              "title": "USFWS Bio Sci Tech GS-5/6, Red Bluff — closes Aug 19"
-            },
-            {
-              "id": "item-840",
-              "title": "Iowa Watershed Coordinator — BS-only, watershed + GIS, $54,350 floor — closes Aug 19"
-            },
-            {
-              "id": "item-847",
-              "title": "TCEQ Water Quality Assessment Unit — 303(d) impaired waters — closes Aug 19"
-            },
-            {
-              "id": "item-852",
-              "title": "GBI Biological Technician, Desert NWR (USFWS) — closes Aug 19"
-            }
-          ],
-          "links": [
-            {
-              "href": "erin_jobs.html",
-              "label": "Browse career positions"
-            },
-            {
               "href": "https://www.usajobs.gov/",
               "label": "USAJOBS"
             }
           ]
         },
         {
-          "id": "career-usajobs",
-          "rank": 2,
-          "priority": 1,
-          "title": "Build a USAJOBS profile and upload a federal-format resume",
-          "detail": "A federal resume is a different document from a normal one — it is long, it wants hours-per-week and supervisor details, and without it every federal opening on your list is closed to you. This single document unlocks the USFWS technician alert, the Forest Service Pathways route, and any future USAJOBS posting the weekly sweep surfaces. It is the highest-leverage career task you have.",
-          "impact": "Unlocks every federal opportunity on your list",
-          "effort": "3-4 hrs once, then reused indefinitely",
+          "id": "service-070",
+          "rank": 13,
+          "priority": 4,
+          "title": "Wichita Mountains wildlife monitoring placement — next cycle",
+          "detail": "The March deadline is long past, so this is a watch item rather than an action. American Youthworks runs USFWS placements on an annual cycle; note roughly when this reopens and let it come round again.",
+          "impact": "Keeps a USFWS placement in view for next cycle",
+          "effort": "10 min",
           "coverage": [
             {
-              "title": "Shared across all federal applications"
+              "id": "item-070",
+              "title": "American Youthworks / USFWS — Wichita Mountains"
             }
           ],
-          "links": [
-            {
-              "href": "erin_outreach.html#tab-federal-resume",
-              "label": "Federal resume guide"
-            },
-            {
-              "href": "erin_materials.html",
-              "label": "Materials Library"
-            }
-          ]
-        },
-        {
-          "id": "career-standing-pools",
-          "rank": 3,
-          "priority": 2,
-          "title": "Get into the three standing hiring pools that exist specifically for people with no experience",
-          "detail": "These are not individual postings but permanent intake pools, and each one is deliberately built to hire someone at exactly your stage — which means they bypass the experience requirement that screens you out of most professional postings. <strong>TCEQ's Transitions Hiring Program</strong> (open to Dec 27, $53,448) is a standing pool <em>only</em> for recent graduates with little or no work experience, and one application feeds vacancies across the whole agency. <strong>Arizona DEQ's Environmental Technician</strong> is open-until-filled at $44,000–$65,000, with Level 1 explicitly accepting zero years of experience and offering remote-work flexibility. <strong>Washington Ecology's In-Training classifications</strong> — including the Staff Hydrogeologist at $66,372 — are permanent positions where the agency expects to hire below the full class and train the person up to journey level. Because none of these has a competitive deadline, they are the right thing to do in the gaps between the urgent applications, and getting into a pool now means being considered for postings that have not been written yet.",
-          "impact": "Three permanent-intake routes that do not expire",
-          "effort": "45 min each, then they work in the background",
-          "coverage": [
-            {
-              "id": "item-846",
-              "title": "TCEQ Transitions Hiring Program — recent-graduate pool, $53,448"
-            },
-            {
-              "id": "item-849",
-              "title": "Arizona DEQ Environmental Technician — Level 1 accepts 0 years"
-            },
-            {
-              "id": "item-833",
-              "title": "WA Ecology Staff Hydrogeologist (In-Training) — $66,372 permanent"
-            },
-            {
-              "id": "item-850",
-              "title": "Arizona DEQ Groundwater Inspector — Level 1 entry rung"
-            }
-          ],
-          "links": [
-            {
-              "href": "erin_jobs.html",
-              "label": "Browse career positions"
-            }
-          ]
-        },
-        {
-          "id": "career-alert-030",
-          "rank": 4,
-          "priority": 2,
-          "title": "Set a USAJOBS saved-search alert: Fish & Wildlife Service + series 0404",
-          "detail": "Biological Science Technician roles post and close fast — often inside two weeks — so catching them depends on an alert rather than on checking. Save the search for USFWS Region 4 with occupational series 0404 and set it to email daily. Do this straight after the federal resume exists, so you can actually act when one lands.",
-          "impact": "Standing pipeline into USFWS technician roles",
-          "effort": "15 min",
-          "coverage": [
-            {
-              "id": "item-030",
-              "title": "Biological Science Technician (GS-0404) — USFWS Region 4"
-            }
-          ],
-          "links": [
-            {
-              "href": "erin_outreach.html#tab-federal-resume",
-              "label": "Federal resume guide"
-            }
-          ]
-        },
-        {
-          "id": "career-alert-033",
-          "rank": 5,
-          "priority": 2,
-          "title": "Set an NC Careers alert: NCWRC + Wildlife Biologist / Technician",
-          "detail": "Your home-state wildlife agency, and one of the few places where a BS is the stated requirement rather than a starting point. Note that North Carolina moved its job listings off governmentjobs.com to the state's own portal, so set the alert on the current site rather than an old bookmark.",
-          "impact": "Home-state agency, BS-level requirement",
-          "effort": "15 min",
-          "coverage": [
-            {
-              "id": "item-033",
-              "title": "Wildlife Biologist I / Technician — NC Wildlife Resources Commission"
-            }
-          ],
-          "links": [
-            {
-              "href": "https://oshr.nc.gov/work-nc",
-              "label": "NC state jobs portal"
-            }
-          ]
+          "links": []
         }
       ]
     },
     {
       "type": "intern",
       "label": "Internships",
-      "icon": "check",
+      "icon": "seedling",
       "actions": [
         {
           "id": "intern-058",
           "rank": 1,
           "priority": 2,
-          "title": "SE-region consulting firms (item-058): apply to Tetra Tech, AECOM and Geosyntec",
-          "detail": "Entry-level environmental scientist roles across Raleigh, Asheville, Charleston and Atlanta, posted on a rolling basis. Consulting is where wetland delineation becomes a billable skill, which makes your Army Corps manual training an asset here rather than a nice-to-have. Apply to all three — they draw from the same regional pool and there is no downside to parallel applications.",
-          "impact": "Three firms, one tailored cover letter",
-          "effort": "2 hrs for the first · 20 min each after",
+          "title": "Tetra Tech / AECOM / Geosyntec entry-level environmental scientist — apply to all three separately",
+          "detail": "This card covers three large consultancies at once, which makes it easy to treat as one task and then never do it. It is really three applications. All three hire entry-level environmental scientists across the Southeast for wetland delineation and field survey work, and your Army Corps delineation training is exactly the credential they screen for. Note that these firms often omit salary from Southeast postings — that is a legal disclosure quirk rather than a red flag. Apply to each once the CV and career cover letter exist.",
+          "impact": "Three large-employer applications from one card",
+          "effort": "3 hrs for all three",
           "coverage": [
             {
               "id": "item-058",
-              "title": "Entry-Level Environmental Scientist — SE Region consulting"
+              "title": "Tetra Tech / AECOM / Geosyntec — Entry-Level Environmental Scientist, SE"
             }
           ],
           "links": [
             {
-              "href": "erin_outreach.html#tab-cover-consulting",
-              "label": "Consulting cover letter draft"
-            },
-            {
               "href": "erin_materials.html",
               "label": "Materials Library"
+            }
+          ]
+        },
+        {
+          "id": "intern-expired-cleanup",
+          "rank": 2,
+          "priority": 4,
+          "title": "Two saved items have expired — clear them so the list stops lying to you",
+          "detail": "The Colorado State mesocarnivore MS and the Riparia Environmental restoration technician role are both <strong>expired</strong>, and Riparia was independently confirmed dead. They still sit in your saved list and both still have \"not started\" application cards, which quietly inflates how much you think is in flight. Mark them not-interested or remove them so the numbers on your dashboard mean something.",
+          "impact": "Makes the saved count honest",
+          "effort": "5 min",
+          "coverage": [
+            {
+              "id": "item-094",
+              "title": "Colorado State — Funded MS, Mesocarnivore Ecology (expired)"
+            },
+            {
+              "id": "item-103",
+              "title": "Riparia Environmental — Restoration Field Technician (expired/dead)"
+            }
+          ],
+          "links": [
+            {
+              "href": "erin_mylist.html",
+              "label": "My List"
+            },
+            {
+              "href": "erin_applications.html",
+              "label": "Applications tracker"
             }
           ]
         }

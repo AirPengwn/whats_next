@@ -4130,7 +4130,9 @@
       "kind": "s-new",
       "label": "✨ New — June 2, 2026"
     },
-    "id": "item-097"
+    "id": "item-097",
+    "location": "New Jersey (NJDEP)",
+    "expired": true
   },
   {
     "title": "Seasonal Seed Collection Crew Lead — native plant restoration",
@@ -4225,8 +4227,8 @@
       "Midwest"
     ],
     "metaLine": "Funded PhD · rolling review · contact wjhuang@iastate.edu first",
-    "cycle": "current",
-    "deadline_kind": "rolling",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "region": "Midwest & Great Plains",
     "links": [
       {
@@ -4238,7 +4240,9 @@
       "kind": "s-new",
       "label": "✨ New — June 2, 2026"
     },
-    "id": "item-100"
+    "id": "item-100",
+    "location": "Ames, Iowa (Iowa State University, Dept. of Ecology, Evolution & Organismal Biology)",
+    "expired": true
   },
   {
     "title": "UMass Boston — Funded PhD, Remote Sensing & Geospatial Analysis (Chen Lab)",
@@ -4405,8 +4409,8 @@
       "Northeast"
     ],
     "metaLine": "Seasonal · $21.63–26.44/hr · NY/PA/OH · contact EDR HR",
-    "cycle": "current",
-    "deadline_kind": "contact-first",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "region": "Northeast",
     "links": [
       {
@@ -4418,7 +4422,10 @@
       "kind": "s-new",
       "label": "✨ New — June 8, 2026"
     },
-    "id": "item-105"
+    "id": "item-105",
+    "location": "Northeast/Midwest US — based from an EDR office (HQ Syracuse, NY)",
+    "pay": "$21.63–$26.44/hour",
+    "expired": true
   },
   {
     "title": "Habitat Enhancement Crew Member — prairie/wetland restoration with MN DNR",
@@ -4611,7 +4618,7 @@
     "cat": "Career Positions",
     "src": "erin_jobs.html",
     "src_label": "Career Positions",
-    "deadline": "The June 24, 2026 vacancy has closed. Florida DEP's Division of Water Resource Management posts Environmental Consultant roles regularly — check the State of Florida careers site (jobs.myflorida.com) for the next opening.",
+    "deadline": "2026-08-21",
     "start": "Summer 2026",
     "body": "State Environmental Consultant reviewing mining reclamation, wetland mitigation, stormwater, and floodplain permits under Florida Statutes Ch. 211/373/378.",
     "desc": "Strong technical state-agency role at FDEP HQ working on wetland hydrology, mitigation banking, and stormwater review — exactly the regulatory side of wetlands work that complements Erin's GIS and ecology training. The posting lists a 5-year experience minimum, so this is a clear Reach: she should only apply if she can credibly count capstone, volunteer, and project work toward that, or use it as a target to grow into. Posted June 3, 2026; closes June 24. $58,308 salary, Tallahassee.",
@@ -4624,8 +4631,8 @@
     ],
     "metaLine": "State career · $58,308 · 5 yrs req · apply by Jun 24",
     "cycle": "next",
-    "deadline_kind": "contact-first",
-    "deadline_date": "",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-21",
     "region": "Southeast & Appalachia",
     "links": [
       {
@@ -4638,7 +4645,9 @@
       "label": "✨ Updated — June 29, 2026"
     },
     "id": "item-111",
-    "location": "Tallahassee, Florida (Florida DEP, Division of Water Resource Management)"
+    "location": "Tallahassee, Florida (Florida DEP, Division of Water Resource Management)",
+    "pay": "$58,308.36–$62,000.00/yr",
+    "benefits": "State Group Insurance (health/life/dental/vision) · FRS retirement with employer contribution · annual & sick leave · 9 paid holidays + 1 personal holiday · tuition waivers"
   },
   {
     "title": "Preserve Manager — Northern California",
@@ -4667,6 +4676,10 @@
       {
         "href": "https://www.cnlm.org/wp-content/uploads/Northern-California-Preserve-Manager-final-05-14-2026.pdf",
         "label": "🔗 CNLM Preserve Manager — Northern California (PDF job description)"
+      },
+      {
+        "href": "https://www.cnlm.org/job-opportunities/",
+        "label": "🔗 CNLM job opportunities (the original PDF now 404s)"
       }
     ],
     "status": {
@@ -4674,7 +4687,9 @@
       "label": "✨ Updated — June 29, 2026"
     },
     "id": "item-112",
-    "location": "Sacramento / Davis area, California (Sacramento, Solano & Yolo Counties)"
+    "location": "Sacramento / Davis area, California (Sacramento, Solano & Yolo Counties)",
+    "pay": "$68,640–$78,640/yr ($74,542–$84,542 including home-office and phone stipends)",
+    "benefits": "Employer contribution to health insurance · dental & vision · employer retirement contribution · 11 paid holidays · 3 weeks vacation · sick leave · home-office & phone stipends"
   },
   {
     "title": "ORISE Wetland Plant Ecology Fellowship — EPA Pacific Ecological Systems Division",
@@ -4773,8 +4788,8 @@
       "Midwest"
     ],
     "metaLine": "Funded MS · $24k/yr + tuition · contact PI directly",
-    "cycle": "current",
-    "deadline_kind": "contact-first",
+    "cycle": "next",
+    "deadline_kind": "passed",
     "region": "Midwest & Great Plains",
     "links": [
       {
@@ -4786,7 +4801,10 @@
       "kind": "s-new",
       "label": "✨ New — June 15, 2026"
     },
-    "id": "item-115"
+    "id": "item-115",
+    "location": "Stillwater, Oklahoma (fieldwork in southeastern Oklahoma)",
+    "stipend": "$24,000/yr (two-year assistantship)",
+    "benefits": "Resident and non-resident tuition waiver · health insurance at $25/month (student only)"
   },
   {
     "title": "Texas A&M Natural Resources Institute — Funded MS/PhD, Freshwater Mussels & Water Quality (Randklev & Lopez)",
@@ -4966,7 +4984,9 @@
       "kind": "s-new",
       "label": "✨ New — June 15, 2026"
     },
-    "id": "item-120"
+    "id": "item-120",
+    "location": "Houston, Texas (any Stantec Texas office; up to 75% travel)",
+    "benefits": "Medical/dental/vision · HSA & FSA · 401(k) · employee stock purchase plan · life & AD&D · short/long-term disability · tuition reimbursement · professional membership fees · paid family leave · 10 paid holidays · 10–20 days vacation · paid sick leave"
   },
   {
     "title": "Wetland Technician — Eastern Washington & PNW field work",
