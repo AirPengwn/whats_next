@@ -38070,5 +38070,482 @@
       "Camera-trap abundance work",
       "Huge multi-agency partner list"
     ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-11-30",
+    "region": "Southeast & Appalachia",
+    "id": "item-917",
+    "title": "MS Assistantship — yellow-billed cuckoo non-breeding ecology",
+    "org": "Louisiana State University · Baton Rouge, LA",
+    "location": "Baton Rouge, Louisiana",
+    "deadline": "2026-11-30",
+    "pay": "",
+    "stipend": "Up to $32,000/yr",
+    "benefits": "",
+    "badge": "Strong fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118263",
+    "url_label": "TAMU natural resources board listing 118263",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118263",
+        "label": "🔗 TAMU natural resources board listing 118263"
+      }
+    ],
+    "metaLine": "Closes Nov 30 · up to $32,000 — one of the highest MS stipends found this run",
+    "body": "A funded MS assistantship at Louisiana State University studying non-breeding ecology of yellow-billed cuckoos, involving field data collection and movement analysis. A bachelor's degree is required with no prior experience.",
+    "desc": "Movement analysis is spatial analysis, so your GIS training transfers even though the taxon is new to you. Up to $32,000 at a major research university with a November deadline makes this a comfortable autumn application to prepare properly.",
+    "pills": [
+      "Up to $32,000/yr",
+      "Movement analysis = spatial skills",
+      "Major research university",
+      "Closes Nov 30"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-10-01",
+    "region": "Southeast & Appalachia",
+    "id": "item-918",
+    "title": "Natural Resources Specialist — Fort Benning endangered species programme",
+    "org": "Auburn University (contract to Fort Benning) · Fort Benning, GA",
+    "location": "Fort Benning, Georgia",
+    "deadline": "2026-10-01",
+    "pay": "$44,920–$91,000/yr",
+    "stipend": "",
+    "benefits": "",
+    "badge": "Strong fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118002",
+    "url_label": "TAMU natural resources board listing 118002",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118002",
+        "label": "🔗 TAMU natural resources board listing 118002"
+      }
+    ],
+    "metaLine": "Closes Oct 1 · salaried, NO experience minimum, wide pay band · DoD-partner work",
+    "body": "A natural resources specialist post supporting a military installation's natural resources programme — endangered species management, habitat monitoring and land management planning. A bachelor's degree is required with no experience minimum.",
+    "desc": "Salaried natural-resources work with no experience floor and a band starting near $45,000 is a strong first professional job. Military installations run some of the largest endangered-species programmes in the Southeast because they are legally obliged to, and that work is well funded and technically serious.",
+    "pills": [
+      "$44,920–$91,000",
+      "NO experience minimum",
+      "Endangered species programme",
+      "Salaried, not seasonal"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2027-08-02",
+    "region": "Southeast & Appalachia",
+    "id": "item-919",
+    "title": "Field Biologist — rare plant surveys across the Southeast",
+    "org": "Atlanta Botanical Garden · Atlanta, GA",
+    "location": "Atlanta, Georgia (survey work across the Southeast)",
+    "deadline": "2027-08-02",
+    "pay": "$50,000/yr starting",
+    "stipend": "",
+    "benefits": "",
+    "badge": "Strong fit",
+    "url": "https://www.conservationjobboard.com/job-listing-field-biologist-atlanta-georgia/3974611001",
+    "url_label": "Conservation Job Board listing",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-field-biologist-atlanta-georgia/3974611001",
+        "label": "🔗 Conservation Job Board listing"
+      }
+    ],
+    "metaLine": "Long window · $50,000 STARTING for field conservation biology · two years listed",
+    "body": "A field biologist post on the Garden's conservation programme, conducting rare plant surveys, population monitoring and safeguarding work across the Southeast. A bachelor's degree with two years of experience is listed.",
+    "desc": "A $50,000 starting salary for field conservation biology is well above the seasonal-technician norm that dominates this field. The two-year listing makes it a stretch on paper, but the long application window means you could apply now and again in six months with more experience behind you.",
+    "pills": [
+      "$50,000 starting",
+      "Rare plant surveys",
+      "Long window — apply twice if needed",
+      "A genuine biologist title"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-01",
+    "region": "Southeast & Appalachia",
+    "id": "item-920",
+    "title": "Coastal Ecology Research Staff",
+    "org": "UGA Marine Extension and Georgia Sea Grant · Brunswick, GA",
+    "location": "Brunswick, Georgia (salt marsh and estuarine systems)",
+    "deadline": "2026-09-01",
+    "pay": "$40,000–$46,464/yr",
+    "stipend": "",
+    "benefits": "",
+    "badge": "Strong fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117917",
+    "url_label": "TAMU natural resources board listing 117917",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117917",
+        "label": "🔗 TAMU natural resources board listing 117917"
+      }
+    ],
+    "metaLine": "Closes Sep 1 · salaried UNIVERSITY research staff — a classic launchpad into a funded MS",
+    "body": "A research staff position supporting coastal ecology projects at UGA's Marine Extension facility, including field sampling, data management and project coordination in Georgia's salt marsh and estuarine systems.",
+    "desc": "University research staff roles are one of the most reliable routes into a funded graduate programme — you work alongside the faculty who write the assistantship adverts, and they know your work before you apply. Salt marshes are also wetlands, so your delineation training is not wasted here.",
+    "pills": [
+      "$40,000–$46,464 salaried",
+      "University research staff",
+      "Salt marsh = wetlands",
+      "Launchpad into a funded MS"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-19",
+    "region": "Southeast & Appalachia",
+    "id": "item-921",
+    "title": "Environmental Compliance Specialist 1/2/3 — Water Quality Team, Mountain District",
+    "org": "Georgia DNR · Environmental Protection Division · Cartersville, GA",
+    "location": "Cartersville, Georgia (Bartow County — 25-county north Georgia district)",
+    "deadline": "2026-08-19",
+    "pay": "$41,600/yr entry · $45,760 · $50,336 depending on grade",
+    "stipend": "",
+    "benefits": "Georgia state benefits",
+    "badge": "Strong fit",
+    "url": "https://dnrintranet.org/sites/default/files/dnrnet/pdf/DNR_Vacancy_Announcement.pdf",
+    "url_label": "Georgia DNR vacancy announcement (PDF)",
+    "links": [
+      {
+        "href": "https://dnrintranet.org/sites/default/files/dnrnet/pdf/DNR_Vacancy_Announcement.pdf",
+        "label": "🔗 Georgia DNR vacancy announcement (PDF)"
+      }
+    ],
+    "metaLine": "⏰ Closes Aug 19 · north Georgia WATER QUALITY regulation · three entry grades",
+    "body": "An EPD Mountain District position (00101350) assigned to the Water Quality Team, responsible for compliance and enforcement across a 25-county area covering wastewater plants, public water systems, landfills and construction sites. Applications go through team.georgia.gov/careers or by DNR application; details are in the DNR Vacancy Announcement PDF.",
+    "desc": "North Georgia water-quality regulation in Appalachian terrain much like your own, with three possible entry grades so they can place you where your record fits. Note the application route is unusual — the vacancy lives in a DNR PDF rather than on the state careers portal, which is exactly why fewer people apply.",
+    "pills": [
+      "Water Quality Team",
+      "Three entry grades",
+      "North Georgia / Appalachian",
+      "Low-traffic PDF vacancy route"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-08-26",
+    "region": "Southeast & Appalachia",
+    "id": "item-922",
+    "title": "OPS Biological Scientist II — Marine Mammal GIS & Database Analyst",
+    "org": "Florida Fish and Wildlife Conservation Commission · St. Petersburg, FL",
+    "location": "St. Petersburg, Florida",
+    "deadline": "2026-08-26",
+    "pay": "$21–$23/hour",
+    "stipend": "",
+    "benefits": "",
+    "badge": "Strong fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118042",
+    "url_label": "TAMU natural resources board listing 118042",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118042",
+        "label": "🔗 TAMU natural resources board listing 118042"
+      }
+    ],
+    "metaLine": "Closes Aug 26 · an explicitly GIS-TITLED state wildlife position",
+    "body": "An FWC position combining GIS analysis and database management for the marine mammal research programme. Covers spatial data processing, database quality assurance and mapping products supporting stranding and population studies.",
+    "desc": "State wildlife agencies rarely advertise a role with GIS in the title, so when one appears it is worth taking seriously — here your strongest technical credential is the job description rather than a nice-to-have. Database quality assurance experience also travels well into any research or federal role later.",
+    "pills": [
+      "GIS in the job TITLE",
+      "State wildlife agency",
+      "Spatial data + database QA",
+      "$21–$23/hour"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-03",
+    "region": "Southeast & Appalachia",
+    "id": "item-923",
+    "title": "Field Technician — southern Appalachian grassland restoration",
+    "org": "Southeastern Grasslands Institute · Roanoke, VA",
+    "location": "Roanoke, Virginia (southern Appalachians and Virginia piedmont)",
+    "deadline": "2026-09-03",
+    "pay": "$40,000/yr",
+    "stipend": "",
+    "benefits": "",
+    "badge": "Strong fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118228",
+    "url_label": "TAMU natural resources board listing 118228",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118228",
+        "label": "🔗 TAMU natural resources board listing 118228"
+      }
+    ],
+    "metaLine": "Closes Sep 3 · SALARIED restoration fieldwork in the Appalachians at one year out",
+    "body": "A field technician post supporting grassland restoration and inventory across the southern Appalachians and Virginia piedmont. Covers vegetation surveys, site assessment and restoration implementation.",
+    "desc": "Forty thousand salaried for restoration fieldwork at one year of experience is well above the hourly seasonal norm, and ecological restoration is one of your stated target areas. Staying in the southern Appalachians also means the landscape knowledge you already have counts for something.",
+    "pills": [
+      "$40,000 SALARIED",
+      "Ecological restoration — your target",
+      "Southern Appalachians",
+      "One year of experience"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia",
+    "id": "item-924",
+    "title": "Forest Management Specialist — southwest Virginia",
+    "org": "The Nature Conservancy · Abingdon, VA",
+    "location": "Abingdon, Virginia (Clinch–Holston region)",
+    "deadline": "Rolling — open until filled",
+    "pay": "$60,000–$67,500/yr",
+    "stipend": "",
+    "benefits": "",
+    "badge": "Good fit",
+    "url": "https://www.conservationjobboard.com/job-listing-forest-management-specialist-abingdon-virginia/1763690943",
+    "url_label": "Conservation Job Board listing",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-forest-management-specialist-abingdon-virginia/1763690943",
+        "label": "🔗 Conservation Job Board listing"
+      }
+    ],
+    "metaLine": "Rolling · $60k–$67.5k with The Nature Conservancy, adjacent to your home range",
+    "body": "A Nature Conservancy forest management position in southwest Virginia covering Appalachian forest restoration, timber stand improvement and conservation easement stewardship.",
+    "desc": "One of the best-paid Appalachian conservation roles found this run, with a major NGO, in the Clinch–Holston region just north of your home range. It reads more senior than most of your list, so treat it as a stretch application — but rolling deadlines mean a stretch costs you nothing but the time.",
+    "pills": [
+      "$60,000–$67,500",
+      "The Nature Conservancy",
+      "Clinch–Holston — near home",
+      "Stretch application, rolling"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "contact-first",
+    "region": "Southeast & Appalachia",
+    "id": "item-925",
+    "title": "Seasonal Water Quality Monitoring Technician (Environmental Specialist I)",
+    "org": "Virginia Dept. of Environmental Quality · seven regional offices",
+    "location": "Abingdon, Harrisonburg, Salem, Glen Allen, Richmond, Virginia Beach and Woodbridge, Virginia",
+    "deadline": "Contact-first — verify the closing date with Virginia DEQ before applying",
+    "pay": "$21.24/hour",
+    "stipend": "",
+    "benefits": "",
+    "badge": "Strong fit",
+    "url": "https://www.jobs.virginia.gov/jobs/seasonal-t0050-water-quality-monitoring-technician-multiple-positions-virginia-united-states",
+    "url_label": "Virginia Jobs posting T0050",
+    "links": [
+      {
+        "href": "https://www.jobs.virginia.gov/jobs/seasonal-t0050-water-quality-monitoring-technician-multiple-positions-virginia-united-states",
+        "label": "🔗 Virginia Jobs posting T0050"
+      }
+    ],
+    "metaLine": "⚠️ VERIFY it is still open · straight water-quality monitoring · Abingdon & Harrisonburg are the Appalachian offices",
+    "body": "Multiple seasonal Environmental Specialist I positions across Virginia DEQ regional offices performing ambient water quality monitoring. The work includes field sampling, instrument calibration and data handling. Abingdon and Harrisonburg are the Appalachian duty stations.",
+    "desc": "This is water-quality monitoring with nothing else attached — the most literal match to your capstone methods of anything in this batch — and multiple offices are hiring at once, including two in the Appalachians. One honest caveat: the closing date could not be confirmed, so ring or email DEQ to check it is live before investing time.",
+    "pills": [
+      "Pure water-quality monitoring",
+      "Seven offices hiring at once",
+      "Appalachian duty stations",
+      "⚠️ Confirm it is still open"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-26",
+    "region": "Southeast & Appalachia",
+    "id": "item-926",
+    "title": "Scientist I, Ecology — stream & wetland restoration (0–2 years)",
+    "org": "Resource Environmental Solutions (RES) · Brentwood, TN",
+    "location": "Brentwood, Tennessee (Nashville area)",
+    "deadline": "2026-09-26",
+    "pay": "",
+    "stipend": "",
+    "benefits": "",
+    "badge": "Strong fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118200",
+    "url_label": "TAMU natural resources board listing 118200",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118200",
+        "label": "🔗 TAMU natural resources board listing 118200"
+      }
+    ],
+    "metaLine": "Closes Sep 26 · explicitly 0–2 YEARS · stream & wetland restoration · ⚠️ pay legally unpublished in TN",
+    "body": "An entry-level ecologist role at the country's largest ecological restoration firm, supporting field data collection, environmental monitoring and ecological assessment on stream and wetland restoration projects. A bachelor's degree is required with 0 to 2 years of experience.",
+    "desc": "RES is the largest ecological restoration company in the United States and this posting states 0 to 2 years outright, which removes the usual guessing game. The missing salary is not a red flag — Tennessee has no pay-disclosure law, so firms there routinely omit it, a pattern already confirmed across this list.",
+    "pills": [
+      "Explicitly 0–2 years",
+      "Stream + wetland restoration",
+      "Largest restoration firm in the US",
+      "⚠️ TN law — pay not published"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia",
+    "id": "item-927",
+    "title": "Arkansas Conservation Projects Manager — Ozark land trust",
+    "org": "Ozark Land Trust · Harrison, AR",
+    "location": "Harrison, Arkansas (Arkansas Ozarks)",
+    "deadline": "Rolling — open until filled",
+    "pay": "$48,000–$60,000/yr",
+    "stipend": "",
+    "benefits": "",
+    "badge": "Strong fit",
+    "url": "https://www.conservationjobboard.com/job-listing-arkansas-conservation-projects-manager-harrison-arkansas/9855855462",
+    "url_label": "Conservation Job Board listing",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-arkansas-conservation-projects-manager-harrison-arkansas/9855855462",
+        "label": "🔗 Conservation Job Board listing"
+      }
+    ],
+    "metaLine": "Rolling · $48k–$60k · a MANAGER title with heavy GIS use, in Ozark highland terrain",
+    "body": "Manages land conservation projects for a regional land trust in the Arkansas Ozarks — easement acquisition, stewardship monitoring, landowner relations and GIS mapping.",
+    "desc": "Land trust work leans heavily on GIS and baseline field documentation, both of which you already do, and a manager title at this stage is worth real money later. The Ozark highlands are also structurally similar country to the southern Appalachians, so your field instincts transfer.",
+    "pills": [
+      "$48,000–$60,000",
+      "MANAGER title",
+      "Heavy GIS use",
+      "Ozark highlands"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-13",
+    "region": "Southeast & Appalachia",
+    "id": "item-928",
+    "title": "Prescribed Fire & Stewardship Technician",
+    "org": "The Nature Conservancy · Lexington, KY",
+    "location": "Lexington, Kentucky (preserves statewide)",
+    "deadline": "2026-09-13",
+    "pay": "$55,000–$57,000/yr",
+    "stipend": "",
+    "benefits": "",
+    "badge": "Good fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=116388",
+    "url_label": "TAMU natural resources board listing 116388",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=116388",
+        "label": "🔗 TAMU natural resources board listing 116388"
+      }
+    ],
+    "metaLine": "Closes Sep 13 · $55k–$57k SALARIED fire work · listed at three years — a stretch worth making",
+    "body": "A Nature Conservancy technician role covering prescribed fire operations and preserve stewardship across Kentucky. Includes burn planning and implementation, invasive control and habitat monitoring.",
+    "desc": "Fifty-five thousand salaried for fire and stewardship work is exceptional for a technician title. The posting lists three years, so this is a genuine stretch rather than a comfortable fit — but fire crews are chronically short-staffed and TNC has been known to hire enthusiasm plus a red card, so it is worth the application.",
+    "pills": [
+      "$55,000–$57,000 salaried",
+      "Prescribed fire experience",
+      "Stretch — 3 yrs listed",
+      "The Nature Conservancy"
+    ]
   }
 ]
