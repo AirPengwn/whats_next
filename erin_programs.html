@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
-<link rel="stylesheet" href="styles.css?v=20260817-957-d7654d09">
+<link rel="stylesheet" href="styles.css?v=20260818-957-d7654d09">
 <title>Funded Graduate Programs — What’s Next for Erin</title>
 <style>
 body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem}
@@ -86,6 +86,7 @@ html.dark .bx-new{background:#ff5a3c;color:#1a1a1a}
 .ut-far{background:var(--bg2);color:var(--t2);border:.5px solid var(--bds);font-weight:600}
 /* "Added N days ago" — a discrete chip in the meta row, never run-on text */
 .bx-age{font-size:12px;font-weight:500;color:var(--t3);background:var(--bg2);border:.5px solid var(--bd);padding:1px 9px;border-radius:999px;white-space:nowrap;flex-shrink:0}
+.bx-ms{font-size:12px;font-weight:600;color:var(--teal-t);background:var(--teal-bg);border:.5px solid var(--teal);padding:1px 9px;border-radius:999px;flex-shrink:0}
 .bx-fwrap{display:flex;flex-direction:column;gap:2px;width:100%}
 .hl-flash{animation:hlf 2.4s ease-out}
 @keyframes hlf{0%{box-shadow:0 0 0 3px var(--teal)}55%{box-shadow:0 0 0 3px var(--teal)}100%{box-shadow:0 0 0 0 rgba(0,0,0,0)}}
@@ -100,7 +101,7 @@ html.dark .bx-new{background:#ff5a3c;color:#1a1a1a}
   window.__toggleTheme=function(){var d=document.documentElement.classList.toggle('dark');localStorage.setItem('erin_theme',d?'dark':'light');upBtn();};
 })();
 </script>
-<script src="site.js?v=20260817-957-d7654d09"></script>
+<script src="site.js?v=20260818-957-d7654d09"></script>
 </head>
 <body>
 <!-- GLOBAL NAV -->
@@ -154,7 +155,7 @@ html.dark .bx-new{background:#ff5a3c;color:#1a1a1a}
 <div id="browse-body"></div>
 <p class="footer">Live opportunities, sorted by urgency. Saving is gated to Erin&rsquo;s primary device.<br><br><a href="index.html" style="color:var(--blue)">&#8592; Back to home</a></p>
 </div>
-<script src="opportunities.js?v=20260817-957-d7654d09"></script>
+<script src="opportunities.js?v=20260818-957-d7654d09"></script>
 <script>
 (function(){
 var BIN_ID='6a675f8ef5f4af5e29c7eca6',API_KEY='$2a$10$3VnClCkIfxL8M8fyJ.LzUevSqMpr8VjiTBw.dMqWluks0WktJY4eq',STORE='erin_mylist_v1';
@@ -505,6 +506,25 @@ var showPassed=false; /* "Hide passed/expired" is default ON; this toggle reveal
 var showNI=false; /* "Hide Not interested" is default ON; this toggle reveals them */
 var onlyBroken=false; /* v2.19: restrict view to only items flagged as broken-link */
 var viewScope='all'; /* scope view: 'all' | 'priority' | 'expired' | 'removed' — absolute when not 'all' */
+/* v4.04: FUNDED MASTER'S IN NRM — computed, never stored.
+   Erin's highest-value target is a funded MS in natural resource management.
+   Deriving this from the fields we already have means it applies to all ~957
+   entries at once AND to every future sweep add, with no data migration and
+   nothing for the weekly run to remember to tag. */
+var nrmFilter=false;
+function isFundedMS(it){
+  if(!it) return false;
+  if((it.type||it.cat||'').toLowerCase().indexOf('grad')<0) return false;
+  var t=((it.title||'')+' '+(it.org||'')+' '+(it.body||'')+' '+(it.desc||'')+' '+((it.pills||[]).join(' '))).toLowerCase();
+  /* word-boundaried on purpose: a bare /ms/ matches "programs" and /gra/ matches
+     "program". Getting this wrong silently tags most of the list. */
+  var ms=/\bms\b|\bm\.s\.|\bmsc\b|master(?:'s)?\b/.test(t);
+  if(!ms) return false;
+  /* funded = money or tuition support, not merely an offer of admission */
+  if(!/\bstipend\b|\bassistantship\b|\bgra\b|\bgta\b|\btuition\b|\bfunded\b|\bwaiver\b|\bremission\b|\$\s?\d/.test(t)) return false;
+  /* natural-resource-management subject matter */
+  return /wetland|watershed|water quality|hydrolog|fisheries|aquatic|wildlife|forest|rangeland|grassland|\bsoil|restoration|conservation|natural resource|ecolog|riparian|stream|habitat|\bgis\b|remote sens/.test(t);
+}
 var reviewedFilter='all'; /* 'all' | 'unrev' | 'rev' — Reviewed filter; never hides on its own, just narrows */
 var _openCards={}; /* remember which detail cards are expanded so a re-render (priority/reviewed toggle) keeps them open */
 var _stickyShow={}, _keepSticky=false; /* a just-marked "Not interested" card stays visible+open for this render; cleared on the next filter/scope/reload render so it then hides */
@@ -632,6 +652,10 @@ function buildBrowseFiltersX(){
     chip('👁 Not yet reviewed', reviewedFilter==='unrev', function(){ reviewedFilter='unrev'; renderBrowse(); }),
     chip('✓ Reviewed only', reviewedFilter==='rev', function(){ reviewedFilter='rev'; renderBrowse(); })
   ]));
+  /* v4.04: narrow to funded Master's assistantships in NRM. Kept as its own
+     group rather than a Type sub-filter because it cuts ACROSS type — a
+     mis-typed grad entry on the Jobs page still qualifies. */
+  w.appendChild(fgroup('Grad', [chip('🎓 Funded MS (NRM) only', nrmFilter, function(){ nrmFilter=!nrmFilter; renderBrowse(); })]));
   /* v2.19/v2.20: broken-link filter — chip label shows "(view-only)" on
      read-only devices since flags can only be added on Erin's primary. */
   var _blChipLbl = '⚠ Only broken links' + (document.documentElement.classList.contains('erin-readonly') ? ' (view-only)' : '');
@@ -797,6 +821,7 @@ function renderBrowseX(){
     else if(viewScope==='expired'){ if(!isExpiredItem(it)) return false; }
     else if(viewScope==='removed'){ if(!RM[it.id]) return false; }
     /* Reviewed filter — applies in every scope; never expands what's shown */
+    if(nrmFilter && !isFundedMS(it)) return false;   /* v4.04 funded-MS narrow */
     if(reviewedFilter==='unrev' && rvHas(it.id)) return false;
     if(reviewedFilter==='rev'   && !rvHas(it.id)) return false;
     if(BX.type.length   && !has1(BX.type,typeOf(it))) return false;
@@ -884,6 +909,7 @@ function renderBrowseX(){
     /* v3.17: how long this has been on the list (counts up) */
     var _fa=foundAgo(it);
     if(_fa!=null){ var am=el('span','bx-age',foundAgoText(_fa)); am.title='First added to the list '+(_fa===0?'today':_fa+' day'+(_fa===1?'':'s')+' ago'); meta.appendChild(am); }
+    if(isFundedMS(it)){ var fm=el('span','bx-ms','🎓 Funded MS'); fm.title="Funded Master's assistantship in a natural-resource field — stipend and/or tuition support"; meta.appendChild(fm); }
     /* badge no longer rendered in meta — it lives in the right-side pill stack */
     card.appendChild(meta);
     var bd=buildBrowseDetailX(it); card.appendChild(bd);

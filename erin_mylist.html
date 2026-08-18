@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
-<link rel="stylesheet" href="styles.css?v=20260817-957-d7654d09">
+<link rel="stylesheet" href="styles.css?v=20260818-957-d7654d09">
 <title>My Opportunity List — What's Next for Erin</title>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -264,8 +264,8 @@ var(--mute-t);border:1px solid var(--bds)}
 </style>
 
 <script src="icons.js?v=20260602"></script>
-<script src="site.js?v=20260817-957-d7654d09"></script>
-<script src="opportunities.js?v=20260817-957-d7654d09"></script>
+<script src="site.js?v=20260818-957-d7654d09"></script>
+<script src="opportunities.js?v=20260818-957-d7654d09"></script>
 <script>
 (function(){
   var saved=localStorage.getItem('erin_theme');
@@ -1640,6 +1640,7 @@ html.dark .bx-new{background:#ff5a3c;color:#1a1a1a}
 .ut-mid{background:var(--amber-bg);color:var(--amber-t)}
 .ut-far{background:var(--bg2);color:var(--t2);border:.5px solid var(--bds);font-weight:600}
 .bx-age{font-size:12px;font-weight:500;color:var(--t3);background:var(--bg2);border:.5px solid var(--bd);padding:1px 9px;border-radius:999px;white-space:nowrap;flex-shrink:0}
+.bx-ms{font-size:12px;font-weight:600;color:var(--teal-t);background:var(--teal-bg);border:.5px solid var(--teal);padding:1px 9px;border-radius:999px;flex-shrink:0}
 /* v2.0 card-discipline pills — confident fit, quiet fit, neutral status chip */
 .fit-pill{font-size:12.5px;font-weight:600;padding:2px 9px;border-radius:999px;background:var(--fit-bg);color:var(--fit-t);white-space:nowrap;line-height:1.5;letter-spacing:.01em}
 .fit-pill.fit-weak{background:transparent;color:var(--t3);border:1px solid var(--bds);font-weight:500}
@@ -1695,6 +1696,25 @@ var showPassed=false; /* "Hide passed/expired" is default ON; this toggle reveal
 var showNI=false; /* "Hide Not interested" is default ON; this toggle reveals them */
 var onlyBroken=false; /* v2.19: restrict view to only items flagged as broken-link */
 var viewScope='all'; /* v2.36 scope view: 'all' | 'priority' | 'expired' | 'removed' — absolute when not 'all' */
+/* v4.04: FUNDED MASTER'S IN NRM — computed, never stored.
+   Erin's highest-value target is a funded MS in natural resource management.
+   Deriving this from the fields we already have means it applies to all ~957
+   entries at once AND to every future sweep add, with no data migration and
+   nothing for the weekly run to remember to tag. */
+var nrmFilter=false;
+function isFundedMS(it){
+  if(!it) return false;
+  if((it.type||it.cat||'').toLowerCase().indexOf('grad')<0) return false;
+  var t=((it.title||'')+' '+(it.org||'')+' '+(it.body||'')+' '+(it.desc||'')+' '+((it.pills||[]).join(' '))).toLowerCase();
+  /* word-boundaried on purpose: a bare /ms/ matches "programs" and /gra/ matches
+     "program". Getting this wrong silently tags most of the list. */
+  var ms=/\bms\b|\bm\.s\.|\bmsc\b|master(?:'s)?\b/.test(t);
+  if(!ms) return false;
+  /* funded = money or tuition support, not merely an offer of admission */
+  if(!/\bstipend\b|\bassistantship\b|\bgra\b|\bgta\b|\btuition\b|\bfunded\b|\bwaiver\b|\bremission\b|\$\s?\d/.test(t)) return false;
+  /* natural-resource-management subject matter */
+  return /wetland|watershed|water quality|hydrolog|fisheries|aquatic|wildlife|forest|rangeland|grassland|\bsoil|restoration|conservation|natural resource|ecolog|riparian|stream|habitat|\bgis\b|remote sens/.test(t);
+}
 var reviewedFilter='all'; /* 'all' | 'unrev' | 'rev' — Reviewed filter; never hides on its own, just narrows */
 var _openCards={}; /* remember which detail cards are expanded so a re-render (priority/reviewed toggle) keeps them open */
 var _stickyShow={}, _keepSticky=false; /* a just-marked "Not interested" card stays visible+open for this render; cleared on the next filter/scope/reload render so it then hides */
@@ -1810,6 +1830,7 @@ function buildBrowseFiltersX(){
     chip('👁 Not yet reviewed', reviewedFilter==='unrev', function(){ reviewedFilter='unrev'; renderBrowse(); }),
     chip('✓ Reviewed only', reviewedFilter==='rev', function(){ reviewedFilter='rev'; renderBrowse(); })
   ]));
+  w.appendChild(fgroup('Grad', [chip('🎓 Funded MS (NRM) only', nrmFilter, function(){ nrmFilter=!nrmFilter; renderBrowse(); })]));
   /* v2.19/v2.20: broken-link filter — chip shows "(view-only)" on read-only devices */
   var _blChipLbl = '⚠ Only broken links' + (document.documentElement.classList.contains('erin-readonly') ? ' (view-only)' : '');
   w.appendChild(fgroup('Links', [chip(_blChipLbl, onlyBroken, function(){ onlyBroken=!onlyBroken; renderBrowse(); })]));
@@ -1960,6 +1981,7 @@ function renderBrowseX(){
     else if(viewScope==='expired'){ if(!isExpiredItem(it)) return false; }
     else if(viewScope==='removed'){ if(!RM[it.id]) return false; }
     /* Reviewed filter — applies in every scope; never expands what's shown */
+    if(nrmFilter && !isFundedMS(it)) return false;   /* v4.04 funded-MS narrow */
     if(reviewedFilter==='unrev' && rvHas(it.id)) return false;
     if(reviewedFilter==='rev'   && !rvHas(it.id)) return false;
     if(BX.type.length   && !has1(BX.type,typeOf(it))) return false;
@@ -2044,6 +2066,7 @@ function renderBrowseX(){
     /* v3.17: how long this has been on the list (counts up) */
     var _fa=foundAgo(it);
     if(_fa!=null){ var am=el('span','bx-age',foundAgoText(_fa)); am.title='First added to the list '+(_fa===0?'today':_fa+' day'+(_fa===1?'':'s')+' ago'); meta.appendChild(am); }
+    if(isFundedMS(it)){ var fm=el('span','bx-ms','🎓 Funded MS'); fm.title="Funded Master's assistantship in a natural-resource field"; meta.appendChild(fm); }
     /* badge no longer rendered in meta — it lives in the right-side pill stack */
     card.appendChild(meta);
     var bd=buildBrowseDetailX(it); card.appendChild(bd);
