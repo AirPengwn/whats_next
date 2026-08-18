@@ -5,7 +5,7 @@
    ═══════════════════════════════════════════════════════════ */
 
 /* build-stamped version + build (build.js patches these lines each release) */
-var WN_VERSION = '4.07';
+var WN_VERSION = '4.08';
 var WN_BUILD   = '20260818-964-e0670c65';
 
 /* ── 1. Sync hook ──────────────────────────────────────────
@@ -294,6 +294,7 @@ document.addEventListener('DOMContentLoaded', function(){
       'erin_howto.html':         { group:null,    sub:'How to',   icon:'check',    href:'erin_howto.html', util:true },
       /* Track */
       'erin_mylist.html':        { group:'track', sub:'My List',     icon:'star',     href:'erin_mylist.html' },
+      'erin_gradsteps.html':     { group:'track', sub:'Grad Steps',  icon:'cap',      href:'erin_gradsteps.html' },
       'erin_compare.html':       { group:'track', sub:'Compare',     icon:'compare',  href:'erin_compare.html' },
       'erin_punchlist.html':     { group:'track', sub:'Punch List',  icon:'check',    href:'erin_punchlist.html' },
       'erin_finds.html':         { group:'track', sub:'Finds',       icon:'bolt',     href:'erin_finds.html' },
