@@ -231,12 +231,16 @@ function renderPrereq(){
    which would be an instruction she cannot follow. */
 function stepsFor(id,g,o){
   var s=[];
-  s.push(['read','Read the posting and confirm it still fits']);
-  if(g.prof){
-    s.push(['email','Email '+g.prof+' to ask if the position is open'+(g.email?' — '+g.email:' (find their email first)')]);
+  if(!g.prof){
+    /* v4.07: on a department-wide posting the CHOICE is the entire blocker —
+       nothing else can happen until she picks a person. So it is stated in four
+       words and sits at number one, ahead of even reading the posting. */
+    s.push(['match','Choose a professor to email']);
+    s.push(['read','Read the posting and check the programme still fits']);
+    s.push(['email','Email the professor you chose']);
   } else {
-    s.push(['match','Find a faculty match — browse the department list and pick 2–3 whose work genuinely overlaps']);
-    s.push(['email','Email the faculty member you picked']);
+    s.push(['read','Read the posting and confirm it still fits']);
+    s.push(['email','Email '+g.prof+' to ask if the position is open'+(g.email?' — '+g.email:' (find their email first)')]);
   }
   s.push(['reply','Get a reply and confirm funding — does the waiver cover fees? how many years?']);
   s.push(['docs','Assemble the documents this programme asks for']);
