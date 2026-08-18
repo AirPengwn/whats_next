@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
+<link rel="stylesheet" href="styles.css?v=20260818-964-e0670c65">
+<title>Grad Steps — What's Next for Erin</title>
+<style>
+body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem}
+.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.25rem}
+.page-header-eyebrow{font-size:12.5px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-t);margin-bottom:.25rem}
+.page-header-title{font-size:24px;font-weight:700;color:var(--t1);line-height:1.2;letter-spacing:-.02em;margin-bottom:.2rem}
+.page-header-sub{font-size:13px;color:var(--t2);line-height:1.5}
+
+/* shared prerequisites — done once for every programme, not per card */
+.prereq{background:var(--bg);border:.5px solid var(--bd);border-left:3px solid var(--teal);border-radius:0 var(--r2) var(--r2) 0;padding:.9rem 1.1rem;margin-bottom:1.25rem}
+.prereq-h{font-size:13px;font-weight:700;color:var(--t1);margin-bottom:.2rem}
+.prereq-s{font-size:12.5px;color:var(--t3);margin-bottom:.6rem}
+.prereq-row{display:flex;gap:9px;align-items:flex-start;padding:4px 0;font-size:13px;cursor:pointer}
+.prereq-row.done span{color:var(--t3);text-decoration:line-through}
+
+.gs-card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1rem 1.15rem;margin-bottom:.75rem;transition:opacity .18s}
+.gs-card.allDone{opacity:.55;background:var(--bg2)}
+.gs-top{display:flex;gap:11px;align-items:flex-start}
+.gs-rankcol{display:flex;flex-direction:column;gap:3px;flex-shrink:0;padding-top:1px}
+.gs-arrow{width:26px;height:21px;padding:0;line-height:1;font-size:12px;border:.5px solid var(--bds);background:transparent;color:var(--t2);border-radius:5px;cursor:pointer;font-family:var(--fn)}
+.gs-arrow:hover:not(:disabled){background:var(--bg2);color:var(--t1)}
+.gs-arrow:disabled{opacity:.3;cursor:default}
+.gs-main{flex:1;min-width:0}
+.gs-titlerow{display:flex;align-items:baseline;justify-content:space-between;gap:8px}
+.gs-title{font-size:14.5px;font-weight:600;color:var(--t1);line-height:1.35}
+.gs-num{font-family:var(--mono);font-size:12px;color:var(--t3);flex-shrink:0}
+.gs-org{font-size:12.5px;color:var(--t3);margin-top:2px}
+.gs-pills{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
+.gs-pill{font-size:12.5px;font-weight:500;padding:2px 9px;border-radius:999px;background:var(--teal-bg);color:var(--teal-t);white-space:nowrap}
+.gs-pill.rank{background:var(--bg2);color:var(--t2);border:.5px solid var(--bd);font-family:var(--mono)}
+.gs-pill.warn{background:var(--amber-bg);color:var(--amber-t)}
+.gs-warn{margin-top:9px;border-left:3px solid #ef9f27;background:var(--amber-bg);padding:7px 11px;font-size:12.5px;color:var(--amber-t);line-height:1.5}
+
+.gs-sec{border-top:.5px solid var(--bd);margin-top:11px;padding-top:10px}
+.gs-lbl{font-size:12.5px;font-weight:700;letter-spacing:.06em;color:var(--t3);text-transform:uppercase;margin-bottom:6px}
+.gs-kv{display:flex;gap:8px;font-size:13px;padding:2px 0}
+.gs-k{color:var(--t3);width:82px;flex-shrink:0}
+.gs-v{color:var(--t1);min-width:0;overflow-wrap:break-word}
+.gs-v a{color:var(--teal-t);text-decoration:none}
+.gs-v a:hover{text-decoration:underline}
+.gs-noprof{color:var(--amber-t)}
+
+.gs-step{display:flex;gap:9px;align-items:flex-start;padding:5px 0;font-size:13.5px;cursor:pointer;line-height:1.5}
+.gs-step.done .gs-steptext{color:var(--t3);text-decoration:line-through}
+.gs-step.next{background:var(--teal-bg);border-radius:var(--r1);margin:0 -8px;padding-left:8px;padding-right:8px}
+.gs-next-tag{color:var(--teal-t);font-weight:700}
+.gs-mono{font-family:var(--mono);font-size:12px;background:var(--bg2);padding:1px 5px;border-radius:4px}
+
+.gs-notes{list-style:none;margin:0;padding:0}
+.gs-notes li{font-size:12.5px;color:var(--t2);line-height:1.55;padding:3px 0 3px 16px;position:relative}
+.gs-notes li:before{content:"!";position:absolute;left:0;top:3px;font-weight:700;color:var(--amber-t);font-size:12px}
+
+.gs-draftwrap{background:var(--bg2);border-radius:var(--r1);padding:11px 13px;font-size:12.5px;line-height:1.6;color:var(--t2);white-space:pre-wrap;margin-top:2px}
+.gs-draftbar{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:5px}
+.gs-btn{font-size:12.5px;font-weight:500;padding:3px 11px;border-radius:6px;border:.5px solid var(--bds);background:transparent;color:var(--t2);cursor:pointer;font-family:var(--fn)}
+.gs-btn:hover{background:var(--bg2);color:var(--t1)}
+.gs-subj{font-weight:600;color:var(--t1);display:block;margin-bottom:7px}
+.gs-editarea{width:100%;min-height:150px;font-family:var(--fn);font-size:12.5px;line-height:1.6;color:var(--t1);background:var(--bg);border:1px solid var(--bds);border-radius:var(--r1);padding:9px 11px;resize:vertical}
+
+.gs-empty{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:2.5rem;text-align:center;color:var(--t3);font-size:13px}
+.gs-flash{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:var(--t1);color:var(--bg);font-size:12.5px;padding:7px 16px;border-radius:999px;opacity:0;transition:opacity .2s;pointer-events:none;z-index:200}
+.gs-flash.show{opacity:1}
+.footer{font-size:12.5px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
+@media print{.gnav-toggle,.gs-arrow,.gs-btn,.global-nav{display:none!important}}
+</style>
+<script src="icons.js?v=20260602"></script>
+<script src="site.js?v=20260818-964-e0670c65"></script>
+<script>
+(function(){
+  var saved=localStorage.getItem('erin_theme');
+  var prefersDark=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches;
+  if(saved==='dark'||(!saved&&prefersDark)) document.documentElement.classList.add('dark');
+  function upBtn(){var b=document.getElementById('theme-toggle');if(b)b.innerHTML=document.documentElement.classList.contains('dark')?'&#9728;':'&#127769;';}
+  document.addEventListener('DOMContentLoaded',upBtn);
+  window.__toggleTheme=function(){var d=document.documentElement.classList.toggle('dark');localStorage.setItem('erin_theme',d?'dark':'light');upBtn();};
+})();
+</script>
+</head>
+<body>
+
+<!-- GLOBAL NAV -->
+<nav class="global-nav">
+  <div class="gnav-wrap">
+    <div class="gnav-inner">
+      <a href="index.html" class="gnav-home">&#127968; Home</a>
+      <a href="erin_search.html" class="gnav-link">&#128269; Search</a>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-track">Track</span>
+        <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
+        <a href="erin_gradsteps.html" class="gnav-link active">&#127891; Grad Steps</a>
+        <a href="erin_compare.html" class="gnav-link">&#9878; Compare</a>
+        <a href="erin_pipeline.html" class="gnav-link">&#128202; Pipeline</a>
+        <a href="erin_timeline.html" class="gnav-link">&#128197; Timeline</a>
+        <a href="erin_applications.html" class="gnav-link">&#128196; Apps</a>
+        <a href="erin_proftracker.html" class="gnav-link">&#128100; Profs</a>
+        <a href="erin_reftracker.html" class="gnav-link">&#128393; Refs</a>
+        <a href="erin_archive.html" class="gnav-link">&#128193; Archive</a>
+      </div>
+      <span class="gnav-divider gnav-break"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-browse">Browse</span>
+        <a href="erin_programs.html" class="gnav-link">&#127979; Programs</a>
+        <a href="erin_internships.html" class="gnav-link">&#128203; Internships</a>
+        <a href="erin_jobs.html" class="gnav-link">&#128188; Jobs</a>
+        <a href="erin_service.html" class="gnav-link">&#127807; Service</a>
+      </div>
+      <span class="gnav-divider"></span>
+      <div class="gnav-group">
+        <span class="gnav-group-label gl-write">Write</span>
+        <a href="erin_materials.html" class="gnav-link">&#128218; Materials</a>
+        <a href="erin_writing_samples.html" class="gnav-link">&#9997; Writing</a>
+        <a href="erin_outreach.html" class="gnav-link">&#128203; Outreach</a>
+        <a href="erin_packet.html" class="gnav-link">&#128424; Packet</a>
+      </div>
+    </div>
+    <button class="gnav-toggle" id="theme-toggle" onclick="__toggleTheme()" title="Toggle dark/light mode">&#127769;</button>
+  </div>
+</nav>
+
+<div class="page cab-page">
+
+<div class="page-header">
+  <div class="page-header-eyebrow">What&rsquo;s Next for Erin</div>
+  <div class="page-header-title">Grad Steps</div>
+  <div class="page-header-sub">Every funded graduate programme you&rsquo;ve saved, with the exact next step for each &mdash; <span id="gs-count" style="color:var(--teal-t);font-weight:500"></span></div>
+</div>
+
+<div class="prereq">
+  <div class="prereq-h">Do these once &mdash; they apply to every programme below</div>
+  <div class="prereq-s">Letters and transcripts take other people time. They are the long pole, so start them before any single application.</div>
+  <div id="gs-prereq"></div>
+</div>
+
+<div id="gs-list"></div>
+
+<div class="footer">Ranked by you &mdash; use the arrows to move a programme up or down. Finished ones grey out and drop to the bottom.</div>
+</div>
+
+<div class="gs-flash" id="gs-flash"></div>
+
+<script src="opportunities.js?v=20260818-964-e0670c65"></script>
+<script src="_grad_data.txt?v=20260818"></script>
+<script>
+/* ══ GRAD STEPS ═══════════════════════════════════════════════════════════
+   Shows every SAVED graduate programme with an explicit, checkable sequence.
+
+   WHY A SEPARATE PAGE FROM THE PUNCH LIST: the Punch List answers "what is the
+   single most important thing across everything?" — it is ranked by leverage
+   and deliberately short. This answers a different question: "for this one
+   programme, what exactly do I do, in what order, and what is weird about it?"
+   Both are useful; neither replaces the other.
+
+   STATE lives in the cloud under `gradSteps`, primary-gated like everything
+   else, shaped { itemId: { done:[stepId], rank:N, draft:"edited text" } }.
+   Tiny — 20 programmes at a handful of booleans each.
+   ═══════════════════════════════════════════════════════════════════════ */
+(function(){
+var BIN='6a675f8ef5f4af5e29c7eca6';
+var KEY='$2a$10$3VnClCkIfxL8M8fyJ.LzUevSqMpr8VjiTBw.dMqWluks0WktJY4eq';
+var STORE='erin_gradsteps_v1';
+var PRIMARY_KEY='erin_primary_device';
+
+function isPrimary(){ try{ return localStorage.getItem(PRIMARY_KEY)==='1'; }catch(e){ return false; } }
+function el(t,c,x){ var e=document.createElement(t); if(c)e.className=c; if(x!=null)e.textContent=x; return e; }
+function esc(s){ return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+function flash(m){ var f=document.getElementById('gs-flash'); if(!f)return; f.textContent=m; f.classList.add('show'); setTimeout(function(){f.classList.remove('show');},1900); }
+
+var STATE={};      /* itemId -> {done:[], rank:N, draft:str} */
+var PRE={};        /* shared prerequisite checkboxes */
+var SAVED={};      /* her saved items from the cloud */
+var _mem=null;     /* view-only devices keep changes in memory only */
+
+function load(){
+  if(isPrimary()){ try{ return JSON.parse(localStorage.getItem(STORE)||'{}'); }catch(e){ return {}; } }
+  return _mem||(_mem={});
+}
+function persist(o){
+  if(isPrimary()){ try{ localStorage.setItem(STORE,JSON.stringify(o)); }catch(e){} } else { _mem=o; }
+}
+/* GET-merge-PUT, primary-gated — identical model to every other page here */
+function push(o){
+  if(!isPrimary()) return;
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Access-Key':KEY}})
+    .then(function(r){ return r.json(); })
+    .then(function(d){
+      if(!d||!d.record) return;                 /* a malformed 200 must not clobber other keys */
+      var rec=d.record; rec.gradSteps=o;
+      return fetch('https://api.jsonbin.io/v3/b/'+BIN,{
+        method:'PUT',
+        headers:{'Content-Type':'application/json','X-Access-Key':KEY,'X-Bin-Versioning':'false'},
+        body:JSON.stringify(rec)
+      }).then(function(res){
+        if(!res||!(res.ok||res.status===200)) throw new Error('HTTP '+(res&&res.status));
+        flash('Saved');
+      });
+    })
+    .catch(function(){ flash('NOT saved — check connection'); });
+}
+function save(){ var o={_pre:PRE}; Object.keys(STATE).forEach(function(k){ o[k]=STATE[k]; }); persist(o); push(o); }
+
+/* ── the shared, do-once prerequisites ─────────────────────────────────── */
+var PREREQS=[
+ ['refs',  'Enter your 3 references in the Refs tracker, then ask each of them — letters need 3–4 weeks'],
+ ['trans', 'Order official transcripts from Western Carolina — they go to the university directly and take days'],
+ ['sop',   'Finish the base Statement of Purpose in Materials, so each programme only needs its own paragraph'],
+ ['cv',    'Check the CV in Materials is current through your most recent field season']
+];
+function renderPrereq(){
+  var w=document.getElementById('gs-prereq'); if(!w) return; w.innerHTML='';
+  PREREQS.forEach(function(p){
+    var lab=el('label','prereq-row'+(PRE[p[0]]?' done':''));
+    var cb=el('input'); cb.type='checkbox'; cb.checked=!!PRE[p[0]];
+    cb.onchange=function(){ PRE[p[0]]=cb.checked; save(); renderPrereq(); };
+    lab.appendChild(cb); lab.appendChild(el('span',null,p[1]));
+    w.appendChild(lab);
+  });
+}
+
+/* ── per-programme steps ───────────────────────────────────────────────
+   Built from the data rather than hardcoded, so a programme with no named
+   PI gets "find a faculty match" as its first step instead of "email Dr X",
+   which would be an instruction she cannot follow. */
+function stepsFor(id,g,o){
+  var s=[];
+  s.push(['read','Read the posting and confirm it still fits']);
+  if(g.prof){
+    s.push(['email','Email '+g.prof+' to ask if the position is open'+(g.email?' — '+g.email:' (find their email first)')]);
+  } else {
+    s.push(['match','Find a faculty match — browse the department list and pick 2–3 whose work genuinely overlaps']);
+    s.push(['email','Email the faculty member you picked']);
+  }
+  s.push(['reply','Get a reply and confirm funding — does the waiver cover fees? how many years?']);
+  s.push(['docs','Assemble the documents this programme asks for']);
+  s.push(['apply','Submit the formal application once the advisor confirms']);
+  return s;
+}
+
+function cardFor(id,rank,total){
+  var o=(window.ALL||[]).filter(function(x){return x.id===id;})[0];
+  var g=(window.GRAD_DATA||{})[id]||{};
+  if(!o) return null;
+  var st=STATE[id]||(STATE[id]={done:[],rank:rank});
+  var steps=stepsFor(id,g,o);
+  var doneAll=steps.every(function(sp){ return st.done.indexOf(sp[0])>-1; });
+
+  var card=el('div','gs-card'+(doneAll?' allDone':'')); card.id='gs-'+id;
+  var top=el('div','gs-top');
+
+  var rc=el('div','gs-rankcol');
+  var up=el('button','gs-arrow','▲'); up.type='button'; up.setAttribute('aria-label','Move up');
+  up.disabled=(rank===1); up.onclick=function(){ move(id,-1); };
+  var dn=el('button','gs-arrow','▼'); dn.type='button'; dn.setAttribute('aria-label','Move down');
+  dn.disabled=(rank===total); dn.onclick=function(){ move(id,1); };
+  rc.appendChild(up); rc.appendChild(dn); top.appendChild(rc);
+
+  var main=el('div','gs-main');
+  var tr=el('div','gs-titlerow');
+  tr.appendChild(el('div','gs-title',o.title));
+  tr.appendChild(el('span','gs-num','#'+(String(id).match(/(\d+)$/)||['','?'])[1].padStart(4,'0')));
+  main.appendChild(tr);
+  main.appendChild(el('div','gs-org',o.org||''));
+
+  var pl=el('div','gs-pills');
+  pl.appendChild(el('span','gs-pill rank','Rank '+rank+' of '+total));
+  if(o.stipend||o.pay) pl.appendChild(el('span','gs-pill',(o.stipend||o.pay).slice(0,42)));
+  if(o.location) pl.appendChild(el('span','gs-pill',o.location.slice(0,34)));
+  if(o.expired===true) pl.appendChild(el('span','gs-pill warn','Expired — next cycle'));
+  main.appendChild(pl);
+
+  /* the loudest warning gets its own band, not a pill */
+  var warn=(g.notes||[]).filter(function(n){ return /passed|expired|no longer|not a graduate degree|PhD, not an MS/i.test(n); })[0];
+  if(warn) main.appendChild(el('div','gs-warn',warn));
+
+  top.appendChild(main); card.appendChild(top);
+
+  /* contact block */
+  var c1=el('div','gs-sec');
+  c1.appendChild(el('div','gs-lbl','Who to contact'));
+  var kv=function(k,vNode){ var r=el('div','gs-kv'); r.appendChild(el('div','gs-k',k)); var v=el('div','gs-v'); v.appendChild(vNode); r.appendChild(v); return r; };
+  if(g.prof){
+    var pn=el('span',null,g.prof+(g.profTitle?' · '+g.profTitle:''));
+    c1.appendChild(kv('Professor',pn));
+    if(g.email){ var a=el('a',null,g.email); a.href='mailto:'+g.email; c1.appendChild(kv('Email',a)); }
+    else c1.appendChild(kv('Email',el('span','gs-noprof','not published — find it on the department directory')));
+  } else {
+    c1.appendChild(kv('Professor',el('span','gs-noprof','No single PI — this is a department page, so pick a faculty match first')));
+  }
+  var url=(window.wnUrl?window.wnUrl(o):(o.url||''));
+  if(url){ var la=el('a',null,url.replace(/^https?:\/\/(www\.)?/,'').slice(0,54)); la.href=url; la.target='_blank'; la.rel='noopener'; c1.appendChild(kv('Posting',la)); }
+  if(o.deadline) c1.appendChild(kv('Deadline',el('span',null,String(o.deadline).slice(0,72))));
+  card.appendChild(c1);
+
+  /* steps */
+  var c2=el('div','gs-sec');
+  c2.appendChild(el('div','gs-lbl','Steps'));
+  var firstOpen=true;
+  steps.forEach(function(sp){
+    var isDone=st.done.indexOf(sp[0])>-1;
+    var isNext=(!isDone&&firstOpen); if(!isDone) firstOpen=false;
+    var lab=el('label','gs-step'+(isDone?' done':'')+(isNext?' next':''));
+    var cb=el('input'); cb.type='checkbox'; cb.checked=isDone;
+    cb.onchange=function(){
+      /* Only re-sort the whole list when a card's COMPLETION flips, because a
+         full render() rebuilds all 20 cards and yanks the page out from under
+         her mid-click. Ticking step 2 of 5 should leave everything where it is. */
+      var wasAll=steps.every(function(x){ return st.done.indexOf(x[0])>-1; });
+      var i=st.done.indexOf(sp[0]);
+      if(cb.checked){ if(i<0) st.done.push(sp[0]); } else if(i>-1) st.done.splice(i,1);
+      var nowAll=steps.every(function(x){ return st.done.indexOf(x[0])>-1; });
+      save();
+      if(wasAll!==nowAll) render(); else refreshCard(id);
+    };
+    var txt=el('span','gs-steptext');
+    if(isNext){ var tag=el('span','gs-next-tag','Next — '); txt.appendChild(tag); }
+    txt.appendChild(document.createTextNode(sp[1]));
+    lab.appendChild(cb); lab.appendChild(txt);
+    c2.appendChild(lab);
+  });
+  card.appendChild(c2);
+
+  /* notes — the idiosyncrasies that sink applications */
+  if((g.notes||[]).length){
+    var c3=el('div','gs-sec');
+    c3.appendChild(el('div','gs-lbl','Notes for this one'));
+    var ul=el('ul','gs-notes');
+    g.notes.forEach(function(n){ ul.appendChild(el('li',null,n)); });
+    c3.appendChild(ul); card.appendChild(c3);
+  }
+
+  /* draft email */
+  if(g.draft){
+    var c4=el('div','gs-sec');
+    var bar=el('div','gs-draftbar');
+    bar.appendChild(el('div','gs-lbl','Draft email'));
+    var btns=el('div'); btns.style.cssText='display:flex;gap:6px';
+    var edit=el('button','gs-btn','Edit'); edit.type='button';
+    var copy=el('button','gs-btn','Copy'); copy.type='button';
+    btns.appendChild(edit); btns.appendChild(copy); bar.appendChild(btns);
+    c4.appendChild(bar);
+
+    var subj=(g.notes||[]).filter(function(n){ return /^Subject line must read exactly: /.test(n); })[0];
+    var body=(st.draft!=null?st.draft:g.draft);
+    var box=el('div','gs-draftwrap');
+    if(subj) box.appendChild(el('span','gs-subj','Subject: '+subj.replace(/^Subject line must read exactly: /,'')));
+    box.appendChild(document.createTextNode('Dear '+(g.prof||'Professor ______')+',\n\n'+body+'\n\nSincerely,\nErin Lamberton\nerintlamberton@gmail.com'));
+    c4.appendChild(box);
+
+    edit.onclick=function(){
+      if(c4.querySelector('.gs-editarea')) return;
+      var ta=el('textarea','gs-editarea'); ta.value=body;
+      var sv=el('button','gs-btn','Save draft'); sv.type='button'; sv.style.marginTop='7px';
+      sv.onclick=function(){ st.draft=ta.value; save(); render(); };
+      box.style.display='none';
+      c4.appendChild(ta); c4.appendChild(sv);
+    };
+    copy.onclick=function(){
+      var t=(subj?('Subject: '+subj.replace(/^Subject line must read exactly: /,'')+'\n\n'):'')
+          +'Dear '+(g.prof||'Professor ______')+',\n\n'+body+'\n\nSincerely,\nErin Lamberton\nerintlamberton@gmail.com';
+      try{ navigator.clipboard.writeText(t); flash('Draft copied'); }catch(e){ flash('Could not copy'); }
+    };
+    card.appendChild(c4);
+  }
+  return {node:card,done:doneAll};
+}
+
+/* Rebuild ONE card in place, leaving the rest of the list and the scroll
+   position untouched. Used for every tick that does not change completion. */
+function refreshCard(id){
+  var old=document.getElementById('gs-'+id);
+  if(!old){ render(); return; }
+  var ids=orderedIds();
+  var c=cardFor(id, ids.indexOf(id)+1, ids.length);
+  if(c && old.parentNode) old.parentNode.replaceChild(c.node, old);
+  var cc=document.getElementById('gs-count');
+  if(cc){
+    var fin=ids.filter(function(x){
+      var oo=(window.ALL||[]).filter(function(y){return y.id===x;})[0]; if(!oo) return false;
+      var ss=STATE[x]||{done:[]};
+      return stepsFor(x,(window.GRAD_DATA||{})[x]||{},oo).every(function(sp){ return ss.done.indexOf(sp[0])>-1; });
+    }).length;
+    cc.textContent=ids.length+' saved · '+fin+' finished';
+  }
+}
+function orderedIds(){
+  var ids=Object.keys(SAVED).filter(function(id){
+    var o=(window.ALL||[]).filter(function(x){return x.id===id;})[0];
+    return o && (o.type||o.cat||'').toLowerCase().indexOf('grad')>=0;
+  });
+  ids.sort(function(a,b){
+    var ra=(STATE[a]&&STATE[a].rank)||9999, rb=(STATE[b]&&STATE[b].rank)||9999;
+    if(ra!==rb) return ra-rb;
+    return a.localeCompare(b);
+  });
+  ids.forEach(function(id,i){ if(!STATE[id]) STATE[id]={done:[],rank:i+1}; else STATE[id].rank=i+1; });
+  return ids;
+}
+function move(id,dir){
+  var ids=orderedIds(), i=ids.indexOf(id), j=i+dir;
+  if(i<0||j<0||j>=ids.length) return;
+  var tmp=STATE[ids[i]].rank; STATE[ids[i]].rank=STATE[ids[j]].rank; STATE[ids[j]].rank=tmp;
+  save(); render();
+}
+
+function render(){
+  var w=document.getElementById('gs-list'); if(!w) return; w.innerHTML='';
+  var ids=orderedIds();
+  var open=[], done=[];
+  ids.forEach(function(id,i){
+    var c=cardFor(id,i+1,ids.length);
+    if(!c) return;
+    (c.done?done:open).push(c.node);      /* finished ones sink to the bottom */
+  });
+  if(!ids.length){
+    w.appendChild(el('div','gs-empty','No saved graduate programmes yet. Star or save one from Programs and it will appear here.'));
+  }
+  open.forEach(function(n){ w.appendChild(n); });
+  done.forEach(function(n){ w.appendChild(n); });
+  var c=document.getElementById('gs-count');
+  if(c) c.textContent=ids.length+' saved · '+done.length+' finished';
+  renderPrereq();
+}
+
+/* boot: read her saved items + any existing step state from the cloud */
+function boot(){
+  var local=load(); PRE=local._pre||{};
+  Object.keys(local).forEach(function(k){ if(k!=='_pre') STATE[k]=local[k]; });
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Access-Key':KEY}})
+    .then(function(r){ return r.json(); })
+    .then(function(d){
+      var rec=(d&&d.record)||{};
+      SAVED=rec.items||{};
+      var gs=rec.gradSteps||{};
+      /* cloud wins on first load so a second device sees her real progress */
+      PRE=gs._pre||PRE;
+      Object.keys(gs).forEach(function(k){ if(k!=='_pre') STATE[k]=gs[k]; });
+      render();
+    })
+    .catch(function(){ render(); });
+}
+if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',boot); else boot();
+})();
+</script>
+</body>
+</html>

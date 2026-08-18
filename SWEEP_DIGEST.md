@@ -1,16 +1,6 @@
 # Weekly opportunity sweep — 2026-08-18
 
-**Added 7 new** opportunities:
-- Funded MS — Lake sturgeon movement & spawning, Tennessee River — _Excellent_ · Southeast & Appalachia · deadline: September 7, 2026
-- Funded MS — Rodent population cycles & cascading effects (Jones Center) — _Excellent_ · Southeast & Appalachia · deadline: September 11, 2026
-- Funded MS — Bird–window collisions: research & public outreach — _Strong_ · Midwest & Great Plains · deadline: September 13, 2026
-- Funded MS — Biology assistantship, advisor-first (wildlife capable) — _Reach / review_ · Midwest & Great Plains · deadline: September 15, 2026
-- Funded MS Environmental Science — UTC Herbarium assistantship — _Good_ · Southeast & Appalachia · deadline: October 2, 2026
-- Funded MS — Farmer adaptation to changing weather (human dimensions) — _Good_ · Midwest & Great Plains · deadline: December 31, 2026
-- Conservation Biology MS — every admitted student is funded — _Strong_ · Midwest & Great Plains · deadline: February 1, 2027
-
-**⚠ Review these (reach / weak fit — your call whether to keep):**
-- Funded MS — Biology assistantship, advisor-first (wildlife capable) — _Reach / review_ · Midwest & Great Plains · deadline: September 15, 2026
+**Added 0 new** opportunities.
 
 **Updated 0** (deadline / status / description changed).
 
