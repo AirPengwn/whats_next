@@ -104,11 +104,14 @@ var GRAD_DATA={
   "prof": null,
   "profTitle": null,
   "email": null,
+  "facultyUrl": "https://srinfo.sulross.edu/directory/?dep=7813",
+  "facultyLabel": "Borderlands Research Institute — staff directory",
   "notes": [
    "No single PI is named — the Borderlands Research Institute recruits at institute level, so identify the project lead from bri.sulross.edu/graduate-assistants",
    "Stipend is $18,000 plus fringe, which is on the low side — confirm what fringe covers",
    "Multiple positions and several thesis topics available; say which one interests you",
-   "Methods are ARUs, avian point counts, Malaise traps, sweep nets and Daubenmire frames"
+   "Methods are ARUs, avian point counts, Malaise traps, sweep nets and Daubenmire frames",
+   "The original TAMU job-board posting is now DEAD (\"listing is not currently available\") — treat this as a lead to the institute, not a live position, and ask BRI whether it was filled"
   ],
   "draft": "I am writing about the funded MS positions assessing community response to playa lake restoration in the Southern High Plains.\n\nI completed a BS in Environmental Science at Western Carolina University in May 2025. My background is wetland delineation under the Army Corps manual, GIS including multi-criteria suitability analysis, and field sampling — my capstone examined trace-metal contamination in Pigeon River Basin sediments after Hurricane Helene.\n\nCould you tell me which faculty member is supervising the vegetation and wetland side, so I can write to them directly?"
  },
@@ -116,6 +119,8 @@ var GRAD_DATA={
   "prof": null,
   "profTitle": null,
   "email": null,
+  "facultyUrl": "https://www.umt.edu/wildlife-biology/people/",
+  "facultyLabel": "UM Wildlife Biology — faculty, staff & grad students",
   "notes": [
    "Department-wide programme page — funding runs through an individual faculty advisor, so a faculty match must come first",
    "Deadline is January 15, 2027 unless a specific faculty member sets their own for an assistantship",
@@ -127,6 +132,8 @@ var GRAD_DATA={
   "prof": null,
   "profTitle": null,
   "email": null,
+  "facultyUrl": "https://warnercnr.colostate.edu/department-directory/?department=Ecosystem+Science+and+Sustainability&type=Faculty",
+  "facultyLabel": "CSU Ecosystem Science & Sustainability — faculty",
   "notes": [
    "Department-wide opportunities page spanning multiple departments at Warner College — identify the specific lab first",
    "No deadline is listed because each assistantship follows its own advisor timeline"
@@ -137,6 +144,8 @@ var GRAD_DATA={
   "prof": null,
   "profTitle": null,
   "email": null,
+  "facultyUrl": "https://www.wildlifefisheries.msstate.edu/people/index.php",
+  "facultyLabel": "MSU Wildlife, Fisheries & Aquaculture — people",
   "notes": [
    "Department-wide graduate programme page for Wildlife, Fisheries & Aquaculture — a faculty match comes before the application",
    "No deadline listed; assistantships follow each advisor"
@@ -147,6 +156,8 @@ var GRAD_DATA={
   "prof": null,
   "profTitle": null,
   "email": null,
+  "facultyUrl": "https://sefs.uw.edu/research/faculty/",
+  "facultyLabel": "UW SEFS — faculty",
   "notes": [
    "University of Washington SEFS — application deadline November 15, 2026",
    "SEFS requires an identified faculty advisor before the application will be considered competitive",
@@ -158,6 +169,8 @@ var GRAD_DATA={
   "prof": null,
   "profTitle": null,
   "email": null,
+  "facultyUrl": "https://fwcs.oregonstate.edu/fisheries-and-wildlife/directory/faculty",
+  "facultyLabel": "Oregon State FWCS — faculty",
   "notes": [
    "Oregon State FWCS states plainly that an advisor AND a funding plan are required before applying — the application will not proceed without one",
    "This is contact-first by department policy, not just convention"
@@ -168,9 +181,14 @@ var GRAD_DATA={
   "prof": null,
   "profTitle": null,
   "email": null,
+  "facultyUrl": "https://www.uaf.edu/bw/about/faculty.php",
+  "facultyLabel": "UAF Biology & Wildlife — faculty",
   "notes": [
    "Covers three universities — UAF, UH Manoa and others — and all three route funding through a faculty advisor",
-   "Treat this as three separate searches rather than one application"
+   "Treat this as three separate searches rather than one application",
+   "The faculty directory linked below is UAF only — UH Manoa and Idaho each need their own search",
+   "UAF requires a Biology & Wildlife faculty member to agree to be your major advisor before you apply; a co-advisor elsewhere is allowed but the major advisor must be in-department",
+   "If you cannot find a match, the Graduate-Faculty Liaison Diana Wolf will point you at people — uaf-bw-dept@alaska.edu"
   ],
   "draft": "I am writing to ask whether you are recruiting a funded MS student for the coming cycle.\n\nI completed a BS in Environmental Science at Western Carolina University in May 2025. My field experience includes small-mammal trapping, camera-trap monitoring and wetland delineation, and my capstone examined trace-metal contamination in Pigeon River Basin sediments after Hurricane Helene.\n\nI would be glad to send a CV and transcripts."
  },
@@ -178,6 +196,8 @@ var GRAD_DATA={
   "prof": null,
   "profTitle": null,
   "email": null,
+  "facultyUrl": "https://hilo.hawaii.edu/depts/tcbes/people.php",
+  "facultyLabel": "UH Hilo TCBES — faculty",
   "notes": [
    "Hawaii Hilo TCBES — assistantships are posted through the programme rather than advertised per lab, so watch the funding page",
    "Contact-first: identify a TCBES faculty member whose work overlaps before applying"
@@ -188,10 +208,14 @@ var GRAD_DATA={
   "prof": null,
   "profTitle": null,
   "email": null,
+  "facultyUrl": "https://www.usgs.gov/programs/cooperative-research-units/connect/locations",
+  "facultyLabel": "USGS Coop Units — find the unit in your state",
   "notes": [
    "Not one programme — the USGS Cooperative Research Units are a network across many land-grant universities",
    "Each unit advertises its own assistantships, so this is a page to check regularly rather than apply to",
-   "A Coop Unit position is a strong federal on-ramp, which is worth the extra searching"
+   "A Coop Unit position is a strong federal on-ramp, which is worth the extra searching",
+   "43 units across 41 states at 44 host universities — pick the unit in a state you would move to, then email its Unit Leader or Assistant Unit Leader",
+   "Coop Unit scientists hold faculty appointments at the host university, so you apply to the UNIVERSITY’s grad programme while the Unit scientist is your advisor"
   ],
   "draft": "I am writing to ask whether your unit expects to recruit a funded MS student in the coming cycle.\n\nI completed a BS in Environmental Science at Western Carolina University in May 2025. My training is GIS including multi-criteria suitability analysis, wetland delineation under the Army Corps manual, and field sampling; my capstone examined trace-metal contamination in Pigeon River Basin sediments after Hurricane Helene.\n\nI am building toward federal natural-resource work, so a Coop Unit would suit me well. I would be glad to send a CV."
  },
@@ -199,6 +223,8 @@ var GRAD_DATA={
   "prof": null,
   "profTitle": null,
   "email": null,
+  "facultyUrl": "https://www.lsu.edu/agriculture/entomology/people/index.php",
+  "facultyLabel": "LSU Entomology — people",
   "notes": [
    "This is a PhD, not an MS — include it only if you are willing to commit to a doctorate",
    "Assistantship is $30,667/yr with a non-resident tuition waiver",
@@ -216,6 +242,10 @@ var GRAD_DATA={
    "Vacancies are posted for a minimum of two weeks, so check the page regularly rather than waiting for a deadline",
    "Placements span habitat, fisheries, water quality, stewardship and communications — say which team you want"
   ],
-  "draft": "I am writing about the Environmental Management Career Development Program.\n\nI completed a BS in Environmental Science at Western Carolina University in May 2025 and served an AmeriCorps NCCC term. My capstone examined lead and trace-metal contamination in Pigeon River Basin sediments after Hurricane Helene, and I am trained in wetland delineation under the Army Corps manual and GIS.\n\nI am most interested in the habitat and water quality goal teams. Could you tell me when the next vacancies are expected?"
+  "draft": "I am writing about the Environmental Management Career Development Program.\n\nI completed a BS in Environmental Science at Western Carolina University in May 2025 and served an AmeriCorps NCCC term. My capstone examined lead and trace-metal contamination in Pigeon River Basin sediments after Hurricane Helene, and I am trained in wetland delineation under the Army Corps manual and GIS.\n\nI am most interested in the habitat and water quality goal teams. Could you tell me when the next vacancies are expected?",
+  "kind": "job",
+  "applyUrl": "https://chesapeake.org/jobs-and-internships/",
+  "applyLabel": "CRC Jobs & Internships — where openings post",
+  "applyEmail": "crc-careerdevelopment@chesapeake.org"
  }
 };

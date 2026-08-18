@@ -52,6 +52,8 @@ body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6
 .gs-step.done .gs-steptext{color:var(--t3);text-decoration:line-through}
 .gs-step.next{background:var(--teal-bg);border-radius:var(--r1);margin:0 -8px;padding-left:8px;padding-right:8px}
 .gs-next-tag{color:var(--teal-t);font-weight:700}
+.gs-steplink{display:inline-block;margin-top:3px;font-size:12.5px;font-weight:500;color:var(--teal-t);text-decoration:none;border-bottom:1px solid var(--teal)}
+.gs-steplink:hover{background:var(--teal-bg)}
 .gs-mono{font-family:var(--mono);font-size:12px;background:var(--bg2);padding:1px 5px;border-radius:4px}
 
 .gs-notes{list-style:none;margin:0;padding:0}
@@ -235,11 +237,24 @@ function renderPrereq(){
    which would be an instruction she cannot follow. */
 function stepsFor(id,g,o){
   var s=[];
+  if(g.kind==='job'){
+    /* v4.10: this one is a paid placement, not a degree. There is no advisor to
+       court, so the whole professor track would be misleading — she watches for
+       an opening instead. */
+    s.push(['watch','Watch for an opening — postings run a minimum of two weeks',
+            g.applyUrl?{href:g.applyUrl,label:g.applyLabel||'Open the jobs page'}:null]);
+    s.push(['docs','Assemble the five pieces: cover letter, resume, 3 references, transcripts, and a 2-5 page sole-authored writing sample']);
+    s.push(['apply','Submit through the jobs page while the posting is open']);
+    return s;
+  }
   if(!g.prof){
     /* v4.07: on a department-wide posting the CHOICE is the entire blocker —
        nothing else can happen until she picks a person. So it is stated in four
-       words and sits at number one, ahead of even reading the posting. */
-    s.push(['match','Choose a professor to email']);
+       words and sits at number one, ahead of even reading the posting.
+       v4.10: and it now carries the directory link, so the step is actionable
+       rather than an instruction to go hunting. */
+    s.push(['match','Choose a professor to email',
+            g.facultyUrl?{href:g.facultyUrl,label:g.facultyLabel||'Open the faculty directory'}:null]);
     s.push(['read','Read the posting and check the programme still fits']);
     s.push(['email','Email the professor you chose']);
   } else {
@@ -299,6 +314,11 @@ function cardFor(id,rank,total){
     c1.appendChild(kv('Professor',pn));
     if(g.email){ var a=el('a',null,g.email); a.href='mailto:'+g.email; c1.appendChild(kv('Email',a)); }
     else c1.appendChild(kv('Email',el('span','gs-noprof','not published — find it on the department directory')));
+  } else if(g.kind==='job'){
+    /* a placement, not a degree — there is no PI, so saying "pick a faculty
+       match" would send her looking for someone who does not exist */
+    c1.appendChild(kv('Contact',el('span',null,'No advisor — this is a paid placement, applied for like a job')));
+    if(g.applyEmail){ var ae=el('a',null,g.applyEmail); ae.href='mailto:'+g.applyEmail; c1.appendChild(kv('Questions',ae)); }
   } else {
     c1.appendChild(kv('Professor',el('span','gs-noprof','No single PI — this is a department page, so pick a faculty match first')));
   }
@@ -330,6 +350,16 @@ function cardFor(id,rank,total){
     var txt=el('span','gs-steptext');
     if(isNext){ var tag=el('span','gs-next-tag','Next — '); txt.appendChild(tag); }
     txt.appendChild(document.createTextNode(sp[1]));
+    if(sp[2] && sp[2].href){
+      var a=el('a','gs-steplink'); a.href=sp[2].href;
+      a.target='_blank'; a.rel='noopener noreferrer';
+      a.textContent=sp[2].label;
+      /* the whole row is a <label>, so a bare click would ALSO tick the step —
+         opening the directory must not mark "choose a professor" as done */
+      a.onclick=function(e){ e.stopPropagation(); };
+      txt.appendChild(document.createElement('br'));
+      txt.appendChild(a);
+    }
     lab.appendChild(cb); lab.appendChild(txt);
     c2.appendChild(lab);
   });
@@ -344,8 +374,8 @@ function cardFor(id,rank,total){
     c3.appendChild(ul); card.appendChild(c3);
   }
 
-  /* draft email */
-  if(g.draft){
+  /* draft email — suppressed for job placements, which have nobody to write to */
+  if(g.draft && g.kind!=='job'){
     var c4=el('div','gs-sec');
     var bar=el('div','gs-draftbar');
     /* collapsed by default: 20 cards each showing a full email is unreadable,
