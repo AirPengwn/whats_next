@@ -503,6 +503,74 @@ function render(){
   renderPrereq();
 }
 
+/* ── v4.13: stay current without a reload ────────────────────────────────
+   Before this, the page read her saved list once at load. Star a programme in
+   another tab, come back here, and it was not there until a refresh.
+
+   The saved list already lives in localStorage under My List's key, and
+   orderedIds() only ever reads the KEYS of SAVED — never the values — so we
+   can re-read it for FREE. That matters: the JSONbin credit is finite and
+   non-renewing, so the common case must not cost a request. */
+var MYLIST_STORE='erin_mylist_v1';
+function savedFromLocal(){
+  /* reader mode keeps My List in memory, not localStorage — nothing to read */
+  if(!isPrimary()) return null;
+  try{
+    var m=JSON.parse(localStorage.getItem(MYLIST_STORE)||'null');
+    return (m && typeof m==='object' && !Array.isArray(m)) ? m : null;
+  }catch(e){ return null; }
+}
+function gradCount(map){
+  return Object.keys(map||{}).filter(function(id){
+    var o=(window.ALL||[]).filter(function(x){return x.id===id;})[0];
+    return o && (o.type||o.cat||'').toLowerCase().indexOf('grad')>=0;
+  }).length;
+}
+function refreshSaved(){
+  var m=savedFromLocal(); if(!m) return false;
+  if(Object.keys(m).sort().join(',')===Object.keys(SAVED).sort().join(',')) return false;
+  var was=gradCount(SAVED), now=gradCount(m);
+  SAVED=m; render();
+  if(now>was) flash(now-was===1?'1 new programme added':(now-was)+' new programmes added');
+  else if(now<was) flash('List updated');
+  return true;
+}
+/* another tab on this device changed the saved list, or her step progress */
+window.addEventListener('storage',function(e){
+  if(!e) return;
+  if(e.key===MYLIST_STORE){ refreshSaved(); return; }
+  if(e.key===STORE){
+    try{
+      var o=JSON.parse(e.newValue||'{}');
+      PRE=o._pre||PRE;
+      Object.keys(o).forEach(function(k){ if(k!=='_pre') STATE[k]=o[k]; });
+      render();
+    }catch(err){}
+  }
+});
+/* returning to a tab that has been sitting open */
+document.addEventListener('visibilitychange',function(){
+  if(document.visibilityState!=='visible') return;
+  if(refreshSaved()) return;
+  /* Nothing new locally — she may have starred something on another DEVICE.
+     Worth one cloud read, but ONCE per browser session (wnHeartbeatDue is
+     sessionStorage-backed), so a tab switched to all day costs +1 request,
+     not one per switch. Only SAVED is refreshed: her step progress in THIS
+     tab is more current than the cloud, and must not be overwritten. */
+  if(!(window.wnHeartbeatDue && window.wnHeartbeatDue('gradsteps-revisit'))) return;
+  fetch('https://api.jsonbin.io/v3/b/'+BIN+'/latest',{headers:{'X-Access-Key':KEY}})
+    .then(function(r){ return r.json(); })
+    .then(function(d){
+      var items=(d&&d.record&&d.record.items)||null;
+      if(!items || typeof items!=='object') return;
+      if(Object.keys(items).sort().join(',')===Object.keys(SAVED).sort().join(',')) return;
+      var was=gradCount(SAVED), now=gradCount(items);
+      SAVED=items; render();
+      if(now!==was) flash(now>was?(now-was)+' new from another device':'List updated');
+    })
+    .catch(function(){});
+});
+
 /* boot: read her saved items + any existing step state from the cloud */
 function boot(){
   var local=load(); PRE=local._pre||{};
