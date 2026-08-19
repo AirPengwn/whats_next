@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
-<link rel="stylesheet" href="styles.css?v=20260818-964-e0cc9a92">
+<link rel="stylesheet" href="styles.css?v=20260819-964-e0cc9a92">
 <title>Grad Steps — What's Next for Erin</title>
 <style>
 body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem}
@@ -25,9 +25,10 @@ body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6
 .gs-card.allDone{opacity:.55;background:var(--bg2)}
 .gs-top{display:flex;gap:11px;align-items:flex-start}
 .gs-rankcol{display:flex;flex-direction:column;gap:3px;flex-shrink:0;padding-top:1px}
-.gs-arrow{width:26px;height:21px;padding:0;line-height:1;font-size:12px;border:.5px solid var(--bds);background:transparent;color:var(--t2);border-radius:5px;cursor:pointer;font-family:var(--fn)}
-.gs-arrow:hover:not(:disabled){background:var(--bg2);color:var(--t1)}
-.gs-arrow:disabled{opacity:.3;cursor:default}
+.gs-ranklbl{font-size:12.5px;color:var(--t3);text-align:center;line-height:1.25}
+.gs-ranksel{width:56px;font-family:var(--mono);font-size:13px;text-align:center;padding:3px 2px;margin:1px 0;border:.5px solid var(--bds);border-radius:5px;background:var(--bg);color:var(--t1);cursor:pointer}
+.gs-ranksel:hover:not(:disabled){background:var(--bg2)}
+.gs-ranksel:disabled{opacity:.4;cursor:default}
 .gs-main{flex:1;min-width:0}
 .gs-titlerow{display:flex;align-items:baseline;justify-content:space-between;gap:8px}
 .gs-title{font-size:14.5px;font-weight:600;color:var(--t1);line-height:1.35}
@@ -35,7 +36,6 @@ body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6
 .gs-org{font-size:12.5px;color:var(--t3);margin-top:2px}
 .gs-pills{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
 .gs-pill{font-size:12.5px;font-weight:500;padding:2px 9px;border-radius:999px;background:var(--teal-bg);color:var(--teal-t);white-space:nowrap}
-.gs-pill.rank{background:var(--bg2);color:var(--t2);border:.5px solid var(--bd);font-family:var(--mono)}
 .gs-pill.warn{background:var(--amber-bg);color:var(--amber-t)}
 .gs-warn{margin-top:9px;border-left:3px solid #ef9f27;background:var(--amber-bg);padding:7px 11px;font-size:12.5px;color:var(--amber-t);line-height:1.5}
 
@@ -75,10 +75,10 @@ body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6
 .gs-flash{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:var(--t1);color:var(--bg);font-size:12.5px;padding:7px 16px;border-radius:999px;opacity:0;transition:opacity .2s;pointer-events:none;z-index:200}
 .gs-flash.show{opacity:1}
 .footer{font-size:12.5px;color:var(--t3);text-align:center;margin-top:1.5rem;padding-bottom:1.5rem}
-@media print{.gnav-toggle,.gs-arrow,.gs-btn,.global-nav{display:none!important}}
+@media print{.gnav-toggle,.gs-ranksel,.gs-btn,.global-nav{display:none!important}}
 </style>
 <script src="icons.js?v=20260602"></script>
-<script src="site.js?v=20260818-964-e0cc9a92"></script>
+<script src="site.js?v=20260819-964-e0cc9a92"></script>
 <script>
 (function(){
   var saved=localStorage.getItem('erin_theme');
@@ -153,8 +153,8 @@ body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6
 
 <div class="gs-flash" id="gs-flash"></div>
 
-<script src="opportunities.js?v=20260818-964-e0cc9a92"></script>
-<script src="grad_data.js?v=20260818-964-e0cc9a92"></script>
+<script src="opportunities.js?v=20260819-964-e0cc9a92"></script>
+<script src="grad_data.js?v=20260819-964-e0cc9a92"></script>
 <script>
 /* ══ GRAD STEPS ═══════════════════════════════════════════════════════════
    Shows every SAVED graduate programme with an explicit, checkable sequence.
@@ -278,12 +278,26 @@ function cardFor(id,rank,total){
   var card=el('div','gs-card'+(doneAll?' allDone':'')); card.id='gs-'+id;
   var top=el('div','gs-top');
 
+  /* v4.12: one dropdown replaces the up/down arrows. Walking a card from 20th
+     to 1st used to be 19 clicks; now it is one choice. The select also REPLACES
+     the old "Rank n of N" pill so there is a single number, not two. */
   var rc=el('div','gs-rankcol');
-  var up=el('button','gs-arrow','▲'); up.type='button'; up.setAttribute('aria-label','Move up');
-  up.disabled=(rank===1); up.onclick=function(){ move(id,-1); };
-  var dn=el('button','gs-arrow','▼'); dn.type='button'; dn.setAttribute('aria-label','Move down');
-  dn.disabled=(rank===total); dn.onclick=function(){ move(id,1); };
-  rc.appendChild(up); rc.appendChild(dn); top.appendChild(rc);
+  rc.appendChild(el('div','gs-ranklbl','Rank'));
+  var sel=el('select','gs-ranksel');
+  for(var r=1;r<=total;r++){
+    var op=document.createElement('option');
+    op.value=String(r); op.textContent=String(r);
+    if(r===rank) op.selected=true;
+    sel.appendChild(op);
+  }
+  /* a finished card is parked at the bottom, so its rank number no longer
+     matches where it sits — re-ranking it would only be confusing */
+  sel.disabled=doneAll;
+  sel.setAttribute('aria-label','Rank of '+total+' — choose a position to move this programme to');
+  sel.onchange=function(){ setRank(id,parseInt(sel.value,10)); };
+  rc.appendChild(sel);
+  rc.appendChild(el('div','gs-ranklbl','of '+total));
+  top.appendChild(rc);
 
   var main=el('div','gs-main');
   var tr=el('div','gs-titlerow');
@@ -293,7 +307,6 @@ function cardFor(id,rank,total){
   main.appendChild(el('div','gs-org',o.org||''));
 
   var pl=el('div','gs-pills');
-  pl.appendChild(el('span','gs-pill rank','Rank '+rank+' of '+total));
   if(o.stipend||o.pay) pl.appendChild(el('span','gs-pill',(o.stipend||o.pay).slice(0,42)));
   if(o.location) pl.appendChild(el('span','gs-pill',o.location.slice(0,34)));
   if(o.expired===true) pl.appendChild(el('span','gs-pill warn','Expired — next cycle'));
@@ -456,10 +469,18 @@ function orderedIds(){
   ids.forEach(function(id,i){ if(!STATE[id]) STATE[id]={done:[],rank:i+1}; else STATE[id].rank=i+1; });
   return ids;
 }
-function move(id,dir){
-  var ids=orderedIds(), i=ids.indexOf(id), j=i+dir;
-  if(i<0||j<0||j>=ids.length) return;
-  var tmp=STATE[ids[i]].rank; STATE[ids[i]].rank=STATE[ids[j]].rank; STATE[ids[j]].rank=tmp;
+/* Move a card to an absolute position. This INSERTS and shifts rather than
+   swapping: sending rank 15 to rank 3 pushes 3..14 down one, it does not
+   dump the old number 3 down to 15th. Ranks are rewritten 1..N afterwards so
+   they stay contiguous no matter how many moves happen. */
+function setRank(id,pos){
+  var ids=orderedIds(), i=ids.indexOf(id);
+  if(i<0 || !pos || pos!==pos) return;
+  pos=Math.max(1,Math.min(ids.length,Math.round(pos)));
+  if(pos-1===i) return;
+  ids.splice(i,1);
+  ids.splice(pos-1,0,id);
+  ids.forEach(function(x,k){ if(STATE[x]) STATE[x].rank=k+1; });
   save(); render();
 }
 
