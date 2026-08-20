@@ -1,11 +1,6 @@
 # Weekly opportunity sweep — 2026-08-20
 
-**Added 5 new** opportunities:
-- Funded MSc in Canada — how the money actually works (READ FIRST) — _Excellent_ · Canada-wide / Remote · deadline: n/a — reference card
-- MSc — Nutrients & Ecosystem Health (soil nutrients and lake chemistry) — _Excellent_ · Ontario · deadline: Rolling — contact the supervisor first
-- MSc — Microplastics, Biomonitoring & Air Pollution in Canadian ecosystems — _Strong_ · Ontario · deadline: Rolling — contact the supervisor first
-- MSc/PhD — Global Change Ecology: northern waters and soils — _Strong_ · Ontario · deadline: Rolling — contact the supervisor first
-- MSc Renewable Resources — reclamation, restoration, conservation biology (SOURCE) — _Strong_ · Prairies (AB/SK/MB) · deadline: Rolling — contact the supervisor first
+**Added 0 new** opportunities.
 
 **Updated 0** (deadline / status / description changed).
 
