@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
-<link rel="stylesheet" href="styles.css?v=20260819-964-e0cc9a92">
+<link rel="stylesheet" href="styles.css?v=20260820-969-122a6c9f">
 <title>Funded Graduate Programs — What’s Next for Erin</title>
 <style>
 body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem}
@@ -101,7 +101,7 @@ html.dark .bx-new{background:#ff5a3c;color:#1a1a1a}
   window.__toggleTheme=function(){var d=document.documentElement.classList.toggle('dark');localStorage.setItem('erin_theme',d?'dark':'light');upBtn();};
 })();
 </script>
-<script src="site.js?v=20260819-964-e0cc9a92"></script>
+<script src="site.js?v=20260820-969-122a6c9f"></script>
 </head>
 <body>
 <!-- GLOBAL NAV -->
@@ -156,7 +156,7 @@ html.dark .bx-new{background:#ff5a3c;color:#1a1a1a}
 <div id="browse-body"></div>
 <p class="footer">Live opportunities, sorted by urgency. Saving is gated to Erin&rsquo;s primary device.<br><br><a href="index.html" style="color:var(--blue)">&#8592; Back to home</a></p>
 </div>
-<script src="opportunities.js?v=20260819-964-e0cc9a92"></script>
+<script src="opportunities.js?v=20260820-969-122a6c9f"></script>
 <script>
 (function(){
 var BIN_ID='6a675f8ef5f4af5e29c7eca6',API_KEY='$2a$10$3VnClCkIfxL8M8fyJ.LzUevSqMpr8VjiTBw.dMqWluks0WktJY4eq',STORE='erin_mylist_v1';
@@ -484,6 +484,12 @@ function fitRank(b){ b=(b||'').toLowerCase();
 var TYPES=['All','Graduate','Internship','Career','Service'];
 var CYCLES=[['All','All'],['Current','current'],['Next cycle','next']];
 var REGIONS=['Southeast & Appalachia','Northeast','Midwest & Great Plains','Mountain West','Southwest','West Coast / Pacific','Alaska, Hawaii & Territories','National / Remote / Multiple'];
+/* v4.14: Canadian postings carry country:'CA' and one of these regions. They
+   are HIDDEN unless the Canada chip is on, because they carry a work-permit
+   question no US posting does — mixing them into the default list would put
+   roles she cannot take today next to ones she can. */
+var CA_REGIONS=['British Columbia','Prairies (AB/SK/MB)','Ontario','Atlantic Canada','Northern Canada','Canada-wide / Remote'];
+function isCA(it){ return !!it && it.country==='CA'; }
 var STATUSES=[['All',-1],['Closing soon',0],['Upcoming',1],['Open / rolling',2],['Contact first',3],['Unconfirmed',4],['Passed',5]];
 var FITS=['All','Exceptional','Strong','Good','Reach / review'];
 var SUB={
@@ -513,6 +519,7 @@ var viewScope='all'; /* scope view: 'all' | 'priority' | 'expired' | 'removed' �
    entries at once AND to every future sweep add, with no data migration and
    nothing for the weekly run to remember to tag. */
 var nrmFilter=false;
+var caFilter=false;   /* v4.14: off = Canada hidden; on = Canada ONLY */
 function isFundedMS(it){
   if(!it) return false;
   if((it.type||it.cat||'').toLowerCase().indexOf('grad')<0) return false;
@@ -574,7 +581,9 @@ function removedSet(){
 /* deep-link pre-filters: ?region=… &type=… &view=browse (home quick-links) */
 (function(){ try{
   var q=new URLSearchParams((typeof location!=='undefined'&&location.search)||'');
-  var rg=q.get('region'); if(rg && REGIONS.indexOf(rg)>-1) BX.region=[rg];
+  if(q.get('ca')==='1') caFilter=true;                        /* v4.14 deep-link into Canada mode */
+  var _RG = caFilter?CA_REGIONS:REGIONS;
+  var rg=q.get('region'); if(rg && _RG.indexOf(rg)>-1) BX.region=[rg];
   var lk=(typeof LOCK_TYPE!=='undefined'&&LOCK_TYPE);
   var ty=q.get('type'); if(ty && !lk && ['Graduate','Internship','Career','Service'].indexOf(ty)>-1) BX.type=[ty];
   if(q.get('view')==='browse' && typeof setMode==='function') setMode('browse');
@@ -640,7 +649,8 @@ function buildBrowseFiltersX(){
   w.appendChild(_vrow);
   if(!LOCK_TYPE) w.appendChild(mgroup('Type', BX.type, TYPES.slice(1).map(function(t){return [t,t];})));
   w.appendChild(mgroup('Cycle', BX.cycle, CYCLES.slice(1)));
-  w.appendChild(mgroup('Region', BX.region, REGIONS.map(function(r){return [r,r];})));
+  /* in Canada mode the US regions are meaningless, so swap the chip set */
+  w.appendChild(mgroup('Region', BX.region, (caFilter?CA_REGIONS:REGIONS).map(function(r){return [r,r];})));
   w.appendChild(mgroup('Status', BX.status, STATUSES.slice(1)));
   w.appendChild(mgroup('Fit', BX.fit, FITS.slice(1).map(function(f){return [f,f];})));
   w.appendChild(mgroup('New', BX.fresh, FRESH));
@@ -657,6 +667,12 @@ function buildBrowseFiltersX(){
      group rather than a Type sub-filter because it cuts ACROSS type — a
      mis-typed grad entry on the Jobs page still qualifies. */
   w.appendChild(fgroup('Grad', [chip('🎓 Funded MS (NRM) only', nrmFilter, function(){ nrmFilter=!nrmFilter; renderBrowse(); })]));
+  /* v4.14: Canada mode. Region chips are cleared on the way in AND out, because
+     a US region left selected would silently zero the Canadian list (and the
+     reverse), which reads as "there is nothing there" rather than "wrong filter". */
+  w.appendChild(fgroup('Country', [chip('🇨🇦 Canada only', caFilter, function(){
+    caFilter=!caFilter; BX.region=[]; renderBrowse();
+  })]));
   /* v2.19/v2.20: broken-link filter — chip label shows "(view-only)" on
      read-only devices since flags can only be added on Erin's primary. */
   var _blChipLbl = '⚠ Only broken links' + (document.documentElement.classList.contains('erin-readonly') ? ' (view-only)' : '');
@@ -823,6 +839,9 @@ function renderBrowseX(){
     else if(viewScope==='removed'){ if(!RM[it.id]) return false; }
     /* Reviewed filter — applies in every scope; never expands what's shown */
     if(nrmFilter && !isFundedMS(it)) return false;   /* v4.04 funded-MS narrow */
+    /* v4.14: Canada is a separate mode, not an addition — off hides it, on
+       shows nothing else. Applies in EVERY scope including saved/priority. */
+    if(caFilter !== isCA(it)) return false;
     if(reviewedFilter==='unrev' && rvHas(it.id)) return false;
     if(reviewedFilter==='rev'   && !rvHas(it.id)) return false;
     if(BX.type.length   && !has1(BX.type,typeOf(it))) return false;

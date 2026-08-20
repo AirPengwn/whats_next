@@ -40956,5 +40956,268 @@
       "Shape her own thesis",
       "Fall entry — closes Feb 1"
     ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 19, 2026"
+    },
+    "cycle": "current",
+    "deadline": "Rolling — check regularly",
+    "deadline_kind": "rolling",
+    "start": "",
+    "stipend": "",
+    "benefits": "",
+    "country": "CA",
+    "id": "item-989",
+    "title": "Working in Canada as a US citizen — the two permit routes (READ FIRST)",
+    "org": "Immigration reference · applies to every Canadian entry below",
+    "location": "Canada-wide",
+    "region": "Canada-wide / Remote",
+    "badge": "Top recommendation",
+    "pills": [
+      "🇨🇦 READ THIS FIRST",
+      "IEC = open permit, no job offer",
+      "CUSMA = BS only, no experience",
+      "Skip government postings"
+    ],
+    "metaLine": "🇨🇦 The jobs are real and the work matches — the question is which permit gets you there",
+    "pay": "n/a — reference card",
+    "body": "Canadian conservation work maps almost one-to-one onto Erin’s training, but a US citizen needs authorisation. Two routes are open to her. (1) INTERNATIONAL EXPERIENCE CANADA — Working Holiday. There is no bilateral US–Canada youth-mobility agreement, so Americans cannot apply directly; they go through a Recognized Organization (SWAP, administered in the US by IENA/InterExchange). Ages 18–35. It is an OPEN work permit for up to a year with NO job offer required. (2) CUSMA PROFESSIONAL work permit — LMIA-exempt, which makes employers far more willing, but it requires a job offer in a listed profession.",
+    "desc": "Read this before working the Canadian list. The IEC route is the one to act on first: an open permit means she can take seasonal field crews and technician work that is effectively unreachable from abroad, and a year of that is exactly the \"one year of experience in applied environmental science\" that US state wetland and natural-resources roles keep asking for. The CUSMA route matters once she has an offer: the official Appendix 2 list includes Biologist, Forester, Range Manager/Range Conservationalist, Soil Scientist, Entomologist, Zoologist, Horticulturist, Geologist, Land Surveyor, Landscape Architect and Research Assistant — each needing only a \"Baccalaureate or Licenciatura Degree\" with NO experience minimum. Two cautions: an officer must accept that an Environmental Science BS fits the profession claimed, and government postings are largely a dead end — non-citizens may apply to the Canadian federal public service but citizens and PRs get preference and non-citizens were only about 2.5% of hires.",
+    "detail": [
+      {
+        "t": "h",
+        "v": "Route 1 — IEC Working Holiday (start here)"
+      },
+      {
+        "t": "row",
+        "label": "Why it is best",
+        "value": "OPEN work permit, up to 12 months, NO job offer needed — she can take any job, including the seasonal field work that builds the experience US employers want."
+      },
+      {
+        "t": "row",
+        "label": "How Americans get in",
+        "value": "Not directly. The US has no youth-mobility agreement with Canada, so she must be nominated by a Recognized Organization — SWAP (swap.ca), administered stateside by IENA/InterExchange. Places are limited and waitlisted; apply early in the season."
+      },
+      {
+        "t": "row",
+        "label": "Age limit",
+        "value": "18–35. She is 28, so there is several years of runway — but this is the one route with an expiry date on it."
+      },
+      {
+        "t": "h",
+        "v": "Route 2 — CUSMA professional (once she has an offer)"
+      },
+      {
+        "t": "row",
+        "label": "The advantage",
+        "value": "LMIA-exempt: the employer does not have to prove no Canadian could do the job, which is the usual deal-breaker. Requires a job offer in a listed profession."
+      },
+      {
+        "t": "row",
+        "label": "Professions that fit her",
+        "value": "Biologist · Forester · Range Manager/Range Conservationalist · Soil Scientist · Entomologist · Zoologist · Horticulturist · Geologist · Land Surveyor · Landscape Architect · Research Assistant at a post-secondary institution. All require only \"Baccalaureate or Licenciatura Degree\" — no years of experience."
+      },
+      {
+        "t": "row",
+        "label": "The catch",
+        "value": "The officer must accept that her degree qualifies her for the profession claimed. Environmental Science read as \"Biologist\" is plausible given her ecology, wildlife, mammalogy and wetlands coursework, but it is not automatic. A technician-titled role likely will not qualify as Biologist — the separate Scientific Technician/Technologist category covers that and is keyed to theoretical knowledge rather than a specific degree."
+      },
+      {
+        "t": "h",
+        "v": "Route 3 — the long game"
+      },
+      {
+        "t": "row",
+        "label": "Canadian funded MSc",
+        "value": "A Canadian master’s earns a Post-Graduation Work Permit on completion — open, no employer needed — and Canadian work experience is the main input to permanent residence. The grad route and the job route are the same route, just ordered differently."
+      },
+      {
+        "t": "row",
+        "label": "Where NOT to spend effort",
+        "value": "Federal and provincial government postings, and Parks Canada. Technically open to non-citizens, but citizens and PRs get preference and non-citizens were ~2.5% of hires. Aim at private consultancies and non-profits instead."
+      }
+    ],
+    "links": [
+      {
+        "href": "https://swap.ca/",
+        "label": "🔗 SWAP — the Recognized Organization for IEC"
+      },
+      {
+        "href": "https://www.interexchange.org/programs/travel-experiences-for-u-s-residents/work-travel-canada/",
+        "label": "🔗 InterExchange — the US-side administrator"
+      }
+    ],
+    "url": "https://swap.ca/",
+    "url_label": "SWAP Working Holidays"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 19, 2026"
+    },
+    "cycle": "current",
+    "deadline": "Rolling — check regularly",
+    "deadline_kind": "rolling",
+    "start": "",
+    "stipend": "",
+    "benefits": "",
+    "country": "CA",
+    "id": "item-990",
+    "title": "GoodWork.ca — Canada’s environmental job board (SOURCE)",
+    "org": "GoodWork.ca · nationwide",
+    "location": "Canada-wide",
+    "region": "Canada-wide / Remote",
+    "badge": "Top recommendation",
+    "pills": [
+      "The main Canadian board",
+      "~173 live postings",
+      "Set an email alert"
+    ],
+    "metaLine": "🇨🇦 If she checks one Canadian source, this is it",
+    "pay": "Varies by posting (CAD)",
+    "body": "GoodWork.ca is the primary environmental, conservation and sustainability job board in Canada, carrying roughly 173 live postings when checked in August 2026. It covers non-profits, consultancies, stewardship groups and municipalities across every province, and can be filtered by province and by sector.",
+    "desc": "This is the single highest-yield Canadian source and the first place to set up a saved search. Filter to the provinces she would actually move to and set an email alert rather than checking manually. Entry-level titles to watch for: stewardship technician, restoration technician, field assistant, environmental technician, water quality technician, GIS technician, conservation intern.",
+    "links": [
+      {
+        "href": "https://www.goodwork.ca/jobs.php",
+        "label": "🔗 GoodWork.ca job listings"
+      }
+    ],
+    "url": "https://www.goodwork.ca/jobs.php",
+    "url_label": "GoodWork.ca"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 19, 2026"
+    },
+    "cycle": "current",
+    "deadline": "Rolling — check regularly",
+    "deadline_kind": "rolling",
+    "start": "",
+    "stipend": "",
+    "benefits": "",
+    "country": "CA",
+    "id": "item-991",
+    "title": "Ontario’s 36 Conservation Authorities — watershed agencies hiring (SOURCE)",
+    "org": "Conservation Ontario · 36 watershed agencies across the province",
+    "location": "Ontario",
+    "region": "Ontario",
+    "badge": "Top recommendation",
+    "pills": [
+      "Closest match to her US target roles",
+      "36 separate employers",
+      "Wetland permitting + water quality"
+    ],
+    "metaLine": "🇨🇦 The Canadian analogue of the Maryland wetland-reviewer job — and there are 36 of them",
+    "pay": "Ontario wetland roles average ~C$69,800; most C$55k–77k",
+    "body": "Ontario is divided into 36 Conservation Authorities — watershed-based public agencies responsible for wetland and waterway permitting, floodplain regulation, water quality monitoring, and habitat restoration. Each hires independently and posts its own vacancies, including permanent, contract and seasonal roles. Toronto and Region (TRCA) is the largest.",
+    "desc": "Structurally this is the closest thing in Canada to the Maryland Tidal Wetlands reviewer role — regulatory wetland review inside a watershed agency — except there are 36 separate employers instead of one posting. Work the roster page, shortlist the authorities covering areas she would live in, and check each career page directly; many never syndicate to the big boards. Note these are public bodies, so confirm whether a posting requires citizenship or PR before investing in an application.",
+    "links": [
+      {
+        "href": "https://conservationontario.ca/conservation-authorities/find-a-conservation-authority",
+        "label": "🔗 Find a Conservation Authority — the full roster of 36"
+      },
+      {
+        "href": "https://trca.ca/about/careers/",
+        "label": "🔗 TRCA careers (the largest authority)"
+      }
+    ],
+    "url": "https://conservationontario.ca/conservation-authorities/find-a-conservation-authority",
+    "url_label": "Conservation Ontario — authority roster"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 19, 2026"
+    },
+    "cycle": "current",
+    "deadline": "Rolling — check regularly",
+    "deadline_kind": "rolling",
+    "start": "",
+    "stipend": "",
+    "benefits": "",
+    "country": "CA",
+    "id": "item-992",
+    "title": "Ducks Unlimited Canada — careers and seasonal positions (SOURCE)",
+    "org": "Ducks Unlimited Canada · ~480 staff, offices in every province",
+    "location": "Canada-wide",
+    "region": "Canada-wide / Remote",
+    "badge": "Top recommendation",
+    "pills": [
+      "Wetland conservation is the whole mission",
+      "Seasonal + permanent streams",
+      "Army Corps training is on-mission"
+    ],
+    "metaLine": "🇨🇦 Wetlands are not a department here — they are the entire organisation",
+    "pay": "Varies by posting (CAD)",
+    "body": "Ducks Unlimited Canada is the country’s largest wetland conservation organisation, with roughly 480 staff and offices in every province. Postings run through an ADP portal with separate streams for career and seasonal opportunities, covering habitat restoration, conservation programmes, GIS and field science.",
+    "desc": "Of every Canadian employer, this is the tightest fit for her specific training — wetland delineation, water quality and habitat work are the core business rather than one service line. As a non-profit it is also far more likely than a government body to work through a CUSMA permit. Check both the career and the seasonal portals: the seasonal stream is the realistic entry point, and pairs naturally with an IEC open work permit.",
+    "links": [
+      {
+        "href": "https://www.ducks.ca/about/careers/",
+        "label": "🔗 Ducks Unlimited Canada — careers"
+      }
+    ],
+    "url": "https://www.ducks.ca/about/careers/",
+    "url_label": "Ducks Unlimited Canada careers"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 19, 2026"
+    },
+    "cycle": "current",
+    "deadline": "Rolling — check regularly",
+    "deadline_kind": "rolling",
+    "start": "",
+    "stipend": "",
+    "benefits": "",
+    "country": "CA",
+    "id": "item-993",
+    "title": "ECO Canada / ECOworks — environmental job board and wage data (SOURCE)",
+    "org": "ECO Canada · the environmental sector council",
+    "location": "Canada-wide",
+    "region": "Canada-wide / Remote",
+    "badge": "Strong fit",
+    "pills": [
+      "Sector council board",
+      "Salary benchmarks",
+      "Consultancy-heavy"
+    ],
+    "metaLine": "🇨🇦 Second board to set an alert on — heavier on consulting roles",
+    "pay": "Varies by posting (CAD)",
+    "body": "ECO Canada is the national sector council for environmental employment; its ECOworks board carries postings across consulting, industry, government and non-profits, and it publishes wage and labour-market data for environmental occupations.",
+    "desc": "Worth a saved search alongside GoodWork — the overlap is partial and ECOworks skews toward private consultancies, which are the employers most able to handle a CUSMA permit. Its wage data is also the cleanest way to sanity-check whether a Canadian salary offer is reasonable before she negotiates.",
+    "links": [
+      {
+        "href": "https://ecoworks.eco.ca/",
+        "label": "🔗 ECOworks job board"
+      }
+    ],
+    "url": "https://ecoworks.eco.ca/",
+    "url_label": "ECO Canada — ECOworks"
   }
 ]
