@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
-<link rel="stylesheet" href="styles.css?v=20260820-974-edae86f3">
+<link rel="stylesheet" href="styles.css?v=20260820-979-23e66d34">
 <title>Working in Canada &mdash; What&rsquo;s Next for Erin</title>
 <style>
 body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem}
@@ -52,6 +52,31 @@ td:first-child{color:var(--t1);font-weight:500;white-space:nowrap}
 tr:last-child td{border-bottom:none}
 .scroller{overflow-x:auto}
 
+/* Schematic province map. Deliberately a tile grid, not a real coastline —
+   it is about which region sits above which part of the US, and a blocky
+   map says "diagram" rather than pretending to be geography. */
+.camap{width:100%;max-width:520px;height:auto;display:block;margin:.3rem auto .2rem}
+.camap text{font-family:var(--fn);font-weight:600;fill:var(--t1)}
+.camap .tile{stroke:var(--bd);stroke-width:.5}
+.camap .m-north{fill:#e6eefb} .camap .m-bc{fill:#dcefe9} .camap .m-prai{fill:#f7ecd9}
+.camap .m-on{fill:#e8e4fb}   .camap .m-qc{fill:#ededed} .camap .m-atl{fill:#fae3e0}
+.camap .m-us{fill:#f2f2f2}
+.camap .lbl-qc,.camap .lbl-us{fill:var(--t3);font-weight:500}
+.camap .border{stroke:var(--t3);stroke-width:1.2;stroke-dasharray:5 4}
+.camap .bcap{font-size:10px;font-weight:500;fill:var(--t3);letter-spacing:.04em}
+html.dark .camap .m-north{fill:#1e3350} html.dark .camap .m-bc{fill:#17453a}
+html.dark .camap .m-prai{fill:#4a3a1c}  html.dark .camap .m-on{fill:#2f2a5c}
+html.dark .camap .m-qc{fill:#383838}    html.dark .camap .m-atl{fill:#4d2622}
+html.dark .camap .m-us{fill:#2a2a2a}
+.maplegend{display:flex;flex-wrap:wrap;gap:6px 12px;justify-content:center;margin:.5rem 0 .9rem;font-size:12.5px;color:var(--t2)}
+.maplegend span{display:inline-flex;align-items:center;gap:6px}
+.maplegend i{width:12px;height:12px;border-radius:3px;border:.5px solid var(--bd);display:inline-block}
+.lg-north{background:#e6eefb} .lg-bc{background:#dcefe9} .lg-prai{background:#f7ecd9}
+.lg-on{background:#e8e4fb}    .lg-qc{background:#ededed} .lg-atl{background:#fae3e0}
+html.dark .lg-north{background:#1e3350} html.dark .lg-bc{background:#17453a}
+html.dark .lg-prai{background:#4a3a1c}  html.dark .lg-on{background:#2f2a5c}
+html.dark .lg-qc{background:#383838}    html.dark .lg-atl{background:#4d2622}
+
 .steps{counter-reset:s}
 .steps li{counter-increment:s;list-style:none;position:relative;padding:6px 0 6px 30px;font-size:13.5px;color:var(--t2);line-height:1.6}
 .steps li:before{content:counter(s);position:absolute;left:0;top:7px;width:20px;height:20px;border-radius:50%;background:var(--teal-bg);color:var(--teal-t);font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center}
@@ -60,7 +85,7 @@ tr:last-child td{border-bottom:none}
 .footer{font-size:12.5px;color:var(--t3);text-align:center;margin-top:2rem;padding-bottom:1.5rem;line-height:1.7}
 </style>
 <script src="icons.js?v=20260602"></script>
-<script src="site.js?v=20260820-974-edae86f3"></script>
+<script src="site.js?v=20260820-979-23e66d34"></script>
 <script>
 (function(){
   var saved=localStorage.getItem('erin_theme');
@@ -210,6 +235,67 @@ tr:last-child td{border-bottom:none}
 
 <div class="card">
   <div class="card-h">A quick map of the country, by what they hire for</div>
+  <p style="margin-bottom:.5rem">Every one of these sits directly on top of somewhere you already know. The blocks are schematic, not real coastlines &mdash; the point is which region is above which part of the States.</p>
+
+  <svg class="camap" viewBox="0 0 493 286" role="img" aria-label="Schematic map of Canadian provinces and territories shown above the United States border, grouped by hiring region">
+    <!-- territories -->
+    <rect class="tile m-north" x="5"   y="5"   width="64" height="42" rx="5"/>
+    <rect class="tile m-north" x="74"  y="5"   width="64" height="42" rx="5"/>
+    <rect class="tile m-north" x="143" y="5"   width="64" height="42" rx="5"/>
+    <text x="37"  y="31" text-anchor="middle" font-size="13">YT</text>
+    <text x="106" y="31" text-anchor="middle" font-size="13">NT</text>
+    <text x="175" y="31" text-anchor="middle" font-size="13">NU</text>
+
+    <!-- main west-to-east band -->
+    <rect class="tile m-bc"   x="5"   y="52"  width="64" height="42" rx="5"/>
+    <rect class="tile m-prai" x="74"  y="52"  width="64" height="42" rx="5"/>
+    <rect class="tile m-prai" x="143" y="52"  width="64" height="42" rx="5"/>
+    <rect class="tile m-prai" x="212" y="52"  width="64" height="42" rx="5"/>
+    <rect class="tile m-on"   x="281" y="52"  width="64" height="42" rx="5"/>
+    <rect class="tile m-qc"   x="350" y="52"  width="64" height="42" rx="5"/>
+    <rect class="tile m-atl"  x="419" y="52"  width="64" height="42" rx="5"/>
+    <text x="37"  y="78" text-anchor="middle" font-size="13">BC</text>
+    <text x="106" y="78" text-anchor="middle" font-size="13">AB</text>
+    <text x="175" y="78" text-anchor="middle" font-size="13">SK</text>
+    <text x="244" y="78" text-anchor="middle" font-size="13">MB</text>
+    <text x="313" y="78" text-anchor="middle" font-size="13">ON</text>
+    <text x="382" y="78" text-anchor="middle" font-size="13" class="lbl-qc">QC</text>
+    <text x="451" y="78" text-anchor="middle" font-size="13">NL</text>
+
+    <!-- maritimes -->
+    <rect class="tile m-atl" x="350" y="99"  width="64" height="42" rx="5"/>
+    <rect class="tile m-atl" x="419" y="99"  width="64" height="42" rx="5"/>
+    <rect class="tile m-atl" x="350" y="146" width="64" height="42" rx="5"/>
+    <text x="382" y="125" text-anchor="middle" font-size="13">NB</text>
+    <text x="451" y="125" text-anchor="middle" font-size="13">PE</text>
+    <text x="382" y="172" text-anchor="middle" font-size="13">NS</text>
+
+    <!-- the border -->
+    <line class="border" x1="5" y1="205" x2="414" y2="205"/>
+    <text x="210" y="200" text-anchor="middle" class="bcap">THE BORDER</text>
+
+    <!-- united states -->
+    <!-- band stops under Quebec: Newfoundland has no US border -->
+    <rect class="tile m-us" x="5" y="214" width="409" height="62" rx="5"/>
+    <text x="210" y="234" text-anchor="middle" font-size="12" class="lbl-us">UNITED STATES</text>
+    <text x="37"  y="256" text-anchor="middle" font-size="11" class="lbl-us">WA · ID</text>
+    <text x="106" y="256" text-anchor="middle" font-size="11" class="lbl-us">MT</text>
+    <text x="175" y="256" text-anchor="middle" font-size="11" class="lbl-us">ND</text>
+    <text x="244" y="256" text-anchor="middle" font-size="11" class="lbl-us">ND · MN</text>
+    <text x="313" y="256" text-anchor="middle" font-size="11" class="lbl-us">MI · NY</text>
+    <text x="382" y="256" text-anchor="middle" font-size="11" class="lbl-us">VT · ME</text>
+    <text x="210" y="271" text-anchor="middle" font-size="10" class="lbl-us">prairie pothole wetlands run straight across SK/MB into ND and MN</text>
+  </svg>
+
+  <div class="maplegend">
+    <span><i class="lg-bc"></i>British Columbia</span>
+    <span><i class="lg-prai"></i>Prairies</span>
+    <span><i class="lg-on"></i>Ontario</span>
+    <span><i class="lg-atl"></i>Atlantic</span>
+    <span><i class="lg-north"></i>The North</span>
+    <span><i class="lg-qc"></i>Quebec &mdash; out of scope (French)</span>
+  </div>
+
   <div class="scroller"><table>
     <tr><th>Region</th><th>What the conservation work looks like</th></tr>
     <tr><td>British Columbia</td><td>Forestry, salmon and fisheries, coastal and stream restoration, wildfire recovery. Big consulting sector in Vancouver and Victoria. Expensive to live in.</td></tr>
