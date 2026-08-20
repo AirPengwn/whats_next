@@ -5,7 +5,7 @@
    ═══════════════════════════════════════════════════════════ */
 
 /* build-stamped version + build (build.js patches these lines each release) */
-var WN_VERSION = '4.14';
+var WN_VERSION = '4.15';
 var WN_BUILD   = '20260820-969-122a6c9f';
 
 /* ── 1. Sync hook ──────────────────────────────────────────
@@ -292,6 +292,7 @@ document.addEventListener('DOMContentLoaded', function(){
       'erin_search.html':        { group:null,    sub:'Search',   icon:'search',   href:'erin_search.html', util:true },
       'erin_bio.html':           { group:null,    sub:'Profile',  icon:'person',   href:'erin_bio.html' },
       'erin_howto.html':         { group:null,    sub:'How to',   icon:'check',    href:'erin_howto.html', util:true },
+      'erin_canada.html':        { group:null,    sub:'Canada',   icon:'leaf',     href:'erin_canada.html', util:true },
       /* Track */
       'erin_mylist.html':        { group:'track', sub:'My List',     icon:'star',     href:'erin_mylist.html' },
       'erin_gradsteps.html':     { group:'track', sub:'Grad Steps',  icon:'cap',      href:'erin_gradsteps.html' },
@@ -347,6 +348,7 @@ document.addEventListener('DOMContentLoaded', function(){
     html += '<div class="wn-utils">';
     html += '<a href="erin_search.html" class="wn-util-link" title="Search everything">' + ic('search',15) + '<span>Search</span></a>';
     html += '<a href="erin_howto.html" class="wn-util-link' + (filename==='erin_howto.html'?' active':'') + '" title="How to use this site">' + ic('check',15) + '<span>How to</span></a>';
+    html += '<a href="erin_canada.html" class="wn-util-link' + (filename==='erin_canada.html'?' active':'') + '" title="Working in Canada — the three permit routes explained">' + ic('leaf',15) + '<span>Canada</span></a>';
     /* v3.22: Test-mode switch — explore/change anything without saving a thing */
     var _sb = !!window.WN_SANDBOX;
     html += '<button id="wn-sandbox-toggle" class="wn-sandbox-btn' + (_sb?' on':'') + '" type="button" '

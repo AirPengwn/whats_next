@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
+<link rel="stylesheet" href="styles.css?v=20260820-969-122a6c9f">
+<title>Working in Canada &mdash; What&rsquo;s Next for Erin</title>
+<style>
+body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem}
+a{color:var(--teal-t);text-decoration:none}
+a:hover{text-decoration:underline}
+.page-header{padding:1.5rem 0 1.1rem;border-bottom:.5px solid var(--bd);margin-bottom:1.25rem}
+.page-header-eyebrow{font-size:12.5px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-t);margin-bottom:.25rem}
+.page-header-title{font-size:24px;font-weight:700;color:var(--t1);line-height:1.2;letter-spacing:-.02em;margin-bottom:.2rem}
+.page-header-sub{font-size:13px;color:var(--t2);line-height:1.5}
+
+.tldr{background:var(--bg);border:.5px solid var(--bd);border-left:3px solid var(--teal);border-radius:0 var(--r2) var(--r2) 0;padding:1rem 1.15rem;margin-bottom:1.5rem}
+.tldr-h{font-size:14px;font-weight:700;color:var(--t1);margin-bottom:.35rem}
+.tldr p{font-size:13.5px;color:var(--t2);margin:.4rem 0 0}
+
+.sec{font-size:12.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin:1.9rem 0 .75rem;padding-bottom:.4rem;border-bottom:.5px solid var(--bd)}
+
+.card{background:var(--bg);border:.5px solid var(--bd);border-radius:var(--r2);padding:1.05rem 1.2rem;margin-bottom:.85rem}
+.card-h{font-size:15px;font-weight:600;color:var(--t1);margin-bottom:.15rem}
+.card-s{font-size:12.5px;color:var(--t3);margin-bottom:.7rem}
+.card p{font-size:13.5px;color:var(--t2);margin:.55rem 0}
+.card p:first-of-type{margin-top:0}
+
+.pillrow{display:flex;flex-wrap:wrap;gap:5px;margin:.1rem 0 .75rem}
+.pill{font-size:12.5px;font-weight:500;padding:2px 10px;border-radius:999px;background:var(--teal-bg);color:var(--teal-t);white-space:nowrap}
+.pill.warn{background:var(--amber-bg);color:var(--amber-t)}
+.pill.grey{background:var(--bg2);color:var(--t2);border:.5px solid var(--bd)}
+
+.kv{display:flex;gap:10px;font-size:13.5px;padding:5px 0;border-top:.5px solid var(--bd)}
+.kv:first-of-type{border-top:none}
+.k{color:var(--t3);width:132px;flex-shrink:0}
+.v{color:var(--t2);min-width:0}
+
+.good{border-left:3px solid #5dcaa5;background:var(--bg2);padding:.7rem .95rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--t2);margin:.7rem 0}
+.warn{border-left:3px solid #ef9f27;background:var(--amber-bg);padding:.7rem .95rem;border-radius:0 var(--r1) var(--r1) 0;font-size:13px;color:var(--amber-t);margin:.7rem 0}
+
+ul.plain{list-style:none;margin:.5rem 0 0;padding:0}
+ul.plain li{font-size:13.5px;color:var(--t2);line-height:1.6;padding:3px 0 3px 18px;position:relative}
+ul.plain li:before{content:"\2022";position:absolute;left:2px;top:2px;color:var(--teal-t);font-weight:700}
+
+table{width:100%;border-collapse:collapse;font-size:13px;margin-top:.35rem}
+th{font-size:12.5px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:var(--t3);text-align:left;padding:0 10px 7px 0;border-bottom:.5px solid var(--bd)}
+td{padding:7px 10px 7px 0;border-bottom:.5px solid var(--bd);color:var(--t2);vertical-align:top}
+td:first-child{color:var(--t1);font-weight:500;white-space:nowrap}
+tr:last-child td{border-bottom:none}
+.scroller{overflow-x:auto}
+
+.steps{counter-reset:s}
+.steps li{counter-increment:s;list-style:none;position:relative;padding:6px 0 6px 30px;font-size:13.5px;color:var(--t2);line-height:1.6}
+.steps li:before{content:counter(s);position:absolute;left:0;top:7px;width:20px;height:20px;border-radius:50%;background:var(--teal-bg);color:var(--teal-t);font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center}
+.steps{margin:0;padding:0}
+
+.footer{font-size:12.5px;color:var(--t3);text-align:center;margin-top:2rem;padding-bottom:1.5rem;line-height:1.7}
+</style>
+<script src="icons.js?v=20260602"></script>
+<script src="site.js?v=20260820-969-122a6c9f"></script>
+<script>
+(function(){
+  var saved=localStorage.getItem('erin_theme');
+  var prefersDark=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches;
+  if(saved==='dark'||(!saved&&prefersDark)) document.documentElement.classList.add('dark');
+  function upBtn(){var b=document.getElementById('theme-toggle');if(b)b.innerHTML=document.documentElement.classList.contains('dark')?'&#9728;':'&#127769;';}
+  document.addEventListener('DOMContentLoaded',upBtn);
+  window.__toggleTheme=function(){var d=document.documentElement.classList.toggle('dark');localStorage.setItem('erin_theme',d?'dark':'light');upBtn();};
+})();
+</script>
+</head>
+<body>
+
+<!-- GLOBAL NAV (fallback — site.js rebuilds this from its PAGES config) -->
+<nav class="global-nav">
+  <div class="gnav-wrap">
+  <div class="gnav-inner">
+    <a href="index.html" class="gnav-home">&#127968; Home</a>
+    <a href="erin_mylist.html" class="gnav-link">&#9733; My List</a>
+    <a href="erin_jobs.html" class="gnav-link">&#128188; Jobs</a>
+  </div>
+  <button class="gnav-toggle" id="theme-toggle" onclick="__toggleTheme()" title="Toggle dark/light mode">&#127769;</button>
+  </div>
+</nav>
+
+<div class="page">
+
+<div class="page-header">
+  <div class="page-header-eyebrow">What&rsquo;s Next for Erin</div>
+  <div class="page-header-title">Working in Canada</div>
+  <div class="page-header-sub">The three ways in, what the language situation really is, and what the country is like to work in &mdash; explained plainly.</div>
+</div>
+
+<div class="tldr">
+  <div class="tldr-h">The short version</div>
+  <p>The work is <strong>the same work</strong>. Wetlands, watersheds, habitat, restoration, GIS &mdash; Canada does all of it, often on the same landscapes that cross the border. Your degree and your training transfer.</p>
+  <p>The only real obstacle is <strong>permission to work</strong>, and that is more solvable than most people assume. There are three routes. One of them needs <strong>no job offer at all</strong>.</p>
+  <p style="color:var(--t3);font-size:12.5px">Canadian jobs are kept behind the <strong>&#127464;&#127462; Canada only</strong> filter on the Browse pages, so they never get mixed in with the American ones. Flip that chip to see them.</p>
+</div>
+
+<div class="sec">Route 1 &mdash; The Working Holiday (start here)</div>
+
+<div class="card">
+  <div class="card-h">A permit that lets you live in Canada for a year and work for anyone</div>
+  <div class="card-s">Officially: International Experience Canada (IEC), Working Holiday stream</div>
+  <div class="pillrow">
+    <span class="pill">No job offer needed</span>
+    <span class="pill">Up to 12 months</span>
+    <span class="pill">Ages 18&ndash;35</span>
+    <span class="pill grey">You are 28</span>
+  </div>
+
+  <p>This is an <strong>open</strong> work permit. That word is the whole point: it is not tied to one employer. You arrive, and you can take any job you can get &mdash; including seasonal field crews, technician work and short contracts, which are almost impossible to land from another country because nobody will sponsor a three-month job.</p>
+
+  <div class="good">
+    <strong>Why this route matters most for you.</strong> American state and federal conservation jobs keep asking for &ldquo;one year of experience.&rdquo; A year on an open permit doing habitat, water-quality or survey work <em>is</em> that year. This route does not just get you to Canada &mdash; it fixes the thing currently blocking you at home.
+  </div>
+
+  <p><strong>The catch, and it is a real one:</strong> Americans cannot apply for this directly. There is no youth-mobility agreement between the US and Canada the way there is with Australia, Ireland and about thirty other countries. Instead you have to be <strong>nominated by a &ldquo;Recognized Organization&rdquo;</strong> &mdash; a body Canada has approved to sponsor people from countries without an agreement.</p>
+
+  <div class="kv"><div class="k">Who nominates you</div><div class="v"><a href="https://swap.ca/" target="_blank" rel="noopener noreferrer">SWAP Working Holidays</a>, the Canadian organisation, working with <a href="https://www.interexchange.org/programs/travel-experiences-for-u-s-residents/work-travel-canada/" target="_blank" rel="noopener noreferrer">InterExchange / IENA</a> on the American side.</div></div>
+  <div class="kv"><div class="k">What it costs you</div><div class="v">A programme fee to the organisation on top of the government permit fee &mdash; this is what you are paying for, since the nomination is the only way in.</div></div>
+  <div class="kv"><div class="k">Timing</div><div class="v">Places are limited and run in seasons with waitlists. This is the one route with a queue, so get on the list early rather than deciding late.</div></div>
+  <div class="kv"><div class="k">You get two goes</div><div class="v">Americans may take part in up to <strong>two</strong> IEC programmes &mdash; the Working Holiday and the Young Professionals stream, or two of one. So this can be more than a single year.</div></div>
+  <div class="kv"><div class="k">Age limit</div><div class="v">18&ndash;35. You have several years of room, but it is the only route here that expires.</div></div>
+</div>
+
+<div class="sec">Route 2 &mdash; The trade-agreement permit</div>
+
+<div class="card">
+  <div class="card-h">A permit for Americans doing specific listed jobs</div>
+  <div class="card-s">Officially: CUSMA professional work permit (CUSMA is the trade deal that replaced NAFTA)</div>
+  <div class="pillrow">
+    <span class="pill">Bachelor&rsquo;s degree is enough</span>
+    <span class="pill">No experience minimum</span>
+    <span class="pill warn">Needs a job offer first</span>
+  </div>
+
+  <p>Canada and the United States agreed that people in certain professions can cross the border to work without the usual hurdles. If your job is on the list and you have the degree, you qualify.</p>
+
+  <p><strong>The big advantage</strong> is something called being <em>LMIA-exempt</em>. Normally a Canadian employer who wants to hire a foreigner has to run a long, expensive process proving no Canadian could do the job. That requirement is what makes most employers say no before the conversation starts. Under this route they skip it entirely &mdash; which makes hiring you dramatically less painful for them. <strong>Say this in your cover letter.</strong> Most hiring managers do not know it applies to Americans.</p>
+
+  <p>These are the listed professions relevant to you. Every one requires only a &ldquo;Baccalaureate or Licenciatura Degree&rdquo; &mdash; the official wording &mdash; with <strong>no years of experience attached</strong>:</p>
+
+  <ul class="plain">
+    <li>Biologist &middot; Zoologist &middot; Entomologist</li>
+    <li>Forester &middot; Range Manager / Range Conservationist</li>
+    <li>Soil Scientist &middot; Horticulturist &middot; Geologist</li>
+    <li>Land Surveyor &middot; Landscape Architect</li>
+    <li>Research Assistant, if the job is at a university or college</li>
+  </ul>
+
+  <div class="warn">
+    <strong>Two honest cautions.</strong> First, an officer has to accept that your degree fits the profession you are claiming. &ldquo;Environmental Science&rdquo; read as &ldquo;Biologist&rdquo; is reasonable given your ecology, wildlife, mammalogy and wetlands coursework &mdash; but it is a judgement call, not automatic. Second, a job titled <em>technician</em> probably will not count as &ldquo;Biologist.&rdquo; There is a separate category, Scientific Technician/Technologist, which works differently &mdash; it is about demonstrated knowledge in a field rather than a particular degree.
+  </div>
+</div>
+
+<div class="sec">Route 3 &mdash; Go to school there</div>
+
+<div class="card">
+  <div class="card-h">A Canadian master&rsquo;s turns into a three-year open work permit</div>
+  <div class="card-s">Officially: Post-Graduation Work Permit (PGWP)</div>
+  <div class="pillrow">
+    <span class="pill">3 years, open permit</span>
+    <span class="pill">No employer needed</span>
+    <span class="pill">The route to staying permanently</span>
+  </div>
+
+  <p>If you do a funded master&rsquo;s at a Canadian university, you can apply for a work permit when you finish. It is open &mdash; no job offer, no employer tied to it &mdash; and for a master&rsquo;s it runs <strong>three years</strong>.</p>
+
+  <ul class="plain">
+    <li><strong>Master&rsquo;s graduates get the full three years</strong> even if the programme itself was shorter than two, as long as it ran at least eight months.</li>
+    <li><strong>Degree graduates are exempt from the field-of-study restrictions</strong> that apply to shorter college programmes. Your subject will not disqualify you.</li>
+    <li>There is a <strong>language test</strong> requirement now &mdash; a set level in reading, writing, listening and speaking. For a native English speaker the level itself is easy, but it is still a real exam you have to book and pay for. Do not be caught out by it.</li>
+    <li>Canadian work experience is the main ingredient for <strong>permanent residence</strong> afterwards. So this route ends somewhere the other two do not.</li>
+  </ul>
+
+  <div class="good">
+    This is the same search you are already running on the <a href="erin_gradsteps.html">Grad Steps</a> page &mdash; just pointed north. The funded-master&rsquo;s hunt and the Canada plan are not two projects; they are one project with a different postcode.
+  </div>
+</div>
+
+<div class="sec">What not to waste time on</div>
+
+<div class="card">
+  <div class="card-h">Government jobs</div>
+  <p>Federal departments, provincial ministries and Parks Canada are technically open to non-citizens. In practice, citizens and permanent residents get preference, and non-citizens have been around <strong>2.5% of hires</strong>. Many federal roles also want French.</p>
+  <p>Aim at <strong>private consultancies and non-profits</strong> instead. They hire constantly, they move faster, and they are the ones who handle trade-agreement permits as routine paperwork. Ontario&rsquo;s conservation authorities sit in between &mdash; they are public bodies, so check each posting for a citizenship line before you invest in it.</p>
+</div>
+
+<div class="sec">The language question</div>
+
+<div class="card">
+  <div class="card-h">In practice, English is fine almost everywhere</div>
+  <p>Canada has two official languages, which makes people assume they need French. For the work you are looking at, in the places you would look, you do not.</p>
+  <div class="scroller"><table>
+    <tr><th>Where</th><th>What it actually means for you</th></tr>
+    <tr><td>Most of Canada</td><td>English is the working language. Nine provinces and all three territories &mdash; no French needed, no disadvantage.</td></tr>
+    <tr><td>Quebec</td><td>French is required for most workplaces, and there are laws about the language of work. Skip it unless a posting is explicitly English-language.</td></tr>
+    <tr><td>New Brunswick</td><td>Officially bilingual. Plenty of English-language work, but bilingual candidates have an edge for public-facing roles.</td></tr>
+    <tr><td>Federal government</td><td>Many positions are designated bilingual. One more reason that route is not the one to chase.</td></tr>
+  </table></div>
+  <p style="color:var(--t3);font-size:12.5px;margin-top:.7rem">The weekly search is set to cover English-speaking Canada only, so anything that reaches your list has already passed this filter.</p>
+</div>
+
+<div class="sec">Where the work actually is</div>
+
+<div class="card">
+  <div class="card-h">A quick map of the country, by what they hire for</div>
+  <div class="scroller"><table>
+    <tr><th>Region</th><th>What the conservation work looks like</th></tr>
+    <tr><td>British Columbia</td><td>Forestry, salmon and fisheries, coastal and stream restoration, wildfire recovery. Big consulting sector in Vancouver and Victoria. Expensive to live in.</td></tr>
+    <tr><td>Prairies<br>(AB / SK / MB)</td><td><strong>Prairie pothole wetlands</strong> &mdash; the same duck-factory landscape that runs down into the Dakotas, and the exact system several of your saved American programmes study. Also rangeland and industrial land reclamation. Cheaper to live, strong wetland sector.</td></tr>
+    <tr><td>Ontario</td><td>36 conservation authorities doing wetland permitting, water quality and restoration &mdash; the closest Canadian thing to the American state wetland-reviewer jobs. Plus Great Lakes work and the largest consulting market.</td></tr>
+    <tr><td>Atlantic Canada</td><td>Coastal and salt-marsh restoration, fisheries, sea-level-rise adaptation. Smaller job market, lower cost of living, easier to stand out.</td></tr>
+    <tr><td>The North<br>(YT / NT / NU)</td><td>Permafrost, caribou, mine reclamation, water monitoring. Remote and demanding, but pay is higher and they are used to hiring from away.</td></tr>
+  </table></div>
+</div>
+
+<div class="sec">Practical things about living there</div>
+
+<div class="card">
+  <div class="card-h">The stuff nobody tells you until you arrive</div>
+
+  <div class="kv"><div class="k">Money</div><div class="v">Salaries are in <strong>Canadian dollars</strong>, which are worth less than US dollars &mdash; so do not convert and panic. Compare against Canadian costs instead. For scale: Ontario wetland roles average roughly <strong>C$69,800</strong>, with most between C$55,000 and C$77,000.</div></div>
+
+  <div class="kv"><div class="k">Health care</div><div class="v">Public health coverage is provincial, not national, and the rules differ. You generally need a work permit of <strong>six months or longer</strong> to qualify at all. <strong>Ontario</strong> has no waiting period but wants full-time employment. <strong>Alberta</strong> has no waiting period. <strong>British Columbia</strong> makes you wait about three months &mdash; as do Saskatchewan and Yukon &mdash; so buy private cover for that gap or you are exposed.</div></div>
+
+  <div class="kv"><div class="k">To work at all</div><div class="v">You need a <strong>Social Insurance Number</strong> (SIN) &mdash; Canada&rsquo;s equivalent of a Social Security number. You apply once you land, and you cannot be paid without it.</div></div>
+
+  <div class="kv"><div class="k">Taxes</div><div class="v">The United States taxes its citizens on worldwide income, so you would file in <strong>both</strong> countries. There is a treaty specifically to stop you being taxed twice, and it generally works &mdash; but this is the one item on this page worth paying an accountant for. Do not improvise it.</div></div>
+
+  <div class="kv"><div class="k">Driving</div><div class="v">A US licence is usually exchangeable for a provincial one without retesting. Field jobs almost always require a licence and a clean record &mdash; expect to be asked.</div></div>
+
+  <div class="kv"><div class="k">The field season</div><div class="v">Shorter than you are used to, especially north and west. Summer crews are <strong>hired in January to March</strong>, months before the work starts. If you wait until spring to look, you have missed it.</div></div>
+</div>
+
+<div class="sec">What to do first</div>
+
+<div class="card">
+  <ol class="steps">
+    <li><strong>Look up the Working Holiday season and get on the waitlist.</strong> It is the slowest-moving piece and the only one with an age limit, so it should start first even if you are unsure.</li>
+    <li><strong>Set email alerts</strong> on GoodWork.ca and ECOworks rather than checking them by hand. Both are saved on your Browse list behind the Canada filter.</li>
+    <li><strong>Pick three or four Ontario conservation authorities</strong> covering places you would actually live, and watch their own career pages &mdash; many never post anywhere else.</li>
+    <li><strong>Add one line to your cover letter</strong> saying you are a US citizen eligible for an LMIA-exempt CUSMA professional work permit. It removes the objection before it forms.</li>
+    <li><strong>Add a Canadian university or two</strong> to the funded-master&rsquo;s search, since that route ends in permanent residence rather than a one-year permit.</li>
+  </ol>
+</div>
+
+<p class="footer">
+  Everything on this page was checked against official sources in August 2026. Immigration rules change &mdash; confirm the details before you rely on them for a decision.<br>
+  Rules and figures come from the CUSMA professionals list, Canada&rsquo;s IEC programme, the Post-Graduation Work Permit rules, and provincial health plans.<br><br>
+  <a href="erin_jobs.html">Browse Canadian jobs &rarr;</a> &nbsp;&middot;&nbsp; <a href="index.html">&#8592; Home</a>
+</p>
+
+</div>
+</body>
+</html>
