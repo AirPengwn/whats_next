@@ -1,13 +1,6 @@
 # Weekly opportunity sweep — 2026-08-24
 
-**Added 7 new** opportunities:
-- Junior Environmental Technologist / Scientist — NO experience stated (Onterris) — _Strong_ · British Columbia · deadline: Rolling — open, posted late July 2026
-- Junior / Intermediate Environmental Scientist or Technologist — Swift Current (Onterris) — _Strong_ · Prairies (AB/SK/MB) · deadline: Rolling — open, posted early July 2026
-- Junior / Intermediate Environmental Scientist or Technologist — Kindersley (Onterris) — _Good_ · Prairies (AB/SK/MB) · deadline: Rolling — open, posted early July 2026
-- Environmental Biologist — natural environment & ecological consulting (Englobe) — _Strong_ · Atlantic Canada · deadline: Rolling — posted July 29, 2026
-- Environmental Technician — contaminated sites & remediation field programs (Englobe) — _Strong_ · Atlantic Canada · deadline: Rolling — reposted August 24, 2026
-- Environmental Technician — field surveys & technical investigations (SLR Consulting) — _Good_ · Ontario · deadline: Rolling — posted May 2026, still listed
-- Environmental Technician — environmental monitoring, Metro Vancouver (regional government) — _Good_ · British Columbia · deadline: Rolling — posted August 11, 2026
+**Added 0 new** opportunities.
 
 **Updated 0** (deadline / status / description changed).
 
