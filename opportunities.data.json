@@ -30,7 +30,7 @@
     "url": "https://gradcollege.okstate.edu/programs/esgp",
     "url_label": "Program page",
     "start_date": "2026-06-05",
-    "relocation": "tight"
+    "relocation": "planned"
   },
   {
     "title": "Colorado State University",
@@ -119,7 +119,7 @@
     "cycle": "current",
     "deadline_kind": "unknown",
     "region": "Mountain West",
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "title": "Colorado State University",
@@ -208,7 +208,7 @@
     "cycle": "next",
     "deadline_kind": "contact-first",
     "region": "Mountain West",
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "title": "Louisiana State University — WABL & Coastal Sciences",
@@ -418,7 +418,7 @@
     "cycle": "current",
     "deadline_kind": "rolling",
     "region": "Mountain West",
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "title": "University of Wyoming — Haub School",
@@ -459,7 +459,7 @@
     "cycle": "next",
     "deadline_kind": "contact-first",
     "region": "Mountain West",
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "title": "NC State University — Hurricane Helene Forest Recovery",
@@ -737,7 +737,7 @@
     "cycle": "current",
     "deadline_kind": "rolling",
     "region": "Mountain West",
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "title": "University of Montana — Environmental Studies",
@@ -802,7 +802,7 @@
     "cycle": "current",
     "deadline_kind": "rolling",
     "region": "Mountain West",
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "title": "Alabama A&M University — Longleaf Pine Ecology MS",
@@ -1028,7 +1028,7 @@
     "deadline_kind": "passed",
     "region": "Midwest & Great Plains",
     "start_date": "2026-05-31",
-    "relocation": "tight"
+    "relocation": "planned"
   },
   {
     "title": "Louisiana State University — Wetland & Aquatic Biogeochemistry Lab",
@@ -1188,7 +1188,7 @@
     "benefits": "Full tuition waiver (per TA/RA package); WICHE discount may apply for some states",
     "pay": "RA/TA assistantship stipend (admission requires confirmed funding; amount varies by package)",
     "start_date": "2027-01-15",
-    "relocation": "lead"
+    "relocation": "planned"
   },
   {
     "title": "Mississippi State University — Wildlife, Fisheries & Aquaculture",
@@ -1351,7 +1351,7 @@
     "stipend": "Funded via one of 40–50 active graduate assistantships across Ecosystem Science/Ecology each semester",
     "benefits": "Tuition support typical of CSU assistantships (confirm with department)",
     "pay": "Graduate assistantship stipend (one of 40–50 active assistantships per semester; amount varies by appointment)",
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "title": "University of Minnesota — Water Resources Science Program",
@@ -1387,7 +1387,7 @@
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "start_date": "2026-12-01",
-    "relocation": "lead"
+    "relocation": "planned"
   },
   {
     "title": "SUNY College of Environmental Science & Forestry (ESF) — Waterfowl & Wetlands MPS",
@@ -4055,7 +4055,7 @@
     "stipend": "MS research assistantship funded by an IRA Urban & Community Forestry grant",
     "benefits": "Out-of-state tuition waiver",
     "start_date": "2026-09-01",
-    "relocation": "tight"
+    "relocation": "planned"
   },
   {
     "title": "Michigan State University — Funded MS, Sea Lamprey Chemical & Aquatic Ecology (2 positions, Scott Lab)",
@@ -4090,7 +4090,7 @@
       "label": "✨ New — May 28, 2026"
     },
     "id": "item-093",
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "title": "Colorado State University — Funded MS, Mesocarnivore Ecology (Gerber Lab)",
@@ -4129,7 +4129,7 @@
     "location": "Fort Collins, CO (Dept. of Fish, Wildlife & Conservation Biology)",
     "stipend": "$3,000 per month plus tuition, fees and health insurance",
     "benefits": "Tuition, fees and health insurance covered; three-year funded MS assistantship",
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "title": "Oregon State University — Water Resources Science MS/PhD (and Environmental Sciences)",
@@ -4172,7 +4172,7 @@
       "label": "✨ New — May 28, 2026"
     },
     "id": "item-095",
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "title": "South Dakota State University — Funded MS, Plant Evolutionary Ecology (Wenzell Lab)",
@@ -4208,7 +4208,7 @@
     },
     "id": "item-096",
     "start_date": "2026-05-31",
-    "relocation": "tight"
+    "relocation": "planned"
   },
   {
     "title": "Environmental Services Trainee — Permit Efficiency Initiative (WLM)",
@@ -4325,7 +4325,7 @@
     "pay": "Graduate assistantship stipend (amount not published — confirm with Dr. Lammers)",
     "stipend": "2 years of stipend",
     "start_date": "2026-08-01",
-    "relocation": "tight"
+    "relocation": "planned"
   },
   {
     "title": "Iowa State University — Funded PhD, Soil Biogeochemistry & Ecosystem Ecology (Huang Lab)",
@@ -4362,7 +4362,7 @@
     "id": "item-100",
     "location": "Ames, Iowa (Iowa State University, Dept. of Ecology, Evolution & Organismal Biology)",
     "expired": true,
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "title": "UMass Boston — Funded PhD, Remote Sensing & Geospatial Analysis (Chen Lab)",
@@ -4668,7 +4668,7 @@
     },
     "id": "item-108",
     "start_date": "2026-08-31",
-    "relocation": "tight"
+    "relocation": "planned"
   },
   {
     "title": "Louisiana State University — Funded PhD, Conservation Ecology (Entomology)",
@@ -4951,7 +4951,7 @@
     "stipend": "$24,000/yr (two-year assistantship)",
     "benefits": "Resident and non-resident tuition waiver · health insurance at $25/month (student only)",
     "start_date": "2027-01-01",
-    "relocation": "lead"
+    "relocation": "planned"
   },
   {
     "title": "Texas A&M Natural Resources Institute — Funded MS/PhD, Freshwater Mussels & Water Quality (Randklev & Lopez)",
@@ -4990,7 +4990,7 @@
     "pay": "MS ~$32k/yr or PhD ~$35k/yr",
     "stipend": "MS ~$32,000/yr (2 yrs) or PhD ~$35,000/yr (4 yrs)",
     "benefits": "Tuition coverage",
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "title": "SUNY-ESF — Funded MS/PhD, Fish & Wetland Ecology (Arsenault & Farrell)",
@@ -5065,7 +5065,7 @@
     },
     "id": "item-118",
     "location": "Carbondale, Illinois",
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "title": "SCA / USFWS GIS Wetland Intern — National Wetland Inventory (Alaska)",
@@ -5561,7 +5561,7 @@
     },
     "id": "item-130",
     "start_date": "2026-08-19",
-    "relocation": "tight"
+    "relocation": "planned"
   },
   {
     "title": "Nature Collective — Land Stewardship Internship (GIS & Monitoring)",
@@ -5648,7 +5648,7 @@
       "label": "✨ New — June 16, 2026"
     },
     "id": "item-132",
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "title": "Grand Valley State University — Funded MS, Annis Water Resources Institute (Aquatic Ecology & Wetlands)",
@@ -5691,7 +5691,7 @@
       "label": "✨ New — June 16, 2026"
     },
     "id": "item-133",
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "title": "Northern Michigan University — Funded MS, Freshwater Ecology (Tumolo Lab)",
@@ -5734,7 +5734,7 @@
       "label": "✨ New — June 16, 2026"
     },
     "id": "item-134",
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "type": "Service / Corps",
@@ -5822,7 +5822,7 @@
     "pay": "$24,000/yr graduate assistantship (12-month, renewable)",
     "stipend": "Assistantship stipend as above",
     "benefits": "Full tuition & fee waiver; health insurance",
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -6098,7 +6098,7 @@
     "pay": "~$25,000/yr (hourly wage or stipend, by position)",
     "stipend": "Graduate research assistantship ~$25,000/yr",
     "benefits": "Partial tuition support (confirm health coverage and fee remission with the department)",
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -6142,7 +6142,7 @@
     "pay": "Research/teaching assistantship stipend (amount set by advisor's funding — confirm)",
     "stipend": "Assistantship stipend varies by advisor/grant (not published on the program page)",
     "benefits": "Assistantships typically include a tuition remission and health plan — confirm specifics with the prospective advisor",
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "type": "Internship",
@@ -6383,7 +6383,7 @@
     "stipend": "Departmental assistantship (amount unpublished — confirm with prospective advisor)",
     "benefits": "Full-time tuition coverage for graduate assistants beginning Fall 2026",
     "id": "item-149",
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "type": "Career Position",
@@ -7341,7 +7341,7 @@
     "stipend": "Graduate assistantship, one-year terms, renewable by reapplication (amount unpublished)",
     "benefits": "Full tuition remission (excluding student fees)",
     "id": "item-169",
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "type": "Career Position",
@@ -9467,7 +9467,7 @@
     "benefits": "Tuition waived for three years; confirm health insurance and summer support with the advisor",
     "id": "item-216",
     "start_date": "2026-08-05",
-    "relocation": "tight"
+    "relocation": "planned"
   },
   {
     "type": "Career Position",
@@ -10512,7 +10512,7 @@
     "stipend": "No blanket figure published — assistantships attached to individual faculty grants; confirm with the advisor",
     "benefits": "Confirm tuition remission and health insurance with the program coordinator",
     "id": "item-238",
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "type": "Career Position",
@@ -11475,7 +11475,7 @@
     "stipend": "$875 per week living allowance",
     "benefits": "Housing assistance up to $225/week, $150 gear budget and $350 training budget",
     "id": "item-259",
-    "housing_provided": true,
+    "housing_provided": false,
     "start_date": "2026-09-08",
     "relocation": "housed"
   },
@@ -11670,7 +11670,7 @@
     "benefits": "Confirm tuition waiver and health insurance with SEFS graduate admissions",
     "id": "item-263",
     "start_date": "2026-11-15",
-    "relocation": "lead"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -11718,7 +11718,7 @@
     "benefits": "Graduate Employee Union contract protections; confirm health insurance with the department",
     "id": "item-264",
     "start_date": "2027-01-15",
-    "relocation": "lead"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -11765,7 +11765,7 @@
     "stipend": "Living stipend on 9-month TA/RA appointments — dollar amount not published; confirm with the advisor",
     "benefits": "Full tuition waiver and health insurance; School of Biological Sciences MS students eligible for two years of 50%-time support",
     "id": "item-265",
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -11812,7 +11812,7 @@
     "stipend": "Monthly salary on assistantship — amount not published; confirm with the prospective advisor",
     "benefits": "Tuition remission plus institutional contribution toward mandatory fees and graduate assistant health insurance premium",
     "id": "item-266",
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "type": "Career Position",
@@ -12998,7 +12998,7 @@
     "stipend": "Not published — varies by faculty member; secure a written funding commitment before accepting",
     "benefits": "Confirm tuition remission and health insurance with the prospective advisor",
     "id": "item-290",
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -13049,7 +13049,7 @@
     "stipend": "Not published at any of the three — confirm with the prospective advisor",
     "benefits": "Assistantships may include tuition waiver, health insurance and fees; confirm per program",
     "id": "item-291",
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "type": "Career Position",
@@ -13588,7 +13588,7 @@
     "stipend": "$18,000 per year plus fringe",
     "benefits": "Confirm tuition waiver and health insurance with the Borderlands Research Institute",
     "id": "item-302",
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -13635,7 +13635,7 @@
     "stipend": "$24,000 per year plus fringe",
     "benefits": "Insurance and tuition covered; funded for 2.5 years",
     "id": "item-303",
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -13683,7 +13683,7 @@
     "benefits": "Confirm tuition waiver and health insurance with the Natural Resources Institute",
     "id": "item-304",
     "start_date": "2026-10-01",
-    "relocation": "tight"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -13731,7 +13731,7 @@
     "benefits": "Confirm tuition and fee coverage with the Coastal Water Health Laboratory",
     "id": "item-305",
     "start_date": "2026-10-01",
-    "relocation": "tight"
+    "relocation": "planned"
   },
   {
     "type": "Career Position",
@@ -14400,7 +14400,7 @@
     "id": "item-319",
     "expired": true,
     "start_date": "2026-07-24",
-    "relocation": "tight"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -14444,7 +14444,7 @@
     "benefits": "Confirm tuition waiver and health insurance with the Lyberger Lab",
     "id": "item-320",
     "start_date": "2026-07-31",
-    "relocation": "tight"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -14492,7 +14492,7 @@
     "benefits": "Confirm tuition waiver and health insurance with the department",
     "id": "item-321",
     "start_date": "2026-09-01",
-    "relocation": "tight"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -14536,7 +14536,7 @@
     "benefits": "Confirm tuition waiver and health insurance with the program",
     "id": "item-322",
     "start_date": "2026-07-31",
-    "relocation": "tight"
+    "relocation": "planned"
   },
   {
     "type": "Career Position",
@@ -15014,7 +15014,7 @@
     "benefits": "Waiver of out-of-state tuition, full in-state tuition coverage, student health insurance, plus additional research and travel funds",
     "id": "item-333",
     "start_date": "2027-01-01",
-    "relocation": "lead"
+    "relocation": "planned"
   },
   {
     "type": "Career Position",
@@ -16382,7 +16382,7 @@
     "benefits": "Full tuition for the degree program; U.S. citizenship required for stipend and tuition waiver",
     "id": "item-364",
     "start_date": "2026-12-31",
-    "relocation": "lead"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -16426,7 +16426,7 @@
     "benefits": "Tuition waiver, health benefits, and support for the proposed research",
     "id": "item-365",
     "start_date": "2026-08-01",
-    "relocation": "tight"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -17616,7 +17616,7 @@
     "benefits": "Confirm benefits with the employer",
     "id": "item-394",
     "start_date": "2027-01-31",
-    "relocation": "lead"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -17659,7 +17659,7 @@
     "benefits": "Confirm benefits with the employer",
     "id": "item-395",
     "start_date": "2026-07-31",
-    "relocation": "tight"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -17702,7 +17702,7 @@
     "benefits": "Confirm benefits with the employer",
     "id": "item-396",
     "start_date": "2026-09-30",
-    "relocation": "tight"
+    "relocation": "planned"
   },
   {
     "type": "Service / Corps",
@@ -20709,7 +20709,7 @@
     "benefits": "Confirm benefits with the employer",
     "id": "item-468",
     "start_date": "2026-09-15",
-    "relocation": "tight"
+    "relocation": "planned"
   },
   {
     "type": "Career Position",
@@ -23647,7 +23647,7 @@
     "benefits": "Federally funded position; includes conference travel funding",
     "id": "item-537",
     "start_date": "2026-10-04",
-    "relocation": "lead"
+    "relocation": "planned"
   },
   {
     "type": "Career Position",
@@ -24920,7 +24920,7 @@
     "benefits": "Confirm tuition and health coverage with the department",
     "id": "item-568",
     "start_date": "2027-01-01",
-    "relocation": "lead"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -24963,7 +24963,7 @@
     "benefits": "Confirm tuition and health coverage with the department",
     "id": "item-569",
     "start_date": "2026-07-31",
-    "relocation": "tight"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -25006,7 +25006,7 @@
     "benefits": "Confirm tuition and health coverage with the department",
     "id": "item-570",
     "start_date": "2026-07-31",
-    "relocation": "tight"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -25048,7 +25048,7 @@
     "benefits": "Confirm tuition and health coverage with the department",
     "id": "item-571",
     "start_date": "2026-12-31",
-    "relocation": "lead"
+    "relocation": "planned"
   },
   {
     "type": "Career Position",
@@ -29592,7 +29592,7 @@
       "Up to $5,000",
       "Join SWS now to catch it"
     ],
-    "housing_provided": true,
+    "housing_provided": false,
     "relocation": "local"
   },
   {
@@ -29809,7 +29809,7 @@
       "Capstone-adjacent field"
     ],
     "start_date": "2026-10-14",
-    "relocation": "lead"
+    "relocation": "planned"
   },
   {
     "type": "Career Position",
@@ -35581,7 +35581,7 @@
       "Due Dec 1"
     ],
     "start_date": "2027-03-01",
-    "relocation": "lead"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -35669,7 +35669,7 @@
       "Due Dec 15"
     ],
     "start_date": "2027-08-01",
-    "relocation": "lead"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -35757,7 +35757,7 @@
       "Due Sep 15"
     ],
     "start_date": "2027-01-01",
-    "relocation": "lead"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -40256,7 +40256,7 @@
       "MS or PhD, BS accepted"
     ],
     "start_date": "2026-12-15",
-    "relocation": "lead"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -40298,7 +40298,7 @@
       "⚠️ Stipend not published — ask"
     ],
     "start_date": "2026-09-18",
-    "relocation": "tight"
+    "relocation": "planned"
   },
   {
     "type": "Career Position",
@@ -41565,7 +41565,7 @@
       "OSU — already on your list"
     ],
     "start_date": "2026-09-05",
-    "relocation": "tight"
+    "relocation": "planned"
   },
   {
     "type": "Career Position",
@@ -42579,7 +42579,7 @@
       "⚠️ Closes Sep 13"
     ],
     "start_date": "2026-09-13",
-    "relocation": "tight"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -42622,7 +42622,7 @@
       "⚠️ Closes Sep 15"
     ],
     "start_date": "2026-09-15",
-    "relocation": "tight"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -42708,7 +42708,7 @@
       "Two possible start dates"
     ],
     "start_date": "2026-12-31",
-    "relocation": "lead"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -42751,7 +42751,7 @@
       "Fall entry — closes Feb 1"
     ],
     "start_date": "2027-02-01",
-    "relocation": "lead"
+    "relocation": "planned"
   },
   {
     "type": "Career Position",
@@ -43323,7 +43323,7 @@
     ],
     "url": "https://www.trentu.ca/graduatestudies/funding-tuition/student-account-and-tuition",
     "url_label": "Trent — graduate tuition & funding",
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -43369,7 +43369,7 @@
     ],
     "url": "https://www.trentu.ca/els/current-research-opportunities/ecology-evolution-and-conservation",
     "url_label": "Trent ELS — research opportunities",
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -43414,7 +43414,7 @@
     ],
     "url": "https://www.trentu.ca/els/current-research-opportunities/ecology-evolution-and-conservation",
     "url_label": "Trent ELS — research opportunities",
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -43459,7 +43459,7 @@
     ],
     "url": "https://www.ecosystemchange.com/",
     "url_label": "Ecosystems & Global Change group",
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -43500,7 +43500,7 @@
     ],
     "url": "https://www.ualberta.ca/en/agriculture-life-environment-sciences/programs/graduate-programs/prospective-students/renewable-resources/master-of-science.html",
     "url_label": "University of Alberta — MSc Renewable Resources",
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "type": "Career Position",
@@ -45436,7 +45436,7 @@
     "deadline_date": "2027-08-13",
     "start": "Fall 2027 (10.5-month residential programme ending June 2028)",
     "start_date": "2027-08-13",
-    "relocation": "lead"
+    "relocation": "planned"
   },
   {
     "type": "Service / Corps",
@@ -46501,7 +46501,7 @@
     "deadline_date": "2026-11-02",
     "start": "May 2027 (preferred)",
     "start_date": "2027-05-01",
-    "relocation": "lead"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -46544,7 +46544,7 @@
     "deadline_date": "2026-10-31",
     "start": "After January 1, 2027",
     "start_date": "2027-01-01",
-    "relocation": "lead"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -46587,7 +46587,7 @@
     "deadline_date": "2026-09-30",
     "start": "January 1–20, 2027",
     "start_date": "2026-09-30",
-    "relocation": "tight"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -46630,7 +46630,7 @@
     "deadline_date": "2026-09-30",
     "start": "Fall 2027",
     "start_date": "2026-09-30",
-    "relocation": "tight"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -49580,7 +49580,7 @@
     "deadline_date": "2026-08-31",
     "start": "Term not stated on the posting — confirm January 2027 vs September 2027 with the supervisor",
     "start_date": "2027-01-01",
-    "relocation": "lead"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -49624,7 +49624,7 @@
     "deadline_date": "2026-08-31",
     "start": "Term not stated — confirm January 2027 vs September 2027 with the supervisor",
     "start_date": "2027-01-01",
-    "relocation": "lead"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -49667,7 +49667,7 @@
     ],
     "start": "Fall term 2026 through Winter term 2029 — ask whether the start can slide to January 2027",
     "start_date": "2026-07-23",
-    "relocation": "tight"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -49710,7 +49710,7 @@
     ],
     "start": "Not stated — confirm January 2027 vs September 2027",
     "start_date": "2027-01-01",
-    "relocation": "lead"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -49753,7 +49753,7 @@
     ],
     "start": "Not stated — confirm September 2027 vs a January intake",
     "start_date": "2027-09-01",
-    "relocation": "lead"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -49795,7 +49795,7 @@
       "Funding needs confirming"
     ],
     "start": "Fall 2026 or Winter (January) 2027",
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -49837,7 +49837,7 @@
       "Stipend NOT published"
     ],
     "start": "Fall 2026 or Winter (January) 2027 — a January-intake target",
-    "relocation": "unknown"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -49880,7 +49880,7 @@
     ],
     "start": "January or May 2027",
     "start_date": "2027-05-01",
-    "relocation": "lead"
+    "relocation": "planned"
   },
   {
     "type": "Internship",
