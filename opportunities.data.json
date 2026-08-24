@@ -46441,5 +46441,291 @@
       "Rolling"
     ],
     "start": "Open until filled"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "next",
+    "deadline_kind": "contact-first",
+    "region": "West Coast / Pacific",
+    "id": "item-1123",
+    "title": "Watershed Stewards Program (California Conservation Corps) — ages 18–32, applications reopen April 2027",
+    "org": "California Conservation Corps · Watershed Stewards Program (AmeriCorps)",
+    "location": "California — salmonid watersheds statewide",
+    "deadline": "Applications for the 2027–28 term open April 19 and close June 23, 2027",
+    "badge": "Strong fit — next cycle",
+    "pay": "$2,904 per month (2026–27 term rate)",
+    "stipend": "",
+    "benefits": "AGES 18–32, so she remains eligible — note the base CCC corpsmember programme is 18–25 (veterans to 29), making WSP the only CCC door open to her",
+    "url": "https://ccc.ca.gov/what-we-do/programs/watershed-stewards-program/",
+    "url_label": "California Conservation Corps — Watershed Stewards Program",
+    "links": [
+      {
+        "href": "https://ccc.ca.gov/what-we-do/programs/watershed-stewards-program/",
+        "label": "🔗 California Conservation Corps — Watershed Stewards Program"
+      }
+    ],
+    "metaLine": "⏳ WINDOW CLOSED — reopens April 19, 2027 · put it in the calendar now",
+    "body": "The Watershed Stewards Program places AmeriCorps members with agencies and nonprofits doing salmonid and watershed monitoring across California — spawning surveys, habitat assessment, water quality monitoring and restoration. The 2026–27 application window closed on June 23, 2026 for the October 2026 start; the California Conservation Corps states the next window runs April 19 to June 23, 2027.",
+    "desc": "This would have been the single best AmeriCorps fit on the whole list — salmonid watershed monitoring, a real monthly stipend, and an age range of 18 to 32 that you stay inside — but the window closed in June and does not reopen until April 2027. It is here so it does not get missed twice: set a reminder for mid-April 2027. Worth knowing that the ordinary CCC corpsmember programme caps at 25, so this is the only California Conservation Corps route actually open to you.",
+    "pills": [
+      "⏳ Reopens April 19, 2027",
+      "Ages 18–32 — eligible",
+      "Salmonid watershed monitoring",
+      "$2,904/month"
+    ],
+    "start": "October 2027 – August 2028 term"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-1124",
+    "title": "Field Technician — restoration & stewardship crew, San Luis Obispo",
+    "org": "The Land Conservancy of San Luis Obispo County · San Luis Obispo, CA",
+    "location": "San Luis Obispo, California (Central Coast)",
+    "deadline": "2026-09-07",
+    "badge": "Good fit",
+    "pay": "$22.00/hour, 35–40 hours per week",
+    "stipend": "",
+    "benefits": "",
+    "url": "https://lcslo.org/careers/",
+    "url_label": "Land Conservancy of San Luis Obispo — careers",
+    "links": [
+      {
+        "href": "https://lcslo.org/careers/",
+        "label": "🔗 Land Conservancy of San Luis Obispo — careers"
+      }
+    ],
+    "metaLine": "A defined winter restoration season · four-person crew · low education bar · closes Sep 7",
+    "body": "A seasonal full-time position on a four-person field crew running restoration and stewardship work from October 26, 2026 through April 23, 2027, reporting to the Field Supervisor and Restoration Program Manager. Duties cover invasive plant management, native plantings and maintenance, general stewardship tasks, and facilities and equipment maintenance. The education requirement is only some undergraduate coursework. $22 an hour for 35 to 40 hours a week.",
+    "desc": "A clean six-month block on the Central Coast with defined start and end dates, which makes it easy to slot around graduate applications — it finishes in late April, before an autumn programme would start. A four-person crew also means you would work closely with the restoration manager rather than being one of twenty, which is how references get made.",
+    "pills": [
+      "Defined Oct–Apr season",
+      "$22/hour",
+      "Small four-person crew",
+      "Closes Sep 7"
+    ],
+    "deadline_date": "2026-09-07",
+    "start": "October 26, 2026 – April 23, 2027"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-1125",
+    "title": "Project Technician — conservation district, Baker City (explicitly entry-level, permanent)",
+    "org": "Baker Valley Soil and Water Conservation District · Baker City, OR",
+    "location": "Baker City, Oregon (eastern Oregon)",
+    "deadline": "2026-09-15",
+    "badge": "Good fit",
+    "pay": "$18.00–$20.00/hour",
+    "stipend": "",
+    "benefits": "Medical, dental, vision, life and retirement begin after the probationary period",
+    "url": "https://www.conservationjobboard.com/job-listing-project-tech-baker-city-oregon/9332941334",
+    "url_label": "Conservation Job Board — Baker Valley SWCD Project Technician",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-project-tech-baker-city-oregon/9332941334",
+        "label": "🔗 Conservation Job Board — Baker Valley SWCD Project Technician"
+      }
+    ],
+    "metaLine": "PERMANENT with benefits · flagged entry-level (0–1 year) · closes Sep 15",
+    "body": "A permanent full-time technician helping landowners implement voluntary conservation programmes and practices through grant writing and technical assistance. The posting is explicitly flagged as entry-level with a 0–1 year minimum, requiring Microsoft Office proficiency, data entry and writing ability, and the capacity to work outdoors. Medical, dental, vision, life and retirement benefits begin after the probationary period. $18 to $20 an hour.",
+    "desc": "Permanent and benefited at an explicitly entry-level bar, which is the combination worth chasing even at a modest hourly rate. The grant-writing element is genuinely valuable and rare to get at this level — conservation districts run on grants, and being the person who can write them is how technicians become project managers. Eastern Oregon is remote and cheap, which stretches the wage.",
+    "pills": [
+      "PERMANENT + benefits",
+      "Flagged entry-level",
+      "Grant-writing experience",
+      "Closes Sep 15"
+    ],
+    "deadline_date": "2026-09-15",
+    "start": "From autumn 2026"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-1126",
+    "title": "Seasonal Restoration Technician — coastal riparian planting & fencing",
+    "org": "Lincoln Soil and Water Conservation District · Newport, OR",
+    "location": "Newport, Oregon (Oregon MidCoast)",
+    "deadline": "2026-09-07",
+    "badge": "Good fit",
+    "pay": "$18.00–$20.00/hour plus mileage reimbursement, 30–40 hours per week",
+    "stipend": "",
+    "benefits": "Apply by emailing a CV and two references to info@lincolnswcd.org with the subject line LastName_FirstName_SRT26",
+    "url": "https://www.conservationjobboard.com/job-listing-seasonal-restoration-technician-newport-oregon/9008241088",
+    "url_label": "Conservation Job Board — Lincoln SWCD Seasonal Restoration Technician",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-seasonal-restoration-technician-newport-oregon/9008241088",
+        "label": "🔗 Conservation Job Board — Lincoln SWCD Seasonal Restoration Technician"
+      }
+    ],
+    "metaLine": "Riparian restoration on the Oregon coast · apply by EMAIL, not a portal · closes Sep 7",
+    "body": "A temporary seasonal position at 30 to 40 hours a week preparing and maintaining habitat restoration projects on the Oregon coast: planting native trees and shrubs, installing protective cages and riparian fencing, and controlling invasive species by manual, mechanical and chemical methods under certified supervision. Requires an Oregon driver’s licence and driving 4WD trucks with trailers to sites 20 to 80 miles out. $18 to $20 an hour plus mileage.",
+    "desc": "Riparian restoration is streamside work, so this sits closer to your watershed interest than a generic planting crew. The application route is worth noting because it favours you: a plain email with a CV and two references rather than a portal, which means a real person reads it and a short, specific note about the Pigeon River work will land. Herbicide application under certified supervision is also how you start toward your own applicator licence.",
+    "pills": [
+      "Riparian/streamside work",
+      "Apply by EMAIL",
+      "Mileage reimbursed",
+      "Closes Sep 7"
+    ],
+    "deadline_date": "2026-09-07",
+    "start": "From autumn 2026"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1127",
+    "title": "Florida Conservation Corps — statewide AmeriCorps (Project A.N.T. & Project R.O.A.R., health insurance)",
+    "org": "Florida Conservation Corps · Florida Dept. of Environmental Protection / Florida Park Service · statewide",
+    "location": "Statewide Florida — placements across the state park system",
+    "deadline": "2026-08-31",
+    "badge": "Strong fit",
+    "pay": "Up to $2,200 per month living allowance",
+    "stipend": "",
+    "benefits": "HEALTH INSURANCE · Segal Education Award · professional development · no age cap stated",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117963",
+    "url_label": "Texas A&M board — Florida Conservation Corps statewide",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117963",
+        "label": "🔗 Texas A&M board — Florida Conservation Corps statewide"
+      }
+    ],
+    "metaLine": "The CURRENT statewide posting · health insurance included · closes Aug 31",
+    "body": "The statewide Florida Conservation Corps posting covering both programme tracks: Project A.N.T. members survey invasive-plant infestations, apply herbicides and recruit volunteers in state parks, while Project R.O.A.R. members handle volunteer recruitment, outreach and interpretive materials. Terms are 11 months (September–July) or 6 months (February–July). Includes health insurance and professional development, at up to $2,200 a month.",
+    "desc": "This is the live statewide posting, which matters because the earlier Florida Conservation Corps entry on your list closed on August 7 — this is its replacement, and it lets you be considered across the whole park system rather than one park. Health insurance on an AmeriCorps term is genuinely uncommon. The A.N.T. track is the field one; say so explicitly in the application, because R.O.A.R. is outreach.",
+    "pills": [
+      "HEALTH INSURANCE",
+      "Up to $2,200/month",
+      "Statewide placement",
+      "Ask for the A.N.T. track"
+    ],
+    "deadline_date": "2026-08-31",
+    "start": "11-month (Sept–July) or 6-month (Feb–July) terms"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1128",
+    "title": "Land Management Intern — Tall Timbers Research Station (FREE HOUSING)",
+    "org": "Tall Timbers Research Station · Livingston Place, Red Hills · Monticello, FL",
+    "location": "Monticello, Florida (Livingston Place, Red Hills region)",
+    "deadline": "2026-10-16",
+    "badge": "Good fit",
+    "pay": "Starting at $295 per week",
+    "stipend": "",
+    "benefits": "FREE ON-SITE HOUSING",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118003",
+    "url_label": "Texas A&M board — Tall Timbers Land Management Intern",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118003",
+        "label": "🔗 Texas A&M board — Tall Timbers Land Management Intern"
+      }
+    ],
+    "metaLine": "Free housing at a famous FIRE ECOLOGY station · but note the hunting-support duties",
+    "body": "A 16-week internship with a flexible start after September 21, 2026, carrying out land-management activities that support research projects on a longleaf pine and bobwhite research property — heavy equipment operation, mowing and disking for habitat management. The role also involves assisting with horseback quail hunts and caring for dogs and horses, with frequent weekend work in hunting season. No experience required; natural resources backgrounds preferred. Free on-site housing.",
+    "desc": "Tall Timbers is one of the best-known fire ecology research stations in the country, and free housing makes $295 a week workable. Be clear about what the job actually is before applying: a substantial share of it is supporting horseback quail hunts and looking after dogs and horses, with weekend work through hunting season. If that is fine with you, the land-management and prescribed-fire exposure at a station of this reputation is worth it.",
+    "pills": [
+      "FREE HOUSING",
+      "Famous fire-ecology station",
+      "Includes hunt & animal care",
+      "Weekend work in season"
+    ],
+    "deadline_date": "2026-10-16",
+    "start": "16 weeks, flexible start after September 21, 2026"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1129",
+    "title": "Sea Turtle Life Support & Water Quality Internship (FREE HOUSING, daily water chemistry)",
+    "org": "Karen Beasley Sea Turtle Rescue and Rehabilitation Center · Surf City, NC",
+    "location": "Surf City, North Carolina (Topsail Island)",
+    "deadline": "2026-09-30",
+    "badge": "Good fit",
+    "pay": "$75–$150 per week stipend, plus an $1,800 completion payment for full-time interns after 12 weeks",
+    "stipend": "",
+    "benefits": "FREE SHARED HOUSING with utilities · open to recent graduates, no experience required · no upper age cap stated",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118349",
+    "url_label": "Texas A&M board — Karen Beasley sea turtle water quality internship",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118349",
+        "label": "🔗 Texas A&M board — Karen Beasley sea turtle water quality internship"
+      }
+    ],
+    "metaLine": "Daily water chemistry (pH, salinity, DO) · free housing · in North Carolina",
+    "body": "A 12 to 18 week internship starting October or November 2026 running the hospital’s life-support systems: preparing and pumping saltwater, daily water-quality testing for pH, salinity and dissolved oxygen, maintaining logs, and operating pumps, plumbing and filtration. Open to recent graduates in environmental or biological sciences with no experience required. Free shared housing with utilities included, a $75–$150 weekly stipend and an $1,800 completion payment for full-time interns after 12 weeks.",
+    "desc": "The stipend is low, but free housing plus the $1,800 completion payment makes the arithmetic less bad than it first looks — and it is in North Carolina, so the move is cheap. The genuine draw is daily water chemistry: pH, salinity and dissolved oxygen measured every day is real analytical repetition, which is the sort of hands-on consistency that reads well when you apply to a water-quality lab or a funded assistantship.",
+    "pills": [
+      "FREE HOUSING",
+      "Daily water chemistry",
+      "$1,800 completion payment",
+      "In North Carolina"
+    ],
+    "deadline_date": "2026-09-30",
+    "start": "October–November 2026, 12–18 weeks"
   }
 ]
