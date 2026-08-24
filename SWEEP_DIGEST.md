@@ -1,15 +1,14 @@
 # Weekly opportunity sweep — 2026-08-24
 
-**Added 7 new** opportunities:
-- Watershed Stewards Program (California Conservation Corps) — ages 18–32, applications reopen April 2027 — _Strong_ · West Coast / Pacific · deadline: Applications for the 2027–28 term open April 19 and close June 23, 2027
-- Field Technician — restoration & stewardship crew, San Luis Obispo — _Good_ · West Coast / Pacific · deadline: 2026-09-07
-- Project Technician — conservation district, Baker City (explicitly entry-level, permanent) — _Good_ · West Coast / Pacific · deadline: 2026-09-15
-- Seasonal Restoration Technician — coastal riparian planting & fencing — _Good_ · West Coast / Pacific · deadline: 2026-09-07
-- Florida Conservation Corps — statewide AmeriCorps (Project A.N.T. & Project R.O.A.R., health insurance) — _Strong_ · Southeast & Appalachia · deadline: 2026-08-31
-- Land Management Intern — Tall Timbers Research Station (FREE HOUSING) — _Good_ · Southeast & Appalachia · deadline: 2026-10-16
-- Sea Turtle Life Support & Water Quality Internship (FREE HOUSING, daily water chemistry) — _Good_ · Southeast & Appalachia · deadline: 2026-09-30
+**Added 6 new** opportunities:
+- Land Stewardship Specialist — PERMANENT with HOUSING, UTILITIES and full benefits — _Excellent_ · Southwest · deadline: 2026-08-31
+- Mexican Wolf Technician — trail cameras, telemetry & trapping (Mexican Wolf Recovery Program) — _Excellent_ · Southwest · deadline: 2026-08-31
+- Inventory Management Technician (plant salvage) — $40–$45/hour, NO experience required — _Strong_ · Southwest · deadline: 2026-09-01
+- Field Technician — quail trapping, GPS collars & telemetry (ON-SITE HOUSING) — _Strong_ · Southwest · deadline: 2026-10-01
+- Fire and Stewardship Seasonal — prescribed fire with The Nature Conservancy — _Strong_ · Southwest · deadline: 2026-09-04
+- Biological Field Technician — wind energy fatality monitoring, Albuquerque (SHARED HOUSING) — _Strong_ · Southwest · deadline: 2026-10-01
 
 **Updated 0** (deadline / status / description changed).
 
-**Total opportunities:** 1101  ·  next-cycle: 411  ·  expired (one-time, no future cycle): 80
+**Total opportunities:** 1107  ·  next-cycle: 411  ·  expired (one-time, no future cycle): 80
 Triage: passed-but-recurring → `cycle:"next"`; one-time/discontinued → `expired:true`. Passed/expired are hidden on the site by default (toggle to show); never deleted, never moved to the personal Archive. Fit tiers: _Excellent_ / _Strong_ / _Good_ / _Reach / review_ (set via each entry's badge). The Browse pages render from this data automatically — no HTML edits. Nothing is live until this PR is merged.
