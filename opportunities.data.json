@@ -3799,8 +3799,8 @@
       }
     ],
     "status": {
-      "kind": "s-updated",
-      "label": "✨ Updated — May 28, 2026"
+      "kind": "s-new",
+      "label": "⚠️ Check age cap — programme is 18–25"
     },
     "id": "item-088"
   },
@@ -8303,7 +8303,7 @@
     "src_label": "Service & Fellowships",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — July 19, 2026"
+      "label": "⚠️ Not eligible — programme age cap is 24"
     },
     "title": "FEMA Corps — AmeriCorps NCCC 2027 cohort",
     "org": "AmeriCorps NCCC · FEMA Corps · nationwide deployment",
@@ -9853,7 +9853,7 @@
     "src_label": "Service & Fellowships",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — July 19, 2026"
+      "label": "⚠️ Check age cap — programme is 18–25"
     },
     "title": "Washington Conservation Corps AmeriCorps Member — salmon & riparian restoration (statewide)",
     "org": "Washington Conservation Corps · WA Department of Ecology · statewide",
@@ -16190,7 +16190,7 @@
     "src_label": "Service & Fellowships",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — July 20, 2026"
+      "label": "⚠️ Check age cap — programme is 18–25"
     },
     "title": "Excelsior Conservation Corps — Survey & Assessment crew (housing + meals included)",
     "org": "Student Conservation Association with NYS Parks, DEC and Environmental Facilities Corp",
@@ -18964,7 +18964,7 @@
     "src_label": "Service & Fellowships",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — July 27, 2026"
+      "label": "⚠️ Not eligible — programme age cap is 24"
     },
     "title": "AmeriCorps NCCC Traditional Corps Team Leader — 2027 Class",
     "org": "AmeriCorps National Civilian Community Corps",
@@ -43669,47 +43669,6 @@
     "start": "October 26, 2026 – May 29, 2027 (31-week minimum)"
   },
   {
-    "type": "Service / Corps",
-    "cat": "Service & Fellowships",
-    "src": "erin_service.html",
-    "src_label": "Service & Fellowships",
-    "status": {
-      "kind": "s-new",
-      "label": "✨ New — August 24, 2026"
-    },
-    "cycle": "current",
-    "deadline_kind": "fixed",
-    "region": "Mountain West",
-    "id": "item-1051",
-    "title": "Land Conservation Corpsmember — southeastern Colorado (age 18–24 programme)",
-    "org": "Mile High Youth Corps · La Junta and Las Animas, CO",
-    "location": "La Junta and Las Animas, Colorado (six southeastern Colorado counties)",
-    "deadline": "2026-09-04",
-    "badge": "Good fit",
-    "pay": "$1,120 biweekly before taxes, plus a $1,565.08 AmeriCorps education award",
-    "stipend": "",
-    "benefits": "Student loan forbearance · mental health counselling · First Aid/CPR certification · career development support",
-    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=115125",
-    "url_label": "Texas A&M board — Mile High Youth Corps Land Conservation Corpsmember",
-    "links": [
-      {
-        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=115125",
-        "label": "🔗 Texas A&M board — Mile High Youth Corps Land Conservation Corpsmember"
-      }
-    ],
-    "metaLine": "⚠️ Eligibility is capped at age 24 — CHECK before applying · $1,120 biweekly · closes Sep 4",
-    "body": "Mile High Youth Corps runs this AmeriCorps term of service from September 14 to November 13, 2026 on environmental stewardship projects across six southeastern Colorado counties, including trail construction and maintenance, fencing, campground improvements, noxious weed eradication and habitat restoration. Benefits include student loan forbearance, mental health counselling, First Aid/CPR certification and career development support. Eligibility is restricted to ages 18–24 with a high school diploma or GED.",
-    "desc": "Read the eligibility line first: this programme caps at age 24, so confirm you are still inside the window before spending any time on it — if you are not, skip straight to the Conservation Corps North Carolina or Northwest Youth Corps entries, which have no upper age limit. If you do qualify, $1,120 biweekly plus loan forbearance is a solid nine-week term.",
-    "pills": [
-      "⚠️ Age 18–24 only — verify",
-      "$1,120 biweekly",
-      "Loan forbearance",
-      "9-week term"
-    ],
-    "deadline_date": "2026-09-04",
-    "start": "September 14 – November 13, 2026"
-  },
-  {
     "type": "Graduate Program",
     "cat": "Funded Graduate Programs",
     "src": "erin_programs.html",
@@ -45588,5 +45547,446 @@
     ],
     "deadline_date": "2026-08-28",
     "start": "Federal onboarding after selection"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "country": "CA",
+    "region": "Ontario",
+    "id": "item-1098",
+    "title": "Environmental Technician — $51,800–$68,600 CAD (WSP)",
+    "org": "WSP · Ottawa, Ontario",
+    "location": "Ottawa, Ontario",
+    "deadline": "Rolling — open until filled",
+    "badge": "Strong fit",
+    "pay": "CAD $51,800–$68,600 per year (published in Canadian dollars)",
+    "stipend": "",
+    "benefits": "🇨🇦 US citizens: this is reachable on a CUSMA professional work permit (LMIA-exempt, needs a job offer) — \"Biologist\", \"Forester\", \"Soil Scientist\" and \"Range Manager\" are all on the official Appendix 2 list and each requires only a bachelor’s degree with NO minimum experience. The alternative route is an IEC Working Holiday open work permit via a Recognized Organization (SWAP, administered stateside by IENA/InterExchange), which needs no job offer at all.",
+    "url": "https://ecoworks.eco.ca/jobs/626834308-environmental-technician",
+    "url_label": "ECOWorks — WSP Environmental Technician, Ottawa",
+    "links": [
+      {
+        "href": "https://ecoworks.eco.ca/jobs/626834308-environmental-technician",
+        "label": "🔗 ECOWorks — WSP Environmental Technician, Ottawa"
+      }
+    ],
+    "metaLine": "🇨🇦 CAD $51,800–$68,600 published · WSP is a global firm used to work permits",
+    "body": "WSP is hiring an Environmental Technician in Ottawa on a full-time basis. Technician work at WSP spans field data collection, environmental monitoring and sampling, site assessment support and reporting across the firm’s environment and infrastructure portfolio. Salary published as CAD $51,800 to $68,600.",
+    "desc": "A published salary band is rare on Canadian postings and this one is solidly above entry-level technician pay in the US Southeast. WSP is one of the largest environmental consultancies in the world with a big US presence, which matters — firms that already move staff across the border handle CUSMA paperwork as routine rather than as an obstacle.",
+    "pills": [
+      "🇨🇦 CAD $51,800–$68,600",
+      "Salary published",
+      "WSP — global firm",
+      "Ottawa"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "country": "CA",
+    "region": "Ontario",
+    "id": "item-1099",
+    "title": "Wastewater Optimization Extension Specialist — Grand River Conservation Authority",
+    "org": "Grand River Conservation Authority · Cambridge, Ontario",
+    "location": "Cambridge, Ontario (Grand River watershed)",
+    "deadline": "2026-08-31",
+    "badge": "Strong fit",
+    "pay": "CAD $37.94–$45.54 per hour",
+    "stipend": "",
+    "benefits": "🇨🇦 US citizens: this is reachable on a CUSMA professional work permit (LMIA-exempt, needs a job offer) — \"Biologist\", \"Forester\", \"Soil Scientist\" and \"Range Manager\" are all on the official Appendix 2 list and each requires only a bachelor’s degree with NO minimum experience. The alternative route is an IEC Working Holiday open work permit via a Recognized Organization (SWAP, administered stateside by IENA/InterExchange), which needs no job offer at all.",
+    "url": "https://ecoworks.eco.ca/jobs/622653310-wastewater-optimization-extension-specialist",
+    "url_label": "ECOWorks — GRCA Wastewater Optimization Extension Specialist",
+    "links": [
+      {
+        "href": "https://ecoworks.eco.ca/jobs/622653310-wastewater-optimization-extension-specialist",
+        "label": "🔗 ECOWorks — GRCA Wastewater Optimization Extension Specialist"
+      }
+    ],
+    "metaLine": "🇨🇦 CLOSES AUG 31 · a CONSERVATION AUTHORITY — the Canadian analogue of your target US roles",
+    "body": "The Grand River Conservation Authority is hiring a Wastewater Optimization Extension Specialist in Cambridge at CAD $37.94 to $45.54 an hour. Ontario’s conservation authorities are watershed-scale agencies responsible for water quality, wetland permitting, flood management and restoration across a river basin. Applications close at 4:00pm on August 31, 2026.",
+    "desc": "Ontario’s 36 conservation authorities are the closest institutional match Canada has to the US state water and watershed agencies you have been applying to — they run water quality programmes, wetland permitting and restoration on a watershed basis. The Grand River is the largest of them. The hourly rate is strong, but note the August 31 deadline, and that a public-sector employer is generally less nimble on work permits than a private consultancy.",
+    "pills": [
+      "🇨🇦 CLOSES AUG 31",
+      "Conservation Authority",
+      "CAD $37.94–$45.54/hr",
+      "Watershed agency"
+    ],
+    "deadline_date": "2026-08-31"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "country": "CA",
+    "region": "Ontario",
+    "id": "item-1100",
+    "title": "Environmental Scientist — aquatic sciences consultancy (Hutchinson Environmental)",
+    "org": "Hutchinson Environmental Sciences Ltd. · Bracebridge and Guelph, Ontario",
+    "location": "Bracebridge and Guelph, Ontario (work across Ontario and Alberta)",
+    "deadline": "Rolling — open until filled",
+    "badge": "Strong fit",
+    "pay": "Not published on the posting",
+    "stipend": "",
+    "benefits": "🇨🇦 US citizens: this is reachable on a CUSMA professional work permit (LMIA-exempt, needs a job offer) — \"Biologist\", \"Forester\", \"Soil Scientist\" and \"Range Manager\" are all on the official Appendix 2 list and each requires only a bachelor’s degree with NO minimum experience. The alternative route is an IEC Working Holiday open work permit via a Recognized Organization (SWAP, administered stateside by IENA/InterExchange), which needs no job offer at all.",
+    "url": "https://ecoworks.eco.ca/jobs/562592698-environmental-scientist",
+    "url_label": "ECOWorks — Hutchinson Environmental Scientist",
+    "links": [
+      {
+        "href": "https://ecoworks.eco.ca/jobs/562592698-environmental-scientist",
+        "label": "🔗 ECOWorks — Hutchinson Environmental Scientist"
+      }
+    ],
+    "metaLine": "🇨🇦 A specialist AQUATIC sciences firm — lake, river and water-quality work",
+    "body": "Hutchinson Environmental Sciences is hiring an Environmental Scientist working from Bracebridge and Guelph with a focus across Ontario and Alberta. HESL is a specialist aquatic and water-quality consultancy working on lake and river science, nutrient and contaminant assessment, and watershed studies.",
+    "desc": "A specialist aquatic sciences firm rather than a generalist consultancy, which means the work is genuinely water science rather than compliance paperwork — the closest match in the Canadian batch to your water-quality and sediment background. Small firms are less practised at work permits than the multinationals, so raise the CUSMA route early and make it sound simple, because it is.",
+    "pills": [
+      "🇨🇦 Aquatic specialists",
+      "Lake & river science",
+      "Ontario + Alberta",
+      "Rolling"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "country": "CA",
+    "region": "Prairies (AB/SK/MB)",
+    "id": "item-1101",
+    "title": "Junior Wildlife Biologist (Onterris)",
+    "org": "Onterris · Calgary, Alberta",
+    "location": "Calgary, Alberta",
+    "deadline": "Rolling — posted August 2026, open until filled",
+    "badge": "Strong fit",
+    "pay": "Not published on the posting",
+    "stipend": "",
+    "benefits": "🇨🇦 US citizens: this is reachable on a CUSMA professional work permit (LMIA-exempt, needs a job offer) — \"Biologist\", \"Forester\", \"Soil Scientist\" and \"Range Manager\" are all on the official Appendix 2 list and each requires only a bachelor’s degree with NO minimum experience. The alternative route is an IEC Working Holiday open work permit via a Recognized Organization (SWAP, administered stateside by IENA/InterExchange), which needs no job offer at all.",
+    "url": "https://ecoworks.eco.ca/jobs/515485718-junior-wildlife-biologist",
+    "url_label": "ECOWorks — Onterris Junior Wildlife Biologist",
+    "links": [
+      {
+        "href": "https://ecoworks.eco.ca/jobs/515485718-junior-wildlife-biologist",
+        "label": "🔗 ECOWorks — Onterris Junior Wildlife Biologist"
+      }
+    ],
+    "metaLine": "🇨🇦 \"Junior Wildlife Biologist\" — the exact CUSMA job title, at the exact grade",
+    "body": "Onterris is hiring a Junior Wildlife Biologist in Calgary on a full-time basis. Alberta wildlife consulting work typically covers pre-construction wildlife surveys, nest sweeps, habitat assessment and monitoring for energy and infrastructure projects across the province.",
+    "desc": "Worth noticing what the title says: \"Biologist\" is one of the professions named on the CUSMA Appendix 2 list, and it requires only a baccalaureate with no minimum experience — so the job title itself is the permit category. \"Junior\" confirms the grade is right. Alberta wildlife consulting is also busy year-round because of the energy sector, which makes it one of the more reliable Canadian markets to enter.",
+    "pills": [
+      "🇨🇦 Junior grade",
+      "\"Biologist\" = CUSMA category",
+      "Calgary",
+      "Rolling"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "country": "CA",
+    "region": "Prairies (AB/SK/MB)",
+    "id": "item-1102",
+    "title": "Environmental Field Technician — $48,700–$65,500 CAD (WSP)",
+    "org": "WSP in Canada · Regina, Saskatchewan",
+    "location": "Regina, Saskatchewan",
+    "deadline": "Rolling — open until filled",
+    "badge": "Strong fit",
+    "pay": "CAD $48,700–$65,500 per year (published in Canadian dollars)",
+    "stipend": "",
+    "benefits": "🇨🇦 US citizens: this is reachable on a CUSMA professional work permit (LMIA-exempt, needs a job offer) — \"Biologist\", \"Forester\", \"Soil Scientist\" and \"Range Manager\" are all on the official Appendix 2 list and each requires only a bachelor’s degree with NO minimum experience. The alternative route is an IEC Working Holiday open work permit via a Recognized Organization (SWAP, administered stateside by IENA/InterExchange), which needs no job offer at all.",
+    "url": "https://ecoworks.eco.ca/jobs/488940378-environmental-field-technician",
+    "url_label": "ECOWorks — WSP Environmental Field Technician, Regina",
+    "links": [
+      {
+        "href": "https://ecoworks.eco.ca/jobs/488940378-environmental-field-technician",
+        "label": "🔗 ECOWorks — WSP Environmental Field Technician, Regina"
+      }
+    ],
+    "metaLine": "🇨🇦 CAD $48,700–$65,500 published · field-based · prairie wetland country",
+    "body": "WSP is hiring an Environmental Field Technician based in Regina, Saskatchewan. Field technician work covers environmental monitoring, sampling, site inspection and data collection across the firm’s Saskatchewan projects. Salary published as CAD $48,700 to $65,500.",
+    "desc": "The field-based counterpart to the Ottawa WSP technician role, and Saskatchewan sits in the Canadian half of the Prairie Pothole region — the same wetland system as the North Dakota and Huron postings on your US list. Same employer as the Ottawa posting, so one application effort can reasonably be pointed at both offices.",
+    "pills": [
+      "🇨🇦 CAD $48,700–$65,500",
+      "Field-based",
+      "Prairie wetlands",
+      "Same firm as Ottawa role"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "country": "CA",
+    "region": "Prairies (AB/SK/MB)",
+    "id": "item-1103",
+    "title": "Junior Environmental Technician (Ram River Environmental Consultants)",
+    "org": "Ram River Environmental Consultants Ltd. · Calgary, Alberta",
+    "location": "Calgary, Alberta",
+    "deadline": "Rolling — open until filled",
+    "badge": "Good fit",
+    "pay": "Not published on the posting",
+    "stipend": "",
+    "benefits": "🇨🇦 US citizens: this is reachable on a CUSMA professional work permit (LMIA-exempt, needs a job offer) — \"Biologist\", \"Forester\", \"Soil Scientist\" and \"Range Manager\" are all on the official Appendix 2 list and each requires only a bachelor’s degree with NO minimum experience. The alternative route is an IEC Working Holiday open work permit via a Recognized Organization (SWAP, administered stateside by IENA/InterExchange), which needs no job offer at all.",
+    "url": "https://ecoworks.eco.ca/jobs/621581259-junior-environmental-technician",
+    "url_label": "ECOWorks — Ram River Junior Environmental Technician",
+    "links": [
+      {
+        "href": "https://ecoworks.eco.ca/jobs/621581259-junior-environmental-technician",
+        "label": "🔗 ECOWorks — Ram River Junior Environmental Technician"
+      }
+    ],
+    "metaLine": "🇨🇦 Junior grade at a small Alberta consultancy",
+    "body": "Ram River Environmental Consultants is hiring a Junior Environmental Technician in Calgary. Alberta environmental consulting at technician level typically covers site assessment, soil and water sampling, reclamation monitoring and field data collection for energy and industrial clients.",
+    "desc": "A smaller firm than Stantec or WSP, which cuts both ways: less bureaucracy and a faster hiring decision, but less experience handling a US applicant’s work permit. Reclamation monitoring in Alberta is genuinely relevant to your restoration interest. If the CUSMA conversation stalls here, this is exactly the kind of seasonal-ish role an IEC open work permit would let you take without any employer paperwork at all.",
+    "pills": [
+      "🇨🇦 Junior grade",
+      "Small firm — faster decisions",
+      "Reclamation work",
+      "Calgary"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "country": "CA",
+    "region": "British Columbia",
+    "id": "item-1104",
+    "title": "Consulting Associate, Hydrologist — $64,000–$81,800 CAD (ERM)",
+    "org": "ERM · Smithers, British Columbia",
+    "location": "Smithers, British Columbia (northern BC)",
+    "deadline": "Rolling — posted August 2026, open until filled",
+    "badge": "Top recommendation",
+    "pay": "CAD $64,000–$81,800 per year (published in Canadian dollars)",
+    "stipend": "",
+    "benefits": "🇨🇦 US citizens: this is reachable on a CUSMA professional work permit (LMIA-exempt, needs a job offer) — \"Biologist\", \"Forester\", \"Soil Scientist\" and \"Range Manager\" are all on the official Appendix 2 list and each requires only a bachelor’s degree with NO minimum experience. The alternative route is an IEC Working Holiday open work permit via a Recognized Organization (SWAP, administered stateside by IENA/InterExchange), which needs no job offer at all.",
+    "url": "https://ecoworks.eco.ca/jobs/629819796-consulting-associate-hydrologist",
+    "url_label": "ECOWorks — ERM Consulting Associate, Hydrologist",
+    "links": [
+      {
+        "href": "https://ecoworks.eco.ca/jobs/629819796-consulting-associate-hydrologist",
+        "label": "🔗 ECOWorks — ERM Consulting Associate, Hydrologist"
+      }
+    ],
+    "metaLine": "🇨🇦 HYDROLOGY at CAD $64,000–$81,800 · \"Consulting Associate\" is ERM’s entry grade",
+    "body": "ERM is hiring a Consulting Associate, Hydrologist based in Smithers in northern British Columbia. The posting is framed around launching a career, and Consulting Associate is ERM’s entry-level professional grade. Hydrology work in northern BC covers watershed assessment, water quality and quantity monitoring, and permitting support for resource projects. Salary published as CAD $64,000 to $81,800.",
+    "desc": "The best-paid entry-level opening in the Canadian batch and the one closest to your stated direction — hydrology and watershed science, at a firm that explicitly pitches this grade at people starting out. ERM is a global consultancy with a large US arm, so the cross-border permit is well-trodden ground for them. Smithers is remote northern BC, which is the trade-off; the pay reflects it.",
+    "pills": [
+      "🇨🇦 CAD $64,000–$81,800",
+      "HYDROLOGY",
+      "Entry-level grade",
+      "Remote northern BC"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "country": "CA",
+    "region": "British Columbia",
+    "id": "item-1105",
+    "title": "Environmental Technician — $26–$40/hr CAD (DWB Consulting)",
+    "org": "DWB Consulting Services Ltd. · Fort St. John, British Columbia",
+    "location": "Fort St. John, British Columbia (Peace River region)",
+    "deadline": "Rolling — open until filled",
+    "badge": "Good fit",
+    "pay": "CAD $26–$40 per hour (published in Canadian dollars)",
+    "stipend": "",
+    "benefits": "🇨🇦 US citizens: this is reachable on a CUSMA professional work permit (LMIA-exempt, needs a job offer) — \"Biologist\", \"Forester\", \"Soil Scientist\" and \"Range Manager\" are all on the official Appendix 2 list and each requires only a bachelor’s degree with NO minimum experience. The alternative route is an IEC Working Holiday open work permit via a Recognized Organization (SWAP, administered stateside by IENA/InterExchange), which needs no job offer at all.",
+    "url": "https://ecoworks.eco.ca/jobs/629948813-environmental-technician",
+    "url_label": "ECOWorks — DWB Consulting Environmental Technician",
+    "links": [
+      {
+        "href": "https://ecoworks.eco.ca/jobs/629948813-environmental-technician",
+        "label": "🔗 ECOWorks — DWB Consulting Environmental Technician"
+      }
+    ],
+    "metaLine": "🇨🇦 CAD $26–$40/hour published · Peace River region",
+    "body": "DWB Consulting Services is hiring an Environmental Technician based in Fort St. John in the Peace River region of northeastern British Columbia, at CAD $26 to $40 an hour. Technician work in the region covers environmental monitoring, reclamation, water sampling and field support for forestry and energy projects.",
+    "desc": "A wide published hourly band with a high ceiling, in a region where field seasons are long and firms compete for people. The Peace River country is forestry and energy rather than conservation land management, so this is a skills-and-savings job rather than a mission job — but the fieldcraft transfers and the top of that band is real money.",
+    "pills": [
+      "🇨🇦 CAD $26–$40/hour",
+      "Wide band, high ceiling",
+      "Peace River region",
+      "Rolling"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "country": "CA",
+    "region": "British Columbia",
+    "id": "item-1106",
+    "title": "Technical Operations Specialist — real-time water quality monitoring systems",
+    "org": "Flowlink Environmental · Coquitlam, British Columbia",
+    "location": "Coquitlam, British Columbia (Metro Vancouver)",
+    "deadline": "Rolling — open until filled",
+    "badge": "Strong fit",
+    "pay": "Not published on the posting",
+    "stipend": "",
+    "benefits": "🇨🇦 US citizens: this is reachable on a CUSMA professional work permit (LMIA-exempt, needs a job offer) — \"Biologist\", \"Forester\", \"Soil Scientist\" and \"Range Manager\" are all on the official Appendix 2 list and each requires only a bachelor’s degree with NO minimum experience. The alternative route is an IEC Working Holiday open work permit via a Recognized Organization (SWAP, administered stateside by IENA/InterExchange), which needs no job offer at all.",
+    "url": "https://ecoworks.eco.ca/jobs/585497440-technical-operations-specialist-real-time-water-quality-monitoring-systems",
+    "url_label": "ECOWorks — Flowlink real-time water quality monitoring",
+    "links": [
+      {
+        "href": "https://ecoworks.eco.ca/jobs/585497440-technical-operations-specialist-real-time-water-quality-monitoring-systems",
+        "label": "🔗 ECOWorks — Flowlink real-time water quality monitoring"
+      }
+    ],
+    "metaLine": "🇨🇦 REAL-TIME water quality instrumentation — sensors, telemetry and data",
+    "body": "Flowlink Environmental is hiring a Technical Operations Specialist for real-time water quality monitoring systems, based in Coquitlam in Metro Vancouver. The work involves deploying, maintaining and operating continuous water-quality monitoring instrumentation and the data systems behind it.",
+    "desc": "Continuous water-quality instrumentation is a growing niche and a genuinely useful specialism to hold — it sits between field sampling, which you have done, and data systems, which you have touched through GIS. Metro Vancouver is expensive, so establish the salary before going far; the posting does not publish one.",
+    "pills": [
+      "🇨🇦 Water quality instrumentation",
+      "Sensors + telemetry + data",
+      "Metro Vancouver",
+      "Salary not published"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "country": "CA",
+    "region": "British Columbia",
+    "id": "item-1107",
+    "title": "Stormwater Technician (ABC Recycling)",
+    "org": "ABC Recycling Ltd. · Burnaby, British Columbia",
+    "location": "Burnaby, British Columbia (Metro Vancouver)",
+    "deadline": "Rolling — open until filled",
+    "badge": "Good fit",
+    "pay": "Not published on the posting",
+    "stipend": "",
+    "benefits": "🇨🇦 US citizens: this is reachable on a CUSMA professional work permit (LMIA-exempt, needs a job offer) — \"Biologist\", \"Forester\", \"Soil Scientist\" and \"Range Manager\" are all on the official Appendix 2 list and each requires only a bachelor’s degree with NO minimum experience. The alternative route is an IEC Working Holiday open work permit via a Recognized Organization (SWAP, administered stateside by IENA/InterExchange), which needs no job offer at all.",
+    "url": "https://ecoworks.eco.ca/jobs/633219132-stormwater-technician",
+    "url_label": "ECOWorks — ABC Recycling Stormwater Technician",
+    "links": [
+      {
+        "href": "https://ecoworks.eco.ca/jobs/633219132-stormwater-technician",
+        "label": "🔗 ECOWorks — ABC Recycling Stormwater Technician"
+      }
+    ],
+    "metaLine": "🇨🇦 Stormwater sampling and compliance — industrial rather than conservation",
+    "body": "ABC Recycling is hiring a Stormwater Technician in Burnaby, British Columbia. Industrial stormwater roles cover sampling and monitoring of site runoff, maintaining treatment and containment systems, and keeping the site compliant with provincial discharge permits.",
+    "desc": "This is water quality in an industrial setting rather than a conservation one — stormwater sampling on a scrapyard site is not habitat work, and it is honest to say so. What it offers is a straightforward, permanent, urban-based route into Canada on the strength of water-sampling skills you already have, in a city where you would have options afterwards.",
+    "pills": [
+      "🇨🇦 Stormwater sampling",
+      "Industrial, not conservation",
+      "Metro Vancouver",
+      "Permanent"
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "country": "CA",
+    "region": "Canada-wide / Remote",
+    "id": "item-1108",
+    "title": "Environmental Scientist — Alberta and British Columbia projects (Black Fly Environmental)",
+    "org": "Black Fly Environmental · Alberta and British Columbia",
+    "location": "Alberta and British Columbia (multiple project locations)",
+    "deadline": "Rolling — open until filled",
+    "badge": "Good fit",
+    "pay": "Not published on the posting",
+    "stipend": "",
+    "benefits": "🇨🇦 US citizens: this is reachable on a CUSMA professional work permit (LMIA-exempt, needs a job offer) — \"Biologist\", \"Forester\", \"Soil Scientist\" and \"Range Manager\" are all on the official Appendix 2 list and each requires only a bachelor’s degree with NO minimum experience. The alternative route is an IEC Working Holiday open work permit via a Recognized Organization (SWAP, administered stateside by IENA/InterExchange), which needs no job offer at all.",
+    "url": "https://ecoworks.eco.ca/jobs/630860144-environmental-scientist",
+    "url_label": "ECOWorks — Black Fly Environmental Scientist",
+    "links": [
+      {
+        "href": "https://ecoworks.eco.ca/jobs/630860144-environmental-scientist",
+        "label": "🔗 ECOWorks — Black Fly Environmental Scientist"
+      }
+    ],
+    "metaLine": "🇨🇦 Western Canada field projects across two provinces",
+    "body": "Black Fly Environmental is hiring an Environmental Scientist working across Alberta and British Columbia. Western Canadian environmental consulting at this level typically covers field surveys, aquatic and terrestrial assessment, monitoring and reporting across multiple project sites.",
+    "desc": "A smaller western consultancy spanning two provinces, which usually means varied fieldwork rather than one repetitive site. Because the location is genuinely multi-province, confirm where you would actually be based and how much of the year is spent travelling before treating a salary figure as comparable to a fixed-office role.",
+    "pills": [
+      "🇨🇦 AB + BC projects",
+      "Varied fieldwork",
+      "Small consultancy",
+      "Confirm home base"
+    ]
   }
 ]

@@ -1,10 +1,10 @@
 {
-  "release": "4.34",
-  "build": "20260824-1073-e2f430da",
-  "builtAt": "2026-08-24T06:07:38.941Z",
-  "total": 1073,
-  "newCount": 0,
+  "release": "4.35",
+  "build": "20260824-1083-b2be0354",
+  "builtAt": "2026-08-24T10:56:57.491Z",
+  "total": 1083,
+  "newCount": 11,
   "updatedCount": 0,
-  "hash": "e2f430da",
+  "hash": "b2be0354",
   "date": "2026-08-24"
 }
