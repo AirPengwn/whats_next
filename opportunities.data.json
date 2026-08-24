@@ -3776,7 +3776,7 @@
     "start": "June 8 – September 10, 2026",
     "body": "Washington Conservation Corps AmeriCorps member — habitat restoration, native planting, water-quality monitoring, trails. 3-month summer term (Jun 8–Sep 10, 2026); application closes May 26, 2026. Living allowance + AmeriCorps education award. Ages 18–25. wccactivities@ecy.wa.gov",
     "desc": "Washington Conservation Corps (WA Dept. of Ecology) AmeriCorps members do hands-on habitat and watershed restoration — coastal/wetland buffer restoration, native planting, water-quality testing and monitoring, trail and rain-garden construction — with professionally taught, career-transferable trainings. This is the 3-month summer term (June 8–September 10, 2026); the online application closes May 26, 2026. Members receive a bimonthly living allowance plus an AmeriCorps education award. Eligibility: ages 18–25 on the first day of service; U.S. citizen/national/lawful permanent resident. Strong match for Erin’s water-quality monitoring and field restoration skills, and a way into Pacific Northwest conservation networks.",
-    "badge": "Strong fit",
+    "badge": "Not eligible — age cap",
     "pills": [
       "Water-quality monitoring",
       "Wetland & habitat restoration",
@@ -3800,9 +3800,10 @@
     ],
     "status": {
       "kind": "s-new",
-      "label": "⚠️ Not eligible — age cap 25 (Erin is 28)"
+      "label": "⚠️ Not eligible — programme age cap is 25 (Erin is 28)"
     },
-    "id": "item-088"
+    "id": "item-088",
+    "expired": true
   },
   {
     "title": "SUNY Brockport — Fully funded MS, Wetland Ecology (Schultz Lab)",
@@ -8303,7 +8304,7 @@
     "src_label": "Service & Fellowships",
     "status": {
       "kind": "s-new",
-      "label": "⚠️ Not eligible — age cap 24 (Erin is 28)"
+      "label": "⚠️ Not eligible — programme age cap is 24 (Erin is 28)"
     },
     "title": "FEMA Corps — AmeriCorps NCCC 2027 cohort",
     "org": "AmeriCorps NCCC · FEMA Corps · nationwide deployment",
@@ -8311,7 +8312,7 @@
     "start": "February 1 through November 20, 2027",
     "body": "A ten-month full-time national service term running February 1 to November 20, 2027, serving on eight- to ten-person teams that complete four to six project deployments nationwide, with intensive training delivered directly by FEMA. Listed benefits are housing, health coverage, a living allowance, a relocation allowance, a stipend, training, and a Segal Education Award on completion, though no dollar figures are published on the listing. Service locations span all 50 states, DC, Puerto Rico, the US Virgin Islands, Guam, American Samoa and Saipan. Age eligibility is 18 to 24 for corps members; Team Leader roles carry no upper age limit.",
     "desc": "As an NCCC alumna Erin already knows this model from the inside, which makes her a natural Team Leader candidate rather than a first-time corps member — and the Team Leader track has no upper age limit, which matters because the standard member track caps at 24. Disaster response is a genuine pivot away from her wetland and water quality core, but post-Helene recovery work is precisely the context her capstone came out of, so the connection to her story is real rather than a stretch. This is also the only firm-deadline national NCCC track currently accepting applications. Verify which track she is age-eligible for before investing in the application.",
-    "badge": "Good fit",
+    "badge": "Not eligible — age cap",
     "pills": [
       "10-month national term",
       "Team Leader track for NCCC alumni",
@@ -8340,7 +8341,8 @@
     "pay": "",
     "stipend": "AmeriCorps living allowance — no dollar figure published on the listing; confirm with NCCC",
     "benefits": "Housing, health coverage, relocation allowance, FEMA-delivered training and a Segal Education Award on completion",
-    "id": "item-196"
+    "id": "item-196",
+    "expired": true
   },
   {
     "type": "Graduate Program",
@@ -9853,7 +9855,7 @@
     "src_label": "Service & Fellowships",
     "status": {
       "kind": "s-new",
-      "label": "⚠️ Not eligible — age cap 25 (Erin is 28)"
+      "label": "⚠️ Not eligible — programme age cap is 25 (Erin is 28)"
     },
     "title": "Washington Conservation Corps AmeriCorps Member — salmon & riparian restoration (statewide)",
     "org": "Washington Conservation Corps · WA Department of Ecology · statewide",
@@ -9861,7 +9863,7 @@
     "start": "October 5, 2026 through September 15, 2027",
     "body": "An eleven-month AmeriCorps term running October 5, 2026 through September 15, 2027. Field crews of six perform salmon and riparian habitat restoration, native planting, invasive species removal and restoration site monitoring; individual placements embed members with partner organizations assisting biologists and educators. Published compensation is $1,476 twice monthly, or $2,952 per month before taxes, rising to $1,609 twice monthly in King, Snohomish and Clark counties, plus a $7,395 Segal Education Award for a full term, health insurance, 120 hours of time off, and student loan interest paid during service. Eligibility is stated as ages 18 to 25 on the first day of service, with exceptions for veterans and people with disabilities.",
     "desc": "The Washington Conservation Corps is the best-paid and highest-volume entry point in the Pacific Northwest for exactly Erin's skill set, and the benefits package — health insurance, paid time off, and loan interest covered — is far more complete than most service terms offer. The individual placement track matters most for her: embedding with a partner biologist builds a technical resume in a way crew work does not. Riparian and salmon habitat restoration also sits directly in her watershed interest area. One thing to verify first: the posting states an age range of 18 to 25 on the first day of service, so she should confirm her eligibility before investing in the application.",
-    "badge": "Strong fit",
+    "badge": "Not eligible — age cap",
     "pills": [
       "$2,952/month before taxes",
       "$7,395 education award",
@@ -9886,7 +9888,8 @@
     "pay": "",
     "stipend": "$1,476 twice monthly ($2,952/month before taxes); $1,609 twice monthly in King, Snohomish and Clark counties",
     "benefits": "$7,395 Segal Education Award for a full term, health insurance, 120 hours time off, and student loan interest paid during service",
-    "id": "item-232"
+    "id": "item-232",
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -16190,7 +16193,7 @@
     "src_label": "Service & Fellowships",
     "status": {
       "kind": "s-new",
-      "label": "⚠️ Not eligible — age cap 25 (Erin is 28)"
+      "label": "⚠️ Not eligible — programme age cap is 25 (Erin is 28)"
     },
     "title": "Excelsior Conservation Corps — Survey & Assessment crew (housing + meals included)",
     "org": "Student Conservation Association with NYS Parks, DEC and Environmental Facilities Corp",
@@ -16198,7 +16201,7 @@
     "start": "10-month residential term",
     "body": "A 50-member residential AmeriCorps program based near Albany, operating five crews across four disciplines: Mixed Stewardship, Infrastructure and Sustainability, Survey and Assessment, and Education and Outreach. Members serve on projects for New York State Parks, the Department of Environmental Conservation and the Environmental Facilities Corporation across New York. The term runs ten months. Eligibility is ages 18 to 25, or 18 to 28 for veterans. Housing, all meals and no-cost health insurance are included alongside a $180 per week living allowance and a $5,815 Segal Education Award.",
     "desc": "Target the Survey and Assessment crew specifically — that discipline is field data collection and mapping, which is your skill set, whereas the other three crews are stewardship, infrastructure and education. The compensation structure deserves a clear read: $180 a week looks low until you account for housing, all meals and health insurance being provided, which means nearly the entire allowance is bankable, and the $5,815 education award can be applied to graduate tuition. Serving on DEC projects also builds relationships inside the agency running the NY HELPS postings elsewhere on your list, which is a genuine strategic advantage.",
-    "badge": "Strong fit",
+    "badge": "Not eligible — age cap",
     "pills": [
       "Ask for the Survey & Assessment crew",
       "Housing, ALL meals & health insurance included",
@@ -16223,7 +16226,8 @@
     "pay": "",
     "stipend": "$180 per week living allowance; $5,815 Segal Education Award for the 10-month term",
     "benefits": "Housing and all meals provided, plus no-cost health insurance",
-    "id": "item-374"
+    "id": "item-374",
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -18964,7 +18968,7 @@
     "src_label": "Service & Fellowships",
     "status": {
       "kind": "s-new",
-      "label": "⚠️ Not eligible — age cap 24 (Erin is 28)"
+      "label": "⚠️ Not eligible — programme age cap is 24 (Erin is 28)"
     },
     "title": "AmeriCorps NCCC Traditional Corps Team Leader — 2027 Class",
     "org": "AmeriCorps National Civilian Community Corps",
@@ -18972,7 +18976,7 @@
     "start": "See posting",
     "body": "Team leaders serve an 11-month full-time term guiding a team of six to twelve 18-24 year olds through consecutive service projects nationwide, many of them conservation, disaster response and environmental stewardship projects. Applications for the 2027 class opened July 1, 2026 and close September 30, 2026. Benefits include a living allowance, housing, travel, training and an education award; a valid driver's license is required.",
     "desc": "You have already done an NCCC term, which makes the team leader track the natural next move rather than a repeat. This is a paid supervisory credential: eleven months leading a team of six to twelve through consecutive service projects across the country, with housing and travel covered. Supervisory experience is what most of the \"two years experience\" job postings on your list are really asking for, so a leader term is one of the faster ways to become eligible for them. Applications for the 2027 class close September 30.",
-    "badge": "Strong fit",
+    "badge": "Not eligible — age cap",
     "pills": [
       "⭐ Team Leader — the step up from your NCCC term",
       "Leads a team of 6–12 members nationwide",
@@ -18996,7 +19000,8 @@
     "pay": "",
     "stipend": "Not published — confirm with the program",
     "benefits": "AmeriCorps Segal Education Award on completion of the term",
-    "id": "item-445"
+    "id": "item-445",
+    "expired": true
   },
   {
     "type": "Service / Corps",
