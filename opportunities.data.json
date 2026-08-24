@@ -1416,7 +1416,7 @@
       "kind": "s-updated",
       "label": "✨ New — May 16, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_date": "2026-08-21",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
@@ -5362,7 +5362,7 @@
       "Midwest"
     ],
     "metaLine": "Funded MS · $1,600/mo + tuition waiver · up to 4 spots · apply by Aug 19",
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-08-19",
     "region": "Midwest & Great Plains",
@@ -12712,7 +12712,7 @@
       "⚠️ Remote island posting"
     ],
     "metaLine": "Year-round · $53,317–$65,165/yr or $17–$21/hr · Sitka AK · deadline Aug 19 2026",
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-08-19",
     "region": "West Coast / Pacific",
@@ -17519,7 +17519,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — July 27, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "title": "Conservation Tech I",
     "org": "Houston Parks Board",
@@ -17551,7 +17551,8 @@
     "pay": "$46,000–$48,000 per year",
     "stipend": "",
     "benefits": "Confirm benefits with the employer",
-    "id": "item-408"
+    "id": "item-408",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -18257,7 +18258,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — July 27, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "title": "Environmental Scientist II — DNREC Division of Water",
     "org": "Kent Conservation District (contracted to DNREC)",
@@ -18289,7 +18290,8 @@
     "pay": "$51,123.25 per year",
     "stipend": "",
     "benefits": "Confirm benefits with the employer",
-    "id": "item-428"
+    "id": "item-428",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -18462,7 +18464,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — July 27, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "title": "Restoration Project Manager",
     "org": "Ipswich River Watershed Association",
@@ -18494,7 +18496,8 @@
     "pay": "$55,000 - $70,000 per year",
     "stipend": "",
     "benefits": "Confirm benefits with the employer",
-    "id": "item-433"
+    "id": "item-433",
+    "expired": true
   },
   {
     "type": "Internship",
@@ -19243,7 +19246,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — July 27, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "title": "Traveling Inventory Forester",
     "org": "Skylight Forestry, Inc.",
@@ -19275,7 +19278,8 @@
     "pay": "$4,500 – $5,200 per month, plus mileage reimbursed at the federal rate",
     "stipend": "",
     "benefits": "Confirm benefits with the employer",
-    "id": "item-452"
+    "id": "item-452",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -20231,7 +20235,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — July 27, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "title": "Data Technician — automated wildlife monitoring",
     "org": "Conservation Metrics, Inc.",
@@ -20263,7 +20267,8 @@
     "pay": "$20.33 - $23 per hour",
     "stipend": "",
     "benefits": "Confirm benefits with the employer",
-    "id": "item-476"
+    "id": "item-476",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -21344,7 +21349,7 @@
       "Up to $1,000 relocation support"
     ],
     "metaLine": "Deadline Aug 17, 2026 (rolling review) · $700–$750/wk · nationwide · Environmental Management",
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-08-17",
     "region": "National / Remote / Multiple",
@@ -22782,7 +22787,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — July 27, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "title": "Youth Program Manager — NPS Expeditions & Corps-to-Career",
     "org": "Montana Conservation Corps · State Office · Bozeman, MT",
@@ -22814,7 +22819,8 @@
     "pay": "$55,120 per year",
     "stipend": "",
     "benefits": "Confirm benefits with the employer",
-    "id": "item-539"
+    "id": "item-539",
+    "expired": true
   },
   {
     "type": "Internship",
@@ -24077,7 +24083,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — July 27, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "title": "Aquatic Field Technician — long-term big-river monitoring, Illinois River Biological Station",
     "org": "Illinois Natural History Survey · Macomb, IL",
@@ -24108,7 +24114,8 @@
     "pay": "Pay not published on the posting — confirm with the survey",
     "stipend": "",
     "benefits": "Confirm benefits with the employer",
-    "id": "item-572"
+    "id": "item-572",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -24157,7 +24164,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — July 27, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "title": "Conservation Technician — soil & water conservation district (ArcGIS and Trimble required)",
     "org": "Vernon County Soil & Water Conservation District · Nevada, MO",
@@ -24189,7 +24196,8 @@
     "pay": "Pay not published on the posting — confirm with the district",
     "stipend": "",
     "benefits": "Health, vision and dental insurance plus LAGERS retirement; all relevant training provided",
-    "id": "item-574"
+    "id": "item-574",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -24478,7 +24486,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — July 27, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "title": "Ecological Technician — permanent restoration work with full benefits",
     "org": "Native Resource Preservation LLC (NRP) · West Saint Paul or Marshall/Clarkfield, MN",
@@ -24509,7 +24517,8 @@
     "pay": "$19.00 per hour; team members on specific government-funded contracts may earn an additional $9–$14+ per hour for applicable project time",
     "stipend": "",
     "benefits": "Health insurance, 401(k) with match, PTO, employer-paid life insurance, per diem for overnight travel, and annual gear and professional training stipends",
-    "id": "item-582"
+    "id": "item-582",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -24518,7 +24527,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — July 27, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "title": "Ecological Operator Technician — permanent, equipment-operating restoration role",
     "org": "Native Resource Preservation LLC (NRP) · West Saint Paul or Marshall/Clarkfield, MN",
@@ -24549,7 +24558,8 @@
     "pay": "$20.00 per hour; team members on specific government-funded contracts may earn an additional $9–$14+ per hour for applicable project time",
     "stipend": "",
     "benefits": "Health insurance, 401(k) with match, PTO, employer-paid life insurance, per diem for overnight travel, and annual gear and professional training stipends",
-    "id": "item-583"
+    "id": "item-583",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -24638,7 +24648,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — July 27, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "title": "Fire and Stewardship Crew Member — prescribed burn operations",
     "org": "The Nature Conservancy · El Dorado Springs, MO",
@@ -24669,7 +24679,8 @@
     "pay": "Pay not published on the posting — TNC does not publish salaries on this board",
     "stipend": "",
     "benefits": "Confirm benefits with the employer",
-    "id": "item-586"
+    "id": "item-586",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -25629,7 +25640,7 @@
       "NCCC background is the qualifier"
     ],
     "metaLine": "Deadline Aug 20, 2026 · $925–$1,125/week · Old Fort NC · Helene recovery trail crew",
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-08-20",
     "region": "Southeast & Appalachia",
@@ -26296,7 +26307,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — July 27, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "title": "Natural Resources Restoration Specialist — permanent WA DNR",
     "org": "Washington State Department of Natural Resources · Arlington & Wenatchee, WA",
@@ -26327,7 +26338,8 @@
     "pay": "$61,332 to $82,440 per year",
     "stipend": "",
     "benefits": "Permanent position with the full Washington State benefits package",
-    "id": "item-627"
+    "id": "item-627",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -26938,7 +26950,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — July 27, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "title": "Mosquito Research & Control Field Associate — Maui Forest Bird Recovery Project",
     "org": "Maui Forest Bird Recovery Project · Makawao, HI",
@@ -26969,7 +26981,8 @@
     "pay": "$3,654 per month",
     "stipend": "",
     "benefits": "Confirm benefits with the employer",
-    "id": "item-643"
+    "id": "item-643",
+    "expired": true
   },
   {
     "type": "Internship",
@@ -28639,7 +28652,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 3, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -28671,7 +28684,8 @@
       "Lodging provided",
       "⚠️ Semi-remote, often solo",
       "Grad-school foot in the door"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -29541,7 +29555,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 3, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -29573,7 +29587,8 @@
       "Mississippi Basin",
       "GS-7/8",
       "Closes Aug 18"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -30158,7 +30173,7 @@
       "kind": "s-new",
       "label": "✨ New — August 3, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-08-21",
     "region": "Midwest & Great Plains",
@@ -31222,7 +31237,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 3, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -31254,7 +31269,8 @@
       "Raptor observation protocols",
       "Consulting experience",
       "⚠️ ~1 year asked"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -32452,7 +32468,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 3, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -32484,7 +32500,8 @@
       "Water quality unit",
       "⚠️ CA residency required",
       "Closes Aug 18"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -33149,7 +33166,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 3, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -33181,7 +33198,8 @@
       "$60k–$70k",
       "Embedded with NYSDEC",
       "Water permitting"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -33190,7 +33208,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 3, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -33222,7 +33240,8 @@
       "Water licensing & permitting",
       "$45k–$55k",
       "Inside Maine DEP"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -34011,7 +34030,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 10, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -34044,7 +34063,8 @@
       "Closes Aug 17",
       "Army Corps — her delineation manual",
       "6 duty locations"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Graduate Program",
@@ -34554,7 +34574,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 10, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -34586,7 +34606,8 @@
       "GS-5/6 entry",
       "Water-quality measurement",
       "Closes Aug 19"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -34595,7 +34616,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 10, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -34628,7 +34649,8 @@
       "Endangered species recovery",
       "Water quality + habitat",
       "Closes Aug 18"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -34720,7 +34742,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 10, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -34752,7 +34774,8 @@
       "Inside the water-quality agency",
       "Closes Aug 18",
       "Apply via CalCareers 525431"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -34802,7 +34825,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 10, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -34834,7 +34857,8 @@
       "$48,045–$75,912",
       "Salmon + steelhead monitoring",
       "Closes Aug 21"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -34966,7 +34990,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 10, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -34998,7 +35022,8 @@
       "BS-only minimum, no experience",
       "$54,350–$81,972",
       "Closes Aug 19"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -35007,7 +35032,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 10, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -35039,7 +35064,8 @@
       "Her GPA is the qualifying route",
       "$61,722–$97,087",
       "Closes Aug 17"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -35253,7 +35279,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 10, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -35285,7 +35311,8 @@
       "Her capstone at state scale",
       "$60,528",
       "Closes Aug 19"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -35296,7 +35323,7 @@
       "kind": "s-new",
       "label": "✨ New — August 10, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-08-17",
     "region": "Southwest",
@@ -35460,7 +35487,7 @@
       "kind": "s-new",
       "label": "✨ New — August 10, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-08-19",
     "region": "Southwest",
@@ -35623,7 +35650,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 10, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -35655,7 +35682,8 @@
       "Trail cameras + GPS + mammals",
       "Her Wildlife Insights work applies",
       "Closes Aug 20"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -35706,7 +35734,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 10, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -35738,7 +35766,8 @@
       "$47,000–$50,000",
       "Field sampling + lab analysis",
       "University research centre"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -35747,7 +35776,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 10, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -35779,7 +35808,8 @@
       "BIOLOGIST title",
       "National Estuarine Research Reserve",
       "Closes Aug 20"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -35788,7 +35818,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 10, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -35820,7 +35850,8 @@
       "$46,827 start",
       "Mine reclamation + water quality",
       "Closes Aug 21"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -36157,7 +36188,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 10, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -36190,7 +36221,8 @@
       "Prescribed fire + habitat + surveys",
       "$33,902–$59,327",
       "Closes Aug 18"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -36322,7 +36354,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 10, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -36354,7 +36386,8 @@
       "BS with NO experience required",
       "$41,341–$61,663",
       "Closes Aug 17"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -36963,7 +36996,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 17, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -36994,7 +37027,8 @@
       "$50,460–$65,599",
       "Upper Mississippi River",
       "Closes Aug 21"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -37003,7 +37037,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 17, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -37034,7 +37068,8 @@
       "$47,703–$54,461",
       "Asheville — your home watershed",
       "Entry grade NC12"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -37203,7 +37238,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 17, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -37234,7 +37269,8 @@
       "DEQ headquarters",
       "Statewide programme work",
       "Closes Aug 19"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -37483,7 +37519,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 17, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -37514,7 +37550,8 @@
       "Natural heritage database work",
       "Central Appalachians",
       "$15–$17/hour"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -37563,7 +37600,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 17, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -37594,7 +37631,8 @@
       "Adds BLM to your record",
       "$19.52–$25.37/hour",
       "Closes Aug 19"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -38238,7 +38276,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 17, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -38269,7 +38307,8 @@
       "Three entry grades",
       "North Georgia / Appalachian",
       "Low-traffic PDF vacancy route"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -38755,7 +38794,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 17, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -38786,7 +38825,8 @@
       "Flagship state survey",
       "Strong grad-school reference",
       "Lab + field work"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Internship",
@@ -38994,7 +39034,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 17, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -39025,7 +39065,8 @@
       "Habitat mapping",
       "$41,641 + state benefits",
       "⚠️ SCUBA required — check first"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -39034,7 +39075,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 17, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -39065,7 +39106,8 @@
       "GS-9 · $65,735–$85,460",
       "Reachable with BS + 1 yr",
       "Closes Aug 21"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -39074,7 +39116,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 17, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -39105,7 +39147,8 @@
       "$45,290/yr",
       "Same title as your NC targets",
       "One letter covers both states"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -39314,7 +39357,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 17, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -39345,7 +39388,8 @@
       "$61,722–$80,243",
       "Watershed condition assessment",
       "⚠️ Check the series coursework rules"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -39434,7 +39478,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 17, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -39465,7 +39509,8 @@
       "Ecological restoration — your target",
       "First professional class",
       "Multiple duty stations"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -39474,7 +39519,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 17, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -39505,7 +39550,8 @@
       "$3,738–$4,980/month",
       "Habitat management + surveys",
       "State benefits"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -39514,7 +39560,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 17, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -39545,7 +39591,8 @@
       "Entry professional grade",
       "$61,722–$80,243",
       "Your target agency"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -39754,7 +39801,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 17, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -39785,7 +39832,8 @@
       "NRS1 — Oregon's entry class",
       "Trapping + PIT tagging",
       "$4,519–$6,276/month"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Graduate Program",
@@ -40400,7 +40448,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 17, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -40431,7 +40479,8 @@
       "Your capstone IS the experience",
       "GS-7 · $56,262–$73,142",
       "⏰ Closes tomorrow"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -40519,7 +40568,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 17, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -40550,7 +40599,8 @@
       "FIVE openings",
       "Aquatic invasive species",
       "Closes Aug 21"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -40637,7 +40687,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 17, 2026"
+      "label": "Expired — August 24, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -40668,7 +40718,8 @@
       "Monitoring plots + data entry",
       "Respected research nonprofit",
       "Won't displace grad applications"
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Graduate Program",
