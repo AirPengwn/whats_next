@@ -44017,5 +44017,331 @@
       "Stipend NOT published"
     ],
     "start": "12-month appointment, possible renewal"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "National / Remote / Multiple",
+    "id": "item-1061",
+    "title": "ACE Conservation Crew — nationwide application, pick your own base (SOURCE, rolling)",
+    "org": "American Conservation Experience · Conservation Crew Program · crew bases in AZ, CA, UT and NC",
+    "location": "Nationwide — crew bases in Flagstaff AZ; Ridgecrest, Sacramento and Coachella Valley CA; Hurricane UT; Asheville NC (applicant chooses)",
+    "deadline": "Rolling — start dates throughout the year, terms of 3–12 months",
+    "badge": "Good fit",
+    "pay": "$800 bi-weekly living stipend ($400 per week)",
+    "stipend": "",
+    "benefits": "FREE HOUSING on off days · three meals daily on project · camping and field gear · project transportation · AmeriCorps education award on completing a full 13- or 26-week term · 640 hours (120 on eligible public-land projects) earns Public Land Corps non-competitive federal hiring status",
+    "url": "https://usaconservationcrew.applicantpool.com/jobs/1271777",
+    "url_label": "ACE — Conservation Crew nationwide application",
+    "links": [
+      {
+        "href": "https://usaconservationcrew.applicantpool.com/jobs/1271777",
+        "label": "🔗 ACE — Conservation Crew nationwide application"
+      }
+    ],
+    "metaLine": "ONE application, you pick the location · free housing + meals · route to PUBLIC LAND CORPS status",
+    "body": "This is the single national entry point for ACE’s Conservation Crew programme: applicants specify a location preference and are routed to that division. Crews carry out trail construction, invasive plant removal, native planting, forest thinning, historic preservation and wildlife and range fencing on public lands. Rolling start dates with terms of three to twelve months; 640 hours including 120 on eligible public-land projects earns Public Land Corps non-competitive federal hiring status.",
+    "desc": "The stipend is low at $400 a week, but free housing on off days plus three meals on project means almost none of it goes to living costs — and the real prize is the 640-hour threshold that converts into Public Land Corps hiring authority, a genuine shortcut past the USAJOBS queue. Because you choose the base, pick a division with wetland or watershed work rather than a purely trails crew.",
+    "pills": [
+      "You pick the location",
+      "Free housing + meals",
+      "Public Land Corps at 640 hrs",
+      "Rolling entry"
+    ],
+    "start": "Rolling start dates"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "National / Remote / Multiple",
+    "id": "item-1062",
+    "title": "Environmental Inspector — nationwide talent-pool posting (SOURCE, evergreen)",
+    "org": "SWCA Environmental Consultants · project locations nationwide",
+    "location": "USA, any — project locations nationwide, varying by client",
+    "deadline": "Evergreen posting — SWCA recruits into a rolling talent pool",
+    "badge": "Good fit",
+    "pay": "$24.00–$43.20 per hour (Staff II level)",
+    "stipend": "",
+    "benefits": "",
+    "url": "https://careers.swca.com/jobs/14392",
+    "url_label": "SWCA — Environmental Inspector (nationwide pool)",
+    "links": [
+      {
+        "href": "https://careers.swca.com/jobs/14392",
+        "label": "🔗 SWCA — Environmental Inspector (nationwide pool)"
+      }
+    ],
+    "metaLine": "Evergreen pipeline posting · $24–$43.20/hour · erosion control & BMP work · 1 year needed",
+    "body": "An evergreen nationwide posting through which SWCA builds its Environmental Inspector talent pool for upcoming infrastructure, energy and construction compliance projects across the United States. Work involves ensuring environmental compliance on linear construction, soil erosion control and BMP installation and maintenance, agricultural mitigation plans, and working in remote areas using ATVs or 4WD vehicles. Requires at least a year of environmental consulting inspection experience on linear construction; scope, location, timing and duration vary by project.",
+    "desc": "SWCA already appears twice on your list, and this is their standing pipeline rather than a single opening — which means an application sits in the pool and gets matched when a project lands near you. Erosion and sediment control BMPs are the applied version of your sediment work. The one-year linear-construction requirement is the real gate, so be specific about any compliance-monitoring fieldwork you have done.",
+    "pills": [
+      "Evergreen — always open",
+      "$24–$43.20/hour",
+      "Erosion & sediment BMPs",
+      "Nationwide placement"
+    ],
+    "start": "Varies by project"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "National / Remote / Multiple",
+    "id": "item-1063",
+    "title": "Forester / Forestry Technician — traveling multi-state plot crews (no experience required)",
+    "org": "Chestnut Ridge Forestry · traveling: New Waverly TX, Cassville MO, Mena AR, Alexandria LA, Carbondale IL and beyond",
+    "location": "Multiple / traveling — typically three or more states per year across the southern US",
+    "deadline": "2027-05-26",
+    "badge": "Good fit",
+    "pay": "$36.50–$70.00 per hour (employees start at $31/hour plus $5.50/hour fringe; subcontractors with a forestry degree and a year of experience $50–$70/hour)",
+    "stipend": "",
+    "benefits": "",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118300",
+    "url_label": "Texas A&M board — Chestnut Ridge Forestry traveling crews",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118300",
+        "label": "🔗 Texas A&M board — Chestnut Ridge Forestry traveling crews"
+      }
+    ],
+    "metaLine": "$36.50–$70/hour · NO experience required for seasonal roles · constant travel",
+    "body": "Traveling field forestry positions conducting stocking surveys, timber sale preparation including marking and cruising, and Common Stand Exams on National Forests across the southern US and beyond. Work involves installing fixed plots, measuring regeneration trees and recording tree data on a handheld data recorder. No prior experience is required for seasonal roles; one season of field experience is preferred for full-time positions. Employees start at $31 an hour plus $5.50 fringe.",
+    "desc": "The pay is startling for work that needs no experience — well over $36 an hour all-in — and the reason is the travel: three or more states a year with no fixed home base. If you are willing to live out of a vehicle for a season, this is the fastest way on this list to build savings for a graduate move. Plot-based measurement also transfers directly to vegetation sampling work.",
+    "pills": [
+      "$36.50–$70/hour",
+      "NO experience required",
+      "Constant multi-state travel",
+      "Plot-based sampling"
+    ],
+    "deadline_date": "2027-05-26",
+    "start": "Rolling"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "National / Remote / Multiple",
+    "id": "item-1064",
+    "title": "Fulbright U.S. Student Program 2027–28 — study/research awards abroad",
+    "org": "US Department of State / Institute of International Education · host country varies",
+    "location": "Varies by host country",
+    "deadline": "2026-10-06",
+    "badge": "Reach",
+    "pay": "",
+    "stipend": "Award benefits vary by host country and are not published as a single figure — check the country summary for your target",
+    "benefits": "",
+    "url": "https://us.fulbrightonline.org/",
+    "url_label": "Fulbright U.S. Student Program",
+    "links": [
+      {
+        "href": "https://us.fulbrightonline.org/",
+        "label": "🔗 Fulbright U.S. Student Program"
+      }
+    ],
+    "metaLine": "National deadline OCT 6, 2026 · a year of funded research abroad · at-large applications accepted",
+    "body": "Fulbright Study/Research awards fund a year of independent research or graduate study abroad, including in environmental science, conservation and water resources. The 2027–28 competition is open with a national deadline of October 6, 2026 at 5pm Eastern. Applicants must be US citizens holding a bachelor’s degree by the award start date and must not hold a PhD. Award benefits vary by country and are not published as a single stipend figure.",
+    "desc": "A genuine reach, but the eligibility fits you exactly — recent BS, US citizen, willing to relocate anywhere — and as an at-large applicant you are not competing through a campus committee. October 6 is close enough that you would need to start now: the binding constraint is a research proposal and an in-country affiliation letter, so pick one country and one watershed question rather than shopping around.",
+    "pills": [
+      "Deadline Oct 6, 2026",
+      "Funded year abroad",
+      "At-large eligible",
+      "Needs a proposal + affiliation"
+    ],
+    "deadline_date": "2026-10-06",
+    "start": "Academic year 2027–28"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "National / Remote / Multiple",
+    "id": "item-1065",
+    "title": "Community Science Fellow — AGU Thriving Earth Exchange (unpaid, 3–4 hours a week, remote)",
+    "org": "American Geophysical Union · Thriving Earth Exchange · remote, nationwide",
+    "location": "Remote (nationwide)",
+    "deadline": "2026-09-03",
+    "badge": "Good fit",
+    "pay": "",
+    "stipend": "UNPAID volunteer fellowship — no stipend",
+    "benefits": "Project-management training and an AGU cohort network",
+    "url": "https://thrivingearthexchange.org/community-science-fellows/",
+    "url_label": "AGU Thriving Earth Exchange — Community Science Fellows",
+    "links": [
+      {
+        "href": "https://thrivingearthexchange.org/community-science-fellows/",
+        "label": "🔗 AGU Thriving Earth Exchange — Community Science Fellows"
+      }
+    ],
+    "metaLine": "UNPAID but only 3–4 hrs/week · stack it alongside a paid job · closes Sep 3",
+    "body": "An unpaid remote volunteer fellowship in which fellows act as project managers for community science initiatives, pairing communities with scientific partners to address local environmental priorities. The commitment is roughly three to four hours a week, starting between October 14, 2026 and April 3, 2027, with the cohort running through October 2028. Requires a bachelor’s degree and foundational Earth science knowledge, with no prior professional experience needed.",
+    "desc": "Unpaid work normally does not belong on this list, but three to four hours a week is small enough to run alongside a full-time job, and what you get is project-management experience plus an AGU network — both things a field technician CV usually lacks. Treat it as a supplement to whatever paid role you take, never as the main thing.",
+    "pills": [
+      "UNPAID",
+      "Only 3–4 hrs/week",
+      "Stackable with a job",
+      "Project-management credential"
+    ],
+    "deadline_date": "2026-09-03",
+    "start": "Between October 14, 2026 and April 3, 2027 (cohort runs to October 2028)"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-1066",
+    "title": "Funded PhD — climate change ecology & bioacoustics, avian response to extreme weather (BS entry)",
+    "org": "Rutgers University · Global Change Macroecology Lab · New Brunswick, NJ",
+    "location": "New Brunswick, New Jersey",
+    "deadline": "2026-09-25",
+    "badge": "Good fit",
+    "pay": "",
+    "stipend": "Starting at $40,000 per year",
+    "benefits": "",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118156",
+    "url_label": "Texas A&M board — Rutgers PhD, climate change ecology & bioacoustics",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118156",
+        "label": "🔗 Texas A&M board — Rutgers PhD, climate change ecology & bioacoustics"
+      }
+    ],
+    "metaLine": "$40,000/year · EXTREME-WEATHER ecological response — your capstone framing · BS entry",
+    "body": "A funded PhD position running a field-based, quantitative project on avian community responses following extreme weather events, moderated by species traits, using passive acoustic monitoring and quantitative ecology. The listing states a bachelor’s degree as the education required with no prior experience specified, starting September 2027. Stipend starts at $40,000 a year.",
+    "desc": "The framing is your capstone at a larger scale — how an ecological community responds after an extreme weather event — which gives you an unusually genuine statement of purpose. Two honest caveats: it is a PhD rather than the master’s you are aiming for, and passive acoustic monitoring is a different sensor from your camera-trap work even though the analytical logic is the same. At $40,000 it is worth an exploratory email to the PI.",
+    "pills": [
+      "$40,000/year",
+      "Extreme-weather ecology",
+      "BS entry accepted",
+      "PhD, not MS"
+    ],
+    "deadline_date": "2026-09-25",
+    "start": "September 2027"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-1067",
+    "title": "Research Support Specialist — Wildlands Monitoring Biologist, Adirondack Ecological Center",
+    "org": "SUNY ESF · Adirondack Ecological Center · with NYSDEC · Newcomb, NY",
+    "location": "Newcomb, New York (Adirondack Park)",
+    "deadline": "2026-10-10",
+    "badge": "Strong fit",
+    "pay": "$60,000–$65,000 per year",
+    "stipend": "",
+    "benefits": "Full benefits package · one-year appointment, extendable",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118117",
+    "url_label": "Texas A&M board — SUNY ESF Adirondack monitoring biologist",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118117",
+        "label": "🔗 Texas A&M board — SUNY ESF Adirondack monitoring biologist"
+      }
+    ],
+    "metaLine": "$60,000–$65,000 WITH FULL BENEFITS · university research post · closes Oct 10",
+    "body": "A one-year extendable position supporting the Adirondack Ecological Center’s Wildlands Monitoring \"Ecological Scorecard\" project with NYSDEC, monitoring the ecological effects of recreation on state lands. The work centres on conducting field research and monitoring across the Adirondacks and managing the resulting datasets, starting around October 2026 with a full benefits package. $60,000 to $65,000 a year.",
+    "desc": "This is the best-compensated non-senior research position found this week — $60,000 plus full benefits at a university field station, which normally requires a master’s. Survey design and dataset management is exactly the combination your camera-trap and GIS work already demonstrates, and a research station post is the strongest possible springboard into a funded assistantship.",
+    "pills": [
+      "$60,000–$65,000 + benefits",
+      "University field station",
+      "Survey design & data",
+      "Closes Oct 10"
+    ],
+    "deadline_date": "2026-10-10",
+    "start": "Approximately October 2026"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-1068",
+    "title": "Planner III — DNREC Division of Water",
+    "org": "Kent Conservation District (contracted to Delaware DNREC, Division of Water) · Dover, DE",
+    "location": "Dover, Delaware",
+    "deadline": "2026-09-01",
+    "badge": "Good fit",
+    "pay": "$57,886.70 per year",
+    "stipend": "",
+    "benefits": "One-year contractual position with the opportunity to continue long term — NOT a State of Delaware merit position",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118286",
+    "url_label": "Texas A&M board — DNREC Planner III (Division of Water)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118286",
+        "label": "🔗 Texas A&M board — DNREC Planner III (Division of Water)"
+      }
+    ],
+    "metaLine": "The top rung of the Delaware water cluster at $57,886 · closes Sep 1",
+    "body": "A one-year contractual planning position with DNREC’s Division of Water in Dover, with the opportunity to continue long term. The posting notes the vacancy stays open until filled. This is a conservation-district-administered role rather than a State of Delaware merit position. $57,886.70 a year.",
+    "desc": "Four Delaware water and waste roles came up this week at $39,296, $44,306, $45,148 and this one at $57,886 — same office cluster, very different pay. Apply to this one first and work down: the Planner III salary is nearly $19,000 above the Level II entry rung for what is still a one-year contractual appointment, so there is no reason to aim low.",
+    "pills": [
+      "$57,886 — top of the cluster",
+      "DNREC Division of Water",
+      "Apply to this one first",
+      "Contractual, not merit"
+    ],
+    "deadline_date": "2026-09-01",
+    "start": "Open until filled"
   }
 ]
