@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <script>/*theme-preset*/(function(){try{var s=localStorage.getItem('erin_theme');if(s==='dark'||(!s&&window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');}catch(e){}})();</script>
-<link rel="stylesheet" href="styles.css?v=20260824-1134-2a2d3be4">
+<link rel="stylesheet" href="styles.css?v=20260824-1134-45587ea3">
 <title>Funded Graduate Programs — What’s Next for Erin</title>
 <style>
 body{font-family:var(--fn);color:var(--t1);background:var(--bg3);line-height:1.6;padding:0 0 2rem}
@@ -101,7 +101,7 @@ html.dark .bx-new{background:#ff5a3c;color:#1a1a1a}
   window.__toggleTheme=function(){var d=document.documentElement.classList.toggle('dark');localStorage.setItem('erin_theme',d?'dark':'light');upBtn();};
 })();
 </script>
-<script src="site.js?v=20260824-1134-2a2d3be4"></script>
+<script src="site.js?v=20260824-1134-45587ea3"></script>
 </head>
 <body>
 <!-- GLOBAL NAV -->
@@ -156,7 +156,7 @@ html.dark .bx-new{background:#ff5a3c;color:#1a1a1a}
 <div id="browse-body"></div>
 <p class="footer">Live opportunities, sorted by urgency. Saving is gated to Erin&rsquo;s primary device.<br><br><a href="index.html" style="color:var(--blue)">&#8592; Back to home</a></p>
 </div>
-<script src="opportunities.js?v=20260824-1134-2a2d3be4"></script>
+<script src="opportunities.js?v=20260824-1134-45587ea3"></script>
 <script>
 (function(){
 var BIN_ID='6a675f8ef5f4af5e29c7eca6',API_KEY='$2a$10$3VnClCkIfxL8M8fyJ.LzUevSqMpr8VjiTBw.dMqWluks0WktJY4eq',STORE='erin_mylist_v1';
@@ -520,6 +520,20 @@ var viewScope='all'; /* scope view: 'all' | 'priority' | 'expired' | 'removed' �
    nothing for the weekly run to remember to tag. */
 var nrmFilter=false;
 var caFilter=false;   /* v4.14: off = Canada hidden; on = Canada ONLY */
+/* v4.46: relocation feasibility, measured from Richmond, Virginia.
+   Two independent chips, because they answer different questions:
+     housingFilter — "can I afford to go at all?"  (housing_provided)
+     relocFilter   — "is there time to get there?" (relocation !== 'tight')
+   relocation is set in the data file: 'local'  = drivable from Richmond,
+   'housed' = far but housing provided, 'lead' = far, 6+ weeks' notice,
+   'tight'  = far AND starting soon AND no housing, 'unknown' = no date parsed.
+   'unknown' is deliberately NOT filtered out — an unparsed start date is
+   missing information, not a known problem, and hiding it would silently
+   shrink the list. */
+var housingFilter=false;
+var relocFilter=false;
+function hasHousing(it){ return !!it && it.housing_provided===true; }
+function isTightReloc(it){ return !!it && it.relocation==='tight'; }
 function isFundedMS(it){
   if(!it) return false;
   if((it.type||it.cat||'').toLowerCase().indexOf('grad')<0) return false;
@@ -582,6 +596,8 @@ function removedSet(){
 (function(){ try{
   var q=new URLSearchParams((typeof location!=='undefined'&&location.search)||'');
   if(q.get('ca')==='1') caFilter=true;                        /* v4.14 deep-link into Canada mode */
+  if(q.get('housing')==='1') housingFilter=true;              /* v4.46 */
+  if(q.get('reachable')==='1') relocFilter=true;              /* v4.46 */
   var _RG = caFilter?CA_REGIONS:REGIONS;
   var rg=q.get('region'); if(rg && _RG.indexOf(rg)>-1) BX.region=[rg];
   var lk=(typeof LOCK_TYPE!=='undefined'&&LOCK_TYPE);
@@ -673,6 +689,14 @@ function buildBrowseFiltersX(){
   w.appendChild(fgroup('Country', [chip('🇨🇦 Canada only', caFilter, function(){
     caFilter=!caFilter; BX.region=[]; renderBrowse();
   })]));
+  /* v4.46: relocation reality. Erin is in Richmond, Virginia — a posting that
+     is cross-country, starts in under six weeks and provides no housing is not
+     really an opportunity. These two chips make that visible instead of making
+     her read every card to work it out. */
+  w.appendChild(fgroup('Relocation', [
+    chip('🏠 Housing provided', housingFilter, function(){ housingFilter=!housingFilter; renderBrowse(); }),
+    chip('🚗 Time to relocate', relocFilter, function(){ relocFilter=!relocFilter; renderBrowse(); })
+  ]));
   /* v2.19/v2.20: broken-link filter — chip label shows "(view-only)" on
      read-only devices since flags can only be added on Erin's primary. */
   var _blChipLbl = '⚠ Only broken links' + (document.documentElement.classList.contains('erin-readonly') ? ' (view-only)' : '');
@@ -842,6 +866,9 @@ function renderBrowseX(){
     /* v4.14: Canada is a separate mode, not an addition — off hides it, on
        shows nothing else. Applies in EVERY scope including saved/priority. */
     if(caFilter !== isCA(it)) return false;
+    /* v4.46: relocation feasibility — both applied in every scope */
+    if(housingFilter && !hasHousing(it)) return false;
+    if(relocFilter && isTightReloc(it)) return false;
     if(reviewedFilter==='unrev' && rvHas(it.id)) return false;
     if(reviewedFilter==='rev'   && !rvHas(it.id)) return false;
     if(BX.type.length   && !has1(BX.type,typeOf(it))) return false;

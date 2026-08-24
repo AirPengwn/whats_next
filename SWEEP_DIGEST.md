@@ -1,15 +1,6 @@
 # Weekly opportunity sweep — 2026-08-24
 
-**Added 6 new** opportunities:
-- Winter/Spring Education Internship (2 positions) — FREE GOVERNMENT HOUSING, four months to relocate — _Good_ · Midwest & Great Plains · deadline: 2026-09-20
-- AmeriCorps Volunteer Coordinator — Wisconsin Woodland Owners Association — _Good_ · Midwest & Great Plains · deadline: 2026-08-31
-- Seasonal Environmental Technician — Ohio wetland consultancy — _Good_ · Midwest & Great Plains · deadline: 2026-08-31
-- Fall Native Seed Collection Seasonal — paid restoration equipment training — _Good_ · Midwest & Great Plains · deadline: Rolling — open until filled
-- Natural Resources Assistants (2 positions) — bird banding & deer programme — _Good_ · Midwest & Great Plains · deadline: 2026-09-07
-- Range Ecologist — private-lands grassland conservation with Audubon — _Reach / review_ · Midwest & Great Plains · deadline: 2026-10-01
-
-**⚠ Review these (reach / weak fit — your call whether to keep):**
-- Range Ecologist — private-lands grassland conservation with Audubon — _Reach / review_ · Midwest & Great Plains · deadline: 2026-10-01
+**Added 0 new** opportunities.
 
 **Updated 0** (deadline / status / description changed).
 
