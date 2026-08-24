@@ -50439,5 +50439,134 @@
     "start": "Open",
     "start_date": "2026-08-11",
     "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "country": "CA",
+    "region": "Ontario",
+    "id": "item-1170",
+    "title": "Junior Geospatial Developer — freshwater conservation & ecosystem restoration (CAD $56,265–$70,331)",
+    "org": "Canadian Wildlife Federation · Ottawa, Ontario (hybrid)",
+    "location": "Ottawa, Ontario (hybrid — combination of office and remote)",
+    "deadline": "Rolling — indeterminate (permanent) position, posted August 14, 2026",
+    "badge": "Strong fit",
+    "pay": "CAD $56,265–$70,331 (hiring range; above-range considered for significant experience)",
+    "stipend": "",
+    "benefits": "🇨🇦 US citizens: reachable on a CUSMA professional work permit (LMIA-exempt, needs a job offer) — \"Biologist\" and \"Research Assistant\" are on the Appendix 2 list, each requiring only a bachelor’s degree with NO minimum experience. Or an IEC Working Holiday open work permit via a Recognized Organization (SWAP/IENA), ages 18–35, which needs no job offer.",
+    "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=22f8f42d-2f4a-4b96-ba1f-f23fe2a08db2&ccId=19000101_000001&lang=en_CA&jobId=9206718941408_1",
+    "url_label": "Canadian Wildlife Federation — Junior Geospatial Developer",
+    "links": [
+      {
+        "href": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=22f8f42d-2f4a-4b96-ba1f-f23fe2a08db2&ccId=19000101_000001&lang=en_CA&jobId=9206718941408_1",
+        "label": "🔗 Canadian Wildlife Federation — Junior Geospatial Developer"
+      }
+    ],
+    "metaLine": "🇨🇦 JUNIOR grade · CAD $56,265–$70,331 · geospatial work for FRESHWATER conservation · permanent",
+    "body": "The Junior Geospatial Developer builds geospatial models, tools and technologies supporting freshwater conservation and ecosystem restoration, working alongside a multidisciplinary team of ecologists, analysts and developers and reporting to the Senior Spatial Ecologist. The role turns complex ecological data into practical tools through software development, data workflows and geospatial modelling frameworks, helping inform conservation decisions. Indeterminate (permanent), Ottawa hybrid, CAD $56,265 to $70,331.",
+    "desc": "A junior-grade, permanent, salaried geospatial role whose entire purpose is freshwater conservation and ecosystem restoration — that is your GIS skills and your water interests in one job, at a national conservation organisation. One honest caveat: the title says \"Developer\" and the duties include software development and building data workflows, so it leans further toward coding than a GIS analyst role. If you have any scripting — Python, R, model builder — lead with it. Reporting to a Senior Spatial Ecologist means the science context is real, not incidental.",
+    "pills": [
+      "🇨🇦 CAD $56,265–$70,331",
+      "JUNIOR grade, permanent",
+      "Freshwater conservation GIS",
+      "Leans toward coding"
+    ],
+    "relocation": "lead",
+    "housing_provided": false,
+    "start": "Open"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "country": "CA",
+    "region": "Atlantic Canada",
+    "id": "item-1171",
+    "title": "Fishing Gear Technician — marine entanglement reduction, Atlantic Canada (CAD $64,636–$80,795)",
+    "org": "Canadian Wildlife Federation · Marine Programs · Halifax, Nova Scotia",
+    "location": "Halifax, Nova Scotia (office, work-from-home and field work across Atlantic Canada)",
+    "deadline": "Rolling — indeterminate (permanent) position, posted August 14, 2026",
+    "badge": "Good fit",
+    "pay": "CAD $64,636–$80,795 (hiring range; above-range considered for significant experience)",
+    "stipend": "",
+    "benefits": "🇨🇦 US citizens: reachable on a CUSMA professional work permit (LMIA-exempt, needs a job offer) — \"Biologist\" and \"Research Assistant\" are on the Appendix 2 list, each requiring only a bachelor’s degree with NO minimum experience. Or an IEC Working Holiday open work permit via a Recognized Organization (SWAP/IENA), ages 18–35, which needs no job offer.",
+    "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=22f8f42d-2f4a-4b96-ba1f-f23fe2a08db2&ccId=19000101_000001&lang=en_CA&jobId=9206718945798_1",
+    "url_label": "Canadian Wildlife Federation — Fishing Gear Technician",
+    "links": [
+      {
+        "href": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=22f8f42d-2f4a-4b96-ba1f-f23fe2a08db2&ccId=19000101_000001&lang=en_CA&jobId=9206718945798_1",
+        "label": "🔗 Canadian Wildlife Federation — Fishing Gear Technician"
+      }
+    ],
+    "metaLine": "🇨🇦 CAD $64,636–$80,795 — the highest-paid Canadian entry on the list · permanent",
+    "body": "The Fishing Gear Technician helps facilitate the trial and adoption of experimental fishing gear aimed at reducing entanglements and other human-related threats to marine wildlife across Atlantic Canada. Working with a team of technicians, the role tests, demonstrates and runs innovative gear trials for CWF’s Marine Programs, maintaining and repairing equipment and troubleshooting technology. Reports to the Fisheries Engagement Specialist and Field Team Lead. Halifax-based with a mix of office, home and field work; indeterminate (permanent), CAD $64,636 to $80,795.",
+    "desc": "The best-paid Canadian posting found anywhere in this sweep, and permanent. Be clear about the fit though: this is applied gear technology — testing, repairing and demonstrating fishing equipment — rather than ecological survey work, so it uses your practical field competence and problem-solving more than your wetland or GIS training. Whale entanglement reduction is high-profile conservation with real measurable outcomes, and Halifax is an affordable Atlantic city.",
+    "pills": [
+      "🇨🇦 CAD $64,636–$80,795",
+      "Highest-paid CA entry",
+      "Permanent",
+      "Gear tech, not survey work"
+    ],
+    "relocation": "lead",
+    "housing_provided": false,
+    "start": "Open"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "country": "CA",
+    "region": "Prairies (AB/SK/MB)",
+    "id": "item-1172",
+    "title": "Wetland Conservation Technician — Saskatchewan River Delta (Ducks Unlimited Canada)",
+    "org": "Ducks Unlimited Canada · Manitoba Habitat Asset Management Team · The Pas, Manitoba",
+    "location": "The Pas, Manitoba (Saskatchewan River Delta)",
+    "deadline": "Rolling — position open until filled, posted May 21, 2026",
+    "badge": "Reach",
+    "pay": "CAD $54,300–$68,800 (based on a 35-hour week, commensurate with education and experience)",
+    "stipend": "",
+    "benefits": "⚠️ Requires a MINIMUM THREE YEARS of experience — a genuine stretch at ~1 year. 🇨🇦 US citizens: reachable on a CUSMA professional work permit (LMIA-exempt, needs a job offer) — \"Biologist\" and \"Research Assistant\" are on the Appendix 2 list, each requiring only a bachelor’s degree with NO minimum experience. Or an IEC Working Holiday open work permit via a Recognized Organization (SWAP/IENA), ages 18–35, which needs no job offer.",
+    "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a0a9df3d-3238-473a-bfb4-5fa6c5890c09&ccId=19000101_000001&lang=en_CA&jobId=9201960603386_1",
+    "url_label": "Ducks Unlimited Canada — Wetland Conservation Technician",
+    "links": [
+      {
+        "href": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a0a9df3d-3238-473a-bfb4-5fa6c5890c09&ccId=19000101_000001&lang=en_CA&jobId=9201960603386_1",
+        "label": "🔗 Ducks Unlimited Canada — Wetland Conservation Technician"
+      }
+    ],
+    "metaLine": "🇨🇦 PERMANENT wetland role at DUC · CAD $54,300–$68,800 · but wants 3 years",
+    "body": "As part of Ducks Unlimited Canada’s Manitoba Habitat Asset Management Team, the Wetland Conservation Technician delivers operation and management of water control structures on DUC projects in the Saskatchewan River Delta, working with Indigenous communities, provincial representatives, watershed districts and Fisheries and Oceans Canada. Duties include operating and servicing water control structures, conducting remote wetland inspections, collecting environmental and ecological data, and preparing technical documentation including protocols, data summaries, maps and progress reports. Permanent, full-time, CAD $54,300 to $68,800. An environmental or biological science diploma is preferred and a minimum of three years’ experience is stated.",
+    "desc": "Substantively this is close to a perfect description of what you want to be doing — remote wetland inspections, environmental and ecological data collection, and producing maps and technical documentation, in the Saskatchewan River Delta, one of the largest inland freshwater deltas in North America. It is permanent, at a real salary, with the organisation whose entire mission is wetlands. The obstacle is stated plainly in the posting: three years minimum, and you have about one. Flagged as a reach — but it has been open since May, which suggests they are struggling to fill it, and that is exactly when an under-experienced but genuinely keen applicant gets a hearing.",
+    "pills": [
+      "🇨🇦 PERMANENT at DUC",
+      "Wetland inspections + maps",
+      "CAD $54,300–$68,800",
+      "⚠️ Wants 3 years — a reach"
+    ],
+    "relocation": "lead",
+    "housing_provided": false,
+    "start": "Open"
   }
 ]
