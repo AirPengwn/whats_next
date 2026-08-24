@@ -47503,5 +47503,335 @@
       "Wetland sites included"
     ],
     "start": "Open until filled"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "country": "CA",
+    "region": "Ontario",
+    "id": "item-1149",
+    "title": "Funded MSc — Mercury biogeochemistry, St Marys River (US CITIZENS PAY DOMESTIC TUITION)",
+    "org": "Algoma University · Cameron Faculty of Science · Prof. Michael Twiss · Sault Ste. Marie, ON",
+    "location": "Sault Ste. Marie, Ontario (St Marys River, outflow of Lake Superior)",
+    "deadline": "2026-08-31",
+    "badge": "Top recommendation",
+    "pay": "",
+    "stipend": "CAD $27,000 per year for a maximum of two years",
+    "benefits": "🇨🇦 THE POSTING STATES IN WRITING: \"US citizens pay the same tuition as Canadians at Algoma University\" — the international tuition differential, normally the biggest hidden cost of a Canadian master’s for an American, does not apply here",
+    "url": "https://csee-scee.ca/job/msc-opportunity-mercury-biogeochemistry-in-the-st-marys-river/",
+    "url_label": "CSEE job board — Algoma MSc, mercury biogeochemistry",
+    "links": [
+      {
+        "href": "https://csee-scee.ca/job/msc-opportunity-mercury-biogeochemistry-in-the-st-marys-river/",
+        "label": "🔗 CSEE job board — Algoma MSc, mercury biogeochemistry"
+      }
+    ],
+    "metaLine": "CLOSES AUG 31 · CAD $27,000/yr · US CITIZENS PAY DOMESTIC TUITION · trace metals in a river",
+    "body": "An MSc position attached to a new year-round water-quality station on the St Marys River, built with Environment and Climate Change Canada, titled for mercury biogeochemistry. The student helps build sampling protocols and operate the station — sample processing, autosampler and sensor maintenance, instrument calibration — with a thesis on how the river system is changing. The posting asks only for a BSc in environmental science, biology, chemistry or geology. CAD $27,000 a year for up to two years.",
+    "desc": "Of everything found in Canada this is the closest to your capstone: mercury and trace-metal biogeochemistry in a river system, which is the Pigeon River lead work with a different metal and a bigger river. Two things make it exceptional rather than merely good — CAD $27,000 published, and a written statement that US citizens pay domestic tuition, which is the single biggest cost barrier removed. One caveat found on inspection: this ad’s body text is word-for-word identical to its companion Lake Superior posting, so confirm the mercury-specific scope with Prof. Twiss. It closes August 31.",
+    "pills": [
+      "🇨🇦 CLOSES AUG 31",
+      "US = DOMESTIC TUITION",
+      "CAD $27,000/year",
+      "Mercury/trace metals — your capstone"
+    ],
+    "deadline_date": "2026-08-31",
+    "start": "Term not stated on the posting — confirm January 2027 vs September 2027 with the supervisor"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "country": "CA",
+    "region": "Ontario",
+    "id": "item-1150",
+    "title": "Funded MSc — Aquatic biogeochemistry of Lake Superior (US CITIZENS PAY DOMESTIC TUITION)",
+    "org": "Algoma University · Cameron Faculty of Science · Prof. Michael Twiss · Sault Ste. Marie, ON",
+    "location": "Sault Ste. Marie, Ontario (St Marys River water-quality station)",
+    "deadline": "2026-08-31",
+    "badge": "Top recommendation",
+    "pay": "",
+    "stipend": "CAD $27,000 per year for a maximum of two years",
+    "benefits": "🇨🇦 \"US citizens pay the same tuition as Canadians at Algoma University\", stated on the posting — no international differential",
+    "url": "https://csee-scee.ca/job/msc-opportunity-aquatic-biogeochemistry-of-lake-superior/",
+    "url_label": "CSEE job board — Algoma MSc, aquatic biogeochemistry",
+    "links": [
+      {
+        "href": "https://csee-scee.ca/job/msc-opportunity-aquatic-biogeochemistry-of-lake-superior/",
+        "label": "🔗 CSEE job board — Algoma MSc, aquatic biogeochemistry"
+      }
+    ],
+    "metaLine": "CLOSES AUG 31 · the companion Algoma seat · limnology & climate-driven water-quality change",
+    "body": "The companion MSc seat at the same ECCC–Algoma station on the St Marys River, the outflow of Lake Superior. The student helps build sampling protocols and operate the year-round water-quality station, covering sample processing, autosampler and sensor maintenance and instrument calibration, with a thesis on a limnological question about how climate change is altering Lake Superior water quality, including interseasonal differences. BSc in environmental science, biology, chemistry or geology. CAD $27,000 a year for up to two years.",
+    "desc": "Two funded seats with one supervisor and one deadline — apply to both in a single email rather than choosing, and let Prof. Twiss place you. This one is the broader limnology and water-quality question where the mercury seat is the contaminant-specific one; both give you year-round instrumented sampling on a Great Lakes connecting channel, which is a serious dataset to build a thesis on. Same tuition parity, same August 31 deadline.",
+    "pills": [
+      "🇨🇦 CLOSES AUG 31",
+      "US = DOMESTIC TUITION",
+      "Water quality & limnology",
+      "Apply alongside the mercury seat"
+    ],
+    "deadline_date": "2026-08-31",
+    "start": "Term not stated — confirm January 2027 vs September 2027 with the supervisor"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "country": "CA",
+    "region": "Prairies (AB/SK/MB)",
+    "id": "item-1151",
+    "title": "Funded MSc — Mesocarnivore response to wildfire (90 CAMERA STATIONS, camera-trap experience preferred)",
+    "org": "University of Alberta · Dr. Mark Boyce and Dr. Matt Scrafford · Edmonton / Rainbow Lake, AB",
+    "location": "Edmonton and Rainbow Lake, Alberta (~20,000 km² study area in northwest Alberta)",
+    "deadline": "Rolling — applications reviewed as received; posting dated July 23, 2026",
+    "badge": "Top recommendation",
+    "pay": "",
+    "stipend": "NOT PUBLISHED — the posting says funding is in place and the student will be expected to apply for additional funding, but gives no figure. Ask Dr. Scrafford for the stipend AND how the Alberta international tuition differential is handled.",
+    "benefits": "",
+    "url": "https://csee-scee.ca/job/msc-opportunity-mesocarnivore-response-to-wildfire-in-northwest-alberta/",
+    "url_label": "CSEE job board — U Alberta MSc, mesocarnivore & wildfire",
+    "links": [
+      {
+        "href": "https://csee-scee.ca/job/msc-opportunity-mesocarnivore-response-to-wildfire-in-northwest-alberta/",
+        "label": "🔗 CSEE job board — U Alberta MSc, mesocarnivore & wildfire"
+      }
+    ],
+    "metaLine": "🇨🇦 ~90 remote camera stations · camera-trapping experience explicitly PREFERRED · stipend not published",
+    "body": "The student establishes a grid of roughly 90 remote camera and DNA stations across a ~20,000 km² area near Rainbow Lake, Alberta, comparing mesocarnivore occupancy and wolverine density before and after wildfires that burned more than half the original 2013–2016 study area. Two winter field seasons run November to May, with snowmobile, quad and truck operation. Lab work covers data management, occupancy and density modelling, and manuscript writing. Requires a bachelor’s in natural resources, biology, ecology or conservation; remote trail-camera and mesocarnivore camera-trapping experience is explicitly preferred.",
+    "desc": "The best pure skills match in the Canadian set: the posting names remote trail-camera and camera-trapping experience as preferred, which is exactly what your Wildlife Insights work is, and it wants only a bachelor’s. Ninety stations across 20,000 km² is a serious spatial dataset, and post-fire ecological response echoes your own post-hurricane capstone framing. The gap is money — no stipend figure is published and Alberta charges an international differential. Email Dr. Scrafford and ask both questions before doing anything else.",
+    "pills": [
+      "🇨🇦 ~90 camera stations",
+      "Camera-trapping PREFERRED",
+      "Post-fire response",
+      "Stipend NOT published — ask"
+    ],
+    "start": "Fall term 2026 through Winter term 2029 — ask whether the start can slide to January 2027"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "contact-first",
+    "country": "CA",
+    "region": "Ontario",
+    "id": "item-1152",
+    "title": "Funded MSc — Watershed modelling & agricultural conservation (FUNDED AT DOMESTIC FEE RATES)",
+    "org": "University of Guelph · Dept. of Geography, Environment & Geomatics · Watershed Evaluation Group · Dr. Wanhong Yang · Guelph, ON",
+    "location": "Guelph, Ontario",
+    "deadline": "NOT PUBLISHED — contact Dr. Yang to establish the intake term and deadline",
+    "badge": "Strong fit",
+    "pay": "",
+    "stipend": "Amount not published. The group states funding is available for one PhD or one MSc/MA student. For context, Guelph’s published minimum guaranteed MSc funding is CAD $16,500 a year for the first two years plus a half graduate teaching assistantship in year one — treat that as a floor, not this position’s offer.",
+    "benefits": "🇨🇦 The page states in writing: \"Funding will be provided at domestic student fee rates\" — the group covers the international gap, which is the offset most departments leave unaddressed",
+    "url": "https://www.weg.uoguelph.ca/opportunities/",
+    "url_label": "University of Guelph — Watershed Evaluation Group opportunities",
+    "links": [
+      {
+        "href": "https://www.weg.uoguelph.ca/opportunities/",
+        "label": "🔗 University of Guelph — Watershed Evaluation Group opportunities"
+      }
+    ],
+    "metaLine": "🇨🇦 GIS + watershed water quality — both your strengths · funded at DOMESTIC fee rates",
+    "body": "Research on the cost-effectiveness of agricultural conservation programmes, split across an NSERC stream covering GIS-based watershed hydrology and integrated economic–hydrologic modelling, and an SSHRC stream covering institutional, economic and social aspects. Sample projects include watershed modelling to identify critical source areas for water-quality protection in agricultural landscapes, and Great Lakes water-quality governance. Training covers GIS, watershed modelling, economic analysis and policy evaluation. The group welcomes applicants from geography, hydrology, ecology and forestry backgrounds.",
+    "desc": "This combines your two strongest analytical assets in one programme — GIS multi-criteria analysis and watershed water quality — and \"identifying critical source areas\" is literally suitability modelling applied to pollutant delivery. The written commitment to fund at domestic fee rates matters as much as the topic: it neutralises the international differential without you having to negotiate for it. No deadline is posted, so an email to Dr. Yang is the whole first step.",
+    "pills": [
+      "🇨🇦 Domestic fee rates",
+      "GIS + watershed modelling",
+      "Critical source areas",
+      "Email — no posted deadline"
+    ],
+    "start": "Not stated — confirm January 2027 vs September 2027"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "contact-first",
+    "country": "CA",
+    "region": "Prairies (AB/SK/MB)",
+    "id": "item-1153",
+    "title": "Funded MSc/PhD — Peatlands, permafrost & northern catchments (CAD $3,000/yr international tuition offset)",
+    "org": "University of Alberta · Dept. of Renewable Resources · Catchment and Wetland Sciences Research Group · Dr. David Olefeldt · Edmonton, AB",
+    "location": "Edmonton, Alberta (field sites across northern Canada)",
+    "deadline": "NOT PUBLISHED — a standing recruitment page; applicants email Dr. Olefeldt with a letter of interest",
+    "badge": "Strong fit",
+    "pay": "",
+    "stipend": "Graduate Research Assistant Fellowships valued at a minimum of CAD $25,000 per year, stated on the lab page, plus additional funding for workshops, conferences and field gear",
+    "benefits": "🇨🇦 The lab publishes what most departments hide: approximately CAD $3,000 per year is set aside for international students to cover the added university tuition — an explicit offset of the differential. ⚠️ The page references 2023–2024 funding, so confirm currency before applying.",
+    "url": "https://caws.ualberta.ca/opportunities/",
+    "url_label": "U Alberta — Catchment and Wetland Sciences Research Group",
+    "links": [
+      {
+        "href": "https://caws.ualberta.ca/opportunities/",
+        "label": "🔗 U Alberta — Catchment and Wetland Sciences Research Group"
+      }
+    ],
+    "metaLine": "🇨🇦 WETLANDS + catchments + solute transport · stipend floor and tuition offset both published",
+    "body": "The Catchment and Wetland Sciences Research Group works on the carbon and greenhouse-gas balance of northern peatlands, and on catchment studies in northern Canada where wildfire and permafrost thaw change solute delivery to downstream ecosystems. Projects are negotiated with the supervisor rather than pre-defined. Graduate Research Assistant Fellowships are valued at a minimum of CAD $25,000 a year, with additional funding for workshops, conferences and field gear, and roughly CAD $3,000 a year set aside to offset international tuition.",
+    "desc": "Peatland and catchment biogeochemistry sits exactly where your wetlands, watershed and water-quality interests meet, and \"solute delivery to downstream ecosystems\" is contaminant transport by another name — your capstone question at northern scale. This is one of very few Canadian pages stating both a stipend floor and an international tuition offset in writing. Note this sits inside the same Renewable Resources department as the general U Alberta MSc entry already on your list; this is the named-PI version, which is the one that actually leads somewhere.",
+    "pills": [
+      "🇨🇦 Peatlands & catchments",
+      "CAD $25,000 floor published",
+      "CAD $3,000 tuition offset",
+      "Verify funding is current"
+    ],
+    "start": "Not stated — confirm September 2027 vs a January intake"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "country": "CA",
+    "region": "British Columbia",
+    "id": "item-1154",
+    "title": "Funded MSc — Forest disturbance ecology & REMOTE SENSING (drone lidar, with BC Ministry of Forests)",
+    "org": "University of Northern British Columbia · Dr. Violet Zhao and Dr. Erin Crockett · with the BC Ministry of Forests · Prince George, BC",
+    "location": "Prince George, British Columbia",
+    "deadline": "Rolling — review continues until filled; applications by June 1 got full consideration, so this is late but still open",
+    "badge": "Strong fit",
+    "pay": "",
+    "stipend": "Anticipated at CAD $20,000 per year for two years, flagged on the posting as \"subject to final confirmation\". The student is encouraged to apply for CGS-M and UNBC internal scholarships and for teaching assistantships. Tuition coverage is not stated separately.",
+    "benefits": "⚠️ The international differential is not addressed and the CAD $20,000 figure is itself flagged as subject to confirmation — get both in writing from Dr. Zhao before committing",
+    "url": "https://cag-acg.ca/wp-content/uploads/2026/05/MSc_Position_Posting2.pdf",
+    "url_label": "Canadian Association of Geographers — UNBC MSc posting (PDF)",
+    "links": [
+      {
+        "href": "https://cag-acg.ca/wp-content/uploads/2026/05/MSc_Position_Posting2.pdf",
+        "label": "🔗 Canadian Association of Geographers — UNBC MSc posting (PDF)"
+      }
+    ],
+    "metaLine": "🇨🇦 GIS and remote sensing named as an asset · drone lidar + satellite · January 2027 possible",
+    "body": "A collaboration with the BC Ministry of Forests on how interacting disturbances — windthrow, insect outbreaks and wildfire — plus climate change are reshaping northern BC forest trajectories. The student investigates how disturbance legacies shape regeneration, stand structure, tree growth and carbon dynamics using field forest surveys, dendrochronology, and geospatial tools including drone lidar and satellite remote sensing. Enrolment is in UNBC’s Natural Resources and Environmental Studies MSc. Requires a BSc in environmental science, ecology, forestry or geography.",
+    "desc": "Drone lidar and satellite remote sensing as core methods makes this the most technically forward of the Canadian options, and GIS is named as an asset rather than a requirement — so your multi-criteria suitability work puts you ahead rather than level. A government partner also means the work has a client and a use. Two financial cautions: the stipend is explicitly \"subject to final confirmation\" and the international differential is unaddressed, so both need to be settled in writing first.",
+    "pills": [
+      "🇨🇦 Drone lidar + satellite",
+      "GIS named an asset",
+      "Gov. partner (BC Forests)",
+      "Funding needs confirming"
+    ],
+    "start": "Fall 2026 or Winter (January) 2027"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "country": "CA",
+    "region": "Ontario",
+    "id": "item-1155",
+    "title": "Funded MSc — Microplastics in WETLAND SEDIMENTS, environmental microbiology & biogeochemistry",
+    "org": "Carleton University · Depts. of Chemistry and Biology · Dr. Daniel Grégoire and Dr. Allyson Brady · Ottawa, ON",
+    "location": "Ottawa, Ontario",
+    "deadline": "Rolling — review continues until the positions are filled",
+    "badge": "Good fit",
+    "pay": "",
+    "stipend": "NOT PUBLISHED. The ad names two supervisors and a funded interdisciplinary project but states no stipend figure and no tuition terms. Ask Dr. Grégoire for the package before investing in an application.",
+    "benefits": "⚠️ The ad states \"preference will be given to Canadian students\" — a real headwind for a US applicant, though a preference is not a bar. Worth testing by email rather than assuming exclusion. Note the MSc-eligible seat is the Grégoire one; the Brady seat is advertised at PhD level only.",
+    "url": "https://csee-scee.ca/job/two-graduate-student-positions-available-in-environmental-microbiology-and-biogeochemistry-at-carleton-university/",
+    "url_label": "CSEE job board — Carleton microplastics in wetlands",
+    "links": [
+      {
+        "href": "https://csee-scee.ca/job/two-graduate-student-positions-available-in-environmental-microbiology-and-biogeochemistry-at-carleton-university/",
+        "label": "🔗 CSEE job board — Carleton microplastics in wetlands"
+      }
+    ],
+    "metaLine": "🇨🇦 WETLAND SEDIMENT geochemistry — your strongest overlap · but Canadians preferred",
+    "body": "Two positions studying whether microplastics such as PET actually biodegrade in wetland sediments under real environmental conditions. The MSc/PhD seat with Dr. Grégoire in Chemistry investigates how redox state, nutrient availability, mineralogy and geochemistry govern microbial plastic degradation, using controlled laboratory enrichment experiments. Methods across the team include geochemical characterisation of water and sediments, lipid biomarkers, metagenomics and cultivation.",
+    "desc": "Wetland sediment geochemistry is your strongest technical overlap of anything in the Canadian set — trace-metal sediment sampling plus Army Corps wetland delineation is precisely the background this project assumes. Two honest obstacles: no stipend is published, and the ad says preference goes to Canadian students. A stated preference is not an eligibility bar, so a short email asking whether a strong US applicant would be considered costs nothing and settles it.",
+    "pills": [
+      "🇨🇦 Wetland sediment geochemistry",
+      "Your strongest overlap",
+      "⚠️ Canadians preferred",
+      "Stipend NOT published"
+    ],
+    "start": "Fall 2026 or Winter (January) 2027 — a January-intake target"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "contact-first",
+    "country": "CA",
+    "region": "British Columbia",
+    "id": "item-1156",
+    "title": "Funded MSc in Forestry — urban forestry & spatial big data (under_lab)",
+    "org": "University of British Columbia · Faculty of Forestry and Environmental Stewardship · Dr. Keunhyun Park · Vancouver, BC",
+    "location": "Vancouver, British Columbia",
+    "deadline": "NOT PUBLISHED — the lab accepts direct email enquiries",
+    "badge": "Reach",
+    "pay": "",
+    "stipend": "A full funding package covering two years is advertised — stipend, a personal computer, conference travel support and lab space — but no dollar figure appears. UBC Forestry publishes a faculty-wide minimum of CAD $20,000 a year for the first two years of an MSc; use that as the floor when negotiating.",
+    "benefits": "⚠️ The international differential is not addressed anywhere — ask specifically whether the CAD $20,000 floor is net of international tuition or before it",
+    "url": "https://park.forestry.ubc.ca/contact/",
+    "url_label": "UBC Forestry — under_lab (Dr. Keunhyun Park)",
+    "links": [
+      {
+        "href": "https://park.forestry.ubc.ca/contact/",
+        "label": "🔗 UBC Forestry — under_lab (Dr. Keunhyun Park)"
+      }
+    ],
+    "metaLine": "🇨🇦 A top-tier funded MSc, but urban forestry rather than wetlands — steer it or skip it",
+    "body": "A funded MSc seat in UBC’s Master of Science in Forestry, working on urban forestry and the built environment with spatial and big-data methods. The lab asks candidates to propose their own research direction rather than assigning a fixed project, so the scope is negotiable toward green-space, land-cover or spatial-analysis questions. Start date is January or May 2027.",
+    "desc": "Included with a clear caveat: this is the weakest thematic match in the Canadian set — urban forestry and spatial planning rather than wetlands, water or wildlife. What earns it a place is that it is a genuinely funded MSc at a top-tier university, your GIS and remote-sensing skills are the core requirement, and the lab lets students propose their own direction, which means green stormwater infrastructure or urban watershed questions are arguably in scope. Worth an enquiry only if you are open to steering that way.",
+    "pills": [
+      "🇨🇦 Top-tier university",
+      "Propose your own project",
+      "Urban forestry — off your focus",
+      "Funding figure unpublished"
+    ],
+    "start": "January or May 2027"
   }
 ]
