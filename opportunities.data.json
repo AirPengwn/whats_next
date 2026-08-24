@@ -3800,7 +3800,7 @@
     ],
     "status": {
       "kind": "s-new",
-      "label": "⚠️ Check age cap — programme is 18–25"
+      "label": "⚠️ Not eligible — age cap 25 (Erin is 28)"
     },
     "id": "item-088"
   },
@@ -8303,7 +8303,7 @@
     "src_label": "Service & Fellowships",
     "status": {
       "kind": "s-new",
-      "label": "⚠️ Not eligible — programme age cap is 24"
+      "label": "⚠️ Not eligible — age cap 24 (Erin is 28)"
     },
     "title": "FEMA Corps — AmeriCorps NCCC 2027 cohort",
     "org": "AmeriCorps NCCC · FEMA Corps · nationwide deployment",
@@ -9853,7 +9853,7 @@
     "src_label": "Service & Fellowships",
     "status": {
       "kind": "s-new",
-      "label": "⚠️ Check age cap — programme is 18–25"
+      "label": "⚠️ Not eligible — age cap 25 (Erin is 28)"
     },
     "title": "Washington Conservation Corps AmeriCorps Member — salmon & riparian restoration (statewide)",
     "org": "Washington Conservation Corps · WA Department of Ecology · statewide",
@@ -16190,7 +16190,7 @@
     "src_label": "Service & Fellowships",
     "status": {
       "kind": "s-new",
-      "label": "⚠️ Check age cap — programme is 18–25"
+      "label": "⚠️ Not eligible — age cap 25 (Erin is 28)"
     },
     "title": "Excelsior Conservation Corps — Survey & Assessment crew (housing + meals included)",
     "org": "Student Conservation Association with NYS Parks, DEC and Environmental Facilities Corp",
@@ -18964,7 +18964,7 @@
     "src_label": "Service & Fellowships",
     "status": {
       "kind": "s-new",
-      "label": "⚠️ Not eligible — programme age cap is 24"
+      "label": "⚠️ Not eligible — age cap 24 (Erin is 28)"
     },
     "title": "AmeriCorps NCCC Traditional Corps Team Leader — 2027 Class",
     "org": "AmeriCorps National Civilian Community Corps",
@@ -43280,7 +43280,7 @@
     "badge": "Good fit",
     "pay": "$7,956 total ($6,000 living allowance + $1,956.35 AmeriCorps education award)",
     "stipend": "",
-    "benefits": "Camping accommodation provided onsite throughout the session",
+    "benefits": "Camping accommodation provided onsite throughout the session · Posting states \"young adults ages 19+\" with no upper age limit stated — unlike the other Northwest Youth Corps terms, which cap at 26",
     "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117356",
     "url_label": "Texas A&M board — NWYC AmeriCorps Camping Crew Member",
     "links": [
@@ -43294,135 +43294,12 @@
     "desc": "The camping format removes rent entirely, which is what makes a $6,000 living allowance workable — this is the same economics your NCCC term ran on. Federal land agency crews are also where seasonal technician hiring managers first meet people, so a Pacific Northwest term is a deliberate way to become a known quantity out west.",
     "pills": [
       "Camping provided — no rent",
+      "No upper age cap stated",
       "OR, WA & ID public lands",
-      "Education award",
       "Closes Sep 8"
     ],
     "deadline_date": "2026-09-08",
     "start": "After September 9, 2026"
-  },
-  {
-    "type": "Service / Corps",
-    "cat": "Service & Fellowships",
-    "src": "erin_service.html",
-    "src_label": "Service & Fellowships",
-    "status": {
-      "kind": "s-new",
-      "label": "✨ New — August 24, 2026"
-    },
-    "cycle": "current",
-    "deadline_kind": "fixed",
-    "region": "West Coast / Pacific",
-    "id": "item-1042",
-    "title": "AmeriCorps Crew Member (480-hour term) — Eugene, Oregon",
-    "org": "Northwest Youth Corps · Eugene, OR",
-    "location": "Eugene, Oregon (parks and natural areas; local housing not provided)",
-    "deadline": "2026-09-20",
-    "badge": "Good fit",
-    "pay": "$9,636 total ($7,680 living allowance + $1,956.35 AmeriCorps education award)",
-    "stipend": "",
-    "benefits": "",
-    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117359",
-    "url_label": "Texas A&M board — NWYC AmeriCorps Crew Member (Eugene)",
-    "links": [
-      {
-        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117359",
-        "label": "🔗 Texas A&M board — NWYC AmeriCorps Crew Member (Eugene)"
-      }
-    ],
-    "metaLine": "480 hours over 13 weeks · weekday schedule · NO housing provided · closes Sep 20",
-    "body": "Northwest Youth Corps is filling AmeriCorps Crew Member positions based in Eugene, working on parks and natural areas. The 480-hour service term runs September 21 to December 18, 2026, Monday to Friday 8:00 am to 4:30 pm with some variation. Local housing is not provided. Total value $9,636 including the AmeriCorps education award.",
-    "desc": "A short 13-week weekday term that ends before Christmas — useful as a season-filler rather than a career move. The important difference from the camping crew is that housing is not provided here, so subtract Eugene rent before comparing the two figures; the camping version is very likely the better net deal.",
-    "pills": [
-      "480-hour term",
-      "Ends Dec 18",
-      "NO housing provided",
-      "Weekday schedule"
-    ],
-    "deadline_date": "2026-09-20",
-    "start": "September 21 – December 18, 2026"
-  },
-  {
-    "type": "Service / Corps",
-    "cat": "Service & Fellowships",
-    "src": "erin_service.html",
-    "src_label": "Service & Fellowships",
-    "status": {
-      "kind": "s-new",
-      "label": "✨ New — August 24, 2026"
-    },
-    "cycle": "current",
-    "deadline_kind": "fixed",
-    "region": "West Coast / Pacific",
-    "id": "item-1043",
-    "title": "AmeriCorps Crew Member (480-hour term) — Tacoma, Washington",
-    "org": "Northwest Youth Corps · Tacoma, WA",
-    "location": "Tacoma, Washington (parks and natural areas; local housing not provided)",
-    "deadline": "2026-09-20",
-    "badge": "Good fit",
-    "pay": "$9,636 total ($7,680 living allowance + $1,956.35 AmeriCorps education award)",
-    "stipend": "",
-    "benefits": "",
-    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117358",
-    "url_label": "Texas A&M board — NWYC AmeriCorps Crew Member (Tacoma)",
-    "links": [
-      {
-        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117358",
-        "label": "🔗 Texas A&M board — NWYC AmeriCorps Crew Member (Tacoma)"
-      }
-    ],
-    "metaLine": "The Puget Sound version of the Eugene term · closes Sep 20",
-    "body": "The Washington counterpart to the Eugene crew: Northwest Youth Corps is filling AmeriCorps Crew Member positions based in Tacoma, working on parks and natural areas, with the same 480-hour term from September 21 to December 18, 2026 and the same $9,636 total including the education award. Local housing is not provided.",
-    "desc": "If you are choosing between the Northwest Youth Corps terms on geography rather than money, Tacoma puts you inside the Puget Sound estuary and salmon-recovery world, which is one of the densest concentrations of restoration employers in the country. Same caution as Eugene: no housing, so the allowance goes further only if you have somewhere to stay.",
-    "pills": [
-      "Puget Sound base",
-      "480-hour term",
-      "NO housing provided",
-      "Restoration employer density"
-    ],
-    "deadline_date": "2026-09-20",
-    "start": "September 21 – December 18, 2026"
-  },
-  {
-    "type": "Service / Corps",
-    "cat": "Service & Fellowships",
-    "src": "erin_service.html",
-    "src_label": "Service & Fellowships",
-    "status": {
-      "kind": "s-new",
-      "label": "✨ New — August 24, 2026"
-    },
-    "cycle": "current",
-    "deadline_kind": "fixed",
-    "region": "West Coast / Pacific",
-    "id": "item-1044",
-    "title": "Community Wildfire Protection Crew Member — 10-days-on / 4-days-off across Oregon",
-    "org": "Northwest Youth Corps · meetup in Eugene, OR (projects statewide)",
-    "location": "Communities across Oregon; crew meetup point in Eugene",
-    "deadline": "2026-09-20",
-    "badge": "Good fit",
-    "pay": "$9,155 total ($7,200 living stipend + AmeriCorps education award for a 450-hour term)",
-    "stipend": "",
-    "benefits": "Meals and camping accommodation provided on workdays",
-    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117616",
-    "url_label": "Texas A&M board — NWYC Community Wildfire Protection Crew",
-    "links": [
-      {
-        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117616",
-        "label": "🔗 Texas A&M board — NWYC Community Wildfire Protection Crew"
-      }
-    ],
-    "metaLine": "MEALS AND CAMPING PROVIDED · wildfire fuels reduction · closes Sep 20",
-    "body": "Northwest Youth Corps runs this camping-based crew on a 10-days-on, 4-days-off rotation serving communities across Oregon, with the crew meetup point in Eugene and candidates within commuting distance preferred. A total living stipend of $7,200 before taxes is prorated monthly, meals and camping accommodation are included on workdays, and the 450-hour term earns an AmeriCorps education award.",
-    "desc": "Meals plus camping on workdays is the best cost structure of the four Northwest Youth Corps terms — you are effectively only paying for housing on your four days off. Wildfire fuels reduction is also increasingly where restoration funding sits, and chainsaw and fuels experience transfers directly to Forest Service seasonal hiring.",
-    "pills": [
-      "MEALS + camping provided",
-      "Fuels reduction skills",
-      "10-on / 4-off rotation",
-      "Best cost structure of the four"
-    ],
-    "deadline_date": "2026-09-20",
-    "start": "After September 21, 2026"
   },
   {
     "type": "Graduate Program",
