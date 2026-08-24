@@ -11477,7 +11477,7 @@
     "id": "item-259",
     "housing_provided": false,
     "start_date": "2026-09-08",
-    "relocation": "housed"
+    "relocation": "tight"
   },
   {
     "type": "Career Position",
@@ -20154,7 +20154,7 @@
     "benefits": "Confirm benefits with the employer",
     "id": "item-455",
     "start_date": "2026-07-31",
-    "relocation": "local"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -20197,7 +20197,7 @@
     "benefits": "Confirm benefits with the employer",
     "id": "item-456",
     "start_date": "2026-08-03",
-    "relocation": "local"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -20239,7 +20239,7 @@
     "stipend": "",
     "benefits": "Confirm benefits with the employer",
     "id": "item-457",
-    "relocation": "local"
+    "relocation": "planned"
   },
   {
     "type": "Career Position",
@@ -29127,7 +29127,7 @@
       "Tuition + stipend",
       "Bridge to USFWS/USGS"
     ],
-    "relocation": "local"
+    "relocation": "planned"
   },
   {
     "type": "Internship",
@@ -29424,7 +29424,7 @@
       "Opens early Sept 2026",
       "For after she matriculates"
     ],
-    "relocation": "local"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -29466,7 +29466,7 @@
       "Apply via NC Sea Grant",
       "2028 cycle"
     ],
-    "relocation": "local"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -29508,7 +29508,7 @@
       "Opens mid-Oct 2026",
       "Many remote placements"
     ],
-    "relocation": "local"
+    "relocation": "planned"
   },
   {
     "type": "Career Position",
@@ -29593,7 +29593,7 @@
       "Join SWS now to catch it"
     ],
     "housing_provided": false,
-    "relocation": "local"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -29635,7 +29635,7 @@
       "⚠️ 2027 cycle unannounced",
       "Not a salary"
     ],
-    "relocation": "local"
+    "relocation": "planned"
   },
   {
     "type": "Career Position",
@@ -35537,7 +35537,7 @@
       "3 years of support"
     ],
     "start_date": "2026-10-01",
-    "relocation": "local"
+    "relocation": "planned"
   },
   {
     "type": "Graduate Program",
@@ -45942,7 +45942,7 @@
     "deadline_date": "2026-10-06",
     "start": "Academic year 2027–28",
     "start_date": "2026-10-06",
-    "relocation": "local"
+    "relocation": "planned"
   },
   {
     "type": "Service / Corps",
@@ -50137,6 +50137,307 @@
     "deadline_date": "2026-10-01",
     "start": "From autumn 2026",
     "start_date": "2026-10-01",
+    "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "country": "CA",
+    "region": "British Columbia",
+    "id": "item-1163",
+    "title": "Junior Environmental Technologist / Scientist — NO experience stated (Onterris)",
+    "org": "Onterris · Fort St. John, British Columbia",
+    "location": "Fort St. John, British Columbia (Peace River region)",
+    "deadline": "Rolling — open, posted late July 2026",
+    "badge": "Strong fit",
+    "pay": "Not published — Onterris does not post salary bands; ask early",
+    "stipend": "",
+    "benefits": "🇨🇦 US citizens: reachable on a CUSMA professional work permit (LMIA-exempt, needs a job offer) — \"Biologist\" and \"Soil Scientist\" are on the official Appendix 2 list, each requiring only a bachelor’s degree with NO minimum experience. Or an IEC Working Holiday open work permit via a Recognized Organization (SWAP/IENA), ages 18–35, which needs no job offer at all.",
+    "url": "https://onterris.wd1.myworkdayjobs.com/ONT/job/CAN-British-Columbia-Fort-St-John/Junior-Environmental-Technologist-Scientist_R8584-1",
+    "url_label": "Onterris careers — Junior Environmental Technologist/Scientist",
+    "links": [
+      {
+        "href": "https://onterris.wd1.myworkdayjobs.com/ONT/job/CAN-British-Columbia-Fort-St-John/Junior-Environmental-Technologist-Scientist_R8584-1",
+        "label": "🔗 Onterris careers — Junior Environmental Technologist/Scientist"
+      }
+    ],
+    "metaLine": "🇨🇦 \"Junior\" grade with NO experience requirement · a large multinational consultancy",
+    "body": "Onterris is hiring a Junior Environmental Technologist/Scientist based in Fort St. John in northeastern British Columbia. Onterris is a large multinational environmental consultancy operating across Canada, the US and Australia — the same group the Matrix Solutions site now redirects to. The posting states no years-of-experience requirement. Salary is not published.",
+    "desc": "A junior grade with no stated experience requirement at a multinational consultancy is the ideal shape for a first Canadian role, and the multinational part matters practically: firms that already move staff between Canadian, US and Australian offices treat a CUSMA permit as routine paperwork rather than an obstacle. Fort St. John is remote Peace River country where field seasons are long and firms compete for people. No salary is published, so ask for the band in your first reply.",
+    "pills": [
+      "🇨🇦 Junior — no experience needed",
+      "Multinational — CUSMA routine",
+      "Peace River region",
+      "Salary not published"
+    ],
+    "start": "From July 30, 2026",
+    "start_date": "2026-07-30",
+    "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "country": "CA",
+    "region": "Prairies (AB/SK/MB)",
+    "id": "item-1164",
+    "title": "Junior / Intermediate Environmental Scientist or Technologist — Swift Current (Onterris)",
+    "org": "Onterris · Swift Current, Saskatchewan",
+    "location": "Swift Current, Saskatchewan",
+    "deadline": "Rolling — open, posted early July 2026",
+    "badge": "Strong fit",
+    "pay": "Not published — ask for the band early",
+    "stipend": "",
+    "benefits": "🇨🇦 US citizens: reachable on a CUSMA professional work permit (LMIA-exempt, needs a job offer) — \"Biologist\" and \"Soil Scientist\" are on the official Appendix 2 list, each requiring only a bachelor’s degree with NO minimum experience. Or an IEC Working Holiday open work permit via a Recognized Organization (SWAP/IENA), ages 18–35, which needs no job offer at all.",
+    "url": "https://onterris.wd1.myworkdayjobs.com/ONT/job/CAN-Saskatchewan-Swift-Current/Junior-Environmental-Scientist-or-Technologist_R8132",
+    "url_label": "Onterris careers — Junior/Intermediate Environmental Scientist (Swift Current)",
+    "links": [
+      {
+        "href": "https://onterris.wd1.myworkdayjobs.com/ONT/job/CAN-Saskatchewan-Swift-Current/Junior-Environmental-Scientist-or-Technologist_R8132",
+        "label": "🔗 Onterris careers — Junior/Intermediate Environmental Scientist (Swift Current)"
+      }
+    ],
+    "metaLine": "🇨🇦 Advertised at BOTH junior and intermediate — apply at the grade that fits",
+    "body": "Onterris is recruiting a Junior or Intermediate Environmental Scientist or Technologist based in Swift Current, Saskatchewan. The posting spans both grades, which means the same application is considered at whichever level suits the candidate. No years-of-experience minimum is stated. Salary is not published.",
+    "desc": "Postings advertised across two grades are worth targeting, because you are assessed against the junior bar rather than competing at the higher one. Saskatchewan also sits in the Canadian half of the Prairie Pothole region — the same wetland system as the North Dakota and Huron entries on your list — so the landscape is one you already understand. Same employer as the Fort St. John role; one application effort can reasonably cover both.",
+    "pills": [
+      "🇨🇦 Junior OR intermediate",
+      "Prairie Pothole country",
+      "Same firm as the BC role",
+      "Salary not published"
+    ],
+    "start": "From July 7, 2026",
+    "start_date": "2026-07-07",
+    "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "country": "CA",
+    "region": "Prairies (AB/SK/MB)",
+    "id": "item-1165",
+    "title": "Junior / Intermediate Environmental Scientist or Technologist — Kindersley (Onterris)",
+    "org": "Onterris · Kindersley, Saskatchewan",
+    "location": "Kindersley, Saskatchewan",
+    "deadline": "Rolling — open, posted early July 2026",
+    "badge": "Good fit",
+    "pay": "Not published — ask for the band early",
+    "stipend": "",
+    "benefits": "🇨🇦 US citizens: reachable on a CUSMA professional work permit (LMIA-exempt, needs a job offer) — \"Biologist\" and \"Soil Scientist\" are on the official Appendix 2 list, each requiring only a bachelor’s degree with NO minimum experience. Or an IEC Working Holiday open work permit via a Recognized Organization (SWAP/IENA), ages 18–35, which needs no job offer at all.",
+    "url": "https://onterris.wd1.myworkdayjobs.com/ONT/job/CAN-Saskatchewan-Kindersley/Junior-Intermediate-Environmental-Scientist-or-Technologist_R8471",
+    "url_label": "Onterris careers — Junior/Intermediate Environmental Scientist (Kindersley)",
+    "links": [
+      {
+        "href": "https://onterris.wd1.myworkdayjobs.com/ONT/job/CAN-Saskatchewan-Kindersley/Junior-Intermediate-Environmental-Scientist-or-Technologist_R8471",
+        "label": "🔗 Onterris careers — Junior/Intermediate Environmental Scientist (Kindersley)"
+      }
+    ],
+    "metaLine": "🇨🇦 The third Onterris junior opening — name all three in one application",
+    "body": "The third of Onterris’s Canadian junior-grade openings, this one based in Kindersley in west-central Saskatchewan, again advertised across junior and intermediate grades with no stated experience minimum. Salary is not published.",
+    "desc": "Three junior openings at one firm across BC and Saskatchewan tells you Onterris is actively building out its Canadian field staff — which is exactly when an employer is most willing to take on the paperwork of hiring an American. Name all three locations in a single application and say you are geographically flexible; that flexibility is worth more to them than any one location preference.",
+    "pills": [
+      "🇨🇦 Third Onterris opening",
+      "Firm is actively expanding",
+      "Say you are flexible",
+      "Salary not published"
+    ],
+    "start": "From July 2, 2026",
+    "start_date": "2026-07-02",
+    "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "country": "CA",
+    "region": "Atlantic Canada",
+    "id": "item-1166",
+    "title": "Environmental Biologist — natural environment & ecological consulting (Englobe)",
+    "org": "Englobe Corp. · Dartmouth, Nova Scotia",
+    "location": "Dartmouth, Nova Scotia",
+    "deadline": "Rolling — posted July 29, 2026",
+    "badge": "Strong fit",
+    "pay": "Not published on the Job Bank posting",
+    "stipend": "",
+    "benefits": "🇨🇦 US citizens: reachable on a CUSMA professional work permit (LMIA-exempt, needs a job offer) — \"Biologist\" and \"Soil Scientist\" are on the official Appendix 2 list, each requiring only a bachelor’s degree with NO minimum experience. Or an IEC Working Holiday open work permit via a Recognized Organization (SWAP/IENA), ages 18–35, which needs no job offer at all.",
+    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/49970917",
+    "url_label": "Job Bank — Englobe Environmental Biologist, Dartmouth NS",
+    "links": [
+      {
+        "href": "https://www.jobbank.gc.ca/jobsearch/jobposting/49970917",
+        "label": "🔗 Job Bank — Englobe Environmental Biologist, Dartmouth NS"
+      }
+    ],
+    "metaLine": "🇨🇦 FIRST Atlantic Canada entry · \"Biologist\" is a CUSMA Appendix 2 category",
+    "body": "Englobe is hiring an Environmental Biologist in Dartmouth, Nova Scotia, working in natural environment, ecological and environmental consulting. The posting asks for the ability to coordinate field programs and deliver defensible technical work, strong communication and teamwork, willingness to travel, and a valid driver’s licence. Salary is not published on the Job Bank listing.",
+    "desc": "Notice the job title: \"Biologist\" is one of the professions named on the CUSMA Appendix 2 list, which requires only a baccalaureate with no experience minimum — so the title itself is the permit category, which makes the immigration conversation much simpler. This is also the first Atlantic Canada posting on your list; Nova Scotia is far cheaper to live in than Vancouver or Toronto, and Halifax–Dartmouth has a real environmental consulting sector.",
+    "pills": [
+      "🇨🇦 First Atlantic Canada entry",
+      "\"Biologist\" = CUSMA category",
+      "Cheaper than BC/Ontario",
+      "Salary not published"
+    ],
+    "start": "Open",
+    "start_date": "2026-07-29",
+    "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "country": "CA",
+    "region": "Atlantic Canada",
+    "id": "item-1167",
+    "title": "Environmental Technician — contaminated sites & remediation field programs (Englobe)",
+    "org": "Englobe Corp. · Dartmouth, Nova Scotia",
+    "location": "Dartmouth, Nova Scotia",
+    "deadline": "Rolling — reposted August 24, 2026",
+    "badge": "Strong fit",
+    "pay": "Not published on the Job Bank posting",
+    "stipend": "",
+    "benefits": "🇨🇦 US citizens: reachable on a CUSMA professional work permit (LMIA-exempt, needs a job offer) — \"Biologist\" and \"Soil Scientist\" are on the official Appendix 2 list, each requiring only a bachelor’s degree with NO minimum experience. Or an IEC Working Holiday open work permit via a Recognized Organization (SWAP/IENA), ages 18–35, which needs no job offer at all.",
+    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50147020",
+    "url_label": "Job Bank — Englobe Environmental Technician, Dartmouth NS",
+    "links": [
+      {
+        "href": "https://www.jobbank.gc.ca/jobsearch/jobposting/50147020",
+        "label": "🔗 Job Bank — Englobe Environmental Technician, Dartmouth NS"
+      }
+    ],
+    "metaLine": "🇨🇦 CONTAMINATED SITES and remediation — your capstone subject · reposted today",
+    "body": "Englobe is hiring an Environmental Technician in Dartmouth, Nova Scotia. The posting covers supporting and leading field programs related to contaminated sites and remediation, and applying and promoting Englobe’s health and safety rules and guidelines. Experience in environmental consulting or environmental field services is sought. Salary is not published on the Job Bank listing.",
+    "desc": "Contaminated sites and remediation is the professional form of your Pigeon River lead and trace-metal work — sampling, characterising and cleaning up contaminated ground is a whole industry, and this is the entry point to it. The posting was refreshed on August 24, meaning it is actively being recruited right now rather than sitting stale. Apply alongside the Englobe biologist role at the same office.",
+    "pills": [
+      "🇨🇦 Contaminated sites",
+      "Matches your capstone",
+      "Reposted TODAY",
+      "Pairs with the biologist role"
+    ],
+    "start": "Open",
+    "start_date": "2026-08-24",
+    "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "country": "CA",
+    "region": "Ontario",
+    "id": "item-1168",
+    "title": "Environmental Technician — field surveys & technical investigations (SLR Consulting)",
+    "org": "SLR Consulting (Canada) Ltd. · Guelph, Ontario",
+    "location": "Guelph, Ontario",
+    "deadline": "Rolling — posted May 2026, still listed",
+    "badge": "Good fit",
+    "pay": "Not published on the Job Bank posting",
+    "stipend": "",
+    "benefits": "🇨🇦 US citizens: reachable on a CUSMA professional work permit (LMIA-exempt, needs a job offer) — \"Biologist\" and \"Soil Scientist\" are on the official Appendix 2 list, each requiring only a bachelor’s degree with NO minimum experience. Or an IEC Working Holiday open work permit via a Recognized Organization (SWAP/IENA), ages 18–35, which needs no job offer at all.",
+    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/49512503",
+    "url_label": "Job Bank — SLR Consulting Environmental Technician, Guelph ON",
+    "links": [
+      {
+        "href": "https://www.jobbank.gc.ca/jobsearch/jobposting/49512503",
+        "label": "🔗 Job Bank — SLR Consulting Environmental Technician, Guelph ON"
+      }
+    ],
+    "metaLine": "🇨🇦 Field surveys & technical investigations · flagged green-economy sector",
+    "body": "SLR Consulting (Canada) is hiring an Environmental Technician in Guelph, Ontario. Listed tasks include participating in and supervising field surveys, inspections and technical investigations, testing of construction materials, preparing project schedules and providing consulting support. Job Bank flags the role as green-economy sector. The stated education minimum is a college or non-university certificate or diploma — which your bachelor’s exceeds. Salary is not published.",
+    "desc": "The education bar is a college diploma, so a BS puts you above the stated requirement rather than at it. SLR is a global consultancy with US offices, which helps on the permit question. Guelph is also where the University of Guelph watershed modelling group sits — the funded MSc on your list — so being in that town puts you next to a graduate programme you are already interested in. Note the posting dates from May, so confirm it is still live before investing effort.",
+    "pills": [
+      "🇨🇦 Your degree exceeds the bar",
+      "Global firm with US offices",
+      "Same town as the Guelph MSc",
+      "Verify it is still live"
+    ],
+    "start": "Open",
+    "start_date": "2026-05-01",
+    "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "country": "CA",
+    "region": "British Columbia",
+    "id": "item-1169",
+    "title": "Environmental Technician — environmental monitoring, Metro Vancouver (regional government)",
+    "org": "Metro Vancouver · Burnaby, British Columbia",
+    "location": "Burnaby, British Columbia (Metro Vancouver regional district)",
+    "deadline": "Rolling — posted August 11, 2026",
+    "badge": "Good fit",
+    "pay": "Not published on the Job Bank posting",
+    "stipend": "",
+    "benefits": "⚠️ A regional-government employer: public-sector postings in Canada generally give preference to citizens and permanent residents, so this is a harder permit route than the private consultancies. Worth applying, but rank it below the consultancy options.",
+    "url": "https://www.jobbank.gc.ca/jobsearch/jobposting/50056483",
+    "url_label": "Job Bank — Metro Vancouver Environmental Technician, Burnaby BC",
+    "links": [
+      {
+        "href": "https://www.jobbank.gc.ca/jobsearch/jobposting/50056483",
+        "label": "🔗 Job Bank — Metro Vancouver Environmental Technician, Burnaby BC"
+      }
+    ],
+    "metaLine": "🇨🇦 Environmental monitoring at a regional district · but public sector = harder permit",
+    "body": "Metro Vancouver is hiring an Environmental Technician based in Burnaby, British Columbia. The role involves environmental monitoring associated with wastewater discharge and related regional environmental programmes. Metro Vancouver is the regional district government for the Vancouver area, responsible for water, liquid waste and air quality across the region. Salary is not published on the Job Bank listing.",
+    "desc": "Substantively this is a good fit — regional environmental monitoring with a water and wastewater focus, at the body responsible for water quality across Greater Vancouver. The honest caveat is the employer type: Canadian public-sector roles generally prefer citizens and permanent residents, so your CUSMA route is weaker here than at a private consultancy. Apply, but treat the Onterris and Englobe postings as the likelier ones.",
+    "pills": [
+      "🇨🇦 Regional water & waste monitoring",
+      "Public sector — harder permit",
+      "Metro Vancouver",
+      "Salary not published"
+    ],
+    "start": "Open",
+    "start_date": "2026-08-11",
     "relocation": "tight"
   }
 ]
