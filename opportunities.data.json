@@ -54208,5 +54208,421 @@
     "start": "See posting",
     "relocation": "lead",
     "deadline_date": "2026-09-07"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Midwest & Great Plains",
+    "id": "item-1260",
+    "title": "Environmental Quality Analyst 9-P11 — Kalamazoo District Office (Michigan EGLE)",
+    "org": "Michigan Department of Environment, Great Lakes and Energy (EGLE) · Kalamazoo District Office",
+    "location": "Kalamazoo, Michigan",
+    "deadline": "Rolling — the listing showed \"closes in 1 week\" on August 31, so treat the effective deadline as roughly September 7",
+    "badge": "Strong fit",
+    "pay": "$31.46–$45.86 per hour (published)",
+    "stipend": "",
+    "benefits": "⭐ The 9-P11 band is Michigan's entry-through-journey classification, meaning candidates can be hired in at the 9 level directly from a BS and promote through P11 without reapplying. Full state benefits. ⚠️ NeoGov shows a relative close date rather than an absolute one — verify the exact date on the live posting.",
+    "url": "https://www.governmentjobs.com/jobs/5461606-0/environmental-quality-analyst-9-p11-kalamazoo-district-office",
+    "url_label": "Environmental Quality Analyst 9-P11 — Kalamazoo District Office (Michigan EGLE)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/jobs/5461606-0/environmental-quality-analyst-9-p11-kalamazoo-district-office",
+        "label": "🔗 Environmental Quality Analyst 9-P11 — Kalamazoo District Office (Michigan EGLE)"
+      }
+    ],
+    "metaLine": "Michigan's entry-to-journey analyst band · $31.46–$45.86/hr · ~Sept 7",
+    "body": "A district-office environmental analyst role with Michigan EGLE based in Kalamazoo. The 9-P11 classification is Michigan's entry-through-journey band, so candidates can be hired at the 9 level straight from a bachelor's degree and progress through P11 within the same appointment. District office analysts handle environmental monitoring, permitting and compliance work across EGLE programmes. Published rate is $31.46–$45.86 per hour.",
+    "desc": "Michigan's 9-P11 structure is worth understanding because it solves a problem most state systems create: rather than hiring you at the bottom and making you compete again for the next grade, the band lets you enter at level 9 with a BS and promote through to P11 inside the same job. That is a materially better career shape than an entry post with no ladder. District monitoring and compliance work draws directly on your trace-metal sediment and water sampling. At $31.46 an hour at the floor it also pays well. The one caution is that NeoGov displays a relative close date, so confirm the actual deadline before you plan around it.",
+    "pills": [
+      "Entry-to-journey band — promotes without reapplying",
+      "$31.46–$45.86/hr",
+      "Great Lakes state agency",
+      "⚠️ Verify the exact close date"
+    ],
+    "start": "See posting",
+    "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Midwest & Great Plains",
+    "id": "item-1261",
+    "title": "Industrial Wastewater Permit Writer — NPDES permits, Office of Water Quality (Indiana DEM)",
+    "org": "Indiana Department of Environmental Management · Office of Water Quality",
+    "location": "Indianapolis, Indiana",
+    "deadline": "Rolling — no posted closing date; posted August 2026",
+    "badge": "Strong fit",
+    "pay": "Not published on the posting",
+    "stipend": "",
+    "benefits": "NPDES permit writing is a nationally portable specialism — every state runs the same federal programme, so the skill transfers across state lines and into consulting. State position with full benefits.",
+    "url": "https://workforindiana.in.gov/job/Indianapolis-Industrial-Wastewater-Permit-Writer-IN-46204/1420098800/",
+    "url_label": "Industrial Wastewater Permit Writer — NPDES permits, Office of Water Quality (Indiana DEM)",
+    "links": [
+      {
+        "href": "https://workforindiana.in.gov/job/Indianapolis-Industrial-Wastewater-Permit-Writer-IN-46204/1420098800/",
+        "label": "🔗 Industrial Wastewater Permit Writer — NPDES permits, Office of Water Quality (Indiana DEM)"
+      }
+    ],
+    "metaLine": "🎯 NPDES permit writing — reads discharge data and sets effluent limits",
+    "body": "A permit-writing role in the Indiana Department of Environmental Management's Office of Water Quality, handling NPDES industrial wastewater permits. The work involves reviewing discharge monitoring data, setting effluent limits and assessing receiving-water impacts. Posted August 2026; salary is not published on the listing.",
+    "desc": "Your trace-metal water and sediment sampling translates almost directly into this: reading discharge monitoring data and setting effluent limits is the regulatory application of exactly the analytical judgement your capstone required, just pointed at industrial dischargers instead of a river recovering from a storm. NPDES is a federal programme delegated to states, which makes permit-writing one of the most portable specialisms in water quality — the skill moves with you to any state, to EPA, or into consulting at a substantial premium. Indiana also has several parallel Environmental Manager openings that are its general working-scientist class, so apply to those in the same session. Salary is not published, so ask.",
+    "pills": [
+      "🎯 Discharge data & effluent limits",
+      "NPDES is nationally portable",
+      "Office of Water Quality",
+      "⚠️ Salary not published"
+    ],
+    "start": "See posting",
+    "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1262",
+    "title": "Natural Resources Forestry Specialist Intermediate — Area programme administration (Minnesota DNR)",
+    "org": "Minnesota Department of Natural Resources · Division of Forestry",
+    "location": "Blackduck, Minnesota (north-central Minnesota area office)",
+    "deadline": "Application deadline: September 9, 2026",
+    "badge": "Strong fit",
+    "pay": "Not published on the posting",
+    "stipend": "",
+    "benefits": "PERMANENT state position with real breadth — administers one or two forestry sub-programmes at Area level under limited supervision, and occasionally acts as lead worker to specialists, technicians, interns, emergency firefighters and temporary crews. MN DNR is one of the strongest state natural-resource agencies to build a public-sector record in.",
+    "url": "https://careers.mn.gov/psp/mnjob/MNCAREERS/HRCR/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=1001&JobOpeningId=96422&PostingSeq=1",
+    "url_label": "Natural Resources Forestry Specialist Intermediate — Area programme administration (Minnesota DNR)",
+    "links": [
+      {
+        "href": "https://careers.mn.gov/psp/mnjob/MNCAREERS/HRCR/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=1001&JobOpeningId=96422&PostingSeq=1",
+        "label": "🔗 Natural Resources Forestry Specialist Intermediate — Area programme administration (Minnesota DNR)"
+      }
+    ],
+    "metaLine": "Permanent MN DNR field post with programme + crew-lead responsibility · closes Sept 9",
+    "body": "A position performing forest resource management work, administering one or two forestry sub-programmes at the Area level under limited supervision, and executing field assignments across all Division of Forestry programmes. The role occasionally acts as lead worker to forestry specialists, technicians, interns, emergency firefighters and temporary crews. Based at the Blackduck area office in north-central Minnesota. Salary is not published on the posting.",
+    "desc": "The value here is the shape of the job rather than the subject. Administering a sub-programme under limited supervision, and acting as lead worker over technicians and crews, gives you demonstrable independent responsibility — which is precisely what is missing from a resume built of field seasons, and precisely what selection panels look for when deciding between technician-grade and specialist-grade candidates. It is permanent, at one of the better-regarded state natural-resource agencies, with emergency firefighting exposure that builds fire qualifications. Forestry is off your central wetlands track, so weigh that; but as a two-to-three year position that makes you promotable, it is well-constructed. Salary is not published.",
+    "pills": [
+      "PERMANENT with programme responsibility",
+      "Lead worker over crews & technicians",
+      "MN DNR — strong agency record",
+      "⚠️ Salary not published"
+    ],
+    "start": "See posting",
+    "relocation": "lead",
+    "deadline_date": "2026-09-09"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1263",
+    "title": "Environmental Specialist — State Revolving Fund project compliance (Iowa DNR)",
+    "org": "Iowa Department of Natural Resources · State Revolving Fund programme",
+    "location": "Des Moines, Iowa",
+    "deadline": "Application deadline: September 10, 2026",
+    "badge": "Strong fit",
+    "pay": "Not published on the posting",
+    "stipend": "",
+    "benefits": "Entry-level state environmental specialist work. The environmental review and project screening component builds NEPA-style regulatory experience, which is a named requirement on a large share of federal postings. Applications route through the State of Iowa NeoGov portal.",
+    "url": "https://www.iowadnr.gov/employment/2026-08-28/sept-10-environmental-specialist-srf-project-compliance-specialist",
+    "url_label": "Environmental Specialist — State Revolving Fund project compliance (Iowa DNR)",
+    "links": [
+      {
+        "href": "https://www.iowadnr.gov/employment/2026-08-28/sept-10-environmental-specialist-srf-project-compliance-specialist",
+        "label": "🔗 Environmental Specialist — State Revolving Fund project compliance (Iowa DNR)"
+      }
+    ],
+    "metaLine": "Water infrastructure project compliance + environmental review · closes Sept 10",
+    "body": "A position supporting State Revolving Fund project compliance at Iowa DNR, reviewing water and wastewater infrastructure projects for environmental and regulatory compliance. The role includes environmental review and project screening work. Posted August 28, 2026; applications route through the State of Iowa NeoGov portal. Salary is not published.",
+    "desc": "The State Revolving Fund is the main federal mechanism for financing water and wastewater infrastructure, so compliance work here means reviewing real projects against environmental requirements before money moves — a good vantage point on how water infrastructure decisions actually get made. The environmental review and project screening component is effectively NEPA-style analysis, and NEPA experience is named as a requirement or preference on a large fraction of the federal postings you are targeting, so this builds a credential that keeps paying. Entry-level state specialist grade with your water-quality background directly applicable. Salary is not published; ask when you apply.",
+    "pills": [
+      "Builds NEPA-style review experience",
+      "Water & wastewater infrastructure",
+      "Entry state specialist grade",
+      "Closes Sept 10"
+    ],
+    "start": "See posting",
+    "relocation": "lead",
+    "deadline_date": "2026-09-10"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1264",
+    "title": "Stewardship Coordinator — three-watershed water quality programme (Kalkaska Conservation District)",
+    "org": "Kalkaska Conservation District · a local unit of Michigan government",
+    "location": "Kalkaska, Michigan (three county watersheds)",
+    "deadline": "Application deadline: September 14, 2026",
+    "badge": "Strong fit",
+    "pay": "$40,000–$44,000 per year (published)",
+    "stipend": "",
+    "benefits": "Reports directly to the District Manager at a small district, which means real project ownership rather than assisting. Conservation districts are local units of government, so this carries public-sector benefits and service credit.",
+    "url": "https://www.conservationjobboard.com/job-listing-stewardship-coordinator-kalkaska-michigan/3421702363",
+    "url_label": "Stewardship Coordinator — three-watershed water quality programme (Kalkaska Conservation District)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-stewardship-coordinator-kalkaska-michigan/3421702363",
+        "label": "🔗 Stewardship Coordinator — three-watershed water quality programme (Kalkaska Conservation District)"
+      }
+    ],
+    "metaLine": "🎯 Water quality across three watersheds · $40,000–$44,000 · closes Sept 14",
+    "body": "A coordinator position with the Kalkaska Conservation District, which helps public and private landowners manage land to improve resource value and water quality across three county watersheds. The role reports to the District Manager and engages local government, schools, businesses and landowners to implement conservation practices. The district is a local unit of government. Salary is $40,000–$44,000.",
+    "desc": "Watershed-scale water quality work is your stated interest, and at a district this size you would be running projects rather than assisting on them — reporting directly to the District Manager at a small local-government body means the scope is genuinely yours. Three watersheds is enough territory to build real landowner relationships and see practices through from planning to installation. The Coordinator title and the stakeholder-engagement component also give you programme-management evidence, which is what converts a field record into a specialist-grade application later. Pay is modest at $40,000–$44,000 but it is salaried public-sector work with benefits.",
+    "pills": [
+      "🎯 Water quality across 3 watersheds",
+      "Real project ownership at a small district",
+      "$40,000–$44,000 salaried",
+      "Closes Sept 14"
+    ],
+    "start": "See posting",
+    "relocation": "lead",
+    "deadline_date": "2026-09-14"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1265",
+    "title": "CTAI Conservationist — embedded in the USDA-NRCS field office (Jackson County Conservation District)",
+    "org": "Jackson County Conservation District · Conservation Technical Assistance Initiative · with USDA-NRCS",
+    "location": "Jackson, Michigan (based inside the USDA field office, serving surrounding counties)",
+    "deadline": "Application deadline: September 15, 2026",
+    "badge": "Strong fit",
+    "pay": "$23.00 per hour (published)",
+    "stipend": "",
+    "benefits": "⭐ PHYSICALLY BASED INSIDE THE USDA-NRCS FIELD OFFICE, working directly alongside NRCS staff — this is the recognised side door into a USDA career, which is one of your two stated federal targets.",
+    "url": "https://www.conservationjobboard.com/job-listing-ctai-conservationist-jackson-michigan/2571862085",
+    "url_label": "CTAI Conservationist — embedded in the USDA-NRCS field office (Jackson County Conservation District)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-ctai-conservationist-jackson-michigan/2571862085",
+        "label": "🔗 CTAI Conservationist — embedded in the USDA-NRCS field office (Jackson County Conservation District)"
+      }
+    ],
+    "metaLine": "⭐ Sits inside a USDA-NRCS office · Farm Bill practice delivery · $23.00/hr",
+    "body": "A Conservation Technical Assistance Initiative position providing technical assistance to private landowners implementing Farm Bill conservation practices. The role is based inside the USDA field office in Jackson, Michigan, working directly alongside USDA-NRCS staff, and serves Jackson and surrounding counties. Duties include conducting field visits to collect data for practice implementation. The conservationist is employed by the county conservation district. Pay is $23.00 per hour.",
+    "desc": "You have named USDA as a federal target, and the practical route in is rarely a USAJOBS application — it is working inside an NRCS field office on NRCS programmes until the people who do the hiring know your work. That is exactly what this is: district-employed but physically embedded with NRCS staff, delivering Farm Bill practices to landowners. The field visits to collect practice-implementation data use your survey skills, and the Farm Bill programme knowledge you would build is the specific expertise NRCS hires for. At $23 an hour it pays reasonably for an entry post. This is a strategic application rather than a salary one.",
+    "pills": [
+      "⭐ Embedded in a USDA-NRCS office",
+      "Farm Bill practice delivery",
+      "$23.00/hr",
+      "The documented route into USDA"
+    ],
+    "start": "See posting",
+    "relocation": "lead",
+    "deadline_date": "2026-09-15"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-1266",
+    "title": "Environmental Analyst — Underground Storage Tanks & technical assistance (NEIWPCC)",
+    "org": "NEIWPCC · the interstate water-pollution control commission for New England and New York",
+    "location": "Lowell, Massachusetts",
+    "deadline": "Application deadline: September 13, 2026",
+    "badge": "Strong fit",
+    "pay": "$55,000–$70,000 per year (published)",
+    "stipend": "",
+    "benefits": "NEIWPCC routinely hires environmental science graduates into analyst roles and is the same employer as the Hudson River Estuary position — a parallel application to both gets you inside a Northeast water agency two ways. Distinct from the Spokane WA underground-storage-tank inspector role already on your list.",
+    "url": "https://neiwpcc.org/about-us/careers/",
+    "url_label": "Environmental Analyst — Underground Storage Tanks & technical assistance (NEIWPCC)",
+    "links": [
+      {
+        "href": "https://neiwpcc.org/about-us/careers/",
+        "label": "🔗 Environmental Analyst — Underground Storage Tanks & technical assistance (NEIWPCC)"
+      }
+    ],
+    "metaLine": "Contaminant & groundwater protection at a regional water commission · $55,000–$70,000",
+    "body": "A NEIWPCC staff position providing technical assistance and programme support on underground storage tank regulation across the Northeast states. NEIWPCC is the interstate water-pollution control commission for New England and New York and routinely hires environmental science graduates into analyst roles. Published salary is $55,000–$70,000 per year. Application deadline is September 13, 2026.",
+    "desc": "Underground storage tanks are the most common source of groundwater contamination in the United States, so this is contaminant work in a different register from your capstone — same analytical problem, different pathway. NEIWPCC is an unusual and useful employer: an interstate commission that works across every New England state plus New York, which means the professional network you would build spans a whole region rather than one agency. It is also the same organisation running the Hudson River Estuary stewardship post, so applying to both signals genuine interest to the same recruiter and doubles your chances of getting inside. At $55,000–$70,000 the pay is strong for a first analyst role.",
+    "pills": [
+      "Groundwater contamination focus",
+      "$55,000–$70,000",
+      "Same employer as the Hudson River role",
+      "Regional network across 7 states"
+    ],
+    "start": "See posting",
+    "relocation": "lead",
+    "deadline_date": "2026-09-13"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-1267",
+    "title": "Water Quality Specialist Trainee — Bureau of Oil and Gas Operations (PA DEP, Southwest District)",
+    "org": "Pennsylvania Department of Environmental Protection · Bureau of Oil and Gas Operations",
+    "location": "New Stanton, Pennsylvania (Westmoreland County)",
+    "deadline": "Application deadline: September 4, 2026",
+    "badge": "Strong fit",
+    "pay": "$46,827–$70,592 per year (permanent full-time civil service)",
+    "stipend": "",
+    "benefits": "⭐ A structured TRAINEE grade requiring no prior experience, on a permanent civil service line with a defined progression to specialist. Provides experience in environmental inspections, field sampling and applying regulations that safeguard water resources.",
+    "url": "https://www.governmentjobs.com/careers/pabureau/jobs/5451975/water-quality-specialist-trainee-environmental-trainee",
+    "url_label": "Water Quality Specialist Trainee — Bureau of Oil and Gas Operations (PA DEP, Southwest District)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/pabureau/jobs/5451975/water-quality-specialist-trainee-environmental-trainee",
+        "label": "🔗 Water Quality Specialist Trainee — Bureau of Oil and Gas Operations (PA DEP, Southwest District)"
+      }
+    ],
+    "metaLine": "🎯 Field sampling + inspections, permanent trainee track · $46,827–$70,592 · closes Sept 4",
+    "body": "A learning-focused trainee role in Pennsylvania DEP's Oil and Gas Operations programme in the southwest district. The position provides experience in environmental inspections, field sampling, and applying the regulations that safeguard public health and water resources. It is a permanent full-time civil service position that prepares the trainee for advancement to specialist grade. Salary is $46,827–$70,592.",
+    "desc": "The field sampling and inspection core of this job maps closely onto your trace-metal sediment work — oil and gas water-quality monitoring means sampling surface and groundwater near operations and knowing what the numbers mean against a regulatory threshold. It is a permanent civil service trainee line with a defined path to specialist, which is a far better structure than a seasonal appointment. Pennsylvania is running several of these environmental trainee vacancies concurrently — the Meadville cleanup and brownfields post closes September 7 and the Norristown air quality post September 2 — so one application package should go to all of them. This one closes September 4.",
+    "pills": [
+      "Trainee grade — no experience required",
+      "PERMANENT civil service",
+      "$46,827–$70,592",
+      "Closes Sept 4"
+    ],
+    "start": "See posting",
+    "relocation": "lead",
+    "deadline_date": "2026-09-04"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Midwest & Great Plains",
+    "id": "item-1268",
+    "title": "Resource Conservationist — rural landowners & small cities (Mille Lacs County Soil & Water)",
+    "org": "Mille Lacs County Soil & Water Conservation District / Land Services · Minnesota",
+    "location": "Milaca, Minnesota",
+    "deadline": "⏰ Rolling — the listing showed \"closes in 3 days\" on August 31, so the effective deadline is roughly September 3",
+    "badge": "Good fit",
+    "pay": "Not published on the posting",
+    "stipend": "",
+    "benefits": "⏰ The most time-critical item in this batch — roughly a September 3 close. Minnesota SWCD conservationist work is built on wetland and water-resource assessment plus GIS site prioritisation. ⚠️ NeoGov shows a relative close date; verify on the live posting.",
+    "url": "https://www.governmentjobs.com/jobs/5455858-0/resource-conservationist-rural-small-cities",
+    "url_label": "Resource Conservationist — rural landowners & small cities (Mille Lacs County Soil & Water)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/jobs/5455858-0/resource-conservationist-rural-small-cities",
+        "label": "🔗 Resource Conservationist — rural landowners & small cities (Mille Lacs County Soil & Water)"
+      }
+    ],
+    "metaLine": "⏰ ~Sept 3 close · county conservation work, wetlands + stormwater + GIS",
+    "body": "A county resource conservationist position with Mille Lacs County Soil & Water / Land Services, working with rural landowners and small municipalities on conservation practice planning, stormwater and water-quality projects. The listing showed a relative close of three days as at August 31, 2026, making the effective deadline approximately September 3. Salary is not published on the posting.",
+    "desc": "Minnesota's soil and water conservation districts run on exactly the combination you have — wetland and water-resource assessment paired with GIS site prioritisation to decide which practices go where. Working across both rural landowners and small municipalities is broader than most district posts and would expose you to stormwater management as well as agricultural conservation. The urgency is the main thing: the posting displays a relative close date rather than an absolute one, and three days from August 31 puts it at roughly September 3, so verify the real date immediately rather than assuming you have a week. Salary is not published.",
+    "pills": [
+      "⏰ Closes ~Sept 3 — verify now",
+      "Wetland & water-resource assessment",
+      "Stormwater + agricultural conservation",
+      "⚠️ Salary not published"
+    ],
+    "start": "See posting",
+    "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Northeast",
+    "id": "item-1269",
+    "title": "Conservation Biologist I — Waquoit Bay National Estuarine Research Reserve (Massachusetts DCR)",
+    "org": "Massachusetts Department of Conservation and Recreation · Waquoit Bay National Estuarine Research Reserve",
+    "location": "Falmouth, Massachusetts (Cape Cod)",
+    "deadline": "Rolling — no closing date published on the Taleo posting",
+    "badge": "Good fit",
+    "pay": "$25.00 per hour, or $2,000.00 biweekly (published)",
+    "stipend": "",
+    "benefits": "⚠️ SHORT TERM — a fewer-than-90-days seasonal appointment running roughly August 17 to October 31, 2026, so it is a defined stint rather than a career post. One opening. Set at a Conservation Biologist I grade at a National Estuarine Research Reserve.",
+    "url": "https://massanf.taleo.net/careersection/ex/jobdetail.ftl?job=260005NW",
+    "url_label": "Conservation Biologist I — Waquoit Bay National Estuarine Research Reserve (Massachusetts DCR)",
+    "links": [
+      {
+        "href": "https://massanf.taleo.net/careersection/ex/jobdetail.ftl?job=260005NW",
+        "label": "🔗 Conservation Biologist I — Waquoit Bay National Estuarine Research Reserve (Massachusetts DCR)"
+      }
+    ],
+    "metaLine": "Biologist I grade at a NERR · $25.00/hr · ⚠️ short <90-day term",
+    "body": "A short-term seasonal Conservation Biologist I position at the Waquoit Bay National Estuarine Research Reserve on Cape Cod, running roughly August 17 to October 31, 2026 on a full-time schedule of fewer than 90 days. One opening; no closing date is published on the posting. Pay is $25.00 per hour, or $2,000.00 biweekly.",
+    "desc": "Two things make this worth listing despite the short term. First, it carries a Conservation Biologist I title rather than a technician one, at a National Estuarine Research Reserve — both of which read well and are hard to get at this stage. Second, NERRs are research-grade settings with standing monitoring programmes, so the wetlands, water-quality and field-monitoring work is methodologically serious rather than maintenance dressed up as science. Be clear-eyed that it is a sub-90-day appointment finishing at the end of October, so treat it as a credential and a foot in the door with Massachusetts DCR rather than a landing place. The rate is decent at $25 an hour.",
+    "pills": [
+      "Biologist I title at a NERR",
+      "$25.00/hr",
+      "Estuarine monitoring programme",
+      "⚠️ Short term, ends late October"
+    ],
+    "start": "See posting",
+    "relocation": "lead"
   }
 ]
