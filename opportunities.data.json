@@ -53372,5 +53372,424 @@
     "start": "See posting",
     "relocation": "lead",
     "deadline_date": "2026-09-11"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "National / Remote / Multiple",
+    "id": "item-1240",
+    "title": "Resource Assistants Program (RAP) — paid USFS placements with NON-COMPETITIVE federal hiring eligibility",
+    "org": "Environment for the Americas · with the U.S. Forest Service · Public Land Corps",
+    "location": "Nationwide — U.S. Forest Service units across the country",
+    "deadline": "Rolling cohorts — no fixed closing date; apply and be matched to a unit",
+    "badge": "Top recommendation",
+    "pay": "Paid placement — the weekly/monthly rate is not published at programme level; confirm when matched to a unit",
+    "stipend": "",
+    "benefits": "⭐⭐ THE KEY FEATURE: successful completion carries PUBLIC LAND CORPS NON-COMPETITIVE FEDERAL HIRING ELIGIBILITY — meaning you can later be hired into a federal position WITHOUT competing through the normal USAJOBS ranking process. Requires a completed college degree and US citizenship. Eight months to one year. ⏳ PLC age window is 16–30, so you are eligible NOW but this closes when you turn 30.",
+    "url": "https://environmentamericas.org/efta-internships-landing-page/rap-internship-landing-page/",
+    "url_label": "Resource Assistants Program (RAP) — paid USFS placements with NON-COMPETITIVE federal hiring eligibility",
+    "links": [
+      {
+        "href": "https://environmentamericas.org/efta-internships-landing-page/rap-internship-landing-page/",
+        "label": "🔗 Resource Assistants Program (RAP) — paid USFS placements with NON-COMPETITIVE federal hiring eligibility"
+      }
+    ],
+    "metaLine": "⭐ Ends in NON-COMPETITIVE federal hiring eligibility · nationwide USFS · ⏳ age window closing",
+    "body": "The Resource Assistants Program places participants in eight-month to one-year paid resource assistant positions with the U.S. Forest Service at units nationwide, operating under Direct Hire Authority and Public Land Corps requirements. A completed college degree and US citizenship or legal residency are required. Minimum age is 18 with no upper cap stated on the programme page, though Public Land Corps eligibility itself runs to age 30. Successful completion confers Public Land Corps non-competitive federal hiring eligibility.",
+    "desc": "Read the last line of the description carefully, because it is worth more than any single salary on this list: completing a RAP placement gives you Public Land Corps non-competitive hiring eligibility, which lets a federal agency hire you directly without going through the competitive USAJOBS ranking process. That is the mechanism that turns 'I applied to forty federal jobs and heard nothing' into an actual offer, and it is the single most valuable thing an early-career person can hold in this field. It requires a completed degree, which you have, and placements are nationwide so you can steer toward hydrology, wetlands or GIS units. The urgency is your age: PLC eligibility runs to 30, so this route is open now and closes permanently within about two years.",
+    "pills": [
+      "⭐⭐ Non-competitive federal hiring eligibility",
+      "Nationwide USFS placements",
+      "Degree required — she qualifies",
+      "⏳ PLC age window closes at 30"
+    ],
+    "start": "See posting",
+    "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-1241",
+    "title": "Field Scientist — NYC watershed reservoir & stream sampling (NYC Dept. of Environmental Protection)",
+    "org": "New York City Department of Environmental Protection · Bureau of Water Supply",
+    "location": "Kingston, New York (NYC watershed — Catskills and Hudson Valley)",
+    "deadline": "Application deadline: October 19, 2026",
+    "badge": "Strong fit",
+    "pay": "$61,510 per year (published)",
+    "stipend": "",
+    "benefits": "⭐ QUALIFICATION PATH CONFIRMED: qualifies on a bachelor's in environmental science or a related field with 24 semester credits PLUS one year of water-quality or environmental field experience — your capstone and field work should satisfy that year. May operate small watercraft. Municipal position with NYC benefits.",
+    "url": "https://www.conservationjobboard.com/job-listing-field-scientist-kingston-new-york/8218809638",
+    "url_label": "Field Scientist — NYC watershed reservoir & stream sampling (NYC Dept. of Environmental Protection)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-field-scientist-kingston-new-york/8218809638",
+        "label": "🔗 Field Scientist — NYC watershed reservoir & stream sampling (NYC Dept. of Environmental Protection)"
+      }
+    ],
+    "metaLine": "🎯 Reservoir & stream water-quality sampling · $61,510 · closes Oct 19",
+    "body": "A Field Scientist position with the New York City Department of Environmental Protection's Bureau of Water Supply, conducting field sampling and data collection from streams, reservoirs and treatment plants across the NYC watershed using established protocols, and potentially operating small watercraft for sample collection. Qualification is on a bachelor's degree in environmental science or a related field with 24 semester credits plus one year of water-quality or environmental field experience; a master's degree alone also qualifies. Salary is $61,510 per year.",
+    "desc": "The NYC water supply is the largest unfiltered drinking water system in the United States, which means its watershed monitoring programme is unusually well-funded and technically serious — reservoir and stream sampling here is the direct professional version of your Pigeon River work, at a scale few employers can match. At $61,510 this pays better than almost every state or federal entry position on your list, and it is a municipal career track with real benefits. The qualification route is a bachelor's plus one year of water-quality field experience, which your capstone and subsequent field work should cover; make that year explicit in the application rather than leaving the reviewer to infer it.",
+    "pills": [
+      "🎯 Reservoir & stream sampling",
+      "$61,510 — top of the entry range",
+      "Largest unfiltered water system in the US",
+      "Closes Oct 19"
+    ],
+    "start": "See posting",
+    "relocation": "lead",
+    "deadline_date": "2026-10-19"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1242",
+    "title": "Environmental Resources Specialist 1 — laboratory certification & QA (WV Dept. of Environmental Protection)",
+    "org": "WV Department of Environmental Protection · Division of Water and Waste Management · Quality Assurance Program",
+    "location": "Charleston, West Virginia (Kanawha County; statewide travel)",
+    "deadline": "Application deadline: September 3, 2026",
+    "badge": "Strong fit",
+    "pay": "$39,461–$68,582 per year (published)",
+    "stipend": "",
+    "benefits": "⭐ The '1' grade requires only a bachelor's degree with NO prior professional experience. ⚠️ Note there is an identical Environmental Resources Specialist 2 posting for the same team (closing Sept 2, $41,194–$71,789) — apply to BOTH, since it is the same job at two grades.",
+    "url": "https://www.governmentjobs.com/careers/wv/jobs/5450738/environmental-resources-specialist-1",
+    "url_label": "Environmental Resources Specialist 1 — laboratory certification & QA (WV Dept. of Environmental Protection)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/wv/jobs/5450738/environmental-resources-specialist-1",
+        "label": "🔗 Environmental Resources Specialist 1 — laboratory certification & QA (WV Dept. of Environmental Protection)"
+      }
+    ],
+    "metaLine": "🎯 Water lab QA & trace-metal methods · no experience required · $39,461–$68,582",
+    "body": "An entry professional position in WV DEP's laboratory certification programme, evaluating Quality Assurance Manuals, Standard Operating Procedures and proficiency-test data submitted by environmental laboratories. The role conducts on-site laboratory assessments across the state, processes certification applications and fees, maintains programme databases, and drafts compliance guidance for laboratories and regulated entities. The Specialist 1 grade requires a bachelor's degree with no prior professional experience. Salary is $39,461–$68,582.",
+    "desc": "This is an unusual and genuinely good match that most applicants would overlook. Certifying environmental laboratories means auditing exactly the analytical methods you used for your trace-metal sediment work — QA manuals, SOPs, proficiency testing, detection limits — from the regulator's side. That builds a deep, credentialed understanding of analytical quality that makes you far more valuable in any future contaminant or water-quality role, and it is the kind of specialism agencies struggle to hire for. The Specialist 1 grade explicitly requires no prior professional experience. Apply to the Specialist 2 posting for the same team at the same time; it is the identical job one grade up.",
+    "pills": [
+      "🎯 Audits the exact methods from her capstone",
+      "NO experience required at grade 1",
+      "Apply to the grade-2 twin as well",
+      "$39,461–$68,582"
+    ],
+    "start": "See posting",
+    "relocation": "lead",
+    "deadline_date": "2026-09-03"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1243",
+    "title": "OPS Environmental Specialist I — GIS for the Florida Hydrography Dataset (Florida DEP)",
+    "org": "Florida DEP · Division of Environmental Assessment and Restoration · Watershed Services Program",
+    "location": "Tallahassee, Florida",
+    "deadline": "Application deadline: September 3, 2026",
+    "badge": "Strong fit",
+    "pay": "$20.28–$22.00 per hour, commensurate with experience",
+    "stipend": "",
+    "benefits": "⭐ A DEDICATED GIS ROLE inside a state water programme — the clearest pure-GIS opening found this run. OPS (temporary) status, which is Florida's faster-hiring category and routinely converts to career service.",
+    "url": "https://jobs.myflorida.com/job/TALLAHASSEE-OPS-ENVIRONMENTAL-SPECIALIST-I-37950257-FL-32399/1421752600/",
+    "url_label": "OPS Environmental Specialist I — GIS for the Florida Hydrography Dataset (Florida DEP)",
+    "links": [
+      {
+        "href": "https://jobs.myflorida.com/job/TALLAHASSEE-OPS-ENVIRONMENTAL-SPECIALIST-I-37950257-FL-32399/1421752600/",
+        "label": "🔗 OPS Environmental Specialist I — GIS for the Florida Hydrography Dataset (Florida DEP)"
+      }
+    ],
+    "metaLine": "🎯 Pure GIS role in a state watershed programme · $20.28–$22.00/hr · closes Sept 3",
+    "body": "A temporary (OPS) GIS position with Florida DEP's Division of Environmental Assessment and Restoration, editing geospatial data for the Florida Hydrography Dataset to departmental standards. The role creates, analyses and manages spatial information from multiple sources to support watershed assessment projects, produces maps, runs data quality assessments and provides analytical support to the Watershed Services Program. Pay is $20.28–$22.00 per hour commensurate with experience.",
+    "desc": "This is the only posting found this run that is purely a GIS job inside a water programme — everywhere else GIS is one duty among many. Building and maintaining a state hydrography dataset is foundational geospatial work: you would be defining the stream and waterbody layers that every other watershed assessment in Florida depends on, which is both technically rigorous and highly visible within the agency. It is OPS status, meaning temporary, but Florida's OPS route hires far faster than career service and is the standard path in. If you want to be hired specifically for your GIS skills rather than have them treated as a bonus, this is the posting.",
+    "pills": [
+      "🎯 Purely a GIS role, not GIS-adjacent",
+      "State hydrography dataset",
+      "OPS hires fast and often converts",
+      "Closes Sept 3"
+    ],
+    "start": "See posting",
+    "relocation": "lead",
+    "deadline_date": "2026-09-03"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1244",
+    "title": "Biologist 1 — fisheries field data & aquatic habitat restoration (Louisiana Dept. of Wildlife and Fisheries)",
+    "org": "Louisiana Department of Wildlife and Fisheries · Office of Fisheries",
+    "location": "Lacombe, Louisiana (St. Tammany Parish, north shore of Lake Pontchartrain)",
+    "deadline": "Application deadline: September 1, 2026",
+    "badge": "Strong fit",
+    "pay": "$18.35–$33.02 hourly / $3,181–$5,724 monthly (filled at Biologist 1, 2 or 3 depending on qualifications)",
+    "stipend": "",
+    "benefits": "⭐ Minimum qualification is a bachelor's in biological, environmental, wildlife or fisheries science with NO experience required. Posted across three grades, so one application is considered at all three levels.",
+    "url": "https://www.governmentjobs.com/careers/louisiana/jobs/5450356/biologist-1-3-lacombe-st-tammany",
+    "url_label": "Biologist 1 — fisheries field data & aquatic habitat restoration (Louisiana Dept. of Wildlife and Fisheries)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/louisiana/jobs/5450356/biologist-1-3-lacombe-st-tammany",
+        "label": "🔗 Biologist 1 — fisheries field data & aquatic habitat restoration (Louisiana Dept. of Wildlife and Fisheries)"
+      }
+    ],
+    "metaLine": "Biologist 1–3 on one application · no experience needed · aquatic habitat restoration",
+    "body": "A field fisheries position with the Louisiana Department of Wildlife and Fisheries collecting fishery-independent and fishery-dependent data, maintaining biological and environmental records, and operating department vessels and sampling gear. The role also analyses data, prepares reports, assists with aquatic habitat restoration projects, and represents LDWF to community groups and partner agencies. Minimum qualification is a bachelor's degree in biological, environmental, wildlife or fisheries science with no experience required. Pay spans $18.35–$33.02 hourly depending on the grade filled.",
+    "desc": "Two things make this worth an application: the minimum qualification is a relevant bachelor's with no experience, and it is posted across three grades on one application, so a strong candidate can be brought in above the floor rather than at it. Aquatic habitat restoration is named explicitly in the duties, which is on your stated interest list, and the environmental record-keeping component uses the data discipline your capstone required. Lacombe sits on the north shore of Lake Pontchartrain, an estuarine system that would broaden your experience beyond mountain freshwater. Closes September 1, so this belongs in the same immediate batch as the USGS Richmond application.",
+    "pills": [
+      "No experience required",
+      "Filled at grade 1, 2 or 3",
+      "Aquatic habitat restoration named",
+      "Closes Sept 1"
+    ],
+    "start": "See posting",
+    "relocation": "lead",
+    "deadline_date": "2026-09-01"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1245",
+    "title": "Environmental Scientist I — air quality regulation development (Kentucky Energy & Environment Cabinet)",
+    "org": "Kentucky Energy & Environment Cabinet · Dept. for Environmental Protection · Division for Air Quality",
+    "location": "Frankfort, Kentucky (Franklin County; telecommuting possible)",
+    "deadline": "Application deadline: September 8, 2026",
+    "badge": "Good fit",
+    "pay": "$3,551.88–$4,910.60 per month (published)",
+    "stipend": "",
+    "benefits": "⭐ Experience/training requirement is listed literally as NONE — a true zero-experience Scientist I grade. Telecommuting is possible. ⚠️ Primarily office-based regulatory work rather than field science.",
+    "url": "https://kypersonnelcabinet.csod.com/ux/ats/careersite/56/home/requisition/80713?c=kypersonnelcabinet",
+    "url_label": "Environmental Scientist I — air quality regulation development (Kentucky Energy & Environment Cabinet)",
+    "links": [
+      {
+        "href": "https://kypersonnelcabinet.csod.com/ux/ats/careersite/56/home/requisition/80713?c=kypersonnelcabinet",
+        "label": "🔗 Environmental Scientist I — air quality regulation development (Kentucky Energy & Environment Cabinet)"
+      }
+    ],
+    "metaLine": "True zero-experience Scientist I grade · $3,552–$4,911/month · office-based",
+    "body": "An entry-level scientist role in the Kentucky Division for Air Quality's Program Planning and Administration Branch, Regulation Development Section, working under direct supervision. Duties include assisting in drafting, revising and promulgating Kentucky air quality regulations, reviewing federal EPA rule changes for adoption into state code, and preparing technical support and regulatory documents. The position is primarily office-based in Franklin County with possible telecommuting. Minimum requirement is a bachelor's in a natural, biological or physical science with experience and training listed as NONE.",
+    "desc": "Listed mainly because the qualification bar is as low as state professional grades get — the experience requirement is literally stated as none — and because understanding how environmental regulations are actually written is a genuinely useful and uncommon thing for a field scientist to know. Regulation development teaches you the statutory structure behind every permit and standard you would otherwise just comply with. Be clear about the trade-off: this is office-based regulatory drafting, not field science, and air quality is outside your water and wetlands focus. Worth applying to as a salaried fallback with telecommuting flexibility rather than as a first choice.",
+    "pills": [
+      "Experience requirement: NONE",
+      "$3,552–$4,911/month",
+      "Telecommuting possible",
+      "⚠️ Office-based, air not water"
+    ],
+    "start": "See posting",
+    "relocation": "lead",
+    "deadline_date": "2026-09-08"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1246",
+    "title": "Environmental/Natural Resources Specialist I — surface mining permit review & inspection (Mississippi DEQ)",
+    "org": "Mississippi Department of Environmental Quality",
+    "location": "Jackson, Mississippi (Hinds County; statewide mine-site inspections)",
+    "deadline": "Application deadline: September 1, 2026",
+    "badge": "Good fit",
+    "pay": "$39,510.00–$59,049.90 per year (published)",
+    "stipend": "",
+    "benefits": "Posted minimum is 0–1 years of experience with a bachelor's degree. Monthly field inspections at mine sites statewide.",
+    "url": "https://www.governmentjobs.com/careers/mississippi/jobs/5456907/environmental-natural-resources-specialist-i",
+    "url_label": "Environmental/Natural Resources Specialist I — surface mining permit review & inspection (Mississippi DEQ)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/mississippi/jobs/5456907/environmental-natural-resources-specialist-i",
+        "label": "🔗 Environmental/Natural Resources Specialist I — surface mining permit review & inspection (Mississippi DEQ)"
+      }
+    ],
+    "metaLine": "Mine-site inspection & permit review — overlaps her metals work · $39,510–$59,050",
+    "body": "An entry-level regulatory position with the Mississippi Department of Environmental Quality reviewing surface mining permit applications for completeness and conducting monthly field inspections at mine sites statewide. The role documents findings in written inspection reports, learns agency-specific permitting databases, and completes required safety training. Posted minimum is 0–1 years of experience with a bachelor's degree. Salary is $39,510.00–$59,049.90.",
+    "desc": "Surface mining regulation sits closer to your capstone than the title suggests — mine sites are the classic source of the metals loading you measured on the Pigeon River, and inspecting them means understanding sediment control, drainage and metals mobilisation from the regulatory side. The posted minimum is 0–1 years with a bachelor's, so you are squarely inside the band rather than stretching. Permit review plus field inspection is a good balance of desk and field for a first professional role, and regulatory experience transfers well into both consulting and federal work. Closes September 1, so it goes in the immediate batch.",
+    "pills": [
+      "Mine sites = her metals context",
+      "0–1 years required",
+      "$39,510–$59,050",
+      "Closes Sept 1"
+    ],
+    "start": "See posting",
+    "relocation": "lead",
+    "deadline_date": "2026-09-01"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1247",
+    "title": "Agroecology Research Internship — Buck Island Ranch (Archbold Biological Station)",
+    "org": "Archbold Biological Station · Buck Island Ranch · 10,500-acre long-term ecological research site",
+    "location": "Buck Island Ranch, Lake Placid, Florida",
+    "deadline": "Application deadline: September 20, 2026",
+    "badge": "Good fit",
+    "pay": "$530 expense stipend paid bi-weekly (⚠️ subject to self-employment tax, so budget for that)",
+    "stipend": "",
+    "benefits": "SIX TO NINE MONTHS — much longer than a typical season, which means real project ownership. Requires a recent BS or BA; no age restriction stated. Work spans water quality, wetland ecology and ranchland biodiversity research at a long-term ecological research site.",
+    "url": "https://archbold-station.apscareerportal.com/jobs/2860871",
+    "url_label": "Agroecology Research Internship — Buck Island Ranch (Archbold Biological Station)",
+    "links": [
+      {
+        "href": "https://archbold-station.apscareerportal.com/jobs/2860871",
+        "label": "🔗 Agroecology Research Internship — Buck Island Ranch (Archbold Biological Station)"
+      }
+    ],
+    "metaLine": "6–9 month research term · water quality + wetland ecology · $530 bi-weekly",
+    "body": "A six to nine month agroecology research internship at Archbold Biological Station's Buck Island Ranch, a 10,500-acre working cattle ranch operated as a long-term ecological research site. Work spans water quality, wetland ecology and ranchland biodiversity research. The position requires a recent BS or BA and states no age restriction. Compensation is a $530 expense stipend paid bi-weekly, subject to self-employment tax.",
+    "desc": "The length is what distinguishes this from the usual three-month field season: six to nine months at a long-term ecological research site is enough to see a project through and to produce something presentable, which is exactly what strengthens a graduate application. The subject mix — water quality, wetland ecology and biodiversity on a working ranch — sits directly on your interests, and Archbold is a well-regarded research station whose name carries weight. Two honest caveats: the stipend is modest and, being an expense stipend, is subject to self-employment tax, so the take-home is lower than it looks. Requires a recent BS, which you have.",
+    "pills": [
+      "6–9 months — real project ownership",
+      "Water quality + wetland ecology",
+      "Archbold is a respected station",
+      "⚠️ Stipend taxed as self-employment"
+    ],
+    "start": "See posting",
+    "relocation": "lead",
+    "deadline_date": "2026-09-20"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1248",
+    "title": "Environmental Scientist 1 — entry state scientist grade (Tennessee Dept. of Environment & Conservation, Nashville)",
+    "org": "Tennessee Department of Environment and Conservation · Scientists / Foresters job family",
+    "location": "Davidson County, Tennessee (Nashville)",
+    "deadline": "Application deadline: September 6, 2026",
+    "badge": "Good fit",
+    "pay": "Not published on the posting",
+    "stipend": "",
+    "benefits": "Environmental Scientist 1 is Tennessee's FIRST working level in the environmental science career ladder — the true entry grade. Nashville is where TDEC has the most divisions hiring, so an application here reaches the widest internal pool. Posting ID 08242026-80464. Distinct from the Washington County TDEC entry already on your list.",
+    "url": "https://careers.edison.tn.gov/psc/hrprdrs/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&Page=HRS_APP_JBPST_FL&SiteId=1&JobOpeningId=80464&PostingSeq=1",
+    "url_label": "Environmental Scientist 1 — entry state scientist grade (Tennessee Dept. of Environment & Conservation, Nashville)",
+    "links": [
+      {
+        "href": "https://careers.edison.tn.gov/psc/hrprdrs/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&Page=HRS_APP_JBPST_FL&SiteId=1&JobOpeningId=80464&PostingSeq=1",
+        "label": "🔗 Environmental Scientist 1 — entry state scientist grade (Tennessee Dept. of Environment & Conservation, Nashville)"
+      }
+    ],
+    "metaLine": "Tennessee's entry state scientist grade, Nashville · closes Sept 6",
+    "body": "An entry professional-scientist classification with the Tennessee Department of Environment and Conservation, posted in the state's Scientists / Foresters job family and based in Nashville. Environmental Scientist 1 is the first working level in Tennessee's environmental science career ladder, supporting a TDEC division's monitoring, permitting or compliance programme. Posting ID 08242026-80464. Salary is not published on the posting.",
+    "desc": "Environmental Scientist 1 is the bottom rung of Tennessee's professional science ladder, which is exactly the rung you are trying to get onto — these classifications exist to bring people in at the start of a career rather than to fill a specific senior gap. Nashville is where TDEC concentrates its divisions, so a hire here has more internal movement available afterwards than a regional office would. TDEC covers water resources, remediation and natural areas, so the specific division matters a great deal to the day-to-day work; ask which one this requisition sits in. Salary is not published, which is the main unknown. Note this is a separate requisition from the Washington County TDEC posting already on your list.",
+    "pills": [
+      "Tennessee's true entry scientist grade",
+      "Nashville — widest internal pool",
+      "Distinct from the TN posting she has",
+      "⚠️ Salary not published"
+    ],
+    "start": "See posting",
+    "relocation": "lead",
+    "deadline_date": "2026-09-06"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "National / Remote / Multiple",
+    "id": "item-1249",
+    "title": "Environmental Scientist ZP-3 — coastal water quality & contaminants (NOAA NCCOS, 3 duty stations)",
+    "org": "NOAA · National Ocean Service · National Centers for Coastal Ocean Science",
+    "location": "Silver Spring, Maryland; Beaufort, North Carolina; or Charleston, South Carolina (one vacancy, selectee chooses)",
+    "deadline": "⏰ Application deadline: August 31, 2026 — TODAY",
+    "badge": "Reach",
+    "pay": "$74,678–$133,142 per year (ZP-3)",
+    "stipend": "",
+    "benefits": "⏰ CLOSES TODAY. Direct Hire Authority, open to the public. ⚠️ Requires a positive education requirement PLUS one year of specialized experience, so the ZP-3 bar makes this a genuine stretch at roughly a year out — but the subject match is strong enough to justify the attempt.",
+    "url": "https://www.usajobs.gov/job/881831800",
+    "url_label": "Environmental Scientist ZP-3 — coastal water quality & contaminants (NOAA NCCOS, 3 duty stations)",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/881831800",
+        "label": "🔗 Environmental Scientist ZP-3 — coastal water quality & contaminants (NOAA NCCOS, 3 duty stations)"
+      }
+    ],
+    "metaLine": "⏰ NOAA coastal contaminants & water quality · $74,678+ · a reach, closes TODAY",
+    "body": "A coastal ocean science position with NOAA's National Centers for Coastal Ocean Science covering coastal water quality, contaminants and ecosystem assessment. One vacancy will be filled at whichever of the three duty stations the selectee chooses — Silver Spring MD, Beaufort NC or Charleston SC. This is a Direct Hire Authority announcement open to the public, with a positive education requirement plus one year of specialized experience. Salary is $74,678–$133,142 at ZP-3.",
+    "desc": "Flagged as a reach and worth treating that way: the ZP-3 grade asks for a year of specialized experience beyond the education requirement, which at roughly a year past your BS is a stretch. But the subject is the closest federal analogue to your capstone that exists — coastal contaminants and water quality assessment at NOAA's dedicated coastal science centre — and it is Direct Hire, meaning no ranking panel to disappear into. Three duty stations on one vacancy gives you geographic flexibility. It closes today, so the realistic action is either a fast submission with an existing federal resume, or noting NCCOS as a target to watch for its next announcement.",
+    "pills": [
+      "⏰ CLOSES TODAY",
+      "🎯 Coastal contaminants — her capstone",
+      "$74,678–$133,142",
+      "⚠️ ZP-3 needs 1 yr specialized exp"
+    ],
+    "start": "See posting",
+    "relocation": "lead",
+    "deadline_date": "2026-08-31"
   }
 ]

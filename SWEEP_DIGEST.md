@@ -1,20 +1,21 @@
 # Weekly opportunity sweep — 2026-08-31
 
-**Added 12 new** opportunities:
-- Two M.S. Assistantships — Hurricane Helene impacts on aquatic macroinvertebrates, Nantahala & Pisgah (Clemson) — _Excellent_ · Southeast & Appalachia · deadline: Contact-first — email the PI before applying; no published closing date
-- Environmental Specialist II — 401 Water Quality Certification, Isolated Wetlands & Riparian Buffer Programs (NC DEQ) — _Excellent_ · Southeast & Appalachia · deadline: ⏰ Application deadline: September 1, 2026 — TOMORROW
-- Environmental Review & Advisory Specialist — tidal wetland & shoreline permit review (VIMS, William & Mary) — _Excellent_ · Southeast & Appalachia · deadline: Rolling — no posted closing date
-- Environmental Health Specialist I (trainee) — onsite sewage & private water supply (Virginia Dept. of Health) — _Strong_ · Southeast & Appalachia · deadline: Application deadline: September 14, 2026
-- Two M.S. Assistantships — trout persistence & angler use, Chattahoochee River (UGA Warnell / Georgia Coop Unit) — _Strong_ · Southeast & Appalachia · deadline: Rolling — no published closing date
-- Wildlife Biologist GS-9 (permanent, open to the public) — Grand Canyon National Park — _Strong_ · Southwest · deadline: ⏰ Application deadline: August 31, 2026 — TODAY
-- Natural Resources Specialist (Ranger) GS-5/7/9 (DIRECT HIRE) — USACE Fort Worth District — _Strong_ · Southwest · deadline: Application deadline: September 8, 2026
-- French Broad River Program Coordinator — water quality monitoring & Helene recovery (MountainTrue) — _Strong_ · Southeast & Appalachia · deadline: Rolling — no posted closing date
-- Stewardship Manager — conservation easements & GIS property monitoring (Southern Appalachian Highlands Conservancy) — _Strong_ · Southeast & Appalachia · deadline: Rolling — no posted closing date
-- Assistant Quota Monitoring Biologist (Conservation Biologist I) — NC Division of Marine Fisheries — _Strong_ · Southeast & Appalachia · deadline: Application deadline: September 8, 2026
-- ORNL Research Student Internship, Spring 2027 — Environmental Sciences Division (ORISE) — _Strong_ · Southeast & Appalachia · deadline: Application deadline: October 28, 2026
-- Area Forester — Southern Rivers District, water-quality BMP compliance (Virginia Dept. of Forestry) — _Good_ · Southeast & Appalachia · deadline: Application deadline: September 11, 2026
+**Added 10 new** opportunities:
+- Resource Assistants Program (RAP) — paid USFS placements with NON-COMPETITIVE federal hiring eligibility — _Excellent_ · National / Remote / Multiple · deadline: Rolling cohorts — no fixed closing date; apply and be matched to a unit
+- Field Scientist — NYC watershed reservoir & stream sampling (NYC Dept. of Environmental Protection) — _Strong_ · Northeast · deadline: Application deadline: October 19, 2026
+- Environmental Resources Specialist 1 — laboratory certification & QA (WV Dept. of Environmental Protection) — _Strong_ · Southeast & Appalachia · deadline: Application deadline: September 3, 2026
+- OPS Environmental Specialist I — GIS for the Florida Hydrography Dataset (Florida DEP) — _Strong_ · Southeast & Appalachia · deadline: Application deadline: September 3, 2026
+- Biologist 1 — fisheries field data & aquatic habitat restoration (Louisiana Dept. of Wildlife and Fisheries) — _Strong_ · Southeast & Appalachia · deadline: Application deadline: September 1, 2026
+- Environmental Scientist I — air quality regulation development (Kentucky Energy & Environment Cabinet) — _Good_ · Southeast & Appalachia · deadline: Application deadline: September 8, 2026
+- Environmental/Natural Resources Specialist I — surface mining permit review & inspection (Mississippi DEQ) — _Good_ · Southeast & Appalachia · deadline: Application deadline: September 1, 2026
+- Agroecology Research Internship — Buck Island Ranch (Archbold Biological Station) — _Good_ · Southeast & Appalachia · deadline: Application deadline: September 20, 2026
+- Environmental Scientist 1 — entry state scientist grade (Tennessee Dept. of Environment & Conservation, Nashville) — _Good_ · Southeast & Appalachia · deadline: Application deadline: September 6, 2026
+- Environmental Scientist ZP-3 — coastal water quality & contaminants (NOAA NCCOS, 3 duty stations) — _Reach / review_ · National / Remote / Multiple · deadline: ⏰ Application deadline: August 31, 2026 — TODAY
+
+**⚠ Review these (reach / weak fit — your call whether to keep):**
+- Environmental Scientist ZP-3 — coastal water quality & contaminants (NOAA NCCOS, 3 duty stations) — _Reach / review_ · National / Remote / Multiple · deadline: ⏰ Application deadline: August 31, 2026 — TODAY
 
 **Updated 0** (deadline / status / description changed).
 
-**Total opportunities:** 1211  ·  next-cycle: 411  ·  expired (one-time, no future cycle): 80
+**Total opportunities:** 1221  ·  next-cycle: 411  ·  expired (one-time, no future cycle): 80
 Triage: passed-but-recurring → `cycle:"next"`; one-time/discontinued → `expired:true`. Passed/expired are hidden on the site by default (toggle to show); never deleted, never moved to the personal Archive. Fit tiers: _Excellent_ / _Strong_ / _Good_ / _Reach / review_ (set via each entry's badge). The Browse pages render from this data automatically — no HTML edits. Nothing is live until this PR is merged.
