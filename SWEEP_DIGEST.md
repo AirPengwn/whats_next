@@ -1,18 +1,20 @@
 # Weekly opportunity sweep — 2026-08-31
 
-**Added 10 new** opportunities:
-- Hydrologic Technician GS-7 — USGS Virginia–West Virginia Water Science Center, RICHMOND — _Excellent_ · Southeast & Appalachia · deadline: ⏰ Application deadline: September 1, 2026 — TOMORROW
-- Wetlands Professional — delineation, permitting & mitigation banking (Stokes Environmental Associates) — _Excellent_ · Southeast & Appalachia · deadline: Rolling — no posted closing date
-- Biological Science Technician (Wildlife), GS-6 seasonal — Great Smoky Mountains National Park — _Excellent_ · Southeast & Appalachia · deadline: Application deadline: September 9, 2026
-- Biological Science Technician GS-5 (seasonal) — Cape Romain National Wildlife Refuge (USFWS) — _Strong_ · Southeast & Appalachia · deadline: Application deadline: September 4, 2026
-- Natural Resource Specialist GS-5/7/9 (DIRECT HIRE) — Demopolis Lake (US Army Corps of Engineers) — _Strong_ · Southeast & Appalachia · deadline: Application deadline: September 9, 2026
-- Environmental Protection Specialist GS-7/9 — JEB Little Creek (Navy Installations Command) — _Strong_ · Northeast · deadline: ⏰ Application deadline: August 31, 2026 — TODAY
-- Environmental Scientist II — water quality, wetlands & permitting (Environmental Protection Commission of Hillsborough County) — _Strong_ · Southeast & Appalachia · deadline: Rolling — no posted closing date
-- Environmental Specialist I — Big Bend Seagrasses Aquatic Preserve (Florida DEP) — _Strong_ · Southeast & Appalachia · deadline: Application deadline: September 4, 2026
-- RCPP Coordinating Wildlife Biologist — NRCS partner biologist (Pheasants Forever / Quail Forever) — _Strong_ · Southeast & Appalachia · deadline: Rolling — no posted closing date
-- Park Ranger (Visitor Services), GS-5 seasonal — Wheeler National Wildlife Refuge (USFWS) — _Good_ · Southeast & Appalachia · deadline: Application deadline: September 4, 2026
+**Added 12 new** opportunities:
+- Two M.S. Assistantships — Hurricane Helene impacts on aquatic macroinvertebrates, Nantahala & Pisgah (Clemson) — _Excellent_ · Southeast & Appalachia · deadline: Contact-first — email the PI before applying; no published closing date
+- Environmental Specialist II — 401 Water Quality Certification, Isolated Wetlands & Riparian Buffer Programs (NC DEQ) — _Excellent_ · Southeast & Appalachia · deadline: ⏰ Application deadline: September 1, 2026 — TOMORROW
+- Environmental Review & Advisory Specialist — tidal wetland & shoreline permit review (VIMS, William & Mary) — _Excellent_ · Southeast & Appalachia · deadline: Rolling — no posted closing date
+- Environmental Health Specialist I (trainee) — onsite sewage & private water supply (Virginia Dept. of Health) — _Strong_ · Southeast & Appalachia · deadline: Application deadline: September 14, 2026
+- Two M.S. Assistantships — trout persistence & angler use, Chattahoochee River (UGA Warnell / Georgia Coop Unit) — _Strong_ · Southeast & Appalachia · deadline: Rolling — no published closing date
+- Wildlife Biologist GS-9 (permanent, open to the public) — Grand Canyon National Park — _Strong_ · Southwest · deadline: ⏰ Application deadline: August 31, 2026 — TODAY
+- Natural Resources Specialist (Ranger) GS-5/7/9 (DIRECT HIRE) — USACE Fort Worth District — _Strong_ · Southwest · deadline: Application deadline: September 8, 2026
+- French Broad River Program Coordinator — water quality monitoring & Helene recovery (MountainTrue) — _Strong_ · Southeast & Appalachia · deadline: Rolling — no posted closing date
+- Stewardship Manager — conservation easements & GIS property monitoring (Southern Appalachian Highlands Conservancy) — _Strong_ · Southeast & Appalachia · deadline: Rolling — no posted closing date
+- Assistant Quota Monitoring Biologist (Conservation Biologist I) — NC Division of Marine Fisheries — _Strong_ · Southeast & Appalachia · deadline: Application deadline: September 8, 2026
+- ORNL Research Student Internship, Spring 2027 — Environmental Sciences Division (ORISE) — _Strong_ · Southeast & Appalachia · deadline: Application deadline: October 28, 2026
+- Area Forester — Southern Rivers District, water-quality BMP compliance (Virginia Dept. of Forestry) — _Good_ · Southeast & Appalachia · deadline: Application deadline: September 11, 2026
 
 **Updated 0** (deadline / status / description changed).
 
-**Total opportunities:** 1199  ·  next-cycle: 411  ·  expired (one-time, no future cycle): 80
+**Total opportunities:** 1211  ·  next-cycle: 411  ·  expired (one-time, no future cycle): 80
 Triage: passed-but-recurring → `cycle:"next"`; one-time/discontinued → `expired:true`. Passed/expired are hidden on the site by default (toggle to show); never deleted, never moved to the personal Archive. Fit tiers: _Excellent_ / _Strong_ / _Good_ / _Reach / review_ (set via each entry's badge). The Browse pages render from this data automatically — no HTML edits. Nothing is live until this PR is merged.
