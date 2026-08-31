@@ -51828,5 +51828,633 @@
     "start": "after 9/30/2026",
     "relocation": "lead",
     "deadline_date": "2026-09-11"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "contact-first",
+    "region": "Southeast & Appalachia",
+    "id": "item-1203",
+    "title": "M.S. Assistantship — Everglades vegetation mapping & landscape pattern (Gann Laboratory for Spatial Ecology, FIU)",
+    "org": "Florida International University · Gann Laboratory for Spatial Ecology · Dr. Daniel Gann",
+    "location": "Miami, Florida (Everglades field sites)",
+    "deadline": "Rolling review — contact Dr. Gann (gannd@fiu.edu) directly; January 11, 2027 spring start",
+    "badge": "Top recommendation",
+    "pay": "",
+    "stipend": "Tuition waiver plus a stipend at FIU's current Master's graduate assistant rate — ⚠️ the dollar figure is NOT published in the ad, so confirm it with Dr. Gann before committing",
+    "benefits": "Spring admission (January 11, 2027 start), so no year is lost waiting for a fall cycle. Rolling review means an early email is an advantage rather than a formality.",
+    "url": "https://gannlab.fiu.edu/",
+    "url_label": "M.S. Assistantship — Everglades vegetation mapping & landscape pattern (Gann Laboratory for Spatial Ecology, FIU)",
+    "links": [
+      {
+        "href": "https://gannlab.fiu.edu/",
+        "label": "🔗 M.S. Assistantship — Everglades vegetation mapping & landscape pattern (Gann Laboratory for Spatial Ecology, FIU)"
+      }
+    ],
+    "metaLine": "🎯 GIS + remote sensing + wetlands, all three at once · spring 2027 start",
+    "body": "Dr. Daniel Gann is recruiting an M.S. student in Biological Sciences at Florida International University's Gann Laboratory for Spatial Ecology for high-resolution remote-sensing vegetation mapping of Everglades ridge-and-slough patterning. The posting names remote sensing, GIS and surveying coursework as preferred qualifications, and requires demonstrated interest in wetland vegetation and Everglades restoration science. The position carries a tuition waiver plus a graduate assistant stipend at FIU's current Master's rate, with a start date of January 11, 2027 (spring admission). Applications are reviewed on a rolling basis; contact gannd@fiu.edu.",
+    "desc": "This is the rare posting that asks for all three of your declared strengths simultaneously — GIS, remote sensing and wetlands — and puts them inside restoration science. Ridge-and-slough patterning in the Everglades is a landscape-pattern problem solved with exactly the spatial analysis you did for your capstone, just at a larger scale and with imagery instead of field-only data. The Everglades is also the single most-funded restoration programme in the country, so the professional network around it is deep. Two things to handle: the stipend figure is not published, so ask for it in your first email, and because review is rolling you gain by writing early rather than waiting for a deadline.",
+    "pills": [
+      "🎯 GIS + remote sensing + wetlands",
+      "Everglades restoration science",
+      "⚠️ Stipend not published — ask",
+      "Spring 2027 start, rolling review"
+    ],
+    "start": "See posting",
+    "relocation": "lead"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "contact-first",
+    "region": "Midwest & Great Plains",
+    "id": "item-1204",
+    "title": "M.S. or PhD — Soil microbial ecology & global change (Evans Lab, Michigan State University)",
+    "org": "Michigan State University · Evans Lab · Dr. Sarah Evans",
+    "location": "East Lansing, Michigan",
+    "deadline": "Rolling — contact Dr. Evans (evanssa6@msu.edu); fall 2027 start",
+    "badge": "Strong fit",
+    "pay": "",
+    "stipend": "Guaranteed research and teaching assistantship support. ⚠️ The stipend figure is not published in the ad, though MSU assistantships normally carry a tuition waiver — confirm both with the lab",
+    "benefits": "Explicitly open at MS level rather than PhD-only, which is unusual for a well-funded soils lab. Guaranteed RA/TA support means funding is not contingent on a separate award.",
+    "url": "https://websites.nku.edu/~boycer/gradopps.html",
+    "url_label": "M.S. or PhD — Soil microbial ecology & global change (Evans Lab, Michigan State University)",
+    "links": [
+      {
+        "href": "https://websites.nku.edu/~boycer/gradopps.html",
+        "label": "🔗 M.S. or PhD — Soil microbial ecology & global change (Evans Lab, Michigan State University)"
+      }
+    ],
+    "metaLine": "MS-open soils & biogeochemistry lab at MSU · guaranteed RA/TA support · fall 2027",
+    "body": "Dr. Sarah Evans at Michigan State University is recruiting graduate students at either M.S. or PhD level to study microbial responses to environmental change and the resulting consequences for carbon and nutrient cycling. The work spans field experiments and laboratory analysis. The lab states guaranteed research and teaching assistantship support; the stipend figure is not published in the advertisement. Start term is fall 2027. Contact evanssa6@msu.edu.",
+    "desc": "Soils and biogeochemistry sit right next to the sediment geochemistry you already do — the sampling discipline, contamination control and analytical care transfer almost directly, and the framing shifts from metals to carbon and nutrients. What makes this worth an email is that the lab explicitly accepts MS students and states guaranteed assistantship support, which together are rarer than they sound: most well-funded soils labs recruit PhD-only. Biogeochemistry is also a genuinely strong pivot for employability, since it underpins both restoration and contaminant work. Ask for the stipend number and confirm the tuition waiver, since neither is in the ad.",
+    "pills": [
+      "MS explicitly accepted",
+      "Guaranteed RA/TA support",
+      "Adjacent to her sediment chemistry",
+      "⚠️ Stipend not published"
+    ],
+    "start": "See posting",
+    "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Prairies (AB/SK/MB)",
+    "id": "item-1205",
+    "title": "Junior Vegetation and Wetland Ecologist (Onterris)",
+    "org": "Onterris · Western Terrestrial Services Team · Alberta",
+    "location": "Medicine Hat, Calgary, Edmonton or Grande Prairie, Alberta (four offices offered)",
+    "deadline": "Rolling — no posted closing date; posted August 26, 2026",
+    "badge": "Top recommendation",
+    "pay": "CAD $25.00–$39.00 per hour (published)",
+    "stipend": "",
+    "benefits": "Permanent role explicitly titled JUNIOR, with four Alberta office locations to choose from. 🇨🇦 US citizens: reachable on a CUSMA professional work permit (LMIA-exempt, needs a job offer) — \"Biologist\" is on the Appendix 2 list requiring only a bachelor's degree with NO minimum experience. An IEC Working Holiday open work permit via a Recognized Organization (SWAP/IENA), ages 18–35, is the alternative and needs no job offer.",
+    "url": "https://onterris.wd1.myworkdayjobs.com/ONT/job/CAN-Alberta-Medicine-Hat/Junior-Vegetation-and-Wetland-Ecologist_R8480",
+    "url_label": "Junior Vegetation and Wetland Ecologist (Onterris)",
+    "links": [
+      {
+        "href": "https://onterris.wd1.myworkdayjobs.com/ONT/job/CAN-Alberta-Medicine-Hat/Junior-Vegetation-and-Wetland-Ecologist_R8480",
+        "label": "🔗 Junior Vegetation and Wetland Ecologist (Onterris)"
+      }
+    ],
+    "metaLine": "🎯 The closest Canadian match to her wetland training · CAD $25–$39/hr · permanent, junior",
+    "body": "Onterris is recruiting a Junior Vegetation and Wetland Ecologist to its Western Terrestrial Services Team, a permanent role mixing field and office work on vegetation and wetland assessments across Alberta. The work supports environmental impact assessment and regulatory approvals for industrial and infrastructure clients. Four Alberta office locations are offered — Medicine Hat, Calgary, Edmonton and Grande Prairie. Published rate is CAD $25.00–$39.00 per hour. Posted August 26, 2026.",
+    "desc": "Of everything found in Canada, this is the closest match to your Army Corps wetland-delineation training — the job title itself is vegetation and wetland ecology, it is explicitly pitched at junior level, and it is permanent rather than seasonal. Wetland assessment for environmental impact assessment and regulatory approvals is the commercial version of exactly what you were trained to do. Onterris is a private consultancy, which matters for the immigration route: consultancies handle CUSMA professional permits routinely, and Biologist is on the Appendix 2 list requiring only a bachelor's degree with no experience minimum. Four office locations also means real flexibility on where you land.",
+    "pills": [
+      "🎯 Wetland ecology in the job title",
+      "CAD $25–$39/hr, permanent",
+      "Explicitly JUNIOR level",
+      "4 Alberta offices to choose from"
+    ],
+    "start": "See posting",
+    "relocation": "lead",
+    "country": "CA"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Ontario",
+    "id": "item-1206",
+    "title": "Water Quality Monitoring — Research Assistant / Technician I (University of Guelph, CERC in Waterborne Pathogens)",
+    "org": "University of Guelph · Canada Excellence Research Chair in Waterborne Pathogens · Environmental Sciences",
+    "location": "Guelph, Ontario (creek and stormwater field sites)",
+    "deadline": "Rolling — appointment runs September 8, 2026 to September 8, 2027",
+    "badge": "Strong fit",
+    "pay": "Not published on the posting",
+    "stipend": "",
+    "benefits": "🇨🇦 STRONGEST IMMIGRATION ROUTE ON THE CANADIAN LIST: \"Research Assistant (at a post-secondary institution)\" is explicitly named on the CUSMA Appendix 2 list and requires only a baccalaureate degree with no minimum experience — this is about as clean a CUSMA case as exists. One-year term appointment.",
+    "url": "https://ecoworks.eco.ca/jobs/641626570-water-quality-monitoring-research-assistant-technician-i",
+    "url_label": "Water Quality Monitoring — Research Assistant / Technician I (University of Guelph, CERC in Waterborne Pathogens)",
+    "links": [
+      {
+        "href": "https://ecoworks.eco.ca/jobs/641626570-water-quality-monitoring-research-assistant-technician-i",
+        "label": "🔗 Water Quality Monitoring — Research Assistant / Technician I (University of Guelph, CERC in Waterborne Pathogens)"
+      }
+    ],
+    "metaLine": "🎯 Creek & stormwater sampling — her capstone work · cleanest CUSMA route in Canada",
+    "body": "A temporary full-time appointment (September 8, 2026 to September 8, 2027) at the University of Guelph supporting installation, maintenance and operation of water-quality sensors at creek and stormwater sites. Duties include water sampling, field measurements, equipment maintenance and data collection, along with associated office and laboratory work. The position sits within the Environmental Sciences team on a research programme covering surveillance, prediction and mitigation of waterborne pathogens, under the Canada Excellence Research Chair. Salary is not published on the posting.",
+    "desc": "Two things make this stand out. First, the work is creek and stormwater sampling with sensor installation and maintenance — a close professional match to your Pigeon River capstone, just with pathogens rather than metals as the analyte. Second, and more strategically: 'Research Assistant at a post-secondary institution' is explicitly on the CUSMA Appendix 2 list and needs only a bachelor's degree with no experience minimum, which makes this one of the cleanest immigration cases available to you in Canada. A year at a Canada Excellence Research Chair programme is also a credible research credential heading into graduate applications. The salary is unpublished, so ask early.",
+    "pills": [
+      "🎯 Creek & stormwater sampling",
+      "Cleanest CUSMA case — named on Appendix 2",
+      "1-year term at a CERC programme",
+      "⚠️ Salary not published"
+    ],
+    "start": "See posting",
+    "relocation": "lead",
+    "country": "CA"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Ontario",
+    "id": "item-1207",
+    "title": "Planning Ecologist — development review & watershed regulation (Toronto and Region Conservation Authority)",
+    "org": "Toronto and Region Conservation Authority (TRCA) · Planning Ecology unit · Head Office",
+    "location": "Toronto, Ontario",
+    "deadline": "Rolling — no posted closing date",
+    "badge": "Strong fit",
+    "pay": "CAD $53.15–$61.62 per hour, 35-hour week (published)",
+    "stipend": "",
+    "benefits": "⚠️ Advertised at INTERMEDIATE level, so this is a stretch at roughly a year out — but the pay and the institution make it worth an application. Permanent full-time at one of Ontario's 36 Conservation Authorities.",
+    "url": "https://ecoworks.eco.ca/jobs/644910568-planning-ecologist",
+    "url_label": "Planning Ecologist — development review & watershed regulation (Toronto and Region Conservation Authority)",
+    "links": [
+      {
+        "href": "https://ecoworks.eco.ca/jobs/644910568-planning-ecologist",
+        "label": "🔗 Planning Ecologist — development review & watershed regulation (Toronto and Region Conservation Authority)"
+      }
+    ],
+    "metaLine": "Watershed-agency wetland permitting review · CAD $53–$62/hr · ⚠️ intermediate level",
+    "body": "A permanent full-time role in TRCA's Planning Ecology unit, providing intermediate-level technical review and advice on development applications against TRCA policy, regulations and technical requirements. The position represents TRCA in dealings with all levels of government, other agencies and private industry. TRCA is one of Ontario's 36 Conservation Authorities, mandated to protect and restore watershed natural environments. Published rate is CAD $53.15–$61.62 per hour on a 35-hour week.",
+    "desc": "Ontario's Conservation Authorities are the closest Canadian analogue to the US conservation-district and state-permitting roles you have been targeting: they do wetland permitting, water quality and restoration at watershed scale, and TRCA is the largest and best-resourced of the 36. Natural-heritage review of development applications is precisely where wetland delineation training becomes a regulatory credential. Be clear-eyed that the posting is pitched at intermediate level and you are roughly a year out of your degree, so treat it as a genuine reach — but at CAD $53–$62 an hour with a permanent line attached, the expected value of applying is high even at modest odds.",
+    "pills": [
+      "Watershed agency — the CA analogue",
+      "CAD $53–$62/hr, permanent",
+      "Wetland & natural-heritage review",
+      "⚠️ Intermediate level — a stretch"
+    ],
+    "start": "See posting",
+    "relocation": "lead",
+    "country": "CA"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Canada-wide / Remote",
+    "id": "item-1208",
+    "title": "Early Professional, Environmental Scientist — national early-career intake (WSP)",
+    "org": "WSP · Early Professional programme · multiple Canadian offices",
+    "location": "Multiple Canadian offices (province not specified — salary bands published for every region)",
+    "deadline": "Rolling — no posted closing date; posted August 26, 2026",
+    "badge": "Strong fit",
+    "pay": "CAD $60,100–$79,600 (AB/BC/NT/NU/SK/YT) · $54,800–$75,400 (MB/ON) · $54,200–$72,000 (NB/NL/NS/PE) — published bands",
+    "stipend": "",
+    "benefits": "🇨🇦 An explicit EARLY-CAREER intake stream, which is the cleanest kind of posting to enter on a CUSMA professional permit — Biologist and Soil Scientist are both on the Appendix 2 list requiring only a bachelor's with no experience minimum. Bands are published for every Canadian region, so multiple office locations are in scope.",
+    "url": "https://ecoworks.eco.ca/jobs/644946718-early-professional-environmental-scientist",
+    "url_label": "Early Professional, Environmental Scientist — national early-career intake (WSP)",
+    "links": [
+      {
+        "href": "https://ecoworks.eco.ca/jobs/644946718-early-professional-environmental-scientist",
+        "label": "🔗 Early Professional, Environmental Scientist — national early-career intake (WSP)"
+      }
+    ],
+    "metaLine": "🇨🇦 National early-career intake at a global consultancy · CAD $54,200–$79,600 by region",
+    "body": "WSP's Early Professional stream for environmental scientists and engineers, working on infrastructure, energy systems and community projects. Salary bands are published for every Canadian region — CAD $60,100–$79,600 for AB/BC/NT/NU/SK/YT, $54,800–$75,400 for MB/ON, and $54,200–$72,000 for NB/NL/NS/PE — indicating that multiple office locations are in scope. Posted August 26, 2026.",
+    "desc": "This is a designed entry point rather than a job you have to argue your way into, which changes the odds considerably: early-professional streams exist specifically to hire people at your stage, so the usual 'wants 3 years experience' problem does not apply. WSP is a global firm with an established record of moving early-career staff across borders, which matters for the CUSMA route. Because bands are published for every Canadian region, you can apply without having pre-committed to a province — useful when the immigration pathway rather than geography is the binding constraint. The pay is strong for a first professional post at CAD $54,200–$79,600 depending on region.",
+    "pills": [
+      "Designed early-career intake",
+      "CAD $54,200–$79,600 by region",
+      "Global firm, cross-border experienced",
+      "Province flexible"
+    ],
+    "start": "See posting",
+    "relocation": "lead",
+    "country": "CA"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Atlantic Canada",
+    "id": "item-1209",
+    "title": "Junior Environmental Field Technician — Remediation team, Atlantic Canada (WSP)",
+    "org": "WSP · Remediation team · Dartmouth, Nova Scotia",
+    "location": "Dartmouth, Nova Scotia (field programmes across Atlantic Canada, frequent travel)",
+    "deadline": "Rolling — no posted closing date; posted August 30, 2026",
+    "badge": "Strong fit",
+    "pay": "CAD $44,000–$59,300 for NB/NL/NS/PEI (published band)",
+    "stipend": "",
+    "benefits": "🇨🇦 Explicitly JUNIOR, so no experience bar to argue past. CUSMA professional permit route applies (Biologist / Soil Scientist, bachelor's only, no experience minimum). Frequent travel across Atlantic Canada.",
+    "url": "https://ecoworks.eco.ca/jobs/652026393-junior-environmental-field-technician",
+    "url_label": "Junior Environmental Field Technician — Remediation team, Atlantic Canada (WSP)",
+    "links": [
+      {
+        "href": "https://ecoworks.eco.ca/jobs/652026393-junior-environmental-field-technician",
+        "label": "🔗 Junior Environmental Field Technician — Remediation team, Atlantic Canada (WSP)"
+      }
+    ],
+    "metaLine": "🇨🇦 Junior remediation fieldwork across Atlantic Canada · CAD $44,000–$59,300",
+    "body": "WSP is hiring a Junior Environmental Field Technician to its Remediation team in Dartmouth, Nova Scotia, supporting environmental field programmes across Atlantic Canada. The role offers hands-on field experience with frequent travel, plus office tasks including data entry, documentation, equipment and subcontractor coordination, and report preparation. Published band for NB/NL/NS/PEI is CAD $44,000–$59,300. Posted August 30, 2026.",
+    "desc": "Remediation work is the professional home of contaminated-site sampling, which is what your Pigeon River trace-metal capstone actually was — so the technical argument for you here writes itself. The posting is explicitly junior, meaning there is no experience threshold to talk your way around, and it was posted the day before this sweep, so it is genuinely fresh. Atlantic Canada is also less competitive than the Ontario and BC markets. The trade-off is frequent travel, which suits a first post better than a later one. This also adds Atlantic Canada to your options, a region thinly represented on the list.",
+    "pills": [
+      "Explicitly junior — no experience bar",
+      "Remediation = contaminated-site sampling",
+      "CAD $44,000–$59,300",
+      "Posted Aug 30 — very fresh"
+    ],
+    "start": "See posting",
+    "relocation": "lead",
+    "country": "CA"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Ontario",
+    "id": "item-1210",
+    "title": "Junior Environmental Site Assessor — soil, groundwater & surface-water sampling (Stantec)",
+    "org": "Stantec · Environmental Site Investigation and Remediation practice",
+    "location": "Thunder Bay, Ontario (projects across Ontario)",
+    "deadline": "Rolling — no posted closing date",
+    "badge": "Strong fit",
+    "pay": "Not published on the posting",
+    "stipend": "",
+    "benefits": "🇨🇦 Explicitly JUNIOR. Stantec is a large multinational consultancy that routinely handles CUSMA professional permits. Distinct from the Stantec Junior Terrestrial Ecologist role already on your list — different practice area.",
+    "url": "https://ecoworks.eco.ca/jobs/648014421-junior-environmental-site-assessor",
+    "url_label": "Junior Environmental Site Assessor — soil, groundwater & surface-water sampling (Stantec)",
+    "links": [
+      {
+        "href": "https://ecoworks.eco.ca/jobs/648014421-junior-environmental-site-assessor",
+        "label": "🔗 Junior Environmental Site Assessor — soil, groundwater & surface-water sampling (Stantec)"
+      }
+    ],
+    "metaLine": "🎯 Soil, groundwater & surface-water sampling + contaminant data interpretation",
+    "body": "A junior role within Stantec's Environmental Site Investigation and Remediation practice, completing field work and reporting for projects across Ontario. Field duties cover soil, groundwater and surface-water sampling, carried out both individually and alongside teams and contractors. The position also supports project managers in analysing and interpreting field and analytical data against provincial and federal requirements. Salary is not published on the posting.",
+    "desc": "This is the direct professional version of your capstone: soil and surface-water sampling paired with interpreting analytical data against regulatory thresholds is precisely what trace-metal contamination assessment consists of, just done commercially and against Ontario and federal standards instead of academic ones. Being explicitly junior removes the experience barrier that blocks most consulting applications at your stage. Note this is a different Stantec posting from the Junior Terrestrial Ecologist role already saved on your list — different practice area, so applying to both is reasonable rather than redundant. Salary is unpublished; ask.",
+    "pills": [
+      "🎯 Contaminant sampling + data interpretation",
+      "Explicitly junior",
+      "2nd Stantec opening — different practice",
+      "⚠️ Salary not published"
+    ],
+    "start": "See posting",
+    "relocation": "lead",
+    "country": "CA"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "British Columbia",
+    "id": "item-1211",
+    "title": "Restoration Technician — riparian & wetland field crew (Echo Ecological Enterprises)",
+    "org": "Echo Ecological Enterprises · Lower Mainland, British Columbia",
+    "location": "Lower Mainland, British Columbia (travel to field sites required)",
+    "deadline": "Rolling — reviewed as received, start ASAP; term runs September to mid-December 2026",
+    "badge": "Good fit",
+    "pay": "CAD $25.00 per hour plus 4% vacation pay (published)",
+    "stipend": "",
+    "benefits": "🇨🇦 SEASONAL, which makes this reachable on an IEC Working Holiday OPEN work permit via a Recognized Organization (SWAP/IENA/InterExchange), ages 18–35 — no job offer required, unlike the CUSMA route. Roughly 30–37.5 hours/week, with possible additional work in 2027.",
+    "url": "https://www.goodwork.ca/jobs/ecological-restoration-and-environmental-technician-jobs-76592",
+    "url_label": "Restoration Technician — riparian & wetland field crew (Echo Ecological Enterprises)",
+    "links": [
+      {
+        "href": "https://www.goodwork.ca/jobs/ecological-restoration-and-environmental-technician-jobs-76592",
+        "label": "🔗 Restoration Technician — riparian & wetland field crew (Echo Ecological Enterprises)"
+      }
+    ],
+    "metaLine": "🇨🇦 Riparian & wetland restoration crew · CAD $25/hr · IEC open-permit reachable",
+    "body": "Echo Ecological Enterprises applies restoration principles to damaged riparian, wetland and other natural ecosystems in the Lower Mainland of British Columbia. This is a seasonal field-crew contract running September to mid-December 2026 at roughly 30–37.5 hours per week, with possible additional work in 2027. Projects cover invasive species removal, native planting, ecological monitoring, site maintenance and slope stabilization. Published rate is CAD $25.00 per hour plus 4% vacation pay. Applications are reviewed as received with an ASAP start.",
+    "desc": "Riparian and wetland restoration on a small crew is a direct fit for both your wetland training and your AmeriCorps field-crew background. The strategic point is the permit route: because this is seasonal rather than permanent, it is reachable on an IEC Working Holiday open work permit — which needs no job offer at all — rather than requiring an employer to sponsor a CUSMA permit. That makes it one of the few Canadian entries you could act on without first solving the sponsorship problem. At CAD $25/hr plus vacation pay it is decently paid for crew work, and the term is short enough to treat as a trial.",
+    "pills": [
+      "🇨🇦 IEC open permit — no job offer needed",
+      "Riparian & wetland restoration",
+      "CAD $25/hr + 4% vacation pay",
+      "Sept–Dec 2026 term"
+    ],
+    "start": "See posting",
+    "relocation": "lead",
+    "country": "CA"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Ontario",
+    "id": "item-1212",
+    "title": "Junior Environmental Planner — environmental approvals (Dillon Consulting)",
+    "org": "Dillon Consulting Limited · Environmental Planning team · 100% employee-owned",
+    "location": "Kitchener or London, Ontario (flexible and hybrid arrangements available)",
+    "deadline": "Rolling — new position, no posted closing date",
+    "badge": "Good fit",
+    "pay": "CAD $60,000–$90,000 annually (published)",
+    "stipend": "",
+    "benefits": "🇨🇦 Explicitly JUNIOR with a strong published band. Flexible and hybrid working. Dillon is a 100% employee-owned Canadian firm. Distinct from the Dillon Biologist role (Kingston/Ottawa) already on your list.",
+    "url": "https://ecoworks.eco.ca/jobs/465391148-environmental-planner",
+    "url_label": "Junior Environmental Planner — environmental approvals (Dillon Consulting)",
+    "links": [
+      {
+        "href": "https://ecoworks.eco.ca/jobs/465391148-environmental-planner",
+        "label": "🔗 Junior Environmental Planner — environmental approvals (Dillon Consulting)"
+      }
+    ],
+    "metaLine": "🇨🇦 Environmental approvals & permitting · CAD $60,000–$90,000 · junior, hybrid",
+    "body": "A new position on Dillon Consulting's Environmental Planning team, which manages comprehensive environmental approvals from planning through construction. The role combines regulatory knowledge with engagement tools to streamline project delivery, and offers flexible and hybrid work arrangements. Dillon is a 100% employee-owned Canadian consulting firm. Published salary is CAD $60,000–$90,000 annually. Offices in Kitchener and London, Ontario.",
+    "desc": "Environmental approvals work draws directly on wetland delineation and on the multi-criteria GIS suitability analysis you built your capstone around — approvals are, functionally, constraint mapping plus regulatory argument. At CAD $60,000–$90,000 this is the highest published band among the junior Canadian consulting roles found, and hybrid flexibility is unusual for a field-adjacent post. The shift here is from sampling toward planning and regulatory process, which is a legitimate career direction but a different day-to-day than fieldwork — worth deciding deliberately rather than by default. Note this is a separate Dillon posting from the Biologist role already on your list.",
+    "pills": [
+      "CAD $60,000–$90,000 — top junior band",
+      "Approvals = constraint mapping + regs",
+      "Hybrid & flexible",
+      "⚠️ Planning, not field sampling"
+    ],
+    "start": "See posting",
+    "relocation": "lead",
+    "country": "CA"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Ontario",
+    "id": "item-1213",
+    "title": "Environmental Technician — field sampling programmes, Goliath Gold Complex (NexGold Mining)",
+    "org": "NexGold Mining Corp · Goliath Gold Complex · reports to VP of Sustainability",
+    "location": "Near Dryden, northwestern Ontario",
+    "deadline": "Rolling — single backfill vacancy, no posted closing date",
+    "badge": "Good fit",
+    "pay": "CAD $65,000–$80,000 annual base salary (published)",
+    "stipend": "",
+    "benefits": "🇨🇦 The STRONGEST published entry-level compensation on the Canadian list. Explicitly pitched at foundational skill level. Reports directly to the VP of Sustainability, which is unusually senior exposure for a technician role.",
+    "url": "https://ecoworks.eco.ca/jobs/649739645-environmental-technician",
+    "url_label": "Environmental Technician — field sampling programmes, Goliath Gold Complex (NexGold Mining)",
+    "links": [
+      {
+        "href": "https://ecoworks.eco.ca/jobs/649739645-environmental-technician",
+        "label": "🔗 Environmental Technician — field sampling programmes, Goliath Gold Complex (NexGold Mining)"
+      }
+    ],
+    "metaLine": "🇨🇦 CAD $65,000–$80,000 for a foundational-level field sampling role",
+    "body": "A single backfill vacancy at NexGold Mining Corp's Goliath Gold Complex in northwestern Ontario, reporting to the VP of Sustainability and applying foundational environmental management skills. Core duties are conducting field sampling programmes, following established protocols, and supporting reporting requirements, with emphasis on safety, teamwork, and field data and logistics support. Published base salary is CAD $65,000–$80,000.",
+    "desc": "The compensation is the headline: CAD $65,000–$80,000 for a role the employer itself describes as foundational-level is far above what equivalent conservation-sector postings pay, and mining-sector environmental monitoring is genuinely close to your sediment and water-sampling experience. Reporting to a VP of Sustainability also means visibility that a technician rarely gets. The honest consideration is sector fit: this is compliance monitoring for a gold mine rather than conservation work, and only you can judge whether that sits right against your longer-term aims. As a two-year earning and experience move before graduate school, though, the maths is compelling.",
+    "pills": [
+      "CAD $65,000–$80,000 — highest junior pay",
+      "Employer says foundational level",
+      "Reports to VP of Sustainability",
+      "⚠️ Mining sector, not conservation"
+    ],
+    "start": "See posting",
+    "relocation": "lead",
+    "country": "CA"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Ontario",
+    "id": "item-1214",
+    "title": "Project Technologist — water, wastewater & environmental projects (Pinchin Ltd.)",
+    "org": "Pinchin Ltd. · Emissions Reduction and Compliance team",
+    "location": "Mississauga, Ontario (projects across Ontario)",
+    "deadline": "Rolling — no posted closing date",
+    "badge": "Good fit",
+    "pay": "CAD $55,000–$70,000 annually (published)",
+    "stipend": "",
+    "benefits": "🇨🇦 The posting is explicitly pitched at people launching a career in environmental consulting — a designed entry point rather than a role you must over-qualify for. Pinchin has offices across North America.",
+    "url": "https://ecoworks.eco.ca/jobs/644874649-project-technologist-water-wastewater-environmental-projects",
+    "url_label": "Project Technologist — water, wastewater & environmental projects (Pinchin Ltd.)",
+    "links": [
+      {
+        "href": "https://ecoworks.eco.ca/jobs/644874649-project-technologist-water-wastewater-environmental-projects",
+        "label": "🔗 Project Technologist — water, wastewater & environmental projects (Pinchin Ltd.)"
+      }
+    ],
+    "metaLine": "🇨🇦 Career-launch consulting role, water & wastewater · CAD $55,000–$70,000",
+    "body": "A role on Pinchin Ltd.'s Emissions Reduction and Compliance team, explicitly pitched at launching a career in environmental consulting. The work helps organisations across Ontario navigate complex environmental regulations, reduce emissions and operate more sustainably, across water, wastewater and environmental projects. Pinchin is a multidisciplinary engineering and consulting firm with offices across North America. Published salary is CAD $55,000–$70,000 annually.",
+    "desc": "Postings that openly say they are for people starting out are worth prioritising, because they remove the experience-bar problem that makes most consulting applications a long shot at your stage. The water and wastewater focus keeps you in your subject area, and regulatory compliance work builds the permit-and-standards fluency that makes a wetland scientist employable. Pinchin operating across North America is also relevant to the immigration question — firms with US and Canadian offices are more practised at cross-border hires. CAD $55,000–$70,000 is a solid first professional salary.",
+    "pills": [
+      "Explicit career-launch posting",
+      "Water & wastewater focus",
+      "CAD $55,000–$70,000",
+      "North America-wide firm"
+    ],
+    "start": "See posting",
+    "relocation": "lead",
+    "country": "CA"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Prairies (AB/SK/MB)",
+    "id": "item-1215",
+    "title": "Forest Analyst — habitat & wildfire-risk spatial modelling (Silvacom)",
+    "org": "Silvacom · forest planning and spatial analysis",
+    "location": "Edmonton, Alberta",
+    "deadline": "Rolling — no posted closing date",
+    "badge": "Good fit",
+    "pay": "Not published on the posting",
+    "stipend": "",
+    "benefits": "🇨🇦 \"Forester\" is a named CUSMA Appendix 2 profession requiring only a baccalaureate with NO experience minimum, making this a clean work-permit case. Blends office and field work alongside forestry professionals and GIS specialists.",
+    "url": "https://ecoworks.eco.ca/jobs/645575187-forest-analyst",
+    "url_label": "Forest Analyst — habitat & wildfire-risk spatial modelling (Silvacom)",
+    "links": [
+      {
+        "href": "https://ecoworks.eco.ca/jobs/645575187-forest-analyst",
+        "label": "🔗 Forest Analyst — habitat & wildfire-risk spatial modelling (Silvacom)"
+      }
+    ],
+    "metaLine": "🎯 Landscape habitat & wildfire-risk modelling — her GIS skill set exactly",
+    "body": "Silvacom is recruiting a Forest Analyst to support forest planning and analysis across forestry and environmental projects, working with forest inventory data, spatial models and planning tools. Duties include assessing wildlife habitat and wildfire risk and other landscape-level considerations, and supporting forest management plans and regulatory submissions. The role blends office and field work alongside forestry professionals and GIS specialists. Salary is not published on the posting.",
+    "desc": "Landscape-level wildlife habitat modelling using spatial tools is a precise description of multi-criteria GIS suitability analysis — the exact method behind your capstone — applied to forestry instead of contamination. Adding wildfire risk modelling to that is a genuinely marketable specialism as fire becomes central to western land management on both sides of the border. The immigration angle is clean too: Forester is a named CUSMA Appendix 2 profession needing only a bachelor's degree with no minimum experience. The salary is unpublished, which is the main open question — ask before investing much in the application.",
+    "pills": [
+      "🎯 Multi-criteria habitat suitability modelling",
+      "Wildfire risk — growing specialism",
+      "Forester = named CUSMA profession",
+      "⚠️ Salary not published"
+    ],
+    "start": "See posting",
+    "relocation": "lead",
+    "country": "CA"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Ontario",
+    "id": "item-1216",
+    "title": "Junior Environmental Technologist (EXP)",
+    "org": "EXP · employee-owned engineers, architects, designers and scientists",
+    "location": "London, Ontario",
+    "deadline": "Rolling — no posted closing date; posted August 27, 2026",
+    "badge": "Good fit",
+    "pay": "CAD $45,000–$51,000 annually (published)",
+    "stipend": "",
+    "benefits": "🇨🇦 Explicitly JUNIOR with a transparent published salary. EXP is employee-owned and works across built and natural environments.",
+    "url": "https://ecoworks.eco.ca/jobs/645575183-junior-environmental-technologist",
+    "url_label": "Junior Environmental Technologist (EXP)",
+    "links": [
+      {
+        "href": "https://ecoworks.eco.ca/jobs/645575183-junior-environmental-technologist",
+        "label": "🔗 Junior Environmental Technologist (EXP)"
+      }
+    ],
+    "metaLine": "🇨🇦 Junior consulting entry point in southwestern Ontario · CAD $45,000–$51,000",
+    "body": "A junior technologist role at EXP, an employee-owned firm of engineers, architects, designers and scientists working across built and natural environments, based in the London, Ontario office. Published salary is CAD $45,000–$51,000 annually. Posted August 27, 2026.",
+    "desc": "A straightforward junior consulting entry point with a published salary and a recent posting date. The band at CAD $45,000–$51,000 is at the lower end of the Ontario consulting roles found this run, and the advertisement is thin on specifics about which environmental discipline the work sits in — so this belongs on the list as a real option rather than a priority. Worth an application as part of a batch to Ontario consultancies alongside Dillon, Stantec and Pinchin, since the marginal cost of one more application in the same market is low and the firms hire on similar cycles.",
+    "pills": [
+      "Explicitly junior",
+      "CAD $45,000–$51,000",
+      "Posted Aug 27 — fresh",
+      "⚠️ Ad is thin on discipline detail"
+    ],
+    "start": "See posting",
+    "relocation": "lead",
+    "country": "CA"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — August 31, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Northern Canada",
+    "id": "item-1217",
+    "title": "Resource Assistant — Inuvialuit Settlement Region (Inuvialuit Game Council)",
+    "org": "Inuvialuit Game Council · Indigenous co-management body (not a federal or provincial employer)",
+    "location": "Inuvialuit Settlement Region, Northwest Territories",
+    "deadline": "Rolling — no posted closing date",
+    "badge": "Reach",
+    "pay": "Not published on the posting",
+    "stipend": "",
+    "benefits": "🇨🇦 As an Indigenous co-management body rather than a government employer, the Game Council is NOT subject to the federal public-service citizenship preference that makes most Canadian government postings a dead end for a US citizen. ⚠️ But the role leans administrative rather than field-scientific.",
+    "url": "https://ecoworks.eco.ca/jobs/647085037-resource-assistant",
+    "url_label": "Resource Assistant — Inuvialuit Settlement Region (Inuvialuit Game Council)",
+    "links": [
+      {
+        "href": "https://ecoworks.eco.ca/jobs/647085037-resource-assistant",
+        "label": "🔗 Resource Assistant — Inuvialuit Settlement Region (Inuvialuit Game Council)"
+      }
+    ],
+    "metaLine": "🇨🇦 Arctic wildlife co-management · ⚠️ leans administrative · pay not published",
+    "body": "The Inuvialuit Game Council is recruiting a Resource Assistant to provide administrative and technical support for environmental and wildlife matters in the Inuvialuit Settlement Region, ensuring commitments under the Inuvialuit Final Agreement are met. The role assists leadership, supports staff and handles confidential tasks. The Inuvialuit Game Council is an Indigenous co-management body rather than a federal or provincial employer. Salary is not published on the posting.",
+    "desc": "Listed mainly because it opens Northern Canada, a region with almost nothing else on your list, and because co-management bodies sit outside the federal citizenship preference that makes most Canadian government postings unrealistic for you. Wildlife co-management under a modern land-claim agreement is genuinely interesting work and rare experience. Be clear about the trade-off though: the posting is weighted toward administrative and technical support rather than field science, so it would not build your sampling or GIS record much. Worth pursuing only if Arctic exposure and the co-management context are themselves the draw.",
+    "pills": [
+      "Opens Northern Canada",
+      "Outside federal citizenship preference",
+      "Arctic co-management experience",
+      "⚠️ Administrative, not field science"
+    ],
+    "start": "See posting",
+    "relocation": "lead",
+    "country": "CA"
   }
 ]
