@@ -1,24 +1,17 @@
 # Weekly opportunity sweep — 2026-09-07
 
-**Added 16 new** opportunities:
-- Life Scientist / Environmental Engineer / Physical Scientist GS-7/9 — RCRA corrective action and chemical safety (US EPA Region 3, Philadelphia) — _Strong_ · Northeast · deadline: September 10, 2026
-- Hydrologic Technician GS-8 — streamflow and water-quality data collection, SIX Northeast duty stations (US Geological Survey) — _Strong_ · Northeast · deadline: September 10, 2026
-- Restoration Coordinator — coastal and climate restoration for DNREC, $65,546 with long-term potential (Delaware DNREC via Kent Conservation District) — _Strong_ · Northeast · deadline: Rolling — open until filled
-- Watershed Policy Specialist — Maryland legislation, stormwater and forest conservation policy, asks only 1–2 years (Chesapeake Bay Foundation) — _Strong_ · Northeast · deadline: Rolling — open until filled
-- Field Technician — invasive control, rare species monitoring and GIS mapping, framed as resume-building training (Friends of Hopewell Valley Open Space) — _Strong_ · Northeast · deadline: September 11, 2026
-- LakeSmart Program Specialist — shoreline water-quality assessment plus landowner outreach, $24/hr with retirement and HSA (Maine Lakes) — _Strong_ · Northeast · deadline: Rolling — open until filled
-- Electronic Monitoring Technician — camera and sensor systems on commercial fishing vessels, $28–$29/hr with full benefits (Saltwater Inc.) — _Good_ · Northeast · deadline: Rolling — open until filled
-- Conservation Specialist — land acquisition and stewardship across 30,000 acres, GIS named as a preferred skill (Lakes Region Conservation Trust) — _Good_ · Northeast · deadline: Rolling — open until filled
-- USDA-ARS Agricultural Watershed Modeling Research Opportunity — watershed modelling plus remote sensing at the USDA Hydrology lab (ORISE) — _Strong_ · Northeast · deadline: Rolling — open until filled
-- USGS Research Opportunity — transcriptomic effects of PFAS, pesticides and algal toxins on wildlife (ORISE, Eastern Ecological Science Center) — _Good_ · Northeast · deadline: September 11, 2026 (reviewed on a rolling basis)
-- Jeannie Morris Graduate Fellowship — $10,000/yr for MID-ATLANTIC TIDAL SALT MARSH research, portable to any US graduate programme (The Wetlands Institute) — _Good_ · Northeast · deadline: October 25, 2026
-- Property Coordinator — barrier beach habitat and asset management alongside an endangered species programme (Duxbury Beach Reservation) — _Good_ · Northeast · deadline: November 1, 2026
-- Environmental Education Instructor — ROOM AND BOARD INCLUDED inside Delaware Water Gap National Recreation Area (Pocono Environmental Education Center) — _Good_ · Northeast · deadline: September 19, 2026
-- Horticulture and Natural Lands Intern — RIPARIAN BUFFER and native habitat restoration with a deer-exclosure comparison (The Hay, Honey Farm) — _Good_ · Northeast · deadline: September 15, 2026
-- Education Assistant — foothold at New Hampshire's leading wildlife nonprofit, posted at 0–1 years (New Hampshire Audubon) — _Good_ · Northeast · deadline: Rolling — open until filled
-- Environmental Steward (AmeriCorps) — individual placements doing field research, invasive monitoring and land management planning (Maine Conservation Corps) — _Strong_ · Northeast · deadline: Contact first — no posted deadline
+**Added 9 new** opportunities:
+- Biologist (Animal Care) GS-9 — Smithsonian Conservation Biology Institute, 3,200-acre Front Royal campus (VIRGINIA) — _Strong_ · Southeast & Appalachia · deadline: September 16, 2026
+- Conservation Associate — Environment Virginia campaigns on state parks, wildlife corridors and plastics, BASED IN RICHMOND and explicitly entry-level — _Excellent_ · Southeast & Appalachia · deadline: September 18, 2026
+- Seasonal Trail Maintenance Technician — 2,300 acres of forest, meadow, stream and WETLAND on the Land Stewardship team, NO experience required (Willowsford Conservancy, VIRGINIA) — _Good_ · Southeast & Appalachia · deadline: Rolling — open until filled
+- Land Manager — biodiversity conservation on 1,400 acres along the SHENANDOAH RIVER, $60,000–$75,000 (Oxbow Farm, VIRGINIA) — _Strong_ · Southeast & Appalachia · deadline: September 15, 2026
+- Wildlife Biologist (Natural Resource Specialist III) — Stafford / Quantico area, the only in-state wildlife biologist post on Virginia's own jobs portal — _Strong_ · Southeast & Appalachia · deadline: Contact first — no posted deadline
+- Forestry Technician (Hourly) — VCU main campus, IN RICHMOND ITSELF (Virginia Commonwealth University) — _Good_ · Southeast & Appalachia · deadline: Contact first — no posted deadline
+- Environmental Technician — entry-titled state technician role in Blacksburg, VIRGINIA (Commonwealth of Virginia) — _Good_ · Southeast & Appalachia · deadline: Contact first — no posted deadline
+- Natural Resources Specialist (Forestry Inventory Technician) — plot-based field measurement and spatial data, Blacksburg VIRGINIA — _Strong_ · Southeast & Appalachia · deadline: Contact first — no posted deadline
+- Hampton Roads Urban Restoration Assistant (part-time) — oyster restoration, living shorelines and riparian buffers in VIRGINIA (Chesapeake Bay Foundation) — _Good_ · Southeast & Appalachia · deadline: Contact first — no posted deadline
 
 **Updated 0** (deadline / status / description changed).
 
-**Total opportunities:** 1314  ·  next-cycle: 466  ·  expired (one-time, no future cycle): 230
+**Total opportunities:** 1323  ·  next-cycle: 466  ·  expired (one-time, no future cycle): 230
 Triage: passed-but-recurring → `cycle:"next"`; one-time/discontinued → `expired:true`. Passed/expired are hidden on the site by default (toggle to show); never deleted, never moved to the personal Archive. Fit tiers: _Excellent_ / _Strong_ / _Good_ / _Reach / review_ (set via each entry's badge). The Browse pages render from this data automatically — no HTML edits. Nothing is live until this PR is merged.
