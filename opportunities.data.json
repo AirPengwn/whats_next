@@ -56023,5 +56023,383 @@
     ],
     "start": "See posting",
     "relocation": "lead"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 7, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1300",
+    "title": "Re5 Coral Restoration Internship — coral nursery propagation & restoration site management (Reef Renewal USA)",
+    "org": "Reef Renewal USA · with the University of Miami, Florida Re5 Hub · Upper Florida Keys",
+    "location": "Upper Florida Keys, Florida",
+    "deadline": "October 25, 2026",
+    "badge": "Good fit",
+    "pay": "$2,400 per month starting (published)",
+    "stipend": "",
+    "benefits": "Nine-month term with possible three-month extension; partnership with University of Miami",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118638",
+    "url_label": "Re5 Coral Restoration Internship — coral nursery propagation & restoration site management (Reef Renewal USA)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118638",
+        "label": "🔗 Re5 Coral Restoration Internship — coral nursery propagation & restoration site management (Reef Renewal USA)"
+      }
+    ],
+    "metaLine": "Florida Keys · $2,400/mo · nine months, possibly twelve · restoration at scale",
+    "body": "A hands-on coral restoration internship in the Upper Florida Keys, supporting coral nursery establishment and maintenance and advancing restoration techniques. The position is offered in partnership with the University of Miami through the Florida Re5 Hub, a collaborative coral restoration project aimed at strengthening the resilience of Florida's Coral Reef to climate impacts. Interns gain experience in coral propagation, nursery maintenance and restoration site management. The term runs January 4 2027 to October 1 2027, with possible extension to December 31 2027. Pay starts at $2,400 per month; a bachelor's degree and at least one year of experience are listed. Applications close October 25 2026.",
+    "desc": "Coral is not your taxon and this posting will look like a detour, so here is the case for it. It is nine months at $2,400 a month, which is a genuine salary rather than the token stipend most restoration internships offer, and the extension option takes it to a full year. The work is restoration ecology done at production scale — propagation, nursery management, site monitoring — which is the same logical structure as the wetland and stream restoration you actually want, applied to a different substrate. The University of Miami partnership matters more than the coral does: it puts a research university's name on the reference letter. Treat this as a paid year of restoration practice and a warm-water field skill set, not as a commitment to marine work.",
+    "pills": [
+      "Nine-month term, not a field season",
+      "$2,400/month — paid, not a stipend token",
+      "Partnership with University of Miami",
+      "Restoration technique development"
+    ],
+    "start": "January 4, 2027 – October 1, 2027 (possible extension to December 31, 2027)",
+    "relocation": "lead",
+    "deadline_date": "2026-10-25"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 7, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-1301",
+    "title": "Data Management Specialist 2 — PacFIN West Coast fisheries information network (Pacific States Marine Fisheries Commission)",
+    "org": "Pacific States Marine Fisheries Commission · Pacific Fisheries Information Network (PacFIN) · Portland, OR",
+    "location": "Portland, Oregon",
+    "deadline": "September 27, 2026",
+    "badge": "Good fit",
+    "pay": "$26.14 to $41.57 per hour (published range)",
+    "stipend": "",
+    "benefits": "Full-time benefits-eligible position (health and retirement per PSMFC); 32–40 hrs/week",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118628",
+    "url_label": "Data Management Specialist 2 — PacFIN West Coast fisheries information network (Pacific States Marine Fisheries Commission)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118628",
+        "label": "🔗 Data Management Specialist 2 — PacFIN West Coast fisheries information network (Pacific States Marine Fisheries Commission)"
+      }
+    ],
+    "metaLine": "Portland OR · $26.14–$41.57/hr · benefits-eligible · permanent, not seasonal",
+    "body": "The Pacific States Marine Fisheries Commission is recruiting a Data Management Specialist 2 in Portland, Oregon, on the Pacific Fisheries Information Network (PacFIN) project. PacFIN is a regional program consolidating the collection, processing, analysis and reporting of fisheries statistics for West Coast fisheries, integrating data from multiple source agencies into a single management system using consistent methods and standardised formats. The role is full-time and benefits-eligible at 32–40 hours per week. Published pay is $26.14 to $41.57 per hour. A bachelor's degree and at least one year of experience are listed; start is after October 26 2026 and applications close September 27 2026.",
+    "desc": "Almost everything else on this board is a field term that ends. This one is benefits-eligible and does not end, which changes what it is worth. The work is the data side of natural resources — ingesting messy agency data, standardising it, reporting it — and that is a skill you already exercise every time you build a suitability model in GIS, just pointed at catch records instead of rasters. The published band is unusually wide, $26 to $41, which in practice means the top is for someone with database experience and the bottom is the entry rung; apply to the bottom of it without apology. The strategic value is that a multi-agency commission role puts you inside the West Coast fisheries network, which is where the state and federal jobs get filled from.",
+    "pills": [
+      "Benefits-eligible full-time, not a field term",
+      "Wide published band — room to negotiate",
+      "Regional data system, multi-agency",
+      "32–40 hrs/week"
+    ],
+    "start": "After October 26, 2026",
+    "relocation": "lead",
+    "deadline_date": "2026-09-27"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 7, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1302",
+    "title": "Research Internship in Range Management on Subtropical Grazinglands — grassland & WETLAND ecology plus biogeochemistry (Archbold Biological Station, Buck Island Ranch)",
+    "org": "Archbold Biological Station · Buck Island Ranch · with UF Range Cattle Research Center · LTAR Network · Lake Placid, FL",
+    "location": "Buck Island Ranch, Lake Placid, Florida",
+    "deadline": "September 20, 2026",
+    "badge": "Strong fit",
+    "pay": "$265 per week starting (posted). Archbold describes its internships as unpaid appointments with a stipend rather than employment — read the terms before committing.",
+    "stipend": "$265 per week posted",
+    "benefits": "6–9 month term; two named research supervisors; LTAR Network site — confirm housing and stipend terms directly with Archbold",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118631",
+    "url_label": "Research Internship in Range Management on Subtropical Grazinglands — grassland & WETLAND ecology plus biogeochemistry (Archbold Biological Station, Buck Island Ranch)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118631",
+        "label": "🔗 Research Internship in Range Management on Subtropical Grazinglands — grassland & WETLAND ecology plus biogeochemistry (Archbold Biological Station, Buck Island Ranch)"
+      }
+    ],
+    "metaLine": "Lake Placid FL · 6–9 months · wetland ecology + biogeochemistry · no experience required",
+    "body": "Archbold Biological Station is seeking a research intern for 6–9 months to assist with grassland and wetland ecology, biogeochemistry and range management research at Buck Island Ranch, an operational cattle ranch that doubles as an experimental field station with a heavy applied-ecology focus. The intern is supervised by Dr. Grégory Sonnier and Dr. Amartya Saha. Archbold and its partner site, the University of Florida Range Cattle Research Center, belong to the USDA Long-term Agroecosystem Research (LTAR) Network — nineteen agroecosystems nationally studying ecosystem services in food production systems. Posted rate is $265 per week; no prior experience is required; at least 20 hours per week. Applications close September 20 2026.",
+    "desc": "Read the three words that matter: wetland, ecology, biogeochemistry. That is your capstone's subject matter with the contamination swapped for nutrients, and it is being offered to someone with no required experience, for six to nine months, under two named supervisors at an LTAR site. The length is the point — a three-month field season gives you a line on a CV, whereas six to nine months gives you a dataset you can present, which is the currency that gets funded assistantship offers. One caution to handle before you accept: the posting lists $265 per week but Archbold's own language describes internships as unpaid appointments rather than jobs, so ask explicitly whether that figure is a stipend, whether housing is included, and what the tax treatment is. The deadline is September 20, which is soon.",
+    "pills": [
+      "Names WETLAND ecology and biogeochemistry outright",
+      "6–9 months — long enough to own a dataset",
+      "Experience required: none",
+      "Part of the USDA LTAR Network"
+    ],
+    "start": "Between October 1 and November 15, 2026 · 6–9 month term",
+    "relocation": "lead",
+    "deadline_date": "2026-09-20"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 7, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-1303",
+    "title": "Bosque Field Technician — riparian restoration, invasive control & vegetation monitoring, year-round (City of Albuquerque Open Space)",
+    "org": "Tryfacta / City of Albuquerque Open Space Division · Albuquerque, NM",
+    "location": "3615 Los Picaros Rd SE, Albuquerque, New Mexico",
+    "deadline": "October 1, 2026",
+    "badge": "Strong fit",
+    "pay": "$14.71 per hour (published)",
+    "stipend": "",
+    "benefits": "Year-round position up to 40 hrs/week; works directly alongside City Open Space Division staff",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118613",
+    "url_label": "Bosque Field Technician — riparian restoration, invasive control & vegetation monitoring, year-round (City of Albuquerque Open Space)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118613",
+        "label": "🔗 Bosque Field Technician — riparian restoration, invasive control & vegetation monitoring, year-round (City of Albuquerque Open Space)"
+      }
+    ],
+    "metaLine": "Albuquerque NM · year-round, up to 40 hrs · restoration monitoring · no experience required",
+    "body": "A year-round field technician position working alongside City of Albuquerque Open Space Division staff in the Rio Grande bosque, up to 40 hours per week. Restoration and recreation duties include managing invasive plants such as ravenna grass and kochia, planting and maintaining native trees and shrubs, performing vegetation surveys, restoration monitoring and data collection, and trail work supporting mixed-use recreation. Maintenance duties cover trash and graffiti removal, trailhead signage, and care of shared vehicles, equipment and tools. Public outreach includes interfacing with visitors on rules, trail etiquette and events. Published pay is $14.71 per hour; a high school diploma is the stated education requirement and no experience is required. Applications close October 1 2026.",
+    "desc": "The wage is the weak part and everything else is strong. Year-round is the word to fix on — this is not a summer crew, so you would be doing restoration monitoring through a full seasonal cycle and watching what the plantings actually do, which almost no entry position lets you see. The bosque is a riparian cottonwood gallery forest on the Rio Grande, so the vegetation surveys and restoration monitoring here are directly the riparian and wetland work you are aiming at, and invasive management on ravenna and kochia is a transferable, marketable competency. At $14.71 an hour you would need to be honest with yourself about Albuquerque's cost of living, and the posting mixes in trash pickup and signage, which is real. Weigh it as a year of continuous restoration practice in a western riparian system rather than as a salary.",
+    "pills": [
+      "YEAR-ROUND, not a field season",
+      "Vegetation surveys & restoration monitoring",
+      "Native planting + invasive control",
+      "Experience required: none"
+    ],
+    "start": "After September 7, 2026",
+    "relocation": "tight",
+    "deadline_date": "2026-10-01"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 7, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-1304",
+    "title": "New England Cottontail Winter Field Technician — live-trapping, collaring & vegetation surveys, HOUSING AND VEHICLE PROVIDED (SUNY ESF)",
+    "org": "SUNY College of Environmental Science and Forestry · with NY Dept. of Environmental Conservation · Putnam & Dutchess Counties, NY",
+    "location": "Putnam and Dutchess Counties, New York",
+    "deadline": "September 23, 2026",
+    "badge": "Top recommendation",
+    "pay": "$18.00 per hour starting (published)",
+    "stipend": "",
+    "benefits": "HOUSING PROVIDED · field vehicle provided · works in partnership with NY DEC",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118617",
+    "url_label": "New England Cottontail Winter Field Technician — live-trapping, collaring & vegetation surveys, HOUSING AND VEHICLE PROVIDED (SUNY ESF)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118617",
+        "label": "🔗 New England Cottontail Winter Field Technician — live-trapping, collaring & vegetation surveys, HOUSING AND VEHICLE PROVIDED (SUNY ESF)"
+      }
+    ],
+    "metaLine": "Hudson Valley NY · $18/hr · HOUSING + field vehicle provided · live-trapping & telemetry",
+    "body": "SUNY College of Environmental Science and Forestry is hiring two field technicians for a study helping the New York Department of Environmental Conservation determine New England cottontail abundance in New York. The work collects data on cottontail demographics, predation and the impacts of habitat management on populations; in the second half of the season the crew aids a master's student determining fine-scale cottontail movements and developing a novel nest-finding technique. Duties include daily travel to field sites for vegetation and pellet surveys, trapping, handling, collaring and tracking cottontails, and pellet collection and data organisation, across Putnam and Dutchess counties. A field vehicle and housing are provided. Pay starts at $18.00 per hour; start date December 1 2026; applications close September 23 2026.",
+    "desc": "This is the closest match to your documented skills that appeared anywhere this week. Small-mammal live-trapping is on your CV as a technique you have actually performed, and here it is as the core duty, paired with vegetation surveys, which is the other half of what you already do. Housing and a field vehicle are provided, which removes the two costs that make an $18-an-hour field job unaffordable and effectively raises the real wage well above the number. Two further things earn it the top slot: you would be working directly with NY DEC, the agency whose postings you have already saved and missed once, and you would be supporting a master's student's thesis, which puts you next to exactly the kind of project you are trying to be admitted into. Winter cottontail work in the Hudson Valley is cold and the season is short. Apply by September 23.",
+    "pills": [
+      "HOUSING AND FIELD VEHICLE PROVIDED",
+      "Live-trapping — your exact documented skill",
+      "Vegetation surveys alongside the trapping",
+      "Works with NY DEC and a master's student"
+    ],
+    "start": "December 1, 2026",
+    "relocation": "housed",
+    "deadline_date": "2026-09-23"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 7, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-1305",
+    "title": "Quantitative Ecologist (Data Analyst III) — freshwater inflows to bays & estuaries, hydro-ecological modelling (Texas Water Development Board)",
+    "org": "Texas Water Development Board · Coastal Science Program · Surface Water Division · Austin, TX",
+    "location": "1700 N. Colorado Street, Austin, Texas (hybrid — 24 hrs/week in office)",
+    "deadline": "September 17, 2026",
+    "badge": "Reach",
+    "pay": "$4,801.16 to $6,622.85 per month (published range)",
+    "stipend": "",
+    "benefits": "Texas state employee benefits; hybrid schedule (24 hrs/week in the downtown Austin office)",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118610",
+    "url_label": "Quantitative Ecologist (Data Analyst III) — freshwater inflows to bays & estuaries, hydro-ecological modelling (Texas Water Development Board)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118610",
+        "label": "🔗 Quantitative Ecologist (Data Analyst III) — freshwater inflows to bays & estuaries, hydro-ecological modelling (Texas Water Development Board)"
+      }
+    ],
+    "metaLine": "Austin TX · $4,801–$6,623/mo · hybrid · freshwater inflow modelling · 2 yrs experience listed",
+    "body": "The Texas Water Development Board's Coastal Science Program is hiring a full-time ecologist (posting TWDB 26-135) to model the ecological impacts of freshwater inflows on the bays and estuaries of the Texas Gulf coast. The schedule is hybrid, requiring 24 hours per week at the TWDB offices in downtown Austin. The work is moderately complex journey-level ecological data analysis and modelling for the Surface Water Division: developing, maintaining and applying statistical and ecological models supporting freshwater inflow needs, environmental impact analysis, water resources planning and oil spill response; implementing quantitative methods for hydro-ecological modelling; and providing technical support for the planning, execution and summary of scientific and engineering field studies. Published pay is $4,801.16 to $6,622.85 per month. A bachelor's degree and at least two years of experience are listed. Applications close September 17 2026.",
+    "desc": "Flagged as a reach, deliberately. The two-year experience requirement and the journey-level framing mean you would be applying under the bar, and you should expect that. It is listed anyway because of what the job is: freshwater inflow modelling is water-quantity and water-quality science joined together, on a state salary with a hybrid schedule, at an agency that is a serious career destination rather than a stepping stone. If you apply, do not lead with the wetland delineation. Lead with the quantitative half of your record — the multi-criteria suitability modelling in GIS, and the analytical rigour of the Pigeon River trace-metal work — because the thing being bought here is modelling capability. The realistic outcome is that this teaches you what the state wants, and you land the next one. September 17 is a short window.",
+    "pills": [
+      "State salary band, hybrid schedule",
+      "Freshwater inflow & estuary modelling",
+      "Two years' experience listed — this is the stretch",
+      "Oil spill response work included"
+    ],
+    "start": "Between October 1 and December 31, 2026",
+    "relocation": "lead",
+    "deadline_date": "2026-09-17"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 7, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1306",
+    "title": "Graduate Assistantship in Conservation Sciences — funded PhD, white-tailed deer health & disease ecology with the Fond du Lac Band (University of Minnesota)",
+    "org": "University of Minnesota · Conservation Sciences · with Bemidji State University and the Fond du Lac Band of Lake Superior Chippewa · Saint Paul, MN",
+    "location": "University of Minnesota, Saint Paul, Minnesota (field work in the 1854 Ceded Territory, northern Minnesota)",
+    "deadline": "November 30, 2026",
+    "badge": "Good fit",
+    "pay": "",
+    "stipend": "Up to $30,300 per year (published)",
+    "benefits": "Assistantship support up to $30,300/yr — confirm tuition remission and health coverage directly with the programme before committing",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118600",
+    "url_label": "Graduate Assistantship in Conservation Sciences — funded PhD, white-tailed deer health & disease ecology with the Fond du Lac Band (University of Minnesota)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118600",
+        "label": "🔗 Graduate Assistantship in Conservation Sciences — funded PhD, white-tailed deer health & disease ecology with the Fond du Lac Band (University of Minnesota)"
+      }
+    ],
+    "metaLine": "Saint Paul MN · up to $30,300/yr · PhD entering with a BS · applications close Nov 30",
+    "body": "The University of Minnesota is seeking a student to pursue a PhD project advancing the study of white-tailed deer health and disease ecology, in partnership with Bemidji State University and the Fond du Lac Band of Lake Superior Chippewa. Waawaashkeshi (white-tailed deer) are of social, cultural and economic importance to the FDL Band and to non-tribal members in the region; the Fond du Lac Reservation and surrounding 1854 Ceded Territory are broadly representative of the habitats, ecosystems and deer hunting culture of much of northern Minnesota, and the area is proposed for elk reintroduction. The research focuses on deer population health dynamics and their association with deer management and survival, with health data feeding a disease risk analysis. Published support is up to $30,300 per year; the stated education requirement is a bachelor's degree, with no prior experience required. Start is early September 2027 and applications close November 30 2026.",
+    "desc": "This is a PhD rather than the master's you are aiming for, and it is on the list for one specific reason: the education requirement is stated as a bachelor's, which means direct-entry from a BS is accepted here rather than assumed away. Read that as an option, not a redirection. The published figure of up to $30,300 is at the high end of what North American assistantships pay, and the project is a genuine tribal co-management partnership, which is meaningful experience that federal hiring panels at USFWS and USDA weigh heavily. The timeline is the gentlest on the site: applications close at the end of November for a start twelve months later, so you would have a full year to arrange the move. If you would rather hold out for an MS, use this posting anyway as a template for what a well-funded offer looks like when you evaluate the others.",
+    "pills": [
+      "Education required: BACHELORS — BS entry accepted",
+      "Up to $30,300/yr published",
+      "Tribal co-management partnership",
+      "Starts autumn 2027 — a full year of runway"
+    ],
+    "start": "Between September 1 and September 7, 2027",
+    "relocation": "lead",
+    "deadline_date": "2026-11-30"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 7, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-1307",
+    "title": "Habitat Restoration Technician — water quality, wildlife habitat & forest health projects on working lands (Back Forty Land Management)",
+    "org": "Back Forty Land Management LLC · Troy, ID (Palouse region)",
+    "location": "Troy, Idaho",
+    "deadline": "September 18, 2026",
+    "badge": "Strong fit",
+    "pay": "$18 to $25 per hour (published range)",
+    "stipend": "",
+    "benefits": "Seasonal, full-time or part-time options; broad cross-project field skill development",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118586",
+    "url_label": "Habitat Restoration Technician — water quality, wildlife habitat & forest health projects on working lands (Back Forty Land Management)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118586",
+        "label": "🔗 Habitat Restoration Technician — water quality, wildlife habitat & forest health projects on working lands (Back Forty Land Management)"
+      }
+    ],
+    "metaLine": "Troy ID · $18–$25/hr · water quality + habitat restoration · no degree or experience required",
+    "body": "Back Forty Land Management is a conservation-focused organisation near Troy, Idaho, restoring healthy ecosystems and improving the resilience of working lands across the region. It partners with private landowners, local communities, conservation organisations and government agencies to implement practical, science-based restoration projects improving water quality, wildlife habitat, forest health and ecosystem function. The posting notes the work is diverse and hands-on and that no two projects are alike, giving the opportunity to develop a broad range of technical field skills. The Habitat Restoration Technician role is offered as seasonal, full-time or part-time at 40–60 hours per week. Published pay is $18 to $25 per hour, with no degree and no prior experience required. Applications close September 18 2026.",
+    "desc": "Private-lands restoration is an underrated route and this posting is a clean example of it. The four outcomes the company names — water quality, wildlife habitat, forest health, ecosystem function — are your four interests written in an employer's words, and the published band tops out at $25 an hour with no degree required at all, which means your BS puts you at the upper end of the band rather than the lower. The variety is genuine value early on: working across many landowners and project types in one season builds a wider practical skill set than a single agency crew doing one task. Two things to weigh. Hours run 40 to 60, so this is physically demanding work, and Troy is a small Palouse town near Moscow, Idaho, so the move is real. The deadline is September 18 and the start follows ten days later, so decide quickly.",
+    "pills": [
+      "Names water quality as a project outcome",
+      "No degree and no experience required",
+      "$18–$25/hr — banded, so negotiable",
+      "Seasonal, full-time or part-time available"
+    ],
+    "start": "After September 28, 2026",
+    "relocation": "tight",
+    "deadline_date": "2026-09-18"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 7, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-1308",
+    "title": "Entry-Level Field Biologist — rare plant, weed, migratory bird, desert tortoise and WETLAND surveys with a GIS growth path (BEC Environmental)",
+    "org": "BEC Environmental, Inc. · Las Vegas, NV",
+    "location": "Las Vegas, Nevada",
+    "deadline": "October 31, 2026",
+    "badge": "Top recommendation",
+    "pay": "$21.00 per hour starting (published)",
+    "stipend": "",
+    "benefits": "30–40 hrs/week; explicit career-development path into GIS, impact evaluation and technical report writing",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118585",
+    "url_label": "Entry-Level Field Biologist — rare plant, weed, migratory bird, desert tortoise and WETLAND surveys with a GIS growth path (BEC Environmental)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118585",
+        "label": "🔗 Entry-Level Field Biologist — rare plant, weed, migratory bird, desert tortoise and WETLAND surveys with a GIS growth path (BEC Environmental)"
+      }
+    ],
+    "metaLine": "Las Vegas NV · $21/hr · says RECENT GRADUATES outright · wetlands + GIS + report writing",
+    "body": "BEC Environmental is seeking recent graduates with an interest in biology, botany or ecology who want to expand those skills through a variety of biological field work, including presence/absence, clearance and inventory surveys for a range of taxa. The position may also include the opportunity to develop or expand skills in GIS, impact evaluations, data management and biological report writing, depending on project needs and personal career goals. Responsibilities may include surveys for rare and protected plants, non-native and noxious weeds, migratory birds, desert tortoises, wetlands and other habitats and natural resources, plus implementing mitigation and monitoring compliance for construction projects, collecting and managing data, and developing biological resource reports and other environmental documents under supervision. Published pay starts at $21.00 per hour at 30–40 hours per week, with a bachelor's degree required and no prior experience. Applications close October 31 2026.",
+    "desc": "Very few postings say the quiet part out loud; this one opens by saying it is seeking recent graduates, requires no experience, and then lists wetlands and GIS among the actual duties. That combination is what you have been screening for. The consulting route is worth understanding on its own terms: it is the fastest way to accumulate documented survey hours across many taxa and many project types, and it is where the wetland delineation credential converts into billable work rather than staying a line on a CV. The posting also names report writing and environmental document preparation as things you would learn under supervision, which is the skill that separates a field technician from a project biologist. Las Vegas is the trade-off, and desert ecology is a long way from the southern Appalachians. The window is open until October 31, which is unusually generous.",
+    "pills": [
+      "Posting says it seeks recent graduates",
+      "Wetland surveys named explicitly",
+      "GIS growth stated as part of the role",
+      "Experience required: NONE"
+    ],
+    "start": "After October 1, 2026",
+    "relocation": "lead",
+    "deadline_date": "2026-10-31"
   }
 ]
