@@ -56401,5 +56401,424 @@
     "start": "After October 1, 2026",
     "relocation": "lead",
     "deadline_date": "2026-10-31"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 7, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-1309",
+    "title": "M.S. Assistantship in Turtle Movement Ecology — telemetry & spatial habitat analysis, $35,000/yr with tuition and health (University of Vermont)",
+    "org": "University of Vermont · Rubenstein School of Environment and Natural Resources · Burlington, VT",
+    "location": "Burlington, Vermont",
+    "deadline": "September 15, 2026",
+    "badge": "Top recommendation",
+    "pay": "",
+    "stipend": "$35,000 per year, two years, split GRA/GTA (published)",
+    "benefits": "Tuition waiver · health insurance · two-year split research/teaching assistantship · start January or June 2027",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118526",
+    "url_label": "M.S. Assistantship in Turtle Movement Ecology — telemetry & spatial habitat analysis, $35,000/yr with tuition and health (University of Vermont)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118526",
+        "label": "🔗 M.S. Assistantship in Turtle Movement Ecology — telemetry & spatial habitat analysis, $35,000/yr with tuition and health (University of Vermont)"
+      }
+    ],
+    "metaLine": "Burlington VT · $35,000/yr + tuition waiver + health insurance · closes Sept 15",
+    "body": "Two years of combined research and teaching assistantship support at the University of Vermont's Rubenstein School of Environment and Natural Resources, studying turtle movement ecology in Vermont. The work includes telemetry-based field tracking and spatial analysis of habitat use. Published support is $35,000 per year plus a tuition waiver and health insurance, structured as a split GRA/GTA across two years. The position begins in January or June 2027; applications close September 15 2026.",
+    "desc": "On money alone this is one of the two or three best-funded master's offers on the whole site, and unlike most it states all three components outright — stipend, tuition waiver, health insurance — so there is nothing left to negotiate or discover late. The science suits you: freshwater turtles are wetland and riparian animals, so movement ecology here means telemetry across exactly the habitats you already survey, and the spatial analysis half is your GIS work applied to animal locations rather than site suitability. The GTA component is worth taking seriously as a benefit rather than a cost, because teaching experience is what separates candidates when you later apply for extension or agency outreach roles. The catch is the date: applications close September 15, which is about a week away, so this is the one to move on before anything else on this page.",
+    "pills": [
+      "$35,000/yr — near the top of the national range",
+      "Tuition waiver AND health insurance stated",
+      "Telemetry + spatial analysis of habitat use",
+      "Two start options: January or June 2027"
+    ],
+    "start": "January or June 2027",
+    "relocation": "lead",
+    "deadline_date": "2026-09-15"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 7, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Southwest",
+    "id": "item-1310",
+    "title": "MS Graduate Research Assistantship — Eucha–Spavinaw watershed assessment: WETLAND MAPPING, watershed GIS and sediment/water sampling in one project (Oklahoma State University)",
+    "org": "Oklahoma State University · Environmental Science Graduate Program · Ferguson College of Agriculture · Stillwater, OK",
+    "location": "Stillwater, Oklahoma (fieldwork in the Eucha–Spavinaw Watershed, NE Oklahoma / NW Arkansas)",
+    "deadline": "Rolling — open until filled",
+    "badge": "Top recommendation",
+    "pay": "",
+    "stipend": "Stipend, health insurance and a tuition waiver are all stated in the announcement, but no dollar figure is published — ask Dr. Hickman for the amount before applying",
+    "benefits": "Tuition waiver and health insurance stated in the announcement; stipend amount unpublished — confirm directly",
+    "url": "https://ucowr.org/wp-content/uploads/2026/03/OSU-ENVR-GRA-Announcement-Eucha-Spavinaw.pdf",
+    "url_label": "MS Graduate Research Assistantship — Eucha–Spavinaw watershed assessment: WETLAND MAPPING, watershed GIS and sediment/water sampling in one project (Oklahoma State University)",
+    "links": [
+      {
+        "href": "https://ucowr.org/wp-content/uploads/2026/03/OSU-ENVR-GRA-Announcement-Eucha-Spavinaw.pdf",
+        "label": "🔗 MS Graduate Research Assistantship — Eucha–Spavinaw watershed assessment: WETLAND MAPPING, watershed GIS and sediment/water sampling in one project (Oklahoma State University)"
+      }
+    ],
+    "metaLine": "Stillwater OK · wetland mapping + watershed GIS + sediment & water sampling · open until filled",
+    "body": "An MS assistantship with Dr. Karen R. Hickman supporting watershed management research in the Eucha–Spavinaw Watershed, the drinking-water source for northeast Oklahoma and northwest Arkansas. Tasks include field verification of watershed boundaries and access points, parcel-level field surveys, compilation of geospatial datasets covering land use/land cover, wetlands and vegetative cover, and the collection and analysis of sediment and water samples. The announcement states a stipend, health insurance and a tuition waiver but does not publish the stipend amount. Review began March 27 2026 and the position is open until filled.",
+    "desc": "Of everything found this week, this is the posting whose task list reads most like your own CV. Watershed boundary delineation, parcel-scale field survey, compiling land-cover and wetland geospatial layers, and collecting and analysing sediment and water samples — that is the Pigeon River capstone plus the GIS suitability work plus the Army Corps wetland training, assembled into one funded thesis. It is also applied rather than academic: this is a municipal drinking-water source, so the findings go to managers, which is the kind of project that reads well to a federal hiring panel later. Two practical notes. The stipend figure is not published, so email Dr. Hickman and ask for the number before you invest in an application — the announcement does confirm tuition and health coverage. And because review began in March and the post is still open, apply promptly rather than assuming an open-ended window.",
+    "pills": [
+      "Wetland + GIS + sediment sampling in ONE project",
+      "Drinking-water source watershed",
+      "Tuition waiver and health insurance stated",
+      "Rolling — no deadline pressure"
+    ],
+    "start": "Review began March 27, 2026; open until filled",
+    "relocation": "lead"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 7, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1311",
+    "title": "MSc / PhD Assistantship — White-tailed deer vigilance & species co-occurrence at burned sites, CAMERA-TRAP ARRAYS (Mississippi State University)",
+    "org": "Mississippi State University · Mississippi State, MS",
+    "location": "Mississippi State, Mississippi",
+    "deadline": "September 25, 2026 (open until filled)",
+    "badge": "Strong fit",
+    "pay": "",
+    "stipend": "$20,000 per year at MSc level, plus benefits and a tuition waiver (published)",
+    "benefits": "Tuition waiver plus benefits; camera-trap and prescribed-fire field experience; negotiable start date",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118421",
+    "url_label": "MSc / PhD Assistantship — White-tailed deer vigilance & species co-occurrence at burned sites, CAMERA-TRAP ARRAYS (Mississippi State University)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118421",
+        "label": "🔗 MSc / PhD Assistantship — White-tailed deer vigilance & species co-occurrence at burned sites, CAMERA-TRAP ARRAYS (Mississippi State University)"
+      }
+    ],
+    "metaLine": "Mississippi State MS · $20,000/yr + tuition waiver · camera-trap co-occurrence analysis",
+    "body": "An MSc assistantship at Mississippi State University comparing vigilance rates of white-tailed deer and co-occurrence with other species at recently burned sites, using camera-trap arrays and fire-treatment comparisons. Published support is $20,000 per year at the MSc level plus benefits and a tuition waiver. The nominal deadline is September 25 2026 but the position remains open until filled; the start date is January 4 2027 and is negotiable.",
+    "desc": "Camera-trap monitoring is a named skill on your CV and this project is built entirely on it — array deployment, image processing, and the co-occurrence analysis that turns detections into an ecological result. That means you would arrive already able to do the core method, which is unusual and is the single strongest thing you can say in a cover letter to an advisor. The fire angle is a bonus with a practical payoff: prescribed-burn experience keeps appearing as a gate on the restoration jobs you have been saving, and a thesis built around burned sites puts you next to burn crews for two years. The stipend at $20,000 is modest against the $30,000-plus offers elsewhere on this list, though the tuition waiver and benefits are stated. Being open until filled with a negotiable start makes this a lower-pressure application than the September deadlines above it.",
+    "pills": [
+      "Camera-trap arrays — your documented method",
+      "Fire-treatment comparison built in",
+      "Tuition waiver plus benefits published",
+      "Open until filled, start negotiable"
+    ],
+    "start": "January 4, 2027 (negotiable)",
+    "relocation": "lead",
+    "deadline_date": "2026-09-25"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 7, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-1312",
+    "title": "Graduate Position — Colorado talus bat roost monitoring, white-nose syndrome surveillance with CPW (University of Wyoming, Bernard Research Lab)",
+    "org": "University of Wyoming · Bernard Research Lab · with Colorado Parks and Wildlife · Laramie, WY",
+    "location": "Laramie, Wyoming (fieldwork in Colorado talus fields)",
+    "deadline": "October 23, 2026",
+    "badge": "Good fit",
+    "pay": "",
+    "stipend": "Up to $2,300 per month plus tuition, fees and insurance (published)",
+    "benefits": "Tuition, fees and insurance covered alongside the stipend; direct collaboration with Colorado Parks and Wildlife and federal partners",
+    "url": "https://sites.google.com/view/drrfb/home",
+    "url_label": "Graduate Position — Colorado talus bat roost monitoring, white-nose syndrome surveillance with CPW (University of Wyoming, Bernard Research Lab)",
+    "links": [
+      {
+        "href": "https://sites.google.com/view/drrfb/home",
+        "label": "🔗 Graduate Position — Colorado talus bat roost monitoring, white-nose syndrome surveillance with CPW (University of Wyoming, Bernard Research Lab)"
+      }
+    ],
+    "metaLine": "Laramie WY · up to $2,300/mo + tuition, fees & insurance · state-agency funded",
+    "body": "A Colorado Parks and Wildlife-funded graduate position at the University of Wyoming evaluating the likelihood of talus roost sites for monitoring western bat assemblages affected by white-nose syndrome. The work includes hiking remote talus fields, hand-capturing bats, collecting guano and swabbing for fungal DNA, working with state and federal collaborators. Published support is up to $2,300 per month plus tuition, fees and insurance. A bachelor's degree is the stated education requirement. The position starts January 19 2027 for spring admission; applications close October 23 2026.",
+    "desc": "The funding line here is unusually complete — stipend plus tuition plus fees plus insurance, all four named — which removes the hidden costs that quietly erode a nominally funded offer. It is also state-agency funded rather than grant funded, meaning the research question comes from managers who need an answer, and you would be collaborating with Colorado Parks and Wildlife and federal partners throughout. That network is worth as much as the degree when you later apply to USFWS. The honest caveat is the fieldwork: hiking remote talus slopes and hand-capturing bats is physically hard, exposed work, and white-nose surveillance means strict decontamination discipline. Your AmeriCorps NCCC term is the evidence that you can do sustained hard field days, and it is worth naming explicitly in the application. Bats are outside your current taxa, so lead instead with survey design, data handling and field endurance.",
+    "pills": [
+      "Tuition, fees AND insurance all covered",
+      "Funded by Colorado Parks and Wildlife",
+      "Bachelor's is the stated education requirement",
+      "Physically demanding remote talus fieldwork"
+    ],
+    "start": "January 19, 2027 (spring admission)",
+    "relocation": "lead",
+    "deadline_date": "2026-10-23"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 7, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1313",
+    "title": "MS Position — freshwater mussels, Great Lakes & Southeastern US, with USDA Forest Service R&D (University of Georgia, Wares Lab) — PRE-APPLICATION due Oct 1",
+    "org": "University of Georgia · Odum School of Ecology · Wares Lab · in partnership with USDA Forest Service R&D · Athens, GA",
+    "location": "Athens, Georgia",
+    "deadline": "October 1, 2026 (pre-application) — notification by October 16, 2026",
+    "badge": "Good fit",
+    "pay": "",
+    "stipend": "Not published — the announcement gives no stipend or tuition terms. Ask before investing in a full application.",
+    "benefits": "USDA Forest Service R&D partnership; low-cost pre-application with a two-week decision — funding terms unpublished",
+    "url": "http://www.wareslab.net",
+    "url_label": "MS Position — freshwater mussels, Great Lakes & Southeastern US, with USDA Forest Service R&D (University of Georgia, Wares Lab) — PRE-APPLICATION due Oct 1",
+    "links": [
+      {
+        "href": "http://www.wareslab.net",
+        "label": "🔗 MS Position — freshwater mussels, Great Lakes & Southeastern US, with USDA Forest Service R&D (University of Georgia, Wares Lab) — PRE-APPLICATION due Oct 1"
+      }
+    ],
+    "metaLine": "Athens GA · USDA Forest Service partnership · short cover-letter + CV pre-application",
+    "body": "An MS position in Dr. John Wares' group at the University of Georgia's Odum School of Ecology, focused on freshwater mussels in the Great Lakes region, possibly with comparative work on mussels and habitats in the southeastern US. The project scope will be partly defined by the funding source and region. A pre-application consisting of a cover letter and CV is required by October 1 2026, with notification by October 16 2026. The announcement does not publish stipend or tuition terms.",
+    "desc": "The pre-application format is the reason to act on this one early: a cover letter and a CV, with an answer inside two weeks. That is a very small investment for a fast read on whether a top-tier ecology school is interested in you, and the Odum School is genuinely top-tier. Freshwater mussels are also a smart specialism to hold — they are the most imperilled group of animals in North America, they are filter feeders whose condition indexes water quality directly, and the USDA Forest Service partnership means federal money and federal contacts. The gap is that nothing about the funding is published, so treat the pre-application as an enquiry rather than a commitment and put the stipend and tuition question in your first email. Note also that the pre-application deadline arrives before your CV currently exists, which makes this a concrete reason to finish that document this week.",
+    "pills": [
+      "Pre-application is only a cover letter and CV",
+      "Fast turnaround — notification by Oct 16",
+      "USDA Forest Service R&D partnership",
+      "⚠ No stipend or tuition figure published"
+    ],
+    "start": "Project scope partly defined by the funding source and region",
+    "relocation": "lead",
+    "deadline_date": "2026-10-01"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 7, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1314",
+    "title": "Graduate Research Assistantship — essential fish habitat for Spotted Seatrout, Lower Breton Sound: acoustic monitoring & OTOLITH MICROCHEMISTRY (LSU New Orleans)",
+    "org": "LSU New Orleans · Fish Morphology and Behavior Laboratory · Dept. of Biological Sciences · New Orleans, LA",
+    "location": "New Orleans, Louisiana (fieldwork in Lower Breton Sound)",
+    "deadline": "October 1, 2026 (review begins; may continue after)",
+    "badge": "Good fit",
+    "pay": "",
+    "stipend": "Not published — the announcement gives no stipend figure or tuition terms. Ask before applying.",
+    "benefits": "Two-year assistantship with possible teaching-assistantship extension; funding terms unpublished — confirm with Dr. Boyle",
+    "url": "https://www.lsuneworleans.edu/academics/cos/biology",
+    "url_label": "Graduate Research Assistantship — essential fish habitat for Spotted Seatrout, Lower Breton Sound: acoustic monitoring & OTOLITH MICROCHEMISTRY (LSU New Orleans)",
+    "links": [
+      {
+        "href": "https://www.lsuneworleans.edu/academics/cos/biology",
+        "label": "🔗 Graduate Research Assistantship — essential fish habitat for Spotted Seatrout, Lower Breton Sound: acoustic monitoring & OTOLITH MICROCHEMISTRY (LSU New Orleans)"
+      }
+    ],
+    "metaLine": "New Orleans LA · estuarine habitat + trace-element chemistry · review opens Oct 1",
+    "body": "A two-year graduate research assistantship with Dr. Kelly Boyle at LSU New Orleans examining essential fish habitat for Spotted Seatrout in Lower Breton Sound. The work involves biotic and abiotic sampling, passive acoustic monitoring and otolith microchemistry, with collaborators across biology and chemistry. Support beyond the initial two years may come from teaching assistantships. Admission is for Spring 2027. The announcement does not publish a stipend figure or tuition terms.",
+    "desc": "Otolith microchemistry is the reason this is on your list. It is trace-element analysis used to reconstruct where a fish has lived, and methodologically it is a close cousin of what you did with lead and trace metals in Pigeon River sediment — same instruments, same care about contamination, different question. That transfer is easy to argue in a cover letter and hard for most applicants to claim. Lower Breton Sound is also an estuary in the middle of Louisiana's coastal restoration programme, so the habitat question sits inside a live management debate. Passive acoustic monitoring adds a third technique to your toolkit. The weakness is the same one that recurs across advisor-first postings: no stipend and no tuition terms are stated, so this needs an email before an application, and you should ask specifically whether the two-year support is a full assistantship or partial.",
+    "pills": [
+      "Otolith microchemistry — trace elements again",
+      "Passive acoustic monitoring",
+      "Two years, with possible TA extension",
+      "⚠ No stipend figure published"
+    ],
+    "start": "Spring 2027 admission · two-year assistantship",
+    "relocation": "lead",
+    "deadline_date": "2026-10-01"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 7, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-1315",
+    "title": "M.S. or Ph.D. Graduate Teaching Assistantship — Sportfish Management, $24,000–$27,000 with FULL tuition waiver and subsidised health (Oklahoma State University)",
+    "org": "Oklahoma State University · Dept. of Natural Resource Ecology & Management · Stillwater, OK",
+    "location": "Stillwater, Oklahoma",
+    "deadline": "September 18, 2026",
+    "badge": "Good fit",
+    "pay": "",
+    "stipend": "$24,000–$27,000 per year depending on degree sought, plus a full tuition waiver and subsidised health insurance (published)",
+    "benefits": "FULL tuition waiver · subsidised health insurance · teaching experience in a natural resources department",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118583",
+    "url_label": "M.S. or Ph.D. Graduate Teaching Assistantship — Sportfish Management, $24,000–$27,000 with FULL tuition waiver and subsidised health (Oklahoma State University)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118583",
+        "label": "🔗 M.S. or Ph.D. Graduate Teaching Assistantship — Sportfish Management, $24,000–$27,000 with FULL tuition waiver and subsidised health (Oklahoma State University)"
+      }
+    ],
+    "metaLine": "Stillwater OK · $24k–$27k + FULL tuition waiver + health · closes Sept 18",
+    "body": "A graduate teaching assistantship in sportfish management in Oklahoma State University's Department of Natural Resource Ecology and Management, combining fisheries research with teaching duties in the department. Published support is $24,000 to $27,000 per year depending on the degree sought, plus a full tuition waiver and subsidised health insurance. The programme starts January 2027 for spring admission; applications close September 18 2026.",
+    "desc": "The funding statement here is clean in a way that most of this week's grad postings are not: a named stipend range, a full tuition waiver, and subsidised health insurance, all published rather than implied. That alone puts it ahead of several projects with more exciting science and vaguer money. Sportfish management is applied fisheries work aimed at agency needs, which fits the federal and state track you are building toward, and OSU's NREM department is a well-regarded natural resources programme rather than a general biology department. The teaching component is real work but it is also the credential that opens extension and outreach roles later. The main thing to weigh is fit of subject — this is fisheries rather than wetlands or water quality, so it would be a genuine change of direction. The September 18 deadline means deciding within about ten days.",
+    "pills": [
+      "Full tuition waiver stated outright",
+      "Subsidised health insurance",
+      "Teaching experience built in",
+      "Closes Sept 18 — act quickly"
+    ],
+    "start": "January 2027 (spring admission)",
+    "relocation": "lead",
+    "deadline_date": "2026-09-18"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 7, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1316",
+    "title": "M.S. or Ph.D. Graduate Research Assistantship — rangeland grazing ecology with GIS, drone & remote sensing explicitly wanted (Kansas State University, Agronomy)",
+    "org": "Kansas State University · Dept. of Agronomy · Dr. Colin Tobin · Manhattan, KS",
+    "location": "Manhattan, Kansas (Great Plains field sites)",
+    "deadline": "December 31, 2026",
+    "badge": "Good fit",
+    "pay": "",
+    "stipend": "The announcement states a competitive stipend but publishes no figure, and gives no explicit tuition line. Ask for both before applying.",
+    "benefits": "Flexible start date and a long application window; stipend and tuition terms unpublished — confirm both in first contact",
+    "url": "https://www.agronomy.k-state.edu/about/people/faculty/tobin-colin/",
+    "url_label": "M.S. or Ph.D. Graduate Research Assistantship — rangeland grazing ecology with GIS, drone & remote sensing explicitly wanted (Kansas State University, Agronomy)",
+    "links": [
+      {
+        "href": "https://www.agronomy.k-state.edu/about/people/faculty/tobin-colin/",
+        "label": "🔗 M.S. or Ph.D. Graduate Research Assistantship — rangeland grazing ecology with GIS, drone & remote sensing explicitly wanted (Kansas State University, Agronomy)"
+      }
+    ],
+    "metaLine": "Manhattan KS · GIS/drone/remote sensing called out as beneficial · flexible start",
+    "body": "An MS position with Dr. Colin Tobin in Kansas State University's Department of Agronomy on applied rangeland ecology and livestock grazing systems in the Great Plains. Topics span targeted grazing for invasive species management, fire–grazing interactions, precision livestock technologies including GPS collars, virtual fencing and remote sensing, and livestock–wildlife interactions. The announcement states a competitive stipend but publishes no figure and gives no explicit tuition line. The start date is negotiable, including January 2027; applications are accepted through December 31 2026.",
+    "desc": "Two features make this worth an email even though the funding is unstated. First, the posting explicitly names GIS, drone and remote-sensing experience as beneficial, which is unusual for an agronomy assistantship and means your strongest technical skills would be an asset rather than a nice-to-have. Second, the subject matter is working-lands conservation — the fire–grazing interaction is one of the central questions in Great Plains ecology, and it connects directly to the prescribed-fire experience you have been trying to acquire. Precision livestock technology, virtual fencing especially, is also a genuinely emerging area where early experience compounds. The clear weakness is money: no stipend figure and no tuition statement is the vaguest funding language on this week's list, so treat the first contact as a question about the package. The December 31 window and negotiable start give you room to ask properly.",
+    "pills": [
+      "GIS, drone and remote sensing named as assets",
+      "Fire–grazing interactions and wildlife",
+      "Virtual fencing and GPS collar technology",
+      "⚠ No stipend figure and no tuition line published"
+    ],
+    "start": "Negotiable, including January 2027",
+    "relocation": "lead",
+    "deadline_date": "2026-12-31"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 7, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1317",
+    "title": "Graduate Student Research — Octodon degus social organisation, NSF-supported with two field seasons in Chile (UT Chattanooga / Tennessee Tech)",
+    "org": "University of Tennessee at Chattanooga / Tennessee Technological University · Chattanooga and Cookeville, TN",
+    "location": "Chattanooga and Cookeville, Tennessee (two field seasons in Chile, May–November)",
+    "deadline": "September 30, 2026",
+    "badge": "Good fit",
+    "pay": "",
+    "stipend": "The announcement lists a stipend with tuition waiver, summer salary and round-trip flights, but does not publish the stipend amount. US citizens or permanent residents only.",
+    "benefits": "Tuition waiver, summer salary and round-trip flights to Chile stated; stipend amount unpublished — ask before applying",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118491",
+    "url_label": "Graduate Student Research — Octodon degus social organisation, NSF-supported with two field seasons in Chile (UT Chattanooga / Tennessee Tech)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118491",
+        "label": "🔗 Graduate Student Research — Octodon degus social organisation, NSF-supported with two field seasons in Chile (UT Chattanooga / Tennessee Tech)"
+      }
+    ],
+    "metaLine": "Chattanooga TN + Chile fieldwork · NSF-supported · geospatial interest explicitly sought",
+    "body": "Two NSF-supported graduate positions studying how climatic conditions influence the fitness consequences of spatiotemporal variation in social organisation in a wild rodent, Octodon degus, with two field seasons in Chile running May to November. Interest in the geospatial aspects of social behaviour is explicitly sought. The announcement lists a stipend with tuition waiver, summer salary and round-trip flights, but does not publish the stipend amount. The positions are restricted to US citizens or permanent residents; enrolment starts January or May 2027 and applications close September 30 2026.",
+    "desc": "Two things line up with your record more precisely than the unusual study species suggests. Degus are a burrowing rodent studied with trapping and marking, which is your small-mammal trapping skill directly, and the announcement goes out of its way to say it wants someone interested in the geospatial side of social behaviour, which is your GIS work pointed at animal locations. The package also includes summer salary and round-trip flights, which matters because unfunded field travel is how international projects quietly cost students money. Weigh the practical shape of it honestly: two field seasons of May to November in Chile is a long time abroad, Spanish would help, and the stipend figure is not published so it needs an email. The citizenship restriction is not an obstacle for you. Applications close September 30.",
+    "pills": [
+      "Geospatial aspects of behaviour explicitly wanted",
+      "Small-mammal field ecology",
+      "Round-trip flights and summer salary included",
+      "US citizens / permanent residents only"
+    ],
+    "start": "Enrolment January or May 2027",
+    "relocation": "lead",
+    "deadline_date": "2026-09-30"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 7, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Ontario",
+    "id": "item-1318",
+    "title": "MSc Position — Can-Peat: Canada's peatlands as nature-based climate solutions, wetland biogeochemistry + machine learning (University of Waterloo, Ecohydrology Research Group)",
+    "org": "University of Waterloo · Ecohydrology Research Group · Can-Peat national network · Waterloo, ON",
+    "location": "Waterloo, Ontario, Canada",
+    "deadline": "Rolling — open until filled",
+    "badge": "Strong fit",
+    "pay": "",
+    "stipend": "No stipend figure or tuition terms are published on the positions page — ask Dr. Rezanezhad or Dr. Van Cappellen directly.",
+    "benefits": "Part of the Can-Peat national research network; rolling intake — funding and international tuition terms unpublished, confirm first",
+    "url": "https://uwaterloo.ca/ecohydrology/positions-available",
+    "url_label": "MSc Position — Can-Peat: Canada's peatlands as nature-based climate solutions, wetland biogeochemistry + machine learning (University of Waterloo, Ecohydrology Research Group)",
+    "links": [
+      {
+        "href": "https://uwaterloo.ca/ecohydrology/positions-available",
+        "label": "🔗 MSc Position — Can-Peat: Canada's peatlands as nature-based climate solutions, wetland biogeochemistry + machine learning (University of Waterloo, Ecohydrology Research Group)"
+      }
+    ],
+    "metaLine": "Waterloo ON 🇨🇦 · peatland biogeochemistry + machine learning · rolling intake",
+    "body": "An MSc position in the University of Waterloo's Ecohydrology Research Group, supervised by Dr. Fereidoun Rezanezhad and Dr. Philippe Van Cappellen, assembling a national dataset of peatland physical, hydrological and biogeochemical properties and applying machine learning to identify environmental drivers and predict greenhouse gas emission rates under climate scenarios. The position is part of the Can-Peat national research network. Applications are reviewed continuously until the position is filled. No stipend figure or tuition terms are published on the positions page.",
+    "desc": "Peatlands are wetlands, and this project treats them the way you were trained to treat a site — physical properties, hydrology and biogeochemistry together — then scales that to a national dataset and asks a machine-learning model what drives emissions. It is the clearest example on this week's list of your two strengths being one job: wetland science on the input side, large spatial data analysis on the output side. Van Cappellen is a serious name in biogeochemistry and Can-Peat is a national network, so the collaborations here are broad. Two practical points for a Canadian application. Funding is not published, so the first email should ask for the stipend and whether international tuition is covered, because that differential is the single biggest cost risk for a US student in Canada. And the rolling intake means there is no deadline forcing your hand, which makes it a good one to open a conversation about now while you finish the September applications.",
+    "pills": [
+      "Peatlands = wetlands, at national scale",
+      "Machine learning on environmental drivers",
+      "Part of the Can-Peat national network",
+      "⚠ No funding figure published"
+    ],
+    "start": "Rolling — applications reviewed continuously until filled",
+    "relocation": "lead",
+    "country": "CA"
   }
 ]
