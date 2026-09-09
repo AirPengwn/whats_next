@@ -5396,16 +5396,18 @@
     "src_label": "Service & Fellowships",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — June 16, 2026"
+      "label": "🔁 Reopened — 2027 cohort, September 8, 2026"
     },
     "title": "Big Sky Watershed Corps Member — hydrology, GIS & watershed coordination",
     "org": "Montana Conservation Corps + MT watershed partners / AmeriCorps · Statewide Montana host sites",
-    "deadline": "2026 cohort closed — recruitment for the next term opens ~August 2026",
-    "start": "~Apr–Nov term (flexible starts)",
+    "deadline": "November 30, 2026",
+    "start": "January 4, 2027 (term runs to November 12, 2027 — 10.5 months)",
     "body": "AmeriCorps program placing members with Montana conservation districts, tribes, agencies, and watershed nonprofits for hydrologic field techniques, GIS, and watershed coordination. ~$1,200 biweekly, Segal Education Award, free health insurance. Bachelor's in natural resources preferred.",
     "desc": "Strong fit and an ideal grad-school/agency springboard combining hydrology fieldwork + GIS + watershed coordination — Erin clears the bachelor's-preferred profile cleanly. Timing: this cycle is closed, so set an August 2026 reminder to apply for the next term.",
     "badge": "Top recommendation",
     "pills": [
+      "🔁 2027 cohort OPEN — closes Nov 30",
+      "⚠ Confirm the age policy first",
       "Water quality",
       "GIS / remote sensing",
       "Hydrology",
@@ -5413,9 +5415,9 @@
       "Mountain West"
     ],
     "metaLine": "AmeriCorps · ~$1,200/biwk + ed award · next cycle opens Aug 2026",
-    "cycle": "next",
-    "deadline_kind": "unknown",
-    "deadline_date": "",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-11-30",
     "region": "Mountain West",
     "links": [
       {
@@ -5426,12 +5428,47 @@
     "sourceFindUrl": "https://www.mtcorps.org/joinmcc/individual-placement-programs/big-sky-watershed-corps.html",
     "id": "item-127",
     "location": "Statewide Montana host sites (conservation districts, tribes, agencies, watershed nonprofits)",
-    "pay": "~$1,200 biweekly living allowance",
-    "stipend": "Segal Education Award ~$7,395 on completion",
-    "benefits": "Free health insurance; hydrology/GIS/watershed field training",
+    "pay": "$1,200 biweekly living allowance for the 10.5-month term",
+    "stipend": "$7,395 AmeriCorps education award on successful completion",
+    "benefits": "Free health insurance · student-loan forbearance (qualified loans) · SNAP eligibility · 5 days vacation · training in hydrologic field techniques, GIS, grant writing and outreach",
     "url": "https://www.mtcorps.org/joinmcc/individual-placement-programs/big-sky-watershed-corps.html",
     "start_date": "2026-08-01",
-    "relocation": "tight"
+    "relocation": "tight",
+    "detail": [
+      {
+        "t": "h",
+        "v": "2027 cohort — verified 8 September 2026"
+      },
+      {
+        "t": "row",
+        "label": "Term",
+        "value": "4 January – 12 November 2027, 10.5 months, placed with a Montana watershed host agency (conservation districts, tribes, agencies, watershed non-profits)."
+      },
+      {
+        "t": "row",
+        "label": "Money",
+        "value": "$1,200 biweekly living allowance, free health insurance, student-loan forbearance, SNAP eligibility, and a $7,395 education award on completion — which would offset grad-school costs if the funded-MS route lands."
+      },
+      {
+        "t": "row",
+        "label": "What you would do",
+        "value": "Field data collection and environmental monitoring, data management and analysis, outreach to schools and landowners, volunteer recruitment, and watershed restoration projects. Training provided in hydrologic field techniques, GIS, grant writing and management, Montana agricultural management, and outreach."
+      },
+      {
+        "t": "row",
+        "label": "Why it matters",
+        "value": "At 10.5 months this is very nearly the \"one year of experience in applied environmental science\" that state and federal wetland roles keep demanding and that you cannot currently evidence."
+      },
+      {
+        "t": "h",
+        "v": "Check this BEFORE applying"
+      },
+      {
+        "t": "row",
+        "label": "Age policy is not published",
+        "value": "No age limit appears on the programme page or in the FAQ. AmeriCorps State and National programmes usually have no upper age limit — unlike NCCC, which caps at 26 — but this is exactly where a corps application has caught us out before. Email IPPrograms@mtcorps.org (406-587-4475 x102) and confirm before investing time."
+      }
+    ]
   },
   {
     "title": "Green Iowa AmeriCorps — Environmental Summer Steward",
