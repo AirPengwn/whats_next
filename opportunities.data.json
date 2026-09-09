@@ -59195,5 +59195,169 @@
     "start": "Permanent · see posting",
     "relocation": "lead",
     "deadline_date": "2026-09-13"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 8, 2026"
+    },
+    "cycle": "current",
+    "start": "September 2026",
+    "stipend": "",
+    "benefits": "Limited-term post through May 2028; continuation depends on grant funding",
+    "id": "item-1376",
+    "title": "Conservation Delivery Specialist — Rio Grande Joint Venture (stream + grassland restoration)",
+    "org": "American Bird Conservancy · Rio Grande Joint Venture · Alpine, Texas",
+    "location": "Alpine, Texas (Chihuahuan Desert)",
+    "region": "Southwest",
+    "deadline": "2026-09-11",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-11",
+    "pay": "$63,000–$70,000/yr (based on experience)",
+    "badge": "Top recommendation",
+    "pills": [
+      "⏰ CLOSES SEP 11 — 3 DAYS",
+      "Non-profit (ABC)",
+      "Stream restoration + mapping",
+      "Monitoring data + site assessments",
+      "$63k–$70k"
+    ],
+    "metaLine": "⭐ Closes Sep 11 · mapping, site assessments, stream restoration and monitoring — four things you can already evidence",
+    "body": "Limited-term position with American Bird Conservancy, a non-profit, working for the Rio Grande Joint Venture alongside the US Fish and Wildlife Service and Texas Parks and Wildlife. The role enhances wildlife habitat in the streams and uplands of the Chihuahuan Desert. Duties include outreach to landowners and partners; writing conservation implementation plans \"including mapping, site assessments, and project details\"; establishing, improving and maintaining grassland habitats and riparian zones; collecting monitoring data for grassland and stream restoration projects; implementing low-tech, process-based stream restoration — siting and laying out in-stream structures and supervising their construction; presenting findings to peers, the public and conservation groups; operating a work truck, trailer and UTV; and helping prepare permits. Term runs September 2026 to May 2028, funded by grants and partner commitments.",
+    "desc": "The strongest non-profit wildlife match found in this sweep. Four of the listed duties map directly onto things you can already evidence — mapping and site assessments (your multi-criteria GIS suitability work), collecting monitoring data, riparian and stream restoration, and writing it all up. Low-tech process-based stream restoration is a fast-growing specialism and good to have early. It is a term post to May 2028 rather than permanent and depends on continued grant funding, which is normal for joint-venture roles, but nearly two years is real experience and the salary is well above the entry-level conservation band. Alpine is remote west Texas — the same town as the Borderlands Research Institute already on your list. Deadline is Friday and applications are reviewed on a rolling basis, so this one is worth doing first.",
+    "links": [
+      {
+        "href": "https://ornithologyexchange.org/jobs/board/non-academic-positions/rio-grande-joint-venture-rgjv-conservation-delivery-specialist-r22982/",
+        "label": "🔗 Posting on Ornithology Exchange"
+      }
+    ],
+    "url": "https://ornithologyexchange.org/jobs/board/non-academic-positions/rio-grande-joint-venture-rgjv-conservation-delivery-specialist-r22982/",
+    "url_label": "Ornithology Exchange — American Bird Conservancy"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 8, 2026"
+    },
+    "cycle": "current",
+    "start": "",
+    "stipend": "",
+    "benefits": "",
+    "id": "item-1377",
+    "title": "Preserve Manager — Northern California (vernal pools, wetlands, listed species) — REOPENED",
+    "org": "Center for Natural Lands Management · Northern California",
+    "location": "Northern California",
+    "region": "West Coast / Pacific",
+    "deadline": "2026-09-16",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-09-16",
+    "pay": "Not published on this posting; the June 2026 cycle of this role listed $68,640–$78,640/yr",
+    "badge": "Strong fit",
+    "pills": [
+      "⏰ Closes Sep 16",
+      "Vernal pools + alkali wetlands",
+      "Non-profit",
+      "A live reopening of #0633"
+    ],
+    "metaLine": "🔁 The CNLM preserve manager role is OPEN AGAIN — the version on your list (#0112, #0633) had closed",
+    "body": "The preserve manager practises on-the-ground conservation of populations of rare and endangered species using science-based principles and adaptive management, taking a lead role in the stewardship of a portfolio of permanently protected preserves in northern California. The preserves range from about 60 to 1,400 acres and are characterised as annual and perennial grassland, vernal pools, seasonal and alkali wetlands, and riparian areas, supporting state and federally listed plants and vernal pool invertebrates. The post integrates planning, implementing, budgeting, reporting, analysing and interpreting, and contributes to CNLM’s documentation of best management practices. CNLM notes its structure \"focuses on preserve management rather than high levels of administration and supervision\". Requires a home office, for which CNLM pays a stipend; a company vehicle may be provided.",
+    "desc": "This is the same recurring role as #0112 and #0633 on your list, both of which had closed and were parked in the next-cycle bucket — it is open again with a 16 September deadline, found on the Land Trust Alliance board. Worth flagging because the wetland content is unusually close to your training: vernal pools, seasonal and alkali wetlands and riparian areas, with listed species management on top. CNLM explicitly says the job is preserve management rather than administration, so despite the \"manager\" title it is a doing role rather than a supervising one. The autonomy is high, which cuts both ways for a first professional post.",
+    "links": [
+      {
+        "href": "https://landtrustalliance.org/job-board/preserve-manager-northern-california-1787852766685",
+        "label": "🔗 Posting on the Land Trust Alliance job board"
+      }
+    ],
+    "url": "https://landtrustalliance.org/job-board/preserve-manager-northern-california-1787852766685",
+    "url_label": "Land Trust Alliance — Center for Natural Lands Management"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 8, 2026"
+    },
+    "cycle": "current",
+    "start": "",
+    "stipend": "",
+    "benefits": "",
+    "id": "item-1378",
+    "title": "Conservation & Recovery Specialist — avian and canid recovery programmes",
+    "org": "White Oak Conservation · St. Mary’s River, northeast Florida",
+    "location": "Northeast Florida (600-acre site within 22,000 acres)",
+    "region": "Southeast & Appalachia",
+    "deadline": "Rolling — no closing date given",
+    "deadline_kind": "rolling",
+    "pay": "Not published in the posting",
+    "badge": "Good fit",
+    "pills": [
+      "Non-profit",
+      "Florida grasshopper sparrow recovery",
+      "Prescribed burns + mist-netting",
+      "⚠ Heavy animal-husbandry core"
+    ],
+    "metaLine": "🐦 Endangered species recovery — but read the duty list, the day job is animal care",
+    "body": "White Oak Conservation runs conservation breeding and recovery programmes for over 30 imperilled species across 600 acres on the St. Mary’s River, surrounded by 22,000 acres of mixed forest and wetlands. The specialist post focuses on avian and canid recovery, with possible work on other taxa such as amphibians. Duties include daily animal care (diet preparation, feeding, cleaning, medicating, observing and training); animal restraint, incubation and hatching, transfers, introductions, operant conditioning, assisted reproduction in cranes and passerine mist-netting; assisting with area research projects; maintaining the surrounding areas for ecological health; assisting veterinary staff with procedures and sample collection; keeping Florida grasshopper sparrow breeding records; organising, preparing and conducting controlled burns and writing the burn plans and after-action reports; and maintaining wildlife records.",
+    "desc": "Genuinely rare experience — the Florida grasshopper sparrow is one of the most endangered birds in North America, and hands-on recovery work carries real weight on a CV. Parts of the job fit you well: mist-netting, research support, records, and especially the prescribed-burn work, since writing burn plans is a qualification in itself. Be clear-eyed about the rest, though: the core of the day is animal husbandry — feeding, cleaning, medicating, restraint, assisted reproduction — which is closer to zookeeping than to the field ecology you have trained for. Worth applying if captive recovery work appeals; if what you want is landscape-scale field science, the Rio Grande post is the better use of the same effort.",
+    "links": [
+      {
+        "href": "https://ornithologyexchange.org/jobs/board/non-academic-positions/conservation-and-recovery-specialist-r22943/",
+        "label": "🔗 Posting on Ornithology Exchange"
+      }
+    ],
+    "url": "https://ornithologyexchange.org/jobs/board/non-academic-positions/conservation-and-recovery-specialist-r22943/",
+    "url_label": "Ornithology Exchange — White Oak Conservation"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 8, 2026"
+    },
+    "cycle": "current",
+    "start": "",
+    "stipend": "",
+    "benefits": "",
+    "id": "item-1379",
+    "title": "Stewardship Specialist — conservation easement monitoring and enforcement",
+    "org": "Lancaster Farmland Trust · Strasburg, Pennsylvania",
+    "location": "Strasburg, Pennsylvania (Lancaster County)",
+    "region": "Northeast",
+    "deadline": "2026-10-31",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-10-31",
+    "pay": "Not published in the posting",
+    "badge": "Reach",
+    "pills": [
+      "Non-profit land trust",
+      "Full-time",
+      "⚠ Wants ag / easement / real-estate knowledge",
+      "Not field science"
+    ],
+    "metaLine": "⚠ A real non-profit stewardship job, but the asks are agriculture, easements and real estate — not your background",
+    "body": "Working with the land protection department at Lancaster Farmland Trust, the stewardship specialist establishes and maintains relationships, troubleshoots problems and acts as liaison with preserved farm owners, farmers, municipal officials, state and federal officials and other conservation organisations, in order to help maintain and enforce the Trust’s conservation easement portfolio. The posting states candidates \"should possess a working knowledge of the local agricultural industry, conservation easements, legal agreements and real estate\". Full-time, based in Strasburg, Pennsylvania; applications close 31 October.",
+    "desc": "Included for completeness rather than because it fits well — you should read the requirement line before spending time on it. Easement stewardship is genuine land-conservation work and does involve annual monitoring visits and mapping, so the skills are adjacent. But the four things this posting actually asks for are the local agricultural industry, conservation easements, legal agreements and real estate, and you have none of the four. It is a relationship-and-compliance role rather than a field-science one. Worth a look only if you would enjoy the land-protection and landowner side of conservation; otherwise skip it and put the time into the Rio Grande or CNLM applications.",
+    "links": [
+      {
+        "href": "https://landtrustalliance.org/job-board/stewardship-specialist-1788283430429",
+        "label": "🔗 Posting on the Land Trust Alliance job board"
+      }
+    ],
+    "url": "https://landtrustalliance.org/job-board/stewardship-specialist-1788283430429",
+    "url_label": "Land Trust Alliance — Lancaster Farmland Trust"
   }
 ]
