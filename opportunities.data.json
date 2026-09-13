@@ -15154,7 +15154,8 @@
     "benefits": "Full-time consulting position — confirm benefits with McMillen, LLC",
     "id": "item-336",
     "start_date": "2026-09-07",
-    "relocation": "tight"
+    "relocation": "tight",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -22887,7 +22888,7 @@
       "⚠️ Stipend not published"
     ],
     "metaLine": "Deadline Sep 11, 2026 · stipend not published · Amherst MA · remote allowed · ⚠️ MS listed",
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-09-11",
     "region": "Northeast",
@@ -24625,7 +24626,7 @@
       "⚠️ Stipend not published"
     ],
     "metaLine": "Deadline Sep 11, 2026 (rolling) · stipend not published · Urbana IL · USDA-ARS",
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-09-11",
     "region": "Midwest & Great Plains",
@@ -26712,7 +26713,7 @@
       "Apply to the leader tier first"
     ],
     "metaLine": "Deadline Sep 8, 2026 · $480 + $120/week · Old Fort NC · Helene recovery, entry tier",
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-09-08",
     "region": "Southeast & Appalachia",
@@ -27090,7 +27091,7 @@
       "⚠️ Stipend not published"
     ],
     "metaLine": "Deadline Sep 11, 2026 (rolling) · stipend not published · Research Triangle Park NC · PFAS fate",
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-09-11",
     "region": "Southeast & Appalachia",
@@ -29965,7 +29966,8 @@
     ],
     "housing_provided": true,
     "start_date": "2026-09-07",
-    "relocation": "housed"
+    "relocation": "housed",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -32689,7 +32691,7 @@
       "kind": "s-new",
       "label": "✨ New — August 3, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-09-08",
     "region": "Mountain West",
@@ -34755,7 +34757,7 @@
       "kind": "s-new",
       "label": "✨ New — August 3, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-09-11",
     "region": "Northeast",
@@ -34959,7 +34961,8 @@
       "Closes Sep 7"
     ],
     "start_date": "2026-09-07",
-    "relocation": "local"
+    "relocation": "local",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -36441,7 +36444,8 @@
       "Trinity River — already familiar"
     ],
     "start_date": "2026-09-12",
-    "relocation": "tight"
+    "relocation": "tight",
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -39742,7 +39746,7 @@
       "kind": "s-new",
       "label": "✨ New — August 17, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-09-11",
     "region": "Southwest",
@@ -41549,7 +41553,8 @@
       "⚠️ Apply via CalCareers directly"
     ],
     "start_date": "2026-09-11",
-    "relocation": "tight"
+    "relocation": "tight",
+    "expired": true
   },
   {
     "type": "Internship",
@@ -42234,7 +42239,8 @@
       "$18/hour, temporary"
     ],
     "start_date": "2026-09-07",
-    "relocation": "local"
+    "relocation": "local",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -42582,7 +42588,7 @@
       "kind": "s-new",
       "label": "✨ New — August 18, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "pay": "",
     "id": "item-982",
     "deadline_kind": "fixed",
@@ -42625,7 +42631,7 @@
       "kind": "s-new",
       "label": "✨ New — August 18, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "pay": "",
     "id": "item-983",
     "deadline_kind": "fixed",
@@ -43924,7 +43930,8 @@
     "deadline_date": "2026-09-07",
     "start": "Between September 15 and October 15, 2026",
     "start_date": "2026-10-15",
-    "relocation": "local"
+    "relocation": "local",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -44109,7 +44116,7 @@
       "kind": "s-new",
       "label": "✨ New — August 24, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-1015",
@@ -44152,7 +44159,7 @@
       "kind": "s-new",
       "label": "✨ New — August 24, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-1016",
@@ -44488,7 +44495,8 @@
     "deadline_date": "2026-09-07",
     "start": "After August 19, 2026",
     "start_date": "2026-08-19",
-    "relocation": "tight"
+    "relocation": "tight",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -44750,7 +44758,8 @@
     "deadline_date": "2026-09-12",
     "start": "Between August 24 and September 12, 2026",
     "start_date": "2026-09-12",
-    "relocation": "tight"
+    "relocation": "tight",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -45098,7 +45107,8 @@
     "deadline_date": "2026-09-08",
     "start": "After September 8, 2026",
     "start_date": "2026-09-08",
-    "relocation": "local"
+    "relocation": "local",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -45141,7 +45151,8 @@
     "deadline_date": "2026-09-08",
     "start": "After September 8, 2026",
     "start_date": "2026-09-08",
-    "relocation": "local"
+    "relocation": "local",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -45239,7 +45250,7 @@
       "kind": "s-new",
       "label": "✨ New — August 24, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "West Coast / Pacific",
     "id": "item-1041",
@@ -46990,7 +47001,8 @@
     "deadline_date": "2026-09-08",
     "start": "Federal onboarding after selection",
     "start_date": "2026-09-08",
-    "relocation": "local"
+    "relocation": "local",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -47341,7 +47353,8 @@
     "deadline_date": "2026-09-09",
     "start": "Federal onboarding after selection",
     "start_date": "2026-09-09",
-    "relocation": "tight"
+    "relocation": "tight",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -48115,7 +48128,7 @@
       "kind": "s-new",
       "label": "✨ New — August 24, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-1112",
@@ -48419,7 +48432,7 @@
       "kind": "s-new",
       "label": "✨ New — August 24, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Alaska, Hawaii & Territories",
     "id": "item-1119",
@@ -48661,7 +48674,8 @@
     "deadline_date": "2026-09-07",
     "start": "October 26, 2026 – April 23, 2027",
     "start_date": "2026-10-26",
-    "relocation": "lead"
+    "relocation": "lead",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -48747,7 +48761,8 @@
     "deadline_date": "2026-09-07",
     "start": "From autumn 2026",
     "start_date": "2026-09-07",
-    "relocation": "tight"
+    "relocation": "tight",
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -50260,7 +50275,8 @@
     "deadline_date": "2026-09-07",
     "start": "From autumn 2026",
     "start_date": "2026-09-07",
-    "relocation": "tight"
+    "relocation": "tight",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -50859,7 +50875,8 @@
     ],
     "start": "after 10/1/2026",
     "relocation": "lead",
-    "deadline_date": "2026-09-07"
+    "deadline_date": "2026-09-07",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -51112,7 +51129,8 @@
     ],
     "start": "between 10/1/2026 and 12/1/2026",
     "relocation": "lead",
-    "deadline_date": "2026-09-07"
+    "deadline_date": "2026-09-07",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -51408,7 +51426,8 @@
     ],
     "start": "after 10/13/2026",
     "relocation": "lead",
-    "deadline_date": "2026-09-11"
+    "deadline_date": "2026-09-11",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -51534,7 +51553,8 @@
     ],
     "start": "after 8/31/2026",
     "relocation": "lead",
-    "deadline_date": "2026-09-09"
+    "deadline_date": "2026-09-09",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -51576,7 +51596,8 @@
     ],
     "start": "between 10/12/2026 and 10/18/2026",
     "relocation": "lead",
-    "deadline_date": "2026-09-10"
+    "deadline_date": "2026-09-10",
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -51671,7 +51692,7 @@
       "kind": "s-new",
       "label": "✨ New — August 31, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-1195",
@@ -51997,7 +52018,8 @@
     ],
     "start": "after 9/30/2026",
     "relocation": "lead",
-    "deadline_date": "2026-09-11"
+    "deadline_date": "2026-09-11",
+    "expired": true
   },
   {
     "type": "Graduate Program",
@@ -52751,7 +52773,8 @@
     ],
     "start": "See posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-09"
+    "deadline_date": "2026-09-09",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -52836,7 +52859,8 @@
     ],
     "start": "See posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-09"
+    "deadline_date": "2026-09-09",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -53340,7 +53364,8 @@
     ],
     "start": "See posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-08"
+    "deadline_date": "2026-09-08",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -53464,7 +53489,8 @@
     ],
     "start": "See posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-08"
+    "deadline_date": "2026-09-08",
+    "expired": true
   },
   {
     "type": "Internship",
@@ -53548,7 +53574,8 @@
     ],
     "start": "See posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-11"
+    "deadline_date": "2026-09-11",
+    "expired": true
   },
   {
     "type": "Internship",
@@ -53802,7 +53829,8 @@
     ],
     "start": "See posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-08"
+    "deadline_date": "2026-09-08",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -54098,7 +54126,8 @@
     ],
     "start": "See posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-08"
+    "deadline_date": "2026-09-08",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -54140,7 +54169,8 @@
     ],
     "start": "See posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-07"
+    "deadline_date": "2026-09-07",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -54348,7 +54378,8 @@
     ],
     "start": "See posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-11"
+    "deadline_date": "2026-09-11",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -54390,7 +54421,8 @@
     ],
     "start": "See posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-07"
+    "deadline_date": "2026-09-07",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -54514,7 +54546,8 @@
     ],
     "start": "See posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-09"
+    "deadline_date": "2026-09-09",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -54556,7 +54589,8 @@
     ],
     "start": "See posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-10"
+    "deadline_date": "2026-09-10",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -55055,7 +55089,8 @@
     ],
     "start": "See posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-09"
+    "deadline_date": "2026-09-09",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -55555,7 +55590,8 @@
     ],
     "start": "See posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-09"
+    "deadline_date": "2026-09-09",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -55681,7 +55717,8 @@
     ],
     "start": "See posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-09"
+    "deadline_date": "2026-09-09",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -55723,7 +55760,8 @@
     ],
     "start": "See posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-07"
+    "deadline_date": "2026-09-07",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -55765,7 +55803,8 @@
     ],
     "start": "See posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-09"
+    "deadline_date": "2026-09-09",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -55807,7 +55846,8 @@
     ],
     "start": "See posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-09"
+    "deadline_date": "2026-09-09",
+    "expired": true
   },
   {
     "type": "Internship",
@@ -55890,7 +55930,8 @@
     ],
     "start": "See posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-07"
+    "deadline_date": "2026-09-07",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -56897,7 +56938,8 @@
     ],
     "start": "See announcement",
     "relocation": "lead",
-    "deadline_date": "2026-09-11"
+    "deadline_date": "2026-09-11",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -56981,7 +57023,8 @@
     ],
     "start": "As vacancies open — this is a standing candidate pool, not a single vacancy",
     "relocation": "lead",
-    "deadline_date": "2026-09-09"
+    "deadline_date": "2026-09-09",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -57023,7 +57066,8 @@
     ],
     "start": "See announcement",
     "relocation": "tight",
-    "deadline_date": "2026-09-08"
+    "deadline_date": "2026-09-08",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -57118,7 +57162,7 @@
       "kind": "s-new",
       "label": "✨ New — September 7, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-1325",
@@ -57232,7 +57276,8 @@
     ],
     "start": "See announcement",
     "relocation": "lead",
-    "deadline_date": "2026-09-10"
+    "deadline_date": "2026-09-10",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -57274,7 +57319,8 @@
     ],
     "start": "See announcement",
     "relocation": "lead",
-    "deadline_date": "2026-09-10"
+    "deadline_date": "2026-09-10",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -57398,7 +57444,8 @@
     ],
     "start": "See posting",
     "relocation": "tight",
-    "deadline_date": "2026-09-11"
+    "deadline_date": "2026-09-11",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -57573,7 +57620,7 @@
       "kind": "s-new",
       "label": "✨ New — September 7, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Northeast",
     "id": "item-1336",
@@ -58352,7 +58399,8 @@
     ],
     "start": "See announcement",
     "relocation": "tight",
-    "deadline_date": "2026-09-08"
+    "deadline_date": "2026-09-08",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -58394,7 +58442,8 @@
     ],
     "start": "See posting",
     "relocation": "tight",
-    "deadline_date": "2026-09-09"
+    "deadline_date": "2026-09-09",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -58854,7 +58903,8 @@
     ],
     "start": "12-month limited term, funded by a 24-month grant",
     "relocation": "tight",
-    "deadline_date": "2026-09-09"
+    "deadline_date": "2026-09-09",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -58979,7 +59029,8 @@
     ],
     "start": "Permanent full-time · see posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-11"
+    "deadline_date": "2026-09-11",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -59062,7 +59113,8 @@
     ],
     "start": "Seasonal · see posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-11"
+    "deadline_date": "2026-09-11",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -59104,7 +59156,8 @@
     ],
     "start": "Limited duration, may end 7/1/2027, with potential to become permanent",
     "relocation": "tight",
-    "deadline_date": "2026-09-09"
+    "deadline_date": "2026-09-09",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -59272,7 +59325,8 @@
       }
     ],
     "url": "https://ornithologyexchange.org/jobs/board/non-academic-positions/rio-grande-joint-venture-rgjv-conservation-delivery-specialist-r22982/",
-    "url_label": "Ornithology Exchange — American Bird Conservancy"
+    "url_label": "Ornithology Exchange — American Bird Conservancy",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -61799,8 +61853,8 @@
     "location": "Hilo, Hawaiʻi",
     "deadline": "October 23, 2026 (reviewed on a rolling basis)",
     "badge": "Good fit",
-    "pay": "Stipend commensurate (not published on the listing)",
-    "stipend": "",
+    "pay": "$3,000–$4,500 stipend (Zintellect listing; period not stated — confirm whether monthly)",
+    "stipend": "$3,000–$4,500 (ORISE stipend, per Zintellect)",
     "benefits": "",
     "url": "https://www.zintellect.com/Opportunity/Details/USDA-FS-PSWRS-2026-0351",
     "url_label": "USDA Forest Service Biological Control Research Opportunity — Pacific Southwest Research Station, Hilo (ORISE)",
@@ -61815,7 +61869,7 @@
       }
     ],
     "metaLine": "Hilo HI · USDA Forest Service research station · biological control of invasives · rolling review",
-    "body": "A fellowship opportunity with the USDA Forest Service Pacific Southwest Research Station in Hilo, Hawaiʻi, focused on biological control research and applications, administered through ORISE (reference USDA-FS-PSWRS-2026-0351). Applications are reviewed on a rolling basis; the Texas A&M listing gives October 23 2026 as the closing date and a start after October 1. The stipend is not published on the listing — see the Zintellect posting for the appointment details.",
+    "body": "A fellowship opportunity with the USDA Forest Service Pacific Southwest Research Station in Hilo, Hawaiʻi, focused on biological control research and applications, administered through ORISE (reference USDA-FS-PSWRS-2026-0351). Applications are reviewed on a rolling basis; the Texas A&M listing gives October 23 2026 as the closing date and a start after October 1. The Zintellect posting lists a stipend of $3,000–$4,500 (the period is not stated there).",
     "desc": "ORISE appointments are one of the most reliable routes from a bachelor's into federal science, and this one sits inside a Forest Service research station working on Hawaiʻi's invasive species problem, where biological control is often the only tool that scales. It is a long way from Richmond; read the full Zintellect description for the stipend and duties before deciding.",
     "pills": [
       "USDA Forest Service research",
@@ -61845,8 +61899,8 @@
     "location": "Gainesville, Florida",
     "deadline": "November 6, 2026 (reviewed on a rolling basis)",
     "badge": "Good fit",
-    "pay": "Stipend commensurate (not published on the listing)",
-    "stipend": "",
+    "pay": "$3,443 per month anticipated stipend (published on Zintellect)",
+    "stipend": "$3,443/month (ORISE)",
     "benefits": "",
     "url": "https://www.zintellect.com/Opportunity/Details/USDA-ARS-SEA-2026-0324",
     "url_label": "USDA-ARS Post-Bachelor's Research Opportunity — fire ant behaviour and chemical ecology, Gainesville (ORISE)",
@@ -61861,7 +61915,7 @@
       }
     ],
     "metaLine": "Gainesville FL · USDA-ARS post-bachelor's research appointment · invasive ants · rolling",
-    "body": "A post-bachelor's research opportunity with USDA's Agricultural Research Service in Gainesville, Florida (Zintellect reference USDA-ARS-SEA-2026-0324). The hands-on project blends biology and chemistry to address practical and basic problems in understanding and controlling imported fire ants and other pest ants. Applications are reviewed on a rolling basis; the Texas A&M listing gives a November 6 2026 closing date. The stipend is not published on the listing.",
+    "body": "A post-bachelor's research opportunity with USDA's Agricultural Research Service in Gainesville, Florida (Zintellect reference USDA-ARS-SEA-2026-0324). The hands-on project blends biology and chemistry to address practical and basic problems in understanding and controlling imported fire ants and other pest ants. Applications are reviewed on a rolling basis; the Texas A&M listing gives a November 6 2026 closing date. The Zintellect posting gives an anticipated monthly stipend of $3,443, commensurate with education and experience.",
     "desc": "A USDA research appointment designed for someone with a new bachelor's — the federal USDA foothold you have named as a goal, in a university town with a large ecology community. Fire ants are an invasive-species problem with real conservation impacts on ground-nesting wildlife; the chemistry component echoes your trace-metal lab work.",
     "pills": [
       "Explicitly post-bachelor's",
@@ -61891,8 +61945,8 @@
     "location": "Manhattan, Kansas (NBAF, CGAHR and Kansas State University)",
     "deadline": "September 25, 2026 (reviewed on a rolling basis)",
     "badge": "Good fit",
-    "pay": "Stipend commensurate (not published on the listing)",
-    "stipend": "",
+    "pay": "$49,000–$54,000 per year anticipated stipend (published on Zintellect)",
+    "stipend": "$49,000–$54,000/yr (ORISE)",
     "benefits": "",
     "url": "https://www.zintellect.com/Opportunity/Details/USDA-ARS-PA-2026-0337",
     "url_label": "USDA-ARS Biting Fly Biology Fellowship — insectary and vector research at the National Bio and Agro-Defense Facility, Manhattan KS (ORISE)",
@@ -61907,7 +61961,7 @@
       }
     ],
     "metaLine": "Manhattan KS · USDA-ARS fellowship at NBAF · vector biology · bachelor's",
-    "body": "A research opportunity with USDA-ARS's Foreign Arthropod-Borne Animal Disease Research Unit, located at the National Bio and Agro-defense Facility's insectary and cell-culture laboratory, the Center for Grain and Animal Health Research and the Kansas State University campus in Manhattan, Kansas (Zintellect reference USDA-ARS-PA-2026-0337). The work concerns the biology of biting flies that transmit animal diseases. Applications are reviewed on a rolling basis; the Texas A&M listing gives a September 25 2026 closing date and a bachelor's requirement. The stipend is not published on the listing.",
+    "body": "A research opportunity with USDA-ARS's Foreign Arthropod-Borne Animal Disease Research Unit, located at the National Bio and Agro-defense Facility's insectary and cell-culture laboratory, the Center for Grain and Animal Health Research and the Kansas State University campus in Manhattan, Kansas (Zintellect reference USDA-ARS-PA-2026-0337). The work concerns the biology of biting flies that transmit animal diseases. Applications are reviewed on a rolling basis; the Texas A&M listing gives a September 25 2026 closing date and a bachelor's requirement. The Zintellect posting gives an anticipated stipend of $49,000–$54,000 a year.",
     "desc": "A laboratory-based federal research appointment rather than field work, so it is further from your core. It is here as a USDA foothold at a brand-new flagship federal facility; vector and disease ecology is a growing field that connects to wildlife health. Read the full description before applying.",
     "pills": [
       "USDA research agency",
