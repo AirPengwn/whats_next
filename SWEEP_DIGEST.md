@@ -1,22 +1,41 @@
 # Weekly opportunity sweep — 2026-09-13
 
-**Added 14 new** opportunities:
-- Fisheries Technician 4 (permanent) — bull trout, redd counts, creel surveys and stream SUBSTRATE coring, Region 1 Kalispell (Montana Fish, Wildlife & Parks) — _Good_ · Mountain West · deadline: September 23, 2026, 11:59 pm MT
-- Green River Wildlife Technician (12-month contract) — habitat surveys, disease surveillance and landowner work (Wyoming Game & Fish) — _Good_ · Mountain West · deadline: September 20, 2026, 11:59 pm MT
-- Regional Wildlife Specialist (permanent) — big-game and game-bird damage prevention and mitigation with landowners (Wyoming Game & Fish, Buffalo) — _Good_ · Mountain West · deadline: September 23, 2026, 11:59 pm MT
-- Natural Resources Analyst — Land Quality Division mine permitting, inspections and reclamation, District 2 Lander (Wyoming DEQ) — _Good_ · Mountain West · deadline: Continuous — open until filled (opened September 3, 2026)
-- Natural Resources Analyst — Land Quality Division mine permit review and reclamation monitoring data, District 3 Sheridan (Wyoming DEQ) — _Good_ · Mountain West · deadline: Continuous — open until filled (opened September 1, 2026)
-- River Watch Intern (temporary, 6 months) — statewide volunteer water-quality programme sampling METALS, pH and DO (Colorado Parks & Wildlife) — _Excellent_ · Mountain West · deadline: Continuous — open until filled (opened September 4, 2026)
-- Fish Health Laboratory Technician (temporary, 9 months) — fish-disease diagnostics at the Aquatic Animal Health Lab (Colorado Parks & Wildlife) — _Good_ · Mountain West · deadline: Continuous — open until filled (opened September 2, 2026)
-- Wildlife Technician — chronic wasting disease sample processing at the Wildlife Health Laboratory, housing available (Idaho Fish & Game, Eagle) — _Good_ · Mountain West · deadline: October 16, 2026
-- Fisheries Technician (8 months) — steelhead and salmon hatchery, housing available (Idaho Fish & Game, Clearwater Fish Hatchery) — _Good_ · Mountain West · deadline: September 28, 2026
-- Fisheries Bioaide (5-month winter) — trout hatchery aide at Briggs Creek, free dormitory housing (Idaho Fish & Game) — _Good_ · Mountain West · deadline: October 2, 2026
-- Fisheries Biological Aide (5-month) — Clearwater Fish Hatchery, housing available (Idaho Fish & Game) — _Good_ · Mountain West · deadline: November 9, 2026
-- Eagle Vehicle Strike Technician (winter, part-time) — highway carcass removal and TRAIL-CAMERA monitoring of eagles (HawkWatch International) — _Good_ · Mountain West · deadline: October 16, 2026 (priority consideration; reviewed as received)
-- Conservation Ecologist II — bird banding, Motus tagging and Snowy Plover monitoring on the Great Salt Lake (Tracy Aviary Conservation Science) — _Good_ · Mountain West · deadline: Open until filled — confirm the posting is still active
-- Teton Raptor Center Internship (year-long 2027) — education, research fieldwork and rehabilitation in Jackson Hole, housing provided — _Good_ · Mountain West · deadline: September 30, 2026, 5:00 pm MT
+**Added 27 new** opportunities:
+- Stewardship Technician (Rural Clean Water Program) (Rideau Valley Conservation Authority) — _Strong_ · Ontario · deadline: September 18, 2026, 4:00 pm (email hr@rvca.ca)
+- Technician, Environment — water, sediment & biota monitoring at steelmaking-coal mines (Elk Valley Resources) — _Good_ · British Columbia · deadline: September 14, 2026
+- Junior Environmental Specialist — Spaceport Nova Scotia (Maritime Launch Services Ltd.) — _Good_ · Atlantic Canada · deadline: Open until filled — posted Aug 31, 2026
+- Environmental Scientist / EIT — new graduate (Environment, People & Place team) (Hatch) — _Good_ · Prairies (AB/SK/MB) · deadline: Open until filled — campus posting dated Sep 8, 2026
+- Graduate Technical Consultant — Junior Environmental Scientist/Technologist (Worley Consulting) — _Good_ · Prairies (AB/SK/MB) · deadline: Open until filled — posted Aug 27, 2026
+- Technical Consultant I, Environmental Scientist (Soil Scientist) — reclamation (Worley Consulting) — _Reach / review_ · Prairies (AB/SK/MB) · deadline: Open until filled — posted Sep 11, 2026
+- Junior Environmental Professional, Planning & Reclamation/Remediation (H3M Environmental Ltd.) — _Good_ · Prairies (AB/SK/MB) · deadline: Open until filled — posted Sep 4, 2026
+- Entry-Level Environmental Planner (AECOM) — _Good_ · Ontario · deadline: Open until filled — posted Sep 1, 2026 (newly created position)
+- Environmental Technologist (JD Environmental Ltd.) — _Good_ · Prairies (AB/SK/MB) · deadline: Open until filled — posted Aug 25, 2026
+- Environmental Technologist — site assessment & groundwater monitoring (Thurber Engineering Ltd.) — _Good_ · Prairies (AB/SK/MB) · deadline: Open until filled — posted Sep 1, 2026
+- Junior Environmental Professional — site investigation & remediation (Parsons Corporation) — _Good_ · British Columbia · deadline: Open until filled — posted Aug 17, 2026
+- Environmental Field Technician — mine water monitoring (rotation, staff accommodation) (True Environmental) — _Strong_ · Northern Canada · deadline: Open until filled — posted Aug 20, 2026
+- Environmental Field Technician — fish, wildlife & environmental projects (seasonal) (Splatsin Development Corporation) — _Good_ · British Columbia · deadline: Open until filled — posted Aug 21, 2026
+- Environmental Monitoring Technician — wastewater plants & receiving waters (Metro Vancouver) — _Good_ · British Columbia · deadline: Advertised until September 24, 2026 (Job Bank; posted Sep 10, 2026)
+- Junior Environmental Technician (entry level) (Recon Environmental Ltd.) — _Good_ · British Columbia · deadline: Open until filled — posted Jul 10, 2026; still live on the employer's HireBus page (last updated Jul 24)
+- Bird & Wildlife Biologists — oil-sands bird deterrent and monitoring program (2026/2027 seasons) (Acden Aves) — _Good_ · Prairies (AB/SK/MB) · deadline: Open until filled — recruiting for the 2026 and 2027 seasons (posted Jun 30, 2026)
+- Biological Technician — LMIA requested (Keystone Environmental Ltd.) — _Reach / review_ · British Columbia · deadline: Advertised until September 23, 2026 (Job Bank; posted May 26, 2026 by a licensed third party)
+- Junior Wildlife Biologist (Stantec) — _Good_ · Prairies (AB/SK/MB) · deadline: Open until filled — posted Apr 14, 2026 and still listed on stantec.jobs (Sep 13, 2026)
+- Aquatic Biologist (entry-level to senior bands) (Triton Environmental Consultants) — _Reach / review_ · Prairies (AB/SK/MB) · deadline: Open until filled — Open until filled (posted May 19, 2026; still listed Sep 13, 2026)
+- Environmental Field Technician — wind-farm bird & bat mortality monitoring (ERM) — _Good_ · Prairies (AB/SK/MB) · deadline: Open until filled — posted Feb 24, 2026; still listed on ERM's Workday on Sep 13, 2026
+- Environmental Field Technician — pre-construction wildlife surveys & monitoring (rotation) (ERM) — _Good_ · British Columbia · deadline: Open until filled — posted Jan 5, 2026; still listed on ERM's Workday on Sep 13, 2026
+- GIS Analyst (Associated Environmental Consultants) — _Good_ · Prairies (AB/SK/MB) · deadline: Open until filled — Not stated (listed on AE careers page, Sep 13, 2026)
+- Junior Environmental Technologist/Technician (Dillon Consulting Limited) — _Good_ · Ontario · deadline: Open until filled — Not stated (open on Dillon's iCIMS board, Sep 13, 2026)
+- GIS Analyst — Data Integration Services (Dillon Consulting Limited) — _Reach / review_ · Atlantic Canada · deadline: Open until filled — Not stated (open on Dillon's iCIMS board, Sep 13, 2026)
+- Junior Field Technician — Contamination Assessment & Remediation (GHD) — _Good_ · Atlantic Canada · deadline: Open until filled — posted Aug 20, 2026 (no end date on posting)
+- Environmental Field Technician (Environmental or Civil Engineering Technology/Technician) (GHD) — _Good_ · Atlantic Canada · deadline: Posting end date September 25, 2026 (00:00 EDT) — apply by September 24
+- Science Graduate, Environmental — Graduate Environmental Scientist (Hydrogeology) (GHD) — _Good_ · Ontario · deadline: Open until filled — posted Sep 2, 2026
+
+**⚠ Review these (reach / weak fit — your call whether to keep):**
+- Technical Consultant I, Environmental Scientist (Soil Scientist) — reclamation (Worley Consulting) — _Reach / review_ · Prairies (AB/SK/MB) · deadline: Open until filled — posted Sep 11, 2026
+- Biological Technician — LMIA requested (Keystone Environmental Ltd.) — _Reach / review_ · British Columbia · deadline: Advertised until September 23, 2026 (Job Bank; posted May 26, 2026 by a licensed third party)
+- Aquatic Biologist (entry-level to senior bands) (Triton Environmental Consultants) — _Reach / review_ · Prairies (AB/SK/MB) · deadline: Open until filled — Open until filled (posted May 19, 2026; still listed Sep 13, 2026)
+- GIS Analyst — Data Integration Services (Dillon Consulting Limited) — _Reach / review_ · Atlantic Canada · deadline: Open until filled — Not stated (open on Dillon's iCIMS board, Sep 13, 2026)
 
 **Updated 0** (deadline / status / description changed).
 
-**Total opportunities:** 1491  ·  next-cycle: 482  ·  expired (one-time, no future cycle): 282
+**Total opportunities:** 1518  ·  next-cycle: 482  ·  expired (one-time, no future cycle): 282
 Triage: passed-but-recurring → `cycle:"next"`; one-time/discontinued → `expired:true`. Passed/expired are hidden on the site by default (toggle to show); never deleted, never moved to the personal Archive. Fit tiers: _Excellent_ / _Strong_ / _Good_ / _Reach / review_ (set via each entry's badge). The Browse pages render from this data automatically — no HTML edits. Nothing is live until this PR is merged.
