@@ -25542,12 +25542,12 @@
     "src": "erin_jobs.html",
     "src_label": "Career Positions",
     "status": {
-      "kind": "s-new",
-      "label": "Expired — August 24, 2026"
+      "kind": "s-updated",
+      "label": "🔄 Re-posted — September 13, 2026 (open to Oct 31)"
     },
     "title": "Ecological Technician — permanent restoration work with full benefits",
     "org": "Native Resource Preservation LLC (NRP) · West Saint Paul or Marshall/Clarkfield, MN",
-    "deadline": "August 19, 2026 — reviewed on a rolling basis until filled",
+    "deadline": "October 31, 2026 (re-posted — reviewed on a rolling basis)",
     "start": "See posting",
     "body": "Full-time permanent ecological restoration and land management position with a Minnesota firm of ecologists, equipment operators and fire practitioners. Requires a pesticide applicator’s licence (categories A, F, J) with support available, an MN DOT health card, first aid and CPR within six months, and MN UTV certification within 30 days.",
     "desc": "Permanent rather than seasonal, with health insurance, a 401(k) match and — unusually — employer-funded gear and training stipends, which means the certifications she needs get paid for. The documented pay uplift on government contracts can nearly double the base rate. This is one of the few genuinely stable restoration jobs in the batch.",
@@ -25560,8 +25560,8 @@
     ],
     "metaLine": "Deadline Aug 19, 2026 · $19/hr (+$9–$14 on gov contracts) · Twin Cities MN · PERMANENT with benefits",
     "cycle": "current",
-    "deadline_kind": "fixed",
-    "deadline_date": "2026-08-19",
+    "deadline_kind": "rolling",
+    "deadline_date": "2026-10-31",
     "region": "Midwest & Great Plains",
     "links": [
       {
@@ -25575,7 +25575,6 @@
     "stipend": "",
     "benefits": "Health insurance, 401(k) with match, PTO, employer-paid life insurance, per diem for overnight travel, and annual gear and professional training stipends",
     "id": "item-582",
-    "expired": true,
     "start_date": "2026-08-19",
     "relocation": "lead"
   },
@@ -59477,5 +59476,1003 @@
     ],
     "url": "https://www.keepitco.org/jobs-board/2026/7/31/dryland-restoration-program-manager-colorado-open-lands",
     "url_label": "Keep It Colorado — Colorado Open Lands"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1382",
+    "title": "Game Bird Internship — northern bobwhite radio-telemetry & night trapping, with free on-site housing (Tall Timbers)",
+    "org": "Tall Timbers Research Station & Land Conservancy · Game Bird Program · Tallahassee, FL",
+    "location": "Tall Timbers, Tallahassee, Florida (Red Hills region)",
+    "deadline": "October 9, 2026",
+    "badge": "Strong fit",
+    "pay": "$290 per week (published)",
+    "stipend": "",
+    "benefits": "Free on-site housing",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=109155",
+    "url_label": "Game Bird Internship — northern bobwhite radio-telemetry & night trapping, with free on-site housing (Tall Timbers)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=109155",
+        "label": "🔗 Game Bird Internship — northern bobwhite radio-telemetry & night trapping, with free on-site housing (Tall Timbers)"
+      },
+      {
+        "href": "https://talltimbers.org/",
+        "label": "🔗 Tall Timbers (employer site)"
+      }
+    ],
+    "metaLine": "Tallahassee FL · $290/wk + FREE HOUSING · radio-telemetry & trapping · closes Oct 9",
+    "body": "The Game Bird Program at Tall Timbers is hiring individuals to assist with northern bobwhite research. Primary duties are tracking bobwhite by radio-telemetry to monitor survival and resource use, vegetation surveys of roost sites, and capturing bobwhite to attach radio transmitters; monthly raptor and covey-call surveys may be added. All trapping and some telemetry are done at night. Qualifications: a BS in wildlife or a related field (or working toward one), an interest in game-bird ecology, and a valid driver's licence; prior field research and computer experience preferred. Free housing is available on site. Start November 10 (flexible), 16 weeks, $290 per week. Apply by October 9 2026 with a cover letter, resume and three references.",
+    "desc": "A clean, low-risk step into Southeast wildlife research. Tall Timbers is one of the best-known private research stations in the region, and this is exactly the kind of hands-on animal work your small-mammal trapping already prepares you for: live capture, handling, transmitter attachment and telemetry. The free housing is what makes it realistic — a 16-week term with no rent is a genuinely affordable way to add a second field technique to your resume, and Tallahassee is a day's drive from Richmond. The pay is internship-level, so treat it as a skill and reference builder heading into spring applications rather than a destination.",
+    "pills": [
+      "Free on-site housing",
+      "Radio-telemetry + live trapping",
+      "BS in wildlife or related field",
+      "16 weeks from Nov 10"
+    ],
+    "start": "November 10, 2026 (flexible) · 16 weeks",
+    "relocation": "local",
+    "deadline_date": "2026-10-09",
+    "start_date": "2026-11-10",
+    "housing_provided": true
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1383",
+    "title": "Gopher Tortoise Internship — line-transect and burrow-scope surveys across the Red Hills (Tall Timbers)",
+    "org": "Tall Timbers Research Station · Biological Monitoring Lab (Kim Sash) · Tallahassee FL / Thomasville GA",
+    "location": "Red Hills region — Tallahassee, Florida and Thomasville, Georgia",
+    "deadline": "November 20, 2026",
+    "badge": "Strong fit",
+    "pay": "$295 per week (published)",
+    "stipend": "",
+    "benefits": "",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117928",
+    "url_label": "Gopher Tortoise Internship — line-transect and burrow-scope surveys across the Red Hills (Tall Timbers)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117928",
+        "label": "🔗 Gopher Tortoise Internship — line-transect and burrow-scope surveys across the Red Hills (Tall Timbers)"
+      }
+    ],
+    "metaLine": "Red Hills FL/GA · $295/wk · gopher tortoise surveys + GIS/GPS · closes Nov 20",
+    "body": "The Biological Monitoring lab at Tall Timbers is seeking an intern primarily to assist with gopher tortoise surveys on properties across the Red Hills region around Thomasville, Georgia and Tallahassee, Florida. Duties include gopher tortoise line-transect and burrow-scoping surveys, dip-netting for striped newts as conditions allow, and checking snake-trap drift-fence arrays and working up snakes. The internship runs up to 16 weeks, January–April, with a preferred mid-January start. Requirements: a biology or related degree (or working toward one) with at least one year of field experience; ArcGIS and GPS experience a plus; US citizenship and a clean driving record. Compensation $295 per week. Applications close November 20 2026.",
+    "desc": "Gopher tortoise work is one of the most employable field skills in the Southeast — it underpins permitting, relocation and habitat-management jobs from the Carolinas to Florida, and the species sits at the centre of USFWS and state conservation planning. This internship gives you that credential alongside drift-fence herp work, and it explicitly rewards the ArcGIS and GPS skills you already have. The winter timing is useful too: it runs January–April, so it can bridge you into the federal seasonal hiring wave rather than competing with it.",
+    "pills": [
+      "Gopher tortoise — a USFWS candidate species",
+      "ArcGIS / GPS a plus",
+      "US citizen required",
+      "Jan–Apr 2027"
+    ],
+    "start": "Mid-January 2027 (flexible) · up to 16 weeks, January–April",
+    "relocation": "local",
+    "deadline_date": "2026-11-20",
+    "start_date": "2027-01-15"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1384",
+    "title": "Forestry Technician — timber marking, prescribed fire and endangered-species compliance at Fort Jackson (Ayuda Companies)",
+    "org": "Ayuda Companies · Fort Jackson Natural Resources · Columbia, SC",
+    "location": "Fort Jackson, Columbia, South Carolina",
+    "deadline": "October 5, 2026",
+    "badge": "Good fit",
+    "pay": "$21–$24 per hour, commensurate with experience (published)",
+    "stipend": "",
+    "benefits": "Full-time, non-exempt",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=110289",
+    "url_label": "Forestry Technician — timber marking, prescribed fire and endangered-species compliance at Fort Jackson (Ayuda Companies)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=110289",
+        "label": "🔗 Forestry Technician — timber marking, prescribed fire and endangered-species compliance at Fort Jackson (Ayuda Companies)"
+      }
+    ],
+    "metaLine": "Columbia SC · $21–$24/hr · timber + Rx fire + ESA compliance on a military installation · closes Oct 5",
+    "body": "A full-time forestry technician providing technical support to the Natural Resources Conservation and Endangered Species Act compliance programmes at Fort Jackson, covering forestry, wildland fire, endangered species conservation and other wildlife management. Stated time split: 30% timber marking (marking annual harvests, painting boundaries and collecting GPS data for harvest maps), 30% prescribed fire (preparing burn areas and equipment, ignition and mop-up, post-burn evaluations and fire-weather data), 20% timber inventory before and after harvest, plus data management. Pay $21–$24 per hour. Apply by emailing a resume to cdittmer@ayudacompanies.com by October 5 2026.",
+    "desc": "Military installations are some of the most intensively managed conservation lands in the Southeast — Fort Jackson's longleaf pine system carries red-cockaded woodpecker obligations — and contractor roles like this are the usual way in. The GPS mapping and inventory data work lines up with your GIS training, and the prescribed-fire exposure is a credential that federal land-management hiring values. It is forestry-first rather than wildlife-first, and it asks for about a year of experience, so treat it as a good rather than perfect fit. Columbia is about five hours from Richmond.",
+    "pills": [
+      "Endangered Species Act compliance programme",
+      "Prescribed fire",
+      "GPS data + harvest maps",
+      "~1 year experience asked"
+    ],
+    "start": "After September 28, 2026",
+    "relocation": "local",
+    "deadline_date": "2026-10-05",
+    "start_date": "2026-09-28"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1385",
+    "title": "USGS Paid Reptile Research Internship — invasive Burmese python and tegu research in the Everglades (12 months)",
+    "org": "U.S. Geological Survey with the University of Florida · Everglades National Park · Homestead, FL",
+    "location": "Everglades National Park, Homestead, Florida (some work in Big Cypress National Preserve)",
+    "deadline": "October 1, 2026",
+    "badge": "Good fit",
+    "pay": "Up to $15 per hour (published)",
+    "stipend": "",
+    "benefits": "",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=115046",
+    "url_label": "USGS Paid Reptile Research Internship — invasive Burmese python and tegu research in the Everglades (12 months)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=115046",
+        "label": "🔗 USGS Paid Reptile Research Internship — invasive Burmese python and tegu research in the Everglades (12 months)"
+      }
+    ],
+    "metaLine": "Everglades NP · up to $15/hr · 12-month USGS invasive-reptile internship · closes Oct 1",
+    "body": "Twelve-month research internships on invasive reptiles — primarily Burmese pythons and black-and-white tegus — in the Greater Everglades Ecosystem, run by the University of Florida and the U.S. Geological Survey. The positions chiefly involve laboratory work (necropsies, morphometric measurements and tissue sampling), husbandry of captive reptiles and database management, with occasional field work. They are based in Everglades National Park, with some travel to Big Cypress National Preserve. Start is flexible, with early December preferred. Pay is up to $15 per hour. Applications close October 1 2026.",
+    "desc": "The draw is the name on the reference: a year working directly with USGS research scientists is the sort of line that helps a federal application and a graduate application alike. Be clear-eyed that the published duties are mostly lab and data work rather than fieldwork, and the pay is low for South Florida living costs. But necropsy, tissue sampling and database management are transferable research skills, and invasive-species management is a growing federal priority. Worth it if you want a USGS relationship; skip it if you need a living wage.",
+    "pills": [
+      "USGS research team",
+      "12-month term",
+      "Mostly lab: necropsy, tissue sampling, data",
+      "Bachelor's required"
+    ],
+    "start": "Early December 2026 preferred (flexible) · twelve months",
+    "relocation": "local",
+    "deadline_date": "2026-10-01",
+    "start_date": "2026-12-01"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1386",
+    "title": "Biological Science Technician (Wildlife), GS-0404-4/5/6 — 13-month term, Sioux County, Iowa (USDA APHIS Wildlife Services)",
+    "org": "USDA APHIS Wildlife Services · Iowa · Sioux Center, IA",
+    "location": "Sioux County, Iowa (duty station set after selection)",
+    "deadline": "September 21, 2026",
+    "badge": "Good fit",
+    "pay": "$37,193–$59,031 per year, GS-4/5/6 (published)",
+    "stipend": "",
+    "benefits": "13-month term appointment, possibility of benefits, may be extended up to 4 years; relocation not paid",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117874",
+    "url_label": "Biological Science Technician (Wildlife), GS-0404-4/5/6 — 13-month term, Sioux County, Iowa (USDA APHIS Wildlife Services)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117874",
+        "label": "🔗 Biological Science Technician (Wildlife), GS-0404-4/5/6 — 13-month term, Sioux County, Iowa (USDA APHIS Wildlife Services)"
+      }
+    ],
+    "metaLine": "Sioux Center IA · GS-4/5/6 · $37k–$59k · federal wildlife tech, 100% field · closes Sept 21",
+    "body": "USDA APHIS Wildlife Services is filling one Biological Science Technician (GS-0404-4/5/6, full performance level GS-6) in Sioux County, Iowa, under announcement MOIAWS20260909. It is a 13-month term appointment in the excepted service with the possibility of benefits and may be extended up to four years; the schedule is full-time and variable (maxiflex). The work is 100% field-based with routine travel to worksites. Salary $37,193–$59,031 depending on qualifications. Open September 11, closing September 21 2026; relocation expenses are not paid.",
+    "desc": "A federal 0404 wildlife technician grade is the entry rung you have been aiming for, and a term that can extend to four years gives far more stability than a seasonal post. Your BS should qualify you at GS-5. Know what Wildlife Services does before applying: it is wildlife damage management — livestock predation, disease surveillance, airport and agricultural conflict — rather than habitat conservation, so read the duties carefully. Iowa is a long move from Richmond with no relocation paid, but the start is 10+ weeks out, which leaves time to arrange it.",
+    "pills": [
+      "Federal GS-0404 series",
+      "13-month term, extendable to 4 yrs",
+      "100% field",
+      "Announcement MOIAWS20260909"
+    ],
+    "start": "Between November 23 and December 31, 2026",
+    "relocation": "lead",
+    "deadline_date": "2026-09-21",
+    "start_date": "2026-11-23"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1387",
+    "title": "Seasonal Prescribed Fire Crewmember — gopher tortoise habitat burn crew, Canoochee Sandhills WMA (Georgia DNR)",
+    "org": "Georgia Department of Natural Resources · Wildlife Resources Division · Pembroke, GA",
+    "location": "Canoochee Sandhills WMA, Pembroke, Georgia (burning across South Georgia)",
+    "deadline": "October 5, 2026",
+    "badge": "Good fit",
+    "pay": "$14–$17 per hour (published)",
+    "stipend": "",
+    "benefits": "",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118433",
+    "url_label": "Seasonal Prescribed Fire Crewmember — gopher tortoise habitat burn crew, Canoochee Sandhills WMA (Georgia DNR)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118433",
+        "label": "🔗 Seasonal Prescribed Fire Crewmember — gopher tortoise habitat burn crew, Canoochee Sandhills WMA (Georgia DNR)"
+      }
+    ],
+    "metaLine": "Pembroke GA · $14–$17/hr · six-person Rx fire crew for gopher tortoise habitat · closes Oct 5",
+    "body": "Georgia DNR's Wildlife Conservation section is hiring six seasonal associates to implement prescribed fire across South Georgia, primarily targeting high-priority gopher tortoise habitat. Associates form a six-person burn crew stationed at Canoochee Sandhills WMA in Pembroke. Work includes prescribed fire operations, fire-line construction, equipment maintenance and pre/post-burn monitoring, with possible exotic and invasive species control, native species planting and species monitoring or surveys. The work is strenuous, with long and irregular hours in all weather. Term January 4 – June 21 2027; pay $14–$17 per hour; applications close October 5 2026.",
+    "desc": "Low pay, but a useful credential: a full burn season with a state wildlife agency gives you prescribed-fire experience that federal and NGO land-management jobs across the Southeast now routinely ask for. Six openings improve the odds, and the January start leaves plenty of lead time. It pairs naturally with the Tall Timbers gopher tortoise internship if you want to build a longleaf and tortoise specialism.",
+    "pills": [
+      "State wildlife agency",
+      "Six openings",
+      "Rx fire + pre/post-burn monitoring",
+      "Jan–June 2027"
+    ],
+    "start": "January 4 – June 21, 2027",
+    "relocation": "local",
+    "deadline_date": "2026-10-05",
+    "start_date": "2027-01-04"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1388",
+    "title": "OPS Fish & Wildlife Biologist IV — Private Lands Biologist, Florida Panhandle (Florida FWC)",
+    "org": "Florida Fish and Wildlife Conservation Commission · Office of Conservation Planning Services · Marianna, FL",
+    "location": "Marianna, Florida",
+    "deadline": "September 30, 2026",
+    "badge": "Strong fit",
+    "pay": "Starting at $24.32 per hour (published)",
+    "stipend": "",
+    "benefits": "OPS (temporary) state position",
+    "url": "https://jobs.myflorida.com/job/MARIANNA-OPS-F-&-W-BS-IV-77902317-FL-32446/1415476700/",
+    "url_label": "OPS Fish & Wildlife Biologist IV — Private Lands Biologist, Florida Panhandle (Florida FWC)",
+    "links": [
+      {
+        "href": "https://jobs.myflorida.com/job/MARIANNA-OPS-F-&-W-BS-IV-77902317-FL-32446/1415476700/",
+        "label": "🔗 OPS Fish & Wildlife Biologist IV — Private Lands Biologist, Florida Panhandle (Florida FWC)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118468",
+        "label": "🔗 Listing on the Texas A&M board"
+      }
+    ],
+    "metaLine": "Marianna FL · $24.32/hr · BIOLOGIST title, bachelor's with no experience minimum listed · closes Sept 30",
+    "body": "FWC's Office of Conservation Planning Services is seeking a biologist to work within a team providing assistance to private and public landowners, who own and manage over half of Florida's natural resources. OCPS develops habitat-based management plans, runs incentive programmes for private landowners, recommends habitat management on private and public land, and conducts habitat assessments on conservation easements such as gopher tortoise recipient sites. The position influences management of game and non-game species including white-tailed deer, quail, turkey, waterfowl, gopher tortoise, black bear, indigo snake, flatwoods salamanders and wading birds. Published pay starts at $24.32 per hour; the Texas A&M listing gives a bachelor's with no experience minimum. Closes September 30 2026.",
+    "desc": "This is a biologist-titled role at a state wildlife agency with a bachelor's-only bar, which is rarer than it should be. Private-lands work is also one of the most transferable skill sets in conservation: it is exactly what NRCS, USFWS Partners for Fish and Wildlife and Pheasants/Quail Forever farm-bill biologists do, so a year of it makes you competitive for all of those. Habitat assessments and management plans are where your GIS suitability work pays off directly. It is OPS (temporary, limited benefits), so ask about the conversion record for OPS staff in that office.",
+    "pills": [
+      "Biologist title, not technician",
+      "Habitat assessments + management plans",
+      "Gopher tortoise recipient sites",
+      "Bachelor's, no experience minimum listed"
+    ],
+    "start": "After October 2, 2026",
+    "relocation": "local",
+    "deadline_date": "2026-09-30",
+    "start_date": "2026-10-02"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1389",
+    "title": "Agronomy & Conservation Specialist — NRCS partnership farm planning with wetland and prairie restoration, southeast Minnesota (Pheasants Forever)",
+    "org": "Pheasants Forever & Quail Forever · with USDA NRCS · Austin, MN",
+    "location": "Austin, Minnesota (southeast Minnesota)",
+    "deadline": "September 15, 2026",
+    "badge": "Good fit",
+    "pay": "$49,500–$65,000 per year (published)",
+    "stipend": "",
+    "benefits": "",
+    "url": "https://pheasantsforever.applytojob.com/apply/NJ5Xfbbx3E/Agronomy-Conservation-Specialist",
+    "url_label": "Agronomy & Conservation Specialist — NRCS partnership farm planning with wetland and prairie restoration, southeast Minnesota (Pheasants Forever)",
+    "links": [
+      {
+        "href": "https://pheasantsforever.applytojob.com/apply/NJ5Xfbbx3E/Agronomy-Conservation-Specialist",
+        "label": "🔗 Agronomy & Conservation Specialist — NRCS partnership farm planning with wetland and prairie restoration, southeast Minnesota (Pheasants Forever)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118534",
+        "label": "🔗 Listing on the Texas A&M board"
+      }
+    ],
+    "metaLine": "Austin MN · $49.5k–$65k · farm conservation plans with NRCS · ⚠ closes Sept 15",
+    "body": "In partnership with the Natural Resources Conservation Service, Pheasants Forever is seeking a specialist to build working relationships with farmers, agricultural advisers and conservation partners in southeast Minnesota and to prepare farm management plans that integrate conservation, agriculture, technology and economics. Practices promoted include cover crops, diverse rotations, hay plantings, variable-rate inputs, prairie and shrub plantings and wetland restoration. Duties include one-on-one farm visits, identifying marginally productive cropland using agricultural technology, making maps and plans, and presenting grants and cost-share opportunities. Salary $49,500–$65,000. Applications close September 15 2026, with an anticipated October/November start.",
+    "desc": "Pheasants Forever partner positions are one of the best-worn routes into NRCS and USDA careers — the work is done alongside NRCS staff, and many of those biologists are later hired directly. This one leans agronomic, but wetland restoration is on the practice list and the cropland-mapping element uses your GIS. The deadline is only two days away, so this is a now-or-never decision.",
+    "pills": [
+      "⚠ Closes Sept 15",
+      "NRCS partner position",
+      "Wetland + prairie restoration practices",
+      "Mapping of marginal cropland"
+    ],
+    "start": "October/November 2026",
+    "relocation": "tight",
+    "deadline_date": "2026-09-15",
+    "start_date": "2026-10-15"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-1390",
+    "title": "Natural Resources Specialist II–IV — Permits & Consultations Coordinator, Inland Fisheries (Texas Parks & Wildlife)",
+    "org": "Texas Parks and Wildlife Department · Inland Fisheries Division · Austin, Waco or Tyler, TX",
+    "location": "Austin, Waco or Tyler, Texas (one of three)",
+    "deadline": "September 25, 2026",
+    "badge": "Reach",
+    "pay": "$5,350.87–$6,776.85 per month (published)",
+    "stipend": "",
+    "benefits": "Regular full-time state position",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118512",
+    "url_label": "Natural Resources Specialist II–IV — Permits & Consultations Coordinator, Inland Fisheries (Texas Parks & Wildlife)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118512",
+        "label": "🔗 Natural Resources Specialist II–IV — Permits & Consultations Coordinator, Inland Fisheries (Texas Parks & Wildlife)"
+      }
+    ],
+    "metaLine": "Austin/Waco/Tyler TX · $5.4k–$6.8k/mo · aquatic permit review · 2 yrs experience listed",
+    "body": "Under the Aquatic Resource Permitting and Consultation Program Leader, the Permits and Consultations Coordinator administers permit programmes within TPWD's Inland Fisheries Division — for example exotic-species permits for research, permits to introduce aquatic species into public waters, and nongame fish harvest permits — in coordination with other biologists who review permits. The post is based at one of three locations: Austin, Waco or Tyler. Salary $5,350.87–$6,776.85 per month. Closes September 25 2026.",
+    "desc": "Filed as a Reach because the Texas A&M listing asks for two years of experience and the higher bands (III–IV) assume more. The reason it is here: regulatory permitting is the same career track as wetland permitting — reviewing projects against rules and consulting with applicants — and a well-paid, permanent state job in it is worth a look if the entry band (NRS II) will count your degree toward the requirement. Read the minimum qualifications for each band before applying.",
+    "pills": [
+      "Regular state position",
+      "Permit review + environmental consultation",
+      "2 years experience listed",
+      "Three possible duty stations"
+    ],
+    "start": "After September 25, 2026",
+    "relocation": "unknown",
+    "deadline_date": "2026-09-25"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Southwest",
+    "id": "item-1391",
+    "title": "Biological Monitor — desert tortoise and nesting-bird surveys on a powerline right-of-way near Las Vegas (Sayornis Ecological Consulting)",
+    "org": "Sayornis Ecological Consulting LLC · Las Vegas, NV",
+    "location": "Las Vegas, Nevada area",
+    "deadline": "December 29, 2026 (rolling — contact now)",
+    "badge": "Reach",
+    "pay": "$65 per hour plus drive time, $178 per diem and $0.76/mile (published) — as an independent subcontractor",
+    "stipend": "",
+    "benefits": "",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118519",
+    "url_label": "Biological Monitor — desert tortoise and nesting-bird surveys on a powerline right-of-way near Las Vegas (Sayornis Ecological Consulting)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118519",
+        "label": "🔗 Biological Monitor — desert tortoise and nesting-bird surveys on a powerline right-of-way near Las Vegas (Sayornis Ecological Consulting)"
+      }
+    ],
+    "metaLine": "Las Vegas NV · $65/hr + $178 per diem · ⚠ subcontractor: own liability insurance + 4x4 vehicle required",
+    "body": "Biological monitors are needed on a powerline jobsite in the Las Vegas area to protect biological resources and to survey for desert tortoises, bird nests and other sensitive species along the right-of-way. The job pays $65 per hour plus drive time, a $178 per diem and $0.76 per mile. Monitors work as subcontractors who must provide their own commercial liability insurance and a 4x4 or all-wheel-drive vehicle, and must pass a drug test. The work is 100% in the field, training is provided, and the project is expected to run into 2027. Contact Brad Minnich (b_minnich@yahoo.com, 805-501-4553).",
+    "desc": "Construction monitoring is how a lot of western biologists pay the bills, and desert tortoise experience is a specific, marketable credential in the Mojave. The headline rate is excellent. But this is filed as a Reach for practical reasons: you would be an independent contractor, so you would carry your own commercial liability insurance and need a 4x4 — both real costs and neither trivial to set up from Virginia. If you pursue it, ask what the insurance runs and whether the per diem covers housing.",
+    "pills": [
+      "⚠ Independent subcontractor",
+      "⚠ Own commercial insurance + 4WD vehicle",
+      "Desert tortoise surveys",
+      "Training provided"
+    ],
+    "start": "Now · project expected to run into 2027",
+    "relocation": "lead",
+    "deadline_date": "2026-12-29"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-1392",
+    "title": "Monitoring Specialist — water quality and natural-resource monitoring, Coos Soil & Water Conservation District (Oregon)",
+    "org": "Coos Soil and Water Conservation District · Coquille, OR",
+    "location": "Coquille, Oregon (Coos County, southern Oregon coast)",
+    "deadline": "November 30, 2026",
+    "badge": "Strong fit",
+    "pay": "$26–$28 per hour (published)",
+    "stipend": "",
+    "benefits": "",
+    "url": "https://www.coosswcd.org/employment-opportunities",
+    "url_label": "Monitoring Specialist — water quality and natural-resource monitoring, Coos Soil & Water Conservation District (Oregon)",
+    "links": [
+      {
+        "href": "https://www.coosswcd.org/employment-opportunities",
+        "label": "🔗 Monitoring Specialist — water quality and natural-resource monitoring, Coos Soil & Water Conservation District (Oregon)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118530",
+        "label": "🔗 Listing on the Texas A&M board"
+      }
+    ],
+    "metaLine": "Coquille OR · $26–$28/hr · WATER QUALITY monitoring — sondes, DO, turbidity, stream surveys · closes Nov 30",
+    "body": "The Monitoring Specialist implements the District's water quality and natural-resource monitoring under established plans, protocols, grant requirements and quality-assurance procedures. Work includes baseline, status-and-trend and effectiveness monitoring of watershed conditions, agricultural water quality, conservation practices and restoration projects; deploying, calibrating, maintaining and downloading water-quality instruments; collecting stream temperature, dissolved oxygen, conductivity, salinity, pH and turbidity data; physical habitat, stream and riparian surveys, vegetation and photo monitoring; and maintaining monitoring stations and records. Pay $26–$28 per hour. The Texas A&M listing gives a deadline of November 30 2026 and asks for a bachelor's plus two years of experience.",
+    "desc": "This is squarely your subject: instrument-based water quality monitoring plus stream and riparian surveys, feeding restoration effectiveness work — the same questions your Pigeon River capstone asked, done as a job. Conservation districts are also approachable employers who often weigh a strong degree and field skills against the experience line. The two-year ask is the stretch, but the long deadline gives time to write a careful letter that maps your capstone sampling and QA/QC directly onto their duties.",
+    "pills": [
+      "Water quality — her core subject",
+      "Sonde deployment + calibration",
+      "Stream & riparian surveys",
+      "Bachelor's + 2 yrs listed"
+    ],
+    "start": "After September 1, 2026 (open now)",
+    "relocation": "unknown",
+    "deadline_date": "2026-11-30"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-1393",
+    "title": "Rangeland Ecologist — restoration ecology field research in the Great Basin, with a route into an M.S. (University of Nevada, Reno)",
+    "org": "University of Nevada, Reno · Rangeland Ecology Lab (Lucas Phipps, Ph.D.) · Reno, NV",
+    "location": "Reno, Nevada (field sites across the Great Basin)",
+    "deadline": "September 25, 2026",
+    "badge": "Good fit",
+    "pay": "Commensurate with experience (not published)",
+    "stipend": "",
+    "benefits": "University retirement plan and comprehensive benefits; opportunity to pursue an M.S. or Ph.D. while employed",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118549",
+    "url_label": "Rangeland Ecologist — restoration ecology field research in the Great Basin, with a route into an M.S. (University of Nevada, Reno)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118549",
+        "label": "🔗 Rangeland Ecologist — restoration ecology field research in the Great Basin, with a route into an M.S. (University of Nevada, Reno)"
+      }
+    ],
+    "metaLine": "Reno NV · full-time lab ecologist · co-authorship + option to start an M.S. while employed · closes Sept 25",
+    "body": "The UNR Rangeland Ecology Lab is hiring a full-time Rangeland Ecologist to support rangeland and restoration ecology research under Principal Investigator Lucas Phipps. The ecologist assists with field set-up of experimental studies for multi-disciplinary rangeland research and collects data and samples from them across the Great Basin. The lab advertises co-authorship on peer-reviewed publications, the opportunity to pursue an M.S. or Ph.D. while in the position, and university retirement and benefits. Salary is commensurate with experience. The Texas A&M listing gives a September 25 2026 deadline and asks for a bachelor's plus two years of experience.",
+    "desc": "The line that matters is \"opportunity to pursue an M.S. or Ph.D. while working in the position.\" That is a salaried route into graduate school with a named adviser, co-authorship and university benefits, which is worth more than most assistantships. Restoration experiments in sagebrush and rangeland are a new habitat for you, but the field-and-sample workflow is familiar. Ask directly whether employee tuition benefits apply to a UNR M.S. and how other staff have used them.",
+    "pills": [
+      "Co-authorship on papers",
+      "Can pursue an M.S. while employed",
+      "Restoration experiments",
+      "Bachelor's + 2 yrs listed"
+    ],
+    "start": "After October 1, 2026",
+    "relocation": "tight",
+    "deadline_date": "2026-09-25",
+    "start_date": "2026-10-01"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-1394",
+    "title": "Conservation Grazing Associate (temporary) — grazing as a land-management tool on an 18,000-acre preserve (Santa Lucia Conservancy)",
+    "org": "Santa Lucia Conservancy (non-profit land trust) · Carmel, CA",
+    "location": "Santa Lucia Preserve, Carmel, California",
+    "deadline": "September 28, 2026",
+    "badge": "Good fit",
+    "pay": "$24 per hour (published)",
+    "stipend": "",
+    "benefits": "Temporary full-time, non-exempt",
+    "url": "https://www.santaluciaconservancy.com",
+    "url_label": "Conservation Grazing Associate (temporary) — grazing as a land-management tool on an 18,000-acre preserve (Santa Lucia Conservancy)",
+    "links": [
+      {
+        "href": "https://www.santaluciaconservancy.com",
+        "label": "🔗 Conservation Grazing Associate (temporary) — grazing as a land-management tool on an 18,000-acre preserve (Santa Lucia Conservancy)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118550",
+        "label": "🔗 Listing on the Texas A&M board"
+      }
+    ],
+    "metaLine": "Carmel CA · $24/hr · non-profit land trust, conservation grazing · ⚠ starts Sept 30",
+    "body": "The Santa Lucia Conservancy is a 501(c)(3) non-profit land trust, incorporated in 1995, that stewards the ecological integrity of the 20,000-acre Santa Lucia Preserve in California's Santa Lucia Mountains, actively managing over 18,000 contiguous acres through adaptive land management, conservation easement stewardship, ecological research and environmental education. It is hiring a temporary, full-time, non-exempt Conservation Grazing Associate to support its conservation grazing programme. Pay $24 per hour. The Texas A&M listing gives a September 28 2026 deadline, an early-October start and about one year of experience.",
+    "desc": "A land-trust stewardship role on one of California's best-known private preserves, where grazing is used deliberately to manage grassland habitat — an applied-ecology skill that transfers to rangeland and restoration jobs across the West. The honest drawback is timing: it starts around October 1, is temporary, and is a coast-to-coast move with no housing mentioned, so it only makes sense if you can move fast.",
+    "pills": [
+      "Non-profit land trust",
+      "Adaptive land management",
+      "~1 year experience listed",
+      "⚠ Starts in ~2 weeks"
+    ],
+    "start": "September 30 – October 1, 2026",
+    "relocation": "tight",
+    "deadline_date": "2026-09-28",
+    "start_date": "2026-09-30"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1395",
+    "title": "Ecological Restoration Technician (fall–winter) — invasive species control and rare-plant habitat near Lake Superior (EcoNorth)",
+    "org": "EcoNorth LLC · Ashland, WI",
+    "location": "Ashland, Wisconsin (Lake Superior region)",
+    "deadline": "September 20, 2026",
+    "badge": "Good fit",
+    "pay": "$19–$21 per hour starting (published range $19–$23)",
+    "stipend": "",
+    "benefits": "Paid time off and other benefits; re-hire status for 2027",
+    "url": "https://www.ecologynorth.com/hiring.html",
+    "url_label": "Ecological Restoration Technician (fall–winter) — invasive species control and rare-plant habitat near Lake Superior (EcoNorth)",
+    "links": [
+      {
+        "href": "https://www.ecologynorth.com/hiring.html",
+        "label": "🔗 Ecological Restoration Technician (fall–winter) — invasive species control and rare-plant habitat near Lake Superior (EcoNorth)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118553",
+        "label": "🔗 Listing on the Texas A&M board"
+      }
+    ],
+    "metaLine": "Ashland WI · $19–$21/hr · pine barrens, estuaries, old growth · Oct–Dec · closes Sept 20",
+    "body": "EcoNorth is hiring fall and winter Ecological Restoration Technicians for the 2026–27 season, based at its headquarters in Ashland, Wisconsin, near Lake Superior. The work covers northern ecosystems including pine barrens, coastal estuaries, northern forests, lakeshores, old-growth forest, remnant prairie and dune-swale complexes. Most time is spent controlling invasive species, with plant surveys, prairie planting and rare-wildlife habitat creation. Starting wages $19–$21 per hour, full-time, from around October 1 to December 31 (flexible, possibly extended), with frequent performance-based raises, paid time off and re-hire status for 2027. Applications close September 20 2026.",
+    "desc": "A short fall season with a small restoration firm, with a built-in route to a 2027 rehire. The habitats — coastal estuaries, dune-swale complexes and wetland edges on Lake Superior — are exactly the systems you want on your record, and no experience is required. The drawbacks are the short term and the move with only two to three weeks' notice.",
+    "pills": [
+      "Restoration practitioner work",
+      "Rare plant communities",
+      "Re-hire for 2027 season",
+      "No experience required"
+    ],
+    "start": "Around October 1, 2026 (flexible) through ~December 31",
+    "relocation": "tight",
+    "deadline_date": "2026-09-20",
+    "start_date": "2026-10-01"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-1396",
+    "title": "Riparian Planner Technician — riparian grant programme and CREP restoration, Lewis Conservation District (Washington)",
+    "org": "Lewis Conservation District · Chehalis, WA",
+    "location": "Chehalis, Washington",
+    "deadline": "September 17, 2026",
+    "badge": "Strong fit",
+    "pay": "$50,000–$60,000 per year (published)",
+    "stipend": "",
+    "benefits": "",
+    "url": "https://www.lewisconservationdistrict.com/employment",
+    "url_label": "Riparian Planner Technician — riparian grant programme and CREP restoration, Lewis Conservation District (Washington)",
+    "links": [
+      {
+        "href": "https://www.lewisconservationdistrict.com/employment",
+        "label": "🔗 Riparian Planner Technician — riparian grant programme and CREP restoration, Lewis Conservation District (Washington)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118559",
+        "label": "🔗 Listing on the Texas A&M board"
+      }
+    ],
+    "metaLine": "Chehalis WA · $50k–$60k · riparian restoration planning · bachelor's, NO experience listed · closes Sept 17",
+    "body": "Lewis Conservation District is hiring a Resource Technician to support its Riparian Grant Program and Conservation Reserve Enhancement Program. Duties include day-to-day coordination and oversight of riparian grant projects; working with producers, agencies and partners; monitoring and compiling data on critical-area best-management practices; providing technical and field assistance on BMP and restoration projects; and working with landowners to develop riparian planting projects. Salary $50,000–$60,000. The Texas A&M listing gives a bachelor's with no experience minimum and a September 17 2026 deadline; contact Nikki Atkins (nikki.atkins@lewiscdwa.com, 360-996-4560).",
+    "desc": "One of the strongest pay-to-entry-bar ratios in this sweep: $50–60k for a bachelor's-level riparian restoration role, with landowner-facing project work that builds toward NRCS and state conservation careers. Riparian buffers are a water-quality tool, which ties back to your capstone. The deadline is four days out, so if Washington appeals, apply immediately.",
+    "pills": [
+      "$50k–$60k",
+      "Bachelor's, no experience listed",
+      "Riparian restoration + BMP monitoring",
+      "⚠ Closes Sept 17"
+    ],
+    "start": "Between October 1 and November 1, 2026",
+    "relocation": "tight",
+    "deadline_date": "2026-09-17",
+    "start_date": "2026-10-15"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1397",
+    "title": "OCIC Field Technician — eastern indigo snake reintroduction surveys, living on-site at Apalachicola Bluffs & Ravines Preserve (Central Florida Zoo)",
+    "org": "Central Florida Zoological Society · Orianne Center for Indigo Conservation · Bristol & Eustis, FL",
+    "location": "Apalachicola Bluffs and Ravines Preserve (Bristol, Florida) and OCIC (Eustis, Florida)",
+    "deadline": "September 15, 2026",
+    "badge": "Good fit",
+    "pay": "$16–$16.64 per hour (published)",
+    "stipend": "",
+    "benefits": "",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118562",
+    "url_label": "OCIC Field Technician — eastern indigo snake reintroduction surveys, living on-site at Apalachicola Bluffs & Ravines Preserve (Central Florida Zoo)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118562",
+        "label": "🔗 OCIC Field Technician — eastern indigo snake reintroduction surveys, living on-site at Apalachicola Bluffs & Ravines Preserve (Central Florida Zoo)"
+      },
+      {
+        "href": "https://www.centralfloridazoo.org/",
+        "label": "🔗 Central Florida Zoo (employer site)"
+      }
+    ],
+    "metaLine": "Bristol FL · $16/hr · federally threatened indigo snake reintroduction · ⚠ closes Sept 15",
+    "body": "The OCIC Field Technician advances the Orianne Center for Indigo Conservation's reintroduction efforts for the eastern indigo snake, working with the Eastern Indigo Snake Reintroduction Committee and partners including The Nature Conservancy, FWC, USFWS, Coastal Plains Institute and Auburn University. The technician lives on site at the Apalachicola Bluffs and Ravines Preserve in Liberty County from October to April to conduct pedestrian surveys and other monitoring, records survey effort and observations, and may publish findings. Pay $16–$16.64 per hour. The Texas A&M listing asks for about two years of experience and closes September 15 2026.",
+    "desc": "Reintroduction monitoring for a federally threatened species, with TNC, FWC and USFWS as partners, is a strong resume line and a good network. The posting says you live on site at the preserve, so ask whether that housing is provided free. Pay is low and the deadline is Tuesday; worth a quick application if the herp and species-recovery side appeals.",
+    "pills": [
+      "⚠ Closes Sept 15",
+      "Federally threatened species",
+      "Partners: TNC, FWC, USFWS",
+      "Lives on site Oct–April"
+    ],
+    "start": "October–November 2026 (on-site October–April)",
+    "relocation": "local",
+    "deadline_date": "2026-09-15",
+    "start_date": "2026-10-01"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1398",
+    "title": "Glacial Lakes Site Steward — preserve stewardship, restoration and prescribed fire in west-central Minnesota (The Nature Conservancy)",
+    "org": "The Nature Conservancy · Minnesota · Cushing, MN",
+    "location": "Cushing, Minnesota (Ordway–Glacial Lakes landscape)",
+    "deadline": "September 15, 2026",
+    "badge": "Good fit",
+    "pay": "$24–$26.50 per hour (published)",
+    "stipend": "",
+    "benefits": "",
+    "url": "https://nature.wd108.myworkdayjobs.com/ExternalCareers/job/Cushing-Minnesota/Glacial-Lakes-Site-Steward_JR103785",
+    "url_label": "Glacial Lakes Site Steward — preserve stewardship, restoration and prescribed fire in west-central Minnesota (The Nature Conservancy)",
+    "links": [
+      {
+        "href": "https://nature.wd108.myworkdayjobs.com/ExternalCareers/job/Cushing-Minnesota/Glacial-Lakes-Site-Steward_JR103785",
+        "label": "🔗 Glacial Lakes Site Steward — preserve stewardship, restoration and prescribed fire in west-central Minnesota (The Nature Conservancy)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118572",
+        "label": "🔗 Listing on the Texas A&M board"
+      }
+    ],
+    "metaLine": "Cushing MN · $24–$26.50/hr · TNC preserve steward, prairie-forest border · ⚠ closes Sept 15",
+    "body": "The Glacial Lakes Site Steward performs stewardship, preserve management and restoration in TNC's Ordway–Glacial Lakes landscape in the Prairie Forest Border Ecoregion of west-central Minnesota, and helps supervise land-management crews, contract crews, volunteers and interns on TNC and partner lands. Duties include maintaining public-use preserve areas, removing exotic species, monitoring and researching species, maintaining tools and equipment, operating heavy machinery, supporting prescribed fire, implementing conservation strategies, and building community support with landowners, partners and officials. Pay $24–$26.50 per hour. Closes September 15 2026.",
+    "desc": "TNC is the largest conservation NGO in the country, and a site-steward post is how many of its land managers start. This is a permanent-track stewardship job with species monitoring on the list, at a fair wage. It found its way here only because TNC's own portal is invisible to scripted searches — the same posting on the Texas A&M board shows what the channel has been missing. Two-day deadline.",
+    "pills": [
+      "⚠ Closes Sept 15",
+      "The Nature Conservancy",
+      "Stewardship + species monitoring",
+      "Bachelor's + 1 yr listed"
+    ],
+    "start": "After October 12, 2026",
+    "relocation": "tight",
+    "deadline_date": "2026-09-15",
+    "start_date": "2026-10-12"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-1399",
+    "title": "Fisheries Technician 1 (5 positions) — coho and steelhead monitoring in coastal Mendocino County (Pacific States Marine Fisheries Commission)",
+    "org": "Pacific States Marine Fisheries Commission · with CDFW and Redwood Timber Company · Fort Bragg, CA",
+    "location": "Fort Bragg, California (fieldwork across coastal Mendocino County)",
+    "deadline": "September 30, 2026",
+    "badge": "Good fit",
+    "pay": "$15.59–$25.46 per hour (published)",
+    "stipend": "",
+    "benefits": "",
+    "url": "https://myjobs.adp.com/pacificstatesmarinecareers/cx/job-details?reqId=5001222433800",
+    "url_label": "Fisheries Technician 1 (5 positions) — coho and steelhead monitoring in coastal Mendocino County (Pacific States Marine Fisheries Commission)",
+    "links": [
+      {
+        "href": "https://myjobs.adp.com/pacificstatesmarinecareers/cx/job-details?reqId=5001222433800",
+        "label": "🔗 Fisheries Technician 1 (5 positions) — coho and steelhead monitoring in coastal Mendocino County (Pacific States Marine Fisheries Commission)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118603",
+        "label": "🔗 Listing on the Texas A&M board"
+      }
+    ],
+    "metaLine": "Fort Bragg CA · $15.59–$25.46/hr · five openings, salmonid spawning surveys + weirs + PIT tags · closes Sept 30",
+    "body": "PSMFC is filling five temporary Fisheries Technician 1 positions supporting salmon and steelhead monitoring with the California Department of Fish and Wildlife and Redwood Timber Company. Positions are based in Fort Bragg, with fieldwork throughout coastal Mendocino County, from mid-November or early December 2026 through mid-May or early June 2027; weekend and holiday work is required as conditions dictate. Field duties include spawning-ground surveys, operating adult salmonid weirs and rotary screw traps for juvenile outmigrants, Floy/PIT tagging, maintaining PIT-tag arrays and collecting biological data. Pay $15.59–$25.46 per hour. Closes September 30 2026.",
+    "desc": "PSMFC seasonal crews are the standard entry route into West Coast fisheries careers, and five openings at once is good odds. Stream-based work in coastal watersheds fits your watershed and water quality interests, and the November start gives two months to arrange the move. Aquatic work is a sideways step from your wildlife and wetlands core — take it if you want to broaden into aquatic ecology.",
+    "pills": [
+      "Five openings",
+      "CDFW partnership",
+      "Spawning surveys, weirs, screw traps",
+      "Winter–spring season"
+    ],
+    "start": "Mid-November or early December 2026 through mid-May/early June 2027",
+    "relocation": "lead",
+    "deadline_date": "2026-09-30",
+    "start_date": "2026-11-15"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Mountain West",
+    "id": "item-1400",
+    "title": "Aquatic Invasive Species Technician (temporary) — watercraft inspection and water sampling (Wyoming Game & Fish)",
+    "org": "Wyoming Game and Fish Department · Beulah, Cheyenne, Evanston, Manville or Newcastle, WY",
+    "location": "Cheyenne, Wyoming (also Beulah, Evanston, Manville, Newcastle)",
+    "deadline": "Open until filled (Texas A&M listing shows October 9, 2026)",
+    "badge": "Good fit",
+    "pay": "Starting at $19.67 per hour (published)",
+    "stipend": "",
+    "benefits": "",
+    "url": "https://www.governmentjobs.com/careers/wyoming/jobs/5471813/ais-technician-2026-02170",
+    "url_label": "Aquatic Invasive Species Technician (temporary) — watercraft inspection and water sampling (Wyoming Game & Fish)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/wyoming/jobs/5471813/ais-technician-2026-02170",
+        "label": "🔗 Aquatic Invasive Species Technician (temporary) — watercraft inspection and water sampling (Wyoming Game & Fish)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118643",
+        "label": "🔗 Listing on the Texas A&M board"
+      }
+    ],
+    "metaLine": "Wyoming · $19.67/hr · 2–3 month AIS inspection post · open until filled",
+    "body": "Wyoming Game and Fish is hiring multiple temporary Aquatic Invasive Species Technicians, stationed in Beulah, Cheyenne, Evanston, Manville or Newcastle, for 2–3 months. Technicians inspect and decontaminate watercraft at key locations to prevent the introduction and spread of aquatic invasive species, interview boaters at check stations, provide outreach to the boating public, and carry out water quality and invasive species sampling, data entry and equipment maintenance. Starting pay $19.67 per hour. Open until filled.",
+    "desc": "A small, short job, but a low-bar way to get a state wildlife agency on your record and some water sampling done. AIS inspection is mostly public-facing work at boat ramps, so be realistic about the science content. It makes most sense as a bridge if you are already heading west or want a first Mountain West reference.",
+    "pills": [
+      "State wildlife agency",
+      "Short 2–3 month term",
+      "Water quality + invasive species sampling",
+      "No experience required"
+    ],
+    "start": "2–3 month temporary positions",
+    "relocation": "lead",
+    "deadline_date": "2026-10-09"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-1401",
+    "title": "Community Assistance Fellow — AmeriCorps with the National Park Service Rivers, Trails & Conservation Assistance program (Stewards Individual Placements)",
+    "org": "Stewards Individual Placements (Conservation Legacy) · host: NPS-RTCA · Westlake Village, CA",
+    "location": "Westlake Village, California",
+    "deadline": "September 25, 2026",
+    "badge": "Good fit",
+    "pay": "$600 per week living allowance (published)",
+    "stipend": "$600/week AmeriCorps living allowance",
+    "benefits": "1,700-hour AmeriCorps term — Segal Education Award on completion",
+    "url": "https://secure.entertimeonline.com/ta/conservationlegacy.careers?ShowJob=738745159",
+    "url_label": "Community Assistance Fellow — AmeriCorps with the National Park Service Rivers, Trails & Conservation Assistance program (Stewards Individual Placements)",
+    "links": [
+      {
+        "href": "https://secure.entertimeonline.com/ta/conservationlegacy.careers?ShowJob=738745159",
+        "label": "🔗 Community Assistance Fellow — AmeriCorps with the National Park Service Rivers, Trails & Conservation Assistance program (Stewards Individual Placements)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118647",
+        "label": "🔗 Listing on the Texas A&M board"
+      }
+    ],
+    "metaLine": "Westlake Village CA · $600/wk · year-long AmeriCorps with NPS-RTCA · closes Sept 25",
+    "body": "Stewards Individual Placements, a Conservation Legacy programme, will place a Community Assistance Fellow with the National Park Service Rivers, Trails, and Conservation Assistance program (NPS-RTCA), which supports locally led conservation and outdoor-recreation projects across the country — helping communities and land managers develop or restore parks, conservation areas, rivers and trails. The 1,700-hour AmeriCorps term runs November 2 2026 to October 29 2027 at Westlake Village, California, with a $600 weekly living allowance. The Texas A&M listing asks for about one year of experience. Closes September 25 2026.",
+    "desc": "As an NCCC alumna you know the AmeriCorps model, and a year embedded with an NPS programme builds federal contacts and — after 12 months — may qualify you for public-land non-competitive hiring eligibility (confirm the term qualifies before counting on it). The work is community and partnership planning rather than field biology, so take it for the federal network, not for species work. Stewards has not capped ages on past postings, but check this one's eligibility section.",
+    "pills": [
+      "National Park Service host",
+      "Year-long AmeriCorps term",
+      "Community conservation projects",
+      "Confirm age rule"
+    ],
+    "start": "November 2, 2026 – October 29, 2027",
+    "relocation": "lead",
+    "deadline_date": "2026-09-25",
+    "start_date": "2026-11-02"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-1402",
+    "title": "Agriculture Projects Coordinator — farm best-management practices for Chesapeake Bay water quality, south-central Pennsylvania (Alliance for the Chesapeake Bay)",
+    "org": "Alliance for the Chesapeake Bay · Lancaster, PA",
+    "location": "Lancaster, Pennsylvania",
+    "deadline": "September 30, 2026",
+    "badge": "Good fit",
+    "pay": "$52,000–$57,000 per year (published)",
+    "stipend": "",
+    "benefits": "",
+    "url": "https://www.allianceforthebay.org/get-involved/careers/",
+    "url_label": "Agriculture Projects Coordinator — farm best-management practices for Chesapeake Bay water quality, south-central Pennsylvania (Alliance for the Chesapeake Bay)",
+    "links": [
+      {
+        "href": "https://www.allianceforthebay.org/get-involved/careers/",
+        "label": "🔗 Agriculture Projects Coordinator — farm best-management practices for Chesapeake Bay water quality, south-central Pennsylvania (Alliance for the Chesapeake Bay)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118654",
+        "label": "🔗 Listing on the Texas A&M board"
+      }
+    ],
+    "metaLine": "Lancaster PA · $52k–$57k · non-profit, Chesapeake water quality · 3.5 hrs from Richmond",
+    "body": "Reporting to the Senior Agriculture Project Manager, the Agriculture Project Coordinator provides farmer support within the Alliance's poultry partnership frameworks, working with partners on water quality improvement, climate-smart practices, farmer engagement and upland biodiversity. Duties include coordinating planning and implementation of agricultural best management practices, mainly in south-central Pennsylvania; farmer outreach within corporate partnership frameworks; serving as primary contact for a rolling portfolio of 20–40 farm projects; and on-site farm support. Substantial fieldwork is required. Salary $52,000–$57,000. The Texas A&M listing asks for a bachelor's plus two years of experience and closes September 30 2026.",
+    "desc": "The Alliance is one of the main Chesapeake Bay watershed non-profits — the network you would want if you stay near Virginia. Agricultural runoff is the Bay's largest nutrient problem, so this is water quality work at the point where it is decided, on the farm. The ask is two years' experience and the role is more project coordination than science; lead with your capstone's watershed contaminant angle and your NCCC project-delivery experience.",
+    "pills": [
+      "Chesapeake Bay non-profit",
+      "Water quality BMPs on farms",
+      "Substantial fieldwork",
+      "Bachelor's + 2 yrs listed"
+    ],
+    "start": "After October 16, 2026",
+    "relocation": "local",
+    "deadline_date": "2026-09-30",
+    "start_date": "2026-10-16"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Alaska, Hawaii & Territories",
+    "id": "item-1403",
+    "title": "Wildfire Risk Reduction Coordinator — watershed wildfire mitigation for a 50,000-acre partnership on West Maui (Mauna Kahalawai Watershed Partnership / RCUH)",
+    "org": "Mauna Kahalawai Watershed Partnership · Pacific Cooperative Studies Unit · RCUH · Lahaina, Maui, HI",
+    "location": "Olowalu / Lahaina, Maui, Hawaiʻi",
+    "deadline": "Open until filled — apply ASAP (listing runs to January 7, 2027)",
+    "badge": "Good fit",
+    "pay": "$5,497.35–$5,717.98 per month (published)",
+    "stipend": "",
+    "benefits": "Regular full-time RCUH non-civil-service position",
+    "url": "https://www.rcuh.com/work/careers/",
+    "url_label": "Wildfire Risk Reduction Coordinator — watershed wildfire mitigation for a 50,000-acre partnership on West Maui (Mauna Kahalawai Watershed Partnership / RCUH)",
+    "links": [
+      {
+        "href": "https://www.rcuh.com/work/careers/",
+        "label": "🔗 Wildfire Risk Reduction Coordinator — watershed wildfire mitigation for a 50,000-acre partnership on West Maui (Mauna Kahalawai Watershed Partnership / RCUH)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=107778",
+        "label": "🔗 Listing on the Texas A&M board (ID #226347)"
+      }
+    ],
+    "metaLine": "West Maui · $5.5k–$5.7k/mo · watershed protection after the Lahaina fire · open until filled",
+    "body": "A regular, full-time RCUH non-civil-service position with the Pacific Cooperative Studies Unit's Mauna Kahalawai Watershed Partnership in Lahaina, Maui (RCUH job ID 226347). The work involves regular fieldwork in remote, challenging terrain implementing wildfire mitigation and recovery strategies, with the aim of reducing landscape-level wildfire threats to the partnership's 50,000-acre watershed project area. The coordinator manages, plans, implements and coordinates wildland fire prevention and mitigation programmes under the MKWP Program Manager and Watershed Management Plan, as part of a team working to reverse forest degradation from invasive species and human impacts. Monthly salary $5,497.35–$5,717.98. Open until filled.",
+    "desc": "Hawaiʻi's watershed partnerships are where much of the islands' conservation field work happens, and RCUH — the research corporation that staffs them — has never been swept for this list; this is the first of its postings to surface. After the 2023 Lahaina fire, wildfire risk reduction is now central to West Maui watershed protection, and this is a permanent, well-paid role. It asks for a year's experience and it is a very long move, so read it as a Hawaiʻi opportunity worth knowing about.",
+    "pills": [
+      "Regular full-time",
+      "Watershed-scale conservation",
+      "Remote, rugged fieldwork",
+      "Bachelor's + 1 yr listed"
+    ],
+    "start": "Now",
+    "relocation": "lead",
+    "deadline_date": "2027-01-07"
   }
 ]
