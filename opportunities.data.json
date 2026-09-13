@@ -60474,5 +60474,1221 @@
     "start": "Now",
     "relocation": "lead",
     "deadline_date": "2027-01-07"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1404",
+    "title": "Forest/Fire Ecology Laboratory Technician II — field research plus ArcMap, R and Google Earth Engine analysis (University of Florida, Milton)",
+    "org": "University of Florida · IFAS West Florida Research & Education Center · Milton, FL",
+    "location": "Milton, Florida (Milton campus and Jay Research Facility)",
+    "deadline": "September 21, 2026",
+    "badge": "Good fit",
+    "pay": "$19.15–$24.91 per hour (published)",
+    "stipend": "",
+    "benefits": "",
+    "url": "https://explore.jobs.ufl.edu/en-us/job/541202/laboratory-technician-ii",
+    "url_label": "Forest/Fire Ecology Laboratory Technician II — field research plus ArcMap, R and Google Earth Engine analysis (University of Florida, Milton)",
+    "links": [
+      {
+        "href": "https://explore.jobs.ufl.edu/en-us/job/541202/laboratory-technician-ii",
+        "label": "🔗 Forest/Fire Ecology Laboratory Technician II — field research plus ArcMap, R and Google Earth Engine analysis (University of Florida, Milton)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118658",
+        "label": "🔗 Listing on the Texas A&M board"
+      }
+    ],
+    "metaLine": "Milton FL · $19–$25/hr · GIS + remote sensing + field ecology · closes Sept 21",
+    "body": "A Laboratory Technician II supporting forest ecology and management research at UF's Milton campus. Duties include using ArcMap, R, Google Earth Engine, BehavePlus and Office to support research; collecting, organising and reviewing field data and remotely sensed information; building visualisations for presentations and reports; and helping write data-management methods, protocols and results. Field work covers identification and measurement of plants, wildlife and fuels in challenging terrain, with travel between the Milton campus, the Jay Research Facility and other sites. The role also supports teaching — preparing materials and helping with lab teaching and grading. Pay $19.15–$24.91 per hour. Closes September 21 2026.",
+    "desc": "One of the few technician posts in this sweep where the GIS and remote-sensing half of the job is as large as the field half — Google Earth Engine and ArcMap are named duties, not nice-to-haves. That makes it a direct use of your GIS training and a way to add Earth Engine to your resume. A university lab post also puts you next to graduate students and faculty, which is useful if you want to line up an MS. The listing asks for about two years of experience; your capstone data work is the counterweight to lead with.",
+    "pills": [
+      "ArcMap, R, Google Earth Engine",
+      "Remote-sensing data",
+      "Field plant, wildlife & fuels measurement",
+      "~2 yrs experience listed"
+    ],
+    "start": "After October 5, 2026",
+    "relocation": "local",
+    "deadline_date": "2026-09-21"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1405",
+    "title": "Year-Round Field Crew Member — wilderness stewardship backcountry crews, based in Roanoke, Virginia (SAWS)",
+    "org": "Southern Appalachian Wilderness Stewards (SAWS) · Roanoke, VA",
+    "location": "Roanoke, Virginia (backcountry projects across Southern Appalachian wilderness areas)",
+    "deadline": "October 30, 2026",
+    "badge": "Good fit",
+    "pay": "Starting at $21 per hour (published)",
+    "stipend": "",
+    "benefits": "",
+    "url": "https://www.wildernessstewards.org/jobs",
+    "url_label": "Year-Round Field Crew Member — wilderness stewardship backcountry crews, based in Roanoke, Virginia (SAWS)",
+    "links": [
+      {
+        "href": "https://www.wildernessstewards.org/jobs",
+        "label": "🔗 Year-Round Field Crew Member — wilderness stewardship backcountry crews, based in Roanoke, Virginia (SAWS)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118660",
+        "label": "🔗 Listing on the Texas A&M board"
+      }
+    ],
+    "metaLine": "ROANOKE VA · $21/hr · year-round non-profit wilderness crew · ~3 hrs from Richmond",
+    "body": "Four Field Crew Members will work under a Field Crew Leader and Assistant Field Crew Leader, camping and working on remote wilderness projects with little or no cell service. Crews backpack and live in physically demanding environments for up to 8–10 days at a time, in conditions ranging from freezing temperatures to persistent rain and high elevation. A typical hitch starts at the SAWS office, drives to a trailhead, backpacks into the site, and ends with hiking out, cleaning gear and completing reports. Starting pay $21 per hour. Based in Roanoke, Virginia; the Texas A&M listing gives an October 30 2026 deadline and asks for about a year of experience.",
+    "desc": "The appeal is location and stability: a year-round, paid conservation job in Virginia, with a non-profit that works in the national-forest wilderness areas of the Southern Appalachians. The work is trail and wilderness stewardship rather than science, so treat it as NCCC-style crew work that keeps you in the field and in the region while you apply for biologist and graduate positions. Your NCCC background is exactly the experience they ask for.",
+    "pills": [
+      "In Virginia — no long move",
+      "Year-round, not seasonal",
+      "Backcountry hitches up to 8–10 days",
+      "Non-profit"
+    ],
+    "start": "Between September 23 and October 30, 2026",
+    "relocation": "local",
+    "deadline_date": "2026-10-30"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1406",
+    "title": "Muskrat Monitoring & Sampling Technicians (4) — telemetry plus WATER AND SEDIMENT sampling for Illinois DNR research (Southern Illinois University)",
+    "org": "Southern Illinois University · Center for Wildlife Sustainability Research · with Illinois DNR · Illinois",
+    "location": "West-central or southern Illinois",
+    "deadline": "September 30, 2026",
+    "badge": "Strong fit",
+    "pay": "Starting at $16 per hour (published)",
+    "stipend": "",
+    "benefits": "",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118671",
+    "url_label": "Muskrat Monitoring & Sampling Technicians (4) — telemetry plus WATER AND SEDIMENT sampling for Illinois DNR research (Southern Illinois University)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118671",
+        "label": "🔗 Muskrat Monitoring & Sampling Technicians (4) — telemetry plus WATER AND SEDIMENT sampling for Illinois DNR research (Southern Illinois University)"
+      }
+    ],
+    "metaLine": "Illinois · $16/hr · muskrat telemetry + water & sediment sampling · four openings · closes Sept 30",
+    "body": "SIU's Center for Wildlife Sustainability Research, in collaboration with the Illinois Department of Natural Resources, is seeking four field technicians for muskrat monitoring and sampling. The project evaluates muskrat movement, space use, survival, dispersal and pathogen prevalence across contrasting landscapes to inform restoration and management. Technicians conduct intensive telemetry of collared muskrats plus water and sediment sampling in west-central or southern Illinois, and may assist with muskrat necropsy late in the season, working directly with SIU graduate students and research staff. Openings span January–March, January–July and February–July 2027, with a possible early start around December 28. Pay starts at $16 per hour; a bachelor's is required with no experience minimum listed. Closes September 30 2026.",
+    "desc": "This is one of the closest matches to your actual skill set in the whole sweep: semi-aquatic mammal telemetry plus water and sediment sampling in wetland landscapes, feeding an IDNR management question — small-mammal field work and your capstone's sediment work in one job. Working alongside SIU graduate students is also a natural route into an assistantship in that lab. The pay is modest and there is no housing mentioned, but the January start gives time to arrange the move.",
+    "pills": [
+      "Water + sediment sampling — her capstone skill",
+      "Radio-telemetry of collared muskrats",
+      "Four openings, three timeframes",
+      "Bachelor's, no experience required"
+    ],
+    "start": "Late December 2026 / January 2027 · terms Jan–Mar, Jan–Jul or Feb–Jul 2027",
+    "relocation": "lead",
+    "deadline_date": "2026-09-30",
+    "start_date": "2027-01-04"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1407",
+    "title": "Habitat Technician I (part-time, seasonal) — forested-wetland restoration at a New Orleans land trust (Woodlands Conservancy)",
+    "org": "Woodlands Conservancy (non-profit land trust) · Belle Chasse, LA",
+    "location": "Woodlands Preserve, Belle Chasse, Louisiana (Greater New Orleans)",
+    "deadline": "October 9, 2026",
+    "badge": "Good fit",
+    "pay": "$15–$18 per hour (published)",
+    "stipend": "",
+    "benefits": "Part-time, temporary",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118673",
+    "url_label": "Habitat Technician I (part-time, seasonal) — forested-wetland restoration at a New Orleans land trust (Woodlands Conservancy)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118673",
+        "label": "🔗 Habitat Technician I (part-time, seasonal) — forested-wetland restoration at a New Orleans land trust (Woodlands Conservancy)"
+      }
+    ],
+    "metaLine": "Belle Chasse LA · $15–$18/hr part-time · forested wetland restoration + bird banding · non-profit",
+    "body": "Woodlands Conservancy is a non-profit land trust organised in 2001 to preserve and restore forested wetlands and other significant lands; it owns 840 acres of forested wetland in the Greater New Orleans area, and its 650-acre Woodlands Preserve has public nature trails and hosts forest restoration and bird-banding activities with students and volunteers. The Conservancy is seeking two part-time, seasonal Habitat Technicians to help implement habitat restoration projects. Pay $15–$18 per hour; November–March (possible extension). The Texas A&M listing asks for about one year of experience and closes October 9 2026.",
+    "desc": "Small, part-time and low-paid, but it is forested-wetland restoration at a land trust, which is squarely in your subject area and exactly the kind of non-profit employer the list has been thin on. Best read alongside the full-time Habitat Technician II at the same organisation, which is the better fit if you want a living wage.",
+    "pills": [
+      "Forested wetlands",
+      "Non-profit land trust",
+      "Part-time seasonal",
+      "Bird-banding programme on site"
+    ],
+    "start": "November 2026 – March 2027 (possible extension)",
+    "relocation": "local",
+    "deadline_date": "2026-10-09"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1408",
+    "title": "Habitat Technician II (full-time, temporary) — forested-wetland restoration at a New Orleans land trust (Woodlands Conservancy)",
+    "org": "Woodlands Conservancy (non-profit land trust) · Belle Chasse, LA",
+    "location": "Woodlands Preserve, Belle Chasse, Louisiana (Greater New Orleans)",
+    "deadline": "October 9, 2026",
+    "badge": "Good fit",
+    "pay": "$18–$21 per hour (published)",
+    "stipend": "",
+    "benefits": "Full-time, temporary, possible extension",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118676",
+    "url_label": "Habitat Technician II (full-time, temporary) — forested-wetland restoration at a New Orleans land trust (Woodlands Conservancy)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118676",
+        "label": "🔗 Habitat Technician II (full-time, temporary) — forested-wetland restoration at a New Orleans land trust (Woodlands Conservancy)"
+      }
+    ],
+    "metaLine": "Belle Chasse LA · $18–$21/hr full-time · lead habitat technician, forested wetlands · non-profit",
+    "body": "Woodlands Conservancy, a non-profit land trust that owns 840 acres of forested wetland around New Orleans and runs forest restoration and bird-banding programmes at its 650-acre Woodlands Preserve, is seeking an experienced Habitat Technician to help implement habitat restoration projects. The post is full-time and temporary, October–April with possible extension, at $18–$21 per hour. The Texas A&M listing asks for a bachelor's plus about two years of experience and closes October 9 2026.",
+    "desc": "The full-time version of the Woodlands Conservancy post: coastal Louisiana forested-wetland restoration with a small land trust. Louisiana's coastal wetlands are among the most actively restored landscapes in the country, so this is a good place to build restoration credentials and contacts. The two-year experience line is the stretch; your wetland delineation training is the argument for applying anyway.",
+    "pills": [
+      "Forested wetlands",
+      "Non-profit land trust",
+      "Full-time Oct–Apr",
+      "Bachelor's + 2 yrs listed"
+    ],
+    "start": "October 2026 – April 2027 (possible extension)",
+    "relocation": "local",
+    "deadline_date": "2026-10-09"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia",
+    "id": "item-1409",
+    "title": "Habitat Specialist — permanent prescribed-fire and quail habitat position with Quail Forever, SCDNR, NRCS and The Longleaf Alliance (Columbia, SC)",
+    "org": "Pheasants Forever & Quail Forever · with SCDNR, NRCS and The Longleaf Alliance · Columbia, SC",
+    "location": "Columbia, South Carolina (priority areas statewide)",
+    "deadline": "Open continuously until filled (Texas A&M listing shows October 5, 2026)",
+    "badge": "Strong fit",
+    "pay": "$40,000–$44,000 per year (published)",
+    "stipend": "",
+    "benefits": "Full-time, permanent Quail Forever employee; funded through September 30, 2027, continuation dependent on further funding",
+    "url": "https://pheasantsforever.applytojob.com/apply/xaU5pDxSoT/Habitat-Specialist",
+    "url_label": "Habitat Specialist — permanent prescribed-fire and quail habitat position with Quail Forever, SCDNR, NRCS and The Longleaf Alliance (Columbia, SC)",
+    "links": [
+      {
+        "href": "https://pheasantsforever.applytojob.com/apply/xaU5pDxSoT/Habitat-Specialist",
+        "label": "🔗 Habitat Specialist — permanent prescribed-fire and quail habitat position with Quail Forever, SCDNR, NRCS and The Longleaf Alliance (Columbia, SC)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118687",
+        "label": "🔗 Listing on the Texas A&M board"
+      }
+    ],
+    "metaLine": "Columbia SC · $40k–$44k · PERMANENT · bachelor's, no experience listed · 5 hrs from Richmond",
+    "body": "Part of a partnership between Quail Forever, The Longleaf Alliance, the South Carolina Department of Natural Resources, NRCS and other agencies. Under the Quail Forever SC Prescribed Fire Coordinator, incumbents carry out prescribed fire and wildlife habitat management on cooperating private lands and targeted public lands in priority geographies within South Carolina as part of the state's quail management programme. These are full-time, permanent Quail Forever positions based in the Columbia area, currently funded through September 30 2027, with continuation dependent on additional funding. Salary $40,000–$44,000. Open continuously until filled.",
+    "desc": "A permanent wildlife habitat job in the Southeast with a bachelor's-only bar and four major partners — SCDNR, NRCS, Quail Forever and The Longleaf Alliance. Partner positions like this are how many state and NRCS biologists got their start, and prescribed fire is increasingly a baseline requirement for Southeast land-management jobs. The pay is modest for a permanent post and the funding runs to September 2027, but it is within a day's drive of Richmond.",
+    "pills": [
+      "Permanent position",
+      "Bachelor's, no experience listed",
+      "SCDNR + NRCS partnership",
+      "Rx fire + habitat management"
+    ],
+    "start": "As soon as filled",
+    "relocation": "local",
+    "deadline_date": "2026-10-05"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-1410",
+    "title": "Avian Field Technician — monthly bird and eagle point counts plus bat acoustic monitoring in West Texas (Bowman)",
+    "org": "Bowman Consulting · Fort Stockton, TX",
+    "location": "Fort Stockton, Texas (must live near the project site)",
+    "deadline": "October 2, 2026",
+    "badge": "Good fit",
+    "pay": "$23.50–$28 per hour (published)",
+    "stipend": "",
+    "benefits": "Monthly housing stipend provided",
+    "url": "https://careers.bowman.com/jobs/12505?lang=en-us",
+    "url_label": "Avian Field Technician — monthly bird and eagle point counts plus bat acoustic monitoring in West Texas (Bowman)",
+    "links": [
+      {
+        "href": "https://careers.bowman.com/jobs/12505?lang=en-us",
+        "label": "🔗 Avian Field Technician — monthly bird and eagle point counts plus bat acoustic monitoring in West Texas (Bowman)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118694",
+        "label": "🔗 Listing on the Texas A&M board"
+      }
+    ],
+    "metaLine": "Fort Stockton TX · $23.50–$28/hr + monthly housing stipend · avian point counts + bat acoustics",
+    "body": "Bowman is hiring an Environmental Field Technician I in Fort Stockton, Texas, to perform monthly avian and eagle point counts and maintain bat acoustic detector equipment, collecting and compiling environmental data at monitoring sites. Candidates should have West Texas bird identification skills and must live near the project site for the duration of the project; a monthly housing stipend is provided. Pay $23.50–$28 per hour. The Texas A&M listing asks for about one year of experience and closes October 2 2026.",
+    "desc": "Well-paid avian and bat monitoring, the standard pre- and post-construction survey work that energy consultancies employ many biologists to do. Maintaining acoustic detectors is close kin to the camera-trap monitoring you already know. The honest gap is West Texas bird identification — worth drilling before an interview. The housing stipend helps with the move, but it is a stipend, not housing, and the start is only three weeks out.",
+    "pills": [
+      "Monthly housing stipend",
+      "Bird + eagle point counts",
+      "Bat acoustic detectors",
+      "West Texas bird ID asked"
+    ],
+    "start": "Between October 5 and October 30, 2026",
+    "relocation": "tight",
+    "deadline_date": "2026-10-02",
+    "start_date": "2026-10-05"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1411",
+    "title": "OPS Fish & Wildlife Technician Intern — 25-week habitat and wildlife internship at Tate's Hell State Forest, housing $10/night (Florida FWC)",
+    "org": "Florida Fish and Wildlife Conservation Commission · Northwest Region · Carrabelle, FL",
+    "location": "Tate's Hell State Forest, Carrabelle, Florida (Franklin, Liberty and Wakulla counties)",
+    "deadline": "September 27, 2026",
+    "badge": "Good fit",
+    "pay": "$16.83 per hour (published)",
+    "stipend": "",
+    "benefits": "Housing in nearby facilities for $10 a night (key deposit required)",
+    "url": "https://jobs.myflorida.com/job/CARRABELLE-OPS-Fish-&Wildlife-Tech-Intern-77904040-FL-32322/1428091800/",
+    "url_label": "OPS Fish & Wildlife Technician Intern — 25-week habitat and wildlife internship at Tate's Hell State Forest, housing $10/night (Florida FWC)",
+    "links": [
+      {
+        "href": "https://jobs.myflorida.com/job/CARRABELLE-OPS-Fish-&Wildlife-Tech-Intern-77904040-FL-32322/1428091800/",
+        "label": "🔗 OPS Fish & Wildlife Technician Intern — 25-week habitat and wildlife internship at Tate's Hell State Forest, housing $10/night (Florida FWC)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118702",
+        "label": "🔗 Listing on the Texas A&M board"
+      }
+    ],
+    "metaLine": "Tate's Hell SF, FL · $16.83/hr · housing at $10/night · Jan–June 2027 · closes Sept 27",
+    "body": "An FWC OPS Fish & Wildlife Technician Intern (position 77904040, open-competitive) based at Tate's Hell State Forest in Carrabelle, Florida, covering Franklin, Liberty and Wakulla counties in FWC's Northwest Region. The expected term is 25 weeks from January through June 2027, Monday–Friday 8–5 with occasional night, weekend and overnight duty. Housing is available in nearby facilities for $10 a night (key deposit required). Pay $16.83 per hour. Apply through jobs.myflorida.com by September 27 2026; supervisor Brandon Myers (850-819-1141, brandon.myers@myfwc.com).",
+    "desc": "A state-wildlife-agency internship with near-free housing is about as low-risk as a long-distance field season gets, and Tate's Hell — a large wet-flatwoods and wetland restoration forest in the Florida Panhandle — is interesting country for a wetland scientist. It is an internship rate, so its value is the FWC reference and the Panhandle network, which pairs well with the FWC private-lands biologist post also on the list.",
+    "pills": [
+      "State wildlife agency",
+      "Cheap on-site housing ($10/night)",
+      "25 weeks, Jan–June",
+      "Position #77904040"
+    ],
+    "start": "January 2027 · 25 weeks, January–June",
+    "relocation": "local",
+    "deadline_date": "2026-09-27",
+    "start_date": "2027-01-08"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-1412",
+    "title": "Mojave Desert Plant Field Technician (1–3 positions), winter–spring 2027 — botany and restoration research in Nevada and California (UNLV)",
+    "org": "University of Nevada, Las Vegas · Abella Applied Ecology Lab · Las Vegas, NV",
+    "location": "Mojave Desert field sites in Nevada and California (Las Vegas-based)",
+    "deadline": "November 15, 2026",
+    "badge": "Good fit",
+    "pay": "$3,900–$4,200 per month, depending on experience (published)",
+    "stipend": "",
+    "benefits": "",
+    "url": "https://abellaappliedecologylab.wordpress.com/about-us/opportunities/",
+    "url_label": "Mojave Desert Plant Field Technician (1–3 positions), winter–spring 2027 — botany and restoration research in Nevada and California (UNLV)",
+    "links": [
+      {
+        "href": "https://abellaappliedecologylab.wordpress.com/about-us/opportunities/",
+        "label": "🔗 Mojave Desert Plant Field Technician (1–3 positions), winter–spring 2027 — botany and restoration research in Nevada and California (UNLV)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118703",
+        "label": "🔗 Listing on the Texas A&M board"
+      }
+    ],
+    "metaLine": "Mojave Desert NV/CA · $3,900–$4,200/mo · 95% field botany · interviews mid-Oct to mid-Nov",
+    "body": "The Abella Applied Ecology Lab at UNLV is hiring one to three 2027 winter–spring field technicians. The positions are pitched at entry-level to early-career professionals who want to learn and strengthen plant identification (dichotomous keys, taxonomic resources), field navigation, research, data collection and management, and field-to-lab skills. They are 95% field-based in semi-remote to remote desert environments; applicants must show two years of cumulative outdoor experience, which can include professional or academic data collection, camping, hiking or backpacking. Mojave Desert plant experience is preferred. Pay $3,900–$4,200 per month. Use the subject line \"2027 Winter-Spring Technician\"; interviews run mid-October to mid-November, with offers by late November.",
+    "desc": "The \"two years outdoor experience\" line counts camping, backpacking and academic fieldwork, so your NCCC service and field courses should clear it. The pay is good for a seasonal technician, and a research lab that explicitly targets early-career people will train you in desert plant ID. It is botany rather than wildlife, and it adds a desert ecosystem to your record. The January start leaves plenty of time to plan the move.",
+    "pills": [
+      "$3,900–$4,200/month",
+      "Entry-level to early-career",
+      "95% field-based",
+      "Offers by late November"
+    ],
+    "start": "Between January 20 and February 10, 2027",
+    "relocation": "lead",
+    "deadline_date": "2026-11-15",
+    "start_date": "2027-01-20"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1413",
+    "title": "Research Technician — fisheries ecology field and data work across Alabama and Mississippi (USGS Alabama Cooperative Fish & Wildlife Research Unit)",
+    "org": "USGS Alabama Cooperative Fish and Wildlife Research Unit · Auburn University · Auburn, AL",
+    "location": "Auburn, Alabama (fieldwork throughout Alabama and Mississippi)",
+    "deadline": "October 15, 2026",
+    "badge": "Good fit",
+    "pay": "$15–$20 per hour (published)",
+    "stipend": "",
+    "benefits": "Field housing provided during field trips",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118704",
+    "url_label": "Research Technician — fisheries ecology field and data work across Alabama and Mississippi (USGS Alabama Cooperative Fish & Wildlife Research Unit)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118704",
+        "label": "🔗 Research Technician — fisheries ecology field and data work across Alabama and Mississippi (USGS Alabama Cooperative Fish & Wildlife Research Unit)"
+      }
+    ],
+    "metaLine": "Auburn AL · $15–$20/hr · USGS Coop Unit fisheries tech · ⚠ boat + electrofishing experience asked",
+    "body": "A research technician assisting with fisheries ecology projects based at Auburn University, with field and campus work. Field duties include sampling freshwater fishes, measuring aquatic habitat, tracking tagged fish, downloading data from submersible ultrasonic receivers, maintaining equipment and recording data, throughout Alabama and Mississippi, with trips of one to two weeks (field housing provided during trips). On campus the technician does data entry, organisation and quality control, and prepares tables and figures. Applicants must have some experience operating boats and electrofishing; fisheries sampling, fish ID, telemetry, habitat measurement, data management, R or Excel experience is helpful. Pay $15–$20 per hour; bachelor's required. Closes October 15 2026.",
+    "desc": "Cooperative Research Units are USGS staff embedded in universities, so this is a way into both a federal science network and an Auburn lab — many Coop Unit technicians become that unit's next MS students. The data QA/QC and figure work suits you. Be honest about the stated requirement: some boat operation and electrofishing experience is required, so apply only if you have some or can describe close equivalents.",
+    "pills": [
+      "USGS Cooperative Research Unit",
+      "Fish tracking + habitat measurement",
+      "Data QA/QC + R/Excel",
+      "⚠ Boat & electrofishing experience required"
+    ],
+    "start": "Between September and November 1, 2026",
+    "relocation": "local",
+    "deadline_date": "2026-10-15"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-1414",
+    "title": "Biological Technician (12-month term) — captive care and release monitoring for the endangered masked bobwhite, Buenos Aires National Wildlife Refuge (USFWS)",
+    "org": "U.S. Fish and Wildlife Service · Buenos Aires National Wildlife Refuge · appointment through AVCA · Sasabe, AZ",
+    "location": "Buenos Aires National Wildlife Refuge, near Sasabe/Arivaca, Arizona",
+    "deadline": "October 1, 2026",
+    "badge": "Good fit",
+    "pay": "$20 per hour (published)",
+    "stipend": "",
+    "benefits": "12-month term",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118706",
+    "url_label": "Biological Technician (12-month term) — captive care and release monitoring for the endangered masked bobwhite, Buenos Aires National Wildlife Refuge (USFWS)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118706",
+        "label": "🔗 Biological Technician (12-month term) — captive care and release monitoring for the endangered masked bobwhite, Buenos Aires National Wildlife Refuge (USFWS)"
+      }
+    ],
+    "metaLine": "Buenos Aires NWR, AZ · $20/hr · 12-month term on an endangered-species recovery programme",
+    "body": "A 12-month technician to help care for and recover the masked bobwhite at the 118,000-acre Buenos Aires National Wildlife Refuge near Arivaca, Arizona. The refuge holds a captive population of 200–300 birds, with no known wild populations. Supervised by refuge staff, with the appointment made through AVCA in cooperation with USFWS. Duties include changing food and water, cleaning and disinfecting, watching for injury, monitoring social dynamics and vegetation management, and may include assisting veterinary care and examinations and post-release monitoring on the refuge. Animal care experience is preferred and bird experience would be ideal. Pay $20 per hour. Closes October 1 2026.",
+    "desc": "A year on a National Wildlife Refuge working directly for refuge biologists on one of the country's most endangered birds is a strong line for the USFWS career you are aiming at, and refuge staff are the people who later hire and recommend. The daily work is mostly animal husbandry rather than field ecology, with release monitoring as the field component. Ask whether refuge housing is available — the posting does not say.",
+    "pills": [
+      "National Wildlife Refuge",
+      "Federally endangered species",
+      "12-month term",
+      "Animal care experience preferred"
+    ],
+    "start": "Between September 21 and October 31, 2026",
+    "relocation": "tight",
+    "deadline_date": "2026-10-01",
+    "start_date": "2026-10-15"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Southwest",
+    "id": "item-1415",
+    "title": "Bat Monitoring Assistant — AmeriCorps with the NPS Mojave Desert Inventory & Monitoring Network, $975/week (Stewards Individual Placements)",
+    "org": "Stewards Individual Placements (Conservation Legacy) · host: NPS Mojave Desert I&M Network · Boulder City, NV",
+    "location": "Mojave Desert I&M Network Office, Boulder City, Nevada (parks of the Mojave network)",
+    "deadline": "October 2, 2026 (preference date — rolling review after)",
+    "badge": "Strong fit",
+    "pay": "Starting at $975 per week (published)",
+    "stipend": "$975/week AmeriCorps living allowance",
+    "benefits": "900-hour AmeriCorps term — Segal Education Award on completion",
+    "url": "https://secure8.entertimeonline.com/ta/conservationlegacy.careers?ShowJob=738748803",
+    "url_label": "Bat Monitoring Assistant — AmeriCorps with the NPS Mojave Desert Inventory & Monitoring Network, $975/week (Stewards Individual Placements)",
+    "links": [
+      {
+        "href": "https://secure8.entertimeonline.com/ta/conservationlegacy.careers?ShowJob=738748803",
+        "label": "🔗 Bat Monitoring Assistant — AmeriCorps with the NPS Mojave Desert Inventory & Monitoring Network, $975/week (Stewards Individual Placements)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118707",
+        "label": "🔗 Listing on the Texas A&M board"
+      }
+    ],
+    "metaLine": "Boulder City NV · $975/WEEK · NPS bat inventory & monitoring · Jan–July 2027 · apply by Oct 2",
+    "body": "Stewards Individual Placements, in partnership with the NPS Mojave Desert Inventory & Monitoring Network (MOJN), will host a Bat Monitoring Assistant — an AmeriCorps position helping collect and manage data about bats in the network's parks. The 900-hour, 26-week term runs from January 11 to July 9 2027 at the MOJN office in Boulder City, Nevada. The living allowance starts at $975 per week and a bachelor's is required. Preference is given to applications submitted by October 2 2026, after which they are reviewed on a rolling basis.",
+    "desc": "The NPS Inventory & Monitoring programme is the Park Service's long-term ecological science arm, and a term inside it is a strong line for any federal biology application. Bat monitoring — acoustic detectors, data management — is a close cousin of your camera-trap work. At $975 a week this is the best-paid AmeriCorps term on the list, and the January start gives four months to plan. As an NCCC alumna you know how the model works; confirm the age rule in the eligibility section.",
+    "pills": [
+      "$975/week — unusually high for AmeriCorps",
+      "National Park Service I&M network",
+      "Bat monitoring + data management",
+      "Bachelor's required"
+    ],
+    "start": "January 11 – July 9, 2027 · 900 hours, 26 weeks",
+    "relocation": "lead",
+    "deadline_date": "2026-10-02",
+    "start_date": "2027-01-11"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-1416",
+    "title": "Ecosystem Restoration & Land Stewardship Intern — native planting and invasive removal in northern New Jersey (Restore Native Plants)",
+    "org": "Restore Native Plants (non-profit) · Oakland, NJ",
+    "location": "Oakland, New Jersey (sites across the region)",
+    "deadline": "October 30, 2026",
+    "badge": "Good fit",
+    "pay": "$500–$1,000 per month (published)",
+    "stipend": "",
+    "benefits": "",
+    "url": "https://restorenativeplants.org/",
+    "url_label": "Ecosystem Restoration & Land Stewardship Intern — native planting and invasive removal in northern New Jersey (Restore Native Plants)",
+    "links": [
+      {
+        "href": "https://restorenativeplants.org/",
+        "label": "🔗 Ecosystem Restoration & Land Stewardship Intern — native planting and invasive removal in northern New Jersey (Restore Native Plants)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118710",
+        "label": "🔗 Listing on the Texas A&M board"
+      }
+    ],
+    "metaLine": "Oakland NJ · $500–$1,000/mo · hands-on restoration internship for recent grads · spring 2027",
+    "body": "Restore Native Plants is a non-profit that protects, enhances and restores native plants, wildlife, ecosystems and natural resources through community programmes combining hands-on ecological work with educational outreach. Its Ecosystem Restoration and Land Stewardship Internship involves planting native species, removing invasive plants and supporting habitat restoration across the region — outdoor, physically active work aimed at college students and recent graduates. Applicants may apply for multiple cohorts; the listed cohort starts in April 2027. Pay $500–$1,000 per month. Apply on RNP's website; the Texas A&M listing gives an October 30 2026 deadline.",
+    "desc": "A small restoration non-profit that explicitly welcomes recent graduates, within a day's drive of Richmond. The pay is a stipend, so it is a filler or springboard rather than a job — worth it only if you want spring restoration experience in the Northeast and have housing sorted.",
+    "pills": [
+      "Non-profit",
+      "Aimed at recent graduates",
+      "Native planting + invasive removal",
+      "Multiple cohorts"
+    ],
+    "start": "Spring 2027 cohort (from April 2027)",
+    "relocation": "local",
+    "deadline_date": "2026-10-30",
+    "start_date": "2027-04-05"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Northeast",
+    "id": "item-1417",
+    "title": "Forestry Technician — forest inventory, stewardship plans and GIS mapping for private landowners in northern Vermont (Northern Stewards)",
+    "org": "Northern Stewards LLC Forestry Consulting · Waterbury, VT",
+    "location": "Waterbury, Vermont (field work across northern Vermont; some remote office work negotiable)",
+    "deadline": "Open until filled (Texas A&M listing shows October 1, 2026)",
+    "badge": "Good fit",
+    "pay": "$18–$22 per hour (published)",
+    "stipend": "",
+    "benefits": "Temporary position",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118711",
+    "url_label": "Forestry Technician — forest inventory, stewardship plans and GIS mapping for private landowners in northern Vermont (Northern Stewards)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118711",
+        "label": "🔗 Forestry Technician — forest inventory, stewardship plans and GIS mapping for private landowners in northern Vermont (Northern Stewards)"
+      }
+    ],
+    "metaLine": "Waterbury VT · $18–$22/hr · forest inventory + basic plans + GIS maps · open until filled",
+    "body": "Northern Stewards is a small consulting forestry company serving private forest landowners in northern Vermont, doing forest inventories, forest plan preparation and stewardship planning and implementation. It has an immediate opening for a temporary forestry technician based in Waterbury, with some remote office work negotiable. Under a Forester, the technician conducts forest inventories across northern Vermont, collects and manages forest data, prepares basic forest plans and GIS maps, and marks property boundaries and stewardship activities, in difficult terrain and all seasons. Pay $18–$22 per hour. Open until filled.",
+    "desc": "A short, practical post where GIS mapping and plan-writing are part of the job, not just field labour, and private-landowner stewardship is the same skill set NRCS and state service foresters use. It is forestry rather than wildlife, and temporary; a reasonable bridge if you want Northeast experience.",
+    "pills": [
+      "GIS mapping is a named duty",
+      "Private-landowner stewardship",
+      "Temporary, immediate start",
+      "~1 yr experience listed"
+    ],
+    "start": "Immediate",
+    "relocation": "local",
+    "deadline_date": "2026-10-01"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1418",
+    "title": "Temporary Technician — amphibian and reptile ECOTOXICOLOGY, wetland ecology and acoustic monitoring (UGA Savannah River Ecology Laboratory, Lance Lab)",
+    "org": "University of Georgia · Savannah River Ecology Laboratory · Lance Lab · Aiken, SC",
+    "location": "Savannah River Site, Aiken, South Carolina",
+    "deadline": "September 25, 2026",
+    "badge": "Strong fit",
+    "pay": "$18–$20 per hour (published)",
+    "stipend": "",
+    "benefits": "Full-time for up to 8 months; no benefits",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118713",
+    "url_label": "Temporary Technician — amphibian and reptile ECOTOXICOLOGY, wetland ecology and acoustic monitoring (UGA Savannah River Ecology Laboratory, Lance Lab)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118713",
+        "label": "🔗 Temporary Technician — amphibian and reptile ECOTOXICOLOGY, wetland ecology and acoustic monitoring (UGA Savannah River Ecology Laboratory, Lance Lab)"
+      }
+    ],
+    "metaLine": "Aiken SC · $18–$20/hr · ECOTOXICOLOGY + wetland ecology at SREL · 5.5 hrs from Richmond · closes Sept 25",
+    "body": "The Lance Lab at UGA's Savannah River Ecology Laboratory is hiring up to two full-time temporary technicians for up to eight months (no benefits). They will assist with projects in amphibian and reptile ecotoxicology, population monitoring, wetland ecology and conservation ecology — primarily (1) acoustic recording of amphibians and birds as part of a habitat restoration effort and monitoring frog breeding activity, (2) maintaining remote environmental data loggers and curating their data, (3) assisting graduate students and a postdoctoral fellow with amphibian conservation research, and (4) general lab maintenance, safety compliance and animal care. A bachelor's in ecology, biology, toxicology, botany or a related field is required; research experience preferred. Pay $18–$20 per hour. Closes September 25 2026.",
+    "desc": "SREL is one of the most respected field ecology labs in the Southeast, and the Lance Lab works on contaminants in wetland wildlife — the natural next step from a capstone on trace-metal contamination in a river system. Acoustic monitoring and data loggers use the same instincts as your camera-trap work, and working beside graduate students and a postdoc is how SREL technicians often move into assistantships there. An eight-month technician post with no benefits, but the connection is the point. It is a day's drive from Richmond.",
+    "pills": [
+      "Ecotoxicology — her capstone's field",
+      "Wetland ecology + habitat restoration",
+      "Acoustic monitoring + data loggers",
+      "Bachelor's required"
+    ],
+    "start": "Between October 9 and November 13, 2026 · up to 8 months",
+    "relocation": "local",
+    "deadline_date": "2026-09-25",
+    "start_date": "2026-10-15"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-1419",
+    "title": "Leadership Development Program — restoration crew member training to become a crew leader (Great Basin Institute, Las Vegas)",
+    "org": "The Great Basin Institute · Las Vegas, NV",
+    "location": "Las Vegas, Nevada",
+    "deadline": "December 31, 2026",
+    "badge": "Good fit",
+    "pay": "Up to $2,707.68 per month (published)",
+    "stipend": "",
+    "benefits": "",
+    "url": "https://www.paycomonline.net/v4/ats/web.php/portal/A1ADEF5691B02D64E998539442696918/jobs/429697",
+    "url_label": "Leadership Development Program — restoration crew member training to become a crew leader (Great Basin Institute, Las Vegas)",
+    "links": [
+      {
+        "href": "https://www.paycomonline.net/v4/ats/web.php/portal/A1ADEF5691B02D64E998539442696918/jobs/429697",
+        "label": "🔗 Leadership Development Program — restoration crew member training to become a crew leader (Great Basin Institute, Las Vegas)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118720",
+        "label": "🔗 Listing on the Texas A&M board"
+      }
+    ],
+    "metaLine": "Las Vegas NV · up to $2,708/mo · restoration crew + leadership training → crew-leader eligibility",
+    "body": "Members of GBI's Leadership Development Program serve on a recreation and restoration crew, gaining hands-on conservation experience alongside training and mentorship in leadership, safety and technical skills. Projects may include trail construction and maintenance, hazardous and wildfire fuels reduction, hazardous tree removal, habitat restoration, invasive species treatment, fence installation or removal, clean-up of illegal dumping and decommissioning unauthorised motorised routes. Leadership training covers conflict resolution, mental health first aid, prioritisation, performance management, team development and decision-making. On completion of the programme and leadership retreat, members are eligible to serve as restoration crew leaders. Up to $2,707.68 per month, from February 2027.",
+    "desc": "A structured path from crew member to crew leader with one of the West's biggest conservation staffing organisations — GBI also places research associates with the BLM, NPS and USFS, so a good record there opens those doors. As an NCCC alumna you already have the crew experience. It is restoration labour more than science; check the eligibility section for any age rule before applying.",
+    "pills": [
+      "Restoration + habitat work",
+      "Crew-leader training",
+      "Starts February 2027",
+      "Confirm age rule"
+    ],
+    "start": "From February 2027",
+    "relocation": "lead",
+    "deadline_date": "2026-12-31",
+    "start_date": "2027-02-01"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-1420",
+    "title": "Research Scientist — permanent civil-service position, West Sacramento (California Department of Fish and Wildlife, JC-531426)",
+    "org": "California Department of Fish and Wildlife · West Sacramento, CA",
+    "location": "1010 Riverside Parkway, West Sacramento, California",
+    "deadline": "September 23, 2026",
+    "badge": "Reach",
+    "pay": "$6,942–$9,799 per month (published)",
+    "stipend": "",
+    "benefits": "Permanent, full-time state civil service",
+    "url": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=531426",
+    "url_label": "Research Scientist — permanent civil-service position, West Sacramento (California Department of Fish and Wildlife, JC-531426)",
+    "links": [
+      {
+        "href": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=531426",
+        "label": "🔗 Research Scientist — permanent civil-service position, West Sacramento (California Department of Fish and Wildlife, JC-531426)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118724",
+        "label": "🔗 Listing on the Texas A&M board"
+      }
+    ],
+    "metaLine": "West Sacramento CA · $6.9k–$9.8k/mo · permanent CDFW research post · ⚠ check the class minimums",
+    "body": "A permanent, full-time civil-service Research Scientist position with the California Department of Fish and Wildlife in West Sacramento (job control 531426). Salary $6,942–$9,799 per month. The Texas A&M listing gives a bachelor's with no experience minimum, a September 23 2026 deadline and an October–November start; contact Martha Volkoff (916-203-2255, martha.volkoff@wildlife.ca.gov), preferably via the CalCareers posting.",
+    "desc": "Filed as a Reach because the summary gives almost nothing away: California Research Scientist classes usually carry specific education and research-experience minimums and require an eligibility exam, and the duty statement on CalCareers will say which research unit this is. It is here because the pay is high, the post is permanent, and the listing states a bachelor's with no experience minimum. Read the duty statement and class specification before investing time.",
+    "pills": [
+      "Permanent civil service",
+      "$6,942–$9,799/month",
+      "⚠ Check eligibility / exam",
+      "Closes Sept 23"
+    ],
+    "start": "Between October 19 and November 16, 2026",
+    "relocation": "unknown",
+    "deadline_date": "2026-09-23"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1421",
+    "title": "Biodiversity Monitoring Research Intern — rooftop acoustic bat and bird sensors, light-pollution and thermal cameras across Chicago (UIUC / Lincoln Park Zoo)",
+    "org": "University of Illinois Urbana-Champaign · NRES Migration Biology Lab · with Lincoln Park Zoo Urban Wildlife Institute · Chicago, IL",
+    "location": "Chicago, Illinois",
+    "deadline": "September 20, 2026 (later applications may be accepted)",
+    "badge": "Good fit",
+    "pay": "$17 per hour (published)",
+    "stipend": "",
+    "benefits": "Housing not provided",
+    "url": "https://forms.gle/nrKnCHarx968iqG37",
+    "url_label": "Biodiversity Monitoring Research Intern — rooftop acoustic bat and bird sensors, light-pollution and thermal cameras across Chicago (UIUC / Lincoln Park Zoo)",
+    "links": [
+      {
+        "href": "https://forms.gle/nrKnCHarx968iqG37",
+        "label": "🔗 Biodiversity Monitoring Research Intern — rooftop acoustic bat and bird sensors, light-pollution and thermal cameras across Chicago (UIUC / Lincoln Park Zoo)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118725",
+        "label": "🔗 Listing on the Texas A&M board"
+      }
+    ],
+    "metaLine": "Chicago · $17/hr · 12 weeks Oct–Dec · passive acoustic + thermal sensor networks",
+    "body": "A Biodiversity Monitoring Research Intern will help prepare, deploy and maintain passive biodiversity sensors across a network of Chicagoland rooftops from October to December 2026 — acoustic monitors for bats and birds, light-pollution sensors and thermal cameras — working with UIUC's Migration Biology Lab, Lincoln Park Zoo's Urban Wildlife Institute and the Windy City Bird Lab. Tasks include hardware design and fabrication among others. Full-time, 12 weeks, $17 per hour, intended start October 1 2026; housing is not provided. Apply via the Google form by September 20 for full consideration.",
+    "desc": "Passive sensor networks are the direct descendant of camera-trap monitoring, and Lincoln Park Zoo's Urban Wildlife Institute is the group that built the continent-wide urban camera-trap network your Wildlife Insights experience plugs into — a good contact to have. Short, urban and unhoused, and it starts in under three weeks, so only for a quick move.",
+    "pills": [
+      "Passive sensors — like camera traps",
+      "Lincoln Park Zoo Urban Wildlife Institute",
+      "12 weeks, Oct–Dec 2026",
+      "No experience required"
+    ],
+    "start": "October 1, 2026 (contingent) · 12 weeks",
+    "relocation": "tight",
+    "deadline_date": "2026-09-20",
+    "start_date": "2026-10-01"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1422",
+    "title": "Coyote Trapping Technician (2–3) — capture, sampling and GPS-collaring of Gulf Coast coyotes (Mississippi State University / Michigan Tech)",
+    "org": "Mississippi State University · Carnivore Population & Ecology Lab · with Michigan Technological University · Gulf Coast",
+    "location": "Gulf Coast (Mississippi State University project; multiple sites)",
+    "deadline": "October 15, 2026",
+    "badge": "Strong fit",
+    "pay": "$15–$20 per hour (published)",
+    "stipend": "",
+    "benefits": "",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118732",
+    "url_label": "Coyote Trapping Technician (2–3) — capture, sampling and GPS-collaring of Gulf Coast coyotes (Mississippi State University / Michigan Tech)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118732",
+        "label": "🔗 Coyote Trapping Technician (2–3) — capture, sampling and GPS-collaring of Gulf Coast coyotes (Mississippi State University / Michigan Tech)"
+      }
+    ],
+    "metaLine": "Gulf Coast · $15–$20/hr · live capture + GPS collaring of coyotes · starts Dec 1 · closes Oct 15",
+    "body": "The Carnivore Population and Ecology lab at Mississippi State University and Michigan Technological University are seeking two to three field technicians for a collaborative project on the ecology of Gulf Coast coyotes. Technicians capture and handle coyotes, collect samples and fit GPS collars. Duties include preparing and maintaining equipment and vehicles; setting, checking and maintaining traps under approved IACUC protocols; handling captures, releasing non-targets, and collecting samples and measurements; data collection and management; monitoring collared animals; collecting environmental samples; and communicating with agency staff, landowners and the public. Experience with safe capture and handling of animals is required. Pay $15–$20 per hour, starting December 1 2026. Closes October 15 2026.",
+    "desc": "Your small-mammal trapping is exactly the \"safe capture and handling\" experience this asks for, and carnivore capture with GPS collars is a big step up in the same skill. Carnivore projects run by two universities are also a good source of future MS openings. The pay is technician-level, but a winter start and the Gulf Coast's drivable distance make it realistic.",
+    "pills": [
+      "Live capture + handling",
+      "GPS collar deployment",
+      "IACUC-approved protocols",
+      "Capture experience required"
+    ],
+    "start": "December 1, 2026",
+    "relocation": "local",
+    "deadline_date": "2026-10-15",
+    "start_date": "2026-12-01"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1423",
+    "title": "Ichauway Conservation Fellowship — 18–24 month in-residence natural-resource management fellowship with a route to a GRADUATE DEGREE (Jones Center at Ichauway)",
+    "org": "The Jones Center at Ichauway · Newton, GA",
+    "location": "Ichauway, Newton, Georgia (30,000-acre property between Albany and Bainbridge)",
+    "deadline": "October 31, 2026",
+    "badge": "Top recommendation",
+    "pay": "Starting at $28,000 per year (published)",
+    "stipend": "",
+    "benefits": "In-residence programme; opportunity to pursue a graduate degree",
+    "url": "https://www.jonesctr.org/jobs/",
+    "url_label": "Ichauway Conservation Fellowship — 18–24 month in-residence natural-resource management fellowship with a route to a GRADUATE DEGREE (Jones Center at Ichauway)",
+    "links": [
+      {
+        "href": "https://www.jonesctr.org/jobs/",
+        "label": "🔗 Ichauway Conservation Fellowship — 18–24 month in-residence natural-resource management fellowship with a route to a GRADUATE DEGREE (Jones Center at Ichauway)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118735",
+        "label": "🔗 Listing on the Texas A&M board"
+      }
+    ],
+    "metaLine": "SW Georgia · $28k · 18–24 months in residence + route to a GRAD DEGREE · bachelor's, no experience listed",
+    "body": "Ichauway, Inc. invites applications for the Ichauway Conservation Fellowship, an 18–24-month in-residence programme providing practical, applied natural-resource management experience with the opportunity to pursue a graduate degree. Ichauway is a 30,000-acre property in southwestern Georgia containing 18,000 acres of longleaf pine woodland, 1,000 acres of wetlands and 25 miles of stream and river, with an 18,000-square-foot research laboratory. Qualifications: a bachelor's in forestry, wildlife management, ecology or a related field; the programme has high expectations for professionalism and hard work. No visa sponsorship. Starting at $28,000 per year. The Texas A&M listing gives an October 31 2026 deadline and a start after January 1 2027.",
+    "desc": "Marked a Top recommendation because it answers the question you keep circling — job or grad school — with both. The Jones Center is one of the premier ecological research sites in the Southeast, and this fellowship pays a salary, puts you in residence on a huge longleaf, wetland and river property, and offers a route to a graduate degree. Ask two things early: whether residence means housing is provided free, and how the graduate-degree component works (which university, and whether tuition is covered). It is about seven hours from Richmond.",
+    "pills": [
+      "Route to a graduate degree",
+      "18,000 acres longleaf + 1,000 acres wetlands",
+      "Bachelor's, no experience listed",
+      "In residence on the property"
+    ],
+    "start": "After January 1, 2027 · 18–24 months in residence",
+    "relocation": "local",
+    "deadline_date": "2026-10-31",
+    "start_date": "2027-01-04"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1424",
+    "title": "Conservation Forestry & Wildlife Biologist — longleaf pine ecological forestry and wildlife management (Jones Center at Ichauway)",
+    "org": "The Jones Center at Ichauway · Newton, GA",
+    "location": "Ichauway, Newton, Georgia",
+    "deadline": "October 31, 2026",
+    "badge": "Reach",
+    "pay": "Commensurate (not published)",
+    "stipend": "",
+    "benefits": "",
+    "url": "https://www.jonesctr.org/jobs/",
+    "url_label": "Conservation Forestry & Wildlife Biologist — longleaf pine ecological forestry and wildlife management (Jones Center at Ichauway)",
+    "links": [
+      {
+        "href": "https://www.jonesctr.org/jobs/",
+        "label": "🔗 Conservation Forestry & Wildlife Biologist — longleaf pine ecological forestry and wildlife management (Jones Center at Ichauway)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118736",
+        "label": "🔗 Listing on the Texas A&M board"
+      }
+    ],
+    "metaLine": "SW Georgia · permanent biologist at a top research property · ⚠ MS preferred or BS + substantial experience",
+    "body": "Ichauway, Inc. invites applications for a Conservation Forestry and Wildlife Biologist on its 30,000-acre southwestern Georgia property (18,000 acres of longleaf pine, 1,000 acres of wetlands, 25 miles of streams and rivers). Qualifications: an M.S. (preferred) or a B.S. with substantial experience in wildlife ecology and management, forestry or a related field; experience in wildlife ecology and forest management; skills in forest mensuration and implementing forest operations; and working knowledge of the longleaf ecosystem and ecological forestry. No visa sponsorship. The Texas A&M listing gives an October 31 2026 deadline.",
+    "desc": "Listed for completeness beside the Ichauway Conservation Fellowship — this is the job the fellowship prepares people for, and it is a Reach today given the MS or substantial-experience requirement. If the fellowship appeals, reading this description tells you where it leads.",
+    "pills": [
+      "⚠ MS preferred",
+      "Longleaf pine ecosystem",
+      "Forest mensuration",
+      "No visa sponsorship"
+    ],
+    "start": "Before December 31, 2026",
+    "relocation": "local",
+    "deadline_date": "2026-10-31"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1425",
+    "title": "Invasive Hornet Field Supervisor — lead yellow-legged hornet detection and eradication surveys with ArcGIS mobile (Clemson University Regulatory Services)",
+    "org": "Clemson University · Regulatory Services / Department of Plant Industry · Charleston, SC",
+    "location": "Charleston, South Carolina",
+    "deadline": "September 25, 2026 (may be extended)",
+    "badge": "Good fit",
+    "pay": "$55,000–$65,000 per year (published)",
+    "stipend": "",
+    "benefits": "Clemson job ID 10694 · Environmental Health Manager II",
+    "url": "https://www.clemson.edu/careers",
+    "url_label": "Invasive Hornet Field Supervisor — lead yellow-legged hornet detection and eradication surveys with ArcGIS mobile (Clemson University Regulatory Services)",
+    "links": [
+      {
+        "href": "https://www.clemson.edu/careers",
+        "label": "🔗 Invasive Hornet Field Supervisor — lead yellow-legged hornet detection and eradication surveys with ArcGIS mobile (Clemson University Regulatory Services)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118741",
+        "label": "🔗 Listing on the Texas A&M board"
+      }
+    ],
+    "metaLine": "Charleston SC · $55k–$65k · invasive-species rapid response + ArcGIS mobile · bachelor's",
+    "body": "Clemson's Regulatory Services is hiring an Invasive Hornet Field Supervisor (Environmental Health Manager II, job ID 10694) in Charleston to lead a team supporting early detection and rapid response for the yellow-legged hornet. Duties: conduct and coordinate surveys and field inspections for invasive species, advise on survey scheduling and response priorities, coordinate eradication and containment, respond to public reports and educate stakeholders, enforce plant pest and honeybee regulations, maintain state equipment, and use and supervise ArcGIS mobile data collection applications, across apiaries, farms, forests and residential areas. Salary $55,000–$65,000. Apply at clemson.edu/careers; application deadline September 25 2026 (may be extended).",
+    "desc": "Invasive-species early detection is a growing public career track, and South Carolina is standing up a real programme against a new invasive. This supervisor post pays well for a bachelor's-level role and puts ArcGIS field data collection at its centre. Supervising a team on day one is the stretch; the Survey Specialist posts in the same programme are the lower-risk way in.",
+    "pills": [
+      "$55k–$65k",
+      "Early detection & rapid response",
+      "Supervises ArcGIS mobile data collection",
+      "Job ID 10694"
+    ],
+    "start": "After December 1, 2026",
+    "relocation": "local",
+    "deadline_date": "2026-09-25"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1426",
+    "title": "Invasive Hornet Survey Specialists (several) — trapping and survey for yellow-legged hornet, coastal South Carolina (Clemson University Regulatory Services)",
+    "org": "Clemson University · Regulatory Services / Department of Plant Industry · Charleston, SC",
+    "location": "Charleston, South Carolina (assigned region)",
+    "deadline": "September 25, 2026 (may be extended)",
+    "badge": "Good fit",
+    "pay": "$44,000–$54,000 per year (published)",
+    "stipend": "",
+    "benefits": "Clemson job ID 10697 · Investigator IV · 37.5–40 hrs/week with possible overtime",
+    "url": "https://www.clemson.edu/careers",
+    "url_label": "Invasive Hornet Survey Specialists (several) — trapping and survey for yellow-legged hornet, coastal South Carolina (Clemson University Regulatory Services)",
+    "links": [
+      {
+        "href": "https://www.clemson.edu/careers",
+        "label": "🔗 Invasive Hornet Survey Specialists (several) — trapping and survey for yellow-legged hornet, coastal South Carolina (Clemson University Regulatory Services)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118742",
+        "label": "🔗 Listing on the Texas A&M board"
+      }
+    ],
+    "metaLine": "Charleston SC · $44k–$54k · several openings · invasive-species trapping + surveys · no degree required",
+    "body": "Clemson Regulatory Services is hiring several Invasive Hornet Survey Specialists (Investigator IV, job ID 10697) in Charleston to support early detection and rapid response for the yellow-legged hornet. Duties: conduct independent and team surveys and field inspections, trap and monitor for yellow-legged hornet, assist eradication and containment, respond to public reports and educate stakeholders, enforce plant pest and honeybee regulations, and maintain and operate state equipment across the assigned region. 37.5–40 hours per week with possible overtime. Salary $44,000–$54,000. Apply at clemson.edu/careers; deadline September 25 2026 (may be extended).",
+    "desc": "Several openings, a salary well above technician rates, and field survey and trapping work in coastal South Carolina — about six hours from Richmond. The subject is an insect rather than wildlife, but invasive-species survey skills (detection, trapping protocols, GIS data) transfer directly to state and federal biosecurity careers.",
+    "pills": [
+      "Several openings",
+      "$44k–$54k",
+      "Trapping + field surveys",
+      "Job ID 10697"
+    ],
+    "start": "After December 1, 2026",
+    "relocation": "local",
+    "deadline_date": "2026-09-25"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1427",
+    "title": "Invasive Hornet Program Coordinator — ArcGIS data and web apps, survey coordination and interns (Clemson University Regulatory Services, Pendleton)",
+    "org": "Clemson University · Regulatory Services / Department of Plant Industry · Pendleton, SC",
+    "location": "Pendleton, South Carolina",
+    "deadline": "September 25, 2026 (may be extended)",
+    "badge": "Good fit",
+    "pay": "$42,000–$52,000 per year (published)",
+    "stipend": "",
+    "benefits": "Clemson job ID 10698 · Program Coordinator II",
+    "url": "https://www.clemson.edu/careers",
+    "url_label": "Invasive Hornet Program Coordinator — ArcGIS data and web apps, survey coordination and interns (Clemson University Regulatory Services, Pendleton)",
+    "links": [
+      {
+        "href": "https://www.clemson.edu/careers",
+        "label": "🔗 Invasive Hornet Program Coordinator — ArcGIS data and web apps, survey coordination and interns (Clemson University Regulatory Services, Pendleton)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118743",
+        "label": "🔗 Listing on the Texas A&M board"
+      }
+    ],
+    "metaLine": "Pendleton SC · $42k–$52k · ArcGIS map data + web apps for an invasive-species response · bachelor's",
+    "body": "Clemson Regulatory Services is hiring an Invasive Hornet Program Coordinator (Program Coordinator II, job ID 10698) in Pendleton to support the Department of Plant Industry's invasive species operations, specifically the yellow-legged hornet response. Duties: review and reply to public reports, help manage ArcGIS map data and web applications, supervise student interns, recruit and act as point of contact for part-time surveyors hired through a temp agency, organise survey data, supplies, research samples and grant reports, and take part in educational and outreach programming. Salary $42,000–$52,000. Apply at clemson.edu/careers; deadline September 25 2026 (may be extended).",
+    "desc": "The GIS-heavy seat in Clemson's hornet response: managing ArcGIS map data and web apps is a named duty, and it sits in upstate South Carolina next to a major land-grant university. A reasonable first salaried job that uses your GIS directly, even though the organism is an insect.",
+    "pills": [
+      "ArcGIS map data + web apps",
+      "$42k–$52k",
+      "Upstate SC, near Clemson",
+      "Job ID 10698"
+    ],
+    "start": "After December 1, 2026",
+    "relocation": "local",
+    "deadline_date": "2026-09-25"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1428",
+    "title": "Forest Wildlife Specialist — NRCS partner 'wildlife forester' for young-forest habitat on private land, north-central Wisconsin (Ruffed Grouse Society)",
+    "org": "Ruffed Grouse Society & American Woodcock Society · with USDA NRCS · Ladysmith, WI",
+    "location": "Ladysmith, Wisconsin (north-central Wisconsin)",
+    "deadline": "October 18, 2026",
+    "badge": "Good fit",
+    "pay": "$50,000–$59,900 per year (published)",
+    "stipend": "",
+    "benefits": "Two-year term, likely to be extended with additional funding",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118749",
+    "url_label": "Forest Wildlife Specialist — NRCS partner 'wildlife forester' for young-forest habitat on private land, north-central Wisconsin (Ruffed Grouse Society)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118749",
+        "label": "🔗 Forest Wildlife Specialist — NRCS partner 'wildlife forester' for young-forest habitat on private land, north-central Wisconsin (Ruffed Grouse Society)"
+      }
+    ],
+    "metaLine": "Ladysmith WI · $50k–$59.9k · non-profit + NRCS partnership · two-year term · closes Oct 18",
+    "body": "The Ruffed Grouse Society and American Woodcock Society have a collaborative agreement with NRCS and are seeking a Forest Wildlife Specialist to work with private landowners and stakeholders in north-central Wisconsin. The specialist functions as a wildlife forester, providing conservation planning and technical assistance for forest wildlife habitat. Term October 2026 to September 2028, likely to be extended with additional funding; anticipated start mid-to-late November 2026. Salary $50,000–$59,900. Closes October 18 2026.",
+    "desc": "Another NRCS partner post — the same career-building pattern as the Pheasants Forever and Quail Forever positions — at a respectable salary, with a non-profit that is expanding its field staff. It leans toward forestry planning for young-forest wildlife. The two-year experience line is the stretch.",
+    "pills": [
+      "Non-profit + NRCS partnership",
+      "Private-landowner habitat planning",
+      "Two-year term, likely extended",
+      "Bachelor's + 2 yrs listed"
+    ],
+    "start": "Mid-to-late November 2026 · term October 2026 – September 2028, likely extended",
+    "relocation": "lead",
+    "deadline_date": "2026-10-18",
+    "start_date": "2026-11-16"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1429",
+    "title": "Seasonal Fisheries Worker (Natural Resources Technician) — Inland Fisheries Research Unit, Hebron (Ohio DNR Division of Wildlife)",
+    "org": "Ohio Department of Natural Resources · Division of Wildlife · Inland Fisheries Research Unit · Hebron, OH",
+    "location": "Hebron State Fish Hatchery, Hebron, Ohio (central Ohio)",
+    "deadline": "September 28, 2026",
+    "badge": "Good fit",
+    "pay": "Starting at $19.47 per hour (published)",
+    "stipend": "",
+    "benefits": "",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118751",
+    "url_label": "Seasonal Fisheries Worker (Natural Resources Technician) — Inland Fisheries Research Unit, Hebron (Ohio DNR Division of Wildlife)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118751",
+        "label": "🔗 Seasonal Fisheries Worker (Natural Resources Technician) — Inland Fisheries Research Unit, Hebron (Ohio DNR Division of Wildlife)"
+      }
+    ],
+    "metaLine": "Hebron OH · $19.47/hr · state fisheries research tech — sampling, creel, otoliths, QA/QC",
+    "body": "ODNR's Division of Wildlife Inland Fisheries Research Unit, based at Hebron State Fish Hatchery in central Ohio, seeks a Seasonal Fisheries Worker (Natural Resources Technician) for fisheries research and management projects. The unit runs research, coordinates university partnerships, and directs statewide fish population monitoring and creel surveys on reservoirs, rivers, streams and the Ohio River. Duties include fish population surveys (electrofishing, hoop, fyke and gill nets, hydroacoustics), angler creel surveys, tagging, lab processing and otolith ageing, fisheries data entry and QA/QC, and maintaining gear, boats and trailers. Pay starts at $19.47 per hour. Closes September 28 2026.",
+    "desc": "A state agency research unit rather than a production hatchery, with data QA/QC as an explicit part of the job. Fisheries is a sideways step for you, but a season with a state Division of Wildlife is a reference that carries into any agency application. Ohio is about six hours from Richmond.",
+    "pills": [
+      "State wildlife agency",
+      "Research unit, not hatchery production",
+      "Data entry + QA/QC",
+      "Bachelor's required"
+    ],
+    "start": "After October 1, 2026",
+    "relocation": "tight",
+    "deadline_date": "2026-09-28",
+    "start_date": "2026-10-01"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-1430",
+    "title": "Private Lands Biologist — coastal WETLAND and waterfowl habitat delivery on the Texas Coast (Ducks Unlimited)",
+    "org": "Ducks Unlimited · Texas Coast Field Office · Richmond, TX",
+    "location": "Richmond, Texas (Texas Coast; ~50% field)",
+    "deadline": "October 16, 2026",
+    "badge": "Good fit",
+    "pay": "Commensurate (not published)",
+    "stipend": "",
+    "benefits": "Work truck provided",
+    "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7deee1c0-b159-4fdc-8bdb-3f1d87c47510&ccId=19000101_000001&lang=en_US&jobId=588469",
+    "url_label": "Private Lands Biologist — coastal WETLAND and waterfowl habitat delivery on the Texas Coast (Ducks Unlimited)",
+    "links": [
+      {
+        "href": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7deee1c0-b159-4fdc-8bdb-3f1d87c47510&ccId=19000101_000001&lang=en_US&jobId=588469",
+        "label": "🔗 Private Lands Biologist — coastal WETLAND and waterfowl habitat delivery on the Texas Coast (Ducks Unlimited)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118757",
+        "label": "🔗 Listing on the Texas A&M board"
+      }
+    ],
+    "metaLine": "Richmond TX · DU wetland habitat programmes on the Texas Coast · ~50% field · 2 yrs experience listed",
+    "body": "Ducks Unlimited seeks a Private Lands Biologist to deliver wetland and waterfowl habitat conservation on private lands on the Texas Coast, working directly with landowners to plan and implement habitat restoration, enhancement and management with DU biologists, engineers and agency partners. The biologist leads delivery of DU's private-land programmes there — the Texas Prairie Wetlands Project and the Texas Coastal Wetlands Program — making sure projects are timely, accurate and compliant with funding and partnership requirements, and monitors a small portfolio of DU conservation easements. Based at the DU field office in Richmond, Texas, about 50% field and 50% office, with a work truck. The Texas A&M listing asks for a bachelor's plus two years of experience and closes October 16 2026.",
+    "desc": "Wetland restoration is DU's whole mission and your strongest skill, and private-lands habitat delivery is a career-building role. This is a permanent professional post; the two-year line is a stretch, so lead with your wetland delineation training and any landowner-facing NCCC work. Note that DU US lists all its openings through one ADP portal, so it is worth checking that page for technician-level posts too.",
+    "pills": [
+      "WETLAND restoration delivery",
+      "Texas Prairie Wetlands Project",
+      "Easement monitoring",
+      "Bachelor's + 2 yrs listed"
+    ],
+    "start": "After November 9, 2026",
+    "relocation": "unknown",
+    "deadline_date": "2026-10-16"
   }
 ]
