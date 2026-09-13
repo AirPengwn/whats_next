@@ -64964,5 +64964,600 @@
     "start": "Immediate (with some flexibility)",
     "relocation": "lead",
     "country": "CA"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-1506",
+    "title": "Fisheries Technician 4 (permanent) — bull trout, redd counts, creel surveys and stream SUBSTRATE coring, Region 1 Kalispell (Montana Fish, Wildlife & Parks)",
+    "org": "Montana Fish, Wildlife & Parks · Region 1 · Kalispell, MT",
+    "location": "Kalispell, Montana (Flathead region)",
+    "deadline": "September 23, 2026, 11:59 pm MT",
+    "badge": "Good fit",
+    "pay": "$24.44 per hour (published)",
+    "stipend": "",
+    "benefits": "Regular full-time state position",
+    "url": "https://mtstatejobs.taleo.net/careersection/200/jobdetail.ftl?job=26142282",
+    "url_label": "Fisheries Technician 4 (permanent) — bull trout, redd counts, creel surveys and stream SUBSTRATE coring, Region 1 Kalispell (Montana Fish, Wildlife & Parks)",
+    "links": [
+      {
+        "href": "https://mtstatejobs.taleo.net/careersection/200/jobdetail.ftl?job=26142282",
+        "label": "🔗 Fisheries Technician 4 (permanent) — bull trout, redd counts, creel surveys and stream SUBSTRATE coring, Region 1 Kalispell (Montana Fish, Wildlife & Parks)"
+      }
+    ],
+    "metaLine": "Kalispell MT · $24.44/hr · PERMANENT state fisheries tech · substrate coring + bull trout",
+    "body": "A regular, full-time Montana FWP technician doing fisheries research and monitoring in Region 1: gill-net surveys, juvenile bull trout abundance estimates, redd counts, creel surveys and stream substrate coring, plus lake trout and hybrid trout suppression projects, gear maintenance and data entry. The posting asks for a biology or ecology-type bachelor's plus about a year of related experience, with other combinations considered case by case. Pay $24.44 per hour. Closes September 23 2026 at 11:59 pm MT.",
+    "desc": "A permanent state fish-and-wildlife job is rare at the technician level, and substrate coring — measuring fine sediment in spawning gravels — is sediment science in a watershed context, close to your capstone. Bull trout are a federally threatened species, so the monitoring has recovery stakes. Aquatic rather than wetlands, and Montana is a long move, but permanence makes it worth it.",
+    "pills": [
+      "Permanent state job",
+      "Stream substrate coring",
+      "Bull trout monitoring",
+      "BS + ~1 yr (combinations considered)"
+    ],
+    "start": "See posting",
+    "relocation": "unknown",
+    "deadline_date": "2026-09-23"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-1507",
+    "title": "Green River Wildlife Technician (12-month contract) — habitat surveys, disease surveillance and landowner work (Wyoming Game & Fish)",
+    "org": "Wyoming Game and Fish Department · Wildlife Division · Green River, WY",
+    "location": "Green River, Wyoming",
+    "deadline": "September 20, 2026, 11:59 pm MT",
+    "badge": "Good fit",
+    "pay": "$29.75 per hour (published)",
+    "stipend": "",
+    "benefits": "12-month at-will contract; housing not provided",
+    "url": "https://www.governmentjobs.com/careers/wyoming/jobs/5472226/green-river-wildlife-technician-2026-02158",
+    "url_label": "Green River Wildlife Technician (12-month contract) — habitat surveys, disease surveillance and landowner work (Wyoming Game & Fish)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/wyoming/jobs/5472226/green-river-wildlife-technician-2026-02158",
+        "label": "🔗 Green River Wildlife Technician (12-month contract) — habitat surveys, disease surveillance and landowner work (Wyoming Game & Fish)"
+      }
+    ],
+    "metaLine": "Green River WY · $29.75/hr · year-long state wildlife tech · no minimum qualifications",
+    "body": "A 12-month at-will contract assisting Wyoming Game and Fish staff with wildlife and habitat surveys, disease surveillance, damage claims and conflict work, landowner relations and facility upkeep. There are no minimum qualifications; preference goes to applicants with a four-year natural resources degree and field or vehicle experience. Housing is not provided. Pay $29.75 per hour. Closes September 20 2026 at 11:59 pm MT.",
+    "desc": "A well-paid, year-round state wildlife technician post with habitat surveys at its core, and your degree puts you in the preferred group. Wyoming Game and Fish technicians are the pool its biologists are hired from. The move is long and unhoused, but a full year of wages makes it workable.",
+    "pills": [
+      "$29.75/hour",
+      "12 months, not seasonal",
+      "Wildlife + habitat surveys",
+      "No minimum qualifications"
+    ],
+    "start": "See posting · 12-month contract",
+    "relocation": "unknown",
+    "deadline_date": "2026-09-20"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-1508",
+    "title": "Regional Wildlife Specialist (permanent) — big-game and game-bird damage prevention and mitigation with landowners (Wyoming Game & Fish, Buffalo)",
+    "org": "Wyoming Game and Fish Department · Wildlife Division · Buffalo, WY",
+    "location": "Buffalo, Wyoming",
+    "deadline": "September 23, 2026, 11:59 pm MT",
+    "badge": "Good fit",
+    "pay": "$6,087.47–$6,763.47 per month (published)",
+    "stipend": "",
+    "benefits": "Permanent state position",
+    "url": "https://www.governmentjobs.com/careers/wyoming/jobs/5468181/regional-wildlife-specialist-2026-02140",
+    "url_label": "Regional Wildlife Specialist (permanent) — big-game and game-bird damage prevention and mitigation with landowners (Wyoming Game & Fish, Buffalo)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/wyoming/jobs/5468181/regional-wildlife-specialist-2026-02140",
+        "label": "🔗 Regional Wildlife Specialist (permanent) — big-game and game-bird damage prevention and mitigation with landowners (Wyoming Game & Fish, Buffalo)"
+      }
+    ],
+    "metaLine": "Buffalo WY · $6.1k–$6.8k/mo · PERMANENT · Wildlife Biologist I level, 0–3 yrs · conflict work",
+    "body": "A permanent position investigating big-game and game-bird damage complaints and developing mitigation plans with landowners — hazing, exclusion fencing, capture and relocation, and lethal removal of sick or depredating animals — plus field support for wildlife management and the Access Yes programme. Requires a bachelor's (typically in wildlife management) with 0–3 years' experience at the Wildlife Biologist I level; firearm and agricultural experience preferred. Salary $6,087.47–$6,763.47 per month. Closes September 23 2026 at 11:59 pm MT.",
+    "desc": "A permanent state wildlife job that accepts a new bachelor's at a solid salary. It is conflict and damage work, not research, and includes lethal removal — decide whether that suits you before applying. The landowner-relations skills it builds are the same ones private-lands biologist jobs ask for.",
+    "pills": [
+      "Permanent",
+      "Wildlife Biologist I level (0–3 yrs)",
+      "Landowner damage mitigation",
+      "⚠ Includes lethal removal"
+    ],
+    "start": "See posting",
+    "relocation": "unknown",
+    "deadline_date": "2026-09-23"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Mountain West",
+    "id": "item-1509",
+    "title": "Natural Resources Analyst — Land Quality Division mine permitting, inspections and reclamation, District 2 Lander (Wyoming DEQ)",
+    "org": "Wyoming Department of Environmental Quality · Land Quality Division · Lander, WY",
+    "location": "Lander, Wyoming",
+    "deadline": "Continuous — open until filled (opened September 3, 2026)",
+    "badge": "Good fit",
+    "pay": "$5,603.87–$6,226.13 per month (published)",
+    "stipend": "",
+    "benefits": "Permanent state position",
+    "url": "https://www.governmentjobs.com/careers/wyoming/jobs/5471197/natural-resources-analyst-2026-02164",
+    "url_label": "Natural Resources Analyst — Land Quality Division mine permitting, inspections and reclamation, District 2 Lander (Wyoming DEQ)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/wyoming/jobs/5471197/natural-resources-analyst-2026-02164",
+        "label": "🔗 Natural Resources Analyst — Land Quality Division mine permitting, inspections and reclamation, District 2 Lander (Wyoming DEQ)"
+      }
+    ],
+    "metaLine": "Lander WY · $5.6k–$6.2k/mo · PERMANENT · mine reclamation regulation · BS + 0–3 yrs",
+    "body": "The Natural Resources Analyst coordinates mining and exploration operations for DEQ's Land Quality Division District 2: reviewing permits and annual reports, conducting compliance inspections at coal and non-coal mine sites, and assisting with enforcement and bond release, including field inspections over rough terrain. Requires a bachelor's in the sciences plus 0–3 years of experience. Salary $5,603.87–$6,226.13 per month. Open continuously (opened September 3 2026).",
+    "desc": "Mine reclamation regulation connects directly to your capstone: mining legacies are one of the main sources of the trace metals you sampled. A permanent, well-paid regulatory science job that takes new graduates. This is a separate vacancy from the Lander DEQ analyst already on your list (a different announcement number).",
+    "pills": [
+      "Permanent",
+      "Bachelor's + 0–3 yrs",
+      "Mine permitting + reclamation",
+      "Field compliance inspections"
+    ],
+    "start": "See posting",
+    "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Mountain West",
+    "id": "item-1510",
+    "title": "Natural Resources Analyst — Land Quality Division mine permit review and reclamation monitoring data, District 3 Sheridan (Wyoming DEQ)",
+    "org": "Wyoming Department of Environmental Quality · Land Quality Division · Sheridan, WY",
+    "location": "Sheridan, Wyoming",
+    "deadline": "Continuous — open until filled (opened September 1, 2026)",
+    "badge": "Good fit",
+    "pay": "$5,603.87–$6,226.13 per month (published)",
+    "stipend": "",
+    "benefits": "Permanent state position",
+    "url": "https://www.governmentjobs.com/careers/wyoming/jobs/5467423/natural-resources-analyst-2026-02137",
+    "url_label": "Natural Resources Analyst — Land Quality Division mine permit review and reclamation monitoring data, District 3 Sheridan (Wyoming DEQ)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/wyoming/jobs/5467423/natural-resources-analyst-2026-02137",
+        "label": "🔗 Natural Resources Analyst — Land Quality Division mine permit review and reclamation monitoring data, District 3 Sheridan (Wyoming DEQ)"
+      }
+    ],
+    "metaLine": "Sheridan WY · $5.6k–$6.2k/mo · PERMANENT · reviews mine monitoring data + reclamation · BS + 0–3 yrs",
+    "body": "Technical review of mine permit applications, annual reports, environmental studies, monitoring data and reclamation cost estimates for DEQ's Land Quality Division District 3, mainly open-pit coal and non-coal mines, plus help with uranium in-situ permits and compliance inspections, with some field visits and overnight travel. Requires a bachelor's in the sciences plus 0–3 years of experience. Salary $5,603.87–$6,226.13 per month. Open continuously (opened September 1 2026).",
+    "desc": "The same entry-level DEQ track as the Lander post, weighted toward reviewing environmental monitoring data — the analytical half of what your capstone did. Sheridan is a pleasant small city at the foot of the Bighorns.",
+    "pills": [
+      "Permanent",
+      "Bachelor's + 0–3 yrs",
+      "Environmental monitoring data review",
+      "Some overnight travel"
+    ],
+    "start": "See posting",
+    "relocation": "lead"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Mountain West",
+    "id": "item-1511",
+    "title": "River Watch Intern (temporary, 6 months) — statewide volunteer water-quality programme sampling METALS, pH and DO (Colorado Parks & Wildlife)",
+    "org": "Colorado Parks and Wildlife · Colorado River Watch · Denver, CO",
+    "location": "Denver, Colorado",
+    "deadline": "Continuous — open until filled (opened September 4, 2026)",
+    "badge": "Top recommendation",
+    "pay": "$19.25 per hour (published)",
+    "stipend": "",
+    "benefits": "Temporary — open to non-residents of Colorado",
+    "url": "https://www.governmentjobs.com/careers/colorado/jobs/5473877/temporary-river-watch-yip-intern-denver-colorado",
+    "url_label": "River Watch Intern (temporary, 6 months) — statewide volunteer water-quality programme sampling METALS, pH and DO (Colorado Parks & Wildlife)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/colorado/jobs/5473877/temporary-river-watch-yip-intern-denver-colorado",
+        "label": "🔗 River Watch Intern (temporary, 6 months) — statewide volunteer water-quality programme sampling METALS, pH and DO (Colorado Parks & Wildlife)"
+      }
+    ],
+    "metaLine": "Denver · $19.25/hr · 6 months · statewide river METALS monitoring + lab QA + R/StoryMaps",
+    "body": "A six-month paid internship with Colorado River Watch, CPW's statewide volunteer water-quality programme, in which about 120 groups sample rivers monthly for pH, dissolved oxygen, hardness, alkalinity and metals, plus macroinvertebrates. The intern does field sampling, laboratory analysis and quality assurance, data validation and analysis (an R Shiny app, ESRI StoryMaps), volunteer training and some Clean Water Act policy work. Temporary, so non-residents of Colorado may apply. October 19 2026 – April 16 2027, 40 hours a week, $19.25 per hour. Open until filled.",
+    "desc": "Marked a Top recommendation because it is almost a description of your capstone as a job: sampling rivers for trace metals, running the lab analysis, and doing the QA/QC and data work, across a whole state. It adds R and StoryMaps to your skill set and puts you inside a state wildlife agency's water programme. Pay is intern-level and Denver is expensive, but the October start gives five weeks to arrange the move. Apply soon — it is open until filled.",
+    "pills": [
+      "River metals sampling — her capstone",
+      "Lab analysis + QA/QC",
+      "R Shiny + ESRI StoryMap data work",
+      "Open to non-residents"
+    ],
+    "start": "October 19, 2026 – April 16, 2027 · 40 hrs/week",
+    "relocation": "lead",
+    "start_date": "2026-10-19"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Mountain West",
+    "id": "item-1512",
+    "title": "Fish Health Laboratory Technician (temporary, 9 months) — fish-disease diagnostics at the Aquatic Animal Health Lab (Colorado Parks & Wildlife)",
+    "org": "Colorado Parks and Wildlife · Aquatic Animal Health Laboratory · Brush, CO",
+    "location": "Brush, Colorado (Morgan County)",
+    "deadline": "Continuous — open until filled (opened September 2, 2026)",
+    "badge": "Good fit",
+    "pay": "$21.00 per hour (published)",
+    "stipend": "",
+    "benefits": "Temporary — open to non-residents of Colorado",
+    "url": "https://www.governmentjobs.com/careers/colorado/jobs/5039877/temporary-fish-health-laboratory-technician-brush-colorado",
+    "url_label": "Fish Health Laboratory Technician (temporary, 9 months) — fish-disease diagnostics at the Aquatic Animal Health Lab (Colorado Parks & Wildlife)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/colorado/jobs/5039877/temporary-fish-health-laboratory-technician-brush-colorado",
+        "label": "🔗 Fish Health Laboratory Technician (temporary, 9 months) — fish-disease diagnostics at the Aquatic Animal Health Lab (Colorado Parks & Wildlife)"
+      }
+    ],
+    "metaLine": "Brush CO · $21/hr · 9-month state lab technician · bacteriology, virology, PCR",
+    "body": "A nine-month temporary technician at CPW's Aquatic Animal Health Laboratory running fish-disease diagnostics — bacteriology, virology, parasitology and PCR — and collecting samples. Requires a bachelor's in biology or a related field; diagnostic microbiology lab experience is preferred. Temporary, so open to non-residents of Colorado. November 2 2026 – July 30 2027, $21 per hour. Open until filled.",
+    "desc": "A state-agency lab post that needs only your BS, with PCR and diagnostic skills that transfer to wildlife health work. It is more microbiology than you have done, so present your trace-metal lab work as evidence of careful lab practice.",
+    "pills": [
+      "State wildlife agency lab",
+      "PCR + microbiology diagnostics",
+      "Bachelor's required",
+      "Open to non-residents"
+    ],
+    "start": "November 2, 2026 – July 30, 2027",
+    "relocation": "lead",
+    "start_date": "2026-11-02"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-1513",
+    "title": "Wildlife Technician — chronic wasting disease sample processing at the Wildlife Health Laboratory, housing available (Idaho Fish & Game, Eagle)",
+    "org": "Idaho Department of Fish and Game · Wildlife Health Laboratory · Eagle, ID",
+    "location": "Eagle, Idaho (near Boise)",
+    "deadline": "October 16, 2026",
+    "badge": "Good fit",
+    "pay": "$18.61 per hour (published)",
+    "stipend": "",
+    "benefits": "Housing available for the employee only (no pets)",
+    "url": "https://idfg.idaho.gov/job/162757",
+    "url_label": "Wildlife Technician — chronic wasting disease sample processing at the Wildlife Health Laboratory, housing available (Idaho Fish & Game, Eagle)",
+    "links": [
+      {
+        "href": "https://idfg.idaho.gov/job/162757",
+        "label": "🔗 Wildlife Technician — chronic wasting disease sample processing at the Wildlife Health Laboratory, housing available (Idaho Fish & Game, Eagle)"
+      }
+    ],
+    "metaLine": "Eagle ID · $18.61/hr + AGENCY HOUSING · 5-month CWD lab tech",
+    "body": "A five-month temporary technician at IDFG's Wildlife Health Laboratory: sub-sampling, inventorying and shipping lymph node and obex samples for chronic wasting disease testing, managing lab waste, entering data and possibly helping with off-site CWD collection. Requires knowledge of wildlife ecology and experience recording and analysing biological data. Housing is available for the employee only (no pets). Pay $18.61 per hour. Closes October 16 2026.",
+    "desc": "A lab-and-data wildlife disease job with agency housing, which removes the biggest obstacle to a long-distance move. CWD surveillance is a priority for every western agency, and this is a clean way to get Idaho Fish and Game on your record.",
+    "pills": [
+      "Agency housing available",
+      "Wildlife disease lab",
+      "Data entry + sample logistics",
+      "5-month term"
+    ],
+    "start": "2026 hunting season · 5-month temporary term",
+    "relocation": "housed",
+    "deadline_date": "2026-10-16",
+    "housing_provided": true
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-1514",
+    "title": "Fisheries Technician (8 months) — steelhead and salmon hatchery, housing available (Idaho Fish & Game, Clearwater Fish Hatchery)",
+    "org": "Idaho Department of Fish and Game · Clearwater Fish Hatchery · Ahsahka, ID",
+    "location": "Ahsahka, Idaho",
+    "deadline": "September 28, 2026",
+    "badge": "Good fit",
+    "pay": "$18.61 per hour (published)",
+    "stipend": "",
+    "benefits": "Housing available for the employee only",
+    "url": "https://idfg.idaho.gov/job/162628",
+    "url_label": "Fisheries Technician (8 months) — steelhead and salmon hatchery, housing available (Idaho Fish & Game, Clearwater Fish Hatchery)",
+    "links": [
+      {
+        "href": "https://idfg.idaho.gov/job/162628",
+        "label": "🔗 Fisheries Technician (8 months) — steelhead and salmon hatchery, housing available (Idaho Fish & Game, Clearwater Fish Hatchery)"
+      }
+    ],
+    "metaLine": "Ahsahka ID · $18.61/hr + HOUSING · 8-month hatchery technician",
+    "body": "An eight-month temporary technician at a steelhead and salmon hatchery: feeding fish, maintaining rearing units, collecting data and samples, and hatchery and grounds upkeep. Requires knowledge of fish life history and ecology and experience recording and analysing scientific data. Housing is available for the employee only. Pay $18.61 per hour, October 5 2026 – June 5 2027. Closes September 28 2026.",
+    "desc": "Eight months of housed state-agency work. Hatchery husbandry is not your core interest, so treat this as a paid bridge with a good reference rather than a direction.",
+    "pills": [
+      "Agency housing",
+      "8 months",
+      "Salmon + steelhead",
+      "Mostly husbandry"
+    ],
+    "start": "October 5, 2026 – June 5, 2027",
+    "relocation": "housed",
+    "deadline_date": "2026-09-28",
+    "start_date": "2026-10-05",
+    "housing_provided": true
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-1515",
+    "title": "Fisheries Bioaide (5-month winter) — trout hatchery aide at Briggs Creek, free dormitory housing (Idaho Fish & Game)",
+    "org": "Idaho Department of Fish and Game · Nampa Fish Hatchery · Briggs Creek facility near Buhl, ID",
+    "location": "Briggs Creek facility near Buhl, Idaho",
+    "deadline": "October 2, 2026",
+    "badge": "Good fit",
+    "pay": "$15.00 per hour (published)",
+    "stipend": "",
+    "benefits": "Dormitory housing provided",
+    "url": "https://idfg.idaho.gov/job/162760",
+    "url_label": "Fisheries Bioaide (5-month winter) — trout hatchery aide at Briggs Creek, free dormitory housing (Idaho Fish & Game)",
+    "links": [
+      {
+        "href": "https://idfg.idaho.gov/job/162760",
+        "label": "🔗 Fisheries Bioaide (5-month winter) — trout hatchery aide at Briggs Creek, free dormitory housing (Idaho Fish & Game)"
+      }
+    ],
+    "metaLine": "Buhl ID · $15/hr + FREE DORM HOUSING · winter hatchery aide",
+    "body": "A full-time winter trout-hatchery aide: feeding fish, cleaning raceways, crowding and netting, and loading transport trucks, with long periods standing in cold water. Natural resources or biology experience is preferred. Dormitory housing is provided. November 16 2026 – April 16 2027, $15 per hour. Closes October 2 2026.",
+    "desc": "Low pay and cold, wet labour, but free housing and a state agency name — a winter bridge only.",
+    "pills": [
+      "Free dorm housing",
+      "Nov–Apr",
+      "Low barrier to entry",
+      "Hatchery labour"
+    ],
+    "start": "November 16, 2026 – April 16, 2027",
+    "relocation": "housed",
+    "deadline_date": "2026-10-02",
+    "start_date": "2026-11-16",
+    "housing_provided": true
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-1516",
+    "title": "Fisheries Biological Aide (5-month) — Clearwater Fish Hatchery, housing available (Idaho Fish & Game)",
+    "org": "Idaho Department of Fish and Game · Clearwater Fish Hatchery · Ahsahka, ID",
+    "location": "Ahsahka, Idaho",
+    "deadline": "November 9, 2026",
+    "badge": "Good fit",
+    "pay": "$15.00 per hour (published)",
+    "stipend": "",
+    "benefits": "Housing available for the employee only",
+    "url": "https://idfg.idaho.gov/job/162627",
+    "url_label": "Fisheries Biological Aide (5-month) — Clearwater Fish Hatchery, housing available (Idaho Fish & Game)",
+    "links": [
+      {
+        "href": "https://idfg.idaho.gov/job/162627",
+        "label": "🔗 Fisheries Biological Aide (5-month) — Clearwater Fish Hatchery, housing available (Idaho Fish & Game)"
+      }
+    ],
+    "metaLine": "Ahsahka ID · $15/hr + HOUSING · 5-month hatchery aide · late deadline",
+    "body": "A five-month seasonal hatchery aide: feeding fish, caring for rearing units, collecting and entering sample data, and maintaining grounds and equipment. Requires a high school diploma and a driver's licence. Housing is available for the employee only. November 30 2026 – April 30 2027, $15 per hour. Closes November 9 2026.",
+    "desc": "The same hatchery as the 8-month technician post, at the aide level, with a November deadline — a fallback winter option with housing if autumn applications fall through.",
+    "pills": [
+      "Agency housing",
+      "Late deadline (Nov 9)",
+      "Nov–Apr",
+      "Entry-level labour"
+    ],
+    "start": "November 30, 2026 – April 30, 2027",
+    "relocation": "housed",
+    "deadline_date": "2026-11-09",
+    "start_date": "2026-11-30",
+    "housing_provided": true
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-1517",
+    "title": "Eagle Vehicle Strike Technician (winter, part-time) — highway carcass removal and TRAIL-CAMERA monitoring of eagles (HawkWatch International)",
+    "org": "HawkWatch International (non-profit) · WY–CO border, Richfield UT, Cedar City UT, south-central ID",
+    "location": "Four study areas: Baggs WY / Craig CO, Richfield UT, Cedar City UT, near Shoshone ID",
+    "deadline": "October 16, 2026 (priority consideration; reviewed as received)",
+    "badge": "Good fit",
+    "pay": "$2,325 per month + $1,500 vehicle stipend and mileage if using a personal vehicle (published)",
+    "stipend": "",
+    "benefits": "About 30 hrs/week; own housing required",
+    "url": "https://ornithologyexchange.org/jobs/board/short-term-positions/eagle-vehicle-strike-technician-r22996/",
+    "url_label": "Eagle Vehicle Strike Technician (winter, part-time) — highway carcass removal and TRAIL-CAMERA monitoring of eagles (HawkWatch International)",
+    "links": [
+      {
+        "href": "https://ornithologyexchange.org/jobs/board/short-term-positions/eagle-vehicle-strike-technician-r22996/",
+        "label": "🔗 Eagle Vehicle Strike Technician (winter, part-time) — highway carcass removal and TRAIL-CAMERA monitoring of eagles (HawkWatch International)"
+      }
+    ],
+    "metaLine": "UT/WY/CO/ID · $2,325/mo + vehicle stipend · eagle conservation with TRAIL CAMERAS · Jan–Apr",
+    "body": "HawkWatch International is hiring eight technicians (two per study area) to patrol winter highways for roadkill, drag carcasses off the road to reduce eagle–vehicle collisions, and run trail cameras to monitor eagle use, then review photos and record raptor mortality data. About 30 hours a week for 3.5 months, January to mid-April 2027 after a one-to-two-day December training. Pay $2,325 a month plus a $1,500 vehicle stipend and mileage if using a personal vehicle. Technicians provide their own housing and local applicants are preferred. Apply via the JotForm linked from the posting; priority consideration by October 16 2026.",
+    "desc": "Trail-camera deployment and photo review is exactly your Wildlife Insights experience, applied to a real conservation problem (golden and bald eagles killed while scavenging roadkill). HawkWatch is a respected raptor non-profit. The catch is housing: you find your own, and they prefer locals.",
+    "pills": [
+      "Trail-camera monitoring — her skill",
+      "Raptor conservation non-profit",
+      "Eight technicians, four sites",
+      "Own housing needed"
+    ],
+    "start": "January 2027 (training in December) to mid-April 2027",
+    "relocation": "lead",
+    "deadline_date": "2026-10-16",
+    "start_date": "2027-01-04"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Mountain West",
+    "id": "item-1518",
+    "title": "Conservation Ecologist II — bird banding, Motus tagging and Snowy Plover monitoring on the Great Salt Lake (Tracy Aviary Conservation Science)",
+    "org": "Tracy Aviary · Conservation Science · Salt Lake City, UT",
+    "location": "Salt Lake City, Utah",
+    "deadline": "Open until filled — confirm the posting is still active",
+    "badge": "Good fit",
+    "pay": "$18.50 per hour (published)",
+    "stipend": "",
+    "benefits": "Health insurance and 403(b) access",
+    "url": "https://tracyaviary.org/employment/",
+    "url_label": "Conservation Ecologist II — bird banding, Motus tagging and Snowy Plover monitoring on the Great Salt Lake (Tracy Aviary Conservation Science)",
+    "links": [
+      {
+        "href": "https://tracyaviary.org/employment/",
+        "label": "🔗 Conservation Ecologist II — bird banding, Motus tagging and Snowy Plover monitoring on the Great Salt Lake (Tracy Aviary Conservation Science)"
+      }
+    ],
+    "metaLine": "Salt Lake City · $18.50/hr + health insurance · 60% field avian monitoring · non-profit",
+    "body": "A field-heavy (about 60%) role on Tracy Aviary's community-science projects: breeding-season point counts, bird banding, Motus tagging, Snowy Plover nest monitoring and collision surveys, with the remainder in volunteer coordination, data entry and analysis, and community engagement. Requires field research experience and the ability to identify regional birds by sight and sound. $18.50 per hour with health insurance and 403(b) access. Apply to angiet@tracyaviary.org. The employment page also shows expired listings, so confirm this one is active.",
+    "desc": "Year-round avian field science at a conservation non-profit, focused on the Great Salt Lake — a saline-lake wetland system in crisis. Banding and Motus tagging are strong resume lines. Birding by ear is the gap to close before applying.",
+    "pills": [
+      "60% field work",
+      "Bird banding + Motus tagging",
+      "Great Salt Lake shorebirds",
+      "⚠ Bird ID by ear required"
+    ],
+    "start": "See posting",
+    "relocation": "lead"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-1519",
+    "title": "Teton Raptor Center Internship (year-long 2027) — education, research fieldwork and rehabilitation in Jackson Hole, housing provided",
+    "org": "Teton Raptor Center (non-profit) · Wilson, WY",
+    "location": "Wilson, Wyoming (Jackson Hole)",
+    "deadline": "September 30, 2026, 5:00 pm MT",
+    "badge": "Good fit",
+    "pay": "$1,500 per month stipend (published)",
+    "stipend": "$1,500/month",
+    "benefits": "On-site workforce housing provided (required), PTO, use of TRC vehicles",
+    "url": "https://tetonraptorcenter.org/wp-content/uploads/2026/08/January-TRC-Internship.pdf",
+    "url_label": "Teton Raptor Center Internship (year-long 2027) — education, research fieldwork and rehabilitation in Jackson Hole, housing provided",
+    "links": [
+      {
+        "href": "https://tetonraptorcenter.org/wp-content/uploads/2026/08/January-TRC-Internship.pdf",
+        "label": "🔗 Teton Raptor Center Internship (year-long 2027) — education, research fieldwork and rehabilitation in Jackson Hole, housing provided"
+      }
+    ],
+    "metaLine": "Jackson Hole · $1,500/mo + HOUSING · year-long raptor centre internship · leans science communication",
+    "body": "A year-long early-career internship across Teton Raptor Center's education, research fieldwork, rehabilitation and operations, with the heaviest emphasis on science communication — digital content, outreach and events. On-site workforce housing is required and provided, along with PTO and use of TRC vehicles. Must be 21 or older with a clean driving record. January 11 – December 17 2027, 40 hours a week, $1,500 per month. Apply by September 30 2026, 5 pm MT.",
+    "desc": "A funded, housed year in the Greater Yellowstone ecosystem, which makes a cross-country move affordable. The emphasis is communication and outreach rather than research, so it suits you if you want to broaden, not deepen.",
+    "pills": [
+      "Housing provided",
+      "Full calendar year",
+      "Research fieldwork + rehab + education",
+      "Must be 21+"
+    ],
+    "start": "January 11 – December 17, 2027 · 40 hrs/week",
+    "relocation": "housed",
+    "deadline_date": "2026-09-30",
+    "start_date": "2027-01-11",
+    "housing_provided": true
   }
 ]

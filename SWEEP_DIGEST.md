@@ -1,42 +1,22 @@
 # Weekly opportunity sweep — 2026-09-13
 
-**Added 29 new** opportunities:
-- Lands Coordinator — mapping, baseline documentation and volunteer stewardship monitoring at a New Hampshire land trust (Squam Lakes Conservation Society) — _Strong_ · Northeast · deadline: Listed through October 30, 2026 — confirm with the employer
-- Open Space Technician — trails, construction and resource management across 70,000 acres of Santa Cruz Mountains preserves (Midpeninsula Regional Open Space District) — _Good_ · West Coast / Pacific · deadline: Listed through October 4, 2026 — confirm with the employer
-- Resource Technician — erosion and sediment control compliance, natural resource inventories and watershed work (Kane-DuPage Soil & Water Conservation District) — _Good_ · Midwest & Great Plains · deadline: Listed through September 25, 2026 — confirm with the employer
-- EPA Research Appointment — quantitative bioassay development for aquatic vertebrates, Great Lakes Coastal Environmental Science Laboratory, Duluth (ORISE) — _Good_ · Midwest & Great Plains · deadline: Listed through November 9, 2026 — reviewed on a rolling basis and may close early
-- EPA Research Appointment — computational approaches to predict thyroid disruption in aquatic species, Duluth (ORISE) — _Good_ · Midwest & Great Plains · deadline: Listed through October 9, 2026 — reviewed on a rolling basis and may close early
-- Forestry Technician — timber stand improvement and native plant community restoration in central Kentucky (Arrowwood Consulting) — _Good_ · Southeast & Appalachia · deadline: Listed through December 1, 2026 — confirm with the employer
-- Invasive Plants Technician (seasonal) — backcountry invasive weed control around Moab, Utah (Grand County Weeds Department) — _Good_ · Mountain West · deadline: Listed through September 24, 2026 — confirm with the employer
-- Wildlife Laboratory Technician — cementum age analysis of wildlife teeth for agency population management (Matson's Laboratory) — _Good_ · Mountain West · deadline: Listed through October 11, 2026 — confirm with the employer
-- Restoration Project Specialist — multi-benefit WETLAND and habitat restoration in the Lower Salinas Valley (Central Coast Wetlands Group / Coastal Conservation & Research) — _Strong_ · West Coast / Pacific · deadline: Listed through September 24, 2026 — confirm with the employer
-- Stormwater Management Inspector — construction and stormwater facility inspections, illicit-discharge investigation (Cecil County, Maryland) — _Good_ · Northeast · deadline: Listed through September 20, 2026 — confirm with the employer
-- Ecological Assistant — AmeriCorps with the Vegetation Ecology & Management Branch, Grand Teton National Park (Stewards Individual Placements) — _Strong_ · Mountain West · deadline: Preference for applications by September 11; listed through September 25, 2026
-- GIS Consultant & Community Educator (limited-term contract) — teaching beginners to map their neighbourhoods (CHEM Allyance, Portland) — _Good_ · West Coast / Pacific · deadline: Listed through September 18, 2026 — confirm with the employer
-- Natural Resources Technician II — prescribed fire, invasive control and wildlife management for a county park system (MetroParks of Butler County, Ohio) — _Good_ · Midwest & Great Plains · deadline: Listed through September 16, 2026 — confirm with the employer
-- Conservation Specialist — landowner technical assistance in forestry, water quality and wildlife habitat (Manistee Conservation District, Michigan) — _Good_ · Midwest & Great Plains · deadline: Listed through September 18, 2026 — confirm with the employer
-- PhD Assistantship — freshwater mussel responses to water temperature and SEDIMENTATION, NSF-funded (University of South Dakota, Matoo Lab) — _Good_ · Midwest & Great Plains · deadline: Listed through October 1, 2026 — contact the PI
-- Fisheries Wildlife Biologist I — Farlington Fish Hatchery & Kansas Aquatic Biodiversity Center, imperiled aquatic species culture (Kansas Dept. of Wildlife & Parks) — _Good_ · Midwest & Great Plains · deadline: Listed through September 14, 2026 — confirm immediately
-- Parks Resource Specialist — natural and cultural resource management across county parks and open space (Bernalillo County, New Mexico) — _Good_ · Southwest · deadline: September 18, 2026
-- Conservation Biologist — private-lands habitat consulting under the NFWF Conservation Partners Program (Mason-Lake Conservation District, Michigan) — _Good_ · Midwest & Great Plains · deadline: Listed through September 14, 2026 — confirm immediately
-- Resource Technician II (permanent) — conservation planning and practice implementation, Central Klickitat Conservation District (Washington) — _Good_ · West Coast / Pacific · deadline: Listed through September 27, 2026 — confirm with the employer
-- Desert Biologist — monitoring and managing 50,000 acres of preserved DESERT TORTOISE habitat in the Colorado and Mojave deserts (Wildlands) — _Good_ · West Coast / Pacific · deadline: Listed through September 27, 2026 — confirm with the employer
-- Watershed Program Coordinator (part-time, may go full-time) — Upper Yellowstone and Shields Valley watershed groups (Park Conservation District, Montana) — _Good_ · Mountain West · deadline: Review begins week of September 21, 2026 — open until filled
-- Environmental Analyst — Lake Champlain Basin Program water quality and ecosystem grants (NEIWPCC, Grand Isle, Vermont) — _Strong_ · Northeast · deadline: Listed through September 27, 2026 — confirm with the employer
-- Watershed Specialist (Program Analyst III, limited duration) — Oakland Public Works Watershed & Stormwater Management Division (City of Oakland) — _Reach / review_ · West Coast / Pacific · deadline: September 21, 2026, 11:59 pm
-- US Habitat Restoration Project Manager — Atlantic salmon habitat restoration in Maine (Atlantic Salmon Federation) — _Reach / review_ · Northeast · deadline: Listed through September 25, 2026 — confirm with the employer
-- Conservation Coordinator — irrigated-lands water quality projects and landowner assistance (Jefferson County Soil & Water Conservation District, Oregon) — _Good_ · West Coast / Pacific · deadline: Listed through October 1, 2026 — confirm with the employer
-- Stewardship Specialist or Manager — monitoring 44 conservation properties across Southeast Alaska (Southeast Alaska Land Trust) — _Good_ · Alaska, Hawaii & Territories · deadline: Listed through September 30, 2026 — confirm with the employer
-- Refuge Resources Management Technician — AmeriCorps individual placement at San Bernard or Hagerman National Wildlife Refuge, Texas (American YouthWorks) — _Good_ · Southwest · deadline: Listed through September 19, 2026 — confirm with the employer
-- Year-Round Crew Member, Tennessee — wilderness stewardship crews funded through 2029 (Southern Appalachian Wilderness Stewards, Johnson City) — _Good_ · Southeast & Appalachia · deadline: Open until filled — ASAP start preferred
-- GIS Coordinator (permanent) — spatial data, conservation planning and land-securement analysis for Ontario's largest charitable land trust (Escarpment Biosphere Conservancy) — _Good_ · Ontario · deadline: Open until filled — immediate start
+**Added 14 new** opportunities:
+- Fisheries Technician 4 (permanent) — bull trout, redd counts, creel surveys and stream SUBSTRATE coring, Region 1 Kalispell (Montana Fish, Wildlife & Parks) — _Good_ · Mountain West · deadline: September 23, 2026, 11:59 pm MT
+- Green River Wildlife Technician (12-month contract) — habitat surveys, disease surveillance and landowner work (Wyoming Game & Fish) — _Good_ · Mountain West · deadline: September 20, 2026, 11:59 pm MT
+- Regional Wildlife Specialist (permanent) — big-game and game-bird damage prevention and mitigation with landowners (Wyoming Game & Fish, Buffalo) — _Good_ · Mountain West · deadline: September 23, 2026, 11:59 pm MT
+- Natural Resources Analyst — Land Quality Division mine permitting, inspections and reclamation, District 2 Lander (Wyoming DEQ) — _Good_ · Mountain West · deadline: Continuous — open until filled (opened September 3, 2026)
+- Natural Resources Analyst — Land Quality Division mine permit review and reclamation monitoring data, District 3 Sheridan (Wyoming DEQ) — _Good_ · Mountain West · deadline: Continuous — open until filled (opened September 1, 2026)
+- River Watch Intern (temporary, 6 months) — statewide volunteer water-quality programme sampling METALS, pH and DO (Colorado Parks & Wildlife) — _Excellent_ · Mountain West · deadline: Continuous — open until filled (opened September 4, 2026)
+- Fish Health Laboratory Technician (temporary, 9 months) — fish-disease diagnostics at the Aquatic Animal Health Lab (Colorado Parks & Wildlife) — _Good_ · Mountain West · deadline: Continuous — open until filled (opened September 2, 2026)
+- Wildlife Technician — chronic wasting disease sample processing at the Wildlife Health Laboratory, housing available (Idaho Fish & Game, Eagle) — _Good_ · Mountain West · deadline: October 16, 2026
+- Fisheries Technician (8 months) — steelhead and salmon hatchery, housing available (Idaho Fish & Game, Clearwater Fish Hatchery) — _Good_ · Mountain West · deadline: September 28, 2026
+- Fisheries Bioaide (5-month winter) — trout hatchery aide at Briggs Creek, free dormitory housing (Idaho Fish & Game) — _Good_ · Mountain West · deadline: October 2, 2026
+- Fisheries Biological Aide (5-month) — Clearwater Fish Hatchery, housing available (Idaho Fish & Game) — _Good_ · Mountain West · deadline: November 9, 2026
+- Eagle Vehicle Strike Technician (winter, part-time) — highway carcass removal and TRAIL-CAMERA monitoring of eagles (HawkWatch International) — _Good_ · Mountain West · deadline: October 16, 2026 (priority consideration; reviewed as received)
+- Conservation Ecologist II — bird banding, Motus tagging and Snowy Plover monitoring on the Great Salt Lake (Tracy Aviary Conservation Science) — _Good_ · Mountain West · deadline: Open until filled — confirm the posting is still active
+- Teton Raptor Center Internship (year-long 2027) — education, research fieldwork and rehabilitation in Jackson Hole, housing provided — _Good_ · Mountain West · deadline: September 30, 2026, 5:00 pm MT
 
-**⚠ Review these (reach / weak fit — your call whether to keep):**
-- Watershed Specialist (Program Analyst III, limited duration) — Oakland Public Works Watershed & Stormwater Management Division (City of Oakland) — _Reach / review_ · West Coast / Pacific · deadline: September 21, 2026, 11:59 pm
-- US Habitat Restoration Project Manager — Atlantic salmon habitat restoration in Maine (Atlantic Salmon Federation) — _Reach / review_ · Northeast · deadline: Listed through September 25, 2026 — confirm with the employer
+**Updated 0** (deadline / status / description changed).
 
-**Updated 1** (deadline / status / description changed):
-- Avian Use Technician — Lee County, Arkansas (Western EcoSystems Technology) — _Good_ · Southeast & Appalachia · deadline: September 24, 2026 (re-posted — listed on the Conservation Job Board)
-
-**Total opportunities:** 1477  ·  next-cycle: 482  ·  expired (one-time, no future cycle): 282
+**Total opportunities:** 1491  ·  next-cycle: 482  ·  expired (one-time, no future cycle): 282
 Triage: passed-but-recurring → `cycle:"next"`; one-time/discontinued → `expired:true`. Passed/expired are hidden on the site by default (toggle to show); never deleted, never moved to the personal Archive. Fit tiers: _Excellent_ / _Strong_ / _Good_ / _Reach / review_ (set via each entry's badge). The Browse pages render from this data automatically — no HTML edits. Nothing is live until this PR is merged.
