@@ -1,39 +1,35 @@
 # Weekly opportunity sweep — 2026-09-13
 
-**Added 27 new** opportunities:
-- Forest/Fire Ecology Laboratory Technician II — field research plus ArcMap, R and Google Earth Engine analysis (University of Florida, Milton) — _Good_ · Southeast & Appalachia · deadline: September 21, 2026
-- Year-Round Field Crew Member — wilderness stewardship backcountry crews, based in Roanoke, Virginia (SAWS) — _Good_ · Southeast & Appalachia · deadline: October 30, 2026
-- Muskrat Monitoring & Sampling Technicians (4) — telemetry plus WATER AND SEDIMENT sampling for Illinois DNR research (Southern Illinois University) — _Strong_ · Midwest & Great Plains · deadline: September 30, 2026
-- Habitat Technician I (part-time, seasonal) — forested-wetland restoration at a New Orleans land trust (Woodlands Conservancy) — _Good_ · Southeast & Appalachia · deadline: October 9, 2026
-- Habitat Technician II (full-time, temporary) — forested-wetland restoration at a New Orleans land trust (Woodlands Conservancy) — _Good_ · Southeast & Appalachia · deadline: October 9, 2026
-- Habitat Specialist — permanent prescribed-fire and quail habitat position with Quail Forever, SCDNR, NRCS and The Longleaf Alliance (Columbia, SC) — _Strong_ · Southeast & Appalachia · deadline: Open continuously until filled (Texas A&M listing shows October 5, 2026)
-- Avian Field Technician — monthly bird and eagle point counts plus bat acoustic monitoring in West Texas (Bowman) — _Good_ · Southwest · deadline: October 2, 2026
-- OPS Fish & Wildlife Technician Intern — 25-week habitat and wildlife internship at Tate's Hell State Forest, housing $10/night (Florida FWC) — _Good_ · Southeast & Appalachia · deadline: September 27, 2026
-- Mojave Desert Plant Field Technician (1–3 positions), winter–spring 2027 — botany and restoration research in Nevada and California (UNLV) — _Good_ · Southwest · deadline: November 15, 2026
-- Research Technician — fisheries ecology field and data work across Alabama and Mississippi (USGS Alabama Cooperative Fish & Wildlife Research Unit) — _Good_ · Southeast & Appalachia · deadline: October 15, 2026
-- Biological Technician (12-month term) — captive care and release monitoring for the endangered masked bobwhite, Buenos Aires National Wildlife Refuge (USFWS) — _Good_ · Southwest · deadline: October 1, 2026
-- Bat Monitoring Assistant — AmeriCorps with the NPS Mojave Desert Inventory & Monitoring Network, $975/week (Stewards Individual Placements) — _Strong_ · Southwest · deadline: October 2, 2026 (preference date — rolling review after)
-- Ecosystem Restoration & Land Stewardship Intern — native planting and invasive removal in northern New Jersey (Restore Native Plants) — _Good_ · Northeast · deadline: October 30, 2026
-- Forestry Technician — forest inventory, stewardship plans and GIS mapping for private landowners in northern Vermont (Northern Stewards) — _Good_ · Northeast · deadline: Open until filled (Texas A&M listing shows October 1, 2026)
-- Temporary Technician — amphibian and reptile ECOTOXICOLOGY, wetland ecology and acoustic monitoring (UGA Savannah River Ecology Laboratory, Lance Lab) — _Strong_ · Southeast & Appalachia · deadline: September 25, 2026
-- Leadership Development Program — restoration crew member training to become a crew leader (Great Basin Institute, Las Vegas) — _Good_ · Southwest · deadline: December 31, 2026
-- Research Scientist — permanent civil-service position, West Sacramento (California Department of Fish and Wildlife, JC-531426) — _Reach / review_ · West Coast / Pacific · deadline: September 23, 2026
-- Biodiversity Monitoring Research Intern — rooftop acoustic bat and bird sensors, light-pollution and thermal cameras across Chicago (UIUC / Lincoln Park Zoo) — _Good_ · Midwest & Great Plains · deadline: September 20, 2026 (later applications may be accepted)
-- Coyote Trapping Technician (2–3) — capture, sampling and GPS-collaring of Gulf Coast coyotes (Mississippi State University / Michigan Tech) — _Strong_ · Southeast & Appalachia · deadline: October 15, 2026
-- Ichauway Conservation Fellowship — 18–24 month in-residence natural-resource management fellowship with a route to a GRADUATE DEGREE (Jones Center at Ichauway) — _Excellent_ · Southeast & Appalachia · deadline: October 31, 2026
-- Conservation Forestry & Wildlife Biologist — longleaf pine ecological forestry and wildlife management (Jones Center at Ichauway) — _Reach / review_ · Southeast & Appalachia · deadline: October 31, 2026
-- Invasive Hornet Field Supervisor — lead yellow-legged hornet detection and eradication surveys with ArcGIS mobile (Clemson University Regulatory Services) — _Good_ · Southeast & Appalachia · deadline: September 25, 2026 (may be extended)
-- Invasive Hornet Survey Specialists (several) — trapping and survey for yellow-legged hornet, coastal South Carolina (Clemson University Regulatory Services) — _Good_ · Southeast & Appalachia · deadline: September 25, 2026 (may be extended)
-- Invasive Hornet Program Coordinator — ArcGIS data and web apps, survey coordination and interns (Clemson University Regulatory Services, Pendleton) — _Good_ · Southeast & Appalachia · deadline: September 25, 2026 (may be extended)
-- Forest Wildlife Specialist — NRCS partner 'wildlife forester' for young-forest habitat on private land, north-central Wisconsin (Ruffed Grouse Society) — _Good_ · Midwest & Great Plains · deadline: October 18, 2026
-- Seasonal Fisheries Worker (Natural Resources Technician) — Inland Fisheries Research Unit, Hebron (Ohio DNR Division of Wildlife) — _Good_ · Midwest & Great Plains · deadline: September 28, 2026
-- Private Lands Biologist — coastal WETLAND and waterfowl habitat delivery on the Texas Coast (Ducks Unlimited) — _Good_ · Southwest · deadline: October 16, 2026
+**Added 21 new** opportunities:
+- Wildlife Biologist — predator management and island fox care to protect federally listed species on San Clemente Island (Institute for Wildlife Studies) — _Reach / review_ · West Coast / Pacific · deadline: September 21, 2026
+- Greater Banded Hornet Biological Technician — invasive-species biosecurity on military installations in Guam (CEMML / Colorado State University) — _Good_ · Alaska, Hawaii & Territories · deadline: September 21, 2026
+- USDA Forest Service Biological Control Research Opportunity — Pacific Southwest Research Station, Hilo (ORISE) — _Good_ · Alaska, Hawaii & Territories · deadline: October 23, 2026 (reviewed on a rolling basis)
+- USDA-ARS Post-Bachelor's Research Opportunity — fire ant behaviour and chemical ecology, Gainesville (ORISE) — _Good_ · Southeast & Appalachia · deadline: November 6, 2026 (reviewed on a rolling basis)
+- USDA-ARS Biting Fly Biology Fellowship — insectary and vector research at the National Bio and Agro-Defense Facility, Manhattan KS (ORISE) — _Good_ · Midwest & Great Plains · deadline: September 25, 2026 (reviewed on a rolling basis)
+- Walking Mountains Graduate Fellowship — two-year teaching fellowship paired with a master's in natural-science education (Avon, Colorado) — _Reach / review_ · Mountain West · deadline: November 15, 2026
+- Coastal Sciences Doctoral Fellowship — $28,500/yr, BS entry accepted, Gulf Coast Research Laboratory (University of Southern Mississippi) — _Good_ · Southeast & Appalachia · deadline: January 15, 2027
+- PhD Position in Marine Fish Ecology — fish connectivity at the Flower Garden Banks National Marine Sanctuary, BS entry (Louisiana State University) — _Reach / review_ · Southeast & Appalachia · deadline: October 15, 2026
+- MS or PhD in Integrative Organismal Biology — turtle temperature-dependent sex determination (Oklahoma State University, Bock Lab) — _Good_ · Southwest · deadline: January 15, 2027
+- Master's Assistantship — coastal invertebrate larval ecology at the Belle W. Baruch Institute (University of South Carolina, Coastal S.E.E. Lab) — _Good_ · Southeast & Appalachia · deadline: November 13, 2026
+- PhD — aoudad population ecology from GPS-telemetry and CAMERA-TRAP data in the Chihuahuan Desert, BS entry (UTEP, Padilla Applied Wildlife Science lab) — _Good_ · Southwest · deadline: October 15, 2026
+- MS (or PhD) Assistantship in Entomology — scale insects, lawn insecticides and natural enemies in urban trees (University of Kentucky, Wilson Lab) — _Good_ · Southeast & Appalachia · deadline: September 18, 2026
+- MSc Assistantships (2) — crayfish aquaculture and INVASIVE-SPECIES control with USGS and Ben-Gurion University (Auburn University) — _Good_ · Southeast & Appalachia · deadline: October 5, 2026
+- MS (or PhD) Assistantship — mesic habitats and ungulate conservation: GPS-collar and REMOTE-SENSING analysis to prioritise habitat restoration (University of Wyoming, Merkle Research Group) — _Excellent_ · Mountain West · deadline: October 5, 2026
+- Graduate Research Assistantship — nature-based solutions for habitat restoration and WATER QUALITY on the Mississippi Gulf Coast (University of Southern Mississippi) — _Strong_ · Southeast & Appalachia · deadline: October 15, 2026
+- PhD in Watershed Ecology & Biogeochemistry — stream recovery after floods and wildfire, nutrient cycling (University of Washington SAFS, Lowman Lab) — _Good_ · West Coast / Pacific · deadline: October 8, 2026
+- MS Assistantship — ruffed grouse occupancy with acoustic recorders, ArcGIS Pro landscape modelling and West Nile virus sampling (West Virginia University) — _Strong_ · Southeast & Appalachia · deadline: October 30, 2026
+- PhD Assistantship — spatial models of breeding duck abundance across the Prairie Pothole Region with USFWS HAPET (Clemson University, Kennedy Waterfowl & Wetlands Center) — _Reach / review_ · Southeast & Appalachia · deadline: September 30, 2026 or until filled
+- MS Assistantship — mark-recapture monitoring of at-risk and federally listed freshwater turtles in Mississippi (University of Southern Mississippi) — _Strong_ · Southeast & Appalachia · deadline: October 15, 2026
+- MS or PhD Graduate Research Assistant — boater and angler networks for AQUATIC INVASIVE SPECIES prevention, with USGS (South Dakota State University) — _Good_ · Midwest & Great Plains · deadline: October 16, 2026
+- RT-QuIC Laboratory Research Technician — chronic wasting disease prion assay research, Veterinary Services (Wyoming Game & Fish) — _Good_ · Mountain West · deadline: September 22, 2026
 
 **⚠ Review these (reach / weak fit — your call whether to keep):**
-- Research Scientist — permanent civil-service position, West Sacramento (California Department of Fish and Wildlife, JC-531426) — _Reach / review_ · West Coast / Pacific · deadline: September 23, 2026
-- Conservation Forestry & Wildlife Biologist — longleaf pine ecological forestry and wildlife management (Jones Center at Ichauway) — _Reach / review_ · Southeast & Appalachia · deadline: October 31, 2026
+- Wildlife Biologist — predator management and island fox care to protect federally listed species on San Clemente Island (Institute for Wildlife Studies) — _Reach / review_ · West Coast / Pacific · deadline: September 21, 2026
+- Walking Mountains Graduate Fellowship — two-year teaching fellowship paired with a master's in natural-science education (Avon, Colorado) — _Reach / review_ · Mountain West · deadline: November 15, 2026
+- PhD Position in Marine Fish Ecology — fish connectivity at the Flower Garden Banks National Marine Sanctuary, BS entry (Louisiana State University) — _Reach / review_ · Southeast & Appalachia · deadline: October 15, 2026
+- PhD Assistantship — spatial models of breeding duck abundance across the Prairie Pothole Region with USFWS HAPET (Clemson University, Kennedy Waterfowl & Wetlands Center) — _Reach / review_ · Southeast & Appalachia · deadline: September 30, 2026 or until filled
 
 **Updated 0** (deadline / status / description changed).
 
-**Total opportunities:** 1402  ·  next-cycle: 465  ·  expired (one-time, no future cycle): 229
+**Total opportunities:** 1423  ·  next-cycle: 465  ·  expired (one-time, no future cycle): 229
 Triage: passed-but-recurring → `cycle:"next"`; one-time/discontinued → `expired:true`. Passed/expired are hidden on the site by default (toggle to show); never deleted, never moved to the personal Archive. Fit tiers: _Excellent_ / _Strong_ / _Good_ / _Reach / review_ (set via each entry's badge). The Browse pages render from this data automatically — no HTML edits. Nothing is live until this PR is merged.
