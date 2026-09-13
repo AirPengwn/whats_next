@@ -68338,5 +68338,141 @@
     ],
     "start": "",
     "relocation": "lead"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "British Columbia",
+    "id": "item-1587",
+    "title": "MSc and PhD Positions in Freshwater Science, Management & Conservation — inaugural cohort of the Olden Lab (University of British Columbia)",
+    "org": "University of British Columbia · Department of Forest & Conservation Sciences · Olden Lab (Dr. Julian Olden) · Vancouver, BC",
+    "location": "Vancouver, British Columbia",
+    "deadline": "Rolling until January 15, 2027 (UBC deadline February 1, 2027)",
+    "badge": "Strong fit",
+    "pay": "",
+    "stipend": "Funding details on the lab page (not published in the announcement)",
+    "benefits": "",
+    "url": "https://eeb.uconn.edu/2026/09/09/msc-and-phd-positions-in-freshwater-science-olden-lab-ubc/",
+    "url_label": "MSc and PhD Positions in Freshwater Science, Management & Conservation — inaugural cohort of the Olden Lab (University of British Columbia)",
+    "links": [
+      {
+        "href": "https://eeb.uconn.edu/2026/09/09/msc-and-phd-positions-in-freshwater-science-olden-lab-ubc/",
+        "label": "🔗 MSc and PhD Positions in Freshwater Science, Management & Conservation — inaugural cohort of the Olden Lab (University of British Columbia)"
+      },
+      {
+        "href": "https://www.oldenfish.com/ubc",
+        "label": "🔗 Olden Lab — details"
+      }
+    ],
+    "metaLine": "🇨🇦 Vancouver · MSc OR PhD · freshwater restoration, species at risk, invasives, eDNA · rolling to Jan 15",
+    "body": "The Olden Lab at the University of British Columbia (Vancouver) invites applications for multiple MSc and PhD positions, supervised by Dr. Julian Olden, Canada Research Chair in Freshwater Ecosystem Sustainability, in the Department of Forest and Conservation Sciences. Students join the lab's inaugural cohort. Research topics include hydropower and ecologically sustainable water management, climate impacts and adaptation, nature-based solutions to restoration, protection and recovery of species at risk, invasive species ecology and management, community and food-web ecology, biotracers and eDNA biosurveillance, water security, big data and conservation technology, and community-based knowledge co-production. Start September 2027; applications considered on a rolling basis until January 15 2027 (UBC deadline February 1 2027).",
+    "desc": "Julian Olden is one of the best-known freshwater conservation ecologists in North America, and a new lab's first cohort gets unusual attention and freedom to shape projects. The topic list — restoration, water management, invasives, species at risk — sits right on your watershed interests, and an MSc track is offered. As a graduate student in Canada you would use a study permit rather than a work permit. Check the funding package on the lab page.",
+    "pills": [
+      "🇨🇦 Canada",
+      "MSc track available",
+      "Nature-based restoration + eDNA",
+      "Canada Research Chair PI"
+    ],
+    "start": "September 2027",
+    "relocation": "planned",
+    "deadline_date": "2027-01-15",
+    "country": "CA"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Prairies (AB/SK/MB)",
+    "id": "item-1588",
+    "title": "Funded MSc — understory plants and soil nitrogen recovery after wildfire in aspen forests (University of Alberta, Karst lab)",
+    "org": "University of Alberta · Department of Renewable Resources · Dr. Justine Karst (co-supervised) · Edmonton, AB",
+    "location": "Edmonton, Alberta",
+    "deadline": "October 31, 2026 (email CV + cover letter)",
+    "badge": "Good fit",
+    "pay": "",
+    "stipend": "CAD $25,000 per year for two years (published), plus TA opportunities",
+    "benefits": "",
+    "url": "https://eeb.uconn.edu/2026/09/09/msc-opportunity-university-of-alberta/",
+    "url_label": "Funded MSc — understory plants and soil nitrogen recovery after wildfire in aspen forests (University of Alberta, Karst lab)",
+    "links": [
+      {
+        "href": "https://eeb.uconn.edu/2026/09/09/msc-opportunity-university-of-alberta/",
+        "label": "🔗 Funded MSc — understory plants and soil nitrogen recovery after wildfire in aspen forests (University of Alberta, Karst lab)"
+      }
+    ],
+    "metaLine": "🇨🇦 Edmonton · MSc · CAD $25k/yr × 2 · post-fire soil nitrogen · apply by Oct 31",
+    "body": "Recruiting an MSc student to build on recent work linking fire regime, canopy type and ecosystem nitrogen balance in boreal forests, focusing on the role understory plants play in nitrogen accumulation in aspen forest soils after wildfire. Co-supervised with Justine Karst at the University of Alberta, starting summer or fall 2027, with freedom to develop the student's own ideas. A two-year stipend of $25,000 a year is provided, with TA opportunities in the Department of Renewable Resources. Send a CV and one-page cover letter to karst@ualberta.ca by October 31 2026; enquiries beforehand are welcome.",
+    "desc": "A clearly funded MSc with a published stipend and a soils-and-disturbance question — post-fire recovery — that echoes the post-Helene recovery framing of your capstone. Soil biogeochemistry would be a new skill. Check the stipend is tuition-inclusive or whether fees are covered separately.",
+    "pills": [
+      "🇨🇦 Canada",
+      "MSc — her target degree",
+      "CAD $25,000/yr for 2 years",
+      "Freedom to develop your own ideas"
+    ],
+    "start": "Summer or fall 2027",
+    "relocation": "planned",
+    "deadline_date": "2026-10-31",
+    "country": "CA"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-1589",
+    "title": "MS or PhD — acoustic communication and behaviour of gray treefrogs (Oklahoma State University, Reichert Lab)",
+    "org": "Oklahoma State University · Department of Integrative Biology · Reichert Lab (Dr. Michael Reichert) · Stillwater, OK",
+    "location": "Stillwater, Oklahoma",
+    "deadline": "October 31, 2026 (email statement of interest + CV)",
+    "badge": "Good fit",
+    "pay": "",
+    "stipend": "Teaching assistantship (amount not published); RA and summer funding possible",
+    "benefits": "",
+    "url": "https://eeb.uconn.edu/2026/09/09/recruiting-ms-phd-students-in-behavioral-ecology-reichert-lab-oklahoma-state/",
+    "url_label": "MS or PhD — acoustic communication and behaviour of gray treefrogs (Oklahoma State University, Reichert Lab)",
+    "links": [
+      {
+        "href": "https://eeb.uconn.edu/2026/09/09/recruiting-ms-phd-students-in-behavioral-ecology-reichert-lab-oklahoma-state/",
+        "label": "🔗 MS or PhD — acoustic communication and behaviour of gray treefrogs (Oklahoma State University, Reichert Lab)"
+      },
+      {
+        "href": "https://reichertlab.com/join-the-lab/graduate-students/",
+        "label": "🔗 Reichert Lab — graduate students"
+      }
+    ],
+    "metaLine": "Stillwater OK · MS or PhD · amphibian behaviour and acoustics · TA-funded · contact by Oct 31",
+    "body": "The Reichert Lab in Oklahoma State University's Department of Biology is recruiting one or two MS or PhD students for fall 2027. The lab studies animal communication and cognition, mainly acoustic communication in gray treefrogs, with work on other frogs and insects and on social behaviour, learning, aggression and visual communication. Students develop independent projects and skills in experimental design, programming, data analysis and writing. Support is primarily through teaching assistantships, with possible RA and summer funding. Email michael.reichert@okstate.edu a statement of interest and CV by October 31 2026; candidates are evaluated on a rolling basis, finalists invited to apply to the graduate programme by January 15 2027.",
+    "desc": "A TA-funded MS in amphibian behavioural ecology. It is more behaviour than conservation, but acoustic monitoring of frogs is a practical field skill used in wetland assessments, and the lab welcomes MS students. Ask what the TA stipend is and whether tuition is waived.",
+    "pills": [
+      "MS track available",
+      "Amphibian acoustic ecology",
+      "TA-supported",
+      "Low cost of living"
+    ],
+    "start": "Fall 2027",
+    "relocation": "planned",
+    "deadline_date": "2026-10-31"
   }
 ]
