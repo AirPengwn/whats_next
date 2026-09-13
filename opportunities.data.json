@@ -68852,5 +68852,129 @@
     "start": "See posting",
     "relocation": "local",
     "deadline_date": "2026-09-23"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Northeast",
+    "id": "item-1599",
+    "title": "Natural Resources Internship — WETLAND DELINEATION and ArcGIS field-data work, DEC Region 8 (New York State Department of Environmental Conservation)",
+    "org": "New York State Department of Environmental Conservation · Region 8 · Division of Fish & Wildlife / Ecosystem Health · Avon, NY",
+    "location": "Avon, New York (Livingston County, near Rochester)",
+    "deadline": "Open — rolling review, apply promptly",
+    "badge": "Strong fit",
+    "pay": "Paid internship (rate not published)",
+    "stipend": "",
+    "benefits": "",
+    "url": "https://nysinternships.cs.ny.gov/nnyl/main/viewinternship.cfm?Agency=All&Concentration=All&County=All&Down=&IntID=109453&Interest=All&Sort=title&Standing=All",
+    "url_label": "Natural Resources Internship — WETLAND DELINEATION and ArcGIS field-data work, DEC Region 8 (New York State Department of Environmental Conservation)",
+    "links": [
+      {
+        "href": "https://nysinternships.cs.ny.gov/nnyl/main/viewinternship.cfm?Agency=All&Concentration=All&County=All&Down=&IntID=109453&Interest=All&Sort=title&Standing=All",
+        "label": "🔗 Natural Resources Internship — WETLAND DELINEATION and ArcGIS field-data work, DEC Region 8 (New York State Department of Environmental Conservation)"
+      }
+    ],
+    "metaLine": "Avon NY · paid DEC internship · WETLAND DELINEATION + ArcGIS digitising · confirm recent-grad eligibility",
+    "body": "A paid internship with NYSDEC Region 8's Fish and Wildlife / Ecosystem Health division in Avon, New York, assisting staff with wetland delineation, mean-high-water-level determinations, project compliance review and digitising field data in ArcGIS. Secondary duties support fisheries, wildlife and forestry programmes, and the internship includes educational seminars and field trips for new environmental professionals. At least 30 hours a week; start date and rate not specified; applications reviewed on a rolling basis through the NYS internship portal.",
+    "desc": "The core duties — wetland delineation plus ArcGIS digitising of field data — are almost word for word your training. The listing is aimed at current students (sophomores to seniors), so confirm that a 2025 graduate is eligible before applying; if they say yes, this is a direct line into New York's freshwater-wetlands regulatory programme, which also hires trainees through NY HELPS (item-368).",
+    "pills": [
+      "Wetland delineation — her strongest skill",
+      "ArcGIS field-data digitising",
+      "State environmental agency",
+      "⚠ Confirm recent-grad eligibility"
+    ],
+    "start": "Not specified · 30+ hours per week",
+    "relocation": "local"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Southwest",
+    "id": "item-1600",
+    "title": "Land & Water Program Assistant — GIS mapping in ArcGIS Pro, stewardship monitoring and land/water transactions (Arizona Land and Water Trust)",
+    "org": "Arizona Land and Water Trust (non-profit land trust) · Tucson, AZ",
+    "location": "Tucson, Arizona (Southern Arizona service area)",
+    "deadline": "Rolling — recently posted, apply directly",
+    "badge": "Strong fit",
+    "pay": "$42,000–$50,000 per year (published)",
+    "stipend": "",
+    "benefits": "",
+    "url": "https://aztws.com/jobs_land_and_water_trust_assistant_2026/",
+    "url_label": "Land & Water Program Assistant — GIS mapping in ArcGIS Pro, stewardship monitoring and land/water transactions (Arizona Land and Water Trust)",
+    "links": [
+      {
+        "href": "https://aztws.com/jobs_land_and_water_trust_assistant_2026/",
+        "label": "🔗 Land & Water Program Assistant — GIS mapping in ArcGIS Pro, stewardship monitoring and land/water transactions (Arizona Land and Water Trust)"
+      }
+    ],
+    "metaLine": "Tucson AZ · $42k–$50k · land trust GIS + stewardship monitoring · non-profit",
+    "body": "Arizona Land and Water Trust is hiring a Program Assistant to support conservation projects, stewardship monitoring, GIS mapping and land and water transactions across Southern Arizona. Duties include maintaining GIS databases and producing mapping products in ArcGIS Pro, plus outreach to landowners and partners. Salary $42,000–$50,000. Posted on the Arizona Chapter of The Wildlife Society job board; apply directly to the employer (rolling).",
+    "desc": "A land-trust job where GIS is a core duty rather than a side task, and water — through conservation transactions that keep water in desert rivers — is half the mission. The posting prefers about two years' experience, but your GIS suitability work and field monitoring are exactly what the job describes.",
+    "pills": [
+      "GIS databases + ArcGIS Pro mapping",
+      "Stewardship monitoring",
+      "Non-profit land trust",
+      "~2 yrs preferred, not required"
+    ],
+    "start": "See posting",
+    "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Midwest & Great Plains",
+    "id": "item-1601",
+    "title": "Land and Facilities Manager — stewardship of a 1,700-acre Lake Michigan nature sanctuary (The Ridges Sanctuary, Door County)",
+    "org": "The Ridges Sanctuary (non-profit) · Baileys Harbor, WI",
+    "location": "Baileys Harbor, Wisconsin (Door County)",
+    "deadline": "September 14, 2026, 5 pm (rolling review for interviews)",
+    "badge": "Reach",
+    "pay": "Not published",
+    "stipend": "",
+    "benefits": "",
+    "url": "https://gatheringwaters.org/land-and-facilities-manager-the-ridges-sanctuary/",
+    "url_label": "Land and Facilities Manager — stewardship of a 1,700-acre Lake Michigan nature sanctuary (The Ridges Sanctuary, Door County)",
+    "links": [
+      {
+        "href": "https://gatheringwaters.org/land-and-facilities-manager-the-ridges-sanctuary/",
+        "label": "🔗 Land and Facilities Manager — stewardship of a 1,700-acre Lake Michigan nature sanctuary (The Ridges Sanctuary, Door County)"
+      }
+    ],
+    "metaLine": "Door County WI · non-profit sanctuary stewardship + facilities · ⚠ closes Sept 14",
+    "body": "The Ridges Sanctuary, a non-profit nature preserve on Lake Michigan, is hiring a Land and Facilities Manager to combine hands-on stewardship of its 1,700+ acres with oversight of buildings, grounds and infrastructure, supporting research and citizen-science monitoring alongside trail and facility maintenance for staff, volunteers and visitors. Listed on the Gathering Waters (Wisconsin land trust alliance) board; deadline September 14 2026, 5 pm, with rolling review for interviews. Salary not published.",
+    "desc": "Filed as a Reach because it is a manager post that closes tomorrow. The Ridges is one of the oldest and most botanically important preserves in the Great Lakes — a ridge-and-swale wetland complex — so it is worth knowing about even if the timing does not work.",
+    "pills": [
+      "⚠ Closes Sept 14",
+      "Non-profit nature preserve",
+      "Supports research + citizen science",
+      "Manager title"
+    ],
+    "start": "See posting",
+    "relocation": "lead",
+    "deadline_date": "2026-09-14"
   }
 ]
