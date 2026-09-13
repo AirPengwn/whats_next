@@ -1,41 +1,53 @@
 # Weekly opportunity sweep — 2026-09-13
 
-**Added 27 new** opportunities:
-- Stewardship Technician (Rural Clean Water Program) (Rideau Valley Conservation Authority) — _Strong_ · Ontario · deadline: September 18, 2026, 4:00 pm (email hr@rvca.ca)
-- Technician, Environment — water, sediment & biota monitoring at steelmaking-coal mines (Elk Valley Resources) — _Good_ · British Columbia · deadline: September 14, 2026
-- Junior Environmental Specialist — Spaceport Nova Scotia (Maritime Launch Services Ltd.) — _Good_ · Atlantic Canada · deadline: Open until filled — posted Aug 31, 2026
-- Environmental Scientist / EIT — new graduate (Environment, People & Place team) (Hatch) — _Good_ · Prairies (AB/SK/MB) · deadline: Open until filled — campus posting dated Sep 8, 2026
-- Graduate Technical Consultant — Junior Environmental Scientist/Technologist (Worley Consulting) — _Good_ · Prairies (AB/SK/MB) · deadline: Open until filled — posted Aug 27, 2026
-- Technical Consultant I, Environmental Scientist (Soil Scientist) — reclamation (Worley Consulting) — _Reach / review_ · Prairies (AB/SK/MB) · deadline: Open until filled — posted Sep 11, 2026
-- Junior Environmental Professional, Planning & Reclamation/Remediation (H3M Environmental Ltd.) — _Good_ · Prairies (AB/SK/MB) · deadline: Open until filled — posted Sep 4, 2026
-- Entry-Level Environmental Planner (AECOM) — _Good_ · Ontario · deadline: Open until filled — posted Sep 1, 2026 (newly created position)
-- Environmental Technologist (JD Environmental Ltd.) — _Good_ · Prairies (AB/SK/MB) · deadline: Open until filled — posted Aug 25, 2026
-- Environmental Technologist — site assessment & groundwater monitoring (Thurber Engineering Ltd.) — _Good_ · Prairies (AB/SK/MB) · deadline: Open until filled — posted Sep 1, 2026
-- Junior Environmental Professional — site investigation & remediation (Parsons Corporation) — _Good_ · British Columbia · deadline: Open until filled — posted Aug 17, 2026
-- Environmental Field Technician — mine water monitoring (rotation, staff accommodation) (True Environmental) — _Strong_ · Northern Canada · deadline: Open until filled — posted Aug 20, 2026
-- Environmental Field Technician — fish, wildlife & environmental projects (seasonal) (Splatsin Development Corporation) — _Good_ · British Columbia · deadline: Open until filled — posted Aug 21, 2026
-- Environmental Monitoring Technician — wastewater plants & receiving waters (Metro Vancouver) — _Good_ · British Columbia · deadline: Advertised until September 24, 2026 (Job Bank; posted Sep 10, 2026)
-- Junior Environmental Technician (entry level) (Recon Environmental Ltd.) — _Good_ · British Columbia · deadline: Open until filled — posted Jul 10, 2026; still live on the employer's HireBus page (last updated Jul 24)
-- Bird & Wildlife Biologists — oil-sands bird deterrent and monitoring program (2026/2027 seasons) (Acden Aves) — _Good_ · Prairies (AB/SK/MB) · deadline: Open until filled — recruiting for the 2026 and 2027 seasons (posted Jun 30, 2026)
-- Biological Technician — LMIA requested (Keystone Environmental Ltd.) — _Reach / review_ · British Columbia · deadline: Advertised until September 23, 2026 (Job Bank; posted May 26, 2026 by a licensed third party)
-- Junior Wildlife Biologist (Stantec) — _Good_ · Prairies (AB/SK/MB) · deadline: Open until filled — posted Apr 14, 2026 and still listed on stantec.jobs (Sep 13, 2026)
-- Aquatic Biologist (entry-level to senior bands) (Triton Environmental Consultants) — _Reach / review_ · Prairies (AB/SK/MB) · deadline: Open until filled — Open until filled (posted May 19, 2026; still listed Sep 13, 2026)
-- Environmental Field Technician — wind-farm bird & bat mortality monitoring (ERM) — _Good_ · Prairies (AB/SK/MB) · deadline: Open until filled — posted Feb 24, 2026; still listed on ERM's Workday on Sep 13, 2026
-- Environmental Field Technician — pre-construction wildlife surveys & monitoring (rotation) (ERM) — _Good_ · British Columbia · deadline: Open until filled — posted Jan 5, 2026; still listed on ERM's Workday on Sep 13, 2026
-- GIS Analyst (Associated Environmental Consultants) — _Good_ · Prairies (AB/SK/MB) · deadline: Open until filled — Not stated (listed on AE careers page, Sep 13, 2026)
-- Junior Environmental Technologist/Technician (Dillon Consulting Limited) — _Good_ · Ontario · deadline: Open until filled — Not stated (open on Dillon's iCIMS board, Sep 13, 2026)
-- GIS Analyst — Data Integration Services (Dillon Consulting Limited) — _Reach / review_ · Atlantic Canada · deadline: Open until filled — Not stated (open on Dillon's iCIMS board, Sep 13, 2026)
-- Junior Field Technician — Contamination Assessment & Remediation (GHD) — _Good_ · Atlantic Canada · deadline: Open until filled — posted Aug 20, 2026 (no end date on posting)
-- Environmental Field Technician (Environmental or Civil Engineering Technology/Technician) (GHD) — _Good_ · Atlantic Canada · deadline: Posting end date September 25, 2026 (00:00 EDT) — apply by September 24
-- Science Graduate, Environmental — Graduate Environmental Scientist (Hydrogeology) (GHD) — _Good_ · Ontario · deadline: Open until filled — posted Sep 2, 2026
+**Added 40 new** opportunities:
+- WMWP Restoration & Nursery Assistant (4 positions) (Research Corporation of the University of Hawaiʻi) — _Good_ · Alaska, Hawaii & Territories · deadline: September 23, 2026 (11:59 pm HST)
+- Napuʻu NRM Field Assistant I — Puʻu Waʻawaʻa / Puʻu Anahulu (Research Corporation of the University of Hawaiʻi) — _Good_ · Alaska, Hawaii & Territories · deadline: September 24, 2026 (11:59 pm HST)
+- Napuʻu NRM Field Assistant II — Puʻu Waʻawaʻa / Puʻu Anahulu (Research Corporation of the University of Hawaiʻi) — _Good_ · Alaska, Hawaii & Territories · deadline: September 24, 2026 (11:59 pm HST)
+- GIS Research/Data Technician — Nā Ala Hele Trails & Access (Maui) (Research Corporation of the University of Hawaiʻi) — _Strong_ · Alaska, Hawaii & Territories · deadline: September 16, 2026 (11:59 pm HST)
+- Invasive Species Field Associate I — Kauaʻi Invasive Species Committee (Research Corporation of the University of Hawaiʻi) — _Good_ · Alaska, Hawaii & Territories · deadline: September 21, 2026 (11:59 pm HST)
+- Maui NR/ER Field Project Technician (5 positions) — native snail, invertebrate and rare-plant surveys (Research Corporation of the University of Hawaiʻi) — _Good_ · Alaska, Hawaii & Territories · deadline: September 17, 2026 (11:59 pm HST)
+- Two-Lined Spittlebug Research Technician (12-month limited term) (Research Corporation of the University of Hawaiʻi) — _Good_ · Alaska, Hawaii & Territories · deadline: September 25, 2026 (11:59 pm HST)
+- Forestry & Wildlife Technician IV — Hilo (continuous recruitment) (Hawaiʻi Department of Land and Natural Resources) — _Good_ · Alaska, Hawaii & Territories · deadline: Open until filled
+- Spring Chinook Habitat Study Lead — Fish & Wildlife Biologist 2 (permanent) (Washington Department of Fish and Wildlife) — _Good_ · West Coast / Pacific · deadline: September 21, 2026 (11:59 pm PT)
+- Freshwater Monitoring Technician — Scientific Technician 2 (permanent) (Washington Department of Fish and Wildlife) — _Strong_ · West Coast / Pacific · deadline: September 20, 2026 (11:59 pm PT)
+- Aquatic Invasive Species Technician — Scientific Technician 3 (permanent, 2 openings) (Washington Department of Fish and Wildlife) — _Good_ · West Coast / Pacific · deadline: September 21, 2026 (11:59 pm PT)
+- Fish Hatchery Specialist 2 (In-Training) — Cowlitz Trout Hatchery (permanent, housing provided) (Washington Department of Fish and Wildlife) — _Good_ · West Coast / Pacific · deadline: September 17, 2026 (11:59 pm PT)
+- Fish Hatchery Specialist 2 (In-Training) — Goldendale Hatchery (career seasonal) (Washington Department of Fish and Wildlife) — _Good_ · West Coast / Pacific · deadline: September 24, 2026 (11:59 pm PT)
+- Field Crew Member — restoration crew (permanent) (Mason Conservation District) — _Good_ · West Coast / Pacific · deadline: Open until filled
+- Land Conservation Monitoring Specialist (PPM III, 3-year term-limited) (King County Department of Natural Resources & Parks) — _Reach / review_ · West Coast / Pacific · deadline: September 27, 2026 (11:59 pm PT)
+- District Wildlife Technician (Fish & Wildlife Technician, underfill option) — Umpqua Watershed District (Oregon Department of Fish and Wildlife) — _Good_ · West Coast / Pacific · deadline: September 23, 2026 (11:59 pm PT)
+- Oregon Plan Monitoring Surveyor (Biological Science Assistant, permanent) (Oregon Department of Fish and Wildlife) — _Strong_ · West Coast / Pacific · deadline: September 16, 2026 (11:59 pm PT)
+- Fish Screening, Passage & Restoration Coordinator (NRS 2; NRS 1 underfill option) (Oregon Department of Fish and Wildlife) — _Reach / review_ · West Coast / Pacific · deadline: September 20, 2026 (11:59 pm PT)
+- Cole Rivers Hatchery Technician (Fish & Wildlife Technician, permanent) (Oregon Department of Fish and Wildlife) — _Good_ · West Coast / Pacific · deadline: September 22, 2026 (11:59 pm PT)
+- Natural Resource Specialist 1 — fuels reduction (limited duration) (Oregon Department of Forestry) — _Good_ · West Coast / Pacific · deadline: September 24, 2026 (11:59 pm PT)
+- On-Call Seasonal Botanist (Fall 2026–2027 season) (Mason, Bruce & Girard) — _Good_ · West Coast / Pacific · deadline: Open until filled
+- Timberland Conservation & Fire Resiliency Coordinator (Environmental Scientist, 12-month limited term) (California Department of Fish and Wildlife) — _Good_ · West Coast / Pacific · deadline: October 1, 2026
+- Wildlife Coexistence Intern (Environmental Services Intern, 2 positions) (California Department of Fish and Wildlife) — _Good_ · West Coast / Pacific · deadline: September 24, 2026
+- Fish and Wildlife Scientific Aid — Nutria Eradication Program (Solano County) (California Department of Fish and Wildlife) — _Good_ · West Coast / Pacific · deadline: September 20, 2026
+- Fish and Wildlife Scientific Aid — Nutria Eradication Program (San Joaquin County) (California Department of Fish and Wildlife) — _Good_ · West Coast / Pacific · deadline: September 20, 2026
+- Fish and Wildlife Scientific Aid — juvenile salmon surveys & rotary screw traps, Lower Sacramento River (4 positions) (California Department of Fish and Wildlife) — _Good_ · West Coast / Pacific · deadline: September 24, 2026
+- Scientific Aid — Central Valley Regional Water Quality Control Board, Confined Animal Facilities Unit (State Water Resources Control Board) — _Strong_ · West Coast / Pacific · deadline: September 25, 2026
+- Waterfowl Hunter Check Station Seasonal Aid (4 positions) (California Department of Fish and Wildlife) — _Good_ · West Coast / Pacific · deadline: September 24, 2026
+- Fish and Wildlife Seasonal Aid — salmon hatchery (Merced County) (California Department of Fish and Wildlife) — _Good_ · West Coast / Pacific · deadline: September 21, 2026
+- Mendota Wildlife Area Environmental Scientist (12-month limited term) (California Department of Fish and Wildlife) — _Good_ · West Coast / Pacific · deadline: September 21, 2026
+- Environmental Scientist — Wetland & Riparian Protection Unit, Los Angeles Regional Water Board (State Water Resources Control Board) — _Strong_ · West Coast / Pacific · deadline: September 21, 2026
+- Environmental Scientist — Basin Planning, Central Valley Regional Water Board (State Water Resources Control Board) — _Strong_ · West Coast / Pacific · deadline: September 23, 2026
+- Environmental Scientist — Flood Maintenance Office environmental permitting (California Department of Water Resources) — _Good_ · West Coast / Pacific · deadline: September 24, 2026
+- Environmental Scientist (entry level) — Diablo Range District / Hollister Hills SVRA (California Department of Parks and Recreation) — _Good_ · West Coast / Pacific · deadline: September 21, 2026
+- Forestry Aide — Sonoma-Mendocino Coast District (Sonoma Coast State Park) (California Department of Parks and Recreation) — _Good_ · West Coast / Pacific · deadline: September 18, 2026
+- Environmental Scientist — Biodiversity program, Ocean Protection Council (California Natural Resources Agency) — _Good_ · West Coast / Pacific · deadline: September 24, 2026
+- Environmental Scientist — Biological Control Program (12-month limited term) (California Department of Food and Agriculture) — _Good_ · West Coast / Pacific · deadline: September 15, 2026
+- Ecologist I/II — Vegetation Management (Watershed Division) (Marin Water) — _Reach / review_ · West Coast / Pacific · deadline: September 14, 2026 (11:59 pm PT)
+- Stewardship Technician II (Sonoma Land Trust) — _Strong_ · West Coast / Pacific · deadline: September 25, 2026
+- Regulatory Geologist/Hydrologist (Technician level) (VESTRA Resources, Inc.) — _Good_ · West Coast / Pacific · deadline: Open until filled
 
 **⚠ Review these (reach / weak fit — your call whether to keep):**
-- Technical Consultant I, Environmental Scientist (Soil Scientist) — reclamation (Worley Consulting) — _Reach / review_ · Prairies (AB/SK/MB) · deadline: Open until filled — posted Sep 11, 2026
-- Biological Technician — LMIA requested (Keystone Environmental Ltd.) — _Reach / review_ · British Columbia · deadline: Advertised until September 23, 2026 (Job Bank; posted May 26, 2026 by a licensed third party)
-- Aquatic Biologist (entry-level to senior bands) (Triton Environmental Consultants) — _Reach / review_ · Prairies (AB/SK/MB) · deadline: Open until filled — Open until filled (posted May 19, 2026; still listed Sep 13, 2026)
-- GIS Analyst — Data Integration Services (Dillon Consulting Limited) — _Reach / review_ · Atlantic Canada · deadline: Open until filled — Not stated (open on Dillon's iCIMS board, Sep 13, 2026)
+- Land Conservation Monitoring Specialist (PPM III, 3-year term-limited) (King County Department of Natural Resources & Parks) — _Reach / review_ · West Coast / Pacific · deadline: September 27, 2026 (11:59 pm PT)
+- Fish Screening, Passage & Restoration Coordinator (NRS 2; NRS 1 underfill option) (Oregon Department of Fish and Wildlife) — _Reach / review_ · West Coast / Pacific · deadline: September 20, 2026 (11:59 pm PT)
+- Ecologist I/II — Vegetation Management (Watershed Division) (Marin Water) — _Reach / review_ · West Coast / Pacific · deadline: September 14, 2026 (11:59 pm PT)
 
 **Updated 0** (deadline / status / description changed).
 
-**Total opportunities:** 1518  ·  next-cycle: 482  ·  expired (one-time, no future cycle): 282
+**Total opportunities:** 1558  ·  next-cycle: 482  ·  expired (one-time, no future cycle): 282
 Triage: passed-but-recurring → `cycle:"next"`; one-time/discontinued → `expired:true`. Passed/expired are hidden on the site by default (toggle to show); never deleted, never moved to the personal Archive. Fit tiers: _Excellent_ / _Strong_ / _Good_ / _Reach / review_ (set via each entry's badge). The Browse pages render from this data automatically — no HTML edits. Nothing is live until this PR is merged.
