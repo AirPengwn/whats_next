@@ -68474,5 +68474,383 @@
     "start": "Fall 2027",
     "relocation": "planned",
     "deadline_date": "2026-10-31"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1590",
+    "title": "Natural Resource Technician II — WETLAND impoundment and water-control management, Upper Coastal Waterfowl Project, Santee Coastal WMA (SC Dept. of Natural Resources)",
+    "org": "South Carolina Department of Natural Resources · Upper Coastal Waterfowl Project · Charleston County, SC",
+    "location": "Charleston County, South Carolina (Samworth, Santee Coastal and Santee Delta WMAs)",
+    "deadline": "September 23, 2026, 5:00 pm Eastern",
+    "badge": "Strong fit",
+    "pay": "$37,944–$60,690 per year (published)",
+    "stipend": "",
+    "benefits": "Full-time state position",
+    "url": "https://www.governmentjobs.com/careers/sc/jobs/5477238",
+    "url_label": "Natural Resource Technician II — WETLAND impoundment and water-control management, Upper Coastal Waterfowl Project, Santee Coastal WMA (SC Dept. of Natural Resources)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/sc/jobs/5477238",
+        "label": "🔗 Natural Resource Technician II — WETLAND impoundment and water-control management, Upper Coastal Waterfowl Project, Santee Coastal WMA (SC Dept. of Natural Resources)"
+      }
+    ],
+    "metaLine": "Coastal SC · $37.9k–$60.7k · managed WETLAND impoundments + water-control structures · closes Sept 23",
+    "body": "SCDNR is hiring a full-time Natural Resource Technician II for its Upper Coastal Waterfowl Project. Duties include wetland and upland habitat management — mowing fields and marshes, burning, disking, water-level management and agricultural plantings; constructing, maintaining and installing water-control structures on Samworth, Santee Coastal and Santee Delta WMAs; maintaining dikes, roads, trails, campgrounds and signs; supporting public hunts; and collecting biological data. Minimum: a high school diploma plus two years of related experience, or an associate degree in the technical sciences; must be able to obtain Prescribed Fire Manager certification, a CDL, a commercial pesticide applicator licence and a Coast Guard captain's licence. Salary $37,944–$60,690. Closes September 23 2026, 5 pm Eastern.",
+    "desc": "Managed coastal impoundments — marshes whose water levels are raised and lowered with control structures for waterfowl — are one of the most hands-on wetland jobs there is, and Santee Coastal is among the best-known in the Southeast. Your degree exceeds the minimum, and the certifications the post offers (prescribed fire, pesticide, boat captain) are exactly the ones that make later wetland-manager applications strong. A day's drive from Richmond.",
+    "pills": [
+      "Coastal wetland management",
+      "Water-control structures",
+      "Prescribed fire certification offered",
+      "6 hrs from Richmond"
+    ],
+    "start": "See posting",
+    "relocation": "local",
+    "deadline_date": "2026-09-23"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1591",
+    "title": "Environmental Scientist 1/2/3 — statewide hydrological and WATER QUALITY surveys, Water Planning (Louisiana DEQ)",
+    "org": "Louisiana Department of Environmental Quality · Office of Environmental Assessment · Water Surveys / Water Planning · Baton Rouge, LA",
+    "location": "Baton Rouge, Louisiana (field surveys statewide)",
+    "deadline": "September 24, 2026, 11:59 pm Central",
+    "badge": "Strong fit",
+    "pay": "$3,181–$5,724 per month across ES 1–3 (published)",
+    "stipend": "",
+    "benefits": "Classified state position",
+    "url": "https://www.governmentjobs.com/careers/louisiana/jobs/5471471",
+    "url_label": "Environmental Scientist 1/2/3 — statewide hydrological and WATER QUALITY surveys, Water Planning (Louisiana DEQ)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/louisiana/jobs/5471471",
+        "label": "🔗 Environmental Scientist 1/2/3 — statewide hydrological and WATER QUALITY surveys, Water Planning (Louisiana DEQ)"
+      }
+    ],
+    "metaLine": "Baton Rouge · $3.2k–$5.7k/mo · WATER QUALITY + hydrology survey team · bachelor's qualifies",
+    "body": "LDEQ's Office of Environmental Assessment has a vacancy on the team that plans, executes and completes hydrological and water quality surveys across Louisiana, coordinating with survey team members and operating equipment. The data support Nonpoint Source project monitoring, Water Quality Standards and Assessment, and Water Quality Modeling. Minimum qualification: a bachelor's degree in an environmental, biological, chemical, physical or natural resources science (among others), or a graduate degree in those fields. Salary $3,181–$5,724 per month depending on level (ES 1–3). Closes September 24 2026, 11:59 pm Central.",
+    "desc": "A permanent state water-quality survey job that a bachelor's qualifies you for — field sampling and hydrology feeding standards and modelling, which is your capstone's workflow done statewide. Louisiana's water-quality problems (nutrients, coastal loss) make it a busy, well-resourced programme. The entry band is modest but rises with the ES series.",
+    "pills": [
+      "Water quality surveys",
+      "Nonpoint-source + standards monitoring",
+      "Bachelor's qualifies (ES 1)",
+      "Permanent classified job"
+    ],
+    "start": "See posting",
+    "relocation": "local",
+    "deadline_date": "2026-09-24"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1592",
+    "title": "Environmental Scientist 1/2/3 — contaminated-site remediation, West Monroe (Louisiana DEQ)",
+    "org": "Louisiana Department of Environmental Quality · Office of Environmental Assessment · Remediation Group · West Monroe, LA",
+    "location": "West Monroe, Louisiana",
+    "deadline": "September 23, 2026, 11:59 pm Central",
+    "badge": "Good fit",
+    "pay": "$3,181–$5,724 per month across ES 1–3 (published)",
+    "stipend": "",
+    "benefits": "Classified state position",
+    "url": "https://www.governmentjobs.com/careers/louisiana/jobs/5477122",
+    "url_label": "Environmental Scientist 1/2/3 — contaminated-site remediation, West Monroe (Louisiana DEQ)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/louisiana/jobs/5477122",
+        "label": "🔗 Environmental Scientist 1/2/3 — contaminated-site remediation, West Monroe (Louisiana DEQ)"
+      }
+    ],
+    "metaLine": "West Monroe LA · $3.2k–$5.7k/mo · CONTAMINATED SITE remediation · bachelor's qualifies",
+    "body": "LDEQ's Office of Environmental Assessment is hiring an Environmental Scientist in its Remediation Group to lead remediation projects, guide corrective actions, and ensure contaminated sites are assessed and restored to state and federal standards. Minimum qualification: a bachelor's in an environmental, biological, chemical, physical or natural resources science (among others). Salary $3,181–$5,724 per month depending on level (ES 1–3). Closes September 23 2026, 11:59 pm Central.",
+    "desc": "Contaminated-site remediation is the regulatory end of the trace-metal problem your capstone studied. The posting's language ('lead complex remediation projects') is pitched above entry level, but the ES series starts at a bachelor's, so apply at ES 1 and say so.",
+    "pills": [
+      "Contaminated-site assessment",
+      "Bachelor's qualifies (ES 1)",
+      "Permanent classified job",
+      "Regulatory science"
+    ],
+    "start": "See posting",
+    "relocation": "local",
+    "deadline_date": "2026-09-23"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1593",
+    "title": "Environmental Scientist 1/2/3 — contaminated-site remediation, Lake Charles (Louisiana DEQ)",
+    "org": "Louisiana Department of Environmental Quality · Office of Environmental Assessment · Remediation Group · Lake Charles, LA",
+    "location": "Lake Charles, Louisiana",
+    "deadline": "September 24, 2026, 11:59 pm Central",
+    "badge": "Good fit",
+    "pay": "$3,181–$5,724 per month across ES 1–3 (published)",
+    "stipend": "",
+    "benefits": "Classified state position",
+    "url": "https://www.governmentjobs.com/careers/louisiana/jobs/5477127",
+    "url_label": "Environmental Scientist 1/2/3 — contaminated-site remediation, Lake Charles (Louisiana DEQ)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/louisiana/jobs/5477127",
+        "label": "🔗 Environmental Scientist 1/2/3 — contaminated-site remediation, Lake Charles (Louisiana DEQ)"
+      }
+    ],
+    "metaLine": "Lake Charles LA · $3.2k–$5.7k/mo · CONTAMINATED SITE remediation · bachelor's qualifies",
+    "body": "A second LDEQ Remediation Group vacancy, in Lake Charles: an Environmental Scientist leading remediation projects, guiding corrective actions and ensuring contaminated sites are assessed and restored to state and federal standards. Minimum qualification: a bachelor's in an environmental, biological, chemical, physical or natural resources science (among others). Salary $3,181–$5,724 per month depending on level. Closes September 24 2026, 11:59 pm Central.",
+    "desc": "The Lake Charles twin of the West Monroe remediation post — industrial southwest Louisiana, so a heavy contaminated-sites caseload. Same advice: apply at ES 1 on the strength of your capstone's contamination work.",
+    "pills": [
+      "Contaminated-site assessment",
+      "Bachelor's qualifies (ES 1)",
+      "Permanent classified job",
+      "Separate vacancy from West Monroe"
+    ],
+    "start": "See posting",
+    "relocation": "local",
+    "deadline_date": "2026-09-24"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1594",
+    "title": "Aquatic Nuisance Plants Field Specialist I (EHM I) — plant surveys, grass carp stocking and habitat enhancement on SC waterways (SC Dept. of Environmental Services)",
+    "org": "South Carolina Department of Environmental Services · Bureau of Water · Aquatic Science Division · Columbia, SC",
+    "location": "Richland County (Columbia), South Carolina",
+    "deadline": "September 20, 2026, 11:59 pm Eastern",
+    "badge": "Good fit",
+    "pay": "$54,866–$62,322 per year (published)",
+    "stipend": "",
+    "benefits": "Full-time state position",
+    "url": "https://www.governmentjobs.com/careers/sc/jobs/5475775",
+    "url_label": "Aquatic Nuisance Plants Field Specialist I (EHM I) — plant surveys, grass carp stocking and habitat enhancement on SC waterways (SC Dept. of Environmental Services)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/sc/jobs/5475775",
+        "label": "🔗 Aquatic Nuisance Plants Field Specialist I (EHM I) — plant surveys, grass carp stocking and habitat enhancement on SC waterways (SC Dept. of Environmental Services)"
+      }
+    ],
+    "metaLine": "Columbia SC · $54.9k–$62.3k · state water bureau field specialist · bachelor's qualifies",
+    "body": "In SCDES's Aquatic Science Division of the Bureau of Water, the Aquatic Nuisance Plants Field Specialist I assists with field activities for the Aquatic Nuisance Plants Program: plant surveys, triploid grass carp stockings, control operations, habitat enhancement and educational outreach, protecting South Carolina's waterways. Minimum: a bachelor's in the natural or physical sciences or a related technical field (earth or environmental sciences, chemistry, biology and others), or an associate plus two years, or a high school diploma plus four years. Salary $54,866–$62,322. Closes September 20 2026, 11:59 pm Eastern.",
+    "desc": "A well-paid state water-bureau field job that your degree qualifies you for without any experience. Aquatic vegetation surveys are close to wetland plant work, and it puts you inside the agency that runs South Carolina's water-quality programmes.",
+    "pills": [
+      "Bachelor's qualifies outright",
+      "$54.9k–$62.3k",
+      "Aquatic plant surveys + habitat work",
+      "State Bureau of Water"
+    ],
+    "start": "See posting",
+    "relocation": "local",
+    "deadline_date": "2026-09-20"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1595",
+    "title": "Junior Soil Evaluator (EHM I) — site-suitability soil evaluations and onsite-wastewater inspections (SC Dept. of Environmental Services)",
+    "org": "South Carolina Department of Environmental Services · Bureau of Regional & Laboratory Services · Sumter County, SC",
+    "location": "Sumter County, South Carolina",
+    "deadline": "September 20, 2026",
+    "badge": "Good fit",
+    "pay": "$54,866–$77,000 per year (published)",
+    "stipend": "",
+    "benefits": "Full-time state position",
+    "url": "https://www.governmentjobs.com/careers/sc/jobs/5432778",
+    "url_label": "Junior Soil Evaluator (EHM I) — site-suitability soil evaluations and onsite-wastewater inspections (SC Dept. of Environmental Services)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/sc/jobs/5432778",
+        "label": "🔗 Junior Soil Evaluator (EHM I) — site-suitability soil evaluations and onsite-wastewater inspections (SC Dept. of Environmental Services)"
+      }
+    ],
+    "metaLine": "Sumter SC · $54.9k–$77k · SOIL evaluation for groundwater protection · bachelor's qualifies",
+    "body": "Under direct supervision, the Junior Soil Evaluator performs inspections, evaluations and complaint investigations for SCDES's Onsite Wastewater program, working with senior staff to assess site suitability, evaluate installed systems and ensure compliance with state law, while developing advanced knowledge of the programme's policies and regulations. Minimum: a high school diploma plus environmental health experience, or a bachelor's in the natural or physical sciences, mathematics, public health, engineering or a related field in place of experience. Salary $54,866–$77,000. Closes September 20 2026.",
+    "desc": "Soil evaluation for septic siting is applied soil science — hydric soil indicators are part of both this and wetland delineation, so your Army Corps training transfers directly. Well paid for an entry role and a bachelor's substitutes for all the experience.",
+    "pills": [
+      "Soil site-suitability",
+      "Bachelor's substitutes for experience",
+      "$54.9k–$77k",
+      "Groundwater protection"
+    ],
+    "start": "See posting",
+    "relocation": "local",
+    "deadline_date": "2026-09-20"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1596",
+    "title": "Phytoplankton Biologist (EHM I) — harmful algal bloom and periphyton water-quality monitoring (SC Dept. of Environmental Services)",
+    "org": "South Carolina Department of Environmental Services · Harmful Algal Bloom & Periphyton Programs · Columbia, SC",
+    "location": "Richland County (Columbia), South Carolina",
+    "deadline": "September 13, 2026, 11:59 pm Eastern — TONIGHT",
+    "badge": "Strong fit",
+    "pay": "$54,866–$78,540 per year (published)",
+    "stipend": "",
+    "benefits": "Full-time state position",
+    "url": "https://www.governmentjobs.com/careers/sc/jobs/5468551",
+    "url_label": "Phytoplankton Biologist (EHM I) — harmful algal bloom and periphyton water-quality monitoring (SC Dept. of Environmental Services)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/sc/jobs/5468551",
+        "label": "🔗 Phytoplankton Biologist (EHM I) — harmful algal bloom and periphyton water-quality monitoring (SC Dept. of Environmental Services)"
+      }
+    ],
+    "metaLine": "Columbia SC · $54.9k–$78.5k · WATER QUALITY biologist, bachelor's only · ⚠ CLOSES TONIGHT 11:59 pm",
+    "body": "Under direct supervision, the Phytoplankton Biologist works within SCDES's Harmful Algal Bloom and Periphyton programmes, conducting field work, in-field analysis and laboratory analyses of water samples and algal blooms across the state, and responding to constituent inquiries, in support of other SCDES management units. Minimum: a bachelor's in the natural or physical sciences or a related technical field (or an associate plus two years, or a high school diploma plus four years). Salary $54,866–$78,540. Closes September 13 2026 at 11:59 pm Eastern.",
+    "desc": "A biologist-titled state water-quality job at a good salary with a bachelor's as the only requirement — a strong fit for your field-and-lab water sampling. It closes at midnight tonight, so it is only worth it if you can submit the state application this evening.",
+    "pills": [
+      "⚠ Closes tonight",
+      "Biologist title, bachelor's only",
+      "Harmful algal blooms",
+      "Field + lab water analysis"
+    ],
+    "start": "See posting",
+    "relocation": "local",
+    "deadline_date": "2026-09-13"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1597",
+    "title": "Natural Resource Technician III — St. Stephen Fish Lift and migratory fish monitoring (SC Dept. of Natural Resources)",
+    "org": "South Carolina Department of Natural Resources · Berkeley County, SC",
+    "location": "St. Stephen, Berkeley County, South Carolina",
+    "deadline": "September 23, 2026, 5:00 pm Eastern",
+    "badge": "Good fit",
+    "pay": "$40,086–$68,136 per year (published)",
+    "stipend": "",
+    "benefits": "Full-time state position",
+    "url": "https://www.governmentjobs.com/careers/sc/jobs/5476808",
+    "url_label": "Natural Resource Technician III — St. Stephen Fish Lift and migratory fish monitoring (SC Dept. of Natural Resources)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/sc/jobs/5476808",
+        "label": "🔗 Natural Resource Technician III — St. Stephen Fish Lift and migratory fish monitoring (SC Dept. of Natural Resources)"
+      }
+    ],
+    "metaLine": "Berkeley County SC · $40k–$68k · migratory fish monitoring at a fish lift · closes Sept 23",
+    "body": "SCDNR is hiring a Natural Resource Technician III for daily operation of the St. Stephen Fish Lift and monitoring studies for American shad, blueback herring and American eels: operational procedures, biological data collection, specimen ageing, data entry and validation, facility and equipment maintenance, and administrative support. In-season work is time-sensitive, physically demanding and can extend to nights and weekends. Minimum: an associate degree in the technical sciences plus one year of wildlife or fisheries experience, or a high school diploma plus three years. Salary $40,086–$68,136. Closes September 23 2026, 5 pm Eastern.",
+    "desc": "Fish passage for migratory species is a river-connectivity conservation problem, and this is a state agency job with a wide pay band. The minimum asks for a year of wildlife or fisheries work — count your NCCC and field research — and your degree exceeds the education line.",
+    "pills": [
+      "State wildlife agency",
+      "Shad, herring + American eel monitoring",
+      "Data entry + validation",
+      "Seasonal long hours"
+    ],
+    "start": "See posting",
+    "relocation": "local",
+    "deadline_date": "2026-09-23"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1598",
+    "title": "Natural Resource Technician II — Fisheries Region 3 lake and stream sampling (SC Dept. of Natural Resources)",
+    "org": "South Carolina Department of Natural Resources · Fisheries Region 3 · Richland County, SC",
+    "location": "Richland County (Columbia area), South Carolina",
+    "deadline": "September 23, 2026, 5:00 pm Eastern",
+    "badge": "Good fit",
+    "pay": "$37,944–$60,690 per year (published)",
+    "stipend": "",
+    "benefits": "Full-time state position",
+    "url": "https://www.governmentjobs.com/careers/sc/jobs/5476920",
+    "url_label": "Natural Resource Technician II — Fisheries Region 3 lake and stream sampling (SC Dept. of Natural Resources)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/sc/jobs/5476920",
+        "label": "🔗 Natural Resource Technician II — Fisheries Region 3 lake and stream sampling (SC Dept. of Natural Resources)"
+      }
+    ],
+    "metaLine": "Columbia SC · $37.9k–$60.7k · state fisheries technician, lakes + streams · closes Sept 23",
+    "body": "The technician provides technical and physical support to SCDNR Fisheries Region 3: collecting fisheries data from lakes and streams following protocols and entering it into databases, maintaining equipment and facilities, performing fisheries habitat enhancements, processing biotic and abiotic samples in the field and laboratory, and supporting outreach and other projects. Minimum: a high school diploma plus two years of related experience, or an associate degree in the technical sciences. Telemetry, electrofishing, netting, fish ageing and identification experience preferred. Salary $37,944–$60,690. Closes September 23 2026, 5 pm Eastern.",
+    "desc": "An entry-level permanent state technician job with abiotic sample processing in its duties — a straightforward way into SCDNR, which also runs the coastal wetland programmes. Your degree clears the minimum.",
+    "pills": [
+      "State wildlife agency",
+      "Lentic + lotic sampling",
+      "Field + lab sample processing",
+      "Degree exceeds minimum"
+    ],
+    "start": "See posting",
+    "relocation": "local",
+    "deadline_date": "2026-09-23"
   }
 ]
