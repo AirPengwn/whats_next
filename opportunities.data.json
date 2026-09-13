@@ -68976,5 +68976,46 @@
     "start": "See posting",
     "relocation": "lead",
     "deadline_date": "2026-09-14"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Southwest",
+    "id": "item-1602",
+    "title": "Sonoran Pronghorn Technician — endangered-species captive breeding and monitoring at Cabeza Prieta NWR (Arizona Game and Fish Department)",
+    "org": "Arizona Game and Fish Department · Sonoran Pronghorn Recovery · Ajo, AZ",
+    "location": "Ajo, Arizona (Cabeza Prieta National Wildlife Refuge)",
+    "deadline": "Rolling — recently posted, apply soon",
+    "badge": "Good fit",
+    "pay": "$17.45–$19.23 per hour (published)",
+    "stipend": "",
+    "benefits": "",
+    "url": "https://aztws.com/jobs_sonoran_pronghorn_technician_2026/",
+    "url_label": "Sonoran Pronghorn Technician — endangered-species captive breeding and monitoring at Cabeza Prieta NWR (Arizona Game and Fish Department)",
+    "links": [
+      {
+        "href": "https://aztws.com/jobs_sonoran_pronghorn_technician_2026/",
+        "label": "🔗 Sonoran Pronghorn Technician — endangered-species captive breeding and monitoring at Cabeza Prieta NWR (Arizona Game and Fish Department)"
+      }
+    ],
+    "metaLine": "Ajo AZ · $17.45–$19.23/hr · endangered pronghorn recovery on a National Wildlife Refuge",
+    "body": "Arizona Game and Fish is hiring a technician for the Sonoran pronghorn recovery programme at Cabeza Prieta National Wildlife Refuge, monitoring the endangered pronghorn at a captive breeding facility — recording behaviour, recruitment, health and mortality data — and maintaining field infrastructure in a remote desert setting. The work requires independence in harsh desert conditions. Pay $17.45–$19.23 per hour. Posted on the Arizona Chapter of The Wildlife Society job board; rolling.",
+    "desc": "A hands-on endangered-species recovery job run jointly with a USFWS refuge — the kind of monitoring record that helps a federal application. It is remote, hot and modestly paid, and no housing is mentioned, so ask about accommodation near Ajo before applying.",
+    "pills": [
+      "Federally endangered species",
+      "National Wildlife Refuge site",
+      "Behaviour + health monitoring",
+      "Remote desert work"
+    ],
+    "start": "Not specified on posting",
+    "relocation": "lead"
   }
 ]
