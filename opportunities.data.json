@@ -11061,8 +11061,8 @@
       "⚠️ Compensation not published",
       "Reviewed until filled"
     ],
-    "metaLine": "Contract field · compensation not published · Patience Island RI · rolling",
-    "cycle": "current",
+    "metaLine": "Contract field · $700/week (2025–26 rate) · Patience Island RI · last posting closed Nov 4 2025 — watch for the 2026–27 season",
+    "cycle": "next",
     "deadline_kind": "rolling",
     "deadline_date": "",
     "region": "Northeast",
@@ -11078,9 +11078,9 @@
     ],
     "url": "https://dem.ri.gov/contact-us/employment-opportunities",
     "location": "Patience Island / Narragansett Bay, RI",
-    "pay": "Not published on the listing — confirm with RI DEM or the Wildlife Management Institute",
+    "pay": "$700 per week, no benefits (2025–26 season contract, capped at $10,000 for about 15 weeks — confirm the 2026–27 rate)",
     "stipend": "",
-    "benefits": "Contract position through the Wildlife Management Institute — confirm terms directly",
+    "benefits": "None — contractor to the Wildlife Management Institute, no paid holidays or vacation",
     "id": "item-250",
     "relocation": "local"
   },
@@ -15037,7 +15037,7 @@
       "January 2027 start"
     ],
     "metaLine": "MS · fully funded · Moscow ID · deadline Sep 13 2026",
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-09-13",
     "region": "Mountain West",
@@ -26951,8 +26951,8 @@
     },
     "title": "Funded MS — spatial ecology & conservation",
     "org": "University of Louisiana at Monroe · Biology Program · Chatham, LA",
-    "deadline": "October 31, 2026",
-    "start": "See posting",
+    "deadline": "September 30, 2026 (application deadline on the live listing, re-checked September 14, 2026)",
+    "start": "January 2027 (listing: start between Jan 1 and Jan 11, 2027)",
     "body": "M.S. Graduate Research Assistantship in the ULM Biology Program beginning January 2027, working under faculty supervision in spatial ecology and conservation. A Bachelor’s degree is required with no prior experience.",
     "desc": "Spatial ecology is the natural graduate extension of her multi-criteria GIS suitability work — this is the assistantship that would let her build a thesis directly on the skill she is strongest in. It takes a BS with no experience and the October deadline leaves room to contact the advisor properly. The stipend is unpublished, so that is question one.",
     "badge": "Top recommendation",
@@ -26962,10 +26962,10 @@
       "January 2027 start",
       "⚠️ Stipend not published — ask first"
     ],
-    "metaLine": "Deadline Oct 31, 2026 · stipend not published · Chatham LA · SPATIAL ECOLOGY · BS-eligible",
+    "metaLine": "Deadline Sep 30, 2026 · ~$29k total stipend + tuition waiver · Chatham LA · SPATIAL ECOLOGY · BS-eligible · Jan 2027 start",
     "cycle": "current",
     "deadline_kind": "fixed",
-    "deadline_date": "2026-10-31",
+    "deadline_date": "2026-09-30",
     "region": "Southeast & Appalachia",
     "links": [
       {
@@ -26976,8 +26976,8 @@
     "url": "https://jobs.rwfm.tamu.edu/view-job/?id=116975",
     "location": "Chatham, Louisiana",
     "pay": "",
-    "stipend": "Stipend not published — listed as commensurate/negotiable. Contact the advisor.",
-    "benefits": "Confirm tuition and health coverage with the department",
+    "stipend": "Graduate research assistant stipend of approximately $29,000 over the duration of the project (published total, not per year)",
+    "benefits": "Tuition waiver (subject to university policy and graduate school requirements), plus funding for professional development and conference travel",
     "id": "item-615",
     "start_date": "2026-10-31",
     "relocation": "local"
@@ -39568,7 +39568,8 @@
       "Closes Sep 13"
     ],
     "start_date": "2026-09-13",
-    "relocation": "local"
+    "relocation": "local",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -40319,7 +40320,8 @@
       "The Nature Conservancy"
     ],
     "start_date": "2026-09-13",
-    "relocation": "local"
+    "relocation": "local",
+    "expired": true
   },
   {
     "type": "Graduate Program",
@@ -42674,7 +42676,7 @@
       "kind": "s-new",
       "label": "✨ New — August 18, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "pay": "",
     "id": "item-984",
     "deadline_kind": "fixed",
@@ -48248,7 +48250,8 @@
     "deadline_date": "2026-09-13",
     "start": "From autumn 2026",
     "start_date": "2026-09-13",
-    "relocation": "local"
+    "relocation": "local",
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -49331,7 +49334,8 @@
     "deadline_date": "2026-09-13",
     "start": "From autumn 2026",
     "start_date": "2026-09-13",
-    "relocation": "tight"
+    "relocation": "tight",
+    "expired": true
   },
   {
     "type": "Internship",
@@ -54715,7 +54719,8 @@
     ],
     "start": "See posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-13"
+    "deadline_date": "2026-09-13",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -56015,7 +56020,8 @@
     ],
     "start": "See posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-13"
+    "deadline_date": "2026-09-13",
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -58314,7 +58320,8 @@
     ],
     "start": "See announcement",
     "relocation": "local",
-    "deadline_date": "2026-09-13"
+    "deadline_date": "2026-09-13",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -59240,7 +59247,8 @@
     ],
     "start": "October 1, 2026 – February 15, 2027 (4.5 months), non-permanent",
     "relocation": "tight",
-    "deadline_date": "2026-09-13"
+    "deadline_date": "2026-09-13",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -59282,7 +59290,8 @@
     ],
     "start": "Permanent · see posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-13"
+    "deadline_date": "2026-09-13",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -68767,7 +68776,8 @@
     ],
     "start": "See posting",
     "relocation": "local",
-    "deadline_date": "2026-09-13"
+    "deadline_date": "2026-09-13",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -69282,5 +69292,137 @@
     "start": "November 1, 2026 (projected)",
     "relocation": "lead",
     "deadline_date": "2026-09-30"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 14, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-1609",
+    "title": "Zoologist — Houston Toad recovery colony, grant-funded through 2031 (Dallas Zoo, with the USFWS Houston Toad Recovery Program)",
+    "org": "Dallas Zoo · Animal Operations · Houston Toad assurance colony · Dallas, TX",
+    "location": "Dallas, Texas (650 S. R.L. Thornton Fwy)",
+    "deadline": "September 30, 2026",
+    "badge": "Good fit",
+    "pay": "Not published — listed as commensurate / negotiable",
+    "stipend": "",
+    "benefits": "Full-time position, grant-funded 2026 through 2031 — confirm the benefits package with the zoo",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118655",
+    "url_label": "Zoologist — Houston Toad recovery colony, grant-funded through 2031 (Dallas Zoo, with the USFWS Houston Toad Recovery Program)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118655",
+        "label": "🔗 Zoologist — Houston Toad recovery colony, grant-funded through 2031 (Dallas Zoo, with the USFWS Houston Toad Recovery Program)"
+      },
+      {
+        "href": "https://app.jobvite.com/j?cj=oXLJAfwL&s=TAMU%20Natural%20Resources",
+        "label": "🔗 Apply on the Dallas Zoo Jobvite portal"
+      }
+    ],
+    "metaLine": "Dallas TX · entry-level full-time · endangered Houston toad recovery colony · grant-funded to 2031 · closes Sep 30",
+    "body": "The Dallas Zoo is hiring an entry-level, full-time Zoologist in Animal Operations to care for its Houston Toad colony in support of the US Fish and Wildlife Service's Houston Toad Recovery Program. The work centres on propagating, rearing and managing the endangered toads for conservation and recovery — daily animal care and health and behaviour monitoring, food preparation, exhibit and facility maintenance, pest control, reproductive management, environmental enrichment and record keeping to AZA, USDA and zoo standards — and also includes capture and restraint of other taxa, assisting with research, and giving educational presentations and tours. The position is grant-funded from 2026 through 2031. The listing asks for a high-school diploma and at least one year of experience; pay is listed as commensurate. Start after October 1, 2026; apply by September 30, 2026.",
+    "desc": "A five-year, grant-funded job inside a federal endangered-species recovery programme, which is unusual stability for entry-level wildlife work. It is captive husbandry rather than field ecology, so it builds a different record from Erin's wetland and GIS skills, but amphibian recovery work carries weight with USFWS. Ask what the salary is before investing in a move to Dallas.",
+    "pills": [
+      "Endangered-species recovery",
+      "USFWS recovery programme",
+      "Grant-funded to 2031",
+      "Amphibian husbandry"
+    ],
+    "start": "After October 1, 2026",
+    "relocation": "lead",
+    "deadline_date": "2026-09-30"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 14, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia",
+    "id": "item-1610",
+    "title": "Chelonian / Turtle Keeper I — conservation breeding of critically endangered turtles and tortoises, entry level (Turtle Survival Alliance, Turtle Survival Center)",
+    "org": "Turtle Survival Alliance · Turtle Survival Center · Cross, SC",
+    "location": "Cross, South Carolina (100% on-site)",
+    "deadline": "Rolling — open until filled",
+    "badge": "Good fit",
+    "pay": "$20.93 per hour (published)",
+    "stipend": "",
+    "benefits": "Full-time; retirement account (IRA) offered — confirm the full benefits package with TSA",
+    "url": "https://app.trinethire.com/companies/341960-turtle-survival-alliance/jobs/124369",
+    "url_label": "Chelonian / Turtle Keeper I — conservation breeding of critically endangered turtles and tortoises, entry level (Turtle Survival Alliance, Turtle Survival Center)",
+    "links": [
+      {
+        "href": "https://app.trinethire.com/companies/341960-turtle-survival-alliance/jobs/124369",
+        "label": "🔗 Chelonian / Turtle Keeper I — conservation breeding of critically endangered turtles and tortoises, entry level (Turtle Survival Alliance, Turtle Survival Center)"
+      }
+    ],
+    "metaLine": "Cross SC · $20.93/hr · full-time entry level · AZA-accredited turtle conservation centre · rolling",
+    "body": "The Turtle Survival Alliance, a global non-profit protecting and restoring wild populations of tortoises and freshwater turtles, is hiring a full-time, entry-level Chelonian Keeper I at its Turtle Survival Center in Cross, South Carolina. The keeper feeds and cares for the turtle collection, monitors animal health, keeps animal areas clean, follows quarantine protocols to limit disease transmission, helps with facility maintenance, construction and landscaping, and represents TSA at volunteer and outreach events. Requirements are a high-school diploma, a valid driver's license and reliable transportation, the ability to lift 50 pounds and to work long periods in hot, humid conditions, and schedule flexibility; post-secondary biology education is an asset. Pay is $20.93 per hour. The job is 100% on-site. Open until filled.",
+    "desc": "A permanent-style, full-time conservation job at a well-regarded turtle non-profit, a day's drive from Richmond, with a published wage that beats most seasonal field tech pay. It is husbandry and facility work, not field research, so treat it as a foot in the door at a conservation organisation rather than a step along the wetland/GIS track.",
+    "pills": [
+      "Non-profit conservation",
+      "$20.93/hr full-time",
+      "Entry level",
+      "Endangered turtles"
+    ],
+    "start": "Not specified on posting",
+    "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 14, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Alaska, Hawaii & Territories",
+    "id": "item-1611",
+    "title": "Field Crew Member (temporary, may lead to permanent) — invasive species control across Oʻahu (Oahu Invasive Species Committee, University of Hawaiʻi / RCUH)",
+    "org": "Oahu Invasive Species Committee · University of Hawaiʻi Pacific Cooperative Studies Unit · via RCUH · Kailua, Oʻahu, HI",
+    "location": "Oʻahu, Hawaiʻi (office in Kailua)",
+    "deadline": "Rolling — applications accepted by email",
+    "badge": "Good fit",
+    "pay": "$19 per hour, 40 hours per week (published)",
+    "stipend": "",
+    "benefits": "Temporary full-time, up to 20 weeks; may lead to permanent employment when openings arise",
+    "url": "https://www.oahuisc.org/jobs/",
+    "url_label": "Field Crew Member (temporary, may lead to permanent) — invasive species control across Oʻahu (Oahu Invasive Species Committee, University of Hawaiʻi / RCUH)",
+    "links": [
+      {
+        "href": "https://www.oahuisc.org/jobs/",
+        "label": "🔗 Field Crew Member (temporary, may lead to permanent) — invasive species control across Oʻahu (Oahu Invasive Species Committee, University of Hawaiʻi / RCUH)"
+      },
+      {
+        "href": "https://www.rcuh.com/work/job-postings/",
+        "label": "🔗 RCUH job postings (Hawaiʻi research and conservation jobs)"
+      }
+    ],
+    "metaLine": "Oʻahu HI · $19/hr · full-time temporary up to 20 weeks · invasive species field crew · can lead to permanent · rolling",
+    "body": "The Oahu Invasive Species Committee, a University of Hawaiʻi project administered through RCUH, is accepting applications for full-time temporary positions on its field crew. Crew members do hands-on fieldwork to control OISC's target invasive plant and animal species across Oʻahu. Prior conservation experience is preferred but not required. Positions pay $19 per hour for 40 hours a week for up to 20 weeks, and may lead to permanent employment when openings arise. Apply by emailing a cover letter and resume to the OISC Field Operations Manager (addresses on the OISC jobs page).",
+    "desc": "An easy-entry field job with a proven route to a permanent post, and a way into Hawaiʻi's conservation network, which hires mostly through RCUH. The catch is $19 an hour against Oʻahu housing costs, with no housing mentioned — work out the budget before committing to the move.",
+    "pills": [
+      "Invasive species control",
+      "No experience required",
+      "Route to permanent",
+      "University of Hawaiʻi / RCUH"
+    ],
+    "start": "Not specified on posting",
+    "relocation": "lead"
   }
 ]
