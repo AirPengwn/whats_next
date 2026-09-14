@@ -69424,5 +69424,134 @@
     ],
     "start": "Not specified on posting",
     "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 14, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1612",
+    "title": "Wildlife Biologist — field surveys of vegetation, pollinators, bats, birds and aquatic resources, plus GIS analysis, on military installations (Virginia Tech Conservation Management Institute)",
+    "org": "Virginia Tech · Conservation Management Institute (VTCMI) · Blacksburg, VA",
+    "location": "Blacksburg, Virginia (field work on military installations in the Mid-Atlantic and Southeast)",
+    "deadline": "Review begins September 24, 2026",
+    "badge": "Strong fit",
+    "pay": "Wage (hourly), Pay Band 3 — rate not published; overtime eligible",
+    "stipend": "",
+    "benefits": "Restricted wage appointment, 40 hours per week with overtime authorised — confirm benefits eligibility with Virginia Tech",
+    "url": "https://www.jobs.virginia.gov/jobs/wildlife-biologist-blacksburg-virginia-united-states",
+    "url_label": "Wildlife Biologist — field surveys of vegetation, pollinators, bats, birds and aquatic resources, plus GIS analysis, on military installations (Virginia Tech Conservation Management Institute)",
+    "links": [
+      {
+        "href": "https://www.jobs.virginia.gov/jobs/wildlife-biologist-blacksburg-virginia-united-states",
+        "label": "🔗 Wildlife Biologist — field surveys of vegetation, pollinators, bats, birds and aquatic resources, plus GIS analysis, on military installations (Virginia Tech Conservation Management Institute)"
+      }
+    ],
+    "metaLine": "Blacksburg VA · BS-level · bats, birds, pollinators, vegetation + GIS · military-installation field work · review from Sep 24",
+    "body": "The Virginia Tech Conservation Management Institute (job 537626) is hiring a Wildlife Biologist to assist its principal investigators on wildlife research, management and conservation projects. Working as part of a team, the specialist collects field data on vegetation and habitat composition, pollinators, aquatic resources, bats and birds, performs basic data summaries and geospatial analysis, QA/QCs field data and helps summarise findings. Required: a BS in forestry, environmental science, biology, ecology, wildlife sciences or a related field; experience conducting field surveys as part of a team; knowledge of common terrestrial taxa and of vegetation and habitat in the Mid-Atlantic and Southeast; willingness to work in adverse conditions; a valid driver's licence and the ability to pass background checks for work on military installations; experience with Microsoft Office, GPS and ESRI GIS software; and willingness to receive rabies vaccinations. It is an hourly (Pay Band 3), restricted appointment at 40 hours a week with overtime authorised. Application review begins September 24, 2026.",
+    "desc": "An in-state, BS-level biologist job that asks for exactly Erin's combination of team field surveys and ESRI GIS, with bats and small-taxa survey work where her trapping and camera-trap record will count. CMI's military-installation contracts are a well-known pipeline into Department of Defense natural-resources jobs, and Blacksburg is a short drive from home. The pay rate is not published, so ask before accepting.",
+    "pills": [
+      "In-state Virginia",
+      "BS in environmental science qualifies",
+      "Bats, birds, pollinators",
+      "ESRI GIS required"
+    ],
+    "start": "Not specified on posting",
+    "relocation": "local",
+    "deadline_date": "2026-09-24"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 14, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia",
+    "id": "item-1613",
+    "title": "Aquatic Entomology Research Technician — stream, river and wetland sampling and macroinvertebrate lab work (Virginia Tech, Entrekin Lab)",
+    "org": "Virginia Tech · Department of Entomology · Entrekin Lab (Dr. Sally Entrekin) · Blacksburg, VA",
+    "location": "Blacksburg, Virginia",
+    "deadline": "Open — review began September 3, 2026; posting still live on September 14",
+    "badge": "Strong fit",
+    "pay": "$20.00 per hour, 32 hours per week (published)",
+    "stipend": "",
+    "benefits": "Restricted wage appointment, overtime eligible — confirm benefits eligibility with Virginia Tech",
+    "url": "https://www.jobs.virginia.gov/jobs/aquatic-entomology-research-technician-blacksburg-virginia-united-states-61a28088-5250-4acc-be14-5dc2bfabbd03",
+    "url_label": "Aquatic Entomology Research Technician — stream, river and wetland sampling and macroinvertebrate lab work (Virginia Tech, Entrekin Lab)",
+    "links": [
+      {
+        "href": "https://www.jobs.virginia.gov/jobs/aquatic-entomology-research-technician-blacksburg-virginia-united-states-61a28088-5250-4acc-be14-5dc2bfabbd03",
+        "label": "🔗 Aquatic Entomology Research Technician — stream, river and wetland sampling and macroinvertebrate lab work (Virginia Tech, Entrekin Lab)"
+      }
+    ],
+    "metaLine": "Blacksburg VA · $20/hr · 32 hr/wk · stream + wetland sampling, water samples, macroinvertebrates · open",
+    "body": "Virginia Tech's Department of Entomology (job 537427) is hiring a research technician to oversee aquatic entomology projects in Dr. Sally Entrekin's lab, supporting ongoing field and laboratory work. In the field the technician uses standard sampling methods for streams, rivers and wetlands to assess water condition, biological community composition and ecosystem processes; in the lab they process water samples and aquatic invertebrate samples. Required: a BS in biology, entomology or a related field (or equivalent training and experience), knowledge of aquatic ecology, experience with ecological field work, and the ability to sample in winter and summer, including long hikes to sites with heavy packs. Preferred: basic aquatic field sampling experience and macroinvertebrate identification to genus. Pay is $20.00 per hour for 32 hours a week on a restricted wage appointment. Application review began September 3, 2026; the posting was still live on September 14.",
+    "desc": "A water-quality field and lab job in Virginia that draws directly on Erin's stream sampling from the Pigeon River capstone and her wetland training. Macroinvertebrate identification is a transferable bioassessment skill used by DEQ and EPA programmes. At 32 hours a week it pays less than full time, but Entrekin's lab is a realistic place to explore a Virginia Tech MS.",
+    "pills": [
+      "In-state Virginia",
+      "Stream + wetland sampling",
+      "Water-quality lab work",
+      "Route to a VT grad advisor"
+    ],
+    "start": "Not specified on posting",
+    "relocation": "local"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 14, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-1614",
+    "title": "Seasonal Wetland Scientist — field wetland delineations nationwide for renewable-energy projects, with potential to go permanent (Westwood Professional Services, Plano TX)",
+    "org": "Westwood Professional Services, Inc. · Environmental group · Plano, TX (nationwide field travel)",
+    "location": "Plano, Texas base, with multi-day field mobilisations across the US",
+    "deadline": "Listed on the NAWM wetland jobs board as open through December 31, 2026",
+    "badge": "Strong fit",
+    "pay": "Not published on the posting",
+    "stipend": "",
+    "benefits": "Seasonal/temporary full-time, with potential to convert to a permanent position",
+    "url": "https://recruiting.paylocity.com/recruiting/jobs/Details/3932403/Westwood-Professional-Services-Inc/Seasonal-Wetland-Scientist",
+    "url_label": "Seasonal Wetland Scientist — field wetland delineations nationwide for renewable-energy projects, with potential to go permanent (Westwood Professional Services, Plano TX)",
+    "links": [
+      {
+        "href": "https://recruiting.paylocity.com/recruiting/jobs/Details/3932403/Westwood-Professional-Services-Inc/Seasonal-Wetland-Scientist",
+        "label": "🔗 Seasonal Wetland Scientist — field wetland delineations nationwide for renewable-energy projects, with potential to go permanent (Westwood Professional Services, Plano TX)"
+      },
+      {
+        "href": "https://nawm.org/wetland-jobs-board.html",
+        "label": "🔗 NAWM wetland jobs board (Texas listing)"
+      }
+    ],
+    "metaLine": "Plano TX + nationwide travel · wetland delineation (USACE 1987 manual) · seasonal → permanent potential · NAWM lists through Dec 31",
+    "body": "Westwood Professional Services, an environmental, permitting, engineering and surveying firm that supports wind, solar and battery-storage developments nationwide, is hiring seasonal/temporary full-time Wetland Scientists/Biologists based in its Plano, Texas office, with potential to move into a permanent position. The work is primarily routine field wetland delineations across the country, plus desktop research (aerial photo review, soils maps, hydrology), onsite regulatory wetland review meetings and technical report writing, alongside Westwood's experienced delineation staff. Travel is frequent, with multi-day mobilisations of 3–10 days several times a month. Required: a degree in environmental science, soil science, biology, botany or a related natural science, comfort working outdoors in remote locations in heat and cold, the ability to lift 50 pounds, a good driving record and willingness to travel with overnight stays. Preferred: wetland delineation experience under the USACE 1987 Manual and regional supplements, knowledge of state and federal wetland regulations, Professional Wetland Scientist certification, and GPS/ArcGIS experience. The employer posting describes a mid-April to late-October season (its text still refers to the 2025 season); the National Association of Wetland Managers board lists it as posted July 22, 2026 and open through December 31, 2026. Pay is not published.",
+    "desc": "A job built almost entirely on the thing Erin is best trained for: USACE-manual wetland delineation, with ArcGIS and GPS as the preferred extras, and a stated route to a permanent post. The posting's own text still describes the 2025 season, so ask Westwood directly whether they are hiring now or for the 2027 field season (a mid-April start), and what the pay is. Expect heavy travel.",
+    "pills": [
+      "Wetland delineation (USACE 1987)",
+      "Environmental science degree qualifies",
+      "Seasonal → permanent",
+      "Nationwide field travel"
+    ],
+    "start": "Seasonal (the posting describes a mid-April to late-October field season)",
+    "relocation": "lead",
+    "deadline_date": "2026-12-31"
   }
 ]
