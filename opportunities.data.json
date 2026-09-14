@@ -54728,8 +54728,8 @@
     "src": "erin_jobs.html",
     "src_label": "Career Positions",
     "status": {
-      "kind": "s-new",
-      "label": "✨ New — August 31, 2026"
+      "kind": "s-updated",
+      "label": "🔄 Re-posted — September 14, 2026 (open to Sept 18)"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -54738,14 +54738,18 @@
     "title": "Water Quality Specialist Trainee — Bureau of Oil and Gas Operations (PA DEP, Southwest District)",
     "org": "Pennsylvania Department of Environmental Protection · Bureau of Oil and Gas Operations",
     "location": "New Stanton, Pennsylvania (Westmoreland County)",
-    "deadline": "Application deadline: September 4, 2026",
+    "deadline": "September 18, 2026 (re-posted September 4 as job CS-2026-57673-75400)",
     "badge": "Strong fit",
     "pay": "$46,827–$70,592 per year (permanent full-time civil service)",
     "stipend": "",
     "benefits": "⭐ A structured TRAINEE grade requiring no prior experience, on a permanent civil service line with a defined progression to specialist. Provides experience in environmental inspections, field sampling and applying regulations that safeguard water resources.",
-    "url": "https://www.governmentjobs.com/careers/pabureau/jobs/5451975/water-quality-specialist-trainee-environmental-trainee",
+    "url": "https://www.governmentjobs.com/careers/pabureau/jobs/5468768/water-quality-specialist-trainee-environmental-trainee",
     "url_label": "Water Quality Specialist Trainee — Bureau of Oil and Gas Operations (PA DEP, Southwest District)",
     "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/pabureau/jobs/5468768/water-quality-specialist-trainee-environmental-trainee",
+        "label": "🔗 Re-posted listing — Water Quality Specialist Trainee (closes Sep 18, 2026)"
+      },
       {
         "href": "https://www.governmentjobs.com/careers/pabureau/jobs/5451975/water-quality-specialist-trainee-environmental-trainee",
         "label": "🔗 Water Quality Specialist Trainee — Bureau of Oil and Gas Operations (PA DEP, Southwest District)"
@@ -54762,8 +54766,7 @@
     ],
     "start": "See posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-04",
-    "expired": true
+    "deadline_date": "2026-09-18"
   },
   {
     "type": "Career Position",
@@ -69553,5 +69556,47 @@
     "start": "Seasonal (the posting describes a mid-April to late-October field season)",
     "relocation": "lead",
     "deadline_date": "2026-12-31"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 14, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1615",
+    "title": "Fish and Wildlife Technician 2 — permanent hatchery and stocking position at Apple Grove Fish Hatchery (West Virginia Division of Natural Resources)",
+    "org": "West Virginia Division of Natural Resources · Wildlife Resources · Apple Grove Fish Hatchery · Mason County, WV",
+    "location": "Apple Grove Fish Hatchery, Mason County, West Virginia",
+    "deadline": "September 24, 2026",
+    "badge": "Good fit",
+    "pay": "$32,862–$56,373 per year (published)",
+    "stipend": "",
+    "benefits": "Full-time permanent state position with West Virginia state employee benefits",
+    "url": "https://www.governmentjobs.com/careers/wv/jobs/5472349",
+    "url_label": "Fish and Wildlife Technician 2 — permanent hatchery and stocking position at Apple Grove Fish Hatchery (West Virginia Division of Natural Resources)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/wv/jobs/5472349",
+        "label": "🔗 Fish and Wildlife Technician 2 — permanent hatchery and stocking position at Apple Grove Fish Hatchery (West Virginia Division of Natural Resources)"
+      }
+    ],
+    "metaLine": "Mason County WV · permanent · $32.9k–$56.4k · fish culture, stocking, hatchery upkeep · closes Sep 24",
+    "body": "The West Virginia Division of Natural Resources (job NR26-80 PSA) is hiring a full-time, permanent Fish and Wildlife Technician 2 at the Apple Grove Fish Hatchery in Mason County. Working under the hatchery's Fish Culturist 3, the technician hatches, grows and distributes fish — collecting brood stock, spawning, grading, and monitoring the growth, condition and health of hatchery-reared fish — loads and hauls fingerlings and catchable fish to release sites, maintains hatchery buildings, grounds and equipment, and takes part in public outreach; the incumbent may lead small work groups. The minimum requirement is an associate of science degree in fish or wildlife management, natural resources management, fish culture, agriculture or a related field (or a high-school diploma plus four years of related experience), with a valid driver's licence; a commercial driver's licence and Division of Natural Resources police officer and pistol training may be required. Preference goes to candidates with fish culture, fish disease and equipment-operation experience. Salary $32,862–$56,373. Closes September 24, 2026.",
+    "desc": "A permanent state wildlife-agency job that Erin's bachelor's degree more than qualifies her for, about six hours from Richmond. Most of the work is hatchery fish culture and stocking rather than wetland or wildlife field science, but a permanent DNR position builds the state-agency record that later biologist posts ask for. Note that the posting mentions possible natural resources police and firearms training.",
+    "pills": [
+      "Permanent state position",
+      "BS exceeds the minimum",
+      "Fish culture + stocking",
+      "State benefits"
+    ],
+    "start": "Upon selection",
+    "relocation": "lead",
+    "deadline_date": "2026-09-24"
   }
 ]
