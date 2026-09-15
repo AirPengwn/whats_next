@@ -22489,8 +22489,8 @@
     "src": "erin_programs.html",
     "src_label": "Funded Graduate Programs",
     "status": {
-      "kind": "s-new",
-      "label": "✨ New — July 27, 2026"
+      "kind": "s-updated",
+      "label": "⚠️ Updated — September 15, 2026: this original listing has been withdrawn; the Palmquist lab has re-posted a coastal-vegetation MS (Parris Island, $24k + tuition) that must be applied for by October 16 — see #1624"
     },
     "title": "Funded MS — climate change and fire effects on coastal vegetation (Palmquist lab)",
     "org": "Marshall University · Department of Biological Sciences · Huntington, WV",
@@ -35316,26 +35316,30 @@
     "src": "erin_jobs.html",
     "src_label": "Career Positions",
     "status": {
-      "kind": "s-new",
-      "label": "✨ New — August 3, 2026"
+      "kind": "s-updated",
+      "label": "Updated — September 15, 2026 (re-posted; listed through September 30)"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
-    "deadline_date": "2026-08-28",
+    "deadline_date": "2026-09-30",
     "region": "Southeast & Appalachia",
     "start": "See posting",
     "id": "item-811",
     "title": "Conservation Engineering Technician",
     "org": "Shenandoah Valley Soil & Water Conservation District · Harrisonburg, VA",
     "location": "Harrisonburg, Virginia (Rockingham and Page Counties)",
-    "deadline": "2026-08-28",
+    "deadline": "Listed on Conservation Job Board through September 30, 2026 (re-posted September 14)",
     "pay": "$40,000–$52,000 per year",
     "stipend": "",
     "benefits": "Public agency benefits — confirm the package",
     "badge": "Strong fit",
-    "url": "https://www.conservationjobboard.com/job-listing-conservation-engineering-technician-harrisonburg-virginia/2136291686",
+    "url": "https://www.conservationjobboard.com/job-listing-conservation-engineering-technician-harrisonburg-virginia/6693671644",
     "url_label": "Conservation Job Board — Shenandoah Valley SWCD",
     "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-conservation-engineering-technician-harrisonburg-virginia/6693671644",
+        "label": "🔗 Re-posted listing (September 14, 2026) — Conservation Job Board"
+      },
       {
         "href": "https://www.conservationjobboard.com/job-listing-conservation-engineering-technician-harrisonburg-virginia/2136291686",
         "label": "🔗 Conservation Job Board — Shenandoah Valley SWCD"
@@ -35351,8 +35355,7 @@
       "Harrisonburg VA"
     ],
     "start_date": "2026-08-28",
-    "relocation": "local",
-    "expired": true
+    "relocation": "local"
   },
   {
     "type": "Career Position",
@@ -53543,8 +53546,8 @@
     "src": "erin_jobs.html",
     "src_label": "Career Positions",
     "status": {
-      "kind": "s-new",
-      "label": "✨ New — August 31, 2026"
+      "kind": "s-updated",
+      "label": "Updated — September 15, 2026 (re-posted; now closes September 25)"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -53553,7 +53556,7 @@
     "title": "Area Forester — Southern Rivers District, water-quality BMP compliance (Virginia Dept. of Forestry)",
     "org": "Virginia Department of Forestry · Southern Rivers District",
     "location": "Lunenburg County, Virginia",
-    "deadline": "Application deadline: September 11, 2026",
+    "deadline": "Application deadline: September 25, 2026 (re-posted after the original September 11 close)",
     "badge": "Good fit",
     "pay": "$45,739–$60,000 per year (full-time salaried, full state benefits)",
     "stipend": "",
@@ -53577,8 +53580,7 @@
     ],
     "start": "See posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-11",
-    "expired": true
+    "deadline_date": "2026-09-25"
   },
   {
     "type": "Internship",
@@ -69934,5 +69936,370 @@
     "start": "Upon selection",
     "relocation": "local",
     "deadline_date": "2026-09-21"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 15, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1624",
+    "title": "Funded MS — coastal vegetation dynamics and plant-community change on Parris Island, SC (Marshall University, Palmquist Lab) — $24,000 + full tuition waiver, apply by Oct 16",
+    "org": "Marshall University · Department of Biological Sciences · Palmquist Lab · Huntington, WV (field site: Marine Corps Recruit Depot Parris Island, SC)",
+    "location": "Huntington, West Virginia, with summer fieldwork on Parris Island, South Carolina",
+    "deadline": "Apply by October 16, 2026 (the job board lists October 19); review begins immediately",
+    "badge": "Strong fit",
+    "pay": "$24,000 12-month stipend (teaching assistantship plus supplemental research pay) + full tuition waiver",
+    "stipend": "$24,000 per year for two years + full tuition waiver; the student pays university fees and health insurance",
+    "benefits": "Full tuition waiver; university fees and health insurance are NOT covered",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118761",
+    "url_label": "Funded MS — coastal vegetation dynamics and plant-community change on Parris Island, SC (Marshall University, Palmquist Lab) — $24,000 + full tuition waiver, apply by Oct 16",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118761",
+        "label": "🔗 Funded MS — coastal vegetation dynamics and plant-community change on Parris Island, SC (Marshall University, Palmquist Lab) — $24,000 + full tuition waiver, apply by Oct 16"
+      },
+      {
+        "href": "http://www.kylepalmquist.org/",
+        "label": "🔗 Palmquist Lab website"
+      }
+    ],
+    "metaLine": "Huntington WV + Parris Island SC · funded MS · $24k + tuition waiver · coastal & wetland vegetation, remote-sensing veg maps · start Jan 2027 · apply by Oct 16",
+    "body": "The Palmquist Lab at Marshall University is recruiting a funded MS student to study vegetation dynamics and plant-community change in coastal ecosystems on Marine Corps Recruit Depot Parris Island, a sea island in South Carolina. The project builds on a network of 57 permanent vegetation plots installed and sampled in 2022: the student will re-sample them in summer 2027 to measure plant-community change, analyse the largely unexplored 2022 dataset, and can use and potentially improve existing island vegetation maps built from remotely sensed products and field validation points. Coastal plant communities there are structured by salinity, elevation, soil texture, soil moisture, exposure and light. Required: coursework in plant ecology, knowledge of south-eastern US vegetation, strong communication and quantitative skills, and interest in plant-community analysis. The student will serve as a teaching assistant. Funding is a teaching assistantship for two years with supplemental research pay — $24,000 over 12 months — plus a full tuition waiver; the student covers university fees and health insurance. Preferred start January 2027, no later than May 2027. Apply by emailing Dr. Kyle Palmquist a one-page statement, CV, unofficial transcripts and three references, with 'MS position – coastal vegetation' in the subject, no later than October 16, 2026.",
+    "desc": "Coastal wetland and marsh-edge vegetation, permanent plots, and remote-sensing vegetation maps — squarely inside Erin's wetland and GIS strengths, with a January start that could get her into grad school within four months. Note this is the same lab as her saved item-509, whose original listing has been withdrawn; this looks like the lab's current coastal MS, so treat it as the live version and ask Dr. Palmquist directly. Budget for fees and health insurance, which the funding does not cover.",
+    "pills": [
+      "Funded MS · $24k + tuition",
+      "Coastal wetland vegetation",
+      "Remote-sensing veg maps",
+      "Start Jan 2027"
+    ],
+    "start": "January 2027 preferred (no later than May 2027)",
+    "relocation": "planned",
+    "deadline_date": "2026-10-16"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 15, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1625",
+    "title": "Funded MS (NSF) — climate change, wildfire and grazing effects on big-sagebrush plant communities, simulation modelling (Marshall University, Palmquist Lab)",
+    "org": "Marshall University · Department of Biological Sciences · Palmquist Lab · Huntington, WV",
+    "location": "Huntington, West Virginia",
+    "deadline": "Apply no later than November 2, 2026 (the job board lists November 4); review begins immediately",
+    "badge": "Reach",
+    "pay": "$24,000 12-month stipend (one year TA, one year RA) + full tuition waiver",
+    "stipend": "$24,000 per year for two years + full tuition waiver; the student pays university fees and health insurance",
+    "benefits": "Full tuition waiver; university fees and health insurance are NOT covered",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118762",
+    "url_label": "Funded MS (NSF) — climate change, wildfire and grazing effects on big-sagebrush plant communities, simulation modelling (Marshall University, Palmquist Lab)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118762",
+        "label": "🔗 Funded MS (NSF) — climate change, wildfire and grazing effects on big-sagebrush plant communities, simulation modelling (Marshall University, Palmquist Lab)"
+      },
+      {
+        "href": "http://www.kylepalmquist.org/",
+        "label": "🔗 Palmquist Lab website"
+      }
+    ],
+    "metaLine": "Huntington WV · NSF-funded MS · $24k + tuition waiver · sagebrush ecosystems, individual-based plant model · start Aug 2027 · apply by Nov 2",
+    "body": "The Palmquist Lab at Marshall University is recruiting an MS student for a five-year NSF-funded project on how climate change, wildfire and livestock grazing intensity interact to affect big-sagebrush plant communities across their range in the western US. The project uses an individual-based plant simulation model to project community change under future conditions; possible student-led projects include the role of competition in plant functional-type responses and shrub–grass coexistence, or using livestock grazing to curb invasive species and wildfire risk under a future climate. The work includes collaboration with ecologists at Yale University and scientists and managers from BLM, USGS, USFWS, USFS and USDA ARS. Required: coursework in ecology and statistics, knowledge of and experience in western sagebrush ecosystems, strong communication and quantitative skills, and an interest in learning modelling (modelling and programming experience highly desirable). Funding is one year of teaching assistantship and one year of research assistantship — a $24,000 12-month stipend — plus a full tuition waiver; the student covers fees and health insurance. The position starts August 2027. Apply by email to Dr. Kyle Palmquist with a one-page statement, CV, unofficial transcripts and three references ('MS position - dryland plant communities' in the subject) no later than November 2, 2026.",
+    "desc": "A funded MS with a direct line to the federal land agencies Erin is aiming for. It is a reach because it asks for sagebrush-ecosystem experience and leans on computer modelling rather than fieldwork; her quantitative GIS work helps, but she would need to show real interest in learning to model.",
+    "pills": [
+      "Funded MS · $24k + tuition",
+      "NSF project",
+      "Simulation modelling",
+      "BLM / USGS / USFWS collaborators"
+    ],
+    "start": "August 2027",
+    "relocation": "planned",
+    "deadline_date": "2026-11-02"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 15, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1626",
+    "title": "Funded PhD (accepts BS) — phosphorus cycling in agricultural ditches and streams with tile drainage, USDA-funded (Ohio State University, Hood Aquatic Ecology Lab)",
+    "org": "The Ohio State University · Department of Evolution, Ecology & Organismal Biology · Aquatic Ecology Laboratory · Dr. Jim Hood · Columbus, OH",
+    "location": "Columbus, Ohio, with fieldwork in Ohio and Michigan",
+    "deadline": "Email Dr. Hood now (review has begun); department application deadline November 15, 2026",
+    "badge": "Reach",
+    "pay": "At least $2,750 per month graduate assistantship stipend + health benefits + tuition/fee waiver",
+    "stipend": "At least $2,750/month (EEOB graduate assistantship), with health benefits and a tuition/fee waiver",
+    "benefits": "Health benefits and tuition/fee waiver included with the assistantship",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118769",
+    "url_label": "Funded PhD (accepts BS) — phosphorus cycling in agricultural ditches and streams with tile drainage, USDA-funded (Ohio State University, Hood Aquatic Ecology Lab)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118769",
+        "label": "🔗 Funded PhD (accepts BS) — phosphorus cycling in agricultural ditches and streams with tile drainage, USDA-funded (Ohio State University, Hood Aquatic Ecology Lab)"
+      },
+      {
+        "href": "https://ael.osu.edu",
+        "label": "🔗 OSU Aquatic Ecology Laboratory"
+      },
+      {
+        "href": "https://eeob.osu.edu/grad/program-admissions",
+        "label": "🔗 OSU EEOB graduate admissions"
+      }
+    ],
+    "metaLine": "Columbus OH · funded PhD · ≥$2,750/mo + health + tuition · stream phosphorus, sensors, game cameras · BS listed as minimum · dept deadline Nov 15",
+    "body": "Jim Hood's lab in the Aquatic Ecology Laboratory at Ohio State University is recruiting a PhD student for a U.S. Department of Agriculture–funded project on phosphorus cycling in ditches and streams in agriculture-dominated landscapes, as part of an interdisciplinary team studying how tile drainage affects water, sediment and nutrient dynamics. The student's research will focus on how tile drains influence in-channel phosphorus storage and transformations, with fieldwork in Ohio and Michigan and the use of sensors and game cameras to characterise dissolved oxygen, temperature, channel form and hydrology. The job board lists a bachelor's degree as the minimum; the posting says the ideal candidate would have a master's, strong quantitative skills and a background in ecology, biogeochemistry, soils, geomorphology and/or hydrology. Students are supported by teaching and research assistantships; the department's assistantship includes a stipend of at least $2,750 per month, health benefits and a tuition/fee waiver. Email Dr. Hood a single PDF with a statement of interest, CV and three references; he is reviewing now and will invite selected applicants to apply to the department, whose deadline is November 15, 2026. Start is autumn 2027.",
+    "desc": "Water quality, sediment and nutrient chemistry in streams — the watershed side of Erin's capstone — fully funded with health cover. It is a PhD and the professor would ideally like a master's student, so it is a reach; but the listed minimum is a bachelor's, and her sediment-sampling and camera-trap experience are both on point. Worth one well-aimed email.",
+    "pills": [
+      "Funded PhD · BS minimum",
+      "Stream nutrients + sediment",
+      "Sensors + game cameras",
+      "Health + tuition covered"
+    ],
+    "start": "Autumn 2027 (after August 16, 2027)",
+    "relocation": "planned",
+    "deadline_date": "2026-11-15"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 15, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1627",
+    "title": "Seasonal Field Technicians — Northern Bobwhite survival, nesting and telemetry study, with HOUSING provided (Kansas State University)",
+    "org": "Kansas State University · Northern Bobwhite research project · multiple study areas across Kansas",
+    "location": "Multiple study areas across Kansas",
+    "deadline": "Last date to apply October 30, 2026 (applications reviewed on a rolling basis until filled)",
+    "badge": "Good fit",
+    "pay": "$2,400 per month (published), housing provided",
+    "stipend": "",
+    "benefits": "Housing and project field equipment/vehicles provided",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118777",
+    "url_label": "Seasonal Field Technicians — Northern Bobwhite survival, nesting and telemetry study, with HOUSING provided (Kansas State University)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118777",
+        "label": "🔗 Seasonal Field Technicians — Northern Bobwhite survival, nesting and telemetry study, with HOUSING provided (Kansas State University)"
+      }
+    ],
+    "metaLine": "Kansas · ~6-month seasonal · $2,400/mo + HOUSING · GPS/VHF telemetry, nest monitoring, vegetation surveys · start Jan 4 2027 · apply by Oct 30",
+    "body": "Kansas State University is hiring multiple six-month seasonal field technicians for research on Northern Bobwhite populations and their response to invasive grasses in Kansas. Objectives cover bobwhite survival, nest success, brood survival, habitat selection and movement. Teams of two or three technicians led by a project researcher will survey for coveys, monitor GPS- and VHF-marked birds, conduct vegetation surveys, enter data and perform basic QA/QC, communicate with private landowners and state agency staff, and maintain equipment. Required: a strong work ethic, ability to follow protocols, good communication and organisation, ability to carry trapping equipment over rough terrain in bad weather, willingness to work pre-dawn and long hours, and a valid US driver's licence. Preferred: wildlife capture and handling experience, plant identification, 4WD/UTV/ATV experience, and a completed or in-progress degree in wildlife, biology or a related field. Pay is $2,400 per month; housing and project vehicles and equipment are provided. The start date is January 4, 2027, running to July/August 2027. Apply by October 30, 2026, sending one combined PDF (cover letter, résumé, unofficial transcripts, three references) to the two contacts on the posting, subject 'KSU Seasonal Bobwhite Technician'; applications are reviewed on a rolling basis.",
+    "desc": "Classic wildlife field-tech work — radio telemetry, nest monitoring, vegetation plots — with housing included, which is what makes a move to Kansas workable. The January start gives her more than three months to plan, and her small-mammal trapping experience speaks to the capture-and-handling preference. Because review is rolling, applying early matters more than the October 30 date.",
+    "pills": [
+      "Housing provided",
+      "Radio telemetry + nest monitoring",
+      "Start Jan 4, 2027",
+      "$2,400/month"
+    ],
+    "start": "January 4, 2027 (through July/August 2027)",
+    "relocation": "housed",
+    "deadline_date": "2026-10-30",
+    "start_date": "2027-01-04",
+    "housing_provided": true
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 15, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1628",
+    "title": "Fisheries Technician I (Temporary Creel Clerk) — angler surveys on Roanoke Rapids Lake, Jan–Nov 2027 (North Carolina Wildlife Resources Commission)",
+    "org": "North Carolina Wildlife Resources Commission · Inland Fisheries · Piedmont Region · Roanoke Rapids Lake, NC",
+    "location": "Roanoke Rapids Lake (Halifax / Northampton counties), North Carolina",
+    "deadline": "November 13, 2026",
+    "badge": "Good fit",
+    "pay": "$17.22 per hour (published)",
+    "stipend": "",
+    "benefits": "Full-time temporary position; state vehicle and all safety equipment provided",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118785",
+    "url_label": "Fisheries Technician I (Temporary Creel Clerk) — angler surveys on Roanoke Rapids Lake, Jan–Nov 2027 (North Carolina Wildlife Resources Commission)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118785",
+        "label": "🔗 Fisheries Technician I (Temporary Creel Clerk) — angler surveys on Roanoke Rapids Lake, Jan–Nov 2027 (North Carolina Wildlife Resources Commission)"
+      }
+    ],
+    "metaLine": "Roanoke Rapids NC (~1.5 hr from Richmond) · temporary Jan–Nov 2027 · $17.22/hr · angler creel surveys · apply by Nov 13",
+    "body": "The North Carolina Wildlife Resources Commission's Inland Fisheries Division (Piedmont Region) is hiring a full-time temporary Fisheries Technician I to work as a creel clerk on Roanoke Rapids Lake from January through November 2027. The technician collects angler effort, catch and harvest data by interviewing anglers at access areas during assigned sessions, recording answers on paper or in a software program, working up to 40 hours a week as four 10-hour days (two weekdays and two weekend days), with schedules varying by week, weather and fishing pressure. The technician should live within reasonable distance of Northampton or Halifax counties or Weldon, NC, and will drive a state vehicle; all equipment is provided. Knowledge of freshwater sport fish is not required. The minimum requirement is a high-school diploma and a valid driver's licence. Pay is $17.22 per hour. Apply by November 13, 2026 by contacting the Piedmont Region fisheries research coordinator with a résumé and unofficial transcripts.",
+    "desc": "Well below Erin's qualifications, but it is state fisheries work about an hour and a half from Richmond, starting in January, and puts NC Wildlife Resources Commission staff on her reference list. Worth it mainly as a bridge job while grad-school applications are pending.",
+    "pills": [
+      "Near Richmond (~1.5 hr)",
+      "State fisheries agency",
+      "Jan–Nov 2027",
+      "Bridge job"
+    ],
+    "start": "January 2027 (through November 2027)",
+    "relocation": "local",
+    "deadline_date": "2026-11-13",
+    "start_date": "2027-01-01"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 15, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1629",
+    "title": "OPS Land Management Technician — prescribed fire, invasive-species control and ecological monitoring, Sep 2026–Apr 2027 (University of Florida, Ordway-Swisher Biological Station)",
+    "org": "University of Florida · Ordway-Swisher Biological Station (OSBS) · Melrose, FL (Putnam County)",
+    "location": "Ordway-Swisher Biological Station, Melrose, Florida",
+    "deadline": "September 30, 2026 (11:55 PM ET)",
+    "badge": "Good fit",
+    "pay": "$15.00–$17.00 per hour (published)",
+    "stipend": "",
+    "benefits": "Time-limited OPS position; training may include S-130/S-190 wildland firefighter, S-112 chainsaw and a Florida pesticide applicator's licence; on-site housing MAY be available",
+    "url": "https://explore.jobs.ufl.edu/en-us/job/540988/ops-land-management-technician",
+    "url_label": "OPS Land Management Technician — prescribed fire, invasive-species control and ecological monitoring, Sep 2026–Apr 2027 (University of Florida, Ordway-Swisher Biological Station)",
+    "links": [
+      {
+        "href": "https://explore.jobs.ufl.edu/en-us/job/540988/ops-land-management-technician",
+        "label": "🔗 OPS Land Management Technician — prescribed fire, invasive-species control and ecological monitoring, Sep 2026–Apr 2027 (University of Florida, Ordway-Swisher Biological Station)"
+      },
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-ops-land-management-technician-melrose-florida/9105093652",
+        "label": "🔗 Listing on Conservation Job Board"
+      }
+    ],
+    "metaLine": "Melrose FL · 2 openings, Sep/Oct 2026–Apr 2027 · $15–$17/hr · Rx fire, invasives, monitoring, restoration · fire + chainsaw training · closes Sep 30",
+    "body": "The University of Florida's Ordway-Swisher Biological Station is hiring two OPS (time-limited) Land Management Technicians to work from September/October 2026 through April 2027. Technicians take part in conservation projects involving prescribed burning, exotic and invasive species control, ecological monitoring, data entry and habitat restoration, along with station operations such as road and equipment maintenance, trimming trees and limbs along roads and boundary fencing. Training may include S-130/S-190 basic wildland firefighter certification, S-112 chainsaw operations and a Florida pesticide applicator's licence. Required: chainsaw experience, a valid driver's licence with a safe driving record, excellent physical condition, and the ability to pass the NWCG arduous pack test (3 miles with a 45-lb pack in 45 minutes). Preferred: a strong interest in conservation land management and experience in prescribed fire, habitat restoration or invasive species management. Pay is $15.00–$17.00 per hour. On-site housing may be available. Applications (cover letter, résumé and three references) close September 30, 2026.",
+    "desc": "A winter season of hands-on restoration at a major university field station — prescribed fire, invasives and monitoring — with fire and chainsaw certifications that make later land-management applications stronger. The hard requirement is chainsaw experience; her NCCC service may have included sawyer work, so check. Ask whether the on-site housing is available.",
+    "pills": [
+      "Prescribed fire + restoration",
+      "Free fire/chainsaw training",
+      "Sep 2026–Apr 2027",
+      "Needs chainsaw experience"
+    ],
+    "start": "September/October 2026 (through April 2027)",
+    "relocation": "local",
+    "deadline_date": "2026-09-30"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 15, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1630",
+    "title": "Jill Abrahamson Memorial Environmental Education Internship — free on-site housing, optional prescribed-fire training, Oct 2026–Jul 2027 (Archbold Biological Station)",
+    "org": "Archbold Expeditions, Inc. · Archbold Biological Station · Education team · Venus, FL",
+    "location": "Archbold Biological Station, Venus, Florida",
+    "deadline": "October 5, 2026",
+    "badge": "Good fit",
+    "pay": "$15 per hour for an average of 29 hours per week (published), plus free housing",
+    "stipend": "",
+    "benefits": "Free shared dormitory-style lodging at the station (no pets); paid time off and holidays per Archbold policy; optional certified prescribed-fire training",
+    "url": "https://archbold-station.apscareerportal.com/jobs/2627632/apps/new",
+    "url_label": "Jill Abrahamson Memorial Environmental Education Internship — free on-site housing, optional prescribed-fire training, Oct 2026–Jul 2027 (Archbold Biological Station)",
+    "links": [
+      {
+        "href": "https://archbold-station.apscareerportal.com/jobs/2627632/apps/new",
+        "label": "🔗 Jill Abrahamson Memorial Environmental Education Internship — free on-site housing, optional prescribed-fire training, Oct 2026–Jul 2027 (Archbold Biological Station)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118775",
+        "label": "🔗 Listing on the Texas A&M Natural Resources Job Board"
+      }
+    ],
+    "metaLine": "Venus FL · Oct 26 2026–Jul 23 2027 · $15/hr × ~29 hr/wk + FREE HOUSING · K-12 field programmes, optional Rx fire · apply by Oct 5",
+    "body": "Archbold Biological Station is recruiting a Jill Abrahamson Memorial Environmental Education intern to join its Education team from October 26, 2026 to July 23, 2027 (start date flexible). The participant helps deliver learning experiences connecting people to Archbold's lands, history and ecological research: co-leading elementary field trips, working outreach booths, assisting with programme evaluations, co-presenting in middle-school classrooms, assisting at ecology day camps, caring for ambassador snakes and developing an independent education project, with professional development, mentorship and a state-wide education conference. Participants may take certified prescribed-fire training and join prescribed burns, and are invited to accompany researchers into the field. Compensation is $15 per hour for an average of 29 hours a week, free shared dormitory-style lodging at the station, and paid time off and holidays. Apply by October 5, 2026.",
+    "desc": "Archbold is one of the premier ecological field stations in the Southeast, and free housing plus the chance to join burns and ride along with researchers makes this more than an education job. The core work is teaching, not research, so it suits Erin best as a way to live inside a research community while applying to grad programmes.",
+    "pills": [
+      "Free on-site housing",
+      "Prescribed-fire training option",
+      "Premier field station",
+      "Education-focused"
+    ],
+    "start": "October 26, 2026 (flexible) through July 23, 2027",
+    "relocation": "local",
+    "deadline_date": "2026-10-05",
+    "start_date": "2026-10-26",
+    "housing_provided": true
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 15, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-1631",
+    "title": "Full-Time Naturalist — environmental science programmes at the Environmental Science Center (Somerset County Park Commission, NJ)",
+    "org": "Somerset County Park Commission · Environmental Science programmes · Basking Ridge, NJ",
+    "location": "Basking Ridge, New Jersey",
+    "deadline": "Listed on Conservation Job Board through September 23, 2026",
+    "badge": "Good fit",
+    "pay": "$51,000–$65,977 per year (published)",
+    "stipend": "",
+    "benefits": "Full-time county government position",
+    "url": "https://www.conservationjobboard.com/job-listing-full-time-naturalist-basking-ridge-new-jersey/3487967126",
+    "url_label": "Full-Time Naturalist — environmental science programmes at the Environmental Science Center (Somerset County Park Commission, NJ)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-full-time-naturalist-basking-ridge-new-jersey/3487967126",
+        "label": "🔗 Full-Time Naturalist — environmental science programmes at the Environmental Science Center (Somerset County Park Commission, NJ)"
+      }
+    ],
+    "metaLine": "Basking Ridge NJ · full-time county naturalist · $51k–$66k · environmental & natural-history programmes · BS in life/earth science · listed to Sep 23",
+    "body": "The Somerset County Park Commission is hiring a full-time Naturalist who, under the Supervisor of Environmental Science, plans and implements environmental, historical and cultural programmes for all ages and interest groups and answers public questions about the environment and ecology. Essential qualifications: a bachelor's degree in life science, ecology, earth sciences, wildlife conservation or another natural-history curriculum (other degrees accepted with supplementary life-science training), thorough knowledge of environmental and ecological concepts, the ability to lead public groups of all ages, good organisation and teamwork, basic office and administrative skills, and computer proficiency. Salary $51,000–$65,977. Conservation Job Board lists the posting through September 23, 2026; apply through the Park Commission.",
+    "desc": "A permanent, well-paid county post that asks for exactly her kind of degree. The job is interpretation and public programming rather than field research, so it suits Erin if she enjoyed the outreach side of NCCC; it is also a stable base while she applies to graduate programmes.",
+    "pills": [
+      "Permanent county job",
+      "$51k–$66k",
+      "Environmental education",
+      "BS in life/earth science"
+    ],
+    "start": "Upon selection",
+    "relocation": "local",
+    "deadline_date": "2026-09-23"
   }
 ]
