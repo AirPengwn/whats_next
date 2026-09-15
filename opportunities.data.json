@@ -13628,7 +13628,7 @@
     ],
     "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117556",
     "location": "Alpine, TX (Southern High Plains playa systems)",
-    "pay": "",
+    "pay": "$18,000 per year plus fringe (from the original listing, which is no longer online — confirm with the Borderlands Research Institute)",
     "stipend": "$18,000 per year plus fringe",
     "benefits": "Confirm tuition waiver and health insurance with the Borderlands Research Institute",
     "id": "item-302",
@@ -22519,7 +22519,7 @@
     ],
     "url": "https://jobs.rwfm.tamu.edu/view-job/?id=116947",
     "location": "Huntington, West Virginia",
-    "pay": "",
+    "pay": "$21,000 per year on the original July 2026 listing (since withdrawn) — the lab's re-posted coastal MS pays $24,000 + full tuition waiver (see #1624)",
     "stipend": "$21,000 per year",
     "benefits": "Funded assistantship — confirm tuition and health coverage with the department",
     "id": "item-509",
@@ -26798,7 +26798,7 @@
       "Rotates across wildlife, silviculture and fire"
     ],
     "metaLine": "Deadline Sep 14, 2026 · $800/wk · Sumter National Forest SC · designed to convert to federal hiring",
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-09-14",
     "region": "Southeast & Appalachia",
@@ -26975,7 +26975,7 @@
     ],
     "url": "https://jobs.rwfm.tamu.edu/view-job/?id=116975",
     "location": "Chatham, Louisiana",
-    "pay": "",
+    "pay": "Graduate research assistantship: ~$29,000 total stipend over the project (published total, not per year) + tuition waiver",
     "stipend": "Graduate research assistant stipend of approximately $29,000 over the duration of the project (published total, not per year)",
     "benefits": "Tuition waiver (subject to university policy and graduate school requirements), plus funding for professional development and conference travel",
     "id": "item-615",
@@ -32374,7 +32374,8 @@
     ],
     "housing_provided": true,
     "start_date": "2026-09-14",
-    "relocation": "housed"
+    "relocation": "housed",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -38348,7 +38349,8 @@
       "Uses your Corps delineation training"
     ],
     "start_date": "2026-09-14",
-    "relocation": "tight"
+    "relocation": "tight",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -51265,7 +51267,8 @@
     ],
     "start": "between 9/15/2026 and 10/1/2026",
     "relocation": "lead",
-    "deadline_date": "2026-09-14"
+    "deadline_date": "2026-09-14",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -53244,7 +53247,8 @@
     ],
     "start": "See posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-14"
+    "deadline_date": "2026-09-14",
+    "expired": true
   },
   {
     "type": "Graduate Program",
@@ -54217,7 +54221,8 @@
     ],
     "start": "See posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-14"
+    "deadline_date": "2026-09-14",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -54637,7 +54642,8 @@
     ],
     "start": "See posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-14"
+    "deadline_date": "2026-09-14",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -54892,7 +54898,8 @@
     ],
     "start": "See posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-14"
+    "deadline_date": "2026-09-14",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -55389,7 +55396,8 @@
     ],
     "start": "See posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-14"
+    "deadline_date": "2026-09-14",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -58580,7 +58588,8 @@
     ],
     "start": "See posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-14"
+    "deadline_date": "2026-09-14",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -58872,7 +58881,8 @@
     ],
     "start": "Permanent full-time · see posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-14"
+    "deadline_date": "2026-09-14",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -59210,7 +59220,8 @@
     ],
     "start": "See posting · eight openings",
     "relocation": "tight",
-    "deadline_date": "2026-09-14"
+    "deadline_date": "2026-09-14",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -64424,7 +64435,8 @@
     ],
     "start": "See posting",
     "relocation": "unknown",
-    "deadline_date": "2026-09-14"
+    "deadline_date": "2026-09-14",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -64508,7 +64520,8 @@
     ],
     "start": "See posting · 1.5-year grant-funded term, intended to extend",
     "relocation": "unknown",
-    "deadline_date": "2026-09-14"
+    "deadline_date": "2026-09-14",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -65658,7 +65671,8 @@
     "start": "Not stated",
     "relocation": "unknown",
     "deadline_date": "2026-09-14",
-    "country": "CA"
+    "country": "CA",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -68270,7 +68284,8 @@
     ],
     "start": "",
     "relocation": "unknown",
-    "deadline_date": "2026-09-14"
+    "deadline_date": "2026-09-14",
+    "expired": true
   },
   {
     "type": "Career Position",
