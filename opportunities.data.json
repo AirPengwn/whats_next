@@ -75516,5 +75516,179 @@
     "start_date": "2026-12-01",
     "housing_provided": false,
     "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia",
+    "id": "item-1747",
+    "title": "Scientist I — Inorganic Nonmetals/Water Micro group, surface, ground and drinking water chemistry testing (Virginia DGS Division of Consolidated Laboratory Services, Richmond)",
+    "org": "Virginia Department of General Services · Division of Consolidated Laboratory Services (DCLS) · Richmond, VA",
+    "location": "DCLS laboratory, Richmond, Virginia",
+    "deadline": "Open — no closing date shown on the posting (apply promptly)",
+    "badge": "Strong fit",
+    "pay": "$62,000–$78,000 per year (published)",
+    "stipend": "",
+    "benefits": "Virginia state employee benefits",
+    "url": "https://www.jobs.virginia.gov/jobs/scientist-inorganic-nonmetals-water-micro-cl314-richmond-virginia-united-states",
+    "url_label": "Scientist I — Inorganic Nonmetals/Water Micro group, surface, ground and drinking water chemistry testing (Virginia DGS Division of Consolidated Laboratory Services, Richmond)",
+    "links": [
+      {
+        "href": "https://www.jobs.virginia.gov/jobs/scientist-inorganic-nonmetals-water-micro-cl314-richmond-virginia-united-states",
+        "label": "🔗 Scientist I — Inorganic Nonmetals/Water Micro group, surface, ground and drinking water chemistry testing (Virginia DGS Division of Consolidated Laboratory Services, Richmond)"
+      }
+    ],
+    "metaLine": "Richmond VA · state lab scientist · $62–78k · water chemistry testing for DEQ and VDH · no move needed",
+    "body": "Virginia's Division of Consolidated Laboratory Services, one of the largest consolidated state laboratories in the country (about 9 million tests a year), is hiring a Scientist I (position CL314) in its Inorganic Nonmetals/Water Micro Group. The group runs high-volume chemical testing of surface water, groundwater, environmental samples and drinking water, supplying data to the Department of Environmental Quality and the Virginia Department of Health's Office of Drinking Water. The hiring range is $62,000–$78,000. The posting on jobs.virginia.gov does not show a closing date, so apply promptly and check the minimum qualifications there.",
+    "desc": "A well-paid water-chemistry lab job in Richmond itself that feeds the state's water-quality programmes, a direct continuation of her sediment and water sampling. No move is needed.",
+    "pills": [
+      "In Richmond — no move",
+      "Water chemistry lab",
+      "$62–78k",
+      "Feeds DEQ + VDH"
+    ],
+    "start": "Upon selection",
+    "housing_provided": false,
+    "relocation": "local"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1748",
+    "title": "Environmental Specialist Senior — Public Water: drinking-water system oversight (Virginia Department of Health, Culpeper)",
+    "org": "Virginia Department of Health · Office of Drinking Water · Culpeper, VA",
+    "location": "Culpeper, Virginia (about 1.5 hours from Richmond)",
+    "deadline": "September 24, 2026 (11:55 p.m.)",
+    "badge": "Good fit",
+    "pay": "$53,200–$63,085 per year (published)",
+    "stipend": "",
+    "benefits": "Virginia state benefits; restricted position funded by the Safe Drinking Water State Revolving Fund (reviewed annually)",
+    "url": "https://www.jobs.virginia.gov/jobs/environmental-specialist-senior-public-water-culpeper-virginia-united-states-f5a38e6a-0e2f-4afd-b941-32f2ee39514d",
+    "url_label": "Environmental Specialist Senior — Public Water: drinking-water system oversight (Virginia Department of Health, Culpeper)",
+    "links": [
+      {
+        "href": "https://www.jobs.virginia.gov/jobs/environmental-specialist-senior-public-water-culpeper-virginia-united-states-f5a38e6a-0e2f-4afd-b941-32f2ee39514d",
+        "label": "🔗 Environmental Specialist Senior — Public Water: drinking-water system oversight (Virginia Department of Health, Culpeper)"
+      }
+    ],
+    "metaLine": "Culpeper VA · state · $53.2–63.1k · drinking-water regulation · drivable from Richmond · CLOSES SEP 24",
+    "body": "The Virginia Department of Health is hiring an Environmental Specialist Senior (state role Environmental Specialist I) for public drinking water in its Culpeper office. It is a restricted position funded by the Safe Drinking Water State Revolving Fund, with continued employment contingent on funding that is reviewed annually. The minimum qualifications include working knowledge of biology, microbiology, chemistry and math; knowledge of drinking-water technology; and the ability to communicate technical information, present at public meetings, and prepare accurate regulatory reports. The hiring range is $53,200–$63,085. Applications close September 24, 2026.",
+    "desc": "A water-quality regulatory job within easy reach of Richmond, closing in two days. The funding is renewed annually, which is common for these positions.",
+    "pills": [
+      "Drinking-water regulation",
+      "~1.5 hrs from Richmond",
+      "$53.2–63.1k",
+      "Closes Sep 24"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-09-24",
+    "start_date": "2026-11-01",
+    "housing_provided": false,
+    "relocation": "local"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1749",
+    "title": "Conservation Data Specialist — GIS modelling, field data apps and reporting for agricultural nonpoint-source programmes (Virginia DCR Soil and Water Conservation, Richmond)",
+    "org": "Virginia Department of Conservation and Recreation · Division of Soil and Water Conservation · Richmond, VA",
+    "location": "Main Street Centre, Richmond, Virginia",
+    "deadline": "September 28, 2026 (11:55 p.m.)",
+    "badge": "Reach",
+    "pay": "$70,000–$90,000 per year (published)",
+    "stipend": "",
+    "benefits": "Paid leave, 13+ state holidays, medical/dental/vision/life, retirement plans; PSLF-eligible employer",
+    "url": "https://www.jobs.virginia.gov/jobs/conservation-data-specialist-richmond-virginia-united-states",
+    "url_label": "Conservation Data Specialist — GIS modelling, field data apps and reporting for agricultural nonpoint-source programmes (Virginia DCR Soil and Water Conservation, Richmond)",
+    "links": [
+      {
+        "href": "https://www.jobs.virginia.gov/jobs/conservation-data-specialist-richmond-virginia-united-states",
+        "label": "🔗 Conservation Data Specialist — GIS modelling, field data apps and reporting for agricultural nonpoint-source programmes (Virginia DCR Soil and Water Conservation, Richmond)"
+      }
+    ],
+    "metaLine": "Richmond VA · state (IT Specialist II) · $70–90k · GIS modelling for water-quality programmes · experienced GIS asked · BY SEP 28",
+    "body": "Virginia DCR's Division of Soil and Water Conservation is hiring a Conservation Data Specialist (state role Information Technology Specialist II) in Richmond. The role focuses on geospatial analysis, GIS-based modelling and data-driven reporting tools for Virginia's agricultural nonpoint-source pollution programmes, and supports data management for the Nutrient Management Planning Program. The minimum qualifications ask for demonstrated experience with ArcGIS Pro, ArcGIS Enterprise and/or ArcGIS Online; building spatial models and geoprocessing workflows; deploying mobile field-data collection apps; business-intelligence reporting (for example Power BI); environmental data QA/QC; and MS SQL Server. The hiring range is $70,000–$90,000. Apply by September 28, 2026.",
+    "desc": "A GIS job at the state conservation agency in Richmond, supporting water-quality programmes. It asks for more technical GIS and database experience than a new graduate usually has, so treat it as a stretch.",
+    "pills": [
+      "In Richmond",
+      "GIS + water quality",
+      "$70–90k",
+      "⚠️ Asks for developer-level GIS"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-09-28",
+    "start_date": "2026-11-01",
+    "housing_provided": false,
+    "relocation": "local"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1750",
+    "title": "Fisheries Aging Lab Specialist — lead technician in the Age and Growth Lab ageing Virginia's marine finfish (Virginia Marine Resources Commission, Hampton)",
+    "org": "Virginia Marine Resources Commission · Age and Growth Lab · Hampton, VA",
+    "location": "Hampton, Virginia (about 1.25 hours from Richmond)",
+    "deadline": "November 1, 2026",
+    "badge": "Reach",
+    "pay": "$35,012–$45,000 per year (published)",
+    "stipend": "",
+    "benefits": "Restricted full-time Virginia state position",
+    "url": "https://www.jobs.virginia.gov/jobs/fisheries-aging-lab-specialist-hampton-virginia-united-states",
+    "url_label": "Fisheries Aging Lab Specialist — lead technician in the Age and Growth Lab ageing Virginia's marine finfish (Virginia Marine Resources Commission, Hampton)",
+    "links": [
+      {
+        "href": "https://www.jobs.virginia.gov/jobs/fisheries-aging-lab-specialist-hampton-virginia-united-states",
+        "label": "🔗 Fisheries Aging Lab Specialist — lead technician in the Age and Growth Lab ageing Virginia's marine finfish (Virginia Marine Resources Commission, Hampton)"
+      }
+    ],
+    "metaLine": "Hampton VA · state lab (Lab & Research Spec I) · $35–45k · fish ageing from hard parts · BY NOV 1",
+    "body": "The Virginia Marine Resources Commission is hiring a Fisheries Aging Lab Specialist (Laboratory & Research Specialist I) as lead technician in its Age and Growth Lab in Hampton. The specialist does routine ageing of Virginia's marine and estuarine finfish from their hard parts (otoliths and other calcified structures), and trains, schedules and supervises hourly staff who process fish. The minimum qualifications ask for experience processing fish and extracting, preserving and archiving hard parts, lab organisation, education and experience in fish ageing, and statistical software. The hiring range is $35,012–$45,000. Applications close November 1, 2026.",
+    "desc": "A state fisheries science job within driving distance of Richmond, but it asks for hands-on fish-ageing experience she does not yet have.",
+    "pills": [
+      "~1.25 hrs from Richmond",
+      "State fisheries lab",
+      "$35–45k",
+      "⚠️ Fish-ageing experience asked"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-11-01",
+    "start_date": "2026-12-01",
+    "housing_provided": false,
+    "relocation": "local"
   }
 ]
