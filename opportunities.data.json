@@ -21593,12 +21593,12 @@
     "src": "erin_jobs.html",
     "src_label": "Career Positions",
     "status": {
-      "kind": "s-new",
-      "label": "✨ New — July 27, 2026"
+      "kind": "s-updated",
+      "label": "🔄 Re-posted — September 22, 2026: the TAMU board listing was republished on Sep 21 with an October 30, 2026 deadline"
     },
     "title": "Fisheries Biologist / Technician — Tyler, TX",
     "org": "Lochow Ranch Pond & Lake Management · Tyler, TX",
-    "deadline": "August 30, 2026",
+    "deadline": "October 30, 2026",
     "start": "See posting",
     "body": "Fisheries biologist and technician role with a pond and lake management company serving East Texas. A Bachelor’s degree is required with at least 1 year of experience listed.",
     "desc": "A wide salary band for an early-career role, and private lake management is steadier work than the seasonal technician circuit — these companies survey, sample and write management plans year-round rather than in field seasons. The day-to-day is freshwater sampling and water-quality assessment, which keeps her technical skills current while she applies to graduate programs. The one-year experience line is soft enough that a strong capstone and field record should clear it.",
@@ -21612,7 +21612,7 @@
     "metaLine": "Deadline Aug 30, 2026 · $45,000–$65,000 · Tyler TX · 1 yr listed",
     "cycle": "current",
     "deadline_kind": "fixed",
-    "deadline_date": "2026-08-30",
+    "deadline_date": "2026-10-30",
     "region": "Southwest",
     "links": [
       {
@@ -21627,8 +21627,7 @@
     "benefits": "Confirm benefits with the employer",
     "id": "item-488",
     "start_date": "2026-08-30",
-    "relocation": "tight",
-    "expired": true
+    "relocation": "tight"
   },
   {
     "type": "Career Position",
@@ -21636,12 +21635,12 @@
     "src": "erin_jobs.html",
     "src_label": "Career Positions",
     "status": {
-      "kind": "s-new",
-      "label": "✨ New — July 27, 2026"
+      "kind": "s-updated",
+      "label": "🔄 Re-posted — September 22, 2026: the TAMU board listing was republished on Sep 21 with an October 30, 2026 deadline"
     },
     "title": "Fisheries Biologist / Technician — Bryan, TX",
     "org": "Lochow Ranch Pond & Lake Management · Bryan, TX",
-    "deadline": "August 30, 2026",
+    "deadline": "October 30, 2026",
     "start": "See posting",
     "body": "Fisheries biologist and technician role at the company’s Bryan, Texas location on State Highway 6. A Bachelor’s degree is required with at least 1 year of experience listed.",
     "desc": "The same role as the Tyler posting, and worth applying to both — but this one has a strategic advantage the other does not. Bryan sits next door to College Station, which means taking it keeps her physically alongside Texas A&M, where several of the funded assistantships already on this list are based. Working a fisheries job while building relationships with the faculty who run those programs is a substantially stronger graduate application than applying cold.",
@@ -21655,7 +21654,7 @@
     "metaLine": "Deadline Aug 30, 2026 · $45,000–$65,000 · Bryan TX · next to Texas A&M",
     "cycle": "current",
     "deadline_kind": "fixed",
-    "deadline_date": "2026-08-30",
+    "deadline_date": "2026-10-30",
     "region": "Southwest",
     "links": [
       {
@@ -21670,8 +21669,7 @@
     "benefits": "Confirm benefits with the employer",
     "id": "item-489",
     "start_date": "2026-08-30",
-    "relocation": "tight",
-    "expired": true
+    "relocation": "tight"
   },
   {
     "type": "Career Position",
@@ -72736,7 +72734,7 @@
       }
     ],
     "metaLine": "Western Ohio · federal · $40.7–55.3k · wildlife biosecurity on poultry farms · CLOSES SEP 24",
-    "body": "USDA APHIS Wildlife Services in Ohio is taking applications through USAJOBS for up to six Biological Science Technicians. They will carry out wildlife biosecurity assessments on poultry farms, including abundance surveys, technical assistance and direct control of wildlife, with other duties as assigned. Duty locations are spread across 12 western and central Ohio counties. Applicants must not own, possess or have contact with backyard poultry. The board lists a bachelor's degree and at least a year of experience, and pay of $40,736–$55,296 a year. The announcement closes September 24, 2026.",
+    "body": "USDA APHIS Wildlife Services in Ohio is taking applications through USAJOBS for up to six Biological Science Technicians. They will carry out wildlife biosecurity assessments on poultry farms, including abundance surveys, technical assistance and direct control of wildlife, with other duties as assigned. Duty locations are spread across 12 western and central Ohio counties. Applicants must not own, possess or have contact with backyard poultry. The board lists a bachelor's degree and at least a year of experience, and pay of $40,736–$55,296 a year. The USAJOBS announcement (885154100) is a single nationwide posting covering 20 cities from Phoenix and Albuquerque to Atlanta and Miami, so the same application can also be pointed at other duty stations. It closes September 24, 2026.",
     "desc": "A federal foot in the door with the USDA agency that runs wildlife damage and disease work. It includes lethal control, and it closes in two days.",
     "pills": [
       "Federal (USDA)",
@@ -73493,5 +73491,264 @@
     "start_date": "2027-01-04",
     "housing_provided": false,
     "relocation": "local"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "British Columbia",
+    "id": "item-1702",
+    "title": "Environmental Technician (fly-in/fly-out) — water sampling, erosion control inspections and wildlife/habitat monitoring at a BC interior mine (JDS Energy & Mining)",
+    "org": "JDS Energy & Mining Inc. · mining project in the interior of British Columbia",
+    "location": "Mining project in the interior of British Columbia (camp-based, fly-in/fly-out rotation)",
+    "deadline": "Rolling — posted September 21, 2026",
+    "badge": "Good fit",
+    "pay": "Not published",
+    "stipend": "",
+    "benefits": "Full camp accommodation on site; rotational schedule",
+    "url": "https://ecoworks.eco.ca/jobs/715118889-environmental-technician",
+    "url_label": "Environmental Technician (fly-in/fly-out) — water sampling, erosion control inspections and wildlife/habitat monitoring at a BC interior mine (JDS Energy & Mining)",
+    "links": [
+      {
+        "href": "https://ecoworks.eco.ca/jobs/715118889-environmental-technician",
+        "label": "🔗 Environmental Technician (fly-in/fly-out) — water sampling, erosion control inspections and wildlife/habitat monitoring at a BC interior mine (JDS Energy & Mining)"
+      }
+    ],
+    "metaLine": "Interior BC · FIFO camp rotation + camp housing · environmental monitoring & compliance · rolling",
+    "body": "JDS Energy & Mining is hiring an Environmental Technician to support environmental monitoring and compliance at a mining project in the interior of British Columbia. The job is camp-based and fly-in/fly-out on a rotational schedule, with full camp accommodation provided on site. The technician carries out field-based environmental programmes — including water sampling, erosion and sediment control inspections, and wildlife, vegetation and habitat monitoring — and helps keep site activities compliant with provincial and federal regulations. The posting (on ECO Canada's ECOworks board, posted September 21, 2026) does not state pay or a closing date.",
+    "desc": "Water sampling and habitat monitoring in a housed rotational job, which suits a Canada move. As a US citizen she would need an employer-supported CUSMA or similar work permit, so ask about that early.",
+    "pills": [
+      "🇨🇦 BC",
+      "🏠 Camp housing",
+      "Water + habitat monitoring",
+      "Private consultancy"
+    ],
+    "start": "Not stated — apply early",
+    "country": "CA",
+    "housing_provided": true,
+    "relocation": "housed"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Ontario",
+    "id": "item-1703",
+    "title": "Environmental Scientist (entry level) — groundwater and soil sampling for environmental site assessments, southern Ontario (AECOM)",
+    "org": "AECOM Canada · Kitchener, Markham, Mississauga or Hamilton, ON",
+    "location": "Kitchener, Markham, Mississauga or Hamilton, Ontario (hybrid)",
+    "deadline": "Rolling — posted September 2026",
+    "badge": "Good fit",
+    "pay": "Not published",
+    "stipend": "",
+    "benefits": "AECOM benefits (see posting)",
+    "url": "https://ecoworks.eco.ca/jobs/715118890-environmental-scientist",
+    "url_label": "Environmental Scientist (entry level) — groundwater and soil sampling for environmental site assessments, southern Ontario (AECOM)",
+    "links": [
+      {
+        "href": "https://ecoworks.eco.ca/jobs/715118890-environmental-scientist",
+        "label": "🔗 Environmental Scientist (entry level) — groundwater and soil sampling for environmental site assessments, southern Ontario (AECOM)"
+      }
+    ],
+    "metaLine": "Southern Ontario (hybrid) · Jan or May 2027 start · site-assessment field sampling · new-grad level · rolling",
+    "body": "AECOM is hiring an Environmental Scientist in its southern Ontario offices (Kitchener, Markham, Mississauga or Hamilton) to support engineers and scientists on environmental site assessments. The work includes groundwater monitoring and sampling from wells, overseeing drilling, logging soils and keeping field records, applying basic scientific principles under senior staff. The start is January or May 2027. Pay is not published. It is separate from the AECOM entry-level environmental planner role already on the list.",
+    "desc": "A graduate-level consulting job doing field sampling similar to her sediment work, with a start date far enough away to sort out a CUSMA work permit.",
+    "pills": [
+      "🇨🇦 Ontario",
+      "New-grad level",
+      "Groundwater + soil sampling",
+      "Jan/May 2027 start"
+    ],
+    "start": "January or May 2027",
+    "country": "CA",
+    "start_date": "2027-01-11",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Ontario",
+    "id": "item-1704",
+    "title": "Environmental Technician (entry level, mentored) — field programmes and reporting at a geo-environmental consultancy, Stoney Creek/Hamilton ON (EnVision Consultants)",
+    "org": "EnVision Consultants Ltd. · Stoney Creek (Hamilton), ON",
+    "location": "Stoney Creek (Hamilton), Ontario",
+    "deadline": "Rolling — posted September 2026",
+    "badge": "Good fit",
+    "pay": "CAD $50,000–$60,000 per year (published)",
+    "stipend": "",
+    "benefits": "Full-time",
+    "url": "https://ecoworks.eco.ca/jobs/490434274-environmental-technician",
+    "url_label": "Environmental Technician (entry level, mentored) — field programmes and reporting at a geo-environmental consultancy, Stoney Creek/Hamilton ON (EnVision Consultants)",
+    "links": [
+      {
+        "href": "https://ecoworks.eco.ca/jobs/490434274-environmental-technician",
+        "label": "🔗 Environmental Technician (entry level, mentored) — field programmes and reporting at a geo-environmental consultancy, Stoney Creek/Hamilton ON (EnVision Consultants)"
+      }
+    ],
+    "metaLine": "Hamilton ON · full time · CAD $50–60k · entry-level technician with mentoring · rolling",
+    "body": "EnVision Consultants, a multidisciplinary geo-environmental consulting firm, is hiring an Environmental Technician for its Stoney Creek office. The technician coordinates field work, prepares technical reports and communicates with clients, with close mentoring from senior staff. The requirement is an undergraduate degree in geoscience, engineering or a related discipline, or a technical diploma; professional designation eligibility is only an asset. The salary is CAD $50,000–$60,000 a year.",
+    "desc": "An entry-level Canadian consulting job with mentoring and a published salary. Consultancies like this handle CUSMA work permits more readily than government employers.",
+    "pills": [
+      "🇨🇦 Ontario",
+      "CAD $50–60k",
+      "Entry level, mentored",
+      "Private consultancy"
+    ],
+    "start": "Not stated",
+    "country": "CA",
+    "housing_provided": false,
+    "relocation": "unknown"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Ontario",
+    "id": "item-1705",
+    "title": "Environmental Technician, Geoscience team — environmental site assessment field programmes across southern Ontario (RWDI, Windsor)",
+    "org": "RWDI · Geoscience team · Windsor, ON",
+    "location": "Windsor, Ontario (projects across southern Ontario)",
+    "deadline": "Rolling — posted September 2026",
+    "badge": "Good fit",
+    "pay": "CAD $55,000–$65,000 per year (published)",
+    "stipend": "",
+    "benefits": "Permanent full-time",
+    "url": "https://ecoworks.eco.ca/jobs/709267268-environmental-technician",
+    "url_label": "Environmental Technician, Geoscience team — environmental site assessment field programmes across southern Ontario (RWDI, Windsor)",
+    "links": [
+      {
+        "href": "https://ecoworks.eco.ca/jobs/709267268-environmental-technician",
+        "label": "🔗 Environmental Technician, Geoscience team — environmental site assessment field programmes across southern Ontario (RWDI, Windsor)"
+      }
+    ],
+    "metaLine": "Windsor ON (across from Detroit) · permanent · CAD $55–65k · site-assessment field work · rolling",
+    "body": "RWDI, a global climate and performance engineering consultancy, is hiring a permanent full-time Environmental Technician for its Geoscience team in Windsor, working on projects across southern Ontario. The role runs field programmes for environmental site assessments, and the posting asks for some experience conducting such programmes. The salary is CAD $55,000–$65,000 a year. Windsor sits directly across the river from Detroit.",
+    "desc": "A permanent consultancy technician job with a published salary, in the Canadian city closest to the US. Check how much field experience they expect, since the posting asks for some.",
+    "pills": [
+      "🇨🇦 Ontario",
+      "Permanent",
+      "CAD $55–65k",
+      "Next to Detroit"
+    ],
+    "start": "Not stated",
+    "country": "CA",
+    "housing_provided": false,
+    "relocation": "unknown"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Prairies (AB/SK/MB)",
+    "id": "item-1706",
+    "title": "Environmental Scientist / Field Technician (Saskatchewan-based) — groundwater and soil sampling at oil and gas sites (Parsons, Winnipeg team)",
+    "org": "Parsons Corporation · Winnipeg environmental team · Saskatchewan-based",
+    "location": "Saskatchewan (reporting to the Winnipeg team; about 90% travel)",
+    "deadline": "Rolling — posted September 2026",
+    "badge": "Good fit",
+    "pay": "Not published",
+    "stipend": "",
+    "benefits": "Full-time",
+    "url": "https://ecoworks.eco.ca/jobs/699348063-environmental-scientists-field-technicians-saskatchewan-based",
+    "url_label": "Environmental Scientist / Field Technician (Saskatchewan-based) — groundwater and soil sampling at oil and gas sites (Parsons, Winnipeg team)",
+    "links": [
+      {
+        "href": "https://ecoworks.eco.ca/jobs/699348063-environmental-scientists-field-technicians-saskatchewan-based",
+        "label": "🔗 Environmental Scientist / Field Technician (Saskatchewan-based) — groundwater and soil sampling at oil and gas sites (Parsons, Winnipeg team)"
+      }
+    ],
+    "metaLine": "Saskatchewan · field technician, ~90% travel · groundwater/soil sampling at oil & gas sites · rolling",
+    "body": "Parsons is hiring an Environmental Field Technician/Scientist based in Saskatchewan to join its Winnipeg team. The technician works independently and with contractors on monitoring, sampling and site investigations, mainly at active and vacant downstream oil and gas properties, including groundwater sampling with a range of equipment, compiling background data for projects, and other field and office tasks applying basic scientific principles. The role involves a lot of out-of-town travel. A degree or diploma in science, environmental studies or a related engineering field is required; the posting says years of relevant experience are an asset rather than a requirement. Pay is not published.",
+    "desc": "A true entry-level Canadian field technician job using the same sampling methods as her trace-metal work. The setting is oil and gas remediation rather than conservation.",
+    "pills": [
+      "🇨🇦 Saskatchewan",
+      "No experience minimum",
+      "Groundwater + soil sampling",
+      "Oil & gas remediation"
+    ],
+    "start": "Not stated",
+    "country": "CA",
+    "housing_provided": false,
+    "relocation": "unknown"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Ontario",
+    "id": "item-1707",
+    "title": "Water Resources Specialist — field assessments, hydrologic modelling and water-quality interpretation, Toronto ON (Consor; recent graduates encouraged)",
+    "org": "Consor · Toronto, ON",
+    "location": "Toronto, Ontario",
+    "deadline": "Rolling — posted September 18, 2026",
+    "badge": "Reach",
+    "pay": "CAD $55,000–$105,000 per year depending on experience (published)",
+    "stipend": "",
+    "benefits": "Full-time",
+    "url": "https://careers-canadaconsoreng.icims.com/jobs/6789/water-resources-specialist/job",
+    "url_label": "Water Resources Specialist — field assessments, hydrologic modelling and water-quality interpretation, Toronto ON (Consor; recent graduates encouraged)",
+    "links": [
+      {
+        "href": "https://careers-canadaconsoreng.icims.com/jobs/6789/water-resources-specialist/job",
+        "label": "🔗 Water Resources Specialist — field assessments, hydrologic modelling and water-quality interpretation, Toronto ON (Consor; recent graduates encouraged)"
+      }
+    ],
+    "metaLine": "Toronto ON · CAD $55–105k · water resources + water quality · recent grads encouraged, engineering-leaning · rolling",
+    "body": "Consor, an environmental and engineering consultancy, is hiring a Water Resources Specialist in Toronto (requisition 2026-6789, posted September 18, 2026). The role covers field assessments, hydrologic and hydraulic modelling, interpreting water-quality data, and supporting environmental assessments and permits for municipal, mining and land-development projects. The posting lists consulting or industry experience but says recent graduates are encouraged to apply. The salary range is CAD $55,000–$105,000.",
+    "desc": "The watershed and water-quality focus matches her capstone, but the job leans towards hydrotechnical engineering, so she would be competing with engineering graduates.",
+    "pills": [
+      "🇨🇦 Ontario",
+      "Water quality + hydrology",
+      "Recent grads encouraged",
+      "Engineering-leaning"
+    ],
+    "start": "Not stated",
+    "country": "CA",
+    "housing_provided": false,
+    "relocation": "unknown"
   }
 ]
