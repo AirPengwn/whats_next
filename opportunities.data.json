@@ -72321,5 +72321,521 @@
     "start_date": "2026-12-01",
     "housing_provided": false,
     "relocation": "local"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-1677",
+    "title": "Habitat Specialist I (Conservation Technician) — NRCS Farm Bill conservation planning, two posts in Elko and Winnemucca NV (Pheasants Forever & Quail Forever)",
+    "org": "Pheasants Forever and Quail Forever · with USDA NRCS · Elko and Winnemucca, NV",
+    "location": "Elko or Winnemucca, Nevada (USDA NRCS field offices)",
+    "deadline": "October 13, 2026",
+    "badge": "Strong fit",
+    "pay": "$40,000–$50,000 per year (published)",
+    "stipend": "",
+    "benefits": "Pheasants Forever employee benefits",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118929",
+    "url_label": "Habitat Specialist I (Conservation Technician) — NRCS Farm Bill conservation planning, two posts in Elko and Winnemucca NV (Pheasants Forever & Quail Forever)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118929",
+        "label": "🔗 Habitat Specialist I (Conservation Technician) — NRCS Farm Bill conservation planning, two posts in Elko and Winnemucca NV (Pheasants Forever & Quail Forever)"
+      },
+      {
+        "href": "https://www.pheasantsforever.org/about-us/careers",
+        "label": "🔗 Pheasants Forever careers"
+      }
+    ],
+    "metaLine": "Elko / Winnemucca NV · permanent · $40–50k · NRCS partner technician · BS, no experience · BY OCT 13",
+    "body": "Pheasants Forever and Quail Forever are hiring two Habitat Specialist I (Conservation Technician) positions, based in the USDA Natural Resources Conservation Service field offices in Elko and Winnemucca, Nevada. The technicians are PF & QF employees but take daily direction, training and priorities from NRCS. They gather conservation-planning inventories, data and surveys to help the field office develop and apply conservation plans for Farm Bill programmes, provide technical help installing conservation practices, and follow up on active contracts. The board lists a bachelor's degree with no experience required. Pay is $40,000–$50,000 a year. Apply by October 13, 2026 for a November or December start.",
+    "desc": "This is an entry-level non-profit job embedded in a USDA field office, a common route into NRCS careers, and it asks for no experience. Rural Nevada is a big move, but the late-fall start gives her time.",
+    "pills": [
+      "USDA NRCS partner",
+      "BS, no experience",
+      "$40–50k",
+      "Two duty stations"
+    ],
+    "start": "November/December 2026",
+    "deadline_date": "2026-10-13",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-1678",
+    "title": "Range & Wildlife Biologist I, II or III — NRCS partner biologist for Farm Bill wildlife conservation, Elko and Winnemucca NV (Pheasants Forever)",
+    "org": "Pheasants Forever · with USDA NRCS Nevada · Elko and Winnemucca, NV",
+    "location": "Elko or Winnemucca, Nevada (USDA field offices)",
+    "deadline": "October 13, 2026",
+    "badge": "Good fit",
+    "pay": "$40,000–$65,000 per year depending on level (published)",
+    "stipend": "",
+    "benefits": "Pheasants Forever employee benefits",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118931",
+    "url_label": "Range & Wildlife Biologist I, II or III — NRCS partner biologist for Farm Bill wildlife conservation, Elko and Winnemucca NV (Pheasants Forever)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118931",
+        "label": "🔗 Range & Wildlife Biologist I, II or III — NRCS partner biologist for Farm Bill wildlife conservation, Elko and Winnemucca NV (Pheasants Forever)"
+      },
+      {
+        "href": "https://www.pheasantsforever.org/about-us/careers",
+        "label": "🔗 Pheasants Forever careers"
+      }
+    ],
+    "metaLine": "Elko / Winnemucca NV · permanent · $40–65k (level I–III) · rangeland + wildlife conservation planning · BY OCT 13",
+    "body": "Pheasants Forever is hiring two Range and Wildlife Biologists, one in Elko and one in Winnemucca, through a partnership with NRCS Nevada. Working from a USDA field office, the biologist provides conservation-planning help to farmers, ranchers and other landowners and delivers Farm Bill programmes with recommendations that benefit both agriculture and wildlife. Depending on experience, the hire comes in at level I, II or III. The board lists a bachelor's degree and at least a year of experience. Pay is $40,000–$65,000 a year. Apply by October 13, 2026.",
+    "desc": "A biologist-titled job on the private-lands track that NRCS hires from, with a level I entry point. It is posted alongside the Habitat Specialist I roles in the same offices, so she can apply to both.",
+    "pills": [
+      "NRCS partner biologist",
+      "Level I entry point",
+      "$40–65k",
+      "Closes Oct 13"
+    ],
+    "start": "November/December 2026",
+    "deadline_date": "2026-10-13",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "West Coast / Pacific",
+    "id": "item-1679",
+    "title": "Private Lands Conservationist II — Farm Bill habitat programmes with NRCS, Clarkston WA (Pheasants Forever & Quail Forever)",
+    "org": "Pheasants Forever and Quail Forever · with USDA NRCS · Clarkston, WA",
+    "location": "Clarkston USDA Field Office, Clarkston, Washington (on-site)",
+    "deadline": "Open until filled — first review October 2, 2026 (board closing October 21)",
+    "badge": "Good fit",
+    "pay": "Up to $50,000 per year (published)",
+    "stipend": "",
+    "benefits": "Pheasants Forever employee benefits",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118930",
+    "url_label": "Private Lands Conservationist II — Farm Bill habitat programmes with NRCS, Clarkston WA (Pheasants Forever & Quail Forever)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118930",
+        "label": "🔗 Private Lands Conservationist II — Farm Bill habitat programmes with NRCS, Clarkston WA (Pheasants Forever & Quail Forever)"
+      },
+      {
+        "href": "https://www.pheasantsforever.org/about-us/careers",
+        "label": "🔗 Pheasants Forever careers"
+      }
+    ],
+    "metaLine": "Clarkston WA · permanent · up to $50k · private-lands habitat with NRCS · FIRST REVIEW OCT 2",
+    "body": "Pheasants Forever and Quail Forever are hiring a Private Lands Conservationist II to work on-site in the USDA field office in Clarkston, Washington, jointly with NRCS and local partners. The role promotes, implements and coordinates enrolment in Farm Bill conservation programmes, develops habitat projects with private landowners, and directs USDA and partner funding towards wildlife habitat improvements. The conservationist is a Pheasants Forever employee, with daily direction from PF and the NRCS District Conservationist. The board lists a bachelor's degree and at least a year of experience, and pay up to $50,000. The position is open until filled, with first review on October 2, 2026.",
+    "desc": "Another NRCS-embedded private-lands job, this one in the Snake River valley on the Washington–Idaho border. It is a level II post, so it expects a little more experience than the Habitat Specialist I openings.",
+    "pills": [
+      "NRCS partner",
+      "Private-lands habitat",
+      "Up to $50k",
+      "First review Oct 2"
+    ],
+    "start": "November 2026",
+    "deadline_date": "2026-10-02",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1680",
+    "title": "Wildlife Management Specialist (1 year) — habitat management and wildlife surveys at Iowa DNR's Saylorville Wildlife Unit, Panora IA (Pheasants Forever)",
+    "org": "Pheasants Forever · with Iowa DNR Saylorville Wildlife Unit (Bays Branch Office) · Panora, IA",
+    "location": "3123 220th St, Panora, Iowa (Guthrie County)",
+    "deadline": "September 30, 2026",
+    "badge": "Good fit",
+    "pay": "$17.00 per hour, 40 hours per week (published)",
+    "stipend": "",
+    "benefits": "One-year term position",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118932",
+    "url_label": "Wildlife Management Specialist (1 year) — habitat management and wildlife surveys at Iowa DNR's Saylorville Wildlife Unit, Panora IA (Pheasants Forever)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118932",
+        "label": "🔗 Wildlife Management Specialist (1 year) — habitat management and wildlife surveys at Iowa DNR's Saylorville Wildlife Unit, Panora IA (Pheasants Forever)"
+      },
+      {
+        "href": "https://www.pheasantsforever.org/about-us/careers",
+        "label": "🔗 Pheasants Forever careers"
+      }
+    ],
+    "metaLine": "Panora IA · 1-year term · $17/hr · state wildlife-area habitat work + surveys · BS, no experience · BY SEP 30",
+    "body": "Pheasants Forever is hiring a Wildlife Management Specialist for one year at the Iowa DNR Saylorville Wildlife Unit's Bays Branch office in Panora. The role is designed to build foundational experience in habitat management, equipment and technical skills, and wildlife surveys, working with unit staff under the Natural Resource Biologist, with occasional overnight travel for projects in other counties. It pays $17.00 an hour for a 40-hour week (7:30 a.m.–4:00 p.m.), starting two to four weeks after an offer. The board lists a bachelor's degree with no experience required. Apply by September 30, 2026.",
+    "desc": "An entry-level year of hands-on habitat work on a state wildlife area, meant as a training role. The pay is modest and it closes on September 30.",
+    "pills": [
+      "Entry level, 1 year",
+      "State wildlife area",
+      "$17/hr",
+      "Closes Sep 30"
+    ],
+    "start": "2–4 weeks after the job offer (one-year term)",
+    "deadline_date": "2026-09-30",
+    "start_date": "2026-10-20",
+    "housing_provided": false,
+    "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1681",
+    "title": "Prescribed Fire Technician — longleaf pine restoration for gopher tortoise and eastern indigo snake habitat, housing provided (The Orianne Society, Lumber City GA)",
+    "org": "The Orianne Society · Longleaf Stewardship Center · Lumber City, GA",
+    "location": "Longleaf Stewardship Center, Lumber City, Georgia",
+    "deadline": "October 23, 2026",
+    "badge": "Good fit",
+    "pay": "Up to $2,400 per month (published)",
+    "stipend": "",
+    "benefits": "On-site housing with internet provided; FFT2 wildland firefighter training",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118928",
+    "url_label": "Prescribed Fire Technician — longleaf pine restoration for gopher tortoise and eastern indigo snake habitat, housing provided (The Orianne Society, Lumber City GA)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118928",
+        "label": "🔗 Prescribed Fire Technician — longleaf pine restoration for gopher tortoise and eastern indigo snake habitat, housing provided (The Orianne Society, Lumber City GA)"
+      }
+    ],
+    "metaLine": "Lumber City GA · Jan–Jun 2027 · up to $2,400/mo + HOUSING · longleaf restoration + FFT2 training · BY OCT 23",
+    "body": "The Orianne Society, a non-profit focused on imperilled reptiles and amphibians, is hiring a prescribed fire technician at its Longleaf Stewardship Center in Lumber City, Georgia. The work mainly supports prescribed fire operations restoring longleaf pine ecosystems that are critical habitat for gopher tortoises and eastern indigo snakes, as part of an interagency fire team with The Nature Conservancy, Georgia DNR, the Georgia Forestry Commission and private landowners. Other duties can include wildlife surveys, invasive species control and habitat maintenance, and the technician trains towards Wildland Firefighter Type 2 (FFT2) certification. The board lists a bachelor's degree with no experience required, pay up to $2,400 a month, and on-site housing with internet. Apply by October 23, 2026.",
+    "desc": "A housed, entry-level restoration job with a herpetology non-profit that also earns a fire qualification. It is mostly burning, not wildlife fieldwork.",
+    "pills": [
+      "🏠 Housing provided",
+      "Non-profit",
+      "FFT2 certification",
+      "BS, no experience"
+    ],
+    "start": "January 4, 2027 (through about June 2027)",
+    "deadline_date": "2026-10-23",
+    "start_date": "2027-01-04",
+    "housing_provided": true,
+    "relocation": "local"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-1682",
+    "title": "Burn Area Restoration Technician (6 months) — revegetation at Imperial National Wildlife Refuge with USFWS (Altar Valley Conservation Alliance, Yuma AZ)",
+    "org": "Altar Valley Conservation Alliance · with U.S. Fish and Wildlife Service · Imperial National Wildlife Refuge, AZ",
+    "location": "Imperial National Wildlife Refuge, about 40 miles northeast of Yuma, Arizona",
+    "deadline": "October 12, 2026",
+    "badge": "Good fit",
+    "pay": "$23.07 per hour, full time (published)",
+    "stipend": "",
+    "benefits": "6-month full-time position",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118914",
+    "url_label": "Burn Area Restoration Technician (6 months) — revegetation at Imperial National Wildlife Refuge with USFWS (Altar Valley Conservation Alliance, Yuma AZ)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118914",
+        "label": "🔗 Burn Area Restoration Technician (6 months) — revegetation at Imperial National Wildlife Refuge with USFWS (Altar Valley Conservation Alliance, Yuma AZ)"
+      },
+      {
+        "href": "https://altarvalleyconservation.org/",
+        "label": "🔗 Altar Valley Conservation Alliance"
+      }
+    ],
+    "metaLine": "Yuma AZ (Imperial NWR) · 6 months · $23.07/hr · refuge burned-area revegetation · BY OCT 12",
+    "body": "Altar Valley Conservation Alliance, a non-profit, is hiring one Burn Area Restoration Technician to work with Imperial National Wildlife Refuge staff on the refuge's Burned Area Rehabilitation project, which rehabilitates and revegetates burned habitat. The refuge covers 25,768 acres and 30 miles of the lower Colorado River, including backwaters and marshes formed behind Imperial Dam. The position is full time for six months at $23.07 an hour, starting October 19, 2026 (flexible). The board asks for some college and at least a year of experience. Apply by October 12, 2026.",
+    "desc": "Restoration work on a USFWS refuge, which is useful federal-partner experience, and it pays well for a seasonal job. The start is soon for a move to Arizona, so check whether housing is available.",
+    "pills": [
+      "USFWS refuge",
+      "Habitat restoration",
+      "$23.07/hr",
+      "⚠️ Starts Oct 19"
+    ],
+    "start": "October 19, 2026 (flexible)",
+    "deadline_date": "2026-10-12",
+    "start_date": "2026-10-19",
+    "housing_provided": false,
+    "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-1683",
+    "title": "Burn Area Restoration Implementation Leader (12 months) — leads revegetation at Imperial National Wildlife Refuge (Altar Valley Conservation Alliance, Yuma AZ)",
+    "org": "Altar Valley Conservation Alliance · with U.S. Fish and Wildlife Service · Imperial National Wildlife Refuge, AZ",
+    "location": "Imperial National Wildlife Refuge, about 40 miles northeast of Yuma, Arizona",
+    "deadline": "October 9, 2026",
+    "badge": "Reach",
+    "pay": "$24.18 per hour, full time (published)",
+    "stipend": "",
+    "benefits": "12-month full-time position",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118915",
+    "url_label": "Burn Area Restoration Implementation Leader (12 months) — leads revegetation at Imperial National Wildlife Refuge (Altar Valley Conservation Alliance, Yuma AZ)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118915",
+        "label": "🔗 Burn Area Restoration Implementation Leader (12 months) — leads revegetation at Imperial National Wildlife Refuge (Altar Valley Conservation Alliance, Yuma AZ)"
+      },
+      {
+        "href": "https://altarvalleyconservation.org/",
+        "label": "🔗 Altar Valley Conservation Alliance"
+      }
+    ],
+    "metaLine": "Yuma AZ (Imperial NWR) · 12 months · $24.18/hr · lead role, 2 yrs experience asked · BY OCT 9",
+    "body": "This is the lead position on the same Burned Area Rehabilitation project at Imperial National Wildlife Refuge. The Implementation Leader works with refuge staff and partners to carry out the rehabilitation and revegetation of burned habitat along the lower Colorado River. It is a 12-month, full-time position at $24.18 an hour, starting October 19, 2026 (flexible). The board asks for some college and at least two years of experience. Apply by October 9, 2026.",
+    "desc": "A year-long lead role on a refuge restoration project, but it asks for two years of experience. The technician posting on the same project is the more realistic entry point.",
+    "pills": [
+      "12 months",
+      "USFWS refuge",
+      "$24.18/hr",
+      "⚠️ 2 yrs experience asked"
+    ],
+    "start": "October 19, 2026 (flexible)",
+    "deadline_date": "2026-10-09",
+    "start_date": "2026-10-19",
+    "housing_provided": false,
+    "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1684",
+    "title": "Mule Deer Technician (seasonal, 3 positions) — night spotlight distance-sampling surveys across Kansas (Kansas Dept. of Wildlife & Parks)",
+    "org": "Kansas Department of Wildlife and Parks · Big Game Program · Smoky Valley Ranch, Scott City, KS",
+    "location": "Smoky Valley Ranch near Scott City, Kansas (surveys statewide)",
+    "deadline": "October 2, 2026",
+    "badge": "Good fit",
+    "pay": "$15.18 per hour (published)",
+    "stipend": "",
+    "benefits": "Temporary seasonal (999 hours max)",
+    "url": "https://www.ksoutdoors.gov/Home/Components/JobPosts/Job/121/340?selType=6-2043&widgetId=2043",
+    "url_label": "Mule Deer Technician (seasonal, 3 positions) — night spotlight distance-sampling surveys across Kansas (Kansas Dept. of Wildlife & Parks)",
+    "links": [
+      {
+        "href": "https://www.ksoutdoors.gov/Home/Components/JobPosts/Job/121/340?selType=6-2043&widgetId=2043",
+        "label": "🔗 Mule Deer Technician (seasonal, 3 positions) — night spotlight distance-sampling surveys across Kansas (Kansas Dept. of Wildlife & Parks)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118899",
+        "label": "🔗 TAMU Natural Resources Job Board listing"
+      }
+    ],
+    "metaLine": "Scott City KS · Oct 5–Nov 23 · $15.18/hr · night spotlight surveys, mule deer · BY OCT 2",
+    "body": "Kansas Department of Wildlife and Parks is hiring three temporary seasonal technicians based at Smoky Valley Ranch near Scott City, working across Kansas as the agency's \"Mule Deer Team\". The team collects spotlight distance-sampling data, mostly at night, to improve understanding of mule deer population dynamics and inform harvest management, and may help with chronic wasting disease sampling. Technicians need to read aerial maps, drive 4WD vehicles and handle deer carcasses. The positions pay $15.18 an hour from October 5 to about November 23, 2026. Apply by October 2, 2026.",
+    "desc": "A short state-agency survey season that adds population-monitoring and distance-sampling experience. It starts in two weeks and ends before Thanksgiving, so it only works if she can leave quickly.",
+    "pills": [
+      "State wildlife agency",
+      "Distance-sampling surveys",
+      "7-week season",
+      "⚠️ Starts Oct 5"
+    ],
+    "start": "October 5, 2026 (through about November 23)",
+    "deadline_date": "2026-10-02",
+    "start_date": "2026-10-05",
+    "housing_provided": false,
+    "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1685",
+    "title": "Biological Science Technician (Wildlife), up to six posts — poultry-farm wildlife biosecurity assessments across western Ohio (USDA APHIS Wildlife Services)",
+    "org": "USDA APHIS Wildlife Services · Ohio",
+    "location": "Darke, Mercer, Shelby, Licking, Van Wert, Montgomery, Allen, Union, Logan, Auglaize, Wood and Richland Counties, Ohio",
+    "deadline": "September 24, 2026",
+    "badge": "Good fit",
+    "pay": "$40,736–$55,296 per year (published)",
+    "stipend": "",
+    "benefits": "Federal position with federal benefits",
+    "url": "https://www.usajobs.gov/job/885154100",
+    "url_label": "Biological Science Technician (Wildlife), up to six posts — poultry-farm wildlife biosecurity assessments across western Ohio (USDA APHIS Wildlife Services)",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/885154100",
+        "label": "🔗 Biological Science Technician (Wildlife), up to six posts — poultry-farm wildlife biosecurity assessments across western Ohio (USDA APHIS Wildlife Services)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118885",
+        "label": "🔗 TAMU Natural Resources Job Board listing"
+      }
+    ],
+    "metaLine": "Western Ohio · federal · $40.7–55.3k · wildlife biosecurity on poultry farms · CLOSES SEP 24",
+    "body": "USDA APHIS Wildlife Services in Ohio is taking applications through USAJOBS for up to six Biological Science Technicians. They will carry out wildlife biosecurity assessments on poultry farms, including abundance surveys, technical assistance and direct control of wildlife, with other duties as assigned. Duty locations are spread across 12 western and central Ohio counties. Applicants must not own, possess or have contact with backyard poultry. The board lists a bachelor's degree and at least a year of experience, and pay of $40,736–$55,296 a year. The announcement closes September 24, 2026.",
+    "desc": "A federal foot in the door with the USDA agency that runs wildlife damage and disease work. It includes lethal control, and it closes in two days.",
+    "pills": [
+      "Federal (USDA)",
+      "Up to 6 hires",
+      "$40.7–55.3k",
+      "Closes Sep 24"
+    ],
+    "start": "After October 11, 2026",
+    "deadline_date": "2026-09-24",
+    "start_date": "2026-10-15",
+    "housing_provided": false,
+    "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1686",
+    "title": "Biological Science Technician (Wildlife) — wildlife damage management and poultry biosecurity, Springfield and Robinson IL (USDA APHIS Wildlife Services)",
+    "org": "USDA APHIS Wildlife Services · Illinois · Springfield and Robinson, IL",
+    "location": "Springfield or Robinson, Illinois",
+    "deadline": "September 30, 2026",
+    "badge": "Reach",
+    "pay": "$36,409–$59,031 per year (published)",
+    "stipend": "",
+    "benefits": "Federal position; no relocation costs paid",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118866",
+    "url_label": "Biological Science Technician (Wildlife) — wildlife damage management and poultry biosecurity, Springfield and Robinson IL (USDA APHIS Wildlife Services)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118866",
+        "label": "🔗 Biological Science Technician (Wildlife) — wildlife damage management and poultry biosecurity, Springfield and Robinson IL (USDA APHIS Wildlife Services)"
+      }
+    ],
+    "metaLine": "Springfield / Robinson IL · federal · $36.4–59k · wildlife damage control · BY SEP 30",
+    "body": "USDA APHIS Wildlife Services is hiring Biological Science Technicians for two Illinois duty stations. In Springfield the main work is reducing damage from birds and mammals at manufacturing facilities, improving wildlife biosecurity at poultry farms, seasonal European starling control at beef and dairy farms, and managing urban Canada goose conflicts through egg and nest removal. In Robinson the focus is poultry-farm biosecurity and damage at manufacturing facilities. At both, the technician uses firearms, traps and other tools to haze and lethally control wildlife. Pay is $36,409–$59,031 a year; no relocation costs are paid. Apply by September 30, 2026.",
+    "desc": "A federal technician job that takes a high-school diploma with no experience, but the work is mostly lethal wildlife damage control, which is far from her interests. Listed as a Reach on fit, not qualifications.",
+    "pills": [
+      "Federal (USDA)",
+      "No experience required",
+      "Lethal control work",
+      "Closes Sep 30"
+    ],
+    "start": "Between November 15 and December 15, 2026",
+    "deadline_date": "2026-09-30",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1687",
+    "title": "Prescribed Fire Ecology Technician (seasonal) — burn crew and pre/post-burn monitoring on Ceylon WMA and other southeast Georgia WMAs (Georgia DNR)",
+    "org": "Georgia Department of Natural Resources · Wildlife Resources Division · Ceylon Wildlife Management Area, Camden County, GA",
+    "location": "Ceylon Wildlife Management Area, Camden County, Georgia",
+    "deadline": "November 1, 2026",
+    "badge": "Good fit",
+    "pay": "$14–$17 per hour (published)",
+    "stipend": "",
+    "benefits": "Seasonal position",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118841",
+    "url_label": "Prescribed Fire Ecology Technician (seasonal) — burn crew and pre/post-burn monitoring on Ceylon WMA and other southeast Georgia WMAs (Georgia DNR)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118841",
+        "label": "🔗 Prescribed Fire Ecology Technician (seasonal) — burn crew and pre/post-burn monitoring on Ceylon WMA and other southeast Georgia WMAs (Georgia DNR)"
+      }
+    ],
+    "metaLine": "Camden County GA · Jan–Jun 2027 · $14–17/hr · state burn crew + monitoring · BY NOV 1",
+    "body": "Georgia DNR is hiring a seasonal Prescribed Fire Ecology Technician for a crew burning mainly on Ceylon Wildlife Management Area in Camden County, plus other WMAs in southeast Georgia. The work focuses on prescribed burning — firebreak construction, fuel reduction, burn operations and pre- and post-burn monitoring — and may include invasive species control, native plantings, basic land management and helping with sensitive and endangered species recovery. It runs from January to mid-June 2027 at $14–$17 an hour. The board lists a high-school diploma with no experience required. Apply by November 1, 2026.",
+    "desc": "An entry-level state agency season with ecological monitoring built into the burn work. It is separate from Georgia DNR's Canoochee Sandhills crew already on the list.",
+    "pills": [
+      "State wildlife agency",
+      "Burn + ecological monitoring",
+      "No experience required",
+      "Closes Nov 1"
+    ],
+    "start": "January 2027 (through about mid-June 2027)",
+    "deadline_date": "2026-11-01",
+    "start_date": "2027-01-04",
+    "housing_provided": false,
+    "relocation": "local"
   }
 ]
