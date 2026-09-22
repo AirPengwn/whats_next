@@ -71345,5 +71345,457 @@
     "start": "Upon selection (about six months, through March 31, 2027)",
     "relocation": "local",
     "deadline_date": "2026-09-16"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1656",
+    "title": "Funded MS — wild turkey gobbling and habitat use from trail cameras and audio recorders (NC State, Blue Mountains restoration monitoring)",
+    "org": "North Carolina State University · with USDA Forest Service Pacific Northwest Research Station · Raleigh, NC",
+    "location": "Raleigh, North Carolina (data from the Wallowa-Whitman and Umatilla National Forests, OR/WA)",
+    "deadline": "September 30, 2026",
+    "badge": "Top recommendation",
+    "pay": "$25,000 per year stipend + in-state tuition (published)",
+    "stipend": "$25,000 per year",
+    "benefits": "In-state tuition covered; the posting advises out-of-state students to establish NC residency after two semesters because the support plan does not cover the out-of-state portion after that",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118838",
+    "url_label": "Funded MS — wild turkey gobbling and habitat use from trail cameras and audio recorders (NC State, Blue Mountains restoration monitoring)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118838",
+        "label": "🔗 Funded MS — wild turkey gobbling and habitat use from trail cameras and audio recorders (NC State, Blue Mountains restoration monitoring)"
+      }
+    ],
+    "metaLine": "Raleigh NC · MS, spring 2027 · $25k + in-state tuition · trail cameras + audio · APPLY BY SEP 30",
+    "body": "NC State is recruiting an MS student to analyse wild turkey gobbling activity and habitat use across the northern Blue Mountains of Oregon and Washington, where the Forest Service is restoring forest structure with silviculture and prescribed fire. The Pacific Northwest Research Station has run a non-invasive monitoring network since 2022 — trail cameras and autonomous audio recorders at more than 700 sites, producing over half a million hours of audio and 150,000 photos. The thesis asks how gobbling varies across the region and through time, what that says about nesting phenology, and whether turkeys prefer some restoration treatments over others. The stipend is $25,000 a year with in-state tuition covered. Apply by September 30, 2026 with a CV and cover letter as a single PDF.",
+    "desc": "This is a thesis built on camera-trap and acoustic data, which is the monitoring work Erin already knows from Wildlife Insights. It is based in Raleigh, a short drive from Richmond, but the application window closes on September 30.",
+    "pills": [
+      "Camera traps + acoustic monitoring",
+      "$25k + in-state tuition",
+      "Raleigh — drivable from Richmond",
+      "Closes Sep 30"
+    ],
+    "start": "Before January 11, 2027 (spring 2027 start)",
+    "deadline_date": "2026-09-30",
+    "start_date": "2027-01-11",
+    "housing_provided": false,
+    "relocation": "local"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-1657",
+    "title": "Funded MS — mechanistic habitat suitability model for stream fish after Chesapeake Bay stream restoration (Towson University, Kraskura lab)",
+    "org": "Towson University · Kraskura Ecological Fish Physiology Lab · Towson, MD",
+    "location": "8000 York Road, Towson, Maryland",
+    "deadline": "October 15, 2026",
+    "badge": "Top recommendation",
+    "pay": "About $21,500 per year (range $19,600–$23,400) + full tuition remission for 2 years (published)",
+    "stipend": "$19,600–$23,400 per year (average $21,500)",
+    "benefits": "Full tuition remission; benefits not included; conference travel supported",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118918",
+    "url_label": "Funded MS — mechanistic habitat suitability model for stream fish after Chesapeake Bay stream restoration (Towson University, Kraskura lab)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118918",
+        "label": "🔗 Funded MS — mechanistic habitat suitability model for stream fish after Chesapeake Bay stream restoration (Towson University, Kraskura lab)"
+      }
+    ],
+    "metaLine": "Towson MD · MS · ~$21.5k + full tuition · habitat suitability modelling + maps · DEADLINE OCT 15",
+    "body": "The Kraskura lab at Towson University is leading a Chesapeake Bay Trust-funded study of how stream restoration affects fish performance, habitat suitability and distribution. Field sampling of fish and stream conditions at sites with different levels of restoration, and lab tests of aerobic scope and swimming capacity, will be collected before the student starts; the MS student will turn those data into a mechanistic habitat suitability model and deliver the results as maps and an interactive tool (for example an R Shiny app) for partners. The assistantship is fully funded for two years with full tuition remission and a stipend averaging $21,500 a year. The student can enrol in either the Biological Sciences or the Environmental Science and Studies thesis track. The deadline is October 15, 2026.",
+    "desc": "Habitat suitability modelling delivered as maps is a close match to the GIS multi-criteria suitability work Erin has already done, applied to stream restoration. Towson is about two and a half hours from Richmond.",
+    "pills": [
+      "Habitat suitability modelling",
+      "Stream restoration",
+      "Full tuition remission",
+      "~2.5 hrs from Richmond"
+    ],
+    "start": "Between January 25 and August 23, 2027",
+    "deadline_date": "2026-10-15",
+    "start_date": "2027-01-25",
+    "housing_provided": false,
+    "relocation": "local"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-1658",
+    "title": "Funded MS — field physiology and swim performance of stream fish across restoration sites (Towson University, Kraskura lab)",
+    "org": "Towson University · Environmental Science and Studies Program · Towson, MD",
+    "location": "Towson, Maryland",
+    "deadline": "October 1, 2026",
+    "badge": "Strong fit",
+    "pay": "About $21,500 per year (range $19,600–$23,400) + full tuition remission for 2 years (published)",
+    "stipend": "$19,600–$23,400 per year (average $21,500)",
+    "benefits": "Full tuition remission; benefits not included",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118917",
+    "url_label": "Funded MS — field physiology and swim performance of stream fish across restoration sites (Towson University, Kraskura lab)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118917",
+        "label": "🔗 Funded MS — field physiology and swim performance of stream fish across restoration sites (Towson University, Kraskura lab)"
+      }
+    ],
+    "metaLine": "Towson MD · MS, spring 2027 · ~$21.5k + full tuition · stream restoration field work · DEADLINE OCT 1",
+    "body": "This is the companion MS on the same Chesapeake Bay Trust stream-restoration project in the Kraskura lab. The thesis will monitor physiological bioindicators — lipid content, oxidative-stress markers and body condition — in common stream fish across the restoration timeline and across sites with different restoration levels, and will measure how temperature and conductivity affect swimming and aerobic capacity. Those data feed the project's habitat suitability modelling and help judge whether restoration is working. It is fully funded as a research assistantship with full tuition remission and a stipend averaging $21,500 a year for two years. The deadline is October 1, 2026, for a spring 2027 start.",
+    "desc": "A field-heavy stream restoration MS in the Chesapeake watershed that uses water-quality measurements such as conductivity, close to her capstone work. It closes on October 1, two weeks before the modelling sister position.",
+    "pills": [
+      "Stream restoration",
+      "Water quality × fish",
+      "Full tuition remission",
+      "Closes Oct 1"
+    ],
+    "start": "After January 25, 2027 (spring 2027)",
+    "deadline_date": "2026-10-01",
+    "start_date": "2027-01-25",
+    "housing_provided": false,
+    "relocation": "local"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1659",
+    "title": "Funded MS — monitoring and mark-recapture of the threatened Grotto Sculpin, a cave fish (University of Missouri, Missouri Cooperative Fish & Wildlife Research Unit)",
+    "org": "University of Missouri · School of Natural Resources · Missouri Cooperative Fish and Wildlife Research Unit · Columbia, MO",
+    "location": "Columbia, Missouri (fieldwork in cave systems in southeastern Missouri)",
+    "deadline": "October 9, 2026 (preferred) — open until filled",
+    "badge": "Strong fit",
+    "pay": "$27,000 per year + benefits + tuition waiver (published)",
+    "stipend": "$27,000 per year",
+    "benefits": "Benefits and tuition waiver included",
+    "url": "https://www.aquaticdiversity.com/current-opportunities",
+    "url_label": "Funded MS — monitoring and mark-recapture of the threatened Grotto Sculpin, a cave fish (University of Missouri, Missouri Cooperative Fish & Wildlife Research Unit)",
+    "links": [
+      {
+        "href": "https://www.aquaticdiversity.com/current-opportunities",
+        "label": "🔗 Funded MS — monitoring and mark-recapture of the threatened Grotto Sculpin, a cave fish (University of Missouri, Missouri Cooperative Fish & Wildlife Research Unit)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118808",
+        "label": "🔗 TAMU Natural Resources Job Board listing"
+      }
+    ],
+    "metaLine": "Columbia MO · MS, Jan 2027 · $27k + tuition + benefits · federally threatened cave fish · PREFERENCE BY OCT 9",
+    "body": "The Missouri Cooperative Fish and Wildlife Research Unit is recruiting an MS student to support recovery of the Grotto Sculpin, a federally threatened cave-adapted fish known from only five cave systems in southeastern Missouri. The student will develop a standardised long-term monitoring strategy for the U.S. Fish and Wildlife Service and run a mark-recapture and movement study using PIT tags and antennas. The work is field-based in subterranean systems, involves confined spaces, and includes leading hourly technicians. The stipend is $27,000 a year plus benefits and a tuition waiver. Review begins immediately, with preference for applications received by October 9, 2026.",
+    "desc": "A well-funded MS that designs a monitoring programme for a listed species in partnership with USFWS, which is the federal track Erin is aiming for. The cave setting is unusual, so she should be comfortable working in tight spaces.",
+    "pills": [
+      "$27k + tuition waiver",
+      "USFWS recovery partner",
+      "Mark-recapture + monitoring design",
+      "Preference by Oct 9"
+    ],
+    "start": "January 2027 (flexible)",
+    "deadline_date": "2026-10-09",
+    "start_date": "2027-01-04",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1660",
+    "title": "Funded MS or PhD — freshwater mollusk conservation genetics and evolution (Ohio State University, Whelan lab)",
+    "org": "The Ohio State University · Department of Evolution, Ecology and Organismal Biology · Museum of Biological Diversity · Columbus, OH",
+    "location": "Museum of Biological Diversity, Columbus, Ohio",
+    "deadline": "November 15, 2026 (contact Dr. Whelan first)",
+    "badge": "Strong fit",
+    "pay": "At least $2,897 per month + tuition waiver + free health insurance (published)",
+    "stipend": "At least $2,897 per month (usually as a Graduate Teaching Assistant)",
+    "benefits": "Tuition waiver; health, vision and dental insurance at no cost",
+    "url": "https://nathanwhelan.com/",
+    "url_label": "Funded MS or PhD — freshwater mollusk conservation genetics and evolution (Ohio State University, Whelan lab)",
+    "links": [
+      {
+        "href": "https://nathanwhelan.com/",
+        "label": "🔗 Funded MS or PhD — freshwater mollusk conservation genetics and evolution (Ohio State University, Whelan lab)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118883",
+        "label": "🔗 TAMU Natural Resources Job Board listing"
+      }
+    ],
+    "metaLine": "Columbus OH · MS or PhD, Aug 2027 · ≥$2,897/mo + tuition + health · freshwater mussels & snails · DEADLINE NOV 15",
+    "body": "The Whelan lab at Ohio State is recruiting up to two graduate students, at MS or PhD level, to start in August 2027. Possible projects include conservation genetics and molecular ecology of freshwater mollusks (including threatened and endangered mussels and snails), phylogenetics and systematics of freshwater gastropods, and mollusk genomics, with work in the museum, lab and field alongside government and conservation practitioners. Students receive a stipend of at least $2,897 a month, usually as teaching assistants, plus a tuition waiver and free health, vision and dental insurance. Applicants must apply to Ohio State and be accepted by the department by November 15, 2026, and should contact Dr. Whelan before applying.",
+    "desc": "A well-supported master's route into freshwater conservation that accepts an MS student and includes health insurance. It leans genetic rather than field-ecological, so it suits her if she wants to add lab and bioinformatics skills.",
+    "pills": [
+      "MS accepted",
+      "≥$2,897/mo + tuition + health",
+      "Imperilled mussels & snails",
+      "Contact PI first"
+    ],
+    "start": "August 2027",
+    "deadline_date": "2026-11-15",
+    "start_date": "2027-08-09",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-1661",
+    "title": "Funded MS or PhD — rodent-borne infectious disease ecology, field trapping in the Pacific Northwest (Washington State University)",
+    "org": "Washington State University · College of Veterinary Medicine · Veterinary and Medical Ecology Lab · Pullman, WA",
+    "location": "Pullman, Washington (fieldwork across the Pacific Northwest)",
+    "deadline": "Email Dr. Eleftheriou by November 1, 2026 (board deadline December 1, 2026)",
+    "badge": "Strong fit",
+    "pay": "Starting at $2,510 per month (published); tuition not stated on the listing",
+    "stipend": "Starting at $2,510 per month",
+    "benefits": "Tuition coverage not stated — confirm with the lab",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118881",
+    "url_label": "Funded MS or PhD — rodent-borne infectious disease ecology, field trapping in the Pacific Northwest (Washington State University)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118881",
+        "label": "🔗 Funded MS or PhD — rodent-borne infectious disease ecology, field trapping in the Pacific Northwest (Washington State University)"
+      }
+    ],
+    "metaLine": "Pullman WA · MS or PhD, Aug 2027 · from $2,510/mo · rodent trapping + disease ecology · EMAIL BY NOV 1",
+    "body": "The Veterinary and Medical Ecology Lab at Washington State University is looking for an MS or PhD student to study the epidemiology and ecology of rodent-borne diseases from August 2027, within a One Health team of veterinary and undergraduate students. The work combines fieldwork in the Pacific Northwest, lab work in Pullman and quantitative modelling. Interested students should email Dr. Andreas Eleftheriou by November 1, 2026 with a research statement, unofficial transcripts and a CV with three references; the successful candidate then applies formally through the college's Multidisciplinary Program in Infectious Disease. The listing gives a stipend starting at $2,510 a month.",
+    "desc": "Small-mammal trapping is one of Erin's listed field skills, and this MS turns it into disease-ecology research. Ask whether tuition is covered, because the listing does not say.",
+    "pills": [
+      "Small-mammal field work",
+      "From $2,510/mo",
+      "MS accepted",
+      "⚠️ Confirm tuition"
+    ],
+    "start": "August 2027",
+    "deadline_date": "2026-11-01",
+    "start_date": "2027-08-15",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-1662",
+    "title": "Funded MS — evolutionary history and conservation genetics of Sharp-tailed Grouse (Boise State University, Galla lab)",
+    "org": "Boise State University · Conservation Genetics Lab (Dr. Stephanie Galla) · Boise, ID",
+    "location": "Boise, Idaho",
+    "deadline": "October 16, 2026",
+    "badge": "Good fit",
+    "pay": "$22,000 per year + tuition + healthcare (Teaching Assistantship; NSF-funded summer work) (published)",
+    "stipend": "$22,000 per year",
+    "benefits": "Tuition and healthcare benefits included",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118875",
+    "url_label": "Funded MS — evolutionary history and conservation genetics of Sharp-tailed Grouse (Boise State University, Galla lab)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118875",
+        "label": "🔗 Funded MS — evolutionary history and conservation genetics of Sharp-tailed Grouse (Boise State University, Galla lab)"
+      }
+    ],
+    "metaLine": "Boise ID · MS, May/fall 2027 · $22k + tuition + health · grouse conservation genomics · DEADLINE OCT 16",
+    "body": "Dr. Stephanie Galla's Conservation Genetics Lab at Boise State is recruiting an MS student for a National Science Foundation-funded project on the evolutionary history and conservation genetics of Sharp-tailed Grouse, especially the Columbian subspecies. The student will use genomic data from modern and historic specimens to examine subspecies boundaries, population history and biodiversity change. The MS begins in fall 2027, but the student is expected to start lab work in May 2027 with NSF-funded summer pay. The teaching assistantship includes tuition, healthcare and a $22,000 annual stipend. The deadline is October 16, 2026.",
+    "desc": "A fully funded conservation MS with health coverage, but it is genomics work at the bench rather than field ecology. Worth it if she wants to add genetic methods to her field skills.",
+    "pills": [
+      "$22k + tuition + health",
+      "Conservation genomics",
+      "Imperilled grouse",
+      "Closes Oct 16"
+    ],
+    "start": "Research from May 2027; MS programme from fall 2027",
+    "deadline_date": "2026-10-16",
+    "start_date": "2027-05-12",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1663",
+    "title": "Funded MS — forest ecology field research (Alabama A&M University, Dr. Xiongwen Chen)",
+    "org": "Alabama A&M University · Department of Natural Resources and Environmental Sciences · Huntsville, AL",
+    "location": "Huntsville, Alabama (fieldwork in Alabama forests)",
+    "deadline": "October 31, 2026 (applications reviewed as received)",
+    "badge": "Good fit",
+    "pay": "$23,000–$25,000 per year depending on experience (published); tuition not stated",
+    "stipend": "$23,000–$25,000 per year",
+    "benefits": "Tuition coverage not stated — confirm with Dr. Chen",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118857",
+    "url_label": "Funded MS — forest ecology field research (Alabama A&M University, Dr. Xiongwen Chen)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118857",
+        "label": "🔗 Funded MS — forest ecology field research (Alabama A&M University, Dr. Xiongwen Chen)"
+      }
+    ],
+    "metaLine": "Huntsville AL · MS, spring 2027 · $23–25k · forest ecology field data · US citizens/PR only · BY OCT 31",
+    "body": "Dr. Xiongwen Chen in Alabama A&M's Department of Natural Resources and Environmental Sciences is offering an MS research assistantship in forest ecology beginning in spring 2027. The student will collect field data in Alabama forests, mainly on trees (for example diameter at breast height), and must be able to work safely outdoors, record high-quality data and identify local tree species; prior forest work is preferred. Only US citizens or permanent residents will be considered. The assistantship pays $23,000–$25,000 a year depending on experience. Email a cover letter, CV and two references to Dr. Chen; applications are reviewed as they arrive, with a board deadline of October 31, 2026.",
+    "desc": "A quick-start funded MS with a spring start and a solid stipend in field ecology. The topic is described only briefly, so she should ask about the thesis question and tuition before applying.",
+    "pills": [
+      "Spring 2027 start",
+      "$23–25k",
+      "Forest field ecology",
+      "⚠️ Confirm tuition"
+    ],
+    "start": "Spring semester 2027",
+    "deadline_date": "2026-10-31",
+    "start_date": "2027-01-11",
+    "housing_provided": false,
+    "relocation": "local"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia",
+    "id": "item-1664",
+    "title": "Funded MS — how well wildlife and fisheries graduates are prepared for entry-level jobs (Mississippi State University, human dimensions)",
+    "org": "Mississippi State University · Department of Wildlife, Fisheries and Aquaculture (Dr. Dan Pilgreen) · Starkville, MS",
+    "location": "Starkville, Mississippi",
+    "deadline": "Review begins September 30, 2026 — open until filled (board closing January 13, 2027)",
+    "badge": "Good fit",
+    "pay": "$20,000 per year + tuition, fees and benefits (published)",
+    "stipend": "$20,000 per year",
+    "benefits": "Tuition, fees and benefits included",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118852",
+    "url_label": "Funded MS — how well wildlife and fisheries graduates are prepared for entry-level jobs (Mississippi State University, human dimensions)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118852",
+        "label": "🔗 Funded MS — how well wildlife and fisheries graduates are prepared for entry-level jobs (Mississippi State University, human dimensions)"
+      }
+    ],
+    "metaLine": "Starkville MS · MS, Jan 2027 · $20k + tuition, fees, benefits · survey / social-science research · REVIEW FROM SEP 30",
+    "body": "Mississippi State's Department of Wildlife, Fisheries and Aquaculture has a funded MS assistantship examining how well wildlife, fisheries and aquaculture graduates are prepared for their careers, and what public, private and non-profit employers need from entry-level staff. The student will design and run surveys of recent graduates and employers, engage stakeholders, analyse qualitative and quantitative data and write up the findings. The minimum qualification is a bachelor's in natural resource management, applied social science or a related field. The assistantship pays $20,000 a year plus tuition, fees and benefits, with a preferred January 2027 start. Review begins September 30 and continues until the position is filled.",
+    "desc": "A fully funded MS in natural-resource human dimensions rather than field ecology, and one of the few with a January start. It suits her only if she is open to survey-based social-science research.",
+    "pills": [
+      "Tuition + fees + benefits",
+      "January 2027 start",
+      "Human-dimensions research",
+      "Review from Sep 30"
+    ],
+    "start": "January 2027 preferred (up to August 2027)",
+    "deadline_date": "2027-01-13",
+    "start_date": "2027-01-13",
+    "housing_provided": false,
+    "relocation": "local"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-1665",
+    "title": "Funded MS — turtle and amphibian microbiomes with summer fieldwork in Panama (Eastern New Mexico University)",
+    "org": "Eastern New Mexico University · Department of Biology · Microbial Ecology and Macroevolution Group · Portales, NM",
+    "location": "Portales, New Mexico (summer fieldwork at the Smithsonian Tropical Research Institute, Panama)",
+    "deadline": "November 2, 2026 (full consideration)",
+    "badge": "Good fit",
+    "pay": "About $11,000 per 9-month year + in-state tuition, plus up to $5,000 summer stipend per field season (published)",
+    "stipend": "About $11,000 per academic year + up to $5,000 each summer",
+    "benefits": "In-state tuition; field costs supported",
+    "url": "https://kvasir7.github.io/ENMU_MS_ad_2026.pdf",
+    "url_label": "Funded MS — turtle and amphibian microbiomes with summer fieldwork in Panama (Eastern New Mexico University)",
+    "links": [
+      {
+        "href": "https://kvasir7.github.io/ENMU_MS_ad_2026.pdf",
+        "label": "🔗 Funded MS — turtle and amphibian microbiomes with summer fieldwork in Panama (Eastern New Mexico University)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118916",
+        "label": "🔗 TAMU Natural Resources Job Board listing"
+      }
+    ],
+    "metaLine": "Portales NM · MS, Jan 2027 · ~$11k + in-state tuition + summer $5k · Panama fieldwork · BY NOV 2",
+    "body": "The Microbial Ecology and Macroevolution Group at Eastern New Mexico University is offering a funded MS starting in spring 2027 on how microbes shape the evolution of their turtle and amphibian hosts. The project combines summer fieldwork in Panama with the Smithsonian Tropical Research Institute (and possibly Ecuador's Tiputini Biodiversity Station) with metagenomic sequencing and computational analysis. The assistantship pays about $11,000 per nine-month year with in-state tuition, plus up to $5,000 each summer and field costs. The minimum requirement is a BS in a biological field; tropical field experience and working Spanish are preferred. Applications received by November 2, 2026 get full consideration.",
+    "desc": "Funded, with tropical herpetology fieldwork, but the stipend is low and most of the analysis is computational microbiome work. It is a reach from her watershed and wetland focus.",
+    "pills": [
+      "Tropical fieldwork",
+      "In-state tuition",
+      "Low stipend (~$11k)",
+      "Closes Nov 2"
+    ],
+    "start": "January 11, 2027 (spring 2027)",
+    "deadline_date": "2026-11-02",
+    "start_date": "2027-01-11",
+    "housing_provided": false,
+    "relocation": "lead"
   }
 ]
