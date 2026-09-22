@@ -74481,54 +74481,6 @@
     },
     "cycle": "current",
     "deadline_kind": "fixed",
-    "region": "West Coast / Pacific",
-    "id": "item-1724",
-    "title": "Scientific Aid — Confined Animal Facilities Unit, Central Valley Regional Water Quality Control Board (CA Water Boards, Rancho Cordova; job code 531478)",
-    "org": "California State Water Resources Control Board · Central Valley Regional Water Quality Control Board · Rancho Cordova, CA",
-    "location": "11020 Sun Center Drive, Rancho Cordova, California",
-    "deadline": "September 25, 2026",
-    "badge": "Good fit",
-    "pay": "$18.26–$21.67 per hour; new hires start at the bottom of the range (published)",
-    "stipend": "",
-    "benefits": "Hourly, limited to 1,500 hours in a rolling year",
-    "url": "https://www.conservationjobboard.com/job-listing-scientific-aid-rancho-cordova-california/1296973430",
-    "url_label": "Scientific Aid — Confined Animal Facilities Unit, Central Valley Regional Water Quality Control Board (CA Water Boards, Rancho Cordova; job code 531478)",
-    "links": [
-      {
-        "href": "https://www.conservationjobboard.com/job-listing-scientific-aid-rancho-cordova-california/1296973430",
-        "label": "🔗 Scientific Aid — Confined Animal Facilities Unit, Central Valley Regional Water Quality Control Board (CA Water Boards, Rancho Cordova; job code 531478)"
-      },
-      {
-        "href": "https://www.calcareers.ca.gov/",
-        "label": "🔗 CalCareers — search job code 531478"
-      }
-    ],
-    "metaLine": "Rancho Cordova CA · hourly (≤1,500 hrs/yr) · $18.26–21.67/hr · water-quality regulation · non-testing class · CLOSES SEP 25",
-    "body": "The Central Valley Regional Water Quality Control Board has an opening for a Scientific Aid in its Confined Animal Facilities Unit in Rancho Cordova, supporting the regulation of water-quality impacts from dairies and other animal facilities. Applicants must create a CalCareers account and apply to job code 531478 before the posting closes on September 25, 2026. The position is hourly, limited to 1,500 hours in a rolling year, and pays $18.26–$21.67 an hour, with new hires starting at the bottom of the range. Scientific Aid is a non-testing California classification, so no civil service exam is needed.",
-    "desc": "A way into California's water-quality agency without the state exam that blocks most out-of-state applicants. It is part-time-capped and hourly, so treat it as a foothold.",
-    "pills": [
-      "CA Water Boards",
-      "No civil-service exam",
-      "Water-quality regulation",
-      "Closes Sep 25"
-    ],
-    "start": "Upon selection",
-    "deadline_date": "2026-09-25",
-    "start_date": "2026-10-15",
-    "housing_provided": false,
-    "relocation": "tight"
-  },
-  {
-    "type": "Career Position",
-    "cat": "Career Positions",
-    "src": "erin_jobs.html",
-    "src_label": "Career Positions",
-    "status": {
-      "kind": "s-new",
-      "label": "✨ New — September 22, 2026"
-    },
-    "cycle": "current",
-    "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-1725",
     "title": "Vegetation Information System Specialist — GIS mapping and data management for ecological restoration (Natural Resource Services, Sauk Rapids MN)",
@@ -74690,5 +74642,313 @@
     "start": "Upon hire",
     "housing_provided": false,
     "relocation": "unknown"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-1729",
+    "title": "Funded MS (2–3 positions, fall 2027) — aquatic ecology or water resources engineering with a US Bureau of Reclamation summer internship (UC Davis Center for Watershed Sciences)",
+    "org": "University of California, Davis · Center for Watershed Sciences · with U.S. Bureau of Reclamation · Davis, CA",
+    "location": "Davis, California (summer internship at USBR, Sacramento)",
+    "deadline": "October 8, 2026 (apply to the Center first — not to the graduate programme unless invited)",
+    "badge": "Strong fit",
+    "pay": "Funded MS research position; stipend amount not published on the announcement",
+    "stipend": "Funded (amount not published)",
+    "benefits": "Summer internship with the Bureau of Reclamation in Sacramento; confirm tuition and stipend with the Center",
+    "url": "https://watershed.ucdavis.edu/news/ms-positions-aquatic-ecology-and-water-resources-engineering-2027",
+    "url_label": "Funded MS (2–3 positions, fall 2027) — aquatic ecology or water resources engineering with a US Bureau of Reclamation summer internship (UC Davis Center for Watershed Sciences)",
+    "links": [
+      {
+        "href": "https://watershed.ucdavis.edu/news/ms-positions-aquatic-ecology-and-water-resources-engineering-2027",
+        "label": "🔗 Funded MS (2–3 positions, fall 2027) — aquatic ecology or water resources engineering with a US Bureau of Reclamation summer internship (UC Davis Center for Watershed Sciences)"
+      }
+    ],
+    "metaLine": "Davis CA · 2-year funded MS, fall 2027 · fish ecology / restoration / hydrologic modelling with USBR · BY OCT 8",
+    "body": "UC Davis's Center for Watershed Sciences is inviting applications for two or three funded MS research positions, in ecology or engineering, co-designed with biologists and engineers at the U.S. Bureau of Reclamation. The projects address high-priority gaps for water operations, aquatic ecosystem management and fish conservation in Central California. Ecology topics may include fish movement and population ecology, food-web ecology and restoration ecology; engineering topics include hydrologic modelling, forecasting and optimisation. The two-year positions start in fall 2027 in the Graduate Group of Ecology or Civil and Environmental Engineering, with a summer internship at the USBR office in Sacramento. Applicants should apply to the Center by October 8, 2026 and should not apply to the graduate programme unless invited. Contact Miranda Bell Tilcock (mirbell@ucdavis.edu) or Rachel Alsheikh (ralsheikh@ucdavis.edu).",
+    "desc": "A funded MS built around a federal-agency internship, a proven route into federal natural-resource work. The stipend is not published, so ask about the amount and tuition when applying.",
+    "pills": [
+      "Federal (USBR) internship",
+      "Restoration + fish ecology",
+      "Fall 2027",
+      "Apply by Oct 8"
+    ],
+    "start": "Fall 2027 (two-year MS)",
+    "deadline_date": "2026-10-08",
+    "start_date": "2027-09-20",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Alaska, Hawaii & Territories",
+    "id": "item-1730",
+    "title": "Junior Specialist (2 positions) — seagrass restoration, water-quality instruments and habitat surveys on Naval Base Guam (UC Davis Center for Watershed Sciences)",
+    "org": "University of California, Davis · Center for Watershed Sciences · Guam",
+    "location": "Naval Base Guam (full time in Guam, with travel in the Mariana Islands)",
+    "deadline": "Review October 1, 2026; open until June 30, 2027 if unfilled",
+    "badge": "Good fit",
+    "pay": "$57,000 (Step 1) or $60,700 (Step 2) per year (published)",
+    "stipend": "",
+    "benefits": "UC academic appointment benefits; field gear provided",
+    "url": "https://recruit.ucdavis.edu/JPF07868",
+    "url_label": "Junior Specialist (2 positions) — seagrass restoration, water-quality instruments and habitat surveys on Naval Base Guam (UC Davis Center for Watershed Sciences)",
+    "links": [
+      {
+        "href": "https://recruit.ucdavis.edu/JPF07868",
+        "label": "🔗 Junior Specialist (2 positions) — seagrass restoration, water-quality instruments and habitat surveys on Naval Base Guam (UC Davis Center for Watershed Sciences)"
+      }
+    ],
+    "metaLine": "Guam · 1-year renewable · $57,000–60,700 · seagrass restoration + water-quality monitoring · BS + 6 months · REVIEW OCT 1",
+    "body": "UC Davis's Center for Watershed Sciences is filling two full-time Junior Specialist positions based in Guam to support a seagrass restoration project on Naval Base Guam. About 85% of the work is field-based: running water-quality field studies and maintaining instruments (downloading data and QA/QC), seagrass and macroinvertebrate community surveys by snorkelling and swimming in shallow tidal water, collecting soil samples and elevation surveys, and installing and maintaining field equipment, plus lab processing. The basic qualifications are a bachelor's in ecology, biology or environmental studies with at least six months of lab or field research experience, a driver's licence, and comfort swimming, kayaking and snorkelling in the ocean. Pay is $57,000 (Step 1) or $60,700 (Step 2). Applications received by October 1, 2026 get full consideration; the posting stays open to June 30, 2027 if unfilled.",
+    "desc": "A well-paid restoration research job that combines water-quality instruments with habitat surveys, and her capstone research meets the six-month experience bar. It means moving to Guam and working in the water.",
+    "pills": [
+      "Habitat restoration",
+      "Water-quality instruments",
+      "$57–60.7k",
+      "BS + 6 months research"
+    ],
+    "start": "Upon hire (one-year renewable term)",
+    "deadline_date": "2026-10-01",
+    "start_date": "2026-10-01",
+    "housing_provided": false,
+    "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Alaska, Hawaii & Territories",
+    "id": "item-1731",
+    "title": "Biological Science Technician (Invasive Species Strike Team), GS-7 term — Kaua'i National Wildlife Refuge Complex (USFWS, Kilauea HI)",
+    "org": "U.S. Fish and Wildlife Service · Kaua'i National Wildlife Refuge Complex · Kilauea, HI",
+    "location": "Kilauea, Kaua'i, Hawaii (Hanalei, Huleia and Kilauea Point refuges)",
+    "deadline": "October 5, 2026",
+    "badge": "Good fit",
+    "pay": "$52,680–$68,485 per year, GS-7 (published)",
+    "stipend": "",
+    "benefits": "Federal term appointment with federal benefits",
+    "url": "https://www.usajobs.gov/job/885651000",
+    "url_label": "Biological Science Technician (Invasive Species Strike Team), GS-7 term — Kaua'i National Wildlife Refuge Complex (USFWS, Kilauea HI)",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/885651000",
+        "label": "🔗 Biological Science Technician (Invasive Species Strike Team), GS-7 term — Kaua'i National Wildlife Refuge Complex (USFWS, Kilauea HI)"
+      }
+    ],
+    "metaLine": "Kaua'i HI · federal GS-7 term · $52.7–68.5k · refuge invasive-species strike team · open to the public · BY OCT 5",
+    "body": "The U.S. Fish and Wildlife Service is hiring a GS-7 Biological Science Technician for the Invasive Species Strike Team of the Kaua'i National Wildlife Refuge Complex, which covers the Hanalei, Huleia and Kilauea Point refuges. The team controls invasive species across the three refuges. It is a term appointment of 13 months or more that can be extended, open to the public. Pay is $52,680–$68,485 a year. Applications close October 5, 2026.",
+    "desc": "A GS-7 federal refuge job open to the public, and her GPA may let her qualify for GS-7 through Superior Academic Achievement. Hawaii is expensive, so weigh the pay against housing.",
+    "pills": [
+      "USFWS refuge",
+      "GS-7, open to public",
+      "Invasive species control",
+      "Closes Oct 5"
+    ],
+    "start": "Upon selection (13-month term, extendable)",
+    "deadline_date": "2026-10-05",
+    "start_date": "2026-12-01",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Alaska, Hawaii & Territories",
+    "id": "item-1732",
+    "title": "Wildlife Biologist, GS-7 — wildlife damage management projects on Kaua'i (USDA APHIS Wildlife Services, Kekaha HI)",
+    "org": "USDA APHIS Wildlife Services · Hawaii · Kekaha, Kaua'i, HI",
+    "location": "Kekaha, Kaua'i, Hawaii",
+    "deadline": "September 23, 2026",
+    "badge": "Reach",
+    "pay": "$50,460–$65,599 per year, GS-7 (published)",
+    "stipend": "",
+    "benefits": "Federal position with federal benefits",
+    "url": "https://www.usajobs.gov/job/884793900",
+    "url_label": "Wildlife Biologist, GS-7 — wildlife damage management projects on Kaua'i (USDA APHIS Wildlife Services, Kekaha HI)",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/884793900",
+        "label": "🔗 Wildlife Biologist, GS-7 — wildlife damage management projects on Kaua'i (USDA APHIS Wildlife Services, Kekaha HI)"
+      }
+    ],
+    "metaLine": "Kekaha HI · federal GS-7 · $50.5–65.6k · wildlife damage management · open to the public · CLOSES SEP 23",
+    "body": "USDA APHIS Wildlife Services is hiring a GS-7 Wildlife Biologist in Kekaha on Kaua'i. The biologist delivers, manages and administers wildlife damage management projects with minimal supervision — assessing, reducing or eliminating problems caused by wild and feral animals in urban, suburban and rural settings. The announcement is open to the public. Pay is $50,460–$65,599 a year. It closes September 23, 2026.",
+    "desc": "A biologist-titled federal job at GS-7, but it closes tomorrow and the work is mostly damage control of feral animals, far from her main interests.",
+    "pills": [
+      "Federal GS-7",
+      "Biologist title",
+      "Feral-animal control",
+      "Closes Sep 23"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-09-23",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-1733",
+    "title": "Environmental Program Specialist 1 / Trainee 1/2 (NY HELPS, no exam) — permanent post in NYSDEC's Ray Brook office, Adirondacks",
+    "org": "New York State Department of Environmental Conservation · Region 5 · Ray Brook, NY",
+    "location": "1115 Route 86, Ray Brook, New York (Essex County, Adirondacks)",
+    "deadline": "October 7, 2026",
+    "badge": "Strong fit",
+    "pay": "$56,183–$88,970 per year (published)",
+    "stipend": "",
+    "benefits": "Permanent full-time New York State position; telecommuting allowed",
+    "url": "https://statejobs.ny.gov/public/vacancyDetailsView.cfm?id=225297",
+    "url_label": "Environmental Program Specialist 1 / Trainee 1/2 (NY HELPS, no exam) — permanent post in NYSDEC's Ray Brook office, Adirondacks",
+    "links": [
+      {
+        "href": "https://statejobs.ny.gov/public/vacancyDetailsView.cfm?id=225297",
+        "label": "🔗 Environmental Program Specialist 1 / Trainee 1/2 (NY HELPS, no exam) — permanent post in NYSDEC's Ray Brook office, Adirondacks"
+      }
+    ],
+    "metaLine": "Ray Brook NY · permanent · $56–89k · office + field environmental programme work · NY HELPS no exam · BY OCT 7",
+    "body": "NYSDEC's Region 5 office in Ray Brook, in the Adirondacks, is filling a permanent full-time Environmental Program Specialist 1 / Trainee 1/2 position through NY HELPS, which waives the civil service exam. The specialist works in a small office alongside engineers, geologists and environmental specialists in the Divisions of Air, Water, and Materials Management, with a mix of office and field work, contact with biologists, foresters, Environmental Conservation Officers and Forest Rangers, and travel to statewide trainings. The salary range is $56,183–$88,970 a year, and telecommuting is allowed. Apply by October 7, 2026.",
+    "desc": "A permanent state environmental job with no exam, and the trainee entry is designed for new graduates. It is regulatory programme work rather than wildlife fieldwork.",
+    "pills": [
+      "Permanent, no exam (NY HELPS)",
+      "$56–89k",
+      "Trainee entry for new grads",
+      "Closes Oct 7"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-10-07",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "local"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-1734",
+    "title": "Conservation Steward — monitoring and wildlife-habitat management across 50+ preserves, about 1,500 acres (Heritage Conservancy, Bucks County PA)",
+    "org": "Heritage Conservancy · New Hope / Doylestown area, PA",
+    "location": "Bucks County, Pennsylvania (New Hope area)",
+    "deadline": "September 30, 2026",
+    "badge": "Strong fit",
+    "pay": "$45,000+ depending on experience (published)",
+    "stipend": "",
+    "benefits": "Full-time position",
+    "url": "https://weconservepa.org/jobs/conservation-steward/",
+    "url_label": "Conservation Steward — monitoring and wildlife-habitat management across 50+ preserves, about 1,500 acres (Heritage Conservancy, Bucks County PA)",
+    "links": [
+      {
+        "href": "https://weconservepa.org/jobs/conservation-steward/",
+        "label": "🔗 Conservation Steward — monitoring and wildlife-habitat management across 50+ preserves, about 1,500 acres (Heritage Conservancy, Bucks County PA)"
+      }
+    ],
+    "metaLine": "Bucks County PA · full-time permanent · $45k+ · land trust preserve monitoring + habitat management · BY SEP 30",
+    "body": "Heritage Conservancy, a regional land trust, is hiring a full-time Conservation Steward to meet its perpetual stewardship obligations on more than 50 owned properties covering about 1,500 acres. The steward monitors and maintains property boundaries — walking properties with a GPS unit and camera, posting signs, and removing dumped debris — deals with unauthorised uses, and carries out land management that improves wildlife habitat while balancing public access. The role also supports monitoring and builds relationships with neighbours, volunteers and the public. The requirement is a bachelor's degree in a conservation or natural resources field (or two to four years of equivalent experience). The salary is $45,000 or more depending on experience. Apply by September 30, 2026.",
+    "desc": "A permanent land-trust stewardship job within about four hours of Richmond, with GPS field monitoring and habitat management. It is the non-profit career track she is under-represented in.",
+    "pills": [
+      "Land trust, permanent",
+      "Habitat management",
+      "$45k+",
+      "~4 hrs from Richmond"
+    ],
+    "start": "Upon hire",
+    "deadline_date": "2026-09-30",
+    "start_date": "2026-10-20",
+    "housing_provided": false,
+    "relocation": "local"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-1735",
+    "title": "Biologist, GS-9 — New Jersey Ecological Services Field Office, restoration and species studies (USFWS, Galloway NJ)",
+    "org": "U.S. Fish and Wildlife Service · New Jersey Ecological Services Field Office · Galloway, NJ",
+    "location": "Galloway, New Jersey",
+    "deadline": "September 30, 2026",
+    "badge": "Reach",
+    "pay": "$68,013–$88,421 per year, GS-9 (published)",
+    "stipend": "",
+    "benefits": "Permanent federal position with federal benefits",
+    "url": "https://www.usajobs.gov/job/885554100",
+    "url_label": "Biologist, GS-9 — New Jersey Ecological Services Field Office, restoration and species studies (USFWS, Galloway NJ)",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/885554100",
+        "label": "🔗 Biologist, GS-9 — New Jersey Ecological Services Field Office, restoration and species studies (USFWS, Galloway NJ)"
+      }
+    ],
+    "metaLine": "Galloway NJ · federal GS-9 · $68–88.4k · ecological services studies + restoration · open to the public · BY SEP 30",
+    "body": "The U.S. Fish and Wildlife Service's New Jersey Ecological Services Field Office in Galloway is hiring a GS-9 Biologist (0401 series), open to the public. The biologist takes part in planning and carrying out complex studies and assessments, or independently runs limited studies, on the biological, chemical and physical processes that affect ecosystems, and helps implement restoration plans. The basic requirement is a bachelor's in biological sciences, natural resource management or a related field (transcripts required); at GS-9 the minimum qualification is typically a master's degree or a year of specialised experience at GS-7. Pay is $68,013–$88,421. Apply by September 30, 2026.",
+    "desc": "USFWS Ecological Services is where endangered-species and wetland consultation happens, so it is exactly her target agency. GS-9 usually needs a master's or a year at GS-7, which makes this a stretch now.",
+    "pills": [
+      "USFWS Ecological Services",
+      "GS-9, open to public",
+      "⚠️ GS-9 usually needs MS or 1 yr",
+      "Closes Sep 30"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-09-30",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "local"
   }
 ]
