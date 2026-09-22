@@ -74202,5 +74202,493 @@
     "start_date": "2026-11-15",
     "housing_provided": false,
     "relocation": "lead"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Northeast",
+    "id": "item-1718",
+    "title": "Funded PhD (BS applicants considered) — mercury and methylmercury hotspots from artisanal gold mining in Peruvian Amazon watersheds (Cornell University, Gerson lab)",
+    "org": "Cornell University · Department of Biological and Environmental Engineering · Watershed Biogeochemistry in the Anthropocene Lab (Dr. Jacqueline Gerson) · Ithaca, NY",
+    "location": "Ithaca, New York (fieldwork in the Peruvian Amazon)",
+    "deadline": "Contact Dr. Gerson first; Cornell graduate application deadlines apply (posted September 18, 2026)",
+    "badge": "Strong fit",
+    "pay": "Competitive stipend for five years including summers + tuition waiver + health insurance (amount not published)",
+    "stipend": "Competitive five-year stipend (amount not published)",
+    "benefits": "Tuition waiver and health insurance; NSF GRFP applications encouraged",
+    "url": "https://eeb.uconn.edu/opportunities-archive/",
+    "url_label": "Funded PhD (BS applicants considered) — mercury and methylmercury hotspots from artisanal gold mining in Peruvian Amazon watersheds (Cornell University, Gerson lab)",
+    "links": [
+      {
+        "href": "https://eeb.uconn.edu/opportunities-archive/",
+        "label": "🔗 Funded PhD (BS applicants considered) — mercury and methylmercury hotspots from artisanal gold mining in Peruvian Amazon watersheds (Cornell University, Gerson lab)"
+      },
+      {
+        "href": "http://gersonlab.weebly.com",
+        "label": "🔗 Gerson lab website"
+      }
+    ],
+    "metaLine": "Ithaca NY · PhD, BS considered · 5-yr stipend + tuition + health · mercury in Amazon watersheds · contact PI",
+    "body": "The Watershed Biogeochemistry in the Anthropocene Lab at Cornell, led by Dr. Jacqueline Gerson, is recruiting a PhD student for a Gordon and Betty Moore Foundation-funded project on methylmercury hotspots in waterbodies of the Peruvian Amazon. Artisanal and small-scale gold mining is the largest source of mercury contamination worldwide, and the project will map mercury transport and methylation pathways there through fieldwork, lab analyses, experiments and modelling. The minimum qualifications are prior lab work, fieldwork and data analysis; an MS is preferred, but the posting says students with a BA or BS will be considered, and Spanish is desired. Students can enter through Biological and Environmental Engineering, Ecology and Evolutionary Biology, or Natural Resources. Funding combines teaching and research assistantships with a competitive stipend for five years including summers, a tuition waiver and health insurance. The GRE is not required.",
+    "desc": "This is her Pigeon River capstone — metal contamination moving through a watershed — scaled up to a funded Cornell PhD. It prefers an MS but explicitly considers BS applicants, so she should contact the lab and consider an NSF GRFP application this October.",
+    "pills": [
+      "Mercury / trace-metal contamination",
+      "5-yr stipend + tuition + health",
+      "BS applicants considered",
+      "Contact PI first"
+    ],
+    "start": "Fall 2027 (typical PhD start — confirm with the lab)",
+    "start_date": "2027-08-15",
+    "housing_provided": false,
+    "relocation": "local"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-1719",
+    "title": "Biologist / Environmental Scientist (permanent, multiple positions) — wildlife, vegetation and water-quality surveys for NEPA permitting, Elko NV (Nexus Environmental Consultants)",
+    "org": "Nexus Environmental Consultants, Inc. · Elko, NV",
+    "location": "Elko, Nevada",
+    "deadline": "October 30, 2026",
+    "badge": "Strong fit",
+    "pay": "$55,000–$90,000 per year, hourly plus overtime (published)",
+    "stipend": "",
+    "benefits": "Full-time, overtime-eligible, full benefits",
+    "url": "https://www.conservationjobboard.com/job-listing-biologistenvironmental-scientist-elko-nevada/2330250122",
+    "url_label": "Biologist / Environmental Scientist (permanent, multiple positions) — wildlife, vegetation and water-quality surveys for NEPA permitting, Elko NV (Nexus Environmental Consultants)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-biologistenvironmental-scientist-elko-nevada/2330250122",
+        "label": "🔗 Biologist / Environmental Scientist (permanent, multiple positions) — wildlife, vegetation and water-quality surveys for NEPA permitting, Elko NV (Nexus Environmental Consultants)"
+      }
+    ],
+    "metaLine": "Elko NV · permanent, multiple hires · $55–90k + OT + benefits · wildlife, vegetation & water surveys · 0–1 yr · BY OCT 30",
+    "body": "Nexus Environmental Consultants, a natural resources consulting firm specialising in state and federal permitting, is hiring several Biologists/Environmental Scientists in Elko, Nevada. The work supports baseline studies, NEPA analyses, mitigation and compliance for geothermal, mining, ranching, solar, non-profit and government clients across Nevada and the West. Duties include wildlife surveys (birds, mammals, reptiles and others), vegetation surveys (community mapping, noxious and invasive weeds, sensitive plants) and water surveys (surface and groundwater sampling for quality, quantity and flow). The positions are full time and overtime-eligible with full benefits, at $55,000–$90,000 a year. The board lists 0–1 years' experience. The deadline is October 30, 2026.",
+    "desc": "A permanent consulting biologist job that combines wildlife surveys with water-quality sampling, open to someone with less than a year of experience, and several people are being hired. Elko is remote, but the pay and benefits are strong.",
+    "pills": [
+      "Wildlife + water-quality surveys",
+      "$55–90k + benefits",
+      "0–1 yr experience",
+      "Multiple hires"
+    ],
+    "start": "Upon hire",
+    "deadline_date": "2026-10-30",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-1720",
+    "title": "Seasonal Biologist / Environmental Scientist (about 6 months, from early 2027) — wildlife, vegetation and water surveys, Elko or Reno NV (Nexus Environmental Consultants)",
+    "org": "Nexus Environmental Consultants, Inc. · Elko or Reno, NV",
+    "location": "Elko or Reno, Nevada",
+    "deadline": "October 30, 2026",
+    "badge": "Good fit",
+    "pay": "$23–$30 per hour plus overtime, based on experience and education (published)",
+    "stipend": "",
+    "benefits": "Overtime-eligible seasonal term",
+    "url": "https://www.conservationjobboard.com/job-listing-seasonal-biologistenvironmental-scientist-elko-or-reno-nevada/9389209494",
+    "url_label": "Seasonal Biologist / Environmental Scientist (about 6 months, from early 2027) — wildlife, vegetation and water surveys, Elko or Reno NV (Nexus Environmental Consultants)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-seasonal-biologistenvironmental-scientist-elko-or-reno-nevada/9389209494",
+        "label": "🔗 Seasonal Biologist / Environmental Scientist (about 6 months, from early 2027) — wildlife, vegetation and water surveys, Elko or Reno NV (Nexus Environmental Consultants)"
+      }
+    ],
+    "metaLine": "Elko or Reno NV · ~6 months from early 2027 · $23–30/hr + OT · field surveys for permitting · 0–1 yr · BY OCT 30",
+    "body": "Nexus Environmental Consultants is also hiring a seasonal Biologist/Environmental Scientist based in Elko or Reno for about six months from early 2027, with the possibility of extension. The seasonal biologist joins the existing biological team on wildlife surveys (birds, mammals, reptiles and others), vegetation surveys (community mapping, invasive weeds, sensitive plants) and water surveys (surface and groundwater sampling for quality, quantity and flow). Pay is $23–$30 an hour plus overtime. The board lists 0–1 years' experience and an October 30, 2026 deadline.",
+    "desc": "A seasonal way into the same consulting team as the permanent Elko roles, with a later start and a Reno option.",
+    "pills": [
+      "Seasonal, early 2027",
+      "$23–30/hr + OT",
+      "Reno or Elko",
+      "0–1 yr experience"
+    ],
+    "start": "Early 2027 (about six months, may be extended)",
+    "deadline_date": "2026-10-30",
+    "start_date": "2027-02-01",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-1721",
+    "title": "Botanist / Vegetation Specialist (permanent) — vegetation mapping, rare plants, riparian assessments and wetland surveys, Elko or Reno NV (Nexus Environmental Consultants)",
+    "org": "Nexus Environmental Consultants, Inc. · Elko or Reno, NV",
+    "location": "Elko or Reno, Nevada",
+    "deadline": "October 30, 2026",
+    "badge": "Good fit",
+    "pay": "$50,000–$90,000 per year (published)",
+    "stipend": "",
+    "benefits": "Full-time, overtime-eligible; medical, dental, vision, 401(k) match and paid leave",
+    "url": "https://www.conservationjobboard.com/job-listing-botanistvegetation-specialist-elko-or-reno-nevada/3914031450",
+    "url_label": "Botanist / Vegetation Specialist (permanent) — vegetation mapping, rare plants, riparian assessments and wetland surveys, Elko or Reno NV (Nexus Environmental Consultants)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-botanistvegetation-specialist-elko-or-reno-nevada/3914031450",
+        "label": "🔗 Botanist / Vegetation Specialist (permanent) — vegetation mapping, rare plants, riparian assessments and wetland surveys, Elko or Reno NV (Nexus Environmental Consultants)"
+      }
+    ],
+    "metaLine": "Elko or Reno NV · permanent · $50–90k + benefits · vegetation + wetland surveys · BY OCT 30",
+    "body": "Nexus Environmental Consultants is hiring a full-time Botanist/Vegetation Specialist in Elko or Reno. Duties include vegetation surveys (community mapping, noxious weeds, invasive species, sensitive and rare plants), riparian health assessments and assisting with wetland surveys, plus other tasks as workload requires. It is overtime-eligible with medical, dental, vision, a 401(k) match and paid leave, at $50,000–$90,000 a year. The deadline is October 30, 2026.",
+    "desc": "A permanent consulting job that includes riparian and wetland surveys, but it is plant-focused, so her botany coursework and wetland delineation plant identification would need to carry the application.",
+    "pills": [
+      "Wetland + riparian surveys",
+      "$50–90k + benefits",
+      "Plant-focused",
+      "Closes Oct 30"
+    ],
+    "start": "Upon hire",
+    "deadline_date": "2026-10-30",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-1722",
+    "title": "Seasonal Botanist / Vegetation Specialist — vegetation and rare-plant surveys for permitting, Elko or Reno NV (Nexus Environmental Consultants)",
+    "org": "Nexus Environmental Consultants, Inc. · Elko or Reno, NV",
+    "location": "Elko or Reno, Nevada",
+    "deadline": "October 30, 2026",
+    "badge": "Good fit",
+    "pay": "$23–$30 per hour (published)",
+    "stipend": "",
+    "benefits": "Seasonal position",
+    "url": "https://www.conservationjobboard.com/job-listing-seasonal-botanistvegetation-specialist-elko-or-reno-nevada/3317643758",
+    "url_label": "Seasonal Botanist / Vegetation Specialist — vegetation and rare-plant surveys for permitting, Elko or Reno NV (Nexus Environmental Consultants)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-seasonal-botanistvegetation-specialist-elko-or-reno-nevada/3317643758",
+        "label": "🔗 Seasonal Botanist / Vegetation Specialist — vegetation and rare-plant surveys for permitting, Elko or Reno NV (Nexus Environmental Consultants)"
+      }
+    ],
+    "metaLine": "Elko or Reno NV · seasonal · $23–30/hr · vegetation & wetland survey support · BY OCT 30",
+    "body": "Nexus Environmental Consultants' seasonal Botanist/Vegetation Specialist, based in Elko or Reno, carries out vegetation surveys — community mapping, noxious weeds, invasive species and sensitive plants — and supports riparian and wetland surveys for permitting and compliance projects across Nevada. Pay is $23–$30 an hour. The deadline is October 30, 2026.",
+    "desc": "The seasonal version of the botanist role, useful as a first season if she wants to move into consulting in the West.",
+    "pills": [
+      "Seasonal",
+      "$23–30/hr",
+      "Vegetation surveys",
+      "Closes Oct 30"
+    ],
+    "start": "2027 field season",
+    "deadline_date": "2026-10-30",
+    "start_date": "2027-02-01",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1723",
+    "title": "Watershed Restoration Specialist — prairie, savanna and woodland restoration under a new 10-year watershed plan (South Washington Watershed District, Woodbury MN)",
+    "org": "South Washington Watershed District · Woodbury, MN",
+    "location": "Woodbury, Minnesota (Twin Cities metro, southern Washington County)",
+    "deadline": "October 25, 2026 (board listing)",
+    "badge": "Strong fit",
+    "pay": "$68,000–$80,000 per year depending on qualifications (published)",
+    "stipend": "",
+    "benefits": "Paid personal time off, PERA retirement contributions, medical and other benefits",
+    "url": "https://www.conservationjobboard.com/job-listing-watershed-restoration-specialist-woodbury-minnesota/1030647392",
+    "url_label": "Watershed Restoration Specialist — prairie, savanna and woodland restoration under a new 10-year watershed plan (South Washington Watershed District, Woodbury MN)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-watershed-restoration-specialist-woodbury-minnesota/1030647392",
+        "label": "🔗 Watershed Restoration Specialist — prairie, savanna and woodland restoration under a new 10-year watershed plan (South Washington Watershed District, Woodbury MN)"
+      }
+    ],
+    "metaLine": "Woodbury MN · permanent · $68–80k + PERA · watershed habitat restoration · starts Jan 4 2027 · BY OCT 25",
+    "body": "The South Washington Watershed District, a special-purpose local government, protects and restores the water resources of southern Washington County — the Woodbury lakes, Ravine Lake, Trout Brook, Lake St. Croix and the Mississippi River. Its recent work includes woodland restoration, prairie and savanna establishment at stormwater parks and school campuses, and management of its 250-acre Glacial Valley Park. The Watershed Restoration Specialist will help carry out the district's new 10-year Watershed Management Plan. The hiring range is $68,000–$80,000 with paid time off, PERA retirement contributions and medical benefits, and the planned start date is January 4, 2027. The board lists an October 25, 2026 closing date.",
+    "desc": "A permanent, well-paid watershed restoration job at a local water agency, which is exactly the watershed work she is targeting. Check the experience expected, which the board listing does not spell out.",
+    "pills": [
+      "Watershed restoration",
+      "$68–80k permanent",
+      "Starts Jan 2027",
+      "Closes Oct 25"
+    ],
+    "start": "January 4, 2027",
+    "deadline_date": "2026-10-25",
+    "start_date": "2027-01-04",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-1724",
+    "title": "Scientific Aid — Confined Animal Facilities Unit, Central Valley Regional Water Quality Control Board (CA Water Boards, Rancho Cordova; job code 531478)",
+    "org": "California State Water Resources Control Board · Central Valley Regional Water Quality Control Board · Rancho Cordova, CA",
+    "location": "11020 Sun Center Drive, Rancho Cordova, California",
+    "deadline": "September 25, 2026",
+    "badge": "Good fit",
+    "pay": "$18.26–$21.67 per hour; new hires start at the bottom of the range (published)",
+    "stipend": "",
+    "benefits": "Hourly, limited to 1,500 hours in a rolling year",
+    "url": "https://www.conservationjobboard.com/job-listing-scientific-aid-rancho-cordova-california/1296973430",
+    "url_label": "Scientific Aid — Confined Animal Facilities Unit, Central Valley Regional Water Quality Control Board (CA Water Boards, Rancho Cordova; job code 531478)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-scientific-aid-rancho-cordova-california/1296973430",
+        "label": "🔗 Scientific Aid — Confined Animal Facilities Unit, Central Valley Regional Water Quality Control Board (CA Water Boards, Rancho Cordova; job code 531478)"
+      },
+      {
+        "href": "https://www.calcareers.ca.gov/",
+        "label": "🔗 CalCareers — search job code 531478"
+      }
+    ],
+    "metaLine": "Rancho Cordova CA · hourly (≤1,500 hrs/yr) · $18.26–21.67/hr · water-quality regulation · non-testing class · CLOSES SEP 25",
+    "body": "The Central Valley Regional Water Quality Control Board has an opening for a Scientific Aid in its Confined Animal Facilities Unit in Rancho Cordova, supporting the regulation of water-quality impacts from dairies and other animal facilities. Applicants must create a CalCareers account and apply to job code 531478 before the posting closes on September 25, 2026. The position is hourly, limited to 1,500 hours in a rolling year, and pays $18.26–$21.67 an hour, with new hires starting at the bottom of the range. Scientific Aid is a non-testing California classification, so no civil service exam is needed.",
+    "desc": "A way into California's water-quality agency without the state exam that blocks most out-of-state applicants. It is part-time-capped and hourly, so treat it as a foothold.",
+    "pills": [
+      "CA Water Boards",
+      "No civil-service exam",
+      "Water-quality regulation",
+      "Closes Sep 25"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-09-25",
+    "start_date": "2026-10-15",
+    "housing_provided": false,
+    "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1725",
+    "title": "Vegetation Information System Specialist — GIS mapping and data management for ecological restoration (Natural Resource Services, Sauk Rapids MN)",
+    "org": "Natural Resource Services, Inc. · Sauk Rapids, MN",
+    "location": "Sauk Rapids, Minnesota",
+    "deadline": "September 25, 2026",
+    "badge": "Good fit",
+    "pay": "$25–$28 per hour (published)",
+    "stipend": "",
+    "benefits": "Simple IRA with match, paid holidays and vacation, health insurance, HSA, bonuses",
+    "url": "https://www.conservationjobboard.com/job-listing-vegetation-information-system-specialist-sauk-rapids-minnesota/5556238502",
+    "url_label": "Vegetation Information System Specialist — GIS mapping and data management for ecological restoration (Natural Resource Services, Sauk Rapids MN)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-vegetation-information-system-specialist-sauk-rapids-minnesota/5556238502",
+        "label": "🔗 Vegetation Information System Specialist — GIS mapping and data management for ecological restoration (Natural Resource Services, Sauk Rapids MN)"
+      }
+    ],
+    "metaLine": "Sauk Rapids MN · permanent · $25–28/hr + benefits · GIS maps + restoration data · 0–1 yr · BY SEP 25",
+    "body": "Natural Resource Services (NRS), which provides ecological restoration and land management services across the Midwest, is hiring a Vegetation Information System Specialist for its Minnesota office. The specialist uses GIS and related technology to produce maps and to collect and manage data for the company's restoration work. Pay is $25–$28 an hour with a Simple IRA match, paid holidays and vacation, health insurance, an HSA and bonuses. The board lists 0–1 years' experience. Apply by emailing a résumé to Sue Roers (sue@naturalresourceservice.com) by September 25, 2026.",
+    "desc": "A permanent GIS job at a restoration company, open to someone new, which puts her GIS training to direct use. The deadline is this week.",
+    "pills": [
+      "GIS mapping",
+      "Restoration company",
+      "$25–28/hr + benefits",
+      "Closes Sep 25"
+    ],
+    "start": "Upon hire",
+    "deadline_date": "2026-09-25",
+    "start_date": "2026-10-15",
+    "housing_provided": false,
+    "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Midwest & Great Plains",
+    "id": "item-1726",
+    "title": "Conservation Technician — soil erosion and sedimentation control programme, outreach and grant projects (Schoolcraft Conservation District, Manistique MI)",
+    "org": "Schoolcraft Conservation District · Manistique, MI",
+    "location": "Manistique, Michigan (Upper Peninsula)",
+    "deadline": "Open until filled — best consideration by October 1, 2026",
+    "badge": "Good fit",
+    "pay": "$22–$25 per hour (published)",
+    "stipend": "",
+    "benefits": "Paid time off, holidays, employer retirement match, health stipend",
+    "url": "https://www.conservationjobboard.com/job-listing-conservation-technician-manistique-michigan/7739142723",
+    "url_label": "Conservation Technician — soil erosion and sedimentation control programme, outreach and grant projects (Schoolcraft Conservation District, Manistique MI)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-conservation-technician-manistique-michigan/7739142723",
+        "label": "🔗 Conservation Technician — soil erosion and sedimentation control programme, outreach and grant projects (Schoolcraft Conservation District, Manistique MI)"
+      }
+    ],
+    "metaLine": "Manistique MI (Upper Peninsula) · permanent · $22–25/hr + benefits · erosion & sediment control · APPLY BY OCT 1",
+    "body": "The Schoolcraft Conservation District, a local unit of government in Michigan's Upper Peninsula, is hiring a Conservation Technician. The technician mainly administers the Soil Erosion and Sedimentation Control (SESC) programme for the district and Schoolcraft County, and also coordinates outreach, marketing and environmental education and may work on other grant projects. Pay is $22–$25 an hour with paid time off, holidays, a retirement match and a health stipend. The board lists 0–1 years' experience. Email a résumé and three references to District Manager Ashley Reitter (schoolcraftcd@macd.org); applications are accepted until filled, with best consideration by October 1, 2026.",
+    "desc": "An entry-level permanent job with a conservation district, the local partner agency of USDA NRCS, focused on sediment control and water protection.",
+    "pills": [
+      "Conservation district",
+      "Sediment control",
+      "$22–25/hr + benefits",
+      "Best by Oct 1"
+    ],
+    "start": "Upon hire",
+    "deadline_date": "2026-10-01",
+    "start_date": "2026-11-01",
+    "housing_provided": false,
+    "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Southwest",
+    "id": "item-1727",
+    "title": "Muleshoe Ranch Preserve Steward (Oct 2026–Jun 2027) — riparian restoration and preserve operations, housing provided (The Nature Conservancy, Willcox AZ)",
+    "org": "The Nature Conservancy · Arizona · Muleshoe Ranch Preserve · Willcox, AZ",
+    "location": "Muleshoe Ranch Preserve near Willcox, southeastern Arizona (remote, on-site housing)",
+    "deadline": "Rolling — posted September 17, 2026",
+    "badge": "Good fit",
+    "pay": "$21.10–$22.42 per hour (published)",
+    "stipend": "",
+    "benefits": "Housing at the preserve provided (and required); TNC benefits",
+    "url": "https://nature.wd108.myworkdayjobs.com/en-US/ExternalCareers/job/Willcox-Arizona/Muleshoe-Preserve-Steward_JR103948",
+    "url_label": "Muleshoe Ranch Preserve Steward (Oct 2026–Jun 2027) — riparian restoration and preserve operations, housing provided (The Nature Conservancy, Willcox AZ)",
+    "links": [
+      {
+        "href": "https://nature.wd108.myworkdayjobs.com/en-US/ExternalCareers/job/Willcox-Arizona/Muleshoe-Preserve-Steward_JR103948",
+        "label": "🔗 Muleshoe Ranch Preserve Steward (Oct 2026–Jun 2027) — riparian restoration and preserve operations, housing provided (The Nature Conservancy, Willcox AZ)"
+      }
+    ],
+    "metaLine": "Willcox AZ · Oct 2026–Jun 2027 · $21.10–22.42/hr + HOUSING · riparian restoration + preserve upkeep · rolling",
+    "body": "The Nature Conservancy's Muleshoe Ranch Preserve Steward handles day-to-day maintenance and land management at a remote preserve in southeastern Arizona. The steward maintains the preserve headquarters, historic buildings, infrastructure and equipment; carries out management plans and ecological restoration projects, prioritising the preserve's aquatic and riparian systems; periodically supervises seasonal staff, volunteers and contractors; and occasionally hosts visitors and researchers, including hands-on custodial work on visitor housing. It is a fixed-term position expected to run October 2026 to June 2027. Housing at the preserve is provided and required. The minimum is a high-school diploma plus a year of science training or related land-management or maintenance experience, and experience operating equipment. Pay is $21.10–$22.42 an hour.",
+    "desc": "A housed non-profit job protecting desert streams and riparian habitat, although a large share of it is facilities maintenance. The on-site housing makes a move to Arizona realistic.",
+    "pills": [
+      "🏠 Housing provided",
+      "Non-profit (TNC)",
+      "Riparian restoration",
+      "Heavy on maintenance"
+    ],
+    "start": "October 2026 (fixed term to June 2027)",
+    "start_date": "2026-10-15",
+    "housing_provided": true,
+    "relocation": "housed"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Midwest & Great Plains",
+    "id": "item-1728",
+    "title": "GIS Specialist — National Wetlands Inventory updates and wetland conservation mapping (Ducks Unlimited Great Lakes/Atlantic Region, Dexter MI)",
+    "org": "Ducks Unlimited, Inc. · Great Lakes/Atlantic Region geospatial team · Dexter, MI",
+    "location": "Dexter, Michigan (office-based, with some field work)",
+    "deadline": "Rolling — posted September 16, 2026",
+    "badge": "Good fit",
+    "pay": "Not published",
+    "stipend": "",
+    "benefits": "Ducks Unlimited full-time benefits",
+    "url": "https://workforcenow.adp.com/mascsr/default/careercenter/public/index.html?cid=7deee1c0-b159-4fdc-8bdb-3f1d87c47510&ccId=19000101_000001&lang=en_US#/job/595902",
+    "url_label": "GIS Specialist — National Wetlands Inventory updates and wetland conservation mapping (Ducks Unlimited Great Lakes/Atlantic Region, Dexter MI)",
+    "links": [
+      {
+        "href": "https://workforcenow.adp.com/mascsr/default/careercenter/public/index.html?cid=7deee1c0-b159-4fdc-8bdb-3f1d87c47510&ccId=19000101_000001&lang=en_US#/job/595902",
+        "label": "🔗 GIS Specialist — National Wetlands Inventory updates and wetland conservation mapping (Ducks Unlimited Great Lakes/Atlantic Region, Dexter MI)"
+      }
+    ],
+    "metaLine": "Dexter MI · full time · NWI wetland photointerpretation + GIS · ArcGIS Pro · wants 1 yr NWI experience · rolling",
+    "body": "Ducks Unlimited is hiring a full-time GIS Specialist for its Great Lakes/Atlantic Region geospatial team in Dexter, Michigan. The specialist will help update the U.S. National Wetlands Inventory (NWI), develop GIS data and maps for conservation projects, and work with internal staff and outside partners. Requirements include a bachelor's in geography, natural resources or a related field (or an equivalent mix of GIS and remote-sensing education and experience), at least one year of photointerpretation experience on an NWI project, prior field work identifying wetland plants, and proficiency with ArcGIS Pro editing, imagery, analysis and cartography tools. Pay is not published.",
+    "desc": "Wetland mapping for the National Wetlands Inventory brings together her two strongest skills, GIS and wetland delineation. The one-year NWI photointerpretation requirement is the obstacle, so her delineation fieldwork and any aerial-imagery coursework need to be front and centre.",
+    "pills": [
+      "Wetlands + GIS",
+      "National Wetlands Inventory",
+      "Non-profit (DU)",
+      "⚠️ 1 yr NWI experience asked"
+    ],
+    "start": "Upon hire",
+    "housing_provided": false,
+    "relocation": "unknown"
   }
 ]
