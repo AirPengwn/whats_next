@@ -73750,5 +73750,457 @@
     "country": "CA",
     "housing_provided": false,
     "relocation": "unknown"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1708",
+    "title": "Biological Science Technician (Habitat), GS-5 seasonal — Sand Lake NWR, SD or Colorado Front Range NWR Complex, CO (USFWS; first 150 applicants)",
+    "org": "U.S. Fish and Wildlife Service · National Wildlife Refuge System · Columbia, SD or Commerce City, CO",
+    "location": "Sand Lake National Wildlife Refuge, Columbia, South Dakota, or Colorado Front Range NWR Complex, Commerce City, Colorado",
+    "deadline": "September 25, 2026 (or when 150 applications are received)",
+    "badge": "Strong fit",
+    "pay": "$19.52–$28.29 per hour, GS-5 (published)",
+    "stipend": "",
+    "benefits": "Seasonal federal appointment",
+    "url": "https://www.usajobs.gov/job/885254100",
+    "url_label": "Biological Science Technician (Habitat), GS-5 seasonal — Sand Lake NWR, SD or Colorado Front Range NWR Complex, CO (USFWS; first 150 applicants)",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/885254100",
+        "label": "🔗 Biological Science Technician (Habitat), GS-5 seasonal — Sand Lake NWR, SD or Colorado Front Range NWR Complex, CO (USFWS; first 150 applicants)"
+      }
+    ],
+    "metaLine": "Columbia SD or Commerce City CO · federal GS-5 seasonal · $19.52–28.29/hr · refuge habitat management · CLOSES SEP 25 OR AT 150 APPS",
+    "body": "The U.S. Fish and Wildlife Service is hiring a seasonal GS-5 Biological Science Technician (Habitat) at one of two refuges: Sand Lake National Wildlife Refuge in Columbia, South Dakota — a large prairie-wetland refuge — or the Colorado Front Range National Wildlife Refuge Complex in Commerce City, Colorado. The technician supports habitat management on the refuge. The announcement is open to the first 150 applicants and closes at 11:59 p.m. Eastern on September 25, 2026. Pay is $19.52–$28.29 an hour depending on grade and duty station.",
+    "desc": "Refuge habitat work directly with USFWS, the agency she most wants to work for, at the GS-5 level a new graduate can qualify for. The announcement can close early once it gets 150 applicants, so apply immediately.",
+    "pills": [
+      "USFWS refuge",
+      "GS-5 federal",
+      "Wetland/prairie habitat",
+      "⚠️ Closes at 150 applicants"
+    ],
+    "start": "Seasonal — see announcement",
+    "deadline_date": "2026-09-25",
+    "start_date": "2026-11-01",
+    "housing_provided": false,
+    "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1709",
+    "title": "Environmental Quality Analyst 9-P11/12 — contaminated-site investigation and remediation, Bay City District Office (Michigan EGLE)",
+    "org": "Michigan Department of Environment, Great Lakes, and Energy (EGLE) · Bay City District Office",
+    "location": "Bay City, Michigan",
+    "deadline": "September 29, 2026 (11:59 p.m. Eastern)",
+    "badge": "Strong fit",
+    "pay": "$25.03–$45.86 per hour across the 9–P11/12 ladder (published)",
+    "stipend": "",
+    "benefits": "Michigan state civil-service benefits",
+    "url": "https://www.governmentjobs.com/careers/michigan/jobs/5482850/environmental-quality-analyst-9-p11-12-bay-city-district-office",
+    "url_label": "Environmental Quality Analyst 9-P11/12 — contaminated-site investigation and remediation, Bay City District Office (Michigan EGLE)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/michigan/jobs/5482850/environmental-quality-analyst-9-p11-12-bay-city-district-office",
+        "label": "🔗 Environmental Quality Analyst 9-P11/12 — contaminated-site investigation and remediation, Bay City District Office (Michigan EGLE)"
+      }
+    ],
+    "metaLine": "Bay City MI · permanent state · $25–46/hr ladder · contamination cleanup · BS only at entry · BY SEP 29",
+    "body": "Michigan EGLE's Bay City District Office is hiring an Environmental Quality Analyst to investigate contaminated sites and oversee their remediation and compliance under Michigan's environmental laws. The position is a 9–P11/12 flexible ladder: the entry (level 9) requires only a bachelor's degree in the biological sciences, engineering, physical sciences, resource development or resource management, with no experience. Pay runs from $25.03 to $45.86 an hour across the ladder. Applications close at 11:59 p.m. Eastern on September 29, 2026.",
+    "desc": "Permanent state contamination work that takes a BS alone at entry. It is the regulatory side of the kind of trace-metal pollution her Pigeon River capstone studied.",
+    "pills": [
+      "Contaminated-site cleanup",
+      "BS only at entry",
+      "Permanent career ladder",
+      "Closes Sep 29"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-09-29",
+    "start_date": "2026-11-01",
+    "housing_provided": false,
+    "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1710",
+    "title": "Environmental Quality Analyst 9-P11 — contaminated-site investigation and remediation, Detroit District Office, Warren MI (Michigan EGLE)",
+    "org": "Michigan Department of Environment, Great Lakes, and Energy (EGLE) · Detroit District Office",
+    "location": "Warren, Michigan (Detroit District Office)",
+    "deadline": "September 28, 2026",
+    "badge": "Strong fit",
+    "pay": "$25.03–$42.18 per hour across the 9–P11 ladder (published)",
+    "stipend": "",
+    "benefits": "Michigan state civil-service benefits",
+    "url": "https://www.governmentjobs.com/careers/michigan/jobs/5479285/environmental-quality-analyst-9-p11-detroit-district-office",
+    "url_label": "Environmental Quality Analyst 9-P11 — contaminated-site investigation and remediation, Detroit District Office, Warren MI (Michigan EGLE)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/michigan/jobs/5479285/environmental-quality-analyst-9-p11-detroit-district-office",
+        "label": "🔗 Environmental Quality Analyst 9-P11 — contaminated-site investigation and remediation, Detroit District Office, Warren MI (Michigan EGLE)"
+      }
+    ],
+    "metaLine": "Warren MI · permanent state · $25–42/hr ladder · contamination cleanup · BS only at entry · BY SEP 28",
+    "body": "This is the same Environmental Quality Analyst classification at EGLE's Detroit District Office in Warren, working on the investigation, cleanup and compliance of contaminated sites. The entry level (9) requires only a bachelor's degree in the biological or physical sciences, engineering, or resource development or management. Pay runs from $25.03 to $42.18 an hour across the 9–P11 ladder. Apply by September 28, 2026.",
+    "desc": "The Detroit-area twin of the Bay City opening; she can apply to both. Both are permanent state jobs open to a new graduate.",
+    "pills": [
+      "Contaminated-site cleanup",
+      "BS only at entry",
+      "Permanent",
+      "Closes Sep 28"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-09-28",
+    "start_date": "2026-11-01",
+    "housing_provided": false,
+    "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1711",
+    "title": "Water Supply Permit Writer (Environmental Specialist) — Safe Drinking Water Act permits and data review (Iowa DNR, Des Moines)",
+    "org": "Iowa Department of Natural Resources · Water Supply Engineering · Des Moines, IA",
+    "location": "Des Moines, Iowa",
+    "deadline": "September 30, 2026 (11:59 p.m. Central)",
+    "badge": "Good fit",
+    "pay": "$54,350.40–$81,972.80 per year (published)",
+    "stipend": "",
+    "benefits": "Iowa state employee benefits",
+    "url": "https://www.governmentjobs.com/careers/iowa/jobs/5483573/water-supply-permit-writer",
+    "url_label": "Water Supply Permit Writer (Environmental Specialist) — Safe Drinking Water Act permits and data review (Iowa DNR, Des Moines)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/iowa/jobs/5483573/water-supply-permit-writer",
+        "label": "🔗 Water Supply Permit Writer (Environmental Specialist) — Safe Drinking Water Act permits and data review (Iowa DNR, Des Moines)"
+      }
+    ],
+    "metaLine": "Des Moines IA · permanent state · $54.4–82k · drinking-water permits + data review · BS in natural science · BY SEP 30",
+    "body": "Iowa DNR is hiring an Environmental Specialist to write and issue public water supply permits, review analytical data for Safe Drinking Water Act compliance, and give technical help to water-system operators. The minimum requirement is a bachelor's degree in a natural science (or equivalent experience). Pay is $54,350.40–$81,972.80 a year. Applications close at 11:59 p.m. Central on September 30, 2026.",
+    "desc": "A permanent water-quality regulatory job with good pay that a natural-science BS qualifies for. It is office-based permitting rather than fieldwork.",
+    "pills": [
+      "Water quality regulation",
+      "$54–82k",
+      "BS qualifies",
+      "Closes Sep 30"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-09-30",
+    "start_date": "2026-11-01",
+    "housing_provided": false,
+    "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1712",
+    "title": "Environmental Compliance Specialist — field inspections of feedlots, water supplies and wastewater plants, plus spill response (Iowa DNR, Atlantic IA)",
+    "org": "Iowa Department of Natural Resources · Field Office · Atlantic, IA",
+    "location": "Atlantic, Iowa (southwest Iowa)",
+    "deadline": "October 1, 2026",
+    "badge": "Good fit",
+    "pay": "$54,350.40–$81,972.80 per year (published)",
+    "stipend": "",
+    "benefits": "Iowa state employee benefits",
+    "url": "https://www.governmentjobs.com/careers/iowa/jobs/5486676/environmental-compliance-specialist",
+    "url_label": "Environmental Compliance Specialist — field inspections of feedlots, water supplies and wastewater plants, plus spill response (Iowa DNR, Atlantic IA)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/iowa/jobs/5486676/environmental-compliance-specialist",
+        "label": "🔗 Environmental Compliance Specialist — field inspections of feedlots, water supplies and wastewater plants, plus spill response (Iowa DNR, Atlantic IA)"
+      }
+    ],
+    "metaLine": "Atlantic IA · permanent state · $54.4–82k · field inspections + environmental emergency response · BY OCT 1",
+    "body": "Iowa DNR's field office in Atlantic is hiring an Environmental Compliance Specialist to inspect regulated facilities — animal feeding operations, public water supplies and wastewater treatment plants — and respond to environmental emergencies. The minimum requirement is a bachelor's degree in a natural science (or equivalent experience). Pay is $54,350.40–$81,972.80 a year. Apply by October 1, 2026.",
+    "desc": "A permanent, field-based water-quality compliance job that a new natural-science graduate can qualify for. The focus is agricultural and wastewater regulation rather than ecology.",
+    "pills": [
+      "Field inspections",
+      "Water quality",
+      "$54–82k",
+      "Closes Oct 1"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-10-01",
+    "start_date": "2026-11-01",
+    "housing_provided": false,
+    "relocation": "tight"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1713",
+    "title": "Field Crew Leader (AmeriCorps) — leads a 4–5 person habitat restoration crew across Minnesota and Iowa (Conservation Corps Minnesota & Iowa)",
+    "org": "Conservation Corps Minnesota & Iowa · Field Crews",
+    "location": "Minnesota, Iowa and Missouri (regional crews)",
+    "deadline": "October 1, 2026",
+    "badge": "Good fit",
+    "pay": "AmeriCorps living allowance plus Segal Education Award (amount on the application page)",
+    "stipend": "AmeriCorps living allowance (see posting)",
+    "benefits": "AmeriCorps Segal Education Award; ages 18–30 (18–35 for veterans); no more than three prior AmeriCorps terms",
+    "url": "https://www.paycomonline.net/v4/ats/web.php/portal/679BBC2A4E83D729D53DBF5A11F9B126/jobs/86212",
+    "url_label": "Field Crew Leader (AmeriCorps) — leads a 4–5 person habitat restoration crew across Minnesota and Iowa (Conservation Corps Minnesota & Iowa)",
+    "links": [
+      {
+        "href": "https://www.paycomonline.net/v4/ats/web.php/portal/679BBC2A4E83D729D53DBF5A11F9B126/jobs/86212",
+        "label": "🔗 Field Crew Leader (AmeriCorps) — leads a 4–5 person habitat restoration crew across Minnesota and Iowa (Conservation Corps Minnesota & Iowa)"
+      },
+      {
+        "href": "https://conservationcorps.org/join/",
+        "label": "🔗 CCMI open positions"
+      }
+    ],
+    "metaLine": "MN / IA · from Jan 13 2027 · AmeriCorps crew leader · ages 18–30 (she qualifies) · BY OCT 1",
+    "body": "Conservation Corps Minnesota & Iowa is recruiting Field Crew Leaders who lead a crew of four or five AmeriCorps members restoring habitat and managing natural resources, sometimes responding to natural disasters or community needs, and who act as the main contact between project hosts and programme staff. The start date is January 13, 2027 and applications close October 1, 2026. Eligibility is ages 18–30 (18–35 for veterans), US citizen, national or permanent resident, with no more than three prior AmeriCorps terms.",
+    "desc": "Her NCCC service counts as leadership experience here, and she is within the 18–30 age range until she turns 31. CCMI enrols in rounds, so applying by October 1 matters.",
+    "pills": [
+      "AmeriCorps crew leader",
+      "NCCC alumni fit",
+      "Ages 18–30 ✓",
+      "Closes Oct 1"
+    ],
+    "start": "January 13, 2027",
+    "deadline_date": "2026-10-01",
+    "start_date": "2027-01-13",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1714",
+    "title": "Field Specialist (AmeriCorps) — trains and supports field crews on natural-resource projects (Conservation Corps Minnesota & Iowa)",
+    "org": "Conservation Corps Minnesota & Iowa · Field Crews",
+    "location": "Minnesota and Iowa (regional offices)",
+    "deadline": "October 1, 2026",
+    "badge": "Good fit",
+    "pay": "AmeriCorps living allowance plus Segal Education Award (amount on the application page)",
+    "stipend": "AmeriCorps living allowance (see posting)",
+    "benefits": "AmeriCorps Segal Education Award; ages 18–30 (18–35 for veterans)",
+    "url": "https://www.paycomonline.net/v4/ats/web.php/portal/679BBC2A4E83D729D53DBF5A11F9B126/jobs/85316",
+    "url_label": "Field Specialist (AmeriCorps) — trains and supports field crews on natural-resource projects (Conservation Corps Minnesota & Iowa)",
+    "links": [
+      {
+        "href": "https://www.paycomonline.net/v4/ats/web.php/portal/679BBC2A4E83D729D53DBF5A11F9B126/jobs/85316",
+        "label": "🔗 Field Specialist (AmeriCorps) — trains and supports field crews on natural-resource projects (Conservation Corps Minnesota & Iowa)"
+      },
+      {
+        "href": "https://conservationcorps.org/join/",
+        "label": "🔗 CCMI open positions"
+      }
+    ],
+    "metaLine": "MN / IA · from Jan 4 2027 · AmeriCorps training & support role · ages 18–30 · BY OCT 1",
+    "body": "CCMI Field Specialists provide training, education, coordination and leadership to AmeriCorps members and other participants, helping crews succeed through teamwork and service-learning while they complete natural resource service projects. The start date is January 4, 2027 and applications close October 1, 2026. The field-crew programme is open to ages 18–30 (18–35 for veterans).",
+    "desc": "A step up from crew leader that builds on her NCCC background, with an age limit she still meets.",
+    "pills": [
+      "AmeriCorps leadership",
+      "Crew training role",
+      "Ages 18–30 ✓",
+      "Closes Oct 1"
+    ],
+    "start": "January 4, 2027",
+    "deadline_date": "2026-10-01",
+    "start_date": "2027-01-04",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1715",
+    "title": "Field Crew Member (AmeriCorps) — habitat restoration and natural-resource management crews, 2027 season (Conservation Corps Minnesota & Iowa)",
+    "org": "Conservation Corps Minnesota & Iowa · Field Crews",
+    "location": "Minnesota, Iowa and Missouri (regional crews)",
+    "deadline": "October 1, 2026",
+    "badge": "Good fit",
+    "pay": "AmeriCorps living allowance plus Segal Education Award (amount on the application page)",
+    "stipend": "AmeriCorps living allowance (see posting)",
+    "benefits": "AmeriCorps Segal Education Award; ages 18–30 (18–35 for veterans)",
+    "url": "https://www.paycomonline.net/v4/ats/web.php/portal/679BBC2A4E83D729D53DBF5A11F9B126/jobs/86221",
+    "url_label": "Field Crew Member (AmeriCorps) — habitat restoration and natural-resource management crews, 2027 season (Conservation Corps Minnesota & Iowa)",
+    "links": [
+      {
+        "href": "https://www.paycomonline.net/v4/ats/web.php/portal/679BBC2A4E83D729D53DBF5A11F9B126/jobs/86221",
+        "label": "🔗 Field Crew Member (AmeriCorps) — habitat restoration and natural-resource management crews, 2027 season (Conservation Corps Minnesota & Iowa)"
+      },
+      {
+        "href": "https://conservationcorps.org/join/",
+        "label": "🔗 CCMI open positions"
+      }
+    ],
+    "metaLine": "MN / IA · from Feb 1 2027 · AmeriCorps restoration crew · ages 18–30 · BY OCT 1",
+    "body": "CCMI Field Crew Members serve outdoors restoring habitat, managing natural resources and occasionally responding to natural disasters or community needs, on crews across Minnesota, Iowa and Missouri. The 2027 season starts February 1, 2027 and applications close October 1, 2026. Eligibility is ages 18–30 (18–35 for veterans), US citizen, national or permanent resident, with no more than three prior AmeriCorps terms. This round is separate from the MN DNR habitat-enhancement crew already on the list.",
+    "desc": "A restoration crew term she is still age-eligible for, but as an NCCC alumna the crew leader role is the better use of her experience.",
+    "pills": [
+      "AmeriCorps crew",
+      "Habitat restoration",
+      "Ages 18–30 ✓",
+      "Crew leader is a better fit"
+    ],
+    "start": "February 1, 2027",
+    "deadline_date": "2026-10-01",
+    "start_date": "2027-02-01",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1716",
+    "title": "Biological Science Laboratory Technician (Recent Graduate Pathways), GS-7/9 — dairy environmental research unit, Marshfield WI (USDA ARS)",
+    "org": "USDA Agricultural Research Service · U.S. Dairy Forage Research Center · Environmentally Integrated Dairy Management Research Unit · Marshfield, WI",
+    "location": "Marshfield, Wisconsin",
+    "deadline": "September 25, 2026",
+    "badge": "Reach",
+    "pay": "$50,460–$80,243 per year, GS-7/9 (published)",
+    "stipend": "",
+    "benefits": "Federal Pathways Recent Graduate appointment with federal benefits",
+    "url": "https://www.usajobs.gov/job/885422700",
+    "url_label": "Biological Science Laboratory Technician (Recent Graduate Pathways), GS-7/9 — dairy environmental research unit, Marshfield WI (USDA ARS)",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/885422700",
+        "label": "🔗 Biological Science Laboratory Technician (Recent Graduate Pathways), GS-7/9 — dairy environmental research unit, Marshfield WI (USDA ARS)"
+      }
+    ],
+    "metaLine": "Marshfield WI · federal Pathways Recent Graduate GS-7/9 · $50.5–80.2k · agri-environmental lab · CLOSES SEP 25",
+    "body": "USDA's Agricultural Research Service is hiring a Biological Science Laboratory Technician through the Pathways Recent Graduates programme at the Environmentally Integrated Dairy Management Research Unit of the U.S. Dairy Forage Research Center in Marshfield, Wisconsin. The technician applies standard laboratory and research techniques to the unit's research problems. Pathways Recent Graduate positions are for people who completed a qualifying degree within the past two years, which Erin did in May 2025. Pay is $50,460–$80,243 (GS-7/9). The announcement closes September 25, 2026.",
+    "desc": "A federal Pathways job for recent graduates, which is one of the few federal routes that does not require specialized experience, and her GPA may qualify her for GS-7. The research is agricultural rather than ecological, so it is a strategic foot in the door rather than a subject match.",
+    "pills": [
+      "Federal Pathways (recent grad)",
+      "GS-7/9, $50–80k",
+      "Agricultural lab work",
+      "Closes Sep 25"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-09-25",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1717",
+    "title": "Biological Science Laboratory Technician, GS-7/9 (4 positions) — dairy forage and cereal crops research units, Madison WI (USDA ARS)",
+    "org": "USDA Agricultural Research Service · U.S. Dairy Forage Research Center and Cereal Crops Research Unit · Madison, WI",
+    "location": "Madison, Wisconsin",
+    "deadline": "September 25, 2026",
+    "badge": "Reach",
+    "pay": "$50,460–$80,243 per year, GS-7/9 (published)",
+    "stipend": "",
+    "benefits": "Permanent federal position with federal benefits",
+    "url": "https://www.usajobs.gov/job/885517400",
+    "url_label": "Biological Science Laboratory Technician, GS-7/9 (4 positions) — dairy forage and cereal crops research units, Madison WI (USDA ARS)",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/885517400",
+        "label": "🔗 Biological Science Laboratory Technician, GS-7/9 (4 positions) — dairy forage and cereal crops research units, Madison WI (USDA ARS)"
+      }
+    ],
+    "metaLine": "Madison WI · federal GS-7/9 · 4 openings · $50.5–80.2k · agricultural research lab · CLOSES SEP 25",
+    "body": "USDA ARS is filling four Biological Science Laboratory Technician positions in Madison, Wisconsin: two in the U.S. Dairy Forage Research Center's Cell Wall Biology and Utilization Research Unit, one in its Environmentally Integrated Dairy Management Research Unit, and one in the Cereal Crops Research Unit. The technicians carry out laboratory and field research support. Pay is $50,460–$80,243 (GS-7/9). The announcement closes September 25, 2026.",
+    "desc": "Four federal lab openings at once raise her chances of getting a USDA foothold. The research subjects are agricultural, so treat this as a route into federal service rather than a subject match.",
+    "pills": [
+      "USDA federal",
+      "4 openings",
+      "GS-7/9, $50–80k",
+      "Closes Sep 25"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-09-25",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "lead"
   }
 ]
