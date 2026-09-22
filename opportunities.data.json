@@ -11708,7 +11708,7 @@
     ],
     "url": "https://sefs.uw.edu/admissions/graduate-application-process/m-s-and-ph-d-graduate-admissions/",
     "location": "Seattle, WA",
-    "pay": "",
+    "pay": "Funding offers are made at admission (amount not published at programme level) — confirm with the prospective advisor",
     "stipend": "Not published at program level — funding offers made at admission; confirm with the prospective advisor",
     "benefits": "Confirm tuition waiver and health insurance with SEFS graduate admissions",
     "id": "item-263",
@@ -11851,7 +11851,7 @@
     ],
     "url": "https://fwcs.oregonstate.edu/fisheries-and-wildlife/how-apply-ms-or-phd-graduate-program",
     "location": "Corvallis, OR",
-    "pay": "",
+    "pay": "Monthly assistantship salary (amount not published) plus tuition remission — confirm with the prospective advisor",
     "stipend": "Monthly salary on assistantship — amount not published; confirm with the prospective advisor",
     "benefits": "Tuition remission plus institutional contribution toward mandatory fees and graduate assistant health insurance premium",
     "id": "item-266",
@@ -13088,7 +13088,7 @@
     ],
     "url": "https://www.uaf.edu/bw/graduate/graduate-funding/index.php",
     "location": "Fairbanks, AK · Honolulu, HI · Moscow, ID",
-    "pay": "",
+    "pay": "Not published at any of the three programmes — confirm with the prospective advisor",
     "stipend": "Not published at any of the three — confirm with the prospective advisor",
     "benefits": "Assistantships may include tuition waiver, health insurance and fees; confirm per program",
     "id": "item-291",
@@ -20749,7 +20749,7 @@
       "September 15 deadline"
     ],
     "metaLine": "Deadline September 15, 2026 · $32,000/yr funded MS · Great Lakes · East Lansing, Michigan",
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-09-15",
     "region": "Midwest & Great Plains",
@@ -26221,7 +26221,8 @@
     "benefits": "Confirm benefits with the employer",
     "id": "item-597",
     "start_date": "2026-09-15",
-    "relocation": "local"
+    "relocation": "local",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -29172,7 +29173,7 @@
     "org": "U.S. Geological Survey Cooperative Research Units Program · land-grant universities nationwide",
     "location": "Nationwide — units hosted at land-grant universities in most states",
     "deadline": "Rolling — applications reviewed as received",
-    "pay": "",
+    "pay": "Set by each host university — e.g. the Maine unit's STREAM assistantships publish at least $28,000/yr (MS)",
     "stipend": "Set by the host university — as one current example, the Maine unit's STREAM assistantships publish a minimum of $28,000/yr for MS and $31,333/yr for PhD",
     "benefits": "Typically a stipend, tuition credits and partial health/dental coverage; terms set by the host university",
     "badge": "Top recommendation",
@@ -33503,7 +33504,7 @@
       "kind": "s-new",
       "label": "✨ New — August 3, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-09-15",
     "region": "West Coast / Pacific",
@@ -35804,7 +35805,7 @@
       "kind": "s-new",
       "label": "✨ New — August 10, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-09-15",
     "region": "Alaska, Hawaii & Territories",
@@ -35892,7 +35893,7 @@
       "kind": "s-new",
       "label": "✨ New — August 10, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-09-15",
     "region": "Southeast & Appalachia",
@@ -40377,7 +40378,7 @@
       "kind": "s-new",
       "label": "✨ New — August 17, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-09-18",
     "region": "Midwest & Great Plains",
@@ -40959,7 +40960,8 @@
       "Compliance documentation"
     ],
     "start_date": "2026-09-16",
-    "relocation": "local"
+    "relocation": "local",
+    "expired": true
   },
   {
     "type": "Internship",
@@ -40970,7 +40972,7 @@
       "kind": "s-new",
       "label": "✨ New — August 17, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-09-15",
     "region": "Southeast & Appalachia",
@@ -42722,7 +42724,7 @@
       "kind": "s-new",
       "label": "✨ New — August 18, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "pay": "",
     "id": "item-985",
     "deadline_kind": "fixed",
@@ -45299,7 +45301,7 @@
       "kind": "s-new",
       "label": "✨ New — August 24, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-1045",
@@ -45462,7 +45464,8 @@
     "start": "After September 1, 2026 (about 4.75 months)",
     "housing_provided": true,
     "start_date": "2026-09-01",
-    "relocation": "housed"
+    "relocation": "housed",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -47446,7 +47449,8 @@
     "deadline_date": "2026-09-21",
     "start": "Federal onboarding after selection",
     "start_date": "2026-09-21",
-    "relocation": "tight"
+    "relocation": "tight",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -48724,7 +48728,8 @@
     "deadline_date": "2026-09-15",
     "start": "From autumn 2026",
     "start_date": "2026-09-15",
-    "relocation": "tight"
+    "relocation": "tight",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -49511,7 +49516,8 @@
     "deadline_date": "2026-09-18",
     "start": "From autumn 2026",
     "start_date": "2026-09-18",
-    "relocation": "tight"
+    "relocation": "tight",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -50078,7 +50084,7 @@
       "kind": "s-new",
       "label": "✨ New — August 24, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-1157",
@@ -51051,7 +51057,8 @@
     ],
     "start": "after 10/1/2026",
     "relocation": "lead",
-    "deadline_date": "2026-09-15"
+    "deadline_date": "2026-09-15",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -51308,7 +51315,8 @@
     ],
     "start": "after 9/17/2026",
     "relocation": "lead",
-    "deadline_date": "2026-09-17"
+    "deadline_date": "2026-09-17",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -51392,7 +51400,8 @@
     ],
     "start": "between 9/21/2026 and 11/1/2026",
     "relocation": "lead",
-    "deadline_date": "2026-09-21"
+    "deadline_date": "2026-09-21",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -51477,7 +51486,8 @@
     ],
     "start": "after 9/15/2026",
     "relocation": "lead",
-    "deadline_date": "2026-09-15"
+    "deadline_date": "2026-09-15",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -51899,7 +51909,8 @@
     ],
     "start": "after 11/1/2026",
     "relocation": "lead",
-    "deadline_date": "2026-09-15"
+    "deadline_date": "2026-09-15",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -53891,7 +53902,7 @@
       "kind": "s-new",
       "label": "✨ New — August 31, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-1247",
@@ -54050,7 +54061,8 @@
     ],
     "start": "See posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-20"
+    "deadline_date": "2026-09-20",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -54683,7 +54695,8 @@
     ],
     "start": "See posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-15"
+    "deadline_date": "2026-09-15",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -54772,7 +54785,8 @@
     ],
     "start": "See posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-18"
+    "deadline_date": "2026-09-18",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -56210,7 +56224,7 @@
       "kind": "s-new",
       "label": "✨ New — September 7, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-1302",
@@ -56367,7 +56381,8 @@
     ],
     "start": "Between October 1 and December 31, 2026",
     "relocation": "lead",
-    "deadline_date": "2026-09-17"
+    "deadline_date": "2026-09-17",
+    "expired": true
   },
   {
     "type": "Graduate Program",
@@ -56451,7 +56466,8 @@
     ],
     "start": "After September 28, 2026",
     "relocation": "tight",
-    "deadline_date": "2026-09-18"
+    "deadline_date": "2026-09-18",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -56504,7 +56520,7 @@
       "kind": "s-new",
       "label": "✨ New — September 7, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Northeast",
     "id": "item-1309",
@@ -56755,7 +56771,7 @@
       "kind": "s-new",
       "label": "✨ New — September 7, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southwest",
     "id": "item-1315",
@@ -56997,7 +57013,8 @@
     ],
     "start": "See announcement",
     "relocation": "lead",
-    "deadline_date": "2026-09-17"
+    "deadline_date": "2026-09-17",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -57125,7 +57142,8 @@
     ],
     "start": "See announcement",
     "relocation": "lead",
-    "deadline_date": "2026-09-15"
+    "deadline_date": "2026-09-15",
+    "expired": true
   },
   {
     "type": "Internship",
@@ -57136,7 +57154,7 @@
       "kind": "s-new",
       "label": "✨ New — September 7, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "National / Remote / Multiple",
     "id": "item-1324",
@@ -57762,7 +57780,7 @@
       "kind": "s-new",
       "label": "✨ New — September 7, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Northeast",
     "id": "item-1339",
@@ -57804,7 +57822,7 @@
       "kind": "s-new",
       "label": "✨ New — September 7, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Northeast",
     "id": "item-1340",
@@ -57959,7 +57977,8 @@
     ],
     "start": "See announcement",
     "relocation": "local",
-    "deadline_date": "2026-09-16"
+    "deadline_date": "2026-09-16",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -58001,7 +58020,8 @@
     ],
     "start": "See posting",
     "relocation": "local",
-    "deadline_date": "2026-09-18"
+    "deadline_date": "2026-09-18",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -58084,7 +58104,8 @@
     ],
     "start": "See posting",
     "relocation": "local",
-    "deadline_date": "2026-09-15"
+    "deadline_date": "2026-09-15",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -58374,7 +58395,8 @@
     ],
     "start": "Initially at least 13 months, extendable up to four years",
     "relocation": "lead",
-    "deadline_date": "2026-09-18"
+    "deadline_date": "2026-09-18",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -58502,7 +58524,8 @@
     ],
     "start": "Temporary placement · see posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-16"
+    "deadline_date": "2026-09-16",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -58544,7 +58567,8 @@
     ],
     "start": "Temporary placement · see posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-16"
+    "deadline_date": "2026-09-16",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -58629,7 +58653,8 @@
     ],
     "start": "See posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-18"
+    "deadline_date": "2026-09-18",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -58837,7 +58862,8 @@
     ],
     "start": "Permanent position · see posting",
     "relocation": "lead",
-    "deadline_date": "2026-09-17"
+    "deadline_date": "2026-09-17",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -59006,7 +59032,8 @@
     ],
     "start": "12-month limited term",
     "relocation": "lead",
-    "deadline_date": "2026-09-16"
+    "deadline_date": "2026-09-16",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -59389,7 +59416,8 @@
       }
     ],
     "url": "https://landtrustalliance.org/job-board/preserve-manager-northern-california-1787852766685",
-    "url_label": "Land Trust Alliance — Center for Natural Lands Management"
+    "url_label": "Land Trust Alliance — Center for Natural Lands Management",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -59771,7 +59799,8 @@
     "start": "Between November 23 and December 31, 2026",
     "relocation": "lead",
     "deadline_date": "2026-09-21",
-    "start_date": "2026-11-23"
+    "start_date": "2026-11-23",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -59908,7 +59937,8 @@
     "start": "October/November 2026",
     "relocation": "tight",
     "deadline_date": "2026-09-15",
-    "start_date": "2026-10-15"
+    "start_date": "2026-10-15",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -60175,7 +60205,8 @@
     "start": "Around October 1, 2026 (flexible) through ~December 31",
     "relocation": "tight",
     "deadline_date": "2026-09-20",
-    "start_date": "2026-10-01"
+    "start_date": "2026-10-01",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -60222,7 +60253,8 @@
     "start": "Between October 1 and November 1, 2026",
     "relocation": "tight",
     "deadline_date": "2026-09-17",
-    "start_date": "2026-10-15"
+    "start_date": "2026-10-15",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -60269,7 +60301,8 @@
     "start": "October–November 2026 (on-site October–April)",
     "relocation": "local",
     "deadline_date": "2026-09-15",
-    "start_date": "2026-10-01"
+    "start_date": "2026-10-01",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -60316,7 +60349,8 @@
     "start": "After October 12, 2026",
     "relocation": "tight",
     "deadline_date": "2026-09-15",
-    "start_date": "2026-10-12"
+    "start_date": "2026-10-12",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -60595,7 +60629,8 @@
     ],
     "start": "After October 5, 2026",
     "relocation": "local",
-    "deadline_date": "2026-09-21"
+    "deadline_date": "2026-09-21",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -61323,7 +61358,7 @@
       "kind": "s-new",
       "label": "✨ New — September 13, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-1421",
@@ -61808,7 +61843,8 @@
     "start": "Late September or early October 2026",
     "relocation": "tight",
     "deadline_date": "2026-09-21",
-    "start_date": "2026-10-01"
+    "start_date": "2026-10-01",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -61855,7 +61891,8 @@
     "start": "Between September 21 and October 1, 2026",
     "relocation": "tight",
     "deadline_date": "2026-09-21",
-    "start_date": "2026-09-28"
+    "start_date": "2026-09-28",
+    "expired": true
   },
   {
     "type": "Internship",
@@ -62268,7 +62305,7 @@
       "kind": "s-new",
       "label": "✨ New — September 13, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-1442",
@@ -62798,7 +62835,8 @@
     ],
     "start": "On selection",
     "relocation": "local",
-    "deadline_date": "2026-09-16"
+    "deadline_date": "2026-09-16",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -62882,7 +62920,8 @@
     ],
     "start": "On selection · not to exceed 1,039 hours",
     "relocation": "local",
-    "deadline_date": "2026-09-17"
+    "deadline_date": "2026-09-17",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -62924,7 +62963,8 @@
     ],
     "start": "On selection · 13-month term",
     "relocation": "local",
-    "deadline_date": "2026-09-17"
+    "deadline_date": "2026-09-17",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -62966,7 +63006,8 @@
     ],
     "start": "On selection · 13-month term, extendable up to 10 years",
     "relocation": "unknown",
-    "deadline_date": "2026-09-17"
+    "deadline_date": "2026-09-17",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -64179,7 +64220,8 @@
     ],
     "start": "See posting",
     "relocation": "local",
-    "deadline_date": "2026-09-20"
+    "deadline_date": "2026-09-20",
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -64265,7 +64307,8 @@
     ],
     "start": "See posting · limited-term contract",
     "relocation": "unknown",
-    "deadline_date": "2026-09-18"
+    "deadline_date": "2026-09-18",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -64307,7 +64350,8 @@
     ],
     "start": "See posting",
     "relocation": "unknown",
-    "deadline_date": "2026-09-16"
+    "deadline_date": "2026-09-16",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -64349,7 +64393,8 @@
     ],
     "start": "See posting",
     "relocation": "unknown",
-    "deadline_date": "2026-09-18"
+    "deadline_date": "2026-09-18",
+    "expired": true
   },
   {
     "type": "Graduate Program",
@@ -64476,7 +64521,8 @@
     ],
     "start": "See posting",
     "relocation": "unknown",
-    "deadline_date": "2026-09-18"
+    "deadline_date": "2026-09-18",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -64733,7 +64779,8 @@
     ],
     "start": "Up to one year (until permanent positions are filled)",
     "relocation": "unknown",
-    "deadline_date": "2026-09-21"
+    "deadline_date": "2026-09-21",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -64870,7 +64917,7 @@
       "kind": "s-new",
       "label": "✨ New — September 13, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southwest",
     "id": "item-1503",
@@ -65072,7 +65119,8 @@
     ],
     "start": "See posting · 12-month contract",
     "relocation": "unknown",
-    "deadline_date": "2026-09-20"
+    "deadline_date": "2026-09-20",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -65626,7 +65674,8 @@
     "start": "End of September 2026 — full-time to December 2026, then part-time (21 h/wk) January to mid-April 2027",
     "relocation": "unknown",
     "deadline_date": "2026-09-18",
-    "country": "CA"
+    "country": "CA",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -66888,7 +66937,8 @@
     ],
     "start": "",
     "relocation": "unknown",
-    "deadline_date": "2026-09-16"
+    "deadline_date": "2026-09-16",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -66929,7 +66979,8 @@
     ],
     "start": "",
     "relocation": "unknown",
-    "deadline_date": "2026-09-21"
+    "deadline_date": "2026-09-21",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -66970,7 +67021,8 @@
     ],
     "start": "",
     "relocation": "unknown",
-    "deadline_date": "2026-09-17"
+    "deadline_date": "2026-09-17",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -67092,7 +67144,8 @@
     ],
     "start": "",
     "relocation": "unknown",
-    "deadline_date": "2026-09-21"
+    "deadline_date": "2026-09-21",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -67133,7 +67186,8 @@
     ],
     "start": "",
     "relocation": "unknown",
-    "deadline_date": "2026-09-20"
+    "deadline_date": "2026-09-20",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -67174,7 +67228,8 @@
     ],
     "start": "",
     "relocation": "unknown",
-    "deadline_date": "2026-09-21"
+    "deadline_date": "2026-09-21",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -67216,7 +67271,8 @@
     "start": "",
     "relocation": "housed",
     "deadline_date": "2026-09-17",
-    "housing_provided": true
+    "housing_provided": true,
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -67422,7 +67478,8 @@
     ],
     "start": "",
     "relocation": "unknown",
-    "deadline_date": "2026-09-16"
+    "deadline_date": "2026-09-16",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -67463,7 +67520,8 @@
     ],
     "start": "",
     "relocation": "unknown",
-    "deadline_date": "2026-09-20"
+    "deadline_date": "2026-09-20",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -67708,7 +67766,8 @@
     ],
     "start": "",
     "relocation": "unknown",
-    "deadline_date": "2026-09-20"
+    "deadline_date": "2026-09-20",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -67749,7 +67808,8 @@
     ],
     "start": "",
     "relocation": "unknown",
-    "deadline_date": "2026-09-20"
+    "deadline_date": "2026-09-20",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -67913,7 +67973,8 @@
     ],
     "start": "",
     "relocation": "unknown",
-    "deadline_date": "2026-09-21"
+    "deadline_date": "2026-09-21",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -67954,7 +68015,8 @@
     ],
     "start": "",
     "relocation": "unknown",
-    "deadline_date": "2026-09-21"
+    "deadline_date": "2026-09-21",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -67995,7 +68057,8 @@
     ],
     "start": "",
     "relocation": "unknown",
-    "deadline_date": "2026-09-21"
+    "deadline_date": "2026-09-21",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -68118,7 +68181,8 @@
     ],
     "start": "",
     "relocation": "unknown",
-    "deadline_date": "2026-09-21"
+    "deadline_date": "2026-09-21",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -68159,7 +68223,8 @@
     ],
     "start": "",
     "relocation": "unknown",
-    "deadline_date": "2026-09-18"
+    "deadline_date": "2026-09-18",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -68241,7 +68306,8 @@
     ],
     "start": "",
     "relocation": "unknown",
-    "deadline_date": "2026-09-15"
+    "deadline_date": "2026-09-15",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -68710,7 +68776,8 @@
     ],
     "start": "See posting",
     "relocation": "local",
-    "deadline_date": "2026-09-20"
+    "deadline_date": "2026-09-20",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -68752,7 +68819,8 @@
     ],
     "start": "See posting",
     "relocation": "local",
-    "deadline_date": "2026-09-20"
+    "deadline_date": "2026-09-20",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -69179,7 +69247,8 @@
     ],
     "start": "Upon selection",
     "relocation": "local",
-    "deadline_date": "2026-09-17"
+    "deadline_date": "2026-09-17",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -69263,7 +69332,8 @@
     ],
     "start": "Upon selection",
     "relocation": "lead",
-    "deadline_date": "2026-09-17"
+    "deadline_date": "2026-09-17",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -69654,7 +69724,8 @@
     ],
     "start": "Upon selection",
     "relocation": "local",
-    "deadline_date": "2026-09-21"
+    "deadline_date": "2026-09-21",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -69738,7 +69809,8 @@
     ],
     "start": "Upon selection",
     "relocation": "local",
-    "deadline_date": "2026-09-20"
+    "deadline_date": "2026-09-20",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -69780,7 +69852,8 @@
     ],
     "start": "Upon selection",
     "relocation": "local",
-    "deadline_date": "2026-09-19"
+    "deadline_date": "2026-09-19",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -69822,7 +69895,8 @@
     ],
     "start": "Upon selection",
     "relocation": "local",
-    "deadline_date": "2026-09-19"
+    "deadline_date": "2026-09-19",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -69948,7 +70022,8 @@
     ],
     "start": "Upon selection",
     "relocation": "local",
-    "deadline_date": "2026-09-21"
+    "deadline_date": "2026-09-21",
+    "expired": true
   },
   {
     "type": "Graduate Program",
@@ -70880,7 +70955,8 @@
     ],
     "start": "Upon selection",
     "relocation": "local",
-    "deadline_date": "2026-09-17"
+    "deadline_date": "2026-09-17",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -70964,7 +71040,8 @@
     ],
     "start": "Upon selection",
     "relocation": "local",
-    "deadline_date": "2026-09-18"
+    "deadline_date": "2026-09-18",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -71132,7 +71209,8 @@
     ],
     "start": "Upon selection",
     "relocation": "local",
-    "deadline_date": "2026-09-16"
+    "deadline_date": "2026-09-16",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -71174,7 +71252,8 @@
     ],
     "start": "Upon selection",
     "relocation": "local",
-    "deadline_date": "2026-09-18"
+    "deadline_date": "2026-09-18",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -71258,7 +71337,8 @@
     ],
     "start": "Upon selection",
     "relocation": "local",
-    "deadline_date": "2026-09-16"
+    "deadline_date": "2026-09-16",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -71300,7 +71380,8 @@
     ],
     "start": "Upon selection",
     "relocation": "local",
-    "deadline_date": "2026-09-16"
+    "deadline_date": "2026-09-16",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -71342,7 +71423,8 @@
     ],
     "start": "Upon selection (about six months, through March 31, 2027)",
     "relocation": "local",
-    "deadline_date": "2026-09-16"
+    "deadline_date": "2026-09-16",
+    "expired": true
   },
   {
     "type": "Graduate Program",
