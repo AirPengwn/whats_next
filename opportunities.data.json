@@ -72837,5 +72837,661 @@
     "start_date": "2027-01-04",
     "housing_provided": false,
     "relocation": "local"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-1688",
+    "title": "Wildlife Biologist Aide (Elk), 2 positions — elk capture, radio-collaring and telemetry survival monitoring in north-central PA (Pennsylvania Game Commission)",
+    "org": "Pennsylvania Game Commission · Elk Program · Benezette, PA",
+    "location": "Benezette, Pennsylvania (Elk County)",
+    "deadline": "September 30, 2026",
+    "badge": "Strong fit",
+    "pay": "$17.73 per hour (published)",
+    "stipend": "",
+    "benefits": "Limited-term (749-hour) state position; state vehicle provided for work",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=84533",
+    "url_label": "Wildlife Biologist Aide (Elk), 2 positions — elk capture, radio-collaring and telemetry survival monitoring in north-central PA (Pennsylvania Game Commission)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=84533",
+        "label": "🔗 Wildlife Biologist Aide (Elk), 2 positions — elk capture, radio-collaring and telemetry survival monitoring in north-central PA (Pennsylvania Game Commission)"
+      }
+    ],
+    "metaLine": "Benezette PA · Jan–May 2027 · $17.73/hr · elk capture + GPS/radio collars + telemetry · BS, no experience · BY SEP 30",
+    "body": "The Pennsylvania Game Commission is hiring two full-time wildlife biologist aides (749-hour limited term) for its annual elk population and survival monitoring. About 60% of the job is capturing, processing and radio-collaring roughly 40 elk by free darting and clover trapping; about 15% is monitoring collared elk by radio telemetry; and the rest is routine field and data work. Days start very early and involve long drives (in a state vehicle) between trap sites to bait traps and release non-target animals. The positions pay $17.73 an hour from mid-January to about May 1, 2027. The board lists a bachelor's degree with no experience required. Apply by September 30, 2026.",
+    "desc": "Large-mammal capture and telemetry at a state agency, a few hours' drive from Richmond, with no experience required. It is a short winter season, so it combines well with a spring or summer job.",
+    "pills": [
+      "Elk capture + collaring",
+      "Radio telemetry",
+      "BS, no experience",
+      "Closes Sep 30"
+    ],
+    "start": "January 11, 2027 (to about May 1, 2027)",
+    "deadline_date": "2026-09-30",
+    "start_date": "2027-01-11",
+    "housing_provided": false,
+    "relocation": "local"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-1689",
+    "title": "Deer Trapping Technicians (lead + 2 field techs) — sika and white-tailed deer capture and GPS collaring at Blackwater NWR (University of Delaware / Maryland DNR)",
+    "org": "University of Delaware · funded by Maryland Department of Natural Resources · Cambridge, MD",
+    "location": "Blackwater National Wildlife Refuge, Cambridge, Maryland (Eastern Shore)",
+    "deadline": "October 16, 2026",
+    "badge": "Good fit",
+    "pay": "$1,800–$2,100 per month (published)",
+    "stipend": "",
+    "benefits": "Seasonal technician position",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118806",
+    "url_label": "Deer Trapping Technicians (lead + 2 field techs) — sika and white-tailed deer capture and GPS collaring at Blackwater NWR (University of Delaware / Maryland DNR)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118806",
+        "label": "🔗 Deer Trapping Technicians (lead + 2 field techs) — sika and white-tailed deer capture and GPS collaring at Blackwater NWR (University of Delaware / Maryland DNR)"
+      }
+    ],
+    "metaLine": "Cambridge MD · Jan 4–Apr 11 2027 · $1,800–2,100/mo · deer capture with rocket/drop nets + GPS collars · BY OCT 16",
+    "body": "The University of Delaware needs one lead technician and two field technicians for winter trapping of sika and white-tailed deer on Maryland's Eastern Shore, funded by Maryland DNR. The project studies competition between the two species and how it affects their habitat preferences, resource selection and survival. The crew will capture adult females for GPS/VHF collar deployment using rocket nets, drop nets and clover traps, in a demanding season with long hours. It runs from January 4 to April 11, 2027 and pays $1,800–$2,100 a month. The board lists no education or experience requirement. Apply by October 16, 2026.",
+    "desc": "Capture and collaring work on a national wildlife refuge about two and a half hours from Richmond. A good winter field season to add animal-handling experience.",
+    "pills": [
+      "Blackwater NWR",
+      "Capture + GPS collaring",
+      "~2.5 hrs from Richmond",
+      "Closes Oct 16"
+    ],
+    "start": "January 4, 2027 (to April 11, 2027)",
+    "deadline_date": "2026-10-16",
+    "start_date": "2027-01-04",
+    "housing_provided": false,
+    "relocation": "local"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-1690",
+    "title": "Ruffed Grouse Field Technicians — deploy acoustic recorders (AudioMoth, SongMeter) and run vegetation surveys across Pennsylvania (University of Kentucky)",
+    "org": "University of Kentucky · Pennsylvania field crew",
+    "location": "Statewide across Pennsylvania (travelling two-person crew)",
+    "deadline": "March 15, 2027",
+    "badge": "Good fit",
+    "pay": "$650 per week (published)",
+    "stipend": "",
+    "benefits": "Transient housing — cabins and shared field housing, per the posting",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118843",
+    "url_label": "Ruffed Grouse Field Technicians — deploy acoustic recorders (AudioMoth, SongMeter) and run vegetation surveys across Pennsylvania (University of Kentucky)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118843",
+        "label": "🔗 Ruffed Grouse Field Technicians — deploy acoustic recorders (AudioMoth, SongMeter) and run vegetation surveys across Pennsylvania (University of Kentucky)"
+      }
+    ],
+    "metaLine": "Pennsylvania · Mar 29–Jun 13 2027 · $650/wk + field housing · autonomous recording units + vegetation surveys · BY MAR 15",
+    "body": "The University of Kentucky is hiring field technicians to study ruffed grouse in managed timber stands across Pennsylvania. Crews of two will deploy and recover autonomous recording units (AudioMoth, SongMeter and similar) to monitor forest birds across Pennsylvania's mountains, carry out extensive vegetation surveys and enter the data. The season runs from March 29 to June 13, 2027 at $650 a week, with long days, stretches of seven-day weeks and transient housing in cabins or shared field housing. The board lists some college and no experience required. Applications are accepted until March 15, 2027.",
+    "desc": "Passive acoustic monitoring is a close cousin of camera trapping, and housing is included. The season starts in spring 2027, so this is one to plan for rather than rush.",
+    "pills": [
+      "Acoustic monitoring (ARUs)",
+      "🏠 Field housing",
+      "$650/week",
+      "Apply by Mar 15, 2027"
+    ],
+    "start": "March 29, 2027 (to June 13, 2027)",
+    "deadline_date": "2027-03-15",
+    "start_date": "2027-03-29",
+    "housing_provided": true,
+    "relocation": "local"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-1691",
+    "title": "Project Coordinator / Biologist — five-year freshwater mussel restoration in the remediated lower Grasse River (New York State Museum)",
+    "org": "New York State Education Department · New York State Museum · Malacology · Cambridge, NY",
+    "location": "Cambridge, New York (field work on the lower Grasse River, St. Lawrence County)",
+    "deadline": "October 2, 2026",
+    "badge": "Good fit",
+    "pay": "$71,019 per year (published)",
+    "stipend": "",
+    "benefits": "New York State position",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118834",
+    "url_label": "Project Coordinator / Biologist — five-year freshwater mussel restoration in the remediated lower Grasse River (New York State Museum)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118834",
+        "label": "🔗 Project Coordinator / Biologist — five-year freshwater mussel restoration in the remediated lower Grasse River (New York State Museum)"
+      },
+      {
+        "href": "https://nysm.nysed.gov/research-collections/biology/malacology",
+        "label": "🔗 NYS Museum malacology"
+      }
+    ],
+    "metaLine": "Cambridge NY · 5-year project · $71,019 · mussel restoration after river remediation · 2 yrs experience asked · BY OCT 2",
+    "body": "The New York State Museum is hiring a Project Coordinator / Biologist for a five-year project restoring freshwater mussels to remediated areas of the lower Grasse River in St. Lawrence County. The role plans and coordinates fieldwork, collects and processes data and samples, and handles lab work, data management and analysis, and communication with project partners, scientists and the public, keeping the project safe and on schedule. The salary is $71,019 a year. The board lists a bachelor's degree and at least two years of experience. Apply by October 2, 2026.",
+    "desc": "A well-paid, multi-year restoration project in a river cleaned up after industrial contamination, which connects directly to her Pigeon River capstone. It asks for two years of experience.",
+    "pills": [
+      "Post-contamination river restoration",
+      "$71k, 5-year project",
+      "Freshwater mussels",
+      "⚠️ 2 yrs experience asked"
+    ],
+    "start": "Between October 15 and November 12, 2026",
+    "deadline_date": "2026-10-02",
+    "start_date": "2026-10-15",
+    "housing_provided": false,
+    "relocation": "local"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1692",
+    "title": "Turkey Ecology Research Technician — trapping, GPS-tagging, telemetry and nest cameras with Michigan DNR (Michigan State University)",
+    "org": "Michigan State University · with Michigan DNR · East Lansing, MI",
+    "location": "East Lansing, Michigan (field sites in Michigan)",
+    "deadline": "October 1, 2026",
+    "badge": "Good fit",
+    "pay": "Up to $20 per hour (published)",
+    "stipend": "",
+    "benefits": "Temporary research technician position",
+    "url": "https://careers.msu.edu/jobs/professional-aide-in-state-michigan-united-states-a24bd44c-e4ce-4982-8a59-59f65d843264",
+    "url_label": "Turkey Ecology Research Technician — trapping, GPS-tagging, telemetry and nest cameras with Michigan DNR (Michigan State University)",
+    "links": [
+      {
+        "href": "https://careers.msu.edu/jobs/professional-aide-in-state-michigan-united-states-a24bd44c-e4ce-4982-8a59-59f65d843264",
+        "label": "🔗 Turkey Ecology Research Technician — trapping, GPS-tagging, telemetry and nest cameras with Michigan DNR (Michigan State University)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118863",
+        "label": "🔗 TAMU Natural Resources Job Board listing"
+      }
+    ],
+    "metaLine": "Michigan · Nov 2026–Jul 2027 · up to $20/hr · turkey capture, GPS tags, nest cameras · BY OCT 1",
+    "body": "Michigan State University, working with Michigan DNR, is hiring research technicians to trap wild turkeys for GPS transmitter deployment. Duties change through the year: monitoring and baiting capture sites and setting drop and cannon nets (November–February), fitting GPS transmitters in winter, manually tracking tagged birds (winter to late summer), finding and monitoring nests and building camera systems to film them (spring and summer), and running poult surveys to measure survival and recruitment (late summer). Pay is up to $20 an hour, from November 2026 through July 2027. Apply by October 1, 2026.",
+    "desc": "A nine-month season covering capture, telemetry and nest-camera monitoring, which builds on her camera-trap experience. The long season makes the move to Michigan more worthwhile.",
+    "pills": [
+      "Nest cameras",
+      "Capture + GPS telemetry",
+      "9-month season",
+      "Closes Oct 1"
+    ],
+    "start": "November 2026 (through at least July 2027)",
+    "deadline_date": "2026-10-01",
+    "start_date": "2026-11-01",
+    "housing_provided": false,
+    "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1693",
+    "title": "Seasonal Forestry Technician (6 months) — forest inventory and management at Fort McCoy Army installation, WI (Colorado State University CEMML)",
+    "org": "Colorado State University · Center for Environmental Management of Military Lands (CEMML) · Fort McCoy, WI",
+    "location": "Fort McCoy, between Sparta and Tomah, Wisconsin",
+    "deadline": "November 2, 2026",
+    "badge": "Good fit",
+    "pay": "$18.50–$20.00 per hour (published)",
+    "stipend": "",
+    "benefits": "Seasonal hourly position",
+    "url": "https://csusystem.wd12.myworkdayjobs.com/en-US/fortcollins_careers/job/Tomah-WI/Forestry-Technician-Seasonal-Hourly-6-Month-Fort-McCoy--Wisconsin_R2026106680?q=CEMML",
+    "url_label": "Seasonal Forestry Technician (6 months) — forest inventory and management at Fort McCoy Army installation, WI (Colorado State University CEMML)",
+    "links": [
+      {
+        "href": "https://csusystem.wd12.myworkdayjobs.com/en-US/fortcollins_careers/job/Tomah-WI/Forestry-Technician-Seasonal-Hourly-6-Month-Fort-McCoy--Wisconsin_R2026106680?q=CEMML",
+        "label": "🔗 Seasonal Forestry Technician (6 months) — forest inventory and management at Fort McCoy Army installation, WI (Colorado State University CEMML)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118827",
+        "label": "🔗 TAMU Natural Resources Job Board listing"
+      }
+    ],
+    "metaLine": "Fort McCoy WI · Nov 2026–Apr 2027 · $18.50–20/hr · forestry on 60,000-acre Army base · BY NOV 2",
+    "body": "CEMML, a research and service unit of Colorado State University's Warner College of Natural Resources that manages natural and cultural resources on Department of Defense land, is hiring a six-month seasonal forestry technician at Fort McCoy. The installation covers 60,000 acres of hardwood ridges and jack and red pine plantations between Sparta and Tomah in western Wisconsin. The season runs from November 2, 2026 to April 30, 2027 at $18.50–$20.00 an hour. The board lists a bachelor's degree and at least a year of experience. Apply by November 2, 2026.",
+    "desc": "A winter forestry season on military land managed by a university natural-resources unit, which is a common pathway into DoD conservation jobs. Forestry is a side interest for her, so rate it on the experience it adds.",
+    "pills": [
+      "DoD land management",
+      "Winter season",
+      "$18.50–20/hr",
+      "Closes Nov 2"
+    ],
+    "start": "November 2, 2026 (to April 30, 2027)",
+    "deadline_date": "2026-11-02",
+    "start_date": "2026-11-02",
+    "housing_provided": false,
+    "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-1694",
+    "title": "Native Seeds Coordinator — BLM Mojave Native Plant Program, seed collection to restoration (Great Basin Institute Research Associate)",
+    "org": "Great Basin Institute · Research Associate Program · with Bureau of Land Management",
+    "location": "Mojave Desert ecoregion (southern CA, southern NV, southwestern UT, northwestern AZ); remote work allowed per the board",
+    "deadline": "September 30, 2026",
+    "badge": "Good fit",
+    "pay": "$35 per hour (published)",
+    "stipend": "",
+    "benefits": "Great Basin Institute Research Associate",
+    "url": "https://www.paycomonline.net/v4/ats/web.php/portal/A1ADEF5691B02D64E998539442696918/jobs/430338",
+    "url_label": "Native Seeds Coordinator — BLM Mojave Native Plant Program, seed collection to restoration (Great Basin Institute Research Associate)",
+    "links": [
+      {
+        "href": "https://www.paycomonline.net/v4/ats/web.php/portal/A1ADEF5691B02D64E998539442696918/jobs/430338",
+        "label": "🔗 Native Seeds Coordinator — BLM Mojave Native Plant Program, seed collection to restoration (Great Basin Institute Research Associate)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118825",
+        "label": "🔗 TAMU Natural Resources Job Board listing"
+      }
+    ],
+    "metaLine": "Mojave region (remote allowed) · $35/hr · BLM native seed + restoration programme · BS, no experience · BY SEP 30",
+    "body": "Great Basin Institute's Research Associate Program, working with the Bureau of Land Management, is recruiting a Native Seeds Coordinator to oversee native plant materials development for the Mojave Native Plant Program. The ecoregion spans southern California, southern Nevada, southwestern Utah and northwestern Arizona. The coordinator supports every step of the cycle — native seed collection, evaluation and development, field establishment, seed production and certification, seed storage, and restoration of native plant communities — and maintains the region's tracking database. The board lists a bachelor's degree with no experience required, pay of $35 an hour, and remote work allowed. Apply by September 30, 2026.",
+    "desc": "A well-paid coordinator job on a BLM restoration programme that the board lists as open to a new BS graduate. It is plant-focused; check how much of it can really be done remotely.",
+    "pills": [
+      "BLM restoration",
+      "$35/hr",
+      "Remote allowed (per board)",
+      "Closes Sep 30"
+    ],
+    "start": "After October 1, 2026",
+    "deadline_date": "2026-09-30",
+    "start_date": "2026-10-15",
+    "housing_provided": false,
+    "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Alaska, Hawaii & Territories",
+    "id": "item-1695",
+    "title": "Kaua'i Field Coordinator (2-year term) — plan and lead invasive weed control in remote mountain watersheds (The Nature Conservancy, Lihue HI)",
+    "org": "The Nature Conservancy · Hawai'i · Lihue, Kaua'i, HI",
+    "location": "Lihue, Kaua'i, Hawaii (remote mountain camping)",
+    "deadline": "September 27, 2026 (posting may close early once there is a competitive pool)",
+    "badge": "Good fit",
+    "pay": "$57,400–$60,840 per year (published)",
+    "stipend": "",
+    "benefits": "TNC benefits (see posting)",
+    "url": "https://nature.wd108.myworkdayjobs.com/ExternalCareers/job/Lihue-Hawaii/Kaua-i-Field-Coordinator_JR103804",
+    "url_label": "Kaua'i Field Coordinator (2-year term) — plan and lead invasive weed control in remote mountain watersheds (The Nature Conservancy, Lihue HI)",
+    "links": [
+      {
+        "href": "https://nature.wd108.myworkdayjobs.com/ExternalCareers/job/Lihue-Hawaii/Kaua-i-Field-Coordinator_JR103804",
+        "label": "🔗 Kaua'i Field Coordinator (2-year term) — plan and lead invasive weed control in remote mountain watersheds (The Nature Conservancy, Lihue HI)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118790",
+        "label": "🔗 TAMU Natural Resources Job Board listing"
+      }
+    ],
+    "metaLine": "Kaua'i HI · 2-year term · $57.4–60.8k · leads weed control crews, GIS mapping of weeds · APPLY EARLY",
+    "body": "The Nature Conservancy is hiring a Field Coordinator on Kaua'i to plan, coordinate and carry out weed-control operations for natural resource management. The coordinator supervises field staff, interns, contractors and volunteers; scouts and maps weed populations; leads control crews; and manages weed data for TNC and its contractors. The job requires camping in remote mountain areas. It is a two-year term (to November 2028) at $57,400–$60,840 a year. The board lists a high-school diploma and at least a year of experience. TNC asks candidates to apply early and will remove the posting once it has a competitive pool; the board deadline is September 27, 2026.",
+    "desc": "A well-paid two-year non-profit restoration job that includes mapping and crew leadership. Hawaii is a costly move, so weigh the pay against housing costs.",
+    "pills": [
+      "Non-profit (TNC)",
+      "2-year term",
+      "$57.4–60.8k",
+      "Apply early"
+    ],
+    "start": "November 2026 (term to November 2028)",
+    "deadline_date": "2026-09-27",
+    "start_date": "2026-11-01",
+    "housing_provided": false,
+    "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Alaska, Hawaii & Territories",
+    "id": "item-1696",
+    "title": "Invasive Species Field Technician — night surveys and control research on coqui frogs, Big Island (Utah State University), travel and housing covered",
+    "org": "Utah State University · coqui frog research · Hawai'i Island",
+    "location": "Hawaiian Paradise Park, Kea'au, Puna district, Hawai'i Island",
+    "deadline": "November 1, 2026",
+    "badge": "Good fit",
+    "pay": "$14 per hour (published)",
+    "stipend": "",
+    "benefits": "Travel to and on the island and housing provided",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118935",
+    "url_label": "Invasive Species Field Technician — night surveys and control research on coqui frogs, Big Island (Utah State University), travel and housing covered",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118935",
+        "label": "🔗 Invasive Species Field Technician — night surveys and control research on coqui frogs, Big Island (Utah State University), travel and housing covered"
+      }
+    ],
+    "metaLine": "Hawai'i Island · Feb 1–Apr 30 2027 · $14/hr + HOUSING + travel · invasive coqui frog research · BY NOV 1",
+    "body": "A Utah State University MS project is hiring a field technician for 13 weeks (February 1 to April 30, 2027, dates fixed) to research invasive coqui frogs in the Puna district of Hawai'i Island. Strong applicants will be interested in invasion ecology, herpetology and acoustic ecology and in controlling non-native species, and must be willing to euthanise coqui as part of the research and work at night in rainy forest on difficult terrain. The position pays $14 an hour, covers travel to and on the island, and provides housing. Candidates should have or be working towards a relevant BS. Apply by November 1, 2026; contact the MS student listed on the posting with questions.",
+    "desc": "A short, fully housed research season in invasion and acoustic ecology. The hourly pay is low, but travel and housing are covered.",
+    "pills": [
+      "🏠 Housing + travel covered",
+      "Invasive species research",
+      "Acoustic ecology",
+      "$14/hr"
+    ],
+    "start": "February 1, 2027 (to April 30, 2027; dates fixed)",
+    "deadline_date": "2026-11-01",
+    "start_date": "2027-02-01",
+    "housing_provided": true,
+    "relocation": "housed"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-1697",
+    "title": "Fisheries Technician 1 (3 positions) — rotary screw traps for juvenile Chinook and steelhead on the Lower American and Sacramento Rivers (PSMFC)",
+    "org": "Pacific States Marine Fisheries Commission · Sacramento, CA",
+    "location": "Sacramento, California",
+    "deadline": "September 25, 2026",
+    "badge": "Good fit",
+    "pay": "$17.29–$28.22 per hour (published)",
+    "stipend": "",
+    "benefits": "Full-time, benefits-eligible seasonal position",
+    "url": "https://myjobs.adp.com/pacificstatesmarinecareers/cx/job-details?reqId=5001224922100",
+    "url_label": "Fisheries Technician 1 (3 positions) — rotary screw traps for juvenile Chinook and steelhead on the Lower American and Sacramento Rivers (PSMFC)",
+    "links": [
+      {
+        "href": "https://myjobs.adp.com/pacificstatesmarinecareers/cx/job-details?reqId=5001224922100",
+        "label": "🔗 Fisheries Technician 1 (3 positions) — rotary screw traps for juvenile Chinook and steelhead on the Lower American and Sacramento Rivers (PSMFC)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118807",
+        "label": "🔗 TAMU Natural Resources Job Board listing"
+      }
+    ],
+    "metaLine": "Sacramento CA · Oct 2026–Jun 2027 · $17.29–28.22/hr + benefits · salmon outmigration monitoring · BY SEP 25",
+    "body": "Pacific States Marine Fisheries Commission is filling three Fisheries Technician 1 positions on the Lower American River and Sacramento River rotary screw trap projects. Technicians run daily field operations and data collection with the traps to monitor the outmigration of juvenile Chinook salmon and steelhead — identifying fish species, assessing life stage and run, and recording environmental data — as part of a crew following strict safety and data protocols. These are full-time, benefits-eligible seasonal posts from October 19, 2026 through June 2027, paying $17.29–$28.22 an hour. Apply by September 25, 2026.",
+    "desc": "An eight-month, benefits-eligible fisheries monitoring job. It is aquatic monitoring rather than wildlife, and the start is soon for a cross-country move.",
+    "pills": [
+      "8-month season + benefits",
+      "Salmon monitoring",
+      "$17.29–28.22/hr",
+      "Closes Sep 25"
+    ],
+    "start": "October 19, 2026 (to June 2027)",
+    "deadline_date": "2026-09-25",
+    "start_date": "2026-10-19",
+    "housing_provided": false,
+    "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-1698",
+    "title": "Fishery Biologist 1 — crew leader for American River salmon escapement (carcass) surveys, Rancho Cordova CA (PSMFC)",
+    "org": "Pacific States Marine Fisheries Commission · Rancho Cordova, CA",
+    "location": "Rancho Cordova, California (lower American River, Sacramento)",
+    "deadline": "September 30, 2026",
+    "badge": "Good fit",
+    "pay": "$21.71–$34.96 per hour (published)",
+    "stipend": "",
+    "benefits": "Full-time temporary position",
+    "url": "https://myjobs.adp.com/pacificstatesmarinecareers/cx/job-details?reqId=5001216892400",
+    "url_label": "Fishery Biologist 1 — crew leader for American River salmon escapement (carcass) surveys, Rancho Cordova CA (PSMFC)",
+    "links": [
+      {
+        "href": "https://myjobs.adp.com/pacificstatesmarinecareers/cx/job-details?reqId=5001216892400",
+        "label": "🔗 Fishery Biologist 1 — crew leader for American River salmon escapement (carcass) surveys, Rancho Cordova CA (PSMFC)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118937",
+        "label": "🔗 TAMU Natural Resources Job Board listing"
+      }
+    ],
+    "metaLine": "Rancho Cordova CA · Nov 2026, ≤6 months · $21.71–34.96/hr · leads salmon carcass-survey crew · BY SEP 30",
+    "body": "Pacific States Marine Fisheries Commission is recruiting a full-time temporary Fisheries Biologist to lead the crew running salmon escapement (carcass) surveys on the lower American River in Sacramento. The biologist leads a crew of 6–10 technicians on shore- and boat-based surveys, enters and quality-checks data, analyses end-of-season data and writes the annual report. The work involves long days wading uneven terrain and paddling kayaks in swift water. It starts November 2, 2026 and lasts up to six months, at $21.71–$34.96 an hour. The board lists a bachelor's degree and at least a year of experience. Apply by September 30, 2026.",
+    "desc": "A biologist-titled lead role that includes data analysis and report writing, which would strengthen her CV for agency jobs. It expects a year of field experience and some comfort on moving water.",
+    "pills": [
+      "Crew leadership",
+      "Data analysis + report",
+      "$21.71–34.96/hr",
+      "Closes Sep 30"
+    ],
+    "start": "November 2, 2026 (up to 6 months)",
+    "deadline_date": "2026-09-30",
+    "start_date": "2026-11-02",
+    "housing_provided": false,
+    "relocation": "tight"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-1699",
+    "title": "Prescribed Fire Corps Leader — SCA crew with the Forest Service, Angelina-Sabine National Forest TX (Jan–May 2027)",
+    "org": "Student Conservation Association · USFS Region 8 Prescribed Fire Corps · Zavalla, TX",
+    "location": "Angelina-Sabine National Forest, Zavalla, Texas",
+    "deadline": "November 14, 2026",
+    "badge": "Good fit",
+    "pay": "$850 per week (published)",
+    "stipend": "",
+    "benefits": "Includes Forest Service Fire Academy training and certifications",
+    "url": "https://myjobs.adp.com/scacareers/cx/job-details?__tx_annotation=false&_fromPublish=true&reqId=5001225124606",
+    "url_label": "Prescribed Fire Corps Leader — SCA crew with the Forest Service, Angelina-Sabine National Forest TX (Jan–May 2027)",
+    "links": [
+      {
+        "href": "https://myjobs.adp.com/scacareers/cx/job-details?__tx_annotation=false&_fromPublish=true&reqId=5001225124606",
+        "label": "🔗 Prescribed Fire Corps Leader — SCA crew with the Forest Service, Angelina-Sabine National Forest TX (Jan–May 2027)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118879",
+        "label": "🔗 TAMU Natural Resources Job Board listing"
+      }
+    ],
+    "metaLine": "Zavalla TX · Jan 4–May 15 2027 · $850/wk · leads 4-person fire crew · BY NOV 14",
+    "body": "The Student Conservation Association is hiring a crew leader for its 2027 USFS Region 8 Prescribed Fire Corps team in Angelina-Sabine National Forest. The leader heads a crew of four that assists the Forest Service with prescribed burns and other projects. The 19-week season (January 4 – May 15, 2027) opens with two weeks of SCA leader training and season preparation, then two weeks of Forest Service Fire Academy training and certifications with the crew. Pay is $850 a week. The board lists a high-school diploma and at least a year of experience. Apply by November 14, 2026.",
+    "desc": "A paid leadership role where her AmeriCorps NCCC team experience counts directly, plus federal fire qualifications. Prescribed fire is not her main interest, but it is valued on federal land-management applications.",
+    "pills": [
+      "Crew leadership",
+      "USFS fire training",
+      "$850/week",
+      "NCCC experience counts"
+    ],
+    "start": "January 4, 2027 (to May 15, 2027)",
+    "deadline_date": "2026-11-14",
+    "start_date": "2027-01-04",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-1700",
+    "title": "Prescribed Fire Corps Leader — SCA crew with the Forest Service, Sam Houston National Forest TX (Jan–May 2027)",
+    "org": "Student Conservation Association · USFS Region 8 Prescribed Fire Corps · New Waverly, TX",
+    "location": "Sam Houston National Forest, New Waverly, Texas",
+    "deadline": "November 14, 2026",
+    "badge": "Good fit",
+    "pay": "$850 per week (published)",
+    "stipend": "",
+    "benefits": "Includes Forest Service Fire Academy training and certifications",
+    "url": "https://myjobs.adp.com/scacareers/cx/job-details?__tx_annotation=false&_fromPublish=true&reqId=5001225124506",
+    "url_label": "Prescribed Fire Corps Leader — SCA crew with the Forest Service, Sam Houston National Forest TX (Jan–May 2027)",
+    "links": [
+      {
+        "href": "https://myjobs.adp.com/scacareers/cx/job-details?__tx_annotation=false&_fromPublish=true&reqId=5001225124506",
+        "label": "🔗 Prescribed Fire Corps Leader — SCA crew with the Forest Service, Sam Houston National Forest TX (Jan–May 2027)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118878",
+        "label": "🔗 TAMU Natural Resources Job Board listing"
+      }
+    ],
+    "metaLine": "New Waverly TX · Jan 4–May 15 2027 · $850/wk · leads 4-person fire crew · BY NOV 14",
+    "body": "This is the SCA crew-leader post for the 2027 Region 8 Prescribed Fire Corps team in Sam Houston National Forest, north of Houston. The leader heads a four-person crew assisting the Forest Service with prescribed burns and other projects over a 19-week season (January 4 – May 15, 2027), starting with SCA leader training and then two weeks of Forest Service Fire Academy training with the crew. Pay is $850 a week. The board lists a high-school diploma and at least a year of experience. Apply by November 14, 2026.",
+    "desc": "The same crew-leader job as the Angelina-Sabine posting, on a different national forest. She can apply to both.",
+    "pills": [
+      "Crew leadership",
+      "USFS fire training",
+      "$850/week",
+      "Closes Nov 14"
+    ],
+    "start": "January 4, 2027 (to May 15, 2027)",
+    "deadline_date": "2026-11-14",
+    "start_date": "2027-01-04",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 22, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1701",
+    "title": "Prescribed Fire Corps Leader — SCA Region 8 crew with the Forest Service, based in Atlanta GA (Jan–May 2027)",
+    "org": "Student Conservation Association · USFS Region 8 Prescribed Fire Corps · Atlanta, GA",
+    "location": "Atlanta, Georgia (Region 8 national forests)",
+    "deadline": "November 14, 2026",
+    "badge": "Good fit",
+    "pay": "$850 per week (published)",
+    "stipend": "",
+    "benefits": "Includes Forest Service Fire Academy training and certifications",
+    "url": "https://myjobs.adp.com/scacareers/cx/job-details?__tx_annotation=false&_fromPublish=true&reqId=5001224505506",
+    "url_label": "Prescribed Fire Corps Leader — SCA Region 8 crew with the Forest Service, based in Atlanta GA (Jan–May 2027)",
+    "links": [
+      {
+        "href": "https://myjobs.adp.com/scacareers/cx/job-details?__tx_annotation=false&_fromPublish=true&reqId=5001224505506",
+        "label": "🔗 Prescribed Fire Corps Leader — SCA Region 8 crew with the Forest Service, based in Atlanta GA (Jan–May 2027)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118877",
+        "label": "🔗 TAMU Natural Resources Job Board listing"
+      }
+    ],
+    "metaLine": "Atlanta GA · Jan 4–May 15 2027 · $850/wk · leads 4-person fire crew · BY NOV 14",
+    "body": "The Student Conservation Association's Region 8 Prescribed Fire Corps also has a crew-leader opening listed in Atlanta. The leader heads a crew of four assisting the Forest Service with prescribed burns and other projects over a 19-week season (January 4 – May 15, 2027), beginning with SCA leader training and season preparation and then two weeks of Forest Service Fire Academy training and certifications. Pay is $850 a week. The board lists a high-school diploma and at least a year of experience. Apply by November 14, 2026.",
+    "desc": "The Southeast version of the SCA fire crew-leader role, and the one closest to Richmond. Her NCCC team-leading experience is directly relevant.",
+    "pills": [
+      "Crew leadership",
+      "USFS fire training",
+      "$850/week",
+      "Closest to Richmond"
+    ],
+    "start": "January 4, 2027 (to May 15, 2027)",
+    "deadline_date": "2026-11-14",
+    "start_date": "2027-01-04",
+    "housing_provided": false,
+    "relocation": "local"
   }
 ]
