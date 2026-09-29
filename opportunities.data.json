@@ -76357,5 +76357,337 @@
     "start_date": "2027-01-15",
     "housing_provided": false,
     "relocation": "lead"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1765",
+    "title": "Funded MS — freshwater mussel ecology and conservation with the US Forest Service (University of Georgia Odum School of Ecology, Wares lab) — PRE-APPLY BY OCT 1",
+    "org": "University of Georgia · Odum School of Ecology · Wares Lab · with USDA Forest Service Research & Development · Athens, GA",
+    "location": "Athens, Georgia (Great Lakes and southeastern US field sites)",
+    "deadline": "Pre-application due October 1, 2026 (suitability notices by October 16); listing open through October 15",
+    "badge": "Strong fit",
+    "pay": "$24,000–$35,000 per year (published range)",
+    "stipend": "$24,000–$35,000/yr (may vary over the degree)",
+    "benefits": "Graduate assistantship in partnership with USFS R&D (confirm tuition waiver with the lab)",
+    "url": "https://www.wareslab.net",
+    "url_label": "Funded MS — freshwater mussel ecology and conservation with the US Forest Service (University of Georgia Odum School of Ecology, Wares lab) — PRE-APPLY BY OCT 1",
+    "links": [
+      {
+        "href": "https://www.wareslab.net",
+        "label": "🔗 Funded MS — freshwater mussel ecology and conservation with the US Forest Service (University of Georgia Odum School of Ecology, Wares lab) — PRE-APPLY BY OCT 1"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118438",
+        "label": "🔗 Listing on the Texas A&M Natural Resources Job Board"
+      }
+    ],
+    "metaLine": "Athens GA · funded MS, summer/fall 2027 · freshwater mussels (Great Lakes + SE) · $24–35k · PRE-APP DUE OCT 1",
+    "body": "The Odum School of Ecology at the University of Georgia is seeking an M.S. student to start in summer or fall 2027 in Dr. John Wares's research group, in partnership with US Forest Service Research & Development. The project focuses on freshwater mussels in the Great Lakes region and may include comparative work on mussels and their habitats in the southeastern US; the exact scope will depend partly on the funding source and region. The stipend range is $24,000–$35,000 a year and may vary over the degree. Pre-applications — a single PDF with a cover letter on research background, field experience, goals and knowledge of freshwater mussels, plus supporting materials — are required by October 1, 2026, and candidates will hear about suitability by October 16.",
+    "desc": "A funded aquatic-conservation MS tied to the Forest Service, at a top ecology school. The pre-application is due almost immediately, so this is a send-it-this-week item.",
+    "pills": [
+      "⏰ Pre-app Oct 1",
+      "USFS partnership",
+      "Freshwater mussels",
+      "$24–35k"
+    ],
+    "start": "Summer or fall 2027",
+    "deadline_date": "2026-10-15",
+    "start_date": "2027-08-01",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1766",
+    "title": "ORISE Fellowship — alternatives to animal testing for assessing contaminant toxicity to aquatic organisms (EPA Office of Chemical Safety, Cincinnati OH)",
+    "org": "Oak Ridge Institute for Science and Education (ORISE) · U.S. EPA Office of Chemical Safety and Pollution Prevention · A.W. Breidenbach Environmental Research Center · Cincinnati, OH",
+    "location": "Cincinnati, Ohio",
+    "deadline": "November 6, 2026",
+    "badge": "Good fit",
+    "pay": "Monthly stipend commensurate with education and experience (amount not published)",
+    "stipend": "ORISE fellowship stipend (amount not published)",
+    "benefits": "Full-time one-year appointment, renewable up to three to four more years; US citizens and permanent residents only",
+    "url": "https://www.zintellect.com/Opportunity/Details/EPA-OCSPP-IO-2026-0011",
+    "url_label": "ORISE Fellowship — alternatives to animal testing for assessing contaminant toxicity to aquatic organisms (EPA Office of Chemical Safety, Cincinnati OH)",
+    "links": [
+      {
+        "href": "https://www.zintellect.com/Opportunity/Details/EPA-OCSPP-IO-2026-0011",
+        "label": "🔗 ORISE Fellowship — alternatives to animal testing for assessing contaminant toxicity to aquatic organisms (EPA Office of Chemical Safety, Cincinnati OH)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118973",
+        "label": "🔗 Listing on the Texas A&M Natural Resources Job Board"
+      }
+    ],
+    "metaLine": "Cincinnati OH · EPA / ORISE research fellowship · aquatic ecotoxicology, new approach methods · 1 yr renewable · BY NOV 6",
+    "body": "A full-time ORISE research fellowship with EPA's Office of Chemical Safety and Pollution Prevention at the Andrew W. Breidenbach Environmental Research Center in Cincinnati. Because traditional animal testing cannot keep pace with the number of chemicals entering the environment, the project develops and evaluates alternative approaches for assessing the toxicity of environmental contaminants to aquatic organisms to support screening, prioritisation and ecological risk assessment. The appointment is for one year and may be renewed for three to four more; applicants need a bachelor's or master's degree in biology, (eco)toxicology or a related field. The stipend is set by education and experience. Applications may be reviewed on a rolling basis and close November 6, 2026.",
+    "desc": "Contaminant effects on aquatic life connect directly to her Pigeon River trace-metal capstone, and an EPA fellowship is a strong federal credential. It leans lab/computational rather than field.",
+    "pills": [
+      "Federal (EPA)",
+      "Aquatic toxicology",
+      "Renewable up to 5 yrs",
+      "Rolling review"
+    ],
+    "start": "Fall/winter 2026 (flexible)",
+    "deadline_date": "2026-11-06",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1767",
+    "title": "ORISE Fellowship — how chemical exposure disrupts the thyroid system of developing amphibians (EPA Great Lakes lab, Duluth MN)",
+    "org": "Oak Ridge Institute for Science and Education (ORISE) · U.S. EPA Office of Chemical Safety and Pollution Prevention · Great Lakes Coastal Environmental Science Laboratory · Duluth, MN",
+    "location": "Duluth, Minnesota",
+    "deadline": "November 20, 2026",
+    "badge": "Good fit",
+    "pay": "Monthly stipend commensurate with education and experience (amount not published)",
+    "stipend": "ORISE fellowship stipend (amount not published)",
+    "benefits": "Full-time one-year appointment, renewable up to three to four more years; US citizens and permanent residents only",
+    "url": "https://www.zintellect.com/Opportunity/Details/EPA-OSCPP-2026-0010",
+    "url_label": "ORISE Fellowship — how chemical exposure disrupts the thyroid system of developing amphibians (EPA Great Lakes lab, Duluth MN)",
+    "links": [
+      {
+        "href": "https://www.zintellect.com/Opportunity/Details/EPA-OSCPP-2026-0010",
+        "label": "🔗 ORISE Fellowship — how chemical exposure disrupts the thyroid system of developing amphibians (EPA Great Lakes lab, Duluth MN)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119071",
+        "label": "🔗 Listing on the Texas A&M Natural Resources Job Board"
+      }
+    ],
+    "metaLine": "Duluth MN · EPA / ORISE fellowship · amphibian endocrine disruption · 1 yr renewable · BY NOV 20",
+    "body": "A full-time ORISE research fellowship at EPA's Great Lakes Coastal Environmental Science Laboratory in Duluth, Minnesota. EPA is required to assess the endocrine-disrupting potential of thousands of chemicals, most of which lack information on whether they affect thyroid hormone status; this project quantifies the impact of chemical exposure on the thyroid system of developing amphibians. The appointment is for one year, renewable for three to four more. A bachelor's or master's degree in toxicology, biology, fisheries biology or a related field is required (bachelor's candidates may be considered with relevant experience). Applications may be reviewed on a rolling basis and close November 20, 2026.",
+    "desc": "A federal fellowship at EPA's Duluth ecotoxicology lab on contaminant effects in wildlife — a natural next step from her trace-metal capstone, though mostly lab-based.",
+    "pills": [
+      "Federal (EPA)",
+      "Amphibians + contaminants",
+      "Renewable",
+      "Rolling review"
+    ],
+    "start": "Flexible (after October 31, 2026)",
+    "deadline_date": "2026-11-20",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1768",
+    "title": "Assistant Property Manager — habitat management and public use at Deer Creek Fish & Wildlife Area (Indiana DNR, Greencastle IN)",
+    "org": "Indiana Department of Natural Resources · Division of Fish & Wildlife · Deer Creek Fish & Wildlife Area · Greencastle, IN",
+    "location": "Deer Creek Fish & Wildlife Area, Greencastle, Indiana",
+    "deadline": "October 22, 2026",
+    "badge": "Strong fit",
+    "pay": "Starting at $53,222 per year (published)",
+    "stipend": "",
+    "benefits": "State of Indiana benefits package",
+    "url": "https://workforindiana.in.gov/job/Greencastle-Property-Assistant-Manager-IN-46135/1433599500/",
+    "url_label": "Assistant Property Manager — habitat management and public use at Deer Creek Fish & Wildlife Area (Indiana DNR, Greencastle IN)",
+    "links": [
+      {
+        "href": "https://workforindiana.in.gov/job/Greencastle-Property-Assistant-Manager-IN-46135/1433599500/",
+        "label": "🔗 Assistant Property Manager — habitat management and public use at Deer Creek Fish & Wildlife Area (Indiana DNR, Greencastle IN)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119043",
+        "label": "🔗 Listing on the Texas A&M Natural Resources Job Board"
+      }
+    ],
+    "metaLine": "Greencastle IN · permanent state wildlife-area job · BS, no experience minimum · $53,222 · BY OCT 22",
+    "body": "Indiana DNR's Division of Fish & Wildlife is hiring an Assistant Property Manager at Deer Creek Fish & Wildlife Area near Greencastle. Assistant property managers help run a state fish and wildlife area — habitat management, maintaining facilities and equipment, and managing public hunting, fishing and recreational use. The TAMU listing shows a bachelor's degree with no experience minimum, and the starting salary is $53,222 a year with full state benefits. Applications close October 22, 2026.",
+    "desc": "A permanent, benefited state wildlife-area job that asks only for the degree — a realistic first career rung in habitat management.",
+    "pills": [
+      "Permanent state job",
+      "BS, no experience minimum",
+      "$53,222",
+      "Habitat management"
+    ],
+    "start": "After October 26, 2026",
+    "deadline_date": "2026-10-22",
+    "start_date": "2026-11-01",
+    "housing_provided": false,
+    "relocation": "planned"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-1769",
+    "title": "Natural Resources Technician (Early Career Development Program) — eagle nests, camera trapping, bat acoustics and T&E surveys at Altus AFB, OK (Colorado State University CEMML)",
+    "org": "Colorado State University · Center for Environmental Management of Military Lands (CEMML) · Altus Air Force Base, OK",
+    "location": "Altus Air Force Base, Oklahoma",
+    "deadline": "October 9, 2026",
+    "badge": "Strong fit",
+    "pay": "$43,000–$45,000 per year (published)",
+    "stipend": "",
+    "benefits": "Full-time seasonal (not-to-exceed 123 working days); CSU Early Career Development Program training",
+    "url": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Altus-OK/Natural-Resources-Technician---Early-Career-Development-Program--Altus-AFB--OK_R2026107630",
+    "url_label": "Natural Resources Technician (Early Career Development Program) — eagle nests, camera trapping, bat acoustics and T&E surveys at Altus AFB, OK (Colorado State University CEMML)",
+    "links": [
+      {
+        "href": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Altus-OK/Natural-Resources-Technician---Early-Career-Development-Program--Altus-AFB--OK_R2026107630",
+        "label": "🔗 Natural Resources Technician (Early Career Development Program) — eagle nests, camera trapping, bat acoustics and T&E surveys at Altus AFB, OK (Colorado State University CEMML)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119037",
+        "label": "🔗 Listing on the Texas A&M Natural Resources Job Board"
+      }
+    ],
+    "metaLine": "Altus OK · entry-level NR tech (~6 months) · camera trapping, bat acoustics, eagle nests · $43–45k rate · BY OCT 9",
+    "body": "Colorado State University's Center for Environmental Management of Military Lands is hiring a full-time Natural Resources Technician through its Early Career Development Program to support natural resources management at Altus Air Force Base, Oklahoma. The technician may monitor bald eagle nests, run camera trapping with support from the Fish and Wildlife Service, conduct bat acoustic monitoring and other wildlife surveys, and monitor threatened and endangered species. The position is not-to-exceed 123 working days, starting after October 26, 2026, and requires reliable transportation to the base. It asks for a bachelor's degree and about a year of experience; the pay rate is $43,000–$45,000 a year. Applications close October 9, 2026.",
+    "desc": "Camera trapping and acoustic monitoring on federal land through a program designed for early-career staff — a close skills match, though the appointment is only about six months.",
+    "pills": [
+      "Entry-level development program",
+      "Camera trapping",
+      "Bat acoustics",
+      "~6 months"
+    ],
+    "start": "After October 26, 2026 (up to 123 working days)",
+    "deadline_date": "2026-10-09",
+    "start_date": "2026-10-26",
+    "housing_provided": false,
+    "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-1770",
+    "title": "Fisheries Technician 2 — Wild Salmon and Steelhead Program, backcountry field work (Pacific States Marine Fisheries Commission, McCall ID)",
+    "org": "Pacific States Marine Fisheries Commission · Idaho Wild Salmon and Steelhead Program · McCall, ID",
+    "location": "McCall, Idaho",
+    "deadline": "October 9, 2026",
+    "badge": "Good fit",
+    "pay": "$21.61–$31.54 per hour (published)",
+    "stipend": "",
+    "benefits": "Full-time, full-year, benefits-eligible; one-year contract renewable annually",
+    "url": "https://myjobs.adp.com/pacificstatesmarinecareers/cx/job-details?reqId=5001227730100",
+    "url_label": "Fisheries Technician 2 — Wild Salmon and Steelhead Program, backcountry field work (Pacific States Marine Fisheries Commission, McCall ID)",
+    "links": [
+      {
+        "href": "https://myjobs.adp.com/pacificstatesmarinecareers/cx/job-details?reqId=5001227730100",
+        "label": "🔗 Fisheries Technician 2 — Wild Salmon and Steelhead Program, backcountry field work (Pacific States Marine Fisheries Commission, McCall ID)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119041",
+        "label": "🔗 Listing on the Texas A&M Natural Resources Job Board"
+      }
+    ],
+    "metaLine": "McCall ID · full-year benefited fisheries tech · salmon & steelhead monitoring · $21.61–31.54/hr · BY OCT 9",
+    "body": "Pacific States Marine Fisheries Commission is recruiting a Fisheries Technician 2 for the Wild Salmon and Steelhead Program in McCall, Idaho. It is a full-time, full-year, benefits-eligible position on a one-year contract that can be extended annually. Field work runs March through October with long days, 50% or more weekends and frequent multi-day backcountry trips; November through February is mostly weekday office work. The technician provides technical assistance and leadership on program field work. Pay is $21.61–$31.54 an hour; the listing asks for a bachelor's degree and at least a year of experience. Applications close October 9, 2026.",
+    "desc": "A rare year-round, benefited fisheries job rather than a seasonal one, in a mountain town. Salmonid work is outside her core experience, so it is a stretch on skills rather than on level.",
+    "pills": [
+      "Year-round + benefits",
+      "Salmon & steelhead",
+      "Backcountry fieldwork",
+      "$21.61–31.54/hr"
+    ],
+    "start": "After November 2, 2026",
+    "deadline_date": "2026-10-09",
+    "start_date": "2026-11-02",
+    "housing_provided": false,
+    "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-1771",
+    "title": "Ungulate Field Technician — highway right-of-way surveys for deer and pronghorn collisions in Wyoming (University of Montana Boone and Crockett Program)",
+    "org": "University of Montana · Boone and Crockett Wildlife Conservation Program · with Wyoming DOT · Wyoming",
+    "location": "Wyoming highways (truck and motel housing provided)",
+    "deadline": "October 12, 2026",
+    "badge": "Good fit",
+    "pay": "$18 per hour (published)",
+    "stipend": "",
+    "benefits": "Field truck and motel/hotel housing provided while in Wyoming",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119020",
+    "url_label": "Ungulate Field Technician — highway right-of-way surveys for deer and pronghorn collisions in Wyoming (University of Montana Boone and Crockett Program)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119020",
+        "label": "🔗 Ungulate Field Technician — highway right-of-way surveys for deer and pronghorn collisions in Wyoming (University of Montana Boone and Crockett Program)"
+      }
+    ],
+    "metaLine": "Wyoming · short fall tech job mid-Oct–mid-Dec 2026 · ungulate road surveys · $18/hr + housing · BY OCT 12",
+    "body": "The University of Montana's Boone and Crockett Wildlife Conservation Program, working with the Wyoming Department of Transportation, is hiring a technician to test whether right-of-way mitigation — roadside mowing, brush removal and modified fencing — reduces ungulate-vehicle collisions or ungulate use of highway rights-of-way. The technician drives set stretches of highway each morning and evening documenting ungulates in or near the right-of-way and recording road-kills, then enters the data. A field truck and motel housing are provided. The job runs from mid/late October to mid-December 2026 at $18 an hour; applications close October 12, 2026.",
+    "desc": "A short, housed fall gig that fills the gap before winter field seasons and adds large-mammal survey work to her resume.",
+    "pills": [
+      "Housing + truck provided",
+      "Short fall term",
+      "Road-ecology research",
+      "$18/hr"
+    ],
+    "start": "Mid/late October to mid-December 2026",
+    "deadline_date": "2026-10-12",
+    "start_date": "2026-10-19",
+    "housing_provided": true,
+    "relocation": "housed"
   }
 ]
