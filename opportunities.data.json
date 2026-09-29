@@ -77289,5 +77289,333 @@
     "start_date": "2026-11-01",
     "housing_provided": false,
     "relocation": "planned"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1785",
+    "title": "Funded PhD (BS entry) — freshwater mussel health and conservation at the Watters Aquatic Conservation Center (The Ohio State University, EEOB)",
+    "org": "The Ohio State University · Dept. of Evolution, Ecology & Organismal Biology · Watters Aquatic Conservation Center (with Columbus Zoo and Ohio Division of Wildlife) · Columbus, OH",
+    "location": "Columbus, Ohio",
+    "deadline": "November 15, 2026",
+    "badge": "Good fit",
+    "pay": "$2,400 per month (published)",
+    "stipend": "$2,400/month",
+    "benefits": "Funded PhD position (confirm tuition coverage with the department)",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118926",
+    "url_label": "Funded PhD (BS entry) — freshwater mussel health and conservation at the Watters Aquatic Conservation Center (The Ohio State University, EEOB)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118926",
+        "label": "🔗 Funded PhD (BS entry) — freshwater mussel health and conservation at the Watters Aquatic Conservation Center (The Ohio State University, EEOB)"
+      },
+      {
+        "href": "https://eeob.osu.edu/grad/program-admissions",
+        "label": "🔗 OSU EEOB graduate admissions (apply here by Nov 15)"
+      }
+    ],
+    "metaLine": "Columbus OH · funded PhD from a BS, Aug 2027 · mussel health & stress biomarkers · $2,400/mo · apply to EEOB by NOV 15",
+    "body": "The Watters Aquatic Conservation Center — run jointly by The Ohio State University, the Columbus Zoo and Aquarium and the Ohio Division of Wildlife — conducts research, propagation, reintroduction and translocation to slow the loss of freshwater mussel biodiversity. OSU's Department of Evolution, Ecology and Organismal Biology is inviting applications for a funded PhD position on freshwater mussel health and conservation, starting August 2027. A bachelor's degree is accepted and the stipend is $2,400 a month. Apply to the OSU EEOB graduate program by November 15, 2026, and contact the supervising faculty member (Dr. Ieva Roznere) directly.",
+    "desc": "An applied conservation PhD with a zoo and state wildlife-agency partnership, open to BS applicants. Distinct from the Whelan-lab mollusk posting and the phosphorus PhD already on the list.",
+    "pills": [
+      "Accepts BS",
+      "Zoo + state agency partners",
+      "$2,400/mo",
+      "PhD"
+    ],
+    "start": "August 24, 2027",
+    "deadline_date": "2026-11-15",
+    "start_date": "2027-08-24",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-1786",
+    "title": "Fisheries Port Sampler (contract) — headboat catch and biological sampling out of Galveston for NOAA Fisheries (Gulf States Marine Fisheries Commission)",
+    "org": "Gulf States Marine Fisheries Commission · for NOAA Fisheries Southeast Fisheries Science Center · Galveston, TX",
+    "location": "Galveston, Texas",
+    "deadline": "December 1, 2026",
+    "badge": "Good fit",
+    "pay": "$30,000–$40,000 per year (published)",
+    "stipend": "",
+    "benefits": "12-month contract, possible extension depending on funding",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118947",
+    "url_label": "Fisheries Port Sampler (contract) — headboat catch and biological sampling out of Galveston for NOAA Fisheries (Gulf States Marine Fisheries Commission)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118947",
+        "label": "🔗 Fisheries Port Sampler (contract) — headboat catch and biological sampling out of Galveston for NOAA Fisheries (Gulf States Marine Fisheries Commission)"
+      }
+    ],
+    "metaLine": "Galveston TX · 12-month NOAA fisheries contract · headboat catch validation + biological sampling · $30–40k · BY DEC 1",
+    "body": "The Gulf States Marine Fisheries Commission and NOAA Fisheries are seeking contractor support to sample and validate catches and trip reports from recreational headboats fishing the Gulf of America out of the Galveston, Texas area. Duties also include collecting biological samples and effort data from headboats and commercial vessels that fish mainly in the Exclusive Economic Zone. It is a 12-month contract with the Commission, with possible extension depending on funding. The listing asks for a bachelor's with no experience minimum and pays $30,000–$40,000 a year. Contact Larry Beerkircher (lawrence.r.beerkircher@noaa.gov, 305-361-4290, preferred); the listing is open through December 1, 2026.",
+    "desc": "A year of NOAA-linked fisheries data collection that needs only a degree — a federal-adjacent line on her resume.",
+    "pills": [
+      "NOAA fisheries",
+      "BS, no experience minimum",
+      "12-month contract",
+      "$30–40k"
+    ],
+    "start": "Between October and December 2026 (12 months)",
+    "deadline_date": "2026-12-01",
+    "start_date": "2026-11-01",
+    "housing_provided": false,
+    "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-1787",
+    "title": "Fish Culturist (entry-level) — state hatchery fish rearing for sport and native fish restoration (Wyoming Game & Fish, Cheyenne)",
+    "org": "Wyoming Game and Fish Department · Fish Division · Cheyenne, WY",
+    "location": "Cheyenne, Wyoming",
+    "deadline": "October 7, 2026",
+    "badge": "Good fit",
+    "pay": "$5,158.40–$5,730.40 per month (published)",
+    "stipend": "",
+    "benefits": "Wyoming state employee benefits; may include station housing duties",
+    "url": "https://www.governmentjobs.com/careers/wyoming/jobs/5491144",
+    "url_label": "Fish Culturist (entry-level) — state hatchery fish rearing for sport and native fish restoration (Wyoming Game & Fish, Cheyenne)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/wyoming/jobs/5491144",
+        "label": "🔗 Fish Culturist (entry-level) — state hatchery fish rearing for sport and native fish restoration (Wyoming Game & Fish, Cheyenne)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118978",
+        "label": "🔗 Listing on the Texas A&M Natural Resources Job Board"
+      }
+    ],
+    "metaLine": "Cheyenne WY · permanent entry-level state hatchery job · fish culture + native fish restoration · $5.2–5.7k/mo · BY OCT 7",
+    "body": "The Wyoming Game and Fish Department is hiring an entry-level Fish Culturist to support hatchery operations that supply Wyoming's sport fisheries and native fish restoration programmes. The culturist cares for, propagates and rears fish at all life stages in a state hatchery and maintains the facilities, equipment, rearing units, station housing and grounds. WGFD describes the ideal candidate as detail-oriented, dependable and interested in fisheries management, aquaculture and conservation. Pay is $5,158.40–$5,730.40 a month. Applications close October 7, 2026.",
+    "desc": "A permanent, well-paid state job labelled entry-level. Hatchery work is not her focus, but it is a foothold in a state wildlife agency.",
+    "pills": [
+      "Permanent state job",
+      "Entry-level",
+      "$62–69k/yr",
+      "⏰ Closes Oct 7"
+    ],
+    "start": "After October 1, 2026",
+    "deadline_date": "2026-10-07",
+    "start_date": "2026-10-26",
+    "housing_provided": false,
+    "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-1788",
+    "title": "Natural Resource Specialist 1 — timber sale layout with GPS and GIS in north-central Washington (Washington DNR, Loomis WA)",
+    "org": "Washington State Department of Natural Resources · Northeast Region · Loomis, WA",
+    "location": "Loomis, Washington",
+    "deadline": "October 5, 2026",
+    "badge": "Good fit",
+    "pay": "$4,004–$5,376 per month (published)",
+    "stipend": "",
+    "benefits": "Full-time non-permanent represented (WPEA) position, October 2026 – March 2028",
+    "url": "https://www.governmentjobs.com/careers/washington/jobs/5488867",
+    "url_label": "Natural Resource Specialist 1 — timber sale layout with GPS and GIS in north-central Washington (Washington DNR, Loomis WA)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/washington/jobs/5488867",
+        "label": "🔗 Natural Resource Specialist 1 — timber sale layout with GPS and GIS in north-central Washington (Washington DNR, Loomis WA)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118983",
+        "label": "🔗 Listing on the Texas A&M Natural Resources Job Board"
+      }
+    ],
+    "metaLine": "Loomis WA · NRS1, Oct 2026–Mar 2028 · timber sale layout, GPS/GIS terrain analysis · $4.0–5.4k/mo · review ongoing, BY OCT 5",
+    "body": "Washington DNR is hiring a full-time, non-permanent Natural Resource Specialist 1 in Loomis, with anticipated employment from October 2026 to March 2028. The specialist supports the layout of proposed timber sales and silviculture treatments — locating, traversing and marking unit boundaries and property lines, leave-and-take tree marking, and using GPS and GIS for reconnaissance, terrain analysis, logging-system design and traverses. Salary is $4,004–$5,376 a month. Review is ongoing and DNR may close the recruitment at any time after September 28, 2026 (listed through October 5), so apply promptly.",
+    "desc": "An 18-month state natural-resources job that puts GPS and GIS to daily field use; the timber focus is forestry rather than wildlife. Washington counts coursework toward experience.",
+    "pills": [
+      "GIS + GPS fieldwork",
+      "18 months",
+      "$48–65k/yr",
+      "Apply now — may close early"
+    ],
+    "start": "October 2026 (through March 2028)",
+    "deadline_date": "2026-10-05",
+    "start_date": "2026-10-16",
+    "housing_provided": false,
+    "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-1789",
+    "title": "Conservation Analytics Biologist — GIS, spatial and biological data analysis for Catalina Island species and habitat management (Catalina Island Conservancy)",
+    "org": "Catalina Island Conservancy · Conservation Department · Long Beach / Catalina Island, CA",
+    "location": "Long Beach and Catalina Island, California (remote work allowed in part)",
+    "deadline": "November 16, 2026",
+    "badge": "Reach",
+    "pay": "$80,000–$86,000 per year (published)",
+    "stipend": "",
+    "benefits": "Full-time non-profit position",
+    "url": "https://catalinaconservancy.org/get-involved/jobs/",
+    "url_label": "Conservation Analytics Biologist — GIS, spatial and biological data analysis for Catalina Island species and habitat management (Catalina Island Conservancy)",
+    "links": [
+      {
+        "href": "https://catalinaconservancy.org/get-involved/jobs/",
+        "label": "🔗 Conservation Analytics Biologist — GIS, spatial and biological data analysis for Catalina Island species and habitat management (Catalina Island Conservancy)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118984",
+        "label": "🔗 Listing on the Texas A&M Natural Resources Job Board"
+      }
+    ],
+    "metaLine": "Long Beach / Catalina CA · non-profit GIS + conservation data biologist · $80–86k · 2 yrs asked · BY NOV 16",
+    "body": "The Catalina Island Conservancy is hiring a Conservation Analytics Biologist to bridge field ecology with quantitative and computational methods. The role designs, manages and analyses biological and spatial datasets to inform species management, habitat restoration, land-use planning and policy, and also supports the Conservancy's facilities, real estate, recreation and communications teams with GIS. The listing asks for a bachelor's and at least two years of experience, and pays $80,000–$86,000 a year. Applications are open through November 16, 2026.",
+    "desc": "A GIS-centred conservation job at a respected island land trust, and her multi-criteria suitability GIS work is directly relevant — but the two-year experience line and advanced analytics expectations make it a reach.",
+    "pills": [
+      "GIS + conservation data",
+      "Non-profit land trust",
+      "$80–86k",
+      "⚠️ 2 yrs asked"
+    ],
+    "start": "Mid-to-late November 2026",
+    "deadline_date": "2026-11-16",
+    "start_date": "2026-11-16",
+    "housing_provided": false,
+    "relocation": "planned"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-1790",
+    "title": "USGS Student Contractor Fisheries Technician — 12-month Great Lakes fisheries research at the Oswego Biological Station (SUNY Oswego / USGS Great Lakes Science Center)",
+    "org": "SUNY Oswego · for USGS Great Lakes Science Center · Oswego Biological Station · Oswego, NY",
+    "location": "Oswego, New York",
+    "deadline": "October 16, 2026",
+    "badge": "Reach",
+    "pay": "$20.81 per hour (published)",
+    "stipend": "",
+    "benefits": "Full-time 12-month contract, possibly extended one more year",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119039",
+    "url_label": "USGS Student Contractor Fisheries Technician — 12-month Great Lakes fisheries research at the Oswego Biological Station (SUNY Oswego / USGS Great Lakes Science Center)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119039",
+        "label": "🔗 USGS Student Contractor Fisheries Technician — 12-month Great Lakes fisheries research at the Oswego Biological Station (SUNY Oswego / USGS Great Lakes Science Center)"
+      }
+    ],
+    "metaLine": "Oswego NY · USGS Lake Ontario fisheries tech · 12 months from Dec 2026 · $20.81/hr · ⚠️ graduated within 12 months · BY OCT 16",
+    "body": "The USGS Great Lakes Science Center's Oswego Biological Station is hiring a full-time, 12-month Student Contractor to assist with fisheries research on Lake Ontario, hired through SUNY Oswego. The station is looking for a recent graduate (degree within the last 12 months) who wants to broaden research experience before graduate school or a career. Pay is $20.81 an hour for a bachelor's; the preferred start is December 2026 and the position could be extended one more year depending on funding. Applications close October 16, 2026.",
+    "desc": "A USGS research job designed as a bridge to grad school — but the posting asks for a degree within the last 12 months, and Erin graduated in May 2025, so ask before applying.",
+    "pills": [
+      "USGS research",
+      "Pre-grad-school bridge",
+      "$20.81/hr",
+      "⚠️ Recent-grad window"
+    ],
+    "start": "December 2026 (preferred)",
+    "deadline_date": "2026-10-16",
+    "start_date": "2026-12-01",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-1791",
+    "title": "Wildlife Biologist — nuisance wildlife control and trapping for homes, businesses and managed lands (Wildernex LLC, San Antonio TX)",
+    "org": "Wildernex LLC · San Antonio, TX",
+    "location": "San Antonio, Texas",
+    "deadline": "October 16, 2026",
+    "badge": "Good fit",
+    "pay": "$45,000–$85,000 per year (published)",
+    "stipend": "",
+    "benefits": "Private-sector position",
+    "url": "http://www.wildernex.com/",
+    "url_label": "Wildlife Biologist — nuisance wildlife control and trapping for homes, businesses and managed lands (Wildernex LLC, San Antonio TX)",
+    "links": [
+      {
+        "href": "http://www.wildernex.com/",
+        "label": "🔗 Wildlife Biologist — nuisance wildlife control and trapping for homes, businesses and managed lands (Wildernex LLC, San Antonio TX)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119051",
+        "label": "🔗 Listing on the Texas A&M Natural Resources Job Board"
+      }
+    ],
+    "metaLine": "San Antonio TX · private wildlife control biologist · trapping + exclusion · $45–85k · BS, no experience minimum · BY OCT 16",
+    "body": "Wildernex is a family-owned wildlife control company in San Antonio that resolves wildlife conflicts for residential, commercial and managed-land clients, and hires only degreed wildlife biologists. The job involves direct hands-on work with wildlife, trapping and preventive exclusion, with a strong customer-service focus. The listing asks for a bachelor's with no experience minimum and pays $45,000–$85,000 a year. Applications close October 16, 2026.",
+    "desc": "A well-paid private wildlife job that takes a new graduate, with trapping at its core. It is customer-facing conflict work rather than conservation research.",
+    "pills": [
+      "Private sector",
+      "BS, no experience minimum",
+      "$45–85k",
+      "Trapping"
+    ],
+    "start": "After October 12, 2026",
+    "deadline_date": "2026-10-16",
+    "start_date": "2026-10-19",
+    "housing_provided": false,
+    "relocation": "tight"
   }
 ]
