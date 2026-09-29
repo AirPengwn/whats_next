@@ -77617,5 +77617,361 @@
     "start_date": "2026-10-19",
     "housing_provided": false,
     "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-1792",
+    "title": "Biological Science Technician (Fish), GS-5/6 — national fish hatcheries at Saratoga and Jackson, WY (U.S. Fish & Wildlife Service)",
+    "org": "U.S. Fish and Wildlife Service · Region 6 · Saratoga and Jackson National Fish Hatcheries, WY",
+    "location": "Saratoga or Jackson, Wyoming",
+    "deadline": "October 8, 2026",
+    "badge": "Good fit",
+    "pay": "$40,736–$59,031 per year (GS-5/6, published)",
+    "stipend": "",
+    "benefits": "Federal benefits; career ladder to GS-7",
+    "url": "https://www.usajobs.gov/job/886099700",
+    "url_label": "Biological Science Technician (Fish), GS-5/6 — national fish hatcheries at Saratoga and Jackson, WY (U.S. Fish & Wildlife Service)",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/886099700",
+        "label": "🔗 Biological Science Technician (Fish), GS-5/6 — national fish hatcheries at Saratoga and Jackson, WY (U.S. Fish & Wildlife Service)"
+      }
+    ],
+    "metaLine": "Saratoga / Jackson WY · USFWS hatchery tech GS-5/6 (ladder to 7) · open to the public · $40.7–59k · BY OCT 8",
+    "body": "The U.S. Fish and Wildlife Service is filling two Biological Science Technician (Fish) positions in Region 6 — one at Saratoga National Fish Hatchery and one at Jackson National Fish Hatchery in Wyoming — open to the public at GS-5 and GS-6 with a full-performance level of GS-7. Duties include working alone or on a team to provide daily care and husbandry for fish and supporting hatchery operations. Pay is $40,736–$59,031 a year. Applications close October 8, 2026.",
+    "desc": "A permanent-track USFWS job — her target agency — open to the public at a grade her degree can reach. Hatchery husbandry is not her field, but it is a door into the Service.",
+    "pills": [
+      "USFWS",
+      "Open to the public",
+      "Career ladder to GS-7",
+      "⏰ Closes Oct 8"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-10-08",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "planned"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Alaska, Hawaii & Territories",
+    "id": "item-1793",
+    "title": "Biological Science Technician (Wildlife), GS-7 — wildlife damage management in Hawaii and Guam, 13-month term (USDA APHIS Wildlife Services)",
+    "org": "USDA Animal and Plant Health Inspection Service · Wildlife Services · Hilo, HI and Barrigada, Guam",
+    "location": "Hilo, Hawaii or Barrigada, Guam",
+    "deadline": "October 1, 2026",
+    "badge": "Good fit",
+    "pay": "$50,460–$68,485 per year (GS-7, published)",
+    "stipend": "",
+    "benefits": "13-month federal term appointment",
+    "url": "https://www.usajobs.gov/job/886245000",
+    "url_label": "Biological Science Technician (Wildlife), GS-7 — wildlife damage management in Hawaii and Guam, 13-month term (USDA APHIS Wildlife Services)",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/886245000",
+        "label": "🔗 Biological Science Technician (Wildlife), GS-7 — wildlife damage management in Hawaii and Guam, 13-month term (USDA APHIS Wildlife Services)"
+      }
+    ],
+    "metaLine": "Hilo HI / Guam · USDA wildlife tech GS-7, 13-month term · open to the public · $50.5–68.5k · ⏰ CLOSES OCT 1",
+    "body": "USDA APHIS Wildlife Services is hiring Biological Science Technicians (Wildlife) at GS-7 for 13-month appointments in Hilo, Hawaii and Barrigada, Guam, open to the public. Technicians plan, organise and carry out direct control operations to reduce wildlife damage in an assigned area, inspect and survey areas and help revise damage-management programmes, using tools that may include firearms and a range of traps and snares. Pay is $50,460–$68,485 a year. GS-7 can be reached with one year of specialised experience or with a bachelor's degree earned with Superior Academic Achievement (a 3.0+ GPA qualifies — Erin's is 3.73). Applications close October 1, 2026.",
+    "desc": "A USDA wildlife job her GPA can qualify her for at GS-7 — but it closes in two days, involves lethal control, and means relocating to Hawaii or Guam.",
+    "pills": [
+      "USDA",
+      "GS-7 via GPA (SAA)",
+      "Hawaii / Guam",
+      "⏰ Closes Oct 1"
+    ],
+    "start": "Upon selection (13-month term)",
+    "deadline_date": "2026-10-01",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "planned"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-1794",
+    "title": "Natural Resources Specialist (Ranger), GS-5/7/9 — lake projects in the Sacramento District (U.S. Army Corps of Engineers)",
+    "org": "U.S. Army Corps of Engineers · Sacramento District · northern California lake projects",
+    "location": "Orland, Raymond or Smartville, California (multiple lake projects)",
+    "deadline": "October 13, 2026",
+    "badge": "Strong fit",
+    "pay": "$40,736–$88,949 per year (GS-5 to GS-9, published)",
+    "stipend": "",
+    "benefits": "Federal benefits; developmental GS-5/7 positions to full performance at GS-9",
+    "url": "https://www.usajobs.gov/job/886376800",
+    "url_label": "Natural Resources Specialist (Ranger), GS-5/7/9 — lake projects in the Sacramento District (U.S. Army Corps of Engineers)",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/886376800",
+        "label": "🔗 Natural Resources Specialist (Ranger), GS-5/7/9 — lake projects in the Sacramento District (U.S. Army Corps of Engineers)"
+      }
+    ],
+    "metaLine": "Northern CA lakes · USACE natural resources ranger GS-5→9 · open to the public · $40.7–88.9k · BY OCT 13",
+    "body": "The U.S. Army Corps of Engineers Sacramento District is hiring Natural Resources Specialists (Ranger) at several lake projects, open to the public at GS-5, GS-7 and GS-9. At GS-5 and GS-7 the duties are developmental toward GS-9: helping prepare Master Plans and Operational Management Plans for natural resources; conserving, restoring and managing project natural and cultural resources; patrolling project lands and waters; and educating visitors. AmeriCorps service can count as qualifying experience. Pay is $40,736–$88,949 a year. Applications close October 13, 2026.",
+    "desc": "A permanent federal natural-resources career ladder open to the public, where her NCCC service counts as experience — the Corps also runs the wetland regulatory programme she trained for.",
+    "pills": [
+      "Federal (USACE)",
+      "Career ladder to GS-9",
+      "AmeriCorps counts",
+      "Open to the public"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-10-13",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "planned"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1795",
+    "title": "Natural Resources Specialist (Park Ranger), GS-7/9 — Missouri River projects in North and South Dakota (U.S. Army Corps of Engineers, Omaha District)",
+    "org": "U.S. Army Corps of Engineers · Omaha District · Riverdale & Williston ND and Pierre SD",
+    "location": "Riverdale or Williston, North Dakota; Pierre, South Dakota",
+    "deadline": "October 6, 2026",
+    "badge": "Good fit",
+    "pay": "$50,460–$95,969 per year (GS-7 to GS-9, published)",
+    "stipend": "",
+    "benefits": "Federal benefits",
+    "url": "https://www.usajobs.gov/job/885846200",
+    "url_label": "Natural Resources Specialist (Park Ranger), GS-7/9 — Missouri River projects in North and South Dakota (U.S. Army Corps of Engineers, Omaha District)",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/885846200",
+        "label": "🔗 Natural Resources Specialist (Park Ranger), GS-7/9 — Missouri River projects in North and South Dakota (U.S. Army Corps of Engineers, Omaha District)"
+      }
+    ],
+    "metaLine": "ND / SD · USACE natural resources ranger GS-7/9 on the Missouri River · open to the public · $50.5–96k · BY OCT 6",
+    "body": "The Omaha District of the U.S. Army Corps of Engineers is hiring Natural Resources Specialists (Park Ranger) at GS-7 and GS-9 for major Missouri River water-resource projects in Riverdale and Williston, North Dakota, and Pierre, South Dakota, open to the public. Duties include helping develop Master Plans and Operational Management Plans, assisting with land-use plans that integrate public use with fish, wildlife, vegetation, soil and water resources, delivering public education and interpretive programmes, and enforcing Title 36 regulations through visitor education. Pay is $50,460–$95,969 a year. Applications close October 6, 2026.",
+    "desc": "A federal natural-resources job at GS-7, which her bachelor's with a 3.73 GPA may qualify for under Superior Academic Achievement — in remote northern-plains river country.",
+    "pills": [
+      "Federal (USACE)",
+      "GS-7 via GPA (SAA)",
+      "Missouri River",
+      "⏰ Closes Oct 6"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-10-06",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "planned"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1796",
+    "title": "Biological Science Technician, GS-4 — water quality, lake sediment and plankton monitoring on Kansas City District lakes and the Missouri River (U.S. Army Corps of Engineers)",
+    "org": "U.S. Army Corps of Engineers · Kansas City District · Kansas City, MO",
+    "location": "Kansas City, Missouri (travel to district lakes)",
+    "deadline": "October 7, 2026",
+    "badge": "Good fit",
+    "pay": "$37,003–$48,107 per year (GS-4, published)",
+    "stipend": "",
+    "benefits": "Federal benefits",
+    "url": "https://www.usajobs.gov/job/885925200",
+    "url_label": "Biological Science Technician, GS-4 — water quality, lake sediment and plankton monitoring on Kansas City District lakes and the Missouri River (U.S. Army Corps of Engineers)",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/885925200",
+        "label": "🔗 Biological Science Technician, GS-4 — water quality, lake sediment and plankton monitoring on Kansas City District lakes and the Missouri River (U.S. Army Corps of Engineers)"
+      }
+    ],
+    "metaLine": "Kansas City MO · USACE bio tech GS-4 · water quality + lake sediment sampling from boats · open to the public · $37–48k · BY OCT 7",
+    "body": "The Kansas City District of the U.S. Army Corps of Engineers is hiring a Biological Science Technician at GS-4, open to the public. The technician carries out environmental monitoring — water-quality monitoring, zooplankton and macroinvertebrate sampling — as a crew member collecting water-quality and lake-sediment data from boats and bridge crossings at standard stations on district lakes and occasionally the Missouri River. The job involves travel to remote boat ramps with long, often overnight, work days. Pay is $37,003–$48,107 a year. Applications close October 7, 2026.",
+    "desc": "Low grade for her degree, but it is federal water-quality and sediment sampling — the exact skills from her Pigeon River capstone — and a permanent foot in the door.",
+    "pills": [
+      "Federal (USACE)",
+      "Water quality + sediment",
+      "Open to the public",
+      "GS-4 (below her level)"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-10-07",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "planned"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "National / Remote / Multiple",
+    "id": "item-1797",
+    "title": "Forestry Technician (Recreation, Timber, Range), GS-5 — national batch hire across many National Forests, incl. Midwest units in IN, OH, MN and WI (USDA Forest Service)",
+    "org": "USDA Forest Service · multiple National Forests (e.g. Bedford IN; Delaware OH; Deer River and Walker MN; Glidden, Hayward and Madison WI)",
+    "location": "Multiple duty stations nationwide — choose locations when applying",
+    "deadline": "October 5, 2026",
+    "badge": "Good fit",
+    "pay": "$19.52 per hour (GS-5, published)",
+    "stipend": "",
+    "benefits": "Federal Forest Service position",
+    "url": "https://www.usajobs.gov/job/886147500",
+    "url_label": "Forestry Technician (Recreation, Timber, Range), GS-5 — national batch hire across many National Forests, incl. Midwest units in IN, OH, MN and WI (USDA Forest Service)",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/886147500",
+        "label": "🔗 Forestry Technician (Recreation, Timber, Range), GS-5 — national batch hire across many National Forests, incl. Midwest units in IN, OH, MN and WI (USDA Forest Service)"
+      }
+    ],
+    "metaLine": "Nationwide · USFS forestry tech GS-5 batch hire · pick duty stations · open to the public · $19.52/hr · BY OCT 5",
+    "body": "The USDA Forest Service is running a batch hire for Forestry Technicians (Recreation, Timber, Range) at GS-5, open to the public, with duty stations on many National Forests — including Midwest units in Bedford IN, Delaware OH, Deer River and Walker MN, and Glidden, Hayward and Madison WI. Technicians support natural-resource management programmes: timber marking, cruising and scaling, planting, site preparation and timber-stand improvement, and collecting and summarising resource data. Applicants select the duty stations they want. Pay is $19.52 an hour. Applications close October 5, 2026.",
+    "desc": "A broad, public-facing federal on-ramp: one application covers many Forest Service units, and GS-5 is reachable with a bachelor's.",
+    "pills": [
+      "USDA Forest Service",
+      "Many locations",
+      "Open to the public",
+      "⏰ Closes Oct 5"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-10-05",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "planned"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "National / Remote / Multiple",
+    "id": "item-1798",
+    "title": "Forestry Technician, GS-7 — national batch hire; includes a 6-month molecular genetics & aquatics lab tech slot at the Northern Research Station, Rhinelander WI (USDA Forest Service)",
+    "org": "USDA Forest Service · multiple units incl. Northern Research Station, Rhinelander WI",
+    "location": "Multiple duty stations nationwide (Rhinelander, Wisconsin research slot highlighted)",
+    "deadline": "October 5, 2026",
+    "badge": "Good fit",
+    "pay": "$24.18 per hour (GS-7, published)",
+    "stipend": "",
+    "benefits": "Federal Forest Service position",
+    "url": "https://www.usajobs.gov/job/886148100",
+    "url_label": "Forestry Technician, GS-7 — national batch hire; includes a 6-month molecular genetics & aquatics lab tech slot at the Northern Research Station, Rhinelander WI (USDA Forest Service)",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/886148100",
+        "label": "🔗 Forestry Technician, GS-7 — national batch hire; includes a 6-month molecular genetics & aquatics lab tech slot at the Northern Research Station, Rhinelander WI (USDA Forest Service)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119059",
+        "label": "🔗 Listing on the Texas A&M Natural Resources Job Board"
+      }
+    ],
+    "metaLine": "Nationwide / Rhinelander WI · USFS GS-7 batch · aquatics + genetics lab slot (6 months) · $24.18/hr · open to the public · BY OCT 5",
+    "body": "The USDA Forest Service is running a GS-7 batch hire for Forestry Technicians (Recreation, Timber, Range), open to the public. Most positions involve timber cruises and surveys, sale layout and reports and maps. One slot in the batch is a six-month, full-time molecular genetics and aquatics lab technician with the Northern Research Station in Rhinelander, Wisconsin, starting winter 2026–27 — applicants should select Rhinelander, WI as the location and address the USAJOBS duties and qualifications in their application, and can contact the unit for details (see the Texas A&M board listing). Pay is $24.18 an hour. Applications close October 5, 2026.",
+    "desc": "A GS-7 federal job her GPA may qualify her for, with a research-lab slot on aquatic ecology that suits someone heading to grad school.",
+    "pills": [
+      "USDA Forest Service",
+      "GS-7 via GPA (SAA)",
+      "Aquatics lab option",
+      "⏰ Closes Oct 5"
+    ],
+    "start": "Winter 2026–27 (Rhinelander); upon selection elsewhere",
+    "deadline_date": "2026-10-05",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "planned"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-1799",
+    "title": "Natural Resources Specialist (Ranger), GS-5/7/9 — flood-control project natural resources and visitor programs, Peterborough NH (U.S. Army Corps of Engineers, New England District)",
+    "org": "U.S. Army Corps of Engineers · New England District · Peterborough, NH",
+    "location": "Peterborough, New Hampshire",
+    "deadline": "October 8, 2026",
+    "badge": "Strong fit",
+    "pay": "$46,137–$90,882 per year (GS-5 to GS-9, published)",
+    "stipend": "",
+    "benefits": "Federal benefits; direct-hire authority",
+    "url": "https://www.usajobs.gov/job/885980600",
+    "url_label": "Natural Resources Specialist (Ranger), GS-5/7/9 — flood-control project natural resources and visitor programs, Peterborough NH (U.S. Army Corps of Engineers, New England District)",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/885980600",
+        "label": "🔗 Natural Resources Specialist (Ranger), GS-5/7/9 — flood-control project natural resources and visitor programs, Peterborough NH (U.S. Army Corps of Engineers, New England District)"
+      }
+    ],
+    "metaLine": "Peterborough NH · USACE natural resources ranger GS-5→9 · direct hire, open to the public · $46–91k · BY OCT 8",
+    "body": "The New England District of the U.S. Army Corps of Engineers is hiring a Natural Resources Specialist (Ranger) at a small flood-control project in Peterborough, New Hampshire, supported by basin staff, under direct-hire authority and open to the public at GS-5 to GS-9. Duties include carrying out natural resource management programmes, patrolling land and water to enforce regulations, delivering interpretive and environmental education programmes, educating the public on natural resource policy and planning studies. AmeriCorps and volunteer experience count toward qualifying. Pay is $46,137–$90,882 a year. Applications close October 8, 2026.",
+    "desc": "Direct hire (no rating-and-ranking) into a federal natural-resources career ladder, with her AmeriCorps service counting — among the most reachable federal jobs this week.",
+    "pills": [
+      "Direct hire",
+      "Career ladder to GS-9",
+      "AmeriCorps counts",
+      "⏰ Closes Oct 8"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-10-08",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "planned"
   }
 ]
