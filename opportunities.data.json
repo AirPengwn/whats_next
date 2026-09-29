@@ -81752,5 +81752,50 @@
     "start_date": "2026-11-09",
     "housing_provided": false,
     "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Ontario",
+    "id": "item-1883",
+    "title": "Forestry Management Assistant (4 temporary positions) — tree inventory, natural-area restoration support and GIS mapping (City of Mississauga, ON)",
+    "org": "City of Mississauga · Forestry · Mississauga, Ontario",
+    "location": "Mississauga, Ontario, Canada",
+    "deadline": "October 8, 2026",
+    "badge": "Good fit",
+    "pay": "CAD $26.29–$35.06 per hour (published)",
+    "stipend": "",
+    "benefits": "Temporary municipal position through December 31, 2027; Monday–Friday 7:00–3:30",
+    "url": "https://www.goodwork.ca/jobs/urban-forestry-tree-planting-ecology-and-environmental-science-jobs-76741",
+    "url_label": "Forestry Management Assistant (4 temporary positions) — tree inventory, natural-area restoration support and GIS mapping (City of Mississauga, ON)",
+    "links": [
+      {
+        "href": "https://www.goodwork.ca/jobs/urban-forestry-tree-planting-ecology-and-environmental-science-jobs-76741",
+        "label": "🔗 Forestry Management Assistant (4 temporary positions) — tree inventory, natural-area restoration support and GIS mapping (City of Mississauga, ON)"
+      }
+    ],
+    "metaLine": "Mississauga ON 🇨🇦 · 4 temp municipal forestry assistants to Dec 2027 · tree health, restoration support, GIS · CAD $26.29–35.06/hr · BY OCT 8",
+    "body": "The City of Mississauga is hiring four temporary Forestry Management Assistants (planning and permits, resource management, and capital delivery) through December 31, 2027. Duties include recommending tree-planting locations and species in road allowances and parks, responding to resident requests, auditing contractor work orders in the field, assessing the health of existing and newly planted trees, supporting natural-area restoration by assessing field conditions such as wildlife and invasive species, screening development applications for natural-heritage impacts, and updating GIS maps. Pay is CAD $26.29–$35.06 an hour, Monday to Friday. Applications close October 8, 2026.",
+    "desc": "An entry-level Canadian field-plus-GIS role with restoration work; as a municipal temporary job it is not a CUSMA-eligible route, so she would need an IEC working-holiday permit.",
+    "pills": [
+      "🇨🇦 Ontario",
+      "Field + GIS",
+      "CAD $26–35/hr",
+      "Needs IEC open permit"
+    ],
+    "start": "Upon selection (through December 31, 2027)",
+    "deadline_date": "2026-10-08",
+    "start_date": "2026-11-01",
+    "housing_provided": false,
+    "relocation": "planned",
+    "country": "CA"
   }
 ]
