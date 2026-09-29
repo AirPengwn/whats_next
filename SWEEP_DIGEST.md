@@ -1,15 +1,15 @@
 # Weekly opportunity sweep — 2026-09-29
 
 **Added 7 new** opportunities:
-- Biological and Invasive Species Technician — 52-week desert-wetland invasive mapping and treatment, plus duck and songbird banding, at Pahranagat NWR (Great Basin Institute with USFWS) — _Strong_ · Southwest · deadline: Rolling — open until filled (start Sept/Oct 2026)
-- Biological Science Technician — AmeriCorps individual placement at Sevilleta NWR: wetland water management, waterfowl counts, restoration and tortoise releases (Conservation Corps New Mexico) — _Strong_ · Southwest · deadline: First review October 5, 2026; open until filled
-- Biology Support Member — population surveys, invasive ungulate removal planning and habitat restoration at Sevilleta NWR (American Conservation Experience EPIC with USFWS) — _Good_ · Southwest · deadline: Rolling — posted September 28, 2026, open until filled
-- Natural Resources Member (2 openings) — integrated pest management and vegetation restoration with BLM Cedar City Field Office (American Conservation Experience EPIC) — _Good_ · Mountain West · deadline: Rolling — posted September 28, 2026, open until filled
-- Coastal Resources Program Specialist 1–3 — project support for coastal wetland restoration and protection programs (Louisiana CPRA, Baton Rouge) — _Good_ · Southeast & Appalachia · deadline: About October 6, 2026 (listing showed "closes in 1 week" on Sept 29 — confirm the exact date)
-- Chesapeake Gateways Ambassador — 50-week AmeriCorps placement at Prince William Forest Park, VA (Appalachian Conservation Corps with the National Park Service) — _Good_ · Southeast & Appalachia · deadline: Not published — the term starts November 30, 2026, so apply soon
-- Chesapeake Gateways Ambassador — 50-week AmeriCorps placement at Fort Monroe National Monument, Hampton VA (Appalachian Conservation Corps with the National Park Service) — _Good_ · Southeast & Appalachia · deadline: Not published — the term starts November 30, 2026, so apply soon
+- Biological Science Technician (Wildlife), GS-7 — wildlife surveys, population management and capture on Oahu refuges (U.S. Fish & Wildlife Service, Honolulu) — _Strong_ · Alaska, Hawaii & Territories · deadline: October 2, 2026
+- Park Ranger, GS-5 — visitor services, interpretation and resource management projects at Cottage Grove Lake (U.S. Army Corps of Engineers, Portland District) — _Good_ · West Coast / Pacific · deadline: October 6, 2026
+- Scientific Aid, Central Region Inland Lands Unit — live-trapping threatened & endangered animals, camera-trap deployment and analysis, habitat management (California Dept. of Fish and Wildlife, Fresno) — _Excellent_ · West Coast / Pacific · deadline: October 13, 2026
+- Fish and Wildlife Scientific Aid — North Yuba spring-run Chinook salmon reintroduction monitoring: screw traps, telemetry and snorkel surveys (California Dept. of Fish and Wildlife) — _Good_ · West Coast / Pacific · deadline: October 6, 2026
+- Fish and Wildlife Scientific Aid — invasive nutria survey, detection and trapping to protect wetlands (California Dept. of Fish and Wildlife, Merced County) — _Strong_ · West Coast / Pacific · deadline: October 8, 2026
+- Fish and Wildlife Scientific Aid — invasive nutria survey, detection and trapping to protect wetlands (California Dept. of Fish and Wildlife, Fresno County) — _Strong_ · West Coast / Pacific · deadline: October 8, 2026
+- Wildlife Coexistence Intern — human-wildlife conflict work with black bears, mountain lions and beavers (California Dept. of Fish and Wildlife, Northern Region, Shasta County) — _Good_ · West Coast / Pacific · deadline: October 5, 2026
 
 **Updated 0** (deadline / status / description changed).
 
-**Total opportunities:** 1805  ·  next-cycle: 501  ·  expired (one-time, no future cycle): 383
+**Total opportunities:** 1812  ·  next-cycle: 501  ·  expired (one-time, no future cycle): 383
 Triage: passed-but-recurring → `cycle:"next"`; one-time/discontinued → `expired:true`. Passed/expired are hidden on the site by default (toggle to show); never deleted, never moved to the personal Archive. Fit tiers: _Excellent_ / _Strong_ / _Good_ / _Reach / review_ (set via each entry's badge). The Browse pages render from this data automatically — no HTML edits. Nothing is live until this PR is merged.
