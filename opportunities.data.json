@@ -81401,5 +81401,137 @@
     "start_date": "2027-05-19",
     "housing_provided": false,
     "relocation": "lead"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-1877",
+    "title": "Conservation Assistant — VHCB AmeriCorps year on water quality, soil health and flood resilience with farmers (Windham County Natural Resources Conservation District, Brattleboro VT)",
+    "org": "Windham County Natural Resources Conservation District · via Vermont Housing & Conservation Board AmeriCorps · Brattleboro, VT",
+    "location": "Brattleboro, Vermont",
+    "deadline": "November 30, 2026",
+    "badge": "Good fit",
+    "pay": "$31,000 living allowance plus $7,395 education award (published)",
+    "stipend": "$31,000 AmeriCorps living allowance",
+    "benefits": "Segal AmeriCorps Education Award $7,395",
+    "url": "https://www.conservationjobboard.com/job-listing-conservation-assistant-brattleboro-vermont/4050327292",
+    "url_label": "Conservation Assistant — VHCB AmeriCorps year on water quality, soil health and flood resilience with farmers (Windham County Natural Resources Conservation District, Brattleboro VT)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-conservation-assistant-brattleboro-vermont/4050327292",
+        "label": "🔗 Conservation Assistant — VHCB AmeriCorps year on water quality, soil health and flood resilience with farmers (Windham County Natural Resources Conservation District, Brattleboro VT)"
+      }
+    ],
+    "metaLine": "Brattleboro VT · VHCB AmeriCorps year · water quality + flood resilience outreach, farm soil sampling · $31k + $7,395 award · BY NOV 30",
+    "body": "The Windham County Natural Resources Conservation District is hosting a Vermont Housing & Conservation Board AmeriCorps Conservation Assistant in Brattleboro. The member leads community outreach on water quality, soil health and flood resilience, with farm soil sampling and invasive plant removal as secondary duties. It is listed at zero to one year of experience. The living allowance is $31,000 plus a $7,395 education award. Applications close November 30, 2026.",
+    "desc": "A watershed-focused AmeriCorps year at a conservation district with a generous education award she could put toward grad school.",
+    "pills": [
+      "AmeriCorps (no age cap)",
+      "Watershed + soil",
+      "$31k + $7,395 award",
+      "Conservation district"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-11-30",
+    "start_date": "2027-01-04",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Northeast",
+    "id": "item-1878",
+    "title": "Riparian Lands Seed Steward — VHCB AmeriCorps year on riparian restoration in the Northeast Kingdom (NorthWoods Stewardship Center, East Charleston VT)",
+    "org": "NorthWoods Stewardship Center · via Vermont Housing & Conservation Board AmeriCorps · East Charleston, VT",
+    "location": "East Charleston, Vermont (Northeast Kingdom)",
+    "deadline": "Rolling — open until filled",
+    "badge": "Good fit",
+    "pay": "$31,000 living allowance plus education award (published)",
+    "stipend": "$31,000 AmeriCorps living allowance",
+    "benefits": "Segal AmeriCorps Education Award",
+    "url": "https://www.conservationjobboard.com/job-listing-riparian-lands-seed-steward-east-charleston-vermont/1579900206",
+    "url_label": "Riparian Lands Seed Steward — VHCB AmeriCorps year on riparian restoration in the Northeast Kingdom (NorthWoods Stewardship Center, East Charleston VT)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-riparian-lands-seed-steward-east-charleston-vermont/1579900206",
+        "label": "🔗 Riparian Lands Seed Steward — VHCB AmeriCorps year on riparian restoration in the Northeast Kingdom (NorthWoods Stewardship Center, East Charleston VT)"
+      }
+    ],
+    "metaLine": "East Charleston VT · VHCB AmeriCorps year · riparian restoration + native seed · $31k + award · rolling",
+    "body": "NorthWoods Stewardship Center is hosting a Vermont Housing & Conservation Board AmeriCorps Riparian Lands Seed Steward in East Charleston, in Vermont's Northeast Kingdom. The restoration-focused service year works on riparian lands, using heavy tools and organisation vehicles. The living allowance is $31,000 plus an education award. The position is open until filled.",
+    "desc": "Hands-on riparian restoration service with a conservation non-profit — watershed restoration in practice.",
+    "pills": [
+      "AmeriCorps",
+      "Riparian restoration",
+      "Non-profit host",
+      "$31k"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-11-30",
+    "start_date": "2027-01-04",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-1879",
+    "title": "Resilience Corps Fellow — public-service fellowship with Maine municipalities and non-profits on natural-resource and resilience projects (Maine Resilience Corps, Portland)",
+    "org": "Maine Resilience Corps · host municipalities and non-profits · Portland, ME",
+    "location": "Portland, Maine (host sites vary)",
+    "deadline": "October 30, 2026",
+    "badge": "Good fit",
+    "pay": "$28,000 per year (published)",
+    "stipend": "",
+    "benefits": "Service fellowship; listed at 0–1 years of experience",
+    "url": "https://www.conservationjobboard.com/job-listing-resilience-corps-fellow-portland-maine/8066667913",
+    "url_label": "Resilience Corps Fellow — public-service fellowship with Maine municipalities and non-profits on natural-resource and resilience projects (Maine Resilience Corps, Portland)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-resilience-corps-fellow-portland-maine/8066667913",
+        "label": "🔗 Resilience Corps Fellow — public-service fellowship with Maine municipalities and non-profits on natural-resource and resilience projects (Maine Resilience Corps, Portland)"
+      }
+    ],
+    "metaLine": "Portland ME · resilience service fellowship · municipal / non-profit placements · $28k · BY OCT 30",
+    "body": "The Maine Resilience Corps is recruiting fellows for a public-service year placed with Maine municipalities and non-profits on projects that can include natural resources, sustainability and infrastructure resilience. It is listed at zero to one year of experience. The fellowship pays $28,000. Applications close October 30, 2026.",
+    "desc": "A service-year option that can include natural-resource placements; the fit depends on which host project she lands.",
+    "pills": [
+      "Service fellowship",
+      "Placement varies",
+      "$28k",
+      "0–1 yrs"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-10-30",
+    "start_date": "2027-01-04",
+    "housing_provided": false,
+    "relocation": "lead"
   }
 ]
