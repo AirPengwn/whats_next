@@ -76025,5 +76025,337 @@
     "start_date": "2026-11-01",
     "housing_provided": false,
     "relocation": "planned"
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-1758",
+    "title": "ORISE Fellowship — evaluating deterrent systems to reduce bat deaths at energy infrastructure (USDA Forest Service, Arcata CA)",
+    "org": "Oak Ridge Institute for Science and Education (ORISE) · USDA Forest Service Pacific Northwest Research Station · Arcata, CA",
+    "location": "Arcata, California",
+    "deadline": "October 9, 2026",
+    "badge": "Strong fit",
+    "pay": "Monthly ORISE stipend (amount not published on the listing)",
+    "stipend": "ORISE fellowship stipend (amount not published)",
+    "benefits": "Full-time 8-month appointment, may be extended",
+    "url": "https://www.zintellect.com/Opportunity/Details/USDA-FS-PSWRS-2026-0359",
+    "url_label": "ORISE Fellowship — evaluating deterrent systems to reduce bat deaths at energy infrastructure (USDA Forest Service, Arcata CA)",
+    "links": [
+      {
+        "href": "https://www.zintellect.com/Opportunity/Details/USDA-FS-PSWRS-2026-0359",
+        "label": "🔗 ORISE Fellowship — evaluating deterrent systems to reduce bat deaths at energy infrastructure (USDA Forest Service, Arcata CA)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119067",
+        "label": "🔗 Listing on the Texas A&M Natural Resources Job Board"
+      }
+    ],
+    "metaLine": "Arcata CA · ORISE / USFS research fellowship · bat deterrents at energy sites · 8 months, full-time · rolling, closes Oct 9",
+    "body": "A full-time ORISE fellowship with the USDA Forest Service in Arcata, California, on a project testing infrastructure modifications meant to reduce bat fatalities at energy facilities. The work evaluates two forest-obligate bat species found on every National Forest — the two most often killed by energy infrastructure — through observational studies of how bats interact with the modified structures. The appointment is initially 8 months and may be extended; applicants need a bachelor's or master's degree in a relevant field received within the past five years, with mist-netting of bats or birds and large-dataset management listed as preferred skills. Applications are reviewed on a rolling basis and close October 9, 2026.",
+    "desc": "A Forest Service research fellowship for recent graduates — she is well inside the five-year window — on applied wildlife conservation. Mist-net experience is preferred, so lead with her small-mammal and camera-trap fieldwork.",
+    "pills": [
+      "Federal (USFS) research",
+      "Recent-grad fellowship",
+      "Bat conservation",
+      "Rolling review"
+    ],
+    "start": "Flexible (after October 31, 2026)",
+    "deadline_date": "2026-10-09",
+    "start_date": "2026-11-01",
+    "housing_provided": false,
+    "relocation": "tight"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-1759",
+    "title": "Biological Field Technician — AmeriCorps individual placement on Fort Hood natural resources (Conservation Corps New Mexico, Killeen TX)",
+    "org": "Conservation Legacy · Conservation Corps New Mexico · Fort Hood Installation · Killeen, TX",
+    "location": "Fort Hood (Fort Cavazos), Killeen, Texas",
+    "deadline": "October 31, 2026",
+    "badge": "Strong fit",
+    "pay": "$890 per week living allowance (published)",
+    "stipend": "$890/week AmeriCorps living allowance",
+    "benefits": "AmeriCorps 675-hour Segal Education Award; 18-week term",
+    "url": "https://secure.entertimeonline.com/ta/conservationlegacy.careers?ShowJob=738761664",
+    "url_label": "Biological Field Technician — AmeriCorps individual placement on Fort Hood natural resources (Conservation Corps New Mexico, Killeen TX)",
+    "links": [
+      {
+        "href": "https://secure.entertimeonline.com/ta/conservationlegacy.careers?ShowJob=738761664",
+        "label": "🔗 Biological Field Technician — AmeriCorps individual placement on Fort Hood natural resources (Conservation Corps New Mexico, Killeen TX)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119054",
+        "label": "🔗 Listing on the Texas A&M Natural Resources Job Board"
+      }
+    ],
+    "metaLine": "Killeen TX · AmeriCorps IP, Feb 16–Jun 18 2027 · $890/wk · biological field surveys on a military installation · first review Oct 12",
+    "body": "Conservation Corps New Mexico is filling two Biological Field Technician individual placements with the natural resources program at the Fort Hood installation near Killeen, Texas. The 18-week, 675-hour AmeriCorps term runs February 16 to June 18, 2027, supporting biological field survey and monitoring work on the installation's lands. The living allowance is $890 a week, with a Segal AmeriCorps Education Award on completion. A cover letter and resume are required; first review of applications is October 12, 2026 and the position is open until filled (listing closes October 31).",
+    "desc": "A well-paid AmeriCorps biological technician term on military conservation lands, the same DoD natural-resources niche as the CEMML jobs. As an NCCC alumna she knows the AmeriCorps system already.",
+    "pills": [
+      "AmeriCorps IP",
+      "$890/week",
+      "DoD natural resources",
+      "First review Oct 12"
+    ],
+    "start": "February 16 – June 18, 2027",
+    "deadline_date": "2026-10-31",
+    "start_date": "2027-02-16",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-1760",
+    "title": "Invasive Species Specialist — AmeriCorps individual placement at Trinity River National Wildlife Refuge (Conservation Corps New Mexico, Liberty TX)",
+    "org": "Conservation Legacy · Conservation Corps New Mexico · U.S. Fish & Wildlife Service Trinity River NWR · Liberty, TX",
+    "location": "Trinity River National Wildlife Refuge, Liberty, Texas",
+    "deadline": "November 30, 2026",
+    "badge": "Strong fit",
+    "pay": "$640 per week living allowance (published)",
+    "stipend": "$640/week AmeriCorps living allowance",
+    "benefits": "AmeriCorps 900-hour Segal Education Award; 26-week term",
+    "url": "https://secure.entertimeonline.com/ta/conservationlegacy.careers?ShowJob=738757889",
+    "url_label": "Invasive Species Specialist — AmeriCorps individual placement at Trinity River National Wildlife Refuge (Conservation Corps New Mexico, Liberty TX)",
+    "links": [
+      {
+        "href": "https://secure.entertimeonline.com/ta/conservationlegacy.careers?ShowJob=738757889",
+        "label": "🔗 Invasive Species Specialist — AmeriCorps individual placement at Trinity River National Wildlife Refuge (Conservation Corps New Mexico, Liberty TX)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118980",
+        "label": "🔗 Listing on the Texas A&M Natural Resources Job Board"
+      }
+    ],
+    "metaLine": "Liberty TX · USFWS refuge · AmeriCorps IP Jan 25–Jul 23 2027 · $640/wk · invasive species control · first review Oct 6",
+    "body": "Conservation Corps New Mexico has two Invasive Species Specialist individual placements with the U.S. Fish and Wildlife Service at Trinity River National Wildlife Refuge in Liberty, Texas. The 26-week, 900-hour AmeriCorps term runs January 25 to July 23, 2027, working on invasive species control on the refuge. The living allowance is $640 a week, with a Segal Education Award on completion. A cover letter and resume are required; first review is October 6, 2026 and the position stays open until filled (listing through November 30).",
+    "desc": "Six months inside a USFWS refuge is one of the most direct routes into Fish and Wildlife Service work, and AmeriCorps service on public lands can earn Public Land Corps hiring eligibility.",
+    "pills": [
+      "USFWS refuge",
+      "AmeriCorps IP",
+      "Invasive species",
+      "First review Oct 6"
+    ],
+    "start": "January 25 – July 23, 2027",
+    "deadline_date": "2026-11-30",
+    "start_date": "2027-01-25",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1761",
+    "title": "Black Rail Field Technician — secretive marsh bird call-back surveys in Everglades NP and Big Cypress (Center for Conservation Biology, William & Mary)",
+    "org": "Center for Conservation Biology · William & Mary / Virginia Commonwealth University · Everglades National Park & Big Cypress National Preserve, FL",
+    "location": "Everglades National Park and Big Cypress National Preserve, Florida",
+    "deadline": "January 31, 2027",
+    "badge": "Good fit",
+    "pay": "Up to $15.50 per hour (published)",
+    "stipend": "",
+    "benefits": "Seasonal field position, February 15 – May 15, 2027",
+    "url": "https://williammary.wd12.myworkdayjobs.com/WM/job/William--Mary/Black-Rail-Field-Technician_JR101217",
+    "url_label": "Black Rail Field Technician — secretive marsh bird call-back surveys in Everglades NP and Big Cypress (Center for Conservation Biology, William & Mary)",
+    "links": [
+      {
+        "href": "https://williammary.wd12.myworkdayjobs.com/WM/job/William--Mary/Black-Rail-Field-Technician_JR101217",
+        "label": "🔗 Black Rail Field Technician — secretive marsh bird call-back surveys in Everglades NP and Big Cypress (Center for Conservation Biology, William & Mary)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119074",
+        "label": "🔗 Listing on the Texas A&M Natural Resources Job Board"
+      }
+    ],
+    "metaLine": "South Florida · 2 seasonal techs Feb 15–May 15 2027 · eastern black rail call-back surveys · up to $15.50/hr · apply via W&M",
+    "body": "The Center for Conservation Biology is hiring two field technicians to run crepuscular call-back surveys for eastern black rails and other secretive marsh birds in high-marsh habitat in Everglades National Park and Big Cypress National Preserve, February 15 to May 15, 2027. The project aims to describe the black rail's breeding season in South Florida and fill key data gaps for managing this federally threatened species. Surveys run from 30 minutes before sunrise to 3 hours after, and 3 hours before sunset to 30 minutes after. Pay is up to $15.50 an hour depending on experience; applications must go through the William & Mary job site and are accepted until January 31, 2027.",
+    "desc": "Threatened-species wetland bird surveys for a Virginia-based conservation research centre — a good seasonal credential, and CCB is headquartered near Richmond for future work.",
+    "pills": [
+      "Threatened species",
+      "Marsh / wetland birds",
+      "Seasonal Feb–May",
+      "CCB is Virginia-based"
+    ],
+    "start": "February 15 – May 15, 2027",
+    "deadline_date": "2027-01-31",
+    "start_date": "2027-02-15",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1762",
+    "title": "Lead Black Rail Technician — crew lead for marsh bird surveys in Everglades NP and Big Cypress (Center for Conservation Biology, William & Mary)",
+    "org": "Center for Conservation Biology · William & Mary / Virginia Commonwealth University · Everglades National Park & Big Cypress National Preserve, FL",
+    "location": "Everglades National Park and Big Cypress National Preserve, Florida",
+    "deadline": "January 15, 2027",
+    "badge": "Good fit",
+    "pay": "Up to $18.00 per hour (published)",
+    "stipend": "",
+    "benefits": "Seasonal field position, January 15 – June 30, 2027",
+    "url": "https://williammary.wd12.myworkdayjobs.com/WM/job/William--Mary/Lead-Black-Rail-Technician_JR101224",
+    "url_label": "Lead Black Rail Technician — crew lead for marsh bird surveys in Everglades NP and Big Cypress (Center for Conservation Biology, William & Mary)",
+    "links": [
+      {
+        "href": "https://williammary.wd12.myworkdayjobs.com/WM/job/William--Mary/Lead-Black-Rail-Technician_JR101224",
+        "label": "🔗 Lead Black Rail Technician — crew lead for marsh bird surveys in Everglades NP and Big Cypress (Center for Conservation Biology, William & Mary)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119075",
+        "label": "🔗 Listing on the Texas A&M Natural Resources Job Board"
+      }
+    ],
+    "metaLine": "South Florida · crew lead Jan 15–Jun 30 2027 · supervises 2 techs · black rail call-back surveys · up to $18/hr",
+    "body": "The Center for Conservation Biology is hiring a lead field technician to run crepuscular call-back surveys for eastern black rails and other secretive marsh birds in the high marshes of Everglades National Park and Big Cypress National Preserve from January 15 to June 30, 2027. The lead helps supervise two technicians on the project, which aims to describe the black rail's South Florida breeding season and close data gaps for managing the species. The listing asks for at least a year of experience. Pay is up to $18.00 an hour depending on experience; apply through the William & Mary job site by January 15, 2027.",
+    "desc": "The longer, better-paid version of the black rail job, with supervisory experience that strengthens a federal resume — though it expects a year of prior field experience.",
+    "pills": [
+      "Crew lead",
+      "Threatened species",
+      "Up to $18/hr",
+      "Jan–Jun 2027"
+    ],
+    "start": "January 15 – June 30, 2027",
+    "deadline_date": "2027-01-15",
+    "start_date": "2027-01-15",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1763",
+    "title": "Seasonal Field Technician — grassland restoration, native seed collection and monitoring across the southern Appalachians (Southeastern Grasslands Institute, Chattanooga)",
+    "org": "Southeastern Grasslands Institute · Austin Peay State University · Chattanooga, TN",
+    "location": "Chattanooga, Tennessee (fieldwork across the southeastern Appalachians)",
+    "deadline": "October 13, 2026",
+    "badge": "Strong fit",
+    "pay": "$20 per hour (published)",
+    "stipend": "",
+    "benefits": "Seasonal university position",
+    "url": "https://www.segrasslands.org/jobs",
+    "url_label": "Seasonal Field Technician — grassland restoration, native seed collection and monitoring across the southern Appalachians (Southeastern Grasslands Institute, Chattanooga)",
+    "links": [
+      {
+        "href": "https://www.segrasslands.org/jobs",
+        "label": "🔗 Seasonal Field Technician — grassland restoration, native seed collection and monitoring across the southern Appalachians (Southeastern Grasslands Institute, Chattanooga)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118965",
+        "label": "🔗 Listing on the Texas A&M Natural Resources Job Board"
+      }
+    ],
+    "metaLine": "Chattanooga TN · seasonal field tech · grassland surveys, restoration, seed collection, data management · $20/hr · BY OCT 13",
+    "body": "Austin Peay State University's Southeastern Grasslands Institute, which works to conserve and restore grassland biodiversity across 24 eastern states, is hiring a Seasonal Field Technician based in Chattanooga, Tennessee. The technician supports restoration and conservation projects across the southeastern Appalachian region by helping with field surveys, habitat restoration, native seed collection, monitoring and data management. Pay is $20 an hour, with a start in October 2026. Applications close October 13, 2026.",
+    "desc": "Hands-on ecological restoration in the southern Appalachians she knows, with a respected regional conservation group. A separate SGI technician post in Roanoke expired earlier this year, so this is a fresh opening.",
+    "pills": [
+      "Restoration ecology",
+      "Southern Appalachians",
+      "$20/hr",
+      "⏰ Closes Oct 13"
+    ],
+    "start": "October 2026",
+    "deadline_date": "2026-10-13",
+    "start_date": "2026-10-15",
+    "housing_provided": false,
+    "relocation": "tight"
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1764",
+    "title": "Funded MS — 80-year Cottonwood rangeland dataset: plant community change, grazing and drought in the Northern Great Plains (South Dakota State University)",
+    "org": "South Dakota State University · Department of Natural Resource Management · Brookings / Cottonwood Field Station, SD",
+    "location": "Brookings, South Dakota (Cottonwood Field Station, western SD)",
+    "deadline": "October 30, 2026",
+    "badge": "Strong fit",
+    "pay": "$20,000–$23,500 per year (published)",
+    "stipend": "$20,000–$23,500/yr graduate research assistantship",
+    "benefits": "Graduate research assistantship (confirm tuition coverage with the department)",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119030",
+    "url_label": "Funded MS — 80-year Cottonwood rangeland dataset: plant community change, grazing and drought in the Northern Great Plains (South Dakota State University)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119030",
+        "label": "🔗 Funded MS — 80-year Cottonwood rangeland dataset: plant community change, grazing and drought in the Northern Great Plains (South Dakota State University)"
+      }
+    ],
+    "metaLine": "South Dakota · funded MS GRA · long-term rangeland data + field monitoring · $20–23.5k · starts Jan–Jun 2027 · BY OCT 30",
+    "body": "South Dakota State University's Department of Natural Resource Management has an M.S. Graduate Research Assistantship working with the SDSU Cottonwood Legacy Dataset, a rare long-term rangeland record from western South Dakota spanning more than 80 years. The student will pursue an M.S. in Biological Sciences (Natural Resources Management specialisation), using historical and contemporary vegetation, grazing and climate data from the Cottonwood Field Station to study long-term change in Northern Great Plains rangelands — plant community change, grazing effects, drought and climate variability, and linking long-term data with current monitoring. The stipend is $20,000–$23,500 a year, with a start between January and June 2027. Applications close October 30, 2026.",
+    "desc": "A funded MS that combines field monitoring with heavy data and spatial analysis — a good fit for her GIS side. A spring or summer 2027 start is sooner than most fall-cycle programs.",
+    "pills": [
+      "Funded MS",
+      "Long-term ecological data",
+      "Spring/summer 2027 start",
+      "$20–23.5k"
+    ],
+    "start": "Between January 1 and June 15, 2027",
+    "deadline_date": "2026-10-30",
+    "start_date": "2027-01-15",
+    "housing_provided": false,
+    "relocation": "lead"
   }
 ]
