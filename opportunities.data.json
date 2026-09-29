@@ -79841,5 +79841,321 @@
     "start_date": "2026-10-19",
     "housing_provided": false,
     "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-1842",
+    "title": "Aquatic Resources Biologist (Environmental Scientist) — wetland and aquatic field studies, permitting and CEQA/NEPA technical reports for transportation projects (Caltrans, San Luis Obispo)",
+    "org": "California Department of Transportation (Caltrans) · District 5 Environmental · San Luis Obispo County, CA",
+    "location": "San Luis Obispo County, California",
+    "deadline": "October 13, 2026",
+    "badge": "Strong fit",
+    "pay": "$4,418–$9,321 per month (Environmental Scientist range, published)",
+    "stipend": "",
+    "benefits": "California state benefits",
+    "url": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=532679",
+    "url_label": "Aquatic Resources Biologist (Environmental Scientist) — wetland and aquatic field studies, permitting and CEQA/NEPA technical reports for transportation projects (Caltrans, San Luis Obispo)",
+    "links": [
+      {
+        "href": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=532679",
+        "label": "🔗 Aquatic Resources Biologist (Environmental Scientist) — wetland and aquatic field studies, permitting and CEQA/NEPA technical reports for transportation projects (Caltrans, San Luis Obispo)"
+      }
+    ],
+    "metaLine": "San Luis Obispo CA · Caltrans aquatic resources biologist · wetlands, permits, CEQA/NEPA · $4.4–9.3k/mo · exam class · BY OCT 13",
+    "body": "Caltrans is hiring an Aquatic Resources Biologist (Environmental Scientist) in San Luis Obispo County to carry out field analysis of aquatic resources, obtain environmental permits and prepare CEQA/NEPA technical studies for transportation projects. California's Environmental Scientist class generally accepts a bachelor's in a biological, physical or environmental science as the minimum, but applicants must first pass CalHR's online Environmental Scientist exam to be list-eligible — confirm the minimum qualifications on the bulletin. Pay is $4,418–$9,321 a month. Applications close October 13, 2026.",
+    "desc": "Transportation-agency aquatic biologists spend much of their time on wetland delineation and Clean Water Act permitting — her Army Corps–manual training is directly used here.",
+    "pills": [
+      "Wetland delineation used",
+      "Permits + CEQA/NEPA",
+      "$4.4–9.3k/mo",
+      "Exam class"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-10-13",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "planned"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-1843",
+    "title": "Scientific Aid — stormwater compliance site visits across Orange, Riverside and San Bernardino counties (Santa Ana Regional Water Quality Control Board, Riverside)",
+    "org": "California State Water Resources Control Board · Santa Ana Regional Water Quality Control Board · General Stormwater Unit · Riverside, CA",
+    "location": "Riverside, California",
+    "deadline": "October 6, 2026",
+    "badge": "Good fit",
+    "pay": "$18.26–$21.67 per hour, up to 1,200 hours a year (published)",
+    "stipend": "",
+    "benefits": "Intermittent non-testing state position",
+    "url": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=532616",
+    "url_label": "Scientific Aid — stormwater compliance site visits across Orange, Riverside and San Bernardino counties (Santa Ana Regional Water Quality Control Board, Riverside)",
+    "links": [
+      {
+        "href": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=532616",
+        "label": "🔗 Scientific Aid — stormwater compliance site visits across Orange, Riverside and San Bernardino counties (Santa Ana Regional Water Quality Control Board, Riverside)"
+      }
+    ],
+    "metaLine": "Riverside CA · Water Board Scientific Aid (no exam) · stormwater compliance field visits · $18.26–21.67/hr · BY OCT 6",
+    "body": "The Santa Ana Regional Water Quality Control Board is hiring an intermittent Scientific Aid in its General Stormwater Unit in Riverside, travelling to sites in Orange, Riverside and San Bernardino counties to support stormwater compliance work. Scientific Aid is a non-testing class, so no civil-service exam is needed. Pay is $18.26–$21.67 an hour for up to 1,200 hours a year. Applications close October 6, 2026.",
+    "desc": "A no-exam way into California's water-quality regulatory system; part-time hours cap it as a stepping stone.",
+    "pills": [
+      "Water quality",
+      "No civil-service exam",
+      "Part-time (1,200 hrs/yr)",
+      "$18.26–21.67/hr"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-10-06",
+    "start_date": "2026-10-19",
+    "housing_provided": false,
+    "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-1844",
+    "title": "Environmental Scientist (12-month limited term), Aquatic Invasive Species Biologist — eDNA, plankton-tow and water-quality sampling for invasive mussels (California Dept. of Fish and Wildlife)",
+    "org": "California Department of Fish and Wildlife · Invasive Mussel Program · California",
+    "location": "California (Invasive Mussel Program — confirm duty station on the bulletin)",
+    "deadline": "October 7, 2026",
+    "badge": "Good fit",
+    "pay": "$4,418–$9,321 per month (published)",
+    "stipend": "",
+    "benefits": "12-month limited-term state position",
+    "url": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=533219",
+    "url_label": "Environmental Scientist (12-month limited term), Aquatic Invasive Species Biologist — eDNA, plankton-tow and water-quality sampling for invasive mussels (California Dept. of Fish and Wildlife)",
+    "links": [
+      {
+        "href": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=533219",
+        "label": "🔗 Environmental Scientist (12-month limited term), Aquatic Invasive Species Biologist — eDNA, plankton-tow and water-quality sampling for invasive mussels (California Dept. of Fish and Wildlife)"
+      }
+    ],
+    "metaLine": "California · CDFW limited-term ES · invasive mussel eDNA + water sampling · $4.4–9.3k/mo · exam class · BY OCT 7",
+    "body": "CDFW's Invasive Mussel Program is hiring a 12-month limited-term Environmental Scientist as an aquatic invasive species biologist. Duties include eDNA, plankton-tow and water-quality sampling for invasive mussels, watercraft inspections and public outreach. California's Environmental Scientist class generally accepts a bachelor's in a biological, physical or environmental science as the minimum, but applicants must first pass CalHR's online Environmental Scientist exam to be list-eligible — confirm the minimum qualifications on the bulletin. Pay is $4,418–$9,321 a month. Applications close October 7, 2026.",
+    "desc": "Water sampling and aquatic ecology at a professional state title — a good use of her field-sampling experience.",
+    "pills": [
+      "Water + eDNA sampling",
+      "Professional title",
+      "$4.4–9.3k/mo",
+      "Exam class"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-10-07",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "planned"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-1845",
+    "title": "Environmental Scientist (2 permanent postings) — golden mussel boater inspection, banding and decontamination program (California Dept. of Fish and Wildlife, West Sacramento)",
+    "org": "California Department of Fish and Wildlife · Invasive Species Program · West Sacramento (Yolo County), CA",
+    "location": "West Sacramento (Yolo County), California",
+    "deadline": "October 8, 2026",
+    "badge": "Good fit",
+    "pay": "$4,418–$9,321 per month (published)",
+    "stipend": "",
+    "benefits": "Permanent state positions; California state benefits",
+    "url": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=533397",
+    "url_label": "Environmental Scientist (2 permanent postings) — golden mussel boater inspection, banding and decontamination program (California Dept. of Fish and Wildlife, West Sacramento)",
+    "links": [
+      {
+        "href": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=533397",
+        "label": "🔗 Environmental Scientist (2 permanent postings) — golden mussel boater inspection, banding and decontamination program (California Dept. of Fish and Wildlife, West Sacramento)"
+      },
+      {
+        "href": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=533392",
+        "label": "🔗 Second posting (JobControlId 533392)"
+      }
+    ],
+    "metaLine": "West Sacramento CA · 2 permanent CDFW ES jobs · golden mussel watercraft inspection program · $4.4–9.3k/mo · exam class · BY OCT 8",
+    "body": "CDFW has two permanent Environmental Scientist postings (JobControlIds 533397 and 533392) in West Sacramento supporting the California Boater Inspection Banding Program and the golden mussel watercraft inspection and decontamination effort. California's Environmental Scientist class generally accepts a bachelor's in a biological, physical or environmental science as the minimum, but applicants must first pass CalHR's online Environmental Scientist exam to be list-eligible — confirm the minimum qualifications on the bulletin. Pay is $4,418–$9,321 a month. Applications close October 8, 2026.",
+    "desc": "Permanent state scientist jobs — more programme and inspection work than field ecology, but a durable entry into CDFW.",
+    "pills": [
+      "Permanent",
+      "2 postings",
+      "Aquatic invasives",
+      "Exam class"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-10-08",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "planned"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-1846",
+    "title": "Environmental Scientist (Marine Biologist) — San Francisco Bay Study fish, shrimp and crab abundance surveys aboard a research vessel (California Dept. of Fish and Wildlife, Stockton)",
+    "org": "California Department of Fish and Wildlife · Interagency Ecological Program · San Francisco Bay Study · Stockton (San Joaquin County), CA",
+    "location": "Stockton, California (sampling across San Francisco Bay)",
+    "deadline": "October 12, 2026",
+    "badge": "Good fit",
+    "pay": "$4,418–$9,321 per month (published)",
+    "stipend": "",
+    "benefits": "California state benefits",
+    "url": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=533306",
+    "url_label": "Environmental Scientist (Marine Biologist) — San Francisco Bay Study fish, shrimp and crab abundance surveys aboard a research vessel (California Dept. of Fish and Wildlife, Stockton)",
+    "links": [
+      {
+        "href": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=533306",
+        "label": "🔗 Environmental Scientist (Marine Biologist) — San Francisco Bay Study fish, shrimp and crab abundance surveys aboard a research vessel (California Dept. of Fish and Wildlife, Stockton)"
+      }
+    ],
+    "metaLine": "Stockton CA · CDFW ES on the long-running SF Bay Study · vessel surveys + data analysis · $4.4–9.3k/mo · exam class · BY OCT 12",
+    "body": "CDFW is hiring an Environmental Scientist as a field and analytical biologist for the long-running San Francisco Bay Study, which tracks fish, shrimp and crab abundance. The scientist leads sample-collection crews aboard a 42-foot research vessel and analyses the data. California's Environmental Scientist class generally accepts a bachelor's in a biological, physical or environmental science as the minimum, but applicants must first pass CalHR's online Environmental Scientist exam to be list-eligible — confirm the minimum qualifications on the bulletin. Pay is $4,418–$9,321 a month. Applications close October 12, 2026.",
+    "desc": "Estuarine monitoring with real data-analysis responsibility on one of the West's flagship long-term datasets.",
+    "pills": [
+      "Estuary monitoring",
+      "Research vessel",
+      "Data analysis",
+      "Exam class"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-10-12",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "planned"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-1847",
+    "title": "Assistant Pygmy Rabbit Biologist (Fish & Wildlife Biologist 1, permanent) — capture, translocation and burrow surveys for Columbia Basin pygmy rabbit recovery (WDFW, Ephrata)",
+    "org": "Washington Department of Fish and Wildlife · Wildlife Program · Ephrata (Grant County), WA",
+    "location": "Ephrata, Washington",
+    "deadline": "October 4, 2026",
+    "badge": "Strong fit",
+    "pay": "$3,917–$5,240 per month (published)",
+    "stipend": "",
+    "benefits": "Permanent Washington state position with benefits",
+    "url": "https://www.governmentjobs.com/careers/washington/jobs/5493450",
+    "url_label": "Assistant Pygmy Rabbit Biologist (Fish & Wildlife Biologist 1, permanent) — capture, translocation and burrow surveys for Columbia Basin pygmy rabbit recovery (WDFW, Ephrata)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/washington/jobs/5493450",
+        "label": "🔗 Assistant Pygmy Rabbit Biologist (Fish & Wildlife Biologist 1, permanent) — capture, translocation and burrow surveys for Columbia Basin pygmy rabbit recovery (WDFW, Ephrata)"
+      }
+    ],
+    "metaLine": "Ephrata WA · permanent WDFW Biologist 1 · endangered pygmy rabbit trapping, handling, GPS surveys · $3.9–5.2k/mo · BY OCT 4",
+    "body": "The Washington Department of Fish and Wildlife is hiring a permanent Assistant Pygmy Rabbit Biologist (Fish & Wildlife Biologist 1) in Ephrata for Columbia Basin pygmy rabbit recovery. Duties include capturing and translocating rabbits with traps and nets, handling and sampling animals, and running burrow transect surveys with GPS and mobile data collection. WDFW substitutes college coursework year-for-year against experience. Pay is $3,917–$5,240 a month. Applications close October 4, 2026.",
+    "desc": "A permanent state biologist job on an endangered small-mammal recovery programme — her trapping and handling experience is the core skill.",
+    "pills": [
+      "Permanent state biologist",
+      "Endangered small mammal",
+      "Trapping + GPS surveys",
+      "⏰ Closes Oct 4"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-10-04",
+    "start_date": "2026-11-01",
+    "housing_provided": false,
+    "relocation": "planned"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "West Coast / Pacific",
+    "id": "item-1848",
+    "title": "Field Crew Member — riparian restoration, native planting, invasive control and green stormwater infrastructure with landowners (Snohomish Conservation District, Lake Stevens WA)",
+    "org": "Snohomish Conservation District · Lake Stevens (Snohomish County), WA",
+    "location": "Lake Stevens, Washington",
+    "deadline": "Continuous — open until filled (posted September 15, 2026)",
+    "badge": "Strong fit",
+    "pay": "$24.63 per hour (published)",
+    "stipend": "",
+    "benefits": "Permanent full-time position with benefits",
+    "url": "https://www.governmentjobs.com/careers/washington/jobs/5483266",
+    "url_label": "Field Crew Member — riparian restoration, native planting, invasive control and green stormwater infrastructure with landowners (Snohomish Conservation District, Lake Stevens WA)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/washington/jobs/5483266",
+        "label": "🔗 Field Crew Member — riparian restoration, native planting, invasive control and green stormwater infrastructure with landowners (Snohomish Conservation District, Lake Stevens WA)"
+      },
+      {
+        "href": "https://snohomishcd.org/",
+        "label": "🔗 Snohomish Conservation District (apply with cover letter and resume)"
+      }
+    ],
+    "metaLine": "Lake Stevens WA · permanent entry-level CD field crew · riparian restoration + stormwater · $24.63/hr + benefits · open until filled",
+    "body": "The Snohomish Conservation District is hiring an entry-level, full-time Field Crew Member in Lake Stevens, Washington. The crew carries out habitat restoration, native planting, invasive plant control and green stormwater infrastructure projects with local landowners. Pay is $24.63 an hour with benefits. The posting is continuous; apply with a cover letter and resume through the district.",
+    "desc": "A permanent, benefited restoration job at a conservation district that takes new graduates — watershed restoration in practice.",
+    "pills": [
+      "Permanent + benefits",
+      "Riparian restoration",
+      "Entry-level",
+      "$24.63/hr"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-10-31",
+    "start_date": "2026-11-01",
+    "housing_provided": false,
+    "relocation": "planned"
   }
 ]
