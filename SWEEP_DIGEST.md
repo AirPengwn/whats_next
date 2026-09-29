@@ -1,16 +1,17 @@
 # Weekly opportunity sweep — 2026-09-29
 
-**Added 8 new** opportunities:
-- Biological Science Technician (Fish), GS-5/6 — national fish hatcheries at Saratoga and Jackson, WY (U.S. Fish & Wildlife Service) — _Good_ · Mountain West · deadline: October 8, 2026
-- Biological Science Technician (Wildlife), GS-7 — wildlife damage management in Hawaii and Guam, 13-month term (USDA APHIS Wildlife Services) — _Good_ · Alaska, Hawaii & Territories · deadline: October 1, 2026
-- Natural Resources Specialist (Ranger), GS-5/7/9 — lake projects in the Sacramento District (U.S. Army Corps of Engineers) — _Strong_ · West Coast / Pacific · deadline: October 13, 2026
-- Natural Resources Specialist (Park Ranger), GS-7/9 — Missouri River projects in North and South Dakota (U.S. Army Corps of Engineers, Omaha District) — _Good_ · Midwest & Great Plains · deadline: October 6, 2026
-- Biological Science Technician, GS-4 — water quality, lake sediment and plankton monitoring on Kansas City District lakes and the Missouri River (U.S. Army Corps of Engineers) — _Good_ · Midwest & Great Plains · deadline: October 7, 2026
-- Forestry Technician (Recreation, Timber, Range), GS-5 — national batch hire across many National Forests, incl. Midwest units in IN, OH, MN and WI (USDA Forest Service) — _Good_ · National / Remote / Multiple · deadline: October 5, 2026
-- Forestry Technician, GS-7 — national batch hire; includes a 6-month molecular genetics & aquatics lab tech slot at the Northern Research Station, Rhinelander WI (USDA Forest Service) — _Good_ · National / Remote / Multiple · deadline: October 5, 2026
-- Natural Resources Specialist (Ranger), GS-5/7/9 — flood-control project natural resources and visitor programs, Peterborough NH (U.S. Army Corps of Engineers, New England District) — _Strong_ · Northeast · deadline: October 8, 2026
+**Added 7 new** opportunities:
+- ORISE Fellowship — aquatic toxicity, uptake and partitioning of PFAS "forever chemicals" in aquatic organisms (EPA Great Lakes lab, Duluth MN) — _Strong_ · Midwest & Great Plains · deadline: November 23, 2026
+- ORISE Fellowship — biological control of emerald ash borer: host associations and impacts on pest populations at long-term field sites (USDA Agricultural Research Service) — _Good_ · National / Remote / Multiple · deadline: November 20, 2026
+- ORISE Fellowship — Conservation Effects Assessment Project field and lab work on water quality and soil health (USDA-ARS, Temple TX) — _Strong_ · Southwest · deadline: November 20, 2026
+- ORISE Fellowship — soil health, emissions and yield in a long-term organic crop rotation study (USDA-ARS Agroecosystem Management Research Unit, Lincoln NE) — _Good_ · Midwest & Great Plains · deadline: November 6, 2026
+- Science Education & Internship Program Fellow — environmental remediation, restoration and compliance on Oak Ridge legacy cleanup sites (DOE Office of Environmental Management, Oak Ridge TN) — _Good_ · Southeast & Appalachia · deadline: November 1, 2026
+- Funded MS (January 2027 start) — red oak ecophysiology under silvicultural treatments in bottomland hardwood restoration (University of Arkansas at Monticello, CFANR #2026-005) — _Strong_ · Southeast & Appalachia · deadline: Open until a qualified applicant is selected (position starts January 4, 2027 — apply now)
+- Funded MS or PhD (January 2027 start) — forest water use and ecohydrological modelling in the Knighton Ecohydrology Lab (University of Connecticut, NRE) — _Good_ · Northeast · deadline: Not stated — January 2027 start, so contact the lab now
 
-**Updated 0** (deadline / status / description changed).
+**Updated 2** (deadline / status / description changed):
+- Water Quality Specialist Trainee (Environmental Trainee) — _Excellent_ · Northeast · deadline: October 9, 2026
+- Aquatic Biologist 2 — stream & wetland field studies — _Excellent_ · Northeast · deadline: October 1, 2026
 
-**Total opportunities:** 1770  ·  next-cycle: 503  ·  expired (one-time, no future cycle): 383
+**Total opportunities:** 1777  ·  next-cycle: 501  ·  expired (one-time, no future cycle): 383
 Triage: passed-but-recurring → `cycle:"next"`; one-time/discontinued → `expired:true`. Passed/expired are hidden on the site by default (toggle to show); never deleted, never moved to the personal Archive. Fit tiers: _Excellent_ / _Strong_ / _Good_ / _Reach / review_ (set via each entry's badge). The Browse pages render from this data automatically — no HTML edits. Nothing is live until this PR is merged.
