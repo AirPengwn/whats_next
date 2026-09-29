@@ -78293,5 +78293,317 @@
     "start_date": "2027-01-15",
     "housing_provided": false,
     "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-1807",
+    "title": "Water Quality Specialist Trainee (Environmental Trainee) — multi-county water program (Pennsylvania Department of Environmental Protection)",
+    "org": "Pennsylvania Department of Environmental Protection · Water programs · multi-county, PA",
+    "location": "Multi-county assignment, Pennsylvania",
+    "deadline": "October 7, 2026",
+    "badge": "Strong fit",
+    "pay": "$46,827–$70,592 per year (published)",
+    "stipend": "",
+    "benefits": "Pennsylvania state civil-service benefits; structured trainee track",
+    "url": "https://www.governmentjobs.com/careers/pabureau/jobs/5487741",
+    "url_label": "Water Quality Specialist Trainee (Environmental Trainee) — multi-county water program (Pennsylvania Department of Environmental Protection)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/pabureau/jobs/5487741",
+        "label": "🔗 Water Quality Specialist Trainee (Environmental Trainee) — multi-county water program (Pennsylvania Department of Environmental Protection)"
+      }
+    ],
+    "metaLine": "Pennsylvania · DEP water-quality trainee · BS in env. science qualifies · $46.8–70.6k · BY OCT 7",
+    "body": "The Pennsylvania Department of Environmental Protection is hiring a Water Quality Specialist Trainee (Environmental Trainee) for a multi-county assignment in its water programme. The civil-service trainee position teaches field investigation, water sampling and compliance work under structured supervision, leading to the full Water Quality Specialist title. A bachelor's degree in environmental science or a related field qualifies. Pay is $46,827–$70,592 a year. Applications close October 7, 2026.",
+    "desc": "A permanent state water-quality career that is built to train new graduates, and her degree is the qualifying credential. A sister Washington County trainee posting (item-787) has also re-opened.",
+    "pills": [
+      "Permanent state job",
+      "Trainee track",
+      "Water quality",
+      "BS qualifies"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-10-07",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "planned"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-1808",
+    "title": "Environmental Program Specialist 1 / Trainee 1 / Trainee 2 (NY HELPS, no exam) — Division of Water permitting, stormwater, coastal and floodplain programs, Region 1 (NYS DEC, Stony Brook)",
+    "org": "New York State Department of Environmental Conservation · Division of Water · Region 1 · Stony Brook, NY",
+    "location": "Stony Brook (Suffolk County), New York",
+    "deadline": "October 14, 2026",
+    "badge": "Strong fit",
+    "pay": "$56,183–$88,970 per year (published, depending on level)",
+    "stipend": "",
+    "benefits": "New York State benefits; NY HELPS — filled without a civil-service exam",
+    "url": "https://statejobs.ny.gov/public/vacancyDetailsView.cfm?id=225843",
+    "url_label": "Environmental Program Specialist 1 / Trainee 1 / Trainee 2 (NY HELPS, no exam) — Division of Water permitting, stormwater, coastal and floodplain programs, Region 1 (NYS DEC, Stony Brook)",
+    "links": [
+      {
+        "href": "https://statejobs.ny.gov/public/vacancyDetailsView.cfm?id=225843",
+        "label": "🔗 Environmental Program Specialist 1 / Trainee 1 / Trainee 2 (NY HELPS, no exam) — Division of Water permitting, stormwater, coastal and floodplain programs, Region 1 (NYS DEC, Stony Brook)"
+      }
+    ],
+    "metaLine": "Long Island NY · DEC water programs · NY HELPS (no exam), trainee level takes a BS · $56–89k · BY OCT 14",
+    "body": "NYS DEC's Division of Water in Region 1 (Long Island) is hiring an Environmental Program Specialist 1, Trainee 1 or Trainee 2 under NY HELPS, which lets the position be filled without a civil-service exam. The specialist assists with SPDES discharge permitting, well and water-withdrawal programmes, stormwater, coastal and floodplain management, plus data collection, inspections and compliance work. At trainee level a bachelor's degree substitutes for experience. Pay is $56,183–$88,970 a year depending on level. Applications close October 14, 2026.",
+    "desc": "Water-quality and floodplain regulation with no exam barrier — one of the easiest ways into New York state environmental service.",
+    "pills": [
+      "NY HELPS — no exam",
+      "Water + floodplain programs",
+      "Trainee level",
+      "$56–89k"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-10-14",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "planned"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-1809",
+    "title": "Environmental Program Specialist 1 / Trainee 1 / Trainee 2 (NY HELPS, no exam) — sustainability and project compliance teams (NYS DEC, Long Island City)",
+    "org": "New York State Department of Environmental Conservation · Long Island City (Queens), NY",
+    "location": "Long Island City (Queens), New York",
+    "deadline": "October 14, 2026",
+    "badge": "Good fit",
+    "pay": "$56,183–$88,970 per year (published, depending on level)",
+    "stipend": "",
+    "benefits": "New York State benefits; NY HELPS — filled without a civil-service exam",
+    "url": "https://statejobs.ny.gov/public/vacancyDetailsView.cfm?id=225846",
+    "url_label": "Environmental Program Specialist 1 / Trainee 1 / Trainee 2 (NY HELPS, no exam) — sustainability and project compliance teams (NYS DEC, Long Island City)",
+    "links": [
+      {
+        "href": "https://statejobs.ny.gov/public/vacancyDetailsView.cfm?id=225846",
+        "label": "🔗 Environmental Program Specialist 1 / Trainee 1 / Trainee 2 (NY HELPS, no exam) — sustainability and project compliance teams (NYS DEC, Long Island City)"
+      }
+    ],
+    "metaLine": "Queens NY · DEC project/sustainability team · NY HELPS (no exam) · $56–89k · BY OCT 14",
+    "body": "NYS DEC is hiring an Environmental Program Specialist 1, Trainee 1 or Trainee 2 under NY HELPS (no civil-service exam) for its project teams in Long Island City. The role supports sustainability, energy-efficiency and zero-emission initiatives and reviews project activity for environmental compliance. At trainee level a bachelor's degree substitutes for experience. Pay is $56,183–$88,970 a year depending on level. Applications close October 14, 2026.",
+    "desc": "The same no-exam entry title as the Stony Brook water job, but office-based compliance and sustainability work rather than field science.",
+    "pills": [
+      "NY HELPS — no exam",
+      "Office-based",
+      "Trainee level",
+      "$56–89k"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-10-14",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "planned"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-1810",
+    "title": "Habitat Restoration Biologist (seasonal hourly) — rare-species surveys, habitat restoration and ArcGIS Field Maps data (Maryland DNR Wildlife & Heritage Service)",
+    "org": "Maryland Department of Natural Resources · Wildlife & Heritage Service · Anne Arundel County, MD",
+    "location": "Anne Arundel County, Maryland (about 2.5 hours from Richmond)",
+    "deadline": "October 12, 2026",
+    "badge": "Good fit",
+    "pay": "$26.71–$32.52 per hour (published)",
+    "stipend": "",
+    "benefits": "Seasonal hourly state position",
+    "url": "https://www.jobapscloud.com/MD/sup/BulPreview.asp?R1=26&R2=002293&R3=0027",
+    "url_label": "Habitat Restoration Biologist (seasonal hourly) — rare-species surveys, habitat restoration and ArcGIS Field Maps data (Maryland DNR Wildlife & Heritage Service)",
+    "links": [
+      {
+        "href": "https://www.jobapscloud.com/MD/sup/BulPreview.asp?R1=26&R2=002293&R3=0027",
+        "label": "🔗 Habitat Restoration Biologist (seasonal hourly) — rare-species surveys, habitat restoration and ArcGIS Field Maps data (Maryland DNR Wildlife & Heritage Service)"
+      }
+    ],
+    "metaLine": "Anne Arundel MD · seasonal state biologist · rare species, restoration, invasives, ArcGIS Field Maps · $26.71–32.52/hr · BY OCT 12",
+    "body": "Maryland DNR's Wildlife & Heritage Service is hiring a seasonal hourly Habitat Restoration Biologist in Anne Arundel County. Duties include rare-species surveys and monitoring, habitat restoration, invasive species control and field data collection with ArcGIS Field Maps. The position requires a four-year natural-science degree and two years of technical experience, with substitutions allowed. Pay is $26.71–$32.52 an hour. Applications close October 12, 2026.",
+    "desc": "Field restoration plus GIS data work for a state heritage programme within reach of Richmond; the two-year experience line allows substitutions, so apply.",
+    "pills": [
+      "State heritage program",
+      "Restoration + GIS",
+      "$26.71–32.52/hr",
+      "~2.5 hrs from Richmond"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-10-12",
+    "start_date": "2026-11-01",
+    "housing_provided": false,
+    "relocation": "planned"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-1811",
+    "title": "Natural Resources Planner II — reviewing local erosion, sediment and stormwater programs (Maryland Department of the Environment, Baltimore)",
+    "org": "Maryland Department of the Environment · Water & Science Administration · Baltimore, MD",
+    "location": "Baltimore, Maryland (about 2.5 hours from Richmond)",
+    "deadline": "October 7, 2026",
+    "badge": "Reach",
+    "pay": "$63,154–$99,603 per year (published)",
+    "stipend": "",
+    "benefits": "Maryland state benefits",
+    "url": "https://www.jobapscloud.com/MD/sup/BulPreview.asp?R1=26&R2=002501&R3=0005",
+    "url_label": "Natural Resources Planner II — reviewing local erosion, sediment and stormwater programs (Maryland Department of the Environment, Baltimore)",
+    "links": [
+      {
+        "href": "https://www.jobapscloud.com/MD/sup/BulPreview.asp?R1=26&R2=002501&R3=0005",
+        "label": "🔗 Natural Resources Planner II — reviewing local erosion, sediment and stormwater programs (Maryland Department of the Environment, Baltimore)"
+      }
+    ],
+    "metaLine": "Baltimore MD · state stormwater / sediment program reviewer · BS + 1 yr · $63–100k · BY OCT 7",
+    "body": "The Maryland Department of the Environment's Water & Science Administration is hiring a Natural Resources Planner II to review local erosion-and-sediment-control and stormwater management programmes and help develop permits. The position requires a bachelor's degree plus one year of natural-resources planning or related experience. Pay is $63,154–$99,603 a year. Applications close October 7, 2026.",
+    "desc": "Watershed and water-quality regulation at a high salary, but it needs a year of planning-type experience she would have to argue for.",
+    "pills": [
+      "Watershed regulation",
+      "$63–100k",
+      "⚠️ 1 yr experience",
+      "⏰ Closes Oct 7"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-10-07",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "planned"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-1812",
+    "title": "Conservation Associate — GIS mapping, easement baseline documentation and field visits for coastal land protection (Maine Coast Heritage Trust)",
+    "org": "Maine Coast Heritage Trust · Somesville (Mount Desert Island) or Whiting, ME",
+    "location": "Somesville (Mount Desert Island) or Whiting, Maine",
+    "deadline": "October 18, 2026",
+    "badge": "Reach",
+    "pay": "$49,000–$56,000 per year (published)",
+    "stipend": "",
+    "benefits": "Permanent full-time non-profit position",
+    "url": "https://www.mcht.org/job/conservation-associate/",
+    "url_label": "Conservation Associate — GIS mapping, easement baseline documentation and field visits for coastal land protection (Maine Coast Heritage Trust)",
+    "links": [
+      {
+        "href": "https://www.mcht.org/job/conservation-associate/",
+        "label": "🔗 Conservation Associate — GIS mapping, easement baseline documentation and field visits for coastal land protection (Maine Coast Heritage Trust)"
+      },
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-conservation-associate-mount-desert-maine/5420081894",
+        "label": "🔗 Listing on Conservation Job Board"
+      }
+    ],
+    "metaLine": "Downeast Maine · land-trust GIS + field role · ArcGIS Pro, Field Maps, Survey123 · $49–56k · 2–3 yrs asked · BY OCT 18",
+    "body": "Maine Coast Heritage Trust, the state's largest coastal land trust, is hiring a Conservation Associate to support land-protection projects along the Lincolnville-to-Lubec coast. The associate does GIS mapping in ArcGIS Pro, Field Maps and Survey123, manages geospatial data and records, prepares baseline documentation for conservation easements and makes field visits. The posting asks for an associate or bachelor's degree plus two to three years of experience (or four to five years of GIS and conservation experience). Pay is $49,000–$56,000 a year. Applications close October 18, 2026.",
+    "desc": "A permanent land-trust job built on exactly her GIS toolset, at a leading conservation non-profit — the experience ask makes it a reach, but GIS-heavy applicants are often considered.",
+    "pills": [
+      "Non-profit land trust",
+      "GIS-centred",
+      "$49–56k",
+      "⚠️ 2–3 yrs asked"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-10-18",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "planned"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Northeast",
+    "id": "item-1813",
+    "title": "Field Technician — cold-stunned sea turtle rescue patrols on Cape Cod beaches, Oct 15 2026 – Jan 16 2027 (Mass Audubon Wellfleet Bay)",
+    "org": "Mass Audubon · Wellfleet Bay Wildlife Sanctuary · South Wellfleet, MA",
+    "location": "South Wellfleet, Massachusetts (Cape Cod)",
+    "deadline": "Rolling — the season starts October 15, 2026, so apply now",
+    "badge": "Good fit",
+    "pay": "$19–$21 per hour plus $30 phone stipend (published)",
+    "stipend": "",
+    "benefits": "Shared housing may be available",
+    "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=6044bc19-19e6-443a-8a51-62fe8af33798&ccId=19000101_000001&jobId=549223&lang=en_US",
+    "url_label": "Field Technician — cold-stunned sea turtle rescue patrols on Cape Cod beaches, Oct 15 2026 – Jan 16 2027 (Mass Audubon Wellfleet Bay)",
+    "links": [
+      {
+        "href": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=6044bc19-19e6-443a-8a51-62fe8af33798&ccId=19000101_000001&jobId=549223&lang=en_US",
+        "label": "🔗 Field Technician — cold-stunned sea turtle rescue patrols on Cape Cod beaches, Oct 15 2026 – Jan 16 2027 (Mass Audubon Wellfleet Bay)"
+      }
+    ],
+    "metaLine": "Cape Cod MA · seasonal Oct 15–Jan 16 · sea turtle cold-stun recovery + spatial data · $19–21/hr, housing possible · rolling",
+    "body": "Mass Audubon's Wellfleet Bay Wildlife Sanctuary is hiring seasonal field technicians from October 15, 2026 to January 16, 2027 to recover cold-stunned sea turtles and diamondback terrapins on Cape Cod beaches, including overnight shifts, and to maintain the project's databases, including spatial data. The posting requires a bachelor's in biology, ecology or a related field and prefers three to six months of herpetological or marine field experience. Pay is $19–$21 an hour with a $30 phone stipend, and shared housing may be available. Applications are reviewed on a rolling basis.",
+    "desc": "A short, paid, hands-on wildlife rescue season with a major conservation non-profit that fits neatly before winter/spring field jobs start.",
+    "pills": [
+      "Non-profit (Mass Audubon)",
+      "Sea turtle rescue",
+      "Housing possible",
+      "Starts Oct 15"
+    ],
+    "start": "October 15, 2026 – January 16, 2027",
+    "deadline_date": "2026-10-14",
+    "start_date": "2026-10-15",
+    "housing_provided": false,
+    "relocation": "tight"
   }
 ]
