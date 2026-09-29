@@ -80773,5 +80773,317 @@
     "start_date": "2026-11-01",
     "housing_provided": false,
     "relocation": "planned"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1863",
+    "title": "Habitat Specialist I (permanent) — Quail Forever habitat crew: prescribed fire, native grass and forb establishment, invasive control and landowner assistance (with Missouri Dept. of Conservation, Williamsburg MO)",
+    "org": "Pheasants Forever & Quail Forever · with Missouri Department of Conservation · Williamsburg, MO",
+    "location": "Williamsburg, Missouri (work within ~50 miles)",
+    "deadline": "October 15, 2026",
+    "badge": "Strong fit",
+    "pay": "$43,000–$46,000 per year (published)",
+    "stipend": "",
+    "benefits": "Permanent full-time non-profit position with benefits; start November 2026",
+    "url": "https://pheasantsforever.applytojob.com/apply/EJP6v8n1iH/Habitat-Specialist-I",
+    "url_label": "Habitat Specialist I (permanent) — Quail Forever habitat crew: prescribed fire, native grass and forb establishment, invasive control and landowner assistance (with Missouri Dept. of Conservation, Williamsburg MO)",
+    "links": [
+      {
+        "href": "https://pheasantsforever.applytojob.com/apply/EJP6v8n1iH/Habitat-Specialist-I",
+        "label": "🔗 Habitat Specialist I (permanent) — Quail Forever habitat crew: prescribed fire, native grass and forb establishment, invasive control and landowner assistance (with Missouri Dept. of Conservation, Williamsburg MO)"
+      }
+    ],
+    "metaLine": "Williamsburg MO · permanent non-profit habitat crew · Rx fire, native plantings, seed collection · $43–46k · BY OCT 15",
+    "body": "Pheasants Forever and Quail Forever, working with the Missouri Department of Conservation, are hiring a permanent full-time Habitat Specialist I as one of a four-person crew based in Williamsburg, Missouri, starting November 2026. The crew does prescribed burns, native grass and forb establishment, invasive species control, seed collection, natural-community identification and technical assistance to landowners within about 50 miles. A bachelor's in ecology, forestry or wildlife is preferred, along with two of: upland habitat management, prescribed fire, tractor work or invasive control. Pay is $43,000–$46,000 a year. Applications close October 15, 2026.",
+    "desc": "A permanent, hands-on habitat-restoration job with a leading wildlife non-profit and a state agency partner; prescribed-fire experience would strengthen her application.",
+    "pills": [
+      "Permanent non-profit job",
+      "Habitat restoration",
+      "Prescribed fire",
+      "$43–46k"
+    ],
+    "start": "November 2026",
+    "deadline_date": "2026-10-15",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "planned"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Mountain West",
+    "id": "item-1864",
+    "title": "Farm Bill Wildlife Biologist I/II/III — NRCS-embedded wildlife and habitat technical assistance for private landowners in northeast Montana (Pheasants Forever, Scobey MT)",
+    "org": "Pheasants Forever & Quail Forever · with USDA NRCS · Scobey, MT",
+    "location": "Scobey, Montana (NRCS field office; Daniels, Sheridan and Roosevelt counties)",
+    "deadline": "Open until filled (start December 2026)",
+    "badge": "Strong fit",
+    "pay": "$45,000–$53,000 per year (published)",
+    "stipend": "",
+    "benefits": "Permanent non-profit position with benefits",
+    "url": "https://pheasantsforever.applytojob.com/apply/URRkTwdQJ7/Farm-Bill-Wildlife-Biologist-I-II-Or-III",
+    "url_label": "Farm Bill Wildlife Biologist I/II/III — NRCS-embedded wildlife and habitat technical assistance for private landowners in northeast Montana (Pheasants Forever, Scobey MT)",
+    "links": [
+      {
+        "href": "https://pheasantsforever.applytojob.com/apply/URRkTwdQJ7/Farm-Bill-Wildlife-Biologist-I-II-Or-III",
+        "label": "🔗 Farm Bill Wildlife Biologist I/II/III — NRCS-embedded wildlife and habitat technical assistance for private landowners in northeast Montana (Pheasants Forever, Scobey MT)"
+      }
+    ],
+    "metaLine": "Scobey MT · permanent Farm Bill biologist in an NRCS office · private-lands wildlife planning · $45–53k · BS qualifies at level I · open until filled",
+    "body": "Pheasants Forever is hiring a Farm Bill Wildlife Biologist (level I, II or III) based at the NRCS field office in Scobey, Montana, giving wildlife and habitat technical assistance and conservation planning to private landowners in Daniels, Sheridan and Roosevelt counties. The requirement is a bachelor's in wildlife, range or a related natural-resources field, or related experience, so she qualifies at level I. Pay is $45,000–$53,000 a year, starting December 2026; the position is open until filled.",
+    "desc": "Farm Bill biologist jobs sit inside NRCS offices — one of the most reliable routes into a USDA career — and this one takes a new graduate at level I.",
+    "pills": [
+      "Inside an NRCS office",
+      "Permanent",
+      "BS qualifies",
+      "$45–53k"
+    ],
+    "start": "December 2026",
+    "deadline_date": "2026-11-15",
+    "start_date": "2026-12-01",
+    "housing_provided": false,
+    "relocation": "planned"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-1865",
+    "title": "Land Management Technician — habitat enhancement, invasive plant control and planting on ~9,800 acres of conserved land (Endangered Habitats Conservancy, San Diego)",
+    "org": "Endangered Habitats Conservancy · land trust · San Diego, CA",
+    "location": "San Diego, California",
+    "deadline": "October 8, 2026",
+    "badge": "Good fit",
+    "pay": "$45,000–$50,000 per year (published)",
+    "stipend": "",
+    "benefits": "Permanent full-time non-profit position; available immediately",
+    "url": "https://www.conservationjobboard.com/job-listing-land-management-technician-san-diego-california/1496048608",
+    "url_label": "Land Management Technician — habitat enhancement, invasive plant control and planting on ~9,800 acres of conserved land (Endangered Habitats Conservancy, San Diego)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-land-management-technician-san-diego-california/1496048608",
+        "label": "🔗 Land Management Technician — habitat enhancement, invasive plant control and planting on ~9,800 acres of conserved land (Endangered Habitats Conservancy, San Diego)"
+      }
+    ],
+    "metaLine": "San Diego CA · permanent land-trust stewardship tech · restoration, invasives, planting · $45–50k · BY OCT 8",
+    "body": "The Endangered Habitats Conservancy, a San Diego land trust, is hiring a permanent full-time Land Management Technician for about 9,800 acres of conserved land. Work includes habitat enhancement, invasive plant control, planting, trail and fence work and monthly reporting. Pay is $45,000–$50,000 a year and the job is available immediately. Apply by email to ehcjobsearch@gmail.com, mentioning the Conservation Job Board posting, by October 8, 2026.",
+    "desc": "A permanent land-trust stewardship job; physically demanding and more maintenance than science, but real restoration work.",
+    "pills": [
+      "Non-profit land trust",
+      "Permanent",
+      "Restoration",
+      "$45–50k"
+    ],
+    "start": "Immediately",
+    "deadline_date": "2026-10-08",
+    "start_date": "2026-10-19",
+    "housing_provided": false,
+    "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-1866",
+    "title": "Habitat Restoration Technician (permanent) — riparian restoration and fish-passage-barrier surveys in the Stillaguamish and Snohomish watersheds (Sound Salmon Solutions, Mukilteo WA)",
+    "org": "Sound Salmon Solutions · Mukilteo, WA",
+    "location": "Mukilteo, Washington (Stillaguamish and Snohomish watersheds)",
+    "deadline": "October 8, 2026",
+    "badge": "Good fit",
+    "pay": "$18–$19 per hour with benefits (published)",
+    "stipend": "",
+    "benefits": "Permanent full-time non-profit position; start October 13, 2026",
+    "url": "https://www.conservationjobboard.com/job-listing-habitat-restoration-technician-mukilteo-washington/5946495579",
+    "url_label": "Habitat Restoration Technician (permanent) — riparian restoration and fish-passage-barrier surveys in the Stillaguamish and Snohomish watersheds (Sound Salmon Solutions, Mukilteo WA)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-habitat-restoration-technician-mukilteo-washington/5946495579",
+        "label": "🔗 Habitat Restoration Technician (permanent) — riparian restoration and fish-passage-barrier surveys in the Stillaguamish and Snohomish watersheds (Sound Salmon Solutions, Mukilteo WA)"
+      }
+    ],
+    "metaLine": "Mukilteo WA · permanent non-profit restoration tech · riparian planting, weed + fish-barrier surveys, tablet data · $18–19/hr + benefits · BY OCT 8",
+    "body": "Sound Salmon Solutions is hiring a permanent full-time Habitat Restoration Technician for riparian restoration in the Stillaguamish and Snohomish watersheds: invasive weed control, planting, erosion control and fencing, plus invasive-weed and fish-passage-barrier surveys with GPS/tablet data collection. A bachelor's in environmental science is preferred; a Washington pesticide licence is highly desired and a driver's licence is required. Pay is $18–$19 an hour with benefits, starting October 13, 2026. Applications close October 8, 2026.",
+    "desc": "Watershed restoration with field data collection at a salmon-recovery non-profit, and her degree is the preferred one; the pay is low.",
+    "pills": [
+      "Non-profit",
+      "Riparian restoration",
+      "Env. Sci degree preferred",
+      "$18–19/hr + benefits"
+    ],
+    "start": "October 13, 2026",
+    "deadline_date": "2026-10-08",
+    "start_date": "2026-10-13",
+    "housing_provided": false,
+    "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-1867",
+    "title": "Gila Agreements Project Coordinator — post-fire watershed restoration planning across the 2022 Black Fire scar, Gila National Forest (Bat Conservation International)",
+    "org": "Bat Conservation International · Gila National Forest partnership · Silver City / Truth or Consequences, NM",
+    "location": "Within 1.5 hours of Silver City or Truth or Consequences, New Mexico (remote base plus backcountry field travel)",
+    "deadline": "October 15, 2026",
+    "badge": "Reach",
+    "pay": "$55,000–$65,000 per year plus benefits (published)",
+    "stipend": "",
+    "benefits": "Non-profit position with benefits; start expected November 2026",
+    "url": "https://www.conservationjobboard.com/job-listing-gila-agreements-project-coordinator-silver-city-new-mexico/3270412132",
+    "url_label": "Gila Agreements Project Coordinator — post-fire watershed restoration planning across the 2022 Black Fire scar, Gila National Forest (Bat Conservation International)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-gila-agreements-project-coordinator-silver-city-new-mexico/3270412132",
+        "label": "🔗 Gila Agreements Project Coordinator — post-fire watershed restoration planning across the 2022 Black Fire scar, Gila National Forest (Bat Conservation International)"
+      }
+    ],
+    "metaLine": "SW New Mexico · non-profit post-fire watershed restoration coordinator · Gila NF · $55–65k · experience level unconfirmed · BY OCT 15",
+    "body": "Bat Conservation International is hiring a Gila Agreements Project Coordinator to support planning and implementation of post-fire watershed restoration across the 325,000-acre 2022 Black Fire scar on the Gila National Forest, including low-tech, process-based restoration. Work includes backcountry field travel and may include supervising seasonal crews; the start is expected in November 2026. Pay is $55,000–$65,000 a year with benefits. The experience requirement was not confirmed, so it may be above entry level. Applications close October 15, 2026.",
+    "desc": "Watershed restoration on a national forest with a respected conservation non-profit — a reach on experience, but squarely in her interest area.",
+    "pills": [
+      "Non-profit",
+      "Watershed restoration",
+      "Gila National Forest",
+      "$55–65k"
+    ],
+    "start": "November 2026",
+    "deadline_date": "2026-10-15",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "planned"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-1868",
+    "title": "Research Technician I (mountain lion capture) — trapping, collaring, camera traps and telemetry for the South Texas Lion Project (Caesar Kleberg Wildlife Research Institute)",
+    "org": "Texas A&M University-Kingsville · Caesar Kleberg Wildlife Research Institute · Val Verde County, TX",
+    "location": "Val Verde County, Texas (ranch housing provided)",
+    "deadline": "October 22, 2026",
+    "badge": "Good fit",
+    "pay": "Commensurate with experience (not published)",
+    "stipend": "",
+    "benefits": "Temporary position, December 1, 2026 – April 30, 2027; housing on ranches provided",
+    "url": "https://tamus.wd1.myworkdayjobs.com/System-wide_External/job/Kingsville-TX/Research-Technician-I_R-097313",
+    "url_label": "Research Technician I (mountain lion capture) — trapping, collaring, camera traps and telemetry for the South Texas Lion Project (Caesar Kleberg Wildlife Research Institute)",
+    "links": [
+      {
+        "href": "https://tamus.wd1.myworkdayjobs.com/System-wide_External/job/Kingsville-TX/Research-Technician-I_R-097313",
+        "label": "🔗 Research Technician I (mountain lion capture) — trapping, collaring, camera traps and telemetry for the South Texas Lion Project (Caesar Kleberg Wildlife Research Institute)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118953",
+        "label": "🔗 Listing on the Texas A&M Natural Resources Job Board"
+      }
+    ],
+    "metaLine": "Val Verde County TX · Dec–Apr lion capture tech · trapping, collaring, camera traps, telemetry · housing provided · BY OCT 22",
+    "body": "The Caesar Kleberg Wildlife Research Institute is hiring a temporary Research Technician I for the South Texas Lion Project from December 1, 2026 to April 30, 2027, in Val Verde County with housing provided on ranches. The technician assists with trapping and collaring mountain lions, maintains camera traps, scouts for sign and radio-tracks collared lions. The posting lists at least two years of experience. Pay is commensurate with experience. Applications close October 22, 2026.",
+    "desc": "Large-carnivore capture and camera-trap work at a top wildlife research institute that recruits graduate students; the two-year experience line is the hurdle.",
+    "pills": [
+      "Mountain lions",
+      "Camera traps",
+      "Housing provided",
+      "⚠️ 2 yrs asked"
+    ],
+    "start": "December 1, 2026 – April 30, 2027",
+    "deadline_date": "2026-10-22",
+    "start_date": "2026-12-01",
+    "housing_provided": true,
+    "relocation": "housed"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Southwest",
+    "id": "item-1869",
+    "title": "Border Environmental Specialist (Environmental Science Specialist 2) — binational air, water and waste monitoring and data along the Arizona–Sonora border (Arizona DEQ)",
+    "org": "Arizona Department of Environmental Quality · Border Programs Unit · Phoenix / Tucson / Yuma, AZ",
+    "location": "Phoenix, Tucson or Yuma, Arizona (some remote; travel to Nogales and San Luis Río Colorado)",
+    "deadline": "Open until filled",
+    "badge": "Good fit",
+    "pay": "$50,000–$60,000 per year (published)",
+    "stipend": "",
+    "benefits": "Arizona state position",
+    "url": "https://www.azstatejobs.gov/jobs/environmental-science-specialist-2-phoenix-arizona-united-states-tucson-yuma",
+    "url_label": "Border Environmental Specialist (Environmental Science Specialist 2) — binational air, water and waste monitoring and data along the Arizona–Sonora border (Arizona DEQ)",
+    "links": [
+      {
+        "href": "https://www.azstatejobs.gov/jobs/environmental-science-specialist-2-phoenix-arizona-united-states-tucson-yuma",
+        "label": "🔗 Border Environmental Specialist (Environmental Science Specialist 2) — binational air, water and waste monitoring and data along the Arizona–Sonora border (Arizona DEQ)"
+      }
+    ],
+    "metaLine": "Arizona · ADEQ border environmental specialist · monitoring stations + data across air/water/waste · $50–60k · open until filled",
+    "body": "Arizona DEQ's Border Programs Unit is hiring a Border Environmental Specialist (Environmental Science Specialist 2) based in Phoenix, Tucson or Yuma, with some remote work and travel to Nogales and San Luis Río Colorado, Mexico. The specialist supports binational environmental initiatives, maintains air-quality monitoring stations and carries out technical analysis, data collection and regulatory reporting across air, water and waste. Pay is $50,000–$60,000 a year; check the experience requirement on the posting. It is open until filled.",
+    "desc": "A state environmental-science job with monitoring and data work; more air-quality-focused than her core interests.",
+    "pills": [
+      "State agency",
+      "Monitoring + data",
+      "$50–60k",
+      "Open until filled"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-10-31",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "planned"
   }
 ]
