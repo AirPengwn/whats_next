@@ -76689,5 +76689,329 @@
     "start_date": "2026-10-19",
     "housing_provided": true,
     "relocation": "housed"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1772",
+    "title": "Osceola Wild Turkey Research Technicians (3) — trapping and telemetry on a UF / FWC collaborative project, with housing (University of Florida Game Lab, near Melbourne FL)",
+    "org": "University of Florida · Game Lab · with Florida Fish and Wildlife Conservation Commission (FWRI) · near Melbourne, FL",
+    "location": "Private property west of Melbourne, Florida (south-central Florida)",
+    "deadline": "October 30, 2026",
+    "badge": "Good fit",
+    "pay": "$16 per hour (published)",
+    "stipend": "",
+    "benefits": "Shared on-site fieldhouse housing and field vehicles provided (no pets)",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119019",
+    "url_label": "Osceola Wild Turkey Research Technicians (3) — trapping and telemetry on a UF / FWC collaborative project, with housing (University of Florida Game Lab, near Melbourne FL)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119019",
+        "label": "🔗 Osceola Wild Turkey Research Technicians (3) — trapping and telemetry on a UF / FWC collaborative project, with housing (University of Florida Game Lab, near Melbourne FL)"
+      }
+    ],
+    "metaLine": "South-central FL · 3 turkey techs (Dec–Feb or Nov–Jun) · $16/hr + free housing & vehicle · BY OCT 30",
+    "body": "The University of Florida Game Lab and FWC's Fish and Wildlife Research Institute are recruiting three full-time research technicians for a collaborative Osceola wild turkey ecology project in south-central Florida: one FWC technician (December–February) and two UF technicians (one December–February, one November–June). Fieldwork is on private property near Melbourne. Shared housing in an on-site fieldhouse and field vehicles are provided. Pay is $16 an hour, and applications close October 30, 2026.",
+    "desc": "A housed winter wildlife-capture job with a state agency partner — useful field experience for a low cost of living, with a longer November–June option.",
+    "pills": [
+      "Free housing + vehicle",
+      "Wildlife capture & telemetry",
+      "UF + FWC",
+      "$16/hr"
+    ],
+    "start": "November or December 2026 (through February or June 2027)",
+    "deadline_date": "2026-10-30",
+    "start_date": "2026-12-01",
+    "housing_provided": true,
+    "relocation": "housed"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1773",
+    "title": "White-tailed Deer Research Technicians (2) — adult and fawn capture with GPS collars at the Savannah River Site (Clemson University, Aiken SC)",
+    "org": "Clemson University · Department of Forestry and Environmental Conservation · Savannah River Site · Aiken, SC",
+    "location": "Savannah River Site, Aiken, South Carolina",
+    "deadline": "October 5, 2026",
+    "badge": "Good fit",
+    "pay": "$20 per hour (published)",
+    "stipend": "",
+    "benefits": "Seasonal research technician position (January–July 2027)",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119022",
+    "url_label": "White-tailed Deer Research Technicians (2) — adult and fawn capture with GPS collars at the Savannah River Site (Clemson University, Aiken SC)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119022",
+        "label": "🔗 White-tailed Deer Research Technicians (2) — adult and fawn capture with GPS collars at the Savannah River Site (Clemson University, Aiken SC)"
+      }
+    ],
+    "metaLine": "Aiken SC · 2 deer techs Jan–Jul 2027 · dart-rifle capture, fawn collaring, game cameras · $20/hr · BY OCT 5",
+    "body": "Clemson University is seeking two research technicians to help capture adult white-tailed deer and fawns for a PhD project at the Department of Energy's Savannah River Site in Aiken, South Carolina. The project studies interactions between deer and two invasive or expanding mammals, coyotes and wild pigs. Technicians assist with dart-rifle deer capture and opportunistic fawn capture to deploy GPS collars, check and operate game cameras, help with field necropsies and enter data, working long outdoor days including early mornings and late evenings. The job runs January to July 2027 at $20 an hour; applications close October 5, 2026.",
+    "desc": "Hands-on large-mammal capture and camera work on a federal research site, and a chance to work alongside a PhD project before choosing her own.",
+    "pills": [
+      "Deer capture + GPS collars",
+      "Game cameras",
+      "$20/hr",
+      "⏰ Closes Oct 5"
+    ],
+    "start": "January 4–11 through late July 2027",
+    "deadline_date": "2026-10-05",
+    "start_date": "2027-01-04",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1774",
+    "title": "Wildlife Technician (168-day seasonal) — prescribed fire crew for gopher tortoise habitat at Alapaha River WMA (Georgia DNR Wildlife Resources, Ocilla GA)",
+    "org": "Georgia Department of Natural Resources · Wildlife Resources Division · Wildlife Conservation Section · Ocilla, GA",
+    "location": "Alapaha River Wildlife Management Area, Ocilla, Georgia",
+    "deadline": "October 30, 2026",
+    "badge": "Good fit",
+    "pay": "$14–$17 per hour (published)",
+    "stipend": "",
+    "benefits": "168-day seasonal state position",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=118992",
+    "url_label": "Wildlife Technician (168-day seasonal) — prescribed fire crew for gopher tortoise habitat at Alapaha River WMA (Georgia DNR Wildlife Resources, Ocilla GA)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118992",
+        "label": "🔗 Wildlife Technician (168-day seasonal) — prescribed fire crew for gopher tortoise habitat at Alapaha River WMA (Georgia DNR Wildlife Resources, Ocilla GA)"
+      }
+    ],
+    "metaLine": "Ocilla GA · 4 seasonal Rx-fire crew (Jan–Jun 2027) · gopher tortoise habitat burns, monitoring · $14–17/hr · BY OCT 30",
+    "body": "Georgia DNR's Wildlife Conservation Section is hiring four seasonal associates for a four-person burn crew based at Alapaha River WMA in Ocilla, carrying out prescribed fire and habitat restoration across Georgia's Coastal Plain, mainly on high-priority gopher tortoise habitat. Work includes prescribed fire operations, fireline construction, equipment maintenance and pre- and post-burn monitoring, and may include invasive species control, native planting, other land management and species surveys. The 168-day season starts in January 2027; pay is $14–$17 an hour. Applications close October 30, 2026.",
+    "desc": "Prescribed-fire qualifications are valued across southeastern land-management jobs; this is a separate crew from the Canoochee Sandhills burn crew already on the list.",
+    "pills": [
+      "Prescribed fire",
+      "Gopher tortoise habitat",
+      "State agency",
+      "Jan–Jun 2027"
+    ],
+    "start": "January 2027 (168 days)",
+    "deadline_date": "2026-10-30",
+    "start_date": "2027-01-04",
+    "housing_provided": false,
+    "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1775",
+    "title": "Forest Wildlife Specialist, Tennessee Private Lands — NRCS forest management plans for young-forest wildlife on the Cumberland Plateau (Ruffed Grouse Society & American Woodcock Society)",
+    "org": "Ruffed Grouse Society & American Woodcock Society · with The Nature Conservancy and NRCS-Tennessee · northeastern Tennessee",
+    "location": "Home office in northeastern Tennessee (Cumberland Plateau; Knoxville area), frequent field travel",
+    "deadline": "October 16, 2026",
+    "badge": "Good fit",
+    "pay": "$44,000–$68,000 per year (published)",
+    "stipend": "",
+    "benefits": "Full-time, 2-year term",
+    "url": "https://ruffedgrousesociety.org/wp-content/uploads/2026/09/Forest-Wildlife-Specialist-TN-PL.pdf",
+    "url_label": "Forest Wildlife Specialist, Tennessee Private Lands — NRCS forest management plans for young-forest wildlife on the Cumberland Plateau (Ruffed Grouse Society & American Woodcock Society)",
+    "links": [
+      {
+        "href": "https://ruffedgrousesociety.org/wp-content/uploads/2026/09/Forest-Wildlife-Specialist-TN-PL.pdf",
+        "label": "🔗 Forest Wildlife Specialist, Tennessee Private Lands — NRCS forest management plans for young-forest wildlife on the Cumberland Plateau (Ruffed Grouse Society & American Woodcock Society)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118995",
+        "label": "🔗 Listing on the Texas A&M Natural Resources Job Board"
+      }
+    ],
+    "metaLine": "NE Tennessee · 2-yr non-profit/NRCS partner role · private-land forest plans for wildlife · $44–68k · BY OCT 16",
+    "body": "The Ruffed Grouse Society and American Woodcock Society, in partnership with The Nature Conservancy, NRCS-Tennessee and others, seek a conservation forester for a two-year, full-time role leading sustainable forest management on private lands on the Cumberland Plateau, benefiting imperilled wildlife, landowner livelihoods, oak-pine composition and forest health. The specialist prepares NRCS-compliant Forest Management Plans and provides technical assistance and outreach from a home office in northeastern Tennessee, with frequent field travel. Qualifications call for a degree in forestry or a related field, preferably with forest-stand improvement and wildlife coursework, and knowledge of forest inventory tools. Pay is $44,000–$68,000; applications close October 16, 2026.",
+    "desc": "A non-profit NRCS partner position — the kind of role that feeds directly into USDA careers. It prefers a forestry background, so frame her degree and field skills as the \"related field\".",
+    "pills": [
+      "NRCS partner position",
+      "Non-profit",
+      "$44–68k",
+      "Forestry preferred"
+    ],
+    "start": "After September 23, 2026 (2-year term)",
+    "deadline_date": "2026-10-16",
+    "start_date": "2026-11-01",
+    "housing_provided": false,
+    "relocation": "planned"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-1776",
+    "title": "Field Survey Technician — winter grassland raptor surveys (northern harrier, short-eared owl) at New York project sites (EDR environmental consulting)",
+    "org": "EDR (Environmental Design & Research, D.P.C.) · New York State project sites",
+    "location": "Project sites across New York State",
+    "deadline": "November 2, 2026",
+    "badge": "Good fit",
+    "pay": "$20–$24 per hour (published)",
+    "stipend": "",
+    "benefits": "Temporary per-project/per-season; may be extended",
+    "url": "https://careers.edrdpc.com/17901110167710098820LsJ",
+    "url_label": "Field Survey Technician — winter grassland raptor surveys (northern harrier, short-eared owl) at New York project sites (EDR environmental consulting)",
+    "links": [
+      {
+        "href": "https://careers.edrdpc.com/17901110167710098820LsJ",
+        "label": "🔗 Field Survey Technician — winter grassland raptor surveys (northern harrier, short-eared owl) at New York project sites (EDR environmental consulting)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119001",
+        "label": "🔗 Listing on the Texas A&M Natural Resources Job Board"
+      }
+    ],
+    "metaLine": "Upstate NY · consulting avian survey tech Nov 2026–Apr 2027 · winter raptor surveys · $20–24/hr · BY NOV 2",
+    "body": "EDR is hiring temporary Field Survey Technicians to run avian surveys at project sites in New York State, mostly afternoon and evening watches from fixed points for wintering grassland raptors such as northern harriers and short-eared owls in agricultural landscapes. Technicians drive to sites, hike or snowshoe to survey points, identify birds by sight and sound, and record and map observations electronically. The work runs roughly November 2026 through March–April 2027 and may be extended depending on projects and performance. Pay is $20–$24 an hour; applications close November 2, 2026.",
+    "desc": "Environmental-consulting survey work for energy siting, a common entry route into consulting careers. Bird identification by sight and sound is the key skill to demonstrate.",
+    "pills": [
+      "Consulting firm",
+      "Winter raptor surveys",
+      "$20–24/hr",
+      "Nov–Apr"
+    ],
+    "start": "Early-to-mid November 2026 through March–April 2027",
+    "deadline_date": "2026-11-02",
+    "start_date": "2026-11-02",
+    "housing_provided": false,
+    "relocation": "tight"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-1777",
+    "title": "Research Technician I — ocelot and bobcat den monitoring with GPS collars and remote cameras at Laguna Atascosa NWR (Caesar Kleberg Wildlife Research Institute, TAMU-Kingsville)",
+    "org": "Texas A&M University-Kingsville · Caesar Kleberg Wildlife Research Institute · SPEC Lab · Laguna Atascosa National Wildlife Refuge, TX",
+    "location": "Laguna Atascosa National Wildlife Refuge, Texas (housing provided)",
+    "deadline": "October 6, 2026",
+    "badge": "Good fit",
+    "pay": "$16 per hour (published)",
+    "stipend": "",
+    "benefits": "Temporary position with housing provided at the refuge",
+    "url": "https://tamus.wd1.myworkdayjobs.com/System-wide_External/job/Kingsville-TX/Research-Technician-I_R-097166",
+    "url_label": "Research Technician I — ocelot and bobcat den monitoring with GPS collars and remote cameras at Laguna Atascosa NWR (Caesar Kleberg Wildlife Research Institute, TAMU-Kingsville)",
+    "links": [
+      {
+        "href": "https://tamus.wd1.myworkdayjobs.com/System-wide_External/job/Kingsville-TX/Research-Technician-I_R-097166",
+        "label": "🔗 Research Technician I — ocelot and bobcat den monitoring with GPS collars and remote cameras at Laguna Atascosa NWR (Caesar Kleberg Wildlife Research Institute, TAMU-Kingsville)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=118812",
+        "label": "🔗 Listing on the Texas A&M Natural Resources Job Board"
+      }
+    ],
+    "metaLine": "Laguna Atascosa NWR TX · Oct 2026–May 2027 · endangered ocelot den monitoring, camera placement · $16/hr + housing · BY OCT 6",
+    "body": "The Spatial and Population Ecology of Carnivores (SPEC) Lab at the Caesar Kleberg Wildlife Research Institute is hiring a temporary Research Technician I for its South Texas Ocelot Research Program, working at Laguna Atascosa National Wildlife Refuge with housing provided. Duties include monitoring GPS-collared ocelots and bobcats to detect denning, radio-tracking collared ocelots, bobcats and coyotes when needed, placing remote cameras at suspected den sites and leading a small team. The position starts in October 2026 and ends by May 31, 2027, at $16 an hour. The listing asks for two years of relevant experience (high-school diploma minimum). Applications close October 6, 2026.",
+    "desc": "Endangered-cat work on a national wildlife refuge using the camera-trap skills she already has, with free housing — the two-year experience line is the hurdle.",
+    "pills": [
+      "Endangered ocelots",
+      "Camera traps at dens",
+      "Housing provided",
+      "On a USFWS refuge"
+    ],
+    "start": "October 2026 through May 31, 2027",
+    "deadline_date": "2026-10-06",
+    "start_date": "2026-10-19",
+    "housing_provided": true,
+    "relocation": "housed"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-1778",
+    "title": "Wildlife Aerial Sensor Operator — seasonal aerial wildlife census flights across the US and Canada (Owyhee Air Research, Nampa ID)",
+    "org": "Owyhee Air Research · Nampa, ID",
+    "location": "Nampa, Idaho headquarters; extended travel to remote parts of the US and Canada",
+    "deadline": "December 4, 2026",
+    "badge": "Good fit",
+    "pay": "Starting at $4,500 per month (published)",
+    "stipend": "",
+    "benefits": "Seasonal (October 2026 – April 2027), possible extension; travel-based",
+    "url": "https://www.owyheeair.com/",
+    "url_label": "Wildlife Aerial Sensor Operator — seasonal aerial wildlife census flights across the US and Canada (Owyhee Air Research, Nampa ID)",
+    "links": [
+      {
+        "href": "https://www.owyheeair.com/",
+        "label": "🔗 Wildlife Aerial Sensor Operator — seasonal aerial wildlife census flights across the US and Canada (Owyhee Air Research, Nampa ID)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119073",
+        "label": "🔗 Listing on the Texas A&M Natural Resources Job Board"
+      }
+    ],
+    "metaLine": "Nampa ID + travel · seasonal Oct–Apr · aerial wildlife surveys with multispectral imaging · $4,500/mo",
+    "body": "Owyhee Air Research, a small aerial data company in Nampa, Idaho, is hiring a seasonal aerial sensor operator for its 2026–27 wildlife survey season. OAR collects natural resource and ecological data from fixed-wing aircraft fitted with multispectral imaging systems, and a core part of its work is aerial censusing of free-ranging wildlife across varied landscapes. The work runs from early October through April 2027, with possible extension, and involves extended travel to remote parts of the US and Canada, with less than a quarter of the time at headquarters. Pay starts at $4,500 a month; the listing asks for a bachelor's degree and about a year of experience, and is open through December 4, 2026.",
+    "desc": "An unusual remote-sensing-meets-wildlife job that uses her GIS side in the field; the heavy travel suits someone without a fixed base.",
+    "pills": [
+      "Remote sensing",
+      "Aerial wildlife census",
+      "$4,500/mo",
+      "Travel-heavy"
+    ],
+    "start": "Early October 2026 through April 2027",
+    "deadline_date": "2026-12-04",
+    "start_date": "2026-10-05",
+    "housing_provided": false,
+    "relocation": "tight"
   }
 ]
