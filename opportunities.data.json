@@ -81620,5 +81620,137 @@
     "start_date": "2027-01-04",
     "housing_provided": false,
     "relocation": "lead"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1880",
+    "title": "West Tennessee Stewardship Ecologist — hands-on land management and ecological restoration on state natural areas (Tennessee Dept. of Environment and Conservation, Division of Natural Areas, Jackson)",
+    "org": "Tennessee Department of Environment and Conservation · Division of Natural Areas · Jackson, TN",
+    "location": "Jackson, Tennessee (natural areas from the Mississippi River to the Highland Rim)",
+    "deadline": "Listed through October 12, 2026 (confirm the TDEC closing date)",
+    "badge": "Good fit",
+    "pay": "$67,764–$108,060 per year (published)",
+    "stipend": "",
+    "benefits": "Tennessee state benefits; some remote work possible",
+    "url": "https://www.conservationjobboard.com/job-listing-west-tn-stewardship-ecologist-jackson-tennessee/8307559288",
+    "url_label": "West Tennessee Stewardship Ecologist — hands-on land management and ecological restoration on state natural areas (Tennessee Dept. of Environment and Conservation, Division of Natural Areas, Jackson)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-west-tn-stewardship-ecologist-jackson-tennessee/8307559288",
+        "label": "🔗 West Tennessee Stewardship Ecologist — hands-on land management and ecological restoration on state natural areas (Tennessee Dept. of Environment and Conservation, Division of Natural Areas, Jackson)"
+      }
+    ],
+    "metaLine": "Jackson TN · state natural-areas stewardship ecologist · restoration + land management, mostly field · $67.8–108k · listed thru OCT 12",
+    "body": "The Tennessee Department of Environment and Conservation's Division of Natural Areas is hiring a Stewardship Ecologist for West Tennessee — the hands-on manager of land-management and ecological-restoration work at state natural areas from the Mississippi River to the Highland Rim. The work is mainly in the field, with regional travel, some overnight trips and occasional long days, and some remote work is possible. Pay is $67,764–$108,060 a year. The Conservation Job Board lists it through October 12, 2026; check the experience requirement and closing date on TDEC's posting.",
+    "desc": "A professional restoration-ecology job running state natural areas — the salary band suggests it expects some experience, so treat it as a stretch worth trying.",
+    "pills": [
+      "State natural areas",
+      "Ecological restoration",
+      "$67.8–108k",
+      "Check experience"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-10-12",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "planned"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-1881",
+    "title": "Water Resources Regulatory Specialist — stormwater permit review, site inspections and wetland delineation review (Capitol Region Watershed District, St. Paul MN)",
+    "org": "Capitol Region Watershed District · Regulatory Division · Saint Paul, MN",
+    "location": "Saint Paul, Minnesota",
+    "deadline": "Listed through October 13, 2026",
+    "badge": "Good fit",
+    "pay": "$59,628–$89,506 per year (published)",
+    "stipend": "",
+    "benefits": "Watershed district (local government) position",
+    "url": "https://www.conservationjobboard.com/job-listing-water-resources-regulatory-specialist-saint-paul-minnesota/3451400503",
+    "url_label": "Water Resources Regulatory Specialist — stormwater permit review, site inspections and wetland delineation review (Capitol Region Watershed District, St. Paul MN)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-water-resources-regulatory-specialist-saint-paul-minnesota/3451400503",
+        "label": "🔗 Water Resources Regulatory Specialist — stormwater permit review, site inspections and wetland delineation review (Capitol Region Watershed District, St. Paul MN)"
+      }
+    ],
+    "metaLine": "St. Paul MN · watershed district regulatory specialist · stormwater permits, inspections, wetland delineation review · $59.6–89.5k · thru OCT 13",
+    "body": "The Capitol Region Watershed District in St. Paul is hiring a Water Resources Regulatory Specialist for its Regulatory Division. The specialist helps implement and enforce district rules protecting water resources: plan review and site inspections for development projects needing district permits, assessing how permanent stormwater practices function, and supporting the review of wetland delineations and wetland permits, working with the district's permit engineer on stormwater pollution prevention plans and models. Pay is $59,628–$89,506 a year. The posting is listed through October 13, 2026.",
+    "desc": "Watershed regulation that includes reviewing wetland delineations — a direct use of her Army Corps–manual training at a well-regarded watershed district.",
+    "pills": [
+      "Watershed district",
+      "Wetland delineation review",
+      "Stormwater permits",
+      "$59.6–89.5k"
+    ],
+    "start": "Upon selection",
+    "deadline_date": "2026-10-13",
+    "start_date": "2026-11-15",
+    "housing_provided": false,
+    "relocation": "planned"
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — September 29, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-1882",
+    "title": "Natural Resource Technician — 29-week AmeriCorps individual placement at Jimmy Carter National Historical Park (Southeast Conservation Corps, Plains GA)",
+    "org": "Conservation Legacy · Southeast Conservation Corps · with National Park Service · Jimmy Carter National Historical Park, Plains, GA",
+    "location": "Plains, Georgia",
+    "deadline": "November 9, 2026",
+    "badge": "Good fit",
+    "pay": "$480/week living allowance plus $320/week additional benefit (published)",
+    "stipend": "$480/week AmeriCorps living allowance + $320/week",
+    "benefits": "Segal AmeriCorps Education Award $3,697.50; uniform and PPE",
+    "url": "https://www.conservationjobboard.com/job-listing-americorps-individual-placement--natural-resource-technician-plains-georgia/2123066751",
+    "url_label": "Natural Resource Technician — 29-week AmeriCorps individual placement at Jimmy Carter National Historical Park (Southeast Conservation Corps, Plains GA)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-americorps-individual-placement--natural-resource-technician-plains-georgia/2123066751",
+        "label": "🔗 Natural Resource Technician — 29-week AmeriCorps individual placement at Jimmy Carter National Historical Park (Southeast Conservation Corps, Plains GA)"
+      }
+    ],
+    "metaLine": "Plains GA · NPS AmeriCorps IP Nov 9 2026–May 28 2027 · natural resource technician · $480+$320/wk · listed thru NOV 9",
+    "body": "The Southeast Conservation Corps is placing a Natural Resource Technician with the National Park Service at Jimmy Carter National Historical Park in Plains, Georgia, for a 29-week, 900-hour AmeriCorps term from November 9, 2026 to May 28, 2027. The living allowance is $480 a week plus a $320 weekly additional benefit, with a $3,697.50 Segal Education Award on completion. The listing runs through November 9, 2026.",
+    "desc": "A paid NPS natural-resources term that starts in November — useful federal-lands experience for an NCCC alumna.",
+    "pills": [
+      "NPS placement",
+      "AmeriCorps IP",
+      "$800/week total",
+      "Starts Nov 9"
+    ],
+    "start": "November 9, 2026 – May 28, 2027",
+    "deadline_date": "2026-11-09",
+    "start_date": "2026-11-09",
+    "housing_provided": false,
+    "relocation": "tight"
   }
 ]
