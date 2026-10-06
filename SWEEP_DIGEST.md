@@ -1,40 +1,33 @@
 # Weekly opportunity sweep — 2026-10-06
 
-**Added 31 new** opportunities:
-- Senior Wildlife Technician (GPS Collars) — statewide winter elk, mule deer, moose and bighorn captures (Idaho Fish and Game, Boise) — _Good_ · Mountain West · deadline: October 25, 2026
-- Senior Wildlife Technician – Habitat — weed control, restoration planting and surveys on the Boise River Wildlife Management Area (Idaho Fish and Game) — _Good_ · Mountain West · deadline: October 26, 2026
-- Technician — wintering grassland bird and habitat surveys in the Chihuahuan Desert (Borderlands Research Institute, Sul Ross State University) — _Good_ · Southwest · deadline: November 15, 2026
-- Wildlife Management Specialist (1 year) — habitat management and wildlife surveys at Iowa DNR's Rathbun Wildlife Unit (Pheasants Forever) — _Good_ · Midwest & Great Plains · deadline: October 21, 2026
-- Forester / Forester Trainee — municipal forests, street trees and private-woodland stewardship (DelAtlantic Conservation District, West Berlin NJ) — _Good_ · Northeast · deadline: November 1, 2026
-- Wildlife Area Technician (Natural Resource Technician 3, permanent, 2026-08065) — Douglas County Wildlife Area Complex (WDFW, Brewster WA) — _Good_ · West Coast / Pacific · deadline: October 8, 2026
-- NPS White-Nose Syndrome Surveillance Technician (4 positions) — Mojave and Klamath network bat surveillance (Bat Conservation International) — _Strong_ · National / Remote / Multiple · deadline: October 23, 2026
-- Invasive Plant Strike Team Crew — permanent, benefited riparian and habitat restoration crew (Tucson Bird Alliance, Tucson AZ) — _Good_ · Southwest · deadline: October 30, 2026
-- Western Snowy Plover Conservation Technician — Monterey Bay nest monitoring, March–August 2027 (Point Blue Conservation Science) — _Good_ · West Coast / Pacific · deadline: December 15, 2026
-- SCA Wildlife Biology Internship with the U.S. Army Corps of Engineers — 39 weeks on herp and bird surveys around 13 Willamette Valley reservoirs (Junction City OR) — _Strong_ · West Coast / Pacific · deadline: November 30, 2026
-- Ecological Restoration Technician I — wetland and stream mitigation restoration (Resource Environmental Solutions, Colonie NY) — _Strong_ · Northeast · deadline: October 30, 2026
-- Funded PhD (BS entry) — behavioural toxicology: cadmium toxicity mechanisms and fire-related contaminants (University of Miami, Shelton Lab) — _Good_ · Southeast & Appalachia · deadline: December 1, 2026
-- MS assistantship — avian migration and urban stopover use with a campus bird observatory and Motus tower (Arkansas State University, Boves Lab) — _Good_ · Southeast & Appalachia · deadline: December 31, 2026
-- Wild Turkey Technician — capture, banding and breeding-ecology fieldwork (University of Rhode Island) — _Good_ · Northeast · deadline: October 30, 2026
-- White-tailed Deer Research Technician (multiple positions) — captures, GPS telemetry, disease sampling and camera trapping across Illinois (SIU Carbondale) — _Good_ · Midwest & Great Plains · deadline: October 13, 2026
-- Wildlife Technician 1/2 (position 00100750) — Urban Wildlife Program, human–wildlife conflict technical assistance in Metro Atlanta (Georgia DNR) — _Good_ · Southeast & Appalachia · deadline: October 10, 2026
-- Environmental Technician II — stewardship of state conservation properties and easements (NC DEQ Stewardship Program, Raleigh) — _Good_ · Southeast & Appalachia · deadline: October 15, 2026
-- Seasonal Field Technicians — greater prairie-chicken survival, nesting and movement ecology in Kansas and Nebraska (Kansas Cooperative Fish & Wildlife Research Unit) — _Good_ · Midwest & Great Plains · deadline: November 15, 2026
-- Arizona Bald Eagle Nestwatch Program — up to 16 contract field technicians monitoring breeding eagles along riparian corridors (Arizona Game and Fish) — _Good_ · Southwest · deadline: November 20, 2026
-- Fisheries Technician I (temporary) — paddlefish, sturgeon and large-river fish sampling (Missouri Department of Conservation, Columbia MO) — _Good_ · Midwest & Great Plains · deadline: October 16, 2026
-- Seasonal Wildlife Technician (Small Carnivores) — camera surveys and live trapping for the ESA-petitioned plains spotted skunk (Oklahoma State University) — _Strong_ · Midwest & Great Plains · deadline: October 16, 2026
-- Piping Plover Technician (student contractor, 6–12 positions) — Missouri River sandbar nest monitoring in North and South Dakota (USGS Northern Prairie Wildlife Research Center) — _Good_ · Midwest & Great Plains · deadline: October 18, 2026
-- Avian Research Technician — Bachman's and Henslow's sparrow nonbreeding-season research in the Red Hills and at Nokuse Plantation (Tall Timbers, Stoddard Bird Lab) — _Good_ · Southeast & Appalachia · deadline: October 23, 2026
-- Forestry Aide (Biological Field Technician, JC-533582) — special-status species surveys incl. burrowing owl at Ocotillo Wells SVRA (California State Parks) — _Good_ · West Coast / Pacific · deadline: October 12, 2026
-- Ruffed Grouse Research Technicians (2–3) — roadside drumming surveys and nest searching across North Georgia (University of Georgia) — _Good_ · Southeast & Appalachia · deadline: January 8, 2027
-- Data Management Specialist — Alaska Marine Mammal Observer Program, harbor porpoise bycatch data (Pacific States Marine Fisheries Commission, Juneau) — _Good_ · Alaska, Hawaii & Territories · deadline: October 18, 2026
-- Wild Turkey Seasonal Technician (2) — trapping, translocation and breeding-season monitoring on Sapelo Island (Georgia DNR) — _Good_ · Southeast & Appalachia · deadline: November 30, 2026
-- Wild Turkey Seasonal Technician — central Georgia turkey research at Cedar Creek WMA (Georgia DNR, Eatonton) — _Good_ · Southeast & Appalachia · deadline: November 30, 2026
-- Golden-cheeked Warbler Seasonal Field Biologists (5) — banding, nest monitoring, territory mapping and distance sampling on Fort Hood TX (University of Illinois) — _Strong_ · Southwest · deadline: October 31, 2026
-- Summer 2027 Paid Internship — Land Management: wetland, stream and habitat mitigation-bank stewardship (Westervelt Ecological Services, Auburn AL) — _Good_ · Southeast & Appalachia · deadline: December 31, 2026
-- Land Stewardship Technician — habitat management and monitoring on mitigation and conservation properties (Westervelt Ecological Services, Auburn AL) — _Good_ · Southeast & Appalachia · deadline: December 31, 2026
+**Added 21 new** opportunities:
+- AmeriCorps Crew Leader (450 hours, summer 2027) — trail and restoration crews in Rocky Mountain National Park and Arapaho & Roosevelt National Forests (Rocky Mountain Conservancy) — _Good_ · Mountain West · deadline: February 5, 2027
+- AmeriCorps Crew Member (300 hours, summer 2027) — Rocky Mountain National Park and national-forest stewardship crews (Rocky Mountain Conservancy) — _Good_ · Mountain West · deadline: February 28, 2027
+- AmeriCorps Riparian Restoration Strike Team Crew Leader — tamarisk and Russian-olive removal and native revegetation on western Colorado rivers (Western Colorado Conservation Corps / RiversEdge West) — _Good_ · Mountain West · deadline: January 31, 2027
+- AmeriCorps Riparian Restoration Strike Team Crew Member — invasive riparian vegetation control and native revegetation (Western Colorado Conservation Corps / RiversEdge West) — _Good_ · Mountain West · deadline: January 31, 2027
+- AmeriCorps Conservation Corps Crew Leader — western Colorado public-lands project crews (Western Colorado Conservation Corps) — _Good_ · Mountain West · deadline: January 31, 2027
+- Lakes Region Conservation Corps — 2027 AmeriCorps term with New Hampshire conservation partners (land trusts, trails and habitat stewardship) — _Good_ · Northeast · deadline: December 22, 2026
+- Year-Round Assistant Crew Leader — wilderness stewardship crews, funded through August 2030 (Southern Appalachian Wilderness Stewards, Roanoke VA) — _Good_ · Southeast & Appalachia · deadline: October 30, 2026
+- Montana Fish, Wildlife & Parks AmeriCorps Member — 11-month terms at 15 state parks, wildlife centers and regional offices — _Good_ · Mountain West · deadline: January 8, 2027
+- AmeriCorps Crew Leader (1,700 hours) — 4–10 person conservation crews out of the Moab field office (Utah Conservation Corps, Utah State University) — _Good_ · Mountain West · deadline: November 12, 2026
+- Visitor and Community Engagement Specialist (AmeriCorps, 675 hours) — Cabeza Prieta National Wildlife Refuge, incl. refuge GIS product (Arizona Conservation Corps, Ajo AZ) — _Good_ · Southwest · deadline: October 25, 2026
+- Fisheries Biologist II (GFTL, 2605204) — invasive carp research and management on the Ohio River and tributaries (Kentucky Fish & Wildlife, Frankfort) — _Good_ · Southeast & Appalachia · deadline: October 11, 2026
+- Biologist III — Predation Management Biologist for shorebird and seabird nesting sites in Gulf, Bay and Walton counties (FWC, Panama City FL) — _Reach / review_ · Southeast & Appalachia · deadline: October 11, 2026
+- Northern Bobwhite Field Research Technician — East Texas quail research with free housing (Tall Timbers, Livingston TX) — _Good_ · Southwest · deadline: November 29, 2026
+- Ecological Crew Leader — invasive species management, prairie establishment and native-plant stewardship (Native Landscape Solutions, St. Louis MO) — _Good_ · Midwest & Great Plains · deadline: October 31, 2026
+- Assistant Data Scientist — data management for NPS Inventory & Monitoring networks (Institute for Wildlife Studies, Fort Cronkhite / Golden Gate) — _Good_ · West Coast / Pacific · deadline: October 23, 2026
+- San Clemente Island Seasonal Restoration Technician (2) — habitat restoration and rare-plant surveys on a Navy-managed Channel Island (SDSU Research Foundation, SERG) — _Good_ · West Coast / Pacific · deadline: October 25, 2026
+- San Clemente Island Seasonal Invasive Technician — mapping and controlling invasive plants (SDSU Research Foundation, SERG) — _Reach / review_ · West Coast / Pacific · deadline: October 25, 2026
+- Ohio River Creel Clerk (Natural Resources Technician, 10 positions) — angler interviews for the five-year Ohio River creel survey (Ohio DNR Division of Wildlife) — _Good_ · Midwest & Great Plains · deadline: October 19, 2026
+- Funded MS or PhD — aquatic ecology and fisheries: climate, land use, eutrophication and PFAS effects on freshwater systems (Miami University, Wagner Lab) — _Good_ · Midwest & Great Plains · deadline: December 30, 2026
+- Funded MS — evaluating professional readiness of forestry graduates and employer expectations (Mississippi State University, Dept. of Forestry, Dr. Arun Regmi) — _Good_ · Southeast & Appalachia · deadline: October 15, 2026
+- Funded MS — soil biogeochemistry: soil organic matter responses to climate, management and fire (University of Wyoming, Soil CORE Lab, Dr. Katie Rocci) — _Good_ · Mountain West · deadline: October 30, 2026 (priority review; open until filled)
 
-**Updated 1** (deadline / status / description changed):
-- Fish Screening, Passage & Restoration Coordinator (NRS 2; NRS 1 underfill option) (Oregon Department of Fish and Wildlife) — _Reach / review_ · West Coast / Pacific · deadline: October 18, 2026
+**⚠ Review these (reach / weak fit — your call whether to keep):**
+- Biologist III — Predation Management Biologist for shorebird and seabird nesting sites in Gulf, Bay and Walton counties (FWC, Panama City FL) — _Reach / review_ · Southeast & Appalachia · deadline: October 11, 2026
+- San Clemente Island Seasonal Invasive Technician — mapping and controlling invasive plants (SDSU Research Foundation, SERG) — _Reach / review_ · West Coast / Pacific · deadline: October 25, 2026
 
-**Total opportunities:** 1897  ·  next-cycle: 509  ·  expired (one-time, no future cycle): 467
+**Updated 0** (deadline / status / description changed).
+
+**Total opportunities:** 1918  ·  next-cycle: 509  ·  expired (one-time, no future cycle): 467
 Triage: passed-but-recurring → `cycle:"next"`; one-time/discontinued → `expired:true`. Passed/expired are hidden on the site by default (toggle to show); never deleted, never moved to the personal Archive. Fit tiers: _Excellent_ / _Strong_ / _Good_ / _Reach / review_ (set via each entry's badge). The Browse pages render from this data automatically — no HTML edits. Nothing is live until this PR is merged.
