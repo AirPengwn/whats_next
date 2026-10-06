@@ -1,33 +1,32 @@
 # Weekly opportunity sweep — 2026-10-06
 
-**Added 21 new** opportunities:
-- AmeriCorps Crew Leader (450 hours, summer 2027) — trail and restoration crews in Rocky Mountain National Park and Arapaho & Roosevelt National Forests (Rocky Mountain Conservancy) — _Good_ · Mountain West · deadline: February 5, 2027
-- AmeriCorps Crew Member (300 hours, summer 2027) — Rocky Mountain National Park and national-forest stewardship crews (Rocky Mountain Conservancy) — _Good_ · Mountain West · deadline: February 28, 2027
-- AmeriCorps Riparian Restoration Strike Team Crew Leader — tamarisk and Russian-olive removal and native revegetation on western Colorado rivers (Western Colorado Conservation Corps / RiversEdge West) — _Good_ · Mountain West · deadline: January 31, 2027
-- AmeriCorps Riparian Restoration Strike Team Crew Member — invasive riparian vegetation control and native revegetation (Western Colorado Conservation Corps / RiversEdge West) — _Good_ · Mountain West · deadline: January 31, 2027
-- AmeriCorps Conservation Corps Crew Leader — western Colorado public-lands project crews (Western Colorado Conservation Corps) — _Good_ · Mountain West · deadline: January 31, 2027
+**Added 23 new** opportunities:
+- Environmental Specialist I (37010218) — wetland / ERP regulatory field work on the Certified Wetland Evaluator track (Florida DEP, West Palm Beach) — _Excellent_ · Southeast & Appalachia · deadline: October 19, 2026
+- Environmental Specialist I (37011050) — field investigation and compliance incl. wetland ID and soil/water/sediment sampling (Florida DEP, Tallahassee) — _Strong_ · Southeast & Appalachia · deadline: October 13, 2026
+- Environmental Specialist I (37011313) — environmental programme field inspection and data analysis (Florida DEP, Fort Myers) — _Good_ · Southeast & Appalachia · deadline: October 11, 2026
+- Environmental Specialist I (JR-125241) — erosion and sedimentation control, stormwater, dam safety and mining inspections (NC DEQ DEMLR, Mooresville Regional Office) — _Strong_ · Southeast & Appalachia · deadline: October 12, 2026 (closes 11:59 pm the night before)
+- Wildlife and Fisheries Technician A–C — coastal marsh WMA stewardship and water-level data at Pointe-aux-Chenes WMA (Louisiana Wildlife & Fisheries) — _Good_ · Southeast & Appalachia · deadline: October 15, 2026
+- Northern Bobwhite Research Intern — telemetry, capture, raptor surveys and prescribed fire at Livingston Place (Tall Timbers, Monticello FL) — _Good_ · Southeast & Appalachia · deadline: December 11, 2026
+- ARD Helene Recovery Trail Crew Member (AmeriCorps, 300 hours) — rebuilding Hurricane Helene damage in Pisgah National Forest's Appalachian Ranger District (Conservation Corps North Carolina) — _Strong_ · Southeast & Appalachia · deadline: February 1, 2027
+- Croatan Vegetation Management Assistant Crew Leader (AmeriCorps, 300 hours) — invasive and vegetation management in Croatan National Forest (Conservation Corps North Carolina) — _Good_ · Southeast & Appalachia · deadline: Rolling — term January 25 to April 21, 2027
+- State Parks Mountains Crew Member (AmeriCorps, 300 hours) — conservation projects in North Carolina mountain state parks (Conservation Corps North Carolina) — _Good_ · Southeast & Appalachia · deadline: Rolling — term February 2 to April 21, 2027
+- State Parks Piedmont Crew Member (AmeriCorps, 300 hours) — conservation projects in North Carolina Piedmont state parks (Conservation Corps North Carolina) — _Good_ · Southeast & Appalachia · deadline: February 1, 2027
+- Cumberland Trail Crew Member (AmeriCorps, 450 hours) — camping trail crew on the Cumberland Trail State Scenic Trail (Southeast Conservation Corps, Chattanooga TN) — _Good_ · Southeast & Appalachia · deadline: January 11, 2027
+- Biologist 1 (Marine) / Trainee 1 / 2 (NY HELPS, no exam) — seagrass and marine-habitat monitoring and project review (NYSDEC Division of Marine Resources, Kings Park) — _Strong_ · Northeast · deadline: October 21, 2026
+- Environmental Program Specialist 1 / Trainee 1 / 2 (NY HELPS) — petroleum and chemical spill response and cleanup oversight (NYSDEC Region 3 Remediation, New Paltz) — _Strong_ · Northeast · deadline: October 21, 2026
+- Environmental Program Specialist 1 / Trainee 1 / 2 (NY HELPS) — wastewater operator certification and workforce programme (NYSDEC Bureau of Water Permits, Albany) — _Good_ · Northeast · deadline: October 21, 2026
+- Environmental Program Specialist 1 / Trainee 1 / 2 (NY HELPS) — hazardous-waste technical review under RCRA (NYSDEC Division of Materials Management, Albany) — _Good_ · Northeast · deadline: October 21, 2026
+- Aquatic Biologist 1 — black fly programme field sampling of macroinvertebrates, fish, plankton and water chemistry with GIS mapping (PA DEP Bureau of Laboratories, Williamsport) — _Strong_ · Northeast · deadline: October 13, 2026
+- Environmental Management Staffer — Healthy Landscapes Goal Team (wetlands, riparian forests, protected lands) at the EPA Chesapeake Bay Program (Chesapeake Research Consortium) — _Strong_ · Northeast · deadline: October 15, 2026
+- Steamtown Chesapeake Gateways Ambassador (AmeriCorps, 50 weeks) — NPS individual placement at Steamtown National Historic Site (Appalachian Conservation Corps) — _Good_ · Northeast · deadline: October 11, 2026
+- Field Naturalist (part-time, year-round) — nature walks and programmes at Fields Pond Audubon Center (Maine Audubon, Holden ME) — _Good_ · Northeast · deadline: October 15, 2026 (review ongoing until filled)
+- AmeriCorps Community Educator (1,700 hours) — naturalist, community-science and trail work at The Wild Center (Tupper Lake NY, Adirondacks) — _Good_ · Northeast · deadline: October 31, 2026
+- Temporary Field Assistant (fall 2026) — sapling measurement and research-plot work at Harvard Forest (Cavender-Bares Lab, Petersham MA) — _Good_ · Northeast · deadline: Contact-first — no closing date posted
+- Marine Biologist (At-Sea Monitor) — catch, discard and protected-species bycatch data aboard groundfish vessels for NOAA NEFSC (A.I.S., Inc., Gloucester MA) — _Good_ · Northeast · deadline: Contact-first — no closing date posted
+- Wildlife Rehabilitation Technician — wildlife hospital care with a Master Wildlife Rehabilitator apprenticeship (Second Chance Wildlife Center, Clarksburg MD) — _Good_ · Northeast · deadline: January 31, 2027
+
+**Updated 1** (deadline / status / description changed):
 - Lakes Region Conservation Corps — 2027 AmeriCorps term with New Hampshire conservation partners (land trusts, trails and habitat stewardship) — _Good_ · Northeast · deadline: December 22, 2026
-- Year-Round Assistant Crew Leader — wilderness stewardship crews, funded through August 2030 (Southern Appalachian Wilderness Stewards, Roanoke VA) — _Good_ · Southeast & Appalachia · deadline: October 30, 2026
-- Montana Fish, Wildlife & Parks AmeriCorps Member — 11-month terms at 15 state parks, wildlife centers and regional offices — _Good_ · Mountain West · deadline: January 8, 2027
-- AmeriCorps Crew Leader (1,700 hours) — 4–10 person conservation crews out of the Moab field office (Utah Conservation Corps, Utah State University) — _Good_ · Mountain West · deadline: November 12, 2026
-- Visitor and Community Engagement Specialist (AmeriCorps, 675 hours) — Cabeza Prieta National Wildlife Refuge, incl. refuge GIS product (Arizona Conservation Corps, Ajo AZ) — _Good_ · Southwest · deadline: October 25, 2026
-- Fisheries Biologist II (GFTL, 2605204) — invasive carp research and management on the Ohio River and tributaries (Kentucky Fish & Wildlife, Frankfort) — _Good_ · Southeast & Appalachia · deadline: October 11, 2026
-- Biologist III — Predation Management Biologist for shorebird and seabird nesting sites in Gulf, Bay and Walton counties (FWC, Panama City FL) — _Reach / review_ · Southeast & Appalachia · deadline: October 11, 2026
-- Northern Bobwhite Field Research Technician — East Texas quail research with free housing (Tall Timbers, Livingston TX) — _Good_ · Southwest · deadline: November 29, 2026
-- Ecological Crew Leader — invasive species management, prairie establishment and native-plant stewardship (Native Landscape Solutions, St. Louis MO) — _Good_ · Midwest & Great Plains · deadline: October 31, 2026
-- Assistant Data Scientist — data management for NPS Inventory & Monitoring networks (Institute for Wildlife Studies, Fort Cronkhite / Golden Gate) — _Good_ · West Coast / Pacific · deadline: October 23, 2026
-- San Clemente Island Seasonal Restoration Technician (2) — habitat restoration and rare-plant surveys on a Navy-managed Channel Island (SDSU Research Foundation, SERG) — _Good_ · West Coast / Pacific · deadline: October 25, 2026
-- San Clemente Island Seasonal Invasive Technician — mapping and controlling invasive plants (SDSU Research Foundation, SERG) — _Reach / review_ · West Coast / Pacific · deadline: October 25, 2026
-- Ohio River Creel Clerk (Natural Resources Technician, 10 positions) — angler interviews for the five-year Ohio River creel survey (Ohio DNR Division of Wildlife) — _Good_ · Midwest & Great Plains · deadline: October 19, 2026
-- Funded MS or PhD — aquatic ecology and fisheries: climate, land use, eutrophication and PFAS effects on freshwater systems (Miami University, Wagner Lab) — _Good_ · Midwest & Great Plains · deadline: December 30, 2026
-- Funded MS — evaluating professional readiness of forestry graduates and employer expectations (Mississippi State University, Dept. of Forestry, Dr. Arun Regmi) — _Good_ · Southeast & Appalachia · deadline: October 15, 2026
-- Funded MS — soil biogeochemistry: soil organic matter responses to climate, management and fire (University of Wyoming, Soil CORE Lab, Dr. Katie Rocci) — _Good_ · Mountain West · deadline: October 30, 2026 (priority review; open until filled)
 
-**⚠ Review these (reach / weak fit — your call whether to keep):**
-- Biologist III — Predation Management Biologist for shorebird and seabird nesting sites in Gulf, Bay and Walton counties (FWC, Panama City FL) — _Reach / review_ · Southeast & Appalachia · deadline: October 11, 2026
-- San Clemente Island Seasonal Invasive Technician — mapping and controlling invasive plants (SDSU Research Foundation, SERG) — _Reach / review_ · West Coast / Pacific · deadline: October 25, 2026
-
-**Updated 0** (deadline / status / description changed).
-
-**Total opportunities:** 1918  ·  next-cycle: 509  ·  expired (one-time, no future cycle): 467
+**Total opportunities:** 1941  ·  next-cycle: 509  ·  expired (one-time, no future cycle): 467
 Triage: passed-but-recurring → `cycle:"next"`; one-time/discontinued → `expired:true`. Passed/expired are hidden on the site by default (toggle to show); never deleted, never moved to the personal Archive. Fit tiers: _Excellent_ / _Strong_ / _Good_ / _Reach / review_ (set via each entry's badge). The Browse pages render from this data automatically — no HTML edits. Nothing is live until this PR is merged.
