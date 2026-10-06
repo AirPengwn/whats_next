@@ -1,32 +1,45 @@
 # Weekly opportunity sweep — 2026-10-06
 
-**Added 23 new** opportunities:
-- Environmental Specialist I (37010218) — wetland / ERP regulatory field work on the Certified Wetland Evaluator track (Florida DEP, West Palm Beach) — _Excellent_ · Southeast & Appalachia · deadline: October 19, 2026
-- Environmental Specialist I (37011050) — field investigation and compliance incl. wetland ID and soil/water/sediment sampling (Florida DEP, Tallahassee) — _Strong_ · Southeast & Appalachia · deadline: October 13, 2026
-- Environmental Specialist I (37011313) — environmental programme field inspection and data analysis (Florida DEP, Fort Myers) — _Good_ · Southeast & Appalachia · deadline: October 11, 2026
-- Environmental Specialist I (JR-125241) — erosion and sedimentation control, stormwater, dam safety and mining inspections (NC DEQ DEMLR, Mooresville Regional Office) — _Strong_ · Southeast & Appalachia · deadline: October 12, 2026 (closes 11:59 pm the night before)
-- Wildlife and Fisheries Technician A–C — coastal marsh WMA stewardship and water-level data at Pointe-aux-Chenes WMA (Louisiana Wildlife & Fisheries) — _Good_ · Southeast & Appalachia · deadline: October 15, 2026
-- Northern Bobwhite Research Intern — telemetry, capture, raptor surveys and prescribed fire at Livingston Place (Tall Timbers, Monticello FL) — _Good_ · Southeast & Appalachia · deadline: December 11, 2026
-- ARD Helene Recovery Trail Crew Member (AmeriCorps, 300 hours) — rebuilding Hurricane Helene damage in Pisgah National Forest's Appalachian Ranger District (Conservation Corps North Carolina) — _Strong_ · Southeast & Appalachia · deadline: February 1, 2027
-- Croatan Vegetation Management Assistant Crew Leader (AmeriCorps, 300 hours) — invasive and vegetation management in Croatan National Forest (Conservation Corps North Carolina) — _Good_ · Southeast & Appalachia · deadline: Rolling — term January 25 to April 21, 2027
-- State Parks Mountains Crew Member (AmeriCorps, 300 hours) — conservation projects in North Carolina mountain state parks (Conservation Corps North Carolina) — _Good_ · Southeast & Appalachia · deadline: Rolling — term February 2 to April 21, 2027
-- State Parks Piedmont Crew Member (AmeriCorps, 300 hours) — conservation projects in North Carolina Piedmont state parks (Conservation Corps North Carolina) — _Good_ · Southeast & Appalachia · deadline: February 1, 2027
-- Cumberland Trail Crew Member (AmeriCorps, 450 hours) — camping trail crew on the Cumberland Trail State Scenic Trail (Southeast Conservation Corps, Chattanooga TN) — _Good_ · Southeast & Appalachia · deadline: January 11, 2027
-- Biologist 1 (Marine) / Trainee 1 / 2 (NY HELPS, no exam) — seagrass and marine-habitat monitoring and project review (NYSDEC Division of Marine Resources, Kings Park) — _Strong_ · Northeast · deadline: October 21, 2026
-- Environmental Program Specialist 1 / Trainee 1 / 2 (NY HELPS) — petroleum and chemical spill response and cleanup oversight (NYSDEC Region 3 Remediation, New Paltz) — _Strong_ · Northeast · deadline: October 21, 2026
-- Environmental Program Specialist 1 / Trainee 1 / 2 (NY HELPS) — wastewater operator certification and workforce programme (NYSDEC Bureau of Water Permits, Albany) — _Good_ · Northeast · deadline: October 21, 2026
-- Environmental Program Specialist 1 / Trainee 1 / 2 (NY HELPS) — hazardous-waste technical review under RCRA (NYSDEC Division of Materials Management, Albany) — _Good_ · Northeast · deadline: October 21, 2026
-- Aquatic Biologist 1 — black fly programme field sampling of macroinvertebrates, fish, plankton and water chemistry with GIS mapping (PA DEP Bureau of Laboratories, Williamsport) — _Strong_ · Northeast · deadline: October 13, 2026
-- Environmental Management Staffer — Healthy Landscapes Goal Team (wetlands, riparian forests, protected lands) at the EPA Chesapeake Bay Program (Chesapeake Research Consortium) — _Strong_ · Northeast · deadline: October 15, 2026
-- Steamtown Chesapeake Gateways Ambassador (AmeriCorps, 50 weeks) — NPS individual placement at Steamtown National Historic Site (Appalachian Conservation Corps) — _Good_ · Northeast · deadline: October 11, 2026
-- Field Naturalist (part-time, year-round) — nature walks and programmes at Fields Pond Audubon Center (Maine Audubon, Holden ME) — _Good_ · Northeast · deadline: October 15, 2026 (review ongoing until filled)
-- AmeriCorps Community Educator (1,700 hours) — naturalist, community-science and trail work at The Wild Center (Tupper Lake NY, Adirondacks) — _Good_ · Northeast · deadline: October 31, 2026
-- Temporary Field Assistant (fall 2026) — sapling measurement and research-plot work at Harvard Forest (Cavender-Bares Lab, Petersham MA) — _Good_ · Northeast · deadline: Contact-first — no closing date posted
-- Marine Biologist (At-Sea Monitor) — catch, discard and protected-species bycatch data aboard groundfish vessels for NOAA NEFSC (A.I.S., Inc., Gloucester MA) — _Good_ · Northeast · deadline: Contact-first — no closing date posted
-- Wildlife Rehabilitation Technician — wildlife hospital care with a Master Wildlife Rehabilitator apprenticeship (Second Chance Wildlife Center, Clarksburg MD) — _Good_ · Northeast · deadline: January 31, 2027
+**Added 32 new** opportunities:
+- Biological Science Technician (Seasonal), GS-5 and GS-6/7 — NPS Intermountain Region parks, plants, wildlife and aquatic monitoring (USAJOBS 887508000 / 887508200) — _Strong_ · Mountain West · deadline: October 13, 2026
+- Biological Science Technician (Plants) (Seasonal), GS-5 and GS-6/7 — invasive-plant control, vegetation monitoring and restoration at about 20 Intermountain parks (USAJOBS 887509400 / 887510900) — _Strong_ · Mountain West · deadline: October 13, 2026
+- Biological Scientist (Environmental), GS-7/9 — PALACE Acquire recent-graduate intern track to a permanent Air Force environmental position (USAJOBS 887075100) — _Strong_ · National / Remote / Multiple · deadline: September 30, 2027 (continuous announcement)
+- Biological Science Technician (Wildlife), GS-7, seasonal — BLM Ridgecrest Field Office (USAJOBS 887673300) — _Good_ · West Coast / Pacific · deadline: October 20, 2026
+- Preserve Land Conservation Intern (8 months, housing provided) — Apalachicola Bluffs and Ravines Preserve (The Nature Conservancy, Bristol FL) — _Good_ · Southeast & Appalachia · deadline: October 19, 2026
+- Field Technician, Molokai — East Molokai watershed protection: fencing, ungulate and predator control, invasive plants, GPS/GIS mapping (The Nature Conservancy, Hawai'i) — _Good_ · Alaska, Hawaii & Territories · deadline: November 2, 2026
+- Bird Conservation Assistant, Palmyra Atoll — monitoring the first wild Sihek (Guam kingfisher) population in 36 years (The Nature Conservancy with USFWS) — _Good_ · Alaska, Hawaii & Territories · deadline: October 15, 2026
+- Coastal Fire Practitioner and Land Steward — prescribed fire and stewardship at Splinter Hill Bog and coastal AL/MS preserves (The Nature Conservancy, Perdido AL) — _Reach / review_ · Southeast & Appalachia · deadline: October 17, 2026
+- USDA-ARS Biological Science Fellowship (ORISE, entomology focus) — insect pest management research at the Arid Land Agricultural Research Center (Maricopa AZ) — _Good_ · Southwest · deadline: November 20, 2026 (rolling review; may close early)
+- Research Technician I–II — oyster-reef and coastal-habitat field and lab work: water filtering, sediment prep, benthic invertebrates (Harte Research Institute, TAMU-Corpus Christi) — _Good_ · Southwest · deadline: October 15, 2026
+- Research Assistant — Texas Native Seeds field, greenhouse and lab research in West Texas (Caesar Kleberg Wildlife Research Institute, Alpine TX) — _Good_ · Southwest · deadline: Open until filled (posted September 15, 2026)
+- Research Technician I — bobcat box-trapping, telemetry, scat sampling and remote-camera work, January–April 2027 (CKWRI SPEC Lab, Kingsville TX) — _Good_ · Southwest · deadline: Open until filled (posted September 11, 2026)
+- Land & Wildlife Field Technician I (entry level) — habitat restoration, prescribed burns, wildlife surveys and GPS mapping (Lower Colorado River Authority, Marble Falls TX) — _Reach / review_ · Southwest · deadline: October 30, 2026
+- Farm Bill Specialist (2 openings) — NRCS-embedded landowner conservation and wildlife-habitat programmes (North Dakota Association of Soil Conservation Districts) — _Strong_ · Midwest & Great Plains · deadline: October 14, 2026
+- Mapping and Data Specialist (AmeriCorps individual placement) — GIS asset mapping and species monitoring with MN DNR (Conservation Corps Minnesota & Iowa) — _Strong_ · Midwest & Great Plains · deadline: Rolling
+- Forestry and Field Specialist (AmeriCorps individual placement) — field surveys, plant and aquatic-species ID, invasive control and native seeding (Conservation Corps Minnesota & Iowa) — _Good_ · Midwest & Great Plains · deadline: Rolling
+- Urban and Community Forestry Placement (AmeriCorps) — tree inventories, emerald ash borer monitoring and planting with Minnesota municipalities (Conservation Corps Minnesota & Iowa) — _Good_ · Midwest & Great Plains · deadline: Rolling
+- Conservation Technician (Natural Areas) — habitat restoration, prescribed fire, wetland and pond management, fish surveys (Five Rivers MetroParks, Germantown OH) — _Good_ · Midwest & Great Plains · deadline: October 18, 2026
+- Natural Resource Stewardship Technician (seasonal, free on-site housing) — prescribed fire and natural-area stewardship at Roaring River State Park (Missouri DNR) — _Good_ · Midwest & Great Plains · deadline: October 12, 2026
+- Wildlife Technician (Pinedale) — wildlife surveys, habitat monitoring, disease sampling and elk feedground support (Wyoming Game and Fish, contract) — _Strong_ · Mountain West · deadline: October 16, 2026
+- Salmon Data Support Biologist (Fish & Wildlife Biologist 2, career seasonal) — salmon data management, hybrid/remote-flexible (WDFW, Olympia) — _Good_ · West Coast / Pacific · deadline: October 11, 2026
+- Noxious Weed Biologist (Fish & Wildlife Biologist 2, permanent) — habitat and aquatic-weed management on WDFW lands (Montesano WA) — _Good_ · West Coast / Pacific · deadline: October 11, 2026
+- Protected Species Planning Technician (RCUH 226586) — HCP and safe-harbor agreement compliance review for DLNR-DOFAW (Pacific Cooperative Studies Unit, Oahu) — _Good_ · Alaska, Hawaii & Territories · deadline: October 16, 2026
+- Protected Species Planning Assistant (RCUH 226597) — environmental-assessment and HCP review support for DLNR-DOFAW (Pacific Cooperative Studies Unit, Oahu) — _Good_ · Alaska, Hawaii & Territories · deadline: October 13, 2026
+- PCSU Field Project Technician I (RCUH 226598) — invasive control and native dry-forest and pili restoration at cultural landscape sites (Hawai'i Island) — _Good_ · Alaska, Hawaii & Territories · deadline: October 21, 2026
+- Maui NR/ER Field Associate (RCUH 226592) — weed and animal control, vegetation monitoring, seed collection and outplanting in Natural Area Reserves (PCSU, Maui) — _Good_ · Alaska, Hawaii & Territories · deadline: October 12, 2026
+- PCSU Forestry Field Project Assistant, Invasive Species Management (RCUH 226593) — alien-plant control, fencing and ungulate/predator control (Maui) — _Good_ · Alaska, Hawaii & Territories · deadline: October 12, 2026
+- PCSU Forestry Field Project Assistant, Landscape Conservation (RCUH 226591) — fence building, alien-plant and ungulate/predator control in management areas (Maui) — _Good_ · Alaska, Hawaii & Territories · deadline: October 19, 2026
+- Environmental Biology Internship (part-time) — Upper Santa Ana River Wash Habitat Conservation Plan and groundwater-recharge habitat (San Bernardino Valley Water Conservation District) — _Good_ · West Coast / Pacific · deadline: October 16, 2026 (apply by email to the District)
+- Backyard Habitat PCEF Project Specialist — habitat certification site work funded to 2030 (Bird Alliance of Oregon, Portland) — _Good_ · West Coast / Pacific · deadline: October 25, 2026
+- Motus Technical Specialist (remote, 1-year term) — supporting the US Motus automated wildlife-telemetry network (American Bird Conservancy) — _Reach / review_ · National / Remote / Multiple · deadline: October 13, 2026
+- Salt Watch Coordinator — national volunteer road-salt water-quality monitoring programme with ArcGIS trend analysis (Izaak Walton League of America, Gaithersburg MD) — _Good_ · Northeast · deadline: October 18, 2026
 
-**Updated 1** (deadline / status / description changed):
-- Lakes Region Conservation Corps — 2027 AmeriCorps term with New Hampshire conservation partners (land trusts, trails and habitat stewardship) — _Good_ · Northeast · deadline: December 22, 2026
+**⚠ Review these (reach / weak fit — your call whether to keep):**
+- Coastal Fire Practitioner and Land Steward — prescribed fire and stewardship at Splinter Hill Bog and coastal AL/MS preserves (The Nature Conservancy, Perdido AL) — _Reach / review_ · Southeast & Appalachia · deadline: October 17, 2026
+- Land & Wildlife Field Technician I (entry level) — habitat restoration, prescribed burns, wildlife surveys and GPS mapping (Lower Colorado River Authority, Marble Falls TX) — _Reach / review_ · Southwest · deadline: October 30, 2026
+- Motus Technical Specialist (remote, 1-year term) — supporting the US Motus automated wildlife-telemetry network (American Bird Conservancy) — _Reach / review_ · National / Remote / Multiple · deadline: October 13, 2026
 
-**Total opportunities:** 1941  ·  next-cycle: 509  ·  expired (one-time, no future cycle): 467
+**Updated 0** (deadline / status / description changed).
+
+**Total opportunities:** 1973  ·  next-cycle: 509  ·  expired (one-time, no future cycle): 467
 Triage: passed-but-recurring → `cycle:"next"`; one-time/discontinued → `expired:true`. Passed/expired are hidden on the site by default (toggle to show); never deleted, never moved to the personal Archive. Fit tiers: _Excellent_ / _Strong_ / _Good_ / _Reach / review_ (set via each entry's badge). The Browse pages render from this data automatically — no HTML edits. Nothing is live until this PR is merged.
