@@ -1,7 +1,6 @@
 # Weekly opportunity sweep — 2026-10-06
 
-**Added 1 new** opportunity:
-- Biological Science Technician (Bears), GS-6/7, seasonal — bear management and monitoring in Yellowstone National Park (USAJOBS 887511700) — _Good_ · Mountain West · deadline: October 13, 2026
+**Added 0 new** opportunities.
 
 **Updated 0** (deadline / status / description changed).
 
