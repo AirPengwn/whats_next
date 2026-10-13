@@ -25012,11 +25012,11 @@
     "src_label": "Funded Graduate Programs",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — July 27, 2026"
+      "label": "✨ Re-posted — October 13, 2026"
     },
     "title": "Funded MS/PhD Assistantship — big-river fisheries & acoustic telemetry",
     "org": "Iowa State University · Ames, IA",
-    "deadline": "July 31, 2026",
+    "deadline": "November 20, 2026 (re-posted)",
     "start": "See posting",
     "body": "Research on invasive carp and native fishes (sturgeon, blue suckers) behavioural ecology and population dynamics in the Missouri and Mississippi Rivers using extensive acoustic telemetry arrays, in close collaboration with state and federal agency partners. The student collects field data, supervises technicians, and leads analysis and annual reports; thesis topics can be shaped around student interests. MS applicants need a BS.",
     "desc": "A funded MS explicitly open to BS applicants, on the two largest river systems in the country, with state and federal agency partners built into the project — those partnerships are what turn a thesis into a job offer. $29,000 is a strong stipend and the posting says topics can be shaped around student interest, which leaves room to bring her water-quality angle. Deadline is July 31, so this needs an email now.",
@@ -25029,9 +25029,9 @@
       "⏰ Closes July 31"
     ],
     "metaLine": "⏰ Deadline Jul 31, 2026 · from $29,000/yr · Ames IA · BS-eligible · big-river telemetry",
-    "cycle": "next",
-    "deadline_kind": "passed",
-    "deadline_date": "2026-07-31",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-11-20",
     "region": "Midwest & Great Plains",
     "links": [
       {
@@ -25039,14 +25039,15 @@
         "label": "🔗 Funded MS/PhD Assistantship — big-river fisheries & acoustic telemetry — Iowa State University · Ames, IA"
       }
     ],
-    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=98470",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119301",
     "location": "Ames, Iowa (Missouri and Mississippi River systems)",
     "pay": "",
-    "stipend": "Starting at $29,000 per year",
+    "stipend": "Starting at $28,800 per year (published on the October 2026 re-post)",
     "benefits": "Confirm tuition and health coverage with the department",
     "id": "item-569",
     "start_date": "2026-07-31",
-    "relocation": "planned"
+    "relocation": "planned",
+    "url2": "https://jobs.rwfm.tamu.edu/view-job/?id=98470"
   },
   {
     "type": "Graduate Program",
@@ -87372,5 +87373,536 @@
     ],
     "start": "2027 field season",
     "deadline_date": "2026-10-13"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2020",
+    "title": "Wildlife Specialist — Virginia Wildlife Conflict Helpline, damage management and disease sampling (USDA APHIS Wildlife Services, Moseley VA, USAJOBS 887060800)",
+    "org": "USDA APHIS Wildlife Services · Virginia State Office · Moseley, VA",
+    "location": "Moseley, Virginia (Chesterfield/Powhatan area, ~25 mi west of Richmond)",
+    "deadline": "October 16, 2026",
+    "deadline_date": "2026-10-16",
+    "badge": "Top recommendation",
+    "pay": "$42,552–$61,663 per year (published)",
+    "url": "https://www.usajobs.gov/job/887060800",
+    "metaLine": "Moseley VA (near Richmond) · USDA Wildlife Services · BS, no experience minimum listed · $42.5–61.7k · BY OCT 16",
+    "body": "USDA APHIS Wildlife Services is hiring a Wildlife Specialist based in Moseley, Virginia, whose primary duty is staffing the Virginia Wildlife Conflict Helpline. Other duties can include wildlife damage management projects and wildlife disease sampling. The Texas A&M board listing asks for a bachelor's degree with no stated experience minimum, and pay is $42,552–$61,663 a year. The start falls between mid-December 2026 and the end of January 2027, and applications close October 16, 2026 on USAJOBS.",
+    "desc": "A permanent-track federal wildlife job a short drive from Richmond — and a foot in the door at USDA, one of her two target agencies.",
+    "pills": [
+      "USDA APHIS",
+      "Near Richmond",
+      "Federal",
+      "Wildlife conflict"
+    ],
+    "start": "Between December 13, 2026 and January 31, 2027",
+    "employer_type": "government",
+    "url_label": "Wildlife Specialist — Virginia Wildlife Conflict Helpline, damage management and disease sampling (USDA APHIS Wildlife Services, Moseley VA, USAJOBS 887060800)",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/887060800",
+        "label": "🔗 Wildlife Specialist — Virginia Wildlife Conflict Helpline, damage management and disease sampling (USDA APHIS Wildlife Services, Moseley VA, USAJOBS 887060800)"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2021",
+    "title": "Funded MS — standardized roadside distance sampling for white-tailed deer density in CWD management units (Michigan State University, Christensen Lab)",
+    "org": "Michigan State University · Department of Fisheries and Wildlife · Christensen Lab · East Lansing, MI",
+    "location": "East Lansing, Michigan (field surveys in MI, MO, OH and WI)",
+    "deadline": "October 30, 2026",
+    "deadline_date": "2026-10-30",
+    "badge": "Strong fit",
+    "pay": "Starting at $33,276 per year (published)",
+    "stipend": "Research assistantship on a USDA-funded project, starting at $33,276 per year",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119419",
+    "metaLine": "East Lansing MI · funded MS · deer density + CWD · 4-state survey design · $33,276/yr · BY OCT 30",
+    "body": "The Christensen Lab in Michigan State University's Department of Fisheries and Wildlife is recruiting a master's student for a USDA-funded project standardizing white-tailed deer density estimation to support evaluation of chronic wasting disease management. The project uses standardized roadside distance-sampling surveys in 24 paired treatment and control units across Michigan, Missouri, Ohio and Wisconsin to set baseline densities, and will build the protocols, training materials and shared data infrastructure for the surveys. The student works with MSU, state wildlife agencies and USDA partners. The assistantship starts at $33,276 a year, the start is after January 11, 2027, and applications are due October 30, 2026.",
+    "desc": "Wildlife population monitoring at multi-state scale with USDA partners — a direct line to the federal wildlife work she wants.",
+    "pills": [
+      "Funded MS",
+      "$33,276/yr",
+      "Deer + CWD",
+      "USDA-funded"
+    ],
+    "start": "After January 11, 2027",
+    "employer_type": "university",
+    "url_label": "Funded MS — standardized roadside distance sampling for white-tailed deer density in CWD management units (Michigan State University, Christensen Lab)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119419",
+        "label": "🔗 Funded MS — standardized roadside distance sampling for white-tailed deer density in CWD management units (Michigan State University, Christensen Lab)"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2022",
+    "title": "MS opportunity in small-mammal ecology — truffle and seed dispersal, trophic niches (East Tennessee State University, Stephens Lab)",
+    "org": "East Tennessee State University · Department of Biological Sciences · Dr. Ryan Stephens Lab · Johnson City, TN",
+    "location": "Johnson City, Tennessee",
+    "deadline": "December 31, 2026",
+    "deadline_date": "2026-12-31",
+    "badge": "Top recommendation",
+    "pay": "Starting at $12,200 per year (published)",
+    "stipend": "Starting at $12,200 per year as listed; tuition coverage not stated on the listing — confirm with Dr. Stephens",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119364",
+    "url2": "https://ryanbstephens.wordpress.com",
+    "metaLine": "Johnson City TN · MS fall 2027 · small mammals + fungi/seed dispersal · $12,200/yr listed · BY DEC 31",
+    "body": "Dr. Ryan Stephens's lab at East Tennessee State University is seeking a master's student to start in fall 2027. The lab studies the trophic ecology of small mammals and their consumption and dispersal of fungal spores and seeds in forests, with possible projects on truffle–mammal interactions, seed selection and dispersal, and small-mammal trophic niche dynamics, combining field and lab work. It asks for a bachelor's degree in biology, ecology, environmental science or a related field, and prior research experience is preferred. The listing gives support starting at $12,200 a year and an application deadline of December 31, 2026.",
+    "desc": "Her small-mammal trapping experience is exactly this lab's core field method, and it is in Southern Appalachia close to her WCU roots.",
+    "pills": [
+      "MS",
+      "Small mammals",
+      "Fall 2027",
+      "Southern Appalachia"
+    ],
+    "start": "Fall 2027",
+    "employer_type": "university",
+    "url_label": "MS opportunity in small-mammal ecology — truffle and seed dispersal, trophic niches (East Tennessee State University, Stephens Lab)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119364",
+        "label": "🔗 MS opportunity in small-mammal ecology — truffle and seed dispersal, trophic niches (East Tennessee State University, Stephens Lab)"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2023",
+    "title": "Funded MSc — avian ecology and remote sensing in a Southern California agroecosystem (Cal Poly Pomona, Scordato Lab, NASA SPACES Institute)",
+    "org": "California State Polytechnic University, Pomona · Scordato Lab · SPACES Institute · Pomona, CA",
+    "location": "Pomona, California",
+    "deadline": "November 13, 2026",
+    "deadline_date": "2026-11-13",
+    "badge": "Strong fit",
+    "pay": "Starting at $28,000 per year (published)",
+    "stipend": "Starting at $28,000 per year",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119326",
+    "metaLine": "Pomona CA · MSc 2027 · bird point counts + remote sensing · restoration × birds · $28,000/yr · BY NOV 13",
+    "body": "The Scordato Lab at Cal Poly Pomona is recruiting a master's student to study how native plant restoration and landscape-level vegetation structure affect bird communities across spatial scales in a Southern California agroecosystem. The lab belongs to the SPACES Institute, a NASA-funded initiative that integrates remote sensing data with on-the-ground biodiversity assessments, working with farmers and conservation non-profits. Any project involves field point counts and remote sensing products, and the student can draw on more than four years of longitudinal bird-community data. Support starts at $28,000 a year, the start is after May 2027, and applications are due November 13, 2026.",
+    "desc": "Combines restoration ecology, field surveys and remote sensing — three of her stated interests in one funded project.",
+    "pills": [
+      "Funded MSc",
+      "$28,000/yr",
+      "Remote sensing",
+      "Restoration × birds"
+    ],
+    "start": "2027 (after May 10)",
+    "employer_type": "university",
+    "url_label": "Funded MSc — avian ecology and remote sensing in a Southern California agroecosystem (Cal Poly Pomona, Scordato Lab, NASA SPACES Institute)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119326",
+        "label": "🔗 Funded MSc — avian ecology and remote sensing in a Southern California agroecosystem (Cal Poly Pomona, Scordato Lab, NASA SPACES Institute)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2024",
+    "title": "Environmental Scientist — interdisciplinary environmental review, wetlands, fish habitat and permitting on the Quinault Indian Reservation (Taholah, WA)",
+    "org": "Quinault Indian Nation · Quinault Division of Natural Resources · Taholah, WA",
+    "location": "Taholah, Washington (up to 2 days/week remote)",
+    "deadline": "November 20, 2026",
+    "deadline_date": "2026-11-20",
+    "badge": "Strong fit",
+    "pay": "$58,912–$82,477 per year (published)",
+    "benefits": "Full health and dental with no employee premium, 401k with match, 18 paid holidays, 32-hour week, moving-expense reimbursement",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119411",
+    "url2": "https://quinaultindiannation.com/161/Human-Resources",
+    "metaLine": "Taholah WA · permanent, 32-hr week · env. review + wetlands + permitting · $58.9–82.5k · BY NOV 20",
+    "body": "The Quinault Division of Natural Resources is hiring a full-time, permanent Environmental Scientist on a 32-hour, four-day week in Taholah, Washington, with up to two days a week remote. The role provides interdisciplinary environmental review and technical support for natural-resource management on the Quinault Indian Reservation, mainly timber sale planning and implementation, and cross-trains across the Fish Habitat, Wildlife, Wetlands and Environmental Quality sections while coordinating environmental permitting. Pay is $58,912–$82,477 a year with full health and dental at no employee premium, 401k match and moving reimbursement. The listing asks for a bachelor's and at least one year of experience, and closes November 20, 2026.",
+    "desc": "A permanent environmental-science job that draws on wetlands and permitting, with unusually strong benefits for an entry-level role.",
+    "pills": [
+      "Permanent",
+      "Tribal natural resources",
+      "Wetlands + permitting",
+      "Moving paid"
+    ],
+    "start": "Between January 4 and March 15, 2027",
+    "employer_type": "government",
+    "url_label": "Environmental Scientist — interdisciplinary environmental review, wetlands, fish habitat and permitting on the Quinault Indian Reservation (Taholah, WA)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119411",
+        "label": "🔗 Environmental Scientist — interdisciplinary environmental review, wetlands, fish habitat and permitting on the Quinault Indian Reservation (Taholah, WA)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2025",
+    "title": "Environmental Scientist — Watershed Management Program, impaired waters, TMDLs and 303(d) list (North Dakota DEQ, Bismarck)",
+    "org": "North Dakota Department of Environmental Quality · Water Quality Division · Bismarck, ND",
+    "location": "Bismarck, North Dakota",
+    "deadline": "October 23, 2026",
+    "deadline_date": "2026-10-23",
+    "badge": "Good fit",
+    "pay": "Starting at $5,484 per month (published)",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119321",
+    "url2": "https://www.cnd.nd.gov/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=11000&JobOpeningId=3033845&PostingSeq=1",
+    "metaLine": "Bismarck ND · state water quality · TMDLs + impaired waters · $5,484/mo · BY OCT 23",
+    "body": "North Dakota's Department of Environmental Quality is hiring an Environmental Scientist for the Watershed Management Program in its Water Quality Division, part of a team that monitors, protects and restores the state's surface waters. The role coordinates the program's Impaired Waters Section: setting TMDL, advance-restoration and protection-plan priorities, maintaining the Section 303(d) list of impaired waters, preparing EPA commitments and reviewing staff project work. The listing asks for a bachelor's and at least one year of experience. Pay starts at $5,484 a month and applications close October 23, 2026.",
+    "desc": "Core water-quality regulatory work on impaired waters — the policy side of what her Pigeon River capstone measured.",
+    "pills": [
+      "State agency",
+      "Water quality",
+      "TMDL / 303(d)",
+      "Permanent"
+    ],
+    "start": "Between October 31 and December 1, 2026",
+    "employer_type": "government",
+    "url_label": "Environmental Scientist — Watershed Management Program, impaired waters, TMDLs and 303(d) list (North Dakota DEQ, Bismarck)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119321",
+        "label": "🔗 Environmental Scientist — Watershed Management Program, impaired waters, TMDLs and 303(d) list (North Dakota DEQ, Bismarck)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-2026",
+    "title": "Natural Resources Specialist I–III (WMA Biologist) — Chaparral Wildlife Management Area, South Texas (Texas Parks & Wildlife, Cotulla)",
+    "org": "Texas Parks and Wildlife Department · Wildlife Division · Chaparral WMA · Cotulla, TX",
+    "location": "Cotulla, Texas (Chaparral WMA)",
+    "deadline": "November 6, 2026",
+    "deadline_date": "2026-11-06",
+    "badge": "Strong fit",
+    "pay": "$4,504.18–$5,824.14 per month (published)",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119399",
+    "metaLine": "Cotulla TX · TPWD WMA biologist · BS, no experience minimum · $4,504–5,824/mo · BY NOV 6",
+    "body": "Texas Parks and Wildlife is hiring a Natural Resources Specialist I–III as the biologist for the Chaparral Wildlife Management Area in South Texas, working under the South Texas Ecosystem Project Leader. The biologist plans and carries out natural-resource management, monitoring, research and public hunting on the Chaparral WMA and other WMAs in the project, and provides technical assistance and outreach to landowners, sportsmen and the public. The listing asks for a bachelor's with no experience minimum, and pay is $4,504.18–$5,824.14 a month depending on level. Applications are through the Texas CAPPS portal and close November 6, 2026.",
+    "desc": "A permanent state wildlife-biologist job that qualifies on the degree alone, running monitoring and research on a 15,000-acre research WMA.",
+    "pills": [
+      "State agency",
+      "WMA biologist",
+      "BS qualifies",
+      "Permanent"
+    ],
+    "start": "After December 1, 2026",
+    "employer_type": "government",
+    "url_label": "Natural Resources Specialist I–III (WMA Biologist) — Chaparral Wildlife Management Area, South Texas (Texas Parks & Wildlife, Cotulla)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119399",
+        "label": "🔗 Natural Resources Specialist I–III (WMA Biologist) — Chaparral Wildlife Management Area, South Texas (Texas Parks & Wildlife, Cotulla)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-2027",
+    "title": "Natural Resources Specialist I–III (Wildlife District 11 Biologist) — Kleberg, Brooks and Kenedy counties (Texas Parks & Wildlife, Kingsville)",
+    "org": "Texas Parks and Wildlife Department · South Texas Borderlands Wildlife District · Kingsville, TX",
+    "location": "Kingsville, Texas",
+    "deadline": "October 30, 2026",
+    "deadline_date": "2026-10-30",
+    "badge": "Strong fit",
+    "pay": "$4,504.18–$5,824.14 per month (published)",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119406",
+    "metaLine": "Kingsville TX · TPWD district biologist · BS, no experience minimum · $4,504–5,824/mo · BY OCT 30",
+    "body": "Texas Parks and Wildlife is hiring a Natural Resources Specialist I–III as a district wildlife biologist covering Kleberg, Brooks and Kenedy counties in the South Texas Plains, based in Kingsville under the District 11 leader. The biologist plans and carries out wildlife and habitat management, monitoring and research, writes wildlife management plans for private landowners on request, and does public outreach. The listing asks for a bachelor's with no experience minimum, and pay is $4,504.18–$5,824.14 a month depending on level. Applications are through the Texas CAPPS portal and close October 30, 2026.",
+    "desc": "A permanent district-biologist post that qualifies on the degree alone — private-lands habitat work across the South Texas brush country.",
+    "pills": [
+      "State agency",
+      "District biologist",
+      "BS qualifies",
+      "Permanent"
+    ],
+    "start": "After December 1, 2026",
+    "employer_type": "government",
+    "url_label": "Natural Resources Specialist I–III (Wildlife District 11 Biologist) — Kleberg, Brooks and Kenedy counties (Texas Parks & Wildlife, Kingsville)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119406",
+        "label": "🔗 Natural Resources Specialist I–III (Wildlife District 11 Biologist) — Kleberg, Brooks and Kenedy counties (Texas Parks & Wildlife, Kingsville)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-2028",
+    "title": "Natural Resources Specialist I–III (Wildlife District 7 Biologist) — Pineywoods, based at Caddo Lake WMA (Texas Parks & Wildlife, Jefferson TX)",
+    "org": "Texas Parks and Wildlife Department · Pineywoods Wildlife District · Caddo Lake WMA · Jefferson, TX",
+    "location": "Jefferson, Texas (Caddo Lake WMA)",
+    "deadline": "October 20, 2026",
+    "deadline_date": "2026-10-20",
+    "badge": "Strong fit",
+    "pay": "$4,504.18–$5,824.14 per month (published)",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119314",
+    "metaLine": "Jefferson TX · TPWD district biologist, East Texas Pineywoods · BS, no experience minimum · $4,504–5,824/mo · BY OCT 20",
+    "body": "Texas Parks and Wildlife is hiring a Natural Resources Specialist I–III as a district wildlife biologist for Gregg, Harrison, Marion, Upshur and Camp counties in the Pineywoods region, based at the Caddo Lake WMA near Jefferson. The biologist plans and carries out wildlife and habitat management, monitoring and research, writes management plans for private landowners on request, and does public outreach. The listing asks for a bachelor's with no experience minimum, and pay is $4,504.18–$5,824.14 a month depending on level. Applications are through the Texas CAPPS portal and close October 20, 2026.",
+    "desc": "Permanent wildlife-biologist work in bottomland and cypress-swamp country around Caddo Lake, on the degree alone.",
+    "pills": [
+      "State agency",
+      "District biologist",
+      "Caddo Lake wetlands",
+      "BS qualifies"
+    ],
+    "start": "After November 1, 2026",
+    "employer_type": "government",
+    "url_label": "Natural Resources Specialist I–III (Wildlife District 7 Biologist) — Pineywoods, based at Caddo Lake WMA (Texas Parks & Wildlife, Jefferson TX)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119314",
+        "label": "🔗 Natural Resources Specialist I–III (Wildlife District 7 Biologist) — Pineywoods, based at Caddo Lake WMA (Texas Parks & Wildlife, Jefferson TX)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2029",
+    "title": "Red-cockaded Woodpecker Habitat Biologist — reintroduction habitat management at Savage Gulf State Park (Tennessee Dept. of Environment & Conservation)",
+    "org": "Tennessee Department of Environment and Conservation · Tennessee State Parks · Savage Gulf State Park · Palmer, TN",
+    "location": "Palmer, Tennessee (Grundy County)",
+    "deadline": "October 26, 2026",
+    "deadline_date": "2026-10-26",
+    "badge": "Strong fit",
+    "pay": "$64,056–$99,468 per year (published)",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119342",
+    "url2": "https://careers.edison.tn.gov/psc/hrprdrs/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&Page=HRS_APP_JBPST_FL&SiteId=1&JobOpeningId=81526&PostingSeq=1&",
+    "metaLine": "Palmer TN · state parks habitat biologist · RCW reintroduction · $64–99k · BY OCT 26",
+    "body": "Tennessee State Parks is hiring a habitat biologist at Savage Gulf State Park in Grundy County to prepare habitat for red-cockaded woodpeckers as the species returns to Tennessee. The work includes timber stand improvement, prescribed fire, herbicide and other habitat treatments to meet U.S. Fish and Wildlife Service habitat-suitability metrics. The listing asks for a bachelor's and at least one year of experience, and pay is $64,056–$99,468 a year. Applications close October 26, 2026 through the Tennessee state careers portal.",
+    "desc": "Endangered-species habitat restoration with USFWS metrics, on the Cumberland Plateau — a strong-paying entry into restoration management.",
+    "pills": [
+      "State parks",
+      "Endangered species",
+      "Habitat restoration",
+      "Rx fire"
+    ],
+    "start": "Between November 1 and December 31, 2026",
+    "employer_type": "government",
+    "url_label": "Red-cockaded Woodpecker Habitat Biologist — reintroduction habitat management at Savage Gulf State Park (Tennessee Dept. of Environment & Conservation)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119342",
+        "label": "🔗 Red-cockaded Woodpecker Habitat Biologist — reintroduction habitat management at Savage Gulf State Park (Tennessee Dept. of Environment & Conservation)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2030",
+    "title": "Public Lands Manager I — wetland and moist-soil management at Cheyenne Bottoms Wildlife Area (Kansas Dept. of Wildlife & Parks, Great Bend)",
+    "org": "Kansas Department of Wildlife and Parks · Public Lands Division, Region 4 · Cheyenne Bottoms Wildlife Area · Great Bend, KS",
+    "location": "Great Bend, Kansas (Cheyenne Bottoms)",
+    "deadline": "October 30, 2026",
+    "deadline_date": "2026-10-30",
+    "badge": "Strong fit",
+    "pay": "Starting at $25.73 per hour (published)",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119425",
+    "url2": "https://admin.ks.gov/services/state-employment-center",
+    "metaLine": "Great Bend KS · permanent wetland manager · Cheyenne Bottoms · $25.73/hr · BY OCT 30",
+    "body": "Kansas Department of Wildlife and Parks is hiring a permanent, full-time Public Lands Manager I at the 19,998-acre Cheyenne Bottoms Wildlife Area, one of the most important inland wetlands in North America. The manager helps manage waterfowl, wildlife, wetlands, mixed-grass uplands and moist-soil impoundments, oversees habitat work such as vegetation control and water-level regulation in wetland units, and maintains levees, water-control structures and pumps. The listing asks for a high-school diploma and one year of experience, so a degree is a strong plus. Pay starts at $25.73 an hour and applications close October 30, 2026.",
+    "desc": "Hands-on wetland water-level management on a world-class wetland — her wetland focus as a permanent job.",
+    "pills": [
+      "Permanent",
+      "Wetland management",
+      "Waterfowl",
+      "State agency"
+    ],
+    "start": "Between November 15 and December 15, 2026",
+    "employer_type": "government",
+    "url_label": "Public Lands Manager I — wetland and moist-soil management at Cheyenne Bottoms Wildlife Area (Kansas Dept. of Wildlife & Parks, Great Bend)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119425",
+        "label": "🔗 Public Lands Manager I — wetland and moist-soil management at Cheyenne Bottoms Wildlife Area (Kansas Dept. of Wildlife & Parks, Great Bend)"
+      }
+    ]
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2031",
+    "title": "Wildlife Conservation & Management Internship, Spring 2027 — Wildlife Diversity Conservation Section (Florida FWC, Tallahassee)",
+    "org": "Florida Fish and Wildlife Conservation Commission · Wildlife Diversity Conservation Section · Tallahassee, FL",
+    "location": "Tallahassee, Florida",
+    "deadline": "October 30, 2026",
+    "deadline_date": "2026-10-30",
+    "badge": "Good fit",
+    "pay": "Not published (listing shows no salary)",
+    "url": "https://myfwc.com/get-involved/internships/wcm-internship/",
+    "url2": "https://jobs.rwfm.tamu.edu/view-job/?id=119417",
+    "metaLine": "Tallahassee FL · spring 2027 state-agency internship · recent grads eligible · BY OCT 30",
+    "body": "The Florida Fish and Wildlife Conservation Commission's Wildlife Diversity Conservation Section is offering a Spring 2027 internship in Tallahassee open to undergraduates, recent graduates and graduate students. Interns work on projects supporting FWC's management plans, such as the Gopher Tortoise Management Plan, the Imperiled Species Management Plan and the State Wildlife Action Plan. The term starts in the first week of January 2027. No pay is listed, and applications close October 30, 2026.",
+    "desc": "Recent graduates are explicitly eligible, and it is a state-agency wildlife plan internship — useful if she wants Florida agency contacts.",
+    "pills": [
+      "Spring 2027",
+      "State agency",
+      "Recent grads eligible",
+      "Wildlife plans"
+    ],
+    "start": "January 4–8, 2027",
+    "employer_type": "government",
+    "url_label": "Wildlife Conservation & Management Internship, Spring 2027 — Wildlife Diversity Conservation Section (Florida FWC, Tallahassee)",
+    "links": [
+      {
+        "href": "https://myfwc.com/get-involved/internships/wcm-internship/",
+        "label": "🔗 Wildlife Conservation & Management Internship, Spring 2027 — Wildlife Diversity Conservation Section (Florida FWC, Tallahassee)"
+      }
+    ]
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2032",
+    "title": "Imperiled Species Management Internship, Spring 2027 — black bear, marine turtle and manatee projects incl. GIS (Florida FWC, Tallahassee)",
+    "org": "Florida Fish and Wildlife Conservation Commission · Imperiled Species Management Section · Tallahassee, FL",
+    "location": "Tallahassee, Florida",
+    "deadline": "November 8, 2026",
+    "deadline_date": "2026-11-08",
+    "badge": "Good fit",
+    "pay": "Not published (listing shows no salary)",
+    "url": "https://myfwc.com/get-involved/internships/bmt-internship/",
+    "url2": "https://jobs.rwfm.tamu.edu/view-job/?id=119427",
+    "metaLine": "Tallahassee FL · spring 2027 · bears, sea turtles, manatees · GIS projects · BY NOV 8",
+    "body": "Florida FWC's Imperiled Species Management Section is recruiting Spring 2027 interns from all majors to work on black bear, marine turtle and manatee projects in Tallahassee. Projects vary by semester; past ones have included designing outreach materials and mapping and analysing data in GIS, and interns gain project-management experience inside a state wildlife agency. The term starts January 6, 2027. No pay is listed, and applications close November 8, 2026.",
+    "desc": "GIS and data work on high-profile imperiled species inside a state agency — a short, low-risk add to her résumé.",
+    "pills": [
+      "Spring 2027",
+      "Imperiled species",
+      "GIS",
+      "State agency"
+    ],
+    "start": "January 6, 2027",
+    "employer_type": "government",
+    "url_label": "Imperiled Species Management Internship, Spring 2027 — black bear, marine turtle and manatee projects incl. GIS (Florida FWC, Tallahassee)",
+    "links": [
+      {
+        "href": "https://myfwc.com/get-involved/internships/bmt-internship/",
+        "label": "🔗 Imperiled Species Management Internship, Spring 2027 — black bear, marine turtle and manatee projects incl. GIS (Florida FWC, Tallahassee)"
+      }
+    ]
   }
 ]
