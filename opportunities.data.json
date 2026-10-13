@@ -30906,23 +30906,23 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 3, 2026"
+      "label": "✨ Re-posted — October 13, 2026"
     },
-    "cycle": "next",
-    "deadline_kind": "passed",
-    "deadline_date": "2026-08-04",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-10-22",
     "region": "Midwest & Great Plains",
     "start": "See posting",
     "id": "item-707",
     "title": "Biological Science Technician (Fish), GS-7/8 — Green Bay Fish & Wildlife Conservation Office",
     "org": "U.S. Fish and Wildlife Service · New Franken, WI",
     "location": "New Franken, Wisconsin (Lake Michigan basin)",
-    "deadline": "2026-08-04",
-    "pay": "$50,460–$72,644 per year",
+    "deadline": "October 22, 2026 (new announcement 886892000)",
+    "pay": "$50,460–$72,644 per year, GS-7 to GS-8 (published)",
     "stipend": "",
     "benefits": "Full federal benefits — FEHB, FEGLI, FERS plus TSP match, 11 paid holidays, annual and sick leave",
     "badge": "Strong fit",
-    "url": "https://www.usajobs.gov/job/877256900",
+    "url": "https://www.usajobs.gov/job/886892000",
     "url_label": "USAJOBS 877256900",
     "links": [
       {
@@ -30940,7 +30940,8 @@
       "Permanent USFWS"
     ],
     "start_date": "2026-08-04",
-    "relocation": "tight"
+    "relocation": "tight",
+    "url2": "https://www.usajobs.gov/job/877256900"
   },
   {
     "type": "Career Position",
@@ -88931,6 +88932,1011 @@
       {
         "href": "https://ecoworks.eco.ca/jobs/749048868-enviromental-monitor",
         "label": "🔗 Environmental Monitor — construction compliance, water-quality sampling and wildlife/vegetation surveys (Nupqu Resource LP, Ktunaxa Nation-owned, Fernie BC)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2059",
+    "title": "Farm Bill Wildlife Biologist I/II/III (2 positions) — NRCS-embedded private-lands conservation in north-central SD and Wall SD (Pheasants Forever & Quail Forever)",
+    "org": "Pheasants Forever and Quail Forever · with USDA-NRCS and SD Game, Fish & Parks · Selby/Mound City/Leola and Wall, SD",
+    "location": "Selby, Mound City or Leola, and Wall, South Dakota",
+    "deadline": "November 7, 2026 (Texas A&M listing); open until filled on PF's site",
+    "deadline_date": "2026-11-07",
+    "badge": "Strong fit",
+    "pay": "$40,000–$49,000 per year (published)",
+    "url": "https://pheasantsforever.applytojob.com/apply/JH6NmfVJdR/Farm-Bill-Wildlife-Biologist-I-II-Or-III",
+    "url2": "https://jobs.rwfm.tamu.edu/view-job/?id=119350",
+    "metaLine": "South Dakota · 2 posts · NRCS-embedded Farm Bill biologist · BS, no experience minimum · $40–49k · by NOV 7",
+    "body": "Pheasants Forever and Quail Forever are hiring two Farm Bill Wildlife Biologists in South Dakota, one in the Selby, Mound City or Leola area and one in Wall. The biologists work jointly with USDA-NRCS, South Dakota Game, Fish and Parks and other partners to develop and review conservation plans and drive landowner enrollment in Farm Bill conservation programmes. A bachelor's in wildlife or a related field and the ability to obtain USDA clearance are required, with no experience minimum on the Texas A&M listing. Pay is $40,000–$49,000 a year, with a November 2026 start; the listing runs to November 7 and PF's own posting is open until filled.",
+    "desc": "A non-profit job sitting inside NRCS field offices — the most direct non-federal route into USDA conservation work.",
+    "pills": [
+      "Non-profit",
+      "NRCS-embedded",
+      "Farm Bill",
+      "BS qualifies"
+    ],
+    "start": "November 2026",
+    "employer_type": "non-profit",
+    "url_label": "Farm Bill Wildlife Biologist I/II/III (2 positions) — NRCS-embedded private-lands conservation in north-central SD and Wall SD (Pheasants Forever & Quail Forever)",
+    "links": [
+      {
+        "href": "https://pheasantsforever.applytojob.com/apply/JH6NmfVJdR/Farm-Bill-Wildlife-Biologist-I-II-Or-III",
+        "label": "🔗 Farm Bill Wildlife Biologist I/II/III (2 positions) — NRCS-embedded private-lands conservation in north-central SD and Wall SD (Pheasants Forever & Quail Forever)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2060",
+    "title": "Wildlife Habitat Biologist I — grassland habitat with private landowners in western South Dakota (Bird Conservancy of the Rockies, Philip or Kadoka SD)",
+    "org": "Bird Conservancy of the Rockies · Grassland Program · Philip or Kadoka, SD",
+    "location": "Philip or Kadoka, South Dakota",
+    "deadline": "October 23, 2026",
+    "deadline_date": "2026-10-23",
+    "badge": "Strong fit",
+    "pay": "$58,000–$65,000 per year (published)",
+    "benefits": "403(b), health, dental and vision",
+    "url": "https://www.conservationjobboard.com/job-listing-wildlife-habitat-biologist---south-dakota-philip-or-kadoka-south-dakota/4251936345",
+    "metaLine": "Philip/Kadoka SD · non-profit habitat biologist · 0–1 yr · $58–65k + benefits · BY OCT 23",
+    "body": "Bird Conservancy of the Rockies is hiring a full-time Wildlife Habitat Biologist I in western South Dakota, based in Philip or Kadoka and reporting to the Grassland Program Manager. The biologist works on grassland bird habitat projects with private landowners. The listing gives a 0–1 year experience minimum, pay of $58,000–$65,000 a year and benefits including a 403(b), health, dental and vision. The start is November or December 2026 and applications close October 23, 2026.",
+    "desc": "A well-paid, permanent non-profit habitat job at entry level — rare on the non-profit side.",
+    "pills": [
+      "Non-profit",
+      "Grassland birds",
+      "Private lands",
+      "Entry level"
+    ],
+    "start": "November or December 2026",
+    "employer_type": "non-profit",
+    "url_label": "Wildlife Habitat Biologist I — grassland habitat with private landowners in western South Dakota (Bird Conservancy of the Rockies, Philip or Kadoka SD)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-wildlife-habitat-biologist---south-dakota-philip-or-kadoka-south-dakota/4251936345",
+        "label": "🔗 Wildlife Habitat Biologist I — grassland habitat with private landowners in western South Dakota (Bird Conservancy of the Rockies, Philip or Kadoka SD)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2061",
+    "title": "Resilient Indiana Conservation Technician — soil and water technical assistance with the Indiana Conservation Partnership (Indiana Assoc. of Soil & Water Conservation Districts)",
+    "org": "Indiana Association of Soil and Water Conservation Districts · Indiana Conservation Partnership · various Indiana locations",
+    "location": "Various locations, Indiana",
+    "deadline": "November 2, 2026",
+    "deadline_date": "2026-11-02",
+    "badge": "Strong fit",
+    "pay": "$51,000 per year plus health stipend, retirement contribution and PTO (published)",
+    "url": "https://www.conservationjobboard.com/job-listing-resilient-indiana-conservation-technician-various-indiana/7479399020",
+    "metaLine": "Indiana · SWCD conservation tech · NRCS partner team · 0–1 yr · $51k + benefits · BY NOV 2",
+    "body": "The Indiana Association of Soil and Water Conservation Districts, a non-profit supporting the state's 92 SWCDs, is hiring Resilient Indiana Conservation Technicians at locations around Indiana. Technicians give soil and water conservation technical assistance to agricultural, woodland and urban landowners as part of a regional team of local, state and federal partners in the Indiana Conservation Partnership. The listing gives a 0–1 year experience minimum. Pay is $51,000 a year plus a health stipend, retirement contribution and paid time off, and applications close November 2, 2026.",
+    "desc": "Water-quality conservation planning alongside NRCS staff, at entry level and with real benefits.",
+    "pills": [
+      "Non-profit",
+      "Soil & water",
+      "NRCS partnership",
+      "Entry level"
+    ],
+    "employer_type": "non-profit",
+    "url_label": "Resilient Indiana Conservation Technician — soil and water technical assistance with the Indiana Conservation Partnership (Indiana Assoc. of Soil & Water Conservation Districts)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-resilient-indiana-conservation-technician-various-indiana/7479399020",
+        "label": "🔗 Resilient Indiana Conservation Technician — soil and water technical assistance with the Indiana Conservation Partnership (Indiana Assoc. of Soil & Water Conservation Districts)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2062",
+    "title": "Wild Turkey Field Technicians (4) — trapping, tagging and acoustic monitoring for nesting phenology and gobbling chronology (Southern Illinois University, PEASE Lab)",
+    "org": "Southern Illinois University Carbondale · PEASE Lab · Carbondale, IL",
+    "location": "Carbondale, Illinois (field sites across Illinois; housing provided)",
+    "deadline": "October 23, 2026",
+    "deadline_date": "2026-10-23",
+    "badge": "Good fit",
+    "pay": "$18 per hour (published)",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119331",
+    "url2": "https://www.conservationjobboard.com/job-listing-wild-turkey-field-technicians--illinois-carbondale-illinois/6700896151",
+    "metaLine": "Illinois · Jan–Jun 2027 · turkey trapping + acoustic recorders · housing provided · $18/hr · BY OCT 23",
+    "body": "The PEASE Lab at Southern Illinois University Carbondale is hiring four field technicians for its Wild Turkey Nesting Phenology and Gobbling Chronology projects in Illinois from January through June 2027. Technicians trap and tag turkeys in late winter, monitor tagged birds through the season, and deploy and maintain acoustic recorders. Prior trapping experience is not required, and housing and work vehicles are provided. Pay is $18 an hour and applications close October 23, 2026.",
+    "desc": "Capture and passive-monitoring field work (acoustic rather than camera) with a lab that also takes grad students.",
+    "pills": [
+      "Seasonal",
+      "Wildlife capture",
+      "Acoustic monitoring",
+      "Housing provided"
+    ],
+    "start": "After January 13, 2027",
+    "employer_type": "university",
+    "url_label": "Wild Turkey Field Technicians (4) — trapping, tagging and acoustic monitoring for nesting phenology and gobbling chronology (Southern Illinois University, PEASE Lab)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119331",
+        "label": "🔗 Wild Turkey Field Technicians (4) — trapping, tagging and acoustic monitoring for nesting phenology and gobbling chronology (Southern Illinois University, PEASE Lab)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2063",
+    "title": "Wildlife — Turkey Project Temporary Worker (2) — winter trapping, habitat work and disease sampling on a 10-year turkey study (Iowa DNR)",
+    "org": "Iowa Department of Natural Resources · Wildlife Bureau · Maquoketa, Odessa, Rathbun and Sugema Wildlife Units, IA",
+    "location": "Southeast and east-central Iowa (Maquoketa, Odessa, Rathbun or Sugema wildlife units)",
+    "deadline": "November 2, 2026",
+    "deadline_date": "2026-11-02",
+    "badge": "Good fit",
+    "pay": "$15.25 per hour (published)",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119351",
+    "url2": "https://www.conservationjobboard.com/job-listing-turkey-project-temporary-worker-2-positions-available-various-iowa/8786559685",
+    "metaLine": "Iowa · Dec 2026–Apr 2027 · state turkey study · trapping + tissue sampling · $15.25/hr · BY NOV 2",
+    "body": "Iowa DNR's Wildlife Bureau is hiring two temporary workers for a 10-year wild turkey study, based at the Maquoketa, Odessa, Rathbun or Sugema wildlife units. Work runs from early December 2026 to the end of April 2027 and covers winter trapping, habitat management on public wildlife areas and tissue collection for disease monitoring. The listing asks for a bachelor's with no experience minimum. Pay is $15.25 an hour and applications close November 2, 2026.",
+    "desc": "Winter state-agency capture work that fills the off-season gap.",
+    "pills": [
+      "State agency",
+      "Winter season",
+      "Wildlife capture",
+      "Disease sampling"
+    ],
+    "start": "After December 4, 2026",
+    "employer_type": "government",
+    "url_label": "Wildlife — Turkey Project Temporary Worker (2) — winter trapping, habitat work and disease sampling on a 10-year turkey study (Iowa DNR)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119351",
+        "label": "🔗 Wildlife — Turkey Project Temporary Worker (2) — winter trapping, habitat work and disease sampling on a 10-year turkey study (Iowa DNR)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2064",
+    "title": "Wildlife Management Temporary (16 positions), summer 2027 — wetland, prairie and woodland habitat work, prescribed fire and wildlife surveys (Iowa DNR)",
+    "org": "Iowa Department of Natural Resources · Wildlife Bureau · wildlife units statewide, IA",
+    "location": "Multiple Iowa wildlife management units",
+    "deadline": "November 16, 2026",
+    "deadline_date": "2026-11-16",
+    "badge": "Good fit",
+    "pay": "$15.25 per hour (published)",
+    "url": "https://www.iowadnr.gov/employment/2026-10-09/nov-30-wildlife-temporary-worker",
+    "url2": "https://jobs.rwfm.tamu.edu/view-job/?id=119413",
+    "metaLine": "Iowa statewide · 16 summer 2027 posts · wetland/prairie mgmt + Rx fire + banding · $15.25/hr · BY NOV 16",
+    "body": "Iowa DNR is hiring 16 temporary wildlife management workers for summer 2027 across its wildlife units, starting in May. Under DNR staff, workers do habitat management — wetland, prairie and woodland management, native prairie seeding and brush removal with farm machinery, chainsaws and hand tools — plus prescribed-fire support and wildlife surveys such as waterfowl banding and deer spotlight routes. Pay is $15.25 an hour. Applications close November 16, 2026.",
+    "desc": "Hands-on wetland and prairie management with a state agency — a seasonal fallback with many openings.",
+    "pills": [
+      "State agency",
+      "16 openings",
+      "Wetland management",
+      "Summer 2027"
+    ],
+    "start": "May 2027",
+    "employer_type": "government",
+    "url_label": "Wildlife Management Temporary (16 positions), summer 2027 — wetland, prairie and woodland habitat work, prescribed fire and wildlife surveys (Iowa DNR)",
+    "links": [
+      {
+        "href": "https://www.iowadnr.gov/employment/2026-10-09/nov-30-wildlife-temporary-worker",
+        "label": "🔗 Wildlife Management Temporary (16 positions), summer 2027 — wetland, prairie and woodland habitat work, prescribed fire and wildlife surveys (Iowa DNR)"
+      }
+    ]
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Midwest & Great Plains",
+    "id": "item-2065",
+    "title": "Palos Conservation Corps Crew Manager — leads a 5-member invasive-removal and habitat-restoration crew in Cook County forest preserves (Friends of the Forest Preserves)",
+    "org": "Friends of the Forest Preserves · Palos Conservation Corps · Willow Springs, IL",
+    "location": "Willow Springs, Illinois (Cook County forest preserves)",
+    "deadline": "Rolling — start ASAP",
+    "badge": "Good fit",
+    "pay": "$28.34 per hour, 36 hours per week (published)",
+    "url": "https://www.conservationjobboard.com/job-listing-palos-conservation-corps-crew-manager-willow-springs-illinois/9665070353",
+    "metaLine": "Chicago area · non-profit corps crew manager · habitat restoration · 0–1 yr · $28.34/hr · rolling",
+    "body": "Friends of the Forest Preserves is hiring a Crew Manager for its Palos Conservation Corps, leading a five-member crew that removes invasive species and restores native habitat in the Cook County forest preserves southwest of Chicago. The schedule is nine-hour days, Monday to Thursday, 36 hours a week, and the listing gives a 0–1 year experience minimum. Pay is $28.34 an hour. The posting asks for a start as soon as possible and is open until filled.",
+    "desc": "Crew leadership in ecological restoration — her NCCC team experience is the qualification.",
+    "pills": [
+      "Non-profit",
+      "Crew leader",
+      "Habitat restoration",
+      "Chicago area"
+    ],
+    "employer_type": "non-profit",
+    "url_label": "Palos Conservation Corps Crew Manager — leads a 5-member invasive-removal and habitat-restoration crew in Cook County forest preserves (Friends of the Forest Preserves)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-palos-conservation-corps-crew-manager-willow-springs-illinois/9665070353",
+        "label": "🔗 Palos Conservation Corps Crew Manager — leads a 5-member invasive-removal and habitat-restoration crew in Cook County forest preserves (Friends of the Forest Preserves)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Midwest & Great Plains",
+    "id": "item-2066",
+    "title": "Land Conservation Coordinator — landowner outreach, easement transactions, baseline documentation and stewardship (Cedar Lakes Conservation Foundation, Wisconsin)",
+    "org": "Cedar Lakes Conservation Foundation · Wisconsin",
+    "location": "Cedar Lakes region, Wisconsin (Washington County)",
+    "deadline": "Rolling — reviewed until filled",
+    "badge": "Good fit",
+    "pay": "Not published",
+    "url": "https://gatheringwaters.org/land-conservation-coordinator-cedar-lakes-conservation-foundation/",
+    "metaLine": "Wisconsin · local land trust · conservation transactions + baseline docs · pay not published · rolling",
+    "body": "Cedar Lakes Conservation Foundation, a Wisconsin land trust, is hiring a Land Conservation Coordinator through the Gathering Waters job board. The role covers landowner outreach, negotiating conservation transactions, title work and real-estate closings, baseline documentation and grant writing, plus some stewardship projects. Salary is not stated on the listing, and applications are reviewed on a rolling basis until the post is filled.",
+    "desc": "A way into land-trust work, though it is more transactions and paperwork than field ecology.",
+    "pills": [
+      "Land trust",
+      "Non-profit",
+      "Conservation easements",
+      "Wisconsin"
+    ],
+    "employer_type": "non-profit",
+    "url_label": "Land Conservation Coordinator — landowner outreach, easement transactions, baseline documentation and stewardship (Cedar Lakes Conservation Foundation, Wisconsin)",
+    "links": [
+      {
+        "href": "https://gatheringwaters.org/land-conservation-coordinator-cedar-lakes-conservation-foundation/",
+        "label": "🔗 Land Conservation Coordinator — landowner outreach, easement transactions, baseline documentation and stewardship (Cedar Lakes Conservation Foundation, Wisconsin)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Midwest & Great Plains",
+    "id": "item-2067",
+    "title": "Forestry Technician — invasive control, timber stand improvement, prairie restoration and prescribed burns (Zumbro Valley Forestry, Elgin MN)",
+    "org": "Zumbro Valley Forestry LLC · Elgin, MN",
+    "location": "Elgin, Minnesota (near Rochester)",
+    "deadline": "Rolling",
+    "badge": "Good fit",
+    "pay": "$18.00 per hour (published)",
+    "url": "https://www.conservationjobboard.com/job-listing-forestry-technician-elgin-minnesota/9935998127",
+    "metaLine": "SE Minnesota · private forestry/restoration tech · Rx fire + prairie · 0–1 yr · $18/hr · rolling",
+    "body": "Zumbro Valley Forestry, a small consulting firm near Rochester, Minnesota, is hiring a full-time Forestry Technician. The work includes invasive-species control, timber stand improvement, tree planting, woody-stem control in prairies, prescribed burns and seed collection, and is physically demanding outdoor work. The listing gives a 0–1 year experience minimum. Pay is $18 an hour and the post is open until filled.",
+    "desc": "Year-round restoration and prescribed-fire experience at entry level.",
+    "pills": [
+      "Private",
+      "Restoration",
+      "Prescribed fire",
+      "Year-round"
+    ],
+    "employer_type": "private",
+    "url_label": "Forestry Technician — invasive control, timber stand improvement, prairie restoration and prescribed burns (Zumbro Valley Forestry, Elgin MN)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-forestry-technician-elgin-minnesota/9935998127",
+        "label": "🔗 Forestry Technician — invasive control, timber stand improvement, prairie restoration and prescribed burns (Zumbro Valley Forestry, Elgin MN)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2068",
+    "title": "Florida Grasshopper Sparrow Field Technician (3 positions) — demographic monitoring and nest protection of a critically endangered bird (Florida FWC, Kenansville)",
+    "org": "Florida Fish and Wildlife Conservation Commission · Kenansville, FL",
+    "location": "Kenansville, Florida (Osceola County dry prairie)",
+    "deadline": "December 1, 2026",
+    "deadline_date": "2026-12-01",
+    "badge": "Good fit",
+    "pay": "$16.83 per hour (published)",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119414",
+    "metaLine": "Kenansville FL · 3 seasonal techs from Mar 2027 · endangered grassland bird · $16.83/hr · BY DEC 1",
+    "body": "Florida FWC is hiring three experienced seasonal field technicians for demographic monitoring and nest protection of the critically endangered Florida grasshopper sparrow, starting March 5, 2027. Technicians collect breeding-season data on the largest remaining population of this grassland bird, endemic to Florida's dry prairie. The listing asks for at least one year of experience. Pay is $16.83 an hour and applications close December 1, 2026.",
+    "desc": "Endangered-species field monitoring with a state agency — good federal-track experience.",
+    "pills": [
+      "State agency",
+      "Endangered species",
+      "Nest monitoring",
+      "Spring 2027"
+    ],
+    "start": "March 5, 2027",
+    "employer_type": "government",
+    "url_label": "Florida Grasshopper Sparrow Field Technician (3 positions) — demographic monitoring and nest protection of a critically endangered bird (Florida FWC, Kenansville)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119414",
+        "label": "🔗 Florida Grasshopper Sparrow Field Technician (3 positions) — demographic monitoring and nest protection of a critically endangered bird (Florida FWC, Kenansville)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2069",
+    "title": "Waterfowl Banding Technicians (4–6) — spring trapping and banding in flooded timber (University of Arkansas at Monticello, Arkansas Forest Resources Center)",
+    "org": "University of Arkansas at Monticello · Arkansas Forest Resources Center · Arkansas",
+    "location": "Arkansas (housing provided near the field site)",
+    "deadline": "December 21, 2026",
+    "deadline_date": "2026-12-21",
+    "badge": "Good fit",
+    "pay": "$16–$17 per hour (published)",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119338",
+    "metaLine": "Arkansas · spring 2027 · waterfowl banding + game cameras · housing provided · $16–17/hr · BY DEC 21",
+    "body": "The Arkansas Forest Resources Center at the University of Arkansas at Monticello is hiring four to six seasonal technicians for spring waterfowl banding in Arkansas, starting February 2027. Technicians deploy game cameras and duck traps, place bait, capture and band waterfowl and manage field data, mostly at night in flooded timber, and may work with private landowners and volunteers. Housing near the field site and equipment, including waders, are provided. Pay is $16–$17 an hour and applications close December 21, 2026.",
+    "desc": "Wetland waterfowl capture plus game-camera work — a field season that matches two of her skills.",
+    "pills": [
+      "Seasonal",
+      "Waterfowl banding",
+      "Game cameras",
+      "Housing provided"
+    ],
+    "start": "After February 1, 2027",
+    "employer_type": "university",
+    "url_label": "Waterfowl Banding Technicians (4–6) — spring trapping and banding in flooded timber (University of Arkansas at Monticello, Arkansas Forest Resources Center)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119338",
+        "label": "🔗 Waterfowl Banding Technicians (4–6) — spring trapping and banding in flooded timber (University of Arkansas at Monticello, Arkansas Forest Resources Center)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2070",
+    "title": "Eastern Wild Turkey Research Technicians (2) — roost-site habitat surveys at Savannah River Site (SC) and Cedar Creek WMA (GA) (University of Georgia)",
+    "org": "University of Georgia · Warnell School of Forestry · Savannah River Site, SC and Cedar Creek WMA, GA",
+    "location": "Savannah River Site, South Carolina, or Cedar Creek WMA, Georgia",
+    "deadline": "November 10, 2026",
+    "deadline_date": "2026-11-10",
+    "badge": "Good fit",
+    "pay": "$15 per hour (published)",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119340",
+    "metaLine": "SC or GA · Jan–Jul 2027 · turkey roost habitat surveys + trapping · $15/hr · BY NOV 10",
+    "body": "The University of Georgia is hiring two technicians for a wild turkey habitat-use project on roosting habitat and the effects of hunting on roost-site selection, from early January to July 31, 2027. The South Carolina technician is based at the Savannah River Site Forest Service station and helps a graduate student with baiting and trapping in January and February; the Georgia technician is based at the DNR check station on Cedar Creek WMA. Both mainly complete habitat surveys at roost sites. Pay is $15 an hour and applications close November 10, 2026.",
+    "desc": "Habitat-survey field work feeding a grad project — useful contacts for a southeastern MS.",
+    "pills": [
+      "Seasonal",
+      "Habitat surveys",
+      "Wild turkey",
+      "SC/GA"
+    ],
+    "start": "January 1–5, 2027",
+    "employer_type": "university",
+    "url_label": "Eastern Wild Turkey Research Technicians (2) — roost-site habitat surveys at Savannah River Site (SC) and Cedar Creek WMA (GA) (University of Georgia)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119340",
+        "label": "🔗 Eastern Wild Turkey Research Technicians (2) — roost-site habitat surveys at Savannah River Site (SC) and Cedar Creek WMA (GA) (University of Georgia)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2071",
+    "title": "Northern Bobwhite Research Technician (2) — quail trapping and VHF telemetry at Burning Star State Fish & Wildlife Area (SIU Center for Wildlife Sustainability Research)",
+    "org": "Southern Illinois University Carbondale · Center for Wildlife Sustainability Research · Carbondale, IL",
+    "location": "Burning Star State Fish and Wildlife Area, near Carbondale, Illinois",
+    "deadline": "October 23, 2026",
+    "deadline_date": "2026-10-23",
+    "badge": "Good fit",
+    "pay": "$15 per hour (published)",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119294",
+    "metaLine": "S. Illinois · Jan 18–Apr 2 2027 · quail capture + radio-telemetry · $15/hr · BY OCT 23",
+    "body": "Southern Illinois University's Center for Wildlife Sustainability Research is hiring two seasonal technicians for a Northern Bobwhite study at Burning Star State Fish and Wildlife Area near Carbondale, from January 18 to April 2, 2027. Technicians capture quail with funnel traps, attach transmitters and track birds by VHF radio-telemetry, often starting before sunrise in cold, thorny terrain and using ATVs. Pay is $15 an hour for about 37.5 hours a week, and housing is not provided. Applications close October 23, 2026.",
+    "desc": "Short winter capture-and-telemetry season — a direct extension of her trapping experience.",
+    "pills": [
+      "Seasonal",
+      "Telemetry",
+      "Wildlife capture",
+      "Winter 2027"
+    ],
+    "start": "January 18, 2027",
+    "employer_type": "university",
+    "url_label": "Northern Bobwhite Research Technician (2) — quail trapping and VHF telemetry at Burning Star State Fish & Wildlife Area (SIU Center for Wildlife Sustainability Research)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119294",
+        "label": "🔗 Northern Bobwhite Research Technician (2) — quail trapping and VHF telemetry at Burning Star State Fish & Wildlife Area (SIU Center for Wildlife Sustainability Research)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2072",
+    "title": "Seasonal Technician II — Forest Landscape Ecology Lab, hurricane ecology and longleaf forest research (The Jones Center at Ichauway, Newton GA)",
+    "org": "The Jones Center at Ichauway · Landscape Ecology Lab · Newton, GA",
+    "location": "Newton, Georgia (Ichauway, 28,500 acres)",
+    "deadline": "October 29, 2026",
+    "deadline_date": "2026-10-29",
+    "badge": "Good fit",
+    "pay": "$15–$17 per hour (published)",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119362",
+    "metaLine": "Newton GA · 6-month tech from Nov/Dec 2026 · forest + hurricane ecology · reduced-cost housing · $15–17/hr · BY OCT 29",
+    "body": "The Jones Center at Ichauway's Landscape Ecology Lab is hiring a full-time, temporary Seasonal Technician II for a six-month term starting November 16 or December 1, 2026. The lab studies southeastern forest ecology with an emphasis on hurricane ecology and improving forest management, at Ichauway's 28,500-acre site of longleaf pine woodland, wetlands and streams. Reduced-cost on-site housing is available. Pay is $15–$17 an hour and applications close October 29, 2026.",
+    "desc": "Six months at one of the Southeast's premier research stations — and a way to meet the Ichauway fellowship staff.",
+    "pills": [
+      "Research station",
+      "Forest ecology",
+      "Housing available",
+      "6 months"
+    ],
+    "start": "November 16 or December 1, 2026",
+    "employer_type": "non-profit",
+    "url_label": "Seasonal Technician II — Forest Landscape Ecology Lab, hurricane ecology and longleaf forest research (The Jones Center at Ichauway, Newton GA)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119362",
+        "label": "🔗 Seasonal Technician II — Forest Landscape Ecology Lab, hurricane ecology and longleaf forest research (The Jones Center at Ichauway, Newton GA)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2073",
+    "title": "Research Technician II — Georgia Coastal Ecosystems LTER: water quality, soils and salt-marsh plants and animals (University of Georgia Marine Institute, Sapelo Island)",
+    "org": "University of Georgia · Marine Institute · Georgia Coastal Ecosystems LTER · Sapelo Island, GA",
+    "location": "Sapelo Island, Georgia",
+    "deadline": "December 31, 2026",
+    "deadline_date": "2026-12-31",
+    "badge": "Strong fit",
+    "pay": "Starting at $35,200 per year (published)",
+    "url": "https://www.ugajobsearch.com/postings/507435",
+    "url2": "https://jobs.rwfm.tamu.edu/view-job/?id=119324",
+    "metaLine": "Sapelo Island GA · LTER research tech · marsh water quality + soils · $35,200/yr · BY DEC 31",
+    "body": "The Georgia Coastal Ecosystems Long-Term Ecological Research program is hiring a Research Technician II at the UGA Marine Institute on Sapelo Island. The technician works with other technicians, faculty and students on coastal ecology studies of water quality, soils, and wetland plants and animals. The minimum is an associate's degree with some relevant experience, and candidates with a four-year environmental degree are described as most competitive. Pay starts at $35,200 a year and the listing runs to December 31, 2026.",
+    "desc": "Salt-marsh water quality and soils on a long-term research site — her wetland and sampling skills in a coastal setting.",
+    "pills": [
+      "LTER",
+      "Salt marsh",
+      "Water quality + soils",
+      "University"
+    ],
+    "start": "After December 1, 2026",
+    "employer_type": "university",
+    "url_label": "Research Technician II — Georgia Coastal Ecosystems LTER: water quality, soils and salt-marsh plants and animals (University of Georgia Marine Institute, Sapelo Island)",
+    "links": [
+      {
+        "href": "https://www.ugajobsearch.com/postings/507435",
+        "label": "🔗 Research Technician II — Georgia Coastal Ecosystems LTER: water quality, soils and salt-marsh plants and animals (University of Georgia Marine Institute, Sapelo Island)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2074",
+    "title": "Avian Conservation Research Assistants (7, seasonal) — bird research at Avon Park Air Force Range and DeLuca Preserve (Archbold Biological Station, FL)",
+    "org": "Archbold Biological Station · Avon Park Air Force Range and DeLuca Preserve, FL",
+    "location": "Avon Park Air Force Range and DeLuca Preserve, central Florida",
+    "deadline": "October 25, 2026",
+    "deadline_date": "2026-10-25",
+    "badge": "Good fit",
+    "pay": "$15.25–$16.25 per hour; shared lodging free (published)",
+    "url": "https://recruiting.paylocity.com/recruiting/jobs/Details/4555588/Archbold-Expeditions-Inc/Avian-Conservation-Research-Assistants-Seasonal",
+    "url2": "https://jobs.rwfm.tamu.edu/view-job/?id=119318",
+    "metaLine": "Central FL · 7 seasonal avian RAs from Mar/Apr 2027 · free lodging · $15.25–16.25/hr · BY OCT 25",
+    "body": "Archbold Biological Station is hiring seven seasonal avian conservation research assistants to start in March or April 2027 at Avon Park Air Force Range and DeLuca Preserve in central Florida, working alongside scientists and conservation staff. Pay is $15.25–$16.25 an hour with free shared lodging, paid vacation and sick leave, and extensions are possible depending on funding and performance. Applications close October 25, 2026.",
+    "desc": "Endangered-bird field research at a respected station, with free housing.",
+    "pills": [
+      "Research station",
+      "Avian conservation",
+      "Free lodging",
+      "Spring 2027"
+    ],
+    "start": "March 8 – April 5, 2027",
+    "employer_type": "non-profit",
+    "url_label": "Avian Conservation Research Assistants (7, seasonal) — bird research at Avon Park Air Force Range and DeLuca Preserve (Archbold Biological Station, FL)",
+    "links": [
+      {
+        "href": "https://recruiting.paylocity.com/recruiting/jobs/Details/4555588/Archbold-Expeditions-Inc/Avian-Conservation-Research-Assistants-Seasonal",
+        "label": "🔗 Avian Conservation Research Assistants (7, seasonal) — bird research at Avon Park Air Force Range and DeLuca Preserve (Archbold Biological Station, FL)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2075",
+    "title": "Research Technician (Fisheries), seasonal Nov 2026–Apr 2027 — fish care, water-quality monitoring and field sampling (Little Traverse Bay Bands of Odawa Indians, Levering MI)",
+    "org": "Little Traverse Bay Bands of Odawa Indians · Natural Resource Department · Fisheries Enhancement Facility · Levering, MI",
+    "location": "Levering, Michigan",
+    "deadline": "December 1, 2026 (open until filled)",
+    "deadline_date": "2026-12-01",
+    "badge": "Good fit",
+    "pay": "$17.64–$28.67 per hour (published)",
+    "url": "https://ltbbodawa-nsn.gov/departments/human-resources-department/job-opportunities/",
+    "url2": "https://jobs.rwfm.tamu.edu/view-job/?id=119300",
+    "metaLine": "Levering MI · tribal fisheries tech, Nov–Apr · water quality + sampling · $17.64–28.67/hr · until filled",
+    "body": "The Little Traverse Bay Bands of Odawa Indians' Natural Resource Department is hiring a seasonal Research Technician at its Fisheries Enhancement Facility in Levering, Michigan, from November 2026 to April 2027. Reporting to the Hatchery Manager, the technician does applied research and daily aquaculture operations, including fish care, biosecurity, water-quality monitoring, field sampling and site maintenance. Pay is $17.64–$28.67 an hour. The posting opened October 5 and is open until filled.",
+    "desc": "Winter fisheries and water-quality work with a tribal natural-resources department.",
+    "pills": [
+      "Tribal",
+      "Fisheries",
+      "Water quality",
+      "Winter season"
+    ],
+    "start": "After October 26, 2026",
+    "employer_type": "government",
+    "url_label": "Research Technician (Fisheries), seasonal Nov 2026–Apr 2027 — fish care, water-quality monitoring and field sampling (Little Traverse Bay Bands of Odawa Indians, Levering MI)",
+    "links": [
+      {
+        "href": "https://ltbbodawa-nsn.gov/departments/human-resources-department/job-opportunities/",
+        "label": "🔗 Research Technician (Fisheries), seasonal Nov 2026–Apr 2027 — fish care, water-quality monitoring and field sampling (Little Traverse Bay Bands of Odawa Indians, Levering MI)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2076",
+    "title": "Fisheries and Aquatic Ecology Field & Lab Technician (hourly) — yellow perch, nearshore fish, benthos and zooplankton on Lake Michigan (Illinois Natural History Survey, Zion IL)",
+    "org": "Illinois Natural History Survey · Lake Michigan Biological Station · Zion, IL",
+    "location": "Zion, Illinois",
+    "deadline": "November 15, 2026",
+    "deadline_date": "2026-11-15",
+    "badge": "Good fit",
+    "pay": "$19–$21 per hour (published)",
+    "url": "https://blogs.illinois.edu/view/7426/1988865171",
+    "url2": "https://jobs.rwfm.tamu.edu/view-job/?id=119306",
+    "metaLine": "Zion IL · Lake Michigan field + lab tech · fish, benthos, creel · $19–21/hr · BY NOV 15",
+    "body": "The Illinois Natural History Survey's Lake Michigan Biological Station is hiring hourly technicians for research on yellow perch population dynamics, nearshore fish assemblages, benthic invertebrates and zooplankton, artificial-reef communities and sport-fish harvest along Illinois' Lake Michigan shoreline. Technicians help with field sampling and lab processing and interview shore and boat anglers about effort, harvest and catch. The listing asks for a bachelor's with no experience minimum. Pay is $19–$21 an hour and applications close November 15, 2026.",
+    "desc": "Aquatic field and lab work on a Great Lake — broadens her water skills toward fisheries.",
+    "pills": [
+      "State survey",
+      "Great Lakes",
+      "Field + lab",
+      "BS qualifies"
+    ],
+    "start": "Between November 16, 2026 and January 31, 2027",
+    "employer_type": "government",
+    "url_label": "Fisheries and Aquatic Ecology Field & Lab Technician (hourly) — yellow perch, nearshore fish, benthos and zooplankton on Lake Michigan (Illinois Natural History Survey, Zion IL)",
+    "links": [
+      {
+        "href": "https://blogs.illinois.edu/view/7426/1988865171",
+        "label": "🔗 Fisheries and Aquatic Ecology Field & Lab Technician (hourly) — yellow perch, nearshore fish, benthos and zooplankton on Lake Michigan (Illinois Natural History Survey, Zion IL)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2077",
+    "title": "Biological Science Technician (Wildlife) — wildlife damage management, Wilcox County AL (USDA APHIS Wildlife Services)",
+    "org": "USDA APHIS Wildlife Services · Alabama · Wilcox County, AL",
+    "location": "Wilcox County, Alabama",
+    "deadline": "October 19, 2026",
+    "deadline_date": "2026-10-19",
+    "badge": "Good fit",
+    "pay": "$19.52–$35.36 per hour (published)",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119373",
+    "metaLine": "Wilcox Co AL · USDA Wildlife Services tech · no experience minimum listed · $19.52–35.36/hr · BY OCT 19",
+    "body": "USDA APHIS Wildlife Services is hiring a Biological Science Technician (Wildlife) in Wilcox County, Alabama, with a start before January 1, 2027. At the full-performance level the technician inspects and surveys areas, helps wildlife biologists identify and forecast damage and the species causing it, and adapts damage-control techniques to local conditions; developmental grades do the same work with narrower scope. The listing gives no experience minimum, and pay is $19.52–$35.36 an hour. Applications close October 19, 2026; the Texas A&M listing links to USAJOBS.",
+    "desc": "An entry federal USDA wildlife title — a foot in the agency she is aiming for.",
+    "pills": [
+      "USDA APHIS",
+      "Federal",
+      "Wildlife damage",
+      "Alabama"
+    ],
+    "start": "Before January 1, 2027",
+    "employer_type": "government",
+    "url_label": "Biological Science Technician (Wildlife) — wildlife damage management, Wilcox County AL (USDA APHIS Wildlife Services)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119373",
+        "label": "🔗 Biological Science Technician (Wildlife) — wildlife damage management, Wilcox County AL (USDA APHIS Wildlife Services)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-2078",
+    "title": "Field Technician – Environmental Services (permanent) — natural-resource assessments and permitting surveys in southern New Mexico (CEHMM, Carlsbad NM)",
+    "org": "Center for Environmental Health Monitoring and Management (CEHMM) · Environmental Services · Carlsbad, NM",
+    "location": "Carlsbad, New Mexico",
+    "deadline": "December 31, 2026",
+    "deadline_date": "2026-12-31",
+    "badge": "Strong fit",
+    "pay": "$22–$27 per hour (published)",
+    "url": "https://www.cehmm.org/",
+    "url2": "https://jobs.rwfm.tamu.edu/view-job/?id=119400",
+    "metaLine": "Carlsbad NM · permanent non-profit field tech · plant/wildlife surveys for permitting · no experience · $22–27/hr · BY DEC 31",
+    "body": "CEHMM, a 501(c)(3) non-profit, is hiring a permanent, full-time Field Technician in its Environmental Services department in Carlsbad, New Mexico, reporting to the Field Operations Supervisor. The department does natural-resource assessments and environmental permitting at federal and state levels for clients across southern New Mexico, and the technician learns the region's plants and wildlife while doing arid-climate field work. The listing gives no experience minimum. Pay is $22–$27 an hour and applications run to December 31, 2026.",
+    "desc": "A permanent field job doing permitting surveys with no experience required — the consulting skill set inside a non-profit.",
+    "pills": [
+      "Permanent",
+      "Non-profit",
+      "Permitting surveys",
+      "No experience required"
+    ],
+    "start": "After October 26, 2026",
+    "employer_type": "non-profit",
+    "url_label": "Field Technician – Environmental Services (permanent) — natural-resource assessments and permitting surveys in southern New Mexico (CEHMM, Carlsbad NM)",
+    "links": [
+      {
+        "href": "https://www.cehmm.org/",
+        "label": "🔗 Field Technician – Environmental Services (permanent) — natural-resource assessments and permitting surveys in southern New Mexico (CEHMM, Carlsbad NM)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-2079",
+    "title": "Water Quality Scientist (TMDL Planner) — water-quality improvement plans for Montana streams, lakes and rivers (Montana DEQ, Helena)",
+    "org": "Montana Department of Environmental Quality · Water Quality Planning Bureau · TMDL Section · Helena, MT",
+    "location": "Helena, Montana",
+    "deadline": "October 30, 2026",
+    "deadline_date": "2026-10-30",
+    "badge": "Reach",
+    "pay": "$66,040–$80,080 per year (published)",
+    "url": "https://mtstatejobs.taleo.net/careersection/200/jobdetail.ftl?job=26142552&tz=GMT-06%3A00&tzname=America%2FDenver",
+    "url2": "https://jobs.rwfm.tamu.edu/view-job/?id=119398",
+    "metaLine": "Helena MT · state water quality · TMDLs + field + data · BS + 3 yrs · $66–80k · BY OCT 30",
+    "body": "Montana DEQ's TMDL Section is hiring a Water Quality Scientist to develop total maximum daily loads and support TMDL implementation and other watershed-improvement work for the state's streams, lakes and rivers. The job mixes field work, data analysis and technical writing. The listing asks for a bachelor's and at least three years of experience. Pay is $66,040–$80,080 a year and applications close October 30, 2026.",
+    "desc": "Exactly her water-quality interest, but the three-year minimum makes it a reach for now.",
+    "pills": [
+      "State agency",
+      "Water quality",
+      "TMDL",
+      "Experience required"
+    ],
+    "employer_type": "government",
+    "url_label": "Water Quality Scientist (TMDL Planner) — water-quality improvement plans for Montana streams, lakes and rivers (Montana DEQ, Helena)",
+    "links": [
+      {
+        "href": "https://mtstatejobs.taleo.net/careersection/200/jobdetail.ftl?job=26142552&tz=GMT-06%3A00&tzname=America%2FDenver",
+        "label": "🔗 Water Quality Scientist (TMDL Planner) — water-quality improvement plans for Montana streams, lakes and rivers (Montana DEQ, Helena)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2080",
+    "title": "Stormwater Specialist — construction stormwater (CSGP) and MS4 compliance projects (Butler, Fairman & Seufert, Fort Wayne IN)",
+    "org": "Butler, Fairman & Seufert · Fort Wayne, IN",
+    "location": "Fort Wayne, Indiana",
+    "deadline": "November 30, 2026",
+    "deadline_date": "2026-11-30",
+    "badge": "Good fit",
+    "pay": "Commensurate / negotiable (not published)",
+    "url": "https://www.bfsengr.com/index.php/careers/",
+    "url2": "https://jobs.rwfm.tamu.edu/view-job/?id=119361",
+    "metaLine": "Fort Wayne IN · consulting stormwater compliance · BS + 2 yrs · pay negotiable · BY NOV 30",
+    "body": "Engineering firm Butler, Fairman & Seufert is hiring a Stormwater Specialist in Fort Wayne to manage construction and municipal stormwater compliance projects, including planning, field activities, regulatory review, reporting and documentation. The role applies local, state and federal rules for Construction Stormwater General Permit and MS4 compliance and coordinates with clients, contractors and regulators. The listing asks for a bachelor's and two years of experience, and pay is negotiable. Applications close November 30, 2026.",
+    "desc": "Clean Water Act compliance work in consulting — a water-quality career path with a two-year ask.",
+    "pills": [
+      "Consulting",
+      "Stormwater",
+      "Clean Water Act",
+      "Indiana"
+    ],
+    "employer_type": "private",
+    "url_label": "Stormwater Specialist — construction stormwater (CSGP) and MS4 compliance projects (Butler, Fairman & Seufert, Fort Wayne IN)",
+    "links": [
+      {
+        "href": "https://www.bfsengr.com/index.php/careers/",
+        "label": "🔗 Stormwater Specialist — construction stormwater (CSGP) and MS4 compliance projects (Butler, Fairman & Seufert, Fort Wayne IN)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2081",
+    "title": "Urban Wildlife Program Manager (Mgr 1, Natural Resources) — metro Atlanta and Savannah urban wildlife programme (Georgia DNR Wildlife Resources Division)",
+    "org": "Georgia Department of Natural Resources · Wildlife Resources Division · Social Circle, GA",
+    "location": "Social Circle, Georgia (metro Atlanta and Savannah)",
+    "deadline": "October 29, 2026",
+    "deadline_date": "2026-10-29",
+    "badge": "Reach",
+    "pay": "Starting at $66,509.05 per year (published)",
+    "url": "https://gadnr.org/careers",
+    "url2": "https://jobs.rwfm.tamu.edu/view-job/?id=119383",
+    "metaLine": "Social Circle GA · state urban wildlife programme manager · BS + 1 yr · $66.5k · BY OCT 29",
+    "body": "Georgia DNR's Wildlife Resources Division is hiring a Program Manager to plan, develop and run its Urban Wildlife Management programme in metro Atlanta and Savannah, based at the Wildlife Resources Conservation Center in Social Circle. The manager produces technical guidance on urban wildlife, liaises with media, local governments and animal-control agencies, and serves as the 24/7 on-call contact for metro wildlife emergencies beyond the scope of commercial nuisance-wildlife operators, with supervisory duties. The listing asks for a bachelor's and one year of experience. Pay starts at $66,509.05 a year and applications close October 29, 2026.",
+    "desc": "A well-paid state wildlife programme job, but it is a manager role with supervision — a reach on experience.",
+    "pills": [
+      "State agency",
+      "Urban wildlife",
+      "Programme manager",
+      "Reach"
+    ],
+    "start": "Between December 16, 2026 and February 15, 2027",
+    "employer_type": "government",
+    "url_label": "Urban Wildlife Program Manager (Mgr 1, Natural Resources) — metro Atlanta and Savannah urban wildlife programme (Georgia DNR Wildlife Resources Division)",
+    "links": [
+      {
+        "href": "https://gadnr.org/careers",
+        "label": "🔗 Urban Wildlife Program Manager (Mgr 1, Natural Resources) — metro Atlanta and Savannah urban wildlife programme (Georgia DNR Wildlife Resources Division)"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-2082",
+    "title": "Funded PhD (BS entry) — virtual fencing, elk–cattle comingling and brucellosis spillover risk (University of Wyoming, Merkle Research Group)",
+    "org": "University of Wyoming · Merkle Research Group · with Wyoming Game and Fish · Laramie, WY",
+    "location": "Laramie, Wyoming (fieldwork in the Greater Yellowstone)",
+    "deadline": "November 9, 2026",
+    "deadline_date": "2026-11-09",
+    "badge": "Reach",
+    "pay": "$29,016 per year (published)",
+    "stipend": "$29,016 per year",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119308",
+    "metaLine": "Laramie WY · funded PhD, BS accepted · elk + cattle + disease · $29,016/yr · BY NOV 9",
+    "body": "The Merkle Research Group at the University of Wyoming is recruiting a field-capable PhD student to study whether cattle grazing managed with virtual fencing can reduce the risk of brucellosis spillover from elk to cattle. The project is a collaboration with Wyoming Game and Fish, the Beyond Yellowstone Living Lab and the Greater Yellowstone Coalition, and aims to map spillover risk, compare elk–cattle comingling before and after virtual fencing, and quantify direct interactions through behavioural observation. The listing accepts applicants with a bachelor's and gives a stipend of $29,016 a year, starting after January 1, 2027. Applications are due November 9, 2026.",
+    "desc": "A marquee ungulate-ecology project that accepts a BS — a reach only because it is a PhD and she is targeting an MS.",
+    "pills": [
+      "Funded PhD",
+      "BS accepted",
+      "Elk + disease",
+      "Greater Yellowstone"
+    ],
+    "start": "After January 1, 2027",
+    "employer_type": "university",
+    "url_label": "Funded PhD (BS entry) — virtual fencing, elk–cattle comingling and brucellosis spillover risk (University of Wyoming, Merkle Research Group)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119308",
+        "label": "🔗 Funded PhD (BS entry) — virtual fencing, elk–cattle comingling and brucellosis spillover risk (University of Wyoming, Merkle Research Group)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 13, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "West Coast / Pacific",
+    "id": "item-2083",
+    "title": "Presales Forester — Natural Resource Specialist 2 / NRS 1 in-training, non-permanent to June 2027 (Washington DNR, Sedro-Woolley)",
+    "org": "Washington State Department of Natural Resources · Northwest Region · Sedro-Woolley, WA",
+    "location": "Sedro-Woolley, Washington",
+    "deadline": "Open — review ongoing; may close any time after October 12, 2026",
+    "badge": "Good fit",
+    "pay": "$4,004–$6,075 per month (published)",
+    "url": "https://www.governmentjobs.com/careers/washington/jobs/5503541/presales-forester-natural-resource-specialist-2-nrs2-nrs1-in-training",
+    "url2": "https://jobs.rwfm.tamu.edu/view-job/?id=119333",
+    "metaLine": "Sedro-Woolley WA · state NRS1 in-training · timber presale field work · $4,004–6,075/mo · apply now",
+    "body": "Washington DNR's Northwest Region is hiring a full-time, non-permanent Presales Forester (recruitment 2026-10-5231) in Sedro-Woolley, at Natural Resource Specialist 2 or NRS 1 in-training, with the appointment running to June 30, 2027. Presales foresters lay out and prepare state timber sales in the field. Partial telework may be possible. Pay is $4,004–$6,075 a month; review is ongoing and DNR may close the recruitment any time after October 12, 2026.",
+    "desc": "An in-training state natural-resource title — field forestry rather than ecology, but a WA DNR foothold.",
+    "pills": [
+      "State agency",
+      "In-training",
+      "Forestry field work",
+      "Apply now"
+    ],
+    "start": "After November 2, 2026",
+    "employer_type": "government",
+    "url_label": "Presales Forester — Natural Resource Specialist 2 / NRS 1 in-training, non-permanent to June 2027 (Washington DNR, Sedro-Woolley)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/washington/jobs/5503541/presales-forester-natural-resource-specialist-2-nrs2-nrs1-in-training",
+        "label": "🔗 Presales Forester — Natural Resource Specialist 2 / NRS 1 in-training, non-permanent to June 2027 (Washington DNR, Sedro-Woolley)"
       }
     ]
   }
