@@ -5002,7 +5002,7 @@
     "cat": "Funded Graduate Programs",
     "src": "erin_programs.html",
     "src_label": "Funded Graduate Programs",
-    "deadline": "Rolling — contact PIs first; SUNY-ESF official grad deadline Jan 15, 2027 for Fall 2027",
+    "deadline": "November 15, 2026 (new MS project posted — Lake Champlain flooding and food webs)",
     "start": "Fall 2026 or Spring/Fall 2027",
     "body": "Fully funded MS or PhD co-advised by Dr. Emily Arsenault and Dr. John Farrell, studying how seasonal hydroperiod shapes energy flow and food webs in wetlands used by juvenile Northern Pike (St. Lawrence River system). Skills built: stable isotope analysis, otolith microchemistry, fish & wetland ecology.",
     "desc": "Combines wetland hydrology with fisheries — exactly Erin's intersecting interests. Field season May-Oct at Thousand Islands & Cranberry Lake biological stations; academic year in Syracuse. New NY Sea Grant funded ($217k) so resources are fresh. Bachelor's-direct PhD or MS both open. Email both PIs with CV + statement of interest before applying through the grad school.",
@@ -5015,9 +5015,13 @@
     ],
     "metaLine": "Funded MS or PhD · contact Arsenault + Farrell first · field at Thousand Islands",
     "cycle": "current",
-    "deadline_kind": "contact-first",
+    "deadline_kind": "fixed",
     "region": "Northeast",
     "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119569",
+        "label": "🔗 New MS posting (Oct 2026): Lake Champlain seasonal flooding & food webs, closes Nov 15"
+      },
       {
         "href": "https://sites.google.com/view/arsenaultlab/people",
         "label": "🔗 Arsenault Lab @ SUNY-ESF (contact page)"
@@ -5025,14 +5029,16 @@
     ],
     "status": {
       "kind": "s-new",
-      "label": "✨ New — June 15, 2026"
+      "label": "✨ Re-posted — October 20, 2026"
     },
     "id": "item-117",
     "location": "Syracuse, New York (SUNY-ESF); field at Thousand Islands & Cranberry Lake biological stations",
     "pay": "Fully funded MS/PhD assistantship (stipend + tuition; confirm current rate with the PIs)",
-    "stipend": "Graduate assistantship on a NY Sea Grant–funded project ($217k); stipend + tuition",
+    "stipend": "Starting at $20,000 per year (published on the October 2026 TAMU listing)",
     "benefits": "Tuition coverage; funded field seasons (May–Oct)",
-    "relocation": "local"
+    "relocation": "local",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119569",
+    "deadline_date": "2026-11-15"
   },
   {
     "title": "Southern Illinois University Carbondale — Funded MS, Watershed Science (Soils, Water & Nutrient Dynamics)",
@@ -92616,6 +92622,979 @@
       {
         "href": "https://www.usajobs.gov/job/889101800",
         "label": "🔗 Biological Science Technician, Seasonal GS-4/5 — Pea Ridge NMP (AR) and Tallgrass Prairie National Preserve (KS) (NPS, USAJOBS 889101800)"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-2150",
+    "title": "Funded MS — urban trees, community greening and watershed restoration with GIS prioritization (Texas A&M University-Kingsville, CKWRI)",
+    "org": "Texas A&M University-Kingsville · Caesar Kleberg Wildlife Research Institute · Kingsville, TX",
+    "location": "Kingsville, Texas (South Texas watersheds)",
+    "deadline": "November 15, 2026 (open until filled)",
+    "deadline_date": "2026-11-15",
+    "badge": "Strong fit",
+    "pay": "$2,000 per month stipend plus benefits; non-resident tuition waived (resident tuition and fees still apply)",
+    "stipend": "$2,000 per month plus benefits; non-resident tuition waived, resident tuition and fees still apply",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119268",
+    "metaLine": "Kingsville TX · funded MS · restoration + urban forestry + GIS · $2,000/mo · spring 2027 · by Nov 15",
+    "body": "Texas A&M University-Kingsville is recruiting an M.S. student for a project at the intersection of restoration ecology, urban forestry and geospatial science, surveying woody vegetation across South Texas watersheds to prioritize tree planting for water quality. The assistantship pays $2,000 a month plus benefits with non-resident tuition waived; resident tuition and fees still apply. A BS in environmental science or a related field is the stated requirement. Start is January 2027 and the posting stays open until filled (listed November 15, 2026).",
+    "desc": "Watershed restoration driven by GIS suitability mapping — almost exactly her capstone toolkit, with a spring start.",
+    "pills": [
+      "Funded MS",
+      "Watershed restoration",
+      "GIS prioritization",
+      "Spring 2027"
+    ],
+    "start": "Spring 2027 (January)",
+    "employer_type": "university",
+    "url_label": "Funded MS — urban trees, community greening and watershed restoration with GIS prioritization (Texas A&M University-Kingsville, CKWRI)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119268",
+        "label": "🔗 Funded MS — urban trees, community greening and watershed restoration with GIS prioritization (Texas A&M University-Kingsville, CKWRI)"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2151",
+    "title": "Graduate Research Assistantship (MS or PhD) — Lake Superior food web ecology (University of Wisconsin-Milwaukee, Gerig Fish Ecology Lab)",
+    "org": "University of Wisconsin-Milwaukee · School of Freshwater Sciences · Milwaukee, WI",
+    "location": "Milwaukee, Wisconsin (field sampling on Lake Superior)",
+    "deadline": "December 11, 2026",
+    "deadline_date": "2026-12-11",
+    "badge": "Strong fit",
+    "pay": "About $28,000 per year with full tuition waiver; 2.5 years guaranteed",
+    "stipend": "About $28,000 per year research assistantship with full tuition waiver (2.5 years guaranteed)",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119472",
+    "metaLine": "Milwaukee WI · funded MS/PhD · Lake Superior food webs · ~$28k + tuition · BY DEC 11",
+    "body": "The Gerig Fish Ecology Lab at UW-Milwaukee's School of Freshwater Sciences is recruiting an MS or PhD student for a multi-agency Lake Superior project analysing fish diets, DNA barcoding of prey and food-web effects of a record cisco year class, with boat-based field sampling. The research assistantship is about $28,000 a year with a full tuition waiver, guaranteed for 2.5 years. Preferred start is January–March 2027; applications close December 11, 2026.",
+    "desc": "A fully funded Great Lakes MS with agency partners and real field sampling — strong value.",
+    "pills": [
+      "Funded MS",
+      "Great Lakes",
+      "Fisheries / food webs",
+      "Tuition waiver"
+    ],
+    "start": "Spring 2027 preferred (January–March, flexible)",
+    "employer_type": "university",
+    "url_label": "Graduate Research Assistantship (MS or PhD) — Lake Superior food web ecology (University of Wisconsin-Milwaukee, Gerig Fish Ecology Lab)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119472",
+        "label": "🔗 Graduate Research Assistantship (MS or PhD) — Lake Superior food web ecology (University of Wisconsin-Milwaukee, Gerig Fish Ecology Lab)"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2152",
+    "title": "Funded MS — interior least tern colonies on the Arkansas River (Arkansas Tech University)",
+    "org": "Arkansas Tech University · Department of Biological Sciences · Russellville, AR",
+    "location": "Russellville, Arkansas (Arkansas River)",
+    "deadline": "October 31, 2026",
+    "deadline_date": "2026-10-31",
+    "badge": "Good fit",
+    "pay": "$15,500 per year stipend; tuition (not fees) waived for 18 credit hours per year",
+    "stipend": "$15,500 per year; tuition (not fees) waiver for 18 credit hours per year",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119492",
+    "metaLine": "Russellville AR · funded MS · least tern monitoring · $15.5k + tuition · BY OCT 31",
+    "body": "Arkansas Tech University is recruiting an M.S. student to count interior least terns, estimate reproductive success and identify threats on the Arkansas River, including rooftop colonies. Boat operation is required. The assistantship pays $15,500 a year with a tuition (not fees) waiver for 18 credit hours a year. A bachelor's in wildlife or a related science is required; start is January 2027 preferred, and applications close October 31, 2026.",
+    "desc": "A funded wildlife-monitoring MS with a quick spring start — lower stipend, but tuition covered.",
+    "pills": [
+      "Funded MS",
+      "Waterbirds",
+      "Spring 2027",
+      "Closes Oct 31"
+    ],
+    "start": "Spring 2027 (January preferred)",
+    "employer_type": "university",
+    "url_label": "Funded MS — interior least tern colonies on the Arkansas River (Arkansas Tech University)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119492",
+        "label": "🔗 Funded MS — interior least tern colonies on the Arkansas River (Arkansas Tech University)"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2153",
+    "title": "Graduate position (MS or PhD) in fish ecology — plasticity under environmental change (The Ohio State University, Hellmann Lab)",
+    "org": "The Ohio State University · Dept. of Evolution, Ecology & Organismal Biology · Columbus, OH",
+    "location": "Columbus, Ohio",
+    "deadline": "November 15, 2026",
+    "deadline_date": "2026-11-15",
+    "badge": "Good fit",
+    "pay": "$33,000–$34,000 per year via TA/RA, full tuition waiver and health insurance",
+    "stipend": "$33,000–$34,000 per year (teaching and research assistantships) with full tuition waiver and health insurance",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119496",
+    "metaLine": "Columbus OH · funded MS/PhD · fish ecology · $33–34k + tuition + health · BY NOV 15",
+    "body": "The Hellmann Lab at Ohio State is recruiting a master's or PhD student studying developmental and transgenerational plasticity in fish coping with natural and human-induced environmental change. Funding is $33,000–$34,000 a year through teaching and research assistantships, with a full tuition waiver and health insurance. A BS is the stated entry requirement; start is August 2027 and applications close November 15, 2026.",
+    "desc": "Very well funded, but more lab-physiology than field — weigh it against her field-ecology goals.",
+    "pills": [
+      "Funded MS",
+      "Fish ecology",
+      "Full tuition",
+      "Fall 2027"
+    ],
+    "start": "Fall 2027 (August)",
+    "employer_type": "university",
+    "url_label": "Graduate position (MS or PhD) in fish ecology — plasticity under environmental change (The Ohio State University, Hellmann Lab)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119496",
+        "label": "🔗 Graduate position (MS or PhD) in fish ecology — plasticity under environmental change (The Ohio State University, Hellmann Lab)"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-2154",
+    "title": "M.S. Research Assistantship — Bendire's Thrasher nest predation and breeding ecology (New Mexico State University)",
+    "org": "New Mexico State University · Dept. of Fish, Wildlife & Conservation Ecology · Las Cruces, NM",
+    "location": "Las Cruces, New Mexico (fieldwork in southwest New Mexico, March–June)",
+    "deadline": "November 16, 2026",
+    "deadline_date": "2026-11-16",
+    "badge": "Strong fit",
+    "pay": "From $29,236 per year, in-state tuition rate and 2.5 years of tuition waiver",
+    "stipend": "Starting at $29,236 per year with in-state tuition rate and 2.5 years of tuition waiver",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119507",
+    "metaLine": "Las Cruces NM · funded MS · imperiled desert songbird · $29.2k + tuition · BY NOV 16",
+    "body": "New Mexico State University is recruiting an M.S. student to study nest predation dynamics in the imperiled Bendire's Thrasher, with nest-monitoring fieldwork March–June in southwest New Mexico. The assistantship starts at $29,236 a year with the in-state tuition rate and 2.5 years of tuition waiver. A BS in wildlife, ecology or a related field is required with no minimum experience; start is after January 18, 2027 and applications close November 16, 2026.",
+    "desc": "A fully funded wildlife MS on an imperiled species, open to BS applicants with no experience minimum.",
+    "pills": [
+      "Funded MS",
+      "Imperiled species",
+      "Nest monitoring",
+      "Spring 2027"
+    ],
+    "start": "Spring 2027 (after January 18)",
+    "employer_type": "university",
+    "url_label": "M.S. Research Assistantship — Bendire's Thrasher nest predation and breeding ecology (New Mexico State University)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119507",
+        "label": "🔗 M.S. Research Assistantship — Bendire's Thrasher nest predation and breeding ecology (New Mexico State University)"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2155",
+    "title": "Graduate Assistantship (MS) in tree ecophysiology — pine carbohydrate storage and stress tolerance (Oklahoma State University)",
+    "org": "Oklahoma State University · Plant Biology (Dixit & Wiley Labs) · Stillwater, OK",
+    "location": "Stillwater, Oklahoma",
+    "deadline": "November 30, 2026",
+    "deadline_date": "2026-11-30",
+    "badge": "Good fit",
+    "pay": "From $2,283 per month; tuition and insurance included",
+    "stipend": "Starting at $2,283 per month (TA in the school year, RA in summer); tuition and insurance included",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119513",
+    "metaLine": "Stillwater OK · funded MS · pine ecophysiology · $2,283/mo + tuition · BY NOV 30",
+    "body": "Oklahoma State University's Dixit and Wiley labs are recruiting an M.S. student to study allocation trade-offs and carbohydrate storage in native pines and how they shape stress tolerance and disturbance response. Funding starts at $2,283 a month (teaching assistantship in the school year, research assistantship in summer) with tuition and insurance included. A BS in biology, forestry or environmental science qualifies; start is summer 2027 and applications close November 30, 2026.",
+    "desc": "A fully funded forestry MS — a lab-leaning option if she wants forest ecology.",
+    "pills": [
+      "Funded MS",
+      "Forest ecophysiology",
+      "Tuition included",
+      "Summer 2027"
+    ],
+    "start": "Summer 2027",
+    "employer_type": "university",
+    "url_label": "Graduate Assistantship (MS) in tree ecophysiology — pine carbohydrate storage and stress tolerance (Oklahoma State University)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119513",
+        "label": "🔗 Graduate Assistantship (MS) in tree ecophysiology — pine carbohydrate storage and stress tolerance (Oklahoma State University)"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2156",
+    "title": "Funded MS in plant and tree ecophysiology, Fall 2027 (Northern Michigan University, O'Keefe Lab)",
+    "org": "Northern Michigan University · Biology (O'Keefe Plant Ecophysiology Lab) · Marquette, MI",
+    "location": "Marquette, Michigan",
+    "deadline": "November 15, 2026",
+    "deadline_date": "2026-11-15",
+    "badge": "Good fit",
+    "pay": "Teaching assistantship (listed at $18 per hour) guaranteed two years with full tuition waiver",
+    "stipend": "Teaching assistantship listed at $18/hour, guaranteed for two years, with full tuition waiver",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119532",
+    "metaLine": "Marquette MI · funded MS · plant ecophysiology · TA $18/hr + tuition · BY NOV 15",
+    "body": "The O'Keefe Plant Ecophysiology Lab at Northern Michigan University seeks an MS student for plant and tree ecophysiology research, with a teaching assistantship (listed at $18 an hour) guaranteed for two years and a full tuition waiver. A bachelor's in biology or ecology is the requirement; start is August 2027 and applications close November 15, 2026.",
+    "desc": "A guaranteed two-year funded MS in the Upper Peninsula — modest stipend, low cost of living.",
+    "pills": [
+      "Funded MS",
+      "Plant ecology",
+      "Tuition waiver",
+      "Fall 2027"
+    ],
+    "start": "Fall 2027 (August)",
+    "employer_type": "university",
+    "url_label": "Funded MS in plant and tree ecophysiology, Fall 2027 (Northern Michigan University, O'Keefe Lab)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119532",
+        "label": "🔗 Funded MS in plant and tree ecophysiology, Fall 2027 (Northern Michigan University, O'Keefe Lab)"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-2157",
+    "title": "Funded MS/PhD (3 positions) — applied plant ecology and restoration: Emory oak, Colorado Plateau rangelands, borderlands (Northern Arizona University)",
+    "org": "Northern Arizona University · Lab of Conservation Ecology · Flagstaff, AZ",
+    "location": "Flagstaff, Arizona",
+    "deadline": "November 1, 2026 (email CV and writing sample; formal application January 1)",
+    "deadline_date": "2026-11-01",
+    "badge": "Good fit",
+    "stipend": "Fellowship-funded (EOCTRI 2-year MS fellowship; two Olajos-Goslow 2-year MS fellowships) — amounts not published",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119562",
+    "metaLine": "Flagstaff AZ · 3 fellowship-funded grad slots · restoration ecology · email by Nov 1",
+    "body": "NAU's Lab of Conservation Ecology has three fellowship-funded graduate positions for Fall 2027: culturally informed restoration of Emory oak woodlands, rangeland management on the Colorado Plateau, and borderland plant resilience to drought and fire. Funding comes through an EOCTRI two-year MS fellowship and two Olajos-Goslow two-year MS fellowships; stipend and tuition amounts are not published. Email a CV and writing sample by November 1, 2026; formal NAU applications are due January 1, 2027.",
+    "desc": "Restoration-ecology MS slots with fellowships attached — confirm the stipend in the first email.",
+    "pills": [
+      "Funded MS",
+      "Restoration ecology",
+      "Fellowships",
+      "Email by Nov 1"
+    ],
+    "start": "Fall 2027",
+    "employer_type": "university",
+    "url_label": "Funded MS/PhD (3 positions) — applied plant ecology and restoration: Emory oak, Colorado Plateau rangelands, borderlands (Northern Arizona University)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119562",
+        "label": "🔗 Funded MS/PhD (3 positions) — applied plant ecology and restoration: Emory oak, Colorado Plateau rangelands, borderlands (Northern Arizona University)"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2158",
+    "title": "MS Assistantship — Great Plains fisheries, cyanobacteria and extension (Kansas State University, Gerken Lab)",
+    "org": "Kansas State University · Dept. of Horticulture & Natural Resources · Manhattan, KS",
+    "location": "Manhattan, Kansas",
+    "deadline": "November 15, 2026",
+    "deadline_date": "2026-11-15",
+    "badge": "Strong fit",
+    "pay": "From $32,500 per year (tuition coverage not stated in the posting)",
+    "stipend": "Starting at $32,500 per year; tuition coverage not stated — confirm with the lab",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119567",
+    "metaLine": "Manhattan KS · funded MS · fisheries + cyanobacteria + extension · from $32.5k · BY NOV 15",
+    "body": "The Gerken Lab at Kansas State is recruiting an M.S. student working on Great Plains fisheries, cyanobacteria or human-wildlife conflict in aquaculture, with strong extension and outreach components. The posting gives a stipend starting at $32,500 a year; tuition coverage is not stated. A bachelor's is the only requirement; start is spring or summer 2027 and applications close November 15, 2026.",
+    "desc": "A high stipend and a water-quality angle (cyanobacteria) — ask about tuition in the first email.",
+    "pills": [
+      "Funded MS",
+      "Fisheries",
+      "Harmful algae",
+      "Spring/summer 2027"
+    ],
+    "start": "Spring or summer 2027",
+    "employer_type": "university",
+    "url_label": "MS Assistantship — Great Plains fisheries, cyanobacteria and extension (Kansas State University, Gerken Lab)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119567",
+        "label": "🔗 MS Assistantship — Great Plains fisheries, cyanobacteria and extension (Kansas State University, Gerken Lab)"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2159",
+    "title": "MS in Conservation Sciences — participatory GIS with White Earth Natural Resources on hunting, fishing and trapping (University of Minnesota, Umana Lab)",
+    "org": "University of Minnesota · Dept. of Fisheries, Wildlife & Conservation Biology · St. Paul, MN",
+    "location": "St. Paul, Minnesota (work with White Earth Nation)",
+    "deadline": "November 30, 2026",
+    "deadline_date": "2026-11-30",
+    "badge": "Strong fit",
+    "pay": "From $30,000 per year (tuition coverage not stated in the posting)",
+    "stipend": "Starting at $30,000 per year; tuition coverage not stated — confirm with the lab",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119587",
+    "metaLine": "St. Paul MN · funded MS · community GIS with a tribal nation · from $30k · BY NOV 30",
+    "body": "The Umana Lab at the University of Minnesota is recruiting an MS student in Conservation Sciences for a community-based participatory mapping project with White Earth Natural Resources on barriers to hunting, fishing and trapping, producing a community GIS. The posting gives a stipend starting at $30,000 a year; tuition coverage is not stated. A BS in wildlife, ecology or a related field is required; start is Fall 2027 and applications close November 30, 2026.",
+    "desc": "A GIS-centred conservation MS at a top program — her suitability-mapping work is the hook.",
+    "pills": [
+      "Funded MS",
+      "GIS",
+      "Tribal partnership",
+      "Fall 2027"
+    ],
+    "start": "Fall 2027",
+    "employer_type": "university",
+    "url_label": "MS in Conservation Sciences — participatory GIS with White Earth Natural Resources on hunting, fishing and trapping (University of Minnesota, Umana Lab)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119587",
+        "label": "🔗 MS in Conservation Sciences — participatory GIS with White Earth Natural Resources on hunting, fishing and trapping (University of Minnesota, Umana Lab)"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-2160",
+    "title": "Graduate Research Opportunity (MS or PhD) — Painted Bunting breeding ecology (University of North Texas, Bednarz)",
+    "org": "University of North Texas · Dept. of Biological Sciences · Denton, TX",
+    "location": "Denton, Texas",
+    "deadline": "November 7, 2026",
+    "deadline_date": "2026-11-07",
+    "badge": "Good fit",
+    "pay": "$24,200–$28,000 per year (TA in fall/spring) plus waiver of most tuition and fees",
+    "stipend": "Starting about $24,200 per year as a TA, with most tuition and fees waived",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119467",
+    "metaLine": "Denton TX · funded MS/PhD · color-banded songbird population · ~$24.2k + tuition · BY NOV 7",
+    "body": "The University of North Texas is recruiting a graduate student to study the breeding ecology, nesting behaviour, habitat use and demography of a long-term colour-banded Painted Bunting population (500+ birds banded since 2017). Funding starts at about $24,200 a year as a teaching assistant with most tuition and fees waived. The listing asks for at least 1 year of experience and gives preference to candidates with MS research; start is Fall 2027 and applications close November 7, 2026.",
+    "desc": "A long-term banded population is a great thesis dataset — but MS-level applicants get preference.",
+    "pills": [
+      "Funded MS/PhD",
+      "Songbird ecology",
+      "Long-term dataset",
+      "Fall 2027"
+    ],
+    "start": "Fall 2027 (fieldwork spring/summer 2028)",
+    "employer_type": "university",
+    "url_label": "Graduate Research Opportunity (MS or PhD) — Painted Bunting breeding ecology (University of North Texas, Bednarz)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119467",
+        "label": "🔗 Graduate Research Opportunity (MS or PhD) — Painted Bunting breeding ecology (University of North Texas, Bednarz)"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2161",
+    "title": "Graduate Research Assistant (M.S.) — crawfish pond ecology: temperature, low oxygen and invasives (LSU AgCenter, Sea Grant)",
+    "org": "LSU AgCenter · School of Renewable Natural Resources · Baton Rouge, LA",
+    "location": "Baton Rouge, Louisiana",
+    "deadline": "October 30, 2026",
+    "deadline_date": "2026-10-30",
+    "badge": "Good fit",
+    "pay": "$28,000 per year 12-month stipend, full tuition, fee support and 75% health insurance",
+    "stipend": "$28,000 per year (12-month) with full tuition, fee support and 75% of health insurance",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119084",
+    "metaLine": "Baton Rouge LA · funded MS · aquatic / water quality in crawfish ponds · $28k + tuition · BY OCT 30",
+    "body": "LSU AgCenter is recruiting an M.S. student for a Sea Grant project on how temperature, low oxygen, disease and invasive species affect crawfish catchability, behaviour and survival in ponds and commercial farms. Funding is a $28,000 12-month stipend with full tuition, fee support and 75% of health insurance. A BS with a 3.0 GPA is the minimum; start is January or May 2027 and applications close October 30, 2026.",
+    "desc": "Fully funded aquatic MS with a water-quality core — more aquaculture than conservation, but solid money.",
+    "pills": [
+      "Funded MS",
+      "Water quality",
+      "Aquatic ecology",
+      "Closes Oct 30"
+    ],
+    "start": "Spring or summer 2027 (January or May)",
+    "employer_type": "university",
+    "url_label": "Graduate Research Assistant (M.S.) — crawfish pond ecology: temperature, low oxygen and invasives (LSU AgCenter, Sea Grant)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119084",
+        "label": "🔗 Graduate Research Assistant (M.S.) — crawfish pond ecology: temperature, low oxygen and invasives (LSU AgCenter, Sea Grant)"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2162",
+    "title": "Graduate Research (2 MS or 1 PhD) — pine genetics and establishment on salt-affected land with mycorrhizal fungi (Auburn University)",
+    "org": "Auburn University · College of Forestry, Wildlife & Environment · Auburn, AL",
+    "location": "Auburn, Alabama",
+    "deadline": "November 15, 2026",
+    "deadline_date": "2026-11-15",
+    "badge": "Good fit",
+    "pay": "$25,000–$27,000 per year (tuition status not stated)",
+    "stipend": "$25,000–$27,000 per year; tuition status not stated — confirm with the department",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119370",
+    "metaLine": "Auburn AL · funded MS · forest soils + pine establishment · $25–27k · BY NOV 15",
+    "body": "Auburn's College of Forestry, Wildlife and Environment has two M.S. projects (or one PhD): genomic prediction and economics of loblolly pine improvement, and pine establishment with mycorrhizal fungi on salt-affected land, which involves soils work. The posting gives $25,000–$27,000 a year; tuition status is not stated. A natural-resources bachelor's qualifies; applications close November 15, 2026.",
+    "desc": "The salt-affected soils project is the closer fit — soil chemistry ties to her sediment work.",
+    "pills": [
+      "Funded MS",
+      "Forest soils",
+      "Salt-affected land",
+      "Southeast"
+    ],
+    "employer_type": "university",
+    "url_label": "Graduate Research (2 MS or 1 PhD) — pine genetics and establishment on salt-affected land with mycorrhizal fungi (Auburn University)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119370",
+        "label": "🔗 Graduate Research (2 MS or 1 PhD) — pine genetics and establishment on salt-affected land with mycorrhizal fungi (Auburn University)"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2163",
+    "title": "Funded PhD (BS accepted) — fish ecology, Hook Lab (Purdue University Forestry & Natural Resources)",
+    "org": "Purdue University · Dept. of Forestry & Natural Resources · West Lafayette, IN",
+    "location": "West Lafayette, Indiana",
+    "deadline": "November 20, 2026",
+    "deadline_date": "2026-11-20",
+    "badge": "Reach",
+    "pay": "From $30,000 per year, 12-month stipend, full tuition and insurance",
+    "stipend": "Starting at $30,000 per year (12-month) with full tuition coverage and insurance",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119515",
+    "metaLine": "West Lafayette IN · funded PhD, BS accepted · fish ecology · $30k + tuition · BY NOV 20",
+    "body": "The Hook Lab in Purdue's Department of Forestry and Natural Resources is recruiting PhD students for funded fish ecology projects; the minimum qualification is a BS/BA, with an MS preferred but not required. Funding starts at $30,000 a year (12-month) with full tuition coverage and insurance. Start is April–August 2027; applications close November 20, 2026.",
+    "desc": "A PhD that admits BS holders — a big commitment, listed for completeness behind the MS options.",
+    "pills": [
+      "PhD (BS accepted)",
+      "Fisheries",
+      "Full tuition",
+      "2027 start"
+    ],
+    "start": "Spring–summer 2027 (April–August)",
+    "employer_type": "university",
+    "url_label": "Funded PhD (BS accepted) — fish ecology, Hook Lab (Purdue University Forestry & Natural Resources)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119515",
+        "label": "🔗 Funded PhD (BS accepted) — fish ecology, Hook Lab (Purdue University Forestry & Natural Resources)"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2164",
+    "title": "Funded PhD (BS accepted) — coastal salt-marsh resilience and restoration with GIS, LiDAR and sediment work (Georgia Tech, Kostka Lab, with Bald Head Island Conservancy)",
+    "org": "Georgia Institute of Technology · Kostka Lab · Atlanta, GA",
+    "location": "Atlanta, Georgia (field sites with Bald Head Island Conservancy, NC)",
+    "deadline": "January 11, 2027 (review begins immediately)",
+    "deadline_date": "2027-01-11",
+    "badge": "Strong fit",
+    "pay": "$39,000 per year (TAMU listing) with full tuition remission",
+    "stipend": "$39,000 per year (TAMU listing header) research assistantship with full tuition remission",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119566",
+    "metaLine": "Atlanta GA · funded PhD, BS ok · salt-marsh restoration · GIS/LiDAR/sediments · $39k · by Jan 11",
+    "body": "The Kostka Lab at Georgia Tech, working with the Bald Head Island Conservancy, is recruiting a PhD student on coastal salt-marsh ecology, disturbance and nature-based restoration using GIS, LiDAR, sediment and plant field methods. The TAMU listing gives $39,000 a year with full tuition remission and requires only a bachelor's. Start is early August 2027; review begins immediately with a January 11, 2027 deadline.",
+    "desc": "Wetlands, GIS and sediment sampling in one project — the rare PhD that reads like her résumé.",
+    "pills": [
+      "PhD (BS accepted)",
+      "Salt marsh",
+      "GIS + LiDAR",
+      "Sediments"
+    ],
+    "start": "Fall 2027 (early August)",
+    "employer_type": "university",
+    "url_label": "Funded PhD (BS accepted) — coastal salt-marsh resilience and restoration with GIS, LiDAR and sediment work (Georgia Tech, Kostka Lab, with Bald Head Island Conservancy)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119566",
+        "label": "🔗 Funded PhD (BS accepted) — coastal salt-marsh resilience and restoration with GIS, LiDAR and sediment work (Georgia Tech, Kostka Lab, with Bald Head Island Conservancy)"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-2165",
+    "title": "Funded MS (up to 4) — wildfire risk, governance and insurance economics in Arizona (Northern Arizona University School of Forestry, WIRE program)",
+    "org": "Northern Arizona University · School of Forestry & Ecological Restoration Institute · Flagstaff, AZ",
+    "location": "Flagstaff, Arizona",
+    "deadline": "November 16, 2026 (review starts)",
+    "deadline_date": "2026-11-16",
+    "badge": "Good fit",
+    "stipend": "Graduate research stipend, tuition waiver, health benefits and summer stipend (amounts not published)",
+    "url": "https://websites.nku.edu/~boycer/gradopps.html",
+    "metaLine": "Flagstaff AZ · up to 4 funded MS · wildfire policy & economics · review starts Nov 16",
+    "body": "NAU's School of Forestry, with the Ecological Restoration Institute, has up to four funded master's assistantships (WIRE program) on the policy and economic dimensions of wildfire risk and insurance in Arizona. Funding includes a graduate research stipend, tuition waiver, health benefits and summer stipend; amounts are not published. Send a CV, cover letter and references to Drs. Roberts and Abrams; review starts November 16, 2026. Listed on the NKU graduate-opportunities aggregator.",
+    "desc": "A natural-resource policy MS rather than field ecology — useful if she leans toward agency planning work.",
+    "pills": [
+      "Funded MS",
+      "NRM policy",
+      "Wildfire",
+      "Tuition waiver"
+    ],
+    "start": "Spring, summer or fall 2027",
+    "employer_type": "university",
+    "url_label": "Funded MS (up to 4) — wildfire risk, governance and insurance economics in Arizona (Northern Arizona University School of Forestry, WIRE program)",
+    "links": [
+      {
+        "href": "https://websites.nku.edu/~boycer/gradopps.html",
+        "label": "🔗 Funded MS (up to 4) — wildfire risk, governance and insurance economics in Arizona (Northern Arizona University School of Forestry, WIRE program)"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Prairies (AB/SK/MB)",
+    "id": "item-2166",
+    "country": "CA",
+    "title": "MSc/PhD — boreal forest drought mortality with forest inventory and drone canopy data (University of Regina, Vanderwel Forest Dynamics Lab)",
+    "org": "University of Regina · Vanderwel Forest Dynamics Lab · Regina, SK",
+    "location": "Regina, Saskatchewan (remote summer fieldwork in western boreal forest)",
+    "deadline": "November 2, 2026 (review begins)",
+    "deadline_date": "2026-11-02",
+    "badge": "Good fit",
+    "stipend": "Minimum CAD $27,500 per year for two years (MSc); tuition coverage not stated",
+    "url": "https://websites.nku.edu/~boycer/gradopps.html",
+    "metaLine": "🇨🇦 Regina SK · funded MSc · boreal forest + drone remote sensing · CAD $27.5k · review Nov 2",
+    "body": "The Vanderwel Forest Dynamics Lab at the University of Regina is recruiting an MSc (or PhD) student to study how rising climatic aridity affects tree growth and mortality in the western Canadian boreal forest, using forest inventory and drone canopy data with remote summer fieldwork. The MSc stipend is a minimum of CAD $27,500 a year for two years; tuition coverage is not stated. A four-year bachelor's in ecology or forestry qualifies; start is September 2027 and review begins November 2, 2026. Listed on the NKU graduate-opportunities aggregator.",
+    "desc": "A Canadian funded MSc with a remote-sensing component — a study permit route that sidesteps work-permit questions.",
+    "pills": [
+      "Funded MSc",
+      "Canada",
+      "Drone remote sensing",
+      "Boreal forest"
+    ],
+    "start": "September 2027",
+    "employer_type": "university",
+    "url_label": "MSc/PhD — boreal forest drought mortality with forest inventory and drone canopy data (University of Regina, Vanderwel Forest Dynamics Lab)",
+    "links": [
+      {
+        "href": "https://websites.nku.edu/~boycer/gradopps.html",
+        "label": "🔗 MSc/PhD — boreal forest drought mortality with forest inventory and drone canopy data (University of Regina, Vanderwel Forest Dynamics Lab)"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-2167",
+    "title": "Funded MS or PhD — Appalachian forest carbon and resilience, with The Nature Conservancy (UMCES Appalachian Laboratory, Frostburg MD)",
+    "org": "University of Maryland Center for Environmental Science · Appalachian Laboratory · Frostburg, MD",
+    "location": "Frostburg, Maryland (Central Appalachians)",
+    "deadline": "January 15, 2027 (MEES program application)",
+    "deadline_date": "2027-01-15",
+    "badge": "Strong fit",
+    "pay": "About $35,500 per year with tuition remission and health benefits; two years guaranteed",
+    "stipend": "About $35,500 per year with tuition remission and health benefits, two years guaranteed",
+    "url": "https://eeb.uconn.edu/2026/10/14/graduate-opportunity-ms-or-phd-fall-2027-appalachian-forest-carbon-resilience-university-of-maryland-center-for-environmental-science/",
+    "metaLine": "Frostburg MD · funded MS/PhD · Appalachian forest carbon + remote sensing · ~$35.5k · by Jan 15",
+    "body": "The Johnston Global Change Ecology Lab at UMCES's Appalachian Laboratory is recruiting an MS or PhD student to study forest ecosystem resilience and carbon sequestration in the Central Appalachians in collaboration with The Nature Conservancy; methods may include remote sensing, dendroecology and modelling. The stipend is about $35,500 a year with tuition remission and health benefits, guaranteed for two years. The degree is through the joint UMCES/UMD MEES program, with applications due January 15, 2027.",
+    "desc": "Well funded, Appalachian, TNC-partnered and about 3 hours from Richmond — a top MS lead.",
+    "pills": [
+      "Funded MS",
+      "Appalachian forests",
+      "Remote sensing",
+      "TNC partner"
+    ],
+    "start": "Fall 2027",
+    "employer_type": "university",
+    "url_label": "Funded MS or PhD — Appalachian forest carbon and resilience, with The Nature Conservancy (UMCES Appalachian Laboratory, Frostburg MD)",
+    "links": [
+      {
+        "href": "https://eeb.uconn.edu/2026/10/14/graduate-opportunity-ms-or-phd-fall-2027-appalachian-forest-carbon-resilience-university-of-maryland-center-for-environmental-science/",
+        "label": "🔗 Funded MS or PhD — Appalachian forest carbon and resilience, with The Nature Conservancy (UMCES Appalachian Laboratory, Frostburg MD)"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "West Coast / Pacific",
+    "id": "item-2168",
+    "title": "Forest Biogeography MA (Environmental Studies) — Salish Sea forest dynamics with GIS, remote sensing and dendrochronology (Western Washington University, Dr. Aquila Flower)",
+    "org": "Western Washington University · College of the Environment / Spatial Institute · Bellingham, WA",
+    "location": "Bellingham, Washington",
+    "deadline": "Contact-first — email Dr. Flower",
+    "badge": "Good fit",
+    "stipend": "Tuition waiver and stipend through two years of GIS/physical geography teaching assistantships (amount not published)",
+    "url": "https://websites.nku.edu/~boycer/gradopps.html",
+    "metaLine": "Bellingham WA · funded MA · forest biogeography + GIS · TA + tuition · contact first",
+    "body": "Dr. Aquila Flower at Western Washington University's College of the Environment is seeking a graduate student for an Environmental Studies MA thesis on forest dynamics in the Salish Sea region using field methods, geospatial analysis, remote sensing and dendrochronology. Funding is a tuition waiver and stipend through two years of GIS and physical-geography teaching assistantships; the amount is not published. Introductory GIS and statistics are prerequisites. Start is Fall 2027; contact Dr. Flower first. Listed on the NKU graduate-opportunities aggregator.",
+    "desc": "A GIS-teaching assistantship is a natural fit for her GIS coursework, and it funds the degree.",
+    "pills": [
+      "Funded MA",
+      "GIS / remote sensing",
+      "Pacific Northwest",
+      "Contact first"
+    ],
+    "start": "Fall 2027",
+    "employer_type": "university",
+    "url_label": "Forest Biogeography MA (Environmental Studies) — Salish Sea forest dynamics with GIS, remote sensing and dendrochronology (Western Washington University, Dr. Aquila Flower)",
+    "links": [
+      {
+        "href": "https://websites.nku.edu/~boycer/gradopps.html",
+        "label": "🔗 Forest Biogeography MA (Environmental Studies) — Salish Sea forest dynamics with GIS, remote sensing and dendrochronology (Western Washington University, Dr. Aquila Flower)"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia",
+    "id": "item-2169",
+    "title": "MS (or PhD) in wildlife conservation ecology — camera-trap monitoring and human-wildlife interactions (Florida Atlantic University, Gorczynski Lab)",
+    "org": "Florida Atlantic University · Gorczynski Conservation Ecology Lab · Boca Raton, FL",
+    "location": "Boca Raton, Florida",
+    "deadline": "Contact-first — fill out the lab interest form",
+    "badge": "Strong fit",
+    "stipend": "MS students guaranteed 2 years of teaching-assistant funding (amount and tuition status not published)",
+    "url": "https://danielgorczynski.weebly.com/join-the-lab.html",
+    "metaLine": "Boca Raton FL · funded MS · camera-trap wildlife ecology · 2-yr TA · interest form first",
+    "body": "The Gorczynski Conservation Ecology Lab at Florida Atlantic University recruits MS and PhD students in camera-trap monitoring, landscape ecology and human-wildlife interactions. MS students are guaranteed two years of teaching-assistant funding (amount and tuition status not published), and a lab fellowship provides research funding. Applicants fill out the lab's interest form before applying to FAU's Environmental Science M.S. for Fall 2027.",
+    "desc": "Camera-trap ecology is her Wildlife Insights experience exactly — fill out the interest form now.",
+    "pills": [
+      "Funded MS",
+      "Camera traps",
+      "Landscape ecology",
+      "Contact first"
+    ],
+    "start": "Fall 2027",
+    "employer_type": "university",
+    "url_label": "MS (or PhD) in wildlife conservation ecology — camera-trap monitoring and human-wildlife interactions (Florida Atlantic University, Gorczynski Lab)",
+    "links": [
+      {
+        "href": "https://danielgorczynski.weebly.com/join-the-lab.html",
+        "label": "🔗 MS (or PhD) in wildlife conservation ecology — camera-trap monitoring and human-wildlife interactions (Florida Atlantic University, Gorczynski Lab)"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia",
+    "id": "item-2170",
+    "title": "Funded M.S. — butternut tree conservation: population health, genetics and canker disease (University of Virginia, Blandy Experimental Farm)",
+    "org": "University of Virginia · Environmental Sciences · Blandy Experimental Farm · Boyce, VA",
+    "location": "Charlottesville and Boyce (Blandy Experimental Farm), Virginia",
+    "deadline": "Contact-first — email the advisor",
+    "badge": "Top recommendation",
+    "pay": "Projected $37,080 total for 2027/28 incl. summer; half RA / half TA with tuition waiver and health insurance",
+    "stipend": "Half-time RA / half-time TA with tuition waiver and health insurance; projected total $37,080 including summer for 2027/28",
+    "url": "https://blandy.virginia.edu/ms-student-sought-butternut-tree-conservation",
+    "metaLine": "Charlottesville / Boyce VA · funded MS · butternut conservation · ~$37k + tuition · contact first",
+    "body": "UVA's Department of Environmental Sciences is seeking an M.S. student at Blandy Experimental Farm, the university's field station, to work on conservation of butternut trees threatened by canker disease, covering population health, genetics, disease resistance or epidemiology (advisor T. Roulston). Funding is a half-time research and half-time teaching assistantship with a tuition waiver and health insurance, projected at $37,080 in total including summer for 2027/28. Start is Fall 2027; contact the advisor first.",
+    "desc": "A well-funded conservation MS at UVA, about an hour from Richmond — the closest strong grad lead to home.",
+    "pills": [
+      "Funded MS",
+      "Virginia",
+      "Field station",
+      "Conservation genetics"
+    ],
+    "start": "Fall 2027",
+    "employer_type": "university",
+    "url_label": "Funded M.S. — butternut tree conservation: population health, genetics and canker disease (University of Virginia, Blandy Experimental Farm)",
+    "links": [
+      {
+        "href": "https://blandy.virginia.edu/ms-student-sought-butternut-tree-conservation",
+        "label": "🔗 Funded M.S. — butternut tree conservation: population health, genetics and canker disease (University of Virginia, Blandy Experimental Farm)"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-2171",
+    "title": "Funded master's — forest ecology and deer impacts: resurveying a decade-old deer exclosure (Towson University)",
+    "org": "Towson University · Dept. of Biological Sciences · Towson, MD",
+    "location": "Towson, Maryland",
+    "deadline": "November 1, 2026 (email CV and statement; formal application January 15)",
+    "deadline_date": "2026-11-01",
+    "badge": "Good fit",
+    "stipend": "9-month, 20 hr/week teaching assistantship with tuition remission and guaranteed summer stipend (amount not published)",
+    "url": "https://websites.nku.edu/~boycer/gradopps.html",
+    "metaLine": "Towson MD · funded MS · deer exclosure resurvey · TA + tuition + summer · email by Nov 1",
+    "body": "Towson University (Drs. Beauchamp and Beck) is recruiting a master's student to resurvey a decade-old deer exclosure project covering vegetation, leaf-litter invertebrates and salamanders. Funding is a 9-month, 20-hour-a-week teaching assistantship with tuition remission and a guaranteed summer stipend; the amount is not published. Email a CV and statement by November 1, 2026; the formal application is due January 15, 2027. Listed on the NKU graduate-opportunities aggregator.",
+    "desc": "A field-survey MS in the Mid-Atlantic, close to Richmond — email by Nov 1.",
+    "pills": [
+      "Funded MS",
+      "Forest ecology",
+      "Mid-Atlantic",
+      "Email by Nov 1"
+    ],
+    "start": "Fall 2027 (September)",
+    "employer_type": "university",
+    "url_label": "Funded master's — forest ecology and deer impacts: resurveying a decade-old deer exclosure (Towson University)",
+    "links": [
+      {
+        "href": "https://websites.nku.edu/~boycer/gradopps.html",
+        "label": "🔗 Funded master's — forest ecology and deer impacts: resurveying a decade-old deer exclosure (Towson University)"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2172",
+    "title": "Graduate Assistant (MS or PhD) — stream and wetland food webs and biogeochemistry (University of Cincinnati, Siders Aquatic Ecology Lab)",
+    "org": "University of Cincinnati · Biological Sciences (Siders Aquatic Ecology Lab) · Cincinnati, OH",
+    "location": "Cincinnati, Ohio",
+    "deadline": "November 16, 2026",
+    "deadline_date": "2026-11-16",
+    "badge": "Strong fit",
+    "pay": "$24,000 per year (MS) teaching assistantship with health insurance (tuition coverage not stated)",
+    "stipend": "$24,000 per year (MS) teaching assistantship with health insurance; tuition coverage not stated",
+    "url": "https://websites.nku.edu/~boycer/gradopps.html",
+    "metaLine": "Cincinnati OH · funded MS · streams + wetlands biogeochemistry · $24k TA · BY NOV 16",
+    "body": "The Siders Aquatic Ecology Lab at the University of Cincinnati is recruiting MS and PhD students studying food webs and biogeochemical cycling in streams and wetlands, with flexible thesis topics; macroinvertebrate and nutrient analysis skills are valued. MS funding is a $24,000-a-year teaching assistantship with health insurance; tuition coverage is not stated. Start is summer or fall 2027 and applications close November 16, 2026. Listed on the NKU graduate-opportunities aggregator.",
+    "desc": "Wetland and stream biogeochemistry with lab chemistry — the closest MS match to her capstone.",
+    "pills": [
+      "Funded MS",
+      "Wetlands + streams",
+      "Biogeochemistry",
+      "Fall 2027"
+    ],
+    "start": "Summer or fall 2027",
+    "employer_type": "university",
+    "url_label": "Graduate Assistant (MS or PhD) — stream and wetland food webs and biogeochemistry (University of Cincinnati, Siders Aquatic Ecology Lab)",
+    "links": [
+      {
+        "href": "https://websites.nku.edu/~boycer/gradopps.html",
+        "label": "🔗 Graduate Assistant (MS or PhD) — stream and wetland food webs and biogeochemistry (University of Cincinnati, Siders Aquatic Ecology Lab)"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia",
+    "id": "item-2173",
+    "title": "MS opportunity in avian behavioural ecology — Eastern Bluebird nest-box project (University of South Alabama, Perez Lab)",
+    "org": "University of South Alabama · Dept. of Biology (Perez Lab) · Mobile, AL",
+    "location": "Mobile, Alabama",
+    "deadline": "Contact-first — applications reviewed from December 15, 2026",
+    "badge": "Good fit",
+    "stipend": "Two-year teaching assistantship with stipend (amount not published) and tuition for up to 10 credit hours per semester; students pay fees",
+    "url": "https://websites.nku.edu/~boycer/gradopps.html",
+    "metaLine": "Mobile AL · funded MS · bluebird field project · 2-yr TA + tuition · review from Dec 15",
+    "body": "The Perez Lab at the University of South Alabama seeks a master's student to take over a nest-box Eastern Bluebird project on threat response, reproduction and stress. Funding is a two-year teaching assistantship with a stipend (amount not published) and tuition for up to 10 credit hours per semester; students pay fees. Applications are reviewed from December 15, 2026 for a Fall 2027 start. Listed on the NKU graduate-opportunities aggregator.",
+    "desc": "Accessible outdoor wildlife MS on the Gulf Coast — funding is modest and fees are on her.",
+    "pills": [
+      "Funded MS",
+      "Bird ecology",
+      "Gulf Coast",
+      "Review from Dec 15"
+    ],
+    "start": "Fall 2027",
+    "employer_type": "university",
+    "url_label": "MS opportunity in avian behavioural ecology — Eastern Bluebird nest-box project (University of South Alabama, Perez Lab)",
+    "links": [
+      {
+        "href": "https://websites.nku.edu/~boycer/gradopps.html",
+        "label": "🔗 MS opportunity in avian behavioural ecology — Eastern Bluebird nest-box project (University of South Alabama, Perez Lab)"
       }
     ]
   }

@@ -1,10 +1,10 @@
 {
-  "release": "5.56",
-  "build": "20261020-2120-fac2d1db",
-  "builtAt": "2026-10-20T05:15:51.410Z",
-  "total": 2120,
-  "newCount": 10,
-  "updatedCount": 4,
-  "hash": "fac2d1db",
+  "release": "5.57",
+  "build": "20261020-2144-de6c8191",
+  "builtAt": "2026-10-20T05:18:24.929Z",
+  "total": 2144,
+  "newCount": 24,
+  "updatedCount": 1,
+  "hash": "de6c8191",
   "date": "2026-10-20"
 }
