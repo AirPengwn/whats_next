@@ -91487,7 +91487,9 @@
         "href": "https://acreslandtrust.org/about-acres/careers/job-openings/",
         "label": "🔗 Land Steward — nature preserve stewardship (ACRES Land Trust, Huntertown IN)"
       }
-    ]
+    ],
+    "pay": "Starts at $22+ per hour with full benefits (ACRES job-openings page)",
+    "benefits": "Full benefits (not itemised on the job-openings page)"
   },
   {
     "type": "Career Position",
@@ -94058,8 +94060,8 @@
     "title": "Maryland Coastal Fellowship (Project 2) — permitting for nature-based restoration, living shorelines and stream restoration (Maryland DNR with MDE, via Coastal States Organization)",
     "org": "Maryland Department of Natural Resources · Coastal Management Program · with Maryland Department of the Environment",
     "location": "Annapolis / Baltimore, Maryland",
-    "deadline": "December 1, 2026",
-    "deadline_date": "2026-12-01",
+    "deadline": "November 6, 2026 per the Coastal States Organization jobs page (the job board lists December 1) — email fellowships@coastalstates.org",
+    "deadline_date": "2026-11-06",
     "badge": "Strong fit",
     "url": "https://www.conservationjobboard.com/job-listing-maryland-coastal-fellowship-annapolis-maryland/2080475315",
     "metaLine": "Annapolis MD · state coastal fellowship · restoration permitting + fieldwork · apply via CSO · by Dec 1",
@@ -94078,7 +94080,9 @@
         "href": "https://www.conservationjobboard.com/job-listing-maryland-coastal-fellowship-annapolis-maryland/2080475315",
         "label": "🔗 Maryland Coastal Fellowship (Project 2) — permitting for nature-based restoration, living shorelines and stream restoration (Maryland DNR with MDE, via Coastal States Organization)"
       }
-    ]
+    ],
+    "pay": "$55,000 per year (published on the Conservation Job Board listing)",
+    "stipend": "$55,000 per year (Conservation Job Board listing; confirm in the CSO application package)"
   },
   {
     "type": "Graduate Program",
@@ -94155,7 +94159,10 @@
         "href": "https://www.conservationjobboard.com/job-listing-environmental-ed--outdoor-rec-instructor-east-charleston-vermont/4573042198",
         "label": "🔗 Environmental Educator and Outdoor Recreation Instructor — AmeriCorps term with stewardship and habitat work (NorthWoods Stewardship Center, East Charleston VT)"
       }
-    ]
+    ],
+    "pay": "$20,400 living stipend for the 1,200-hour term (published)",
+    "stipend": "$20,400 living stipend (three-quarter-time, 1,200 hours)",
+    "benefits": "$5,176.50 Segal Education Award on completion; healthcare coverage; free or reduced-price housing; $300 professional development; $300 gear stipend; mileage reimbursement"
   },
   {
     "type": "Career Position",
@@ -95784,6 +95791,713 @@
       {
         "href": "https://www.conservationjobboard.com/job-listing-crewleader-seattle-washington/5124424131",
         "label": "🔗 Crew Leader (Jan–Dec 2027) — leading a young-adult habitat restoration corps crew (EarthCorps, Seattle WA)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2229",
+    "title": "Scientific Aid (intermittent, non-testing) — supporting water-quality staff (California State Water Resources Control Board, Sacramento)",
+    "org": "California State Water Resources Control Board · Sacramento, CA",
+    "location": "Sacramento, California",
+    "deadline": "November 2, 2026",
+    "deadline_date": "2026-11-02",
+    "badge": "Good fit",
+    "pay": "$18.26–$21.67 per hour (published)",
+    "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=501896",
+    "metaLine": "Sacramento CA · Water Board scientific aid · non-testing · $18.26–21.67/hr · BY NOV 2",
+    "body": "The State Water Resources Control Board is hiring an intermittent Scientific Aid in Sacramento to support water-quality staff. Scientific Aid is a non-testing classification, so out-of-state applicants can apply directly without a civil-service exam. Pay is $18.26–$21.67 an hour; applications close November 2, 2026.",
+    "desc": "A no-exam foot in the door at California's water-quality regulator.",
+    "pills": [
+      "California state",
+      "Non-testing",
+      "Water quality",
+      "Intermittent"
+    ],
+    "employer_type": "government",
+    "url_label": "Scientific Aid (intermittent, non-testing) — supporting water-quality staff (California State Water Resources Control Board, Sacramento)",
+    "links": [
+      {
+        "href": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=501896",
+        "label": "🔗 Scientific Aid (intermittent, non-testing) — supporting water-quality staff (California State Water Resources Control Board, Sacramento)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2230",
+    "title": "Scientific Aid (intermittent, non-testing) — Caltrans environmental staff, Humboldt County or Shasta County (California Department of Transportation)",
+    "org": "California Department of Transportation (Caltrans) · Humboldt / Shasta County, CA",
+    "location": "Humboldt County or Shasta County, California",
+    "deadline": "October 30, 2026",
+    "deadline_date": "2026-10-30",
+    "badge": "Good fit",
+    "pay": "$18.26–$21.67 per hour (published)",
+    "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=521048",
+    "metaLine": "Humboldt / Shasta CA · Caltrans scientific aid · non-testing · $18.26–21.67/hr · BY OCT 30",
+    "body": "Caltrans is hiring intermittent Scientific Aids with its environmental staff in Humboldt County (JC-521048) and Shasta County (JC-532222). Scientific Aid is a non-testing classification open to out-of-state applicants. Pay is $18.26–$21.67 an hour; both postings close October 30, 2026.",
+    "desc": "Transportation environmental compliance is where many delineators start — and it needs no exam.",
+    "pills": [
+      "California state",
+      "Non-testing",
+      "Environmental compliance",
+      "Two postings"
+    ],
+    "employer_type": "government",
+    "url_label": "Scientific Aid (intermittent, non-testing) — Caltrans environmental staff, Humboldt County or Shasta County (California Department of Transportation)",
+    "links": [
+      {
+        "href": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=521048",
+        "label": "🔗 Scientific Aid (intermittent, non-testing) — Caltrans environmental staff, Humboldt County or Shasta County (California Department of Transportation)"
+      },
+      {
+        "href": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=532222",
+        "label": "🔗 Shasta County posting"
+      }
+    ],
+    "url2": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=532222"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2231",
+    "title": "Scientific Aid (intermittent, non-testing) — environmental monitoring and lab support (California Department of Pesticide Regulation, Sacramento)",
+    "org": "California Department of Pesticide Regulation · Sacramento, CA",
+    "location": "Sacramento, California (hybrid)",
+    "deadline": "October 24, 2026",
+    "deadline_date": "2026-10-24",
+    "badge": "Good fit",
+    "pay": "$18.26–$21.67 per hour (published)",
+    "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=534533",
+    "metaLine": "Sacramento CA · DPR scientific aid · environmental monitoring + lab · $18.26–21.67/hr · BY OCT 24",
+    "body": "California's Department of Pesticide Regulation is hiring an intermittent Scientific Aid in Sacramento (hybrid) to support environmental monitoring and lab work. Scientific Aid is a non-testing classification. Pay is $18.26–$21.67 an hour; applications close October 24, 2026.",
+    "desc": "Contaminant monitoring with sampling and lab work — close to her capstone methods.",
+    "pills": [
+      "California state",
+      "Non-testing",
+      "Contaminant monitoring",
+      "Lab + field"
+    ],
+    "employer_type": "government",
+    "url_label": "Scientific Aid (intermittent, non-testing) — environmental monitoring and lab support (California Department of Pesticide Regulation, Sacramento)",
+    "links": [
+      {
+        "href": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=534533",
+        "label": "🔗 Scientific Aid (intermittent, non-testing) — environmental monitoring and lab support (California Department of Pesticide Regulation, Sacramento)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2232",
+    "title": "Fish and Wildlife Scientific Aid — pelagic fisheries program, Los Angeles County (California Department of Fish and Wildlife)",
+    "org": "California Department of Fish and Wildlife · Marine Region · Los Angeles County, CA",
+    "location": "Los Angeles County, California",
+    "deadline": "October 27, 2026",
+    "deadline_date": "2026-10-27",
+    "badge": "Good fit",
+    "pay": "$18.26–$21.67 per hour (published)",
+    "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=535450",
+    "metaLine": "LA County CA · CDFW scientific aid · pelagic fisheries · non-testing · BY OCT 27",
+    "body": "CDFW is hiring an intermittent Scientific Aid for its pelagic fisheries program in Los Angeles County, working in the office and the field. Scientific Aid is a non-testing classification. Pay is $18.26–$21.67 an hour; applications close October 27, 2026.",
+    "desc": "A no-exam CDFW start — marine fisheries rather than her core interests.",
+    "pills": [
+      "CDFW",
+      "Non-testing",
+      "Fisheries",
+      "Southern California"
+    ],
+    "employer_type": "government",
+    "url_label": "Fish and Wildlife Scientific Aid — pelagic fisheries program, Los Angeles County (California Department of Fish and Wildlife)",
+    "links": [
+      {
+        "href": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=535450",
+        "label": "🔗 Fish and Wildlife Scientific Aid — pelagic fisheries program, Los Angeles County (California Department of Fish and Wildlife)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2233",
+    "title": "Fish and Wildlife Scientific Aid — invasive nutria eradication in Central Valley wetlands, Merced County (California Department of Fish and Wildlife)",
+    "org": "California Department of Fish and Wildlife · Nutria Eradication Program · Merced County, CA",
+    "location": "Merced County, California",
+    "deadline": "November 2, 2026",
+    "deadline_date": "2026-11-02",
+    "badge": "Strong fit",
+    "pay": "$18.26–$21.67 per hour (published)",
+    "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=536066",
+    "metaLine": "Merced CA · CDFW nutria eradication aid · wetland trapping · non-testing · BY NOV 2",
+    "body": "CDFW is hiring an intermittent Scientific Aid for the invasive nutria eradication program in Merced County, protecting Central Valley wetlands through survey, detection and trapping. Scientific Aid is a non-testing classification. Pay is $18.26–$21.67 an hour; applications close November 2, 2026.",
+    "desc": "Wetland fieldwork plus trapping, with no exam — the nutria program has hired repeatedly.",
+    "pills": [
+      "CDFW",
+      "Non-testing",
+      "Wetlands",
+      "Trapping"
+    ],
+    "employer_type": "government",
+    "url_label": "Fish and Wildlife Scientific Aid — invasive nutria eradication in Central Valley wetlands, Merced County (California Department of Fish and Wildlife)",
+    "links": [
+      {
+        "href": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=536066",
+        "label": "🔗 Fish and Wildlife Scientific Aid — invasive nutria eradication in Central Valley wetlands, Merced County (California Department of Fish and Wildlife)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2234",
+    "title": "Fish and Wildlife Technician (permanent full-time) — Butte County (California Department of Fish and Wildlife) — closes Oct 21",
+    "org": "California Department of Fish and Wildlife · Butte County, CA",
+    "location": "Butte County, California",
+    "deadline": "October 21, 2026",
+    "deadline_date": "2026-10-21",
+    "badge": "Good fit",
+    "pay": "$3,999–$5,196 per month (published)",
+    "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=534718",
+    "metaLine": "Butte CA · CDFW F&W technician · permanent · $3,999–5,196/mo · CLOSES OCT 21",
+    "body": "CDFW is hiring a permanent full-time Fish and Wildlife Technician in Butte County (JC-534718). Pay is $3,999–$5,196 a month; applications close October 21, 2026. A permanent-intermittent Sacramento County posting of the same class is a separate card.",
+    "desc": "A permanent CDFW technician job — check the exam list requirement before applying.",
+    "pills": [
+      "CDFW",
+      "Permanent",
+      "Technician",
+      "Closes Oct 21"
+    ],
+    "employer_type": "government",
+    "url_label": "Fish and Wildlife Technician (permanent full-time) — Butte County (California Department of Fish and Wildlife) — closes Oct 21",
+    "links": [
+      {
+        "href": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=534718",
+        "label": "🔗 Fish and Wildlife Technician (permanent full-time) — Butte County (California Department of Fish and Wildlife) — closes Oct 21"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2235",
+    "title": "Fish and Wildlife Technician (permanent intermittent) — Sacramento County (California Department of Fish and Wildlife)",
+    "org": "California Department of Fish and Wildlife · Sacramento County, CA",
+    "location": "Sacramento County, California",
+    "deadline": "October 29, 2026",
+    "deadline_date": "2026-10-29",
+    "badge": "Good fit",
+    "pay": "$3,999–$5,196 per month (published)",
+    "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=535644",
+    "metaLine": "Sacramento CA · CDFW F&W technician · permanent intermittent · $3,999–5,196/mo · BY OCT 29",
+    "body": "CDFW is hiring a permanent-intermittent Fish and Wildlife Technician in Sacramento County (JC-535644). Pay is $3,999–$5,196 a month; applications close October 29, 2026.",
+    "desc": "A permanent-intermittent CDFW technician post — a route into the scientist classes.",
+    "pills": [
+      "CDFW",
+      "Permanent intermittent",
+      "Technician",
+      "Sacramento"
+    ],
+    "employer_type": "government",
+    "url_label": "Fish and Wildlife Technician (permanent intermittent) — Sacramento County (California Department of Fish and Wildlife)",
+    "links": [
+      {
+        "href": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=535644",
+        "label": "🔗 Fish and Wildlife Technician (permanent intermittent) — Sacramento County (California Department of Fish and Wildlife)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2236",
+    "title": "Environmental Scientist — Instream Flow Program field studies of stream habitat and hydrology (California Department of Fish and Wildlife, West Sacramento)",
+    "org": "California Department of Fish and Wildlife · Flow Assessment Unit · West Sacramento, CA",
+    "location": "West Sacramento (Yolo County), California — hybrid",
+    "deadline": "October 23, 2026",
+    "deadline_date": "2026-10-23",
+    "badge": "Strong fit",
+    "pay": "$4,418–$9,321 per month (published)",
+    "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=535363",
+    "metaLine": "West Sacramento CA · CDFW environmental scientist · instream flow field studies · $4,418+/mo · BY OCT 23",
+    "body": "CDFW's Flow Assessment Unit is hiring a permanent Environmental Scientist to develop instream flow criteria through field studies of stream habitat and hydrology, data analysis and reporting. Environmental Scientist is California's entry scientist class. Pay is $4,418–$9,321 a month; applications close October 23, 2026.",
+    "desc": "Permanent stream-hydrology science at CDFW — strong fit for watershed and water-quality interests.",
+    "pills": [
+      "CDFW",
+      "Permanent",
+      "Stream hydrology",
+      "Entry scientist class"
+    ],
+    "employer_type": "government",
+    "url_label": "Environmental Scientist — Instream Flow Program field studies of stream habitat and hydrology (California Department of Fish and Wildlife, West Sacramento)",
+    "links": [
+      {
+        "href": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=535363",
+        "label": "🔗 Environmental Scientist — Instream Flow Program field studies of stream habitat and hydrology (California Department of Fish and Wildlife, West Sacramento)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2237",
+    "title": "Environmental Scientist (limited term) — Fresno County (California Department of Fish and Wildlife)",
+    "org": "California Department of Fish and Wildlife · Fresno County, CA",
+    "location": "Fresno County, California",
+    "deadline": "November 3, 2026",
+    "deadline_date": "2026-11-03",
+    "badge": "Good fit",
+    "pay": "$4,551–$9,601 per month (published)",
+    "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=536029",
+    "metaLine": "Fresno CA · CDFW environmental scientist · limited term · $4,551+/mo · BY NOV 3",
+    "body": "CDFW is hiring a limited-term Environmental Scientist in Fresno County (JC-536029). Environmental Scientist is California's entry scientist class, open to a relevant bachelor's. Pay is $4,551–$9,601 a month; applications close November 3, 2026.",
+    "desc": "An entry-class CDFW scientist job — limited term, but it puts her on the state ladder.",
+    "pills": [
+      "CDFW",
+      "Limited term",
+      "Entry scientist class",
+      "Central Valley"
+    ],
+    "employer_type": "government",
+    "url_label": "Environmental Scientist (limited term) — Fresno County (California Department of Fish and Wildlife)",
+    "links": [
+      {
+        "href": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=536029",
+        "label": "🔗 Environmental Scientist (limited term) — Fresno County (California Department of Fish and Wildlife)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2238",
+    "title": "Environmental Scientist (Water Quality, permanent intermittent) — Delta continuous monitoring stations and sampling (California Department of Water Resources, West Sacramento)",
+    "org": "California Department of Water Resources · Continuous Environmental Monitoring · West Sacramento, CA",
+    "location": "West Sacramento (Yolo County), California — Sacramento-San Joaquin Delta field sites",
+    "deadline": "October 30, 2026",
+    "deadline_date": "2026-10-30",
+    "badge": "Strong fit",
+    "pay": "$4,418–$9,321 per month (published)",
+    "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=535285",
+    "metaLine": "West Sacramento CA · DWR water-quality scientist · Delta stations + sampling · $4,418+/mo · BY OCT 30",
+    "body": "DWR's Continuous Environmental Monitoring unit is hiring a permanent-intermittent Environmental Scientist (Water Quality Scientist, up to 1,500 hours) to operate and maintain water-quality stations in the Sacramento-San Joaquin Delta, collect samples and evaluate data quality. Pay is $4,418–$9,321 a month; applications close October 30, 2026.",
+    "desc": "Hands-on water-quality station work and sampling — a direct match for her water-quality skills.",
+    "pills": [
+      "California DWR",
+      "Water quality",
+      "Field sampling",
+      "Delta"
+    ],
+    "employer_type": "government",
+    "url_label": "Environmental Scientist (Water Quality, permanent intermittent) — Delta continuous monitoring stations and sampling (California Department of Water Resources, West Sacramento)",
+    "links": [
+      {
+        "href": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=535285",
+        "label": "🔗 Environmental Scientist (Water Quality, permanent intermittent) — Delta continuous monitoring stations and sampling (California Department of Water Resources, West Sacramento)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2239",
+    "title": "Environmental Scientist — water project grants incl. stream restoration (California Department of Water Resources, Financial Assistance Branch, Sacramento)",
+    "org": "California Department of Water Resources · Financial Assistance Branch · Sacramento, CA",
+    "location": "Sacramento, California (hybrid)",
+    "deadline": "October 26, 2026",
+    "deadline_date": "2026-10-26",
+    "badge": "Good fit",
+    "pay": "$4,418–$9,321 per month (published)",
+    "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=527904",
+    "metaLine": "Sacramento CA · DWR environmental scientist · restoration grants · $4,418+/mo · BY OCT 26",
+    "body": "DWR's Financial Assistance Branch is hiring an Environmental Scientist to review grant applications and manage agreements for water projects such as stream restoration, groundwater recharge and water treatment, working with agencies, non-profits and Tribes. Pay is $4,418–$9,321 a month; applications close October 26, 2026.",
+    "desc": "Office-based restoration funding work — useful context, less field time.",
+    "pills": [
+      "California DWR",
+      "Restoration grants",
+      "Hybrid",
+      "Entry scientist class"
+    ],
+    "employer_type": "government",
+    "url_label": "Environmental Scientist — water project grants incl. stream restoration (California Department of Water Resources, Financial Assistance Branch, Sacramento)",
+    "links": [
+      {
+        "href": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=527904",
+        "label": "🔗 Environmental Scientist — water project grants incl. stream restoration (California Department of Water Resources, Financial Assistance Branch, Sacramento)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2240",
+    "title": "Environmental Scientist — water-quality enforcement, North Coast Regional Water Board (Santa Rosa or Eureka CA)",
+    "org": "California State Water Resources Control Board · North Coast Regional Water Quality Control Board · Santa Rosa / Eureka, CA",
+    "location": "Santa Rosa or Eureka, California (hybrid)",
+    "deadline": "October 28, 2026",
+    "deadline_date": "2026-10-28",
+    "badge": "Good fit",
+    "pay": "$4,418–$9,321 per month (published)",
+    "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=533625",
+    "metaLine": "Santa Rosa / Eureka CA · Water Board environmental scientist · enforcement · $4,418+/mo · BY OCT 28",
+    "body": "The North Coast Regional Water Quality Control Board is hiring an Environmental Scientist in its Agricultural and Enforcement Division to enforce water-quality laws, based in Santa Rosa or Eureka. Pay is $4,418–$9,321 a month; applications close October 28, 2026.",
+    "desc": "Water-quality regulation on the North Coast — permanent and well paid.",
+    "pills": [
+      "Water Board",
+      "Water quality",
+      "Enforcement",
+      "North Coast"
+    ],
+    "employer_type": "government",
+    "url_label": "Environmental Scientist — water-quality enforcement, North Coast Regional Water Board (Santa Rosa or Eureka CA)",
+    "links": [
+      {
+        "href": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=533625",
+        "label": "🔗 Environmental Scientist — water-quality enforcement, North Coast Regional Water Board (Santa Rosa or Eureka CA)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2241",
+    "title": "Environmental Scientist — Central Coast Water Board, San Luis Obispo County (California State Water Resources Control Board)",
+    "org": "California State Water Resources Control Board · San Luis Obispo County, CA",
+    "location": "San Luis Obispo County, California",
+    "deadline": "November 3, 2026",
+    "deadline_date": "2026-11-03",
+    "badge": "Good fit",
+    "pay": "$4,418–$9,321 per month (published)",
+    "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=534879",
+    "metaLine": "San Luis Obispo CA · Water Board environmental scientist · $4,418+/mo · BY NOV 3",
+    "body": "The Water Boards are hiring a permanent Environmental Scientist in San Luis Obispo County (JC-534879). Environmental Scientist is California's entry scientist class. Pay is $4,418–$9,321 a month; applications close November 3, 2026.",
+    "desc": "Another entry Water Board scientist post — pair it with the North Coast one.",
+    "pills": [
+      "Water Board",
+      "Water quality",
+      "Permanent",
+      "Central Coast"
+    ],
+    "employer_type": "government",
+    "url_label": "Environmental Scientist — Central Coast Water Board, San Luis Obispo County (California State Water Resources Control Board)",
+    "links": [
+      {
+        "href": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=534879",
+        "label": "🔗 Environmental Scientist — Central Coast Water Board, San Luis Obispo County (California State Water Resources Control Board)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2242",
+    "title": "Environmental Scientist — natural resources, San Luis Obispo Coast District (California State Parks)",
+    "org": "California Department of Parks and Recreation · San Luis Obispo Coast District · San Luis Obispo County, CA",
+    "location": "San Luis Obispo County, California",
+    "deadline": "October 28, 2026",
+    "deadline_date": "2026-10-28",
+    "badge": "Strong fit",
+    "pay": "$4,418–$9,321 per month (published)",
+    "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=534667",
+    "metaLine": "San Luis Obispo CA · State Parks environmental scientist · natural resources · $4,418+/mo · BY OCT 28",
+    "body": "California State Parks is hiring a permanent Environmental Scientist in its San Luis Obispo Coast District (JC-534667) for natural-resource science on park lands, including habitat and wetland work. Pay is $4,418–$9,321 a month; applications close October 28, 2026.",
+    "desc": "Permanent natural-resource science on coastal state parks — habitat work in a beautiful place.",
+    "pills": [
+      "State Parks",
+      "Natural resources",
+      "Permanent",
+      "Central Coast"
+    ],
+    "employer_type": "government",
+    "url_label": "Environmental Scientist — natural resources, San Luis Obispo Coast District (California State Parks)",
+    "links": [
+      {
+        "href": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=534667",
+        "label": "🔗 Environmental Scientist — natural resources, San Luis Obispo Coast District (California State Parks)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2243",
+    "title": "Environmental Scientist (Environmental Specialist) — CAL FIRE San Diego County — closes Oct 21",
+    "org": "California Department of Forestry and Fire Protection (CAL FIRE) · San Diego County, CA",
+    "location": "San Diego County, California",
+    "deadline": "October 21, 2026",
+    "deadline_date": "2026-10-21",
+    "badge": "Good fit",
+    "pay": "$4,418–$9,321 per month (published)",
+    "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=534719",
+    "metaLine": "San Diego CA · CAL FIRE environmental scientist · $4,418+/mo · CLOSES OCT 21",
+    "body": "CAL FIRE is hiring a permanent Environmental Scientist (Environmental Specialist) in San Diego County (JC-534719). Pay is $4,418–$9,321 a month; applications close October 21, 2026.",
+    "desc": "An entry scientist post at CAL FIRE — environmental review for fuels projects; closes tomorrow.",
+    "pills": [
+      "CAL FIRE",
+      "Permanent",
+      "Entry scientist class",
+      "Closes Oct 21"
+    ],
+    "employer_type": "government",
+    "url_label": "Environmental Scientist (Environmental Specialist) — CAL FIRE San Diego County — closes Oct 21",
+    "links": [
+      {
+        "href": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=534719",
+        "label": "🔗 Environmental Scientist (Environmental Specialist) — CAL FIRE San Diego County — closes Oct 21"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2244",
+    "title": "Environmental Planner — recreation and public access planning on Conservancy lands (California Tahoe Conservancy, South Lake Tahoe)",
+    "org": "California Tahoe Conservancy · South Lake Tahoe, CA",
+    "location": "South Lake Tahoe (El Dorado County), California",
+    "deadline": "October 23, 2026",
+    "deadline_date": "2026-10-23",
+    "badge": "Good fit",
+    "pay": "$4,928–$7,633 per month (published)",
+    "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=532960",
+    "metaLine": "South Lake Tahoe CA · Conservancy environmental planner · $4,928–7,633/mo · BY OCT 23",
+    "body": "The California Tahoe Conservancy is hiring an Environmental Planner to plan recreation and public access projects on Conservancy lands in the Lake Tahoe Basin, including environmental review. Pay is $4,928–$7,633 a month; applications close October 23, 2026.",
+    "desc": "Planning with environmental review at a land conservancy — GIS skills help.",
+    "pills": [
+      "State conservancy",
+      "Planning",
+      "Environmental review",
+      "Lake Tahoe"
+    ],
+    "employer_type": "government",
+    "url_label": "Environmental Planner — recreation and public access planning on Conservancy lands (California Tahoe Conservancy, South Lake Tahoe)",
+    "links": [
+      {
+        "href": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=532960",
+        "label": "🔗 Environmental Planner — recreation and public access planning on Conservancy lands (California Tahoe Conservancy, South Lake Tahoe)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2245",
+    "title": "GIS Coordinator (Research Data Specialist I) — Caltrans District 8, San Bernardino County",
+    "org": "California Department of Transportation (Caltrans) · District 8 · San Bernardino County, CA",
+    "location": "San Bernardino County, California",
+    "deadline": "October 22, 2026",
+    "deadline_date": "2026-10-22",
+    "badge": "Reach",
+    "pay": "$6,955–$8,706 per month (published)",
+    "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=535202",
+    "metaLine": "San Bernardino CA · Caltrans GIS coordinator · $6,955–8,706/mo · BY OCT 22",
+    "body": "Caltrans District 8 is hiring a GIS Coordinator (Research Data Specialist I) in San Bernardino County. Pay is $6,955–$8,706 a month; applications close October 22, 2026. It may require more GIS experience than coursework provides.",
+    "desc": "A well-paid GIS job — a stretch on experience, but her multi-criteria GIS work is relevant.",
+    "pills": [
+      "California state",
+      "GIS",
+      "Well paid",
+      "Reach"
+    ],
+    "employer_type": "government",
+    "url_label": "GIS Coordinator (Research Data Specialist I) — Caltrans District 8, San Bernardino County",
+    "links": [
+      {
+        "href": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=535202",
+        "label": "🔗 GIS Coordinator (Research Data Specialist I) — Caltrans District 8, San Bernardino County"
+      }
+    ]
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2246",
+    "title": "Wildlife Coexistence Intern — South Coast Region human-wildlife conflict team (California Department of Fish and Wildlife, Seal Beach CA)",
+    "org": "California Department of Fish and Wildlife · South Coast Region · Seal Beach, CA",
+    "location": "Seal Beach, California (3030 Old Ranch Parkway)",
+    "deadline": "October 28, 2026",
+    "deadline_date": "2026-10-28",
+    "badge": "Good fit",
+    "pay": "$3,057–$4,496 per month (published)",
+    "url": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=535531",
+    "metaLine": "Seal Beach CA · CDFW paid intern · human-wildlife conflict · $3,057–4,496/mo · BY OCT 28",
+    "body": "CDFW's South Coast Region Human-Wildlife Conflict team is hiring an intern (JC-535531) to help members of the public resolve incidents involving wildlife, developing and applying conflict-mitigation best practices within CDFW policy and Fish and Game code. The listing asks for a bachelor's with no minimum experience and pays $3,057–$4,496 a month. Applications close October 28, 2026.",
+    "desc": "A paid state-agency internship that builds CDFW experience — the usual route into California's wildlife jobs.",
+    "pills": [
+      "CDFW",
+      "Paid internship",
+      "Human-wildlife conflict",
+      "Southern California"
+    ],
+    "employer_type": "government",
+    "url_label": "Wildlife Coexistence Intern — South Coast Region human-wildlife conflict team (California Department of Fish and Wildlife, Seal Beach CA)",
+    "links": [
+      {
+        "href": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=535531",
+        "label": "🔗 Wildlife Coexistence Intern — South Coast Region human-wildlife conflict team (California Department of Fish and Wildlife, Seal Beach CA)"
       }
     ]
   }
