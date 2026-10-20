@@ -36561,25 +36561,28 @@
     "src_label": "Service & Fellowships",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 10, 2026"
+      "label": "✨ Re-posted — October 20, 2026"
     },
-    "cycle": "next",
-    "deadline_kind": "passed",
-    "deadline_date": "2026-08-16",
+    "cycle": "current",
+    "deadline_kind": "rolling",
     "region": "West Coast / Pacific",
     "start": "See posting",
     "id": "item-839",
     "title": "WCC Crew Supervisor — Olympic Peninsula",
     "org": "Washington State Department of Ecology · Washington Conservation Corps · Belfair, WA",
     "location": "Belfair, Washington (Olympic Peninsula)",
-    "deadline": "2026-08-16",
-    "pay": "$50,412 – $67,704 per year",
+    "deadline": "Rolling — continuous postings for SW, Eastern, NW and Central Puget Sound WA (project positions funded to June 30, 2027)",
+    "pay": "$50,412–$67,704 per year (published)",
     "stipend": "",
     "benefits": "Washington State employee benefits — health, dental, retirement, paid leave",
     "badge": "Strong fit",
-    "url": "https://www.governmentjobs.com/careers/washington/jobs/5416000/wcc-crew-supervisor-1-olympic",
+    "url": "https://www.governmentjobs.com/careers/washington/jobs/5511167",
     "url_label": "WA Ecology — WCC Crew Supervisor, Olympic",
     "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/washington/jobs/5511167",
+        "label": "🔗 New WCC Crew Supervisor 1 postings (Oct 2026)"
+      },
       {
         "href": "https://www.governmentjobs.com/careers/washington/jobs/5416000/wcc-crew-supervisor-1-olympic",
         "label": "🔗 WA Ecology — WCC Crew Supervisor, Olympic"
@@ -36595,7 +36598,8 @@
       "Closes Aug 16"
     ],
     "start_date": "2026-08-16",
-    "relocation": "tight"
+    "relocation": "tight",
+    "url2": "https://www.governmentjobs.com/careers/washington/jobs/5416000/wcc-crew-supervisor-1-olympic"
   },
   {
     "type": "Career Position",
@@ -80512,23 +80516,27 @@
     "src_label": "Service & Fellowships",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — September 29, 2026"
+      "label": "✨ Re-posted — October 20, 2026"
     },
-    "cycle": "next",
+    "cycle": "current",
     "deadline_kind": "fixed",
     "region": "West Coast / Pacific",
     "id": "item-1851",
     "title": "Crew Supervisor (Conservationist I) — leading corpsmember conservation and restoration crews at the Monterey Bay Center (California Conservation Corps, Santa Cruz County)",
     "org": "California Conservation Corps · Monterey Bay Center · Santa Cruz County, CA",
     "location": "Santa Cruz County, California",
-    "deadline": "October 7, 2026",
+    "deadline": "November 4, 2026 (new Conservationist I postings: Butte and Shasta Nov 4, El Dorado and San Luis Obispo Nov 1, San Joaquin Oct 29)",
     "badge": "Good fit",
     "pay": "$3,441–$5,741 per month (published)",
     "stipend": "",
     "benefits": "7-month limited-term state position, may extend",
-    "url": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=533112",
+    "url": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=535505",
     "url_label": "Crew Supervisor (Conservationist I) — leading corpsmember conservation and restoration crews at the Monterey Bay Center (California Conservation Corps, Santa Cruz County)",
     "links": [
+      {
+        "href": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=535505",
+        "label": "🔗 New Conservationist I posting — Butte County (Oct 2026)"
+      },
       {
         "href": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=533112",
         "label": "🔗 Crew Supervisor (Conservationist I) — leading corpsmember conservation and restoration crews at the Monterey Bay Center (California Conservation Corps, Santa Cruz County)"
@@ -80544,10 +80552,11 @@
       "No age cap (staff)"
     ],
     "start": "Upon selection",
-    "deadline_date": "2026-10-07",
+    "deadline_date": "2026-11-04",
     "start_date": "2026-11-01",
     "housing_provided": false,
-    "relocation": "planned"
+    "relocation": "planned",
+    "url2": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=533112"
   },
   {
     "type": "Career Position",
@@ -95214,6 +95223,567 @@
       {
         "href": "https://ecoworks.eco.ca/jobs/730710712-junior-environmental-specialist",
         "label": "🔗 Junior Environmental Specialist — permit compliance and monitoring at a fly-in Arctic mine (Baffinland Iron Mines, Mary River NU)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2215",
+    "title": "Restoration Worker or Restoration Worker Leader (seasonal WG-5 / WL-5) — Yosemite National Park restoration crew (NPS, USAJOBS 888792400 / 888793600)",
+    "org": "National Park Service · Yosemite National Park, CA",
+    "location": "Yosemite National Park, California",
+    "deadline": "October 26, 2026",
+    "deadline_date": "2026-10-26",
+    "badge": "Good fit",
+    "pay": "$21.18–$24.74 per hour (worker) or $23.33–$27.20 (leader) (published)",
+    "url": "https://www.usajobs.gov/job/888792400",
+    "metaLine": "Yosemite CA · NPS seasonal restoration crew or crew lead · $21.18–27.20/hr · BY OCT 26",
+    "body": "Yosemite National Park is hiring seasonal Restoration Workers (WG-5, USAJOBS 888792400) and a Restoration Worker Leader (WL-5, 888793600) for its restoration crew, with entry on duty around May–June 2027 and a typical season of May to November. Pay is $21.18–$24.74 an hour for workers and $23.33–$27.20 for the leader. Both announcements close October 26, 2026.",
+    "desc": "Hands-on federal restoration in Yosemite — the leader post suits her NCCC team-lead experience.",
+    "pills": [
+      "NPS",
+      "Restoration crew",
+      "Yosemite",
+      "Closes Oct 26"
+    ],
+    "start": "May–November 2027 season",
+    "employer_type": "government",
+    "url_label": "Restoration Worker or Restoration Worker Leader (seasonal WG-5 / WL-5) — Yosemite National Park restoration crew (NPS, USAJOBS 888792400 / 888793600)",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/888792400",
+        "label": "🔗 Restoration Worker or Restoration Worker Leader (seasonal WG-5 / WL-5) — Yosemite National Park restoration crew (NPS, USAJOBS 888792400 / 888793600)"
+      },
+      {
+        "href": "https://www.usajobs.gov/job/888793600",
+        "label": "🔗 Restoration Worker Leader (WL-5) posting"
+      }
+    ],
+    "url2": "https://www.usajobs.gov/job/888793600"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2216",
+    "title": "Park Ranger (Wilderness/Backcountry), Seasonal GS-5/7 — Sequoia & Kings Canyon, Crater Lake, Mount Rainier, North Cascades, Olympic (NPS, USAJOBS 889197200)",
+    "org": "National Park Service · Pacific West parks",
+    "location": "Sequoia & Kings Canyon CA; Crater Lake OR; Mount Rainier, North Cascades and Olympic WA",
+    "deadline": "October 26, 2026",
+    "deadline_date": "2026-10-26",
+    "badge": "Good fit",
+    "pay": "$19.52–$31.43 per hour (GS-5 to GS-7) (published)",
+    "url": "https://www.usajobs.gov/job/889197200",
+    "metaLine": "Western parks · NPS seasonal wilderness ranger GS-5/7 · $19.52–31.43/hr · BY OCT 26",
+    "body": "One National Park Service announcement (USAJOBS 889197200, GS-5 to GS-7) fills seasonal wilderness and backcountry Park Ranger positions at Sequoia & Kings Canyon, Crater Lake, Mount Rainier, North Cascades and Olympic, with entry on duty March–July 2027. Pay is $19.52–$31.43 an hour; the announcement closes October 26, 2026.",
+    "desc": "Backcountry resource protection rather than biology — a federal season if she wants wilderness time.",
+    "pills": [
+      "NPS",
+      "Wilderness ranger",
+      "Seasonal 2027",
+      "Closes Oct 26"
+    ],
+    "start": "March–July 2027 entry",
+    "employer_type": "government",
+    "url_label": "Park Ranger (Wilderness/Backcountry), Seasonal GS-5/7 — Sequoia & Kings Canyon, Crater Lake, Mount Rainier, North Cascades, Olympic (NPS, USAJOBS 889197200)",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/889197200",
+        "label": "🔗 Park Ranger (Wilderness/Backcountry), Seasonal GS-5/7 — Sequoia & Kings Canyon, Crater Lake, Mount Rainier, North Cascades, Olympic (NPS, USAJOBS 889197200)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2217",
+    "title": "Physical Science Technician (Seasonal) — hydrology and water-quality monitoring, North Cascades National Park (NPS, Marblemount WA, USAJOBS 888808100)",
+    "org": "National Park Service · North Cascades National Park · Marblemount, WA",
+    "location": "Marblemount, Washington",
+    "deadline": "October 26, 2026 (open to the first 50 applicants)",
+    "deadline_date": "2026-10-26",
+    "badge": "Strong fit",
+    "pay": "$24.45–$35.33 per hour (published)",
+    "url": "https://www.usajobs.gov/job/888808100",
+    "metaLine": "Marblemount WA · NPS seasonal phys-sci tech · field + lab water samples · first 50 · BY OCT 26",
+    "body": "North Cascades National Park is hiring a seasonal Physical Science Technician (USAJOBS 888808100) for field and laboratory work in physical-science monitoring: collecting, processing, analysing and managing data and samples. Likely entry on duty is April 2027 and the announcement takes the first 50 applicants. Pay is $24.45–$35.33 an hour; it closes October 26, 2026.",
+    "desc": "Field and lab sample work in a national park — the federal version of her sediment-sampling capstone. Apply early (50-applicant cap).",
+    "pills": [
+      "NPS",
+      "Water / physical science",
+      "Field + lab",
+      "Cap: 50 applicants"
+    ],
+    "start": "April 2027 (likely)",
+    "employer_type": "government",
+    "url_label": "Physical Science Technician (Seasonal) — hydrology and water-quality monitoring, North Cascades National Park (NPS, Marblemount WA, USAJOBS 888808100)",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/888808100",
+        "label": "🔗 Physical Science Technician (Seasonal) — hydrology and water-quality monitoring, North Cascades National Park (NPS, Marblemount WA, USAJOBS 888808100)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-2218",
+    "title": "Hydrologic Technician GS-5/6 (permanent) — Blythe Hydrographic Team, lower Colorado River streamflow data (Bureau of Reclamation, Blythe CA) — closes Oct 21",
+    "org": "Bureau of Reclamation · Lower Colorado Basin Region · Blythe, CA",
+    "location": "Blythe, California",
+    "deadline": "October 21, 2026",
+    "deadline_date": "2026-10-21",
+    "badge": "Strong fit",
+    "pay": "GS-5 $47,490–$61,738; GS-6 $52,938–$68,819 per year (published)",
+    "url": "https://www.usajobs.gov/job/887978900",
+    "metaLine": "Blythe CA · permanent federal hydro tech GS-5/6 · Colorado River · $47.5k+ · CLOSES OCT 21",
+    "body": "The Bureau of Reclamation is hiring a permanent Hydrologic Technician (GS-5/6) on its Blythe Hydrographic Team to collect and process streamflow and water data on the lower Colorado River, with on-call and field work. Pay is $47,490–$61,738 at GS-5 and $52,938–$68,819 at GS-6. The announcement (USAJOBS 887978900) closes October 21, 2026.",
+    "desc": "A permanent federal water job at an entry grade — closes tomorrow.",
+    "pills": [
+      "Federal",
+      "Permanent",
+      "Hydrology",
+      "Closes Oct 21"
+    ],
+    "employer_type": "government",
+    "url_label": "Hydrologic Technician GS-5/6 (permanent) — Blythe Hydrographic Team, lower Colorado River streamflow data (Bureau of Reclamation, Blythe CA) — closes Oct 21",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/887978900",
+        "label": "🔗 Hydrologic Technician GS-5/6 (permanent) — Blythe Hydrographic Team, lower Colorado River streamflow data (Bureau of Reclamation, Blythe CA) — closes Oct 21"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Alaska, Hawaii & Territories",
+    "id": "item-2219",
+    "title": "Biological Science Technician (Plants) GS-6/7/8 — tropical plant germplasm collection (USDA ARS Pacific Basin Agricultural Research Center, Hilo HI)",
+    "org": "USDA Agricultural Research Service · Pacific Basin Agricultural Research Center · Hilo, HI",
+    "location": "Hilo, Hawaii",
+    "deadline": "October 28, 2026",
+    "deadline_date": "2026-10-28",
+    "badge": "Reach",
+    "pay": "$47,406–$75,840 per year, GS-6 to GS-8 (published)",
+    "url": "https://www.usajobs.gov/job/888886700",
+    "metaLine": "Hilo HI · USDA ARS plant tech GS-6/8 · germplasm curation · $47.4k+ · BY OCT 28",
+    "body": "USDA ARS's Tropical Plant Genetic Resources unit in Hilo is hiring a Biological Science Technician (Plants), GS-6 to GS-8, to support the curatorial and research team in collecting, preserving, characterising and distributing tropical and subtropical plant germplasm. Pay is $47,406–$75,840 a year; the announcement closes October 28, 2026. The higher grades likely need specialised experience.",
+    "desc": "A USDA job, but above entry grade and more agronomy than ecology — a reach.",
+    "pills": [
+      "USDA ARS",
+      "Federal",
+      "Hawaii",
+      "Reach"
+    ],
+    "employer_type": "government",
+    "url_label": "Biological Science Technician (Plants) GS-6/7/8 — tropical plant germplasm collection (USDA ARS Pacific Basin Agricultural Research Center, Hilo HI)",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/888886700",
+        "label": "🔗 Biological Science Technician (Plants) GS-6/7/8 — tropical plant germplasm collection (USDA ARS Pacific Basin Agricultural Research Center, Hilo HI)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2220",
+    "title": "Creel Surveyor (Scientific Technician 2, career seasonal) — Snake, Grande Ronde, Tucannon and Walla Walla river fisheries (WDFW, Dayton WA)",
+    "org": "Washington Department of Fish and Wildlife · Dayton, WA",
+    "location": "Dayton (Columbia County), Washington",
+    "deadline": "October 25, 2026",
+    "deadline_date": "2026-10-25",
+    "badge": "Good fit",
+    "pay": "$3,653–$4,866 per month (published)",
+    "url": "https://www.governmentjobs.com/careers/washington/jobs/5518142",
+    "metaLine": "Dayton WA · WDFW creel surveyor · 9.5-month career seasonal · $3,653–4,866/mo · BY OCT 25",
+    "body": "WDFW is hiring a career-seasonal Creel Surveyor (Scientific Technician 2) based in Dayton, Washington, for a 9.5-month season starting December 1, 2026, surveying anglers on the Snake, Grande Ronde, Tucannon, Touchet and Walla Walla river fisheries, identifying species and collecting biological data and samples. Pay is $3,653–$4,866 a month with state benefits; applications close October 25, 2026.",
+    "desc": "A long state season with benefits — WDFW counts her degree year-for-year against experience.",
+    "pills": [
+      "WDFW",
+      "Career seasonal",
+      "Fisheries",
+      "State benefits"
+    ],
+    "start": "December 1, 2026 (9.5-month season)",
+    "employer_type": "government",
+    "url_label": "Creel Surveyor (Scientific Technician 2, career seasonal) — Snake, Grande Ronde, Tucannon and Walla Walla river fisheries (WDFW, Dayton WA)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/washington/jobs/5518142",
+        "label": "🔗 Creel Surveyor (Scientific Technician 2, career seasonal) — Snake, Grande Ronde, Tucannon and Walla Walla river fisheries (WDFW, Dayton WA)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2221",
+    "title": "Forest Nursery Technician (permanent) — growing seedlings for reforestation and restoration (Washington DNR, Olympia WA)",
+    "org": "Washington Department of Natural Resources · Webster Forest Nursery · Olympia, WA",
+    "location": "Olympia, Washington",
+    "deadline": "October 22, 2026",
+    "deadline_date": "2026-10-22",
+    "badge": "Good fit",
+    "pay": "$44,856–$59,760 per year (published)",
+    "url": "https://www.governmentjobs.com/careers/washington/jobs/5517193",
+    "metaLine": "Olympia WA · DNR forest nursery tech · permanent · $44.9k–59.8k · BY OCT 22",
+    "body": "Washington DNR is hiring a permanent full-time Forest Nursery Technician at its forest nursery in Olympia, which grows seedlings for reforestation and restoration. Pay is $44,856–$59,760 a year; applications close October 22, 2026.",
+    "desc": "Permanent state restoration-supply work — less ecology, but stable.",
+    "pills": [
+      "Washington DNR",
+      "Permanent",
+      "Restoration plants",
+      "Closes Oct 22"
+    ],
+    "employer_type": "government",
+    "url_label": "Forest Nursery Technician (permanent) — growing seedlings for reforestation and restoration (Washington DNR, Olympia WA)",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/washington/jobs/5517193",
+        "label": "🔗 Forest Nursery Technician (permanent) — growing seedlings for reforestation and restoration (Washington DNR, Olympia WA)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2222",
+    "title": "Community Outreach & Environmental Education Specialist 3 — Sagebrush Conservation Nursery inside Washington State Penitentiary (Evergreen State College, Sustainability in Prisons Project)",
+    "org": "The Evergreen State College · Sustainability in Prisons Project · Walla Walla, WA",
+    "location": "Walla Walla, Washington (Washington State Penitentiary)",
+    "deadline": "October 29, 2026",
+    "deadline_date": "2026-10-29",
+    "badge": "Good fit",
+    "pay": "$4,563–$6,136 per month (published)",
+    "url": "https://www.conservationjobboard.com/job-listing-community-outreach--environmental-educational-specialist-3-walla-walla-washington/4166613284",
+    "metaLine": "Walla Walla WA · sagebrush restoration nursery program · temporary · $4,563–6,136/mo · BY OCT 29",
+    "body": "The Sustainability in Prisons Project at Evergreen State College is hiring a temporary Community Outreach & Environmental Education Specialist 3 to manage production, training and education at the Sagebrush Conservation Nursery inside Washington State Penitentiary, including seed harvest, horticulture and curriculum for incarcerated technicians. Pay is $4,563–$6,136 a month; applications close October 29, 2026.",
+    "desc": "Native-plant restoration production with a teaching role — unusual and meaningful.",
+    "pills": [
+      "University program",
+      "Sagebrush restoration",
+      "Education",
+      "Temporary"
+    ],
+    "employer_type": "university",
+    "url_label": "Community Outreach & Environmental Education Specialist 3 — Sagebrush Conservation Nursery inside Washington State Penitentiary (Evergreen State College, Sustainability in Prisons Project)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-community-outreach--environmental-educational-specialist-3-walla-walla-washington/4166613284",
+        "label": "🔗 Community Outreach & Environmental Education Specialist 3 — Sagebrush Conservation Nursery inside Washington State Penitentiary (Evergreen State College, Sustainability in Prisons Project)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2223",
+    "title": "Fisheries Monitoring and Research Biologist (NRS2, permanent) — John Day Habitat and IMW project, snorkel/electrofishing/redd surveys (ODFW, John Day OR)",
+    "org": "Oregon Department of Fish and Wildlife · John Day, OR",
+    "location": "John Day, Oregon",
+    "deadline": "November 4, 2026",
+    "deadline_date": "2026-11-04",
+    "badge": "Strong fit",
+    "pay": "$4,738–$7,247 per month (published)",
+    "url": "https://oregon.wd5.myworkdayjobs.com/SOR_External_Career_Site/job/John-Day--ODFW/Fisheries-Monitoring-and-Research-Biologist--Natural-Resource-Specialist-2-_REQ-208337",
+    "metaLine": "John Day OR · ODFW NRS2 fisheries biologist · permanent · habitat + GIS · $4,738–7,247/mo · BY NOV 4",
+    "body": "ODFW is hiring a permanent Fisheries Monitoring and Research Biologist (Natural Resource Specialist 2) for the John Day Habitat and Intensively Monitored Watershed project: snorkelling, electrofishing, habitat surveys, redd counts and data work in Access, PTAGIS and GIS for spring Chinook and steelhead, with some lead-worker duties. A cover letter is required. Pay is $4,738–$7,247 a month; applications close November 4, 2026.",
+    "desc": "Permanent watershed-scale habitat monitoring — ODFW's Option 2 lets a BS qualify.",
+    "pills": [
+      "ODFW",
+      "Permanent",
+      "Watershed monitoring",
+      "GIS"
+    ],
+    "employer_type": "government",
+    "url_label": "Fisheries Monitoring and Research Biologist (NRS2, permanent) — John Day Habitat and IMW project, snorkel/electrofishing/redd surveys (ODFW, John Day OR)",
+    "links": [
+      {
+        "href": "https://oregon.wd5.myworkdayjobs.com/SOR_External_Career_Site/job/John-Day--ODFW/Fisheries-Monitoring-and-Research-Biologist--Natural-Resource-Specialist-2-_REQ-208337",
+        "label": "🔗 Fisheries Monitoring and Research Biologist (NRS2, permanent) — John Day Habitat and IMW project, snorkel/electrofishing/redd surveys (ODFW, John Day OR)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2224",
+    "title": "Wetland Ecologist (NRS3, limited duration to June 2028) — wetland delineation review statewide (Oregon Department of State Lands, Salem) — closes Oct 21",
+    "org": "Oregon Department of State Lands · Salem, OR",
+    "location": "Salem, Oregon (hybrid; site visits statewide)",
+    "deadline": "October 21, 2026",
+    "deadline_date": "2026-10-21",
+    "badge": "Reach",
+    "pay": "$5,453–$8,345 per month (published)",
+    "url": "https://oregon.wd5.myworkdayjobs.com/SOR_External_Career_Site/job/Salem--DSL/Wetland-Ecologist_REQ-207813",
+    "metaLine": "Salem OR · DSL wetland ecologist NRS3 · delineation review · $5,453–8,345/mo · CLOSES OCT 21",
+    "body": "Oregon's Department of State Lands is hiring a limited-duration (to June 2028) Wetland Ecologist (Natural Resource Specialist 3) as the technical expert reviewing wetland delineations, helping permit and enforcement staff determine wetland boundaries and state jurisdiction, with site visits across Oregon. Pay is $5,453–$8,345 a month; applications close October 21, 2026. NRS3 is above entry level.",
+    "desc": "Pure wetland-delineation work — a stretch on grade, but the exact specialty; closes tomorrow.",
+    "pills": [
+      "Oregon DSL",
+      "Wetland delineation",
+      "NRS3",
+      "Closes Oct 21"
+    ],
+    "employer_type": "government",
+    "url_label": "Wetland Ecologist (NRS3, limited duration to June 2028) — wetland delineation review statewide (Oregon Department of State Lands, Salem) — closes Oct 21",
+    "links": [
+      {
+        "href": "https://oregon.wd5.myworkdayjobs.com/SOR_External_Career_Site/job/Salem--DSL/Wetland-Ecologist_REQ-207813",
+        "label": "🔗 Wetland Ecologist (NRS3, limited duration to June 2028) — wetland delineation review statewide (Oregon Department of State Lands, Salem) — closes Oct 21"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2225",
+    "title": "Wetland and Waterway Permit and Enforcement Coordinator (2 openings, NRS3, limited duration) — removal-fill permits and mitigation compliance (Oregon Department of State Lands, Salem) — closes Oct 21",
+    "org": "Oregon Department of State Lands · Salem, OR",
+    "location": "Salem, Oregon (hybrid)",
+    "deadline": "October 21, 2026",
+    "deadline_date": "2026-10-21",
+    "badge": "Reach",
+    "pay": "$5,453–$8,345 per month (published)",
+    "url": "https://oregon.wd5.myworkdayjobs.com/SOR_External_Career_Site/job/Salem--DSL/Wetland-and-Waterway-Permit-and-Enforcement-Coordinator---2-Openings-_REQ-207804-1",
+    "metaLine": "Salem OR · DSL wetland permit coordinator NRS3 · 2 openings · $5,453–8,345/mo · CLOSES OCT 21",
+    "body": "Oregon's Department of State Lands has two limited-duration (through June 2028) Wetland and Waterway Permit and Enforcement Coordinator positions (NRS3) issuing removal-fill permits, reviewing compensatory mitigation monitoring and conducting compliance on authorized and unauthorized wetland activities. Pay is $5,453–$8,345 a month; applications close October 21, 2026.",
+    "desc": "Wetland regulation with two openings — experience-heavy, but worth a same-day application.",
+    "pills": [
+      "Oregon DSL",
+      "Wetland permitting",
+      "2 openings",
+      "Closes Oct 21"
+    ],
+    "employer_type": "government",
+    "url_label": "Wetland and Waterway Permit and Enforcement Coordinator (2 openings, NRS3, limited duration) — removal-fill permits and mitigation compliance (Oregon Department of State Lands, Salem) — closes Oct 21",
+    "links": [
+      {
+        "href": "https://oregon.wd5.myworkdayjobs.com/SOR_External_Career_Site/job/Salem--DSL/Wetland-and-Waterway-Permit-and-Enforcement-Coordinator---2-Openings-_REQ-207804-1",
+        "label": "🔗 Wetland and Waterway Permit and Enforcement Coordinator (2 openings, NRS3, limited duration) — removal-fill permits and mitigation compliance (Oregon Department of State Lands, Salem) — closes Oct 21"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2226",
+    "title": "Fisheries Technician — fish culture, PIT tagging, snorkel surveys and screw traps at Warm Springs National Fish Hatchery (Confederated Tribes of Warm Springs with USFWS)",
+    "org": "Confederated Tribes of Warm Springs · Branch of Natural Resources · with USFWS · Warm Springs, OR",
+    "location": "Warm Springs National Fish Hatchery, Oregon",
+    "deadline": "November 6, 2026",
+    "deadline_date": "2026-11-06",
+    "badge": "Good fit",
+    "pay": "$19–$25 per hour (published)",
+    "url": "https://www.conservationjobboard.com/job-listing-fisheries-technician-hood-river-oregon/1054796890",
+    "metaLine": "Warm Springs OR · tribal fisheries tech with USFWS · 0–1 yr · $19–25/hr · BY NOV 6",
+    "body": "The Confederated Tribes of Warm Springs are hiring a temporary Fisheries Technician to work with Tribal and USFWS staff at Warm Springs National Fish Hatchery: fish feeding and raceway cleaning, adult fish handling and PIT tagging, egg handling and spawning, snorkel surveys and screw-trap operation. It asks for 0–1 year of experience and pays $19–$25 an hour. Applications close November 6, 2026.",
+    "desc": "Entry-level fisheries work alongside USFWS staff — a federal reference from a tribal program.",
+    "pills": [
+      "Tribal natural resources",
+      "USFWS partner",
+      "Fisheries",
+      "Entry level"
+    ],
+    "employer_type": "government",
+    "url_label": "Fisheries Technician — fish culture, PIT tagging, snorkel surveys and screw traps at Warm Springs National Fish Hatchery (Confederated Tribes of Warm Springs with USFWS)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-fisheries-technician-hood-river-oregon/1054796890",
+        "label": "🔗 Fisheries Technician — fish culture, PIT tagging, snorkel surveys and screw traps at Warm Springs National Fish Hatchery (Confederated Tribes of Warm Springs with USFWS)"
+      },
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119504",
+        "label": "🔗 TAMU listing"
+      }
+    ],
+    "url2": "https://jobs.rwfm.tamu.edu/view-job/?id=119504"
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2227",
+    "title": "Trails Technician (temporary) — trail work and conservation field crew support in Laguna Coast Wilderness Park (Laguna Canyon Foundation, Laguna Beach CA)",
+    "org": "Laguna Canyon Foundation · Laguna Beach, CA",
+    "location": "Laguna Beach, California",
+    "deadline": "November 30, 2026",
+    "deadline_date": "2026-11-30",
+    "badge": "Good fit",
+    "pay": "$21–$22 per hour (published)",
+    "url": "https://www.conservationjobboard.com/job-listing-trails-technician-laguna-beach-california/7577254832",
+    "metaLine": "Laguna Beach CA · non-profit trails tech · 0–1 yr · $21–22/hr · BY NOV 30",
+    "body": "Laguna Canyon Foundation, the non-profit that protects Laguna Coast Wilderness Park, is hiring a temporary field-based Trails Technician for trail construction and maintenance, occasionally assisting its conservation field crew and leading volunteers. It asks for 0–1 year of experience and pays $21–$22 an hour. Applications close November 30, 2026.",
+    "desc": "Mostly trails, some habitat crew time — a modest non-profit field job.",
+    "pills": [
+      "Non-profit",
+      "Trails",
+      "Land stewardship",
+      "Southern California"
+    ],
+    "employer_type": "non-profit",
+    "url_label": "Trails Technician (temporary) — trail work and conservation field crew support in Laguna Coast Wilderness Park (Laguna Canyon Foundation, Laguna Beach CA)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-trails-technician-laguna-beach-california/7577254832",
+        "label": "🔗 Trails Technician (temporary) — trail work and conservation field crew support in Laguna Coast Wilderness Park (Laguna Canyon Foundation, Laguna Beach CA)"
+      }
+    ]
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2228",
+    "title": "Crew Leader (Jan–Dec 2027) — leading a young-adult habitat restoration corps crew (EarthCorps, Seattle WA)",
+    "org": "EarthCorps · Seattle, WA",
+    "location": "Seattle, Washington (Puget Sound region)",
+    "deadline": "October 30, 2026",
+    "deadline_date": "2026-10-30",
+    "badge": "Good fit",
+    "pay": "$3,600 per month plus health insurance and PTO (published)",
+    "url": "https://www.conservationjobboard.com/job-listing-crewleader-seattle-washington/5124424131",
+    "metaLine": "Seattle WA · EarthCorps crew leader · 2027 restoration year · $3,600/mo + health · BY OCT 30",
+    "body": "EarthCorps, a Seattle restoration non-profit, is hiring Crew Leaders for January–December 2027 to lead young-adult corps members through a year of habitat restoration and community service in the Seattle region. Pay is $3,600 a month plus health insurance and PTO. Member crews skew ages 18–26, so confirm the leader age requirement; applications close October 30, 2026.",
+    "desc": "A paid crew-lead year at an established restoration non-profit — confirm age limits first.",
+    "pills": [
+      "Non-profit corps",
+      "Crew leader",
+      "Restoration",
+      "Check age limit"
+    ],
+    "start": "January – December 2027",
+    "employer_type": "non-profit",
+    "url_label": "Crew Leader (Jan–Dec 2027) — leading a young-adult habitat restoration corps crew (EarthCorps, Seattle WA)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-crewleader-seattle-washington/5124424131",
+        "label": "🔗 Crew Leader (Jan–Dec 2027) — leading a young-adult habitat restoration corps crew (EarthCorps, Seattle WA)"
       }
     ]
   }
