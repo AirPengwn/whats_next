@@ -4692,7 +4692,7 @@
       "Southeast"
     ],
     "metaLine": "Funded PhD · $30,667/yr · non-res tuition waiver · apply by Oct 15",
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-10-15",
     "region": "Southeast & Appalachia",
@@ -14695,7 +14695,8 @@
     "benefits": "Full-time position — confirm benefits with McDowell Sonoran Conservancy",
     "id": "item-324",
     "start_date": "2026-10-15",
-    "relocation": "lead"
+    "relocation": "lead",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -19315,7 +19316,7 @@
       "Four positions · October 19 deadline"
     ],
     "metaLine": "Deadline October 19, 2026 · $17–$20/hr · live-trapping is the core duty · North Franklin, CT (Franklin Swamp WMA)",
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-10-19",
     "region": "Northeast",
@@ -19834,7 +19835,7 @@
       "⚠️ References due Oct 5 · applications close Oct 19"
     ],
     "metaLine": "Deadline October 19, 2026 · FEMA Corps Team Leader · disaster recovery + mapping · National — deploys to 4-6 projects across the country",
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-10-19",
     "region": "National / Remote / Multiple",
@@ -29891,7 +29892,7 @@
       "kind": "s-new",
       "label": "✨ New — August 3, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-10-14",
     "region": "Southwest",
@@ -35735,7 +35736,7 @@
       "kind": "s-new",
       "label": "✨ New — August 10, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-10-15",
     "region": "Southeast & Appalachia",
@@ -46353,7 +46354,8 @@
     "deadline_date": "2026-10-19",
     "start": "Open until filled",
     "start_date": "2026-09-01",
-    "relocation": "local"
+    "relocation": "local",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -48910,7 +48912,7 @@
       "kind": "s-new",
       "label": "✨ New — August 24, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-1128",
@@ -52085,7 +52087,8 @@
     ],
     "start": "10/15/2026",
     "relocation": "lead",
-    "deadline_date": "2026-10-15"
+    "deadline_date": "2026-10-15",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -53768,7 +53771,8 @@
     ],
     "start": "See posting",
     "relocation": "lead",
-    "deadline_date": "2026-10-19"
+    "deadline_date": "2026-10-19",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -60652,7 +60656,8 @@
     "start": "After October 16, 2026",
     "relocation": "local",
     "deadline_date": "2026-10-16",
-    "start_date": "2026-10-16"
+    "start_date": "2026-10-16",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -61152,7 +61157,8 @@
     ],
     "start": "Between September and November 1, 2026",
     "relocation": "local",
-    "deadline_date": "2026-10-15"
+    "deadline_date": "2026-10-15",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -61561,7 +61567,8 @@
     "start": "December 1, 2026",
     "relocation": "local",
     "deadline_date": "2026-10-15",
-    "start_date": "2026-12-01"
+    "start_date": "2026-12-01",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -61838,7 +61845,8 @@
     "start": "Mid-to-late November 2026 · term October 2026 – September 2028, likely extended",
     "relocation": "lead",
     "deadline_date": "2026-10-18",
-    "start_date": "2026-11-16"
+    "start_date": "2026-11-16",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -61928,7 +61936,8 @@
     ],
     "start": "After November 9, 2026",
     "relocation": "unknown",
-    "deadline_date": "2026-10-16"
+    "deadline_date": "2026-10-16",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -62261,7 +62270,7 @@
       "kind": "s-new",
       "label": "✨ New — September 13, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-1438",
@@ -62391,7 +62400,7 @@
       "kind": "s-new",
       "label": "✨ New — September 13, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southwest",
     "id": "item-1441",
@@ -62567,7 +62576,7 @@
       "kind": "s-new",
       "label": "✨ New — September 13, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-1445",
@@ -62751,7 +62760,7 @@
       "kind": "s-new",
       "label": "✨ New — September 13, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-1449",
@@ -62797,7 +62806,7 @@
       "kind": "s-new",
       "label": "✨ New — September 13, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-1450",
@@ -65523,7 +65532,8 @@
     "start": "2026 hunting season · 5-month temporary term",
     "relocation": "housed",
     "deadline_date": "2026-10-16",
-    "housing_provided": true
+    "housing_provided": true,
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -65700,7 +65710,8 @@
     "start": "January 2027 (training in December) to mid-April 2027",
     "relocation": "lead",
     "deadline_date": "2026-10-16",
-    "start_date": "2027-01-04"
+    "start_date": "2027-01-04",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -67685,7 +67696,7 @@
     "start": "",
     "relocation": "unknown",
     "deadline_date": "2026-10-18",
-    "expired": false,
+    "expired": true,
     "url2": "https://jobs.rwfm.tamu.edu/view-job/?id=119291"
   },
   {
@@ -70223,7 +70234,7 @@
       "kind": "s-new",
       "label": "✨ New — September 15, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-1624",
@@ -70969,7 +70980,8 @@
     ],
     "start": "After October 15, 2026",
     "relocation": "local",
-    "deadline_date": "2026-10-15"
+    "deadline_date": "2026-10-15",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -71015,7 +71027,8 @@
     ],
     "start": "After October 15, 2026",
     "relocation": "local",
-    "deadline_date": "2026-10-15"
+    "deadline_date": "2026-10-15",
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -71680,7 +71693,7 @@
       "kind": "s-new",
       "label": "✨ New — September 22, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Northeast",
     "id": "item-1657",
@@ -71908,7 +71921,7 @@
       "kind": "s-new",
       "label": "✨ New — September 22, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Mountain West",
     "id": "item-1662",
@@ -72221,7 +72234,8 @@
     "deadline_date": "2026-10-16",
     "start_date": "2027-01-04",
     "housing_provided": false,
-    "relocation": "local"
+    "relocation": "local",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -72655,7 +72669,8 @@
     "deadline_date": "2026-10-13",
     "start_date": "2026-11-15",
     "housing_provided": false,
-    "relocation": "lead"
+    "relocation": "lead",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -72703,7 +72718,8 @@
     "deadline_date": "2026-10-13",
     "start_date": "2026-11-15",
     "housing_provided": false,
-    "relocation": "lead"
+    "relocation": "lead",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -73219,7 +73235,8 @@
     "deadline_date": "2026-10-16",
     "start_date": "2027-01-04",
     "housing_provided": false,
-    "relocation": "local"
+    "relocation": "local",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -76168,7 +76185,8 @@
     "deadline_date": "2026-10-14",
     "start_date": "2026-12-01",
     "housing_provided": false,
-    "relocation": "lead"
+    "relocation": "lead",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -76546,7 +76564,8 @@
     "deadline_date": "2026-10-13",
     "start_date": "2026-10-15",
     "housing_provided": false,
-    "relocation": "tight"
+    "relocation": "tight",
+    "expired": true
   },
   {
     "type": "Graduate Program",
@@ -76601,7 +76620,7 @@
       "kind": "s-new",
       "label": "✨ New — September 29, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-1765",
@@ -77106,7 +77125,8 @@
     "deadline_date": "2026-10-16",
     "start_date": "2026-11-01",
     "housing_provided": false,
-    "relocation": "planned"
+    "relocation": "planned",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -77809,7 +77829,8 @@
     "deadline_date": "2026-10-16",
     "start_date": "2026-12-01",
     "housing_provided": false,
-    "relocation": "lead"
+    "relocation": "lead",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -77857,7 +77878,8 @@
     "deadline_date": "2026-10-16",
     "start_date": "2026-10-19",
     "housing_provided": false,
-    "relocation": "tight"
+    "relocation": "tight",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -77991,7 +78013,8 @@
     "deadline_date": "2026-10-13",
     "start_date": "2026-11-15",
     "housing_provided": false,
-    "relocation": "planned"
+    "relocation": "planned",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -78621,7 +78644,8 @@
     "deadline_date": "2026-10-14",
     "start_date": "2026-11-15",
     "housing_provided": false,
-    "relocation": "planned"
+    "relocation": "planned",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -78665,7 +78689,8 @@
     "deadline_date": "2026-10-14",
     "start_date": "2026-11-15",
     "housing_provided": false,
-    "relocation": "planned"
+    "relocation": "planned",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -78803,7 +78828,8 @@
     "deadline_date": "2026-10-18",
     "start_date": "2026-11-15",
     "housing_provided": false,
-    "relocation": "planned"
+    "relocation": "planned",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -78847,7 +78873,8 @@
     "deadline_date": "2026-10-14",
     "start_date": "2026-10-15",
     "housing_provided": false,
-    "relocation": "tight"
+    "relocation": "tight",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -79340,7 +79367,8 @@
     "deadline_date": "2026-10-18",
     "start_date": "2026-11-01",
     "housing_provided": true,
-    "relocation": "housed"
+    "relocation": "housed",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -79922,7 +79950,8 @@
     "deadline_date": "2026-10-13",
     "start_date": "2026-10-26",
     "housing_provided": false,
-    "relocation": "tight"
+    "relocation": "tight",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -80145,7 +80174,8 @@
     "deadline_date": "2026-10-13",
     "start_date": "2026-11-15",
     "housing_provided": false,
-    "relocation": "planned"
+    "relocation": "planned",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -80511,7 +80541,8 @@
     "deadline_date": "2026-10-14",
     "start_date": "2026-11-15",
     "housing_provided": false,
-    "relocation": "planned"
+    "relocation": "planned",
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -80872,7 +80903,8 @@
     "deadline_date": "2026-10-18",
     "start_date": "2027-01-04",
     "housing_provided": false,
-    "relocation": "lead"
+    "relocation": "lead",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -81092,7 +81124,8 @@
     "deadline_date": "2026-10-15",
     "start_date": "2026-11-15",
     "housing_provided": false,
-    "relocation": "planned"
+    "relocation": "planned",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -81270,7 +81303,8 @@
     "deadline_date": "2026-10-15",
     "start_date": "2026-11-15",
     "housing_provided": false,
-    "relocation": "planned"
+    "relocation": "planned",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -81902,7 +81936,8 @@
     "deadline_date": "2026-10-13",
     "start_date": "2026-11-15",
     "housing_provided": false,
-    "relocation": "planned"
+    "relocation": "planned",
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -82032,7 +82067,8 @@
     ],
     "start": "Between November 2, 2026 and January 1, 2027",
     "deadline_date": "2026-10-16",
-    "start_date": "2026-11-02"
+    "start_date": "2026-11-02",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -82072,7 +82108,8 @@
     ],
     "start": "Between November 2, 2026 and January 1, 2027",
     "deadline_date": "2026-10-16",
-    "start_date": "2026-11-02"
+    "start_date": "2026-11-02",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -82374,7 +82411,7 @@
       "kind": "s-new",
       "label": "✨ New — October 6, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Alaska, Hawaii & Territories",
     "id": "item-1893",
@@ -83120,7 +83157,8 @@
     ],
     "start": "After November 18, 2026 (through about April 2027)",
     "deadline_date": "2026-10-13",
-    "start_date": "2026-11-18"
+    "start_date": "2026-11-18",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -83199,7 +83237,8 @@
       "$37–51k"
     ],
     "start": "After December 7, 2026",
-    "deadline_date": "2026-10-15"
+    "deadline_date": "2026-10-15",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -83319,7 +83358,8 @@
       "$16.97/hr"
     ],
     "start": "After November 13, 2026 (through about June 2027)",
-    "deadline_date": "2026-10-16"
+    "deadline_date": "2026-10-16",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -83359,7 +83399,8 @@
     ],
     "start": "About January 12 to May 7, 2027",
     "deadline_date": "2026-10-16",
-    "start_date": "2027-01-12"
+    "start_date": "2027-01-12",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -83399,7 +83440,8 @@
     ],
     "start": "Mid-April to mid-May 2027 start",
     "deadline_date": "2026-10-18",
-    "start_date": "2027-04-12"
+    "start_date": "2027-04-12",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -83572,7 +83614,8 @@
     ],
     "start": "About November 15, 2026",
     "deadline_date": "2026-10-18",
-    "start_date": "2026-11-15"
+    "start_date": "2026-11-15",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -84521,7 +84564,8 @@
     ],
     "start": "2027 season (temporary)",
     "deadline_date": "2026-10-19",
-    "start_date": "2027-01-04"
+    "start_date": "2027-01-04",
+    "expired": true
   },
   {
     "type": "Graduate Program",
@@ -84574,7 +84618,7 @@
       "kind": "s-new",
       "label": "✨ New — October 6, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-1946",
@@ -84684,7 +84728,8 @@
       "Permanent",
       "$47,350"
     ],
-    "deadline_date": "2026-10-19"
+    "deadline_date": "2026-10-19",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -84722,7 +84767,8 @@
       "Permanent",
       "$43,230"
     ],
-    "deadline_date": "2026-10-13"
+    "deadline_date": "2026-10-13",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -84838,7 +84884,8 @@
       "No experience needed",
       "$2,267–4,080/mo"
     ],
-    "deadline_date": "2026-10-15"
+    "deadline_date": "2026-10-15",
+    "expired": true
   },
   {
     "type": "Internship",
@@ -85271,7 +85318,8 @@
       "GIS",
       "PA residency rule"
     ],
-    "deadline_date": "2026-10-13"
+    "deadline_date": "2026-10-13",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -85309,7 +85357,8 @@
       "3-year term",
       "$52,432"
     ],
-    "deadline_date": "2026-10-15"
+    "deadline_date": "2026-10-15",
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -85389,7 +85438,8 @@
       "Part-time",
       "$21/hr"
     ],
-    "deadline_date": "2026-10-15"
+    "deadline_date": "2026-10-15",
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -85589,7 +85639,8 @@
     ],
     "start": "Entry on duty April–June 2027",
     "deadline_date": "2026-10-13",
-    "start_date": "2027-04-01"
+    "start_date": "2027-04-01",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -85637,7 +85688,8 @@
     ],
     "start": "Entry on duty spring 2027",
     "deadline_date": "2026-10-13",
-    "start_date": "2027-04-01"
+    "start_date": "2027-04-01",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -85724,7 +85776,7 @@
       "kind": "s-new",
       "label": "✨ New — October 6, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-1975",
@@ -85804,7 +85856,7 @@
       "kind": "s-new",
       "label": "✨ New — October 6, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Alaska, Hawaii & Territories",
     "id": "item-1977",
@@ -85871,7 +85923,8 @@
       "Prescribed fire",
       "Pitcher-plant bog"
     ],
-    "deadline_date": "2026-10-17"
+    "deadline_date": "2026-10-17",
+    "expired": true
   },
   {
     "type": "Internship",
@@ -85954,7 +86007,8 @@
       "University lab",
       "Benefits"
     ],
-    "deadline_date": "2026-10-15"
+    "deadline_date": "2026-10-15",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -86108,7 +86162,8 @@
       "Benefits",
       "~$50k"
     ],
-    "deadline_date": "2026-10-14"
+    "deadline_date": "2026-10-14",
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -86261,7 +86316,8 @@
       "Benefits",
       "$16.26/hr"
     ],
-    "deadline_date": "2026-10-18"
+    "deadline_date": "2026-10-18",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -86341,7 +86397,8 @@
       "Wildlife surveys",
       "$29.75/hr"
     ],
-    "deadline_date": "2026-10-16"
+    "deadline_date": "2026-10-16",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -86459,7 +86516,8 @@
       "GIS counts",
       "$4,667/mo"
     ],
-    "deadline_date": "2026-10-16"
+    "deadline_date": "2026-10-16",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -86497,7 +86555,8 @@
       "Hawai'i",
       "$3,654/mo"
     ],
-    "deadline_date": "2026-10-13"
+    "deadline_date": "2026-10-13",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -86651,7 +86710,8 @@
       "Maui",
       "$3,654/mo"
     ],
-    "deadline_date": "2026-10-19"
+    "deadline_date": "2026-10-19",
+    "expired": true
   },
   {
     "type": "Internship",
@@ -86662,7 +86722,7 @@
       "kind": "s-new",
       "label": "✨ New — October 6, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "West Coast / Pacific",
     "id": "item-1999",
@@ -86767,7 +86827,8 @@
       "~$50–56k"
     ],
     "start": "October 2026 to October 31, 2027 (extension likely)",
-    "deadline_date": "2026-10-13"
+    "deadline_date": "2026-10-13",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -86805,7 +86866,8 @@
       "ArcGIS",
       "$46–50k"
     ],
-    "deadline_date": "2026-10-18"
+    "deadline_date": "2026-10-18",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -86885,7 +86947,8 @@
     ],
     "start": "May 2027 (or following graduation)",
     "deadline_date": "2026-10-16",
-    "start_date": "2027-05-01"
+    "start_date": "2027-05-01",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -87041,7 +87104,8 @@
       "Bargaining unit",
       "CAD $34.87/hr"
     ],
-    "deadline_date": "2026-10-13"
+    "deadline_date": "2026-10-13",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -87119,7 +87183,8 @@
       "3 months",
       "Coastal BC"
     ],
-    "deadline_date": "2026-10-14"
+    "deadline_date": "2026-10-14",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -87253,7 +87318,7 @@
       "kind": "s-new",
       "label": "✨ New — October 6, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Ontario",
     "id": "item-2014",
@@ -87322,7 +87387,8 @@
       "Degree qualifies",
       "Manitoba"
     ],
-    "deadline_date": "2026-10-14"
+    "deadline_date": "2026-10-14",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -87478,7 +87544,8 @@
       "GS-6/7"
     ],
     "start": "2027 field season",
-    "deadline_date": "2026-10-13"
+    "deadline_date": "2026-10-13",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -87518,7 +87585,8 @@
         "href": "https://www.usajobs.gov/job/887060800",
         "label": "🔗 Wildlife Specialist — Virginia Wildlife Conflict Helpline, damage management and disease sampling (USDA APHIS Wildlife Services, Moseley VA, USAJOBS 887060800)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Graduate Program",
@@ -88244,7 +88312,8 @@
         "href": "https://www.governmentjobs.com/careers/washington/jobs/5423457/permit-manager-and-data-quality-specialist-environmental-specialist-3-in-training",
         "label": "🔗 Permit Manager and Data Quality Specialist (Environmental Specialist 3, In-Training) — Water Quality Program, Eastern Region (Washington Dept. of Ecology, Spokane)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -88283,7 +88352,8 @@
         "href": "https://www.governmentjobs.com/careers/washington/jobs/5512477/recreational-test-fisher-scientific-technician-2-career-seasonal-two-openings-2026-08514",
         "label": "🔗 Recreational Test Fisher — Scientific Technician 2, career seasonal (2 openings), salmon and steelhead data in the Quillayute and Hoh basins (WDFW, Forks WA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -88322,7 +88392,8 @@
         "href": "https://www.governmentjobs.com/careers/washington/jobs/5507157/watercraft-inspector-natural-resource-technician-3-permanent-2026-08353",
         "label": "🔗 Watercraft Inspector — Natural Resource Technician 3 (permanent), Aquatic Invasive Species Unit (WDFW, Ridgefield WA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -88362,7 +88433,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-boardman-restoration-technician-boardman-oregon/1207064513",
         "label": "🔗 Boardman Restoration Technician — shrub-steppe restoration for Washington ground squirrel habitat with TNC (Ecostudies Institute, Boardman OR)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -88480,7 +88552,8 @@
         "href": "https://www.usajobs.gov/job/888284300",
         "label": "🔗 Biological Science Technician (Wildlife), GS-7, temporary 12–24 months — Upper Mississippi River National Wildlife and Fish Refuge (USFWS, Winona MN, USAJOBS 888284300)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -88519,7 +88592,8 @@
         "href": "https://www.usajobs.gov/job/888099700",
         "label": "🔗 Natural Resources Specialist (Ranger), GS-0401-05, Direct Hire Authority — Greers Ferry Lake project (U.S. Army Corps of Engineers, Heber Springs AR, USAJOBS 888099700)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -89800,7 +89874,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119373",
         "label": "🔗 Biological Science Technician (Wildlife) — wildlife damage management, Wilcox County AL (USDA APHIS Wildlife Services)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -90082,7 +90157,8 @@
         "href": "https://nc.wd108.myworkdayjobs.com/NC_Careers/job/Buncombe-County-NC/Environmental-Technician-II_JR-126010",
         "label": "🔗 Environmental Technician II — Ambient Monitoring System stream sampling across 19 western NC counties (NC DEQ Division of Water Resources, Asheville)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -90121,7 +90197,8 @@
         "href": "https://www.jobs.virginia.gov/jobs/vro-p4327-biologist-harrisonburg-virginia-united-states",
         "label": "🔗 Biologist (VRO P4327) — biological, physical and chemical monitoring of Virginia streams, lakes and estuaries (Virginia DEQ, Harrisonburg)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -90160,7 +90237,8 @@
         "href": "https://nc.wd108.myworkdayjobs.com/NC_Careers/job/Wake-County-NC/Environmental-Technician_JR-124865-1",
         "label": "🔗 Environmental Technician — DEQ Stewardship Program, state-held conservation properties and easements (NC DEQ, Raleigh)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -90199,7 +90277,8 @@
         "href": "https://nc.wd108.myworkdayjobs.com/NC_Careers/job/Beaufort-County-NC/Environmental-Technician-I--Temporary---Beaufort-County-_JR-125569",
         "label": "🔗 Environmental Technician I (temporary) — creel census interviews for a state fisheries biologist (NC DEQ, Beaufort County)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -90393,7 +90472,8 @@
         "href": "https://www.governmentjobs.com/careers/wv/jobs/5496934",
         "label": "🔗 Fish and Wildlife Technician 2 — Ridge Fish Hatchery (West Virginia DNR Wildlife Resources, Berkeley County)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -90432,7 +90512,8 @@
         "href": "https://www.governmentjobs.com/careers/wv/jobs/5496910",
         "label": "🔗 Fish and Wildlife Technician 2 — Bowden Fish Hatchery, cold-water trout culture (West Virginia DNR Wildlife Resources, Randolph County)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -90471,7 +90552,8 @@
         "href": "https://www.governmentjobs.com/careers/louisiana/jobs/5510492",
         "label": "🔗 Environmental Scientist 1/2/3 — field inspections, sampling and environmental monitoring (Louisiana DEQ, Baton Rouge, job 26-86B)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -90549,7 +90631,8 @@
         "href": "https://jobs.myflorida.com/job/TAMPA-ENVIRONMENTAL-SPECIALIST-I-37020983-FL-33620/1438639300/",
         "label": "🔗 Environmental Specialist I — Compliance Assurance Program inspections of waste and grease facilities (Florida DEP, Tampa, 37020983)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -90627,7 +90710,8 @@
         "href": "https://www.usajobs.gov/job/887693500",
         "label": "🔗 Biological Science Technician (Wildlife / Motor Vehicle Operator), GS-4 to GS-8 — DPW natural resources program (U.S. Army, Fort Benning GA, USAJOBS 887693500)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Internship",
@@ -91173,7 +91257,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-conservation-specialist-whitehall-wisconsin/9735944649",
         "label": "🔗 Conservation Specialist — landowner conservation practices and soil and water protection (Trempealeau County Land Management, Whitehall WI)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
