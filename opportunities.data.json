@@ -64499,7 +64499,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — September 13, 2026"
+      "label": "✨ Re-posted — October 20, 2026"
     },
     "cycle": "current",
     "deadline_kind": "fixed",
@@ -64508,14 +64508,18 @@
     "title": "Conservation Specialist — landowner technical assistance in forestry, water quality and wildlife habitat (Manistee Conservation District, Michigan)",
     "org": "Manistee Conservation District · Bear Lake, MI",
     "location": "Bear Lake, Michigan (multi-county travel)",
-    "deadline": "Listed through September 18, 2026 — confirm with the employer",
+    "deadline": "Listed through November 6, 2026 (re-posted)",
     "badge": "Good fit",
-    "pay": "$45,000–$54,000 per year (published)",
+    "pay": "$45,000–$54,000 per year (published on the October 2026 re-post)",
     "stipend": "",
     "benefits": "Full-time, 40 hours/week",
-    "url": "https://www.conservationjobboard.com/job-listing-conservation-specialist-bear-lake-michigan/1563699417",
+    "url": "https://www.conservationjobboard.com/job-listing-conservation-specialist-bear-lake-michigan/3149292226",
     "url_label": "Conservation Specialist — landowner technical assistance in forestry, water quality and wildlife habitat (Manistee Conservation District, Michigan)",
     "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-conservation-specialist-bear-lake-michigan/3149292226",
+        "label": "🔗 Re-posted listing (October 2026)"
+      },
       {
         "href": "https://www.conservationjobboard.com/job-listing-conservation-specialist-bear-lake-michigan/1563699417",
         "label": "🔗 Conservation Specialist — landowner technical assistance in forestry, water quality and wildlife habitat (Manistee Conservation District, Michigan)"
@@ -64532,8 +64536,8 @@
     ],
     "start": "See posting",
     "relocation": "unknown",
-    "deadline_date": "2026-09-18",
-    "expired": true
+    "deadline_date": "2026-11-06",
+    "url2": "https://www.conservationjobboard.com/job-listing-conservation-specialist-bear-lake-michigan/1563699417"
   },
   {
     "type": "Graduate Program",
@@ -97163,6 +97167,434 @@
       {
         "href": "https://www.conservationjobboard.com/job-listing-sierra-nevada-yellow-legged-frog-project-manager-quincy-california/7452067962",
         "label": "🔗 Sierra Nevada Yellow-Legged Frog Project Manager — amphibian monitoring and recovery (Plumas Audubon Society, Quincy CA)"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-2264",
+    "title": "Funded MS — human dimensions of wildlife and hunting, with Wyoming Game and Fish (University of Wyoming Haub School)",
+    "org": "University of Wyoming · Haub School of Environment and Natural Resources · Laramie, WY",
+    "location": "Laramie, Wyoming",
+    "deadline": "November 2, 2026 (email Dr. Kelly Dunning with a CV; program application March 1)",
+    "deadline_date": "2026-11-02",
+    "badge": "Good fit",
+    "stipend": "Competitive stipend plus tuition, fees and health insurance (amount not published); 0.5 FTE, about 2 years",
+    "url": "https://www.uwyo.edu/haub/_files/_docs/academics/gra-positions/funded-ms-positions-2026.pdf#human-dimensions",
+    "metaLine": "Laramie WY · funded MS · wildlife human dimensions with WGFD · tuition + health · email by Nov 2",
+    "body": "The University of Wyoming's Haub School is offering a fully funded MS for Fall 2027 working with Wyoming Game and Fish on conservation funding and hunter experience. Funding is a competitive 0.5 FTE stipend (amount not published) plus tuition, fees and health insurance for about two years. Contact Dr. Kelly Dunning with a CV before November 2, 2026; the program application is due March 1, 2027.",
+    "desc": "A funded MS with a state wildlife agency partner built in — social science rather than field ecology.",
+    "pills": [
+      "Funded MS",
+      "State agency partner",
+      "Human dimensions",
+      "Email by Nov 2"
+    ],
+    "start": "Fall 2027",
+    "employer_type": "university",
+    "url_label": "Funded MS — human dimensions of wildlife and hunting, with Wyoming Game and Fish (University of Wyoming Haub School)",
+    "links": [
+      {
+        "href": "https://www.uwyo.edu/haub/_files/_docs/academics/gra-positions/funded-ms-positions-2026.pdf#human-dimensions",
+        "label": "🔗 Funded MS — human dimensions of wildlife and hunting, with Wyoming Game and Fish (University of Wyoming Haub School)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-2265",
+    "title": "Resource Compliance Technician (full-time, field-based) — environmental compliance on construction projects (Landhawk Consulting, El Paso TX)",
+    "org": "Landhawk Consulting LLC · El Paso, TX",
+    "location": "El Paso, Texas (field-based, possible in-state rotations)",
+    "deadline": "Listed through October 29, 2026",
+    "deadline_date": "2026-10-29",
+    "badge": "Good fit",
+    "pay": "$16.25–$30.00 per hour depending on experience (published)",
+    "url": "https://www.conservationjobboard.com/job-listing-resource-compliance-technician-el-paso-texas/7466292726",
+    "metaLine": "El Paso TX · consulting compliance tech · full-time field · $16.25–30/hr · thru Oct 29",
+    "body": "Landhawk Consulting is hiring a regular, full-time Resource Compliance Technician based in El Paso, Texas, in a field-based role with potential in-state rotational deployments on project sites. Pay is $16.25–$30.00 an hour depending on experience. The board lists it through October 29, 2026.",
+    "desc": "Entry consulting compliance work — quick paid field experience.",
+    "pills": [
+      "Consulting",
+      "Environmental compliance",
+      "Full-time",
+      "Texas"
+    ],
+    "employer_type": "private",
+    "url_label": "Resource Compliance Technician (full-time, field-based) — environmental compliance on construction projects (Landhawk Consulting, El Paso TX)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-resource-compliance-technician-el-paso-texas/7466292726",
+        "label": "🔗 Resource Compliance Technician (full-time, field-based) — environmental compliance on construction projects (Landhawk Consulting, El Paso TX)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-2266",
+    "title": "Wildlife Technician — Wildlife Management Division Research Branch (Arizona Game and Fish Department, Phoenix AZ)",
+    "org": "Arizona Game and Fish Department · Research Branch · Phoenix, AZ",
+    "location": "Phoenix, Arizona",
+    "deadline": "November 1, 2026",
+    "deadline_date": "2026-11-01",
+    "badge": "Strong fit",
+    "pay": "$17.45–$20.19 per hour, Salary Grade 18 (published)",
+    "url": "https://www.conservationjobboard.com/job-listing-wildlife-technician-phoenix-arizona/7999626182",
+    "metaLine": "Phoenix AZ · AZGFD research wildlife tech · state agency · $17.45–20.19/hr · BY NOV 1",
+    "body": "Arizona Game and Fish is hiring a Wildlife Technician in the Wildlife Management Division's Research Branch in Phoenix (requisition 544415, Salary Grade 18). The hourly range is $17.45–$20.19 and the posting closes November 1, 2026.",
+    "desc": "A state wildlife research technician job — the agency route in the Southwest.",
+    "pills": [
+      "State agency",
+      "Wildlife research",
+      "AZGFD",
+      "Closes Nov 1"
+    ],
+    "employer_type": "government",
+    "url_label": "Wildlife Technician — Wildlife Management Division Research Branch (Arizona Game and Fish Department, Phoenix AZ)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-wildlife-technician-phoenix-arizona/7999626182",
+        "label": "🔗 Wildlife Technician — Wildlife Management Division Research Branch (Arizona Game and Fish Department, Phoenix AZ)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2267",
+    "title": "Recovery Program Coordinator — steelhead and bull trout recovery across the Yakima Basin (Yakima Basin Fish & Wildlife Recovery Board, Yakima WA)",
+    "org": "Yakima Basin Fish and Wildlife Recovery Board · Yakima, WA",
+    "location": "Yakima, Washington",
+    "deadline": "Listed through November 15, 2026",
+    "deadline_date": "2026-11-15",
+    "badge": "Reach",
+    "pay": "$65,000–$90,000 per year (published)",
+    "url": "https://www.conservationjobboard.com/job-listing-recovery-coordinator-yakima-washington/6962897060",
+    "metaLine": "Yakima WA · fish recovery program coordinator · $65–90k · thru Nov 15",
+    "body": "The Yakima Basin Fish and Wildlife Recovery Board is hiring a Recovery Program Coordinator to help lead collaborative, science-driven efforts to restore steelhead, bull trout and other native species across the Yakima Basin. Pay is $65,000–$90,000 a year; the board lists it through November 15, 2026.",
+    "desc": "Watershed-scale recovery coordination — senior-leaning, but a career target to know about.",
+    "pills": [
+      "Watershed recovery",
+      "Coordination",
+      "Pacific Northwest",
+      "Reach"
+    ],
+    "employer_type": "government",
+    "url_label": "Recovery Program Coordinator — steelhead and bull trout recovery across the Yakima Basin (Yakima Basin Fish & Wildlife Recovery Board, Yakima WA)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-recovery-coordinator-yakima-washington/6962897060",
+        "label": "🔗 Recovery Program Coordinator — steelhead and bull trout recovery across the Yakima Basin (Yakima Basin Fish & Wildlife Recovery Board, Yakima WA)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2268",
+    "title": "Project-Based Wetland Scientist — wetland delineation and permitting field work in the Twin Cities (Midwest Wetland Improvements, Victoria MN)",
+    "org": "Midwest Wetland Improvements · Victoria, MN",
+    "location": "Victoria, Minnesota (Twin Cities metro; ~20% greater MN, some western WI) — must reside in Minnesota",
+    "deadline": "Listed through November 15, 2026",
+    "deadline_date": "2026-11-15",
+    "badge": "Strong fit",
+    "pay": "$30–$45 per hour (published)",
+    "url": "https://www.conservationjobboard.com/job-listing-project-based-wetland-scientist-victoria-minnesota/3854237577",
+    "metaLine": "Victoria MN · project-based wetland scientist · $30–45/hr · must live in MN · thru Nov 15",
+    "body": "Midwest Wetland Improvements is hiring a project-based Wetland Scientist. Field work is concentrated in the Twin Cities metro, with roughly 20% in greater Minnesota and occasional work in western Wisconsin; candidates must reside in Minnesota within reliable driving distance. Pay is $30–$45 an hour; the board lists it through November 15, 2026.",
+    "desc": "Paid wetland-scientist work using her delineation training — but only if she relocates to Minnesota.",
+    "pills": [
+      "Wetland delineation",
+      "Consulting",
+      "Project-based",
+      "Minnesota residency"
+    ],
+    "employer_type": "private",
+    "url_label": "Project-Based Wetland Scientist — wetland delineation and permitting field work in the Twin Cities (Midwest Wetland Improvements, Victoria MN)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-project-based-wetland-scientist-victoria-minnesota/3854237577",
+        "label": "🔗 Project-Based Wetland Scientist — wetland delineation and permitting field work in the Twin Cities (Midwest Wetland Improvements, Victoria MN)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2269",
+    "title": "Water Resource Field Specialist I/II — watershed restoration field work (Watershed Progressive, Groveland CA)",
+    "org": "Watershed Progressive · Groveland, CA",
+    "location": "Groveland, California (Sierra foothills)",
+    "deadline": "Listed through November 15, 2026",
+    "deadline_date": "2026-11-15",
+    "badge": "Good fit",
+    "pay": "$25–$35 per hour (published)",
+    "url": "https://www.conservationjobboard.com/job-listing-water-resource-field-specialist-iii-groveland-california/1853417950",
+    "metaLine": "Groveland CA · watershed restoration field specialist · $25–35/hr · thru Nov 15",
+    "body": "Watershed Progressive, a watershed restoration firm, is hiring a Water Resource Field Specialist I/II in Groveland, California to advance its mission of connecting communities with their watersheds through integrated restoration strategies. Pay is $25–$35 an hour; the board lists it through November 15, 2026.",
+    "desc": "Hands-on watershed restoration at a specialist firm — a good fit for her water and restoration interests.",
+    "pills": [
+      "Watershed restoration",
+      "Private",
+      "Field",
+      "Sierra foothills"
+    ],
+    "employer_type": "private",
+    "url_label": "Water Resource Field Specialist I/II — watershed restoration field work (Watershed Progressive, Groveland CA)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-water-resource-field-specialist-iii-groveland-california/1853417950",
+        "label": "🔗 Water Resource Field Specialist I/II — watershed restoration field work (Watershed Progressive, Groveland CA)"
+      }
+    ]
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-2270",
+    "title": "Wildland Restoration Team Leader (2027) — leading MCC restoration crews (Montana Conservation Corps; Bozeman, Helena, Kalispell or Missoula)",
+    "org": "Montana Conservation Corps · Bozeman, Helena, Kalispell or Missoula, MT",
+    "location": "Bozeman, Helena, Kalispell or Missoula, Montana",
+    "deadline": "Listed through November 14, 2026",
+    "deadline_date": "2026-11-14",
+    "badge": "Strong fit",
+    "url": "https://www.conservationjobboard.com/job-listing-wildland-restoration-team-leader-bozeman-helena-kalispell-missoula-montana/7632154564",
+    "metaLine": "Montana · MCC wildland restoration team LEADER · 2027 · thru Nov 14",
+    "body": "Montana Conservation Corps is recruiting 2027 Wildland Restoration Team Leaders based in Bozeman, Helena, Kalispell or Missoula to lead restoration crews while building professional career and leadership skills. The board lists it through November 14, 2026; the living allowance is on MCC's own posting. (The Wildland Restoration Team member role she saved is a separate card.)",
+    "desc": "The leader step above the MCC restoration team she already saved — her NCCC experience fits the leader role.",
+    "pills": [
+      "AmeriCorps",
+      "Crew leader",
+      "Restoration",
+      "Montana"
+    ],
+    "employer_type": "non-profit",
+    "url_label": "Wildland Restoration Team Leader (2027) — leading MCC restoration crews (Montana Conservation Corps; Bozeman, Helena, Kalispell or Missoula)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-wildland-restoration-team-leader-bozeman-helena-kalispell-missoula-montana/7632154564",
+        "label": "🔗 Wildland Restoration Team Leader (2027) — leading MCC restoration crews (Montana Conservation Corps; Bozeman, Helena, Kalispell or Missoula)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2271",
+    "title": "State Heritage Botanist (Research Scientist 2) — lead statewide botanist for the Minnesota Biological Survey (MN DNR, Sauk Rapids MN)",
+    "org": "Minnesota Department of Natural Resources · Minnesota Biological Survey · Sauk Rapids, MN",
+    "location": "Sauk Rapids, Minnesota",
+    "deadline": "Listed through October 30, 2026",
+    "deadline_date": "2026-10-30",
+    "badge": "Reach",
+    "pay": "$68,841–$101,476 per year (published)",
+    "url": "https://www.conservationjobboard.com/job-listing-state-heritage-botanist-research-scientist-2-sauk-rapids-minnesota/3534595062",
+    "metaLine": "Sauk Rapids MN · MN DNR state heritage botanist · RS2 · $68.8k–101.5k · thru Oct 30",
+    "body": "The Minnesota Biological Survey in MN DNR's Division of Ecological and Water Resources is hiring a full-time unlimited State Heritage Botanist (Research Scientist 2) in Sauk Rapids, a lead statewide botanist position. Pay is $68,841–$101,476 a year; the board lists it through October 30, 2026.",
+    "desc": "A senior botanist post — a long reach, listed so she knows the career ladder exists.",
+    "pills": [
+      "State agency",
+      "Botany",
+      "Senior",
+      "Reach"
+    ],
+    "employer_type": "government",
+    "url_label": "State Heritage Botanist (Research Scientist 2) — lead statewide botanist for the Minnesota Biological Survey (MN DNR, Sauk Rapids MN)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-state-heritage-botanist-research-scientist-2-sauk-rapids-minnesota/3534595062",
+        "label": "🔗 State Heritage Botanist (Research Scientist 2) — lead statewide botanist for the Minnesota Biological Survey (MN DNR, Sauk Rapids MN)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2272",
+    "title": "Sea Turtle Lighting Biologist — coastal lighting and marine turtle conservation (Florida Fish & Wildlife Conservation Commission, Tallahassee FL)",
+    "org": "Florida Fish and Wildlife Conservation Commission · Tallahassee, FL",
+    "location": "Tallahassee, Florida",
+    "deadline": "Listed through October 26, 2026",
+    "deadline_date": "2026-10-26",
+    "badge": "Good fit",
+    "url": "https://www.conservationjobboard.com/job-listing-sea-turtle-lighting-biologist-tallahassee-florida/9612224383",
+    "metaLine": "Tallahassee FL · FWC sea turtle lighting biologist · state agency · thru Oct 26",
+    "body": "The Florida Fish and Wildlife Conservation Commission is hiring a Sea Turtle Lighting Biologist in Tallahassee to support marine turtle conservation through coastal lighting management. Pay is on FWC's own posting; the board lists it through October 26, 2026.",
+    "desc": "A state-agency biologist job in the Southeast — check the pay and minimums on FWC's posting.",
+    "pills": [
+      "FWC",
+      "Sea turtles",
+      "State agency",
+      "Florida"
+    ],
+    "employer_type": "government",
+    "url_label": "Sea Turtle Lighting Biologist — coastal lighting and marine turtle conservation (Florida Fish & Wildlife Conservation Commission, Tallahassee FL)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-sea-turtle-lighting-biologist-tallahassee-florida/9612224383",
+        "label": "🔗 Sea Turtle Lighting Biologist — coastal lighting and marine turtle conservation (Florida Fish & Wildlife Conservation Commission, Tallahassee FL)"
+      }
+    ]
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2273",
+    "title": "Marine Conservation Internship (Spring 2027) — threat reduction and water-quality programs (Loggerhead Marinelife Center, Juno Beach FL)",
+    "org": "Loggerhead Marinelife Center · Juno Beach, FL",
+    "location": "Juno Beach, Florida",
+    "deadline": "Listed through October 23, 2026",
+    "deadline_date": "2026-10-23",
+    "badge": "Good fit",
+    "url": "https://www.conservationjobboard.com/job-listing-marine-conservation-internship-spring-2027-juno-beach-florida/3402964444",
+    "metaLine": "Juno Beach FL · non-profit marine conservation intern · spring 2027 · thru Oct 23",
+    "body": "Loggerhead Marinelife Center, a non-profit sea turtle hospital and research centre founded in 1983, is recruiting Spring 2027 Marine Conservation Interns reporting to its Threat Reduction Coordinator and Water Quality Specialist. Stipend details are on the centre's posting; the board lists it through October 23, 2026.",
+    "desc": "A non-profit internship that includes water-quality work — check whether it is paid.",
+    "pills": [
+      "Non-profit",
+      "Sea turtles",
+      "Water quality",
+      "Spring 2027"
+    ],
+    "start": "Spring 2027",
+    "employer_type": "non-profit",
+    "url_label": "Marine Conservation Internship (Spring 2027) — threat reduction and water-quality programs (Loggerhead Marinelife Center, Juno Beach FL)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-marine-conservation-internship-spring-2027-juno-beach-florida/3402964444",
+        "label": "🔗 Marine Conservation Internship (Spring 2027) — threat reduction and water-quality programs (Loggerhead Marinelife Center, Juno Beach FL)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2274",
+    "title": "Botanic Specialist I — Natural Resources Youth & Community Programs stewardship coordinator (Portland Parks & Recreation, Portland OR)",
+    "org": "Portland Parks & Recreation · Portland, OR",
+    "location": "Portland, Oregon (Ross Island facility; field sites in N and NE Portland)",
+    "deadline": "Listed through October 26, 2026",
+    "deadline_date": "2026-10-26",
+    "badge": "Good fit",
+    "pay": "$37.25–$47.56 per hour (published)",
+    "url": "https://www.conservationjobboard.com/job-listing-botanic-specialist-i---natural-resources-youth--community-programs-stewardship-coordinator-portland-oregon/6348827598",
+    "metaLine": "Portland OR · city Botanic Specialist I · stewardship coordinator · $37.25–47.56/hr · thru Oct 26",
+    "body": "Portland Parks & Recreation is hiring a full-time regular Botanic Specialist I as Stewardship Coordinator for its Natural Resources Youth & Community Programs, based at the Ross Island facility with field locations in North and Northeast Portland. Pay is $37.25–$47.56 an hour; the board lists it through October 26, 2026.",
+    "desc": "A well-paid permanent city natural-areas job — stewardship with a community-programs angle.",
+    "pills": [
+      "City government",
+      "Natural areas",
+      "Stewardship",
+      "Well paid"
+    ],
+    "employer_type": "government",
+    "url_label": "Botanic Specialist I — Natural Resources Youth & Community Programs stewardship coordinator (Portland Parks & Recreation, Portland OR)",
+    "links": [
+      {
+        "href": "https://www.conservationjobboard.com/job-listing-botanic-specialist-i---natural-resources-youth--community-programs-stewardship-coordinator-portland-oregon/6348827598",
+        "label": "🔗 Botanic Specialist I — Natural Resources Youth & Community Programs stewardship coordinator (Portland Parks & Recreation, Portland OR)"
       }
     ]
   }
