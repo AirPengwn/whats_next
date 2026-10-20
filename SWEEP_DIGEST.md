@@ -1,18 +1,24 @@
 # Weekly opportunity sweep — 2026-10-20
 
-**Added 10 new** opportunities:
-- Wetlands and Waterways Permitting Program Specialist (Level II or III) — DNREC Division of Water (Kent Conservation District, Dover DE) — _Strong_ · Northeast · deadline: November 27, 2026 (posting says until filled)
-- Seasonal Vegetation Monitoring Biotechnician or Crew Lead — Redwood NSP & Lava Beds NM (NPS Klamath Inventory & Monitoring Network, Ashland OR) — _Good_ · West Coast / Pacific · deadline: October 26, 2026
-- Wildlife Technician — feral swine trapping and damage monitoring, Blue Ridge Mountains (USDA APHIS Wildlife Services, Blairsville GA) — _Good_ · Southeast & Appalachia · deadline: November 6, 2026
-- Natural Resources Specialist — Balcones Canyonlands Preserve land management (Travis County TNR, Austin TX) — _Good_ · Southwest · deadline: November 15, 2026
-- Technical Associate (Research Technician) — estuarine, freshwater and watershed monitoring (UMass Dartmouth SMAST Coastal Systems Program, New Bedford MA) — _Strong_ · Northeast · deadline: December 31, 2026 (listed)
-- Land Steward — nature preserve stewardship (ACRES Land Trust, Huntertown IN) — _Good_ · Midwest & Great Plains · deadline: November 20, 2026
-- Restoration Field Specialist — invasive species, native plantings and seasonal crew supervision (Huron Pines, Alpena MI) — _Strong_ · Midwest & Great Plains · deadline: November 30, 2026
-- Field Technician — Southeastern grassland restoration and surveys (Southeastern Grasslands Institute, Austin Peay State University, Clarksville TN) — _Strong_ · Southeast & Appalachia · deadline: November 13, 2026
-- Meadow Monitoring Biological Science Technician (2027 season) — Sequoia and Kings Canyon National Parks (NPS, Three Rivers CA) — _Good_ · West Coast / Pacific · deadline: October 26, 2026
-- EPA Research Participant — aquatic toxicity and bioaccumulation of PFAS (ORISE, EPA Duluth MN) — _Strong_ · Midwest & Great Plains · deadline: December 4, 2026 (reviewed on a rolling basis — may close early)
+**Added 15 new** opportunities:
+- Restoration Technician — oak woodland restoration on Santa Cruz Island, Channel Islands NP (California Institute of Environmental Studies, Ventura CA) — _Good_ · West Coast / Pacific · deadline: November 1, 2026
+- Seasonal Invasive Plant Technician — invasive control and habitat restoration on Santa Rosa Island, Channel Islands NP (California Institute of Environmental Studies) — _Good_ · West Coast / Pacific · deadline: November 1, 2026
+- USDA Forest Service Fellowship — preparation and analysis of environmental samples (ORISE, Northern Research Station, Grand Rapids MN) — _Good_ · Midwest & Great Plains · deadline: November 20, 2026 (reviewed on a rolling basis)
+- Wild Turkey Predator Community Technicians (2) — mesocarnivore trapping, telemetry and camera trapping (Auburn University, AL) — _Good_ · Southeast & Appalachia · deadline: November 14, 2026
+- Wildlife Biologist — nesting bird, special-status species, rare plant and waters monitoring across California (Sentinel Science) — _Good_ · West Coast / Pacific · deadline: November 15, 2026
+- Wildlife Habitat Biologist I — Farm Bill grassland habitat work with private landowners (Bird Conservancy of the Rockies, Baker or Ekalaka MT) — _Good_ · Mountain West · deadline: October 31, 2026
+- Black Rail Habitat Technician — RTK GPS, water-inundation gauges and marsh soil sampling (Louisiana State University, Cameron LA) — _Strong_ · Southeast & Appalachia · deadline: December 1, 2026
+- Land Stewardship Intern (summer 2027) — prairie, woodland and wetland restoration crews in five Iowa regions (Iowa Natural Heritage Foundation) — _Good_ · Midwest & Great Plains · deadline: February 8, 2027
+- Research Technicians (3) — black brant nesting ecology on the Yukon-Kuskokwim Delta, summer 2027 (Colorado State University, Tutakoke River AK) — _Good_ · Alaska, Hawaii & Territories · deadline: December 15, 2026
+- Wading Bird Field Technicians (2–3) — Everglades nesting surveys, Jan–Jun 2027 (University of Florida Wading Bird Project) — _Good_ · Southeast & Appalachia · deadline: November 8, 2026
+- Quail Research and Management Technician — telemetry, quail trapping and small-mammal trapping (Rolling Plains Quail Research Foundation, Rotan TX) — _Good_ · Southwest · deadline: December 1, 2026
+- Eagle Studies Field Technician — Golden Eagle research in Utah and Wyoming, Jan–Jun 2027 (HawkWatch International) — _Good_ · Mountain West · deadline: November 4, 2026
+- Ecological Restoration Technician I — wetland and stream mitigation restoration (Resource Environmental Solutions, Scenery Hill PA) — _Strong_ · Northeast · deadline: November 16, 2026
+- Natural Resource Monitor — T&E species, nesting bird surveys and BMP monitoring on construction sites (EGC Inc, Sasabe AZ) — _Good_ · Southwest · deadline: October 30, 2026
+- Invasive Plant Member — San Antonio Missions National Historical Park, Jan–Aug 2027 (American Conservation Experience) — _Good_ · Southwest · deadline: October 23, 2026
 
-**Updated 0** (deadline / status / description changed).
+**Updated 1** (deadline / status / description changed):
+- USGS Paid Reptile Research Internship — invasive Burmese python and tegu research in the Everglades (12 months) — _Good_ · Southeast & Appalachia · deadline: November 2, 2026 (re-posted)
 
-**Total opportunities:** 2095  ·  next-cycle: 562  ·  expired (one-time, no future cycle): 631
+**Total opportunities:** 2110  ·  next-cycle: 561  ·  expired (one-time, no future cycle): 631
 Triage: passed-but-recurring → `cycle:"next"`; one-time/discontinued → `expired:true`. Passed/expired are hidden on the site by default (toggle to show); never deleted, never moved to the personal Archive. Fit tiers: _Excellent_ / _Strong_ / _Good_ / _Reach / review_ (set via each entry's badge). The Browse pages render from this data automatically — no HTML edits. Nothing is live until this PR is merged.

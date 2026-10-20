@@ -59797,26 +59797,30 @@
     "src_label": "Internships",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — September 13, 2026"
+      "label": "✨ Re-posted — October 20, 2026"
     },
-    "cycle": "next",
+    "cycle": "current",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-1385",
     "title": "USGS Paid Reptile Research Internship — invasive Burmese python and tegu research in the Everglades (12 months)",
     "org": "U.S. Geological Survey with the University of Florida · Everglades National Park · Homestead, FL",
     "location": "Everglades National Park, Homestead, Florida (some work in Big Cypress National Preserve)",
-    "deadline": "October 1, 2026",
+    "deadline": "November 2, 2026 (re-posted)",
     "badge": "Good fit",
-    "pay": "Up to $15 per hour (published)",
+    "pay": "$15 per hour (published on the October 2026 re-post)",
     "stipend": "",
     "benefits": "",
-    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=115046",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119447",
     "url_label": "USGS Paid Reptile Research Internship — invasive Burmese python and tegu research in the Everglades (12 months)",
     "links": [
       {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119447",
+        "label": "🔗 Re-posted listing (October 2026, closes Nov 2)"
+      },
+      {
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=115046",
-        "label": "🔗 USGS Paid Reptile Research Internship — invasive Burmese python and tegu research in the Everglades (12 months)"
+        "label": "🔗 Original listing"
       }
     ],
     "metaLine": "Everglades NP · up to $15/hr · 12-month USGS invasive-reptile internship · closes Oct 1",
@@ -59830,8 +59834,9 @@
     ],
     "start": "Early December 2026 preferred (flexible) · twelve months",
     "relocation": "local",
-    "deadline_date": "2026-10-01",
-    "start_date": "2026-12-01"
+    "deadline_date": "2026-11-02",
+    "start_date": "2026-12-01",
+    "url2": "https://jobs.rwfm.tamu.edu/view-job/?id=115046"
   },
   {
     "type": "Career Position",
@@ -91608,6 +91613,596 @@
       {
         "href": "https://www.zintellect.com/Opportunity/Details/EPA-OCSPP-2026-0015",
         "label": "🔗 EPA Research Participant — aquatic toxicity and bioaccumulation of PFAS (ORISE, EPA Duluth MN)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2125",
+    "title": "Restoration Technician — oak woodland restoration on Santa Cruz Island, Channel Islands NP (California Institute of Environmental Studies, Ventura CA)",
+    "org": "California Institute of Environmental Studies (CIES) · with NPS and The Nature Conservancy · Santa Cruz Island, CA",
+    "location": "Santa Cruz Island, Channel Islands National Park (Ventura, California)",
+    "deadline": "November 1, 2026",
+    "deadline_date": "2026-11-01",
+    "badge": "Good fit",
+    "pay": "Starting at $22.29 per hour (published)",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119505",
+    "metaLine": "Santa Cruz Island CA · island oak-woodland restoration · full-time field · from $22.29/hr · BY NOV 1",
+    "body": "The California Institute of Environmental Studies is seeking up to two full-time restoration technicians to support oak woodland restoration on Santa Cruz Island, within Channel Islands National Park and The Nature Conservancy's preserve. All work is on the island, in cooperation with NPS and TNC staff. The listing asks for at least 1 year of experience and pays from $22.29 an hour; applications close November 1, 2026.",
+    "desc": "Island restoration with NPS and TNC partners — a memorable field line, if island living appeals.",
+    "pills": [
+      "Restoration",
+      "Channel Islands",
+      "NPS + TNC partners",
+      "Field-based"
+    ],
+    "employer_type": "non-profit",
+    "url_label": "Restoration Technician — oak woodland restoration on Santa Cruz Island, Channel Islands NP (California Institute of Environmental Studies, Ventura CA)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119505",
+        "label": "🔗 Restoration Technician — oak woodland restoration on Santa Cruz Island, Channel Islands NP (California Institute of Environmental Studies, Ventura CA)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2126",
+    "title": "Seasonal Invasive Plant Technician — invasive control and habitat restoration on Santa Rosa Island, Channel Islands NP (California Institute of Environmental Studies)",
+    "org": "California Institute of Environmental Studies (CIES) · with NPS · Santa Rosa Island, CA",
+    "location": "Santa Rosa Island, Channel Islands National Park (Ventura, California)",
+    "deadline": "November 1, 2026",
+    "deadline_date": "2026-11-01",
+    "badge": "Good fit",
+    "pay": "Starting at $22.29 per hour (published)",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119506",
+    "metaLine": "Santa Rosa Island CA · seasonal invasive plant control · from $22.29/hr · BY NOV 1",
+    "body": "CIES is seeking up to three seasonal invasive plant technicians for invasive plant control and habitat restoration on Santa Rosa Island in Channel Islands National Park, working with the National Park Service, Catalina Island Conservancy and The Nature Conservancy. Most work is on Santa Rosa Island with occasional travel to other islands. The listing asks for at least 1 year of experience and pays from $22.29 an hour; applications close November 1, 2026.",
+    "desc": "A seasonal companion to the Santa Cruz Island role — apply to both with one cover letter.",
+    "pills": [
+      "Invasive species",
+      "Channel Islands",
+      "Seasonal",
+      "Restoration"
+    ],
+    "employer_type": "non-profit",
+    "url_label": "Seasonal Invasive Plant Technician — invasive control and habitat restoration on Santa Rosa Island, Channel Islands NP (California Institute of Environmental Studies)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119506",
+        "label": "🔗 Seasonal Invasive Plant Technician — invasive control and habitat restoration on Santa Rosa Island, Channel Islands NP (California Institute of Environmental Studies)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2127",
+    "title": "USDA Forest Service Fellowship — preparation and analysis of environmental samples (ORISE, Northern Research Station, Grand Rapids MN)",
+    "org": "USDA Forest Service Northern Research Station via ORISE / ORAU · Grand Rapids, MN",
+    "location": "Grand Rapids, Minnesota (Forestry Sciences Laboratory)",
+    "deadline": "November 20, 2026 (reviewed on a rolling basis)",
+    "deadline_date": "2026-11-20",
+    "badge": "Good fit",
+    "url": "https://www.zintellect.com/Opportunity/Details/USDA-FS-NRS-2026-0360",
+    "metaLine": "Grand Rapids MN · USDA-FS ORISE fellowship · environmental sample prep + analysis · rolling to Nov 20",
+    "body": "A fellowship (USDA-FS-NRS-2026-0360) is available with the USDA Forest Service Northern Research Station at the Forestry Sciences Laboratory in Grand Rapids, Minnesota, on the preparation and analysis of environmental samples. The lab sits on the University of Minnesota North Central Research and Outreach Center. Applications are reviewed on a rolling basis with a listed closing date of November 20, 2026; the stipend is not published on the listing.",
+    "desc": "A USDA lab fellowship built on sample prep and analysis — the same bench skills as her sediment work, and a USDA foothold.",
+    "pills": [
+      "USDA Forest Service",
+      "ORISE",
+      "Lab analysis",
+      "Federal foothold"
+    ],
+    "employer_type": "government",
+    "url_label": "USDA Forest Service Fellowship — preparation and analysis of environmental samples (ORISE, Northern Research Station, Grand Rapids MN)",
+    "links": [
+      {
+        "href": "https://www.zintellect.com/Opportunity/Details/USDA-FS-NRS-2026-0360",
+        "label": "🔗 USDA Forest Service Fellowship — preparation and analysis of environmental samples (ORISE, Northern Research Station, Grand Rapids MN)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2128",
+    "title": "Wild Turkey Predator Community Technicians (2) — mesocarnivore trapping, telemetry and camera trapping (Auburn University, AL)",
+    "org": "Auburn University · Auburn, AL",
+    "location": "Auburn, Alabama",
+    "deadline": "November 14, 2026",
+    "deadline_date": "2026-11-14",
+    "badge": "Good fit",
+    "pay": "Starting at $15 per hour (published)",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119471",
+    "metaLine": "Auburn AL · seasonal predator research tech · trapping + camera traps · from $15/hr · BY NOV 14",
+    "body": "Auburn University is seeking two seasonal technicians for a wild turkey predator community research project. Preferred qualifications include a completed or in-progress BS in wildlife biology, VHF radio telemetry, mesocarnivore capture and handling, foothold trapping, chemical immobilization and camera trapping experience. Pay starts at $15 an hour; applications close November 14, 2026.",
+    "desc": "Camera trapping and mammal capture are both named — her two strongest field skills.",
+    "pills": [
+      "Camera trapping",
+      "Mesocarnivores",
+      "Telemetry",
+      "Seasonal"
+    ],
+    "employer_type": "university",
+    "url_label": "Wild Turkey Predator Community Technicians (2) — mesocarnivore trapping, telemetry and camera trapping (Auburn University, AL)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119471",
+        "label": "🔗 Wild Turkey Predator Community Technicians (2) — mesocarnivore trapping, telemetry and camera trapping (Auburn University, AL)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2129",
+    "title": "Wildlife Biologist — nesting bird, special-status species, rare plant and waters monitoring across California (Sentinel Science)",
+    "org": "Sentinel Science · statewide, CA",
+    "location": "Statewide California (assigned as close to home as possible)",
+    "deadline": "November 15, 2026",
+    "deadline_date": "2026-11-15",
+    "badge": "Good fit",
+    "pay": "$24–$45 per hour (published)",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119470",
+    "metaLine": "California statewide · consulting biologist · nesting birds + waters monitoring · BS · $24–45/hr · BY NOV 15",
+    "body": "Sentinel Science is looking for biologists to perform nesting bird surveys, special-status species and rare plant surveys, construction monitoring and waters monitoring on projects throughout California, with assignments as close to home as possible. Applicants need some professional, volunteer, amateur or academic field experience identifying birds and finding nests. The listing asks for a bachelor's with no minimum experience; pay is $24–$45 an hour. Closes November 15, 2026.",
+    "desc": "Entry-level consulting biology with waters monitoring in the mix — bird ID is the skill to brush up.",
+    "pills": [
+      "Consulting",
+      "Bird surveys",
+      "Waters monitoring",
+      "California"
+    ],
+    "employer_type": "private",
+    "url_label": "Wildlife Biologist — nesting bird, special-status species, rare plant and waters monitoring across California (Sentinel Science)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119470",
+        "label": "🔗 Wildlife Biologist — nesting bird, special-status species, rare plant and waters monitoring across California (Sentinel Science)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-2130",
+    "title": "Wildlife Habitat Biologist I — Farm Bill grassland habitat work with private landowners (Bird Conservancy of the Rockies, Baker or Ekalaka MT)",
+    "org": "Bird Conservancy of the Rockies · Northern Great Plains Stewardship · Baker or Ekalaka, MT",
+    "location": "Baker or Ekalaka, Montana",
+    "deadline": "October 31, 2026",
+    "deadline_date": "2026-10-31",
+    "badge": "Good fit",
+    "pay": "$58,000–$65,000 per year (published)",
+    "benefits": "Comprehensive benefits package including paid time off and 403(b)",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119465",
+    "metaLine": "Baker/Ekalaka MT · non-profit habitat biologist · Farm Bill programs · $58–65k · BY OCT 31",
+    "body": "Bird Conservancy of the Rockies is hiring a full-time Wildlife Habitat Biologist I in Baker or Ekalaka, Montana, reporting to the Stewardship Program Manager for the Northern Great Plains. Salary is $58,000–$65,000 commensurate with experience, with preference for working knowledge of Farm Bill conservation programs, and promotion potential. The TAMU listing gives at least 2 years of experience; applications close October 31, 2026.",
+    "desc": "The Montana twin of the South Dakota habitat biologist role already on the list — a stretch on experience, but well paid.",
+    "pills": [
+      "Non-profit",
+      "Grassland birds",
+      "Farm Bill",
+      "Montana"
+    ],
+    "employer_type": "non-profit",
+    "url_label": "Wildlife Habitat Biologist I — Farm Bill grassland habitat work with private landowners (Bird Conservancy of the Rockies, Baker or Ekalaka MT)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119465",
+        "label": "🔗 Wildlife Habitat Biologist I — Farm Bill grassland habitat work with private landowners (Bird Conservancy of the Rockies, Baker or Ekalaka MT)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2131",
+    "title": "Black Rail Habitat Technician — RTK GPS, water-inundation gauges and marsh soil sampling (Louisiana State University, Cameron LA)",
+    "org": "Louisiana State University · School of Renewable Natural Resources · Cameron, LA",
+    "location": "Cameron Parish, southwestern Louisiana",
+    "deadline": "December 1, 2026",
+    "deadline_date": "2026-12-01",
+    "badge": "Strong fit",
+    "pay": "$13–$17 per hour (published)",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119462",
+    "metaLine": "Cameron LA · coastal marsh habitat tech · RTK GPS + soils + inundation gauges · $13–17/hr · BY DEC 1",
+    "body": "LSU's School of Renewable Natural Resources has one full-time (or several part-time) seasonal positions supporting an M.S. student measuring and mapping Black Rail habitat in southwestern Louisiana. Fieldwork includes using an RTK GPS system, installing and retrieving data from water inundation gauges, and collecting and assessing soil samples, with data entry and management. Pay is $13–$17 an hour; applications close December 1, 2026.",
+    "desc": "Marsh hydrology, soils and mapping — wetland delineation skills applied directly, and a link to an LSU lab.",
+    "pills": [
+      "Coastal marsh",
+      "Wetland soils",
+      "RTK GPS mapping",
+      "University lab"
+    ],
+    "employer_type": "university",
+    "url_label": "Black Rail Habitat Technician — RTK GPS, water-inundation gauges and marsh soil sampling (Louisiana State University, Cameron LA)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119462",
+        "label": "🔗 Black Rail Habitat Technician — RTK GPS, water-inundation gauges and marsh soil sampling (Louisiana State University, Cameron LA)"
+      }
+    ]
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2132",
+    "title": "Land Stewardship Intern (summer 2027) — prairie, woodland and wetland restoration crews in five Iowa regions (Iowa Natural Heritage Foundation)",
+    "org": "Iowa Natural Heritage Foundation · Iowa (regional crews)",
+    "location": "Iowa — Central, Eastern, Loess Hills, Lakes Area or Blufflands crews",
+    "deadline": "February 8, 2027",
+    "deadline_date": "2027-02-08",
+    "badge": "Good fit",
+    "pay": "$15 per hour (published)",
+    "url": "https://www.inhf.org/about-us/internships/land-stewardship-internship",
+    "metaLine": "Iowa · land-trust stewardship intern · summer 2027 · $15/hr · by Feb 8",
+    "body": "The Iowa Natural Heritage Foundation hires a land stewardship intern crew each summer for each of its regions (Central Iowa, Eastern Iowa, Loess Hills, Lakes Area and the Blufflands) to maintain and restore native landscapes across Iowa while learning ecology, land management and wildlife. Pay is $15 an hour; applications close February 8, 2027.",
+    "desc": "A well-regarded non-profit stewardship internship — less senior than she needs, but a solid summer fallback.",
+    "pills": [
+      "Non-profit",
+      "Land trust",
+      "Restoration",
+      "Summer 2027"
+    ],
+    "start": "Summer 2027",
+    "employer_type": "non-profit",
+    "url_label": "Land Stewardship Intern (summer 2027) — prairie, woodland and wetland restoration crews in five Iowa regions (Iowa Natural Heritage Foundation)",
+    "links": [
+      {
+        "href": "https://www.inhf.org/about-us/internships/land-stewardship-internship",
+        "label": "🔗 Land Stewardship Intern (summer 2027) — prairie, woodland and wetland restoration crews in five Iowa regions (Iowa Natural Heritage Foundation)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Alaska, Hawaii & Territories",
+    "id": "item-2133",
+    "title": "Research Technicians (3) — black brant nesting ecology on the Yukon-Kuskokwim Delta, summer 2027 (Colorado State University, Tutakoke River AK)",
+    "org": "Colorado State University · Tutakoke River, Yukon-Kuskokwim Delta, AK",
+    "location": "Tutakoke River field camp near Chevak, Alaska",
+    "deadline": "December 15, 2026",
+    "deadline_date": "2026-12-15",
+    "badge": "Good fit",
+    "pay": "$20 per hour (published)",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119495",
+    "metaLine": "Y-K Delta AK · remote field camp · brant nesting research · May–Jul 2027 · $20/hr · BY DEC 15",
+    "body": "Colorado State University is seeking three technicians for a long-term research project on the Yukon-Kuskokwim Delta of Alaska studying the evolutionary ecology, migration ecology and population dynamics of black brant. Two positions run early May to early July 2027 and one runs early May to late July. Pay is $20 an hour; applications close December 15, 2026.",
+    "desc": "A classic remote Alaska field season on a long-term waterfowl study — strong for a wildlife résumé.",
+    "pills": [
+      "Alaska",
+      "Waterfowl",
+      "Remote field camp",
+      "Summer 2027"
+    ],
+    "start": "Early May 2027 (to early or late July)",
+    "employer_type": "university",
+    "url_label": "Research Technicians (3) — black brant nesting ecology on the Yukon-Kuskokwim Delta, summer 2027 (Colorado State University, Tutakoke River AK)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119495",
+        "label": "🔗 Research Technicians (3) — black brant nesting ecology on the Yukon-Kuskokwim Delta, summer 2027 (Colorado State University, Tutakoke River AK)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2134",
+    "title": "Wading Bird Field Technicians (2–3) — Everglades nesting surveys, Jan–Jun 2027 (University of Florida Wading Bird Project)",
+    "org": "University of Florida · Wading Bird Project · Florida Everglades",
+    "location": "Water Conservation Areas of the Florida Everglades",
+    "deadline": "November 8, 2026",
+    "deadline_date": "2026-11-08",
+    "badge": "Good fit",
+    "pay": "Starting at $18 per hour (published)",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119489",
+    "metaLine": "Everglades FL · wetland wading-bird surveys · Jan–Jun 2027 · from $18/hr · BY NOV 8",
+    "body": "The University of Florida's Wading Bird Project is hiring 2–3 field technicians (plus a licensed UAV pilot) for ongoing monitoring of the nesting effort of Great Egrets, Wood Storks, White Ibis, Roseate Spoonbills and other species across the Everglades Water Conservation Areas. Positions run mid-January to late June 2027. The listing asks for at least 1 year of experience and pays from $18 an hour; applications close November 8, 2026.",
+    "desc": "Long-term wetland bird monitoring in the Everglades — wetlands plus wildlife in one season.",
+    "pills": [
+      "Everglades",
+      "Wetland birds",
+      "Seasonal 2027",
+      "University"
+    ],
+    "start": "Mid-January 2027 through late June 2027",
+    "employer_type": "university",
+    "url_label": "Wading Bird Field Technicians (2–3) — Everglades nesting surveys, Jan–Jun 2027 (University of Florida Wading Bird Project)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119489",
+        "label": "🔗 Wading Bird Field Technicians (2–3) — Everglades nesting surveys, Jan–Jun 2027 (University of Florida Wading Bird Project)"
+      }
+    ]
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-2135",
+    "title": "Quail Research and Management Technician — telemetry, quail trapping and small-mammal trapping (Rolling Plains Quail Research Foundation, Rotan TX)",
+    "org": "Rolling Plains Quail Research Foundation · Rotan, TX",
+    "location": "Rolling Plains Quail Research Ranch, Fisher County (Rotan, Texas)",
+    "deadline": "December 1, 2026",
+    "deadline_date": "2026-12-01",
+    "badge": "Good fit",
+    "pay": "Starting at $2,500 per month (published)",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119457",
+    "metaLine": "Rotan TX · quail research tech/intern · telemetry + small mammals · from $2,500/mo · BY DEC 1",
+    "body": "The Rolling Plains Quail Research Foundation is hiring interns/technicians for research on its ranch in Fisher County, Texas. Duties include radio telemetry, quail trapping, call-count surveys, raptor identification, small-mammal trapping and caring for bird dogs, with exposure to farm equipment and habitat management. Pay starts at $2,500 a month; applications close December 1, 2026.",
+    "desc": "Small-mammal trapping is named outright — a good-paying research season on a working quail ranch.",
+    "pills": [
+      "Small-mammal trapping",
+      "Telemetry",
+      "Upland birds",
+      "Texas"
+    ],
+    "employer_type": "non-profit",
+    "url_label": "Quail Research and Management Technician — telemetry, quail trapping and small-mammal trapping (Rolling Plains Quail Research Foundation, Rotan TX)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119457",
+        "label": "🔗 Quail Research and Management Technician — telemetry, quail trapping and small-mammal trapping (Rolling Plains Quail Research Foundation, Rotan TX)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-2136",
+    "title": "Eagle Studies Field Technician — Golden Eagle research in Utah and Wyoming, Jan–Jun 2027 (HawkWatch International)",
+    "org": "HawkWatch International · Utah and Wyoming",
+    "location": "Utah and Wyoming (multiple study areas)",
+    "deadline": "November 4, 2026",
+    "deadline_date": "2026-11-04",
+    "badge": "Good fit",
+    "pay": "Starting at $3,100 per month (published)",
+    "url": "https://hawkwatch.org/opportunities/eagle-studies-field-technician/",
+    "metaLine": "UT/WY · non-profit raptor research tech · Jan–Jun 2027 · from $3,100/mo · BY NOV 4",
+    "body": "HawkWatch International is seeking a technician for Golden Eagle research projects from January through June 2027 in Utah and Wyoming. The technician works on three main projects, including the Wyoming Eagle Vehicle Strike team, which patrols highways 1–3 days a week from January to mid-April to document and move roadkill carcasses away from the road to reduce eagle-vehicle collisions. The listing asks for a bachelor's with no minimum experience; pay starts at $3,100 a month. Closes November 4, 2026.",
+    "desc": "A fuller, longer version of the HawkWatch winter role — non-profit raptor research with trail-camera work.",
+    "pills": [
+      "Non-profit",
+      "Raptors",
+      "Golden Eagle",
+      "Jan–Jun 2027"
+    ],
+    "start": "January 2027 through June 2027",
+    "employer_type": "non-profit",
+    "url_label": "Eagle Studies Field Technician — Golden Eagle research in Utah and Wyoming, Jan–Jun 2027 (HawkWatch International)",
+    "links": [
+      {
+        "href": "https://hawkwatch.org/opportunities/eagle-studies-field-technician/",
+        "label": "🔗 Eagle Studies Field Technician — Golden Eagle research in Utah and Wyoming, Jan–Jun 2027 (HawkWatch International)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-2137",
+    "title": "Ecological Restoration Technician I — wetland and stream mitigation restoration (Resource Environmental Solutions, Scenery Hill PA)",
+    "org": "Resource Environmental Solutions (RES) · Scenery Hill, PA",
+    "location": "Scenery Hill, Pennsylvania (southwestern PA)",
+    "deadline": "November 16, 2026",
+    "deadline_date": "2026-11-16",
+    "badge": "Strong fit",
+    "pay": "$20–$23 per hour (published)",
+    "url": "https://job-boards.greenhouse.io/res/jobs/5442044008",
+    "metaLine": "Scenery Hill PA · mitigation-bank restoration tech · no exp · $20–23/hr · BY NOV 16",
+    "body": "RES, a large ecological restoration company that builds wetland and stream mitigation projects, is hiring an Ecological Restoration Technician I in Scenery Hill, Pennsylvania. The TAMU listing asks for some undergraduate education and no minimum experience, with pay of $20–$23 an hour. Applications close November 16, 2026.",
+    "desc": "Entry-level wetland and stream restoration with the biggest mitigation company — a direct path to delineation work.",
+    "pills": [
+      "Wetland mitigation",
+      "Restoration",
+      "Entry level",
+      "Private"
+    ],
+    "employer_type": "private",
+    "url_label": "Ecological Restoration Technician I — wetland and stream mitigation restoration (Resource Environmental Solutions, Scenery Hill PA)",
+    "links": [
+      {
+        "href": "https://job-boards.greenhouse.io/res/jobs/5442044008",
+        "label": "🔗 Ecological Restoration Technician I — wetland and stream mitigation restoration (Resource Environmental Solutions, Scenery Hill PA)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-2138",
+    "title": "Natural Resource Monitor — T&E species, nesting bird surveys and BMP monitoring on construction sites (EGC Inc, Sasabe AZ)",
+    "org": "EGC Inc · Sasabe, AZ",
+    "location": "Sasabe, Arizona (US–Mexico border area)",
+    "deadline": "October 30, 2026",
+    "deadline_date": "2026-10-30",
+    "badge": "Good fit",
+    "pay": "$30–$45 per hour (published)",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119421",
+    "metaLine": "Sasabe AZ · construction natural resource monitor · T&E + nesting birds · $30–45/hr · BY OCT 30",
+    "body": "EGC Inc is hiring Natural Resource Monitors in Sasabe, Arizona to identify sensitive natural resources including threatened and endangered species, conduct nesting bird surveys, set avoidance buffers, monitor BMP implementation, document observations by logbook, GPS and photo, and give environmental awareness training to construction staff. Minor relocation of sensitive resources may be required. The listing asks for a bachelor's and at least 1 year of experience; pay is $30–$45 an hour. Closes October 30, 2026.",
+    "desc": "Well-paid compliance monitoring — remote border work, but quick consulting experience.",
+    "pills": [
+      "Consulting",
+      "Construction monitoring",
+      "T&E species",
+      "Arizona"
+    ],
+    "employer_type": "private",
+    "url_label": "Natural Resource Monitor — T&E species, nesting bird surveys and BMP monitoring on construction sites (EGC Inc, Sasabe AZ)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119421",
+        "label": "🔗 Natural Resource Monitor — T&E species, nesting bird surveys and BMP monitoring on construction sites (EGC Inc, Sasabe AZ)"
+      }
+    ]
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-2139",
+    "title": "Invasive Plant Member — San Antonio Missions National Historical Park, Jan–Aug 2027 (American Conservation Experience)",
+    "org": "American Conservation Experience · with NPS · San Antonio, TX",
+    "location": "San Antonio Missions National Historical Park, San Antonio, Texas",
+    "deadline": "October 23, 2026",
+    "deadline_date": "2026-10-23",
+    "badge": "Good fit",
+    "pay": "Up to $1,000 per week (published on the TAMU listing)",
+    "url": "https://usaconservation.applicantpool.com/jobs/1335989",
+    "metaLine": "San Antonio TX · ACE + NPS invasive plant member · 29 wks · up to $1,000/wk · BY OCT 23",
+    "body": "American Conservation Experience, a non-profit conservation corps, is seeking one member to work on invasive species removal alongside National Park Service staff at San Antonio Missions National Historical Park. The term starts in January 2027 and runs to late July or early August 2027, with a 29-week minimum commitment. The TAMU listing gives pay of up to $1,000 a week and a closing date of October 23, 2026.",
+    "desc": "An NPS-embedded invasive-species term — another corps line, but a federal reference at the end.",
+    "pills": [
+      "AmeriCorps-style corps",
+      "NPS",
+      "Invasive species",
+      "Texas"
+    ],
+    "start": "January 2027 through late July/early August 2027 (29-week minimum)",
+    "employer_type": "non-profit",
+    "url_label": "Invasive Plant Member — San Antonio Missions National Historical Park, Jan–Aug 2027 (American Conservation Experience)",
+    "links": [
+      {
+        "href": "https://usaconservation.applicantpool.com/jobs/1335989",
+        "label": "🔗 Invasive Plant Member — San Antonio Missions National Historical Park, Jan–Aug 2027 (American Conservation Experience)"
       }
     ]
   }
