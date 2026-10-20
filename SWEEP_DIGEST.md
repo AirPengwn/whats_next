@@ -1,24 +1,22 @@
 # Weekly opportunity sweep — 2026-10-20
 
-**Added 15 new** opportunities:
-- Restoration Technician — oak woodland restoration on Santa Cruz Island, Channel Islands NP (California Institute of Environmental Studies, Ventura CA) — _Good_ · West Coast / Pacific · deadline: November 1, 2026
-- Seasonal Invasive Plant Technician — invasive control and habitat restoration on Santa Rosa Island, Channel Islands NP (California Institute of Environmental Studies) — _Good_ · West Coast / Pacific · deadline: November 1, 2026
-- USDA Forest Service Fellowship — preparation and analysis of environmental samples (ORISE, Northern Research Station, Grand Rapids MN) — _Good_ · Midwest & Great Plains · deadline: November 20, 2026 (reviewed on a rolling basis)
-- Wild Turkey Predator Community Technicians (2) — mesocarnivore trapping, telemetry and camera trapping (Auburn University, AL) — _Good_ · Southeast & Appalachia · deadline: November 14, 2026
-- Wildlife Biologist — nesting bird, special-status species, rare plant and waters monitoring across California (Sentinel Science) — _Good_ · West Coast / Pacific · deadline: November 15, 2026
-- Wildlife Habitat Biologist I — Farm Bill grassland habitat work with private landowners (Bird Conservancy of the Rockies, Baker or Ekalaka MT) — _Good_ · Mountain West · deadline: October 31, 2026
-- Black Rail Habitat Technician — RTK GPS, water-inundation gauges and marsh soil sampling (Louisiana State University, Cameron LA) — _Strong_ · Southeast & Appalachia · deadline: December 1, 2026
-- Land Stewardship Intern (summer 2027) — prairie, woodland and wetland restoration crews in five Iowa regions (Iowa Natural Heritage Foundation) — _Good_ · Midwest & Great Plains · deadline: February 8, 2027
-- Research Technicians (3) — black brant nesting ecology on the Yukon-Kuskokwim Delta, summer 2027 (Colorado State University, Tutakoke River AK) — _Good_ · Alaska, Hawaii & Territories · deadline: December 15, 2026
-- Wading Bird Field Technicians (2–3) — Everglades nesting surveys, Jan–Jun 2027 (University of Florida Wading Bird Project) — _Good_ · Southeast & Appalachia · deadline: November 8, 2026
-- Quail Research and Management Technician — telemetry, quail trapping and small-mammal trapping (Rolling Plains Quail Research Foundation, Rotan TX) — _Good_ · Southwest · deadline: December 1, 2026
-- Eagle Studies Field Technician — Golden Eagle research in Utah and Wyoming, Jan–Jun 2027 (HawkWatch International) — _Good_ · Mountain West · deadline: November 4, 2026
-- Ecological Restoration Technician I — wetland and stream mitigation restoration (Resource Environmental Solutions, Scenery Hill PA) — _Strong_ · Northeast · deadline: November 16, 2026
-- Natural Resource Monitor — T&E species, nesting bird surveys and BMP monitoring on construction sites (EGC Inc, Sasabe AZ) — _Good_ · Southwest · deadline: October 30, 2026
-- Invasive Plant Member — San Antonio Missions National Historical Park, Jan–Aug 2027 (American Conservation Experience) — _Good_ · Southwest · deadline: October 23, 2026
+**Added 10 new** opportunities:
+- Biological Science Technician (Wildlife), Seasonal GS-4/6 — Great Smoky Mountains, Big South Fork and Cape Lookout (NPS, USAJOBS 888798000) — _Excellent_ · Southeast & Appalachia · deadline: October 26, 2026
+- Biological Science Technician (General), Seasonal GS-5/7 — 19 Southeast and Atlantic park duty stations incl. Asheville and Spruce Pine NC (NPS, USAJOBS 888411500) — _Excellent_ · Southeast & Appalachia · deadline: October 26, 2026
+- Biological Science Technician (Plants), Seasonal GS-5/7 — Tucson, Las Cruces, Santa Fe, Moab, Bozeman, Fort Collins, Big South Fork and Stones River (NPS, USAJOBS 888402500) — _Strong_ · National / Remote / Multiple · deadline: October 26, 2026
+- Biological Science Technician (Fish), Seasonal GS-5/7 — 11 USFWS stations in AK, CA, CO, MI, NM, SD and WA (USFWS, USAJOBS 889131500) — _Strong_ · National / Remote / Multiple · deadline: October 26, 2026
+- Biological Science Technician (Plants), Seasonal GS-6/7 — Great Lakes Inventory & Monitoring Network (NPS, Ashland WI, USAJOBS 889106900) — _Good_ · Midwest & Great Plains · deadline: October 26, 2026 (open to the first 50 applicants)
+- Biological Science Technician (Fisheries), Seasonal GS-5/7 — Glacier Bay, Wrangell-St. Elias, Lake Clark and Sitka (NPS Alaska, USAJOBS 886817400) — _Good_ · Alaska, Hawaii & Territories · deadline: October 26, 2026
+- Biological Science Technician (General), Seasonal GS-4/7 — Yosemite, Golden Gate, Olympic, Mojave Desert Network, Pinnacles and Oregon Caves (NPS, USAJOBS 888858600) — _Good_ · West Coast / Pacific · deadline: October 26, 2026
+- Biological Science Technician (Fisheries), Seasonal GS-4/7 — 17 western parks incl. Redwood, Olympic, Channel Islands, Mount Rainier (NPS, USAJOBS 888879500) — _Good_ · West Coast / Pacific · deadline: October 26, 2026
+- Biological Science Technician (Wildlife), Seasonal GS-4/7 — 14 parks incl. Redwood, Point Reyes, Yosemite, Haleakalā, Craters of the Moon, Olympic (NPS, USAJOBS 888900100) — _Strong_ · West Coast / Pacific · deadline: October 26, 2026
+- Biological Science Technician, Seasonal GS-4/5 — Pea Ridge NMP (AR) and Tallgrass Prairie National Preserve (KS) (NPS, USAJOBS 889101800) — _Good_ · Midwest & Great Plains · deadline: October 26, 2026
 
-**Updated 1** (deadline / status / description changed):
-- USGS Paid Reptile Research Internship — invasive Burmese python and tegu research in the Everglades (12 months) — _Good_ · Southeast & Appalachia · deadline: November 2, 2026 (re-posted)
+**Updated 4** (deadline / status / description changed):
+- Natural Resources Monitor — border infrastructure environmental compliance ($32/hr) — _Strong_ · Southwest · deadline: November 30, 2026 (re-posted — Laredo TX full-time; part-time Lukeville AZ also open)
+- Freshwater Institute Research Fellow — precision aquaculture & water reuse — _Reach / review_ · Northeast · deadline: October 30, 2026 (re-posted)
+- USAEC Wildlife Research Fellowship — West Point — _Strong_ · National / Remote / Multiple · deadline: Rolling — new 2026 announcement (Army-AEC-2026-0001)
+- Biological Science Technician (Plants), Seasonal GS-4/7 — 23 western park duty stations incl. Klamath I&M vegetation crew in Ashland OR (NPS, USAJOBS 888865300) — _Good_ · West Coast / Pacific · deadline: October 26, 2026
 
-**Total opportunities:** 2110  ·  next-cycle: 561  ·  expired (one-time, no future cycle): 631
+**Total opportunities:** 2120  ·  next-cycle: 559  ·  expired (one-time, no future cycle): 631
 Triage: passed-but-recurring → `cycle:"next"`; one-time/discontinued → `expired:true`. Passed/expired are hidden on the site by default (toggle to show); never deleted, never moved to the personal Archive. Fit tiers: _Excellent_ / _Strong_ / _Good_ / _Reach / review_ (set via each entry's badge). The Browse pages render from this data automatically — no HTML edits. Nothing is live until this PR is merged.

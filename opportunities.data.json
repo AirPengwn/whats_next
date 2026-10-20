@@ -14176,11 +14176,11 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — July 19, 2026"
+      "label": "✨ Re-posted — October 20, 2026"
     },
     "title": "Natural Resources Monitor — border infrastructure environmental compliance ($32/hr)",
     "org": "DAWSON / Laukoa · Laredo, TX with Arizona equivalents",
-    "deadline": "Application deadline July 31, 2026",
+    "deadline": "November 30, 2026 (re-posted — Laredo TX full-time; part-time Lukeville AZ also open)",
     "start": "Immediate need",
     "body": "An environmental compliance monitor position on a US/Mexico border infrastructure project, providing daily field notes and photographs on best-management-practice compliance, collecting project data, and supporting listed-species surveys ahead of construction. The listing states an immediate need, and similar openings exist along the Arizona border. Posted pay is $32 per hour.",
     "desc": "At $32 per hour this is the highest hourly rate found for bachelor's-level field compliance work anywhere in this sweep — roughly double what most restoration technician roles pay. Construction-phase environmental monitoring is a real and growing specialty: someone has to verify that best management practices are actually followed and that listed species are surveyed before ground is broken, and it requires exactly the survey discipline and documentation rigor Erin has. Compliance monitoring also teaches the regulatory framework from the enforcement side. Border infrastructure work carries political and personal considerations she should weigh deliberately.",
@@ -14194,24 +14194,29 @@
       "⚠️ Border infrastructure context"
     ],
     "metaLine": "Full-time · $32/hr · Laredo TX (AZ equivalents) · deadline Jul 31 2026",
-    "cycle": "next",
-    "deadline_kind": "passed",
-    "deadline_date": "2026-07-31",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-11-30",
     "region": "Southwest",
     "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119523",
+        "label": "🔗 Re-posted: Natural Resources Monitor, Laredo TX (Oct 2026)"
+      },
       {
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117657",
         "label": "🔗 Full posting — TAMU Natural Resources board"
       }
     ],
-    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117657",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119523",
     "location": "Laredo, TX (similar openings along the Arizona border)",
-    "pay": "$32 per hour",
+    "pay": "Starting at $32 per hour plus $68 daily per diem and lodging (published on the October 2026 re-post)",
     "stipend": "",
     "benefits": "Confirm benefits with DAWSON / Laukoa",
     "id": "item-314",
     "start_date": "2026-07-31",
-    "relocation": "tight"
+    "relocation": "tight",
+    "url2": "https://jobs.rwfm.tamu.edu/view-job/?id=117657"
   },
   {
     "type": "Career Position",
@@ -22933,11 +22938,11 @@
     "src_label": "Internships",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — July 27, 2026"
+      "label": "✨ Re-posted — October 20, 2026"
     },
     "title": "Freshwater Institute Research Fellow — precision aquaculture & water reuse",
     "org": "Oak Ridge Associated Universities (ORAU) · The Conservation Fund Freshwater Institute · Shepherdstown, WV",
-    "deadline": "August 28, 2026",
+    "deadline": "October 30, 2026 (re-posted)",
     "start": "See posting",
     "body": "Research fellowship in precision aquaculture and water reuse systems at The Conservation Fund’s Freshwater Institute. The posting lists a Master’s degree as the education requirement, though no prior experience is required. The stipend is listed only as commensurate or negotiable.",
     "desc": "Recirculating aquaculture is applied water chemistry at a level of control most field settings never allow — continuous monitoring of nitrogen, solids and dissolved oxygen. That is close to her water-quality strengths, and the Freshwater Institute is a strong name. The master’s requirement makes it a reach, so approach with an email rather than a cold application.",
@@ -22949,24 +22954,29 @@
       "⚠️ Stipend not published"
     ],
     "metaLine": "Deadline Aug 28, 2026 · stipend not published · Shepherdstown WV · ⚠️ MS listed",
-    "cycle": "next",
+    "cycle": "current",
     "deadline_kind": "fixed",
-    "deadline_date": "2026-08-28",
+    "deadline_date": "2026-10-30",
     "region": "Northeast",
     "links": [
+      {
+        "href": "https://zintellect.com/Opportunity/Details/USDA-ARS-NEA-2026-0273A",
+        "label": "🔗 Re-posted on Zintellect (USDA-ARS-NEA-2026-0273A)"
+      },
       {
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117635",
         "label": "🔗 Freshwater Institute Research Fellow — precision aquaculture & water reuse — Oak Ridge Associated Universities (ORAU) · The Conservation Fund Freshwater Institute · Shepherdstown, WV"
       }
     ],
-    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117635",
+    "url": "https://zintellect.com/Opportunity/Details/USDA-ARS-NEA-2026-0273A",
     "location": "Shepherdstown, West Virginia",
-    "pay": "",
+    "pay": "$50,000–$82,000 per year (published on the October 2026 Zintellect listing)",
     "stipend": "Stipend not published on the posting — listed only as commensurate/negotiable. Confirm with the program.",
     "benefits": "ORISE/ORAU research participation appointment",
     "id": "item-519",
     "start_date": "2026-08-28",
-    "relocation": "local"
+    "relocation": "local",
+    "url2": "https://jobs.rwfm.tamu.edu/view-job/?id=117635"
   },
   {
     "type": "Internship",
@@ -29062,25 +29072,28 @@
     "src_label": "Internships",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — August 3, 2026"
+      "label": "✨ Re-posted — October 20, 2026"
     },
     "cycle": "current",
     "deadline_kind": "rolling",
-    "deadline_date": "",
     "region": "National / Remote / Multiple",
     "start": "See posting",
     "id": "item-664",
     "title": "USAEC Wildlife Research Fellowship — West Point",
     "org": "U.S. Army Environmental Command (via ORISE) · West Point, NY",
     "location": "West Point, New York (U.S. Military Academy lands)",
-    "deadline": "Rolling — applications reviewed as received",
+    "deadline": "Rolling — new 2026 announcement (Army-AEC-2026-0001)",
     "pay": "",
     "stipend": "Not published on the listing — ORISE sets the rate by degree level and duty station; ask before accepting",
     "benefits": "",
     "badge": "Strong fit",
-    "url": "https://www.zintellect.com/Opportunity/Details/Army-AEC-2025-0003",
+    "url": "https://zintellect.com/Opportunity/Details/Army-AEC-2026-0001",
     "url_label": "Zintellect Army-AEC-2025-0003",
     "links": [
+      {
+        "href": "https://zintellect.com/Opportunity/Details/Army-AEC-2026-0001",
+        "label": "🔗 New 2026 announcement Army-AEC-2026-0001"
+      },
       {
         "href": "https://www.zintellect.com/Opportunity/Details/Army-AEC-2025-0003",
         "label": "🔗 Zintellect Army-AEC-2025-0003"
@@ -29095,7 +29108,8 @@
       "Habitat surveys",
       "Builds GS-9 eligibility"
     ],
-    "relocation": "local"
+    "relocation": "local",
+    "url2": "https://www.zintellect.com/Opportunity/Details/Army-AEC-2025-0003"
   },
   {
     "type": "Service / Corps",
@@ -91277,17 +91291,17 @@
     "deadline_kind": "fixed",
     "region": "West Coast / Pacific",
     "id": "item-2116",
-    "title": "Seasonal Vegetation Monitoring Biotechnician or Crew Lead — Redwood NSP & Lava Beds NM (NPS Klamath Inventory & Monitoring Network, Ashland OR)",
-    "org": "National Park Service · Klamath Inventory & Monitoring Network · Ashland, OR",
-    "location": "Ashland, Oregon (travel to Redwood National and State Parks and Lava Beds National Monument)",
+    "title": "Biological Science Technician (Plants), Seasonal GS-4/7 — 23 western park duty stations incl. Klamath I&M vegetation crew in Ashland OR (NPS, USAJOBS 888865300)",
+    "org": "National Park Service · Pacific West parks and networks · 23 duty stations (CA, HI, ID, NV, OR, WA)",
+    "location": "23 duty stations incl. Ashland OR (Klamath I&M Network), Sequoia & Kings Canyon, Yosemite, Point Reyes, Channel Islands, Crater Lake, Haleakalā",
     "deadline": "October 26, 2026",
     "deadline_date": "2026-10-26",
     "badge": "Good fit",
-    "pay": "$19.52–$24.18 per hour (published)",
+    "pay": "$17.45–$31.43 per hour by grade and locality (Klamath crew listed at $19.52–$24.18)",
     "benefits": "Medical benefits noted in the listing",
     "url": "https://www.usajobs.gov/job/888865300",
-    "metaLine": "Ashland OR · NPS seasonal veg monitoring · 5–6 mo · $19.52–24.18/hr · BY OCT 26",
-    "body": "The Klamath Inventory and Monitoring Network is hiring seasonal biotechnicians and a crew lead for 2027 to conduct vegetation monitoring in Redwood National and State Parks and Lava Beds National Monument. The 5–6 month position is based in Ashland, Oregon with frequent travel; the 4-person crew monitors established vegetation and environmental plots. Strong applicants will have vascular plant identification skills. Pay is $19.52–$24.18 per hour and applications close October 26, 2026.",
+    "metaLine": "23 western parks · NPS seasonal plants tech GS-4/7 · public · $17.45–31.43/hr · BY OCT 26",
+    "body": "This single National Park Service announcement (USAJOBS 888865300, GS-4 to GS-7, open to the public) fills seasonal Biological Science Technician (Plants) positions at 23 duty stations across California, Hawaii, Idaho, Nevada, Oregon and Washington. One of them is the Klamath Inventory and Monitoring Network's 2027 vegetation crew based in Ashland, Oregon, which monitors established plots in Redwood National and State Parks and Lava Beds National Monument; strong applicants know vascular plant identification. Seasons run roughly six months between March and October depending on the park. Pay is $17.45–$31.43 per hour by grade and locality, and the announcement closes October 26, 2026.",
     "desc": "Long-term federal monitoring work that builds a national-park résumé line — plant ID is the skill to stress.",
     "pills": [
       "NPS",
@@ -91614,7 +91628,9 @@
         "href": "https://www.zintellect.com/Opportunity/Details/EPA-OCSPP-2026-0015",
         "label": "🔗 EPA Research Participant — aquatic toxicity and bioaccumulation of PFAS (ORISE, EPA Duluth MN)"
       }
-    ]
+    ],
+    "stipend": "$50,460 per year (published on the Zintellect listing)",
+    "pay": "$50,460 per year stipend (published)"
   },
   {
     "type": "Career Position",
@@ -91730,7 +91746,9 @@
         "href": "https://www.zintellect.com/Opportunity/Details/USDA-FS-NRS-2026-0360",
         "label": "🔗 USDA Forest Service Fellowship — preparation and analysis of environmental samples (ORISE, Northern Research Station, Grand Rapids MN)"
       }
-    ]
+    ],
+    "stipend": "$680–$1,360 per month, part-time participation (published on the Zintellect listing)",
+    "pay": "$680–$1,360 per month, part-time (published)"
   },
   {
     "type": "Career Position",
@@ -92203,6 +92221,401 @@
       {
         "href": "https://usaconservation.applicantpool.com/jobs/1335989",
         "label": "🔗 Invasive Plant Member — San Antonio Missions National Historical Park, Jan–Aug 2027 (American Conservation Experience)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2140",
+    "title": "Biological Science Technician (Wildlife), Seasonal GS-4/6 — Great Smoky Mountains, Big South Fork and Cape Lookout (NPS, USAJOBS 888798000)",
+    "org": "National Park Service · Southeast parks · Cherokee NC, Gatlinburg TN, Oneida TN, Harkers Island NC",
+    "location": "Cherokee NC; Gatlinburg TN; Oneida TN; Harkers Island NC",
+    "deadline": "October 26, 2026",
+    "deadline_date": "2026-10-26",
+    "badge": "Top recommendation",
+    "pay": "$17.45–$28.29 per hour by grade and locality (published)",
+    "url": "https://www.usajobs.gov/job/888798000",
+    "metaLine": "Smokies / Big South Fork / Cape Lookout · NPS seasonal wildlife tech · public · $17.45–28.29/hr · BY OCT 26",
+    "body": "One National Park Service announcement (USAJOBS 888798000, GS-4 to GS-6, open to the public) fills seasonal Biological Science Technician (Wildlife) positions in Cherokee NC and Gatlinburg TN (Great Smoky Mountains), Oneida TN (Big South Fork) and Harkers Island NC (Cape Lookout). Duties include surveys and monitoring of wildlife populations, species and habitats, collecting biological and environmental data and specimens, and recording project data with GPS and GIS. Pay is $17.45–$28.29 an hour and the announcement closes October 26, 2026.",
+    "desc": "Federal wildlife fieldwork in the Smokies, next door to Western Carolina — her trapping and camera-trap work is exactly the duty list.",
+    "pills": [
+      "NPS",
+      "Wildlife monitoring",
+      "Great Smoky Mountains",
+      "Closes Oct 26"
+    ],
+    "start": "2027 field season",
+    "employer_type": "government",
+    "url_label": "Biological Science Technician (Wildlife), Seasonal GS-4/6 — Great Smoky Mountains, Big South Fork and Cape Lookout (NPS, USAJOBS 888798000)",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/888798000",
+        "label": "🔗 Biological Science Technician (Wildlife), Seasonal GS-4/6 — Great Smoky Mountains, Big South Fork and Cape Lookout (NPS, USAJOBS 888798000)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2141",
+    "title": "Biological Science Technician (General), Seasonal GS-5/7 — 19 Southeast and Atlantic park duty stations incl. Asheville and Spruce Pine NC (NPS, USAJOBS 888411500)",
+    "org": "National Park Service · Southeast and Atlantic parks · 19 duty stations",
+    "location": "19 duty stations incl. Asheville NC, Spruce Pine NC (Blue Ridge Parkway), Cape Hatteras/Ocracoke NC, Sharpsburg MD, Middlesboro KY, Gulf Islands, Canaveral, Cumberland Island, Puerto Rico",
+    "deadline": "October 26, 2026",
+    "deadline_date": "2026-10-26",
+    "badge": "Top recommendation",
+    "pay": "$19.52–$31.43 per hour by grade and locality (published)",
+    "url": "https://www.usajobs.gov/job/888411500",
+    "metaLine": "19 SE parks incl. Blue Ridge Pkwy · NPS seasonal bio tech GS-5/7 · public · $19.52–31.43/hr · BY OCT 26",
+    "body": "One National Park Service announcement (USAJOBS 888411500, GS-5 to GS-7, open to the public) fills seasonal Biological Science Technician (General) positions at 19 duty stations including Asheville and Spruce Pine NC on the Blue Ridge Parkway, the Outer Banks (Buxton, Nags Head, Ocracoke, Harkers Island), Sharpsburg MD, Middlesboro KY, Fort Oglethorpe and Saint Marys GA, Gulf Breeze and Titusville FL, Ocean Springs MS and San Juan PR. Duties include surveys and monitoring of plants, wildlife, aquatic resources and habitats and recording data with GPS and GIS. Pay is $19.52–$31.43 an hour; closes October 26, 2026.",
+    "desc": "The broadest federal seasonal net in her home region — one application, 19 parks, several within a day's drive of Richmond.",
+    "pills": [
+      "NPS",
+      "Multi-park",
+      "Blue Ridge Parkway",
+      "Closes Oct 26"
+    ],
+    "start": "2027 field season",
+    "employer_type": "government",
+    "url_label": "Biological Science Technician (General), Seasonal GS-5/7 — 19 Southeast and Atlantic park duty stations incl. Asheville and Spruce Pine NC (NPS, USAJOBS 888411500)",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/888411500",
+        "label": "🔗 Biological Science Technician (General), Seasonal GS-5/7 — 19 Southeast and Atlantic park duty stations incl. Asheville and Spruce Pine NC (NPS, USAJOBS 888411500)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "National / Remote / Multiple",
+    "id": "item-2142",
+    "title": "Biological Science Technician (Plants), Seasonal GS-5/7 — Tucson, Las Cruces, Santa Fe, Moab, Bozeman, Fort Collins, Big South Fork and Stones River (NPS, USAJOBS 888402500)",
+    "org": "National Park Service · Inventory & Monitoring and park units · 9 duty stations",
+    "location": "Tucson AZ; Las Cruces and Santa Fe NM; Moab UT; Bozeman MT; Fort Collins CO; Murfreesboro and Oneida TN; Washington DC",
+    "deadline": "October 26, 2026",
+    "deadline_date": "2026-10-26",
+    "badge": "Strong fit",
+    "pay": "$19.52–$31.43 per hour by grade and locality (published)",
+    "url": "https://www.usajobs.gov/job/888402500",
+    "metaLine": "9 duty stations (SW, Rockies, TN, DC) · NPS seasonal plants tech GS-5/7 · $19.52–31.43/hr · BY OCT 26",
+    "body": "One National Park Service announcement (USAJOBS 888402500, GS-5 to GS-7, open to the public) fills seasonal Biological Science Technician (Plants) positions at nine duty stations: Tucson AZ, Fort Collins CO, Washington DC, Bozeman MT, Las Cruces and Santa Fe NM, Murfreesboro and Oneida TN, and Moab UT. Listed duties include vegetation monitoring, oak wilt disease surveys, collecting samples for lab analysis, and recording project data with GPS and GIS. Pay is $19.52–$31.43 an hour; closes October 26, 2026.",
+    "desc": "Vegetation monitoring with GIS named in the duties — a federal plant-ecology season in the West or Tennessee.",
+    "pills": [
+      "NPS",
+      "Vegetation monitoring",
+      "GPS/GIS",
+      "Closes Oct 26"
+    ],
+    "start": "2027 field season (March–July entry)",
+    "employer_type": "government",
+    "url_label": "Biological Science Technician (Plants), Seasonal GS-5/7 — Tucson, Las Cruces, Santa Fe, Moab, Bozeman, Fort Collins, Big South Fork and Stones River (NPS, USAJOBS 888402500)",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/888402500",
+        "label": "🔗 Biological Science Technician (Plants), Seasonal GS-5/7 — Tucson, Las Cruces, Santa Fe, Moab, Bozeman, Fort Collins, Big South Fork and Stones River (NPS, USAJOBS 888402500)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "National / Remote / Multiple",
+    "id": "item-2143",
+    "title": "Biological Science Technician (Fish), Seasonal GS-5/7 — 11 USFWS stations in AK, CA, CO, MI, NM, SD and WA (USFWS, USAJOBS 889131500)",
+    "org": "U.S. Fish and Wildlife Service · Fish and Aquatic Conservation · 11 duty stations",
+    "location": "Anchorage, Fairbanks and Soldotna AK; Anderson CA; Leadville CO; Elmira MI; Mora NM; Spearfish SD; Carson, Cook and Willard WA",
+    "deadline": "October 26, 2026",
+    "deadline_date": "2026-10-26",
+    "badge": "Strong fit",
+    "pay": "$19.52–$35.54 per hour by grade and locality (published)",
+    "url": "https://www.usajobs.gov/job/889131500",
+    "metaLine": "11 USFWS stations · seasonal fish tech GS-5/7 · public · $19.52–35.54/hr · BY OCT 26",
+    "body": "One U.S. Fish and Wildlife Service announcement (USAJOBS 889131500, GS-5 to GS-7, open to the public) fills seasonal Biological Science Technician (Fish) positions at 11 duty stations: Anchorage, Fairbanks and Soldotna AK; Anderson CA; Leadville CO; Elmira MI; Mora NM; Spearfish SD; and Carson, Cook and Willard WA. Duties include surveying and monitoring fish populations, aquatic organisms and habitats, collecting biological and environmental data and specimens, and managing project data. Pay is $19.52–$35.54 an hour; closes October 26, 2026.",
+    "desc": "A USFWS seasonal is the most direct on-ramp to the agency she is aiming for — aquatic habitat work fits her water-quality side.",
+    "pills": [
+      "USFWS",
+      "Fisheries",
+      "Federal on-ramp",
+      "Closes Oct 26"
+    ],
+    "start": "2027 season (December–July entry)",
+    "employer_type": "government",
+    "url_label": "Biological Science Technician (Fish), Seasonal GS-5/7 — 11 USFWS stations in AK, CA, CO, MI, NM, SD and WA (USFWS, USAJOBS 889131500)",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/889131500",
+        "label": "🔗 Biological Science Technician (Fish), Seasonal GS-5/7 — 11 USFWS stations in AK, CA, CO, MI, NM, SD and WA (USFWS, USAJOBS 889131500)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2144",
+    "title": "Biological Science Technician (Plants), Seasonal GS-6/7 — Great Lakes Inventory & Monitoring Network (NPS, Ashland WI, USAJOBS 889106900)",
+    "org": "National Park Service · Great Lakes Inventory & Monitoring Network · Ashland, WI",
+    "location": "Ashland, Wisconsin",
+    "deadline": "October 26, 2026 (open to the first 50 applicants)",
+    "deadline_date": "2026-10-26",
+    "badge": "Good fit",
+    "pay": "$21.76–$31.43 per hour (published)",
+    "url": "https://www.usajobs.gov/job/889106900",
+    "metaLine": "Ashland WI · NPS Great Lakes I&M plants tech GS-6/7 · first 50 applicants · $21.76–31.43/hr · BY OCT 26",
+    "body": "The NPS Great Lakes Inventory and Monitoring Network is hiring a seasonal Biological Science Technician (Plants) at GS-6 to GS-7 in Ashland, Wisconsin (USAJOBS 889106900, open to the public). Duties include vegetation monitoring, sample collection for lab analysis and GPS/GIS data management. Pay is $21.76–$31.43 an hour; the announcement closes October 26, 2026 or after the first 50 applications.",
+    "desc": "Long-term vegetation monitoring around Lake Superior — apply early, it caps at 50 applicants.",
+    "pills": [
+      "NPS",
+      "Inventory & Monitoring",
+      "Great Lakes",
+      "Cap: 50 applicants"
+    ],
+    "start": "March 2027 entry on duty",
+    "employer_type": "government",
+    "url_label": "Biological Science Technician (Plants), Seasonal GS-6/7 — Great Lakes Inventory & Monitoring Network (NPS, Ashland WI, USAJOBS 889106900)",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/889106900",
+        "label": "🔗 Biological Science Technician (Plants), Seasonal GS-6/7 — Great Lakes Inventory & Monitoring Network (NPS, Ashland WI, USAJOBS 889106900)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Alaska, Hawaii & Territories",
+    "id": "item-2145",
+    "title": "Biological Science Technician (Fisheries), Seasonal GS-5/7 — Glacier Bay, Wrangell-St. Elias, Lake Clark and Sitka (NPS Alaska, USAJOBS 886817400)",
+    "org": "National Park Service · Alaska Region · 5 duty stations",
+    "location": "Bartlett Cove, Copper Center, Port Alsworth, Sitka and Slana, Alaska",
+    "deadline": "October 26, 2026",
+    "deadline_date": "2026-10-26",
+    "badge": "Good fit",
+    "pay": "$22.07–$35.54 per hour by grade and locality (published)",
+    "url": "https://www.usajobs.gov/job/886817400",
+    "metaLine": "Alaska parks · NPS seasonal fisheries tech GS-5/7 · relocation unpaid · $22.07–35.54/hr · BY OCT 26",
+    "body": "One National Park Service announcement (USAJOBS 886817400, GS-5 to GS-7, open to the public) fills seasonal fisheries technician positions at Bartlett Cove (Glacier Bay), Copper Center and Slana (Wrangell-St. Elias), Port Alsworth (Lake Clark) and Sitka, Alaska. Travel and relocation costs are the selectee's responsibility. Pay is $22.07–$35.54 an hour; closes October 26, 2026.",
+    "desc": "An Alaska federal fisheries season — high pay, but she would cover the trip north.",
+    "pills": [
+      "NPS",
+      "Alaska",
+      "Fisheries",
+      "Closes Oct 26"
+    ],
+    "employer_type": "government",
+    "url_label": "Biological Science Technician (Fisheries), Seasonal GS-5/7 — Glacier Bay, Wrangell-St. Elias, Lake Clark and Sitka (NPS Alaska, USAJOBS 886817400)",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/886817400",
+        "label": "🔗 Biological Science Technician (Fisheries), Seasonal GS-5/7 — Glacier Bay, Wrangell-St. Elias, Lake Clark and Sitka (NPS Alaska, USAJOBS 886817400)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2146",
+    "title": "Biological Science Technician (General), Seasonal GS-4/7 — Yosemite, Golden Gate, Olympic, Mojave Desert Network, Pinnacles and Oregon Caves (NPS, USAJOBS 888858600)",
+    "org": "National Park Service · Pacific West parks · 10 duty stations",
+    "location": "El Portal, Yosemite, Mineral, Paicines, San Francisco, Sausalito and Three Rivers CA; Boulder City NV; Cave Junction OR; Port Angeles WA",
+    "deadline": "October 26, 2026",
+    "deadline_date": "2026-10-26",
+    "badge": "Good fit",
+    "pay": "$17.45–$31.43 per hour by grade and locality (published)",
+    "url": "https://www.usajobs.gov/job/888858600",
+    "metaLine": "10 western parks · NPS seasonal bio tech GS-4/7 · public · $17.45–31.43/hr · BY OCT 26",
+    "body": "One National Park Service announcement (USAJOBS 888858600, GS-4 to GS-7, open to the public) fills six-month seasonal Biological Science Technician (General) positions at 10 duty stations including Yosemite, Golden Gate National Recreation Area, Olympic National Park, the Mojave Desert Network (Boulder City NV), Pinnacles (Paicines), Lassen (Mineral), Sequoia (Three Rivers) and Oregon Caves. Seasons run March–August or March–October depending on park. Pay is $17.45–$31.43 an hour; closes October 26, 2026.",
+    "desc": "A wide western NPS net for general resource monitoring — pick the parks that fit and apply once.",
+    "pills": [
+      "NPS",
+      "Multi-park",
+      "West Coast",
+      "Closes Oct 26"
+    ],
+    "employer_type": "government",
+    "url_label": "Biological Science Technician (General), Seasonal GS-4/7 — Yosemite, Golden Gate, Olympic, Mojave Desert Network, Pinnacles and Oregon Caves (NPS, USAJOBS 888858600)",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/888858600",
+        "label": "🔗 Biological Science Technician (General), Seasonal GS-4/7 — Yosemite, Golden Gate, Olympic, Mojave Desert Network, Pinnacles and Oregon Caves (NPS, USAJOBS 888858600)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2147",
+    "title": "Biological Science Technician (Fisheries), Seasonal GS-4/7 — 17 western parks incl. Redwood, Olympic, Channel Islands, Mount Rainier (NPS, USAJOBS 888879500)",
+    "org": "National Park Service · Pacific West parks · 17 duty stations",
+    "location": "17 duty stations in CA, NV, OR and WA incl. Redwood (Orick/Crescent City), Yosemite, Sequoia & Kings Canyon, Whiskeytown, Lassen, Channel Islands (Ventura), Great Basin (Baker NV), Crater Lake, Mount Rainier, Olympic",
+    "deadline": "October 26, 2026",
+    "deadline_date": "2026-10-26",
+    "badge": "Good fit",
+    "pay": "$17.45–$31.43 per hour by grade and locality (published)",
+    "url": "https://www.usajobs.gov/job/888879500",
+    "metaLine": "17 western parks · NPS seasonal fisheries tech GS-4/7 · public · $17.45–31.43/hr · BY OCT 26",
+    "body": "One National Park Service announcement (USAJOBS 888879500, GS-4 to GS-7, open to the public) fills seasonal fisheries Biological Science Technician positions at 17 duty stations across California, Nevada, Oregon and Washington, including Redwood, Olympic, Channel Islands, Crater Lake, Mount Rainier, Yosemite, Sequoia & Kings Canyon, Whiskeytown, Lassen and Great Basin. Seasons run roughly March–October. Pay is $17.45–$31.43 an hour; closes October 26, 2026.",
+    "desc": "Aquatic monitoring across the western parks — the water-side counterpart to the wildlife and plant announcements.",
+    "pills": [
+      "NPS",
+      "Fisheries / aquatic",
+      "Multi-park",
+      "Closes Oct 26"
+    ],
+    "employer_type": "government",
+    "url_label": "Biological Science Technician (Fisheries), Seasonal GS-4/7 — 17 western parks incl. Redwood, Olympic, Channel Islands, Mount Rainier (NPS, USAJOBS 888879500)",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/888879500",
+        "label": "🔗 Biological Science Technician (Fisheries), Seasonal GS-4/7 — 17 western parks incl. Redwood, Olympic, Channel Islands, Mount Rainier (NPS, USAJOBS 888879500)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2148",
+    "title": "Biological Science Technician (Wildlife), Seasonal GS-4/7 — 14 parks incl. Redwood, Point Reyes, Yosemite, Haleakalā, Craters of the Moon, Olympic (NPS, USAJOBS 888900100)",
+    "org": "National Park Service · Pacific West parks · 14 duty stations",
+    "location": "Mineral, Orick, Point Reyes Station, Three Rivers, Ventura, Whiskeytown and Yosemite CA; Kula HI; Arco ID; Crater Lake OR; Forks, Hoh, Longmire and Port Angeles WA",
+    "deadline": "October 26, 2026",
+    "deadline_date": "2026-10-26",
+    "badge": "Strong fit",
+    "pay": "$17.45–$31.43 per hour by grade and locality (published)",
+    "url": "https://www.usajobs.gov/job/888900100",
+    "metaLine": "14 western parks · NPS seasonal wildlife tech GS-4/7 · public · $17.45–31.43/hr · BY OCT 26",
+    "body": "One National Park Service announcement (USAJOBS 888900100, GS-4 to GS-7, open to the public) fills seasonal Biological Science Technician (Wildlife) positions at 14 duty stations, including Redwood, Point Reyes, Yosemite, Sequoia, Channel Islands, Whiskeytown, Lassen, Haleakalā (Kula HI), Craters of the Moon (Arco ID), Crater Lake, Mount Rainier and Olympic. Seasons run roughly March or April through October. Pay is $17.45–$31.43 an hour; closes October 26, 2026.",
+    "desc": "Federal wildlife survey seasons across the best-known western parks — her field-tech skills at the entry grades.",
+    "pills": [
+      "NPS",
+      "Wildlife monitoring",
+      "Multi-park",
+      "Closes Oct 26"
+    ],
+    "employer_type": "government",
+    "url_label": "Biological Science Technician (Wildlife), Seasonal GS-4/7 — 14 parks incl. Redwood, Point Reyes, Yosemite, Haleakalā, Craters of the Moon, Olympic (NPS, USAJOBS 888900100)",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/888900100",
+        "label": "🔗 Biological Science Technician (Wildlife), Seasonal GS-4/7 — 14 parks incl. Redwood, Point Reyes, Yosemite, Haleakalā, Craters of the Moon, Olympic (NPS, USAJOBS 888900100)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — October 20, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2149",
+    "title": "Biological Science Technician, Seasonal GS-4/5 — Pea Ridge NMP (AR) and Tallgrass Prairie National Preserve (KS) (NPS, USAJOBS 889101800)",
+    "org": "National Park Service · Heartland parks · Garfield, AR and Strong City, KS",
+    "location": "Garfield, Arkansas (Pea Ridge) and Strong City, Kansas (Tallgrass Prairie)",
+    "deadline": "October 26, 2026",
+    "deadline_date": "2026-10-26",
+    "badge": "Good fit",
+    "pay": "$17.45–$25.37 per hour by grade and locality (published)",
+    "url": "https://www.usajobs.gov/job/889101800",
+    "metaLine": "Pea Ridge AR / Tallgrass Prairie KS · NPS seasonal bio tech GS-4/5 · $17.45–25.37/hr · BY OCT 26",
+    "body": "One National Park Service announcement (USAJOBS 889101800, GS-4 to GS-5, open to the public) fills seasonal Biological Science Technician positions at Garfield, Arkansas and Strong City, Kansas. Duties include surveys and monitoring of plants, wildlife, aquatic resources and habitats and field data collection. Pay is $17.45–$25.37 an hour; closes October 26, 2026.",
+    "desc": "Prairie restoration and monitoring at entry grades — an easier federal start than the higher-grade western postings.",
+    "pills": [
+      "NPS",
+      "Tallgrass prairie",
+      "Entry grade",
+      "Closes Oct 26"
+    ],
+    "employer_type": "government",
+    "url_label": "Biological Science Technician, Seasonal GS-4/5 — Pea Ridge NMP (AR) and Tallgrass Prairie National Preserve (KS) (NPS, USAJOBS 889101800)",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/889101800",
+        "label": "🔗 Biological Science Technician, Seasonal GS-4/5 — Pea Ridge NMP (AR) and Tallgrass Prairie National Preserve (KS) (NPS, USAJOBS 889101800)"
       }
     ]
   }
