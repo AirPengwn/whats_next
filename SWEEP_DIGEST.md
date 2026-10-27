@@ -1,40 +1,36 @@
 # Weekly opportunity sweep — 2026-10-27
 
-**Added 22 new** opportunities:
-- ORISE Fellowship — preparing and analyzing environmental samples for forest productivity studies (USDA Forest Service Northern Research Station, Grand Rapids MN) — _Good_ · Midwest & Great Plains · deadline: October 30, 2026 (rolling review)
-- ORISE Biological Laboratory Internship — protecting pollinators from insecticide exposure: field sampling and LC-MS residue analysis (USDA-ARS, Gainesville FL) — _Reach / review_ · Southeast & Appalachia · deadline: December 4, 2026 (rolling review)
-- ORISE appointment — quantitative bioassay development for aquatic vertebrates (U.S. EPA aquatic research lab, Duluth MN) — _Reach / review_ · Midwest & Great Plains · deadline: November 9, 2026
-- DOE Marine Energy Fellowship, Postgraduate Track (summer 2027 cohort) — self-arranged research at a lab, agency, NGO or industry host (U.S. Department of Energy via ORISE) — _Reach / review_ · National / Remote / Multiple · deadline: December 11, 2026
-- Interdisciplinary Physical Scientist, GS-7/9 — Pathways Recent Graduates, Office of Environmental Management (U.S. Department of Energy, multiple sites incl. Carlsbad NM and Oak Ridge TN) — _Good_ · National / Remote / Multiple · deadline: November 4, 2026
-- Range Technician, GS-5 seasonal — grassland and wetland habitat work at Quivira National Wildlife Refuge (U.S. Fish and Wildlife Service, Stafford KS) — _Strong_ · Midwest & Great Plains · deadline: November 2, 2026
-- Range Technician, GS-5/7 — rangeland program support at multiple field offices (Bureau of Land Management) — _Good_ · National / Remote / Multiple · deadline: November 9, 2026
-- Natural Resources Specialist (Ranger), GS-7 to GS-11 — recreation and natural-resource programs at Conchas Lake (U.S. Army Corps of Engineers Albuquerque District, NM) — _Reach / review_ · Southwest · deadline: November 5, 2026
-- Cartographer / Maritime GIS Analyst (hiring event) — geospatial compilation for nautical products (National Geospatial-Intelligence Agency, Springfield VA) — _Reach / review_ · Southeast & Appalachia · deadline: October 31, 2026
-- Invasive Plant Management Individual Placement (5 positions, AmeriCorps 1,200 hours) — NPS National Capital Region (Appalachian Conservation Corps, Washington DC) — _Good_ · Northeast · deadline: November 22, 2026
-- Park Ranger, GS-0025-5/7/9, Direct Hire — natural-resource stewardship and visitor assistance at Canyon Lake (U.S. Army Corps of Engineers Fort Worth District, TX) — _Good_ · Southwest · deadline: November 4, 2026
-- Rangeland Management Specialist, GS-5 to GS-11 — Roswell and Socorro field offices (Bureau of Land Management, New Mexico) — _Good_ · Southwest · deadline: November 9, 2026
-- Rangeland Management Specialist, GS-7 to GS-11 — Farmington NM, with Colorado and Susanville CA duty stations (Bureau of Land Management) — _Good_ · Southwest · deadline: November 9, 2026
-- Conservation and Disaster Response Crew Members and Leaders (AmeriCorps, ages 18–35) — Austin TX (Texas Conservation Corps, American YouthWorks) — _Good_ · Southwest · deadline: Rolling — apply as soon as possible (priority date October 23 has passed)
-- Conservation and Disaster Response Crew Members and Leaders (AmeriCorps, ages 18–35) — Houston TX (Texas Conservation Corps, American YouthWorks) — _Good_ · Southwest · deadline: Rolling — apply as soon as possible
-- Conservation Crew Member (AmeriCorps, seasonal) — chainsaw, trail, fencing and invasive-removal crews (Rocky Mountain Youth Corps, Taos NM) — _Good_ · Southwest · deadline: December 4, 2026
-- Assistant Crew Lead (AmeriCorps, ages 18–30) — Taos conservation crews (Rocky Mountain Youth Corps, Taos NM) — _Good_ · Southwest · deadline: November 30, 2026
-- Recreation Technician Crew Leader (Jan 11 – Aug 2027) — Tonto National Forest recreation sites, Public Lands Corps eligible (Arizona Conservation Corps, Roosevelt AZ) — _Reach / review_ · Southwest · deadline: November 8, 2026
-- Fire Adapted Communities Program Coordinator — FAC New Mexico learning network (Forest Stewards Guild, Santa Fe NM) — _Reach / review_ · Southwest · deadline: November 30, 2026
-- Forester — hazardous fuels, forest health and watershed restoration projects with ArcGIS, Chino Valley District (Arizona Dept. of Forestry and Fire Management) — _Good_ · Southwest · deadline: November 10, 2026
-- Forester — hazardous fuels, forest health and watershed restoration, Flagstaff District (Arizona Dept. of Forestry and Fire Management) — _Good_ · Southwest · deadline: Open until filled
-- Park Ranger — park operations, visitor services and maintenance (Arizona State Parks and Trails, St. Johns AZ) — _Reach / review_ · Southwest · deadline: October 29, 2026
+**Added 20 new** opportunities:
+- Land Conservation Steward — upland and wetland restoration, prescribed fire and wildlife monitoring on central Florida preserves (The Nature Conservancy, Tiger Creek Preserve, Babson Park FL) — _Strong_ · Southeast & Appalachia · deadline: November 16, 2026
+- Central Stewardship Technician (STEP 6-month paid internship) — stewardship, prescribed fire and easement monitoring (The Nature Conservancy Virginia, Charlottesville VA) — _Strong_ · Southeast & Appalachia · deadline: November 15, 2026
+- Seasonal Shorebird Stewardship and Monitoring Technician (Mar–Aug 2027) — Wilson's Plover, oystercatcher and tern nesting sites (Audubon South Carolina, Charleston SC) — _Good_ · Southeast & Appalachia · deadline: Open until filled (posted October 22, 2026)
+- Conservation Program Technician (Feb–Aug 2027, housing provided) — Platte River prairie and riparian habitat management, surveys and ArcGIS (Audubon's Rowe Sanctuary, Gibbon NE) — _Strong_ · Midwest & Great Plains · deadline: Open until filled (posted about October 19, 2026)
+- Monitoring and Streamflow Manager — Clark Fork watershed streamflow monitoring, stream assessments and GIS (Clark Fork Coalition, Missoula MT) — _Reach / review_ · Mountain West · deadline: November 2, 2026 (5 pm MST, by email)
+- Seasonal Plant Research Technician — rare plant monitoring and surveys at Fort Irwin National Training Center (Texas A&M Natural Resources Institute, CA) — _Good_ · West Coast / Pacific · deadline: December 13, 2026
+- Wildlife Technician (Fish and Wildlife Technician) REQ-208639 — district wildlife work in northeast Oregon (Oregon Department of Fish and Wildlife, Enterprise OR) — _Good_ · West Coast / Pacific · deadline: November 1, 2026
+- Wildlife Biologist — intertribal wildlife management for the Jamestown and Port Gamble S'Klallam Tribes (Point No Point Treaty Council, Kingston WA) — _Reach / review_ · West Coast / Pacific · deadline: November 30, 2026
+- Wildlife Monitoring Technician (~20 generalists plus bird specialists, 2027 season) — statewide Iowa wildlife monitoring (Iowa State University) — _Good_ · Midwest & Great Plains · deadline: November 30, 2026 (priority review)
+- Funded PhD (BS entry accepted) — rangeland and livestock monitoring program in Wyoming (RangeLab, University of Wyoming) — _Reach / review_ · Mountain West · deadline: December 31, 2026
+- Temporary Field Technician (1–2 positions) — NSF plant evolutionary ecology field study (Sheth Lab, North Carolina State University) — _Good_ · National / Remote / Multiple · deadline: November 9, 2026
+- Wildlife Technician — coyote population and spatial ecology to protect sea turtle nests on Sanibel Island (University of Florida) — _Strong_ · Southeast & Appalachia · deadline: December 15, 2026
+- Land Steward Assistant — invasive removal, native plant propagation and habitat restoration on a private estate (OFAS, Cold Spring NY) — _Good_ · Northeast · deadline: December 29, 2026
+- Natural Resource Monitors — construction monitoring and resource surveys near Nogales and Lochiel on the US–Mexico border (Vernadero Group, AZ) — _Reach / review_ · Southwest · deadline: October 30, 2026
+- Waterfowl Habitat and Research Technician (summer 2027) — research-driven wetland management on Mandeville Island, San Joaquin Delta (Tuscany Research Institute / CCRC Farms, CA) — _Good_ · West Coast / Pacific · deadline: March 15, 2027
+- Avian Conservation Biologist — bird monitoring, research and conservation across a 56,000-acre longleaf restoration (Nokuse Land Conservancy, Bruce FL) — _Reach / review_ · Southeast & Appalachia · deadline: November 30, 2026
+- Funded PhD (5-year RA, BS entry accepted) — road impacts on species of conservation concern in eastern hardwood forest (Holmes Lab, Southern Illinois University) — _Reach / review_ · Midwest & Great Plains · deadline: December 30, 2026
+- Seasonal Invasive Reptile Management Technicians (3, BioCorps) — Argentine tegu control in Everglades National Park (NPS with University of Florida, Homestead FL) — _Good_ · Southeast & Appalachia · deadline: November 9, 2026
+- Biological Science Technician (Wildlife Services), 3 positions — wildlife damage management in Douglas, Lane and Coos/Curry counties (USDA APHIS Wildlife Services, Oregon) — _Good_ · West Coast / Pacific · deadline: November 2, 2026
+- Drone Research Technician — muskrat and deer drone surveys with Illinois DNR (Southern Illinois University Center for Wildlife and Sustainability Research) — _Good_ · Midwest & Great Plains · deadline: October 31, 2026
 
 **⚠ Review these (reach / weak fit — your call whether to keep):**
-- ORISE Biological Laboratory Internship — protecting pollinators from insecticide exposure: field sampling and LC-MS residue analysis (USDA-ARS, Gainesville FL) — _Reach / review_ · Southeast & Appalachia · deadline: December 4, 2026 (rolling review)
-- ORISE appointment — quantitative bioassay development for aquatic vertebrates (U.S. EPA aquatic research lab, Duluth MN) — _Reach / review_ · Midwest & Great Plains · deadline: November 9, 2026
-- DOE Marine Energy Fellowship, Postgraduate Track (summer 2027 cohort) — self-arranged research at a lab, agency, NGO or industry host (U.S. Department of Energy via ORISE) — _Reach / review_ · National / Remote / Multiple · deadline: December 11, 2026
-- Natural Resources Specialist (Ranger), GS-7 to GS-11 — recreation and natural-resource programs at Conchas Lake (U.S. Army Corps of Engineers Albuquerque District, NM) — _Reach / review_ · Southwest · deadline: November 5, 2026
-- Cartographer / Maritime GIS Analyst (hiring event) — geospatial compilation for nautical products (National Geospatial-Intelligence Agency, Springfield VA) — _Reach / review_ · Southeast & Appalachia · deadline: October 31, 2026
-- Recreation Technician Crew Leader (Jan 11 – Aug 2027) — Tonto National Forest recreation sites, Public Lands Corps eligible (Arizona Conservation Corps, Roosevelt AZ) — _Reach / review_ · Southwest · deadline: November 8, 2026
-- Fire Adapted Communities Program Coordinator — FAC New Mexico learning network (Forest Stewards Guild, Santa Fe NM) — _Reach / review_ · Southwest · deadline: November 30, 2026
-- Park Ranger — park operations, visitor services and maintenance (Arizona State Parks and Trails, St. Johns AZ) — _Reach / review_ · Southwest · deadline: October 29, 2026
+- Monitoring and Streamflow Manager — Clark Fork watershed streamflow monitoring, stream assessments and GIS (Clark Fork Coalition, Missoula MT) — _Reach / review_ · Mountain West · deadline: November 2, 2026 (5 pm MST, by email)
+- Wildlife Biologist — intertribal wildlife management for the Jamestown and Port Gamble S'Klallam Tribes (Point No Point Treaty Council, Kingston WA) — _Reach / review_ · West Coast / Pacific · deadline: November 30, 2026
+- Funded PhD (BS entry accepted) — rangeland and livestock monitoring program in Wyoming (RangeLab, University of Wyoming) — _Reach / review_ · Mountain West · deadline: December 31, 2026
+- Natural Resource Monitors — construction monitoring and resource surveys near Nogales and Lochiel on the US–Mexico border (Vernadero Group, AZ) — _Reach / review_ · Southwest · deadline: October 30, 2026
+- Avian Conservation Biologist — bird monitoring, research and conservation across a 56,000-acre longleaf restoration (Nokuse Land Conservancy, Bruce FL) — _Reach / review_ · Southeast & Appalachia · deadline: November 30, 2026
+- Funded PhD (5-year RA, BS entry accepted) — road impacts on species of conservation concern in eastern hardwood forest (Holmes Lab, Southern Illinois University) — _Reach / review_ · Midwest & Great Plains · deadline: December 30, 2026
 
 **Updated 0** (deadline / status / description changed).
 
-**Total opportunities:** 2383  ·  next-cycle: 578  ·  expired (one-time, no future cycle): 716
+**Total opportunities:** 2403  ·  next-cycle: 578  ·  expired (one-time, no future cycle): 716
 Triage: passed-but-recurring → `cycle:"next"`; one-time/discontinued → `expired:true`. Passed/expired are hidden on the site by default (toggle to show); never deleted, never moved to the personal Archive. Fit tiers: _Excellent_ / _Strong_ / _Good_ / _Reach / review_ (set via each entry's badge). The Browse pages render from this data automatically — no HTML edits. Nothing is live until this PR is merged.
