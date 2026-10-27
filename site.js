@@ -5,8 +5,8 @@
    ═══════════════════════════════════════════════════════════ */
 
 /* build-stamped version + build (build.js patches these lines each release) */
-var WN_VERSION = '5.69';
-var WN_BUILD   = '20261027-2312-ad2bf673';
+var WN_VERSION = '5.70';
+var WN_BUILD   = '20261027-2334-440c3b0b';
 
 /* ── 1. Sync hook ──────────────────────────────────────────
    Patches window.fetch to timestamp every successful JSONbin

@@ -1,26 +1,41 @@
 # Weekly opportunity sweep — 2026-10-27
 
-**Added 15 new** opportunities:
-- Funded MS — freshwater algal ecology in field and lab (Rober Lab, Ohio State School of Environment & Natural Resources) — _Strong_ · Midwest & Great Plains · deadline: November 30, 2026
-- Funded MS — wading-bird breeding colony surveys (Snowy Egret, Little Blue Heron) across Oklahoma (Gilbert Lab, Oklahoma State University) — _Strong_ · Southwest · deadline: October 31, 2026
-- Funded MS in Raptor Biology — Swainson's Hawk ecology and demography, Butte Valley Raptor Research Project (Vennum Lab, Boise State University) — _Good_ · Mountain West · deadline: November 13, 2026
-- MSc (partially funded) — at-sea population monitoring of Marbled Murrelets under the Northwest Forest Plan (Cal Poly Humboldt, Arcata CA) — _Good_ · West Coast / Pacific · deadline: December 1, 2026
-- Funded MS — genetics of chronic wasting disease in mule and white-tailed deer (Caesar Kleberg Wildlife Research Institute, Texas A&M–Kingsville) — _Good_ · Southwest · deadline: November 13, 2026
-- Funded MS — birds, ticks and tick-borne pathogens in the Great Plains (Loss & Noden, Oklahoma State University NREM) — _Good_ · Southwest · deadline: November 20, 2026
-- MS or PhD — bird conservation and ecosystem services on farmland: nestboxes and prairie strips (Smith BIRDS Lab, Michigan State University) — _Strong_ · Midwest & Great Plains · deadline: November 9, 2026 (interest form); program application mid-December
-- Funded MS (advisor-first) — carbon and nutrient biogeochemistry of wetlands, coasts and stormwater systems (Aquatic Biogeochemistry Lab, University of Central Florida) — _Excellent_ · Southeast & Appalachia · deadline: December 1, 2026 (email Dr. Chambers first)
-- Natural Resources Specialist, GS-7 to GS-11 (Direct Hire, open to the public) — Omaha District natural resource management (U.S. Army Corps of Engineers, Omaha NE) — _Strong_ · Midwest & Great Plains · deadline: November 9, 2026
-- Natural Resources Specialist (Ranger), Direct Hire — Mark Twain Lake shoreline and public-land stewardship (U.S. Army Corps of Engineers, Missouri) — _Good_ · Midwest & Great Plains · deadline: November 4, 2026
-- Environmental Quality Analyst 9-P11/12 — contaminated-site investigation and remediation, Remediation & Redevelopment Division (Michigan EGLE, Jackson MI) — _Good_ · Midwest & Great Plains · deadline: November 4, 2026
-- Resource Analyst 9-12 — wetland, stream, floodplain and Section 404 permits for road projects, Metro Region (Michigan DOT, Southfield MI) — _Strong_ · Midwest & Great Plains · deadline: November 5, 2026
-- Fisheries Assistant 6-E7 (Creel Clerk, seasonal) — angler interviews and fish biological data (Michigan DNR Fisheries Division, Unionville MI) — _Good_ · Midwest & Great Plains · deadline: November 3, 2026
-- Wildlife Specialist (Biological Science Technician) — wildlife damage management across Iowa (USDA APHIS Wildlife Services) — _Good_ · Midwest & Great Plains · deadline: October 28, 2026
-- Conservation Easement Specialist — easement acquisitions through closing, LakeCare program (Upper Peninsula Land Conservancy, Michigan) — _Reach / review_ · Midwest & Great Plains · deadline: Open until filled
+**Added 22 new** opportunities:
+- Environmental Resources Specialist 1 — Voluntary Remediation / Brownfields site review (West Virginia DEP Division of Land Restoration, Fairmont WV) — _Good_ · Southeast & Appalachia · deadline: November 9, 2026
+- Environmental Inspector-in-Training — water and waste enforcement in Calhoun, Doddridge, Gilmer, Ritchie and Wirt counties (West Virginia DEP, Fairmont WV) — _Good_ · Southeast & Appalachia · deadline: November 11, 2026
+- Environmental Inspector-in-Training (statewide, various locations) — water and waste compliance inspections (West Virginia DEP) — _Good_ · Southeast & Appalachia · deadline: November 8, 2026
+- Environmental Scientist 1/2/3 — Waste Permits (Louisiana Department of Environmental Quality, Baton Rouge LA) — _Good_ · Southeast & Appalachia · deadline: November 4, 2026
+- Environmental Project Specialist 1/2/3 — Office of Environmental Services (Louisiana DEQ, Baton Rouge LA) — _Reach / review_ · Southeast & Appalachia · deadline: October 29, 2026
+- Environmental Specialist I — animal feeding operation permits and water-resource compliance (NC DEQ Division of Water Resources, Raleigh NC) — _Good_ · Southeast & Appalachia · deadline: November 2, 2026 (NC postings close 11:59 pm the night before the Nov 3 end date)
+- Fisheries Science Technician — northern-district independent gill net survey (NC DEQ Division of Marine Fisheries, Pasquotank County NC) — _Good_ · Southeast & Appalachia · deadline: November 2, 2026
+- Wildlife Conservation Technician I — game land, boating access and habitat maintenance, Land & Water Access (NC Wildlife Resources Commission, Williamston NC) — _Reach / review_ · Southeast & Appalachia · deadline: November 5, 2026
+- Biological Science Technician (Fish), GS-5 with ladder to GS-8 — Lower Great Lakes FWCO field station (U.S. Fish and Wildlife Service, Williamstown WV) — _Strong_ · Southeast & Appalachia · deadline: November 5, 2026
+- Natural Resources Specialist (Ranger), GS-5/7/9, Direct Hire — Lake Sidney Lanier project (U.S. Army Corps of Engineers Mobile District, Buford GA) — _Strong_ · Southeast & Appalachia · deadline: November 5, 2026
+- Environmental Specialist I — Environmental Resource Permit compliance assurance and inspections (Florida DEP, Jacksonville FL) — _Good_ · Southeast & Appalachia · deadline: October 29, 2026
+- Environmental Specialist I — ambient air monitoring quality assurance (Florida DEP Division of Air Resource Management, Tallahassee FL) — _Reach / review_ · Southeast & Appalachia · deadline: November 6, 2026
+- Environmental Specialist II — state-lead hazardous waste and drycleaner site cleanups (Florida DEP, Tallahassee FL) — _Good_ · Southeast & Appalachia · deadline: November 5, 2026
+- Fish & Wildlife Technician (permanent) — habitat restoration on Triple N Ranch and Herky Huffman WMAs (Florida FWC, St. Cloud FL) — _Good_ · Southeast & Appalachia · deadline: November 1, 2026
+- OPS Fish & Wildlife Technician — wetland habitat management at T.M. Goodwin Waterfowl Management Area (Florida FWC, Brevard County FL) — _Good_ · Southeast & Appalachia · deadline: November 15, 2026
+- OPS Fish & Wildlife Technician (part-time) — nonnative reptile early detection and rapid response (Florida FWC, Fort Myers FL) — _Reach / review_ · Southeast & Appalachia · deadline: November 9, 2026
+- OPS Predation Management Biologist (Biological Scientist III) — predator trapping to protect nesting shorebirds and seabirds (Florida FWC, Panama City FL) — _Reach / review_ · Southeast & Appalachia · deadline: October 30, 2026
+- Park Ranger — resource protection, visitor services and natural-resource management (Florida Park Service, Santa Rosa Beach FL) — _Reach / review_ · Southeast & Appalachia · deadline: November 2, 2026
+- Full-Time Seasonal State Parks Resource Crew — prescribed fire, exotic plant removal and habitat enhancement, December–May (Georgia DNR State Parks, Social Circle GA) — _Good_ · Southeast & Appalachia · deadline: November 21, 2026
+- Coastal Restoration Engagement and Outreach Coordinator (2-year, entry level) — living shorelines and coastal restoration program (James River Association, Williamsburg VA) — _Strong_ · Southeast & Appalachia · deadline: November 27, 2026
+- Program Associate (12-week part-time contract) — native tree planting, seed collection and community events (We Plant it Forward, Raleigh–Durham NC) — _Reach / review_ · Southeast & Appalachia · deadline: November 15, 2026
+- Natural Resource Management Technician — invasive control, habitat management, planting and surveys (Virginia Forestry and Wildlife Group, Charlottesville VA) — _Good_ · Southeast & Appalachia · deadline: Rolling
 
 **⚠ Review these (reach / weak fit — your call whether to keep):**
-- Conservation Easement Specialist — easement acquisitions through closing, LakeCare program (Upper Peninsula Land Conservancy, Michigan) — _Reach / review_ · Midwest & Great Plains · deadline: Open until filled
+- Environmental Project Specialist 1/2/3 — Office of Environmental Services (Louisiana DEQ, Baton Rouge LA) — _Reach / review_ · Southeast & Appalachia · deadline: October 29, 2026
+- Wildlife Conservation Technician I — game land, boating access and habitat maintenance, Land & Water Access (NC Wildlife Resources Commission, Williamston NC) — _Reach / review_ · Southeast & Appalachia · deadline: November 5, 2026
+- Environmental Specialist I — ambient air monitoring quality assurance (Florida DEP Division of Air Resource Management, Tallahassee FL) — _Reach / review_ · Southeast & Appalachia · deadline: November 6, 2026
+- OPS Fish & Wildlife Technician (part-time) — nonnative reptile early detection and rapid response (Florida FWC, Fort Myers FL) — _Reach / review_ · Southeast & Appalachia · deadline: November 9, 2026
+- OPS Predation Management Biologist (Biological Scientist III) — predator trapping to protect nesting shorebirds and seabirds (Florida FWC, Panama City FL) — _Reach / review_ · Southeast & Appalachia · deadline: October 30, 2026
+- Park Ranger — resource protection, visitor services and natural-resource management (Florida Park Service, Santa Rosa Beach FL) — _Reach / review_ · Southeast & Appalachia · deadline: November 2, 2026
+- Program Associate (12-week part-time contract) — native tree planting, seed collection and community events (We Plant it Forward, Raleigh–Durham NC) — _Reach / review_ · Southeast & Appalachia · deadline: November 15, 2026
 
-**Updated 0** (deadline / status / description changed).
+**Updated 2** (deadline / status / description changed):
+- Field Crew Leader (AmeriCorps) — leads a 4–5 person habitat restoration crew across Minnesota and Iowa (Conservation Corps Minnesota & Iowa) — _Good_ · Midwest & Great Plains · deadline: November 5, 2026 (re-listed; was October 1)
+- Field Crew Member (AmeriCorps) — habitat restoration and natural-resource management crews, 2027 season (Conservation Corps Minnesota & Iowa) — _Good_ · Midwest & Great Plains · deadline: November 5, 2026 (re-listed; was October 1)
 
-**Total opportunities:** 2312  ·  next-cycle: 578  ·  expired (one-time, no future cycle): 716
+**Total opportunities:** 2334  ·  next-cycle: 578  ·  expired (one-time, no future cycle): 716
 Triage: passed-but-recurring → `cycle:"next"`; one-time/discontinued → `expired:true`. Passed/expired are hidden on the site by default (toggle to show); never deleted, never moved to the personal Archive. Fit tiers: _Excellent_ / _Strong_ / _Good_ / _Reach / review_ (set via each entry's badge). The Browse pages render from this data automatically — no HTML edits. Nothing is live until this PR is merged.
