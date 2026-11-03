@@ -31102,29 +31102,29 @@
     "src": "erin_jobs.html",
     "src_label": "Career Positions",
     "status": {
-      "kind": "s-new",
-      "label": "✨ New — August 3, 2026"
+      "kind": "s-updated",
+      "label": "🔄 Re-posted — November 3, 2026"
     },
-    "cycle": "next",
-    "deadline_kind": "passed",
-    "deadline_date": "2026-08-07",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-11-06",
     "region": "Midwest & Great Plains",
     "start": "See posting",
     "id": "item-711",
     "title": "Biological Science Technician (Wildlife), GS-3/4/5/6 — statewide Ohio",
     "org": "USDA APHIS Wildlife Services · location negotiable within Ohio",
     "location": "Location negotiable within Ohio",
-    "deadline": "2026-08-07",
-    "pay": "$17.47–$35.36 per hour",
+    "deadline": "November 6, 2026 (re-posted as WSER-OH-27-02, GS-3/4/5/6, 2 positions)",
+    "pay": "$17.47–$35.36 per hour, GS-3 to GS-6 (published)",
     "stipend": "",
     "benefits": "Full federal benefits — FEHB, FEGLI, FERS plus TSP match, 11 paid holidays, annual and sick leave",
     "badge": "Good fit",
-    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117858",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119853",
     "url_label": "TAMU board — APHIS Ohio 117858",
     "links": [
       {
-        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117858",
-        "label": "🔗 TAMU board — APHIS Ohio 117858"
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119853",
+        "label": "🔗 Current re-posting (TAMU board)"
       }
     ],
     "metaLine": "⏰ Closes Aug 7 · GS-3 to GS-6 · field surveys + species ID · location negotiable",
@@ -31137,7 +31137,8 @@
       "⏰ Closes Aug 7"
     ],
     "start_date": "2026-08-07",
-    "relocation": "tight"
+    "relocation": "tight",
+    "url2": "https://jobs.rwfm.tamu.edu/view-job/?id=117858"
   },
   {
     "type": "Career Position",
@@ -33597,29 +33598,29 @@
     "src": "erin_jobs.html",
     "src_label": "Career Positions",
     "status": {
-      "kind": "s-new",
-      "label": "✨ New — August 3, 2026"
+      "kind": "s-updated",
+      "label": "🔄 Re-posted — November 3, 2026"
     },
-    "cycle": "next",
-    "deadline_kind": "passed",
-    "deadline_date": "2026-08-07",
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "deadline_date": "2026-12-15",
     "region": "West Coast / Pacific",
     "start": "See posting",
     "id": "item-769",
     "title": "Fisheries Technician 1 — JPE spring-run Chinook monitoring",
     "org": "Pacific States Marine Fisheries Commission · Red Bluff, CA",
     "location": "Red Bluff, California (upper Sacramento River)",
-    "deadline": "2026-08-07",
-    "pay": "$15.59–$25.46 per hour",
+    "deadline": "December 15, 2026 (re-posted; start January 4, 2027)",
+    "pay": "$15.59–$25.46 per hour, full-time with benefits (published)",
     "stipend": "",
     "benefits": "Confirm with PSMFC",
     "badge": "Strong fit",
-    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=117835",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119890",
     "url_label": "TAMU board — PSMFC 117835",
     "links": [
       {
-        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117835",
-        "label": "🔗 TAMU board — PSMFC 117835"
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119890",
+        "label": "🔗 Current re-posting (TAMU board)"
       }
     ],
     "metaLine": "⏰ Closes Aug 7 · rotary screw traps · PSMFC feeds directly into federal & state fisheries jobs",
@@ -33632,7 +33633,8 @@
       "⏰ Closes Aug 7"
     ],
     "start_date": "2026-08-07",
-    "relocation": "tight"
+    "relocation": "tight",
+    "url2": "https://jobs.rwfm.tamu.edu/view-job/?id=117835"
   },
   {
     "type": "Career Position",
@@ -105192,6 +105194,796 @@
       {
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119817",
         "label": "🔗 Inventory and Monitoring Technician — Terrestrial Ecologist (11-month temporary), NC Division of Parks and Recreation, Raleigh"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2460",
+    "title": "Bear Project Hourly Assistant — black bear research around Okefenokee NWR (Georgia DNR, Fargo GA)",
+    "org": "Georgia Department of Natural Resources · Wildlife Resources Division · Fargo, GA",
+    "location": "Okefenokee National Wildlife Refuge area (Fargo, Georgia)",
+    "deadline": "November 20, 2026",
+    "deadline_date": "2026-11-20",
+    "badge": "Good fit",
+    "pay": "Starting at $19 per hour (published); part-time with housing",
+    "start": "After February 1, 2027",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119876",
+    "metaLine": "Fargo GA · bear research assistant · Okefenokee · $19/hr + housing · by Nov 20",
+    "body": "Georgia DNR is hiring one assistant for black bear research and management in South Georgia, focused in and around the Okefenokee National Wildlife Refuge. It is a part-time position with housing at $19 an hour, open to applicants with some undergraduate coursework. Apply by November 20, 2026 for a February 2027 start.",
+    "desc": "Hands-on large-mammal work on a national wildlife refuge — part-time, but housing is included.",
+    "pills": [
+      "Bears",
+      "Georgia",
+      "Housing",
+      "Refuge"
+    ],
+    "employer_type": "government",
+    "url_label": "Bear Project Hourly Assistant — black bear research around Okefenokee NWR (Georgia DNR, Fargo GA)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119876",
+        "label": "🔗 Bear Project Hourly Assistant — black bear research around Okefenokee NWR (Georgia DNR, Fargo GA)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2461",
+    "title": "Wildlife Health Technician — Missouri Department of Conservation, Jefferson City",
+    "org": "Missouri Department of Conservation · Wildlife Health Program · Jefferson City, MO",
+    "location": "Jefferson City, Missouri",
+    "deadline": "November 16, 2026",
+    "deadline_date": "2026-11-16",
+    "badge": "Strong fit",
+    "pay": "Starting at $20.56 per hour (published)",
+    "start": "After January 4, 2027",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119877",
+    "metaLine": "Jefferson City MO · wildlife health tech · BS, no experience · $20.56/hr · by Nov 16",
+    "body": "The Missouri Department of Conservation is hiring a Wildlife Health Technician in Jefferson City to support its wildlife health and disease work. The listing asks for a bachelor's with no experience minimum and pays from $20.56 an hour; the hiring supervisor invites questions by email. Apply by November 16, 2026 for a January 2027 start.",
+    "desc": "A state-agency wildlife job that takes a new graduate straight in.",
+    "pills": [
+      "Missouri",
+      "Wildlife health",
+      "Entry level",
+      "State agency"
+    ],
+    "employer_type": "government",
+    "url_label": "Wildlife Health Technician — Missouri Department of Conservation, Jefferson City",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119877",
+        "label": "🔗 Wildlife Health Technician — Missouri Department of Conservation, Jefferson City"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2462",
+    "title": "OPS Biological Scientist III — Ecological Data Specialist, FWRI Center for Biostatistics (Florida FWC, St. Petersburg)",
+    "org": "Florida Fish and Wildlife Conservation Commission · Fish & Wildlife Research Institute · St. Petersburg, FL",
+    "location": "St. Petersburg, Florida",
+    "deadline": "November 19, 2026",
+    "deadline_date": "2026-11-19",
+    "badge": "Reach",
+    "pay": "$29 per hour (published, OPS temporary)",
+    "start": "After January 8, 2027",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119878",
+    "metaLine": "St. Petersburg FL · ecological data specialist · $29/hr · 2 yrs asked · by Nov 19",
+    "body": "Florida FWC's Fish and Wildlife Research Institute is hiring an OPS Biological Scientist III as an Ecological Data Specialist in its Center for Biostatistics (requisition 886447). Pay is $29 an hour in a temporary OPS position; the listing asks for a bachelor's and about two years of experience. Apply by November 19, 2026.",
+    "desc": "Data and GIS-adjacent research support at a top state lab — the experience ask makes it a reach.",
+    "pills": [
+      "Florida",
+      "Data",
+      "Research institute"
+    ],
+    "employer_type": "government",
+    "url_label": "OPS Biological Scientist III — Ecological Data Specialist, FWRI Center for Biostatistics (Florida FWC, St. Petersburg)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119878",
+        "label": "🔗 OPS Biological Scientist III — Ecological Data Specialist, FWRI Center for Biostatistics (Florida FWC, St. Petersburg)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2463",
+    "title": "Wildlife Biologist III — Coastal Birds (seabird and shorebird conservation), SCDNR, Charleston County",
+    "org": "South Carolina Department of Natural Resources · Charleston County, SC",
+    "location": "Charleston County, South Carolina",
+    "deadline": "November 18, 2026",
+    "deadline_date": "2026-11-18",
+    "badge": "Reach",
+    "pay": "$53,142–$71,706 per year (published)",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119882",
+    "metaLine": "Charleston SC · coastal bird biologist · $53–72k · 2 yrs asked · by Nov 18",
+    "body": "SCDNR is hiring a Wildlife Biologist III in Charleston County to work on the conservation of seabirds and shorebirds along the South Carolina coast. The salary is $53,142–$71,706 and the listing asks for a bachelor's and about two years of experience. Apply by November 18, 2026.",
+    "desc": "A permanent coastal-bird biologist post — a stretch on experience, worth a try.",
+    "pills": [
+      "South Carolina",
+      "Shorebirds",
+      "Permanent"
+    ],
+    "employer_type": "government",
+    "url_label": "Wildlife Biologist III — Coastal Birds (seabird and shorebird conservation), SCDNR, Charleston County",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119882",
+        "label": "🔗 Wildlife Biologist III — Coastal Birds (seabird and shorebird conservation), SCDNR, Charleston County"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2464",
+    "title": "Fishery Biologist 2 — Chinook monitoring plan, Tuolumne River (Pacific States Marine Fisheries Commission, La Grange CA)",
+    "org": "Pacific States Marine Fisheries Commission · La Grange, CA",
+    "location": "La Grange, California",
+    "deadline": "December 18, 2026",
+    "deadline_date": "2026-12-18",
+    "badge": "Good fit",
+    "pay": "$61,722–$97,087 per year, full-time with benefits (published)",
+    "start": "January 11, 2027",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119888",
+    "metaLine": "La Grange CA · Fishery Biologist 2 · Chinook monitoring · $61.7–97k · by Dec 18",
+    "body": "PSMFC is recruiting a full-time, benefits-eligible Fishery Biologist 2 in La Grange, California, who will lead development of a Chinook salmon monitoring plan in the first year. Pay is $61,722–$97,087; a bachelor's and about a year of experience are asked. Apply by December 18, 2026 for a January 11, 2027 start.",
+    "desc": "A well-paid salmon monitoring job with benefits; the one-year ask is reachable with her field seasons.",
+    "pills": [
+      "California",
+      "Salmon",
+      "Full time + benefits"
+    ],
+    "employer_type": "government",
+    "url_label": "Fishery Biologist 2 — Chinook monitoring plan, Tuolumne River (Pacific States Marine Fisheries Commission, La Grange CA)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119888",
+        "label": "🔗 Fishery Biologist 2 — Chinook monitoring plan, Tuolumne River (Pacific States Marine Fisheries Commission, La Grange CA)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2465",
+    "title": "Fisheries Technician 1 — Ocean Salmon Project scale-age lab, with CDFW (PSMFC, Santa Rosa CA)",
+    "org": "Pacific States Marine Fisheries Commission · Santa Rosa, CA",
+    "location": "Santa Rosa, California",
+    "deadline": "November 20, 2026",
+    "deadline_date": "2026-11-20",
+    "badge": "Good fit",
+    "pay": "$19.49–$31.83 per hour, full-time with benefits (published)",
+    "start": "After December 1, 2026",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119891",
+    "metaLine": "Santa Rosa CA · salmon scale-age lab tech · no experience · $19.49–31.83/hr · by Nov 20",
+    "body": "PSMFC is hiring a full-time, benefits-eligible Fisheries Technician 1 for the Scale Age Project of CDFW's Ocean Salmon Project in Santa Rosa. Pay is $19.49–$31.83 an hour with no experience minimum. Apply by November 20, 2026.",
+    "desc": "A lab-based fisheries entry point with no experience required.",
+    "pills": [
+      "California",
+      "Salmon",
+      "Lab",
+      "Entry level"
+    ],
+    "employer_type": "government",
+    "url_label": "Fisheries Technician 1 — Ocean Salmon Project scale-age lab, with CDFW (PSMFC, Santa Rosa CA)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119891",
+        "label": "🔗 Fisheries Technician 1 — Ocean Salmon Project scale-age lab, with CDFW (PSMFC, Santa Rosa CA)"
+      }
+    ]
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2466",
+    "title": "GIS and Cartography Support Members (4) — USFWS Midwest Regional Office (American Conservation Experience, Bloomington MN)",
+    "org": "American Conservation Experience · U.S. Fish & Wildlife Service Midwest Region · Bloomington, MN",
+    "location": "Bloomington, Minnesota",
+    "deadline": "November 18, 2026",
+    "deadline_date": "2026-11-18",
+    "badge": "Top recommendation",
+    "stipend": "$1,030 per week (published)",
+    "start": "January–February 2027",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119906",
+    "metaLine": "Bloomington MN · USFWS GIS & cartography · BS, no experience · $1,030/wk · by Nov 18",
+    "body": "American Conservation Experience, partnering with the U.S. Fish and Wildlife Service, is seeking four members to work on GIS and cartography projects under the mentorship of USFWS staff at the Midwest Regional Office. The placement pays $1,030 a week and asks for a bachelor's with no experience minimum. Apply by November 18, 2026 for a January–February 2027 start.",
+    "desc": "GIS inside a USFWS regional office — exactly the federal foothold she is building toward.",
+    "pills": [
+      "USFWS",
+      "GIS",
+      "4 openings",
+      "Minnesota"
+    ],
+    "employer_type": "non-profit",
+    "url_label": "GIS and Cartography Support Members (4) — USFWS Midwest Regional Office (American Conservation Experience, Bloomington MN)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119906",
+        "label": "🔗 GIS and Cartography Support Members (4) — USFWS Midwest Regional Office (American Conservation Experience, Bloomington MN)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2467",
+    "title": "Habitat Technician — habitat and land management crew (Cornerstone Habitat & Land Management, Jackson OH)",
+    "org": "Cornerstone Habitat & Land Management · Jackson, OH",
+    "location": "Jackson, Ohio",
+    "deadline": "November 27, 2026",
+    "deadline_date": "2026-11-27",
+    "badge": "Good fit",
+    "pay": "$18 per hour, rising to $20 after 90 days (published)",
+    "start": "December 2026",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119903",
+    "metaLine": "Jackson OH · habitat tech · no experience · $18→20/hr · by Nov 27",
+    "body": "Cornerstone Habitat & Land Management is hiring one Habitat Technician in southern Ohio. The wage starts at $18 an hour and rises to $20 after a 90-day probation, with eligibility for promotion to Habitat Specialist after a year. Apply by November 27, 2026.",
+    "desc": "A permanent restoration-crew job with a promotion path.",
+    "pills": [
+      "Ohio",
+      "Habitat",
+      "Entry level"
+    ],
+    "employer_type": "private",
+    "url_label": "Habitat Technician — habitat and land management crew (Cornerstone Habitat & Land Management, Jackson OH)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119903",
+        "label": "🔗 Habitat Technician — habitat and land management crew (Cornerstone Habitat & Land Management, Jackson OH)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2468",
+    "title": "Forest Wildlife Specialist — Hoosier National Forest (Ruffed Grouse Society & American Woodcock Society, Tell City IN)",
+    "org": "Ruffed Grouse Society & American Woodcock Society · Hoosier National Forest · Tell City, IN",
+    "location": "Tell City Ranger District, Hoosier National Forest, Indiana",
+    "deadline": "November 30, 2026",
+    "deadline_date": "2026-11-30",
+    "badge": "Strong fit",
+    "pay": "$44,000–$68,000 per year (published); 5-year funded position",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119904",
+    "metaLine": "Tell City IN · non-profit wildlife specialist on a National Forest · BS, no experience · $44–68k · by Nov 30",
+    "body": "The Ruffed Grouse Society & American Woodcock Society is hiring a full-time Forest Wildlife Specialist embedded with the Hoosier National Forest's Tell City Ranger District, on five-year funding. The salary is $44,000–$68,000 and the listing asks for a bachelor's with no experience minimum. Apply by November 30, 2026.",
+    "desc": "A non-profit wildlife-habitat job working inside the Forest Service — a USDA bridge.",
+    "pills": [
+      "Indiana",
+      "Forest wildlife",
+      "Non-profit",
+      "USFS partner"
+    ],
+    "employer_type": "non-profit",
+    "url_label": "Forest Wildlife Specialist — Hoosier National Forest (Ruffed Grouse Society & American Woodcock Society, Tell City IN)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119904",
+        "label": "🔗 Forest Wildlife Specialist — Hoosier National Forest (Ruffed Grouse Society & American Woodcock Society, Tell City IN)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2469",
+    "title": "Short-term lab and field technician (2) — chorus frog behavior and acoustic signals (Lemmon Lab, Florida State University)",
+    "org": "Florida State University · Dept. of Biological Science · Tallahassee, FL",
+    "location": "Tallahassee, Florida",
+    "deadline": "November 30, 2026",
+    "deadline_date": "2026-11-30",
+    "badge": "Good fit",
+    "pay": "Starting at $15 per hour (published)",
+    "start": "Early January – mid-March 2027",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119902",
+    "metaLine": "Tallahassee FL · frog field/lab tech · Jan–Mar 2027 · $15/hr · by Nov 30",
+    "body": "Emily Lemmon's lab at Florida State University has two research technician positions from early January to mid-March 2027 studying female mate choice and male acoustic signal variation in chorus frogs. Pay starts at $15 an hour; a bachelor's and about a year of experience are asked. Apply by November 30, 2026.",
+    "desc": "A short winter herp season that fills the gap before spring field jobs.",
+    "pills": [
+      "Florida",
+      "Amphibians",
+      "Short-term"
+    ],
+    "employer_type": "university",
+    "url_label": "Short-term lab and field technician (2) — chorus frog behavior and acoustic signals (Lemmon Lab, Florida State University)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119902",
+        "label": "🔗 Short-term lab and field technician (2) — chorus frog behavior and acoustic signals (Lemmon Lab, Florida State University)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2470",
+    "title": "Habitat GIS and Data Management Specialist 2 (PSMFC, Portland OR)",
+    "org": "Pacific States Marine Fisheries Commission · Portland, OR",
+    "location": "Portland, Oregon",
+    "deadline": "November 30, 2026",
+    "deadline_date": "2026-11-30",
+    "badge": "Strong fit",
+    "pay": "$26.14–$41.57 per hour, full-time with benefits (published)",
+    "start": "January 4, 2027 (up to one year)",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119895",
+    "metaLine": "Portland OR · habitat GIS & data specialist · $26–42/hr · by Nov 30",
+    "body": "PSMFC is recruiting a Habitat GIS – Data Management Specialist 2 in Portland, a full-time, benefits-eligible position starting January 4, 2027 and expected to last up to a year. Pay is $26.14–$41.57 an hour; a bachelor's and about a year of experience are asked. Apply by November 30, 2026.",
+    "desc": "Her GIS suitability work maps directly onto fish-habitat data management.",
+    "pills": [
+      "Oregon",
+      "GIS",
+      "Habitat",
+      "Benefits"
+    ],
+    "employer_type": "government",
+    "url_label": "Habitat GIS and Data Management Specialist 2 (PSMFC, Portland OR)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119895",
+        "label": "🔗 Habitat GIS and Data Management Specialist 2 (PSMFC, Portland OR)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-2471",
+    "title": "Avian Point Count / Nest Searching Technicians (3) and Crew Leader — solar energy impacts on birds, NW Colorado (Colorado Parks and Wildlife, Hayden CO)",
+    "org": "Colorado Parks and Wildlife · Hayden, CO",
+    "location": "Hayden, Colorado",
+    "deadline": "January 29, 2027",
+    "deadline_date": "2027-01-29",
+    "badge": "Good fit",
+    "pay": "$19–$21 per hour (published)",
+    "start": "April 5–19, 2027",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119894",
+    "metaLine": "Hayden CO · avian point counts + nest search · spring 2027 · $19–21/hr · by Jan 29",
+    "body": "Colorado Parks and Wildlife is hiring one crew leader and three field technicians to run point counts and nest searches for all bird species at planned and built solar facilities in northwest Colorado. Pay is $19–$21 an hour; a bachelor's and about a year of experience are asked. Apply by January 29, 2027 for an April 2027 start.",
+    "desc": "A spring bird season with a clear research question — good résumé depth.",
+    "pills": [
+      "Colorado",
+      "Birds",
+      "Seasonal",
+      "Energy impacts"
+    ],
+    "employer_type": "government",
+    "url_label": "Avian Point Count / Nest Searching Technicians (3) and Crew Leader — solar energy impacts on birds, NW Colorado (Colorado Parks and Wildlife, Hayden CO)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119894",
+        "label": "🔗 Avian Point Count / Nest Searching Technicians (3) and Crew Leader — solar energy impacts on birds, NW Colorado (Colorado Parks and Wildlife, Hayden CO)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-2472",
+    "title": "Seasonal Fisheries Field Technician — native freshwater fishes (American Southwest Ichthyological Researchers, Albuquerque NM)",
+    "org": "American Southwest Ichthyological Researchers (ASIR) · Albuquerque, NM",
+    "location": "Albuquerque, New Mexico",
+    "deadline": "December 31, 2026",
+    "deadline_date": "2026-12-31",
+    "badge": "Good fit",
+    "pay": "$18–$22 per hour (published)",
+    "start": "After March 1, 2027",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=89109",
+    "metaLine": "Albuquerque NM · seasonal native-fish tech · no experience · $18–22/hr · by Dec 31",
+    "body": "ASIR, a 30-year-old Albuquerque small business dedicated to the study and conservation of native freshwater fishes, is hiring seasonal fisheries field technicians. Pay is $18–$22 an hour with no experience minimum. Apply by December 31, 2026 for a March 2027 start.",
+    "desc": "Desert-river fish survey work that needs no prior fisheries experience.",
+    "pills": [
+      "New Mexico",
+      "Fisheries",
+      "Seasonal"
+    ],
+    "employer_type": "private",
+    "url_label": "Seasonal Fisheries Field Technician — native freshwater fishes (American Southwest Ichthyological Researchers, Albuquerque NM)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=89109",
+        "label": "🔗 Seasonal Fisheries Field Technician — native freshwater fishes (American Southwest Ichthyological Researchers, Albuquerque NM)"
+      }
+    ]
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2473",
+    "title": "AmeriCorps Field Crew Member — habitat restoration on land-trust preserves (Bur Oak Land Trust, Iowa City IA)",
+    "org": "Bur Oak Land Trust · Iowa City, IA",
+    "location": "Iowa City, Iowa",
+    "deadline": "November 13, 2026",
+    "deadline_date": "2026-11-13",
+    "badge": "Good fit",
+    "stipend": "$1,983 per month AmeriCorps living allowance (published)",
+    "start": "After January 11, 2027",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=107765",
+    "metaLine": "Iowa City IA · land-trust restoration crew · AmeriCorps · $1,983/mo · by Nov 13",
+    "body": "Bur Oak Land Trust's AmeriCorps program manages and restores the land trust's properties and other protected preserves in eastern Iowa; Field Crew Members serve on a four-person crew under a Crew Leader restoring native habitat. The living allowance is $1,983 a month. Apply by November 13, 2026 for a January 2027 start.",
+    "desc": "Land-trust restoration service — familiar crew format from NCCC.",
+    "pills": [
+      "AmeriCorps",
+      "Land trust",
+      "Iowa",
+      "Restoration"
+    ],
+    "employer_type": "non-profit",
+    "url_label": "AmeriCorps Field Crew Member — habitat restoration on land-trust preserves (Bur Oak Land Trust, Iowa City IA)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=107765",
+        "label": "🔗 AmeriCorps Field Crew Member — habitat restoration on land-trust preserves (Bur Oak Land Trust, Iowa City IA)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2474",
+    "title": "Wildlife Research Technician (full-time temporary) — Wildlife Diversity Program, Iowa DNR, Boone IA",
+    "org": "Iowa Department of Natural Resources · Wildlife Diversity Program · Boone, IA",
+    "location": "Boone, Iowa",
+    "deadline": "January 11, 2027",
+    "deadline_date": "2027-01-11",
+    "badge": "Good fit",
+    "pay": "$15.25 per hour (published)",
+    "start": "May 2027",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119866",
+    "metaLine": "Boone IA · nongame wildlife research tech · statewide · $15.25/hr · by Jan 11",
+    "body": "Iowa DNR's Wildlife Diversity Program is hiring a full-time temporary research technician for data management, field data collection, outreach and equipment maintenance on many nongame species statewide. Pay is $15.25 an hour with no experience minimum. Apply by January 11, 2027 for a May 2027 start.",
+    "desc": "Varied nongame wildlife work across a whole state program.",
+    "pills": [
+      "Iowa",
+      "Nongame wildlife",
+      "Seasonal"
+    ],
+    "employer_type": "government",
+    "url_label": "Wildlife Research Technician (full-time temporary) — Wildlife Diversity Program, Iowa DNR, Boone IA",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119866",
+        "label": "🔗 Wildlife Research Technician (full-time temporary) — Wildlife Diversity Program, Iowa DNR, Boone IA"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2475",
+    "title": "Seasonal Avian Field Biologist — endangered San Clemente Loggerhead Shrike monitoring and release (Institute for Wildlife Studies, San Clemente Island CA)",
+    "org": "Institute for Wildlife Studies · San Clemente Island, CA",
+    "location": "San Clemente Island, California",
+    "deadline": "December 20, 2026",
+    "deadline_date": "2026-12-20",
+    "badge": "Good fit",
+    "pay": "Starting at $18.47 per hour (published)",
+    "start": "February 2027",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119855",
+    "metaLine": "San Clemente Island CA · endangered shrike field bio · $18.47/hr · by Dec 20",
+    "body": "The Institute for Wildlife Studies is hiring seasonal avian field biologists to monitor and release the San Clemente Loggerhead Shrike, a federally endangered subspecies endemic to San Clemente Island. Pay starts at $18.47 an hour; a bachelor's and about a year of experience are asked. Apply by December 20, 2026 for a February 2027 start.",
+    "desc": "Endangered-species recovery fieldwork on an island — strong for a federal résumé.",
+    "pills": [
+      "California",
+      "Endangered species",
+      "Birds",
+      "Seasonal"
+    ],
+    "employer_type": "non-profit",
+    "url_label": "Seasonal Avian Field Biologist — endangered San Clemente Loggerhead Shrike monitoring and release (Institute for Wildlife Studies, San Clemente Island CA)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119855",
+        "label": "🔗 Seasonal Avian Field Biologist — endangered San Clemente Loggerhead Shrike monitoring and release (Institute for Wildlife Studies, San Clemente Island CA)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "National / Remote / Multiple",
+    "id": "item-2476",
+    "title": "Marine Scientist — Fisheries Observer (at-sea, training January 2027) — Fathom Resources",
+    "org": "Fathom Resources · multiple ports",
+    "location": "Multiple U.S. ports (open port assignments)",
+    "deadline": "December 12, 2026",
+    "deadline_date": "2026-12-12",
+    "badge": "Good fit",
+    "pay": "$315–$350 per day at sea (published)",
+    "start": "Training January 12–28, 2027",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119857",
+    "metaLine": "Multiple ports · fisheries observer · BS, no experience · $315–350/day · by Dec 12",
+    "body": "Fathom Resources is hiring fisheries observers, with training running January 12–28, 2027 and full-time at-sea work beginning immediately after. Pay is $315–$350 a day; a bachelor's is required (send résumé, transcript and cover letter) with no experience minimum. Apply by December 12, 2026.",
+    "desc": "Well-paid NOAA-linked data collection that takes new science graduates.",
+    "pills": [
+      "At sea",
+      "Fisheries",
+      "Entry level",
+      "NOAA program"
+    ],
+    "employer_type": "private",
+    "url_label": "Marine Scientist — Fisheries Observer (at-sea, training January 2027) — Fathom Resources",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119857",
+        "label": "🔗 Marine Scientist — Fisheries Observer (at-sea, training January 2027) — Fathom Resources"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southwest",
+    "id": "item-2477",
+    "title": "Natural Resources Specialist I–III — Wildlife District 8 Biologist (Texas Parks and Wildlife, Bastrop TX)",
+    "org": "Texas Parks and Wildlife Department · Wildlife Division, District 8 · Bastrop, TX",
+    "location": "Bastrop, Texas",
+    "deadline": "November 13, 2026",
+    "deadline_date": "2026-11-13",
+    "badge": "Strong fit",
+    "pay": "$4,504.18–$5,824.14 per month (published)",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119858",
+    "metaLine": "Bastrop TX · state wildlife district biologist · BS, no experience · $4.5–5.8k/mo · by Nov 13",
+    "body": "Texas Parks and Wildlife is hiring a Natural Resources Specialist I, II or III as a Wildlife District 8 biologist in Bastrop, applying through CAPPS. Pay is $4,504.18–$5,824.14 a month and the listing asks for a bachelor's with no experience minimum. Apply by November 13, 2026.",
+    "desc": "A permanent state wildlife biologist post that a new BS can enter at level I.",
+    "pills": [
+      "Texas",
+      "Wildlife biologist",
+      "Permanent",
+      "Entry level"
+    ],
+    "employer_type": "government",
+    "url_label": "Natural Resources Specialist I–III — Wildlife District 8 Biologist (Texas Parks and Wildlife, Bastrop TX)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119858",
+        "label": "🔗 Natural Resources Specialist I–III — Wildlife District 8 Biologist (Texas Parks and Wildlife, Bastrop TX)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2478",
+    "title": "Bobwhite Quail Research Technician (full time) — Tall Timbers Albany Quail Project, Newton GA",
+    "org": "Tall Timbers Research Station · Albany Quail Project · Newton, GA",
+    "location": "Newton, Georgia",
+    "deadline": "January 31, 2027",
+    "deadline_date": "2027-01-31",
+    "badge": "Good fit",
+    "pay": "Not published (commensurate/negotiable)",
+    "start": "January 2027",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=113495",
+    "metaLine": "Newton GA · quail research tech · full time · Tall Timbers · by Jan 31",
+    "body": "Tall Timbers' Albany Quail Project is hiring a full-time Bobwhite Quail Research Technician to provide field and extension support for a research and monitoring program focused exclusively on bobwhite quail. Pay is listed as commensurate/negotiable. Applications run to January 31, 2027 for a January start.",
+    "desc": "Full-time wildlife research with a respected southeastern institute.",
+    "pills": [
+      "Georgia",
+      "Quail",
+      "Full time",
+      "Research"
+    ],
+    "employer_type": "non-profit",
+    "url_label": "Bobwhite Quail Research Technician (full time) — Tall Timbers Albany Quail Project, Newton GA",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=113495",
+        "label": "🔗 Bobwhite Quail Research Technician (full time) — Tall Timbers Albany Quail Project, Newton GA"
+      }
+    ]
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2479",
+    "title": "AmeriCorps California Condor Monitoring Technician (2) — Yurok Tribe Northern California Condor Restoration Program (Great Basin Institute, Orick CA)",
+    "org": "Great Basin Institute · Yurok Tribe · Orick, CA",
+    "location": "Orick, California",
+    "deadline": "November 11, 2026",
+    "deadline_date": "2026-11-11",
+    "badge": "Strong fit",
+    "stipend": "$255.33 per week as listed, plus AmeriCorps education award (published)",
+    "start": "After January 11, 2027",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119806",
+    "metaLine": "Orick CA · condor monitoring · AmeriCorps · Yurok Tribe · by Nov 11",
+    "body": "Great Basin Institute's Research Associate Program, with the Yurok Tribe, is recruiting two technicians for the Northern California Condor Restoration Program, monitoring released California condors on the North Coast. The listing gives $255.33 a week alongside AmeriCorps benefits; confirm the full living allowance with GBI. Apply by November 11, 2026 for a January 2027 start.",
+    "desc": "Endangered-species recovery with a tribal program — a rare condor field placement.",
+    "pills": [
+      "AmeriCorps",
+      "Condors",
+      "Tribal partner",
+      "California"
+    ],
+    "employer_type": "non-profit",
+    "url_label": "AmeriCorps California Condor Monitoring Technician (2) — Yurok Tribe Northern California Condor Restoration Program (Great Basin Institute, Orick CA)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119806",
+        "label": "🔗 AmeriCorps California Condor Monitoring Technician (2) — Yurok Tribe Northern California Condor Restoration Program (Great Basin Institute, Orick CA)"
       }
     ]
   }
