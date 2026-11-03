@@ -1,10 +1,10 @@
 {
-  "release": "5.88",
-  "build": "20261103-2586-835bbb4d",
-  "builtAt": "2026-11-03T06:19:49.194Z",
-  "total": 2586,
+  "release": "5.89",
+  "build": "20261103-2578-dd10602b",
+  "builtAt": "2026-11-03T06:20:42.907Z",
+  "total": 2578,
   "newCount": 0,
-  "updatedCount": 0,
-  "hash": "835bbb4d",
+  "updatedCount": 2,
+  "hash": "dd10602b",
   "date": "2026-11-03"
 }
