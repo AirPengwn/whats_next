@@ -110914,5 +110914,42 @@
         "label": "🔗 Game and Fish Technician - Fort Polk — CEMML (Colorado State University), Fort Polk, LA"
       }
     ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2612",
+    "title": "Environmental/Natural Resources Specialist II — Mississippi Dept. of Marine Resources, Harrison County",
+    "org": "Mississippi Dept. of Marine Resources · Harrison County",
+    "location": "Harrison County (Biloxi), MS",
+    "deadline": "November 10, 2026",
+    "badge": "Good fit",
+    "url": "https://www.governmentjobs.com/careers/mississippi/jobs/5532685",
+    "metaLine": "Harrison County · career · $40,286 - $44,315 · by Nov 10",
+    "body": "Marine fisheries and coastal resource science role working with MDMR and NOAA partners. Published pay: $40,286 - $44,315. Apply by November 10, 2026.",
+    "desc": "Step-up entry role in coastal resource science.",
+    "pills": [
+      "Harrison County",
+      "career"
+    ],
+    "employer_type": "government",
+    "deadline_date": "2026-11-10",
+    "pay": "$40,286 - $44,315",
+    "url_label": "Environmental/Natural Resources Specialist II — Mississippi Dept. of Marine Resources, Harrison County",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/mississippi/jobs/5532685",
+        "label": "🔗 Environmental/Natural Resources Specialist II — Mississippi Dept. of Marine Resources, Harrison County"
+      }
+    ]
   }
 ]
