@@ -1,34 +1,36 @@
 # Weekly opportunity sweep — 2026-11-03
 
-**Added 20 new** opportunities:
-- Bear Project Hourly Assistant — black bear research around Okefenokee NWR (Georgia DNR, Fargo GA) — _Good_ · Southeast & Appalachia · deadline: November 20, 2026
-- Wildlife Health Technician — Missouri Department of Conservation, Jefferson City — _Strong_ · Midwest & Great Plains · deadline: November 16, 2026
-- OPS Biological Scientist III — Ecological Data Specialist, FWRI Center for Biostatistics (Florida FWC, St. Petersburg) — _Reach / review_ · Southeast & Appalachia · deadline: November 19, 2026
-- Wildlife Biologist III — Coastal Birds (seabird and shorebird conservation), SCDNR, Charleston County — _Reach / review_ · Southeast & Appalachia · deadline: November 18, 2026
-- Fishery Biologist 2 — Chinook monitoring plan, Tuolumne River (Pacific States Marine Fisheries Commission, La Grange CA) — _Good_ · West Coast / Pacific · deadline: December 18, 2026
-- Fisheries Technician 1 — Ocean Salmon Project scale-age lab, with CDFW (PSMFC, Santa Rosa CA) — _Good_ · West Coast / Pacific · deadline: November 20, 2026
-- GIS and Cartography Support Members (4) — USFWS Midwest Regional Office (American Conservation Experience, Bloomington MN) — _Excellent_ · Midwest & Great Plains · deadline: November 18, 2026
-- Habitat Technician — habitat and land management crew (Cornerstone Habitat & Land Management, Jackson OH) — _Good_ · Midwest & Great Plains · deadline: November 27, 2026
-- Forest Wildlife Specialist — Hoosier National Forest (Ruffed Grouse Society & American Woodcock Society, Tell City IN) — _Strong_ · Midwest & Great Plains · deadline: November 30, 2026
-- Short-term lab and field technician (2) — chorus frog behavior and acoustic signals (Lemmon Lab, Florida State University) — _Good_ · Southeast & Appalachia · deadline: November 30, 2026
-- Habitat GIS and Data Management Specialist 2 (PSMFC, Portland OR) — _Strong_ · West Coast / Pacific · deadline: November 30, 2026
-- Avian Point Count / Nest Searching Technicians (3) and Crew Leader — solar energy impacts on birds, NW Colorado (Colorado Parks and Wildlife, Hayden CO) — _Good_ · Mountain West · deadline: January 29, 2027
-- Seasonal Fisheries Field Technician — native freshwater fishes (American Southwest Ichthyological Researchers, Albuquerque NM) — _Good_ · Southwest · deadline: December 31, 2026
-- AmeriCorps Field Crew Member — habitat restoration on land-trust preserves (Bur Oak Land Trust, Iowa City IA) — _Good_ · Midwest & Great Plains · deadline: November 13, 2026
-- Wildlife Research Technician (full-time temporary) — Wildlife Diversity Program, Iowa DNR, Boone IA — _Good_ · Midwest & Great Plains · deadline: January 11, 2027
-- Seasonal Avian Field Biologist — endangered San Clemente Loggerhead Shrike monitoring and release (Institute for Wildlife Studies, San Clemente Island CA) — _Good_ · West Coast / Pacific · deadline: December 20, 2026
-- Marine Scientist — Fisheries Observer (at-sea, training January 2027) — Fathom Resources — _Good_ · National / Remote / Multiple · deadline: December 12, 2026
-- Natural Resources Specialist I–III — Wildlife District 8 Biologist (Texas Parks and Wildlife, Bastrop TX) — _Strong_ · Southwest · deadline: November 13, 2026
-- Bobwhite Quail Research Technician (full time) — Tall Timbers Albany Quail Project, Newton GA — _Good_ · Southeast & Appalachia · deadline: January 31, 2027
-- AmeriCorps California Condor Monitoring Technician (2) — Yurok Tribe Northern California Condor Restoration Program (Great Basin Institute, Orick CA) — _Strong_ · West Coast / Pacific · deadline: November 11, 2026
+**Added 21 new** opportunities:
+- Graduate Assistantship (MS/PhD): Spatial Hydrology / Riverscape Assessment — Texas State University, San Marcos, TX — _Strong_ · Southwest · deadline: December 1, 2026
+- PhD Assistantship: Watershed Management and Water Resources — New Mexico State University, Las Cruces, NM — _Reach / review_ · Southwest · deadline: November 13, 2026
+- MS Assistantship: Strategies to Accelerate Masked Bobwhite Recovery — Caesar Kleberg Wildlife Research Institute, Kingsville, TX — _Good_ · Southwest · deadline: November 11, 2026
+- PhD Assistantship: Migratory Mule Deer Resource Selection, Migration and Harvest — Texas A&M University, College Station, TX — _Reach / review_ · Southwest · deadline: January 18, 2027
+- PhD Position: Backwater Slough Wetlands, Central Platte River Valley — Oklahoma State University, Stillwater, OK — _Reach / review_ · Southwest · deadline: December 1, 2026
+- Doctoral Student in Environmental Toxicology (Wildlife Toxicology) — Texas Tech University, Lubbock, TX — _Reach / review_ · Southwest · deadline: December 1, 2026
+- PhD Assistantship: Grazing Management for Multiple Socio-ecological Services — Texas A&M University-Kingsville, Kingsville, TX — _Reach / review_ · Southwest · deadline: November 27, 2026
+- Data Intern — Texan by Nature, Austin, TX — _Good_ · Southwest · deadline: November 30, 2026
+- Field Biologist (Raptor Specialist) — Harris Environmental Group, Northern New Mexico — _Good_ · Southwest · deadline: December 1, 2026
+- Environmental Protection Specialist I-III — Texas Water Development Board, Austin, TX — _Good_ · Southwest · deadline: November 11, 2026
+- Trails Data Specialist (AmeriCorps) — Arizona Conservation Corps, Sedona, AZ — _Good_ · Southwest · deadline: November 22, 2026
+- Biological Science Technician (Wildlife) - Temporary — U.S. Fish and Wildlife Service, Newburyport, MA — _Strong_ · Northeast · deadline: November 9, 2026
+- FUL - Biological Science Technician (Wildlife) — U.S. Fish and Wildlife Service, Errol, NH — _Strong_ · Northeast · deadline: November 16, 2026
+- Biological Scientist (Environmental) - PALACE Acquire — Air Force Civilian Career Training (McGuire AFB), McGuire AFB, NJ — _Good_ · Northeast · deadline: September 30, 2027
+- Lakes Region Conservation Corps Member — _Good_ · Northeast · deadline: November 12, 2026
+- Chesapeake Bay Program Clean Water Goal Team Staffer — Chesapeake Research Consortium, Annapolis, MD — _Strong_ · Northeast · deadline: November 16, 2026
+- Summer Research Fellow — Edmund Niles Huyck Preserve and Biological Research Station, Rensselaerville, NY — _Good_ · Northeast · deadline: November 14, 2026
+- Fish and Wildlife Technician 1 (Wild Turkey study) — New York State Department of Environmental Conservation, Buffalo, NY — _Good_ · Northeast · deadline: November 13, 2026
+- Environmental Program Specialist 1 / Trainee 1-2 (NY HELPS) - Lake Champlain watershed — New York State Department of Environmental Conservation, Albany, NY — _Strong_ · Northeast · deadline: November 11, 2026
+- Environmental Trainee - Mining — Pennsylvania Department of Environmental Protection, Cambria County, PA — _Good_ · Northeast · deadline: November 17, 2026
+- Aquatic Biologist 1 (Limited-Term) — Pennsylvania Department of Environmental Protection, Harrisburg — _Strong_ · Northeast · deadline: November 15, 2026
 
 **⚠ Review these (reach / weak fit — your call whether to keep):**
-- OPS Biological Scientist III — Ecological Data Specialist, FWRI Center for Biostatistics (Florida FWC, St. Petersburg) — _Reach / review_ · Southeast & Appalachia · deadline: November 19, 2026
-- Wildlife Biologist III — Coastal Birds (seabird and shorebird conservation), SCDNR, Charleston County — _Reach / review_ · Southeast & Appalachia · deadline: November 18, 2026
+- PhD Assistantship: Watershed Management and Water Resources — New Mexico State University, Las Cruces, NM — _Reach / review_ · Southwest · deadline: November 13, 2026
+- PhD Assistantship: Migratory Mule Deer Resource Selection, Migration and Harvest — Texas A&M University, College Station, TX — _Reach / review_ · Southwest · deadline: January 18, 2027
+- PhD Position: Backwater Slough Wetlands, Central Platte River Valley — Oklahoma State University, Stillwater, OK — _Reach / review_ · Southwest · deadline: December 1, 2026
+- Doctoral Student in Environmental Toxicology (Wildlife Toxicology) — Texas Tech University, Lubbock, TX — _Reach / review_ · Southwest · deadline: December 1, 2026
+- PhD Assistantship: Grazing Management for Multiple Socio-ecological Services — Texas A&M University-Kingsville, Kingsville, TX — _Reach / review_ · Southwest · deadline: November 27, 2026
 
-**Updated 2** (deadline / status / description changed):
-- Biological Science Technician (Wildlife), GS-3/4/5/6 — statewide Ohio — _Good_ · Midwest & Great Plains · deadline: November 6, 2026 (re-posted as WSER-OH-27-02, GS-3/4/5/6, 2 positions)
-- Fisheries Technician 1 — JPE spring-run Chinook monitoring — _Strong_ · West Coast / Pacific · deadline: December 15, 2026 (re-posted; start January 4, 2027)
+**Updated 0** (deadline / status / description changed).
 
-**Total opportunities:** 2450  ·  next-cycle: 580  ·  expired (one-time, no future cycle): 805
+**Total opportunities:** 2471  ·  next-cycle: 580  ·  expired (one-time, no future cycle): 805
 Triage: passed-but-recurring → `cycle:"next"`; one-time/discontinued → `expired:true`. Passed/expired are hidden on the site by default (toggle to show); never deleted, never moved to the personal Archive. Fit tiers: _Excellent_ / _Strong_ / _Good_ / _Reach / review_ (set via each entry's badge). The Browse pages render from this data automatically — no HTML edits. Nothing is live until this PR is merged.
