@@ -17541,7 +17541,7 @@
       "University of Florida"
     ],
     "metaLine": "Deadline Oct 31, 2026 · $30,000/year · Gainesville, FL · contaminant fate & transport",
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-10-31",
     "region": "Southeast & Appalachia",
@@ -18729,7 +18729,8 @@
     "benefits": "Confirm benefits with the employer",
     "id": "item-418",
     "start_date": "2026-10-30",
-    "relocation": "lead"
+    "relocation": "lead",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -19203,7 +19204,8 @@
     "benefits": "Confirm benefits with the employer",
     "id": "item-431",
     "start_date": "2026-11-02",
-    "relocation": "local"
+    "relocation": "local",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -21659,7 +21661,8 @@
     "benefits": "Confirm benefits with the employer",
     "id": "item-488",
     "start_date": "2026-08-30",
-    "relocation": "tight"
+    "relocation": "tight",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -21701,7 +21704,8 @@
     "benefits": "Confirm benefits with the employer",
     "id": "item-489",
     "start_date": "2026-08-30",
-    "relocation": "tight"
+    "relocation": "tight",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -22961,7 +22965,7 @@
       "⚠️ Stipend not published"
     ],
     "metaLine": "Deadline Aug 28, 2026 · stipend not published · Shepherdstown WV · ⚠️ MS listed",
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-10-30",
     "region": "Northeast",
@@ -30057,7 +30061,8 @@
       "⚠️ Forestry, not wetlands"
     ],
     "start_date": "2026-11-01",
-    "relocation": "lead"
+    "relocation": "lead",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -31579,7 +31584,7 @@
       "kind": "s-new",
       "label": "✨ New — August 3, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-10-31",
     "region": "Midwest & Great Plains",
@@ -36787,7 +36792,7 @@
       "kind": "s-new",
       "label": "✨ New — August 10, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-10-30",
     "region": "Midwest & Great Plains",
@@ -37249,7 +37254,8 @@
       "Listed-species programmes"
     ],
     "start_date": "2026-10-31",
-    "relocation": "lead"
+    "relocation": "lead",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -39181,7 +39187,8 @@
       "Long window to Oct 31"
     ],
     "start_date": "2026-10-31",
-    "relocation": "local"
+    "relocation": "local",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -43928,7 +43935,8 @@
     "deadline_date": "2026-11-02",
     "start": "Rolling through November 3, 2026",
     "start_date": "2026-11-03",
-    "relocation": "lead"
+    "relocation": "lead",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -44538,7 +44546,8 @@
     "deadline_date": "2026-11-01",
     "start": "From July 2026, ongoing",
     "start_date": "2026-07-01",
-    "relocation": "tight"
+    "relocation": "tight",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -46445,7 +46454,8 @@
     "deadline_date": "2026-11-01",
     "start": "Between September and November 2026",
     "start_date": "2026-11-01",
-    "relocation": "local"
+    "relocation": "local",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -46718,7 +46728,7 @@
       "kind": "s-new",
       "label": "✨ New — August 24, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-1077",
@@ -46761,7 +46771,7 @@
       "kind": "s-new",
       "label": "✨ New — August 24, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southwest",
     "id": "item-1078",
@@ -48358,7 +48368,7 @@
       "kind": "s-new",
       "label": "✨ New — August 24, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-1115",
@@ -51795,7 +51805,8 @@
     ],
     "start": "after 1/1/2027",
     "relocation": "lead",
-    "deadline_date": "2026-10-31"
+    "deadline_date": "2026-10-31",
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -53618,7 +53629,7 @@
       "kind": "s-new",
       "label": "✨ New — August 31, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-1238",
@@ -56613,7 +56624,8 @@
     ],
     "start": "After October 1, 2026",
     "relocation": "lead",
-    "deadline_date": "2026-10-31"
+    "deadline_date": "2026-10-31",
+    "expired": true
   },
   {
     "type": "Graduate Program",
@@ -57874,7 +57886,8 @@
     ],
     "start": "Autumn 2026, year-round",
     "relocation": "lead",
-    "deadline_date": "2026-11-01"
+    "deadline_date": "2026-11-01",
+    "expired": true
   },
   {
     "type": "Internship",
@@ -59605,7 +59618,8 @@
       }
     ],
     "url": "https://landtrustalliance.org/job-board/stewardship-specialist-1788283430429",
-    "url_label": "Land Trust Alliance — Lancaster Farmland Trust"
+    "url_label": "Land Trust Alliance — Lancaster Farmland Trust",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -59832,7 +59846,7 @@
       "kind": "s-new",
       "label": "✨ Re-posted — October 20, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-1385",
@@ -60801,7 +60815,8 @@
     ],
     "start": "Between September 23 and October 30, 2026",
     "relocation": "local",
-    "deadline_date": "2026-10-30"
+    "deadline_date": "2026-10-30",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -61265,7 +61280,7 @@
       "kind": "s-new",
       "label": "✨ New — September 13, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Northeast",
     "id": "item-1416",
@@ -61620,7 +61635,8 @@
     "start": "After January 1, 2027 · 18–24 months in residence",
     "relocation": "local",
     "deadline_date": "2026-10-31",
-    "start_date": "2027-01-04"
+    "start_date": "2027-01-04",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -61666,7 +61682,8 @@
     ],
     "start": "Before December 31, 2026",
     "relocation": "local",
-    "deadline_date": "2026-10-31"
+    "deadline_date": "2026-10-31",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -62674,7 +62691,7 @@
       "kind": "s-new",
       "label": "✨ New — September 13, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-1447",
@@ -63991,7 +64008,8 @@
     ],
     "start": "See posting",
     "relocation": "local",
-    "deadline_date": "2026-10-30"
+    "deadline_date": "2026-10-30",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -68680,7 +68698,7 @@
       "kind": "s-new",
       "label": "✨ New — September 13, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Prairies (AB/SK/MB)",
     "id": "item-1588",
@@ -68723,7 +68741,7 @@
       "kind": "s-new",
       "label": "✨ New — September 13, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southwest",
     "id": "item-1589",
@@ -70286,7 +70304,7 @@
       "kind": "s-new",
       "label": "✨ New — September 15, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-1625",
@@ -70415,7 +70433,8 @@
     "relocation": "housed",
     "deadline_date": "2026-10-30",
     "start_date": "2027-01-04",
-    "housing_provided": true
+    "housing_provided": true,
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -71299,7 +71318,8 @@
     ],
     "start": "Upon selection",
     "relocation": "local",
-    "deadline_date": "2026-10-31"
+    "deadline_date": "2026-10-31",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -71882,7 +71902,7 @@
       "kind": "s-new",
       "label": "✨ New — September 22, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "West Coast / Pacific",
     "id": "item-1661",
@@ -71970,7 +71990,7 @@
       "kind": "s-new",
       "label": "✨ New — September 22, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-1663",
@@ -72058,7 +72078,7 @@
       "kind": "s-new",
       "label": "✨ New — September 22, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southwest",
     "id": "item-1665",
@@ -72143,7 +72163,8 @@
     "deadline_date": "2026-10-31",
     "start_date": "2026-10-01",
     "housing_provided": false,
-    "relocation": "tight"
+    "relocation": "tight",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -72191,7 +72212,8 @@
     "deadline_date": "2026-10-30",
     "start_date": "2026-11-02",
     "housing_provided": false,
-    "relocation": "local"
+    "relocation": "local",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -72627,7 +72649,8 @@
     "deadline_date": "2026-10-30",
     "start_date": "2026-12-01",
     "housing_provided": false,
-    "relocation": "local"
+    "relocation": "local",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -73153,7 +73176,8 @@
     "deadline_date": "2026-11-01",
     "start_date": "2027-01-04",
     "housing_provided": false,
-    "relocation": "local"
+    "relocation": "local",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -73433,7 +73457,8 @@
     "deadline_date": "2026-11-02",
     "start_date": "2026-11-02",
     "housing_provided": false,
-    "relocation": "tight"
+    "relocation": "tight",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -73575,7 +73600,8 @@
     "deadline_date": "2026-11-01",
     "start_date": "2027-02-01",
     "housing_provided": true,
-    "relocation": "housed"
+    "relocation": "housed",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -74626,7 +74652,8 @@
     "deadline_date": "2026-10-30",
     "start_date": "2026-11-15",
     "housing_provided": false,
-    "relocation": "lead"
+    "relocation": "lead",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -74670,7 +74697,8 @@
     "deadline_date": "2026-10-30",
     "start_date": "2027-02-01",
     "housing_provided": false,
-    "relocation": "lead"
+    "relocation": "lead",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -74714,7 +74742,8 @@
     "deadline_date": "2026-10-30",
     "start_date": "2026-11-15",
     "housing_provided": false,
-    "relocation": "lead"
+    "relocation": "lead",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -74758,7 +74787,8 @@
     "deadline_date": "2026-10-30",
     "start_date": "2027-02-01",
     "housing_provided": false,
-    "relocation": "lead"
+    "relocation": "lead",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -75963,7 +75993,8 @@
     "deadline_date": "2026-11-01",
     "start_date": "2026-12-01",
     "housing_provided": false,
-    "relocation": "local"
+    "relocation": "local",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -76023,7 +76054,7 @@
       "kind": "s-new",
       "label": "✨ New — September 29, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "West Coast / Pacific",
     "id": "item-1752",
@@ -76343,7 +76374,7 @@
       "kind": "s-new",
       "label": "✨ New — September 29, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southwest",
     "id": "item-1759",
@@ -76584,7 +76615,7 @@
       "kind": "s-new",
       "label": "✨ New — September 29, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-1764",
@@ -76997,7 +77028,8 @@
     "deadline_date": "2026-10-30",
     "start_date": "2026-12-01",
     "housing_provided": true,
-    "relocation": "housed"
+    "relocation": "housed",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -77086,7 +77118,8 @@
     "deadline_date": "2026-10-30",
     "start_date": "2027-01-04",
     "housing_provided": false,
-    "relocation": "lead"
+    "relocation": "lead",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -77183,7 +77216,8 @@
     "deadline_date": "2026-11-02",
     "start_date": "2026-11-02",
     "housing_provided": false,
-    "relocation": "tight"
+    "relocation": "tight",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -77556,7 +77590,8 @@
     "deadline_date": "2026-10-30",
     "start_date": "2026-11-01",
     "housing_provided": false,
-    "relocation": "planned"
+    "relocation": "planned",
+    "expired": true
   },
   {
     "type": "Graduate Program",
@@ -78443,7 +78478,7 @@
       "kind": "s-new",
       "label": "✨ New — September 29, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-1804",
@@ -81826,7 +81861,7 @@
       "kind": "s-new",
       "label": "✨ New — September 29, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Northeast",
     "id": "item-1879",
@@ -82214,7 +82249,7 @@
       "kind": "s-new",
       "label": "✨ New — October 6, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southwest",
     "id": "item-1888",
@@ -82256,7 +82291,7 @@
       "kind": "s-new",
       "label": "✨ New — October 6, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southwest",
     "id": "item-1889",
@@ -82384,7 +82419,7 @@
       "kind": "s-new",
       "label": "✨ New — October 6, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-1892",
@@ -82752,7 +82787,8 @@
       "Mid-Atlantic"
     ],
     "start": "After November 2, 2026",
-    "deadline_date": "2026-11-01"
+    "deadline_date": "2026-11-01",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -82885,7 +82921,8 @@
       "Benefits"
     ],
     "start": "After November 2, 2026",
-    "deadline_date": "2026-10-30"
+    "deadline_date": "2026-10-30",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -83013,7 +83050,8 @@
       "$20–23/hr"
     ],
     "start": "After October 12, 2026",
-    "deadline_date": "2026-10-30"
+    "deadline_date": "2026-10-30",
+    "expired": true
   },
   {
     "type": "Graduate Program",
@@ -83136,7 +83174,8 @@
     ],
     "start": "After February 28, 2027",
     "deadline_date": "2026-10-30",
-    "start_date": "2027-03-01"
+    "start_date": "2027-03-01",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -83755,7 +83794,8 @@
     ],
     "start": "February 15 to June 4, 2027",
     "deadline_date": "2026-10-31",
-    "start_date": "2027-02-15"
+    "start_date": "2027-02-15",
+    "expired": true
   },
   {
     "type": "Internship",
@@ -84128,7 +84168,8 @@
     ],
     "start": "As soon as possible (November 2026)",
     "deadline_date": "2026-10-30",
-    "start_date": "2026-11-06"
+    "start_date": "2026-11-06",
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -84417,7 +84458,8 @@
       "$40–45k"
     ],
     "start": "Before April 1, 2027",
-    "deadline_date": "2026-10-31"
+    "deadline_date": "2026-10-31",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -84683,7 +84725,7 @@
       "kind": "s-new",
       "label": "✨ New — October 6, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Mountain West",
     "id": "item-1947",
@@ -85477,7 +85519,7 @@
       "kind": "s-new",
       "label": "✨ New — October 6, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Northeast",
     "id": "item-1967",
@@ -85873,7 +85915,8 @@
       "GIS mapping",
       "$29+/hr"
     ],
-    "deadline_date": "2026-11-02"
+    "deadline_date": "2026-11-02",
+    "expired": true
   },
   {
     "type": "Internship",
@@ -86151,7 +86194,8 @@
       "GPS mapping",
       "$24.84–30.36/hr"
     ],
-    "deadline_date": "2026-10-30"
+    "deadline_date": "2026-10-30",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -86936,7 +86980,8 @@
       "Consultancy",
       "CAD $54.8–75.4k"
     ],
-    "deadline_date": "2026-10-28"
+    "deadline_date": "2026-10-28",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -87017,7 +87062,8 @@
       "Okanagan",
       "From CAD $22/hr"
     ],
-    "deadline_date": "2026-10-27"
+    "deadline_date": "2026-10-27",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -87174,7 +87220,8 @@
       "No experience minimum",
       "CAD $60–65k"
     ],
-    "deadline_date": "2026-11-01"
+    "deadline_date": "2026-11-01",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -87257,7 +87304,8 @@
       "Eelgrass + salmon",
       "CAD $50–60k"
     ],
-    "deadline_date": "2026-10-31"
+    "deadline_date": "2026-10-31",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -87629,7 +87677,7 @@
       "kind": "s-new",
       "label": "✨ New — October 13, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-2021",
@@ -87906,7 +87954,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119406",
         "label": "🔗 Natural Resources Specialist I–III (Wildlife District 11 Biologist) — Kleberg, Brooks and Kenedy counties (Texas Parks & Wildlife, Kingsville)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -88030,7 +88079,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119425",
         "label": "🔗 Public Lands Manager I — wetland and moist-soil management at Cheyenne Bottoms Wildlife Area (Kansas Dept. of Wildlife & Parks, Great Bend)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Internship",
@@ -88041,7 +88091,7 @@
       "kind": "s-new",
       "label": "✨ New — October 13, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-2031",
@@ -88674,7 +88724,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=100192",
         "label": "🔗 Rare Carnivore Monitoring Field Technician — winter lynx and wolverine snow-track and bait-station surveys (Swan Valley Connections, Condon MT)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -88751,7 +88802,8 @@
         "href": "https://www.governmentjobs.com/careers/wyoming/jobs/5504179",
         "label": "🔗 Fisheries Biologist — statewide recruitment, Pinedale vacancy (Wyoming Game and Fish Department, job 2026-02410)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -89035,7 +89087,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119422",
         "label": "🔗 Wildlife Biologist — Nuisance Wildlife Control, Dallas (Wildernex LLC)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -89274,7 +89327,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-resilient-indiana-conservation-technician-various-indiana/7479399020",
         "label": "🔗 Resilient Indiana Conservation Technician — soil and water technical assistance with the Indiana Conservation Partnership (Indiana Assoc. of Soil & Water Conservation Districts)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -89357,7 +89411,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119351",
         "label": "🔗 Wildlife — Turkey Project Temporary Worker (2) — winter trapping, habitat work and disease sampling on a 10-year turkey study (Iowa DNR)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -89713,7 +89768,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119362",
         "label": "🔗 Seasonal Technician II — Forest Landscape Ecology Lab, hurricane ecology and longleaf forest research (The Jones Center at Ichauway, Newton GA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -90000,7 +90056,8 @@
         "href": "https://mtstatejobs.taleo.net/careersection/200/jobdetail.ftl?job=26142552&tz=GMT-06%3A00&tzname=America%2FDenver",
         "label": "🔗 Water Quality Scientist (TMDL Planner) — water-quality improvement plans for Montana streams, lakes and rivers (Montana DEQ, Helena)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -90081,7 +90138,8 @@
         "href": "https://gadnr.org/careers",
         "label": "🔗 Urban Wildlife Program Manager (Mgr 1, Natural Resources) — metro Atlanta and Savannah urban wildlife programme (Georgia DNR Wildlife Resources Division)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Graduate Program",
@@ -90994,7 +91052,8 @@
         "href": "https://landtrustalliance.org/job-board/conservation-easement-steward-1791469548736",
         "label": "🔗 Conservation Easement Steward — annual easement monitoring and reports (Finger Lakes Land Trust, Ithaca NY)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -91114,7 +91173,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-watershed-specialist-hawley-pennsylvania/4243512070",
         "label": "🔗 Watershed Specialist — leads the district's surface and groundwater programme (Pike County Conservation District, Hawley PA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -91193,7 +91253,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-easement-program-stewardship-specialist-walton-new-york/3591176931",
         "label": "🔗 Easement Program Stewardship Specialist — monitoring agricultural and forest conservation easements in the NYC watershed (Watershed Agricultural Council, Walton NY)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -91350,7 +91411,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-river-star-coordinator-norfolk-virginia/7598690375",
         "label": "🔗 River Star Coordinator — river-friendly homes, businesses and schools restoration programme (Elizabeth River Project, Norfolk VA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -91830,7 +91892,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119505",
         "label": "🔗 Restoration Technician — oak woodland restoration on Santa Cruz Island, Channel Islands NP (California Institute of Environmental Studies, Ventura CA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -91869,7 +91932,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119506",
         "label": "🔗 Seasonal Invasive Plant Technician — invasive control and habitat restoration on Santa Rosa Island, Channel Islands NP (California Institute of Environmental Studies)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -92027,7 +92091,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119465",
         "label": "🔗 Wildlife Habitat Biologist I — Farm Bill grassland habitat work with private landowners (Bird Conservancy of the Rockies, Baker or Ekalaka MT)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -92343,7 +92408,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119421",
         "label": "🔗 Natural Resource Monitor — T&E species, nesting bird surveys and BMP monitoring on construction sites (EGC Inc, Sasabe AZ)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -92882,7 +92948,7 @@
       "kind": "s-new",
       "label": "✨ New — October 20, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-2152",
@@ -93087,7 +93153,7 @@
       "kind": "s-new",
       "label": "✨ New — October 20, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southwest",
     "id": "item-2157",
@@ -93250,7 +93316,7 @@
       "kind": "s-new",
       "label": "✨ New — October 20, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-2161",
@@ -93453,7 +93519,7 @@
       "kind": "s-new",
       "label": "✨ New — October 20, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Prairies (AB/SK/MB)",
     "id": "item-2166",
@@ -93653,7 +93719,7 @@
       "kind": "s-new",
       "label": "✨ New — October 20, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Northeast",
     "id": "item-2171",
@@ -93801,7 +93867,8 @@
         "href": "https://www.usajobs.gov/job/888642900",
         "label": "🔗 Wildlife Biologist (GS-7 to GS-11, full performance level) — Northern Maine National Wildlife Refuge Complex (USFWS, Baring ME, USAJOBS 888642900)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -93840,7 +93907,8 @@
         "href": "https://www.usajobs.gov/job/889186600",
         "label": "🔗 Park Ranger (GS-7/9, full performance level) — visitor services and environmental education, Parker River NWR (USFWS, Newburyport MA, USAJOBS 889186600)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -93957,7 +94025,8 @@
         "href": "https://statejobs.ny.gov/public/vacancyDetailsView.cfm?id=226892",
         "label": "🔗 Environmental Analyst 1 / Trainee 1–2 (NY HELPS) — interdisciplinary permit and SEQR project review (NYS DEC, Syracuse)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -94075,7 +94144,8 @@
         "href": "https://statejobs.ny.gov/public/vacancyDetailsView.cfm?id=226567",
         "label": "🔗 Fish and Wildlife Technician 2 (NY HELPS) — Region 6 trout-pond, St. Lawrence and Lake Ontario surveys and Tug Hill stream habitat (NYS DEC, Dexter NY)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -94402,7 +94472,8 @@
         "label": "🔗 Van Buren County posting"
       }
     ],
-    "url2": "https://www.governmentjobs.com/careers/iowa/jobs/5514653/soil-conservation-technician-van-buren-co"
+    "url2": "https://www.governmentjobs.com/careers/iowa/jobs/5514653/soil-conservation-technician-van-buren-co",
+    "expired": true
   },
   {
     "type": "Internship",
@@ -94413,7 +94484,7 @@
       "kind": "s-new",
       "label": "✨ New — October 20, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-2190",
@@ -94452,7 +94523,7 @@
       "kind": "s-new",
       "label": "✨ New — October 20, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-2191",
@@ -94524,7 +94595,8 @@
         "label": "🔗 Warren District Office posting"
       }
     ],
-    "url2": "https://www.governmentjobs.com/careers/michigan/jobs/5512979"
+    "url2": "https://www.governmentjobs.com/careers/michigan/jobs/5512979",
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -94644,7 +94716,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-community-outreach-specialist-prior-lake-minnesota/7574472850",
         "label": "🔗 Community Outreach Specialist — watershed district outreach and education (Prior Lake-Spring Lake Watershed District, Prior Lake MN)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Internship",
@@ -94802,7 +94875,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119542",
         "label": "🔗 Program Specialist Senior — long-term field and lab measurements for the Jornada Basin LTER (New Mexico State University, Las Cruces NM)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -94879,7 +94953,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119121",
         "label": "🔗 Research Associate — wild pig damage mitigation and exclusion fencing (Texas A&M Natural Resources Institute, Center for Grazinglands & Ranch Management)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -94998,7 +95073,8 @@
         "href": "https://www.goodwork.ca/jobs/conservation-land-stewardship-ecological-monitoring-habitat-management-ecological-surveys-and-field-work-jobs-76805",
         "label": "🔗 Stewardship Coordinator, Nature Reserves (1-year contract) — reserve monitoring, ELC surveys and volunteer stewards (Ontario Nature, Toronto ON)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Graduate Program",
@@ -95594,7 +95670,8 @@
         "href": "https://www.usajobs.gov/job/888886700",
         "label": "🔗 Biological Science Technician (Plants) GS-6/7/8 — tropical plant germplasm collection (USDA ARS Pacific Basin Agricultural Research Center, Hilo HI)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -95714,7 +95791,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-community-outreach--environmental-educational-specialist-3-walla-walla-washington/4166613284",
         "label": "🔗 Community Outreach & Environmental Education Specialist 3 — Sagebrush Conservation Nursery inside Washington State Penitentiary (Evergreen State College, Sustainability in Prisons Project)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -95927,7 +96005,7 @@
       "kind": "s-new",
       "label": "✨ New — October 20, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "West Coast / Pacific",
     "id": "item-2228",
@@ -95995,7 +96073,8 @@
         "href": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=501896",
         "label": "🔗 Scientific Aid (intermittent, non-testing) — supporting water-quality staff (California State Water Resources Control Board, Sacramento)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -96039,7 +96118,8 @@
         "label": "🔗 Shasta County posting"
       }
     ],
-    "url2": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=532222"
+    "url2": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=532222",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -96118,7 +96198,8 @@
         "href": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=535450",
         "label": "🔗 Fish and Wildlife Scientific Aid — pelagic fisheries program, Los Angeles County (California Department of Fish and Wildlife)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -96157,7 +96238,8 @@
         "href": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=536066",
         "label": "🔗 Fish and Wildlife Scientific Aid — invasive nutria eradication in Central Valley wetlands, Merced County (California Department of Fish and Wildlife)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -96236,7 +96318,8 @@
         "href": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=535644",
         "label": "🔗 Fish and Wildlife Technician (permanent intermittent) — Sacramento County (California Department of Fish and Wildlife)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -96354,7 +96437,8 @@
         "href": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=535285",
         "label": "🔗 Environmental Scientist (Water Quality, permanent intermittent) — Delta continuous monitoring stations and sampling (California Department of Water Resources, West Sacramento)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -96433,7 +96517,8 @@
         "href": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=533625",
         "label": "🔗 Environmental Scientist — water-quality enforcement, North Coast Regional Water Board (Santa Rosa or Eureka CA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -96511,7 +96596,8 @@
         "href": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=534667",
         "label": "🔗 Environmental Scientist — natural resources, San Luis Obispo Coast District (California State Parks)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -96642,7 +96728,7 @@
       "kind": "s-new",
       "label": "✨ New — October 20, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "West Coast / Pacific",
     "id": "item-2246",
@@ -96841,7 +96927,7 @@
       "kind": "s-new",
       "label": "✨ New — October 20, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Mountain West",
     "id": "item-2251",
@@ -96987,7 +97073,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-yellowstone-winter-ecology-field-instructor---winter-2027-missoula-montana/9882273116",
         "label": "🔗 Yellowstone Winter Ecology Field Instructor (Winter 2027, extendable to September) (Ecology Project International, Missoula MT)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -97027,7 +97114,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-field-instructorlead-instructor-jackson-wyoming/6582872506",
         "label": "🔗 Field Instructor / Lead Instructor (Jan–Nov 2027) — place-based field education in Grand Teton and Yellowstone (Teton Science Schools, Jackson WY)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -97258,7 +97346,8 @@
         "href": "https://landtrustalliance.org/job-board/land-steward-1792095496774",
         "label": "🔗 Land Steward — preserve and trail stewardship, inspections and vegetation management (Land Trust of North Alabama, Huntsville AL)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -97296,7 +97385,8 @@
         "href": "https://landtrustalliance.org/job-board/stewardship-technician-1791823807132",
         "label": "🔗 Stewardship Technician (full-time) — invasive control, restoration plantings, monitoring and GIS data on protected lands (Skagit Land Trust, Mount Vernon WA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -97346,7 +97436,7 @@
       "kind": "s-new",
       "label": "✨ New — October 20, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Mountain West",
     "id": "item-2264",
@@ -97414,7 +97504,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-resource-compliance-technician-el-paso-texas/7466292726",
         "label": "🔗 Resource Compliance Technician (full-time, field-based) — environmental compliance on construction projects (Landhawk Consulting, El Paso TX)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -97453,7 +97544,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-wildlife-technician-phoenix-arizona/7999626182",
         "label": "🔗 Wildlife Technician — Wildlife Management Division Research Branch (Arizona Game and Fish Department, Phoenix AZ)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -97647,7 +97739,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-state-heritage-botanist-research-scientist-2-sauk-rapids-minnesota/3534595062",
         "label": "🔗 State Heritage Botanist (Research Scientist 2) — lead statewide botanist for the Minnesota Biological Survey (MN DNR, Sauk Rapids MN)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -97805,7 +97898,8 @@
         "href": "https://www.usajobs.gov/job/888866000",
         "label": "🔗 Biological Science Technician (Plants), Seasonal GS-7 — vegetation monitoring in Shenandoah National Park (NPS, Luray VA, USAJOBS 888866000)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -97926,7 +98020,8 @@
         "href": "https://www.usajobs.gov/job/889037200",
         "label": "🔗 Forestry Technician (IPM), Seasonal GS-5 — exotic plant management and ecological restoration, Great Smoky Mountains NP (NPS, Gatlinburg TN, USAJOBS 889037200)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -97965,7 +98060,8 @@
         "href": "https://nc.wd108.myworkdayjobs.com/NC_Careers/job/Chatham-County-NC/Jordan-Conservation-Technician-I_JR-126544",
         "label": "🔗 Jordan Conservation Technician I — game-land habitat management, surveys and prescribed burning around Jordan Lake (NC Wildlife Resources Commission, Chatham County NC)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -98004,7 +98100,8 @@
         "href": "https://nc.wd108.myworkdayjobs.com/NC_Careers/job/Graham-County-NC/Forestry-Technician-II---County-Ranger_JR-126531",
         "label": "🔗 Forestry Technician II — County Ranger, Graham County (NC Forest Service, western NC)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -98127,7 +98224,8 @@
         "href": "https://jobs.myflorida.com/job/TEQUESTA-OPS-Bio-Scientist-I-FWC-77902141-FL-33469/1440102200/",
         "label": "🔗 OPS Biological Scientist I — FWRI Marine Mammals program, seasonal (Florida Fish & Wildlife Conservation Commission, Tequesta FL, #77902141)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -98286,7 +98384,8 @@
         "href": "https://www.governmentjobs.com/careers/louisiana/jobs/5519514/biologist-1-3-minden-wma",
         "label": "🔗 Biologist 1–3 — WMA land stewardship, browse surveys and moist-soil/shallow-water management (Louisiana Dept. of Wildlife & Fisheries, Minden LA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -98364,7 +98463,8 @@
         "href": "https://www.governmentjobs.com/careers/wv/jobs/5509649/wildlife-resources-specialist-1-2",
         "label": "🔗 Wildlife Resources Specialist 1/2 — R.D. Bailey Lake and Horse Creek Lake WMAs (West Virginia DNR, Wyoming County WV)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -98455,7 +98555,7 @@
       "kind": "s-new",
       "label": "✨ New — October 20, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-2292",
@@ -98572,7 +98672,7 @@
       "kind": "s-new",
       "label": "✨ New — October 20, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-2295",
@@ -98678,7 +98778,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-seasonal-trail-crew-member-great-smoky-mountains-us-other/6786672000",
         "label": "🔗 Seasonal Trail Crew Member — Appalachian Trail corridor in the Great Smoky Mountains region (Appalachian Trail Conservancy)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -98763,7 +98864,7 @@
       "kind": "s-new",
       "label": "✨ New — October 20, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-2300",
@@ -98808,7 +98909,7 @@
       "kind": "s-new",
       "label": "✨ New — October 20, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-2301",
@@ -98925,7 +99026,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119720",
         "label": "🔗 Texas A&M board listing"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -99279,7 +99381,8 @@
         "href": "https://www.usajobs.gov/job/889553900",
         "label": "🔗 Biological Science Technician (Shorebirds), GS-5/6 seasonal — Shorebird Management and Protection Program (NPS Cape Cod National Seashore, Wellfleet MA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -99554,7 +99657,8 @@
         "href": "https://ecoworks.eco.ca/jobs/779022889-junior-intermediate-biologist",
         "label": "🔗 Junior/Intermediate Biologist (contract) — fisheries and habitat restoration at the Aquatic Research and Restoration Centre (BC Conservation Foundation, Nanaimo BC)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Internship",
@@ -99918,7 +100022,7 @@
       "kind": "s-new",
       "label": "✨ New — October 27, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southwest",
     "id": "item-2328",
@@ -100441,7 +100545,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119594",
         "label": "🔗 Texas A&M board listing"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -100673,7 +100778,8 @@
         "href": "https://www.governmentjobs.com/careers/louisiana/jobs/5525396",
         "label": "🔗 Environmental Project Specialist 1/2/3 — Office of Environmental Services (Louisiana DEQ, Baton Rouge LA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -100712,7 +100818,8 @@
         "href": "https://nc.wd108.myworkdayjobs.com/NC_Careers/job/Wake-County-NC/Environmental-Specialist-I_JR-126932",
         "label": "🔗 Environmental Specialist I — animal feeding operation permits and water-resource compliance (NC DEQ Division of Water Resources, Raleigh NC)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -100751,7 +100858,8 @@
         "href": "https://nc.wd108.myworkdayjobs.com/NC_Careers/job/Pasquotank-County-NC/Fisheries-Science-Technician_JR-126681",
         "label": "🔗 Fisheries Science Technician — northern-district independent gill net survey (NC DEQ Division of Marine Fisheries, Pasquotank County NC)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -100906,7 +101014,8 @@
         "href": "https://jobs.myflorida.com/job/JACKSONVILLE-ENVIRONMENTAL-SPECIALIST-I-37020183-FL-32256/1443581800/",
         "label": "🔗 Environmental Specialist I — Environmental Resource Permit compliance assurance and inspections (Florida DEP, Jacksonville FL)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -101023,7 +101132,8 @@
         "href": "https://jobs.myflorida.com/job/ST_-CLOUD-Fish-&-Wildlife-Technician-77001124-FL-34773/1440548600/",
         "label": "🔗 Fish & Wildlife Technician (permanent) — habitat restoration on Triple N Ranch and Herky Huffman WMAs (Florida FWC, St. Cloud FL)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -101140,7 +101250,8 @@
         "href": "https://jobs.myflorida.com/job/PANAMA-CITY-OPS-F-&-W-BS-III-77900165-FL-32401/1434389200/",
         "label": "🔗 OPS Predation Management Biologist (Biological Scientist III) — predator trapping to protect nesting shorebirds and seabirds (Florida FWC, Panama City FL)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -101179,7 +101290,8 @@
         "href": "https://jobs.myflorida.com/job/SANTA-ROSA-BEACH-PARK-RANGER-37000539-FL-32459/1443742100/",
         "label": "🔗 Park Ranger — resource protection, visitor services and natural-resource management (Florida Park Service, Santa Rosa Beach FL)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -101664,7 +101776,8 @@
         "href": "https://glifwc.org",
         "label": "🔗 GLIFWC"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -101704,7 +101817,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119663",
         "label": "🔗 American Marten Hair Snare / Trapping Technician (2 positions) — non-invasive surveys, trapping and collaring in Chequamegon-Nicolet NF (UW–Madison with GLIFWC, Wisconsin)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -101956,7 +102070,8 @@
         "href": "https://www.usajobs.gov/job/889904000",
         "label": "🔗 Biological Science Technician (Fish), GS-5 seasonal — fish and aquatic habitat monitoring in northern California (U.S. Fish and Wildlife Service, Anderson CA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -101995,7 +102110,8 @@
         "href": "https://www.usajobs.gov/job/890168100",
         "label": "🔗 Ecologist (temporary), GS-9 — Sierra Nevada Inventory & Monitoring Network (National Park Service, Three Rivers CA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -102034,7 +102150,8 @@
         "href": "https://www.usajobs.gov/job/889945100",
         "label": "🔗 Biological Science Technician (Fisheries), GS-9 seasonal — Ashland OR (National Park Service)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -102073,7 +102190,8 @@
         "href": "https://www.usajobs.gov/job/888883700",
         "label": "🔗 Biological Science Technician (Fisheries), GS-8/9 seasonal — multiple Pacific West park units (National Park Service)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -102190,7 +102308,8 @@
         "href": "https://www.governmentjobs.com/careers/washington/jobs/5522345",
         "label": "🔗 Fish Traps and Spawning Ground Surveyor (Scientific Technician 2, permanent) — ESA-listed Chinook, coho and chum in Lower Columbia tributaries (WDFW, Cathlamet WA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -102229,7 +102348,8 @@
         "href": "https://www.governmentjobs.com/careers/washington/jobs/5528418",
         "label": "🔗 Shellfish Environmental Sampling Assistant (Environmental Specialist 1) — Marine Biotoxin Program field sampling (Washington State Department of Health, Tumwater WA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -102313,7 +102433,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119608",
         "label": "🔗 Texas A&M board listing"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -102445,7 +102566,7 @@
       "kind": "s-new",
       "label": "✨ New — October 27, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-2391",
@@ -102668,7 +102789,8 @@
         "href": "https://www.usajobs.gov/job/889851200",
         "label": "🔗 Range Technician, GS-5 seasonal — grassland and wetland habitat work at Quivira National Wildlife Refuge (U.S. Fish and Wildlife Service, Stafford KS)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -102785,7 +102907,8 @@
         "href": "https://www.usajobs.gov/job/889211200",
         "label": "🔗 Cartographer / Maritime GIS Analyst (hiring event) — geospatial compilation for nautical products (National Geospatial-Intelligence Agency, Springfield VA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -103290,7 +103413,8 @@
         "href": "https://www.azstatejobs.gov/jobs/park-ranger-st-johns-arizona-united-states",
         "label": "🔗 Park Ranger — park operations, visitor services and maintenance (Arizona State Parks and Trails, St. Johns AZ)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -103486,7 +103610,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-monitoring-and-streamflow-manager-missoula-montana/6822554890",
         "label": "🔗 Monitoring and Streamflow Manager — Clark Fork watershed streamflow monitoring, stream assessments and GIS (Clark Fork Coalition, Missoula MT)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -103570,7 +103695,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119678",
         "label": "🔗 Texas A&M board listing"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -103852,7 +103978,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=113855",
         "label": "🔗 Natural Resource Monitors — construction monitoring and resource surveys near Nogales and Lochiel on the US–Mexico border (Vernadero Group, AZ)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -104065,7 +104192,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119604",
         "label": "🔗 Texas A&M board listing (links both USAJOBS announcements)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -104105,7 +104233,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119611",
         "label": "🔗 Drone Research Technician — muskrat and deer drone surveys with Illinois DNR (Southern Illinois University Center for Wildlife and Sustainability Research)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -104149,7 +104278,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119645",
         "label": "🔗 Texas A&M board listing"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Internship",
@@ -104160,7 +104290,7 @@
       "kind": "s-new",
       "label": "✨ New — October 27, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "West Coast / Pacific",
     "id": "item-2434",
@@ -104239,7 +104369,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119616",
         "label": "🔗 Texas A&M board listing"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -104439,7 +104570,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-environmental-scientist-jc-536060-sacramento-california/3121649461",
         "label": "🔗 Conservation Job Board listing"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
