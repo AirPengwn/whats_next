@@ -109872,7 +109872,7 @@
     "location": "Louisburg, North Carolina",
     "deadline": "November 16, 2026 (listed through)",
     "deadline_date": "2026-11-16",
-    "badge": "Strong fit",
+    "badge": "Good fit",
     "pay": "$48,000–$57,000 per year (published)",
     "url": "https://www.conservationjobboard.com/job-listing-land-stewardship-specialist-louisburg-north-carolina/2797232916",
     "metaLine": "Louisburg NC · land-trust stewardship · $48–57k · by Nov 16 · ~2.5 hrs from Richmond",
@@ -110026,7 +110026,7 @@
     "location": "Remote, Moore County NC preferred (nine-county Sandhills region)",
     "deadline": "November 27, 2026 (listed through; open until filled)",
     "deadline_date": "2026-11-27",
-    "badge": "Good fit",
+    "badge": "Reach",
     "pay": "$50,000, commensurate with experience (published)",
     "start": "December 2026",
     "url": "https://www.conservationjobboard.com/job-listing-sandhills-prescribed-burn-association-coordinator-moore-county-preferred-north-carolina/4764879058",
@@ -110905,6 +110905,188 @@
       {
         "href": "https://www.usajobs.gov/job/890812000",
         "label": "🔗 Biological Science Technician, GS-0404-6/7 — USDA Agricultural Research Service, Urbana IL"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Northeast",
+    "id": "item-2616",
+    "title": "Aquatic Restoration and Resiliency Coordinator (SLELO PRISM) — The Nature Conservancy, Pulaski, NY",
+    "org": "The Nature Conservancy · Pulaski, NY",
+    "location": "Pulaski, NY",
+    "deadline": "Rolling / open until filled",
+    "badge": "Reach",
+    "url": "https://nature.wd108.myworkdayjobs.com/ExternalCareers/job/Pulaski-New-York/Aquatic-Restoration-and-Resiliency-Coordinator_JR104154",
+    "metaLine": "Pulaski, NY · career · $70,000-$76,000/year · rolling / open until filled",
+    "body": "Leads aquatic invasive species prevention, monitoring (including eDNA) and restoration for the St. Lawrence/Eastern Lake Ontario PRISM, funded by a five-year NYSDEC award. Uses GIS and field data collection and may supervise seasonal staff. Published pay: $70,000-$76,000/year. Deadline: Rolling / open until filled.",
+    "desc": "Matches her water-quality, restoration and GIS interests; STRETCH because the posting asks for a master's plus 1 year or a bachelor's plus 3 years.",
+    "pills": [
+      "NY",
+      "career"
+    ],
+    "employer_type": "non-profit",
+    "pay": "$70,000-$76,000/year",
+    "url_label": "Aquatic Restoration and Resiliency Coordinator (SLELO PRISM) — The Nature Conservancy, Pulaski, NY",
+    "links": [
+      {
+        "href": "https://nature.wd108.myworkdayjobs.com/ExternalCareers/job/Pulaski-New-York/Aquatic-Restoration-and-Resiliency-Coordinator_JR104154",
+        "label": "🔗 Aquatic Restoration and Resiliency Coordinator (SLELO PRISM) — The Nature Conservancy, Pulaski, NY"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2617",
+    "title": "Farm Bill Wildlife Biologist I or II — Pheasants Forever & Quail Forever, Ridgway, IL",
+    "org": "Pheasants Forever & Quail Forever · Ridgway, IL",
+    "location": "Ridgway, IL",
+    "deadline": "November 29, 2026",
+    "badge": "Strong fit",
+    "url": "https://pheasantsforever.applytojob.com/apply/7vpTOjwuP4/Farm-Bill-Wildlife-Biologist-I-Or-II",
+    "metaLine": "Ridgway, IL · career · $40,500-$52,000/year · by Nov 29",
+    "body": "Provides wildlife-habitat technical assistance to private landowners through USDA Farm Bill programs, embedded in an NRCS office. Training is provided; start December 2026 or January 2027. Published pay: $40,500-$52,000/year. Apply by November 29, 2026.",
+    "desc": "Entry-level biologist track with a bachelor's in wildlife or natural resources as the expected degree.",
+    "pills": [
+      "IL",
+      "career"
+    ],
+    "employer_type": "non-profit",
+    "deadline_date": "2026-11-29",
+    "pay": "$40,500-$52,000/year",
+    "url_label": "Farm Bill Wildlife Biologist I or II — Pheasants Forever & Quail Forever, Ridgway, IL",
+    "links": [
+      {
+        "href": "https://pheasantsforever.applytojob.com/apply/7vpTOjwuP4/Farm-Bill-Wildlife-Biologist-I-Or-II",
+        "label": "🔗 Farm Bill Wildlife Biologist I or II — Pheasants Forever & Quail Forever, Ridgway, IL"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Midwest & Great Plains",
+    "id": "item-2618",
+    "title": "Farm Bill Wildlife Biologist I or II — Pheasants Forever & Quail Forever, Marysville, OH",
+    "org": "Pheasants Forever & Quail Forever · Marysville, OH",
+    "location": "Marysville, OH",
+    "deadline": "Rolling / open until filled",
+    "badge": "Strong fit",
+    "url": "https://pheasantsforever.applytojob.com/apply/wXS08fnKKw/Farm-Bill-Wildlife-Biologist-I-Or-II",
+    "metaLine": "Marysville, OH · career · $40,000-$56,000/year · rolling / open until filled",
+    "body": "Farm Bill habitat biologist based in the USDA Service Center in Marysville covering five west-central Ohio counties. Includes student loan assistance up to $200/month and a vehicle stipend. Published pay: $40,000-$56,000/year. Deadline: Rolling / open until filled.",
+    "desc": "Entry-level wildlife biologist job with employer-paid loan help and a clear PF/QF career ladder.",
+    "pills": [
+      "OH",
+      "career"
+    ],
+    "employer_type": "non-profit",
+    "pay": "$40,000-$56,000/year",
+    "url_label": "Farm Bill Wildlife Biologist I or II — Pheasants Forever & Quail Forever, Marysville, OH",
+    "links": [
+      {
+        "href": "https://pheasantsforever.applytojob.com/apply/wXS08fnKKw/Farm-Bill-Wildlife-Biologist-I-Or-II",
+        "label": "🔗 Farm Bill Wildlife Biologist I or II — Pheasants Forever & Quail Forever, Marysville, OH"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2619",
+    "title": "Farm Bill Wildlife Biologist I or II — Pheasants Forever & Quail Forever, Montgomery City and Mexico, MO",
+    "org": "Pheasants Forever & Quail Forever · Montgomery City and Mexico, MO",
+    "location": "Montgomery City and Mexico, MO",
+    "deadline": "November 18, 2026",
+    "badge": "Good fit",
+    "url": "https://pheasantsforever.applytojob.com/apply/la15B4cKnv/Farm-Bill-Wildlife-Biologist-I-Or-II",
+    "metaLine": "Montgomery City and Mexico, MO · career · $47,000 + benefits · by Nov 18",
+    "body": "Delivers USDA-NRCS conservation programs and wildlife habitat planning to private landowners in northeast Missouri. Based at a USDA service center. Published pay: $47,000 + benefits. Apply by November 18, 2026.",
+    "desc": "Entry-level (listed as entry experience) habitat biologist with a stated $47,000 starting salary.",
+    "pills": [
+      "MO",
+      "career"
+    ],
+    "employer_type": "non-profit",
+    "deadline_date": "2026-11-18",
+    "pay": "$47,000 + benefits",
+    "url_label": "Farm Bill Wildlife Biologist I or II — Pheasants Forever & Quail Forever, Montgomery City and Mexico, MO",
+    "links": [
+      {
+        "href": "https://pheasantsforever.applytojob.com/apply/la15B4cKnv/Farm-Bill-Wildlife-Biologist-I-Or-II",
+        "label": "🔗 Farm Bill Wildlife Biologist I or II — Pheasants Forever & Quail Forever, Montgomery City and Mexico, MO"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 3, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "West Coast / Pacific",
+    "id": "item-2620",
+    "title": "Private Lands Conservationist II — Pheasants Forever & Quail Forever, Clarkston, WA",
+    "org": "Pheasants Forever & Quail Forever · Clarkston, WA",
+    "location": "Clarkston, WA",
+    "deadline": "Rolling / open until filled",
+    "badge": "Good fit",
+    "url": "https://pheasantsforever.applytojob.com/apply/3DJgTz9yXZ/Private-Lands-Conservationist-II",
+    "metaLine": "Clarkston, WA · career · $50,000/year · rolling / open until filled",
+    "body": "Delivers NRCS and wildlife habitat programs to private landowners in southeast Washington, including conservation planning and site visits. Includes loan assistance and a vehicle stipend. Published pay: $50,000/year. Deadline: Rolling / open until filled.",
+    "desc": "Bachelor's in wildlife or natural resources and/or related field experience qualifies; a Pacific Northwest habitat-biology entry point.",
+    "pills": [
+      "WA",
+      "career"
+    ],
+    "employer_type": "non-profit",
+    "pay": "$50,000/year",
+    "url_label": "Private Lands Conservationist II — Pheasants Forever & Quail Forever, Clarkston, WA",
+    "links": [
+      {
+        "href": "https://pheasantsforever.applytojob.com/apply/3DJgTz9yXZ/Private-Lands-Conservationist-II",
+        "label": "🔗 Private Lands Conservationist II — Pheasants Forever & Quail Forever, Clarkston, WA"
       }
     ]
   }
