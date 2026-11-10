@@ -1,8 +1,6 @@
 # Weekly opportunity sweep — 2026-11-10
 
-**Added 2 new** opportunities:
-- AIS Lead Technician (Aquatic Invasive Species Crew Lead, 9-month contract) 2026-02659 — Wyoming Game and Fish Department, Cheyenne, Evanston, Casper, Glendo, Beulah, or Newcastle, WY — _Good_ · Mountain West · deadline: November 29, 2026
-- Natural Resources Analyst, Solid Waste Permitting and Corrective Action 2026-02646 — Wyoming Department of Environmental Quality, Solid and Hazardous Waste Division, Lander, WY — _Good_ · Mountain West · deadline: Rolling / open until filled
+**Added 0 new** opportunities.
 
 **Updated 0** (deadline / status / description changed).
 
