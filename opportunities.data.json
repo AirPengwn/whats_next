@@ -59588,7 +59588,7 @@
     "src_label": "Career Positions",
     "status": {
       "kind": "s-new",
-      "label": "✨ New — September 8, 2026"
+      "label": "✨ Re-posted — November 10, 2026"
     },
     "cycle": "current",
     "start": "",
@@ -59599,9 +59599,9 @@
     "org": "Lancaster Farmland Trust · Strasburg, Pennsylvania",
     "location": "Strasburg, Pennsylvania (Lancaster County)",
     "region": "Northeast",
-    "deadline": "2026-10-31",
+    "deadline": "December 31, 2026",
     "deadline_kind": "fixed",
-    "deadline_date": "2026-10-31",
+    "deadline_date": "2026-12-31",
     "pay": "Not published in the posting",
     "badge": "Reach",
     "pills": [
@@ -59621,7 +59621,7 @@
     ],
     "url": "https://landtrustalliance.org/job-board/stewardship-specialist-1788283430429",
     "url_label": "Land Trust Alliance — Lancaster Farmland Trust",
-    "expired": true
+    "url2": "https://landtrustalliance.org/job-board/stewardship-specialist-1793647535889"
   },
   {
     "type": "Career Position",
@@ -115107,6 +115107,114 @@
       {
         "href": "https://haubcareers.uwyo.edu/jobs/texas-a-graduate-positions-available-hogan-forest-dynamics-lab/",
         "label": "🔗 Funded MS/PhD — forest dynamics, ecophysiology and disturbance (Texas A&M University, Hogan Forest Dynamics Lab)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 10, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia",
+    "id": "item-2725",
+    "title": "Stewardship Specialist (remote, NC) — Unique Places to Save, North Carolina (Triangle preferred)",
+    "org": "Unique Places to Save · Remote within North Carolina (Triangle area preferred)",
+    "location": "Remote within North Carolina (Triangle area preferred)",
+    "deadline": "Rolling / open until filled",
+    "badge": "Strong fit",
+    "url": "https://landtrustalliance.org/job-board/stewardship-specialist-1793803541487",
+    "metaLine": "Remote within North Carolina (Triangle area preferred) · career · rolling / open until filled",
+    "body": "Full-time remote stewardship specialist supporting land and water conservation across North Carolina: monitoring conservation easements, assessing prospective sites, preparing Baseline Documentation Reports and keeping GIS records, with paddling and remote-terrain fieldwork. Requires a bachelor's in environmental science or a related field. Pay not published. Deadline: Rolling / open until filled.",
+    "desc": "Easement monitoring + GIS role that asks for exactly her degree; NC-based non-profit.",
+    "pills": [
+      "NC",
+      "career"
+    ],
+    "employer_type": "non-profit",
+    "url_label": "Stewardship Specialist (remote, NC) — Unique Places to Save, North Carolina (Triangle preferred)",
+    "links": [
+      {
+        "href": "https://landtrustalliance.org/job-board/stewardship-specialist-1793803541487",
+        "label": "🔗 Stewardship Specialist (remote, NC) — Unique Places to Save, North Carolina (Triangle preferred)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 10, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-2726",
+    "title": "A2A Ecological Connectivity Project Coordinator (part-time contract) — Algonquin to Adirondacks Collaborative / Thousand Islands Land Trust, northern NY",
+    "org": "Algonquin to Adirondacks Collaborative · Remote or northern New York",
+    "location": "Remote or northern New York",
+    "deadline": "December 10, 2026",
+    "deadline_date": "2026-12-10",
+    "badge": "Good fit",
+    "url": "https://landtrustalliance.org/job-board/a2a-ecological-connectivity-project-coordinator-1793715503736",
+    "metaLine": "Remote or northern New York · career · $35–$50/hour (part-time contra · by Dec 10",
+    "body": "Part-time independent contract (January 2027–July 2028) coordinating conservation partnerships, outreach, wildlife-corridor mapping and fieldwork across northern New York's portion of the Algonquin-to-Adirondacks corridor, with the Thousand Islands Land Trust and regional land trusts. Published pay: $35–$50/hour (part-time contract, ~13–20 hrs/week). Apply by December 10, 2026.",
+    "desc": "Wildlife-corridor GIS and coordination work that could pair with another job or grad school.",
+    "pills": [
+      "NY",
+      "career"
+    ],
+    "employer_type": "non-profit",
+    "pay": "$35–$50/hour (part-time contract, ~13–20 hrs/week)",
+    "url_label": "A2A Ecological Connectivity Project Coordinator (part-time contract) — Algonquin to Adirondacks Collaborative / Thousand Islands Land Trust, northern NY",
+    "links": [
+      {
+        "href": "https://landtrustalliance.org/job-board/a2a-ecological-connectivity-project-coordinator-1793715503736",
+        "label": "🔗 A2A Ecological Connectivity Project Coordinator (part-time contract) — Algonquin to Adirondacks Collaborative / Thousand Islands Land Trust, northern NY"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 10, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-2727",
+    "title": "Land Conservation Specialist — Finger Lakes Land Trust, Ithaca, NY",
+    "org": "Finger Lakes Land Trust · Ithaca, NY",
+    "location": "Ithaca, NY",
+    "deadline": "November 24, 2026",
+    "deadline_date": "2026-11-24",
+    "badge": "Good fit",
+    "url": "https://landtrustalliance.org/job-board/land-conservation-specialist-1793721798235",
+    "metaLine": "Ithaca, NY · career · by Nov 24",
+    "body": "Full-time specialist facilitating fee and conservation-easement acquisitions under the Land Trust Alliance Standards and Practices, and supporting landowner outreach across the Finger Lakes, working closely with the land trust's GIS program. Pay not published. Apply by November 24, 2026.",
+    "desc": "Land-protection career track at a large, well-regarded regional land trust.",
+    "pills": [
+      "NY",
+      "career"
+    ],
+    "employer_type": "non-profit",
+    "url_label": "Land Conservation Specialist — Finger Lakes Land Trust, Ithaca, NY",
+    "links": [
+      {
+        "href": "https://landtrustalliance.org/job-board/land-conservation-specialist-1793721798235",
+        "label": "🔗 Land Conservation Specialist — Finger Lakes Land Trust, Ithaca, NY"
       }
     ]
   }
