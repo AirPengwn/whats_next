@@ -23012,7 +23012,7 @@
       "Long application window"
     ],
     "metaLine": "Deadline Nov 4, 2026 · $17.25–$17.75/hr · Rhode Island · USDA APHIS cooperative program",
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-11-04",
     "region": "Northeast",
@@ -25623,7 +25623,8 @@
     "benefits": "Health insurance, 401(k) with match, PTO, employer-paid life insurance, per diem for overnight travel, and annual gear and professional training stipends",
     "id": "item-582",
     "start_date": "2026-08-19",
-    "relocation": "lead"
+    "relocation": "lead",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -31143,7 +31144,8 @@
     ],
     "start_date": "2026-08-07",
     "relocation": "tight",
-    "url2": "https://jobs.rwfm.tamu.edu/view-job/?id=117858"
+    "url2": "https://jobs.rwfm.tamu.edu/view-job/?id=117858",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -51732,7 +51734,7 @@
       "kind": "s-new",
       "label": "✨ New — August 31, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-1193",
@@ -62109,7 +62111,7 @@
       "kind": "s-new",
       "label": "✨ New — September 13, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "rolling",
     "region": "Southeast & Appalachia",
     "id": "item-1434",
@@ -64106,7 +64108,7 @@
       "kind": "s-new",
       "label": "✨ New — September 13, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "rolling",
     "region": "Midwest & Great Plains",
     "id": "item-1480",
@@ -64570,7 +64572,8 @@
     "start": "See posting",
     "relocation": "unknown",
     "deadline_date": "2026-11-06",
-    "url2": "https://www.conservationjobboard.com/job-listing-conservation-specialist-bear-lake-michigan/1563699417"
+    "url2": "https://www.conservationjobboard.com/job-listing-conservation-specialist-bear-lake-michigan/1563699417",
+    "expired": true
   },
   {
     "type": "Graduate Program",
@@ -65691,7 +65694,8 @@
     "relocation": "housed",
     "deadline_date": "2026-11-09",
     "start_date": "2026-11-30",
-    "housing_provided": true
+    "housing_provided": true,
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -76707,7 +76711,7 @@
       "kind": "s-new",
       "label": "✨ New — September 29, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-1766",
@@ -78434,7 +78438,7 @@
       "kind": "s-new",
       "label": "✨ New — September 29, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-1803",
@@ -79596,7 +79600,8 @@
     "deadline_date": "2026-10-31",
     "start_date": "2026-10-15",
     "housing_provided": true,
-    "relocation": "housed"
+    "relocation": "housed",
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -79607,7 +79612,7 @@
       "kind": "s-new",
       "label": "✨ New — September 29, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "rolling",
     "region": "Southwest",
     "id": "item-1829",
@@ -80497,7 +80502,8 @@
     "deadline_date": "2026-10-31",
     "start_date": "2026-11-01",
     "housing_provided": false,
-    "relocation": "planned"
+    "relocation": "planned",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -80598,7 +80604,7 @@
       "kind": "s-new",
       "label": "✨ Re-posted — October 20, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "West Coast / Pacific",
     "id": "item-1851",
@@ -80860,7 +80866,8 @@
     "deadline_date": "2026-10-31",
     "start_date": "2026-11-15",
     "housing_provided": false,
-    "relocation": "planned"
+    "relocation": "planned",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -81038,7 +81045,8 @@
     "deadline_date": "2026-10-31",
     "start_date": "2026-10-12",
     "housing_provided": false,
-    "relocation": "tight"
+    "relocation": "tight",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -81126,7 +81134,8 @@
     "deadline_date": "2026-10-31",
     "start_date": "2026-11-01",
     "housing_provided": false,
-    "relocation": "planned"
+    "relocation": "planned",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -81443,7 +81452,8 @@
     "deadline_date": "2026-10-31",
     "start_date": "2026-11-15",
     "housing_provided": false,
-    "relocation": "planned"
+    "relocation": "planned",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -81626,7 +81636,8 @@
     "deadline_date": "2026-10-31",
     "start_date": "2026-11-01",
     "housing_provided": false,
-    "relocation": "planned"
+    "relocation": "planned",
+    "expired": true
   },
   {
     "type": "Graduate Program",
@@ -81995,7 +82006,7 @@
       "kind": "s-new",
       "label": "✨ New — September 29, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-1882",
@@ -87914,7 +87925,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119399",
         "label": "🔗 Natural Resources Specialist I–III (WMA Biologist) — Chaparral Wildlife Management Area, South Texas (Texas Parks & Wildlife, Cotulla)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -88132,7 +88144,7 @@
       "kind": "s-new",
       "label": "✨ New — October 13, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-2032",
@@ -88362,7 +88374,8 @@
         "href": "https://www.governmentjobs.com/careers/sacsewer/jobs/5494124/natural-resource-specialist",
         "label": "🔗 Natural Resource Specialist — wetlands, wildlife habitat and sensitive-species mitigation on district lands (Sacramento Area Sewer District)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -89246,7 +89259,8 @@
         "href": "https://pheasantsforever.applytojob.com/apply/JH6NmfVJdR/Farm-Bill-Wildlife-Biologist-I-II-Or-III",
         "label": "🔗 Farm Bill Wildlife Biologist I/II/III (2 positions) — NRCS-embedded private-lands conservation in north-central SD and Wall SD (Pheasants Forever & Quail Forever)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -90150,7 +90164,7 @@
       "kind": "s-new",
       "label": "✨ New — October 13, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Mountain West",
     "id": "item-2082",
@@ -90829,7 +90843,7 @@
       "kind": "s-new",
       "label": "✨ New — October 13, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-2099",
@@ -90945,7 +90959,7 @@
       "kind": "s-new",
       "label": "✨ New — October 13, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-2102",
@@ -91576,7 +91590,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119582",
         "label": "🔗 Wildlife Technician — feral swine trapping and damage monitoring, Blue Ridge Mountains (USDA APHIS Wildlife Services, Blairsville GA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -92251,7 +92266,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119489",
         "label": "🔗 Wading Bird Field Technicians (2–3) — Everglades nesting surveys, Jan–Jun 2027 (University of Florida Wading Bird Project)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Internship",
@@ -92330,7 +92346,8 @@
         "href": "https://hawkwatch.org/opportunities/eagle-studies-field-technician/",
         "label": "🔗 Eagle Studies Field Technician — Golden Eagle research in Utah and Wyoming, Jan–Jun 2027 (HawkWatch International)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -93275,7 +93292,7 @@
       "kind": "s-new",
       "label": "✨ New — October 20, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southwest",
     "id": "item-2160",
@@ -93947,7 +93964,8 @@
         "href": "https://statejobs.ny.gov/public/vacancyDetailsView.cfm?id=226959",
         "label": "🔗 Biologist 1 (Wildlife) / Trainee 1–2 (NY HELPS, no exam) — furbearer and small-game surveys (NYS DEC Division of Fish & Wildlife, Long Island City)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -93986,7 +94004,8 @@
         "href": "https://statejobs.ny.gov/public/vacancyDetailsView.cfm?id=227272",
         "label": "🔗 Environmental Analyst 1 / Trainee 1–2 (NY HELPS) — permit review and environmental impact assessment, Region 1 (NYS DEC, Stony Brook)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -94065,7 +94084,8 @@
         "href": "https://statejobs.ny.gov/public/vacancyDetailsView.cfm?id=227058",
         "label": "🔗 Environmental Program Specialist 1 / Trainee 1–2 (NY HELPS) — spill response and bulk-storage inspection (NYS DEC Division of Environmental Remediation, Buffalo)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -94190,7 +94210,8 @@
         "label": "🔗 NH Fish & Game careers page"
       }
     ],
-    "url2": "https://www.wildlife.nh.gov/about-new-hampshire-fish-and-game/careers-new-hampshire-fish-and-game"
+    "url2": "https://www.wildlife.nh.gov/about-new-hampshire-fish-and-game/careers-new-hampshire-fish-and-game",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -94229,7 +94250,8 @@
         "href": "https://www.jobapscloud.com/DE/sup/bulpreview.asp?b=&R1=101326&R2=UGBE03&R3=400300",
         "label": "🔗 Wildlife Health Coordinator (Environmental Scientist III) — statewide chronic wasting disease surveillance (Delaware Division of Fish & Wildlife, Greenwood DE)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -94268,7 +94290,8 @@
         "href": "https://suffolkcountyny.wd1.myworkdayjobs.com/Suffolkcounty1/job/Forester-I_JR102974",
         "label": "🔗 Forester I — county parkland forest health, tree planting and invasive species mitigation (Suffolk County Parks, West Sayville NY)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Internship",
@@ -94279,7 +94302,7 @@
       "kind": "s-new",
       "label": "✨ New — October 20, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Northeast",
     "id": "item-2185",
@@ -94607,7 +94630,7 @@
       "kind": "s-new",
       "label": "✨ New — October 20, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-2193",
@@ -95831,7 +95854,8 @@
         "href": "https://oregon.wd5.myworkdayjobs.com/SOR_External_Career_Site/job/John-Day--ODFW/Fisheries-Monitoring-and-Research-Biologist--Natural-Resource-Specialist-2-_REQ-208337",
         "label": "🔗 Fisheries Monitoring and Research Biologist (NRS2, permanent) — John Day Habitat and IMW project, snorkel/electrofishing/redd surveys (ODFW, John Day OR)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -95955,7 +95979,8 @@
         "label": "🔗 TAMU listing"
       }
     ],
-    "url2": "https://jobs.rwfm.tamu.edu/view-job/?id=119504"
+    "url2": "https://jobs.rwfm.tamu.edu/view-job/?id=119504",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -96398,7 +96423,8 @@
         "href": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=536029",
         "label": "🔗 Environmental Scientist (limited term) — Fresno County (California Department of Fish and Wildlife)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -96557,7 +96583,8 @@
         "href": "https://www.calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=534879",
         "label": "🔗 Environmental Scientist — Central Coast Water Board, San Luis Obispo County (California State Water Resources Control Board)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -97192,7 +97219,8 @@
         "href": "https://nature.wd108.myworkdayjobs.com/ExternalCareers/job/St-Croix-USVI/Aquaculture-Associate_JR104139",
         "label": "🔗 Aquaculture Associate — coral propagation, seawater chemistry and reef restoration support (The Nature Conservancy Coral Innovation Hub, St. Croix USVI)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -97308,7 +97336,8 @@
         "href": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=6044bc19-19e6-443a-8a51-62fe8af33798&ccId=19000101_000001&lang=en_US&jobId=9201253972708_1",
         "label": "🔗 Conservation GIS and Land Data Specialist — ArcGIS Pro land records and priority-area modelling (Mass Audubon, Lincoln or Easthampton MA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -98185,7 +98214,8 @@
         "href": "https://jobs.myflorida.com/job/NAPLES-OPS-ENVIRONMENTAL-SPECIALIST-III-37979225-FL-34113/1441006800/",
         "label": "🔗 OPS Environmental Specialist III — community-science habitat restoration monitoring (Florida DEP, Naples FL, #37979225)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -99117,7 +99147,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119715",
         "label": "🔗 Texas A&M board listing"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -99421,7 +99452,8 @@
         "href": "https://statejobs.ny.gov/public/vacancyDetailsView.cfm?id=227570",
         "label": "🔗 Fish and Wildlife Technician 1 (temporary) — fisheries-independent sampling and boat work, Division of Marine Resources (NYS DEC, Suffolk County NY)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -99472,7 +99504,7 @@
       "kind": "s-new",
       "label": "✨ New — October 27, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Northeast",
     "id": "item-2314",
@@ -100232,7 +100264,7 @@
       "kind": "s-new",
       "label": "✨ New — October 27, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-2333",
@@ -100345,7 +100377,8 @@
         "href": "https://www.usajobs.gov/job/890196100",
         "label": "🔗 Natural Resources Specialist, GS-7 to GS-11 (Direct Hire, open to the public) — Omaha District natural resource management (U.S. Army Corps of Engineers, Omaha NE)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -100384,7 +100417,8 @@
         "href": "https://www.usajobs.gov/job/889707500",
         "label": "🔗 Natural Resources Specialist (Ranger), Direct Hire — Mark Twain Lake shoreline and public-land stewardship (U.S. Army Corps of Engineers, Missouri)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -100423,7 +100457,8 @@
         "href": "https://www.governmentjobs.com/careers/michigan/jobs/5521086",
         "label": "🔗 Environmental Quality Analyst 9-P11/12 — contaminated-site investigation and remediation, Remediation & Redevelopment Division (Michigan EGLE, Jackson MI)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -100462,7 +100497,8 @@
         "href": "https://www.governmentjobs.com/careers/michigan/jobs/5525662",
         "label": "🔗 Resource Analyst 9-12 — wetland, stream, floodplain and Section 404 permits for road projects, Metro Region (Michigan DOT, Southfield MI)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Internship",
@@ -100473,7 +100509,7 @@
       "kind": "s-new",
       "label": "✨ New — October 27, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-2339",
@@ -100622,7 +100658,8 @@
         "href": "https://www.governmentjobs.com/careers/wv/jobs/5525960",
         "label": "🔗 Environmental Resources Specialist 1 — Voluntary Remediation / Brownfields site review (West Virginia DEP Division of Land Restoration, Fairmont WV)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -100700,7 +100737,8 @@
         "label": "🔗 Environmental Inspector-in-Training (statewide, various locations) — water and waste compliance inspections (West Virginia DEP)"
       }
     ],
-    "pay": "$39,461–$68,582 per year (published)"
+    "pay": "$39,461–$68,582 per year (published)",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -100739,7 +100777,8 @@
         "href": "https://www.governmentjobs.com/careers/louisiana/jobs/5524039",
         "label": "🔗 Environmental Scientist 1/2/3 — Waste Permits (Louisiana Department of Environmental Quality, Baton Rouge LA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -100897,7 +100936,8 @@
         "href": "https://nc.wd108.myworkdayjobs.com/NC_Careers/job/Martin-County-NC/Williamston-Conservation-Tech-I--LAWA-6009341-_JR-127000",
         "label": "🔗 Wildlife Conservation Technician I — game land, boating access and habitat maintenance, Land & Water Access (NC Wildlife Resources Commission, Williamston NC)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -100936,7 +100976,8 @@
         "href": "https://www.usajobs.gov/job/889931800",
         "label": "🔗 Biological Science Technician (Fish), GS-5 with ladder to GS-8 — Lower Great Lakes FWCO field station (U.S. Fish and Wildlife Service, Williamstown WV)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -100975,7 +101016,8 @@
         "href": "https://www.usajobs.gov/job/889828400",
         "label": "🔗 Natural Resources Specialist (Ranger), GS-5/7/9, Direct Hire — Lake Sidney Lanier project (U.S. Army Corps of Engineers Mobile District, Buford GA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -101054,7 +101096,8 @@
         "href": "https://jobs.myflorida.com/job/TALLAHASSEE-ENVIRONMENTAL-SPECIALIST-I-37010940-FL-32301/1443144400/",
         "label": "🔗 Environmental Specialist I — ambient air monitoring quality assurance (Florida DEP Division of Air Resource Management, Tallahassee FL)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -101093,7 +101136,8 @@
         "href": "https://jobs.myflorida.com/job/TALLAHASSEE-ENVIRONMENTAL-SPECIALIST-II-37020168-FL-32399/1443142800/",
         "label": "🔗 Environmental Specialist II — state-lead hazardous waste and drycleaner site cleanups (Florida DEP, Tallahassee FL)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -101211,7 +101255,8 @@
         "href": "https://jobs.myflorida.com/job/FT-MYERS-OPS-F-&-W-Tech-77902272-FL-33901/1442373000/",
         "label": "🔗 OPS Fish & Wildlife Technician (part-time) — nonnative reptile early detection and rapid response (Florida FWC, Fort Myers FL)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -101530,7 +101575,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119723",
         "label": "🔗 BLM recruitment notice (Texas A&M board)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -101569,7 +101615,8 @@
         "href": "https://www.usajobs.gov/job/890249100",
         "label": "🔗 Rangeland Management Specialist, GS-7/9/11 — Colorado field offices: Canon City, Craig, Kremmling, Monte Vista (Bureau of Land Management)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -101946,7 +101993,8 @@
         "href": "https://gadnr.org/careers",
         "label": "🔗 Georgia DNR careers"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Internship",
@@ -102230,7 +102278,8 @@
         "href": "https://www.usajobs.gov/job/889464900",
         "label": "🔗 Biological Science Technician (Fisheries), GS-5/7, Direct Hire — fish passage monitoring at Little Goose Dam on the Snake River (U.S. Army Corps of Engineers Walla Walla District, Starbuck WA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -102269,7 +102318,8 @@
         "href": "https://www.usajobs.gov/job/889473100",
         "label": "🔗 Rangeland Management Specialist, GS-5/11 (open to the public) — Baker City, Hines, Lakeview, Vale OR and Spokane WA (Bureau of Land Management)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -102388,7 +102438,8 @@
         "href": "https://www.governmentjobs.com/careers/washington/jobs/5521083",
         "label": "🔗 Nooksack Stock Assessment Survey Lead Technician (Scientific Technician 3, permanent) — salmon and steelhead spawning-ground and creel surveys (WDFW, Bellingham WA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -102473,7 +102524,8 @@
         "href": "https://www.mdlt.org/employment",
         "label": "🔗 Plant Conservation Specialist I — native plant propagation and conservation seed work at the Mojave Desert Restoration Nursery (Mojave Desert Land Trust, Joshua Tree CA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -102517,7 +102569,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119699",
         "label": "🔗 Texas A&M board listing"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -102643,7 +102696,7 @@
       "kind": "s-new",
       "label": "✨ New — October 27, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-2393",
@@ -102749,7 +102802,8 @@
         "href": "https://www.usajobs.gov/job/888637400",
         "label": "🔗 Interdisciplinary Physical Scientist, GS-7/9 — Pathways Recent Graduates, Office of Environmental Management (U.S. Department of Energy, multiple sites incl. Carlsbad NM and Oak Ridge TN)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -102829,7 +102883,8 @@
         "href": "https://www.usajobs.gov/job/890158400",
         "label": "🔗 Range Technician, GS-5/7 — rangeland program support at multiple field offices (Bureau of Land Management)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -102868,7 +102923,8 @@
         "href": "https://www.usajobs.gov/job/889661800",
         "label": "🔗 Natural Resources Specialist (Ranger), GS-7 to GS-11 — recreation and natural-resource programs at Conchas Lake (U.S. Army Corps of Engineers Albuquerque District, NM)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -102986,7 +103042,8 @@
         "href": "https://www.usajobs.gov/job/890274100",
         "label": "🔗 Park Ranger, GS-0025-5/7/9, Direct Hire — natural-resource stewardship and visitor assistance at Canyon Lake (U.S. Army Corps of Engineers Fort Worth District, TX)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -103025,7 +103082,8 @@
         "href": "https://www.usajobs.gov/job/890255700",
         "label": "🔗 Rangeland Management Specialist, GS-5 to GS-11 — Roswell and Socorro field offices (Bureau of Land Management, New Mexico)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -103064,7 +103122,8 @@
         "href": "https://www.usajobs.gov/job/890247800",
         "label": "🔗 Rangeland Management Specialist, GS-7 to GS-11 — Farmington NM, with Colorado and Susanville CA duty stations (Bureau of Land Management)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -103229,7 +103288,7 @@
       "kind": "s-new",
       "label": "✨ New — October 27, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southwest",
     "id": "item-2408",
@@ -103860,7 +103919,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119640",
         "label": "🔗 Texas A&M board listing"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -104114,7 +104174,7 @@
       "kind": "s-new",
       "label": "✨ New — October 27, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-2430",
@@ -104409,7 +104469,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-conservation-easement-monitoring-specialist-duluth-minnesota/5410533722",
         "label": "🔗 Conservation Easement Monitoring Specialist (NR Specialist Intermediate) — Ecological and Water Resources easement monitoring (Minnesota DNR, Duluth MN)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -104526,7 +104587,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-coqui-response-field-crew-kailua-hawaii/1042475481",
         "label": "🔗 Coqui Response Field Crew — emergency invasive coqui frog control off-trail on Oʻahu (Oʻahu Invasive Species Committee, Kailua HI)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -104610,7 +104672,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-sonoran-pronghorn-recovery-project-lead-yuma-arizona/7584537293",
         "label": "🔗 Sonoran Pronghorn Recovery Project Lead — endangered pronghorn recovery program (Arizona Game and Fish Department, Yuma AZ)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -104649,7 +104712,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-environmental-specialist---shorelineaquatic-invasive-species-willmar-minnesota/8687481028",
         "label": "🔗 Environmental Specialist — shoreland management and aquatic invasive species program administration and enforcement (Kandiyohi County, Willmar MN)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -106375,7 +106439,8 @@
         "href": "https://www.usajobs.gov/job/891195700",
         "label": "🔗 Biological Science Technician (Wildlife) - Temporary — U.S. Fish and Wildlife Service, Newburyport, MA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -106819,7 +106884,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119788",
         "label": "🔗 Wildlife Services Wildlife Technician — USDA APHIS Wildlife Services - Michigan, Romulus, MI"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -106856,7 +106922,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-biologist-i--wildlife-resource-section-bismarck-north-dakota/4891456953",
         "label": "🔗 Biologist I - Wildlife Resource Section — North Dakota Game and Fish Department, Riverdale, ND"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -106930,7 +106997,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-natural-resources-forestry-specialist-multiple-locations-minnesota/3135661524",
         "label": "🔗 Natural Resources Forestry Specialist — Minnesota DNR - Division of Forestry, Backus, Bagley, Big Falls, Mora and Nimrod, MN"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -107273,7 +107341,7 @@
       "kind": "s-new",
       "label": "✨ New — November 3, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Mountain West",
     "id": "item-2519",
@@ -107310,7 +107378,7 @@
       "kind": "s-new",
       "label": "✨ New — November 3, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "National / Remote / Multiple",
     "id": "item-2520",
@@ -107666,7 +107734,8 @@
         "href": "https://www.governmentjobs.com/careers/washington/jobs/5536454",
         "label": "🔗 Wildlife Area & Private Lands Technician (Natural Resource Technician 3) — Washington Department of Fish and Wildlife, Pasco, WA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -107703,7 +107772,8 @@
         "href": "https://www.governmentjobs.com/careers/washington/jobs/5537210",
         "label": "🔗 Fish Hatchery Technician - Mossyrock Hatchery (Non-Permanent) — Washington Department of Fish and Wildlife, Mossyrock, WA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -107740,7 +107810,8 @@
         "href": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=536739",
         "label": "🔗 Scientific Aid - Klamath Watershed Program — California Department of Fish and Wildlife, Siskiyou County, CA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -107777,7 +107848,8 @@
         "href": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=525719",
         "label": "🔗 Nutria Eradication Scientific Aid — California Department of Fish and Wildlife, Fresno/Madera/Merced/Stanislaus/Tuolumne/Mariposa counties, CA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -107925,7 +107997,8 @@
         "href": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=536125",
         "label": "🔗 Environmental Scientist (Permanent Intermittent) - Russian River Sector — California Department of Parks and Recreation, Duncans Mills, CA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -108036,7 +108109,8 @@
         "href": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=536359",
         "label": "🔗 Aquatic Ecologist (Environmental Scientist, Permanent-Intermittent) — California Department of Water Resources, Yolo County, CA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -108073,7 +108147,8 @@
         "href": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=536743",
         "label": "🔗 Environmental Scientist - Ecosystem Restoration Grants — Sacramento-San Joaquin Delta Conservancy, Yolo County, CA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -108184,7 +108259,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-conservation-planner-weaverville-california/4306311014",
         "label": "🔗 Conservation Planner — Trinity County Resource Conservation District, Weaverville, CA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -108221,7 +108297,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-fisheries-technician-1--tagging-trailer-assistant-red-bluff-california/6674608841",
         "label": "🔗 Fisheries Technician 1 - Tagging Trailer Assistant — Pacific States Marine Fisheries Commission, Red Bluff, CA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -108441,7 +108518,8 @@
         "href": "https://www.governmentjobs.com/careers/washington/jobs/5536139",
         "label": "🔗 Fish Hatchery Technician - Cowlitz Salmon Hatchery (Non-Permanent) — Washington Department of Fish and Wildlife, Salkum, WA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -108478,7 +108556,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-fishery-biologist-1--tagging-trailer-operator-red-bluff-california/8747868213",
         "label": "🔗 Fishery Biologist 1 - Tagging Trailer Operator — Pacific States Marine Fisheries Commission, Red Bluff, CA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -108596,7 +108675,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119827",
         "label": "🔗 Fishery Biologist 2 — Data Analyst for USGS Columbia River Research Laboratory (PSMFC, Cook WA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -108792,7 +108872,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119778",
         "label": "🔗 Aquatic Resources Extension Agent — farm ponds and watershed conservation, 19-county western region (Alabama Cooperative Extension System)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -108948,7 +109029,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119763",
         "label": "🔗 Biologist I — Private Lands Section, habitat and hunting access on private land (North Dakota Game and Fish, Dickinson ND)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Internship",
@@ -109028,7 +109110,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119674",
         "label": "🔗 Seasonal Wildland Firefighter — fire effects and fuels vegetation monitoring (NPS, Lake Meredith National Recreation Area TX)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -109066,7 +109149,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119692",
         "label": "🔗 OPS Biological Scientist IV — Invasive Plant Management research liaison (Florida FWC, Tallahassee)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -109143,7 +109227,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119015",
         "label": "🔗 Wildlife Conflict Mitigation Biologist — Wildlife Impact Management Section (Florida FWC, Panama City)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -110198,7 +110283,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-associate-geologyearth-science-cambridge-massachusetts/9536089852",
         "label": "🔗 Associate (Geology / Earth Science) — natural resource damage assessment and environmental consulting (Industrial Economics, Cambridge MA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -110531,7 +110617,8 @@
         "href": "https://jobs.myflorida.com/job/WEST-PALM-BEACH-ENVIRONMENTAL-SPECIALIST-II-37011433-FL-33406/1446887800/",
         "label": "🔗 Environmental Specialist II (Wetland Evaluator track) — Florida Department of Environmental Protection, West Palm Beach, FL"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -110568,7 +110655,8 @@
         "href": "https://jobs.myflorida.com/job/FORT-MYERS-ENVIRONMENTAL-SPECIALIST-II-37011567-FL-33902/1444668500/",
         "label": "🔗 Environmental Specialist II — Florida Department of Environmental Protection, Fort Myers, FL"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -110678,7 +110766,8 @@
         "href": "https://www.jobs.virginia.gov/jobs/project-review-assistant-richmond-virginia-united-states-84a08143-f3c3-45c9-8147-371aa67a9d7a",
         "label": "🔗 Project Review Assistant (Environmental Specialist I) — Virginia Dept. of Conservation and Recreation, Richmond, VA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -113762,7 +113851,9 @@
         "href": "https://www.paycomonline.net/v4/ats/web.php/portal/679BBC2A4E83D729D53DBF5A11F9B126/jobs/88048",
         "label": "🔗 Field Crew Member - Faribault, MN (AmeriCorps) — Conservation Corps Minnesota & Iowa, Faribault, MN"
       }
-    ]
+    ],
+    "pay": "AmeriCorps living allowance plus Segal Education Award (amount on the application page)",
+    "benefits": "AmeriCorps Segal Education Award; ages 18–30 (18–35 for veterans); starts Feb 1, 2027"
   },
   {
     "type": "Service / Corps",
@@ -113798,7 +113889,9 @@
         "href": "https://www.paycomonline.net/v4/ats/web.php/portal/679BBC2A4E83D729D53DBF5A11F9B126/jobs/88035",
         "label": "🔗 Field Crew Leader - Faribault, MN (AmeriCorps) — Conservation Corps Minnesota & Iowa, Faribault, MN"
       }
-    ]
+    ],
+    "pay": "AmeriCorps living allowance plus Segal Education Award (amount on the application page)",
+    "benefits": "AmeriCorps Segal Education Award; ages 18–30 (18–35 for veterans); starts Jan 13, 2027"
   },
   {
     "type": "Service / Corps",
@@ -113834,7 +113927,9 @@
         "href": "https://www.paycomonline.net/v4/ats/web.php/portal/679BBC2A4E83D729D53DBF5A11F9B126/jobs/90895",
         "label": "🔗 Field Crew Leader or Field Crew Member - Springfield, MO (AmeriCorps) — Conservation Corps Minnesota & Iowa, Springfield, MO"
       }
-    ]
+    ],
+    "pay": "AmeriCorps living allowance plus Segal Education Award (amount on the application page)",
+    "benefits": "AmeriCorps Segal Education Award; ages 18–30 (18–35 for veterans); starts Jan 13, 2027"
   },
   {
     "type": "Service / Corps",
@@ -113869,7 +113964,9 @@
         "href": "https://www.paycomonline.net/v4/ats/web.php/portal/679BBC2A4E83D729D53DBF5A11F9B126/jobs/88594",
         "label": "🔗 Clean Water Individual Placement Member (AmeriCorps) — Conservation Corps Minnesota & Iowa, Southern Minnesota"
       }
-    ]
+    ],
+    "pay": "AmeriCorps living allowance plus Segal Education Award (amount on the application page)",
+    "benefits": "AmeriCorps Segal Education Award; ages 18–30 (18–35 for veterans); starts Jan 19, 2027"
   },
   {
     "type": "Graduate Program",
@@ -114419,7 +114516,9 @@
         "href": "https://secure8.entertimeonline.com/ta/conservationlegacy.careers?ShowJob=738783619&lang=en-US",
         "label": "🔗 Spring Conservation Crew Member (AmeriCorps, Feb-May 2027) — Appalachian Conservation Corps (Conservation Legacy), Swoope, VA"
       }
-    ]
+    ],
+    "pay": "$600/week AmeriCorps living allowance (published on the Conservation Job Board and TAMU listings)",
+    "benefits": "AmeriCorps Segal Education Award; Feb–May 2027 term"
   },
   {
     "type": "Service / Corps",
@@ -114454,7 +114553,9 @@
         "href": "https://secure8.entertimeonline.com/ta/conservationlegacy.careers?ShowJob=738783617&lang=en-US",
         "label": "🔗 Spring & Summer Conservation Crew Member (AmeriCorps, Feb-Aug 2027) — Appalachian Conservation Corps (Conservation Legacy), Harrisonburg, VA"
       }
-    ]
+    ],
+    "pay": "Starting at $600/week AmeriCorps living allowance (published on the Conservation Job Board and TAMU listings)",
+    "benefits": "AmeriCorps Segal Education Award; Feb 22–Aug 17, 2027 term"
   },
   {
     "type": "Career Position",
