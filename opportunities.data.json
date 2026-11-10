@@ -112330,5 +112330,262 @@
         "label": "🔗 Employer posting"
       }
     ]
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 10, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2652",
+    "title": "2027 LTER Plant Community Ecology Internship — Cedar Creek Ecosystem Science Reserve (University of Minnesota), East Bethel, MN",
+    "org": "Cedar Creek Ecosystem Science Reserve (University of Minnesota) · East Bethel, MN",
+    "location": "East Bethel, MN",
+    "deadline": "February 15, 2027",
+    "deadline_date": "2027-02-15",
+    "badge": "Good fit",
+    "url": "https://jobs.naaee.org/node/13835",
+    "metaLine": "East Bethel, MN · internship · $15.50/hour; on-site dorm hous · by Feb 15",
+    "body": "Seasonal field internship (mostly June-August) supporting long-term experiments such as BioCON, the Big Biodiversity experiment and the Savanna Fire Frequency experiment. Includes seminars, a professional development program and a small group research project. Open to undergraduates and recent graduates in biology, ecology or environmental science. The listing metadata says March 1 but the body says Feb 15; apply via z.umn.edu/cdrjobs. Published pay: $15.50/hour; on-site dorm housing available to rent. Apply by February 15, 2027.",
+    "desc": "Recent-grad-eligible ecology field experience at an NSF LTER site, a strong grad-school stepping stone.",
+    "pills": [
+      "MN",
+      "internship"
+    ],
+    "employer_type": "university",
+    "pay": "$15.50/hour; on-site dorm housing available to rent",
+    "url_label": "2027 LTER Plant Community Ecology Internship — Cedar Creek Ecosystem Science Reserve (University of Minnesota), East Bethel, MN",
+    "links": [
+      {
+        "href": "https://jobs.naaee.org/node/13835",
+        "label": "🔗 2027 LTER Plant Community Ecology Internship — Cedar Creek Ecosystem Science Reserve (University of Minnesota), East Bethel, MN"
+      }
+    ]
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 10, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2653",
+    "title": "2027 Spring Field Technician — Cedar Creek Ecosystem Science Reserve (University of Minnesota), East Bethel, MN",
+    "org": "Cedar Creek Ecosystem Science Reserve (University of Minnesota) · East Bethel, MN",
+    "location": "East Bethel, MN",
+    "deadline": "February 15, 2027",
+    "deadline_date": "2027-02-15",
+    "badge": "Good fit",
+    "url": "https://jobs.naaee.org/node/13836",
+    "metaLine": "East Bethel, MN · internship · $15.50/hour; on-site dorm hous · by Feb 15",
+    "body": "Full-time temporary position from late March/early April through mid-May 2027 assisting field research, experimental maintenance, prescribed burns of experimental plots and early-season tree surveys. Aimed at students and recent graduates. Listing metadata says March 1 but body says Feb 15; apply via z.umn.edu/cdrjobs. Published pay: $15.50/hour; on-site dorm housing available to rent. Apply by February 15, 2027.",
+    "desc": "Short entry-level ecological field stint with prescribed fire and vegetation survey experience.",
+    "pills": [
+      "MN",
+      "internship"
+    ],
+    "employer_type": "university",
+    "pay": "$15.50/hour; on-site dorm housing available to rent",
+    "url_label": "2027 Spring Field Technician — Cedar Creek Ecosystem Science Reserve (University of Minnesota), East Bethel, MN",
+    "links": [
+      {
+        "href": "https://jobs.naaee.org/node/13836",
+        "label": "🔗 2027 Spring Field Technician — Cedar Creek Ecosystem Science Reserve (University of Minnesota), East Bethel, MN"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 10, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2654",
+    "title": "Watershed Aide (Seasonal) — Marin Municipal Water District, Fairfax, CA",
+    "org": "Marin Municipal Water District · Fairfax, CA",
+    "location": "Fairfax, CA",
+    "deadline": "November 24, 2026",
+    "deadline_date": "2026-11-24",
+    "badge": "Strong fit",
+    "url": "https://www.governmentjobs.com/careers/marinwater/jobs/5521877/watershed-aide-seasonal?pagetype=jobOpportunitiesJobs",
+    "metaLine": "Fairfax, CA · career · $26.48-$30.56/hour · by Nov 24",
+    "body": "Seasonal (just under six months, starting about January 2027) role on the Mt. Tamalpais watershed organizing volunteer community-science and habitat restoration events, managing Marin Wildlife Watch camera data, surveying sensitive species, and doing invasive-plant and trail work. ArcGIS Pro, Collector and Survey123 skills are listed; about 60% field work. First review Nov 15. Published pay: $26.48-$30.56/hour. Apply by November 24, 2026.",
+    "desc": "Combines camera-trap data, GIS tools, restoration and watershed work, matching her skills; requires only a high-school diploma.",
+    "pills": [
+      "CA",
+      "career"
+    ],
+    "employer_type": "government",
+    "pay": "$26.48-$30.56/hour",
+    "url_label": "Watershed Aide (Seasonal) — Marin Municipal Water District, Fairfax, CA",
+    "links": [
+      {
+        "href": "https://www.governmentjobs.com/careers/marinwater/jobs/5521877/watershed-aide-seasonal?pagetype=jobOpportunitiesJobs",
+        "label": "🔗 Watershed Aide (Seasonal) — Marin Municipal Water District, Fairfax, CA"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 10, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia",
+    "id": "item-2655",
+    "title": "Forest Recovery Technician (Long Cane Ranger District) — The Nature Conservancy, Sumter National Forest, South Carolina (Remote/field)",
+    "org": "The Nature Conservancy · Sumter National Forest, South Carolina (Remote/field)",
+    "location": "Sumter National Forest, South Carolina (Remote/field)",
+    "deadline": "Rolling / open until filled",
+    "badge": "Strong fit",
+    "url": "https://nature.wd108.myworkdayjobs.com/ExternalCareers/job/GEO--Remote---South-Carolina/Long-Cane-Forest-Recovery-Technician_JR104305",
+    "metaLine": "Sumter National Forest, South Carolina (Remote/field) · career · $24.00/hour starting · rolling / open until filled",
+    "body": "Full-time technician on TNC's five-year Hurricane Helene recovery and forest restoration agreement with the U.S. Forest Service. Duties include prescribed fire, hazardous fuels work, invasive species treatment, vegetation management, field assessment and data collection. Minimum is an AS/technical degree in a science field plus 1 year related experience, or equivalent. Published pay: $24.00/hour starting. Deadline: Rolling / open until filled.",
+    "desc": "Entry-level restoration and field-data role in the post-Helene Southern Appalachians, matching her Helene capstone and WCU background.",
+    "pills": [
+      "SC",
+      "career"
+    ],
+    "employer_type": "non-profit",
+    "pay": "$24.00/hour starting",
+    "url_label": "Forest Recovery Technician (Long Cane Ranger District) — The Nature Conservancy, Sumter National Forest, South Carolina (Remote/field)",
+    "links": [
+      {
+        "href": "https://nature.wd108.myworkdayjobs.com/ExternalCareers/job/GEO--Remote---South-Carolina/Long-Cane-Forest-Recovery-Technician_JR104305",
+        "label": "🔗 Forest Recovery Technician (Long Cane Ranger District) — The Nature Conservancy, Sumter National Forest, South Carolina (Remote/field)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 10, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Southeast & Appalachia",
+    "id": "item-2656",
+    "title": "Forest Recovery Technician (Andrew Pickens Ranger District) — The Nature Conservancy, Sumter National Forest, South Carolina (Remote/field)",
+    "org": "The Nature Conservancy · Sumter National Forest, South Carolina (Remote/field)",
+    "location": "Sumter National Forest, South Carolina (Remote/field)",
+    "deadline": "Rolling / open until filled",
+    "badge": "Top recommendation",
+    "url": "https://nature.wd108.myworkdayjobs.com/ExternalCareers/job/GEO--Remote---South-Carolina/Andrew-Pickens-Forest-Recovery-Technician_JR104304-1",
+    "metaLine": "Sumter National Forest, South Carolina (Remote/field) · career · $24.00/hour starting · rolling / open until filled",
+    "body": "Full-time technician on TNC's Helene forest recovery agreement with the U.S. Forest Service, focused on the Andrew Pickens district in the Southern Blue Ridge. Work covers prescribed fire, fuels reduction, invasive species treatment, post-storm recovery, monitoring and data collection. Minimum is an AS/technical degree in a science field plus 1 year related experience, or equivalent. Published pay: $24.00/hour starting. Deadline: Rolling / open until filled.",
+    "desc": "Entry-level restoration role in the Southern Blue Ridge, close to her WCU and Pigeon River Helene work.",
+    "pills": [
+      "SC",
+      "career"
+    ],
+    "employer_type": "non-profit",
+    "pay": "$24.00/hour starting",
+    "url_label": "Forest Recovery Technician (Andrew Pickens Ranger District) — The Nature Conservancy, Sumter National Forest, South Carolina (Remote/field)",
+    "links": [
+      {
+        "href": "https://nature.wd108.myworkdayjobs.com/ExternalCareers/job/GEO--Remote---South-Carolina/Andrew-Pickens-Forest-Recovery-Technician_JR104304-1",
+        "label": "🔗 Forest Recovery Technician (Andrew Pickens Ranger District) — The Nature Conservancy, Sumter National Forest, South Carolina (Remote/field)"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 10, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-2657",
+    "title": "M.S. Graduate Assistantship: Ecological and Silvicultural Outcomes of Forest Adaptation Strategies — University of Vermont, Rubenstein School of Environment and Natural Resources (Dr. Anthony D'Amato), Burlington, VT (field sites in northern New Hampshire)",
+    "org": "University of Vermont, Rubenstein School of Environment and Natural Resources (Dr. Anthony D'Amato) · Burlington, VT (field sites in northern New Hampshire)",
+    "location": "Burlington, VT (field sites in northern New Hampshire)",
+    "deadline": "January 1, 2027",
+    "deadline_date": "2027-01-01",
+    "badge": "Strong fit",
+    "url": "https://www.uvm.edu/rsenr/graduate-assistantships-and-fellowships",
+    "metaLine": "Burlington, VT (field sites in northern New Hampshire) · grad assistantship · Two guaranteed years: stipend, · by Jan 1",
+    "body": "MS assistantship studying 10-year ecological outcomes of an Adaptive Silviculture for Climate Change installation in northern New Hampshire and related adaptation experiments, with field work on forest structure, composition and function. Applicants apply to the RSENR MS in Natural Resources by January 1, 2027 and state interest in the position in the statement of purpose; start Fall 2027. Contact awdamato@uvm.edu. Published funding: Two guaranteed years: stipend, tuition waiver and health insurance (amount not published). Apply by January 1, 2027.",
+    "desc": "Funded MS in field-based forest ecology with state, federal and non-profit partners, matching her grad-school goal and field/GIS skills.",
+    "pills": [
+      "VT",
+      "grad assistantship"
+    ],
+    "employer_type": "university",
+    "stipend": "Two guaranteed years: stipend, tuition waiver and health insurance (amount not published)",
+    "url_label": "M.S. Graduate Assistantship: Ecological and Silvicultural Outcomes of Forest Adaptation Strategies — University of Vermont, Rubenstein School of Environment and Natural Resources (Dr. Anthony D'Amato), Burlington, VT (field sites in northern New Hampshire)",
+    "links": [
+      {
+        "href": "https://www.uvm.edu/rsenr/graduate-assistantships-and-fellowships",
+        "label": "🔗 M.S. Graduate Assistantship: Ecological and Silvicultural Outcomes of Forest Adaptation Strategies — University of Vermont, Rubenstein School of Environment and Natural Resources (Dr. Anthony D'Amato), Burlington, VT (field sites in northern New Hampshire)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 10, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-2658",
+    "title": "Information Officer - Environmental Data Scientist (CT DEEP Water Monitoring & Assessment) — NEIWPCC (assigned to Connecticut DEEP), Windsor, CT",
+    "org": "NEIWPCC (assigned to Connecticut DEEP) · Windsor, CT",
+    "location": "Windsor, CT",
+    "deadline": "November 18, 2026",
+    "deadline_date": "2026-11-18",
+    "badge": "Good fit",
+    "url": "https://neiwpcc.org/about-us/careers/",
+    "metaLine": "Windsor, CT · career · $55,000-$70,000/year · by Nov 18",
+    "body": "Supports Connecticut's Water Monitoring and Assessment Program with water-quality data cleaning, validation, analysis and transfer to EPA's WQX using SQL, Python or R. EPA-contract funded for at least two years; requires a bachelor's degree in environmental science or related field and one year of professional experience. Apply by email to jobs@neiwpcc.org, reference #27-CT-LIS-001. Published pay: $55,000-$70,000/year. Apply by November 18, 2026.",
+    "desc": "Water-quality data role that uses her environmental science degree, sediment/trace-metal sampling background and GIS/data skills.",
+    "pills": [
+      "CT",
+      "career"
+    ],
+    "employer_type": "non-profit",
+    "pay": "$55,000-$70,000/year",
+    "url_label": "Information Officer - Environmental Data Scientist (CT DEEP Water Monitoring & Assessment) — NEIWPCC (assigned to Connecticut DEEP), Windsor, CT",
+    "links": [
+      {
+        "href": "https://neiwpcc.org/about-us/careers/",
+        "label": "🔗 Information Officer - Environmental Data Scientist (CT DEEP Water Monitoring & Assessment) — NEIWPCC (assigned to Connecticut DEEP), Windsor, CT"
+      }
+    ]
   }
 ]
