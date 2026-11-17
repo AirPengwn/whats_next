@@ -5014,7 +5014,7 @@
       "Northeast"
     ],
     "metaLine": "Funded MS or PhD · contact Arsenault + Farrell first · field at Thousand Islands",
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Northeast",
     "links": [
@@ -11706,7 +11706,7 @@
       "Requires advisor agreement first"
     ],
     "metaLine": "MS · funding considered automatically · Seattle WA · deadline Nov 15 2026",
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-11-15",
     "region": "West Coast / Pacific",
@@ -17453,7 +17453,7 @@
       "Email the PI now, apply properly"
     ],
     "metaLine": "Deadline Nov 14, 2026 · $30,000–$35,000 · Auburn, AL · MS or PhD",
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-11-14",
     "region": "Southeast & Appalachia",
@@ -30376,7 +30376,7 @@
       "kind": "s-new",
       "label": "✨ New — August 3, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-11-15",
     "region": "Southwest",
@@ -45306,7 +45306,7 @@
       "kind": "s-new",
       "label": "✨ New — August 24, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-1040",
@@ -61137,7 +61137,8 @@
     "start": "Between January 20 and February 10, 2027",
     "relocation": "lead",
     "deadline_date": "2026-11-15",
-    "start_date": "2027-01-20"
+    "start_date": "2027-01-20",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -62203,7 +62204,7 @@
       "kind": "s-new",
       "label": "✨ New — September 13, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Mountain West",
     "id": "item-1436",
@@ -62383,7 +62384,7 @@
       "kind": "s-new",
       "label": "✨ New — September 13, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-1440",
@@ -70354,7 +70355,7 @@
       "kind": "s-new",
       "label": "✨ New — September 15, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-1626",
@@ -70481,7 +70482,8 @@
     "start": "January 2027 (through November 2027)",
     "relocation": "local",
     "deadline_date": "2026-11-13",
-    "start_date": "2027-01-01"
+    "start_date": "2027-01-01",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -71858,7 +71860,7 @@
       "kind": "s-new",
       "label": "✨ New — September 22, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-1660",
@@ -73714,7 +73716,7 @@
       "kind": "s-new",
       "label": "✨ New — September 22, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southwest",
     "id": "item-1699",
@@ -73762,7 +73764,7 @@
       "kind": "s-new",
       "label": "✨ New — September 22, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southwest",
     "id": "item-1700",
@@ -73810,7 +73812,7 @@
       "kind": "s-new",
       "label": "✨ New — September 22, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-1701",
@@ -77606,7 +77608,7 @@
       "kind": "s-new",
       "label": "✨ New — September 29, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-1785",
@@ -77833,7 +77835,8 @@
     "deadline_date": "2026-11-16",
     "start_date": "2026-11-16",
     "housing_provided": false,
-    "relocation": "planned"
+    "relocation": "planned",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -82385,7 +82388,7 @@
       "kind": "s-new",
       "label": "✨ New — October 6, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "West Coast / Pacific",
     "id": "item-1891",
@@ -82541,7 +82544,8 @@
     ],
     "start": "After January 1, 2027",
     "deadline_date": "2026-11-16",
-    "start_date": "2027-01-01"
+    "start_date": "2027-01-01",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -82715,7 +82719,8 @@
     ],
     "start": "After December 7, 2026",
     "deadline_date": "2026-11-15",
-    "start_date": "2026-12-07"
+    "start_date": "2026-12-07",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -83348,7 +83353,8 @@
     "start": "February 22, 2027",
     "deadline_date": "2026-11-15",
     "start_date": "2027-02-22",
-    "housing_provided": true
+    "housing_provided": true,
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -84232,7 +84238,7 @@
       "kind": "s-new",
       "label": "✨ New — October 6, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Mountain West",
     "id": "item-1935",
@@ -87771,7 +87777,7 @@
       "kind": "s-new",
       "label": "✨ New — October 13, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "West Coast / Pacific",
     "id": "item-2023",
@@ -88827,7 +88833,7 @@
       "kind": "s-new",
       "label": "✨ New — October 13, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Mountain West",
     "id": "item-2049",
@@ -88869,7 +88875,7 @@
       "kind": "s-new",
       "label": "✨ New — October 13, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Mountain West",
     "id": "item-2050",
@@ -89140,7 +89146,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119423",
         "label": "🔗 Wildlife Biologist — Nuisance Wildlife Control, Sarasota (Wildernex LLC)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -89467,7 +89474,8 @@
         "href": "https://www.iowadnr.gov/employment/2026-10-09/nov-30-wildlife-temporary-worker",
         "label": "🔗 Wildlife Management Temporary (16 positions), summer 2027 — wetland, prairie and woodland habitat work, prescribed fire and wildlife surveys (Iowa DNR)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -89701,7 +89709,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119340",
         "label": "🔗 Eastern Wild Turkey Research Technicians (2) — roost-site habitat surveys at Savannah River Site (SC) and Cedar Creek WMA (GA) (University of Georgia)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -89948,7 +89957,8 @@
         "href": "https://blogs.illinois.edu/view/7426/1988865171",
         "label": "🔗 Fisheries and Aquatic Ecology Field & Lab Technician (hourly) — yellow perch, nearshore fish, benthos and zooplankton on Lake Michigan (Illinois Natural History Survey, Zion IL)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -91630,7 +91640,8 @@
         "href": "https://www.governmentjobs.com/careers/traviscounty/jobs/5515877/natural-resources-specialist",
         "label": "🔗 Natural Resources Specialist — Balcones Canyonlands Preserve land management (Travis County TNR, Austin TX)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -91787,7 +91798,8 @@
         "href": "https://ibqzjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs",
         "label": "🔗 Field Technician — Southeastern grassland restoration and surveys (Southeastern Grasslands Institute, Austin Peay State University, Clarksville TN)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -92027,7 +92039,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119471",
         "label": "🔗 Wild Turkey Predator Community Technicians (2) — mesocarnivore trapping, telemetry and camera trapping (Auburn University, AL)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -92066,7 +92079,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119470",
         "label": "🔗 Wildlife Biologist — nesting bird, special-status species, rare plant and waters monitoring across California (Sentinel Science)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -92386,7 +92400,8 @@
         "href": "https://job-boards.greenhouse.io/res/jobs/5442044008",
         "label": "🔗 Ecological Restoration Technician I — wetland and stream mitigation restoration (Resource Environmental Solutions, Scenery Hill PA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -92883,7 +92898,7 @@
       "kind": "s-new",
       "label": "✨ New — October 20, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southwest",
     "id": "item-2150",
@@ -93006,7 +93021,7 @@
       "kind": "s-new",
       "label": "✨ New — October 20, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-2153",
@@ -93047,7 +93062,7 @@
       "kind": "s-new",
       "label": "✨ New — October 20, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southwest",
     "id": "item-2154",
@@ -93129,7 +93144,7 @@
       "kind": "s-new",
       "label": "✨ New — October 20, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-2156",
@@ -93210,7 +93225,7 @@
       "kind": "s-new",
       "label": "✨ New — October 20, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-2158",
@@ -93374,7 +93389,7 @@
       "kind": "s-new",
       "label": "✨ New — October 20, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-2162",
@@ -93496,7 +93511,7 @@
       "kind": "s-new",
       "label": "✨ New — October 20, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southwest",
     "id": "item-2165",
@@ -93776,7 +93791,7 @@
       "kind": "s-new",
       "label": "✨ New — October 20, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-2172",
@@ -94451,7 +94466,8 @@
         "href": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7deee1c0-b159-4fdc-8bdb-3f1d87c47510&ccId=19000101_000001&lang=en_US&jobId=9201377739339",
         "label": "🔗 Wetlands Biologist — Wetland Reserve Easements and wetland restoration on private lands, embedded with USDA-NRCS (Ducks Unlimited, Jackson MO)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -94700,7 +94716,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-sanctuary-land-technician-arlington-wisconsin/6377172369",
         "label": "🔗 Sanctuary Land Technician (resident) — prairie and wetland stewardship at Goose Pond and Hillside Prairie (Southern Wisconsin Bird Alliance, Arlington WI)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -95015,7 +95032,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=117943",
         "label": "🔗 Restoration Designer / Ecologist (part-time, flexible) — bottomland hardwood restoration on Brazos River tributaries (Collaborative Earth, Prairie View TX)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -96943,7 +96961,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-data-management-specialist-2--natural-coordinated-assessments-and-streamnet-boise-idaho/5938322667",
         "label": "🔗 Data Management Specialist 2 — StreamNet and Coordinated Assessments fish data (Pacific States Marine Fisheries Commission, Boise ID)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Graduate Program",
@@ -97613,7 +97632,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-recovery-coordinator-yakima-washington/6962897060",
         "label": "🔗 Recovery Program Coordinator — steelhead and bull trout recovery across the Yakima Basin (Yakima Basin Fish & Wildlife Recovery Board, Yakima WA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -97652,7 +97672,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-project-based-wetland-scientist-victoria-minnesota/3854237577",
         "label": "🔗 Project-Based Wetland Scientist — wetland delineation and permitting field work in the Twin Cities (Midwest Wetland Improvements, Victoria MN)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -97691,7 +97712,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-water-resource-field-specialist-iii-groveland-california/1853417950",
         "label": "🔗 Water Resource Field Specialist I/II — watershed restoration field work (Watershed Progressive, Groveland CA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -97702,7 +97724,7 @@
       "kind": "s-new",
       "label": "✨ New — October 20, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Mountain West",
     "id": "item-2270",
@@ -98454,7 +98476,8 @@
         "href": "https://www.governmentjobs.com/careers/louisiana/jobs/5513634/biologist-1-3-minden-webster",
         "label": "🔗 Biologist 1–3 — aquatic plant control and aquatic vegetation surveys, Minden/Webster (Louisiana Dept. of Wildlife & Fisheries, Inland Fisheries)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -98691,7 +98714,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-james-river-association---upper-james-environmental-educator-lynchburg-virginia/7303306034",
         "label": "🔗 Upper James Environmental Educator — watershed and water-quality education (James River Association, Lynchburg VA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Internship",
@@ -98769,7 +98793,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-science-and-policy-analyst-stuart-florida/9254511351",
         "label": "🔗 Science and Policy Analyst — Everglades water and restoration science (Friends of the Everglades, Stuart FL)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -99609,7 +99634,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-forests-projects-coordinator-lancaster-pennsylvania/1788381532",
         "label": "🔗 Forests Projects Coordinator — riparian reforestation planning, planting and monitoring (Alliance for the Chesapeake Bay, Lancaster PA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -99648,7 +99674,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-clean-water-and-conservation-organizer-philadelphia-pennsylvania/2749361103",
         "label": "🔗 Clean Water and Conservation Associate (entry-level organizer) — clean water, parks and forest campaigns (PennEnvironment, Philadelphia PA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -100099,7 +100126,7 @@
       "kind": "s-new",
       "label": "✨ New — October 27, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Mountain West",
     "id": "item-2329",
@@ -100184,7 +100211,7 @@
       "kind": "s-new",
       "label": "✨ New — October 27, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southwest",
     "id": "item-2331",
@@ -100698,7 +100725,8 @@
         "href": "https://www.governmentjobs.com/careers/wv/jobs/5526840",
         "label": "🔗 Environmental Inspector-in-Training — water and waste enforcement in Calhoun, Doddridge, Gilmer, Ritchie and Wirt counties (West Virginia DEP, Fairmont WV)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -101216,7 +101244,8 @@
         "href": "https://jobs.myflorida.com/job/FELLSMERE-OPS-Fish-&-Wildlife-Technician-77904056-FL-32948/1443322800/",
         "label": "🔗 OPS Fish & Wildlife Technician — wetland habitat management at T.M. Goodwin Waterfowl Management Area (Florida FWC, Brevard County FL)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -101426,7 +101455,7 @@
       "kind": "s-new",
       "label": "✨ New — October 27, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-2362",
@@ -103395,7 +103424,8 @@
         "href": "https://www.azstatejobs.gov/jobs/forester-chino-valley-arizona-united-states",
         "label": "🔗 Forester — hazardous fuels, forest health and watershed restoration projects with ArcGIS, Chino Valley District (Arizona Dept. of Forestry and Fire Management)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -103512,7 +103542,8 @@
         "href": "https://nature.wd108.myworkdayjobs.com/ExternalCareers/job/Babson-Park-Florida/Land-Conservation-Steward_JR104232",
         "label": "🔗 Land Conservation Steward — upland and wetland restoration, prescribed fire and wildlife monitoring on central Florida preserves (The Nature Conservancy, Tiger Creek Preserve, Babson Park FL)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Internship",
@@ -103523,7 +103554,7 @@
       "kind": "s-new",
       "label": "✨ New — October 27, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-2414",
@@ -104548,7 +104579,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-assistant-wildlife-biologist-lanai-city-hawaii/2334945891",
         "label": "🔗 Assistant Wildlife Biologist — endangered seabird colony monitoring and supervising a wildlife technician crew (Pūlama Lānaʻi, Lanai City HI)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -104724,7 +104756,7 @@
       "kind": "s-new",
       "label": "✨ New — October 27, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-2443",
@@ -104802,7 +104834,7 @@
       "kind": "s-new",
       "label": "✨ New — November 3, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-2445",
@@ -104843,7 +104875,7 @@
       "kind": "s-new",
       "label": "✨ New — November 3, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-2446",
@@ -104883,7 +104915,7 @@
       "kind": "s-new",
       "label": "✨ New — November 3, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-2447",
@@ -105272,7 +105304,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119758",
         "label": "🔗 Stewardship Coordinator — easement monitoring, preserve management and wildlife habitat (Sagebrush Steppe Land Trust, Pocatello ID)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -105391,7 +105424,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119817",
         "label": "🔗 Inventory and Monitoring Technician — Terrestrial Ecologist (11-month temporary), NC Division of Parks and Recreation, Raleigh"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -105471,7 +105505,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119877",
         "label": "🔗 Wildlife Health Technician — Missouri Department of Conservation, Jefferson City"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -105914,7 +105949,7 @@
       "kind": "s-new",
       "label": "✨ New — November 3, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-2473",
@@ -106101,7 +106136,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119858",
         "label": "🔗 Natural Resources Specialist I–III — Wildlife District 8 Biologist (Texas Parks and Wildlife, Bastrop TX)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -106152,7 +106188,7 @@
       "kind": "s-new",
       "label": "✨ New — November 3, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "West Coast / Pacific",
     "id": "item-2479",
@@ -106229,7 +106265,7 @@
       "kind": "s-new",
       "label": "✨ New — November 3, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southwest",
     "id": "item-2482",
@@ -106365,7 +106401,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-twdb---27-21-environmental-protection-specialist-i-iii-austin-texas/6574537596",
         "label": "🔗 Environmental Protection Specialist I-III — Texas Water Development Board, Austin, TX"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -106477,7 +106514,8 @@
         "href": "https://www.usajobs.gov/job/890626800",
         "label": "🔗 FUL - Biological Science Technician (Wildlife) — U.S. Fish and Wildlife Service, Errol, NH"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -106525,7 +106563,7 @@
       "kind": "s-new",
       "label": "✨ New — November 3, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Northeast",
     "id": "item-2494",
@@ -106588,7 +106626,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-chesapeake-bay-programs-clean-water-goal-team-staffer-annapolis-maryland/9760150627",
         "label": "🔗 Chesapeake Bay Program Clean Water Goal Team Staffer — Chesapeake Research Consortium, Annapolis, MD"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Internship",
@@ -106599,7 +106638,7 @@
       "kind": "s-new",
       "label": "✨ New — November 3, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Northeast",
     "id": "item-2496",
@@ -106662,7 +106701,8 @@
         "href": "https://statejobs.ny.gov/public/vacancyDetailsView.cfm?id=228021",
         "label": "🔗 Fish and Wildlife Technician 1 (Wild Turkey study) — New York State Department of Environmental Conservation, Buffalo, NY"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -106699,7 +106739,8 @@
         "href": "https://statejobs.ny.gov/public/vacancyDetailsView.cfm?id=227678",
         "label": "🔗 Environmental Program Specialist 1 / Trainee 1-2 (NY HELPS) - Lake Champlain watershed — New York State Department of Environmental Conservation, Albany, NY"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -106773,7 +106814,8 @@
         "href": "https://www.governmentjobs.com/careers/pabureau/jobs/5532513",
         "label": "🔗 Aquatic Biologist 1 (Limited-Term) — Pennsylvania Department of Environmental Protection, Harrisburg"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -106810,7 +106852,8 @@
         "href": "https://www.usajobs.gov/job/891029400",
         "label": "🔗 Biologist (GS-5/7/9) — U.S. Fish and Wildlife Service - Kulm Wetland Management District, Kulm, ND"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -107035,7 +107078,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-district-support-specialist-fort-wayne-indiana/8871080749",
         "label": "🔗 District Support Specialist - Northeast — Indiana State Department of Agriculture, Fort Wayne, IN"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Internship",
@@ -107267,7 +107311,7 @@
       "kind": "s-new",
       "label": "✨ New — November 3, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Mountain West",
     "id": "item-2517",
@@ -107304,7 +107348,7 @@
       "kind": "s-new",
       "label": "✨ New — November 3, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Mountain West",
     "id": "item-2518",
@@ -107586,7 +107630,8 @@
         "href": "https://www.usajobs.gov/job/890916500",
         "label": "🔗 Biological Science Technician (Plants) (Temporary), GS-5/7 — National Park Service - Yosemite National Park, Yosemite National Park, CA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -107623,7 +107668,8 @@
         "href": "https://www.usajobs.gov/job/889472500",
         "label": "🔗 Rangeland Management Specialist (GS-5 to 11) — Bureau of Land Management, Baker City, Hines, Lakeview, Vale OR"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -107697,7 +107743,8 @@
         "href": "https://www.governmentjobs.com/careers/washington/jobs/5537701",
         "label": "🔗 Warmwater Fish Biologist (Fish & Wildlife Biologist 3, In-Training) — Washington Department of Fish and Wildlife, Ephrata, WA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -107886,7 +107933,8 @@
         "href": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=536735",
         "label": "🔗 Environmental Scientist - Habitat Conservation Planning (timber/fire resiliency) — California Department of Fish and Wildlife, West Sacramento, CA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -107923,7 +107971,8 @@
         "href": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=536437",
         "label": "🔗 Environmental Scientist - Big Game / Public Access — California Department of Fish and Wildlife, Yolo County, CA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -107960,7 +108009,8 @@
         "href": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=537680",
         "label": "🔗 Sierra Bighorn Quantitative Biologist (Environmental Scientist) — California Department of Fish and Wildlife, Inyo County, CA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -108035,7 +108085,8 @@
         "href": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=536138",
         "label": "🔗 Environmental Scientist — California Department of Pesticide Regulation, Sacramento, CA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -108072,7 +108123,8 @@
         "href": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=536031",
         "label": "🔗 Estuarine Ecologist (Environmental Scientist, Permanent-Intermittent) — California Department of Water Resources, Yolo County, CA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -108372,7 +108424,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-npuu-nrm-predator-control--forest-bird-associate-ii-kailua-kona-hawaii/1124486423",
         "label": "🔗 Napuu NRM Predator Control and Forest Bird Associate II — Research Corporation of the University of Hawaiʻi, Kailua-Kona, HI"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -108635,7 +108688,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119840",
         "label": "🔗 GIS Analyst (OPS Environmental Specialist I) — Center for Spatial Analysis, Marine Spatial Ecology (Florida FWRI, St. Petersburg)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -108794,7 +108848,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119783",
         "label": "🔗 Conservation Technician I — priority species monitoring and habitat restoration (Jekyll Island State Park Authority, GA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -108990,7 +109045,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119768",
         "label": "🔗 Seasonal Turkey Trapping Assistant — rocket-net trapping and banding on three NW Georgia WMAs (Georgia DNR, Armuchee GA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -109976,7 +110032,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-land-stewardship-specialist-louisburg-north-carolina/2797232916",
         "label": "🔗 Land Stewardship Specialist — easement monitoring and preserve stewardship (Tar River Land Conservancy, Louisburg NC)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -110015,7 +110072,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-wetland-restoration-ecologist-stockton-california/3671165513",
         "label": "🔗 Wetland Restoration Ecologist (2) — tidal wetland restoration, Fish Restoration Program (California Department of Fish and Wildlife, Stockton)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -110053,7 +110111,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-streambank-restoration-technician-mills-river-north-carolina/3729458048",
         "label": "🔗 Streambank Restoration Technician — live staking, native planting and erosion control (Stone & Spade, Mills River NC)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -110169,7 +110228,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-conservation-easement-coordinator-fayetteville-arkansas/1675352606",
         "label": "🔗 Conservation Easement Coordinator — GIS mapping, field monitoring and documentation (Northwest Arkansas Land Trust, Fayetteville AR)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -110207,7 +110267,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-database-specialist-warrenton-virginia/2451066632",
         "label": "🔗 Database Specialist — The Piedmont Environmental Council (Warrenton VA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -110358,7 +110419,8 @@
         "label": "🔗 Marine Fisheries Biologist (Conservation Biologist I) — NC DEQ Division of Marine Fisheries, Washington Regional Office, Beaufort County, NC"
       }
     ],
-    "pay": "$52,592–$54,170 recruitment range (published)"
+    "pay": "$52,592–$54,170 recruitment range (published)",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -110395,7 +110457,8 @@
         "href": "https://www.governmentjobs.com/careers/louisiana/jobs/5513634",
         "label": "🔗 Biologist 1-3 (Aquatic Plant Control), Minden/Webster — Louisiana Dept. of Wildlife and Fisheries, Minden, LA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -110432,7 +110495,8 @@
         "href": "https://www.governmentjobs.com/careers/sc/jobs/5533051",
         "label": "🔗 Wildlife Biologist I (SCORE Oyster Recycling Coordinator) — SC Department of Natural Resources, Charleston County, SC"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -110469,7 +110533,8 @@
         "href": "https://www.governmentjobs.com/careers/mississippi/jobs/5534315",
         "label": "🔗 Environmental/Natural Resources Specialist I — Mississippi Dept. of Marine Resources, Harrison County"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -110543,7 +110608,8 @@
         "href": "https://jobs.myflorida.com/job/DE-LEON-SPRINGS-Seasonal-OPS-Fish-&-Wildlife-Technician-77901338-1-FL-32130/1444644000/",
         "label": "🔗 Seasonal OPS Fish & Wildlife Technician — Florida Fish and Wildlife Conservation Commission, De Leon Springs, FL"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -110580,7 +110646,8 @@
         "href": "https://jobs.myflorida.com/job/PALM-BAY-OPS-Fish-&-Wildlife-Technician-77907584-FL-32909/1443324900/",
         "label": "🔗 OPS Fish & Wildlife Technician (Palm Beach) — Florida Fish and Wildlife Conservation Commission, Palm Beach County, FL"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -110693,7 +110760,8 @@
         "href": "https://jobs.myflorida.com/job/TALLAHASSEE-ENVIRONMENTAL-CONSULTANT-37011046-FL-32399/1446548800/",
         "label": "🔗 Environmental Consultant (Water Quality) — Florida Department of Environmental Protection, Tallahassee, FL"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -110804,7 +110872,8 @@
         "href": "https://www.jobs.virginia.gov/jobs/co-p4691-water-withdrawal-compliance-auditor-richmond-virginia-united-states",
         "label": "🔗 Water Withdrawal Compliance Auditor — Virginia Dept. of Environmental Quality, Richmond, VA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -110841,7 +110910,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119852",
         "label": "🔗 Game and Fish Technician - Fort Polk — CEMML (Colorado State University), Fort Polk, LA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -110878,7 +110948,8 @@
         "href": "https://www.governmentjobs.com/careers/mississippi/jobs/5532685",
         "label": "🔗 Environmental/Natural Resources Specialist II — Mississippi Dept. of Marine Resources, Harrison County"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -110917,7 +110988,8 @@
         "href": "https://www.usajobs.gov/job/891011000",
         "label": "🔗 Fish Biologist, GS-0482-7 — U.S. Fish and Wildlife Service, Suches GA (Chattahoochee National Forest area)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -110956,7 +111028,8 @@
         "href": "https://www.usajobs.gov/job/891277500",
         "label": "🔗 FUL — Biological Science Technician (Fish), GS-0404-5/6 — U.S. Fish and Wildlife Service, Red Bluff CA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -110995,7 +111068,8 @@
         "href": "https://www.usajobs.gov/job/890812000",
         "label": "🔗 Biological Science Technician, GS-0404-6/7 — USDA Agricultural Research Service, Urbana IL"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -111230,7 +111304,7 @@
       "kind": "s-new",
       "label": "✨ New — November 10, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southwest",
     "id": "item-2622",
@@ -112293,7 +112367,8 @@
         "href": "https://www.swinomish-nsn.gov/human-resources/job-opening/fisheries-technician-iii-shellfish",
         "label": "🔗 Employer posting"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -112335,7 +112410,8 @@
         "href": "https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers/job/Santa-Rita-GU/Brown-Treesnake--BTS--Control-and-Native-Species-Recovery-Crew-Lead-5---Guam_R2026108183",
         "label": "🔗 Employer posting"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Internship",
@@ -112418,7 +112494,8 @@
         "href": "https://mtstatejobs.taleo.net/careersection/200/jobdetail.ftl?job=26142754",
         "label": "🔗 Employer posting"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Internship",
@@ -113044,7 +113121,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-pcsu-maui-nui-fuels-mitigation-field-project-assistant-kahului-hawaii/1737823705",
         "label": "🔗 Maui Nui Fuels Mitigation Field Project Assistant (8 positions, PCSU/RCUH) — Hawaii DOFAW, Kahului, HI"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -113081,7 +113159,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-environmental-scientist-jc-482161-san-luis-obispo-california/3327365428",
         "label": "🔗 Environmental Scientist (JC-482161, repost) — Central Coast Regional Water Quality Control Board, San Luis Obispo, CA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -113229,7 +113308,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-natural-resources-specialist-i---ii---iii-wildlife-district-8-biologist-bastrop-texas/3125730694",
         "label": "🔗 Natural Resources Specialist I–III (Wildlife District 8 Biologist) — Texas Parks and Wildlife Department, Bastrop, TX"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -113303,7 +113383,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-game-and-fish-technician---fort-polk-la-fort-polk-louisiana/7848147516",
         "label": "🔗 Game and Fish Technician — CEMML (Colorado State University), Fort Polk, LA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -113377,7 +113458,8 @@
         "href": "https://www.governmentjobs.com/careers/iowa/jobs/5542675/environmental-specialist",
         "label": "🔗 Environmental Specialist (Water Quality & Beach Monitoring) — Iowa Department of Natural Resources, Des Moines, IA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -113451,7 +113533,8 @@
         "href": "https://www.governmentjobs.com/careers/michigan/jobs/5528621/fisheries-technician-8-e10-2-vacancies",
         "label": "🔗 Fisheries Technician 8-E10 (2 vacancies, limited term) — Michigan Department of Natural Resources, Elmira, MI"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -113607,7 +113690,7 @@
       "kind": "s-new",
       "label": "✨ New — November 10, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-2684",
@@ -113743,7 +113826,8 @@
         "href": "https://jobs.mdc.mo.gov/job/Columbia-Wildlife-Health-Technician-%28HOURLY%29-MO-65102/1446761900/",
         "label": "🔗 Wildlife Health Technician (Hourly) — Missouri Department of Conservation, Charles W. Green Conservation Area, Ashland, MO"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -113779,7 +113863,8 @@
         "href": "https://jobs.mdc.mo.gov/job/Bolivar-Resource-Management-Technician-%28Hourly%29-MO-65613/1448054400/",
         "label": "🔗 Resource Management Technician (Hourly) — Missouri Department of Conservation, Bolivar, MO"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -114076,7 +114161,8 @@
         "href": "https://www.governmentjobs.com/careers/washington/jobs/5540658",
         "label": "🔗 Watercraft Inspector (Natural Resource Technician 2) - Aquatic Invasive Species Enforcement Unit — Washington Department of Fish and Wildlife, Ridgefield, WA (Clark County)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -114113,7 +114199,8 @@
         "href": "https://www.governmentjobs.com/careers/washington/jobs/5538897",
         "label": "🔗 Wildlife Area Technician (Natural Resources Technician 3) - Grays Harbor wildlife area, habitat restoration — Washington Department of Fish and Wildlife (Wildlife Program, Lands Division), Aberdeen, WA (Grays Harbor County)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -114150,7 +114237,8 @@
         "href": "https://www.governmentjobs.com/careers/alaska/jobs/5543716",
         "label": "🔗 Fish and Wildlife Technician 3 (seasonal) - Homer, PCN 111615 — Alaska Department of Fish and Game, Homer, AK"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -114444,7 +114532,8 @@
         "href": "https://jobs.myflorida.com/job/BONITA-SPRINGS-ENVIRONMENTAL-SPECIALIST-II-42000170-1-FL-34134/1448949200/",
         "label": "🔗 Environmental Specialist II (Agricultural Environmental Services) — Florida Dept of Agriculture and Consumer Services, Bonita Springs area (Charlotte/Lee/Sarasota), FL"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -114629,7 +114718,8 @@
         "href": "https://www.usajobs.gov/job/890977000",
         "label": "🔗 Rangeland Management Specialist GS-5/7/9 — Bureau of Land Management, Oregon/Washington (Baker City, Hines, Lakeview, Vale or Spokane)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -114777,7 +114867,8 @@
         "href": "https://www.usajobs.gov/job/891385700",
         "label": "🔗 Biological Science Technician (Invasive Species Strike Team) GS-7, temporary — U.S. Fish and Wildlife Service, Willapa NWR, Long Beach, WA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -114814,7 +114905,8 @@
         "href": "https://www.usajobs.gov/job/891802000",
         "label": "🔗 Natural Resource Specialist (Ranger) GS-5/7/9, Direct Hire — U.S. Army Corps of Engineers, Addicks, TX"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -114888,7 +114980,8 @@
         "href": "https://www.usajobs.gov/job/891906300",
         "label": "🔗 Biological Science Technician (Wildlife) GS-7, seasonal — U.S. Fish and Wildlife Service, Burbank or Othello, WA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Graduate Program",
@@ -115045,7 +115138,7 @@
       "kind": "s-new",
       "label": "✨ New — November 10, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "British Columbia",
     "id": "item-2723",
@@ -115810,7 +115903,8 @@
         "href": "https://ecoworks.eco.ca/jobs/771244821-halibut-tagger-sampler",
         "label": "🔗 Halibut Tagger / Sampler (dockside monitoring) — Archipelago Marine Research, Port Hardy, BC"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -115847,6 +115941,1266 @@
       {
         "href": "https://ecoworks.eco.ca/jobs/770655133-technical-trainer-project-coordinator",
         "label": "🔗 Technical Trainer / Project Coordinator — Water First, Creemore, ON"
+      }
+    ]
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2745",
+    "title": "Wetland Easement Mapping and Data Management Support Member — Western South Dakota NWR Complex (American Conservation Experience / USFWS, Lake Andes SD)",
+    "org": "American Conservation Experience · USFWS Western South Dakota NWR Complex · Lake Andes, SD",
+    "location": "Lake Andes, SD",
+    "deadline": "December 21, 2026",
+    "deadline_date": "2026-12-21",
+    "badge": "Top recommendation",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=120199",
+    "metaLine": "Lake Andes, SD · service · Up to $850/week · by Dec 21",
+    "body": "Twin of the Eastern SD placement: an ACE member supports USFWS wetland easement mapping, data management and landowner communication across the western South Dakota refuge complex. Published pay: Up to $850/week. Apply by December 21, 2026.",
+    "desc": "Wetland easements plus GIS inside USFWS — the same high-fit role at a second refuge complex.",
+    "pills": [
+      "SD",
+      "service"
+    ],
+    "employer_type": "non-profit",
+    "pay": "Up to $850/week",
+    "url_label": "Wetland Easement Mapping and Data Management Support Member — Western South Dakota NWR Complex (American Conservation Experience / USFWS, Lake Andes SD)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120199",
+        "label": "🔗 Wetland Easement Mapping and Data Management Support Member — Western South Dakota NWR Complex (American Conservation Experience / USFWS, Lake Andes SD)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2746",
+    "title": "Wildlife Biologist (Term, GS) — USFWS Habitat and Population Evaluation Team, Bismarck ND",
+    "org": "US Fish and Wildlife Service · HAPET / National Wildlife Refuge System Region 6 · Bismarck, ND",
+    "location": "Bismarck, ND",
+    "deadline": "November 23, 2026",
+    "deadline_date": "2026-11-23",
+    "badge": "Top recommendation",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=120177",
+    "metaLine": "Bismarck, ND · career · $61,722–$80,243/yr · by Nov 23",
+    "body": "Term federal biologist position (more than one year) with the Habitat and Population Evaluation Team, the USFWS group that models Prairie Pothole wetland and grassland bird habitat with GIS. Applications open Nov 16–23 or until 100 applications arrive, whichever is sooner. Published pay: $61,722–$80,243/yr. Apply by November 23, 2026.",
+    "desc": "HAPET is a GIS-and-wetlands shop inside USFWS; apply on day one because it caps at 100 applicants.",
+    "pills": [
+      "ND",
+      "career"
+    ],
+    "employer_type": "government",
+    "pay": "$61,722–$80,243/yr",
+    "url_label": "Wildlife Biologist (Term, GS) — USFWS Habitat and Population Evaluation Team, Bismarck ND",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120177",
+        "label": "🔗 Wildlife Biologist (Term, GS) — USFWS Habitat and Population Evaluation Team, Bismarck ND"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2747",
+    "title": "Conservation Program Biologist I (Fisheries Division) — Arkansas Game and Fish Commission, Lonoke AR",
+    "org": "Arkansas Game and Fish Commission · Fisheries Division · Lonoke, AR",
+    "location": "Lonoke, AR",
+    "deadline": "December 25, 2026",
+    "deadline_date": "2026-12-25",
+    "badge": "Good fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=120181",
+    "metaLine": "Lonoke, AR · career · $61,443/yr · by Dec 25",
+    "body": "Entry biologist class in AGFC's Fisheries Division, assisting program coordinators, district supervisors and hatchery staff with fisheries management. Bachelor's plus about two years of related experience required. Published pay: $61,443/yr. Apply by December 25, 2026.",
+    "desc": "Permanent state biologist ladder; aquatic work fits her water-quality background (experience requirement is a stretch).",
+    "pills": [
+      "AR",
+      "career"
+    ],
+    "employer_type": "government",
+    "pay": "$61,443/yr",
+    "url_label": "Conservation Program Biologist I (Fisheries Division) — Arkansas Game and Fish Commission, Lonoke AR",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120181",
+        "label": "🔗 Conservation Program Biologist I (Fisheries Division) — Arkansas Game and Fish Commission, Lonoke AR"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2748",
+    "title": "Conservation Biologist I (District Biologist, 2 vacancies) — NC State Parks, Central & Northeast Districts",
+    "org": "NC Division of Parks and Recreation · Natural Resources Section · North Carolina",
+    "location": "Central or Northeast District, NC",
+    "deadline": "December 1, 2026",
+    "deadline_date": "2026-12-01",
+    "badge": "Strong fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=120204",
+    "metaLine": "Central or Northeast District, NC · career · $62,453–$75,929/yr · by Dec 1",
+    "body": "Two district biologist vacancies in the Natural Resources Section, each based in a park with responsibilities across several counties — inventory, monitoring and natural-resource management. Bachelor's plus about two years' experience. NC postings close at 11:59 PM the night before the listed end date. Published pay: $62,453–$75,929/yr. Apply by December 1, 2026.",
+    "desc": "Permanent NC parks biologist role in her home state's system, using survey and GIS skills.",
+    "pills": [
+      "NC",
+      "career"
+    ],
+    "employer_type": "government",
+    "pay": "$62,453–$75,929/yr",
+    "url_label": "Conservation Biologist I (District Biologist, 2 vacancies) — NC State Parks, Central & Northeast Districts",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120204",
+        "label": "🔗 Conservation Biologist I (District Biologist, 2 vacancies) — NC State Parks, Central & Northeast Districts"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2749",
+    "title": "Natural Resource & Agricultural Conservation Technician — International Water Institute, Fargo ND",
+    "org": "International Water Institute · Fargo, ND",
+    "location": "Fargo, ND",
+    "deadline": "December 16, 2026",
+    "deadline_date": "2026-12-16",
+    "badge": "Strong fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=120184",
+    "metaLine": "Fargo, ND · career · by Dec 16",
+    "body": "Non-profit in the Red River of the North Basin working on water quality, water-resource protection, agricultural stewardship and flood-damage reduction. The technician supports monitoring and conservation projects; bachelor's required, no experience minimum. Pay/stipend not published on the posting. Start: January 2027. Apply by December 16, 2026.",
+    "desc": "Water-quality monitoring at a non-profit that takes a new BS — squarely her capstone skill set.",
+    "pills": [
+      "ND",
+      "career"
+    ],
+    "employer_type": "non-profit",
+    "start": "January 2027",
+    "url_label": "Natural Resource & Agricultural Conservation Technician — International Water Institute, Fargo ND",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120184",
+        "label": "🔗 Natural Resource & Agricultural Conservation Technician — International Water Institute, Fargo ND"
+      }
+    ]
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2750",
+    "title": "Quantitative Spatial Ecology Intern — Smithsonian's National Zoo & Conservation Biology Institute, Front Royal VA",
+    "org": "Smithsonian's National Zoo and Conservation Biology Institute · Center for Conservation Technology & Innovation · Front Royal, VA",
+    "location": "Front Royal, VA",
+    "deadline": "November 30, 2026",
+    "deadline_date": "2026-11-30",
+    "badge": "Strong fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=120186",
+    "metaLine": "Front Royal, VA · internship · $400–$650/week · by Nov 30",
+    "body": "SCBI's conservation-technology centre seeks an intern to analyse the environmental drivers of vegetation patches at vicuña latrines in the Andean highlands — a remote-sensing and spatial-statistics project. Bachelor's plus about one year of experience. Published pay: $400–$650/week. Apply by November 30, 2026.",
+    "desc": "Paid GIS/spatial-ecology work at the Smithsonian, about 2 hours from Richmond.",
+    "pills": [
+      "VA",
+      "internship"
+    ],
+    "employer_type": "government",
+    "pay": "$400–$650/week",
+    "url_label": "Quantitative Spatial Ecology Intern — Smithsonian's National Zoo & Conservation Biology Institute, Front Royal VA",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120186",
+        "label": "🔗 Quantitative Spatial Ecology Intern — Smithsonian's National Zoo & Conservation Biology Institute, Front Royal VA"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2751",
+    "title": "MS Assistantship — Bat Conservation, University of Illinois Urbana-Champaign",
+    "org": "University of Illinois Urbana-Champaign · Urbana, IL",
+    "location": "Urbana, IL",
+    "deadline": "November 23, 2026",
+    "deadline_date": "2026-11-23",
+    "badge": "Strong fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=120143",
+    "metaLine": "Urbana, IL · grad assistantship · $2,769/month · by Nov 23",
+    "body": "Funded MS assistantship on bat conservation at UIUC. Bachelor's required, no experience minimum; confirm tuition-waiver terms with the advisor. Published funding: $2,769/month. Apply by November 23, 2026.",
+    "desc": "Funded MS in mammal conservation that builds on her small-mammal trapping.",
+    "pills": [
+      "IL",
+      "grad assistantship"
+    ],
+    "employer_type": "university",
+    "stipend": "$2,769/month",
+    "url_label": "MS Assistantship — Bat Conservation, University of Illinois Urbana-Champaign",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120143",
+        "label": "🔗 MS Assistantship — Bat Conservation, University of Illinois Urbana-Champaign"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-2752",
+    "title": "Funded MS Assistantship — Amphibian Ecology, University of Wyoming (Giery & Barrile Labs)",
+    "org": "University of Wyoming · Dept. of Zoology & Physiology · Laramie, WY",
+    "location": "Laramie, WY",
+    "deadline": "December 9, 2026",
+    "deadline_date": "2026-12-09",
+    "badge": "Strong fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=120169",
+    "metaLine": "Laramie, WY · grad assistantship · About $20,856/yr stipend + full  · by Dec 9",
+    "body": "The Giery and Barrile labs are recruiting an MS student (exceptional PhD applicants considered) to lead a fully funded project on amphibian population status. The assistantship covers tuition, fees, health insurance and a stipend for three years. Published funding: About $20,856/yr stipend + full tuition waiver, fees and student health insurance (3 years). Start: Fall 2027. Apply by December 9, 2026.",
+    "desc": "Fully funded MS with tuition covered, wetland-dependent species, BS entry.",
+    "pills": [
+      "WY",
+      "grad assistantship"
+    ],
+    "employer_type": "university",
+    "stipend": "About $20,856/yr stipend + full tuition waiver, fees and student health insurance (3 years)",
+    "start": "Fall 2027",
+    "url_label": "Funded MS Assistantship — Amphibian Ecology, University of Wyoming (Giery & Barrile Labs)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120169",
+        "label": "🔗 Funded MS Assistantship — Amphibian Ecology, University of Wyoming (Giery & Barrile Labs)"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-2753",
+    "title": "Graduate Research Assistant — Utah Prairie Dog Diet and Ecology, Utah State University (with Utah DWR)",
+    "org": "Utah State University · Dr. Nicki Frey · Cedar City, UT",
+    "location": "Cedar City, UT",
+    "deadline": "December 21, 2026",
+    "deadline_date": "2026-12-21",
+    "badge": "Strong fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=120180",
+    "metaLine": "Cedar City, UT · grad assistantship · Starting at $25,000/yr · by Dec 21",
+    "body": "Utah State University and the Utah Division of Wildlife Resources seek a graduate research assistant for a Utah prairie dog ecology and management project, including fecal DNA and microhistological diet analysis. Confirm degree level and tuition coverage with Dr. Frey. Published funding: Starting at $25,000/yr. Apply by December 21, 2026.",
+    "desc": "Funded small-mammal grad project with a state-agency partner.",
+    "pills": [
+      "UT",
+      "grad assistantship"
+    ],
+    "employer_type": "university",
+    "stipend": "Starting at $25,000/yr",
+    "url_label": "Graduate Research Assistant — Utah Prairie Dog Diet and Ecology, Utah State University (with Utah DWR)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120180",
+        "label": "🔗 Graduate Research Assistant — Utah Prairie Dog Diet and Ecology, Utah State University (with Utah DWR)"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2754",
+    "title": "Graduate Research Assistantships (MS or PhD) — Remote Sensing of Wetlands & AI for Water Resources, Marquette University",
+    "org": "Marquette University · Dept. of Civil, Construction & Environmental Engineering · Dr. Walter McDonald · Milwaukee, WI",
+    "location": "Milwaukee, WI",
+    "deadline": "December 16, 2026",
+    "deadline_date": "2026-12-16",
+    "badge": "Strong fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=120200",
+    "metaLine": "Milwaukee, WI · grad assistantship · Fully funded assistantship (amou · by Dec 16",
+    "body": "Two fully funded GRA positions for MS or PhD students. Position 1 develops scalable remote-sensing methods for monitoring the condition of wetlands and nature-based solutions; position 2 applies AI to water resources. Published funding: Fully funded assistantship (amount not published). Apply by December 16, 2026.",
+    "desc": "Wetlands plus remote sensing, open to MS students — fits her GIS and wetland interests.",
+    "pills": [
+      "WI",
+      "grad assistantship"
+    ],
+    "employer_type": "university",
+    "stipend": "Fully funded assistantship (amount not published)",
+    "url_label": "Graduate Research Assistantships (MS or PhD) — Remote Sensing of Wetlands & AI for Water Resources, Marquette University",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120200",
+        "label": "🔗 Graduate Research Assistantships (MS or PhD) — Remote Sensing of Wetlands & AI for Water Resources, Marquette University"
+      }
+    ]
+  },
+  {
+    "type": "Graduate Program",
+    "cat": "Funded Graduate Programs",
+    "src": "erin_programs.html",
+    "src_label": "Funded Graduate Programs",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2755",
+    "title": "MS Assistantship — Breeding Ecology of Eastern Bluebirds, Arkansas Tech University",
+    "org": "Arkansas Tech University · Russellville, AR",
+    "location": "Russellville, AR",
+    "deadline": "December 15, 2026",
+    "deadline_date": "2026-12-15",
+    "badge": "Good fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=120123",
+    "metaLine": "Russellville, AR · grad assistantship · $14,000/yr · by Dec 15",
+    "body": "Funded MS assistantship studying eastern bluebird breeding ecology at Arkansas Tech. Bachelor's required, no experience minimum; confirm tuition terms with the department. Published funding: $14,000/yr. Apply by December 15, 2026.",
+    "desc": "BS-entry funded wildlife MS, though the stipend is modest.",
+    "pills": [
+      "AR",
+      "grad assistantship"
+    ],
+    "employer_type": "university",
+    "stipend": "$14,000/yr",
+    "url_label": "MS Assistantship — Breeding Ecology of Eastern Bluebirds, Arkansas Tech University",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120123",
+        "label": "🔗 MS Assistantship — Breeding Ecology of Eastern Bluebirds, Arkansas Tech University"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2756",
+    "title": "Habitat Technician — Mississippi Valley Conservancy (land trust), La Crosse WI",
+    "org": "Mississippi Valley Conservancy · La Crosse, WI",
+    "location": "La Crosse, WI",
+    "deadline": "December 4, 2026",
+    "deadline_date": "2026-12-04",
+    "badge": "Strong fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=120146",
+    "metaLine": "La Crosse, WI · career · $18/hr · by Dec 4",
+    "body": "Regional land trust that has conserved more than 27,000 acres of blufflands, prairie, wetlands and streams and manages 27 preserves. The habitat technician does hands-on stewardship and restoration on the Conservancy's preserves. Published pay: $18/hr. Apply by December 4, 2026.",
+    "desc": "Field restoration at a land trust — the non-profit route into stewardship careers.",
+    "pills": [
+      "WI",
+      "career"
+    ],
+    "employer_type": "non-profit",
+    "pay": "$18/hr",
+    "url_label": "Habitat Technician — Mississippi Valley Conservancy (land trust), La Crosse WI",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120146",
+        "label": "🔗 Habitat Technician — Mississippi Valley Conservancy (land trust), La Crosse WI"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2757",
+    "title": "Habitat Specialist I — Pheasants Forever & Quail Forever / Missouri DNR, Neosho MO",
+    "org": "Pheasants Forever and Quail Forever · Neosho, MO",
+    "location": "Neosho, MO",
+    "deadline": "November 24, 2026",
+    "deadline_date": "2026-11-24",
+    "badge": "Strong fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=120159",
+    "metaLine": "Neosho, MO · career · $44,000–$48,000/yr · by Nov 24",
+    "body": "Partnership crew with Missouri DNR, Quail Forever and USFWS doing habitat management — prescribed fire, invasive removal, prairie and woodland restoration — on cooperating lands. Bachelor's required, no experience minimum. Published pay: $44,000–$48,000/yr. Start: December 2026. Apply by November 24, 2026.",
+    "desc": "Salaried restoration job at a conservation non-profit, open to a new grad.",
+    "pills": [
+      "MO",
+      "career"
+    ],
+    "employer_type": "non-profit",
+    "pay": "$44,000–$48,000/yr",
+    "start": "December 2026",
+    "url_label": "Habitat Specialist I — Pheasants Forever & Quail Forever / Missouri DNR, Neosho MO",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120159",
+        "label": "🔗 Habitat Specialist I — Pheasants Forever & Quail Forever / Missouri DNR, Neosho MO"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2758",
+    "title": "Habitat Specialist I — Pheasants Forever & Quail Forever, Farmington MO",
+    "org": "Pheasants Forever and Quail Forever · Farmington, MO",
+    "location": "Farmington, MO",
+    "deadline": "November 27, 2026",
+    "deadline_date": "2026-11-27",
+    "badge": "Strong fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=120160",
+    "metaLine": "Farmington, MO · career · $44,000–$48,000/yr · by Nov 27",
+    "body": "Habitat crew position in the PF/QF Missouri partnership doing prescribed fire, invasive-species control and habitat restoration on partner lands. Bachelor's required, no experience minimum. Published pay: $44,000–$48,000/yr. Apply by November 27, 2026.",
+    "desc": "Same salaried restoration ladder at a second Missouri crew.",
+    "pills": [
+      "MO",
+      "career"
+    ],
+    "employer_type": "non-profit",
+    "pay": "$44,000–$48,000/yr",
+    "url_label": "Habitat Specialist I — Pheasants Forever & Quail Forever, Farmington MO",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120160",
+        "label": "🔗 Habitat Specialist I — Pheasants Forever & Quail Forever, Farmington MO"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2759",
+    "title": "Habitat Specialist I — Pheasants Forever & Quail Forever, Crossville TN",
+    "org": "Pheasants Forever and Quail Forever · Crossville, TN",
+    "location": "Crossville, TN",
+    "deadline": "December 4, 2026",
+    "deadline_date": "2026-12-04",
+    "badge": "Strong fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=120161",
+    "metaLine": "Crossville, TN · career · Up to $44,000/yr · by Dec 4",
+    "body": "Habitat specialist position on the Cumberland Plateau doing hands-on habitat management and restoration for PF/QF and partners. Bachelor's required, no experience minimum. Published pay: Up to $44,000/yr. Apply by December 4, 2026.",
+    "desc": "Salaried restoration job in the Appalachians, a day's drive from Richmond.",
+    "pills": [
+      "TN",
+      "career"
+    ],
+    "employer_type": "non-profit",
+    "pay": "Up to $44,000/yr",
+    "url_label": "Habitat Specialist I — Pheasants Forever & Quail Forever, Crossville TN",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120161",
+        "label": "🔗 Habitat Specialist I — Pheasants Forever & Quail Forever, Crossville TN"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2760",
+    "title": "Restoration Ecologist — Institute for Applied Ecology, Oregon",
+    "org": "Institute for Applied Ecology · Oregon",
+    "location": "Oregon (some remote work)",
+    "deadline": "December 31, 2026",
+    "deadline_date": "2026-12-31",
+    "badge": "Strong fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=120063",
+    "metaLine": "Oregon (some remote work) · career · $27–$30/hr · by Dec 31",
+    "body": "IAE is a non-profit working on native-plant restoration, habitat monitoring and conservation research across the Pacific Northwest. The restoration ecologist plans and carries out restoration projects; bachelor's plus about one year of experience. Published pay: $27–$30/hr. Apply by December 31, 2026.",
+    "desc": "Restoration ecology at a respected non-profit, close to entry-level.",
+    "pills": [
+      "career"
+    ],
+    "employer_type": "non-profit",
+    "pay": "$27–$30/hr",
+    "url_label": "Restoration Ecologist — Institute for Applied Ecology, Oregon",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120063",
+        "label": "🔗 Restoration Ecologist — Institute for Applied Ecology, Oregon"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2761",
+    "title": "Restoration Crew Lead — Grays Harbor Conservation District Watershed Restoration Program, Elma WA",
+    "org": "Grays Harbor Conservation District · Elma, WA",
+    "location": "Elma, WA",
+    "deadline": "December 4, 2026",
+    "deadline_date": "2026-12-04",
+    "badge": "Good fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=120163",
+    "metaLine": "Elma, WA · career · $29.04–$37.75/hr + benefits · by Dec 4",
+    "body": "Full-time, grant-funded lead for the district's watershed restoration crew, supervising riparian planting and habitat work across Grays Harbor County. Bachelor's plus about two years' experience. Published pay: $29.04–$37.75/hr + benefits. Apply by December 4, 2026.",
+    "desc": "Watershed restoration with benefits; her NCCC crew experience helps on the leadership side.",
+    "pills": [
+      "WA",
+      "career"
+    ],
+    "employer_type": "government",
+    "pay": "$29.04–$37.75/hr + benefits",
+    "url_label": "Restoration Crew Lead — Grays Harbor Conservation District Watershed Restoration Program, Elma WA",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120163",
+        "label": "🔗 Restoration Crew Lead — Grays Harbor Conservation District Watershed Restoration Program, Elma WA"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2762",
+    "title": "Field Ecologist — Second Nature Ecology + Design, San Jose CA",
+    "org": "Second Nature Ecology + Design · San Jose, CA",
+    "location": "San Jose, CA",
+    "deadline": "November 30, 2026",
+    "deadline_date": "2026-11-30",
+    "badge": "Strong fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=120069",
+    "metaLine": "San Jose, CA · career · $40–$50/hr · by Nov 30",
+    "body": "Ecological consulting and design firm hiring a field ecologist for surveys and restoration monitoring in the Bay Area. Bachelor's required, no experience minimum. Published pay: $40–$50/hr. Apply by November 30, 2026.",
+    "desc": "Well-paid consulting field-ecology role open to a new BS.",
+    "pills": [
+      "CA",
+      "career"
+    ],
+    "employer_type": "private",
+    "pay": "$40–$50/hr",
+    "url_label": "Field Ecologist — Second Nature Ecology + Design, San Jose CA",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120069",
+        "label": "🔗 Field Ecologist — Second Nature Ecology + Design, San Jose CA"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2763",
+    "title": "Wildlife Acoustic Technician (4–6 positions) — Sierra Nevada Acoustic Monitoring Project, UW-Madison Peery Lab",
+    "org": "University of Wisconsin-Madison · Peery Lab · Sierra Nevada, CA",
+    "location": "Chester / Nevada City / Oakhurst, CA",
+    "deadline": "November 30, 2026",
+    "deadline_date": "2026-11-30",
+    "badge": "Strong fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=120197",
+    "metaLine": "Chester / Nevada City / Oakhurst, CA · career · $22–$26/hr; field housing provid · by Nov 30",
+    "body": "Seasonal technicians deploy and service autonomous recording units across the Sierra Nevada for a landscape-scale owl and wildlife acoustic monitoring programme. Housing provided. Published pay: $22–$26/hr; field housing provided. Start: April 19 – July 30, 2027. Apply by November 30, 2026.",
+    "desc": "Passive monitoring at scale — a direct extension of her camera-trap work.",
+    "pills": [
+      "CA",
+      "career"
+    ],
+    "employer_type": "university",
+    "pay": "$22–$26/hr; field housing provided",
+    "start": "April 19 – July 30, 2027",
+    "url_label": "Wildlife Acoustic Technician (4–6 positions) — Sierra Nevada Acoustic Monitoring Project, UW-Madison Peery Lab",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120197",
+        "label": "🔗 Wildlife Acoustic Technician (4–6 positions) — Sierra Nevada Acoustic Monitoring Project, UW-Madison Peery Lab"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2764",
+    "title": "Natural Resources Technician 1 — Avian Acoustic & Camera-Trap Monitoring, Ohio DNR Division of Wildlife",
+    "org": "Ohio Department of Natural Resources · Division of Wildlife · Columbus, OH",
+    "location": "Ohio (statewide field sites)",
+    "deadline": "November 22, 2026",
+    "deadline_date": "2026-11-22",
+    "badge": "Strong fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=93714",
+    "metaLine": "Ohio (statewide field sites) · career · $20.05/hr · by Nov 22",
+    "body": "Technicians support forest and upland gamebird research: autonomous recording units and camera traps, audio-visual surveys for ruffed grouse, turkey and pheasant, and forest and grassland habitat assessments. Published pay: $20.05/hr. Start: January–February 2027. Apply by November 22, 2026.",
+    "desc": "Camera traps plus acoustic monitoring for a state wildlife agency.",
+    "pills": [
+      "career"
+    ],
+    "employer_type": "government",
+    "pay": "$20.05/hr",
+    "start": "January–February 2027",
+    "url_label": "Natural Resources Technician 1 — Avian Acoustic & Camera-Trap Monitoring, Ohio DNR Division of Wildlife",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=93714",
+        "label": "🔗 Natural Resources Technician 1 — Avian Acoustic & Camera-Trap Monitoring, Ohio DNR Division of Wildlife"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2765",
+    "title": "Biological Science Technician (Plants) — National Park Service, Northern Great Plains Network, Rapid City SD",
+    "org": "National Park Service · Northern Great Plains · Rapid City, SD",
+    "location": "Rapid City, SD",
+    "deadline": "November 23, 2026",
+    "deadline_date": "2026-11-23",
+    "badge": "Good fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=120091",
+    "metaLine": "Rapid City, SD · career · $19.50–$24.50/hr · by Nov 23",
+    "body": "Applied botany on the flora of the Northern Great Plains and Black Hills, travelling to 11 national parks in SD, ND, NE and WY — upland prairie, ponderosa pine and wilderness vegetation monitoring. Published pay: $19.50–$24.50/hr. Apply by November 23, 2026.",
+    "desc": "Federal NPS field experience that builds toward a permanent federal job.",
+    "pills": [
+      "SD",
+      "career"
+    ],
+    "employer_type": "government",
+    "pay": "$19.50–$24.50/hr",
+    "url_label": "Biological Science Technician (Plants) — National Park Service, Northern Great Plains Network, Rapid City SD",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120091",
+        "label": "🔗 Biological Science Technician (Plants) — National Park Service, Northern Great Plains Network, Rapid City SD"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Alaska, Hawaii & Territories",
+    "id": "item-2766",
+    "title": "Biological Science Technician (Wildlife) — National Park Service Alaska Region, Fairbanks AK",
+    "org": "National Park Service · Alaska Region · Fairbanks, AK",
+    "location": "Fairbanks, AK",
+    "deadline": "November 23, 2026",
+    "deadline_date": "2026-11-23",
+    "badge": "Good fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=120134",
+    "metaLine": "Fairbanks, AK · career · $22.07–$35.54/hr · by Nov 23",
+    "body": "Federal wildlife technician supporting NPS Alaska Region wildlife surveys and monitoring out of Fairbanks. Published pay: $22.07–$35.54/hr. Apply by November 23, 2026.",
+    "desc": "Federal wildlife field experience; high-cost but high-adventure relocation.",
+    "pills": [
+      "AK",
+      "career"
+    ],
+    "employer_type": "government",
+    "pay": "$22.07–$35.54/hr",
+    "url_label": "Biological Science Technician (Wildlife) — National Park Service Alaska Region, Fairbanks AK",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120134",
+        "label": "🔗 Biological Science Technician (Wildlife) — National Park Service Alaska Region, Fairbanks AK"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2767",
+    "title": "Waterfowl Biologist — NAWMP Coordinator, Louisiana Department of Wildlife and Fisheries",
+    "org": "Louisiana Department of Wildlife and Fisheries · Louisiana",
+    "location": "Louisiana",
+    "deadline": "November 23, 2026",
+    "deadline_date": "2026-11-23",
+    "badge": "Strong fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=120077",
+    "metaLine": "Louisiana · career · $4,458–$8,027/month · by Nov 23",
+    "body": "State biologist coordinating Louisiana's work under the North American Waterfowl Management Plan — wetland habitat partnerships and waterfowl conservation. Bachelor's plus about one year of experience. Published pay: $4,458–$8,027/month. Apply by November 23, 2026.",
+    "desc": "Wetland habitat conservation at state level, close to entry requirements.",
+    "pills": [
+      "career"
+    ],
+    "employer_type": "government",
+    "pay": "$4,458–$8,027/month",
+    "url_label": "Waterfowl Biologist — NAWMP Coordinator, Louisiana Department of Wildlife and Fisheries",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120077",
+        "label": "🔗 Waterfowl Biologist — NAWMP Coordinator, Louisiana Department of Wildlife and Fisheries"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2768",
+    "title": "Seasonal Technicians (2–3) — SCDNR Marsh and Wading Bird Projects, Coastal South Carolina",
+    "org": "South Carolina Department of Natural Resources · Coastal SC",
+    "location": "Coastal South Carolina",
+    "deadline": "December 6, 2026",
+    "deadline_date": "2026-12-06",
+    "badge": "Good fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=120172",
+    "metaLine": "Coastal South Carolina · career · $16/hr · by Dec 6",
+    "body": "Seasonal field technicians for SCDNR's marsh-bird and wading-bird projects in coastal South Carolina — surveys and monitoring in tidal and managed wetlands. Published pay: $16/hr. Apply by December 6, 2026.",
+    "desc": "Coastal wetland bird surveys with a state agency.",
+    "pills": [
+      "career"
+    ],
+    "employer_type": "government",
+    "pay": "$16/hr",
+    "url_label": "Seasonal Technicians (2–3) — SCDNR Marsh and Wading Bird Projects, Coastal South Carolina",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120172",
+        "label": "🔗 Seasonal Technicians (2–3) — SCDNR Marsh and Wading Bird Projects, Coastal South Carolina"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2769",
+    "title": "Seasonal Shorebird Biologist — FWC Fish and Wildlife Research Institute, Florida Panhandle",
+    "org": "Florida Fish and Wildlife Conservation Commission · FWRI · Pensacola Beach, FL",
+    "location": "Pensacola Beach, FL",
+    "deadline": "December 1, 2026",
+    "deadline_date": "2026-12-01",
+    "badge": "Good fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=120015",
+    "metaLine": "Pensacola Beach, FL · career · Starting at $18.50/hr · by Dec 1",
+    "body": "Monitoring and management of beach-nesting snowy plovers, Wilson's plovers, least terns and black skimmers in the Florida Panhandle. Published pay: Starting at $18.50/hr. Start: Feb 15 – Aug 15, 2027. Apply by December 1, 2026.",
+    "desc": "State-agency avian field season on coastal habitat.",
+    "pills": [
+      "FL",
+      "career"
+    ],
+    "employer_type": "government",
+    "pay": "Starting at $18.50/hr",
+    "start": "Feb 15 – Aug 15, 2027",
+    "url_label": "Seasonal Shorebird Biologist — FWC Fish and Wildlife Research Institute, Florida Panhandle",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120015",
+        "label": "🔗 Seasonal Shorebird Biologist — FWC Fish and Wildlife Research Institute, Florida Panhandle"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2770",
+    "title": "Bobwhite Research Technician (2) — Mississippi State University, Charles Ray Nix WMA",
+    "org": "Mississippi State University · Charles Ray Nix WMA, MS",
+    "location": "Charles Ray Nix WMA, MS",
+    "deadline": "January 31, 2027",
+    "deadline_date": "2027-01-31",
+    "badge": "Good fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=120171",
+    "metaLine": "Charles Ray Nix WMA, MS · career · $15/hr; on-site housing · by Jan 31",
+    "body": "Two technicians trap and radio-track bobwhite quail and work alongside Mississippi Department of Wildlife, Fisheries and Parks staff. Housing on site. Published pay: $15/hr; on-site housing. Apply by January 31, 2027.",
+    "desc": "Trapping and telemetry field experience with free housing.",
+    "pills": [
+      "MS",
+      "career"
+    ],
+    "employer_type": "university",
+    "pay": "$15/hr; on-site housing",
+    "url_label": "Bobwhite Research Technician (2) — Mississippi State University, Charles Ray Nix WMA",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120171",
+        "label": "🔗 Bobwhite Research Technician (2) — Mississippi State University, Charles Ray Nix WMA"
+      }
+    ]
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2771",
+    "title": "Natural Resources Summer Internship — Tri-Basin Natural Resources District, Holdrege NE",
+    "org": "Tri-Basin NRD · Holdrege, NE",
+    "location": "Holdrege, NE",
+    "deadline": "December 1, 2026",
+    "deadline_date": "2026-12-01",
+    "badge": "Reach",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=110093",
+    "metaLine": "Holdrege, NE · internship · $15–$18/hr · by Dec 1",
+    "body": "Full-time summer interns rotate through a Nebraska natural resources district's groundwater, water-quality and conservation programmes. The posting addresses college students — confirm a recent graduate is eligible. Published pay: $15–$18/hr. Start: Mid-May to mid-August 2027. Apply by December 1, 2026.",
+    "desc": "Water-resource agency experience; check eligibility as a graduate.",
+    "pills": [
+      "NE",
+      "internship"
+    ],
+    "employer_type": "government",
+    "pay": "$15–$18/hr",
+    "start": "Mid-May to mid-August 2027",
+    "url_label": "Natural Resources Summer Internship — Tri-Basin Natural Resources District, Holdrege NE",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=110093",
+        "label": "🔗 Natural Resources Summer Internship — Tri-Basin Natural Resources District, Holdrege NE"
+      }
+    ]
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2772",
+    "title": "MSU Marine Fisheries Ecology Program 2027 Internship — Mississippi State Coastal Research and Extension Center, Biloxi",
+    "org": "Mississippi State University · Coastal Research and Extension Center · Biloxi, MS",
+    "location": "Biloxi, MS",
+    "deadline": "January 15, 2027",
+    "deadline_date": "2027-01-15",
+    "badge": "Good fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=120188",
+    "metaLine": "Biloxi, MS · internship · $14/hr · by Jan 15",
+    "body": "Paid internship with Dr. Marcus Drymon's marine fisheries ecology programme — shark and reef-fish field sampling and extension work on the Mississippi coast. Published pay: $14/hr. Apply by January 15, 2027.",
+    "desc": "Paid aquatic field season open to BS holders.",
+    "pills": [
+      "MS",
+      "internship"
+    ],
+    "employer_type": "university",
+    "pay": "$14/hr",
+    "url_label": "MSU Marine Fisheries Ecology Program 2027 Internship — Mississippi State Coastal Research and Extension Center, Biloxi",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120188",
+        "label": "🔗 MSU Marine Fisheries Ecology Program 2027 Internship — Mississippi State Coastal Research and Extension Center, Biloxi"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "West Coast / Pacific",
+    "id": "item-2773",
+    "title": "Fisheries Technician (Seasonal) — Portland General Electric, Pelton Round Butte, Madras OR",
+    "org": "Portland General Electric · Madras, OR",
+    "location": "Madras, OR",
+    "deadline": "December 18, 2026",
+    "deadline_date": "2026-12-18",
+    "badge": "Good fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=120157",
+    "metaLine": "Madras, OR · career · $22.04–$33.06/hr · by Dec 18",
+    "body": "Seasonal technicians support PGE's fisheries, terrestrial, water-quality and parks programmes during spring salmon and steelhead smolt outmigration at the Pelton Round Butte project. Published pay: $22.04–$33.06/hr. Apply by December 18, 2026.",
+    "desc": "Well-paid aquatic and water-quality field season.",
+    "pills": [
+      "OR",
+      "career"
+    ],
+    "employer_type": "private",
+    "pay": "$22.04–$33.06/hr",
+    "url_label": "Fisheries Technician (Seasonal) — Portland General Electric, Pelton Round Butte, Madras OR",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120157",
+        "label": "🔗 Fisheries Technician (Seasonal) — Portland General Electric, Pelton Round Butte, Madras OR"
+      }
+    ]
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2774",
+    "title": "Wetland Easement Mapping and Data Management Support Member — Eastern South Dakota NWR Complex (American Conservation Experience / USFWS, Waubay SD)",
+    "org": "American Conservation Experience · USFWS Eastern South Dakota NWR Complex · Waubay, SD",
+    "location": "Waubay, SD",
+    "deadline": "December 21, 2026",
+    "deadline_date": "2026-12-21",
+    "badge": "Top recommendation",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=120198",
+    "metaLine": "Waubay, SD · service · Up to $850/week · by Dec 21",
+    "body": "ACE member placed with the US Fish and Wildlife Service to map and manage the refuge complex's wetland conservation easements, maintain easement data, and support landowner communication. Mostly GIS and records work on Prairie Pothole wetland easements. Published pay: Up to $850/week. Apply by December 21, 2026.",
+    "desc": "Wetlands plus GIS on a USFWS refuge — her two strongest skills, and a direct line into USFWS work.",
+    "pills": [
+      "SD",
+      "service"
+    ],
+    "employer_type": "non-profit",
+    "pay": "Up to $850/week",
+    "url_label": "Wetland Easement Mapping and Data Management Support Member — Eastern South Dakota NWR Complex (American Conservation Experience / USFWS, Waubay SD)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120198",
+        "label": "🔗 Wetland Easement Mapping and Data Management Support Member — Eastern South Dakota NWR Complex (American Conservation Experience / USFWS, Waubay SD)"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2775",
+    "title": "Wildlife Biologist 1/2 — Georgia DNR Wildlife Resources Division, Social Circle GA",
+    "org": "Georgia Department of Natural Resources · Wildlife Resources Division · Social Circle, GA",
+    "location": "Social Circle, GA",
+    "deadline": "November 26, 2026",
+    "deadline_date": "2026-11-26",
+    "badge": "Top recommendation",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=120142",
+    "metaLine": "Social Circle, GA · career · $49,969–$54,966/yr · by Nov 26",
+    "body": "Permanent state wildlife biologist position at Georgia DNR's Social Circle headquarters. Listed as bachelor's required with no minimum experience. Published pay: $49,969–$54,966/yr. Apply by November 26, 2026.",
+    "desc": "A permanent state biologist job open to a BS with no experience — exactly her entry point.",
+    "pills": [
+      "GA",
+      "career"
+    ],
+    "employer_type": "government",
+    "pay": "$49,969–$54,966/yr",
+    "url_label": "Wildlife Biologist 1/2 — Georgia DNR Wildlife Resources Division, Social Circle GA",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120142",
+        "label": "🔗 Wildlife Biologist 1/2 — Georgia DNR Wildlife Resources Division, Social Circle GA"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Northeast",
+    "id": "item-2776",
+    "title": "Biological Science Technician — USDA APHIS Wildlife Services, Brewerton NY",
+    "org": "USDA APHIS Wildlife Services · Brewerton, NY",
+    "location": "Brewerton, NY",
+    "deadline": "November 21, 2026",
+    "deadline_date": "2026-11-21",
+    "badge": "Good fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=120096",
+    "metaLine": "Brewerton, NY · career · $17.45–$28.29/hr · by Nov 21",
+    "body": "Federal technician with Wildlife Services in central New York, working on wildlife damage management, surveillance and disease sampling. Published pay: $17.45–$28.29/hr. Apply by November 21, 2026.",
+    "desc": "USDA federal foot in the door, one of her named targets.",
+    "pills": [
+      "NY",
+      "career"
+    ],
+    "employer_type": "government",
+    "pay": "$17.45–$28.29/hr",
+    "url_label": "Biological Science Technician — USDA APHIS Wildlife Services, Brewerton NY",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120096",
+        "label": "🔗 Biological Science Technician — USDA APHIS Wildlife Services, Brewerton NY"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Southeast & Appalachia",
+    "id": "item-2777",
+    "title": "OPS Biological Scientist II — Florida Fish and Wildlife Conservation Commission, Tallahassee",
+    "org": "Florida Fish and Wildlife Conservation Commission · Tallahassee, FL",
+    "location": "Tallahassee, FL",
+    "deadline": "November 22, 2026",
+    "deadline_date": "2026-11-22",
+    "badge": "Good fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=120127",
+    "metaLine": "Tallahassee, FL · career · Starting at $20.83/hr · by Nov 22",
+    "body": "Other-Personal-Services biologist role at FWC headquarters supporting research and monitoring. Board listing shows about two years' experience; Florida state classes generally let a related degree substitute. Published pay: Starting at $20.83/hr. Apply by November 22, 2026.",
+    "desc": "State wildlife agency science role, a recognised stepping stone to FWC career service.",
+    "pills": [
+      "FL",
+      "career"
+    ],
+    "employer_type": "government",
+    "pay": "Starting at $20.83/hr",
+    "url_label": "OPS Biological Scientist II — Florida Fish and Wildlife Conservation Commission, Tallahassee",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120127",
+        "label": "🔗 OPS Biological Scientist II — Florida Fish and Wildlife Conservation Commission, Tallahassee"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 17, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Midwest & Great Plains",
+    "id": "item-2778",
+    "title": "Wildlife Seasonal Technician — North Dakota Game and Fish Department (multiple WMAs)",
+    "org": "North Dakota Game and Fish Department · North Dakota",
+    "location": "Jamestown, Devils Lake, Harvey, Riverdale, Williston, Bismarck or Dickinson, ND",
+    "deadline": "January 31, 2027",
+    "deadline_date": "2027-01-31",
+    "badge": "Good fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=120021",
+    "metaLine": "Jamestown, Devils Lake, Harvey, Riverdale, Williston, Bismarck or Dickinson, ND · career · $13.50–$18.75/hr · by Jan 31",
+    "body": "Seasonal habitat work on Wildlife Management Areas: fencing, food plots, prescribed burning, noxious-weed control and tree planting. Published pay: $13.50–$18.75/hr. Apply by January 31, 2027.",
+    "desc": "Hands-on habitat management with a state wildlife agency.",
+    "pills": [
+      "ND",
+      "career"
+    ],
+    "employer_type": "government",
+    "pay": "$13.50–$18.75/hr",
+    "url_label": "Wildlife Seasonal Technician — North Dakota Game and Fish Department (multiple WMAs)",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120021",
+        "label": "🔗 Wildlife Seasonal Technician — North Dakota Game and Fish Department (multiple WMAs)"
       }
     ]
   }
