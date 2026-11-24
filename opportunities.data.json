@@ -127007,5 +127007,494 @@
         "label": "🔗 Natural Resources Technician — OC Parks, Irvine, CA"
       }
     ]
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-3045",
+    "title": "AmeriCorps Conservation Corps Assistant Crew Leader (2027) — Western Colorado Conservation Corps (Mesa County Partners), Grand Junction, CO",
+    "org": "Western Colorado Conservation Corps (Mesa County Partners) · Grand Junction, CO",
+    "location": "Grand Junction, CO",
+    "deadline": "January 31, 2027",
+    "deadline_date": "2027-01-31",
+    "badge": "Good fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119237",
+    "metaLine": "Grand Junction, CO · service · Living stipend (up to about $645 · by Jan 31",
+    "body": "Assist in leading adult conservation crews on public-lands projects in western Colorado such as trail, fence and habitat work. Training in first aid/CPR, Leave No Trace and chainsaw is provided. Published pay: Living stipend (up to about $645/week) plus AmeriCorps education award. Start: 2027-02-22. Apply by January 31, 2027.",
+    "desc": "NCCC alumna can step straight into a leadership-track corps role in a new western region.",
+    "pills": [
+      "CO",
+      "service"
+    ],
+    "employer_type": "non-profit",
+    "pay": "Living stipend (up to about $645/week) plus AmeriCorps education award",
+    "start": "2027-02-22",
+    "url_label": "AmeriCorps Conservation Corps Assistant Crew Leader (2027) — Western Colorado Conservation Corps (Mesa County Partners), Grand Junction, CO",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119237",
+        "label": "🔗 AmeriCorps Conservation Corps Assistant Crew Leader (2027) — Western Colorado Conservation Corps (Mesa County Partners), Grand Junction, CO"
+      }
+    ]
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-3046",
+    "title": "AmeriCorps Conservation Corps Traditional Crew Member (2027) — Western Colorado Conservation Corps (Mesa County Partners), Grand Junction, CO",
+    "org": "Western Colorado Conservation Corps (Mesa County Partners) · Grand Junction, CO",
+    "location": "Grand Junction, CO",
+    "deadline": "January 31, 2027",
+    "deadline_date": "2027-01-31",
+    "badge": "Good fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119238",
+    "metaLine": "Grand Junction, CO · service · Up to $600/week living stipend p · by Jan 31",
+    "body": "Crew member on conservation projects on Colorado public lands with herbicide, first aid/CPR and S-212 chainsaw training. No prior experience required. Published pay: Up to $600/week living stipend plus AmeriCorps education award (up to $3,697.50). Start: 2027-03-01. Apply by January 31, 2027.",
+    "desc": "A second AmeriCorps term earns another education award and field credentials useful for federal hiring.",
+    "pills": [
+      "CO",
+      "service"
+    ],
+    "employer_type": "non-profit",
+    "pay": "Up to $600/week living stipend plus AmeriCorps education award (up to $3,697.50)",
+    "start": "2027-03-01",
+    "url_label": "AmeriCorps Conservation Corps Traditional Crew Member (2027) — Western Colorado Conservation Corps (Mesa County Partners), Grand Junction, CO",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119238",
+        "label": "🔗 AmeriCorps Conservation Corps Traditional Crew Member (2027) — Western Colorado Conservation Corps (Mesa County Partners), Grand Junction, CO"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Mountain West",
+    "id": "item-3047",
+    "title": "Wildlife Habitat Biologist I (NRCS / Colorado Parks and Wildlife partnership) — Bird Conservancy of the Rockies, Rocky Ford, CO",
+    "org": "Bird Conservancy of the Rockies · Rocky Ford, CO",
+    "location": "Rocky Ford, CO",
+    "deadline": "Rolling / open until filled",
+    "badge": "Strong fit",
+    "url": "https://www.birdconservancy.org/wp-content/uploads/2026/11/Rocky-Ford-CO_WHB_2026-Job-announcement_11_16.pdf",
+    "metaLine": "Rocky Ford, CO · career · $58,000-$65,000 salary plus bene · rolling",
+    "body": "Delivers wildlife habitat conservation projects with private landowners in eastern Colorado using Farm Bill programs, jointly supervised with USDA NRCS. Bachelor degree in a conservation field required (M.S. preferred); no multi-year minimum stated. Published pay: $58,000-$65,000 salary plus benefits (403(b), health, dental, vision). Start: 2027-01. Deadline: Rolling / open until filled.",
+    "desc": "A non-profit role embedded with USDA-NRCS, which is exactly the federal/USDA pipeline she is targeting.",
+    "pills": [
+      "CO",
+      "career"
+    ],
+    "employer_type": "non-profit",
+    "pay": "$58,000-$65,000 salary plus benefits (403(b), health, dental, vision)",
+    "start": "2027-01",
+    "url_label": "Wildlife Habitat Biologist I (NRCS / Colorado Parks and Wildlife partnership) — Bird Conservancy of the Rockies, Rocky Ford, CO",
+    "links": [
+      {
+        "href": "https://www.birdconservancy.org/wp-content/uploads/2026/11/Rocky-Ford-CO_WHB_2026-Job-announcement_11_16.pdf",
+        "label": "🔗 Wildlife Habitat Biologist I (NRCS / Colorado Parks and Wildlife partnership) — Bird Conservancy of the Rockies, Rocky Ford, CO"
+      }
+    ]
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Mountain West",
+    "id": "item-3048",
+    "title": "AmeriCorps eeCorps Environmental Educator (2026-27, 900 hours) — Bird Conservancy of the Rockies / Colorado Alliance for Environmental Education, Brighton, CO",
+    "org": "Bird Conservancy of the Rockies / Colorado Alliance for Environmental Education · Brighton, CO",
+    "location": "Brighton, CO",
+    "deadline": "Rolling / open until filled",
+    "badge": "Good fit",
+    "url": "https://www.birdconservancy.org/wp-content/uploads/2026/11/Bird-Conservancy-2026-27-eeCorps-Position-Description-Environmental-Educator-900hrs-1.pdf",
+    "metaLine": "Brighton, CO · service · AmeriCorps living allowance and  · rolling",
+    "body": "AmeriCorps member delivering school, community and summer-camp environmental education at Bird Conservancy Barr Lake site. No degree beyond high school required. Published pay: AmeriCorps living allowance and education award (amounts on the eeCorps posting). Deadline: Rolling / open until filled.",
+    "desc": "Bird-conservation non-profit service year that adds a second AmeriCorps award and outreach experience.",
+    "pills": [
+      "CO",
+      "service"
+    ],
+    "employer_type": "non-profit",
+    "pay": "AmeriCorps living allowance and education award (amounts on the eeCorps posting)",
+    "url_label": "AmeriCorps eeCorps Environmental Educator (2026-27, 900 hours) — Bird Conservancy of the Rockies / Colorado Alliance for Environmental Education, Brighton, CO",
+    "links": [
+      {
+        "href": "https://www.birdconservancy.org/wp-content/uploads/2026/11/Bird-Conservancy-2026-27-eeCorps-Position-Description-Environmental-Educator-900hrs-1.pdf",
+        "label": "🔗 AmeriCorps eeCorps Environmental Educator (2026-27, 900 hours) — Bird Conservancy of the Rockies / Colorado Alliance for Environmental Education, Brighton, CO"
+      }
+    ]
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-3049",
+    "title": "eeCorps Environmental Educator - Denver Audubon — Colorado Alliance for Environmental Education (Denver Audubon host), Littleton, CO",
+    "org": "Colorado Alliance for Environmental Education (Denver Audubon host) · Littleton, CO",
+    "location": "Littleton, CO",
+    "deadline": "November 29, 2026",
+    "deadline_date": "2026-11-29",
+    "badge": "Good fit",
+    "url": "https://caee.org/jobs/1442",
+    "metaLine": "Littleton, CO · service · $1,833.34/month AmeriCorps livin · by Nov 29",
+    "body": "AmeriCorps term (Feb 16 to Aug 15, 2027) delivering environmental education at Denver Audubon nature center. Open to high-school graduates, no experience required. Published pay: $1,833.34/month AmeriCorps living allowance plus education award. Start: 2027-02-16. Apply by November 29, 2026.",
+    "desc": "Paid AmeriCorps year with a bird/habitat non-profit near Denver while she builds toward grad school.",
+    "pills": [
+      "CO",
+      "service"
+    ],
+    "employer_type": "non-profit",
+    "pay": "$1,833.34/month AmeriCorps living allowance plus education award",
+    "start": "2027-02-16",
+    "url_label": "eeCorps Environmental Educator - Denver Audubon — Colorado Alliance for Environmental Education (Denver Audubon host), Littleton, CO",
+    "links": [
+      {
+        "href": "https://caee.org/jobs/1442",
+        "label": "🔗 eeCorps Environmental Educator - Denver Audubon — Colorado Alliance for Environmental Education (Denver Audubon host), Littleton, CO"
+      }
+    ]
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-3050",
+    "title": "eeCorps NCA Environmental Educator - Colorado Canyons Association — Colorado Alliance for Environmental Education (Colorado Canyons Association host), Grand Junction, CO",
+    "org": "Colorado Alliance for Environmental Education (Colorado Canyons Association host) · Grand Junction, CO",
+    "location": "Grand Junction, CO",
+    "deadline": "November 29, 2026",
+    "deadline_date": "2026-11-29",
+    "badge": "Good fit",
+    "url": "https://caee.org/jobs/1445",
+    "metaLine": "Grand Junction, CO · service · $1,833.34/month AmeriCorps livin · by Nov 29",
+    "body": "AmeriCorps term (Feb 16 to Aug 15, 2027) educating the public about the McInnis Canyons National Conservation Area with a BLM-partner non-profit. Published pay: $1,833.34/month AmeriCorps living allowance plus education award. Start: 2027-02-16. Apply by November 29, 2026.",
+    "desc": "Public-lands education tied to BLM landscapes, a good bridge toward federal resource work.",
+    "pills": [
+      "CO",
+      "service"
+    ],
+    "employer_type": "non-profit",
+    "pay": "$1,833.34/month AmeriCorps living allowance plus education award",
+    "start": "2027-02-16",
+    "url_label": "eeCorps NCA Environmental Educator - Colorado Canyons Association — Colorado Alliance for Environmental Education (Colorado Canyons Association host), Grand Junction, CO",
+    "links": [
+      {
+        "href": "https://caee.org/jobs/1445",
+        "label": "🔗 eeCorps NCA Environmental Educator - Colorado Canyons Association — Colorado Alliance for Environmental Education (Colorado Canyons Association host), Grand Junction, CO"
+      }
+    ]
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-3051",
+    "title": "eeCorps Education Programs Assistant - Dinosaur Ridge — Colorado Alliance for Environmental Education (Dinosaur Ridge host), Morrison, CO",
+    "org": "Colorado Alliance for Environmental Education (Dinosaur Ridge host) · Morrison, CO",
+    "location": "Morrison, CO",
+    "deadline": "November 29, 2026",
+    "deadline_date": "2026-11-29",
+    "badge": "Good fit",
+    "url": "https://caee.org/jobs/1446",
+    "metaLine": "Morrison, CO · service · $1,833.34/month AmeriCorps livin · by Nov 29",
+    "body": "AmeriCorps term (Feb 16 to Aug 15, 2027) supporting earth-science and ecology education programs at Dinosaur Ridge near Denver. Published pay: $1,833.34/month AmeriCorps living allowance plus education award. Start: 2027-02-16. Apply by November 29, 2026.",
+    "desc": "Environmental-science outreach role with an AmeriCorps award for a recent graduate.",
+    "pills": [
+      "CO",
+      "service"
+    ],
+    "employer_type": "non-profit",
+    "pay": "$1,833.34/month AmeriCorps living allowance plus education award",
+    "start": "2027-02-16",
+    "url_label": "eeCorps Education Programs Assistant - Dinosaur Ridge — Colorado Alliance for Environmental Education (Dinosaur Ridge host), Morrison, CO",
+    "links": [
+      {
+        "href": "https://caee.org/jobs/1446",
+        "label": "🔗 eeCorps Education Programs Assistant - Dinosaur Ridge — Colorado Alliance for Environmental Education (Dinosaur Ridge host), Morrison, CO"
+      }
+    ]
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-3052",
+    "title": "2027 AmeriCorps Greenhouse Aide (native plant restoration) — Rocky Mountain National Park (National Park Service), Estes Park, CO",
+    "org": "Rocky Mountain National Park (National Park Service) · Estes Park, CO",
+    "location": "Estes Park, CO",
+    "deadline": "December 28, 2026",
+    "deadline_date": "2026-12-28",
+    "badge": "Good fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=120277",
+    "metaLine": "Estes Park, CO · service · $600/week stipend plus $5,176.50 · by Dec 28",
+    "body": "Grows, collects and maintains native plant material for the park Native Vegetation Restoration Plan. Service term Mar 8 to Sep 30, 2027; ages 18-30. Published pay: $600/week stipend plus $5,176.50 education award; free dorm housing optional. Start: 2027-03-08. Apply by December 28, 2026.",
+    "desc": "Ecological restoration experience inside a national park with NPS housing provided.",
+    "pills": [
+      "CO",
+      "service"
+    ],
+    "employer_type": "government",
+    "pay": "$600/week stipend plus $5,176.50 education award; free dorm housing optional",
+    "start": "2027-03-08",
+    "url_label": "2027 AmeriCorps Greenhouse Aide (native plant restoration) — Rocky Mountain National Park (National Park Service), Estes Park, CO",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120277",
+        "label": "🔗 2027 AmeriCorps Greenhouse Aide (native plant restoration) — Rocky Mountain National Park (National Park Service), Estes Park, CO"
+      }
+    ]
+  },
+  {
+    "type": "Internship",
+    "cat": "Internships",
+    "src": "erin_internships.html",
+    "src_label": "Internships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-3053",
+    "title": "Environmental Education Fellow (2027 season) — Rocky Mountain Conservancy, Estes Park, CO",
+    "org": "Rocky Mountain Conservancy · Estes Park, CO",
+    "location": "Estes Park, CO",
+    "deadline": "November 30, 2026",
+    "deadline_date": "2026-11-30",
+    "badge": "Good fit",
+    "url": "https://rmconservancy.org/work-with-us/environmental-education-fellowships/",
+    "metaLine": "Estes Park, CO · internship · $450/week stipend plus free hous · by Nov 30",
+    "body": "Seasonal fellowship for recent graduates in Rocky Mountain National Park developing and leading education programs. First application review December 1, 2026. Published pay: $450/week stipend plus free housing and utilities. Start: 2027-04-14. Apply by November 30, 2026.",
+    "desc": "Paid, housed national-park experience that suits a recent environmental-science graduate.",
+    "pills": [
+      "CO",
+      "internship"
+    ],
+    "employer_type": "non-profit",
+    "pay": "$450/week stipend plus free housing and utilities",
+    "start": "2027-04-14",
+    "url_label": "Environmental Education Fellow (2027 season) — Rocky Mountain Conservancy, Estes Park, CO",
+    "links": [
+      {
+        "href": "https://rmconservancy.org/work-with-us/environmental-education-fellowships/",
+        "label": "🔗 Environmental Education Fellow (2027 season) — Rocky Mountain Conservancy, Estes Park, CO"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-3054",
+    "title": "Field Crew Supervisor - Desert Tortoise Monitoring Program — The Great Basin Institute, Clark County, NV",
+    "org": "The Great Basin Institute · Clark County, NV",
+    "location": "Clark County, NV",
+    "deadline": "January 21, 2027",
+    "deadline_date": "2027-01-21",
+    "badge": "Good fit",
+    "url": "https://www.paycomonline.net/v4/ats/web.php/portal/A1ADEF5691B02D64E998539442696918/jobs/438677",
+    "metaLine": "Clark County, NV · career · $24/hour · by Jan 21",
+    "body": "One of six supervisors directing technicians in April-May line-distance-sampling surveys of Mojave desert tortoise. Bachelor degree and about 1 year experience required. Published pay: $24/hour. Start: 2027-03. Apply by January 21, 2027.",
+    "desc": "Wildlife monitoring with GPS and electronic data collection that matches her camera-trap and trapping background.",
+    "pills": [
+      "NV",
+      "career"
+    ],
+    "employer_type": "non-profit",
+    "pay": "$24/hour",
+    "start": "2027-03",
+    "url_label": "Field Crew Supervisor - Desert Tortoise Monitoring Program — The Great Basin Institute, Clark County, NV",
+    "links": [
+      {
+        "href": "https://www.paycomonline.net/v4/ats/web.php/portal/A1ADEF5691B02D64E998539442696918/jobs/438677",
+        "label": "🔗 Field Crew Supervisor - Desert Tortoise Monitoring Program — The Great Basin Institute, Clark County, NV"
+      }
+    ]
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-3055",
+    "title": "AmeriCorps Riparian Restoration Strike Team Assistant Crew Leader (Feb-Nov 2027) — Western Colorado Conservation Corps (Mesa County Partners) with RiversEdge West, Grand Junction, CO",
+    "org": "Western Colorado Conservation Corps (Mesa County Partners) with RiversEdge West · Grand Junction, CO",
+    "location": "Grand Junction, CO",
+    "deadline": "January 31, 2027",
+    "deadline_date": "2027-01-31",
+    "badge": "Strong fit",
+    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119234",
+    "metaLine": "Grand Junction, CO · service · Up to $645/week living stipend p · by Jan 31",
+    "body": "Assistant crew leader on a riparian restoration strike team removing tamarisk and Russian olive and replanting native vegetation along the Colorado, Dolores, Gunnison, Uncompahgre and White rivers. Includes herbicide application and S-212 chainsaw training. Published pay: Up to $645/week living stipend plus AmeriCorps education award (up to $3,697.50); medical/dental/vision after 60 days. Start: 2027-02-22. Apply by January 31, 2027.",
+    "desc": "Hands-on riparian/wetland restoration that builds on her NCCC crew experience and points toward USFWS/BLM restoration work.",
+    "pills": [
+      "CO",
+      "service"
+    ],
+    "employer_type": "non-profit",
+    "pay": "Up to $645/week living stipend plus AmeriCorps education award (up to $3,697.50); medical/dental/vision after 60 days",
+    "start": "2027-02-22",
+    "url_label": "AmeriCorps Riparian Restoration Strike Team Assistant Crew Leader (Feb-Nov 2027) — Western Colorado Conservation Corps (Mesa County Partners) with RiversEdge West, Grand Junction, CO",
+    "links": [
+      {
+        "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119234",
+        "label": "🔗 AmeriCorps Riparian Restoration Strike Team Assistant Crew Leader (Feb-Nov 2027) — Western Colorado Conservation Corps (Mesa County Partners) with RiversEdge West, Grand Junction, CO"
+      }
+    ]
+  },
+  {
+    "type": "Service / Corps",
+    "cat": "Service & Fellowships",
+    "src": "erin_service.html",
+    "src_label": "Service & Fellowships",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "rolling",
+    "region": "Mountain West",
+    "id": "item-3056",
+    "title": "Youth & Young Adult Conservation Crew Leader in Development (May-Nov 2027) — Southwest Conservation Corps (Conservation Legacy), Durango, CO",
+    "org": "Southwest Conservation Corps (Conservation Legacy) · Durango, CO",
+    "location": "Durango, CO",
+    "deadline": "Rolling / open until filled",
+    "badge": "Good fit",
+    "url": "https://secure8.entertimeonline.com/ta/conservationlegacy.careers?ShowJob=755507136&lang=en-US",
+    "metaLine": "Durango, CO · service · rolling",
+    "body": "Entry-level leadership pipeline position leading youth and young-adult conservation crews on public lands around Durango. Term runs May 3 to Aug 6 or Nov 6, 2027; pay and AmeriCorps details are on the posting. Pay/stipend not published on the posting. Start: 2027-05-03. Deadline: Rolling / open until filled.",
+    "desc": "Builds crew-leadership and restoration field skills in southwest Colorado after her NCCC service.",
+    "pills": [
+      "CO",
+      "service"
+    ],
+    "employer_type": "non-profit",
+    "start": "2027-05-03",
+    "url_label": "Youth & Young Adult Conservation Crew Leader in Development (May-Nov 2027) — Southwest Conservation Corps (Conservation Legacy), Durango, CO",
+    "links": [
+      {
+        "href": "https://secure8.entertimeonline.com/ta/conservationlegacy.careers?ShowJob=755507136&lang=en-US",
+        "label": "🔗 Youth & Young Adult Conservation Crew Leader in Development (May-Nov 2027) — Southwest Conservation Corps (Conservation Legacy), Durango, CO"
+      }
+    ]
+  },
+  {
+    "type": "Career Position",
+    "cat": "Career Positions",
+    "src": "erin_jobs.html",
+    "src_label": "Career Positions",
+    "status": {
+      "kind": "s-new",
+      "label": "✨ New — November 24, 2026"
+    },
+    "cycle": "current",
+    "deadline_kind": "fixed",
+    "region": "Mountain West",
+    "id": "item-3057",
+    "title": "Biological Science Technician (Plants), Golden Spike NHP — National Park Service, Corinne, UT",
+    "org": "National Park Service · Corinne, UT",
+    "location": "Corinne, UT",
+    "deadline": "December 3, 2026",
+    "deadline_date": "2026-12-03",
+    "badge": "Strong fit",
+    "url": "https://www.usajobs.gov/job/893602000",
+    "metaLine": "Corinne, UT · career · GS-7 (career-seasonal, about 9 m · by Dec 3",
+    "body": "Career-seasonal plant technician at Golden Spike National Historical Park (mid-March to early January) doing vegetation monitoring and invasive-plant work. Published pay: GS-7 (career-seasonal, about 9 months per year). Start: 2027-03-15. Apply by December 3, 2026.",
+    "desc": "GS-7 entry via bachelor degree and a permanent career-seasonal federal appointment.",
+    "pills": [
+      "UT",
+      "career"
+    ],
+    "employer_type": "government",
+    "pay": "GS-7 (career-seasonal, about 9 months per year)",
+    "start": "2027-03-15",
+    "url_label": "Biological Science Technician (Plants), Golden Spike NHP — National Park Service, Corinne, UT",
+    "links": [
+      {
+        "href": "https://www.usajobs.gov/job/893602000",
+        "label": "🔗 Biological Science Technician (Plants), Golden Spike NHP — National Park Service, Corinne, UT"
+      }
+    ]
   }
 ]
