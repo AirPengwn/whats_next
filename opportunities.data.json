@@ -25052,7 +25052,7 @@
       "⏰ Closes July 31"
     ],
     "metaLine": "⏰ Deadline Jul 31, 2026 · from $29,000/yr · Ames IA · BS-eligible · big-river telemetry",
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "deadline_date": "2026-11-20",
     "region": "Midwest & Great Plains",
@@ -59761,7 +59761,7 @@
       "kind": "s-new",
       "label": "✨ New — September 13, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-1383",
@@ -76761,7 +76761,7 @@
       "kind": "s-new",
       "label": "✨ New — September 29, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-1767",
@@ -78305,7 +78305,7 @@
       "kind": "s-new",
       "label": "✨ New — September 29, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-1800",
@@ -78349,7 +78349,7 @@
       "kind": "s-new",
       "label": "✨ New — September 29, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "National / Remote / Multiple",
     "id": "item-1801",
@@ -78393,7 +78393,7 @@
       "kind": "s-new",
       "label": "✨ New — September 29, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southwest",
     "id": "item-1802",
@@ -83394,7 +83394,8 @@
     ],
     "start": "Late January 2027 (start January 27)",
     "deadline_date": "2026-11-20",
-    "start_date": "2027-01-27"
+    "start_date": "2027-01-27",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -86023,7 +86024,7 @@
       "kind": "s-new",
       "label": "✨ New — October 6, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southwest",
     "id": "item-1979",
@@ -87849,7 +87850,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119411",
         "label": "🔗 Environmental Scientist — interdisciplinary environmental review, wetlands, fish habitat and permitting on the Quinault Indian Reservation (Taholah, WA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -88917,7 +88919,7 @@
       "kind": "s-new",
       "label": "✨ New — October 13, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Mountain West",
     "id": "item-2051",
@@ -91317,7 +91319,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-watershed-forester-kingston-new-york/1279981805",
         "label": "🔗 Watershed Forester — forest management in the NYC water-supply watershed (NYC DEP Bureau of Water Supply, Kingston NY)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -91356,7 +91359,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-research--planning-coordinator-stream-management-program-arkville-new-york/1438195099",
         "label": "🔗 Research & Planning Coordinator — Stream Management Program (NYC DEP Bureau of Water Supply, Arkville or Kingston NY)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -91720,7 +91724,8 @@
       }
     ],
     "pay": "Starts at $22+ per hour with full benefits (ACRES job-openings page)",
-    "benefits": "Full benefits (not itemised on the job-openings page)"
+    "benefits": "Full benefits (not itemised on the job-openings page)",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -92000,7 +92005,8 @@
       }
     ],
     "stipend": "$680–$1,360 per month, part-time participation (published on the Zintellect listing)",
-    "pay": "$680–$1,360 per month, part-time (published)"
+    "pay": "$680–$1,360 per month, part-time (published)",
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -93429,7 +93435,7 @@
       "kind": "s-new",
       "label": "✨ New — October 20, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-2163",
@@ -96881,7 +96887,8 @@
         "href": "https://idfg.idaho.gov/job/163261",
         "label": "🔗 Fish Hatchery Biological Aide (Jan–Apr 2027, housing available) — spawning operations and fish husbandry (Idaho Fish and Game, Grace ID)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -99127,7 +99134,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119731",
         "label": "🔗 Texas A&M board listing"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -99218,7 +99226,8 @@
         "href": "https://quailforever.org/about-us/careers/",
         "label": "🔗 Employer careers page"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -100251,7 +100260,7 @@
       "kind": "s-new",
       "label": "✨ New — October 27, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southwest",
     "id": "item-2332",
@@ -101405,7 +101414,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-full-time-seasonal-state-parks-resource-crew-social-circle-georgia/6394270191",
         "label": "🔗 Full-Time Seasonal State Parks Resource Crew — prescribed fire, exotic plant removal and habitat enhancement, December–May (Georgia DNR State Parks, Social Circle GA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -101684,7 +101694,8 @@
         "href": "https://www.usajobs.gov/job/889477600",
         "label": "🔗 Rangeland Management Specialist, GS-5/7/9/11 — Montana field offices: Havre, Lewistown, Miles City (Bureau of Land Management)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -101723,7 +101734,8 @@
         "href": "https://www.usajobs.gov/job/889480200",
         "label": "🔗 Rangeland Management Specialist, GS-5/7/9/11 — northern Nevada sagebrush range: Battle Mountain, Elko, Winnemucca (Bureau of Land Management)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -103004,7 +103016,7 @@
       "kind": "s-new",
       "label": "✨ New — October 27, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Northeast",
     "id": "item-2400",
@@ -104823,7 +104835,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-virginia-conservation-campaigner-richmond-virginia/9352649067",
         "label": "🔗 Virginia Conservation Campaigner (entry level) — state parks, wildlife corridors and plastic pollution campaigns (Environment Virginia / Environment America, Richmond VA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Graduate Program",
@@ -105035,7 +105048,7 @@
       "kind": "s-new",
       "label": "✨ New — November 3, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southeast & Appalachia",
     "id": "item-2450",
@@ -105384,7 +105397,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119793",
         "label": "🔗 Virginia Field Coordinator — wilderness stewardship on the George Washington & Jefferson National Forests (Southern Appalachian Wilderness Stewards, Roanoke VA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -105465,7 +105479,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119876",
         "label": "🔗 Bear Project Hourly Assistant — black bear research around Okefenokee NWR (Georgia DNR, Fargo GA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -105545,7 +105560,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119878",
         "label": "🔗 OPS Biological Scientist III — Ecological Data Specialist, FWRI Center for Biostatistics (Florida FWC, St. Petersburg)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -105583,7 +105599,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119882",
         "label": "🔗 Wildlife Biologist III — Coastal Birds (seabird and shorebird conservation), SCDNR, Charleston County"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -105662,7 +105679,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119891",
         "label": "🔗 Fisheries Technician 1 — Ocean Salmon Project scale-age lab, with CDFW (PSMFC, Santa Rosa CA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -105673,7 +105691,7 @@
       "kind": "s-new",
       "label": "✨ New — November 3, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-2466",
@@ -106413,7 +106431,7 @@
       "kind": "s-new",
       "label": "✨ New — November 3, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southwest",
     "id": "item-2490",
@@ -106777,7 +106795,8 @@
         "href": "https://www.governmentjobs.com/careers/pabureau/jobs/5534396",
         "label": "🔗 Environmental Trainee - Mining — Pennsylvania Department of Environmental Protection, Cambria County, PA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -107003,7 +107022,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119844",
         "label": "🔗 Fish and Wildlife Biologist I — Nebraska Game and Parks Commission, Valentine, NE"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -107090,7 +107110,7 @@
       "kind": "s-new",
       "label": "✨ New — November 3, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-2508",
@@ -107274,7 +107294,7 @@
       "kind": "s-new",
       "label": "✨ New — November 3, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Mountain West",
     "id": "item-2516",
@@ -107459,7 +107479,7 @@
       "kind": "s-new",
       "label": "✨ New — November 3, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "National / Remote / Multiple",
     "id": "item-2521",
@@ -108237,7 +108257,8 @@
         "href": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=536266",
         "label": "🔗 Environmental Scientist — California State Lands Commission, Sacramento or Long Beach, CA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -108248,7 +108269,7 @@
       "kind": "s-new",
       "label": "✨ New — November 3, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "West Coast / Pacific",
     "id": "item-2542",
@@ -108387,7 +108408,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-fishery-biologist-1--field-crew-for-sucker-research-klamath-oregon/3461349456",
         "label": "🔗 Fishery Biologist 1 - Field Crew for Sucker Research — Pacific States Marine Fisheries Commission, Klamath Falls, OR"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -108462,7 +108484,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-stream-surveyor-corvallis-oregon/3485857139",
         "label": "🔗 Stream Surveyor — AREMP -Bureau of Land Management & Forest Service, Corvallis, OR"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -108498,7 +108521,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-clean-water-associate-portland-oregon/6989597973",
         "label": "🔗 Clean Water Associate — Environment America, Portland, OR"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -108649,7 +108673,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119886",
         "label": "🔗 Large Whale Aerial Survey Biologist — North Atlantic right whale surveys for NOAA NEFSC (Azura Consulting, Woods Hole MA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -108967,7 +108992,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119776",
         "label": "🔗 Fishery Biologist 2 — juvenile sucker research and monitoring with USGS Klamath Falls Field Station (PSMFC, Klamath Falls OR)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -109006,7 +109032,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=119769",
         "label": "🔗 Fishery Biologist 2 — field logistics, adult sucker fish monitoring with USGS (PSMFC, Klamath Falls OR)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -109877,7 +109904,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-private-lands-biologist-aquatics-buena-vista-georgia/7962176187",
         "label": "🔗 Private Lands Biologist (Aquatics) — Working Lands for Wildlife Southern Waters, UGA with USDA NRCS (Buena Vista GA)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -109953,7 +109981,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-partner-botanist-parsons-west-virginia/8024297645",
         "label": "🔗 Partner Botanist — TES plant surveys on the Monongahela National Forest (West Virginia DNR)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -110306,7 +110335,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-stewardship-coordinator-chattanooga-tennessee/5736329102",
         "label": "🔗 Stewardship Coordinator — The Land Trust for Tennessee (Chattanooga TN)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -110382,7 +110412,8 @@
         "href": "https://nc.wd108.myworkdayjobs.com/NC_Careers/job/Jackson-County-NC/Environmental-Specialist-II_JR-127588",
         "label": "🔗 Environmental Specialist II (Wetland/Stream/Protected Species) — NC Department of Transportation, Jackson County"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -110571,7 +110602,8 @@
         "href": "https://jobs.myflorida.com/job/WEST-PALM-BEACH-OPS-Fisheries-&-Wildlife-Bio-Sci-II-77900590-FL-33401/1444898100/",
         "label": "🔗 OPS Fisheries & Wildlife Biological Scientist II - Conservation Stewardship Specialist — Florida Fish and Wildlife Conservation Commission, Possible locations include Tallahassee and Lakeland, FL"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -111215,7 +111247,8 @@
         "href": "https://pheasantsforever.applytojob.com/apply/la15B4cKnv/Farm-Bill-Wildlife-Biologist-I-Or-II",
         "label": "🔗 Farm Bill Wildlife Biologist I or II — Pheasants Forever & Quail Forever, Montgomery City and Mexico, MO"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -112241,7 +112274,8 @@
         "href": "https://careers.share.nm.gov/psc/hprdcg/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&SiteId=1&FOCUS=Applicant&JobOpeningId=169057&PostingSeq=1",
         "label": "🔗 Employer posting"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -112752,7 +112786,8 @@
         "href": "https://neiwpcc.org/about-us/careers/",
         "label": "🔗 Information Officer - Environmental Data Scientist (CT DEEP Water Monitoring & Assessment) — NEIWPCC (assigned to Connecticut DEEP), Windsor, CT"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -113010,7 +113045,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-wildlife-biologist-aide-martell-tahoe-sonora-districts-sonora-california/4780932776",
         "label": "🔗 Wildlife Biologist Aide (Martell, Tahoe and Sonora districts) — Sierra Pacific Industries, Sonora, CA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -113047,7 +113083,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-land-conservation-specialist---martinsville-il-martinsville-illinois/5980456233",
         "label": "🔗 Land Conservation Specialist (NRCS partner) — NGRREC / Lewis and Clark Community College, Martinsville, IL"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -113084,7 +113121,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-land-conservation-specialist---virginia-il-virginia-illinois/7498786974",
         "label": "🔗 Land Conservation Specialist (NRCS partner) — NGRREC / Lewis and Clark Community College, Virginia, IL"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -113421,7 +113459,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-regional-wildlife-biologist---landowner-sportsmen-coordinator-jerome-idaho/3927070553",
         "label": "🔗 Regional Wildlife Biologist – Landowner Sportsmen Coordinator — Idaho Department of Fish and Game, Jerome, ID"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -113571,7 +113610,8 @@
         "href": "https://www.governmentjobs.com/careers/michigan/jobs/5542817/environmental-quality-analyst-9-p11-12-cadillac-district-office",
         "label": "🔗 Environmental Quality Analyst 9-P11/12 - Cadillac District Office (Drinking Water) — Michigan Dept. of Environment, Great Lakes, and Energy (EGLE), Cadillac, MI"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -113911,7 +113951,7 @@
       "kind": "s-new",
       "label": "✨ New — November 10, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-2690",
@@ -113949,7 +113989,7 @@
       "kind": "s-new",
       "label": "✨ New — November 10, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-2691",
@@ -113987,7 +114027,7 @@
       "kind": "s-new",
       "label": "✨ New — November 10, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-2692",
@@ -114025,7 +114065,7 @@
       "kind": "s-new",
       "label": "✨ New — November 10, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-2693",
@@ -114124,7 +114164,8 @@
         "href": "https://www.governmentjobs.com/careers/washington/jobs/5543793",
         "label": "🔗 Creel Surveyor (Scientific Technician 2, non-permanent) - Olympic Peninsula salmon/steelhead creel sampling — Washington Department of Fish and Wildlife, Forks, WA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -114311,7 +114352,8 @@
         "href": "https://oregonstate.wd501.myworkdayjobs.com/en-US/OSU_Careers_Site/job/Union/Faculty-Research-Assistant--Eastern-Oregon-Agricultural-Research-Center--Union-Experiment-Station_JR0001521",
         "label": "🔗 Faculty Research Assistant (2 positions) - forest/rangeland botany and plant ecology, Union Experiment Station — Oregon State University, Eastern Oregon Agricultural Research Center, Union, OR"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -114348,7 +114390,8 @@
         "href": "https://nc.wd108.myworkdayjobs.com/NC_Careers/job/Richmond-County-NC/Sandhills-Conservation-Technician-I--LAWA---60034103---60034131-_JR-128100",
         "label": "🔗 Wildlife Conservation Technician I (Sandhills Conservation Technician) — NC Wildlife Resources Commission, Marston (Richmond County), NC"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -114385,7 +114428,8 @@
         "href": "https://nc.wd108.myworkdayjobs.com/NC_Careers/job/Wake-County-NC/Environmental-Specialist-II_JR-124263",
         "label": "🔗 Environmental Specialist II (PFAS / Water Safety Act sampling) — NC Dept of Environmental Quality, Division of Water Resources, Raleigh (Wake County) NC, statewide travel"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -114495,7 +114539,8 @@
         "href": "https://jobs.myflorida.com/job/OKEECHOBEE-FISHERIES-&-WILDLIFE-BIO-SCIENTIST-IV-77000111-FL-34972/1448085300/",
         "label": "🔗 Fisheries and Wildlife Biological Scientist IV — Florida Fish and Wildlife Conservation Commission, Freshwater Fisheries Management, Okeechobee, FL"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -114570,7 +114615,8 @@
         "href": "https://www.jobs.virginia.gov/jobs/co-p6032-vwp-permit-writer-richmond-virginia-united-states",
         "label": "🔗 VWP Permit Writer (Virginia Water Protection permits) — Virginia Dept of Environmental Quality, Richmond, VA (hybrid)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -114943,7 +114989,8 @@
         "href": "https://www.usajobs.gov/job/891815100",
         "label": "🔗 Biological Science Technician GS-5/7/9 — USDA Agricultural Research Service, Stuttgart, AR"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -114992,7 +115039,7 @@
       "kind": "s-new",
       "label": "✨ New — November 10, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Mountain West",
     "id": "item-2719",
@@ -115718,7 +115765,8 @@
         "href": "https://ecoworks.eco.ca/jobs/782440322-water-quality-technician",
         "label": "🔗 Water Quality Technician (casual permanent) — Aqua-Check Inc., Antigonish-Guysborough region, NS"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -115793,7 +115841,8 @@
         "href": "https://ecoworks.eco.ca/jobs/781534692-cba-environmental-technician-iii",
         "label": "🔗 Environmental Technician III (CBA) — Faro Mine Remediation Project"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -116016,7 +116065,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120177",
         "label": "🔗 Wildlife Biologist (Term, GS) — USFWS Habitat and Population Evaluation Team, Bismarck ND"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -116175,7 +116225,7 @@
       "kind": "s-new",
       "label": "✨ New — November 17, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Midwest & Great Plains",
     "id": "item-2751",
@@ -116684,7 +116734,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=93714",
         "label": "🔗 Natural Resources Technician 1 — Avian Acoustic & Camera-Trap Monitoring, Ohio DNR Division of Wildlife"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -116721,7 +116772,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120091",
         "label": "🔗 Biological Science Technician (Plants) — National Park Service, Northern Great Plains Network, Rapid City SD"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -116758,7 +116810,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120134",
         "label": "🔗 Biological Science Technician (Wildlife) — National Park Service Alaska Region, Fairbanks AK"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -116794,7 +116847,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120077",
         "label": "🔗 Waterfowl Biologist — NAWMP Coordinator, Louisiana Department of Wildlife and Fisheries"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -117128,7 +117182,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120096",
         "label": "🔗 Biological Science Technician — USDA APHIS Wildlife Services, Brewerton NY"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -117165,7 +117220,8 @@
         "href": "https://jobs.rwfm.tamu.edu/view-job/?id=120127",
         "label": "🔗 OPS Biological Scientist II — Florida Fish and Wildlife Conservation Commission, Tallahassee"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -117213,7 +117269,7 @@
       "kind": "s-new",
       "label": "✨ New — November 17, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southwest",
     "id": "item-2779",
@@ -117251,7 +117307,7 @@
       "kind": "s-new",
       "label": "✨ New — November 17, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southwest",
     "id": "item-2780",
@@ -117577,7 +117633,8 @@
         "href": "https://www.conservationjobboard.com/job-listing-environmental-scientist-jc-538346-sacramento-california/4089466880",
         "label": "🔗 Environmental Scientist (JC-538346) — California State Water Resources Control Board, Sacramento"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -117946,7 +118003,8 @@
         "href": "https://www.usajobs.gov/job/892927500",
         "label": "🔗 Biological Science Technician (Plants) (Seasonal) - NPS Northeast parks — National Park Service (Northeast Seasonal Staffing Office), Multiple parks incl. Concord MA; Saugus MA; Gettysburg PA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -118020,7 +118078,8 @@
         "href": "https://www.usajobs.gov/job/892915800",
         "label": "🔗 Biological Science Technician (Wildlife) (Seasonal) - Assateague Island NS — National Park Service - Assateague Island National Seashore, Berlin, MD"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -118462,7 +118521,8 @@
         "href": "https://www.usajobs.gov:443/job/891800800",
         "label": "🔗 Hydrologic Technician (Seasonal) — NPS, Multiple Locations (USAJOBS 891800800)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -118498,7 +118558,8 @@
         "href": "https://www.usajobs.gov:443/job/892622200",
         "label": "🔗 Biological Science Technician (Fisheries) (Seasonal) — BLM, Multiple Locations (USAJOBS 892622200)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -118642,7 +118703,8 @@
         "href": "https://www.usajobs.gov:443/job/892843500",
         "label": "🔗 FUL - Geographic Information System Specialist — BLM, Farmington, New Mexico (USAJOBS 892843500)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Internship",
@@ -118929,7 +118991,8 @@
         "href": "https://www.usajobs.gov:443/job/891794000",
         "label": "🔗 Biological Science Technician (Plants) (Seasonal) — NPS, Multiple Locations (USAJOBS 891794000)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -119001,7 +119064,8 @@
         "href": "https://www.usajobs.gov:443/job/892532500",
         "label": "🔗 Biological Science Technician (Wildlife) (Seasonal) — NPS, Multiple Locations (USAJOBS 892532500)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -119037,7 +119101,8 @@
         "href": "https://www.usajobs.gov:443/job/892638500",
         "label": "🔗 Biological Science Technician (Seasonal) — BLM, Multiple Locations (USAJOBS 892638500)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -119073,7 +119138,8 @@
         "href": "https://www.usajobs.gov:443/job/892645900",
         "label": "🔗 Biological Science Technician (General) (Seasonal) — NPS, Multiple Locations (USAJOBS 892645900)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -119109,7 +119175,8 @@
         "href": "https://www.usajobs.gov:443/job/892653700",
         "label": "🔗 Biological Science Technician (General) (Seasonal) — NPS, Multiple Locations (USAJOBS 892653700)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -119145,7 +119212,8 @@
         "href": "https://www.usajobs.gov:443/job/892720900",
         "label": "🔗 Biological Science Technician (Seasonal) — NPS, Gering, Nebraska (USAJOBS 892720900)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -119181,7 +119249,8 @@
         "href": "https://www.usajobs.gov:443/job/892733200",
         "label": "🔗 Hydrologic Technician (Seasonal) — BLM, Multiple Locations (USAJOBS 892733200)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -119217,7 +119286,8 @@
         "href": "https://www.usajobs.gov:443/job/892733400",
         "label": "🔗 Forestry Technician (Seasonal) — BLM, Multiple Locations (USAJOBS 892733400)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -119253,7 +119323,8 @@
         "href": "https://www.usajobs.gov:443/job/892748200",
         "label": "🔗 Range Technician (Seasonal) — BLM, Multiple Locations (USAJOBS 892748200)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -119289,7 +119360,8 @@
         "href": "https://www.usajobs.gov:443/job/892750900",
         "label": "🔗 FUL - Biological Science Technician (Wildlife) (Seasonal) — NPS, Big Bend National Park, Texas (USAJOBS 892750900)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -119325,7 +119397,8 @@
         "href": "https://www.usajobs.gov:443/job/892755700",
         "label": "🔗 Biological Science Technician (Wildlife) (Seasonal) — BLM, Multiple Locations (USAJOBS 892755700)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -119361,7 +119434,8 @@
         "href": "https://www.usajobs.gov:443/job/892895100",
         "label": "🔗 Biological Science Technician (Wildlife) (Seasonal) — NPS, Multiple Locations (USAJOBS 892895100)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -119397,7 +119471,8 @@
         "href": "https://www.usajobs.gov:443/job/892895200",
         "label": "🔗 Biological Science Technician (Wildlife) (Seasonal) — NPS, Multiple Locations (USAJOBS 892895200)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -119433,7 +119508,8 @@
         "href": "https://www.usajobs.gov:443/job/892896400",
         "label": "🔗 Biological Science Technician (Fisheries) (Seasonal) — NPS, Multiple Locations (USAJOBS 892896400)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -119469,7 +119545,8 @@
         "href": "https://www.usajobs.gov:443/job/892896800",
         "label": "🔗 Biological Science Technician (Fisheries) (Seasonal) — NPS, Multiple Locations (USAJOBS 892896800)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -119505,7 +119582,8 @@
         "href": "https://www.usajobs.gov:443/job/892896900",
         "label": "🔗 Biological Science Technician (Bears) (Seasonal) — NPS, Multiple Locations (USAJOBS 892896900)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -119541,7 +119619,8 @@
         "href": "https://www.usajobs.gov:443/job/892897700",
         "label": "🔗 Biological Science Technician (Seasonal) — NPS, Multiple Locations (USAJOBS 892897700)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -119577,7 +119656,8 @@
         "href": "https://www.usajobs.gov:443/job/892910200",
         "label": "🔗 Biological Science Technician (Seasonal) — NPS, Yorktown, Virginia (USAJOBS 892910200)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -119613,7 +119693,8 @@
         "href": "https://www.usajobs.gov:443/job/892913600",
         "label": "🔗 Biological Science Technician (Wildlife) (Seasonal) — NPS, Multiple Locations (USAJOBS 892913600)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -119649,7 +119730,8 @@
         "href": "https://www.usajobs.gov:443/job/892914800",
         "label": "🔗 Biological Science Technician (Wildlife) (Seasonal) — NPS, Bayfield, Wisconsin (USAJOBS 892914800)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -119685,7 +119767,8 @@
         "href": "https://www.usajobs.gov:443/job/892917300",
         "label": "🔗 Biological Science Technician (Seasonal) — NPS, Multiple Locations (USAJOBS 892917300)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -119721,7 +119804,8 @@
         "href": "https://www.usajobs.gov:443/job/892917900",
         "label": "🔗 Biological Science Technician (General) (Seasonal) — NPS, Medora, North Dakota (USAJOBS 892917900)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -119757,7 +119841,8 @@
         "href": "https://www.usajobs.gov:443/job/892926900",
         "label": "🔗 Biological Science Technician (Fisheries) (Seasonal) — NPS, Multiple Locations (USAJOBS 892926900)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -119793,7 +119878,8 @@
         "href": "https://www.usajobs.gov:443/job/892927700",
         "label": "🔗 Biological Science Technician (Water Resources) (Seasonal) — NPS, Multiple Locations (USAJOBS 892927700)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -119829,7 +119915,8 @@
         "href": "https://www.usajobs.gov:443/job/892927800",
         "label": "🔗 Biological Science Technician (Vegetation) (Seasonal) — NPS, Luray, Virginia (USAJOBS 892927800)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -119865,7 +119952,8 @@
         "href": "https://www.usajobs.gov:443/job/892928000",
         "label": "🔗 Biological Science Technician (Insects & Plants) (Seasonal) — NPS, International Falls, Minnesota (USAJOBS 892928000)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Service / Corps",
@@ -120820,7 +120908,8 @@
         "href": "https://www.governmentjobs.com/careers/michigan/jobs/5551154/laboratory-technician-e-environmental-chemistry-trace-metals-unit",
         "label": "🔗 Laboratory Technician-E, Environmental Chemistry — Trace Metals Unit (Michigan)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Internship",
@@ -121115,7 +121204,8 @@
         "href": "https://www.usajobs.gov:443/job/892759500",
         "label": "🔗 Biological Science Technician (Plants) (Seasonal) GS-4/7 — BLM, Multiple Locations (USAJOBS 892759500)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -121152,7 +121242,8 @@
         "href": "https://www.usajobs.gov/job/892896100",
         "label": "🔗 Biological Science Technician (Wildlife) (Seasonal), GS-8/9 - Grand Canyon / North Rim — National Park Service, Grand Canyon National Park, Grand Canyon & North Rim, AZ"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -121237,7 +121328,7 @@
       "kind": "s-new",
       "label": "✨ New — November 17, 2026"
     },
-    "cycle": "current",
+    "cycle": "next",
     "deadline_kind": "fixed",
     "region": "Southwest",
     "id": "item-2889",
@@ -121299,7 +121390,8 @@
         "href": "https://www.usajobs.gov/job/892828000",
         "label": "🔗 Physical Science Technician (Seasonal) — Bureau of Land Management, Carson City, NV; Buffalo, Pinedale and Rock Springs, WY"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -121444,7 +121536,8 @@
         "href": "https://mtstatejobs.taleo.net/careersection/200/jobdetail.ftl?job=26142672",
         "label": "🔗 Range Conservation Scientist 1 - Land Use Specialist — Montana DNRC - Eastern Land Office, Miles City, MT"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -121592,7 +121685,8 @@
         "href": "https://www.usajobs.gov/job/892645400",
         "label": "🔗 Physical Science Technician (Seasonal) — Bureau of Land Management, Canon City, CO; Pinedale and Rock Springs, WY"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -121629,7 +121723,8 @@
         "href": "https://www.usajobs.gov/job/892727600",
         "label": "🔗 Range Aid (Seasonal) — Bureau of Land Management, Havre and Miles City, MT; Fillmore, UT"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -121666,7 +121761,8 @@
         "href": "https://www.usajobs.gov/job/892898300",
         "label": "🔗 Biological Science Technician (Fisheries) (Seasonal) — National Park Service, Colter Bay and Moose, WY (Grand Teton NP)"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Internship",
@@ -121810,7 +121906,8 @@
         "href": "https://mtstatejobs.taleo.net/careersection/200/jobdetail.ftl?job=26142655",
         "label": "🔗 Wildlife Technician (Biologist 1 - Technician 5), Nongame Wildlife Program — Montana Fish, Wildlife & Parks, Miles City (Region 7), MT"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -122570,7 +122667,8 @@
         "href": "https://pointblueconservationscience.applytojob.com/apply/XChPat59dM/FullTime-Northern-Spotted-Owl-Monitoring-Technicians-Seasonal",
         "label": "🔗 Full-Time Northern Spotted Owl Monitoring Technicians (Seasonal) — Point Blue Conservation Science, Marin County, CA"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
@@ -122717,7 +122815,8 @@
         "href": "https://www.usajobs.gov/job/893098100",
         "label": "🔗 Ecologist (Plants) (Seasonal) — National Park Service, Anchorage, Alaska"
       }
-    ]
+    ],
+    "expired": true
   },
   {
     "type": "Career Position",
